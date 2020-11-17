@@ -707,3 +707,4 @@
 729,STARBURSTSHY,Ipernova,134,150,FAIRY,Special,100,5,0,00,0,efn,"Un'esplosione stellare infligge danni in base all'attacco più alto, ignorando qualsiasi Protezione."
 730,STARBURSTTRI,Ipernova,134,150,SOUND,Special,100,5,0,00,0,efkn,"Un'esplosione stellare infligge danni in base all'attacco più alto, ignorando qualsiasi Protezione."
 731,STARBURSTSHU,Ipernova,134,150,DRAGON,Special,100,5,0,00,0,efn,"Un'esplosione stellare infligge danni in base all'attacco più alto, ignorando qualsiasi Protezione."
+732,MAGNETICFLUX,Controllo Polare,137,0,ELECTRIC,Status,0,20,04,0,d,"Controllando i campi magnetici, aumentano Difesa e Difesa Speciale degli alleati con abilità Più o Meno."
