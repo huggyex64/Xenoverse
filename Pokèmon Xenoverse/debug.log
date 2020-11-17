@@ -1,0 +1,4 @@
+[0209/103251.140:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Google\Chrome: Impossibile trovare il percorso specificato. (0x3)
+[0209/103252.013:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Google\Chrome: Impossibile trovare il percorso specificato. (0x3)
+[0209/103252.080:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pipe terminata. (0x6D)
+[0209/103253.043:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled

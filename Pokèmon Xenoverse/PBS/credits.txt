@@ -1,0 +1,474 @@
+Created by:
+Fabrizio Laborano (Starkey)
+
+Eventer:
+Christian Sardano (ZioCricco)
+Fabrizio Laborano (Starkey)
+Nicola (Nalkio)
+Pietro Fanti (Sasso)
+
+Scripting:
+Alvise Gorinati (Dr. Aghs)
+Federico Rapetti (Fuji)
+Paolo Lella (xZekro51)
+
+Mapping:
+Christian Sardano (ZioCricco)
+Fabrizio Laborano (Starkey)
+Ivan Vanni (IvanFGK)
+Nicola (Nalkio)
+Pietro Fanti (Sasso)
+
+Level Design:
+Admir Hyka (Adi)
+Chrome
+Fabrizio Laborano (Starkey)
+Ivan Vanni (IvanFGK)
+Massimiliano Bruni (Makly)
+Nicola (Nalkio)
+
+Level Trainer:
+Admir Hyka(Adi)
+Michele Schirinzi (Mike)
+
+Competitive Design:
+Elite4
+Gianluca Barbera (Barbie)
+Massimiliano Bruni (Makly)
+Matteo Facchinelli (Fachinhell)
+Michele Schirinzi (Mike)
+
+Item Collocation:
+Admir Hyka (Adi)
+
+PBS:
+Fabrizio Laborano (Starkey)
+Michele Schirinzi (Mike)
+Paolo Lella (xZekro51)
+
+Dialogues:
+Massimilano Bruni (Makly)
+Michele Schirinzi (Mike)
+
+Art Direction:
+Elite4
+Gianluca Barbera (Barbie)
+Massimiliano Bruni (Makly)
+Matteo Facchinelli (Fachinhell)
+Michele Schirinzi (Mike)
+
+Concept Art:
+Francesco Badalini (Badafra)
+Giancarlo (Deku)
+Gianluca Barbera (Barbie)
+Massimiliano Bruni (Makly)
+Matteo Fachinelli (Fachinhell)
+Michele Schirinzi (Mike)
+
+Battlebacks:
+Francesco Badalini (Badafra)
+Gianluca Barbera (Barbie)
+Massimiliano Bruni (Makly)
+Mr. Skeetches
+
+Item Art:
+Giancarlo (Deku)
+Gianluca Barbera (Barbie)
+
+Tileset:
+Fabrizio Laborano (Starkey)
+Ivan Vanni (IvanFGK)
+Massimiliano Bruni (Makly)
+Matteo Facchinelli (Fachinhell)
+Michele Schirinzi (Mike)
+Nicola (Nalkio)
+
+Sprite:
+Alessandro Kondic
+Fabrizio Laborano (Starkey)
+Matteo Facchinelli (Fachinhell)
+Michele Schirinzi (Mike)
+Nicola Rana (Numb)
+
+Animation:
+Fabrizio Laborano (Starkey)
+Francesco Badalini (Badafra)
+Gianluca Barbera (Barbie)
+
+Animation Sprite 6/7 gen:
+OmegalingYT
+hyperactiveflummi
+iametrine
+diegotoon20
+snivy101
+Smogon Sprite Project
+
+UI Design:
+Gianluca Barbera (Barbie)
+Michele Schirinzi (Mike)
+Paolo Lella (xZekro51)
+
+Lighting:
+Fabrizio Laborano (Starkey)
+Massimiliano Bruni (Makly)
+
+3D Art:
+Fabrizio Laborano (Starkey)
+Matteo Fachinelli (Fachinhell)
+
+Music:
+Eugenio Intemerato
+Fabrizio Falco
+Federico Gemignani
+Francesco Cilurzo (Cydonia)
+Giovanni Santolla (Ikisudama)
+Lorenzo Varriano
+Mediograve
+Rebecca Tempestini
+Shino
+Tiziano Bellu
+
+
+Sound Effect:
+Giovanni Santolla (Ikisudama)
+Lorenzo Varriano
+
+Trailer:
+Fabrizio Laborano (Starkey)
+Francesco Badalini (Badafra)
+Gianluca Barbera(Barbie)
+
+Music Trailer:
+Francesco Cilurzo (Cydonia)
+Giovanni Santolla (Ikisudama)
+Lorenzo Varriano
+
+Beta Tester:
+Alessandro Laborano
+Andrea Abissi (Elvuis)
+Calloz
+Edoardo Marchetto (Scimmia)
+Ferdy Maccariello (Cold)
+Francesco Pepe (Boostaph)
+Gabriele Ferreccio (Gyro)
+Giovanni Santolla (Ikisudama)
+PacoScarso
+
+English Translate:
+Andrea Esposito
+Fabrizio Lo Iacono
+Lorenzo Fedrizzi
+Michele Schirinzi (Mike)
+Stefano Manno
+
+Twitch Supporter:
+Boostaph0
+Luke Genovese
+Il Fu Pascal
+FazNick
+Kuroeks (Gabriele Giugno)
+Zero
+Drgsly
+Giuseppe Gargano
+Cata Ita
+Max
+Luigi Patania Lucyan
+White Zekrom
+Pavolo99
+christian061106
+Samuele Vinci
+Gigio25
+UltraDen
+Andrea Conti
+Beatrice
+Drago Stea
+3lectricfr0st06
+Francesco Matrone
+Lorezoldik
+Anodachi
+John
+Vincenzo Loscalzo
+Sergio Falcone
+Ottavio Pace
+IlVecchioKamikaze
+TN
+Sandro Vegas
+Gabb ch
+Chlaunder
+Luca T Junior
+faderquidam
+Lightalababama
+Meo Dux
+Aero FOLINO
+Moggie9
+Francesco Amerigo Giambanco
+Magolor139
+Faber76
+Joti92
+BlueVera
+Nitrox91
+Raffaele Nero
+Susie
+Luca Gandolfi
+Malpercio90
+Alelley
+Arsenic Gengar
+miralore02
+Ciro Montagna
+Domenico Sironi
+Lorenzo D'Errico
+Federico Prosdocimi
+Gabriele Gibilras
+Polski2
+Garnet14
+Dragonalex02
+Ataashi
+Chakra
+Antonino Lo Coco
+Dominic22ita
+Pasquale
+frasso123
+G4Jake
+Ruben Albano
+Il Meggio
+Ada Desimone
+Romix
+Matteo Pappalardo
+hellmo
+Lufa5757
+Heroesblack
+Saibbaturi
+Alessandro Carzeri
+Elia Dapra
+Daniele Tizzi
+Hilaris Nephrite
+Pietro Maiorano
+Giuliano Talmon
+Giovanni Noe
+Armoss
+Riccardo Galliero
+Feb997
+Blacksheep
+Prompo Rh
+Samuele Spiga
+Zuno (Bruno Zollino)
+Michele Visona
+Tonito 75 Noyl
+Ina
+28fury28
+Antonio Guariglia
+XmAtX
+GaetanoTuf
+Sghery90
+AlbertoCesare Campia
+Impimatte
+Phoenix027
+Giovanni Belmonte
+Nicola Matteucci 97
+Moreno
+Palma
+Ryzko Live
+Domenico Ruggiero
+Riccardo Lozza
+Karimpinna
+Steka 96
+Andrei
+Gioele De Gaetano
+Pugleezy
+noirr
+SonDitto
+Nicole (vyndraa)
+St3RmY
+Louneigg
+Mauro 3
+Riccardo Zago
+Raffaele (Flaffo)
+Drew
+L1l T
+Luca Del Vecchio
+Paolo (Inevitable Paoletto)
+lorenzo_gasbo
+PazzoPietro
+Carlo Pisano
+Wagner Jeager
+Erik Rocha
+IronNMatt
+Simone Pedrocchi
+Manuel Marchetti
+Mattia Di Stefano
+Ferdy
+EMSlrocco
+Piramidos
+Domenico Scalici
+Morgan Berti
+Fortebrako
+Donbox98
+Marco Bottasso
+TanJem
+RodinTheMerchant
+Daniele Bag
+Edoardo (CopperHidra)
+GoodMaxy
+de_cifris
+Flareus
+Oranges4Lunch
+Luca Mason
+Francesco Alessi
+Andrea (Andreal 94)
+Ray Amyrand
+Incineroar (Zack)
+Zannaleok
+Joj
+Luke
+Sans05
+Domenico Russo
+Tamashii Wukong
+Davide Esposito
+Fed Del
+Kys
+Francesco Pio De Rosario
+Ruben
+fra dig 126
+TheGiulioCesare
+alexander previtali
+Andrea (AndreaBellinvia)
+Christian S.Torrisi
+Lorex297
+Okami
+Giuseppe Tringali
+Leandro Mattera
+Giacomo Donadel
+ILFoglia
+Samuele Bitossi
+Simone Cardin
+Gwindolyn
+Marx
+vanoclorico
+Anna Cascioli
+uselessAlbatross
+Davide Mark
+giuseppefazzo
+ImFedehh
+christian pacca
+Cmajo99
+Andrea Maruzzella
+Beretta Matteo
+Crody
+Luca Fagnoni
+LukeKrookodileWalker
+Mattia L
+Federica Celes
+SamRoYaL
+Rasho
+Ciaoma00
+Simone Rodolfi
+Sofy
+Snoopy
+Alenas
+Andrea (Andre03997)
+Lucalik
+Aderot 36
+Roblank
+fragolinobello.
+tia
+Alex (Light68)
+Trish
+Savile
+Edoardo Giuseppe Milazzo
+marcogianne
+Valerio Barone
+Angelo (FlameWOLFx31)
+Matteo (LeChuckIV)
+Francesco (ShinySoul)
+vivi vi
+Matteo Boddi
+MrElectricYT
+Yaro
+pand3mia
+Zippy
+Gavril CMP
+Alessio Vicario
+Mattia 
+Vincenzo Carpignano
+EnderWalker_
+
+Special Supporter:
+Alessandro Laborano
+Chiara Rocco
+Daniel Hale (Dlarzz)
+Davide Arena
+Federico Profaizer (Federic95ita)
+Federico Dore (Froz3n)
+Francesco Cilurzo (Cydonia)
+Francesco Pepe (Boostaph)
+Le Fave
+All staff of Pokemon Millennium
+Martina Pasqui (Kenoia)
+Mattia Vastarella
+Rosa La Brocca
+Thomas Squall
+
+"Pokémon Essentials" was created by:
+Flameguru
+Poccil (Peter O.)
+Maruno
+
+With contributions from:
+AvatarMonkeyKirby<s>MiDas Mike
+Boushy<s>Near Fantastica
+Brother1440<s>PinkMan
+FL.<s>Popper
+Genzai Kawakami<s>Rataime
+Harshboy<s>SoundSpawn
+help-14<s>the__end
+IceGod64<s>Venom12
+Jacob O. Wobbrock<s>Wachunga
+KitsuneKouta<s>xLeD
+Lisa Anthony<s>
+and everyone else who helped out
+
+Credit for Gen 6/7 Project:
+Project Organization:
+WorldSlayer
+OmegalingYT
+hyperactiveflummi
+iametrine
+diegotoon20
+snivy101
+Smogon XY/SM Sprite Project
+
+Pokemon Sprites:
+http://www.pkparaiso.com/
+/u/sicns
+/u/Evolemon
+
+PBS file editing:
+mej71<s>karstictrainer
+WorldSlayer<s>TheDeKay
+viperk1<s>SunakazeKun
+Radical Raptr<s>RPD490
+Takyon!<s>Pokegod7020
+
+Research:
+Drakath569<s>Florio
+MrDeepDarkMind<s>snooper117
+
+Scene_Credits script was created by:
+Unknown<s>MiDas Mike
+AvatarMonkeyKirby<s>Maruno
+
+UltimateTitleScreen and many other scripts by:
+Luka S.J.
+
+"RPG Maker XP" by:
+Enterbrain
+
+If we forgot to mention you, please forgive us and contact us:
+weedlechannel@gmail.com
+
+Thanks to all our supporters for the patience.
+We hope you liked the game.
+
+
+
+

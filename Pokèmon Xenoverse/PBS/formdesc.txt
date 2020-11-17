@@ -1,0 +1,257 @@
+[1018_1]
+DESCRIPTION=(Manto Shyleon)\n Soffre molto la solitudine e per poter avvicinare gli esseri umani e gli altri Pokémon, cela il suo tremendo aspetto sotto a un panno.
+[1018_2]
+DESCRIPTION=(Manto Trishout)\n Soffre molto la solitudine e per poter avvicinare gli esseri umani e gli altri Pokémon, cela il suo tremendo aspetto sotto a un panno.
+[1018_3]
+DESCRIPTION=(Manto Shulong)\n Soffre molto la solitudine e per poter avvicinare gli esseri umani e gli altri Pokémon, cela il suo tremendo aspetto sotto a un panno.
+[1021_1]
+DESCRIPTION=(Forma Terrestre)\n L'Energia Rossa ha acuito la sua capacità di mimetizzarsi. Nel suo habitat è praticamente impossibile da individuare.
+HEIGHT=0.8
+WEIGHT=22.5
+KIND=Maschera
+[1021_2]
+DESCRIPTION=(Forma Xenoverse)\n Ha acquisito poteri magici assorbendo l'Energia Blu. Un'antica civiltà del passato lo venerava come una divinità.
+HEIGHT=2.7
+WEIGHT=77
+KIND=Maschera
+[1021_3]
+DESCRIPTION=(Forma Astro)\n Il reale aspetto di Shyleon. In tempi antichissimi, combatté coi suoi fratelli al fianco di Luxflon per scongiurare il Caos nell'universo.
+HEIGHT=2.9
+WEIGHT=80
+KIND=Novastella
+[1022_1]
+DESCRIPTION=(Forma Terrestre)\n È divenuto più combattivo grazie all'Energia Terrestre. In lotta si scatena con fiamme roventi che sprigiona dal corno.
+HEIGHT=0.9
+WEIGHT=20
+KIND=Urlocertola
+[1022_2]
+DESCRIPTION=(Forma Xenoverse)\n L'Energia Blu gli ha conferito un potere esplosivo incontenibile. Espellendo aria dai fori sul corpo, accresce l'intensità dei propri boati.
+HEIGHT=1.6
+WEIGHT=99
+KIND=Urlocertola
+[1022_3]
+DESCRIPTION=(Forma Astro)\n Il reale aspetto di Trishout. In tempi antichissimi, combatté coi suoi fratelli al fianco di Luxflon per scongiurare il Caos nell'universo.
+HEIGHT=3.1
+WEIGHT=79
+KIND=Novastella
+[1023_1]
+DESCRIPTION=(Forma Terrestre)\n L'energia del Pianeta Terra gli ha mutato la pelle in una coriacea armatura. Ad ogni ferita si rialza più forte.
+HEIGHT=0.8
+WEIGHT=29
+KIND=Dragoblu
+[1023_2]
+DESCRIPTION=(Forma Xenoverse)\n L'esposizione all'Energia Blu lo ha reso aggressivo e territoriale. Niente e nessuno può tenergli testa in una lotta subacquea.
+HEIGHT=2.2
+WEIGHT=88
+KIND=Dragoblu
+BattlerPlayerY=25
+BattlerEnemyY=25
+[1023_3]
+DESCRIPTION=(Forma Astro)\n Il reale aspetto di Shulong. In tempi antichissimi, combatté coi suoi fratelli al fianco di Luxflon per scongiurare il Caos nell'universo.
+HEIGHT=3.1
+WEIGHT=130
+KIND=Novastella
+[1029_1]
+TYPE1=6
+TYPE2=7
+DESCRIPTION=(Spettroveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_2]
+TYPE1=6
+TYPE2=15
+DESCRIPTION=(Geloveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_4]
+TYPE1=6
+TYPE2=17
+DESCRIPTION=(Scuroveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_5]
+TYPE1=6
+TYPE2=13
+DESCRIPTION=(Tuonoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_6]
+TYPE1=6
+TYPE2=1
+DESCRIPTION=(Pugnoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_7]
+TYPE1=6
+TYPE2=2
+DESCRIPTION=(Voloveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_8]
+TYPE1=6
+TYPE2=12
+DESCRIPTION=(Erboveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_9]
+TYPE1=6
+TYPE2=5
+DESCRIPTION=(Litoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_10]
+TYPE1=6
+TYPE2=0
+DESCRIPTION=(Normoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_11]
+TYPE1=6
+TYPE2=3
+DESCRIPTION=(Fieleveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_12]
+TYPE1=6
+TYPE2=4
+DESCRIPTION=(Geoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_13]
+TYPE1=6
+TYPE2=8
+DESCRIPTION=(Ferroveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_14]
+TYPE1=6
+TYPE2=11
+DESCRIPTION=(Idroveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_15]
+TYPE1=6
+TYPE2=9
+DESCRIPTION=(Suonoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_16]
+TYPE1=6
+TYPE2=14
+DESCRIPTION=(Psicoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_17]
+TYPE1=6
+TYPE2=16
+DESCRIPTION=(Dracoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1029_18]
+TYPE1=6
+TYPE2=18
+DESCRIPTION=(Fataveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+[1030_1]
+DESCRIPTION=(Forma Chitarrista)\n Si ritiene che rappresenti la musica in tutte le sue forme. Pizzicando i grandi baffi, realizza assoli così elettrizzanti da far rizzare il pelo. 
+HEIGHT=0.7
+WEIGHT=9.7
+TYPE1=13
+TYPE2=9
+[1030_2]
+DESCRIPTION=(Forma Percussionista)\n Si ritiene che rappresenti la musica in tutte le sue forme. Percuotendosi il petto con le bacchette, dà la carica a sé stesso e ai compagni. 
+HEIGHT=1.6
+WEIGHT=82
+TYPE1=1
+TYPE2=9
+[1030_3]
+DESCRIPTION=(Forma Bassista)\n Si ritiene che rappresenti la musica in tutte le sue forme. Strimpella la sua coda tranquillo, ma talvolta può sorprendere con dei groove energici.
+HEIGHT=1.9
+WEIGHT=99.7
+TYPE1=17
+TYPE2=9
+[1049_1]
+DESCRIPTION=(Forma Terrestre)\n L'esposizione all'Energia Terrestre sembra aver sortito degli effetti. Scarica i suoi fulmini all'improvviso, avvolto tra le tenebre del suo mantello.
+HEIGHT=0.8
+WEIGHT=21.7
+[1049_2]
+DESCRIPTION=(Forma Xenoverse)\n Sembra risentire anche dell'influsso dell'Energia Blu, divenendo più selvatico e truce. Lancia poderosi tuoni neri dalla criniera irta di elettricità.
+HEIGHT=1.7
+WEIGHT=111
+[1077_1]
+DESCRIPTION=(Tinta Rossa)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
+[1077_2]
+DESCRIPTION=(Tinta Gialla)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
+[1077_3]
+DESCRIPTION=(Tinta Blu)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
+[1077_4]
+DESCRIPTION=(Tinta Viola)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
+[1079_1]
+DESCRIPTION=(Forma Agglomeratto)\n Le zone più inquinate delle città brulicano di Chimaooze. Quando è in pericolo, chiama a raccolta tutti i suoi simili per debellare la minaccia.
+HEIGHT=7.8
+WEIGHT=274.8
+[1217_1]
+DESCRIPTION=(Forma Tempesta)\n Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
+TYPE1=13
+[19_1d]
+DESCRIPTION=(Forma di Alola)\n Di notte si intrufola nelle case in cerca di cibo. La presenza massiccia di questi Pokémon è diventata un problema.
+HEIGHT=0.3
+WEIGHT=3.8
+TYPE1=17
+TYPE2=0
+[20_1d]
+DESCRIPTION=(Forma di Alola)\n Si circonda di Rattata con cui forma il proprio branco. Nei branchi regna la discordia e spesso sorgono feroci dispute per il cibo.
+HEIGHT=0.7
+WEIGHT=25.5
+TYPE1=17
+TYPE2=0
+[26_1d]
+DESCRIPTION=(Forma di Alola)\n Se pizzicate, le sue guance emanano un dolce profumo, però danno anche una leggera scossa.
+HEIGHT=0.7
+WEIGHT=21
+TYPE1=13
+TYPE2=14
+[27_1d]
+DESCRIPTION=(Forma di Alola)\n La pelle rinforzata della schiena è dura come l'acciaio. Per proteggere il ventre molle, si avvinghia al terreno con tutte le forze.
+HEIGHT=0.7
+WEIGHT=40
+TYPE1=15
+TYPE2=8
+[28_1d]
+DESCRIPTION=(Forma di Alola)\n Piantando saldamente gli artigli affilati, riesce a scalare senza scivolare persino gli iceberg.
+HEIGHT=29.5
+WEIGHT=55
+TYPE1=15
+TYPE2=8
+[37_1d]
+DESCRIPTION=(Forma di Alola)\n I Vulpix vivono in branco aiutandosi a vicenda. Divorano le prede dopo averle congelate con il loro soffio a -50 C.
+HEIGHT=0.6
+WEIGHT=9.9
+TYPE1=15
+[38_1d]
+DESCRIPTION=(Forma di Alola)\n In passato era proibito mettere piede sulle montagne abitate dai Ninetales, perché si pensava che fossero visitate dalle divinità.
+HEIGHT=1.1
+WEIGHT=19.9
+TYPE1=15
+TYPE2=18
+[50_1d]
+DESCRIPTION=(Forma di Alola)\n È più forte dei Diglett delle altre regioni perché si allena scavando nel terreno lavico.
+HEIGHT=0.2
+WEIGHT=1
+TYPE1=4
+TYPE2=8
+[51_1d]
+DESCRIPTION=(Forma di Alola)\n Le sue chiome dorate sono in grado di rilevare le vibrazioni di un suono prodotto a diversi chilometri di distanza.
+HEIGHT=33.3
+WEIGHT=66.6
+TYPE1=4
+TYPE2=8
+[74_1d]
+DESCRIPTION=(Forma di Alola)\n La polvere metallica sulla testa si raggruma nei punti in cui l'attrazione magnetica è più forte.
+HEIGHT=0.4
+WEIGHT=20.3
+TYPE1=5
+TYPE2=13
+[75_1d]
+DESCRIPTION=(Forma di Alola)\n Il suo corpo è interamente pervaso dall'elettricità. Ha un carattere molto litigioso.
+HEIGHT=1
+WEIGHT=110
+TYPE1=5
+TYPE2=13
+[76_1d]
+DESCRIPTION=(Forma di Alola)\n In caso di terremoto, questi Pokémon rotolano giù per i monti in massa e si fermano a valle.
+HEIGHT=1.7
+WEIGHT=316
+TYPE1=5
+TYPE2=13
+[88_1d]
+DESCRIPTION=(Forma di Alola)\n E' stato introdotto ad Alola per risolvere il problema dello smaltimento dei rifiuti.
+HEIGHT=0.7
+WEIGHT=42
+TYPE1=3
+TYPE2=17
+[89_1d]
+DESCRIPTION=(Forma di Alola)\n Quelli che sembrano denti e artigli sono in realtà tossine cristallizzate che avvelenano al solo contatto.
+HEIGHT=1
+WEIGHT=52
+TYPE1=3
+TYPE2=17
+[103_1d]
+DESCRIPTION=(Forma di Alola)\n Agita il lungo collo come una frusta per colpire l’avversario con le teste, però rimane un po’ stordito anche lui.
+HEIGHT=10.9
+WEIGHT=415.6
+TYPE1=12
+TYPE2=16
+[105_1d]
+DESCRIPTION=(Forma di Alola)\n Appicca un fuoco maledetto che continuerà a bruciare in eterno per quanta acqua ci si versi sopra.
+HEIGHT=1
+WEIGHT=34
+TYPE1=10
+TYPE2=7
