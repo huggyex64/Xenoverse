@@ -260,7 +260,7 @@
 260,GENIUSWING,Piumingegno,2,3000,Strumento da usare su un Pokémon. Ne aumenta di poco i punti base dell'Atacco Speciale.,1,0,0,
 261,CLEVERWING,Piumintuito,2,3000,Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Difesa Speciale.,1,0,0,
 262,SWIFTWING,Piumreazione,2,3000,Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Velocità.,1,0,0,
-263,RARECANDY,Caramella Rara,2,4800,Caramella altamente energetica. Fa salire un Pokémon di un livello.,1,0,0,
+263,RARECANDY,Caramella Rara,2,10000,Caramella altamente energetica. Fa salire un Pokémon di un livello.,1,0,0,
 264,MASTERBALL,Master Ball,3,0,La Ball dalle prestazioni migliori: cattura qualsiasi Pokémon selvatico senza mai fallire.,0,2,4,
 265,ULTRABALL,Ultra Ball,3,1200,Ball dalle prestazioni eccellenti: fornisce maggiori probabilità di cattura rispetto alla Mega Ball.,0,2,4,
 266,GREATBALL,Mega Ball,3,600,Ball dalle ottime prestazioni: fornisce maggiori probabilità di cattura rispetto alla Poké Ball.,0,2,4,
