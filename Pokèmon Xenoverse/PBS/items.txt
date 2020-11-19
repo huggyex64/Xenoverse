@@ -707,7 +707,7 @@
 748,SOUVENIREGNO,Baccamela Caramellata,8,0,"Prelibatezza del Regno di Virgopoli. Non sembrerebbe avere alcuna utilità.",0,0,0,
 749,SOUVENIRCANSIRIA,Idolo di Fuoco,8,0,"Statuetta raffigurante un Pokémon venerato a Cansiria. Non sembrerebbe avere alcuna utilità.",0,0,0,
 750,SOUVENIRAQUARIOPOLI,Acqua Mistica,8,0,"Boccetta della miracolosa acqua di Aquariopoli. Non sembrerebbe avere alcuna utilità.",0,0,0,
-751,SOUVENIRCAPRICORNIA,Scacciasogni,8,0,Un Souvenir di Capricornia. Forse scambiandolo si può ottenere qualcosa?,0,0,0,
+751,SOUVENIRCAPRICORNIA,Scacciasogni,8,0,Un Souvenir di Capricornia. Non sembrerebbe avere alcuna utilità.,0,0,0,
 752,SOUVENIRSCORPIOPOLI,Romanzo di Crisante,8,0,"Best-seller del Capopalestra scrittore di Scorpiopoli. Non sembrerebbe avere alcuna utilità.",0,0,0,
 753,SOUVENIRLEOPOLI,Autografo di Daddy,8,0,"Autografo della superstar di Leopoli Wallace Daddy. Non sembrerebbe avere alcuna utilità.",0,0,0,
 754,SOUVENIROFIUCHIA,Idolo d'Erba,8,0,"Statuetta raffigurante un Pokémon venerato a Ofiuchia. Non sembrerebbe avere alcuna utilità.",0,0,0,
