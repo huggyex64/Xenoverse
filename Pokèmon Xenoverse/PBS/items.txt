@@ -699,7 +699,7 @@
 740,HYPNOITE,Hypnoite,1,0,"Un esemplare delle misteriose Megapietre. Data a Hypno, gli permette di megaevolversi durante la lotta.",0,0,0,
 741,REGISTRATORE,Registratore,8,0,"Vecchia cassetta su cui è registrata una melodia al pianoforte.",0,0,0,
 742,SOUVENIRANCH,Campana Mumu,8,0,"Campanaccio dei Miltank del Ranch Spigadoro. Non sembrerebbe avere alcuna utilità.",0,0,0,
-743,SOUVENIRBALANSOPOLI,Splendisabbia,8,0,"Boccetta contenente sabbia della Spiaggia Polvostella. Non sembrerebbe avere alcuna utilità.",0,0,0,
+743,SOUVENIRBALANSOPOLI,Splendisabbia,8,0,"Sacchetto contenente sabbia della Spiaggia Polvostella. Non sembrerebbe avere alcuna utilità.",0,0,0,
 744,SOUVENIRPIGLIAPESCI,Rete Pescagrossa,8,0,"Rete utilizzata dai pescatori dell'Isola Pigliapesci. Non sembrerebbe avere alcuna utilità.",0,0,0,
 745,SOUVENIRVETTA,Cristallo di ghiaccio,8,0,"Formazione glaciale rinvenuta a Vetta Polare. Non sembrerebbe avere alcuna utilità.",0,0,0,
 746,SOUVENIRCAMPUS,Attestato del Campus,8,0,"Attestato rilasciato dal Campus Ariepoli. Non sembrerebbe avere alcuna utilità.",0,0,0,
