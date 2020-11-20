@@ -1,0 +1,1 @@
+732,CONTROLLOPOLARE,Controllo Polare,136,0,ELECTRIC,Status,0,20,0,20,0,d,"Controllando i campi magnetici, aumentano Difesa e Difesa Speciale degli alleati con abilità Più o Meno."
