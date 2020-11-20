@@ -358,9 +358,9 @@ SPHEAL,13
 CAMPEGGIATORE
 Pinerolo
 3
-MUK,32
-LINOONE,33
-GOLEM,34
+MUK,38
+LINOONE,39
+GOLEM,40
 #==============================
 CAMPEGGIATORE
 Minervo
@@ -664,7 +664,7 @@ HERACROSS,26
 CINTURANERA
 Zack
 1
-KUNGFUR,50
+KUNGFUR,44
 #==============================
 CINTURANERA
 Mustard
