@@ -665,7 +665,7 @@
 687,SPEEDSWAP,Velociscambio,161,0,PSYCHIC,Status,0,10,0,00,0,be,"Chi la usa scambia la propria Velocità con quella del bersaglio."
 688,SPIRITSHACKLE,Cucitura d'Ombra,0EF,80,GHOST,Physical,100,10,0,00,0,bef,"Chi la usa attacca il bersaglio e fissa la sua ombra a terra impedendogli di fuggire."
 689,SPOTLIGHT,Riflettore,16A,0,NORMAL,Status,0,15,0,00,3,bc,"Chi la usa accende un riflettore sopra il bersaglio deviando su di lui per quel turno tutti gli attacchi dei suoi nemici."
-690,STRENGHTSAP,Assorbiforza,160,0,GRASS,Status,0,10,0,00,0,bcf,"Fa recuperare una quantità di PS pari all’Attacco del bersaglio, che vedrà diminuire questa statistica."
+690,STRENGHTSAP,Assorbiforza,13B,0,GRASS,Status,0,10,0,00,0,bcf,"Fa recuperare una quantità di PS pari all’Attacco del bersaglio, che vedrà diminuire questa statistica."
 691,SUNSTEELSTRIKE,Astrocarica,163,100,STEEL,Physical,100,5,0,00,0,abef,"Chi la usa travolge il bersaglio con la potenza di una meteora. Questo attacco ignora l'Abilità del bersaglio."
 692,TEARFULLOOK,Occhionilucidi,13A,0,NORMAL,Status,0,20,0,00,0,ce,"Chi la usa guarda il bersaglio con gli occhi pieni di lacrime e gli fa perdere lo spirito combattivo, riducendone l'Attacco e l'Attacco Speciale."
 693,THROATCHOP,Colpo Infernale,16C,80,DARK,Physical,100,15,0,00,0,abef,"Chi viene colpito da questa mossa prova un dolore lancinante e non può più usare mosse di tipo Suono per due turni."
