@@ -628,7 +628,7 @@
 650,ACCELEROCK,Rocciarapida,0,40,ROCK,Physical,100,20,0,00,1,abef,"Chi la usa attacca il bersaglio colpendolo a tutta velocità. Questa mossa ha priorità alta."
 651,BEAKBLAST,Cannonbecco,CF20,100,FLYING,Physical,100,15,20,00,-3,bfg,"Chi la usa arroventa il proprio becco e poi attacca. Se un Pokémon lo colpisce con un attacco diretto mentre sta accumulando calore, resta scottato."
 652,BRUTALSWING,Vorticolpo,000,60,DARK,Physical,100,20,0,08,0,abef,"Chi la usa infligge danni intorno a sé facendo ruotare una parte del suo corpo."
-653,BURNUP,Ultima Fiamma,CF17,130,FIRE,Special,100,5,0,00,0,bef,"Chi la usa attacca sfruttando tutta la sua potenza incendiaria, ma come conseguenza perde il tipo Fuoco."
+653,BURNUP,Ultima Fiamma,16E,130,FIRE,Special,100,5,0,00,0,bef,"Chi la usa attacca sfruttando tutta la sua potenza incendiaria, ma come conseguenza perde il tipo Fuoco."
 654,CLANGINGSCALES,Clamorsquame,CF1,110,DRAGON,Special,100,5,0,04,0,befk,"Chi la usa attacca il bersaglio con un suono fortissimo che genera sfregando le scaglie del corpo. Dopo aver attaccato, la sua Difesa diminuisce."
 655,COREENFORCER,Nucleocastigo,CF21,100,DRAGON,Special,100,10,0,00,0,bef,"Il bersaglio subisce dei danni e, se ha già agito nel turno, perde la sua abilità."
 656,DARKESTLARIAT,Braccioteso,0A9,85,DARK,Physical,100,10,0,00,0,abef,"Chi la usa attacca il bersaglio mulinando gli arti. Il danno inflitto ignora le modifiche alle statistiche del bersaglio."
