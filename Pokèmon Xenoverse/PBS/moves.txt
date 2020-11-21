@@ -672,7 +672,7 @@
 694,TOXICTHREAD,Velenotela,159,0,POISON,Status,100,20,0,00,0,bce,"Avvelena il bersaglio avvolgendolo con filamenti tossici e ne riduce la Velocità."
 695,TROPKICK,Tropicalcio,042,70,GRASS,Physical,100,15,0,00,0,abef,"Chi la usa colpisce il bersaglio con una potente tecnica di calcio dei paesi tropicali e ne riduce l’Attacco."
 696,ZINGZAP,Elettropizzico,00F,80,ELECTRIC,Physical,100,10,30,00,0,abe,"Chi la usa colpisce il bersaglio investendolo con una potente scarica elettrica che può anche farlo tentennare."
-697,BANEFULBUNKER,Fortino,168,0,POISON,Status,0,10,0,10,4,,"L'utilizzatore si protegge e se l'avversario attacca con una mossa da contatto viene avvelenato."
+697,BANEFULBUNKER,Fortino,173,0,POISON,Status,0,10,0,10,4,,"L'utilizzatore si protegge e se l'avversario attacca con una mossa da contatto viene avvelenato."
 698,STOMPINGTANTRUM,Battipiedi,162,75,GROUND,Physical,100,10,0,00,0,abef,"Chi la usa attacca battendo i piedi per la rabbia. Se la mossa usata al turno precedente non è andata a segno, la potenza raddoppia."
 699,ANCHORSHOT,Colpo d'Ancora,0EF,80,STEEL,Physical,100,20,0,00,0,abe,"Chi la usa colpisce il nemico con un'ancora e lo intrappola nella catena impedendogli di fuggire."
 700,AURORAVEIL,Velaurora,167,0,ICE,Status,0,20,0,20,0,d,"Riduce i danni provocati dalle mosse fisiche e speciali per cinque turni. Può essere usata solo mentre grandina."
