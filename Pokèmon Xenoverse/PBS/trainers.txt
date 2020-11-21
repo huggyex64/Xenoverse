@@ -1013,7 +1013,7 @@ BREMAND,51
 FIGLIO_DEI_FIORI
 Pier
 1
-MASGOT,24,,,,,,,,1
+PUPPILLON,24
 #==============================
 FINALMAMMA
 Edera
@@ -1720,7 +1720,7 @@ REMORAID,18
 PESCATORE
 Rory
 1
-HONCHEN,27
+KIDOON,27
 #==============================
 PESCATORE
 Tino
