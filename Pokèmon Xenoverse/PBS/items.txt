@@ -274,7 +274,7 @@
 274,TIMERBALL,Timer Ball,3,1000,Poké Ball un po' diversa che diventa progressivamente più efficace con l'aumentare dei turni in lotta.,0,2,4,
 275,LUXURYBALL,Chic Ball,3,1000,Poké Ball utile che rende più amichevoli i Pokémon selvatici catturati.,0,2,4,
 276,PREMIERBALL,Premier Ball,3,200,Poké Ball rara che è stata realizzata appositamente per commemorare un particolare evento.,0,2,4,
-277,DUSKBALL,Scuro Ball,3,1000,Poké Ball un po' diversa che rende più facile catturare Pokémon selvatici di notte o in luoghi bui come le grotte.,0,2,4,
+277,DUSKBALL,Scuro Ball,3,1000,Poké Ball un po' diversa che rende più facile catturare Pokémon selvatici di notte.,0,2,4,
 278,HEALBALL,Cura Ball,3,300,Poké Ball curativa che ridà PS al Pokémon catturato e risolve ogni problema di stato.,0,2,4,
 279,QUICKBALL,Velox Ball,3,1000,Poké Ball un po' diversa che facilita la cattura di un Pokémon selvatico se usata all'inizio della lotta.,0,2,4,
 280,CHERISHBALL,Pregio Ball,3,200,Poké Ball rara che è stata creata per commemorare un evento speciale.,0,2,4,
