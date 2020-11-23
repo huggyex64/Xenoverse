@@ -84,10 +84,10 @@ Alakazam
 Kazam!
 Kazam!
 [Map3]
+<<[>>old<<]>>Casa dell'Insegnamosse
+<<[>>old<<]>>Casa dell'Insegnamosse
 <<[>>old<<]>>Palazzo del Cardinale
 <<[>>old<<]>>Palazzo del Cardinale
-<<[>>old<<]>>Casa di Draco
-<<[>>old<<]>>Casa di Draco
 Il Palazzo del Cardinale è al di là del ponte, ma pare che un Soldato blocchi l’accesso.
 Il Palazzo del Cardinale è al di là del ponte, ma pare che un Soldato blocchi l’accesso.
 <<[>>old<<]>>Il Vulcano Pulsar è un insidioso dungeon pieno zeppo di Pokémon selvatici. Fai scorta di Repellenti prima di avventurarti al suo interno!
@@ -129,14 +129,14 @@ No
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Ora va molto meglio.
-<<[>>old<<]>>Ora va molto meglio.
 Mariano
 Mariano
 Solo da Mariano, articoli mai visti a prezzi stracciati!!
- Solo da Mariano, articoli mai visti a prezzi stracciati!!
+Solo da Mariano, articoli mai visti a prezzi stracciati!!
+<<[>>old<<]>>Vuoi riposarti?
+<<[>>old<<]>>Vuoi riposarti?
+<<[>>old<<]>>Ora va molto meglio.
+<<[>>old<<]>>Ora va molto meglio.
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
@@ -155,6 +155,8 @@ Ahia, che batosta!
 Ahia, che batosta!
 Troverò altri modi per passare il tempo.
 Troverò altri modi per passare il tempo.
+<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>Il cestino è vuoto.
 Andrea
 Andrea
 Ho il mal di mare...
@@ -163,8 +165,6 @@ E ora anche lo stomaco in subbuglio...
 E ora anche lo stomaco in subbuglio...
 Forse lottare non è stata una buona idea...
 Forse lottare non è stata una buona idea...
-<<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>C'è qualcosa nel cestino.
 <<[>>old<<]>>C'è qualcosa nel cestino.
 <<[>>old<<]>> Smettila di usare i Cheat. Vai via.
@@ -527,38 +527,38 @@ Ehilà, \PN!
 [Map18]
 Funesto
 Funesto
-Ciao giovanotto|a! Mi presento, sono Funesto.
-Ciao giovanotto|a! Mi presento, sono Funesto.
-Se hai bisogno di ritornare all'entrata di questo dungeon, chiedi a me! Ti accompagnerò in un battibaleno!
-Se hai bisogno di ritornare all'entrata di questo dungeon, chiedi a me! Ti accompagnerò in un battibaleno!
-Ciao giovanotto|a! Hai bisogno di ritornare all'entrata del Dungeon?
-Ciao giovanotto|a! Hai bisogno di ritornare all'entrata del Dungeon?
-Molto bene! Non avere paura, c'è qui Funesto a soccorrerti!
-Molto bene!  Non avere paura, c'è qui Funesto a soccorrerti!
-Quando hai bisogno di me fammi un fischio.
-Quando hai bisogno di me fammi un fischio.
-<<[>>old<<]>> Masg...!
-<<[>>old<<]>> Masg...!
+Ciao giovanotto|a! Mi presento, sono <b>Funesto</b>.
+Ciao giovanotto|a! Mi presento, sono <b>Funesto</b>.
+Se hai bisogno di ritornare all'ingresso, chiedi a me! Ti accompagnerò in un battibaleno!
+Se hai bisogno di ritornare all'ingresso, chiedi a me! Ti accompagnerò in un battibaleno!
+Allora giovanotto|a, vuoi che ti riporti all'ingresso?
+Allora giovanotto|a, vuoi che ti riporti all'ingresso?
+Con Funesto si fa presto! Gambe in spalla!
+Con Funesto si fa presto! Gambe in spalla!
+Se hai bisogno, fammi un fischio.
+Se hai bisogno, fammi un fischio.
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>> Masg...!
+<<[>>old<<]>> Masg...!
 Joe
 Joe
 Io e i miei Pokémon ti dimostreremo la nostra gratitudine per aver salvato il bosco con una lotta!
 Io e i miei Pokémon ti dimostreremo la nostra gratitudine per aver salvato il bosco con una lotta!
 Avrei dovuto ringraziarti alla vecchia maniera...
 Avrei dovuto ringraziarti alla vecchia maniera...
-<<[>>old<<]>><b>Bosco Stellafilante</b> <i>''Un'oscura selva gremita di insetti.''</i>
-<<[>>old<<]>><b>Bosco Stellafilante</b> <i>''Un'oscura selva gremita di insetti.''</i>
+<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
+<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Damiano
 Damiano
 Queste hanno tutta l'aria di essere le impronte di un Pokémon raro... ma che dico, rarissimo!!
 Queste hanno tutta l'aria di essere le impronte di un Pokémon raro... ma che dico, rarissimo!!
-<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
-<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
+<<[>>old<<]>><b>Bosco Stellafilante</b> <i>''Un'oscura selva gremita di insetti.''</i>
+<<[>>old<<]>><b>Bosco Stellafilante</b> <i>''Un'oscura selva gremita di insetti.''</i>
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 Trishout
@@ -579,6 +579,10 @@ Shu...!
 Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+Roberta
+Roberta
+Stiamo conducendo delle ricerche all'insaputa di Aster, ma vedrai, sarà fiero di noi!
+Stiamo conducendo delle ricerche all'insaputa di Aster, ma vedrai, sarà fiero di noi!
 Nadir
 Nadir
 Grazie! Grazie di averci salvato!
@@ -599,32 +603,28 @@ Anch'io vorrei ringraziarti. Prendi questa!
 Anch'io vorrei ringraziarti. Prendi questa!
 Proseguendo per il <b>Percorso 6</b> arriverai a <b>Virgopoli</b>, un regno che ospita una Palestra. Se non hai fretta però potresti sfruttare la fauna di questa palude per allenarti. Ha tanti segreti da nascondere, sai? Beh, ora me ne torno a casa!
 Proseguendo per il <b>Percorso 6</b> arriverai a <b>Virgopoli</b>, un regno che ospita una Palestra. Se non hai fretta però potresti sfruttare la fauna di questa palude per allenarti. Ha tanti segreti da nascondere, sai? Beh, ora me ne torno a casa!
-Roberta
-Roberta
-Stiamo conducendo delle ricerche all'insaputa di Aster, ma vedrai, sarà fiero di noi!
-Stiamo conducendo delle ricerche all'insaputa di Aster, ma vedrai, sarà fiero di noi!
+Gianpiero
+Gianpiero
+Ehi, tu! Guarda che strano Pokémon Coleottero ho catturato!
+Ehi, tu! Guarda che strano Pokémon Coleottero ho catturato!
+Ah, non è un Coleottero...?
+Ah, non è un Coleottero...?
+<<[>>old<<]>>Radura Paludosa ad est Percorso 6 a sud
+<<[>>old<<]>>Radura Paludosa ad est Percorso 6 a sud
 <<[>>old<<]>>ATTENZIONE Allenatori! E' vietato l'utilizzo di Surf. L'acqua è troppo pericolosa per via della mole di Pokémon veleno che ci vivono. Firmato ''i cittadini di Borgo Gemini''.
 <<[>>old<<]>>ATTENZIONE Allenatori! E' vietato l'utilizzo di Surf. L'acqua è troppo pericolosa per via della mole di Pokémon veleno che ci vivono.  Firmato ''i cittadini di Borgo Gemini''.
-<<[>>old<<]>>Radura Paludosa ad est Percorso 6 a sud
-<<[>>old<<]>>Radura Paludosa ad est Percorso 6 a sud
-Gianpiero
-Gianpiero
-Ehi, tu! Guarda che strano Pokémon Coleottero ho catturato!
-Ehi, tu! Guarda che strano Pokémon Coleottero ho catturato!
-Ah, non è un Coleottero...?
-Ah, non è un Coleottero...?
+Gustavo
+Gustavo
+Finiti gli accertamenti potrai passare, ma al momento la zona è off-limit.
+Finiti gli accertamenti potrai passare, ma al momento la zona è off-limit.
+<<[>>old<<]>>Immergendosi in questa melma, i tuoi Pokémon rischiano di rimanere avvelenati, perciò cerca di attraversarla in fretta!
+<<[>>old<<]>>Immergendosi in questa melma, i tuoi Pokémon rischiano di rimanere avvelenati, perciò cerca di attraversarla in fretta!
 Fabio
 Fabio
 All'attacco, Heracross!!
 All'attacco, Heracross!!
 Sei stato bravissimo, Heracross.
 Sei stato bravissimo, Heracross.
-<<[>>old<<]>>Immergendosi in questa melma, i tuoi Pokémon rischiano di rimanere avvelenati, perciò cerca di attraversarla in fretta!
-<<[>>old<<]>>Immergendosi in questa melma, i tuoi Pokémon rischiano di rimanere avvelenati, perciò cerca di attraversarla in fretta!
-Gustavo
-Gustavo
-Finiti gli accertamenti potrai passare, ma al momento la zona è off-limit.
-Finiti gli accertamenti potrai passare, ma al momento la zona è off-limit.
 Max
 Max
 Ricordo ancora i bei vecchi boschi pullulanti di Weedle...
@@ -641,12 +641,10 @@ I miei piccoli amici!!
 I miei piccoli amici!!
 E poi è risaputo che, allo stadio base, i Pokémon imparano alcune mosse più in fretta!
 E poi è risaputo che, allo stadio base, i Pokémon imparano alcune mosse più in fretta!
-Si
-Si
-No
-No
 Sì
 Sì
+No
+No
 Cura Pokémon
 Cura Pokémon
 Usa Box
@@ -2531,8 +2529,6 @@ No
 [Map54]
 GO-GO, GRANBULLS!
 GO-GO, GRANBULLS!
-N-N-Non è come credi! Non sto spiando nessuno!
-N-N-Non è come credi! Non sto spiando nessuno!
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 Damiano
@@ -2545,6 +2541,8 @@ In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
 <<[>>old<<]>>Meglio non rischiare...
 <<[>>old<<]>>Meglio non rischiare...
+N-N-Non è come credi! Non sto spiando nessuno!
+N-N-Non è come credi! Non sto spiando nessuno!
 Il mare è la mia musa ispiratrice.
 Il mare è la mia musa ispiratrice.
 Solo da Damiano, articoli mai visti a prezzi stracciati!!
@@ -2561,10 +2559,10 @@ Si salpa allora!
 Si salpa allora!
 Se cambi idea, sai dove trovarmi.
 Se cambi idea, sai dove trovarmi.
-<<[>>old<<]>>Confraternita Granbulls
-<<[>>old<<]>>Confraternita Granbulls
 Sono certo che ora avrà occhi solo per me!
 Sono certo che ora avrà occhi solo per me!
+<<[>>old<<]>>Confraternita Granbulls
+<<[>>old<<]>>Confraternita Granbulls
 Quello strambo professore di Filosofia l'altro giorno mi ha regalato un sasso... Ho apprezzato il gesto, ma lo sanno tutti che oggigiorno le donne si conquistano coi Fossili!
 Quello strambo professore di Filosofia l'altro giorno mi ha regalato un sasso... Ho apprezzato il gesto, ma lo sanno tutti che oggigiorno le donne si conquistano coi Fossili!
 Sì
@@ -3743,8 +3741,6 @@ Sì
 Sì
 No
 No
-Si
-Si
 Cura Pokémon
 Cura Pokémon
 Usa Box
@@ -4855,16 +4851,16 @@ No
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 Fabiano
 Fabiano
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Sei in gamba.
-Sei in gamba.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-<<[>>old<<]>>Forse è meglio non aprirla.
-<<[>>old<<]>>Forse è meglio non aprirla.
-Sono un venditore ambulante, vuoi comprare qualcosa?
-Sono un venditore ambulante, vuoi comprare qualcosa?
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ho sbagliato ad accusarti, scusa!
+Ho sbagliato ad accusarti, scusa!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>Meglio non rischiare...
+Solo da Fabiano, articoli mai visti a prezzi stracciati!!
+Solo da Fabiano, articoli mai visti a prezzi stracciati!!
 Turtonator
 Turtonator
 Tuuurt....!
@@ -5316,6 +5312,12 @@ Dit...Hippo!
 Ho sempre vissuto da sola, ma i miei Hippopotas mi hanno aiutato a patire meno la solitudine. I Pokémon sono davvero delle creature straordinarie!
 Ho sempre vissuto da sola, ma i miei Hippopotas mi hanno aiutato a patire meno la solitudine. I Pokémon sono davvero delle creature straordinarie!
 [Map135]
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>Non hai abbastanza soldi.
 Tig
 Tig
 Ehi, ma guarda dove vai! Per poco non ti mettevo sotto!!
@@ -5324,82 +5326,32 @@ Tsk! Per stavolta hai avuto fortuna...!
 Tsk! Per stavolta hai avuto fortuna...!
 Non so se ti andrà altrettanto bene la prossima volta.
 Non so se ti andrà altrettanto bene la prossima volta.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
+<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+Piliano
+Piliano
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ho sbagliato ad accusarti, scusa!
+Ho sbagliato ad accusarti, scusa!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>Meglio non rischiare...
 Carolina
 Carolina
 Chi ha ali maestose, in volo è leggiadro ed elegante come il vento!
 Chi ha ali maestose, in volo è leggiadro ed elegante come il vento!
 In terra, però, delle ali maestose non sono che un peso.
 In terra, però, delle ali maestose non sono che un peso.
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
-Piliano
-Piliano
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Sei in gamba.
-Sei in gamba.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-<<[>>old<<]>>Forse è meglio non aprirla.
-<<[>>old<<]>>Forse è meglio non aprirla.
-Sono un venditore ambulante, vuoi comprare qualcosa?
-Sono un venditore ambulante, vuoi comprare qualcosa?
 <<[>>old<<]>>Stanno discutendo animatamente...
 <<[>>old<<]>>Stanno discutendo animatamente...
 <<[>>old<<]>>Stanno concordando tranquillamente i territori da dividersi.
 <<[>>old<<]>>Stanno concordando tranquillamente i territori da dividersi.
-Sandman
-Sandman
-Smettetela di insozzare coi vostri passi il canyon! Questa è la terra del popolo di <b>Capricornia</b>!
-Smettetela di insozzare coi vostri passi il canyon! Questa è la terra del popolo di <b>Capricornia</b>!
-Jackson
-Jackson
-Taci! Questo canyon è mio e della mia banda, capito?!
-Taci! Questo canyon è mio e della mia banda, capito?!
-Hol
-Hol
-Ah ah ah! Ma sentili!
-Ah ah ah! Ma sentili!
-E tu che vuoi?! Non sarai qui anche tu per strapparmi il mio canyon?!
-E tu che vuoi?! Non sarai qui anche tu per strapparmi il mio canyon?!
-Mi hai proprio tolto le parole di bocca!
-Mi hai proprio tolto le parole di bocca!
-Si sarà solo smarrito|a...
-Si sarà solo smarrito|a...
-Come come?! Vuoi farci collaborare? A chi pensi di fare la paternale, eh?!
-Come come?! Vuoi farci collaborare? A chi pensi di fare la paternale, eh?!
-Ti meriti proprio una bella lezione!
-Ti meriti proprio una bella lezione!
-Vi siete immischiato|a in questioni delicate, forestiero|a! Non avreste dovuto...!
-Vi siete immischiato|a in questioni delicate, forestiero|a! Non avreste dovuto...!
-Una volta tanto siamo d’accordo. Facciamo la pelle a ‘sto|a moccioso|a!!
-Una volta tanto siamo d’accordo. Facciamo la pelle a ‘sto|a moccioso|a!!
-...!
-...!
-Abbiamo unito le forze, davvero...?
-Abbiamo unito le forze, davvero...?
-Tsk! Sarà la fortuna del principiante...!
-Tsk! Sarà la fortuna del principiante...!
-Però è stato divertente lottare fianco a fianco, sapete?
-Però è stato divertente lottare fianco a fianco, sapete?
-Perché, anziché contenderci l’intero canyon, non ce lo spartiamo?
-Perché, anziché contenderci l’intero canyon, non ce lo spartiamo?
-Mi sembra una buona idea. Accontenteremmo tutti!
-Mi sembra una buona idea. Accontenteremmo tutti!
-Potremmo persino correrci in aiuto in caso di pericolo...
-Potremmo persino correrci in aiuto in caso di pericolo...
-Perdonatemi se sono stato brusco con voi, volevate solo riappacificarci... e ci siete riusciti! Vi prego, accettate questa come ringraziamento.
-Perdonatemi se sono stato brusco con voi, volevate solo riappacificarci... e ci siete riusciti! Vi prego, accettate questa come ringraziamento.
-Ora però fuori dai piedi! Abbiamo tanto di cui discutere.
-Ora però fuori dai piedi! Abbiamo tanto di cui discutere.
+Solo da Piliano, articoli mai visti a prezzi stracciati!!
+Solo da Piliano, articoli mai visti a prezzi stracciati!!
 55G
 55G
 L'abbiamo acciuffato, <b>Colonnello</b>! <i>Bzz!</i>
@@ -5422,6 +5374,8 @@ E lo stesso succederà se non collabori, chiaro?
 <<[>>old<<]>>Quello è il Team Dimension! Sembra proprio che stia tormentando Rapidash... Vuoi intervenire?
 Tu
 Tu
+...!
+...!
 Oh, ma guarda un po'! Chi abbiamo qui?
 Oh, ma guarda un po'! Chi abbiamo qui?
 Ehi, tu! Questo non è il posto adatto ai mocciosi, smamma! Kyah ah ah!
@@ -5484,6 +5438,48 @@ Rapidash X
 Rapidash X
 Mocciosetta, hai solo avuto fortuna!
 Mocciosetta, hai solo avuto fortuna!
+Sandman
+Sandman
+Smettetela di insozzare coi vostri passi il canyon! Questa è la terra del popolo di <b>Capricornia</b>!
+Smettetela di insozzare coi vostri passi il canyon! Questa è la terra del popolo di <b>Capricornia</b>!
+Jackson
+Jackson
+Taci! Questo canyon è mio e della mia banda, capito?!
+Taci! Questo canyon è mio e della mia banda, capito?!
+Hol
+Hol
+Ah ah ah! Ma sentili!
+Ah ah ah! Ma sentili!
+E tu che vuoi?! Non sarai qui anche tu per strapparmi il mio canyon?!
+E tu che vuoi?! Non sarai qui anche tu per strapparmi il mio canyon?!
+Mi hai proprio tolto le parole di bocca!
+Mi hai proprio tolto le parole di bocca!
+Si sarà solo smarrito|a...
+Si sarà solo smarrito|a...
+Come come?! Vuoi farci collaborare? A chi pensi di fare la paternale, eh?!
+Come come?! Vuoi farci collaborare? A chi pensi di fare la paternale, eh?!
+Ti meriti proprio una bella lezione!
+Ti meriti proprio una bella lezione!
+Vi siete immischiato|a in questioni delicate, forestiero|a! Non avreste dovuto...!
+Vi siete immischiato|a in questioni delicate, forestiero|a! Non avreste dovuto...!
+Una volta tanto siamo d’accordo. Facciamo la pelle a ‘sto|a moccioso|a!!
+Una volta tanto siamo d’accordo. Facciamo la pelle a ‘sto|a moccioso|a!!
+Abbiamo unito le forze, davvero...?
+Abbiamo unito le forze, davvero...?
+Tsk! Sarà la fortuna del principiante...!
+Tsk! Sarà la fortuna del principiante...!
+Però è stato divertente lottare fianco a fianco, sapete?
+Però è stato divertente lottare fianco a fianco, sapete?
+Perché, anziché contenderci l’intero canyon, non ce lo spartiamo?
+Perché, anziché contenderci l’intero canyon, non ce lo spartiamo?
+Mi sembra una buona idea. Accontenteremmo tutti!
+Mi sembra una buona idea. Accontenteremmo tutti!
+Potremmo persino correrci in aiuto in caso di pericolo...
+Potremmo persino correrci in aiuto in caso di pericolo...
+Perdonatemi se sono stato brusco con voi, volevate solo riappacificarci... e ci siete riusciti! Vi prego, accettate questa come ringraziamento.
+Perdonatemi se sono stato brusco con voi, volevate solo riappacificarci... e ci siete riusciti! Vi prego, accettate questa come ringraziamento.
+Ora però fuori dai piedi! Abbiamo tanto di cui discutere.
+Ora però fuori dai piedi! Abbiamo tanto di cui discutere.
 Efisio
 Efisio
 Spiegherò le mie ali e mi librerò in volo!
@@ -5713,6 +5709,10 @@ La fortuna non esiste. Esiste solo il momento in cui il talento incontra l’opp
 La fortuna sorride ad alcuni e ride di altri.
 La fortuna sorride ad alcuni e ride di altri.
 [Map144]
+<<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
+<<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
+<<[>>old<<]>>Sembra essere vuoto.
+<<[>>old<<]>>Sembra essere vuoto.
 C'è una piccola fessura nella parete... Vuoi provare ad abbatterla con una mossa di tipo Acqua di Shulong? [dispose]
 C'è una piccola fessura nella parete... Vuoi provare ad abbatterla con una mossa di tipo Acqua di Shulong? [dispose]
 Shulong
@@ -5721,28 +5721,24 @@ Shu...!
 Shu...!
 <<[>>old<<]>>Probabilmente per entrare in questo Nido, hai bisogno di un particolare Pokémon di tipo Acqua.
 <<[>>old<<]>>Probabilmente per entrare in questo Nido, hai bisogno di un particolare Pokémon di tipo Acqua.
-<<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
-<<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
-<<[>>old<<]>>Sembra essere vuoto.
-<<[>>old<<]>>Sembra essere vuoto.
 Ebi
 Ebi
 La regina è il nostro sole e noi faremo di tutto per far sì che splenda radiosa!
 La regina è il nostro sole e noi faremo di tutto per far sì che splenda radiosa!
 Nessuno potrà spegnere la sua luce...!
 Nessuno potrà spegnere la sua luce...!
-Fida
-Fida
-Chi sbaglia pedana dovrà vedersela con noi Soldati di Aquariopoli!
-Chi sbaglia pedana dovrà vedersela con noi Soldati di Aquariopoli!
-Non riuscirai ad abbatterci tutti!
-Non riuscirai ad abbatterci tutti!
 Ghali
 Ghali
 Aspettavo solo che un Allenatore piombasse giù dal cielo! Lottiamo!
 Aspettavo solo che un Allenatore piombasse giù dal cielo! Lottiamo!
 Adoro lottare, ancor più per la regina Verbena!
 Adoro lottare, ancor più per la regina Verbena!
+Fida
+Fida
+Chi sbaglia pedana dovrà vedersela con noi Soldati di Aquariopoli!
+Chi sbaglia pedana dovrà vedersela con noi Soldati di Aquariopoli!
+Non riuscirai ad abbatterci tutti!
+Non riuscirai ad abbatterci tutti!
 Hassan
 Hassan
 Chi sbaglia pagherà con la moneta della sconfitta!
@@ -7204,10 +7200,10 @@ Coraggio, giovane! Recupera tutti e quattro i galeotti e riportali qui. Sono cer
 Ricorda che faccio il tifo per te, come sempre!
 Ricorda che faccio il tifo per te, come sempre!
 [Map181]
-Delia
-Delia
-Ma quando passa questo treno?
-Ma quando passa questo treno?
+N0P3
+N0P3
+<i>Bzz!</i>
+<i>Bzz!</i>
 Capotreno
 Capotreno
 A-Aiuto...
@@ -7222,10 +7218,10 @@ C'era un uomo con lei... Un uomo il cui sguardo mi ha fatto raggelare il sangue 
 C'era un uomo con lei... Un uomo il cui sguardo mi ha fatto raggelare il sangue nelle vene! Dalle sue parole, ho supposto si trattasse di un suo superiore all'interno dell'organizzazione... Il Quasar Express è un pezzo della storia di Eldiw... Dobbiamo impedire che cada nelle mani sbagliate!
 Te lo chiedo col cuore in mano, ragazzo|a... Libera questo treno dalla morsa del male! Io farò ciò che posso, monitorando dalla stazione il tragitto che seguirà il treno... Tu passa all'azione intrufolandoti in questo vagone. Coraggio, giovane, confido in te!
 Te lo chiedo col cuore in mano, ragazzo|a... Libera questo treno dalla morsa del male! Io farò ciò che posso, monitorando dalla stazione il tragitto che seguirà il treno... Tu passa all'azione intrufolandoti in questo vagone. Coraggio, giovane, confido in te!
-N0P3
-N0P3
-<i>Bzz!</i>
-<i>Bzz!</i>
+Delia
+Delia
+Il treno ha fischiato.
+Il treno ha fischiato.
 DX3
 DX3
 Accesso vietato! <i>Bzz!</i>
@@ -7242,14 +7238,8 @@ DX4
 DX4
 È di nuovo andato, maledizione! <i>Bzz!</i>
 È di nuovo andato, maledizione! <i>Bzz!</i>
-Assunta
-Assunta
-Il poppante non la pianta di frignare, ma forse una lotta lo calmerà!
-Il poppante non la pianta di frignare, ma forse una lotta lo calmerà!
-Oh, s’è addormentato il pupo.
-Oh, s’è addormentato il pupo.
-Guardalo, è una gioia mentre dorme.
-Guardalo, è una gioia mentre dorme.
+N0P4
+N0P4
 Tamara
 Tamara
 Allora, i preparativi sono terminati?
@@ -7272,8 +7262,14 @@ Piantala di agitarti, vecchio! Ormai il tuo treno è di proprietà del Team Dime
 Piantala di agitarti, vecchio! Ormai il tuo treno è di proprietà del Team Dimension! <i>Bzz!</i>
 A-Aiuto...!
 A-Aiuto...!
-N0P4
-N0P4
+Assunta
+Assunta
+Il poppante non la pianta di frignare, ma forse una lotta lo calmerà!
+Il poppante non la pianta di frignare, ma forse una lotta lo calmerà!
+Oh, s’è addormentato il pupo.
+Oh, s’è addormentato il pupo.
+Guardalo, è una gioia mentre dorme.
+Guardalo, è una gioia mentre dorme.
 <<[>>old<<]>>Quando un Pokémon si addormenta non può agire per tutta la durata del riposo. Tuttavia, una volta sveglio, non sarà più affetto dalle eventuali alterazioni di stato di cui soffriva prima.
 <<[>>old<<]>>Quando un Pokémon si addormenta non può agire per tutta la durata del riposo. Tuttavia, una volta sveglio, non sarà più affetto dalle eventuali alterazioni di stato di cui soffriva prima.
 Alisio
@@ -7284,14 +7280,16 @@ Per stavolta chiuderò un occhio.
 Per stavolta chiuderò un occhio.
 Per stavolta chiuderò un occhio, ma che non si ripeta mai più!
 Per stavolta chiuderò un occhio, ma che non si ripeta mai più!
+<<[>>old<<]>>Su quest'insegna è possibile controllare le varie tappe del Quasar Express lungo il tragitto Scorpiopoli-Leopoli.
+<<[>>old<<]>>Su quest'insegna è possibile controllare le varie tappe del Quasar Express lungo il tragitto Scorpiopoli-Leopoli.
 Ehi, tu! Dove credi di andare? <i>Bzz!</i>
 Ehi, tu! Dove credi di andare? <i>Bzz!</i>
 <<[>>old<<]>>Non vorrai mica lasciar lì il Capotreno...
 <<[>>old<<]>>Non vorrai mica lasciar lì il Capotreno...
 <<[>>old<<]>>Una volta sul vagone, non potrai più tornare indietro fino al termine dell'evento... Vuoi proseguire?
 <<[>>old<<]>>Una volta sul vagone, non potrai più tornare indietro fino al termine dell'evento... Vuoi proseguire?
-<<[>>old<<]>>Su quest'insegna è possibile controllare le varie tappe del Quasar Express lungo il tragitto Scorpiopoli-Leopoli.
-<<[>>old<<]>>Su quest'insegna è possibile controllare le varie tappe del Quasar Express lungo il tragitto Scorpiopoli-Leopoli.
+<<[>>old<<]>>Stazione Ferroviaria di Scorpiopoli
+<<[>>old<<]>>Stazione Ferroviaria di Scorpiopoli
 Claus
 Claus
 Vorresti prendere quell'oggetto? Dovrai prima sfidarmi!.
@@ -7300,20 +7298,18 @@ Sei forte sceriffo!
 Sei forte sceriffo!
 Spero un giorno di diventare un ottimo sceriffo proprio come Crisante!
 Spero un giorno di diventare un ottimo sceriffo proprio come Crisante!
-<<[>>old<<]>>Stazione Ferroviaria di Scorpiopoli
-<<[>>old<<]>>Stazione Ferroviaria di Scorpiopoli
 N0P1
 N0P1
 <<[>>old<<]>>È troppo indaffarato per prestare attenzione a te...
 <<[>>old<<]>>È troppo indaffarato per prestare attenzione a te...
+N0P2
+N0P2
 Un umano?! Sarai mica qui per liberare il vecchio?! Povero|a illuso|a! <i>Bzz!</i>
 Un umano?! Sarai mica qui per liberare il vecchio?! Povero|a illuso|a! <i>Bzz!</i>
 Allarme rosso!! Allarme rosso!! <i>Bzz!</i> Rilevato Allenatore troppo forte... <i>Errore. Errore. Bzz!</i>
 Allarme rosso!! Allarme rosso!! <i>Bzz!</i> Rilevato Allenatore troppo forte... <i>Errore. Errore. Bzz!</i>
 Rilevato un intruso! <i>Bzz!</i> Informazione da recapitare al Colonnello! <i>Bzz!</i>
 Rilevato un intruso! <i>Bzz!</i> Informazione da recapitare al Colonnello! <i>Bzz!</i>
-N0P2
-N0P2
 Ehi, tu! Dove credi di andare? Bzz!
 Ehi, tu! Dove credi di andare? Bzz!
 <<[>>old<<]>>Una volta saliti sul vagone, tu e i tuoi Pokémon non potrete più tornare indietro fino al termine dell'evento... Sicuri di voler proseguire?
@@ -7325,28 +7321,24 @@ No
 Si
 Si
 [Map182]
-Sono venuto fin qui per visitare il famoso saloon infestato. Amo alla follia i Pokémon Spettro!
-Sono venuto fin qui per visitare il famoso saloon infestato. Amo alla follia i Pokémon Spettro!
-Gregorio
-Gregorio
-Il rumore del treno sulle rotaie mi rilassa...
-Il rumore del treno sulle rotaie mi rilassa...
+Il cimitero di questa città mi riporta alla mente quell’oscura melodia che sentii da bambino...
+Il cimitero di questa città mi riporta alla mente quell’oscura melodia che sentii da bambino...
 Capotreno
 Capotreno
-Che ci fai ancora qui, giovane? Sali sul Quasar Express, prima che sia troppo tardi!
-Che ci fai ancora qui, giovane? Sali sul Quasar Express, prima che sia troppo tardi!
-Anche se abbiamo perso il Quasar Express, grazie \PN per aver aiutato tutta la nostra gente.
-Anche se abbiamo perso il Quasar Express, grazie \PN per aver aiutato tutta la nostra gente.
+Cosa ci fai ancora qui, giovane? Devi fermare quei farabutti prima che la combinino grossa!
+Cosa ci fai ancora qui, giovane? Devi fermare quei farabutti prima che la combinino grossa!
+Giovane, so che hai dato il massimo per evitare una tragedia e di questo te ne sono grato.
+Giovane, so che hai dato il massimo per evitare una tragedia e di questo te ne sono grato.
 Gomez
 Gomez
-La partenza del treno è posticipata... Ci sarà qualche guasto?
-La partenza del treno è posticipata... Ci sarà qualche guasto?
+Hanno posticipato la partenza... che sia successo qualcosa al treno?
+Hanno posticipato la partenza... che sia successo qualcosa al treno?
 Selena
 Selena
-Questo treno ad alta velocità è rinomato in tutta la regione per il suo look vintage. Sarò a Sagittopoli in un lampo!
-Questo treno ad alta velocità è rinomato in tutta la regione per il suo look vintage. Sarò a Sagittopoli in un lampo!
-Non mi sento molto al sicuro con quegli strani tizi che gironzolano per la stazione...
-Non mi sento molto al sicuro con quegli strani tizi che gironzolano per la stazione...
+Il Quasar Express ha un look decisamente vintage, ma monta un motore di trazione modernissimo, grazie al quale può raggiungere una velocità massima di 300 km/h... è una vera scheggia su rotaie!
+Il Quasar Express ha un look decisamente vintage, ma monta un motore di trazione modernissimo, grazie al quale può raggiungere una velocità massima di 300 km/h... è una vera scheggia su rotaie!
+Ho visto degli strani tizi gironzolare per la stazione...
+Ho visto degli strani tizi gironzolare per la stazione...
 [Map183]
 [Map184]
 B3N
@@ -9241,34 +9233,6 @@ Salvador
 Alola ed Eldiw distano giusto un paio d'ore in aereo. In giornata, si può passare da un clima tropicale ad uno più mite. Fantastico, non credi?
 Alola ed Eldiw distano giusto un paio d'ore in aereo. In giornata, si può passare da un clima tropicale ad uno più mite. Fantastico, non credi?
 [Map220]
-Peter
-Peter
-Non so davvero quali Pokémon pescherò, con l'Amo Buono è davvero una sorpresa!
-Non so davvero quali Pokémon pescherò, con l'Amo Buono è davvero una sorpresa!
-Cosa? Non hai un Amo Buono? Non sei degno di essere definito un pescatore allora!
-Cosa? Non hai un Amo Buono? Non sei degno di essere definito un pescatore allora!
-Facciamo così. Te lo regalerò io soltanto se mi farai vedere un Kidoon! E' una missione molto semplice, non credi?
-Facciamo così. Te lo regalerò io soltanto se mi farai vedere un Kidoon! E' una missione molto semplice, non credi?
-Portamelo quando vuoi, tanto da qui non mi muovo.
-Portamelo quando vuoi, tanto da qui non mi muovo.
-Allora? Mi hai portato un bel Kidoon da vedere?
-Allora? Mi hai portato un bel Kidoon da vedere?
-Wow! Questo è senza un dubbio un rarissimo esemplare di Kidoon. Guarda che colori sgargianti, bellissimo!
-Wow! Questo è senza un dubbio un rarissimo esemplare di Kidoon. Guarda che colori sgargianti, bellissimo!
-Una promessa è una promessa. Ecco a te un Amo buono nuovo di zecca!
-Una promessa è una promessa. Ecco a te un Amo buono nuovo di zecca!
-Ti auguro una divertente pesca, giovanotto|a.
-Ti auguro una divertente pesca, giovanotto|a.
-Oh...capisco. Beh portamelo quando vuoi, e io in cambio ti darò Amo Buono!
-Oh...capisco. Beh portamelo quando vuoi, e io in cambio ti darò Amo Buono!
-Massimo
-Massimo
-Ho trovato una pietra rarissima e lotterò con te per festeggiare!
-Ho trovato una pietra rarissima e lotterò con te per festeggiare!
-Dannazione.
-Dannazione.
-Ma è un semplice sasso...
-Ma è un semplice sasso...
 Fonco
 Fonco
 Lo sapevo che prima o poi quel dannato ferro vecchio mi avrebbe rovinato il raccolto!
@@ -9277,34 +9241,56 @@ Le mie splendide piantine di Baccamodoro...
 Le mie splendide piantine di Baccamodoro...
 Le mie splendide piantine di Baccamodoro... sigh!
 Le mie splendide piantine di Baccamodoro... sigh!
+Massimo
+Massimo
+Noi Montanari siamo fisicamente più robusti perché siamo moralmente più puri!
+Noi Montanari siamo fisicamente più robusti perché siamo moralmente più puri!
+Ogni scusa è buona per non mettersi a dieta... sigh!
+Ogni scusa è buona per non mettersi a dieta... sigh!
+Peter
+Peter
+Con quest’<b>Amo Buono</b> pescare è tutta un’altra storia!
+Con quest’<b>Amo Buono</b> pescare è tutta un’altra storia!
+Come dici? Non hai un Amo Buono? Come puoi considerarti un Pescatore allora?
+Come dici? Non hai un Amo Buono? Come puoi considerarti un Pescatore allora?
+Facciamo così! Se mi farai vedere un <b>Kidoon</b> bello grosso, te ne darò uno.
+Facciamo così! Se mi farai vedere un <b>Kidoon</b> bello grosso, te ne darò uno.
+Allora, mi hai portato un bel Kidoon?
+Allora, mi hai portato un bel Kidoon?
+Oh, allora vediamo un po'. Che colori sgargianti... hai trovato proprio un bell'esemplare, sai?
+Oh, allora vediamo un po'. Che colori sgargianti... hai trovato proprio un bell'esemplare, sai?
+Un Pescatore mantiene sempre la parola data, perciò ecco a te ciò che ti avevo promesso.
+Un Pescatore mantiene sempre la parola data, perciò ecco a te ciò che ti avevo promesso.
+Buon divertimento, giovane pescatore!
+Buon divertimento, giovane pescatore!
+Capisco, ancora niente. Beh, fa’ pure con calma, tanto io da qui non mi schiodo.
+Capisco, ancora niente. Beh, fa’ pure con calma, tanto io da qui non mi schiodo.
+Con quest'Amo Buono, la pesca è tutta un'altra storia, vero?
+Con quest'Amo Buono, la pesca è tutta un'altra storia, vero?
 <<[>>old<<]>>Pare che il Pokémon Emularva <b>Masgot</b> talvolta si aggiri nei Nidi dei Pokémon di cui si traveste. Solo smascherandolo potrai acchiapparlo!
 <<[>>old<<]>>Pare che il Pokémon Emularva <b>Masgot</b> talvolta si aggiri nei Nidi dei Pokémon di cui si traveste. Solo smascherandolo potrai acchiapparlo!
 Dino
 Dino
-Queste selve sono perfette per allenare i miei Pokémon!
-Queste selve sono perfette per allenare i miei Pokémon!
-Incredibile!
-Incredibile!
+Affronterò questa lotta Pokémon e la vincerò! Ne sono sicuro, anzi, persuaso!
+Affronterò questa lotta Pokémon e la vincerò! Ne sono sicuro, anzi, persuaso!
+Se invece di parlare avessi risparmiato il fiato, forse avrei potuto farcela...
+Se invece di parlare avessi risparmiato il fiato, forse avrei potuto farcela...
 Corinaldo
 Corinaldo
-E...
-E...
-E...Tciù!
-E...Tciù!
-Mi sa che sono allergico a qualcosa...
-Mi sa che sono allergico a qualcosa...
-Mamimami
-Mamimami
-Tutti mi prendono il giro per il mio nome, ma secondo me è molto carino!
-Tutti mi prendono il giro per il mio nome, ma secondo me è molto carino!
-Oh no i miei adorati Pokémon!
-Oh no i miei adorati Pokémon!
-Oltre al nome carino ho anche dei Pokémon carini...
-Oltre al nome carino ho anche dei Pokémon carini...
+Ecco, lo sapevo... mi sono perso!
+Ecco, lo sapevo... mi sono perso!
+Sia dannata la mia curiosità...
+Sia dannata la mia curiosità...
+Mi sono messo a inseguire un Peckabone e guarda dove mi sono cacciato...!
+Mi sono messo a inseguire un Peckabone e guarda dove mi sono cacciato...!
 <<[>>old<<]>>Occhio a rovistare tra la merce del Mercante! Potrebbe infastidirsi e sfidarti in una lotta Pokémon!
 <<[>>old<<]>>Occhio a rovistare tra la merce del Mercante! Potrebbe infastidirsi e sfidarti in una lotta Pokémon!
-<<[>>old<<]>>Casa di Ferdinando ''Entrate pure senza timore. Sono grande e grosso, ma non vi mangio mica!''
-<<[>>old<<]>>Casa di Ferdinando ''Entrate pure senza timore. Sono grande e grosso, ma non vi mangio mica!''
+Mamimami
+Mamimami
+Mi hanno sempre presa in giro per il mio nome e io ogni volta li ho messi a tacere con una lotta!
+Mi hanno sempre presa in giro per il mio nome e io ogni volta li ho messi a tacere con una lotta!
+Davvero credi che il mio nome sia carino...?
+Davvero credi che il mio nome sia carino...?
 Aster
 Aster
 Ehi, \PN! Sveglia, su!
@@ -9417,16 +9403,8 @@ Ma tu...! Tu sei quel maledetto moccioso! Vuoi spiegarmi che diavolo sta succede
 (Se solo Versil potesse vedere quanto sei maturato, sarebbe senz'altro fiero di te, \PN...)
 Molto bene! Alice, si torna a casa!
 Molto bene! Alice, si torna a casa!
-<<[>>old<<]>> Masg...!
-<<[>>old<<]>> Masg...!
-Stephania
-Stephania
-Wow che vista!
-Wow che vista!
-Una bella lotta con una vista da urlo!
-Una bella lotta con una vista da urlo!
-Woooow!
-Woooow!
+<<[>>old<<]>>Casa di Ferdinando ''Entrate pure senza timore. Sono grande e grosso, ma non vi mangio mica!''
+<<[>>old<<]>>Casa di Ferdinando ''Entrate pure senza timore. Sono grande e grosso, ma non vi mangio mica!''
 Gray
 Gray
 Hai costretto il mio destriero ad assistere ad un così brutto incidente. Guarda com’è agitato!
@@ -9435,10 +9413,30 @@ Calma, bello...
 Calma, bello...
 Rapidash non tornerà mai più come prima...
 Rapidash non tornerà mai più come prima...
+Stephania
+Stephania
+Non ne posso più di camminare, fortuna che si inizia a intravedere la città!
+Non ne posso più di camminare, fortuna che si inizia a intravedere la città!
+Ho proprio bisogno di un po’ di riposo...
+Ho proprio bisogno di un po’ di riposo...
+<<[>>old<<]>> Masg...!
+<<[>>old<<]>> Masg...!
 Romulano
 Romulano
-Sono un venditore ambulante che viene da molto lontano. Vuoi comprare qualcosa?
-Sono un venditore ambulante che viene da molto lontano. Vuoi comprare qualcosa?
+Solo da Romulano, articoli mai visti a prezzi stracciati!!
+Solo da Romulano, articoli mai visti a prezzi stracciati!!
+Matilda
+Matilda
+Tanti sforzi per far addormentare il moccioso e tu hai rovinato tutto! Te la faccio pagare!
+Tanti sforzi per far addormentare il moccioso e tu hai rovinato tutto! Te la faccio pagare!
+Non la pianta più di frignare adesso...
+Non la pianta più di frignare adesso...
+Rachele
+Rachele
+Mi assicurerò che nessuno si perda attraversando questo sentiero!
+Mi assicurerò che nessuno si perda attraversando questo sentiero!
+È il dovere di un Ranger soccorrere chi è in difficoltà!
+È il dovere di un Ranger soccorrere chi è in difficoltà!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 Trishout
@@ -9459,32 +9457,16 @@ Shu...!
 Shu...!
 <<[>>old<<]>> Probabilmente per entrare in questo Nido, hai bisogno del tuo starter.
 <<[>>old<<]>> Probabilmente per entrare in questo Nido, hai bisogno del tuo starter.
-Rachele
-Rachele
-Credo di essermi persa, mi dai una mano a ritrovare la strada con una bella battaglia?
-Credo di essermi persa, mi dai una mano a ritrovare la strada con una bella battaglia?
-Sei una potenza vivente.
-Sei una potenza vivente.
-Troverò un modo per uscire da qui.
-Troverò un modo per uscire da qui.
-Matilda
-Matilda
-UAAAAA! Si arrivat tu e il piccolo piange! Mi devi una sfida
-UAAAAA! Si arrivat tu e il piccolo piange! Mi devi una sfida
-Calmo calmo...
-Calmo calmo...
-Va vatten.
-Va vatten.
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Sei in gamba.
-Sei in gamba.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-<<[>>old<<]>>Forse è meglio non aprirla.
-<<[>>old<<]>>Forse è meglio non aprirla.
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ho sbagliato ad accusarti, scusa!
+Ho sbagliato ad accusarti, scusa!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>Meglio non rischiare...
 Si
 Si
 No
@@ -10148,34 +10130,32 @@ Si
 No
 No
 [Map241]
+Tikata
+Tikata
+Nessuno straniero varcherà questa soglia senza il permesso del <b>Cardinale</b>.
+Nessuno straniero varcherà questa soglia senza il permesso del <b>Cardinale</b>.
 Miranda
 Miranda
 A caval donato... non si nega una lotta!
 A caval donato... non si nega una lotta!
 Mi hai proprio fatto perdere le staffe!
 Mi hai proprio fatto perdere le staffe!
-Tikata
-Tikata
-Nessuno straniero varcherà questa soglia senza il permesso del <b>Cardinale</b>.
-Nessuno straniero varcherà questa soglia senza il permesso del <b>Cardinale</b>.
 Nando
 Nando
 In sella al mio destriero, cavalcherò anche nella più impetuosa delle burrasche!
 In sella al mio destriero, cavalcherò anche nella più impetuosa delle burrasche!
 Anche le cadute da cavallo fanno parte della vita di un Cowboy.
 Anche le cadute da cavallo fanno parte della vita di un Cowboy.
+Malaka
+Malaka
 Pico
 Pico
 Ho lasciato da poco il nido, ma il mio becco è bello affilato, puoi contarci!
 Ho lasciato da poco il nido, ma il mio becco è bello affilato, puoi contarci!
 Mi hai proprio fatto tornare nell’uovo...
 Mi hai proprio fatto tornare nell’uovo...
-Malaka
-Malaka
 <<[>>old<<]>>Soffia un vento di burrasca...
 <<[>>old<<]>>Soffia un vento di burrasca...
-<<[>>old<<]>><b>Canyon Asteroide</b> <i>''Il tortuoso e torrido cammino del sole.''</i>
-<<[>>old<<]>><b>Canyon Asteroide</b> <i>''Il tortuoso e torrido cammino del sole.''</i>
 Ponyta
 Ponyta
 Pony...!
@@ -10224,6 +10204,8 @@ Booolt!!
 <<[>>old<<]>>Si sono dileguati per il Canyon...
 Cos'è quella faccia, pivella? Hai per caso visto un fantasma? Rilassati, non ho alcuna intenzione di sfidarti... non ancora, perlomeno.
 Cos'è quella faccia, pivella? Hai per caso visto un fantasma? Rilassati, non ho alcuna intenzione di sfidarti... non ancora, perlomeno.
+<<[>>old<<]>><b>Canyon Asteroide</b> <i>''Il tortuoso e torrido cammino del sole.''</i>
+<<[>>old<<]>><b>Canyon Asteroide</b> <i>''Il tortuoso e torrido cammino del sole.''</i>
 <<[>>old<<]>>Capricornia a nord
 <<[>>old<<]>>Capricornia a nord
 Si
@@ -10923,44 +10905,44 @@ Il vigore di certo non manca neanche a te.
 Un canyon nasce quando un corso d’acqua, erodendo lentamente il terreno sottostante, si scava una valle.
 Un canyon nasce quando un corso d’acqua, erodendo lentamente il terreno sottostante, si scava una valle.
 [Map267]
-<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
-<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 Laborano
 Laborano
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Sei in gamba.
-Sei in gamba.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-<<[>>old<<]>>Forse è meglio non aprirla.
-<<[>>old<<]>>Forse è meglio non aprirla.
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ho sbagliato ad accusarti, scusa!
+Ho sbagliato ad accusarti, scusa!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
+<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Selestino
 Selestino
 Io e il mio Donanas abbiamo provato a terminare il Cammino dell'Eroe, ma con scarsi risultati...
 Io e il mio Donanas abbiamo provato a terminare il Cammino dell'Eroe, ma con scarsi risultati...
-Sono un venditore ambulante che viene da molto lontano. Vuoi comprare qualcosa?
-Sono un venditore ambulante che viene da molto lontano. Vuoi comprare qualcosa?
+Solo da Laborano, articoli mai visti a prezzi stracciati!!
+Solo da Laborano, articoli mai visti a prezzi stracciati!!
+Xochi
+Xochi
+Noi sentinelle non solo proteggiamo questa zona, ma anche tutta la fauna che ci vive.
+Noi sentinelle non solo proteggiamo questa zona, ma anche tutta la fauna che ci vive.
 Dove credi di andare?
 Dove credi di andare?
 Non mi sento molto bene...
 Non mi sento molto bene...
 <<[>>old<<]>> E' completamente esausto...
 <<[>>old<<]>> E' completamente esausto...
-Xochi
-Xochi
-Noi sentinelle non solo proteggiamo questa zona, ma anche tutta la fauna che ci vive.
-Noi sentinelle non solo proteggiamo questa zona, ma anche tutta la fauna che ci vive.
 Azucena
 Azucena
+La Giungla Nebulosa è un posto affascinante ma allo stesso tempo pericoloso.
+La Giungla Nebulosa è un posto affascinante ma allo stesso tempo pericoloso.
 Tu non puoi passare.
 Tu non puoi passare.
 Mi hai psicuramente sconfitto di brutto...
 Mi hai psicuramente sconfitto di brutto...
-La Giungla Nebulosa è un posto affascinante ma allo stesso tempo pericoloso.
-La Giungla Nebulosa è un posto affascinante ma allo stesso tempo pericoloso.
 Allarme, intruso!
 Allarme, intruso!
 Il capo mi maledirà...
@@ -10998,20 +10980,20 @@ Io e i miei Pokémon ti sconfiggeremo.
 Io e i miei Pokémon ti sconfiggeremo.
 Forse è meglio tornare ad Azepoli.
 Forse è meglio tornare ad Azepoli.
-Funesto
-Funesto
-Ciao giovanotto|a! Mi presento, sono Funesto.
-Ciao giovanotto|a! Mi presento, sono Funesto.
-Se hai bisogno di ritornare all'entrata di questo dungeon, chiedi a me! Ti accompagnerò in un battibaleno!
-Se hai bisogno di ritornare all'entrata di questo dungeon, chiedi a me! Ti accompagnerò in un battibaleno!
-Ciao giovanotto|a! Hai bisogno di ritornare all'entrata del Dungeon?
-Ciao giovanotto|a! Hai bisogno di ritornare all'entrata del Dungeon?
-Molto bene! Non avere paura, c'è qui Funesto a soccorrerti!
-Molto bene!  Non avere paura, c'è qui Funesto a soccorrerti!
-Quando hai bisogno di me fammi un fischio.
-Quando hai bisogno di me fammi un fischio.
 <<[>>old<<]>> Masg...!
 <<[>>old<<]>> Masg...!
+Funesto
+Funesto
+Ciao giovanotto|a! Mi presento, sono <b>Funesto</b>.
+Ciao giovanotto|a! Mi presento, sono <b>Funesto</b>.
+Se hai bisogno di ritornare all'ingresso, chiedi a me! Ti accompagnerò in un battibaleno!
+Se hai bisogno di ritornare all'ingresso, chiedi a me! Ti accompagnerò in un battibaleno!
+Allora giovanotto|a, vuoi che ti riporti all'ingresso?
+Allora giovanotto|a, vuoi che ti riporti all'ingresso?
+Con Funesto si fa presto! Gambe in spalla!
+Con Funesto si fa presto! Gambe in spalla!
+Se hai bisogno, fammi un fischio.
+Se hai bisogno, fammi un fischio.
 Si
 Si
 No
@@ -11282,14 +11264,6 @@ Cura Pokémon
 Usa Box
 Usa Box
 [Map274]
-Giuliano
-Giuliano
-Sono un venditore ambulante, vuoi comprare qualcosa?
-Sono un venditore ambulante, vuoi comprare qualcosa?
-Ghazi
-Ghazi
-La regina Verbena in persona richiedeva la tua presenza in Palestra.
-La regina Verbena in persona richiedeva la tua presenza in Palestra.
 Jan
 Jan
 Avrei proprio bisogno di una <b>Rete Pescagrossa</b> per tirar su questi Birigiri in un sol colpo...
@@ -11308,42 +11282,46 @@ Le acque dell'oasi di Aquariopoli sono un vero toccasana.
 Le acque dell'oasi di Aquariopoli sono un vero toccasana.
 E ora veniamo a noi, Birigiri!
 E ora veniamo a noi, Birigiri!
-Keldu
-Keldu
-Per edificare queste imponenti piramidi, gli antichi fecero affidamento sulla forza dei Conkeldurr. Ai tempi non esistevano certi oggetti come questo!
-Per edificare queste imponenti piramidi, gli antichi fecero affidamento sulla forza dei Conkeldurr. Ai tempi non esistevano certi oggetti come questo!
-Pare che al giorno d’oggi i Gurdurr si evolvano con quell’affare.
-Pare che al giorno d’oggi i Gurdurr si evolvano con quell’affare.
-Nadia
-Nadia
-Solo qui puoi trovare i migliori Aromi della regione!
-Solo qui puoi trovare i migliori Aromi della regione!
-<<[>>old<<]>>Canyon Asteroide ad est
-<<[>>old<<]>>Canyon Asteroide ad est
+Ghazi
+Ghazi
+La regina Verbena in persona richiedeva la tua presenza in Palestra.
+La regina Verbena in persona richiedeva la tua presenza in Palestra.
+Giuliano
+Giuliano
+Solo da Giuliano, articoli mai visti a prezzi stracciati!!
+Solo da Giuliano, articoli mai visti a prezzi stracciati!!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>Non hai abbastanza soldi.
-Palestra Marea Capopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della</i> <i>tempesta!''</i> Allenatori Certificati: 0
-Palestra Marea Capopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della</i> <i>tempesta!''</i> Allenatori Certificati: 0
-Palestra Marea Capopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della</i> <i>tempesta!''</i> Allenatori Certificati: \PN
-Palestra Marea Capopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della</i> <i>tempesta!''</i> Allenatori Certificati: \PN
+<<[>>old<<]>>Canyon Asteroide ad est
+<<[>>old<<]>>Canyon Asteroide ad est
+Nadia
+Nadia
+Solo qui puoi trovare i migliori Aromi della regione!
+Solo qui puoi trovare i migliori Aromi della regione!
+Keldu
+Keldu
+Per edificare queste imponenti piramidi, gli antichi fecero affidamento sulla forza dei Conkeldurr. Ai tempi non esistevano certi oggetti come questo!
+Per edificare queste imponenti piramidi, gli antichi fecero affidamento sulla forza dei Conkeldurr. Ai tempi non esistevano certi oggetti come questo!
+Pare che al giorno d’oggi i Gurdurr si evolvano con quell’affare.
+Pare che al giorno d’oggi i Gurdurr si evolvano con quell’affare.
+Aza
+Aza
 Chiara
 Chiara
 Ho la mente così scombussolata... Mi sembra di aver dormito per giorni e giorni.
 Ho la mente così scombussolata... Mi sembra di aver dormito per giorni e giorni.
-Aza
-Aza
-Abraham
-Abraham
-Hai dimostrato coraggio nella difesa la nostra città, perciò meriti tu di custodire quest’oggetto.
-Hai dimostrato coraggio nella difesa la nostra città, perciò meriti tu di custodire quest’oggetto.
-Non ci lasceremo abbattere e torneremo più forti di prima!
-Non ci lasceremo abbattere e torneremo più forti di prima!
-Hippoo...!
-Hippoo...!
+Palestra Marea Capopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della</i> <i>tempesta!''</i> Allenatori Certificati: 0
+Palestra Marea Capopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della</i> <i>tempesta!''</i> Allenatori Certificati: 0
+Palestra Marea Capopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della</i> <i>tempesta!''</i> Allenatori Certificati: \PN
+Palestra Marea Capopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della</i> <i>tempesta!''</i> Allenatori Certificati: \PN
+Barrin
+Barrin
+Questi Pokémon venuti da chissà dove sono una vera spina nel fianco, ma noi non ci fermeremo... Per la regina Verbena!!
+Questi Pokémon venuti da chissà dove sono una vera spina nel fianco, ma noi non ci fermeremo... Per la regina Verbena!!
 Sabrina
 Sabrina
 Secondo te riesco a lanciarmi di sotto facendo un 360 col Pokéboard?
@@ -11354,10 +11332,20 @@ Tsk, non saresti capace nemmeno tu...!
 Tsk, non saresti capace nemmeno tu...!
 Ora basta solo prendere un po’ di coraggio.
 Ora basta solo prendere un po’ di coraggio.
-Barrin
-Barrin
-Questi Pokémon venuti da chissà dove sono una vera spina nel fianco, ma noi non ci fermeremo... Per la regina Verbena!!
-Questi Pokémon venuti da chissà dove sono una vera spina nel fianco, ma noi non ci fermeremo... Per la regina Verbena!!
+Hippoo...!
+Hippoo...!
+Abraham
+Abraham
+Hai dimostrato coraggio nella difesa la nostra città, perciò meriti tu di custodire quest’oggetto.
+Hai dimostrato coraggio nella difesa la nostra città, perciò meriti tu di custodire quest’oggetto.
+Non ci lasceremo abbattere e torneremo più forti di prima!
+Non ci lasceremo abbattere e torneremo più forti di prima!
+Yusri
+Yusri
+Giorgio
+Giorgio
+Non voglio ma più sentir parlare di Bacche!
+Non voglio ma più sentir parlare di Bacche!
 Verbena
 Verbena
 Oh, eccoti, \PN.
@@ -11386,40 +11374,40 @@ Lo capisco, torna quando ti sentirai pronto|a.
 Lo capisco, torna quando ti sentirai pronto|a.
 Recati da mio nonno se vuoi diventare più forte. La regione ha bisogno di te!
 Recati da mio nonno se vuoi diventare più forte. La regione ha bisogno di te!
-Giorgio
-Giorgio
-Non voglio ma più sentir parlare di Bacche!
-Non voglio ma più sentir parlare di Bacche!
-Yusri
-Yusri
-Mefele
-Mefele
-Quel Pokémon ci ha tratti in inganno, ma impareremo dai nostri errori! Per la regina e il popolo tutto!
-Quel Pokémon ci ha tratti in inganno, ma impareremo dai nostri errori! Per la regina e il popolo tutto!
-Nadin
-Nadin
-Quando un Hippopotas si evolve, acquisisce una forza dieci volte maggiore.
-Quando un Hippopotas si evolve, acquisisce una forza dieci volte maggiore.
 Recluta
 Recluta
 Per la regina Verbena!!
 Per la regina Verbena!!
-<<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
-<<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Sei in gamba.
-Sei in gamba.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-<<[>>old<<]>>Forse è meglio non aprirla.
-<<[>>old<<]>>Forse è meglio non aprirla.
+Nadin
+Nadin
+Quando un Hippopotas si evolve, acquisisce una forza dieci volte maggiore.
+Quando un Hippopotas si evolve, acquisisce una forza dieci volte maggiore.
+Mefele
+Mefele
+Quel Pokémon ci ha tratti in inganno, ma impareremo dai nostri errori! Per la regina e il popolo tutto!
+Quel Pokémon ci ha tratti in inganno, ma impareremo dai nostri errori! Per la regina e il popolo tutto!
 Madir
 Madir
 Qui abbiamo il più vasto assortimento di erbe medicinali di tutta Eldiw!
 Qui abbiamo il più vasto assortimento di erbe medicinali di tutta Eldiw!
+<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ho sbagliato ad accusarti, scusa!
+Ho sbagliato ad accusarti, scusa!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
+<<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
+Tullio
+Tullio
+In mezzo alle mie deliziose foglie era finita questa. Ho provato ad assaggiarla, ma ha un saporaccio!
+In mezzo alle mie deliziose foglie era finita questa. Ho provato ad assaggiarla, ma ha un saporaccio!
+Ptù! Ptù! Bleah!
+Ptù! Ptù! Bleah!
 Ehi, ma cos'è successo?! Joele, sei tu?! Cos'è successo e chi è questo|a straniero|a?
 Ehi, ma cos'è successo?! Joele, sei tu?! Cos'è successo e chi è questo|a straniero|a?
 Joele
@@ -11448,22 +11436,30 @@ Sì, vostra maestà!
 Sì, vostra maestà!
 \PN, ti ringrazio dal profondo del cuore per l'aiuto. Non è molto, ma ti prego di accettare questo.
 \PN, ti ringrazio dal profondo del cuore per l'aiuto. Non è molto, ma ti prego di accettare questo.
-Tullio
-Tullio
-In mezzo alle mie deliziose foglie era finita questa. Ho provato ad assaggiarla, ma ha un saporaccio!
-In mezzo alle mie deliziose foglie era finita questa. Ho provato ad assaggiarla, ma ha un saporaccio!
-Ptù! Ptù! Bleah!
-Ptù! Ptù! Bleah!
-Teresa
-Teresa
-Bisogna portare il cibo al padrone. ... Ih ih! Scherzetto!
-Bisogna portare il cibo al padrone. ... Ih ih! Scherzetto!
 Vinelo
 Vinelo
 Sono tornato da una spedizione nel Cunicolo Gravità. A ‘sto giro niente Fossili, solo questa Pepita!
 Sono tornato da una spedizione nel Cunicolo Gravità. A ‘sto giro niente Fossili, solo questa Pepita!
 Praticamente è come se fossi tornato a mani vuote!
 Praticamente è come se fossi tornato a mani vuote!
+Teresa
+Teresa
+Bisogna portare il cibo al padrone. ... Ih ih! Scherzetto!
+Bisogna portare il cibo al padrone. ... Ih ih! Scherzetto!
+<<[>>old<<]>>L'oasi di Acquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
+<<[>>old<<]>>L'oasi di Acquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
+Ahiga
+Ahiga
+Sono giunto sino a qui dalla mia <b>Capricornia</b> per poter ammirare la bellezza di quest’oasi, ma quelle impetuose raffiche di vento nel canyon mi impediscono di fare ritorno nella mia terra... Se qualcuno riuscisse a placarle, meriterebbe davvero una lauta ricompensa.
+Sono giunto sino a qui dalla mia <b>Capricornia</b> per poter ammirare la bellezza di quest’oasi, ma quelle impetuose raffiche di vento nel canyon mi impediscono di fare ritorno nella mia terra... Se qualcuno riuscisse a placarle, meriterebbe davvero una lauta ricompensa.
+Siete riuscito|a a placare la burrasca nel canyon! Prendete, ve la siete meritata.
+Siete riuscito|a a placare la burrasca nel canyon! Prendete, ve la siete meritata.
+Ora potrò finalmente fare ritorno nel mio villaggio!
+Ora potrò finalmente fare ritorno nel mio villaggio!
+Lina
+Lina
+Un, due, tre... Starmie!!
+Un, due, tre... Starmie!!
 La regina voleva parlarti. Dovresti trovarla a nord del varco di Aquariopoli.
 La regina voleva parlarti. Dovresti trovarla a nord del varco di Aquariopoli.
 Bentornato|a, \PN. Allora, sei riuscito|a ad incontrare il nonno?
@@ -11478,20 +11474,6 @@ Ma prima, vorrei toccare con mano questa nuova forza, perciò ti aspetto nella m
 Ma prima, vorrei toccare con mano questa nuova forza,  perciò ti aspetto nella mia Palestra...
 Ci vediamo dentro.
 Ci vediamo dentro.
-Lina
-Lina
-Un, due, tre... Starmie!!
-Un, due, tre... Starmie!!
-Ahiga
-Ahiga
-Sono giunto sino a qui dalla mia <b>Capricornia</b> per poter ammirare la bellezza di quest’oasi, ma quelle impetuose raffiche di vento nel canyon mi impediscono di fare ritorno nella mia terra... Se qualcuno riuscisse a placarle, meriterebbe davvero una lauta ricompensa.
-Sono giunto sino a qui dalla mia <b>Capricornia</b> per poter ammirare la bellezza di quest’oasi, ma quelle impetuose raffiche di vento nel canyon mi impediscono di fare ritorno nella mia terra... Se qualcuno riuscisse a placarle, meriterebbe davvero una lauta ricompensa.
-Siete riuscito|a a placare la burrasca nel canyon! Prendete, ve la siete meritata.
-Siete riuscito|a a placare la burrasca nel canyon! Prendete, ve la siete meritata.
-Ora potrò finalmente fare ritorno nel mio villaggio!
-Ora potrò finalmente fare ritorno nel mio villaggio!
-<<[>>old<<]>>L'oasi di Acquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
-<<[>>old<<]>>L'oasi di Acquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
 Sì
 Sì
 No
@@ -11768,14 +11750,6 @@ Oh, dimenticavo! Se dovessi rimanere incastrato|a nel pubblico, la sicurezza ver
 <<[>>old<<]>>Un'arcana energia impedisce di proseguire.
 [Map279]
 [Map280]
-Ginevra
-Ginevra
-Io e il mio ragazzo non troviamo la strada per Sagittopoli! E ora ho voglia di una sfida!
-Io e il mio ragazzo non troviamo la strada per Sagittopoli! E ora ho voglia di una sfida!
-...
-...
-Non solo ho perso la strada, ma ho anche perso...
-Non solo ho perso la strada, ma ho anche perso...
 Bella
 Bella
 AHHH! Un Pokémon selvatico!
@@ -11784,22 +11758,28 @@ Mi hai spaventata! Pensavo fosse un Pokémon selvatico...
 Mi hai spaventata! Pensavo fosse un Pokémon selvatico...
 Mi hai spaventata! Pensavo che fossi un Pokémon selvatico...
 Mi hai spaventata! Pensavo che fossi un Pokémon selvatico...
+Ginevra
+Ginevra
+Io e il mio ragazzo non troviamo la strada per Sagittopoli! E ora ho voglia di una sfida!
+Io e il mio ragazzo non troviamo la strada per Sagittopoli! E ora ho voglia di una sfida!
+...
+...
+Non solo ho perso la strada, ma ho anche perso...
+Non solo ho perso la strada, ma ho anche perso...
 Pesci
 Pesci
 Chissà se qualche Magikarp abbocchi al mio amo pieno zeppo di prosciutto!
 Chissà se qualche Magikarp abbocchi al mio amo pieno zeppo di prosciutto!
 Arrivederci...!
 Arrivederci...!
-Piliano
-Piliano
-Sono un venditore ambulante, vuoi comprare qualcosa?
-Sono un venditore ambulante, vuoi comprare qualcosa?
 Tonio
 Tonio
 Mhm.
 Mhm.
-<<[>>old<<]>>Non sai come far evolvere un Pokémon? Non preoccuparti! In giro per la regione troverai tanti cittadini che aspettano solo di condividere le loro preziose informazioni con te!
-<<[>>old<<]>>Non sai come far evolvere un Pokémon? Non preoccuparti! In giro per la regione troverai tanti cittadini che aspettano solo di condividere le loro preziose informazioni con te!
+Piliano
+Piliano
+Solo da Piliano, articoli mai visti a prezzi stracciati!!
+Solo da Piliano, articoli mai visti a prezzi stracciati!!
 Holly
 Holly
 Se vuoi raggiungere Sagittopoli dovrai prima vedertela con me!
@@ -11808,24 +11788,8 @@ Pensa te...!
 Pensa te...!
 La tua forza è disumana!
 La tua forza è disumana!
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Sei in gamba.
-Sei in gamba.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-<<[>>old<<]>>Forse è meglio non aprirla.
-<<[>>old<<]>>Forse è meglio non aprirla.
-Dario
-Dario
-Alcuni abitanti di Sagittopoli dicono che a volte compare un Pokémon misterioso in questa zona! Vedi di smammare, lo troverò io!
-Alcuni abitanti di Sagittopoli dicono che a volte compare un Pokémon misterioso in questa zona! Vedi di smammare, lo troverò io!
-Se vuoi lo possiamo cercare insieme!
-Se vuoi lo possiamo cercare insieme!
-Se vuoi possiamo cercarlo insieme!
-Se vuoi possiamo cercarlo insieme!
+<<[>>old<<]>>Non sai come far evolvere un Pokémon? Non preoccuparti! In giro per la regione troverai tanti cittadini che aspettano solo di condividere le loro preziose informazioni con te!
+<<[>>old<<]>>Non sai come far evolvere un Pokémon? Non preoccuparti! In giro per la regione troverai tanti cittadini che aspettano solo di condividere le loro preziose informazioni con te!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 Trishout
@@ -11846,14 +11810,24 @@ Shu...!
 Shu...!
 <<[>>old<<]>> Probabilmente per entrare in questo Nido, hai bisogno del tuo starter.
 <<[>>old<<]>> Probabilmente per entrare in questo Nido, hai bisogno del tuo starter.
-Pepe
-Pepe
-Combattiamo!
-Combattiamo!
-Woow...!
-Woow...!
-Sei una forza della natura!
-Sei una forza della natura!
+Dario
+Dario
+Alcuni abitanti di Sagittopoli dicono che a volte compare un Pokémon misterioso in questa zona! Vedi di smammare, lo troverò io!
+Alcuni abitanti di Sagittopoli dicono che a volte compare un Pokémon misterioso in questa zona! Vedi di smammare, lo troverò io!
+Se vuoi lo possiamo cercare insieme!
+Se vuoi lo possiamo cercare insieme!
+Se vuoi possiamo cercarlo insieme!
+Se vuoi possiamo cercarlo insieme!
+<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ho sbagliato ad accusarti, scusa!
+Ho sbagliato ad accusarti, scusa!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>Meglio non rischiare...
 Alejandro
 Alejandro
 I Pokémon selvatici seguono il suono della mia chitarra.
@@ -11862,18 +11836,20 @@ La mia povera musica!
 La mia povera musica!
 Questa lotta non solo mi ha messo K.O. i miei Pokémon, ma ha anche distrutto la mia chitarra... E ora come faccio a tornare sano e salvo a casa?
 Questa lotta non solo mi ha messo K.O. i miei Pokémon, ma ha anche distrutto la mia chitarra... E ora come faccio a tornare sano e salvo a casa?
+Pepe
+Pepe
+Combattiamo!
+Combattiamo!
+Woow...!
+Woow...!
+Sei una forza della natura!
+Sei una forza della natura!
 Adelia
 Adelia
 Non vedo l'ora di tornare ad Aranciopoli, la mia terra nativa.
 Non vedo l'ora di tornare ad Aranciopoli, la mia terra nativa.
 Non male!
 Non male!
-Frank
-Frank
-Hey aiutami a trovare la strada per Sagittopoli!
-Hey aiutami a trovare la strada per Sagittopoli!
-Sono troppo orgoglioso... Troverò la strada da solo!
-Sono troppo orgoglioso... Troverò la strada da solo!
 Sonia
 Sonia
 Se voglio provare a sfidare la palestra di Sagittopoli, devo dare il meglio in questa battaglia!
@@ -11882,20 +11858,22 @@ Forse ho bisogno ancora di tempo...
 Forse ho bisogno ancora di tempo...
 Probabilmente sei tu ad avere chance contro il capopalestra, io non di certo!
 Probabilmente sei tu ad avere chance contro il capopalestra, io non di certo!
-Viviano
-Viviano
-Hai mai trovato una caramella rara nei laghetti?
-Hai mai trovato una caramella rara nei laghetti?
-Con questa forza sicuramente...
-Con questa forza sicuramente...
-Spero un giorno di trovare anche io una caramella rara...
-Spero un giorno di trovare anche io una caramella rara...
+Frank
+Frank
+Hey aiutami a trovare la strada per Sagittopoli!
+Hey aiutami a trovare la strada per Sagittopoli!
+Sono troppo orgoglioso... Troverò la strada da solo!
+Sono troppo orgoglioso... Troverò la strada da solo!
 <<[>>old<<]>>Rivolgiti al Ricordamosse <b>Mnemonio</b> per insegnare ai tuoi Pokémon mosse che hanno dimenticato col tempo. Chissà, potrebbe sorprenderti!
 <<[>>old<<]>>Rivolgiti al Ricordamosse <b>Mnemonio</b> per insegnare ai tuoi Pokémon mosse che hanno dimenticato col tempo. Chissà, potrebbe sorprenderti! 
-Tatiana
-Tatiana
-Questo posto è incantevole, non credi? Peccato che da quando siano apparsi questi strani Pokémon, questo posto emette delle sensazione non molto positive... Chissà quale mistero si nasconde.
-Questo posto è incantevole, non credi? Peccato che da quando siano apparsi questi strani Pokémon, questo posto emette delle sensazione non molto positive... Chissà quale mistero si nasconde.
+Viviano
+Viviano
+Hai mai trovato una caramella rara nei laghetti?
+Hai mai trovato una caramella rara nei laghetti?
+Con questa forza sicuramente...
+Con questa forza sicuramente...
+Spero un giorno di trovare anche io una caramella rara...
+Spero un giorno di trovare anche io una caramella rara...
 Alessia
 Alessia
 Questo Percorso non è molto adatto per il Pokéboard, ma per una battaglia sicuramente si!
@@ -11904,14 +11882,10 @@ Stesa in un nano secondo!
 Stesa in un nano secondo!
 Devo arrivare in fretta a Sagittopoli, sai perchè? Beh semplicemente perchè c'è il negozio di Pokéboard! E non vedo l'ora di acquistare l'ultimo modello in circolazione.
 Devo arrivare in fretta a Sagittopoli, sai perchè? Beh semplicemente perchè c'è il negozio di Pokéboard! E non vedo l'ora di acquistare l'ultimo modello in circolazione.
-Leo
-Leo
-Via! Sto cercando un Gyarados rosso!
-Via! Sto cercando un Gyarados rosso!
-...!
-...!
-Non lo troverò mai...!
-Non lo troverò mai...!
+Tatiana
+Tatiana
+Questo posto è incantevole, non credi? Peccato che da quando siano apparsi questi strani Pokémon, questo posto emette delle sensazione non molto positive... Chissà quale mistero si nasconde.
+Questo posto è incantevole, non credi? Peccato che da quando siano apparsi questi strani Pokémon, questo posto emette delle sensazione non molto positive... Chissà quale mistero si nasconde.
 Aster
 Aster
 \PN, siamo qui!
@@ -11976,13 +11950,23 @@ Purtroppo io non potrò darti una mano, ma sono sicuro che saprai fare un ottimo
 Purtroppo io non potrò darti una mano, ma sono sicuro che saprai fare un ottimo lavoro anche da solo|a!
 Alla prossima!
 Alla prossima!
-Sì
-Sì
-No
-No
+Leo
+Leo
+Via! Sto cercando un Gyarados rosso!
+Via! Sto cercando un Gyarados rosso!
+...!
+...!
+Non lo troverò mai...!
+Non lo troverò mai...!
 Si
 Si
+No
+No
+Sì
+Sì
 [Map281]
+<<[>>old<<]>>Gooot!
+<<[>>old<<]>>Gooot!
 Marano
 Marano
 Ho meditato così tanto che ho voglia di combattere. Preparati.
@@ -11991,10 +11975,8 @@ Non ci credo.
 Non ci credo.
 Forse devo meditare di più.
 Forse devo meditare di più.
-<<[>>old<<]>>Gooot!
-<<[>>old<<]>>Gooot!
-<<[>>old<<]>>Tauronordia ad ovest
-<<[>>old<<]>>Tauronordia ad ovest
+<<[>>old<<]>>Quando un Pokémon è congelato non può in alcun modo muoversi. Tuttavia, se usi una mossa Fuoco, potrai scongelarlo all'istante!
+<<[>>old<<]>>Quando un Pokémon è congelato non può in alcun modo muoversi. Tuttavia, se usi una mossa Fuoco, potrai scongelarlo all'istante!
 J.J
 J.J
 Ah-ah! Pensavi che ci fosse uno strumento vero? Invece c'è solo J.J
@@ -12003,16 +11985,8 @@ Non è possibile che J.J abbia perso...accidenti.
 Non è possibile che J.J abbia perso...accidenti.
 Perchè parlo in terza persona? Beh perchè sono il simpaticissimo J.J.
 Perchè parlo in terza persona? Beh perchè sono il simpaticissimo J.J.
-<<[>>old<<]>>Quando un Pokémon è congelato non può in alcun modo muoversi. Tuttavia, se usi una mossa Fuoco, potrai scongelarlo all'istante!
-<<[>>old<<]>>Quando un Pokémon è congelato non può in alcun modo muoversi. Tuttavia, se usi una mossa Fuoco, potrai scongelarlo all'istante!
-Fr3ny01
-Fr3ny01
-Sono l'unico Montanaro che è riuscito ad arrivare nei pressi di Tauronordia, e sai perchè? Perchè sono fortissimo!
-Sono l'unico Montanaro che è riuscito ad arrivare nei pressi di Tauronordia, e sai perchè? Perchè sono fortissimo!
-Me ne torno a casa va...
-Me ne torno a casa va...
-E' il momento di ritornare a casa...
-E' il momento di ritornare a casa...
+<<[>>old<<]>>Tauronordia ad ovest
+<<[>>old<<]>>Tauronordia ad ovest
 Tarassaco
 Tarassaco
 Ciao \PN! O forse dovrei dire Campione!
@@ -12049,18 +12023,14 @@ Alakazam
 Alakazam
 Kazam...!
 Kazam...!
-Niliano
-Niliano
-Sono un venditore ambulante, vuoi comprare qualcosa?
-Sono un venditore ambulante, vuoi comprare qualcosa?
-Akuma
-Akuma
-Il percorso 13 è la rappresentazione perfetta di un allenamento arduo. Il clima freddo permette a noi allenatori di diventare inarrestabili. Vuoi una prova? Ti accontento subito.
-Il percorso 13 è la rappresentazione perfetta di un allenamento arduo. Il clima freddo permette a noi allenatori di diventare inarrestabili. Vuoi una prova? Ti accontento subito.
-Questa sconfitta non mi fa male.
-Questa sconfitta non mi fa male.
-Continuerò ad allenarmi.
-Continuerò ad allenarmi.
+Fr3ny01
+Fr3ny01
+Sono l'unico Montanaro che è riuscito ad arrivare nei pressi di Tauronordia, e sai perchè? Perchè sono fortissimo!
+Sono l'unico Montanaro che è riuscito ad arrivare nei pressi di Tauronordia, e sai perchè? Perchè sono fortissimo!
+Me ne torno a casa va...
+Me ne torno a casa va...
+E' il momento di ritornare a casa...
+E' il momento di ritornare a casa...
 Tao
 Tao
 Tapu Bubu Settete!
@@ -12069,6 +12039,18 @@ Sono Tapu K.O...ko.
 Sono Tapu K.O...ko.
 Abbiamo Tapu Finito questa lotta. Ma io non trovo rime con Tapu Lele...
 Abbiamo Tapu Finito questa lotta. Ma io non trovo rime con Tapu Lele... 
+Akuma
+Akuma
+Il percorso 13 è la rappresentazione perfetta di un allenamento arduo. Il clima freddo permette a noi allenatori di diventare inarrestabili. Vuoi una prova? Ti accontento subito.
+Il percorso 13 è la rappresentazione perfetta di un allenamento arduo. Il clima freddo permette a noi allenatori di diventare inarrestabili. Vuoi una prova? Ti accontento subito.
+Questa sconfitta non mi fa male.
+Questa sconfitta non mi fa male.
+Continuerò ad allenarmi.
+Continuerò ad allenarmi.
+Niliano
+Niliano
+Solo da Niliano, articoli mai visti a prezzi stracciati!!
+Solo da Niliano, articoli mai visti a prezzi stracciati!!
 Alonso
 Alonso
 Forza, combattiamo!
@@ -12077,24 +12059,6 @@ Wow,che forza!
 Wow,che forza!
 Con il Pokéboard attraverseresti molto più velocemente questa zona, lo sai?
 Con il Pokéboard attraverseresti molto più velocemente questa zona, lo sai?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Sei in gamba.
-Sei in gamba.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-<<[>>old<<]>>Forse è meglio non aprirla.
-<<[>>old<<]>>Forse è meglio non aprirla.
-Neve
-Neve
-Uaaaa!
-Uaaaa!
-Tsk.
-Tsk.
-Spero di averti fatto paura... Perchè con i tuoi Pokémon me ne hai fatta tanta...
-Spero di averti fatto paura... Perchè con i tuoi Pokémon me ne hai fatta tanta...
 Ignazio
 Ignazio
 Oh no! Hai scoperto il mio strabiliante travestimento!
@@ -12103,6 +12067,24 @@ Brr...
 Brr...
 Mi vergogno così tanto di aver perso che ritorno nel mio cumolo di neve.
 Mi vergogno così tanto di aver perso che ritorno nel mio cumolo di neve.
+Neve
+Neve
+Uaaaa!
+Uaaaa!
+Tsk.
+Tsk.
+Spero di averti fatto paura... Perchè con i tuoi Pokémon me ne hai fatta tanta...
+Spero di averti fatto paura... Perchè con i tuoi Pokémon me ne hai fatta tanta...
+<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ho sbagliato ad accusarti, scusa!
+Ho sbagliato ad accusarti, scusa!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>Meglio non rischiare...
 Ilario
 Ilario
 Se mi sconfiggerai ti dirò un segreto su questo percorso!
@@ -12111,6 +12093,22 @@ Wow!
 Wow!
 Lo sai che è possibile trovare Bremand forma Canto? Solo che è molto molto raro... Spero che lo troverai.
 Lo sai che è possibile trovare Bremand forma Canto? Solo che è molto molto raro... Spero che lo troverai.
+Kimo
+Kimo
+Io e il mio Kungfur ti sconfiggeremo.
+Io e il mio Kungfur ti sconfiggeremo.
+...
+...
+Sono onorato di aver incontrato un allenatore abile come te.
+Sono onorato di aver incontrato un allenatore abile come te.
+Jinny
+Jinny
+Cosa aspetti a sfidarmi?
+Cosa aspetti a sfidarmi?
+Nooo!
+Nooo!
+...Ora piango.
+...Ora piango.
 <<[>>old<<]>>Questo alberello è congelato. Vuoi che Trishout lo scongeli?
 <<[>>old<<]>>Questo alberello è congelato. Vuoi che Trishout lo scongeli?
 Trishout
@@ -12121,22 +12119,6 @@ Tri...!
 <<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe sciogliere il ghiaccio...
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
-Jinny
-Jinny
-Cosa aspetti a sfidarmi?
-Cosa aspetti a sfidarmi?
-Nooo!
-Nooo!
-...Ora piango.
-...Ora piango.
-Kimo
-Kimo
-Io e il mio Kungfur ti sconfiggeremo.
-Io e il mio Kungfur ti sconfiggeremo.
-...
-...
-Sono onorato di aver incontrato un allenatore abile come te.
-Sono onorato di aver incontrato un allenatore abile come te.
 Fred
 Fred
 Ho comprato questo Pokéboard con lo scopo di fare snowboarding... Guarda qua!
@@ -12145,24 +12127,24 @@ Che c'è? Non ti piace?
 Che c'è? Non ti piace?
 Sei veramente in gamba.
 Sei veramente in gamba.
-Kun
-Kun
-Sorpresa!
-Sorpresa!
-Non so se è per il clima ma ho i brividi per la tua potenza.
-Non so se è per il clima ma ho i brividi per la tua potenza.
-Uno spirito temprato non conosce sofferenza!
-Uno spirito temprato non conosce sofferenza!
+<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe addentrarvisi...
+<<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe addentrarvisi...
 Lucio
 Lucio
 Perchè mi disturbi? Sto così caldo qui dentro...!
 Perchè mi disturbi?  Sto così caldo qui dentro...!
 Etciù! Che brutto raffreddore...
 Etciù! Che brutto raffreddore...
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe addentrarvisi...
-<<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe addentrarvisi...
+Kun
+Kun
+Sorpresa!
+Sorpresa!
+Non so se è per il clima ma ho i brividi per la tua potenza.
+Non so se è per il clima ma ho i brividi per la tua potenza.
+Uno spirito temprato non conosce sofferenza!
+Uno spirito temprato non conosce sofferenza!
 Flik
 Flik
 Ora che mi hai scoperto non posso farti fuggire!
@@ -12858,24 +12840,24 @@ Si
 No
 No
 [Map304]
-Funesto
-Funesto
-Ciao giovanotto|a! Mi presento, sono Funesto.
-Ciao giovanotto|a! Mi presento, sono Funesto.
-Se hai bisogno di ritornare all'entrata di questo dungeon, chiedi a me! Ti accompagnerò in un battibaleno!
-Se hai bisogno di ritornare all'entrata di questo dungeon, chiedi a me! Ti accompagnerò in un battibaleno!
-Ciao giovanotto|a! Hai bisogno di ritornare all'entrata del Dungeon?
-Ciao giovanotto|a! Hai bisogno di ritornare all'entrata del Dungeon?
-Molto bene! Non avere paura, c'è qui Funesto a soccorrerti!
-Molto bene!  Non avere paura, c'è qui Funesto a soccorrerti!
-Quando hai bisogno di me fammi un fischio.
-Quando hai bisogno di me fammi un fischio.
 <<[>>old<<]>> Sembra esser spento. Vuoi provare ad accenderlo?
 <<[>>old<<]>> Sembra esser spento. Vuoi provare ad accenderlo?
 <<[>>old<<]>> E' successo qualcosa. Meglio dare un'occhiata in giro.
 <<[>>old<<]>> E' successo qualcosa. Meglio dare un'occhiata in giro.
 <<[>>old<<]>>Meglio non toccare.
 <<[>>old<<]>>Meglio non toccare.
+Funesto
+Funesto
+Ciao giovanotto|a! Mi presento, sono <b>Funesto</b>.
+Ciao giovanotto|a! Mi presento, sono <b>Funesto</b>.
+Se hai bisogno di ritornare all'ingresso, chiedi a me! Ti accompagnerò in un battibaleno!
+Se hai bisogno di ritornare all'ingresso, chiedi a me! Ti accompagnerò in un battibaleno!
+Allora giovanotto|a, vuoi che ti riporti all'ingresso?
+Allora giovanotto|a, vuoi che ti riporti all'ingresso?
+Con Funesto si fa presto! Gambe in spalla!
+Con Funesto si fa presto! Gambe in spalla!
+Se hai bisogno, fammi un fischio.
+Se hai bisogno, fammi un fischio.
 Meneslao
 Meneslao
 Queste fogne sono perfette per i nostri piani malvagi... Oh no questo non potevo dirtelo! Dovrò sconfiggerti per farti chiudere bocca!
@@ -12898,16 +12880,16 @@ Il Boss sarà felice se riuscirò a sconfiggere un'allenatore! Combattiamo!
 Il Boss sarà felice se riuscirò a sconfiggere un'allenatore! Combattiamo!
 Forse è ancora troppo presto per me.
 Forse è ancora troppo presto per me.
-Nero
-Nero
-Perchè mai costruire un tempietto in un posto del genere? Bah, questi nuovi culti proprio non li capisco... Fossi in te ne starei alla larga!
-Perchè mai costruire un tempietto in un posto del genere? Bah, questi nuovi culti proprio non li capisco... Fossi in te ne starei alla larga!
 Serry
 Serry
 Hey questa zona è protetta da noi bulli!
 Hey questa zona è protetta da noi bulli!
 Non riuscirai mai a sconfiggerci tutti!
 Non riuscirai mai a sconfiggerci tutti!
+Nero
+Nero
+Perchè mai costruire un tempietto in un posto del genere? Bah, questi nuovi culti proprio non li capisco... Fossi in te ne starei alla larga!
+Perchè mai costruire un tempietto in un posto del genere? Bah, questi nuovi culti proprio non li capisco... Fossi in te ne starei alla larga!
 Carolina
 Carolina
 Questo posto è perfetto per allenare i miei Pokémon! Perchè non mi sfidi? Sicuramente avrai Pokémon molto più potenti rispetto a quelli selvatici!
@@ -12918,12 +12900,6 @@ Prima di pensare di vincere contro di te, devo allenarmi ancora di più contro i
 Prima di pensare di vincere contro di te, devo allenarmi ancora di più contro i Pokémon di questo posto.
 Pussa via! Non puoi entrare qui dentro.
 Pussa via! Non puoi entrare qui dentro.
-Aaron
-Aaron
-Sono un collezionista di Raticate, se ne hai uno sappi che me lo prenderò con la forza!
-Sono un collezionista di Raticate, se ne hai uno sappi che me lo prenderò con la forza!
-E va bene li cercherò nei dintorni...
-E va bene li cercherò nei dintorni...
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 Trishout
@@ -12944,6 +12920,12 @@ Shu...!
 Shu...!
 <<[>>old<<]>> Probabilmente per entrare in questo Nido, hai bisogno del tuo starter.
 <<[>>old<<]>> Probabilmente per entrare in questo Nido, hai bisogno del tuo starter.
+Aaron
+Aaron
+Sono un collezionista di Raticate, se ne hai uno sappi che me lo prenderò con la forza!
+Sono un collezionista di Raticate, se ne hai uno sappi che me lo prenderò con la forza!
+E va bene li cercherò nei dintorni...
+E va bene li cercherò nei dintorni...
 <<[>>old<<]>> Sembra esser spento.
 <<[>>old<<]>> Sembra esser spento.
 44RF
@@ -12966,6 +12948,8 @@ Si
 Si
 No
 No
+Sì
+Sì
 [Map305]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi entrare?
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi entrare?
@@ -13178,13 +13162,13 @@ Lucetta smettila di saltare sul letto!
 <<[>>old<<]>>Il cestino è vuoto.
 [Map311]
 Lorena
-Lorena l'incazzata
+Lorena
 Siamo quasi pronti per esplorare il Canyon Asteroide, non vedo l'ora!
-C'è un coglione di là che continua a sparare cazzate a gogo. Mo piglio la doppietta de mi nonno e je la faccio vede la sbrodata.
+Siamo quasi pronti per esplorare il Canyon Asteroide,  non vedo l'ora!
 Roberto
-Roberto lo scemo
+Roberto
 Finalmente io e la mia ragazza possiamo visitare il misterioso Canyon Asteroide. Non vedo l'ora di ammirare da vicino la Gola Steelix!
-Madonna bella che sbrodata! Ma funziona o no 'sta traduzione? Spero di non avere un nome strano!
+Finalmente io e la mia ragazza possiamo visitare il misterioso Canyon Asteroide. Non vedo l'ora di ammirare da vicino la Gola Steelix!
 Hippoo...!
 Hippoo...!
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
@@ -16560,18 +16544,18 @@ Usa Box
 [Map402]
 Funesto
 Funesto
-Ciao giovanotto|a! Mi presento, sono Funesto.
-Ciao giovanotto|a! Mi presento, sono Funesto.
-Se hai bisogno di ritornare all'entrata di questo dungeon, chiedi a me! Ti accompagnerò in un battibaleno!
-Se hai bisogno di ritornare all'entrata di questo dungeon, chiedi a me! Ti accompagnerò in un battibaleno!
-Ciao giovanotto|a! Hai bisogno di ritornare all'entrata del Dungeon?
-Ciao giovanotto|a! Hai bisogno di ritornare all'entrata del Dungeon?
-Molto bene! Non avere paura, c'è qui Funesto a soccorrerti!
-Molto bene!  Non avere paura, c'è qui Funesto a soccorrerti!
-Quando hai bisogno di me fammi un fischio.
-Quando hai bisogno di me fammi un fischio.
-Si
-Si
+Ciao giovanotto|a! Mi presento, sono <b>Funesto</b>.
+Ciao giovanotto|a! Mi presento, sono <b>Funesto</b>.
+Se hai bisogno di ritornare all'ingresso, chiedi a me! Ti accompagnerò in un battibaleno!
+Se hai bisogno di ritornare all'ingresso, chiedi a me! Ti accompagnerò in un battibaleno!
+Allora giovanotto|a, vuoi che ti riporti all'ingresso?
+Allora giovanotto|a, vuoi che ti riporti all'ingresso?
+Con Funesto si fa presto! Gambe in spalla!
+Con Funesto si fa presto! Gambe in spalla!
+Se hai bisogno, fammi un fischio.
+Se hai bisogno, fammi un fischio.
+Sì
+Sì
 No
 No
 [Map403]
@@ -17735,16 +17719,16 @@ No
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 Xiliano
 Xiliano
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Tieni a freno le mani! Come ti permetti di provare a derubarmi? Te la farò pagare cara!
-Sei in gamba.
-Sei in gamba.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-Forse ho sbagliato ad accusarti... ti chiedo scusa. In fondo stavi solo dando un'occhiata, ma non riprovarci! Ti prego di accettare questo piccolo regalo come scusa.
-<<[>>old<<]>>Forse è meglio non aprirla.
-<<[>>old<<]>>Forse è meglio non aprirla.
-Sono un venditore ambulante, vuoi comprare qualcosa?
-Sono un venditore ambulante, vuoi comprare qualcosa?
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Ho sbagliato ad accusarti, scusa!
+Ho sbagliato ad accusarti, scusa!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>Meglio non rischiare...
+Solo da Xiliano, articoli mai visti a prezzi stracciati!!
+Solo da Xiliano, articoli mai visti a prezzi stracciati!!
 Mara
 Mara
 Non ho neanche perso una battaglia da quando mi sono avventurata quì. Sei pronto|a a perdere?
@@ -17764,16 +17748,16 @@ La Via Vittoria di Eldiw è veramente un percorso arduo. Ma sicuramente la sfida
 La Via Vittoria di Eldiw è veramente un percorso arduo. Ma sicuramente la sfida più impegnativa è arrivare alla cima più alta della regione, solo così potrai essere proclamato il vero campione di Eldiw.
 Funesto
 Funesto
-Ciao giovanotto|a! Mi presento, sono Funesto.
-Ciao giovanotto|a! Mi presento, sono Funesto.
-Se hai bisogno di ritornare all'entrata di questo dungeon, chiedi a me! Ti accompagnerò in un battibaleno!
-Se hai bisogno di ritornare all'entrata di questo dungeon, chiedi a me! Ti accompagnerò in un battibaleno!
-Ciao giovanotto|a! Hai bisogno di ritornare all'entrata del Dungeon?
-Ciao giovanotto|a! Hai bisogno di ritornare all'entrata del Dungeon?
-Molto bene! Non avere paura, c'è qui Funesto a soccorrerti!
-Molto bene!  Non avere paura, c'è qui Funesto a soccorrerti!
-Quando hai bisogno di me fammi un fischio.
-Quando hai bisogno di me fammi un fischio.
+Ciao giovanotto|a! Mi presento, sono <b>Funesto</b>.
+Ciao giovanotto|a! Mi presento, sono <b>Funesto</b>.
+Se hai bisogno di ritornare all'ingresso, chiedi a me! Ti accompagnerò in un battibaleno!
+Se hai bisogno di ritornare all'ingresso, chiedi a me! Ti accompagnerò in un battibaleno!
+Allora giovanotto|a, vuoi che ti riporti all'ingresso?
+Allora giovanotto|a, vuoi che ti riporti all'ingresso?
+Con Funesto si fa presto! Gambe in spalla!
+Con Funesto si fa presto! Gambe in spalla!
+Se hai bisogno, fammi un fischio.
+Se hai bisogno, fammi un fischio.
 Milione
 Milione
 Secondo te se pagassi la Lega Pokémon, potrei diventare campione?
@@ -17796,12 +17780,10 @@ Passa pure.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>Non hai abbastanza soldi.
-Si
-Si
-No
-No
 Sì
 Sì
+No
+No
 Cura Pokémon
 Cura Pokémon
 Usa Box
@@ -19853,6 +19835,10 @@ Sì
 No
 No
 [Map559]
+Delia
+Delia
+Il treno ha fischiato.
+Il treno ha fischiato.
 Alisio
 Alisio
 Hey non calpestarmi il campo!
@@ -19861,24 +19847,20 @@ Gulp...
 Gulp...
 Passa pure... ma fai attenzione... Gulp.
 Passa pure... ma fai attenzione... Gulp.
-Delia
-Delia
-Ma quando passa questo treno?
-Ma quando passa questo treno?
-<<[>>old<<]>>Su quest'insegna è possibile controllare le varie tappe del Quasar Express lungo il tragitto Scorpiopoli-Leopoli.
-<<[>>old<<]>>Su quest'insegna è possibile controllare le varie tappe del Quasar Express lungo il tragitto Scorpiopoli-Leopoli.
 <<[>>old<<]>>Quando un Pokémon si addormenta non può agire per tutta la durata del riposo. Tuttavia, una volta sveglio, non sarà più affetto dalle eventuali alterazioni di stato di cui soffriva prima.
 <<[>>old<<]>>Quando un Pokémon si addormenta non può agire per tutta la durata del riposo. Tuttavia, una volta sveglio, non sarà più affetto dalle eventuali alterazioni di stato di cui soffriva prima.
-Claus
-Claus
-Vorresti prendere quell'oggetto? Dovrai prima sfidarmi!.
-Vorresti prendere quell'oggetto? Dovrai prima sfidarmi!.
-Sei forte sceriffo!
-Sei forte sceriffo!
-Spero un giorno di diventare un ottimo sceriffo proprio come Crisante!
-Spero un giorno di diventare un ottimo sceriffo proprio come Crisante!
+<<[>>old<<]>>Su quest'insegna è possibile controllare le varie tappe del Quasar Express lungo il tragitto Scorpiopoli-Leopoli.
+<<[>>old<<]>>Su quest'insegna è possibile controllare le varie tappe del Quasar Express lungo il tragitto Scorpiopoli-Leopoli.
 <<[>>old<<]>>Stazione Ferroviaria di Scorpiopoli
 <<[>>old<<]>>Stazione Ferroviaria di Scorpiopoli
+Claus
+Claus
+Vuoi prendere quell’oggetto laggiù, vero? L’ho visto prima io e non sono disposto a cedertelo tanto facilmente!
+Vuoi prendere quell’oggetto laggiù, vero? L’ho visto prima io e non sono disposto a cedertelo tanto facilmente!
+Il nostro duello ha deciso chi merita di accaparrarselo...
+Il nostro duello ha deciso chi merita di accaparrarselo...
+Prendilo pure tu.
+Prendilo pure tu.
 Assunta
 Assunta
 Uè! Dove pensi di andare?
