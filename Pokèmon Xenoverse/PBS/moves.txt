@@ -580,7 +580,7 @@
 602,POWERUPPUNCH,Crescipugno,01C,40,FIGHTING,Physical,100,20,100,00,0,abdef,"Rende i pugni più duri a ogni colpo inferto. Se i pugni vanno a segno, aumenta l'Attacco."
 603,ROTOTILLER,Aracampo,157,0,GROUND,Status,0,10,0,01,0,,,"Chi la usa dissoda la terra per far crescere meglio l'erba. Aumentano l'Attacco e l'Attacco Speciale dei Pokémon di tipo Erba."
 604,SPIKYSHIELD,Agodifesa,14C,0,GRASS,Status,0,10,0,10,4,,"Protegge dagli attacchi, riducendo inoltre i PS dei Pokémon che entrano in contatto con chi la usa."
-605,STICKYWEB,Rete Vischiosa,155,0,BUG,Status,0,20,0,80,0,c,"Intreccia una rete appiccicosa attorno alla squadra avversaria, diminuendo la Velocità di chi entra in campo."
+605,STICKYWEB,Rete Vischiosa,153,0,BUG,Status,0,20,0,80,0,c,"Intreccia una rete appiccicosa attorno alla squadra avversaria, diminuendo la Velocità di chi entra in campo."
 606,TOPSYTURVY,Sottosopra,141,0,DARK,Status,100,20,0,00,0,bce,"Inverte tutte le modifiche alle statistiche del Pokémon bersaglio."
 607,TRICKORTREAT,Halloween,142,0,GHOST,Status,100,20,0,00,0,bd,"Il bersaglio viene invitato a festeggiare Halloween e aggiunge così al proprio tipo anche il tipo Spettro."
 608,VENOMDRENCH,Velenotrappola,140,0,POISON,Status,100,20,0,00,0,bc,"Emette un liquido particolare che riduce l'Attacco, l'Attacco Speciale e la Velocità dei nemici avvelenati intorno a chi la usa."
