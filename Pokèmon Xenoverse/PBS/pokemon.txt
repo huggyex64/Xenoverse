@@ -26702,7 +26702,7 @@ Color=White
 Kind=Rancidolce
 Pokedex=Ingerire i suoi dolcetti provoca un forte senso di nausea. Più sono i malcapitati che li mangiano, più Slurpuff s'ingigantisce.
 BattlerPlayerY=4
-BattlerEnemyY=17
+BattlerEnemyY=27
 [2004]
 Name=Meowth
 InternalName=MEOWTHMERCANTE
