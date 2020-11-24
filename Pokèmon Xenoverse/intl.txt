@@ -31786,9 +31786,9 @@ Il Pokémon è scappato...
 Landed a Pokémon!
 È un Pokémon!
 \w[]\wm\c[8]\l[3]After the unfortunate defeat, {1} scurried to a Pokémon Center.
-\w[]\wm\c[8]\l[3]Dopo la sconfitta, {1} si rifugia in un Centro Pokémon.
+\w[]\wm\c[8]\l[3]Dopo la sconfitta, {1} si rifugia in un luogo sicuro.
 \w[]\wm\c[8]\l[3]{1} scurried to a Pokémon Center, protecting the exhausted and fainted Pokémon from further harm.
-\w[]\wm\c[8]\l[3]{1} si rifugia in un Centro Pokémon per proteggere i suoi Pokémon esausti da ulteriori danni.d the map 'Map{1:03d}' in the Data folder. The game Can't find the map 'Map{1:03d}' in the Data folder.  The game will resume at the player's position.
+\w[]\wm\c[8]\l[3]{1} si rifugia in un luogo sicuro per proteggere i suoi Pokémon esausti da ulteriori danni.
 Can't find the map 'Map{1:03d}' in the Data folder.  The game will resume at the player's position.
 Can't find the map 'Map{1:03d}' in the Data folder.  The game will resume at the player's position.
 \w[]\wm\c[8]\l[3]After the unfortunate defeat, {1} scurried home.
@@ -35752,7 +35752,7 @@ Rimedi
 Balls
 Ball
 Bt.Items
-Strumenti Lotta
+St. Lotta
 USE
 USA
 DON'T USE
