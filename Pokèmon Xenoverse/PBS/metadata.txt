@@ -122,7 +122,7 @@ WildBattleBGM=Wild Battle Snow.mp3
 [014]
 # Balansopoli
 Bicycle=false
-MapPosition=0,2,13
+MapPosition=0,1,13
 Outdoor=false
 [015]
 # Grotta Zerokelvin
@@ -284,7 +284,7 @@ ShowArea=true
 # Balansopoli
 MapSize=2,11
 Bicycle=true
-MapPosition=0,2,13
+MapPosition=0,1,13
 Outdoor=true
 ShowArea=true
 [040]
@@ -528,7 +528,7 @@ MapSize=1,11
 BattleBack=Field
 Bicycle=true
 TrainerBattleBGM=vs.Trainer.mp3
-MapPosition=0,20,9
+MapPosition=0,20,8
 Outdoor=true
 WildBattleBGM=Wild Battle.mp3
 ShowArea=true
@@ -755,6 +755,7 @@ MapPosition=0,23,3
 Outdoor=false
 [117]
 # Percorso 7
+MapSize=2,11
 BattleBack=Field
 Bicycle=true
 Dungeon=false
