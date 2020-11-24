@@ -789,9 +789,8 @@ RHYPERIOR,53
 #==============================
 COWBOY
 Claus
-2
-MEGANIUM,50
-FERALIGATR,50
+1
+BAYLEEF,38
 #==============================
 COWGIRL
 Miranda
