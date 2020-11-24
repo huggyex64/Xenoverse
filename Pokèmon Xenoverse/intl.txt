@@ -31832,19 +31832,19 @@ Peccato... La borsa è piena...
 \se<<[>><<]>>{1} ha trovato {2}!\se<<[>>itemlevel<<]>>\<<n>>che contiene {3}.\wtnp<<[>>30<<]>>
 \se<<[>><<]>>{1} trova {2}!\se<<[>>itemlevel<<]>>\<<n>>Contiene {3}.\wtnp<<[>>30<<]>>
 {1} sistema la {2}<<n>>nel {3} Pocket.
-{1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>.
-\se[]{1} ha trovato {2}!\se[itemlevel]\wtnp[30]
-\se[]{1} trova \c<<[>>1<<]>>{2}\c<<[>>0<<]>>!\se[itemlevel]\wtnp[30]
-{1} sistema {2}<<n>>nel {3} Pocket.
-{1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>.
-\se[]{1} ha trovato {2} {3}!\se[itemlevel]\wtnp[30]
-\se[]{1} trova {2} \c[1]{3}\c[0]!\se[itemlevel]\wtnp[30]
 {1} sistema {2}<<n>>nella tasca {3}.
-{1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>.
+\se[]{1} ha trovato {2}!\se[itemlevel]\wtnp[30]
+\se[]{1} trova {2}!\se[itemlevel]\wtnp[30]
+{1} sistema {2}<<n>>nel {3} Pocket.
+{1} sistema {2}<<n>>nella tasca {3}.
+\se[]{1} ha trovato {2} {3}!\se[itemlevel]\wtnp[30]
+\se[]{1} trova {2} {3}!!\se[itemlevel]\wtnp[30]
+{1} sistema {2}<<n>>nella tasca {3}.
+{1} sistema {2}<<n>>nella tasca {3}.
 \se[]{1} ha trovato {2} {3}s!\se[itemlevel]\wtnp[30]
-\se[]{1} trova {2} \c[1]{3}\c[0]!\se[itemlevel]\wtnp[30]
+\se[]{1} trova {2} {3}!\se[itemlevel]\wtnp[30]
 {1} sistema {2}s<<n>>nella tasca {3}.
-{1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>.
+{1} sistema {2}<<n>>nella tasca {3}.
 {1} ha trovato {2}!\wtnp[20]
 {1} trova \c<<[>>1<<]>>{2}\c<<[>>0<<]>>!\wtnp[20]
 {1} ha trovato {2} {3}!\wtnp[20]
@@ -35606,21 +35606,21 @@ File 'craftingsystem.txt' doesn't exist
 {1} ottiene {2}!
 {1} ottiene {2}!
 {1} sistema {2} nella tasca Strumenti.
-{1} sistema \c{2}\c nella tasca \cStrumenti\c.
+{1} sistema {2} nella tasca Strumenti.
 {1} sistema {2} nella tasca Medicine.
-{1} sistema \c{2}\c nella tasca \cRimedi\c.
+{1} sistema {2} nella tasca Rimedi.
 {1} sistema {2} nella tasca Poke Balls.
-{1} sistema \c{2}\c nella tasca \cPoké Ball\c.
+{1} sistema {2} nella tasca Poké Ball.
 {1} sistema {2} nella tasca MT/MN.
-{1} sistema \c{2}\c nella tasca \cMacchine\c.
+{1} sistema {2} nella tasca Macchine.
 {1} sistema {2} nella tasca Bacche.
-{1} sistema \c{2}\c nella tasca \cBacche\c.
+{1} sistema {2} nella tasca Bacche.
 {1} sistema {2} nella tasca Mail.
 {1} sistema \c{2}\c nella tasca \cMail\c.
 {1} sistema {2} nella tasca Oggetti di battaglia.
-{1} sistema \c{2}\c nella tasca \cStrumenti Lotta\c.
+{1} sistema {2} nella tasca Strumenti Lotta.
 {1} sistema {2} nella tasca Strumenti chiave.
-{1} sistema \c{2}\c nella tasca \cStrumenti Base\c.
+{1} sistema {2} nella tasca Strumenti Base.
 CHIUDI ZAINO
 CHIUDI ZAINO
 Chiudi zaino.
