@@ -31685,7 +31685,7 @@ Indietro
 Use
 Usa
 {1} is selected.
-{1} selezionato.
+Hai selezionato {1}.
 Use on which Pokémon?
 Usare su quale Pokémon?
 No targets somehow...
@@ -34710,7 +34710,7 @@ False
 True
 True
 Back
-Back
+Indietro
 Front
 Front
 Behind focus
@@ -35366,7 +35366,7 @@ Status moves must have a base damage of 0, use either Physical or Special<<r>><<
 Warning: Physical and special moves can't have a base damage of 0, changing to a Status move<<n>>{1}
 Warning: Physical and special moves can't have a base damage of 0, changing to a Status move<<r>><<n>>{1}
 Accuracy
-Accuracy
+Precisione
 Total PP
 Total PP
 Additional Effect
@@ -36550,7 +36550,7 @@ Apri Pokédex
 Open Region Map
 Apri Mappa Città
 Teach which move to {1}?
-Qualce mossa vuoi insegnare a {1}?
+Quale mossa vuoi insegnare a {1}?
 Hide Shiny
 Nascondi cromatici
 Show Shiny
