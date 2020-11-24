@@ -30539,8 +30539,8 @@ Usando {1}, la Difesa Speciale di {2} aumenta!
 {1} usa {2} per aumentare la probabilità di sferrare brutti colpi!
 Using {1}, the Attack of {2} rose sharply!
 Usando {1}, l'Attacco di {2} aumenta di molto!
-Usando {1}, la Difesa di {2} aumenta di molto!
 Using {1}, the Defense of {2} rose sharply!
+Usando {1}, la Difesa di {2} aumenta di molto!
 Using {1}, the Speed of {2} rose sharply!
 Usando {1}, la Velocità di {2} aumenta di molto!
 Using {1}, the Special Attack of {2} rose sharply!
@@ -30556,7 +30556,7 @@ Termina l'effetto di Ripeti su {1}!
 {1} is tormented no more!
 Attaccalite non ha più effetto su {1}!
 {1} is disabled no more!
-{1} può ora usare tutte le sue mosse!
+{1} non è più sotto l'effetto di Inibitore!
 {1}'s heal block ended!
 {1} non è più soggetto ad Anticura!
 {1}'s {2} restored its HP a little!
@@ -30574,7 +30574,7 @@ Parafulmine di {1} attira l'attacco!
 {1}'s Storm Drain took the move!
 Acquascolo di {1} attira l'attacco!
 {1}'s {2} was bounced back by Magic Coat!
-Magivelo rispedisce al mittente {2} di {1}!
+Magivelo rispedisce {2} a {1}!
 {1} bounced the {2} back!
 {1} respinge {2} al mittente!
 {1} ignored orders while asleep!
@@ -30597,7 +30597,6 @@ But it failed to spit up a thing!
 Ma fallisce!
 {1} protected itself!
 {1} si protegge!
-But it failed!
 But it failed!
 Ma fallisce!
 {1} makes Ground moves miss with Levitate!
@@ -30943,11 +30942,11 @@ Le modifiche alle statistiche di {1} sono state azzerate!
 All stat changes were eliminated!
 Tutte le modifiche alle statistiche sono state azzerate!
 {1} switched all changes to its Attack and Sp. Atk with the target!
-{1} scambia tutte le modifiche ad Attacco e Attacco Speciale con l'obiettivo!
+{1} scambia tutte le modifiche ad Attacco e Attacco Speciale con il bersaglio!
 {1} switched all changes to its Defense and Sp. Def with the target!
-{1} scambia tutte le modifiche a Difesa e Difesa Speciale con l'obiettivo!
+{1} scambia tutte le modifiche a Difesa e Difesa Speciale con il bersaglio!
 {1} switched stat changes with the target!
-{1} scambia le modifiche alle statistiche con l'obiettivo!
+{1} scambia le modifiche alle statistiche con il bersaglio!
 {1} copied {2}'s stat changes!
 {1} copia le modifiche alle statistiche di {2}!
 Your team became shrouded in mist!
@@ -30957,9 +30956,9 @@ La squadra avversaria è avvolta nella nebbia!
 {1} switched its Attack and Defense!
 {1} inverte Attacco e Difesa!
 {1} shared its power with the target!
-{1} condivide la sua forza con l'obiettivo!
+{1} condivide la sua forza con il bersaglio!
 {1} shared its guard with the target!
-{1} condivide le sue difese con l'obiettivo!
+{1} condivide le sue difese con il bersaglio!
 The battlers shared their pain!
 I PS vengono sommati e ridistribuiti!
 The tailwind blew from behind your team!
@@ -30979,7 +30978,7 @@ Ventoincoda comincia a soffiare sulla squadra avversaria!
 {1} copied {2}'s {3}!
 {1} copia {3} di {2}!
 {1} swapped its {2} ability with its target's {3} ability!
-{1} scambia la sua abilità {2} con {3} dell'obiettivo!
+{1} scambia la sua abilità {2} con {3} del bersaglio!
 {1}'s ability was suppressed!
 L'abilità di {1} viene neutralizzata!
 {1} was protected by {2}!
@@ -31029,7 +31028,7 @@ Ma fallisce!
 {1} sealed the opponent's move(s)!
 {1} ha l'esclusiva su una o più mosse!
 {1}'s {2} was disabled!
-{1}'s {2} was disabled!
+{2} di {1} è fuori uso!
 {1} fell for the taunt!
 {1} è in balia di Provocazione!
 {1} was prevented from healing!
@@ -31043,9 +31042,9 @@ Ma fallisce!
 {1} took in sunlight!
 {1} assorbe la luce solare!
 {1} became cloaked in a freezing light!
-{1} became cloaked in a freezing light!
+{1} si avvolge in una luce gelida!
 {1} became cloaked in freezing air!
-{1} became cloaked in freezing air!
+{1} si avvolge in un'aria gelida!
 {1} is glowing!
 Una luce intensa avvolge {1}!
 {1} lowered its head!
@@ -31057,7 +31056,7 @@ Una luce intensa avvolge {1}!
 {1} hid underwater!
 {1} sparisce sott'acqua!
 {1} sprang up!
-{1} sprang up!
+{1} spicca un balzo!
 {1} vanished instantly!
 {1} svanisce all'istante!
 {1} was squeezed by {2}!
@@ -31121,7 +31120,7 @@ Tutti i Pokémon che ascoltano questa melodia andranno KO in tre turni!
 {1} can't escape now!
 {1} non può più scappare!
 {1} knocked off {2}'s {3}!
-{1} toglie {3} a {3}!
+{1} fa cadere {3} a {2}!
 {1} stole {2}'s {3}!
 {1} ruba {3} a {2}!
 {1} switched items with its opponent!
@@ -31135,13 +31134,14 @@ Tutti i Pokémon che ascoltano questa melodia andranno KO in tre turni!
 {1}'s {2} was incinerated!
 Le fiamme divorano {2} di {1}!
 {1} found one {2}!
-{1} ha trovato {2}!
+{1} trova {2}!
 {1} flung its {2}!
-{1} ha trovato {2}!
+{1} lancia {2}!
 {1}'s {2} cured {3}'s love problem!
 {2} di {1} cura l'infatuazione di {3}!
 {1}'s {2} restored {3}'s status!
-{2} di {1} cura il problema di stato di {3}!
+{2} di {1} cura l'alterazione di stato di {3}!
+{1} can't use items anymore!
 {1} non può più usare strumenti!
 The area returned to normal!
 Il campo ritorno alla normalità!
@@ -31312,15 +31312,15 @@ L'avversario è debole!<<n>>Coraggio, {1}!
 {1} manda in<<n>>campo {2}!
 {1} manda in campo<<n>>{2}!
 {1} used the<<n>>{2}.
-{1} ha usato<<n>>{2}.
+{1} usa<<n>>{2}.
 Couldn't return unused item to Bag somehow.
-Couldn't return unused item to Bag somehow.
+Non puoi più recuperare lo strumento inutilizzato.
 Couldn't return unusable item to Bag somehow.
-Couldn't return unusable item to Bag somehow.
+Non puoi più recuperare lo strumento inutilizzabile.
 It's impossible to aim without being focused!
 È impossibile prendere la mira senza essere concentrati!
 {1} used the<<n>>{2}!
-{1} ha usato<<n>>{2}!
+{1} usa<<n>>{2}!
 {1} became healthy!
 {1} è tornato in forze!
 Treat this battle as a win?
@@ -31328,7 +31328,7 @@ Treat this battle as a win?
 Treat this battle as a loss?
 Treat this battle as a loss?
 No! There's no running from a Trainer battle!
-No! Non si scappa da una lotta contro un Allenatore!
+Non si scappa da una lotta contro un Allenatore!
 Would you like to forfeit the match and quit now?
 Vuoi arrenderti e uscire?
 {1} forfeited the match!
@@ -31352,7 +31352,7 @@ Mega {1}
 Form is: {1} |
 Form is: {1} |
 {1} called {2}!
-{1} cerca di far tornare in sé {2}!
+{1} ritira {2}!
 {1}!
 {1}!
 {1} came to its senses from the Trainer's call!
@@ -31458,7 +31458,7 @@ Piove a dirotto.
 A sandstorm is raging.
 La tempesta di sabbia imperversa.
 Hail is falling.
-La tempesta di sabbia imperversa.
+Grandina.
 Items can't be used here.
 Non si possono usare strumenti qui.
 Non puoi usare questa ball per catturare il<<n>>Pokémon!
@@ -31507,6 +31507,7 @@ Il sole danneggia la Pellearsa di {1}!
 {1} recupera qualche PS grazie a Corpogelo!
 {1}'s wish came true!
 Il desiderio di {1} si avvera!
+{1}'s {2} cured its partner's sleep problem!
 {1} guarisce il compagno dal sonno con {2}!
 {1}'s {2} cured its partner's poison problem!
 {1} guarisce il compagno dall'avvelenamento con {2}!
@@ -31537,7 +31538,7 @@ Parassiseme restituisce PS a {1}!
 {1} stopped levitating.
 {1} ha smesso di levitare.
 The heal block on {1} ended.
-{1} può ora curarsi.
+{1} può tornare a curarsi.
 The embargo on {1} was lifted.
 Il divieto non ha più effetto su {1}.
 {1} fell asleep!
@@ -31789,6 +31790,7 @@ Landed a Pokémon!
 \w[]\wm\c[8]\l[3]{1} scurried to a Pokémon Center, protecting the exhausted and fainted Pokémon from further harm.
 \w[]\wm\c[8]\l[3]{1} si rifugia in un Centro Pokémon per proteggere i suoi Pokémon esausti da ulteriori danni.d the map 'Map{1:03d}' in the Data folder. The game Can't find the map 'Map{1:03d}' in the Data folder.  The game will resume at the player's position.
 Can't find the map 'Map{1:03d}' in the Data folder.  The game will resume at the player's position.
+Can't find the map 'Map{1:03d}' in the Data folder.  The game will resume at the player's position.
 \w[]\wm\c[8]\l[3]After the unfortunate defeat, {1} scurried home.
 \w[]\wm\c[8]\l[3]Dopo la sconfitta, {1} si rifugia in casa.
 \w[]\wm\c[8]\l[3]{1} scurried home, protecting the exhausted and fainted Pokémon from further harm.
@@ -31874,11 +31876,11 @@ Sembra che quest'albero si possa tagliare...
 Sorry, a new Badge is required.
 Sorry, a new Badge is required.
 Non puoi usarla ora.
-Non puoi usarla ora.
+Non si può usare ora.
 {1} usa {2}!
 {1} usa {2}!
 Nope. Nothing...
-Nope.  Nothing...
+Niente di niente...
 A Pokémon could be in this tree. Would you like to use Headbutt?
 A Pokémon could be in this tree.  Would you like to use Headbutt?
 {1} used Headbutt.
@@ -31886,7 +31888,7 @@ A Pokémon could be in this tree.  Would you like to use Headbutt?
 A Pokémon could be in this tree. Maybe a Pokémon could shake it.
 A Pokémon could be in this tree.  Maybe a Pokémon could shake it.
 Can't use that here.
-Can't use that here.
+Non si può usare qui.
 {1} used {2}.
 {1} usa {2}.
 This rock appears to be breakable. Would you like to use Rock Smash?
@@ -31920,11 +31922,11 @@ L'acqua è di un blu intenso...<<n>>Vuoi usare Surf?
 You're already surfing.
 Stai già usando Surf.
 It can't be used when you have someone with you.
-It can't be used when you have someone with you.
+Non si può usare quando c'è qualcuno con te.
 Let's enjoy cycling!
 Let's enjoy cycling!
 No surfing here!
-No surfing here!
+Niente Surf qui!
 The lava is a deep red...<<n>>Would you like to surf on it?
 The lava is a deep red...<<n>>Would you like to surf on it?
 Torkoal ti aiuta ad attraversare
@@ -31948,7 +31950,7 @@ Light is filtering down from above.  Would you like to use Dive?
 Light is filtering down from above. A Pokémon may be able to surface here.
 Light is filtering down from above.  A Pokémon may be able to surface here.
 {1} used {2}!
-{1} used {2}!
+{1} usa {2}!
 This is in use already.
 This is in use already.
 A causa di una distorsione dimensionale, il Pokémon non può usare Teletrasporto.
@@ -32191,7 +32193,7 @@ Friday
 Venerdì
 Saturday
 Sabato
-JJanuary
+January
 Gennaio
 February
 Febbraio
@@ -32320,7 +32322,7 @@ But the effects of a Repel lingered from earlier.
 {1} used the {2}.
 {1} usa {2}.
 Repel's effect wore off...
-L'effetto del Repellente è terminato..
+L'effetto del Repellente è terminato...
 Do you want to use another Repel?
 Vuoi usarne un altro?
 Wild Pokémon will be repelled.
@@ -32488,13 +32490,13 @@ You have no Pokemon that can be purified.
 {1} can now be purified!
 {1} can now be purified!
 This item can't be used on that Pokemon.
-This item can't be used on that Pokemon.
+Non puoi usare questo strumento sul Pokémon.
 Its hyper mode attack hurt {1}!
 Its hyper mode attack hurt {1}!
 {1}'s emotions rose to a fever pitch!<<n>>It entered Hyper Mode!
 {1}'s emotions rose to a fever pitch!<<n>>It entered Hyper Mode!
 Each Pokemon's HP was halved!
-Each Pokemon's HP was halved!
+I PS di tutti i Pokémon si dimezzano!
 A shadow sky appeared!
 A shadow sky appeared!
 It broke all barriers!
@@ -32528,9 +32530,9 @@ Passi: {1}/{2}<<n>>Ball: {3}
 Quit
 Esci
 Caught: {1}<<n>>Level: {2}<<n>>Balls: {3}
-Caught: {1}<<n>>Level: {2}<<n>>Balls: {3}
+Presi: {1}<<n>>Livello: {2}<<n>>Ball: {3}
 Caught: None<<n>>Balls: {1}
-Caught: None<<n>>Balls: {1}
+Presi: None<<n>>Balls: {1}
 Esci
 Esci
 Salva
@@ -32564,7 +32566,7 @@ pokedexbg
 Seen:<r>{1:d}
 Visti:<r>{1:d}
 Owned:<r>{1:d}
-Catturati:<r>{1:d}
+Presi:<r>{1:d}
 <ac>{1:s}</ac>
 <ac>{1:s}</ac>
 <ac>{1:s} - Search results</ac>
@@ -32748,7 +32750,7 @@ Maschio
 Female
 Femmina
 One Form
-One Form
+Una Forma
 Genderless
 Asessuato
 Pokémon already has mail
@@ -32776,7 +32778,7 @@ Please enter a message (max. 256 characters).
 Stop giving the Pokémon Mail?
 Stop giving the Pokémon Mail?
 {1} isn't holding anything.
-{1} isn't holding anything.
+{1} non tiene nessuno strumento.
 The Bag is full. The Pokémon's item could not be removed.
 La borsa è piena. Non c'è spazio per altri strumenti.
 Send the removed mail to your PC?
@@ -32818,25 +32820,25 @@ Mail was transferred from the Mailbox.
 {1} (PP: {2}/{3})
 {1} (PP: {2}/{3})
 INELIGIBLE
-INELIGIBLE
+NON AMMESSO
 NOT ENTERED
-NOT ENTERED
+NON ISCRITTO
 BANNED
-BANNED
+VIETATO
 FIRST
-FIRST
+PRIMO
 SECOND
-SECOND
+SECONDO
 THIRD
-THIRD
+TERZO
 FOURTH
-FOURTH
+QUARTO
 FIFTH
-FIFTH
+QUINTO
 SIXTH
-SIXTH
+SESTO
 Choose Pokémon and confirm.
-Choose Pokémon and confirm.
+Seleziona Pokémon e conferma.
 Entry
 Entry
 No Entry
@@ -32848,11 +32850,11 @@ Chiudi
 Che fare con {1}?
 Che fare con {1}?
 No more than {1} Pokémon may enter.
-No more than {1} Pokémon may enter.
+Non sono ammessi più di {1} Pokémon.
 Choose Pokémon or cancel.
-Choose Pokémon or cancel.
+Seleziona Pokémon o esci.
 This Pokémon can't be chosen.
-This Pokémon can't be chosen.
+Non puoi selezionare questo Pokémon.
 HP/Status
 HP/Status
 Livello
@@ -33102,9 +33104,9 @@ Are you sure you want to delete this Pokémon?
 The Pokémon was deleted.
 The Pokémon was deleted.
 Scegli un Pokémon.
-Scegli un Pokémon.
+Seleziona Pokémon.
 Scegli un Pokémon o esci.
-Scegli un Pokémon o esci.
+Seleziona Pokémon o annulla.
 Statistiche
 Info
 Ordina
@@ -33114,7 +33116,7 @@ Strumenti
 Not enough HP...
 Non ha abbastanza PS...
 This item can't be used on that Pokémon.
-Non puoi usare questo strumento su quel Pokémon.
+Non puoi usare questo strumento sul Pokémon.
 Move to where?
 Spostare dove?
 Do what with the mail?
@@ -33134,7 +33136,7 @@ INFO
 Oggetto
 Strumento
 Dex Num.
-N° Pokédex
+N° Dex
 Specie
 Specie
 Tipo
@@ -33160,7 +33162,7 @@ The door to its heart is tightly shut.
 Punti Exp.
 Punti Esp.
 Al prossimo Lv.
-Lv.+1
+Lv. +1
 RENTAL
 RENTAL
 TRAINER MEMO
@@ -33356,7 +33358,7 @@ The map data cannot be found.
 Set the name for this point.
 Set the name for this point.
 Save changes?
-Save changes?
+Vuoi salvare le modifiche?
 Exit from the map?
 Exit from the map?
 Registered {1} in the Pokégear.
@@ -33372,7 +33374,7 @@ The Trainer is out of range.
 There are no phone numbers stored.
 There are no phone numbers stored.
 Registered<br>
-Registered<br>
+Assegnato<br>
 <r>{1}<br>
  <r>{1}<br>
 Waiting for a rematch<r>{1}
@@ -33558,7 +33560,7 @@ Vuoi liberare questo Pokémon?
 Bye-bye, {1}!
 Addio, {1}!
 Can't deposit from box...
-Non puoi depositare nel Box...
+Non puoi depositare nel box...
 Please remove the Mail.
 Please remove the Mail.
 Deposit in which Box?
@@ -33606,11 +33608,11 @@ Salta
 Wallpaper
 Wallpaper
 Name
-Name
+Nome
 What do you want to do?
 Cosa vuoi fare?
 Jump to which Box?
-A quale box vuoi saltare?
+A quale box vuoi andare?
 Forest
 Forest
 City
@@ -33744,21 +33746,21 @@ Esci
 \se[computeropen]{1} booted up the PC.
 \se[computeropen]{1} ha acceso il PC.
 {1}'s PC
-{1}'s PC
+PC di {1}
 \se[accesspc]Accessed {1}'s PC.
-\se[accesspc]Accessed {1}'s PC.
+\se[accesspc]Accesso al PC di {1}.
 Someone's PC
-Someone's PC
+PC di ???
 \se[accesspc]The Pokémon Storage System was opened.
-\se[accesspc]The Pokémon Storage System was opened.
+\se[accesspc]Sistema Memoria Pokémon aperto.
 Withdraw Pokémon
-Withdraw Pokémon
+Ritira Pokémon
 Deposit Pokémon
-Deposit Pokémon
+Deposita Pokémon
 Move Pokémon
-Move Pokémon
+Sposta Pokémon
 See ya!
-See ya!
+Arrivederci!
 Move Pokémon stored in Boxes to your party.
 Move Pokémon stored in Boxes to your party.
 Your party is full!
@@ -33852,11 +33854,11 @@ ESCI
 In Bag:<r>{1:d}
 In Borsa:<r>{1:d}  
 x{1:d}<r>$ {2:d}
-x{1:d}<r>$ {2:d}
+x{1:d}<r>{2:d}$
 Quit shopping.
 Esci.
 Money:<<n>><r>${1}
-Soldi:<<n>><r>${1}
+Soldi:<<n>><r>{1}$
 You don't have enough money.
 Non hai abbastanza soldi...
 Certainly. You want {1}.<<n>>That will be ${2}. OK?
@@ -34028,9 +34030,9 @@ No encounters for map {1}, so can't judge contest
 Too few bug catching contestants
 Too few bug catching contestants
 Sport Balls: {1}
-Sport Balls: {1}
+Sport Ball: {1}
 Fight
-Fight
+Lotta
 You already caught a {1}.
 Hai già catturato un {1}.
 STOCK POKéMON:<<n>>{1} Lv{2} MaxHP: {3}<<n>>THIS POKéMON:<<n>>{4} Lv{5} MaxHP: {6}
@@ -34218,11 +34220,11 @@ Opponent won your {1} card.
 Opponent won all your cards.
 Opponent won all your cards.
 {1} ${2}
-{1} ${2}
+{1} {2}$
 There are no cards that you can buy.
 There are no cards that you can buy.
 Money:<<n>>{1}
-Money:<<n>>{1}
+Soldi:<<n>>{1}
 The {1} card? Certainly.<<n>>How many would you like?
 The {1} card?  Certainly.<<r>><<n>>How many would you like?
 You have no room for more cards.
@@ -35624,7 +35626,7 @@ CHIUDI ZAINO
 Chiudi zaino.
 Chiudi zaino.
 The {1} can't be used on {2}.
-The {1} can't be used on {2}.
+Non puoi usare {1} su {2}.
 Spazio: {1}/{2}
 Spazio: {1}/{2}
 Graphics/Pictures/Veleno/progressione
@@ -35760,7 +35762,7 @@ Pokémon {1:s}
 There is a total of #{@files.length} PNG(s) available for conversion. Would you like to begin the process?
 There is a total of #{@files.length} PNG(s) available for conversion. Would you like to begin the process?
 Done!
-Done!
+Fatto!
 Done! All your converted sprites are saved in the Graphics/Battlers/Cut/ folder.
 Done! All your converted sprites are saved in the Graphics/Battlers/Cut/ folder.
 File '{1}' doesn't exist
@@ -35920,7 +35922,7 @@ Testa e gambe
 Quadruped
 Quadrupedi
 Has two wings
-Con un paio d'ali
+Alati
 Tentacles
 Tentacoalti
 Multiple bodies
@@ -35963,8 +35965,6 @@ Modern Mode
 Modern Mode
 {1} ti si para davanti!
 {1} ti si para davanti!
-L'aria si fa pesante...
-L'aria si fa pesante...
 Dragalisk non ha scalfito Luxflon..!
 Dragalisk non ha scalfito Luxflon...!
 Cosa?<<n>>{1} si sta evolvendo!
@@ -36426,7 +36426,7 @@ There are no animations to import. Put each animation in a folder within the Ani
 All animations were imported.
 All animations were imported.
 Number
-N° Pokédex
+N° Dex
 Exp points.
 Punti Esp.
 Lv. +1
@@ -36500,7 +36500,7 @@ Xenodex Completed.
 Retrodex Completed.
 Retrodex Completed.
 Defeated: {1}
-Defeated: {1}
+Sconfitti: {1}
 Press Z to open the Retrodex
 Premi Z per il Retròdex
 Free
@@ -36688,7 +36688,7 @@ Una rete vischiosa è stata intrecciata ai piedi della tua squadra!
 {1} is absorbing power!
 {1} assorbe energia!
 {1} became fully charged due to its Power Herb!
-{1} si carica all'istante grazie alla sua Vigorerba!
+{1} si carica all'istante grazie a Vigorerba!
 use {1}
 usa {1}
 {1} can't {2} because of Heal Block!
