@@ -31336,7 +31336,7 @@ Vuoi arrenderti e uscire?
 Got away safely!
 Scampato pericolo!
 Can't escape!
-Scampato pericolo!
+Non si scappa!
 {1} fled using its {2}!
 {1} scappa grazie a {2}!
 {1} fled using Run Away!
