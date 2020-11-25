@@ -32362,41 +32362,41 @@ La Difesa Speciale di {1} è aumentata.
 {1}'s Speed increased.
 La Velocità di {1} è aumentata.
 {1} adores you!<<n>>The base HP fell!
-{1} adores you!<<n>>The base HP fell!
+{1} ti adora!<<n>>I PS di base calano!
 {1} turned friendly.<<n>>The base HP can't fall!
-{1} turned friendly.<<n>>The base HP can't fall!
+{1} è diventato un po' più amichevole.<<n>>I PS di base non possono calare!
 {1} turned friendly.<<n>>The base HP fell!
-{1} turned friendly.<<n>>The base HP fell!
+{1} è diventato un po' più amichevole.<<n>>I PS di base calano!
 {1} adores you!<<n>>The base Attack fell!
-{1} adores you!<<n>>The base Attack fell!
+{1} ti adora!<<n>>L'Attacco di base cala!
 {1} turned friendly.<<n>>The base Attack can't fall!
-{1} turned friendly.<<n>>The base Attack can't fall!
+{1} è diventato un po' più amichevole.<<n>>L'Attacco di base non può calare!
 {1} turned friendly.<<n>>The base Attack fell!
-{1} turned friendly.<<n>>The base Attack fell!
+{1} è diventato un po' più amichevole.<<n>>L'Attacco di base cala!
 {1} adores you!<<n>>The base Defense fell!
-{1} adores you!<<n>>The base Defense fell!
+{1} ti adora!<<n>>La Difesa di base cala!
 {1} turned friendly.<<n>>The base Defense can't fall!
-{1} turned friendly.<<n>>The base Defense can't fall!
+{1} è diventato un po' più amichevole.<<n>>La Difesa di base non può calare!
 {1} turned friendly.<<n>>The base Defense fell!
-{1} turned friendly.<<n>>The base Defense fell!
+{1} è diventato un po' più amichevole.<<n>>La Difesa di base cala!
 {1} adores you!<<n>>The base Special Attack fell!
-{1} adores you!<<n>>The base Special Attack fell!
+{1} ti adora!<<n>>L'Attacco Speciale di base cala!
 {1} turned friendly.<<n>>The base Special Attack can't fall!
-{1} turned friendly.<<n>>The base Special Attack can't fall!
+{1} è diventato un po' più amichevole.<<n>>L'Attacco Speciale di base non può calare!
 {1} turned friendly.<<n>>The base Special Attack fell!
-{1} turned friendly.<<n>>The base Special Attack fell!
+{1} è diventato un po' più amichevole.<<n>>L'Attacco Speciale di base cala!
 {1} adores you!<<n>>The base Special Defense fell!
-{1} adores you!<<n>>The base Special Defense fell!
+{1} ti adora!<<n>>La Difesa Speciale di base cala!
 {1} turned friendly.<<n>>The base Special Defense can't fall!
-{1} turned friendly.<<n>>The base Special Defense can't fall!
+{1} è diventato un po' più amichevole.<<n>>La Difesa Speciale di base non può calare!
 {1} turned friendly.<<n>>The base Special Defense fell!
-{1} turned friendly.<<n>>The base Special Defense fell!
+{1} è diventato un po' più amichevole.<<n>>La Difesa Speciale di base cala!
 {1} adores you!<<n>>The base Speed fell!
-{1} adores you!<<n>>The base Speed fell!
+{1} ti adora!<<n>>La Velocità di base cala!
 {1} turned friendly.<<n>>The base Speed can't fall!
-{1} turned friendly.<<n>>The base Speed can't fall!
+{1} è diventato un po' più amichevole.<<n>>La Velocità di base non può calare!
 {1} turned friendly.<<n>>The base Speed fell!
-{1} turned friendly.<<n>>The base Speed fell!
+{1} è diventato un po' più amichevole.<<n>>La Velocità di base cala!
 {1} changed Forme!
 {1} ha cambiato forma!
 It had no effect.
@@ -33124,7 +33124,7 @@ Do what with the mail?
 Read
 Read
 Take
-Take
+Prendi
 Dai
 Dai
 Prendi
@@ -36719,3 +36719,5 @@ Gusciotrappola fallisce!
 {1} ruba le modifiche alle statistiche di {2}!
 The Ion Deluge started!
 Particelle elettrizzate si disperdono nell'aria!
+Where to jump?
+A quale box vuoi andare?
