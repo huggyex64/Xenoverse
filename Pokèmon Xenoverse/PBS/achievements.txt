@@ -291,7 +291,7 @@ image = 58_erba
 [Acchiappali]
 title = Acchiappali tutti!
 description = Cattura tutti i Pokémon di Eldiw.
-amount = 390
+amount = 389
 image = 59_acchiappali
 [Ultraball]
 title = Ultra Ball? Nah!
@@ -316,12 +316,12 @@ image = 62_frittata
 [Passione]
 title = Uova che passione
 description = Schiudi almeno 50 Uova.
-amount = 1
+amount = 50
 image = 63_passione
 [Allevatore]
 title = Allevatore certificato
 description = Schiudi almeno 200 Uova.
-amount = 1
+amount = 200
 image = 64_allevatore
 [Fanatico]
 title = Fanatico
@@ -331,7 +331,7 @@ image = 66_fanatico
 [Mondo]
 title = Cose dell'altro mondo!
 description = Completa la sezione Xenoverse del Pokédex.
-amount = 1
+amount = 29
 image = 67_mondo
 [Brillante]
 title = Allenatore brillante
