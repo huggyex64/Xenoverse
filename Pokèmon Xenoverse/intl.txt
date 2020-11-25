@@ -31764,7 +31764,7 @@ REFEREE: Judgment: {1} to {2}!<<n>>The winner is {3}!\wtnp<<[>>40<<]>>
 Can't catch any more...
 Can't catch any more...
 But {1} couldn't sleep!
-But {1} couldn't sleep!
+Ma {1} non può dormire!
 {1}'s team was disqualified!
 {1}'s team was disqualified!
 SKIPPING BATTLE...
@@ -31832,19 +31832,19 @@ Peccato... La borsa è piena...
 \se<<[>><<]>>{1} ha trovato {2}!\se<<[>>itemlevel<<]>>\<<n>>che contiene {3}.\wtnp<<[>>30<<]>>
 \se<<[>><<]>>{1} trova {2}!\se<<[>>itemlevel<<]>>\<<n>>Contiene {3}.\wtnp<<[>>30<<]>>
 {1} sistema la {2}<<n>>nel {3} Pocket.
-{1} sistema {2}<<n>>nella tasca {3}.
+{1} sistema \c[1]{2}\c[0]<<n>>nella tasca \c[1]{3}\c[0].
 \se[]{1} ha trovato {2}!\se[itemlevel]\wtnp[30]
-\se[]{1} trova {2}!\se[itemlevel]\wtnp[30]
+\se[]{1} trova \c[1]{2}\c[0]!\se[itemlevel]\wtnp[30]
 {1} sistema {2}<<n>>nel {3} Pocket.
-{1} sistema {2}<<n>>nella tasca {3}.
+{1} sistema \c[1]{2}\c[0]<<n>>nella tasca \c[1]{3}\c[0].
 \se[]{1} ha trovato {2} {3}!\se[itemlevel]\wtnp[30]
-\se[]{1} trova {2} {3}!!\se[itemlevel]\wtnp[30]
+\se[]{1} trova {2} \c[1]{3}\c[0]!\se[itemlevel]\wtnp[30]
 {1} sistema {2}<<n>>nella tasca {3}.
-{1} sistema {2}<<n>>nella tasca {3}.
+{1} sistema \c[1]{2}\c[0]<<n>>nella tasca \c[1]{3}\c[0].
 \se[]{1} ha trovato {2} {3}s!\se[itemlevel]\wtnp[30]
-\se[]{1} trova {2} {3}!\se[itemlevel]\wtnp[30]
+\se[]{1} trova {2} \c[1]{3}\c[0]!\se[itemlevel]\wtnp[30]
 {1} sistema {2}s<<n>>nella tasca {3}.
-{1} sistema {2}<<n>>nella tasca {3}.
+{1} sistema \c[1]{2}\c[0]<<n>>nella tasca \c[1]{3}\c[0].
 {1} ha trovato {2}!\wtnp[20]
 {1} trova \c<<[>>1<<]>>{2}\c<<[>>0<<]>>!\wtnp[20]
 {1} ha trovato {2} {3}!\wtnp[20]
@@ -31860,9 +31860,9 @@ Peccato... La borsa è piena...
 \se[itemlevel]Trovata una \c[1]{1}s\c[0]!\wtnp[30]
 \se[itemlevel]Hai trovato \c[1]{1}s\c[0]!\wtnp[30]
 {1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>
-{1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>
+{1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>.
 {1} sistema \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>
-{1} sistema \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<r>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>
+{1} sistema \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<r>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>.
 A Key Item in the Bag can be registered to this key for instant use.
 Puoi registrare uno Strumento Base dalla borsa per usarlo subito.
 This tree looks like it can be cut down!<<1>>
@@ -35604,23 +35604,23 @@ Una {1} è stata creata
 File 'craftingsystem.txt' doesn't exist
 File 'craftingsystem.txt' doesn't exist
 {1} ottiene {2}!
-{1} ottiene {2}!
+{1} ottiene \c[1]{2}\c[0]!
 {1} sistema {2} nella tasca Strumenti.
-{1} sistema {2} nella tasca Strumenti.
+{1} sistema \c[1]{2}\c[0] nella tasca \c[1]Strumenti\c[0].
 {1} sistema {2} nella tasca Medicine.
-{1} sistema {2} nella tasca Rimedi.
+{1} sistema \c[1]{2}\c[0] nella tasca \c[1]Rimedi\c[0].
 {1} sistema {2} nella tasca Poke Balls.
-{1} sistema {2} nella tasca Poké Ball.
+{1} sistema \c[1]{2}\c[0] nella tasca \c[1]Poké Ball\c[0].
 {1} sistema {2} nella tasca MT/MN.
-{1} sistema {2} nella tasca Macchine.
+{1} sistema \c[1]{2}\c[0] nella tasca \c[1]Macchine\c[0].
 {1} sistema {2} nella tasca Bacche.
-{1} sistema {2} nella tasca Bacche.
+{1} sistema \c[1]{2}\c[0] nella tasca \c[1]Bacche\c[0].
 {1} sistema {2} nella tasca Mail.
 {1} sistema \c{2}\c nella tasca \cMail\c.
 {1} sistema {2} nella tasca Oggetti di battaglia.
-{1} sistema {2} nella tasca Strumenti Lotta.
+{1} sistema \c[1]{2}\c[0] nella tasca \c[1]Strumenti Lotta\c[0].
 {1} sistema {2} nella tasca Strumenti chiave.
-{1} sistema {2} nella tasca Strumenti Base.
+{1} sistema \c[1]{2}\c[0] nella tasca \c[1]Strumenti Base\c[0].
 CHIUDI ZAINO
 CHIUDI ZAINO
 Chiudi zaino.
@@ -35798,7 +35798,7 @@ The boss {1}
 Prepare your anus! The Pokémon boss {1} wants to battle!
 Fatti sotto! Il Pokémon boss {1} vuole lottare!
 {1} sent<<n>>out {2}! {3} sent<<n>>out {4}!
-{1} manda in campo<<n>>{2}! {3} manda in campo<<n>>{4}!
+{1} manda in campo{2}!<<n>>{3} manda in campo{4}!
 {1}<<n>>vuole combattere!
 {1}<<n>>vuole lottare!
 Le statistiche del Pokémon nemico sono più elevate!
