@@ -31806,19 +31806,19 @@ PLAYING BACK...
 \se<<[>>itemlevel<<]>>{1} trova \c<<[>>1<<]>>{2}\c<<[>>0<<]>>!\<<n>>It contained \c<<[>>1<<]>>{3}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
 \se<<[>>itemlevel<<]>>{1} trova \c<<[>>1<<]>>{2}\c<<[>>0<<]>>!\<<n>>Contiene \c<<[>>1<<]>>{3}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
 {1} put the \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>nel <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
-{1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>.
+{1} sistema \c[1]{2}\c[0]<<n>>nella tasca \c[1]{3}\c[0].
 \se[itemlevel]{1} trova alcune \c[1]{2}\c[0]!\wtnp[30]
 \se[itemlevel]{1} trova \c[1]{2}\c[0]!\wtnp[30]
 {1} sistema la \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>nel <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
-{1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>.
+{1} sistema \c[1]{2}\c[0]<<n>>nella tasca \c[1]{3}\c[0].
 \se[itemlevel]{1} ha trovato {2} \c[1]{3}\c[0]!\wtnp[30]
 \se[itemlevel]{1} trova {2} \c[1]{3}\c[0]!\wtnp[30]
 {1} put the \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>in the <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
-{1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>.
+{1} sistema \c[1]{2}\c[0]<<n>>nella tasca \c[1]{3}\c[0].
 \se[itemlevel]{1} ha trovato {2} \c[1]{3}s\c[0]!\wtnp[30]
 \se[itemlevel]{1} trova {2} \c[1]{3}\c[0]!\wtnp[30]
 {1} sistema la \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<n>>nel <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
-{1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>.
+{1} sistema \c[1]{2}\c[0]<<n>>nella tasca \c[1]{3}\c[0].
 \se[itemlevel]{1} ha trovato una \c[1]{2}\c[0]!\wtnp[30]
 \se[itemlevel]{1} trova \c[1]{2}\c[0]!\wtnp[30]
 {1} ha trovato \c[1]{2}\c[0]!\wtnp[20]
