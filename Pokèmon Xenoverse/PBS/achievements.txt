@@ -307,22 +307,22 @@ image = 61_ball
 title = Orchestra
 description = Tieni in squadra tutte le forme di Bremand.
 amount = 1
-image = 62_orchestra
+image = 65_orchestra
 [Frittata]
 title = Addio, frittata!
 description = Schiudi un Uovo.
 amount = 1
-image = 63_frittata
+image = 62_frittata
 [Passione]
 title = Uova che passione
 description = Schiudi almeno 50 Uova.
 amount = 1
-image = 64_passione
+image = 63_passione
 [Allevatore]
 title = Allevatore certificato
 description = Schiudi almeno 200 Uova.
 amount = 1
-image = 65_allevatore
+image = 64_allevatore
 [Fanatico]
 title = Fanatico
 description = Tieni in squadra 6 Weedle.
