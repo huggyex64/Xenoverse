@@ -31858,7 +31858,7 @@ Peccato... La borsa è piena...
 \se[itemlevel]Trovata una \c[1]{1}\c[0]!\wtnp[30]
 \se[itemlevel]Hai trovato \c[1]{1}\c[0]!\wtnp[30]
 \se[itemlevel]Trovata una \c[1]{1}s\c[0]!\wtnp[30]
-\se[itemlevel]Hai trovato \c[1]{1}s\c[0]!\wtnp[30]
+\se[itemlevel]Hai trovato \c[1]{1}\c[0]!\wtnp[30]
 {1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>
 {1} sistema \c[1]{2}\c[0]<<n>>nella tasca \c[1]{3}\c[0].
 {1} sistema \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>
@@ -36721,3 +36721,5 @@ The Ion Deluge started!
 Particelle elettrizzate si disperdono nell'aria!
 Where to jump?
 A quale box vuoi andare?
+There seem to be unsaved changes.
+Nessuna modifica è stata salvata.
