@@ -341,7 +341,7 @@ image = 68_brillante
 [Mercante]
 title = Incubo dei Mercanti
 description = Sconfiggi tutti i Mercanti in giro per Eldiw.
-amount = 1
+amount = 11
 image = 69_mercante
 [Nemici]
 title = Quasi nemici
