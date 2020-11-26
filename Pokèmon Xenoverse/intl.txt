@@ -15309,7 +15309,7 @@ Chi la usa attacca il bersaglio e può rubargli lo strumento, se non ne ha già 
 Chi la usa attacca il bersaglio e può rubargli lo strumento, se non ne ha già uno.
 35
 Attacco che fa cadere lo strumento del bersaglio, impedendone l'uso nella lotta. La potenza aumenta se questi ha uno strumento.
-Attacco che fa cadere lo strumento del bersaglio, impedendone l'uso nella lotta. La potenza aumenta se questi ha uno strumento.
+Fa cadere lo strumento del bersaglio, impedendone l'uso. La potenza aumenta se questi ha uno strumento.
 36
 Chi la usa chiama in aiuto i Pokémon della squadra: più ce ne sono, maggiore è il numero di attacchi.
 Chi la usa chiama in aiuto i Pokémon della squadra: più ce ne sono, maggiore è il numero di attacchi.
@@ -32882,7 +32882,7 @@ Pokérus
 Ownership
 Ownership
 Nickname
-Nickname
+Soprannome
 Poké Ball
 Poké Ball
 Ribbons
