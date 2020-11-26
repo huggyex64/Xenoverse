@@ -31666,9 +31666,9 @@ Ball
 Bait
 Esca
 Rock
-Sasso
+Roccia
 Run
-Sasso
+Fuga
 What will<<n>>{1} do?
 Cosa deve fare<<n>>{1}?
 Combatti
@@ -33034,7 +33034,7 @@ Make not infectious
 Clear Pokérus
 Clear Pokérus
 Unknown
-Unknown
+Sconosciuto
 Player's Pokémon<<n>>{1}<<n>>{2}<<n>>{3} ({4})
 Player's Pokémon<<n>>{1}<<n>>{2}<<n>>{3} ({4})
 Foreign Pokémon<<n>>{1}<<n>>{2}<<n>>{3} ({4})
@@ -33352,7 +33352,7 @@ Mappa
 Obiettivi
 Obiettivi
 Area Unknown
-Area Unknown
+Area sconosciuta
 The map data cannot be found.
 The map data cannot be found.
 Set the name for this point.
@@ -35892,7 +35892,7 @@ Colore
 Shape
 Sagoma
 Reset
-Reset
+Azzera
 Pokédex di Eldiw
 Pokédex di Eldiw
 Pokédex dello Xenoverse
@@ -35902,9 +35902,9 @@ Pokédex Retrò
 -
 -
 Choose the lower limit.
-Choose the lower limit.
+Imposta il limite minimo.
 Choose the upper limit.
-Choose the upper limit.
+Imposta il limite massimo.
 Head-only
 Sola testa
 Serpent-like
