@@ -36723,10 +36723,10 @@ Where to jump?
 A quale box vuoi andare?
 There seem to be unsaved changes.
 Nessuna modifica è stata salvata.
-{1} sent\r out {2}!
+{1} sent out {2}!
 {1} manda in campo {2}!
-{1} sent\r out {2}! {3} sent\r out {4}!
-{1} manda in campo {2}!<<n>>{3} manda in campo {4}!
-{1} sent\r out {2} and {3}!
-{1} manda in campo {2}<<n>>e {3}!
+{1} sent out {2}! {3} sent out {4}!
+{1} manda in campo {2}! {3} manda in campo {4}!
+{1} sent out {2} and {3}!
+{1} manda in campo {2} e {3}!
  
