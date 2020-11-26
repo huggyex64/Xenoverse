@@ -74,6 +74,7 @@ Point=29,9,Canyon Asteroide,,,,,929
 Point=2,10,Isola Pigliapesci,,69,36,28,831
 Point=4,10,Percorso 17,,,,,917
 Point=29,10,Canyon Asteroide,,,,,929
+Point=29,11,Canyon Asteroide,,,,,929
 Point=2,11,Percorso 15,,,,,918
 Point=3,11,Percorso 15,,,,,918
 Point=4,11,Percorso 17,,,,,917
