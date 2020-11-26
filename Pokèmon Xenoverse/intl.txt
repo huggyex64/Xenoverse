@@ -21794,7 +21794,7 @@ Una speciale lettera inviata dai Quattro Cardinali.
 Una speciale lettera inviata dai Quattro Cardinali.
 784
 Vecchio modello di Poké Ball utilizzato durante la Prova dell'eroe.
-Vecchio modello di Poké Ball utilizzato durante la Prova dell'eroe.
+Vecchio modello di Poké Ball utilizzato nella prova del Cammino dell'Eroe.
 785
 Speciale canna da pesca che permette di pescare Pokémon selvatici e recuperare tesori dal fondale.
 Speciale canna da pesca che permette di pescare Pokémon selvatici e recuperare tesori dal fondale.
@@ -31896,13 +31896,13 @@ Sembra che questa roccia si possa rompere. Vuoi usare Spaccaroccia?
 {1} used Rock Smash!
 {1} usa Spaccaroccia!
 It's a rugged rock, but a Pokémon may be able to smash it.
-È una roccia crepata, ma forse un Pokémon potrebbe romperla.
+È una roccia crepata, ma un Pokémon potrebbe riuscire a romperla.
 Holo-Trapinch usa {2}!
 Holo-Trapinch usa {2}!
 Strength made it possible to move boulders around.
 Forza permette di spostare i massi che bloccano la strada.
 It's a big boulder, but a Pokémon may be able to push it aside.
-È un masso enorme, ma forse un Pokémon potrebbe spostarlo.
+È un masso enorme, ma un Pokémon potrebbe riuscire a spostarlo.
 Would you like to use Strength?
 Vuoi usare Forza?
 {1} used Strength!<<1>>
@@ -35816,17 +35816,17 @@ Funzione MN
 Achievements
 Obiettivi
 Non puoi usare volo in ambienti chiusi!
-Non puoi usare Volo in ambienti chiusi!
+Non puoi usare il potere dell'Ikarium N in ambienti chiusi!
 Questo albero sembra abbattibile.
-Questo albero sembra abbattibile.
+Sembra che questo albero si possa abbattere.
 Vuoi che Holo-Scyther tagli l'albero?
-Vuoi che Holo-Scyther tagli l'albero?
+Vuoi usare il potere del Kaiserium N?
 Holo-Scyther usa Taglio!
 Holo-Scyther usa Taglio!
 Questo albero blocca la strada.
 Questo albero blocca la strada. Dev'esserci un modo per abbatterlo!
 L'acqua è di un blu intenso...<<n>>Vuoi chiamare Lapras per usare Surf?
-L'acqua è di un blu intenso...<<n>>Vuoi chiamare Lapras per usare Surf?
+L'acqua è di un blu intenso...<<n>>Vuoi usare il potere dell'Odysseum N?
 Lapras usa Surf!
 Lapras usa Surf!
 Forza ha reso possibile lo spostamento dei massi.
@@ -35834,11 +35834,11 @@ Forza ha reso possibile lo spostamento dei massi.
 E' un gran masso, ma un Pokémon dovrebbe poterlo spostare.
 È un masso enorme, ma un Pokémon dovrebbe poterlo spostare.
 Vuoi usare Forza?
-Vuoi usare Forza?
+Vuoi usare il potere dell'Heraclium N?
 Holo-Hercurcules usa Forza!<<1>>
 Holo-Hercurcules usa Forza!<<1>>
 Questa roccia si può rompere. Vuoi usare Spaccaroccia?
-Questa roccia si può rompere. Vuoi usare Spaccaroccia?
+Questa roccia si può rompere. Vuoi usare il potere del Perseum N?
 Holo-Trapinch usa Spaccaroccia!
 Holo-Trapinch usa Spaccaroccia!
 E' una roccia crepata, un Pokémon dovrebbe essere in grado di romperla.[dispose]
@@ -35848,7 +35848,7 @@ Hai ottenuto {1}!
 Ka-ching!
 Ka-ching!
 You successfully completed the Hero Trial! You may come back now!
-Hai completato con successo la Prova dell'Eroe! Torna pure indietro!
+Hai completato con successo il Cammino dell'Eroe! Torna pure indietro!
 It seems you failed the trial! Come back to the entrance.
 Hai fallito la prova! Torna all'ingresso.
 Sono state applicate alcune modifiche al tuo salvataggio dalla patch 1.0.1, salva per applicare le modifiche.
@@ -35876,9 +35876,9 @@ Pokémon {1}
 ????? lbs.
 ????? lbs.
 ????? m
-???? m
+??? m
 ????? kg
-???? kg
+??? kg
 Sound
 Suono
 Fairy
@@ -35966,7 +35966,7 @@ Modern Mode
 {1} ti si para davanti!
 {1} ti si para davanti!
 Dragalisk non ha scalfito Luxflon..!
-Dragalisk non ha scalfito Luxflon...!
+Gli attacchi di Dragalisk non scalfiscono Luxflon!
 Cosa?<<n>>{1} si sta evolvendo!
 Cosa?<<n>>{1} si sta evolvendo!
 Cosa succede?
