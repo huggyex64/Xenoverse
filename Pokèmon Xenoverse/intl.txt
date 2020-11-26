@@ -31859,9 +31859,9 @@ Peccato... La borsa è piena...
 \se[itemlevel]Hai trovato \c[1]{1}\c[0]!\wtnp[30]
 \se[itemlevel]Trovata una \c[1]{1}s\c[0]!\wtnp[30]
 \se[itemlevel]Hai trovato \c[1]{1}\c[0]!\wtnp[30]
-{1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>nella tasca \c<<[>>1<<]>>{3}\c<<[>>0<<]>>
+{1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>> nella tasca \c<<[>>1<<]>>{3}\c<<[>>0<<]>>
 {1} sistema \c[1]{2}\c[0]<<n>>nella tasca \c[1]{3}\c[0].
-{1} sistema \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<r>><<n>>nella tasca \c<<[>>1<<]>>{3}\c<<[>>0<<]>>
+{1} sistema \c<<[>>1<<]>>{2}s\c<<[>>0<<]>> nella tasca \c<<[>>1<<]>>{3}\c<<[>>0<<]>>
 {1} sistema \c[1]{2}\c[0]<<n>>nella tasca \c[1]{3}\c[0].
 A Key Item in the Bag can be registered to this key for instant use.
 Puoi registrare uno Strumento Base dalla borsa per usarlo subito.
