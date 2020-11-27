@@ -30775,9 +30775,9 @@ L'Attacco Speciale di {1} aumenta di molto!
 L'Attacco Speciale di {1} aumenta drasticamente!
 {1}'s Special Attack went way up!
 L'Attacco Speciale di {1} è al massimo!
+{1}'s Special Defense rose!
 La Difesa Speciale di {1} aumenta!
-La Difesa Speciale di {1} aumenta!
-La Difesa Speciale di {1} aumenta di molto!
+{1}'s Special Defense rose sharply!
 La Difesa Speciale di {1} aumenta di molto!
 {1}'s Special Defense rose drastically!
 La Difesa Speciale di {1} aumenta drasticamente!
