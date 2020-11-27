@@ -31230,17 +31230,17 @@ Vuoi dare un soprannome a {1}?
 {1}'s nickname?
 Soprannome di {1}?
 Box "{1}" on {2}'s PC was full.
-Il box "{1}" del PC di {2} è pieno.
+Il {1} del PC di {2} è pieno.
 Box "{1}" on someone's PC was full.
-Il box "{1}" del PC di ??? è pieno.
+Il {1} del PC di ??? è pieno.
 {1} was transferred to box "{2}".
-{1} è stato trasferito al box "{2}."
+{1} è stato trasferito al {2}.
 {1} was transferred to {2}'s PC.
 {1} è stato trasferito al PC di {2}.
 {1} was transferred to someone's PC.
 {1} è stato trasferito al PC di ???.
 It was stored in box "{1}".
-Ora è nel box "{1}."
+Ora è nel {1}.
 {1} lancia una {2}!
 {1} lancia {2}!
 The Trainer blocked the Ball!<<n>>Don't be a thief!
@@ -34338,17 +34338,17 @@ Non hai spazio per altri Pokémon!<<1>>
 The Pokémon Boxes are full and can't accept any more!
 Tutti i box sono pieni!
 Box "{1}" on {2}'s PC was full.<<1>>
-Il box "{1}" del PC di {2} è pieno.<<1>>
+Il {1} del PC di {2} è pieno.<<1>>
 Box "{1}" on someone's PC was full.<<1>>
-Il box "{1}" del PC di ??? è pieno.<<1>>
+Il {1} del PC di ??? è pieno.<<1>>
 {1} was transferred to box "{2}."
-{1} è stato trasferito al box "{2}."
+{1} è stato trasferito al {2}.
 {1} was transferred to {2}'s PC.<<1>>
 {1} è stato trasferito al PC di {2}.<<1>>
 {1} was transferred to someone's PC.<<1>>
 {1} è stato trasferito al PC di ???.<<1>>
 It was stored in box "{1}."
-Ora è nel box "{1}."
+Ora è nel {1}.
 {1} obtained {2}!\se<<[>>itemlevel<<]>><<1>>
 {1} ha ottenuto {2}!\se<<[>>itemlevel<<]>><<1>>
 {1} received a Pokémon from {2}.<<1>>
@@ -35944,7 +35944,7 @@ I box e la squadra sono al completo, non c'è spazio per il Pokémon.
 The box is full, you cannot store the Pokémon there.
 I box sono al completo, non c'è spazio per il Pokémon.
 {1} was stored in the Box n°{2}.
-{1} è stato trasferito nel box n°{2}.
+{1} è stato trasferito nel Box {2}.
 The party is full, you cannot store the Pokémon there.
 La squadra è al completo, non c'è spazio per il Pokémon.
 {1} was added to the party.
