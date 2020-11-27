@@ -17467,10 +17467,10 @@ Polvostella
 Polvostella
 45
 Pezzo di Stella
-Pezzo di Stella
+Pezzo Stella
 46
 Pezzo di Cometa
-Pezzo di Cometa
+Pezzo Cometa
 47
 Pepita
 Pepita
@@ -17788,7 +17788,7 @@ Metalcoperta
 Metalcoperta
 152
 Sciarpa di Seta
-Sciarpa di Seta
+Sciarpa Seta
 153
 Lastrarogo
 Lastrarogo
@@ -17998,7 +17998,7 @@ Ricarica Tot
 Ricarica Tot
 222
 Polvere Sacra
-Polvere Sacra
+Ceneremagica
 223
 Sveglia
 Sveglia
@@ -18844,7 +18844,7 @@ Bicicletta
 Bicicletta
 504
 Canna da Pesca
-Canna da Pesca
+Amo Vecchio
 505
 Amo Buono
 Amo Buono
@@ -19090,7 +19090,7 @@ Vaso del vincolo
 Vaso del vincolo
 586
 Condividi Esperienza 2
-Condividi Esperienza 2
+Condividi Esperienza
 587
 Muschioluce
 Muschioluce
@@ -20777,19 +20777,19 @@ Se tenuta da un Pokémon in difficoltà, restituisce PS. Se al Pokémon non piac
 Se tenuta da un Pokémon in difficoltà, restituisce PS. Se al Pokémon non piace il suo sapore, può causare confusione.
 404
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+Bacca molto rara a Eldiw. Si può vendere a un prezzo piuttosto alto agli intenditori.
 405
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+Bacca molto rara a Eldiw. Si può vendere a un prezzo piuttosto alto agli intenditori.
 406
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+Bacca molto rara a Eldiw. Si può vendere a un prezzo piuttosto alto agli intenditori.
 407
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+Bacca molto rara a Eldiw. Si può vendere a un prezzo piuttosto alto agli intenditori.
 408
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+Bacca molto rara a Eldiw. Si può vendere a un prezzo piuttosto alto agli intenditori.
 409
 Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce i PS.
 Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce i PS.
@@ -20810,31 +20810,31 @@ Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce la Velocità.
 Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce la Velocità.
 415
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+Bacca molto rara a Eldiw. Si può vendere a un prezzo piuttosto alto agli intenditori.
 416
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta..
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta..
+Bacca molto rara a Eldiw. Si può vendere a un prezzo piuttosto alto agli intenditori.
 417
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+Bacca molto rara a Eldiw. Si può vendere a un prezzo piuttosto alto agli intenditori.
 418
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+Bacca molto rara a Eldiw. Si può vendere a un prezzo piuttosto alto agli intenditori.
 419
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+Bacca molto rara a Eldiw. Si può vendere a un prezzo piuttosto alto agli intenditori.
 420
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+Bacca molto rara a Eldiw. Si può vendere a un prezzo piuttosto alto agli intenditori.
 421
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+Bacca molto rara a Eldiw. Si può vendere a un prezzo piuttosto alto agli intenditori.
 422
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+Bacca molto rara a Eldiw. Si può vendere a un prezzo piuttosto alto agli intenditori.
 423
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+Bacca molto rara a Eldiw. Si può vendere a un prezzo piuttosto alto agli intenditori.
 424
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Fuoco del Pokémon avversario.
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Fuoco del Pokémon avversario.
@@ -30516,15 +30516,15 @@ Il Palloncino di {1} è scoppiato!
 {1}'s {2} cured its frozen problem!
 {1} guarisce dal congelamento grazie a {2}!
 For {1}, the {2} was too spicy!
-For {1}, the {2} was too spicy!
+{1} trova la {2} troppo pepata!
 For {1}, the {2} was too dry!
-For {1}, the {2} was too dry!
+{1} trova la {2} troppo secca!
 For {1}, the {2} was too sweet!
-For {1}, the {2} was too sweet!
+{1} trova la {2} troppo dolce!
 For {1}, the {2} was too bitter!
-For {1}, the {2} was too bitter!
+{1} trova la {2} troppo amara!
 For {1}, the {2} was too sour!
-For {1}, the {2} was too sour!
+{1} trova la {2} troppo aspra!
 Using its {1}, the Attack of {2} rose!
 Usando {1}, l'Attacco di {2} aumenta!
 Using its {1}, the Defense of {2} rose!
