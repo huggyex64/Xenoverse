@@ -31773,8 +31773,8 @@ SKIPPING BATTLE...
 {1} non ha più Pokémon utili!<<1>>
 {1} è fuori combattimento!
 {1} è fuori combattimento!
-{1} survived the poisoning.\<<n>>The poison faded away!\<<1>>
-{1} è sopravvissuto all'avvelenamento.\<<n>>Il veleno è sparito!\<<1>>
+{1} survived the poisoning.<<n>>The poison faded away!
+{1} è sopravvissuto all'avvelenamento.<<n>>Il veleno è sparito!<<1>>
 {1} fainted...\<<1>>
 {1} è esausto...\<<1>>
 Not even a nibble...
