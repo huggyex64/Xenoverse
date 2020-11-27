@@ -35778,11 +35778,11 @@ Abbandona
 Debug (A)
 Debug (A)
 Can't use this while you're taking the Hero trial.
-Non puoi usarlo durante la Prova dell'Eroe.
+Non puoi usarlo durante la prova del Cammino dell'Eroe.
 Can't use the PokeWES right now.
 Non puoi usare il PokéWES qui.
 Are you sure you wanna leave the Hero trial?
-Vuoi davvero abbandonare la Prova dell'Eroe?
+Vuoi davvero abbandonare la prova del Cammino dell'Eroe?
 New Achivement!
 Nuovo obiettivo!
 Completed!
