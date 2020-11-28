@@ -258,3 +258,13 @@ TYPE2=7
 [1207_0f]
 TYPE1=18
 TYPE2=18
+[1041_1d]
+DESCRIPTION=(Forma di Alola)\n È stato introdotto da un'altra regione grazie a una fiorente famiglia reale dell'antichità.
+TYPE1=17
+TYPE2=17
+[1042_1d]
+DESCRIPTION=(Forma di Alola)\n Il suo viso tondo è simbolo di ricchezza e più è grosso e paffuto, più bello viene considerato il Pokémon.
+HEIGHT=1.1
+WEIGHT=33
+TYPE1=17
+TYPE2=17
