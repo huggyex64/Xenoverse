@@ -1535,7 +1535,7 @@ Weather=Rain,100
 Bicycle=true
 TrainerBattleBGM=VS.Trainer.mp3
 MapPosition=0,2,7
-Outdoor=false
+Outdoor=true
 WildBattleBGM=Mimikyu Battle.mp3
 [241]
 # Canyon Asteroide
@@ -1552,7 +1552,7 @@ BattleBack=Bosco
 Weather=Rain,100
 Bicycle=true
 MapPosition=0,2,7
-Outdoor=false
+Outdoor=true
 WildBattleBGM=Wild Battle Jungle.mp3
 ShowArea=false
 [243]
