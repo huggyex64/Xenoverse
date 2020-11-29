@@ -36484,7 +36484,7 @@ MACCHINE
 KEY ITEMS
 STRUMENTI BASE
 Order
-Ordina
+Sposta
 x{1:2d}
 x{1:2d}
 Complete Pokedex Real
