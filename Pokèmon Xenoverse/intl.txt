@@ -18187,13 +18187,13 @@ Peso Ball
 Peso Ball
 285
 Love Ball
-Love Ball
+Cupid Ball
 286
 Friend Ball
-Friend Ball
+Bro Ball
 287
 Luna Ball
-Luna Ball
+Cosmo Ball
 288
 MT01
 MT01
@@ -20408,25 +20408,25 @@ Poké Ball rara che è stata creata per commemorare un evento speciale.
 Poké Ball rara che è stata creata per commemorare un evento speciale.
 281
 Poké Ball un po' originale che funziona proprio bene sui Pokémon rapidi.
-Poké Ball un po' originale che funziona proprio bene sui Pokémon rapidi.
+Modello di Poké Ball ispirato ai lavori di un artigiano. È più efficace sui Pokémon rapidi.
 282
 Poké Ball un po' originale che funziona particolarmente bene sui Pokémon di livello inferiore al proprio.
-Poké Ball un po' originale che funziona particolarmente bene sui Pokémon di livello inferiore al proprio.
+Modello di Poké Ball ispirato ai lavori di un artigiano. È più efficace sui Pokémon di livello inferiore.
 283
 Poké Ball un po' originale che funziona particolarmente bene sui Pokémon pescati con Amo.
-Poké Ball un po' originale che funziona particolarmente bene sui Pokémon pescati con Amo.
+Modello di Poké Ball ispirato ai lavori di un artigiano. È più efficace sui Pokémon pescati.
 284
 Poké Ball un po' originale che funziona particolarmente bene sui Pokémon pesanti.
-Poké Ball un po' originale che funziona particolarmente bene sui Pokémon pesanti.
+Modello di Poké Ball ispirato ai lavori di un artigiano. È più efficace sui Pokémon pesanti.
 285
 Poké Ball un po' originale che funziona particolarmente bene sui Pokémon di sesso opposto a quello del proprio.
-Poké Ball un po' originale che funziona particolarmente bene sui Pokémon di sesso opposto a quello del proprio.
+Modello di Poké Ball ispirato ai lavori di un artigiano. È più efficace sui Pokémon di sesso opposto, ma stessa specie.
 286
 Poké Ball un po' originale che rende rapidamente affettuosi i Pokémon selvatici con essa catturati.
-Poké Ball un po' originale che rende rapidamente affettuosi i Pokémon selvatici con essa catturati.
+Modello di Poké Ball ispirato ai lavori di un artigiano. Fa affezionare più rapidamente i Pokémon catturati.
 287
 Poké Ball un po' originale che funziona particolarmente bene sui Pokémon che si evolvono con una Pietralunare.
-Poké Ball un po' originale che funziona particolarmente bene sui Pokémon che si evolvono con una Pietralunare.
+Modello di Poké Ball ispirato ai lavori di un artigiano. È più efficace sui Pokémon che si evolvono con una Pietralunare.
 288
 Chi la usa affila i propri artigli, aumentando Attacco e precisione.
 Chi la usa affila i propri artigli, aumentando Attacco e precisione.
@@ -33864,9 +33864,9 @@ Non hai abbastanza soldi...
 Certainly. You want {1}.<<n>>That will be ${2}. OK?
 {1}, dice? Certo.<<r>><<n>>Fanno {2}$. OK?
 {1}? Certainly.<<n>>How many would you like?
-{1}, dice? Certo.<<r>><<n>>Quanti ne vuole?
+{1}, dice? Certo.<<r>><<n>>In che quantità?
 {1}, and you want {2}.<<n>>That will be ${3}. OK?
-{1}... ne vuoi {2}, giusto?<<r>><<n>>Fanno {3}$. OK?
+{1}... ne vuole {2}, giusto?<<r>><<n>>Fanno {3}$. OK?
 Failed to delete stored items
 Failed to delete stored items
 You have no more room in the Bag.
@@ -33878,7 +33878,7 @@ A lei anche una Premier Ball in omaggio.
 {1}? Oh, no.<<n>>I can't buy that.
 {1}? Oh, no.<<n>>Non posso comprarlo.
 {1}?<<n>>How many would you like to sell?
-{1}?<<n>>Quanti ne vuole vendere?
+{1}?<<n>>In che quantità ne vuole vendere?
 I can pay ${1}.<<n>>Would that be OK?
 Posso darle {1}$.<<n>>Accetta?
 Turned over the {1} and received ${2}.
