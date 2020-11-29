@@ -22717,7 +22717,7 @@ Kind=Piccantuono
 Pokedex=È lo Scovile in possesso di Tamara del Team Dimension. I suoi semi, se ingeriti, folgorano il corpo dall'interno.
 WildItemUncommon=PERSIMBERRY
 BattlerPlayerY=24
-BattlerEnemyY=12
+BattlerEnemyY=22
 [1231]
 Name=Tyranitar
 InternalName=TYRANITARX
