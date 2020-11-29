@@ -18175,16 +18175,16 @@ Pregio Ball
 Pregio Ball
 281
 Rapid Ball
-Rapid Ball
+Turbo Ball
 282
 Level Ball
 Level Ball
 283
 Esca Ball
-Esca Ball
+Pesca Ball
 284
 Peso Ball
-Peso Ball
+Maxi Ball
 285
 Love Ball
 Cupid Ball
