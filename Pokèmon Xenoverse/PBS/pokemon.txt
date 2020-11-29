@@ -26818,7 +26818,6 @@ BattlerEnemyY=26
 Name=???
 InternalName=VAKUM
 Type1=GROUND
-Type2=DRAGON
 BaseStats=240,120,240,30,120,240
 GenderRate=Genderless
 GrowthRate=Slow
