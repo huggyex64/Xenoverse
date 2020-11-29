@@ -161,7 +161,7 @@ WEIGHT=274.8
 DESCRIPTION=(Forma Tempesta)\n Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 TYPE1=13
 [19_1d]
-DESCRIPTION=(Forma di Alola)\n Di notte si intrufola nelle case in cerca di cibo. La presenza massiccia di questi Pokémon è diventata un problema.
+DESCRIPTION=(Forma di Alola)\n Rosicchia le porte delle case con le zanne per intrufolarvisi. È in grado di sondare l'aria con i suoi baffi per individuare cibo da rubare.
 HEIGHT=0.3
 WEIGHT=3.8
 TYPE1=17
@@ -173,7 +173,7 @@ WEIGHT=25.5
 TYPE1=17
 TYPE2=0
 [26_1d]
-DESCRIPTION=(Forma di Alola)\n Se pizzicate, le sue guance emanano un dolce profumo, però danno anche una leggera scossa.
+DESCRIPTION=(Forma di Alola)\n Concentra i suoi poteri psichici nella coda e si sposta su di essa come se scivolasse. È soprannominato “il surfista di terra”.
 HEIGHT=0.7
 WEIGHT=21
 TYPE1=13
@@ -185,7 +185,7 @@ WEIGHT=40
 TYPE1=15
 TYPE2=8
 [28_1d]
-DESCRIPTION=(Forma di Alola)\n Piantando saldamente gli artigli affilati, riesce a scalare senza scivolare persino gli iceberg.
+DESCRIPTION=(Forma di Alola)\n Ha sviluppato degli artigli robusti e affilati per farsi strada fra la neve, in cui ora riesce a correre a gran velocità.
 HEIGHT=29.5
 WEIGHT=55
 TYPE1=15
@@ -196,13 +196,13 @@ HEIGHT=0.6
 WEIGHT=9.9
 TYPE1=15
 [38_1d]
-DESCRIPTION=(Forma di Alola)\n In passato era proibito mettere piede sulle montagne abitate dai Ninetales, perché si pensava che fossero visitate dalle divinità.
+DESCRIPTION=(Forma di Alola)\n Colpisce il nemico con una pioggia di cristalli di ghiaccio che genera dal suo manto. Chi lo fa arrabbiare si ritrova congelato all'istante.
 HEIGHT=1.1
 WEIGHT=19.9
 TYPE1=15
 TYPE2=18
 [50_1d]
-DESCRIPTION=(Forma di Alola)\n È più forte dei Diglett delle altre regioni perché si allena scavando nel terreno lavico.
+DESCRIPTION=(Forma di Alola)\n I peli sulla testa sono dei fili metallici, frutto di una mutazione dei suoi baffi. Comunica coi simili oscillando dolcemente.
 HEIGHT=0.2
 WEIGHT=1
 TYPE1=4
@@ -214,43 +214,44 @@ WEIGHT=66.6
 TYPE1=4
 TYPE2=8
 [74_1d]
-DESCRIPTION=(Forma di Alola)\n La polvere metallica sulla testa si raggruma nei punti in cui l'attrazione magnetica è più forte.
+DESCRIPTION=(Forma di Alola)\n La sua testa rocciosa è elettrica e magnetica. Chi lo calpesta accidentalmente viene colpito da una dolorosa scarica.
 HEIGHT=0.4
 WEIGHT=20.3
 TYPE1=5
 TYPE2=13
 [75_1d]
-DESCRIPTION=(Forma di Alola)\n Il suo corpo è interamente pervaso dall'elettricità. Ha un carattere molto litigioso.
+DESCRIPTION=(Forma di Alola)\n Per effetto delle rocce di cui è ghiotto, il suo corpo è interamente pervaso dall'elettricità. Ha un carattere molto litigioso.
 HEIGHT=1
 WEIGHT=110
 TYPE1=5
 TYPE2=13
 [76_1d]
-DESCRIPTION=(Forma di Alola)\n In caso di terremoto, questi Pokémon rotolano giù per i monti in massa e si fermano a valle.
+DESCRIPTION=(Forma di Alola)\n Spara grosse rocce elettrizzate che propagano tremende scariche elettriche per tutta l'area dell'impatto.
 HEIGHT=1.7
 WEIGHT=316
 TYPE1=5
 TYPE2=13
 [88_1d]
-DESCRIPTION=(Forma di Alola)\n E' stato introdotto ad Alola per risolvere il problema dello smaltimento dei rifiuti.
+DESCRIPTION=(Forma di Alola)\n I cristalli sul suo corpo sono grumi di tossine. Se si staccano e cadono a terra, rilasciano un veleno mortale.
 HEIGHT=0.7
 WEIGHT=42
 TYPE1=3
 TYPE2=17
 [89_1d]
-DESCRIPTION=(Forma di Alola)\n Quelli che sembrano denti e artigli sono in realtà tossine cristallizzate che avvelenano al solo contatto.
+DESCRIPTION=(Forma di Alola)\n Quelli che sembrano denti e artigli sono in realtà tossine cristallizzate che avvelenano al solo contatto. Avvicinarsi è molto pericoloso.
 HEIGHT=1
 WEIGHT=52
 TYPE1=3
 TYPE2=17
 [103_1d]
-DESCRIPTION=(Forma di Alola)\n Agita il lungo collo come una frusta per colpire l’avversario con le teste, però rimane un po’ stordito anche lui.
+DESCRIPTION=(Forma di Alola)\n L'esposizione a intensi raggi solari ha risvegliato l'aspetto e il potere originari di questo Pokémon.
 HEIGHT=10.9
 WEIGHT=415.6
 TYPE1=12
 TYPE2=16
 [105_1d]
-DESCRIPTION=(Forma di Alola)\n Appicca un fuoco maledetto che continuerà a bruciare in eterno per quanta acqua ci si versi sopra.
+DESCRIPTION=(Forma di Alola)\n 
+Quando colpisce con il suo osso, appicca un fuoco maledetto che continuerà a bruciare in eterno per quanta acqua ci si versi sopra.
 HEIGHT=1
 WEIGHT=34
 TYPE1=10
@@ -259,11 +260,11 @@ TYPE2=7
 TYPE1=18
 TYPE2=18
 [1041_1d]
-DESCRIPTION=(Forma di Alola)\n È stato introdotto da un'altra regione grazie a una fiorente famiglia reale dell'antichità.
+DESCRIPTION=(Forma di Alola)\n È stato introdotto da un'altra regione grazie a una fiorente famiglia reale dell'antichità. È egoista e molto orgoglioso.
 TYPE1=17
 TYPE2=17
 [1042_1d]
-DESCRIPTION=(Forma di Alola)\n Il suo viso tondo è simbolo di ricchezza e più è grosso e paffuto, più bello viene considerato il Pokémon.
+DESCRIPTION=(Forma di Alola)\n Nonostante il muso grazioso, ha un’indole crudele. Si diverte a giocare con le prede indebolite senza dar loro il colpo di grazia.
 HEIGHT=1.1
 WEIGHT=33
 TYPE1=17
