@@ -15258,7 +15258,7 @@ Danza leggiadra ed elegante che aumenta l'Attacco Speciale, la Difesa Speciale e
 Danza leggiadra ed elegante che aumenta l'Attacco Speciale, la Difesa Speciale e la Velocità di chi la usa.
 18
 Chi la usa disperde una nuvola di polvere irritante per attirare l'attenzione su di sé, diventando il bersaglio di tutti gli attacchi.
-Chi la usa disperde una nuvola di polvere irritante per attirare l'attenzione su di sé, diventando il bersaglio di tutti gli attacchi.
+Chi la usa disperde una nuvola di polvere irritante, diventando il bersaglio di tutti gli attacchi.
 19
 Copre il nemico con un filo di seta sottile e appiccicoso, impedendogli di fuggire.
 Copre il nemico con un filo di seta sottile e appiccicoso, impedendogli di fuggire.
@@ -21635,7 +21635,7 @@ Un esemplare delle misteriose Megapietre. Data a Raikou, gli permette di megaevo
 Un esemplare delle misteriose Megapietre. Data a Raikou, gli permette di megaevolversi durante la lotta.
 731
 Biglietto aereo donato dal nonno di Henné con destinazione Kanto.
-Biglietto aereo donato dal nonno di Henné con destinazione Kanto.
+Biglietto aereo donato dal nonno di Henné per raggiungere il Capopalestra di Sagittopoli in una regione lontana.
 732
 Amo vecchio e rovinato. Si usa per pescare Pokémon selvatici in qualsiasi specchio d'acqua.
 Amo vecchio e rovinato. Si usa per pescare Pokémon selvatici in qualsiasi specchio d'acqua.
@@ -36729,3 +36729,5 @@ Nessuna modifica è stata salvata.
 {1} manda in campo {2}! {3} manda in campo {4}!
 {1} sent out {2} and {3}!
 {1} manda in campo {2} e {3}!
+{1}'s
+di {1}
