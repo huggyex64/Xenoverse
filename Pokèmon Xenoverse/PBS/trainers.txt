@@ -1620,7 +1620,7 @@ STARMIE,38
 PESCATORE
 Claus
 1
-GYARADOS,50
+HONCHEN,50
 #==============================
 PESCATORE
 Birio
