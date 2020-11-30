@@ -351,12 +351,12 @@ image = 70_nemici
 [Tana]
 title = Tana!
 description = Conquista tutti i Nidi Pokémon.
-amount = 1
+amount = 19
 image = 71_tana
 [Hipster]
 title = Hip-hip... Hipster!
 description = Viagga attraverso tutti i portali dimensionali di Dielebi.
-amount = 1
+amount = 10
 image = 72_hipster
 [Mega]
 title = Mega Mania
