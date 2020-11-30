@@ -9188,7 +9188,7 @@ Dinamite
 Dinamite
 1201
 Fiamma
-Fiamma
+Dinamite
 1202
 Detonazione
 Detonazione
@@ -9224,7 +9224,7 @@ Gas
 Grinfie
 1213
 Ombra
-Ombra
+Malvagenio
 1214
 Guscioantico
 Guscioantico
@@ -12282,7 +12282,7 @@ Le scintille che emette dal capo possono causare incendi ed esplosioni con estre
 Le scintille che emette dal capo possono causare incendi ed esplosioni con estrema facilità. È una vera bomba ad orologeria!
 1201
 La sua energia e' incontenibile, e quindi e' sempre alla ricerca di un avversario su cui sfogarla. Se non trova degli sfidanti, scarica la sua furia sull'ambiente circostante.
-La sua energia e' incontenibile, e quindi e' sempre alla ricerca di un avversario su cui sfogarla. Se non trova degli sfidanti, scarica la sua furia sull'ambiente circostante.
+Battendo tra di loro i pugni, genera potenti esplosioni. Quando è infuriato, scarica la sua collera sull'ambiente circostante.
 1202
 L'eccessiva energia sprigionata con l'evoluzione gli ha scomposto il corpo. Combinando tuoni e fiamme, scatena terribili esplosioni attorno a sé.
 L'eccessiva energia sprigionata con l'evoluzione gli ha scomposto il corpo. Combinando tuoni e fiamme, scatena terribili esplosioni attorno a sé.
@@ -12318,7 +12318,7 @@ Succhia l'anima al nemico con una Leccata. Causa tremori orribili che finiscono 
 Afferra anche le prede più sfuggenti tenendole ben salde con gli artigli. Quando è stufo di tormentarle, le lascia andare.
 1213
 Nelle notti di luna piena ama mimare le ombre della gente e deridere il loro terrore.
-Nelle notti di luna piena ama mimare le ombre della gente e deridere il loro terrore.
+Dotato di un'intelligenza sopraffina, può comunicare con qualunque forma di vita. Tuttavia, pare che sfrutti la sua dote per scopi non propriamente ortodossi.
 1214
 Il suo guscio calcareo è simile ad un'anfora antica. Non si sa se sia stato l'uomo ad ispirarsi a questo Pokémon o viceversa.
 Il suo guscio calcareo è simile ad un'anfora antica. Non si sa se sia stato l'uomo ad ispirarsi a questo Pokémon o viceversa.
@@ -12333,7 +12333,7 @@ La folta criniera di nuvole lo tiene sollevato dal suolo. Tuttavia, essendo anco
 (Forma Quiete)\n Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 1218
 Cacnea vive in zone aride, dove non piove quasi mai. Il suo fiore giallo sboccia una volta all'anno.
-Cacnea vive in zone aride, dove non piove quasi mai. Il suo fiore giallo sboccia una volta all'anno.
+Poiché le sue fattezze possono ricordare quelle di una testa mozza, chiunque lo sfida abbassa le difese dal terrore che incute.
 1219
 Il suo corpo è internamente costituito da simil paglia. Lancia terribili anatemi scagliando i suoi spilli addosso ai nemici.
 Il suo corpo è internamente costituito da simil paglia. Lancia terribili anatemi scagliando i suoi spilli addosso ai nemici.
