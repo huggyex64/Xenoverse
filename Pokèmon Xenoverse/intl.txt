@@ -9218,10 +9218,10 @@ Baugnè
 Baugnè
 1211
 Gas
-Gas
+Squamedure
 1212
 Gas
-Gas
+Grinfie
 1213
 Ombra
 Ombra
@@ -9245,7 +9245,7 @@ Vudù
 Vudù
 1220
 Zuccherino
-Zuccherino
+Venomela
 1221
 Rancidolce
 Rancidolce
@@ -9260,7 +9260,7 @@ Acustico
 Acustico
 1225
 Brutal Star
-Brutal Star
+Sparafuoco
 1226
 Fluotossina
 Fluotossina
@@ -12156,7 +12156,7 @@ Si pensa che l'energia mistica che pervade questo Pokémon, facendone levitare l
 Si pensa che l'energia mistica che pervade questo Pokémon, facendone levitare le rocce, sia in qualche modo da correlare all'influenza della luna.
 1057
 Nel suo corpo scorre magma. Se non si muove continuamente, il suo corpo si raffredda e s'indurisce.
-Nel suo corpo scorre magma. Se non si muove continuamente, il suo corpo si raffredda e s'indurisce.
+All'apparenza spaesato e bisognoso di una guida costante, impara molto in fretta. Ogni Rockapye possiede un'impronta differente.
 1058
 Presunto anello mancante dell'evoluzione. Nel passato era solito allevare Pokémon con modalità del tutto diverse tra il maschio e la femmina.
 Presunto anello mancante dell'evoluzione. Nel passato era solito allevare Pokémon con modalità del tutto diverse tra il maschio e la femmina.
@@ -12225,10 +12225,10 @@ Secondo vari racconti, uno scienziato pazzo creò questa creatura unendo parti d
 (Forma Unità)\n Le zone più inquinate delle città brulicano di Chimaooze. Quando è in pericolo, chiama a raccolta tutti i suoi simili per debellare la minaccia.
 1080
 Agitando la coda, e' in grado di riprodurre il suono di qualsiasi strumento musicale. Una volta che ha ascoltato una melodia, non la scorda piu'.
-Agitando la coda, e' in grado di riprodurre il suono di qualsiasi strumento musicale. Una volta che ha ascoltato una melodia, non la scorda piu'.
+Può riprodurre alla perfezione il suono di qualsiasi strumento musicale. Quando memorizza una melodia, non lo scorda più per tutta la vita.
 1081
 Quando raggiunge un rapporto di assoluta fiducia col suo allenatore, gli permette di salirgli in groppa, per volare assieme grazie alle sue enormi orecchie.
-Quando raggiunge un rapporto di assoluta fiducia col suo allenatore, gli permette di salirgli in groppa, per volare assieme grazie alle sue enormi orecchie.
+Spicca il volo spiegando le grandi orecchie come fossero ali. Respinge minaccioso chiunque invada il suo nido in alta montagna.
 1082
 Gli è stato installato un aggiornamento al passo con la tecnologia odierna. Inizialmente era previsto come assistente nel PokéWES.
 Gli è stato installato un aggiornamento al passo con la tecnologia odierna. Inizialmente era previsto come assistente nel PokéWES.
@@ -12243,7 +12243,7 @@ Rifrange lo sguardo paralizzante tramite le scaglie che ha sul corpo. Così face
 Rifrange lo sguardo paralizzante tramite le scaglie che ha sul corpo. Così facendo, cattura le prede e le agghinda con le sue vecchie pelli.
 1086
 Un dolce profumo si diffonde dalla sua foglia sulla testa. E' docile e ama scaldarsi al sole.
-Un dolce profumo si diffonde dalla sua foglia sulla testa. E' docile e ama scaldarsi al sole.
+È solito appendersi agli alberi e dondolare a testa in giù. Per questa sua abitudine, viene spesso scambiato per un succulento frutto.
 1087
 La sua dieta è cambiata e ora tenta di muovere i primi passi verso la caccia. Tuttavia, è molto goffo e si fa sfuggire le prede.
 La sua dieta è cambiata e ora tenta di muovere i primi passi verso la caccia. Tuttavia, è molto goffo e si fa sfuggire le prede.
@@ -12312,10 +12312,10 @@ La panna che produce è ipocalorica e deliziosa. Tuttavia, diventa rancida se no
 La panna che produce è ipocalorica e deliziosa. Tuttavia, diventa rancida se non viene tenuta al fresco.
 1211
 Si dice che appaia in case diroccate e deserte. Non ha una forma vera e propria poiche' e' fatto di gas.
-Si dice che appaia in case diroccate e deserte. Non ha una forma vera e propria poiche' e' fatto di gas.
+Una pressione elevata ha compresso le sue squame, rendendogli la pelle un involucro coriaceo. Come sia fatto all'interno è ancora un mistero.
 1212
 Succhia l'anima al nemico con una Leccata. Causa tremori orribili che finiscono solo con il decesso.
-Succhia l'anima al nemico con una Leccata. Causa tremori orribili che finiscono solo con il decesso.
+Afferra anche le prede più sfuggenti tenendole ben salde con gli artigli. Quando è stufo di tormentarle, le lascia andare.
 1213
 Nelle notti di luna piena ama mimare le ombre della gente e deridere il loro terrore.
 Nelle notti di luna piena ama mimare le ombre della gente e deridere il loro terrore.
@@ -12324,7 +12324,7 @@ Il suo guscio calcareo è simile ad un'anfora antica. Non si sa se sia stato l'u
 Il suo guscio calcareo è simile ad un'anfora antica. Non si sa se sia stato l'uomo ad ispirarsi a questo Pokémon o viceversa.
 1215
 La sua esistenza e' stata creduta una leggenda poiche' e' stato ritrovato raffigurato all'interno di antiche piramidi ormai sommerse. L'acqua contenuta nel suo corpo pare garantire la vita eterna.
-La sua esistenza e' stata creduta una leggenda poiche' e' stato ritrovato raffigurato all'interno di antiche piramidi ormai sommerse. L'acqua contenuta nel suo corpo pare garantire la vita eterna.
+I suoi arti sono composti da un'acqua pura e cristallina. Si dice che, berne anche solo un sorso, garantirebbe la vita eterna.
 1216
 La folta criniera di nuvole lo tiene sollevato dal suolo. Tuttavia, essendo ancora inesperto nel volo, si muove in maniera molto impacciata.
 La folta criniera di nuvole lo tiene sollevato dal suolo. Tuttavia, essendo ancora inesperto nel volo, si muove in maniera molto impacciata.
@@ -12339,7 +12339,7 @@ Il suo corpo è internamente costituito da simil paglia. Lancia terribili anatem
 Il suo corpo è internamente costituito da simil paglia. Lancia terribili anatemi scagliando i suoi spilli addosso ai nemici.
 1220
 Immobilizza il nemico avvolgendolo in filamenti bianchi, dolci e appiccicosi, simili a zucchero filato.
-Immobilizza il nemico avvolgendolo in filamenti bianchi, dolci e appiccicosi, simili a zucchero filato.
+L'aroma dolce e invitante che emana ricorda vagamente quello di una Baccamela. L'aspetto rassicurante nasconde tuttavia un ripieno acido.
 1221
 Ingerire i suoi dolcetti provoca un forte senso di nausea. Più sono i malcapitati che li mangiano, più Slurpuff s'ingigantisce.
 Ingerire i suoi dolcetti provoca un forte senso di nausea. Più sono i malcapitati che li mangiano, più Slurpuff s'ingigantisce.
@@ -12354,7 +12354,7 @@ Agitando i suoi spilli, può modificare a piacimento qualsivoglia onda acustica.
 Agitando i suoi spilli, può modificare a piacimento qualsivoglia onda acustica. Se interferisce col battito cardiaco, causa danni irreparabili al fisico.
 1225
 The coral that grows on Corsola's head is as good as a five-star banquet to this pokemon.
-The coral that grows on Corsola's head is as good as a five-star banquet to this pokemon.
+Se spaventato, dal capo sprizza fiamme e scintille che ricordano dei fuochi d'artificio. Sembra molto socievole con gli esemplari della sua stessa specie.
 1226
 Secerne una particolare tossina che, se riscaldata, risplende intensamente. Attira le prede e le cattura, usando il corpo come gabbia.
 Secerne una particolare tossina che, se riscaldata, risplende intensamente. Attira le prede e le cattura, usando il corpo come gabbia.
@@ -12363,7 +12363,7 @@ Oltre a essere in grado di percepire l'aura, ha anche la capacite' di controllar
 Oltre a essere in grado di percepire l'aura, ha anche la capacite' di controllarla. Sfrutta questa sua abilita' anche nelle lotte.
 1228
 Quando si accumula elettricita' nel suo corpo, si fa irascibile. Al buio brilla di luce propria.
-Quando si accumula elettricita' nel suo corpo, si fa irascibile. Al buio brilla di luce propria.
+Fedele compagno del Capopalestra Surge, riportato alla vita in seguito ad un tragico incidente. È tanto veloce quanto fragile.
 1229
 È il Bisharp in possesso di S del Team Dimension. In lui convivono le coscienze dei due Bisharp di A & B.
 È il Bisharp in possesso di S del Team Dimension. In lui convivono le coscienze dei due Bisharp di A & B.
