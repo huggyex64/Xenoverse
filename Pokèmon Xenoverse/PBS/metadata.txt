@@ -1095,7 +1095,7 @@ WildBattleBGM=Wild Battle.mp3
 BattleBack=Saloon
 Bicycle=false
 MapPosition=0,30,13
-DarkMap=true
+DarkMap=false
 Outdoor=false
 WildBattleBGM=VS. MarshadowMeloetta.mp3
 [169]
