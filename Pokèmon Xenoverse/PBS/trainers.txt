@@ -2483,8 +2483,8 @@ MILOTIC,38,,,,,,,,,shiny
 SURFISTAF
 Angela
 2
-SEALEO,36
-OCTILLERY,38
+SEALEO,39
+OCTILLERY,41
 #==============================
 SURFISTAF
 Ariella
@@ -2512,9 +2512,9 @@ WARTORTLE,50
 SURFISTAM
 Gasparre
 3
-ALOMOMOLA,35
-SANDYGAST,37
-FLOATZEL,39
+ALOMOMOLA,40
+SANDYGAST,38
+FLOATZEL,42
 #==============================
 SURFISTAM
 Ferry
@@ -2534,7 +2534,7 @@ CRAWDAUNT,48
 SURFISTAM
 Mariano
 1
-MANTINE,40
+MANTINE,42
 #==============================
 SURFISTAM
 Maurizio
