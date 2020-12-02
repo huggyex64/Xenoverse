@@ -2211,6 +2211,7 @@ WildItemUncommon=METALCOAT
 BattlerPlayerY=30
 BattlerEnemyY=40
 BattlerAltitude=15
+Evolutions=MAGNEZONE,Location,276
 [83]
 Name=Farfetch'd
 InternalName=FARFETCHD
@@ -7970,7 +7971,7 @@ Pokedex=Il naso magnetico di Nosepass è una bussola infallibile e questo lo ren
 WildItemUncommon=HARDSTONE
 BattlerPlayerY=7
 BattlerEnemyY=18
-Evolutions=PROBOPASS,Location,49,PROBOPASS,Location,50,PROBOPASS,Location,51
+Evolutions=PROBOPASS,Location,276
 [300]
 Name=Skitty
 InternalName=SKITTY
