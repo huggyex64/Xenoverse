@@ -210,7 +210,7 @@
 213,TAMARAFINAL,(Colonnello Dimension),100,vs.Mimikyu,Team Dimension Victory,,Female,
 214,GENERALEVICTOR,(Generale Dimension),100,VS. Victor,Vittoria Victor Dimension,,Male,
 215,GOLD,(Allenatore),255,VS. Ethan,Victory Cardinale,,Male,
-216,RUTA2,(Selvaggio),30,,,,Mixed,
+216,RUTA2,(Selvaggio),200,,Trainer Victory,,Mixed,,
 217,FINALSAUL,(S.P.E.T.T.R.I.),60,VS. Spettri,Trainer Victory,,Male,100
 218,CHUA,(Cardinale),200,VS.Cardinali,Victory Cardinale,,Male,
 219,CASTALIA,(Cardinale),200,VS.Cardinali,Victory Cardinale,,Female,
