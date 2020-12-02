@@ -32840,15 +32840,15 @@ SESTO
 Choose Pokémon and confirm.
 Seleziona Pokémon e conferma.
 Entry
-Entry
+Iscrivi
 No Entry
-No Entry
+Non iscrivere
 Info
 Info
 Chiudi
 Chiudi
 Che fare con {1}?
-Che fare con {1}?
+Cosa vuoi fare con {1}?
 No more than {1} Pokémon may enter.
 Non sono ammessi più di {1} Pokémon.
 Choose Pokémon or cancel.
