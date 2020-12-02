@@ -36731,3 +36731,5 @@ Nessuna modifica è stata salvata.
 {1} manda in campo {2} e {3}!
 {1}'s
 di {1}
+You have no usable items in this pocket.
+Non hai nessuno strumento in questa tasca.
