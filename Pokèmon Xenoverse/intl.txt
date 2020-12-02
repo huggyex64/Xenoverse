@@ -31522,7 +31522,7 @@ Il desiderio di {1} si avvera!
 {1} absorbed nutrients with its roots!
 {1} assorbe nutrienti dal terreno!
 {1}'s health was sapped by Leech Seed!
-Parassiseme restituisce PS a {1}!
+Parassiseme sottrae PS a {1}!
 {1} is healed by poison!
 {1} recupera PS grazie al veleno!
 {1} is locked in a nightmare!
