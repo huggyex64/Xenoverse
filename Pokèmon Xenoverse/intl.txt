@@ -18178,7 +18178,7 @@ Rapid Ball
 Turbo Ball
 282
 Level Ball
-Level Ball
+Junior Ball
 283
 Esca Ball
 Pesca Ball
