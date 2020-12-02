@@ -21704,7 +21704,7 @@ Habitat=Grassland
 RegionalNumbers=372,0,0
 Kind=Cannone
 Pokedex=Le membrane gli si sono irrigidite con l'evoluzione, divenendo simili al vetro. Quando va in escandescenze, sputa palle incendiarie dalla bocca.
-BattlerPlayerY=16
+BattlerPlayerY=24
 BattlerEnemyY=27
 Evolutions=FUOCO3,Level,34
 [1091]
@@ -21731,8 +21731,8 @@ Habitat=Grassland
 RegionalNumbers=373,0,0
 Kind=Stunt
 Pokedex=Ogni sua lotta è un vero show. Ricoprendosi di fiamme, fonde il vetro delle braccia, lasciandosi dietro un'elegante scia di cristalli.
-BattlerPlayerY=9
-BattlerEnemyY=15
+BattlerPlayerY=17
+BattlerEnemyY=24
 [1092]
 Name=Inflant
 InternalName=FLOATUB

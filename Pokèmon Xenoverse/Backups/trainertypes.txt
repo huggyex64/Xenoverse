@@ -83,7 +83,7 @@
 81,ELITEFOUR_Glacia,Elite Four,100,elite,,,Female,
 82,ELITEFOUR_Drake,Elite Four,100,elite,,,Male,
 83,CAMPEGGIATORE,(Giramondo),50,,Trainer Victory,,Male,
-84,SCOLARA,(Scolara),30,,,,Mixed,
+84,SCOLARA,(Scolara),,,Trainer Victory,,Mixed,,
 86,CINTURANERA,(Cinturanera),40,VS.Trainer,Trainer Victory,,Male,
 87,POKFAN,(Pokéfanatico),50,,Trainer Victory,,Male,
 88,CAPOPALESTRA_ERBA,(Capopalestra),70,VS. Gym Leader,victory gym,,Male,
