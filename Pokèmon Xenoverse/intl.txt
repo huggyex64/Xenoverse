@@ -9692,28 +9692,28 @@ Virtuale
 Virtuale
 1431
 Tartaghina
-Tartaghina
+Pesciolino
 1432
 Tartaghina
-Tartaghina
+Ancora
 1433
 Tartaghina
-Tartaghina
+Fondale
 1434
 Tartaghina
-Tartaghina
+Fuoca
 1435
 Topo
-Topo
+Tigrotto
 1436
 Topo
-Topo
+Tigre
 1437
 Otaria
-Otaria
+Pelliccia
 1438
 Otaria
-Otaria
+Pelliccia
 2000
 Cavallonembo
 Cavallonembo
@@ -12681,7 +12681,7 @@ Normalmente vive vicino a centrali elettriche e se si allontana può causare bla
 Normalmente vive vicino a centrali elettriche e se si allontana può causare blackout gravi in città.
 1396
 Ama gli oggetti rotondi. Di notte vaga per le vie in cerca di monetine perdute.
-Ama gli oggetti rotondi. Di notte vaga per le vie in cerca di monetine perdute.
+Non fa che dormire tutto il giorno. Se però non ha delle monetine con sé, non dorme tranquillo.
 1397
 Ama gli oggetti rotondi. Di notte vaga per le vie in cerca di monetine perdute.
 Ama gli oggetti rotondi. Di notte vaga per le vie in cerca di monetine perdute.
@@ -12786,28 +12786,28 @@ Ricerche avanzate hanno potenziato le sue capacità. Ora può fare movimenti che
 Ricerche avanzate hanno potenziato le sue capacità. Ora può fare movimenti che non erano programmati.
 1431
 Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
-Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
+Nuota tranquillo nelle acqua salate. Quando gli si avvicina un predatore, sfugge via velocissimo.
 1432
 Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
-Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
+Una pesante ancora gli si è attaccata al corpo con l'evoluzione. Ha imparato a sfruttarla per i suoi attacchi.
 1433
 Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
-Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
+Si nasconde sotto la sabbia con la bocca spalancata. Appena vi si posa una preda ignara, la intrappola tra le fauci.
 1434
 Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
-Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
+Tiene in equilibrio sul naso una meteora infuocata. La lancia sul nemico e la recupera con straordinaria agilità.
 1435
 Quando vari Pokemon di questo tipo si radunano, la loro energia puo' causare forti tempeste.
-Quando vari Pokemon di questo tipo si radunano, la loro energia puo' causare forti tempeste.
+Il pelo morbido raccoglie elettricità statica. Se ne accumula troppa, la rilascia in palle di pelo elettrificate.
 1436
 Quando si accumula elettricita' nel suo corpo, si fa irascibile. Al buio brilla di luce propria.
-Quando si accumula elettricita' nel suo corpo, si fa irascibile. Al buio brilla di luce propria.
+È un feroce predatore. Si copre di elettricità per poi avventarsi sulla preda con la potenza di un tuono.
 1437
 Adora gli ambienti freddi gelidi. Nuota in acque a temperature polari di circa 10 gradi sotto zero.
-Adora gli ambienti freddi gelidi. Nuota in acque a temperature polari di circa 10 gradi sotto zero.
+È un feroce predatore. Si copre di elettricità per poi avventarsi sulla preda con la potenza di un tuono.
 1438
 Accumula energia termica nel suo corpo. Nuota a 8 nodi costanti anche in acqua molto fredda.
-Accumula energia termica nel suo corpo. Nuota a 8 nodi costanti anche in acqua molto fredda.
+Grande e cattivo, allontana dalla sua montagna chi osa avvicinarsi. Probabilmente ha ispirato le leggende sullo yeti.
 2000
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
