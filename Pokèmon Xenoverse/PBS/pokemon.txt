@@ -21837,7 +21837,7 @@ RegionalNumbers=377,0,0
 Kind=Terrasanta
 Pokedex=Pokémon leggendario protettore della Terra. Ha il pieno controllo della natura, che può modificare a piacimento.
 BattlerPlayerY=20
-BattlerEnemyY=26
+BattlerEnemyY=34
 [1096]
 Name=Dragalisk
 InternalName=DRAGALISK
