@@ -17575,7 +17575,7 @@ Velopuro
 Velopuro
 81
 Bandascelta
-Bandascelta
+Bendascelta
 82
 Lentiscelta
 Lentiscelta
@@ -19919,7 +19919,7 @@ Strumento che danneggia chi ce l'ha a ogni turno. Può attaccarsi al nemico che 
 Strumento che danneggia chi ce l'ha a ogni turno. Può attaccarsi al nemico che lancia un attacco fisico.
 118
 Riduce la Velocità e rende vulnerabili alle mosse terra se chi la tiene è di tipo Volante o ha l'abilità Levitazione.
-Riduce la Velocità e rende vulnerabili alle mosse terra se chi la tiene è di tipo Volante o ha l'abilità Levitazione.
+Riduce la Velocità e rende vulnerabili alle mosse Terra se chi la tiene è di tipo Volante o ha l'abilità Levitazione.
 119
 Se un Pokémon ha questo strumento, le mosse che di norma non hanno effetto contro il suo tipo vanno a segno.
 Se un Pokémon ha questo strumento, le mosse che di norma non hanno effetto contro il suo tipo vanno a segno.
