@@ -681,7 +681,7 @@
 703,SUBWOOFER,Trematutto,00F,70,SUONO,Physical,100,20,30,04,0,befk,"I nemici vengono investiti da suoni a bassissima frequenza in grado di farli tentennare."
 704,WILDDANCE,Pogo,0D2,120,SUONO,Physical,100,10,0,02,0,abefk,"Chi la usa spintona il nemico a ritmo di musica per due o tre turni, ma rimane confuso."
 705,NOISEBURST,Bombacustica,0C2,150,SUONO,Special,90,5,0,00,0,befkn,"Chi la usa emette così suoni assordanti da impedirgli di attaccare il turno successivo."
-706,PERFECTGLARE,Sguardo Fatale,007,0,NORMAL,Status,90,20,0,00,0,bce,"Chi la usa paralizza il nemico con lo sguardo. Colpisce sempre per primo."
+706,PERFECTGLARE,Sguardo Fatale,007,0,NORMAL,Status,90,20,0,00,1,bce,"Chi la usa paralizza il nemico con lo sguardo. Colpisce sempre per primo."
 707,PRIMALSCREAM,Primorgrido,042,80,SUONO,Special,100,15,100,04,0,befk,"Chi la usa urla prepotentemente addosso ai nemici e ne riduce l'Attacco."
 708,REVUP,Motorombo,01F,60,SUONO,Physical,100,20,100,00,0,befk,"Chi la usa scalda i motori e travolge il bersaglio. Aumenta inoltre la propria Velocità."
 709,SUGARRUSH,Dolcescarica,0FB,120,FAIRY,Physical,100,15,0,00,0,abef,"Chi la usa si lancia energicamente sul bersaglio dopo essersi strafogato di dolci, ma subisce il contraccolpo."
