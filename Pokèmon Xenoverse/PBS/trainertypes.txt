@@ -222,7 +222,7 @@
 225,KAYAEROPORTO,(Allenatore),30,vs.Rivale,Trainer Victory,,Male,100
 226,VOCALIST2,(Solista),,VS.Trainer,Trainer Victory,,Male,,
 227,WALLACESIGMA,(Giudici),30,VS-AB,Trainer Victory,,Male,150,
-228,TARASSACO,(Ricercatore),200,,,,Mixed,
+228,TARASSACO,(Ricercatore),200,,Trainer Victory,,Mixed,,
 229,FINALMAMMA,(Mamma),200,,Trainer Victory,,Mixed,,
 230,CHUAFINAL,(Cardinale),100,VS.Cardinali,Victory Cardinale,,Male,255
 231,CASTALIAFINAL,(Cardinale),100,VS.Cardinali,Victory Cardinale,,Female,255
