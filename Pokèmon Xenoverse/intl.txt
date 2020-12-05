@@ -31322,7 +31322,7 @@ It's impossible to aim without being focused!
 {1} used the<<n>>{2}!
 {1} usa<<n>>{2}!
 {1} became healthy!
-{1} è tornato in forze!
+{1} è tornato in salute!
 Treat this battle as a win?
 Treat this battle as a win?
 Treat this battle as a loss?
@@ -32340,7 +32340,7 @@ Gettoni: {1}
 {1} was thawed out.
 {1} si è scongelato.
 {1} became healthy.
-{1} è ritornato in forze.
+{1} è ritornato in salute.
 Restore which move?
 Ripristinare i PP di quale mossa?
 PP was restored.
@@ -36588,7 +36588,7 @@ elu
 {1}'s {2} let it share its {3} with {4}!
 {2} di {1} gli permette di condividere {3} con {4}!
 {1} restored its health using its {2}!
-{1} ritorna in forze con {2}!
+{1} recupera energia con {2}!
 {1} restored its status using its {2}!
 {1} guarisce dall'alterazione di stato con {2}!
 {1} cured its infatuation status using its {2}.
@@ -36628,7 +36628,7 @@ Attaccalite non ha più effetto su {1}!
 {1} boosted the accuracy of its next move using its {2}!
 {1} aumenta la precisione del prossimo attacco con {2}!
 {1}'s {2} restored its health!
-{1} ritorna in forze grazie a {2}!
+{1} recupera energia grazie a {2}!
 {1} stayed awake using its partner's {2}!
 {1} rimane sveglio grazie a {2} del compagno!
 {1}'s {2} activated!
