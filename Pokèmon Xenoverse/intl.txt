@@ -8372,7 +8372,7 @@ Mutevolpe
 Mutevolpe
 572
 Cincilla'
-Cincilla'
+Cincillà
 573
 Sciarpa
 Sciarpa
@@ -36552,9 +36552,9 @@ Apri Mappa Città
 Teach which move to {1}?
 Quale mossa vuoi insegnare a {1}?
 Hide Shiny
-Nascondi cromatici
+Non cromatico
 Show Shiny
-Mostra cromatici
+Cromatico
 Saving
 Salva
 Time

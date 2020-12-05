@@ -142,7 +142,7 @@ DESCRIPTION=(Forma Terrestre)\n L'esposizione all'Energia Terrestre sembra aver 
 HEIGHT=0.8
 WEIGHT=21.7
 [1049_2]
-DESCRIPTION=(Forma Xenoverse)\n Sembra risentire anche dell'influsso dell'Energia Blu, divenendo più selvatico e truce. Lancia poderosi tuoni neri dalla criniera irta di elettricità.
+DESCRIPTION=(Forma Xenoverse)\n Sembra risentire anche dell'influsso dell'Energia Blu, divenendo più truce e selvaggio. Lancia terribili tuoni neri dalla criniera irta di elettricità.
 HEIGHT=1.7
 WEIGHT=111
 [1077_1]
