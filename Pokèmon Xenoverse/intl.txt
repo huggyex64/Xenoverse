@@ -12573,7 +12573,7 @@ Si nutre di terra. Dopo aver divorato una montagna intera, si addormenta per pot
 Si nutre di terra. Dopo aver divorato una montagna intera, si addormenta per poter crescere.
 1360
 Puo' muoversi liberamente anche se è chiuso nel guscio. Forte e rapido, ha un enorme potere distruttivo.
-Puo' muoversi liberamente anche se è chiuso nel guscio. Forte e rapido, ha un enorme potere distruttivo.
+Può muoversi liberamente anche se è chiuso nel guscio. Forte e rapido, ha un enorme potere distruttivo.
 1361
 Il suo corpo non è scalfito da alcun attacco, perciò sfida i nemici con estrema facilità.
 Il suo corpo non è scalfito da alcun attacco, perciò sfida i nemici con estrema facilità.
@@ -12582,7 +12582,7 @@ Ritenuto a lungo mitico, se ne è poi trovata un'esigua colonia sottomarina.
 Ritenuto a lungo mitico, se ne è poi trovata un'esigua colonia sottomarina.
 1363
 Pokémon etereo \n che emana un'aura mite e ha la capacità di mutare il clima.
-Pokémon etereo \n che emana un'aura mite e ha la capacità di mutare il clima.
+Pokémon etereo che emana un'aura mite e ha la capacità di mutare il clima.
 1364
 Pokémon marino visto molto raramente. Si dice che sia intelligente come l'uomo.
 Pokémon marino visto molto raramente. Si dice che sia intelligente come l'uomo.
@@ -12804,7 +12804,7 @@ Quando si accumula elettricita' nel suo corpo, si fa irascibile. Al buio brilla 
 È un feroce predatore. Si copre di elettricità per poi avventarsi sulla preda con la potenza di un tuono.
 1437
 Adora gli ambienti freddi gelidi. Nuota in acque a temperature polari di circa 10 gradi sotto zero.
-È un feroce predatore. Si copre di elettricità per poi avventarsi sulla preda con la potenza di un tuono.
+Vive in ambienti gelidi. Per sopravvivere alle basse temperature, si copre con una folta pelliccia.
 1438
 Accumula energia termica nel suo corpo. Nuota a 8 nodi costanti anche in acqua molto fredda.
 Grande e cattivo, allontana dalla sua montagna chi osa avvicinarsi. Probabilmente ha ispirato le leggende sullo yeti.
