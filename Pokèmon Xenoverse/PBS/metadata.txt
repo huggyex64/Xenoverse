@@ -1382,7 +1382,7 @@ MapPosition=0,26,18
 Outdoor=false
 [218]
 # Palestra Ritmo
-BattleBack=Aula3
+BattleBack=Meloetta
 Bicycle=false
 MapPosition=0,26,18
 Outdoor=true
