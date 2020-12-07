@@ -20564,7 +20564,7 @@ Se il nemico è del sesso opposto, s'infatua e attacca con meno probabilità.
 Se il nemico è del sesso opposto, s'infatua e attacca con meno probabilità.
 333
 Il Pokémon attacca e contemporaneamente ruba lo strumento tenuto dal nemico. Non ruberà nulla, se si possiede già uno strumento.
-Il Pokémon attacca e contemporaneamente ruba lo strumento tenuto dal nemico. Non ruberà nulla, se si possiede già uno strumento.
+Attacca e ruba lo strumento tenuto dal nemico. Non ruberà nulla, se si possiede già uno strumento.
 334
 Chi la usa colpisce con un attacco fulmineo la parte inferiore del corpo del bersaglio, riducendone la Velocità.
 Chi la usa colpisce con un attacco fulmineo la parte inferiore del corpo del bersaglio, riducendone la Velocità.
@@ -20714,22 +20714,22 @@ Chi la usa emana un'orribile aura intrisa di pensieri oscuri. Può anche far ten
 Chi la usa emana un'orribile aura intrisa di pensieri oscuri. Può anche far tentennare il bersaglio.
 383
 Attacca il nemico con artigli o falci affilate. Fuori dalla lotta si usa per tagliare piccoli alberi.
-Attacca il nemico con artigli o falci affilate. Fuori dalla lotta si usa per tagliare piccoli alberi.
+Attacca il nemico con artigli o falci affilate.
 384
 Chi la usa si alza in volo per attaccare al turno seguente. Fuori dalla lotta permette di volare in città già visitate.
-Chi la usa si alza in volo per attaccare al turno seguente. Fuori dalla lotta permette di volare in città già visitate.
+Chi la usa si alza in volo per attaccare al turno seguente.
 385
 Un'onda enorme sommerge il campo di lotta. Fuori dalla lotta si usa per spostarsi sull'acqua
-Un'onda enorme sommerge il campo di lotta. Fuori dalla lotta si usa per spostarsi sull'acqua
+Un'onda enorme sommerge il campo di lotta.
 386
 Colpisce il nemico con un'enorme energia. Fuori dalla lotta si usa per spostare i massi.
-Colpisce il nemico con un'enorme energia. Fuori dalla lotta si usa per spostare i massi.
+Colpisce il nemico con un'enorme energia.
 387
 Carica il nemico a grande velocità e può farlo tentennare. Fuori dalla lotta fa risalire le cascate.
-Carica il nemico a grande velocità e può farlo tentennare. Fuori dalla lotta fa risalire le cascate.
+Carica il nemico a grande velocità e può farlo tentennare.
 388
 Chi la usa si tuffa in acqua per emergere e attaccare al turno seguente. Fuori dalla lotta permette di immergersi sott'acqua.
-Chi la usa si tuffa in acqua per emergere e attaccare al turno seguente. Fuori dalla lotta permette di immergersi sott'acqua.
+Chi la usa si tuffa in acqua per emergere e attaccare al turno seguente.
 389
 Se tenuta da un Pokémon o usata dall'Allenatore può guarire dalla paralisi.
 Se tenuta da un Pokémon o usata dall'Allenatore può guarire dalla paralisi.
@@ -20747,10 +20747,10 @@ Se tenuta da un Pokémon o usata dall'Allenatore può guarire dal congelamento.
 Se tenuta da un Pokémon o usata dall'Allenatore può guarire dal congelamento.
 394
 Se tenuta da un Pokémon o usata dall'Allenatore restituisce 10PP a una mossa.
-Se tenuta da un Pokémon o usata dall'Allenatore restituisce 10PP a una mossa.
+Se tenuta da un Pokémon o usata dall'Allenatore restituisce 10 PP a una mossa.
 395
 Se tenuta da un Pokémon o usata dall'Allenatore restituisce 10PS.
-Se tenuta da un Pokémon o usata dall'Allenatore restituisce 10PS.
+Se tenuta da un Pokémon o usata dall'Allenatore restituisce 10 PS.
 396
 Se tenuta da un Pokémon o usata dall'Allenatore può liberare dalla confusione.
 Se tenuta da un Pokémon o usata dall'Allenatore può liberare dalla confusione.
@@ -21035,10 +21035,10 @@ Brutti colpi più probabili per un Pokémon impegnato in una lotta.Può essere u
 Brutti colpi più probabili per un Pokémon impegnato in una lotta.Può essere usato solo una volta. L'effetto svanisce de il Pokémon è sostituito.
 490
 Può essere usato più volte per aumentare la probabilità di eseguire brutti colpi.L'effetto svanisce de il Pokémon è sostituito.
-Può essere usato più volte per aumentare la probabilità di eseguire brutti colpi.L'effetto svanisce de il Pokémon è sostituito.
+Può essere usato più volte per aumentare la probabilità di eseguire brutti colpi. L'effetto svanisce de il Pokémon è sostituito.
 491
 Può essere usato più volte per aumentare di molto la probabilità di eseguire brutti colpi.L'effetto svanisce de il Pokémon è sostituito.
-Può essere usato più volte per aumentare di molto la probabilità di eseguire brutti colpi.L'effetto svanisce de il Pokémon è sostituito.
+Può essere usato più volte per aumentare di molto la probabilità di eseguire brutti colpi. L'effetto svanisce de il Pokémon è sostituito.
 492
 Per 5 turni dopo l'uso, evita la riduzione delle statistiche dei Pokémon della squadra dell'Allenatore.
 Per 5 turni dopo l'uso, evita la riduzione delle statistiche dei Pokémon della squadra dell'Allenatore.
@@ -21089,7 +21089,7 @@ Strumento usato per cercare oggetti nascosti. Se ne trova uno nelle vicinanze, e
 Strumento usato per cercare oggetti nascosti. Se ne trova uno nelle vicinanze, emette un segnale.
 508
 Strumento che serve per cercare oggetti nascosti. Emette luci e suoni se trova qualcosa
-Strumento che serve per cercare oggetti nascosti. Emette luci e suoni se trova qualcosa
+Strumento che serve per cercare oggetti nascosti. Emette luci e suoni se trova qualcosa.
 509
 Strumento con cui individuare i Pokémon nascosti nell’erba. La batteria si ricarica mentre cammini.
 Strumento con cui individuare i Pokémon nascosti nell’erba. La batteria si ricarica mentre cammini.
@@ -21395,7 +21395,7 @@ Misterioso orecchino perso da una Recluta Dimension. Non sembra avere alcuna uti
 Misterioso orecchino perso da una Recluta Dimension. Non sembra avere alcuna utilità.
 610
 Uno strano anello intriso di una forte energia.
-Uno strano anello intriso di una forte energia.
+Un misterioso anello intriso di una forte energia di colore rosso.
 611
 Un esemplare delle misteriose Megapietre. Data a Venusaur, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Venusaur, gli permette di megaevolversi durante la lotta.
@@ -21461,7 +21461,7 @@ Un premio per aver superato la Prova dell'Acqua del Regno di Virgopoli.
 Un premio per aver superato la Prova dell'Acqua del Regno di Virgopoli.
 636
 Uno strano anello intriso di una forte energia oscura.
-Uno strano anello intriso di una forte energia oscura.
+Un misterioso anello intriso di un'oscura energia di colore blu.
 671
 Un misterioso orecchino contenente un’energia pura dal colore rosso intenso.
 Un misterioso orecchino contenente un’energia pura dal colore rosso intenso.
@@ -21695,7 +21695,7 @@ Boccetta della miracolosa acqua di Aquariopoli. Non sembrerebbe avere alcuna uti
 Boccetta della miracolosa acqua di Aquariopoli. Non sembrerebbe avere alcuna utilità.
 751
 Un Souvenir di Capricornia. Non sembrerebbe avere alcuna utilità.
-Un Souvenir di Capricornia. Non sembrerebbe avere alcuna utilità.
+Un souvenir di Capricornia. Non sembrerebbe avere alcuna utilità.
 752
 Best-seller del Capopalestra scrittore di Scorpiopoli. Non sembrerebbe avere alcuna utilità.
 Best-seller del Capopalestra scrittore di Scorpiopoli. Non sembrerebbe avere alcuna utilità.
@@ -21779,7 +21779,7 @@ Strumento creato da Tarassaco per far evolvere determinate specie di Pokémon se
 Strumento creato da Tarassaco per far evolvere determinate specie di Pokémon senza l'ausilio di scambi.
 779
 Una strana pietra che emana energia Xenoverse. Serve ad evolvere alcuni Pokémon X.
-Una strana pietra che emana energia Xenoverse. Serve ad evolvere alcuni Pokémon X.
+Misteriosa pietra che emana energia Xenoverse. Fa evolvere alcuni Pokémon di specie X.
 780
 Oggetto sinistro proveniente dal Saloon Torobrado. Piace a due Pokémon in particolare.
 Oggetto sinistro proveniente dal Saloon Torobrado. Piace a due Pokémon in particolare.
@@ -23179,7 +23179,7 @@ Quando il Pokémon entra in campo, lo trasforma in un Campo Erboso.
 Quando il Pokémon entra in campo, lo trasforma in un Campo Erboso.
 212
 Se il Pokémon viene mandato KO da un attacco, infligge a chi lo ho sferrato tanti danni quanti erano i suoi PS prima di ricevere il colpo.
-Se il Pokémon viene mandato KO da un attacco, infligge a chi lo ho sferrato tanti danni quanti erano i suoi PS prima di ricevere il colpo.
+Infligge a chi ha sferrato il KO un danno pari ai PS che aveva prima dell'attacco.
 213
 Le mosse basate sul suono del Pokémon diventano di tipo Acqua.
 Le mosse basate sul suono del Pokémon diventano di tipo Acqua.
