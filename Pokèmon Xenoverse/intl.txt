@@ -36590,7 +36590,7 @@ elu
 {1} restored its health using its {2}!
 {1} recupera energia con {2}!
 {1} restored its status using its {2}!
-{1} guarisce dall'alterazione di stato con {2}!
+{1} ripristina le statistiche con {2}!
 {1} cured its infatuation status using its {2}.
 {1} guarisce dall'infatuazione con {2}.
 {1}'s taunt wore off!
