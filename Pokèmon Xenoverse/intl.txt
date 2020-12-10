@@ -23952,7 +23952,7 @@ Evan
 (Surfista)
 206
 (Surfista)
-(Surfista)
+(Nuotatrice)
 207
 (Allenatrice)
 (Allenatrice)
@@ -24000,7 +24000,7 @@ Evan
 (Cardinale)
 222
 (Campione)
-(Campione)
+(Lume)
 223
 (Comandante Dimension)
 (Comandante Dimension)
@@ -24015,7 +24015,7 @@ Evan
 (Solista)
 227
 (Giudici)
-(Giudici)
+(Duo Musicale)
 228
 (Ricercatore)
 (Ricercatore)
@@ -24036,7 +24036,7 @@ Evan
 (Cardinale)
 234
 (Campione)
-(Campione)
+(Lume)
 [13]
 Aria
 Aria
