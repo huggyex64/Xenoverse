@@ -20321,6 +20321,7 @@ RegionalNumbers=102,0,0
 Kind=Freddocane
 Pokedex=Pokémon estremamente fedele e intelligente. Impiegato nel traino delle slitte, riesce a fiutare la strada più sicura anche nel mezzo di una bufera.
 BattlerEnemyY=25
+BattlerPlayerY=20
 [1039]
 Name=Kidoon
 InternalName=KIDOON
