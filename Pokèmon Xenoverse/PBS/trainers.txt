@@ -631,7 +631,7 @@ KUNGFUR,48
 PASSIMIAN,50
 #==============================
 CINTURANERA
-Ryu
+Ken
 1
 LUCARIO,53
 #==============================
