@@ -610,7 +610,7 @@
 632,PARABOLICCHARGE,Caricaparabola,0DD,65,ELECTRIC,Special,100,20,0,08,0,bef,"Chi la usa attacca tutto ciò che lo circonda e recupera PS pari alla metà del danno inflitto."
 633,ELECTRIFY,Elettrocontagio,145,0,ELECTRIC,Status,0,20,0,00,0,be,"Se si contagia il bersaglio prima che usi la sua mossa, per quel turno le sue mosse saranno di tipo Elettro."
 634,ELECTRICTERRAIN,Campo Elettrico,154,0,ELECTRIC,Status,0,10,0,01,0,,"Per cinque turni trasforma il terreno di lotta in un campo elettrico, impedendo ai Pokémon a terra di addormentarsi."
-635,EERIEIMPULSE,Elettromistero,13D,0,ELECTRIC,Status,100,15,0,10,0,bce,"L'utilizzatore genera un impulso misterioso. Esponendovi il bersaglio, ne riduce di molto l'Attacco Speciale."
+635,EERIEIMPULSE,Elettromistero,13D,0,ELECTRIC,Status,100,15,0,00,0,bce,"L'utilizzatore genera un impulso misterioso. Esponendovi il bersaglio, ne riduce di molto l'Attacco Speciale."
 636,FREEZEDRY,Liofilizzazione,16D,70,ICE,Special,100,20,0,00,0,bef,"Chi la usa raffredda rapidamente il bersaglio. Può anche congelarlo. Questa mossa è superefficace contro i Pokémon Acqua."
 637,FLYINGPRESS,Schiacciatuffo,144,100,FIGHTING,Physical,95,10,0,00,0,abef,"Chi la usa si tuffa sul bersaglio dall'alto. È una mossa di tipo Lotta e Volante allo stesso tempo."
 638,HIGHJUMPKICK,Calcinvolo,10B,130,FIGHTING,Physical,90,10,0,00,0,abef,"Chi la usa colpisce il nemico con una ginocchiata in volo: se fallisce, subisce danni."
