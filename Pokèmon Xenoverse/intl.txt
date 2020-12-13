@@ -15402,7 +15402,7 @@ Il bersaglio è colpito da un violento fulmine che può anche paralizzarlo.
 Il bersaglio è colpito da un violento fulmine che può anche paralizzarlo.
 66
 Chi la usa si carica di elettricità per poi attaccare, ma con un considerevole contraccolpo. Può anche paralizzare il bersaglio.
-Chi la usa si carica di elettricità per poi attaccare, ma con un considerevole contraccolpo. Può anche paralizzare il bersaglio.
+Chi la usa si carica di elettricità per poi attaccare, ma con un considerevole contraccolpo. Può anche paralizzare.
 67
 Chi la usa scaglia una sfera elettrica che infligge danni e paralizza il bersaglio.
 Chi la usa scaglia una sfera elettrica che infligge danni e paralizza il bersaglio.
