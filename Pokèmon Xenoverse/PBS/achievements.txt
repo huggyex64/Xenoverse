@@ -110,7 +110,7 @@ amount = 1
 image = 22_annientadraghi
 [Plus]
 title = Plus Ultra!
-description = Sconfiggi il Campione Aster.
+description = Sconfiggi Aster in cima al Monte Zodiaco.
 amount = 1
 image = 23_plus
 [Scontro]
@@ -160,7 +160,7 @@ amount = 1
 image = 32_ikarium
 [Kaiserum]
 title = Dacci un taglio!
-description = Ottieni la gemma del Kaiserum N.
+description = Ottieni la gemma del Kaiserium N.
 amount = 1
 image = 33_kaiserum
 [Odysseum]
@@ -205,7 +205,7 @@ amount = 1
 image = 41_giungla
 [Fascino]
 title = Fascino focoso
-description = Sfida e sconfiggi Saul della S.PE.T.T.R.I.
+description = Sfida e sconfiggi Saul della S.P.E.T.T.R.I.
 amount = 1
 image = 42_fascino
 [Chiamata]
@@ -215,7 +215,7 @@ amount = 1
 image = 43_chiamata
 [Futuro]
 title = Il futuro è qui!
-description = Sfida e sconfiggi il Mago dei Computer Tarassaco.
+description = Sfida e sconfiggi il Ricercatore Tarassaco.
 amount = 1
 image = 44_futuro
 [Dolcetto]
@@ -335,7 +335,7 @@ amount = 29
 image = 67_mondo
 [Brillante]
 title = Allenatore brillante
-description = Cattura un Pokémon Cromatico.
+description = Cattura un Pokémon cromatico.
 amount = 1
 image = 68_brillante
 [Mercante]
@@ -355,12 +355,12 @@ amount = 19
 image = 71_tana
 [Hipster]
 title = Hip-hip... Hipster!
-description = Viagga attraverso tutti i portali dimensionali di Dielebi.
+description = Viaggia attraverso tutti i portali dimensionali di Dielebi.
 amount = 10
 image = 72_hipster
 [Mega]
 title = Mega Mania
-description = Ottieni tutte le Mega Pietre.
+description = Ottieni tutte le Megapietre.
 amount = 1
 image = 73_mega
 [Leggendaria]
