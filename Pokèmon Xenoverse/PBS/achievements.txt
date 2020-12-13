@@ -365,7 +365,7 @@ amount = 1
 image = 73_mega
 [Leggendaria]
 title = Guerre astrali
-description = Porta a termine una lotta leggendaria.
+description = Porta a termine uno scontro leggenda.
 amount = 1
 image = 74_leggendaria
 [Platino]
