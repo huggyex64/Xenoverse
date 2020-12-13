@@ -18420,7 +18420,6 @@ Color=Brown
 RegionalNumbers=56,0,0
 Kind=Ceppo
 Pokedex=Ha preso vita quando uno spirito è entrato nel ceppo di un albero. Dalle sue foglie verdi si ricava un infuso che cura ogni male.
-WildItemRare=BOTANTICO
 BattlerPlayerY=15
 BattlerAltitude=3
 Evolutions=TREVENANT,Item,BOTANTICO
