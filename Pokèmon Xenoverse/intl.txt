@@ -36733,3 +36733,5 @@ Nessuna modifica è stata salvata.
 di {1}
 You have no usable items in this pocket.
 Non hai nessuno strumento in questa tasca.
+{1}'s {2} let it move first!
+{2} permette a {1} di agire per primo!
