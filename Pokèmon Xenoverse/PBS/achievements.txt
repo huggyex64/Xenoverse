@@ -50,7 +50,7 @@ amount = 1
 image = 10_oscuro
 [Radice]
 title = Medaglia Radice
-description = Sconfiggi il Capopalestra Danilo.
+description = Sconfiggi il Capopalestra Alisso.
 amount = 1
 image = 11_radice
 [Competizione]
