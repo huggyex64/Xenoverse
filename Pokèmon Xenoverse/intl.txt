@@ -36735,3 +36735,5 @@ You have no usable items in this pocket.
 Non hai nessuno strumento in questa tasca.
 {1}'s {2} let it move first!
 {2} permette a {1} di agire per primo!
+{1} consumed its {2} and resisted the damage!
+{1} resiste al colpo mangiando la sua {2}!
