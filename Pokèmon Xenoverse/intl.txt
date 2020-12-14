@@ -31446,7 +31446,7 @@ Player 2 has no unfainted Pokémon
 Player doesn't have two unfainted Pokémon
 Player doesn't have two unfainted Pokémon
 Go! {1} and {2}!
-{1} and {2}! Tocca a voi!
+{1} e {2}! Tocca a voi!
 Player has no unfainted Pokémon
 Player has no unfainted Pokémon
 Go! {1}!
