@@ -33784,7 +33784,7 @@ Eh?<<1>>
 {1:s}<<n>>ID: {2:05d} OT: {3:s}\wtnp<<[>>0<<]>>
 {1:s}<<r>><<n>>ID: {2:05d} AO: {3:s}\wtnp<<[>>0<<]>>
 For {1}'s {2},<<n>>{3} sends {4}.<<1>>
-{1} manda {2}<<n>>per {3} di {4}.<<1>>
+{1} manda {2}<<n>>per {4} di {3}.<<1>>
 {1} bids farewell to {2}.
 {1} dice addio a {2}.
 {1:s}<<n>>ID: {2:05d} OT: {3:s}<<1>>
