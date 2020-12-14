@@ -20345,7 +20345,7 @@ Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Difesa.
 Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Difesa.
 260
 Strumento da usare su un Pokémon. Ne aumenta di poco i punti base dell'Atacco Speciale.
-Strumento da usare su un Pokémon. Ne aumenta di poco i punti base dell'Atacco Speciale.
+Strumento da usare su un Pokémon. Ne aumenta di poco i punti base dell'Attacco Speciale.
 261
 Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Difesa Speciale.
 Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Difesa Speciale.
