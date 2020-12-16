@@ -36502,7 +36502,7 @@ Retrodex Completed.
 Defeated: {1}
 Sconfitti: {1}
 Press Z to open the Retrodex
-Premi Z per il Retròdex
+Premi Z per il Retrodex
 Free
 Libera
 Actions

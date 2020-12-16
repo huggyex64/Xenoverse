@@ -1791,10 +1791,8 @@ CORPHISH,22
 #==============================
 PIGLIAMOSCHE
 Fabio
-3,SUPERPOTION
-BEEFLE,17
-COMBEE,18
-KAKUNA,21
+1,SUPERPOTION
+HERACROSS,24
 #==============================
 PIGLIAMOSCHE
 Deny
