@@ -2515,6 +2515,9 @@ class PokeBattle_Battle
 			}
 			break if @decision>0
 			@turncount+=1
+			for i in 0...@battlers.length
+				echoln @battlers[i].stages
+			end
 		end
 		return pbEndOfBattle(canlose)
 	end

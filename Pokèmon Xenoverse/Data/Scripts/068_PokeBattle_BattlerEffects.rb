@@ -509,10 +509,12 @@ class PokeBattle_Battler
 		if !moldbreaker
       #if !attacker || attacker.index==self.index || !attacker.hasMoldBreaker
         if hasWorkingAbility(:CONTRARY) && !ignoreContrary
-          return pbReduceStat(stat,increment,showMessages,upanim,true,true)
+          echoln "TRIGGERED CONTRARY!"
+          return self.pbReduceStat(stat,increment,showMessages,upanim,true,true)
         end
       #end
     end
+    echoln "CONTINUE INCREASE EXECUTION"
     arrStatTexts=[]
     if stat==PBStats::ATTACK
       arrStatTexts=[_INTL("{1}'s Attack rose!",pbThis),
@@ -553,7 +555,7 @@ class PokeBattle_Battler
       return false
     end
     if pbCanIncreaseStatStage?(stat,showMessages)
-      pbIncreaseStatBasic(stat,increment)
+      pbIncreaseStatBasic(stat,increment,nil,ignoreContrary)
       @battle.pbCommonAnimation("StatUp",self,nil) if upanim
       if increment>3
         @battle.pbDisplay(arrStatTexts[3])
@@ -582,7 +584,7 @@ class PokeBattle_Battler
                     stat!=PBStats::SPEED && stat!=PBStats::EVASION &&
                     stat!=PBStats::ACCURACY
     if pbCanIncreaseStatStage?(stat,false)
-      increment=pbIncreaseStatBasic(stat,increment)#,attacker,moldbreaker,ignoreContrary)
+      increment=pbIncreaseStatBasic(stat,increment,attacker,ignoreContrary)#,attacker,moldbreaker,ignoreContrary)
       if increment>0
         if ignoreContrary
           @battle.pbDisplay(_INTL("{1}'s {2} activated!",pbThis,PBAbilities.getName(self.ability))) if showmessage
@@ -683,10 +685,12 @@ class PokeBattle_Battler
   def pbReduceStat(stat,increment,showMessages,downanim=true,selfreduce=false,ignoreContrary=false)
 		moldbreaker=false
 		if !moldbreaker
-			if hasWorkingAbility(:CONTRARY) && !ignoreContrary
-				return pbIncreaseStat(stat,increment,showMessages,downanim,true)
+      if hasWorkingAbility(:CONTRARY) && !ignoreContrary
+        echoln "TRIGGERED CONTRARY!"
+				return self.pbIncreaseStat(stat,increment,showMessages,downanim,true)
 			end
     end
+    echoln "CONTINUE REDUCE EXECUTION"
     arrStatTexts=[]
     if stat==PBStats::ATTACK
       arrStatTexts=[_INTL("{1}'s Attack fell!",pbThis),
@@ -713,7 +717,7 @@ class PokeBattle_Battler
       return false
     end
     if pbCanReduceStatStage?(stat,showMessages,selfreduce)
-      pbReduceStatBasic(stat,increment)
+      pbReduceStatBasic(stat,increment,nil,ignoreContrary)
       @battle.pbCommonAnimation("StatDown",self,nil) if downanim
       if increment>=2
         @battle.pbDisplay(arrStatTexts[1])
