@@ -246,7 +246,6 @@ class NewPokemonStorage
 	def update
 		@sprites["cursor"].update
 		@sprites["box"].update
-		rescue
 		@sprites["partybox"].update
     if @sprites["abg"]
 			@sprites["abg"].ox+=Dex::ANIMBGSCROLLX
@@ -1546,6 +1545,7 @@ class PartyBox < EAMSprite
 	
 	#alias _oupdate update unless defined?(self._oupdate)
 	def update
+		#_oupdate
 		super
 		for i in @pokemons
 			i.update if defined?(i.update)

@@ -315,13 +315,35 @@ def pbDebugMenu
     break if ret==-1
     cmd=commands.getCommand(ret)
     if cmd=="switches"
-      $scene=nil
+      pbFadeOutIn(99999) { pbDebugScreen(0) }
     elsif cmd=="variables"
       $scene=nil
     elsif cmd=="refreshmap"
       $scene=nil
     elsif cmd=="warp"
-      $scene=nil
+      map=pbWarpToMap()
+      if map
+        pbFadeOutAndHide(sprites)
+        pbDisposeSpriteHash(sprites)
+        viewport.dispose
+        if $scene.is_a?(Scene_Map)
+          $game_temp.player_new_map_id=map[0]
+          $game_temp.player_new_x=map[1]
+          $game_temp.player_new_y=map[2]
+          $game_temp.player_new_direction=2
+          $scene.transfer_player
+          $game_map.refresh
+        else
+          Kernel.pbCancelVehicles
+          $MapFactory.setup(map[0])
+          $game_player.moveto(map[1],map[2])
+          $game_player.turn_down
+          $game_map.update
+          $game_map.autoplay
+          $game_map.refresh
+        end
+        return
+      end
     elsif cmd=="healparty"
       $scene=nil
     elsif cmd=="additem"
@@ -331,7 +353,18 @@ def pbDebugMenu
     elsif cmd=="clearbag"
       $scene=nil
     elsif cmd=="addpokemon"
-      $scene=nil
+      species=pbChooseSpeciesOrdered(1)
+      if species!=0
+        params=ChooseNumberParams.new
+        params.setRange(1,PBExperience::MAXLEVEL)
+        params.setInitialValue(5)
+        params.setCancelValue(0)
+        level=Kernel.pbMessageChooseNumber(
+           _INTL("Set the Pokémon's level."),params)
+        if level>0
+          pbAddPokemon(species,level)
+        end
+      end
     elsif cmd == "completepokedex"
       $scene=nil
     elsif cmd == "completepokedexreal"
