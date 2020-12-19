@@ -2582,62 +2582,43 @@ def Kernel.pbItemBall(item,quantity=1,plural=nil)
   return false if !item || item<=0 || quantity<1
   itemname=PBItems.getName(item)
   pocket=pbGetPocket(item)
-  if $PokemonBag.pbStoreItem(item,quantity)   # If item can be picked up
-    if $ItemData[item][ITEMUSE]==3 || $ItemData[item][ITEMUSE]==4
-      Kernel.pbMessage(_INTL("\\se[itemlevel]{1} trova \\c[1]{2}\\c[0]!\\nIt contained \\c[1]{3}\\c[0].\\wtnp[30]",
-         $Trainer.name,itemname,PBMoves.getName($ItemData[item][ITEMMACHINE])))
-      Kernel.pbMessage(_INTL("{1} put the \\c[1]{2}\\c[0]\r\nnel <icon=bagPocket#{pocket}>\\c[1]{3}\\c[0] Pocket.",
-         $Trainer.name,itemname,PokemonBag.pocketNames()[pocket]))
-    elsif isConst?(item,PBItems,:LEFTOVERS)
-      Kernel.pbMessage(_INTL("\\se[itemlevel]{1} trova alcune \\c[1]{2}\\c[0]!\\wtnp[30]",
-         $Trainer.name,itemname))
-      Kernel.pbMessage(_INTL("{1} sistema la \\c[1]{2}\\c[0]\r\nnel <icon=bagPocket#{pocket}>\\c[1]{3}\\c[0] Pocket.",
-         $Trainer.name,itemname,PokemonBag.pocketNames()[pocket]))
+  if $ItemData[item][ITEMUSE]==3 || $ItemData[item][ITEMUSE]==4
+    Kernel.pbMessage(_INTL("\\se[itemlevel] Trovata una \\c[1]{1}\\c[0]!\nChe contiene \\c[1]{2}\\c[0].\\wtnp[30]",
+       itemname,PBMoves.getName($ItemData[item][ITEMMACHINE])))
+  elsif isConst?(item,PBItems,:LEFTOVERS)
+    Kernel.pbMessage(_INTL("\\se[itemlevel]Trovata delle \\c[1]{1}\\c[0]!\\wtnp[30]",
+       itemname))
+  elsif quantity>1
+    if plural
+      Kernel.pbMessage(_INTL("\\se[itemlevel]Trovata una \\c[1]{1}\\c[0]!\\wtnp[30]",
+         plural))
     else
-      if quantity>1
-        if plural
-          Kernel.pbMessage(_INTL("\\se[itemlevel]{1} ha trovato {2} \\c[1]{3}\\c[0]!\\wtnp[30]",
-             $Trainer.name,quantity,plural))
-          Kernel.pbMessage(_INTL("{1} put the \\c[1]{2}\\c[0]\r\nin the <icon=bagPocket#{pocket}>\\c[1]{3}\\c[0] Pocket.",
-             $Trainer.name,plural,PokemonBag.pocketNames()[pocket]))
-        else
-          Kernel.pbMessage(_INTL("\\se[itemlevel]{1} ha trovato {2} \\c[1]{3}s\\c[0]!\\wtnp[30]",
-             $Trainer.name,quantity,itemname))
-          Kernel.pbMessage(_INTL("{1} sistema la \\c[1]{2}s\\c[0]\r\nnel <icon=bagPocket#{pocket}>\\c[1]{3}\\c[0] Pocket.",
-             $Trainer.name,itemname,PokemonBag.pocketNames()[pocket]))
-        end
+      Kernel.pbMessage(_INTL("\\se[itemlevel]Trovata una \\c[1]{1}s\\c[0]!\\wtnp[30]",
+         itemname))
+    end
+  else
+    Kernel.pbMessage(_INTL("\\se[itemlevel]Trovata una \\c[1]{1}\\c[0]!\\wtnp[30]",
+       itemname))
+  end
+  if $PokemonBag.pbStoreItem(item,quantity)   # If item can be added
+    if quantity>1
+      if plural
+        Kernel.pbMessage(_INTL("{1} sistema \\c[1]{2}\\c[0]\r\nnella tasca \\c[1]{3}\\c[0]",
+           $Trainer.name,plural,PokemonBag.pocketNames()[pocket]))
       else
-        Kernel.pbMessage(_INTL("\\se[itemlevel]{1} ha trovato una \\c[1]{2}\\c[0]!\\wtnp[30]",
-           $Trainer.name,itemname))
-        Kernel.pbMessage(_INTL("{1} sistema la \\c[1]{2}\\c[0]\r\nnel <icon=bagPocket#{pocket}>\\c[1]{3}\\c[0] Pocket.",
+        Kernel.pbMessage(_INTL("{1} sistema \\c[1]{2}s\\c[0] nella tasca \\c[1]{3}\\c[0]",
            $Trainer.name,itemname,PokemonBag.pocketNames()[pocket]))
       end
+    else
+      Kernel.pbMessage(_INTL("{1} sistema \\c[1]{2}\\c[0] nella tasca \\c[1]{3}\\c[0]",
+         $Trainer.name,itemname,PokemonBag.pocketNames()[pocket]))
     end
     return true
   else   # Can't add the item
-    if $ItemData[item][ITEMUSE]==3 || $ItemData[item][ITEMUSE]==4
-      Kernel.pbMessage(_INTL("{1} ha trovato \\c[1]{2}\\c[0]!\\wtnp[20]",
-         $Trainer.name,itemname))
-    elsif isConst?(item,PBItems,:LEFTOVERS)
-      Kernel.pbMessage(_INTL("{1} ha trovato \\c[1]{2}\\c[0]!\\wtnp[20]",
-         $Trainer.name,itemname))
-    else
-      if quantity>1
-        if plural
-          Kernel.pbMessage(_INTL("{1} ha trovato {2} \\c[1]{3}\\c[0]!\\wtnp[20]",
-             $Trainer.name,quantity,plural))
-        else
-          Kernel.pbMessage(_INTL("{1} ha trovato {2} \\c[1]{3}s\\c[0]!\\wtnp[20]",
-             $Trainer.name,quantity,itemname))
-        end
-      else
-        Kernel.pbMessage(_INTL("{1} ha trovato \\c[1]{2}\\c[0]!\\wtnp[20]",
-           $Trainer.name,itemname))
-      end
-    end
     Kernel.pbMessage(_INTL("Peccato... Lo zaino è pieno..."))
     return false
   end
+    
 end
 
 def Kernel.pbPokemonFound(item,quantity=1,plural=nil)
