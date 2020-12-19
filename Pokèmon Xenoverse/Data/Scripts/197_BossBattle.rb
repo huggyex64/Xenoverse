@@ -1,0 +1,1313 @@
+################################################################################
+# BOSS BATTLE
+# Version: 1.0
+# Date: 02/02/2017
+# Developer: Fuji
+# All rights reserved.
+################################################################################
+
+class PokeBattle_Pokemon
+	attr_accessor	:boss
+	attr_accessor	:hpMoltiplier
+	attr_accessor	:bossBg
+	
+	def setBoss(hpMoltiplier,bossBg=nil)
+		@boss = true
+		@hpMoltiplier = hpMoltiplier
+		@bossBg = bossBg
+		calcStats
+	end
+	
+	alias :initializeBb :initialize
+	def initialize(a,b,c=nil,d=true)
+		initializeBb(a,b,c,d)
+		@boss = false
+		@hpMoltiplier = 0
+		@bossBg = nil
+	end
+	
+	alias :calcStats_old :calcStats
+	def calcStats
+		calcStats_old
+		if @boss
+      @normalhp = @totalhp
+			@totalhp *= @hpMoltiplier
+			@hp = @totalhp
+		end
+	end
+  
+  def denyBoss
+    currHp = @hp
+    @boss = false
+    @hpMoltiplier = 0
+    @bossBg = nil
+    calcStats
+    @hp = currHp
+  end
+  
+  def canBeCaptured?
+    return @hp <= @normalhp/@hpMoltiplier if @boss
+  end
+end
+
+class PokeBattle_Battler
+	attr_accessor	:boss
+	attr_accessor	:hpMoltiplier
+	attr_accessor	:bossBg
+	
+	alias :pbInitPokemonBb :pbInitPokemon
+	def pbInitPokemon(pkmn,pkmnIndex)
+		pbInitPokemonBb(pkmn,pkmnIndex)
+		@boss = pkmn.boss
+		@hpMoltiplier = pkmn.hpMoltiplier
+		@bossBg = pkmn.bossBg
+	end
+	
+	def pbThis(lowercase=false)
+    if @battle.pbIsOpposing?(@index)
+      if @battle.opponent
+        return lowercase ? _INTL("the foe {1}",self.name) : _INTL("The foe {1}",self.name)
+      elsif @boss
+				return lowercase ? _INTL("the boss {1}",self.name) : _INTL("The boss {1}",self.name)
+			else
+        return lowercase ? _INTL("the wild {1}",self.name) : _INTL("The wild {1}",self.name)
+      end
+    elsif @battle.pbOwnedByPlayer?(@index)
+      return _INTL("{1}",self.name)
+    else
+      return lowercase ? _INTL("the ally {1}",self.name) : _INTL("The ally {1}",self.name)
+    end
+  end
+end
+
+def isXSpecies?(species)
+  return isConst?(species,PBSpecies,:ELEKIDX) ||
+		isConst?(species,PBSpecies,:ELECTABUZZX)||
+		isConst?(species,PBSpecies,:ELECTABURST)||
+    isConst?(species,PBSpecies,:SPIRITOMBX) ||
+    isConst?(species,PBSpecies,:CARVANHAX) || 
+    isConst?(species,PBSpecies,:SHARPEDOX) || 
+    isConst?(species,PBSpecies,:PYUKUMUKUX) || 
+    isConst?(species,PBSpecies,:PIKACHUX) || 
+    isConst?(species,PBSpecies,:RAICHUX) ||
+    isConst?(species,PBSpecies,:GALVANTULAX) ||
+    isConst?(species,PBSpecies,:JOLTIKX) ||
+		isConst?(species,PBSpecies,:SMEARGLEX) ||
+		isConst?(species,PBSpecies,:CHIENTILLY) ||
+    isConst?(species,PBSpecies,:SLURPUFFX) ||
+    isConst?(species,PBSpecies,:GASTLYX) ||
+    isConst?(species,PBSpecies,:HAUNTERX) ||
+    isConst?(species,PBSpecies,:YAMASKX) ||
+    isConst?(species,PBSpecies,:COFAGRIGUSX) ||
+    isConst?(species,PBSpecies,:YAMASKX) ||
+    isConst?(species,PBSpecies,:GIGASLURPUFFX) ||
+    isConst?(species,PBSpecies,:MEWTWOX) ||
+    isConst?(species,PBSpecies,:ROSERADEX) ||
+    isConst?(species,PBSpecies,:PONYTAX) ||
+		isConst?(species,PBSpecies,:RAPIDASHX) ||
+		isConst?(species,PBSpecies,:RAPIDASHXBOSS) ||
+		isConst?(species,PBSpecies,:RAPIDASHXBOSS2) ||
+    isConst?(species,PBSpecies,:CACNEAX) ||
+    isConst?(species,PBSpecies,:CACTURNEX) ||
+    isConst?(species,PBSpecies,:SWIRLIXX) ||
+    isConst?(species,PBSpecies,:BUDEWX) ||
+    isConst?(species,PBSpecies,:ROSELIAX) ||
+    isConst?(species,PBSpecies,:ROSERADEX) ||
+    isConst?(species,PBSpecies,:MAREANIEX) ||
+    isConst?(species,PBSpecies,:TOXAPEXX) ||
+    isConst?(species,PBSpecies,:LUCARIOX) ||
+    isConst?(species,PBSpecies,:BISHARPX) ||
+    isConst?(species,PBSpecies,:SCOVILEX) ||
+    isConst?(species,PBSpecies,:TYRANITARX) ||
+    isConst?(species,PBSpecies,:MEWTWOX) ||
+    isConst?(species,PBSpecies,:TAPUKOKOX) ||
+    isConst?(species,PBSpecies,:TAPULELEX) ||
+    isConst?(species,PBSpecies,:TAPUBULUX) ||
+    isConst?(species,PBSpecies,:TAPUFINIX) ||
+    isConst?(species,PBSpecies,:PIKACHUX) ||
+    isConst?(species,PBSpecies,:GENGARX) ||
+    isConst?(species,PBSpecies,:DRAGALISK) ||
+	  isConst?(species,PBSpecies,:VERSILDRAGALISK) ||
+		isConst?(species,PBSpecies,:VAKUM)
+end
+  
+SPECIEX = [
+  PBSpecies::ELEKIDX,
+	PBSpecies::SHARPEDOX,
+	PBSpecies::GENGARX,
+	PBSpecies::GALVANTULAX,
+  PBSpecies::SHYLEON,
+  PBSpecies::SHULONG,
+  PBSpecies::TRISHOUT,
+  PBSpecies::JOLTIKX,
+  PBSpecies::SLURPUFFX,
+  PBSpecies::GIGASLURPUFFX,
+  PBSpecies::MEWTWOX,
+  PBSpecies::ROSERADEX,
+	PBSpecies::RAPIDASHX,
+  PBSpecies::RAPIDASHXBOSS,
+	PBSpecies::RAPIDASHXBOSS2,
+  PBSpecies::DRAGALISK,
+  PBSpecies::VERSILDRAGALISK,
+  PBSpecies::LUXFLON,
+	PBSpecies::VAKUM
+]
+
+def hasSpeciesX?(poke)
+  ret = false
+  for i in 0...SPECIEX.length
+    next if poke.species != SPECIEX[i]
+    if poke.species == SPECIEX[i]
+      ret = true
+      break
+    end
+  end
+  return ret
+end  
+
+class BossArray < Array
+	def visible=(val)
+		self.each_index do |key|
+      next if !self[key]
+      self[key].visible = val
+    end
+	end
+	
+	def color=(val)
+		self.each_index do |key|
+      next if !self[key]
+      self[key].color = val
+    end
+	end
+  
+  def disposed?
+    self.each_index do |i|
+      self[i].dispose
+    end
+  end
+	
+	def opacity=(val)
+		self.each_index do |key|
+      #@next if key=="mega" && !@battler.isMega?
+      next if !self[key]
+      self[key].opacity = val
+      self[key].opacity *= 0.25 if key=="shadow"
+    end
+	end
+end
+
+class PokeBattle_Battle
+  
+  
+  alias pbStartBattleCore_ebs pbStartBattleCore unless self.method_defined?(:pbStartBattleCore_ebs)
+  def pbStartBattleCore(canlose)
+    if !@fullparty1 && @party1.length > MAXPARTYSIZE
+      raise ArgumentError.new(_INTL("Party 1 has more than {1} Pokémon.",MAXPARTYSIZE))
+    end
+    if !@fullparty2 && @party2.length > MAXPARTYSIZE
+      raise ArgumentError.new(_INTL("Party 2 has more than {1} Pokémon.",MAXPARTYSIZE))
+    end
+    #$smAnim = false if ($smAnim && @doublebattle) || EBUISTYLE!=2
+    $smAnim = true if $game_switches[85] && !@doublebattle
+    if !@opponent
+    #========================
+    # Initialize wild Pokémon
+    #========================
+      if @party2.length==1
+        if @doublebattle
+          raise _INTL("Only two wild Pokémon are allowed in double battles")
+        end
+        wildpoke=@party2[0]
+        @battlers[1].pbInitialize(wildpoke,0,false)
+        @peer.pbOnEnteringBattle(self,wildpoke)
+        if $game_switches[DRAGALISK_UNBEATABLE]==true
+          @battlers[1].stages[PBStats::EVASION] = 500
+        end
+        pbSetSeen(wildpoke)
+        @scene.pbStartBattle(self)
+        @scene.sendingOut=true
+				###
+				if wildpoke.boss
+					pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} wants to battle!",wildpoke.name))
+          @scene.vsBossSequence2_end
+          @scene.vsBossSequence2_sendout
+        else
+					pbDisplayPaused(_INTL("Wild {1} appeared!",wildpoke.name))
+				end
+				###
+      elsif @party2.length==2
+        if !@doublebattle
+          raise _INTL("Only one wild Pokémon is allowed in single battles")
+        end
+        @battlers[1].pbInitialize(@party2[0],0,false)
+        @battlers[3].pbInitialize(@party2[1],0,false)
+        @peer.pbOnEnteringBattle(self,@party2[0])
+        @peer.pbOnEnteringBattle(self,@party2[1])
+        pbSetSeen(@party2[0])
+        pbSetSeen(@party2[1])
+        @scene.pbStartBattle(self)
+        pbDisplayPaused(_INTL("Wild {1} and\r\n{2} appeared!",
+           @party2[0].name,@party2[1].name))
+      else
+        raise _INTL("Only one or two wild Pokémon are allowed")
+      end
+    elsif @doublebattle
+    #=======================================
+    # Initialize opponents in double battles
+    #=======================================
+      if @opponent.is_a?(Array)
+        if @opponent.length==1
+          @opponent=@opponent[0]
+        elsif @opponent.length!=2
+          raise _INTL("Opponents with zero or more than two people are not allowed")
+        end
+      end
+      if @player.is_a?(Array)
+        if @player.length==1
+          @player=@player[0]
+        elsif @player.length!=2
+          raise _INTL("Player trainers with zero or more than two people are not allowed")
+        end
+      end
+      @scene.pbStartBattle(self)
+      @scene.sendingOut=true
+      if @opponent.is_a?(Array)
+        pbDisplayPaused(_INTL("{1} and {2} want to battle!",@opponent[0].fullname,@opponent[1].fullname))
+        sendout1=pbFindNextUnfainted(@party2,0,pbSecondPartyBegin(1))
+        raise _INTL("Opponent 1 has no unfainted Pokémon") if sendout1 < 0
+        sendout2=pbFindNextUnfainted(@party2,pbSecondPartyBegin(1))
+        raise _INTL("Opponent 2 has no unfainted Pokémon") if sendout2 < 0
+        @scene.vsSequenceSM_end if $smAnim && !@scene.smTrainerSequence
+        @battlers[1].pbInitialize(@party2[sendout1],sendout1,false)
+        @battlers[3].pbInitialize(@party2[sendout2],sendout2,false)
+        @scene.smTrainerSequence.finish if @scene.smTrainerSequence
+        pbDisplayBrief(_INTL("{1} sent\r out {2}! {3} sent\r out {4}!",@opponent[0].fullname,getBattlerPokemon(@battlers[1]).name,@opponent[1].fullname,getBattlerPokemon(@battlers[3]).name))
+        pbSendOutInitial(@doublebattle,1,@party2[sendout1],3,@party2[sendout2])
+      else
+        pbDisplayPaused(_INTL("{1}\r\nvuole combattere!",@opponent.fullname))
+        sendout1=pbFindNextUnfainted(@party2,0)
+        sendout2=pbFindNextUnfainted(@party2,sendout1+1)
+        
+        if @party2[sendout1].species == getID(PBSpecies,:PAWNIARDAB)
+          @party2[sendout1].totalHp=9999999
+          @party2[sendout1].hp=9999999
+					@party2[sendout1].attack=900000
+        end
+        
+        if @party2[sendout2].species == getID(PBSpecies,:PAWNIARDAB)
+          @party2[sendout2].totalHp=9999999 
+          @party2[sendout2].hp=9999999
+					@party2[sendout2].attack=900000
+        end
+        
+        if sendout1 < 0 || sendout2 < 0
+          raise _INTL("Opponent doesn't have two unfainted Pokémon")
+        end
+        @scene.vsSequenceSM_end if $smAnim && !@scene.smTrainerSequence
+        @battlers[1].pbInitialize(@party2[sendout1],sendout1,false)
+        @battlers[3].pbInitialize(@party2[sendout2],sendout2,false)
+        @scene.smTrainerSequence.finish if @scene.smTrainerSequence
+        pbDisplayBrief(_INTL("{1} sent\r out {2} and {3}!",
+           @opponent.fullname,getBattlerPokemon(@battlers[1]).name,getBattlerPokemon(@battlers[3]).name))
+        pbSendOutInitial(@doublebattle,1,@party2[sendout1],3,@party2[sendout2])
+      end
+    else
+    #======================================
+    # Initialize opponent in single battles
+    #======================================
+      sendout=pbFindNextUnfainted(@party2,0)
+      raise _INTL("Trainer has no unfainted Pokémon") if sendout < 0
+      if @opponent.is_a?(Array)
+        raise _INTL("Opponent trainer must be only one person in single battles") if @opponent.length!=1
+        @opponent=@opponent[0]
+      end
+      if @player.is_a?(Array)
+        raise _INTL("Player trainer must be only one person in single battles") if @player.length!=1
+        @player=@player[0]
+      end
+      trainerpoke=@party2[0]
+      @battlers[1].pbInitialize(trainerpoke,sendout,false)
+      @scene.pbStartBattle(self)
+      @scene.sendingOut=true
+      pbDisplayPaused(_INTL("{1}\r\nvuole combattere!",@opponent.fullname))
+      @scene.vsSequenceSM_end if $smAnim && !@scene.smTrainerSequence
+      @scene.smTrainerSequence.finish if @scene.smTrainerSequence
+      pbDisplayBrief(_INTL("{1} sent\r out {2}!",@opponent.fullname,getBattlerPokemon(@battlers[1]).name))
+      pbSendOutInitial(@doublebattle,1,trainerpoke)
+    end
+    #=====================================
+    # Initialize players in double battles
+    #=====================================
+    if @doublebattle
+      @scene.sendingOut=true
+      if @player.is_a?(Array)
+        sendout1=pbFindNextUnfainted(@party1,0,pbSecondPartyBegin(0))
+        raise _INTL("Player 1 has no unfainted Pokémon") if sendout1 < 0
+        sendout2=pbFindNextUnfainted(@party1,pbSecondPartyBegin(0))
+        raise _INTL("Player 2 has no unfainted Pokémon") if sendout2 < 0
+        @battlers[0].pbInitialize(@party1[sendout1],sendout1,false)
+        @battlers[2].pbInitialize(@party1[sendout2],sendout2,false)
+        pbDisplayBrief(_INTL("{1} sent\r\nout {2}!  Go! {3}!",
+           @player[1].fullname,getBattlerPokemon(@battlers[2]).name,getBattlerPokemon(@battlers[0]).name))
+        pbSetSeen(@party1[sendout1])
+        pbSetSeen(@party1[sendout2])
+      else
+        sendout1=pbFindNextUnfainted(@party1,0)
+        sendout2=pbFindNextUnfainted(@party1,sendout1+1)
+        if sendout1 < 0 || sendout2 < 0
+          raise _INTL("Player doesn't have two unfainted Pokémon")
+        end
+        @battlers[0].pbInitialize(@party1[sendout1],sendout1,false)
+        @battlers[2].pbInitialize(@party1[sendout2],sendout2,false)
+        pbDisplayBrief(_INTL("Go! {1} and {2}!",getBattlerPokemon(@battlers[0]).name,getBattlerPokemon(@battlers[2]).name))
+      end
+      pbSendOutInitial(@doublebattle,0,@party1[sendout1],2,@party1[sendout2])
+    else
+    #====================================
+    # Initialize player in single battles
+    #====================================
+      @scene.sendingOut=true
+      sendout=pbFindNextUnfainted(@party1,0)
+      if sendout < 0
+        raise _INTL("Player has no unfainted Pokémon")
+      end
+      playerpoke=@party1[sendout]
+      @battlers[0].pbInitialize(playerpoke,sendout,false)
+      pbDisplayBrief(_INTL("Go! {1}!",getBattlerPokemon(@battlers[0]).name))
+      pbSendOutInitial(@doublebattle,0,playerpoke)
+    end
+    #====================================
+    # Displays a message for notifying stat increase
+    #====================================
+    if wildpoke != nil && wildpoke.boss
+      pbDisplay(_INTL("Le statistiche del Pokémon nemico sono più elevate!"))
+    end
+    #==================
+    # Initialize battle
+    #==================
+    if @weather==PBWeather::SUNNYDAY
+      pbDisplay(_INTL("The sunlight is strong."))
+    elsif @weather==PBWeather::RAINDANCE
+      pbDisplay(_INTL("It is raining."))
+    elsif @weather==PBWeather::SANDSTORM
+      pbDisplay(_INTL("A sandstorm is raging."))
+    elsif @weather==PBWeather::HAIL
+      pbDisplay(_INTL("Hail is falling."))
+    elsif PBWeather.const_defined?(:HEAVYRAIN) && @weather==PBWeather::HEAVYRAIN
+      pbDisplay(_INTL("It is raining heavily."))
+    elsif PBWeather.const_defined?(:HARSHSUN) && @weather==PBWeather::HARSHSUN
+      pbDisplay(_INTL("The sunlight is extremely harsh."))
+    elsif PBWeather.const_defined?(:STRONGWINDS) && @weather==PBWeather::STRONGWINDS
+      pbDisplay(_INTL("The wind is strong."))
+    end
+    pbOnActiveAll   # Abilities
+    @turncount=0
+    loop do   # Now begin the battle loop
+      PBDebug.log("***Round #{@turncount+1}***") if $INTERNAL
+			for i in 0...@battlers.length
+				if @battlers[i]!=nil
+					echoln "#{i} type 1 is #{@battlers[i].type1}"
+					echoln "#{i} type 2 is #{@battlers[i].type2}"
+					echoln "#{i} has fire type? #{@battlers[i].pbHasType?(:FIRE)}"
+					echoln "#{i} has laser focus? #{@battlers[i].effects[PBEffects::LaserFocus]}"
+				end
+			end
+      if @debug && @turncount >=100
+        @decision=pbDecisionOnTime()
+        PBDebug.log("***[Undecided after 100 rounds]")
+        pbAbort
+        break
+      end
+      PBDebug.logonerr{
+         pbCommandPhase
+      }
+      break if @decision > 0
+      PBDebug.logonerr{
+         pbAttackPhase
+      }
+      break if @decision > 0
+      @scene.clearMessageWindow
+      PBDebug.logonerr{
+         pbEndOfRoundPhase
+      }
+      break if @decision > 0
+      @turncount+=1
+			
+			break if @turncount == DRAGALISK_BATTLE_MAXTURNS && $game_switches[DRAGALISK_UNBEATABLE]==true
+    end
+    return pbEndOfBattle(canlose)
+  end
+end
+
+class NextGenDataBox  <  SpriteWrapper
+	alias :initialize_bb :initialize
+	def initialize(battler,doublebattle,viewport=nil,player=nil,scene=nil,boss=true,bossMul=4)
+		initialize_bb(battler,doublebattle,viewport,player,scene)
+		@boss = @battler.boss
+		@bossMultiplier = @battler.hpMoltiplier
+	end
+	
+	def setUp
+    # reset of the set-up procedure
+    @loaded = false
+    @showing = false
+    @second = false
+    pbDisposeSpriteHash(@sprites)
+    @sprites.clear
+    # initializes all the necessary components
+		@sprites["bg"] = Sprite.new(@viewport)
+		if @battler.boss && !@battler.bossBg.nil?
+			#@sprites["bg"].bitmap = pbBitmap(@path+"bgs/"+@battler.bossBg)
+		end
+		
+    @sprites["mega"] = Sprite.new(@viewport)
+    @sprites["mega"].opacity = 0
+    
+    @sprites["gender"] = Sprite.new(@viewport)
+    @sprites["gender"].zoom_x = 0.5
+    @sprites["gender"].zoom_y = 0.5
+    @sprites["layer1"] = Sprite.new(@viewport)
+    @sprites["layer1"].bitmap = pbBitmap(@path+"HPBAR_SQUARE (multiply)")
+    @sprites["layer1"].src_rect.height = 64 if !@showexp
+    #@sprites["layer1"].mirror = !@playerpoke
+    
+    @sprites["shadow"] = Sprite.new(@viewport)
+    @sprites["shadow"].bitmap = Bitmap.new(@sprites["layer1"].bitmap.width,@sprites["layer1"].bitmap.height)
+    @sprites["shadow"].z = -1
+    @sprites["shadow"].opacity = 255*0.25
+    @sprites["shadow"].color = Color.new(0,0,0,255)
+    
+    @sprites["hpbg"] = Sprite.new(@viewport)
+    @hpBarBmp = pbBitmap(@path+"HPBAR_KO")
+    @sprites["hpbg"].bitmap = @hpBarBmp#Bitmap.new(@hpBarBmp.width,@hpBarBmp.height)
+    #@sprites["hpbg"].mirror = !@playerpoke
+    
+		if @boss
+			@hpBars = Array.new
+			echoln("#{@bossMultiplier-1}")
+			for i in 0...@bossMultiplier
+				@hpBars[i] = pbBitmap(@path+"HPBAR_FULL")
+			end
+			@sprites["hp2"] = Sprite.new(@viewport)
+			@hpBarBmp = pbBitmap(@path+"HPBAR_FULL")
+			@sprites["hp2"].bitmap = Bitmap.new(@hpBarBmp.width,@hpBarBmp.height)
+			@sprites["hp2"].mirror = !@playerpoke
+			@sprites["hp2"].opacity = 100
+			
+			@sprites["hp"] = Sprite.new(@viewport)
+			@sprites["hp"].bitmap = Bitmap.new(@hpBarBmp.width,@hpBarBmp.height)
+			@sprites["hp"].mirror = !@playerpoke
+			
+			@sprites["hp_point"] = BossArray.new
+			@pointsBitmap = Array.new
+			@noPointBitmap = Bitmap.new(24,4)#pbBitmap(@path+"BOSSHPBAR_EXPIRED")
+			for i in 0...@bossMultiplier-1
+				@pointsBitmap[i] = pbBitmap(@path+"BOSSHPBAR_SINGLE")
+				@sprites["hp_point"][i] = Sprite.new(@viewport)
+				@sprites["hp_point"][i].bitmap = Bitmap.new(@noPointBitmap.width,@noPointBitmap.height)
+			end
+		else
+			@sprites["hp"] = Sprite.new(@viewport)
+			@hpBarBmp = pbBitmap(@path+"HPBAR_FULL")
+			@sprites["hp"].bitmap = Bitmap.new(@hpBarBmp.width,@hpBarBmp.height)
+			#@sprites["hp"].mirror = !@playerpoke
+		end
+    
+    @sprites["expbg"] = Sprite.new(@viewport)
+    @sprites["expbg"].bitmap = pbBitmap(@path+"EXPBAR_EMPTY")
+    @sprites["expbg"].src_rect.y = @sprites["expbg"].bitmap.height*-1 if !@showexp
+    
+    @sprites["exp"] = Sprite.new(@viewport)
+    @sprites["exp"].bitmap = pbBitmap(@path+"EXPBAR_FULL")
+    @sprites["exp"].src_rect.y = @sprites["exp"].bitmap.height*-1 if !@showexp
+    
+    @sprites["text"] = Sprite.new(@viewport)
+    @sprites["text"].bitmap = Bitmap.new(@sprites["layer1"].bitmap.width+500,@sprites["layer1"].bitmap.height+500)
+    @sprites["text"].z = 9
+    pbSetSystemFont(@sprites["text"].bitmap)
+    
+    #self.opacity = 255
+  end
+	
+	def updateHpBar
+		if (@boss)
+			# updates the current state of the HP bar
+			# the bar's colour hue gets dynamically adjusted (i.e. not through sprites)
+			# HP bar is mirrored for opposing Pokemon
+			#hpbar = @battler.totalhp==0 ? 0 : (1.0*(self.hp % (@bossMultiplier-1)-1)*@sprites["hp"].bitmap.width/(@battler.totalhp / @bossMultiplier)).ceil
+			normalHp = (1.0 * @battler.totalhp / @bossMultiplier)
+      currHp = self.hp%normalHp==0 ? self.hp / @bossMultiplier : self.hp%normalHp
+			hpbar = @battler.totalhp==0 ? 0 : (1.0*currHp*@sprites["hp"].bitmap.width/normalHp).ceil
+			remainingPoints = (self.hp / normalHp).ceil.to_i - 1
+			#echoln("#{remainingPoints.to_s} - #{self.hp.to_s}/#{normalHp.to_s}")
+			
+			@sprites["hp_point"].each_index do |i|
+				@sprites["hp_point"][i].bitmap.clear
+				if (remainingPoints > i)
+					#echoln("Remain: #{remainingPoints.to_s} - i: #{i.to_s} - #{@pointsBitmap[i].to_s}")
+					#echoln("Array: #{@pointsBitmap.inspect}")
+					@sprites["hp_point"][i].bitmap.blt(0,0,@pointsBitmap[i],Rect.new(0,0,@noPointBitmap.width,@noPointBitmap.height))
+				else
+					@sprites["hp_point"][i].bitmap.blt(0,0,@noPointBitmap,Rect.new(0,0,@noPointBitmap.width,@noPointBitmap.height))
+				end
+			end
+			@sprites["hp"].src_rect.x = @sprites["hp"].bitmap.width - hpbar if !@playerpoke
+			@sprites["hp"].src_rect.width = hpbar
+			hue = (0-120)*(1-(self.hp.to_f/@battler.totalhp))
+			@sprites["hp"].bitmap.clear
+			@sprites["hp"].bitmap.blt(0,0,@hpBars[remainingPoints],Rect.new(0,0,@hpBarBmp.width,@hpBarBmp.height))
+			@sprites["hp"].bitmap.hue_change(hue) if remainingPoints == 0
+
+			# Set the bar bg (brutto)
+			if remainingPoints > 0
+				@sprites["hp2"].src_rect.x = 0#@sprites["hp"].bitmap.width - 188 if !@playerpoke
+				@sprites["hp2"].src_rect.width = 171
+				@sprites["hp2"].bitmap.clear
+				@sprites["hp2"].bitmap.blt(0,0,@hpBars[remainingPoints-1],Rect.new(0,0,@hpBarBmp.width,@hpBarBmp.height))
+				@sprites["hp2"].visible = true
+			else
+				@sprites["hp2"].visible = false
+			end
+		else
+			# updates the current state of the HP bar
+			# the bar's colour hue gets dynamically adjusted (i.e. not through sprites)
+			# HP bar is mirrored for opposing Pokemon
+			hpbar = @battler.totalhp==0 ? 0 : (1.0*self.hp*@sprites["hp"].bitmap.width/@battler.totalhp).ceil
+			#@sprites["hp"].src_rect.x = @sprites["hp"].bitmap.width - hpbar if !@playerpoke
+			@sprites["hp"].src_rect.width = hpbar
+			hue = (0-120)*(1-(self.hp.to_f/@battler.totalhp))
+			@sprites["hp"].bitmap.clear
+			@sprites["hp"].bitmap.blt(0,0,@hpBarBmp,Rect.new(0,0,@hpBarBmp.width,@hpBarBmp.height))
+			@sprites["hp"].bitmap.hue_change(hue)
+		end
+  end
+	
+	alias :x_old :x=
+	def x=(val)
+		return if !@loaded
+		x_old(val)
+		if @boss
+			@sprites["bg"].x = @sprites["layer1"].x
+			@sprites["hp2"].x = @sprites["layer1"].x + 11# + 23 + (!@playerpoke ? 4 : 0)
+			@sprites["hp_point"].each_index do |i|
+				@sprites["hp_point"][i].x = @sprites["layer1"].x + 12 + (!@playerpoke ? 4 : 0) + (i * 28)
+			end
+		end
+	end
+	
+	alias :y_old :y=
+	def y=(val)
+		return if !@loaded
+		y_old(val)
+		if @boss
+			@sprites["bg"].y = @sprites["layer1"].y
+			@sprites["hp2"].y = @sprites["layer1"].y - 6
+			@sprites["hp_point"].each_index do |i|
+				@sprites["hp_point"][i].y = @sprites["layer1"].y + 8
+			end
+		end
+	end
+	
+end
+
+#===============================================================================
+# Sun Moon Animation for Boss Battles
+#===============================================================================
+class PokeBattle_Scene
+  def vsBossSequenceSM_start(viewport,dexNum)
+    @vs = {}
+    
+    @vs["bg"] = ScrollingSprite.new(viewport)
+    @vs["bg"].setBitmap("Graphics/Transitions/smBgBoss#{dexNum}")
+    @vs["bg"].color = Color.new(0,0,0,255)
+    @vs["bg"].speed = 0
+    @vs["bg"].ox = @vs["bg"].src_rect.width/2
+    @vs["bg"].oy = @vs["bg"].src_rect.height/2
+    @vs["bg"].x = viewport.rect.width/2
+    @vs["bg"].y = viewport.rect.height/2
+    @vs["bg"].angle = - 8 if $PokemonSystem.screensize < 2  
+    @vs["bg"].z = 200
+  
+    @vsFp = {}
+    @fpDx = []
+    @fpDy = []
+    @fpIndex = 0
+		
+      @vsFp["ring"] = Sprite.new(viewport)
+      @vsFp["ring"].bitmap = pbBitmap("Graphics/Transitions/smRing")
+      @vsFp["ring"].ox = @vsFp["ring"].bitmap.width/2
+      @vsFp["ring"].oy = @vsFp["ring"].bitmap.height/2
+      @vsFp["ring"].x = viewport.rect.width/2
+      @vsFp["ring"].y = viewport.rect.height
+      @vsFp["ring"].zoom_x = 0
+      @vsFp["ring"].zoom_y = 0
+      @vsFp["ring"].z = 500
+      
+      for j in 0...32
+        @vsFp["s#{j}"] = Sprite.new(@viewport)
+        @vsFp["s#{j}"].bitmap = pbBitmap("Graphics/Transitions/smSpec")
+        @vsFp["s#{j}"].ox = @vsFp["s#{j}"].bitmap.width/2
+        @vsFp["s#{j}"].oy = @vsFp["s#{j}"].bitmap.height/2
+        @vsFp["s#{j}"].opacity = 0
+        @vsFp["s#{j}"].z = 220
+        @fpDx.push(0)
+        @fpDy.push(0)
+      end
+      
+      @fpSpeed = []
+      @fpOpac = []
+      for j in 0...3
+        k = j+1
+        speed = 2 + rand(5)
+        @vsFp["p#{j}"] = ScrollingSprite.new(viewport)
+        @vsFp["p#{j}"].setBitmap("Graphics/Transitions/smSpecEff#{k}")
+        @vsFp["p#{j}"].speed = speed*4
+        @vsFp["p#{j}"].direction = -1
+        @vsFp["p#{j}"].opacity = 0
+        @vsFp["p#{j}"].z = 400
+        @vsFp["p#{j}"].zoom_y = 1 + rand(10)*0.005
+        @fpSpeed.push(speed)
+        @fpOpac.push(4) if j > 0
+      end
+    
+    
+    @vs["shade"] = Sprite.new(viewport)
+    @vs["shade"].z = 250
+    @vs["glow"] = Sprite.new(viewport)
+    @vs["glow"].y = viewport.rect.height
+    @vs["glow"].z = 250
+    @vs["glow2"] = Sprite.new(viewport)
+    @vs["glow2"].x = viewport.rect.width/2
+    @vs["glow2"].z = 250
+  
+    @vs["boss"] = Sprite.new(viewport)
+    @vs["boss"].z = 350
+    @vs["boss"].bitmap = Bitmap.new(viewport.rect.width,viewport.rect.height)
+    @vs["boss"].ox = @vs["boss"].bitmap.width/2
+    @vs["boss"].oy = @vs["boss"].bitmap.height/2
+    @vs["boss"].x = @vs["boss"].ox
+    @vs["boss"].y = @vs["boss"].oy
+    @vs["boss"].tone = Tone.new(255,255,255)
+    @vs["boss"].zoom_x = 1.32
+    @vs["boss"].zoom_y = 1.32
+    @vs["boss"].opacity = 0
+  
+    bmp = pbBitmap("Graphics/Transitions/smBoss#{dexNum}")
+    ox = (@vs["boss"].bitmap.width - bmp.width)/2
+    oy = (@vs["boss"].bitmap.height - bmp.height)/2
+    @vs["boss"].bitmap.blt(ox,oy,bmp,Rect.new(0,0,bmp.width,bmp.height))
+    bmp = @vs["boss"].bitmap.clone
+  
+    @vs["shade"].bitmap = bmp.clone
+    @vs["shade"].color = Color.new(10,169,245,224)
+    @vs["shade"].opacity = 0
+  
+    @vs["glow"].bitmap = bmp.clone
+    @vs["glow"].glow(Color.new(0,0,0),35,false)
+    @vs["glow"].src_rect.set(0,viewport.rect.height,viewport.rect.width/2,0)
+    @vs["glow2"].bitmap = @vs["glow"].bitmap.clone
+    @vs["glow2"].src_rect.set(viewport.rect.width/2,0,viewport.rect.width/2,0)
+  
+    @vs["overlay"] = Sprite.new(viewport)
+    @vs["overlay"].z = 999# + 200
+    obmp = pbBitmap("Graphics/Transitions/ballTransition")
+    @vs["overlay"].bitmap = Bitmap.new(viewport.rect.width,viewport.rect.height)
+    @vs["overlay"].opacity = 0
+    16.times do
+      @vs["boss"].zoom_x -= 0.02
+      @vs["boss"].zoom_y -= 0.02
+      @vs["boss"].opacity += 32
+      Graphics.update
+    end
+    @vs["boss"].zoom_x = 1; @vs["boss"].zoom_y = 1
+    @commandWindow.drawLineup if !defined?(SCREENDUALHEIGHT)
+    @commandWindow.lineupY(-32) if !defined?(SCREENDUALHEIGHT)
+    for i in 0...16
+      @commandWindow.showArrows if i < 10 && !defined?(SCREENDUALHEIGHT)
+      @vs["boss"].tone.red -= 16
+      @vs["boss"].tone.green -= 16
+      @vs["boss"].tone.blue -= 16
+      @vs["bg"].color.alpha -= 16
+      self.vsSequenceSM_update
+      Graphics.update
+    end
+    16.times do
+      self.vsSequenceSM_update
+      Graphics.update
+    end
+    for i in 0...16
+      @vs["boss"].tone.red -= 32*(i < 8 ? -1 : 1)
+      @vs["boss"].tone.green -= 32*(i < 8 ? -1 : 1)
+      @vs["boss"].tone.blue -= 32*(i < 8 ? -1 : 1)
+      #@vs["bg"].speed = 16 if i == 8
+      for j in 0...3
+        next if i != 8
+        @vsFp["p#{j}"].speed /= 4
+      end
+      self.vsSequenceSM_update
+      Graphics.update
+    end
+    16.times do
+      @vs["glow"].src_rect.height += 24
+      @vs["glow"].src_rect.y -= 24
+      @vs["glow"].y -= 24
+      @vs["glow2"].src_rect.height += 24
+      self.vsSequenceSM_update
+      Graphics.update
+    end
+    8.times do
+      @vs["glow"].tone.red += 32
+      @vs["glow"].tone.green += 32
+      @vs["glow"].tone.blue += 32
+      @vs["glow2"].tone.red += 32
+      @vs["glow2"].tone.green += 32
+      @vs["glow2"].tone.blue += 32
+      self.vsSequenceSM_update
+      Graphics.update
+    end
+    for i in 0...4
+      @vs["boss"].tone.red += 64
+      @vs["boss"].tone.green += 64
+      @vs["boss"].tone.blue += 64
+      self.vsSequenceSM_update
+      Graphics.update
+    end
+    for j in 0...3
+      @vsFp["p#{j}"].z = 300
+    end
+    for i in 0...8
+      @vs["boss"].tone.red -= 32
+      @vs["boss"].tone.green -= 32
+      @vs["boss"].tone.blue -= 32
+      @vs["shade"].opacity += 32
+      @vs["shade"].x -= 4
+      self.vsSequenceSM_update
+      Graphics.update
+    end
+  end
+
+  def vsBossSequenceSM_update
+    @vs["bg"].update if @vs["bg"] && !@vs["bg"].disposed?
+    for j in 0...32
+      next if !@vsFp["s#{j}"] || @vsFp["s#{j}"].disposed?
+      next if j > @fpIndex/4
+      if @vsFp["s#{j}"].opacity <= 1
+        width = @vs["bg"].viewport.rect.width
+        height = @vs["bg"].viewport.rect.height
+        x = rand(width*0.75) + width*0.125
+        y = rand(height*0.50) + height*0.25
+        @fpDx[j] = x + rand(width*0.125)*(x < width/2 ? -1 : 1)
+        @fpDy[j] = y - rand(height*0.25)
+        z = [1,0.75,0.5,0.25][rand(4)]
+        @vsFp["s#{j}"].zoom_x = z
+        @vsFp["s#{j}"].zoom_y = z
+        @vsFp["s#{j}"].x = x
+        @vsFp["s#{j}"].y = y
+        @vsFp["s#{j}"].opacity = 255
+        @vsFp["s#{j}"].angle = rand(360)
+      end
+      @vsFp["s#{j}"].x -= (@vsFp["s#{j}"].x - @fpDx[j])*0.05
+      @vsFp["s#{j}"].y -= (@vsFp["s#{j}"].y - @fpDy[j])*0.05
+      @vsFp["s#{j}"].opacity -= @vsFp["s#{j}"].opacity*0.05
+      @vsFp["s#{j}"].zoom_x -= @vsFp["s#{j}"].zoom_x*0.05
+      @vsFp["s#{j}"].zoom_y -= @vsFp["s#{j}"].zoom_y*0.05
+    end
+    for j in 0...3
+      next if !@vsFp["p#{j}"] || @vsFp["p#{j}"].disposed?
+      @vsFp["p#{j}"].update
+      if j == 0
+        @vsFp["p#{j}"].opacity += 5 if @vsFp["p#{j}"].opacity < 155
+      else
+        @vsFp["p#{j}"].opacity += @fpOpac[j-1]*(@fpSpeed[j]/2)
+      end
+      next if @fpIndex < 24
+      @fpOpac[j-1] *= -1 if (@vsFp["p#{j}"].opacity >= 255 || @vsFp["p#{j}"].opacity < 65)
+    end
+    @fpIndex += 1 if @fpIndex < 128
+  end
+
+  def vsBossSequenceSM_end
+    viewport = @viewport
+    zoom = 4.0
+    obmp = pbBitmap("Graphics/Transitions/ballTransition")
+    @vs["bg"].speed = 32
+    for j in 0...3
+      @vsFp["p#{j}"].speed *= 4
+    end
+    for i in 0..20
+      @vs["boss"].x += 6*(i/5 + 1)
+      @vs["glow"].x += 6*(i/5 + 1)
+      @vs["glow2"].x += 6*(i/5 + 1)
+      @commandWindow.hideArrows if i < 10 && !defined?(SCREENDUALHEIGHT)
+      @vs["overlay"].bitmap.clear
+      ox = (1 - zoom)*viewport.rect.width*0.5
+      oy = (1 - zoom)*viewport.rect.height*0.5
+      width = (ox < 0 ? 0 : ox).ceil
+      height = (oy < 0 ? 0 : oy).ceil
+      @vs["overlay"].bitmap.fill_rect(0,0,width,viewport.rect.height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.fill_rect(viewport.rect.width-width,0,width,viewport.rect.height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.fill_rect(0,0,viewport.rect.width,height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.fill_rect(0,viewport.rect.height-height,viewport.rect.width,height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.stretch_blt(Rect.new(ox,oy,(obmp.width*zoom).ceil,(obmp.height*zoom).ceil),obmp,Rect.new(0,0,obmp.width,obmp.height))
+      @vs["overlay"].opacity += 64
+      zoom -= 4.0/20
+      self.vsSequenceSM_update
+      @vs["shade"].opacity -= 16
+      Graphics.update
+    end
+    @commandWindow.lineupY(+32) if !defined?(SCREENDUALHEIGHT)
+    pbDisposeSpriteHash(@vs)  
+    pbDisposeSpriteHash(@vsFp)
+    @vs["overlay"] = Sprite.new(@msgview)
+    @vs["overlay"].z = 9999999
+    @vs["overlay"].bitmap = Bitmap.new(@msgview.rect.width,@msgview.rect.height)
+    @vs["overlay"].bitmap.fill_rect(0,0,@msgview.rect.width,@msgview.rect.height,Color.new(0,0,0))
+  end
+
+  def vsBossSequenceSM_sendout
+    $smAnim = false
+    viewport = @msgview
+    zoom = 0
+    obmp = pbBitmap("Graphics/Transitions/ballTransition")
+    21.times do
+      @vs["overlay"].bitmap.clear
+      ox = (1 - zoom)*viewport.rect.width*0.5
+      oy = (1 - zoom)*viewport.rect.height*0.5
+      width = (ox < 0 ? 0 : ox).ceil
+      height = (oy < 0 ? 0 : oy).ceil
+      @vs["overlay"].bitmap.fill_rect(0,0,width,viewport.rect.height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.fill_rect(viewport.rect.width-width,0,width,viewport.rect.height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.fill_rect(0,0,viewport.rect.width,height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.fill_rect(0,viewport.rect.height-height,viewport.rect.width,height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.stretch_blt(Rect.new(ox,oy,(obmp.width*zoom).ceil,(obmp.height*zoom).ceil),obmp,Rect.new(0,0,obmp.width,obmp.height))
+      @vs["overlay"].opacity -= 12.8
+      zoom += 4.0/20
+      wait(1,true)
+    end
+    @vs["overlay"].dispose
+  end
+  
+  def vsBossSequence2_start(viewport,species)
+    @smSpecial = false
+    evil = false
+    trainerid=79
+    num=[]
+    for poke in X_SPECIES
+      num.push(getConst(PBSpecies,poke))
+    end
+    
+    directory = ["Graphics/Transitions/X/Elekid X/",
+               "Graphics/Transitions/X/Galvantula X/",
+               "Graphics/Transitions/X/Gengar X/",
+               "Graphics/Transitions/X/Sharpedo X/",
+               "Graphics/Transitions/X/Shulong X/",
+               "Graphics/Transitions/X/Trishout X/",
+               "Graphics/Transitions/X/Shyleon X/",
+               "Graphics/Transitions/X/Slurpuff X/",
+               "Graphics/Transitions/X/Slurpuff X/",
+               "Graphics/Transitions/X/Mewtwo X/",
+							 "Graphics/Transitions/X/Roserade X/",
+							 "Graphics/Transitions/X/Rapidash X Normal/",
+							 "Graphics/Transitions/X/Rapidash X Normal/",
+							 "Graphics/Transitions/X/Rapidash X Berserk/",
+               "Graphics/Transitions/X/Dragalisk/",
+               "Graphics/Transitions/X/VersilDragalisk/",
+							 "Graphics/Transitions/X/Luxflon/",
+							 "Graphics/Transitions/X/Vakum/",]
+		
+    @vs = {}
+  
+    bgstring = "Graphics/Transitions/smBg#{trainerid}"
+    bgstring2 = "Graphics/Transitions/smBgNext#{trainerid}"
+    bgstring3 = "Graphics/Transitions/smBgLast#{trainerid}"
+    
+    @vs["bg"] = @smSpecial ? RainbowSprite.new(viewport) : ScrollingSprite.new(viewport)
+    for bg in 0...X_SPECIES.length
+      if num[bg] == species 
+        @vs["bg"].setBitmap(directory[bg] + "smBgEvil")
+      end
+    end    
+    @vs["bg"].color = Color.new(0,0,0,255)
+    @vs["bg"].speed = @smSpecial ? 4 : 32
+    @vs["bg"].ox = @vs["bg"].src_rect.width/2
+    @vs["bg"].oy = @vs["bg"].src_rect.height/2
+    @vs["bg"].x = viewport.rect.width/2
+    @vs["bg"].y = viewport.rect.height/2
+    @vs["bg"].angle = - 8 if !@smSpecial && $PokemonSystem.screensize < 2  
+    @vs["bg"].z = 200
+    if !@smSpecial
+      @vs["bg2"] = ScrollingSprite.new(viewport)
+      for bg2 in 0...X_SPECIES.length
+        if num[bg2] == species 
+          @vs["bg2"].setBitmap(directory[bg2] + "smBgLastEvil")
+        end
+      end    
+      @vs["bg2"].color = Color.new(0,0,0,255)
+      @vs["bg2"].speed = 64
+      @vs["bg2"].ox = @vs["bg2"].src_rect.width/2
+      @vs["bg2"].oy = @vs["bg2"].src_rect.height/2
+      @vs["bg2"].x = viewport.rect.width/2
+      @vs["bg2"].y = viewport.rect.height/2
+      @vs["bg2"].angle = - 8 if $PokemonSystem.screensize < 2  
+      @vs["bg2"].z = 200
+      @vs["bg3"] = ScrollingSprite.new(viewport)
+      for bg3 in 0...X_SPECIES.length
+        if num[bg3] == species 
+          @vs["bg3"].setBitmap(directory[bg3] + "smBgNextEvil")
+        end
+      end    
+      @vs["bg3"].color = Color.new(0,0,0,255)
+      @vs["bg3"].speed = 80
+      @vs["bg3"].ox = @vs["bg3"].src_rect.width/2
+      @vs["bg3"].oy = @vs["bg3"].src_rect.height/2
+      @vs["bg3"].x = viewport.rect.width/2
+      @vs["bg3"].y = viewport.rect.height/2
+      @vs["bg3"].angle = - 8 if $PokemonSystem.screensize < 2  
+      @vs["bg3"].z = 200
+    end
+  
+    @vsFp = {}
+    @fpDx = []
+    @fpDy = []
+    @fpIndex = 0
+    
+    @vs["shade"] = Sprite.new(viewport)
+    @vs["shade"].z = 250
+    @vs["glow"] = Sprite.new(viewport)
+    @vs["glow"].y = viewport.rect.height
+    @vs["glow"].z = 250
+    @vs["glow2"] = Sprite.new(viewport)
+    @vs["glow2"].x = viewport.rect.width/2
+    @vs["glow2"].z = 250
+  
+    @vs["boss"] = Sprite.new(viewport)
+    @vs["boss"].z = 350
+    @vs["boss"].bitmap = Bitmap.new(viewport.rect.width,viewport.rect.height)
+    @vs["boss"].ox = @vs["boss"].bitmap.width/2
+    @vs["boss"].oy = @vs["boss"].bitmap.height/2
+    @vs["boss"].x = @vs["boss"].ox
+    @vs["boss"].y = @vs["boss"].oy
+    @vs["boss"].tone = Tone.new(255,255,255)
+    @vs["boss"].zoom_x = 1.32
+    @vs["boss"].zoom_y = 1.32
+    @vs["boss"].opacity = 0
+  
+    
+    for boss in 0...X_SPECIES.length
+      if num[boss] == species 
+        bmp = pbBitmap(directory[boss] + "boss")
+      end
+    end
+    ox = (@vs["boss"].bitmap.width - bmp.width)/2
+    oy = (@vs["boss"].bitmap.height - bmp.height)/2
+    @vs["boss"].bitmap.blt(ox,oy,bmp,Rect.new(0,0,bmp.width,bmp.height))
+    bmp = @vs["boss"].bitmap.clone
+  
+    @vs["shade"].bitmap = bmp.clone
+    @vs["shade"].color = Color.new(10,169,245,224)
+    @vs["shade"].opacity = 0
+  
+    @vs["glow"].bitmap = bmp.clone
+    @vs["glow"].glow(Color.new(0,0,0),35,false)
+    @vs["glow"].src_rect.set(0,viewport.rect.height,viewport.rect.width/2,0)
+    @vs["glow2"].bitmap = @vs["glow"].bitmap.clone
+    @vs["glow2"].src_rect.set(viewport.rect.width/2,0,viewport.rect.width/2,0)
+  
+    @vs["overlay"] = Sprite.new(viewport)
+    @vs["overlay"].z = 999
+    obmp = pbBitmap("Graphics/Transitions/ballTransition")
+    @vs["overlay"].bitmap = Bitmap.new(viewport.rect.width,viewport.rect.height)
+    @vs["overlay"].opacity = 0
+    16.times do
+      @vs["boss"].zoom_x -= 0.02
+      @vs["boss"].zoom_y -= 0.02
+      @vs["boss"].opacity += 32
+      Graphics.update
+    end
+    @vs["boss"].zoom_x = 1; @vs["boss"].zoom_y = 1
+    @commandWindow.drawLineup if !defined?(SCREENDUALHEIGHT)
+    @commandWindow.lineupY(-32) if !defined?(SCREENDUALHEIGHT)
+    for i in 0...16
+      @commandWindow.showArrows if i < 10 && !defined?(SCREENDUALHEIGHT)
+      @vs["boss"].tone.red -= 16
+      @vs["boss"].tone.green -= 16
+      @vs["boss"].tone.blue -= 16
+      @vs["bg"].color.alpha -= 16
+      if !@smSpecial
+        @vs["bg2"].color.alpha -= 16
+        @vs["bg3"].color.alpha -= 16
+      end
+      if @smSpecial
+        @vsFp["ring"].zoom_x += 0.2
+        @vsFp["ring"].zoom_y += 0.2
+        @vsFp["ring"].opacity -= 16
+      end
+      self.vsBossSequence2_update
+      Graphics.update
+    end
+    16.times do
+      self.vsBossSequence2_update
+      Graphics.update
+    end
+    pbSEPlay("transition2",100)
+    for i in 0...16
+      @vs["boss"].tone.red -= 32*(i < 8 ? -1 : 1)
+      @vs["boss"].tone.green -= 32*(i < 8 ? -1 : 1)
+      @vs["boss"].tone.blue -= 32*(i < 8 ? -1 : 1)
+      @vs["bg"].speed = (@smSpecial ? 2 : 16) if i == 8
+      if !@smSpecial
+        @vs["bg2"].speed = 2 if i == 8
+        @vs["bg3"].speed = 6 if i == 8
+      end
+      for j in 0...3
+        next if !@smSpecial
+        next if i != 8
+        @vsFp["p#{j}"].speed /= 4
+      end
+      self.vsBossSequence2_update
+      Graphics.update
+    end
+    16.times do
+      @vs["glow"].src_rect.height += 24
+      @vs["glow"].src_rect.y -= 24
+      @vs["glow"].y -= 24
+      @vs["glow2"].src_rect.height += 24
+      self.vsBossSequence2_update
+      Graphics.update
+    end
+    8.times do
+      @vs["glow"].tone.red += 32
+      @vs["glow"].tone.green += 32
+      @vs["glow"].tone.blue += 32
+      @vs["glow2"].tone.red += 32
+      @vs["glow2"].tone.green += 32
+      @vs["glow2"].tone.blue += 32
+      self.vsBossSequence2_update
+      Graphics.update
+    end
+    for i in 0...4
+      @vs["boss"].tone.red += 64
+      @vs["boss"].tone.green += 64
+      @vs["boss"].tone.blue += 64
+      if !@smSpecial
+        @vs["bg"].x += 2
+        @vs["bg2"].x += 2
+        @vs["bg3"].x += 2
+      end
+      self.vsBossSequence2_update
+      Graphics.update
+    end
+    for j in 0...3
+      next if !@smSpecial
+      @vsFp["p#{j}"].z = 300
+    end
+    for i in 0...8
+      @vs["boss"].tone.red -= 32
+      @vs["boss"].tone.green -= 32
+      @vs["boss"].tone.blue -= 32
+      @vs["shade"].opacity += 32
+      @vs["shade"].x -= 4
+      if i < 4 && !@smSpecial
+        @vs["bg"].x -= 2
+        @vs["bg2"].x -= 2
+        @vs["bg3"].x -= 2
+      end
+      self.vsBossSequence2_update
+      Graphics.update
+    end 
+  end
+
+  def vsBossSequence2_update
+    @vs["bg"].update if @vs["bg"] && !@vs["bg"].disposed?
+    @vs["bg2"].update if @vs["bg2"] && !@vs["bg2"].disposed?
+    @vs["bg3"].update if @vs["bg3"] && !@vs["bg3"].disposed?
+    for j in 0...32
+      next if !@smSpecial
+      next if !@vsFp["s#{j}"] || @vsFp["s#{j}"].disposed?
+      next if j > @fpIndex/4
+      if @vsFp["s#{j}"].opacity <= 1
+        width = @vs["bg"].viewport.rect.width
+        height = @vs["bg"].viewport.rect.height
+        x = rand(width*0.75) + width*0.125
+        y = rand(height*0.50) + height*0.25
+        @fpDx[j] = x + rand(width*0.125)*(x < width/2 ? -1 : 1)
+        @fpDy[j] = y - rand(height*0.25)
+        z = [1,0.75,0.5,0.25][rand(4)]
+        @vsFp["s#{j}"].zoom_x = z
+        @vsFp["s#{j}"].zoom_y = z
+        @vsFp["s#{j}"].x = x
+        @vsFp["s#{j}"].y = y
+        @vsFp["s#{j}"].opacity = 255
+        @vsFp["s#{j}"].angle = rand(360)
+      end
+      @vsFp["s#{j}"].x -= (@vsFp["s#{j}"].x - @fpDx[j])*0.05
+      @vsFp["s#{j}"].y -= (@vsFp["s#{j}"].y - @fpDy[j])*0.05
+      @vsFp["s#{j}"].opacity -= @vsFp["s#{j}"].opacity*0.05
+      @vsFp["s#{j}"].zoom_x -= @vsFp["s#{j}"].zoom_x*0.05
+      @vsFp["s#{j}"].zoom_y -= @vsFp["s#{j}"].zoom_y*0.05
+    end
+    for j in 0...3
+      next if !@smSpecial
+      next if !@vsFp["p#{j}"] || @vsFp["p#{j}"].disposed?
+      @vsFp["p#{j}"].update
+      if j == 0
+        @vsFp["p#{j}"].opacity += 5 if @vsFp["p#{j}"].opacity < 155
+      else
+        @vsFp["p#{j}"].opacity += @fpOpac[j-1]*(@fpSpeed[j]/2)
+      end
+      next if @fpIndex < 24
+      @fpOpac[j-1] *= -1 if (@vsFp["p#{j}"].opacity >= 255 || @vsFp["p#{j}"].opacity < 65)
+    end
+    @fpIndex += 1 if @fpIndex < 128
+  end
+
+  def vsBossSequence2_end
+    echoln(@vs)
+    viewport = @viewport
+    zoom = 4.0
+    obmp = pbBitmap("Graphics/Transitions/ballTransition")
+    @vs["bg"].speed = @smSpecial ? 4 : 32
+    if !@smSpecial
+      @vs["bg2"].speed = 64
+      @vs["bg3"].speed = 8
+    end
+    for j in 0...3
+      next if !@smSpecial
+      @vsFp["p#{j}"].speed *= 4
+    end
+    for i in 0..20
+      @vs["boss"].x += 6*(i/5 + 1)
+      @vs["glow"].x += 6*(i/5 + 1)
+      @vs["glow2"].x += 6*(i/5 + 1)
+      @commandWindow.hideArrows if i < 10 && !defined?(SCREENDUALHEIGHT)
+      @vs["overlay"].bitmap.clear
+      ox = (1 - zoom)*viewport.rect.width*0.5
+      oy = (1 - zoom)*viewport.rect.height*0.5
+      width = (ox < 0 ? 0 : ox).ceil
+      height = (oy < 0 ? 0 : oy).ceil
+      @vs["overlay"].bitmap.fill_rect(0,0,width,viewport.rect.height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.fill_rect(viewport.rect.width-width,0,width,viewport.rect.height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.fill_rect(0,0,viewport.rect.width,height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.fill_rect(0,viewport.rect.height-height,viewport.rect.width,height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.stretch_blt(Rect.new(ox,oy,(obmp.width*zoom).ceil,(obmp.height*zoom).ceil),obmp,Rect.new(0,0,obmp.width,obmp.height))
+      @vs["overlay"].opacity += 64
+      zoom -= 4.0/20
+      self.vsBossSequence2_update
+      @vs["shade"].opacity -= 16
+      Graphics.update
+    end
+    @commandWindow.lineupY(+32) if !defined?(SCREENDUALHEIGHT)
+    pbDisposeSpriteHash(@vs)  
+    pbDisposeSpriteHash(@vsFp)
+    @vs["overlay"] = Sprite.new(@msgview)
+    @vs["overlay"].z = 9999999
+    @vs["overlay"].bitmap = Bitmap.new(@msgview.rect.width,@msgview.rect.height)
+    @vs["overlay"].bitmap.fill_rect(0,0,@msgview.rect.width,@msgview.rect.height,Color.new(0,0,0))
+  end
+
+  def vsBossSequence2_sendout
+    $smAnim = false
+    viewport = @msgview
+    zoom = 0
+    obmp = pbBitmap("Graphics/Transitions/ballTransition")
+    21.times do
+      @vs["overlay"].bitmap.clear
+      ox = (1 - zoom)*viewport.rect.width*0.5
+      oy = (1 - zoom)*viewport.rect.height*0.5
+      width = (ox < 0 ? 0 : ox).ceil
+      height = (oy < 0 ? 0 : oy).ceil
+      @vs["overlay"].bitmap.fill_rect(0,0,width,viewport.rect.height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.fill_rect(viewport.rect.width-width,0,width,viewport.rect.height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.fill_rect(0,0,viewport.rect.width,height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.fill_rect(0,viewport.rect.height-height,viewport.rect.width,height,Color.new(0,0,0))
+      @vs["overlay"].bitmap.stretch_blt(Rect.new(ox,oy,(obmp.width*zoom).ceil,(obmp.height*zoom).ceil),obmp,Rect.new(0,0,obmp.width,obmp.height))
+      @vs["overlay"].opacity -= 12.8
+      zoom += 4.0/20
+      wait(1,true)
+    end
+    @vs["overlay"].dispose
+  end
+end
+
+# Lista dei boss
+BOSS_LIST = [
+  :ELEKIDX,
+	:SHARPEDOX,
+	:GENGARX,
+	:GALVANTULAX,
+  :SHYLEON,
+  :SHULONG,
+  :TRISHOUT,
+  :SLURPUFFX,
+  :GIGASLURPUFFX,
+  :MEWTWOX,
+  :ROSERADEX,
+	:RAPIDASHXBOSS,
+	:RAPIDASHXBOSS2,
+  :DRAGALISK,
+  :VERSILDRAGALISK,
+  :LUXFLON,
+	:VAKUM
+]
+
+def isBoss?
+  ret = false
+  for poke in BOSS_LIST
+    num = getConst(PBSpecies,poke)
+    next if num.nil? || ret
+    if $wildSpecies == num
+      ret = true
+    end
+  end
+  return ret
+end
+
+class BossModifiers
+  
+  attr_accessor :lives
+  attr_accessor :bgs
+  attr_accessor :item
+  
+  def initialize
+    @lives = 2
+    @bgs = nil
+    @item = nil
+  end
+  
+  def set(lives, bgs, item)
+    @lives = lives
+    @bgs = bgs
+    @item = item
+  end
+  
+  def clear
+    @lives = 2
+    @bgs = nil
+    @item = nil
+  end
+  
+end
+
+$mods = BossModifiers.new
+
+def pbStartBossBattle(species, level, lives, bgs=nil, item = nil,canescape = true, modifiers = [],moves=[])
+  $game_switches[85] = true
+  $mods.set(lives, bgs, item)
+	if modifiers != [] && modifiers != nil
+		modifiers=[modifiers[0]*lives,modifiers[1],modifiers[2],modifiers[3],modifiers[4],modifiers[5]]
+	end
+	result = pbWildBattle(species, level, nil, false, true, modifiers,moves)
+  $game_switches[85] = false
+  return result
+end
+
+Events.onWildPokemonCreate+=proc {|sender,e|
+  pokemon=e[0]
+  if $mods.item != nil
+    pokemon.item = $mods.item
+    $mods.item = nil
+  end
+  if isBoss? && $game_switches[85]
+    pokemon.setBoss($mods.lives,$bgs != nil ? $mods.bgs : "test2")
+  end
+}
