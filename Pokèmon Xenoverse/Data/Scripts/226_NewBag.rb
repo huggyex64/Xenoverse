@@ -317,7 +317,7 @@ class NewBagScreen
 	def pbChooseItem
 		#@icons["i#{@index}"].zoom(1,1,10,:ease_out_cubic)
 		@icons["i#{@index}"].color = Color.new(0,0,0,0) if @index<@curPocket.length
-		updateIconPosition
+		updateIconPosition if @curPocket.length>0
 		loop do
 			Graphics.update
 			Input.update
@@ -327,12 +327,12 @@ class NewBagScreen
 				@curPocketIndex = @curPocketIndex-1 < 0 ? 6 : @curPocketIndex-1
 				updatePocket(@curPocketIndex)
 				@switching = false if @switching
-				updateIconPosition
+				updateIconPosition if @curPocket.length>0
 			elsif (Input.trigger?(Input::R))
 				@curPocketIndex = @curPocketIndex+1 >= 7 ? 0 : @curPocketIndex+1
 				updatePocket(@curPocketIndex)
 				@switching = false if @switching
-				updateIconPosition
+				updateIconPosition if @curPocket.length>0
 			end
 			
 			if Input.trigger?(Input::F5) && pbIsKeyItem?(@curPocket[@index][0])
