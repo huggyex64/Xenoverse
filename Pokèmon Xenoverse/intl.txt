@@ -19871,7 +19871,7 @@ Strumento da dare a un Pokémon. Cintura consumata che potenzia di poco le mosse
 Strumento da dare a un Pokémon. Cintura consumata che potenzia di poco le mosse superefficaci.
 102
 Strumento tenuto da un Pokémon che potenzia una mossa utilizzata ripetutamente. L'effetto svanisce se si usa un'altra mossa.
-Strumento tenuto da un Pokémon che potenzia una mossa utilizzata ripetutamente. L'effetto svanisce se si usa un'altra mossa.
+Se tenuto da un Pokémon, potenzia una mossa utilizzata ripetutamente. L'effetto svanisce se se ne usa un'altra.
 103
 Strumento da far tenere a un Pokémon. Fascia che potenzia di poco gli attacchi fisici.
 Strumento da far tenere a un Pokémon. Fascia che potenzia di poco gli attacchi fisici.
