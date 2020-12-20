@@ -989,13 +989,6 @@ def Kernel.pbCanUseHiddenMove?(pkmn,move)
         return false
       end
 		return true
-	when PBMoves::STRENGTH
-      facingEvent=$game_player.pbFacingEvent
-      if !facingEvent || facingEvent.name!="Boulder"
-        Kernel.pbMessage(_INTL("Can't use that here."))
-        return false
-      end
-		return true  
 	when PBMoves::SURF
 		terrain=Kernel.pbFacingTerrainTag
 		if !$DEBUG && !$Trainer.badges[BADGEFORSURF]

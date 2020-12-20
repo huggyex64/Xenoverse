@@ -204,18 +204,18 @@ module PokeBattle_BattleCommon
 			when 4
 				pbDisplayBrief(_INTL("Catturato!  {1} è stato catturato!",pokemon.name))
 				@scene.pbThrowSuccess
-        if $achievements["Passi"].completed
-          $achievements["Erba"].progress=1 if $achievements["Erba"].progress<200
-        else
-          $achievements["Passi"].progress=1
-        end
-        if pokemon.level>=50 && isConst?(ball,PBItems,:POKEBALL)
-          $achievements["Ultraball"].progress=1 if !$achievements["Ultraball"].completed
+				if $achievements["Passi"].completed
+					$achievements["Erba"].progress=1 if $achievements["Erba"].progress<200
+				else
+					$achievements["Passi"].progress=1
+				end
+				if pokemon.level>=50 && isConst?(ball,PBItems,:POKEBALL)
+					$achievements["Ultraball"].progress=1 if !$achievements["Ultraball"].completed
 				end
 				pbCheckCaughtPokemon
 				pbCheckCaughtPokemonX
 				$achievements["Brillante"].progress=1 if !$achievements["Brillante"].completed && pokemon.isShiny?
-        # INSERIRE NUOVO ACHIEVEMENT
+        		# INSERIRE NUOVO ACHIEVEMENT
 				#if $achievements["novellino"].progress < 1
 				#  $achievements["novellino"].progress+=1
 				#end
@@ -249,11 +249,11 @@ module PokeBattle_BattleCommon
 				BallHandlers.onCatch(ball,self,pokemon)
 				pokemon.ballused=pbGetBallType(ball)
 				pokemon.pbRecordFirstMoves
-        if $Trainer.expmoderna
-          battler.captured=true
-          pbGainEXP
-          battler.captured=false
-        end
+				if $Trainer.expmoderna
+				battler.captured=true
+				pbGainEXP
+				battler.captured=false
+				end
 				if !self.pbPlayer.owned[species]
 					self.pbPlayer.owned[species]=true
 					if $Trainer.pokedex
