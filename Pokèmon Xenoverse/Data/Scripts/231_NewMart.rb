@@ -478,7 +478,7 @@ end
 class PokemonMartScreen
   def pbBuyScreen
     if @stock.length==0 
-      Kernel.pbMessage(_INTL("Ci dispiace, sembra che il nostro stock sia terminato."))
+      Kernel.pbMessage(_INTL("Siamo spiacenti, non abbiamo più scorte in magazzino."))
       return
     end
     @scene.pbStartBuyScene(@stock,@adapter)
