@@ -1122,6 +1122,8 @@ class PokeBattle_Battler
 	def pbEffectsOnDealingDamage(move,user,target,damage)
 		movetype=move.pbType(move.type,user,target)
 		thismove=move
+		turneffects=[]
+		turneffects[PBEffects::TotalDamage]=damage
 		if damage>0 && move.isContactMove?
 			if !target.damagestate.substitute
 				if target.hasWorkingItem(:STICKYBARB,true) && user.item==0 && !user.isFainted?

@@ -5,7 +5,7 @@
 # Dont forget to credit Help-14
 # Slightly edited by Black Eternity (again)
 #---------------------------------------------------------------------
-def pbReceiveItemPop(item)
+def pbReceiveItemPop(item,quantity=1)
 item=getID(PBItems,item) if !item.is_a?(Integer)
 itemname=PBItems.getName(item)
 Kernel.pbMessage(_INTL("{1} ottiene {2}!",$Trainer.name,itemname))
