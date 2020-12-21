@@ -473,3 +473,86 @@ class PokemonMartScene
     end
   end
 end
+
+
+class PokemonMartScreen
+  def pbBuyScreen
+    if @stock.length==0 
+      Kernel.pbMessage(_INTL("Siamo spiacenti, non abbiamo più scorte in magazzino."))
+      return
+    end
+    @scene.pbStartBuyScene(@stock,@adapter)
+    item=0
+    loop do
+      item=@scene.pbChooseBuyItem
+      quantity=0
+      break if item==0
+      itemname=@adapter.getDisplayName(item)
+      price=@adapter.getPrice(item)
+      if @adapter.getMoney()<price
+        pbDisplayPaused(_INTL("You don't have enough money."))
+        next
+      end
+      if pbIsImportantItem?(item)
+        if !pbConfirm(_INTL("Certainly.  You want {1}.\r\nThat will be ${2}.  OK?",itemname,price))
+          next
+        end
+        quantity=1
+      else
+        maxafford=(price<=0) ? BAGMAXPERSLOT : @adapter.getMoney()/price
+        maxafford=BAGMAXPERSLOT if maxafford>BAGMAXPERSLOT
+        quantity=@scene.pbChooseNumber(
+           _INTL("{1}?  Certainly.\r\nHow many would you like?",itemname),item,maxafford)
+        if quantity==0
+          next
+        end
+        price*=quantity
+        if !pbConfirm(_INTL("{1}, and you want {2}.\r\nThat will be ${3}.  OK?",itemname,quantity,price))
+          next
+        end
+      end
+      if @adapter.getMoney()<price
+        pbDisplayPaused(_INTL("You don't have enough money."))
+        next
+      end
+      added=0
+      quantity.times do
+        if !@adapter.addItem(item)
+          break
+        end
+        added+=1
+      end
+      if added!=quantity
+        added.times do
+          if !@adapter.removeItem(item)
+            raise _INTL("Failed to delete stored items")
+          end
+        end
+        pbDisplayPaused(_INTL("You have no more room in the Bag."))  
+      else
+        @adapter.setMoney(@adapter.getMoney()-price)
+        for i in 0...@stock.length
+          if pbIsImportantItem?(@stock[i]) && $PokemonBag.pbQuantity(@stock[i])>0
+            @stock[i]=nil
+          end
+        end
+        @stock.compact!
+        pbDisplayPaused(_INTL("Here you are!\r\nThank you!"))
+        if @stock.length==0 
+          break
+        end
+        #update scene with new stock
+        @scene.pbDrawItems
+        if $PokemonBag
+          if quantity>=10 && isConst?(item,PBItems,:POKEBALL) && 
+             hasConst?(PBItems,:PREMIERBALL)
+            if @adapter.addItem(getConst(PBItems,:PREMIERBALL))
+              pbDisplayPaused(_INTL("I'll throw in a Premier Ball, too.")) 
+            end
+          end
+        end
+      end
+    end
+    @scene.pbEndBuyScene
+  end
+end

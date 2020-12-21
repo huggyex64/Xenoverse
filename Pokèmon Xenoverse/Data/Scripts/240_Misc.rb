@@ -13,6 +13,7 @@ def pbBattleAltForm(species,level,form=0,variable=nil,canescape=true,canlose=fal
       end
     end
   end
+  skipanim = true if species == PBSpecies::TOKAKLE
   pbWildPokemonBattle(pkmn,variable,canescape,canlose,skipanim)
 end
 
@@ -36,6 +37,12 @@ def pbWildPokemonBattle(pkmn,variable=nil,canescape=true,canlose=false,skipanim=
     return true
   end
   genwildpoke=pkmn
+
+  handled=[nil]
+  Events.onWildBattleOverride.trigger(nil,pkmn.species,pkmn.level,handled)
+  if handled[0]!=nil
+    return handled[0]
+  end
   Events.onStartBattle.trigger(nil,genwildpoke)
   scene=pbNewBattleScene
   battle=PokeBattle_Battle.new(scene,$Trainer.party,[genwildpoke],$Trainer,nil)
@@ -43,7 +50,7 @@ def pbWildPokemonBattle(pkmn,variable=nil,canescape=true,canlose=false,skipanim=
   battle.cantescape=!canescape
   pbPrepareBattle(battle)
   decision=0
-  pbBattleAnimation(pbGetWildBattleBGM(pkmn.species),-1,"",skipanim) { 
+  pbBattleAnimation(pbGetWildBattleBGM(pkmn.species),$Trainer.id,"",skipanim) { 
      pbSceneStandby {
         decision=battle.pbStartBattle(canlose)
      }

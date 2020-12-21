@@ -334,7 +334,7 @@ class NewBagScreen
 				@switching = false if @switching
 				updateIconPosition if @curPocket.length>0
 			end
-			
+=begin
 			if Input.trigger?(Input::F5) && pbIsKeyItem?(@curPocket[@index][0])
 				if @bag.registeredItem==@curPocket[@index][0] #deregister
 					@bag.pbRegisterKeyItem(0)
@@ -344,7 +344,7 @@ class NewBagScreen
 					drawItem(@index)
 				end
 			end
-			
+=end
 			if Input.trigger?(Input::A) && @curPocket.length>1
 				if !@switching
 					@switching = true

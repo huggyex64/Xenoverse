@@ -2,10 +2,10 @@ Created by:
 Fabrizio Laborano (Starkey)
 
 Eventer:
-Christian Sardano (ZioCricco)
 Fabrizio Laborano (Starkey)
-Nicola (Nalkio)
 Pietro Fanti (Sasso)
+Christian Sardano (ZioCricco)
+Nicola (Nalkio)
 
 Scripting:
 Alvise Gorinati (Dr. Aghs)
@@ -13,11 +13,11 @@ Federico Rapetti (Fuji)
 Paolo Lella (xZekro51)
 
 Mapping:
-Christian Sardano (ZioCricco)
 Fabrizio Laborano (Starkey)
 Ivan Vanni (IvanFGK)
-Nicola (Nalkio)
 Pietro Fanti (Sasso)
+Nicola (Nalkio)
+Christian Sardano (ZioCricco)
 
 Level Design:
 Admir Hyka (Adi)
@@ -58,21 +58,23 @@ Matteo Facchinelli (Fachinhell)
 Michele Schirinzi (Mike)
 
 Concept Art:
-Francesco Badalini (Badafra)
-Giancarlo (Deku)
 Gianluca Barbera (Barbie)
 Massimiliano Bruni (Makly)
-Matteo Fachinelli (Fachinhell)
+Matteo Facchinelli (Fachinhell)
 Michele Schirinzi (Mike)
+Francesco Badalini (Badafra)
+Giancarlo Sotelo (Daku)
+Lorenzo Allievi (Mr.Sketchees)
+
 
 Battlebacks:
 Francesco Badalini (Badafra)
 Gianluca Barbera (Barbie)
 Massimiliano Bruni (Makly)
-Mr. Skeetches
+Lorenzo Allievi (Mr.Sketchees)
 
 Item Art:
-Giancarlo (Deku)
+Giancarlo Sotelo (Daku)
 Gianluca Barbera (Barbie)
 
 Tileset:
@@ -84,7 +86,7 @@ Michele Schirinzi (Mike)
 Nicola (Nalkio)
 
 Sprite:
-Alessandro Kondic
+Alessandro Kondic (IlGordo)
 Fabrizio Laborano (Starkey)
 Matteo Facchinelli (Fachinhell)
 Michele Schirinzi (Mike)
@@ -94,6 +96,7 @@ Animation:
 Fabrizio Laborano (Starkey)
 Francesco Badalini (Badafra)
 Gianluca Barbera (Barbie)
+Nicola Cantarutti
 
 Animation Sprite 6/7 gen:
 OmegalingYT
@@ -114,7 +117,7 @@ Massimiliano Bruni (Makly)
 
 3D Art:
 Fabrizio Laborano (Starkey)
-Matteo Fachinelli (Fachinhell)
+Matteo Facchinelli (Fachinhell)
 
 Music:
 Eugenio Intemerato
@@ -156,7 +159,11 @@ PacoScarso
 
 English Translate:
 Andrea Esposito
+Beatrice Zeppieri
+Congzhou Zummy Ye
+Edorardo Santarcangelo
 Fabrizio Lo Iacono
+Frozen Luquma
 Lorenzo Fedrizzi
 Michele Schirinzi (Mike)
 Stefano Manno
@@ -397,10 +404,12 @@ Alessandro Laborano
 Chiara Rocco
 Daniel Hale (Dlarzz)
 Davide Arena
+Diego Badalucco
 Federico Profaizer (Federic95ita)
 Federico Dore (Froz3n)
 Francesco Cilurzo (Cydonia)
 Francesco Pepe (Boostaph)
+Francesco Pino (Frake)
 Le Fave
 All staff of Pokemon Millennium
 Martina Pasqui (Kenoia)
