@@ -5,6 +5,65 @@ for i in 0..40
   CreditList[i]="credits#{i+1}"
 end
 
+if $DEBUG
+  def draw_text_outline(credit_bitmap,xpos,ypos,linewidth,lineheight,line,basecolor,darkcolor,align = 1)
+    #credit_bitmap.font.color = basecolor
+    #credit_bitmap.draw_text(xpos,ypos + 8,linewidth,32,line[j],align)
+    if darkcolor
+      credit_bitmap.font.color = darkcolor
+      credit_bitmap.draw_text(xpos + 2,ypos - 2,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos + 2,ypos - 1,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos + 1,ypos - 2,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos,ypos - 2,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos,ypos - 1,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos - 2,ypos - 2,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos - 2,ypos - 1,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos - 1,ypos - 2,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos + 2,ypos,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos + 1,ypos,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos - 2,ypos,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos - 1,ypos,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos + 2,ypos+ 2,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos + 2,ypos+ 1,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos + 1,ypos+ 2,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos,ypos + 2,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos - 2,ypos + 2,linewidth,lineheight,line,align)
+      credit_bitmap.draw_text(xpos - 1,ypos + 2,linewidth,lineheight,line,align)
+    end
+    credit_bitmap.font.color = basecolor
+    credit_bitmap.draw_text(xpos,ypos,linewidth,lineheight,line,align)
+  end
+
+  def exportCredits
+    
+    @credits = File.open("PBS/credits.txt").read.split("\n")
+    @creditsBitmap = Bitmap.new(512,(384+30*@credits.length))
+    pbSetSystemFont(@creditsBitmap)
+    @creditsBitmap.font.size = 22
+    Console::setup_console
+    for i in 0...@credits.length
+      Graphics.update
+      line = @credits[i]
+      if line.length>MAXCHARPERLINE
+        @creditsBitmap.font.size = 18
+        #Drawing the shadow first, then the text on top
+        #draw_text_outline(@creditsBitmap,0,8+30*i,512,30,line,@shadowColor,nil,1)
+        #Drawing the shadow first, then the text on top
+        draw_text_outline(@creditsBitmap,0,30*i,512,30,line,CREDITS_FILL,CREDITS_OUTLINE,1)
+      else
+        @creditsBitmap.font.size = 22
+        #Drawing the shadow first, then the text on top
+        #pbDrawOutlineText(@creditsBitmap,0,8+30*i,512,30,line,@shadowColor,nil,1)
+        #Drawing the shadow first, then the text on top
+        pbDrawOutlineText(@creditsBitmap,0,30*i,512,30,line,CREDITS_FILL,CREDITS_OUTLINE,1)
+      end
+    end
+    echoln "DRAWN BITMAP, EXPORTING..."
+    @creditsBitmap.export("Credits")
+    echoln "SUCCESSFULLY EXPORTED CREDITS"
+  end
+end
+
 class Credits
   
   def initialize
