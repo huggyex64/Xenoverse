@@ -2818,6 +2818,7 @@ class PokeBattle_Battle
 			@battlers[i].effects[PBEffects::HyperBeam]-=1 if @battlers[i].effects[PBEffects::HyperBeam]>0
 			@battlers[i].effects[PBEffects::KingsShield]=false
 			@battlers[i].effects[PBEffects::SpikyShield]=false
+			@battlers[i].effects[PBEffects::BanefulBunker]=false
 		end
 		@usepriority=false  # recalculate priority
 		priority=pbPriority(true) # Ignoring Quick Claw here

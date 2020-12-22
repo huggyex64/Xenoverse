@@ -380,6 +380,7 @@ class PokeBattle_Battler
 		@effects[PBEffects::BurnUp] 					= false
 		@effects[PBEffects::KingsShield]      = false
 		@effects[PBEffects::SpikyShield]      = false
+		@effects[PBEffects::BanefulBunker]	  = false
 		@effects[PBEffects::Type3]            = -1
 		@effects[PBEffects::LastMoveFailed]   = false
 		@effects[PBEffects::LaserFocus]   		= false
