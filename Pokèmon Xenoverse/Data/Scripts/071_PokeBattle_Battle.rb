@@ -247,6 +247,7 @@ module PokeBattle_BattleCommon
 					pokemon.trainerID=self.pbPlayer.id
 				end
 				BallHandlers.onCatch(ball,self,pokemon)
+				pokemon.denyBoss if pokemon.species == PBSpecies::LUXFLON
 				pokemon.ballused=pbGetBallType(ball)
 				pokemon.pbRecordFirstMoves
 				if $Trainer.expmoderna

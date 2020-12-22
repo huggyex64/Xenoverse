@@ -476,6 +476,8 @@ class PokemonLoad
           Kernel.pbMessage(_INTL("The map is corrupt. The game cannot continue."))
           return
         end
+        #Fix boss luxflon
+        pbFixLuxflon
         $PokemonMap=metadata
         $PokemonEncounters=PokemonEncounters.new
         $PokemonEncounters.setup($game_map.map_id)

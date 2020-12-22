@@ -669,11 +669,22 @@ def pbFormMetricsOverride(pokemon,form=0,og=0,back=false)
 	return og
 end
 
-def pbAA
-	for v in $achievements.keys
-		if v != "Orchestra" && v != "Platino" && v != "Fuga" && v != "Mega"
-			$achievements[v].silentProgress(0)
-			$achievements[v].progress+=$achievements[v].amount
-		end
-	end
+def pbFixLuxflon
+  return if !$game_switches[611]
+  return if $game_switches[1001]
+  for i in $Trainer.party
+    if i.boss && i.species == PBSpecies::LUXFLON
+      i.boss = false
+      i.calcStats
+    end
+  end
+  for k in 0...STORAGEBOXES
+    for p in 0...16
+      if $PokemonStorage[k][p]!=nil && $PokemonStorage[k][p].species==PBSpecies::LUXFLON && $PokemonStorage[k][p].boss
+        $PokemonStorage[k][p].boss=false
+        $PokemonStorage[k][p].calcStats
+      end
+    end
+  end
+  $game_switches[1001]=true
 end
