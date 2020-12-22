@@ -608,7 +608,7 @@ def pbEggAchievement
 			$achievements["Passione"].silentProgress($achievements["Passione"].progress+1)
 		end
 		if $achievements["Passione"].completed
-			$achievements["Allevatore"].progess=($achievements["Passione"].progress)
+			$achievements["Allevatore"].progress=($achievements["Passione"].progress)
 		end
 	else
 		if ($achievements["Allevatore"].progress+1)%25==0
