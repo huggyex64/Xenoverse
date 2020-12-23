@@ -491,6 +491,18 @@ Uhm... Non vedo mosse che \v[3] possa ricordare...
 Uhm... Non vedo mosse che \v[3] possa ricordare...
 Quale mossa vuoi far ricordare a \v[3]?
 Quale mossa vuoi far ricordare a \v[3]?
+Mr.Bug
+Mr.Bug
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
+Natale
+Natale
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Buon Natale a nome di tutto lo staff!
+Buon Natale a nome di tutto lo staff!
 Franco
 Franco
 Sono così fiero delle mie piantine di Baccarancia! Prendine una, non fare complimenti.
@@ -513,8 +525,8 @@ Mmh... Sei proprio sicuro|a che questo gettone sia autentico?
 Mmh... Sei proprio sicuro|a che questo gettone sia autentico?
 Akira
 Akira
-Mi stavo allenando in spiaggia, quando... ka-pow! Il mio portafogli era sparito! Saresti tanto gentile da prestarmi 500$?
-Mi stavo allenando in spiaggia, quando... ka-pow! Il mio portafogli era sparito! Saresti tanto gentile da prestarmi 500$?
+Mi stavo allenando in spiaggia, quando... ka-pow! Il mio portafogli è sparito! Saresti tanto gentile da prestarmi 500$?
+Mi stavo allenando in spiaggia, quando... ka-pow! Il mio portafogli è sparito! Saresti tanto gentile da prestarmi 500$?
 Premierò la tua bontà d’animo con questa!
 Premierò la tua bontà d’animo con questa!
 Capisco, non preoccuparti...
@@ -697,6 +709,12 @@ Molly
 Molly
 Questo è il Pokémon-Market di Virgopoli!
 Questo è il Pokémon-Market di Virgopoli!
+Mr.Bug
+Mr.Bug
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Infermiera Joy
 Infermiera Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
@@ -709,6 +727,12 @@ Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
 Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
 Torna pure quando vuoi.
 Torna pure quando vuoi.
+Natale
+Natale
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Buon Natale a nome di tutto lo staff!
+Buon Natale a nome di tutto lo staff!
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 A quale Pokémon vuoi far ricordare una mossa?
@@ -983,88 +1007,86 @@ Sarà meglio andare a pescare altrove...
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>Non hai abbastanza soldi.
 Sì
-Yes
+Sì
 No
 No
 Cura Pokémon
-Heal Pokémon
+Cura Pokémon
 Usa Box
-Use Box
+Usa Box
 [Map28]
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
-<<[>>old<<]>>The thrash is full of waste paper.
+<<[>>old<<]>>Il cestino è pieno di carta straccia.
 <<[>>old<<]>>È pieno zeppo di libri riguardo i Pokémon e i loro habitat.
-<<[>>old<<]>>There's a lot of books about Pokémon and their habitat.
+<<[>>old<<]>>È pieno zeppo di libri riguardo i Pokémon e i loro habitat.
 <<[>>new,Versil,ranch/versil,default,left,true<<]>> @pl|, scendi! Io e la mamma dobbiamo parlarti.<<[>>dispose<<]>>
-<<[>>new,Versil,ranch/versil,default,left,true<<]>> @pl|, get up!\nMom and I need to talk to you.<<[>>dispose<<]>>
+<<[>>new,Versil,ranch/versil,default,left,true<<]>> @pl|, scendi!  Io e la mamma dobbiamo parlarti.<<[>>dispose<<]>>
 <<[>>new,Versil,ranch/versil,default,right,true<<]>> Abbiamo deciso che è giunto il momento di mostrarti un po' il mondo qui fuori.
-<<[>>new,Versil,ranch/versil,default,right,true<<]>> We've decided it's time to show you a little bit of the world out there.
+<<[>>new,Versil,ranch/versil,default,right,true<<]>> Abbiamo deciso che è giunto il momento di mostrarti un po' il mondo qui fuori.
 Oggi andremo a fare un giro per il <b>Ranch Spigadoro</b>.[dispose]
-So today we're going to take a tour of the <b>Nova Ranch</b>.[dispose]
+Oggi andremo a fare un giro per il <b>Ranch Spigadoro</b>.[dispose]
 <<[>>new,Versil,ranch/versil,default,right,true<<]>> Forza, giovane! Andiamo!<<[>>dispose<<]>>
-<<[>>new,Versil,ranch/versil,default,right,true<<]>> Come on, kid! Let's go!<<[>>dispose<<]>>
+<<[>>new,Versil,ranch/versil,default,right,true<<]>> Forza, giovane! Andiamo!<<[>>dispose<<]>>
 <<[>>new,Edera,ranch/mamma,default,right,true<<]>> Mi raccomando, fate attenzione!<<[>>dispose<<]>>
-<<[>>new,Clover,ranch/mamma,default,right,true<<]>> Please be careful!<<[>>dispose<<]>>
+<<[>>new,Edera,ranch/mamma,default,right,true<<]>> Mi raccomando, fate attenzione!<<[>>dispose<<]>>
 Edera
-Clover
+Edera
 \PN! Ti vedo un po' stanco|a... Forse dovresti riposare...
-\PN! You look a bit tired... You should rest...
+\PN! Ti vedo un po' stanco|a... Forse dovresti riposare...
 Non esitare a tornare dalla mamma quando ne hai bisogno!
-Don’t hesitate to come back home whenever you need it!
+Non esitare a tornare dalla mamma quando ne hai bisogno!
 Finalmente ti sei svegliato, dormiglione!
-You're finally awake sleepy boy!
+Finalmente ti sei svegliato, dormiglione!
 Auguri di buon compleanno, \PN!
-Happy birthday, \PN!
+Auguri di buon compleanno, \PN!
 Peccato che papà non possa essere qui a vedere quanto tu sia cresciuto. Sai bene che è sempre all'estero per lavoro...
-Too bad that your dad is not here to see how much\nyou've grown.\nYou know he's always abroad for work...
+Peccato che papà non possa essere qui a vedere quanto tu sia cresciuto. Sai bene che è sempre all'estero per lavoro...
 Ehi, tesoro... cos'hai? Ti vedo un po' scosso.
-Darling... what's wrong? You seem upset.
+Ehi, tesoro... cos'hai? Ti vedo un po' scosso.
 <<[>>old<<]>>Racconti del tuo incubo alla mamma.
-<<[>>old<<]>>You told your mom about the nightmare.
+<<[>>old<<]>>Racconti del tuo incubo alla mamma.
 E così è arrivato il momento... Vieni, andiamo a sederci.
-Well, the time has come... Come sit with me.
+E così è arrivato il momento... Vieni, andiamo a sederci.
 Non sarà il giorno più adatto, ma penso che ora tu sia grande abbastanza per questa storia. Quello che mi hai raccontato non è un semplice sogno!
-It’s probably not the best day, but I think you are old enough for this story, now.\nWhat you told me isn’t just a dream!
+Non sarà il giorno più adatto, ma penso che ora tu sia grande abbastanza per questa storia. Quello che mi hai raccontato non è un semplice sogno!
 Undici anni fa ormai, tuo padre decise di portarti a fare un giro al di fuori del nostro ranch... Io ero abbastanza contraria e quel giorno ero davvero in pena per il vostro rientro. Il fatto che ci fosse papà con te, però, mi tranquillizzava.
-Eleven years ago, your father decided to bring you outside our ranch...\nI was pretty against that and at the same time so worried about you two.\nDad was with you though, so that reassured me.
+Undici anni fa ormai, tuo padre decise di portarti a fare un giro al di fuori del nostro ranch... Io ero abbastanza contraria e quel giorno ero davvero in pena per il vostro rientro. Il fatto che ci fosse papà con te, però, mi tranquillizzava.
 Tuttavia, quella sera, nessuno fece ritorno...
-However, that day, no one came back...
+Tuttavia, quella sera, nessuno fece ritorno...
 Solo dopo qualche giorno, <b>Nonna Lea</b> bussò alla porta nel cuore della notte... Che sollievo trovare te sull'uscio di casa! Eri svenuto e avevi una Ball con te.
-Days after, <b>Nana Flora</b> knocked on the door, in the middle of the night...\What a relief finding you at the front door!\nYou were unconscious and had a Ball with you.
+Solo dopo qualche giorno, <b>Nonna Lea</b> bussò alla porta nel cuore della notte... Che sollievo trovare te sull'uscio di casa! Eri svenuto e avevi una Ball con te.
 Di tuo padre, però, nemmeno l'ombra... Da quel giorno non lo vidi più...
-But your father was not there... I haven't seen him since that day...
+Di tuo padre, però, nemmeno l'ombra... Da quel giorno non lo vidi più...
 Mi dispiace di avertene parlato solo adesso, dopo anni di menzogne su menzogne...
-I’m sorry I waited so long to tell you about this, after years of lies...
+Mi dispiace di avertene parlato solo adesso, dopo anni di menzogne su menzogne...
 Tu
-You
+Tu
 ...!
 ...!
 Tesoro! Ma cosa dici?! Ti sei bevuto il cervello per caso?! Come ti salta in mente una cosa simile?!
-Darling! Wha- are you out of your mind?\nHow can you think of such a thing?!
+Tesoro! Ma cosa dici?! Ti sei bevuto il cervello per caso?! Come ti salta in mente una cosa simile?!
 Non sei pronto per metterti sulle tracce di papà. Sei ancora un ragazzino!
-You’re not ready to go look for your father yet.\nYou’re still a child!
-Ce ne stiamo già occupando io e <b>Aster</b>... Non è semplice neanche per noi adulti!
-We are working on it, I and <b>Aster</b>... It’s not that easy for us adults either!
+Non sei pronto per metterti sulle tracce di papà. Sei ancora un ragazzino!
 Insistere non servirà a niente, \PN! Non cambierò idea per nulla al mondo! Se dopo papà dovessi perdere anche te, il mio unico figlio, io...
-Don’t insist, \PN! There is no way in the world\nI’m changing my mind!\nIf I were to lose you too, my only child, I- sigh!
+Insistere non servirà a niente, \PN! Non cambierò idea per nulla al mondo! Se dopo papà dovessi perdere anche te, il mio unico figlio, io...
 Sigh!
 Sigh!
 Sigh... sigh... Fila in camera tua, ora!
-Sigh... sigh... Go to your room now!
+Sigh... sigh... Fila in camera tua, ora!
 Finalmente ti sei svegliata, dormigliona!
-You're finally awake sleepy girl!
+Finalmente ti sei svegliata, dormigliona! 
 Peccato che papà non possa essere qui a vedere quanto tu sia cresciuta. Sai bene che è sempre all'estero per lavoro...
-Too bad that your dad is not here to see how much\nyou've grown.\nYou know he's always abroad for work...Ehi, tesoro... cos'hai? Ti vedo un po' scossa.
+Peccato che papà non possa essere qui a vedere quanto tu sia cresciuta. Sai bene che è sempre all'estero per lavoro...
 Ehi, tesoro... cos'hai? Ti vedo un po' scossa.
-Darling... what's wrong? You seem upset.
+Ehi, tesoro... cos'hai? Ti vedo un po' scossa.
 Solo dopo qualche giorno, <b>Nonna Lea</b> bussò alla porta nel cuore della notte... Che sollievo trovare te sull'uscio di casa! Eri svenuta e avevi una Ball con te.
-Days after, <b>Nana Flora</b> knocked on the door, in the middle of the night...\What a relief finding you at the front door!\nYou were unconscious and had a Ball with you.Tesoro! Ma cosa dici?! Ti sei bevuta il cervello per caso?! Come ti salta in mente una cosa simile?!
+Solo dopo qualche giorno, <b>Nonna Lea</b> bussò alla porta nel cuore della notte... Che sollievo trovare te sull'uscio di casa! Eri svenuta e avevi una Ball con te.
 Tesoro! Ma cosa dici?! Ti sei bevuta il cervello per caso?! Come ti salta in mente una cosa simile?!
-Darling! Wha- are you out of your mind?\nHow can you think of such a thing?!
+Tesoro! Ma cosa dici?! Ti sei bevuta il cervello per caso?! Come ti salta in mente una cosa simile?!
 Non sei pronta per metterti sulle tracce di papà. Sei ancora una ragazzina!
-You’re not ready to go look for your father yet.\nYou’re still a child!
+Non sei pronta per metterti sulle tracce di papà. Sei ancora una ragazzina!
 Insistere non servirà a niente, \PN! Non cambierò idea per nulla al mondo! Se dopo papà dovessi perdere anche te, la mia unica figlia, io...
-Don’t insist, \PN! There is no way in the world\nI’m changing my mind!\nIf I were to lose you too, my only child, I- sigh!
+Insistere non servirà a niente, \PN! Non cambierò idea per nulla al mondo! Se dopo papà dovessi perdere anche te, la mia unica  figlia, io...
 Versil
 Versil
 \PN! Vieni un po' qui!
@@ -1123,9 +1145,9 @@ Wiggly...!
 Wiggly...!
 [Map29]
 <<[>>old<<]>>Il tempo passava e \PN cresceva, trascorrendo le giornate in una famiglia gioiosa...
-<<[>>old<<]>>Time passed and \PN grew, spending days in a joyful family...
+<<[>>old<<]>>Il tempo passava e \PN cresceva, trascorrendo le giornate in una famiglia gioiosa...
 <<[>>old<<]>>Cinque anni dopo...
-<<[>>old<<]>>Five years later...
+<<[>>old<<]>>Cinque anni dopo...
 [Map30]
 Tommaso
 Tommaso
@@ -1159,10 +1181,22 @@ Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
 Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
 Torna pure quando vuoi.
 Torna pure quando vuoi.
+Mr.Bug
+Mr.Bug
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Poy
 Poy
 Questo è il Pokémon-Market di Vetta Polare!
 Questo è il Pokémon-Market di Vetta Polare!
+Natale
+Natale
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Buon Natale a nome di tutto lo staff!
+Buon Natale a nome di tutto lo staff!
 Maria
 Maria
 Qui a Vetta Polare, il Centro Pokémon è l’unico posto al calduccio.
@@ -1410,43 +1444,43 @@ Devo assolutamente dare il segnale alle altre <b>Reclute</b>.
 Devo assolutamente dare il segnale alle altre <b>Reclute</b>.
 [Map36]
 <<[>>old<<]>>Percorso 1 a nord
-<<[>>old<<]>>Route 1 north
+<<[>>old<<]>>Percorso 1 a nord
 Miltank
 Miltank
 Muuu...!
-Moo...!
+Muuu...!
 Nonna Lea
-Nana Flora
+Nonna Lea
 Giocare coi Pokémon è uno spasso, vero? Fa ringiovanire persino me...
-Playing with Pokémon is so much fun, isn’t it?\nIt makes me feel younger, even...
+Giocare coi Pokémon è uno spasso, vero? Fa ringiovanire persino me...
 È sempre difficile muovere i primi passi... Ma qui c'è Nonna Lea a darti una mano!
-First steps are always difficult. But your Nana is here to help you!
+È sempre difficile muovere i primi passi... Ma qui c'è Nonna Lea a darti una mano!
 Nonna Lea è sempre qui per te.
-Your Nana is always here for you.
+Nonna Lea è sempre qui per te.
 <<[>>old<<]>>Phew! Fortuna che l'albero ha attutito la caduta...!
-<<[>>old<<]>>Phew! The tree broke the fall...!
+<<[>>old<<]>>Phew! Fortuna che l'albero ha attutito la caduta...!
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>A quanto pare Shyleon ha tutta l'intenzione di venire con te! Meglio farlo rientrare nella Poké Ball...
-<<[>>old<<]>>Shyleon seems to be determined to come with you! It’d better get back in its Poké Ball...
+<<[>>old<<]>>A quanto pare Shyleon ha tutta l'intenzione di venire con te! Meglio farlo rientrare nella Poké Ball...
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>A quanto pare Trishout ha tutta l'intenzione di venire con te! Meglio farlo rientrare nella Poké Ball...
-<<[>>old<<]>>Trishout seems to be determined to come with you! It’d better get back in its Poké Ball...
+<<[>>old<<]>>A quanto pare Trishout ha tutta l'intenzione di venire con te! Meglio farlo rientrare nella Poké Ball...
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>A quanto pare Shulong ha tutta l'intenzione di venire con te! Meglio farlo rientrare nella Poké Ball...
-<<[>>old<<]>>Shulong seems to be determined to come with you! It’d better get back in its Poké Ball...
+<<[>>old<<]>>A quanto pare Shulong ha tutta l'intenzione di venire con te! Meglio farlo rientrare nella Poké Ball...
 <<[>>old<<]>>Non vorrai rientrare in casa dopo tutta la fatica...?
-<<[>>old<<]>>You can’t go back home after all that trouble!
+<<[>>old<<]>>Non vorrai rientrare in casa dopo tutta la fatica...?
 Edera
-Clover
+Edera
 \PN, non ti fermi proprio mai, tu!
 \PN, non ti fermi proprio mai, tu!
 Non sono mai riuscita a ringraziarti come si deve per tutto ciò che hai fatto per questa famiglia...
@@ -1484,15 +1518,15 @@ Questo è un oggetto che custodisco da quando ero ancora una bambina, ma vorrei 
 ???
 ???
 Ehi, \PN! Dove corri?
-Hey, \PN! Where are you running?
+Ehi, \PN! Dove corri?
 Oh oh! Ma guarda un po'... La mamma si è decisa a lasciarti andare! Si sarà resa conto di essere stata fin troppo protettiva con te...? Ih ih!
-Ho-ho! Look at that... Your mommy finally\nlet you go, huh?\nShe probably realized she was shielding you too much… Hee-hee!
+Oh oh! Ma guarda un po'... La mamma si è decisa a lasciarti andare! Si sarà resa conto di essere stata fin troppo protettiva con te...? Ih ih!
 Beh, stai per affrontare un viaggio che ti porterà ad incontrare tanti nuovi Pokémon! Lascia che ti mostri una cosuccia allora!
-Well, you are about to start a journey that will make\nyou run into a bunch of new Pokémon!\nLet me show you something then!
+Beh, stai per affrontare un viaggio che ti porterà ad incontrare tanti nuovi Pokémon! Lascia che ti mostri una cosuccia allora!
 Come puoi ben vedere, quest'erba è più alta di quella normale... È qui che si annidano i Pokémon selvatici! Ma non temere, puoi catturarli con dei particolari aggeggi chiamati Poké Ball. Ecco, prendine un po'.
-As you can see, the grass here is taller than usual...\nThat’s where wild Pokémon live!\nBut don’t worry, you can catch them with special gizmos called Poké Balls.\nHere, take some.
+Come puoi ben vedere, quest'erba è più alta di quella normale... È qui che si annidano i Pokémon selvatici! Ma non temere, puoi catturarli con dei particolari aggeggi chiamati Poké Ball. Ecco, prendine un po'.
 Tuttavia, non si può catturare un Pokémon nel pieno delle forze... occorre prima indebolirlo! Solo dopo averlo attaccato, puoi lanciargli una Poké Ball e sperare di acchiapparlo. Perché non fai una prova?
-However, you cannot catch a healthy Pokémon...\nyou must weaken it first!\nAfter having battled for a bit, try to launch a Poké Ball\nand cross your fingers to catch it.\nWhy don’t you give it a try?
+Tuttavia, non si può catturare un Pokémon nel pieno delle forze... occorre prima indebolirlo! Solo dopo averlo attaccato, puoi lanciargli una Poké Ball e sperare di acchiapparlo. Perché non fai una prova?
 <<[>>old<<]>>Ogni nuovo incontro è una nuova possibilità! Non perdere l'occasione di parlare con la gente e scoprire cose utili.
 <<[>>old<<]>>Ogni nuovo incontro è una nuova possibilità! Non perdere l'occasione di parlare con la gente e scoprire cose utili.
 Pino
@@ -1518,139 +1552,121 @@ Grazie a te, ora potrò dormire sonni tranquilli.
 <<[>>old<<]>>Devi prima entrare nell'erba alta!
 <<[>>old<<]>>Devi prima entrare nell'erba alta!
 <<[>>old<<]>>È il monumento in memoria del nonno... Che possa riposare in pace.
-<<[>>old<<]>>t’s grandfather's memorial... May he rest in peace.
+<<[>>old<<]>>È il monumento in memoria del nonno... Che possa riposare in pace.
 Fatti avanti senza paura! Il primo Pokémon non si scorda mai!
-Go on, no fears! You’ll never forget your first catch!
+Fatti avanti senza paura! Il primo Pokémon non si scorda mai!
 <<[>>old<<]>>Casa di \PN
-<<[>>old<<]>>\PN's Home
+<<[>>old<<]>>Casa di \PN
 <<[>>old<<]>>Andrei prima a portare un saluto al monumento del nonno...
-<<[>>old<<]>>You should go to give your regards to grandfather's memorial...
+<<[>>old<<]>>Andrei prima a portare un saluto al monumento del nonno...
 <<[>>old<<]>><b>Ranch Spigadoro</b> <i>''Dove nascono nuove stelle.''</i>
-<<[>>old<<]>><b>Nova Ranch</b> <i>''Where new stars are born.''</i>
+<<[>>old<<]>><b>Ranch Spigadoro</b> <i>''Dove nascono nuove stelle.''</i>
 Dove pensi di andare, giovanotto?!
-Where do you think you’re going?!
+Dove pensi di andare, giovanotto?!
 Pensavi davvero di andartene senza dirmi nulla?! Ti sembra un comportamento maturo il tuo?!
-Did you really want to run away without saying a word?! What a childish behavior!
+Pensavi davvero di andartene senza dirmi nulla?! Ti sembra un comportamento maturo il tuo?!
 Lo so benissimo che ti manca papà! Pensi che io non provi lo stesso, \PN? Non è affatto facile crescere un figlio da sola!
-I know you miss your dad! Don’t you think I feel the same, \PN?\nIt’s not easy to raise a child on your own!
+Lo so benissimo che ti manca papà! Pensi che io non provi lo stesso, \PN? Non è affatto facile crescere un figlio da sola!
 Credi sul serio che un novizio come te possa fare più di due adulti? Non ti rendi conto di quanto sia pericoloso il mondo là fuori!
-Do you really think a newbie like you could do more than\ntwo adults?!\nYou don’t even imagine how dangerous the world\nout there is!
+Credi sul serio che un novizio come te possa fare più di due adulti? Non ti rendi conto di quanto sia pericoloso il mondo là fuori!
 Tu
-You
+Tu
 ...!
 ...!
 Shyleon è della stessa idea allora...! Sarebbe dovuto succedere, prima o poi...
-So Shyleon agrees with you...!\nIt had to happen, sooner or later...
+Shyleon è della stessa idea allora...! Sarebbe dovuto succedere, prima o poi...
 Vedo che con te le parole servono a poco, \PN. Bene, allora...
-I see talk is cheap with you, \PN.\nWell, then...
-Dimostrami di essere davvero all'altezza con una lotta Pokémon!
-Prove me to be worthy of this with a Pokémon battle!
+Vedo che con te le parole servono a poco, \PN. Bene, allora... 
 Se darti una lezione servirà a proteggerti, lo farò senza pensarci due volte. Avanti!
-I’m ready to teach you a lesson if that’s the only way I have to protect you. Come on!
+Se darti una lezione servirà a proteggerti, lo farò senza pensarci due volte. Avanti!
 Hai la sua stessa determinazione...
-I can see his determination shining through your eyes...
+Hai la sua stessa determinazione...
 Trishout è della stessa idea allora...! Sarebbe dovuto succedere, prima o poi...
-So Trishout agrees with you...!\nIt had to happen, sooner or later...
+Trishout è della stessa idea allora...! Sarebbe dovuto succedere, prima o poi...
 Shulong è della stessa idea allora...! Sarebbe dovuto succedere, prima o poi...
-So Shulong agrees with you...!\nIt had to happen, sooner or later...
+Shulong è della stessa idea allora...! Sarebbe dovuto succedere, prima o poi...
 Dove pensi di andare, signorina?!
-Where do you think you’re going?!
+Dove pensi di andare, signorina?!
 Lo so benissimo che ti manca papà! Pensi che io non provi lo stesso, \PN? Non è affatto facile crescere una figlia da sola!
-I know you miss your dad! Don’t you think I feel the same, \PN?\nIt’s not easy to raise a child on your own!
+Lo so benissimo che ti manca papà! Pensi che io non provi lo stesso, \PN? Non è affatto facile crescere una figlia da sola!
 Credi sul serio che una novizia come te possa fare più di due adulti? Non ti rendi conto di quanto sia pericoloso il mondo là fuori!
-Do you really think a newbie like you could do more than\ntwo adults?!\nYou don’t even imagine how dangerous the world\nout there is!
+Credi sul serio che una novizia come te possa fare più di due adulti? Non ti rendi conto di quanto sia pericoloso il mondo là fuori!
 ... Ma a chi voglio darla a bere? Non riesco a far cambiare idea a mio figlio, figuriamoci a ritrovare un uomo scomparso...
-...\nWho am I kidding?\nI cannot even change my son’s mind, how am I supposed to find a missing man...?
+... Ma a chi voglio darla a bere? Non riesco a far cambiare idea a mio figlio, figuriamoci a ritrovare un uomo scomparso...
 \PN, nei tuoi occhi ho visto la determinazione... È davvero questo ciò che desideri più d'ogni altra cosa?
-\PN, I’ve seen the determination in your eyes...\nIs this what you really desire the most in this world?
+\PN, nei tuoi occhi ho visto la determinazione... È davvero questo ciò che desideri più d'ogni altra cosa?
 Forse è proprio come dice Nonna Lea, non bisogna tarpare le ali ai propri figli...
-Maybe Nana Flora is right, I shouldn’t clip\nmy child’s wings...
-Ho sbagliato a tenerti all'oscuro così a lungo, ma l'ho fatto solo per il tuo bene!
-I had no right to keep you from this so long, but I did it\nonly for your sake!
+Forse è proprio come dice Nonna Lea, non bisogna tarpare le ali ai propri figli...
 Adesso che sai la verità, però, sono certa che non saresti felice di star qui, senza poter fare nulla per reagire!
-But now you know the truth, I’m sure you won’t be happy\nto stay here without being able to help!
+Adesso che sai la verità, però, sono certa che non saresti felice di star qui, senza poter fare nulla per reagire!
 E va bene, tesoro! È giusto che anche tu spicchi il volo per crescere e maturare! Se questo è il tuo sogno, va' e affronta la tua grande avventura per <b>Eldiw</b>! Ma ricorda che per qualsiasi cosa io sarò qui, pronta ad accoglierti a braccia aperte!
-Okay, darling! I think you should leave the nest to grow and mature!\nIf this is what you want, just go and embark on this great adventure through <b>Eldiw</b> region!\nBut remember, I’ll always be here and you’ll always be welcome, whenever you need!
+E va bene, tesoro! È giusto che anche tu spicchi il volo per crescere e maturare! Se questo è il tuo sogno, va' e affronta la tua grande avventura per <b>Eldiw</b>! Ma ricorda che per qualsiasi cosa io sarò qui, pronta ad accoglierti a braccia aperte!
 Oh, giusto!
-Oh, right!
+Oh, giusto!
 Con tutta questa faccenda quasi dimenticavo il tuo regalo di compleanno.
-This whole thing almost made me forget your birthday present.
-Ecco qui, ometto! Queste ti faranno di sicuro comodo!
-Here it is, lil' man! You’ll love these!
+Con tutta questa faccenda quasi dimenticavo il tuo regalo di compleanno.
 <<[>>old<<]>>Hai ottenuto delle scarpe nuove di zecca!
-<<[>>old<<]>>You obtained a pair of brand-new shoes!
+<<[>>old<<]>>Hai ottenuto delle scarpe nuove di zecca!
 Forza, indossale.
-Come on, put them on!
-Qui, sulla confezione, c'è scritto di premere il tasto Z per correre più veloce di un lampo!
-Here, on the package, they say to hold Z-key to run faster than the wind!
+Forza, indossale.
 Ora hai tutto il necessario per raggiungere <b>Balansopoli</b> in sicurezza. Lì troverai <b>Aster</b>, un vecchio amico di papà. Senza dubbio saprà darti qualche dritta!
-Now you have everything you need to reach\n<b>Hadwarf City</b> safely.\nDown there you will meet <b>Aster</b>, an old friend of dad’s.\nI’m sure he'll give you some useful tips!
+Ora hai tutto il necessario per raggiungere <b>Balansopoli</b> in sicurezza. Lì troverai <b>Aster</b>, un vecchio amico di papà. Senza dubbio saprà darti qualche dritta!
 Mi raccomando, non farmi stare in pensiero. Shyleon, tienimelo d'occhio, intesi? Ah ah ah!
-Be careful, and don’t make me worry.\nShyleon, keep an eye on this brat, okay? Ha ha ha!
+Mi raccomando, non farmi stare in pensiero. Shyleon, tienimelo d'occhio, intesi? Ah ah ah!
 In bocca al lupo, mio piccolo ometto! Ti voglio bene.
-Best of luck to you, my lil' man!\nI love you.
+In bocca al lupo, mio piccolo ometto! Ti voglio bene.
 Mi raccomando, non farmi stare in pensiero. Trishout, tienimelo d'occhio, intesi? Ah ah ah!
-Be careful, and don’t make me worry.\nTrishout, keep an eye on this brat, okay? Ha ha ha!
+Mi raccomando, non farmi stare in pensiero. Trishout, tienimelo d'occhio, intesi? Ah ah ah!
 Mi raccomando, non farmi stare in pensiero. Shulong, tienimelo d'occhio, intesi? Ah ah ah!
-Be careful, and don’t make me worry.\nShulong, keep an eye on this brat, okay? Ha ha ha!
+Mi raccomando, non farmi stare in pensiero. Shulong, tienimelo d'occhio, intesi? Ah ah ah!
 ... Ma a chi voglio darla a bere? Non riesco a far cambiare idea a mia figlia, figuriamoci a ritrovare un uomo scomparso...
-...\nWho am I kidding?\nI cannot even change my daughter's mind, how am I supposed to find a missing man...?
-Ecco qui, principessa! Queste ti faranno di sicuro comodo!
-Here it is, princess! You’ll love these!
+... Ma a chi voglio darla a bere? Non riesco a far cambiare idea a mia figlia, figuriamoci a ritrovare un uomo scomparso...
 Mi raccomando, non farmi stare in pensiero. Shyleon, tienimela d'occhio, intesi? Ah ah ah!
-Be careful, and don’t make me worry.\nShyleon, keep an eye on this brat, okay? Ha ha ha!
+Mi raccomando, non farmi stare in pensiero. Shyleon, tienimela d'occhio, intesi? Ah ah ah!
 In bocca al lupo per tutto, mia piccola principessa! Ti voglio bene.
-Best of luck to you, my princess!\nI love you.
+In bocca al lupo per tutto, mia piccola principessa! Ti voglio bene.
 Mi raccomando, non farmi stare in pensiero. Trishout, tienimela d'occhio, intesi? Ah ah ah!
-Be careful, and don’t make me worry.\nTrishout, keep an eye on this brat, okay? Ha ha ha!
+Mi raccomando, non farmi stare in pensiero. Trishout, tienimela d'occhio, intesi? Ah ah ah!
 Mi raccomando,non farmi stare in pensiero. Shulong, tienimela d'occhio, intesi? Ah ah ah!
-Be careful, and don’t make me worry.\nShulong, keep an eye on this brat, okay? Ha ha ha!
+Mi raccomando,non farmi stare in pensiero. Shulong, tienimela d'occhio, intesi? Ah ah ah!
 Versil
 Versil
 Ma guarda un po' che bella giornata! Quest’aria fresca mi mette sempre di buonumore.
-Look what a beautiful day! This fresh air always\ncheers me up.
+Ma guarda un po' che bella giornata! Quest’aria fresca mi mette sempre di buonumore.
 Forza, andiamo \PN. Ti faccio un po' vedere il nostro ranch.
-Come on, let's go \PN. I’m gonna show you around\nour ranch.
+Forza, andiamo \PN. Ti faccio un po' vedere il nostro ranch.
 Per di qua. La nostra prima tappa sarà la fattoria.
-Come this way. Our first stop will be the farm.
+Per di qua. La nostra prima tappa sarà la fattoria.
 Vedi quei Pokémon che pascolano nel grano laggiù?
-See those Pokémon grazing in the field over there?
-Si chiamano Miltank e ci forniscono sempre del delizioso Latte Mumu. Alla sera, però li chiudiamo nella stalla per evitare che si facciano del male.
-They're called Miltank and they always provide us\nwith delicious Moomoo Milk.\nIn the evening, however, we close them in the barn\nto keep them safe.
+Vedi quei Pokémon che pascolano nel grano laggiù?
 Voglio mostrarti un'altra cosa. Coraggio, seguimi.
-I want to show you something else. Come on, follow me.
+Voglio mostrarti un'altra cosa. Coraggio, seguimi.
 Le acque di questo laghetto sono così limpide che schiariscono anche la mente... Non trovi, \PN?
-The waters of this pond are so clear they put your mind\nat ease… Don’t you think?
+Le acque di questo laghetto sono così limpide che schiariscono anche la mente... Non trovi, \PN?
 <<[>>old<<]>>Ora va meglio...
-<<[>>old<<]>>It's better now...
+<<[>>old<<]>>Ora va meglio...
 Meglio, vero?
-Better, right?
-Forza, andiamo! C'è un'ultima cosa che devi vedere.
-Come on, there is one last thing you need to see.
+Meglio, vero?
 Vedi questo piccolo monumento, \PN?
-See this little memorial, \PN?
-È stato eretto in onore di tuo nonno che ci ha lasciati da anni ormai... ma sei ancora troppo piccolo|a per queste storie...
-It was erected in honor of your grandfather who left us years ago... but you're still too young for these stories...
+Vedi questo piccolo monumento, \PN?
 E questo è quanto. Ora si torna a casa!
-And that’s it! Now let’s get back home!
+E questo è quanto. Ora si torna a casa!
 Cos'è stato?!
-What was that?!
+Cos'è stato?!
 Ma... cosa ci fanno delle Poké Ball qui?! Le avrà perse qualcuno...? \PN, aspettami qui. Io vado a controllare.
-Wha- There are three Poké Balls here!\nDid someone lose them...?\n\PN, stay here. I'm going to check.
+Ma... cosa ci fanno delle Poké Ball qui?! Le avrà perse qualcuno...? \PN, aspettami qui. Io vado a controllare.
 Mh...
-Hmm...
+Mh...
 Sembra anche che ognuna contenga un Pokémon... Uno di tipo Erba, uno di tipo Fuoco e uno di tipo Acqua.
-It seems that each one contains a Pokémon...\nA Grass-type, a Fire-type and a Water-type.
-Mi è venuta un'idea! \PN, perché non ne prendi uno?
-I had an idea! \PN, why don't you pick one?
+Sembra anche che ognuna contenga un Pokémon... Uno di tipo Erba, uno di tipo Fuoco e uno di tipo Acqua.
 Potrei prendermene cura io finché non sarai abbastanza grande. Forza, scegli il Pokémon che più ti piace!
-I could take care of it until you're old enough.\nCome on, choose the Pokémon you like best!
+Potrei prendermene cura io finché non sarai abbastanza grande. Forza, scegli il Pokémon che più ti piace!
 Perfetto, prendiamo lui!
-Alright, let's pick it!
+Perfetto, prendiamo lui!
 Ehi, tu! Giù le mani da quelle Poké Ball!
-Hey you! Hands off those Poké Balls!
+Ehi, tu! Giù le mani da quelle Poké Ball!
 Attacca, <b>Tyranitar</b>!!
-Get 'em, <b>Tyranitar</b>!!
+Attacca, <b>Tyranitar</b>!!
 Tyraaa!!
 Tyraaa!!
 Lucio
@@ -1663,19 +1679,19 @@ Cerca di non incrociare lo sguardo con nessuno quando vuoi evitare di lottare.
 Cerca di non incrociare lo sguardo con nessuno quando vuoi evitare di lottare.
 [Map37]
 <<[>>old<<]>>È un Nintendo Switch nuovo di zecca!
-<<[>>old<<]>>A brand new Nintendo Switch!
+<<[>>old<<]>>È un Nintendo Switch nuovo di zecca!
 <<[>>old<<]>>Un noto canale chiamato WEEDle ha appena caricato un video...
-<<[>>old<<]>>A renowned channel called WEEDle just uploaded a video...
+<<[>>old<<]>>Un noto canale chiamato WEEDle ha appena caricato un video...
 <<[>>old<<]>>Hai sbloccato un nuovo potere per il tuo Pokémon iniziale: l’<b>Astroevoluzione</b>! Rimuovi l’Anello che tiene per sprigionare tutto il suo potenziale durante la lotta!
 <<[>>old<<]>>Hai sbloccato un nuovo potere per il tuo Pokémon iniziale: l’<b>Astroevoluzione</b>! Rimuovi l’Anello che tiene per sprigionare tutto il suo potenziale durante la lotta!
 <<[>>old<<]>>In TV danno quel famoso talent musicale!
-<<[>>old<<]>>That famous singing show is on!
+<<[>>old<<]>>In TV danno quel famoso talent musicale!
 Tu
-You
+Tu
 ...
 ...
 <<[>>old<<]>>È una vecchia fotografia con mamma e papà...
-<<[>>old<<]>>It's an old picture with mom and dad...
+<<[>>old<<]>>È una vecchia fotografia con mamma e papà...
 Shyleon
 Shyleon
 Shy...!
@@ -1685,11 +1701,11 @@ Shy...!
 Shy...
 Shy...
 <<[>>old<<]>>Sembra che Shyleon abbia qualcosa in mente!
-<<[>>old<<]>>It seems Shyleon's up to something!
+<<[>>old<<]>>Sembra che Shyleon abbia qualcosa in mente!
 <<[>>old<<]>>Ma certo! Ti sta suggerendo di scappare via dalla finestra!
-<<[>>old<<]>>Got it! It’s suggesting you to jump out the window!
+<<[>>old<<]>>Ma certo! Ti sta suggerendo di scappare via dalla finestra!
 <<[>>old<<]>>È la Poké Ball di Shyleon. Sarà bene prenderla con sé...
-<<[>>old<<]>>That’s Shyleon’s Poké Ball. You’d better take it...
+<<[>>old<<]>>È la Poké Ball di Shyleon. Sarà bene prenderla con sé...
 Trishout
 Trishout
 Tri...!
@@ -1697,9 +1713,9 @@ Tri...!
 Tri...
 Tri...
 <<[>>old<<]>>Sembra che Trishout abbia qualcosa in mente!
-<<[>>old<<]>>It seems Trishout's up to something!
+<<[>>old<<]>>Sembra che Trishout abbia qualcosa in mente!
 <<[>>old<<]>>È la Poké Ball di Trishout. Sarà bene prenderla con sé...
-<<[>>old<<]>>That’s Trishout's Poké Ball. You’d better take it...
+<<[>>old<<]>>È la Poké Ball di Trishout. Sarà bene prenderla con sé...
 Shulong
 Shulong
 Shu...!
@@ -1707,25 +1723,25 @@ Shu...!
 Shu...
 Shu...
 <<[>>old<<]>>Sembra che Shulong abbia qualcosa in mente!
-<<[>>old<<]>>It seems Shulong's up to something!
+<<[>>old<<]>>Sembra che Shulong abbia qualcosa in mente!
 <<[>>old<<]>>È la Poké Ball di Shulong. Sarà bene prenderla con sé...
-<<[>>old<<]>>That’s Shulong's Poké Ball. You’d better take it...
+<<[>>old<<]>>È la Poké Ball di Shulong. Sarà bene prenderla con sé...
 <<[>>old<<]>>È la Poké Ball di Shyleon.
-<<[>>old<<]>>That’s Shyleon's Poké Ball.
+<<[>>old<<]>>È la Poké Ball di Shyleon.
 <<[>>old<<]>>È la Poké Ball di Trishout.
-<<[>>old<<]>>That’s Trishout's Poké Ball.
+<<[>>old<<]>>È la Poké Ball di Trishout.
 <<[>>old<<]>>È la Poké Ball di Shulong.
-<<[>>old<<]>>That’s Shulong's Poké Ball.
+<<[>>old<<]>>È la Poké Ball di Shulong.
 <<[>>old<<]>>Vuoi accendere la televisione?
-<<[>>old<<]>>You want to turn on the TV?
+<<[>>old<<]>>Vuoi accendere la televisione?
 <<[>>old<<]>>Vuoi spegnere la televisione?
-<<[>>old<<]>>You want to turn off the TV?
+<<[>>old<<]>>Vuoi spegnere la televisione?
 <<[>>old<<]>>Era solo un brutto sogno...
-<<[>>old<<]>>It was just a nightmare...
+<<[>>old<<]>>Era solo un brutto sogno...
 <<[>>old<<]>>Forse è meglio scendere al piano terra...
-<<[>>old<<]>>Maybe it is better to go downstairs...
+<<[>>old<<]>>Forse è meglio scendere al piano terra...
 Sì
-Yes
+Sì
 No
 No
 [Map38]
@@ -1796,16 +1812,16 @@ Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
 Si
-Yes
+Si
 No
 No
 Sì
-Yes
+Sì
 [Map39]
 <<[>>old<<]>>Palestra Radice\nCapopalestra: <b>Alisso</b> <i>''Un tutt'uno con la natura!''</i> Allenatori Certificati: 0
-<<[>>old<<]>>Hadwarf Gym\nGym Leader: <b>Basil</b> <i>''Un tutt'uno con la natura!''</i> Allenatori Certificati: 0
+<<[>>old<<]>>Palestra Radice\nCapopalestra: <b>Alisso</b> <i>''Un tutt'uno con la natura!''</i> Allenatori Certificati: 0
 <<[>>old<<]>>Palestra Radice\nCapopalestra: <b>Alisso</b> <i>''Un tutt'uno con la natura!''</i> Allenatori Certificati: \PN
-<<[>>old<<]>>Hadwarf Gym\nGym Leader: <b>Basil</b> <i>''Un tutt'uno con la natura!''</i> Allenatori Certificati: \PN
+<<[>>old<<]>>Palestra Radice\nCapopalestra: <b>Alisso</b> <i>''Un tutt'uno con la natura!''</i> Allenatori Certificati: \PN
 <<[>>new,Aster,ludopoli/ezio,smile,left,true<<]>>
 <<[>>new,Aster,ludopoli/ezio,smile,left,true<<]>>
 Oh, \PN! Ero certo che avresti seguito il mio consiglio. Beh, com'è andata in Palestra?
@@ -1996,12 +2012,6 @@ Sì
 No
 No
 [Map41]
-Olivia
-Olivia
-Qui non faccio altro che compilare scartoffie su scartoffie!
-Qui non faccio altro che compilare scartoffie su scartoffie!
-<<[>>old<<]>>Il cestino è pieno di carta straccia.
-<<[>>old<<]>>Il cestino è pieno di carta straccia.
 Camilla
 Camilla
 Questo laboratorio è immenso! Se solo avessi la mia Pokébambola con me...
@@ -2010,14 +2020,20 @@ Ma quella è proprio la mia Pokébambola che avevo dimenticato dal nonno! Grazie
 Ma quella è proprio la mia Pokébambola che avevo dimenticato dal nonno! Grazie di avermela riportata! Puoi dire al nonnino di non preoccuparsi?
 Ora non mi manca niente!
 Ora non mi manca niente!
-<<[>>old<<]>>Sembra un aggeggio piuttosto complicato. Meglio non toccarlo.
-<<[>>old<<]>>Sembra un aggeggio piuttosto complicato. Meglio non toccarlo.
+<<[>>old<<]>>Il cestino è pieno di carta straccia.
+<<[>>old<<]>>Il cestino è pieno di carta straccia.
+Olivia
+Olivia
+Qui non faccio altro che compilare scartoffie su scartoffie!
+Qui non faccio altro che compilare scartoffie su scartoffie!
+<<[>>old<<]>>Ci sono tantissimi libri complicati qui.
+<<[>>old<<]>>Ci sono tantissimi libri complicati qui.
 Altea
 Altea
 Sono piena di pratiche da svolgere.
 Sono piena di pratiche da svolgere.
-<<[>>old<<]>>Ci sono tantissimi libri complicati qui.
-<<[>>old<<]>>Ci sono tantissimi libri complicati qui.
+<<[>>old<<]>>Sembra un aggeggio piuttosto complicato. Meglio non toccarlo.
+<<[>>old<<]>>Sembra un aggeggio piuttosto complicato. Meglio non toccarlo.
 Tiffany
 Tiffany
 Sai già tutto sui Pokémon di <b>tipo Suono</b>?
@@ -2028,16 +2044,6 @@ Tranquillo|a, ci penso io a spiegartelo!
 Tranquillo|a, ci penso io a spiegartelo!
 I Pokémon di tipo Suono sono forti su quelli di tipo <b>Acqua</b>, <b>Volante</b> e <b>Folletto</b>, ma temono quelli di tipo <b>Drago</b> ed <b>Elettro</b>!
 I Pokémon di tipo Suono sono forti su quelli di tipo <b>Acqua</b>, <b>Volante</b> e <b>Folletto</b>, ma temono quelli di tipo <b>Drago</b> ed <b>Elettro</b>!
-Alice
-Alice
-Che bello vederti, \PN! Aster ti dà sempre un gran da fare, eh? Non mollare, so che puoi riuscire in qualsiasi impresa, tu! Vero, Pikachu?
-Che bello vederti, \PN! Aster ti dà sempre un gran da fare, eh? Non mollare, so che puoi riuscire in qualsiasi impresa, tu! Vero, Pikachu?
-Pikachu
-Pikachu
-Pika!
-Pika!
-Kay
-Kay
 Aster
 Aster
 \PN, ti aspettavo! Il mio ricercatore ti ha dato quello che cercavo? Fa' vedere.
@@ -2210,14 +2216,26 @@ Questo è il più grande traguardo che il laboratorio di Balansopoli potesse ott
 <<[>>old<<]>>Hai completato il gioco al 100%. Complimenti da tutto lo staff.
 Non ho nient altro da insegnarti \PN. Grazie per tutto l'aiuto fornito! Ora puoi esplorare tranquillamente tutta la regione. Mi raccomando, divertiti!
 Non ho nient altro da insegnarti \PN. Grazie per tutto l'aiuto fornito! Ora puoi esplorare tranquillamente tutta la regione. Mi raccomando, divertiti!
-<<[>>old<<]>>Questo computer è pieno di informazioni sul mondo dei Pokémon.
-<<[>>old<<]>>Questo computer è pieno di informazioni sul mondo dei Pokémon.
+Alice
+Alice
+Che bello vederti, \PN! Aster ti dà sempre un gran da fare, eh? Non mollare, so che puoi riuscire in qualsiasi impresa, tu! Vero, Pikachu?
+Che bello vederti, \PN! Aster ti dà sempre un gran da fare, eh? Non mollare, so che puoi riuscire in qualsiasi impresa, tu! Vero, Pikachu?
+Pikachu
+Pikachu
+Pika!
+Pika!
+Kay
+Kay
+<<[>>old<<]>>Sembra un macchinario molto complicato.
+<<[>>old<<]>>Sembra un macchinario molto complicato.
 Adolfo
 Adolfo
 Smamma, sono in pausa pranzo!
 Smamma, sono in pausa pranzo!
-<<[>>old<<]>>Sembra un macchinario molto complicato.
-<<[>>old<<]>>Sembra un macchinario molto complicato.
+<<[>>old<<]>>Questo computer è pieno di informazioni sul mondo dei Pokémon.
+<<[>>old<<]>>Questo computer è pieno di informazioni sul mondo dei Pokémon.
+<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>Il cestino è vuoto.
 Devo ammettere che hai fatto un lavoro davvero egregio! Ancora i miei complimenti! Ero certo che non sarei dovuto intervenire per salvarti la pelle. Ah ah ah!
 Devo ammettere che hai fatto un lavoro davvero egregio! Ancora i miei complimenti! Ero certo che non sarei dovuto intervenire per salvarti la pelle. Ah ah ah!
 Benvenuto|a nel mio laboratorio! Qui è dove conduco studi sui misteriosi <b>Pokémon X</b>. È proprio qui che, grazie al rispetto reciproco, è stata concepita la <b>Xeno Ball</b>, l'unico dispositivo in grado di arginare i poteri di queste mistiche creature...
@@ -2226,8 +2244,6 @@ Se vuoi maturare come Allenatore, ti consiglio di sfidare i <b>Capipalestra</b> 
 Se vuoi maturare come Allenatore, ti consiglio di sfidare i <b>Capipalestra</b> della regione. Sai, anche Balansopoli ospita una <b>Palestra</b>... Potresti partire proprio da quella, che ne dici?
 Oh, cavolo! Ero così preso dal discorso che ho perso la cognizione del tempo. \PN, ora devo proprio scappare o rischio di fare tardi alla conferenza. Riguardati, mi raccomando!
 Oh, cavolo! Ero così preso dal discorso che ho perso la cognizione del tempo. \PN, ora devo proprio scappare o rischio di fare tardi alla conferenza. Riguardati, mi raccomando!
-<<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
 Ilaria
 Ilaria
 Pare che nelle altre regioni, il tipo Suono non venga studiato così approfonditamente come ad Eldiw.
@@ -2242,28 +2258,28 @@ Se te ne servono delle altre, chiedi pure a me.
 Se te ne servono delle altre, chiedi pure a me.
 Xeno Ball a volontà per il||la caro|a \PN! Allora, quante te ne servono?
 Xeno Ball a volontà per il||la caro|a \PN! Allora, quante te ne servono?
+<<[>>old<<]>>È un grafico a torta che mostra la presenza dei Pokémon selvatici nel territorio.
+<<[>>old<<]>>È un grafico a torta che mostra la presenza dei Pokémon selvatici nel territorio.
 Ugo
 Ugo
 Proprio non capisco cosa non vada...
 Proprio non capisco cosa non vada...
-<<[>>old<<]>>È un grafico a torta che mostra la presenza dei Pokémon selvatici nel territorio.
-<<[>>old<<]>>È un grafico a torta che mostra la presenza dei Pokémon selvatici nel territorio.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
-Carlo
-Carlo
-Aster è davvero ben voluto da tutti, ma alle volte è un tale perfezionista...
-Aster è davvero ben voluto da tutti, ma alle volte è un tale perfezionista...
 Silvana
 Silvana
 Il mio Pokémon, dici? Ah, ma parli di questo qui!
 Il mio Pokémon, dici? Ah, ma parli di questo qui!
 Dove c’è Centro Porygon, c’è casa!
 Dove c’è Centro Porygon, c’è casa!
+Carlo
+Carlo
+Aster è davvero ben voluto da tutti, ma alle volte è un tale perfezionista...
+Aster è davvero ben voluto da tutti, ma alle volte è un tale perfezionista...
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>Non hai abbastanza soldi.
 Michele
 Michele
 Non dev’essere facile dirigere un intero laboratorio. Mi chiedo come faccia Aster...
@@ -2510,22 +2526,14 @@ Uaaaargh!!
 <<[>>old<<]>>Sarebbe stato meglio non dare un'occhiata...
 <<[>>old<<]>>Sarebbe stato meglio non dare un'occhiata...
 [Map53]
+<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
+<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Soy
 Soy
 Questo è il mini Pokémon-Market del Campus Ariepoli.
 Questo è il mini Pokémon-Market del Campus Ariepoli.
-<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
-<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Che sia stress o ansia, fatti una bella corsetta e tutto passa!
 <<[>>old<<]>>Che sia stress o ansia, fatti una bella corsetta e tutto passa!
-???
-???
-Tsk! Davvero niente male.
-Tsk! Davvero niente male.
-Quel pivello è riuscito a risvegliare quell'<b>Energia</b> <b>Rossa</b> e a suonarle a quei due babbei... Due piccioni con una fava. Uh uh!
-Quel pivello è riuscito a risvegliare quell'<b>Energia</b> <b>Rossa</b> e a suonarle a quei due babbei... Due piccioni con una fava. Uh uh!
-Quella pivella è riuscita a risvegliare quell'<b>Energia</b> <b>Rossa</b> e a suonarle a quei due babbei... Due piccioni con una fava. Uh uh!
-Quella pivella è riuscita a risvegliare quell'<b>Energia</b> <b>Rossa</b> e a suonarle a quei due  babbei... Due piccioni con una fava. Uh uh!
 SA9
 SA9
 Cos'è? Cerchi rogne? <i>Bzz!</i>
@@ -2534,8 +2542,20 @@ Stefano
 Stefano
 In vista degli esami, ho affidato i miei Pokémon alla Pensione e quando sono tornato... ho trovato un Uovo!
 In vista degli esami, ho affidato i miei Pokémon alla Pensione e quando sono tornato... ho trovato un Uovo!
+???
+???
+Tsk! Davvero niente male.
+Tsk! Davvero niente male.
+Quel pivello è riuscito a risvegliare quell'<b>Energia</b> <b>Rossa</b> e a suonarle a quei due babbei. Due piccioni con una fava. Uh uh!
+Quel pivello è riuscito a risvegliare quell'<b>Energia</b> <b>Rossa</b> e a suonarle a quei due babbei. Due piccioni con una fava. Uh uh!
+Quella pivella è riuscita a risvegliare quell'<b>Energia</b> <b>Rossa</b> e a suonarle a quei due babbei. Due piccioni con una fava. Uh uh!
+Quella pivella è riuscita a risvegliare quell'<b>Energia</b> <b>Rossa</b> e a suonarle a quei due babbei. Due piccioni con una fava. Uh uh!
 <<[>>old<<]>>Pensione Pokémon
 <<[>>old<<]>>Pensione Pokémon
+9RE
+9RE
+I <b>Sergenti</b> sono anni luce avanti a te. <i>Bzz!</i>
+I <b>Sergenti</b> sono anni luce avanti a te. <i>Bzz!</i>
 Sta' zitto! È meglio il baseball!
 Sta' zitto! È meglio il baseball!
 Niente da fare! Meglio il football!
@@ -2550,22 +2570,6 @@ Devi proprio avere dei pessimi gusti...
 Devi proprio avere dei pessimi gusti...
 BASEBALL FOREVER! GO-GO, GRANBULLS!
 BASEBALL FOREVER! GO-GO, GRANBULLS!
-9RE
-9RE
-I <b>Sergenti</b> sono anni luce avanti a te. <i>Bzz!</i>
-I <b>Sergenti</b> sono anni luce avanti a te. <i>Bzz!</i>
-Sta' zitto! È meglio il football!
-Sta' zitto! È meglio il football!
-Niente da fare! Meglio il baseball!
-Niente da fare! Meglio il baseball!
-Ehi! Il football è meglio del baseball, tu che dici?
-Ehi! Il football è meglio del baseball, tu che dici?
-Mirco
-Mirco
-Ma sei serio|a?!
-Ma sei serio|a?!
-FOOTBALL FOREVER! GO-GO, GRANBULLS!
-FOOTBALL FOREVER! GO-GO, GRANBULLS!
 6O9
 6O9
 Smamma! Anche questa <b>Pensione Pokémon</b> è del Team Dimension! <i>Bzz!</i>
@@ -2596,18 +2600,32 @@ Si direbbe che quei due vadano d’accordo.
 Si direbbe che quei due vadano d’accordo.
 Quei due vanno d’amore e d’accordo!
 Quei due vanno d’amore e d’accordo!
-Granbull è la mascotte del nostro campus sin dagli inizi! È un Pokémon così carino!
-Granbull è la mascotte del nostro campus sin dagli inizi! È un Pokémon così carino!
+Sta' zitto! È meglio il football!
+Sta' zitto! È meglio il football!
+Niente da fare! Meglio il baseball!
+Niente da fare! Meglio il baseball!
+Ehi! Il football è meglio del baseball, tu che dici?
+Ehi! Il football è meglio del baseball, tu che dici?
+Mirco
+Mirco
+Ma sei serio|a?!
+Ma sei serio|a?!
+FOOTBALL FOREVER! GO-GO, GRANBULLS!
+FOOTBALL FOREVER! GO-GO, GRANBULLS!
 4X1
 4X1
 La <b>Recluta N8M</b> è arrivata da me frignando come un cucciolo di umano... Diceva di essere stata sconfitta da un umano... Non sarai mica tu?! <i>Bzz!</i>
 La <b>Recluta N8M</b> è arrivata da me frignando come un cucciolo di umano... Diceva di essere stata sconfitta da un umano... Non sarai mica tu?! <i>Bzz!</i>
-<<[>>old<<]>>"GO-GO, GRANBULLS!"
-<<[>>old<<]>>"GO-GO, GRANBULLS!"
+Granbull è la mascotte del nostro campus sin dagli inizi! È un Pokémon così carino!
+Granbull è la mascotte del nostro campus sin dagli inizi! È un Pokémon così carino!
 21P
 21P
 Accesso negato agli umani. <i>Bzz!</i>
 Accesso negato agli umani. <i>Bzz!</i>
+<<[>>old<<]>>"GO-GO, GRANBULLS!"
+<<[>>old<<]>>"GO-GO, GRANBULLS!"
+<<[>>old<<]>>Mini Pokémon-Market
+<<[>>old<<]>>Mini Pokémon-Market
 76G
 76G
 Dove credi di andare, umano|a?! I Sergenti non vogliono guastafeste tra i piedi. <i>Bzz!</i>
@@ -2618,12 +2636,10 @@ Ammasso di rottami, non vorrai deludere i tuoi superiori?! <i>Bzz!</i> Ci penso 
 Ammasso di rottami, non vorrai deludere i tuoi superiori?! <i>Bzz!</i> Ci penso io a tenere alto l'onore delle <b>Reclute</b> <b>Dimension</b>! <i>Bzz!</i>
 Abbiamo fallito, ma ci penseranno i <b>Sergenti</b> a farti la pelle! <i>Bzz!</i>
 Abbiamo fallito, ma ci penseranno i <b>Sergenti</b> a farti la pelle! <i>Bzz!</i>
-<<[>>old<<]>>Mini Pokémon-Market
-<<[>>old<<]>>Mini Pokémon-Market
-Noi Reclute siamo niente in confronto ai <b>Sergenti</b>. <i>Bzz!</i>
-Noi Reclute siamo niente in confronto ai <b>Sergenti</b>. <i>Bzz!</i>
 <<[>>old<<]>><b>Biblioteca di Ariepoli</b> <i>''Tempio del sapere della regione.''</i>
 <<[>>old<<]>><b>Biblioteca di Ariepoli</b> <i>''Tempio del sapere della regione.''</i>
+Noi Reclute siamo niente in confronto ai <b>Sergenti</b>. <i>Bzz!</i>
+Noi Reclute siamo niente in confronto ai <b>Sergenti</b>. <i>Bzz!</i>
 Non puoi aprire la porta senza lo starter in squadra.
 Non puoi aprire la porta senza lo starter in squadra.
 Sì
@@ -3230,28 +3246,20 @@ Sì
 No
 No
 [Map69]
-<<[>>old<<]>><b>Isola Pigliapesci</b> <i>''Pesca ricca e pace dei sensi.''</i>
-<<[>>old<<]>><b>Isola Pigliapesci</b> <i>''Pesca ricca e pace dei sensi.''</i>
-Enrico
-Enrico
-Sciò! Non vedi che ci stiamo baciando?!
-Sciò! Non vedi che ci stiamo baciando?!
 Marino
 Marino
 Vuoi tornare a <b>Balansopoli</b>?
 Vuoi tornare a <b>Balansopoli</b>?
 A bordo, si parte! Su, Pelipper!
 A bordo, si parte! Su, Pelipper!
-<<[>>old<<]>>Star...!
-<<[>>old<<]>>Star...!
-Bruto
-Bruto
-Vuoi tornare a Balansopoli?
-Vuoi tornare a Balansopoli?
-Si salpa allora!
-Si salpa allora!
-Se cambi idea, sai dove trovarmi.
-Se cambi idea, sai dove trovarmi.
+Enrico
+Enrico
+Sciò! Non vedi che ci stiamo baciando?!
+Sciò! Non vedi che ci stiamo baciando?!
+<<[>>old<<]>><b>Isola Pigliapesci</b> <i>''Pesca ricca e pace dei sensi.''</i>
+<<[>>old<<]>><b>Isola Pigliapesci</b> <i>''Pesca ricca e pace dei sensi.''</i>
+<<[>>old<<]>>Casa di Rem
+<<[>>old<<]>>Casa di Rem
 Antonio
 Antonio
 Neanche una vecchia ciabatta!
@@ -3260,16 +3268,24 @@ Aspetta! Ha abboccato qualcosa!
 Aspetta! Ha abboccato qualcosa!
 È solo una ciabatta... Che amarezza!
 È solo una ciabatta... Che amarezza!
-<<[>>old<<]>>Casa di Rem
-<<[>>old<<]>>Casa di Rem
-<<[>>new,Sig.Marino,ludopoli/marino,default,left,true<<]>>
-<<[>>new,Sig.Marino,ludopoli/marino,default,left,true<<]>>
-Eccoci qui. Torna pure da me quando vorrai ripartire.
-Eccoci qui. Torna pure da me quando vorrai ripartire.
+Bruto
+Bruto
+Vuoi tornare a Balansopoli?
+Vuoi tornare a Balansopoli?
+Si salpa allora!
+Si salpa allora!
+Se cambi idea, sai dove trovarmi.
+Se cambi idea, sai dove trovarmi.
+<<[>>old<<]>>Star...!
+<<[>>old<<]>>Star...!
 Swami
 Swami
 Quando bacio il mio ragazzo penso a quel gran fusto di <b>Daddy</b>... tu non dirglielo però!
 Quando bacio il mio ragazzo penso a quel gran fusto di <b>Daddy</b>... tu non dirglielo però!
+<<[>>new,Marino,ludopoli/marino,default,left,true<<]>>
+<<[>>new,Marino,ludopoli/marino,default,left,true<<]>>
+Eccoci qui. Torna pure da me quando vorrai ripartire.
+Eccoci qui. Torna pure da me quando vorrai ripartire.
 Glauco
 Glauco
 Mai pesca fu più fruttuosa! Non a caso si chiama Isola Pigliapesci!
@@ -3282,14 +3298,14 @@ Rita
 Rita
 Il castello di sabbia... l'ho visto muoversi!!
 Il castello di sabbia... l'ho visto muoversi!!
-Germano
-Germano
-So bene che non dovrei prendermela comoda, ma un buon allenamento richiede anche il giusto riposo.
-So bene che non dovrei prendermela comoda, ma un buon allenamento richiede anche il giusto riposo.
 Anna
 Anna
 Ultimamente sull’isola c’è un tale viavai di ricercatori di Balansopoli... Cosa vorranno mai da questo paradiso?
 Ultimamente sull’isola c’è un tale viavai di ricercatori di Balansopoli... Cosa vorranno mai da questo paradiso?
+Germano
+Germano
+So bene che non dovrei prendermela comoda, ma un buon allenamento richiede anche il giusto riposo.
+So bene che non dovrei prendermela comoda, ma un buon allenamento richiede anche il giusto riposo.
 Sofiro
 Sofiro
 Benvenuto|a sull'isola in cui regna il relax!
@@ -3300,20 +3316,20 @@ Analizzando questa roccia ho trovato qualcosa di molto interessante. Prendi!
 Analizzando questa roccia ho trovato qualcosa di molto interessante. Prendi!
 Chissà, magari arriva dallo spazio...
 Chissà, magari arriva dallo spazio...
+<<[>>old<<]>>Star...\n... key!
+<<[>>old<<]>>Star...\n... key!
 Enza
 Enza
 Il lavoro da ricercatore è gratificante, ma con tutto quello studio si finisce per impazzire!
 Il lavoro da ricercatore è gratificante, ma con tutto quello studio si finisce per impazzire!
-<<[>>old<<]>>Star...\n... key!
-<<[>>old<<]>>Star...\n... key!
-<<[>>old<<]>>Quando un Pokémon si sta evolvendo, puoi bloccare il processo premendo X. Rimanendo allo stadio base, infatti, imparerà mosse più in fretta.
-<<[>>old<<]>>Quando un Pokémon si sta evolvendo, puoi bloccare il processo premendo X. Rimanendo allo stadio base, infatti, imparerà mosse più in fretta.
 Michelangelo
 Michelangelo
 Sei tu a rubarmi tutte le esche, non è vero?!
 Sei tu a rubarmi tutte le esche, non è vero?!
 Devo aver preso un granchio...
 Devo aver preso un granchio...
+<<[>>old<<]>>Quando un Pokémon si sta evolvendo, puoi bloccare il processo premendo X. Rimanendo allo stadio base, infatti, imparerà mosse più in fretta.
+<<[>>old<<]>>Quando un Pokémon si sta evolvendo, puoi bloccare il processo premendo X. Rimanendo allo stadio base, infatti, imparerà mosse più in fretta.
 Sì
 Sì
 No
@@ -4473,10 +4489,12 @@ Non tutto il male vien per nuocere, però!
 Non tutto il male vien per nuocere, però!
 [Map97]
 [Map98]
-Roy
-Roy
-Questo è il Pokémon-Market di Borgo Gemini!
-Questo è il Pokémon-Market di Borgo Gemini!
+Mr.Bug
+Mr.Bug
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 A quale Pokémon vuoi far ricordare una mossa?
@@ -4489,6 +4507,10 @@ Uhm... Non vedo mosse che \v[3] possa ricordare...
 Uhm... Non vedo mosse che \v[3] possa ricordare...
 Quale mossa vuoi far ricordare a \v[3]?
 Quale mossa vuoi far ricordare a \v[3]?
+Roy
+Roy
+Questo è il Pokémon-Market di Borgo Gemini!
+Questo è il Pokémon-Market di Borgo Gemini!
 Infermiera Joy
 Infermiera Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
@@ -4501,14 +4523,20 @@ Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
 Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
 Torna pure quando vuoi.
 Torna pure quando vuoi.
-Beniamino
-Beniamino
-Pare che qui ad Eldiw sia più facile imbattersi in un Pokémon cromatico... eppure ancora niente!
-Pare che qui ad Eldiw sia più facile imbattersi in un Pokémon cromatico... eppure ancora niente!
+Natale
+Natale
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Buon Natale a nome di tutto lo staff!
+Buon Natale a nome di tutto lo staff!
 Fabio
 Fabio
 Sto facendo incetta di Antidoti per affrontare le insidie del <b>Bosco Stellafilante</b>.
 Sto facendo incetta di Antidoti per affrontare le insidie del <b>Bosco Stellafilante</b>.
+Beniamino
+Beniamino
+Pare che qui ad Eldiw sia più facile imbattersi in un Pokémon cromatico... eppure ancora niente!
+Pare che qui ad Eldiw sia più facile imbattersi in un Pokémon cromatico... eppure ancora niente!
 Claudia
 Claudia
 La mia amica è davvero ossessionata dai cruciverba! Guarda, ne sta facendo uno anche adesso!
@@ -4517,12 +4545,12 @@ Eveline
 Eveline
 ''Pokémon fatto di carta che evolve imparando <b>Cartaforbice</b>''? Oh, questa è facile... <b>Chigami</b>!
 ''Pokémon fatto di carta che evolve imparando <b>Cartaforbice</b>''? Oh, questa è facile... <b>Chigami</b>!
-Sì
-Sì
-No
-No
 Si
 Si
+No
+No
+Sì
+Sì
 [Map99]
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
@@ -4700,6 +4728,12 @@ Uhm... Non vedo mosse che \v[3] possa ricordare...
 Uhm... Non vedo mosse che \v[3] possa ricordare...
 Quale mossa vuoi far ricordare a \v[3]?
 Quale mossa vuoi far ricordare a \v[3]?
+Mr.Bug
+Mr.Bug
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Infermiera Joy
 Infermiera Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
@@ -4714,6 +4748,12 @@ Torna pure quando vuoi.
 Torna pure quando vuoi.
 <<[>>old<<]>>Qui non c'è niente...
 <<[>>old<<]>>Qui non c'è niente...
+Natale
+Natale
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Buon Natale a nome di tutto lo staff!
+Buon Natale a nome di tutto lo staff!
 Gli Hippopotas non sono solo le mascotte della città, ma vengono anche impiegati per il trasporto dell’acqua.
 Gli Hippopotas non sono solo le mascotte della città, ma vengono anche impiegati per il trasporto dell’acqua.
 Ehi, amico|a! Tu mi sembri proprio super, sai? Ti meriti proprio una bella Superpozione.
@@ -5404,12 +5444,6 @@ Dit...Hippo!
 Ho sempre vissuto da sola, ma i miei Hippopotas mi hanno aiutato a patire meno la solitudine. I Pokémon sono davvero delle creature straordinarie!
 Ho sempre vissuto da sola, ma i miei Hippopotas mi hanno aiutato a patire meno la solitudine. I Pokémon sono davvero delle creature straordinarie!
 [Map135]
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
 Tig
 Tig
 Ehi, ma guarda dove vai! Per poco non ti mettevo sotto!!
@@ -5418,8 +5452,20 @@ Tsk! Per stavolta hai avuto fortuna...!
 Tsk! Per stavolta hai avuto fortuna...!
 Non so se ti andrà altrettanto bene la prossima volta.
 Non so se ti andrà altrettanto bene la prossima volta.
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
+Carolina
+Carolina
+Chi ha ali maestose, in volo è leggiadro ed elegante come il vento!
+Chi ha ali maestose, in volo è leggiadro ed elegante come il vento!
+In terra, però, delle ali maestose non sono che un peso.
+In terra, però, delle ali maestose non sono che un peso.
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 Piliano
@@ -5432,18 +5478,56 @@ In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
 <<[>>old<<]>>Meglio non rischiare...
 <<[>>old<<]>>Meglio non rischiare...
-Carolina
-Carolina
-Chi ha ali maestose, in volo è leggiadro ed elegante come il vento!
-Chi ha ali maestose, in volo è leggiadro ed elegante come il vento!
-In terra, però, delle ali maestose non sono che un peso.
-In terra, però, delle ali maestose non sono che un peso.
+Solo da Piliano, articoli mai visti a prezzi stracciati!!
+Solo da Piliano, articoli mai visti a prezzi stracciati!!
 <<[>>old<<]>>Stanno discutendo animatamente...
 <<[>>old<<]>>Stanno discutendo animatamente...
 <<[>>old<<]>>Stanno concordando tranquillamente i territori da dividersi.
 <<[>>old<<]>>Stanno concordando tranquillamente i territori da dividersi.
-Solo da Piliano, articoli mai visti a prezzi stracciati!!
-Solo da Piliano, articoli mai visti a prezzi stracciati!!
+Sandman
+Sandman
+Smettetela di insozzare coi vostri passi il canyon! Questa è la terra del popolo di <b>Capricornia</b>!
+Smettetela di insozzare coi vostri passi il canyon! Questa è la terra del popolo di <b>Capricornia</b>!
+Jackson
+Jackson
+Taci! Questo canyon è mio e della mia banda, capito?!
+Taci! Questo canyon è mio e della mia banda, capito?!
+Hol
+Hol
+Ah ah ah! Ma sentili!
+Ah ah ah! Ma sentili!
+E tu che vuoi?! Non sarai qui anche tu per strapparmi il mio canyon?!
+E tu che vuoi?! Non sarai qui anche tu per strapparmi il mio canyon?!
+Mi hai proprio tolto le parole di bocca!
+Mi hai proprio tolto le parole di bocca!
+Si sarà solo smarrito|a...
+Si sarà solo smarrito|a...
+Come come?! Vuoi farci collaborare? A chi pensi di fare la paternale, eh?!
+Come come?! Vuoi farci collaborare? A chi pensi di fare la paternale, eh?!
+Ti meriti proprio una bella lezione!
+Ti meriti proprio una bella lezione!
+Vi siete immischiato|a in questioni delicate, forestiero|a! Non avreste dovuto...!
+Vi siete immischiato|a in questioni delicate, forestiero|a! Non avreste dovuto...!
+Una volta tanto siamo d’accordo. Facciamo la pelle a ‘sto|a moccioso|a!!
+Una volta tanto siamo d’accordo. Facciamo la pelle a ‘sto|a moccioso|a!!
+...!
+...!
+Abbiamo unito le forze, davvero...?
+Abbiamo unito le forze, davvero...?
+Tsk! Sarà la fortuna del principiante...!
+Tsk! Sarà la fortuna del principiante...!
+Però è stato divertente lottare fianco a fianco, sapete?
+Però è stato divertente lottare fianco a fianco, sapete?
+Perché, anziché contenderci l’intero canyon, non ce lo spartiamo?
+Perché, anziché contenderci l’intero canyon, non ce lo spartiamo?
+Mi sembra una buona idea. Accontenteremmo tutti!
+Mi sembra una buona idea. Accontenteremmo tutti!
+Potremmo persino correrci in aiuto in caso di pericolo...
+Potremmo persino correrci in aiuto in caso di pericolo...
+Perdonatemi se sono stato brusco con voi, volevate solo riappacificarci... e ci siete riusciti! Vi prego, accettate questa come ringraziamento.
+Perdonatemi se sono stato brusco con voi, volevate solo riappacificarci... e ci siete riusciti! Vi prego, accettate questa come ringraziamento.
+Ora però fuori dai piedi! Abbiamo tanto di cui discutere.
+Ora però fuori dai piedi! Abbiamo tanto di cui discutere.
 55G
 55G
 L'abbiamo acciuffato, <b>Colonnello</b>! <i>Bzz!</i>
@@ -5466,8 +5550,6 @@ E lo stesso succederà se non collabori, chiaro?
 <<[>>old<<]>>Quello è il Team Dimension! Sembra proprio che stia tormentando Rapidash... Vuoi intervenire?
 Tu
 Tu
-...!
-...!
 Oh, ma guarda un po'! Chi abbiamo qui?
 Oh, ma guarda un po'! Chi abbiamo qui?
 Ehi, tu! Questo non è il posto adatto ai mocciosi, smamma! Kyah ah ah!
@@ -5484,8 +5566,6 @@ Tamara
 Tamara
 Se a tutto ciò aggiungiamo anche la cattura di ben due Pokémon X...
 Se a tutto ciò aggiungiamo anche la cattura di ben due Pokémon X...
-Helena
-Helena
 Ma questo bel visino non si sporcherà certo le mani...!
 Ma questo bel visino non si sporcherà certo le mani...!
 Rapidash! Se ci tieni all'incolumità del tuo cucciolo, occupati di questo moccioso e vedi di farlo nero!
@@ -5530,48 +5610,6 @@ Rapidash X
 Rapidash X
 Mocciosetta, hai solo avuto fortuna!
 Mocciosetta, hai solo avuto fortuna!
-Sandman
-Sandman
-Smettetela di insozzare coi vostri passi il canyon! Questa è la terra del popolo di <b>Capricornia</b>!
-Smettetela di insozzare coi vostri passi il canyon! Questa è la terra del popolo di <b>Capricornia</b>!
-Jackson
-Jackson
-Taci! Questo canyon è mio e della mia banda, capito?!
-Taci! Questo canyon è mio e della mia banda, capito?!
-Hol
-Hol
-Ah ah ah! Ma sentili!
-Ah ah ah! Ma sentili!
-E tu che vuoi?! Non sarai qui anche tu per strapparmi il mio canyon?!
-E tu che vuoi?! Non sarai qui anche tu per strapparmi il mio canyon?!
-Mi hai proprio tolto le parole di bocca!
-Mi hai proprio tolto le parole di bocca!
-Si sarà solo smarrito|a...
-Si sarà solo smarrito|a...
-Come come?! Vuoi farci collaborare? A chi pensi di fare la paternale, eh?!
-Come come?! Vuoi farci collaborare? A chi pensi di fare la paternale, eh?!
-Ti meriti proprio una bella lezione!
-Ti meriti proprio una bella lezione!
-Vi siete immischiato|a in questioni delicate, forestiero|a! Non avreste dovuto...!
-Vi siete immischiato|a in questioni delicate, forestiero|a! Non avreste dovuto...!
-Una volta tanto siamo d’accordo. Facciamo la pelle a ‘sto|a moccioso|a!!
-Una volta tanto siamo d’accordo. Facciamo la pelle a ‘sto|a moccioso|a!!
-Abbiamo unito le forze, davvero...?
-Abbiamo unito le forze, davvero...?
-Tsk! Sarà la fortuna del principiante...!
-Tsk! Sarà la fortuna del principiante...!
-Però è stato divertente lottare fianco a fianco, sapete?
-Però è stato divertente lottare fianco a fianco, sapete?
-Perché, anziché contenderci l’intero canyon, non ce lo spartiamo?
-Perché, anziché contenderci l’intero canyon, non ce lo spartiamo?
-Mi sembra una buona idea. Accontenteremmo tutti!
-Mi sembra una buona idea. Accontenteremmo tutti!
-Potremmo persino correrci in aiuto in caso di pericolo...
-Potremmo persino correrci in aiuto in caso di pericolo...
-Perdonatemi se sono stato brusco con voi, volevate solo riappacificarci... e ci siete riusciti! Vi prego, accettate questa come ringraziamento.
-Perdonatemi se sono stato brusco con voi, volevate solo riappacificarci... e ci siete riusciti! Vi prego, accettate questa come ringraziamento.
-Ora però fuori dai piedi! Abbiamo tanto di cui discutere.
-Ora però fuori dai piedi! Abbiamo tanto di cui discutere.
 Efisio
 Efisio
 Spiegherò le mie ali e mi librerò in volo!
@@ -6287,6 +6325,12 @@ No
 <<[>>old<<]>>Sembrerebbero delle pagine strappate da un quaderno... La calligrafia è chiara e pulita.
 <<[>>old<<]>>Sembrerebbero delle pagine strappate da un quaderno... La calligrafia è chiara e pulita.
 [Map160]
+Mr.Bug
+Mr.Bug
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Infermiera Joy
 Infermiera Joy
 Ciao... Benvenuto|a in un Centro Pokémon... In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati... Vuoi far riposare la tua squadra?
@@ -6299,6 +6343,12 @@ Perdona l'attesa... Ora i tuoi Pokémon sono in perfetta forma...
 Perdona l'attesa...  Ora i tuoi Pokémon sono in perfetta forma...
 Torna pure quando vuoi...
 Torna pure quando vuoi...
+Natale
+Natale
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Buon Natale a nome di tutto lo staff!
+Buon Natale a nome di tutto lo staff!
 Polly
 Polly
 Questo è il Pokémon-Market di Scorpiopoli...
@@ -8719,6 +8769,10 @@ Evoluto
 Evoluto
 Proprio non trovo la <b>Neropietra</b> che mi serve per far evolvere il mio <b>Peckabone</b>!
 Proprio non trovo la <b>Neropietra</b> che mi serve per far evolvere il mio <b>Peckabone</b>!
+Noa
+Noa
+È proprio vero che gli artisti migliori sono quelli dal passato travagliato.
+È proprio vero che gli artisti migliori sono quelli dal passato travagliato.
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 A quale Pokémon vuoi far ricordare una mossa?
@@ -8731,10 +8785,6 @@ Uhm... Non vedo mosse che \v[3] possa ricordare...
 Uhm... Non vedo mosse che \v[3] possa ricordare...
 Quale mossa vuoi far ricordare a \v[3]?
 Quale mossa vuoi far ricordare a \v[3]?
-Noa
-Noa
-È proprio vero che gli artisti migliori sono quelli dal passato travagliato.
-È proprio vero che gli artisti migliori sono quelli dal passato travagliato.
 Infermiera Joy
 Infermiera Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
@@ -8747,6 +8797,18 @@ Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
 Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
 Torna pure quando vuoi.
 Torna pure quando vuoi.
+Mr.Bug
+Mr.Bug
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
+Natale
+Natale
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Buon Natale a nome di tutto lo staff!
+Buon Natale a nome di tutto lo staff!
 Ronny
 Ronny
 Daddy ama così tanto la musica, da aver deciso di dedicarle un’intera città autofinanziandola. È così che è nata Leopoli!
@@ -8880,28 +8942,24 @@ Guardacaso, né io, né \PN, li abbiamo mangiati e siamo in perfetta salute!
 Allora che aspettiamo? Andiamo in Palestra e cerchiamo di capirci qualcosa, nah?
 Allora che aspettiamo? Andiamo in Palestra e cerchiamo di capirci qualcosa, nah?
 [Map213]
+Alex
+Alex
+Quei dolcetti erano deliziosi!
+Quei dolcetti erano deliziosi!
+Zack
+Zack
+Le canzoni di Daddy possono spaziare da quelle meno impegnate a quelle più profonde. È per questo che riesce a soddisfare i gusti di tutto il suo pubblico!
+Le canzoni di Daddy possono spaziare da quelle meno impegnate a quelle più profonde. È per questo che riesce a soddisfare i gusti di tutto il suo pubblico!
+???
+???
+Che delizia!
+Che delizia!
 <<[>>old<<]>>Lo schermo proietta dei video sul passato di Wallace Daddy. Vuoi dare un'occhiata?
 <<[>>old<<]>>Lo schermo proietta dei video sul passato di Wallace Daddy. Vuoi dare un'occhiata?
 <<[>>old<<]>>''Rimasto orfano, sin da bambino Santana vive nei sobborghi della regione di Alola, rubacchiando qua e là per mantenersi. Durante una delle sue bravate, entra in contatto con un gruppo di teppisti, il ''Team Skull'', a cui si unisce poco dopo, ammirando il loro spirito di fratellanza. Nel mentre partecipa a numerose battle di freestyle e il Boss, interessato al giovane talento, lo sprona a lanciarsi nel mondo della musica.'' Vuoi continuare a guardare?
 <<[>>old<<]>>''Rimasto orfano, sin da bambino Santana vive nei sobborghi della regione di Alola, rubacchiando qua e là per mantenersi. Durante una delle sue bravate, entra in contatto con un gruppo di teppisti, il ''Team Skull'', a cui si unisce poco dopo, ammirando il loro spirito di fratellanza. Nel mentre partecipa a numerose battle di freestyle e il Boss, interessato al giovane talento, lo sprona a lanciarsi nel mondo della musica.'' Vuoi continuare a guardare?
 <<[>>old<<]>>''Il giovane Santana compone così delle prime canzoni che tuttavia, per il loro sound innovativo, non sono viste di buon occhio dalla tradizionalista Alola. Per questo motivo il Boss, che il giovane considera come un padre, gli suggerisce di abbandonare la regione in cui non sfonderebbe mai, per trasferirsi ad Eldiw, regione in cui si cerca sempre il progresso musicale, e farsi una nuova vita. \nSeguendo il consiglio, il giovane aloliano parte per la regione di Eldiw, più precisamente a Scorpiopoli dove, dopo grandi sacrifici, riscuote un gran successo col nome di "Wallace Daddy".''
 <<[>>old<<]>>''Il giovane Santana compone così delle prime canzoni che tuttavia, per il loro sound innovativo, non sono viste di buon occhio dalla tradizionalista Alola. Per questo motivo il Boss, che il giovane considera come un padre, gli suggerisce di abbandonare la regione in cui non sfonderebbe mai, per trasferirsi ad Eldiw, regione in cui si cerca sempre il progresso musicale, e farsi una nuova vita. \nSeguendo il consiglio, il giovane aloliano parte per la regione di Eldiw, più precisamente a Scorpiopoli dove, dopo grandi sacrifici, riscuote un gran successo col nome di "Wallace Daddy".''
-???
-???
-Che delizia!
-Che delizia!
-Zack
-Zack
-Le canzoni di Daddy possono spaziare da quelle meno impegnate a quelle più profonde. È per questo che riesce a soddisfare i gusti di tutto il suo pubblico!
-Le canzoni di Daddy possono spaziare da quelle meno impegnate a quelle più profonde. È per questo che riesce a soddisfare i gusti di tutto il suo pubblico!
-Alex
-Alex
-Quei dolcetti erano deliziosi!
-Quei dolcetti erano deliziosi!
-<<[>>old<<]>>Palestra Ritmo\nCapopalestra: <b>Wallace Daddy</b> <i>''Il ruggito del leone dalle fauci dorate.''</i> Allenatori Certificati: 0
-<<[>>old<<]>>Palestra Ritmo\nCapopalestra: <b>Wallace Daddy</b> <i>''Il ruggito del leone dalle fauci dorate.''</i> Allenatori Certificati: 0
-<<[>>old<<]>>Palestra Ritmo\nCapopalestra: <b>Wallace Daddy</b> <i>''Il ruggito del leone dalle fauci dorate.''</i> Allenatori Certificati: \PN
-<<[>>old<<]>>Palestra Ritmo\nCapopalestra: <b>Wallace Daddy</b> <i>''Il ruggito del leone dalle fauci dorate.''</i> Allenatori Certificati: \PN
 Roy
 Roy
 Forse ho un po' esagerato con tutti quei dolci...
@@ -8920,16 +8978,24 @@ Ecco, prendi. Il pass è tutto tuo!
 Ecco, prendi. Il pass è tutto tuo!
 Daddy mi ringrazierà per avergli mandato un Allenatore così tosto.
 Daddy mi ringrazierà per avergli mandato un Allenatore così tosto.
-Sebastian
-Sebastian
-Servitevi pure, senza fare complimenti.
-Servitevi pure, senza fare complimenti.
+<<[>>old<<]>>Palestra Ritmo\nCapopalestra: <b>Wallace Daddy</b> <i>''Il ruggito del leone dalle fauci dorate.''</i> Allenatori Certificati: 0
+<<[>>old<<]>>Palestra Ritmo\nCapopalestra: <b>Wallace Daddy</b> <i>''Il ruggito del leone dalle fauci dorate.''</i> Allenatori Certificati: 0
+<<[>>old<<]>>Palestra Ritmo\nCapopalestra: <b>Wallace Daddy</b> <i>''Il ruggito del leone dalle fauci dorate.''</i> Allenatori Certificati: \PN
+<<[>>old<<]>>Palestra Ritmo\nCapopalestra: <b>Wallace Daddy</b> <i>''Il ruggito del leone dalle fauci dorate.''</i> Allenatori Certificati: \PN
+Olivia
+Olivia
 Paris
 Paris
 No e poi no! Ti dico che la più bella è ''Radici''!
 No e poi no! Ti dico che la più bella è ''Radici''!
-Olivia
-Olivia
+Sebastian
+Sebastian
+Servitevi pure, senza fare complimenti.
+Servitevi pure, senza fare complimenti.
+Assistente
+Assistente
+Le diamo il benvenuto nella Palestra di Leopoli.
+Le diamo il benvenuto nella Palestra di Leopoli.
 Woah! Questi dolcetti sembrano squisiti! Gnam!
 Woah! Questi dolcetti sembrano squisiti! Gnam!
 Ragazzi! Dovete provare questi bigné... Sono dannatamente buoni!
@@ -8944,38 +9010,40 @@ E sia, dal momento che sono già in tavola... Potete servirvi liberamente!
 <<[>>old<<]>>Gnam! Che bontà!
 <<[>>old<<]>>C'est magnifique!
 <<[>>old<<]>>C'est magnifique!
-Assistente
-Assistente
-Le diamo il benvenuto nella Palestra di Leopoli.
-Le diamo il benvenuto nella Palestra di Leopoli.
+Voglio assolutamente assaggiare quel dolcetto... anche un pezzetto piccolo piccolo...
+Voglio assolutamente assaggiare quel dolcetto... anche un pezzetto piccolo piccolo...
 Albert
 Albert
 Ti dico di no! La traccia migliore è ''El Dorado''!
 Ti dico di no! La traccia migliore è ''El Dorado''!
-Voglio assolutamente assaggiare quel dolcetto... anche un pezzetto piccolo piccolo...
-Voglio assolutamente assaggiare quel dolcetto... anche un pezzetto piccolo piccolo...
-Come avrai capito, Wallace Daddy è un vero esperto dei Pokémon di tipo Suono. Se vuoi metterlo alle strette, folgora l’impianto stereo con i Pokémon di tipo Elettro o distruggilo con quelli di tipo Drago!
-Come avrai capito, Wallace Daddy è un vero esperto dei Pokémon di tipo Suono. Se vuoi metterlo alle strette, folgora l’impianto stereo con i Pokémon di tipo Elettro o distruggilo con quelli di tipo Drago!
-Wallace Daddy è un esperto del Suono, è vero... ma tu l’hai proprio suonato! Eh eh! Ora solo due Medaglie ti separano dal traguardo!
-Wallace Daddy è un esperto del Suono, è vero... ma tu l’hai proprio suonato! Eh eh! Ora solo due Medaglie ti separano dal traguardo!
-Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
-Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
+Marvin
+Marvin
+\PN, ma dove vai?! Mangia quanto vuoi, tanto è tutto gratis! Eh eh!
+\PN, ma dove vai?! Mangia quanto vuoi, tanto è tutto gratis! Eh eh!
 Benvenuti.
 Benvenuti.
 Questo buffet è stato organizzato su gentile concessione del signor Daddy, per sponsorizzare il suo nuovo singolo, in uscita domani. Servitevi pure e ricordate che è il tutto è gratuito.
 Questo buffet è stato organizzato su gentile concessione del signor Daddy, per sponsorizzare il suo nuovo singolo, in uscita domani. Servitevi pure e ricordate che è il tutto è gratuito.
 Ma guarda che bella tavolata! Se non ti dispiace io mi butto sul cibo, \PN!
 Ma guarda che bella tavolata! Se non ti dispiace io mi butto sul cibo, \PN!
-\PN, ma dove vai?! Mangia quanto vuoi, tanto è tutto gratis! Eh eh!
-\PN, ma dove vai?! Mangia quanto vuoi, tanto è tutto gratis! Eh eh!
-Marvin
-Marvin
+Come avrai capito, Wallace Daddy è un vero esperto dei Pokémon di tipo Suono. Se vuoi metterlo alle strette, folgora l’impianto stereo con i Pokémon di tipo Elettro o distruggilo con quelli di tipo Drago!
+Come avrai capito, Wallace Daddy è un vero esperto dei Pokémon di tipo Suono. Se vuoi metterlo alle strette, folgora l’impianto stereo con i Pokémon di tipo Elettro o distruggilo con quelli di tipo Drago!
+Wallace Daddy è un esperto del Suono, è vero... ma tu l’hai proprio suonato! Eh eh! Ora solo due Medaglie ti separano dal traguardo!
+Wallace Daddy è un esperto del Suono, è vero... ma tu l’hai proprio suonato! Eh eh! Ora solo due Medaglie ti separano dal traguardo!
+Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
+Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
+Mi scusi ancora per l'inconveniente.
+Mi scusi ancora per l'inconveniente.
 Sharon
 Sharon
 Ho fatto un po’ di foto per il mio Instagram. Con l’hashtag #wallacedaddy farò tantissimi like!
 Ho fatto un po’ di foto per il mio Instagram. Con l’hashtag #wallacedaddy farò tantissimi like!
-Mi scusi ancora per l'inconveniente.
-Mi scusi ancora per l'inconveniente.
+Joe
+Joe
+È frustrante che il pezzo che ritieni più valido, talvolta, non venga compreso a pieno.
+È frustrante che il pezzo che ritieni più valido, talvolta, non venga compreso a pieno.
+Quei bigné non sono opera nostra... Anche se devo ammettere che erano davvero deliziosi!
+Quei bigné non sono opera nostra... Anche se devo ammettere che erano davvero deliziosi!
 Oh, eccoti qui!
 Oh, eccoti qui!
 Benvenuto|a finalmente nella Palestra di Leopoli, giovane Allenatore!
@@ -8986,14 +9054,6 @@ Ormai sei come un libro aperto per me! Eh eh! Ti stai chiedendo cosa c’entrino
 Ormai sei come un libro aperto per me! Eh eh! Ti stai chiedendo cosa c’entrino i social, vero?
 Ovviamente, potresti anche ricavare gli stessi indizi sbirciando in giro per la Palestra, ma se Wallace Daddy in persona ha intenzione di darti una mano, io non la rifiuterei! Eh eh!
 Ovviamente, potresti anche ricavare gli stessi indizi sbirciando in giro per la Palestra, ma se Wallace Daddy in persona ha intenzione di darti una mano, io non la rifiuterei! Eh eh!
-Joe
-Joe
-È frustrante che il pezzo che ritieni più valido, talvolta, non venga compreso a pieno.
-È frustrante che il pezzo che ritieni più valido, talvolta, non venga compreso a pieno.
-Quei bigné non sono opera nostra... Anche se devo ammettere che erano davvero deliziosi!
-Quei bigné non sono opera nostra... Anche se devo ammettere che erano davvero deliziosi!
-Ah, quanto vorrei tornare all’epoca degli 8-bit... Quella sì che era musica!
-Ah, quanto vorrei tornare all’epoca degli 8-bit... Quella sì che era musica!
 Nooo! Se li sono pappati tutti!
 Nooo! Se li sono pappati tutti!
 Signori, ci dispiace davvero tanto che siate rimasti a bocca asciutta... Vi prego di accettare questa, come gesto di scusa.
@@ -9004,14 +9064,16 @@ Uff... Quei pasticcini sembravano deliziosi...
 Uff... Quei pasticcini sembravano deliziosi...
 Vabbé, \PN... È il momento di andare!
 Vabbé, \PN... È il momento di andare!
-Carol
-Carol
-La cucina è come la musica, può piacere o meno.
-La cucina è come la musica, può piacere o meno.
+Ah, quanto vorrei tornare all’epoca degli 8-bit... Quella sì che era musica!
+Ah, quanto vorrei tornare all’epoca degli 8-bit... Quella sì che era musica!
 Assistente Palestra
 Assistente Palestra
 Siamo spiacenti, ma al momento non è possibile accedere all'ascensore.
 Siamo spiacenti, ma al momento non è possibile accedere all'ascensore.
+Carol
+Carol
+La cucina è come la musica, può piacere o meno.
+La cucina è come la musica, può piacere o meno.
 Wallace Daddy
 Wallace Daddy
 Damn, questo sì che è un bel problema... Io e te abbiamo gusti troppo simili in fatto di musica.
@@ -9235,8 +9297,8 @@ Dico bene, piccoletto?
 Dico bene, piccoletto?
 Wah ah ah! Ben detto, my boy!
 Wah ah ah! Ben detto, my boy!
-Però che non puoi catturare questo Pokémon con una comune Ball poiché non proviene da Eldiw, bensì da...
-Però che non puoi catturare questo Pokémon con una comune Ball poiché non proviene da Eldiw, bensì da...
+Però non puoi catturare questo Pokémon con una comune Ball poiché non proviene da Eldiw, bensì da...
+Però non puoi catturare questo Pokémon con una comune Ball poiché non proviene da Eldiw, bensì da...
 Ah, ma chi vuole rinchiuderlo in una Poké Ball! 'Sto tipetto mi sembra uno tosto, uno spirito libero!
 Ah, ma chi vuole rinchiuderlo in una Poké Ball! 'Sto tipetto mi sembra uno tosto, uno spirito libero!
 Com'è che hai detto poi? Non viene da Eldiw...? Ma quante cose abbiamo in comune?! Wah ah ah!
@@ -10013,6 +10075,18 @@ Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
 Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
 Torna pure quando vuoi.
 Torna pure quando vuoi.
+Natale
+Natale
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Buon Natale a nome di tutto lo staff!
+Buon Natale a nome di tutto lo staff!
+Mr.Bug
+Mr.Bug
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Rahila
 Rahila
 Leggere è un po' come viaggiare, ma con la fantasia!
@@ -13126,6 +13200,10 @@ Folly
 Folly
 Questo è il Pokémon-Market di Sagittopoli!
 Questo è il Pokémon-Market di Sagittopoli!
+Jerry
+Jerry
+Qui dice che grazie ad <b>Insettocchi</b> si hanno più chance di raccogliere strumenti dai Pokémon selvatici.
+Qui dice che grazie ad <b>Insettocchi</b> si hanno più chance di raccogliere strumenti dai Pokémon selvatici.
 Litio
 Litio
 Sei tu \PN, non è vero?
@@ -13136,10 +13214,6 @@ Ultimamente è molto impegnato in una certa faccenda, ma ci teneva a complimenta
 Ultimamente è molto impegnato in una certa faccenda, ma ci teneva a complimentarsi per il tuo splendido lavoro.
 E qui è fatta! Sarà meglio mettersi in marcia e tornare al lavoro ora.
 E qui è fatta! Sarà meglio mettersi in marcia e tornare al lavoro ora.
-Jerry
-Jerry
-Qui dice che grazie ad <b>Insettocchi</b> si hanno più chance di raccogliere strumenti dai Pokémon selvatici.
-Qui dice che grazie ad <b>Insettocchi</b> si hanno più chance di raccogliere strumenti dai Pokémon selvatici.
 Infermiera Joy
 Infermiera Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
@@ -13152,10 +13226,6 @@ Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
 Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
 Torna pure quando vuoi.
 Torna pure quando vuoi.
-Dino
-Dino
-Prima o poi riuscirò a convincere la mamma a portarmi ad uno spettacolo del <b>Circo Sirio</b>!
-Prima o poi riuscirò a convincere la mamma a portarmi ad uno spettacolo del <b>Circo Sirio</b>!
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 A quale Pokémon vuoi far ricordare una mossa?
@@ -13168,10 +13238,26 @@ Uhm... Non vedo mosse che \v[3] possa ricordare...
 Uhm... Non vedo mosse che \v[3] possa ricordare...
 Quale mossa vuoi far ricordare a \v[3]?
 Quale mossa vuoi far ricordare a \v[3]?
+Dino
+Dino
+Prima o poi riuscirò a convincere la mamma a portarmi ad uno spettacolo del <b>Circo Sirio</b>!
+Prima o poi riuscirò a convincere la mamma a portarmi ad uno spettacolo del <b>Circo Sirio</b>!
 Evolver
 Evolver
 Grazie a questi <b>Pezzi di ricambio</b>, il mio <b>Vroombug</b> potrà sfrecciare ancora più veloce!
 Grazie a questi <b>Pezzi di ricambio</b>, il mio <b>Vroombug</b> potrà sfrecciare ancora più veloce!
+Natale
+Natale
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Buon Natale a nome di tutto lo staff!
+Buon Natale a nome di tutto lo staff!
+Mr.Bug
+Mr.Bug
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Roy
 Roy
 Questo è il market di Borgo Mela!
@@ -13287,6 +13373,8 @@ Non sarà affatto semplice, ma ti assicuro che il gioco ne vale la candela!
 Non sarà affatto semplice, ma ti assicuro che il gioco ne vale la candela!
 Va’ e affrontali tutti.
 Va’ e affrontali tutti.
+Certo che eri davvero preso|a dalla scalata, eh? Hai perso questo oggettino.
+Certo che eri davvero preso|a dalla scalata, eh? Hai perso questo oggettino.
 Congratulazioni! Sei il||la primo|a sfidante ad aver completato l’impossibile sfida del Condominio Lotta!
 Congratulazioni! Sei il||la primo|a sfidante ad aver completato l’impossibile sfida del Condominio Lotta!
 Voglio partecipare!
@@ -13991,56 +14079,48 @@ Il mio ragazzo è un vero accumulatore seriale, non riesce a separarsi nemmeno d
 Sono sicura che non se ne accorgerà nemmeno.
 Sono sicura che non se ne accorgerà nemmeno.
 [Map335]
-<<[>>old<<]>>P...les...ra T...on...
-<<[>>old<<]>>P...les...ra T...on...
+<<[>>old<<]>><b>Aranciopoli</b> <i>''La città dei tramonti vermigli.''
+<<[>>old<<]>><b>Aranciopoli</b> <i>''La città dei tramonti vermigli.''
 Martino
 Martino
 Qui nel porto non si può nuotare, ma se proprio ci tieni a farti una sguazzata, puoi provare nella spiaggetta a sud.
 Qui nel porto non si può nuotare, ma se proprio ci tieni a farti una sguazzata, puoi provare nella spiaggetta a sud.
-<<[>>old<<]>><b>Aranciopoli</b> <i>''La città dei tramonti vermigli.''
-<<[>>old<<]>><b>Aranciopoli</b> <i>''La città dei tramonti vermigli.''
-Renzo
-Renzo
-Niente biglietto, da qui non si passa!
-Niente biglietto, da qui non si passa!
+<<[>>old<<]>>P...les...ra T...on...
+<<[>>old<<]>>P...les...ra T...on...
 Susanna
 Susanna
 Ad occhio e croce, direi che tu non sei del posto, mi sbaglio forse?
 Ad occhio e croce, direi che tu non sei del posto, mi sbaglio forse?
 Sono certa che qui ad Aranciopoli ti sentirai come a casa!
 Sono certa che qui ad Aranciopoli ti sentirai come a casa!
-Bardo
-Bardo
-Credo che questo sentiero sia destinato ad altri Allenatori, giovane.
-Credo che questo sentiero sia destinato ad altri Allenatori, giovane.
+Renzo
+Renzo
+Niente biglietto, da qui non si passa!
+Niente biglietto, da qui non si passa!
 Egidio
 Egidio
 Ah, come lo capisco quel Pokémon dormiente! Anch’io vorrei tanto starmene a dormire tutto il giorno!
 Ah, come lo capisco quel Pokémon dormiente! Anch’io vorrei tanto starmene a dormire tutto il giorno!
 Tutti abbiamo bisogno di un po' di sano riposo!
 Tutti abbiamo bisogno di un po' di sano riposo!
-<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
-<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
+Bardo
+Bardo
+Credo che questo sentiero sia destinato ad altri Allenatori, giovane.
+Credo che questo sentiero sia destinato ad altri Allenatori, giovane.
 Denny
 Denny
 Quando uno è nato in riva al mare come me, non potrà mai vivere senza di lui.
 Quando uno è nato in riva al mare come me, non potrà mai vivere senza di lui.
-Cecilia
-Cecilia
-Aranciopoli è davvero una splendida città... peccato solo che quella vecchia Palestra rovini l’ambiente! Mi chiedo perché non la buttino giù...
-Aranciopoli è davvero una splendida città... peccato solo che quella vecchia Palestra rovini l’ambiente! Mi chiedo perché non la buttino giù...
+<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
+<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Ben
 Ben
 Per colpa di quel Pokémon addormentato, mi toccherà allungare la strada per andare dalla mia ragazza.
 Per colpa di quel Pokémon addormentato, mi toccherà allungare la strada per andare dalla mia ragazza.
-Rosa
-Rosa
-La prego di allontanarsi da questo furgoncino. Stiamo svolgendo una ricerca e al momento è off-limit.
-La prego di allontanarsi da questo furgoncino. Stiamo svolgendo una ricerca e al momento è off-limit.
-<<[>>old<<]>>Questo Pokémon enorme sta schiacciando un pisolino proprio qui sul sentiero...
-<<[>>old<<]>>Questo Pokémon enorme sta schiacciando un pisolino proprio qui sul sentiero...
-<<[>>old<<]>>Questo enorme Pokémon sta schiacciando un pisolino...
-<<[>>old<<]>>Questo enorme Pokémon sta schiacciando un pisolino...
+Cecilia
+Cecilia
+Aranciopoli è davvero una splendida città... peccato solo che quella vecchia Palestra rovini l’ambiente! Mi chiedo perché non la buttino giù...
+Aranciopoli è davvero una splendida città... peccato solo che quella vecchia Palestra rovini l’ambiente! Mi chiedo perché non la buttino giù...
 Francesca
 Francesca
 Ehi, lo hai visto anche tu quel Pokémon gigaaaante che dorme per la strada?
@@ -14049,36 +14129,44 @@ Gianni
 Gianni
 Sì, è davvero enorme! Chissà se ci entra in una Poké Ball...?
 Sì, è davvero enorme! Chissà se ci entra in una Poké Ball...?
+<<[>>old<<]>>Questo enorme Pokémon sta schiacciando un pisolino...
+<<[>>old<<]>>Questo enorme Pokémon sta schiacciando un pisolino...
+<<[>>old<<]>>Questo Pokémon enorme sta schiacciando un pisolino proprio qui sul sentiero...
+<<[>>old<<]>>Questo Pokémon enorme sta schiacciando un pisolino proprio qui sul sentiero...
+Rosa
+Rosa
+La prego di allontanarsi da questo furgoncino. Stiamo svolgendo una ricerca e al momento è off-limit.
+La prego di allontanarsi da questo furgoncino. Stiamo svolgendo una ricerca e al momento è off-limit.
 Clara
 Clara
 Il Presidente del <b>Pokémon Fan Club</b> è un autentico collezionista incallito. Ovunque vada, fa incetta di oggettini tipici del posto per la sua collezione di <b>souvenir</b>!
 Il Presidente del <b>Pokémon Fan Club</b> è un autentico collezionista incallito. Ovunque vada, fa incetta di oggettini tipici del posto per la sua collezione di <b>souvenir</b>!
 Klein
 Klein
-Figliolo|a, se stai cercando il Capopalestra mi dispiace, ma è partito per un viaggio ignoto.
-Figliolo|a, se stai cercando il Capopalestra mi dispiace, ma è partito per un viaggio ignoto.
-Leone
-Leone
-Ogni anno, in città attracca la <b>Motonave Anna</b>, un’importante nave da crociera che viaggia per il mondo. Per imbarcarsi, però, è necessario un biglietto esclusivo!
-Ogni anno, in città attracca la <b>Motonave Anna</b>, un’importante nave da crociera che viaggia per il mondo. Per imbarcarsi, però, è necessario un biglietto esclusivo!
+Se è il Capopalestra che cerchi, sappi che è partito per mete ignote.
+Se è il Capopalestra che cerchi, sappi che è partito per mete ignote.
+<<[>>old<<]>>Aeroporto Megaforza
+<<[>>old<<]>>Aeroporto Megaforza
 Pisaro
 Pisaro
 L’Aeroporto Megaforza è frutto del duro lavoro di mio padre e dei suoi Pokémon forzuti. Anche se non c’è più, la sua memoria rimarrà sempre impressa nei cuori di tutti grazie alla sua grande opera!
 L’Aeroporto Megaforza è frutto del duro lavoro di mio padre e dei suoi Pokémon forzuti. Anche se non c’è più, la sua memoria rimarrà sempre impressa nei cuori di tutti grazie alla sua grande opera!
-<<[>>old<<]>>Aeroporto Megaforza
-<<[>>old<<]>>Aeroporto Megaforza
-Kenzo
-Kenzo
+Leone
+Leone
+Ogni anno, in città attracca la <b>Motonave Anna</b>, un’importante nave da crociera che viaggia per il mondo. Per imbarcarsi, però, è necessario un biglietto esclusivo!
+Ogni anno, in città attracca la <b>Motonave Anna</b>, un’importante nave da crociera che viaggia per il mondo. Per imbarcarsi, però, è necessario un biglietto esclusivo!
 <<[>>old<<]>>Pokémon Fan Club ''Tutti i fan dei Pokémon sono i benvenuti qui!''
 <<[>>old<<]>>Pokémon Fan Club ''Tutti i fan dei Pokémon sono i benvenuti qui!''
-Jim
-Jim
-Ho come l’impressione che questa panchina mi leghi a qualcuno del mio passato...
-Ho come l’impressione che questa panchina mi leghi a qualcuno del mio passato...
+Kenzo
+Kenzo
 Chicca
 Chicca
 Chicco
 Chicco
+Jim
+Jim
+Ho come l’impressione che questa panchina mi leghi a qualcuno del mio passato...
+Ho come l’impressione che questa panchina mi leghi a qualcuno del mio passato...
 [Map336]
 Hostess
 Hostess
@@ -14235,6 +14323,12 @@ Ash
 Ash
 Vedrai, collezionerò in men che non si dica tutte e otto le Medaglie e raggiungerò l’<b>Altopiano Blu</b>!
 Vedrai, collezionerò in men che non si dica tutte e otto le Medaglie e raggiungerò l’<b>Altopiano Blu</b>!
+Natale
+Natale
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Buon Natale a nome di tutto lo staff!
+Buon Natale a nome di tutto lo staff!
 Infermiera Joy
 Infermiera Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
@@ -14253,10 +14347,12 @@ Attraversavo l'oscuro <b>Tunnel Roccioso</b>, quando... blink! Questa pietra ha 
 Attraversavo l'oscuro <b>Tunnel Roccioso</b>, quando... blink! Questa pietra ha catturato la mia attenzione!
 È sempre un piacere per me condividere le mie scoperte con i giovani esploratori.
 È sempre un piacere per me condividere le mie scoperte con i giovani esploratori.
-Cocco
-Cocco
-Mi sono appisolato un attimo e la nave su cui ero ha levato gli ormeggi ed è tornata a Johto. Mi toccherà starmene qui ad aspettare che ritornino tra qualche giorno!
-Mi sono appisolato un attimo e la nave su cui ero ha levato gli ormeggi ed è tornata a Johto. Mi toccherà starmene qui ad aspettare che ritornino tra qualche giorno!
+Mr.Bug
+Mr.Bug
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 A quale Pokémon vuoi far ricordare una mossa?
@@ -14269,6 +14365,10 @@ Uhm... Non vedo mosse che \v[3] possa ricordare...
 Uhm... Non vedo mosse che \v[3] possa ricordare...
 Quale mossa vuoi far ricordare a \v[3]?
 Quale mossa vuoi far ricordare a \v[3]?
+Cocco
+Cocco
+Mi sono appisolato un attimo e la nave su cui ero ha levato gli ormeggi ed è tornata a Johto. Mi toccherà starmene qui ad aspettare che ritornino tra qualche giorno!
+Mi sono appisolato un attimo e la nave su cui ero ha levato gli ormeggi ed è tornata a Johto. Mi toccherà starmene qui ad aspettare che ritornino tra qualche giorno!
 Si
 Si
 No
@@ -14363,12 +14463,6 @@ Pascal
 Il Presidente ha una collezione di souvenir provenienti da tutto il mondo. Pare che gli manchi solo una <b>miniatura del</b> <b>Monte Zodiaco</b> per averla al gran completo.
 Il Presidente ha una collezione di souvenir provenienti da tutto il mondo. Pare che gli manchi solo una <b>miniatura del</b> <b>Monte Zodiaco</b> per averla al gran completo.
 [Map345]
-Enrico
-Enrico
-Come l’acqua, saprò plasmare la mia forza a seconda del mio avversario!
-Come l’acqua, saprò plasmare la mia forza a seconda del mio avversario!
-Cadi sette volte, ma rialzati otto.
-Cadi sette volte, ma rialzati otto.
 Ferry
 Ferry
 Stai andando alla <b>Via Vittoria</b>? Bene, vorrà dire che io sarò il muro d’acqua che ti impedirà di proseguire!
@@ -14377,14 +14471,28 @@ Accipicchia! Sfondi tutti i muri che ti si parano davanti, tu?
 Accipicchia! Sfondi tutti i muri che ti si parano davanti, tu?
 Via libero, amico|a!
 Via libero, amico|a!
+Enrico
+Enrico
+Come l’acqua, saprò plasmare la mia forza a seconda del mio avversario!
+Come l’acqua, saprò plasmare la mia forza a seconda del mio avversario!
+Cadi sette volte, ma rialzati otto.
+Cadi sette volte, ma rialzati otto.
+Benny
+Benny
+Ehi, questo è grosso!! Su, togliti dai piedi e lasciami fare il mio lavoro!
+Ehi, questo è grosso!! Su, togliti dai piedi e lasciami fare il mio lavoro!
+Nnnggh! Senti come tira questo bestione!
+Nnnggh! Senti come tira questo bestione!
+... Mi si era solo incagliato l’amo sul fondo...
+... Mi si era solo incagliato l’amo sul fondo...
 Duke
 Duke
 Ehi, tu!
 Ehi, tu!
 Pensavi fossi un Allenatore pronto a sfidarti, vero? Sta’ tranquillo|a, sono un Surfista pacifico, io!
 Pensavi fossi un Allenatore pronto a sfidarti, vero? Sta’ tranquillo|a, sono un Surfista pacifico, io!
-Sai, quando dalla mia amata Alola mi sono trasferito qui ad Eldiw, temevo non avrei trovato pane per i miei denti... ... e invece, devo dire che il mare di questa regione non ha proprio nulla da invidiare!
-Sai, quando dalla mia amata Alola mi sono trasferito qui ad Eldiw, temevo non avrei trovato pane per i miei denti... ... e invece, devo dire che il mare di questa regione non ha proprio nulla da invidiare!
+Sai, quando dalla mia Alola mi sono trasferito qui, temevo non avrei trovato pane per i miei denti... ... e invece, devo dire che il mare di questa regione non ha proprio nulla da invidiare!
+Sai, quando dalla mia Alola mi sono trasferito qui, temevo non avrei trovato pane per i miei denti... ... e invece, devo dire che il mare di questa regione non ha proprio nulla da invidiare!
 Però, non ho potuto non notare che da queste parti i Raichu non sono avvezzi al surf... Sarei davvero curioso di allenarne uno ed insegnargli questa nobile arte!
 Però, non ho potuto non notare che da queste parti i Raichu non sono avvezzi al surf... Sarei davvero curioso di allenarne uno ed insegnargli questa nobile arte!
 Non è che tu avresti un Raichu da scambiare col mio <b>Raichu di Alola</b>?
@@ -14395,26 +14503,12 @@ Via allo scambio!!
 Via allo scambio!!
 Il Raichu di Alola è un surfista nato! Vedrai che spasso!
 Il Raichu di Alola è un surfista nato! Vedrai che spasso!
-Benny
-Benny
-Ehi, questo è grosso!! Su, togliti dai piedi e lasciami fare il mio lavoro!
-Ehi, questo è grosso!! Su, togliti dai piedi e lasciami fare il mio lavoro!
-Nnnggh! Senti come tira questo bestione!
-Nnnggh! Senti come tira questo bestione!
-... Mi si era solo incagliato l’amo sul fondo...
-... Mi si era solo incagliato l’amo sul fondo...
 Ariella
 Ariella
 Il mare da sempre incanta, commuove, spaventa, alle volte fa anche ridere... ma soprattutto, il mare chiama!
 Il mare da sempre incanta, commuove, spaventa, alle volte fa anche ridere... ma soprattutto, il mare chiama!
 Mi chiedo cosa renda il mare tanto affascinante...
 Mi chiedo cosa renda il mare tanto affascinante...
-Claus
-Claus
-Guarda che non sto mica battendo la fiacca qui, eh!
-Guarda che non sto mica battendo la fiacca qui, eh!
-Esiste una sottile linea di confine tra il pescare e lo starsene in spiaggia come un idiota.
-Esiste una sottile linea di confine tra il pescare e lo starsene in spiaggia come un idiota.
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
 Shulong
@@ -14423,6 +14517,14 @@ Shu...!
 Shu...!
 <<[>>old<<]>>Forse un Pokémon di tipo Acqua potrebbe immergervisi...
 <<[>>old<<]>>Forse un Pokémon di tipo Acqua potrebbe immergervisi...
+Claus
+Claus
+Guarda che non sto mica battendo la fiacca qui, eh!
+Guarda che non sto mica battendo la fiacca qui, eh!
+Esiste una sottile linea di confine tra il pescare e lo starsene in spiaggia come un idiota.
+Esiste una sottile linea di confine tra il pescare e lo starsene in spiaggia come un idiota.
+<<[>>old<<]>>Gooot...!
+<<[>>old<<]>>Gooot...!
 Alex
 Alex
 Dai amico|a, facciamoci una lotta Pokémon mentre aspetto che arrivi l’onda perfetta!
@@ -14431,8 +14533,6 @@ Ho capito! Non sarà l’onda perfetta a venire da me, sono io che devo cercarla
 Ho capito! Non sarà l’onda perfetta a venire da me, sono io che devo cercarla!
 Non sarà l’onda perfetta a venire da me, sono io che devo cercarla!
 Non sarà l’onda perfetta a venire da me, sono io che devo cercarla!
-<<[>>old<<]>>Gooot...!
-<<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Percorso 11
 <<[>>old<<]>>Percorso 11
 Selene
@@ -16261,8 +16361,8 @@ Quale mossa vuoi far ricordare a \v[3]?
 Quale mossa vuoi far ricordare a \v[3]?
 Infermiera Joy
 Infermiera Joy
-Ciao ragazzo|a. Il Professore Aster mi ha proibito di far entrare chiunque nel Monte Zodiaco, fino alla nuova cerimonia dei Cardinali. Torna in futuro!
-Ciao ragazzo|a. Il Professore Aster mi ha proibito di far entrare chiunque nel Monte Zodiaco, fino alla nuova cerimonia dei Cardinali. Torna in futuro!
+I Cardinali sono impegnati con delle cerimonie sacre. Meglio non disturbarli!
+I Cardinali sono impegnati con delle cerimonie sacre. Meglio non disturbarli!
 <<[>>old<<]>><b>ATTENZIONE!</b>
 <<[>>old<<]>><b>ATTENZIONE!</b>
 <<[>>old<<]>>Accedendo al <b>Monte Zodiaco</b>, non potrai più utilizzare un Centro Pokémon o fare acquisti per l’intera scalata. Vuoi davvero proseguire?
@@ -16858,18 +16958,12 @@ La sconfitta non è nient’altro che educazione.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 [Map416]
-Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
-Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
-A quale Pokémon vuoi far ricordare una mossa?
-A quale Pokémon vuoi far ricordare una mossa?
-Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Mi prendi in giro, forse?! Quello è solo un Uovo!
-Mi prendi in giro, forse?! Quello è solo un Uovo!
-Uhm... Non vedo mosse che \v[3] possa ricordare...
-Uhm... Non vedo mosse che \v[3] possa ricordare...
-Quale mossa vuoi far ricordare a \v[3]?
-Quale mossa vuoi far ricordare a \v[3]?
+Mr.Bug
+Mr.Bug
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Infermiera Joy
 Infermiera Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
@@ -16882,10 +16976,28 @@ Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
 Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
 Torna pure quando vuoi.
 Torna pure quando vuoi.
+Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
+Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
+A quale Pokémon vuoi far ricordare una mossa?
+A quale Pokémon vuoi far ricordare una mossa?
+Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
+Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
+Mi prendi in giro, forse?! Quello è solo un Uovo!
+Mi prendi in giro, forse?! Quello è solo un Uovo!
+Uhm... Non vedo mosse che \v[3] possa ricordare...
+Uhm... Non vedo mosse che \v[3] possa ricordare...
+Quale mossa vuoi far ricordare a \v[3]?
+Quale mossa vuoi far ricordare a \v[3]?
 Song
 Song
 A Tauronordia fa un freddo che si gela. Sarà per questo che noi abitanti siamo tutti così calorosi e accoglienti?
 A Tauronordia fa un freddo che si gela. Sarà per questo che noi abitanti siamo tutti così calorosi e accoglienti?
+Natale
+Natale
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Buon Natale a nome di tutto lo staff!
+Buon Natale a nome di tutto lo staff!
 Yi
 Yi
 Chissà quanti tesori dell’antichità sono stati conservati in perfette condizioni dal ghiaccio di questa terra!
@@ -16904,12 +17016,12 @@ Hikiloo
 Hikiloo
 Kiloo...!
 Kiloo...!
-Sì
-Sì
-No
-No
 Si
 Si
+No
+No
+Sì
+Sì
 [Map417]
 Qiao
 Qiao
@@ -16962,18 +17074,6 @@ Foy
 Foy
 Questo è il Pokémon-Market di Cansiria!
 Questo è il Pokémon-Market di Cansiria!
-Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
-Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
-A quale Pokémon vuoi far ricordare una mossa?
-A quale Pokémon vuoi far ricordare una mossa?
-Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Mi prendi in giro, forse?! Quello è solo un Uovo!
-Mi prendi in giro, forse?! Quello è solo un Uovo!
-Uhm... Non vedo mosse che \v[3] possa ricordare...
-Uhm... Non vedo mosse che \v[3] possa ricordare...
-Quale mossa vuoi far ricordare a \v[3]?
-Quale mossa vuoi far ricordare a \v[3]?
 Infermiera Joy
 Infermiera Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
@@ -16986,18 +17086,42 @@ Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
 Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
 Torna pure quando vuoi.
 Torna pure quando vuoi.
+Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
+Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
+A quale Pokémon vuoi far ricordare una mossa?
+A quale Pokémon vuoi far ricordare una mossa?
+Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
+Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
+Mi prendi in giro, forse?! Quello è solo un Uovo!
+Mi prendi in giro, forse?! Quello è solo un Uovo!
+Uhm... Non vedo mosse che \v[3] possa ricordare...
+Uhm... Non vedo mosse che \v[3] possa ricordare...
+Quale mossa vuoi far ricordare a \v[3]?
+Quale mossa vuoi far ricordare a \v[3]?
 Pare che, oltre all’Idolo di Fuoco, in altre civiltà si venerassero un <b>Idolo d’Erba</b> e un <b>Idolo d’Acqua</b>.
 Pare che, oltre all’Idolo di Fuoco, in altre civiltà si venerassero un <b>Idolo d’Erba</b> e un <b>Idolo d’Acqua</b>.
+Mr.Bug
+Mr.Bug
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
+Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Un <b>Pepequeno</b> ha iniziato a braccarmi e, per difendermi, gli ho lanciato addosso una <b>Pietrafocaia</b>... Chi se l’aspettava che, colpendolo in testa con quella, diventasse uno <b>Scovile</b>...! È un miracolo che sia ancora viva!!
 Un <b>Pepequeno</b> ha iniziato a braccarmi e, per difendermi, gli ho lanciato addosso una <b>Pietrafocaia</b>... Chi se l’aspettava che, colpendolo in testa con quella, diventasse uno <b>Scovile</b>...!   È un miracolo che sia ancora viva!!
+Natale
+Natale
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
+Buon Natale a nome di tutto lo staff!
+Buon Natale a nome di tutto lo staff!
 Niente da fare! Pare che neanche qui vendano la statuetta dell’<b>Idolo di Fuoco</b>...
 Niente da fare! Pare che neanche qui vendano la statuetta dell’<b>Idolo di Fuoco</b>...
-Sì
-Sì
-No
-No
 Si
 Si
+No
+No
+Sì
+Sì
 [Map421]
 <<[>>old<<]>>Boschetto
 <<[>>old<<]>>Boschetto
@@ -19052,8 +19176,8 @@ Signore e signori, vi do il benvenuto al nuovissimo talent ''In cerca di una ste
 Signore e signori, vi do il benvenuto al nuovissimo talent ''In cerca di una stella!'' organizzato dal signor Daddy!
 Ma presentiamo subito la nostra giuria d’eccezione!
 Ma presentiamo subito la nostra giuria d’eccezione!
-Comparso come un fulmino a ciel sereno, con la sua enorme armatura d’acciaio lucidata a specchio...
-Comparso come un fulmino a ciel sereno, con la sua enorme armatura d’acciaio lucidata a specchio...
+Comparso come un fulmine a ciel sereno, con la sua enorme armatura d’acciaio lucidata a specchio...
+Comparso come un fulmine a ciel sereno, con la sua enorme armatura d’acciaio lucidata a specchio...
 Un applauso al giudice S, beatmaker di fiducia del signor Daddy!
 Un applauso al giudice S, beatmaker di fiducia del signor Daddy!
 S
