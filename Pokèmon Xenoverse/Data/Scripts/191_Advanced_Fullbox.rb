@@ -456,6 +456,7 @@ class Fullbox
   end
   
   def self.execute(command,param,string)
+	echoln "Called Execute"
     echoln(command)
 		Log.d(FC_LOG,"Command '" + command + "'  parameters (" + param.length.to_s + "): " + param.to_s)
     case command
@@ -981,7 +982,7 @@ def fbText(message,commands=nil,cmdIfCancel=0,defaultCmd=0,&block)
   echoln(message)
   echoln(message.gsub(/\n/,' '))
   echoln("Checking for translation")
-	if pbGetLanguage != 4
+	if $PokemonSystem.language != 0 #0 italian, 1 english
 		begin
 			message=MessageTypes.getFromMapHash($game_map.map_id,message.gsub(/\n/,' '))#MessageTypes.getFromMapHash(0,message)
 			echoln(message)

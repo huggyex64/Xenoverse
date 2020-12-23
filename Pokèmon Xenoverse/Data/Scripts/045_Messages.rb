@@ -665,9 +665,18 @@ class Interpreter   # Used by RMXP
 				break
 			end
     end
-		message.gsub!(/\\n/) {"\n"}
-		message = _MAPINTL($game_map.map_id,message)
-		#fbInitialize(true)
+		#message.gsub!(/\\n/) {"\n"}
+		#message = _MAPINTL($game_map.map_id,message)
+    #fbInitialize(true)
+    echoln("Checking for translation")
+    if $PokemonSystem.language != 0 #0 italian, 1 english
+      begin
+        message=MessageTypes.getFromMapHash($game_map.map_id,message.gsub(/\n/,' '))#MessageTypes.getFromMapHash(0,message)
+        echoln(message)
+      rescue
+        message=message	
+      end
+    end
 		Fullbox.executeText(message)
     return true
   end
