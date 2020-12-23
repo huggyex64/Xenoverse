@@ -203,6 +203,7 @@ Use Box
 <<[>>old<<]>>Sono gli Sharpedo che hanno assaltato la Motonave Cometa! L'esemplare al centro sembra essere il capobranco... è un <b>Pokémon X</b>! È visibilmente infastidito e si avvicina con fare minaccioso...
 <<[>>old<<]>>These must be the Sharpedo who assaulted S.S. Comet!\nThe one in the middle seems to be their leader... it's an <b>X Pokémon</b>!\nIt is clearly annoyed and threateningly gets closer...
 Sharpedo
+Sharpedo
 Shaaaah!!
 Shaaaah!!
 [Map8]
@@ -405,13 +406,14 @@ La Bicicletta ormai è superata da quando c’è in giro il nuovissimo <b>Pokéb
 <<[>>old<<]>>Mai rubare i Pokémon degli altri! Le Poké Ball vanno lanciate soltanto contro Pokémon selvatici!
 <<[>>old<<]>>Mai rubare i Pokémon degli altri! Le Poké Ball vanno lanciate soltanto contro Pokémon selvatici!
 Ce l'hai fatta, \PN! Hai salvato il mio Hikiloo!
- You did it, \PN!\nYou saved my Hikiloo! 
+You did it, \PN!\nYou saved my Hikiloo! 
 Amico, non permetterò più a nessuno di portarti via da me, te lo prometto!
 Buddy, I'll never let anyone take you away from me again,\nI promise!
 \PN, il signor Tarassaco mi ha chiesto di darti questa come ricompensa!
 \PN, mr. Taraxo told me to give you this as a reward!
 Non ho ben capito a cosa serva, ma parlava di spaccare le rocce con un guanto...? Sarà mica quello che indossi tu? Beh, io vado a giocare con Hikiloo! Grazie ancora di tutto, \PN!
-I didn't get what he said, but he was talking ‘bout smashing rocks with a glove. May it be the one you're wearing?<<[>>old<<]>>ATTENZIONE!\nPericolo di scivolamento
+I didn't get what he said, but he was talking ‘bout smashing rocks with a glove. May it be the one you're wearing?\nWell, I'm gonna go play with Hikiloo!\nThanks again for everything, \PN! 
+<<[>>old<<]>>ATTENZIONE!\nPericolo di scivolamento
 <<[>>old<<]>>Watch out! The bridge is frozen and slippery!
 Serena
 Serena
