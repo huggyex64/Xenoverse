@@ -56154,3 +56154,9 @@ Medals
 Badges
 {1} consumed its {2} and resisted the damage!
 {1} consumed its {2} and resisted the damage!
+Siamo spiacenti, non abbiamo più scorte in magazzino.
+I'm sorry, our stocks are depleted.
+The boss Pokémon didn't move an inch!
+The boss Pokémon didn't move an inch!
+Sembra inutilizzabile...
+It doesn't seem to work...
