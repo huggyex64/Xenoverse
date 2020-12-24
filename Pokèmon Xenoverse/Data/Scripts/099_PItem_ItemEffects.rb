@@ -60,7 +60,11 @@ ItemHandlers::UseFromBag.add(:WHITEFLUTE,proc{|item|
 
 ItemHandlers::UseFromBag.add(:HONEY,proc{|item|  next 4  })
 
+
 ItemHandlers::UseFromBag.add(:ESCAPEROPE,proc{|item|
+     Kernel.pbMessage(_INTL("Sembra inutilizzabile..."))
+     next 0
+=begin
    if $game_player.pbHasDependentEvents?
      Kernel.pbMessage(_INTL("It can't be used when you have someone with you."))
      next 0
@@ -71,6 +75,7 @@ ItemHandlers::UseFromBag.add(:ESCAPEROPE,proc{|item|
      Kernel.pbMessage(_INTL("Can't use that here."))
      next 0
    end
+=end
 })
 
 ItemHandlers::UseFromBag.add(:SACREDASH,proc{|item|
@@ -819,6 +824,9 @@ ItemHandlers::UseInField.add(:HONEY,proc{|item|
 })
 
 ItemHandlers::UseInField.add(:ESCAPEROPE,proc{|item|
+  Kernel.pbMessage(_INTL("Sembra inutilizzabile..."))
+  next
+=begin
    escape=($PokemonGlobal.escapePoint rescue nil)
    if !escape || escape==[]
      Kernel.pbMessage(_INTL("Can't use that here."))
@@ -840,6 +848,7 @@ ItemHandlers::UseInField.add(:ESCAPEROPE,proc{|item|
       $game_map.refresh
    }
    pbEraseEscapePoint
+=end
 })
 
 ItemHandlers::UseInField.add(:BICYCLE,proc{|item|

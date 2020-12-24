@@ -125,5 +125,5 @@ Name=FAIRY
 InternalName=FAIRY
 IsSpecialType=true
 Weaknesses=STEEL,POISON,SUONO
-Resistances=DARK,FIGHTING
+Resistances=DARK,FIGHTING,BUG
 Immunities=DRAGON
