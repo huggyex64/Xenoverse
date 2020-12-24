@@ -31496,7 +31496,7 @@ The shadow sky continues.
 {1} was hurt by the shadow sky!
 {1} was hurt by the shadow sky!
 {1} took the {2} attack!
-{1} incassa il colpo destinato a {2}!
+{1} subisce l'effetto di {2}!
 {1}'s Rain Dish restored its HP a little!
 {1} recupera qualche PS grazie a Copripioggia!
 {1}'s Dry Skin was healed by the rain!
@@ -31850,7 +31850,7 @@ Peccato... La borsa è piena...
 {1} ha trovato {2} {3}!\wtnp[20]
 {1} trova {2} \c[1]{3}\c[0]!\wtnp[20]
 {1} ha trovato {2} {3}s!\wtnp[20]
-{1}trova {2} \c[1]{3}\c[0]!\wtnp[20]
+{1} trova {2} \c[1]{3}\c[0]!\wtnp[20]
 \se<<[>>itemlevel<<]>> Trovata una \c<<[>>1<<]>>{1}\c<<[>>0<<]>>!<<n>>Che contiene \c<<[>>1<<]>>{2}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
 \se<<[>>itemlevel<<]>>Hai trovato \c<<[>>1<<]>>{1}\c<<[>>0<<]>>!<<n>>Contiene \c<<[>>1<<]>>{2}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
 \se[itemlevel]Trovata delle \c[1]{1}\c[0]!\wtnp[30]

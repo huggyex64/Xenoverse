@@ -72,7 +72,7 @@ Yes
 Tarassaco
 Taraxo
 \PN?! Allora sei sano|a e salvo|a! Che ci fai in un posto così lugubre?
-\\PN?! Are you okay?\nWhat are you doing in such a gloomy place? 
+\PN?! Are you okay?\nWhat are you doing in such a gloomy place? 
 <<[>>old<<]>>Racconti a Tarassaco dell'accaduto.
 <<[>>old<<]>>You told Taraxo what happened.
 Oh, ecco spiegato il Lapras all'entrata! Questa faccenda mi puzzava di <b>Pokémon X</b>... Ero venuto qui per far luce sul mistero, ma a quanto pare ci hai già pensato tu. I marinai raccontano che questi Pokémon attacchino le navi per farne il proprio covo.
@@ -89,7 +89,7 @@ Kazam!
 <<[>>old<<]>>Palazzo del Cardinale
 <<[>>old<<]>>Cardinal's Palace
 <<[>>old<<]>>Casa dell'Insegnamosse
-<<[>>old<<]>>Casa dell'Insegnamosse
+<<[>>old<<]>Move Tutor's House
 Il Palazzo del Cardinale è al di là del ponte, ma pare che un Soldato blocchi l’accesso.
 Il Palazzo del Cardinale è al di là del ponte, ma pare che un Soldato blocchi l’accesso.
 <<[>>old<<]>>Il Vulcano Pulsar è un insidioso dungeon pieno zeppo di Pokémon selvatici. Fai scorta di Repellenti prima di avventurarti al suo interno!
@@ -126,15 +126,15 @@ No
 No
 [Map4]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Vuoi riposarti?
+<<[>>old<<]>>Do you want to rest?
 <<[>>old<<]>>Ora va molto meglio.
-<<[>>old<<]>>Ora va molto meglio.
+<<[>>old<<]>>So much better now!
 Mariano
 Mariano
 Solo da Mariano, articoli mai visti a prezzi stracciati!!
@@ -181,13 +181,13 @@ Usa Box
 Use Box
 [Map5]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>> Il cestino è vuoto.
-<<[>>old<<]>> Il cestino è vuoto.
+<<[>>old<<]>>The thrash is empty.
 Sì
 Yes
 No
@@ -449,31 +449,31 @@ Con Funesto si fa presto! Gambe in spalla!
 Se hai bisogno, fammi un fischio.
 Se hai bisogno, fammi un fischio.
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
-<<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 Si
-Si
+Yes
 No
 No
 Sì
-Sì
+Yes
 [Map14]
 Eva
 Eva
@@ -484,17 +484,17 @@ Toy
 Questo è il Pokémon-Market di Balansopoli!
 Questo è il Pokémon-Market di Balansopoli!
 Infermiera Joy
-Infermiera Joy
+Nurse Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
-Ciao!  Benvenuto|a in un Centro Pokémon!  In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
+Hello!\nWelcome to the Pokémon Center!\nIn this building, we restore your tired Pokémon to full health.\nWould you like to rest your Pokémon?
 Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
-Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
+OK, I'll take your Pokémon for a few second, then.
 Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
-Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
+Oh... It looks like your Pokémon may be infected with the Pokérus.\nLittle is known about the Pokérus, except that it is a microscopic life-form that attaches to Pokémon.\nWhile infected, Pokémon are said to grow exceptionally well.
 Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
-Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
+Thank you for waiting.\nWe've restored your Pokémon to full health!
 Torna pure quando vuoi.
-Torna pure quando vuoi.
+We hope to see you again!
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 A quale Pokémon vuoi far ricordare una mossa?
@@ -550,11 +550,11 @@ Capisco, non preoccuparti...
 Ora potrò comprare delle altre Poké Ball!
 Ora potrò comprare delle altre Poké Ball!
 Si
-Si
+Yes
 No
 No
 Sì
-Sì
+Yes
 [Map15]
 [Map16]
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
@@ -580,11 +580,11 @@ Con Funesto si fa presto! Gambe in spalla!
 Se hai bisogno, fammi un fischio.
 Se hai bisogno, fammi un fischio.
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 Joe
@@ -602,25 +602,25 @@ Queste hanno tutta l'aria di essere le impronte di un Pokémon raro... ma che di
 <<[>>old<<]>><b>Bosco Stellafilante</b> <i>''Un'oscura selva gremita di insetti.''</i>
 <<[>>old<<]>><b>Bosco Stellafilante</b> <i>''Un'oscura selva gremita di insetti.''</i>
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
-<<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 Roberta
 Roberta
 Stiamo conducendo delle ricerche all'insaputa di Aster, ma vedrai, sarà fiero di noi!
@@ -732,17 +732,17 @@ Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Infermiera Joy
-Infermiera Joy
+Nurse Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
-Ciao!  Benvenuto|a in un Centro Pokémon!  In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
+Hello!\nWelcome to the Pokémon Center!\nIn this building, we restore your tired Pokémon to full health.\nWould you like to rest your Pokémon?
 Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
-Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
+OK, I'll take your Pokémon for a few second, then.
 Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
-Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
+Oh... It looks like your Pokémon may be infected with the Pokérus.\nLittle is known about the Pokérus, except that it is a microscopic life-form that attaches to Pokémon.\nWhile infected, Pokémon are said to grow exceptionally well.
 Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
-Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
+Thank you for waiting.\nWe've restored your Pokémon to full health!
 Torna pure quando vuoi.
-Torna pure quando vuoi.
+We hope to see you again!
 Natale
 Natale
 Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
@@ -774,11 +774,11 @@ Sapevi che esistono ben quattro forme di <b>Bremand</b>?
 Vorrei tanto che il mio <b>Eevee</b> si evolvesse in <b>Sylveon</b>, ma pare che, per farlo, debba imparare una specifica mossa di tipo Folletto...
 Vorrei tanto che il mio <b>Eevee</b> si evolvesse in <b>Sylveon</b>, ma pare che, per farlo, debba imparare una specifica mossa di tipo Folletto...
 Si
-Si
+Yes
 No
 No
 Sì
-Sì
+Yes
 [Map23]
 Aluccia
 Aluccia
@@ -828,15 +828,15 @@ Dobbiamo spingerci oltre!
 Dobbiamo spingerci oltre!
 [Map24]
 <<[>>new,Infermiera,ranch/infermiera,default,left,true<<]>> Eccoci qui.<<[>>dispose<<]>>
-<<[>>new,Nurse,ranch/infermiera,default,left,true<<]>> Here we are.<<[>>dispose<<]>>
+<<[>>new,Nurse,ranch/infermiera,default,left,true<<]>>Here we are.<<[>>dispose<<]>>
 <<[>>new,Infermiera,ranch/infermiera,default,left,true<<]>> Le propongo un gioco. Vediamo se riesce a indovinare il sesso del suo bambino. Secondo lei è un maschietto o una femminuccia?<<[>>dispose<<]>>
-<<[>>new,Nurse,ranch/infermiera,default,left,true<<]>> Let's play a game. Could you guess the gender of your baby?\nDo you think it's a boy? Or a girl?<<[>>dispose<<]>>
+<<[>>new,Nurse,ranch/infermiera,default,left,true<<]>>Let's play a game. Could you guess the gender of your baby?\nDo you think it's a boy? Or a girl?<<[>>dispose<<]>>
 <<[>>new,Infermiera,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>> Secondo me è un maschietto.
-<<[>>new,Nurse,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>> I believe it's a boy.
+<<[>>new,Nurse,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>>I believe it's a boy.
 <<[>>act,left<<]>>\nComplimenti signore, ha indovinato! È proprio un bel maschietto.
 <<[>>act,left<<]>>\nCongratulations sir, you guessed it! It really is a beautiful boy.
 <<[>>new,Infermiera,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>> Secondo me è una femminuccia.
-<<[>>new,Nurse,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>> I believe it's a girl.
+<<[>>new,Nurse,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>>I believe it's a girl.
 <<[>>act,left<<]>>\nComplimenti signore, ha indovinato! È proprio una bella femminuccia.
 <<[>>act,left<<]>>\nCongratulations sir, you guessed it! It really is a beautiful girl.
 Venga con me.[dispose]
@@ -860,16 +860,16 @@ Come with me.[dispose]
 <<[>>act,left<<]>>\n@pl|? Trovo che sia fantastico! Sapevo che non mi avresti delusa... coff... coff...
 <<[>>act,left<<]>>\n@pl|? It sounds fantastic! I knew that you\nwouldn't let me down- cough... cough...
 <<[>>act,right<<]>><<[>>mug,right,ranch/versil,spaventato<<]>> Edera, non sforzarti troppo! Ora pensa solo a riposare...<<[>>dispose<<]>>
-<<[>>act,right<<]>><<[>>mug,right,ranch/versil,spaventato<<]>> Clover, don't overdo it! You should rest now...<<[>>dispose<<]>>
+<<[>>act,right<<]>><<[>>mug,right,ranch/versil,spaventato<<]>>Clover, don't overdo it! You should rest now...<<[>>dispose<<]>>
 [Map25]
 <<[>>new,Versil,ranch/versil,spaventato,left,true<<]>> Non ce la faccio più ad aspettare...!<<[>>dispose<<]>>
-<<[>>new,Versil,ranch/versil,spaventato,left,true<<]>> I can't wait any longer...!<<[>>dispose<<]>>
+<<[>>new,Versil,ranch/versil,spaventato,left,true<<]>>I can't wait any longer...!<<[>>dispose<<]>>
 <<[>>new,Infermiera,ranch/infermiera,default,left,true<<]>> Signore, venga qui.<<[>>dispose<<]>>
-<<[>>new,Nurse,ranch/infermiera,default,left,true<<]>> Sir, come here, please.<<[>>dispose<<]>>
+<<[>>new,Nurse,ranch/infermiera,default,left,true<<]>>Sir, come here, please.<<[>>dispose<<]>>
 <<[>>new,Versil,ranch/versil,chiamata,left,true<<]>> Oh! Mi dica, signorina.<<[>>dispose<<]>>
-<<[>>new,Versil,ranch/versil,chiamata,left,true<<]>> Ah! Please tell me.<<[>>dispose<<]>>
+<<[>>new,Versil,ranch/versil,chiamata,left,true<<]>>Ah! Please tell me.<<[>>dispose<<]>>
 <<[>>new,Infermiera,ranch/infermiera,default,left,true<<]>> Ho una splendida notizia per lei. Mi segua, forza.<<[>>dispose<<]>>
-<<[>>new,Infermiera,ranch/infermiera,default,left,true<<]>> I have great news for you. Follow me, come on.<<[>>dispose<<]>>
+<<[>>new,Infermiera,ranch/infermiera,default,left,true<<]>>I have great news for you. Follow me, come on.<<[>>dispose<<]>>
 [Map26]
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
@@ -882,25 +882,25 @@ Eppure, era così credibile...!
 Non sembro un normale cumulo di neve quindi...?
 Non sembro un normale cumulo di neve quindi...?
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
-<<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 Franceschino
 Franceschino
 È deciso! Il prossimo anno si torna qui!
@@ -950,7 +950,7 @@ Badum... tss!
 È questo clima che mi istiga freddure.
 È questo clima che mi istiga freddure.
 Sì
-Sì
+Yes
 No
 No
 [Map27]
@@ -1017,11 +1017,11 @@ Come... no-non eri tu?!
 Sarà meglio andare a pescare altrove...
 Sarà meglio andare a pescare altrove...
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 Sì
 Yes
 No
@@ -1189,17 +1189,17 @@ Uhm... Non vedo mosse che \v[3] possa ricordare...
 Quale mossa vuoi far ricordare a \v[3]?
 Quale mossa vuoi far ricordare a \v[3]?
 Infermiera Joy
-Infermiera Joy
+Nurse Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
-Ciao!  Benvenuto|a in un Centro Pokémon!  In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
+Hello!\nWelcome to the Pokémon Center!\nIn this building, we restore your tired Pokémon to full health.\nWould you like to rest your Pokémon?
 Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
-Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
+OK, I'll take your Pokémon for a few second, then.
 Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
-Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
+Oh... It looks like your Pokémon may be infected with the Pokérus.\nLittle is known about the Pokérus, except that it is a microscopic life-form that attaches to Pokémon.\nWhile infected, Pokémon are said to grow exceptionally well.
 Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
-Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
+Thank you for waiting.\nWe've restored your Pokémon to full health!
 Torna pure quando vuoi.
-Torna pure quando vuoi.
+We hope to see you again!
 Mr.Bug
 Mr.Bug
 Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
@@ -1225,11 +1225,11 @@ Gustavo
 Il freddo è l’ideale per temprare il corpo e lo spirito... ma fuori si gela!
 Il freddo è l’ideale per temprare il corpo e lo spirito... ma fuori si gela!
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 [Map31]
 Gianfilippo
 Gianfilippo
@@ -1254,11 +1254,11 @@ Bernardo
 La bufera deve aver congelato te e i tuoi Pokémon... Guarda quei ghiaccioli sotto al naso! Oh oh oh! Scherzi a parte, non fare complimenti. Fa' come se fosse casa tua. Scaldati pure davanti al caminetto e riposa quanto vuoi.
 La bufera deve aver congelato te e i tuoi Pokémon...  Guarda quei ghiaccioli sotto al naso! Oh oh oh! Scherzi a parte, non fare complimenti. Fa' come se fosse casa tua.  Scaldati pure davanti al caminetto e riposa quanto vuoi.
 <<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Vuoi riposarti?
+<<[>>old<<]>>Do you want to rest?
 <<[>>old<<]>>Ora va molto meglio.
-<<[>>old<<]>>Ora va molto meglio.
+<<[>>old<<]>>So much better now!
 Sì
-Sì
+Yes
 No
 No
 [Map34]
@@ -1383,9 +1383,9 @@ Caterina
 Hai visto che bei girasoli?
 Hai visto che bei girasoli?
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: 0
 <<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: 0
 <<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: \PN
@@ -1435,7 +1435,7 @@ Mi raccomando, \PN, fatti valere in Palestra! Faccio il tifo per te!
 Probabilmente te la caverai anche contro Claudio, anzi, ne sono sicura! Per precauzione, però, ti darò questo regalino. Chissà che non ti torni utile durante la lotta.
 Probabilmente te la caverai anche contro Claudio, anzi, ne sono sicura! Per precauzione, però, ti darò questo regalino. Chissà che non ti torni utile durante la lotta.
 Sì
-Sì
+Yes
 No
 No
 Si
@@ -1831,31 +1831,31 @@ Theory and practice don't always go together...
 Devo leggere con più attenzione i <b>Comandi di gioco</b> dal menù!
  I must read more carefully <b>In Game Controls</b>\nfrom the menu!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
-<<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 Si
-Si
+Yes
 No
 No
 Sì
-Sì
+Yes
 [Map39]
 <<[>>old<<]>>Palestra Radice\nCapopalestra: <b>Alisso</b> <i>''Un tutt'uno con la natura!''</i> Allenatori Certificati: 0
 <<[>>old<<]>>Palestra Radice\nCapopalestra: <b>Alisso</b> <i>''Un tutt'uno con la natura!''</i> Allenatori Certificati: 0
@@ -2047,7 +2047,7 @@ Sigh... Nemmeno lo so suonare il tamburo...
 Oh, qual buon vento, \PN! Come stai?
 Oh, qual buon vento, \PN! Come stai?
 Sì
-Sì
+Yes
 No
 No
 [Map41]
@@ -2314,17 +2314,17 @@ Carlo
 Aster è davvero ben voluto da tutti, ma alle volte è un tale perfezionista...
 Aster è davvero ben voluto da tutti, ma alle volte è un tale perfezionista...
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 Michele
 Michele
 Non dev’essere facile dirigere un intero laboratorio. Mi chiedo come faccia Aster...
 Non dev’essere facile dirigere un intero laboratorio. Mi chiedo come faccia Aster...
 Sì
-Sì
+Yes
 No
 No
 Pokédex di Eldiw
@@ -2340,9 +2340,9 @@ Sezione Retròdex
 Sezione Retrodex
 Sezione Retrodex
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map42]
 <<[>>old<<]>>Cerca sempre di non focalizzare l'allenamento su un solo Pokémon della squadra. Meglio avere più compagni su cui poter fare affidamento, non credi?
 <<[>>old<<]>>Cerca sempre di non focalizzare l'allenamento su un solo Pokémon della squadra. Meglio avere più compagni su cui poter fare affidamento, non credi?
@@ -2353,9 +2353,9 @@ Sono qui per allargare la mia collezione di Coleotteri!
 Vedrai, metterò le mani su un Coleottero rarissimo...!
 Vedrai, metterò le mani su un Coleottero rarissimo...!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 Nello
 Nello
 Da queste parti non si fa che sentire il ruggito dei Druddigon. La loro tana dev’essere qui da qualche parte!
@@ -2371,25 +2371,25 @@ Il fiore dal profumo più intenso è la vittoria!
 Ma non raccolgo che sconfitte...
 Ma non raccolgo che sconfitte...
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
-<<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 <<[>>old<<]>>Per Cansiria
 <<[>>old<<]>>Per Cansiria
 Ana
@@ -2423,11 +2423,11 @@ Si
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 Sì
-Sì
+Yes
 [Map43]
 Emiliano
 Emiliano
@@ -2450,7 +2450,7 @@ La Motonave Cometa attraccherà direttamente al <b>Campus Ariepoli</b>. Nel ment
 <<[>>old<<]>>La porta si è aperta!
 <<[>>old<<]>>La porta si è aperta!
 Sì
-Sì
+Yes
 No
 No
 [Map44]
@@ -2487,7 +2487,7 @@ Mi hai davvero fatto un favore riportandole la sua bambolina! Voilà, la tua ric
 Nipotina mia, torna a farmi compagnia...
 Nipotina mia, torna a farmi compagnia...
 Sì
-Sì
+Yes
 No
 No
 [Map47]
@@ -2521,7 +2521,7 @@ Cucinerò un ottimo Risoctillery per tutto l'equipaggio!
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
 Sì
-Sì
+Yes
 No
 No
 [Map49]
@@ -2682,7 +2682,7 @@ Noi Reclute siamo niente in confronto ai <b>Sergenti</b>. <i>Bzz!</i>
 Non puoi aprire la porta senza lo starter in squadra.
 Non puoi aprire la porta senza lo starter in squadra.
 Sì
-Sì
+Yes
 No
 No
 [Map54]
@@ -2725,7 +2725,7 @@ Sono certo che ora avrà occhi solo per me!
 Quello strambo professore di Filosofia l'altro giorno mi ha regalato un sasso... Ho apprezzato il gesto, ma lo sanno tutti che oggigiorno le donne si conquistano coi Fossili!
 Quello strambo professore di Filosofia l'altro giorno mi ha regalato un sasso... Ho apprezzato il gesto, ma lo sanno tutti che oggigiorno le donne si conquistano coi Fossili!
 Sì
-Sì
+Yes
 No
 No
 [Map55]
@@ -2955,7 +2955,7 @@ Che scontro memorabile quello tra te e Claudio!
 <<[>>old<<]>>Vuoi aprire la porta dell'aula di Matematica utilizzando la chiave?
 <<[>>old<<]>>Vuoi aprire la porta dell'aula di Matematica utilizzando la chiave?
 Sì
-Sì
+Yes
 No
 No
 [Map57]
@@ -3114,7 +3114,7 @@ Marta
 Sono venuta fino a qui solo per provare il famoso <b>Sidrostelle</b> del borgo.
 Sono venuta fino a qui solo per provare il famoso <b>Sidrostelle</b> del borgo.
 Sì
-Sì
+Yes
 No
 No
 [Map62]
@@ -3140,7 +3140,7 @@ Peccato...
 Ad Alola abbiamo risolto il problema dello smaltimento dei rifiuti proprio grazie ai Grimer!
 Ad Alola abbiamo risolto il problema dello smaltimento dei rifiuti proprio grazie ai Grimer!
 Sì
-Sì
+Yes
 No
 No
 [Map64]
@@ -3195,7 +3195,7 @@ Forza, dai sfogo alla tua fantasia!
 Ecco fatto! D'ora in poi questo Pokémon si chiamerà così!
 Ecco fatto! D'ora in poi questo Pokémon si chiamerà così!
 Sì
-Sì
+Yes
 No
 No
 [Map67]
@@ -3261,27 +3261,27 @@ Mi hai placcato a dovere...
 Le lotte Pokémon sono toste, ma niente a che vedere col football!
 Le lotte Pokémon sono toste, ma niente a che vedere col football!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
-<<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 Sì
-Sì
+Yes
 No
 No
 [Map69]
@@ -3370,7 +3370,7 @@ Devo aver preso un granchio...
 <<[>>old<<]>>Quando un Pokémon si sta evolvendo, puoi bloccare il processo premendo X. Rimanendo allo stadio base, infatti, imparerà mosse più in fretta.
 <<[>>old<<]>>Quando un Pokémon si sta evolvendo, puoi bloccare il processo premendo X. Rimanendo allo stadio base, infatti, imparerà mosse più in fretta.
 Sì
-Sì
+Yes
 No
 No
 [Map70]
@@ -3393,7 +3393,7 @@ Grazie ancora della Baccarancia, eh!
 ...
 ...
 Sì
-Sì
+Yes
 No
 No
 [Map71]
@@ -3505,15 +3505,15 @@ Questi fanghi puzzano un po’, ma sono perfetti per le maschere di bellezza!
 Guarda che pelle liscia e senza imperfezioni che abbiamo io e i miei Pokémon.
 Guarda che pelle liscia e senza imperfezioni che abbiamo io e i miei Pokémon.
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Sabolt dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Sabolt dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Sabolt to take a look inside?
 Sabolt
 Sabolt
 Booolt...!
 Booolt...!
 <<[>>old<<]>>Forse un Pokémon di tipo Elettro potrebbe addentrarvisi...
-<<[>>old<<]>>Forse un Pokémon di tipo Elettro potrebbe addentrarvisi...
+<<[>>old<<]>>Probably an Electric-type Pokémon could get in there...
 <<[>>old<<]>> Per entrare in questo Nido hai bisogno di Sabolt. Vuoi farlo entrare?
-<<[>>old<<]>> Per entrare in questo Nido hai bisogno di Sabolt. Vuoi farlo entrare?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Sabolt to take a look inside?
 <<[>>old<<]>>Probabilmente per entrare in questo Nido, hai bisogno di un particolare Pokémon di tipo Elettro.
 <<[>>old<<]>>Probabilmente per entrare in questo Nido, hai bisogno di un particolare Pokémon di tipo Elettro.
 <<[>>old<<]>>La palude è piena zeppa di Pokémon Veleno! Fai scorta di Antidoti e Baccapesche prima di lanciarti all'avventura.
@@ -3547,11 +3547,11 @@ Qu-Questo bosco mi fa ta-tanta paura... voglio la mamma!!
 Se solo avessi una Fune di Fuga...
 Se solo avessi una Fune di Fuga...
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 [Map77]
 Joltik
 Joltik
@@ -3590,11 +3590,11 @@ In tutta la mia vita da Pigliamosche non ho mai visto dei Coleotteri come quelli
 Gaaa...!
 Gaaa...!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>>Immergendosi in questa melma, i tuoi Pokémon rischiano di rimanere avvelenati, perciò cerca di attraversarla in fretta!
 <<[>>old<<]>>Immergendosi in questa melma, i tuoi Pokémon rischiano di rimanere avvelenati, perciò cerca di attraversarla in fretta!
 Questo Joltik blocca il passaggio.
@@ -3602,13 +3602,13 @@ Questo Joltik blocca il passaggio.
 <<[>>old<<]>>ATTENZIONE Allenatori! E' vietato l'utilizzo di Surf. L'acqua è troppo pericolosa per via della mole di Pokémon veleno che ci vivono. Firmato ''i cittadini di Borgo Gemini''.
 <<[>>old<<]>>ATTENZIONE Allenatori! E' vietato l'utilizzo di Surf. L'acqua è troppo pericolosa per via della mole di Pokémon veleno che ci vivono.  Firmato ''i cittadini di Borgo Gemini''.
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map78]
 Dustin
 Dustin
@@ -3829,11 +3829,11 @@ Urlare massimizza il proprio ki!
 Hippoo...!
 Hippoo...!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 Pino
 Pino
 Fossili, Fossili e Fossili!!
@@ -3841,25 +3841,25 @@ Fossili, Fossili e Fossili!!
 I Fossili sono tutta la mia vita!
 I Fossili sono tutta la mia vita!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
-<<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 Pier
 Pier
 Il silenzio del Cunicolo Gravità è musica per le mie orecchie!
@@ -3885,13 +3885,13 @@ Ora avrei bisogno di un Centro Pokémon...
 Phew! Menomale che c’è un Centro Porygon laggiù.
 Phew! Menomale che c’è un Centro Porygon laggiù.
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map81]
 Sei il||la primo|a a farmi visita da quando mi sono trasferito. Ti dono volentieri questo pensierino!
 Sei il||la primo|a a farmi visita da quando mi sono trasferito. Ti dono volentieri questo pensierino!
@@ -3940,7 +3940,7 @@ Lo conserverò comunque. Non si sa mai che possa servirti prima o poi!
 Ma chi ce l’ha messo dentro poi?!
 Ma chi ce l’ha messo dentro poi?!
 Sì
-Sì
+Yes
 No
 No
 [Map86]
@@ -4063,11 +4063,11 @@ G1N0
 Schiacceremo ogni intruso! <i>Bzz!</i>
 Schiacceremo ogni intruso! <i>Bzz!</i>
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 HJ65
 HJ65
 Questo posto ormai è di proprietà del Team Dimension! <i>Bzz!</i>
@@ -4097,13 +4097,13 @@ Con questa cianfrusaglia si pescano solo Magikarp! Te la cedo volentieri, guarda
 Spero ti piacciano i Magikarp. Ah ah ah!
 Spero ti piacciano i Magikarp. Ah ah ah!
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map87]
 Niente è meglio di una bella Gassosa per rimettersi in forze!
 Niente è meglio di una bella Gassosa per rimettersi in forze!
@@ -4512,7 +4512,7 @@ Ecco a te il tuo Pokémon!
 Vuoi ritirare anche l'altro?
 Vuoi ritirare anche l'altro?
 Sì
-Sì
+Yes
 No
 No
 [Map96]
@@ -4551,17 +4551,17 @@ Roy
 Questo è il Pokémon-Market di Borgo Gemini!
 Questo è il Pokémon-Market di Borgo Gemini!
 Infermiera Joy
-Infermiera Joy
+Nurse Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
-Ciao!  Benvenuto|a in un Centro Pokémon!  In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
+Hello!\nWelcome to the Pokémon Center!\nIn this building, we restore your tired Pokémon to full health.\nWould you like to rest your Pokémon?
 Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
-Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
+OK, I'll take your Pokémon for a few second, then.
 Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
-Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
+Oh... It looks like your Pokémon may be infected with the Pokérus.\nLittle is known about the Pokérus, except that it is a microscopic life-form that attaches to Pokémon.\nWhile infected, Pokémon are said to grow exceptionally well.
 Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
-Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
+Thank you for waiting.\nWe've restored your Pokémon to full health!
 Torna pure quando vuoi.
-Torna pure quando vuoi.
+We hope to see you again!
 Natale
 Natale
 Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
@@ -4585,11 +4585,11 @@ Eveline
 ''Pokémon fatto di carta che evolve imparando <b>Cartaforbice</b>''? Oh, questa è facile... <b>Chigami</b>!
 ''Pokémon fatto di carta che evolve imparando <b>Cartaforbice</b>''? Oh, questa è facile... <b>Chigami</b>!
 Si
-Si
+Yes
 No
 No
 Sì
-Sì
+Yes
 [Map99]
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
@@ -4606,7 +4606,7 @@ Torna a trovarmi se vuoi che uno dei tuoi Pokémon impari questa mossa.
 Solo pochi Pokémon possono imparare <b>Fatapatto</b>... Eevee è uno di questi!
 Solo pochi Pokémon possono imparare <b>Fatapatto</b>... Eevee è uno di questi!
 Sì
-Sì
+Yes
 No
 No
 [Map100]
@@ -4656,7 +4656,7 @@ Benvenuto|a nella Palestra del Regno di Virgopoli!  Mi domandavo quanto ci avres
 Congratulazioni, ora che possiedi tre Medaglie, non sei più un principiante. Lo sapevo che saresti andato|a lontano!
 Congratulazioni, ora che possiedi tre Medaglie, non sei più un principiante. Lo sapevo che saresti andato|a lontano!
 Sì
-Sì
+Yes
 No
 No
 [Map102]
@@ -4740,7 +4740,7 @@ Uffa... E va bene, vorrà dire che mi preparerò!
 La terza ed ultima prova avrà luogo a breve.
 La terza ed ultima prova avrà luogo a breve.
 Sì
-Sì
+Yes
 No
 No
 [Map104]
@@ -4774,17 +4774,17 @@ Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Infermiera Joy
-Infermiera Joy
+Nurse Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
-Ciao!  Benvenuto|a in un Centro Pokémon!  In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
+Hello!\nWelcome to the Pokémon Center!\nIn this building, we restore your tired Pokémon to full health.\nWould you like to rest your Pokémon?
 Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
-Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
+OK, I'll take your Pokémon for a few second, then.
 Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
-Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
+Oh... It looks like your Pokémon may be infected with the Pokérus.\nLittle is known about the Pokérus, except that it is a microscopic life-form that attaches to Pokémon.\nWhile infected, Pokémon are said to grow exceptionally well.
 Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
-Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
+Thank you for waiting.\nWe've restored your Pokémon to full health!
 Torna pure quando vuoi.
-Torna pure quando vuoi.
+We hope to see you again!
 <<[>>old<<]>>Qui non c'è niente...
 <<[>>old<<]>>Qui non c'è niente...
 Natale
@@ -4804,11 +4804,11 @@ Dolly
 Questo è il Pokémon-Market di Aquariopoli!
 Questo è il Pokémon-Market di Aquariopoli!
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 [Map106]
 Draco
 Draco
@@ -4894,7 +4894,7 @@ Devo dimostrare il mio valore sul Vulcano Pulsar, se voglio che <b>Eevee</b> div
 Vee!
 Vee!
 Sì
-Sì
+Yes
 No
 No
 [Map116]
@@ -5045,11 +5045,11 @@ Oltre la porta di casa, chiunque può esser tuo nemico!
 Non ho saputo padroneggiare le tecniche fondamentali.
 Non ho saputo padroneggiare le tecniche fondamentali.
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 [Map121]
 Roberto
 Roberto
@@ -5081,7 +5081,7 @@ Sabolt
 Booolt...!
 Booolt...!
 <<[>>old<<]>>Forse un Pokémon di tipo Elettro potrebbe addentrarvisi...
-<<[>>old<<]>>Forse un Pokémon di tipo Elettro potrebbe addentrarvisi...
+<<[>>old<<]>>Probably an Electric-type Pokémon could get in there...
 Maleo
 Maleo
 Uscirò da quest’inferno di fuoco e ghiaccio temprato nel fisico e nello spirito!
@@ -5101,7 +5101,7 @@ Bergmite
 Berg...!
 Berg...!
 Sì
-Sì
+Yes
 No
 No
 [Map123]
@@ -5133,7 +5133,7 @@ Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe sciogliere questo blocco di ghiaccio...
-<<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe sciogliere questo blocco di ghiaccio...
+<<[>>old<<]>>Probably a Fire-type Pokémon could melt the ice...
 Turtonator
 Turtonator
 Tuuurt....!
@@ -5149,15 +5149,15 @@ Dobbiamo cercare di contenere i nostri istinti.
 Quinta regola del dojo: dobbiamo cercare di contenere i nostri istinti.
 Quinta regola del dojo: dobbiamo cercare di contenere i nostri istinti.
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 <<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe addentrarvisi...
-<<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe addentrarvisi...
+<<[>>old<<]>>Probably a Fire-type Pokémon could get in there...
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 [Map125]
 Turtonator
 Turtonator
@@ -5166,11 +5166,11 @@ Tuuurt....!
 <<[>>old<<]>>Vuoi salire su Turtonator?
 <<[>>old<<]>>Vuoi salire su Turtonator?
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon?
+<<[>>old<<]>>Do you want to heal your Pokémon?
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Un'energia arcana impedisce di proseguire...
 <<[>>old<<]>>Un'energia arcana impedisce di proseguire...
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
@@ -5192,9 +5192,9 @@ Si
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map126]
 Trishout
 Trishout
@@ -5492,11 +5492,11 @@ Tsk! Per stavolta hai avuto fortuna...!
 Non so se ti andrà altrettanto bene la prossima volta.
 Non so se ti andrà altrettanto bene la prossima volta.
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Carolina
@@ -5680,15 +5680,15 @@ Sono stato troppo avventato...
 La mamma dice sempre ''meglio avere meno tuono in bocca e più fulmine nella mano''.
 La mamma dice sempre ''meglio avere meno tuono in bocca e più fulmine nella mano''.
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 Si
-Si
+Yes
 [Map136]
 Nico
 Nico
@@ -5725,7 +5725,7 @@ Perbacco, diamo subito inizio allo scambio!
 Vedrai, il Geodude di Alola è davvero elettrizzante! Ma anche questo qui non scherza!
 Vedrai, il Geodude di Alola è davvero elettrizzante! Ma anche questo qui non scherza!
 Sì
-Sì
+Yes
 No
 No
 [Map139]
@@ -5769,7 +5769,7 @@ Scaaa
 <<[>>old<<]>>Sembrerebbe esserci un Pokémon depositato in questo vecchio Box... vuoi ritirarlo?
 <<[>>old<<]>>Sembrerebbe esserci un Pokémon depositato in questo vecchio Box... vuoi ritirarlo?
 Sì
-Sì
+Yes
 No
 No
 [Map141]
@@ -5808,7 +5808,7 @@ No
 <<[>>old<<]>>La porta è chiusa a chiave. Forse è meglio non aprire.
 <<[>>old<<]>>La porta è chiusa a chiave. Forse è meglio non aprire.
 Sì
-Sì
+Yes
 No
 No
 [Map142]
@@ -5885,13 +5885,13 @@ La fortuna sorride ad alcuni e ride di altri.
 <<[>>old<<]>>Sembra essere vuoto.
 <<[>>old<<]>>Sembra essere vuoto.
 <<[>>old<<]>>C'è una piccola fessura nella parete... Vuoi che Shulong l'allarghi con i suoi getti d'acqua?
-<<[>>old<<]>>C'è una piccola fessura nella parete... Vuoi che Shulong l'allarghi con i suoi getti d'acqua?
+<<[>>old<<]>>There a small crack in the wall... Do you want Shulong to widen it using its water jets?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse un Pokémon di tipo Acqua potrebbe allargare la crepa nella parete...
-<<[>>old<<]>>Forse un Pokémon di tipo Acqua potrebbe allargare la crepa nella parete...
+<<[>>old<<]>>Probably a Water-type Pokémon could widen the crack in the wall...
 Ebi
 Ebi
 La regina è il nostro sole e noi faremo di tutto per far sì che splenda radiosa!
@@ -5917,7 +5917,7 @@ Chi sbaglia pagherà con la moneta della sconfitta!
 Mia regina, mi perdoni...
 Mia regina, mi perdoni...
 Sì
-Sì
+Yes
 No
 No
 [Map145]
@@ -5963,19 +5963,19 @@ No
 <<[>>old<<]>>Sembra essere vuoto.
 <<[>>old<<]>>Sembra essere vuoto.
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map147]
 <<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
 <<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
@@ -5986,7 +5986,7 @@ Usa Box
 <<[>>old<<]>>Qui non c'è niente...
 <<[>>old<<]>>Qui non c'è niente...
 Sì
-Sì
+Yes
 No
 No
 [Map148]
@@ -6080,7 +6080,7 @@ Mi manca l’aria!
 Dovrei ringraziarti per avermi liberato, ma non altrettanto per avermi sconfitto...
 Dovrei ringraziarti per avermi liberato, ma non altrettanto per avermi sconfitto...
 Sì
-Sì
+Yes
 No
 No
 [Map150]
@@ -6357,7 +6357,7 @@ Carlos
 Ma dimmi tu se tocca a me lavare tutti ‘sti piatti!
 Ma dimmi tu se tocca a me lavare tutti ‘sti piatti!
 Sì
-Sì
+Yes
 No
 No
 [Map159]
@@ -6373,15 +6373,15 @@ Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Infermiera Joy
 Infermiera Joy
 Ciao... Benvenuto|a in un Centro Pokémon... In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati... Vuoi far riposare la tua squadra?
-Ciao... Benvenuto|a in un Centro Pokémon... In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati... Vuoi far riposare la tua squadra?
+Hello...\nWelcome to the Pokémon Center...\nIn this building, we restore your tired Pokémon to full health...\nWould you like to rest your Pokémon?
 Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
-Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
+OK, I'll take your Pokémon for a few second, then...
 Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus... Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale...
-Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus... Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale...
+Oh... It looks like your Pokémon may be infected with the Pokérus...\nLittle is known about the Pokérus, except that it is a microscopic life-form that attaches to Pokémon...\nWhile infected, Pokémon are said to grow exceptionally well...
 Perdona l'attesa... Ora i tuoi Pokémon sono in perfetta forma...
-Perdona l'attesa...  Ora i tuoi Pokémon sono in perfetta forma...
+Thank you for waiting...\nWe've restored your Pokémon to full health...
 Torna pure quando vuoi...
-Torna pure quando vuoi...
+We hope to see you again...
 Natale
 Natale
 Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
@@ -6413,11 +6413,11 @@ Uhm... Non vedo mosse che \v[3] possa ricordare...
 Quale mossa vuoi far ricordare a \v[3]?
 Quale mossa vuoi far ricordare a \v[3]?
 Si
-Si
+Yes
 No
 No
 Sì
-Sì
+Yes
 [Map161]
 Silvia
 Silvia
@@ -6639,7 +6639,7 @@ Mi ha davvero fatto piacere, \PN. Spero di rivederti, magari in azione...
 <<[>>old<<]>>In questo PC è salvata la cronologia di Saul. Vuoi leggerla?
 <<[>>old<<]>>In questo PC è salvata la cronologia di Saul. Vuoi leggerla?
 Sì
-Sì
+Yes
 No
 No
 [Map163]
@@ -6690,7 +6690,7 @@ Eh eh! Come vedi, siamo molto affiatati.
 Beh, qui non c'è altro. Non penso t'interessino le scartoffie! Proseguiamo col nostro giretto.
 Beh, qui non c'è altro. Non penso t'interessino le scartoffie! Proseguiamo col nostro giretto.
 Sì
-Sì
+Yes
 No
 No
 [Map164]
@@ -6833,11 +6833,11 @@ Ehi, tappetto|a. Vedi di non starmi tra i piedi!
 \PN, ancora nessun indizio?
 [Map166]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 Will
 Will
 Oh... \PN, sei tu! S-Sono davvero felice che tu sia qui a dare una mano. Potrò vedere un vero Allenatore all'opera, wow!
@@ -6857,13 +6857,13 @@ Oh... \PN, sei tu! S-Sono davvero felice che tu sia qui a dare una mano. Potrò 
 <<[>>old<<]>>Sembra che questa sia la prima pagina strappata da un diario...?
 <<[>>old<<]>>Sembra che questa sia la prima pagina strappata da un diario...?
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map167]
 <<[>>old<<]>>C'è qualcosa che luccica sul pavimento.
 <<[>>old<<]>>C'è qualcosa che luccica sul pavimento.
@@ -6879,7 +6879,7 @@ Usa Box
 <<[>>old<<]>>Marsh...!
 <<[>>old<<]>>Marsh...!
 Sì
-Sì
+Yes
 No
 No
 [Map169]
@@ -6955,25 +6955,25 @@ Un vero duro come me, però, se la può benissimo cavare da solo e non ha bisogn
 <<[>>old<<]>>La musica sta cambiando...
 [Map170]
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
-<<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 <<[>>old<<]>>''Da quel momento, ogni giorno, aspettavo con ansia che quell'ombra facesse ritorno. Puntualmente, al calar della sera, ciò accadeva, con mio enorme stupore.
 <<[>>old<<]>>''Da quel momento, ogni giorno, aspettavo con ansia che quell'ombra facesse ritorno. Puntualmente, al calar della sera, ciò accadeva, con mio enorme stupore.
 <<[>>old<<]>>Il mio animo era impaurito, ma al tempo stesso incuriosito da quella mistica presenza... Tuttavia, se la clientela fosse venuta al corrente che un Pokémon Spettro infestava il saloon durante le festicciole, sarebbe sicuramente scappata a gambe levate... Perciò, a notte fonda, quando non vi era più nessuno nel bar, decisi di suonare al pianoforte una vecchia canzone insegnatami da mio padre...
@@ -6985,7 +6985,7 @@ Shu...!
 <<[>>old<<]>>Sembra che questa sia la seconda pagina strappata da un diario...?
 <<[>>old<<]>>Sembra che questa sia la seconda pagina strappata da un diario...?
 Sì
-Sì
+Yes
 No
 No
 [Map171]
@@ -7303,7 +7303,7 @@ Gli affari andranno a gonfie vele ed è anche merito tuo! Prendi questo, forza! 
 Diventerò ricco! Ricco sfondato! Hyah ah!
 Diventerò ricco! Ricco sfondato! Hyah ah!
 Sì
-Sì
+Yes
 No
 No
 [Map179]
@@ -7502,11 +7502,11 @@ Ehi, tu! Dove credi di andare? Bzz!
 <<[>>old<<]>>Una volta saliti sul vagone, tu e i tuoi Pokémon non potrete più tornare indietro fino al termine dell'evento... Sicuri di voler proseguire?
 <<[>>old<<]>>Una volta saliti sul vagone, tu e i tuoi Pokémon non potrete più tornare indietro fino al termine dell'evento... Sicuri di voler proseguire?
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 [Map182]
 Il cimitero di questa città mi riporta alla mente quell’oscura melodia che sentii da bambino...
 Il cimitero di questa città mi riporta alla mente quell’oscura melodia che sentii da bambino...
@@ -7835,9 +7835,9 @@ So che non dovrei aiutare gli intrusi, ma il mio codice d’onore me lo impedisc
 <<[>>old<<]>>Non c'è niente...
 <<[>>old<<]>>Non c'è niente...
 <<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Vuoi riposarti?
+<<[>>old<<]>>Do you want to rest?
 <<[>>old<<]>>Ora va molto meglio.
-<<[>>old<<]>>Ora va molto meglio.
+<<[>>old<<]>>So much better now!
 Rino
 Rino
 Il Colonnello è una donna affascinante, una vera dea...!
@@ -7909,7 +7909,7 @@ Ora hai accesso alla stanza di Rino, ma fa’ attenzione... è un tipo davvero s
 Quel Rino è davvero un tipo strambo... Per lui un <b>sì</b> è in realtà un <b>no</b> e viceversa!
 Quel Rino è davvero un tipo strambo... Per lui un <b>sì</b> è in realtà un <b>no</b> e viceversa!
 Sì
-Sì
+Yes
 No
 No
 Tè alla Mentalerba
@@ -8057,7 +8057,7 @@ Quando riusciremo a svignarcela da questo dannato posto, sarai il||la primo|a a 
 <<[>>old<<]>>TEMPO ESAURITO.\nNon sei riuscito a risolvere tutti gli enigmi. Sarai riportato all'entrata della palestra.
 <<[>>old<<]>>TEMPO ESAURITO.\nNon sei riuscito a risolvere tutti gli enigmi. Sarai riportato all'entrata della palestra.
 Sì
-Sì
+Yes
 No
 No
 [Map193]
@@ -8249,9 +8249,9 @@ E-Errore.
 Il Generale mi terrà in simpatia se ti farò fuori, intruso|a! <i>Bzz!</i>
 Il Generale mi terrà in simpatia se ti farò fuori, intruso|a! <i>Bzz!</i>
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 4XXX
 4XXX
 Questo scrigno l’ho visto prima io! <i>Bzz!</i>
@@ -8297,15 +8297,15 @@ Non cantiamo vittoria troppo presto, ragazzi!
 Forza, \PN! Vedrai che insieme ce la faremo! Vado a dar man forte ad Aster!
 Forza, \PN! Vedrai che insieme ce la faremo! Vado a dar man forte ad Aster!
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map197]
 <<[>>old<<]>>Daaaddy! Daaaddy!
 <<[>>old<<]>>Daaaddy! Daaaddy!
@@ -8507,7 +8507,7 @@ Ci credi che Daddy un tempo era povero? Sul serio, rubava nei Pokémon-Market pe
 Ci credi che Daddy un tempo era povero? Sul serio, rubava nei Pokémon-Market per mantenersi!
 [Map198]
 <<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Vuoi riposarti?
+<<[>>old<<]>>Do you want to rest?
 <<[>>old<<]>>È il grande giorno dell'evento di Wallace Daddy... Meglio dirigersi verso il palco!
 <<[>>old<<]>>È il grande giorno dell'evento di Wallace Daddy... Meglio dirigersi verso il palco!
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
@@ -8521,7 +8521,7 @@ Io ora devo proprio andare, voglio essere in forze per domani! Eh eh! Consiglio 
 In ogni caso, sogni d'oro... e giuro che questa non è una battuta su Daddy! Eh eh!
 In ogni caso, sogni d'oro... e giuro che questa non è una battuta su Daddy! Eh eh!
 Sì
-Sì
+Yes
 No
 No
 [Map199]
@@ -8578,7 +8578,7 @@ Alla mia collezione manca solo il rarissimo vinile di ''Indigeno''...!
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
 Sì
-Sì
+Yes
 No
 No
 [Map204]
@@ -8633,7 +8633,7 @@ Avrei saputo come sdebitarmi, ma va bene...
 Grazie al tuo regalo sento che la mia ispirazione sta già tornando!
 Grazie al tuo regalo sento che la mia ispirazione sta già tornando!
 Sì
-Sì
+Yes
 No
 No
 [Map207]
@@ -8667,7 +8667,7 @@ Chissà se troverò mai l’anima gemella...
 <<[>>old<<]>>Vuoi prenderla?
 <<[>>old<<]>>Vuoi prenderla?
 Sì
-Sì
+Yes
 No
 No
 [Map209]
@@ -8788,21 +8788,21 @@ E va bene! \PN, non resta che lasciar provare te... Fammi vedere di che pasta se
 Woh oh! Gliel'hai suonate di brutto, \PN!
 Woh oh! Gliel'hai suonate di brutto, \PN!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 Ehm, avrei voluto dirvelo prima, ma sembravate così presi... Probabilmente Daddy ha omesso questo piccolo particolare, ma sono dell'idea che questo Pokémon non sia di tipo Spettro...
 Ehm, avrei voluto dirvelo prima, ma sembravate così presi... Probabilmente Daddy ha omesso questo piccolo particolare, ma sono dell'idea che questo Pokémon non sia di tipo Spettro...
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map210]
 Evoluto
 Evoluto
@@ -8825,17 +8825,17 @@ Uhm... Non vedo mosse che \v[3] possa ricordare...
 Quale mossa vuoi far ricordare a \v[3]?
 Quale mossa vuoi far ricordare a \v[3]?
 Infermiera Joy
-Infermiera Joy
+Nurse Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
-Ciao!  Benvenuto|a in un Centro Pokémon!  In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
+Hello!\nWelcome to the Pokémon Center!\nIn this building, we restore your tired Pokémon to full health.\nWould you like to rest your Pokémon?
 Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
-Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
+OK, I'll take your Pokémon for a few second, then.
 Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
-Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
+Oh... It looks like your Pokémon may be infected with the Pokérus.\nLittle is known about the Pokérus, except that it is a microscopic life-form that attaches to Pokémon.\nWhile infected, Pokémon are said to grow exceptionally well.
 Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
-Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
+Thank you for waiting.\nWe've restored your Pokémon to full health!
 Torna pure quando vuoi.
-Torna pure quando vuoi.
+We hope to see you again!
 Mr.Bug
 Mr.Bug
 Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
@@ -8865,11 +8865,11 @@ Dolly
 Yo! Questo è il Pokémon-Market di Leopoli!
 Yo! Questo è il Pokémon-Market di Leopoli!
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 [Map211]
 Natasha
 Natasha
@@ -9148,11 +9148,11 @@ Oh, yeah! Sei proprio uno|a tosto tu, sì!
 Sei un po’ timidino|a tu, eh? Beh, fammi sapere se cambi idea, però!
 Sei un po’ timidino|a tu, eh? Beh, fammi sapere se cambi idea, però!
 Si
-Si
+Yes
 No
 No
 Sì, fratello!
-Sì, fratello!
+Yeah, bro!
 No, man...
 No, man...
 [Map214]
@@ -9271,11 +9271,11 @@ Sala Dance
 Sala Dance
 [Map218]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 Meloetta
 Meloetta
 Etta...!
@@ -9357,13 +9357,13 @@ Veeern...!
 Bye-bye, amico|a! See ya later!
 Bye-bye, amico|a! See ya later!
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map219]
 <<[>>old<<]>>Correndo nell'erba alta, è più probabile che un Pokémon selvatico ti attacchi. Cammina quatto quatto se vuoi evitare scontri inutili!
 <<[>>old<<]>>Correndo nell'erba alta, è più probabile che un Pokémon selvatico ti attacchi. Cammina quatto quatto se vuoi evitare scontri inutili!
@@ -9645,25 +9645,25 @@ Mi assicurerò che nessuno si perda attraversando questo sentiero!
 È il dovere di un Ranger soccorrere chi è in difficoltà!
 È il dovere di un Ranger soccorrere chi è in difficoltà!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
-<<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
@@ -9675,7 +9675,7 @@ In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
 <<[>>old<<]>>Meglio non rischiare...
 <<[>>old<<]>>Meglio non rischiare...
 Sì
-Sì
+Yes
 No
 No
 [Map221]
@@ -9728,13 +9728,13 @@ Beatrice
 Al giorno d’oggi l’apparenza è tutto, perciò vesto solo Hip-Top dalla testa ai piedi!
 Al giorno d’oggi l’apparenza è tutto, perciò vesto solo Hip-Top dalla testa ai piedi!
 Sì
-Sì
+Yes
 No
 No
 Benissimo!
-Benissimo!
+Very well!
 Ehm, ecco...
-Ehm, ecco...
+Ahem...
 [Map222]
 Sean
 Sean
@@ -9979,7 +9979,7 @@ Voglio imbarcarmi!
 Aspetti ancora un po'.
 Aspetti ancora un po'.
 Sì
-Sì
+Yes
 No
 No
 [Map225]
@@ -10018,7 +10018,7 @@ Agostino
 Quello spiattellato su tutti gli annunci pubblicitari è il famoso Wallace Daddy quindi... Dalle mie parti non si fa che parlare di lui ultimamente!
 Quello spiattellato su tutti gli annunci pubblicitari è il famoso Wallace Daddy quindi... Dalle mie parti non si fa che parlare di lui ultimamente!
 Sì
-Sì
+Yes
 No
 No
 [Map226]
@@ -10103,17 +10103,17 @@ Tala
 Ahi ahi! A una certa età diventa difficile anche starsene seduti...
 Ahi ahi! A una certa età diventa difficile anche starsene seduti...
 Infermiera Joy
-Infermiera Joy
+Nurse Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
-Ciao!  Benvenuto|a in un Centro Pokémon!  In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
+Hello!\nWelcome to the Pokémon Center!\nIn this building, we restore your tired Pokémon to full health.\nWould you like to rest your Pokémon?
 Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
-Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
+OK, I'll take your Pokémon for a few second, then.
 Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
-Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
+Oh... It looks like your Pokémon may be infected with the Pokérus.\nLittle is known about the Pokérus, except that it is a microscopic life-form that attaches to Pokémon.\nWhile infected, Pokémon are said to grow exceptionally well.
 Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
-Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
+Thank you for waiting.\nWe've restored your Pokémon to full health!
 Torna pure quando vuoi.
-Torna pure quando vuoi.
+We hope to see you again!
 Natale
 Natale
 Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
@@ -10210,42 +10210,42 @@ Shulong
 Shu...!
 Shu...!
 Sì
-Sì
+Yes
 No
 No
 [Map232]
 [Map233]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 ???
 ???
 Vi siete per caso perso|a in questa selva, giovane viandante? In tal caso, vi basterà proseguire dritto per l'uscita!
 Vi siete per caso perso|a in questa selva, giovane viandante? In tal caso, vi basterà proseguire dritto per l'uscita!
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map234]
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Forse un Pokémon di tipo Erba potrebbe arrampicarsi fin lassù...
-<<[>>old<<]>>Forse un Pokémon di tipo Erba potrebbe arrampicarsi fin lassù...
+<<[>>old<<]>>Probably a Grass-type Pokémon could climb up there...
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 Sì
-Sì
+Yes
 No
 No
 [Map235]
@@ -10273,7 +10273,7 @@ Vi va di giocare un po' insieme a me?
 <<[>>old<<]>>Star...!
 <<[>>old<<]>>Star...!
 Sì
-Sì
+Yes
 No
 No
 [Map237]
@@ -10345,7 +10345,7 @@ Scusami, mammina... L'acqua... mi chiamava...!
 <<[>>old<<]>>Mimikyu vuole dimostrarti la sua riconoscenza con una lotta!
 <<[>>old<<]>>Mimikyu vuole dimostrarti la sua riconoscenza con una lotta! 
 Sì
-Sì
+Yes
 No
 No
 [Map241]
@@ -10486,7 +10486,7 @@ Shu...!
 <<[>>old<<]>>Hai completato il Nido Pokémon!
 <<[>>old<<]>>Hai completato il Nido Pokémon!
 Sì
-Sì
+Yes
 No
 No
 [Map249]
@@ -10499,11 +10499,11 @@ Booolt...!
 <<[>>old<<]>>La corrente è staccata... Vuoi riattivarla?
 <<[>>old<<]>>La corrente è staccata... Vuoi riattivarla?
 Si
-Si
+Yes
 No
 No
 Sì
-Sì
+Yes
 [Map250]
 Bergmite
 Bergmite
@@ -10620,7 +10620,7 @@ Oh, che bello! Sei tornata qui solo per trovare il tuo amico Eric?
 Oh, che bello! Sei tornato|a qui solo per trovare il tuo amico Eric?
 Oh, che bello! Sei tornato|a qui solo per trovare il tuo amico Eric?
 Sì
-Sì
+Yes
 No
 No
 [Map255]
@@ -10633,7 +10633,7 @@ Booolt...!
 <<[>>old<<]>>La corrente è staccata... Vuoi riattivarla?
 <<[>>old<<]>>La corrente è staccata... Vuoi riattivarla?
 Sì
-Sì
+Yes
 No
 No
 [Map256]
@@ -10662,7 +10662,7 @@ L4L4L4ND
 Ancora non me le hanno installate, ma me la dai una mano per uscire? <i>Bzz!</i>
 Ancora non me le hanno installate, ma me la dai una mano per uscire? <i>Bzz!</i>
 Sì
-Sì
+Yes
 No
 No
 Gene X-3
@@ -10790,7 +10790,7 @@ Melody
 I vostri Pokémon hanno bisogno di cure? Coi rimedi che la terra ci ha fornito potrei guarirli in un baleno.
 I vostri Pokémon hanno bisogno di cure? Coi rimedi che la terra ci ha fornito potrei guarirli in un baleno.
 <<[>>old<<]>>Ora va molto meglio.
-<<[>>old<<]>>Ora va molto meglio.
+<<[>>old<<]>>So much better now!
 Tornate a trovarmi. Sarò lieta di fornirvi il mio aiuto.
 Tornate a trovarmi. Sarò lieta di fornirvi il mio aiuto.
 Kohana
@@ -10798,7 +10798,7 @@ Kohana
 I Pokémon feriti sono al sicuro nelle mani sapienti della sorellona.
 I Pokémon feriti sono al sicuro nelle mani sapienti della sorellona.
 Sì
-Sì
+Yes
 No
 No
 [Map263]
@@ -10946,7 +10946,7 @@ Andiamo, Decidueye! In marcia!
 Ah! Io sono <b>Ruta</b>, comunque! Chissà se ci rincontreremo mai...? Ih ih!
 Ah! Io sono <b>Ruta</b>, comunque! Chissà se ci rincontreremo mai...? Ih ih!
 Sì
-Sì
+Yes
 No
 No
 Ofiuchia
@@ -11091,7 +11091,7 @@ Tuuba
 Da secoli, la mia famiglia è alla ricerca di un antico artefatto capace di liberare il potenziale inespresso... Ne hai mai sentito parlare?
 Da secoli, la mia famiglia è alla ricerca di un antico artefatto capace di liberare il potenziale inespresso... Ne hai mai sentito parlare?
 Sì
-Sì
+Yes
 No
 No
 [Map266]
@@ -11161,7 +11161,7 @@ Cosa succede al mio corpo...?
 <<[>>old<<]>>Giungla Nebulosa
 <<[>>old<<]>>Giungla Nebulosa
 Sì
-Sì
+Yes
 No
 No
 [Map268]
@@ -11180,13 +11180,13 @@ Valdiss
 Un tempo, la prova del Cammino dell’Eroe era una vera cerimonia... ora non è che un’attrazione per turisti!
 Un tempo, la prova del Cammino dell’Eroe era una vera cerimonia... ora non è che un’attrazione per turisti!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Forse un Pokémon di tipo Erba potrebbe addentrarvisi...
-<<[>>old<<]>>Forse un Pokémon di tipo Erba potrebbe addentrarvisi...
+<<[>>old<<]>>Probably a Grass-type Pokémon could get in there...
 Se questa selva labirintica non è abbastanza per te, ci penso io a farti perdere!
 Se questa selva labirintica non è abbastanza per te, ci penso io a farti perdere!
 Ho perso... con questa forza...?
@@ -11206,11 +11206,11 @@ Se hai bisogno, fammi un fischio.
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 [Map269]
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
@@ -11319,7 +11319,7 @@ Beh, prendilo tu! Questa volta non c’è nessuno scherzetto dietro, te l’assi
 Dovrebbe occuparsene un Allenatore come te. Tieni!
 Dovrebbe occuparsene un Allenatore come te. Tieni!
 Sì
-Sì
+Yes
 No
 No
 [Map272]
@@ -11366,13 +11366,13 @@ La prova si suddivide in due modalità: facile e difficile.
 Se hai bisogno di informazioni, sarò ben lieto di dartele.
 Se hai bisogno di informazioni, sarò ben lieto di dartele.
 Sì
-Sì
+Yes
 No
 No
 Facile
-Facile
+Easy
 Difficile
-Difficile
+Hard
 Ho cambiato idea
 Ho cambiato idea
 Ho cambiato idea.
@@ -11397,11 +11397,11 @@ Modalità di gioco
 <<[>>old<<]>>Canyon Asteroide ad est
 <<[>>old<<]>>Canyon Asteroide ad est
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 Joele
 Joele
 \PN, quei due soldati stanno facendo la guardia al fautore di tutto questo putiferio!
@@ -11475,13 +11475,13 @@ Grazie di cuore! Non perdiamo altro tempo. Ci dev'essere un modo per risolvere q
 <<[>>old<<]>>Hippo...!
 <<[>>old<<]>>Hippo...!
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map274]
 <<[>>old<<]>>Palestra Marea\nCapopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della tempesta!''</i> Allenatori Certificati: 0
 <<[>>old<<]>>Palestra Marea\nCapopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della tempesta!''</i> Allenatori Certificati: 0
@@ -11514,11 +11514,11 @@ Giuliano
 Solo da Giuliano, articoli mai visti a prezzi stracciati!!
 Solo da Giuliano, articoli mai visti a prezzi stracciati!!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>>Canyon Asteroide ad est
 <<[>>old<<]>>Canyon Asteroide ad est
 Nadia
@@ -11694,15 +11694,15 @@ Ma prima, vorrei toccare con mano questa nuova forza,  perciò ti aspetto nella 
 Ci vediamo dentro.
 Ci vediamo dentro.
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 Si
-Si
+Yes
 [Map275]
 Mirto
 Mirto
@@ -12022,25 +12022,25 @@ Il sentiero è ancora lungo, ma penso proprio che una lotta possa motivarmi a do
 E invece mi sa tanto che me rimango qui a riposare per un po'...
 E invece mi sa tanto che me rimango qui a riposare per un po'...
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
-<<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 Pepe
 Pepe
 Uaa-tah!! Finito l’allenamento saremo in grado di spaccare anche quello spesso muro di roccia!
@@ -12164,7 +12164,7 @@ Purtroppo io non potrò darti una mano, ma sono sicuro che saprai fare un ottimo
 Alla prossima!
 Alla prossima!
 Sì
-Sì
+Yes
 No
 No
 [Map281]
@@ -12285,7 +12285,7 @@ Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe sciogliere il ghiaccio...
-<<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe sciogliere il ghiaccio...
+<<[>>old<<]>>Probably a Fire-type Pokémon could melt the ice...
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Jinny
@@ -12319,9 +12319,9 @@ Ehi! Ti pare il caso di fare il||la ficcanaso nel mio cumulo di neve?!
 Qui dentro sono in una botte di freddo.
 Qui dentro sono in una botte di freddo.
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 <<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe addentrarvisi...
-<<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe addentrarvisi...
+<<[>>old<<]>>Probably a Fire-type Pokémon could get in...
 Flik
 Flik
 Noi Ninja siamo i maestri del travestimento! Ih ih!
@@ -12329,7 +12329,7 @@ Noi Ninja siamo i maestri del travestimento! Ih ih!
 L’invisibilità è tutta questione di pazienza e agilità.
 L’invisibilità è tutta questione di pazienza e agilità.
 Sì
-Sì
+Yes
 No
 No
 [Map282]
@@ -12451,7 +12451,7 @@ Cosa vorrà dire...?
 1-2-3-4-3-1-2-4-4
 1-2-3-4-3-1-2-4-4
 Sì
-Sì
+Yes
 No
 No
 [Map290]
@@ -12460,9 +12460,9 @@ No
 <<[>>old<<]>>Voilà!
 <<[>>old<<]>>Voilà!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>''Solo a chi avrà mascherato di rosso il suo volto sarà consentito mettere piede in questa stanza.''
 <<[>>old<<]>>''Solo a chi avrà mascherato di rosso il suo volto sarà consentito mettere piede in questa stanza.''
 <<[>>old<<]>>Vuoi sbloccare l'accesso?
@@ -12522,15 +12522,15 @@ Kazam...!
 Voi mi avete reso potente e io vi ho deluso, padrone...!
 Voi mi avete reso potente e io vi ho deluso, padrone...!
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map291]
 <<[>>old<<]>>Nord: Montagna
 <<[>>old<<]>>Nord: Montagna
@@ -12541,34 +12541,34 @@ Usa Box
 <<[>>old<<]>>Est: Boschetto
 <<[>>old<<]>>Est: Boschetto
 Sì
-Sì
+Yes
 No
 No
 [Map292]
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
-<<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 Sì
-Sì
+Yes
 No
 No
 [Map293]
@@ -12589,7 +12589,7 @@ Shulong
 Shu...!
 Shu...!
 Sì
-Sì
+Yes
 No
 No
 [Map294]
@@ -12600,7 +12600,7 @@ No
 <<[>>old<<]>>Dev’essere successo qualcosa nella sala principale.
 <<[>>old<<]>>Dev’essere successo qualcosa nella sala principale.
 Sì
-Sì
+Yes
 No
 No
 [Map295]
@@ -12893,11 +12893,11 @@ Come le fiamme, anche i tuoi Pokémon rinasceranno se utilizzerai su di essi que
 Come le fiamme, anche i tuoi Pokémon rinasceranno se utilizzerai su di essi quella Ceneremagica.
 [Map301]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 Cochimetl
 Cochimetl
 Qui i visitatori possono acquistare merce cui sono più avvezzi.
@@ -12913,15 +12913,15 @@ Perfetto, ora i tuoi Pokémon sono in perfetta forma!
 Sarò sempre lieto di mettere i miei poteri al tuo servizio!
 Sarò sempre lieto di mettere i miei poteri al tuo servizio!
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 Si
-Si
+Yes
 [Map302]
 <<[>>old<<]>><b>Radifossile</b> ''Fossile di un Pokémon antico che viveva nel mare. Sembra essere il pezzo di una radice antica.''
 <<[>>old<<]>><b>Radifossile</b> ''Fossile di un Pokémon antico che viveva nel mare. Sembra essere il pezzo di una radice antica.''
@@ -13013,7 +13013,7 @@ Varren
 Nel piano superiore sono conservati dei preziosi Fossili.
 Nel piano superiore sono conservati dei preziosi Fossili.
 Sì
-Sì
+Yes
 No
 No
 [Map304]
@@ -13082,25 +13082,25 @@ Come non ne sai niente?! Bene, ci penso io a rinfrescarti la memoria!
 Non sei il fattorino, vero?
 Non sei il fattorino, vero?
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
-<<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 <<[>>old<<]>>È spento... Dev’esserci un modo per riattivarlo!
 <<[>>old<<]>>È spento... Dev’esserci un modo per riattivarlo! 
 44RF
@@ -13122,7 +13122,7 @@ Le fogne sono più vicine al sottosuolo... sono certo che qui da qualche parte s
 Credo che anche la mia abilità nella lotta si sia fossilizzata ormai...
 Credo che anche la mia abilità nella lotta si sia fossilizzata ormai...
 Sì
-Sì
+Yes
 No
 No
 [Map305]
@@ -13135,7 +13135,7 @@ Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 Sì
-Sì
+Yes
 No
 No
 [Map306]
@@ -13148,7 +13148,7 @@ Dielebi
 Lebi...!
 Lebi...!
 Sì
-Sì
+Yes
 No
 No
 [Map307]
@@ -13254,17 +13254,17 @@ Ultimamente è molto impegnato in una certa faccenda, ma ci teneva a complimenta
 E qui è fatta! Sarà meglio mettersi in marcia e tornare al lavoro ora.
 E qui è fatta! Sarà meglio mettersi in marcia e tornare al lavoro ora.
 Infermiera Joy
-Infermiera Joy
+Nurse Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
-Ciao!  Benvenuto|a in un Centro Pokémon!  In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
+Hello!\nWelcome to the Pokémon Center!\nIn this building, we restore your tired Pokémon to full health.\nWould you like to rest your Pokémon?
 Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
-Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
+OK, I'll take your Pokémon for a few second, then.
 Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
-Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
+Oh... It looks like your Pokémon may be infected with the Pokérus.\nLittle is known about the Pokérus, except that it is a microscopic life-form that attaches to Pokémon.\nWhile infected, Pokémon are said to grow exceptionally well.
 Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
-Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
+Thank you for waiting.\nWe've restored your Pokémon to full health!
 Torna pure quando vuoi.
-Torna pure quando vuoi.
+We hope to see you again!
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 A quale Pokémon vuoi far ricordare una mossa?
@@ -13302,11 +13302,11 @@ Roy
 Questo è il market di Borgo Mela!
 Questo è il market di Borgo Mela!
 Si
-Si
+Yes
 No
 No
 Sì
-Sì
+Yes
 [Map309]
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
@@ -13669,7 +13669,7 @@ Rupert
 Io lo so che gli appassionati di rocce si nascondono anche in spiaggia!
 Io lo so che gli appassionati di rocce si nascondono anche in spiaggia!
 Sì
-Sì
+Yes
 No
 No
 [Map318]
@@ -13744,7 +13744,7 @@ Spero tu non sia allergico|a alla polvere.
 <<[>>old<<]>>Non c'è niente...
 <<[>>old<<]>>Non c'è niente...
 Sì
-Sì
+Yes
 No
 No
 [Map323]
@@ -14051,7 +14051,7 @@ Darien
 Quando ho accettato di giocarmi la borsetta così, non pensavo mica fosse così tosta!
 Quando ho accettato di giocarmi la borsetta così, non pensavo mica fosse così tosta!
 Sì
-Sì
+Yes
 No
 No
 [Map328]
@@ -14240,7 +14240,7 @@ Di nuovo?! Devo proprio avere un talento naturale nello scegliere gli aerei in r
 <<[>>old<<]>>Phew! Finalmente di nuovo coi piedi sulla terraferma!
 <<[>>old<<]>>Phew! Finalmente di nuovo coi piedi sulla terraferma!
 Sì
-Sì
+Yes
 No
 No
 [Map337]
@@ -14369,17 +14369,17 @@ Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natal
 Buon Natale a nome di tutto lo staff!
 Buon Natale a nome di tutto lo staff!
 Infermiera Joy
-Infermiera Joy
+Nurse Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
-Ciao!  Benvenuto|a in un Centro Pokémon!  In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
+Hello!\nWelcome to the Pokémon Center!\nIn this building, we restore your tired Pokémon to full health.\nWould you like to rest your Pokémon?
 Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
-Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
+OK, I'll take your Pokémon for a few second, then.
 Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
-Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
+Oh... It looks like your Pokémon may be infected with the Pokérus.\nLittle is known about the Pokérus, except that it is a microscopic life-form that attaches to Pokémon.\nWhile infected, Pokémon are said to grow exceptionally well.
 Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
-Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
+Thank you for waiting.\nWe've restored your Pokémon to full health!
 Torna pure quando vuoi.
-Torna pure quando vuoi.
+We hope to see you again!
 Petronio
 Petronio
 Attraversavo l'oscuro <b>Tunnel Roccioso</b>, quando... blink! Questa pietra ha catturato la mia attenzione!
@@ -14409,11 +14409,11 @@ Cocco
 Mi sono appisolato un attimo e la nave su cui ero ha levato gli ormeggi ed è tornata a Johto. Mi toccherà starmene qui ad aspettare che ritornino tra qualche giorno!
 Mi sono appisolato un attimo e la nave su cui ero ha levato gli ormeggi ed è tornata a Johto. Mi toccherà starmene qui ad aspettare che ritornino tra qualche giorno!
 Si
-Si
+Yes
 No
 No
 Sì
-Sì
+Yes
 [Map342]
 Meg
 Meg
@@ -14549,13 +14549,13 @@ Il mare da sempre incanta, commuove, spaventa, alle volte fa anche ridere... ma 
 Mi chiedo cosa renda il mare tanto affascinante...
 Mi chiedo cosa renda il mare tanto affascinante...
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse un Pokémon di tipo Acqua potrebbe immergervisi...
-<<[>>old<<]>>Forse un Pokémon di tipo Acqua potrebbe immergervisi...
+<<[>>old<<]>>Probably a Water-type Pokémon could dive in there...
 Claus
 Claus
 Guarda che non sto mica battendo la fiacca qui, eh!
@@ -14595,7 +14595,7 @@ Certo, la riva è più sicura, ma se non posso cavalcare le onde che gusto c’�
 La vita del Surfista è dura, ma qualcuno la dovrà pur fare, no?
 La vita del Surfista è dura, ma qualcuno la dovrà pur fare, no?
 Sì
-Sì
+Yes
 No
 No
 [Map346]
@@ -14700,7 +14700,7 @@ Zài jiàn, \PN!
 <<[>>old<<]>>Dojo Lotta\nAllenatori certificati: \PN
 <<[>>old<<]>>Dojo Lotta\nAllenatori certificati: \PN
 Sì
-Sì
+Yes
 No
 No
 [Map347]
@@ -14790,13 +14790,13 @@ Un nuotatore è come un uccello che spiega le sue ali sull’abisso!
 Fossi stata in volo sarei precipitata al suolo ora...
 Fossi stata in volo sarei precipitata al suolo ora...
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse un Pokémon di tipo Acqua potrebbe immergervisi...
-<<[>>old<<]>>Forse un Pokémon di tipo Acqua potrebbe immergervisi...
+<<[>>old<<]>>Probably a Water-type Pokémon could dive in there...
 Perry
 Perry
 A chi importa se non possiamo fermare le onde, cavalcarle è un tale spasso!
@@ -14810,7 +14810,7 @@ La pesca è come uno splendido tiro alla fune tra il Pescatore e il mare!
 Se solo fossi bravo nelle lotte tanto quanto con le metafore...
 Se solo fossi bravo nelle lotte tanto quanto con le metafore...
 Sì
-Sì
+Yes
 No
 No
 [Map351]
@@ -15222,13 +15222,13 @@ Lo sapevo che saresti riuscita a scovare il passaggio...!
 Sei sicura di quel che dici, \PN? Dobbiamo fidarci di questo qui?
 Sei sicura di quel che dici, \PN? Dobbiamo fidarci di questo qui?
 Sì
-Sì
+Yes
 No
 No
 Sì!
-Sì!
+Yes!
 Assolutamente sì!
-Assolutamente sì!
+Absolutely yes!
 [Map365]
 5TER
 5TER
@@ -15245,9 +15245,9 @@ E-Errore.
 Nemmeno dietro la barriera del Sergente si può stare tranquilli... <i>Bzz!</i>
 Nemmeno dietro la barriera del Sergente si può stare tranquilli... <i>Bzz!</i>
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Una barriera laser blocca il passaggio. Bisogna sconfiggere gli ufficiali per passare!
 <<[>>old<<]>>Una barriera laser blocca il passaggio. Bisogna sconfiggere gli ufficiali per passare!
 Alice
@@ -15307,13 +15307,13 @@ E sia, Trey, ma vedi di non fare passi falsi!
 Andiamo, ragazzi! Mettiamocela tutta!
 Andiamo, ragazzi! Mettiamocela tutta!
 Si
-Si
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map366]
 <<[>>old<<]>>Sembra sia stato colpito da un potente getto d’acqua...
 <<[>>old<<]>>Sembra sia stato colpito da un potente getto d’acqua...
@@ -15481,33 +15481,33 @@ Ho il mal di spazio...
 Non hai scampo, umano|a! Coi miei Pokémon potrei sfondare persino il cielo, se lo volessi! <i>Bzz!</i>
 Non hai scampo, umano|a! Coi miei Pokémon potrei sfondare persino il cielo, se lo volessi! <i>Bzz!</i>
 <<[>>old<<]>>Forse un Pokémon potrebbe riuscire ad intrufolarsi in quel condotto. Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Forse un Pokémon potrebbe riuscire ad intrufolarsi in quel condotto. Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>Probably a Pokémon could get in the air duct.\nDo you want Trishout to take a look inside?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Forse un Pokémon potrebbe riuscire ad intrufolarsi in quel condotto. Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Forse un Pokémon potrebbe riuscire ad intrufolarsi in quel condotto. Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>Probably a Pokémon could get in the air duct.\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Forse un Pokémon potrebbe riuscire ad intrufolarsi in quel condotto. Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Forse un Pokémon potrebbe riuscire ad intrufolarsi in quel condotto. Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>Probably a Pokémon could get in the air duct.\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse il Pokémon iniziale potrebbe riuscire ad intrufolarsi in quel condotto...
-<<[>>old<<]>>Forse il Pokémon iniziale potrebbe riuscire ad intrufolarsi in quel condotto...
+<<[>>old<<]>>Probably your starter Pokémon could get in the air duct...
 Aurora
 Aurora
 Sto ricevendo molte segnalazioni di arresto anomalo nelle Reclute... non c’entrerai mica qualcosa?
 Sto ricevendo molte segnalazioni di arresto anomalo nelle Reclute... non c’entrerai mica qualcosa?
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Una barriera laser blocca il passaggio. Da qualche parte dev'esserci un interruttore che la disattivi!
 <<[>>old<<]>>Una barriera laser blocca il passaggio. Da qualche parte dev'esserci un interruttore che la disattivi!
 <<[>>old<<]>>Una barriera laser blocca il passaggio. Bisogna sconfiggere gli ufficiali per passare!
@@ -15533,15 +15533,15 @@ VB6
 <i>Mazin... Go!! Bzz!</i>
 <i>Mazin... Go!! Bzz!</i>
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map370]
 Tamara
 Tamara
@@ -15683,7 +15683,7 @@ Guarda, guarda! Qualcuno qui pensava di poterci fregare senza essere scoperto|a!
 Per te è la fine, umano|a! Ho appena fatto il pieno di cola e sono pieno di energie! <i>Bzz!</i>
 Per te è la fine, umano|a! Ho appena fatto il pieno di cola e sono pieno di energie! <i>Bzz!</i>
 Sì
-Sì
+Yes
 No
 No
 [Map372]
@@ -15878,7 +15878,7 @@ Shu...!
 <<[>>old<<]>>Vuoi ritornare all'ingresso del condotto?
 <<[>>old<<]>>Vuoi ritornare all'ingresso del condotto?
 Sì
-Sì
+Yes
 No
 No
 [Map379]
@@ -16188,7 +16188,7 @@ Non abbiamo altra scelta! \PN, se vogliamo fermare Versil, devi affrontare quel 
 Se vogliamo fermare Versil devi affrontare quel Pokémon!
 Se vogliamo fermare Versil devi affrontare quel Pokémon!
 Sì
-Sì
+Yes
 No
 No
 [Map381]
@@ -16382,7 +16382,7 @@ Te ne prego... Sei l’unico|a ad avere tra le mani quello che cerco!
 Pare che quelli scolpiti su quella miniatura, siano i volti di quattro importanti figure della regione.
 Pare che quelli scolpiti su quella miniatura, siano i volti di quattro importanti figure della regione.
 Sì
-Sì
+Yes
 No
 No
 [Map389]
@@ -16417,7 +16417,7 @@ Zoy
 Questo è il Pokémon-Market del Monte Zodiaco!
 Questo è il Pokémon-Market del Monte Zodiaco!
 Sì
-Sì
+Yes
 No
 No
 [Map390]
@@ -16649,23 +16649,23 @@ Per Aspera Ad Astra!
 [Map400]
 [Map401]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>>L'aura dorata di Ho-Oh sblocca il passaggio.
 <<[>>old<<]>>L'aura dorata di Ho-Oh sblocca il passaggio.
 <<[>>old<<]>>Una spessa parete intralcia il passaggio. Forse l'aura di un Pokémon dorato potrebbe sbloccarlo...
 <<[>>old<<]>>Una spessa parete intralcia il passaggio. Forse l'aura di un Pokémon dorato potrebbe sbloccarlo...
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map402]
 Funesto
 Funesto
@@ -16680,7 +16680,7 @@ Con Funesto si fa presto! Gambe in spalla!
 Se hai bisogno, fammi un fischio.
 Se hai bisogno, fammi un fischio.
 Sì
-Sì
+Yes
 No
 No
 [Map403]
@@ -16707,7 +16707,7 @@ Shuuurooon!!
 <<[>>old<<]>>Ora che Shulong fa sul serio, potrai finalmente catturarlo!
 <<[>>old<<]>>Ora che Shulong fa sul serio, potrai finalmente catturarlo!
 Sì
-Sì
+Yes
 No
 No
 [Map406]
@@ -16751,11 +16751,11 @@ Non farti problemi a tornare se vorrai lottare ancora... Sarò sempre pronto ad 
 Stavolta non la spunterai tanto facilmente!
 Stavolta non la spunterai tanto facilmente!
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 [Map408]
 Gina
 Gina
@@ -16770,11 +16770,11 @@ Questa è la Via Vittoria, un dungeon vecchio stile di quelli che piacciono tant
 Preparati, la traversata non sarà affatto facile.
 Preparati, la traversata non sarà affatto facile.
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 George
 George
 Solo la musica può descrive l’inesprimibile e potente voce della natura!
@@ -16844,13 +16844,13 @@ Sono finito qui quasi per caso, ma in mezzo a tutti questi temibili Allenatori, 
 A quanto pare tu ti sentivi più forte di me! Ah ah!
 A quanto pare tu ti sentivi più forte di me! Ah ah!
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map409]
 Tobia
 Tobia
@@ -16890,17 +16890,17 @@ Uhm... Non vedo mosse che \v[3] possa ricordare...
 Quale mossa vuoi far ricordare a \v[3]?
 Quale mossa vuoi far ricordare a \v[3]?
 Infermiera Joy
-Infermiera Joy
+Nurse Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
-Ciao!  Benvenuto|a in un Centro Pokémon!  In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
+Hello!\nWelcome to the Pokémon Center!\nIn this building, we restore your tired Pokémon to full health.\nWould you like to rest your Pokémon?
 Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
-Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
+OK, I'll take your Pokémon for a few second, then.
 Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
-Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
+Oh... It looks like your Pokémon may be infected with the Pokérus.\nLittle is known about the Pokérus, except that it is a microscopic life-form that attaches to Pokémon.\nWhile infected, Pokémon are said to grow exceptionally well.
 Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
-Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
+Thank you for waiting.\nWe've restored your Pokémon to full health!
 Torna pure quando vuoi.
-Torna pure quando vuoi.
+We hope to see you again!
 Gala
 Gala
 Sono pochissimi gli Allenatori in grado di oltrepassare la Via Vittoria per raggiungere il <b>Monte Zodiaco</b>.
@@ -16918,11 +16918,11 @@ Se è tua intenzione intraprendere quel cammino, lascia che ti dia un aiutino.
 Ricordati di me, se riuscirai a scalare fino alla vetta il Monte Zodiaco.
 Ricordati di me, se riuscirai a scalare fino alla vetta il Monte Zodiaco.
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 [Map411]
 Stefano
 Stefano
@@ -17004,17 +17004,17 @@ Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Infermiera Joy
-Infermiera Joy
+Nurse Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
-Ciao!  Benvenuto|a in un Centro Pokémon!  In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
+Hello!\nWelcome to the Pokémon Center!\nIn this building, we restore your tired Pokémon to full health.\nWould you like to rest your Pokémon?
 Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
-Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
+OK, I'll take your Pokémon for a few second, then.
 Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
-Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
+Oh... It looks like your Pokémon may be infected with the Pokérus.\nLittle is known about the Pokérus, except that it is a microscopic life-form that attaches to Pokémon.\nWhile infected, Pokémon are said to grow exceptionally well.
 Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
-Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
+Thank you for waiting.\nWe've restored your Pokémon to full health!
 Torna pure quando vuoi.
-Torna pure quando vuoi.
+We hope to see you again!
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 A quale Pokémon vuoi far ricordare una mossa?
@@ -17056,11 +17056,11 @@ Hikiloo
 Kiloo...!
 Kiloo...!
 Si
-Si
+Yes
 No
 No
 Sì
-Sì
+Yes
 [Map417]
 Qiao
 Qiao
@@ -17114,17 +17114,17 @@ Foy
 Questo è il Pokémon-Market di Cansiria!
 Questo è il Pokémon-Market di Cansiria!
 Infermiera Joy
-Infermiera Joy
+Nurse Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
-Ciao!  Benvenuto|a in un Centro Pokémon!  In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
+Hello!\nWelcome to the Pokémon Center!\nIn this building, we restore your tired Pokémon to full health.\nWould you like to rest your Pokémon?
 Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
-Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
+OK, I'll take your Pokémon for a few second, then.
 Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
-Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
+Oh... It looks like your Pokémon may be infected with the Pokérus.\nLittle is known about the Pokérus, except that it is a microscopic life-form that attaches to Pokémon.\nWhile infected, Pokémon are said to grow exceptionally well.
 Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
-Perdona l'attesa.  Ora i tuoi Pokémon sono in perfetta forma!
+Thank you for waiting.\nWe've restored your Pokémon to full health!
 Torna pure quando vuoi.
-Torna pure quando vuoi.
+We hope to see you again!
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 A quale Pokémon vuoi far ricordare una mossa?
@@ -17156,11 +17156,11 @@ Buon Natale a nome di tutto lo staff!
 Niente da fare! Pare che neanche qui vendano la statuetta dell’<b>Idolo di Fuoco</b>...
 Niente da fare! Pare che neanche qui vendano la statuetta dell’<b>Idolo di Fuoco</b>...
 Si
-Si
+Yes
 No
 No
 Sì
-Sì
+Yes
 [Map421]
 <<[>>old<<]>>Boschetto
 <<[>>old<<]>>Boschetto
@@ -17173,11 +17173,11 @@ Ennardo
 La bufera deve aver congelato te e i tuoi Pokémon... Guarda quei ghiaccioli sotto al naso! Oh oh oh! Scherzi a parte, non fare complimenti. Fa' come se fosse casa tua. Scaldati pure davanti al caminetto e riposa quanto vuoi.
 La bufera deve aver congelato te e i tuoi Pokémon...  Guarda quei ghiaccioli sotto al naso! Oh oh oh! Scherzi a parte, non fare complimenti. Fa' come se fosse casa tua.  Scaldati pure davanti al caminetto e riposa quanto vuoi.
 <<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Vuoi riposarti?
+<<[>>old<<]>>Do you want to rest?
 <<[>>old<<]>>Ora va molto meglio.
-<<[>>old<<]>>Ora va molto meglio.
+<<[>>old<<]>>So much better now!
 Sì
-Sì
+Yes
 No
 No
 [Map424]
@@ -17190,7 +17190,7 @@ Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 Sì
-Sì
+Yes
 No
 No
 [Map425]
@@ -17203,7 +17203,7 @@ Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 Sì
-Sì
+Yes
 No
 No
 [Map426]
@@ -17216,7 +17216,7 @@ Dielebi
 Lebi...!
 Lebi...!
 Sì
-Sì
+Yes
 No
 No
 [Map427]
@@ -17227,7 +17227,7 @@ Dielebi
 Lebi...!
 Lebi...!
 Sì
-Sì
+Yes
 No
 No
 [Map428]
@@ -17287,7 +17287,7 @@ Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 Sì
-Sì
+Yes
 No
 No
 [Map430]
@@ -17300,7 +17300,7 @@ Dielebi
 Lebi...!
 Lebi...!
 Sì
-Sì
+Yes
 No
 No
 [Map431]
@@ -17311,7 +17311,7 @@ Dielebi
 Lebi...!
 Lebi...!
 Sì
-Sì
+Yes
 No
 No
 [Map432]
@@ -17331,7 +17331,7 @@ Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 Sì
-Sì
+Yes
 No
 No
 [Map434]
@@ -17344,7 +17344,7 @@ Dielebi
 Lebi...!
 Lebi...!
 Sì
-Sì
+Yes
 No
 No
 [Map435]
@@ -17361,7 +17361,7 @@ Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 Sì
-Sì
+Yes
 No
 No
 [Map440]
@@ -17374,7 +17374,7 @@ Lebi...!
 <<[>>old<<]>>Gyaaas!
 <<[>>old<<]>>Gyaaas!
 Sì
-Sì
+Yes
 No
 No
 [Map441]
@@ -17388,7 +17388,7 @@ Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 Sì
-Sì
+Yes
 No
 No
 [Map443]
@@ -17405,7 +17405,7 @@ Lebi...!
 <<[>>old<<]>>C'è un foro perfettamente circolare. Vuoi inserire la GS Ball?
 <<[>>old<<]>>C'è un foro perfettamente circolare. Vuoi inserire la GS Ball?
 Sì
-Sì
+Yes
 No
 No
 [Map444]
@@ -17418,7 +17418,7 @@ Lebi...!
 <<[>>old<<]>>Il potere scatenato da Entei vi ha riportati nella dimensione iniziale.
 <<[>>old<<]>>Il potere scatenato da Entei vi ha riportati nella dimensione iniziale.
 Sì
-Sì
+Yes
 No
 No
 [Map445]
@@ -17431,7 +17431,7 @@ Dielebi
 Lebi...!
 Lebi...!
 Sì
-Sì
+Yes
 No
 No
 [Map446]
@@ -17445,7 +17445,7 @@ Dielebi
 Lebi...!
 Lebi...!
 Sì
-Sì
+Yes
 No
 No
 [Map448]
@@ -17458,7 +17458,7 @@ Dielebi
 Lebi...!
 Lebi...!
 Sì
-Sì
+Yes
 No
 No
 [Map449]
@@ -17482,7 +17482,7 @@ Dielebi
 Lebi...!
 Lebi...!
 Sì
-Sì
+Yes
 No
 No
 [Map461]
@@ -17495,7 +17495,7 @@ Dielebi
 Lebi...!
 Lebi...!
 Sì
-Sì
+Yes
 No
 No
 [Map462]
@@ -17524,7 +17524,7 @@ M4R10
 M4R10 a rapporto! Qua la mano, uma... Ah, no! <i>Bzz!</i>
 M4R10 a rapporto! Qua la mano, uma... Ah, no! <i>Bzz!</i>
 Sì
-Sì
+Yes
 No
 No
 Progetto DNA-3
@@ -17541,11 +17541,11 @@ Ferdinando
 Di giorno, in questo canyon pare di essere in un forno dal caldo che fa, ma di notte si gela! Su, non fare complimenti, forestiero|a. Riscaldati pure davanti al caminetto e riposa quanto vuoi.
 Di giorno, in questo canyon pare di essere in un forno dal caldo che fa, ma di notte si gela! Su, non fare complimenti, forestiero|a. Riscaldati pure davanti al caminetto e riposa quanto vuoi.
 <<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Vuoi riposarti?
+<<[>>old<<]>>Do you want to rest?
 <<[>>old<<]>>Ora va molto meglio.
-<<[>>old<<]>>Ora va molto meglio.
+<<[>>old<<]>>So much better now!
 Sì
-Sì
+Yes
 No
 No
 [Map464]
@@ -17675,7 +17675,7 @@ Litwick
 Lit...!
 Lit...!
 Sì
-Sì
+Yes
 No
 No
 [Map466]
@@ -17694,7 +17694,7 @@ Miao! Quel Meowth sarà mio!
 Occhio a non sporcare la moneta sulla sua fronte... potrebbe diventare intrattabile!
 Occhio a non sporcare la moneta sulla sua fronte... potrebbe diventare intrattabile!
 Sì
-Sì
+Yes
 No
 No
 [Map467]
@@ -17755,7 +17755,7 @@ E allora preparati allo scambio se vuoi la mia ricompensa!
 Devi sapere che ho catturato questo <b>Rattata di Alola</b> nella vacanza con mia mamma. Io, però, sono un amante dei Pokémon Topo vecchio stile, e ho sempre cercato un degno rivale a cui rifilarlo. Con te starà alla grande, pischello|a!
 Devi sapere che ho catturato questo <b>Rattata di Alola</b> nella vacanza con mia mamma. Io, però, sono un amante dei Pokémon Topo vecchio stile, e ho sempre cercato un degno rivale a cui rifilarlo. Con te starà alla grande, pischello|a!
 Sì
-Sì
+Yes
 No
 No
 [Map468]
@@ -17794,7 +17794,7 @@ Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 Sì
-Sì
+Yes
 No
 No
 [Map473]
@@ -17821,7 +17821,7 @@ Non avrai problemi a continuare il cammino.
 Non avrai problemi a continuare il cammino. Fa’ attenzione, però!
 Non avrai problemi a continuare il cammino. Fa’ attenzione, però!
 Sì
-Sì
+Yes
 No
 No
 [Map474]
@@ -17856,19 +17856,19 @@ A quanto pare siamo sulla stessa rotta... Era ovvio che i nostri cammini si sare
 Era ovvio anche che uno dei due perdesse...
 Era ovvio anche che uno dei due perdesse...
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map475]
 Wolly
 Wolly
@@ -17978,7 +17978,7 @@ Lebi...!
 <<[>>old<<]>>Shaoooh!
 <<[>>old<<]>>Shaoooh!
 Sì
-Sì
+Yes
 No
 No
 [Map479]
@@ -17997,19 +17997,19 @@ Luxflon
 Syyyhoooon!!
 Syyyhoooon!!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
@@ -18042,7 +18042,7 @@ Shyyyhooo!!
 <<[>>old<<]>>Ora che Shyleon fa sul serio, potrai finalmente catturarlo!
 <<[>>old<<]>>Ora che Shyleon fa sul serio, potrai finalmente catturarlo!
 Sì
-Sì
+Yes
 No
 No
 [Map485]
@@ -18067,7 +18067,7 @@ Triiihooo!!
 <<[>>old<<]>>Ora che Trishout fa sul serio, potrai finalmente catturarlo!
 <<[>>old<<]>>Ora che Trishout fa sul serio, potrai finalmente catturarlo!
 Sì
-Sì
+Yes
 No
 No
 [Map486]
@@ -18075,29 +18075,29 @@ No
 <<[>>old<<]>>...
 [Map487]
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
 Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
-<<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 Sì
-Sì
+Yes
 No
 No
 [Map488]
@@ -18120,7 +18120,7 @@ Shyleon
 Shy...!
 Shy...!
 Sì
-Sì
+Yes
 No
 No
 [Map489]
@@ -18158,11 +18158,11 @@ Rettifico, anche le lotte sono stancanti...
 Rettifico, anche le lotte sono stancanti...
 [Map494]
 <<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Vuoi riposarti?
+<<[>>old<<]>>Do you want to rest?
 <<[>>old<<]>>Ora va molto meglio.
-<<[>>old<<]>>Ora va molto meglio.
+<<[>>old<<]>>So much better now!
 Sì
-Sì
+Yes
 No
 No
 [Map495]
@@ -18193,7 +18193,7 @@ Shulong
 Shu...!
 Shu...!
 Sì
-Sì
+Yes
 No
 No
 [Map496]
@@ -18218,7 +18218,7 @@ Shulong
 Shu...!
 Shu...!
 Sì
-Sì
+Yes
 No
 No
 [Map497]
@@ -18260,7 +18260,7 @@ Tri...!
 <<[>>old<<]>>Hai completato il Nido Pokémon!
 <<[>>old<<]>>Hai completato il Nido Pokémon!
 Sì
-Sì
+Yes
 No
 No
 [Map501]
@@ -18283,7 +18283,7 @@ Shyleon
 Shy...!
 Shy...!
 Sì
-Sì
+Yes
 No
 No
 [Map502]
@@ -18312,7 +18312,7 @@ Shu...!
 <<[>>old<<]>>È del Miele. Vuoi raccoglierlo?
 <<[>>old<<]>>È del Miele. Vuoi raccoglierlo?
 Sì
-Sì
+Yes
 No
 No
 [Map503]
@@ -18361,11 +18361,11 @@ Bee...!
 <<[>>old<<]>>Oh, no! I Beedrill si sono accorti della tua presenza!
 <<[>>old<<]>>Oh, no! I Beedrill si sono accorti della tua presenza!
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 [Map504]
 Beedrill
 Beedrill
@@ -18412,7 +18412,7 @@ Delelele Wooop...!
 <<[>>old<<]>>Hai già del Miele, non puoi prendere anche la Linfa.
 <<[>>old<<]>>Hai già del Miele, non puoi prendere anche la Linfa.
 Sì
-Sì
+Yes
 No
 No
 [Map505]
@@ -18425,7 +18425,7 @@ Bee...!
 <<[>>old<<]>>Vuoi spalmare del Miele sull'albero?
 <<[>>old<<]>>Vuoi spalmare del Miele sull'albero?
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
-<<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
@@ -18437,7 +18437,7 @@ Bee...!
 <<[>>old<<]>> Probabilmente per entrare in questo Nido, hai bisogno del tuo starter.
 <<[>>old<<]>> Probabilmente per entrare in questo Nido, hai bisogno del tuo starter.
 Sì
-Sì
+Yes
 No
 No
 [Map506]
@@ -18450,7 +18450,7 @@ Shulong
 Shu...!
 Shu...!
 Sì
-Sì
+Yes
 No
 No
 [Map507]
@@ -18481,7 +18481,7 @@ Sinistra
 Giù
 Giù
 Sì
-Sì
+Yes
 No
 No
 [Map508]
@@ -18512,7 +18512,7 @@ Shulong
 Shu...!
 Shu...!
 Sì
-Sì
+Yes
 No
 No
 [Map509]
@@ -18537,7 +18537,7 @@ Lem...!
 <<[>>old<<]>>Golem è infastidito dalla tua presenza.
 <<[>>old<<]>>Golem è infastidito dalla tua presenza.
 Sì
-Sì
+Yes
 No
 No
 [Map510]
@@ -18633,7 +18633,7 @@ Lem...!
 <<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
 <<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
 Sì
-Sì
+Yes
 No
 No
 [Map520]
@@ -18642,11 +18642,11 @@ No
 <<[>>old<<]>> Vuoi ritornare in superficie?
 <<[>>old<<]>> Vuoi ritornare in superficie?
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 [Map521]
 <<[>>old<<]>>Vuoi immergerti?
 <<[>>old<<]>>Vuoi immergerti?
@@ -18669,7 +18669,7 @@ Shu...!
 <<[>>old<<]>>Hai completato il Nido Pokémon!
 <<[>>old<<]>>Hai completato il Nido Pokémon!
 Sì
-Sì
+Yes
 No
 No
 [Map522]
@@ -18696,7 +18696,7 @@ Shulong
 Shu...!
 Shu...!
 Sì
-Sì
+Yes
 No
 No
 [Map523]
@@ -18715,7 +18715,7 @@ Shulong
 Shu...!
 Shu...!
 Sì
-Sì
+Yes
 No
 No
 [Map524]
@@ -18734,7 +18734,7 @@ Shulong
 Shu...!
 Shu...!
 Sì
-Sì
+Yes
 No
 No
 [Map525]
@@ -18759,7 +18759,7 @@ Maooze...!
 <<[>>old<<]>>Chimaooze si è unito a te.
 <<[>>old<<]>>Chimaooze si è unito a te.
 Sì
-Sì
+Yes
 No
 No
 [Map530]
@@ -18796,7 +18796,7 @@ Shu...!
 <<[>>old<<]>>Hai completato il Nido Pokémon!
 <<[>>old<<]>>Hai completato il Nido Pokémon!
 Sì
-Sì
+Yes
 No
 No
 [Map533]
@@ -18825,11 +18825,11 @@ Tri...!
 <<[>>old<<]>>Hai completato il Nido Pokémon!
 <<[>>old<<]>>Hai completato il Nido Pokémon!
 Si
-Si
+Yes
 No
 No
 Sì
-Sì
+Yes
 [Map534]
 Harrowk
 Harrowk
@@ -18858,11 +18858,11 @@ Shu...!
 <<[>>old<<]>> Vuoi uscire dal Nido?
 <<[>>old<<]>> Vuoi uscire dal Nido?
 Sì
-Sì
+Yes
 No
 No
 Si
-Si
+Yes
 [Map535]
 Peckabone
 Peckabone
@@ -18888,7 +18888,7 @@ Bone...!
 <<[>>old<<]>>Il Pokémon è fuggito via... Meglio fare attenzione là fuori!
 <<[>>old<<]>>Il Pokémon è fuggito via... Meglio fare attenzione là fuori!
 Sì
-Sì
+Yes
 No
 No
 [Map537]
@@ -19445,11 +19445,11 @@ Golden Studio
 Golden Studio
 [Map543]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
 Wallace Daddy
 Wallace Daddy
 Whatta hell?! È 'sto Pokémon ad avere quella voce angelica?!
@@ -19509,13 +19509,13 @@ Let’s go, S! Torniamocene al Golden Studio!
 ''Per Aspera Ad Astra'', è questo il titolo che ho scelto!
 ''Per Aspera Ad Astra'', è questo il titolo che ho scelto!
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map544]
 ???
 ???
@@ -19675,7 +19675,7 @@ Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 Sì
-Sì
+Yes
 No
 No
 [Map552]
@@ -19687,7 +19687,7 @@ Dielebi
 Lebi...!
 Lebi...!
 Sì
-Sì
+Yes
 No
 No
 [Map554]
@@ -19880,7 +19880,7 @@ Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 Sì
-Sì
+Yes
 No
 No
 [Map557]
@@ -19918,7 +19918,7 @@ No
 <<[>>old<<]>>Volete cambiare l’aspetto di un altro Pokémon?
 <<[>>old<<]>>Volete cambiare l’aspetto di un altro Pokémon?
 Sì
-Sì
+Yes
 No
 No
 [Map559]
@@ -19977,7 +19977,7 @@ Golden Studio
 <<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Vuoi prenderlo?
 <<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Vuoi prenderlo?
 Sì
-Sì
+Yes
 No
 No
 [1]
@@ -47449,216 +47449,216 @@ Man, I lost!
 [17]
 [18]
 Nido Boreale
-Nido Boreale
+Aurora Den
 Percorso 14
-Percorso 14
+Route 14
 Tauronordia
-Tauronordia
+Borealis Town
 Percorso 13
-Percorso 13
+Route 13
 Vetta Polare
-Vetta Polare
+Polaris Town
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 Cansiria
-Cansiria
+Fortbelt Town
 Cascate Firmamento
-Cascate Firmamento
+Welkin Falls
 Percorso 12
-Percorso 12
+Route 12
 Capricornia
-Capricornia
+Equinox Village
 Grotta Zerokelvin
-Grotta Zerokelvin
+Zero Cave
 Biblioteca Acero
-Biblioteca Acero
+Newtron Library
 Canyon Asteroide
-Canyon Asteroide
+Sunflare Canyon
 Percorso 3
-Percorso 3
+Route 3
 Campus Ariepoli
-Campus Ariepoli
+Newtron City
 Isola Buconero
-Isola Buconero
+Darkhole Island
 Percorso 4
-Percorso 4
+Route 4
 Percorso 5
-Percorso 5
+Route 5
 Borgo Gemini
-Borgo Gemini
+Stellato Town
 Sentiero Gravità
-Sentiero Gravità
+Gravity Tunnel
 Percorso 7
-Percorso 7
+Route 7
 Aquariopoli
-Aquariopoli
+Ishtar City
 Percorso 16
-Percorso 16
+Route 16
 Bosco Stellafilante
-Bosco Stellafilante
+String Forest
 Regno di Virgopoli
-Regno di Virgopoli
+Milkiway City
 Percorso 15
-Percorso 15
+Route 15
 Percorso 17
-Percorso 17
+Route 17
 Percorso 6
-Percorso 6
+Route 6
 Isola Pigliapesci
-Isola Pigliapesci
+Proxim Island
 Gola Steelix
-Gola Steelix
+Steelix Gorge
 Spiaggia Polvostella
-Spiaggia Polvostella
+Stardust Beach
 Balansopoli
-Balansopoli
+Hadwarf City
 Percorso 1
-Percorso 1
+Route 1
 Scorpiopoli
-Scorpiopoli
+Westar City
 Saloon Torobrado
-Saloon Torobrado
+Wild Bull Saloon
 Ranch Spigadoro
-Ranch Spigadoro
+Nova Ranch
 Stazione di Scorpiopoli
-Stazione di Scorpiopoli
+Westar Station
 Tempio Shyleon
-Tempio Shyleon
+Shyleon Temple
 Giungla Nebulosa
-Giungla Nebulosa
+Cluster Jungle
 Percorso 10
-Percorso 10
+Route 10
 Ofiuchia
-Ofiuchia
+Dorado Village
 Percorso 9
-Percorso 9
+Route 9
 Percorso 8
-Percorso 8
+Route 8
 Sagittopoli
-Sagittopoli
+Vega City
 Aeroporto Samuel Oak
-Aeroporto Samuel Oak
+Samuel Oak Airport
 Leopoli
-Leopoli
+Hypelion City
 Fogne di Sagittopoli
-Fogne di Sagittopoli
+Vega Sewers
 Monte Zodiaco
-Monte Zodiaco
+Mt. Zodiac
 Percorso 11
-Percorso 11
+Route 11
 Via Vittoria
-Via Vittoria
+Victory Road
 Test Map
 Test Map
 Area 3
 Area 3
 [19]
 Pagoda Imperiale
-Pagoda Imperiale
+Cardinal's Pagoda
 Casa di Tarassaco
-Casa di Tarassaco
+Taraxo's House
 Palazzo del Cardinale
-Palazzo del Cardinale
+Cardinal's Palace
 Pensione Pokémon
-Pensione Pokémon
+Pokémon Day Care
 Relitto Meteora
-Relitto Meteora
+Abandoned S.S. Meteor
 Palestra Competizione
-Palestra Competizione
+Newtron Gym
 Palestra Marea
-Palestra Marea
+Ishtar Gym
 Radura Paludosa
-Radura Paludosa
+Murky Swamp
 Palestra Zucchero
-Palestra Zucchero
+Milkiway Gym
 Palestra Radice
-Palestra Radice
+Hadwarf Gym
 El Purgatorio
 El Purgatorio
 Quasar Express
 Quasar Express
 Casa
-Casa
+Home
 Cammino dellEroe
-Cammino dellEroe
+Heroes Path
 Dimora del Cardinale
-Dimora del Cardinale
+Cardinal's Sanctuary
 Circo Sirio
-Circo Sirio
+Sunshine Circus
 Condominio Lotta
-Condominio Lotta
+Battle Condo
 Palestra Ritmo
-Palestra Ritmo
+Hypelion Gym
 [20]
 1
 Isola Buconero
-Isola Buconero
+Darkhole Island
 2
 Relitto Meteora
-Relitto Meteora
+Abandoned S.S. Meteor
 3
 Cansiria
-Cansiria
+Fortbelt Town
 4
 Motonave Cometa
-Motonave Cometa
+S.S. Comet
 5
 Relitto Meteora
-Relitto Meteora
+Abandoned S.S. Meteor
 6
 Relitto Meteora
-Relitto Meteora
+Abandoned S.S. Meteor
 7
 Relitto Meteora
-Relitto Meteora
+Abandoned S.S. Meteor
 8
 Palestra Competizione
-Palestra Competizione
+Newtron Gym
 9
 Vetta Polare
-Vetta Polare
+Polaris Town
 10
 Vetta Polare
-Vetta Polare
+Polaris Town
 11
 Palestra Zucchero
-Palestra Zucchero
+Milkiway Gym
 12
 Grotta Zerokelvin
-Grotta Zerokelvin
+Zero Cave
 13
 Grotta Zerokelvin
-Grotta Zerokelvin
+Zero Cave
 14
 Balansopoli
-Balansopoli
+Hadwarf City
 15
 Grotta Zerokelvin
-Grotta Zerokelvin
+Zero Cave
 16
 Grotta Zerokelvin
-Grotta Zerokelvin
+Zero Cave
 17
 Grotta Zerokelvin
-Grotta Zerokelvin
+Zero Cave
 18
 Bosco Stellafilante
-Bosco Stellafilante
+String Forest
 19
 Grotta Zerokelvin
-Grotta Zerokelvin
+Zero Cave
 20
 Grotta Zerokelvin
-Grotta Zerokelvin
+Zero Cave
 21
 Grotta Zerokelvin
-Grotta Zerokelvin
+Zero Cave
 22
 Regno di Virgopoli
-Regno di Virgopoli
+Milkiway City
 23
 Percorso 3
-Percorso 3
+Route 3
 24
 Stanza 03
 Stanza 03
@@ -47667,346 +47667,346 @@ Test Map 2
 Test Map 2
 26
 Percorso 3
-Percorso 3
+Route 3
 27
 Percorso 4
-Percorso 4
+Route 4
 28
 Ranch Spigadoro
-Ranch Spigadoro
+Nova Ranch
 29
 Vuoto
 Vuoto
 30
 Vetta Polare
-Vetta Polare
+Polaris Town
 31
 Vetta Polare
-Vetta Polare
+Polaris Town
 32
 Vetta Polare
-Vetta Polare
+Polaris Town
 33
 Percorso 3
-Percorso 3
+Route 3
 34
 Campus Ariepoli
-Campus Ariepoli
+Newtron City
 35
 Campus Ariepoli
-Campus Ariepoli
+Newtron City
 36
 Ranch Spigadoro
-Ranch Spigadoro
+Nova Ranch
 37
 Ranch Spigadoro
-Ranch Spigadoro
+Nova Ranch
 38
 Percorso 1
-Percorso 1
+Route 1
 39
 Balansopoli
-Balansopoli
+Hadwarf City
 40
 Spiaggia Polvostella
-Spiaggia Polvostella
+Stardust Beach
 41
 Laboratorio di Balansopoli
-Laboratorio di Balansopoli
+Hadwarf City's Lab
 42
 Percorso 12
-Percorso 12
+Route 12
 43
 Motonave Cometa
-Motonave Cometa
+S.S. Comet
 44
 Balansopoli
-Balansopoli
+Hadwarf City
 45
 Balansopoli
-Balansopoli
+Hadwarf City
 46
 Balansopoli
-Balansopoli
+Hadwarf City
 47
 Motonave Cometa
-Motonave Cometa
+S.S. Comet
 48
 Motonave Cometa
-Motonave Cometa
+S.S. Comet
 49
 Motonave Cometa
-Motonave Cometa
+S.S. Comet
 50
 Motonave Cometa
-Motonave Cometa
+S.S. Comet
 51
 Intro
 Intro
 52
 Motonave Cometa
-Motonave Cometa
+S.S. Comet
 53
 Campus Ariepoli
-Campus Ariepoli
+Newtron City
 54
 Campus Ariepoli
-Campus Ariepoli
+Newtron City
 55
 Biblioteca di Ariepoli
-Biblioteca di Ariepoli
+Newtron Library
 56
 Palestra Competizione
-Palestra Competizione
+Newtron Gym
 57
 Palestra Competizione
-Palestra Competizione
+Newtron Gym
 58
 Palestra Competizione
-Palestra Competizione
+Newtron Gym
 59
 Palestra Competizione
-Palestra Competizione
+Newtron Gym
 60
 Palestra Competizione
-Palestra Competizione
+Newtron Gym
 61
 Borgo Gemini
-Borgo Gemini
+Stellato Town
 62
 Regno di Virgopoli
-Regno di Virgopoli
+Milkiway City
 63
 Borgo Gemini
-Borgo Gemini
+Stellato Town
 64
 Borgo Gemini
-Borgo Gemini
+Stellato Town
 65
 Borgo Gemini
-Borgo Gemini
+Stellato Town
 66
 Borgo Gemini
-Borgo Gemini
+Stellato Town
 67
 Borgo Gemini
-Borgo Gemini
+Stellato Town
 68
 Percorso 5
-Percorso 5
+Route 5
 69
 Isola Pigliapesci
-Isola Pigliapesci
+Proxim Island
 70
 Isola Pigliapesci
-Isola Pigliapesci
+Proxim Island
 71
 Isola Pigliapesci
-Isola Pigliapesci
+Proxim Island
 72
 Isola Pigliapesci
-Isola Pigliapesci
+Proxim Island
 73
 Isola Pigliapesci
-Isola Pigliapesci
+Proxim Island
 74
 Mare di Eldiw
 Mare di Eldiw
 75
 Percorso 6
-Percorso 6
+Route 6
 76
 Radura Paludosa
-Radura Paludosa
+Murky Swamp
 77
 Bosco Stellafilante
-Bosco Stellafilante
+String Forest
 78
 Sentiero Gravità
-Sentiero Gravità
+Gravity Tunnel
 79
 Regno di Virgopoli
-Regno di Virgopoli
+Milkiway City
 80
 Cunicolo Gravità
-Cunicolo Gravità
+Gravity Tunnel
 81
 Regno di Virgopoli
-Regno di Virgopoli
+Milkiway City
 82
 Regno di Virgopoli
-Regno di Virgopoli
+Milkiway City
 83
 Regno di Virgopoli
-Regno di Virgopoli
+Milkiway City
 84
 Regno di Virgopoli
-Regno di Virgopoli
+Milkiway City
 85
 Regno di Virgopoli
-Regno di Virgopoli
+Milkiway City
 86
 Cunicolo Gravità
-Cunicolo Gravità
+Milkiway City
 87
 Campus Ariepoli
-Campus Ariepoli
+Newtron City
 88
 Campus Ariepoli
-Campus Ariepoli
+Newtron City
 89
 Campus Ariepoli
-Campus Ariepoli
+Newtron City
 90
 Campus Ariepoli
-Campus Ariepoli
+Newtron City
 91
 Campus Ariepoli
-Campus Ariepoli
+Newtron City
 92
 Percorso 5
-Percorso 5
+Route 5
 93
 Palestra Radice
-Palestra Radice
+Hadwarf Gym
 94
 Prove
 Prove
 95
 Campus Ariepoli
-Campus Ariepoli
+Newtron City
 96
 Percorso 5
-Percorso 5
+Route 5
 97
 Aquariopoli
-Aquariopoli
+Ishtar City
 98
 Borgo Gemini
-Borgo Gemini
+Stellato Town
 99
 Regno di Virgopoli
-Regno di Virgopoli
+Milkiway City
 100
 Regno di Virgopoli
-Regno di Virgopoli
+Milkiway City
 101
 Palestra Zucchero
-Palestra Zucchero
+Milkiway Gym
 102
 Palestra Zucchero
-Palestra Zucchero
+Milkiway Gym
 103
 Palestra Zucchero
-Palestra Zucchero
+Milkiway Gym
 104
 Cansiria
-Cansiria
+Fortbelt Town
 105
 Aquariopoli
-Aquariopoli
+Ishtar City
 106
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 107
 Percorso 12
-Percorso 12
+Route 12
 108
 Percorso 7
-Percorso 7
+Route 7
 109
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 110
 Cammino dell'Eroe
-Cammino dell'Eroe
+Heroes Path
 111
 Cansiria
-Cansiria
+Fortbelt Town
 112
 Cansiria
-Cansiria
+Fortbelt Town
 113
 Cansiria
-Cansiria
+Fortbelt Town
 114
 Cansiria
-Cansiria
+Fortbelt Town
 115
 Cansiria
-Cansiria
+Fortbelt Town
 116
 Cansiria
-Cansiria
+Fortbelt Town
 117
 Percorso 7
-Percorso 7
+Route 7
 118
 Caverna Zenit
-Caverna Zenit
+Zenith Cave
 119
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 120
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 121
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 122
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 123
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 124
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 125
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 126
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 127
 Xenoverse
 Xenoverse
 128
 Caverna Zenit
-Caverna Zenit
+Zenith Cave
 129
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 130
 Aquariopoli
-Aquariopoli
+Ishtar City
 131
 Aquariopoli
-Aquariopoli
+Ishtar City
 132
 Aquariopoli
-Aquariopoli
+Ishtar City
 133
 Aquariopoli
-Aquariopoli
+Ishtar City
 134
 Aquariopoli
-Aquariopoli
+Ishtar City
 135
 Canyon Asteroide
-Canyon Asteroide
+Sunflare Canyon
 136
 Isola Pigliapesci
-Isola Pigliapesci
+Proxim Island
 137
 Isola Pigliapesci
-Isola Pigliapesci
+Proxim Island
 138
 Percorso 12
-Percorso 12
+Route 12
 139
 Caverna Zenit
-Caverna Zenit
+Zenith Cave
 140
 ???
 ???
@@ -48015,115 +48015,115 @@ Caverna Zenit
 ???
 142
 Palestra Marea
-Palestra Marea
+Ishtar Gym
 143
 Palestra Marea
-Palestra Marea
+Ishtar Gym
 144
 Palestra Marea
-Palestra Marea
+Ishtar Gym
 145
 Palestra Marea
-Palestra Marea
+Ishtar Gym
 146
 Palestra Marea
-Palestra Marea
+Ishtar Gym
 147
 Palestra Marea
-Palestra Marea
+Ishtar Gym
 148
 Palestra Marea
-Palestra Marea
+Ishtar Gym
 149
 Palestra Marea
-Palestra Marea
+Ishtar Gym
 150
 Scorpiopoli
-Scorpiopoli
+Westar City
 151
 Scorpiopoli
-Scorpiopoli
+Westar City
 152
 Scorpiopoli
-Scorpiopoli
+Westar City
 153
 Scorpiopoli
-Scorpiopoli
+Westar City
 154
 Scorpiopoli
-Scorpiopoli
+Westar City
 155
 Scorpiopoli
-Scorpiopoli
+Westar City
 156
 Scorpiopoli
-Scorpiopoli
+Westar City
 157
 Scorpiopoli
-Scorpiopoli
+Westar City
 158
 Scorpiopoli
-Scorpiopoli
+Westar City
 159
 Scorpiopoli
-Scorpiopoli
+Westar City
 160
 Scorpiopoli
-Scorpiopoli
+Westar City
 161
 Caserma S.P.E.T.T.R.I.
-Caserma S.P.E.T.T.R.I.
+G.E.I.S.T. Firehouse
 162
 Caserma S.P.E.T.T.R.I.
-Caserma S.P.E.T.T.R.I.
+G.E.I.S.T. Firehouse
 163
 Caserma S.P.E.T.T.R.I.
-Caserma S.P.E.T.T.R.I.
+G.E.I.S.T. Firehouse
 164
 Caserma S.P.E.T.T.R.I.
-Caserma S.P.E.T.T.R.I.
+G.E.I.S.T. Firehouse
 165
 Saloon Torobrado
-Saloon Torobrado
+Wild Bull Saloon
 166
 Saloon Torobrado
-Saloon Torobrado
+Wild Bull Saloon
 167
 Saloon Torobrado
-Saloon Torobrado
+Wild Bull Saloon
 168
 Saloon Torobrado
-Saloon Torobrado
+Wild Bull Saloon
 169
 Saloon Torobrado
-Saloon Torobrado
+Wild Bull Saloon
 170
 Saloon Torobrado
-Saloon Torobrado
+Wild Bull Saloon
 171
 Saloon Torobrado
-Saloon Torobrado
+Wild Bull Saloon
 172
 Saloon Torobrado
-Saloon Torobrado
+Wild Bull Saloon
 173
 Scorpiopoli
-Scorpiopoli
+Westar City
 174
 Scorpiopoli
-Scorpiopoli
+Westar City
 175
 Scorpiopoli
-Scorpiopoli
+Westar City
 176
 Scorpiopoli
-Scorpiopoli
+Westar City
 177
 Scorpiopoli
-Scorpiopoli
+Westar City
 178
 Scorpiopoli
-Scorpiopoli
+Westar City
 179
 El Purgatorio
 El Purgatorio
@@ -48132,10 +48132,10 @@ El Purgatorio
 El Purgatorio
 181
 Scorpiopoli
-Scorpiopoli
+Westar City
 182
 Scorpiopoli
-Scorpiopoli
+Westar City
 183
 Quasar Express
 Quasar Express
@@ -48180,55 +48180,55 @@ Quasar Express
 Quasar Express
 197
 Leopoli
-Leopoli
+Hypelion City
 198
 Leopoli
-Leopoli
+Hypelion City
 199
 Leopoli
-Leopoli
+Hypelion City
 200
 Leopoli
-Leopoli
+Hypelion City
 201
 Leopoli
-Leopoli
+Hypelion City
 202
 Leopoli
-Leopoli
+Hypelion City
 203
 Leopoli
-Leopoli
+Hypelion City
 204
 Leopoli
-Leopoli
+Hypelion City
 205
 Leopoli
-Leopoli
+Hypelion City
 206
 Leopoli
-Leopoli
+Hypelion City
 207
 Leopoli
-Leopoli
+Hypelion City
 208
 Leopoli
-Leopoli
+Hypelion City
 209
 Palestra Ritmo
-Palestra Ritmo
+Hypelion Gym
 210
 Leopoli
-Leopoli
+Hypelion City
 211
 Leopoli
-Leopoli
+Hypelion City
 212
 Leopoli
-Leopoli
+Hypelion City
 213
 Palestra Ritmo
-Palestra Ritmo
+Hypelion Gym
 214
 Golden Studio
 Golden Studio
@@ -48237,124 +48237,124 @@ Golden Studio
 Golden Studio
 216
 Palestra Ritmo
-Palestra Ritmo
+Hypelion Gym
 217
 Palestra Ritmo
-Palestra Ritmo
+Hypelion Gym
 218
 Palestra Ritmo
-Palestra Ritmo
+Hypelion Gym
 219
 Aeroporto Samuel Oak
-Aeroporto Samuel Oak
+Samuel Oak Airport
 220
 Percorso 8
-Percorso 8
+Route 8
 221
 Outlet Hip-Top
-Outlet Hip-Top
+Hip-Top Store
 222
 Palestra Ritmo
-Palestra Ritmo
+Hypelion Gym
 223
 Capricornia
-Capricornia
+Equinox Village
 224
 Aeroporto Samuel Oak
-Aeroporto Samuel Oak
+Samuel Oak Airport
 225
 Aeroporto Samuel Oak
-Aeroporto Samuel Oak
+Samuel Oak Airport
 226
 Aeroporto Samuel Oak
-Aeroporto Samuel Oak
+Samuel Oak Airport
 227
 Aeroporto Samuel Oak
-Aeroporto Samuel Oak
+Samuel Oak Airport
 228
 Aeroporto Samuel Oak
-Aeroporto Samuel Oak
+Samuel Oak Airport
 229
 Aeroporto Samuel Oak
-Aeroporto Samuel Oak
+Samuel Oak Airport
 230
 Aeroporto Samuel Oak
-Aeroporto Samuel Oak
+Samuel Oak Airport
 231
 Nido Pokémon
-Nido Pokémon
+Pokémon Den
 232
 Isola Buconero
-Isola Buconero
+Darkhole Island
 233
 Isola Buconero
-Isola Buconero
+Darkhole Island
 234
 Isola Buconero
-Isola Buconero
+Darkhole Island
 235
 Isola Buconero
-Isola Buconero
+Darkhole Island
 236
 Isola Buconero
-Isola Buconero
+Darkhole Island
 237
 Isola Buconero
-Isola Buconero
+Darkhole Island
 238
 Isola Buconero
-Isola Buconero
+Darkhole Island
 239
 Isola Buconero
-Isola Buconero
+Darkhole Island
 240
 Isola Buconero
-Isola Buconero
+Darkhole Island
 241
 Canyon Asteroide
-Canyon Asteroide
+Sunflare Canyon
 242
 Isola Buconero
-Isola Buconero
+Darkhole Island
 243
 Vetta Polare
-Vetta Polare
+Polaris Town
 244
 Vetta Polare
-Vetta Polare
+Polaris Town
 245
 Vetta Polare
-Vetta Polare
+Polaris Town
 247
 Percorso 10
-Percorso 10
+Route 10
 248
 Nido Pokémon
 Nido Pokémon
 249
 Radura Paludosa
-Radura Paludosa
+Murky Swamp
 250
 Nido Pokémon
 Nido Pokémon
 251
 Palestra Zucchero
-Palestra Zucchero
+Milkiway Gym
 252
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 253
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 254
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 255
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 256
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 257
 Quasar Express
 Quasar Express
@@ -48363,58 +48363,58 @@ Limbo
 Limbo
 259
 Capricornia
-Capricornia
+Equinox Village
 260
 Capricornia
-Capricornia
+Equinox Village
 261
 Capricornia
-Capricornia
+Equinox Village
 262
 Capricornia
-Capricornia
+Equinox Village
 263
 Canyon Asteroide
-Canyon Asteroide
+Sunflare Canyon
 264
 Percorso 9
-Percorso 9
+Route 9
 265
 Ofiuchia
-Ofiuchia
+Dorado Village
 266
 Canyon Asteroide
-Canyon Asteroide
+Sunflare Canyon
 267
 Giungla Nebulosa
-Giungla Nebulosa
+Cluster Jungle
 268
 Giungla Nebulosa
-Giungla Nebulosa
+Cluster Jungle
 269
 Giungla Nebulosa
-Giungla Nebulosa
+Cluster Jungle
 270
 Giungla Nebulosa
-Giungla Nebulosa
+Cluster Jungle
 271
 Tempio Shyleon
-Tempio Shyleon
+Shyleon Temple
 272
 Cammino dell'Eroe
-Cammino dell'Eroe
+Heroes Path
 273
 Aquariopoli
-Aquariopoli
+Ishtar City
 274
 Aquariopoli
-Aquariopoli
+Ishtar City
 275
 Canyon Asteroide
-Canyon Asteroide
+Sunflare Canyon
 276
 Gola Steelix
-Gola Steelix
+Steelix Gorge
 277
 Palestra Ritmo
 Palestra Ritmo
@@ -48426,310 +48426,310 @@ Area Dugtrio
 Area Dugtrio
 280
 Percorso 10
-Percorso 10
+Route 10
 281
 Percorso 13
-Percorso 13
+Route 13
 282
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 283
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 284
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 285
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 286
 Tempio Shyleon
-Tempio Shyleon
+Shyleon Temple
 287
 Tempio Shyleon
-Tempio Shyleon
+Shyleon Temple
 288
 Tempio Shyleon
-Tempio Shyleon
+Shyleon Temple
 289
 Tempio Shyleon
-Tempio Shyleon
+Shyleon Temple
 290
 Tempio Shyleon
-Tempio Shyleon
+Shyleon Temple
 291
 Cammino dell'Eroe
-Cammino dell'Eroe
+Heroes Path
 292
 Tempio Shyleon
-Tempio Shyleon
+Shyleon Temple
 293
 Tempio Shyleon
-Tempio Shyleon
+Shyleon Temple
 294
 Tempio Shyleon
-Tempio Shyleon
+Shyleon Temple
 295
 Tempio Shyleon
-Tempio Shyleon
+Shyleon Temple
 296
 Tempio Shyleon
-Tempio Shyleon
+Shyleon Temple
 297
 Ofiuchia
-Ofiuchia
+Dorado Village
 298
 Ofiuchia
-Ofiuchia
+Dorado Village
 299
 Ofiuchia
-Ofiuchia
+Dorado Village
 300
 Ofiuchia
-Ofiuchia
+Dorado Village
 301
 Ofiuchia
-Ofiuchia
+Dorado Village
 302
 Ofiuchia
-Ofiuchia
+Dorado Village
 303
 Ofiuchia
-Ofiuchia
+Dorado Village
 304
 Fogne di Sagittopoli
-Fogne di Sagittopoli
+Vega Sewers
 305
 Foresta Neropesto
-Foresta Neropesto
+Pitch Black Forest
 306
 Foresta Neropesto
-Foresta Neropesto
+Pitch Black Forest
 307
 Sagittopoli
-Sagittopoli
+Vega City
 308
 Sagittopoli
-Sagittopoli
+Vega City
 309
 Sagittopoli
-Sagittopoli
+Vega City
 310
 Sagittopoli
-Sagittopoli
+Vega City
 311
 Sagittopoli
-Sagittopoli
+Vega City
 312
 Sagittopoli
-Sagittopoli
+Vega City
 313
 Condominio Lotta
-Condominio Lotta
+Battle Condo
 314
 Sagittopoli
-Sagittopoli
+Vega City
 315
 Sagittopoli
-Sagittopoli
+Vega City
 316
 Sagittopoli
-Sagittopoli
+Vega City
 317
 Sagittopoli
-Sagittopoli
+Vega City
 318
 Sagittopoli
-Sagittopoli
+Vega City
 319
 Sagittopoli
-Sagittopoli
+Vega City
 320
 Sagittopoli
-Sagittopoli
+Vega City
 321
 Sagittopoli
-Sagittopoli
+Vega City
 322
 Sagittopoli
-Sagittopoli
+Vega City
 323
 Sagittopoli
-Sagittopoli
+Vega City
 324
 Circo Sirio
-Circo Sirio
+Sunshine Circus
 325
 Sagittopoli
-Sagittopoli
+Vega City
 326
 Condominio Lotta
-Condominio Lotta
+Battle Condo
 327
 Casinò Eldiw
-Casinò Eldiw
+Eldiw Casinò
 328
 Casinò Eldiw
-Casinò Eldiw
+Eldiw Casinò
 329
 Sagittopoli
-Sagittopoli
+Vega City
 330
 Sagittopoli
-Sagittopoli
+Vega City
 331
 Sagittopoli
-Sagittopoli
+Vega City
 332
 Sagittopoli
-Sagittopoli
+Vega City
 333
 Sagittopoli
-Sagittopoli
+Vega City
 334
 Sagittopoli
-Sagittopoli
+Vega City
 335
 Aranciopoli
-Aranciopoli
+Vermilion City
 336
 Aeroporto Megaforza
-Aeroporto Megaforza
+Superpower Airport
 337
 Vecchia Palestra Tuono
-Vecchia Palestra Tuono
+Old Vermilion Gym
 338
 Aranciopoli
-Aranciopoli
+Vermilion City
 339
 Aranciopoli
-Aranciopoli
+Vermilion City
 340
 Aranciopoli
-Aranciopoli
+Vermilion City
 341
 Aranciopoli
-Aranciopoli
+Vermilion City
 342
 Aranciopoli
-Aranciopoli
+Vermilion City
 343
 Aranciopoli
-Aranciopoli
+Vermilion City
 344
 Pokémon Fan Club
 Pokémon Fan Club
 345
 Percorso 11
-Percorso 11
+Route 11
 346
 Tauronordia
-Tauronordia
+Borealis Town
 347
 Percorso 14
-Percorso 14
+Route 14
 348
 Nido Boreale
-Nido Boreale
+Aurora Den
 349
 Percorso 16
-Percorso 16
+Route 16
 350
 Percorso 15
-Percorso 15
+Route 15
 351
 Percorso 17
-Percorso 17
+Route 17
 352
 Aranciopoli
-Aranciopoli
+Vermilion City
 353
 Condominio Lotta
-Condominio Lotta
+Battle Condo
 354
 Condominio Lotta
-Condominio Lotta
+Battle Condo
 355
 Condominio Lotta
-Condominio Lotta
+Battle Condo
 356
 Condominio Lotta
-Condominio Lotta
+Battle Condo
 357
 Condominio Lotta
-Condominio Lotta
+Battle Condo
 358
 Condominio Lotta
-Condominio Lotta
+Battle Condo
 359
 Condominio Lotta
-Condominio Lotta
+Battle Condo
 360
 Sagittopoli
-Sagittopoli
+Vega City
 361
 Sagittopoli
-Sagittopoli
+Vega City
 362
 Sagittopoli
-Sagittopoli
+Vega City
 363
 Sagittopoli
-Sagittopoli
+Vega City
 364
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 365
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 366
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 367
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 368
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 369
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 370
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 371
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 372
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 373
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 374
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 375
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 376
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 377
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 378
 Nido Pokémon
 Nido Pokémon
 379
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 380
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 381
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 382
 Xenoverse
 Xenoverse
@@ -48738,7 +48738,7 @@ Xenoverse
 Xenoverse
 384
 Percorso 15
-Percorso 15
+Route 15
 385
 Xenoverse
 Xenoverse
@@ -48747,328 +48747,328 @@ Xenoverse
 Xenoverse
 387
 Via Vittoria
-Via Vittoria
+Victory Road
 388
 Monte Zodiaco
-Monte Zodiaco
+Mt. Zodiac
 389
 Monte Zodiaco
-Monte Zodiaco
+Mt. Zodiac
 390
 Monte Zodiaco
-Monte Zodiaco
+Mt. Zodiac
 391
 Monte Zodiaco
-Monte Zodiaco
+Mt. Zodiac
 392
 Monte Zodiaco
-Monte Zodiaco
+Mt. Zodiac
 393
 Monte Zodiaco
-Monte Zodiaco
+Mt. Zodiac
 394
 Monte Zodiaco
-Monte Zodiaco
+Mt. Zodiac
 395
 Monte Zodiaco
-Monte Zodiaco
+Mt. Zodiac
 396
 Monte Zodiaco
-Monte Zodiaco
+Mt. Zodiac
 397
 Monte Zodiaco
-Monte Zodiaco
+Mt. Zodiac
 398
 Monte Zodiaco
-Monte Zodiaco
+Mt. Zodiac
 399
 Monte Zodiaco
-Monte Zodiaco
+Mt. Zodiac
 400
 Nido Boreale
-Nido Boreale
+Aurora Den
 401
 Nido Boreale
-Nido Boreale
+Aurora Den
 402
 Nido Boreale
-Nido Boreale
+Aurora Den
 403
 Nido Boreale
-Nido Boreale
+Aurora Den
 404
 Nido Boreale
-Nido Boreale
+Aurora Den
 405
 Caverna Boreale
-Caverna Boreale
+Aurora Cave
 406
 Nido Boreale
-Nido Boreale
+Aurora Den
 407
 Nido Boreale
-Nido Boreale
+Aurora Den
 408
 Via Vittoria
-Via Vittoria
+Victory Road
 409
 Via Vittoria
-Via Vittoria
+Victory Road
 410
 Via Vittoria
-Via Vittoria
+Victory Road
 411
 Via Vittoria
-Via Vittoria
+Victory Road
 412
 Tauronordia
-Tauronordia
+Borealis Town
 413
 Tauronordia
-Tauronordia
+Borealis Town
 414
 Tauronordia
-Tauronordia
+Borealis Town
 415
 Tauronordia
-Tauronordia
+Borealis Town
 416
 Tauronordia
-Tauronordia
+Borealis Town
 417
 Tauronordia
-Tauronordia
+Borealis Town
 418
 Tauronordia
-Tauronordia
+Borealis Town
 419
 Tauronordia
-Tauronordia
+Borealis Town
 420
 Cansiria
-Cansiria
+Fortbelt Town
 421
 Cammino dell'Eroe
-Cammino dell'Eroe
+Heroes Path
 422
 Cammino dell'Eroe
-Cammino dell'Eroe
+Heroes Path
 423
 Percorso 13
-Percorso 13
+Route 13
 424
 Grotta Cratere
-Grotta Cratere
+Lava Dome Cave
 425
 Aranciopoli
-Aranciopoli
+Vermilion City
 426
 Grotta Cratere
-Grotta Cratere
+Lava Dome Cave
 427
 Aranciopoli
-Aranciopoli
+Vermilion City
 428
 Aranciopoli
-Aranciopoli
+Vermilion City
 429
 Cunicolo Lunapiena
-Cunicolo Lunapiena
+Lunar Tunnel
 430
 Cunicolo Lunapiena
-Cunicolo Lunapiena
+Lunar Tunnel
 431
 Laboratorio Paleozoico
-Laboratorio Paleozoico
+Paleozoic Lab
 432
 Laboratorio Paleozoico
-Laboratorio Paleozoico
+Paleozoic Lab
 433
 Zona DNA
-Zona DNA
+DNA Area
 434
 Zona DNA
-Zona DNA
+DNA Area
 435
 Cunicolo Gravità
-Cunicolo Gravità
+Gravity Tunnel
 436
 Cunicolo Gravità
-Cunicolo Gravità
+Gravity Tunnel
 437
 Cunicolo Gravità
-Cunicolo Gravità
+Gravity Tunnel
 438
 Cunicolo Gravità
-Cunicolo Gravità
+Gravity Tunnel
 439
 Grotta Immersione
-Grotta Immersione
+Diving Cave
 440
 Grotta Immersione
-Grotta Immersione
+Diving Cave
 441
 Cunicolo Gravità
-Cunicolo Gravità
+Gravity Tunnel
 442
 Nido Tempovia
-Nido Tempovia
+Timetravel Den
 443
 Nido Tempovia
-Nido Tempovia
+Timetravel Den
 444
 Cansiria
-Cansiria
+Fortbelt Town
 445
 Cansiria
-Cansiria
+Fortbelt Town
 446
 Ofiuchia
-Ofiuchia
+Dorado Village
 447
 Ofiuchia
-Ofiuchia
+Dorado Village
 448
 Ofiuchia
-Ofiuchia
+Dorado Village
 449
 Cunicolo Gravità
-Cunicolo Gravità
+Gravity Tunnel
 450
 Bosco Stellafilante
-Bosco Stellafilante
+String Forest
 451
 Fogne di Sagittopoli
-Fogne di Sagittopoli
+Vega Sewers
 452
 Saloon Torobrado
-Saloon Torobrado
+Wild Bull Saloon
 453
 Percorso 12
-Percorso 12
+Route 12
 454
 Percorso 12
-Percorso 12
+Route 12
 455
 Vulcano Pulsar
-Vulcano Pulsar
+Mt. Starburst
 456
 Tauronordia
-Tauronordia
+Borealis Town
 457
 Tauronordia
-Tauronordia
+Borealis Town
 458
 Tauronordia
-Tauronordia
+Borealis Town
 459
 Tauronordia
-Tauronordia
+Borealis Town
 460
 Tauronordia
-Tauronordia
+Borealis Town
 461
 Tauronordia
-Tauronordia
+Borealis Town
 462
 Radura Paludosa
-Radura Paludosa
+Murky Swamp
 463
 Percorso 8
-Percorso 8
+Route 8
 464
 Cascate Firmamento
-Cascate Firmamento
+Welkin Falls
 465
 Sagittopoli
-Sagittopoli
+Vega City
 466
 Sagittopoli
-Sagittopoli
+Vega City
 467
 Fogne di Sagittopoli
-Fogne di Sagittopoli
+Vega Sewers
 468
 Via Vittoria
-Via Vittoria
+Victory Road
 469
 Via Vittoria
-Via Vittoria
+Victory Road
 470
 Via Vittoria
-Via Vittoria
+Victory Road
 471
 Via Vittoria
-Via Vittoria
+Victory Road
 472
 Percorso Arcobaleno
-Percorso Arcobaleno
+Rainbow Trail
 473
 Via Vittoria
-Via Vittoria
+Victory Road
 474
 Via Vittoria
-Via Vittoria
+Victory Road
 475
 Via Vittoria
-Via Vittoria
+Victory Road
 476
 Via Vittoria
-Via Vittoria
+Victory Road
 477
 Via Vittoria
-Via Vittoria
+Victory Road
 478
 Percorso Arcobaleno
-Percorso Arcobaleno
+Rainbow Trail
 479
 Via Vittoria
-Via Vittoria
+Victory Road
 480
 Via Vittoria
-Via Vittoria
+Victory Road
 481
 Buio
 Buio
 482
 Cascate Firmamento
-Cascate Firmamento
+Welkin Falls
 483
 Cascate Firmamento
-Cascate Firmamento
+Welkin Falls
 484
 Tempio Shyleon
-Tempio Shyleon
+Shyleon Temple
 485
 Caverna Zenit
-Caverna Zenit
+Zenith Cave
 486
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 487
 Via Vittoria
-Via Vittoria
+Victory Road
 488
 Nido Pokémon
 Nido Pokémon
 489
 Sagittopoli
-Sagittopoli
+Vega City
 490
 Sagittopoli
-Sagittopoli
+Vega City
 491
 Sagittopoli
-Sagittopoli
+Vega City
 492
 Sagittopoli
-Sagittopoli
+Vega City
 493
 Sagittopoli
-Sagittopoli
+Vega City
 494
 Sagittopoli
-Sagittopoli
+Vega City
 495
 Nido Pokémon
 Nido Pokémon
@@ -49212,10 +49212,10 @@ Xenoverse
 Xenoverse
 542
 Palestra Ritmo
-Palestra Ritmo
+Hypelion Gym
 543
 Palestra Ritmo
-Palestra Ritmo
+Hypelion Gym
 544
 FlashBack1
 FlashBack1
@@ -49239,22 +49239,22 @@ FlashBack7
 FlashBack7
 551
 Fogne di Sagittopoli
-Fogne di Sagittopoli
+Vega Sewers
 552
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 553
 Fogne di Sagittopoli
-Fogne di Sagittopoli
+Vega Sewers
 554
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 555
 Laboratorio di Balansopoli
-Laboratorio di Balansopoli
+Hadwarf City's Lab
 556
 Casinò Eldiw
-Casinò Eldiw
+Eldiw Casinò
 557
 ???
 ???
@@ -49263,19 +49263,19 @@ Casinò Eldiw
 ???
 559
 Scorpiopoli
-Scorpiopoli
+Westar City
 560
 Capricornia
-Capricornia
+Equinox Village
 561
 Capricornia
-Capricornia
+Equinox Village
 562
 Palestra Ritmo
-Palestra Ritmo
+Hypelion Gym
 563
 Tempio Shyleon
-Tempio Shyleon
+Shyleon Temple
 [21]
 How are your Pokemon doing?\mMy \TP's really energetic. It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
 How are your Pokemon doing?\mMy \TP's really energetic.  It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
@@ -49323,7 +49323,7 @@ Medicine
 Poké Balls
 Poké Balls
 TMs & HMs
-TMs & HMs
+Machines
 Berries
 Berries
 Key Items
@@ -49333,13 +49333,13 @@ Mail
 Battle Items
 Battle Items
 Esteban
-Esteban
+Taraxo
 Pokédex Regionale
-Pokédex Regionale
+Regional Pokédex
 Xenodex
-Xenodex
+Xenoverse
 Pokédex Nazionale
-Pokédex Nazionale
+National Pokédex
 <ac>{1:02d}:{2:02d}
 <ac>{1:02d}:{2:02d}
 Expected a section at the beginning of the file (line {1})
@@ -49387,9 +49387,9 @@ Coins:<<n>><ar>{1}</ar>
 OK
 OK
 Enter text using the keyboard. Press<<n>>ESC to cancel, or ENTER to confirm.
-Enter text using the keyboard.  Press<<n>>ESC to cancel, or ENTER to confirm.
+Enter text using the keyboard and press ENTER to confirm.
 Enter text using the keyboard.<<n>>Press ENTER to confirm.
-Enter text using the keyboard.<<n>>Press ENTER to confirm.
+Enter text using the keyboard and press ENTER to confirm.
 ♂
 ♂
 ♀
@@ -49405,7 +49405,7 @@ Your name?
 Enter {1}'s name.
 Enter {1}'s name.
 Non puoi usare il menù quando sei in un Nido Pokémon.
-Non puoi usare il menù quando sei in un Nido Pokémon.
+You can't use menu when you are in a Pokémon Den.
 Moves the main character. Also used to scroll through list entries.
 Moves the main character.  Also used to scroll through list entries.
 Used to confirm a choice, check things, and talk to people.
@@ -49765,9 +49765,9 @@ Pokémon World Championships World Champion Ribbon.
 An egg can't be an active Pokémon
 An egg can't be an active Pokémon
 {1} nemico
-{1} nemico
+the foe {1}
 {1} selvatico
-{1} selvatico
+the wild {1}
 {1}
 {1}
 the ally {1}
@@ -49779,13 +49779,13 @@ HP less than 0
 HP greater than total HP
 HP greater than total HP
 {1} è esausto!
-{1} è esausto!
+{1} fainted!
 L'agglomerato si è dileguato...
-L'agglomerato si è dileguato...
+The agglomeration vanished...
 {1} chiama in soccorso i suoi simili!
-{1} chiama in soccorso i suoi simili!
+{1} called its fellows for help!
 {1} è su tutte le furie!
-{1} è su tutte le furie!
+{1} became furious!
 {1} transformed!
 {1} transformed!
 {1}'s Drizzle made it rain!
@@ -50225,11 +50225,11 @@ The substitute took damage for {1}!
 {1}'s substitute faded!
 {1}'s substitute faded!
 Un colpo critico!
-Un colpo critico!
+A critical hit!
 È superefficace!
-È superefficace!
+It's supereffective!
 Non è molto efficace...
-Non è molto efficace...
+It's not very effective...
 {1} endured the hit!
 {1} endured the hit!
 {1} hung on with Sturdy!
@@ -50587,39 +50587,39 @@ Gravity intensified!
 {1} was unaffected!
 {1} was unaffected!
 Vuoi dare un soprannome a {1}?
-Vuoi dare un soprannome a {1}?
+Do you want to give a nickname to {1}?
 {1}'s nickname?
 {1}'s nickname?
 Box "{1}" on {2}'s PC was full.
-Box "{1}" on {2}'s PC was full.
+{1} on {2}'s PC was full.
 Box "{1}" on someone's PC was full.
-Box "{1}" on someone's PC was full.
+{1} on someone's PC was full.
 {1} was transferred to box "{2}".
-{1} was transferred to box "{2}".
+{1} was transferred to {2}.
 {1} was transferred to {2}'s PC.
 {1} was transferred to {2}'s PC.
 {1} was transferred to someone's PC.
 {1} was transferred to someone's PC.
-It was stored in box "{1}".
-It was stored in box "{1}".
+It was stored in box {1}.
+It was stored in {1}.
 {1} lancia una {2}!
-{1} lancia una {2}!
+{1} threw a {2}!
 The Trainer blocked the Ball!<<n>>Don't be a thief!
 The Trainer blocked the Ball!<<n>>Don't be a thief!
 Il Pokémon non è ancora abbastanza<<n>>debole per essere catturato...
-Il Pokémon non è ancora abbastanza<<n>>debole per essere catturato...
+The Pokémon is not weak<<n>>enough to be caught...
 Il Pokémon non può essere catturato!
-Il Pokémon non può essere catturato!
+You cannot catch this Pokémon!
 Oh no! The Pokémon broke free!
-Oh no!  The Pokémon broke free!
+Oh no! The Pokémon broke free!
 Aww... It appeared to be caught!
 Aww... It appeared to be caught!
 Aargh! Almost had it!
-Aargh!  Almost had it!
+Aargh! Almost had it!
 Shoot! It was so close, too!
-Shoot!  It was so close, too!
+Shoot! It was so close, too!
 Catturato! {1} è stato catturato!
-Catturato!  {1} è stato catturato!
+Gotcha! {1} was caught!
 {1}'s data was added to the Pokédex.
 {1}'s data was added to the Pokédex.
 Party 1 has no Pokémon.
@@ -50631,7 +50631,7 @@ Wild battles with more than two Pokémon are not allowed.
 The foe {1}
 The foe {1}
 {1} selvativo
-{1} selvativo
+Wild {1}
 There's no PP left for this move!
 There's no PP left for this move!
 {1} allows the use of only {2}!
@@ -50659,11 +50659,11 @@ You can't switch {1}'s Pokémon with one of yours!
 Will {1} change Pokémon?
 Will {1} change Pokémon?
 {1}, that's enough! Come back!
-{1}, that's enough!  Come back!
+{1}, that's enough! Come back!
 Use next Pokémon?
 Use next Pokémon?
 Vai! {1}!
-Vai! {1}!
+Go! {1}!
 Do it! {1}!
 Do it! {1}!
 Go for it, {1}!
@@ -50671,7 +50671,7 @@ Go for it, {1}!
 Your foe's weak!<<n>>Get 'em, {1}!
 Your foe's weak!<<n>>Get 'em, {1}!
 {1} manda in<<n>>campo {2}!
-{1} manda in<<r>><<n>>campo {2}!
+{1} sent out<<r>><<n>>{2}!
 {1} used the<<n>>{2}.
 {1} used the<<r>><<n>>{2}.
 Couldn't return unused item to Bag somehow.
@@ -50689,7 +50689,7 @@ Treat this battle as a win?
 Treat this battle as a loss?
 Treat this battle as a loss?
 No! There's no running from a Trainer battle!
-No!  There's no running from a Trainer battle!
+No! There's no running from a Trainer battle!
 Would you like to forfeit the match and quit now?
 Would you like to forfeit the match and quit now?
 {1} forfeited the match!
@@ -50709,7 +50709,7 @@ Mega {1}
 {1} has Mega Evolved into {2}!
 {1} has Mega Evolved into {2}!
 {1}'s Primal Reversion!<<n>>It reverted to its primal form!
-{1}'s Primal Reversion!<<n>>It reverted to its primal form!
+{1} changed form!
 Form is: {1} |
 Form is: {1} |
 {1} called {2}!
@@ -50737,7 +50737,7 @@ Delete a move to make room for {1}?
 Which move should be forgotten?
 Which move should be forgotten?
 1, 2, and... ... ...
-1,  2, and... ... ...
+1, 2, and... ... ...
 Poof!
 Poof!
 {1} forgot {2}.
@@ -50785,13 +50785,13 @@ Opponent 1 has no unfainted Pokémon
 Opponent 2 has no unfainted Pokémon
 Opponent 2 has no unfainted Pokémon
 {1} sent<<n>>out {2}!
-{1} sent<<r>><<n>>out {2}!
+{1} sent out<<r>><<n>>{2}!
 {1}<<n>>would like to battle!
 {1}<<r>><<n>>would like to battle!
 Opponent doesn't have two unfainted Pokémon
 Opponent doesn't have two unfainted Pokémon
 {1} sent<<n>>out {2} and {3}!
-{1} sent<<r>><<n>>out {2} and {3}!
+{1} sent out<<r>><<n>>{2} and {3}!
 Trainer has no unfainted Pokémon
 Trainer has no unfainted Pokémon
 Opponent trainer must be only one person in single battles
@@ -50803,7 +50803,7 @@ Player 1 has no unfainted Pokémon
 Player 2 has no unfainted Pokémon
 Player 2 has no unfainted Pokémon
 {1} sent<<n>>out {2}! Go! {3}!
-{1} sent<<r>><<n>>out {2}!  Go! {3}!
+{1} sent out<<r>><<n>>{2}! Go! {3}!
 Player doesn't have two unfainted Pokémon
 Player doesn't have two unfainted Pokémon
 Go! {1} and {2}!
@@ -50823,7 +50823,7 @@ Hail is falling.
 Items can't be used here.
 Items can't be used here.
 Non puoi usare questa ball per catturare il<<n>>Pokémon!
-Non puoi usare questa ball per catturare il<<n>>Pokémon!
+You cannot use this Ball to catch the<<n>>Pokémon!
 {1} withdrew {2}!
 {1} withdrew {2}!
 {1}, that's enough!<<n>>Come back!
@@ -50989,7 +50989,7 @@ evasiveness
 {1} blacked out!
 {1} blacked out!
 {1} raccoglie {2} da {3}!
-{1} raccoglie {2} da {3}!
+{1} pick up {2} from {3}!
 Graphics/Pictures/battleCommandButtons
 Graphics/Pictures/battleCommandButtons
 {1:s}PP: ---<br>TYPE/{2:s}
@@ -51017,7 +51017,7 @@ Lv{1}
 {1:s}<<1>>
 {1:s}<<1>>
 Sì
-Sì
+Yes
 ({1}) PP: {2}/{3}
  ({1}) PP: {2}/{3}
 What will<<n>>{1} throw?
@@ -51033,15 +51033,15 @@ Run
 What will<<n>>{1} do?
 What will<<n>>{1} do?
 Combatti
-Combatti
+Fight
 Zaino
-Zaino
+Bag
 Pokémon
 Pokémon
 Call
 Call
 Fuga
-Fuga
+Run
 Cancel
 Cancel
 Use
@@ -51061,15 +51061,15 @@ Summary
 Do what with {1}?
 Do what with {1}?
 Max. HP<r>+{1}<<n>>Attack<r>+{2}<<n>>Defense<r>+{3}<<n>>Sp. Atk<r>+{4}<<n>>Sp. Def<r>+{5}<<n>>Speed<r>+{6}
-Max. HP<r>+{1}<<r>><<n>>Attack<r>+{2}<<r>><<n>>Defense<r>+{3}<<r>><<n>>Sp. Atk<r>+{4}<<r>><<n>>Sp. Def<r>+{5}<<r>><<n>>Speed<r>+{6}
+HP<r>+{1}<<r>><<n>>Attack<r>+{2}<<r>><<n>>Defense<r>+{3}<<r>><<n>>Sp. Atk<r>+{4}<<r>><<n>>Sp. Def<r>+{5}<<r>><<n>>Speed<r>+{6}
 Max. HP<r>{1}<<n>>Attack<r>{2}<<n>>Defense<r>{3}<<n>>Sp. Atk<r>{4}<<n>>Sp. Def<r>{5}<<n>>Speed<r>{6}
-Max. HP<r>{1}<<r>><<n>>Attack<r>{2}<<r>><<n>>Defense<r>{3}<<r>><<n>>Sp. Atk<r>{4}<<r>><<n>>Sp. Def<r>{5}<<r>><<n>>Speed<r>{6}
+HP<r>{1}<<r>><<n>>Attack<r>{2}<<r>><<n>>Defense<r>{3}<<r>><<n>>Sp. Atk<r>{4}<<r>><<n>>Sp. Def<r>{5}<<r>><<n>>Speed<r>{6}
 the wild {1}
 the wild {1}
 The wild {1}
 The wild {1}
 The boxes are full! You can't catch any more Pokémon!
-The boxes are full!  You can't catch any more Pokémon!
+The boxes are full! You can't catch any more Pokémon!
 {1} threw some bait at the {2}!
 {1} threw some bait at the {2}!
 {1} threw a rock at the {2}!
@@ -51165,65 +51165,65 @@ NOW RECORDING<<n>>Press ESC to stop recording.
 PLAYING BACK...
 PLAYING BACK...
 \se<<[>>itemlevel<<]>>{1} trova \c<<[>>1<<]>>{2}\c<<[>>0<<]>>!\<<n>>It contained \c<<[>>1<<]>>{3}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
-\se<<[>>itemlevel<<]>>{1} trova \c<<[>>1<<]>>{2}\c<<[>>0<<]>>!\<<n>>It contained \c<<[>>1<<]>>{3}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
+\se<<[>>itemlevel<<]>>{1} found \c<<[>>1<<]>>{2}\c<<[>>0<<]>>!\<<n>>It contains \c<<[>>1<<]>>{3}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
 {1} put the \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>nel <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
-{1} put the \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>nel <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
-\se[itemlevel]{1} trova alcune \c[1]{2}\c[0]!\wtnp[30]
-\se[itemlevel]{1} trova alcune \c[1]{2}\c[0]!\wtnp[30]
+{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.\se[itemlevel]
+{1} trova alcune \c[1]{2}\c[0]!\wtnp[30]
+\se[itemlevel]{1} found \c[1]{2}\c[0]!\wtnp[30]
 {1} sistema la \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>nel <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
-{1} sistema la \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>nel <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
+{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.\se[itemlevel]
 \se[itemlevel]{1} ha trovato {2} \c[1]{3}\c[0]!\wtnp[30]
-\se[itemlevel]{1} ha trovato {2} \c[1]{3}\c[0]!\wtnp[30]
+\se[itemlevel]{1} found \c[1]{2}\c[0]!\wtnp[30]
 {1} put the \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>in the <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
-{1} put the \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>in the <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
+{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.\se[itemlevel]
 \se[itemlevel]{1} ha trovato {2} \c[1]{3}s\c[0]!\wtnp[30]
-\se[itemlevel]{1} ha trovato {2} \c[1]{3}s\c[0]!\wtnp[30]
+\se[itemlevel]{1} found {2} \c[1]{3}s\c[0]!\wtnp[30]
 {1} sistema la \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<n>>nel <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
-{1} sistema la \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<r>><<n>>nel <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
+{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.\se[itemlevel]
 \se[itemlevel]{1} ha trovato una \c[1]{2}\c[0]!\wtnp[30]
-\se[itemlevel]{1} ha trovato una \c[1]{2}\c[0]!\wtnp[30]
+\se[itemlevel]{1} found \c[1]{2}\c[0]!\wtnp[30]
 {1} ha trovato \c[1]{2}\c[0]!\wtnp[20]
-{1} ha trovato \c[1]{2}\c[0]!\wtnp[20]
+{1} found \c[1]{2}\c[0]!\wtnp[20]
 {1} ha trovato {2} \c[1]{3}\c[0]!\wtnp[20]
-{1} ha trovato {2} \c[1]{3}\c[0]!\wtnp[20]
+{1} trova {2} \c[1]{3}\c[0]!\wtnp[20]
 {1} ha trovato {2} \c[1]{3}s\c[0]!\wtnp[20]
-{1} ha trovato {2} \c[1]{3}s\c[0]!\wtnp[20]
+{1} trova {2} \c[1]{3}s\c[0]!\wtnp[20]
 Peccato... Lo zaino è pieno...
-Peccato... Lo zaino è pieno...
+Too bad... The Bag is full...
 \se<<[>><<]>>{1} ha trovato {2}!\se<<[>>itemlevel<<]>>\<<n>>che contiene {3}.\wtnp<<[>>30<<]>>
-\se<<[>><<]>>{1} ha trovato {2}!\se<<[>>itemlevel<<]>>\<<n>>che contiene {3}.\wtnp<<[>>30<<]>>
+\se<<[>><<]>>{1} found {2}!\se<<[>>itemlevel<<]>>\<<n>>It contains {3}.\wtnp<<[>>30<<]>>
 {1} sistema la {2}<<n>>nel {3} Pocket.
-{1} sistema la {2}<<r>><<n>>nel {3} Pocket.
+{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
 \se[]{1} ha trovato {2}!\se[itemlevel]\wtnp[30]
-\se[]{1} ha trovato {2}!\se[itemlevel]\wtnp[30]
+\se[]{1} found \c[1]{2}\c[0]!\se[itemlevel]\wtnp[30]
 {1} sistema {2}<<n>>nel {3} Pocket.
-{1} sistema {2}<<r>><<n>>nel {3} Pocket.
+{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
 \se[]{1} ha trovato {2} {3}!\se[itemlevel]\wtnp[30]
-\se[]{1} ha trovato {2} {3}!\se[itemlevel]\wtnp[30]
+\se[]{1} found {2} \c[1]{3}\c[0]!\se[itemlevel]\wtnp[30]
 {1} sistema {2}<<n>>nella tasca {3}.
-{1} sistema {2}<<r>><<n>>nella tasca {3}.
+{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
 \se[]{1} ha trovato {2} {3}s!\se[itemlevel]\wtnp[30]
-\se[]{1} ha trovato {2} {3}s!\se[itemlevel]\wtnp[30]
+\se[]{1} found {2} \c[1]{3}s\c[0]!\se[itemlevel]\wtnp[30]
 {1} sistema {2}s<<n>>nella tasca {3}.
-{1} sistema {2}s<<r>><<n>>nella tasca {3}.
+{1} put \c[1]{2}s\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
 {1} ha trovato {2}!\wtnp[20]
-{1} ha trovato {2}!\wtnp[20]
+{1} found \c<<[>>1<<]>>{2}\c<<[>>0<<]>>!\wtnp[20]
 {1} ha trovato {2} {3}!\wtnp[20]
-{1} ha trovato {2} {3}!\wtnp[20]
+{1} found {2} \c[1]{3}\c[0]!\wtnp[20]
 {1} ha trovato {2} {3}s!\wtnp[20]
-{1} ha trovato {2} {3}s!\wtnp[20]
+{1} found {2} \c[1]{3}s\c[0]!\wtnp[20]
 \se<<[>>itemlevel<<]>> Trovata una \c<<[>>1<<]>>{1}\c<<[>>0<<]>>!\<<n>>Che contiene \c<<[>>1<<]>>{2}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
-\se<<[>>itemlevel<<]>> Trovata una \c<<[>>1<<]>>{1}\c<<[>>0<<]>>!\<<n>>Che contiene \c<<[>>1<<]>>{2}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
+\se<<[>>itemlevel<<]>>You found \c<<[>>1<<]>>{1}\c<<[>>0<<]>>!<<n>>It contains \c<<[>>1<<]>>{2}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
 \se[itemlevel]Trovata delle \c[1]{1}\c[0]!\wtnp[30]
-\se[itemlevel]Trovata delle \c[1]{1}\c[0]!\wtnp[30]
+\se[itemlevel]You found \c[1]{1}\c[0]!\wtnp[30]
 \se[itemlevel]Trovata una \c[1]{1}\c[0]!\wtnp[30]
-\se[itemlevel]Trovata una \c[1]{1}\c[0]!\wtnp[30]
+\se[itemlevel]You found \c[1]{1}\c[0]!\wtnp[30]
 \se[itemlevel]Trovata una \c[1]{1}s\c[0]!\wtnp[30]
-\se[itemlevel]Trovata una \c[1]{1}s\c[0]!\wtnp[30]
+\se[itemlevel]You found \c[1]{1}s\c[0]!\wtnp[30]
 {1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>
-{1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>
+{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
 {1} sistema \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>
-{1} sistema \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<r>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>
+{1} put \c[1]{2}s\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
 A Key Item in the Bag can be registered to this key for instant use.
 A Key Item in the Bag can be registered to this key for instant use.
 This tree looks like it can be cut down!<<1>>
@@ -51237,11 +51237,11 @@ This tree looks like it can be cut down.
 Sorry, a new Badge is required.
 Sorry, a new Badge is required.
 Non puoi usarla ora.
-Non puoi usarla ora.
+You cannot use it now.
 {1} usa {2}!
-{1} usa {2}!
+{1} used {2}!
 Nope. Nothing...
-Nope.  Nothing...
+Nope. Nothing...
 A Pokémon could be in this tree. Would you like to use Headbutt?
 A Pokémon could be in this tree.  Would you like to use Headbutt?
 {1} used Headbutt.
@@ -51253,13 +51253,13 @@ Can't use that here.
 {1} used {2}.
 {1} used {2}.
 This rock appears to be breakable. Would you like to use Rock Smash?
-This rock appears to be breakable.  Would you like to use Rock Smash?
+This rock appears to be breakable. Would you like to use Rock Smash?
 {1} used Rock Smash!
 {1} used Rock Smash!
 It's a rugged rock, but a Pokémon may be able to smash it.
 It's a rugged rock, but a Pokémon may be able to smash it.
 Holo-Trapinch usa {2}!
-Holo-Trapinch usa {2}!
+Holo-Trapinch used {2}!
 Strength made it possible to move boulders around.
 Strength made it possible to move boulders around.
 It's a big boulder, but a Pokémon may be able to push it aside.
@@ -51273,9 +51273,9 @@ Would you like to use Strength?
 Strength is already being used.
 Strength is already being used.
 Holo-Hercurcules usa {2}!<<1>>
-Holo-Hercurcules usa {2}!<<1>>
+Holo-Hercurcules used {2}!<<1>>
 La forza di Holo-Hercurcules ti permette di spostare i massi!
-La forza di Holo-Hercurcules ti permette di spostare i massi!
+Holo-Hercurcules' Strenght made it possible to move boulders around!
 The water is a deep blue...<<n>>Would you like to surf on it?
 The water is a deep blue...<<n>>Would you like to surf on it?
 {1} used Surf!
@@ -51315,7 +51315,7 @@ Light is filtering down from above.  A Pokémon may be able to surface here.
 This is in use already.
 This is in use already.
 A causa di una distorsione dimensionale, il Pokémon non può usare Teletrasporto.
-A causa di una distorsione dimensionale, il Pokémon non può usare Teletrasporto.
+Due to a dimensional distortion, the Pokémon cannot use Teleport.
 Want to return to the healing spot used last in {1}?
 Want to return to the healing spot used last in {1}?
 Want to escape from here and return to {1}?
@@ -51761,7 +51761,7 @@ Boost PP of which move?
 {1} turned friendly.<<n>>The base Speed fell!
 {1} turned friendly.<<n>>The base Speed fell!
 {1} changed Forme!
-{1} changed Forme!
+{1} changed form!
 It had no effect.
 It had no effect.
 Your party is full! You can't unfuse {1}.
@@ -51869,7 +51869,7 @@ It broke all barriers!
 Huh?<<n>>{1} stopped evolving!
 Huh?<<r>><<n>>{1} stopped evolving!
 \se[]Congratulations! Your {1} evolved into {2}!\wt[80]
-\se[]Congratulations!  Your {1} evolved into {2}!\wt[80]
+\se[]Congratulations! Your {1} evolved into {2}!\wt[80]
 It will forget the song it knows.
 It will forget the song it knows.
 Are you sure you want to change it?
@@ -51897,11 +51897,11 @@ Caught: {1}<<n>>Level: {2}<<n>>Balls: {3}
 Caught: None<<n>>Balls: {1}
 Caught: None<<n>>Balls: {1}
 Esci
-Esci
+Quit
 Salva
-Salva
+Save
 Opzioni
-Opzioni
+Options
 Debug
 Debug
 Would you like to leave the Safari Game right now?
@@ -52003,15 +52003,15 @@ WT
 Graphics/Pictures/pokedexTypes
 Graphics/Pictures/pokedexTypes
 ????? Pokémon
-????? Pokémon
+??? Pokémon
 ???'??"
 ???'??"
 ????.? lbs.
 ????.? lbs.
 ????.? m
-????.? m
+???.? m
 ????.? kg
-????.? kg
+???.? kg
 Graphics/Pictures/Dex/pokedexentry
 Graphics/Pictures/Dex/pokedexentry
 Don't specify
@@ -52119,9 +52119,9 @@ Genderless
 Pokémon already has mail
 Pokémon already has mail
 CHIUDI
-CHIUDI
+CLOSE
 CONFERMA
-CONFERMA
+CONFIRM
 Graphics/Pictures/statuses
 Graphics/Pictures/statuses
 {1: 3d}/{2: 3d}
@@ -52129,11 +52129,11 @@ Graphics/Pictures/statuses
 Lv.{1}
 Lv.{1}
 {1} ha cambiato forma!
-{1} ha cambiato forma!
+{1} changed form!
 X: #{x} Y: #{y}
-X: #{x}   Y: #{y}
+X: #{x} Y: #{y}
 Si
-Si
+Yes
 Please enter a message (max. {1} characters).
 Please enter a message (max. {1} characters).
 Please enter a message (max. 256 characters).
@@ -52151,11 +52151,11 @@ Your PC's Mailbox is full.
 The mail was sent to your PC.
 The mail was sent to your PC.
 If the mail is removed, the message will be lost. OK?
-If the mail is removed, the message will be lost.  OK?
+If the mail is removed, the message will be lost. OK?
 Mail was taken from the Pokémon.
 Mail was taken from the Pokémon.
 Ricevuto {1} da {2}.
-Ricevuto {1} da {2}.
+Received {1} from {2}.
 Eggs can't hold items.
 Eggs can't hold items.
 Mail must be removed before holding an item.
@@ -52169,11 +52169,11 @@ Can't re-store deleted item in bag
 The {1} was taken and replaced with the {2}.
 The {1} was taken and replaced with the {2}.
 A {1} viene dato {2} da tenere.
-A {1} viene dato {2} da tenere.
+You gave {2} to {1}.
 Give to which Pokémon?
 Give to which Pokémon?
 This Pokémon is holding an item. It can't hold mail.
-This Pokémon is holding an item.  It can't hold mail.
+This Pokémon is holding an item. It can't hold mail.
 Eggs can't hold mail.
 Eggs can't hold mail.
 Mail was transferred from the Mailbox.
@@ -52209,9 +52209,9 @@ No Entry
 Info
 Info
 Chiudi
-Chiudi
+Quit
 Che fare con {1}?
-Che fare con {1}?
+What to do with {1}?
 No more than {1} Pokémon may enter.
 No more than {1} Pokémon may enter.
 Choose Pokémon or cancel.
@@ -52221,15 +52221,15 @@ This Pokémon can't be chosen.
 HP/Status
 HP/Status
 Livello
-Livello
+Level
 Species
 Species
 Mosse
-Mosse
+Moves
 Genere
-Genere
+Gender
 Abilità
-Abilità
+Ability
 Nature
 Nature
 Shininess
@@ -52467,15 +52467,15 @@ Are you sure you want to delete this Pokémon?
 The Pokémon was deleted.
 The Pokémon was deleted.
 Scegli un Pokémon.
-Scegli un Pokémon.
+Choose a Pokémon.
 Scegli un Pokémon o esci.
-Scegli un Pokémon o esci.
+Choose a Pokémon or quit.
 Statistiche
-Statistiche
+Stats
 Ordina
-Ordina
+Move
 Oggetti
-Oggetti
+Item
 Not enough HP...
 Not enough HP...
 This item can't be used on that Pokémon.
@@ -52489,25 +52489,25 @@ Read
 Take
 Take
 Dai
-Dai
+Give
 Prendi
-Prendi
+Take
 Cosa devi fare con questo oggetto?
-Cosa devi fare con questo oggetto?
+What to do with the item?
 INFO
 INFO
 Oggetto
-Oggetto
+Item
 Dex Num.
-Dex Num.
+Dex N°
 Specie
 Specie
 Tipo
-Tipo
+Type
 OT
 OT
 ID Num.
-ID Num.
+ID N°
 Heart Gauge
 Heart Gauge
 The door to its heart is open! Undo the final lock!
@@ -52523,9 +52523,9 @@ The door to its heart is opening up.
 The door to its heart is tightly shut.
 The door to its heart is tightly shut.
 Punti Exp.
-Punti Exp.
+Exp. Points
 Al prossimo Lv.
-Al prossimo Lv.
+Lv. +1
 RENTAL
 RENTAL
 TRAINER MEMO
@@ -52537,13 +52537,13 @@ Item
 <c3=F8F8F8,686868>A mysterious Pokémon Egg received from <c3=F8F8F8,686868>{1}<c3=F8F8F8,686868>.
 <c3=F8F8F8,686868>A mysterious Pokémon Egg received from <c3=F8F8F8,686868>{1}<c3=F8F8F8,686868>.<<n>>
 <c3=F8F8F8,686868>"The Egg Watch"
-<c3=F8F8F8,686868>"The Egg Watch"<<n>>
+<c3=F8F8F8,686868>The Egg Watch<<n>>
 It looks like this Egg will take a long time to hatch.
 It looks like this Egg will take a long time to hatch.
 What will hatch from this? It doesn't seem close to hatching.
-What will hatch from this?  It doesn't seem close to hatching.
+What will hatch from this? It doesn't seem close to hatching.
 It appears to move occasionally. It may be close to hatching.
-It appears to move occasionally.  It may be close to hatching.
+It appears to move occasionally. It may be close to hatching.
 Sounds can be heard coming from inside! It will hatch soon!
 Sounds can be heard coming from inside!  It will hatch soon!
 <c3=ee5439,404040>{1}
@@ -52635,15 +52635,15 @@ Sp. Def
 Ability
 Ability
 MOVES
-MOVES
+Moves
 PP
 PP
 CATEGORY
-CATEGORY
+Category
 POWER
 POWER
 ACCURACY
-ACCURACY
+Accuracy
 RIBBONS
 RIBBONS
 No. of Ribbons:
@@ -52653,7 +52653,7 @@ HM moves can't be forgotten now.
 You must choose a move!
 You must choose a move!
 CLOSE BAG
-CLOSE BAG
+Close
 x{1: 2d}
 x{1: 2d}
 Close bag.
@@ -52711,9 +52711,9 @@ Phone
 Jukebox
 Jukebox
 Mappa
-Mappa
+Map
 Obiettivi
-Obiettivi
+Achievements
 Area Unknown
 Area Unknown
 The map data cannot be found.
@@ -52759,17 +52759,17 @@ Custom
 {1:s} {2:d}, {3:d}
 {1:s} {2:d}, {3:d}
 Nome
-Nome
+Name
 ID No.
-ID No.
+ID N°
 Soldi
-Soldi
+Money
 {1:d}/{2:d}
 {1:d}/{2:d}
 Tempo
-Tempo
+Time
 Inizio
-Inizio
+Start
 Badges:
 Badges:
 Pokédex:
@@ -52813,7 +52813,7 @@ Options
 Language
 Language
 Chiudi il gioco
-Chiudi il gioco
+Close
 Map {1} was not found.
 Map {1} was not found.
 The map was not found. The game cannot continue.
@@ -52869,21 +52869,21 @@ There is already a saved file. Is it OK to overwrite it?
 Speech frame {1}.
 Speech frame {1}.
 Velocità testo
-Velocità testo
+Text speed
 Lento
-Lento
+Slow
 Medio
-Medio
+Medium
 Veloce
-Veloce
+Fast
 Scena lotta
-Scena lotta
+Battle Scene
 On
 On
 Off
 Off
 Stile lotta
-Stile lotta
+Battle Style
 Shift
 Shift
 Set
@@ -52905,9 +52905,9 @@ RFVF
 DP
 DP
 Schermo
-Schermo
+Screen size
 Grande
-Grande
+Large
 Box {1:d}
 Box {1:d}
 You can't release an Egg.
@@ -53145,13 +53145,13 @@ Huh?<<1>>
 {1} hatched from the Egg!
 {1} hatched from the Egg!
 {1:s}<<n>>ID: {2:05d} OT: {3:s}\wtnp<<[>>0<<]>>
-{1:s}<<r>><<n>>ID: {2:05d}   OT: {3:s}\wtnp<<[>>0<<]>>
+{1:s}<<r>><<n>>ID: {2:05d} OT: {3:s}\wtnp<<[>>0<<]>>
 For {1}'s {2},<<n>>{3} sends {4}.<<1>>
 For {1}'s {2},<<r>><<n>>{3} sends {4}.<<1>>
 {1} bids farewell to {2}.
 {1} bids farewell to {2}.
 {1:s}<<n>>ID: {2:05d} OT: {3:s}<<1>>
-{1:s}<<r>><<n>>ID: {2:05d}   OT: {3:s}<<1>>
+{1:s}<<r>><<n>>ID: {2:05d} OT: {3:s}<<1>>
 Take good care of {1}.
 Take good care of {1}.
 Species does not exist ({1}).
@@ -53209,11 +53209,11 @@ SWITCH
 FLOW
 FLOW
 TEMPO
-TEMPO
+TIME
 $ {1:d}
 $ {1:d}
 ESCI
-ESCI
+QUIT
 In Bag:<r>{1:d}
 In Bag:<r>{1:d}  
 x{1:d}<r>$ {2:d}
@@ -53225,9 +53225,9 @@ Money:<<n>><r>${1}
 You don't have enough money.
 You don't have enough money.
 Certainly. You want {1}.<<n>>That will be ${2}. OK?
-Certainly.  You want {1}.<<r>><<n>>That will be ${2}.  OK?
+Certainly. You want {1}.<<r>><<n>>That will be ${2}. OK?
 {1}? Certainly.<<n>>How many would you like?
-{1}?  Certainly.<<r>><<n>>How many would you like?
+{1}? Certainly.<<r>><<n>>How many would you like?
 {1}, and you want {2}.<<n>>That will be ${3}. OK?
 {1}, and you want {2}.<<r>><<n>>That will be ${3}.  OK?
 Failed to delete stored items
@@ -53239,7 +53239,7 @@ Here you are!<<r>><<n>>Thank you!
 I'll throw in a Premier Ball, too.
 I'll throw in a Premier Ball, too.
 {1}? Oh, no.<<n>>I can't buy that.
-{1}?  Oh, no.<<r>><<n>>I can't buy that.
+{1}? Oh, no.<<r>><<n>>I can't buy that.
 {1}?<<n>>How many would you like to sell?
 {1}?<<r>><<n>>How many would you like to sell?
 I can pay ${1}.<<n>>Would that be OK?
@@ -53701,17 +53701,17 @@ There's no more room for Pokémon!<<1>>
 The Pokémon Boxes are full and can't accept any more!
 The Pokémon Boxes are full and can't accept any more!
 Box "{1}" on {2}'s PC was full.<<1>>
-Box "{1}" on {2}'s PC was full.<<1>>
+{1} on {2}'s PC was full.<<1>>
 Box "{1}" on someone's PC was full.<<1>>
-Box "{1}" on someone's PC was full.<<1>>
+{1} on someone's PC was full.<<1>>
 {1} was transferred to box "{2}."
-{1} was transferred to box "{2}."
+{1} was transferred to {2}.
 {1} was transferred to {2}'s PC.<<1>>
 {1} was transferred to {2}'s PC.<<1>>
 {1} was transferred to someone's PC.<<1>>
 {1} was transferred to someone's PC.<<1>>
 It was stored in box "{1}."
-It was stored in box "{1}."
+It was stored in {1}.
 {1} obtained {2}!\se<<[>>itemlevel<<]>><<1>>
 {1} obtained {2}!\se<<[>>itemlevel<<]>><<1>>
 {1} received a Pokémon from {2}.<<1>>
@@ -54967,23 +54967,23 @@ Una {1} è stata creata
 File 'craftingsystem.txt' doesn't exist
 File 'craftingsystem.txt' doesn't exist
 {1} ottiene {2}!
-{1} ottiene {2}!
+{1} obtained {2}!
 {1} sistema {2} nella tasca Strumenti.
-{1} sistema {2} nella tasca Strumenti.
+{1} put {2} in the Items Pocket.
 {1} sistema {2} nella tasca Medicine.
-{1} sistema {2} nella tasca Medicine.
+{1} put {2} in the Medicines Pocket.
 {1} sistema {2} nella tasca Poke Balls.
-{1} sistema {2} nella tasca Poke Balls.
+{1} put {2} in the Poké Balls Pocket.
 {1} sistema {2} nella tasca MT/MN.
-{1} sistema {2} nella tasca MT/MN.
+{1} put {2} in the Machines Pocket.
 {1} sistema {2} nella tasca Bacche.
-{1} sistema {2} nella tasca Bacche.
+{1} put {2} in the Berries Pocket.
 {1} sistema {2} nella tasca Mail.
-{1} sistema {2} nella tasca Mail.
+{1} put {2} in the Mails Pocket.
 {1} sistema {2} nella tasca Oggetti di battaglia.
-{1} sistema {2} nella tasca Oggetti di battaglia.
+{1} put {2} in the Battle Items Pocket.
 {1} sistema {2} nella tasca Strumenti chiave.
-{1} sistema {2} nella tasca Strumenti chiave.
+{1} put {2} in the Key Items Pocket.
 CHIUDI ZAINO
 CHIUDI ZAINO
 Chiudi zaino.
@@ -55019,21 +55019,21 @@ Graphics/Pictures/TreasureHook/fondale
 Graphics/Pictures/TreasureHook/amo
 Graphics/Pictures/TreasureHook/amo
 La prova è conclusa!
-La prova è conclusa!
+You completed the trial
 Hai ottenuto {1}.
-Hai ottenuto {1}.
+You obtained {1}.
 Hai trovato {1}, ma non hai abbastanza spazio...
-Hai trovato {1}, ma non hai abbastanza spazio...
+You found {1}, but you have no room for it...
 Il gancio e' inutilizzabile
-Il gancio e' inutilizzabile
+The Rod is unusable...
 Recupero fallito
-Recupero fallito
+You failed!
 Un Pokémon ha abboccato!
-Un Pokémon ha abboccato!
+Oh! A bite!
 Honchen ha mangiato l'amo!
-Honchen ha mangiato l'amo!
+Honchen snatched the fishing line!
 Hai sbattuto contro qualcosa
-Hai sbattuto contro qualcosa
+You crashed into something.
 La squadra 1 ha più di {1} Pokémon.
 La squadra 1 ha più di {1} Pokémon.
 La squadra 2 ha più di {1} Pokémon.
@@ -55041,11 +55041,11 @@ La squadra 2 ha più di {1} Pokémon.
 Massimo due Pokémon selvatici nelle lotte in doppio
 Massimo due Pokémon selvatici nelle lotte in doppio
 È apparso {1} selvatico!
-È apparso {1} selvatico!
+Wild {1} appeared!
 Massimo un Pokémon selvatico nelle lotte in singolo
 Massimo un Pokémon selvatico nelle lotte in singolo
 Sono apparsi {1} e<<n>>{2} selvatici!
-Sono apparsi {1} e<<r>><<n>>{2} selvatici!
+Wild {1} and<<r>><<n>>{2} appeared!
 Massimo uno o due Pokémon selvatici
 Massimo uno o due Pokémon selvatici
 Avversari da zero o più di due persone non sono ammessi
@@ -55053,15 +55053,15 @@ Avversari da zero o più di due persone non sono ammessi
 Giocatori da zero o più di due persone non sono ammessi
 Giocatori da zero o più di due persone non sono ammessi
 {1} e {2} vogliono lottare!
-{1} e {2} vogliono lottare!
+{1} and {2} want to battle!
 L'avversario 1 non ha più Pokémon in grado di lottare
 L'avversario 1 non ha più Pokémon in grado di lottare
 L'avversario 2 non ha più Pokémon in grado di lottare
 L'avversario 2 non ha più Pokémon in grado di lottare
 {1} manda<<n>>in campo {2}! {3} manda<<n>>in campo {4}!
-{1} manda<<r>><<n>>in campo {2}! {3} manda<<r>><<n>>in campo {4}!
+{1} sent out<<n>>{2}! {3} sent out<<r>><<n>>{4}!
 {1}vuole lottare!
-<<r>><<n>>{1}vuole lottare!
+<<r>><<n>>{1} wants to battle!
 L'avversario non ha più Pokémon in grado di lottare
 L'avversario non ha più Pokémon in grado di lottare
 {1} manda<<n>>in campo {2} e {3}!
@@ -55073,35 +55073,35 @@ L'avversario deve essere un solo allenatore nelle lotte in singolo
 Il giocatore deve essere uno solo nelle lotte in singolo
 Il giocatore deve essere uno solo nelle lotte in singolo
 {1} manda<<n>>in campo {2}!
-{1} manda<<r>><<n>>in campo {2}!
+{1} sent out<<r>><<n>>{2}!
 Il giocatore 1 non ha più Pokémon in grado di lottare
 Il giocatore 1 non ha più Pokémon in grado di lottare
 Il giocatore 2 non ha più Pokémon in grado di lottare
 Il giocatore 2 non ha più Pokémon in grado di lottare
 {1} manda<<n>>in campo {2}! Vai! {3}!
-{1} manda<<r>><<n>>in campo {2}!  Vai! {3}!
+{1} sent out<<r>><<n>>{2}! Go! {3}!
 Il giocatore non ha più Pokémon in grado di lottare
 Il giocatore non ha più Pokémon in grado di lottare
 Forza! {1} e {2}!
-Forza! {1} e {2}!
+C'mon! {1} and {2}!
 La luce solare è accecante.
-La luce solare è accecante.
+The sunlight is strong.
 Piove a dirotto.
-Piove a dirotto.
+It is raining.
 Imperversa una tempesta di sabbia.
-Imperversa una tempesta di sabbia.
+A sandstorm is raging.
 Grandina.
-Grandina.
+Hail is falling.
 È scoppiato un acquazzone.
-È scoppiato un acquazzone.
+It started to rain!
 La luce solare è insostenibile.
-La luce solare è insostenibile.
+The sunlight turned harsh!
 Soffia un vento di bufera.
 Soffia un vento di bufera.
 {1} avversario
-{1} avversario
+the foe {1}
 {1} alleato
-{1} alleato
+the ally {1}
 M
 M
 F
@@ -55115,7 +55115,7 @@ Medicines
 Balls
 Balls
 Bt.Items
-Bt.Items
+Bt. Items
 USE
 USE
 DON'T USE
@@ -55147,7 +55147,7 @@ Can't use the PokeWES right now.
 Are you sure you wanna leave the Hero trial?
 Are you sure you wanna leave the Hero trial?
 New Achivement!
-New Achivement!
+New Achievement!
 Completed!
 Completed!
 ???
@@ -55159,13 +55159,13 @@ the boss {1}
 The boss {1}
 The boss {1}
 Prepare your anus! The Pokémon boss {1} wants to battle!
-Prepare your anus! The Pokémon boss {1} wants to battle!
+Bring it on! The Pokémon boss {1} wants to battle!
 {1} sent<<n>>out {2}! {3} sent<<n>>out {4}!
-{1} sent<<r>><<n>>out {2}! {3} sent<<r>><<n>>out {4}!
+{1} sent out<<r>><<n>>{2}! {3} sent out<<r>><<n>>{4}!
 {1}<<n>>vuole combattere!
-{1}<<r>><<n>>vuole combattere!
+{1}<<r>><<n>>wants to battle!
 Le statistiche del Pokémon nemico sono più elevate!
-Le statistiche del Pokémon nemico sono più elevate!
+The foe Pokémon's stats are higher!
 It is raining heavily.
 It is raining heavily.
 The sunlight is extremely harsh.
@@ -55173,45 +55173,45 @@ The sunlight is extremely harsh.
 The wind is strong.
 The wind is strong.
 PokeDex
-PokeDex
+Pokédex
 MN
-MN
+HM Service
 Achievements
 Achievements
 Non puoi usare volo in ambienti chiusi!
-Non puoi usare volo in ambienti chiusi!
+You cannot use the power of Ikarium H in closed areas!
 Questo albero sembra abbattibile.
-Questo albero sembra abbattibile.
+This tree looks like it can be cut down.
 Vuoi che Holo-Scyther tagli l'albero?
-Vuoi che Holo-Scyther tagli l'albero?
+Would you like to use the power of Kaiserium H?
 Holo-Scyther usa Taglio!
-Holo-Scyther usa Taglio!
+Holo-Scyther used Cut!
 Questo albero blocca la strada.
-Questo albero blocca la strada.
+This tree blocks the way. There must be a way to cut it down!
 L'acqua è di un blu intenso...<<n>>Vuoi chiamare Lapras per usare Surf?
-L'acqua è di un blu intenso...<<n>>Vuoi chiamare Lapras per usare Surf?
+The water is dyed a deep blue...<<n>>Would you like to use the power of Odysseum H?
 Lapras usa Surf!
-Lapras usa Surf!
+Lapras used Surf!
 Forza ha reso possibile lo spostamento dei massi.
-Forza ha reso possibile lo spostamento dei massi.
+Strength made it possible to move boulders around.
 E' un gran masso, ma un Pokémon dovrebbe poterlo spostare.
-E' un gran masso, ma un Pokémon dovrebbe poterlo spostare.
+It's a big boulder, but a Pokémon may be able to push it aside.
 Vuoi usare Forza?
-Vuoi usare Forza?
+Would you like to use the power of Herculeum H?
 Holo-Hercurcules usa Forza!<<1>>
-Holo-Hercurcules usa Forza!<<1>>
+Holo-Hercurcules used Strength!<<1>>
 Questa roccia si può rompere. Vuoi usare Spaccaroccia?
-Questa roccia si può rompere.  Vuoi usare Spaccaroccia?
+This rock appears to be breakable. Would you like to use the power of Perseum H?
 Holo-Trapinch usa Spaccaroccia!
-Holo-Trapinch usa Spaccaroccia!
+Holo-Trapinch used Rock Smash!
 E' una roccia crepata, un Pokémon dovrebbe essere in grado di romperla.[dispose]
-E' una roccia crepata, un Pokémon dovrebbe essere in grado di romperla.[dispose]
+It's a rugged rock, but a Pokémon may be able to smash it.[dispose]
 Hai ottenuto {1}!
-Hai ottenuto {1}!
+You obtained {1}!
 Ka-ching!
 Ka-ching!
 You successfully completed the Hero Trial! You may come back now!
-You successfully completed the Hero Trial! You may come back now!
+You successfully completed the trial of Heroes Path! You may come back now!
 It seems you failed the trial! Come back to the entrance.
 It seems you failed the trial! Come back to the entrance.
 Sono state applicate alcune modifiche al tuo salvataggio dalla patch 1.0.1, salva per applicare le modifiche.
@@ -55235,13 +55235,13 @@ Habitat
 {1} Pokémon
 {1} Pokémon
 ?????"
-?????"
+???"
 ????? lbs.
-????? lbs.
+??? lbs.
 ????? m
-????? m
+??? m
 ????? kg
-????? kg
+??? kg
 Sound
 Sound
 Fairy
@@ -55257,11 +55257,11 @@ Shape
 Reset
 Reset
 Pokédex di Eldiw
-Pokédex di Eldiw
+Eldiw Pokédex
 Pokédex dello Xenoverse
-Pokédex dello Xenoverse
+Xenoverse Pokédex
 Pokédex Vintage
-Pokédex Vintage
+Vintage Pokédex
 -
 -
 Choose the lower limit.
@@ -55319,31 +55319,31 @@ You need to choose at least one Pokémon to confirm.
 Thanks for playing!
 Thanks for playing!
 La modalità moderna permette di avere un’esperienza più leggera,<<n>>con un sistema di esperienza più simile alle ultime generazioni.
-La modalità moderna permette di avere un’esperienza più leggera,<<n>> con un sistema di esperienza più simile alle ultime generazioni.
+Modern Mode allows you to have a lighter gameplay experience. Exp. Points will be shared by the whole team like in new gen games.
 La modalità classica permette di avere un’esperienza simile ai giochi delle vecchie generazioni, senza esperienza a tutta la squadra.
-La modalità classica permette di avere un’esperienza simile ai giochi delle vecchie generazioni, senza esperienza a tutta la squadra.
+Classic Mode allows you a gameplay experience similar to old gen games' one. Exp. Points won't be shared by the whole team.
 Classic Mode
 Classic Mode
 Modern Mode
 Modern Mode
 {1} ti si para davanti!
-{1} ti si para davanti!
+{1} protected you!
 L'aria si fa pesante...
-L'aria si fa pesante...
+Air became thick...
 Dragalisk non ha scalfito Luxflon..!
-Dragalisk non ha scalfito Luxflon..!
+Dragalisk's attacks didn't affect Luxflon!
 Cosa?<<n>>{1} si sta evolvendo!
-Cosa?<<n>>{1} si sta evolvendo!
+What?<<n>>{1} is evolving!
 Cosa succede?
-Cosa succede?
+What's happening?
 Huh?<<n>>{1} hai fermato l'evoluzione!
-Huh?<<r>><<n>>{1} hai fermato l'evoluzione!
+Huh?<<r>><<n>>{1} stopped evolving!
 Congratulazioni!<<n>>Il tuo {1} si è evoluto in {2}!
-Congratulazioni!<<n>>Il tuo {1} si è evoluto in {2}!
+Congratulations!<<n>>Your {1} evolved into {2}!
 {1} ha cambiato aspetto!
-{1} ha cambiato aspetto!
+{1} changed form!
 Hai fermato l'evoluzione!
-Hai fermato l'evoluzione!
+You stopped the evolution!
 Asking for form {1}
 Asking for form {1}
 Mega Suicune
@@ -55791,9 +55791,9 @@ There are no animations to import. Put each animation in a folder within the Ani
 All animations were imported.
 All animations were imported.
 Number
-Number
+Dex N°
 Exp points.
-Exp points.
+Exp Points.
 Lv. +1
 Lv. +1
 Sp.Atk
@@ -55803,7 +55803,7 @@ Sp.Def
 <c3=ee5439>{1}
 <c3=ee5439>{1}<<n>>
 {1} nature
-{1} nature
+{1} Nature
 <c3=FFFFFF>{1} {2}, {3}
 <c3=FFFFFF>{1} {2}, {3}<<n>>
 {1} {2}, {3}
@@ -55823,23 +55823,23 @@ Egg hatched.
 A mysterious Pokémon Egg received in <c3=FF4A3D,00000000>{1}</c3>.
 A mysterious Pokémon Egg received in <c3=FF4A3D,00000000>{1}</c3>.<<n>>
 <c3=FF4A3D,00000000>"The Egg Watch"</c3>
-<c3=FF4A3D,00000000>"The Egg Watch"</c3><<n>>
+<c3=FF4A3D,00000000>The Egg Watch</c3><<n>>
 Category
 Category
 Power
 Power
 Enter text using the keyboard. Press ESC to cancel, or ENTER to confirm.
-Enter text using the keyboard. Press ESC to cancel, or ENTER to confirm.
+Enter text using the keyboard and press ENTER to confirm.
 Enter text using the keyboard. Press ENTER to confirm.
-Enter text using the keyboard. Press ENTER to confirm.
+Enter text using the keyboard and press ENTER to confirm.
 Exp points
-Exp points
+Exp. Points
 MEDICINES
 MEDICINES
 POKEBALL
-POKEBALL
+POKÉ BALLS
 BT ITEMS
-BT ITEMS
+BATTLE ITEMS
 BERRIES
 BERRIES
 ITEMS
@@ -55867,11 +55867,11 @@ Retrodex Completed.
 Defeated: {1}
 Defeated: {1}
 Press Z to open the Retrodex
-Press Z to open the Retrodex
+Press Z to open the Vintagedex
 Free
 Free
 Actions
-Actions
+Watch
 Leave
 Leave
 You can't leave your Pokémon here!
@@ -55907,7 +55907,7 @@ Hold to Run
 Registered Item
 Registered Item
 Open MN Function
-Open MN Function
+Open HM Service
 Open Achievement list
 Open Achievement list
 Open Pokédex
@@ -55933,15 +55933,15 @@ Money
 You're too attached to this Pokémon to free it.
 You're too attached to this Pokémon to free it.
 Atk
-Atk
+Atk.
 Def
-Def
+Def.
 Spd
-Spd
+Spd.
 SpAtk
-SpAtk
+Sp.Atk.
 SpDef
-SpDef
+Sp.Def.
 acc
 acc
 eva
@@ -56097,25 +56097,25 @@ There seem to be unsaved changes.
 {1} sent out {2}! {3} sent out {4}!
 {1} sent<<r>> out {2}! {3} sent<<r>> out {4}!
 \se<<[>>itemlevel<<]>> Trovata una \c<<[>>1<<]>>{1}\c<<[>>0<<]>>!<<n>>Che contiene \c<<[>>1<<]>>{2}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
-\se<<[>>itemlevel<<]>> Trovata una \c<<[>>1<<]>>{1}\c<<[>>0<<]>>!<<n>>Che contiene \c<<[>>1<<]>>{2}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
+\se<<[>>itemlevel<<]>>You found \c<<[>>1<<]>>{1}\c<<[>>0<<]>>!<<n>>It contains \c<<[>>1<<]>>{2}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
 {1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>nella tasca \c<<[>>1<<]>>{3}\c<<[>>0<<]>>
-{1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>nella tasca \c<<[>>1<<]>>{3}\c<<[>>0<<]>>
+{1} put \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>in the \c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
 {1} sistema \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<n>>nella tasca \c<<[>>1<<]>>{3}\c<<[>>0<<]>>
-{1} sistema \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<r>><<n>>nella tasca \c<<[>>1<<]>>{3}\c<<[>>0<<]>>
+{1} put \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<r>><<n>>in the \c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
 PokéWES
 PokéWES
 Comandi
-Comandi
+Controls
 {1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>>\<<n>>nella tasca \c<<[>>1<<]>>{3}\c<<[>>0<<]>>
-{1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>>\<<n>>nella tasca \c<<[>>1<<]>>{3}\c<<[>>0<<]>>
+{1} put \c<<[>>1<<]>>{2}\c<<[>>0<<]>>\<<n>>in the \c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
 {1} sistema \c[1]{2}\c[0] nella tasca \c[1]{3}\c[0]
-{1} sistema \c[1]{2}\c[0] nella tasca \c[1]{3}\c[0]
+{1} put \c[1]{2}\c[0] in the \c[1]{3}\c[0] Pocket.
 {1} sistema \c[1]{2}s\c[0] nella tasca \c[1]{3}\c[0]
-{1} sistema \c[1]{2}s\c[0] nella tasca \c[1]{3}\c[0]
+{1} put \c[1]{2}s\c[0] in the \c[1]{3}\c[0] Pocket.
 {1} survived the poisoning.<<n>>The poison faded away!
 {1} survived the poisoning.<<n>>The poison faded away!
 Non puoi usare volo qui.
-Non puoi usare volo qui.
+You cannot use Fly here.
 {1}'s
 {1}'s
 Un arbusto fastidioso ti blocca il cammino? Fallo a brandelli grazie al potere dell'Holo-Schyter contenuto in questa gemma!
@@ -56129,9 +56129,9 @@ La forza sovrumana di Holo-Hercurcules incanalata nell'Heraclium N, permette di 
 Un affamatissimo Holo-Trapinch farà piazza pulita di tutti i massi che gli capitano a tiro, sbloccando il passaggio a zone ancora inesplorate.
 Un affamatissimo Holo-Trapinch farà piazza pulita di tutti i massi che gli capitano a tiro, sbloccando il passaggio a zone ancora inesplorate.
 PokéWES - Funzione MN
-PokéWES - Funzione MN 
+PokéWES - HM Service
 Vuoi scegliere {1} come tuo compagno di avventura?
-Vuoi scegliere {1} come tuo compagno di avventura?
+Would you like to choose {1} as your partner?
 Un arbusto fastidioso ti blocca il cammino? Fallo a brandelli grazie al potere dell'Holo-Scyther contenuto in questa gemma!
 Un arbusto fastidioso ti blocca il cammino? Fallo a brandelli grazie al potere dell'Holo-Scyther contenuto in questa gemma!
 Il potente Scaleon di Oleandro, evocato dal PokéWES, ti porterà in volo nei cieli di Eldiw, permettendoti di ritornare in città già visitate precedentemente.
@@ -56139,18 +56139,18 @@ Il potente Scaleon di Oleandro, evocato dal PokéWES, ti porterà in volo nei ci
 Il potere dell’Odysseum N, amplificato dal PokéWES, richiama il Lapras soccorso sull’Isola Buconero. Col suo aiuto, potrai navigare anche nelle acque più profonde.
 Il potere dell’Odysseum N, amplificato dal PokéWES, richiama il Lapras soccorso sull’Isola Buconero. Col suo aiuto, potrai navigare anche nelle acque più profonde.
 You have no usable items in this pocket.
-You have no usable items in this pocket.
+You have no usable items in this Pocket.
 ULTIMO STRUMENTO USATO
-ULTIMO STRUMENTO USATO
+LAST USED ITEM
 E' un maschietto o una femminuccia?
-E' un maschietto o una femminuccia?
+It is a boy or a girl?
 È un maschietto o una femminuccia?
-È un maschietto o una femminuccia?
+It is a boy or a girl?
 You can't release this Pokémon.
 You can't release this Pokémon.
 {1}'s {2} let it move first!
 {1}'s {2} let it move first!
 Medals
-Medals
+Badges
 {1} consumed its {2} and resisted the damage!
 {1} consumed its {2} and resisted the damage!
