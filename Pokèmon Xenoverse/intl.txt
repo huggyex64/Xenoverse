@@ -32437,2134 +32437,2134 @@ Forma Quiete, Forma Tempesta
 [5]
 1
 Megacorno
-Megacorno
+Megahorn
 2
 Comandourto
-Comandourto
+Attack Order
 3
 Ronzio
-Ronzio
+Bug Buzz
 4
 Forbice X
-Forbice X
+X-Scissor
 5
 Segnoraggio
-Segnoraggio
+Signal Beam
 6
 Retromarcia
-Retromarcia
+U-Turn
 7
 Rulloduro
-Rulloduro
+Steamroller
 8
 Coleomorso
-Coleomorso
+Bug Bite
 9
 Ventargenteo
-Ventargenteo
+Silver Wind
 10
 Entomoblocco
-Entomoblocco
+Struggle Bug
 11
 Doppio Ago
-Doppio Ago
+Twineedle
 12
 Tagliofuria
-Tagliofuria
+Fury Cutter
 13
 Sanguisuga
-Sanguisuga
+Leech Life
 14
 Missilspillo
-Missilspillo
+Pin Missile
 15
 Comandoscudo
-Comandoscudo
+Defense Order
 16
 Comandocura
-Comandocura
+Heal Order
 17
 Eledanza
-Eledanza
+Quiver Dance
 18
 Polverabbia
-Polverabbia
+Rage Powder
 19
 Ragnatela
-Ragnatela
+Spider Web
 20
 Millebave
-Millebave
+String Shot
 21
 Codadiluce
-Codadiluce
+Tail Glow
 22
 Ripicca
-Ripicca
+Foul Play
 23
 Urtoscuro
-Urtoscuro
+Night Daze
 24
 Sgranocchio
-Sgranocchio
+Crunch
 25
 Neropulsar
-Neropulsar
+Dark Pulse
 26
 Sbigoattacco
-Sbigoattacco
+Sucker Punch
 27
 Nottesferza
-Nottesferza
+Night Slash
 28
 Morso
-Morso
+Bite
 29
 Finta
-Finta
+Feint Attack
 30
 Urlorabbia
-Urlorabbia
+Snarl
 31
 Garanzia
-Garanzia
+Assurance
 32
 Rivincita
-Rivincita
+Payback
 33
 Inseguimento
-Inseguimento
+Pursuit
 34
 Furto
-Furto
+Thief
 35
 Privazione
-Privazione
+Knock Off
 36
 Picchiaduro
-Picchiaduro
+Beat Up
 37
 Lancio
-Lancio
+Fling
 38
 Punizione
-Punizione
+Punishment
 39
 Vuototetro
-Vuototetro
+Dark Void
 40
 Divieto
-Divieto
+Embargo
 41
 Falselacrime
-Falselacrime
+Fake Tears
 42
 Adulazione
-Adulazione
+Flatter
 43
 Unghiaguzze
-Unghiaguzze
+Hone Claws
 44
 Memento
 Memento
 45
 Congiura
-Congiura
+Nasty Plot
 46
 Spintone
-Spintone
+Quash
 47
 Scippo
-Scippo
+Snatch
 48
 Rapidscambio
-Rapidscambio
+Switcheroo
 49
 Provocazione
-Provocazione
+Taunt
 50
 Attaccalite
-Attaccalite
+Torment
 51
 Fragortempo
-Fragortempo
+Roar of Time
 52
 Dragobolide
-Dragobolide
+Draco Meteor
 53
 Oltraggio
-Oltraggio
+Outrage
 54
 Dragofuria
-Dragofuria
+Dragon Rush
 55
 Fendispazio
-Fendispazio
+Spacial Rend
 56
 Dragopulsar
-Dragopulsar
+Dragon Pulse
 57
 Dragartigli
-Dragartigli
+Dragon Claw
 58
 Codadrago
-Codadrago
+Dragon Tail
 59
 Dragospiro
-Dragospiro
+Dragon Breath
 60
 Doppiocolpo
-Doppiocolpo
+Dual Chop
 61
 Tornado
-Tornado
+Twister
 62
 Ira di Drago
-Ira di Drago
+Dragon Rage
 63
 Dragodanza
-Dragodanza
+Dragon Dance
 64
 Lucesiluro
-Lucesiluro
+Bolt Strike
 65
 Tuono
-Tuono
+Thunder
 66
 Locomovolt
-Locomovolt
+Volt Tackle
 67
 Falcecannone
-Falcecannone
+Zap Cannon
 68
 Incrotuono
-Incrotuono
+Fusion Bolt
 69
 Fulmine
-Fulmine
+Thunderbolt
 70
 Sprizzalampo
-Sprizzalampo
+Wild Charge
 71
 Scarica
-Scarica
+Discharge
 72
 Tuonopugno
-Tuonopugno
+Thunder Punch
 73
 Invertivolt
-Invertivolt
+Volt Switch
 74
 Scintilla
-Scintilla
+Spark
 75
 Fulmindenti
-Fulmindenti
+Thunder Fang
 76
 Ondashock
-Ondashock
+Shock Wave
 77
 Elettrotela
-Elettrotela
+Electro Web
 78
 Raggioscossa
-Raggioscossa
+Charge Beam
 79
 Tuonoshock
-Tuonoshock
+Thundershock
 80
 Energisfera
-Energisfera
+Electro Ball
 81
 Sottocarica
-Sottocarica
+Charge
 82
 Magnetascesa
-Magnetascesa
+Magnet Rise
 83
 Tuononda
-Tuononda
+Thunder Wave
 84
 Centripugno
-Centripugno
+Focus Punch
 85
 Calcinvolo
-Calcinvolo
+Hi Jump Kick
 86
 Zuffa
-Zuffa
+Close Combat
 87
 Focalcolpo
-Focalcolpo
+Focus Blast
 88
 Troppoforte
-Troppoforte
+Superpower
 89
 Incrocolpo
-Incrocolpo
+Cross Chop
 90
 Dinamipugno
-Dinamipugno
+Dynamic Punch
 91
 Martelpugno
-Martelpugno
+Hammer Arm
 92
 Calciosalto
-Calciosalto
+Jump Kick
 93
 Forzasfera
-Forzasfera
+Aura Sphere
 94
 Spadasolenne
-Spadasolenne
+Sacred Sword
 95
 Spadamistica
-Spadamistica
+Secret Sword
 96
 Stramontante
-Stramontante
+Sky Uppercut
 97
 Sottomissione
-Sottomissione
+Submission
 98
 Breccia
-Breccia
+Brick Break
 99
 Assorbipugno
-Assorbipugno
+Drain Punch
 100
 Vitaltiro
-Vitaltiro
+Vital Throw
 101
 Ribaltiro
-Ribaltiro
+Circle Throw
 102
 Palmoforza
-Palmoforza
+Force Palm
 103
 Calciobasso
-Calciobasso
+Low Sweep
 104
 Vendetta
-Vendetta
+Revenge
 105
 Calciorullo
-Calciorullo
+Rolling Kick
 106
 Svegliopacca
-Svegliopacca
+Wake-Up Slap
 107
 Colpokarate
-Colpokarate
+Karate Chop
 108
 Pugnorapido
-Pugnorapido
+Mach Punch
 109
 Spaccaroccia
-Spaccaroccia
+Rock Smash
 110
 Tempestretta
-Tempestretta
+Storm Throw
 111
 Vuotonda
-Vuotonda
+Vacuum Wave
 112
 Doppiocalcio
-Doppiocalcio
+Double Kick
 113
 Sberletese
-Sberletese
+Arm Trust
 114
 Triplocalcio
-Triplocalcio
+Triple Kick
 115
 Contrattacco
-Contrattacco
+Counter
 116
 Azzardo
-Azzardo
+Final Gambit
 117
 Colpo Basso
-Colpo Basso
+Low Kick
 118
 Contropiede
-Contropiede
+Reversal
 119
 Movimento Sismico
-Movimento Sismico
+Seismic Toss
 120
 Granfisico
-Granfisico
+Bulk Up
 121
 Individua
-Individua
+Detect
 122
 Anticipo
-Anticipo
+Quick Guard
 123
 Generatore V
-Generatore V
+V-Create
 124
 Incendio
-Incendio
+Blast Burn
 125
 Eruzione
-Eruzione
+Eruption
 126
 Vampata
-Vampata
+Overheat
 127
 Fuocoblu
-Fuocoblu
+Blue Flare
 128
 Fuocobomba
-Fuocobomba
+Fire Blast
 129
 Fuococarica
-Fuococarica
+Flare Blitz
 130
 Magmaclisma
-Magmaclisma
+Magma Storm
 131
 Incrofiamma
-Incrofiamma
+Fusion Flare
 132
 Ondacalda
-Ondacalda
+Heat Wave
 133
 Marchiatura
-Marchiatura
+Inferno
 134
 Magifuoco
-Magifuoco
+Mystical Fire
 135
 Sparafuoco
-Sparafuoco
+Searing Shot
 136
 Lanciafiamme
-Lanciafiamme
+Flamethrower
 137
 Calciardente
-Calciardente
+Blaze Kick
 138
 Voldifuoco
-Voldifuoco
+Fiery Dance
 139
 Lavasbuffo
-Lavasbuffo
+Lava Plume
 140
 Fuocopugno
-Fuocopugno
+Fire Punch
 141
 Pirolancio
-Pirolancio
+Flame Burst
 142
 Rogodenti
-Rogodenti
+Fire Fang
 143
 Ruotafuoco
-Ruotafuoco
+Flame Wheel
 144
 Fiammapatto
-Fiammapatto
+Fire Pledge
 145
 Nitrocarica
-Nitrocarica
+Flame Charge
 146
 Braciere
-Braciere
+Ember
 147
 Turbofuoco
-Turbofuoco
+Fire Spin
 148
 Bruciatutto
-Bruciatutto
+Incinerate
 149
 Marchiafuoco
-Marchiafuoco
+Heat Crash
 150
 Giornodisole
-Giornodisole
+Sunny Day
 151
 Fuocofatuo
-Fuocofatuo
+Will-O-Wisp
 152
 Aeroattacco
-Aeroattacco
+Sky Attack
 153
 Baldeali
-Baldeali
+Brave Bird
 154
 Tifone
-Tifone
+Hurricane
 155
 Aerocolpo
-Aerocolpo
+Aeroblast
 156
 Volo
-Volo
+Fly
 157
 Rimbalzo
-Rimbalzo
+Bounce
 158
 Perforbecco
-Perforbecco
+Drill Peck
 159
 Eterelama
-Eterelama
+Air Slash
 160
 Aeroassalto
-Aeroassalto
+Aerial Ace
 161
 Schiamazzo
-Schiamazzo
+Chatter
 162
 Spennata
-Spennata
+Pluck
 163
 Cadutalibera
-Cadutalibera
+Sky Drop
 164
 Attacco d'Ala
-Attacco d'Ala
+Wing Attack
 165
 Acrobazia
-Acrobazia
+Acrobatics
 166
 Aerasoio
-Aerasoio
+Air Cutter
 167
 Raffica
-Raffica
+Gust
 168
 Beccata
-Beccata
+Peck
 169
 Scacciabruma
-Scacciabruma
+Defog
 170
 Danzadipiume
-Danzadipiume
+Feather Dance
 171
 Speculmossa
-Speculmossa
+Mirror Move
 172
 Trespolo
-Trespolo
+Roost
 173
 Ventoincoda
-Ventoincoda
+Tailwind
 174
 Oscurotuffo
-Oscurotuffo
+Shadow Force
 175
 Palla Ombra
-Palla Ombra
+Shadow Ball
 176
 Ombrartigli
-Ombrartigli
+Shadow Claw
 177
 Funestovento
-Funestovento
+Ominous Wind
 178
 Pugnodombra
-Pugnodombra
+Shadow Punch
 179
 Sciagura
-Sciagura
+Hex
 180
 Furtivombra
-Furtivombra
+Shadow Sneak
 181
 Sgomento
-Sgomento
+Astonish
 182
 Leccata
-Leccata
+Lick
 183
 Ombra Notturna
-Ombra Notturna
+Night Shade
 184
 Stordiraggio
-Stordiraggio
+Confuse Ray
 185
 Maledizione
-Maledizione
+Curse
 186
 Destinobbligato
-Destinobbligato
+Destiny Bond
 187
 Rancore
-Rancore
+Grudge
 188
 Incubo
-Incubo
+Nightmare
 189
 Dispetto
-Dispetto
+Spite
 190
 Radicalbero
-Radicalbero
+Frenzy Plant
 191
 Verdebufera
-Verdebufera
+Leaf Storm
 192
 Petalodanza
-Petalodanza
+Petal Dance
 193
 Vigorcolpo
-Vigorcolpo
+Power Whip
 194
 Infuriaseme
-Infuriaseme
+Seed Flare
 195
 Solarraggio
-Solarraggio
+Solar Beam
 196
 Mazzuolegno
-Mazzuolegno
+Wood Hammer
 197
 Fendifoglia
-Fendifoglia
+Leaf Blade
 198
 Energipalla
-Energipalla
+Energy Ball
 199
 Semebomba
-Semebomba
+Seed Bomb
 200
 Gigassorbimento
-Gigassorbimento
+Giga Drain
 201
 Legnicorno
-Legnicorno
+Horn Leech
 202
 Vorticerba
-Vorticerba
+Leaf Tornado
 203
 Fogliamagica
-Fogliamagica
+Magical Leaf
 204
 Pugnospine
-Pugnospine
+Needle Arm
 205
 Foglielama
-Foglielama
+Razor Leaf
 206
 Erbapatto
-Erbapatto
+Grass Pledge
 207
 Megassorbimento
-Megassorbimento
+Mega Drain
 208
 Frustata
-Frustata
+Vine Whip
 209
 Semitraglia
-Semitraglia
+Bullet Seed 
 210
 Assorbimento
-Assorbimento
+Assorb
 211
 Laccioerboso
-Laccioerboso
+Grass Knot
 212
 Aromaterapia
-Aromaterapia
+Aroma Therapy
 213
 Cotonscudo
-Cotonscudo
+Cotton Guard
 214
 Cottonspora
-Cottonspora
+Cotton Spore
 215
 Meloderba
-Meloderba
+Grass Whistle
 216
 Radicamento
-Radicamento
+Ingrain
 217
 Parassiseme
-Parassiseme
+Leech Seed
 218
 Sonnifero
-Sonnifero
+Sleep Powder
 219
 Spora
-Spora
+Spore
 220
 Paralizzante
-Paralizzante
+Stun Spore
 221
 Sintesi
-Sintesi
+Synthesis
 222
 Affannoseme
-Affannoseme
+Worry Seed
 223
 Terremoto
-Terremoto
+Earthquake
 224
 Geoforza
-Geoforza
+Earth Power
 225
 Fossa
-Fossa
+Dig
 226
 Giravvita
-Giravvita
+Drill Run
 227
 Ossoclava
-Ossoclava
+Bone Club
 228
 Pantanobomba
-Pantanobomba
+Mud Bomb
 229
 Battiterra
-Battiterra
+Bulldoze
 230
 Colpodifango
-Colpodifango
+Mud Shot
 231
 Ossomerang
-Ossomerang
+Bonemerang
 232
 Sabbiotomba
-Sabbiotomba
+Sand Tomb
 233
 Ossoraffica
-Ossoraffica
+Bone Rush
 234
 Fangosberla
-Fangosberla
+Mud Slap
 235
 Abisso
-Abisso
+Fissure
 236
 Magnitudo
-Magnitudo
+Magnitude
 237
 Fangata
-Fangata
+Mud Sport
 238
 Turbosabbia
-Turbosabbia
+Sand Attack
 239
 Punte
-Punte
+Spikes
 240
 Elettrogelo
-Elettrogelo
+Freeze Shock
 241
 Vampagelida
-Vampagelida
+Ice Burn
 242
 Bora
-Bora
+Blizzard
 243
 Geloraggio
-Geloraggio
+Ice Beam
 244
 Scagliagelo
-Scagliagelo
+Icicle Crash
 245
 Gelopugno
-Gelopugno
+Ice Punch
 246
 Raggiaurora
-Raggiaurora
+Aurora Beam
 247
 Gelamondo
-Gelamondo
+Glaciate
 248
 Gelodenti
-Gelodenti
+Ice Fang
 249
 Slavina
-Slavina
+Avalanche
 250
 Ventogelato
-Ventogelato
+Icy Wind
 251
 Alitogelido
-Alitogelido
+Frost Breath
 252
 Geloscheggia
-Geloscheggia
+Ice Shard
 253
 Polneve
-Polneve
+Powder Snow
 254
 Palla Gelo
-Palla Gelo
+Ice Ball
 255
 Gelolancia
-Gelolancia
+Icicle Spear
 256
 Purogelo
-Purogelo
+Sheer Cold
 257
 Grandine
-Grandine
+Hail
 258
 Nube
-Nube
+Haze
 259
 Nebbia
-Nebbia
+Mist
 260
 Esplosione
-Esplosione
+Explosion
 261
 Autodistruzione
-Autodistruzione
+Self-Destruct
 262
 Gigaimpatto
-Gigaimpatto
+Giga Impact
 263
 Iper Raggio
-Iper Raggio
+Hyper Beam
 264
 Ultimascelta
-Ultimascelta
+Last Resort
 265
 Sdoppiatore
-Sdoppiatore
+Double-Edge
 266
 Ricciolata
-Ricciolata
+Head Charge
 267
 Megacalcio
-Megacalcio
+Mega Kick
 268
 Colpo
-Colpo
+Thrash
 269
 Uovobomba
-Uovobomba
+Egg Bomb
 270
 Giudizio
-Giudizio
+Judgement
 271
 Capocciata
-Capocciata
+Skull Bash
 272
 Granvoce
-Granvoce
+Hyper Voice
 273
 Scalaroccia
-Scalaroccia
+Rock Climb
 274
 Riduttore
-Riduttore
+Take Down
 275
 Baraonda
-Baraonda
+Uproar
 276
 Corposcontro
-Corposcontro
+Body Slam
 277
 Tecnobotto
-Tecnobotto
+Techno Blast
 278
 Extrarapido
-Extrarapido
+Extreme Speed
 279
 Iperzanna
-Iperzanna
+Hyper Fang
 280
 Megapugno
-Megapugno
+Mega Punch
 281
 Ventagliente
-Ventagliente
+Razor Wind
 282
 Schianto
-Schianto
+Slam
 283
 Forza
-Forza
+Strength
 284
 Tripletta
-Tripletta
+Tri Attack
 285
 Tritartigli
-Tritartigli
+Crush Claw
 286
 Cantoantico
-Cantoantico
+Relic Song
 287
 Insidia
-Insidia
+Chip Away
 288
 Stordipugno
-Stordipugno
+Dizzy Punch
 289
 Facciata
-Facciata
+Facade
 290
 Bottintesta
-Bottintesta
+Headbutt
 291
 Nemesi
-Nemesi
+Retaliate
 292
 Forzasegreta
-Forzasegreta
+Secret Power
 293
 Lacerazione
-Lacerazione
+Slash
 294
 Incornata
-Incornata
+Horn Attack
 295
 Pestone
-Pestone
+Stomp
 296
 Supplica
-Supplica
+Covet
 297
 Coro
-Coro
+Round
 298
 Maniereforti
-Maniereforti
+Smelling Salts
 299
 Comete
-Comete
+Swift
 300
 Presa
-Presa
+Vice Grip
 301
 Taglio
-Taglio
+Cut
 302
 Scontro
-Scontro
+Struggle
 303
 Azione
-Azione
+Tackle
 304
 Pallaclima
-Pallaclima
+Weather Ball
 305
 Echeggiavoce
-Echeggiavoce
+Echoed Voice
 306
 Bruciapelo
-Bruciapelo
+Fake Out
 307
 Falsofinale
-Falsofinale
+False Swipe
 308
 Giornopaga
-Giornopaga
+Pay Day
 309
 Botta
-Botta
+Pound
 310
 Attacco Rapido
-Attacco Rapido
+Quick Attack
 311
 Graffio
-Graffio
+Scratch
 312
 Russare
-Russare
+Snore
 313
 Doppiosmash
-Doppiosmash
+Double Hit
 314
 Fintoattacco
-Fintoattacco
+Feint
 315
 Spazzasberla
-Spazzasberla
+Tail Slap
 316
 Ira
-Ira
+Rage
 317
 Rapigiro
-Rapigiro
+Rapid Spin
 318
 Sparalance
-Sparalance
+Spike Cannon
 319
 Cometapugno
-Cometapugno
+Comet Punch
 320
 Sfuriate
-Sfuriate
+Fury Swipes
 321
 Attacco Pioggia
-Attacco Pioggia
+Barrage
 322
 Legatutto
-Legatutto
+Bind
 323
 Doppiasberla
-Doppiasberla
+Double Slap
 324
 Furia
-Furia
+Fury Attack
 325
 Avvolgibotta
-Avvolgibotta
+Wrap
 326
 Limitazione
-Limitazione
+Constrict
 327
 Pazienza
-Pazienza
+Bide
 328
 Sbriciolmano
-Sbriciolmano
+Crush Grip
 329
 Rimonta
-Rimonta
+Endeavor
 330
 Flagello
-Flagello
+Flail
 331
 Frustrazione
-Frustrazione
+Frustration
 332
 Ghigliottina
-Ghigliottina
+Guillotine
 333
 Introforza
-Introforza
+Hidden Power
 334
 Perforcorno
-Perforcorno
+Horn Drill
 335
 Dononaturale
-Dononaturale
+Natural Gift
 336
 Regalino
-Regalino
+Present
 337
 Ritorno
-Ritorno
+Return
 338
 Sonicboom
-Sonicboom
+Sonic Boom
 339
 Sfoghenergia
-Sfoghenergia
+Spit Up
 340
 Superzanna
-Superzanna
+Super Fang
 341
 Asso
-Asso
+Trump Card
 342
 Strizzata
-Strizzata
+Wring Out
 343
 Acupressione
-Acupressione
+Acupressure
 344
 Cortesia
-Cortesia
+After You
 345
 Assistente
-Assistente
+Assist
 346
 Attrazione
-Attrazione
+Attraction
 347
 Staffetta
-Staffetta
+Baton Pass
 348
 Panciamburo
-Panciamburo
+Belly Drum
 349
 Cediregalo
-Cediregalo
+Bestow
 350
 Blocco
-Blocco
+Block
 351
 Camuffamento
-Camuffamento
+Camouflage
 352
 Incanto
-Incanto
+Captivate
 353
 Fascino
-Fascino
+Charm
 354
 Conversione
-Conversione
+Conversion
 355
 Conversione2
-Conversione2
+Conversion2
 356
 Copione
-Copione
+Copycat
 357
 Ricciolscudo
-Ricciolscudo
+Defense Curl
 358
 Inibitore
-Inibitore
+Disable
 359
 Doppioteam
-Doppioteam
+Double Team
 360
 Ripeti
-Ripeti
+Encore
 361
 Resistenza
-Resistenza
+Endure
 362
 Saltamicizia
-Saltamicizia
+Entrainment
 363
 Flash
 Flash
 364
 Focalenergia
-Focalenergia
+Focus Energy
 365
 Sonoqui
-Sonoqui
+Follow Me
 366
 Preveggenza
-Preveggenza
+Foresight
 367
 Sguardo Feroce
-Sguardo Feroce
+Glare
 368
 Ruggito
-Ruggito
+Growl
 369
 Crescita
-Crescita
+Growth
 370
 Rafforzatore
-Rafforzatore
+Harden
 371
 Rintoccasana
-Rintoccasana
+Heal Bell
 372
 Altruismo
-Altruismo
+Helping Hand
 373
 Gridodilotta
-Gridodilotta
+Howl
 374
 Fulmisguardo
-Fulmisguardo
+Leer
 375
 Localizza
-Localizza
+Lock-On
 376
 Demonbacio
-Demonbacio
+Lovely Kiss
 377
 Fortuncanto
-Fortuncanto
+Lucky Chant
 378
 Precedenza
-Precedenza
+Me First
 379
 Malosguardo
-Malosguardo
+Mean Look
 380
 Metronomo
-Metronomo
+Metronome
 381
 Buonlatte
-Buonlatte
+Milk Drink
 382
 Mimica
-Mimica
+Mimic
 383
 Leggimente
-Leggimente
+Mind Reader
 384
 Minimizzato
-Minimizzato
+Minimize
 385
 Lucelunare
-Lucelunare
+Moonlight
 386
 Mattindoro
-Mattindoro
+Morning Sun
 387
 Naturforza
-Naturforza
+Nature Power
 388
 Segugio
-Segugio
+Odor Sleuth
 389
 Malcomune
-Malcomune
+Pain Split
 390
 Ultimocanto
-Ultimocanto
+Perish Song
 391
 Protezione
-Protezione
+Protect
 392
 Psicamisù
-Psicamisù
+Psych Up
 393
 Ripresa
-Ripresa
+Recover
 394
 Riciclo
-Riciclo
+Recycle
 395
 Riflettipo
-Riflettipo
+Reflect Type
 396
 Rinfrescata
-Rinfrescata
+Refresh
 397
 Boato
-Boato
+Roar
 398
 Salvaguardia
-Salvaguardia
+Safeguard
 399
 Visotruce
-Visotruce
+Scary Face
 400
 Stridio
-Stridio
+Screech
 401
 Affilatore
-Affilatore
+Sharpen
 402
 Gettaguscio
-Gettaguscio
+Shell Smash
 403
 Ondisinvolta
-Ondisinvolta
+Simple Beam
 404
 Canto
-Canto
+Sing
 405
 Schizzo
-Schizzo
+Sketch
 406
 Pigro
-Pigro
+Slack Off
 407
 Sonnolalia
-Sonnolalia
+Sleep Talk
 408
 Muro di Fumo
-Muro di Fumo
+Smoke Screen
 409
 Covauova
-Covauova
+Soft-Boiled
 410
 Splash
 Splash
 411
 Accumulo
-Accumulo
+Stockpile
 412
 Sostituto
-Sostituto
+Substitute
 413
 Supersuono
-Supersuono
+Supersonic
 414
 Bullo
-Bullo
+Swagger
 415
 Introenergia
-Introenergia
+Swallow
 416
 Dolcebacio
-Dolcebacio
+Sweet Kiss
 417
 Profumino
-Profumino
+Sweet Scent
 418
 Danzaspada
-Danzaspada
+Swords Dance
 419
 Colpocoda
-Colpocoda
+Tail Whip
 420
 Strampadanza
-Strampadanza
+Teeter Dance
 421
 Solletico
-Solletico
+Tickle
 422
 Trasformazione
-Trasformazione
+Transform
 423
 Turbine
-Turbine
+Whirlwind
 424
 Desiderio
-Desiderio
+Wish
 425
 Cuordileone
-Cuordileone
+Work Up
 426
 Sbadiglio
-Sbadiglio
+Yawn
 427
 Sporcolancio
-Sporcolancio
+Gunk Shot
 428
 Fangonda
-Fangonda
+Sludge Wave
 429
 Fangobomba
-Fangobomba
+Sludge Bomb
 430
 Velenpuntura
-Velenpuntura
+Poison Jab
 431
 Velenocroce
-Velenocroce
+Cross Poison
 432
 Fango
-Fango
+Sludge
 433
 Velenoshock
-Velenoshock
+Venoshock
 434
 Pulifumo
-Pulifumo
+Clear Smog
 435
 Velenodenti
-Velenodenti
+Poison Fang
 436
 Velenocoda
-Velenocoda
+Poison Tail
 437
 Acido
-Acido
+Acid
 438
 Acidobomba
-Acidobomba
+Acid Bomb
 439
 Smog
 Smog
 440
 Velenospina
-Velenospina
+Poison Sting
 441
 Scudo Acido
-Scudo Acido
+Acid Armor
 442
 Arrotola
-Arrotola
+Coil
 443
 Gastroacido
-Gastroacido
+Gastro Acid
 444
 Velenogas
-Velenogas
+Poison Gas
 445
 Velenpolvere
-Velenpolvere
+Poison Powder
 446
 Tossina
-Tossina
+Toxic
 447
 Fielepunte
-Fielepunte
+Toxic Spikes
 448
 Psicoslancio
-Psicoslancio
+Psycho Boost
 449
 Mangiasogni
-Mangiasogni
+Dream Eater
 450
 Divinazione
-Divinazione
+Future Sight
 451
 Psicobotta
-Psicobotta
+Psystrike
 452
 Psichico
-Psichico
+Psychic
 453
 Extrasenso
-Extrasenso
+Extrasensory
 454
 Psicoshock
-Psicoshock
+Psyshock
 455
 Cozzata Zen
-Cozzata Zen
+Zen Headbutt
 456
 Abbagliante
-Abbagliante
+Luster Purge
 457
 Foschisfera
-Foschisfera
+Mist Ball
 458
 Psicotaglio
-Psicotaglio
+Psycho Cut
 459
 Sincrumore
-Sincrumore
+Synchonoise
 460
 Psicoraggio
-Psicoraggio
+Psy Beam
 461
 Cuorestampo
-Cuorestampo
+Heart Stamp
 462
 Confusione
-Confusione
+Confusion
 463
 Specchiovelo
-Specchiovelo
+Mirror Coat
 464
 Psiconda
-Psiconda
+Psy Wave
 465
 Veicolaforza
-Veicolaforza
+Stored Power
 466
 Agilità
-Agilità
+Agility
 467
 Cambiaposto
-Cambiaposto
+Ally Switch
 468
 Amnesia
 Amnesia
 469
 Barriera
-Barriera
+Barrier
 470
 Calmamente
-Calmamente
+Calm Mind
 471
 Cosmoforza
-Cosmoforza
+Cosmic Power
 472
 Gravità
-Gravità
+Gravity
 473
 Paridifesa
-Paridifesa
+Guard Split
 474
 Barattoscudo
-Barattoscudo
+Guard Swap
 475
 Anticura
-Anticura
+Heal Block
 476
 Ondasana
-Ondasana
+Heal Pulse
 477
 Curardore
-Curardore
+Healing Wish
 478
 Cuorbaratto
-Cuorbaratto
+Heart Swap
 479
 Ipnosi
-Ipnosi
+Hypnosis
 480
 Esclusiva
-Esclusiva
+Imprison
 481
 Cinèsi
-Cinèsi
+Kinesis
 482
 Schermoluce
-Schermoluce
+Light Screen
 483
 Lunardanza
-Lunardanza
+Lunar Dance
 484
 Magivelo
-Magivelo
+Magic Coat
 485
 Magicozona
-Magicozona
+Magic Room
 486
 Meditazione
-Meditazione
+Meditate
 487
 Miracolvista
-Miracolvista
+Miracle Eye
 488
 Pariattacco
-Pariattacco
+Power Split
 489
 Barattoforza
-Barattoforza
+Power Swap
 490
 Ingannoforza
-Ingannoforza
+Power Trick
 491
 Psicotrasfer
-Psicotrasfer
+Psycho Shift
 492
 Riflesso
-Riflesso
+Reflect
 493
 Riposo
-Riposo
+Rest
 494
 Giocodiruolo
-Giocodiruolo
+Role Play
 495
 Baratto
-Baratto
+Skill Swap
 496
 Telecinesi
-Telecinesi
+Telekinesis
 497
 Teletrasporto
-Teletrasporto
+Teleport
 498
 Raggiro
-Raggiro
+Trick
 499
 Distortozona
-Distortozona
+Trick Room
 500
 Mirabilzona
-Mirabilzona
+Wonder Room
 501
 Zuccata
-Zuccata
+Head Smash
 502
 Devastomasso
-Devastomasso
+Rock Wrecker
 503
 Pietrataglio
-Pietrataglio
+Stone Edge
 504
 Frana
-Frana
+Rock Slide
 505
 Gemmoforza
-Gemmoforza
+Power Gem
 506
 Forzantica
-Forzantica
+Ancient Power
 507
 Sassata
-Sassata
+Rock Throw
 508
 Rocciotomba
-Rocciotomba
+Rock Tomb
 509
 Abbattimento
-Abbattimento
+Smack Down
 510
 Rotolamento
-Rotolamento
+Rollout
 511
 Cadutamassi
-Cadutamassi
+Rock Blast
 512
 Lucidatura
-Lucidatura
+Rock Polish
 513
 Terrempesta
-Terrempesta
+Sandstorm
 514
 Levitoroccia
-Levitoroccia
+Stealth Rock
 515
 Bodyguard
-Bodyguard
+Wide Guard
 516
 Obbliderio
-Obbliderio
+Doom Desire
 517
 Codacciaio
-Codacciaio
+Iron Tail
 518
 Meteorpugno
-Meteorpugno
+Meteor Punch
 519
 Cannonflash
-Cannonflash
+Flash Cannon
 520
 Metaltestata
-Metaltestata
+Iron Head
 521
 Alacciaio
-Alacciaio
+Steel Wing
 522
 Cristalcolpo
-Cristalcolpo
+Mirror Shot
 523
 Bombagnete
-Bombagnete
+Magnet Bomb
 524
 Ingracolpo
-Ingracolpo
+Gear Grind
 525
 Ferrartigli
-Ferrartigli
+Metal Claw
 526
 Pugnoscarica
-Pugnoscarica
+Bullet Punch
 527
 Vortexpalla
-Vortexpalla
+Gyro Ball
 528
 Pesobomba
-Pesobomba
+Heavy Slam
 529
 Metalscoppio
-Metalscoppio
+Metal Burst
 530
 Sganciapesi
-Sganciapesi
+Autotomize
 531
 Ferroscudo
-Ferroscudo
+Iron Defense
 532
 Ferrostrido
-Ferrostrido
+Metal Sound
 533
 Cambiomarcia
-Cambiomarcia
+Shift Gear
 534
 Idrocannone
-Idrocannone
+Hydro Cannon
 535
 Zampillo
-Zampillo
+Water Spout
 536
 Idropompa
-Idropompa
+Hydro Pump
 537
 Fanghiglia
-Fanghiglia
+Muddy Water
 538
 Surf
 Surf
 539
 Idrondata
-Idrondata
+Aqua Tail
 540
 Martellata
-Martellata
+Crab Hammer
 541
 Sub
-Sub
+Dive
 542
 Idrovampata
-Idrovampata
+Scald
 543
 Cascata
-Cascata
+Waterfall
 544
 Conchilama
-Conchilama
+Razor Shell 
 545
 Acquadisale
-Acquadisale
+Brine
 546
 Bollaraggio
-Bollaraggio
+Bubble Beam
 547
 Octazooka
 Octazooka
 548
 Idropulsar
-Idropulsar
+Water Pulse
 549
 Acquapatto
-Acquapatto
+Water Pledge
 550
 Acquagetto
-Acquagetto
+Aqua Jet
 551
 Pistolacqua
-Pistolacqua
+Water Gun
 552
 Tenaglia
-Tenaglia
+Clamp
 553
 Mulinello
-Mulinello
+Whirlpool
 554
 Bolla
-Bolla
+Bubble
 555
 Acquanello
-Acquanello
+Aqua Ring
 556
 Pioggiadanza
-Pioggiadanza
+Rain Dance
 557
 Inondazione
-Inondazione
+Soak
 558
 Docciascudo
-Docciascudo
+Water Sport
 559
 Ritirata
-Ritirata
+Withdraw
 560
 Vocalizzo
-Vocalizzo
+Babble
 561
 Occhioni Teneri
-Occhioni Teneri
+Baby-Doll Eyes
 562
 Magibrillio
-Magibrillio
+Dazzling Gleam
 563
 Incantavoce
-Incantavoce
+Disarming Voice
 564
 Ventodifata
-Ventodifata
+Fairy Wind
 565
 Forza Lunare
-Forza Lunare
+Moonblast
 566
 Carineria
-Carineria
+Play Rough
 589
 Auguri
-Auguri
+Celebrate
 590
 Nebularoma
-Nebularoma
+Aromatic Mist
 591
 Urlo
-Urlo
+Noble Roar
 592
 Riguardo
-Riguardo
+Hold Back
 593
 Forza Tellurica
-Forza Tellurica
+Land's Wrath
 594
 Ali del Fato
-Ali del Fato
+Oblivion Wing
 595
 Elettrococcola
-Elettrococcola
+Nuzzle
 596
 Acqualame
-Acqualame
+Water Shuriken
 597
 Ondaboato
-Ondaboato
+Boomburst
 598
 Spettrotuffo
-Spettrotuffo
+Phantom Force
 599
 Simpatia
-Simpatia
+Play Nice
 600
 Carineria
-Carineria
+Play Rough
 601
 Pulviscoppio
-Pulviscoppio
+Powder
 602
 Crescipugno
-Crescipugno
+Power-Up Punch
 603
 Aracampo
-Aracampo
+Rototiller
 604
 Agodifesa
-Agodifesa
+Spiky Shield
 605
 Rete Vischiosa
-Rete Vischiosa
+Sticky Web
 606
 Sottosopra
-Sottosopra
+Topsy-Turvy
 607
 Halloween
-Halloween
+Trick-or-Treat
 608
 Velenotrappola
-Velenotrappola
+Venom Drench
 609
 Acqualame
-Acqualame
+Water Shuriken
 610
 Diamantempesta
-Diamantempesta
+Diamond Storm
 611
 Forodimensionale
-Forodimensionale
+Hyperspace Hole
 612
 Vaporscoppio
 Vaporscoppio
 613
 Mille Frecce
-Mille Frecce
+Thousand Arrows
 614
 Mille Onde
-Mille Onde
+Thousand Waves
 615
 Luce Nefasta
-Luce Nefasta
+Light of Ruin
 616
 Ascesa del Drago
-Ascesa del Drago
+Dragon Ascent
 617
 Primopulsar
-Primopulsar
+Origin Pulse
 618
 Spade Telluriche
-Spade Telluriche
+Precipice Blades
 619
 Urtodimensionale
-Urtodimensionale
+Hyperspace Fury
 620
 Riguardo
-Riguardo
+Hold Back
 621
 Lacerazione Digitale
-Lacerazione Digitale
+Final Slash
 622
 Magifiamma
-Magifiamma
+Mystical Fire
 623
 Ribaltappeto
-Ribaltappeto
+Mat Block
 624
 Finta
-Finta
+Feint Attack
 625
 Assorbibacio
-Assorbibacio
+Draining Kiss
 626
 Campo Erboso
-Campo Erboso
+Grassy Terrain
 627
 Fiortempesta
-Fiortempesta
+Petal Blizzard
 628
 Campo Nebbioso
-Campo Nebbioso
+Misty Terrain
 629
 Fiordifesa
-Fiordifesa
+Flower Shield
 630
 Monito
-Monito
+Parting Shot
 631
 Scudo Reale
-Scudo Reale
+King's Shield
 632
 Caricaparabola
-Caricaparabola
+Parabolic Charge
 633
 Elettrocontagio
-Elettrocontagio
+Electrify
 634
 Campo Elettrico
-Campo Elettrico
+Electric Terrain
 635
 Elettromistero
-Elettromistero
+Eerie Impulse
 636
 Liofilizzazione
-Liofilizzazione
+Freeze-Dry
 637
 Schiacciatuffo
-Schiacciatuffo
+Flying Press
 638
 Calcinvolo
-Calcinvolo
+Hi Jump Kick
 639
 Blocco Fatato
-Blocco Fatato
+Fairy Lock
 640
 Truccodifesa
-Truccodifesa
+Crafty Shield
 641
 Boscomalocchio
-Boscomalocchio
+Forest's Curse
 642
 Geocontrollo
-Geocontrollo
+Geomancy
 643
 Assorbibacio
-Assorbibacio
+Draining Kiss
 644
 Pungiglione
-Pungiglione
+Fell Stinger
 645
 Cartaforbice
-Cartaforbice
+Paper Cut
 646
 Piccantiro
-Piccantiro
+Hot Chili Pepper
 647
 Concertotem
-Concertotem
+Bremand Rhapsody
 648
 Confidenza
-Confidenza
+Confide
 649
 Assillo
-Assillo
+Infestation
 650
 Rocciarapida
-Rocciarapida
+Accelerock
 651
 Cannonbecco
-Cannonbecco
+Beak Blast
 652
 Vorticolpo
-Vorticolpo
+Brutal Swing
 653
 Ultima Fiamma
-Ultima Fiamma
+Burn Up
 654
 Clamorsquame
-Clamorsquame
+Clanging Scales
 655
 Nucleocastigo
-Nucleocastigo
+Core Enforcer
 656
 Braccioteso
-Braccioteso
+Darkest Lariat
 657
 Marteldrago
-Marteldrago
+Dragon Hammer
 658
 Frusta di Fuoco
-Frusta di Fuoco
+Fire Lash
 659
 Schermaglia
-Schermaglia
+First Impression
 660
 Cannonfiore
-Cannonfiore
+Fleur Cannon
 661
 Cura Floreale
-Cura Floreale
+Floral Healing
 662
 Marciainpiù
-Marciainpiù
+Gear Up
 663
 Forza Equina
-Forza Equina
+High Horsepower
 664
 Martelgelo
-Martelgelo
+Ice Hammer
 665
 Imposizione
-Imposizione
+Instruct
 666
 Concentrazione
-Concentrazione
+Laser Focus
 667
 Fogliame
-Fogliame
+Foliage
 668
 Idrobreccia
-Idrobreccia
+Liquidation
 669
 Assalto
-Assalto
+Infestation
 670
 Raggio d'Ombra
-Raggio d'Ombra
+Moongeist Beam
 671
 Multiattacco
-Multiattacco
+Multi-Attack
 672
 Ira della Natura
-Ira della Natura
+Nature's Madness
 673
 Sferapolline
-Sferapolline
+Pollen Puff
 674
 Tracotanza
-Tracotanza
+Power Trip
 675
 Prismalaser
-Prismalaser
+Prismatic Laser
 676
 Psicozanna
-Psicozanna
+Psychic Fangs
 677
 Campo Psichico
-Campo Psichico
+Psychic Terrain
 678
 Purificazione
-Purificazione
+Purify
 679
 Mutadanza
-Mutadanza
+Revelation Dance
 680
 Ossotetro
-Ossotetro
+Shadow Bone
 681
 Gusciotrappola
-Gusciotrappola
+Shell Trap
 682
 Sabbiaccumulo
-Sabbiaccumulo
+Shore Up
 683
 Sottilcorno
-Sottilcorno
+Smart Strike
 684
 Lama Solare
-Lama Solare
+Solar Blade
 685
 Canto Effimero
-Canto Effimero
+Sparkling Aria
 686
 Ombrafurto
-Ombrafurto
+Spectral Thief
 687
 Velociscambio
-Velociscambio
+Speed Swap
 688
 Cucitura d'Ombra
-Cucitura d'Ombra
+Spirit Shackle
 689
 Riflettore
-Riflettore
+Spotlight
 690
 Assorbiforza
-Assorbiforza
+Strength Sap
 691
 Astrocarica
-Astrocarica
+Sunsteel Strike
 692
 Occhionilucidi
-Occhionilucidi
+Tearful Look
 693
 Colpo Infernale
-Colpo Infernale
+Throat Chop
 694
 Velenotela
-Velenotela
+Toxic Thread
 695
 Tropicalcio
-Tropicalcio
+Trop Kick
 696
 Elettropizzico
-Elettropizzico
+Zing Zap
 697
 Fortino
-Fortino
+Baneful Bunker
 698
 Battipiedi
-Battipiedi
+Stimping Tantrum
 699
 Colpo d'Ancora
-Colpo d'Ancora
+Anchor Shot
 700
 Velaurora
-Velaurora
+Aurora Veil
 701
 Rutto
-Rutto
+Belch
 702
 Scattojet
-Scattojet
+Jet Strike
 703
 Trematutto
-Trematutto
+Subwoofer
 704
 Pogo
-Pogo
+Wild Dance
 705
 Bombacustica
-Bombacustica
+Noise Burst
 706
 Sguardo Fatale
-Sguardo Fatale
+Perfect Glare
 707
 Primorgrido
-Primorgrido
+Primal Scream
 708
 Motorombo
-Motorombo
+Rev Up
 709
 Dolcescarica
-Dolcescarica
+Sugar Rush
 710
 Overdrive
 Overdrive
 711
 Dragopatto
-Dragopatto
+Dragon Pledge
 712
 Fatapatto
-Fatapatto
+Fairy Pledge
 713
 Suonopatto
-Suonopatto
+Sound Pledge
 714
 Pungifreddo
-Pungifreddo
+Sting Freeze
 715
 Strettabruta
-Strettabruta
+Feral Clutch
 716
 Flussodrago
-Flussodrago
+Tidal Dragoon
 717
 Nerafolgore
-Nerafolgore
+Darkening Bolt
 718
 Sibilo
-Sibilo
+Hiss
 719
 Febbrefiesta
-Febbrefiesta
+Disco Fever
 720
 Elettroswing
-Elettroswing
+Electro Swing
 721
 Notteblues
-Notteblues
+Blue Note
 722
 Pannabotta
-Pannabotta
+Cream Whip
 723
 Marteltuono
-Marteltuono
+Thunder Struck
 724
 Supplicolpo
-Supplicolpo
+False Surrender
 725
 Pioggiaplasma
-Pioggiaplasma
+Ion Deluge
 726
 Ghigliottina
-Ghigliottina
+Guillotine
 727
 Divorastelle
-Divorastelle
+Void Star
 728
 Lancia Astrale
-Lancia Astrale
+Astral Lance
 729
 Ipernova
-Ipernova
+Star Burst
 730
 Ipernova
-Ipernova
+Star Burst
 731
 Ipernova
-Ipernova
+Star Burst
 732
 Controllo Polare
-Controllo Polare
+Magnetic Flux
 [6]
 1
 Chi la usa utilizza il suo corpo per montare con grande forza il nemico.
@@ -50239,7 +50239,7 @@ It's not very effective...
 {1} hung on using its Focus Band!
 {1} hung on using its Focus Band!
 {1} usa<<n>>{2}!
-{1} usa<<r>><<n>>{2}!
+{1} used<<r>><<n>>{2}!
 {1} is struggling!
 {1} is struggling!
 {1} is damaged by the recoil!
