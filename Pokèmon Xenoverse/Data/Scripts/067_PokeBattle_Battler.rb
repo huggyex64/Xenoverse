@@ -3251,7 +3251,7 @@ class PokeBattle_Battler
 				if user.hasWorkingItem(:LIFEORB) && turneffects[PBEffects::TotalDamage]>0 &&
 					!user.hasWorkingAbility(:MAGICGUARD)
 					PBDebug.log("[#{user.pbThis}'s Life Orb triggered]")
-					hploss=user.pbReduceHP([(user.totalhp/10).floor,1].min,true)
+					hploss=user.pbReduceHP([(user.totalhp/10).floor,1].max,true)
 					if hploss>0
 						@battle.pbDisplay(_INTL("{1} lost some of its HP!",user.pbThis))
 					end

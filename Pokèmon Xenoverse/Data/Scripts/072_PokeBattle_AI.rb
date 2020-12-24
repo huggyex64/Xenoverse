@@ -3355,7 +3355,7 @@ class PokeBattle_Battle
     end
     # Light Screen
     if skill>=PBTrainerAI.highSkill
-      if opponent.pbOwnSide.effects[PBEffects::LightScreen]>0 && pbIsSpecial?(type)
+      if opponent.pbOwnSide.effects[PBEffects::LightScreen]>0 && move.pbIsSpecial?(type)
         if !opponent.pbPartner.isFainted?
           damage=(damage*0.66).round
         else
