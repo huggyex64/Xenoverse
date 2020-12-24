@@ -487,16 +487,18 @@ class PokeSelectionSprite < SpriteWrapper
 			evaluateIconPath
 			self.bitmap.blt(53,113,pbBitmap(@path+"healthbar_bg"),Rect.new(0,0,86,11))
 			self.bitmap.blt(33,10,pbBitmap(@iconpath),Rect.new(0,0,75,74))
-			if !(RETRODEX.include?(pokemon.species) && pokemon.isShiny?)
-				self.bitmap.blt(10,10,pbBitmap("Graphics/Pictures/SummaryNew/Retro"),Rect.new(0,0,21,21)) if RETRODEX.include?(pokemon.species)
-				self.bitmap.blt(10,10,pbBitmap("Graphics/Pictures/SummaryNew/Shiny"),Rect.new(0,0,21,21)) if pokemon.isShiny?
-			else
-				self.bitmap.blt(19,12,pbBitmap("Graphics/Pictures/SummaryNew/Retro"),Rect.new(0,0,21,21)) if RETRODEX.include?(pokemon.species)
-				self.bitmap.blt(6,6,pbBitmap("Graphics/Pictures/SummaryNew/Shiny"),Rect.new(0,0,21,21)) if pokemon.isShiny?
-			end
-			if pokemon.status != 0 && pokemon.hp>0
-				statusindex = pokemon.status-1
-				self.bitmap.blt(121,81,pbBitmap("Graphics/Pictures/EBS/Xenoverse/STATUS"),Rect.new(19*statusindex,0,19,19))	
+			if !pokemon.isEgg?
+				if !(RETRODEX.include?(pokemon.species) && pokemon.isShiny?)
+					self.bitmap.blt(10,10,pbBitmap("Graphics/Pictures/SummaryNew/Retro"),Rect.new(0,0,21,21)) if RETRODEX.include?(pokemon.species)
+					self.bitmap.blt(10,10,pbBitmap("Graphics/Pictures/SummaryNew/Shiny"),Rect.new(0,0,21,21)) if pokemon.isShiny?
+				else
+					self.bitmap.blt(19,12,pbBitmap("Graphics/Pictures/SummaryNew/Retro"),Rect.new(0,0,21,21)) if RETRODEX.include?(pokemon.species)
+					self.bitmap.blt(6,6,pbBitmap("Graphics/Pictures/SummaryNew/Shiny"),Rect.new(0,0,21,21)) if pokemon.isShiny?
+				end
+				if pokemon.status != 0 && pokemon.hp>0
+					statusindex = pokemon.status-1
+					self.bitmap.blt(121,81,pbBitmap("Graphics/Pictures/EBS/Xenoverse/STATUS"),Rect.new(19*statusindex,0,19,19))	
+				end
 			end
 			if pokemon.hp <=0
 				self.color=Color.new(73,51,51,40)
