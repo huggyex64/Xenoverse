@@ -5760,6 +5760,10 @@ end
 ################################################################################
 class PokeBattle_Move_0EB < PokeBattle_Move
 	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		if opponent.boss
+			@battle.pbDisplay(_INTL("The boss Pokémon didn't move an inch!"))
+			return -1
+		end
 		if opponent.hasWorkingAbility(:SUCTIONCUPS)
 			@battle.pbDisplay(_INTL("{1} anchored itself with {2}!",opponent.pbThis,PBAbilities.getName(opponent.ability)))  
 			return -1
@@ -5810,7 +5814,7 @@ class PokeBattle_Move_0EC < PokeBattle_Move
 		if !attacker.isFainted? && !opponent.isFainted? &&
 			opponent.damagestate.calcdamage>0 && !opponent.damagestate.substitute && 
 			!opponent.hasWorkingAbility(:SUCTIONCUPS) &&
-			!opponent.effects[PBEffects::Ingrain]
+			!opponent.effects[PBEffects::Ingrain] && !opponent.boss
 			if !@battle.opponent
 				if opponent.level<attacker.level
 					@battle.decision=3 # Set decision to escaped
