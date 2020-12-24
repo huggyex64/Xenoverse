@@ -36737,3 +36737,7 @@ Non hai nessuno strumento in questa tasca.
 {2} permette a {1} di agire per primo!
 {1} consumed its {2} and resisted the damage!
 {1} resiste al colpo mangiando la sua {2}!
+The boss Pokémon didn't move an inch!
+Il Pokémon boss non indietreggia di un passo!
+Sembra inutilizzabile...
+Sembra inutilizzabile...
