@@ -16915,7 +16915,7 @@ BattlerEnemyY=17
 [648]
 Name=Meloetta
 InternalName=MELOETTA
-Type1=NORMAL
+Type1=SUONO
 Type2=PSYCHIC
 BaseStats=100,77,77,90,128,128
 GenderRate=Genderless
