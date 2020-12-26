@@ -15020,6 +15020,7 @@ Pokedex=Di natura ama la pulizia. Spazza sempre la polvere dalla sua tana usando
 WildItemCommon=CHESTOBERRY
 BattlerPlayerY=23
 BattlerEnemyY=23
+Evolutions=CINCCINO,Item,SHINYSTONE
 [573]
 Name=Cinccino
 InternalName=CINCCINO
