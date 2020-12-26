@@ -3690,7 +3690,7 @@ WildItemRare=BOTVIRTUALE
 BattlerPlayerY=25
 BattlerEnemyY=25
 BattlerAltitude=8
-Evolutions=PORYGON2,Item,BOTVIRTUALE,PORYGONWES,Item,BOTWES
+Evolutions=PORYGON2,Item,BOTVIRTUALE
 [138]
 Name=Omanyte
 InternalName=OMANYTE
@@ -6239,7 +6239,7 @@ Pokedex=È stato creato aggiornando Porygon con la tecnologia più avanzata per 
 BattlerPlayerY=30
 BattlerEnemyY=26
 BattlerAltitude=11
-Evolutions=PORYGONZ,Item,BOTERRORE
+Evolutions=PORYGONZ,Item,BOTERRORE,PORYGONWES,Item,BOTWES
 [234]
 Name=Stantler
 InternalName=STANTLER
