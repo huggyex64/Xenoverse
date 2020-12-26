@@ -5634,11 +5634,21 @@ class PokeBattle_Move_0E5 < PokeBattle_Move
 		super(attacker,opponent)
 	end
 	
+	def pbMoveFailed(attacker,opponent)
+		return true if opponent.boss || attacker.boss
+	end
+
 	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
 		failed=true
+		for i in 0...@battle.battlers.length
+			if @battle.battlers[i].boss
+				@battle.pbDisplay(_INTL("But it failed!"))
+				return -1
+			end
+		end
 		for i in 0...4
 			if @battle.battlers[i].effects[PBEffects::PerishSong]==0 &&
-				!@battle.battlers[i].hasWorkingAbility(:SOUNDPROOF)
+				!@battle.battlers[i].hasWorkingAbility(:SOUNDPROOF) && !@battle.battlers[i].boss
 				failed=false; break
 			end   
 		end
@@ -5684,6 +5694,12 @@ end
 ################################################################################
 class PokeBattle_Move_0E7 < PokeBattle_Move
 	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		for i in 0...@battle.battlers.length
+			if @battle.battlers[i].boss
+				@battle.pbDisplay(_INTL("But it failed!"))
+				return -1
+			end
+		end
 		pbShowAnimation(@id,attacker,nil,hitnum,alltargets,showanimation)
 		attacker.effects[PBEffects::DestinyBond]=true
 		@battle.pbDisplay(_INTL("{1} is trying to take its foe down with it!",attacker.pbThis))

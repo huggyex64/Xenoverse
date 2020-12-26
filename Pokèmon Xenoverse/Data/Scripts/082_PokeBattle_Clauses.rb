@@ -194,6 +194,7 @@ class PokeBattle_Move_0E5 # Perish Song
     if @battle.rules["perishsongclause"] && attacker.pbNonActivePokemonCount()==0
       return true
     end
+    return true if opponent.boss || attacker.boss
     return false
   end
 end
@@ -205,6 +206,7 @@ class PokeBattle_Move_0E7 # Destiny Bond
     if @battle.rules["perishsongclause"] && attacker.pbNonActivePokemonCount()==0
       return true
     end
+    return true if opponent.boss || attacker.boss
     return false
   end
 end

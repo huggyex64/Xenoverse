@@ -543,6 +543,9 @@ def pbCheckCaughtPokemon
 		count+=1 if $Trainer.owned[i]
   end
   $achievements["Acchiappali"].silentProgress(count) if !$achievements["Acchiappali"].completed
+  if $achievements["Acchiappali"].completed
+    $achievements["Acchiappali"].hidden=false
+  end
   #$achievements["Acchiappali"].hidden = false if $achievements["Acchiappali"].progress>0
   #return if ret==false
   #$achievements["Acchiappali"].progress = 1 if ret == true && !$achievements["Acchiappali"].completed
@@ -569,6 +572,9 @@ def pbCheckCaughtPokemonX
     count+=1 if $Trainer.owned[i]
   end
   $achievements["Mondo"].silentProgress(count) if !$achievements["Mondo"].completed
+  if $achievements["Mondo"].completed
+    $achievements["Mondo"].hidden=false
+  end
 end
 
 def pbCheckBallsInBag
