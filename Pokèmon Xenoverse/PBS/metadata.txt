@@ -485,7 +485,6 @@ Outdoor=false
 Outdoor=true
 [075]
 # Percorso 6
-MapSize=1,
 BattleBack=Field
 Bicycle=true
 TrainerBattleBGM=vs.Trainer.mp3
