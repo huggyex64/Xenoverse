@@ -1568,10 +1568,11 @@ MapPosition=0,8,3
 Bicycle=false
 MapPosition=0,8,3
 [246]
-BattleBack=Covosharpedo
+# Covo Dimension
+BattleBack=Aula
 Bicycle=false
-MapPosition=0,2,7
-DarkMap=true
+MapPosition=0,0,0
+DarkMap=false
 WildBattleBGM=Wild Battle.mp3
 [247]
 # Percorso 10
