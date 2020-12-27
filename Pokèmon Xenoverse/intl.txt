@@ -132,7 +132,7 @@ No
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Do you want to rest?
+<<[>>old<<]>>Would you like to rest?
 <<[>>old<<]>>Ora va molto meglio.
 <<[>>old<<]>>So much better now!
 Mariano
@@ -694,7 +694,7 @@ I have been training my Pokémon in the forests before<<n>>it was mainstream!
 Amariso
 Joshua
 I miei Pokémon Coleottero sono così carini! Perché mai farli evolvere?
-My Bug Pokémons are so cute!<<n>>Why would someone evolve them?
+My Bug Pokémon are so cute!<<n>>Why would someone evolve them?
 I miei piccoli amici!!
 My little friends!!
 E poi è risaputo che, allo stadio base, i Pokémon imparano alcune mosse più in fretta!
@@ -843,7 +843,7 @@ Look at that amazing play of the light on the lake's surface!
 Mustard
 Mustard
 Io e i miei Pokémon adoriamo i climi estremi!
-Me and my Pokémons love extreme weather!
+Me and my Pokémon love extreme weather!
 Dobbiamo spingerci oltre!
 We must go beyond our limits!
 [Map24]
@@ -1275,7 +1275,7 @@ Bernard
 La bufera deve aver congelato te e i tuoi Pokémon... Guarda quei ghiaccioli sotto al naso! Oh oh oh! Scherzi a parte, non fare complimenti. Fa' come se fosse casa tua. Scaldati pure davanti al caminetto e riposa quanto vuoi.
 The blizzard must have frozen you and your Pokémon.<<n>>Look at those icicles on your nose! Ho ho ho!<<n>>Jokes aside, feel free to make yourself at home. Have a seat by the fireplace and rest as much as you want.
 <<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Do you want to rest?
+<<[>>old<<]>>Would you like to rest?
 <<[>>old<<]>>Ora va molto meglio.
 <<[>>old<<]>>So much better now!
 Sì
@@ -1326,15 +1326,17 @@ Cowards! Just to think about them makes me mad!<<n>>We absolutely need to do som
 Non capita tutti i giorni di imbattersi in un Allenatore così carino. Ah ah!
 It's not every day you run into such a pretty Trainer.<<n>>Ha ha ha!
 I <b>Sergenti</b> stanno cercando qualcosa di grosso in questo Campus. Non ce ne andremo finché non l'avremo ottenuto! <i>Bzz!</i>
-I <b>Sergenti</b> stanno cercando qualcosa di grosso in questo Campus. Non ce ne andremo finché non l'avremo ottenuto! <i>Bzz!</i>
+Our <b>Sergeants</b> are looking for something big<<n>>in this campus.<<n>>We're not leaving until we get it! <i>Bzz!</i>
 Ormai il Campus è in mano al Team Dimension! <i>Bzz!</i>
-This campus is in the hands of Team Dimension now! <i>Bzz!</i>
+This campus is Team Dimension's property now! <i>Bzz!</i>
 Non ci capisco niente di tutti questi appunti!
 I don't get these notes at all!
 Accesso negato agli umani. <i>Bzz!</i>
 Accesso negato agli umani. <i>Bzz!</i>
 Sparisci se non vuoi fare una brutta fine. <i>Bzz!</i>
 Human, you don't want trouble, you get! <i>Bzz!</i>
+Tonino
+Ashton
 ''Si sta come d'estate, sui libri, gli studenti.''
 ''We were as in sommer, on books, the students.''
 Primo
@@ -1369,12 +1371,14 @@ Ragazzino, cosa credi di fare da sola|o contro il temibile <b>Team Dimension</b>
 Hey, kid! What are you doing alone against<<n>>the fearsome <b>Team Dimension</b>? <i>Bzz!</i>
 Ehi, tu! Sei un'Allenatrice, per caso?
 Hey, you! Are you a Pokémon Trainer?
+Siria
+Siri
 Secondo me invece è davvero affascinante...
 I find him very charming, actually...
 Mina
 Mina
 Sto cercando un <b>Hikiloo</b>. Ne avresti mica uno da scambiare col mio <b>Chigami</b>?
-I'm  looking for an <b>Hikiloo</b>. Are there any chances you have one to trade for my <b>Chigami</b>?
+I'm looking for an <b>Hikiloo</b>. Are there any chances you have one to trade for my <b>Chigami</b>?
 Oh, beh... Pazienza!
 Oh, okay... Don't worry!
 Evviva! Diamo subito il via allo scambio!
@@ -1390,9 +1394,11 @@ Here everyone keep calling me Nurse Joyce,<<n>>you can guess why.<<n>>If your Po
 Vuoi che presti cure ai tuoi Pokémon?
 Would you like to rest your Pokémon?
 Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
-Thank you for waiting.<<n>>We've restored your Pokémon to full health!
+Thank you for waiting.<<n>>I've restored your Pokémon to full health!
 Torna pure quando vuoi.
 I hope to see you again!
+Sapio
+Camden
 I colori caldi di questi aceri sono un vero spettacolo per gli occhi.
 These maple warm colours are a sight for sore eyes!
 Marcella
@@ -1444,9 +1450,7 @@ Where I'm from there aren't Academy Cities like this.
 Alan
 Alan
 Sei stato|a formidabile in biblioteca! Mai pensato di unirti alla confraternita? Ad ogni modo, accetta questo piccolo regalo.
-You were terrific in the library! Have you ever thought of joining our corporation?
-Ad ogni modo, accetta questo piccolo regalo.
-By the way, take this little gift.
+You were terrific in the library! Have you ever thought of joining our corporation? By the way, take this little gift.
 Ci si vede in Palestra!
 See you later at the Gym!
 Bardo
@@ -1886,7 +1890,7 @@ It's time to put what I've learned into practice!
 Non sempre pratica e teoria vanno di pari passo...
 Theory and practice don't always go together...
 Devo leggere con più attenzione i <b>Comandi di gioco</b> dal menù!
- I must read more carefully <b>In Game Controls</b><<n>>from the menu!
+I must read more carefully <b>In Game Controls</b><<n>>from the menu!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
@@ -2109,10 +2113,12 @@ Bruto
 Brutus
 Ahr! Io, Bruto, mi occupo di scortare gli Allenatori fino all'Isola Pigliapesci. T'interessa?
 Arr! I, Brutus, am in charge of convoying Trainers<<n>>to Proxim Island. Are you interested?
+Alessandro
+Axel
 Io e il mio Pokémon ti suoneremo come un tamburo!
 My Pokémon and I will beat you like a drum!
 Sigh... Nemmeno lo so suonare il tamburo...
-Sigh...  I can't even play the drum...
+Sigh... I can't even play the drum...
 Oh, qual buon vento, \PN! Come stai?
 Oh, how nice to see you, \PN! How are you?
 Nonostante tutto, ho deciso che riprenderò il mare con la mia nuovissima <b>Motonave Cometa II</b>! Un uomo di mare che si rispetti non si lascia intimorire da uno Sharpedo arrogante!
@@ -2367,7 +2373,7 @@ Oh, man! I was so into this conversation that I lost<<n>>all sense of time.<<n>>
 Ilaria
 Hilary
 Pare che nelle altre regioni, il tipo Suono non venga studiato così approfonditamente come ad Eldiw.
-It seems that in the other regions they don't study Sound-type as closely as we do here in Eldiw.Xenone
+It seems that in the other regions they don't study Sound-type as closely as we do here in Eldiw.
 Xenone
 Xenon
 Perdonami, ma ora sono proprio indaffarato. Torna più tardi se ti va.
@@ -2385,7 +2391,7 @@ Hughie
 Proprio non capisco cosa non vada...
 I really don't understand what's wrong...
 Silvana
-Silvana
+Sylvie
 Il mio Pokémon, dici? Ah, ma parli di questo qui!
 What? My Pokémon?<<n>>Ah, you are talking about this!
 È un <b>Centro Porygon</b>, un dispositivo che permette le comodità di un Centro Pokémon alla modica cifra di 500$. Nei pericolosi dungeon disseminati per Eldiw è un vero e proprio barlume di speranza per gli Allenatori!
@@ -2590,7 +2596,7 @@ I broke a plate and hid its leftover shards under<<n>>the table. Mum's the word!
 Gina
 Jane
 Lo sapevi che con l'inchiostro di Octillery si prepara un ottimo risotto? Il mare è davvero pieno di risorse!
-Did you know that Octillery ink makes an awesome risotto? The sea is really full of resources!
+Did you know that Octillery ink makes an awesome risotto?<<n>>The sea is really full of resources!
 Umberto
 Robert
 Il <b>Risoctillery</b> è delizioso, non trovi?
@@ -2669,7 +2675,7 @@ What? You looking for trouble? <i>Bzz!</i>
 Stefano
 Steven
 In vista degli esami, ho affidato i miei Pokémon alla Pensione e quando sono tornato... ho trovato un Uovo!
-I left my Pokémon to the Day Care to study for the exams and when I got back... I found an Egg!
+I left my Pokémon to the Day Care to study for the exams<<n>>and when I got back... I found an Egg!
 ???
 ???
 Tsk! Davvero niente male.
@@ -2721,9 +2727,9 @@ I'll keep it for myself! Are you sure you don't want it?
 Ok, lo prenderò io allora.
 Ok, I'll take it then.
 Io e mia moglie gestiamo questa Pensione Pokémon da più di quarant’anni. Ci prendiamo cura dei Pokémon che gli studenti ci affidano per mancanza di tempo.
-My wife and I have been running this Pokémon Day Care for more than forty years.<<n>>We take care of students' Pokémon since they don't have that much time.
+My wife and I have been running this Pokémon Day Care<<n>>for more than forty years.<<n>>We take care of students' Pokémon since they don't have that much time.
 Se anche tu sei qui per lasciarcene uno, parla pure con mia moglie. La trovi dentro.
-If you want to leave one of your Pokémon too, talk<<n>>to my wife. She's inside.
+If you want to leave one of your Pokémon too,<<n>>talk to my wife. She's inside.
 Oh, sei tu! È bello vederti!
 Oh, it's you! Good to see you!
 Il tuo {1} sta alla grande.
@@ -2741,7 +2747,7 @@ Those two really get along great!
 Sta' zitto! È meglio il football!
 Shut up! Football is better!
 Niente da fare! Meglio il baseball!
- No way! Baseball is way better!
+No way! Baseball is way better!
 Ehi! Il football è meglio del baseball, tu che dici?
 Hey! Football is better than baseball, right?
 Mirco
@@ -2757,7 +2763,7 @@ La <b>Recluta N8M</b> è arrivata da me frignando come un cucciolo di umano... D
 Dalia
 Dolly
 Granbull è la mascotte del nostro campus sin dagli inizi! È un Pokémon così carino!
-Granbull has been the campus mascot from the beginning! It's so cute!
+Granbull has been the campus mascot from the beginning!<<n>>It's so cute!
 21P
 21P
 Accesso negato agli umani. <i>Bzz!</i>
@@ -2779,7 +2785,7 @@ We failed, but our <b>Sergeants</b> will make you pay! <i>Bzz!</i>
 <<[>>old<<]>><b>Biblioteca di Ariepoli</b> <i>''Tempio del sapere della regione.''</i>
 <<[>>old<<]>><b>Biblioteca di Ariepoli</b> <i>''Tempio del sapere della regione.''</i>
 Noi Reclute siamo niente in confronto ai <b>Sergenti</b>. <i>Bzz!</i>
-Noi Reclute siamo niente in confronto ai <b>Sergenti</b>. <i>Bzz!</i>
+We Grunts are nothing compared to <b>Sergeants</b>.<<n>><i>Bzz!</i>
 Non puoi aprire la porta senza lo starter in squadra.
 You cannot get in there without your starter Pokémon.
 Sì
@@ -2901,7 +2907,7 @@ What 'bout you, haircut? Are you with them?<<n>>I've never seen you here on camp
 Voi chi sareste, pagliacci? Se non filate con le buone, lo farete con le cattive!
 Who are you, clowns? If you are not gonna beat it,<<n>>we're gonna beat you!
 Guarda, fratellone! Un altro umano che non ci conosce... <i>Roger!</i>
-Look, brother! There''s another human who doesn't know us... <i>Roger!</i>
+Look, brother! There's another human who doesn't know us... <i>Roger!</i>
 Adesso ci penso io a questo biondino con la puzza sotto il naso.
 Don't worry. Now I'm dealing with this bougie blondie.
 Ben detto, fratellone! Facciamoli fuori senz...
@@ -2919,7 +2925,7 @@ GO-GO, GRANBULLS! Show 'em who's the boss, Ginger!
 Ehi, bei capelli! Se proprio non vuoi toglierti di mezzo, fammi il favore di darmi una mano. In caso fossi in difficoltà, ci penserò io a farli tornare nel loro circo.
 Hey, haircut! If you really don't want to get out,<<n>>do me a favor and gimme a help.<<n>>Don't worry, if you are in trouble, I'll kick them back<<n>>to their circus!
 Lascia che curi i tuoi Pokémon. Questi due mi sembrano un po' troppo sicuri di sé!
-But first, lemme heal your Pokémon. These two seem too confident for me!
+But first, lemme heal your Pokémon. These two seem<<n>>too confident for me!
 Bene, facciamoli neri!
 And now let's go get 'em!
 Che schiappe!!
@@ -2931,7 +2937,7 @@ Boss, are you okay?
 L'<b>Hawlucha</b> del capo è stato sconfitto...?
 Ginger's <b>Hawlucha</b> has been defeated...?
 Se dovesse usare l'altro Pokémon, finirebbe per danneggiare anche la biblioteca...
-If he used his other Pokémon, he would have damaged the library as well...
+If he used his other Pokémon, he would have damaged<<n>>the library as well...
 Tranquilli, ragazzi... Io e Hawlucha siamo tutti interi.
 Calm down, guys... Hawlucha and I are fine.
 (Cavolo... Questo|a ragazzo|a mi ha proprio salvato la pelle... Se non fosse stato per lui||ei, quei Pawniard mi avrebbero sconfitto in un istante...)
@@ -2953,7 +2959,7 @@ Are you okay, guys? What was that tremor...?
 Ero convinto che non ci fosse nulla di vero, eppure... Questo vuol dire che...!
 I was sure there was nothing true in those words, but-<<n>>This means that...!
 Ehi, bei capelli! Guarda nella tua Borsa! Qualcosa brilla di un rosso vivo!
-Hey, haircut! Check out your Bag! Something is glowing deep red in there!
+Hey, haircut! Check out your Bag! Something is glowing<<n>>deep red in there!
 <<[>>old<<]>>Lo Strano orecchino di \PN incanala l'Energia Rossa della Lastra Terrestre.
 <<[>>old<<]>>\PN's Odd earring channels the Red Energy from the Terrestrial Plate.
 <<[>>old<<]>>L'energia ha generato l'Anello Terrestre.
@@ -2999,7 +3005,7 @@ It seems the plate has lost all its original color...
 Ho letto molti libri al riguardo, ma non credevo che dietro quelle storie ci fosse un fondo di verità! Tu hai ottenuto l'essenza stessa del pianeta Terra: il <b>Codice Terrestre</b>! Quell’energia, contenuta nel tuo orecchino, ha permesso al tuo Pokémon di evolversi! Inoltre, la lastra si è tramutata in un anello...
 I've read a lot of books about it, but I've never thought<<n>>there was any truth in those tales!<<n>>You got the very essence of planet Earth:<<n>>the <b>Terrestrial Core</b>!<<n>>The energy enshrined in your earring allowed<<n>>your Pokémon to evolve!<<n>>And it seems the plate turned into a ring...
 Senza quello probabilmente l'evoluzione non avviene e il tuo Pokémon rimane allo stadio base. Affascinante! Spero di rivedere questo potere in azione, magari nella sfida della mia Palestra! Ci becchiamo, bei capelli!
-Probably, without that, the evolution does not occur and your Pokémon stays at its basic-stage. Amazing!<<n>>I hope to see this power in action once again, possibly<<n>>in my Gym challenge! See you later, haircut! 
+Probably, without that, the evolution does not occur and<<n>>your Pokémon stays at its basic-stage. Amazing!<<n>>I hope to see this power in action once again, possibly<<n>>in my Gym challenge! See you later, haircut! 
 <<[>>old<<]>>GO-GO, GRANBULLS!
 <<[>>old<<]>>GO-GO, GRANBULLS!
 Geremia
@@ -3023,7 +3029,7 @@ Nowadays no one uses the <b>Exp. Share</b> anymore...
 Vorrei sdebitarmi a nome di tutto il campus per averci liberato dal Team Dimension. Non ripagherà di certo il favore, ma prendi.
 I'm so thankful you freed us from<<n>>Team Dimension.<<n>>It may not be a lot but take this, it's from the whole campus.
 È un <b>Condividi Esperienza</b>, uno strumento che permette di far ottenere Punti Esperienza anche a Pokémon che non prendono parte alla lotta. Spero vivamente ti possa tornare utile!
-It's an <b>Exp. Share<b>! With this tool, a Pokémon can get Exp. Points even if it doesn't take part in the battle.<<n>>I hope it'll help you!
+It's an <b>Exp. Share</b>! With this tool, a Pokémon can get<<n>>Exp. Points even if it doesn't take part in the battle.<<n>>I hope it'll help you!
 Gigi
 Louis
 Lavoro qui da anni e potrei giurare che quella lastra fosse rossa prima...
@@ -3461,7 +3467,7 @@ You know where to find me if you change your mind.
 Swami
 Swami
 Quando bacio il mio ragazzo penso a quel gran fusto di <b>Daddy</b>... tu non dirglielo però!
-While kissing my boyfriend I think about <b>Daddy<b>,<<n>>he's such a stud... Don't tell him, I beg!
+While kissing my boyfriend I think about <b>Daddy</b>,<<n>>he's such a stud... Don't tell him, I beg!
 <<[>>new,Marino,ludopoli/marino,default,left,true<<]>>
 <<[>>new,Briney,ludopoli/marino,default,left,true<<]>>
 Eccoci qui. Torna pure da me quando vorrai ripartire.
@@ -4651,7 +4657,7 @@ Pokémon Day Care
 Non ho idea di cosa salterà fuori... Lo scoprirai solo prendendotene cura!
 I have no idea of what will hatch... You'll know only<<n>>by taking care of it!
 La tua squadra è al completo! Se proprio ci tieni ad averlo, fai posto.
- Your party is full! If you really want it, you'll need<<n>>to make room for it.
+Your party is full! If you really want it, you'll need<<n>>to make room for it.
 Va bene... Troverò qualcun altro che possa prendersene cura.
 Fine... I'll find someone else then.
 Oh, eccoti! Ti stava cercando mio marito.
@@ -4666,24 +4672,24 @@ Torna a farci visita.
 We hope to see you again.
 Oh, cielo! Non posso prendere il tuo unico Pokémon rimasto in forze! Torna a farci visita.
 Oh my! I can't take your only healthy Pokémon!<<n>>We hope to see you again.
-Il tuo {1} è in ottime mani.
-Your {1} is in good hands.
+_INTL("Il tuo {1} è in ottime mani.",pbGet(3))
+_INTL("Your {1} is in good hands.",pbGet(3))
 Possiamo prendere in consegna due Pokémon per volta, vuoi affidarcene un altro?
 We can take up to two Pokémon at a time,<<n>>do you want to leave another one?
-Bene, baderemo noi al tuo {1} per un po’!
-Well, we'll take care of your {1} for a while!
+_INTL("Bene, baderemo noi al tuo {1} per un po’!",pbGet(3))
+_INTL("Well, we'll take care of your {1} for a while!",pbGet(3))
 Oh, eccoti. Allora, vediamo un po’...
 Oh, here you are. So...
-Il tuo {1} è salito di {2} livelli.
-Your {1} has grown by {2} levels.
+_INTL("Il tuo {1} è salito di {2} livelli.",pbGet(3),pbGet(4))
+_INTL("Your {1} has grown by {2} levels.",pbGet(3),pbGet(4))
 Vuoi ritirare un Pokémon?
 Would you like to take a Pokémon back?
 La tua squadra è al completo! Torna quando avrai più spazio.
 Your party is full! Come back when you have room.
 Chi vuoi riprendere con te?
 Who do you want to take?
-Per il tuo {1} fanno {2}$. D'accordo?
-For {1} it's ${2}. Okay?
+_INTL("Per il tuo {1} fanno {2}$. D'accordo?",pbGet(3),pbGet(4))
+_INTL("For {1} it's ${2}. Okay?",pbGet(3),pbGet(4))
 Non hai soldi a sufficienza...
 You don't have enough money...
 Ecco a te il tuo Pokémon!
@@ -5910,7 +5916,7 @@ Pablo
 Vediamo un po' le notizie del giorno...
 Let's see what's new...
 ''Balansopoli News: Alisso Capopalestra sconfitto da ragazzo|a coi capelli colorati!''
-''Hadwarf City News: Gym Leader Basil beaten by a boy|||gal with dyed hair''
+''Hadwarf City News: Gym Leader Basil beaten by a boy|||gal<<n>>with dyed hair!''
 [Map137]
 Daria
 Darla
@@ -8046,7 +8052,7 @@ So che non dovrei aiutare gli intrusi, ma il mio codice d’onore me lo impedisc
 <<[>>old<<]>>Non c'è niente...
 <<[>>old<<]>>Non c'è niente...
 <<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Do you want to rest?
+<<[>>old<<]>>Would you like to rest?
 <<[>>old<<]>>Ora va molto meglio.
 <<[>>old<<]>>So much better now!
 Rino
@@ -8718,7 +8724,7 @@ Ci credi che Daddy un tempo era povero? Sul serio, rubava nei Pokémon-Market pe
 Ci credi che Daddy un tempo era povero? Sul serio, rubava nei Pokémon-Market per mantenersi!
 [Map198]
 <<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Do you want to rest?
+<<[>>old<<]>>Would you like to rest?
 <<[>>old<<]>>È il grande giorno dell'evento di Wallace Daddy... Meglio dirigersi verso il palco!
 <<[>>old<<]>>È il grande giorno dell'evento di Wallace Daddy... Meglio dirigersi verso il palco!
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
@@ -17412,7 +17418,7 @@ Ennardo
 La bufera deve aver congelato te e i tuoi Pokémon... Guarda quei ghiaccioli sotto al naso! Oh oh oh! Scherzi a parte, non fare complimenti. Fa' come se fosse casa tua. Scaldati pure davanti al caminetto e riposa quanto vuoi.
 La bufera deve aver congelato te e i tuoi Pokémon...  Guarda quei ghiaccioli sotto al naso! Oh oh oh! Scherzi a parte, non fare complimenti. Fa' come se fosse casa tua.  Scaldati pure davanti al caminetto e riposa quanto vuoi.
 <<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Do you want to rest?
+<<[>>old<<]>>Would you like to rest?
 <<[>>old<<]>>Ora va molto meglio.
 <<[>>old<<]>>So much better now!
 Sì
@@ -17780,7 +17786,7 @@ Ferdinando
 Di giorno, in questo canyon pare di essere in un forno dal caldo che fa, ma di notte si gela! Su, non fare complimenti, forestiero|a. Riscaldati pure davanti al caminetto e riposa quanto vuoi.
 Di giorno, in questo canyon pare di essere in un forno dal caldo che fa, ma di notte si gela! Su, non fare complimenti, forestiero|a. Riscaldati pure davanti al caminetto e riposa quanto vuoi.
 <<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Do you want to rest?
+<<[>>old<<]>>Would you like to rest?
 <<[>>old<<]>>Ora va molto meglio.
 <<[>>old<<]>>So much better now!
 Sì
@@ -18399,7 +18405,7 @@ Rettifico, anche le lotte sono stancanti...
 Rettifico, anche le lotte sono stancanti...
 [Map494]
 <<[>>old<<]>>Vuoi riposarti?
-<<[>>old<<]>>Do you want to rest?
+<<[>>old<<]>>Would you like to rest?
 <<[>>old<<]>>Ora va molto meglio.
 <<[>>old<<]>>So much better now!
 Sì
@@ -52712,7 +52718,7 @@ Choose a Pokémon.
 Scegli un Pokémon o esci.
 Choose a Pokémon or quit.
 Statistiche
-Stats
+Summary
 Ordina
 Move
 Oggetti
@@ -56090,7 +56096,7 @@ MACHINES
 KEY ITEMS
 KEY ITEMS
 Order
-Order
+Move
 x{1:2d}
 x{1:2d}
 Complete Pokedex Real
