@@ -150,21 +150,21 @@ In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
 <<[>>old<<]>>Meglio non rischiare...
 <<[>>old<<]>>Meglio non rischiare...
 Michiel
-Michiel
+Mitchell
 Una bella lotta mi aiuterà ad ammazzare il tempo!
-Una bella lotta mi aiuterà ad ammazzare il tempo!
+A good battle will help me kill some time!
 Ahia, che batosta!
-Ahia, che batosta!
+Ouch, what a beating!
 Troverò altri modi per passare il tempo.
-Troverò altri modi per passare il tempo.
+I'll find other ways to pass the time.
 Andrea
-Andrea
+Andrew
 Ho il mal di mare...
-Ho il mal di mare...
+I'm feeling seasick...
 E ora anche lo stomaco in subbuglio...
-E ora anche lo stomaco in subbuglio...
+And now even my stomach hurts...
 Forse lottare non è stata una buona idea...
-Forse lottare non è stata una buona idea...
+Maybe battling wasn't a good idea...
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>C'è qualcosa nel cestino.
@@ -208,11 +208,11 @@ Shaaaah!!
 Shaaaah!!
 [Map8]
 Marcus
-Marcus
+Eric
 Fatti sotto, ''prescelto''! GO-GO, GRANBULLS!
-Fatti sotto, ''prescelto''! GO-GO, GRANBULLS!
+Bring it on, ''chosen one''! GO-GO, GRANBULLS!
 Che potere straordinario...
-Che potere straordinario...
+Such an incredible power...
 <<[>>old<<]>>GO-GO, GRANBULLS!
 <<[>>old<<]>>GO-GO, GRANBULLS!
 Claudio
@@ -232,17 +232,17 @@ Please accept this gift to you.
 Questa è la MT <b>Crescipugno</b>, una poderosa mossa di tipo Lotta che aumenta anche l’Attacco! Inoltre, come premio per avermi sconfitto, anche questa è tua. La <b>Medaglia Competizione</b>!
 That TM contains <b>Power-Up Punch</b>, a powerful Fighting-type move that also boosts the user's Attack!<<n>>In addition, as a reward for you winning,<<n>>the <b>Match Badge</b> is yours too!
 Ora che è nelle tue mani, le guardie a protezione del <b>Percorso 5</b> ti lasceranno proseguire. In bocca al Granbull per il viaggio!
-Now you have that, my bodyguards protecting <b>Route 5</b> will let you pass.<<n>>Break a leg for your journey!
+Now you have that, my bodyguards protecting <b>Route 5</b> will let you pass.<<n>>Break a Granbull for your journey!
 In bocca al Granbull per il viaggio, \PN!
-Break a leg for your journey, \PN!
+Break a Granbull for your journey, \PN!
 Alan
 Alan
 La lotta in biblioteca è stata entusiasmante, ma non la farai franca con il nostro capo.
-La lotta in biblioteca è stata entusiasmante, ma non la farai franca con il nostro capo.
+The library battle was really exciting, but you won't<<n>>get away easily against the boss.
 Che batosta...
-Che batosta...
+I got trashed...
 Avrai anche stracciato me, ma non pensare che ti andrà bene anche con Claudio.
-Avrai anche stracciato me, ma non pensare che ti andrà bene anche con Claudio.
+You may have trashed me, but don't even think<<n>>you'll beat Ginger.
 <<[>>old<<]>>Vuoi tornare nel college?
 <<[>>old<<]>>Do you want to go back to college?
 Sì
@@ -348,17 +348,21 @@ Hanno anche detto che avrebbero aperto una volta per tutte un loro negozio di do
 \PN, grazie di aver aiutato quel Mimikyu. Da grande vorrei tanto diventare in gamba come te!
 \PN, grazie di aver aiutato quel Mimikyu. Da grande vorrei tanto diventare in gamba come te!
 Bobo
-Bobo
+Bobby
 Ho rivoltato come un calzino la Grotta Zerokelvin, ma ho beccato solo un bel raffreddore... etciù!!
-Ho rivoltato come un calzino la Grotta Zerokelvin, ma ho beccato solo un bel raffreddore... etciù!!
+I turned the Zero Cave inside-out, but I only got<<n>>this bad cold... Achoo!!
+Avrei fatto meglio a cercare tesori dell’antichità a <b>Cansiria</b>... etciù!!
+I'd better look for ancient treasures<<n>>in <b>Fortbelt Town</b>... Achoo!!
+M-Ma quello è proprio l'<b>Idolo di Fuoco</b> di Cansiria! (Dev’essere mio a tutti i costi! Etciù!!) Giovane Scoprirovine ti propongo uno scambio, che ne dici? Etciù!!
+B-but that's Fortbelt's <b>Idol of Fire</b>!<<n>>(It must be mine at any cost! Achoo!!)<<n>>Young Ruin Maniac, I offer you a trade,<<n>>what do you say? Achoo!!
 Scelta saggia, la tua cianfrusaglia per il mio preziosissimo oggetto. Prendi.
-Scelta saggia, la tua cianfrusaglia per il mio preziosissimo oggetto. Prendi.
+Wise choice, your junk for my invaluable item.<<n>>Take it.
 Quello è un <b>Cristallo di ghiaccio</b>, un autentico tesoro qui a Vetta Polare! Etciù!!
-Quello è un <b>Cristallo di ghiaccio</b>, un autentico tesoro qui a Vetta Polare! Etciù!!
+That's an <b>Ice Crystal</b>, a real treasure here<<n>>in Polaris Town! Achoo!!
 Peggio per te, avresti potuto guadagnarci qualcosa. (Ti prego, dammi quel tesoro! Etciù!!)
-Peggio per te, avresti potuto guadagnarci qualcosa. (Ti prego, dammi quel tesoro! Etciù!!)
+It's your loss, you could have made a buck from it.<<n>>(Please, gimme that treasure! Achoo!!)
 F-Finalmente l'Idolo di Fuoco è nelle mie mani! Etciù!!
-F-Finalmente l'Idolo di Fuoco è nelle mie mani! Etciù!!
+T-The Idol of Fire is finally mine! Achoo!!
 Hikiloo
 Hikiloo
 Kiloo...!
@@ -380,27 +384,31 @@ I was having a snowball fight with my <b>Hikiloo</b><<n>>in the <b>Zero Cave</b>
 AJ
 AJ
 Adoro alla follia i Pokémon Terra, in particolare <b>Sandshrew</b>... è così adorabile!!
-Adoro alla follia i Pokémon Terra, in particolare <b>Sandshrew</b>... è così adorabile!!
+I really love Ground-type Pokémon, especially <b>Sandshrew</b>... It's so cute!!
 La mia ragazza ha voluto regalarmene uno al nostro anniversario, ma che non era quello che cercavo... Era di tipo Ghiaccio!
-La mia ragazza ha voluto regalarmene uno al nostro anniversario, ma che non era quello che cercavo... Era di tipo Ghiaccio!
+My girlfriend wanted to get me one on our anniversary,<<n>>but that wasn't what I was looking for...<<n>>It was an Ice-type!
+Per caso tu ne hai uno di tipo Terra da scambiare con questo qui?
+Is there a chance you have a Ground-type one to trade<<n>>with this one?
 Se dovessi trovarne uno, sai dove trovarmi!
-Se dovessi trovarne uno, sai dove trovarmi!
+If you find one, you know where to find me!
 Evvai! Via allo scambio!
-Evvai! Via allo scambio!
+Yay! Let's trade!
 Aurora
-Aurora
+Snow
 Amo da impazzire i Pokémon Fuoco, in particolare <b>Vulpix</b>... è così adorabile!!
-Amo da impazzire i Pokémon Fuoco, in particolare <b>Vulpix</b>... è così adorabile!!
+I really love Fire-type Pokémon, especially <b>Vulpix</b>... It's so cute!!
 Il mio ragazzo ha voluto regalarmene uno al nostro anniversario, ma non era quello che cercavo... Era di tipo Ghiaccio!
-Il mio ragazzo ha voluto regalarmene uno al nostro anniversario, ma non era quello che cercavo... Era di tipo Ghiaccio!
+My boyfriend wanted to get me one on our anniversary,<<n>>but that wasn't what I was looking for...<<n>>It was an Ice-type!
+Per caso tu ne hai uno di tipo Fuoco da scambiare con questo qui?
+Is there a chance you have a Fire-type one to trade<<n>>with this one?
 Acqua in bocca con la mia ragazza, mi raccomando. Eh eh!
-Acqua in bocca con la mia ragazza, mi raccomando. Eh eh!
+Remember, don't tell this to my boyfriend. Heh heh!
 Acqua in bocca con il mio ragazzo, mi raccomando. Ih ih!
-Acqua in bocca con il mio ragazzo, mi raccomando. Ih ih!
+Remember, don't tell this to my boyfriend. Hee hee!
 Antonio
-Antonio
+Tony
 La Bicicletta ormai è superata da quando c’è in giro il nuovissimo <b>Pokéboard</b>!
-La Bicicletta ormai è superata da quando c’è in giro il nuovissimo <b>Pokéboard</b>!
+By now, the Bike is outdated since there's around<<n>>the brand new <b>Pokéboard</b>!
 <<[>>old<<]>>ATTENZIONE!\nPavimento ghiacciato
 <<[>>old<<]>>Watch out the frozen floor!
 <<[>>old<<]>>Mai rubare i Pokémon degli altri! Le Poké Ball vanno lanciate soltanto contro Pokémon selvatici!
@@ -412,19 +420,19 @@ Buddy, I'll never let anyone take you away from me again,<<n>>I promise!
 \PN, il signor Tarassaco mi ha chiesto di darti questa come ricompensa!
 \PN, mr. Taraxo told me to give you this as a reward!
 Non ho ben capito a cosa serva, ma parlava di spaccare le rocce con un guanto...? Sarà mica quello che indossi tu? Beh, io vado a giocare con Hikiloo! Grazie ancora di tutto, \PN!
-I didn't get what he said, but he was talking ‘bout smashing rocks with a glove. May it be the one you're wearing?<<n>>Well, I'm gonna go play with Hikiloo!<<n>>Thanks again for everything, \PN! 
+I didn't get what he said, but he was talking 'bout smashing rocks with a glove.<<n>>May it be the one you're wearing?<<n>>Well, I'm gonna go play with Hikiloo!<<n>>Thanks again for everything, \PN! 
 <<[>>old<<]>>ATTENZIONE!\nPericolo di scivolamento
 <<[>>old<<]>>Watch out! The bridge is frozen and slippery!
 Serena
-Serena
+Selena
 Mentre facevo la mia corsetta quotidiana ho trovato questa Bacca. Prendila pure.
-Mentre facevo la mia corsetta quotidiana ho trovato questa Bacca. Prendila pure.
+While I was doing my daily run I found this Berry.<<n>>Pick it up.
 Se dovessi trovarne delle altre, te lo farò sapere!
-Se dovessi trovarne delle altre, te lo farò sapere!
+If I found some more, I'll let you know!
 Valiano
-Valiano
+Vince
 Il villaggio è davvero poco popolato, ma lo capisco, non a tutti piace il freddo!
-Il villaggio è davvero poco popolato, ma lo capisco, non a tutti piace il freddo!
+The town is really sparsely populated, but I understand, not everyone likes the cold!
 Il signor Tarassaco mi ha dato un oggetto molto speciale, ma sarà tuo solo a missione compiuta!
 Mr. Taraxo gave me a very special item, but it'll be yours<<n>>only when you accomplish this!
 <<[>>old<<]>>Grotta Zerokelvin
@@ -497,12 +505,14 @@ Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
 Thank you for waiting.<<n>>We've restored your Pokémon to full health!
 Torna pure quando vuoi.
 We hope to see you again!
+Mnemonio
+Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 I can have your Pokémon remember any move<<n>>they forgot. Are you interested?
 A quale Pokémon vuoi far ricordare una mossa?
 Which Pokémon should I have remember a move?
 Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Come back when you'd like me to help your Pokémon remember a move.
+Come back when you'd like me to help your Pokémon<<n>>remember a move.
 Mi prendi in giro, forse?! Quello è solo un Uovo!
 You gotta be kidding me! That's merely an Egg!
 Uhm... Non vedo mosse che \v[3] possa ricordare...
@@ -594,15 +604,15 @@ Hit me up if you need something.
 Joe
 Joe
 Io e i miei Pokémon ti dimostreremo la nostra gratitudine per aver salvato il bosco con una lotta!
-Io e i miei Pokémon ti dimostreremo la nostra gratitudine per aver salvato il bosco con una lotta!
+Me and my Pokémon are so grateful that you saved<<n>>the forest! You deserve a battle!
 Avrei dovuto ringraziarti alla vecchia maniera...
-Avrei dovuto ringraziarti alla vecchia maniera...
+I should have thanked you the old-fashioned way...
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Damiano
-Damiano
+Timothy
 Queste hanno tutta l'aria di essere le impronte di un Pokémon raro... ma che dico, rarissimo!!
-Queste hanno tutta l'aria di essere le impronte di un Pokémon raro... ma che dico, rarissimo!!
+These look like some rare Pokémon footprints...<<n>>but I say... super rare!
 <<[>>old<<]>><b>Bosco Stellafilante</b> <i>''Un'oscura selva gremita di insetti.''</i>
 <<[>>old<<]>><b>Bosco Stellafilante</b> <i>''Un'oscura selva gremita di insetti.''</i>
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
@@ -626,65 +636,69 @@ Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
 <<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 Roberta
-Roberta
+Gabbie
 Stiamo conducendo delle ricerche all'insaputa di Aster, ma vedrai, sarà fiero di noi!
-Stiamo conducendo delle ricerche all'insaputa di Aster, ma vedrai, sarà fiero di noi!
+We're doing research without Aster knowing, but<<n>>I guarantee he'll be proud of us!
 Nadir
 Nadir
 Grazie! Grazie di averci salvato!
-Grazie! Grazie di averci salvato!
+Thank you! Thank you for saving us! 
 Valentina
-Valentina
+Natalie
 Eravamo venuti a fare un picnic nel bosco, quando l'aria ha iniziato a diventare gelida... dopodiché non ricordo più nulla!
-Eravamo venuti a fare un picnic nel bosco, quando l'aria ha iniziato a diventare gelida... dopodiché non ricordo più nulla!
+We came here to picnic in the woods, when suddenly the air started to get colder and colder...<<n>>and then I blacked out!
 Luca
-Luca
+Lucas
 Quel Pokémon che ho intravisto poco prima di svenire deve averci catturato. Chissà quanto saremmo rimasti qui se non fossi arrivato|a tu a soccorrerci!
-Quel Pokémon che ho intravisto poco prima di svenire deve averci catturato. Chissà quanto saremmo rimasti qui se non fossi arrivato|a tu a soccorrerci!
+That Pokémon I glimpsed not much before fainting must have caught us.<<n>>I wonder how long we'd have been here if you didn't come to rescue us!
+Scusa, ma ora devo tornare dal mio fratellino... non vedendomi tornare si sarà preoccupato. Se ti trovi a passare da <b>Borgo Gemini</b>, vieni pure a trovarmi!
+Sorry, but I gotta get back to my lil' brother now...<<n>>he must have been worried about me.<<n>>If you're ever in <b>Stellato Town</b>, come and visit me!
 Sarà meglio che vada anch'io... Tieni questa bacca come segno di ringraziamento.
-Sarà meglio che vada anch'io... Tieni questa bacca come segno di ringraziamento.
+I should go too... In gratitude, I want to give you these. 
 Al chiosco ne ricavano dell'ottimo <b>Sidrostelle</b>, ma puoi anche usarla per far recuperare PP ai Pokémon.
-Al chiosco ne ricavano dell'ottimo <b>Sidrostelle</b>, ma puoi anche usarla per far recuperare PP ai Pokémon.
+At the kiosk they turn them into excellent <b>Star Sider</b>, but you can use them to restore your Pokémon's PP too.
+Grazie ancora!
+Thanks again!
 Anch'io vorrei ringraziarti. Prendi questa!
-Anch'io vorrei ringraziarti. Prendi questa!
+I, too, would like to thank you. Take this!
 Proseguendo per il <b>Percorso 6</b> arriverai a <b>Virgopoli</b>, un regno che ospita una Palestra. Se non hai fretta però potresti sfruttare la fauna di questa palude per allenarti. Ha tanti segreti da nascondere, sai? Beh, ora me ne torno a casa!
-Proseguendo per il <b>Percorso 6</b> arriverai a <b>Virgopoli</b>, un regno che ospita una Palestra. Se non hai fretta però potresti sfruttare la fauna di questa palude per allenarti. Ha tanti segreti da nascondere, sai? Beh, ora me ne torno a casa!
+Continuing on <b>Route 6</b>, you get to <b>Milkiway City</b>, a kingdom that hosts a Gym.<<n>>And if you're not in a hurry, you could use the fauna of<<n>>this swamp for your training. It still has a lot to hide!<<n>>Well, I'm going back home now!
 Gianpiero
-Gianpiero
+Jimmy
 Ehi, tu! Guarda che strano Pokémon Coleottero ho catturato!
-Ehi, tu! Guarda che strano Pokémon Coleottero ho catturato!
+Hey, you! Look how weird is this Bug Pokémon<<n>>I caught!
 Ah, non è un Coleottero...?
-Ah, non è un Coleottero...?
+Wait, it's not a Bug...?
 <<[>>old<<]>>Radura Paludosa ad est Percorso 6 a sud
-<<[>>old<<]>>Radura Paludosa ad est Percorso 6 a sud
+<<[>>old<<]>>East: Murky Swamp\nSouth: Route 6
 Gustavo
-Gustavo
+Rowan
 Finiti gli accertamenti potrai passare, ma al momento la zona è off-limits.
-Finiti gli accertamenti potrai passare, ma al momento la zona è off-limits.
+Once investigations will be done you'll pass, but<<n>>until then this area is off limits.
 <<[>>old<<]>>Immergendosi in questa melma, i tuoi Pokémon rischiano di rimanere avvelenati, perciò cerca di attraversarla in fretta!
 <<[>>old<<]>>Immergendosi in questa melma, i tuoi Pokémon rischiano di rimanere avvelenati, perciò cerca di attraversarla in fretta!
 Fabio
-Fabio
+Alvin
 All'attacco, Heracross!!
-All'attacco, Heracross!!
+Go, Heracross!!
 Sei stato bravissimo, Heracross.
-Sei stato bravissimo, Heracross.
+You did great, Heracross.
 Max
 Max
 Ricordo ancora i bei vecchi boschi pullulanti di Weedle...
-Ricordo ancora i bei vecchi boschi pullulanti di Weedle...
+I remember old forests full of Weedle...
 Era tutto così old style...
-Era tutto così old style...
+Everything was so old-style...
 Alleno i miei Pokémon nei boschi da prima che fosse mainstream!
-Alleno i miei Pokémon nei boschi da prima che fosse mainstream!
+I have been training my Pokémon in the forests before<<n>>it was mainstream!
 Amariso
-Amariso
+Joshua
 I miei Pokémon Coleottero sono così carini! Perché mai farli evolvere?
-I miei Pokémon Coleottero sono così carini! Perché mai farli evolvere?
+My Bug Pokémons are so cute!<<n>>Why would someone evolve them?
 I miei piccoli amici!!
-I miei piccoli amici!!
+My little friends!!
 E poi è risaputo che, allo stadio base, i Pokémon imparano alcune mosse più in fretta!
-E poi è risaputo che, allo stadio base, i Pokémon imparano alcune mosse più in fretta!
+It's well known that, at the base stage,<<n>>Pokémon learn moves faster!
 Sì
 Yes
 No
@@ -753,12 +767,14 @@ Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natal
 Hi there, I'm here to give you a gift from the whole staff.<<n>>Take this and merry Christmas! Ho ho ho!
 Buon Natale a nome di tutto lo staff!
 Merry Christmas from the whole staff!
+Mnemonio
+Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 I can have your Pokémon remember any move<<n>>they forgot. Are you interested?
 A quale Pokémon vuoi far ricordare una mossa?
 Which Pokémon should I have remember a move?
 Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Come back when you'd like me to help your Pokémon remember a move.
+Come back when you'd like me to help your Pokémon<<n>>remember a move.
 Mi prendi in giro, forse?! Quello è solo un Uovo!
 You gotta be kidding me! That's merely an Egg!
 Uhm... Non vedo mosse che \v[3] possa ricordare...
@@ -959,11 +975,11 @@ No
 No
 [Map27]
 Umberta
-Umberta
+Bertha
 È stata dura, ma finalmente si riesce a intravedere il campus!
-È stata dura, ma finalmente si riesce a intravedere il campus!
+It was hard but I'm glimpsing the campus!
 Guarda, è proprio laggiù!
-Guarda, è proprio laggiù!
+Look, it's over there!
 Melodias
 Miller
 La traversata fino al monte è impervia, ma una lotta mi scalderà a dovere!
@@ -981,7 +997,7 @@ They sent me to get the ball back but I'm sure<<n>>there was no home run!
 Proprio non la trovo... Tu la vedi?
 I really can't find it... do you see it?
 Sto cominciando a dubitare dei miei compagni...
-I’m starting to doubt my mates...
+I'm starting to doubt my mates...
 Denis
 Dennis
 Quel Pescatore laggiù non ha tirato su nemmeno un misero Magikarp... E tu che vuoi?!
@@ -1054,7 +1070,7 @@ Clover
 \PN! Ti vedo un po' stanco|a... Forse dovresti riposare...
 \PN! You look a bit tired... You should rest...
 Non esitare a tornare dalla mamma quando ne hai bisogno!
-Don’t hesitate to come back home whenever you need it!
+Don't hesitate to come back home whenever you need it!
 Finalmente ti sei svegliato, dormiglione!
 You're finally awake sleepy boy!
 Auguri di buon compleanno, \PN!
@@ -1068,7 +1084,7 @@ Darling... what's wrong? You seem upset.
 E così è arrivato il momento... Vieni, andiamo a sederci.
 Well, the time has come... Come sit with me.
 Non sarà il giorno più adatto, ma penso che ora tu sia grande abbastanza per questa storia. Quello che mi hai raccontato non è un semplice sogno!
-It’s probably not the best day, but I think you are old enough for this story, now.<<n>>What you told me isn’t just a dream!
+It's probably not the best day, but I think you are old enough for this story, now.<<n>>What you told me isn't just a dream!
 Undici anni fa ormai, tuo padre decise di portarti a fare un giro al di fuori del nostro ranch... Io ero abbastanza contraria e quel giorno ero davvero in pena per il vostro rientro. Il fatto che ci fosse papà con te, però, mi tranquillizzava.
 Eleven years ago, your father decided to bring you outside our ranch...<<n>>I was pretty against that and at the same time so worried about you two.<<n>>Dad was with you though, so that reassured me.
 Tuttavia, quella sera, nessuno fece ritorno...
@@ -1078,7 +1094,7 @@ Days after, <b>Nana Flora</b> knocked on the door, in the middle of the night...
 Di tuo padre, però, nemmeno l'ombra... Da quel giorno non lo vidi più...
 But your father was not there... I haven't seen him since that day...
 Mi dispiace di avertene parlato solo adesso, dopo anni di menzogne su menzogne...
-I’m sorry I waited so long to tell you about this, after years of lies...
+I'm sorry I waited so long to tell you about this, after years of lies...
 Tu
 You
 ...!
@@ -1086,11 +1102,11 @@ You
 Tesoro! Ma cosa dici?! Ti sei bevuto il cervello per caso?! Come ti salta in mente una cosa simile?!
 Darling! Wha- are you out of your mind?<<n>>How can you think of such a thing?!
 Non sei pronto per metterti sulle tracce di papà. Sei ancora un ragazzino!
-You’re not ready to go look for your father yet.<<n>>You’re still a child!
+You're not ready to go look for your father yet.<<n>>You're still a child!
 Ce ne stiamo già occupando io e <b>Aster</b>... Non è semplice neanche per noi adulti!
-We are working on it, I and <b>Aster</b>... It’s not that easy for us adults either!
+We are working on it, I and <b>Aster</b>... It's not that easy for us adults either!
 Insistere non servirà a niente, \PN! Non cambierò idea per nulla al mondo! Se dopo papà dovessi perdere anche te, il mio unico figlio, io...
-Don’t insist, \PN! There is no way in the world<<n>>I’m changing my mind!<<n>>If I were to lose you too, my only child, I- sigh!
+Don't insist, \PN! There is no way in the world<<n>>I'm changing my mind!<<n>>If I were to lose you too, my only child, I- sigh!
 Sigh!
 Sigh!
 Sigh... sigh... Fila in camera tua, ora!
@@ -1106,9 +1122,9 @@ Days after, <b>Nana Flora</b> knocked on the door, in the middle of the night...
 Tesoro! Ma cosa dici?! Ti sei bevuta il cervello per caso?! Come ti salta in mente una cosa simile?!
 Darling! Wha- are you out of your mind?<<n>>How can you think of such a thing?!
 Non sei pronta per metterti sulle tracce di papà. Sei ancora una ragazzina!
-You’re not ready to go look for your father yet.<<n>>You’re still a child!
+You're not ready to go look for your father yet.<<n>>You're still a child!
 Insistere non servirà a niente, \PN! Non cambierò idea per nulla al mondo! Se dopo papà dovessi perdere anche te, la mia unica figlia, io...
-Don’t insist, \PN! There is no way in the world<<n>>I’m changing my mind!<<n>>If I were to lose you too, my only child, I- sigh!
+Don't insist, \PN! There is no way in the world<<n>>I'm changing my mind!<<n>>If I were to lose you too, my only child, I- sigh!
 Versil
 Versil
 \PN! Vieni un po' qui!
@@ -1179,12 +1195,14 @@ Evaristo
 Evolt
 Avrei tanto voluto far evolvere il mio <b>Hikiloo</b>, ma ahimè, non ho mai trovato una <b>Pietragelo</b>.
 I really wanted to evolve my <b>Hikiloo</b>, but unfortunately I've never found an <b>Ice Stone</b>.
+Mnemonio
+Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 I can have your Pokémon remember any move<<n>>they forgot. Are you interested?
 A quale Pokémon vuoi far ricordare una mossa?
 Which Pokémon should I have remember a move?
 Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Come back when you'd like me to help your Pokémon remember a move.
+Come back when you'd like me to help your Pokémon<<n>>remember a move.
 Mi prendi in giro, forse?! Quello è solo un Uovo!
 You gotta be kidding me! That's merely an Egg!
 Uhm... Non vedo mosse che \v[3] possa ricordare...
@@ -1310,17 +1328,23 @@ It's not every day you run into such a pretty Trainer.<<n>>Ha ha ha!
 I <b>Sergenti</b> stanno cercando qualcosa di grosso in questo Campus. Non ce ne andremo finché non l'avremo ottenuto! <i>Bzz!</i>
 I <b>Sergenti</b> stanno cercando qualcosa di grosso in questo Campus. Non ce ne andremo finché non l'avremo ottenuto! <i>Bzz!</i>
 Ormai il Campus è in mano al Team Dimension! <i>Bzz!</i>
-Ormai il Campus è in mano al Team Dimension! <i>Bzz!</i>
+This campus is in the hands of Team Dimension now! <i>Bzz!</i>
 Non ci capisco niente di tutti questi appunti!
 I don't get these notes at all!
 Accesso negato agli umani. <i>Bzz!</i>
 Accesso negato agli umani. <i>Bzz!</i>
 Sparisci se non vuoi fare una brutta fine. <i>Bzz!</i>
-Sparisci se non vuoi fare una brutta fine. <i>Bzz!</i>
+Human, you don't want trouble, you get! <i>Bzz!</i>
 ''Si sta come d'estate, sui libri, gli studenti.''
 ''We were as in sommer, on books, the students.''
+Primo
+Firsto
+Secondo
+Secundo
+Terzo
+Thirdo
 Noi siamo il trio scelto di Claudio. Non passerai di qui senza esserti meritato|a la sua Medaglia!
-We are Ginger’s chosen trio. You shall not pass through here until you've earned his Badge!
+We are Ginger's chosen trio. You shall not pass through here until you've earned his Badge!
 <<[>>old<<]>>College Ariepoli
 <<[>>old<<]>>Newtron College
 Furio
@@ -1352,13 +1376,13 @@ Mina
 Sto cercando un <b>Hikiloo</b>. Ne avresti mica uno da scambiare col mio <b>Chigami</b>?
 I'm  looking for an <b>Hikiloo</b>. Are there any chances you have one to trade for my <b>Chigami</b>?
 Oh, beh... Pazienza!
-Oh, beh... Pazienza!
+Oh, okay... Don't worry!
 Evviva! Diamo subito il via allo scambio!
-Evviva! Diamo subito il via allo scambio!
+Hooray! Let's trade then!
 Grazie per lo scambio!
-Grazie per lo scambio!
+Thank you so much!
 Questa zona è off-limits per i mocciosi come te. <i>Bzz!</i>
-Questa zona è off-limits per i mocciosi come te. <i>Bzz!</i>
+This area's off limits to kids like you. <i>Bzz!</i>
 Joyce
 Joyce
 Qui al campus mi conoscono tutti come Infermiera Joyce, lascio indovinare a te il motivo. Se i tuoi Pokémon hanno bisogno di cure, non esitare a chiedermi una mano!
@@ -1380,17 +1404,17 @@ I want that masked guy back!<<n>>This poet is so annoying...!
 Claudio
 Ginger
 \PN, aspetta un attimo!
-\PN, aspetta un attimo!
+\PN, wait a sec!
 Conosci già Aster, non è vero?
-Conosci già Aster, non è vero?
+You already know Aster, don't you? 
 Sai, lui e mio padre hanno sviluppato un veicolo apposito per gli Allenatori di Pokémon. È il <b>Pokéboard</b>, una sorta di skateboard fluttuante che viaggia ad una velocità impressionante!
-Sai, lui e mio padre hanno sviluppato un veicolo apposito per gli Allenatori di Pokémon. È il <b>Pokéboard</b>, una sorta di skateboard fluttuante che viaggia ad una velocità impressionante!
+So, he and my father have developed a specific vehicle<<n>>for Pokémon Trainers.<<n>>It's the <b>Pokéboard</b>, a kind of a floating skateboard that runs around fast as heck!
 Proprio oggi papà mi ha spedito un nuovo modello da <b>Sagittopoli</b>, ma vorrei che fossi tu ad averlo. Prendilo come un ringraziamento per aver salvato il campus!
-Proprio oggi papà mi ha spedito un nuovo modello da <b>Sagittopoli</b>, ma vorrei che fossi tu ad averlo. Prendilo come un ringraziamento per aver salvato il campus!
+Just today, dad sent me the new model from<<n>><b>Vega City</b>, but I want you to have it now.<<n>>Just think of it as a thank you for saving the campus!
 Beh, ci si vede, \PN!
-Beh, ci si vede, \PN!
+Well, see you, \PN!
 Sparisci, umano|a! <i>Bzz!</i>
-Sparisci, umano|a! <i>Bzz!</i>
+Beat it, human! <i>Bzz!</i>
 Caterina
 Kathrine
 Hai visto che bei girasoli?
@@ -1416,37 +1440,49 @@ Any time is a good time to keep fit!
 Marta
 Martha
 Dalle mie parti non ci sono città-studio del genere.
-Where I’m from there aren't Academy Cities like this.
+Where I'm from there aren't Academy Cities like this.
+Alan
+Alan
 Sei stato|a formidabile in biblioteca! Mai pensato di unirti alla confraternita? Ad ogni modo, accetta questo piccolo regalo.
-Sei stato|a formidabile in biblioteca! Mai pensato di unirti alla confraternita? Ad ogni modo, accetta questo piccolo regalo.
+You were terrific in the library! Have you ever thought of joining our corporation?
+Ad ogni modo, accetta questo piccolo regalo.
+By the way, take this little gift.
 Ci si vede in Palestra!
-Ci si vede in Palestra!
+See you later at the Gym!
 Bardo
 Brandon
 Guarda come si finisce a poltrire per tutta la vita... ma da lunedì cambia tutto!
 I've been lazy my entire life...<<n>>but from Monday I will change!
+Marcus
+Eric
 Spero di misurarmi al più presto con te.
-Spero di misurarmi al più presto con te.
+I'm looking forward to challenging you.
+Intanto, prendi questo come ringraziamento per aver aiutato il capo. Te lo meriti!
+Well, meanwhile, take this for helping our boss.<<n>>You really deserve it!
 Ci becchiamo in Palestra!
-Ci becchiamo in Palestra!
+Smell you later at the Gym!
 Ehi, \PN!
-Ehi, \PN!
+Hey there, \PN!
 Fortuna che eri ancora qui al campus!
-Fortuna che eri ancora qui al campus!
+Whew! How lucky that you were still here on campus!
+Ho saputo che il tuo Pokémon si è evoluto! Io e Pikachu volevamo complimentarci con te!
+I heard your Pokémon has evolved! Pikachu and I wanted to compliment you!
 Fammi indovinare... Stavi andando a sfidare la Palestra, vero? Il mio sesto senso non mente mai!
-Fammi indovinare... Stavi andando a sfidare la Palestra, vero? Il mio sesto senso non mente mai!
+Lemme guess... You're going to challenge the Gym,<<n>>aren't you? My sense is very accurate!
+Allora, che ne dici... Ti va una sfida preliminare con me?
+So, what about, um, a preliminary battle against me?
 Vediamo se hai davvero la stoffa per mettere alle strette il Capopalestra! Coraggio!
-Vediamo se hai davvero la stoffa per mettere alle strette il Capopalestra! Coraggio!
+Let's see if you truly have what it takes to corner<<n>>the Gym Leader! C'mon!
 Ahi ahi! Ho perso!
-Ahi ahi! Ho perso!
+Ouch! You got me!
 Sei davvero forte, \PN! Le voci che girano in campus sono proprio vere!
-Sei davvero forte, \PN! Le voci che girano in campus sono proprio vere!
+You're so strong, \PN! The rumors I've heard<<n>>all around the campus are true!
 Probabilmente te la caverai anche contro Claudio, anzi, ne sono sicuro! Per precauzione, però, ti darò questo regalino. Chissà che non ti torni utile durante la lotta.
-Probabilmente te la caverai anche contro Claudio, anzi, ne sono sicuro! Per precauzione, però, ti darò questo regalino. Chissà che non ti torni utile durante la lotta.
+You'll probably be fine against Ginger too, no, um,<<n>>I'm sure about that!<<n>>But as a precaution, I'll give you this. It might be useful during the battle, who knows.
 Mi raccomando, \PN, fatti valere in Palestra! Faccio il tifo per te!
-Mi raccomando, \PN, fatti valere in Palestra! Faccio il tifo per te!
+C'mon, \PN, get some fame at the Gym!<<n>>I'm cheering for you!
 Probabilmente te la caverai anche contro Claudio, anzi, ne sono sicura! Per precauzione, però, ti darò questo regalino. Chissà che non ti torni utile durante la lotta.
-Probabilmente te la caverai anche contro Claudio, anzi, ne sono sicura! Per precauzione, però, ti darò questo regalino. Chissà che non ti torni utile durante la lotta.
+You'll probably be fine against Ginger too, no, um,<<n>>I'm sure about that!<<n>>But as a precaution, I'll give you this. It might be useful during the battle, who knows.
 Sì
 Yes
 No
@@ -1461,19 +1497,21 @@ Use Box
 Troy
 Troy
 La ragazza sulla panchina laggiù mi piace da matti. Il fatto è che sono troppo timido per andarci a parlare!
-La ragazza sulla panchina laggiù mi piace da matti. Il fatto è che sono troppo timido per andarci a parlare!
+I'm really into the girl sitting on the bench down there.<<n>>But I'm too shy to talk to her!
 Gabriella
 Gabriella
 Quel ragazzo laggiù è davvero carino, ma sono troppo timida per farmi avanti...
-Quel ragazzo laggiù è davvero carino, ma sono troppo timida per farmi avanti...
+That guy over there is really cute, but I'm too shy<<n>>to ask him out...
 N8M
 N8M
 Gli umani devono stare alla larga dalla biblioteca, ordine dei <b>Sergenti</b>! <i>Bzz!</i>
-Gli umani devono stare alla larga dalla biblioteca, ordine dei <b>Sergenti</b>! <i>Bzz!</i>
+Humans must keep out the library, it's an order<<n>>from <b>Sergeants</b>! <i>Bzz!</i>
+Se i Sergenti venissero a sapere della mia sconfitta... mi rottamerebbero! <i>Bzz!</i>
+If the Sergeants would ever find out my defeat...<<n>>they would scrap me for sure!<i>Bzz!</i>
 E-Errore.
-E-Errore.
+E-Error.
 Devo assolutamente dare il segnale alle altre <b>Reclute</b>.
-Devo assolutamente dare il segnale alle altre <b>Reclute</b>.
+I absolutely must give the signal to the other <b>Grunts</b>.
 [Map36]
 <<[>>old<<]>>Percorso 1 a nord
 <<[>>old<<]>>North: Route 1
@@ -1484,7 +1522,7 @@ Moo...!
 Nonna Lea
 Nana Flora
 Giocare coi Pokémon è uno spasso, vero? Fa ringiovanire persino me...
-Playing with Pokémon is so much fun, isn’t it?<<n>>It makes me feel younger, even...
+Playing with Pokémon is so much fun, isn't it?<<n>>It makes me feel younger, even...
 È sempre difficile muovere i primi passi... Ma qui c'è Nonna Lea a darti una mano!
 First steps are always difficult. But your Nana is here to help you!
 Nonna Lea è sempre qui per te.
@@ -1496,21 +1534,21 @@ Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>A quanto pare Shyleon ha tutta l'intenzione di venire con te! Meglio farlo rientrare nella Poké Ball...
-<<[>>old<<]>>Shyleon seems to be determined to come with you! It’d better get back in its Poké Ball...
+<<[>>old<<]>>Shyleon seems to be determined to come with you! It'd better get back in its Poké Ball...
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>A quanto pare Trishout ha tutta l'intenzione di venire con te! Meglio farlo rientrare nella Poké Ball...
-<<[>>old<<]>>Trishout seems to be determined to come with you! It’d better get back in its Poké Ball...
+<<[>>old<<]>>Trishout seems to be determined to come with you! It'd better get back in its Poké Ball...
 Shulong
 Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>A quanto pare Shulong ha tutta l'intenzione di venire con te! Meglio farlo rientrare nella Poké Ball...
-<<[>>old<<]>>Shulong seems to be determined to come with you! It’d better get back in its Poké Ball...
+<<[>>old<<]>>Shulong seems to be determined to come with you! It'd better get back in its Poké Ball...
 <<[>>old<<]>>Non vorrai rientrare in casa dopo tutta la fatica...?
-<<[>>old<<]>>You can’t go back home after all that trouble!
+<<[>>old<<]>>You can't go back home after all that trouble!
 Edera
 Edera
 \PN, non ti fermi proprio mai, tu!
@@ -1556,9 +1594,9 @@ Ho-ho! Look at that... Your mommy finally<<n>>let you go, huh?<<n>>She probably 
 Beh, stai per affrontare un viaggio che ti porterà ad incontrare tanti nuovi Pokémon! Lascia che ti mostri una cosuccia allora!
 Well, you are about to start a journey that will make<<n>>you run into a bunch of new Pokémon!<<n>>Let me show you something then!
 Come puoi ben vedere, quest'erba è più alta di quella normale... È qui che si annidano i Pokémon selvatici! Ma non temere, puoi catturarli con dei particolari aggeggi chiamati Poké Ball. Ecco, prendine un po'.
-As you can see, the grass here is taller than usual...<<n>>That’s where wild Pokémon live!<<n>>But don’t worry, you can catch them with special gizmos called Poké Balls.<<n>>Here, take some.
+As you can see, the grass here is taller than usual...<<n>>That's where wild Pokémon live!<<n>>But don't worry, you can catch them with special gizmos called Poké Balls.<<n>>Here, take some.
 Tuttavia, non si può catturare un Pokémon nel pieno delle forze... occorre prima indebolirlo! Solo dopo averlo attaccato, puoi lanciargli una Poké Ball e sperare di acchiapparlo. Perché non fai una prova?
-However, you cannot catch a healthy Pokémon...<<n>>you must weaken it first!<<n>>After having battled for a bit, try to launch a Poké Ball<<n>>and cross your fingers to catch it.<<n>>Why don’t you give it a try?
+However, you cannot catch a healthy Pokémon...<<n>>you must weaken it first!<<n>>After having battled for a bit, try to launch a Poké Ball<<n>>and cross your fingers to catch it.<<n>>Why don't you give it a try?
 <<[>>old<<]>>Ogni nuovo incontro è una nuova possibilità! Non perdere l'occasione di parlare con la gente e scoprire cose utili.
 <<[>>old<<]>>Ogni nuovo incontro è una nuova possibilità! Non perdere l'occasione di parlare con la gente e scoprire cose utili.
 Pino
@@ -1568,7 +1606,7 @@ Hey, you! Would you like to fight?
 Davvero una lotta coi fiocchi!
 It really was a great battle!
 Si direbbe quasi che tu sia già avvezzo|a alle lotte Pokémon...
-It looks like you’re already used to Pokémon battles...
+It looks like you're already used to Pokémon battles...
 Ricorda che un Pokémon addormentato o paralizzato è più facile da catturare!
 Ricorda che un Pokémon addormentato o paralizzato è più facile da catturare!
 Ciao, \PN! Allora come procede l’avventura?
@@ -1580,15 +1618,15 @@ Here you are, \PN! So, did you find a <b>Dreamcatcher</b>?
 Oh, ma guarda un po’, me ne hai portato uno! Ma dove l’hai trovato? Ih ih!
 Look at that, you got me one!<<n>>Where did you find it? Hee-hee!
 Ecco, prendi questa <b>Campana Mumu</b> per esserti preso|a il disturbo! È il souvenir di questo ranch!
-Here you go, take this <b>Moomoo Bell</b> for your trouble!<<n>>It’s the souvenir of this ranch!
+Here you go, take this <b>Moomoo Bell</b> for your trouble!<<n>>It's the souvenir of this ranch!
 Grazie a te, ora potrò dormire sonni tranquilli.
 Thanks to you I'll sleep soundly now.
 <<[>>old<<]>>Devi prima entrare nell'erba alta!
 <<[>>old<<]>>Get in the tall grass first!
 <<[>>old<<]>>È il monumento in memoria del nonno... Che possa riposare in pace.
-<<[>>old<<]>>t’s grandfather's memorial... May he rest in peace.
+<<[>>old<<]>>It's grandfather's memorial... May he rest in peace.
 Fatti avanti senza paura! Il primo Pokémon non si scorda mai!
-Go on, no fears! You’ll never forget your first catch!
+Go on, no fears! You'll never forget your first catch!
 <<[>>old<<]>>Casa di \PN
 <<[>>old<<]>>\PN's Home
 <<[>>old<<]>>Andrei prima a portare un saluto al monumento del nonno...
@@ -1596,13 +1634,13 @@ Go on, no fears! You’ll never forget your first catch!
 <<[>>old<<]>><b>Ranch Spigadoro</b> <i>''Dove nascono nuove stelle.''</i>
 <<[>>old<<]>><b>Nova Ranch</b> <i>''Where new stars are born.''</i>
 Dove pensi di andare, giovanotto?!
-Where do you think you’re going?!
+Where do you think you're going?!
 Pensavi davvero di andartene senza dirmi nulla?! Ti sembra un comportamento maturo il tuo?!
 Did you really want to run away without saying a word?! What a childish behavior!
 Lo so benissimo che ti manca papà! Pensi che io non provi lo stesso, \PN? Non è affatto facile crescere un figlio da sola!
-I know you miss your dad! Don’t you think I feel the same, \PN?<<n>>It’s not easy to raise a child on your own!
+I know you miss your dad! Don't you think I feel the same, \PN?<<n>>It's not easy to raise a child on your own!
 Credi sul serio che un novizio come te possa fare più di due adulti? Non ti rendi conto di quanto sia pericoloso il mondo là fuori!
-Do you really think a newbie like you could do more than<<n>>two adults?!<<n>>You don’t even imagine how dangerous the world<<n>>out there is!
+Do you really think a newbie like you could do more than<<n>>two adults?!<<n>>You don't even imagine how dangerous the world<<n>>out there is!
 Tu
 You
 ...!
@@ -1614,7 +1652,7 @@ I see talk is cheap with you, \PN.<<n>>Well, then...
 Dimostrami di essere davvero all'altezza con una lotta Pokémon!
 Prove me to be worthy of this with a Pokémon battle!
 Se darti una lezione servirà a proteggerti, lo farò senza pensarci due volte. Avanti!
-I’m ready to teach you a lesson if that’s the only way I have to protect you. Come on!
+I'm ready to teach you a lesson if that's the only way I have to protect you. Come on!
 Hai la sua stessa determinazione...
 I can see his determination shining through your eyes...
 Trishout è della stessa idea allora...! Sarebbe dovuto succedere, prima o poi...
@@ -1622,29 +1660,29 @@ So Trishout agrees with you...!<<n>>It had to happen, sooner or later...
 Shulong è della stessa idea allora...! Sarebbe dovuto succedere, prima o poi...
 So Shulong agrees with you...!<<n>>It had to happen, sooner or later...
 Dove pensi di andare, signorina?!
-Where do you think you’re going?!
+Where do you think you're going?!
 Lo so benissimo che ti manca papà! Pensi che io non provi lo stesso, \PN? Non è affatto facile crescere una figlia da sola!
-I know you miss your dad! Don’t you think I feel the same, \PN?<<n>>It’s not easy to raise a child on your own!
+I know you miss your dad! Don't you think I feel the same, \PN?<<n>>It's not easy to raise a child on your own!
 Credi sul serio che una novizia come te possa fare più di due adulti? Non ti rendi conto di quanto sia pericoloso il mondo là fuori!
-Do you really think a newbie like you could do more than<<n>>two adults?!<<n>>You don’t even imagine how dangerous the world<<n>>out there is!
+Do you really think a newbie like you could do more than<<n>>two adults?!<<n>>You don't even imagine how dangerous the world<<n>>out there is!
 ... Ma a chi voglio darla a bere? Non riesco a far cambiare idea a mio figlio, figuriamoci a ritrovare un uomo scomparso...
-...<<n>>Who am I kidding?<<n>>I cannot even change my son’s mind, how am I supposed to find a missing man...?
+...<<n>>Who am I kidding?<<n>>I cannot even change my son's mind, how am I supposed to find a missing man...?
 \PN, nei tuoi occhi ho visto la determinazione... È davvero questo ciò che desideri più d'ogni altra cosa?
-\PN, I’ve seen the determination in your eyes...<<n>>Is this what you really desire the most in this world?
+\PN, I've seen the determination in your eyes...<<n>>Is this what you really desire the most in this world?
 Forse è proprio come dice Nonna Lea, non bisogna tarpare le ali ai propri figli...
-Maybe Nana Flora is right, I shouldn’t clip<<n>>my child’s wings...
+Maybe Nana Flora is right, I shouldn't clip<<n>>my child's wings...
 Ho sbagliato a tenerti all'oscuro così a lungo, ma l'ho fatto solo per il tuo bene!
 I had no right to keep you from this so long, but I did it<<n>>only for your sake!
 Adesso che sai la verità, però, sono certa che non saresti felice di star qui, senza poter fare nulla per reagire!
-But now you know the truth, I’m sure you won’t be happy<<n>>to stay here without being able to help!
+But now you know the truth, I'm sure you won't be happy<<n>>to stay here without being able to help!
 E va bene, tesoro! È giusto che anche tu spicchi il volo per crescere e maturare! Se questo è il tuo sogno, va' e affronta la tua grande avventura per <b>Eldiw</b>! Ma ricorda che per qualsiasi cosa io sarò qui, pronta ad accoglierti a braccia aperte!
-Okay, darling! I think you should leave the nest to grow and mature!<<n>>If this is what you want, just go and embark on this great adventure through <b>Eldiw</b> region!<<n>>But remember, I’ll always be here and you’ll always be welcome, whenever you need!
+Okay, darling! I think you should leave the nest to grow and mature!<<n>>If this is what you want, just go and embark on this great adventure through <b>Eldiw</b> region!<<n>>But remember, I'll always be here and you'll always be welcome, whenever you need!
 Oh, giusto!
 Oh, right!
 Con tutta questa faccenda quasi dimenticavo il tuo regalo di compleanno.
 This whole thing almost made me forget your birthday present.
 Ecco qui, ometto! Queste ti faranno di sicuro comodo!
-Here it is, lil' man! You’ll love these!
+Here it is, lil' man! You'll love these!
 <<[>>old<<]>>Hai ottenuto delle scarpe nuove di zecca!
 <<[>>old<<]>>You obtained a pair of brand-new shoes!
 Forza, indossale.
@@ -1652,33 +1690,33 @@ Come on, put them on!
 Qui, sulla confezione, c'è scritto di premere il tasto Z per correre più veloce di un lampo!
 Here, on the package, they say to hold Z-key to run faster than the wind!
 Ora hai tutto il necessario per raggiungere <b>Balansopoli</b> in sicurezza. Lì troverai <b>Aster</b>, un vecchio amico di papà. Senza dubbio saprà darti qualche dritta!
-Now you have everything you need to reach<<n>><b>Hadwarf City</b> safely.<<n>>Down there you will meet <b>Aster</b>, an old friend of dad’s.<<n>>I’m sure he'll give you some useful tips!
+Now you have everything you need to reach<<n>><b>Hadwarf City</b> safely.<<n>>Down there you will meet <b>Aster</b>, an old friend of dad's.<<n>>I'm sure he'll give you some useful tips!
 Mi raccomando, non farmi stare in pensiero. Shyleon, tienimelo d'occhio, intesi? Ah ah ah!
-Be careful, and don’t make me worry.<<n>>Shyleon, keep an eye on this brat, okay? Ha ha ha!
+Be careful, and don't make me worry.<<n>>Shyleon, keep an eye on this brat, okay? Ha ha ha!
 In bocca al lupo, mio piccolo ometto! Ti voglio bene.
 Best of luck to you, my lil' man!<<n>>I love you.
 Mi raccomando, non farmi stare in pensiero. Trishout, tienimelo d'occhio, intesi? Ah ah ah!
-Be careful, and don’t make me worry.<<n>>Trishout, keep an eye on this brat, okay? Ha ha ha!
+Be careful, and don't make me worry.<<n>>Trishout, keep an eye on this brat, okay? Ha ha ha!
 Mi raccomando, non farmi stare in pensiero. Shulong, tienimelo d'occhio, intesi? Ah ah ah!
-Be careful, and don’t make me worry.<<n>>Shulong, keep an eye on this brat, okay? Ha ha ha!
+Be careful, and don't make me worry.<<n>>Shulong, keep an eye on this brat, okay? Ha ha ha!
 ... Ma a chi voglio darla a bere? Non riesco a far cambiare idea a mia figlia, figuriamoci a ritrovare un uomo scomparso...
 ...<<n>>Who am I kidding?<<n>>I cannot even change my daughter's mind, how am I supposed to find a missing man...?
 Ecco qui, principessa! Queste ti faranno di sicuro comodo!
-Here it is, princess! You’ll love these!
+Here it is, princess! You'll love these!
 Mi raccomando, non farmi stare in pensiero. Shyleon, tienimela d'occhio, intesi? Ah ah ah!
-Be careful, and don’t make me worry.<<n>>Shyleon, keep an eye on this brat, okay? Ha ha ha!
+Be careful, and don't make me worry.<<n>>Shyleon, keep an eye on this brat, okay? Ha ha ha!
 In bocca al lupo per tutto, mia piccola principessa! Ti voglio bene.
 Best of luck to you, my princess!<<n>>I love you.
 Mi raccomando, non farmi stare in pensiero. Trishout, tienimela d'occhio, intesi? Ah ah ah!
-Be careful, and don’t make me worry.<<n>>Trishout, keep an eye on this brat, okay? Ha ha ha!
+Be careful, and don't make me worry.<<n>>Trishout, keep an eye on this brat, okay? Ha ha ha!
 Mi raccomando,non farmi stare in pensiero. Shulong, tienimela d'occhio, intesi? Ah ah ah!
-Be careful, and don’t make me worry.<<n>>Shulong, keep an eye on this brat, okay? Ha ha ha!
+Be careful, and don't make me worry.<<n>>Shulong, keep an eye on this brat, okay? Ha ha ha!
 Versil
 Versil
 Ma guarda un po' che bella giornata! Quest’aria fresca mi mette sempre di buonumore.
 Look what a beautiful day! This fresh air always<<n>>cheers me up.
 Forza, andiamo \PN. Ti faccio un po' vedere il nostro ranch.
-Come on, let's go \PN. I’m gonna show you around<<n>>our ranch.
+Come on, let's go \PN. I'm gonna show you around<<n>>our ranch.
 Per di qua. La nostra prima tappa sarà la fattoria.
 Come this way. Our first stop will be the farm.
 Vedi quei Pokémon che pascolano nel grano laggiù?
@@ -1688,7 +1726,7 @@ They're called Miltank and they always provide us<<n>>with delicious Moomoo Milk
 Voglio mostrarti un'altra cosa. Coraggio, seguimi.
 I want to show you something else. Come on, follow me.
 Le acque di questo laghetto sono così limpide che schiariscono anche la mente... Non trovi, \PN?
-The waters of this pond are so clear they put your mind<<n>>at ease... Don’t you think?
+The waters of this pond are so clear they put your mind<<n>>at ease... Don't you think?
 <<[>>old<<]>>Ora va meglio...
 <<[>>old<<]>>It's better now...
 Meglio, vero?
@@ -1700,7 +1738,7 @@ See this little memorial, \PN?
 È stato eretto in onore di tuo nonno che ci ha lasciati da anni ormai... ma sei ancora troppo piccolo|a per queste storie...
 It was erected in honor of your grandfather who left us years ago...<<n>>but you're still too young for these stories...
 E questo è quanto. Ora si torna a casa!
-And that’s it! Now let’s get back home!
+And that's it! Now let's get back home!
 Cos'è stato?!
 What was that?!
 Ma... cosa ci fanno delle Poké Ball qui?! Le avrà perse qualcuno...? \PN, aspettami qui. Io vado a controllare.
@@ -1728,7 +1766,7 @@ When two Trainers catch each other's eye, the battle shall begin!
 Avrei fatto meglio a distogliere lo sguardo...
 I should have looked away...
 Cerca di non incrociare lo sguardo con nessuno quando vuoi evitare di lottare.
-If you don’t want to fight you can just avoid their eyes.
+If you don't want to fight you can just avoid their eyes.
 [Map37]
 <<[>>old<<]>>È un Nintendo Switch nuovo di zecca!
 <<[>>old<<]>>A brand new Nintendo Switch!
@@ -1755,9 +1793,9 @@ Shy...
 <<[>>old<<]>>Sembra che Shyleon abbia qualcosa in mente!
 <<[>>old<<]>>It seems Shyleon's up to something!
 <<[>>old<<]>>Ma certo! Ti sta suggerendo di scappare via dalla finestra!
-<<[>>old<<]>>Got it! It’s suggesting you to jump out the window!
+<<[>>old<<]>>Got it! It's suggesting you to jump out the window!
 <<[>>old<<]>>È la Poké Ball di Shyleon. Sarà bene prenderla con sé...
-<<[>>old<<]>>That’s Shyleon’s Poké Ball. You’d better take it...
+<<[>>old<<]>>That's Shyleon's Poké Ball. You'd better take it...
 Trishout
 Trishout
 Tri...!
@@ -1767,7 +1805,7 @@ Tri...
 <<[>>old<<]>>Sembra che Trishout abbia qualcosa in mente!
 <<[>>old<<]>>It seems Trishout's up to something!
 <<[>>old<<]>>È la Poké Ball di Trishout. Sarà bene prenderla con sé...
-<<[>>old<<]>>That’s Trishout's Poké Ball. You’d better take it...
+<<[>>old<<]>>That's Trishout's Poké Ball. You'd better take it...
 Shulong
 Shulong
 Shu...!
@@ -1777,13 +1815,13 @@ Shu...
 <<[>>old<<]>>Sembra che Shulong abbia qualcosa in mente!
 <<[>>old<<]>>It seems Shulong's up to something!
 <<[>>old<<]>>È la Poké Ball di Shulong. Sarà bene prenderla con sé...
-<<[>>old<<]>>That’s Shulong's Poké Ball. You’d better take it...
+<<[>>old<<]>>That's Shulong's Poké Ball. You'd better take it...
 <<[>>old<<]>>È la Poké Ball di Shyleon.
-<<[>>old<<]>>That’s Shyleon's Poké Ball.
+<<[>>old<<]>>That's Shyleon's Poké Ball.
 <<[>>old<<]>>È la Poké Ball di Trishout.
-<<[>>old<<]>>That’s Trishout's Poké Ball.
+<<[>>old<<]>>That's Trishout's Poké Ball.
 <<[>>old<<]>>È la Poké Ball di Shulong.
-<<[>>old<<]>>That’s Shulong's Poké Ball.
+<<[>>old<<]>>That's Shulong's Poké Ball.
 <<[>>old<<]>>Vuoi accendere la televisione?
 <<[>>old<<]>>You want to turn on the TV?
 <<[>>old<<]>>Vuoi spegnere la televisione?
@@ -1800,7 +1838,7 @@ No
 ???
 ???
 Cavolo, non si riesce proprio ad entrare...
-Man, there’s no way to get in there...
+Man, there's no way to get in there...
 UARGH! Mi hai fatto prendere un colpo! Pensavo fosse un Pokémon selvatico pronto ad attaccarmi...!
 UARGH!<<n>>You made my heart skip a beat!<<n>>I thought it was a wild Pokémon ready to<<n>>attack me...!
 Tu... Hai tutta l'aria di essere un Allenatore, ho forse indovinato?
@@ -1810,7 +1848,7 @@ Heh heh! I never miss one! Yes.
 Adi
 Admir
 Il mio nome è <b>Adi</b> e mi sono da poco trasferito in questa regione... Sì. Sono un vero appassionato di Pokémon e di tutto ciò che li riguarda, ma data la mia età, mi limito ad osservarne i comportamenti e a cercare tesori nascosti nei <b>Nidi Pokémon</b>, dei veri e propri dungeon!
-My name is <b>Admir</b> and I just moved<<n>>to this region... Yes.<<n>>I’m a big Pokémon enthusiast and I know everything<<n>>about them, but due to my age,<<n>>I just observe their behavior and seek hidden treasures inside these dungeons called <b>Pokémon Dens</b>!
+My name is <b>Admir</b> and I just moved<<n>>to this region... Yes.<<n>>I'm a big Pokémon enthusiast and I know everything<<n>>about them, but due to my age,<<n>>I just observe their behavior and seek hidden treasures inside these dungeons called <b>Pokémon Dens</b>!
 Ma vedrai... Un giorno li acchiapperò tutti quanti!
 You'll see... One day I'll catch 'em all!
 Come dici, scusa? Non conosci i <b>Nidi Pokémon</b>?! Non preoccuparti, ci sono qui io per questo! Sì.
@@ -1844,7 +1882,7 @@ You can reach Hadwarf City now!!
 Roxanne
 Roxanne
 È il momento di mettere in pratica quello che ho imparato!
-It's time to put what I’ve learned into practice!
+It's time to put what I've learned into practice!
 Non sempre pratica e teoria vanno di pari passo...
 Theory and practice don't always go together...
 Devo leggere con più attenzione i <b>Comandi di gioco</b> dal menù!
@@ -1891,7 +1929,7 @@ You won?!
 Sapevo che ce l'avresti fatta senza problemi!
 I knew it was such an easy ride for you!
 Senti, ero venuto a cercarti per chiederti un piccolo favore...
-By the way, I’ve been looking for you. I have to ask you<<n>>a small favor...
+By the way, I've been looking for you. I have to ask you<<n>>a small favor...
 Tempo fa ho affidato a uno dei miei ricercatori l’incarico di ottimizzare la Xeno Ball, ma s'è ritirato sull'<b>Isola Pigliapesci</b> senza più aggiornarmi... Proprio per questo vorrei che tu lo raggiungessi laggiù, per verificare i suoi progressi. Lo faresti per me?
 Some time ago, I gave the Xeno Ball's enhancement<<n>>task to one of my researchers,<<n>>but he retired to <b>Proxim Island</b> without updating me anymore....<<n>>That's why I want you to go there, to check his progress. Would you kindly?
 In spiaggia troverai sicuramente qualche buon marinaio disposto a portartici. Basterà dire che ti mando io. Compiuto l'incarico, raggiungimi al laboratorio. Saprò come ricompensarti a dovere!
@@ -1931,7 +1969,7 @@ Julian
 Aster
 Aster
 Ehi, ma cosa succede qui?! Un altro incendio?!
-Wait, what’s happening here?! Another fire?!
+Wait, what's happening here?! Another fire?!
 Largo, devo intervenire!
 Stay away, I must do something!
 Vai, <b>Suicune</b>! Spegni le fiamme!
@@ -1947,9 +1985,9 @@ Kuuun!
 Ben fatto, rientra.
 Well done, now come back.
 Non preoccupatevi signori, qui ci penso io.
-Don’t worry folks, I’ve got it.
+Don't worry folks, I've got it.
 Mh... E tu chi sei? Non ti ho mai visto|a da queste parti. Eppure, hai un’aria così familiare...
-Hm... and you are? I’ve never seen you around here.<<n>>Yet, you have such a familiar face...
+Hm... and you are? I've never seen you around here.<<n>>Yet, you have such a familiar face...
 Beh, ho altro a cui pensare adesso. Sta' alla larga dai guai, mi raccomando.
 Whatever, I'm a little busy right now. Just keep you away from troubles, okay?
 Ma tu sei \PN! Accipicchia, quanto sei cresciuto|a! Sono io, <b>Aster</b>! Non mi riconosci? Beh, in effetti eri ancora in fasce quando ti ho conosciuto|a. Tuo padre era come un maestro per me...
@@ -1957,9 +1995,9 @@ Wait- you are \PN! Look how you've grown!<<n>>It's me, <b>Aster</b>! Don't you r
 Ma vedo che hai delle Poké Ball lì con te! Edera si è decisa a vuotare il sacco, eh?
 Are Poké Balls those you have there? So, Clover finally decided to come clean, huh?
 Perché non vieni con me ad acciuffare il furfante che ha quasi messo a fuoco la città? Vedi, quello non è un Pokémon qualsiasi... È uno dei fantomatici ''<b>Pokémon X</b>''! Da qualche tempo hanno iniziato a spuntare come funghi in giro per la regione. Le informazioni su di loro ancora scarseggiano... sappiamo solo che arrivano da un altro mondo, lo <b>Xenoverse</b>!
-Why don’t you come with me to get that punk that almost put the city on fire?<<n>>That’s not a normal Pokémon, you see... It’s one of those mysterious ''<b>X Pokémon</b>''!<<n>>For some time now, they started popping up all over<<n>>the region.<<n>>Information about them is still lacking... all we know is they come from another world, the <b>Xenoverse</b>!
+Why don't you come with me to get that punk that almost put the city on fire?<<n>>That's not a normal Pokémon, you see... It's one of those mysterious ''<b>X Pokémon</b>''!<<n>>For some time now, they started popping up all over<<n>>the region.<<n>>Information about them is still lacking... all we know is they come from another world, the <b>Xenoverse</b>!
 Ma non perdiamoci in chiacchiere, ne parleremo più tardi sul luogo. Conoscendo quel piccolo furfante, sarà sicuramente andato alla <b>Spiaggia Polvostella</b>. Ci si arriva proseguendo lungo il <b>Percorso 2</b>, il sentiero alla tua destra. Ti aspetto laggiù!
-Enough with the chit-chat, we’ll talk as soon as<<n>>we get there.<<n>>Knowing that little punk, it might have gone to<<n>><b>Stardust Beach</b>.<<n>>You can reach there through <b>Route 2</b>, the path on your right. I’m waiting for you over there!
+Enough with the chit-chat, we'll talk as soon as<<n>>we get there.<<n>>Knowing that little punk, it might have gone to<<n>><b>Stardust Beach</b>.<<n>>You can reach there through <b>Route 2</b>, the path on your right. I'm waiting for you over there!
 Antonio
 Tony
 Spiacente, ma non si passa di qui senza il permesso di Aster.
@@ -1977,9 +2015,9 @@ Dan
 Questa tranquilla cittadina non ha niente da invidiare alle caotiche città della penisola.
 This quiet town is just as good as the chaotic cities in the rest of the region.
 Spiacente, ma qui non si entra senza il permesso di Aster.
-I’m sorry, nobody can go in without Aster's permission. 
+I'm sorry, nobody can go in without Aster's permission. 
 Andrei volentieri a farmi un’abbuffata, ma questa vecchia mi trattiene qui...
-I’d happily go feast, but this old hag is holding me here.
+I'd happily go feast, but this old hag is holding me here.
 [Map40]
 Aster
 Aster
@@ -2024,7 +2062,7 @@ I cornered it!
 Ora però voglio che sia tu a lottare contro di lui, così da dimostrarmi quanto vali. Presta attenzione però.
 But I want you to fight with it, to prove to me<<n>>how much you are worth.<<n>>Now pay attention.
 Come ti ho già accennato, questo mascalzone proviene da un altro mondo... È praticamente impossibile rinchiuderlo in delle comuni Poké Ball! Perciò, ho sviluppato una Ball capace di imprigionare la furia dirompente della specie X. A te il frutto dei miei anni di studio!
-As I told you, this crook comes from another world... So it’s impossible to catch it with common Poké Balls!<<n>>Therefore, I developed a Ball capable of imprisoning<<n>>the explosive fury of X-specie Pokémon.<<n>>Here, the results of years of research!
+As I told you, this crook comes from another world... So it's impossible to catch it with common Poké Balls!<<n>>Therefore, I developed a Ball capable of imprisoning<<n>>the explosive fury of X-specie Pokémon.<<n>>Here, the results of years of research!
 Apri bene le orecchie!
 Let me tell you something.
 La ricerca su questi Pokémon ha rivelato che possiedono più barre dei PS. Nonostante i guai combinati, questo <b>Elekid</b> non è dotato di particolare forza, quindi avrà a dir tanto due barre.
@@ -2046,7 +2084,7 @@ Luke
 Vuoi tornare al Campus Ariepoli?
 Shall we hoist anchor for Newtron?
 Si salpa allora!
-Let’s set sail then!
+Let's set sail then!
 Se cambi idea, sai dove trovarmi.
 You know where to find me if you change your mind.
 Luca
@@ -2070,13 +2108,15 @@ Did you take an advanced course?
 Bruto
 Brutus
 Ahr! Io, Bruto, mi occupo di scortare gli Allenatori fino all'Isola Pigliapesci. T'interessa?
-Ahr! Io, Bruto, mi occupo di scortare gli Allenatori fino all'Isola Pigliapesci. T'interessa?
+Arr! I, Brutus, am in charge of convoying Trainers<<n>>to Proxim Island. Are you interested?
 Io e il mio Pokémon ti suoneremo come un tamburo!
 My Pokémon and I will beat you like a drum!
 Sigh... Nemmeno lo so suonare il tamburo...
 Sigh...  I can't even play the drum...
 Oh, qual buon vento, \PN! Come stai?
-Oh, qual buon vento, \PN! Come stai?
+Oh, how nice to see you, \PN! How are you?
+Nonostante tutto, ho deciso che riprenderò il mare con la mia nuovissima <b>Motonave Cometa II</b>! Un uomo di mare che si rispetti non si lascia intimorire da uno Sharpedo arrogante!
+I decided to take to the sea again with my brand new<<n>><b>S.S. Comet II</b> after all!<<n>>A respectable seaman is never cowed by a smug Sharpedo!
 Sì
 Yes
 No
@@ -2089,7 +2129,7 @@ This lab is huge! If only I had my Poké Doll with me...
 Ma quella è proprio la mia Pokébambola che avevo dimenticato dal nonno! Grazie di avermela riportata! Puoi dire al nonnino di non preoccuparsi?
 That's exactly my Poké Doll that I left at my grandpa's!<<n>>Thank you for bringing it back to me!<<n>>Can you tell granny to not be worried?
 Ora non mi manca niente!
-Now I don’t need anything else!
+Now I don't need anything else!
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
 Olivia
@@ -2111,7 +2151,7 @@ Do you get how <b>Sound-type</b> works?
 Wow! Devi aver studiato bene tutte le interazioni tra i tipi!
 Wow! You must have studied very well all types interactions!
 Tranquillo|a, ci penso io a spiegartelo!
-Don’t worry, I’ll explain it for you!
+Don't worry, I'll explain it for you!
 I Pokémon di tipo Suono sono forti su quelli di tipo <b>Acqua</b>, <b>Volante</b> e <b>Folletto</b>, ma temono quelli di tipo <b>Drago</b> ed <b>Elettro</b>!
 Sound-type Pokémon are strong against<<n>><b>Water</b>, <b>Flying</b> and <b>Fairy</b>-types,<<n>>however they are weak against <b>Dragon</b> and<<n>><b>Electric</b> Pokémon!
 Aster
@@ -2123,7 +2163,7 @@ But this... is a simple Xeno Ball!
 Quello scansafatiche non ha fatto alcuna modifica!
 That layabout did not make any enhancement!
 Sta sprecando i nostri fondi per farsi una bella vacanza, altroché! Se la vedrà con me! \PN, dimmi un po’... Chi ti ha accompagnato sull'isola?
-He's only squandering our money on his vacation!<<n>>I’m gonna tell him off!<<n>>\PN, tell me...<<n>>Who did take you to Proxim Island? 
+He's only squandering our money on his vacation!<<n>>I'm gonna tell him off!<<n>>\PN, tell me...<<n>>Who did take you to Proxim Island? 
 Come hai detto? È stato il <b>Signor Marino</b> a portarti laggiù?!
 What did you say?! <b>Mr. Briney</b> took you down there?!
 Non mettertici anche tu, \PN. Il vecchio ci ha lasciati anni fa ormai!
@@ -2131,7 +2171,7 @@ Not you too, \PN. That old man left us many years ago now!
 Troverò un altro modo per fare una bella tirata d'orecchie a quel fannullone!
 I'm gonna find another way to give that slacker<<n>>the scolding he deserves!
 Non sai come arrivare sull'<b>Isola Pigliapesci</b>?
-You don’t know how to get to <b>Proxim Island</b>?
+You don't know how to get to <b>Proxim Island</b>?
 In spiaggia troverai sicuramente qualche buon marinaio disposto a portartici.
 On the beach, you will surely find some good seamen willing to take you there.
 Ad ogni modo, ti avevo promesso una ricompensa... Ecco a te il <b>PokéWES</b>!
@@ -2143,7 +2183,7 @@ Using a particular process, PokéWES creates holograms,<<n>>the <b>Holo-Pokémon
 È possibile anche chiamare in aiuto veri e propri Pokémon, per un'esplorazione a tutto tondo! Non per nulla ''WES'' sta per ''Wide Exploration System''! Ah ah ah!
 You may also call actual Pokémon for help, to fully explore the environment of the Eldiw region!<<n>>It's not a coincidence that ''WES'' stands for<<n>>''Wide Exploration System''! Ha ha ha!
 Tale processo, tuttavia, richiede particolari pietre, le <b>Gemme N</b>, che al momento non ho... Sono certo che però saprai trovarle nel corso della tua avventura!
-However, this specific process requires particular stones, the <b>H-Minerals</b>, I do not own right now...<<n>>But I can tell for sure you’re gonna find them<<n>>during your journey!
+However, this specific process requires particular stones, the <b>H-Minerals</b>, I do not own right now...<<n>>But I can tell for sure you're gonna find them<<n>>during your journey!
 Inoltre, ho aggiornato il tuo Pokédex, inserendo l’apposita sezione ''Xenoverse''. Sarà lì che catalogherai i dati sui Pokémon X, dandomi così una grande mano nella ricerca. A tal proposito, eccoti delle altre Xeno Ball!
 I also updated your Pokédex, installing a dedicated<<n>>''Xenoverse'' category.<<n>>You'll be cataloging X-Pokémon data in there, giving your support to the research.<<n>>Speaking of that, here's some extra Xeno Balls!
 E questo era tutto ciò che mi premeva farti sapere. Non mi resta che augurarti in bocca al lupo!
@@ -2317,13 +2357,13 @@ Scram, I'm on my lunch break!
 Devo ammettere che hai fatto un lavoro davvero egregio! Ancora i miei complimenti! Ero certo che non sarei dovuto intervenire per salvarti la pelle. Ah ah ah!
 I have to say that you made an awesome work out there! Congratulations!<<n>>I was sure you'd be able to handle this all on your own.<<n>>Ha ha ha! 
 Benvenuto|a nel mio laboratorio! Qui è dove conduco studi sui misteriosi <b>Pokémon X</b>. È proprio qui che, grazie al rispetto reciproco, è stata concepita la <b>Xeno Ball</b>, l'unico dispositivo in grado di arginare i poteri di queste mistiche creature...
-Anyway, welcome to my lab! This is where I run my research on <b>X Pokémon</b>.<<n>>It’s in here where we conceived the <b>Xeno Ball</b>,<<n>>only thanks to mutual respect,<<n>>the only device capable of containing the power of<<n>>these mysterious creatures...
+Anyway, welcome to my lab! This is where I run my research on <b>X Pokémon</b>.<<n>>It's in here where we conceived the <b>Xeno Ball</b>,<<n>>only thanks to mutual respect,<<n>>the only device capable of containing the power of<<n>>these mysterious creatures...
 Non si sa quanti altri esemplari di specie X si annidino ancora per Eldiw, ma una cosa è certa... Rappresentano un pericolo per il suo equilibrio! Dovrai essere pronto|a a tutto!
-We don’t know how many other X-specimens are still lurking in the Eldiw region, but one thing is sure...<<n>>They are a serious threat to its balance!<<n>>You have to be ready for anything!
+We don't know how many other X-specimens are still lurking in the Eldiw region, but one thing is sure...<<n>>They are a serious threat to its balance!<<n>>You have to be ready for anything!
 Se vuoi maturare come Allenatore, ti consiglio di sfidare i <b>Capipalestra</b> della regione. Sai, anche Balansopoli ospita una <b>Palestra</b>... Potresti partire proprio da quella, che ne dici?
-If you want to become a real Trainer, I suggest you challenge the <b>Gym Leaders</b> of the region.<<n>>You see, also Hadwarf City has a <b>Gym</b>...<<n>>Why don’t you start with that?
+If you want to become a real Trainer, I suggest you challenge the <b>Gym Leaders</b> of the region.<<n>>You see, also Hadwarf City has a <b>Gym</b>...<<n>>Why don't you start with that?
 Oh, cavolo! Ero così preso dal discorso che ho perso la cognizione del tempo. \PN, ora devo proprio scappare o rischio di fare tardi alla conferenza. Riguardati, mi raccomando!
-Oh, man! I was so into this conversation that I lost<<n>>all sense of time.<<n>>\PN, I’d better go now, or I’d be late for the meeting.<<n>>Take care!
+Oh, man! I was so into this conversation that I lost<<n>>all sense of time.<<n>>\PN, I'd better go now, or I'd be late for the meeting.<<n>>Take care!
 Ilaria
 Hilary
 Pare che nelle altre regioni, il tipo Suono non venga studiato così approfonditamente come ad Eldiw.
@@ -2343,7 +2383,7 @@ Plenty of Xeno Balls for my dear \PN!<<n>>Alright, how many of them do you need?
 Ugo
 Hughie
 Proprio non capisco cosa non vada...
-I really don't understand what’s wrong...
+I really don't understand what's wrong...
 Silvana
 Silvana
 Il mio Pokémon, dici? Ah, ma parli di questo qui!
@@ -2475,17 +2515,17 @@ Yes
 Emiliano
 Emilian
 Non siamo ancora giunti a destinazione.
-Non siamo ancora giunti a destinazione.
+We haven't reached our destination yet.
 Kip
 Kip
 Macché imbarcarsi con la moto? Non lo vedi che è un <b>Vroombug</b>?!
-Macché imbarcarsi con la moto? Non lo vedi che è un <b>Vroombug</b>?!
+What? Embarking with a bike?<<n>>Don't you see it's a <b>Vroombug</b>?!
 <<[>>old<<]>>La porta è chiusa.
 <<[>>old<<]>>The door is locked.
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
 La Motonave Cometa attraccherà direttamente al <b>Campus Ariepoli</b>. Nel mentre, sentiti pure libero|a di fare un giro.
-La Motonave Cometa attraccherà direttamente al <b>Campus Ariepoli</b>. Nel mentre, sentiti pure libero|a di fare un giro.
+The S.S. Comet will dock directly at <b>Newtron City</b>.<<n>>Meanwhile, feel free to look around.
 <<[>>old<<]>>La porta sembra chiusa a chiave.
 <<[>>old<<]>>La porta sembra chiusa a chiave.
 <<[>>old<<]>>Vuoi usare la chiave per aprire questa porta?
@@ -2498,9 +2538,9 @@ No
 No
 [Map44]
 Anna
-Anna
+Annie
 Spero proprio che Aster abbia conciato per le feste quel mascalzone. Che spavento ho preso!
-Spero proprio che Aster abbia conciato per le feste quel mascalzone. Che spavento ho preso!
+I really hope that Aster took care of that scoundrel.<<n>>What a fright!
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
 [Map45]
@@ -2509,58 +2549,58 @@ Spero proprio che Aster abbia conciato per le feste quel mascalzone. Che spavent
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
 Lucia
-Lucia
+Lucy
 Ora ci vorrebbe un bel <b>Sidrostelle</b> per placare la sete...
-Ora ci vorrebbe un bel <b>Sidrostelle</b> per placare la sete...
+I could really use a good <b>Star Sider</b> to quench this thirst...
 [Map46]
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
 Artemio
-Artemio
+Artie
 La mia nipotina è andata al laboratorio, ma ha lasciato qui la sua Pokébambola. Saresti così gentile da riportargliela?
-La mia nipotina è andata al laboratorio, ma ha lasciato qui la sua Pokébambola. Saresti così gentile da riportargliela?
+My granddaughter went to the lab, but she forgot<<n>>her Poké Doll here.<<n>>Would you kindly bring it back to her?
 Oh, che bravo|a giovane! Vorrà dire che, quando gliel’avrai riportata, avrai un bel regalo!
-Oh, che bravo|a giovane! Vorrà dire che, quando gliel’avrai riportata, avrai un bel regalo!
+Oh, what a nice boy|||gal! It means that, when<<n>>you're done, you are getting a nice present!
 Avrai anche i tuoi impegni...
-Avrai anche i tuoi impegni...
+I see, you're busy...
 Chissà come sarà triste senza il suo peluche...
-Chissà come sarà triste senza il suo peluche...
+Who knows how sad she is without her plush...
 Mi hai davvero fatto un favore riportandole la sua bambolina! Voilà, la tua ricompensa.
-Mi hai davvero fatto un favore riportandole la sua bambolina! Voilà, la tua ricompensa.
+I truly owe you for bringing back her doll!<<n>>There, here's your reward.
 Nipotina mia, torna a farmi compagnia...
-Nipotina mia, torna a farmi compagnia...
+My grandbaby, come back to keep me company...
 Sì
 Yes
 No
 No
 [Map47]
 Girolamo
-Girolamo
+Jerome
 Cerco di distrarmi dal mal di mare...
-Cerco di distrarmi dal mal di mare...
+Trying to distract myself from seasickness...
 [Map48]
 <<[>>old<<]>> Il cestino è vuoto.
 <<[>>old<<]>> Il cestino è vuoto.
 Genoveffa
-Genoveffa
+Veve
 Ho rotto un piatto e ho nascosto i cocci sotto il tavolo. Acqua in bocca!
-Ho rotto un piatto e ho nascosto i cocci sotto il tavolo. Acqua in bocca!
+I broke a plate and hid its leftover shards under<<n>>the table. Mum's the word!
 <<[>>old<<]>>La porta sembra chiusa a chiave.
 <<[>>old<<]>>La porta sembra chiusa a chiave.
 Gina
-Gina
+Jane
 Lo sapevi che con l'inchiostro di Octillery si prepara un ottimo risotto? Il mare è davvero pieno di risorse!
-Lo sapevi che con l'inchiostro di Octillery si prepara un ottimo risotto? Il mare è davvero pieno di risorse!
+Did you know that Octillery ink makes an awesome risotto? The sea is really full of resources!
 Umberto
-Umberto
+Robert
 Il <b>Risoctillery</b> è delizioso, non trovi?
-Il <b>Risoctillery</b> è delizioso, non trovi?
+<b>Octo Risotto</b> is delicious, don't you think?
 Un altro estimatore come me! Prendine pure un po'!
-Un altro estimatore come me! Prendine pure un po'!
+Another Octo Risotto fan like me!<<n>>Here, take some!
 Che pessimi gusti...
-Che pessimi gusti...
+Such a bad taste...
 Cucinerò un ottimo Risoctillery per tutto l'equipaggio!
-Cucinerò un ottimo Risoctillery per tutto l'equipaggio!
+I'll cook a great Octo Risotto for the entire crew!
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
 Sì
@@ -2573,7 +2613,7 @@ No
 E tu saresti...?
 And you are...?
 Oh, il||la famoso|a \PN! Non ti facevo così giovane...
-Ooh, if it isn’t the famous \PN! I had no idea<<n>>you were this young...
+Ooh, if it isn't the famous \PN! I had no idea<<n>>you were this young...
 Aster mi ha parlato bene di te, ma mi chiedo quanto ci sia di vero nelle sue parole...
 Aster has spoken highly of you, but I wonder how much truth there is to his words...
 Beh, bando alle ciance! Vedo che stai andando nella sala comandi. Porteresti questa al capitano?
@@ -2625,91 +2665,103 @@ This is the mini-Poké Mart in Newtron City's campus.
 SA9
 SA9
 Cos'è? Cerchi rogne? <i>Bzz!</i>
-Cos'è? Cerchi rogne? <i>Bzz!</i>
+What? You looking for trouble? <i>Bzz!</i>
 Stefano
-Stefano
+Steven
 In vista degli esami, ho affidato i miei Pokémon alla Pensione e quando sono tornato... ho trovato un Uovo!
-In vista degli esami, ho affidato i miei Pokémon alla Pensione e quando sono tornato... ho trovato un Uovo!
+I left my Pokémon to the Day Care to study for the exams and when I got back... I found an Egg!
 ???
 ???
 Tsk! Davvero niente male.
-Tsk! Davvero niente male.
+Hmph! Not bad at all. 
 Quel pivello è riuscito a risvegliare quell'<b>Energia</b> <b>Rossa</b> e a suonarle a quei due babbei. Due piccioni con una fava. Uh uh!
-Quel pivello è riuscito a risvegliare quell'<b>Energia</b> <b>Rossa</b> e a suonarle a quei due babbei. Due piccioni con una fava. Uh uh!
+That noob's been able to awaken that <b>Red Energy</b><<n>>and beat those two mugs up...<<n>>It's two-for-one. Huh huh!
 Quella pivella è riuscita a risvegliare quell'<b>Energia</b> <b>Rossa</b> e a suonarle a quei due babbei. Due piccioni con una fava. Uh uh!
-Quella pivella è riuscita a risvegliare quell'<b>Energia</b> <b>Rossa</b> e a suonarle a quei due babbei. Due piccioni con una fava. Uh uh!
+That noob's been able to awaken that <b>Red Energy</b><<n>>and beat those two mugs up...<<n>>It's two-for-one. Huh huh!
+Molto presto quel potere sarà nelle mie mani!
+That power will soon be mine!
 <<[>>old<<]>>Pensione Pokémon
 <<[>>old<<]>>Pokémon Day Care
 9RE
 9RE
 I <b>Sergenti</b> sono anni luce avanti a te. <i>Bzz!</i>
-I <b>Sergenti</b> sono anni luce avanti a te. <i>Bzz!</i>
+<b>Sergents</b> are way stronger than you. <i>Bzz!</i>
 Sta' zitto! È meglio il baseball!
-Sta' zitto! È meglio il baseball!
+Shut up! Baseball is better!
 Niente da fare! Meglio il football!
-Niente da fare! Meglio il football!
+No way! Football is way better!
 Ehi, tu! Il baseball è meglio del football, non credi?
-Ehi, tu! Il baseball è meglio del football, non credi?
+Hey you! Baseball is better than football, right?
 Mauro
-Mauro
+Mason
 Grande! Meriti proprio un regalo!
-Grande! Meriti proprio un regalo!
+Awesome! You deserve a gift!
 Devi proprio avere dei pessimi gusti...
-Devi proprio avere dei pessimi gusti...
+You do have horrible taste...
 BASEBALL FOREVER! GO-GO, GRANBULLS!
 BASEBALL FOREVER! GO-GO, GRANBULLS!
 6O9
 6O9
 Smamma! Anche questa <b>Pensione Pokémon</b> è del Team Dimension! <i>Bzz!</i>
-Smamma! Anche questa <b>Pensione Pokémon</b> è del Team Dimension! <i>Bzz!</i>
+Go away! This <b>Pokémon Day care</b> belongs to Team Dimension from now on! <i>Bzz!</i>
 Bartolomeo
-Bartolomeo
+Vincent
 Ah, proprio te cercavo!
-Ah, proprio te cercavo!
+Hi, I was waiting for you!
+Stavamo badando ai tuoi Pokémon, quando... Puff! Un <b>Uovo Pokémon</b>! Non so proprio come ci sia finito lì... vuoi prenderlo con te?
+We were looking after your Pokémon and... Poof!<<n>>A <b>Pokémon Egg</b>!<<n>>I have no idea on how it got there... Do you want to take it?
 Che peccato, la tua squadra è già al completo! Fai posto e torna qui. Lo conserverò per te!
-Che peccato, la tua squadra è già al completo! Fai posto e torna qui. Lo conserverò per te!
+Too bad, your party is full! Come back when you have room.<<n>>I'll keep it until then!
 <<[>>old<<]>>Hai ricevuto un Uovo Pokémon!
-<<[>>old<<]>>Hai ricevuto un Uovo Pokémon!
+<<[>>old<<]>>You received a Pokémon Egg!
 Abbine cura.
-Abbine cura.
+Take care of it.
 Guarda che lo tengo io, eh! Sei proprio sicuro|a di non volerlo?
-Guarda che lo tengo io, eh! Sei proprio sicuro|a di non volerlo?
+I'll keep it for myself! Are you sure you don't want it?
 Ok, lo prenderò io allora.
-Ok, lo prenderò io allora.
+Ok, I'll take it then.
 Io e mia moglie gestiamo questa Pensione Pokémon da più di quarant’anni. Ci prendiamo cura dei Pokémon che gli studenti ci affidano per mancanza di tempo.
-Io e mia moglie gestiamo questa Pensione Pokémon da più di quarant’anni. Ci prendiamo cura dei Pokémon che gli studenti ci affidano per mancanza di tempo.
+My wife and I have been running this Pokémon Day Care for more than forty years.<<n>>We take care of students' Pokémon since they don't have that much time.
+Se anche tu sei qui per lasciarcene uno, parla pure con mia moglie. La trovi dentro.
+If you want to leave one of your Pokémon too, talk<<n>>to my wife. She's inside.
 Oh, sei tu! È bello vederti!
-Oh, sei tu! È bello vederti!
+Oh, it's you! Good to see you!
+Il tuo {1} sta alla grande.
+Your {1} is doing great.
+I tuoi {1} e {2} stanno benone.
+Your {1} and {2} are doing great.
 Anche se preferiscono giocare con gli altri Pokémon piuttosto che tra loro...
-Anche se preferiscono giocare con gli altri Pokémon piuttosto che tra loro...
+But they prefer playing with other Pokémon than with each other...
 Sembra non vadano poi tanto d’accordo...
-Sembra non vadano poi tanto d’accordo...
+They don't get on well with each other...
 Si direbbe che quei due vadano d’accordo.
-Si direbbe che quei due vadano d’accordo.
+They seem to get on well with each other.
 Quei due vanno d’amore e d’accordo!
-Quei due vanno d’amore e d’accordo!
+Those two really get along great!
 Sta' zitto! È meglio il football!
-Sta' zitto! È meglio il football!
+Shut up! Football is better!
 Niente da fare! Meglio il baseball!
-Niente da fare! Meglio il baseball!
+ No way! Baseball is way better!
 Ehi! Il football è meglio del baseball, tu che dici?
-Ehi! Il football è meglio del baseball, tu che dici?
+Hey! Football is better than baseball, right?
 Mirco
-Mirco
+Matthew
 Ma sei serio|a?!
-Ma sei serio|a?!
+Are you kidding me?
 FOOTBALL FOREVER! GO-GO, GRANBULLS!
 FOOTBALL FOREVER! GO-GO, GRANBULLS!
 4X1
 4X1
 La <b>Recluta N8M</b> è arrivata da me frignando come un cucciolo di umano... Diceva di essere stata sconfitta da un umano... Non sarai mica tu?! <i>Bzz!</i>
-La <b>Recluta N8M</b> è arrivata da me frignando come un cucciolo di umano... Diceva di essere stata sconfitta da un umano... Non sarai mica tu?! <i>Bzz!</i>
+<b>Grunt N8M</b> came to me whining like<<n>>a human cub...<<n>>It claimed it had been defeated by a human...<<n>>Don't tell me it's you! <i>Bzz!</i>
+Dalia
+Dolly
 Granbull è la mascotte del nostro campus sin dagli inizi! È un Pokémon così carino!
-Granbull è la mascotte del nostro campus sin dagli inizi! È un Pokémon così carino!
+Granbull has been the campus mascot from the beginning! It's so cute!
 21P
 21P
 Accesso negato agli umani. <i>Bzz!</i>
-Accesso negato agli umani. <i>Bzz!</i>
+Access denied to humans. <i>Bzz!</i>
 <<[>>old<<]>>"GO-GO, GRANBULLS!"
 <<[>>old<<]>>"GO-GO, GRANBULLS!"
 <<[>>old<<]>>Mini Pokémon-Market
@@ -2717,19 +2769,19 @@ Accesso negato agli umani. <i>Bzz!</i>
 76G
 76G
 Dove credi di andare, umano|a?! I Sergenti non vogliono guastafeste tra i piedi. <i>Bzz!</i>
-Dove credi di andare, umano|a?! I Sergenti non vogliono guastafeste tra i piedi. <i>Bzz!</i>
+Where are you going, human?! Sergeants don't want buzzkills on their way! <i>Bzz!</i>
 E-Errore.
-E-Errore.
+E-Error.
 Ammasso di rottami, non vorrai deludere i tuoi superiori?! <i>Bzz!</i> Ci penso io a tenere alto l'onore delle <b>Reclute</b> <b>Dimension</b>! <i>Bzz!</i>
-Ammasso di rottami, non vorrai deludere i tuoi superiori?! <i>Bzz!</i> Ci penso io a tenere alto l'onore delle <b>Reclute</b> <b>Dimension</b>! <i>Bzz!</i>
+Do you want to disappoint your superiors,<<n>>you hunk of junk?! <i>Bzz!</i><<n>>The honor of <b>Dimension Grunts</b> is in my hands now! <i>Bzz!</i>
 Abbiamo fallito, ma ci penseranno i <b>Sergenti</b> a farti la pelle! <i>Bzz!</i>
-Abbiamo fallito, ma ci penseranno i <b>Sergenti</b> a farti la pelle! <i>Bzz!</i>
+We failed, but our <b>Sergeants</b> will make you pay! <i>Bzz!</i>
 <<[>>old<<]>><b>Biblioteca di Ariepoli</b> <i>''Tempio del sapere della regione.''</i>
 <<[>>old<<]>><b>Biblioteca di Ariepoli</b> <i>''Tempio del sapere della regione.''</i>
 Noi Reclute siamo niente in confronto ai <b>Sergenti</b>. <i>Bzz!</i>
 Noi Reclute siamo niente in confronto ai <b>Sergenti</b>. <i>Bzz!</i>
 Non puoi aprire la porta senza lo starter in squadra.
-Non puoi aprire la porta senza lo starter in squadra.
+You cannot get in there without your starter Pokémon.
 Sì
 Yes
 No
@@ -2738,7 +2790,7 @@ No
 GO-GO, GRANBULLS!
 GO-GO, GRANBULLS!
 N-N-Non è come credi! Non sto spiando nessuno!
-N-N-Non è come credi! Non sto spiando nessuno!
+I-I-It's not what it looks like! I'm not spying on anyone!
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 Damiano
@@ -2751,153 +2803,169 @@ In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
 <<[>>old<<]>>Meglio non rischiare...
 <<[>>old<<]>>Meglio non rischiare...
+Mino
+Liam
 Il mare è la mia musa ispiratrice.
-Il mare è la mia musa ispiratrice.
+The sea is my muse!
 Solo da Damiano, articoli mai visti a prezzi stracciati!!
 Solo da Damiano, articoli mai visti a prezzi stracciati!!
+Federica
+Alison
 Magari imparando qualche trick col Pokéboard, Claudio mi accetterà nella sua comitiva...
-Magari imparando qualche trick col Pokéboard, Claudio mi accetterà nella sua comitiva...
+Maybe if I learn some tricks with the Pokéboard,<<n>>Ginger will accept me in his crew...
 Lucio
 Luke
 Grazie ancora per aver salvato noi uomini di mare da quello strano Sharpedo. D’ora in poi sarò a tua completa disposizione per la tratta Campus Ariepoli-Balansopoli!
-Grazie ancora per aver salvato noi uomini di mare da quello strano Sharpedo. D’ora in poi sarò a tua completa disposizione per la tratta Campus Ariepoli-Balansopoli!
+Thanks again for saving us seamen from that weird<<n>>Sharpedo.<<n>>From now on I'll be totally at your service for<<n>>the Newtron-Hadwarf City route!
 Vuoi tornare a Balansopoli?
-Vuoi tornare a Balansopoli?
+Do you want to travel back to Hadwarf?
 Si salpa allora!
-Si salpa allora!
+Let's set sail then!
 Se cambi idea, sai dove trovarmi.
-Se cambi idea, sai dove trovarmi.
+You know where to find me if you change your mind.
 <<[>>old<<]>>Confraternita Granbulls
-<<[>>old<<]>>Confraternita Granbulls
+<<[>>old<<]>>Granbulls Corporation
+Mario
+Mario
 Sono certo che ora avrà occhi solo per me!
-Sono certo che ora avrà occhi solo per me!
+I'm sure she'll only have eyes for me now!
+Pesca
+Peach
 Quello strambo professore di Filosofia l'altro giorno mi ha regalato un sasso... Ho apprezzato il gesto, ma lo sanno tutti che oggigiorno le donne si conquistano coi Fossili!
-Quello strambo professore di Filosofia l'altro giorno mi ha regalato un sasso... Ho apprezzato il gesto, ma lo sanno tutti che oggigiorno le donne si conquistano coi Fossili!
+The other day this freaky philosophy teacher gave me<<n>>a rock...<<n>>I appreciated it, but everyone knows that Fossils<<n>>are a way to women's hearts nowadays!
 Sì
 Yes
 No
 No
 [Map55]
+Evangelina
+Evangeline
 ''Brillando al chiaro di luna, un <b>Manticoeur</b> allenato col dovuto affetto potrà evolversi.'' O almeno così c'è scritto in questo libro...
-''Brillando al chiaro di luna, un <b>Manticoeur</b> allenato col dovuto affetto potrà evolversi.'' O almeno così c'è scritto in questo libro...
+''Shining in the moonlight, a <b>Manticoeur</b><<n>>trained with love will evolve.''<<n>>At least that's what this book says...
 <<[>>old<<]>>Lastra Terrestre: ''’Lastra dal colore purpureo che si dice rappresenti il cuore del Pokémon protettore della Terra.''
-<<[>>old<<]>>Lastra Terrestre: ''’Lastra dal colore purpureo che si dice rappresenti il cuore del Pokémon protettore della Terra.''
+<<[>>old<<]>>Terrestrial Plate: ''Reddish plate. It seems to represent the Earth guardian Pokémon's heart.''
 ???
 ???
 Guarda là, <b>B</b>! È proprio quello che cercavamo. <i>Roger!</i>
-Guarda là, <b>B</b>! È proprio quello che cercavamo. <i>Roger!</i>
+Look over there, <b>B</b>! That's what we were looking for. <i>Roger!</i>
 Sicuro, <b>A</b>? A me sembra solo un mattone... <i>Roger!</i>
-Sicuro, <b>A</b>? A me sembra solo un mattone... <i>Roger!</i>
+You sure, <b>A</b>? It looks like a brick to me... <i>Roger!</i>
 Che domande fai, stupido rottame! Questo è un oggetto sacro che racchiude un potere sconfinato...
-Che domande fai, stupido rottame! Questo è un oggetto sacro che racchiude un potere sconfinato...
+What's the matter with you, stupid junk?! This sacred object enshrines a limitless power-
 Ehm... Ehi, A!
-Ehm... Ehi, A!
+Ahem... Hey, A!
 Piantala di interrompermi! Non vedi che...
-Piantala di interrompermi! Non vedi che...
+Stop interrupting me! Don't you see I'm-
 Oh oh! A quanto pare abbiamo compagnia. <i>Roger!</i>
-Oh oh! A quanto pare abbiamo compagnia. <i>Roger!</i>
+Ho-ho! Looks like we got company. <i>Roger!</i>
 È quello che cercavo di dirti, fratellone! Credo sia semplicemente un nostro fan. <i>Roger!</i>
-È quello che cercavo di dirti, fratellone! Credo sia semplicemente un nostro fan. <i>Roger!</i>
+That's what I was trying to say, brother!<<n>>I think that's just a fan of ours. <i>Roger!</i>
+Che c'è? Vuoi un autografo, ragazzino|a? Facciamo in fretta, abbiamo da fare noi.
+What, you want an autograph or something?<<n>>Let's be quick, we're busy right now. 
 Ehi, B-astardo! Non ci si comporta così con gli ammiratori! Non hai imparato un tubo dai pezzi di <b>Daddy</b>?! <i>Roger!</i>
-Ehi, B-astardo! Non ci si comporta così con gli ammiratori! Non hai imparato un tubo dai pezzi di <b>Daddy</b>?! <i>Roger!</i>
+Hey, B-unch of junk! That's not how to relate with<<n>>your fans!<<n>>You really didn't learn anything from <b>Daddy</b>'s songs?! <i>Roger!</i>
 Cosa?! D-Davvero non sai chi siamo?!
-Cosa?! D-Davvero non sai chi siamo?!
+What?! D-Don't you really know who we are?!
 Visto, A? Lo dicevo io che non dovevamo perdere tempo con 'sto|a qui. Noi siamo il du...
-Visto, A? Lo dicevo io che non dovevamo perdere tempo con 'sto|a qui. Noi siamo il du...
+I told you to waste no time with this dude||||girl, A. We are the Ser-
 Chiudi quella fogna, B! Sono io quello che fa le presentazioni.
-Chiudi quella fogna, B! Sono io quello che fa le presentazioni.
+Shut up, B! I'm the one who makes introductions here. 
 ''<b>A</b>'' di autorità...
-''<b>A</b>'' di autorità...
+''<b>A</b>'' as authority...
 ''<b>B</b>'' come baldanza...
-''<b>B</b>'' come baldanza...
+''<b>B</b>'' as bravery...
 B
 B
 A
 A
 A & B, dal <b>Team Dimension</b> con eleganza!! <i>Roger!!</i>
-A & B, dal <b>Team Dimension</b> con eleganza!! <i>Roger!!</i>
+A & B, <b>Team Dimension</b>'s legacy!! <i>Roger!!</i>
 Ma che succede qui? C'è una festa e non sono stato invitato?
-Ma che succede qui? C'è una festa e non sono stato invitato?
+What's going on here? You guys are having a party<<n>>and you didn't invite me?
 Io sono <b>Claudio</b>, il Capopalestra del Campus Ariepoli.
-Io sono <b>Claudio</b>, il Capopalestra del Campus Ariepoli.
+I'm <b>Ginger</b>,  Newtron City's Gym Leader.
 Claudio
-Claudio
+Ginger
 Questo edificio, prima ancora di essere una biblioteca, è un luogo sacro. Avete approfittato fin troppo della nostra pazienza e del nostro campus... E io non lo tollero! Evaporate, subito!
-Questo edificio, prima ancora di essere una biblioteca, è un luogo sacro. Avete approfittato fin troppo della nostra pazienza e del nostro campus... E io non lo tollero! Evaporate, subito!
+This building is not a simple library...<<n>>it's a sacred place!<<n>>You've abused our patience and our campus too much...<<n>>I'm sick of you!<<n>>Get outta here, now!
 Alan
 Alan
 Grande, Claudio! Digliene quattro a questi buffoni!
-Grande, Claudio! Digliene quattro a questi buffoni!
+C'mon! Go get 'em, Ginger!
 Marcus
-Marcus
+Eric
 GO-GO, GRANBULLS! Il nostro Claudio è il più tosto!
-GO-GO, GRANBULLS! Il nostro Claudio è il più tosto!
+GO-GO, GRANBULLS! Ginger's the coolest!
 E tu, bei capelli, c'entri qualcosa in questa storia? Non ti ho mai visto|a qui al campus... Bah, non importa.
-E tu, bei capelli, c'entri qualcosa in questa storia? Non ti ho mai visto|a qui al campus... Bah, non importa.
+What 'bout you, haircut? Are you with them?<<n>>I've never seen you here on campus... Bah, whatever.
 Voi chi sareste, pagliacci? Se non filate con le buone, lo farete con le cattive!
-Voi chi sareste, pagliacci? Se non filate con le buone, lo farete con le cattive!
+Who are you, clowns? If you are not gonna beat it,<<n>>we're gonna beat you!
 Guarda, fratellone! Un altro umano che non ci conosce... <i>Roger!</i>
-Guarda, fratellone! Un altro umano che non ci conosce... <i>Roger!</i>
+Look, brother! There''s another human who doesn't know us... <i>Roger!</i>
 Adesso ci penso io a questo biondino con la puzza sotto il naso.
-Adesso ci penso io a questo biondino con la puzza sotto il naso.
+Don't worry. Now I'm dealing with this bougie blondie.
 Ben detto, fratellone! Facciamoli fuori senz...
-Ben detto, fratellone! Facciamoli fuori senz...
+That's the spirit, brother! Let's take 'em ou-
 Quante volte devo ripeterti di non parlare a vanvera?!
-Quante volte devo ripeterti di non parlare a vanvera?!
+Why don't you shut the hell up?!
 Questa volta però devo darti ragione! <i>Roger!</i>
-Questa volta però devo darti ragione! <i>Roger!</i>
+Even though this time you're damn right! <i>Roger!</i>
 Avete il coraggio di lottare contro di me? Pagliacci, siete proprio in vena di scherzare...
-Avete il coraggio di lottare contro di me? Pagliacci, siete proprio in vena di scherzare...
+Do you really have the steel to fight me?<<n>>Clowns, you must be kidding...
 Distruggili, Claudio!
-Distruggili, Claudio!
+Give 'em hell, Ginger!
 GO-GO, GRANBULLS! Fagli vedere chi comanda, Claudio!
-GO-GO, GRANBULLS! Fagli vedere chi comanda, Claudio!
+GO-GO, GRANBULLS! Show 'em who's the boss, Ginger!
 Ehi, bei capelli! Se proprio non vuoi toglierti di mezzo, fammi il favore di darmi una mano. In caso fossi in difficoltà, ci penserò io a farli tornare nel loro circo.
-Ehi, bei capelli! Se proprio non vuoi toglierti di mezzo, fammi il favore di darmi una mano. In caso fossi in difficoltà, ci penserò io a farli tornare nel loro circo.
+Hey, haircut! If you really don't want to get out,<<n>>do me a favor and gimme a help.<<n>>Don't worry, if you are in trouble, I'll kick them back<<n>>to their circus!
 Lascia che curi i tuoi Pokémon. Questi due mi sembrano un po' troppo sicuri di sé!
-Lascia che curi i tuoi Pokémon. Questi due mi sembrano un po' troppo sicuri di sé!
+But first, lemme heal your Pokémon. These two seem too confident for me!
 Bene, facciamoli neri!
-Bene, facciamoli neri!
+And now let's go get 'em!
 Che schiappe!!
-Che schiappe!!
+Hah, losers!!
 Tsk...
-Tsk...
+Tch...
 Capo, stai bene?
-Capo, stai bene?
+Boss, are you okay?
 L'<b>Hawlucha</b> del capo è stato sconfitto...?
-L'<b>Hawlucha</b> del capo è stato sconfitto...?
+Ginger's <b>Hawlucha</b> has been defeated...?
 Se dovesse usare l'altro Pokémon, finirebbe per danneggiare anche la biblioteca...
-Se dovesse usare l'altro Pokémon, finirebbe per danneggiare anche la biblioteca...
+If he used his other Pokémon, he would have damaged the library as well...
 Tranquilli, ragazzi... Io e Hawlucha siamo tutti interi.
-Tranquilli, ragazzi... Io e Hawlucha siamo tutti interi.
+Calm down, guys... Hawlucha and I are fine.
+(Cavolo... Questo|a ragazzo|a mi ha proprio salvato la pelle... Se non fosse stato per lui||ei, quei Pawniard mi avrebbero sconfitto in un istante...)
+(That was close… This dude||||girl really saved<<n>>my skin...<<n>>If it wasn't for him||er, those Pawniard would have<<n>>beaten me in a while...) 
 Ancora non chiudete quella bocca, eh?! Tranquilli, ci pensiamo noi! Pawniard, fateli fuori!! <i>Roger!!</i>
-Ancora non chiudete quella bocca, eh?! Tranquilli, ci pensiamo noi! Pawniard, fateli fuori!! <i>Roger!!</i>
+You still don't shut your mouth, huh?!<<n>>Don't worry, now we do it for you!<<n>>Pawniard, take 'em out!! <i>Roger!!</i>
 Fareste bene a ricordarvi di noi. <i>Roger!</i>
-Fareste bene a ricordarvi di noi. <i>Roger!</i>
+You'd better remember our faces. <i>Roger!</i>
 Pawniard
 Pawniard
 Paaaaawww!!
 Paaaaawww!!
 Ragazzi, tutto bene? Cos'è stata quella scossa...?
-Ragazzi, tutto bene? Cos'è stata quella scossa...?
+Are you okay, guys? What was that tremor...?
 <<[>>old<<]>>Una luce di colore rosso avvolge \PN.
-<<[>>old<<]>>Una luce di colore rosso avvolge \PN.
+<<[>>old<<]>>A red-colored light surrounds \PN.
 ''Il dì in cui la lastra sarà sottratta, un messia, al fianco del suo sacro Pokémon, risveglierà l'<b>Energia Rossa</b>, facendosi baluardo della speranza.'' Che sia...?
-''Il dì in cui la lastra sarà sottratta, un messia, al fianco del suo sacro Pokémon, risveglierà l'<b>Energia Rossa</b>, facendosi baluardo della speranza.'' Che sia...?
+''The day the plate is taken away, the chosen,<<n>>alongside a sacred Pokémon,<<n>>will awaken the <b>Red Energy</b> becoming a bastion of hope.'' Could it be...?
+Ero convinto che non ci fosse nulla di vero, eppure... Questo vuol dire che...!
+I was sure there was nothing true in those words, but-<<n>>This means that...!
 Ehi, bei capelli! Guarda nella tua Borsa! Qualcosa brilla di un rosso vivo!
-Ehi, bei capelli! Guarda nella tua Borsa! Qualcosa brilla di un rosso vivo!
+Hey, haircut! Check out your Bag! Something is glowing deep red in there!
 <<[>>old<<]>>Lo Strano orecchino di \PN incanala l'Energia Rossa della Lastra Terrestre.
-<<[>>old<<]>>Lo Strano orecchino di \PN incanala l'Energia Rossa della Lastra Terrestre.
+<<[>>old<<]>>\PN's Odd earring channels the Red Energy from the Terrestrial Plate.
 <<[>>old<<]>>L'energia ha generato l'Anello Terrestre.
-<<[>>old<<]>>L'energia ha generato l'Anello Terrestre.
+<<[>>old<<]>>The energy generated the Terrestrial Ring.
 Apri bene le orecchie, perché non lo ripeterò! Dai quell'anello al tuo Pokémon!
-Apri bene le orecchie, perché non lo ripeterò! Dai quell'anello al tuo Pokémon!
+Listen up 'cause I'm not gonna say it twice!<<n>>Give that ring to your Pokémon!
 <<[>>old<<]>>Assegna l'Anello Terrestre al tuo Pokémon iniziale e posizionalo in testa alla squadra per continuare.
-<<[>>old<<]>>Assegna l'Anello Terrestre al tuo Pokémon iniziale e posizionalo in testa alla squadra per continuare.
+<<[>>old<<]>>Give the Terrestrial Ring to your starter Pokémon and put it in the first place of your party to continue.
 Guarda! Il tuo Pokémon!
-Guarda! Il tuo Pokémon!
+Look! Your Pokémon!
 È riuscito a sfruttare l'energia della <b>Lastra</b> <b>Terrestre</b> per potenziarsi e cambiare forma! Non c’è dubbio... è l'<b>Evoluzione Terrestre</b> di cui parla la leggenda!
-È riuscito a sfruttare l'energia della <b>Lastra</b> <b>Terrestre</b> per potenziarsi e cambiare forma! Non c’è dubbio... è l'<b>Evoluzione Terrestre</b> di cui parla la leggenda!
+It drew the energy of the <b>Terrestrial Plate</b><<n>>to strengthen and change form!<<n>>There's no doubt... It's the <b>Terrestrial Evolution</b> mentioned by the legend! 
 Trishout
 Trishout
 Triii!!
@@ -2911,58 +2979,72 @@ Shyleon
 Shyyy!!
 Shyyy!!
 Come fate ad essere ancora in piedi?! Pawniard, fateli a fettine!!
-Come fate ad essere ancora in piedi?! Pawniard, fateli a fettine!!
+How are you still standing?!<<n>>Pawniard, slice 'em into pieces!!
 E-Errore.
-E-Errore.
+E-Error.
 <<[>>old<<]>>Grazie all'intervento di Claudio, \PN riesce ad avere la meglio sui suoi avversari.
 <<[>>old<<]>>Grazie all'intervento di Claudio, \PN riesce ad avere la meglio sui suoi avversari.
 <i>R063R! R063R! N0N È P0551B1L3!</i>
-<i>R063R! R063R! N0N È P0551B1L3!</i>
+<i>R063R! R063R! 7HA7'5 1MP0551BL3!</i>
 Lo sapevo che non ci avresti deluso, capo!
-Lo sapevo che non ci avresti deluso, capo!
+I knew you would have nailed it, boss!
 GO-GO, GRANBULLS! Grande, capo!
-GO-GO, GRANBULLS! Grande, capo!
+GO-GO, GRANBULLS! Well done, boss!
 Senza il tuo aiuto non ce l'avrei mai fatta...
-Senza il tuo aiuto non ce l'avrei mai fatta...
+I'd never make it up without your help...
 Avremo perso, ma il nostro compito l'abbiamo portato a termine. <i>Roger-roger</i>, bambocci!
-Avremo perso, ma il nostro compito l'abbiamo portato a termine. <i>Roger-roger</i>, bambocci!
+We did lose, but at least we got our job done.<<n>><i>Roger-roger</i>, dummies!
 La lastra sembra aver perso tutto il suo colore originario...
-La lastra sembra aver perso tutto il suo colore originario...
+It seems the plate has lost all its original color...
+Ho letto molti libri al riguardo, ma non credevo che dietro quelle storie ci fosse un fondo di verità! Tu hai ottenuto l'essenza stessa del pianeta Terra: il <b>Codice Terrestre</b>! Quell’energia, contenuta nel tuo orecchino, ha permesso al tuo Pokémon di evolversi! Inoltre, la lastra si è tramutata in un anello...
+I've read a lot of books about it, but I've never thought<<n>>there was any truth in those tales!<<n>>You got the very essence of planet Earth:<<n>>the <b>Terrestrial Core</b>!<<n>>The energy enshrined in your earring allowed<<n>>your Pokémon to evolve!<<n>>And it seems the plate turned into a ring...
 Senza quello probabilmente l'evoluzione non avviene e il tuo Pokémon rimane allo stadio base. Affascinante! Spero di rivedere questo potere in azione, magari nella sfida della mia Palestra! Ci becchiamo, bei capelli!
-Senza quello probabilmente l'evoluzione non avviene e il tuo Pokémon rimane allo stadio base. Affascinante! Spero di rivedere questo potere in azione, magari nella sfida della mia Palestra! Ci becchiamo, bei capelli!
+Probably, without that, the evolution does not occur and your Pokémon stays at its basic-stage. Amazing!<<n>>I hope to see this power in action once again, possibly<<n>>in my Gym challenge! See you later, haircut! 
 <<[>>old<<]>>GO-GO, GRANBULLS!
 <<[>>old<<]>>GO-GO, GRANBULLS!
+Geremia
+Jeremy
 Vediamo... Dove sarà quel libro sulle leggende di Eldiw?
-Vediamo... Dove sarà quel libro sulle leggende di Eldiw?
+Hmm... Where could that book about Eldiw legends be?
+Maria
+Mary
 Per colpa di quei tipi strambi ho perso tempo utile allo studio!
-Per colpa di quei tipi strambi ho perso tempo utile allo studio!
+Due to those weird people I wasted the time I could have spent studying!
 56E
 56E
 Gli intrusi saranno puniti! Preparati a sfidare il pupillo dei Sergenti! <i>Bzz!</i>
-Gli intrusi saranno puniti! Preparati a sfidare il pupillo dei Sergenti! <i>Bzz!</i>
+Intruders will be punished! Get ready to face Sergeants' golden boy! <i>Bzz!</i>
 <i>E-ERRORE. E-ERRORE. BZZ.</i> <i>RI-RITIRATA. BZZ.</i>
-<i>E-ERRORE. E-ERRORE. BZZ.</i> <i>RI-RITIRATA. BZZ.</i>
+<i>E-ERROR. E-ERROR. BZZ.</i><<n>><i>RE-RETREAT. BZZ.</i>
+Matilde
+Mathilda
 Al giorno d’oggi nessuno utilizza più il <b>Condividi Esperienza</b>...
-Al giorno d’oggi nessuno utilizza più il <b>Condividi Esperienza</b>...
+Nowadays no one uses the <b>Exp. Share</b> anymore...
 Vorrei sdebitarmi a nome di tutto il campus per averci liberato dal Team Dimension. Non ripagherà di certo il favore, ma prendi.
-Vorrei sdebitarmi a nome di tutto il campus per averci liberato dal Team Dimension. Non ripagherà di certo il favore, ma prendi.
+I'm so thankful you freed us from<<n>>Team Dimension.<<n>>It may not be a lot but take this, it's from the whole campus.
 È un <b>Condividi Esperienza</b>, uno strumento che permette di far ottenere Punti Esperienza anche a Pokémon che non prendono parte alla lotta. Spero vivamente ti possa tornare utile!
-È un <b>Condividi Esperienza</b>, uno strumento che permette di far ottenere Punti Esperienza anche a Pokémon che non prendono parte alla lotta. Spero vivamente ti possa tornare utile!
+It's an <b>Exp. Share<b>! With this tool, a Pokémon can get Exp. Points even if it doesn't take part in the battle.<<n>>I hope it'll help you!
+Gigi
+Louis
 Lavoro qui da anni e potrei giurare che quella lastra fosse rossa prima...
-Lavoro qui da anni e potrei giurare che quella lastra fosse rossa prima...
+I've worked here for years and I swear that plate was red before... 
 13T
 13T
 Dove pensi di andare?! <i>Bzz!</i>
-Dove pensi di andare?! <i>Bzz!</i>
+Where are you running?! <i>Bzz!</i>
+Mariano
+Logan
 Ieri gambe e domani petto... Oggi invece si allena il cervello in biblioteca!
-Ieri gambe e domani petto... Oggi invece si allena il cervello in biblioteca!
+Yesterday the legs, tomorrow the chest... And today<<n>>we exercise the brain in the library instead!
+Nadia
+Natalie
 In questa biblioteca c'è veramente di tutto!
-In questa biblioteca c'è veramente di tutto!
+You can find everything you need here!
 \PN ciao! Dopo che sei diventato|a Campione, ho deciso di impegnarmi ancora di più sia negli studi che nelle lotte. Un giorno sappi che ti toglierò il titolo, parola mia!
 \PN ciao! Dopo che sei diventato|a Campione, ho deciso di impegnarmi ancora di più sia negli studi che nelle lotte. Un giorno sappi che ti toglierò il titolo, parola mia!
 [Map56]
 <<[>>old<<]>>Sgabuzzino
-<<[>>old<<]>>Sgabuzzino
+<<[>>old<<]>>Utility Room
 <<[>>old<<]>>La porta sembra chiusa a chiave.
 <<[>>old<<]>>La porta sembra chiusa a chiave.
 <<[>>old<<]>>Vuoi aprire la porta dello sgabuzzino utilizzando la chiave?
@@ -2972,7 +3054,7 @@ In questa biblioteca c'è veramente di tutto!
 <<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: \PN
 <<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: \PN
 <<[>>old<<]>>Aula di Scienze
-<<[>>old<<]>>Aula di Scienze
+<<[>>old<<]>>Science Class
 <<[>>old<<]>>Vuoi aprire la porta dell'aula di Scienze utilizzando la chiave?
 <<[>>old<<]>>Vuoi aprire la porta dell'aula di Scienze utilizzando la chiave?
 <<[>>old<<]>>Questo armadietto è aperto... E c'è qualcosa al suo interno!
@@ -2986,21 +3068,25 @@ In questa biblioteca c'è veramente di tutto!
 <<[>>old<<]>> La porta sembra esser chiusa.
 <<[>>old<<]>> La porta sembra esser chiusa.
 <<[>>old<<]>>Anfiteatro
-<<[>>old<<]>>Anfiteatro
+<<[>>old<<]>>Amphitheater
 <<[>>old<<]>>Vuoi aprire la porta dell'anfiteatro utilizzando la chiave?
 <<[>>old<<]>>Vuoi aprire la porta dell'anfiteatro utilizzando la chiave?
 ???
 ???
 Benvenuto|a nella Palestra del Campus Ariepoli, giovane Allenatore!
-Benvenuto|a nella Palestra del Campus Ariepoli, giovane Allenatore!
+Welcome to Newtron City's Gym, young Trainer!
+Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
+What? You want to know who I am? And why?<<n>>You just need to know I'm cheering for you!
 <b>Claudio</b>, il Capopalestra, è un esperto dei Pokémon di tipo Lotta. Diciamoci la verità, è un po' il classico sportivo di ogni college che si rispetti! Ricorda che la mente prevale sulla forza bruta, quindi i Pokémon Psico fanno al caso tuo! Ah, dimenticavo.
-<b>Claudio</b>, il Capopalestra, è un esperto dei Pokémon di tipo Lotta. Diciamoci la verità, è un po' il classico sportivo di ogni college che si rispetti! Ricorda che la mente prevale sulla forza bruta, quindi i Pokémon Psico fanno al caso tuo! Ah, dimenticavo.
+<b>Ginger</b>, the Gym Leader, specializes in Fighting-type<<n>>Pokémon.<<n>>Let's be honest, he's exactly the sporty type<<n>>each respectable college has!<<n>>Remember mind prevails over brute force, so Psychic-type Pokémon are what you need!<<n>>Ah, I forgot.
 Per farti strada in questa Palestra dovrai cercare negli armadietti le chiavi delle apposite aule. Tutto chiaro?
-Per farti strada in questa Palestra dovrai cercare negli armadietti le chiavi delle apposite aule. Tutto chiaro?
+For this Gym challenge, you have to find the keys to<<n>>the right rooms in the school lockers. Is that clear?
 Che scontro memorabile quello tra te e Claudio!
-Che scontro memorabile quello tra te e Claudio!
+What a memorable battle between you and Ginger!
+Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
+What? You want to know who I am? And why?<<n>>You just need to know I'm cheering for you!
 <<[>>old<<]>>Aula di Matematica
-<<[>>old<<]>>Aula di Matematica
+<<[>>old<<]>>Maths Class
 <<[>>old<<]>>Vuoi aprire la porta dell'aula di Matematica utilizzando la chiave?
 <<[>>old<<]>>Vuoi aprire la porta dell'aula di Matematica utilizzando la chiave?
 Sì
@@ -3013,71 +3099,71 @@ No
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
 Mariella
-Mariella
+Mary Jane
 Oh, ecco lo|a sfidante! Dovrai vedertela con la sottoscritta, se vorrai entrare in possesso della prossima chiave!
-Oh, ecco lo|a sfidante! Dovrai vedertela con la sottoscritta, se vorrai entrare in possesso della prossima chiave!
+Oh, here is the challenger! You'll have to face me,<<n>>if you want to get the next key!
 Che perfetta alchimia.
-Che perfetta alchimia.
+Such a perfect chemistry.
 L'alchimia tra te e i tuoi Pokémon è portentosa! Prendi questa.
-L'alchimia tra te e i tuoi Pokémon è portentosa! Prendi questa.
+The chemistry between you and your Pokémon is wondrous! Take this.
 Ricorda però che anche lo studio è importante!
-Ricorda però che anche lo studio è importante!
+But remember, studying is important, too!
 [Map58]
 Clara & Tina
-Clara & Tina
+Tina & Clair
 Benvenuto|a nell'anfiteatro, dove tutto è finto e nulla è falso. Per ottenere la chiave della prossima aula, dovrai batterci! Datemi tre G: GO-GO, GRANBULLS!
-Benvenuto|a nell'anfiteatro, dove tutto è finto e nulla è falso. Per ottenere la chiave della prossima aula, dovrai batterci! Datemi tre G: GO-GO, GRANBULLS!
+Welcome in the amphitheater, where everything is fake and nothing is false.<<n>>In order to get the next key, you'll have to beat us!<<n>>Give me three G: GO-GO, GRANBULLS!
 Per una Lotta in Doppio non basta un solo Pokémon! Torna quando ne avrai almeno due.
-Per una Lotta in Doppio non basta un solo Pokémon! Torna quando ne avrai almeno due.
+One Pokémon isn't enough for a Double Battle!<<n>>Come back when you'll have at least two.
 Cala il sipario.
-Cala il sipario.
+The curtain falls.
 Siamo state brave, ma è così che va. Ecco a te la chiave! Hip hip hurrà!
-Siamo state brave, ma è così che va. Ecco a te la chiave! Hip hip hurrà!
+We did good, but that's the way it is.<<n>>Here you have the key! Hip-hip-hooray!
 Per \PN, hip hip hurrà!
-Per \PN, hip hip hurrà!
+For \PN, hip-hip-hooray!
 [Map59]
 Arturo
-Arturo
+Arthur
 Non sarò un genio della Matematica, ma in quanto a lotte Pokémon non ho nulla da invidiare agli altri!
-Non sarò un genio della Matematica, ma in quanto a lotte Pokémon non ho nulla da invidiare agli altri!
+I may not be a genius, but surely I'm good<<n>>in Pokémon battles!
 Ti sbagli di grosso se pensi che sarò io a ripulire questo disastro.
-Ti sbagli di grosso se pensi che sarò io a ripulire questo disastro.
+You're dead wrong if you think I'm gonna clean this mess up.
 Woah! Prendi pure la chiave e va’ ad affrontare il Capopalestra.
-Woah! Prendi pure la chiave e va’ ad affrontare il Capopalestra.
+Whoa! Take the key and go challenge the Gym Leader.
 Ora però dovrò richiedere un altro mazzo di chiavi...
-Ora però dovrò richiedere un altro mazzo di chiavi...
+I'm gonna need another set of keys now...
 <<[>>old<<]>>Il cestino nasconde qualcosa.
 <<[>>old<<]>>Il cestino nasconde qualcosa.
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
 [Map60]
 Carlo
-Carlo
+Karl
 Se l'uomo non sapesse di Matematica non si eleverebbe di un sol palmo da terra.
-Se l'uomo non sapesse di Matematica non si eleverebbe di un sol palmo da terra.
+Mathematics is the key and the door to the sciences.
 Ho commesso un errore di calcolo...
-Ho commesso un errore di calcolo...
+I miscalculated...
 Avete dimostrato che la vostra abilità è maggiore della mia nelle lotte Pokémon. Questa è vostra.
-Avete dimostrato che la vostra abilità è maggiore della mia nelle lotte Pokémon. Questa è vostra.
+Congratulations, you have proven to be better than me<<n>>in Pokémon battles. You deserve this.
 Avete dimostrato che la vostra abilità è maggiore della mia nelle lotte Pokémon.
-Avete dimostrato che la vostra abilità è maggiore della mia nelle lotte Pokémon.
+Congratulations, you have proven to be better than me<<n>>in Pokémon battles.
 [Map61]
 <<[>>old<<]>>Casa del Giudice Onomastico
-<<[>>old<<]>>Casa del Giudice Onomastico
+<<[>>old<<]>>Name Rater's House
 Arturo
-Arturo
+Arthur
 Ehi, hai per caso visto la mia amica? Stiamo giocando a nascondino.
-Ehi, hai per caso visto la mia amica? Stiamo giocando a nascondino.
+Hey, have you seen my friend?<<n>>We are playing hide-and-seek.
 Certo che sei proprio una spia...
-Certo che sei proprio una spia...
+You truly are a snitch...
 Va bene, grazie comunque.
-Va bene, grazie comunque.
+Ok, thanks anyway.
 ???
 ???
 Ehi, tu!
-Ehi, tu!
+Hey, you!
 Sei il||la bamboccio|a che ha conciato per le feste quei due sbruffoni di <b>A & B</b>, non è vero? Non che la cosa ti riguardi, ma io sono <b>Trey</b> e lui è <b>Sabolt</b>.
-Sei il||la bamboccio|a che ha conciato per le feste quei due sbruffoni di <b>A & B</b>, non è vero? Non che la cosa ti riguardi, ma io sono <b>Trey</b> e lui è <b>Sabolt</b>.
+You're the youngster who knocked around those<<n>>two braggarts <b>A & B</b>, aren't you?<<n>>Not your business, but I'm  <b>Trey</b> and this is <b>Sabolt</b>.
 Sabolt
 Sabolt
 Booolt!!
@@ -3085,83 +3171,87 @@ Booolt!!
 Trey
 Trey
 Ti ho visto lottare al campus, sai? Quel misterioso potere che hai sprigionato è davvero affascinante... Sono qui per metterlo alla prova con una lotta! Avanti!
-Ti ho visto lottare al campus, sai? Quel misterioso potere che hai sprigionato è davvero affascinante... Sono qui per metterlo alla prova con una lotta! Avanti!
+I saw you fighting on campus, y'know? That mysterious power you unleashed caught my attention for true.<<n>>I'm here to test it out with a Pokémon battle!<<n>>Bring it on!
 Tsk!
-Tsk!
+Tch!
 Muahaha! Lo sapevo che non eri ancora pronto|a per battermi.
 Muahaha! Lo sapevo che non eri ancora pronto|a per battermi.
 Non male, pivello|a. Ma se credi che questo possa bastare, ti sbagli di grosso. Uh uh uh!
-Non male, pivello|a. Ma se credi che questo possa bastare, ti sbagli di grosso. Uh uh uh!
+Not bad, noob. But you're dead wrong if you think<<n>>that's enough. Huh huh huh! 
 Francesca
-Francesca
+Kelly
 Sto giocando a nascondino col mio amichetto. Non dirgli che sono qui, eh!
-Sto giocando a nascondino col mio amichetto. Non dirgli che sono qui, eh!
+I'm playing hide-and-seek with my friend.<<n>>Don't tell him I'm here, okay?
 Roberto
-Roberto
+Rob
 Lavoro alla pescheria ''Da Vincenzo'', ma purtroppo gli affari non vanno a gonfie vele... Il mio socio pensa che io stia qui a sonnecchiare tutto il giorno, ma la verità è che non m'importa della pesca. Sul fondo di questo lago si cela un tesoro di inestimabile valore... la statuetta d'oro di un Magikarp! Per soli 500$, ti va di darmi una mano a tirarla su?
-Lavoro alla pescheria ''Da Vincenzo'', ma purtroppo gli affari non vanno a gonfie vele... Il mio socio pensa che io stia qui a sonnecchiare tutto il giorno, ma la verità è che non m'importa della pesca. Sul fondo di questo lago si cela un tesoro di inestimabile valore... la statuetta d'oro di un Magikarp! Per soli 500$, ti va di darmi una mano a tirarla su?
+I work in ''Vince's'' fish market, but business isn't exactly booming at the moment...<<n>>My associate thinks I stay here snoozing all day,<<n>>but the truth is that I do not care about fishing.<<n>>There's a priceless treasure hidden on the bottom<<n>>of this pond... it's a golden Magikarp statue!<<n>>For only $500 you can try to fish it up!<<n>>Wanna help me?
 Grazie mille! Prego, prendi pure l'<b>Amo Speciale</b> di mia invenzione. Le istruzioni sono semplici: evita sassi e alghe e raggiungi il fondale per accaparrarti il tesoro! Occhio però ai Pokémon che potranno attaccarti perché attratti dall'esca. Se riuscirai a riportare in superficie la statuetta, il mio Amo sarà tuo!
-Grazie mille! Prego, prendi pure l'<b>Amo Speciale</b> di mia invenzione. Le istruzioni sono semplici: evita sassi e alghe e raggiungi il fondale per accaparrarti il tesoro! Occhio però ai Pokémon che potranno attaccarti perché attratti dall'esca. Se riuscirai a riportare in superficie la statuetta, il mio Amo sarà tuo!
+Thanks a lot! Here, you can take this <b>Special Rod</b><<n>>I invented.<<n>>The rules are simple: just dodge rocks and seaweeds and reach the bottom to snag the treasure!<<n>>Be careful of the Pokémon who could try to attack you lured by the bait.<<n>>If you get the statue out of that, then my Rod is yours!
 Non posso crederci, ce l'hai fatta! Ma Amo mio, statuetta mia! Eh eh!
-Non posso crederci, ce l'hai fatta! Ma Amo mio, statuetta mia! Eh eh!
+I can't believe this! You did it! But the Rod is mine,<<n>>so's the statue! Heh heh!
+... Dai, non fare così! E va bene. Prendi questi 2500$ e anche quest'Amo, dato che non me ne faccio più niente! Sarà più utile nelle tue mani.
+...<<n>>Oh, come on. Don't be upset!<<n>>Aw, that's right. Take these $2500 and my Rod too,<<n>>since I don't need it anymore!<<n>>I'm sure it will come in handy for you.
 Non hai abbastanza soldi.
-Non hai abbastanza soldi.
+You don't have enough money.
 Beh, in effetti un principiante come te non potrebbe mai farcela.
-Beh, in effetti un principiante come te non potrebbe mai farcela.
+Well, um, there's no way a beginner like you could do it.
 Come dici? Vuoi provare?
-Come dici? Vuoi provare?
+What? You wanna try again?
 Grazie mille! Prego, prendi pure l'<b>Amo Speciale</b> di mia invenzione. Se riuscirai a riportare in superficie la statuetta, il mio Amo sarà tuo!
 Grazie mille! Prego, prendi pure l'<b>Amo Speciale</b> di mia invenzione. Se riuscirai a riportare in superficie la statuetta, il mio Amo sarà tuo!
 L’<b>Amo Speciale</b> è una mia umile invenzione per rendere la pesca un minimo più avvincente, ma se vuoi pescare alla maniera classica potresti sempre procurarti degli Ami differenti...
-L’<b>Amo Speciale</b> è una mia umile invenzione per rendere la pesca un minimo più avvincente, ma se vuoi pescare alla maniera classica potresti sempre procurarti degli Ami differenti...
+The <b>Special Rod</b> is my humble invention to make fishing more exciting,<<n>>but if you still want to fish old school you can always get different Rods...
 Tonio
-Tonio
+Peter
 Ehilà, giovane! Che ne dici di un bel Sidrostelle? Costa solo 200$ a bottiglia!
-Ehilà, giovane! Che ne dici di un bel Sidrostelle? Costa solo 200$ a bottiglia!
+Hello, young one! How about having a Star Sider?<<n>>It's just $200 apiece!
 Ecco a te!
-Ecco a te!
+Here you go!
 Dove ce lo metti con tutta quella roba nella Borsa?
-Dove ce lo metti con tutta quella roba nella Borsa?
+Where are you gonna put it with all that stuff<<n>>in your Bag?
 Ahia, non hai abbastanza soldi.
-Ahia, non hai abbastanza soldi.
+Too bad, you don't have enough money.
 Guarda che va provato una volta nella vita!
-Guarda che va provato una volta nella vita!
+You must try it at least once in your life!
 Vincenzo
-Vincenzo
+Vince
 Non dovrei dirlo in giro, ma ultimamente gli affari non vanno granché...
-Non dovrei dirlo in giro, ma ultimamente gli affari non vanno granché...
+I shouldn't tell anybody, but business isn't going very well lately...
+Il mio socio che si occupa della pesca se ne sta tutto il giorno a poltrire e non piglia un pesce! Sono certo che persino tu sapresti fare di meglio! Mi accontenterei anche solo di qualche Magikarp!
+My associate who's in charge of fishing slacks off all day<<n>>so he doesn't catch any fish!<<n>>I'm pretty sure that even you could do a better job!<<n>>I'd settle for a bunch of Magikarp!
 Allora... Pescato qualche Magikarp?
-Allora... Pescato qualche Magikarp?
+So, did you catch any Magikarp?
 Oh, ben fatto! Ecco a te una Rete Ball!
-Oh, ben fatto! Ecco a te una Rete Ball!
+Oh, well done! Here you go, a Net Ball!
 Continua così e sarai premiato|a con altre succose ricompense.
-Continua così e sarai premiato|a con altre succose ricompense.
+Keep it up and I'll give you more juicy rewards.
 Quel Magikarp è il tuo unico Pokèmon in squadra, non posso accettarlo!
-Quel Magikarp è il tuo unico Pokèmon in squadra, non posso accettarlo!
+That Magikarp is your only Pokémon, I can't accept!
 Oh, pare che tu non abbia nessun Magikarp per me...
-Oh, pare che tu non abbia nessun Magikarp per me...
+Oh, it seems you have no Magikarp for me...
 Torna quando avrai un Magikarp per me!
-Torna quando avrai un Magikarp per me!
+Come back when you'll have a Magikarp!
 Oh, ben fatto! Ecco a te una Sub Ball!
-Oh, ben fatto! Ecco a te una Sub Ball!
+Oh, well done! Here you go, a Dive Ball!
 Oh, ben fatto! Ecco a te ben 5000$
-Oh, ben fatto! Ecco a te ben 5000$
+Oh, well done! Here you go, $5000!
 <<[>>old<<]>>Pescheria ''Da Vincenzo''
-<<[>>old<<]>>Pescheria ''Da Vincenzo''
+<<[>>old<<]>>''Vince's'' fish market
 <<[>>old<<]>><b>Borgo Gemini</b> <i>''Il posto ideale per ammirare le stelle in tutta tranquillità.''</i>
 <<[>>old<<]>><b>Borgo Gemini</b> <i>''Il posto ideale per ammirare le stelle in tutta tranquillità.''</i>
 Svetonio
-Svetonio
+Sam
 Passerei le giornate a sorseggiare Sidrostelle... Tieni, provane un po’ anche tu!
-Passerei le giornate a sorseggiare Sidrostelle... Tieni, provane un po’ anche tu!
+I'd spend entire days sipping Star Sider...<<n>>Here, take a taste!
 Può sembrarti solo una lattina vuota, ma è un autentico <b>souvenir</b> di Borgo Gemini.
-Può sembrarti solo una lattina vuota, ma è un autentico <b>souvenir</b> di Borgo Gemini.
+It may seem just an empty can, but it's a true <b>souvenir</b> of Stellato Town.
 <<[>>old<<]>>Chiosco Sidrostelle ''Guarda le stelle assaporando la bevanda tipica del posto!''
-<<[>>old<<]>>Chiosco Sidrostelle ''Guarda le stelle assaporando la bevanda tipica del posto!''
+<<[>>old<<]>>Star Sider Kiosk ''Look at the stars while sipping our traditional drink!''
 Marta
-Marta
+Mariah
 Sono venuta fino a qui solo per provare il famoso <b>Sidrostelle</b> del borgo.
-Sono venuta fino a qui solo per provare il famoso <b>Sidrostelle</b> del borgo.
+I came here just to taste the famous <b>Star Sider</b>.
 Sì
 Yes
 No
@@ -3177,17 +3267,17 @@ Tieni, prendi questo oggetto per aiutarmi!
 <<[>>old<<]>>È un Nintendo Switch nuovo di zecca!
 <<[>>old<<]>>È un Nintendo Switch nuovo di zecca!
 Davide
-Davide
+Albert
 I Grimer che conosco io sono molto diversi da quelli che ho potuto osservare in questa regione... Non è che ne avresti uno da scambiare col mio <b>Grimer di Alola</b>?
-I Grimer che conosco io sono molto diversi da quelli che ho potuto osservare in questa regione... Non è che ne avresti uno da scambiare col mio <b>Grimer di Alola</b>?
+The Grimers I know are a lot different from the ones<<n>>I could see across this region...<<n>>Do you have one to trade for my <b>Alolan Grimer</b>?
 Torna a trovarmi quando avrai un Grimer per me!
-Torna a trovarmi quando avrai un Grimer per me!
+Come back when you have a Grimer for me!
 Cosa aspettiamo allora? Via allo scambio!
-Cosa aspettiamo allora? Via allo scambio!
+What are we waiting for? Let's trade then!
 Peccato...
-Peccato...
+Too bad...
 Ad Alola abbiamo risolto il problema dello smaltimento dei rifiuti proprio grazie ai Grimer!
-Ad Alola abbiamo risolto il problema dello smaltimento dei rifiuti proprio grazie ai Grimer!
+In Alola we solved our problem with garbage thanks to Grimer!
 Sì
 Yes
 No
@@ -3195,120 +3285,122 @@ No
 [Map64]
 Patrick
 Patrick
-Fratellone, ero così preoccupato per te!
-Fratellone, ero così preoccupato per te!
+Fratellonfe, ero così preoccupato per te!
+Brother, I was so worried about you!
 Mi dispiace di averti fatto stare in pensiero...
-Mi dispiace di averti fatto stare in pensiero...
+I'm sorry for making you worry...
+Vedi, un Pokémon mi teneva prigioniero, ma per fortuna questo|a ragazzo|a mi ha salvato!
+Listen, a Pokémon imprisoned me, but luckily<<n>>this boy|||gal saved me!
 A proposito, questa è per te!
-A proposito, questa è per te!
+Oh, by the way, this is for you!
 Luca
-Luca
+Lucas
 Non ti ringrazierò mai abbastanza.
-Non ti ringrazierò mai abbastanza.
+I can't thank you enough.
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
 Il mio fratellone è andato a fare un picnic nel <b>Bosco Stellafilante</b> coi suoi amici, ma non è ancora tornato! Sono un po’ preoccupato...
-Il mio fratellone è andato a fare un picnic nel <b>Bosco Stellafilante</b> coi suoi amici, ma non è ancora tornato! Sono un po’ preoccupato...
+My big brother went for a picnic with his friends<<n>>in the <b>String Forest</b>, but he hasn't come back yet!<<n>>I'm a bit worried...
 Grazie di aver salvato il mio fratellone!
-Grazie di aver salvato il mio fratellone!
+Thank you for saving my big brother!
 [Map65]
 Fiorella
-Fiorella
+Daisy
 Da quando è nata la mia piccolina, è solo mio marito ad occuparsi del chiosco di Sidrostelle.
-Da quando è nata la mia piccolina, è solo mio marito ad occuparsi del chiosco di Sidrostelle.
+Since my little girl's birth, my husband takes care of<<n>>the Star Sider's kiosk by himself.
 Alessandra
-Alessandra
+Lilly
 Mammaaa! Quando si mangiaaa?!
-Mammaaa! Quando si mangiaaa?!
+Mommyyy! When are we eating?!
 [Map66]
 <<[>>old<<]>>Qui c'è solo spazzatura.
 <<[>>old<<]>>Qui c'è solo spazzatura.
 Giudice Onomastico
-Giudice Onomastico
+Name Rater
 Ciao! Sono io, il <b>Giudice Onomastico</b>! Vuoi che valuti il soprannome dei tuoi Pokémon?
-Ciao! Sono io, il <b>Giudice Onomastico</b>! Vuoi che valuti il soprannome dei tuoi Pokémon?
+Hello! It's me, the <b>Name Rater</b>! Would you like me to rate the names of your Pokémon?
 Quale nome vuoi sottoporre al mio giudizio?
-Quale nome vuoi sottoporre al mio giudizio?
+Which Pokémon's nickname should I rate for you?
 Torna a trovarmi.
-Torna a trovarmi.
+OK! Come see me again if you change your mind.
 Ma dai! Questo è solo un Uovo!
-Ma dai! Questo è solo un Uovo!
+Now, now... That is merely an Egg!
 \bI wouldn't dare critique a Shadow Pokémon's name!
 \bI wouldn't dare critique a Shadow Pokémon's name!
 \v[3]? Ma che soprannome sublime! Mi raccomando, prenditi cura di \v[3].
-\v[3]? Ma che soprannome sublime! Mi raccomando, prenditi cura di \v[3].
+\v[3]? That is a truly impeccable nickname<<n>>Take good care of \v[3].
 \v[3]? È un bel nome, ma sono sicuro si possa trovare di meglio. Non credi anche tu?
-\v[3]? È un bel nome, ma sono sicuro si possa trovare di meglio. Non credi anche tu?
+\v[3], is it? That is quite a fine nickname. But I think we could give it something even better.<<n>>What do you think?
 Forza, dai sfogo alla tua fantasia!
-Forza, dai sfogo alla tua fantasia!
+Ah, good! Then, what shall the new nickname be?
 Ecco fatto! D'ora in poi questo Pokémon si chiamerà così!
-Ecco fatto! D'ora in poi questo Pokémon si chiamerà così!
+Done! From now on, this will be your Pokémon's name!
 Sì
 Yes
 No
 No
 [Map67]
 <<[>>old<<]>>Lista dei Pokémon riclassificati al tipo Suono: Ekans e Arbok\n Igglybuff, Jigglypuff e Wigglytuff\n Drowzee e Hypno\n Whismur, Loudred ed Exploud\n Kricketot e Kricketune Chatot\n Audino\n Litleo e Pyroar\n Noibat e Noivern
-<<[>>old<<]>>Lista dei Pokémon riclassificati al tipo Suono: Ekans e Arbok\n Igglybuff, Jigglypuff e Wigglytuff\n Drowzee e Hypno\n Whismur, Loudred ed Exploud\n Kricketot e Kricketune Chatot\n Audino\n Litleo e Pyroar\n Noibat e Noivern
+<<[>>old<<]>>List of Pokémon reclassified as Sound-type:\n Ekans and Arbok\n Igglybuff, Jigglypuff and Wigglytuff\n Drowzee and Hypno\n Whismur, Loudred and Exploud\n Kricketot and Kricketune\n Chatot\n Audino\n Litleo and Pyroar\n Noibat and Noivern
 Da quando è stato scoperto il tipo Suono, molti Pokémon sono stati riclassificati.
-Da quando è stato scoperto il tipo Suono, molti Pokémon sono stati riclassificati.
+A lot of Pokémon have been reclassified since<<n>>the Sound-type was discovered.
 <<[>>old<<]>>Il cestino contiene qualcosa.
 <<[>>old<<]>>Il cestino contiene qualcosa.
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
 Luca
-Luca
+Paul
 Vorrei tanto acchiappare un <b>Pikachu</b>, ma ho una paura matta di attraversare il bosco...
-Vorrei tanto acchiappare un <b>Pikachu</b>, ma ho una paura matta di attraversare il bosco...
+I'd love to catch a <b>Pikachu</b>, but I have fear of going through the woods...
 [Map68]
 Lorenzo
-Lorenzo
+Lawrence
 Guarda come si sfreccia sul Pokéboard!
-Guarda come si sfreccia sul Pokéboard!
+Look how to whizz off on a Pokéboard!
 Che botta...
-Che botta...
+What a blown...
 Certo che sei forte, amico|a!
-Certo che sei forte, amico|a!
+You're really cool, mate!
 Ermia
-Ermia
+Erina
 Io e i miei Pokémon pianteremo le tende qui!
-Io e i miei Pokémon pianteremo le tende qui!
+My Pokémon and I are pitching out tents here!
 Ho capito, le pianteremo altrove.
-Ho capito, le pianteremo altrove.
+Got it, we're pitching them somewhere else.
 Una lotta Pokémon? Mi ci butto a pesce!
-Una lotta Pokémon? Mi ci butto a pesce!
+A Pokémon battle? I'm going to roll deep in it!
 Ecco che il pesce grosso mangia quello piccolo.
-Ecco che il pesce grosso mangia quello piccolo.
+his is where the big fish eats the small one.
 <<[>>old<<]>>Borgo Gemini ad est
-<<[>>old<<]>>Borgo Gemini ad est
+<<[>>old<<]>>East: Stellato Town
 Emma
 Emma
 Io e Flaaffy ripuliamo il sentiero dai rifiuti, ma a una lotta non diciamo mai di no!
-Io e Flaaffy ripuliamo il sentiero dai rifiuti, ma a una lotta non diciamo mai di no!
+Flaaffy and I are cleaning this path from waste but we are never turning a battle away!
 Wow, che forza della natura!
-Wow, che forza della natura!
+Wow, what a force of nature!
 Fabiano
-Fabiano
+Fab
 Assaggia la forza dei miei Coleotteri!!
-Assaggia la forza dei miei Coleotteri!!
+Have a taste of my Bug's strength!!
 Ho proprio i grilli in testa...
-Ho proprio i grilli in testa...
+I really have flights of fancy...
 Simone
-Simone
+Simon
 Ehi, raccogli subito quella cartaccia!
-Ehi, raccogli subito quella cartaccia!
+Hey, pick that wastepaper immediately up!
 Non si gettano i rifiuti in giro!
-Non si gettano i rifiuti in giro!
+Don't lay waste around!
 Se avessimo tutti un pizzico di senso civico in più, sono certo che il pianeta ci ringrazierebbe.
-Se avessimo tutti un pizzico di senso civico in più, sono certo che il pianeta ci ringrazierebbe.
+If we all had more public spirit, the world would thank us.
 Ettore
-Ettore
+Hector
 Hut!
 Hut!
 Mi hai placcato a dovere...
-Mi hai placcato a dovere...
+You tackled me properly...
 Le lotte Pokémon sono toste, ma niente a che vedere col football!
-Le lotte Pokémon sono toste, ma niente a che vedere col football!
+Pokémon battles are hard but they're nothing compared to football!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
@@ -3361,7 +3453,7 @@ Brutus
 Vuoi tornare a Balansopoli?
 Shall we hoist anchor for Hadwarf?
 Si salpa allora!
-Let’s set sail then!
+Let's set sail then!
 Se cambi idea, sai dove trovarmi.
 You know where to find me if you change your mind.
 <<[>>old<<]>>Star...!
@@ -3426,7 +3518,7 @@ No
 Niccolò
 Nicholas
 Mia moglie proprio non ne vuole sapere di rassegnarsi alla vecchiaia...
-My wife doesn’t want to acknowledge her old age...
+My wife doesn't want to acknowledge her old age...
 Matilde
 Tilly
 Ehilà, amico|a! Avresti con te una bella Baccarancia? In cambio di quella potrei darti una bella dritta. Che ne dici?
@@ -3458,13 +3550,13 @@ Dominic
 Mio nipote mi ha fatto sentire quella roba che ascolta sempre lui... ... e devo dire che ci sono rimasto sotto anch’io!
 My grandson made me listen to the music<<n>>he likes...<<n>>... and it really got me bad, not gonna lie!
 Ah, come vorrei andare ad un concerto di quel giovanotto e chiedergli un autografo tutto per me...!
-I’d love to go to that lad’s concert and get his autograph...!
+I'd love to go to that lad's concert and get his autograph...!
 Quello è proprio l’autografo di quel <b>Wallus Dandy</b> che ascolto sempre alla radio! Sei davvero venuto|a qui per darlo a me? Oh, che gioia!
-You have <b>Wallus Dandy</b>’s autograph, I always listen to him on the radio!<<n>>Are you really giving it to me? What a joy!
+You have <b>Wallus Dandy</b>'s autograph, I always listen to him on the radio!<<n>>Are you really giving it to me? What a joy!
 Oh, come sono felice! Voglio sdebitarmi dandoti questa!
 I'm so happy! Here you go, take this!
 Ai tempi, quando questa era ancora un’isola di pescatori, usavamo quella per tirar su dei gran bei pesci! Al giorno d’oggi però non è che un souvenir...
-To my days, when this was just a fishing island,<<n>>we used that thing to catch big fish!<<n>>Nowadays it’s nothing more than a souvenir...
+To my days, when this was just a fishing island,<<n>>we used that thing to catch big fish!<<n>>Nowadays it's nothing more than a souvenir...
 Quest'autografo farà invidia a mio nipote!
 This autograph will make my grandson so jealous!
 [Map73]
@@ -3481,7 +3573,7 @@ Rem
 Chi osa disturbare il meritato riposo del grande genio Rem?
 Who dares disturb the one and only genius Rem?
 Come dici? Aster vuole sapere a che punto sia col mio lavoro? Ehm, ecco... P-P-Prendi questa e smamma!
-E-Excuse me? Aster wants news on my work?<<n>>It’s, um... T-T-Take this and go away!
+E-Excuse me? Aster wants news on my work?<<n>>It's, um... T-T-Take this and go away!
 G-G-Guarda che non era un compito facile! N-Non mi sono preso delle ferie di troppo!
 T-T-That wasn't an easy task! I-I didn't take too many holidays... I swear!
 Dannazione... Posso dire addio al mio posto fisso, vero?
@@ -3491,57 +3583,41 @@ Grazie a te, mi sono rilassato per un bel po' di mesi in questa fantastica Isola
 Oh.
 Oh.
 [Map74]
-Sig.Marino
-Sig.Marino
-Visto, Peeko? Non sei felice? Siamo finalmente riusciti a restituire al meglio il favore che quel|||lla ragazzo|a ci fece tempo fa... Ricordi quando ti salvò da quel brutto ceffo nella grotta?
-Visto, Peeko? Non sei felice? Siamo finalmente riusciti a restituire al meglio il favore che quel|||lla ragazzo|a ci fece tempo fa...  Ricordi quando ti salvò da quel brutto ceffo nella grotta?
-Mi ricorda me da giovane, sai? Avevo anch'io quella voglia di avventura e di scoperta... Solo che, a differenza sua, qualcosa è arrivato nella mia vita e l'ha completamente stravolta, impedendomi di realizzare i miei sogni nel cassetto... Mi sono innamorato, Peeko.
-Mi ricorda me da giovane, sai? Avevo anch'io quella voglia di avventura e di scoperta... Solo che, a differenza sua, qualcosa è arrivato nella mia vita e l'ha completamente stravolta, impedendomi di realizzare i miei sogni nel cassetto...  Mi sono innamorato, Peeko.
-Mi sono innamorato del mare, passando intere ore a fissare la sua vastità e perdendomi tra i suoi spumeggianti e fragorosi discorsi... Il mare mi è entrato dentro, Peeko, e io, come uno stupido, me ne sono innamorato, al punto da dimenticarmi delle mie stesse aspirazioni...
-Mi sono innamorato del mare, passando intere ore a fissare la sua vastità e perdendomi tra i suoi spumeggianti e fragorosi discorsi...  Il mare mi è entrato dentro, Peeko, e io, come uno stupido, me ne sono innamorato, al punto da dimenticarmi delle mie stesse aspirazioni...
-Ti ho accudito e ho rivisto nei tuoi occhi la mia stessa dolce malinconia, ma anche quella passione, quell'energia che solo il mare riusciva a trasmettermi. Vedendoti, mi sono balenate in mente tutte quelle fantasie da bambino sugli Allenatori, sulla Lega Pokémon...
-Ti ho accudito e ho rivisto nei tuoi occhi la mia stessa dolce malinconia, ma anche quella passione, quell'energia che solo il mare riusciva a trasmettermi. Vedendoti, mi sono balenate in mente tutte quelle fantasie da bambino sugli Allenatori, sulla Lega Pokémon...
-Poi, d'improvviso, ti sei avvicinato a me e, senza l'ausilio di alcuna Poké Ball, siamo diventati amici. Un legame spontaneo ci ha uniti, facendoci percorrere infinite rotte prive di una meta... Ricordi il banco di Wailmer? Ripensando a momenti come quelli mi si stampa un sorriso in volto.
-Poi, d'improvviso, ti sei avvicinato a me e, senza l'ausilio di alcuna Poké Ball, siamo diventati amici.  Un legame spontaneo ci ha uniti, facendoci percorrere infinite rotte prive di una meta...  Ricordi il banco di Wailmer?  Ripensando a momenti come quelli mi si stampa un sorriso in volto.
-E ora, Peeko?
-E ora, Peeko?
-Sono diventato la salsedine che ho tanto amato, Peeko...
-Sono diventato la salsedine che ho tanto amato, Peeko...
 [Map75]
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 Sandro
-Sandro
+Lex
 Sto marinando la scuola. Voglio diventare uno tosto, mica uno stupido secchione!
-Sto marinando la scuola. Voglio diventare uno tosto, mica uno stupido secchione!
+I'm ditching school. I want to become a total cool guy,<<n>>not a stupid nerd!
 Tu sì che sei forte!
-Tu sì che sei forte!
+You sure are strong!
 Forse per diventare uno tosto dovrei studiare...
-Forse per diventare uno tosto dovrei studiare...
+Maybe in order to be a cool guy I have to study...
 <<[>>old<<]>>Regno di Virgopoli ad est
-<<[>>old<<]>>Regno di Virgopoli ad est
+<<[>>old<<]>>East: Milkiway City
 Brianna
 Brianna
 Superare quel bosco insidioso è stata dura. Fammi riprendere un po' con una lotta!
-Superare quel bosco insidioso è stata dura. Fammi riprendere un po' con una lotta!
+Getting through this tricky wood was tough.<<n>>Let me catch my breath with a battle!
 Uff...
-Uff...
+Oof...
 Niente da fare, sono proprio a pezzi!
-Niente da fare, sono proprio a pezzi!
+No way, I'm really falling apart!
 Paolo
-Paolo
+Paul
 Mi ero accampato qui in attesa che passasse qualcuno. E ora via alla lotta!
-Mi ero accampato qui in attesa che passasse qualcuno. E ora via alla lotta!
+I camped here waiting for someone to show up.<<n>>And now let's battle!
 Non è stata una buona idea...
-Non è stata una buona idea...
+It wasn't such a good idea...
 Jacob
 Jacob
 Vintage è meglio e te lo dimostrerò!
-Vintage è meglio e te lo dimostrerò!
+Vintage is better and I'll show you!
 Vintage è comunque meglio!!
-Vintage è comunque meglio!!
+Vintage still is better!!
 Ammettilo, i Pokégear di un tempo erano molto più affidabili!
-Ammettilo, i Pokégear di un tempo erano molto più affidabili!
+Face it, Pokégears of the past were way more reliable!
 [Map76]
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
@@ -3611,11 +3687,11 @@ Joltik
 Tiiik!!
 Tiiik!!
 <<[>>old<<]>>Questo Joltik blocca il passaggio.
-<<[>>old<<]>>Questo Joltik blocca il passaggio.
+<<[>>old<<]>>This Joltik is blocking the way.
 <<[>>old<<]>>...
 <<[>>old<<]>>...
 <<[>>old<<]>>Sca... Scappa....
-<<[>>old<<]>>Sca... Scappa....
+<<[>>old<<]>>Ge... Get out....
 ???
 ???
 Gaaaah!!
@@ -3623,9 +3699,9 @@ Gaaaah!!
 Galvantula
 Galvantula
 <<[>>old<<]>>È ghiacciata... non si apre!
-<<[>>old<<]>>È ghiacciata... non si apre!
+<<[>>old<<]>>It's frozen... there's no way to open it!
 <<[>>old<<]>>A... aiuto...
-<<[>>old<<]>>A... aiuto...
+<<[>>old<<]>>He... Help...
 <<[>>old<<]>> ...
 <<[>>old<<]>> ...
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
@@ -3633,13 +3709,13 @@ Galvantula
 <<[>>old<<]>><b>Bosco Stellafilante</b> <i>''Un'oscura selva gremita di insetti.''</i>
 <<[>>old<<]>><b>Bosco Stellafilante</b> <i>''Un'oscura selva gremita di insetti.''</i>
 <<[>>old<<]>> Il ghiaccio non permette di aprire la cassa.
-<<[>>old<<]>> Il ghiaccio non permette di aprire la cassa.
+<<[>>old<<]>>It's frozen... there's no way to open it!
 <<[>>old<<]>>Questo Joltik blocca il passaggio
-<<[>>old<<]>>Questo Joltik blocca il passaggio
+<<[>>old<<]>>This Joltik is blocking the way.
 Damiano
-Damiano
+Damon
 In tutta la mia vita da Pigliamosche non ho mai visto dei Coleotteri come quelli! Ora che ci penso però, mi è parso di vedere qualcosa di simile a <b>Unima</b>...
-In tutta la mia vita da Pigliamosche non ho mai visto dei Coleotteri come quelli! Ora che ci penso però, mi è parso di vedere qualcosa di simile a <b>Unima</b>...
+I've never seen Bug-type Pokémon like those<<n>>in my whole life!<<n>>Come to think of it, I remember something similar<<n>>in <b>Unova</b>...
 Gaaa...!
 Gaaa...!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
@@ -3706,62 +3782,90 @@ Miltank
 Miltank
 Muuu...!
 Muuu...!
+Tobia
+Toby
 Sto badando ai Miltank di famiglia.
-Sto badando ai Miltank di famiglia.
+I'm looking after my family's Miltank.
+Terenzio
+Terence
 Il <b>Cunicolo Gravità</b> è un autentico paradiso per i fanatici di Fossili come me!
-Il <b>Cunicolo Gravità</b> è un autentico paradiso per i fanatici di Fossili come me!
+The <b>Gravity Tunnel</b> it's a true paradise for Fossils enthusiasts like myself!
 <<[>>old<<]>>Se hai bisogno di rinfrescarti la memoria sui Comandi di gioco, puoi visualizzarli all'interno del menù di gioco.
 <<[>>old<<]>>Se hai bisogno di rinfrescarti la memoria sui Comandi di gioco, puoi visualizzarli all'interno del menù di gioco.
+Marco
+Martin
 Pronti per la corsa della Baccalemon!!
-Pronti per la corsa della Baccalemon!!
+Get ready for the Nomel Berry's race!!
+Lino
+Luther
 I vicoli di questa città mi ricordano la gioventù. Ah, che nostalgia!
-I vicoli di questa città mi ricordano la gioventù. Ah, che nostalgia!
+The alleys of this city remind me of my youth.<<n>>Oh, I miss those days!
+Margherita
+Elizabeth
+Vanessa
+Vanessa
 Prima di lasciare il regno, dovresti portare i tuoi ossequi alla principessa.
-Prima di lasciare il regno, dovresti portare i tuoi ossequi alla principessa.
+Before leaving the kingdom, you should visit the princess and pay your respect.
+Lucia
+Lucy
 Sciò! Sciò! Maledetto Sparkowl!!
-Sciò! Sciò! Maledetto Sparkowl!!
+Go away! You damn Sparkowl!!
 Quando ero giovane io, non si conoscevano tutti i Pokémon che si conoscono al giorno d’oggi. Anche i tempi si evolvono, figlio|a mio|a!
-Quando ero giovane io, non si conoscevano tutti i Pokémon che si conoscono al giorno d’oggi. Anche i tempi si evolvono, figlio|a mio|a!
+When I was young, there weren't as many known<<n>>Pokémon as we know today.<<n>>Time evolves too, my child!
 Non eri mai stato|a a Virgopoli prima d'ora, vero? Ecco, accetta un regalo di benvenuto.
-Non eri mai stato|a a Virgopoli prima d'ora, vero? Ecco, accetta un regalo di benvenuto.
+You have never been in Milkiway City, have you?<<n>>Here, accept this welcome gift.
 Il Centro Pokémon del regno ha tutto un altro aspetto al confronto coi soliti. Entra a dare un’occhiata, su!
-Il Centro Pokémon del regno ha tutto un altro aspetto al confronto coi soliti. Entra a dare un’occhiata, su!
+This kingdom's Pokémon Center has a whole other look compared to the others. Enter and have a look!
 <<[>>old<<]>><b>Regno di Virgopoli</b> <i>''Reame dall'antico splendore!''</i>
 <<[>>old<<]>><b>Regno di Virgopoli</b> <i>''Reame dall'antico splendore!''</i>
+Bartolomeo
+Burt
 Ho sentito che le acque del castello sono infestate dagli Honchen, ma non riesco a tirar su nulla...
-Ho sentito che le acque del castello sono infestate dagli Honchen, ma non riesco a tirar su nulla...
+I've heard this castle's water is infested by Honchen, but I can't manage to reel in anything...
 <<[>>old<<]>>Sta suonando il flauto. Non può parlare con te.
-<<[>>old<<]>>Sta suonando il flauto. Non può parlare con te.
+<<[>>old<<]>>She's playing the flute. She can't talk to you.
 La principessa <b>Mimosa</b> ha tutti i giocattoli più belli. Vorrei tanto giocare con lei!
-La principessa <b>Mimosa</b> ha tutti i giocattoli più belli. Vorrei tanto giocare con lei!
+Princess <b>Vanilla</b> has the most beautiful toys.<<n>>I wanna play with her so bad!
 <<[>>old<<]>>Casa dell'Insegnamosse
-<<[>>old<<]>>Casa dell'Insegnamosse
+<<[>>old<<]>>Move Tutor's House
+Oliviero
+Oliver
 Orsù, codesto è il Regno di Virgopoli!
-Orsù, codesto è il Regno di Virgopoli!
+Cometh on, this the Milkiway City's kingdom!
+Rita
+Lily
 In questi giardini reali la principessa è solita recarsi per giocare coi Pokémon selvatici. Io sono qui per assicurarmi che non si faccia del male.
-In questi giardini reali la principessa è solita recarsi per giocare coi Pokémon selvatici. Io sono qui per assicurarmi che non si faccia del male.
+In these royal gardens the princess comes and plays with wild Pokémon.<<n>>I am here to ensure that she does not get hurt.
 <<[>>old<<]>>Sta suonando la chitarra. Non può parlare con te.
-<<[>>old<<]>>Sta suonando la chitarra. Non può parlare con te.
+<<[>>old<<]>>She's playing the guitar. She can't talk to you.
 <<[>>old<<]>>Palestra Zucchero Capopalestra: <b>Mimosa</b> <i>''Giovane dolcezza alla guida di un antico regno.''</i> Allenatori Certificati: 0
 <<[>>old<<]>>Palestra Zucchero Capopalestra: <b>Mimosa</b> <i>''Giovane dolcezza alla guida di un antico regno.''</i> Allenatori Certificati: 0
 <<[>>old<<]>>Palestra Zucchero Capopalestra: <b>Mimosa</b> <i>''Giovane dolcezza alla guida di un antico regno.''</i> Allenatori Certificati: \PN
 <<[>>old<<]>>Palestra Zucchero Capopalestra: <b>Mimosa</b> <i>''Giovane dolcezza alla guida di un antico regno.''</i> Allenatori Certificati: \PN
+Elena
+Helena
 In questa città così fuori moda non c'è niente che possa fotografare per ricevere tanti like!
-In questa città così fuori moda non c'è niente che possa fotografare per ricevere tanti like!
+This city is so old-fashioned that I can't shoot at anything that can receive lots of likes!
 ...
 ...
 <<[>>old<<]>>Sta suonando le percussioni. Non può parlare con te.
-<<[>>old<<]>>Sta suonando le percussioni. Non può parlare con te.
+<<[>>old<<]>>He's playing the percussion. He can't talk to you.
+Marika
+Maeve
 Il rumore dell'acqua che scorre è così rilassante.
-Il rumore dell'acqua che scorre è così rilassante.
+The sound of the flowing water is so relaxing.
+Mariangela
+Margiela
 Da quando a corte è arrivato quello Smeargle, è come se noi cuochi non esistessimo più per la principessa!
-Da quando a corte è arrivato quello Smeargle, è come se noi cuochi non esistessimo più per la principessa!
+Since that Smeargle came to this court, we other chefs<<n>>don't exist anymore for the princess!
 <<[>>old<<]>>Visualizza la lista degli Obiettivi portati a termine all'interno del PokéWES, oppure usa il tasto A come scorciatoia!
 <<[>>old<<]>>Visualizza la lista degli Obiettivi portati a termine all'interno del PokéWES, oppure usa il tasto A come scorciatoia!
+Paolo
+Herbert
 Un giorno la principessa mi convocherà a corte come suo musicista personale! Ne sono certo!
-Un giorno la principessa mi convocherà a corte come suo musicista personale! Ne sono certo!
-Principe Paolo...mmh devo dire che suona davvero bene.
-Principe Paolo...mmh devo dire che suona davvero bene.
+One day the princess will summon me at the palace<<n>>as her personal musician! I'm sure!
+Sentiti onorato|a di aver ricevuto un regalo dal sottoscritto!
+You've been blessed with a gift from yours truly!
 [Map80]
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
@@ -4161,82 +4265,88 @@ Usa Box
 Use Box
 [Map87]
 Niente è meglio di una bella Gassosa per rimettersi in forze!
-Niente è meglio di una bella Gassosa per rimettersi in forze!
+Nothing is like a Soda Pop to get your strength back!
 Vedrai che energia!
-Vedrai che energia!
+You'll see!
 <<[>>old<<]>> Non c'è niente...
-<<[>>old<<]>> Non c'è niente...
+<<[>>old<<]>>There's nothing here...
 [Map88]
 Entro fine anno organizzerò la festa più grossa che il campus abbia mai visto!
-Entro fine anno organizzerò la festa più grossa che il campus abbia mai visto!
+By the end of this year I'll organise the biggest party<<n>>this campus has ever seen!
 Il Campus Ariepoli è come una grande Scuola per Allenatori.
-Il Campus Ariepoli è come una grande Scuola per Allenatori.
+Newtron City's campus is like a big Trainer School.
 Mi sto liberando di tutte le Sveglie che ho, così potrò dormire in tutta tranquillità... Prendine una anche tu!
-Mi sto liberando di tutte le Sveglie che ho, così potrò dormire in tutta tranquillità... Prendine una anche tu!
+I'm getting rid of all the Awakenings I have to sleep<<n>>in peace... have yourself one, too!
 Quanto amo dormire!
-Quanto amo dormire!
+I love sleeping so much!
 [Map89]
 <<[>>old<<]>>Il cestino contiene qualcosa.
 <<[>>old<<]>>Il cestino contiene qualcosa.
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>Il cestino è vuoto.
 Degli smidollati hanno osato sfidarmi a una gara di Vroombug. Tsk!
-Degli smidollati hanno osato sfidarmi a una gara di Vroombug. Tsk!
+Some spineless dudes dared to challenge me in<<n>>a Vroombug race. Tsk!
 [Map90]
 Ripetilo ancora, Ryan! ''La scottatura riduce l’Attacco di un Pokémon e la paralisi la Velocità.''
-Ripetilo ancora, Ryan! ''La scottatura riduce l’Attacco di un Pokémon e la paralisi la Velocità.''
+Say it again, Ryan! ''Burn lowers a Pokémon's Attack and paralysis lowers its Speed.''
 ... zzz... zzz... Oh! Stavo solo riposando gli occhi, mica dormivo!
-... zzz... zzz... Oh! Stavo solo riposando gli occhi, mica dormivo!
+... zzz... zzz... Oh! I was just resting my eyes!<<n>>I wasn't sleeping!
 A quanto pare Claudio è uno specialista del tipo Lotta. Vedi, è scritto qui, sul sito della confraternita.
-A quanto pare Claudio è uno specialista del tipo Lotta. Vedi, è scritto qui, sul sito della confraternita.
+Seems like Ginger is a Fighting-type specialist.<<n>>Look, it says here, on the corporation website.
 Aaah! Non passerò mai quest’esame!
-Aaah! Non passerò mai quest’esame!
+Aarrgh! I'll never pass this exam!
 Fannie
 Fannie
 Che sfiga... Anche qui nessun <b>Romanzo di Crisante</b>...
-Che sfiga... Anche qui nessun <b>Romanzo di Crisante</b>...
+Bummer! No <b>Caspar's Novel</b> here, too...
 Non dirmi che quello è un Romanzo di Crisante in prima edizione?! Ti prego, ti prego, dammelo!
-Non dirmi che quello è un Romanzo di Crisante in prima edizione?! Ti prego, ti prego, dammelo!
+Is that a first edition Caspar's Novel?!<<n>>Please, please give it to me!
 Non sai che fartene? Allora se non ti dispiace lo prendo io! Grazie tante!
-Non sai che fartene? Allora se non ti dispiace lo prendo io! Grazie tante!
+You have no use for it? Then I'll take it, if you don't mind! Thank you so much!
 Però mi sentirei una ladra a non darti nulla in cambio... Prendi questo, dai!
-Però mi sentirei una ladra a non darti nulla in cambio... Prendi questo, dai!
+I'll feel like a thief if I'm not giving you something in return... Here, take this, c'mon!
 Quello è un attestato rilasciato dal campus agli studenti più meritevoli. Non so se possa servirti a qualcosa, ma qui al college è agognatissimo da tutti!
-Quello è un attestato rilasciato dal campus agli studenti più meritevoli. Non so se possa servirti a qualcosa, ma qui al college è agognatissimo da tutti!
+This certificate was given by the campus to the most worthy students.<<n>>I'm not sure it'll get you somewhere, but it's very coveted here! 
 Crisante è il mio scrittore preferito... Grazie ancora del regalo!
-Crisante è il mio scrittore preferito... Grazie ancora del regalo!
+Caspar's my favourite writer...<<n>>Thanks again for your gift!
 [Map91]
+Denise
+Marlene
 Hawlucha è il Pokémon preferito di Claudio, ma non il più forte. Se vuoi sfidarlo, ti servirà una di queste!
-Hawlucha è il Pokémon preferito di Claudio, ma non il più forte. Se vuoi sfidarlo, ti servirà una di queste!
+Hawlucha is Ginger's favourite Pokémon but not his strongest.<<n>>You'll need one of these if you want to challenge him.
 In bocca al Granbull!
-In bocca al Granbull!
+Break a Granbull!
+Mariano
+Marlon
 Certo che le mode tra voi giovani sono sempre più strane!
-Certo che le mode tra voi giovani sono sempre più strane!
+Trends among you youngsters are getting even more weirder!
+L’altro giorno ho visto due giovanotti in completo rosso e blu con delle maschere tutte strane... Bah!
+The other day I saw two lads in red and blue suits. They were also wearing some really strange masks... bah!
 [Map92]
 Teo
-Teo
+Theo
 Io e miei Pokémon siamo #bellissimi!
-Io e miei Pokémon siamo #bellissimi!
+My Pokémon and I are #amazing!
 Potevi evitare di scompigliarmi il ciuffo però!
-Potevi evitare di scompigliarmi il ciuffo però!
+You could've avoided ruffling my lock!
 Marco
-Marco
+Maxie
 Io, il discepolo del grande Gennaro, ti sconfiggerò!
-Io, il discepolo del grande Gennaro, ti sconfiggerò!
+ I, the great Joey's pupil, am going to defeat you!
 Sei forte, ma niente a che vedere col maestro!
-Sei forte, ma niente a che vedere col maestro!
+You are strong, but nothing compared to the master!
 Gennaro è una vera leggenda tra noi Bulli.
-Gennaro è una vera leggenda tra noi Bulli.
+Joey's a legend among us Youngsters!
 Valdemaro
-Valdemaro
+Vlad
 Ritroverò quella palla e la terrò come ricordo del mio primo fuoricampo! Proprio come questa MT!
-Ritroverò quella palla e la terrò come ricordo del mio primo fuoricampo! Proprio come questa MT!
+I'll find that ball and I'll keep it as a memento of my first home run! Just like this TM!
 Ritroverò quella palla e la terrò come ricordo del mio primo fuoricampo!
-Ritroverò quella palla e la terrò come ricordo del mio primo fuoricampo!
+I'll find that ball and I'll keep it as a memento of my first home run!
 Giulia
-Giulia
+Julie
 Tesoro, fa' attenzione ai Pokémon selvatici!
-Tesoro, fa' attenzione ai Pokémon selvatici!
+Watch out for wild Pokémon, honey!
 <<[>>old<<]>>Non sai come far evolvere un Pokémon? Non preoccuparti! In giro per la regione troverai tanti cittadini che aspettano solo di condividere le loro preziose informazioni con te!
 <<[>>old<<]>>Non sai come far evolvere un Pokémon? Non preoccuparti! In giro per la regione troverai tanti cittadini che aspettano solo di condividere le loro preziose informazioni con te!
 [Map93]
@@ -4253,19 +4363,19 @@ Trevenant
 TREEEE...!
 TREEEE...!
 <<[>>old<<]>>Questa zona è territorio di Trevenant! Con grande prepotenza, il Pokémon ti caccia via.
-<<[>>old<<]>>This is Trevenant’s territory! The Pokémon rats you out with brute force.
+<<[>>old<<]>>This is Trevenant's territory! The Pokémon rats you out with brute force.
 ???
 ???
 Benvenuto|a nella Palestra di Balansopoli, giovane Allenatore!
 Welcome to Hadwarf City's Gym, young Trainer! 
 Come dici? Vuoi sapere chi io sia? A quale scopo? Ti basti sapere che faccio il tifo per te!
-What? You want to know who I am? And why?<<n>>All you have to know is that I’m cheering for you!
+What? You want to know who I am? And why?<<n>>All you have to know is that I'm cheering for you!
 <b>Alisso</b>, il Capopalestra, è un amante dei Pokémon di tipo Erba... l'avresti mai detto? Eh eh! Prova a contrastarli con la passione ardente dei Pokémon di tipo Fuoco!
 <b>Basil</b>, the Gym Leader, specializes in Grass-type<<n>>Pokémon... could you tell? Heh heh!<<n>>Try to turn them to ash with the burning passion<<n>>of Fire-type Pokémon!
 Sei stato|a formidabile contro Alisso! Sei un portento per essere solo un Allenatore in erba.
 You were terrific against Basil!<<n>>You're so strong for a green Trainer!
 Come dici? Vuoi sapere chi io sia? A quale scopo? Ti basti sapere che faccio il tifo per te!
-What? You want to know who I am? And why?<<n>>All you have to know is that I’m cheering for you!
+What? You want to know who I am? And why?<<n>>All you have to know is that I'm cheering for you!
 Alisso
 Basil
 ...
@@ -4283,7 +4393,7 @@ The user snares the foe with grass and trips it:<<n>>the heavier it is, the grea
 Torno a meditare, ma pregherò che gli spiriti veglino sul tuo viaggio, giovane Allenatore. ''I Capipalestra vacilleranno udendo il tuo nome''... Questo dicono le voci della foresta.
 I'm going to meditate now, but I will pray for the spirits<<n>>to keep their eyes on your journey, young Trainer.<<n>>''Gym Leaders will shake hearing your name''...<<n>>This is what the voices of the woods whisper.
 <<[>>old<<]>>È totalmente assorto nella meditazione... Meglio non disturbarlo!
-<<[>>old<<]>>He’s completely absorbed in meditation...\nYou should not disturb!
+<<[>>old<<]>>He's completely absorbed in meditation...\nYou should not disturb!
 Arianna
 Ariana
 La calma è la virtù dei forti!
@@ -4514,12 +4624,14 @@ A casa
 A scuola
 A scuola
 [Map95]
+Mnemonio
+Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 I can have your Pokémon remember any move<<n>>they forgot. Are you interested?
 A quale Pokémon vuoi far ricordare una mossa?
 Which Pokémon should I have remember a move?
 Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Come back when you'd like me to help your Pokémon remember a move.
+Come back when you'd like me to help your Pokémon<<n>>remember a move.
 Mi prendi in giro, forse?! Quello è solo un Uovo!
 You gotta be kidding me! That's merely an Egg!
 Uhm... Non vedo mosse che \v[3] possa ricordare...
@@ -4527,51 +4639,59 @@ Hmm... It doesn't seem like \v[3] has any moves<<n>>that it can remember...
 Quale mossa vuoi far ricordare a \v[3]?
 Which move should \v[3] remember?
 Francesca
-Francesca
+Eleanor
 Quale onore! Colui||ei che ha salvato il campus!
-Quale onore! Colui||ei che ha salvato il campus!
+What an honor! The one who freed the campus!
 Ho qui un Uovo Pokémon molto speciale e sarei felice se fossi tu a prenderlo. Allora, lo vuoi?
-Ho qui un Uovo Pokémon molto speciale e sarei felice se fossi tu a prenderlo. Allora, lo vuoi?
+I got a very special Pokémon Egg and I'd be happy<<n>>if you took it. So, do you want it?
 Pensione Pokémon
-Pensione Pokémon
+Pokémon Day Care
 <<[>>old<<]>>Hai ricevuto un Uovo Pokémon!
-<<[>>old<<]>>Hai ricevuto un Uovo Pokémon!
+<<[>>old<<]>>You received a Pokémon Egg!
 Non ho idea di cosa salterà fuori... Lo scoprirai solo prendendotene cura!
-Non ho idea di cosa salterà fuori... Lo scoprirai solo prendendotene cura!
+I have no idea of what will hatch... You'll know only<<n>>by taking care of it!
 La tua squadra è al completo! Se proprio ci tieni ad averlo, fai posto.
-La tua squadra è al completo! Se proprio ci tieni ad averlo, fai posto.
+ Your party is full! If you really want it, you'll need<<n>>to make room for it.
 Va bene... Troverò qualcun altro che possa prendersene cura.
-Va bene... Troverò qualcun altro che possa prendersene cura.
+Fine... I'll find someone else then.
 Oh, eccoti! Ti stava cercando mio marito.
-Oh, eccoti! Ti stava cercando mio marito.
+Oh, here you are! My husband was looking for you.
 Benvenuto|a nella nostra <b>Pensione Pokémon</b>. Allora, vuoi affidarci un Pokémon?
-Benvenuto|a nella nostra <b>Pensione Pokémon</b>. Allora, vuoi affidarci un Pokémon?
+Welcome to our <b>Pokémon Day Care</b>.<<n>>Do you want to leave a Pokémon?
 Oh, cielo! Non posso prendere il tuo unico Pokémon rimasto! Torna a farci visita.
-Oh, cielo! Non posso prendere il tuo unico Pokémon rimasto! Torna a farci visita.
+Oh my! I can't take your only Pokémon!<<n>>We hope to see you again.
 Quale Pokémon vuoi affidarci?
-Quale Pokémon vuoi affidarci?
+Which Pokémon would you like to give us?
 Torna a farci visita.
-Torna a farci visita.
+We hope to see you again.
 Oh, cielo! Non posso prendere il tuo unico Pokémon rimasto in forze! Torna a farci visita.
-Oh, cielo! Non posso prendere il tuo unico Pokémon rimasto in forze!  Torna a farci visita.
+Oh my! I can't take your only healthy Pokémon!<<n>>We hope to see you again.
+Il tuo {1} è in ottime mani.
+Your {1} is in good hands.
 Possiamo prendere in consegna due Pokémon per volta, vuoi affidarcene un altro?
-Possiamo prendere in consegna due Pokémon per volta, vuoi affidarcene un altro?
+We can take up to two Pokémon at a time,<<n>>do you want to leave another one?
+Bene, baderemo noi al tuo {1} per un po’!
+Well, we'll take care of your {1} for a while!
 Oh, eccoti. Allora, vediamo un po’...
-Oh, eccoti. Allora, vediamo un po’...
+Oh, here you are. So...
+Il tuo {1} è salito di {2} livelli.
+Your {1} has grown by {2} levels.
 Vuoi ritirare un Pokémon?
-Vuoi ritirare un Pokémon?
+Would you like to take a Pokémon back?
 La tua squadra è al completo! Torna quando avrai più spazio.
-La tua squadra è al completo! Torna quando avrai più spazio.
+Your party is full! Come back when you have room.
 Chi vuoi riprendere con te?
-Chi vuoi riprendere con te?
+Who do you want to take?
+Per il tuo {1} fanno {2}$. D'accordo?
+For {1} it's ${2}. Okay?
 Non hai soldi a sufficienza...
-Non hai soldi a sufficienza...
+You don't have enough money...
 Ecco a te il tuo Pokémon!
-Ecco a te il tuo Pokémon!
+Here is your Pokémon!
 <<[>>old<<]>>\PN ritira \v<<[>>3<<]>> dalla Pensione!
-<<[>>old<<]>>\PN ritira \v<<[>>3<<]>> dalla Pensione!
+<<[>>old<<]>>\PN took \v<<[>>3<<]>> from the Day Care!
 Vuoi ritirare anche l'altro?
-Vuoi ritirare anche l'altro?
+Do you want to take the other one, too?
 Sì
 Yes
 No
@@ -4580,13 +4700,17 @@ No
 Aster
 Aster
 Mi raccomando, occhi aperti!
-Mi raccomando, occhi aperti!
+Take care, \PN!
 Nel posto giusto al momento giusto, \PN! Seguimi, devi assolutamente vedere una cosa.
-Nel posto giusto al momento giusto, \PN! Seguimi, devi assolutamente vedere una cosa.
+Right place, right time, \PN!<<n>>Come with me, you absolutely need to see this. 
 Senti com'è pesante l'aria qui? Quest'albero è permeato dall'energia dello Xenoverse. È molto probabile che qui, tempo fa, si sia aperta e poi richiusa una faglia interdimensionale. È tramite fratture del genere che i Pokémon X sono riusciti ad evadere dallo Xenoverse!
-Senti com'è pesante l'aria qui? Quest'albero è permeato dall'energia dello Xenoverse.  È molto probabile che qui, tempo fa, si sia aperta e poi richiusa una faglia interdimensionale. È tramite fratture del genere che i Pokémon X sono riusciti ad evadere dallo Xenoverse!
+Do you feel how oppressive the air is? This tree here<<n>>is filled with the energy from Xenoverse.<<n>>It's very likely that here, long ago, a dimensional fault line opened and suddenly closed.<<n>>X Pokémon could break out of Xenoverse through rifts exactly like this one!
+Per quanto affascinante, questo fenomeno rappresenta un pericolo per l'equilibrio del pianeta... La regione ne è già zeppa, ma se dovesse estendersi anche altrove, correremmo seri rischi! Stai all'erta, \PN. Per precauzione, prendi delle altre Xeno Ball.
+As charming this phenomenon is, it poses a serious threat to the planetary balance...<<n>>Eldiw's already filled with them, but if they should spread elsewhere too, the planet's gonna be in danger!<<n>>Be careful, \PN. Take more Xeno Balls as a precaution.
 Non tutto il male vien per nuocere, però!
-Non tutto il male vien per nuocere, però!
+But every cloud has a silver lining, you know!
+Talvolta in queste zone è possibile rinvenire una particolare roccia, denominata <b>Xenolite</b>. Gli studi hanno rivelato che alcuni Pokémon X reagiscono all’energia sprigionata da questa roccia, evolvendosi. Chissà, magari potresti trovarne una anche tu...
+In these areas, sometimes you can find a particular stone, called the <b>Xenolith</b>.<<n>>Research reveals that some X Pokémon react to the energy surge from this stone, and evolve.<<n>>Who knows, you might get one too...
 [Map97]
 [Map98]
 Mr.Bug
@@ -4595,12 +4719,14 @@ Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
 I see you have no Herculeum H. Don't worry!<<n>>Mr. Bug's here to help you.
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Alright, now you have the Herculeum H helding<<n>>a superhuman Strength.
+Mnemonio
+Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 I can have your Pokémon remember any move<<n>>they forgot. Are you interested?
 A quale Pokémon vuoi far ricordare una mossa?
 Which Pokémon should I have remember a move?
 Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Come back when you'd like me to help your Pokémon remember a move.
+Come back when you'd like me to help your Pokémon<<n>>remember a move.
 Mi prendi in giro, forse?! Quello è solo un Uovo!
 You gotta be kidding me! That's merely an Egg!
 Uhm... Non vedo mosse che \v[3] possa ricordare...
@@ -4630,21 +4756,21 @@ Hi there, I'm here to give you a gift from the whole staff.<<n>>Take this and me
 Buon Natale a nome di tutto lo staff!
 Merry Christmas from the whole staff!
 Fabio
-Fabio
+Mickey
 Sto facendo incetta di Antidoti per affrontare le insidie del <b>Bosco Stellafilante</b>.
-Sto facendo incetta di Antidoti per affrontare le insidie del <b>Bosco Stellafilante</b>.
+I'm stockpiling Antidotes before heading<<n>>to the <b>String Forest</b>.
 Beniamino
-Beniamino
+Benjamin
 Pare che qui ad Eldiw sia più facile imbattersi in un Pokémon cromatico... eppure ancora niente!
-Pare che qui ad Eldiw sia più facile imbattersi in un Pokémon cromatico... eppure ancora niente!
+I've heard that in Eldiw is easier to find shiny<<n>>Pokémon... but I haven't yet!
 Claudia
-Claudia
+Sissy
 La mia amica è davvero ossessionata dai cruciverba! Guarda, ne sta facendo uno anche adesso!
-La mia amica è davvero ossessionata dai cruciverba! Guarda, ne sta facendo uno anche adesso!
+My friend is obsessed with crossword puzzles!<<n>>Look, she's solving one right now!
 Eveline
-Eveline
+Evely
 ''Pokémon fatto di carta che evolve imparando <b>Cartaforbice</b>''? Oh, questa è facile... <b>Chigami</b>!
-''Pokémon fatto di carta che evolve imparando <b>Cartaforbice</b>''? Oh, questa è facile... <b>Chigami</b>!
+''A Pokémon made of paper that evolves<<n>>learning <b>Paper Cut</b>''?<<n>>That's easy... it's <b>Chigami</b>!
 Si
 Yes
 No
@@ -4685,121 +4811,139 @@ Kiloo...!
 Kiloo...!
 [Map101]
 Cavaliere
-Cavaliere
+Girard
 Salve forestiero|a, se v'accingete quivi a tentar la sorte, sappiate che da tutte le Palestre questa differisce. Oltre queste porte tre ardue prove v'attendono: del Fuoco è la prima. La soglia varcata, tornar sui propri passi non si puote. Siete pronto, Allenatore?
-Salve forestiero|a, se v'accingete quivi a tentar la sorte, sappiate che da tutte le Palestre questa differisce. Oltre queste porte tre ardue prove v'attendono: del Fuoco è la prima. La soglia varcata, tornar sui propri passi non si puote. Siete pronto, Allenatore?
+Welcome, foreyner. If thou art hither to tempt fate, thee should knowest this Gym is dissimilar from the others.<<n>>Three ordals awaiten thou behinde these dors:<<n>>the Trial of Fire is the first one.<<n>>Once thou crossest the threscholde, ther is no turning back. Art thou ready, Trainer?
 Girard
 Girard
 Indi andate e ch'il fato v'assista.
-Indi andate e ch'il fato v'assista.
+Thenne gost and may fate be with thou.
 Ah, dei forti la prudenza è virtù.
-Ah, dei forti la prudenza è virtù.
+Oh, prudence is the moder of wisdom.
 Ordunque, siete dimostratovi, la fiera sfidando, di coraggio e abilità nella lotta dotati. Ma prima ch'i bardi possan cantare delle vostre gesta, son due le prove ch'ancora v'attendono. La Prova dell'Acqua è alquanto originale e mai s'è vista in altri reami. Siete dunque pronto|a, forestiero|a?
-Ordunque, siete dimostratovi, la fiera sfidando, di coraggio e abilità nella lotta dotati. Ma prima ch'i bardi possan cantare delle vostre gesta, son due le prove ch'ancora v'attendono. La Prova dell'Acqua è alquanto originale e mai s'è vista in altri reami. Siete dunque pronto|a, forestiero|a?
+Therfore, thou overcomest the Beast and provedest<<n>>thy courage alongst thy valour.<<n>>But before bards can sing verses of thy doings,<<n>>two ordals still awaiten thou.<<n>>The Trial of Water is rather origynal and never seen before in other realmes. Art thou ready, foreyner?
+Duolmi constatare di un intoppo la presenza.
+It greveth me to say this, but...
 Per dar sfoggio delle proprie virtù nella Prova dell'Acqua, necessario è un comune artefatto. Richiestovi è infatti un Amo e da quel che vedo non ne possedete alcuno. Di recente è però giunta agli orecchi miei una voce.
-Per dar sfoggio delle proprie virtù nella Prova dell'Acqua, necessario è un comune artefatto. Richiestovi è infatti un Amo e da quel che vedo non ne possedete alcuno. Di recente è però giunta agli orecchi miei una voce.
+To prove thy own virtues in the Trial of Water, thou needest a common and useful artefact.<<n>>Thou art requested to use a Rod, but, from what I can see, thou do not have one.<<n>>Recently, however, a rumour hast reached<<n>>these eares of myne. 
+Pare che nella ridente cittadina di <b>Borgo Gemini</b>, un veteran pescatore dell’arte sua dia lezioni. Se 'l fato v'assiste, potrebbe cedervi tale strumento. Verso Borgo Gemini volgete la vostra ricerca!
+It semeth that, in the charming <b>Stellato Town</b>,<<n>>an expert fischerman giveth lessouns in his art.<<n>>If fortune ist on thy side, he could give thee that tool.<<n>>Turnest thy gaze to Stellato Town, then!
 Le vostre prodezze già riecheggiano per Eldiw tutta. Ma ora di tutte le prove, la più ardua v'attende. Siete pronto|a a cimentarvi nella Prova della Foglia?
-Le vostre prodezze già riecheggiano per Eldiw tutta. Ma ora di tutte le prove, la più ardua v'attende. Siete pronto|a a cimentarvi nella Prova della Foglia?
+Thy prowesse already echoest all o'er Eldiw.<<n>>But the hardest of all ordals awaitest thou now.<<n>>Art thou ready to engage thyself in the Trial of Grass?
 Il vostro duello è stato spettacolare! La vostra tecnica sublime! Possano i bardi a lungo cantare le vostre gesta nelle notti d'estate! Non rimane prova alcuna che dobbiate affrontare! Non troverete avventure altre dietro queste porte.
-Il vostro duello è stato spettacolare! La vostra tecnica sublime! Possano i bardi a lungo cantare le vostre gesta nelle notti d'estate! Non rimane prova alcuna che dobbiate affrontare! Non troverete avventure altre dietro queste porte.
+Thy duel was magnificent!<<n>>Thy technique was superbe indede!<<n>>May bards sing forever verses of thy doings<<n>>on midsomer nightes!<<n>>Thou don't have any more ordal thou must face! Thou will not find other aventures behinde these dors.
 Armando
-Armando
-Oh salve Campione. La principessa in questo momento si sta riposando. Ma sappi che voleva congratularsi con te per il successo sul Monte Zodiaco.
-Oh salve Campione. La principessa in questo momento si sta riposando. Ma sappi che voleva congratularsi con te per il successo sul Monte Zodiaco.
-Forse un giorno chi lo sa... Potreste rincontrarvi.
-Forse un giorno chi lo sa... Potreste rincontrarvi.
+Armand
+La principessa sta riposando. Tuttavia voleva congratularsi con voi per il vostro successo.
+The Princess is rest. However, she wanted to compliment you for your success.
+Si chiedeva se aveste portato qualche delizia per lei.
+She was wondering if you had taken some treats for her.
 ???
 ???
 Benvenuto|a nella Palestra del Regno di Virgopoli! Mi domandavo quanto ci avresti messo...
-Benvenuto|a nella Palestra del Regno di Virgopoli!  Mi domandavo quanto ci avresti messo...
+Welcome to Milkiway City's Gym, young Trainer!<<n>>I was wondering how long you would take...
+Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
+What? You want to know who I am? And why?<<n>>You just need to know I'm cheering for you!
 <b>Mimosa</b>, la Capopalestra, adora i Pokémon Folletto. Come i sovrani, sono vulnerabili a Veleno e Acciaio.
-<b>Mimosa</b>, la Capopalestra, adora i Pokémon Folletto. Come i sovrani, sono vulnerabili a Veleno e Acciaio.
+<b>Vanilla</b>, the Gym Leader, loves Fairy-type Pokémon. Like monarchs, they're vulnerable to Poison and Steel.
+Per sfidare la principessa, però, dovrai prima dimostrare il tuo valore con tre prove. Non posso che augurarti buona fortuna! Eh eh!
+But, before taking on the princess, you have to prove<<n>>your value in three ordeals.<<n>>I can only wish you the best of luck! Heh heh!
 Congratulazioni, ora che possiedi tre Medaglie, non sei più un principiante. Lo sapevo che saresti andato|a lontano!
-Congratulazioni, ora che possiedi tre Medaglie, non sei più un principiante. Lo sapevo che saresti andato|a lontano!
+Congrats, now you own three Badges, you're not a beginner anymore. I always knew you'd go far.
+Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
+What? You want to know who I am? And why?<<n>>You just need to know I'm cheering for you!
 Sì
 Yes
 No
 No
 [Map102]
 Armando
-Armando
+Armand
 Benvenuto|a. Procedo a illustrarti il regolamento previsto per la Prova del Fuoco. In q...
-Benvenuto|a. Procedo a illustrarti il regolamento previsto per la Prova del Fuoco. In q...
+Welcome. I will now explain the regulation for the Trial of Fire. The-
 Mimosa
-Mimosa
+Vanilla
 <b>Armando</b>!! Dove sono i dolcetti che ti avevo chiesto?!
-<b>Armando</b>!! Dove sono i dolcetti che ti avevo chiesto?!
+<b>Armand</b>!! Where are those sweets I asked you?!
 Uhm. Li avete già mangiati tutti, principessa.
-Uhm. Li avete già mangiati tutti, principessa.
+Hum. You ate them all, Princess.
 Ma io ne voglio ancora!! <b>Smeargle</b>, altri bigné!
-Ma io ne voglio ancora!! <b>Smeargle</b>, altri bigné!
+Then I want more!! <b>Smeargle</b>, cream puffs!
 Smeargle
 Smeargle
 Smeeee!!
 Smeeee!!
 Gnam, ho già l'acquolina!
-Gnam, ho già l'acquolina!
+Yummy, they look delicious!
 Su, cosa state aspettando? Continuate!
-Su, cosa state aspettando? Continuate!
+So, what are you waiting for? Go ahead!
 Ai suoi ordini.
-Ai suoi ordini.
+Aye, ma'am.
+Il regolamento della Prova del Fuoco prevede che il||la pretendente alla Medaglia affronti la belva. Punto primo: la belva non può essere catturata.
+The regulation for the Trial of Fire requires the pretender<<n>>to the Badge to take on the Beast.<<n>>Number one: the Beast cannot be caught.
 Punto secondo: non si può fuggire dalla belva.
-Punto secondo: non si può fuggire dalla belva.
+Number two: you cannot flee the Beast.
+Fine del regolamento. Che entri la belva.
+End of regulation. Let the Beast in.
 Druddigon
 Druddigon
 Druuu!!
 Druuu!!
 Gnam! Che dolcetti squisiti! E questo Allenatore non è poi così male!
-Gnam! Che dolcetti squisiti! E questo Allenatore non è poi così male!
+Yummy! These sweets are great!<<n>>And this Trainer is not that bad too!
 Armando!! Ora che è finita la prova che si fa? Posso tornarmene a mangiare i miei dolcetti?
-Armando!! Ora che è finita la prova che si fa? Posso tornarmene a mangiare i miei dolcetti?
+Armand!! The trial is over, now what? I can go back<<n>>to eating my sweeties, can I?
 Sono previste altre due prove, principessa.
-Sono previste altre due prove, principessa.
+There are two other trials, Princess.
 Ma io voglio riposarmi! Armando, fammi riposare!!
-Ma io voglio riposarmi! Armando, fammi riposare!!
+I want to relax! Armand, let me relax, come on!!
 Uhm. Potreste riposare mentre viene allestita l'arena per la seconda prova.
-Uhm. Potreste riposare mentre viene allestita l'arena per la seconda prova.
+Hum. You could rest while getting ready for the second trial, ma'am.
 Mh... E così sia!
-Mh... E così sia!
+Um, so be it!
 A breve avrà luogo la seconda prova.
-A breve avrà luogo la seconda prova.
+The second trial will take place shortly.
+Prima però vado a consegnarti il premio per il superamento della Prova del Fuoco.
+But first, I'm going to present you for passing<<n>>the Trial of Fire.
 A tra poco.
-A tra poco.
+See you soon.
 [Map103]
 Armando
-Armando
+Armand
 È il momento della Prova dell'Acqua. Ecco il regol...
-È il momento della Prova dell'Acqua. Ecco il regol...
+Now it is the time for the Trial of Water.<<n>>I will expla-
 Mimosa
-Mimosa
+Vanilla
 Ehi, giullare!! Quella tua stupida danza mi dà sui nervi!
-Ehi, giullare!! Quella tua stupida danza mi dà sui nervi!
+Hey, jester!! Your stupid dance is driving me crazy! 
 Giullare
-Giullare
+Jester
 O-Obbedisco, principessa...
-O-Obbedisco, principessa...
+I-I'll stop, Princess...
 Armando.
-Armando.
+Armand.
 Nella Prova dell'Acqua è richiesta una dimostrazione di abilità nella pesca tramite il recupero di un oggetto, situato sul fondo del lago.
-Nella Prova dell'Acqua è richiesta una dimostrazione di abilità nella pesca tramite il recupero di un oggetto, situato sul fondo del lago.
+The Trial of Water requires you to demonstrate your fishing skills recovering an item on the lake floor.
+Attenzione: questo lago è infestato dagli <b>Honchen</b>. Gli Honchen abboccando all'Amo, strappano via la lenza.
+Caution: this lake is infested with <b>Honchen</b>. When Honchen take the bait, they rip off your fishing line.
 Gnam!! Armando, basta chiacchiere! Che la Prova dell'Acqua abbia inizio!!
-Gnam!! Armando, basta chiacchiere! Che la Prova dell'Acqua abbia inizio!!
+Yummy!! Armand, I'm fed up with your rules!<<n>>Let's begin the Trial of Water!!
 Vuoi riprovare?
-Vuoi riprovare?
+Would you like to try again?
 Torna quando sarai un pescatore esperto.
-Torna quando sarai un pescatore esperto.
+Come back when you are an expert fisherman.
 Questo signore ha superato anche quest'altra prova...!
-Questo signore ha superato anche quest'altra prova...!
+Once again, this mister passed the trial...!
 Questa signora ha superato anche quest'altra prova...!
-Questa signora ha superato anche quest'altra prova...!
+Once again, this madame passed the trial...!
 E ora cosa si fa, Armando?
-E ora cosa si fa, Armando?
+So, what's now, Armand?
 Il||La pretendente si sottoporrà alla Prova della Foglia, al termine della quale fronteggerà voi, principessa. È consigliato dunque che si prepari alla lotta.
-Il||La pretendente si sottoporrà alla Prova della Foglia, al termine della quale fronteggerà voi, principessa. È consigliato dunque che si prepari alla lotta.
+The pretendant will submit to the Trial of Grass,<<n>>after which you will face him|||her, Princess.<<n>>I recommend you get ready for the battle.
 Uffa... E va bene, vorrà dire che mi preparerò!
-Uffa... E va bene, vorrà dire che mi preparerò!
+Phooey... All right, I guess I'll do it!
 La terza ed ultima prova avrà luogo a breve.
-La terza ed ultima prova avrà luogo a breve.
+The third and last trial will take place shortly.
 Sì
 Yes
 No
@@ -4816,12 +4960,14 @@ Scaaa...!
 [Map105]
 <b>Birigiri</b> non fa che tormentare <b>Chubiburny</b>, ma questi diventa più forte solo in sua compagnia.
 <b>Birigiri</b> non fa che tormentare <b>Chubiburny</b>, ma questi diventa più forte solo in sua compagnia.
+Mnemonio
+Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 I can have your Pokémon remember any move<<n>>they forgot. Are you interested?
 A quale Pokémon vuoi far ricordare una mossa?
 Which Pokémon should I have remember a move?
 Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Come back when you'd like me to help your Pokémon remember a move.
+Come back when you'd like me to help your Pokémon<<n>>remember a move.
 Mi prendi in giro, forse?! Quello è solo un Uovo!
 You gotta be kidding me! That's merely an Egg!
 Uhm... Non vedo mosse che \v[3] possa ricordare...
@@ -5758,7 +5904,7 @@ I'm taking a break from <b>Newtron's campus</b> life...
 Stefania
 Stephanie
 È venuto a trovarmi mio figlio, ma non so proprio cosa cucinargli...!
-My son came to visit me, but I don’t really know<<n>>what to cook him...!
+My son came to visit me, but I don't really know<<n>>what to cook him...!
 Pablo
 Pablo
 Vediamo un po' le notizie del giorno...
@@ -5769,9 +5915,9 @@ Let's see what's new...
 Daria
 Darla
 Ho preso con me questo Eevee e così ha finito per conquistarmi il cuore. Tieni, prendi questa.
-I took this Eevee with me and I couldn’t help falling in love. Take this.
+I took this Eevee with me and I couldn't help falling in love. Take this.
 Sei ancora giovane, ma ti auguro di trovare il vero amore un giorno...
-You’re young but I hope you'll find your soulmate one day...
+You're young but I hope you'll find your soulmate one day...
 Eevee
 Eevee
 Vee...!
@@ -5830,46 +5976,46 @@ Scaaa
 Scaaa
 [Map140]
 <<[>>old<<]>>Sembrerebbe esserci un Pokémon depositato in questo vecchio Box... vuoi ritirarlo?
-<<[>>old<<]>>Sembrerebbe esserci un Pokémon depositato in questo vecchio Box... vuoi ritirarlo?
+<<[>>old<<]>>Looks like there's a Pokémon in this old Box... would you like to withdraw it?
 Sì
 Yes
 No
 No
 [Map141]
 <<[>>old<<]>>Ehi! Erano anni che nessuno dall’altra parte si faceva vivo!
-<<[>>old<<]>>Ehi! Erano anni che nessuno dall’altra parte si faceva vivo!
+<<[>>old<<]>>Hey! It's been years since someone from the other side showed up here!
 <<[>>old<<]>>Allora, dimmi... ti va una lotta?
-<<[>>old<<]>>Allora, dimmi... ti va una lotta?
+<<[>>old<<]>>So tell me... would you like to battle?
 <<[>>old<<]>>Beh, a me non va per niente, quindi facciamo un’altra volta se non ti dispiace.
-<<[>>old<<]>>Beh, a me non va per niente, quindi facciamo un’altra volta se non ti dispiace.
+<<[>>old<<]>>Well, I don't feel like it. Take a rain check, if you don't mind.
 <<[>>old<<]>>Mi trovi d’accordo, neanch’io ho tanta voglia.
-<<[>>old<<]>>Mi trovi d’accordo, neanch’io ho tanta voglia.
+<<[>>old<<]>>I totally agree with you, I don't feel like it either!
 <<[>>old<<]>>La porta è chiusa a chiave.
-<<[>>old<<]>>La porta è chiusa a chiave.
+<<[>>old<<]>>The door is locked.
 <<[>>old<<]>>Ah... la mia testa...
-<<[>>old<<]>>Ah... la mia testa...
+<<[>>old<<]>>Ugh... my head...
 <<[>>old<<]>>Ma...! Dove mi trovo?! E chi sei tu?!
-<<[>>old<<]>>Ma...! Dove mi trovo?! E chi sei tu?!
+<<[>>old<<]>>What the...! Where am I?! Who are you?!
 <<[>>old<<]>>Capisco, ti chiami \PN. Piacere di conoscerti, io sono <b>Vint</b>... o almeno così credo. Non ero mai stato in un posto del genere... sembra quasi una città del passato...
-<<[>>old<<]>>Capisco, ti chiami \PN. Piacere di conoscerti, io sono <b>Vint</b>... o almeno così credo. Non ero mai stato in un posto del genere... sembra quasi una città del passato...
+<<[>>old<<]>>I see, you are \PN. Nice to meet you, I'm <b>Vint</b>... I think.\nI've never been in a place like this... It seems like an old city...
 <<[>>old<<]>>Dimmi un po’, giovane, tu come hai fatto ad arrivare qui?
-<<[>>old<<]>>Dimmi un po’, giovane, tu come hai fatto ad arrivare qui?
+<<[>>old<<]>>Tell me, young one, how did you get there?
 <<[>>old<<]>>Capisco... e così hai attraversato uno strano varco bianco a sud della città, eh?
-<<[>>old<<]>>Capisco... e così hai attraversato uno strano varco bianco a sud della città, eh?
+<<[>>old<<]>>I see... so you went through an odd white passage which appeared south of the city, huh?
 <<[>>old<<]>>Chissà, probabilmente noi due non apparteniamo nemmeno alla stessa dimensione...
-<<[>>old<<]>>Chissà, probabilmente noi due non apparteniamo nemmeno alla stessa dimensione...
+<<[>>old<<]>>Who knows, maybe we belong to different dimensions...
 <<[>>old<<]>>Beh, giacché sono qui, non mi resta che esaminare un po’ la zona!
-<<[>>old<<]>>Beh, giacché sono qui, non mi resta che esaminare un po’ la zona!
+<<[>>old<<]>>Well, I can explore this area since I'm already here!
 <<[>>old<<]>>Per scusarmi di averti disturbato con tutte le mie chiacchiere, vorrei darti questa. Prendi!
-<<[>>old<<]>>Per scusarmi di averti disturbato con tutte le mie chiacchiere, vorrei darti questa. Prendi!
+<<[>>old<<]>>I'd like to give you this to apologize for bothering you with my chit-chats. Here!
 <<[>>old<<]>>Se non hai molto da fare, consiglio anche a te di dare un’occhiata in giro. Potresti trovare qualcosa di interessante!
-<<[>>old<<]>>Se non hai molto da fare, consiglio anche a te di dare un’occhiata in giro. Potresti trovare qualcosa di interessante!
+<<[>>old<<]>>I suggest you look around this place if you're not too busy. You could even find something interesting! 
 <<[>>old<<]>>La porta sembra aperta. Vuoi entrare?
-<<[>>old<<]>>La porta sembra aperta. Vuoi entrare?
+<<[>>old<<]>>The door is open. Would you like to get in?
 <<[>>old<<]>>Il testo è illeggibile...
 <<[>>old<<]>>Il testo è illeggibile...
 <<[>>old<<]>>La porta è chiusa a chiave. Forse è meglio non aprire.
-<<[>>old<<]>>La porta è chiusa a chiave. Forse è meglio non aprire.
+<<[>>old<<]>>The door is locked. You should not open it.
 Sì
 Yes
 No
@@ -6463,12 +6609,14 @@ Alvaro
 Alvaro
 Si dice che, portando <b>Scaracluo</b> nel cimitero e interagendo con le lapidi, accada qualcosa di strano... Ma non ho mai avuto il coraggio di farlo!
 Si dice che, portando <b>Scaracluo</b> nel cimitero e interagendo con le lapidi, accada qualcosa di strano... Ma non ho mai avuto il coraggio di farlo!
+Mnemonio
+Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 I can have your Pokémon remember any move<<n>>they forgot. Are you interested?
 A quale Pokémon vuoi far ricordare una mossa?
 Which Pokémon should I have remember a move?
 Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Come back when you'd like me to help your Pokémon remember a move.
+Come back when you'd like me to help your Pokémon<<n>>remember a move.
 Mi prendi in giro, forse?! Quello è solo un Uovo!
 You gotta be kidding me! That's merely an Egg!
 Uhm... Non vedo mosse che \v[3] possa ricordare...
@@ -8875,12 +9023,14 @@ Noa
 Noa
 È proprio vero che gli artisti migliori sono quelli dal passato travagliato.
 È proprio vero che gli artisti migliori sono quelli dal passato travagliato.
+Mnemonio
+Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 I can have your Pokémon remember any move<<n>>they forgot. Are you interested?
 A quale Pokémon vuoi far ricordare una mossa?
 Which Pokémon should I have remember a move?
 Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Come back when you'd like me to help your Pokémon remember a move.
+Come back when you'd like me to help your Pokémon<<n>>remember a move.
 Mi prendi in giro, forse?! Quello è solo un Uovo!
 You gotta be kidding me! That's merely an Egg!
 Uhm... Non vedo mosse che \v[3] possa ricordare...
@@ -10287,7 +10437,7 @@ No
 ???
 ???
 Vi siete per caso perso|a in questa selva, giovane viandante? In tal caso, vi basterà proseguire dritto per l'uscita!
-Vi siete per caso perso|a in questa selva, giovane viandante? In tal caso, vi basterà proseguire dritto per l'uscita!
+Did you get lost in this forest, young wanderer?<<n>>In that case, just go straight to the exit!
 Sì
 Yes
 No
@@ -10315,24 +10465,24 @@ No
 ???
 ???
 Vi va di giocare un po' insieme a me?
-Vi va di giocare un po' insieme a me?
+Would you like to play a little with me?
 [Map236]
 <<[>>old<<]>>...
 <<[>>old<<]>>...
 <<[>>old<<]>>Questa Lapras ha delle ferite da morso su tutto il corpo... Vuoi provare a curarla con la Pozione Segreta di Tarassaco?
-<<[>>old<<]>>Questa Lapras ha delle ferite da morso su tutto il corpo... Vuoi provare a curarla con la Pozione Segreta di Tarassaco?
+<<[>>old<<]>>This Lapras has bite wounds all over its body... Do you want to try and heal it using Taraxo's Secret Potion?
 <<[>>old<<]>>Hai dato la Pozione Segreta a Lapras.
-<<[>>old<<]>>Hai dato la Pozione Segreta a Lapras.
+<<[>>old<<]>>You gave Lapras the Secret Potion.
 <<[>>old<<]>>Non la lascerei in queste condizioni...
-<<[>>old<<]>>Non la lascerei in queste condizioni...
+<<[>>old<<]>>You shouldn't leave it in this state...
 <<[>>old<<]>>Laaa...!
 <<[>>old<<]>>Laaa...!
 <<[>>old<<]>>Lapras è tornata nel pieno delle forze!
-<<[>>old<<]>>Lapras è tornata nel pieno delle forze!
+<<[>>old<<]>>Lapras has got its health back!
 <<[>>old<<]>>Ti sta invitando a salirle in groppa.
-<<[>>old<<]>>Ti sta invitando a salirle in groppa.
+<<[>>old<<]>>It's asking you to get on its back.
 <<[>>old<<]>>Sembra voglia portarti da qualche parte...
-<<[>>old<<]>>Sembra voglia portarti da qualche parte...
+<<[>>old<<]>>It seems it wants to take you somewhere...
 <<[>>old<<]>>Star...!
 <<[>>old<<]>>Star...!
 Sì
@@ -10343,7 +10493,7 @@ No
 ???
 ???
 L'acqua è paziente... Goccia dopo goccia consuma anche la roccia.
-L'acqua è paziente... Goccia dopo goccia consuma anche la roccia.
+The water is patient... drop by drop it corrodes<<n>>even the rock.
 [Map238]
 [Map239]
 [Map240]
@@ -10392,7 +10542,7 @@ Abbiamo davvero trattato male questo Pokémon... Lo lasciamo a te, fanne ciò ch
 ???
 ???
 Scusami, mammina... L'acqua... mi chiamava...!
-Scusami, mammina... L'acqua... mi chiamava...!
+Sorry, mommy... The water... was calling me...!
 <<[>>old<<]>>In questo ceppo c’è un Pokémon... è Mimikyu!
 <<[>>old<<]>>In questo ceppo c’è un Pokémon... è Mimikyu!
 <<[>>old<<]>>Vuoi dare a Mimikyu il Manto Trishout cucito dal sarto Kupa?
@@ -10593,20 +10743,20 @@ Shu...!
 <<[>>old<<]>>Vuoi uscire dal Nido?
 <<[>>old<<]>>Vuoi uscire dal Nido?
 Si
-Si
+Yes
 No
 No
 [Map251]
 Armando
-Armando
+Armand
 Le procedure ora impongono una lotta contro la principessa.
-Le procedure ora impongono una lotta contro la principessa.
+The procedures shall require a battle with the Princess now.
 Sei riuscito|a a vincere la principessa. Farai strada come Allenatore di Pokémon.
-Sei riuscito|a a vincere la principessa. Farai strada come Allenatore di Pokémon.
+You could defeat the Princess. You can go far<<n>>as a Pokémon Trainer
 Prego, utilizza questa pedana per tornare immediatamente all'ingresso della Palestra.
-Prego, utilizza questa pedana per tornare immediatamente all'ingresso della Palestra.
+Here, use this platform to immediately return<<n>>to the entrance of the Gym.
 <<[>>old<<]>>Al momento parrebbe inutilizzabile...
-<<[>>old<<]>>Al momento parrebbe inutilizzabile...
+<<[>>old<<]>>It seems useless at the moment...
 Orlando
 Orlando
 Con amore e furia combatto i duelli miei!
@@ -10614,11 +10764,13 @@ Con amore e furia combatto i duelli miei!
 Avete combattuto con onore.
 Avete combattuto con onore.
 Prova della Foglia superata.
-Prova della Foglia superata.
+Passed the Trial of Grass.
+Prima di poter affrontare la principessa, è tuttavia prevista è una lotta col sottoscritto. Or dunque procediamo con quanto appena menzionato. 
+However, a battle with yours truly is scheduled before facing the Princess.<<n>>Let's proceed to the above, then.
 Uhm. Interessante stile di lotta.
-Uhm. Interessante stile di lotta.
+Hum. Really impressive.
 Uhm. Interessante stile di lotta. Ora ti attende solo la sfida con la principessa. Per di qua.
-Uhm. Interessante stile di lotta. Ora ti attende solo la sfida con la principessa. Per di qua.
+Hum. Really impressive. The battle with the Princess awaits you now. Come this way.
 Fierando
 Fierando
 Paladino è chi per un superior fine percorre 'l tremendo cammino del sacrificio.
@@ -10630,27 +10782,31 @@ Smeeee...!
 Preparatevi a combattere e che voglia 'l fato assistere il migliore!
 Preparatevi a combattere e che voglia 'l fato assistere il migliore!
 Mimosa
-Mimosa
+Vanilla
 Quindi avresti superato tutte le prove... Non credere di riuscire a battere me, la principessa!
-Quindi avresti superato tutte le prove... Non credere di riuscire a battere me, la principessa!
+So you passed all the trials... But don't you think you can beat me, I'm the Princess!
 Prima di iniziare però, consegnami la Coppa d’oro e il Cucchiaio d'oro... Gnam, ora posso finalmente papparmi il mio bel gelato!
-Prima di iniziare però, consegnami la Coppa d’oro e il Cucchiaio d'oro... Gnam, ora posso finalmente papparmi il mio bel gelato!
+Before we get started, hand me over the Golden Cup<<n>>and the Golden Spoon...<<n>>Yum, I can finally gobble up my ice cream now!
 Deliziosooo!! Con la pancia piena di dolci si combatte meglio, sai? I miei Pokémon dolci e carini ti daranno una bella scarica da zuccheri! Preparati a perdere con Mimosa, la principessa del Regno di Virgopoli!
-Deliziosooo!! Con la pancia piena di dolci si combatte meglio, sai? I miei Pokémon dolci e carini ti daranno una bella scarica da zuccheri! Preparati a perdere con Mimosa, la principessa del Regno di Virgopoli!
+Deliciooous!! You fight better with a belly full of sweets,<<n>>you know?<<n>>My sweet and cute Pokémon will give you a real sugar rush!<<n>>Prepare to lose to Princess Vanilla of<<n>>Milkiway City's kingdom!
 Ma... io sono la principessa!
-Ma... io sono la principessa!
+But- I'm the Princess!
 Ho proprio perso... questa volta però non frignerò. Sono una principessa e una Capopalestra! Non posso permettermi comportamenti da bambina viziata se voglio ricoprire questi due ruoli! E ho capito tutto questo grazie alla grinta e alla passione con cui lotti, \PN.
-Ho proprio perso... questa volta però non frignerò. Sono una principessa e una Capopalestra! Non posso permettermi comportamenti da bambina viziata se voglio ricoprire questi due ruoli!  E ho capito tutto questo grazie alla grinta e alla passione con cui lotti, \PN.
+I just lost... but no boohooing this time!<<n>>I'm a Princess and a Gym Leader as well!<<n>>I cannot allow myself to act like a spoiled child, if I want to fulfill these two roles!<<n>>I realized all this thanks to the determination and<<n>>the passion in your fighting style, \PN.
+Ho ancora tanto da imparare come Capopalestra, ma sono sicura che Armando mi aiuterà. Grazie per avermi aperto gli occhi, \PN! Inizierò a rispettare i miei doveri così!
+I still have a lot to learn as a Gym Leader, but<<n>>I'm sure Armand will help me.<<n>>Thanks for opening my eyes, \PN!<<n>>I will start fulfilling my duties with this!
 È <b>Magibrillio</b>, una mossa che infligge danni ai bersagli emanando una luce potentissima! Insegnala ai tuoi Pokémon, ne varrà la pena!
-È <b>Magibrillio</b>, una mossa che infligge danni ai bersagli emanando una luce potentissima! Insegnala ai tuoi Pokémon, ne varrà la pena!
+It's <b>Dazzling Gleam</b>, a move that inflicts damage upon targets by emitting a powerful flash!<<n>>Teach it to your Pokémon and you won't regret it!
+E per concludere è mio dovere, in quanto Capopalestra, consegnarti la <b>Medaglia Zucchero</b>.
+So, in conclusion, it is my duty as a Gym Leader to award you the <b>Sugar Badge</b>.
 Con questa potrai proseguire la tua avventura da Allenatore nella regione di Eldiw! Mi raccomando, se dovessi trovare qualche dolcetto delizioso sul tuo cammino, sarei felice di provarlo. Ci conto!
-Con questa potrai proseguire la tua avventura da Allenatore nella regione di Eldiw! Mi raccomando, se dovessi trovare qualche dolcetto delizioso sul tuo cammino, sarei felice di provarlo. Ci conto!
+This will allow you to continue your Trainer adventure<<n>>in the Eldiw region!<<n>>Be sure to come and let me taste all the sweet delicacies you will find along the way. Okay?
 D'ora in poi darò il massimo per diventare una brava Capopalestra... costi quel che costi!
-D'ora in poi darò il massimo per diventare una brava Capopalestra... costi quel che costi!
+I will do my best to mature as a Gym Leader from now on... whatever it takes!
 <<[>>old<<]>> Sei sicuro di voler abbandonare la prova?
-<<[>>old<<]>> Sei sicuro di voler abbandonare la prova?
+<<[>>old<<]>>Are you sure you want to quit the trial? 
 Si
-Si
+Yes
 No
 No
 [Map252]
@@ -13334,12 +13490,14 @@ Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
 Thank you for waiting.<<n>>We've restored your Pokémon to full health!
 Torna pure quando vuoi.
 We hope to see you again!
+Mnemonio
+Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 I can have your Pokémon remember any move<<n>>they forgot. Are you interested?
 A quale Pokémon vuoi far ricordare una mossa?
 Which Pokémon should I have remember a move?
 Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Come back when you'd like me to help your Pokémon remember a move.
+Come back when you'd like me to help your Pokémon<<n>>remember a move.
 Mi prendi in giro, forse?! Quello è solo un Uovo!
 You gotta be kidding me! That's merely an Egg!
 Uhm... Non vedo mosse che \v[3] possa ricordare...
@@ -14461,12 +14619,14 @@ Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
 I see you have no Herculeum H. Don't worry!<<n>>Mr. Bug's here to help you.
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Alright, now you have the Herculeum H helding<<n>>a superhuman Strength.
+Mnemonio
+Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 I can have your Pokémon remember any move<<n>>they forgot. Are you interested?
 A quale Pokémon vuoi far ricordare una mossa?
 Which Pokémon should I have remember a move?
 Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Come back when you'd like me to help your Pokémon remember a move.
+Come back when you'd like me to help your Pokémon<<n>>remember a move.
 Mi prendi in giro, forse?! Quello è solo un Uovo!
 You gotta be kidding me! That's merely an Egg!
 Uhm... Non vedo mosse che \v[3] possa ricordare...
@@ -16455,12 +16615,14 @@ Yes
 No
 No
 [Map389]
+Mnemonio
+Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 I can have your Pokémon remember any move<<n>>they forgot. Are you interested?
 A quale Pokémon vuoi far ricordare una mossa?
 Which Pokémon should I have remember a move?
 Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Come back when you'd like me to help your Pokémon remember a move.
+Come back when you'd like me to help your Pokémon<<n>>remember a move.
 Mi prendi in giro, forse?! Quello è solo un Uovo!
 You gotta be kidding me! That's merely an Egg!
 Uhm... Non vedo mosse che \v[3] possa ricordare...
@@ -16948,12 +17110,14 @@ Noy
 Noy
 Questo è il Pokémon-Market della Via Vittoria!
 This is the Poké Mart in Victory Road!
+Mnemonio
+Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 I can have your Pokémon remember any move<<n>>they forgot. Are you interested?
 A quale Pokémon vuoi far ricordare una mossa?
 Which Pokémon should I have remember a move?
 Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Come back when you'd like me to help your Pokémon remember a move.
+Come back when you'd like me to help your Pokémon<<n>>remember a move.
 Mi prendi in giro, forse?! Quello è solo un Uovo!
 You gotta be kidding me! That's merely an Egg!
 Uhm... Non vedo mosse che \v[3] possa ricordare...
@@ -17086,12 +17250,14 @@ Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
 Thank you for waiting.<<n>>We've restored your Pokémon to full health!
 Torna pure quando vuoi.
 We hope to see you again!
+Mnemonio
+Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 I can have your Pokémon remember any move<<n>>they forgot. Are you interested?
 A quale Pokémon vuoi far ricordare una mossa?
 Which Pokémon should I have remember a move?
 Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Come back when you'd like me to help your Pokémon remember a move.
+Come back when you'd like me to help your Pokémon<<n>>remember a move.
 Mi prendi in giro, forse?! Quello è solo un Uovo!
 You gotta be kidding me! That's merely an Egg!
 Uhm... Non vedo mosse che \v[3] possa ricordare...
@@ -17196,12 +17362,14 @@ Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
 Thank you for waiting.<<n>>We've restored your Pokémon to full health!
 Torna pure quando vuoi.
 We hope to see you again!
+Mnemonio
+Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
 I can have your Pokémon remember any move<<n>>they forgot. Are you interested?
 A quale Pokémon vuoi far ricordare una mossa?
 Which Pokémon should I have remember a move?
 Torna pure quando vorrai far ricordare una mossa ai tuoi Pokémon.
-Come back when you'd like me to help your Pokémon remember a move.
+Come back when you'd like me to help your Pokémon<<n>>remember a move.
 Mi prendi in giro, forse?! Quello è solo un Uovo!
 You gotta be kidding me! That's merely an Egg!
 Uhm... Non vedo mosse che \v[3] possa ricordare...
@@ -43567,7 +43735,7 @@ Ana
 Paolo
 Paolo
 Michiel
-Michiel
+Mitchell
 Prova
 Prova
 Lucio
@@ -55040,7 +55208,7 @@ Una {1} è stata creata
 File 'craftingsystem.txt' doesn't exist
 File 'craftingsystem.txt' doesn't exist
 {1} ottiene {2}!
-{1} obtained {2}!
+{1} obtained \c[1]{2}\c[0]!
 {1} sistema {2} nella tasca Strumenti.
 {1} put \c[1]{2}\c[0] in the \c[1]Items\c[0] Pocket.
 {1} sistema {2} nella tasca Medicine.
