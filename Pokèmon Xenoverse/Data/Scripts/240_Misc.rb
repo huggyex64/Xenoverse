@@ -694,3 +694,26 @@ def pbFixLuxflon
   end
   $game_switches[1001]=true
 end
+
+def pbGetIncense(baby)
+  if isConst?(baby,PBSpecies,:MUNCHLAX) && hasConst?(PBSpecies,:SNORLAX)
+    return getConst(PBItems,:FULLINCENSE)
+  elsif isConst?(baby,PBSpecies,:WYNAUT) && hasConst?(PBSpecies,:WOBBUFFET)
+    return getConst(PBItems,:LAXINCENSE)
+  elsif isConst?(baby,PBSpecies,:HAPPINY) && hasConst?(PBSpecies,:CHANSEY)
+    return getConst(PBItems,:LUCKINCENSE)
+  elsif isConst?(baby,PBSpecies,:MIMEJR) && hasConst?(PBSpecies,:MRMIME)
+    return getConst(PBItems,:ODDINCENSE)
+  elsif isConst?(baby,PBSpecies,:CHINGLING) && hasConst?(PBSpecies,:CHIMECHO)
+    return getConst(PBItems,:PUREINCENSE)
+  elsif isConst?(baby,PBSpecies,:BONSLY) && hasConst?(PBSpecies,:SUDOWOODO)
+    return getConst(PBItems,:ROCKINCENSE)
+  elsif isConst?(baby,PBSpecies,:BUDEW) && hasConst?(PBSpecies,:ROSELIA)
+    return getConst(PBItems,:ROSEINCENSE)
+  elsif isConst?(baby,PBSpecies,:AZURILL) && hasConst?(PBSpecies,:MARILL)
+    return getConst(PBItems,:SEAINCENSE)
+  elsif isConst?(baby,PBSpecies,:MANTYKE) && hasConst?(PBSpecies,:MANTINE)
+    return getConst(PBItems,:WAVEINCENSE)
+  end
+  return 0
+end

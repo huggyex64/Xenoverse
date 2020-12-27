@@ -142,10 +142,13 @@ def pbGetBabySpecies(species,item1=-1,item2=-1)
          poke=f.fgetw
          if poke<=PBSpecies.maxValue && (evo&_EVODATAMASK)==_EVOPREVFORM # evolved from
            if item1>=0 && item2>=0
-             dexdata=pbOpenDexData
-             pbDexDataOffset(dexdata,poke,54)
-             incense=dexdata.fgetw
-             dexdata.close
+             #dexdata=pbOpenDexData
+             #pbDexDataOffset(dexdata,poke,54)
+             #incense=dexdata.fgetw
+             #echoln incense
+             #dexdata.close
+             incense = pbGetIncense(poke)
+             echoln incense
              ret=poke if item1==incense || item2==incense
            else
              ret=poke
