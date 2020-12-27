@@ -46,7 +46,7 @@ Se vuoi fare un po' di pratica fammelo sapere!
 Alice
 Alice
 \PN è bello passare un po' di tempo con te, anche in circostanze come questa.
-\PN è bello passare un po' di tempo con te, anche in circostanze come questa.
+\PN, it's nice to spend time with you, even in situation like this.
 Kay
 Kay
 <<[>>old<<]>>Vuoi chiedere aiuto alla sicurezza?
@@ -140,15 +140,15 @@ Mariano
 Solo da Mariano, articoli mai visti a prezzi stracciati!!
 Solo da Mariano, articoli mai visti a prezzi stracciati!!
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+<<[>>old<<]>>Would you like to open this chest?
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
 Ho sbagliato ad accusarti, scusa!
-Ho sbagliato ad accusarti, scusa!
+I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
-In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+You were only having a look, after all...<<n>>but don't ever try that again!<<n>>Grab this, c'mon!
 <<[>>old<<]>>Meglio non rischiare...
-<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>It's too risky...
 Michiel
 Mitchell
 Una bella lotta mi aiuterà ad ammazzare il tempo!
@@ -166,9 +166,9 @@ And now even my stomach hurts...
 Forse lottare non è stata una buona idea...
 Maybe battling wasn't a good idea...
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 <<[>>old<<]>>C'è qualcosa nel cestino.
-<<[>>old<<]>>There's something in the thrash.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>> Smettila di usare i Cheat. Vai via.
 <<[>>old<<]>>Enough with cheating. Go away!
 Sì
@@ -187,7 +187,7 @@ Use Box
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>> Il cestino è vuoto.
-<<[>>old<<]>>The thrash is empty.
+<<[>>old<<]>>The trash is empty.
 Sì
 Yes
 No
@@ -219,14 +219,16 @@ Claudio
 Ginger
 Sapevo che saresti venuto|a...
 I knew you'd come...
+Hai provato il tuo valore contro quei damerini e io sono curioso di mettermi alla prova con te. Io, Claudio, Capopalestra del Campus Ariepoli, ti sfido ufficialmente in una lotta! Libera tutto il potere che ti ha donato la Lastra Terrestre! GO-GO, GRANBULLS!
+You proved your worth against those two fops and now<<n>>I'm curious to test myself with you.<<n>>I, Ginger, Newtron City's Gym Leader, formally challenge<<n>>you to a battle!<<n>>Unleash all the power the Terrestrial Plate has given you!<<n>>GO-GO, GRANBULLS!
 Non per nulla sei il messia della leggenda...
 Not for nothing if you're the chosen one of the legends...
 Davvero impressionante. Non avevo mai perso una lotta qui al campus... Questa nuova sensazione, però, non mi butta giù, anzi.
 Really impressive. I'd never lost a battle here on campus before...<<n>>But this new feeling doesn't have me down at all, actually.
 La tua luce rossa mi ha illuminato il cammino, mostrandomi che ne ho ancora di strada da fare! Mi allenerò con tutto me stesso per raggiungere i tuoi livelli!
-Your red light illuminated my path, showing me I still got<<n>>a long way to go!<<n>>I'm gonna train with my body and soul to achieve your level!
+Your red light illuminated my path, showing me I still got<<n>>a long way to go!<<n>>I'm gonna train with my body and soul to achieve<<n>>your level!
 \PN, grazie al tuo aiuto, il campus è ora libero dal Team Dimension. Il potere della lastra non poteva cadere in mani migliori!
-\PN, thanks to you, our campus is now free from Team Dimension.<<n>>The power of plate couldn't fall into better hands!
+\PN, thanks to you, our campus is now free from<<n>>Team Dimension.<<n>>The power of plate couldn't fall into better hands!
 Ti prego di accettare questo regalo da parte mia.
 Please accept this gift to you.
 Questa è la MT <b>Crescipugno</b>, una poderosa mossa di tipo Lotta che aumenta anche l’Attacco! Inoltre, come premio per avermi sconfitto, anche questa è tua. La <b>Medaglia Competizione</b>!
@@ -244,7 +246,7 @@ I got trashed...
 Avrai anche stracciato me, ma non pensare che ti andrà bene anche con Claudio.
 You may have trashed me, but don't even think<<n>>you'll beat Ginger.
 <<[>>old<<]>>Vuoi tornare nel college?
-<<[>>old<<]>>Do you want to go back to college?
+<<[>>old<<]>>Would you like to go back to college?
 Sì
 Yes
 No
@@ -303,7 +305,7 @@ Try to use one of those <b>Updates</b> on a Pokémon requiring trade to evolve..
 Ora però devo proprio svignarmela. Divertiti con quell'aggeggino!
 Now I really have to get away.<<n>>Have fun with that little gadget!
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>The thrash is empty.
+<<[>>old<<]>>The trash is empty.
 <<[>>old<<]>>Un Centro Porygon non funzionante... Tarassaco lo starà aggiustando...?
 <<[>>old<<]>>This Porygon Center does not work... Taraxo is probably fixing it.
 [Map10]
@@ -650,7 +652,7 @@ We came here to picnic in the woods, when suddenly the air started to get colder
 Luca
 Lucas
 Quel Pokémon che ho intravisto poco prima di svenire deve averci catturato. Chissà quanto saremmo rimasti qui se non fossi arrivato|a tu a soccorrerci!
-That Pokémon I glimpsed not much before fainting must have caught us.<<n>>I wonder how long we'd have been here if you didn't come to rescue us!
+That Pokémon I glimpsed not much before fainting<<n>>must have caught us.<<n>>I wonder how long we'd have been here if you didn't come to rescue us!
 Scusa, ma ora devo tornare dal mio fratellino... non vedendomi tornare si sarà preoccupato. Se ti trovi a passare da <b>Borgo Gemini</b>, vieni pure a trovarmi!
 Sorry, but I gotta get back to my lil' brother now...<<n>>he must have been worried about me.<<n>>If you're ever in <b>Stellato Town</b>, come and visit me!
 Sarà meglio che vada anch'io... Tieni questa bacca come segno di ringraziamento.
@@ -662,7 +664,7 @@ Thanks again!
 Anch'io vorrei ringraziarti. Prendi questa!
 I, too, would like to thank you. Take this!
 Proseguendo per il <b>Percorso 6</b> arriverai a <b>Virgopoli</b>, un regno che ospita una Palestra. Se non hai fretta però potresti sfruttare la fauna di questa palude per allenarti. Ha tanti segreti da nascondere, sai? Beh, ora me ne torno a casa!
-Continuing on <b>Route 6</b>, you get to <b>Milkiway City</b>, a kingdom that hosts a Gym.<<n>>And if you're not in a hurry, you could use the fauna of<<n>>this swamp for your training. It still has a lot to hide!<<n>>Well, I'm going back home now!
+Continuing on <b>Route 6</b>, you get to <b>Milkiway</b><<n>><b>City</b>, a kingdom that hosts a Gym.<<n>>And if you're not in a hurry, you could use the fauna of<<n>>this swamp for your training. It still has a lot to hide!<<n>>Well, I'm going back home now!
 Gianpiero
 Jimmy
 Ehi, tu! Guarda che strano Pokémon Coleottero ho catturato!
@@ -1052,7 +1054,7 @@ Usa Box
 Use Box
 [Map28]
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
-<<[>>old<<]>>The thrash is full of wastepaper.
+<<[>>old<<]>>The trash is full of wastepaper.
 <<[>>old<<]>>È pieno zeppo di libri riguardo i Pokémon e i loro habitat.
 <<[>>old<<]>>There's a lot of books about Pokémon and their habitat.
 <<[>>new,Versil,ranch/versil,default,left,true<<]>> @pl|, scendi! Io e la mamma dobbiamo parlarti.<<[>>dispose<<]>>
@@ -1450,7 +1452,7 @@ Where I'm from there aren't Academy Cities like this.
 Alan
 Alan
 Sei stato|a formidabile in biblioteca! Mai pensato di unirti alla confraternita? Ad ogni modo, accetta questo piccolo regalo.
-You were terrific in the library! Have you ever thought of joining our corporation? By the way, take this little gift.
+You were terrific in the library! Have you ever thought of joining our corporation?<<n>>By the way, take this little gift.
 Ci si vede in Palestra!
 See you later at the Gym!
 Bardo
@@ -2137,7 +2139,7 @@ That's exactly my Poké Doll that I left at my grandpa's!<<n>>Thank you for brin
 Ora non mi manca niente!
 Now I don't need anything else!
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
-<<[>>old<<]>>Il cestino è pieno di carta straccia.
+<<[>>old<<]>>The trash is full of wastepaper.
 Olivia
 Olivia
 Qui non faccio altro che compilare scartoffie su scartoffie!
@@ -2149,7 +2151,7 @@ Althea
 Sono piena di pratiche da svolgere.
 I have a ton of practices to do.
 <<[>>old<<]>>Sembra un aggeggio piuttosto complicato. Meglio non toccarlo.
-<<[>>old<<]>>Sembra un aggeggio piuttosto complicato. Meglio non toccarlo.
+<<[>>old<<]>>That's a complicated device. Maybe you should not touch it.
 Tiffany
 Tiffany
 Sai già tutto sui Pokémon di <b>tipo Suono</b>?
@@ -2359,7 +2361,7 @@ Scram, I'm on my lunch break!
 <<[>>old<<]>>Questo computer è pieno di informazioni sul mondo dei Pokémon.
 <<[>>old<<]>>Questo computer è pieno di informazioni sul mondo dei Pokémon.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Devo ammettere che hai fatto un lavoro davvero egregio! Ancora i miei complimenti! Ero certo che non sarei dovuto intervenire per salvarti la pelle. Ah ah ah!
 I have to say that you made an awesome work out there! Congratulations!<<n>>I was sure you'd be able to handle this all on your own.<<n>>Ha ha ha! 
 Benvenuto|a nel mio laboratorio! Qui è dove conduco studi sui misteriosi <b>Pokémon X</b>. È proprio qui che, grazie al rispetto reciproco, è stata concepita la <b>Xeno Ball</b>, l'unico dispositivo in grado di arginare i poteri di queste mistiche creature...
@@ -2529,15 +2531,15 @@ What? Embarking with a bike?<<n>>Don't you see it's a <b>Vroombug</b>?!
 <<[>>old<<]>>La porta è chiusa.
 <<[>>old<<]>>The door is locked.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 La Motonave Cometa attraccherà direttamente al <b>Campus Ariepoli</b>. Nel mentre, sentiti pure libero|a di fare un giro.
 The S.S. Comet will dock directly at <b>Newtron City</b>.<<n>>Meanwhile, feel free to look around.
 <<[>>old<<]>>La porta sembra chiusa a chiave.
-<<[>>old<<]>>La porta sembra chiusa a chiave.
+<<[>>old<<]>>The door is locked.
 <<[>>old<<]>>Vuoi usare la chiave per aprire questa porta?
-<<[>>old<<]>>Vuoi usare la chiave per aprire questa porta?
+<<[>>old<<]>>Would you like to open this door using the key?
 <<[>>old<<]>>La porta si è aperta!
-<<[>>old<<]>>La porta si è aperta!
+<<[>>old<<]>>The door opened!
 Sì
 Yes
 No
@@ -2548,19 +2550,19 @@ Annie
 Spero proprio che Aster abbia conciato per le feste quel mascalzone. Che spavento ho preso!
 I really hope that Aster took care of that scoundrel.<<n>>What a fright!
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 [Map45]
 <<[>>old<<]>>Il cestino contiene qualcosa.
-<<[>>old<<]>>Il cestino contiene qualcosa.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Lucia
 Lucy
 Ora ci vorrebbe un bel <b>Sidrostelle</b> per placare la sete...
 I could really use a good <b>Star Sider</b> to quench this thirst...
 [Map46]
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Artemio
 Artie
 La mia nipotina è andata al laboratorio, ma ha lasciato qui la sua Pokébambola. Saresti così gentile da riportargliela?
@@ -2586,13 +2588,13 @@ Cerco di distrarmi dal mal di mare...
 Trying to distract myself from seasickness...
 [Map48]
 <<[>>old<<]>> Il cestino è vuoto.
-<<[>>old<<]>> Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Genoveffa
 Veve
 Ho rotto un piatto e ho nascosto i cocci sotto il tavolo. Acqua in bocca!
 I broke a plate and hid its leftover shards under<<n>>the table. Mum's the word!
 <<[>>old<<]>>La porta sembra chiusa a chiave.
-<<[>>old<<]>>La porta sembra chiusa a chiave.
+<<[>>old<<]>>The door is locked.
 Gina
 Jane
 Lo sapevi che con l'inchiostro di Octillery si prepara un ottimo risotto? Il mare è davvero pieno di risorse!
@@ -2608,7 +2610,7 @@ Such a bad taste...
 Cucinerò un ottimo Risoctillery per tutto l'equipaggio!
 I'll cook a great Octo Risotto for the entire crew!
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Sì
 Yes
 No
@@ -2667,7 +2669,7 @@ Soy
 Questo è il mini Pokémon-Market del Campus Ariepoli.
 This is the mini-Poké Mart in Newtron City's campus.
 <<[>>old<<]>>Che sia stress o ansia, fatti una bella corsetta e tutto passa!
-<<[>>old<<]>>Che sia stress o ansia, fatti una bella corsetta e tutto passa!
+<<[>>old<<]>>That it's either stress or anxiety, just stroll around and make it go away!
 SA9
 SA9
 Cos'è? Cerchi rogne? <i>Bzz!</i>
@@ -2793,22 +2795,24 @@ Yes
 No
 No
 [Map54]
+Mascotte Granbull
+Granbull Mascot
 GO-GO, GRANBULLS!
 GO-GO, GRANBULLS!
 N-N-Non è come credi! Non sto spiando nessuno!
 I-I-It's not what it looks like! I'm not spying on anyone!
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+<<[>>old<<]>>Would you like to open this chest?
 Damiano
 Damiano
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
 Ho sbagliato ad accusarti, scusa!
-Ho sbagliato ad accusarti, scusa!
+I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
-In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+You were only having a look, after all...<<n>>but don't ever try that again!<<n>>Grab this, c'mon!
 <<[>>old<<]>>Meglio non rischiare...
-<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>It's too risky...
 Mino
 Liam
 Il mare è la mia musa ispiratrice.
@@ -2967,7 +2971,7 @@ Hey, haircut! Check out your Bag! Something is glowing<<n>>deep red in there!
 Apri bene le orecchie, perché non lo ripeterò! Dai quell'anello al tuo Pokémon!
 Listen up 'cause I'm not gonna say it twice!<<n>>Give that ring to your Pokémon!
 <<[>>old<<]>>Assegna l'Anello Terrestre al tuo Pokémon iniziale e posizionalo in testa alla squadra per continuare.
-<<[>>old<<]>>Give the Terrestrial Ring to your starter Pokémon and put it in the first place of your party to continue.
+<<[>>old<<]>>Give the Terrestrial Ring to your starter Pokémon and put it on top of your party to continue.
 Guarda! Il tuo Pokémon!
 Look! Your Pokémon!
 È riuscito a sfruttare l'energia della <b>Lastra</b> <b>Terrestre</b> per potenziarsi e cambiare forma! Non c’è dubbio... è l'<b>Evoluzione Terrestre</b> di cui parla la leggenda!
@@ -3046,15 +3050,13 @@ Nadia
 Natalie
 In questa biblioteca c'è veramente di tutto!
 You can find everything you need here!
-\PN ciao! Dopo che sei diventato|a Campione, ho deciso di impegnarmi ancora di più sia negli studi che nelle lotte. Un giorno sappi che ti toglierò il titolo, parola mia!
-\PN ciao! Dopo che sei diventato|a Campione, ho deciso di impegnarmi ancora di più sia negli studi che nelle lotte. Un giorno sappi che ti toglierò il titolo, parola mia!
 [Map56]
 <<[>>old<<]>>Sgabuzzino
-<<[>>old<<]>>Utility Room
+<<[>>old<<]>>Janitor's closet
 <<[>>old<<]>>La porta sembra chiusa a chiave.
-<<[>>old<<]>>La porta sembra chiusa a chiave.
+<<[>>old<<]>>The door is locked.
 <<[>>old<<]>>Vuoi aprire la porta dello sgabuzzino utilizzando la chiave?
-<<[>>old<<]>>Vuoi aprire la porta dello sgabuzzino utilizzando la chiave?
+<<[>>old<<]>>Would you like to open the closet door using the key?
 <<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: 0
 <<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: 0
 <<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: \PN
@@ -3062,21 +3064,21 @@ You can find everything you need here!
 <<[>>old<<]>>Aula di Scienze
 <<[>>old<<]>>Science Class
 <<[>>old<<]>>Vuoi aprire la porta dell'aula di Scienze utilizzando la chiave?
-<<[>>old<<]>>Vuoi aprire la porta dell'aula di Scienze utilizzando la chiave?
+<<[>>old<<]>>Would you like to open the Science Class door using the key?
 <<[>>old<<]>>Questo armadietto è aperto... E c'è qualcosa al suo interno!
-<<[>>old<<]>>Questo armadietto è aperto... E c'è qualcosa al suo interno!
+<<[>>old<<]>>The locker is opened... and there's something inside!
 <<[>>old<<]>>L'etichetta sulla chiave recita ''Aula di Scienze".
-<<[>>old<<]>>L'etichetta sulla chiave recita ''Aula di Scienze".
+<<[>>old<<]>>The tag on the key says ''Science Class".
 <<[>>old<<]>>Questo armadietto è vuoto.
-<<[>>old<<]>>Questo armadietto è vuoto.
+<<[>>old<<]>>The locker is empty.
 <<[>>old<<]>>Vuoi aprire la porta del cortile utilizzando l'apposita chiave?
-<<[>>old<<]>>Vuoi aprire la porta del cortile utilizzando l'apposita chiave?
+<<[>>old<<]>>Would you like to open the schoolyard door using the key?
 <<[>>old<<]>> La porta sembra esser chiusa.
-<<[>>old<<]>> La porta sembra esser chiusa.
+<<[>>old<<]>>The door is locked.
 <<[>>old<<]>>Anfiteatro
 <<[>>old<<]>>Amphitheater
 <<[>>old<<]>>Vuoi aprire la porta dell'anfiteatro utilizzando la chiave?
-<<[>>old<<]>>Vuoi aprire la porta dell'anfiteatro utilizzando la chiave?
+<<[>>old<<]>>Would you like to open the amphitheater door using the key?
 ???
 ???
 Benvenuto|a nella Palestra del Campus Ariepoli, giovane Allenatore!
@@ -3094,16 +3096,16 @@ What? You want to know who I am? And why?<<n>>You just need to know I'm cheering
 <<[>>old<<]>>Aula di Matematica
 <<[>>old<<]>>Maths Class
 <<[>>old<<]>>Vuoi aprire la porta dell'aula di Matematica utilizzando la chiave?
-<<[>>old<<]>>Vuoi aprire la porta dell'aula di Matematica utilizzando la chiave?
+<<[>>old<<]>>Would you like to open the Maths Class door using the key?
 Sì
 Yes
 No
 No
 [Map57]
 <<[>>old<<]>>Il cestino nasconde qualcosa.
-<<[>>old<<]>>Il cestino nasconde qualcosa.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Mariella
 Mary Jane
 Oh, ecco lo|a sfidante! Dovrai vedertela con la sottoscritta, se vorrai entrare in possesso della prossima chiave!
@@ -3111,7 +3113,7 @@ Oh, here is the challenger! You'll have to face me,<<n>>if you want to get the n
 Che perfetta alchimia.
 Such a perfect chemistry.
 L'alchimia tra te e i tuoi Pokémon è portentosa! Prendi questa.
-The chemistry between you and your Pokémon is wondrous! Take this.
+The chemistry between you and your Pokémon is wondrous!<<n>>Take this.
 Ricorda però che anche lo studio è importante!
 But remember, studying is important, too!
 [Map58]
@@ -3139,9 +3141,9 @@ Whoa! Take the key and go challenge the Gym Leader.
 Ora però dovrò richiedere un altro mazzo di chiavi...
 I'm gonna need another set of keys now...
 <<[>>old<<]>>Il cestino nasconde qualcosa.
-<<[>>old<<]>>Il cestino nasconde qualcosa.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 [Map60]
 Carlo
 Karl
@@ -3169,7 +3171,7 @@ Ok, thanks anyway.
 Ehi, tu!
 Hey, you!
 Sei il||la bamboccio|a che ha conciato per le feste quei due sbruffoni di <b>A & B</b>, non è vero? Non che la cosa ti riguardi, ma io sono <b>Trey</b> e lui è <b>Sabolt</b>.
-You're the youngster who knocked around those<<n>>two braggarts <b>A & B</b>, aren't you?<<n>>Not your business, but I'm  <b>Trey</b> and this is <b>Sabolt</b>.
+You're the youngster who knocked around those<<n>>two braggarts <b>A & B</b>, aren't you?<<n>>Not your business, but I'm <b>Trey</b> and this is <b>Sabolt</b>.
 Sabolt
 Sabolt
 Booolt!!
@@ -3191,7 +3193,7 @@ I'm playing hide-and-seek with my friend.<<n>>Don't tell him I'm here, okay?
 Roberto
 Rob
 Lavoro alla pescheria ''Da Vincenzo'', ma purtroppo gli affari non vanno a gonfie vele... Il mio socio pensa che io stia qui a sonnecchiare tutto il giorno, ma la verità è che non m'importa della pesca. Sul fondo di questo lago si cela un tesoro di inestimabile valore... la statuetta d'oro di un Magikarp! Per soli 500$, ti va di darmi una mano a tirarla su?
-I work in ''Vince's'' fish market, but business isn't exactly booming at the moment...<<n>>My associate thinks I stay here snoozing all day,<<n>>but the truth is that I do not care about fishing.<<n>>There's a priceless treasure hidden on the bottom<<n>>of this pond... it's a golden Magikarp statue!<<n>>For only $500 you can try to fish it up!<<n>>Wanna help me?
+I work in ''Vince's'' Fish Market, but business isn't exactly booming at the moment...<<n>>My associate thinks I stay here snoozing all day,<<n>>but the truth is that I do not care about fishing.<<n>>There's a priceless treasure hidden on the bottom<<n>>of this pond... it's a golden Magikarp statue!<<n>>For only $500 you can try to fish it up!<<n>>Wanna help me?
 Grazie mille! Prego, prendi pure l'<b>Amo Speciale</b> di mia invenzione. Le istruzioni sono semplici: evita sassi e alghe e raggiungi il fondale per accaparrarti il tesoro! Occhio però ai Pokémon che potranno attaccarti perché attratti dall'esca. Se riuscirai a riportare in superficie la statuetta, il mio Amo sarà tuo!
 Thanks a lot! Here, you can take this <b>Special Rod</b><<n>>I invented.<<n>>The rules are simple: just dodge rocks and seaweeds and reach the bottom to snag the treasure!<<n>>Be careful of the Pokémon who could try to attack you lured by the bait.<<n>>If you get the statue out of that, then my Rod is yours!
 Non posso crederci, ce l'hai fatta! Ma Amo mio, statuetta mia! Eh eh!
@@ -3205,9 +3207,9 @@ Well, um, there's no way a beginner like you could do it.
 Come dici? Vuoi provare?
 What? You wanna try again?
 Grazie mille! Prego, prendi pure l'<b>Amo Speciale</b> di mia invenzione. Se riuscirai a riportare in superficie la statuetta, il mio Amo sarà tuo!
-Grazie mille! Prego, prendi pure l'<b>Amo Speciale</b> di mia invenzione. Se riuscirai a riportare in superficie la statuetta, il mio Amo sarà tuo!
+Thanks a lot! Here, you can take this <b>Special Rod</b><<n>>I invented.<<n>>If you get the statue out of that, then my Rod is yours!
 L’<b>Amo Speciale</b> è una mia umile invenzione per rendere la pesca un minimo più avvincente, ma se vuoi pescare alla maniera classica potresti sempre procurarti degli Ami differenti...
-The <b>Special Rod</b> is my humble invention to make fishing more exciting,<<n>>but if you still want to fish old school you can always get different Rods...
+The <b>Special Rod</b> is my humble invention to make<<n>>fishing more exciting,<<n>>but if you still want to fish old school you can always get different Rods...
 Tonio
 Peter
 Ehilà, giovane! Che ne dici di un bel Sidrostelle? Costa solo 200$ a bottiglia!
@@ -3243,7 +3245,7 @@ Oh, well done! Here you go, a Dive Ball!
 Oh, ben fatto! Ecco a te ben 5000$
 Oh, well done! Here you go, $5000!
 <<[>>old<<]>>Pescheria ''Da Vincenzo''
-<<[>>old<<]>>''Vince's'' fish market
+<<[>>old<<]>>''Vince's'' Fish Market
 <<[>>old<<]>><b>Borgo Gemini</b> <i>''Il posto ideale per ammirare le stelle in tutta tranquillità.''</i>
 <<[>>old<<]>><b>Borgo Gemini</b> <i>''Il posto ideale per ammirare le stelle in tutta tranquillità.''</i>
 Svetonio
@@ -3271,7 +3273,7 @@ Tieni, prendi questo oggetto per aiutarmi!
 Tieni, prendi questo oggetto per aiutarmi!
 [Map63]
 <<[>>old<<]>>È un Nintendo Switch nuovo di zecca!
-<<[>>old<<]>>È un Nintendo Switch nuovo di zecca!
+<<[>>old<<]>>A brand new Nintendo Switch!
 Davide
 Albert
 I Grimer che conosco io sono molto diversi da quelli che ho potuto osservare in questa regione... Non è che ne avresti uno da scambiare col mio <b>Grimer di Alola</b>?
@@ -3291,7 +3293,7 @@ No
 [Map64]
 Patrick
 Patrick
-Fratellonfe, ero così preoccupato per te!
+Fratellone, ero così preoccupato per te!
 Brother, I was so worried about you!
 Mi dispiace di averti fatto stare in pensiero...
 I'm sorry for making you worry...
@@ -3304,7 +3306,7 @@ Lucas
 Non ti ringrazierò mai abbastanza.
 I can't thank you enough.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Il mio fratellone è andato a fare un picnic nel <b>Bosco Stellafilante</b> coi suoi amici, ma non è ancora tornato! Sono un po’ preoccupato...
 My big brother went for a picnic with his friends<<n>>in the <b>String Forest</b>, but he hasn't come back yet!<<n>>I'm a bit worried...
 Grazie di aver salvato il mio fratellone!
@@ -3320,7 +3322,7 @@ Mammaaa! Quando si mangiaaa?!
 Mommyyy! When are we eating?!
 [Map66]
 <<[>>old<<]>>Qui c'è solo spazzatura.
-<<[>>old<<]>>Qui c'è solo spazzatura.
+<<[>>old<<]>>Just garbage here.
 Giudice Onomastico
 Name Rater
 Ciao! Sono io, il <b>Giudice Onomastico</b>! Vuoi che valuti il soprannome dei tuoi Pokémon?
@@ -3336,7 +3338,7 @@ Now, now... That is merely an Egg!
 \v[3]? Ma che soprannome sublime! Mi raccomando, prenditi cura di \v[3].
 \v[3]? That is a truly impeccable nickname<<n>>Take good care of \v[3].
 \v[3]? È un bel nome, ma sono sicuro si possa trovare di meglio. Non credi anche tu?
-\v[3], is it? That is quite a fine nickname. But I think we could give it something even better.<<n>>What do you think?
+\v[3], is it? That is quite a fine nickname. But I think<<n>>we could give it something even better.<<n>>What do you think?
 Forza, dai sfogo alla tua fantasia!
 Ah, good! Then, what shall the new nickname be?
 Ecco fatto! D'ora in poi questo Pokémon si chiamerà così!
@@ -3351,9 +3353,9 @@ No
 Da quando è stato scoperto il tipo Suono, molti Pokémon sono stati riclassificati.
 A lot of Pokémon have been reclassified since<<n>>the Sound-type was discovered.
 <<[>>old<<]>>Il cestino contiene qualcosa.
-<<[>>old<<]>>Il cestino contiene qualcosa.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Luca
 Paul
 Vorrei tanto acchiappare un <b>Pikachu</b>, ma ho una paura matta di attraversare il bosco...
@@ -3376,13 +3378,13 @@ Got it, we're pitching them somewhere else.
 Una lotta Pokémon? Mi ci butto a pesce!
 A Pokémon battle? I'm going to roll deep in it!
 Ecco che il pesce grosso mangia quello piccolo.
-his is where the big fish eats the small one.
+This is where the big fish eats the small one.
 <<[>>old<<]>>Borgo Gemini ad est
 <<[>>old<<]>>East: Stellato Town
 Emma
 Emma
 Io e Flaaffy ripuliamo il sentiero dai rifiuti, ma a una lotta non diciamo mai di no!
-Flaaffy and I are cleaning this path from waste but we are never turning a battle away!
+Flaaffy and I are cleaning this path from waste, but<<n>>we are never turning a battle away!
 Wow, che forza della natura!
 Wow, what a force of nature!
 Fabiano
@@ -3567,9 +3569,9 @@ Quest'autografo farà invidia a mio nipote!
 This autograph will make my grandson so jealous!
 [Map73]
 <<[>>old<<]>>Il cestino contiene qualcosa.
-<<[>>old<<]>>Il cestino contiene qualcosa.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Gabriele
 Gabriel
 Non ci ho capito un accidente delle chiacchiere di questo giovanotto. Ah, se solo avessi continuato gli studi...
@@ -3672,7 +3674,7 @@ P0
 Lo stesso vale per me! <i>Bzz!</i>
 Lo stesso vale per me! <i>Bzz!</i>
 E-Errore.
-E-Errore.
+E-Error.
 <i>Batteria scarica. Bzz!</i> <i>Carica nel covo necessaria. Bzz!</i>
 <i>Batteria scarica. Bzz!</i> <i>Carica nel covo necessaria. Bzz!</i>
 Nicolò
@@ -3874,17 +3876,17 @@ Sentiti onorato|a di aver ricevuto un regalo dal sottoscritto!
 You've been blessed with a gift from yours truly!
 [Map80]
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+<<[>>old<<]>>Would you like to open this chest?
 Luciano
 Luciano
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
 Ho sbagliato ad accusarti, scusa!
-Ho sbagliato ad accusarti, scusa!
+I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
-In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+You were only having a look, after all...<<n>>but don't ever try that again!<<n>>Grab this, c'mon!
 <<[>>old<<]>>Meglio non rischiare...
-<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>It's too risky...
 Pamela
 Pamela
 Altolà!
@@ -4092,9 +4094,9 @@ Del Regno di Virgopoli, quello è ciò che chiaman souvenir.
 Potrò espiar le colpe di cui mi son macchiato al cospetto della principessa.
 Potrò espiar le colpe di cui mi son macchiato al cospetto della principessa.
 <<[>>old<<]>>Il cestino contiene qualcosa.
-<<[>>old<<]>>Il cestino contiene qualcosa.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 [Map85]
 Un tempo, questo reame era governato dal baldo re <b>Acacia</b>... ma sua figlia Mimosa è d’altra pasta!
 Un tempo, questo reame era governato dal baldo re <b>Acacia</b>... ma sua figlia Mimosa è d’altra pasta!
@@ -4118,23 +4120,27 @@ Eppure dev’essere qui...!
 Il tesoro sarà mio.
 Il tesoro sarà mio.
 Girolamo
-Girolamo
+Jerome
 520
 520
 Sei stato davvero bravo a scovare quei Fossili, ma ora sono di proprietà del Team Dimension! <i>Bzz!</i>
-Sei stato davvero bravo a scovare quei Fossili, ma ora sono di proprietà del Team Dimension! <i>Bzz!</i>
+You did well digging out those Fossils, but they are now<<n>>property of Team Dimension! <i>Bzz!</i>
 N-No! Una scoperta del genere non può cadere nelle mani di voi criminali!
-N-No! Una scoperta del genere non può cadere nelle mani di voi criminali!
+N-No! Such a discovery cannot fall in your criminal hands!
+A-Ah, ra-ragazzi! Aiutatemi!
+U-Ugh, please help me guys!
 Siete in cerca di grane? Vi accontento subito! <i>Bzz!</i>
-Siete in cerca di grane? Vi accontento subito! <i>Bzz!</i>
+You looking for a fight? You got it! <i>Bzz!</i>
 E-Errore.
-E-Errore.
+E-Error.
 Siete in gamba, ma non pensiate di aver vinto... Questo è nulla in confronto ai grandi piani del Generale!
-Siete in gamba, ma non pensiate di aver vinto... Questo è nulla in confronto ai grandi piani del Generale!
+The battle is yours, but the war is far from over.<<n>>That's nothing compared to our General's great design!
 Non so come ringraziarvi ragazzi, mi avete salvato la vita!
-Non so come ringraziarvi ragazzi, mi avete salvato la vita!
+Thank you so much guys! You saved my life!
+Quei delinquenti mi hanno obbligato a cercare <b>Fossili</b> in questa grotta. All'inizio mi sono lasciato sottomettere, ma quando ho trovato questi due tesori dell'antichità... la scienza ha preso il sopravvento!
+Those thugs forced me to find <b>Fossils</b><<n>>in this cave.<<n>>At first, I was submissive, but when I found these two<<n>>treasures of ancient times...<<n>>... my scientist's mind took over!
 Non ne avevo mai visti di simili e non potevo lasciarli nelle mani di quei tizi! Per sdebitarmi, vi concederò l'onore di prenderne uno. Con voi sarà al sicuro!
-Non ne avevo mai visti di simili e non potevo lasciarli nelle mani di quei tizi! Per sdebitarmi, vi concederò l'onore di prenderne uno. Con voi sarà al sicuro!
+I've never seen such a thing and I could never let<<n>>those villains take them!<<n>>I will give you the honor of picking one to repay you.<<n>>I'm sure it'll be safe in your hands!
 Vinervo
 Vinervo
 Aiuto! Questo pazzo vuole derubarmi!
@@ -4152,7 +4158,7 @@ Jo-delle-lotte-non-ci-capisco-niente...
 Alice
 Alice
 \PN, dove vai? Dobbiamo scoprire cosa sta tramando il Team Dimension!
-\PN, dove vai? Dobbiamo scoprire cosa sta tramando il Team Dimension!
+\PN, where are you going? We must find out what<<n>>Team Dimension's up to!
 Kay
 Kay
 Menelao
@@ -4164,9 +4170,9 @@ Voglio dare un consiglio ad un giovane appassionato di archeologia come te. Per 
 Fuori dai piedi! <i>Bzz!</i>
 Fuori dai piedi! <i>Bzz!</i>
 <i>E-E-ERRORE.</i>
-<i>E-E-ERRORE.</i>
+<i>E-E-ERROR.</i>
 Scegli pure quello che preferisci.
-Scegli pure quello che preferisci.
+Pick whichever you want.
 Raitu
 Raitu
 Uaah-tah!
@@ -4182,25 +4188,25 @@ Ci dovrà pur essere qualcosa in questa pozzanghera!
 063
 063
 È pericoloso per di qua! Il Team Dimension ci tiene che nessuno si faccia del male! <i>Bzz!</i>
-È pericoloso per di qua! Il Team Dimension ci tiene che nessuno si faccia del male! <i>Bzz!</i>
+It's dangerous this way! Team Dimension doesn't want<<n>>anyone to get hurt! <i>Bzz!</i>
 547
 547
 Aspetta... Ma non stavamo svolgendo delle ricerche illegali? <i>Bzz!</i>
-Aspetta... Ma non stavamo svolgendo delle ricerche illegali? <i>Bzz!</i>
+Wait- Weren't we carrying out an illegal research? <i>Bzz!</i>
 Stupido rottame, hai fatto saltare la copertura! <i>Bzz!</i>
-Stupido rottame, hai fatto saltare la copertura! <i>Bzz!</i>
+You damn junk! We're blown now! <i>Bzz!</i>
 <i>Bzz...</i>
 <i>Bzz...</i>
 Ti metteremo a tacere con una bella lotta! Siamo due contro uno... sei spacciato|a!
-Ti metteremo a tacere con una bella lotta! Siamo due contro uno... sei spacciato|a!
+We'll shut your mouth with a battle!<<n>>It's two versus one, you're done!
 Fermi là!!
-Fermi là!!
+Don't move!!
 \PN, ti ho visto entrare qui e ti sono corsa dietro, ma vedo che ora sei nei pasticci... Serve una mano contro questi due? Lottiamo allora!
-\PN, ti ho visto entrare qui e ti sono corsa dietro, ma vedo che ora sei nei pasticci... Serve una mano contro questi due? Lottiamo allora!
+\PN, I saw you come in here, so I ran after you.<<n>>I see you're having some troubles here...<<n>>Need a help against these two? Let's fight then!
 \PN, ti ho vista entrare qui e ti sono corso dietro, ma vedo che ora sei nei pasticci... Serve una mano contro questi due? Lottiamo allora!
-\PN, ti ho vista entrare qui e ti sono corso dietro, ma vedo che ora sei nei pasticci... Serve una mano contro questi due? Lottiamo allora!
+\PN, I saw you come in here, so I ran after you.<<n>>I see you're having some troubles here...<<n>>Need a help against these two? Let's fight then!
 E va bene! Passate, ma risparmiateci! <i>Bzz!</i>
-E va bene! Passate, ma risparmiateci! <i>Bzz!</i>
+Okay! You can pass, but please do spare us! <i>Bzz!</i>
 58X
 58X
 Che ci fanno qui dei mocciosi?! <i>Bzz!</i>
@@ -4210,15 +4216,15 @@ P08
 Come avete fatto a eludere la sorveglianza?! <i>Bzz!</i>
 Come avete fatto a eludere la sorveglianza?! <i>Bzz!</i>
 <<[>>old<<]>>È il fossile di un antico Pokémon proveniente dallo spazio. Sembrerebbe essere dell'inchiostro solidificato... Vuoi prenderlo?
-<<[>>old<<]>>È il fossile di un antico Pokémon proveniente dallo spazio. Sembrerebbe essere dell'inchiostro solidificato... Vuoi prenderlo?
+<<[>>old<<]>>A fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink... You want this?
 Prendilo pure tu. Io non saprei che farmene! Ah ah ah!
-Prendilo pure tu. Io non saprei che farmene! Ah ah ah!
+You can have it. I wouldn't know what to do with it!<<n>>Ha ha ha!
 Molto bene, allora io prenderò questo per analizzarlo in laboratorio!
-Molto bene, allora io prenderò questo per analizzarlo in laboratorio!
+Well, so I'm gonna take this one for further examination in a lab!
 \PN, è stato bello condividere una simile avventura con te, ma ora devo proprio andare. Signore, venga con me. Non può mica attraversare la grotta da solo e senza Pokémon! Ciao, \PN!
-\PN, è stato bello condividere una simile avventura con te, ma ora devo proprio andare. Signore, venga con me. Non può mica attraversare la grotta da solo e senza Pokémon! Ciao, \PN!
+\PN, it was nice helping you in such an adventure,<<n>>but I really gotta go now.<<n>>Come with me, sir. You can't just cross the cave all alone<<n>>and without any Pokémon!<<n>>Bye, \PN!
 <<[>>old<<]>>È il fossile di un antico Pokémon proveniente dallo spazio. Sembrerebbe essere dell'inchiostro solidificato... Non puoi prenderlo: hai già il Chirofossile!
-<<[>>old<<]>>È il fossile di un antico Pokémon proveniente dallo spazio. Sembrerebbe essere dell'inchiostro solidificato... Non puoi prenderlo: hai già il Chirofossile!
+<<[>>old<<]>>A fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink... You can't take it: you already got the Print Fossil!
 G1N0
 G1N0
 <i>Bzz!</i>
@@ -4238,9 +4244,9 @@ HJ65
 Questo posto ormai è di proprietà del Team Dimension! <i>Bzz!</i>
 Questo posto ormai è di proprietà del Team Dimension! <i>Bzz!</i>
 <<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Vuoi prenderlo?
-<<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Vuoi prenderlo?
+<<[>>old<<]>>A fossil of an ancient Pokémon that lived on land. It appears to be a handprint... You want this?
 <<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Non puoi prenderlo: hai già il Fossilcosmo!
-<<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Non puoi prenderlo: hai già il Fossilcosmo!
+<<[>>old<<]>>A fossil of an ancient Pokémon that lived on land. It appears to be a handprint... You can't take it: you already got the Space Fossil!
 4Y
 4Y
 Non farmi girare gli ingranaggi! <i>Bzz!</i>
@@ -4287,9 +4293,9 @@ Quanto amo dormire!
 I love sleeping so much!
 [Map89]
 <<[>>old<<]>>Il cestino contiene qualcosa.
-<<[>>old<<]>>Il cestino contiene qualcosa.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Degli smidollati hanno osato sfidarmi a una gara di Vroombug. Tsk!
 Some spineless dudes dared to challenge me in<<n>>a Vroombug race. Tsk!
 [Map90]
@@ -4338,7 +4344,7 @@ You could've avoided ruffling my lock!
 Marco
 Maxie
 Io, il discepolo del grande Gennaro, ti sconfiggerò!
- I, the great Joey's pupil, am going to defeat you!
+I, the great Joey's pupil, am going to defeat you!
 Sei forte, ma niente a che vedere col maestro!
 You are strong, but nothing compared to the master!
 Gennaro è una vera leggenda tra noi Bulli.
@@ -4712,7 +4718,7 @@ Right place, right time, \PN!<<n>>Come with me, you absolutely need to see this.
 Senti com'è pesante l'aria qui? Quest'albero è permeato dall'energia dello Xenoverse. È molto probabile che qui, tempo fa, si sia aperta e poi richiusa una faglia interdimensionale. È tramite fratture del genere che i Pokémon X sono riusciti ad evadere dallo Xenoverse!
 Do you feel how oppressive the air is? This tree here<<n>>is filled with the energy from Xenoverse.<<n>>It's very likely that here, long ago, a dimensional fault line opened and suddenly closed.<<n>>X Pokémon could break out of Xenoverse through rifts exactly like this one!
 Per quanto affascinante, questo fenomeno rappresenta un pericolo per l'equilibrio del pianeta... La regione ne è già zeppa, ma se dovesse estendersi anche altrove, correremmo seri rischi! Stai all'erta, \PN. Per precauzione, prendi delle altre Xeno Ball.
-As charming this phenomenon is, it poses a serious threat to the planetary balance...<<n>>Eldiw's already filled with them, but if they should spread elsewhere too, the planet's gonna be in danger!<<n>>Be careful, \PN. Take more Xeno Balls as a precaution.
+As charming this phenomenon is, it poses a serious threat<<n>>to the planetary balance...<<n>>Eldiw's already filled with them, but if they should spread elsewhere too, the planet's gonna be in danger!<<n>>Be careful, \PN. Take more Xeno Balls as a precaution.
 Non tutto il male vien per nuocere, però!
 But every cloud has a silver lining, you know!
 Talvolta in queste zone è possibile rinvenire una particolare roccia, denominata <b>Xenolite</b>. Gli studi hanno rivelato che alcuni Pokémon X reagiscono all’energia sprigionata da questa roccia, evolvendosi. Chissà, magari potresti trovarne una anche tu...
@@ -4785,7 +4791,7 @@ Sì
 Yes
 [Map99]
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Fataldo
 Fataldo
 Insegnerò la mia mossa speciale solo a chi avrà ottenuto la <b>Medaglia Zucchero</b>.
@@ -4804,9 +4810,9 @@ No
 No
 [Map100]
 <<[>>old<<]>>Il cestino contiene qualcosa.
-<<[>>old<<]>>Il cestino contiene qualcosa.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Volevo insegnare questa MT al mio Hikiloo, ma pare non possa impararla. Prendila pure tu.
 Volevo insegnare questa MT al mio Hikiloo, ma pare non possa impararla. Prendila pure tu.
 Il mio Pokémon non fa che dormire...
@@ -4999,7 +5005,7 @@ Thank you for waiting.<<n>>We've restored your Pokémon to full health!
 Torna pure quando vuoi.
 We hope to see you again!
 <<[>>old<<]>>Qui non c'è niente...
-<<[>>old<<]>>Qui non c'è niente...
+<<[>>old<<]>>There's nothing here...
 Natale
 Claus
 Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
@@ -5061,7 +5067,7 @@ Kazam...!
 <<[>>old<<]>>Bacino
 [Map111]
 <<[>>old<<]>>Qui non c'è niente...
-<<[>>old<<]>>Qui non c'è niente...
+<<[>>old<<]>>There's nothing here...
 Druuuu!!
 Druuuu!!
 Quando ti trovi di fronte a un Pokémon selvatico, non scappare e affrontalo a muso duro! Oltre a cedere Punti Esperienza, alcuni potrebbero persino perdere lo strumento che tenevano, sai?
@@ -5143,7 +5149,7 @@ Più vergognoso di una loss...
 Trucco svelato! Non sono un Asso del Baseball, ma mi piacerebbe tanto...
 Trucco svelato! Non sono un Asso del Baseball, ma mi piacerebbe tanto...
 <<[>>old<<]>>Bisogna portare il cibo al padrone.
-<<[>>old<<]>>Bisogna portare il cibo al padrone.
+<<[>>old<<]>>I must bring food to the master.
 Noa
 Noa
 Non potete passare di qui senza esservi meritati la <b>Medaglia Marea</b>.
@@ -5232,17 +5238,17 @@ No
 No
 [Map120]
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+<<[>>old<<]>>Would you like to open this chest?
 Fabiano
 Fabiano
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
 Ho sbagliato ad accusarti, scusa!
-Ho sbagliato ad accusarti, scusa!
+I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
-In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+You were only having a look, after all...<<n>>but don't ever try that again!<<n>>Grab this, c'mon!
 <<[>>old<<]>>Meglio non rischiare...
-<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>It's too risky...
 Solo da Fabiano, articoli mai visti a prezzi stracciati!!
 Solo da Fabiano, articoli mai visti a prezzi stracciati!!
 Turtonator
@@ -5638,7 +5644,7 @@ E ora va', \PN.
 Ben fatto, \PN. Vedo che sei riuscito|a ad ottenere il Codice Xenoverse... perché non provi subito il nuovo potere? Forza, dai l'Anello al tuo Pokémon iniziale!
 Ben fatto, \PN. Vedo che sei riuscito|a ad ottenere il Codice Xenoverse... perché non provi subito il nuovo potere? Forza, dai l'Anello al tuo Pokémon iniziale!
 <<[>>old<<]>>Assegna l'Anello Xenoverse al tuo Pokémon iniziale e mettilo in testa alla squadra per continuare.
-<<[>>old<<]>>Assegna l'Anello Xenoverse al tuo Pokémon iniziale e mettilo in testa alla squadra per continuare.
+<<[>>old<<]>>Give the Xenoversal Ring to your starter Pokémon and put it on top of your party to continue.
 Ma che diamine succede?!
 Ma che diamine succede?!
 Sembra che l'Energia Blu sia troppo difficile da controllare! \PN, fa' tornare subito il tuo Pokémon allo stadio base!
@@ -5652,7 +5658,7 @@ Cosa?! Dov'è finito Trishout?!
 [Map129]
 [Map130]
 <<[>>old<<]>>Qui non c'è niente...
-<<[>>old<<]>>Qui non c'è niente...
+<<[>>old<<]>>There's nothing here...
 Quella negli scatoloni non è sabbia qualunque! È la fine sabbia della Spiaggia Polvostella!!
 Quella negli scatoloni non è sabbia qualunque! È la fine sabbia della Spiaggia Polvostella!!
 Mio figlio ha vinto questi scatoloni ad un’asta, ma non contengono altro che sabbia...
@@ -5719,17 +5725,17 @@ Chi ha ali maestose, in volo è leggiadro ed elegante come il vento!
 In terra, però, delle ali maestose non sono che un peso.
 In terra, però, delle ali maestose non sono che un peso.
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+<<[>>old<<]>>Would you like to open this chest?
 Piliano
 Piliano
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
 Ho sbagliato ad accusarti, scusa!
-Ho sbagliato ad accusarti, scusa!
+I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
-In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+You were only having a look, after all...<<n>>but don't ever try that again!<<n>>Grab this, c'mon!
 <<[>>old<<]>>Meglio non rischiare...
-<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>It's too risky...
 Solo da Piliano, articoli mai visti a prezzi stracciati!!
 Solo da Piliano, articoli mai visti a prezzi stracciati!!
 <<[>>old<<]>>Stanno discutendo animatamente...
@@ -5967,7 +5973,7 @@ Shyyy!!
 Vedo che sei riuscito|a ad ottenere il <b>Codice</b> <b>Xenoverse</b>... Perché non provi subito il nuovo potere, \PN? Forza, dai l'Anello al tuo Pokémon iniziale!
 Vedo che sei riuscito|a ad ottenere il <b>Codice</b> <b>Xenoverse</b>... Perché non provi subito il nuovo potere, \PN? Forza, dai l'Anello al tuo Pokémon iniziale!
 <<[>>old<<]>>Assegna l'Anello Xenoverse al tuo Pokémon iniziale e mettilo in testa alla squadra per continuare.
-<<[>>old<<]>>Assegna l'Anello Xenoverse al tuo Pokémon iniziale e mettilo in testa alla squadra per continuare.
+<<[>>old<<]>>Give the Xenoversal Ring to your starter Pokémon and put it on top of your party to continue.
 Guarda, il tuo Pokémon ha cambiato forma!
 Guarda, il tuo Pokémon ha cambiato forma!
 È dunque questa l'essenza del Codice Xenoverse...
@@ -6019,7 +6025,7 @@ No
 <<[>>old<<]>>La porta sembra aperta. Vuoi entrare?
 <<[>>old<<]>>The door is open. Would you like to get in?
 <<[>>old<<]>>Il testo è illeggibile...
-<<[>>old<<]>>Il testo è illeggibile...
+<<[>>old<<]>>It's unreadable...
 <<[>>old<<]>>La porta è chiusa a chiave. Forse è meglio non aprire.
 <<[>>old<<]>>The door is locked. You should not open it.
 Sì
@@ -6028,9 +6034,9 @@ No
 No
 [Map142]
 <<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
-<<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
+<<[>>old<<]>>There's something in this ancient jar.
 <<[>>old<<]>>Sembra essere vuoto.
-<<[>>old<<]>>Sembra essere vuoto.
+<<[>>old<<]>>It's empty.
 ???
 ???
 Benvenuto|a nella Palestra di Aquariopoli, giovane Allenatore! Come dici? Vuoi sapere se mi paghino per seguirti? Purtroppo no, ma sappi che faccio il tifo per te!
@@ -6059,11 +6065,11 @@ Spettro
 Spettro
 [Map143]
 <<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
-<<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
+<<[>>old<<]>>There's something in this ancient jar.
 <<[>>old<<]>>Sembra essere vuoto.
-<<[>>old<<]>>Sembra essere vuoto.
+<<[>>old<<]>>It's empty.
 C'è qualcosa all'interno di questo antico artefatto. [dispose]
-C'è qualcosa all'interno di questo antico artefatto. [dispose]
+<<[>>old<<]>>There's something in this ancient jar.
 <<[>>old<<]>>Sembrerebbe scritto in una lingua molto antica...
 <<[>>old<<]>>Sembrerebbe scritto in una lingua molto antica...
 <<[>>old<<]>>It seems an ancient alphabet...
@@ -6096,9 +6102,9 @@ La fortuna sorride ad alcuni e ride di altri.
 La fortuna sorride ad alcuni e ride di altri.
 [Map144]
 <<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
-<<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
+<<[>>old<<]>>There's something in this ancient jar.
 <<[>>old<<]>>Sembra essere vuoto.
-<<[>>old<<]>>Sembra essere vuoto.
+<<[>>old<<]>>It's empty.
 <<[>>old<<]>>C'è una piccola fessura nella parete... Vuoi che Shulong l'allarghi con i suoi getti d'acqua?
 <<[>>old<<]>>There a small crack in the wall... Do you want Shulong to widen it using its water jets?
 Shulong
@@ -6136,8 +6142,8 @@ Yes
 No
 No
 [Map145]
-Tornerai alla lettera A. Sei sicuro|a?
-Tornerai alla lettera A. Sei sicuro|a?
+<<[>>old<<]>>Vuoi davvero tornare alla lettera A?
+<<[>>old<<]>>Vuoi davvero tornare alla lettera A?
 Karim
 Karim
 I nostri nomi si sono incrociati su queste pedane come nello Scarabeo!
@@ -6174,9 +6180,9 @@ No
 No
 [Map146]
 <<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
-<<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
+<<[>>old<<]>>There's something in this ancient jar.
 <<[>>old<<]>>Sembra essere vuoto.
-<<[>>old<<]>>Sembra essere vuoto.
+<<[>>old<<]>>It's empty.
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
@@ -6193,13 +6199,13 @@ Usa Box
 Use Box
 [Map147]
 <<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
-<<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
+<<[>>old<<]>>There's something in this ancient jar.
 <<[>>old<<]>>Sembra essere vuoto.
-<<[>>old<<]>>Sembra essere vuoto.
+<<[>>old<<]>>It's empty.
 <<[>>old<<]>>Sembra un sarcofago molto antico... Vuoi aprirlo?
-<<[>>old<<]>>Sembra un sarcofago molto antico... Vuoi aprirlo?
+<<[>>old<<]>>It looks like an ancient coffin... Would you like to open it?
 <<[>>old<<]>>Qui non c'è niente...
-<<[>>old<<]>>Qui non c'è niente...
+<<[>>old<<]>>There's nothing here...
 Sì
 Yes
 No
@@ -6267,11 +6273,11 @@ Ero certo avessi stoffa da vendere!
 Ero certo avessi stoffa da vendere!
 [Map149]
 <<[>>old<<]>>Vuoi aprire questo antico sarcofago?
-<<[>>old<<]>>Vuoi aprire questo antico sarcofago?
+<<[>>old<<]>>Would you like to open this ancient coffin?
 <<[>>old<<]>>All’interno c’è una perla... è una Perlacqua! Vuoi raccoglierla?
-<<[>>old<<]>>All’interno c’è una perla... è una Perlacqua! Vuoi raccoglierla?
+<<[>>old<<]>>There's something inside... it's an Aqua Pearl! Would you like take it?
 <<[>>old<<]>>Non c’è niente...
-<<[>>old<<]>>Non c’è niente...
+<<[>>old<<]>>There's nothing here...
 Nasha
 Nasha
 Nascosto in un sarcofago e col volto celato da una maschera... Sono il mistero incarnato!
@@ -6733,7 +6739,7 @@ Avevo detto che ti avrei presentato i miei collaboratori, vieni conmigo. Ne appr
 Al piano di sopra dovrebbe esserci qualche altro membro della squadra. Andiamo!
 Al piano di sopra dovrebbe esserci qualche altro membro della squadra. Andiamo!
 <<[>>old<<]>>Non c'è niente...
-<<[>>old<<]>>Non c'è niente...
+<<[>>old<<]>>There's nothing here...
 ...
 ...
 ... ... Oh, sei tu \PN.
@@ -6816,7 +6822,7 @@ Ciao, \PN! Quel Pokémon che ci ha sbalzati via era davvero enorme... Ma scommet
 <<[>>old<<]>>''Ogni giorno cerco di farmi forza, ma non credo di essere all'altezza di questa squadra... Se solo ci fossi tu, papà.''
 <<[>>old<<]>>''Ogni giorno cerco di farmi forza, ma non credo di essere all'altezza di questa squadra... Se solo ci fossi tu, papà.''
 <<[>>old<<]>>È un Nintendo Switch nuovo di zecca! Al suo interno vi è un gioco chiamato ''Kidoon's Mansion 3''.
-<<[>>old<<]>>È un Nintendo Switch nuovo di zecca! Al suo interno vi è un gioco chiamato ''Kidoon's Mansion 3''.
+<<[>>old<<]>>A brand new Nintendo Switch! There's a game in the slot: ''Kidoon's Mansion 3''.
 Silvia
 Silvia
 Questa è la zona relax. Qui ci concediamo un po' di meritato riposo dopo le nostre missioni.
@@ -6852,7 +6858,7 @@ Ora torniamo al piano terra, \PN. È il momento di conoscere il nostro ultimo so
 Mi ha davvero fatto piacere, \PN. Spero di rivederti, magari in azione...
 Mi ha davvero fatto piacere, \PN. Spero di rivederti, magari in azione...
 <<[>>old<<]>>Non c'è niente...
-<<[>>old<<]>>Non c'è niente...
+<<[>>old<<]>>There's nothing here...
 <<[>>old<<]>>In questo PC è salvata la cronologia di Saul. Vuoi leggerla?
 <<[>>old<<]>>In questo PC è salvata la cronologia di Saul. Vuoi leggerla?
 Sì
@@ -6971,7 +6977,7 @@ Ma noi della S.P.E.T.T.R.I. non permetteremo che uno spiritello arrogante se ne 
 Ora che ci siamo tutti, la S.P.E.T.T.R.I. può finalmente entrare in azione! Eh sì, \PN, fino al termine della missione, sarai parte della squadra! Analizziamo la zona in cerca di indizi, vamonos!
 Ora che ci siamo tutti, la S.P.E.T.T.R.I. può finalmente entrare in azione! Eh sì, \PN, fino al termine della missione, sarai parte della squadra! Analizziamo la zona in cerca di indizi, vamonos!
 <<[>>old<<]>>La porta è chiusa a chiave.
-<<[>>old<<]>>La porta è chiusa a chiave.
+<<[>>old<<]>>The door is locked.
 Hombre! Saul, che diablo ti prende?
 Hombre! Saul, che diablo ti prende?
 \PN, fa' presto! Abbiamo un problema!
@@ -7465,9 +7471,9 @@ Thiago
 La mia dimora è vuota, ma non le mie tasche. Ho da vendere Lastre di ogni tipo!
 La mia dimora è vuota, ma non le mie tasche. Ho da vendere Lastre di ogni tipo!
 <<[>>old<<]>>Il cestino contiene qualcosa.
-<<[>>old<<]>>Il cestino contiene qualcosa.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 [Map176]
 [Map177]
 <<[>>old<<]>>È un foglio accartocciato con delle scritte sopra. Sembrano quasi in rima...
@@ -7754,7 +7760,7 @@ E-Errore.
 <i>4CC1D3NT1! M1 S0N0 SURR1SC4LD4T0...!</i>
 <i>4CC1D3NT1! M1 S0N0 SURR1SC4LD4T0...!</i>
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 67U
 67U
 Impossibile! Non è consentito alcun accesso a questo vagone! <i>Bzz!</i>
@@ -7781,9 +7787,9 @@ Cavolo, hanno pensato proprio bene alla vigilanza, eh?
 Cavolo, hanno pensato proprio bene alla vigilanza, eh?
 [Map185]
 <<[>>old<<]>>Il cestino contiene qualcosa.
-<<[>>old<<]>>Il cestino contiene qualcosa.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 T3S
 T3S
 Vediamo un po’ cosa offre la casa... <i>Bzz!</i>
@@ -7795,9 +7801,9 @@ E-Errore.
 E ora lasciaci in pace! <i>Bzz!</i>
 E ora lasciaci in pace! <i>Bzz!</i>
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
-<<[>>old<<]>>Il cestino è pieno di carta straccia.
+<<[>>old<<]>>The trash is full of wastepaper.
 <<[>>old<<]>>La porta è chiusa...
-<<[>>old<<]>>La porta è chiusa...
+<<[>>old<<]>>The door is locked.
 46ID
 46ID
 Cameriere|a? Vorremmo ordinare una pizza con fil di ferro e dischi in alluminio. <i>Bzz!</i>
@@ -7838,7 +7844,7 @@ Chissà, magari se mangiassi un seme super piccante, potrei sputare fuoco. <i>Bz
 Chissà, magari se mangiassi un seme super piccante, potrei sputare fuoco. <i>Bzz!</i> Potrei provare a chiederne uno allo <b>Scovile</b> del Colonnello! <i>Bzz!</i>
 [Map186]
 <<[>>old<<]>>La porta è chiusa...
-<<[>>old<<]>>La porta è chiusa...
+<<[>>old<<]>>The door is locked.
 [Map187]
 <<[>>old<<]>>L’esplosione non ha scalfito minimamente la barriera...!
 <<[>>old<<]>>L’esplosione non ha scalfito minimamente la barriera...!
@@ -7942,7 +7948,7 @@ Con questo buio non si riesce a vedere a un palmo di naso...
 Kay
 Kay
 <<[>>old<<]>>La porta è chiusa...
-<<[>>old<<]>>La porta è chiusa...
+<<[>>old<<]>>The door is locked.
 ???
 ???
 Ehi, \PN! Aspettami!
@@ -8050,7 +8056,7 @@ So che non dovrei aiutare gli intrusi, ma il mio codice d’onore me lo impedisc
 <<[>>old<<]>>Si sarà aperta un'altra stanza del vagone...? Sarà bene controllare.
 <<[>>old<<]>>Si sarà aperta un'altra stanza del vagone...? Sarà bene controllare.
 <<[>>old<<]>>Non c'è niente...
-<<[>>old<<]>>Non c'è niente...
+<<[>>old<<]>>There's nothing here...
 <<[>>old<<]>>Vuoi riposarti?
 <<[>>old<<]>>Would you like to rest?
 <<[>>old<<]>>Ora va molto meglio.
@@ -8561,9 +8567,9 @@ Alright, my friends! Let's go! Quel maledetto si pentirà di aver attaccato prop
 <<[>>old<<]>> La Stazione oggi è chiusa.
 <<[>>old<<]>> La Stazione oggi è chiusa.
 <<[>>old<<]>>Il cestino contiene qualcosa.
-<<[>>old<<]>>Il cestino contiene qualcosa.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Aaah! Che mangiata! Burp! Peccato per il dessert, ma alla fine poco importa...
 Aaah! Che mangiata! Burp! Peccato per il dessert, ma alla fine poco importa...
 Conosco giusto un posto in cui potrai riposare quanto vuoi. Vieni!
@@ -8585,9 +8591,9 @@ Jasy
 La gente bigotta crede che i murales siano roba da vandali, ma non è affatto così. Qui a Leopoli, lasciare un graffito su un edificio, è come lasciare una traccia di sé nella città!
 La gente bigotta crede che i murales siano roba da vandali, ma non è affatto così. Qui a Leopoli, lasciare un graffito su un edificio, è come lasciare una traccia di sé nella città!
 <<[>>old<<]>>Qui c'è solo spazzatura.
-<<[>>old<<]>>Qui c'è solo spazzatura.
+<<[>>old<<]>>Just garbage here.
 <<[>>old<<]>>La porta sembrerebbe chiusa a chiave...
-<<[>>old<<]>>La porta sembrerebbe chiusa a chiave... 
+<<[>>old<<]>>The door is locked.
 Terence
 Terence
 Ho deciso che andrò a correre tutti i giorni d’ora in poi. Vedrai che figurino quest’estate!
@@ -8669,7 +8675,7 @@ Lavinia
 E tu lo segui Daddy su Instagram?
 E tu lo segui Daddy su Instagram?
 <<[>>old<<]>>Non c'è niente...
-<<[>>old<<]>>Non c'è niente...
+<<[>>old<<]>>There's nothing here...
 <<[>>old<<]>>Stazione Ferroviaria di Leopoli
 <<[>>old<<]>>Stazione Ferroviaria di Leopoli
 Joseph
@@ -8728,7 +8734,7 @@ Ci credi che Daddy un tempo era povero? Sul serio, rubava nei Pokémon-Market pe
 <<[>>old<<]>>È il grande giorno dell'evento di Wallace Daddy... Meglio dirigersi verso il palco!
 <<[>>old<<]>>È il grande giorno dell'evento di Wallace Daddy... Meglio dirigersi verso il palco!
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
-<<[>>old<<]>>Il cestino è pieno di carta straccia.
+<<[>>old<<]>>The trash is full of wastepaper.
 ???
 ???
 Eccoci qui, \PN. Questa modesta casetta è tutta per te e per i tuoi Pokémon!
@@ -8752,7 +8758,7 @@ Laverò questi piatti così a fondo da farli luccicare più della zucca del pela
 Laverò questi piatti così a fondo da farli luccicare più della zucca del pelato!
 [Map200]
 <<[>>old<<]>>È un Nintendo Switch. All'interno c'è un gioco: ''The Legend of Excalibould''.
-<<[>>old<<]>>È un Nintendo Switch. All'interno c'è un gioco: ''The Legend of Excalibould''.
+<<[>>old<<]>>It's a Nintendo Switch. There's a game in the slot: ''The Legend of Excalibould''.
 Adela
 Adela
 Wallace Daddy adora l’oro alla follia! Chissà se potrebbe piacergli questo...
@@ -8760,7 +8766,7 @@ Wallace Daddy adora l’oro alla follia! Chissà se potrebbe piacergli questo...
 Non mi sorprenderei se avesse anche dei Pokémon tutti dorati.
 Non mi sorprenderei se avesse anche dei Pokémon tutti dorati.
 <<[>>old<<]>>La TV sta trasmettendo uno speciale servizio su Wallace Daddy.
-<<[>>old<<]>>La TV sta trasmettendo uno speciale servizio su Wallace Daddy.
+<<[>>old<<]>>There's a feature on Wallace Daddy on TV.
 [Map201]
 Olivia
 Olivia
@@ -8793,7 +8799,7 @@ Uff, prima o poi troverò qualcuno che apprezzi i vinili come me...
 Alla mia collezione manca solo il rarissimo vinile di ''Indigeno''...!
 Alla mia collezione manca solo il rarissimo vinile di ''Indigeno''...!
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Sì
 Yes
 No
@@ -8817,7 +8823,7 @@ Su questo brano ci starebbe proprio bene un flauto... Tu sai suonarlo?
 Ho già scartato montagne di brani... Forse sono un po’ troppo stacanovista...
 Ho già scartato montagne di brani... Forse sono un po’ troppo stacanovista...
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 [Map206]
 Tom
 Tom
@@ -8867,14 +8873,14 @@ Robin
 Trasferirmi a Leopoli è stata la cosa migliore che potessi fare. Ho trovato dei grandi amici qui!
 Trasferirmi a Leopoli è stata la cosa migliore che potessi fare. Ho trovato dei grandi amici qui!
 <<[>>old<<]>>Non c'è niente...
-<<[>>old<<]>>Non c'è niente...
+<<[>>old<<]>>There's nothing here...
 Marshall
 Marshall
 I miei amici hanno organizzato un intervento per me... io lo adoravo quel cappello!
 I miei amici hanno organizzato un intervento per me... io lo adoravo quel cappello!
 [Map208]
 <<[>>old<<]>>È un Nintendo Switch. All'interno c'è un gioco: ''Vroombug Kart 8''.
-<<[>>old<<]>>È un Nintendo Switch. All'interno c'è un gioco: ''Vroombug Kart 8''.
+<<[>>old<<]>>It's a Nintendo Switch. There's a game in the slot: ''Vroombug Kart 8''.
 Ted
 Ted
 Chissà se troverò mai l’anima gemella...
@@ -9118,7 +9124,7 @@ Gliel’avevo detto io di partire qualche giorno prima del concerto, ma quelli f
 Gliel’avevo detto io di partire qualche giorno prima del concerto, ma quelli fanno sempre di testa loro!
 [Map212]
 <<[>>old<<]>>Qui c'è solo spazzatura.
-<<[>>old<<]>>Qui c'è solo spazzatura.
+<<[>>old<<]>>Just garbage here.
 Joseph
 Joseph
 Ciao, Leopoli! Allora... Siete carichi?!
@@ -9388,7 +9394,7 @@ S
 Ah, sei tu. Se ti rivolgo la parola è solo perché Santana ha stima di te... Ma ora smamma, qui stiamo lavorando al nuovo disco!
 Ah, sei tu. Se ti rivolgo la parola è solo perché Santana ha stima di te... Ma ora smamma, qui stiamo lavorando al nuovo disco!
 <<[>>old<<]>> La porta è chiusa a chiave.
-<<[>>old<<]>> La porta è chiusa a chiave.
+<<[>>old<<]>>The door is locked.
 ???
 ???
 Benvenuto nel Golden Studio, giovane Allenatore!
@@ -9398,7 +9404,7 @@ Il signor Wallace Daddy mi ha nominato terzo giudice fisso del suo talent show..
 Ma non preoccuparti, \PN, continuo a fare il tifo per te!
 Ma non preoccuparti, \PN, continuo a fare il tifo per te!
 <<[>>old<<]>> Non c'è niente...
-<<[>>old<<]>> Non c'è niente...
+<<[>>old<<]>>There's nothing here...
 Oh! Qualcuno è riuscito ad arrivare fin quassù, incredibile!
 Oh! Qualcuno è riuscito ad arrivare fin quassù, incredibile!
 Il signor Daddy è qui dietro, ma prima di raggiungerlo, voglio che tu risponda ad una semplice domanda...
@@ -9884,15 +9890,15 @@ Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
 <<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+<<[>>old<<]>>Would you like to open this chest?
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
 Ho sbagliato ad accusarti, scusa!
-Ho sbagliato ad accusarti, scusa!
+I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
-In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+You were only having a look, after all...<<n>>but don't ever try that again!<<n>>Grab this, c'mon!
 <<[>>old<<]>>Meglio non rischiare...
-<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>It's too risky...
 Sì
 Yes
 No
@@ -9968,9 +9974,9 @@ Stai andando alla grande, \PN! Vedo proprio che hai il ritmo nel sangue! Eh eh!
 Questa è la <b>Sala Dance</b>, zeppa di Breaker e gente che col ballo ci sa fare... E tu, come te la cavi, invece? L’indizio come al solito si cela sull'Instagram di <b>wallacedaddy</b>!
 Questa è la <b>Sala Dance</b>, zeppa di Breaker e gente che col ballo ci sa fare... E tu, come te la cavi, invece? L’indizio come al solito si cela sull'Instagram di <b>wallacedaddy</b>!
 <<[>>old<<]>>Il cestino contiene qualcosa.
-<<[>>old<<]>>Il cestino contiene qualcosa.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Miya
 Miya
 Sei un po’ troppo piccolo|a per ballare con me, ma se vuoi posso concederti una lotta!
@@ -9982,7 +9988,7 @@ Jona
 Ehi, ehi! Questa è l’area riservata ai vip, amico|a!
 Ehi, ehi! Questa è l’area riservata ai vip, amico|a!
 <<[>>old<<]>>Qui non c'è niente...
-<<[>>old<<]>>Qui non c'è niente...
+<<[>>old<<]>>There's nothing here...
 Jake
 Jake
 Questa sì che è musica, mica come quello schifo di rock!!
@@ -10124,7 +10130,7 @@ Nadia
 Viaja, el dinero se recupera, el tiempo no.
 Viaja, el dinero se recupera, el tiempo no.
 <<[>>old<<]>>Non c'è niente...
-<<[>>old<<]>>Non c'è niente...
+<<[>>old<<]>>There's nothing here...
 Anaya
 Anaya
 È bene ricordare da dove si viene, ma è altrettanto importante cambiare aria di tanto in tanto. Dopotutto abbiamo delle gambe per spostarci, non delle radici come gli alberi!
@@ -10242,7 +10248,7 @@ No
 No
 [Map226]
 <<[>>old<<]>>Non c'è niente...
-<<[>>old<<]>>Non c'è niente...
+<<[>>old<<]>>There's nothing here...
 Sara
 Sara
 Che emozione! Tra pochissimo salirò sul mio primo aereo!
@@ -10670,7 +10676,7 @@ Gabbie
 Tra non molto il mio tesoro partirà per il college. Mi mancherà tantissimo!
 My son will leave soon for college.<<n>>I'm gonna miss him so much!
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Molly
 Molly
 Evvai! Finalmente avrò la cameretta tutta per me!
@@ -10685,7 +10691,7 @@ Andy
 Inizia la mia avventura al college di Campus Ariepoli!
 My adventure at Newtron City's campus is starting soon!
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
-<<[>>old<<]>>Il cestino è pieno di carta straccia.
+<<[>>old<<]>>The trash is full of wastepaper.
 [Map247]
 [Map248]
 <<[>>old<<]>>Vuoi uscire dal Nido?
@@ -11344,17 +11350,17 @@ Un canyon nasce quando un corso d’acqua, erodendo lentamente il terreno sottos
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+<<[>>old<<]>>Would you like to open this chest?
 Laborano
 Laborano
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
 Ho sbagliato ad accusarti, scusa!
-Ho sbagliato ad accusarti, scusa!
+I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
-In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+You were only having a look, after all...<<n>>but don't ever try that again!<<n>>Grab this, c'mon!
 <<[>>old<<]>>Meglio non rischiare...
-<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>It's too risky...
 Selestino
 Selestino
 L’uomo deve assecondare il flusso della giungla se non vuole soccombere ad essa.
@@ -11616,13 +11622,13 @@ Modalità di gioco
 Modalità di gioco
 [Map273]
 <<[>>old<<]>>L'oasi di Acquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
-<<[>>old<<]>>L'oasi di Acquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
+<<[>>old<<]>>L'oasi di Aquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
 <<[>>old<<]>>Bisogna portare il cibo al padrone.
-<<[>>old<<]>>Bisogna portare il cibo al padrone.
+<<[>>old<<]>>I must bring food to the master.
 <<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
 <<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
 <<[>>old<<]>>Canyon Asteroide ad est
-<<[>>old<<]>>Canyon Asteroide ad est
+<<[>>old<<]>>East: Sunflare Canyon
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
@@ -11630,75 +11636,75 @@ Modalità di gioco
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 Joele
-Joele
+Joel
 \PN, quei due soldati stanno facendo la guardia al fautore di tutto questo putiferio!
-\PN, quei due soldati stanno facendo la guardia al fautore di tutto questo putiferio!
+\PN, those two soldiers are guarding the perpetrator of all this rumpus!
 Ho già provato ad affrontarli, ma sono troppo forti... Dev'essere quel Pokémon ad amplificarne i poteri!
-Ho già provato ad affrontarli, ma sono troppo forti... Dev'essere quel Pokémon ad amplificarne i poteri!
+I've already tried to face them, but they're too strong...<<n>>That Pokémon must be amplifying their powers!
 Ha usato i suoi poteri psichici per costringere i cittadini a consegnargli tutte le scorte alimentari dell'oasi... Dobbiamo agire in fretta, forza!
-Ha usato i suoi poteri psichici per costringere i cittadini a consegnargli tutte le scorte alimentari dell'oasi... Dobbiamo agire in fretta, forza!
+It used his psychic powers to force the citizens<<n>>to hand over all of the oasis' food supplies...<<n>>We must act quickly, hurry up!
 Gengar
 Gengar
 Oh, finalmente qualcuno con dell'altro cibo!
-Oh, finalmente qualcuno con dell'altro cibo!
+Oh, someone is bringing me more food finally!
 Le Bacche di questo mondo sono davvero squisite! Ne mangerei all'infinito! Gengah ah ah!
-Le Bacche di questo mondo sono davvero squisite! Ne mangerei all'infinito! Gengah ah ah!
+The Berries of this world are really delicious!<<n>>I could eat them forever! Genga ha ha!
 Ehi, voi due! Date il cibo ai miei schiavi e correte subito a prenderne dell'altro, è un ordine!
-Ehi, voi due! Date il cibo ai miei schiavi e correte subito a prenderne dell'altro, è un ordine!
+Hey, you two! Hand over the food to my slaves,<<n>>then hurry up and get some more, that's an order!
 Ma... Voi due non siete ipnotizzati dal mio potere!! Come diavolo è possibile?!
-Ma... Voi due non siete ipnotizzati dal mio potere!! Come diavolo è possibile?!
+Wha- You two are not hypnotized by my power!!<<n>>How the hell is this possible?!
 Perché stai facendo questo ad Aquariopoli? Cosa abbiamo fatto per meritarcelo?!
-Perché stai facendo questo ad Aquariopoli? Cosa abbiamo fatto per meritarcelo?!
+Why are you doing this Ishtar City?<<n>>What did we do to deserve all this?!
 Non osare rivolgerti a me con quel tono, sporco umano!
-Non osare rivolgerti a me con quel tono, sporco umano!
+Don't you dare talk to me like that,<<n>>you filthy human!
 Sei fortunato ad avere un sovrano benevolo come il sottoscritto. Se queste sono le tue ultime preghiere, prima di ipnotizzarti, porrò fine ai tuoi interrogativi. Per giungere fin qui, le mie regali membra hanno fatto uno sforzo non indifferente... E ora ho una graaan faaame!
-Sei fortunato ad avere un sovrano benevolo come il sottoscritto. Se queste sono le tue ultime preghiere, prima di ipnotizzarti, porrò fine ai tuoi interrogativi. Per giungere fin qui, le mie regali membra hanno fatto uno sforzo non indifferente... E ora ho una graaan faaame!
+You’re lucky to have a benevolent sovereign like<<n>>yours truly, though.<<n>>If these are your last prayers, I'll answer your questions<<n>>before I hypnotize you.<<n>>My royal limbs made a considerable effort to come<<n>>this far... And I'm soooo huuuungry now!
 Inizialmente tenevo d'occhio la città nell'ombra e, studiandovi, ho imparato il vostro linguaggio. Voi stupidi umani, come al solito, non vi siete accorti di nulla! Gengah ah ah!
-Inizialmente tenevo d'occhio la città nell'ombra e, studiandovi, ho imparato il vostro linguaggio. Voi stupidi umani, come al solito, non vi siete accorti di nulla! Gengah ah ah!
+At first, I kept an eye on the city in the shade and,<<n>>by studying you, I learnt your language.<<n>>You stupid humans, as usual, didn't notice anything!<<n>>Genga ha ha!
 Ma ho già detto troppo... Guardie! Portateli da me, alla svelta!
-Ma ho già detto troppo... Guardie! Portateli da me, alla svelta!
+But I have already said too much... Guards!<<n>>Bring them to me, quickly!
 ???
 ???
 Bisogna portare il cibo al padrone.
-Bisogna portare il cibo al padrone.
+We must bring food to the master.
 \PN, tieniti pronto|a!!
-\PN, tieniti pronto|a!!
+\PN, get ready!!
 Padrone...
-Padrone...
+Master...
 Troppo forte per noi, mio padrone.
-Troppo forte per noi, mio padrone.
+Too strong for us, my master.
 Stupidi inetti, mi tocca fare tutto da solo!
-Stupidi inetti, mi tocca fare tutto da solo!
+You inept fools, I'll do it myself!
 Non avrò pietà di voi guastafeste!
-Non avrò pietà di voi guastafeste!
+I'll have no mercy for you troublemakers!
 Ancora voi? Non vi è bastata la lezione?
-Ancora voi? Non vi è bastata la lezione?
+You two, again? Once wasn't enough?
 Assurdo... Com'è possibile?! Io, il grande sovrano Gengar, ho perso contro questa nullità?!
-Assurdo... Com'è possibile?! Io, il grande sovrano Gengar, ho perso contro questa nullità?!
+That can't be- How is it possible?! I, the greatest of kings,<<n>>Gengar, losing to this nobody?!
 Gengah ah ah! Gengah ah ah! Ragazzino|a, hai vinto la battaglia, ma la guerra è ancora da vedere! Ci rivedremo molto presto... E avrò la mia vendetta!
-Gengah ah ah! Gengah ah ah! Ragazzino|a, hai vinto la battaglia, ma la guerra è ancora da vedere! Ci rivedremo molto presto... E avrò la mia vendetta!
+Genga ha ha! Genga ha ha! Kid, you may have won<<n>>the battle, but the war is still on!<<n>>We'll meet again very soon... and I'll have my revenge!
 Questa montagna di Bacche verrà con me, ovviamente. Adieu!
-Questa montagna di Bacche verrà con me, ovviamente. Adieu!
+This pile of Berries is coming with me, of course.<<n>>Adieu!
 Forza, signora! Si svegli, la prego!
-Forza, signora! Si svegli, la prego!
+Come on, lady! Wake up, please!
 Signore, almeno lei dica qualcosa!
-Signore, almeno lei dica qualcosa!
+Sir, at least say something!
 Ma perché nessuno risponde?! Forza, svegliatevi da quest'ipnosi!
-Ma perché nessuno risponde?! Forza, svegliatevi da quest'ipnosi!
+But why is no one answering?!<<n>>Come on, break this hypnosis!
 Niente da fare... Devo assolutamente correre a cercare aiuto!
-Niente da fare... Devo assolutamente correre a cercare aiuto!
+No way... I absolutely must run for help!
 E tu chi sei? Non ti ho mai visto|a da queste parti...
-E tu chi sei? Non ti ho mai visto|a da queste parti...
+And who are you? I've never seen you around here before...
 Che meraviglia! Non siete vittima del sortilegio! Ti prego di aiutarmi, Allenatore!
-Che meraviglia! Non siete vittima del sortilegio! Ti prego di aiutarmi, Allenatore!
+What a treat! You are not under this spell!<<n>>I'm begging for your help, Trainer!
 Dev'essere successo qualcosa mentre ero fuori città per svolgere una mansione... Tutta l’oasi di <b>Aquariopoli</b> è rimasta come stregata da un Pokémon! Come se non bastasse, la Capopalestra è bloccata nella sua Palestra proprio a causa di quel maledetto...!
-Dev'essere successo qualcosa mentre ero fuori città per svolgere una mansione... Tutta l’oasi di <b>Aquariopoli</b> è rimasta come stregata da un Pokémon! Come se non bastasse, la Capopalestra è bloccata nella sua Palestra proprio a causa di quel maledetto...!
+Something must have happened while I was out of town<<n>>taking care of some business...<<n>>It seems that a Pokémon has cast a spell over the whole<<n>>oasis of <b>Ishtar City</b>!<<n>>And to make it even worse, the Gym Leader is stuck inside<<n>>her own Gym because of that...!
 Ti prego, solo tu puoi aiutare la città a liberarsi da questa piaga!
-Ti prego, solo tu puoi aiutare la città a liberarsi da questa piaga!
+Please, you're the only one who can help our city<<n>>get rid of this plague!
 <<[>>old<<]>>Vuoi aiutare questo Soldato?
-<<[>>old<<]>>Vuoi aiutare questo Soldato?
+<<[>>old<<]>>Would you like to help this Soldier?
 Grazie di cuore! Non perdiamo altro tempo. Ci dev'essere un modo per risolvere questa tragedia!
-Grazie di cuore! Non perdiamo altro tempo. Ci dev'essere un modo per risolvere questa tragedia!
+Thank you very much! Don't waste any time.<<n>>There must be a way to solve this tragedy!
 <<[>>old<<]>>Hippo...!
 <<[>>old<<]>>Hippo...!
 Sì
@@ -11793,33 +11799,41 @@ Giorgio
 Non voglio ma più sentir parlare di Bacche!
 Non voglio ma più sentir parlare di Bacche!
 Verbena
-Verbena
+Nuphar
 Oh, eccoti, \PN.
-Oh, eccoti, \PN.
+Ah, there you are, \PN.
+Ho voluto che venissi qui, lontano|a dai soldati, per parlare liberamente degli eventi di oggi. So per certo che sei al corrente dello <b>Xenoverse</b> e del fatto che quel Gengar provenga da lì. <b>Aster</b> ha fatto davvero centro ingaggiando un Allenatore abile come te. Ho ancora bisogno del tuo aiuto, \PN.
+I wanted you to come here, away from the soldiers,<<n>>to talk freely about today's events.<<n>>I know for a fact that you're aware of the existence of<<n>>the <b>Xenoverse</b> and that Gengar's coming from there.<<n>><b>Aster</b> really hit the nail on the head when he hired<<n>>a talented Trainer like you.<<n>>But I still need your help, \PN.
 Vedi, i Pokémon X hanno causato disagi non solo in città, famosa per le sue miracolose sorgenti, ma anche nel <b>Canyon Asteroide</b>, tappa essenziale per il commercio di quest'acqua al di fuori dell'oasi.
-Vedi, i Pokémon X hanno causato disagi non solo in città, famosa per le sue miracolose sorgenti, ma anche nel <b>Canyon Asteroide</b>, tappa essenziale per il commercio di quest'acqua al di fuori dell'oasi.
+You see, the X Pokémon have not only caused troubles<<n>>in the city, famous for its miraculous springs,<<n>>but also in the <b>Sunflare Canyon</b>, a vital step<<n>>in the water trade outside this oasis.
 Pare che negli ultimi giorni, la furia di un esemplare di specie X si sia abbattuta proprio sul canyon, bloccando il passaggio a visitatori e non. Neanch’io sono stata in grado di contrastarlo... Quell'essere, quando sembrava ad un passo dalla sconfitta, è rinato di nuova vita! È per questo che vorrei tu mi dessi una mano, \PN.
-Pare che negli ultimi giorni, la furia di un esemplare di specie X si sia abbattuta proprio sul canyon, bloccando il passaggio a visitatori e non. Neanch’io sono stata in grado di contrastarlo... Quell'essere, quando sembrava ad un passo dalla sconfitta, è rinato di nuova vita! È per questo che vorrei tu mi dessi una mano, \PN.
+Apparently, in the last few days, the fury of an X specimen has struck right on the canyon,<<n>>blocking the way to both visitors and locals.<<n>>Even I couldn't counter it...<<n>>When it seemed on the brink of defeat, that creature reborned to new life!<<n>>That's why I am asking for your help, \PN.
 Il commercio di acqua miracolosa non deve placarsi, ne va del benessere della regione! Allora, sei d'accordo?
-Il commercio di acqua miracolosa non deve placarsi, ne va del benessere della regione! Allora, sei d'accordo?
+The trade of this miracle water cannot stop, the welfare<<n>>of the region is on the balance!<<n>>So, are you in?
 Sei davvero di buon cuore!
-Sei davvero di buon cuore!
+You really have a good heart!
+Nonostante il coraggio, temo che quel Pokémon sia ancora troppo forte per il tuo attuale livello... Ma non temere!
+Despite your courage, I fear that Pokémon is still too strong for your current level... But don't panic!
 <b>Oleandro</b>, mio nonno, nonché <b>Cardinale</b> della regione, saprà tirar fuori il tuo potenziale latente, se ti recherai da lui, a <b>Cansiria</b>.
-<b>Oleandro</b>, mio nonno, nonché <b>Cardinale</b> della regione, saprà tirar fuori il tuo potenziale latente, se ti recherai da lui, a <b>Cansiria</b>.
+<b>Abraham</b>, my grandfather and <b>Cardinal</b> of the region, will help you tap into your hidden potential,<<n>>if you will join him in <b>Fortbelt Town</b>.
+Oltre ad essere uno dei più abili Allenatori di Eldiw, è anche un vecchio amico di tuo padre, sai? Il nonno, però, è un vero eremita...
+He's also an old friend of your father's, besides being<<n>>one of the most skilful Trainers in Eldiw, you know?<<n>>But gramps is a true hermit...
 L'unico modo per riuscire a rivolgergli la parola è comprarlo con un po' d'acqua miracolosa. Ecco, prendi!
-L'unico modo per riuscire a rivolgergli la parola è comprarlo con un po' d'acqua miracolosa. Ecco, prendi!
+The only way to get into a conversation with him is<<n>>to bribe him with some miracle water. Here, take it!
 Un po' grande come contenitore dici? Beh, il nonno è come dire... fuori misura.
-Un po' grande come contenitore dici? Beh, il nonno è come dire... fuori misura.
+That's a bit large for a container, you say?<<n>>Well, gramps is kinda, um, outsized.
 Penso di averti detto tutto ciò che c'era da sapere, \PN. Quest'avventura ti sarà utile per scoprire il reale funzionamento di ciò che porti all'orecchio... Il vecchio conosce Eldiw a fondo e saprà di certo trovare risposte ai tuoi tanti interrogativi.
-Penso di averti detto tutto ciò che c'era da sapere, \PN. Quest'avventura ti sarà utile per scoprire il reale funzionamento di ciò che porti all'orecchio... Il vecchio conosce Eldiw a fondo e saprà di certo trovare risposte ai tuoi tanti interrogativi.
+I think I told you everything you needed,<<n>>\PN.<<n>>This journey will help you figure out the real operation<<n>>of what you are wearing in your ear...<<n>>The oldie has a thorough knowledge of Eldiw and<<n>>I'm sure he will find answers to all your questions.
 Ah, che sbadata! Non ti ho detto come raggiungere Cansiria. Vediamo... Tornato|a nel <b>Cunicolo Gravità</b>, dirigiti verso nord.
-Ah, che sbadata! Non ti ho detto come raggiungere Cansiria. Vediamo...  Tornato|a nel <b>Cunicolo Gravità</b>, dirigiti verso nord.
+Ah, foolish me! I did not tell you how to get to Fortbelt.<<n>>So...<<n>>Go back to the <b>Gravity Tunnel</b> and head north.
+Lì un grande masso ti bloccherà la strada, ma non ti abbattere. Inserendo questo <b>Heraclium N</b> nel PokéWES, <b>Holo-Hercurcules</b> ti permetterà di smuoverlo!
+There you will find a huge boulder blocking your way,<<n>>but don't beat yourself up.<<n>>Insert this <b>Heraculeum H</b> inside your PokéWES,<<n>>and <b>Holo-Hercurcules</b> will move it for you! 
 Ora va', \PN, e torna vincente!
-Ora va', \PN, e torna vincente!
+Now go, \PN, and come back victorious!
 Lo capisco, torna quando ti sentirai pronto|a.
-Lo capisco, torna quando ti sentirai pronto|a.
+I totally understand, come back on your own time.
 Recati da mio nonno se vuoi diventare più forte. La regione ha bisogno di te!
-Recati da mio nonno se vuoi diventare più forte. La regione ha bisogno di te!
+Go and meet my grandfather if you want<<n>>to become stronger.<<n>>This region needs you!
 Recluta
 Recluta
 Per la regina Verbena!!
@@ -11837,15 +11851,15 @@ Madir
 Qui abbiamo il più vasto assortimento di erbe medicinali di tutta Eldiw!
 Qui abbiamo il più vasto assortimento di erbe medicinali di tutta Eldiw!
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+<<[>>old<<]>>Would you like to open this chest?
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
 Ho sbagliato ad accusarti, scusa!
-Ho sbagliato ad accusarti, scusa!
+I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
-In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+You were only having a look, after all...<<n>>but don't ever try that again!<<n>>Grab this, c'mon!
 <<[>>old<<]>>Meglio non rischiare...
-<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>It's too risky...
 <<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
 <<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
 Tullio
@@ -11855,33 +11869,37 @@ In mezzo alle mie deliziose foglie era finita questa. Ho provato ad assaggiarla,
 Ptù! Ptù! Bleah!
 Ptù! Ptù! Bleah!
 Ehi, ma cos'è successo?! Joele, sei tu?! Cos'è successo e chi è questo|a straniero|a?
-Ehi, ma cos'è successo?! Joele, sei tu?! Cos'è successo e chi è questo|a straniero|a?
+Hey, what happened?! Joel, is that you?!<<n>>What happened and who is this foreigner?
 Joele
-Joele
+Joel
 Miei cari compagni, lui||ei è \PN.
-Miei cari compagni, lui||ei è \PN.
+My dear comrades, his||er name is \PN.
+È solo grazie al suo aiuto se Aquariopoli è ora libera dalla più grande minaccia che abbia mai visto! Un Pokémon misterioso ha usato i suoi poteri psichici per stregare tutti voi... Vi costringeva a portargli sempre più cibo, ma grazie a \PN, tutto si è risolto per il meglio!
+It's only thanks to his||er help if Ishtar City is now free<<n>>from the biggest threat it has ever seen!<<n>>A mysterious Pokémon used its psychic powers<<n>>to bewitch all of you...<<n>>It forced you to bring in more and more food, but thanks<<n>>to \PN, everything worked out for the best!
 ???
 ???
 Oh, mio Joele. Vedo che abbiamo visite...
-Oh, mio Joele. Vedo che abbiamo visite...
+Oh, my Joel. I see we have visitors...
 Io sono <b>Verbena</b>, la sovrana di Aquariopoli. E tu, ragazzo|a, chi sei?
-Io sono <b>Verbena</b>, la sovrana di Aquariopoli. E tu, ragazzo|a, chi sei?
+I am <b>Verbena</b>, the sovereign of Ishtar City.<<n>>And you, kid, who are you?
 Vostra maestà! State bene allora! Ero così preoccupato per voi!
-Vostra maestà! State bene allora! Ero così preoccupato per voi!
+Your Majesty! You are well then! I was so worried for you!
 Ti ringrazio del pensiero, Joele. Allora, chi è questo|a giovane?
-Ti ringrazio del pensiero, Joele. Allora, chi è questo|a giovane?
+Thanks for caring, Joel. So, who is this youngster?
 Lui||ei è \PN, mia signora. È merito suo se la città è sana e salva!
-Lui||ei è \PN, mia signora. È merito suo se la città è sana e salva!
+His||er name is \PN, my lady. We must thank him||er<<n>>for making the city safe and sound.
 \PN, eh?
-\PN, eh?
+\PN, huh?
+Quel Gengar mi aveva bloccato ogni via di fuga dalla Palestra con un enorme cumulo di frutta... Per fortuna c'eri tu, pronto|a ad intervenire!
+That Gengar cut out every exit from my Gym with<<n>>a huge pile of fruit...<<n>>Good thing you were there, ready to take action!
 \PN, ora i tuoi Pokémon meritano un po' di sano riposo al Centro Pokémon. Più tardi proseguiremo il discorso con calma a nord del varco di Aquariopoli.
-\PN, ora i tuoi Pokémon meritano un po' di sano riposo al Centro Pokémon. Più tardi proseguiremo il discorso con calma a nord del varco di Aquariopoli.
+\PN, now your Pokémon deserve a little rest<<n>>at the Pokémon Center.<<n>>We will continue our discussion later, to the north of<<n>>Ishtar City's gate.
 Miei soldati, ora potete tornare a svolgere le vostre mansioni. Aiutate i cittadini a riprendersi dallo shock subito!
-Miei soldati, ora potete tornare a svolgere le vostre mansioni. Aiutate i cittadini a riprendersi dallo shock subito!
+My soldiers, you can now return to your duties.<<n>>Help our citizens recover from this shock!
 Sì, vostra maestà!
-Sì, vostra maestà!
+Aye, Your Majesty!
 \PN, ti ringrazio dal profondo del cuore per l'aiuto. Non è molto, ma ti prego di accettare questo.
-\PN, ti ringrazio dal profondo del cuore per l'aiuto. Non è molto, ma ti prego di accettare questo.
+\PN, I thank you from my heart for your help.<<n>>It's not much, but please accept this.
 Vinelo
 Vinelo
 Sono tornato da una spedizione nel Cunicolo Gravità. A ‘sto giro niente Fossili, solo questa Pepita!
@@ -11907,7 +11925,7 @@ Lina
 Un, due, tre... Starmie!!
 Un, due, tre... Starmie!!
 La regina voleva parlarti. Dovresti trovarla a nord del varco di Aquariopoli.
-La regina voleva parlarti. Dovresti trovarla a nord del varco di Aquariopoli.
+The Queen wanted to talk to you. You should find her<<n>>to the north of Ishtar City's gate.
 Bentornato|a, \PN. Allora, sei riuscito|a ad incontrare il nonno?
 Bentornato|a, \PN. Allora, sei riuscito|a ad incontrare il nonno?
 Come? Hai ottenuto un nuovo potere sul vulcano?!
@@ -12233,15 +12251,15 @@ Ehi, ma proprio da qui dovevi passare?! Mi hai fatto scappare il Coleottero che 
 Non riuscirò mai più ad averlo così a portata di retino...
 Non riuscirò mai più ad averlo così a portata di retino...
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+<<[>>old<<]>>Would you like to open this chest?
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
 Ho sbagliato ad accusarti, scusa!
-Ho sbagliato ad accusarti, scusa!
+I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
-In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+You were only having a look, after all...<<n>>but don't ever try that again!<<n>>Grab this, c'mon!
 <<[>>old<<]>>Meglio non rischiare...
-<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>It's too risky...
 Dario
 Dario
 Il sentiero è ancora lungo, ma penso proprio che una lotta possa motivarmi a dovere!
@@ -12476,15 +12494,15 @@ L’unico limite è il cielo.
 Kazam...!
 Kazam...!
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+<<[>>old<<]>>Would you like to open this chest?
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
 Ho sbagliato ad accusarti, scusa!
-Ho sbagliato ad accusarti, scusa!
+I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
-In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+You were only having a look, after all...<<n>>but don't ever try that again!<<n>>Grab this, c'mon!
 <<[>>old<<]>>Meglio non rischiare...
-<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>It's too risky...
 Neve
 Neve
 Credevi davvero di trovare uno strumento nel bel mezzo di un ponte? Ih ih!
@@ -12695,7 +12713,7 @@ No
 <<[>>old<<]>>Vuoi sbloccare l'accesso?
 <<[>>old<<]>>Vuoi sbloccare l'accesso?
 <<[>>old<<]>>La porta si è aperta.
-<<[>>old<<]>>La porta si è aperta.
+<<[>>old<<]>>The door opened.
 <<[>>old<<]>>Vuoi posizionare qui la Maschera Shyleon di colore rosso?
 <<[>>old<<]>>Vuoi posizionare qui la Maschera Shyleon di colore rosso?
 Tu
@@ -13440,7 +13458,7 @@ Isabelle
 Il <b>Circo Sirio</b> è famoso in tutta Eldiw per i suoi spettacoli circensi, ma è anche una Palestra itinerante. Pare che gli sfidanti stessi siano parte integrante dello show!
 Il <b>Circo Sirio</b> è famoso in tutta Eldiw per i suoi spettacoli circensi, ma è anche una Palestra itinerante. Pare che gli sfidanti stessi siano parte integrante dello show!
 <<[>>old<<]>>Qui c'è solo spazzatura.
-<<[>>old<<]>>Qui c'è solo spazzatura.
+<<[>>old<<]>>Just garbage here.
 Sierra
 Sierra
 Mio figlio è sempre dietro a quel giochino... Spero non finisca a giocare al casinò come mio marito!
@@ -13542,7 +13560,7 @@ Sì
 Yes
 [Map309]
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Jasmine
 Jasmine
 Sarei proprio curiosa di sapere com’è la vista dal faro di Sagittopoli.
@@ -13575,7 +13593,7 @@ Chicca
 Lucetta, smettila subito di saltare sul letto!
 Lucetta, smettila subito di saltare sul letto!
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 [Map311]
 Lorena
 Lorena
@@ -13586,11 +13604,11 @@ Ferdy
 So che potrà sembrarti una domanda bizzarra, ma hai mai provato a rovistare nei cestini dell'immondizia? Sai, non è raro che la gente getti via strumenti ancora perfettamente utilizzabili. Sarebbe un vero spreco lasciarli lì, non credi?
 So che potrà sembrarti una domanda bizzarra, ma hai mai provato a rovistare nei cestini dell'immondizia?  Sai, non è raro che la gente getti via strumenti ancora perfettamente utilizzabili. Sarebbe un vero spreco lasciarli lì, non credi?
 <<[>>old<<]>>Il cestino contiene qualcosa.
-<<[>>old<<]>>Il cestino contiene qualcosa.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
-<<[>>old<<]>>Il cestino è pieno di carta straccia.
+<<[>>old<<]>>The trash is full of wastepaper.
 [Map312]
 Lalla
 Lalla
@@ -13615,7 +13633,7 @@ Le diamo il benvenuto al Centro Commerciale di Sagittopoli.
 Carolina
 Carolina
 <<[>>old<<]>>Qui non c'è niente...
-<<[>>old<<]>>Qui non c'è niente...
+<<[>>old<<]>>There's nothing here...
 Gigio
 Gigio
 Sluuurp! Un Succo di Bacca bello fresco è proprio quello che mi ci voleva!
@@ -13657,7 +13675,7 @@ Ho cambiato idea.
 Ho cambiato idea.
 [Map314]
 <<[>>old<<]>>È un Nintendo Switch.
-<<[>>old<<]>>È un Nintendo Switch.
+<<[>>old<<]>>A brand new Nintendo Switch.
 Antonia
 Antonia
 No-Non sto... munch munch... non sto mangiando gli ultimi biscotti che avevamo in casa!
@@ -13667,7 +13685,7 @@ E va bene... munch munch... mi hai scoperto! Ma se mi prometti di non dirlo a ne
 Mi raccomando... munch munch... acqua in bocca.
 Mi raccomando... munch munch... acqua in bocca.
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
-<<[>>old<<]>>Il cestino è pieno di carta straccia.
+<<[>>old<<]>>The trash is full of wastepaper.
 Jacopo
 Jacopo
 Ma quanto ci mette Antonia?
@@ -13683,9 +13701,9 @@ Sono uno all’antica, è vero, ma non avrei certamente disdegnato un ascensore 
 Sono uno all’antica, è vero, ma non avrei certamente disdegnato un ascensore in questo palazzo...!
 [Map316]
 <<[>>old<<]>>Il cestino contiene qualcosa.
-<<[>>old<<]>>Il cestino contiene qualcosa.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Alan
 Alan
 Si dice che nelle <b>fogne di Sagittopoli</b> si nasconda un mostro spaventoso dall'aspetto orrendo... Bah! Solo un bambino potrebbe credere a una simile storiella.
@@ -13832,9 +13850,9 @@ Hansel
 Questa città ha un mucchio di scorci interessanti. Scatterò delle splendide foto acchiappa-like!
 Questa città ha un mucchio di scorci interessanti. Scatterò delle splendide foto acchiappa-like!
 <<[>>old<<]>>Qui c'è solo spazzatura.
-<<[>>old<<]>>Qui c'è solo spazzatura.
+<<[>>old<<]>>Just garbage here.
 <<[>>old<<]>>Il testo è ormai illeggibile...
-<<[>>old<<]>>Il testo è ormai illeggibile...
+<<[>>old<<]>>It's unreadable...
 <<[>>old<<]>>Palestra itinerante Circo Sirio Capopalestra: <b>Hennè</b> <i>''Pieno controllo delle fiamme in un colpo di frusta!''</i> Allenatori Certificati: 0
 <<[>>old<<]>>Palestra itinerante Circo Sirio Capopalestra: <b>Hennè</b> <i>''Pieno controllo delle fiamme in un colpo di frusta!''</i> Allenatori Certificati: 0
 <<[>>old<<]>>Palestra itinerante Circo Sirio Capopalestra: <b>Hennè</b> <i>''Pieno controllo delle fiamme in un colpo di frusta!''</i> Allenatori Certificati: \PN
@@ -13913,7 +13931,7 @@ Certo che i condomini potrebbero fare a meno di sporcare in giro... Sono sicuro 
 Certo che i condomini potrebbero fare a meno di sporcare in giro... Sono sicuro che anche le fogne siano più pulite di questi pianerottoli!
 [Map320]
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
-<<[>>old<<]>>Il cestino è pieno di carta straccia.
+<<[>>old<<]>>The trash is full of wastepaper.
 Bardo
 Bardo
 Sto cercando un <b>Hystearic</b>... ne avresti mica uno da scambiare col mio <b>Mantine</b>?
@@ -13942,7 +13960,7 @@ Alessandro
 Non sono un grande amante del circo, ma per la mia piccolina questo ed altro.
 Non sono un grande amante del circo, ma per la mia piccolina questo ed altro.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 [Map322]
 Paolo
 Paolo
@@ -13957,7 +13975,7 @@ Ginevro
 Questo documentario sui Nidi Pokémon è davvero interessante!
 Questo documentario sui Nidi Pokémon è davvero interessante!
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
-<<[>>old<<]>>Il cestino è pieno di carta straccia.
+<<[>>old<<]>>The trash is full of wastepaper.
 Aldo
 Aldo
 Questo paté di Bacche è qualcosa di eccezionale! Dovresti davvero provarlo, sai?
@@ -13975,7 +13993,7 @@ Quei libri erano così impolverati che ho pensato bene di darci una ripulita... 
 Spero tu non sia allergico|a alla polvere.
 Spero tu non sia allergico|a alla polvere.
 <<[>>old<<]>>Non c'è niente...
-<<[>>old<<]>>Non c'è niente...
+<<[>>old<<]>>There's nothing here...
 Sì
 Yes
 No
@@ -13986,7 +14004,7 @@ Cartesia
 Mio marito è così ossessionato dai cartelli che ormai tutti lo conoscono come il <b>Fanatico dei Cartelli</b>.
 Mio marito è così ossessionato dai cartelli che ormai tutti lo conoscono come il <b>Fanatico dei Cartelli</b>.
 <<[>>old<<]>>È un Nintendo Switch. All'interno c'è un gioco: ''Doppiosmash Bros.''!
-<<[>>old<<]>>È un Nintendo Switch. All'interno c'è un gioco: ''Doppiosmash Bros.''!
+<<[>>old<<]>>It's a Nintendo Switch. There's a game in the slot: ''Doppiosmash Bros.''!
 Valerio
 Valerio
 Beccati questo smash finale del mio Scovile!
@@ -13996,7 +14014,7 @@ Patrizio
 Dobbiamo schivare quest’attacco, Harrowk!
 Dobbiamo schivare quest’attacco, Harrowk!
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Fanatico dei Cartelli
 Fanatico dei Cartelli
 Cartelli piccoli!
@@ -14304,7 +14322,7 @@ Anita
 Tutti i Capipalestra della regione hanno un'occupazione alternativa, lo sapevi?
 Tutti i Capipalestra della regione hanno un'occupazione alternativa, lo sapevi?
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 [Map332]
 Annabella
 Annabella
@@ -14317,10 +14335,10 @@ Kimberly
 Da quando hanno deciso di abolire la Lega Pokémon, le Palestre hanno assunto tutt'altro significato ad Eldiw.
 Da quando hanno deciso di abolire la Lega Pokémon, le Palestre hanno assunto tutt'altro significato ad Eldiw.
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
-<<[>>old<<]>>Il cestino è pieno di carta straccia.
+<<[>>old<<]>>The trash is full of wastepaper.
 [Map333]
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
-<<[>>old<<]>>Il cestino è pieno di carta straccia.
+<<[>>old<<]>>The trash is full of wastepaper.
 Ludmilla
 Ludmilla
 Dal punto di vista istituzionale, Eldiw è differente dalle altre regioni del mondo Pokémon. Le cause sarebbero da ricercarsi nella sua storia lunga e travagliata.
@@ -14334,7 +14352,7 @@ Molly
 Questa volta salviamo il gioco, però. Non voglio che il Sig. Drilbur si arrabbi di nuovo!
 Questa volta salviamo il gioco, però. Non voglio che il Sig. Drilbur si arrabbi di nuovo!
 <<[>>old<<]>>È un Nintendo Switch. All'interno c'è un gioco: ''Pokémon Crossing''!
-<<[>>old<<]>>È un Nintendo Switch. All'interno c'è un gioco: ''Pokémon Crossing''!
+<<[>>old<<]>>It's a Nintendo Switch. There's a game in the slot: ''Pokémon Crossing''!
 Holly
 Holly
 Evvai, ho preso un Joltik col retino!
@@ -14559,7 +14577,7 @@ Siria
 Oh, quindi il Capopalestra di <b>Lavandonia</b> ha sostituito quello di Aranciopoli!
 Oh, quindi il Capopalestra di <b>Lavandonia</b> ha sostituito quello di Aranciopoli!
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 <<[>>old<<]>>È un Nintendo Switch! Spopola anche qui a Kanto?
 <<[>>old<<]>>È un Nintendo Switch! Spopola anche qui a Kanto?
 Tiziana
@@ -14655,9 +14673,9 @@ Meg
 Esiste un fenomeno che permette ai Pokémon di trascendere i limiti dell’evoluzione. Il suo nome è <b>megaevoluzione</b>!
 Esiste un fenomeno che permette ai Pokémon di trascendere i limiti dell’evoluzione. Il suo nome è <b>megaevoluzione</b>!
 <<[>>old<<]>>Il cestino contiene qualcosa.
-<<[>>old<<]>>Il cestino contiene qualcosa.
+<<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Regio
 Regio
 Ho sentito dire che nelle altre regioni i Pokémon di Kanto possono assumere forme diverse... Sarà vero?
@@ -14693,7 +14711,7 @@ Sta’ tranquillo|a, darò al tuo Dusmee tutte le attenzioni che merita! È cos�
 Sta’ tranquillo|a, darò al tuo Dusmee tutte le attenzioni che merita! È così carino!!
 [Map344]
 <<[>>old<<]>>La porta sembra chiusa a chiave.
-<<[>>old<<]>>La porta sembra chiusa a chiave.
+<<[>>old<<]>>The door is locked.
 Presidente
 Presidente
 Benvenuto|a nel <b>Pokémon Fan Club</b>, il paradiso per chi, come me, ama i Pokémon!
@@ -15077,7 +15095,7 @@ C’è chi nasce per star seduto sulla riva e chi, come me, nasce per nuotare ne
 ... e c’è chi nasce col talento per le lotte Pokémon!
 [Map352]
 <<[>>old<<]>>Il cestino è vuoto.
-<<[>>old<<]>>Il cestino è vuoto.
+<<[>>old<<]>>The trash is empty.
 Fabrizio
 Fabrizio
 Ho sentito dire che il Capopalestra non vuole che nessuno si avvicini alla sua Palestra. Dev’essere un vero eremita!
@@ -15207,7 +15225,7 @@ Steph
 Allora, vediamo un po'... Poké Ball prese... Repellenti presi... ora mancano solo i rimedi!
 Allora, vediamo un po'... Poké Ball prese... Repellenti presi... ora mancano solo i rimedi!
 <<[>>old<<]>>Qui non c'è niente...
-<<[>>old<<]>>Qui non c'è niente...
+<<[>>old<<]>>There's nothing here...
 Holly
 Holly
 Una vasta gamma di Poké Ball in vendita solo qui, al Centro Commerciale di Sagittopoli!
@@ -15246,7 +15264,7 @@ Frod
 Se vuoi acquistare strumenti per potenziare i tuoi Pokémon, sei nel posto giusto!
 Se vuoi acquistare strumenti per potenziare i tuoi Pokémon, sei nel posto giusto!
 <<[>>old<<]>>Qui non c'è niente...
-<<[>>old<<]>>Qui non c'è niente...
+<<[>>old<<]>>There's nothing here...
 Ken
 Ken
 Questi prodotti dovrebbero essere integrati a un buon allenamento, non sostituirlo del tutto, sia chiaro!
@@ -15312,7 +15330,7 @@ Piano 4
 Piano 4
 [Map363]
 <<[>>old<<]>>Qui non c'è niente...
-<<[>>old<<]>>Qui non c'è niente...
+<<[>>old<<]>>There's nothing here...
 Croco
 Croco
 Ciao, giovane! Vuoi dare un'occhiata ai modelli di Pokéboard?
@@ -18044,17 +18062,17 @@ No
 No
 [Map473]
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
-<<[>>old<<]>>Vuoi provare ad aprire la cassa?
+<<[>>old<<]>>Would you like to open this chest?
 Xiliano
 Xiliano
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
 Ho sbagliato ad accusarti, scusa!
-Ho sbagliato ad accusarti, scusa!
+I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
-In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
+You were only having a look, after all...<<n>>but don't ever try that again!<<n>>Grab this, c'mon!
 <<[>>old<<]>>Meglio non rischiare...
-<<[>>old<<]>>Meglio non rischiare...
+<<[>>old<<]>>It's too risky...
 Solo da Xiliano, articoli mai visti a prezzi stracciati!!
 Solo da Xiliano, articoli mai visti a prezzi stracciati!!
 Mara
@@ -20132,7 +20150,7 @@ No
 No
 [Map557]
 <<[>>old<<]>>La porta è chiusa a chiave.
-<<[>>old<<]>>La porta è chiusa a chiave.
+<<[>>old<<]>>The door is locked.
 [Map558]
 <<[>>old<<]>>Cos’è stato?
 <<[>>old<<]>>Cos’è stato?
