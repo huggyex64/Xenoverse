@@ -398,7 +398,7 @@ def pbDayCareGenerateEgg
   end
 =end
 	if ($PokemonBag.pbQuantity(:SHINYCHARM)>0 ? rand(500) : rand(1000))==50
-		egg.personalID=4
+		egg.personalID=rand(65536)|(rand(65536)<<16)
 		egg.makeShiny
 	end
   # Inheriting ability from the mother
