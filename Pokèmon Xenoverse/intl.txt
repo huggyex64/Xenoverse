@@ -784,17 +784,23 @@ Hmm... It doesn't seem like \v[3] has any moves<<n>>that it can remember...
 Quale mossa vuoi far ricordare a \v[3]?
 Which move should \v[3] remember?
 Gino
-Gino
+Jay
 Hai già provato a sfidare la #Capopalestra? Io sì e non è andata per niente bene. Maledette prove!
-Hai già provato a sfidare la #Capopalestra? Io sì e non è andata per niente bene. Maledette prove!
+Have you already challenged the #gymleader? I have,<<n>>but I failed miserably! Damned trials!
 Mamma mi ha regalato queste 10 Poké Ball per aver fatto il bravo a scuola, ma dev'essersi sbagliata a darmi questa strana Ball bianca. Prendila pure tu.
-Mamma mi ha regalato queste 10 Poké Ball per aver fatto il bravo a scuola, ma dev'essersi sbagliata a darmi questa strana Ball bianca. Prendila pure tu.
+Mommy's given me these 10 Poké Balls for doing well in school, but she's thrown in this weird white Ball too...<<n>>You can have it if you want.
 Chissà se mi regalerà mai una Master Ball...
-Chissà se mi regalerà mai una Master Ball...
+Who knows, maybe one day she'll give me a Master Ball...
+Mariella
+Brooklyn
 Sapevi che esistono ben quattro forme di <b>Bremand</b>?
-Sapevi che esistono ben quattro forme di <b>Bremand</b>?
+Did you know? <b>Bremand</b> has four different forms!
+Eppure, non si direbbe mai siano lo stesso Pokémon... sono tutti così diversi!
+I wonder how it is possible for them to be the same<<n>>Pokémon... they look so different!
+Evolvia
+Evonne
 Vorrei tanto che il mio <b>Eevee</b> si evolvesse in <b>Sylveon</b>, ma pare che, per farlo, debba imparare una specifica mossa di tipo Folletto...
-Vorrei tanto che il mio <b>Eevee</b> si evolvesse in <b>Sylveon</b>, ma pare che, per farlo, debba imparare una specifica mossa di tipo Folletto...
+I would love to evolve my <b>Eevee</b> into <b>Sylveon</b>, but apparently it won’t evolve unless somebody<<n>>teaches it a very specific Fairy-type move...
 Si
 Yes
 No
@@ -3267,10 +3273,14 @@ No
 [Map62]
 Spaaark...!
 Spaaark...!
-Qualcuno mi aiuti! Uno stormo di Sparkowl ha invaso la mia casa!!
-Qualcuno mi aiuti! Uno stormo di Sparkowl ha invaso la mia casa!!
-Tieni, prendi questo oggetto per aiutarmi!
-Tieni, prendi questo oggetto per aiutarmi!
+Anna
+Cora
+Volevo solo catturare uno Sparkowl, ma il suo intero stormo ha deciso di attaccarmi!
+I just wanted to catch a Sparkowl, but its entire flock<<n>>attacked me!
+Per favore, provaci tu!
+Please, help me!
+Dove ho sbagliato?!
+Where did I go wrong?!
 [Map63]
 <<[>>old<<]>>È un Nintendo Switch nuovo di zecca!
 <<[>>old<<]>>A brand new Nintendo Switch!
@@ -3811,15 +3821,19 @@ The alleys of this city remind me of my youth.<<n>>Oh, I miss those days!
 Margherita
 Elizabeth
 Vanessa
-Vanessa
+Isabelle
 Prima di lasciare il regno, dovresti portare i tuoi ossequi alla principessa.
-Before leaving the kingdom, you should visit the princess and pay your respect.
+Before leaving the kingdom, you should visit the princess<<n>>and pay your respect.
 Lucia
 Lucy
 Sciò! Sciò! Maledetto Sparkowl!!
 Go away! You damn Sparkowl!!
+Ilaria
+Hilda
 Quando ero giovane io, non si conoscevano tutti i Pokémon che si conoscono al giorno d’oggi. Anche i tempi si evolvono, figlio|a mio|a!
 When I was young, there weren't as many known<<n>>Pokémon as we know today.<<n>>Time evolves too, my child!
+Virna
+Lydia
 Non eri mai stato|a a Virgopoli prima d'ora, vero? Ecco, accetta un regalo di benvenuto.
 You have never been in Milkiway City, have you?<<n>>Here, accept this welcome gift.
 Il Centro Pokémon del regno ha tutto un altro aspetto al confronto coi soliti. Entra a dare un’occhiata, su!
@@ -3829,7 +3843,7 @@ This kingdom's Pokémon Center has a whole other look compared to the others. En
 Bartolomeo
 Burt
 Ho sentito che le acque del castello sono infestate dagli Honchen, ma non riesco a tirar su nulla...
-I've heard this castle's water is infested by Honchen, but I can't manage to reel in anything...
+I've heard this castle's water is infested by Honchen,<<n>>but I can't manage to reel in anything...
 <<[>>old<<]>>Sta suonando il flauto. Non può parlare con te.
 <<[>>old<<]>>She's playing the flute. She can't talk to you.
 La principessa <b>Mimosa</b> ha tutti i giocattoli più belli. Vorrei tanto giocare con lei!
@@ -3841,9 +3855,9 @@ Oliver
 Orsù, codesto è il Regno di Virgopoli!
 Cometh on, this the Milkiway City's kingdom!
 Rita
-Lily
+Annabelle
 In questi giardini reali la principessa è solita recarsi per giocare coi Pokémon selvatici. Io sono qui per assicurarmi che non si faccia del male.
-In these royal gardens the princess comes and plays with wild Pokémon.<<n>>I am here to ensure that she does not get hurt.
+In these royal gardens the princess comes and plays<<n>>with wild Pokémon.<<n>>I am here to ensure that she does not get hurt.
 <<[>>old<<]>>Sta suonando la chitarra. Non può parlare con te.
 <<[>>old<<]>>She's playing the guitar. She can't talk to you.
 <<[>>old<<]>>Palestra Zucchero Capopalestra: <b>Mimosa</b> <i>''Giovane dolcezza alla guida di un antico regno.''</i> Allenatori Certificati: 0
@@ -4060,52 +4074,78 @@ Heal Pokémon
 Usa Box
 Use Box
 [Map81]
+Valerio
+Connor
 Sei il||la primo|a a farmi visita da quando mi sono trasferito. Ti dono volentieri questo pensierino!
-Sei il||la primo|a a farmi visita da quando mi sono trasferito. Ti dono volentieri questo pensierino!
+You are the first person who has visited me since<<n>>I moved here. Take this as a gift!
 Nella mia regione è una vera leccornia, sai?
-Nella mia regione è una vera leccornia, sai?
+That's a speciality from my homeland!
 [Map82]
+Fernandino
+Charlie
 Papino mi aveva promesso che avrei avuto un <b>Chikorita</b> del <b>Bosco Stellafilante</b> tutto per me...
-Papino mi aveva promesso che avrei avuto un <b>Chikorita</b> del <b>Bosco Stellafilante</b> tutto per me...
+Dadda promised to get me a <b>Chikorita</b> from<<n>>the <b>String Forest</b>...
+Franceschino
+Collin
 Negli scatoloni c’è tutta la mia collezione di statuette di <b>Masgot</b>.
-Negli scatoloni c’è tutta la mia collezione di statuette di <b>Masgot</b>.
+In these boxes I keep my entire <b>Masgot</b> figures collection.
+Veronica
+Mackenzie
 Mio marito è andato in cerca di avventure, ma non ha capito che la vera sfida è crescere tre figli!
-Mio marito è andato in cerca di avventure, ma non ha capito che la vera sfida è crescere tre figli!
+My husband left looking for adventure, he doesn't<<n>>realize the real struggle is raising three children!
+Caterina
+Grace
 Spero tanto che papi torni presto... magari con una bella Pokébambola per me!
-Spero tanto che papi torni presto... magari con una bella Pokébambola per me!
+I hope dadda will come back soon...<<n>>maybe with a Poké Doll for me!
 [Map83]
+Alessio
+Gordon
 Un bravo chef deve saper combinare velocità e tecnica. Assaggia questo e dimmi che te ne pare!
-Un bravo chef deve saper combinare velocità e tecnica. Assaggia questo e dimmi che te ne pare!
+A good chef must know how to mix speed and technique.<<n>>Taste this and tell me what you think!
 Spero ti piaccia la mia personale reinterpretazione gourmet del Risoctillery!
-Spero ti piaccia la mia personale reinterpretazione gourmet del Risoctillery!
+I hope you like my gourmet version of the Octo Risotto!
+Teresa
+Josephine
 Ohibò, questa storia dello chef comincia a sfuggirgli di mano...
-Ohibò, questa storia dello chef comincia a sfuggirgli di mano...
+Golly, he's getting this chef story out of end...
 [Map84]
+Evolando
+Evoland
 Solo l’<b>Excalibould</b> c’avrà meritato di cingere ‘l capo suo con una <b>Roccia di Re</b> potrà evolvere.
-Solo l’<b>Excalibould</b> c’avrà meritato di cingere ‘l capo suo con una <b>Roccia di Re</b> potrà evolvere.
+Onely the <b>Excalibould</b> deserving to resten<<n>>the <b>King's Rock</b> on its hed shall evolve.
 La principessa mi ha levato dal mio incarico pe 'l sol aver mangiato un dei frutti del suo arbusto.
-La principessa mi ha levato dal mio incarico pe 'l sol aver mangiato un dei frutti del suo arbusto.
+The Princess relievedeth me of duty for the mere fact<<n>>I consumede one of the frutes from her tree.
+Magari dandole in dono un di quelli che chiamano souvenir, potrò espiare il mio peccato...
+Haply gifting her sum sort of souvenir, I couldst atone<<n>>myn own sinne...
 Baldo|a giovane! Quel ch’avete con voi è un <b>Idolo</b> <b>d’Erba</b>, dico il vero?
-Baldo|a giovane! Quel ch’avete con voi è un <b>Idolo</b> <b>d’Erba</b>, dico il vero?
+Yong blade! What thee hath ther is the <b>Idol</b> <b>of Grass</b>, isn't it?
+Il sarebbe perfetto da consegnare in dono alla principessa c’ho tanto deluso... Per gentil cortesia, a cedermi siffatta ricchezza voi sareste ben disposto|a?
+It wouldst be the perfit yift for the Princess<<n>>I failede...<<n>>Prithee, couldst thee giveth me yond proper of youre?
 Non indugiate oltremodo, messere|||||||madonna.
-Non indugiate oltremodo, messere|||||||madonna.
+Lenger nay more, m'lord|||ady.
+Su ‘l mio onore di Paladino vi faccio promessa di non lasciar vacanti le vostre mani. Prendete.
+Upon my own honour as a Paladin I plege thy hands<<n>>shall not be exsufflicate. Takest this.
 Del Regno di Virgopoli, quello è ciò che chiaman souvenir.
-Del Regno di Virgopoli, quello è ciò che chiaman souvenir.
+Her in Milkiway City's kingdom, we callen it a souvenir.
 Potrò espiar le colpe di cui mi son macchiato al cospetto della principessa.
-Potrò espiar le colpe di cui mi son macchiato al cospetto della principessa.
+I magen atone myn own guilt in the sight of the Princess.
 <<[>>old<<]>>Il cestino contiene qualcosa.
 <<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>The trash is empty.
 [Map85]
+Vincenzo
+Desmond
 Un tempo, questo reame era governato dal baldo re <b>Acacia</b>... ma sua figlia Mimosa è d’altra pasta!
-Un tempo, questo reame era governato dal baldo re <b>Acacia</b>... ma sua figlia Mimosa è d’altra pasta!
+This realm was ruled by the brave King <b>Acacia</b><<n>>once... too bad his daughter Vanilla is not like him!
+Clara
+Hazel
 Ho trovato questo affare nel mio dolcetto... Può tornarti utile?
-Ho trovato questo affare nel mio dolcetto... Può tornarti utile?
+I found this thing in my cake... Maybe you want it!
 Lo conserverò comunque. Non si sa mai che possa servirti prima o poi!
-Lo conserverò comunque. Non si sa mai che possa servirti prima o poi!
+I'll keep it anyway. Someday you could need it!
 Ma chi ce l’ha messo dentro poi?!
-Ma chi ce l’ha messo dentro poi?!
+I wonder who put that in there!
 Sì
 Yes
 No
@@ -4780,7 +4820,7 @@ Sissy
 La mia amica è davvero ossessionata dai cruciverba! Guarda, ne sta facendo uno anche adesso!
 My friend is obsessed with crossword puzzles!<<n>>Look, she's solving one right now!
 Eveline
-Evely
+Evelyn
 ''Pokémon fatto di carta che evolve imparando <b>Cartaforbice</b>''? Oh, questa è facile... <b>Chigami</b>!
 ''A Pokémon made of paper that evolves<<n>>learning <b>Paper Cut</b>''?<<n>>That's easy... it's <b>Chigami</b>!
 Si
@@ -4793,17 +4833,21 @@ Yes
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>The trash is empty.
 Fataldo
-Fataldo
+Fae
 Insegnerò la mia mossa speciale solo a chi avrà ottenuto la <b>Medaglia Zucchero</b>.
-Insegnerò la mia mossa speciale solo a chi avrà ottenuto la <b>Medaglia Zucchero</b>.
+I'll be teaching my very special move only those<<n>>holding the <b>Sugar Badge.</b>.
 Ma quella è proprio la Medaglia Zucchero!
-Ma quella è proprio la Medaglia Zucchero!
+Hey, that's the Sugar Badge!
+Allora, vuoi che insegni <b>Fatapatto</b> ad uno dei tuoi Pokémon?
+So, you want me to teach <b>Fairy Pledge</b><<n>>to one of your Pokémon?
 Ora il tuo Pokémon farà faville!
-Ora il tuo Pokémon farà faville!
+Your Pokémon is gonna shine like stars from now on!
 Torna a trovarmi se vuoi che uno dei tuoi Pokémon impari questa mossa.
-Torna a trovarmi se vuoi che uno dei tuoi Pokémon impari questa mossa.
+Come back if any of your Pokémon needs to learn<<n>>this move.
+Isabella
+Leslie
 Solo pochi Pokémon possono imparare <b>Fatapatto</b>... Eevee è uno di questi!
-Solo pochi Pokémon possono imparare <b>Fatapatto</b>... Eevee è uno di questi!
+Only a few Pokémon can learn <b>Fairy Pledge</b>...<<n>>Eevee is one of them!
 Sì
 Yes
 No
@@ -4813,10 +4857,12 @@ No
 <<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>The trash is empty.
+Ermal
+Elmer
 Volevo insegnare questa MT al mio Hikiloo, ma pare non possa impararla. Prendila pure tu.
-Volevo insegnare questa MT al mio Hikiloo, ma pare non possa impararla. Prendila pure tu.
+I wanted to teach this TM to my Hikiloo, but it looks like<<n>>it can learn it. You should take it.
 Il mio Pokémon non fa che dormire...
-Il mio Pokémon non fa che dormire...
+My Pokémon is only good at sleeping...
 Hikiloo
 Hikiloo
 Kiloo...!
@@ -4935,7 +4981,7 @@ I-I'll stop, Princess...
 Armando.
 Armand.
 Nella Prova dell'Acqua è richiesta una dimostrazione di abilità nella pesca tramite il recupero di un oggetto, situato sul fondo del lago.
-The Trial of Water requires you to demonstrate your fishing skills recovering an item on the lake floor.
+The Trial of Water requires you to demonstrate your fishing skills retrieving an item on the lake floor.
 Attenzione: questo lago è infestato dagli <b>Honchen</b>. Gli Honchen abboccando all'Amo, strappano via la lenza.
 Caution: this lake is infested with <b>Honchen</b>. When Honchen take the bait, they rip off your fishing line.
 Gnam!! Armando, basta chiacchiere! Che la Prova dell'Acqua abbia inizio!!
@@ -4951,7 +4997,7 @@ Once again, this madame passed the trial...!
 E ora cosa si fa, Armando?
 So, what's now, Armand?
 Il||La pretendente si sottoporrà alla Prova della Foglia, al termine della quale fronteggerà voi, principessa. È consigliato dunque che si prepari alla lotta.
-The pretendant will submit to the Trial of Grass,<<n>>after which you will face him|||her, Princess.<<n>>I recommend you get ready for the battle.
+The pretender will submit to the Trial of Grass,<<n>>after which you will face him|||her, Princess.<<n>>I recommend you get ready for the battle.
 Uffa... E va bene, vorrà dire che mi preparerò!
 Phooey... All right, I guess I'll do it!
 La terza ed ultima prova avrà luogo a breve.
@@ -10764,35 +10810,35 @@ Armand
 Le procedure ora impongono una lotta contro la principessa.
 The procedures shall require a battle with the Princess now.
 Sei riuscito|a a vincere la principessa. Farai strada come Allenatore di Pokémon.
-You could defeat the Princess. You can go far<<n>>as a Pokémon Trainer
+You could defeat the Princess. You can go far<<n>>as a Pokémon Trainer.
 Prego, utilizza questa pedana per tornare immediatamente all'ingresso della Palestra.
 Here, use this platform to immediately return<<n>>to the entrance of the Gym.
 <<[>>old<<]>>Al momento parrebbe inutilizzabile...
 <<[>>old<<]>>It seems useless at the moment...
 Orlando
-Orlando
+Roland
 Con amore e furia combatto i duelli miei!
-Con amore e furia combatto i duelli miei!
+With love and rage I fight these duels of myne!
 Avete combattuto con onore.
-Avete combattuto con onore.
+You battledest with honour.
 Prova della Foglia superata.
 Passed the Trial of Grass.
-Prima di poter affrontare la principessa, è tuttavia prevista è una lotta col sottoscritto. Or dunque procediamo con quanto appena menzionato. 
+Prima di poter affrontare la principessa, è tuttavia prevista una lotta col sottoscritto. Or dunque procediamo con quanto appena menzionato. 
 However, a battle with yours truly is scheduled before facing the Princess.<<n>>Let's proceed to the above, then.
 Uhm. Interessante stile di lotta.
 Hum. Really impressive.
 Uhm. Interessante stile di lotta. Ora ti attende solo la sfida con la principessa. Per di qua.
 Hum. Really impressive. The battle with the Princess awaits you now. Come this way.
 Fierando
-Fierando
+Fierabras
 Paladino è chi per un superior fine percorre 'l tremendo cammino del sacrificio.
-Paladino è chi per un superior fine percorre 'l tremendo cammino del sacrificio.
+A Paladin is sum one who, for the greater good, treadeth the path of sacrifice.
 Rinaldo
-Rinaldo
+Renaud
 Smeeee...!
 Smeeee...!
 Preparatevi a combattere e che voglia 'l fato assistere il migliore!
-Preparatevi a combattere e che voglia 'l fato assistere il migliore!
+Get redy to fighten and may fate ben alongside the best of us!
 Mimosa
 Vanilla
 Quindi avresti superato tutte le prove... Non credere di riuscire a battere me, la principessa!
@@ -10800,11 +10846,11 @@ So you passed all the trials... But don't you think you can beat me, I'm the Pri
 Prima di iniziare però, consegnami la Coppa d’oro e il Cucchiaio d'oro... Gnam, ora posso finalmente papparmi il mio bel gelato!
 Before we get started, hand me over the Golden Cup<<n>>and the Golden Spoon...<<n>>Yum, I can finally gobble up my ice cream now!
 Deliziosooo!! Con la pancia piena di dolci si combatte meglio, sai? I miei Pokémon dolci e carini ti daranno una bella scarica da zuccheri! Preparati a perdere con Mimosa, la principessa del Regno di Virgopoli!
-Deliciooous!! You fight better with a belly full of sweets,<<n>>you know?<<n>>My sweet and cute Pokémon will give you a real sugar rush!<<n>>Prepare to lose to Princess Vanilla of<<n>>Milkiway City's kingdom!
+Deliciooous!! You fight better with a belly full of sweets,<<n>>you know?<<n>>My sweet and cute Pokémon will give you a real<<n>>sugar rush!<<n>>Prepare to lose to Princess Vanilla of<<n>>Milkiway City's kingdom!
 Ma... io sono la principessa!
 But- I'm the Princess!
 Ho proprio perso... questa volta però non frignerò. Sono una principessa e una Capopalestra! Non posso permettermi comportamenti da bambina viziata se voglio ricoprire questi due ruoli! E ho capito tutto questo grazie alla grinta e alla passione con cui lotti, \PN.
-I just lost... but no boohooing this time!<<n>>I'm a Princess and a Gym Leader as well!<<n>>I cannot allow myself to act like a spoiled child, if I want to fulfill these two roles!<<n>>I realized all this thanks to the determination and<<n>>the passion in your fighting style, \PN.
+I just lost... but no boohooing this time!<<n>>I'm a Princess and a Gym Leader as well!<<n>>I cannot allow myself to act like a spoiled child,<<n>>if I want to fulfill these two roles!<<n>>I realized all this thanks to the determination and<<n>>the passion in your fighting style, \PN.
 Ho ancora tanto da imparare come Capopalestra, ma sono sicura che Armando mi aiuterà. Grazie per avermi aperto gli occhi, \PN! Inizierò a rispettare i miei doveri così!
 I still have a lot to learn as a Gym Leader, but<<n>>I'm sure Armand will help me.<<n>>Thanks for opening my eyes, \PN!<<n>>I will start fulfilling my duties with this!
 È <b>Magibrillio</b>, una mossa che infligge danni ai bersagli emanando una luce potentissima! Insegnala ai tuoi Pokémon, ne varrà la pena!
@@ -10815,8 +10861,8 @@ Con questa potrai proseguire la tua avventura da Allenatore nella regione di Eld
 This will allow you to continue your Trainer adventure<<n>>in the Eldiw region!<<n>>Be sure to come and let me taste all the sweet delicacies you will find along the way. Okay?
 D'ora in poi darò il massimo per diventare una brava Capopalestra... costi quel che costi!
 I will do my best to mature as a Gym Leader from now on... whatever it takes!
-<<[>>old<<]>> Sei sicuro di voler abbandonare la prova?
-<<[>>old<<]>>Are you sure you want to quit the trial? 
+<<[>>old<<]>>Vuoi davvero abbandonare la prova?
+<<[>>old<<]>>Would you like to quit the trial? 
 Si
 Yes
 No
@@ -11638,7 +11684,7 @@ Modalità di gioco
 Joele
 Joel
 \PN, quei due soldati stanno facendo la guardia al fautore di tutto questo putiferio!
-\PN, those two soldiers are guarding the perpetrator of all this rumpus!
+\PN, those two soldiers are guarding the perpetrator<<n>>of all this rumpus!
 Ho già provato ad affrontarli, ma sono troppo forti... Dev'essere quel Pokémon ad amplificarne i poteri!
 I've already tried to face them, but they're too strong...<<n>>That Pokémon must be amplifying their powers!
 Ha usato i suoi poteri psichici per costringere i cittadini a consegnargli tutte le scorte alimentari dell'oasi... Dobbiamo agire in fretta, forza!
@@ -11753,7 +11799,7 @@ Solo da Giuliano, articoli mai visti a prezzi stracciati!!
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>>Canyon Asteroide ad est
-<<[>>old<<]>>Canyon Asteroide ad est
+<<[>>old<<]>>East: Sunflare Canyon
 Nadia
 Nadia
 Solo qui puoi trovare i migliori Aromi della regione!
@@ -11787,7 +11833,7 @@ Ora basta solo prendere un po’ di coraggio.
 Hippoo...!
 Hippoo...!
 Abraham
-Abraham
+Atum
 Hai dimostrato coraggio nella difesa la nostra città, perciò meriti tu di custodire quest’oggetto.
 Hai dimostrato coraggio nella difesa la nostra città, perciò meriti tu di custodire quest’oggetto.
 Non ci lasceremo abbattere e torneremo più forti di prima!
@@ -11807,7 +11853,7 @@ I wanted you to come here, away from the soldiers,<<n>>to talk freely about toda
 Vedi, i Pokémon X hanno causato disagi non solo in città, famosa per le sue miracolose sorgenti, ma anche nel <b>Canyon Asteroide</b>, tappa essenziale per il commercio di quest'acqua al di fuori dell'oasi.
 You see, the X Pokémon have not only caused troubles<<n>>in the city, famous for its miraculous springs,<<n>>but also in the <b>Sunflare Canyon</b>, a vital step<<n>>in the water trade outside this oasis.
 Pare che negli ultimi giorni, la furia di un esemplare di specie X si sia abbattuta proprio sul canyon, bloccando il passaggio a visitatori e non. Neanch’io sono stata in grado di contrastarlo... Quell'essere, quando sembrava ad un passo dalla sconfitta, è rinato di nuova vita! È per questo che vorrei tu mi dessi una mano, \PN.
-Apparently, in the last few days, the fury of an X specimen has struck right on the canyon,<<n>>blocking the way to both visitors and locals.<<n>>Even I couldn't counter it...<<n>>When it seemed on the brink of defeat, that creature reborned to new life!<<n>>That's why I am asking for your help, \PN.
+Apparently, in the last few days, the fury of an X-specimen has struck right on the canyon,<<n>>blocking the way to both visitors and locals.<<n>>Even I couldn't counter it...<<n>>When it seemed on the brink of defeat, that creature reborned to new life!<<n>>That's why I am asking for your help, \PN.
 Il commercio di acqua miracolosa non deve placarsi, ne va del benessere della regione! Allora, sei d'accordo?
 The trade of this miracle water cannot stop, the welfare<<n>>of the region is on the balance!<<n>>So, are you in?
 Sei davvero di buon cuore!
@@ -11843,7 +11889,7 @@ Nadin
 Quando un Hippopotas si evolve, acquisisce una forza dieci volte maggiore.
 Quando un Hippopotas si evolve, acquisisce una forza dieci volte maggiore.
 Mefele
-Mefele
+Maat
 Quel Pokémon ci ha tratti in inganno, ma impareremo dai nostri errori! Per la regina e il popolo tutto!
 Quel Pokémon ci ha tratti in inganno, ma impareremo dai nostri errori! Per la regina e il popolo tutto!
 Madir
@@ -11881,7 +11927,7 @@ It's only thanks to his||er help if Ishtar City is now free<<n>>from the biggest
 Oh, mio Joele. Vedo che abbiamo visite...
 Oh, my Joel. I see we have visitors...
 Io sono <b>Verbena</b>, la sovrana di Aquariopoli. E tu, ragazzo|a, chi sei?
-I am <b>Verbena</b>, the sovereign of Ishtar City.<<n>>And you, kid, who are you?
+I am <b>Nuphar</b>, the sovereign of Ishtar City.<<n>>And you, kid, who are you?
 Vostra maestà! State bene allora! Ero così preoccupato per voi!
 Your Majesty! You are well then! I was so worried for you!
 Ti ringrazio del pensiero, Joele. Allora, chi è questo|a giovane?
@@ -36961,25 +37007,25 @@ Controllando i campi magnetici, aumentano Difesa e Difesa Speciale degli alleati
 [7]
 1
 Repellente
-Repellente
+Repel
 2
 Superrepellente
-Superrepellente
+Super Repel
 3
 Repellente Max
-Repellente Max
+Max Repel
 4
 Flauto Nero
-Flauto Nero
+Black Flute
 5
 Flauto Bianco
-Flauto Bianco
+White Flute
 6
 Miele
-Miele
+Honey
 7
 Fune di Fuga
-Fune di Fuga
+Escape Rope
 8
 Coccio Rosso
 Coccio Rosso
@@ -36994,31 +37040,31 @@ Coccio Verde
 Coccio Verde
 12
 Pietrafocaia
-Pietrafocaia
+Fire Stone
 13
 Pietratuono
-Pietratuono
+Thunder Stone
 14
 Pietraidrica
-Pietraidrica
+Water Stone
 15
 Pietrafoglia
-Pietrafoglia
+Leaf Stone
 16
 Pietralunare
-Pietralunare
+Moon Stone
 17
 Pietrasolare
-Pietrasolare
+Sun Stone
 18
 Neropietra
-Neropietra
+Dusk Stone
 19
 Pietralbore
-Pietralbore
+Dawn Stone
 20
 Pietrabrillo
-Pietrabrillo
+Shiny Stone
 21
 Ghicocca Rossa
 Ghicocca Rossa
@@ -37042,76 +37088,76 @@ Ghicocca Nera
 Ghicocca Nera
 28
 Helixfossile
-Helixfossile
+Helix Fossil
 29
 Domofossile
-Domofossile
+Dome Fossil
 30
 Ambra Antica
-Ambra Antica
+Old Amber
 31
 Radifossile
-Radifossile
+Root Fossil
 32
 Fossilunghia
-Fossilunghia
+Claw Fossil
 33
 Fossilcranio
-Fossilcranio
+Skull Fossil
 34
 Fossilscudo
-Fossilscudo
+Armor Fossil
 35
 Fossiltappo
-Fossiltappo
+Cover Fossil
 36
 Fossilpiuma
-Fossilpiuma
+Plume Fossil
 37
 Piumabella
-Piumabella
+Pretty Feather
 38
 Minifungo
-Minifungo
+Tiny Mushroom
 39
 Grande Fungo
-Grande Fungo
+Big Mushroom
 40
 Profumfungo
-Profumfungo
+Balm Mushroom
 41
 Perla
-Perla
+Pearl
 42
 Grande Perla
-Grande Perla
+Big Pearl
 43
 Trittiperla
-Trittiperla
+Pearl String
 44
 Polvostella
-Polvostella
+Stardust
 45
 Pezzo di Stella
-Pezzo di Stella
+Star Piece
 46
 Pezzo di Cometa
-Pezzo di Cometa
+Comet Shard
 47
 Pepita
-Pepita
+Nugget
 48
 Granpepita
-Granpepita
+Big Nugget
 49
 Squama Cuore
-Squama Cuore
+Heart Scale
 50
 Codaslowpoke
-Codaslowpoke
+Slowpoke Tail
 51
 Osso Raro
-Osso Raro
+Rare Bone
 52
 Soldantico
 Soldantico
@@ -37132,7 +37178,7 @@ Statuantica
 Statuantica
 58
 Coronantica
-Coronantica
+Relic Crown
 59
 Fertilrapido
 Fertilrapido
@@ -37156,391 +37202,391 @@ Roccianima
 Roccianima
 66
 Palloncino
-Palloncino
+Air Balloon
 67
 Luminpolvere
-Luminpolvere
+Bright Powder
 68
 Evolcondensa
-Evolcondensa
+Eviolite
 69
 Pietralieve
-Pietralieve
+Float Stone
 70
 Destincomune
-Destincomune
+Destiny Knot
 71
 Bitorzolelmo
-Bitorzolelmo
+Rocky Helmet
 72
 Pulsantefuga
-Pulsantefuga
+Eject Button
 73
 Cartelrosso
-Cartelrosso
+Red Card
 74
 Disfoguscio
-Disfoguscio
+Shed Shell
 75
 Palla Fumo
-Palla Fumo
+Smoke Ball
 76
 Fortunuovo
-Fortunuovo
+Lucky Egg
 77
 Condividi Esp.
-Condividi Esp.
+Exp. Share
 78
 Monetamuleto
-Monetamuleto
+Amulet Coin
 79
 Calmanella
-Calmanella
+Soothe Bell
 80
 Velopuro
-Velopuro
+Cleanse Tag
 81
 Bandascelta
-Bandascelta
+Choice Band
 82
 Lentiscelta
-Lentiscelta
+Choice Specs
 83
 Stolascelta
-Stolascelta
+Choice Scarf
 84
 Rocciacalda
-Rocciacalda
+Heat Rock
 85
 Rocciaumida
-Rocciaumida
+Damp Rock
 86
 Roccialiscia
-Roccialiscia
+Smooth Rock
 87
 Rocciafredda
-Rocciafredda
+Icy Rock
 88
 Cretaluce
-Cretaluce
+Light Clay
 89
 Presartigli
-Presartigli
+Grip Claw
 90
 Legafascia
-Legafascia
+Binding Band
 91
 Granradice
-Granradice
+Big Root
 92
 Fangopece
-Fangopece
+Black Sludge
 93
 Avanzi
-Avanzi
+Leftovers
 94
 Conchinella
-Conchinella
+Shell Bell
 95
 Mentalerba
-Mentalerba
+Mental Herb
 96
 Erbachiara
-Erbachiara
+White Herb
 97
 Vigorerba
-Vigorerba
+Power Herb
 98
 Bulbo
-Bulbo
+Bulb
 99
 Ricaripila
-Ricaripila
+Cell Battery
 100
 Assorbisfera
-Assorbisfera
+Life Orb
 101
 Abilcintura
-Abilcintura
+Expert Belt
 102
 Plessimetro
-Plessimetro
+Metronome
 103
 Muscolbanda
-Muscolbanda
+Muscle Band
 104
 Saviocchiali
-Saviocchiali
+Wise Glasses
 105
 Affilartigli
-Affilartigli
+Razor Claw
 106
 Mirino
-Mirino
+Scope Lens
 107
 Grandelente
-Grandelente
+Wide Lens
 108
 Zoomlente
-Zoomlente
+Zoom Lens
 109
 Roccia di Re
-Roccia di Re
+King's Rock
 110
 Affilodente
-Affilodente
+Razor Fang
 111
 Rallentocoda
-Rallentocoda
+Lagging Tail
 112
 Rapidartigli
-Rapidartigli
+Quick Claw
 113
 Bandana
-Bandana
+Focus Band
 114
 Focalnastro
-Focalnastro
+Focus Sash
 115
 Fiammosfera
-Fiammosfera
+Flame Orb
 116
 Tossicsfera
-Tossicsfera
+Toxic Orb
 117
 Vischiopunta
-Vischiopunta
+Sticky Barb
 118
 Ferropalla
-Ferropalla
+Iron Ball
 119
 Facilsaglio
-Facilsaglio
+Ring Target
 120
 Crescicappa
-Crescicappa
+Macho Brace
 121
 Vigorpeso
-Vigorpeso
+Power Weight
 122
 Vigorcerchio
-Vigorcerchio
+Power Bracer
 123
 Vigorfascia
-Vigorfascia
+Power Belt
 124
 Vigorlente
-Vigorlente
+Power Lens
 125
 Vigorbanda
-Vigorbanda
+Power Band
 126
 Vigorgliera
-Vigorgliera
+Power Anklet
 127
 Distroaroma
-Distroaroma
+Lax Incense
 128
 Gonfioaroma
-Gonfioaroma
+Full Incense
 129
 Fortunaroma
-Fortunaroma
+Luck Incense
 130
 Puroaroma
-Puroaroma
+Pure Incense
 131
 Marearoma
-Marearoma
+Sea Incense
 132
 Ondaroma
-Ondaroma
+Wave Incense
 133
 Rosaroma
-Rosaroma
+Rose Incense
 134
 Bizzoaroma
-Bizzoaroma
+Odd Incense
 135
 Roccioaroma
-Roccioaroma
+Rock Incense
 136
 Carbonella
-Carbonella
+Charcoal
 137
 Acqua Magica
-Acqua Magica
+Mystic Water
 138
 Calamita
-Calamita
+Magnet
 139
 Miracolseme
-Miracolseme
+Miracle Seed
 140
 Gelomai
-Gelomai
+Never-Melt Ice
 141
 Cinturanera
-Cinturanera
+Black Belt
 142
 Velenaculeo
-Velenaculeo
+Poison Barb
 143
 Sabbia Soffice
-Sabbia Soffice
+Soft Sand
 144
 Beccaffilato
-Beccaffilato
+Sharp Beak
 145
 Cucchiaio Torto
-Cucchiaio Torto
+Twisted Spoon
 146
 Argenpolvere
-Argenpolvere
+Silver Powder
 147
 Pietradura
-Pietradura
+Hard Stone
 148
 Spettrotarga
-Spettrotarga
+Spell Tag
 149
 Dentedidrago
-Dentedidrago
+Dragon Fang
 150
 Occhialineri
-Occhialineri
+Black Glasses
 151
 Metalcoperta
-Metalcoperta
+Metal Coat
 152
 Sciarpa di Seta
-Sciarpa di Seta
+Silk Scarf
 153
 Lastrarogo
-Lastrarogo
+Flame Plate
 154
 Lastraidro
-Lastraidro
+Splash Plate
 155
 Lastrasaetta
-Lastrasaetta
+Zap Plate
 156
 Lastraprato
-Lastraprato
+Meadow Plate
 157
 Lastragelo
-Lastragelo
+Icicle Plate
 158
 Lastrapugno
-Lastrapugno
+Fist Plate
 159
 Lastrafiele
-Lastrafiele
+Toxic Plate
 160
 Lastrageo
-Lastrageo
+Earth Plate
 161
 Lastracielo
-Lastracielo
+Sky Plate
 162
 Lastramente
-Lastramente
+Mind Plate
 163
 Lastrabaco
-Lastrabaco
+Insect Plate
 164
 Lastrapietra
-Lastrapietra
+Stone Plate
 165
 Lastratetra
-Lastratetra
+Spooky Plate
 166
 Lastradrako
-Lastradrako
+Draco Plate
 167
 Lastratimore
-Lastratimore
+Dread Plate
 168
 Lastraferro
-Lastraferro
+Iron Plate
 169
 Bijoufuoco
-Bijoufuoco
+Fire Gem
 170
 Bijouacqua
-Bijouacqua
+Water Gem
 171
 Bijouelettro
-Bijouelettro
+Electric Gem
 172
 Bijouerba
-Bijouerba
+Grass Gem
 173
 Bijoughiaccio
-Bijoughiaccio
+Ice Gem
 174
 Bijoulotta
-Bijoulotta
+Fighting Gem
 175
 Bijouveleno
-Bijouveleno
+Poison Gem
 176
 Bijouterra
-Bijouterra
+Earth Gem
 177
 Bijouvolante
-Bijouvolante
+Flying Gem
 178
 Bijoupsico
-Bijoupsico
+Psychic Gem
 179
 Bijoucoleottero
-Bijoucoleottero
+Bug Gem
 180
 Bijouroccia
-Bijouroccia
+Rock Gem
 181
 Bijouspettro
-Bijouspettro
+Ghost Gem
 182
 Bijoudrago
-Bijoudrago
+Dragon Gem
 183
 Bijoubuio
-Bijoubuio
+Dark Gem
 184
 Bijouacciaio
-Bijouacciaio
+Steel Gem
 185
 Bijounormale
-Bijounormale
+Normal Gem
 186
 Elettropalla
-Elettropalla
+Light Ball
 187
 Fortunpugno
-Fortunpugno
+Lucky Punch
 188
 Metalpolvere
-Metalpolvere
+Metal Powder
 189
 Velopolvere
-Velopolvere
+Quick Powder
 190
 Ossospesso
-Ossospesso
+Thick Club
 191
 Gambo
-Gambo
+Stick
 192
 Cuorugiada
-Cuorugiada
+Soul Dew
 193
 Dente Abissi
-Dente Abissi
+Deep Sea Tooth
 194
 Squamabissi
-Squamabissi
+Deep Sea Scale
 195
 Adamasfera
 Adamasfera
@@ -37552,46 +37598,46 @@ Grigiosfera
 Grigiosfera
 198
 Idromodulo
-Idromodulo
+Douse Drive
 199
 Voltmodulo
-Voltmodulo
+Shock Drive
 200
 Piromodulo
-Piromodulo
+Burn Drive
 201
 Gelomodulo
-Gelomodulo
+Chill Drive
 202
 Pietrastante
-Pietrastante
+Everstone
 203
 Squama Drago
-Squama Drago
+Dragon Scale
 204
 Upgrade
-Upgrade
+Up-Grade
 205
 Dubbiodisco
-Dubbiodisco
+Dubious Disc
 206
 Copertura
-Copertura
+Protector
 207
 Elettritore
-Elettritore
+Electirizer
 208
 Magmatore
-Magmatore
+Magmarizer
 209
 Terrorpanno
-Terrorpanno
+Reaper Cloth
 210
 Squama Bella
-Squama Bella
+Prism Scale
 211
 Pietraovale
-Pietraovale
+Oval Stone
 212
 Fascia Rossa
 Fascia Rossa
@@ -37609,103 +37655,103 @@ Fascia Gialla
 Fascia Gialla
 217
 Pozione
-Pozione
+Potion
 218
 Superpozione
-Superpozione
+Super Potion
 219
 Iperpozione
-Iperpozione
+Hyper Potion
 220
 Pozione Max
-Pozione Max
+Max Potion
 221
 Ricarica Tot
-Ricarica Tot
+Full Restore
 222
 Polvere Sacra
-Polvere Sacra
+Sacred Ash
 223
 Sveglia
-Sveglia
+Awakening
 224
 Antidoto
-Antidoto
+Antidote
 225
 Antiscottatura
-Antiscottatura
+Burn Heal
 226
 Antiparalisi
-Antiparalisi
+Paralyze Heal
 227
 Antigelo
-Antigelo
+Ice Heal
 228
 Cura Totale
-Cura Totale
+Full Heal
 229
 Lavottino
-Lavottino
+Lava Cookie
 230
 Dolce Gateau
-Dolce Gateau
+Old Gateau
 231
 Conostropoli
-Conostropoli
+Casteliacone
 232
 Revitalizzante
-Revitalizzante
+Revive
 233
 Revitalizzante Max
-Revitalizzante Max
+Max Revive
 234
 Succo di Bacca
-Succo di Bacca
+Berry Juice
 235
 Iramella
-Iramella
+Rage Candy Bar
 236
 Dolcecuore
-Dolcecuore
+Sweet Heart
 237
 Acqua Fresca
-Acqua Fresca
+Fresh Water
 238
 Gassosa
-Gassosa
+Soda Pop
 239
 Lemonsucco
-Lemonsucco
+Lemonade
 240
 Latte Mumu
-Latte Mumu
+Moomoo Milk
 241
 Polvenergia
-Polvenergia
+Energy Powder
 242
 Radicenergia
-Radicenergia
+Energy Root
 243
 Polvocura
-Polvocura
+Heal Powder
 244
 Vitalerba
-Vitalerba
+Revival Herb
 245
 Etere
-Etere
+Ether
 246
 Etere Max
-Etere Max
+Max Ether
 247
 Elisir
-Elisir
+Elixir
 248
 Elisir Max
-Elisir Max
+Max Elixir
 249
 PP-Su
-PP-Su
+PP Up
 250
 PP Max
 PP Max
@@ -37714,40 +37760,40 @@ PS-Su
 PS-Su
 252
 Proteina
-Proteina
+Protein
 253
 Ferro
-Ferro
+Iron
 254
 Calcio
-Calcio
+Calcium
 255
 Zinco
-Zinco
+Zinc
 256
 Carburante
-Carburante
+Carbos
 257
 Piumsalute
-Piumsalute
+Health Feather
 258
 Piumpotenza
-Piumpotenza
+Muscle Feather
 259
 Piumtutela
-Piumtutela
+Resist Feather
 260
 Piumingegno
-Piumingegno
+Genius Feather
 261
 Piumintuito
-Piumintuito
+Clever Feather
 262
 Piumreazione
-Piumreazione
+Swift Feather
 263
 Caramella Rara
-Caramella Rara
+Rare Candy
 264
 Master Ball
 Master Ball
@@ -37756,7 +37802,7 @@ Ultra Ball
 Ultra Ball
 266
 Mega Ball
-Mega Ball
+Great Ball
 267
 Poké Ball
 Poké Ball
@@ -37765,346 +37811,346 @@ Safari Ball
 Safari Ball
 269
 Gara Ball
-Gara Ball
+Sport Ball
 270
 Rete Ball
-Rete Ball
+Net Ball
 271
 Sub Ball
-Sub Ball
+Dive Ball
 272
 Minor Ball
-Minor Ball
+Nest Ball
 273
 Bis Ball
-Bis Ball
+Repeat Ball
 274
 Timer Ball
 Timer Ball
 275
 Chic Ball
-Chic Ball
+Luxury Ball
 276
 Premier Ball
 Premier Ball
 277
 Scuro Ball
-Scuro Ball
+Dusk Ball
 278
 Cura Ball
-Cura Ball
+Heal Ball
 279
 Velox Ball
-Velox Ball
+Quick Ball
 280
 Pregio Ball
-Pregio Ball
+Cherish Ball
 281
 Rapid Ball
-Rapid Ball
+Turbo Ball
 282
 Level Ball
-Level Ball
+Rookie Ball
 283
 Esca Ball
-Esca Ball
+Fish Ball
 284
 Peso Ball
-Peso Ball
+Max Ball
 285
 Love Ball
-Love Ball
+Cupid Ball
 286
 Friend Ball
-Friend Ball
+Bro Ball
 287
 Luna Ball
-Luna Ball
+Cosmic Ball
 288
 MT01
-MT01
+TM01
 289
 MT02
-MT02
+TM02
 290
 MT03
-MT03
+TM03
 291
 MT04
-MT04
+TM04
 292
 MT05
-MT05
+TM05
 293
 MT06
-MT06
+TM06
 294
 MT07
-MT07
+TM07
 295
 MT08
-MT08
+TM08
 296
 MT09
-MT09
+TM09
 297
 MT10
-MT10
+TM10
 298
 MT11
-MT11
+TM11
 299
 MT12
-MT12
+TM12
 300
 MT13
-MT13
+TM13
 301
 MT14
-MT14
+TM14
 302
 MT15
-MT15
+TM15
 303
 MT16
-MT16
+TM16
 304
 MT17
-MT17
+TM17
 305
 MT18
-MT18
+TM18
 306
 MT19
-MT19
+TM19
 307
 MT20
-MT20
+TM20
 308
 MT21
-MT21
+TM21
 309
 MT22
-MT22
+TM22
 310
 MT23
-MT23
+TM23
 311
 MT24
-MT24
+TM24
 312
 MT25
-MT25
+TM25
 313
 MT26
-MT26
+TM26
 314
 MT27
-MT27
+TM27
 315
 MT28
-MT28
+TM28
 316
 MT29
-MT29
+TM29
 317
 MT30
-MT30
+TM30
 318
 MT31
-MT31
+TM31
 319
 MT32
-MT32
+TM32
 320
 MT33
-MT33
+TM33
 321
 MT34
-MT34
+TM34
 322
 MT35
-MT35
+TM35
 323
 MT36
-MT36
+TM36
 324
 MT37
-MT37
+TM37
 325
 MT38
-MT38
+TM38
 326
 MT39
-MT39
+TM39
 327
 MT40
-MT40
+TM40
 328
 MT41
-MT41
+TM41
 329
 MT42
-MT42
+TM42
 330
 MT43
-MT43
+TM43
 331
 MT44
-MT44
+TM44
 332
 MT45
-MT45
+TM45
 333
 MT46
-MT46
+TM46
 334
 MT47
-MT47
+TM47
 335
 MT48
-MT48
+TM48
 336
 MT49
-MT49
+TM49
 337
 MT50
-MT50
+TM50
 338
 MT51
-MT51
+TM51
 339
 MT52
-MT52
+TM52
 340
 MT53
-MT53
+TM53
 341
 MT54
-MT54
+TM54
 342
 MT55
-MT55
+TM55
 343
 MT56
-MT56
+TM56
 344
 MT57
-MT57
+TM57
 345
 MT58
-MT58
+TM58
 346
 MT59
-MT59
+TM59
 347
 MT60
-MT60
+TM60
 348
 MT61
-MT61
+TM61
 349
 MT62
-MT62
+TM62
 350
 MT63
-MT63
+TM63
 351
 MT64
-MT64
+TM64
 352
 MT65
-MT65
+TM65
 353
 MT66
-MT66
+TM66
 354
 MT67
-MT67
+TM67
 355
 MT68
-MT68
+TM68
 356
 MT69
-MT69
+TM69
 357
 MT70
-MT70
+TM70
 358
 MT71
-MT71
+TM71
 359
 MT72
-MT72
+TM72
 360
 MT73
-MT73
+TM73
 361
 MT74
-MT74
+TM74
 362
 MT75
-MT75
+TM75
 363
 MT76
-MT76
+TM76
 364
 MT77
-MT77
+TM77
 365
 MT78
-MT78
+TM78
 366
 MT79
-MT79
+TM79
 367
 MT80
-MT80
+TM80
 368
 MT81
-MT81
+TM81
 369
 MT82
-MT82
+TM82
 370
 MT83
-MT83
+TM83
 371
 MT84
-MT84
+TM84
 372
 MT85
-MT85
+TM85
 373
 MT86
-MT86
+TM86
 374
 MT87
-MT87
+TM87
 375
 MT88
-MT88
+TM88
 376
 MT89
-MT89
+TM89
 377
 MT90
-MT90
+TM90
 378
 MT91
-MT91
+TM91
 379
 MT92
-MT92
+TM92
 380
 MT93
-MT93
+TM93
 381
 MT94
-MT94
+TM94
 382
 MT95
-MT95
+TM95
 383
 MN01
 MN01
@@ -38125,196 +38171,196 @@ MN06
 MN06
 389
 Baccaliegia
-Baccaliegia
+Cheri Berry
 390
 Baccastagna
-Baccastagna
+Chesto Berry
 391
 Baccapesca
-Baccapesca
+Pecha Berry
 392
 Baccafrago
-Baccafrago
+Rawst Berry
 393
 Baccaperina
-Baccaperina
+Aspear Berry
 394
 Baccamela
-Baccamela
+Leppa Berry
 395
 Baccarancia
-Baccarancia
+Oran Berry
 396
 Baccaki
-Baccaki
+Persim Berry
 397
 Baccaprugna
-Baccaprugna
+Lum Berry
 398
 Baccacedro
-Baccacedro
+Sitrus Berry
 399
 Baccafico
-Baccafico
+Figy Berry
 400
 Baccakiwi
-Baccakiwi
+Wiki Berry
 401
 Baccamango
-Baccamango
+Mago Berry
 402
 Baccaguava
-Baccaguava
+Aguav Berry
 403
 Baccapaia
-Baccapaia
+Iapapa Berry
 404
 Baccalampon
-Baccalampon
+Razz Berry
 405
 Baccamora
-Baccamora
+Bluk Berry
 406
 Baccabana
-Baccabana
+Nanab Berry
 407
 Baccapera
-Baccapera
+Wepear Berry
 408
 Baccananas
-Baccananas
+Pinap Berry
 409
 Baccagrana
-Baccagrana
+Pomeg Berry
 410
 Baccalga
-Baccalga
+Kelpsy Berry
 411
 Baccaloqat
-Baccaloqat
+Qualot Berry
 412
 Baccamelon
-Baccamelon
+Hondew Berry
 413
 Baccauva
-Baccauva
+Grepa Berry
 414
 Baccamodoro
-Baccamodoro
+Tamato Berry
 415
 Baccavena
-Baccavena
+Cornn Berry
 416
 Baccagostan
-Baccagostan
+Magost Berry
 417
 Baccambutan
-Baccambutan
+Rabuta Berry
 418
 Baccalemon
-Baccalemon
+Nomel Berry
 419
 Baccamelos
-Baccamelos
+Spelon Berry
 420
 Baccapalma
-Baccapalma
+Pamtre Berry
 421
 Baccacocomero
-Baccacocomero
+Watmel Berry
 422
 Baccadurian
-Baccadurian
+Durin Berry
 423
 Baccartillo
-Baccartillo
+Belue Berry
 424
 Baccacao
-Baccacao
+Occa Berry
 425
 Baccapasflo
-Baccapasflo
+Passho Berry
 426
 Baccaparmen
-Baccaparmen
+Wacan Berry
 427
 Baccarindo
-Baccarindo
+Rindo Berry
 428
 Baccamoya
-Baccamoya
+Yache Berry
 429
 Baccarosmel
-Baccarosmel
+Chople Berry
 430
 Baccakebia
-Baccakebia
+Kebia Berry
 431
 Baccanaca
-Baccanaca
+Shuca Berry
 432
 Baccababa
-Baccababa
+Coba Berry
 433
 Baccapapaya
-Baccapapaya
+Payapa Berry
 434
 Baccaitan
-Baccaitan
+Tanga Berry
 435
 Baccaciofo
-Baccaciofo
+Charti Berry
 436
 Baccacitrus
-Baccacitrus
+Kasib Berry
 437
 Baccahaban
-Baccahaban
+Haban Berry
 438
 Baccaxan
-Baccaxan
+Colbur Berry
 439
 Baccababiri
-Baccababiri
+Babiri Berry
 440
 Baccacinlan
-Baccacinlan
+Chilan Berry
 441
 Baccalici
-Baccalici
+Liechi Berry
 442
 Baccalongan
-Baccalongan
+Ganlon Berry
 443
 Baccasalak
-Baccasalak
+Salac Berry
 444
 Baccapitaya
-Baccapitaya
+Petaya Berry
 445
 Baccacocca
-Baccacocca
+Apicot Berry
 446
 Baccalangsa
-Baccalangsa
+Lansat Berry
 447
 Baccambola
-Baccambola
+Starf Berry
 448
 Baccaenigma
-Baccaenigma
+Enigma Berry
 449
 baccaracolo
-baccaracolo
+Micle Berry
 450
 Baccacrela
-Baccacrela
+Custap Berry
 451
 Baccajaba
-Baccajaba
+Jaboca Berry
 452
 Baccaroam
-Baccaroam
+Rowap Berry
 453
 Messaggio Erba
 Messaggio Erba
@@ -38353,7 +38399,7 @@ Messaggio Muro
 Messaggio Muro
 465
 Attacco X
-Attacco X
+X Attack
 466
 Attacco X 2
 Attacco X 2
@@ -38365,7 +38411,7 @@ Attacco X 6
 Attacco X 6
 469
 Difesa X
-Difesa X
+X Defense
 470
 Difesa X 2
 Difesa X 2
@@ -38377,7 +38423,7 @@ Difesa X 6
 Difesa X 6
 473
 Special X
-Special X
+X Sp. Atk
 474
 Special X 2
 Special X 2
@@ -38389,7 +38435,7 @@ Special X 6
 Special X 6
 477
 Difesa Sp. X
-Difesa Sp. X
+X Sp. Def
 478
 Difesa Sp. X 2
 Difesa Sp. X 2
@@ -38401,7 +38447,7 @@ Difesa Sp. X 6
 Difesa Sp. X 6
 481
 Velocità X
-Velocità X
+X Speed
 482
 Velocità X 2
 Velocità X 2
@@ -38413,7 +38459,7 @@ Velocità X 6
 Velocità X 6
 485
 Precisione X
-Precisione X
+X Accuracy
 486
 Precisione X 2
 Precisione X 2
@@ -38425,7 +38471,7 @@ Precisione X 6
 Precisione X 6
 489
 Supercolpo
-Supercolpo
+Dire Hit
 490
 Supercolpo 2
 Supercolpo 2
@@ -38434,7 +38480,7 @@ Supercolpo 3
 Supercolpo 3
 492
 Superguardia
-Superguardia
+Guard Spec.
 493
 Reset Urge
 Reset Urge
@@ -38449,34 +38495,34 @@ Item Drop
 Item Drop
 497
 Flauto Blu
-Flauto Blu
+Blue Flute
 498
 Flauto Giallo
-Flauto Giallo
+Yellow Flute
 499
 Flauto Rosso
-Flauto Rosso
+Red Flute
 500
 Pokébambola
-Pokébambola
+Poké Doll
 501
 Codaskitty
-Codaskitty
+Fluffy Tail
 502
 Pokégingillo
-Pokégingillo
+Poké Toy
 503
 Bicicletta
-Bicicletta
+Bike
 504
 Canna da Pesca
-Canna da Pesca
+Old Rod
 505
 Amo Buono
-Amo Buono
+Good Rod
 506
 Super Amo
-Super Amo
+Super Rod
 507
 Cercastrumenti
 Cercastrumenti
@@ -38488,7 +38534,7 @@ Poké Radar
 Poké Radar
 510
 Mappa Città
-Mappa Città
+Town Map
 511
 Pokéflauto
 Pokéflauto
@@ -38530,10 +38576,10 @@ Verispecchio
 Verispecchio
 524
 Ovamuleto
-Ovamuleto
+Oval Charm
 525
 Cromamuleto
-Cromamuleto
+Shiny Charm
 526
 Bustina Aromi
 Bustina Aromi
@@ -38542,7 +38588,7 @@ Dolcespuma
 Dolcespuma
 528
 Corpetto Assalto
-Corpetto Assalto
+Assault Vest
 529
 Absolite
 Absolite
@@ -38551,7 +38597,7 @@ Galladite
 Galladite
 531
 Glalite
-Glalite
+Glalitite
 532
 Pinsirite
 Pinsirite
@@ -38560,7 +38606,7 @@ Garchompite
 Garchompite
 534
 Blastoisite T
-Blastoisite T
+Blastoisinite T
 535
 Kangaskhanite
 Kangaskhanite
@@ -38578,7 +38624,7 @@ Gardevoirite
 Gardevoirite
 540
 Sharpedite
-Sharpedite
+Sharpedonite
 541
 Sceptilite
 Sceptilite
@@ -38596,7 +38642,7 @@ Medichamite
 Medichamite
 546
 Altarite
-Altarite
+Altarianite
 547
 Diancite
 Diancite
@@ -38623,7 +38669,7 @@ Pidgeotite
 Pidgeotite
 555
 Alakazamite
-Alakazamite
+Alakazite
 556
 Venusaurite T
 Venusaurite T
@@ -38632,10 +38678,10 @@ Aerodactylite
 Aerodactylite
 558
 Heracrossite
-Heracrossite
+Heracronite
 559
 Houndoomite
-Houndoomite
+Houndoominite
 560
 Salamencite
 Salamencite
@@ -38647,25 +38693,25 @@ Lopunnite
 Lopunnite
 563
 Mewtwoite X
-Mewtwoite X
+Mewtwonite X
 564
 Mewtwoite Y
-Mewtwoite Y
+Mewtwonite Y
 565
 Metagrossite
 Metagrossite
 566
 Slowbroite
-Slowbroite
+Slowbronite
 567
 Sableyeite
-Sableyeite
+Sablenite
 568
 Abomasnowite
-Abomasnowite
+Abomasite
 569
 Manectricite
-Manectricite
+Manectite
 570
 Swampertite
 Swampertite
@@ -38683,25 +38729,25 @@ Charizardite T
 Charizardite T
 575
 Lucarite
-Lucarite
+Lucarionite
 576
 Capsula Abilità
 Capsula Abilità
 577
 MT96
-MT96
+TM96
 578
 MT97
-MT97
+TM97
 579
 MT98
-MT98
+TM98
 580
 MT99
-MT99
+TM99
 581
 MT100
-MT100
+TM100
 582
 Gemma Rossa
 Gemma Rossa
@@ -38710,7 +38756,7 @@ Gemma Blu
 Gemma Blu
 584
 Bijoufolletto
-Bijoufolletto
+Fairy Gem
 585
 Vaso del vincolo
 Vaso del vincolo
@@ -38719,13 +38765,13 @@ Condividi Esperienza 2
 Condividi Esperienza 2
 587
 Muschioluce
-Muschioluce
+Luminous Moss
 588
 Vulneropolizza
-Vulneropolizza
+Weakness Policy
 589
 Lastrafolletto
-Lastrafolletto
+Pixie Plate
 590
 Fossilpinna
 Fossilpinna
@@ -38734,19 +38780,19 @@ Fossilmascella
 Fossilmascella
 592
 Baccarcadè
-Baccarcadè
+Roseli Berry
 593
 Baccalighia
-Baccalighia
+Kee Berry
 594
 Baccapane
-Baccapane
+Maranga Berry
 595
 Palla di Neve
-Palla di Neve
+Snowball
 596
 Hypnoite
-Hypnoite
+Hypnonite
 597
 Circuito Poké Ball
 Circuito Poké Ball
@@ -38761,13 +38807,13 @@ Circuito Velox Ball
 Circuito Velox Ball
 601
 Chiave Camera
-Chiave Camera
+Room Key
 602
 Risoctillery
-Risoctillery
+Octo Risotto
 603
 Pozione Segreta
-Pozione Segreta
+Secret Potion
 604
 Circuito Premier Ball
 Circuito Premier Ball
@@ -38779,22 +38825,22 @@ Polvere Max
 Polvere Max
 607
 Girafarigite
-Girafarigite
+Girafanite
 608
 Piccone
 Piccone
 609
 Strano orecchino
-Strano orecchino
+Odd earring
 610
 Anello Terrestre
-Anello Terrestre
+Terrestrial Ring
 611
 Venusaurite X
 Venusaurite X
 612
 Sidrostelle
-Sidrostelle
+Star Sider
 613
 Pokédex
 Pokédex
@@ -38803,25 +38849,25 @@ Xeno Ball
 Xeno Ball
 615
 Chiave Scienze
-Chiave Scienze
+Science Class Key
 616
 Chiave Anfiteatro
-Chiave Anfiteatro
+Amphitheater Key
 617
 Chiave Matematica
-Chiave Matematica
+Maths Class Key
 618
 Chiave Sgabuzzino
-Chiave Sgabuzzino
+Closet Key
 619
 Chiave Cortile
-Chiave Cortile
+Schoolyard Key
 620
 Tiara Proibita
 Tiara Proibita
 621
 Pietragelo
-Pietragelo
+Ice Stone
 622
 PokéPrint
 PokéPrint
@@ -38830,10 +38876,10 @@ Upgrade S
 Upgrade S
 624
 Fossilcosmo
-Fossilcosmo
+Space Fossil
 625
 Chirofossile
-Chirofossile
+Print Fossil
 626
 Terror Ball
 Terror Ball
@@ -38848,73 +38894,73 @@ Pokéboard
 Pokéboard
 631
 Coppa d'oro
-Coppa d'oro
+Golden Cup
 632
 Cucchiaino d'oro
-Cucchiaino d'oro
+Golden Spoon
 636
 Anello Xenoverse
-Anello Xenoverse
+Xenoversal Ring
 671
 Codice Terrestre
-Codice Terrestre
+Terrestrial Core
 672
 Repellente
-Repellente
+Repel
 673
 Chiave Aula classe A
-Chiave Aula classe A
+Classroom A Key
 674
 Chiave Anfiteatro
-Chiave Anfiteatro
+Amphitheater Key
 675
 Chiave Aula classe B
-Chiave Aula classe B
+Classroom B Key
 676
 Chiave Sgabuzzino
-Chiave Sgabuzzino
+Closet Key
 677
 Chiave Cortile
-Chiave Cortile
+Schoolyard Key
 678
 Baccaeden
-Baccaeden
+Eden Berry
 679
 Codice Xenoverse
-Codice Xenoverse
+Xenoversal Core
 680
 Prototipo Xeno Ball
-Prototipo Xeno Ball
+Xeno Ball Prototype
 681
 Perseum N
-Perseum N
+Perseum H
 682
 Heraclium N
-Heraclium N
+Herculeum H
 683
 Ikarium N
-Ikarium N
+Ikarium H
 684
 Kaiserium N
-Kaiserium N
+Kaiserium H
 685
 Odysseum N
-Odysseum N
+Odysseum H
 686
 Contenitore
-Contenitore
+Container
 687
 Veste Pikachu
-Veste Pikachu
+Pikachu Disguise
 688
 Veste Trishout
-Veste Trishout
+Trishout Disguise
 689
 Veste Shyleon
-Veste Shyleon
+Shyleon Disguise
 690
 Veste Shulong
-Veste Shulong
+Shulong Disguise
 691
 Pergamena n.1
 Pergamena n.1
@@ -38929,91 +38975,91 @@ Pergamena n.4
 Pergamena n.4
 695
 Perlacqua Blu
-Perlacqua Blu
+Blue Aqua Pearl
 696
 Perlacqua Rossa
-Perlacqua Rossa
+Red Aqua Pearl
 697
 Perlacqua Gialla
-Perlacqua Gialla
+Yellow Aqua Pearl
 701
 Chiave Saloon
-Chiave Saloon
+Saloon Key
 702
 Chiave Saloon
-Chiave Saloon
+Saloon Key
 703
 Chiave Saloon
-Chiave Saloon
+Saloon Key
 704
 Chiave Saloon
-Chiave Saloon
+Saloon Key
 705
 Pass Purgatorio 1
-Pass Purgatorio 1
+El Purgatorio Pass 1
 706
 Pass Purgatorio 2
-Pass Purgatorio 2
+El Purgatorio Pass 2
 707
 Houndoomite
-Houndoomite
+Houndoominite
 708
 Pass Purgatorio 3
-Pass Purgatorio 3
+El Purgatorio Pass 3
 709
 Pass Purgatorio 4
-Pass Purgatorio 4
+El Purgatorio Pass 4
 710
 Glalite
-Glalite
+Glalitite
 711
 Fotografia Inutile
-Fotografia Inutile
+Useless Picture
 712
 Pass Rock
-Pass Rock
+Rock Ticket
 713
 Pass Dance
-Pass Dance
+Dance Ticket
 714
 Pass Studio
-Pass Studio
+Studio Ticket
 715
 Maschera Shyleon
-Maschera Shyleon
+Shyleon Mask
 716
 Maschera Shyleon
-Maschera Shyleon
+Shyleon Mask
 717
 Maschera Shyleon
-Maschera Shyleon
+Shyleon Mask
 718
 Antico Miracolseme
-Antico Miracolseme
+Old Miracle Seed
 719
 Stampo Fossilcosmo
-Stampo Fossilcosmo
+Space Fossil's Mold
 720
 Stampo Chirofossile
-Stampo Chirofossile
+Print Fossil's Mold
 721
 Zampe Totem
-Zampe Totem
+Totem's Feet
 722
 Busto Totem
-Busto Totem
+Totem's Trunk
 723
 Becco Totem
-Becco Totem
+Totem's Beak
 724
 Zampe Totem Oro
-Zampe Totem Oro
+Golden Totem's Feet
 725
 Busto Totem Oro
-Busto Totem Oro
+Golden Totem's Trunk
 726
 Becco Totem Oro
-Becco Totem Oro
+Golden Totem's Beak
 727
 GS Ball
 GS Ball
@@ -39025,16 +39071,16 @@ Suicunite
 Suicunite
 730
 Raikouite
-Raikouite
+Raikounite
 731
 Biglietto Aereo
-Biglietto Aereo
+Air Ticket
 732
 Master Amo
-Master Amo
+Special Rod
 733
 Blastoisite X
-Blastoisite X
+Blastoisinite X
 734
 Venusaurite X
 Venusaurite X
@@ -39049,148 +39095,148 @@ Dragonitite
 Dragonitite
 738
 Bouffalantite
-Bouffalantite
+Bouffalanite
 739
 Weavilite
 Weavilite
 740
 Hypnoite
-Hypnoite
+Hypnonite
 741
 Registratore
-Registratore
+Recorder
 742
 Campana Mumu
-Campana Mumu
+Moomoo Bell
 743
 Splendisabbia
-Splendisabbia
+Shining Sand
 744
 Rete Pescagrossa
-Rete Pescagrossa
+Big Fish Net
 745
 Cristallo di ghiaccio
-Cristallo di ghiaccio
+Ice Crystal
 746
 Attestato del Campus
-Attestato del Campus
+Newtron's certificate
 747
 Sidrostelle Special
-Sidrostelle Special
+Star Sider Special
 748
 Baccamela Caramellata
-Baccamela Caramellata
+Candy Leppa Berry
 749
 Idolo di Fuoco
-Idolo di Fuoco
+Idol of Fire
 750
 Acqua Mistica
-Acqua Mistica
+Miracle Water
 751
 Scacciasogni
-Scacciasogni
+Dreamcatcher
 752
 Romanzo di Crisante
-Romanzo di Crisante
+Caspar's Novel
 753
 Autografo di Daddy
-Autografo di Daddy
+Daddy's Autograph
 754
 Idolo d'Erba
-Idolo d'Erba
+Idol of Grass
 755
 Gettone d'oro
-Gettone d'oro
+Gold Coin
 756
 Souvenir
 Souvenir
 757
 Idolo d'Acqua
-Idolo d'Acqua
+Idol of Water
 758
 Miniatura Monte Zodiaco
-Miniatura Monte Zodiaco
+Mt. Zodiac Diorama
 759
 Update Psico
-Update Psico
+Psi Update
 760
 Update Mega
-Update Mega
+Mega Update
 761
 Update Megatone
-Update Megatone
+Megaton Update
 762
 Update Megatone
-Update Megatone
+Megaton Update
 763
 Update Ombra
-Update Ombra
+Shadow Update
 764
 Update Ferro
-Update Ferro
+Iron Update
 765
 Update Chele
-Update Chele
+Pincer Update
 766
 Update Virtuale
-Update Virtuale
+Virtual Update
 767
 Update Abisso
-Update Abisso
+Deep Sea Update
 768
 Update Marino
-Update Marino
+South Sea Update
 769
 Update Trapano
-Update Trapano
+Drill Update
 770
 Update Saetta
-Update Saetta
+Thunderbolt Update
 771
 Update Pressione
-Update Pressione
+Compressed Update
 772
 Update Forza
-Update Forza
+Muscular Update
 773
 Update Panna
-Update Panna
+Meringue Update
 774
 Update Antico
-Update Antico
+Elder Update
 775
 Update Tenerezza
-Update Tenerezza
+Tender Update
 776
 Update Errore
-Update Errore
+Error Update
 777
 Update WES
-Update WES
+WES Update
 778
 Trasferitore
-Trasferitore
+Pokémon Transfer
 779
 Xenolite
-Xenolite
+Xenolith
 780
 Tetramuleto
-Tetramuleto
+Dread Pendant
 781
 Pietragelo
-Pietragelo
+Ice Stone
 782
 Pezzi di ricambio
-Pezzi di ricambio
+Spare Parts
 783
 Lettera d'invito
-Lettera d'invito
+Invitation Letter
 784
 Old Ball
 Old Ball
 785
 Amo Speciale
-Amo Speciale
+Special Rod
 [8]
 1
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
@@ -43667,7 +43713,7 @@ Evan
 Aria
 Aria
 Verbena
-Verbena
+Nuphar
 Alice
 Alice
 Chiara
@@ -43693,7 +43739,7 @@ Aster
 Joe
 Joe
 Andrea
-Andrea
+Andy
 Gioele
 Gioele
 Tina
@@ -43701,9 +43747,9 @@ Tina
 Dave
 Dave
 Arturo
-Arturo
+Arthur
 Davide
-Davide
+David
 Tig
 Tig
 Opie
@@ -43735,15 +43781,15 @@ Luigi
 Serry
 Serry
 Marco
-Marco
+Maxie
 Tobia
-Tobia
+Toby
 Sandro
-Sandro
+Lex
 Melodias
-Melodias
+Miller
 Antonio
-Antonio
+James
 Corinaldo
 Corinaldo
 Giuseppe
@@ -43757,7 +43803,7 @@ Frank
 Ana
 Ana
 Paolo
-Paolo
+Paul
 Michiel
 Mitchell
 Prova
@@ -43767,7 +43813,7 @@ Luke
 Samuele
 Samuele
 Filippo
-Filippo
+Phil
 Pinerolo
 Pinerolo
 Minervo
@@ -43787,15 +43833,15 @@ Giorgina
 Ginevra
 Ginevra
 Ermia
-Ermia
+Erina
 Klaudia
 Klaudia
 Aluccia
-Aluccia
+Tiffany
 Sabrina
 Sabrina
 Umberta
-Umberta
+Bertha
 Sonia
 Sonia
 Andrew
@@ -43803,17 +43849,17 @@ Andrew
 Cipher
 Cipher
 Alisso
-Alisso
+Basil
 Mimosa
-Mimosa
+Vanilla
 Castalia
-Castalia
+Niva
 Rinaldo
-Rinaldo
+Renaud
 Orlando
-Orlando
+Roland
 Fierando
-Fierando
+Fierabras
 Jimmy
 Jimmy
 Chua
@@ -43867,7 +43913,7 @@ Kimo
 Cheris
 Cheris
 Joele
-Joele
+Joel
 Jafar
 Jafar
 Abbas
@@ -43917,9 +43963,9 @@ Ignazio
 Markus
 Markus
 Alfonso
-Alfonso
+Alder
 Denis
-Denis
+Dennis
 Gino
 Gino
 Alter
@@ -43929,7 +43975,7 @@ Jade
 Mahmood
 Mahmood
 Claudio
-Claudio
+Ginger
 Leon
 Leon
 Teo
@@ -43959,21 +44005,21 @@ George
 Pier
 Pier
 Edera
-Edera
+Colver
 Saul
-Saul
+Salem
 Golia
-Golia
+Goliath
 Victor
 Victor
 Gengar
 Gengar
 Gennaro
-Gennaro
+Joey
 Gold
 Gold
 Henné
-Henné
+Henna
 Teresa
 Teresa
 Carolina
@@ -44043,13 +44089,13 @@ Roxanne
 Roxyx
 Roxyx
 Armando
-Armando
+Armand
 Sebastian
 Sebastian
 Stromboli
-Stromboli
+Reinier
 Maurice
-Maurice
+Chrysler
 Kupa
 Kupa
 Xiliano
@@ -44085,7 +44131,7 @@ Dario
 Tibbio
 Tibbio
 Simone
-Simone
+Simon
 Pete
 Pete
 Pedro
@@ -44107,7 +44153,7 @@ Kun
 Jinny
 Jinny
 J.J
-J.J
+J.J.
 Neve
 Neve
 Tao
@@ -44115,7 +44161,7 @@ Tao
 Flik
 Flik
 Oleandro
-Oleandro
+Abraham
 Johnny
 Johnny
 Vento
@@ -44131,11 +44177,11 @@ Pesci
 Holland
 Holland
 Pasqualino
-Pasqualino
+Pascal
 Meleno
 Meleno
 Michelangelo
-Michelangelo
+Malcolm
 Guglielmo
 Guglielmo
 Viviano
@@ -44143,7 +44189,7 @@ Viviano
 Carmine
 Carmine
 Lorenzo
-Lorenzo
+Lawrence
 Rory
 Rory
 Tino
@@ -44157,11 +44203,11 @@ Peyote
 Beth
 Beth
 Amariso
-Amariso
+Joshua
 Gianpiero
-Gianpiero
+Jimmy
 Fabio
-Fabio
+Alvin
 Deny
 Deny
 Holly
@@ -44181,13 +44227,13 @@ Ochoa & Jose
 Albert
 Albert
 Carlo
-Carlo
+Karl
 Mariella
-Mariella
+Mary Jane
 Rita
 Rita
 Tina & Clara
-Tina & Clara
+Tina & Clair
 Sofia
 Sofia
 Pamela
@@ -44221,9 +44267,9 @@ Mirto
 Cletus
 Cletus
 Crisante
-Crisante
+Caspar
 Ettore
-Ettore
+Hector
 Selvaggio
 Selvaggio
 Ruta
@@ -44273,7 +44319,7 @@ Alan
 Marcello
 Marcello
 Marcus
-Marcus
+Eric
 Billy
 Billy
 Ricky
@@ -44283,9 +44329,9 @@ Fred
 Ilario
 Ilario
 Franceschino
-Franceschino
+Francis
 Beppe
-Beppe
+Hank
 Alonso
 Alonso
 Paris
@@ -44309,7 +44355,7 @@ Dustin
 Carletto
 Carletto
 Tamara
-Tamara
+Dahlia
 S
 S
 A & B
@@ -44317,7 +44363,7 @@ A & B
 B & A
 B & A
 Silvia
-Silvia
+Minta
 Madalina
 Madalina
 Sibilla
@@ -44329,7 +44375,7 @@ Wolly
 Timon
 Timon
 Abraham & Mefele
-Abraham & Mefele
+Atum & Maat
 Hassan
 Hassan
 Ebi
@@ -44371,7 +44417,7 @@ Paul
 Surge
 Surge
 Tarassaco
-Tarassaco
+Taraxo
 M4X
 M4X
 4K
@@ -47827,7 +47873,7 @@ Cardinal's Palace
 Pensione Pokémon
 Pokémon Day Care
 Relitto Meteora
-Abandoned S.S. Meteor
+Old S.S. Meteor
 Palestra Competizione
 Newtron Gym
 Palestra Marea
@@ -47860,7 +47906,7 @@ Isola Buconero
 Darkhole Island
 2
 Relitto Meteora
-Abandoned S.S. Meteor
+Old S.S. Meteor
 3
 Cansiria
 Fortbelt Town
@@ -47869,13 +47915,13 @@ Motonave Cometa
 S.S. Comet
 5
 Relitto Meteora
-Abandoned S.S. Meteor
+Old S.S. Meteor
 6
 Relitto Meteora
-Abandoned S.S. Meteor
+Old S.S. Meteor
 7
 Relitto Meteora
-Abandoned S.S. Meteor
+Old S.S. Meteor
 8
 Palestra Competizione
 Newtron Gym
@@ -55284,7 +55330,7 @@ Graphics/Pictures/TreasureHook/fondale
 Graphics/Pictures/TreasureHook/amo
 Graphics/Pictures/TreasureHook/amo
 La prova è conclusa!
-You completed the trial
+You completed the trial!
 Hai ottenuto {1}.
 You obtained {1}.
 Hai trovato {1}, ma non hai abbastanza spazio...
