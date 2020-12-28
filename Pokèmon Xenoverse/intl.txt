@@ -102,7 +102,7 @@ I Pokémon Drago sono i più temibili tra tutti, eppure ubbidiscono ciecamente a
 I Pokémon Drago sono i più temibili tra tutti, eppure ubbidiscono ciecamente al <b>Cardinale</b>...!
 Pochissimi Pokémon sono in grado di apprendere la tecnica tramandata dalla famiglia di mio marito.
 Pochissimi Pokémon sono in grado di apprendere la tecnica tramandata dalla famiglia di mio marito.
-La sovrana mi ha aveva prontamente informato del tuo arrivo, Allenatore. Tuttavia, mi dispiace dirlo, ma al momento il <b>Cardinale</b> si trova sul <b>Vulcano Pulsar</b>. In via straordinaria, la sovrana mi ha concesso l'onore di garantire il privilegio di raggiungerlo, ad una sola condizione!
+La sovrana mi aveva prontamente informato del tuo arrivo, Allenatore. Tuttavia, mi dispiace dirlo, ma al momento il <b>Cardinale</b> si trova sul <b>Vulcano Pulsar</b>. In via straordinaria, la sovrana mi ha concesso l'onore di garantire il privilegio di raggiungerlo, ad una sola condizione!
 La sovrana mi ha aveva prontamente informato del tuo arrivo, Allenatore. Tuttavia, mi dispiace dirlo, ma al momento il <b>Cardinale</b> si trova sul <b>Vulcano Pulsar</b>. In via straordinaria, la sovrana mi ha concesso l'onore di garantire il privilegio di raggiungerlo, ad una sola condizione!
 Dovrai sconfiggermi in una lotta e solo allora ti sarà concesso raggiungere il Cardinale. Allora, sei d'accordo?
 Dovrai sconfiggermi in una lotta e solo allora ti sarà concesso raggiungere il Cardinale. Allora, sei d'accordo?
@@ -126,9 +126,9 @@ No
 No
 [Map4]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>>Vuoi riposarti?
@@ -181,9 +181,9 @@ Usa Box
 Use Box
 [Map5]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>> Il cestino è vuoto.
@@ -596,9 +596,9 @@ Ropert's walking in your shoes! Chop chop!
 Se hai bisogno, fammi un fischio.
 Hit me up if you need something.
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>>Gooot...!
@@ -1045,9 +1045,9 @@ It... it wasn't you?
 Sarà meglio andare a pescare altrove...
 I'd better fish somewhere else...
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 Sì
@@ -1434,9 +1434,9 @@ Kathrine
 Hai visto che bei girasoli?
 Have you seen how pretty are those sunflowers?
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: 0
 <<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: 0
 <<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: \PN
@@ -2411,9 +2411,9 @@ Karl
 Aster è davvero ben voluto da tutti, ma alle volte è un tale perfezionista...
 Aster is very beloved by everyone, but sometimes<<n>>he is such a perfectionist...
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 Michele
@@ -2450,9 +2450,9 @@ Sono qui per allargare la mia collezione di Coleotteri!
 Vedrai, metterò le mani su un Coleottero rarissimo...!
 Vedrai, metterò le mani su un Coleottero rarissimo...!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 Nello
 Nello
 Da queste parti non si fa che sentire il ruggito dei Druddigon. La loro tana dev’essere qui da qualche parte!
@@ -3737,9 +3737,9 @@ I've never seen Bug-type Pokémon like those<<n>>in my whole life!<<n>>Come to t
 Gaaa...!
 Gaaa...!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>>Immergendosi in questa melma, i tuoi Pokémon rischiano di rimanere avvelenati, perciò cerca di attraversarla in fretta!
@@ -4010,9 +4010,9 @@ Urlare massimizza il proprio ki!
 Hippoo...!
 Hippoo...!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 Pino
@@ -4274,9 +4274,9 @@ G1N0
 Schiacceremo ogni intruso! <i>Bzz!</i>
 Schiacceremo ogni intruso! <i>Bzz!</i>
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 HJ65
@@ -5431,11 +5431,11 @@ Tuuurt....!
 <<[>>old<<]>>Vuoi salire su Turtonator?
 <<[>>old<<]>>Vuoi salire su Turtonator?
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon?
-<<[>>old<<]>>Do you want to heal your Pokémon?
+<<[>>old<<]>>Would you like to heal your Pokémon?
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Un'energia arcana impedisce di proseguire...
 <<[>>old<<]>>Un'energia arcana impedisce di proseguire...
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
@@ -5757,9 +5757,9 @@ Tsk! Per stavolta hai avuto fortuna...!
 Non so se ti andrà altrettanto bene la prossima volta.
 Non so se ti andrà altrettanto bene la prossima volta.
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
@@ -6230,9 +6230,9 @@ No
 <<[>>old<<]>>Sembra essere vuoto.
 <<[>>old<<]>>It's empty.
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 Sì
@@ -7102,9 +7102,9 @@ Ehi, tappetto|a. Vedi di non starmi tra i piedi!
 \PN, ancora nessun indizio?
 [Map166]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 Will
@@ -8518,9 +8518,9 @@ E-Errore.
 Il Generale mi terrà in simpatia se ti farò fuori, intruso|a! <i>Bzz!</i>
 Il Generale mi terrà in simpatia se ti farò fuori, intruso|a! <i>Bzz!</i>
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 4XXX
 4XXX
 Questo scrigno l’ho visto prima io! <i>Bzz!</i>
@@ -9057,9 +9057,9 @@ E va bene! \PN, non resta che lasciar provare te... Fammi vedere di che pasta se
 Woh oh! Gliel'hai suonate di brutto, \PN!
 Woh oh! Gliel'hai suonate di brutto, \PN!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 Ehm, avrei voluto dirvelo prima, ma sembravate così presi... Probabilmente Daddy ha omesso questo piccolo particolare, ma sono dell'idea che questo Pokémon non sia di tipo Spettro...
@@ -9542,9 +9542,9 @@ Sala Dance
 Sala Dance
 [Map218]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 Meloetta
@@ -10487,9 +10487,9 @@ No
 [Map232]
 [Map233]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 ???
@@ -11676,9 +11676,9 @@ Modalità di gioco
 <<[>>old<<]>>Canyon Asteroide ad est
 <<[>>old<<]>>East: Sunflare Canyon
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 Joele
@@ -11793,9 +11793,9 @@ Giuliano
 Solo da Giuliano, articoli mai visti a prezzi stracciati!!
 Solo da Giuliano, articoli mai visti a prezzi stracciati!!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>>Canyon Asteroide ad est
@@ -12751,9 +12751,9 @@ No
 <<[>>old<<]>>Voilà!
 <<[>>old<<]>>Voilà!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>''Solo a chi avrà mascherato di rosso il suo volto sarà consentito mettere piede in questa stanza.''
 <<[>>old<<]>>''Solo a chi avrà mascherato di rosso il suo volto sarà consentito mettere piede in questa stanza.''
 <<[>>old<<]>>Vuoi sbloccare l'accesso?
@@ -13186,9 +13186,9 @@ Come le fiamme, anche i tuoi Pokémon rinasceranno se utilizzerai su di essi que
 Come le fiamme, anche i tuoi Pokémon rinasceranno se utilizzerai su di essi quella Ceneremagica.
 [Map301]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 Cochimetl
@@ -15544,9 +15544,9 @@ E-Errore.
 Nemmeno dietro la barriera del Sergente si può stare tranquilli... <i>Bzz!</i>
 Nemmeno dietro la barriera del Sergente si può stare tranquilli... <i>Bzz!</i>
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Una barriera laser blocca il passaggio. Bisogna sconfiggere gli ufficiali per passare!
 <<[>>old<<]>>Una barriera laser blocca il passaggio. Bisogna sconfiggere gli ufficiali per passare!
 Alice
@@ -15804,9 +15804,9 @@ Aurora
 Sto ricevendo molte segnalazioni di arresto anomalo nelle Reclute... non c’entrerai mica qualcosa?
 Sto ricevendo molte segnalazioni di arresto anomalo nelle Reclute... non c’entrerai mica qualcosa?
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Una barriera laser blocca il passaggio. Da qualche parte dev'esserci un interruttore che la disattivi!
 <<[>>old<<]>>Una barriera laser blocca il passaggio. Da qualche parte dev'esserci un interruttore che la disattivi!
 <<[>>old<<]>>Una barriera laser blocca il passaggio. Bisogna sconfiggere gli ufficiali per passare!
@@ -16950,9 +16950,9 @@ Per Aspera Ad Astra!
 [Map400]
 [Map401]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>>L'aura dorata di Ho-Oh sblocca il passaggio.
@@ -17073,9 +17073,9 @@ Questa è la Via Vittoria, un dungeon vecchio stile di quelli che piacciono tant
 Preparati, la traversata non sarà affatto facile.
 Preparati, la traversata non sarà affatto facile.
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 George
@@ -18167,9 +18167,9 @@ A quanto pare siamo sulla stessa rotta... Era ovvio che i nostri cammini si sare
 Era ovvio anche che uno dei due perdesse...
 Era ovvio anche che uno dei due perdesse...
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 Sì
@@ -19756,9 +19756,9 @@ Golden Studio
 Golden Studio
 [Map543]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Do you want to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
-<<[>>old<<]>>Do you want to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 Wallace Daddy
@@ -50538,7 +50538,7 @@ The substitute took damage for {1}!
 Un colpo critico!
 A critical hit!
 È superefficace!
-It's supereffective!
+It's super effective!
 Non è molto efficace...
 It's not very effective...
 {1} endured the hit!
@@ -50898,7 +50898,7 @@ Gravity intensified!
 {1} was unaffected!
 {1} was unaffected!
 Vuoi dare un soprannome a {1}?
-Do you want to give a nickname to {1}?
+Would you like to give a nickname to {1}?
 {1}'s nickname?
 {1}'s nickname?
 Box "{1}" on {2}'s PC was full.
