@@ -103,23 +103,25 @@ I Pokémon Drago sono i più temibili tra tutti, eppure ubbidiscono ciecamente a
 Pochissimi Pokémon sono in grado di apprendere la tecnica tramandata dalla famiglia di mio marito.
 Pochissimi Pokémon sono in grado di apprendere la tecnica tramandata dalla famiglia di mio marito.
 La sovrana mi aveva prontamente informato del tuo arrivo, Allenatore. Tuttavia, mi dispiace dirlo, ma al momento il <b>Cardinale</b> si trova sul <b>Vulcano Pulsar</b>. In via straordinaria, la sovrana mi ha concesso l'onore di garantire il privilegio di raggiungerlo, ad una sola condizione!
-La sovrana mi ha aveva prontamente informato del tuo arrivo, Allenatore. Tuttavia, mi dispiace dirlo, ma al momento il <b>Cardinale</b> si trova sul <b>Vulcano Pulsar</b>. In via straordinaria, la sovrana mi ha concesso l'onore di garantire il privilegio di raggiungerlo, ad una sola condizione!
+The Queen had promptly informed me of your arrival,<<n>>Trainer.<<n>>Anyway, I'm sorry to say that the <b>Cardinal</b> is on the top of <b>Mt. Starburst</b> at the moment.<<n>>Extraordinary, the sovereign granted me the honor<<n>>to give the permission to reach him,<<n>>but on one condition!
 Dovrai sconfiggermi in una lotta e solo allora ti sarà concesso raggiungere il Cardinale. Allora, sei d'accordo?
-Dovrai sconfiggermi in una lotta e solo allora ti sarà concesso raggiungere il Cardinale. Allora, sei d'accordo?
+You must first defeat me in a battle, and only then<<n>>you will be allowed to reach the Cardinal.<<n>>So, do you agree on the terms?
 Veliano
 Veliano
 Non sarà facile, ti avverto.
-Non sarà facile, ti avverto.
+I warn you, it won't be easy.
 Eppure sono il miglior Soldato dell'esercito di Aquariopoli...
-Eppure sono il miglior Soldato dell'esercito di Aquariopoli...
+Wha- I'm the best Soldier in Ishtar City's army...!
 Le condizioni sono queste, prendere o lasciare.
-Le condizioni sono queste, prendere o lasciare.
+These are the conditions, take it or leave it.
 La sovrana ci aveva davvero visto lungo con te.
-La sovrana ci aveva davvero visto lungo con te.
+The sovereign had seen really far on you.
+Come da parola, ora potrai recarti sulla vetta del vulcano dal <b>Cardinale Oleandro</b>. Buona fortuna!
+As we accorded, now you can go to the top of Mt. Starburst and reach <b>Cardinal Abraham</b>. Good luck!
 Buona fortuna!
-Buona fortuna!
+Good luck!
 Spiacente, Allenatore. Il Palazzo del Cardinale Oleandro resta inaccessibile fino a nuovo ordine.
-Spiacente, Allenatore. Il Palazzo del Cardinale Oleandro resta inaccessibile fino a nuovo ordine.
+I'm sorry, Trainer. Cardinal Abraham's Palace remains inaccessible until further notice.
 Sì
 Yes
 No
