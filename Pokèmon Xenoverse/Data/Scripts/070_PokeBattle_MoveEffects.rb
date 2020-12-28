@@ -2488,7 +2488,7 @@ class PokeBattle_Move_05F < PokeBattle_Move
 		atype=-1
 		for i in opponent.moves
 			if i.id==opponent.lastMoveUsed
-				atype=i.pbType
+				atype=i.type
 				break
 			end
 		end
