@@ -107,7 +107,7 @@ The Queen had promptly informed me of your arrival,<<n>>Trainer.<<n>>Anyway, I'm
 Dovrai sconfiggermi in una lotta e solo allora ti sarà concesso raggiungere il Cardinale. Allora, sei d'accordo?
 You must first defeat me in a battle, and only then<<n>>you will be allowed to reach the Cardinal.<<n>>So, do you agree on the terms?
 Veliano
-Veliano
+Radames
 Non sarà facile, ti avverto.
 I warn you, it won't be easy.
 Eppure sono il miglior Soldato dell'esercito di Aquariopoli...
@@ -5080,11 +5080,11 @@ Yes
 Draco
 Draco
 Una tradizione vuole che determinati individui affrontino il vulcano al fianco di determinati Pokémon. Tu non sembri possedere nessuno di essi...
-Una tradizione vuole che determinati individui affrontino il vulcano al fianco di determinati Pokémon. Tu non sembri possedere nessuno di essi...
+The tradition says certain individuals are destined<<n>>to challenge the volcano alongside certain Pokémon.<<n>>Seems you don't have any of those...
 <<[>>old<<]>><b>Vulcano Pulsar</b> <i>''Il cuore e la voce di Eldiw.''</i>
 <<[>>old<<]>><b>Vulcano Pulsar</b> <i>''Il cuore e la voce di Eldiw.''</i>
 Una tradizione vuole che determinati individui affrontino il vulcano al fianco di determinati Pokémon. Tu, fortunatamente, sei in possesso di uno di essi.
-Una tradizione vuole che determinati individui affrontino il vulcano al fianco di determinati Pokémon. Tu, fortunatamente, sei in possesso di uno di essi.
+The tradition says certain individuals are destined<<n>>to challenge the volcano alongside certain Pokémon.<<n>>Luckily, you have one of those.
 [Map107]
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
@@ -5095,15 +5095,19 @@ Attraversata questa grotta, ti troverai catapultato|a a <b>Cansiria</b>, il vill
 [Map108]
 [Map109]
 Tarassaco
-Tarassaco
+Taraxo
 Guarda un po' chi si vede! \PN, cosa ci fai da queste parti?
-Guarda un po' chi si vede! \PN, cosa ci fai da queste parti?
+Look who's here! \PN, what are you doing here<<n>>of all places?
 Stai cercando il <b>Cardinale Oleandro</b>? Se non erro, è solito allenarsi sulla cima del monte.
-Stai cercando il <b>Cardinale Oleandro</b>? Se non erro, è solito allenarsi sulla cima del monte.
+Are you looking for <b>Cardinal Abraham</b>?  If I'm not mistaken, he's used to train on the top of this mountain.
+Cosa ci faccio io invece? Beh, quando la scienza chiama, lo studioso risponde! Il Vulcano Pulsar è zeppo di Pokémon Fuoco tanto potenti quanto aggressivi! Pare, però, che i <b>Turtonator</b> siano tutt'altro che rissosi.
+What am I doing, you say? Well, when science calls,<<n>>the scientist answers!<<n>>Mt. Starburst is crawling with strong and aggressive Fire-type Pokémon!<<n>>However, it seems that <b>Turtonator</b> are anything but scrappy.
 Anzi, si prodigano per essere d'aiuto agli Allenatori intenzionati ad attraversare il vulcano! Sai, per raggiungere la vetta, è necessario attraversare numerose pozze laviche... è proprio qui che intervengono i Turtonator!
-Anzi, si prodigano per essere d'aiuto agli Allenatori intenzionati ad attraversare il vulcano! Sai, per raggiungere la vetta, è necessario attraversare numerose pozze laviche...  è proprio qui che intervengono i Turtonator!
+Actually, they strive to help Trainers who intend<<n>>to cross the volcano!<<n>>You see, to reach the top, it's necessary to cross over several lava pools...<<n>>That's where Turtonator come in!
+Saltando sul loro guscio, potrai oltrepassare le zone ricolme di lava e proseguire l'avventura. Per la cronaca, una volta messo piede nel Vulcano Pulsar non c'è modo di scappare, né con Funi di Fuga, né con altri mezzucci... sii prudente!
+Hop on their shells to go beyond the lava-full areas<<n>>and continue your climb.<<n>>Oh, for the record, once you set foot on Mt. Starburst<<n>>there's no way to escape,<<n>>neither using Escape Ropes or other items... be careful!
 Mi ha fatto davvero piacere rivederti. Bye-bye!
-Mi ha fatto davvero piacere rivederti. Bye-bye!
+It was nice to see you again. Bye-bye!
 Alakazam
 Alakazam
 Kazam!
@@ -5255,7 +5259,7 @@ Turtonator
 Tuuurt....!
 Tuuurt....!
 <<[>>old<<]>>Vuoi salire su Turtonator?
-<<[>>old<<]>>Vuoi salire su Turtonator?
+<<[>>old<<]>>Would you like to jump on Turtonator?
 Alessio
 Alessio
 Solo un Montanaro che si rispetti può arrivare in cima al vulcano!
@@ -5304,7 +5308,7 @@ Turtonator
 Tuuurt....!
 Tuuurt....!
 <<[>>old<<]>>Vuoi salire su Turtonator?
-<<[>>old<<]>>Vuoi salire su Turtonator?
+<<[>>old<<]>>Would you like to jump on Turtonator?
 Pakuro
 Pakuro
 Oltre la porta di casa, chiunque può esser tuo nemico!
@@ -5335,7 +5339,7 @@ Turtonator
 Tuuurt....!
 Tuuurt....!
 <<[>>old<<]>>Vuoi salire su Turtonator?
-<<[>>old<<]>>Vuoi salire su Turtonator?
+<<[>>old<<]>>Would you like to jump on Turtonator?
 Si
 Si
 No
@@ -5377,7 +5381,7 @@ Turtonator
 Tuuurt....!
 Tuuurt....!
 <<[>>old<<]>>Vuoi salire su Turtonator?
-<<[>>old<<]>>Vuoi salire su Turtonator?
+<<[>>old<<]>>Would you like to jump on Turtonator?
 Cristiana
 Cristiana
 Il vulcano è dormiente, io invece non dormo mai!
@@ -5406,7 +5410,7 @@ Turtonator
 Tuuurt....!
 Tuuurt....!
 <<[>>old<<]>>Vuoi salire su Turtonator?
-<<[>>old<<]>>Vuoi salire su Turtonator?
+<<[>>old<<]>>Would you like to jump on Turtonator?
 Maui
 Maui
 Il mio spirito combattivo ribolle come la lava!
@@ -5431,7 +5435,7 @@ Turtonator
 Tuuurt....!
 Tuuurt....!
 <<[>>old<<]>>Vuoi salire su Turtonator?
-<<[>>old<<]>>Vuoi salire su Turtonator?
+<<[>>old<<]>>Would you like to jump on Turtonator?
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon?
@@ -5447,15 +5451,15 @@ Lee
 Sei ancora troppo acerbo|a per poterti inoltrare nei territori qui fuori.
 Sei ancora troppo acerbo|a per poterti inoltrare nei territori qui fuori.
 Oleandro
-Oleandro
-\Fa' presto!!
-\Fa' presto!!
+Abraham
+Fa' presto!!
+Hurry up!!
 <<[>>old<<]>>Hai troppi Pokémon in squadra.
-<<[>>old<<]>>Hai troppi Pokémon in squadra.
+<<[>>old<<]>>You have too many Pokémon in your party.
 <<[>>old<<]>>Senti che avrai bisogno del tuo Pokémon iniziale più avanti. Posizionalo in testa alla squadra.
-<<[>>old<<]>>Senti che avrai bisogno del tuo Pokémon iniziale più avanti. Posizionalo in testa alla squadra.
+<<[>>old<<]>>You're feeling like you'll need your starter Pokémon here. Put it on top of your party.
 Si
-Si
+Yes
 No
 No
 Cura Pokémon
@@ -5468,133 +5472,163 @@ Trishout
 Triii!!
 Triii!!
 <<[>>old<<]>>Questa lotta ha fatto capire a Trishout il vero valore della vostra amicizia. Sembra che ora riesca a controllare l'Energia Blu...
-<<[>>old<<]>>Questa lotta ha fatto capire a Trishout il vero valore della vostra amicizia. Sembra che ora riesca a controllare l'Energia Blu...
+<<[>>old<<]>>The battle made Trishout realize the real value of your friendship. Looks like it can control Blue Energy now...
 Oleandro
-Oleandro
+Abraham
 Fortunatamente tutto si è concluso per il meglio.
-Fortunatamente tutto si è concluso per il meglio.
+Fortunately, everything turned out well in the end.
+L'amicizia tra compagni d'avventura sovrasta ogni sortilegio... Dico bene, Scaleon?
+Friendship between fellow adventurers overwhelms<<n>>every spell... Am I right, Scaleon?
 Scaleon
 Scaleon
 Scaaa...!
 Scaaa...!
 Ora che hai quel potere tra le mani, cerca di limitare gli eccessi.
-Ora che hai quel potere tra le mani, cerca di limitare gli eccessi.
+Now you have that power in your hands, try to limit<<n>>the excesses.
+Come avrai ben visto, è un potere che trova fondamento nell'odio per cui, se mal gestito, potrebbe portare a gravi conseguenze. Mi raccomando, fanne buon uso.
+As you have seen, it is a power which has its foundation<<n>>in hatred, so when mishandled,<<n>>it could lead to severe consequences.<<n>>I urge you to use it well.
 Mi ha fatto davvero piacere conoscerti, \PN.
-Mi ha fatto davvero piacere conoscerti, \PN.
+It has been a real pleasure knowing you, \PN.
+Erano anni che non mi capitava di incontrare un Allenatore valente come te...
+It's been years since I last had the chance to meet<<n>>a valiant Trainer like you...
 Con questo potere, potrai fronteggiare Victor e il suo Team Dimension ad armi pari. Tieni bene a mente che anche il supremo Luxflon veglia sul tuo cammino e ti protegge!
-Con questo potere, potrai fronteggiare Victor e il suo Team Dimension ad armi pari. Tieni bene a mente che anche il supremo Luxflon veglia sul tuo cammino e ti protegge!
+With that power, you will finally level the playing field<<n>>with Victor and his Team Dimension.<<n>>Just remember that the almighty Luxflon watches<<n>>over your path and protects you!
 Ah, quasi dimenticavo!
-Ah, quasi dimenticavo!
+Oh, I almost forgot!
+Ora che hai risolto questa faccenda, sono certo che Verbena sia pronta per una sfida in Palestra con te. Occhi aperti! Non sarà grande e nerboruta come il suo nonno, ma non ci va leggera! Wah ah ah!
+Now you've resolved this issue, I am sure that Nuphar<<n>>is ready to challenge you in her Gym.<<n>>But watch out! She could not be as large and muscular as her granddad, but she doesn't mess around! Wa ha ha!
 Vorrei anche darti un piccolo regalo da parte mia, prendilo.
-Vorrei anche darti un piccolo regalo da parte mia, prendilo.
+I want you to take this little present from me, too.
 Questa è la gemma dell'<b>Ikarium N</b>.
-Questa è la gemma dell'<b>Ikarium N</b>.
+This is the mineral of the <b>Ikarium H</b>.
+Con quel marchingegno creato da Aster, potrai richiamare il mio <b>Scaleon</b> per solcare i cieli di Eldiw e ritornare in un luogo visitato in precedenza. Provalo subito per tornare ad Aquariopoli, se vuoi!
+Using that contraption created by Aster, you can invoke<<n>>my Scaleon to plough the skies above Eldiw<<n>>and get back to places you already visited.<<n>>Why don't you give it a try and fly back to Ishtar?
 Fatti valere contro mia nipote, mi raccomando!
-Fatti valere contro mia nipote, mi raccomando!
+Promise me you will stand your ground with my nephew!
 Shyleon
 Shyleon
 Shyyy!!
 Shyyy!!
 <<[>>old<<]>>Questa lotta ha fatto capire a Shyleon il vero valore della vostra amicizia. Sembra che ora riesca a controllare l'Energia Blu...
-<<[>>old<<]>>Questa lotta ha fatto capire a Shyleon il vero valore della vostra amicizia. Sembra che ora riesca a controllare l'Energia Blu...
+<<[>>old<<]>>The battle made Shyleon realize the real value of your friendship. Looks like it can control Blue Energy now...
 Shulong
 Shulong
 Shuuu!!
 Shuuu!!
 <<[>>old<<]>>Questa lotta ha fatto capire a Shulong il vero valore della vostra amicizia. Sembra che ora riesca a controllare l'Energia Blu...
-<<[>>old<<]>>Questa lotta ha fatto capire a Shulong il vero valore della vostra amicizia. Sembra che ora riesca a controllare l'Energia Blu...
+<<[>>old<<]>>The battle made Shulong realize the real value of your friendship. Looks like it can control Blue Energy now...
 Dove pensi di andare?! Non puoi lasciare il tuo Pokémon a piede libero!
-Dove pensi di andare?! Non puoi lasciare il tuo Pokémon a piede libero!
+Where are you going, lad?! You cannot let<<n>>your Pokémon run wild!
 \PN, prova a placare l'animo del tuo Pokémon ora.
-\PN, prova a placare l'animo del tuo Pokémon ora.
+\PN, try to appease your Pokémon's mind now.
 ???
 ???
 ...
 ...
 Via, sto meditando.
-Via, sto meditando.
+Leave, I'm meditating.
 Ti ho detto di andartene! Io e il mio <b>Scaleon</b> siamo nel pieno dell'allenamento!
-Ti ho detto di andartene! Io e il mio <b>Scaleon</b> siamo nel pieno dell'allenamento!
+I told you to leave! Me and my <b>Scaleon</b><<n>>are in the midst of our training!
 <b>Verbena</b> dici? Devi essere in gamba se sei giunto sino a qui solo per consegnarmi quest'acqua.
-<b>Verbena</b> dici? Devi essere in gamba se sei giunto sino a qui solo per consegnarmi quest'acqua.
+<b>Nuphar</b>, you said? You must be quite tough if you could make it here only to deliver me this water.
 Non dev'essere stato facile... Lascia che ne offra un po' a te e ai tuoi Pokémon, vi rimetterà in sesto.
-Non dev'essere stato facile... Lascia che ne offra un po' a te e ai tuoi Pokémon, vi rimetterà in sesto.
+I reckon it was hard... Let me give you and your Pokémon some, it will get your strength back. 
 Perdonami, non mi sono presentato.
-Perdonami, non mi sono presentato.
+Bless me, I didn't introduce myself.
 Il mio nome è <b>Oleandro</b>.
-Il mio nome è <b>Oleandro</b>.
+My name is <b>Abraham</b>.
+Tra i quattro <b>Cardinali</b> di Eldiw sono colui che protegge il suolo su cui ora muovi i passi. Il Vulcano Pulsar è il cuore pulsante della regione e, senza il giusto equilibrio, rischierebbe di mandare in malora il suo stesso ecosistema. Io sono qui per scongiurare ciò, ma al tempo stesso ne approfitto per temprare lo spirito. Hai visto, Scaleon? Qualcuno si è recato a farci visita.
+Amongst the <b>Four Cardinals</b> of Eldiw, I am the one<<n>>who protects the ground you're walking on.<<n>>Mt. Starburst is the heartbeat of our region and, without<<n>>a proper balance, it'd risk destroying its own ecosystem.<<n>>I'm here to ward it off, and at the same time,<<n>>I take the opportunity to temper the spirit.<<n>>Did you see that, Scaleon? Someone came here for a visit.
 Mio|a giovane amico|a, allora dimmi... Sei qui per auscultare le antiche leggende? Sai, le conosco tutte a menadito.
-Mio|a giovane amico|a, allora dimmi... Sei qui per auscultare le antiche leggende? Sai, le conosco tutte a menadito.
+Then tell me, my young friend... Do you want to listen to<<n>>the old legends? You see, I know them all inside out.
 Chi crede che abbia 500 anni non è poi così lontano dal vero. Wah ah ah!
-Chi crede che abbia 500 anni non è poi così lontano dal vero. Wah ah ah!
+Whoever believes I'm more than 500 years old is not<<n>>that far from the truth. Wa ha ha!
 Però... se l'intuito non m'inganna, tu sei qui per altro, vero? ... Sai, mi rammenti una persona...
-Però... se l'intuito non m'inganna, tu sei qui per altro, vero? ... Sai, mi rammenti una persona...
+But... if my guess serves, that's not what you're here for,<<n>>am I right?<<n>>...<<n>>You know, you remind me of a person...
 Ma certo! Devi essere il||la figlio|a di <b>Versil</b>! Siete davvero due gocce d'acqua...
-Ma certo! Devi essere il||la figlio|a di <b>Versil</b>! Siete davvero due gocce d'acqua...
+Of course! You must be <b>Versil</b>'s child!<<n>>You are two of a kind...
 Quel grand'uomo di tuo padre era una vera risorsa per la regione... L'infausta notizia della sua scomparsa è stata un vero colpo per noi tutti.
-Quel grand'uomo di tuo padre era una vera risorsa per la regione... L'infausta notizia della sua scomparsa è stata un vero colpo per noi tutti.
+Your father was a great man and a real asset<<n>>to our region...<<n>>The terrible news of his disappearance was quite a shock for all of us.
 Ah, perdona il mio comportamento poco cortese. Come hai detto di chiamarti?
-Ah, perdona il mio comportamento poco cortese. Come hai detto di chiamarti?
+Oh, forgive my rude demeanor. What did you say<<n>>your name was?
+\PN... Immagino tu sia qui per cercare risposte, vero ragazzo|a? Or bene, ti dirò tutto ciò che so al riguardo, ma sii forte perché questa storia non ha un lieto fine.
+\PN... I assume you came here seeking answers,<<n>>don't you, kid?<<n>>Or good, I'll tell you everything I know about it, but stay strong because this story doesn’t end well.
 Devi sapere che tuo padre è sempre stato affascinato dalla scienza e dal progresso... Decise infatti, assieme al suo migliore amico, <b>Victor</b>, di istituire un laboratorio a Balansopoli, con lo scopo di renderlo il più grande della regione.
-Devi sapere che tuo padre è sempre stato affascinato dalla scienza e dal progresso... Decise infatti, assieme al suo migliore amico, <b>Victor</b>, di istituire un laboratorio a Balansopoli, con lo scopo di renderlo il più grande della regione.
+You should know that your father has always been<<n>>fascinated with science and its progress...<<n>>He indeed decided, along with his best friend, <b>Victor</b>, to set up a laboratory in Hadwarf City,<<n>>with the purpose of making it the biggest one in the region.
+Victor non era un abile Allenatore, ma al contrario il suo intelletto era sopraffino... In parole povere, era la spalla perfetta per tuo padre.
+Victor wasn't a skillful Trainer, but rather<<n>>he was a first-class mind...<<n>>In other words, he was a perfect wingman for your father.
 A poco a poco, lo staff del laboratorio si impreziosì di nuovi collaboratori, divenendo noto in tutta Eldiw. Tra questi c'era anche il celebre <b>Aster</b>, ai tempi un ragazzetto della tua età circa, ritenuto un assistente ottimo e particolarmente brillante.
-A poco a poco, lo staff del laboratorio si impreziosì di nuovi collaboratori, divenendo noto in tutta Eldiw. Tra questi c'era anche il celebre <b>Aster</b>, ai tempi un ragazzetto della tua età circa, ritenuto un assistente ottimo e particolarmente brillante.
+Step by step, the lab's staff enriched with new co-workers and became well-known all over Eldiw.<<n>>Among them was the renowned <b>Aster</b>,<<n>>a young teenager like you back then,<<n>>who was considered an excellent and particularly bright assistant.
 Insomma, tuo padre faceva il lavoro dei suoi sogni, assieme ai suoi amici e alla sua splendida famiglia. Poi però accadde l'impensabile... Quello che porti all'orecchio è il <b>Codice Terrestre</b>, vero?
-Insomma, tuo padre faceva il lavoro dei suoi sogni, assieme ai suoi amici e alla sua splendida famiglia. Poi però accadde l'impensabile... Quello che porti all'orecchio è il <b>Codice Terrestre</b>, vero?
+In short, your father was doing his dream job,<<n>>along with his friends and with a splendid family.<<n>>But then, the unthinkable... That you're wearing in<<n>>your ear is the <b>Terrestrial Core</b>, isn't it?
+Direi dunque che tu sia a conoscenza dei recenti attacchi dei Pokémon X... Negli ultimi tempi, sono diventati all'ordine del giorno, ma la loro scoperta non è cosa recente... furono proprio tuo padre e Victor a farla!
+Therefore, I shall say you are aware of the recent attacks by X Pokémon...<<n>>They have become commonplace nowadays,<<n>>but their discovery is not a recent thing...<<n>>Your father and Victor made it!
 Creature provenienti da chissà quale universo... La mente dell'uomo poteva spingersi oltre! Versil era convinto che questi esemplari andassero allevati come normalissimi Pokémon. Victor, però, aveva ideali del tutto opposti.
-Creature provenienti da chissà quale universo... La mente dell'uomo poteva spingersi oltre! Versil era convinto che questi esemplari andassero allevati come normalissimi Pokémon. Victor, però, aveva ideali del tutto opposti.
+Creatures from a mysterious universe...<<n>>The human mind could finally go further!<<n>>Versil believed that these specimens had to be bred<<n>>as normal Pokémon.<<n>>But Victor had completely opposite ideals.
+Da quel momento, le strade dei due si divisero e la passione ardente nel laboratorio andò scemando. Victor, certo delle sue idee, si licenziò, promettendo che avrebbe trovato una soluzione al problema. Con i fondi acquisiti tramite i suoi studi mise in piedi una sua personale organizzazione, con lo scopo di suggellare per sempre i Pokémon X.
+Since then, their paths diverged and the passion<<n>>burning in the laboratory wound down.<<n>>Invested in his ideas, Victor quitted and promised<<n>>he would have found a solution to the problem.<<n>>Using the funds acquired in his studies,<<n>>he set up his personal organization<<n>>with the sole purpose of sealing the X Pokémon forever.
 Ebbene, Victor è la mente dietro il <b>Team Dimension</b>!
-Ebbene, Victor è la mente dietro il <b>Team Dimension</b>!
+Well, Victor is the brains behind <b>Team Dimension</b>!
 Ragazzo|a, è perciò assai probabile che sia stato proprio lui a far sparire tuo padre Versil, in modo da non avere più alcun oppositore.
-Ragazzo|a, è perciò assai probabile che sia stato proprio lui a far sparire tuo padre Versil, in modo da non avere più alcun oppositore.
+Kid, it's very probable that he was the one who made<<n>>your father Versil disappear,<<n>>so that he could have no opponents.
+Per sua sventura, però, il suo amore è stato preso in eredità dalla nuova generazione guidata da Aster... Credimi, il Team Dimension non poteva farsi nemico peggiore!
+But, unfortunately for him, his love has been inherited<<n>>by the new generation led by Aster...<<n>>Trust me, Team Dimension couldn't have made<<n>>a worse enemy!
 Ora ti chiedo di venire con me, \PN. Ho qualcosa da mostrarti.
-Ora ti chiedo di venire con me, \PN. Ho qualcosa da mostrarti.
+Now I ask you to come with me, \PN.<<n>>Got something to show you.
 Forza, figliolo|a! Seguimi.
-Forza, figliolo|a! Seguimi.
+Here, kid! Follow me.
 Oh, chi si rivede! \PN! Hai già sfidato mia nipote in Palestra?
-Oh, chi si rivede! \PN! Hai già sfidato mia nipote in Palestra?
+Oh, look who's back! \PN! Have you already battled<<n>>my nephew in her Gym?
 \PN, per di qua!
-\PN, per di qua!
+\PN, this way!
 Scaleon è riuscito a stargli alle calcagna... il tuo Pokémon non ha più scampo! Adesso però tocca a te placare la sua ira... sei l'unico|a che possa farlo!
-Scaleon è riuscito a stargli alle calcagna... il tuo Pokémon non ha più scampo! Adesso però tocca a te placare la sua ira... sei l'unico|a che possa farlo!
+Scaleon has been right on its tail... your Pokémon<<n>>can't escape now!<<n>>But now, it's your duty to appease its rage...<<n>>you're the only one who can do it!
 <<[>>old<<]>>\PN prova a calmare Trishout.
-<<[>>old<<]>>\PN prova a calmare Trishout.
+<<[>>old<<]>>\PN tried to calm Trishout down.
 Qualcuno qui è nei pasticci, eh?
-Qualcuno qui è nei pasticci, eh?
+Someone's in trouble here, huh?
 Gengar
 Gengar
 Direi proprio di sì! Gengah ah ah!
-Direi proprio di sì! Gengah ah ah!
+I'd definitely say so! Genga ha ha!
 U-Un Pokémon X?!
-U-Un Pokémon X?!
+ A-An X Pokémon?!
 Pare che io sia famoso anche tra i vecchi bacucchi, ma non sono qui per gli ammiratori... Gengah ah ah! Ho un conto in sospeso con questo|a marmocchio|a!
-Pare che io sia famoso anche tra i vecchi bacucchi, ma non sono qui per gli ammiratori... Gengah ah ah! Ho un conto in sospeso con questo|a marmocchio|a!
+Looks like I'm famous among old fogeys too,<<n>>but I'm not here for my admirers... Genga ha ha!<<n>>I got a bone to pick with this brat right here!
 Trishout ormai è un valoroso membro dell'esercito dello Xenoverse e grazie a lui avrò la mia vendetta! Si dice che sia un pasto da servire freddo, ma non importa... All'attacco!!
-Trishout ormai è un valoroso membro dell'esercito dello Xenoverse e grazie a lui avrò la mia vendetta! Si dice che sia un pasto da servire freddo, ma non importa... All'attacco!!
+Trishout is a valid member of the Xenoverse army now,<<n>>and through it I'll get my revenge!<<n>>They say it's sweetest when it's served up cold,<<n>>but who cares... Take him||er down!!
 La situazione è più grave del previsto! Scaleon! Vai a dare manforte a \PN!!
-La situazione è più grave del previsto! Scaleon! Vai a dare manforte a \PN!!
+The situation is worse than expected!<<n>>Scaleon! Go over and help \PN!!
 <<[>>old<<]>>\PN prova a calmare Shyleon.
-<<[>>old<<]>>\PN prova a calmare Shyleon.
+<<[>>old<<]>>\PN tried to calm Shyleon down.
 Shyleon ormai è un valoroso membro dell'esercito dello Xenoverse e grazie a lui avrò la mia vendetta! Si dice che sia un pasto da servire freddo, ma non importa... All'attacco!!
-Shyleon ormai è un valoroso membro dell'esercito dello Xenoverse e grazie a lui avrò la mia vendetta! Si dice che sia un pasto da servire freddo, ma non importa... All'attacco!!
+Shyleon is a valid member of the Xenoverse army now,<<n>>and through it I'll get my revenge!<<n>>They say it's sweetest when it's served up cold,<<n>>but who cares... Take him||er down!!
 <<[>>old<<]>>\PN prova a calmare Shulong.
-<<[>>old<<]>>\PN prova a calmare Shulong.
+<<[>>old<<]>>\PN tried to calm Shulong down.
 Shulong ormai è un valoroso membro dell'esercito dello Xenoverse e grazie a lui avrò la mia vendetta! Si dice che sia un pasto da servire freddo, ma non importa... All'attacco!!
-Shulong ormai è un valoroso membro dell'esercito dello Xenoverse e grazie a lui avrò la mia vendetta! Si dice che sia un pasto da servire freddo, ma non importa... All'attacco!!
+Shulong is a valid member of the Xenoverse army now,<<n>>and through it I'll get my revenge!<<n>>They say it's sweetest when it's served up cold,<<n>>but who cares... Take him||er down!!
 No! No! No! No e poi no!! Come fai sempre a sfangarla?!!
-No! No! No! No e poi no!! Come fai sempre a sfangarla?!!
+No! No! No! No and again no!!<<n>>How can you always come out right?!
 Tri...!
 Tri...!
+Trishout, distruggi questa nullità in nome del nostro Signore!!
+Trishout, destroy this nobody in the name of our Lord!!
 Come osi voltarmi le spalle e fare comunella con questi miseri esseri?! Noi siamo superiori!!
-Come osi voltarmi le spalle e fare comunella con questi miseri esseri?! Noi siamo superiori!!
+How dare you turn your back on me and join<<n>>these miserable beings?! We're superior!!
 (Ora come ora è troppo forte, non la scamperei facilmente...)
-(Ora come ora è troppo forte, non la scamperei facilmente...)
+(He is|||||She's too strong for me right now, I wouldn't get out of it that easily...)
+Bah, fa' come ti pare! Questi stolti se la vedranno col padrone e, allora, sarà la fine per loro!
+Bah, whatever! These fools will deal with the master,<<n>>and then it will be the end for them!
 E tu, bamboccio|a, sappi che un giorno tornerò a vendicarmi con le mie mani! Fino ad allora, adieu! Gengah ah ah!
-E tu, bamboccio|a, sappi che un giorno tornerò a vendicarmi con le mie mani! Fino ad allora, adieu! Gengah ah ah!
+And you little brat, just know that someday,<<n>>I'll get my revenge with my own hands!<<n>>But until that day... adieu! Genga ha ha!
 Shy...!
 Shy...!
+Shyleon, distruggi questa nullità in nome del nostro Signore!!
+Shyleon, destroy this nobody in the name of our Lord!!
 Shu...!
 Shu...!
+Shulong, distruggi questa nullità in nome del nostro Signore!!
+Shulong, destroy this nobody in the name of our Lord!!
 [Map127]
 ???
 ???
@@ -5999,17 +6033,19 @@ No
 No
 [Map139]
 Oleandro
-Oleandro
+Abraham
 Ma che diamine succede?!
-Ma che diamine succede?!
+What the heck is happening?!
 Sembra che non riesca a controllare l'Energia Blu! \PN, riporta il tuo Pokémon allo stadio base!!
-Sembra che non riesca a controllare l'Energia Blu! \PN, riporta il tuo Pokémon allo stadio base!!
+It doesn't seem to be able to control Blue Energy!<<n>>\PN, take your Pokémon back to its basic form!!
 Trishout
 Trishout
 Triii!!
 Triii!!
 Argh! E ora dov'è finito?! La situazione è critica, \PN.
-Argh! E ora dov'è finito?! La situazione è critica, \PN.
+Argh! Where did it go now?!<<n>>The situation is critical,\PN.
+Il tuo Pokémon è scappato, ma non dev'essere andato lontano... Sarà sicuramente ancora in giro per il vulcano! Io andrò sulla vetta, non c'è tempo da perdere!
+Your Pokémon has run away, but I guess it hasn't<<n>>gone far...<<n>>I'm sure it is still wandering around the volcano!<<n>>There's no time to waste, I'm going to the top!
 Shulong
 Shulong
 Shuuu!!
@@ -6019,21 +6055,23 @@ Shyleon
 Shyyy!!
 Shyyy!!
 Vedo che sei riuscito|a ad ottenere il <b>Codice</b> <b>Xenoverse</b>... Perché non provi subito il nuovo potere, \PN? Forza, dai l'Anello al tuo Pokémon iniziale!
-Vedo che sei riuscito|a ad ottenere il <b>Codice</b> <b>Xenoverse</b>... Perché non provi subito il nuovo potere, \PN? Forza, dai l'Anello al tuo Pokémon iniziale!
+I see you managed to get the <b>Xenoversal</b><<n>><b>Core</b>...<<n>>Why don't you try the new power right now, \PN?<<n>>Go on, give the Ring to your starter Pokémon!
 <<[>>old<<]>>Assegna l'Anello Xenoverse al tuo Pokémon iniziale e mettilo in testa alla squadra per continuare.
 <<[>>old<<]>>Give the Xenoversal Ring to your starter Pokémon and put it on top of your party to continue.
 Guarda, il tuo Pokémon ha cambiato forma!
-Guarda, il tuo Pokémon ha cambiato forma!
+Look, your Pokémon has changed form!
 È dunque questa l'essenza del Codice Xenoverse...
-È dunque questa l'essenza del Codice Xenoverse...
+Therefore this is the essence of the Xenoversal Core...
+Il tuo Pokémon ha un aspetto del tutto diverso, molto più selvaggio e animalesco, proprio perché lo Xenoverse non conosce sviluppo.
+Your Pokémon has a whole different look,<<n>>more savage and more animal,<<n>>just because the Xenoverse knows no development.
 Bravo|a, \PN. Hai saputo imbrigliare il tuo odio per diventare più forte... Su, va' a prendere il tuo Pokémon. Si torna a Cansiria!
-Bravo|a, \PN. Hai saputo imbrigliare il tuo odio per diventare più forte... Su, va' a prendere il tuo Pokémon. Si torna a Cansiria!
+Bravo, \PN. You've been able to bridle your hatred<<n>>and become stronger...<<n>>Go on, take your Pokémon.<<n>>We're going back to Fortbelt now!
 Su, va' a prendere il tuo Pokémon.
-Su, va' a prendere il tuo Pokémon.
+Go on, take your Pokémon.
 Scaleon
 Scaleon
 Scaaa
-Scaaa
+Scaaa!
 [Map140]
 <<[>>old<<]>>Sembrerebbe esserci un Pokémon depositato in questo vecchio Box... vuoi ritirarlo?
 <<[>>old<<]>>Looks like there's a Pokémon in this old Box... would you like to withdraw it?
@@ -11875,7 +11913,7 @@ I think I told you everything you needed,<<n>>\PN.<<n>>This journey will help yo
 Ah, che sbadata! Non ti ho detto come raggiungere Cansiria. Vediamo... Tornato|a nel <b>Cunicolo Gravità</b>, dirigiti verso nord.
 Ah, foolish me! I did not tell you how to get to Fortbelt.<<n>>So...<<n>>Go back to the <b>Gravity Tunnel</b> and head north.
 Lì un grande masso ti bloccherà la strada, ma non ti abbattere. Inserendo questo <b>Heraclium N</b> nel PokéWES, <b>Holo-Hercurcules</b> ti permetterà di smuoverlo!
-There you will find a huge boulder blocking your way,<<n>>but don't beat yourself up.<<n>>Insert this <b>Heraculeum H</b> inside your PokéWES,<<n>>and <b>Holo-Hercurcules</b> will move it for you! 
+There you will find a huge boulder blocking your way,<<n>>but don't beat yourself up.<<n>>Insert this <b>Herculeum H</b> inside your PokéWES,<<n>>and <b>Holo-Hercurcules</b> will move it for you! 
 Ora va', \PN, e torna vincente!
 Now go, \PN, and come back victorious!
 Lo capisco, torna quando ti sentirai pronto|a.
@@ -19118,7 +19156,7 @@ Turtonator
 Tuuurt....!
 Tuuurt....!
 <<[>>old<<]>>Vuoi salire su Turtonator?
-<<[>>old<<]>>Vuoi salire su Turtonator?
+<<[>>old<<]>>Would you like to jump on Turtonator?
 Charmeleon
 Charmeleon
 Char...!
@@ -44387,7 +44425,7 @@ Ghali
 Quasim
 Quasim
 Veliano
-Veliano
+Radames
 Fida
 Fida
 Mazhar
