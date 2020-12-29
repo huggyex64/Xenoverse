@@ -317,9 +317,10 @@ def pbDebugMenu
     if cmd=="switches"
       pbFadeOutIn(99999) { pbDebugScreen(0) }
     elsif cmd=="variables"
-      $scene=nil
+      pbFadeOutIn(99999) { pbDebugScreen(1) }
     elsif cmd=="refreshmap"
-      $scene=nil
+      $game_map.need_refresh = true
+      Kernel.pbMessage(_INTL("The map will refresh."))
     elsif cmd=="warp"
       map=pbWarpToMap()
       if map
@@ -345,13 +346,51 @@ def pbDebugMenu
         return
       end
     elsif cmd=="healparty"
-      $scene=nil
+      for i in $Trainer.party
+        i.heal
+      end
+      Kernel.pbMessage(_INTL("Your Pok�mon were healed."))
     elsif cmd=="additem"
-      $scene=nil
+      item=pbListScreen(_INTL("ADD ITEM"),ItemLister.new(0))
+      if item && item>0
+        params=ChooseNumberParams.new
+        params.setRange(1,BAGMAXPERSLOT)
+        params.setInitialValue(1)
+        params.setCancelValue(0)
+        qty=Kernel.pbMessageChooseNumber(
+           _INTL("Choose the number of items."),params
+        )
+        if qty>0
+          if qty==1
+            Kernel.pbReceiveItem(item)
+          else
+            Kernel.pbMessage(_INTL("The item was added."))
+            $PokemonBag.pbStoreItem(item,qty)
+          end
+        end
+      end
     elsif cmd=="fillbag"
-      $scene=nil
+      params=ChooseNumberParams.new
+      params.setRange(1,BAGMAXPERSLOT)
+      params.setInitialValue(1)
+      params.setCancelValue(0)
+      qty=Kernel.pbMessageChooseNumber(
+         _INTL("Choose the number of items."),params
+      )
+      if qty>0
+        itemconsts=[]
+        for i in PBItems.constants
+          itemconsts.push(PBItems.const_get(i))
+        end
+        itemconsts.sort!{|a,b| a<=>b}
+        for i in itemconsts
+          $PokemonBag.pbStoreItem(i,qty)
+        end
+        Kernel.pbMessage(_INTL("The Bag was filled with {1} of each item.",qty))
+      end
     elsif cmd=="clearbag"
-      $scene=nil
+      $PokemonBag.clear
+      Kernel.pbMessage(_INTL("The Bag was cleared."))
     elsif cmd=="addpokemon"
       species=pbChooseSpeciesOrdered(1)
       if species!=0
@@ -360,7 +399,7 @@ def pbDebugMenu
         params.setInitialValue(5)
         params.setCancelValue(0)
         level=Kernel.pbMessageChooseNumber(
-           _INTL("Set the Pokémon's level."),params)
+           _INTL("Set the Pok�mon's level."),params)
         if level>0
           pbAddPokemon(species,level)
         end
@@ -376,83 +415,404 @@ def pbDebugMenu
     elsif cmd=="fillboxes"
       $scene=nil
     elsif cmd=="clearboxes"
-      $scene=nil
+      for i in 0...$PokemonStorage.maxBoxes
+        for j in 0...$PokemonStorage.maxPokemon(i)
+          $PokemonStorage[i,j]=nil
+        end
+      end
+      Kernel.pbMessage(_INTL("The Boxes were cleared."))
     elsif cmd=="usepc"
-      $scene=nil
+      pbPokeCenterPC
     elsif cmd=="setplayer"
-      $scene=nil
+      limit=0
+      for i in 0...8
+        meta=pbGetMetadata(0,MetadataPlayerA+i)
+        if !meta
+          limit=i
+          break
+        end
+      end
+      if limit<=1
+        Kernel.pbMessage(_INTL("There is only one player defined."))
+      else
+        params=ChooseNumberParams.new
+        params.setRange(0,limit-1)
+        params.setDefaultValue($PokemonGlobal.playerID)
+        newid=Kernel.pbMessageChooseNumber(
+           _INTL("Choose the new player character."),params)
+        if newid!=$PokemonGlobal.playerID
+          pbChangePlayer(newid)
+          Kernel.pbMessage(_INTL("The player character was changed."))
+        end
+      end
     elsif cmd=="renameplayer"
-      $scene=nil
+      trname=pbEnterPlayerName("Your name?",0,7,$Trainer.name)
+      if trname==""
+        trainertype=pbGetPlayerTrainerType
+        gender=pbGetTrainerTypeGender(trainertype) 
+        trname=pbSuggestTrainerName(gender)
+      end
+      $Trainer.name=trname
+      Kernel.pbMessage(_INTL("The player's name was changed to {1}.",$Trainer.name))
     elsif cmd=="randomid"
-      $scene=nil
+      $Trainer.id=rand(256)
+      $Trainer.id|=rand(256)<<8
+      $Trainer.id|=rand(256)<<16
+      $Trainer.id|=rand(256)<<24
+      Kernel.pbMessage(_INTL("The player's ID was changed to {1} (2).",$Trainer.publicID,$Trainer.id))
     elsif cmd=="changeoutfit"
-      $scene=nil
+      oldoutfit=$Trainer.outfit
+      params=ChooseNumberParams.new
+      params.setRange(0,99)
+      params.setDefaultValue(oldoutfit)
+      $Trainer.outfit=Kernel.pbMessageChooseNumber(_INTL("Set the player's outfit."),params)
+      Kernel.pbMessage(_INTL("Player's outfit was changed.")) if $Trainer.outfit!=oldoutfit
     elsif cmd=="setmoney"
-      $scene=nil
+      params=ChooseNumberParams.new
+      params.setMaxDigits(6)
+      params.setDefaultValue($Trainer.money)
+      $Trainer.money=Kernel.pbMessageChooseNumber(
+         _INTL("Set the player's money."),params)
+      Kernel.pbMessage(_INTL("You now have ${1}.",$Trainer.money))
     elsif cmd=="setcoins"
-      $scene=nil
+      params=ChooseNumberParams.new
+      params.setRange(0,MAXCOINS)
+      params.setDefaultValue($PokemonGlobal.coins)
+      $PokemonGlobal.coins=Kernel.pbMessageChooseNumber(
+         _INTL("Set the player's Coin amount."),params)
+      Kernel.pbMessage(_INTL("You now have {1} Coins.",$PokemonGlobal.coins))
     elsif cmd=="setbadges"
-      $scene=nil
+      badgecmd=0
+      loop do
+        badgecmds=[]
+        for i in 0...32
+          badgecmds.push(_INTL("{1} Badge {2}",$Trainer.badges[i] ? "[Y]" : "[  ]",i+1))
+        end
+        badgecmd=Kernel.pbShowCommands(nil,badgecmds,-1,badgecmd)
+        break if badgecmd<0
+        $Trainer.badges[badgecmd]=!$Trainer.badges[badgecmd]
+      end
     elsif cmd=="demoparty"
-      $scene=nil
+      pbCreatePokemon
+      Kernel.pbMessage(_INTL("Filled party with demo Pok�mon."))
     elsif cmd=="toggleshoes"
-      $scene=nil
+      $PokemonGlobal.runningShoes=!$PokemonGlobal.runningShoes
+      Kernel.pbMessage(_INTL("Gave Running Shoes.")) if $PokemonGlobal.runningShoes
+      Kernel.pbMessage(_INTL("Lost Running Shoes.")) if !$PokemonGlobal.runningShoes
     elsif cmd=="togglepokegear"
-      $scene=nil
+      $Trainer.pokegear=!$Trainer.pokegear
+      Kernel.pbMessage(_INTL("Gave Pok�gear.")) if $Trainer.pokegear
+      Kernel.pbMessage(_INTL("Lost Pok�gear.")) if !$Trainer.pokegear
     elsif cmd=="togglepokedex"
-      $scene=nil
+      $Trainer.pokedex=!$Trainer.pokedex
+      Kernel.pbMessage(_INTL("Gave Pok�dex.")) if $Trainer.pokedex
+      Kernel.pbMessage(_INTL("Lost Pok�dex.")) if !$Trainer.pokedex
     elsif cmd=="dexlists"
-      $scene=nil
+      dexescmd=0
+      loop do
+        dexescmds=[]
+        d=pbDexNames
+        for i in 0...d.length
+          name=d[i]
+          name=name[0] if name.is_a?(Array)
+          dexindex=i
+          unlocked=$PokemonGlobal.pokedexUnlocked[dexindex]
+          dexescmds.push(_INTL("{1} {2}",unlocked ? "[Y]" : "[  ]",name))
+        end
+        dexescmd=Kernel.pbShowCommands(nil,dexescmds,-1,dexescmd)
+        break if dexescmd<0
+        dexindex=dexescmd
+        if $PokemonGlobal.pokedexUnlocked[dexindex]
+          pbLockDex(dexindex)
+        else
+          pbUnlockDex(dexindex)
+        end
+      end
     elsif cmd=="togglemegaring"
-      $scene=nil
+      $PokemonGlobal.megaRing=!$PokemonGlobal.megaRing
+      Kernel.pbMessage(_INTL("Gave Mega Ring.")) if $PokemonGlobal.megaRing
+      Kernel.pbMessage(_INTL("Lost Mega Ring.")) if !$PokemonGlobal.megaRing
     elsif cmd=="readyrematches"
-      $scene=nil
+      if !$PokemonGlobal.phoneNumbers || $PokemonGlobal.phoneNumbers.length==0
+        Kernel.pbMessage(_INTL("There are no trainers in the Phone."))
+      else
+        for i in $PokemonGlobal.phoneNumbers
+          if i.length==8 # A trainer with an event
+            i[4]=2
+            pbSetReadyToBattle(i)
+          end
+        end
+        Kernel.pbMessage(_INTL("All trainers in the Phone are now ready to rebattle."))
+      end
     elsif cmd=="mysterygift"
-      $scene=nil
+      pbManageMysteryGifts
     elsif cmd=="daycare"
-      $scene=nil
+      daycarecmd=0
+      loop do
+        daycarecmds=[
+           _INTL("Summary"),
+           _INTL("Deposit Pok�mon"),
+           _INTL("Withdraw Pok�mon"),
+           _INTL("Generate egg"),
+           _INTL("Collect egg"),
+           _INTL("Dispose egg")
+        ]
+        daycarecmd=Kernel.pbShowCommands(nil,daycarecmds,-1,daycarecmd)
+        break if daycarecmd<0
+        case daycarecmd
+        when 0 # Summary
+          if $PokemonGlobal.daycare
+            num=pbDayCareDeposited
+            Kernel.pbMessage(_INTL("{1} Pok�mon are in the Day Care.",num))
+            if num>0
+              txt=""
+              for i in 0...num
+                next if !$PokemonGlobal.daycare[i][0]
+                pkmn=$PokemonGlobal.daycare[i][0]
+                initlevel=$PokemonGlobal.daycare[i][1]
+                gender=[_INTL("?"),_INTL("?"),_INTL("genderless")][pkmn.gender]
+                txt+=_INTL("{1}) {2} ({3}), Lv.{4} (deposited at Lv.{5})",
+                   i,pkmn.name,gender,pkmn.level,initlevel)
+                txt+="\n" if i<num-1
+              end
+              Kernel.pbMessage(txt)
+            end
+            if $PokemonGlobal.daycareEgg==1
+              Kernel.pbMessage(_INTL("An egg is waiting to be picked up."))
+            elsif pbDayCareDeposited==2
+              if pbDayCareGetCompat==0
+                Kernel.pbMessage(_INTL("The deposited Pok�mon can't breed."))
+              else
+                Kernel.pbMessage(_INTL("The deposited Pok�mon can breed."))
+              end
+            end
+          end
+        when 1 # Deposit Pok�mon
+          if pbEggGenerated?
+            Kernel.pbMessage(_INTL("Egg is available, can't deposit Pok�mon."))
+          elsif pbDayCareDeposited==2
+            Kernel.pbMessage(_INTL("Two Pok�mon are deposited already."))
+          elsif $Trainer.party.length==0
+            Kernel.pbMessage(_INTL("Party is empty, can't desposit Pok�mon."))
+          else
+            pbChooseNonEggPokemon(1,3)
+            if pbGet(1)>=0
+              pbDayCareDeposit(pbGet(1))
+              Kernel.pbMessage(_INTL("Deposited {1}.",pbGet(3)))
+            end
+          end
+        when 2 # Withdraw Pok�mon
+          if pbEggGenerated?
+            Kernel.pbMessage(_INTL("Egg is available, can't withdraw Pok�mon."))
+          elsif pbDayCareDeposited==0
+            Kernel.pbMessage(_INTL("No Pok�mon are in the Day Care."))
+          elsif $Trainer.party.length>=6
+            Kernel.pbMessage(_INTL("Party is full, can't withdraw Pok�mon."))
+          else
+            pbDayCareChoose(_INTL("Which one do you want back?"),1)
+            if pbGet(1)>=0
+              pbDayCareGetDeposited(pbGet(1),3,4)
+              pbDayCareWithdraw(pbGet(1))
+              Kernel.pbMessage(_INTL("Withdrew {1}.",pbGet(3)))
+            end
+          end
+        when 3 # Generate egg
+          if $PokemonGlobal.daycareEgg==1
+            Kernel.pbMessage(_INTL("An egg is already waiting."))
+          elsif pbDayCareDeposited!=2
+            Kernel.pbMessage(_INTL("There aren't 2 Pok�mon in the Day Care."))
+          elsif pbDayCareGetCompat==0
+            Kernel.pbMessage(_INTL("The Pok�mon in the Day Care can't breed."))
+          else
+            $PokemonGlobal.daycareEgg=1
+            Kernel.pbMessage(_INTL("An egg is now waiting in the Day Care."))
+          end
+        when 4 # Collect egg
+          if $PokemonGlobal.daycareEgg!=1
+            Kernel.pbMessage(_INTL("There is no egg available."))
+          elsif $Trainer.party.length>=6
+            Kernel.pbMessage(_INTL("Party is full, can't collect the egg."))
+          else
+            pbDayCareGenerateEgg
+            $PokemonGlobal.daycareEgg=0
+            $PokemonGlobal.daycareEggSteps=0
+            Kernel.pbMessage(_INTL("Collected the {1} egg.",
+               PBSpecies.getName($Trainer.party[$Trainer.party.length-1].species)))
+          end
+        when 5 # Dispose egg
+          if $PokemonGlobal.daycareEgg!=1
+            Kernel.pbMessage(_INTL("There is no egg available."))
+          else
+            $PokemonGlobal.daycareEgg=0
+            $PokemonGlobal.daycareEggSteps=0
+            Kernel.pbMessage(_INTL("Disposed of the egg."))
+          end
+        end
+      end
     elsif cmd=="quickhatch"
-      $scene=nil
+      for pokemon in $Trainer.party
+        pokemon.eggsteps=1 if pokemon.isEgg?
+      end
+      Kernel.pbMessage(_INTL("All eggs on your party now require one step to hatch."))
     elsif cmd=="roamerstatus"
-      $scene=nil
+      if RoamingSpecies.length==0
+        Kernel.pbMessage(_INTL("No roaming Pok�mon defined."))
+      else
+        text="\\l[8]"
+        for i in 0...RoamingSpecies.length
+          poke=RoamingSpecies[i]
+          if $game_switches[poke[2]]
+            status=$PokemonGlobal.roamPokemon[i]
+            if status==true
+              if $PokemonGlobal.roamPokemonCaught[i]
+                text+=_INTL("{1} (Lv.{2}) caught.",
+                   PBSpecies.getName(getID(PBSpecies,poke[0])),poke[1])
+              else
+                text+=_INTL("{1} (Lv.{2}) defeated.",
+                   PBSpecies.getName(getID(PBSpecies,poke[0])),poke[1])
+              end
+            else
+              curmap=$PokemonGlobal.roamPosition[i]
+              if curmap
+                mapinfos=$RPGVX ? load_data("Data/MapInfos.rvdata") : load_data("Data/MapInfos.rxdata")
+                text+=_INTL("{1} (Lv.{2}) roaming on map {3} ({4}){5}",
+                   PBSpecies.getName(getID(PBSpecies,poke[0])),poke[1],curmap,
+                   mapinfos[curmap].name,(curmap==$game_map.map_id) ? _INTL("(this map)") : "")
+              else
+                text+=_INTL("{1} (Lv.{2}) roaming (map not set).",
+                   PBSpecies.getName(getID(PBSpecies,poke[0])),poke[1])
+              end
+            end
+          else
+            text+=_INTL("{1} (Lv.{2}) not roaming (switch {3} is off).",
+               PBSpecies.getName(getID(PBSpecies,poke[0])),poke[1],poke[2])
+          end
+          text+="\n" if i<RoamingSpecies.length-1
+        end
+        Kernel.pbMessage(text)
+      end
     elsif cmd=="roam"
-      $scene=nil
+      if RoamingSpecies.length==0
+        Kernel.pbMessage(_INTL("No roaming Pok�mon defined."))
+      else
+        pbRoamPokemon(true)
+        $PokemonGlobal.roamedAlready=false
+        Kernel.pbMessage(_INTL("Pok�mon have roamed."))
+      end
     elsif cmd=="setencounters"
-      $scene=nil
+      encdata=load_data("Data/encounters.dat")
+      oldencdata=Marshal.dump(encdata)
+      mapedited=false
+      map=pbDefaultMap()
+      loop do
+        map=pbListScreen(_INTL("SET ENCOUNTERS"),MapLister.new(map))
+        break if map<=0
+        mapedited=true if map==pbDefaultMap()
+        pbEncounterEditorMap(encdata,map)
+      end
+      save_data(encdata,"Data/encounters.dat")
+      pbSaveEncounterData()
+      pbClearData()
     elsif cmd=="setmetadata"
-      $scene=nil
+      pbMetadataScreen(pbDefaultMap())
+      pbClearData()
     elsif cmd=="terraintags"
-      $scene=nil
+      pbFadeOutIn(99999) { pbTilesetScreen }
     elsif cmd=="trainertypes"
-      $scene=nil
+      pbFadeOutIn(99999) { pbTrainerTypeEditor }
     elsif cmd=="resettrainers"
-      $scene=nil
+      if $game_map
+        for event in $game_map.events.values
+          if event.name[/Trainer\(\d+\)/]
+            $game_self_switches[[$game_map.map_id,event.id,"A"]]=false
+            $game_self_switches[[$game_map.map_id,event.id,"B"]]=false
+          end
+        end
+        $game_map.need_refresh=true
+        Kernel.pbMessage(_INTL("All Trainers on this map were reset."))
+      else
+        Kernel.pbMessage(_INTL("This command can't be used here."))
+      end
     elsif cmd=="testwildbattle"
-      $scene=nil
+      species=pbChooseSpeciesOrdered(1)
+      if species!=0
+        params=ChooseNumberParams.new
+        params.setRange(1,PBExperience::MAXLEVEL)
+        params.setInitialValue(5)
+        params.setCancelValue(0)
+        level=Kernel.pbMessageChooseNumber(
+           _INTL("Set the Pok�mon's level."),params)
+        if level>0
+          pbWildBattle(species,level)
+        end
+      end
     elsif cmd=="testdoublewildbattle"
-      $scene=nil
+      Kernel.pbMessage(_INTL("Choose the first Pok�mon."))
+      species1=pbChooseSpeciesOrdered(1)
+      if species1!=0
+        params=ChooseNumberParams.new
+        params.setRange(1,PBExperience::MAXLEVEL)
+        params.setInitialValue(5)
+        params.setCancelValue(0)
+        level1=Kernel.pbMessageChooseNumber(
+           _INTL("Set the first Pok�mon's level."),params)
+        if level1>0
+          Kernel.pbMessage(_INTL("Choose the second Pok�mon."))
+          species2=pbChooseSpeciesOrdered(1)
+          if species2!=0
+            params=ChooseNumberParams.new
+            params.setRange(1,PBExperience::MAXLEVEL)
+            params.setInitialValue(5)
+            params.setCancelValue(0)
+            level2=Kernel.pbMessageChooseNumber(
+               _INTL("Set the second Pok�mon's level."),params)
+            if level2>0
+              pbDoubleWildBattle(species1,level1,species2,level2)
+            end
+          end
+        end
+      end
     elsif cmd=="testtrainerbattle"
-      $scene=nil
+      battle=pbListScreen(_INTL("SINGLE TRAINER"),TrainerBattleLister.new(0,false))
+      if battle
+        trainerdata=battle[1]
+        pbTrainerBattle(trainerdata[0],trainerdata[1],"...",false,trainerdata[4],true)
+      end
     elsif cmd=="testdoubletrainerbattle"
-      $scene=nil
+      battle1=pbListScreen(_INTL("DOUBLE TRAINER 1"),TrainerBattleLister.new(0,false))
+      if battle1
+        battle2=pbListScreen(_INTL("DOUBLE TRAINER 2"),TrainerBattleLister.new(0,false))
+        if battle2
+          trainerdata1=battle1[1]
+          trainerdata2=battle2[1]
+          pbDoubleTrainerBattle(trainerdata1[0],trainerdata1[1],trainerdata1[4],"...",
+                                trainerdata2[0],trainerdata2[1],trainerdata2[4],"...",
+                                true)
+        end
+      end
     elsif cmd=="relicstone"
-      $scene=nil
+      pbRelicStone()
     elsif cmd=="purifychamber"
-      $scene=nil
+      pbPurifyChamber()
     elsif cmd=="extracttext"
-      $scene=nil
+      pbExtractText
     elsif cmd=="compiletext"
-      $scene=nil
+      pbCompileTextUI
     elsif cmd=="compiledata"
-      $scene=nil
+      msgwindow=Kernel.pbCreateMessageWindow
+      pbCompileAllData(true) {|msg| Kernel.pbMessageDisplay(msgwindow,msg,false) }
+      Kernel.pbMessageDisplay(msgwindow,_INTL("All game data was compiled."))
+      Kernel.pbDisposeMessageWindow(msgwindow)
     elsif cmd=="mapconnections"
-      $scene=nil
+      pbFadeOutIn(99999) { pbEditorScreen }
     elsif cmd=="animeditor"
-      $scene=nil
+      pbFadeOutIn(99999) { pbAnimationEditor }
     elsif cmd=="debugconsole"
-      $scene=nil
+      Console::setup_console
     elsif cmd=="togglelogging"
-      $scene=nil
+      $INTERNAL=!$INTERNAL
+      Kernel.pbMessage(_INTL("Debug logs for battles will be made in the Data folder.")) if $INTERNAL
+      Kernel.pbMessage(_INTL("Debug logs for battles will not be made.")) if !$INTERNAL
     end
   end
   pbFadeOutAndHide(sprites)
