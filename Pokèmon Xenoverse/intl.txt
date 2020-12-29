@@ -863,32 +863,32 @@ We must go beyond our limits!
 <<[>>new,Nurse,ranch/infermiera,default,left,true<<]>>Let's play a game. Could you guess the gender of your baby?<<n>>Do you think it's a boy? Or a girl?<<[>>dispose<<]>>
 <<[>>new,Infermiera,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>> Secondo me è un maschietto.
 <<[>>new,Nurse,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>>I believe it's a boy.
-<<[>>act,left<<]>>\nComplimenti signore, ha indovinato! È proprio un bel maschietto.
-<<[>>act,left<<]>>\nCongratulations sir, you guessed it! It really is a beautiful boy.
+<<[>>act,left<<]>>Complimenti signore, ha indovinato! È proprio un bel maschietto.
+<<[>>act,left<<]>>Congratulations sir, you guessed it! It really is a beautiful boy.
 <<[>>new,Infermiera,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>> Secondo me è una femminuccia.
 <<[>>new,Nurse,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>>I believe it's a girl.
-<<[>>act,left<<]>>\nComplimenti signore, ha indovinato! È proprio una bella femminuccia.
-<<[>>act,left<<]>>\nCongratulations sir, you guessed it! It really is a beautiful girl.
+<<[>>act,left<<]>>Complimenti signore, ha indovinato! È proprio una bella femminuccia.
+<<[>>act,left<<]>>Congratulations sir, you guessed it! It really is a beautiful girl.
 Venga con me.[dispose]
 Come with me.[dispose]
 <<[>>new,Infermiera,ranch/infermiera,default,left,true<<]>> <b>Versil</b>, resti pure un po' da solo con sua moglie.<<[>>dispose<<]>>
-<<[>>new,Nurse,ranch/infermiera,default,left,true<<]>> <b>Versil</b>, I'll leave the two of you alone for a bit.<<[>>dispose<<]>>
+<<[>>new,Nurse,ranch/infermiera,default,left,true<<]>><b>Versil</b>, I'll leave the two of you alone for a bit.<<[>>dispose<<]>>
 <<[>>new,Versil,ranch/versil,commosso,right<<]>> <<[>>new,Edera,ranch/mamma,ospedale,left<<]>> <<[>>enable,true<<]>>
 <<[>>new,Versil,ranch/versil,commosso,right<<]>> <<[>>new,Clover,ranch/mamma,ospedale,left<<]>> <<[>>enable,true<<]>>
-<<[>>act,right<<]>>\n<b>Edera</b>, come ti senti? Guarda che bellissimo bambino hai dato alla luce. Guarda come sorride, siete due gocce d'acqua!
-<<[>>act,right<<]>>\n<b>Clover</b>, how do you feel? Look at the splendid child you gave birth to.<<n>>Look how he smiles, you two look very alike!
-<<[>>act,left<<]>>\nCaro... come vogliamo chiamarlo? Voglio che sia tu a scegliere il suo nome.
-<<[>>act,left<<]>>\nDear... what do we want to call him? I want you to choose his name.
-<<[>>act,left<<]>>\nSono sicura che ne troverai uno bellissimo...<<[>>dispose<<]>>
-<<[>>act,left<<]>>\nI'm sure you will find a lovely one...<<[>>dispose<<]>>
-<<[>>act,right<<]>>\n<b>Edera</b>, come ti senti? Guarda che bellissima bambina hai dato alla luce. Guarda come sorride, siete due gocce d'acqua!
-<<[>>act,right<<]>>\n<b>Clover</b>, how do you feel? Look at the splendid child you gave birth to.<<n>>Look how she smiles, you two look very alike!
-<<[>>act,left<<]>>\nCaro... come vogliamo chiamarla? Voglio che sia tu a scegliere il suo nome.
-<<[>>act,left<<]>>\nDear... what do we want to call her? I want you to choose her name.
-<<[>>act,right<<]>>\nChe ne dici di @pl|, tesoro?
-<<[>>act,right<<]>>\nHow about @pl|, honey?
-<<[>>act,left<<]>>\n@pl|? Trovo che sia fantastico! Sapevo che non mi avresti delusa... coff... coff...
-<<[>>act,left<<]>>\n@pl|? It sounds fantastic! I knew that you<<n>>wouldn't let me down- cough... cough...
+<<[>>act,right<<]>><b>Edera</b>, come ti senti? Guarda che bellissimo bambino hai dato alla luce. Guarda come sorride, siete due gocce d'acqua!
+<<[>>act,right<<]>><b>Clover</b>, how do you feel? Look at the splendid child you gave birth to.<<n>>Look how he smiles, you two look very alike!
+<<[>>act,left<<]>>Caro... come vogliamo chiamarlo? Voglio che sia tu a scegliere il suo nome.
+<<[>>act,left<<]>>Dear... what do we want to call him? I want you to choose his name.
+<<[>>act,left<<]>>Sono sicura che ne troverai uno bellissimo...<<[>>dispose<<]>>
+<<[>>act,left<<]>>I'm sure you will find a lovely one...<<[>>dispose<<]>>
+<<[>>act,right<<]>><b>Edera</b>, come ti senti? Guarda che bellissima bambina hai dato alla luce. Guarda come sorride, siete due gocce d'acqua!
+<<[>>act,right<<]>><b>Clover</b>, how do you feel? Look at the splendid child you gave birth to.<<n>>Look how she smiles, you two look very alike!
+<<[>>act,left<<]>>Caro... come vogliamo chiamarla? Voglio che sia tu a scegliere il suo nome.
+<<[>>act,left<<]>>Dear... what do we want to call her? I want you to choose her name.
+<<[>>act,right<<]>>Che ne dici di @pl|, tesoro?
+<<[>>act,right<<]>>How about @pl|, honey?
+<<[>>act,left<<]>>@pl|? Trovo che sia fantastico! Sapevo che non mi avresti delusa... coff... coff...
+<<[>>act,left<<]>>@pl|? It sounds fantastic! I knew that you<<n>>wouldn't let me down- cough... cough...
 <<[>>act,right<<]>><<[>>mug,right,ranch/versil,spaventato<<]>> Edera, non sforzarti troppo! Ora pensa solo a riposare...<<[>>dispose<<]>>
 <<[>>act,right<<]>><<[>>mug,right,ranch/versil,spaventato<<]>>Clover, don't overdo it! You should rest now...<<[>>dispose<<]>>
 [Map25]
@@ -56492,7 +56492,7 @@ Controls
 {1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>>\<<n>>nella tasca \c<<[>>1<<]>>{3}\c<<[>>0<<]>>
 {1} put the \c<<[>>1<<]>>{2}\c<<[>>0<<]>>\<<n>>in the \c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
 {1} sistema \c[1]{2}\c[0] nella tasca \c[1]{3}\c[0]
-{1} put the c[1]{2}\c[0] in the \c[1]{3}\c[0] Pocket.
+{1} put the \c[1]{2}\c[0] in the \c[1]{3}\c[0] Pocket.
 {1} sistema \c[1]{2}s\c[0] nella tasca \c[1]{3}\c[0]
 {1} put the \c[1]{2}s\c[0] in the \c[1]{3}\c[0] Pocket.
 {1} survived the poisoning.<<n>>The poison faded away!

@@ -18565,7 +18565,7 @@ Baccalga
 Baccalga
 411
 Baccaloqat
-Baccaloqat
+Baccaloquat
 412
 Baccamelon
 Baccamelon
@@ -18835,7 +18835,7 @@ Pokébambola
 Pokébambola
 501
 Codaskitty
-Codaskitty
+Coda Skitty
 502
 Pokégingillo
 Pokégingillo
@@ -20213,7 +20213,7 @@ Strumento da far tenere a un Pokémon. Aumenta la ''Grazia'' di chi lo tiene in 
 Strumento da far tenere a un Pokémon. Aumenta la ''Grazia'' di chi lo tiene in una Gara.
 216
 Strumento da far tenere a un Pokémon. Aumenta la ''Grinta'' di chi lo tiene in una Gara..
-Strumento da far tenere a un Pokémon. Aumenta la ''Grinta'' di chi lo tiene in una Gara..
+Strumento da far tenere a un Pokémon. Aumenta la ''Grinta'' di chi lo tiene in una Gara.
 217
 Rimedio spray per le ferite. Restituisce 20 PS ad un Pokémon.
 Rimedio spray per le ferite. Restituisce 20 PS ad un Pokémon.
@@ -21068,10 +21068,10 @@ Bambola che attrae i Pokémon. Utile per fuggire dalla lotta con un Pokémon sel
 Bambola che attrae i Pokémon. Utile per fuggire dalla lotta con un Pokémon selvatico.
 501
 Strumento che attrae i Pokémon. Utile per fuggire dalla lotta con un Pokémon selvatico..
-Strumento che attrae i Pokémon. Utile per fuggire dalla lotta con un Pokémon selvatico..
+Strumento che attrae i Pokémon. Utile per fuggire dalla lotta con un Pokémon selvatico.
 502
 Strumento che attrae i Pokémon. Utile per fuggire dalla lotta con un Pokémon selvatico..
-Strumento che attrae i Pokémon. Utile per fuggire dalla lotta con un Pokémon selvatico..
+Strumento che attrae i Pokémon. Utile per fuggire dalla lotta con un Pokémon selvatico.
 503
 Bici pieghevole, che permette di spostarsi più velocemente che con le Scarpe da Corsa.
 Bici pieghevole, che permette di spostarsi più velocemente che con le Scarpe da Corsa.
