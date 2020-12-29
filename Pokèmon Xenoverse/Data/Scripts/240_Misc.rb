@@ -306,6 +306,10 @@ def pbCreateCondTrainer
      return false if ret == nil || ret == -1
      $Trainer = PokeBattle_Trainer.new($oldTrainer.name,$oldTrainer.trainertype)
      $Trainer.party = Marshal.load(Marshal.dump(ret))
+     for b in 0...8
+      $Trainer.badges[b]=true
+     end
+
      $PokemonBag = PokemonBag.new
   }
   for poke in $Trainer.party
