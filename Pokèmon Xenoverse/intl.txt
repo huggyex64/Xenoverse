@@ -1604,7 +1604,7 @@ Questo è un oggetto che custodisco da quando ero ancora una bambina, ma vorrei 
 Ehi, \PN! Dove corri?
 Hey, \PN! Where are you running?
 Oh oh! Ma guarda un po'... La mamma si è decisa a lasciarti andare! Si sarà resa conto di essere stata fin troppo protettiva con te...? Ih ih!
-Ho-ho! Look at that... Your mommy finally<<n>>let you go, huh?<<n>>She probably realized she was shielding you too much… Hee-hee!
+Ho-ho! Look at that... Your mommy finally<<n>>let you go, huh?<<n>>She probably realized she was shielding you too much... Hee-hee!
 Beh, stai per affrontare un viaggio che ti porterà ad incontrare tanti nuovi Pokémon! Lascia che ti mostri una cosuccia allora!
 Well, you are about to start a journey that will make<<n>>you run into a bunch of new Pokémon!<<n>>Let me show you something then!
 Come puoi ben vedere, quest'erba è più alta di quella normale... È qui che si annidano i Pokémon selvatici! Ma non temere, puoi catturarli con dei particolari aggeggi chiamati Poké Ball. Ecco, prendine un po'.
@@ -5220,35 +5220,53 @@ Gnam gnam!
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 Oleandro
-Oleandro
+Abraham
 Siamo diretti alla <b>Caverna Zenit</b>, uno dei quattro <b>Xenovarchi</b> della regione. È un luogo accessibile solo a colui che ha ottenuto la benedizione di <b>Luxflon</b>. Ma non perdiamoci in quisquilie, ti spiegherò tutto quanto più tardi.
-Siamo diretti alla <b>Caverna Zenit</b>, uno dei quattro <b>Xenovarchi</b> della regione. È un luogo accessibile solo a colui che ha ottenuto la benedizione di <b>Luxflon</b>. Ma non perdiamoci in quisquilie, ti spiegherò tutto quanto più tardi.
+We're heading for the <b>Zenith Cave</b>, one of the four <b>Xeno Gates</b> of the region.<<n>>The access is permitted only to those who achieved<<n>><b>Luxflon</b>'s blessing.<<n>>But let's not argue semantics, I will explain everything later.
+Il piano del Team Dimension non rappresenta che la prima tessera del domino... Il pianeta è davvero in estremo pericolo!
+The plan of Team Dimension is merely the first domino...<<n>>The whole planet is in extreme danger!
 Per comprendere a pieno queste mie parole è però necessario che tu conosca un'antica leggenda...
-Per comprendere a pieno queste mie parole è però necessario che tu conosca un'antica leggenda...
+But to fully comprehend these words of mine, it is necessary for you to learn about this ancient legend...
 Miliardi di anni fa, l'universo era dominato da un maestoso e potente Pokémon, <b>Vakuum</b>.
-Miliardi di anni fa, l'universo era dominato da un maestoso e potente Pokémon, <b>Vakuum</b>.
+Billion years ago, the universe was ruled by a majestic<<n>>and powerful Pokémon, <b>Vakuum</b>.
+Le sue dimensioni erano paragonabili a quelle di un pianeta, il suo corpo infuocato come un astro.
+Its size was comparable to a planet, its body burning<<n>>like a star.
 Come ogni creatura, anche <b>Vakuum</b> era nel profondo dilaniato da stimoli diametralmente opposti... la <b>Luce</b>, simbolo di pace e di sviluppo e l'<b>Oscurità</b>, portatrice di terrore e distruzione.
-Come ogni creatura, anche <b>Vakuum</b> era nel profondo dilaniato da stimoli diametralmente opposti... la <b>Luce</b>, simbolo di pace e di sviluppo e l'<b>Oscurità</b>, portatrice di terrore e distruzione.
+Just like every creature, <b>Vakuum</b> was deep down torn by diametrically opposed intentions...<<n>>the <b>Light</b>, symbol of peace and evolution, and<<n>>the <b>Darkness</b>, bearer of terror and annihilation.
+Nonostante l'enorme potere, la creatura primordiale era comunque soggetta allo scorrere del tempo, dunque destinata ad invecchiare, divenendo sempre più debole...
+Despite its tremendous power, the primeval creature<<n>>was still subject to the arrow of time,<<n>>and, therefore, doomed to age and become weaker<<n>>and weaker...
 Nel frattempo, l'energia oscura all'interno di esso, desiderosa di abbandonare quel morente guscio, cominciò a insorgere, allo scopo di acquisire un'identità autonoma...
-Nel frattempo, l'energia oscura all'interno di esso, desiderosa di abbandonare quel morente guscio, cominciò a insorgere, allo scopo di acquisire un'identità autonoma...
+Meanwhile, the dark energy within the creature,<<n>>willing to leave that dying shell,<<n>>started rebelling with the purpose of establishing<<n>>its own separated identity...
+Fu così che l'Oscurità riuscì ad evadere dalla prigionia, causando la morte del Pokémon. S’innescò un'enorme deflagrazione, da cui scaturì la vita nel nostro universo tutto.
+And thus, the Darkness busted out of its prison, causing<<n>>the death of the Pokémon itself.<<n>>A large-scale deflagration was triggered and unleashed<<n>>life throughout our universe.
 Si generarono galassie, stelle e pianeti...
-Si generarono galassie, stelle e pianeti...
+Galaxies, stars and planets were generated...
+Nacque la Terra, governata in parte dall'Essere di Luce, <b>Luxflon</b>, incarnatosi a seguito dell'esplosione, e in parte dall'Oscuro Signore, <b>Dragalisk</b>.
+The Earth formed, ruled half by the Light Being,<<n>><b>Luxflon</b>, incarnated following the explosion,<<n>>and half by the Dark Lord, <b>Dragalisk</b>.
 A mantenere l'equilibrio tra i due, vi erano tre guardiani elementali, anch'essi parte di Vakuum... i ''Pokémon iniziali'' <b>Shyleon</b>, <b>Trishout</b> e <b>Shulong</b>, così definiti in quanto antesignani della vita.
-A mantenere l'equilibrio tra i due, vi erano tre guardiani elementali, anch'essi parte di Vakuum... i ''Pokémon iniziali'' <b>Shyleon</b>, <b>Trishout</b> e <b>Shulong</b>, così definiti in quanto antesignani della vita.
+To maintain the balance between them, there were<<n>>three elemental guardians, parts of Vakuum too...<<n>>The ''starter Pokémon'' <b>Shyleon</b>, <b>Trishout</b> and <b>Shulong</b>,<<n>>so called because they were forerunners of life.
+Tuttavia Dragalisk, convinto che questa non fosse necessaria, scacciò i Pokémon dal suo territorio, che trovarono perciò rifugio presso Luxflon.
+But Dragalisk was convinced that life wasn't<<n>>necessary and banished them from its territory,<<n>>which, however, fled to Luxflon.
 Grazie ad essi, la fetta di pianeta dell'Essere di Luce si sviluppò, divenendo florida e accogliente... Al contrario, quella dell'Oscuro marcì, rimanendo a uno stadio primordiale ed inospitale...
-Grazie ad essi, la fetta di pianeta dell'Essere di Luce si sviluppò, divenendo florida e accogliente... Al contrario, quella dell'Oscuro marcì, rimanendo a uno stadio primordiale ed inospitale...
+Thanks to them, the hemisfere under the rule of<<n>>the Light Being grew prosperous and florid...<<n>>On the other hand, the one under the Dark Lord's<<n>>rotted and remained at a primal inhospitable stage...
 Al che quest'ultimo, invidioso dell'operato del fratello, decise di passare all'attacco... Voleva sottrarre parte dell'energia che aveva permesso alla Terra quel rapido sviluppo!
-Al che quest'ultimo, invidioso dell'operato del fratello, decise di passare all'attacco...  Voleva sottrarre parte dell'energia che aveva permesso alla Terra quel rapido sviluppo!
+Whereupon the latter, envious of its brother's actions,<<n>>decided to make its move...<<n>>It wanted to steal some of the energy used to make Earth flourish so rapidly!
+Grazie all'intervento di Luxflon e dei Pokémon iniziali, l'attacco si rivelò fallimentare...
+Thanks to the intervention of both Luxflon and the starter<<n>>Pokémon, the attack turned into a defeat...
 Dragalisk, però, riuscì a impossessarsi di una minuscola quantità d'energia, sfruttandola per creare fedeli soldati ai suoi ordini... i <b>Pokémon X</b>!
-Dragalisk, però, riuscì a impossessarsi di una minuscola quantità d'energia, sfruttandola per creare fedeli soldati ai suoi ordini... i <b>Pokémon X</b>!
+However, Dragalisk was able to take over a tiny amount<<n>>of energy, it used to create soldiers under its will...<<n>>The <b>X Pokémon</b>!
+Con il suo nuovo esercito, l'Oscuro tentò nuovamente un assalto, fallendo ancora una volta.
+Along with its new army, the Dark One attempted another stampede, but it failed again.
 Si racconta che allora, l’Essere di Luce, inorridito dalle sue trame di potere, diede fondo a tutte le sue riserve d’energia per allontanare definitivamente il gemello. Così facendo, Dragalisk fu relegato in un'altra dimensione, lo <b>Xenoverse</b>. Sotto il dominio della luce, invece, la Terra giunse al suo completo sviluppo.
-Si racconta che allora, l’Essere di Luce, inorridito dalle sue trame di potere, diede fondo a tutte le sue riserve d’energia per allontanare definitivamente il gemello. Così facendo, Dragalisk fu relegato in un'altra dimensione, lo <b>Xenoverse</b>. Sotto il dominio della luce, invece, la Terra giunse al suo completo sviluppo.
+Then, according to legend, the Light Being, horrified<<n>>by this greed for power,<<n>>broke into its energy reserves to turn away definitively<<n>>its evil twin.<<n>>In doing so, Dragalisk was confined in another dimension,<<n>>the <b>Xenoverse</b>.<<n>>Under the domain of light, the Earth attained its fullest development.
+L'Oscuro Signore, però, non digerì mai la disfatta e tentò varie volte, nel corso dei millenni, di seminare il panico sul suo pianeta originale, aprendo faglie nello spazio-tempo.
+The Dark Lord never got over the defeat, though, and<<n>>tried several more times over the millenia<<n>>to wreak havoc on its original planet, by tearing fault lines in space-time.
 Se però il Team Dimension dovesse addentrarsi nello Xenoverse, verrebbe la volta delle tenebre... Le fratture già presenti nella regione darebbero a Dragalisk l’occasione propizia... Riuscirebbe infine a impadronirsi di tutto ciò che Luxflon ha coltivato sino ad ora! Ma c’è un modo per sventare questo pericolo!
-Se però il Team Dimension dovesse addentrarsi nello Xenoverse, verrebbe la volta delle tenebre... Le fratture già presenti nella regione darebbero a Dragalisk l’occasione propizia... Riuscirebbe infine a impadronirsi di tutto ciò che Luxflon ha coltivato sino ad ora! Ma c’è un modo per sventare questo pericolo!
+But if Team Dimension will break into the Xenoverse,<<n>>darkness would fall on our lives...<<n>>The rifts all over the region already would give Dragalisk<<n>>its chance of revenge...<<n>>It could finally be able to take over everything that<<n>>Luxflon has developed until now!<<n>>But there is a way to avert this threat!
 I Pokémon iniziali sono l'armonia che tiene in vita questo mondo e tu, \PN, ne possiedi uno. Sei tu il messia cui spetta impedirne la distruzione... La regione, anzi, la Terra ha bisogno di te!
-I Pokémon iniziali sono l'armonia che tiene in vita questo mondo e tu, \PN, ne possiedi uno. Sei tu il messia cui spetta impedirne la distruzione... La regione, anzi, la Terra ha bisogno di te!
+The starter Pokémon are the harmony that keeps<<n>>this world alive and you have one, \PN.<<n>>You are the expected one whose duty is to prevent its destruction... The region, no, the Earth needs you!
 Per farlo, però, ti manca ancora qualcosa.
-Per farlo, però, ti manca ancora qualcosa.
+You are still missing something to do this, though.
 Scaleon
 Scaleon
 Scaaa...!
@@ -5472,7 +5490,7 @@ Trishout
 Triii!!
 Triii!!
 <<[>>old<<]>>Questa lotta ha fatto capire a Trishout il vero valore della vostra amicizia. Sembra che ora riesca a controllare l'Energia Blu...
-<<[>>old<<]>>The battle made Trishout realize the real value of your friendship. Looks like it can control Blue Energy now...
+<<[>>old<<]>>The battle made Trishout realize the real value of your friendship.<<n>>Looks like it can control the Blue Energy now...
 Oleandro
 Abraham
 Fortunatamente tutto si è concluso per il meglio.
@@ -5502,7 +5520,7 @@ I want you to take this little present from me, too.
 Questa è la gemma dell'<b>Ikarium N</b>.
 This is the mineral of the <b>Ikarium H</b>.
 Con quel marchingegno creato da Aster, potrai richiamare il mio <b>Scaleon</b> per solcare i cieli di Eldiw e ritornare in un luogo visitato in precedenza. Provalo subito per tornare ad Aquariopoli, se vuoi!
-Using that contraption created by Aster, you can invoke<<n>>my Scaleon to plough the skies above Eldiw<<n>>and get back to places you already visited.<<n>>Why don't you give it a try and fly back to Ishtar?
+Using that contraption created by Aster, you can summon<<n>>my Scaleon to plough the skies above Eldiw<<n>>and get back to places you already visited.<<n>>Why don't you give it a try and fly back to Ishtar?
 Fatti valere contro mia nipote, mi raccomando!
 Promise me you will stand your ground with my nephew!
 Shyleon
@@ -5510,13 +5528,13 @@ Shyleon
 Shyyy!!
 Shyyy!!
 <<[>>old<<]>>Questa lotta ha fatto capire a Shyleon il vero valore della vostra amicizia. Sembra che ora riesca a controllare l'Energia Blu...
-<<[>>old<<]>>The battle made Shyleon realize the real value of your friendship. Looks like it can control Blue Energy now...
+<<[>>old<<]>>The battle made Shyleon realize the real value of your friendship.<<n>>Looks like it can control the Blue Energy now...
 Shulong
 Shulong
 Shuuu!!
 Shuuu!!
 <<[>>old<<]>>Questa lotta ha fatto capire a Shulong il vero valore della vostra amicizia. Sembra che ora riesca a controllare l'Energia Blu...
-<<[>>old<<]>>The battle made Shulong realize the real value of your friendship. Looks like it can control Blue Energy now...
+<<[>>old<<]>>The battle made Shulong realize the real value of your friendship.<<n>>Looks like it can control the Blue Energy now...
 Dove pensi di andare?! Non puoi lasciare il tuo Pokémon a piede libero!
 Where are you going, lad?! You cannot let<<n>>your Pokémon run wild!
 \PN, prova a placare l'animo del tuo Pokémon ora.
@@ -5633,96 +5651,110 @@ Shulong, destroy this nobody in the name of our Lord!!
 ???
 ???
 Muah ah ah ah! Finalmente! Non immagini da quanto aspetti questo momento!
-Muah ah ah ah! Finalmente! Non immagini da quanto aspetti questo momento!
+Mwa ha ha ha! Finally! You can't even imagine how long<<n>>I've been waiting for this moment!
 Le presentazioni sono inutili e ti sembrerà strano, ma io...
-Le presentazioni sono inutili e ti sembrerà strano, ma io...
+It could seem strange, but I don't need introductions,<<n>>because I...
 ... sono te!!
-... sono te!!
+... am you!!
 Alter
 Alter
 Proprio così! Io sono il tuo <b>Alter</b>! La tua nemesi nata e cresciuta in questo mondo spento e cupo! Non ho famiglia, né amici... niente di simile!
-Proprio così! Io sono il tuo <b>Alter</b>! La tua nemesi nata e cresciuta in questo mondo spento e cupo!  Non ho famiglia, né amici... niente di simile!
+That's it! I'm your <b>Alter</b>, your nemesis born and raised in this dark gloomy world!<<n>>I have no family, no friends... nothing like that!
+Ti tengo d'occhio ogni giorno della tua vita... tu hai tutto ciò che io ho sempre desiderato! Ti detesto con tutto me stesso!!
+I've watched you every single day of your life...<<n>>you have all I've ever wanted!<<n>>I hate you with all my might!!
 Ma ora è finito il tempo di piangersi addosso... Potrò finalmente avere la mia vendetta! Sconfiggendoti, sarò io a prendere il tuo posto!!
-Ma ora è finito il tempo di piangersi addosso... Potrò finalmente avere la mia vendetta! Sconfiggendoti, sarò io a prendere il tuo posto!!
+But the time for mourning is over now...<<n>>I'll finally have my revenge!<<n>>By defeating you, I will take your place!!
 Eh eh! Hai paura, non è vero?
-Eh eh! Hai paura, non è vero?
+Heh heh! You're scared, aren't you?
+In tutti questi anni mi sono nutrito del tuo risentimento, divenendo sempre più forte. Non sarai tu a sconfiggere il Team Dimension, né tantomeno a salvare papà o chicchessia... Sarò io a farlo e riceverò finalmente la gloria che mi spetta!
+During all these years, I have thrived on your grudge,<<n>>growing stronger and stronger.<<n>>You won't be the one defeating Team Dimension,<<n>>not even the one saving dad or no one else...<<n>>I will do it and so, I'll finally receive the glory<<n>>I deserve!
 Vieni fuori, <b>Trishout</b>!
-Vieni fuori, <b>Trishout</b>!
+Come out, <b>Trishout</b>!
 Trishout
 Trishout
 Triii!!
 Triii!!
 Vedi, \PN. Questo Trishout è proprio come me!
-Vedi, \PN. Questo Trishout è proprio come me!
+See, \PN. This Trishout is just like me!
+È cresciuto in questo clima primitivo e crudele, al contrario dei tuoi stupidi Pokémon! Sta' a vedere... questo posto sarà la tua tomba!
+It grew up in this cruel primitive mood, not like<<n>>your stupid Pokémon!<<n>>You better watch out... this place is gonna be your grave!
 Perché? Perchééé?!
-Perché? Perchééé?!
+Why? Whyyy?!
 Vieni fuori, <b>Shulong</b>!
-Vieni fuori, <b>Shulong</b>!
+Come out, <b>Shulong</b>!
 Shulong
 Shulong
 Shuuu!!
 Shuuu!!
 Vedi, \PN. Questo Shulong è proprio come me!
-Vedi, \PN. Questo Shulong è proprio come me!
+See, \PN. This Shulong is just like me!
 Vieni fuori, <b>Shyleon</b>!
-Vieni fuori, <b>Shyleon</b>!
+Come out, <b>Shyleon</b>!
 Shyleon
 Shyleon
 Shyyy!!
 Shyyy!!
 Vedi, \PN. Questo Shyleon è proprio come me!
-Vedi, \PN. Questo Shyleon è proprio come me!
+See, \PN. This Shyleon is just like me!
 Proprio così! Io sono la tua <b>Alter</b>! La tua nemesi nata e cresciuta in questo mondo spento e cupo! Non ho famiglia, né amici... niente di simile!
-Proprio così! Io sono la tua <b>Alter</b>! La tua nemesi nata e cresciuta in questo mondo spento e cupo!  Non ho famiglia, né amici... niente di simile!
+That's it! I'm your <b>Alter</b>, your nemesis born and raised in this dark gloomy world!<<n>>I have no family, no friends... nothing like that!
+Ti tengo d'occhio ogni giorno della tua vita... tu hai tutto ciò che io ho sempre desiderato! Ti detesto con tutta me stessa!!
+I've watched you every single day of your life...<<n>>you have all I've ever wanted!<<n>>I hate you with all my might!!
+In tutti questi anni mi sono nutrita del tuo risentimento, divenendo sempre più forte. Non sarai tu a sconfiggere il Team Dimension, né tantomeno a salvare papà o chicchessia... Sarò io a farlo e riceverò finalmente la gloria che mi spetta!
+During all these years, I have thrived on your grudge,<<n>>growing stronger and stronger.<<n>>You won't be the one defeating Team Dimension,<<n>>not even the one saving dad or no one else...<<n>>I will do it and so, I'll finally receive the glory<<n>>I deserve!
 N-Non... ci... posso... credere... Ho perso... Ho perso davvero! Co-Com'è possibile che tu sia così abile... Perché tu hai tutto e io niente?!!
-N-Non... ci... posso... credere... Ho perso... Ho perso davvero! Co-Com'è possibile che tu sia così abile... Perché tu hai tutto e io niente?!!
+I-I... can't... believe... it... I lost...<<n>>I really lost!<<n>>Ho-How can you be so good... Why do you have everything and I have nothing?!
 Tu
-Tu
+You
 ...
 ...
 Io sono il riflesso del tuo risentimento, il tuo io negativo... Dovresti avere paura di me!!
-Io sono il riflesso del tuo risentimento, il tuo io negativo... Dovresti avere paura di me!!
+I am the reflection of your grudge, your negative ego...<<n>>You should be afraid of me!!
 ... Perché te ne rimani ancora qui senza finirmi?
-... Perché te ne rimani ancora qui senza finirmi?
+...<<n>>Why are you still standing here without finishing me?
 Continui a restarmi vicino nonostante tutto... Qu-Questa cosa mi rende... mi rende... felice...
-Continui a restarmi vicino nonostante tutto... Qu-Questa cosa mi rende... mi rende... felice...
+You keep staying with me despite all this...<<n>>Th-This makes me... makes me... happy...
 Sì, perché è così che per me inizia una nuova vita!
-Sì, perché è così che per me inizia una nuova vita!
+Yeah, because this is how my new life begins!
 D'ora in poi ti starò dietro come un'ombra e, quando verrai sopraffatto dall'odio, verrò allo scoperto e mi prenderò tutto, \PN! Muah ah ah ah!
-D'ora in poi ti starò dietro come un'ombra e, quando verrai sopraffatto dall'odio, verrò allo scoperto e mi prenderò tutto, \PN! Muah ah ah ah!
+From now on, I'll follow you like a shadow and,<<n>>when your hatred will overwhelm you,<<n>>I will come out and take it all, \PN!<<n>>Mwa ha ha ha!
 Oleandro
-Oleandro
+Abraham
 Ehi! \PN, mi sen...i?! D...i to...are indie...o! Il port... sta per chiu...rsi!
-Ehi! \PN, mi sen...i?! D...i to...are indie...o! Il port... sta per chiu...rsi!
+Hey! \PN, can you he--r me?! You ha--e to com--ack!<<n>>The gat-- is cl--sing!
 <<[>>old<<]>>L'Alter si è tramutato nell'essenza dello Xenoverse... È il Codice Xenoverse!
-<<[>>old<<]>>L'Alter si è tramutato nell'essenza dello Xenoverse... È il Codice Xenoverse!
+<<[>>old<<]>>The Alter turned into the essence of the Xenoverse... It's the Xenoversal Core!
 <<[>>old<<]>>La proiezione negativa del tuo Pokémon si è tramutata in un anello... È l'Anello Xenoverse!
-<<[>>old<<]>>La proiezione negativa del tuo Pokémon si è tramutata in un anello... È l'Anello Xenoverse!
+<<[>>old<<]>>The negative projection of your Pokémon turned into a ring... It's the Xenoversal Ring!
 Continui a restarmi vicina nonostante tutto... Qu-Questa cosa mi rende... mi rende... felice...
-Continui a restarmi vicina nonostante tutto... Qu-Questa cosa mi rende... mi rende... felice...
+You keep staying with me despite all this...<<n>>Th-This makes me... makes me... happy...
+D'ora in poi ti starò dietro come un'ombra e, quando verrai sopraffatta dall'odio, verrò allo scoperto e mi prenderò tutto, \PN! Muah ah ah ah!
+From now on, I'll follow you like a shadow and,<<n>>when your hatred will overwhelm you,<<n>>I will come out and take it all, \PN!<<n>>Mwa ha ha ha!
 Muah ah ah ah!
-Muah ah ah ah!
+Mwa ha ha ha!
 [Map128]
 Oleandro
-Oleandro
+Abraham
 Ti ho portato qui per far sì che tu ottenga un potere che va ben oltre quello attuale. Sto parlando dell'<b>Evoluzione Xenoverse</b>!
-Ti ho portato qui per far sì che tu ottenga un potere che va ben oltre quello attuale. Sto parlando dell'<b>Evoluzione Xenoverse</b>!
+I took you here to ensure you obtain a power that<<n>>goes far beyond the current one.<<n>>I'm talking about the <b>Xenoversal Evolution</b>!
 Grazie ad essa, sarai in grado di sprigionare tutto il potenziale del tuo Pokémon! Per entrarne in possesso, però, dovrai oltrepassare i confini dell'uomo...
-Grazie ad essa, sarai in grado di sprigionare tutto il potenziale del tuo Pokémon! Per entrarne in possesso, però, dovrai oltrepassare i confini dell'uomo...
+Because of it, you will be able to unlock the full potential<<n>>of your Pokémon!<<n>>In order to be given this power, however, you have to cross the limits of humans...
 \PN, vedi quell'enorme cascata? Quella che scorre non è acqua, ma <b>Energia Terrestre</b>. Con quella, lo stesso Luxflon tenta di tappare le falle tra questo e l'altro mondo. Solo chi è in possesso del <b>Codice Terrestre</b>, può perciò addentrarsi nello Xenovarco dietro di essa. Per farlo, dev'essere inoltre pregno di una certa dose di risentimento... Non ho dunque sapere di ciò che affronterai laggiù, né tantomeno potrò prestarti soccorso. Ricorda, però... Senza il bene non può esistere il male e viceversa... È questa la chiave per imbrigliare l'<b>Energia Blu</b>!
-\PN, vedi quell'enorme cascata? Quella che scorre non è acqua, ma <b>Energia Terrestre</b>. Con quella, lo stesso Luxflon tenta di tappare le falle tra questo e l'altro mondo. Solo chi è in possesso del <b>Codice Terrestre</b>, può perciò addentrarsi nello Xenovarco dietro di essa. Per farlo, dev'essere inoltre pregno di una certa dose di risentimento... Non ho dunque sapere di ciò che affronterai laggiù, né tantomeno potrò prestarti soccorso. Ricorda, però... Senza il bene non può esistere il male e viceversa... È questa la chiave per imbrigliare l'<b>Energia Blu</b>!
+\PN, you see that huge cascade there? That's not<<n>>water flowing, it's the <b>Terrestrial Energy</b>.<<n>>It's Luxflon itself trying to patch the rifts between<<n>>this world and the other.<<n>>Only those who possess the <b>Terrestrial Core</b> can therefore walk through the Xeno Gate behind it.<<n>>But to do that, you must be impregnated with a certain amount of grudge...<<n>>That's why I don't know what you’re going to face in there or even give you any help.<<n>>Remember though... Without good, there is no evil<<n>>and vice versa...<<n>>This is the key to harness the <b>Blue Energy</b>!
+Ora però basta ciance, è il momento di agire!
+Stop yammering now, it's time to act!
 Qualsiasi cosa accada, fidati sempre delle capacità tue e dei tuoi Pokémon. Addentrati laggiù e torna trionfante, con un nuovo e incredibile potere!
-Qualsiasi cosa accada, fidati sempre delle capacità tue e dei tuoi Pokémon. Addentrati laggiù e torna trionfante, con un nuovo e incredibile potere!
+Come what may, always trust your ability and<<n>>your Pokémon's.<<n>>Delve in there and come back victorious with an incredible new power!
 O Essere di Luce, a te rivolgo la mia preghiera.
-O Essere di Luce, a te rivolgo la mia preghiera.
+O Light Being, to you is my prayer.
 Concedi al tuo discepolo l'opportunità di affrontare questa prova.
-Concedi al tuo discepolo l'opportunità di affrontare questa prova.
+Grant your apostle the chance to face this trial. 
 E ora va', \PN.
-E ora va', \PN.
+Now, go \PN.
 <<[>>old<<]>>Una strana energia pervade la cascata.
-<<[>>old<<]>>Una strana energia pervade la cascata.
+<<[>>old<<]>>A weird energy spreads through the cascade. 
 <<[>>old<<]>>Lo Xenovarco ti risucchia al suo interno!
-<<[>>old<<]>>Lo Xenovarco ti risucchia al suo interno!
+<<[>>old<<]>>The Xeno Gate sucks you towards it!
 Ben fatto, \PN. Vedo che sei riuscito|a ad ottenere il Codice Xenoverse... perché non provi subito il nuovo potere? Forza, dai l'Anello al tuo Pokémon iniziale!
 Ben fatto, \PN. Vedo che sei riuscito|a ad ottenere il Codice Xenoverse... perché non provi subito il nuovo potere? Forza, dai l'Anello al tuo Pokémon iniziale!
 <<[>>old<<]>>Assegna l'Anello Xenoverse al tuo Pokémon iniziale e mettilo in testa alla squadra per continuare.
@@ -6037,13 +6069,13 @@ Abraham
 Ma che diamine succede?!
 What the heck is happening?!
 Sembra che non riesca a controllare l'Energia Blu! \PN, riporta il tuo Pokémon allo stadio base!!
-It doesn't seem to be able to control Blue Energy!<<n>>\PN, take your Pokémon back to its basic form!!
+It doesn't seem to be able to control Blue Energy!<<n>>\PN, change your Pokémon back to its basic form!!
 Trishout
 Trishout
 Triii!!
 Triii!!
 Argh! E ora dov'è finito?! La situazione è critica, \PN.
-Argh! Where did it go now?!<<n>>The situation is critical,\PN.
+Argh! Where did it go now?!<<n>>The situation is critical, \PN.
 Il tuo Pokémon è scappato, ma non dev'essere andato lontano... Sarà sicuramente ancora in giro per il vulcano! Io andrò sulla vetta, non c'è tempo da perdere!
 Your Pokémon has run away, but I guess it hasn't<<n>>gone far...<<n>>I'm sure it is still wandering around the volcano!<<n>>There's no time to waste, I'm going to the top!
 Shulong
@@ -6055,7 +6087,7 @@ Shyleon
 Shyyy!!
 Shyyy!!
 Vedo che sei riuscito|a ad ottenere il <b>Codice</b> <b>Xenoverse</b>... Perché non provi subito il nuovo potere, \PN? Forza, dai l'Anello al tuo Pokémon iniziale!
-I see you managed to get the <b>Xenoversal</b><<n>><b>Core</b>...<<n>>Why don't you try the new power right now, \PN?<<n>>Go on, give the Ring to your starter Pokémon!
+I see you managed to get the <b>Xenoversal Core</b>...<<n>>Why don't you try the new power right now, \PN?<<n>>Go on, give the Ring to your starter Pokémon!
 <<[>>old<<]>>Assegna l'Anello Xenoverse al tuo Pokémon iniziale e mettilo in testa alla squadra per continuare.
 <<[>>old<<]>>Give the Xenoversal Ring to your starter Pokémon and put it on top of your party to continue.
 Guarda, il tuo Pokémon ha cambiato forma!
@@ -51518,19 +51550,19 @@ PLAYING BACK...
 \se<<[>>itemlevel<<]>>{1} trova \c<<[>>1<<]>>{2}\c<<[>>0<<]>>!\<<n>>It contained \c<<[>>1<<]>>{3}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
 \se<<[>>itemlevel<<]>>{1} found \c<<[>>1<<]>>{2}\c<<[>>0<<]>>!\<<n>>It contains \c<<[>>1<<]>>{3}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
 {1} put the \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>nel <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
-{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.\se[itemlevel]
+{1} put the \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.\se[itemlevel]
 {1} trova alcune \c[1]{2}\c[0]!\wtnp[30]
 \se[itemlevel]{1} found \c[1]{2}\c[0]!\wtnp[30]
 {1} sistema la \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>nel <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
-{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.\se[itemlevel]
+{1} put the \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.\se[itemlevel]
 \se[itemlevel]{1} ha trovato {2} \c[1]{3}\c[0]!\wtnp[30]
 \se[itemlevel]{1} found \c[1]{2}\c[0]!\wtnp[30]
 {1} put the \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>in the <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
-{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.\se[itemlevel]
+{1} put the \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.\se[itemlevel]
 \se[itemlevel]{1} ha trovato {2} \c[1]{3}s\c[0]!\wtnp[30]
 \se[itemlevel]{1} found {2} \c[1]{3}s\c[0]!\wtnp[30]
 {1} sistema la \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<n>>nel <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
-{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.\se[itemlevel]
+{1} put the \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.\se[itemlevel]
 \se[itemlevel]{1} ha trovato una \c[1]{2}\c[0]!\wtnp[30]
 \se[itemlevel]{1} found \c[1]{2}\c[0]!\wtnp[30]
 {1} ha trovato \c[1]{2}\c[0]!\wtnp[20]
@@ -51544,19 +51576,19 @@ Too bad... The Bag is full...
 \se<<[>><<]>>{1} ha trovato {2}!\se<<[>>itemlevel<<]>>\<<n>>che contiene {3}.\wtnp<<[>>30<<]>>
 \se<<[>><<]>>{1} found {2}!\se<<[>>itemlevel<<]>>\<<n>>It contains {3}.\wtnp<<[>>30<<]>>
 {1} sistema la {2}<<n>>nel {3} Pocket.
-{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
+{1} put the \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
 \se[]{1} ha trovato {2}!\se[itemlevel]\wtnp[30]
 \se[]{1} found \c[1]{2}\c[0]!\se[itemlevel]\wtnp[30]
 {1} sistema {2}<<n>>nel {3} Pocket.
-{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
+{1} put the \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
 \se[]{1} ha trovato {2} {3}!\se[itemlevel]\wtnp[30]
 \se[]{1} found {2} \c[1]{3}\c[0]!\se[itemlevel]\wtnp[30]
 {1} sistema {2}<<n>>nella tasca {3}.
-{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
+{1} put the \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
 \se[]{1} ha trovato {2} {3}s!\se[itemlevel]\wtnp[30]
 \se[]{1} found {2} \c[1]{3}s\c[0]!\se[itemlevel]\wtnp[30]
 {1} sistema {2}s<<n>>nella tasca {3}.
-{1} put \c[1]{2}s\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
+{1} put the \c[1]{2}s\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
 {1} ha trovato {2}!\wtnp[20]
 {1} found \c<<[>>1<<]>>{2}\c<<[>>0<<]>>!\wtnp[20]
 {1} ha trovato {2} {3}!\wtnp[20]
@@ -51572,9 +51604,9 @@ Too bad... The Bag is full...
 \se[itemlevel]Trovata una \c[1]{1}s\c[0]!\wtnp[30]
 \se[itemlevel]You found \c[1]{1}s\c[0]!\wtnp[30]
 {1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>
-{1} put \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
+{1} put the \c[1]{2}\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
 {1} sistema \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<n>>nella tasca <icon=bagPocket#{pocket}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>>
-{1} put \c[1]{2}s\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
+{1} put the \c[1]{2}s\c[0]<<n>>in the \c[1]{3}\c[0] Pocket.
 A Key Item in the Bag can be registered to this key for instant use.
 A Key Item in the Bag can be registered to this key for instant use.
 This tree looks like it can be cut down!<<1>>
@@ -55320,21 +55352,21 @@ File 'craftingsystem.txt' doesn't exist
 {1} ottiene {2}!
 {1} obtained \c[1]{2}\c[0]!
 {1} sistema {2} nella tasca Strumenti.
-{1} put \c[1]{2}\c[0] in the \c[1]Items\c[0] Pocket.
+{1} put the \c[1]{2}\c[0] in the \c[1]Items\c[0] Pocket.
 {1} sistema {2} nella tasca Medicine.
-{1} put \c[1]{2}\c[0] in the \c[1]Medicines\c[0] Pocket.
+{1} put the \c[1]{2}\c[0] in the \c[1]Medicines\c[0] Pocket.
 {1} sistema {2} nella tasca Poke Balls.
-{1} put \c[1]{2}\c[0] in the \c[1]Poké Balls\c[0] Pocket.
+{1} put the \c[1]{2}\c[0] in the \c[1]Poké Balls\c[0] Pocket.
 {1} sistema {2} nella tasca MT/MN.
-{1} put \c[1]{2}\c[0] in the \c[1]Machines\c[0] Pocket.
+{1} put the \c[1]{2}\c[0] in the \c[1]Machines\c[0] Pocket.
 {1} sistema {2} nella tasca Bacche.
-{1} put \c[1]{2}\c[0] in the \c[1]Berries\c[0] Pocket.
+{1} put the \c[1]{2}\c[0] in the \c[1]Berries\c[0] Pocket.
 {1} sistema {2} nella tasca Mail.
-{1} put \c[1]{2}\c[0] in the \c[1]Mails\c[0] Pocket.
+{1} put the \c[1]{2}\c[0] in the \c[1]Mails\c[0] Pocket.
 {1} sistema {2} nella tasca Oggetti di battaglia.
-{1} put \c[1]{2}\c[0] in the \c[1]Battle Items\c[0] Pocket.
+{1} put the \c[1]{2}\c[0] in the \c[1]Battle Items\c[0] Pocket.
 {1} sistema {2} nella tasca Strumenti chiave.
-{1} put \c[1]{2}\c[0] in the \c[1]Key Items\c[0] Pocket.
+{1} put the \c[1]{2}\c[0] in the \c[1]Key Items\c[0] Pocket.
 CHIUDI ZAINO
 CHIUDI ZAINO
 Chiudi zaino.
@@ -56450,19 +56482,19 @@ There seem to be unsaved changes.
 \se<<[>>itemlevel<<]>> Trovata una \c<<[>>1<<]>>{1}\c<<[>>0<<]>>!<<n>>Che contiene \c<<[>>1<<]>>{2}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
 \se<<[>>itemlevel<<]>>You found \c<<[>>1<<]>>{1}\c<<[>>0<<]>>!<<n>>It contains \c<<[>>1<<]>>{2}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
 {1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>nella tasca \c<<[>>1<<]>>{3}\c<<[>>0<<]>>
-{1} put \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>in the \c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
+{1} put the \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<r>><<n>>in the \c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
 {1} sistema \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<n>>nella tasca \c<<[>>1<<]>>{3}\c<<[>>0<<]>>
-{1} put \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<r>><<n>>in the \c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
+{1} put the \c<<[>>1<<]>>{2}s\c<<[>>0<<]>><<r>><<n>>in the \c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
 PokéWES
 PokéWES
 Comandi
 Controls
 {1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>>\<<n>>nella tasca \c<<[>>1<<]>>{3}\c<<[>>0<<]>>
-{1} put \c<<[>>1<<]>>{2}\c<<[>>0<<]>>\<<n>>in the \c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
+{1} put the \c<<[>>1<<]>>{2}\c<<[>>0<<]>>\<<n>>in the \c<<[>>1<<]>>{3}\c<<[>>0<<]>> Pocket.
 {1} sistema \c[1]{2}\c[0] nella tasca \c[1]{3}\c[0]
-{1} put \c[1]{2}\c[0] in the \c[1]{3}\c[0] Pocket.
+{1} put the c[1]{2}\c[0] in the \c[1]{3}\c[0] Pocket.
 {1} sistema \c[1]{2}s\c[0] nella tasca \c[1]{3}\c[0]
-{1} put \c[1]{2}s\c[0] in the \c[1]{3}\c[0] Pocket.
+{1} put the \c[1]{2}s\c[0] in the \c[1]{3}\c[0] Pocket.
 {1} survived the poisoning.<<n>>The poison faded away!
 {1} survived the poisoning.<<n>>The poison faded away!
 Non puoi usare volo qui.
