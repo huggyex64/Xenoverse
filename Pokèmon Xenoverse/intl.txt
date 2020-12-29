@@ -2490,7 +2490,7 @@ Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
 <<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 <<[>>old<<]>>Per Cansiria
-<<[>>old<<]>>Per Cansiria
+<<[>>old<<]>>For Fortbelt Town
 Ana
 Ana
 Quanto pesa questo zaino...!
@@ -2500,7 +2500,7 @@ Uff! Mi hai tolto un bel peso!
 ... Smascherato! Ih ih!
 ... Smascherato! Ih ih!
 <<[>>old<<]>>Vulcano Pulsar ad ovest
-<<[>>old<<]>>Vulcano Pulsar ad ovest
+<<[>>old<<]>>West: Mt. Starburst
 Sofia
 Sofia
 Solo i più forti sopravvivono alle intemperie!
@@ -3661,10 +3661,6 @@ Booolt...!
 Booolt...!
 <<[>>old<<]>>Forse un Pokémon di tipo Elettro potrebbe addentrarvisi...
 <<[>>old<<]>>Probably an Electric-type Pokémon could get in there...
-<<[>>old<<]>> Per entrare in questo Nido hai bisogno di Sabolt. Vuoi farlo entrare?
-<<[>>old<<]>>It's a Pokémon Den...\nDo you want Sabolt to take a look inside?
-<<[>>old<<]>>Probabilmente per entrare in questo Nido, hai bisogno di un particolare Pokémon di tipo Elettro.
-<<[>>old<<]>>Probabilmente per entrare in questo Nido, hai bisogno di un particolare Pokémon di tipo Elettro.
 <<[>>old<<]>>La palude è piena zeppa di Pokémon Veleno! Fai scorta di Antidoti e Baccapesche prima di lanciarti all'avventura.
 <<[>>old<<]>>La palude è piena zeppa di Pokémon Veleno! Fai scorta di Antidoti e Baccapesche prima di lanciarti all'avventura.
 <<[>>old<<]>>Bzz!
@@ -3748,8 +3744,6 @@ Gaaa...!
 <<[>>old<<]>>Immergendosi in questa melma, i tuoi Pokémon rischiano di rimanere avvelenati, perciò cerca di attraversarla in fretta!
 Questo Joltik blocca il passaggio.
 Questo Joltik blocca il passaggio.
-<<[>>old<<]>>ATTENZIONE Allenatori! E' vietato l'utilizzo di Surf. L'acqua è troppo pericolosa per via della mole di Pokémon veleno che ci vivono. Firmato ''i cittadini di Borgo Gemini''.
-<<[>>old<<]>>ATTENZIONE Allenatori! E' vietato l'utilizzo di Surf. L'acqua è troppo pericolosa per via della mole di Pokémon veleno che ci vivono.  Firmato ''i cittadini di Borgo Gemini''.
 Sì
 Yes
 No
@@ -4895,7 +4889,7 @@ Thy duel was magnificent!<<n>>Thy technique was superbe indede!<<n>>May bards si
 Armando
 Armand
 La principessa sta riposando. Tuttavia voleva congratularsi con voi per il vostro successo.
-The Princess is rest. However, she wanted to compliment you for your success.
+The Princess is resting. However, she wanted to compliment you for your success.
 Si chiedeva se aveste portato qualche delizia per lei.
 She was wondering if you had taken some treats for her.
 ???
@@ -5019,7 +5013,7 @@ Scaaa...!
 Scaaa...!
 [Map105]
 <b>Birigiri</b> non fa che tormentare <b>Chubiburny</b>, ma questi diventa più forte solo in sua compagnia.
-<b>Birigiri</b> non fa che tormentare <b>Chubiburny</b>, ma questi diventa più forte solo in sua compagnia.
+<b>Birigiri</b> keeps harassing <b>Chubiburny</b>, but it's only with the first one that the second strengthens.
 Mnemonio
 Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
@@ -5177,35 +5171,35 @@ Occhio a non scavarti la fossa da solo|a però.
 Occhio a non scavarti la fossa da solo|a però.
 [Map117]
 Gaetano
-Gaetano
+Timmy
 Hai per caso visto il mio Hippopotas?
-Hai per caso visto il mio Hippopotas?
+Have you seen my Hippopotas?
 Alla fine Hippopotas è tornato! Ci ha solo messo un po’ a ritrovare la strada.
-Alla fine Hippopotas è tornato! Ci ha solo messo un po’ a ritrovare la strada.
+My Hippopotas came back! It just took it a while to find<<n>>the way back.
 Serena
 Serena
 Non senti anche tu questa puzza di... zolfo?
-Non senti anche tu questa puzza di... zolfo?
+Do you smell it? It is... sulfur?
 Ora sento solo puzza di sconfitta...
-Ora sento solo puzza di sconfitta...
+I can only smell defeat now...
 Il vulcano dev’essere vicino!
-Il vulcano dev’essere vicino!
+The volcano must be near!
 Hippoo...!
 Hippoo...!
 Gioele
-Gioele
+Sawyer
 Preparati allo strike-out!
-Preparati allo strike-out!
+Get ready for the strike out!
 Più vergognoso di una loss...
-Più vergognoso di una loss...
+Strike three... for me!
 Trucco svelato! Non sono un Asso del Baseball, ma mi piacerebbe tanto...
-Trucco svelato! Non sono un Asso del Baseball, ma mi piacerebbe tanto...
+I was bluffing! I'm not a Baseball Ace, but I'd really like to...
 <<[>>old<<]>>Bisogna portare il cibo al padrone.
 <<[>>old<<]>>I must bring food to the master.
 Noa
 Noah
 Non potete passare di qui senza esservi meritati la <b>Medaglia Marea</b>.
-Non potete passare di qui senza esservi meritati la <b>Medaglia Marea</b>.
+You can't pass unless you've earned the <b>Tidal Badge</b>.
 <<[>>old<<]>>Alcuni luoghi sono accessibili solo se hai il tuo Pokémon iniziale con te, perciò non depositarlo mai nel Box del PC!
 <<[>>old<<]>>Alcuni luoghi sono accessibili solo se hai il tuo Pokémon iniziale con te, perciò non depositarlo mai nel Box del PC!
 Cristoforo
@@ -5461,7 +5455,7 @@ Tuuurt....!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
 <<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Un'energia arcana impedisce di proseguire...
-<<[>>old<<]>>Un'energia arcana impedisce di proseguire...
+<<[>>old<<]>>A mysterious energy blocked the way.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 Lee
@@ -6157,30 +6151,34 @@ No
 <<[>>old<<]>>It's empty.
 ???
 ???
-Benvenuto|a nella Palestra di Aquariopoli, giovane Allenatore! Come dici? Vuoi sapere se mi paghino per seguirti? Purtroppo no, ma sappi che faccio il tifo per te!
-Benvenuto|a nella Palestra di Aquariopoli, giovane Allenatore! Come dici? Vuoi sapere se mi paghino per seguirti? Purtroppo no, ma sappi che faccio il tifo per te!
+Benvenuto|a nella Palestra di Aquariopoli, giovane Allenatore!
+Welcome to Ishtar City's Gym, young Trainer!
+Come dici? Vuoi sapere se mi paghino per seguirti? Purtroppo no, ma sappi che faccio il tifo per te!
+What? You want to know if I'm paid to follow you?<<n>>Sadly, no, but always remember I'm cheering for you!
+Stavolta, prima di iniziare, voglio mettere alla prova il tuo spirito di osservazione... Dimmi, in che tipo pensi sia specializzata la Capopalestra?
+This time, before starting, I want to test your sense of observation...<<n>>So tell me, in which type do you think the Gym Leader specializes?
 Eh eh! Il clima torrido della città ti ha portato fuori strada. Riprova.
-Eh eh! Il clima torrido della città ti ha portato fuori strada. Riprova.
+Heh heh! The torrid climate of the city led you astray.<<n>>Try again.
 Hai osservato con attenzione il suo vestiario, vedo. Ebbene sì, Verbena è una specialista del tipo Acqua! Contrasta la sua corrente impetuosa coi Pokémon di tipo Elettro o con quelli di tipo Suono!
-Hai osservato con attenzione il suo vestiario, vedo. Ebbene sì, Verbena è una specialista del tipo Acqua! Contrasta la sua corrente impetuosa coi Pokémon di tipo Elettro o con quelli di tipo Suono!
+You have carefully observed her clothing, I see.<<n>>Yeah, that's right, Nuphar is a Water-type specialist!<<n>>Counter her rushing stream with Electric-type or<<n>>Sound-type Pokémon!
 Ho voluto testare il tuo intuito, proprio perché ne avrai un gran bisogno in questa Palestra! Eh eh!
-Ho voluto testare il tuo intuito, proprio perché ne avrai un gran bisogno in questa Palestra! Eh eh!
+I wanted to test your insight ability because you are really going to need it in this Gym! Heh heh!
 Solo perché siamo in un’oasi nel deserto? Non essere banale, su! Riprova.
-Solo perché siamo in un’oasi nel deserto? Non essere banale, su! Riprova.
+Just because this is in an oasis in the desert?<<n>>Don't be a cliché, c'mon! Try again.
 Bravo|a! Hai visto il Cofagrigus all’ingresso, vero? Beh... La risposta è sbagliata! Riprova.
-Bravo|a! Hai visto il Cofagrigus all’ingresso, vero? Beh... La risposta è sbagliata! Riprova.
+Bravo! You've seen the Cofagrigus at the entrance, right?<<n>>So...<<n>>Wrong answer! Try again.
 Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
-Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
+What? You want to know who I am? And why?<<n>>You just need to know I'm cheering for you!
 Non ti sei lasciato|a ammaliare dalla bellezza della Capopalestra e hai avuto la meglio. Ora che hai quattro Medaglie, sei esattamente a metà strada!
 Non ti sei lasciato|a ammaliare dalla bellezza della Capopalestra e hai avuto la meglio. Ora che hai quattro Medaglie, sei esattamente a metà strada!
 Fuoco
-Fuoco
+Fire
 Acqua
-Acqua
+Water
 Terra
-Terra
+Ground
 Spettro
-Spettro
+Ghost
 [Map143]
 <<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
 <<[>>old<<]>>There's something in this ancient jar.
@@ -7066,7 +7064,7 @@ Eddai, Silvia. Perché negare l'evidenza?
 Fattelo dire, Saul... Sei davvero irrecuperabile. Dai, \PN. Andiamo via da quest'idiota.
 Fattelo dire, Saul... Sei davvero irrecuperabile. Dai, \PN. Andiamo via da quest'idiota.
 <<[>>old<<]>>C'è solo spazzatura...
-<<[>>old<<]>>C'è solo spazzatura...
+<<[>>old<<]>>Just garbage...
 Guarda un po' chi si vede!
 Guarda un po' chi si vede!
 Quel cantante da strapazzo ci ha fatto solo perdere tempo... Col cavolo che Leopoli vedrà più questo bel muso!
@@ -8170,9 +8168,9 @@ Caroline
 So che non dovrei aiutare gli intrusi, ma il mio codice d’onore me lo impedisce. Se hai bisogno di riposo, usa pure quel letto laggiù.
 So che non dovrei aiutare gli intrusi, ma il mio codice d’onore me lo impedisce. Se hai bisogno di riposo, usa pure quel letto laggiù.
 <<[>>old<<]>>Tra le cartacce c'è un interruttore... Vuoi premerlo?
-<<[>>old<<]>>Tra le cartacce c'è un interruttore... Vuoi premerlo?
+<<[>>old<<]>>There was a switch among these papers. Would you like to press it?
 <<[>>old<<]>>Si sarà aperta un'altra stanza del vagone...? Sarà bene controllare.
-<<[>>old<<]>>Si sarà aperta un'altra stanza del vagone...? Sarà bene controllare.
+<<[>>old<<]>>Maybe another room in the wagon opened. You should check it out.
 <<[>>old<<]>>Non c'è niente...
 <<[>>old<<]>>There's nothing here...
 <<[>>old<<]>>Vuoi riposarti?
@@ -8376,9 +8374,9 @@ Neanche il cupo Crisante è riuscito ad arrestare la tua avanzata! Con questa, f
 Neanche il cupo Crisante è riuscito ad arrestare la tua avanzata! Con questa, fanno cinque Medaglie in saccoccia!
 [Map192]
 <<[>>old<<]>>È un portone davvero spesso! Forse bisogna prima accedere a tutte le celle per entrare...?
-<<[>>old<<]>>È un portone davvero spesso! Forse bisogna prima accedere a tutte le celle per entrare...?
+<<[>>old<<]>>This door is so thick! Maybe you should first get in the other jails to open it...?
 <<[>>old<<]>>Vuoi utilizzare i pass?
-<<[>>old<<]>>Vuoi utilizzare i pass?
+<<[>>old<<]>>Would you like to use all your passes?
 Jose
 Jose
 Due passi avanti, uno a destra... Due passi avanti, uno a sinistra... Dritto verso l’alto.
@@ -8392,9 +8390,9 @@ Due passi avanti, due a destra... Cinque verso l’alto e infine tre a sinistra.
 Quando riusciremo a svignarcela da questo dannato posto, sarai il||la primo|a a passare sotto le nostre mani!
 Quando riusciremo a svignarcela da questo dannato posto, sarai il||la primo|a a passare sotto le nostre mani!
 <<[>>old<<]>>Per aprire la cella hai bisogno di un pass.
-<<[>>old<<]>>Per aprire la cella hai bisogno di un pass.
+<<[>>old<<]>>You need a specific pass to open this jail.
 <<[>>old<<]>>Vuoi utilizzare il pass?
-<<[>>old<<]>>Vuoi utilizzare il pass?
+<<[>>old<<]>>Would you like to use your pass?
 <<[>>old<<]>>TEMPO ESAURITO.\nNon sei riuscito a risolvere tutti gli enigmi. Sarai riportato all'entrata della palestra.
 <<[>>old<<]>>TEMPO ESAURITO.\nNon sei riuscito a risolvere tutti gli enigmi. Sarai riportato all'entrata della palestra.
 Sì
@@ -8481,20 +8479,20 @@ Tu!
 <<[>>old<<]>>Non si hanno altre informazioni a riguardo.
 <<[>>old<<]>>Non si hanno altre informazioni a riguardo.
 <<[>>old<<]>>A chi appartiene il Pokémon Houndoom?
-<<[>>old<<]>>A chi appartiene il Pokémon Houndoom?
+<<[>>old<<]>>Who does Houndoom belong to?
 Isabelle Nostenfer
 Isabelle Nostenfer
 Negarg Moor
-Negarg Moor
+Gunther Moor
 Charles Fire
 Charles Fire
 Rod Aruka
 Rod Aruka
 [Map194]
 <<[>>old<<]>>È una statua del leggendario Pokémon Suicune.
-<<[>>old<<]>>È una statua del leggendario Pokémon Suicune.
+<<[>>old<<]>>It's a statue of the legendary Pokémon Suicune.
 <<[>>old<<]>>Un vecchio kimono di pregiata fattura proveniente da una regione non lontana da Eldiw.
-<<[>>old<<]>>Un vecchio kimono di pregiata fattura proveniente da una regione non lontana da Eldiw.
+<<[>>old<<]>>A top quality old kimono coming from a region not far from Eldiw.
 Maria
 Maria
 Due passi avanti, tre a sinistra... Due passi avanti, due a sinistra... Uno verso il basso, tre a sinistra... Dritto verso l'alto...
@@ -8502,7 +8500,7 @@ Due passi avanti, tre a sinistra... Due passi avanti, due a sinistra... Uno vers
 Fuori dai piedi! Hai rovinato il sogno di gloria delle sorelle Maria e Serafina!
 Fuori dai piedi! Hai rovinato il sogno di gloria delle sorelle Maria e Serafina!
 <<[>>old<<]>>È una statua del leggendario Pokémon Entei.
-<<[>>old<<]>>È una statua del leggendario Pokémon Entei.
+<<[>>old<<]>>It's a statue of the legendary Pokémon Entei.
 <<[>>old<<]>>Inserisci la parola chiave.
 <<[>>old<<]>>Inserisci la parola chiave.
 <<[>>old<<]>>Insert password.
@@ -8514,15 +8512,15 @@ Fuori dai piedi! Hai rovinato il sogno di gloria delle sorelle Maria e Serafina!
 TEMPO ESAURITO.\nNon sei riuscito a risolvere tutti gli enigmi. Sarai riportato all'entrata della palestra.
 TEMPO ESAURITO.\nNon sei riuscito a risolvere tutti gli enigmi. Sarai riportato all'entrata della palestra.
 <<[>>old<<]>>È una statua del leggendario Pokémon Raikou.
-<<[>>old<<]>>È una statua del leggendario Pokémon Raikou.
+<<[>>old<<]>>It's a statue of the legendary Pokémon Raikou.
 <<[>>old<<]>>I colori di questa piuma ricordano l'arcobaleno...
-<<[>>old<<]>>I colori di questa piuma ricordano l'arcobaleno...
+<<[>>old<<]>>The colors of this feather resemble the rainbow...
 <<[>>old<<]>>Riproduzione di un edificio divorato dalle fiamme.
-<<[>>old<<]>>Riproduzione di un edificio divorato dalle fiamme.
+<<[>>old<<]>>It's a replica of a burned down tower.
 <<[>>old<<]>>È una Pokébambola di Gengar.
-<<[>>old<<]>>È una Pokébambola di Gengar.
+<<[>>old<<]>>It's a Gengar Poké Doll.
 <<[>>old<<]>>La mappa di una regione non lontana da Eldiw.
-<<[>>old<<]>>La mappa di una regione non lontana da Eldiw.
+<<[>>old<<]>>It's the map of a region not far from Eldiw.
 A
 A
 R
@@ -8569,14 +8567,14 @@ Litwick
 Lit...!
 Lit...!
 <<[>>old<<]>>Sembra che questo Litwick abbia qualcosa per te.
-<<[>>old<<]>>Sembra che questo Litwick abbia qualcosa per te.
+<<[>>old<<]>>Looks like this Litwich has something for you.
 TEMPO ESAURITO.\nNon sei riuscito a risolvere tutti gli enigmi. Sarai riportato all'entrata della palestra.
 TEMPO ESAURITO.\nNon sei riuscito a risolvere tutti gli enigmi. Sarai riportato all'entrata della palestra.
 [Map196]
 <<[>>old<<]>>È tutto pronto?
-<<[>>old<<]>>È tutto pronto?
+<<[>>old<<]>>Are you ready?
 <<[>>old<<]>>Non puoi entrare senza il tuo Pokémon iniziale.
-<<[>>old<<]>>Non puoi entrare senza il tuo Pokémon iniziale.
+<<[>>old<<]>>You cannot get in there without your starter Pokémon.
 E3
 E3
 Il Generale si sta rilassando ed è nostro preciso dovere evitargli inutili grane! <i>Bzz!</i>
@@ -8682,8 +8680,8 @@ Se non è un problema, io vorrei andare con Daddy. Non posso perdere l'occasione
 Se non è un problema, io vorrei andare con Daddy. Non posso perdere l'occasione di vederlo in azione!
 Alright, my friends! Let's go! Quel maledetto si pentirà di aver attaccato proprio la mia città!
 Alright, my friends! Let's go! Quel maledetto si pentirà di aver attaccato proprio la mia città!
-<<[>>old<<]>> La Stazione oggi è chiusa.
-<<[>>old<<]>> La Stazione oggi è chiusa.
+<<[>>old<<]>>La Stazione è chiusa oggi.
+<<[>>old<<]>>The Station is closed today.
 <<[>>old<<]>>Il cestino contiene qualcosa.
 <<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
@@ -8721,7 +8719,7 @@ Colton
 Ho perso i miei occhiali all’ultimo grido mentre sfrecciavo su e giù per la città.
 Ho perso i miei occhiali all’ultimo grido mentre sfrecciavo su e giù per la città.
 <<[>>old<<]>>Casa degli ospiti
-<<[>>old<<]>>Casa degli ospiti
+<<[>>old<<]>>Guest House
 Marlon
 Marlon
 Ma perché tocca sempre a me buttare l’immondizia?!
@@ -8795,7 +8793,7 @@ E tu lo segui Daddy su Instagram?
 <<[>>old<<]>>Non c'è niente...
 <<[>>old<<]>>There's nothing here...
 <<[>>old<<]>>Stazione Ferroviaria di Leopoli
-<<[>>old<<]>>Stazione Ferroviaria di Leopoli
+<<[>>old<<]>>Hypelion Railway Station
 Joseph
 Joseph
 Prendi posto, amico|a. Stiamo per iniziare!
@@ -8836,8 +8834,8 @@ Quinn
 Quinn
 Quanto ci mette questo autobus?
 Quanto ci mette questo autobus?
-<<[>>old<<]>> La palestra oggi è chiusa.
-<<[>>old<<]>> La palestra oggi è chiusa.
+<<[>>old<<]>>La Palestra è chiusa oggi.
+<<[>>old<<]>>The Gym is closed today.
 Sally
 Sally
 Alle stelle si giunge attraverso aspri sentieri... E queste sull'asfalto sono il simbolo degli sforzi di Daddy!
@@ -8850,7 +8848,7 @@ Ci credi che Daddy un tempo era povero? Sul serio, rubava nei Pokémon-Market pe
 <<[>>old<<]>>Vuoi riposarti?
 <<[>>old<<]>>Would you like to rest?
 <<[>>old<<]>>È il grande giorno dell'evento di Wallace Daddy... Meglio dirigersi verso il palco!
-<<[>>old<<]>>È il grande giorno dell'evento di Wallace Daddy... Meglio dirigersi verso il palco!
+<<[>>old<<]>>Today is Wallace Daddy's big day... You should head towards the concert square!
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
 <<[>>old<<]>>The trash is full of wastepaper.
 ???
@@ -9004,9 +9002,9 @@ Ted
 Chissà se troverò mai l’anima gemella...
 Chissà se troverò mai l’anima gemella...
 <<[>>old<<]>>È una Baccananas... Ma che ci fa su una scrivania?
-<<[>>old<<]>>È una Baccananas... Ma che ci fa su una scrivania?
+<<[>>old<<]>>It's a Pinap Berry... Why is it on the desk?
 <<[>>old<<]>>Vuoi prenderla?
-<<[>>old<<]>>Vuoi prenderla?
+<<[>>old<<]>>Would you like to pick it up?
 Sì
 Yes
 No
@@ -9206,7 +9204,7 @@ Se non mi fossi iscritta al fanclub, non avrei mai saputo che Daddy fosse origin
 Dolly
 Dolly
 Yo! Questo è il Pokémon-Market di Leopoli!
-Yo! This is the Poké Mart in Ishtar City!
+Yo! This is the Poké Mart in Hypelion City!
 Sì
 Yes
 No
@@ -9387,13 +9385,13 @@ Mi scusi? L'organizzazione non prevedeva alcun dessert... Ci sarà stato un camb
 E sia, dal momento che sono già in tavola... Potete servirvi liberamente!
 E sia, dal momento che sono già in tavola... Potete servirvi liberamente!
 <<[>>old<<]>>Evvai! Dessert!
-<<[>>old<<]>>Evvai! Dessert!
+<<[>>old<<]>>Yay! Dessert!
 <<[>>old<<]>>Gnam! Che bontà!
-<<[>>old<<]>>Gnam! Che bontà!
+<<[>>old<<]>>Yum! So good!
 <<[>>old<<]>>C'est magnifique!
 <<[>>old<<]>>C'est magnifique!
-Voglio assolutamente assaggiare quel dolcetto... anche un pezzetto piccolo piccolo...
-Voglio assolutamente assaggiare quel dolcetto... anche un pezzetto piccolo piccolo...
+Avrei tanto voluto assaggiare quei bignè... Mi sarei accontentato anche di una briciola!
+Avrei tanto voluto assaggiare quei bignè... Mi sarei accontentato anche di una briciola!
 Albert
 Albert
 Ti dico di no! La traccia migliore è ''El Dorado''!
@@ -9424,7 +9422,7 @@ Joe
 Joe
 È frustrante che il pezzo che ritieni più valido, talvolta, non venga compreso a pieno.
 È frustrante che il pezzo che ritieni più valido, talvolta, non venga compreso a pieno.
-Quei bigné non sono opera nostra... Anche se devo ammettere che erano davvero deliziosi!
+Quei bignè non sono opera nostra... Anche se devo ammettere che erano davvero deliziosi!
 Quei bigné non sono opera nostra... Anche se devo ammettere che erano davvero deliziosi!
 Oh, eccoti qui!
 Oh, eccoti qui!
@@ -9511,7 +9509,7 @@ S
 S
 Ah, sei tu. Se ti rivolgo la parola è solo perché Santana ha stima di te... Ma ora smamma, qui stiamo lavorando al nuovo disco!
 Ah, sei tu. Se ti rivolgo la parola è solo perché Santana ha stima di te... Ma ora smamma, qui stiamo lavorando al nuovo disco!
-<<[>>old<<]>> La porta è chiusa a chiave.
+<<[>>old<<]>>La porta è chiusa a chiave.
 <<[>>old<<]>>The door is locked.
 ???
 ???
@@ -9521,7 +9519,7 @@ Il signor Wallace Daddy mi ha nominato terzo giudice fisso del suo talent show..
 Il signor Wallace Daddy mi ha nominato terzo giudice fisso del suo talent show... è un sogno che si avvera!
 Ma non preoccuparti, \PN, continuo a fare il tifo per te!
 Ma non preoccuparti, \PN, continuo a fare il tifo per te!
-<<[>>old<<]>> Non c'è niente...
+<<[>>old<<]>>Non c'è niente...
 <<[>>old<<]>>There's nothing here...
 Oh! Qualcuno è riuscito ad arrivare fin quassù, incredibile!
 Oh! Qualcuno è riuscito ad arrivare fin quassù, incredibile!
@@ -9544,13 +9542,13 @@ Mi hai dimostrato di essere un valido avversario e sono certo che anche il signo
 Però, devi essere in forma per affrontarlo, perciò lascia che curi i tuoi Pokémon!
 Però, devi essere in forma per affrontarlo, perciò lascia che curi i tuoi Pokémon!
 Dalle stalle alle stelle
-Dalle stalle alle stelle
+Rags to Riches
 Re della Giungla
-Re della Giungla
+King of the Jungle
 Fari Puntati
-Fari Puntati
+All Lightz on Me
 Indigeno
-Indigeno
+Native
 [Map215]
 Wallace Daddy
 Wallace Daddy
@@ -9590,28 +9588,28 @@ Slur! Slur!
 Slur! Slur!
 [Map216]
 <<[>>old<<]>>A quale piano vuoi andare?
-<<[>>old<<]>>A quale piano vuoi andare?
+<<[>>old<<]>>Which floor are you going to?
 <<[>>old<<]>>Sembra occorrano degli specifici pass per salire...
-<<[>>old<<]>>Sembra occorrano degli specifici pass per salire...
+<<[>>old<<]>>It looks like you need a specific ticket to go up...
 Golden Studio
 Golden Studio
 Esci
-Esci
+Quit
 Sala Rock
-Sala Rock
+Rock Room
 Sala Dance
-Sala Dance
+Dance Room
 [Map217]
-<<[>>old<<]>> A quale piano vuoi andare?
-<<[>>old<<]>> A quale piano vuoi andare?
+<<[>>old<<]>>A quale piano vuoi andare?
+<<[>>old<<]>>Which floor are you going to?
 Piano Terra
-Piano Terra
+Ground floor
 Esci
-Esci
+Quit
 Sala Rock
-Sala Rock
+Rock Room
 Sala Dance
-Sala Dance
+Dance Room
 [Map218]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
@@ -9711,7 +9709,7 @@ Use Box
 <<[>>old<<]>>Correndo nell'erba alta, è più probabile che un Pokémon selvatico ti attacchi. Cammina quatto quatto se vuoi evitare scontri inutili!
 <<[>>old<<]>>Correndo nell'erba alta, è più probabile che un Pokémon selvatico ti attacchi. Cammina quatto quatto se vuoi evitare scontri inutili!
 <<[>>old<<]>>Aeroporto Samuel Oak
-<<[>>old<<]>>Aeroporto Samuel Oak
+<<[>>old<<]>>Samuel Oak Airport
 Elvira
 Elvira
 Sono così in ansia per l’aereo! Mi ci vuole una bella lotta Pokémon per calmarmi!
@@ -10122,9 +10120,9 @@ Ehi, ragazzino|a!
 Sei stato formidabile! Raggiungimi in console, su!
 Sei stato formidabile! Raggiungimi in console, su!
 <<[>>old<<]>>Sta chiacchierando col barista.
-<<[>>old<<]>>Sta chiacchierando col barista.
-<<[>>old<<]>> A quale piano vuoi andare?
-<<[>>old<<]>> A quale piano vuoi andare?
+<<[>>old<<]>>They're chatting.
+<<[>>old<<]>>A quale piano vuoi andare?
+<<[>>old<<]>>Which floor are you going to?
 Amico, se hai qualche richiesta sulla musica da mettere su, dovrai aspettare! Intanto, però, puoi scatenarti in pista! Forza!
 Amico, se hai qualche richiesta sulla musica da mettere su, dovrai aspettare! Intanto, però, puoi scatenarti in pista! Forza!
 Che forza, amico|a! Quei tuoi passi di danza erano davvero pazzeschi!
@@ -10152,7 +10150,7 @@ Un passo avanti, un passo a ritmo, e che la lotta abbia inizio!
 Sulle rime devo ancora lavorarci...
 Sulle rime devo ancora lavorarci...
 <<[>>old<<]>>Sta chiacchierando con la barista.
-<<[>>old<<]>>Sta chiacchierando con la barista.
+<<[>>old<<]>>They're chatting.
 Rika
 Rika
 Che c’è? Vuoi ballare? Okay, andiamo in pista allora!!
@@ -10162,17 +10160,17 @@ Dove li hai imparati quei passi?
 Insegnami quei passi, ti scongiuro! Sono pronta a cederti questo, guarda!
 Insegnami quei passi, ti scongiuro! Sono pronta a cederti questo, guarda!
 <<[>>old<<]>>È Wallace Daddy che si scatena sulla pista da ballo. C'è anche il suo autografo.
-<<[>>old<<]>>È Wallace Daddy che si scatena sulla pista da ballo.  C'è anche il suo autografo.
+<<[>>old<<]>>È Wallace Daddy che si scatena sulla pista da ballo. C'è anche il suo autografo.
 Allora, affare fatto?
 Allora, affare fatto?
 Non posso crederci che sei riuscito|a a sconfiggere Wallace! Sei pazzesco|a, ora mi fai un autografo?
 Non posso crederci che sei riuscito|a a sconfiggere Wallace!  Sei pazzesco|a, ora mi fai un autografo?
 Piano Terra
-Piano Terra
+Ground floor
 Esci
-Esci
+Quit
 Sala Rock
-Sala Rock
+Rock Room
 Golden Studio
 Golden Studio
 [Map223]
@@ -10226,7 +10224,7 @@ Quello che portate è davvero un curioso copricapo, sapete?
 Quello che portate è davvero un curioso copricapo, sapete?
 [Map224]
 <<[>>old<<]>>C'è solo spazzatura...
-<<[>>old<<]>>C'è solo spazzatura...
+<<[>>old<<]>>Just garbage...
 Giuseppe
 Giuseppe
 Sto aspettando che aprano il gate. Che ne dici di ammazzare il tempo con una lotta?
@@ -10353,7 +10351,7 @@ Bah! Non so cosa ci troviate tutti quanti...
 Non so cosa ci trovino tutti quanti...
 Non so cosa ci trovino tutti quanti...
 <<[>>old<<]>>C'è solo spazzatura...
-<<[>>old<<]>>C'è solo spazzatura...
+<<[>>old<<]>>Just garbage...
 <<[>>old<<]>>Ristorante Azalina ''Fai un tuffo nei sapori tipici della regione di Johto!''
 <<[>>old<<]>>Ristorante Azalina ''Fai un tuffo nei sapori tipici della regione di Johto!''
 Agostino
@@ -10406,7 +10404,7 @@ Hostess
 Deve ritirare anche lei il suo bagaglio?
 Deve ritirare anche lei il suo bagaglio?
 <<[>>old<<]>>C'è solo spazzatura...
-<<[>>old<<]>>C'è solo spazzatura...
+<<[>>old<<]>>Just garbage...
 Max
 Max
 Ma tu lo sapevi che nei Nidi Pokémon talvolta si nascondono degli esemplari di <b>Masgot</b>? Occhio però! Sono degli esemplari unici! Non lasciarteli sfuggire!
@@ -10474,7 +10472,7 @@ Rahila
 Leggere è un po' come viaggiare, ma con la fantasia!
 Leggere è un po' come viaggiare, ma con la fantasia!
 Si
-Si
+Yes
 No
 No
 [Map229]
@@ -10535,11 +10533,11 @@ Rattata
 Rat...!
 Rat...!
 <<[>>old<<]>>Accidenti! Rattata si è accorto della tua presenza!
-<<[>>old<<]>>Accidenti! Rattata si è accorto della tua presenza!
+<<[>>old<<]>>Oh, no! Rattata caught you!
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -10674,19 +10672,19 @@ Abbiamo davvero trattato male questo Pokémon... Lo lasciamo a te, fanne ciò ch
 Scusami, mammina... L'acqua... mi chiamava...!
 Sorry, mommy... The water... was calling me...!
 <<[>>old<<]>>In questo ceppo c’è un Pokémon... è Mimikyu!
-<<[>>old<<]>>In questo ceppo c’è un Pokémon... è Mimikyu!
+<<[>>old<<]>>There's a Pokémon inside this tree stump... it's Mimikyu!
 <<[>>old<<]>>Vuoi dare a Mimikyu il Manto Trishout cucito dal sarto Kupa?
-<<[>>old<<]>>Vuoi dare a Mimikyu il Manto Trishout cucito dal sarto Kupa?
+<<[>>old<<]>>Would you give Mimikyu the Trishout Disguise the tailor Kupa made?
 <<[>>old<<]>>Mimikyu accetta volentieri il tuo dono.
 <<[>>old<<]>>Mimikyu accetta volentieri il tuo dono.
 <<[>>old<<]>>Non lo lascerei in queste condizioni...
-<<[>>old<<]>>Non lo lascerei in queste condizioni...
+<<[>>old<<]>>You shouldn't leave it in this state...
 <<[>>old<<]>>Vuoi dare a Mimikyu il Manto Shyleon cucito dal sarto Kupa?
-<<[>>old<<]>>Vuoi dare a Mimikyu il Manto Shyleon cucito dal sarto Kupa?
+<<[>>old<<]>>Would you give Mimikyu the Shyleon Disguise the tailor Kupa made?
 <<[>>old<<]>>Vuoi dare a Mimikyu il Manto Shulong cucito dal sarto Kupa?
-<<[>>old<<]>>Vuoi dare a Mimikyu il Manto Shulong cucito dal sarto Kupa?
+<<[>>old<<]>>Would you give Mimikyu the Shulong Disguise the tailor Kupa made?
 <<[>>old<<]>>Mimikyu vuole dimostrarti la sua riconoscenza con una lotta!
-<<[>>old<<]>>Mimikyu vuole dimostrarti la sua riconoscenza con una lotta! 
+<<[>>old<<]>>Mimikyu wants to show its gratitude with a battle! 
 Sì
 Yes
 No
@@ -10778,7 +10776,7 @@ No
 <<[>>old<<]>>Ponte instabile. Si consiglia di non proseguire.
 <<[>>old<<]>>Ponte instabile. Si consiglia di non proseguire.
 <<[>>old<<]>>Un'arcana energia impedisce di proseguire.
-<<[>>old<<]>>Un'arcana energia impedisce di proseguire.
+<<[>>old<<]>>A mysterious energy blocked the way.
 [Map243]
 Katia
 Kate
@@ -10813,7 +10811,7 @@ My adventure at Newtron City's campus is starting soon!
 [Map247]
 [Map248]
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -10827,20 +10825,20 @@ Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 Sì
 Yes
 No
 No
 [Map249]
-<<[>>old<<]>> Vuoi uscire dal Nido e tornare nella Pokéball?
-<<[>>old<<]>> Vuoi uscire dal Nido e tornare nella Pokéball?
+<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Sabolt
 Sabolt
 Booolt...!
 Booolt...!
 <<[>>old<<]>>La corrente è staccata... Vuoi riattivarla?
-<<[>>old<<]>>La corrente è staccata... Vuoi riattivarla?
+<<[>>old<<]>>The power's off... Will you turn it on?
 Si
 Yes
 No
@@ -10853,9 +10851,9 @@ Bergmite
 Berg...!
 Berg...!
 <<[>>old<<]>>Oh, no! Bergmite si è accorto della tua presenza!
-<<[>>old<<]>>Oh, no! Bergmite si è accorto della tua presenza!
-<<[>>old<<]>> Vuoi uscire dal Nido e tornare nella Pokéball?
-<<[>>old<<]>> Vuoi uscire dal Nido e tornare nella Pokéball?
+<<[>>old<<]>>Oh, no! Bergmite caught you!
+<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -10869,9 +10867,9 @@ Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Si
 Yes
 No
@@ -10974,26 +10972,26 @@ No
 No
 [Map255]
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Sabolt
 Sabolt
 Booolt...!
 Booolt...!
 <<[>>old<<]>>La corrente è staccata... Vuoi riattivarla?
-<<[>>old<<]>>La corrente è staccata... Vuoi riattivarla?
+<<[>>old<<]>>The power's off... Will you turn it on?
 Sì
 Yes
 No
 No
 [Map256]
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Sabolt
 Sabolt
 Booolt...!
 Booolt...!
 <<[>>old<<]>>La corrente è tornata.
-<<[>>old<<]>>La corrente è tornata.
+<<[>>old<<]>>The power's on.
 <<[>>old<<]>>Torre di controllo del Vulcano Pulsar attiva. A quali dati vuoi accedere?
 <<[>>old<<]>>Torre di controllo del Vulcano Pulsar attiva. A quali dati vuoi accedere?
 <<[>>old<<]>>''Dopo il fallimento, la sperimentazione sul Gene X è stata riavviata, con lo scopo di stabilizzarlo e renderlo utilizzabile senza alcuna controindicazione.''
@@ -11841,25 +11839,25 @@ Use Box
 Jan
 Jan
 Avrei proprio bisogno di una <b>Rete Pescagrossa</b> per tirar su questi Birigiri in un sol colpo...
-Avrei proprio bisogno di una <b>Rete Pescagrossa</b> per tirar su questi Birigiri in un sol colpo...
+I need a <b>Big Fish Net</b> to catch these Birigiri...
 <<[>>old<<]>>Vuoi dare a quest'uomo la tua?
-<<[>>old<<]>>Vuoi dare a quest'uomo la tua?
+<<[>>old<<]>>Would you give this man yours?
 Ho capito bene? Saresti tanto gentile da cedermi la tua Rete Pescagrossa?
-Ho capito bene? Saresti tanto gentile da cedermi la tua Rete Pescagrossa?
+Really? You would be so kind to give me your Big Fish Net?
 Proviamo un po’...
-Proviamo un po’...
+Let's try then...
 Questa rete funziona alla grande! Come posso ringraziarti?
-Questa rete funziona alla grande! Come posso ringraziarti?
+This net works great! How could I thank you?
 Sì, può andare! Prendi questa boccetta di <b>Acqua Mistica</b> come ringraziamento per l’aiuto!
-Sì, può andare! Prendi questa boccetta di <b>Acqua Mistica</b> come ringraziamento per l’aiuto!
+Yes, this will do! Take this bottle of <b>Miracle Water</b> as thanks!
 Le acque dell'oasi di Aquariopoli sono un vero toccasana.
-Le acque dell'oasi di Aquariopoli sono un vero toccasana.
+The water from the oasis of Ishtar City surely is a real panacea.
 E ora veniamo a noi, Birigiri!
-E ora veniamo a noi, Birigiri!
+Come at me, Birigiri!
 Ghazi
 Ghazi
 La regina Verbena in persona richiedeva la tua presenza in Palestra.
-La regina Verbena in persona richiedeva la tua presenza in Palestra.
+Queen Verbena herself requests your presence at the Gym.
 Giuliano
 Giuliano
 Solo da Giuliano, articoli mai visti a prezzi stracciati!!
@@ -11875,47 +11873,47 @@ Solo da Giuliano, articoli mai visti a prezzi stracciati!!
 Nadia
 Nadia
 Solo qui puoi trovare i migliori Aromi della regione!
-Solo qui puoi trovare i migliori Aromi della regione!
+Only here, the best Incenses of the entire region!
 Keldu
 Keldu
 Per edificare queste imponenti piramidi, gli antichi fecero affidamento sulla forza dei Conkeldurr. Ai tempi non esistevano certi oggetti come questo!
-Per edificare queste imponenti piramidi, gli antichi fecero affidamento sulla forza dei Conkeldurr. Ai tempi non esistevano certi oggetti come questo!
+Ancient people built these impressive pyramids by relying upon Conkeldurr's strength.<<n>>Back in the days they had no anything like this!
 Pare che al giorno d’oggi i Gurdurr si evolvano con quell’affare.
-Pare che al giorno d’oggi i Gurdurr si evolvano con quell’affare.
+Nowadays Gurdurr evolve with that thing.
 Aza
 Aza
 Chiara
-Chiara
+Cadence
 Ho la mente così scombussolata... Mi sembra di aver dormito per giorni e giorni.
-Ho la mente così scombussolata... Mi sembra di aver dormito per giorni e giorni.
+I feel so scrambled... I feel like I've been sleeping for days.
 Barrin
 Barrin
 Questi Pokémon venuti da chissà dove sono una vera spina nel fianco, ma noi non ci fermeremo... Per la regina Verbena!!
-Questi Pokémon venuti da chissà dove sono una vera spina nel fianco, ma noi non ci fermeremo... Per la regina Verbena!!
+These Pokémon from who-knows-where really are a pain<<n>>in the neck, but we won't give up...<<n>>For the Queen Nuphar!!
 Sabrina
-Sabrina
+Marissa
 Secondo te riesco a lanciarmi di sotto facendo un 360 col Pokéboard?
-Secondo te riesco a lanciarmi di sotto facendo un 360 col Pokéboard?
+Do you think I can do a 360 with my Pokéboard?
 Sì, lo penso anch’io! Ma sei carino|a a credere in me, perciò prendi!
-Sì, lo penso anch’io! Ma sei carino|a a credere in me, perciò prendi!
+Yeah, I definitely can! But you're so nice for believing in me!<<n>>Take this!
 Tsk, non saresti capace nemmeno tu...!
-Tsk, non saresti capace nemmeno tu...!
+Tsk, you can't either...!
 Ora basta solo prendere un po’ di coraggio.
-Ora basta solo prendere un po’ di coraggio.
+Now I just need to build up my courage.
 Hippoo...!
 Hippoo...!
 Abraham
 Atum
 Hai dimostrato coraggio nella difesa la nostra città, perciò meriti tu di custodire quest’oggetto.
-Hai dimostrato coraggio nella difesa la nostra città, perciò meriti tu di custodire quest’oggetto.
+You proved your courage defending our city, you deserve to keep this item.
 Non ci lasceremo abbattere e torneremo più forti di prima!
-Non ci lasceremo abbattere e torneremo più forti di prima!
+We won't be beaten, we'll come back stronger than ever!
 Yusri
 Yusri
 Giorgio
-Giorgio
+Cameron
 Non voglio ma più sentir parlare di Bacche!
-Non voglio ma più sentir parlare di Bacche!
+I never want to hear about Berries again!
 Verbena
 Nuphar
 Oh, eccoti, \PN.
@@ -11953,9 +11951,9 @@ I totally understand, come back on your own time.
 Recati da mio nonno se vuoi diventare più forte. La regione ha bisogno di te!
 Go and meet my grandfather if you want<<n>>to become stronger.<<n>>This region needs you!
 Recluta
-Recluta
+Rookie
 Per la regina Verbena!!
-Per la regina Verbena!!
+For the Queen Nuphar!!
 Nadin
 Nadin
 Quando un Hippopotas si evolve, acquisisce una forza dieci volte maggiore.
@@ -11963,11 +11961,11 @@ Quando un Hippopotas si evolve, acquisisce una forza dieci volte maggiore.
 Mefele
 Maat
 Quel Pokémon ci ha tratti in inganno, ma impareremo dai nostri errori! Per la regina e il popolo tutto!
-Quel Pokémon ci ha tratti in inganno, ma impareremo dai nostri errori! Per la regina e il popolo tutto!
+That Pokémon tricked us, but we'll learn from our mistakes!<<n>>For the Queen and the people!
 Madir
 Madir
 Qui abbiamo il più vasto assortimento di erbe medicinali di tutta Eldiw!
-Qui abbiamo il più vasto assortimento di erbe medicinali di tutta Eldiw!
+We have the vastest assortment of herbal medicines<<n>>in Eldiw region!
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Would you like to open this chest?
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
@@ -11981,11 +11979,11 @@ You were only having a look, after all...<<n>>but don't ever try that again!<<n>
 <<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
 <<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
 Tullio
-Tullio
+Titus
 In mezzo alle mie deliziose foglie era finita questa. Ho provato ad assaggiarla, ma ha un saporaccio!
-In mezzo alle mie deliziose foglie era finita questa. Ho provato ad assaggiarla, ma ha un saporaccio!
+This got between my delicious leaves.<<n>>I tried it, but it tasted terrible!
 Ptù! Ptù! Bleah!
-Ptù! Ptù! Bleah!
+Ew! Ptui! Ptui!
 Ehi, ma cos'è successo?! Joele, sei tu?! Cos'è successo e chi è questo|a straniero|a?
 Hey, what happened?! Joel, is that you?!<<n>>What happened and who is this foreigner?
 Joele
@@ -12019,43 +12017,45 @@ Aye, Your Majesty!
 \PN, ti ringrazio dal profondo del cuore per l'aiuto. Non è molto, ma ti prego di accettare questo.
 \PN, I thank you from my heart for your help.<<n>>It's not much, but please accept this.
 Vinelo
-Vinelo
+Spencer
 Sono tornato da una spedizione nel Cunicolo Gravità. A ‘sto giro niente Fossili, solo questa Pepita!
-Sono tornato da una spedizione nel Cunicolo Gravità. A ‘sto giro niente Fossili, solo questa Pepita!
+I came back from an expedition in the Gravity Tunnel.<<n>>No Fossils this time, just a Nugget!
 Praticamente è come se fossi tornato a mani vuote!
-Praticamente è come se fossi tornato a mani vuote!
+Basically it's like I came back empty-handed!
 Teresa
 Teresa
 Bisogna portare il cibo al padrone. ... Ih ih! Scherzetto!
-Bisogna portare il cibo al padrone. ... Ih ih! Scherzetto!
-<<[>>old<<]>>L'oasi di Acquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
-<<[>>old<<]>>L'oasi di Acquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
+I must bring food to the master.<<n>>...<<n>>Hee hee! Just kidding!
+<<[>>old<<]>>L'oasi di Aquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
+<<[>>old<<]>>L'oasi di Aquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
 Ahiga
 Ahiga
 Sono giunto sino a qui dalla mia <b>Capricornia</b> per poter ammirare la bellezza di quest’oasi, ma quelle impetuose raffiche di vento nel canyon mi impediscono di fare ritorno nella mia terra... Se qualcuno riuscisse a placarle, meriterebbe davvero una lauta ricompensa.
-Sono giunto sino a qui dalla mia <b>Capricornia</b> per poter ammirare la bellezza di quest’oasi, ma quelle impetuose raffiche di vento nel canyon mi impediscono di fare ritorno nella mia terra... Se qualcuno riuscisse a placarle, meriterebbe davvero una lauta ricompensa.
+I came here from distant <b>Equinox Village</b> just to enjoy the beauty of this oasis,<<n>>but those fiery winds prevent me from going back to<<n>>my homeland...<<n>>If someone could stop those, they would deserve<<n>>a generous reward.
 Siete riuscito|a a placare la burrasca nel canyon! Prendete, ve la siete meritata.
-Siete riuscito|a a placare la burrasca nel canyon! Prendete, ve la siete meritata.
+You managed to appease the gale in the canyon!<<n>>Here you go, you deserve it.
 Ora potrò finalmente fare ritorno nel mio villaggio!
-Ora potrò finalmente fare ritorno nel mio villaggio!
+I'm going back to my village now!
 Lina
-Lina
+Lillie
 Un, due, tre... Starmie!!
-Un, due, tre... Starmie!!
+Green Flash… Red Flash!!
 La regina voleva parlarti. Dovresti trovarla a nord del varco di Aquariopoli.
 The Queen wanted to talk to you. You should find her<<n>>to the north of Ishtar City's gate.
 Bentornato|a, \PN. Allora, sei riuscito|a ad incontrare il nonno?
-Bentornato|a, \PN. Allora, sei riuscito|a ad incontrare il nonno?
+Welcome back, \PN. So tell me, did you manage<<n>>to meet gramps?
 Come? Hai ottenuto un nuovo potere sul vulcano?!
-Come? Hai ottenuto un nuovo potere sul vulcano?!
+What? You gained a new power on the volcano?!
 Fantastico! Sapevo che il nonno avrebbe saputo tirar fuori il tuo enorme potenziale!
-Fantastico! Sapevo che il nonno avrebbe saputo tirar fuori il tuo enorme potenziale!
+This is fabulous! I knew that gramps would have brought<<n>>the full potential out of you!
 Sono certa che ora risolverai la questione nel canyon in quattro e quattr'otto!
-Sono certa che ora risolverai la questione nel canyon in quattro e quattr'otto!
+I'm sure you're going to solve the canyon problem<<n>>in a brace of shakes now! 
 Ma prima, vorrei toccare con mano questa nuova forza, perciò ti aspetto nella mia Palestra...
-Ma prima, vorrei toccare con mano questa nuova forza,  perciò ti aspetto nella mia Palestra...
+But first, I would really like to touch this new power<<n>>of yours, so I'm waiting for you inside the Gym...
+Sappi solo che non sarà una sfida semplice!
+I can assure you it won't be that easy!
 Ci vediamo dentro.
-Ci vediamo dentro.
+I'll see you inside.
 Sì
 Yes
 No
@@ -12327,9 +12327,9 @@ Oh, dimenticavo! Se dovessi rimanere incastrato|a nel pubblico, la sicurezza ver
 Oh, dimenticavo! Se dovessi rimanere incastrato|a nel pubblico, la sicurezza verrà a darti una mano. Ti basterà premere il <b>tasto R</b> per chiamarla!
 [Map278]
 <<[>>old<<]>>Vietato l'accesso
-<<[>>old<<]>>Vietato l'accesso
+<<[>>old<<]>>Access denied
 <<[>>old<<]>>Un'arcana energia impedisce di proseguire.
-<<[>>old<<]>>Un'arcana energia impedisce di proseguire.
+<<[>>old<<]>>A mysterious energy blocked the way.
 [Map279]
 [Map280]
 Ginevra
@@ -12938,9 +12938,9 @@ No
 No
 [Map293]
 <<[>>old<<]>>Un aroma intenso stordisce il tuo Pokémon! È il Nido di Venusaur!
-<<[>>old<<]>>Un aroma intenso stordisce il tuo Pokémon! È il Nido di Venusaur!
+<<[>>old<<]>>A sweet scent stunned your Pokémon! It's Venusaur's Den!
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -13469,7 +13469,7 @@ Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
 <<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 <<[>>old<<]>>È spento... Dev’esserci un modo per riattivarlo!
-<<[>>old<<]>>È spento... Dev’esserci un modo per riattivarlo! 
+<<[>>old<<]>>It's off... There must be a way to turn it on! 
 44RF
 44RF
 Ehi! Perché diavolo mi hai riattivato?! Ero qui per un motivo ben preciso: bloccare l’accesso! <i>Bzz!</i> Ti terrò alla larga con una lotta! <i>Bzz!</i>
@@ -13494,13 +13494,13 @@ No
 No
 [Map305]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
-<<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
+<<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
 Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
-<<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
+<<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 Sì
 Yes
 No
@@ -13509,7 +13509,7 @@ No
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
+<<[>>old<<]>>Would you go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -16239,7 +16239,7 @@ Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Accidenti! Magnemite si è accorto della tua presenza!
-<<[>>old<<]>>Accidenti! Magnemite si è accorto della tua presenza!
+<<[>>old<<]>>Oh, no! Magnemite caught you!
 <<[>>old<<]>>L’interruttore è su ''spento''. Vuoi accenderlo?
 <<[>>old<<]>>L’interruttore è su ''spento''. Vuoi accenderlo?
 <<[>>old<<]>>Dev’essere successo qualcosa. Meglio dare un’occhiata là fuori.
@@ -16253,8 +16253,8 @@ Yes
 No
 No
 [Map379]
-<<[>>old<<]>> E' il momento di riabbracciare Papà, non si torna più indietro!
-<<[>>old<<]>> E' il momento di riabbracciare Papà, non si torna più indietro!
+<<[>>old<<]>>È il momento di riabbracciare papà, non si torna più indietro!
+<<[>>old<<]>>È il momento di riabbracciare papà, non si torna più indietro!
 [Map380]
 <<[>>old<<]>>Dossier di ricerca - 1 ''Giorno 1. Studiando le leggende della regione di Eldiw, siamo venuti al corrente dell'esistenza di altri tre Pokémon, un tempo facenti parte dell'essere primordiale. Potrebbero tornarci utili, perciò sarà presto avviata una spedizione con lo scopo di catturarli.''
 <<[>>old<<]>>Dossier di ricerca - 1 ''Giorno 1. Studiando le leggende della regione di Eldiw, siamo venuti al corrente dell'esistenza di altri tre Pokémon, un tempo facenti parte dell'essere primordiale. Potrebbero tornarci utili, perciò sarà presto avviata una spedizione con lo scopo di catturarli.''
@@ -17563,26 +17563,26 @@ No
 No
 [Map424]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
-<<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
+<<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
 Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
-<<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
+<<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 Sì
 Yes
 No
 No
 [Map425]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
-<<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
+<<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
 Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
-<<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
+<<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 Sì
 Yes
 No
@@ -17591,7 +17591,7 @@ No
 <<[>>old<<]>>Gwogobo gwobobobo!
 <<[>>old<<]>>Gwogobo gwobobobo!
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
+<<[>>old<<]>>Would you go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -17602,7 +17602,7 @@ No
 No
 [Map427]
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
+<<[>>old<<]>>Would you go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -17612,8 +17612,8 @@ Yes
 No
 No
 [Map428]
-<<[>>old<<]>>La porte è chiusa.
-<<[>>old<<]>>La porte è chiusa.
+<<[>>old<<]>>La porta è chiusa.
+<<[>>old<<]>>The door is locked.
 <<[>>old<<]>>Qui nel porto non si può nuotare, ma se proprio ci tieni a farti una sguazzata, puoi provare nella spiaggetta a sud.
 <<[>>old<<]>>Qui nel porto non si può nuotare, ma se proprio ci tieni a farti una sguazzata, puoi provare nella spiaggetta a sud.
 <<[>>old<<]>>Niente biglietto, da qui non si passa!
@@ -17643,7 +17643,7 @@ No
 <<[>>old<<]>>Chop-chop!
 <<[>>old<<]>>Chop-chop!
 <<[>>old<<]>>Questo alberello blocca la strada.
-<<[>>old<<]>>Questo alberello blocca la strada.
+<<[>>old<<]>>This tree blocks the way.
 <<[>>old<<]>>Ogni anno, in città attracca la M/N Anna, un’importante nave da crociera che viaggia per il mondo. Per imbarcarsi, però, è necessario un biglietto esclusivo!
 <<[>>old<<]>>Ogni anno, in città attracca la M/N Anna, un’importante nave da crociera che viaggia per il mondo. Per imbarcarsi, però, è necessario un biglietto esclusivo!
 <<[>>old<<]>>Chissà cosa ci costruiranno qui...
@@ -17654,19 +17654,15 @@ No
 <<[>>old<<]>>Pokémon Fan Club ''Tutti i fan dei Pokémon sono i benvenuti qui!''
 <<[>>old<<]>>Ho come l’impressione che questa panchina mi leghi a qualcuno del mio futuro...
 <<[>>old<<]>>Ho come l’impressione che questa panchina mi leghi a qualcuno del mio futuro...
-<<[>>old<<]>> Hai visto quel Pokémon enorme che blocca la strada?
-<<[>>old<<]>> Hai visto quel Pokémon enorme che blocca la strada?
-<<[>>old<<]>> Si ho visto! E' gigantesco! Chissà come si cattura... Non vuole proprio spostarsi.
-<<[>>old<<]>> Si ho visto! E' gigantesco! Chissà come si cattura... Non vuole proprio spostarsi.
 [Map429]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
-<<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
+<<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
 Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
-<<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
+<<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 Sì
 Yes
 No
@@ -17675,7 +17671,7 @@ No
 <<[>>old<<]>>Lunaaan...!
 <<[>>old<<]>>Lunaaan...!
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
+<<[>>old<<]>>Would you go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -17686,7 +17682,7 @@ No
 No
 [Map431]
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
+<<[>>old<<]>>Would you go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -17704,13 +17700,13 @@ No
 <<[>>old<<]>>Il macchinario è spento.
 [Map433]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
-<<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
+<<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
 Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
-<<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
+<<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 Sì
 Yes
 No
@@ -17719,7 +17715,7 @@ No
 <<[>>old<<]>> ...\n...
 <<[>>old<<]>> ...\n...
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
+<<[>>old<<]>>Would you go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -17734,20 +17730,20 @@ No
 [Map438]
 [Map439]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
-<<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
+<<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
 Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
-<<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
+<<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 Sì
 Yes
 No
 No
 [Map440]
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
+<<[>>old<<]>>Would you go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -17761,20 +17757,20 @@ No
 [Map441]
 [Map442]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
-<<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
+<<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
 Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
-<<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
+<<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 Sì
 Yes
 No
 No
 [Map443]
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
+<<[>>old<<]>>Would you go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -17791,7 +17787,7 @@ No
 No
 [Map444]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
-<<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
+<<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
@@ -17806,7 +17802,7 @@ No
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
+<<[>>old<<]>>Would you go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -17820,7 +17816,7 @@ No
 <<[>>old<<]>>Il potere scatenato da Raikou vi ha riportati nella dimensione iniziale.
 <<[>>old<<]>>Il potere scatenato da Raikou vi ha riportati nella dimensione iniziale.
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
-<<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
+<<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
@@ -17833,7 +17829,7 @@ No
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
+<<[>>old<<]>>Would you go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -17857,7 +17853,7 @@ No
 <<[>>old<<]>>Il potere scatenato da Suicune vi ha riportati nella dimensione iniziale.
 <<[>>old<<]>>Il potere scatenato da Suicune vi ha riportati nella dimensione iniziale.
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
-<<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
+<<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
@@ -17870,7 +17866,7 @@ No
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
+<<[>>old<<]>>Would you go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -17881,7 +17877,7 @@ No
 No
 [Map462]
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Sabolt
 Sabolt
 Booolt...!
@@ -17893,7 +17889,7 @@ Booolt...!
 <<[>>old<<]>>''Il materiale genetico processato sembra essersi stabilizzato in buona percentuale. L'esperimento può considerarsi un successo: gli è stato conferito il nome in codice di <b>Gene X</b>. Ulteriori informazioni sul progetto saranno pertanto inserite sotto questa nuova voce.''
 <<[>>old<<]>>''Il materiale genetico processato sembra essersi stabilizzato in buona percentuale. L'esperimento può considerarsi un successo: gli è stato conferito il nome in codice di <b>Gene X</b>. Ulteriori informazioni sul progetto saranno pertanto inserite sotto questa nuova voce.''
 <<[>>old<<]>>La corrente è tornata.
-<<[>>old<<]>>La corrente è tornata.
+<<[>>old<<]>>The power's on.
 <<[>>old<<]>>''Il Team Dimension ha messo le mani su una creatura che ha aperto frontiere assolutamente inaspettate. Tale creatura, proveniente dallo Xenoverse, sembrerebbe dotata di un codice genetico altamente reattivo.''
 <<[>>old<<]>>''Il Team Dimension ha messo le mani su una creatura che ha aperto frontiere assolutamente inaspettate. Tale creatura, proveniente dallo Xenoverse, sembrerebbe dotata di un codice genetico altamente reattivo.''
 <<[>>old<<]>>''Le sperimentazioni sulla creatura dello Xenoverse restituiscono risultati impressionanti. Il materiale genetico sembra adattarsi a quello di qualsiasi creatura vivente, con combinazioni sempre differenti.''
@@ -18167,13 +18163,13 @@ Stiamo svolgendo delle ricerche nel boschetto qui fuori.
 Stiamo svolgendo delle ricerche nel boschetto qui fuori.
 [Map472]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
-<<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
+<<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
 Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
-<<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
+<<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 Sì
 Yes
 No
@@ -18353,7 +18349,7 @@ So che è incredibile, ma di ritorno dallo Xenoverse mi sono ritrovato per le ma
 \PN, ecco vedi... io non sono venuto qui solo per questo... C’è una cosa che voglio dirti da un po’...
 [Map478]
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
+<<[>>old<<]>>Would you go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -18487,17 +18483,17 @@ No
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
-<<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
+<<[>>old<<]>>The Pokémon left its Den...
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 Gastly
 Gastly
 Gaaas...!
 Gaaas...!
 <<[>>old<<]>>Oh, no! Gastly si è accorto della tua presenza!
-<<[>>old<<]>>Oh, no! Gastly si è accorto della tua presenza!
+<<[>>old<<]>>Oh, no! Gastly caught you!
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Shyleon
 Shyleon
 Shy...!
@@ -18553,16 +18549,14 @@ Abra
 Abra
 Bra...!
 Bra...!
-<<[>>old<<]>> Oh, no! Abra si è accorto della tua presenza!
-<<[>>old<<]>> Oh, no! Abra si è accorto della tua presenza!
-<<[>>old<<]>>Abra usa Teletrasporto!
-<<[>>old<<]>>Abra usa Teletrasporto!
 <<[>>old<<]>>Oh, no! Abra si è accorto della tua presenza!
-<<[>>old<<]>>Oh, no! Abra si è accorto della tua presenza!
+<<[>>old<<]>>Oh, no! Abra caught you!
+<<[>>old<<]>>Abra usa Teletrasporto!
+<<[>>old<<]>>Abra used Teleport!
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -18585,9 +18579,9 @@ Druddigon
 Draaa...!
 Draaa...!
 <<[>>old<<]>>Oh, no! Druddigon si è accorto della tua presenza!
-<<[>>old<<]>>Oh, no! Druddigon si è accorto della tua presenza!
+<<[>>old<<]>>Oh, no! Druddigon caught you!
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -18610,38 +18604,36 @@ Druddigon
 Draaa...!
 Draaa...!
 <<[>>old<<]>>Oh, no! Druddigon si è accorto della tua presenza!
-<<[>>old<<]>>Oh, no! Druddigon si è accorto della tua presenza!
+<<[>>old<<]>>Oh, no! Druddigon caught you!
 [Map498]
 Druddigon
 Druddigon
 Draaa...!
 Draaa...!
 <<[>>old<<]>>Oh, no! Druddigon si è accorto della tua presenza!
-<<[>>old<<]>>Oh, no! Druddigon si è accorto della tua presenza!
+<<[>>old<<]>>Oh, no! Druddigon caught you!
 [Map499]
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 [Map500]
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Le fiamme di Trishout non bastano a sciogliere questa roccia...
-<<[>>old<<]>>Le fiamme di Trishout non bastano a sciogliere questa roccia...
-<<[>>old<<]>> Vuoi accendere la torcia?
-<<[>>old<<]>> Vuoi accendere la torcia?
+<<[>>old<<]>>Trishout's flames are not enough to melt the rock...
 <<[>>old<<]>>La roccia si sta sciogliendo a poco a poco...
-<<[>>old<<]>>La roccia si sta sciogliendo a poco a poco...
+<<[>>old<<]>>The rock started melting...
 <<[>>old<<]>>Vuoi accendere la torcia?
-<<[>>old<<]>>Vuoi accendere la torcia?
+<<[>>old<<]>>Would you like to light the torch?
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
-<<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
+<<[>>old<<]>>The Pokémon left its Den...
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 Sì
 Yes
 No
@@ -18652,15 +18644,15 @@ Carnivine
 Viiine...!
 Viiine...!
 <<[>>old<<]>>Oh, no! Carnivine si è accorto della tua presenza!
-<<[>>old<<]>>Oh, no! Carnivine si è accorto della tua presenza!
+<<[>>old<<]>>Oh, no! Carnivine caught you!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
-<<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
+<<[>>old<<]>>The Pokémon left its Den...
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Shyleon
 Shyleon
 Shy...!
@@ -18675,11 +18667,11 @@ Beedrill
 Bee...!
 Bee...!
 <<[>>old<<]>>Oh, no! I Beedrill si sono accorti della tua presenza!
-<<[>>old<<]>>Oh, no! I Beedrill si sono accorti della tua presenza!
+<<[>>old<<]>>Oh, no! Beedrill caught you!
 <<[>>old<<]>>Vuoi spalmare del Miele sull'albero?
-<<[>>old<<]>>Vuoi spalmare del Miele sull'albero?
+<<[>>old<<]>>Would you like to spread Honey on this tree?
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -18693,7 +18685,7 @@ Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>È del Miele. Vuoi raccoglierlo?
-<<[>>old<<]>>È del Miele. Vuoi raccoglierlo?
+<<[>>old<<]>>It's Honey. Will you gather it?
 Sì
 Yes
 No
@@ -18704,45 +18696,45 @@ Heracross
 Hera...!
 Hera...!
 <<[>>old<<]>>Oh, no! Gli Heracross si sono accorti della tua presenza!
-<<[>>old<<]>>Oh, no! Gli Heracross si sono accorti della tua presenza!
+<<[>>old<<]>>Oh, no! Heracross caught you!
 Kricketune
 Kricketune
-Delelele Wooop...!
-Delelele Wooop...!
+Delele-whoop...!
+Delele-whoop...!
 <<[>>old<<]>>Oh, no! I Kricketune si sono accorti della tua presenza!
-<<[>>old<<]>>Oh, no! I Kricketune si sono accorti della tua presenza!
+<<[>>old<<]>>Oh, no! Kricketune caught you!
 <<[>>old<<]>>È del Miele. Vuoi raccoglierlo?
-<<[>>old<<]>>È del Miele. Vuoi raccoglierlo?
+<<[>>old<<]>>It's Honey. Will you gather it?
 <<[>>old<<]>>Hai già del Lampone, non puoi prendere anche il Miele.
-<<[>>old<<]>>Hai già del Lampone, non puoi prendere anche il Miele.
+<<[>>old<<]>>You already gathered Wildberry. You cannot gather Honey too.
 <<[>>old<<]>>Hai già della Linfa, non puoi prendere anche il Miele.
-<<[>>old<<]>>Hai già della Linfa, non puoi prendere anche il Miele.
+<<[>>old<<]>>You already gathered Lymph. You cannot gather Honey too.
 <<[>>old<<]>>Vuoi spalmare della Linfa sull'albero?
-<<[>>old<<]>>Vuoi spalmare della Linfa sull'albero?
+<<[>>old<<]>>Would you like to spread Honey on this tree?
 <<[>>old<<]>>Non succede niente...
-<<[>>old<<]>>Non succede niente...
+<<[>>old<<]>>Nothing happened...
 <<[>>old<<]>>Vuoi spalmare del Lampone sull'albero?
-<<[>>old<<]>>Vuoi spalmare del Lampone sull'albero?
+<<[>>old<<]>>Would you like to spread Wildberry on this tree?
 <<[>>old<<]>>Vuoi spalmare del Miele sull'albero?
-<<[>>old<<]>>Vuoi spalmare del Miele sull'albero?
+<<[>>old<<]>>Would you like to spread Honey on this tree?
 <<[>>old<<]>>È della Linfa. Vuoi raccoglierla?
-<<[>>old<<]>>È della Linfa. Vuoi raccoglierla?
+<<[>>old<<]>>It's Lymph. Will you gather it?
 <<[>>old<<]>>Hai già del Lampone, non puoi prendere anche la Linfa.
-<<[>>old<<]>>Hai già del Lampone, non puoi prendere anche la Linfa.
+<<[>>old<<]>>You already gathered Wildberry. You cannot gather Lymp too.
 <<[>>old<<]>>Hai già del Miele, non puoi prendere anche la Linfa.
-<<[>>old<<]>>Hai già del Miele, non puoi prendere anche la Linfa.
+<<[>>old<<]>>You already gathered Honey. You cannot gather Lymph too.
 <<[>>old<<]>>È del Lampone. Vuoi raccoglierlo?
-<<[>>old<<]>>È del Lampone. Vuoi raccoglierlo?
+<<[>>old<<]>>It's Wildberry. Will you gather it?
 <<[>>old<<]>>Hai già del Miele, non puoi prendere anche il Lampone.
-<<[>>old<<]>>Hai già del Miele, non puoi prendere anche il Lampone.
+<<[>>old<<]>>You already gathered Honey. You cannot gather Wildberry too.
 <<[>>old<<]>>Hai già della Linfa, non puoi prendere anche il Lampone.
-<<[>>old<<]>>Hai già della Linfa, non puoi prendere anche il Lampone.
+<<[>>old<<]>>You already gathered Lymph. You cannot gather Wildberry too.
 Beedrill
 Beedrill
 Bee...!
 Bee...!
 <<[>>old<<]>>Oh, no! I Beedrill si sono accorti della tua presenza!
-<<[>>old<<]>>Oh, no! I Beedrill si sono accorti della tua presenza!
+<<[>>old<<]>>Oh, no! Beedrill caught you!
 Sì
 Yes
 No
@@ -18755,45 +18747,45 @@ Beedrill
 Bee...!
 Bee...!
 <<[>>old<<]>>Oh, no! I Beedrill si sono accorti della tua presenza!
-<<[>>old<<]>>Oh, no! I Beedrill si sono accorti della tua presenza!
+<<[>>old<<]>>Oh, no! Beedrill caught you!
 <<[>>old<<]>>Vuoi spalmare del Lampone sull'albero?
-<<[>>old<<]>>Vuoi spalmare del Lampone sull'albero?
+<<[>>old<<]>>Would you like to spread Wildberry on this tree?
 <<[>>old<<]>>Non succede niente...
-<<[>>old<<]>>Non succede niente...
+<<[>>old<<]>>Nothing happened...
 <<[>>old<<]>>Vuoi spalmare della Linfa sull'albero?
-<<[>>old<<]>>Vuoi spalmare della Linfa sull'albero?
+<<[>>old<<]>>Would you like to spread Lymph on this tree?
 <<[>>old<<]>>Vuoi spalmare del Miele sull'albero?
-<<[>>old<<]>>Vuoi spalmare del Miele sull'albero?
+<<[>>old<<]>>Would you like to spread Honey on this tree?
 Heracross
 Heracross
 Hera...!
 Hera...!
 <<[>>old<<]>>Oh, no! Gli Heracross si sono accorti della tua presenza!
-<<[>>old<<]>>Oh, no! Gli Heracross si sono accorti della tua presenza!
+<<[>>old<<]>>Oh, no! Heracross caught you!
 <<[>>old<<]>>È del Miele. Vuoi raccoglierlo?
-<<[>>old<<]>>È del Miele. Vuoi raccoglierlo?
+<<[>>old<<]>>It's Honey. Will you gather it?
 <<[>>old<<]>>Hai già del Lampone, non puoi prendere anche il Miele.
-<<[>>old<<]>>Hai già del Lampone, non puoi prendere anche il Miele.
+<<[>>old<<]>>You already gathered Wildberry. You cannot gather Honey too.
 <<[>>old<<]>>Hai già della Linfa, non puoi prendere anche il Miele.
-<<[>>old<<]>>Hai già della Linfa, non puoi prendere anche il Miele.
+<<[>>old<<]>>You already gathered Lymph. You cannot gather Honey too.
 <<[>>old<<]>>È del Lampone. Vuoi raccoglierlo?
-<<[>>old<<]>>È del Lampone. Vuoi raccoglierlo?
+<<[>>old<<]>>It's Wildberry. Will you gather it?
 <<[>>old<<]>>Hai già del Miele, non puoi prendere anche il Lampone.
-<<[>>old<<]>>Hai già del Miele, non puoi prendere anche il Lampone.
+<<[>>old<<]>>You already gathered Honey. You cannot gather Wildberry too.
 <<[>>old<<]>>Hai già della Linfa, non puoi prendere anche il Lampone.
-<<[>>old<<]>>Hai già della Linfa, non puoi prendere anche il Lampone.
+<<[>>old<<]>>You already gathered Lymph. You cannot gather Wildberry too.
 Kricketune
 Kricketune
-Delelele Wooop...!
-Delelele Wooop...!
+Delele-whoop...!
+Delele-whoop...!
 <<[>>old<<]>>Oh, no! I Kricketune si sono accorti della tua presenza!
-<<[>>old<<]>>Oh, no! I Kricketune si sono accorti della tua presenza!
+<<[>>old<<]>>Oh, no! Kricketune caught you!
 <<[>>old<<]>>È della Linfa. Vuoi raccoglierla?
-<<[>>old<<]>>È della Linfa. Vuoi raccoglierla?
+<<[>>old<<]>>It's Lymph. Will you gather it?
 <<[>>old<<]>>Hai già del Lampone, non puoi prendere anche la Linfa.
-<<[>>old<<]>>Hai già del Lampone, non puoi prendere anche la Linfa.
+<<[>>old<<]>>You already gathered Wildberry. You cannot gather Lymph too.
 <<[>>old<<]>>Hai già del Miele, non puoi prendere anche la Linfa.
-<<[>>old<<]>>Hai già del Miele, non puoi prendere anche la Linfa.
+<<[>>old<<]>>You already gathered Honey. You cannot gather Lymph too.
 Sì
 Yes
 No
@@ -18804,30 +18796,30 @@ Beedrill
 Bee...!
 Bee...!
 <<[>>old<<]>>Oh, no! I Beedrill si sono accorti della tua presenza!
-<<[>>old<<]>>Oh, no! I Beedrill si sono accorti della tua presenza!
+<<[>>old<<]>>Oh, no! Beedrill caught you!
 <<[>>old<<]>>Vuoi spalmare del Miele sull'albero?
-<<[>>old<<]>>Vuoi spalmare del Miele sull'albero?
+<<[>>old<<]>>Would you like to spread Honey on this tree?
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
 <<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
-<<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
+<<[>>old<<]>>The Pokémon left its Den...
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 <<[>>old<<]>>È del Miele. Vuoi raccoglierlo?
-<<[>>old<<]>>È del Miele. Vuoi raccoglierlo?
+<<[>>old<<]>>It's Honey. Will you gather it?
 <<[>>old<<]>> Probabilmente per entrare in questo Nido, hai bisogno del tuo starter.
-<<[>>old<<]>> Probabilmente per entrare in questo Nido, hai bisogno del tuo starter.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 Sì
 Yes
 No
 No
 [Map506]
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Shulong
 Shulong
 Shu...!
@@ -18838,9 +18830,9 @@ No
 No
 [Map507]
 <<[>>old<<]>>Questo masso si può spostare. Dove vuoi posizionarlo?
-<<[>>old<<]>>Questo masso si può spostare. Dove vuoi posizionarlo?
+<<[>>old<<]>>It seems you can push this boulder aside. Where do you want to move it?
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -18854,15 +18846,15 @@ Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 Su
-Su
+Up
 Destra
-Destra
+Right
 Sinistra
-Sinistra
+Left
 Giù
-Giù
+Down
 Sì
 Yes
 No
@@ -18873,15 +18865,15 @@ Scaracno
 Scara!!
 Scara!!
 <<[>>old<<]>>Oh, no! Scaracno si è accorto della tua presenza!
-<<[>>old<<]>>Oh, no! Scaracno si è accorto della tua presenza!
+<<[>>old<<]>>Oh, no! Scaracno caught you!
 <<[>>old<<]>>Vuoi provare a suonare la campana?
-<<[>>old<<]>>Vuoi provare a suonare la campana?
+<<[>>old<<]>>Would you like to ring the bell?
 <<[>>old<<]>>L'effetto della campana sta svanendo...
-<<[>>old<<]>>L'effetto della campana sta svanendo...
+<<[>>old<<]>>The effect of the bell vanished...
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -18900,7 +18892,7 @@ No
 No
 [Map509]
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -18918,112 +18910,110 @@ Golem
 Lem...!
 Lem...!
 <<[>>old<<]>>Golem è infastidito dalla tua presenza.
-<<[>>old<<]>>Golem è infastidito dalla tua presenza.
+<<[>>old<<]>>Golem is bothered by your presence.
 Sì
 Yes
 No
 No
 [Map510]
 <<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
-<<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
+<<[>>old<<]>>A rockslide blocked the way. You cannot go back!
 Golem
 Golem
 Lem...!
 Lem...!
 <<[>>old<<]>>Golem è infastidito dalla tua presenza.
-<<[>>old<<]>>Golem è infastidito dalla tua presenza.
+<<[>>old<<]>>Golem is bothered by your presence.
 [Map511]
 <<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
-<<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
+<<[>>old<<]>>A rockslide blocked the way. You cannot go back!
 Golem
 Golem
 Lem...!
 Lem...!
 <<[>>old<<]>>Golem è infastidito dalla tua presenza.
-<<[>>old<<]>>Golem è infastidito dalla tua presenza.
+<<[>>old<<]>>Golem is bothered by your presence.
 [Map512]
 <<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
-<<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
+<<[>>old<<]>>A rockslide blocked the way. You cannot go back!
 Golem
 Golem
 Lem...!
 Lem...!
 <<[>>old<<]>>Golem è infastidito dalla tua presenza.
-<<[>>old<<]>>Golem è infastidito dalla tua presenza.
+<<[>>old<<]>>Golem is bothered by your presence.
 [Map513]
 <<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
-<<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
+<<[>>old<<]>>A rockslide blocked the way. You cannot go back!
 Golem
 Golem
 Lem...!
 Lem...!
 <<[>>old<<]>>Golem è infastidito dalla tua presenza.
-<<[>>old<<]>>Golem è infastidito dalla tua presenza.
+<<[>>old<<]>>Golem is bothered by your presence.
 [Map514]
 Tyranitar
 Tyranitar
 Tyra...!
 Tyra...!
 <<[>>old<<]>>Oh, no! Tyranitar si è accorto della tua presenza!
-<<[>>old<<]>>Oh, no! Tyranitar si è accorto della tua presenza!
+<<[>>old<<]>>Oh, no! Tyranitar caught you!
 [Map515]
 <<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
-<<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
+<<[>>old<<]>>A rockslide blocked the way. You cannot go back!
 Golem
 Golem
 Lem...!
 Lem...!
 <<[>>old<<]>>Golem è infastidito dalla tua presenza.
-<<[>>old<<]>>Golem è infastidito dalla tua presenza.
+<<[>>old<<]>>Golem is bothered by your presence.
 [Map516]
 Tyranitar
 Tyranitar
 Tyra...!
 Tyra...!
 <<[>>old<<]>>Oh, no! Tyranitar si è accorto della tua presenza!
-<<[>>old<<]>>Oh, no! Tyranitar si è accorto della tua presenza!
+<<[>>old<<]>>Oh, no! Tyranitar caught you!
 [Map517]
 <<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
-<<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
+<<[>>old<<]>>A rockslide blocked the way. You cannot go back!
 Golem
 Golem
 Lem...!
 Lem...!
 <<[>>old<<]>>Golem è infastidito dalla tua presenza.
-<<[>>old<<]>>Golem è infastidito dalla tua presenza.
+<<[>>old<<]>>Golem is bothered by your presence.
 [Map518]
 Golem
 Golem
 Lem...!
 Lem...!
 <<[>>old<<]>>Golem è infastidito dalla tua presenza.
-<<[>>old<<]>>Golem è infastidito dalla tua presenza.
+<<[>>old<<]>>Golem is bothered by your presence.
 <<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
-<<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
+<<[>>old<<]>>A rockslide blocked the way. You cannot go back!
 [Map519]
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
-<<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
+<<[>>old<<]>>The Pokémon left its Den...
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 Golem
 Golem
 Lem...!
 Lem...!
 <<[>>old<<]>>Vuoi chiedere aiuto a Golem per uscire dal Nido?
-<<[>>old<<]>>Vuoi chiedere aiuto a Golem per uscire dal Nido?
+<<[>>old<<]>>Would you like Golem to help you get out the Den?
 <<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
-<<[>>old<<]>>Una frana ha bloccato il passaggio. Non si può tornare indietro!
+<<[>>old<<]>>A rockslide blocked the way. You cannot go back!
 Sì
 Yes
 No
 No
 [Map520]
 <<[>>old<<]>>Vuoi ritornare in superficie?
-<<[>>old<<]>>Vuoi ritornare in superficie?
-<<[>>old<<]>> Vuoi ritornare in superficie?
-<<[>>old<<]>> Vuoi ritornare in superficie?
+<<[>>old<<]>>Would you like to go back up to the surface?
 Sì
 Yes
 No
@@ -19032,15 +19022,15 @@ Si
 Yes
 [Map521]
 <<[>>old<<]>>Vuoi immergerti?
-<<[>>old<<]>>Vuoi immergerti?
+<<[>>old<<]>>Would you like to dive here?
 Wartortle
 Wartortle
 War...!
 War...!
 <<[>>old<<]>>Oh, no! Wartortle si è accorto della tua presenza!
-<<[>>old<<]>>Oh, no! Wartortle si è accorto della tua presenza!
+<<[>>old<<]>>Oh, no! Wartortle caught you!
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Shulong
 Shulong
 Shu...!
@@ -19048,9 +19038,9 @@ Shu...!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
-<<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
+<<[>>old<<]>>The Pokémon left its Den...
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 Sì
 Yes
 No
@@ -19061,11 +19051,11 @@ Roselia
 Rose...!
 Rose...!
 <<[>>old<<]>>Oh, no! Roselia si è accorto della tua presenza!
-<<[>>old<<]>>Oh, no! Roselia si è accorto della tua presenza!
-<<[>>old<<]>> Hai completato il Nido Pokémon!
-<<[>>old<<]>> Hai completato il Nido Pokémon!
+<<[>>old<<]>>Oh, no! Roselia caught you!
+<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -19084,7 +19074,7 @@ No
 No
 [Map523]
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -19103,7 +19093,7 @@ No
 No
 [Map524]
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -19126,11 +19116,11 @@ Milotic
 Milo...!
 Milo...!
 <<[>>old<<]>>Oh, no! Milotic si è accorto della tua presenza!
-<<[>>old<<]>>Oh, no! Milotic si è accorto della tua presenza!
+<<[>>old<<]>>Oh, no! Milotic caught you!
 [Map526]
 [Map527]
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 [Map528]
 [Map529]
 Chimaooze
@@ -19138,9 +19128,9 @@ Chimaooze
 Maooze...!
 Maooze...!
 <<[>>old<<]>>Sembra che questo Chimaooze abbia perso il suo branco. Vuoi aiutarlo?
-<<[>>old<<]>>Sembra che questo Chimaooze abbia perso il suo branco. Vuoi aiutarlo?
+<<[>>old<<]>>It looks like this Chimaooze had lost its flock. Will you help it?
 <<[>>old<<]>>Chimaooze si è unito a te.
-<<[>>old<<]>>Chimaooze si è unito a te.
+<<[>>old<<]>>Chimaooze joined you.
 Sì
 Yes
 No
@@ -19153,13 +19143,13 @@ Chimaooze
 Maooze...!
 Maooze...!
 <<[>>old<<]>>Hai ritrovato il branco dei due Chimaooze!
-<<[>>old<<]>>Hai ritrovato il branco dei due Chimaooze!
+<<[>>old<<]>>You found Chimaooze's flock!
 Maoooozeee!!
 Maoooozeee!!
 <<[>>old<<]>>I Chimaooze ti ringraziano dell'aiuto.
-<<[>>old<<]>>I Chimaooze ti ringraziano dell'aiuto.
+<<[>>old<<]>>Chimaooze thanked you for your help.
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -19173,11 +19163,11 @@ Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Sembra che questo Chimaooze abbia perso il suo branco. Vuoi aiutarlo?
-<<[>>old<<]>>Sembra che questo Chimaooze abbia perso il suo branco. Vuoi aiutarlo?
+<<[>>old<<]>>It looks like this Chimaooze had lost its flock. Will you help it?
 <<[>>old<<]>>Chimaooze si è unito a te.
-<<[>>old<<]>>Chimaooze si è unito a te.
+<<[>>old<<]>>Chimaooze joined you.
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 Sì
 Yes
 No
@@ -19194,9 +19184,9 @@ Charmeleon
 Char...!
 Char...!
 <<[>>old<<]>>Oh, no! Charmeleon si è accorto della tua presenza!
-<<[>>old<<]>>Oh, no! Charmeleon si è accorto della tua presenza!
+<<[>>old<<]>>Oh, no! Charmeleon caught you!
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -19204,9 +19194,9 @@ Tri...!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
-<<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
+<<[>>old<<]>>The Pokémon left its Den...
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 Si
 Yes
 No
@@ -19219,13 +19209,13 @@ Harrowk
 Rrrooowk...!
 Rrrooowk...!
 <<[>>old<<]>>Questo Harrowk sembra turbato...
-<<[>>old<<]>>Questo Harrowk sembra turbato...
+<<[>>old<<]>>This Harrowk seems upset...
 <<[>>old<<]>>Vuoi posizionare l'Uovo in questo nido?
-<<[>>old<<]>>Vuoi posizionare l'Uovo in questo nido?
+<<[>>old<<]>>Will you place the Egg here?
 <<[>>old<<]>>Harrowk ti ringrazia per avergli riportato il suo Uovo.
-<<[>>old<<]>>Harrowk ti ringrazia per avergli riportato il suo Uovo.
+<<[>>old<<]>>Harrowk thanked you for having brought its Egg back.
 <<[>>old<<]>>Vuoi uscire dal Nido?
-<<[>>old<<]>>Vuoi uscire dal Nido?
+<<[>>old<<]>>Will you get out of the Den?
 Trishout
 Trishout
 Tri...!
@@ -19238,8 +19228,6 @@ Shulong
 Shulong
 Shu...!
 Shu...!
-<<[>>old<<]>> Vuoi uscire dal Nido?
-<<[>>old<<]>> Vuoi uscire dal Nido?
 Sì
 Yes
 No
@@ -19252,24 +19240,22 @@ Peckabone
 Bone...!
 Bone...!
 <<[>>old<<]>>Accidenti! Peckabone si è accorto della tua presenza!
-<<[>>old<<]>>Accidenti! Peckabone si è accorto della tua presenza!
+<<[>>old<<]>>Oh, no! Peckabone caught you!
 <<[>>old<<]>>...
 <<[>>old<<]>>...
 <<[>>old<<]>>Accidenti! I Peckabone si sono accorti della tua presenza!
-<<[>>old<<]>>Accidenti! I Peckabone si sono accorti della tua presenza!
+<<[>>old<<]>>Oh, no! Peckabone caught you!
 Peck...!
 Peck...!
-<<[>>old<<]>>Accidenti! Peckabone si sono accorti della tua presenza! I Pokémon ti cacciano dal nido.
-<<[>>old<<]>>Accidenti! Peckabone si sono accorti della tua presenza! I Pokémon ti cacciano dal nido.
 [Map536]
 <<[>>old<<]>>C'è un Uovo qui. Vuoi prenderlo?
-<<[>>old<<]>>C'è un Uovo qui. Vuoi prenderlo?
+<<[>>old<<]>>There's an Egg. Would you like to pick it up?
 Peckabone
 Peckabone
 Bone...!
 Bone...!
 <<[>>old<<]>>Il Pokémon è fuggito via... Meglio fare attenzione là fuori!
-<<[>>old<<]>>Il Pokémon è fuggito via... Meglio fare attenzione là fuori!
+<<[>>old<<]>>The Pokémon ran away... You'd better watch out!
 Sì
 Yes
 No
@@ -19278,9 +19264,9 @@ No
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
-<<[>>old<<]>>Il Pokémon ha abbandonato il suo Nido...
+<<[>>old<<]>>The Pokémon left its Den...
 <<[>>old<<]>>Hai completato il Nido Pokémon!
-<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 [Map538]
 <<[>>old<<]>><b>Attestato del Campus</b> ''Attestato rilasciato dal Campus Ariepoli.''
 <<[>>old<<]>><b>Attestato del Campus</b> ''Attestato rilasciato dal Campus Ariepoli.''
@@ -19425,8 +19411,6 @@ Scusatemi... se vi ho trascinato in tutto questo... cough!
 Scusatemi... se vi ho trascinato in tutto questo... cough!
 Volevo solo... proteggervi...
 Volevo solo... proteggervi...
-Gengar X
-Gengar X
 Tu & Kay
 Tu & Kay
 Scusatemi... se vi ho trascinato in tutto questo.. cough!
@@ -20050,13 +20034,13 @@ Mi rievoca emozioni ormai appartenti al passato e cui non posso fare a meno di p
 Mi rievoca emozioni ormai appartenti al passato e cui non posso fare a meno di pensare...
 [Map551]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
-<<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
+<<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
 Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
-<<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
+<<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 Sì
 Yes
 No
@@ -20064,7 +20048,7 @@ No
 [Map552]
 [Map553]
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
+<<[>>old<<]>>Would you go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -20255,13 +20239,13 @@ No
 No
 [Map556]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
-<<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
+<<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
 Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
-<<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
+<<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 Sì
 Yes
 No
@@ -43813,7 +43797,7 @@ Joe
 Andrea
 Andy
 Gioele
-Gioele
+Sawyer
 Tina
 Tina
 Dave
