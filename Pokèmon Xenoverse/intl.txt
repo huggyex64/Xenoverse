@@ -46,7 +46,7 @@ Se vuoi fare un po' di pratica fammelo sapere!
 Alice
 Alice
 \PN è bello passare un po' di tempo con te, anche in circostanze come questa.
-\PN, it's nice to spend time with you, even in situation like this.
+\PN, it's nice to spend time with you, even in a situation like this.
 Kay
 Kay
 <<[>>old<<]>>Vuoi chiedere aiuto alla sicurezza?
@@ -2510,7 +2510,7 @@ I più deboli, al contrario, soccombono.
 È la dura legge della natura.
 È la dura legge della natura.
 Pier
-Pier
+Pierre
 Sto studiando i Pokémon che popolano il vulcano e i suoi dintorni!
 Sto studiando i Pokémon che popolano il vulcano e i suoi dintorni!
 Sarà meglio tornare alla ricerca.
@@ -3762,37 +3762,37 @@ Use Box
 Dustin
 Dustin
 Devo allenare il mio Pokémon prima di addentrarmi nel Cunicolo Gravità. Forza, lottiamo!
-Devo allenare il mio Pokémon prima di addentrarmi nel Cunicolo Gravità. Forza, lottiamo!
+I need to train my Pokémon before entering Gravity Tunnel.<<n>>Let's battle!
 Non siamo ancora pronti, Blitzle...
-Non siamo ancora pronti, Blitzle...
+We aren't ready yet, Blitzle...
 Il Cunicolo Gravità aspetterà ancora.
-Il Cunicolo Gravità aspetterà ancora.
+Gravity Tunnel can wait.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Claudio
-Claudio
+Ginger
 Affronterò le insidie di questa grotta col mio Pokémon d’Acqua!
-Affronterò le insidie di questa grotta col mio Pokémon d’Acqua!
+I'll face all the hidden dangers in this cave with<<n>>my Water-type Pokémon!
 Ehi, vacci piano!
-Ehi, vacci piano!
+Hey, take it easy!
 Menomale che Lapras non è più a rischio di estinzione...
-Menomale che Lapras non è più a rischio di estinzione...
+Thank goodness Lapras is no longer endangered...
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 Aneta
-Aneta
+Anita
 La pace inizia con una bella lotta!
-La pace inizia con una bella lotta!
+Peace begins with a battle!
 Pace e amore.
-Pace e amore.
+Peace and love.
 Davide
-Davide
+David
 Ehi, occhio a dove metti i piedi! Sto raccogliendo le Poké Ball non andate a segno!
-Ehi, occhio a dove metti i piedi! Sto raccogliendo le Poké Ball non andate a segno!
+Hey, watch your steps! I'm picking up all the missed<<n>>Poké Balls!
 È un duro lavoro, ma qualcuno lo dovrà pur fare.
-È un duro lavoro, ma qualcuno lo dovrà pur fare.
+It's hard work but someone has to do it.
 Se le lasciassimo in giro, dovremmo farci strada in un mare di Poké Ball.
-Se le lasciassimo in giro, dovremmo farci strada in un mare di Poké Ball.
+If we leave them lying around, we'll need to make our way<<n>>in a sea of Poké Balls.
 <<[>>old<<]>>Perfino i Montanari esperti rischiano di perdersi all'interno del <b>Cunicolo Gravità</b>. Assicurati di avere tutto il necessario prima di addentrartici!
 <<[>>old<<]>>Perfino i Montanari esperti rischiano di perdersi all'interno del <b>Cunicolo Gravità</b>. Assicurati di avere tutto il necessario prima di addentrartici! 
 [Map79]
@@ -3906,23 +3906,23 @@ You were only having a look, after all...<<n>>but don't ever try that again!<<n>
 Pamela
 Pamela
 Altolà!
-Altolà!
+Halt!
 Ben fatto!
-Ben fatto!
+Well done!
 Riposo!
-Riposo!
+At ease!
 Karua
 Karua
 La via del karate inizia con il saluto!
-La via del karate inizia con il saluto!
+Karate-do begins with bowing!
 La disattenzione è causa di disgrazia.
-La disattenzione è causa di disgrazia.
+Calamity springs from carelessness.
 Il karate non si vive solo nel dojo, ma nella vita di tutti i giorni.
-Il karate non si vive solo nel dojo, ma nella vita di tutti i giorni.
+Karate goes beyond the dojo, it's a lifelong pursuit.
 Rocco
-Rocco
+Rocky
 Qui nel Cunicolo Gravità è pieno zeppo di rocce interessanti... Guarda un po’ qui!
-Qui nel Cunicolo Gravità è pieno zeppo di rocce interessanti... Guarda un po’ qui!
+This tunnel is chock-full of interesting rocks...<<n>>Here, have a look!
 Funesto
 Ropert
 Ciao giovanotto|a! Mi presento, sono <b>Funesto</b>.
@@ -3937,78 +3937,82 @@ Con Funesto si fa presto! Gambe in spalla!
 Ropert's walking in your shoes! Chop chop!
 Se hai bisogno, fammi un fischio.
 Hit me up if you need something.
+Pierno
+Pier
 Non fare l’errore di sottovalutare i Ricercatori e gli Scoprirovine... Sanno essere molto competitivi quando si tratta di tesori del passato!
-Non fare l’errore di sottovalutare i Ricercatori e gli Scoprirovine... Sanno essere molto competitivi quando si tratta di tesori del passato!
+Don't you ever underestimate Researchers and<<n>>Ruin Maniacs...<<n>>They can become very competitive when dealing with<<n>>treasures from the past!
 <<[>>old<<]>>Non aver paura di parlare col Montanaro <b>Funesto</b>! È un brav'uomo che si prodiga per scortare all'uscita chi si è perduto!
 <<[>>old<<]>>Non aver paura di parlare col Montanaro <b>Funesto</b>! È un brav'uomo che si prodiga per scortare all'uscita chi si è perduto!
 Rory
 Rory
 Eddai, abbocca Dratini!!
-Eddai, abbocca Dratini!!
+C'mon, take the bait, Dratini!!
 So che è qui da qualche parte...
-So che è qui da qualche parte...
+I know it's hiding somewhere around here...
 La calma è la virtù dei forti... e dei Pescatori.
-La calma è la virtù dei forti... e dei Pescatori.
+Everything comes to him who waits.
 Golia
-Golia
+Goliath
 Guarda! Ho trovato un sasso rarissimo!!
-Guarda! Ho trovato un sasso rarissimo!!
+Look at this rare stone I've found!!
 Come sarebbe a dire che è solo una Pietradura...?
-Come sarebbe a dire che è solo una Pietradura...?
+What do you mean by ''It's just a Hard Stone''...?
 Timon
 Timon
 Qua dentro si può sfrecciare sul Pokéboard in santa pace!
-Qua dentro si può sfrecciare sul Pokéboard in santa pace!
+There are no Pokéboard speed limits in this tunnel!
 Pistaaa!!
-Pistaaa!!
+Outta my wayyy!!
 Solo da Luciano, articoli mai visti a prezzi stracciati!!
 Solo da Luciano, articoli mai visti a prezzi stracciati!!
 Geppino
-Geppino
+Gerard
 Sono alla ricerca del fantomatico Helixfossile!
-Sono alla ricerca del fantomatico Helixfossile!
+I'm seeking for the mythical Helix Fossil!
 Si dice garantisca poteri mai visti...
-Si dice garantisca poteri mai visti...
+It's said to grant incredible powers...
 Sei proprio sicuro|a di non averne mai sentito parlare?
-Sei proprio sicuro|a di non averne mai sentito parlare?
+Are you completely sure you've never heard about it?
 <<[>>old<<]>>Cansiria ad ovest Aquariopoli ad est
-<<[>>old<<]>>Cansiria ad ovest Aquariopoli ad est
+<<[>>old<<]>>West: Fortbelt Town\nEast: Ishtar City
 Tino
-Tino
+Tinan
 Qui non si pescano altro che carpe!
-Qui non si pescano altro che carpe!
+There's nothing but carps here!
 Carpe diem!
-Carpe diem!
+Carp-e diem!
 Veronica
-Veronica
+Ronnie
 In questa grotta non servirà Flash, ma è davvero un’impresa uscirne!
-In questa grotta non servirà Flash, ma è davvero un’impresa uscirne!
+You may not need Flash, but this cave is a true labyrinth!
 Se solo avessi una Fune di Fuga...
-Se solo avessi una Fune di Fuga...
+If I only had an Escape Rope...
 Bianco
-Bianco
-Altolà! Stiamo svolgendo delle ricerche in questa grotta.
-Altolà! Stiamo svolgendo delle ricerche in questa grotta.
+Blaunch
+Stiamo svolgendo delle ricerche in questa grotta.
+Halt! We are carrying out research in<<n>>this cave.
+Finiti gli accertamenti potrai passare, ma al momento la zona è off-limits!
+You'll be able to pass once we're done, but right now<<n>>this area is off limits!
 Massimiliano
-Massimiliano
+Maximilian
 Sai cosa accomuna Hipster e Scoprirovine?
-Sai cosa accomuna Hipster e Scoprirovine?
+What's common to Hipsters and Ruin Maniacs?
 Il fascino per l’antico!
-Il fascino per l’antico!
+They are both obsessed about the past!
 Sabrina
 Sabrina
 Cammino da ore e ancora non ho ritrovato l’uscita!
-Cammino da ore e ancora non ho ritrovato l’uscita!
+I've been walking for hours, but I still haven't found the exit!
 Mi sono proprio persa...
-Mi sono proprio persa...
+I've lost my way... as well as this battle...
 Spero solo di non essere attaccata da uno Zubat!
-Spero solo di non essere attaccata da uno Zubat!
+I just hope no Zubat will attack me!
 Benny
 Benny
 Mio fratello urla ''uaah-tah!'', io invece dico ''combattiamo!''!!
-Mio fratello urla ''uaah-tah!'', io invece dico ''combattiamo!''!!
+My brother cries ''ooah!'', but I say... let's fight!
 Urlare massimizza il proprio ki!
-Urlare massimizza il proprio ki!
+Screaming maximizes the chi!
 Hippoo...!
 Hippoo...!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
@@ -4018,11 +4022,11 @@ Hippoo...!
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 Pino
-Pino
+Jack
 Fossili, Fossili e Fossili!!
-Fossili, Fossili e Fossili!!
+Fossils, Fossils, Fossils!!
 I Fossili sono tutta la mia vita!
-I Fossili sono tutta la mia vita!
+Fossils are my life!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
@@ -4044,29 +4048,29 @@ Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
 <<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 Pier
-Pier
+Pierre
 Il silenzio del Cunicolo Gravità è musica per le mie orecchie!
-Il silenzio del Cunicolo Gravità è musica per le mie orecchie!
+The silence of the Gravity Tunnel is music to my ears!
 Acc! Ho perso il ritmo...!
-Acc! Ho perso il ritmo...!
+Argh! I've lost my timing...!
 Sirio
-Sirio
+Sir
 Il mio collega è stato preso in ostaggio da due tipacci... Aiutalo, ti prego!
-Il mio collega è stato preso in ostaggio da due tipacci... Aiutalo, ti prego!
+My colleague has been taken hostage by those<<n>>criminals... Help him, I beg you!
 Meleno
-Meleno
+Melbourne
 Oh oh! Un Allenatore ha abboccato all’amo!
-Oh oh! Un Allenatore ha abboccato all’amo!
+Ho ho! A Trainer has taken the bait!
 Mi hai proprio preso a pesci in faccia...
-Mi hai proprio preso a pesci in faccia...
+You must be a big fish...
 Giorgina
-Giorgina
+Georgina
 L’uscita è vicina, quindi una lotta posso anche concedermela!
-L’uscita è vicina, quindi una lotta posso anche concedermela!
+The exit is near, I guess I can allow myself a battle!
 Ora avrei bisogno di un Centro Pokémon...
-Ora avrei bisogno di un Centro Pokémon...
+Now I need a Pokémon Center...
 Phew! Menomale che c’è un Centro Porygon laggiù.
-Phew! Menomale che c’è un Centro Porygon laggiù.
+Lucky me! There's a Porygon Center down there!
 Sì
 Yes
 No
@@ -4156,11 +4160,11 @@ No
 Bruno
 Bruno
 La mappa indica un tesoro sepolto qui da qualche parte. Non penserai mica di soffiarmelo, vero?!
-La mappa indica un tesoro sepolto qui da qualche parte. Non penserai mica di soffiarmelo, vero?!
+According to my map there's a buried treasure around here. Don't you dare steal it out!
 Eppure dev’essere qui...!
-Eppure dev’essere qui...!
+It must be somewhere around here...!
 Il tesoro sarà mio.
-Il tesoro sarà mio.
+The treasure will be mine.
 Girolamo
 Jerome
 520
@@ -4184,19 +4188,19 @@ Those thugs forced me to find <b>Fossils</b><<n>>in this cave.<<n>>At first, I w
 Non ne avevo mai visti di simili e non potevo lasciarli nelle mani di quei tizi! Per sdebitarmi, vi concederò l'onore di prenderne uno. Con voi sarà al sicuro!
 I've never seen such a thing and I could never let<<n>>those villains take them!<<n>>I will give you the honor of picking one to repay you.<<n>>I'm sure it'll be safe in your hands!
 Vinervo
-Vinervo
+Vincent
 Aiuto! Questo pazzo vuole derubarmi!
-Aiuto! Questo pazzo vuole derubarmi!
+Help me! This freak wants to rob me!
 Mi hai salvato la vita! Ti prego, lascia che ti ringrazi a dovere.
-Mi hai salvato la vita! Ti prego, lascia che ti ringrazi a dovere.
+You saved my life! Please, let me thank you properly!
 Non so cos’avrei fatto se mi avessero rubato i miei preziosi Fossili!
-Non so cos’avrei fatto se mi avessero rubato i miei preziosi Fossili!
+I don’t know what I'd have done if those people stole<<n>>my precious Fossils!
 Matteo
-Matteo
+Matthew
 Senti qui che falsetto! Jodelayuhuu!
-Senti qui che falsetto! Jodelayuhuu!
+Listen to my falsetto! Yodel-ay-ee-ooh!
 Jo-delle-lotte-non-ci-capisco-niente...
-Jo-delle-lotte-non-ci-capisco-niente...
+Yodeleted-all-my-Pokémon...
 Alice
 Alice
 \PN, dove vai? Dobbiamo scoprire cosa sta tramando il Team Dimension!
@@ -4204,13 +4208,13 @@ Alice
 Kay
 Kay
 Menelao
-Menelao
+Theodore
 Voglio dare un consiglio ad un giovane appassionato di archeologia come te. Per saperne di più sui Fossili, recati nel villaggio di <b>Ofiuchia</b>!
-Voglio dare un consiglio ad un giovane appassionato di archeologia come te. Per saperne di più sui Fossili, recati nel villaggio di <b>Ofiuchia</b>!
+I want to help a young Ruin Maniac like you. If you want to learn more about Fossils, head to <b>Dorado Village</b>!
 2GH
 2GH
 Fuori dai piedi! <i>Bzz!</i>
-Fuori dai piedi! <i>Bzz!</i>
+Out of my way! <i>Bzz!</i>
 <i>E-E-ERRORE.</i>
 <i>E-E-ERROR.</i>
 Scegli pure quello che preferisci.
@@ -4218,15 +4222,15 @@ Pick whichever you want.
 Raitu
 Raitu
 Uaah-tah!
-Uaah-tah!
+Ooah!
 Sconfitta!
-Sconfitta!
+Failure!
 Il karate è come l'acqua calda, occorre riscaldarla costantemente o si raffredda.
-Il karate è come l'acqua calda, occorre riscaldarla costantemente o si raffredda.
+Karate is like boiling water: without heat, it returns to its tepid state.
 Achille
-Achille
+Adam
 Ci dovrà pur essere qualcosa in questa pozzanghera!
-Ci dovrà pur essere qualcosa in questa pozzanghera!
+There must be something in this pond!
 063
 063
 È pericoloso per di qua! Il Team Dimension ci tiene che nessuno si faccia del male! <i>Bzz!</i>
@@ -4252,11 +4256,11 @@ Okay! You can pass, but please do spare us! <i>Bzz!</i>
 58X
 58X
 Che ci fanno qui dei mocciosi?! <i>Bzz!</i>
-Che ci fanno qui dei mocciosi?! <i>Bzz!</i>
+What are you kids doing here?! <i>Bzz!</i>
 P08
 P08
 Come avete fatto a eludere la sorveglianza?! <i>Bzz!</i>
-Come avete fatto a eludere la sorveglianza?! <i>Bzz!</i>
+How have you managed to elude our vigilance?! <i>Bzz!</i>
 <<[>>old<<]>>È il fossile di un antico Pokémon proveniente dallo spazio. Sembrerebbe essere dell'inchiostro solidificato... Vuoi prenderlo?
 <<[>>old<<]>>A fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink... You want this?
 Prendilo pure tu. Io non saprei che farmene! Ah ah ah!
@@ -4274,7 +4278,7 @@ G1N0
 40W
 40W
 Schiacceremo ogni intruso! <i>Bzz!</i>
-Schiacceremo ogni intruso! <i>Bzz!</i>
+Every intruder will be crushed! <i>Bzz!</i>
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
@@ -4284,7 +4288,7 @@ Schiacceremo ogni intruso! <i>Bzz!</i>
 HJ65
 HJ65
 Questo posto ormai è di proprietà del Team Dimension! <i>Bzz!</i>
-Questo posto ormai è di proprietà del Team Dimension! <i>Bzz!</i>
+This cave is Team Dimension’s property now! <i>Bzz!</i>
 <<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Vuoi prenderlo?
 <<[>>old<<]>>A fossil of an ancient Pokémon that lived on land. It appears to be a handprint... You want this?
 <<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Non puoi prenderlo: hai già il Fossilcosmo!
@@ -4292,23 +4296,19 @@ Questo posto ormai è di proprietà del Team Dimension! <i>Bzz!</i>
 4Y
 4Y
 Non farmi girare gli ingranaggi! <i>Bzz!</i>
-Non farmi girare gli ingranaggi! <i>Bzz!</i>
+You are busting my gears! <i>Bzz!</i>
 50S
 50S
 4K
 4K
 Tutto quello qui dentro è roba nostra! <i>Bzz!</i>
-Tutto quello qui dentro è roba nostra! <i>Bzz!</i>
-Siete in cerca di grane? Ve le do subito! <i>Bzz!</i>
-Siete in cerca di grane? Ve le do subito! <i>Bzz!</i>
-Non ne avevo mai visti di simili e non potevo lasciarli nelle mani di quei tizi! Per sdebitarmi, vi concederò l'onore di prenderne uno a testa. Con voi saranno al sicuro! Inoltre siete Allenatori, quindi vi troverete di certo a passare da <b>Ofiuchia</b>... lì avrete certamente più informazioni a riguardo!
-Non ne avevo mai visti di simili e non potevo lasciarli nelle mani di quei tizi! Per sdebitarmi, vi concederò l'onore di prenderne uno a testa. Con voi saranno al sicuro! Inoltre siete Allenatori, quindi vi troverete di certo a passare da <b>Ofiuchia</b>... lì avrete certamente più informazioni a riguardo!
+Everything inside this cave is our property! <i>Bzz!</i>
 Carpio
-Carpio
+Carper
 Con questa cianfrusaglia si pescano solo Magikarp! Te la cedo volentieri, guarda.
-Con questa cianfrusaglia si pescano solo Magikarp! Te la cedo volentieri, guarda.
+This piece of junk can catch only Magikarp!<<n>>Take it, I don't want it anymore.
 Spero ti piacciano i Magikarp. Ah ah ah!
-Spero ti piacciano i Magikarp. Ah ah ah!
+I hope you like Magikarp. Ha ha ha!
 Sì
 Yes
 No
@@ -5203,19 +5203,19 @@ Trucco svelato! Non sono un Asso del Baseball, ma mi piacerebbe tanto...
 <<[>>old<<]>>Bisogna portare il cibo al padrone.
 <<[>>old<<]>>I must bring food to the master.
 Noa
-Noa
+Noah
 Non potete passare di qui senza esservi meritati la <b>Medaglia Marea</b>.
 Non potete passare di qui senza esservi meritati la <b>Medaglia Marea</b>.
 <<[>>old<<]>>Alcuni luoghi sono accessibili solo se hai il tuo Pokémon iniziale con te, perciò non depositarlo mai nel Box del PC!
 <<[>>old<<]>>Alcuni luoghi sono accessibili solo se hai il tuo Pokémon iniziale con te, perciò non depositarlo mai nel Box del PC!
 Cristoforo
-Cristoforo
+Christopher
 Le foglie sono squisite!
-Le foglie sono squisite!
+Leaves are delicious!
 Vuoi provarne un po’ anche tu?
-Vuoi provarne un po’ anche tu?
+Do you wanna try some?
 Gnam gnam!
-Gnam gnam!
+Nom-nom!
 [Map118]
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
@@ -6186,7 +6186,7 @@ Spettro
 <<[>>old<<]>>There's something in this ancient jar.
 <<[>>old<<]>>Sembra essere vuoto.
 <<[>>old<<]>>It's empty.
-C'è qualcosa all'interno di questo antico artefatto. [dispose]
+<<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
 <<[>>old<<]>>There's something in this ancient jar.
 <<[>>old<<]>>Sembrerebbe scritto in una lingua molto antica...
 <<[>>old<<]>>Sembrerebbe scritto in una lingua molto antica...
@@ -6261,7 +6261,7 @@ No
 No
 [Map145]
 <<[>>old<<]>>Vuoi davvero tornare alla lettera A?
-<<[>>old<<]>>Vuoi davvero tornare alla lettera A?
+<<[>>old<<]>>Would you like to go back to letter A?
 Karim
 Karim
 I nostri nomi si sono incrociati su queste pedane come nello Scarabeo!
@@ -13542,7 +13542,7 @@ Colorio
 Ho acquistato questo grattacielo con l’intenzione di farne un’autentica torre per Allenatori. I lavori sono quasi ultimati, ma voglio che sia tutto perfetto!
 Ho acquistato questo grattacielo con l’intenzione di farne un’autentica torre per Allenatori. I lavori sono quasi ultimati, ma voglio che sia tutto perfetto!
 Davide
-Davide
+David
 Dopo tutto quel tempo trascorso in mare, ormai mi fa strano mettere i piedi sulla terraferma...
 Dopo tutto quel tempo trascorso in mare, ormai mi fa strano mettere i piedi sulla terraferma...
 Ilario
@@ -43795,7 +43795,7 @@ Trey
 Pino
 Jack
 Geppino
-Geppino
+Gerard
 Bruno
 Bruno
 Peppe
@@ -43901,7 +43901,7 @@ Serena
 Tata
 Tata
 Giorgina
-Giorgina
+Georgina
 Ginevra
 Ginevra
 Ermia
@@ -44063,7 +44063,7 @@ Elvira
 Arianna
 Arianna
 Aneta
-Aneta
+Anita
 Elizabeth
 Elizabeth
 Verena
@@ -44075,7 +44075,7 @@ Alejandro
 George
 George
 Pier
-Pier
+Pierre
 Edera
 Colver
 Saul
@@ -44121,13 +44121,13 @@ Brianna
 Alisia
 Alisia
 Veronica
-Veronica
+Ronnie
 Rossella
 Rossella
 Max
 Max
 Massimiliano
-Massimiliano
+Maximilian
 Barrio
 Barrio
 Pietro
@@ -44217,7 +44217,7 @@ Marshall
 Alessio
 Alessio
 Matteo
-Matteo
+Matthew
 Fulvio
 Fulvio
 Kun
@@ -44251,7 +44251,7 @@ Holland
 Pasqualino
 Pascal
 Meleno
-Meleno
+Melbourne
 Michelangelo
 Malcolm
 Guglielmo
@@ -44265,7 +44265,7 @@ Lawrence
 Rory
 Rory
 Tino
-Tino
+Tinan
 Valerio
 Valerio
 Leo
@@ -44291,7 +44291,7 @@ Bisio
 Nicola
 Nicola
 Cristoforo
-Cristoforo
+Christopher
 Maria & Serafina
 Maria & Serafina
 Ochoa & Jose
