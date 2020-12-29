@@ -2863,7 +2863,6 @@ class PokeBattle_Battler
 			end
 			user.pbFaint if user.isFainted? # no return
 			break if user.isFainted?
-			break if target.isFainted?
 			# Moxie goes here
 			# Moxie
 			if user.hasWorkingAbility(:MOXIE) && target.isFainted?
@@ -2871,6 +2870,7 @@ class PokeBattle_Battler
 					PBDebug.log("[Ability triggered] #{user.pbThis}'s Moxie")
 				end
 			end
+			break if target.isFainted?			
 			# Beast Boost
 			if user.hasWorkingAbility(:BEASTBOOST) && target.isFainted? && !user.isFainted?
 				if isConst?(user.species,PBSpecies,:BUZZWOLE) || isConst?(user.species,PBSpecies,:KARTANA) ||
