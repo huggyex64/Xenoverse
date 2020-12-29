@@ -27,6 +27,7 @@ class SafariZone
   def pbRestoreOldParty
     $Trainer.party = @oldParty
     $PokemonBag = @oldBag
+    $lastUsed = 0
     pbSafariState.pbInProgress(false)
     for i in 463...469
       $game_switches[i]=false
