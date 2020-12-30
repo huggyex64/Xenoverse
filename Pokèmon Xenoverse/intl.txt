@@ -870,13 +870,13 @@ We must go beyond our limits!
 <<[>>new,Infermiera,ranch/infermiera,default,left,true<<]>> Le propongo un gioco. Vediamo se riesce a indovinare il sesso del suo bambino. Secondo lei è un maschietto o una femminuccia?<<[>>dispose<<]>>
 <<[>>new,Nurse,ranch/infermiera,default,left,true<<]>>Let's play a game. Could you guess the gender of your baby?<<n>>Do you think it's a boy? Or a girl?<<[>>dispose<<]>>
 <<[>>new,Infermiera,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>> Secondo me è un maschietto.
-<<[>>new,Nurse,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>> I believe it's a boy.
+<<[>>new,Nurse,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>>I believe it's a boy.
 <<[>>act,left<<]>>Complimenti signore, ha indovinato! È proprio un bel maschietto.
-<<[>>act,left<<]>>Congratulations sir, you guessed it! It really is a beautiful boy.
+<<[>>act,left<<]>>Congratulations sir, you guessed it!<<n>>It really is a beautiful boy.
 <<[>>new,Infermiera,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>> Secondo me è una femminuccia.
 <<[>>new,Nurse,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>>I believe it's a girl.
 <<[>>act,left<<]>>Complimenti signore, ha indovinato! È proprio una bella femminuccia.
-<<[>>act,left<<]>>Congratulations sir, you guessed it! It really is a beautiful girl.
+<<[>>act,left<<]>>Congratulations sir, you guessed it!<<n>>It really is a beautiful girl.
 Venga con me.[dispose]
 Come with me.[dispose]
 <<[>>new,Infermiera,ranch/infermiera,default,left,true<<]>> <b>Versil</b>, resti pure un po' da solo con sua moglie.<<[>>dispose<<]>>
@@ -886,13 +886,13 @@ Come with me.[dispose]
 <<[>>act,right<<]>><b>Edera</b>, come ti senti? Guarda che bellissimo bambino hai dato alla luce. Guarda come sorride, siete due gocce d'acqua!
 <<[>>act,right<<]>><b>Clover</b>, how do you feel? Look at the splendid child you gave birth to.<<n>>Look how he smiles, you two look very alike!
 <<[>>act,left<<]>>Caro... come vogliamo chiamarlo? Voglio che sia tu a scegliere il suo nome.
-<<[>>act,left<<]>>Dear... what do we want to call him? I want you to choose his name.
+<<[>>act,left<<]>>Dear... what do we want to call him?<<n>>I want you to choose his name.
 <<[>>act,left<<]>>Sono sicura che ne troverai uno bellissimo...<<[>>dispose<<]>>
 <<[>>act,left<<]>>I'm sure you will find a lovely one...<<[>>dispose<<]>>
 <<[>>act,right<<]>><b>Edera</b>, come ti senti? Guarda che bellissima bambina hai dato alla luce. Guarda come sorride, siete due gocce d'acqua!
 <<[>>act,right<<]>><b>Clover</b>, how do you feel? Look at the splendid child you gave birth to.<<n>>Look how she smiles, you two look very alike!
 <<[>>act,left<<]>>Caro... come vogliamo chiamarla? Voglio che sia tu a scegliere il suo nome.
-<<[>>act,left<<]>>Dear... what do we want to call her? I want you to choose her name.
+<<[>>act,left<<]>>Dear... what do we want to call her?<<n>>I want you to choose her name.
 <<[>>act,right<<]>>Che ne dici di @pl|, tesoro?
 <<[>>act,right<<]>>How about @pl|, honey?
 <<[>>act,left<<]>>@pl|? Trovo che sia fantastico! Sapevo che non mi avresti delusa... coff... coff...
@@ -1076,7 +1076,7 @@ Use Box
 <<[>>new,Versil,ranch/versil,default,left,true<<]>> @pl|, scendi! Io e la mamma dobbiamo parlarti.<<[>>dispose<<]>>
 <<[>>new,Versil,ranch/versil,default,left,true<<]>> @pl|, get up!<<n>>Mom and I need to talk to you.<<[>>dispose<<]>>
 <<[>>new,Versil,ranch/versil,default,right,true<<]>> Abbiamo deciso che è giunto il momento di mostrarti un po' il mondo qui fuori.
-<<[>>new,Versil,ranch/versil,default,right,true<<]>> We've decided it's time to show you a little bit of the world out there.
+<<[>>new,Versil,ranch/versil,default,right,true<<]>> We've decided it's time to show you some of the world<<n>>out there.
 Oggi andremo a fare un giro per il <b>Ranch Spigadoro</b>.[dispose]
 So today we're going to take a tour of the <b>Nova Ranch</b>.[dispose]
 <<[>>new,Versil,ranch/versil,default,right,true<<]>> Forza, giovane! Andiamo!<<[>>dispose<<]>>
@@ -1738,7 +1738,7 @@ Versil
 Ma guarda un po' che bella giornata! Quest’aria fresca mi mette sempre di buonumore.
 Look what a beautiful day! This fresh air always<<n>>cheers me up.
 Forza, andiamo \PN. Ti faccio un po' vedere il nostro ranch.
-Come on, let's go \PN. I'm gonna show you around<<n>>our ranch.
+C'mon, let's go \PN. I'm gonna show you around<<n>>our ranch.
 Per di qua. La nostra prima tappa sarà la fattoria.
 Come this way. Our first stop will be the farm.
 Vedi quei Pokémon che pascolano nel grano laggiù?
