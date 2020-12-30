@@ -862,7 +862,7 @@ We must go beyond our limits!
 <<[>>new,Infermiera,ranch/infermiera,default,left,true<<]>> Le propongo un gioco. Vediamo se riesce a indovinare il sesso del suo bambino. Secondo lei è un maschietto o una femminuccia?<<[>>dispose<<]>>
 <<[>>new,Nurse,ranch/infermiera,default,left,true<<]>>Let's play a game. Could you guess the gender of your baby?<<n>>Do you think it's a boy? Or a girl?<<[>>dispose<<]>>
 <<[>>new,Infermiera,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>> Secondo me è un maschietto.
-<<[>>new,Nurse,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>>I believe it's a boy.
+<<[>>new,Nurse,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>> I believe it's a boy.
 <<[>>act,left<<]>>Complimenti signore, ha indovinato! È proprio un bel maschietto.
 <<[>>act,left<<]>>Congratulations sir, you guessed it! It really is a beautiful boy.
 <<[>>new,Infermiera,ranch/infermiera,default,left<<]>> <<[>>new,Versil,ranch/versil,pensieroso,right,true<<]>> Secondo me è una femminuccia.
