@@ -652,15 +652,19 @@ class Interpreter   # Used by RMXP
     end
     @message_waiting=false
 =end
-		message = @list[@index].parameters[0]
+
+    message = @list[@index].parameters[0]
+    echoln message
 		text = ""
-		loop do
+    loop do
       nextIndex=pbNextIndex(@index)
       code=@list[nextIndex].code
-      if code == 101 || code == 401
+      #break if (code == 101 || code == 401) && @list[nextIndex].parameters[0].include?("[act")
+      if (code == 401)#(code == 101 || code == 401) #&& pbIsNextMessage(@list[nextIndex].parameters[0])
         text=@list[nextIndex].parameters[0]
         message+= "\n" + (text || "")
         @index=nextIndex
+        #break if @list[nextIndex].parameters[0].include?("[dispose]")
 			else
 				break
 			end
@@ -668,15 +672,19 @@ class Interpreter   # Used by RMXP
 		#message.gsub!(/\\n/) {"\n"}
 		#message = _MAPINTL($game_map.map_id,message)
     #fbInitialize(true)
-    echoln("Checking for translation")
+    echoln("###################################")
+    echoln("Checking for translation from Message script")
+    echoln("Checking for " + message)
     if $PokemonSystem.language != 0 #0 italian, 1 english
       begin
         message=MessageTypes.getFromMapHash($game_map.map_id,message.gsub(/\n/,' '))#MessageTypes.getFromMapHash(0,message)
-        echoln(message)
+        message = message.gsub(/] /,"]\n")
+        echoln("Translation found " + message)
       rescue
-        message=message	
+        message=message
       end
     end
+    echoln("EXECUTING TEXT: "+message)
 		Fullbox.executeText(message)
     return true
   end

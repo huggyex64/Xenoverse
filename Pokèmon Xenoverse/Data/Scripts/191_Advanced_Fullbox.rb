@@ -344,6 +344,8 @@ class Fullbox
 	end
 	
   def self.executeText(string)
+		echo "called for "
+		echoln string
 		# Fix for Xenoverse
 		if !string.match(/^\[old\]/)
 			string.gsub!(/(\\PN)|(\\PM)|\\v\[([0-9]*)\]/) { |com|
@@ -358,41 +360,41 @@ class Fullbox
 					end
 				end
 			}
-      fbInitialize(true)
+			fbInitialize(true)
 		end
 		
 		viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
 		viewport.z = 100010
-    buffer = ""
-    i = 0
+   		buffer = ""
+    	i = 0
 		line = 1
-    while i < string.length do
-      if string[i].chr == OPEN_COMMAND_CHAR and (i < 1 or string[i-1].chr != ESCAPE_CHAR) then
-        command = "" 
-        i += 1
+    	while i < string.length do
+      		if string[i].chr == OPEN_COMMAND_CHAR and (i < 1 or string[i-1].chr != ESCAPE_CHAR) then
+        		command = "" 
+        		i += 1
 				while i < string.length and string[i].chr != CLOSE_COMMAND_CHAR do
 					command += string[i].chr
 					i+= 1
 				end
 				Log.d(FT_LOG,"Command found: #{command}")
 				buffer = Fullbox.prepareString(buffer)
-        resPrep = Fullbox.prepare(command)
+        		resPrep = Fullbox.prepare(command)
 				if resPrep == 1
 					Kernel.pbMessage(string.gsub(/^\[old\]/,""))
 					return
 				end
 				buffer += resPrep
 				
-      elsif string[i].chr == VAR_CHAR and (i < 1 or string[i-1].chr != ESCAPE_CHAR) then
+      		elsif string[i].chr == VAR_CHAR and (i < 1 or string[i-1].chr != ESCAPE_CHAR) then
 				val = ""
 				i += 1
-        while i < string.length and string[i].chr != " " and string[i].chr != "\n" and string[i].chr != "@" and string[i].chr != CLOSE_VARIABLE_CHAR do
-          val += string[i].chr
+        		while i < string.length and string[i].chr != " " and string[i].chr != "\n" and string[i].chr != "@" and string[i].chr != CLOSE_VARIABLE_CHAR do
+          			val += string[i].chr
 					i += 1
-        end 
+       			end 
 				Log.d(FT_LOG,"Variable found: #{val.to_s}")
-        buffer += Fullbox.var(val)
-        i -= 1 if string[i].chr != CLOSE_VARIABLE_CHAR
+        		buffer += Fullbox.var(val)
+        		i -= 1 if string[i].chr != CLOSE_VARIABLE_CHAR
 			elsif string[i].chr == SEX_CHAR and (i < 1 or string[i-1].chr != ESCAPE_CHAR) then
 				Log.d(FT_LOG,"Sex char found, using the #{$Trainer.isFemale? ? "female" : "male"} char")
 				t = 0
@@ -409,15 +411,15 @@ class Fullbox
 					end 
 				end
 				
-        i += t * 2 - 1
-      elsif string[i].chr != ESCAPE_CHAR or (i > 0 and string[i-1].chr == ESCAPE_CHAR) then
+        		i += t * 2 - 1
+      		elsif string[i].chr != ESCAPE_CHAR or (i > 0 and string[i-1].chr == ESCAPE_CHAR) then
         buffer += string[i].chr
       end
       i += 1
     end
-		Fullbox.prepareString(buffer)
-		Input.update
-		#Log.d(FT_LOG,"Final buffer: " + buffer)
+	Fullbox.prepareString(buffer)
+	Input.update
+	#Log.d(FT_LOG,"Final buffer: " + buffer)
     return buffer
   end
   
@@ -522,7 +524,7 @@ class Fullbox
 		when "speak"
 			param[0] = param[0].to_sym
 			fbSpeaking(param[0])
-    when "dispose"
+    	when "dispose"
 			fbDispose
 		end
 		return ""
