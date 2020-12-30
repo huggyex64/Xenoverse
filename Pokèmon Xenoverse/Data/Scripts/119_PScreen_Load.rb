@@ -434,7 +434,11 @@ class PokemonLoad
            else
              $MapFactory.setMapChanged($game_map.map_id)
            end
-					Achievement.load
+          Achievement.load
+          
+          # Fix for achihevements
+          $achievements["Acchiappali"].hidden=false if $achievements["Acchiappali"].completed
+          $achievements["Mondo"].hidden=false if $achievements["Mondo"].completed
 					# CUSTOM by Fuji
 					PatchFix.applyPatch
 =begin Anti cheater measures
