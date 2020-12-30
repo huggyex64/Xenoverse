@@ -20784,6 +20784,7 @@ Habitat=Sea
 RegionalNumbers=165,0,0
 Kind=Mediovale
 Pokedex=Questa pila di ciottoli ha preso vita grazie allo spirito combattivo dei paladini del passato che alberga nella spada in essa incastonata.
+WildItemCommon=KINGSROCK
 WildItemUncommon=KINGSROCK
 WildItemRare=KINGSROCK
 BattlerPlayerY=10
