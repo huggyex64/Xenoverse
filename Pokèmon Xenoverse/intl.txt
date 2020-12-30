@@ -531,12 +531,16 @@ Uhm... Non vedo mosse che \v[3] possa ricordare...
 Hmm... It doesn't seem like \v[3] has any moves<<n>>that it can remember...
 Quale mossa vuoi far ricordare a \v[3]?
 Which move should \v[3] remember?
-Mr.Bug
 Mr. Bug
-Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Mr. Bug
+Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
 I see you have no Herculeum H. Don't worry!<<n>>Mr. Bug's here to help you.
+Hai bisogno di una mano?
+Do you need some help?
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Alright, now you have the Herculeum H helding<<n>>a superhuman Strength.
+Fanne buon uso.
+Use it well.
 Natale
 Claus
 Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
@@ -755,12 +759,16 @@ Molly
 Molly
 Questo è il Pokémon-Market di Virgopoli!
 This is the Poké Mart in Milkiway City!
-Mr.Bug
 Mr. Bug
-Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Mr. Bug
+Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
 I see you have no Herculeum H. Don't worry!<<n>>Mr. Bug's here to help you.
+Hai bisogno di una mano?
+Do you need some help?
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Alright, now you have the Herculeum H helding<<n>>a superhuman Strength.
+Fanne buon uso.
+Use it well.
 Infermiera Joy
 Nurse Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
@@ -1239,12 +1247,16 @@ Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
 Thank you for waiting.<<n>>We've restored your Pokémon to full health!
 Torna pure quando vuoi.
 We hope to see you again!
-Mr.Bug
 Mr. Bug
-Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Mr. Bug
+Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
 I see you have no Herculeum H. Don't worry!<<n>>Mr. Bug's here to help you.
+Hai bisogno di una mano?
+Do you need some help?
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Alright, now you have the Herculeum H helding<<n>>a superhuman Strength.
+Fanne buon uso.
+Use it well.
 Poy
 Poy
 Questo è il Pokémon-Market di Vetta Polare!
@@ -4773,12 +4785,16 @@ Talvolta in queste zone è possibile rinvenire una particolare roccia, denominat
 In these areas, sometimes you can find a particular stone, called the <b>Xenolith</b>.<<n>>Research reveals that some X Pokémon react to the energy surge from this stone, and evolve.<<n>>Who knows, you might get one too...
 [Map97]
 [Map98]
-Mr.Bug
 Mr. Bug
-Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Mr. Bug
+Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
 I see you have no Herculeum H. Don't worry!<<n>>Mr. Bug's here to help you.
+Hai bisogno di una mano?
+Do you need some help?
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Alright, now you have the Herculeum H helding<<n>>a superhuman Strength.
+Fanne buon uso.
+Use it well.
 Mnemonio
 Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
@@ -5040,12 +5056,16 @@ Uhm... Non vedo mosse che \v[3] possa ricordare...
 Hmm... It doesn't seem like \v[3] has any moves<<n>>that it can remember...
 Quale mossa vuoi far ricordare a \v[3]?
 Which move should \v[3] remember?
-Mr.Bug
 Mr. Bug
-Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Mr. Bug
+Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
 I see you have no Herculeum H. Don't worry!<<n>>Mr. Bug's here to help you.
+Hai bisogno di una mano?
+Do you need some help?
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Alright, now you have the Herculeum H helding<<n>>a superhuman Strength.
+Fanne buon uso.
+Use it well.
 Infermiera Joy
 Nurse Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
@@ -6729,12 +6749,16 @@ No
 <<[>>old<<]>>Sembrerebbero delle pagine strappate da un quaderno... La calligrafia è chiara e pulita.
 <<[>>old<<]>>Sembrerebbero delle pagine strappate da un quaderno... La calligrafia è chiara e pulita.
 [Map160]
-Mr.Bug
 Mr. Bug
-Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Mr. Bug
+Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
 I see you have no Herculeum H. Don't worry!<<n>>Mr. Bug's here to help you.
+Hai bisogno di una mano?
+Do you need some help?
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Alright, now you have the Herculeum H helding<<n>>a superhuman Strength.
+Fanne buon uso.
+Use it well.
 Infermiera Joy
 Nurse Joy
 Ciao... Benvenuto|a in un Centro Pokémon... In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati... Vuoi far riposare la tua squadra?
@@ -9205,12 +9229,16 @@ Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
 Thank you for waiting.<<n>>We've restored your Pokémon to full health!
 Torna pure quando vuoi.
 We hope to see you again!
-Mr.Bug
 Mr. Bug
-Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Mr. Bug
+Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
 I see you have no Herculeum H. Don't worry!<<n>>Mr. Bug's here to help you.
+Hai bisogno di una mano?
+Do you need some help?
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Alright, now you have the Herculeum H helding<<n>>a superhuman Strength.
+Fanne buon uso.
+Use it well.
 Natale
 Claus
 Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
@@ -10489,12 +10517,16 @@ Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natal
 Hi there, I'm here to give you a gift from the whole staff.<<n>>Take this and merry Christmas! Ho ho ho!
 Buon Natale a nome di tutto lo staff!
 Merry Christmas from the whole staff!
-Mr.Bug
 Mr. Bug
-Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Mr. Bug
+Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
 I see you have no Herculeum H. Don't worry!<<n>>Mr. Bug's here to help you.
+Hai bisogno di una mano?
+Do you need some help?
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Alright, now you have the Herculeum H helding<<n>>a superhuman Strength.
+Fanne buon uso.
+Use it well.
 Rahila
 Rahila
 Leggere è un po' come viaggiare, ma con la fantasia!
@@ -13688,12 +13720,16 @@ Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natal
 Hi there, I'm here to give you a gift from the whole staff.<<n>>Take this and merry Christmas! Ho ho ho!
 Buon Natale a nome di tutto lo staff!
 Merry Christmas from the whole staff!
-Mr.Bug
 Mr. Bug
-Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Mr. Bug
+Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
 I see you have no Herculeum H. Don't worry!<<n>>Mr. Bug's here to help you.
+Hai bisogno di una mano?
+Do you need some help?
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Alright, now you have the Herculeum H helding<<n>>a superhuman Strength.
+Fanne buon uso.
+Use it well.
 Roy
 Roy
 Questo è il market di Borgo Mela!
@@ -14783,12 +14819,16 @@ Attraversavo l'oscuro <b>Tunnel Roccioso</b>, quando... blink! Questa pietra ha 
 Attraversavo l'oscuro <b>Tunnel Roccioso</b>, quando... blink! Questa pietra ha catturato la mia attenzione!
 È sempre un piacere per me condividere le mie scoperte con i giovani esploratori.
 È sempre un piacere per me condividere le mie scoperte con i giovani esploratori.
-Mr.Bug
 Mr. Bug
-Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Mr. Bug
+Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
 I see you have no Herculeum H. Don't worry!<<n>>Mr. Bug's here to help you.
+Hai bisogno di una mano?
+Do you need some help?
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Alright, now you have the Herculeum H helding<<n>>a superhuman Strength.
+Fanne buon uso.
+Use it well.
 Mnemonio
 Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
@@ -17402,12 +17442,16 @@ La sconfitta non è nient’altro che educazione.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 [Map416]
-Mr.Bug
 Mr. Bug
-Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Mr. Bug
+Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
 I see you have no Herculeum H. Don't worry!<<n>>Mr. Bug's here to help you.
+Hai bisogno di una mano?
+Do you need some help?
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Alright, now you have the Herculeum H helding<<n>>a superhuman Strength.
+Fanne buon uso.
+Use it well.
 Infermiera Joy
 Nurse Joy
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
@@ -17550,12 +17594,16 @@ Elia
 Branson
 Pare che, oltre all’Idolo di Fuoco, in altre civiltà si venerassero un <b>Idolo d’Erba</b> e un <b>Idolo d’Acqua</b>.
 It seems that beside the Idol of Fire, in other civilizations they worshipped an <b>Idol of Grass</b><<n>>and an <b>Idol of Water</b>.
-Mr.Bug
 Mr. Bug
-Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
+Mr. Bug
+Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
 I see you have no Herculeum H. Don't worry!<<n>>Mr. Bug's here to help you.
+Hai bisogno di una mano?
+Do you need some help?
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Alright, now you have the Herculeum H helding<<n>>a superhuman Strength.
+Fanne buon uso.
+Use it well.
 Evolvola
 Evolie
 Un <b>Pepequeno</b> ha iniziato a braccarmi e, per difendermi, gli ho lanciato addosso una <b>Pietrafocaia</b>... Chi se l’aspettava che, colpendolo in testa con quella, diventasse uno <b>Scovile</b>...! È un miracolo che sia ancora viva!!
