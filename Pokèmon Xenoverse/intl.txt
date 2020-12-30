@@ -90,18 +90,26 @@ Kazam!
 <<[>>old<<]>>Cardinal's Palace
 <<[>>old<<]>>Casa dell'Insegnamosse
 <<[>>old<<]>Move Tutor's House
+Chiara
+Claire
 Il Palazzo del Cardinale è al di là del ponte, ma pare che un Soldato blocchi l’accesso.
-Il Palazzo del Cardinale è al di là del ponte, ma pare che un Soldato blocchi l’accesso.
+Cardinal's Palace is on the other side of the bridge, but a Soldier is guarding the entrance.
 <<[>>old<<]>>Il Vulcano Pulsar è un insidioso dungeon pieno zeppo di Pokémon selvatici. Fai scorta di Repellenti prima di avventurarti al suo interno!
 <<[>>old<<]>>Il Vulcano Pulsar è un insidioso dungeon pieno zeppo di Pokémon selvatici. Fai scorta di Repellenti prima di avventurarti al suo interno!
+Gerardo
+Gerald
 Il Vulcano Pulsar è davvero imponente visto da quaggiù!
-Il Vulcano Pulsar è davvero imponente visto da quaggiù!
+Mt. Starburst is so majestic from down here!
 <<[>>old<<]>><b>Cansiria</b>\n<i>''Villaggio alle pendici del vulcano.''</i>
 <<[>>old<<]>><b>Cansiria</b>\n<i>''Villaggio alle pendici del vulcano.''</i>
+Saverio
+Ashton
 I Pokémon Drago sono i più temibili tra tutti, eppure ubbidiscono ciecamente al <b>Cardinale</b>...!
-I Pokémon Drago sono i più temibili tra tutti, eppure ubbidiscono ciecamente al <b>Cardinale</b>...!
+Dragon-type Pokémon are the most fearsome, but they blindly follow <b>Cardinal</b>'s orders...!
+Gaia
+Gabbie
 Pochissimi Pokémon sono in grado di apprendere la tecnica tramandata dalla famiglia di mio marito.
-Pochissimi Pokémon sono in grado di apprendere la tecnica tramandata dalla famiglia di mio marito.
+Only a few Pokémons can learn the technique passed on by my husband's family.
 La sovrana mi aveva prontamente informato del tuo arrivo, Allenatore. Tuttavia, mi dispiace dirlo, ma al momento il <b>Cardinale</b> si trova sul <b>Vulcano Pulsar</b>. In via straordinaria, la sovrana mi ha concesso l'onore di garantire il privilegio di raggiungerlo, ad una sola condizione!
 The Queen had promptly informed me of your arrival,<<n>>Trainer.<<n>>Anyway, I'm sorry to say that the <b>Cardinal</b> is on the top of <b>Mt. Starburst</b> at the moment.<<n>>Extraordinary, the sovereign granted me the honor<<n>>to give the permission to reach him,<<n>>but on one condition!
 Dovrai sconfiggermi in una lotta e solo allora ti sarà concesso raggiungere il Cardinale. Allora, sei d'accordo?
@@ -2133,6 +2141,10 @@ Oh, qual buon vento, \PN! Come stai?
 Oh, how nice to see you, \PN! How are you?
 Nonostante tutto, ho deciso che riprenderò il mare con la mia nuovissima <b>Motonave Cometa II</b>! Un uomo di mare che si rispetti non si lascia intimorire da uno Sharpedo arrogante!
 I decided to take to the sea again with my brand new<<n>><b>S.S. Comet II</b> after all!<<n>>A respectable seaman is never cowed by a smug Sharpedo!
+<<[>>old<<]>>Questa cassa sembrerebbe protetta da un codice. Vuoi provare ad inserirlo?
+<<[>>old<<]>>This chest seems to be locked with a code.\nWould you like to enter one?
+<<[>>old<<]>>Grazie per il supporto. -Vostro Starkey
+<<[>>old<<]>>Thanks for your support.\n-Sincerely yours, Starkey
 Sì
 Yes
 No
@@ -2446,29 +2458,29 @@ Use Box
 <<[>>old<<]>>Cerca sempre di non focalizzare l'allenamento su un solo Pokémon della squadra. Meglio avere più compagni su cui poter fare affidamento, non credi?
 <<[>>old<<]>>Cerca sempre di non focalizzare l'allenamento su un solo Pokémon della squadra. Meglio avere più compagni su cui poter fare affidamento, non credi?
 Deny
-Deny
+Denny
 Sono qui per allargare la mia collezione di Coleotteri!
-Sono qui per allargare la mia collezione di Coleotteri!
+I'm here to expand my Bug collection!
 Vedrai, metterò le mani su un Coleottero rarissimo...!
-Vedrai, metterò le mani su un Coleottero rarissimo...!
+You'll see, I'll get my hands on the rarest Bug...!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
 <<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 Nello
-Nello
+Erwin
 Da queste parti non si fa che sentire il ruggito dei Druddigon. La loro tana dev’essere qui da qualche parte!
-Da queste parti non si fa che sentire il ruggito dei Druddigon. La loro tana dev’essere qui da qualche parte!
+The only thing you can hear around here is Druddigon roaring. There must be a Den somewhere near!
 Ermenio
-Ermenio
+Herbert
 La via del vulcano è ancora troppo nefasta per te, giovincello|a!
-La via del vulcano è ancora troppo nefasta per te, giovincello|a!
+The path of the volcano is still too harsh for you, kid!
 Elizabeth
 Elizabeth
 Il fiore dal profumo più intenso è la vittoria!
-Il fiore dal profumo più intenso è la vittoria!
+I will bloom the flower of victory!
 Ma non raccolgo che sconfitte...
-Ma non raccolgo che sconfitte...
+But I'm growing nothing but defeats...
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
@@ -2494,31 +2506,31 @@ Shu...!
 Ana
 Ana
 Quanto pesa questo zaino...!
-Quanto pesa questo zaino...!
+This backpack is so heavy...!
 Uff! Mi hai tolto un bel peso!
-Uff! Mi hai tolto un bel peso!
+Phew! That was a weight off!
 ... Smascherato! Ih ih!
-... Smascherato! Ih ih!
+... You got me! Hee hee!
 <<[>>old<<]>>Vulcano Pulsar ad ovest
 <<[>>old<<]>>West: Mt. Starburst
 Sofia
-Sofia
+Sophie
 Solo i più forti sopravvivono alle intemperie!
-Solo i più forti sopravvivono alle intemperie!
+Only the strongest ones can survive the bad weather!
 I più deboli, al contrario, soccombono.
-I più deboli, al contrario, soccombono.
+The weakest ones, succumb instead.
 È la dura legge della natura.
-È la dura legge della natura.
+It's the nature law.
 Pier
 Pierre
 Sto studiando i Pokémon che popolano il vulcano e i suoi dintorni!
-Sto studiando i Pokémon che popolano il vulcano e i suoi dintorni!
+I'm studying the Pokémon who inhabit the volcano area!
 Sarà meglio tornare alla ricerca.
-Sarà meglio tornare alla ricerca.
+I'd better get back to my research.
 Pare che con sul <b>Vulcano Pulsar</b>, con un po’ di fortuna, ci si possa imbattere in un <b>Charmander</b>.
-Pare che con sul <b>Vulcano Pulsar</b>, con un po’ di fortuna, ci si possa imbattere in un <b>Charmander</b>.
+According to my studies, if you're lucky enough, you can<<n>>find a <b>Charmander</b> on <b>Mt. Starburst</b>.
 Si
-Si
+Yes
 No
 No
 Cura Pokémon
@@ -5054,12 +5066,14 @@ Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natal
 Hi there, I'm here to give you a gift from the whole staff.<<n>>Take this and merry Christmas! Ho ho ho!
 Buon Natale a nome di tutto lo staff!
 Merry Christmas from the whole staff!
+Darlina
+Darline
 Gli Hippopotas non sono solo le mascotte della città, ma vengono anche impiegati per il trasporto dell’acqua.
-Gli Hippopotas non sono solo le mascotte della città, ma vengono anche impiegati per il trasporto dell’acqua.
+Hippopotas aren't just the city's mascots, they also help<<n>>in water transportation. 
 Ehi, amico|a! Tu mi sembri proprio super, sai? Ti meriti proprio una bella Superpozione.
-Ehi, amico|a! Tu mi sembri proprio super, sai? Ti meriti proprio una bella Superpozione.
+Hey, pal! You really look super today, y'know?<<n>>You surely deserve a nice Super Potion.
 Tra amici ci si aiuta sempre!
-Tra amici ci si aiuta sempre!
+Good pals always help each other out!
 Dolly
 Dolly
 Questo è il Pokémon-Market di Aquariopoli!
@@ -5085,7 +5099,7 @@ The tradition says certain individuals are destined<<n>>to challenge the volcano
 Isabella
 Isabella
 Attraversata questa grotta, ti troverai catapultato|a a <b>Cansiria</b>, il villaggio dei draghi!
-Attraversata questa grotta, ti troverai catapultato|a a <b>Cansiria</b>, il villaggio dei draghi!
+Out of this cave you'll find <b>Fortbelt Town</b>,<<n>>the village of dragons!
 [Map108]
 [Map109]
 Tarassaco
@@ -5767,48 +5781,62 @@ Cosa?! Dov'è finito Trishout?!
 [Map130]
 <<[>>old<<]>>Qui non c'è niente...
 <<[>>old<<]>>There's nothing here...
+Ericleo
+Eric
 Quella negli scatoloni non è sabbia qualunque! È la fine sabbia della Spiaggia Polvostella!!
-Quella negli scatoloni non è sabbia qualunque! È la fine sabbia della Spiaggia Polvostella!!
+That isn't common sand! It's the refined sand of<<n>>Stardust Beach!
+Beniamino
+Barry
 Mio figlio ha vinto questi scatoloni ad un’asta, ma non contengono altro che sabbia...
-Mio figlio ha vinto questi scatoloni ad un’asta, ma non contengono altro che sabbia...
+My son won these boxes at an auction, but they contain nothing but sand...
 [Map131]
+Bruno
+George
 Guarda, ad Aquariopoli il sole è anche nelle rocce!
-Guarda, ad Aquariopoli il sole è anche nelle rocce!
+Look, in Ishtar City the sun is inside the rocks too!
 Ecco perché fa così caldo...
-Ecco perché fa così caldo...
+That must be why it is so hot here...
+Patrizia
+Phoebe
 Mi chiedo come faccia la regina ad avere sempre dei capelli così perfetti, nonostante il caldo.
-Mi chiedo come faccia la regina ad avere sempre dei capelli così perfetti, nonostante il caldo.
+I wonder how the Queen can always show off such a flawless hairstyle, despite the heat.
 [Map132]
+Deeni
+Menhotep
 Su Aquariopoli splende sempre un sole così intenso. Con questa MT, potrai rinfrescarti un po'!
-Su Aquariopoli splende sempre un sole così intenso. Con questa MT, potrai rinfrescarti un po'!
+The sun always shines brightly upon Ishtar City. Thanks to<<n>>this TM you'll be able to freshen up a bit!
 Non c'è niente di meglio di una doccia fredda!
-Non c'è niente di meglio di una doccia fredda!
+Nothing is better than a cold shower!
 Riposiamo qui in attesa del cambio della guardia.
-Riposiamo qui in attesa del cambio della guardia.
+We're resting here until the hour brings to the change<<n>>of guard.
 Vorrei tanto dichiararmi alla sovrana, ma temo mi veda solo come un Soldato...
-Vorrei tanto dichiararmi alla sovrana, ma temo mi veda solo come un Soldato...
+I'm thinking of coming out to the Queen, but I fear<<n>>I'm nothing more than a Soldier to her...
 [Map133]
 Pare che in una regione lontana non apprezzino la <b>Pizza Donanas</b>... ma come si fa?!
-Pare che in una regione lontana non apprezzino la <b>Pizza Donanas</b>... ma come si fa?!
+It seems like in a distant region they don't appreciate<<n>><b>Donanas Pizza</b>... that's crazy!
 ''De gustibus non disputandum est'' come si suol dire.
-''De gustibus non disputandum est'' come si suol dire.
+As they say, ''de gustibus non disputandum est''.
+Gina
+Betty
 La specialità di papà non mi piace per niente... Secondo te dovrei dirglielo?
-La specialità di papà non mi piace per niente... Secondo te dovrei dirglielo?
+I really don't like dadda's specialty...<<n>>Do you think I should tell him?
 Sì, hai ragione! Devo essere onesta con lui! Voglio ringraziarti regalandoti questo.
-Sì, hai ragione! Devo essere onesta con lui! Voglio ringraziarti regalandoti questo.
+Yes, you're right! I have to be honest with him!<<n>>Take this as a thank you gift.
 Sei proprio sicuro|a che non possa dirglielo la mamma?
-Sei proprio sicuro|a che non possa dirglielo la mamma?
+Are you sure that mommy can't be the one who tells him?
 [Map134]
 <<[>>old<<]>>L'anfora contiene qualcosa.
-<<[>>old<<]>>L'anfora contiene qualcosa.
+<<[>>old<<]>>There's something in this ancient jar.
 <<[>>old<<]>>Sembra vuota.
-<<[>>old<<]>>Sembra vuota.
+<<[>>old<<]>>It's empty.
 Hippoo...!
 Hippoo...!
 Dit...Hippo!
 Dit...Hippo!
+Silvana
+Nora
 Ho sempre vissuto da sola, ma i miei Hippopotas mi hanno aiutato a patire meno la solitudine. I Pokémon sono davvero delle creature straordinarie!
-Ho sempre vissuto da sola, ma i miei Hippopotas mi hanno aiutato a patire meno la solitudine. I Pokémon sono davvero delle creature straordinarie!
+I've always lived alone, but my Hippopotas have helped me cope with the loneliness.<<n>>Pokémon really are wonderful creatures!
 [Map135]
 Tig
 Tig
@@ -6044,15 +6072,15 @@ Vee...!
 Vee...!
 [Map138]
 Valerio
-Valerio
+Pohaku
 Non ho potuto fare a meno di notare che, qui ad Eldiw, i Geodude sono diversi da quelli che conosco io. Un Montanaro come me non può esimersi dal conoscere ogni Pokémon di tipo Roccia, perciò... Che ne dici di uno scambio tra il tuo Geodude e il mio <b>Geodude di Alola</b>? Mi sembra equo, no?
-Non ho potuto fare a meno di notare che, qui ad Eldiw, i Geodude sono diversi da quelli che conosco io. Un Montanaro come me non può esimersi dal conoscere ogni Pokémon di tipo Roccia, perciò... Che ne dici di uno scambio tra il tuo Geodude e il mio <b>Geodude di Alola</b>? Mi sembra equo, no?
+I couldn't help noticing, here in Eldiw, Geodude are different from those I'm used to.<<n>>A Hiker like me must know every kind of Rock-type<<n>>Pokémon, so...<<n>>What about trading your Geodude for my <b>Alolan</b><<n>><b>Geodude</b>? It seems fair to me!
 Torna a trovarmi quando avrai un Geodude. Dev’essere mio a tutti i costi!
-Torna a trovarmi quando avrai un Geodude. Dev’essere mio a tutti i costi!
+Come back when you have a Geodude. It shall be mine!
 Perbacco, diamo subito inizio allo scambio!
-Perbacco, diamo subito inizio allo scambio!
+My goodness, let's trade then! 
 Vedrai, il Geodude di Alola è davvero elettrizzante! Ma anche questo qui non scherza!
-Vedrai, il Geodude di Alola è davvero elettrizzante! Ma anche questo qui non scherza!
+You'll see, Alolan Geodude is really electrifying!<<n>>But this one's the real deal, too!
 Sì
 Yes
 No
@@ -17518,24 +17546,30 @@ Uhm... Non vedo mosse che \v[3] possa ricordare...
 Hmm... It doesn't seem like \v[3] has any moves<<n>>that it can remember...
 Quale mossa vuoi far ricordare a \v[3]?
 Which move should \v[3] remember?
+Elia
+Branson
 Pare che, oltre all’Idolo di Fuoco, in altre civiltà si venerassero un <b>Idolo d’Erba</b> e un <b>Idolo d’Acqua</b>.
-Pare che, oltre all’Idolo di Fuoco, in altre civiltà si venerassero un <b>Idolo d’Erba</b> e un <b>Idolo d’Acqua</b>.
+It seems that beside the Idol of Fire, in other civilizations they worshipped an <b>Idol of Grass</b><<n>>and an <b>Idol of Water</b>.
 Mr.Bug
 Mr. Bug
 Vedo che non hai la Heraclium N. Mr.Bug è qui per aiutarti.
 I see you have no Herculeum H. Don't worry!<<n>>Mr. Bug's here to help you.
 Perfetto, ora hai a disposizione la Heraclium N che contiene Forza.
 Alright, now you have the Herculeum H helding<<n>>a superhuman Strength.
+Evolvola
+Evolie
 Un <b>Pepequeno</b> ha iniziato a braccarmi e, per difendermi, gli ho lanciato addosso una <b>Pietrafocaia</b>... Chi se l’aspettava che, colpendolo in testa con quella, diventasse uno <b>Scovile</b>...! È un miracolo che sia ancora viva!!
-Un <b>Pepequeno</b> ha iniziato a braccarmi e, per difendermi, gli ho lanciato addosso una <b>Pietrafocaia</b>... Chi se l’aspettava che, colpendolo in testa con quella, diventasse uno <b>Scovile</b>...!   È un miracolo che sia ancora viva!!
+A <b>Pepequeno</b> started chasing me and, to defend myself, I threw a <b>Fire Stone</b> at it...<<n>>I didn't know that conking its head with that, it could<<n>>become a <b>Scovile</b>...!<<n>>It's a miracle I'm still alive!!
 Natale
 Claus
 Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
 Hi there, I'm here to give you a gift from the whole staff.<<n>>Take this and merry Christmas! Ho ho ho!
 Buon Natale a nome di tutto lo staff!
 Merry Christmas from the whole staff!
+Ludovico
+Melvin
 Niente da fare! Pare che neanche qui vendano la statuetta dell’<b>Idolo di Fuoco</b>...
-Niente da fare! Pare che neanche qui vendano la statuetta dell’<b>Idolo di Fuoco</b>...
+No way! No <b>Idol of Fire</b> statue here either...
 Si
 Yes
 No
@@ -44265,7 +44299,7 @@ Jimmy
 Fabio
 Alvin
 Deny
-Deny
+Denny
 Holly
 Holly
 Emma
@@ -44291,7 +44325,7 @@ Rita
 Tina & Clara
 Tina & Clair
 Sofia
-Sofia
+Sophie
 Pamela
 Pamela
 Cristiana
