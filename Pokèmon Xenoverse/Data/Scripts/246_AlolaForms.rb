@@ -1509,7 +1509,7 @@ MultipleForms.register(:VULPIX,{
 }
 })
 
-MultipleForms.register(:NINETAILS,{
+MultipleForms.register(:NINETALES,{
 "getFormName"=>proc{|pokemon|
   next _INTL("Alola Form") if pokemon.isDelta?
   next
