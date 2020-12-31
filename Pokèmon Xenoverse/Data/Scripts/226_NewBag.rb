@@ -106,7 +106,7 @@ class NewBagScreen
 			@icons["i#{i}"].y = 58*(i/4) + 24 #@itemRect.y + 50*(i/5)
 			#@icons["i#{i}"].setZoomPoint(24,24)
 			#@icons["i#{i}"].zoom(0.75,0.75,10,:ease_out_cubic)
-			@icons["i#{i}"].color = Color.new(0,0,0,80)
+			@icons["i#{i}"].color = Color.new(0,0,0,150)
 		end
 		
 	end
@@ -126,7 +126,7 @@ class NewBagScreen
 		@icons["i#{itemIndex}"].oy = 24
 		@icons["i#{itemIndex}"].x = 58*(itemIndex%4) + 24 
 		@icons["i#{itemIndex}"].y = 58*(itemIndex/4) + 24 
-		@icons["i#{itemIndex}"].color = Color.new(0,0,0,80)
+		@icons["i#{itemIndex}"].color = Color.new(0,0,0,150)
 	end
 	
 	
@@ -289,22 +289,22 @@ class NewBagScreen
 		oldi = @index
 		return if @curPocket.length<=1
 		if Input.trigger?(Input::LEFT)
-			@icons["i#{@index}"].color = Color.new(0,0,0,80) if @swid != @index
+			@icons["i#{@index}"].color = Color.new(0,0,0,150) if @swid != @index
 			@index = @index-1<0 ? @curPocket.length-1 : @index-1
 			@icons["i#{@index}"].color = Color.new(0,0,0,0) if @swid != @index
 			updateIconPosition
 		elsif Input.trigger?(Input::RIGHT)
-			@icons["i#{@index}"].color = Color.new(0,0,0,80) if @swid != @index
+			@icons["i#{@index}"].color = Color.new(0,0,0,150) if @swid != @index
 			@index = @index+1 >= @curPocket.length ? 0 : @index+1
 			@icons["i#{@index}"].color = Color.new(0,0,0,0) if @swid != @index
 			updateIconPosition
 		elsif Input.trigger?(Input::DOWN)	
-			@icons["i#{@index}"].color = Color.new(0,0,0,80) if @swid != @index
+			@icons["i#{@index}"].color = Color.new(0,0,0,150) if @swid != @index
 			@index = @index+4 >= @curPocket.length ? 0 + @index%4 : @index+4
 			@icons["i#{@index}"].color = Color.new(0,0,0,0) if @swid != @index
 			updateIconPosition
 		elsif Input.trigger?(Input::UP)
-			@icons["i#{@index}"].color = Color.new(0,0,0,80) if @swid != @index
+			@icons["i#{@index}"].color = Color.new(0,0,0,150) if @swid != @index
 			@index = @index-4 < 0 ? @curPocket.length-1 : @index-4
 			@icons["i#{@index}"].color = Color.new(0,0,0,0) if @swid != @index
 			updateIconPosition
@@ -352,7 +352,7 @@ class NewBagScreen
 					@icons["i#{@swid}"].color = Color.new(255,160,40,50)
 				else #cancel switching
 					@switching = false
-					@icons["i#{@swid}"].color = (@swid==@index ? Color.new(0,0,0,0) : Color.new(0,0,0,80))
+					@icons["i#{@swid}"].color = (@swid==@index ? Color.new(0,0,0,0) : Color.new(0,0,0,150))
 					@swid=-1
 				end
 			end
