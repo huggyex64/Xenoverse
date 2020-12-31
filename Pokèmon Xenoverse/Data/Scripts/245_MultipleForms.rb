@@ -898,9 +898,9 @@ MultipleForms.register(:TRISHOUT,{
 		},
 		"getBaseStats"=>proc{|pokemon|
 			next if pokemon.form==0 || pokemon.form == 4
-			next [88,105,55,78,90,44] if pokemon.form==1  # Terrestre
-			next [118,125,65,83,110,59] if pokemon.form==2  # Xenoverse
-			next [143,150,90,93,130,94] if pokemon.form == 3 #Astro
+			next [88,105,55,78,80,44] if pokemon.form==1  # Terrestre
+			next [118,125,65,83,100,59] if pokemon.form==2  # Xenoverse
+			next [143,150,90,93,120,94] if pokemon.form == 3 #Astro
 		},
 		"getForm"=>proc{|pokemon|
 			if $game_switches[AUTOASTRO_SWITCH]==false
@@ -1070,11 +1070,11 @@ MultipleForms.register(:SHULONG,{
 			case pokemon.form
 			when 1; movelist=[[1,:IRONDEFENSE],[1,:SLASH],[1,:AQUARING],[1,:WATERGUN],
 					[1,:TACKLE],[8,:TWISTER],[13,:HARDEN],[17,:BIDE],[21,:BUBBLEBEAM],
-					[25,:DUALCHOP],[28,:PROTECT],[32,:MUDDYWATER],[36,:DRAGONTAIL],[40,:RECOVER],
+					[25,:DRAGONBREATH],[28,:PROTECT],[32,:MUDDYWATER],[36,:DRAGONTAIL],[40,:RECOVER],
 					[45,:DRAGONPULSE],[51,:AQUARING],[56,:RAINDANCE],[61,:HYDROPUMP]]
 			when 2; movelist=[[1,:DRAGONTAIL],[1,:RAZORSHELL],[1,:CRUSHCLAW],[1,:WATERGUN],
 					[1,:TACKLE],[8,:TWISTER],[13,:HARDEN],[17,:BIDE],[21,:BUBBLEBEAM],
-					[25,:DUALCHOP],[28,:PROTECT],[32,:MUDDYWATER],[40,:RECOVER],
+					[25,:DRAGONBREATH],[28,:PROTECT],[32,:MUDDYWATER],[40,:RECOVER],
 					[45,:DRAGONPULSE],[51,:CRUSHCLAW],[56,:RAINDANCE],[61,:HYDROPUMP]]	
 			when 3; movelist = [[1,:TACKLE],[1,:LEER],[6,:WATERGUN],[8,:DUALCHOP],[10,:PROTECT],
 					[12,:BIDE],[16,:BUBBLEBEAM],[20,:RAINDANCE],[25,:RECOVER],
