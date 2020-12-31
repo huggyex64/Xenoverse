@@ -89,11 +89,11 @@ Kazam!
 <<[>>old<<]>>Palazzo del Cardinale
 <<[>>old<<]>>Cardinal's Palace
 <<[>>old<<]>>Casa dell'Insegnamosse
-<<[>>old<<]>Move Tutor's House
+<<[>>old<<]>>Move Tutor's House
 Chiara
 Claire
 Il Palazzo del Cardinale è al di là del ponte, ma pare che un Soldato blocchi l’accesso.
-Cardinal's Palace is on the other side of the bridge, but a Soldier is guarding the entrance.
+Cardinal's Palace is on the other side of the bridge,<<n>>but a Soldier is guarding the entrance.
 <<[>>old<<]>>Il Vulcano Pulsar è un insidioso dungeon pieno zeppo di Pokémon selvatici. Fai scorta di Repellenti prima di avventurarti al suo interno!
 <<[>>old<<]>>Il Vulcano Pulsar è un insidioso dungeon pieno zeppo di Pokémon selvatici. Fai scorta di Repellenti prima di avventurarti al suo interno!
 Gerardo
@@ -105,11 +105,11 @@ Mt. Starburst is so majestic from down here!
 Saverio
 Ashton
 I Pokémon Drago sono i più temibili tra tutti, eppure ubbidiscono ciecamente al <b>Cardinale</b>...!
-Dragon-type Pokémon are the most fearsome, but they blindly follow <b>Cardinal</b>'s orders...!
+Dragon-type Pokémon are the most fearsome, but they<<n>>blindly follow <b>Cardinal</b>'s orders...!
 Gaia
 Gabbie
 Pochissimi Pokémon sono in grado di apprendere la tecnica tramandata dalla famiglia di mio marito.
-Only a few Pokémons can learn the technique passed on by my husband's family.
+Only a few Pokémons can learn the technique passed on<<n>>by my husband's family.
 La sovrana mi aveva prontamente informato del tuo arrivo, Allenatore. Tuttavia, mi dispiace dirlo, ma al momento il <b>Cardinale</b> si trova sul <b>Vulcano Pulsar</b>. In via straordinaria, la sovrana mi ha concesso l'onore di garantire il privilegio di raggiungerlo, ad una sola condizione!
 The Queen had promptly informed me of your arrival,<<n>>Trainer.<<n>>Anyway, I'm sorry to say that the <b>Cardinal</b> is on the top of <b>Mt. Starburst</b> at the moment.<<n>>Extraordinary, the sovereign granted me the honor<<n>>to give the permission to reach him,<<n>>but on one condition!
 Dovrai sconfiggermi in una lotta e solo allora ti sarà concesso raggiungere il Cardinale. Allora, sei d'accordo?
@@ -5148,10 +5148,14 @@ Kazam...!
 [Map111]
 <<[>>old<<]>>Qui non c'è niente...
 <<[>>old<<]>>There's nothing here...
+Druddigon di Alessio
+Holden's Druddigon
 Druuuu!!
 Druuuu!!
+Alessio
+Holden
 Quando ti trovi di fronte a un Pokémon selvatico, non scappare e affrontalo a muso duro! Oltre a cedere Punti Esperienza, alcuni potrebbero persino perdere lo strumento che tenevano, sai?
-Quando ti trovi di fronte a un Pokémon selvatico, non scappare e affrontalo a muso duro! Oltre a cedere Punti Esperienza, alcuni potrebbero persino perdere lo strumento che tenevano, sai?
+When you encounter a wild Pokémon don't flee,<<n>>face it down instead!<<n>>Beside Exp. Points, some of them could drop their<<n>>held item on the ground!
 [Map112]
 So che potrà sembrarti strano, ma sono un incallito collezionista di lattine. Se hai qualche pezzo da collezione, sarei felice di darci un'occhiata...
 So che potrà sembrarti strano, ma sono un incallito collezionista di lattine. Se hai qualche pezzo da collezione, sarei felice di darci un'occhiata...
@@ -5164,32 +5168,46 @@ Quello è il famoso <b>Idolo di Fuoco</b> di Cansiria, ma non so cos'abbia di ta
 Poi sarei io quello strano che colleziona lattine!
 Poi sarei io quello strano che colleziona lattine!
 [Map113]
+Mauro
+Bryan
 Io ormai sono troppo vecchio per avventurarmi per i monti di Eldiw. È ora di passare il testimone! Tieni, da oggi tu sarai il||la mio|a erede!
-Io ormai sono troppo vecchio per avventurarmi per i monti di Eldiw. È ora di passare il testimone! Tieni, da oggi tu sarai il||la mio|a erede!
+I'm too old to venture in the Eldiw mountains.<<n>>Time to pass the torch!<<n>>Take it, from now on you'll be my heir!
 Voi giovani siete il futuro di noi anziani!
-Voi giovani siete il futuro di noi anziani!
+Young people are the future!
+Edoardo
+Gideon
 Il popolo di Cansiria venerava un <b>Idolo di Fuoco</b>, ritenendolo la personificazione del vulcano stesso. Mi chiedo di che Pokémon si trattasse...
-Il popolo di Cansiria venerava un <b>Idolo di Fuoco</b>, ritenendolo la personificazione del vulcano stesso. Mi chiedo di che Pokémon si trattasse...
+Fortbelt's people used to worship an <b>Idol of Fire</b>, believed to be the incarnation of the volcano itself.<<n>>I wonder which Pokémon it was...
 [Map114]
+Giacomo
+Jake
 Daddy è un rapper fortissimo! Giuro, prima o poi andrò a vederlo dal vivo a <b>Leopoli</b>! Ye-yeah!
-Daddy è un rapper fortissimo! Giuro, prima o poi andrò a vederlo dal vivo a <b>Leopoli</b>! Ye-yeah!
+Daddy really is a dope rapper! I swear someday I'll go see him in <b>Hypelion City</b>! Ye-yeah!
+Giuseppa
+Josephine
 Questi giovani d’oggi sono solo dei perdigiorno! Ai miei tempi se la sarebbero vista brutta sul vulcano!
-Questi giovani d’oggi sono solo dei perdigiorno! Ai miei tempi se la sarebbero vista brutta sul vulcano!
+Kids these days are nothing but layabouts! Back in my time they'd have faced some real time on the volcano!
+Giorgio
+George
 Credo che a mia madre serva proprio un animaletto da compagnia. Forse, se andassi sul <b>Percorso 13</b>, potrei catturarle un tenero <b>Litten</b>...
-Credo che a mia madre serva proprio un animaletto da compagnia. Forse, se andassi sul <b>Percorso 13</b>, potrei catturarle un tenero <b>Litten</b>...
+I think my mum really needs a pet as a companion. I'll go on <b>Route 13</b> and get her a cuddly <b>Litten</b>!
 [Map115]
-Draco
-Draco
 Ho saputo che ti sei fatto|a valere sul Vulcano Pulsar, perciò ho intenzione di ricompensarti.
-Ho saputo che ti sei fatto|a valere sul Vulcano Pulsar, perciò ho intenzione di ricompensarti.
+I heard you stood up for yourself on Mt. Pulsar, so I'm going to reward you.
+Insegnerò ai tuoi Pokémon una sorprendente mossa di tipo Drago, tramandata da generazioni qui a Cansiria!
+I'll teach your Pokémon a powerful Dragon-type move,<<n>>passed down through generations here in Fortbelt.
 Allora, vuoi che insegni <b>Dragopatto</b> a uno dei tuoi Pokémon?
-Allora, vuoi che insegni <b>Dragopatto</b> a uno dei tuoi Pokémon?
+So, you want me to teach <b>Dragon Pledge</b><<n>>to one of your Pokémon?
 Ora il tuo Pokémon potrà dare libero sfogo alla sua latente energia draconica! Torna a trovarmi se vuoi che uno dei tuoi Pokémon impari questa mossa.
-Ora il tuo Pokémon potrà dare libero sfogo alla sua latente energia draconica! Torna a trovarmi se vuoi che uno dei tuoi Pokémon impari questa mossa.
+Your Pokémon can give vent to all its latent dragon power now!<<n>>Come back if any of your Pokémon needs to learn this move.
 Torna a trovarmi se vuoi che uno dei tuoi Pokémon impari questa mossa.
-Torna a trovarmi se vuoi che uno dei tuoi Pokémon impari questa mossa.
+Come back if any of your Pokémon needs to learn<<n>>this move.
+Dario
+Shawn
 Devo dimostrare il mio valore sul Vulcano Pulsar, se voglio che <b>Eevee</b> diventi un maestoso <b>Scaleon</b>!
-Devo dimostrare il mio valore sul Vulcano Pulsar, se voglio che <b>Eevee</b> diventi un maestoso <b>Scaleon</b>!
+I first need to prove my worth on Mt. Pulsar, if I want<<n>>my <b>Eevee</b> to become a mighty <b>Scaleon</b>!
+Eevee di Dario
+Shawn's Eevee
 Vee!
 Vee!
 Sì
@@ -5197,12 +5215,16 @@ Yes
 No
 No
 [Map116]
+Romeo
+Zachary
 Preparerò un ottimo riso ai semi di Pepequeno per il mio amico. Spero gli piaccia il piccante!
-Preparerò un ottimo riso ai semi di Pepequeno per il mio amico. Spero gli piaccia il piccante!
+I'm gonna cook a tasty rice with Pepequeno's seeds for<<n>>my pal. I hope he likes spice.
+Enrique
+Clint
 Il mondo si divide in due categorie: chi ha la pistola carica e chi scava. Con questa sarai tu a scavare.
-Il mondo si divide in due categorie: chi ha la pistola carica e chi scava. Con questa sarai tu a scavare.
+There are two kinds of people in the world: those with<<n>>loaded guns, and those who dig.<<n>>With this, you'll be the one digging.
 Occhio a non scavarti la fossa da solo|a però.
-Occhio a non scavarti la fossa da solo|a però.
+Just don't dig your own grave, though.
 [Map117]
 Gaetano
 Timmy
@@ -6241,9 +6263,9 @@ Ghost
 Baada
 Baada
 Oh oh! Sei riuscito|a a decifrare l’antica lingua degli Unown?
-Oh oh! Sei riuscito|a a decifrare l’antica lingua degli Unown?
+Oh! You managed to decode the ancient Unown language!
 Pensavo fossimo gli unici a saperla leggere...
-Pensavo fossimo gli unici a saperla leggere...
+I thought we were the only ones that could read it...
 Abbas
 Abbas
 Eccoti, sfidante. La sfida della Palestra Marea è strutturata secondo i giochi dei nostri avi... Il primo che affronterai è denominato ''la salita del Farfetch'd''. Il piano è disseminato di pedane con su l’effigie di vari Pokémon, sulle quali dovrai farti strada.
@@ -10365,8 +10387,8 @@ Le diamo il benvenuto all'Aeroporto Samuel Oak. Vuole imbarcarsi per la regione 
 Le diamo il benvenuto all'Aeroporto Samuel Oak. Vuole imbarcarsi per la regione di Kanto?
 Henry
 Henry
-I don't really like to fly, but I still am super fly!
-I don't really like to fly, but I still am super fly!
+I don't like to fly, but I really am super fly!
+I don't like to fly, but I really am super fly!
 Ciro
 Ciro
 Scusat, arò sta 'o gabinett?
@@ -10751,27 +10773,27 @@ No
 No
 [Map241]
 Miranda
-Miranda
+Cassidy
 A caval donato... non si nega una lotta!
-A caval donato... non si nega una lotta!
+When you look a gift horse in the mouth...<<n>>you find a battle!
 Mi hai proprio fatto perdere le staffe!
-Mi hai proprio fatto perdere le staffe!
+You made me stir up a fuss!
 Tikata
 Tikata
 Nessuno straniero varcherà questa soglia senza il permesso del <b>Cardinale</b>.
-Nessuno straniero varcherà questa soglia senza il permesso del <b>Cardinale</b>.
+No outsider will pass without the <b>Cardinal</b>'s approval.
 Nando
-Nando
+Colt
 In sella al mio destriero, cavalcherò anche nella più impetuosa delle burrasche!
-In sella al mio destriero, cavalcherò anche nella più impetuosa delle burrasche!
+I'll face even the most violent storm while riding my steed!
 Anche le cadute da cavallo fanno parte della vita di un Cowboy.
-Anche le cadute da cavallo fanno parte della vita di un Cowboy.
+Falling is also part of everyday's life as a Cowboy.
 Pico
 Pico
 Ho lasciato da poco il nido, ma il mio becco è bello affilato, puoi contarci!
-Ho lasciato da poco il nido, ma il mio becco è bello affilato, puoi contarci!
+I've just left the nest, but I got a sharp beak, believe me!
 Mi hai proprio fatto tornare nell’uovo...
-Mi hai proprio fatto tornare nell’uovo...
+Time to get back to the nest...
 Malaka
 Malaka
 <<[>>old<<]>>Soffia un vento di burrasca...
@@ -11212,43 +11234,43 @@ No
 Opie
 Opie
 Solo in sella al mio Vroombug mi sento veramente libero!
-Solo in sella al mio Vroombug mi sento veramente libero!
+Only when I'm riding my Vroombug I can smell freedom!
 Qualcuno prima o poi doveva mettermi i bastoni tra le ruote...
-Qualcuno prima o poi doveva mettermi i bastoni tra le ruote...
+Someone had to put a spoke in my wheels, sooner or later...
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Chibs
 Chibs
 Qui nel canyon possiamo scatenarci quanto vogliamo, senza che nessuno ci rompa le scatole!
-Qui nel canyon possiamo scatenarci quanto vogliamo, senza che nessuno ci rompa le scatole!
+Here at the canyon we can go wild as much we want without anyone making a fuss!
 Ci hai rovinato la festa!
-Ci hai rovinato la festa!
+You crashed the party!
 Half
 Half
 Questo è il territorio degli Scovile Riders!
-Questo è il territorio degli Scovile Riders!
+This is the turf of us Scovile Riders!
 Non potevi scegliere nemici peggiori...!
-Non potevi scegliere nemici peggiori...!
+You've chosen your worst enemies...!
 Agul
 Agul
 Il sovrano dei cieli vola troppo in alto per curarsi di ciò che accade al sotto di esso.
-Il sovrano dei cieli vola troppo in alto per curarsi di ciò che accade al sotto di esso.
+The lord of the sky flies too high to take care of what happens underneath.
 Avrei dovuto curarmene io che non sono il sovrano dei cieli...
-Avrei dovuto curarmene io che non sono il sovrano dei cieli...
+I should have done that myself since I'm not the lord...
 Lisa
 Lisa
 La terra è madre e dev’essere rispettata!
-La terra è madre e dev’essere rispettata!
+Land is mother and it must be respected!
 Non è la terra che appartiene all’uomo, ma l’uomo che appartiene ad essa!
-Non è la terra che appartiene all’uomo, ma l’uomo che appartiene ad essa!
+Land doesn't belong to man, it's the man that belongs to her!
 Cletus
 Cletus
 Che diavolo ci fanno tutti questi tizi conciati da pennuti nella mia tenuta?! Dovete sloggiare!
-Che diavolo ci fanno tutti questi tizi conciati da pennuti nella mia tenuta?! Dovete sloggiare!
+What are these dang bird-like people doing in my estate?! You gotta scram!
 Come sarebbe a dire che non è la mia tenuta...?
-Come sarebbe a dire che non è la mia tenuta...?
+Whaddya mean dis ain't my estate...?!
 Saprei riconoscere la mia tenuta fra mille!
-Saprei riconoscere la mia tenuta fra mille!
+I'd know my estate anywhere!
 [Map264]
 Marski
 Marski
@@ -11505,21 +11527,21 @@ No
 Jessie
 Jessie
 Questo è senz’altro il mio grande momento!
-Questo è senz’altro il mio grande momento!
+Yodel-ay-hee-ho!
 Do un’ultima occhiata al sole prima di tornarmene a casa...
-Do un’ultima occhiata al sole prima di tornarmene a casa...
+I should have seen this coming!
 Woody
 Woody
 Aaaah! Ho un Ekans nello stivale!!
-Aaaah! Ho un Ekans nello stivale!!
+Waah! There's an Ekans in my boot!!
 In questa città non c’è spazio per tutti e due...
-In questa città non c’è spazio per tutti e due...
+This town ain’t big enough for the two of us...
 Pete
 Pete
 Wow! L’acqua dev’essere stata davvero vigorosa per generare un canyon come questo!
-Wow! L’acqua dev’essere stata davvero vigorosa per generare un canyon come questo!
+Wow! The water must have been really strong to form<<n>>a canyon this big!
 Il vigore di certo non manca neanche a te.
-Il vigore di certo non manca neanche a te.
+You don't seem to lack strength either.
 Un canyon nasce quando un corso d’acqua, erodendo lentamente il terreno sottostante, si scava una valle.
 Un canyon nasce quando un corso d’acqua, erodendo lentamente il terreno sottostante, si scava una valle.
 [Map267]
@@ -44073,7 +44095,7 @@ Woody
 Titanio
 Titanio
 Nando
-Nando
+Colt
 Gray
 Gray
 Ben
@@ -44085,7 +44107,7 @@ Rohan
 Claus
 Claus
 Miranda
-Miranda
+Cassidy
 Coco
 Coco
 Mamimami
