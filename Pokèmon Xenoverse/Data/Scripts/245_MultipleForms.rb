@@ -1819,7 +1819,7 @@ MultipleForms.register(:HERACROSS, {
 			next
 		},
 		"type2"=>proc{|pokemon|
-			next getID(PBTypes,:FIGHT) if pokemon.form==1
+			next getID(PBTypes,:FIGHTING) if pokemon.form==1
 			next
 		},
 		"height"=>proc{|pokemon|
@@ -2065,7 +2065,7 @@ MultipleForms.register(:LOPUNNY, {
 			next
 		},
 		"type2"=>proc{|pokemon|
-			next getID(PBTypes,:FIGHT) if pokemon.form == 1
+			next getID(PBTypes,:FIGHTING) if pokemon.form == 1
 			next
 		},
 		"height"=>proc{|pokemon|
