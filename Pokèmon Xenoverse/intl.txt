@@ -716,7 +716,7 @@ My Bug Pokémon are so cute!<<n>>Why would someone evolve them?
 I miei piccoli amici!!
 My little friends!!
 E poi è risaputo che, allo stadio base, i Pokémon imparano alcune mosse più in fretta!
-Everyone knows that, at their basic-stage,<<n>>Pokémon learn moves faster!
+Everyone knows that, at their basic stage,<<n>>Pokémon learn moves faster!
 Sì
 Yes
 No
@@ -5137,9 +5137,9 @@ Taraxo
 Guarda un po' chi si vede! \PN, cosa ci fai da queste parti?
 Look who's here! \PN, what are you doing here<<n>>of all places?
 Stai cercando il <b>Cardinale Oleandro</b>? Se non erro, è solito allenarsi sulla cima del monte.
-Are you looking for <b>Cardinal Abraham</b>?  If I'm not mistaken, he's used to train on the top of this mountain.
+Are you looking for <b>Cardinal Abraham</b>?  If I'm not mistaken, he usually trains on the top of this mountain.
 Cosa ci faccio io invece? Beh, quando la scienza chiama, lo studioso risponde! Il Vulcano Pulsar è zeppo di Pokémon Fuoco tanto potenti quanto aggressivi! Pare, però, che i <b>Turtonator</b> siano tutt'altro che rissosi.
-What am I doing, you say? Well, when science calls,<<n>>the scientist answers!<<n>>Mt. Starburst is crawling with strong and aggressive Fire-type Pokémon!<<n>>However, it seems that <b>Turtonator</b> are anything but scrappy.
+What am I doing, you say? Well, when science calls,<<n>>the scientist answers!<<n>>Mt. Starburst is crawling with strong and aggressive Fire-type Pokémon!<<n>>However, it seems that <b>Turtonator</b> are anything but violent.
 Anzi, si prodigano per essere d'aiuto agli Allenatori intenzionati ad attraversare il vulcano! Sai, per raggiungere la vetta, è necessario attraversare numerose pozze laviche... è proprio qui che intervengono i Turtonator!
 Actually, they strive to help Trainers who intend<<n>>to cross the volcano!<<n>>You see, to reach the top, it's necessary to cross over several lava pools...<<n>>That's where Turtonator come in!
 Saltando sul loro guscio, potrai oltrepassare le zone ricolme di lava e proseguire l'avventura. Per la cronaca, una volta messo piede nel Vulcano Pulsar non c'è modo di scappare, né con Funi di Fuga, né con altri mezzucci... sii prudente!
@@ -5292,7 +5292,7 @@ Billion years ago, the universe was ruled by a majestic<<n>>and powerful Pokémo
 Le sue dimensioni erano paragonabili a quelle di un pianeta, il suo corpo infuocato come un astro.
 Its size was comparable to a planet, its body burning<<n>>like a star.
 Come ogni creatura, anche <b>Vakuum</b> era nel profondo dilaniato da stimoli diametralmente opposti... la <b>Luce</b>, simbolo di pace e di sviluppo e l'<b>Oscurità</b>, portatrice di terrore e distruzione.
-Just like every creature, <b>Vakuum</b> was deep down torn by diametrically opposed intentions...<<n>>the <b>Light</b>, symbol of peace and evolution, and<<n>>the <b>Darkness</b>, bearer of terror and annihilation.
+Just like every creature, <b>Vakuum</b> was torn deep down by diametrically opposed intentions...<<n>>the <b>Light</b>, symbol of peace and evolution, and<<n>>the <b>Darkness</b>, bearer of terror and annihilation.
 Nonostante l'enorme potere, la creatura primordiale era comunque soggetta allo scorrere del tempo, dunque destinata ad invecchiare, divenendo sempre più debole...
 Despite its tremendous power, the primeval creature<<n>>was still subject to the arrow of time,<<n>>and, therefore, doomed to age and become weaker<<n>>and weaker...
 Nel frattempo, l'energia oscura all'interno di esso, desiderosa di abbandonare quel morente guscio, cominciò a insorgere, allo scopo di acquisire un'identità autonoma...
@@ -5302,15 +5302,15 @@ And thus, the Darkness busted out of its prison, causing<<n>>the death of the Po
 Si generarono galassie, stelle e pianeti...
 Galaxies, stars and planets were generated...
 Nacque la Terra, governata in parte dall'Essere di Luce, <b>Luxflon</b>, incarnatosi a seguito dell'esplosione, e in parte dall'Oscuro Signore, <b>Dragalisk</b>.
-The Earth formed, ruled half by the Light Being,<<n>><b>Luxflon</b>, incarnated following the explosion,<<n>>and half by the Dark Lord, <b>Dragalisk</b>.
+The Earth formed, ruled half by the Light Being,<<n>><b>Luxflon</b>, who incarnated following the explosion,<<n>>and half by the Dark Lord, <b>Dragalisk</b>.
 A mantenere l'equilibrio tra i due, vi erano tre guardiani elementali, anch'essi parte di Vakuum... i ''Pokémon iniziali'' <b>Shyleon</b>, <b>Trishout</b> e <b>Shulong</b>, così definiti in quanto antesignani della vita.
 To maintain the balance between them, there were<<n>>three elemental guardians, parts of Vakuum too...<<n>>The ''starter Pokémon'' <b>Shyleon</b>, <b>Trishout</b> and <b>Shulong</b>,<<n>>so called because they were forerunners of life.
 Tuttavia Dragalisk, convinto che questa non fosse necessaria, scacciò i Pokémon dal suo territorio, che trovarono perciò rifugio presso Luxflon.
-But Dragalisk was convinced that life wasn't<<n>>necessary and banished them from its territory,<<n>>which, however, fled to Luxflon.
+But Dragalisk was convinced that life wasn't<<n>>necessary and banished them from its territory,<<n>>therefore, they found refuge in Luxflon's domain.
 Grazie ad essi, la fetta di pianeta dell'Essere di Luce si sviluppò, divenendo florida e accogliente... Al contrario, quella dell'Oscuro marcì, rimanendo a uno stadio primordiale ed inospitale...
 Thanks to them, the hemisfere under the rule of<<n>>the Light Being grew prosperous and florid...<<n>>On the other hand, the one under the Dark Lord's<<n>>rotted and remained at a primal inhospitable stage...
 Al che quest'ultimo, invidioso dell'operato del fratello, decise di passare all'attacco... Voleva sottrarre parte dell'energia che aveva permesso alla Terra quel rapido sviluppo!
-Whereupon the latter, envious of its brother's actions,<<n>>decided to make its move...<<n>>It wanted to steal some of the energy used to make Earth flourish so rapidly!
+Whereupon the latter, envious of its brother's work,<<n>>decided to make its move...<<n>>It wanted to steal some of the energy used to make Earth flourish so rapidly!
 Grazie all'intervento di Luxflon e dei Pokémon iniziali, l'attacco si rivelò fallimentare...
 Thanks to the intervention of both Luxflon and the starter<<n>>Pokémon, the attack turned into a defeat...
 Dragalisk, però, riuscì a impossessarsi di una minuscola quantità d'energia, sfruttandola per creare fedeli soldati ai suoi ordini... i <b>Pokémon X</b>!
@@ -5322,9 +5322,9 @@ Then, according to legend, the Light Being, horrified<<n>>by this greed for powe
 L'Oscuro Signore, però, non digerì mai la disfatta e tentò varie volte, nel corso dei millenni, di seminare il panico sul suo pianeta originale, aprendo faglie nello spazio-tempo.
 The Dark Lord never got over the defeat, though, and<<n>>tried several more times over the millenia<<n>>to wreak havoc on its original planet, by tearing fault lines in space-time.
 Se però il Team Dimension dovesse addentrarsi nello Xenoverse, verrebbe la volta delle tenebre... Le fratture già presenti nella regione darebbero a Dragalisk l’occasione propizia... Riuscirebbe infine a impadronirsi di tutto ciò che Luxflon ha coltivato sino ad ora! Ma c’è un modo per sventare questo pericolo!
-But if Team Dimension will break into the Xenoverse,<<n>>darkness would fall on our lives...<<n>>The rifts all over the region already would give Dragalisk<<n>>its chance of revenge...<<n>>It could finally be able to take over everything that<<n>>Luxflon has developed until now!<<n>>But there is a way to avert this threat!
+However, if Team Dimension were to break into the Xenoverse, darkness would fall on our lives...<<n>>The rifts already located all over the region would give<<n>>Dragalisk its chance of revenge...<<n>>It could finally be able to take over everything that<<n>>Luxflon has developed until now!<<n>>But there is a way to avert this threat!
 I Pokémon iniziali sono l'armonia che tiene in vita questo mondo e tu, \PN, ne possiedi uno. Sei tu il messia cui spetta impedirne la distruzione... La regione, anzi, la Terra ha bisogno di te!
-The starter Pokémon are the harmony that keeps<<n>>this world alive and you have one, \PN.<<n>>You are the expected one whose duty is to prevent its destruction... The region, no, the Earth needs you!
+The starter Pokémon are the harmony that keeps<<n>>this world alive and you, \PN, bear one of them.<<n>>You are the expected one whose duty is to prevent its destruction... The region, no, Earth needs you!
 Per farlo, però, ti manca ancora qualcosa.
 You are still missing something to do this, though.
 Scaleon
@@ -5574,15 +5574,15 @@ With that power, you will finally level the playing field<<n>>with Victor and hi
 Ah, quasi dimenticavo!
 Oh, I almost forgot!
 Ora che hai risolto questa faccenda, sono certo che Verbena sia pronta per una sfida in Palestra con te. Occhi aperti! Non sarà grande e nerboruta come il suo nonno, ma non ci va leggera! Wah ah ah!
-Now you've resolved this issue, I am sure that Nuphar<<n>>is ready to challenge you in her Gym.<<n>>But watch out! She could not be as large and muscular as her granddad, but she doesn't mess around! Wa ha ha!
+Now that you've resolved this issue, I am sure that Nuphar is ready to challenge you in her Gym.<<n>>But watch out! She could not be as large and muscular as her granddad, but she doesn't mess around! Wa ha ha!
 Vorrei anche darti un piccolo regalo da parte mia, prendilo.
 I want you to take this little present from me, too.
 Questa è la gemma dell'<b>Ikarium N</b>.
 This is the mineral of the <b>Ikarium H</b>.
 Con quel marchingegno creato da Aster, potrai richiamare il mio <b>Scaleon</b> per solcare i cieli di Eldiw e ritornare in un luogo visitato in precedenza. Provalo subito per tornare ad Aquariopoli, se vuoi!
-Using that contraption created by Aster, you can summon<<n>>my Scaleon to plough the skies above Eldiw<<n>>and get back to places you already visited.<<n>>Why don't you give it a try and fly back to Ishtar?
+Using that contraption created by Aster, you can invoke<<n>>my Scaleon to plough the skies above Eldiw<<n>>and go back to places you already visited.<<n>>Why don't you give it a try and fly back to Ishtar?
 Fatti valere contro mia nipote, mi raccomando!
-Promise me you will stand your ground with my nephew!
+Promise me you will stand your ground with my nephew, okay?
 Shyleon
 Shyleon
 Shyyy!!
@@ -5608,15 +5608,15 @@ Leave, I'm meditating.
 Ti ho detto di andartene! Io e il mio <b>Scaleon</b> siamo nel pieno dell'allenamento!
 I told you to leave! Me and my <b>Scaleon</b><<n>>are in the midst of our training!
 <b>Verbena</b> dici? Devi essere in gamba se sei giunto sino a qui solo per consegnarmi quest'acqua.
-<b>Nuphar</b>, you said? You must be quite tough if you could make it here only to deliver me this water.
+<b>Nuphar</b>, you said? You must be quite tough if you managed to make it here only to deliver me this water.
 Non dev'essere stato facile... Lascia che ne offra un po' a te e ai tuoi Pokémon, vi rimetterà in sesto.
-I reckon it was hard... Let me give you and your Pokémon some, it will get your strength back. 
+I reckon it was hard... Let me give you and your Pokémon some, it will give your strength back. 
 Perdonami, non mi sono presentato.
 Bless me, I didn't introduce myself.
 Il mio nome è <b>Oleandro</b>.
 My name is <b>Abraham</b>.
 Tra i quattro <b>Cardinali</b> di Eldiw sono colui che protegge il suolo su cui ora muovi i passi. Il Vulcano Pulsar è il cuore pulsante della regione e, senza il giusto equilibrio, rischierebbe di mandare in malora il suo stesso ecosistema. Io sono qui per scongiurare ciò, ma al tempo stesso ne approfitto per temprare lo spirito. Hai visto, Scaleon? Qualcuno si è recato a farci visita.
-Amongst the <b>Four Cardinals</b> of Eldiw, I am the one<<n>>who protects the ground you're walking on.<<n>>Mt. Starburst is the heartbeat of our region and, without<<n>>a proper balance, it'd risk destroying its own ecosystem.<<n>>I'm here to ward it off, and at the same time,<<n>>I take the opportunity to temper the spirit.<<n>>Did you see that, Scaleon? Someone came here for a visit.
+Amongst the <b>Four Cardinals</b> of Eldiw, I am the one<<n>>who protects the ground you're walking on.<<n>>Mt. Starburst's the beating heart of our region and, without<<n>>a proper balance, it'd risk destroying its own ecosystem.<<n>>I'm here to ward it off, and at the same time,<<n>>I take the opportunity to forge my spirit.<<n>>Did you see that, Scaleon? Someone came here for a visit.
 Mio|a giovane amico|a, allora dimmi... Sei qui per auscultare le antiche leggende? Sai, le conosco tutte a menadito.
 Then tell me, my young friend... Do you want to listen to<<n>>the old legends? You see, I know them all inside out.
 Chi crede che abbia 500 anni non è poi così lontano dal vero. Wah ah ah!
@@ -5630,15 +5630,15 @@ Your father was a great man and a real asset<<n>>to our region...<<n>>The terrib
 Ah, perdona il mio comportamento poco cortese. Come hai detto di chiamarti?
 Oh, forgive my rude demeanor. What did you say<<n>>your name was?
 \PN... Immagino tu sia qui per cercare risposte, vero ragazzo|a? Or bene, ti dirò tutto ciò che so al riguardo, ma sii forte perché questa storia non ha un lieto fine.
-\PN... I assume you came here seeking answers,<<n>>don't you, kid?<<n>>Or good, I'll tell you everything I know about it, but stay strong because this story doesn’t end well.
+\PN... I assume you came here seeking answers,<<n>>don't you, kid?<<n>>Well then, I'll tell you everything I know about it, but stay strong because this story doesn’t end well.
 Devi sapere che tuo padre è sempre stato affascinato dalla scienza e dal progresso... Decise infatti, assieme al suo migliore amico, <b>Victor</b>, di istituire un laboratorio a Balansopoli, con lo scopo di renderlo il più grande della regione.
-You should know that your father has always been<<n>>fascinated with science and its progress...<<n>>He indeed decided, along with his best friend, <b>Victor</b>, to set up a laboratory in Hadwarf City,<<n>>with the purpose of making it the biggest one in the region.
+You should know that your father has always been<<n>>fascinated with science and its progress...<<n>>That's why he decided, along with his best friend, <b>Victor</b>, to set up a laboratory in Hadwarf City,<<n>>with the purpose of making it the biggest one in the region.
 Victor non era un abile Allenatore, ma al contrario il suo intelletto era sopraffino... In parole povere, era la spalla perfetta per tuo padre.
-Victor wasn't a skillful Trainer, but rather<<n>>he was a first-class mind...<<n>>In other words, he was a perfect wingman for your father.
+Victor wasn't a skillful Trainer, but to make up for it<<n>>he was a first-class mind...<<n>>In other words, he was a perfect partner for your father.
 A poco a poco, lo staff del laboratorio si impreziosì di nuovi collaboratori, divenendo noto in tutta Eldiw. Tra questi c'era anche il celebre <b>Aster</b>, ai tempi un ragazzetto della tua età circa, ritenuto un assistente ottimo e particolarmente brillante.
-Step by step, the lab's staff enriched with new co-workers and became well-known all over Eldiw.<<n>>Among them was the renowned <b>Aster</b>,<<n>>a young teenager like you back then,<<n>>who was considered an excellent and particularly bright assistant.
+Step by step, the lab's staff enriched with new co-workers and became well-known all over Eldiw.<<n>>Among them was the renowned <b>Aster</b>,<<n>>a kid about your age back then,<<n>>who was considered an excellent and particularly bright assistant.
 Insomma, tuo padre faceva il lavoro dei suoi sogni, assieme ai suoi amici e alla sua splendida famiglia. Poi però accadde l'impensabile... Quello che porti all'orecchio è il <b>Codice Terrestre</b>, vero?
-In short, your father was doing his dream job,<<n>>along with his friends and with a splendid family.<<n>>But then, the unthinkable... That you're wearing in<<n>>your ear is the <b>Terrestrial Core</b>, isn't it?
+In short, your father was doing his dream job,<<n>>along with his friends and with a splendid family.<<n>>But then, the unthinkable... What you're wearing in<<n>>your ear is the <b>Terrestrial Core</b>, isn't it?
 Direi dunque che tu sia a conoscenza dei recenti attacchi dei Pokémon X... Negli ultimi tempi, sono diventati all'ordine del giorno, ma la loro scoperta non è cosa recente... furono proprio tuo padre e Victor a farla!
 Therefore, I shall say you are aware of the recent attacks by X Pokémon...<<n>>They have become commonplace nowadays,<<n>>but their discovery is not a recent thing...<<n>>Your father and Victor made it!
 Creature provenienti da chissà quale universo... La mente dell'uomo poteva spingersi oltre! Versil era convinto che questi esemplari andassero allevati come normalissimi Pokémon. Victor, però, aveva ideali del tutto opposti.
@@ -5646,17 +5646,17 @@ Creatures from a mysterious universe...<<n>>The human mind could finally go furt
 Da quel momento, le strade dei due si divisero e la passione ardente nel laboratorio andò scemando. Victor, certo delle sue idee, si licenziò, promettendo che avrebbe trovato una soluzione al problema. Con i fondi acquisiti tramite i suoi studi mise in piedi una sua personale organizzazione, con lo scopo di suggellare per sempre i Pokémon X.
 Since then, their paths diverged and the passion<<n>>burning in the laboratory wound down.<<n>>Invested in his ideas, Victor quitted and promised<<n>>he would have found a solution to the problem.<<n>>Using the funds acquired in his studies,<<n>>he set up his personal organization<<n>>with the sole purpose of sealing the X Pokémon forever.
 Ebbene, Victor è la mente dietro il <b>Team Dimension</b>!
-Well, Victor is the brains behind <b>Team Dimension</b>!
+As you might have guessed, Victor is the brains behind <b>Team Dimension</b>!
 Ragazzo|a, è perciò assai probabile che sia stato proprio lui a far sparire tuo padre Versil, in modo da non avere più alcun oppositore.
 Kid, it's very probable that he was the one who made<<n>>your father Versil disappear,<<n>>so that he could have no opponents.
 Per sua sventura, però, il suo amore è stato preso in eredità dalla nuova generazione guidata da Aster... Credimi, il Team Dimension non poteva farsi nemico peggiore!
 But, unfortunately for him, his love has been inherited<<n>>by the new generation led by Aster...<<n>>Trust me, Team Dimension couldn't have made<<n>>a worse enemy!
 Ora ti chiedo di venire con me, \PN. Ho qualcosa da mostrarti.
-Now I ask you to come with me, \PN.<<n>>Got something to show you.
+Now I ask you to come with me, \PN.<<n>>I've got something to show you.
 Forza, figliolo|a! Seguimi.
 Here, kid! Follow me.
 Oh, chi si rivede! \PN! Hai già sfidato mia nipote in Palestra?
-Oh, look who's back! \PN! Have you already battled<<n>>my nephew in her Gym?
+Oh, look who's back! \PN! Have you already<<n>>challenged my nephew in her Gym?
 \PN, per di qua!
 \PN, this way!
 Scaleon è riuscito a stargli alle calcagna... il tuo Pokémon non ha più scampo! Adesso però tocca a te placare la sua ira... sei l'unico|a che possa farlo!
@@ -5670,7 +5670,7 @@ Gengar
 Direi proprio di sì! Gengah ah ah!
 I'd definitely say so! Genga ha ha!
 U-Un Pokémon X?!
- A-An X Pokémon?!
+A-An X Pokémon?!
 Pare che io sia famoso anche tra i vecchi bacucchi, ma non sono qui per gli ammiratori... Gengah ah ah! Ho un conto in sospeso con questo|a marmocchio|a!
 Looks like I'm famous among old fogeys too,<<n>>but I'm not here for my admirers... Genga ha ha!<<n>>I got a bone to pick with this brat right here!
 Trishout ormai è un valoroso membro dell'esercito dello Xenoverse e grazie a lui avrò la mia vendetta! Si dice che sia un pasto da servire freddo, ma non importa... All'attacco!!
@@ -5694,11 +5694,11 @@ Trishout, destroy this nobody in the name of our Lord!!
 Come osi voltarmi le spalle e fare comunella con questi miseri esseri?! Noi siamo superiori!!
 How dare you turn your back on me and join<<n>>these miserable beings?! We're superior!!
 (Ora come ora è troppo forte, non la scamperei facilmente...)
-(He is|||||She's too strong for me right now, I wouldn't get out of it that easily...)
+(He is|||||She's too strong for me right now, I wouldn't get out of it easily...)
 Bah, fa' come ti pare! Questi stolti se la vedranno col padrone e, allora, sarà la fine per loro!
 Bah, whatever! These fools will deal with the master,<<n>>and then it will be the end for them!
 E tu, bamboccio|a, sappi che un giorno tornerò a vendicarmi con le mie mani! Fino ad allora, adieu! Gengah ah ah!
-And you little brat, just know that someday,<<n>>I'll get my revenge with my own hands!<<n>>But until that day... adieu! Genga ha ha!
+And you little brat, just know that someday,<<n>>I'll get my revenge with my own hands!<<n>>But until that day comes... adieu! Genga ha ha!
 Shy...!
 Shy...!
 Shyleon, distruggi questa nullità in nome del nostro Signore!!
@@ -5721,13 +5721,13 @@ Alter
 Proprio così! Io sono il tuo <b>Alter</b>! La tua nemesi nata e cresciuta in questo mondo spento e cupo! Non ho famiglia, né amici... niente di simile!
 That's it! I'm your <b>Alter</b>, your nemesis born and raised in this dark gloomy world!<<n>>I have no family, no friends... nothing like that!
 Ti tengo d'occhio ogni giorno della tua vita... tu hai tutto ciò che io ho sempre desiderato! Ti detesto con tutto me stesso!!
-I've watched you every single day of your life...<<n>>you have all I've ever wanted!<<n>>I hate you with all my might!!
+I've watched you every single day of your life...<<n>>you have all I've ever wanted!<<n>>I hate you with all my will!!
 Ma ora è finito il tempo di piangersi addosso... Potrò finalmente avere la mia vendetta! Sconfiggendoti, sarò io a prendere il tuo posto!!
-But the time for mourning is over now...<<n>>I'll finally have my revenge!<<n>>By defeating you, I will take your place!!
+But the time for self-pity is over now...<<n>>I'll finally have my revenge!<<n>>By defeating you, I will take your place!!
 Eh eh! Hai paura, non è vero?
 Heh heh! You're scared, aren't you?
 In tutti questi anni mi sono nutrito del tuo risentimento, divenendo sempre più forte. Non sarai tu a sconfiggere il Team Dimension, né tantomeno a salvare papà o chicchessia... Sarò io a farlo e riceverò finalmente la gloria che mi spetta!
-During all these years, I have thrived on your grudge,<<n>>growing stronger and stronger.<<n>>You won't be the one defeating Team Dimension,<<n>>not even the one saving dad or no one else...<<n>>I will do it and so, I'll finally receive the glory<<n>>I deserve!
+During all these years, I have thrived on your grudge,<<n>>growing stronger and stronger.<<n>>You won't be the one defeating Team Dimension,<<n>>not even the one saving dad or anyone else...<<n>>I will do it and so, I'll finally receive the glory<<n>>I deserve!
 Vieni fuori, <b>Trishout</b>!
 Come out, <b>Trishout</b>!
 Trishout
@@ -5759,11 +5759,11 @@ See, \PN. This Shyleon is just like me!
 Proprio così! Io sono la tua <b>Alter</b>! La tua nemesi nata e cresciuta in questo mondo spento e cupo! Non ho famiglia, né amici... niente di simile!
 That's it! I'm your <b>Alter</b>, your nemesis born and raised in this dark gloomy world!<<n>>I have no family, no friends... nothing like that!
 Ti tengo d'occhio ogni giorno della tua vita... tu hai tutto ciò che io ho sempre desiderato! Ti detesto con tutta me stessa!!
-I've watched you every single day of your life...<<n>>you have all I've ever wanted!<<n>>I hate you with all my might!!
+I've watched you every single day of your life...<<n>>you have all I've ever wanted!<<n>>I hate you with all my will!!
 In tutti questi anni mi sono nutrita del tuo risentimento, divenendo sempre più forte. Non sarai tu a sconfiggere il Team Dimension, né tantomeno a salvare papà o chicchessia... Sarò io a farlo e riceverò finalmente la gloria che mi spetta!
-During all these years, I have thrived on your grudge,<<n>>growing stronger and stronger.<<n>>You won't be the one defeating Team Dimension,<<n>>not even the one saving dad or no one else...<<n>>I will do it and so, I'll finally receive the glory<<n>>I deserve!
+During all these years, I have thrived on your grudge,<<n>>growing stronger and stronger.<<n>>You won't be the one defeating Team Dimension,<<n>>not even the one saving dad or anyone else...<<n>>I will do it and so, I'll finally receive the glory<<n>>I deserve!
 N-Non... ci... posso... credere... Ho perso... Ho perso davvero! Co-Com'è possibile che tu sia così abile... Perché tu hai tutto e io niente?!!
-I-I... can't... believe... it... I lost...<<n>>I really lost!<<n>>Ho-How can you be so good... Why do you have everything and I have nothing?!
+I-I... can't... believe... it... I lost...<<n>>I really lost!<<n>>Ho-How can you be so good... Why do you have everything while I have nothing?!
 Tu
 You
 ...
@@ -5781,7 +5781,7 @@ From now on, I'll follow you like a shadow and,<<n>>when your hatred will overwh
 Oleandro
 Abraham
 Ehi! \PN, mi sen...i?! D...i to...are indie...o! Il port... sta per chiu...rsi!
-Hey! \PN, can you he--r me?! You ha--e to com--ack!<<n>>The gat-- is cl--sing!
+Hey! \PN, can you he--r me?! You ha--e to com--ack!<<n>>The gat- is cl-sing!
 <<[>>old<<]>>L'Alter si è tramutato nell'essenza dello Xenoverse... È il Codice Xenoverse!
 <<[>>old<<]>>The Alter turned into the essence of the Xenoverse... It's the Xenoversal Core!
 <<[>>old<<]>>La proiezione negativa del tuo Pokémon si è tramutata in un anello... È l'Anello Xenoverse!
@@ -5796,13 +5796,13 @@ Mwa ha ha ha!
 Oleandro
 Abraham
 Ti ho portato qui per far sì che tu ottenga un potere che va ben oltre quello attuale. Sto parlando dell'<b>Evoluzione Xenoverse</b>!
-I took you here to ensure you obtain a power that<<n>>goes far beyond the current one.<<n>>I'm talking about the <b>Xenoversal Evolution</b>!
+I took you here to ensure you obtain a power that<<n>>goes far beyond the one you currently possess.<<n>>I'm talking about the <b>Xenoversal Evolution</b>!
 Grazie ad essa, sarai in grado di sprigionare tutto il potenziale del tuo Pokémon! Per entrarne in possesso, però, dovrai oltrepassare i confini dell'uomo...
-Because of it, you will be able to unlock the full potential<<n>>of your Pokémon!<<n>>In order to be given this power, however, you have to cross the limits of humans...
+Thanks to that, you will be able to unlock the full potential<<n>>of your Pokémon!<<n>>In order to be given this power, however, you have to cross the limits of man...
 \PN, vedi quell'enorme cascata? Quella che scorre non è acqua, ma <b>Energia Terrestre</b>. Con quella, lo stesso Luxflon tenta di tappare le falle tra questo e l'altro mondo. Solo chi è in possesso del <b>Codice Terrestre</b>, può perciò addentrarsi nello Xenovarco dietro di essa. Per farlo, dev'essere inoltre pregno di una certa dose di risentimento... Non ho dunque sapere di ciò che affronterai laggiù, né tantomeno potrò prestarti soccorso. Ricorda, però... Senza il bene non può esistere il male e viceversa... È questa la chiave per imbrigliare l'<b>Energia Blu</b>!
-\PN, you see that huge cascade there? That's not<<n>>water flowing, it's the <b>Terrestrial Energy</b>.<<n>>It's Luxflon itself trying to patch the rifts between<<n>>this world and the other.<<n>>Only those who possess the <b>Terrestrial Core</b> can therefore walk through the Xeno Gate behind it.<<n>>But to do that, you must be impregnated with a certain amount of grudge...<<n>>That's why I don't know what you’re going to face in there or even give you any help.<<n>>Remember though... Without good, there is no evil<<n>>and vice versa...<<n>>This is the key to harness the <b>Blue Energy</b>!
+\PN, you see that enormous cascade there? That's not<<n>>water flowing, but <b>Terrestrial Energy</b>.<<n>>It's Luxflon itself trying to patch the rifts between<<n>>this world and the other.<<n>>Only those who possess the <b>Terrestrial Core</b> can therefore walk through the Xeno Gate behind it.<<n>>But to do that, you must be impregnated with a certain amount of grudge...<<n>>That's why I don't know what you’re going to face in there or even give you any help.<<n>>Remember though... Without good, there is no evil<<n>>and vice versa...<<n>>This is the key to harness <b>Blue Energy</b>!
 Ora però basta ciance, è il momento di agire!
-Stop yammering now, it's time to act!
+Enough with the lollygagging now, it's time to act!
 Qualsiasi cosa accada, fidati sempre delle capacità tue e dei tuoi Pokémon. Addentrati laggiù e torna trionfante, con un nuovo e incredibile potere!
 Come what may, always trust your ability and<<n>>your Pokémon's.<<n>>Delve in there and come back victorious with an incredible new power!
 O Essere di Luce, a te rivolgo la mia preghiera.
@@ -6143,7 +6143,7 @@ Abraham
 Ma che diamine succede?!
 What the heck is happening?!
 Sembra che non riesca a controllare l'Energia Blu! \PN, riporta il tuo Pokémon allo stadio base!!
-It doesn't seem to be able to control Blue Energy!<<n>>\PN, change your Pokémon back to its basic form!!
+It doesn't seem to be able to control the Blue Energy!<<n>>\PN, take your Pokémon back to its basic form!!
 Trishout
 Trishout
 Triii!!
@@ -6151,7 +6151,7 @@ Triii!!
 Argh! E ora dov'è finito?! La situazione è critica, \PN.
 Argh! Where did it go now?!<<n>>The situation is critical, \PN.
 Il tuo Pokémon è scappato, ma non dev'essere andato lontano... Sarà sicuramente ancora in giro per il vulcano! Io andrò sulla vetta, non c'è tempo da perdere!
-Your Pokémon has run away, but I guess it hasn't<<n>>gone far...<<n>>I'm sure it is still wandering around the volcano!<<n>>There's no time to waste, I'm going to the top!
+Your Pokémon has run away, but it can't have gone far...<<n>>I'm sure it is still wandering around the volcano!<<n>>There's no time to waste, I'm going to the top!
 Shulong
 Shulong
 Shuuu!!
@@ -6167,9 +6167,9 @@ I see you managed to get the <b>Xenoversal Core</b>...<<n>>Why don't you try the
 Guarda, il tuo Pokémon ha cambiato forma!
 Look, your Pokémon has changed form!
 È dunque questa l'essenza del Codice Xenoverse...
-Therefore this is the essence of the Xenoversal Core...
+So this is the essence of the Xenoversal Core...
 Il tuo Pokémon ha un aspetto del tutto diverso, molto più selvaggio e animalesco, proprio perché lo Xenoverse non conosce sviluppo.
-Your Pokémon has a whole different look,<<n>>more savage and more animal,<<n>>just because the Xenoverse knows no development.
+Your Pokémon has a whole different look,<<n>>more savage and more animal,<<n>>just like the Xenoverse, which knows no development.
 Bravo|a, \PN. Hai saputo imbrigliare il tuo odio per diventare più forte... Su, va' a prendere il tuo Pokémon. Si torna a Cansiria!
 Bravo, \PN. You've been able to bridle your hatred<<n>>and become stronger...<<n>>Go on, take your Pokémon.<<n>>We're going back to Fortbelt now!
 Su, va' a prendere il tuo Pokémon.
