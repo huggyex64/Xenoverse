@@ -17596,7 +17596,7 @@ Rocciafredda
 Rocciafredda
 88
 Cretaluce
-Cretaluce
+Creta Luce
 89
 Presartigli
 Presartigli
@@ -19931,7 +19931,7 @@ Strumento da dare a un Pokémon. Riduce la Velocità nella lotta, ma aumenta di 
 Strumento da dare a un Pokémon. Riduce la Velocità nella lotta, ma aumenta di molto i PS al crescere di livello.
 122
 Strumento da dare a un Pokémon. Riduce la Velocità nella lotta, ma aumenta di molto i PS al crescere di livello.
-Strumento da dare a un Pokémon. Riduce la Velocità nella lotta, ma aumenta di molto i PS al crescere di livello.
+Strumento da dare a un Pokémon. Riduce la Velocità nella lotta, ma aumenta di molto l'Attacco al crescere di livello.
 123
 Strumento da far tenere a un Pokémon. Riduce la Velocità, ma aumenta molto la Difesa al crescere di livello.
 Strumento da far tenere a un Pokémon. Riduce la Velocità, ma aumenta molto la Difesa al crescere di livello.

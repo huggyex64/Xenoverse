@@ -111,7 +111,7 @@ Gabbie
 Pochissimi Pokémon sono in grado di apprendere la tecnica tramandata dalla famiglia di mio marito.
 Only a few Pokémons can learn the technique passed on<<n>>by my husband's family.
 La sovrana mi aveva prontamente informato del tuo arrivo, Allenatore. Tuttavia, mi dispiace dirlo, ma al momento il <b>Cardinale</b> si trova sul <b>Vulcano Pulsar</b>. In via straordinaria, la sovrana mi ha concesso l'onore di garantire il privilegio di raggiungerlo, ad una sola condizione!
-The Queen had promptly informed me of your arrival,<<n>>Trainer.<<n>>Anyway, I'm sorry to say that the <b>Cardinal</b> is on the top of <b>Mt. Starburst</b> at the moment.<<n>>Extraordinary, the sovereign granted me the honor<<n>>to give the permission to reach him,<<n>>but on one condition!
+The Queen had promptly informed me of your arrival,<<n>>Trainer.<<n>>Anyway, I'm sorry to say that the <b>Cardinal</b> is on the top of <b>Mt. Starburst</b> at the moment.<<n>>Extraordinary, the Queen granted me the honor<<n>>to give the permission to reach him,<<n>>but on one condition!
 Dovrai sconfiggermi in una lotta e solo allora ti sarà concesso raggiungere il Cardinale. Allora, sei d'accordo?
 You must first defeat me in a battle, and only then<<n>>you will be allowed to reach the Cardinal.<<n>>So, do you agree on the terms?
 Veliano
@@ -123,7 +123,7 @@ Wha- I'm the best Soldier in Ishtar City's army...!
 Le condizioni sono queste, prendere o lasciare.
 These are the conditions, take it or leave it.
 La sovrana ci aveva davvero visto lungo con te.
-The sovereign had seen really far on you.
+The Queen had seen really far on you.
 Come da parola, ora potrai recarti sulla vetta del vulcano dal <b>Cardinale Oleandro</b>. Buona fortuna!
 As we accorded, now you can go to the top of Mt. Starburst and reach <b>Cardinal Abraham</b>. Good luck!
 Buona fortuna!
@@ -630,7 +630,7 @@ Timothy
 Queste hanno tutta l'aria di essere le impronte di un Pokémon raro... ma che dico, rarissimo!!
 These look like some rare Pokémon footprints...<<n>>but I say... super rare!
 <<[>>old<<]>><b>Bosco Stellafilante</b> <i>''Un'oscura selva gremita di insetti.''</i>
-<<[>>old<<]>><b>Bosco Stellafilante</b> <i>''Un'oscura selva gremita di insetti.''</i>
+<<[>>old<<]>><b>String Forest</b> <i>''A dark wood crawling with Bugs.''</i>
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
@@ -708,7 +708,7 @@ I remember old forests full of Weedle...
 Era tutto così old style...
 Everything was so old-style...
 Alleno i miei Pokémon nei boschi da prima che fosse mainstream!
-I have been training my Pokémon in the forests before<<n>>it was mainstream!
+I have been training my Pokémon in the woods before<<n>>it was mainstream!
 Amariso
 Joshua
 I miei Pokémon Coleottero sono così carini! Perché mai farli evolvere?
@@ -716,7 +716,7 @@ My Bug Pokémon are so cute!<<n>>Why would someone evolve them?
 I miei piccoli amici!!
 My little friends!!
 E poi è risaputo che, allo stadio base, i Pokémon imparano alcune mosse più in fretta!
-It's well known that, at the base stage,<<n>>Pokémon learn moves faster!
+Everyone knows that, at their basic-stage,<<n>>Pokémon learn moves faster!
 Sì
 Yes
 No
@@ -1462,9 +1462,9 @@ Have you seen how pretty are those sunflowers?
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
 <<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: 0
-<<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: 0
+<<[>>old<<]>>Newtron Gym\nGym Leader: <b>Ginger</b>\n<i>''A true sporting and studying master.''</i>\nCertified Trainers: 0
 <<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: \PN
-<<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: \PN
+<<[>>old<<]>>Newtron Gym\nGym Leader: <b>Ginger</b>\n<i>''A true sporting and studying master.''</i>\nCertified Trainers: \PN
 Hai già ascoltato ''Re della Giungla''?
 Did you already listen to ''King of the Jungle''?
 Antonella
@@ -1955,9 +1955,9 @@ Sì
 Yes
 [Map39]
 <<[>>old<<]>>Palestra Radice\nCapopalestra: <b>Alisso</b> <i>''Un tutt'uno con la natura!''</i> Allenatori Certificati: 0
-<<[>>old<<]>>Hadwarf Gym\nGym Leader: <b>Basil</b>\n<i>''The man at one with nature!''</i>\nCertified Trainer: 0
+<<[>>old<<]>>Hadwarf Gym\nGym Leader: <b>Basil</b>\n<i>''The man at one with nature!''</i>\nCertified Trainers: 0
 <<[>>old<<]>>Palestra Radice\nCapopalestra: <b>Alisso</b> <i>''Un tutt'uno con la natura!''</i> Allenatori Certificati: \PN
-<<[>>old<<]>>Hadwarf Gym\nGym Leader: <b>Basil</b>\n<i>''The man at one with nature!''</i>\nCertified Trainer: \PN
+<<[>>old<<]>>Hadwarf Gym\nGym Leader: <b>Basil</b>\n<i>''The man at one with nature!''</i>\nCertified Trainers: \PN
 <<[>>new,Aster,ludopoli/ezio,smile,left,true<<]>>
 <<[>>new,Aster,ludopoli/ezio,smile,left,true<<]>>
 Oh, \PN! Ero certo che avresti seguito il mio consiglio. Beh, com'è andata in Palestra?
@@ -3096,17 +3096,17 @@ You can find everything you need here!
 <<[>>old<<]>>Vuoi aprire la porta dello sgabuzzino utilizzando la chiave?
 <<[>>old<<]>>Would you like to open the closet door using the key?
 <<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: 0
-<<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: 0
+<<[>>old<<]>>Newtron Gym\nGym Leader: <b>Ginger</b>\n<i>''A true sporting and studying master.''</i>\nCertified Trainers: 0
 <<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: \PN
-<<[>>old<<]>>Palestra Competizione Capopalestra: <b>Claudio</b> <i>''Un vero asso nello sport e nello studio.''</i> Allenatori Certificati: \PN
+<<[>>old<<]>>Newtron Gym\nGym Leader: <b>Ginger</b>\n<i>''A true sporting and studying master.''</i>\nCertified Trainers: \PN
 <<[>>old<<]>>Aula di Scienze
 <<[>>old<<]>>Science Class
 <<[>>old<<]>>Vuoi aprire la porta dell'aula di Scienze utilizzando la chiave?
 <<[>>old<<]>>Would you like to open the Science Class door using the key?
 <<[>>old<<]>>Questo armadietto è aperto... E c'è qualcosa al suo interno!
-<<[>>old<<]>>The locker is opened... and there's something inside!
+<<[>>old<<]>>The locker is open... and there's something inside!
 <<[>>old<<]>>L'etichetta sulla chiave recita ''Aula di Scienze".
-<<[>>old<<]>>The tag on the key says ''Science Class".
+<<[>>old<<]>>The tag on the key says ''Science Class''.
 <<[>>old<<]>>Questo armadietto è vuoto.
 <<[>>old<<]>>The locker is empty.
 <<[>>old<<]>>Vuoi aprire la porta del cortile utilizzando l'apposita chiave?
@@ -3277,7 +3277,7 @@ That Magikarp is your only Pokémon, I can't accept!
 Oh, pare che tu non abbia nessun Magikarp per me...
 Oh, it seems you have no Magikarp for me...
 Torna quando avrai un Magikarp per me!
-Come back when you'll have a Magikarp!
+Come back when you have a Magikarp, then!
 Oh, ben fatto! Ecco a te una Sub Ball!
 Oh, well done! Here you go, a Dive Ball!
 Oh, ben fatto! Ecco a te ben 5000$
@@ -3285,7 +3285,7 @@ Oh, well done! Here you go, $5000!
 <<[>>old<<]>>Pescheria ''Da Vincenzo''
 <<[>>old<<]>>''Vince's'' Fish Market
 <<[>>old<<]>><b>Borgo Gemini</b> <i>''Il posto ideale per ammirare le stelle in tutta tranquillità.''</i>
-<<[>>old<<]>><b>Borgo Gemini</b> <i>''Il posto ideale per ammirare le stelle in tutta tranquillità.''</i>
+<<[>>old<<]>><b>Stellato Town</b> <i>''The best place for stargazing in peace.''</i>
 Svetonio
 Sam
 Passerei le giornate a sorseggiare Sidrostelle... Tieni, provane un po’ anche tu!
@@ -3378,7 +3378,7 @@ Now, now... That is merely an Egg!
 \bI wouldn't dare critique a Shadow Pokémon's name!
 \bI wouldn't dare critique a Shadow Pokémon's name!
 \v[3]? Ma che soprannome sublime! Mi raccomando, prenditi cura di \v[3].
-\v[3]? That is a truly impeccable nickname<<n>>Take good care of \v[3].
+\v[3]? That is a truly impeccable nickname!<<n>>Take good care of \v[3].
 \v[3]? È un bel nome, ma sono sicuro si possa trovare di meglio. Non credi anche tu?
 \v[3], is it? That is quite a fine nickname. But I think<<n>>we could give it something even better.<<n>>What do you think?
 Forza, dai sfogo alla tua fantasia!
@@ -3401,7 +3401,7 @@ A lot of Pokémon have been reclassified since<<n>>the Sound-type was discovered
 Luca
 Paul
 Vorrei tanto acchiappare un <b>Pikachu</b>, ma ho una paura matta di attraversare il bosco...
-I'd love to catch a <b>Pikachu</b>, but I have fear of going through the woods...
+I'd love to catch a <b>Pikachu</b>, but I'm scared to go through the forest...
 [Map68]
 Lorenzo
 Lawrence
@@ -3753,7 +3753,7 @@ Galvantula
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>><b>Bosco Stellafilante</b> <i>''Un'oscura selva gremita di insetti.''</i>
-<<[>>old<<]>><b>Bosco Stellafilante</b> <i>''Un'oscura selva gremita di insetti.''</i>
+<<[>>old<<]>><b>String Forest</b> <i>''A dark wood crawling with Bugs.''</i>
 <<[>>old<<]>> Il ghiaccio non permette di aprire la cassa.
 <<[>>old<<]>>It's frozen... there's no way to open it!
 <<[>>old<<]>>Questo Joltik blocca il passaggio
@@ -3823,11 +3823,11 @@ If we leave them lying around, we'll need to make our way<<n>>in a sea of Poké 
 <<[>>old<<]>>Event the most experienced Hikers can get lost inside of <b>Gravity Tunnel</b>. Make sure you have everything you need before trying to venture through. 
 [Map79]
 <<[>>old<<]>>Giardini Reali, di proprietà della principessa Mimosa.
-<<[>>old<<]>>Giardini Reali, di proprietà della principessa Mimosa.
+<<[>>old<<]>>Royal Gardens, property of her majesty Princess Vanilla
 Miltank
 Miltank
 Muuu...!
-Muuu...!
+Moo...!
 Tobia
 Toby
 Sto badando ai Miltank di famiglia.
@@ -3867,7 +3867,7 @@ You have never been in Milkiway City, have you?<<n>>Here, accept this welcome gi
 Il Centro Pokémon del regno ha tutto un altro aspetto al confronto coi soliti. Entra a dare un’occhiata, su!
 This kingdom's Pokémon Center has a whole other look compared to the others. Enter and have a look!
 <<[>>old<<]>><b>Regno di Virgopoli</b> <i>''Reame dall'antico splendore!''</i>
-<<[>>old<<]>><b>Regno di Virgopoli</b> <i>''Reame dall'antico splendore!''</i>
+<<[>>old<<]>><b>Milkiway City</b> <i>''The kingdom of ancient glory!''</i>
 Bartolomeo
 Burt
 Ho sentito che le acque del castello sono infestate dagli Honchen, ma non riesco a tirar su nulla...
@@ -3889,9 +3889,9 @@ In these royal gardens the princess comes and plays<<n>>with wild Pokémon.<<n>>
 <<[>>old<<]>>Sta suonando la chitarra. Non può parlare con te.
 <<[>>old<<]>>She's playing the guitar. She can't talk to you.
 <<[>>old<<]>>Palestra Zucchero Capopalestra: <b>Mimosa</b> <i>''Giovane dolcezza alla guida di un antico regno.''</i> Allenatori Certificati: 0
-<<[>>old<<]>>Palestra Zucchero Capopalestra: <b>Mimosa</b> <i>''Giovane dolcezza alla guida di un antico regno.''</i> Allenatori Certificati: 0
+<<[>>old<<]>>Milkiway Gym\nGym Leader: <b>Vanilla</b>\n<i>''Young sweetie on the throne of an ancient realm.''</i>\nCertified Trainers: 0
 <<[>>old<<]>>Palestra Zucchero Capopalestra: <b>Mimosa</b> <i>''Giovane dolcezza alla guida di un antico regno.''</i> Allenatori Certificati: \PN
-<<[>>old<<]>>Palestra Zucchero Capopalestra: <b>Mimosa</b> <i>''Giovane dolcezza alla guida di un antico regno.''</i> Allenatori Certificati: \PN
+<<[>>old<<]>>Milkiway Gym\nGym Leader: <b>Vanilla</b>\n<i>''Young sweetie on the throne of an ancient realm.''</i>\nCertified Trainers: \PN
 Elena
 Helena
 In questa città così fuori moda non c'è niente che possa fotografare per ricevere tanti like!
@@ -3957,11 +3957,11 @@ Mi occupo di scortare all'uscita gli Allenatori che si sono persi nei dungeon. I
 I'm used to escorting out the Trainers wandering<<n>>through dungeons.<<n>>My brothers are scattered all over the region, I'm sure<<n>>it won't be hard for you to find us! Ho ho! 
 Se hai bisogno di ritornare all'ingresso, chiedi a me! Ti accompagnerò in un battibaleno!
 If you need to go back to the entrance, ask me!<<n>>I'll take you in the blink of an eye!
-Allora giovanotto|a, vuoi che ti riporti all'ingresso?
+Allora giovanotto|a, vuoi che ti riporti all’ingresso?
 Tell me, kiddo... You want me to take you right<<n>>to the entrance?
 Con Funesto si fa presto! Gambe in spalla!
 Ropert's walking in your shoes! Chop chop!
-Se hai bisogno, fammi un fischio.
+Se hai bisogno, fammi un fischio!
 Hit me up if you need something.
 Pierno
 Pier
@@ -4015,8 +4015,8 @@ Se solo avessi una Fune di Fuga...
 If I only had an Escape Rope...
 Bianco
 Blaunch
-Stiamo svolgendo delle ricerche in questa grotta.
-Halt! We are carrying out research in<<n>>this cave.
+Altolà! Stiamo svolgendo delle ricerche in questa grotta.
+Halt! We are carrying out research in this cave.
 Finiti gli accertamenti potrai passare, ma al momento la zona è off-limits!
 You'll be able to pass once we're done, but right now<<n>>this area is off limits!
 Massimiliano
@@ -4028,7 +4028,7 @@ They are both obsessed about the past!
 Sabrina
 Sabrina
 Cammino da ore e ancora non ho ritrovato l’uscita!
-I've been walking for hours, but I still haven't found the exit!
+I've been walking for hours, but I still haven't found<<n>>the exit!
 Mi sono proprio persa...
 I've lost my way... as well as this battle...
 Spero solo di non essere attaccata da uno Zubat!
@@ -4144,7 +4144,7 @@ Golly, he's getting this chef story out of end...
 Evolando
 Evoland
 Solo l’<b>Excalibould</b> c’avrà meritato di cingere ‘l capo suo con una <b>Roccia di Re</b> potrà evolvere.
-Onely the <b>Excalibould</b> deserving to resten<<n>>the <b>King's Rock</b> on its hed shall evolve.
+Onely the <b>Excalibould</b> deserving to resten<<n>>the <b>King's Rock</b> on its head shall evolve.
 La principessa mi ha levato dal mio incarico pe 'l sol aver mangiato un dei frutti del suo arbusto.
 The Princess relievedeth me of duty for the mere fact<<n>>I consumede one of the frutes from her tree.
 Magari dandole in dono un di quelli che chiamano souvenir, potrò espiare il mio peccato...
@@ -4196,7 +4196,7 @@ Jerome
 520
 520
 Sei stato davvero bravo a scovare quei Fossili, ma ora sono di proprietà del Team Dimension! <i>Bzz!</i>
-You did well digging out those Fossils, but they are now<<n>>property of Team Dimension! <i>Bzz!</i>
+You did well digging out those Fossils, but they are<<n>>property of Team Dimension now! <i>Bzz!</i>
 N-No! Una scoperta del genere non può cadere nelle mani di voi criminali!
 N-No! Such a discovery cannot fall in your criminal hands!
 A-Ah, ra-ragazzi! Aiutatemi!
@@ -4292,7 +4292,7 @@ How have you managed to elude our vigilance?! <i>Bzz!</i>
 Prendilo pure tu. Io non saprei che farmene! Ah ah ah!
 You can have it. I wouldn't know what to do with it!<<n>>Ha ha ha!
 Molto bene, allora io prenderò questo per analizzarlo in laboratorio!
-Well, so I'm gonna take this one for further examination in a lab!
+Well, so I'm gonna take this one for further examination<<n>>in a lab!
 \PN, è stato bello condividere una simile avventura con te, ma ora devo proprio andare. Signore, venga con me. Non può mica attraversare la grotta da solo e senza Pokémon! Ciao, \PN!
 \PN, it was nice helping you in such an adventure,<<n>>but I really gotta go now.<<n>>Come with me, sir. You can't just cross the cave all alone<<n>>and without any Pokémon!<<n>>Bye, \PN!
 <<[>>old<<]>>È il fossile di un antico Pokémon proveniente dallo spazio. Sembrerebbe essere dell'inchiostro solidificato... Non puoi prenderlo: hai già il Chirofossile!
@@ -4428,7 +4428,7 @@ Julie
 Tesoro, fa' attenzione ai Pokémon selvatici!
 Watch out for wild Pokémon, honey!
 <<[>>old<<]>>Non sai come far evolvere un Pokémon? Non preoccuparti! In giro per la regione troverai tanti cittadini che aspettano solo di condividere le loro preziose informazioni con te!
-<<[>>old<<]>>Non sai come far evolvere un Pokémon? Non preoccuparti! In giro per la regione troverai tanti cittadini che aspettano solo di condividere le loro preziose informazioni con te!
+<<[>>old<<]>>Don't know how to evolve a certain Pokémon? Don't worry! All around the region, you may find bunch of citizens just waiting to share their precious informations with you!
 [Map93]
 Ivan
 Nathan
@@ -11846,7 +11846,7 @@ Modalità di gioco
 <<[>>old<<]>>Bisogna portare il cibo al padrone.
 <<[>>old<<]>>I must bring food to the master.
 <<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
-<<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
+<<[>>old<<]>><b>Ishtar City</b> <i>''The star dancing in the wilderness.''</i>
 <<[>>old<<]>>Canyon Asteroide ad est
 <<[>>old<<]>>East: Sunflare Canyon
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
@@ -11868,7 +11868,7 @@ Gengar
 Oh, finalmente qualcuno con dell'altro cibo!
 Oh, someone is bringing me more food finally!
 Le Bacche di questo mondo sono davvero squisite! Ne mangerei all'infinito! Gengah ah ah!
-The Berries of this world are really delicious!<<n>>I could eat them forever! Genga ha ha!
+The Berries of this world are sooo delicious!<<n>>I could eat them forever! Genga ha ha!
 Ehi, voi due! Date il cibo ai miei schiavi e correte subito a prenderne dell'altro, è un ordine!
 Hey, you two! Hand over the food to my slaves,<<n>>then hurry up and get some more, that's an order!
 Ma... Voi due non siete ipnotizzati dal mio potere!! Come diavolo è possibile?!
@@ -11937,9 +11937,9 @@ Usa Box
 Use Box
 [Map274]
 <<[>>old<<]>>Palestra Marea\nCapopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della tempesta!''</i> Allenatori Certificati: 0
-<<[>>old<<]>>Palestra Marea\nCapopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della tempesta!''</i> Allenatori Certificati: 0
+<<[>>old<<]>>Ishtar Gym\nGym Leader: <b>Nuphar</b>\n<i>''Beautiful as sea, powerful as a storm!''</i>\nCertified Trainers: 0
 <<[>>old<<]>>Palestra Marea\nCapopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della tempesta!''</i> Allenatori Certificati: \PN
-<<[>>old<<]>>Palestra Marea\nCapopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della tempesta!''</i> Allenatori Certificati: \PN
+<<[>>old<<]>>Ishtar Gym\nGym Leader: <b>Nuphar</b>\n<i>''Beautiful as sea, powerful as a storm!''</i>\nCertified Trainers: \PN
 Jan
 Jan
 Avrei proprio bisogno di una <b>Rete Pescagrossa</b> per tirar su questi Birigiri in un sol colpo...
@@ -12081,7 +12081,7 @@ You were only having a look, after all...<<n>>but don't ever try that again!<<n>
 <<[>>old<<]>>Meglio non rischiare...
 <<[>>old<<]>>It's too risky...
 <<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
-<<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
+<<[>>old<<]>><b>Ishtar City</b> <i>''The star dancing in the wilderness.''</i>
 Tullio
 Titus
 In mezzo alle mie deliziose foglie era finita questa. Ho provato ad assaggiarla, ma ha un saporaccio!
@@ -12101,7 +12101,7 @@ It's only thanks to his||er help if Ishtar City is now free<<n>>from the biggest
 Oh, mio Joele. Vedo che abbiamo visite...
 Oh, my Joel. I see we have visitors...
 Io sono <b>Verbena</b>, la sovrana di Aquariopoli. E tu, ragazzo|a, chi sei?
-I am <b>Nuphar</b>, the sovereign of Ishtar City.<<n>>And you, kid, who are you?
+I am <b>Nuphar</b>, the Queen of Ishtar City.<<n>>And you, kid, who are you?
 Vostra maestà! State bene allora! Ero così preoccupato per voi!
 Your Majesty! You are well then! I was so worried for you!
 Ti ringrazio del pensiero, Joele. Allora, chi è questo|a giovane?
@@ -12131,7 +12131,7 @@ Teresa
 Bisogna portare il cibo al padrone. ... Ih ih! Scherzetto!
 I must bring food to the master.<<n>>...<<n>>Hee hee! Just kidding!
 <<[>>old<<]>>L'oasi di Aquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
-<<[>>old<<]>>L'oasi di Aquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
+<<[>>old<<]>>The oasis of Ishar City is renowned for its miraculous springs. Their water is traded all over the region with the name of ''Fresh Water''.
 Ahiga
 Ahiga
 Sono giunto sino a qui dalla mia <b>Capricornia</b> per poter ammirare la bellezza di quest’oasi, ma quelle impetuose raffiche di vento nel canyon mi impediscono di fare ritorno nella mia terra... Se qualcuno riuscisse a placarle, meriterebbe davvero una lauta ricompensa.
@@ -18836,7 +18836,7 @@ Delele-whoop...!
 <<[>>old<<]>>Hai già della Linfa, non puoi prendere anche il Miele.
 <<[>>old<<]>>You already gathered Lymph. You cannot gather Honey too.
 <<[>>old<<]>>Vuoi spalmare della Linfa sull'albero?
-<<[>>old<<]>>Would you like to spread Honey on this tree?
+<<[>>old<<]>>Would you like to spread Lymph on this tree?
 <<[>>old<<]>>Non succede niente...
 <<[>>old<<]>>Nothing happened...
 <<[>>old<<]>>Vuoi spalmare del Lampone sull'albero?
@@ -44161,7 +44161,7 @@ Ginger
 Leon
 Leon
 Teo
-Teo
+Theo
 Berny
 Berny
 Milione
@@ -55652,7 +55652,7 @@ the boss {1}
 The boss {1}
 The boss {1}
 Prepare your anus! The Pokémon boss {1} wants to battle!
-Bring it on! The Pokémon boss {1} wants to battle!
+Bring it on! The boss Pokémon {1} wants to battle!
 {1} sent<<n>>out {2}! {3} sent<<n>>out {4}!
 {1} sent out<<r>><<n>>{2}! {3} sent out<<r>><<n>>{4}!
 {1}<<n>>vuole combattere!
