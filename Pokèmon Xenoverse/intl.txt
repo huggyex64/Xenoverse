@@ -101,7 +101,7 @@ Gerald
 Il Vulcano Pulsar è davvero imponente visto da quaggiù!
 Mt. Starburst is so majestic from down here!
 <<[>>old<<]>><b>Cansiria</b>\n<i>''Villaggio alle pendici del vulcano.''</i>
-<<[>>old<<]>><b>Cansiria</b>\n<i>''Villaggio alle pendici del vulcano.''</i>
+<<[>>old<<]>><b>Fortbelt Town</b>\n<i>''Small village on the slopes of the volcano.''</i>
 Saverio
 Ashton
 I Pokémon Drago sono i più temibili tra tutti, eppure ubbidiscono ciecamente al <b>Cardinale</b>...!
@@ -320,7 +320,7 @@ Now I really have to get away.<<n>>Have fun with that little gadget!
 <<[>>old<<]>>This Porygon Center does not work... Taraxo is probably fixing it.
 [Map10]
 <<[>>old<<]>><b>Vetta Polare</b> <i>''Villaggio perennemente dipinto di bianco!''</i>
-<<[>>old<<]>><b>Polaris Town</b> <i>''A small village perpetually painted in white!''</i>
+<<[>>old<<]>><b>Polaris Town</b>\n<i>''A small village perpetually painted in white!''</i>
 Mimmo
 Wolfey
 Grazie ancora per aver salvato il mio Hikiloo.
@@ -1316,7 +1316,7 @@ No
 No
 [Map34]
 <<[>>old<<]>><b>Campus Ariepoli</b> <i>''Dove studio e lotta si danno appuntamento!''</i>
-<<[>>old<<]>><b>Newtron City</b> <i>''Where study and battle come together!''</i>
+<<[>>old<<]>><b>Newtron City</b>\n<i>''Where study and battle come together!''</i>
 ???
 ???
 Avete vinto, ma non toglieremo le tende dal campus tanto facilmente! <i>Bzz!</i>
@@ -1979,7 +1979,7 @@ On the beach, you should find some good seamen willing to take you there. Just t
 <<[>>old<<]>> Il Laboratorio è chiuso. Meglio dirigersi al Percorso 10.
 <<[>>old<<]>>Il laboratorio è chiuso. Meglio raggiungere Aster al Percorso 10!
 <<[>>old<<]>><b>Balansopoli</b> <i>''Una ridente cittadina immersa nel verde.''</i>
-<<[>>old<<]>><b>Hadwarf City</b> <i>''The city of never-ending sun.''</i>
+<<[>>old<<]>><b>Hadwarf City</b>\n<i>''The city of never-ending sun.''</i>
 <<[>>old<<]>>Aiutooooo!!
 <<[>>old<<]>>Please heeeeelp!!
 Arianna
@@ -2112,7 +2112,7 @@ As for normal Pokémon, also these ones must be weakened<<n>>to be caught.
 Prima di dare il via a questa lotta, però, lascia che curi i tuoi Pokémon.
 Before we get started on this battle, let me heal<<n>>your Pokémon.
 <<[>>old<<]>><b>Spiaggia Polvostella</b> <i>''Lido dalla sabbia scintillante.''</i>
-<<[>>old<<]>><b>Stardust Beach</b> <i>''Shining sandy shore.''</i>
+<<[>>old<<]>><b>Stardust Beach</b>\n<i>''Shining sandy shore.''</i>
 Eleeek!!
 Eleeek!!
 Egidio
@@ -3285,7 +3285,7 @@ Oh, well done! Here you go, $5000!
 <<[>>old<<]>>Pescheria ''Da Vincenzo''
 <<[>>old<<]>>''Vince's'' Fish Market
 <<[>>old<<]>><b>Borgo Gemini</b> <i>''Il posto ideale per ammirare le stelle in tutta tranquillità.''</i>
-<<[>>old<<]>><b>Stellato Town</b> <i>''The best place for stargazing in peace.''</i>
+<<[>>old<<]>><b>Stellato Town</b>\n<i>''The best place for stargazing in peace.''</i>
 Svetonio
 Sam
 Passerei le giornate a sorseggiare Sidrostelle... Tieni, provane un po’ anche tu!
@@ -3867,7 +3867,7 @@ You have never been in Milkiway City, have you?<<n>>Here, accept this welcome gi
 Il Centro Pokémon del regno ha tutto un altro aspetto al confronto coi soliti. Entra a dare un’occhiata, su!
 This kingdom's Pokémon Center has a whole other look compared to the others. Enter and have a look!
 <<[>>old<<]>><b>Regno di Virgopoli</b> <i>''Reame dall'antico splendore!''</i>
-<<[>>old<<]>><b>Milkiway City</b> <i>''The kingdom of ancient glory!''</i>
+<<[>>old<<]>><b>Milkiway City</b>\n<i>''The kingdom of ancient glory!''</i>
 Bartolomeo
 Burt
 Ho sentito che le acque del castello sono infestate dagli Honchen, ma non riesco a tirar su nulla...
@@ -5120,7 +5120,7 @@ Draco
 Una tradizione vuole che determinati individui affrontino il vulcano al fianco di determinati Pokémon. Tu non sembri possedere nessuno di essi...
 The tradition says certain individuals are destined<<n>>to challenge the volcano alongside certain Pokémon.<<n>>Seems you don't have any of those...
 <<[>>old<<]>><b>Vulcano Pulsar</b> <i>''Il cuore e la voce di Eldiw.''</i>
-<<[>>old<<]>><b>Vulcano Pulsar</b> <i>''Il cuore e la voce di Eldiw.''</i>
+<<[>>old<<]>><b>Mt. Starburst</b>\n<i>''The beating heart of Eldiw.''</i>
 Una tradizione vuole che determinati individui affrontino il vulcano al fianco di determinati Pokémon. Tu, fortunatamente, sei in possesso di uno di essi.
 The tradition says certain individuals are destined<<n>>to challenge the volcano alongside certain Pokémon.<<n>>Luckily, you have one of those.
 [Map107]
@@ -5192,7 +5192,7 @@ Fortbelt's people used to worship an <b>Idol of Fire</b>, believed to be the inc
 Giacomo
 Jake
 Daddy è un rapper fortissimo! Giuro, prima o poi andrò a vederlo dal vivo a <b>Leopoli</b>! Ye-yeah!
-Daddy really is a dope rapper! I swear someday I'll go see him in <b>Hypelion City</b>! Ye-yeah!
+Daddy really is a sick rapper! I swear someday I'll go see him in <b>Hypelion City</b>! Ye-yeah!
 Giuseppa
 Josephine
 Questi giovani d’oggi sono solo dei perdigiorno! Ai miei tempi se la sarebbero vista brutta sul vulcano!
@@ -5339,31 +5339,31 @@ Tuuurt....!
 <<[>>old<<]>>Vuoi salire su Turtonator?
 <<[>>old<<]>>Would you like to jump on Turtonator?
 Alessio
-Alessio
+Miles
 Solo un Montanaro che si rispetti può arrivare in cima al vulcano!
-Solo un Montanaro che si rispetti può arrivare in cima al vulcano!
+Only a true Hiker can hope to reach the top of the volcano!
 Tu devi essere un Montanaro vero.
-Tu devi essere un Montanaro vero.
+You must be a true Hiker.
 Poldo
-Poldo
+Pollard
 Anf! Come si suda qui dentro!
-Anf! Come si suda qui dentro!
+Puff! It's roasting in here!
 Lottare è stata una pessima idea...
-Lottare è stata una pessima idea...
+This battle was a terrible idea...
 <<[>>old<<]>>Non si muove. Sarà guasto?
-<<[>>old<<]>>Non si muove. Sarà guasto?
+<<[>>old<<]>>It doesn’t move. Maybe it is out of order...
 A0A0
 A0A0
 Per quanto sono rimasto in standby? È ora di carburare con una lotta! <i>Bzz!</i>
-Per quanto sono rimasto in standby? È ora di carburare con una lotta! <i>Bzz!</i>
+How long have I been on stand-by? It's time to stretch my gears with a battle!
 E-Errore.
-E-Errore.
+E-Error.
 <i>Batteria scarica. Bzz!</i> <i>Carica nel covo necessaria. Bzz!</i>
-<i>Batteria scarica. Bzz!</i> <i>Carica nel covo necessaria. Bzz!</i>
+<i>The battery is low. Bzz!</i><<n>><i>Recharging station requested. Bzz!</i>
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 Si
-Si
+Yes
 No
 No
 [Map120]
@@ -5390,9 +5390,9 @@ Tuuurt....!
 Pakuro
 Pakuro
 Oltre la porta di casa, chiunque può esser tuo nemico!
-Oltre la porta di casa, chiunque può esser tuo nemico!
+When you step beyond your own gate, you face a million enemies!
 Non ho saputo padroneggiare le tecniche fondamentali.
-Non ho saputo padroneggiare le tecniche fondamentali.
+I could not master the fundamental techniques.
 Sì
 Yes
 No
@@ -5401,7 +5401,7 @@ Si
 Yes
 [Map121]
 Roberto
-Roberto
+Derek
 Temo di aver sbagliato lo spot di pesca.
 Temo di aver sbagliato lo spot di pesca.
 Non per altro, ma qui proprio non abboccano!
@@ -11586,7 +11586,7 @@ Selestino
 L’uomo deve assecondare il flusso della giungla se non vuole soccombere ad essa.
 L’uomo deve assecondare il flusso della giungla se non vuole soccombere ad essa.
 Solo da Laborano, articoli mai visti a prezzi stracciati!!
-Solo da Laborano, articoli mai visti a prezzi stracciati!!
+Only Harrison's got what you're looking for!<<n>>C'mon, have a look!
 Come hai osato addentrarti nella giungla, straniero|a?!
 Come hai osato addentrarti nella giungla, straniero|a?!
 Sento le forze venir meno...
@@ -11846,7 +11846,7 @@ Modalità di gioco
 <<[>>old<<]>>Bisogna portare il cibo al padrone.
 <<[>>old<<]>>I must bring food to the master.
 <<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
-<<[>>old<<]>><b>Ishtar City</b> <i>''The star dancing in the wilderness.''</i>
+<<[>>old<<]>><b>Ishtar City</b>\n<i>''The star dancing in the wilderness.''</i>
 <<[>>old<<]>>Canyon Asteroide ad est
 <<[>>old<<]>>East: Sunflare Canyon
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
@@ -11965,7 +11965,7 @@ Queen Verbena herself requests your presence at the Gym.
 Giuliano
 Weston
 Solo da Giuliano, articoli mai visti a prezzi stracciati!!
-Solo da Giuliano, articoli mai visti a prezzi stracciati!!
+Only Weston's got what you're looking for!<<n>>C'mon, have a look!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
@@ -12081,7 +12081,7 @@ You were only having a look, after all...<<n>>but don't ever try that again!<<n>
 <<[>>old<<]>>Meglio non rischiare...
 <<[>>old<<]>>It's too risky...
 <<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
-<<[>>old<<]>><b>Ishtar City</b> <i>''The star dancing in the wilderness.''</i>
+<<[>>old<<]>><b>Ishtar City</b>\n<i>''The star dancing in the wilderness.''</i>
 Tullio
 Titus
 In mezzo alle mie deliziose foglie era finita questa. Ho provato ad assaggiarla, ma ha un saporaccio!
@@ -12457,7 +12457,7 @@ Il pesce più grosso è quello che non ho ancora pescato!
 Siliano
 Carson
 Solo da Siliano, articoli mai visti a prezzi stracciati!!
-Solo da Siliano, articoli mai visti a prezzi stracciati!!
+Only Carson's got what you're looking for!<<n>>C'mon, have a look!
 Tonio
 Tonio
 Bah, i Pokémon selvatici tra i fiori! Cos’altro toccherà sorbirmi?!
@@ -12692,9 +12692,9 @@ Alakazam
 Kazam!
 Kazam!
 Niliano
-Niliano
+Jackson
 Solo da Niliano, articoli mai visti a prezzi stracciati!!
-Solo da Niliano, articoli mai visti a prezzi stracciati!!
+Only Jackson's got what you're looking for!<<n>>C'mon, have a look!
 Akuma
 Akuma
 Osserva bene la mia cintura! Dimostra che ho raggiunto il più alto rango nel mio dojo!
@@ -18304,7 +18304,7 @@ No
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Would you like to open this chest?
 Xiliano
-Xiliano
+Braxton
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
 Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
 Ho sbagliato ad accusarti, scusa!
@@ -18314,7 +18314,7 @@ You were only having a look, after all...<<n>>but don't ever try that again!<<n>
 <<[>>old<<]>>Meglio non rischiare...
 <<[>>old<<]>>It's too risky...
 Solo da Xiliano, articoli mai visti a prezzi stracciati!!
-Solo da Xiliano, articoli mai visti a prezzi stracciati!!
+Only Braxton's got what you're looking for!<<n>>C'mon, have a look!
 Mara
 Mara
 Il sentiero diventa più pericoloso da questa parte. Mi tocca impedirti di proseguire con la forza!
@@ -43977,7 +43977,7 @@ Corinaldo
 Giuseppe
 Giuseppe
 Poldo
-Poldo
+Pollard
 Luca
 Lucas
 Frank
@@ -44325,7 +44325,7 @@ Fr3ny01
 Marshall
 Marshall
 Alessio
-Alessio
+Miles
 Matteo
 Matthew
 Fulvio
@@ -44351,7 +44351,7 @@ Vento
 Birio
 Birio
 Roberto
-Roberto
+Derek
 Faso
 Faso
 Pesci
