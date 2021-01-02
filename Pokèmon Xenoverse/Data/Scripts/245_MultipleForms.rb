@@ -1283,7 +1283,7 @@ MultipleForms.register(:BREMAND,{
 		},
 		"type1"=>proc{|pokemon|
 			next getID(PBTypes,:ELECTRIC) if pokemon.form == 1
-			next getID(PBTypes,:FIGHT) if pokemon.form == 2
+			next getID(PBTypes,:FIGHTING) if pokemon.form == 2
 			next getID(PBTypes,:DARK) if pokemon.form == 3
 			next
 		},
