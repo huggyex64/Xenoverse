@@ -174,16 +174,11 @@ class Scene_Map
       end
     end
     
-    if $achievements["Fanatico"].progress==1
+    if !$achievements["Fanatico"].completed
       names=0
       for p in 0...$Trainer.party.length
-        for i in 0...STAFF_NAMES.length
-          if $Trainer.party[p].name == STAFF_NAMES[i]
-            names+=1
-          else
-            next
-          end
-        end
+        break if $Trainer.party[p].species != PBSpecies::WEEDLE
+        names+=1
       end
       if names==6
         $achievements["Fanatico"].progress+=1
