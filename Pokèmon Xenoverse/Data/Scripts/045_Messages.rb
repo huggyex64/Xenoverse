@@ -1120,7 +1120,9 @@ def pbGetBasicMapNameFromId(id)
   begin
     map = pbLoadRxData("Data/MapInfos")
     return "" if !map
-    return map[id].name
+    #return map[id].name
+    #return pbGetMessageFromHash(MessageTypes::PlaceNames,map[id].name)#pbGetMessage(MessageTypes::MapNames,map[id].name)
+    return pbGetMessage(MessageTypes::MapNames,id)
   rescue
     return ""
   end

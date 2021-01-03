@@ -450,6 +450,7 @@ class PokemonSummaryScene
     end
     mapname=pbGetMapNameFromId(pokemon.obtainMap)
     if (pokemon.obtainText rescue false) && pokemon.obtainText!=""
+      echoln "pokemon has obtain text"
       mapname=pokemon.obtainText
     end
     if mapname && mapname!=""
@@ -474,21 +475,26 @@ class PokemonSummaryScene
           month=pbGetAbbrevMonthName(pokemon.timeEggHatched.mon)
           date=pokemon.timeEggHatched.day
           year=pokemon.timeEggHatched.year
-          memo+=_INTL("<c3=404040>{1} {2}, {3}\n",month,date,year)
-					t+=_INTL("{1} {2}, {3}\n",month,date,year)
+          memo+=_INTL("<c3=404040>{1} {2}, {3}",month,date,year)
+          memo+="\n"
+          t+=_INTL("{1} {2}, {3}",month,date,year)
+          t+="\n"
 					#textpos.push([_INTL("{1} {2}, {3}",month,date,year),270,165,0,Color.new(48,48,48)])
         end
         mapname=pbGetMapNameFromId(pokemon.hatchedMap)
+        #mapname=_MAPINTL(mapname) if $PokemonSystem.language==1
         if mapname && mapname!=""
           memo+=sprintf("<c3=ee5439>%s\n",mapname)
 					#textpos.push([_INTL("{1}",mapname),270,185,0,Color.new(48,48,48)])
-					t+=_INTL("{1}\n",mapname)
+          t+=_INTL("{1}",mapname)
+          t+="\n"
 				else
           memo+=_INTL("<c3=ee5439>Faraway place\n")
-					t+=_INTL("Faraway place")
+          t+=_INTL("Faraway place")
+          t+="\n"
         end
         memo+=_INTL("<c3=FFFFFF>Egg hatched.\n")
-				t+=_INTL("Egg hatched.")
+        t+=_INTL("Egg hatched.")
 				drawTextExH(@pages["overlay"].bitmap,270,185,223,3,t,Color.new(48,48,48),Color.new(48,48,48,0),24)
       else
         memo+="<c3=FFFFFF>\n"
