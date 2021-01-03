@@ -141,18 +141,27 @@ def pbGetBabySpecies(species,item1=-1,item2=-1)
          level=f.fgetw
          poke=f.fgetw
          if poke<=PBSpecies.maxValue && (evo&_EVODATAMASK)==_EVOPREVFORM # evolved from
-           if item1>=0 && item2>=0
+          incense = pbGetIncense(pbGetBabySpecies(poke,0,0))
+          if (incense>0)
+          #checking if any of the parents items are incenses 
+           if (item1>=0 && [127,128,129,130,131,132,133,134,135].include?(item1))|| (item2>=0 && [127,128,129,130,131,132,133,134,135].include?(item2))
              #dexdata=pbOpenDexData
              #pbDexDataOffset(dexdata,poke,54)
              #incense=dexdata.fgetw
              #echoln incense
              #dexdata.close
-             incense = pbGetIncense(poke)
-             echoln incense
+             echoln "Incense is #{incense}"
              ret=poke if item1==incense || item2==incense
            else
-             ret=poke
+            if pbGetIncense(poke)==0
+              ret=poke 
+            else
+              ret=species
+            end
            end
+          else
+            ret=poke
+          end
            break
          end
          i+=5
@@ -160,7 +169,7 @@ def pbGetBabySpecies(species,item1=-1,item2=-1)
      end
   }
   if ret!=species
-    ret=pbGetBabySpecies(ret)
+    ret=pbGetBabySpecies(ret,item1,item2)
   end
   return ret
 end
