@@ -246,7 +246,7 @@ ItemHandlers::UseOnPokemon.add(:HYPERPOTION,proc{|item,pokemon,scene|
 
 ItemHandlers::UseOnPokemon.add(:BLUMELE,proc{|item,pokemon,scene|
    next pbHPItem(pokemon,80,scene)
-}
+})
 
 ItemHandlers::UseOnPokemon.add(:MAXPOTION,proc{|item,pokemon,scene|
    next pbHPItem(pokemon,pokemon.totalhp-pokemon.hp,scene)
