@@ -45,6 +45,8 @@ class Item < Sprite
         bitmap.font.bold = true
         pbDrawTextPositions(self.bitmap, [[$PokemonSystem.language==0 ? @title : $achtr[@title], 85, 13, false, @baseColor]])
         bitmap.font.bold = false
+        echoln @description
+        echoln $achtr[@description]
         pbDrawTextPositions(self.bitmap, [[$PokemonSystem.language==0 ? @description : $achtr[@description], 85, 46, false, @baseColor]])
         
       else
@@ -61,7 +63,7 @@ class Item < Sprite
         #self.bitmap.blt(1, 1, Bitmap.new(_INTL(@icon)), Rect.new(0, 0, 80, 80))
         #self.tone = Tone.new(0, 0, 0 , 0)
         bitmap.font.bold = true
-        pbDrawTextPositions(self.bitmap, [[@title, 95, 15, false, @baseColor]])
+        pbDrawTextPositions(self.bitmap, [[$PokemonSystem.language==0 ? @title : $achtr[@title], 95, 15, false, @baseColor]])
         bitmap.font.bold = false
       else
         #self.bitmap.blt(1, 1, Bitmap.new(_INTL(@default)), Rect.new(0, 0, 80, 80))
