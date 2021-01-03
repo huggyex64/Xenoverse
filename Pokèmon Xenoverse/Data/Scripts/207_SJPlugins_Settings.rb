@@ -89,12 +89,12 @@ EB_DEMO_BGM = "global_opening.ogg"
 #===============================================================================                           
 # Names for your gym badges
 FANCY_BADGE_NAMES = [
-    "Medaglia Radice",
-    "Medaglia Competizione",
-    "Medaglia Zucchero",
-    "Medaglia Marea",
-    "Medaglia Desolazione",
-    "Medaglia Ritmo",
-    "Medaglia Marchiatura",
-    "Medaglia Onore",
+    _INTL("Medaglia Radice"),
+    _INTL("Medaglia Competizione"),
+    _INTL("Medaglia Zucchero"),
+    _INTL("Medaglia Marea"),
+    _INTL("Medaglia Desolazione"),
+    _INTL("Medaglia Ritmo"),
+    _INTL("Medaglia Marchiatura"),
+    _INTL("Medaglia Onore"),
 ]
