@@ -4748,24 +4748,16 @@ Oh, cielo! Non posso prendere il tuo unico Pokémon rimasto in forze! Torna a fa
 Oh my! I can't take your only healthy Pokémon!<<n>>We hope to see you again.
 Oh, cielo! Non posso prendere questo Pokémon, mi spiace!
 Oh, my! I can't take this Pokémon, I'm sorry!
-_INTL("Il tuo {1} è in ottime mani.",pbGet(3))
-_INTL("Your {1} is in good hands.",pbGet(3))
 Possiamo prendere in consegna due Pokémon per volta, vuoi affidarcene un altro?
 We can take up to two Pokémon at a time,<<n>>do you want to leave another one?
-_INTL("Bene, baderemo noi al tuo {1} per un po’!",pbGet(3))
-_INTL("Well, we'll take care of your {1} for a while!",pbGet(3))
 Oh, eccoti. Allora, vediamo un po’...
 Oh, here you are. So...
-_INTL("Il tuo {1} è salito di {2} livelli.",pbGet(3),pbGet(4))
-_INTL("Your {1} has grown by {2} levels.",pbGet(3),pbGet(4))
 Vuoi ritirare un Pokémon?
 Would you like to take a Pokémon back?
 La tua squadra è al completo! Torna quando avrai più spazio.
 Your party is full! Come back when you have room.
 Chi vuoi riprendere con te?
 Who do you want to take?
-_INTL("Per il tuo {1} fanno {2}$. D'accordo?",pbGet(3),pbGet(4))
-_INTL("For {1} it's ${2}. Okay?",pbGet(3),pbGet(4))
 Non hai soldi a sufficienza...
 You don't have enough money...
 Ecco a te il tuo Pokémon!
@@ -6124,7 +6116,7 @@ Vee...!
 Vee...!
 [Map138]
 Valerio
-Pohaku
+Calhoun
 Non ho potuto fare a meno di notare che, qui ad Eldiw, i Geodude sono diversi da quelli che conosco io. Un Montanaro come me non può esimersi dal conoscere ogni Pokémon di tipo Roccia, perciò... Che ne dici di uno scambio tra il tuo Geodude e il mio <b>Geodude di Alola</b>? Mi sembra equo, no?
 I couldn't help noticing, here in Eldiw, Geodude are different from those I'm used to.<<n>>A Hiker like me must know every kind of Rock-type<<n>>Pokémon, so...<<n>>What about trading your Geodude for my <b>Alolan</b><<n>><b>Geodude</b>? It seems fair to me!
 Torna a trovarmi quando avrai un Geodude. Dev’essere mio a tutti i costi!
@@ -11045,7 +11037,7 @@ No
 [Map253]
 [Map254]
 Eric
-Eric
+David
 Alooolaaa!!
 Alooolaaa!!
 Brr! Ma qui si gela! Niente a che vedere con la mia calda e accogliente Alola! Però...
@@ -11522,7 +11514,7 @@ Exegg...!
 <<[>>old<<]>>Dimora del Cardinale
 <<[>>old<<]>>Dimora del Cardinale
 Xuugo
-Xuugo
+Cozcatl
 Ormai i nutrienti di questa terra cominciano ad essere pochi per questo spilungone...
 Ormai i nutrienti di questa terra cominciano ad essere pochi per questo spilungone...
 Chi se lo sarebbe mai aspettato che un Exeggutor potesse crescere così tanto!
@@ -14159,7 +14151,7 @@ Certo che i condomini potrebbero fare a meno di sporcare in giro... Sono sicuro 
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
 <<[>>old<<]>>The trash is full of wastepaper.
 Bardo
-Bardo
+James
 Sto cercando un <b>Hystearic</b>... ne avresti mica uno da scambiare col mio <b>Mantine</b>?
 Sto cercando un <b>Hystearic</b>... ne avresti mica uno da scambiare col mio <b>Mantine</b>?
 Torna a trovarmi quando avrai un Hystearic. Ci conto!
@@ -56653,3 +56645,64 @@ The boss Pokémon didn't move an inch!
 The boss Pokémon didn't move an inch!
 Sembra inutilizzabile...
 It doesn't seem to work...
+Il tuo {1} è in ottime mani.
+Your {1} is in good hands.
+Bene, baderemo noi al tuo {1} per un po’!
+Well, we'll take care of your {1} for a while!
+Il tuo {1} è salito di {2} livelli.
+Your {1} gained {2} levels.
+Per il tuo {1} fanno {2}$. D'accordo?
+For {1} it's ${2}. Okay?
+LOTTA
+FIGHT
+ZAINO
+BAG
+POKéMON
+POKéMON
+FUGGI
+RUN
+Kaiserium N
+Kaiserium H
+Ikarium N
+Ikarium H
+Odysseum N
+Odysseum H
+Heraclium N
+Herculeum H
+Perseum N
+Perseum H
+Medaglia Radice
+Root Badge
+Medaglia Competizione
+Match Badge
+Medaglia Zucchero
+Sugar Badge
+Medaglia Marea
+Tidal Badge
+Medaglia Desolazione
+Despair Badge
+Medaglia Ritmo
+Beat Badge
+Medaglia Marchiatura
+Brand Badge
+Medaglia Onore
+Honor Badge
+Davide
+Albert
+Valerio
+Calhoun
+Eric
+David
+Xuugo
+Cozcatl
+Ulisse
+Ulysses
+Bardo
+James
+
+
+
+
+
+
+
