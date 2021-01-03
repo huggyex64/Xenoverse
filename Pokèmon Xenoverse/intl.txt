@@ -1668,7 +1668,7 @@ Go on, no fears! You'll never forget your first catch!
 <<[>>old<<]>>Andrei prima a portare un saluto al monumento del nonno...
 <<[>>old<<]>>You should go to give your regards to grandfather's memorial...
 <<[>>old<<]>><b>Ranch Spigadoro</b> <i>''Dove nascono nuove stelle.''</i>
-<<[>>old<<]>><b>Nova Ranch</b> <i>''Where new stars are born.''</i>
+<<[>>old<<]>><b>Nova Ranch</b>\n<i>''Where new stars are born.''</i>
 Edera
 Clover
 Dove pensi di andare, giovanotto?!
@@ -5468,7 +5468,7 @@ No
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Vuoi che Trishout sciolga il masso di ghiaccio?
-<<[>>old<<]>>Vuoi che Trishout sciolga il masso di ghiaccio?
+<<[>>old<<]>>You want Trishout to melt this ice block?
 Trishout
 Trishout
 Tri...!
@@ -5608,7 +5608,7 @@ Bless me, I didn't introduce myself.
 Il mio nome è <b>Oleandro</b>.
 My name is <b>Abraham</b>.
 Tra i quattro <b>Cardinali</b> di Eldiw sono colui che protegge il suolo su cui ora muovi i passi. Il Vulcano Pulsar è il cuore pulsante della regione e, senza il giusto equilibrio, rischierebbe di mandare in malora il suo stesso ecosistema. Io sono qui per scongiurare ciò, ma al tempo stesso ne approfitto per temprare lo spirito. Hai visto, Scaleon? Qualcuno si è recato a farci visita.
-Amongst the <b>Four Cardinals</b> of Eldiw, I am the one<<n>>who protects the ground you're walking on.<<n>>Mt. Starburst's the beating heart of our region and, without<<n>>a proper balance, it'd risk destroying its own ecosystem.<<n>>I'm here to ward it off, and at the same time,<<n>>I take the opportunity to forge my spirit.<<n>>Did you see that, Scaleon? Someone came here for a visit.
+Amongst the <b>Four Cardinals</b> of Eldiw, I am the one<<n>>who protects the ground you're walking on.<<n>>Mt. Starburst's the heartbeat of our region and, without<<n>>a proper balance, it'd risk destroying its own ecosystem.<<n>>I'm here to ward it off, and at the same time,<<n>>I take the opportunity to forge my spirit.<<n>>Did you see that, Scaleon? Someone came here for a visit.
 Mio|a giovane amico|a, allora dimmi... Sei qui per auscultare le antiche leggende? Sai, le conosco tutte a menadito.
 Then tell me, my young friend... Do you want to listen to<<n>>the old legends? You see, I know them all inside out.
 Chi crede che abbia 500 anni non è poi così lontano dal vero. Wah ah ah!
@@ -5707,7 +5707,7 @@ Mwa ha ha ha! Finally! You can't even imagine how long<<n>>I've been waiting for
 Le presentazioni sono inutili e ti sembrerà strano, ma io...
 It could seem strange, but I don't need introductions,<<n>>because I...
 ... sono te!!
-... am you!!
+...am you!!
 Alter
 Alter
 Proprio così! Io sono il tuo <b>Alter</b>! La tua nemesi nata e cresciuta in questo mondo spento e cupo! Non ho famiglia, né amici... niente di simile!
@@ -5729,7 +5729,7 @@ Triii!!
 Vedi, \PN. Questo Trishout è proprio come me!
 See, \PN. This Trishout is just like me!
 È cresciuto in questo clima primitivo e crudele, al contrario dei tuoi stupidi Pokémon! Sta' a vedere... questo posto sarà la tua tomba!
-It grew up in this cruel primitive mood, not like<<n>>your stupid Pokémon!<<n>>You better watch out... this place is gonna be your grave!
+It grew up in this cruel primitive mood, not like<<n>>your stupid Pokémon!<<n>>You better watch out...this place is gonna be your grave!
 Perché? Perchééé?!
 Why? Whyyy?!
 Vieni fuori, <b>Shulong</b>!
@@ -6001,7 +6001,7 @@ Ma che fortuna sfacciata!
 Il <b>Generale</b> sarebbe fiero della sua <b>Tamara</b> se sapesse che ha tolto dai piedi un simile impiccio!
 Il <b>Generale</b> sarebbe fiero della sua <b>Tamara</b> se sapesse che ha tolto dai piedi un simile impiccio!
 Tamara
-Tamara
+Dahlia
 Se a tutto ciò aggiungiamo anche la cattura di ben due Pokémon X...
 Se a tutto ciò aggiungiamo anche la cattura di ben due Pokémon X...
 Ma questo bel visino non si sporcherà certo le mani...!
@@ -6044,40 +6044,38 @@ Pony...!
 Pony...!
 <<[>>old<<]>>Sembra quasi che Rapidash e Ponyta ti stiano ringraziando dell'aiuto...
 <<[>>old<<]>>Sembra quasi che Rapidash e Ponyta ti stiano ringraziando dell'aiuto...
-Rapidash X
-Rapidash X
 Mocciosetta, hai solo avuto fortuna!
 Mocciosetta, hai solo avuto fortuna!
 Efisio
-Efisio
+Dakota
 Spiegherò le mie ali e mi librerò in volo!
-Spiegherò le mie ali e mi librerò in volo!
+I will spread my wings and take flight!
 Forse non è mio destino volare...
-Forse non è mio destino volare...
+Maybe flying is not in my fate...
 D’altronde se la natura non mi ha donato delle ali, ci sarà un motivo.
-D’altronde se la natura non mi ha donato delle ali, ci sarà un motivo.
+After all there's a reason why Nature didn't give me the gift of wings.
 Alaid
 Alaid
 Oh, qualcuno è riuscito a scovarmi!
-Oh, qualcuno è riuscito a scovarmi!
+Oh, I can't believe you found me!
 Il Diglett che stavo inseguendo si è infilato qui e, per stargli dietro, sono rimasto bloccato. Peccato che poi sia scappato sottoterra come se niente fosse...
-Il Diglett che stavo inseguendo si è infilato qui e, per stargli dietro, sono rimasto bloccato. Peccato che poi sia scappato sottoterra come se niente fosse...
+The Diglett I was chasing slipped in here and I got stuck while trying to tail it.<<n>>And just like that, it fled underground...
 Non è che tu avresti un Diglett? Sarei disposto a cederti il mio <b>Diglett di Alola</b> in cambio!
-Non è che tu avresti un Diglett? Sarei disposto a cederti il mio <b>Diglett di Alola</b> in cambio!
+Don’t you have a Diglett? I’d even give you my<<n>><b>Alolan Diglett</b> for it!
 Se mai dovessi trovare un Diglett, torna qui da me!
-Se mai dovessi trovare un Diglett, torna qui da me!
+Come back here when you have a Diglett for me!
 Yee-haw! Via allo scambio!
-Yee-haw! Via allo scambio!
+Yee-haw! Let's trade!
 Il terreno ricco di ferro in cui vive, ha fatto spuntare al Diglett di Alola dei peli metallici sul capo.
-Il terreno ricco di ferro in cui vive, ha fatto spuntare al Diglett di Alola dei peli metallici sul capo.
+The metal-rich geology of its habitat caused Alolan Diglett to develop steel whiskers on its head.
 Raico
-Raico
+Rokee
 Anche un pulcino sa tirare fuori gli artigli se vuole!
-Anche un pulcino sa tirare fuori gli artigli se vuole!
+Even a chick can pull out its claws if it wants!
 Sono stato troppo avventato...
-Sono stato troppo avventato...
+I'm always too rashy...
 La mamma dice sempre ''meglio avere meno tuono in bocca e più fulmine nella mano''.
-La mamma dice sempre ''meglio avere meno tuono in bocca e più fulmine nella mano''.
+Mommy always says ''it's better to have less thunder<<n>>in the mouth and more lightning in the hand''.
 Sì
 Yes
 No
@@ -6259,7 +6257,7 @@ Ghost
 <<[>>old<<]>>Sembrerebbe scritto in una lingua molto antica...
 <<[>>old<<]>>Sembrerebbe scritto in una lingua molto antica...
 <<[>>old<<]>>It seems an ancient alphabet...
-<<[>>old<<]>>It seems an ancient alphabet...
+<<[>>old<<]>>It seems an ancient writing...
 Baada
 Baada
 Oh oh! Sei riuscito|a a decifrare l’antica lingua degli Unown?
@@ -6269,23 +6267,23 @@ I thought we were the only ones that could read it...
 Abbas
 Abbas
 Eccoti, sfidante. La sfida della Palestra Marea è strutturata secondo i giochi dei nostri avi... Il primo che affronterai è denominato ''la salita del Farfetch'd''. Il piano è disseminato di pedane con su l’effigie di vari Pokémon, sulle quali dovrai farti strada.
-Eccoti, sfidante. La sfida della Palestra Marea è strutturata secondo i giochi dei nostri avi... Il primo che affronterai è denominato ''la salita del Farfetch'd''. Il piano è disseminato di pedane con su l’effigie di vari Pokémon, sulle quali dovrai farti strada.
+Here you come, challenger. The challenge of the Ishtar Gym is based on our ancestors' games...<<n>>The first one you are going to challenge is called<<n>>''the game of Farfetch'd''.<<n>>The floor is dotted with platforms depicting the effigy of various Pokemon, where you need to find your way on.
 Solo decifrando e interpretando nella giusta maniera gli indizi su questi pilastri, saprai quale via seguire. Se invece farai un passo falso, beh, scoprirai a tue spese la sorte che ti spetta. Per questo gioco è tutto! Cerca di non finire tra le fauci del lupo, Allenatore!
-Solo decifrando e interpretando nella giusta maniera gli indizi su questi pilastri, saprai quale via seguire. Se invece farai un passo falso, beh, scoprirai a tue spese la sorte che ti spetta. Per questo gioco è tutto! Cerca di non finire tra le fauci del lupo, Allenatore!
+Only by reading and decrypting in the right way the clues on these pillars, you will know which road to take.<<n>>But if you miss your step, you will find out on your own<<n>>the fate you're destined to.<<n>>And that's all for this game! Try your best and watch your steps, Trainer!
 Cheris
 Cheris
 Da soli, la forza è pressocché nulla, ma insieme questa emerge e si intensifica!
-Da soli, la forza è pressocché nulla, ma insieme questa emerge e si intensifica!
+When alone, nothing happens, but together, an odd power emerges and intensifies!
 L’unione fa la forza!
-L’unione fa la forza!
+Unity is strength!
 È questa la lezione che gli Unown cercano di insegnarci sin dall’antichità.
-È questa la lezione che gli Unown cercano di insegnarci sin dall’antichità.
+This is the lesson that Unown are trying to teach us since ancient times.
 Daario
-Daario
+Daarien
 La fortuna non esiste. Esiste solo il momento in cui il talento incontra l’opportunità.
-La fortuna non esiste. Esiste solo il momento in cui il talento incontra l’opportunità.
+Luck does not exist. Exist a moment when preparation meets opportunity.
 La fortuna sorride ad alcuni e ride di altri.
-La fortuna sorride ad alcuni e ride di altri.
+Fortune smiles on one man or the other... but never on both.
 [Map144]
 <<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
 <<[>>old<<]>>There's something inside this ancient jar.
@@ -6302,27 +6300,27 @@ Shu...!
 Ebi
 Ebi
 La regina è il nostro sole e noi faremo di tutto per far sì che splenda radiosa!
-La regina è il nostro sole e noi faremo di tutto per far sì che splenda radiosa!
+The Queen is our sun and we'll do everything in our power to let her shine bright!
 Nessuno potrà spegnere la sua luce...!
-Nessuno potrà spegnere la sua luce...!
+No one will ever extinguish her light...!
 Ghali
 Ghali
 Aspettavo solo che un Allenatore piombasse giù dal cielo! Lottiamo!
-Aspettavo solo che un Allenatore piombasse giù dal cielo! Lottiamo!
+I was just waiting for a Trainer to fall down! Let's battle!
 Adoro lottare, ancor più per la regina Verbena!
-Adoro lottare, ancor più per la regina Verbena!
+I love to fight, even more if it's for Queen Nuphar!
 Fida
 Fida
 Chi sbaglia pedana dovrà vedersela con noi Soldati di Aquariopoli!
-Chi sbaglia pedana dovrà vedersela con noi Soldati di Aquariopoli!
+We Ishtar's Soldiers will punish those who choose<<n>>the wrong way!
 Non riuscirai ad abbatterci tutti!
-Non riuscirai ad abbatterci tutti!
+You'll never take us all down!  
 Hassan
 Hassan
 Chi sbaglia pagherà con la moneta della sconfitta!
-Chi sbaglia pagherà con la moneta della sconfitta!
+You'll pay for your mistake with the currency of defeat!
 Mia regina, mi perdoni...
-Mia regina, mi perdoni...
+Forgive me, my Queen...
 Sì
 Yes
 No
@@ -6333,35 +6331,37 @@ No
 Karim
 Karim
 I nostri nomi si sono incrociati su queste pedane come nello Scarabeo!
-I nostri nomi si sono incrociati su queste pedane come nello Scarabeo!
+Our names crossed on these platforms like in crossword puzzles!
 Dovrò scartare il mio nome dal tabellone di gioco...
-Dovrò scartare il mio nome dal tabellone di gioco...
+I've never been particularly good at crosswords...
 Abbas
 Abbas
 Se sei riuscito|a a giungere sino a qui, significa che hai superato con successo la prima sfida. Complimenti. Ora passiamo al secondo gioco, la ''dama Unown''.
-Se sei riuscito|a a giungere sino a qui, significa che hai superato con successo la prima sfida. Complimenti. Ora passiamo al secondo gioco, la ''dama Unown''.
+You've been able to reach here. This means you have completed the first challenge. Congrats.<<n>>Now let's move to the second game, the ''Unown checkers''.
+Le regole sono semplicissime: dovrai spostarti tra le caselle, seguendo l’alfabeto Unown dalla A alla Z. Tuttavia...
+The rules are simple: you have to move on the squares following the Unown writing, from A to Z.<<n>>However...
 Il percorso è irto d'insidie e potresti dover ripercorrere più volte i tuoi passi... L’intuito e la fortuna sono la chiave di questo gioco!
-Il percorso è irto d'insidie e potresti dover ripercorrere più volte i tuoi passi... L’intuito e la fortuna sono la chiave di questo gioco!
+The path is fraught with pitfalls and some teleports might mislead you, making you retrace your own steps...<<n>>Your hunch and your luck are the keys for this game!
 Idris
 Idris
 L’alfabeto Unown amplificherà la mia forza!
-L’alfabeto Unown amplificherà la mia forza!
+The Unown writing will amplify my power!
 Tra queste lettere non sono che un apostrofo...
-Tra queste lettere non sono che un apostrofo...
+Between these letters I'm nothing but an apostrophe...
 Lau
 Lau
 Sono io l’ostacolo che si frappone tra te e il termine di questa prova!
-Sono io l’ostacolo che si frappone tra te e il termine di questa prova!
+I'm the only thing that stands between you and the end<<n>>of this game!
 Ora puoi far avanzare la tua pedina.
-Ora puoi far avanzare la tua pedina.
+You can move your checker now.
 Jafar
 Jafar
 Vuoi un consiglio? Mai sfidare un Consigliere!
-Vuoi un consiglio? Mai sfidare un Consigliere!
+You want some advice? Never challenge an Advisor!
 La maschera nasconde le amare lacrime della sconfitta...
-La maschera nasconde le amare lacrime della sconfitta...
+My mask's hiding the bitter tears of failure...
 Si
-Si
+Yes
 No
 No
 [Map146]
@@ -6398,41 +6398,45 @@ No
 No
 [Map148]
 Exeggutor di Alola
-Exeggutor di Alola
+Alolan Exeggutor
 Exegg...!
 Exegg...!
 Abbas
 Abbas
 Hai superato con incredibile maestria anche il secondo gioco.
-Hai superato con incredibile maestria anche il secondo gioco.
+You've skillfully overcome the second challenge, too. Now,<<n>>there is just the third and final game of this Gym...<<n>>...the ''palm tree game''.
 Come puoi vedere, questa zona è verde e rigogliosa, per merito dell’acqua miracolosa che vi sgorga. Questa, però, per i suoi nutrienti, attira qui anche gli <b>Exeggutor</b> da molto lontano. Sono proprio loro i protagonisti del gioco!
-Come puoi vedere, questa zona è verde e rigogliosa, per merito dell’acqua miracolosa che vi sgorga. Questa, però, per i suoi nutrienti, attira qui anche gli <b>Exeggutor</b> da molto lontano. Sono proprio loro i protagonisti del gioco!
+As you can see, this area of the pyramid is green and lush due to the miraculous water flowing here.<<n>>This water, with its rich nutrients, also attracts a type of <b>Exeggutor</b> from far away.<<n>>They are the real stars of this game!
 Sotto alcuni di essi, infatti, si celano delle stanze, nelle quali dovrai recuperare le <b>Perlacqua</b>. Solo ottenendole tutte e tre, potrai finalmente raggiungere la regina!
-Sotto alcuni di essi, infatti, si celano delle stanze, nelle quali dovrai recuperare le <b>Perlacqua</b>. Solo ottenendole tutte e tre, potrai finalmente raggiungere la regina!
+Some of them hide the access to a few rooms, inside which you have to get three <b>Water Pearls</b>.<<n>>Only when you have all three of them, you'll finally be able to reach the Queen!
 Non mi resta che augurarti buona fortuna, \PN.
-Non mi resta che augurarti buona fortuna, \PN.
+I can only wish you well, \PN.
 Ecco, ora mi vedi nelle vesti di Abbas, Consigliere della regina, ma in realtà mi conosci con un altro nome... <b>Joele</b>!
-Ecco, ora mi vedi nelle vesti di Abbas, Consigliere della regina, ma in realtà mi conosci con un altro nome... <b>Joele</b>!
+Well, you're seeing me in the guise of Abbas, Queen's Advisor, but you actually know me by another name...<<n>>...<b>Joel</b>!
 Joele
-Joele
+Joel
 Sono ancora in debito con te per aver soccorso la città, perciò... Lo ripagherò seduta stante con una lotta Pokémon!
-Sono ancora in debito con te per aver soccorso la città, perciò... Lo ripagherò seduta stante con una lotta Pokémon!
+I still owe you for helping the city, that's why...<<n>>I'll repay my debt with a Pokémon battle right now!
 Sono riuscito a restituirti il favore.
-Sono riuscito a restituirti il favore.
+Honored to return the favour.
 Dimostra questo valore anche contro la regina e non avrai di che temere!
-Dimostra questo valore anche contro la regina e non avrai di che temere!
+Show this valor against the Queen and you will have nothing to worry about!
 Verbena
-Verbena
+Nuphar
 Ti stavo aspettando.
-Ti stavo aspettando.
+I've been waiting for you.
 <<[>>old<<]>>La conchiglia scompare come per magia.
-<<[>>old<<]>>La conchiglia scompare come per magia.
+<<[>>old<<]>>The shell vanished like magic.
 La mia Palestra è stata progettata per essere superata solo dalle menti più brillanti, ma vedo che ce l'hai fatta senza alcun problema!
-La mia Palestra è stata progettata per essere superata solo dalle menti più brillanti, ma vedo che ce l'hai fatta senza alcun problema!
+My Gym was designed to put a strain even on the brightest minds, but I see you went off without a hitch!
+Ad essere sincera, non mi sarei aspettata di meno da te, \PN! Ma lasciamo perdere i convenevoli.
+Well, actually, I wouldn't expect anything less from you,<<n>>\PN! But let's cut the pleasantries.
 Ti do ufficialmente il benvenuto alla sfida finale del ''gioco della palma''. In passato, questo gioco era noto con un altro nome che io, personalmente, preferisco di gran lunga... ''Il gioco di Lillipup e Lucario''!
-Ti do ufficialmente il benvenuto alla sfida finale del ''gioco della palma''. In passato, questo gioco era noto con un altro nome che io, personalmente, preferisco di gran lunga... ''Il gioco di Lillipup e Lucario''!
+I hereby welcome you to the grand finale of the ''palm tree game''.<<n>>Formerly, this game was known as ''Lillipup and<<n>>Lucario''--a name that I much prefer, to be honest.
+Il motivo? Beh, un indifeso cucciolo come Lillipup, alla fine della fiera, verrà divorato da un predatore... Hai già capito chi sarà Lucario, vero? Preparati a lottare con tutte le tue forze!
+What's the reason? Well, in the end, a defenseless Lillipup will be wolfed down by a predator...<<n>>You can guess who's going to play as Lucario!<<n>>Get ready to battle with all your strength!
 La tua squadra è stata impetuosa come uno tsunami!
-La tua squadra è stata impetuosa come uno tsunami!
+Your power rushed me like a torrent!
 Che battaglia entusiasmante...
 Che battaglia entusiasmante...
 \PN, sei davvero formidabile e farai ancora molta strada, ne sono certa! Con questa Medaglia sei già a quota quattro, non sei più un Allenatore qualsiasi.
@@ -6454,38 +6458,38 @@ Sono certa che con il tuo spirito d’osservazione riuscirai a trovarlo in un ba
 <<[>>old<<]>>Questo Exeggutor sembra avere un'indole amichevole. Alzando la zampa, mostra un passaggio segreto.
 <<[>>old<<]>>Questo Exeggutor sembra avere un'indole amichevole. Alzando la zampa, mostra un passaggio segreto.
 La regina non si offenderà se faccio il tifo per te. Coraggio, \PN!
-La regina non si offenderà se faccio il tifo per te. Coraggio, \PN!
+The Queen will excuse me if I'm rooting for you.<<n>>Keep going, \PN!
 Ero certo avessi stoffa da vendere!
-Ero certo avessi stoffa da vendere!
+I was sure you got real chops!
 [Map149]
 <<[>>old<<]>>Vuoi aprire questo antico sarcofago?
 <<[>>old<<]>>Would you like to open this ancient coffin?
 <<[>>old<<]>>All’interno c’è una perla... è una Perlacqua! Vuoi raccoglierla?
-<<[>>old<<]>>There's something inside... it's an Aqua Pearl! Would you like take it?
+<<[>>old<<]>>There's something inside... it's a Water Pearl! Would you like pick it?
 <<[>>old<<]>>Non c’è niente...
 <<[>>old<<]>>There's nothing here...
 Nasha
 Nasha
 Nascosto in un sarcofago e col volto celato da una maschera... Sono il mistero incarnato!
-Nascosto in un sarcofago e col volto celato da una maschera... Sono il mistero incarnato!
+Hiding in a sarcophagus and concealing my face with<<n>>a mask... I'm the mystery in person!
 Ma tu non ti lasci ammaliare dal mistero...!
-Ma tu non ti lasci ammaliare dal mistero...!
+But you don't fall for mystery...!
 Quasim
 Quasim
 Sono un tipo di poche parole, preferisco lottare.
-Sono un tipo di poche parole, preferisco lottare.
+I'm a man of few words, I prefer battling.
 Avrei dovuto preferire il dialogo, forse...
-Avrei dovuto preferire il dialogo, forse...
+I should have talked instead of battling...
 ...
 ...
 Mazhar
 Mazhar
 Anf! Anf! Non respiravo più chiuso là dentro!
-Anf! Anf! Non respiravo più chiuso là dentro!
+Pant! Pant! I couldn't breath in that coffin!
 Mi manca l’aria!
-Mi manca l’aria!
+I need some air!
 Dovrei ringraziarti per avermi liberato, ma non altrettanto per avermi sconfitto...
-Dovrei ringraziarti per avermi liberato, ma non altrettanto per avermi sconfitto...
+I should thank you for freeing me, but not for defeating me...
 Sì
 Yes
 No
@@ -11041,27 +11045,31 @@ David
 Alooolaaa!!
 Alooolaaa!!
 Brr! Ma qui si gela! Niente a che vedere con la mia calda e accogliente Alola! Però...
-Brr! Ma qui si gela! Niente a che vedere con la mia calda e accogliente Alola! Però...
+Brr! It's freezing here! Nowt to do with my warm and cozy Alola!<<n>>But there's a reason why I got this far...
 Per mettere le mani su un bel Marowak non ho esitato a spingermi fino a qui!!
-Per mettere le mani su un bel Marowak non ho esitato a spingermi fino a qui!!
+...get my hands on a Marowak! I'd go anywhere to get one!!
 Senti, non è che tu ne avresti uno per me? Sono pronto a cederti il mio <b>Marowak di Alola</b>, eh! Allora?
-Senti, non è che tu ne avresti uno per me? Sono pronto a cederti il mio <b>Marowak di Alola</b>, eh! Allora?
+Listen, don't you have one for me? I could even give you<<n>>my <b>Alolan Marowak</b>, y'know?!<<n>>Whaddya say, pal?
 Noooo, niente Marowak! Ma se ne trovi uno, fammelo sapere, eh! Ci conto, sai?
-Noooo, niente Marowak! Ma se ne trovi uno, fammelo sapere, eh! Ci conto, sai?
+Sob! You don't have any Marowak for your buddy...<<n>>Lemme know when you find one, tho! That's the deal!
 Evviva! Che bella notizia mi hai dato! E allora diamo il via a questo fantastico scambio!
-Evviva! Che bella notizia mi hai dato! E allora diamo il via a questo fantastico scambio!
+Booyah! That's music to my ears! Let's start this awesome trade then!!
 Sento che è nata una nuova amicizia!
-Sento che è nata una nuova amicizia!
+A new friendship is born, I can feel it!
+Che ne dici di scattarci una bella foto insieme per immortalare questo magico momento?
+How'd you like to get a shot together as a reminder of<<n>>this magic moment?
 Guarda come siamo venuti bene!
-Guarda come siamo venuti bene!
+Look at that, we're so good!
+Prendila tu, su! Così potrai portarla sempre con te e ricordarti del tuo amico Eric!
+C’mon, take it! You can always have it with you and<<n>>remember your buddy David!
 Alla prossima allora!
-Alla prossima allora!
+See ya next time!
 Oh, che bello! Sei tornato qui solo per trovare il tuo amico Eric?
-Oh, che bello! Sei tornato qui solo per trovare il tuo amico Eric?
+I'm so happy! You just came here for your buddy David, don't cha?
 Oh, che bello! Sei tornata qui solo per trovare il tuo amico Eric?
-Oh, che bello! Sei tornata qui solo per trovare il tuo amico Eric?
+I'm so happy! You just came here for your buddy David, don't cha?
 Oh, che bello! Sei tornato|a qui solo per trovare il tuo amico Eric?
-Oh, che bello! Sei tornato|a qui solo per trovare il tuo amico Eric?
+I'm so happy! You just came here for your buddy David, don't cha?
 Sì
 Yes
 No
@@ -11555,9 +11563,9 @@ Pete
 Wow! L’acqua dev’essere stata davvero vigorosa per generare un canyon come questo!
 Wow! The water must have been really strong to form<<n>>a canyon this big!
 Il vigore di certo non manca neanche a te.
-You don't seem to lack strength either.
+You really are strong too!
 Un canyon nasce quando un corso d’acqua, erodendo lentamente il terreno sottostante, si scava una valle.
-Un canyon nasce quando un corso d’acqua, erodendo lentamente il terreno sottostante, si scava una valle.
+Canyons form when rivers carve into the land with their rushing waters, wearing away the land.
 [Map267]
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
@@ -11834,7 +11842,7 @@ Modalità di gioco
 Modalità di gioco
 [Map273]
 <<[>>old<<]>>L'oasi di Acquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
-<<[>>old<<]>>The oasis of Ishar City is renowned for its miraculous springs. Their water is traded all over the region with the name of ''Fresh Water''.
+<<[>>old<<]>>The oasis of Ishtar City is renowned for its miraculous springs. Their water is traded all over the region with the name of ''Fresh Water''.
 <<[>>old<<]>>Bisogna portare il cibo al padrone.
 <<[>>old<<]>>I must bring food to the master.
 <<[>>old<<]>><b>Aquariopoli</b> <i>''La stella che danza nel deserto.''</i>
@@ -12123,7 +12131,7 @@ Teresa
 Bisogna portare il cibo al padrone. ... Ih ih! Scherzetto!
 I must bring food to the master.<<n>>...<<n>>Hee hee! Just kidding!
 <<[>>old<<]>>L'oasi di Aquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
-<<[>>old<<]>>The oasis of Ishar City is renowned for its miraculous springs. Their water is traded all over the region with the name of ''Fresh Water''.
+<<[>>old<<]>>The oasis of Ishtar City is renowned for its miraculous springs. Their water is traded all over the region with the name of ''Fresh Water''.
 Ahiga
 Ahiga
 Sono giunto sino a qui dalla mia <b>Capricornia</b> per poter ammirare la bellezza di quest’oasi, ma quelle impetuose raffiche di vento nel canyon mi impediscono di fare ritorno nella mia terra... Se qualcuno riuscisse a placarle, meriterebbe davvero una lauta ricompensa.
@@ -12135,7 +12143,7 @@ I'm going back to my village now!
 Lina
 Lillie
 Un, due, tre... Starmie!!
-Green Flash… Red Flash!!
+Green Flash...red Flash!!
 La regina voleva parlarti. Dovresti trovarla a nord del varco di Aquariopoli.
 The Queen wanted to talk to you. You should find her<<n>>to the north of Ishtar City's gate.
 Bentornato|a, \PN. Allora, sei riuscito|a ad incontrare il nonno?
@@ -39149,13 +39157,13 @@ Pergamena n.4
 Pergamena n.4
 695
 Perlacqua Blu
-Blue Aqua Pearl
+Blue Water Pearl
 696
 Perlacqua Rossa
-Red Aqua Pearl
+Red Water Pearl
 697
 Perlacqua Gialla
-Yellow Aqua Pearl
+Yellow Water Pearl
 701
 Chiave Saloon
 Saloon Key
@@ -44103,7 +44111,7 @@ Karim
 Baada
 Baada
 Daario
-Daario
+Daarien
 Woody
 Woody
 Titanio
@@ -44245,11 +44253,11 @@ Adriano
 Lisa
 Lisa
 Efisio
-Efisio
+Dakota
 Agul
 Agul
 Raico
-Raico
+Rokee
 Pico
 Pico
 Kris & Red
@@ -52386,7 +52394,7 @@ Quit
 Salva
 Save
 Opzioni
-Options
+Settings
 Debug
 Debug
 Would you like to leave the Safari Game right now?
@@ -53294,7 +53302,7 @@ New Game
 Mystery Gift
 Mystery Gift
 Options
-Options
+Settings
 Language
 Language
 Chiudi il gioco
@@ -56386,7 +56394,7 @@ Move / Navigate
 Interact / Confirm
 Interact / Confirm
 Cancel / Close / Menù
-Cancel / Close / Menù
+Cancel / Close / Pause menu
 Hold to Run
 Hold to Run
 Registered Item
@@ -56398,7 +56406,7 @@ Open Achievement list
 Open Pokédex
 Open Pokédex
 Open Region Map
-Open Region Map
+Open Town Map
 Teach which move to {1}?
 Teach which move to {1}?
 Hide Shiny
@@ -56606,7 +56614,7 @@ You cannot fly here.
 Un arbusto fastidioso ti blocca il cammino? Fallo a brandelli grazie al potere dell'Holo-Schyter contenuto in questa gemma!
 There's an annoying tree in your way? Cut it down using the power of Holo-Scyther held by this mineral!
 Il potente Scaleon di Oleandro, evocato dal PokéWES, ti porterà in volo nei cieli di Eldiw, permettendoti di ritornare in città gia visitate precedentemente.
-The mighty Abraham's Scaleon, summoned by the PokéWES, will soar into Eldiw's skies to fly you back to places already visited. 
+The mighty Abraham's Scaleon, invoked by the PokéWES, will soar into Eldiw's skies to fly you back to places already visited. 
 Il potere dell’Odysseum N, amplificato dal PokéWES, richiama il Lapras soccorso sull’Isola Buconero. Salendo sul suo dorso, potrai navigare anche nelle acque più profonde.
 The power of Odysseum H, amplified by the PokéWES, invokes the Lapras you rescued in Darkhole Island. With its help, you'll be able to surf in deep water.
 La forza sovrumana di Holo-Hercurcules incanalata nell'Heraclium N, permette di spostare enormi macigni che ti sbarrano la strada.
@@ -56620,7 +56628,7 @@ Would you like to choose {1} as your partner?
 Un arbusto fastidioso ti blocca il cammino? Fallo a brandelli grazie al potere dell'Holo-Scyther contenuto in questa gemma!
 There's an annoying tree in your way? Cut it down using the power of Holo-Scyther held by this mineral!
 Il potente Scaleon di Oleandro, evocato dal PokéWES, ti porterà in volo nei cieli di Eldiw, permettendoti di ritornare in città già visitate precedentemente.
-The mighty Abraham's Scaleon, summoned by the PokéWES, will soar into Eldiw's skies to fly you back to places already visited. 
+The mighty Abraham's Scaleon, invoked by the PokéWES, will soar into Eldiw's skies to fly you back to places already visited. 
 Il potere dell’Odysseum N, amplificato dal PokéWES, richiama il Lapras soccorso sull’Isola Buconero. Col suo aiuto, potrai navigare anche nelle acque più profonde.
 The power of Odysseum H, amplified by the PokéWES, invokes the Lapras you rescued in Darkhole Island. With its help, you'll be able to surf in deep water.
 You have no usable items in this pocket.

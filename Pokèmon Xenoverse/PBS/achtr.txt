@@ -24,7 +24,7 @@ Sconfiggi o cattura il leggendario Luxflon.
 Catch or defeat the legendary Pokémon Luxflon.
 Medaglia Radice
 Root Badge
-Sconfiggi il Capopalestra Danilo.
+Sconfiggi il Capopalestra Alisso.
 Defeat Hadwarf City's Gym Leader Basil.
 Pesca grossa
 Shark Attack
@@ -172,7 +172,7 @@ Sconfiggi il Cardinale Castalia.
 Defeat Cardinal Niva.
 Fascino focoso
 Fiery charm
-Sfida e sconfiggi Saul della S.PE.T.T.R.I.
+Sfida e sconfiggi Saul della S.P.E.T.T.R.I.
 Battle and defeat Salem of G.E.I.S.T.
 Folle d'amore
 Crazy, stupid, love
@@ -244,8 +244,8 @@ Cattura tutti i Pokémon di Eldiw.
 Catch all Eldiw's Pokémon.
 Plus Ultra!
 Plus Ultra!
-Sconfiggi il Campione Aster.
-Defeat Lumen Aster.
+Sconfiggi Aster in cima al Monte Zodiaco.
+Defeat Aster on the top of Mt. Zodiac.
 Uova che passione
 Egg Passion
 Schiudi almeno 50 Uova.
