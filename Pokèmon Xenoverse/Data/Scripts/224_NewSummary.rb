@@ -354,16 +354,16 @@ class PokemonSummaryScene
     textpos.push([sprintf("%3d",pokemon.ev[0]),400,80,0,Color.new(30, 214, 98)])
 		textpos.push([sprintf("%d",pokemon.ev[1]),380,122,0,Color.new(30, 214, 98)])
 		textpos.push([sprintf("%d",pokemon.ev[2]),380,147,0,Color.new(30, 214, 98)])
-		textpos.push([sprintf("%d",pokemon.ev[3]),380,171,0,Color.new(30, 214, 98)])
-		textpos.push([sprintf("%d",pokemon.ev[4]),380,197,0,Color.new(30, 214, 98)])
-    textpos.push([sprintf("%d",pokemon.ev[5]),380,222,0,Color.new(30, 214, 98)])
+		textpos.push([sprintf("%d",pokemon.ev[4]),380,171,0,Color.new(30, 214, 98)])
+		textpos.push([sprintf("%d",pokemon.ev[5]),380,197,0,Color.new(30, 214, 98)])
+    textpos.push([sprintf("%d",pokemon.ev[3]),380,222,0,Color.new(30, 214, 98)])
     #ivs
     textpos.push([sprintf("%3d",pokemon.iv[0]),440,80,0,Color.new(219, 185, 31)])
 		textpos.push([sprintf("%d",pokemon.iv[1]),420,122,0,Color.new(219, 185, 31)])
 		textpos.push([sprintf("%d",pokemon.iv[2]),420,147,0,Color.new(219, 185, 31)])
-		textpos.push([sprintf("%d",pokemon.iv[3]),420,171,0,Color.new(219, 185, 31)])
-		textpos.push([sprintf("%d",pokemon.iv[4]),420,197,0,Color.new(219, 185, 31)])
-		textpos.push([sprintf("%d",pokemon.iv[5]),420,222,0,Color.new(219, 185, 31)])
+		textpos.push([sprintf("%d",pokemon.iv[4]),420,171,0,Color.new(219, 185, 31)])
+		textpos.push([sprintf("%d",pokemon.iv[5]),420,197,0,Color.new(219, 185, 31)])
+		textpos.push([sprintf("%d",pokemon.iv[3]),420,222,0,Color.new(219, 185, 31)])
 		pbDrawTextPositions(@pages["overlay"].bitmap,textpos)
 		
 		
