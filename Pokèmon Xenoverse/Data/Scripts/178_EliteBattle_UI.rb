@@ -2676,10 +2676,10 @@ class NextGenCommandWindow
   def refreshCommands(index)
     poke = @battle.battlers[index]
     cmds = []
-    cmds.push(@safaribattle ? "BALL" : "LOTTA")
-    cmds.push(@safaribattle ? "BAIT" : "ZAINO")
-    cmds.push(@safaribattle ? "ROCK" : "POKéMON")
-    cmds.push((poke.isShadow? && poke.inHyperMode?) ? "CALL" : "FUGGI")
+    cmds.push(@safaribattle ? "BALL" : _INTL("LOTTA"))
+    cmds.push(@safaribattle ? "BAIT" : _INTL("ZAINO"))
+    cmds.push(@safaribattle ? "ROCK" : _INTL("POKéMON"))
+    cmds.push((poke.isShadow? && poke.inHyperMode?) ? "CALL" : _INTL("FUGGI"))
     bmp = pbBitmap(@path+"BATTLEMENU_SELECTED")
     echo bmp
     bitmap = Bitmap.new(240,280)

@@ -535,7 +535,7 @@ class MNScene
 		@basecolor=Color.new(255,255,255)
 		@shadowcolor=Color.new(65,113,155)
 		
-		@gemnames=["Kaiserium N","Ikarium N","Odysseum N","Heraclium N","Perseum N"]
+		@gemnames=[_INTL("Kaiserium N"),_INTL("Ikarium N"),_INTL("Odysseum N"),_INTL("Heraclium N"),_INTL("Perseum N")]
 		
 		@kaiserium=["Un arbusto fastidioso ti","blocca il cammino? Fallo a","brandelli grazie al potere","dell'Holo-Schyter"," contenuto in questa gemma!"]
 		@icarium=["Il potente Scaleon di","Oleandro, evocato dal","PokeWES,ti portera in volo","nei cieli di Eldiw,","permettendoti di ritornare","in citta gia visitate","precedentemente."]
