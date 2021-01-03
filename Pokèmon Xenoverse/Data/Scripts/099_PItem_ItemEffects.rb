@@ -244,7 +244,9 @@ ItemHandlers::UseOnPokemon.add(:HYPERPOTION,proc{|item,pokemon,scene|
    next pbHPItem(pokemon,200,scene)
 })
 
-ItemHandlers::UseOnPokemon.copy(:HYPERPOTION,:BLUMELE)
+ItemHandlers::UseOnPokemon.add(:BLUMELE,proc{|item,pokemon,scene|
+   next pbHPItem(pokemon,80,scene)
+}
 
 ItemHandlers::UseOnPokemon.add(:MAXPOTION,proc{|item,pokemon,scene|
    next pbHPItem(pokemon,pokemon.totalhp-pokemon.hp,scene)
@@ -999,7 +1001,9 @@ ItemHandlers::BattleUseOnPokemon.add(:HYPERPOTION,proc{|item,pokemon,battler,sce
    next pbBattleHPItem(pokemon,battler,200,scene)
 })
 
-ItemHandlers::BattleUseOnPokemon.copy(:HYPERPOTION,:BLUMELE)
+ItemHandlers::BattleUseOnPokemon.add(:BLUMELE,proc{|item,pokemon,battler,scene|
+   next pbBattleHPItem(pokemon,battler,80,scene)
+})
 
 ItemHandlers::BattleUseOnPokemon.add(:MAXPOTION,proc{|item,pokemon,battler,scene|
    next pbBattleHPItem(pokemon,battler,pokemon.totalhp-pokemon.hp,scene)
