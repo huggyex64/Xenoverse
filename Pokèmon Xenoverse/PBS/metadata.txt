@@ -306,7 +306,7 @@ Outdoor=false
 MapSize=3,111010010
 BattleBack=Percorso8
 Bicycle=true
-WildVictoryME=001-Victory01.mid
+WildVictoryME=Sconfitta Pokemon.mp3
 TrainerBattleBGM=vs.Trainer.mp3
 MapPosition=0,22,6
 DarkMap=false
@@ -2891,6 +2891,7 @@ WildBattleBGM=Wild Battle.mp3
 # Percorso 12
 BattleBack=Percorso8
 Bicycle=true
+WildVictoryME=Sconfitta Pokemon.mp3
 MapPosition=0,22,4
 Outdoor=true
 WildBattleBGM=Wild Battle.mp3
