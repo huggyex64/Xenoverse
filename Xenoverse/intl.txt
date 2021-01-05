@@ -6514,7 +6514,7 @@ No
 Miltank
 Miltank
 Muuu...!
-Muuu...!
+Moo...!
 Osvaldo
 Osvaldo
 Il destino spesso lo si incontra proprio sulla strada presa per evitarlo.
@@ -6697,11 +6697,11 @@ leader of the Ghost Emergency and Ignition Suppression Team, or ''<b>G.E.I.S.T.<
 Stai cercando il Capopalestra <b>Crisante</b>, vero? Beh, in tal caso non lo troverai qui. Da qualche giorno dei bastardi di nero vestiti hanno bloccato l'accesso a varie zone, tra cui la Palestra. Non ho idea di chi siano o di cosa vogliano dai cittadini...
 You're looking for Gym Leader <b>Caspar</b>, aren't you? Well, you're not gonna find him here.<<n>>Some black clothed bastards have been blocking access<<n>>to some areas, Gym included, for a few days.<<n>>I have no idea who they are nor what they want from<<n>>the citizens...
 Come dici?! Quei disgraziati fanno parte del malvagio Team Dimension?! Forse <b>Maurice</b> potrebbe saperne qualcosa... Quel tipo è un geniaccio di prim'ordine!
-What are you saying?! Those perros hail from that damn<<n>>Team Dimension?!<<n>><b>Chrysler</b>may know something about it...<<n>>That guy is a top-tier genius!
+What are you saying?! Those perros hail from that damn<<n>>Team Dimension?!<<n>><b>Chrysler</b> may know something about it...<<n>>That guy is a top-tier genius!
 Oh, idea! Ti va di conoscere i restanti membri della mia squadriglia? Sai, la S.P.E.T.T.R.I. è in stretto contatto con lo Sceriffo Crisante, potremmo aiutarti a incontrarlo... Il motivo è presto detto. La nostra combriccola svolge una duplice funzione di tutela della città... durante il giorno, ci occupiamo di eventuali incendi civili, ma al vespro siamo degli acchiappa-fantasmi!
-Ah, I've got an idea! Do you wanna meet the other members of my squad?<<n>>Y'know, G.E.I.S.T. works alongside Sheriff Caspar,<<n>>so we could help you meet him...<<n>>And I'll tell you why right away. Our group is tasked with<<n>>a double faced city patrol duty...<<n>>During the day, we handle the occasional fire, but<<n>>after dark we are ghost-busters!
+Ah, I've got an idea! Do you wanna meet the other members<<n>>of my squad?<<n>>Y'know, G.E.I.S.T. works alongside Sheriff Caspar,<<n>>so we could help you meet him...<<n>>And I'll tell you why right away. Our group is tasked with<<n>>a double faced city patrol duty...<<n>>During the day, we handle the occasional fire, but<<n>>after dark we are ghost-busters!
 Un lavoro del genere è essenziale in un posto come <b>Scorpiopoli</b>, costantemente infestato dagli spettri, perciò lo Sceriffo nutre molta stima per la nostra equipe. Ándale, vieni in caserma che te li presento!
-A job like ours is vital in a constantly haunted place<<n>>like <b>Westar City</b>,<<n>>so the Sheriff holds a lot of respect for our team. Ándale,<<n>>come inside the firehouse for the meet-and-greet!
+A job like ours is vital in a constantly haunted place<<n>>like <b>Westar City</b>,<<n>>so the Sheriff holds a lot of respect for our team.<<n>>Ándale, come inside the firehouse for the meet-and-greet!
 <<[>>old<<]>>Forse sarebbe meglio raggiungere Silvia alla Caserma S.P.E.T.T.R.I....
 <<[>>old<<]>>Maybe you should join Minta in G.E.I.S.T. Firehouse...
 <<[>>old<<]>>C'è scritto "Saloon Torobrado". Il resto è illeggibile...
@@ -6869,7 +6869,7 @@ Hey, Chrysler! Will you even look at us?!<<n>>Say hi to our gue-
 Maurice
 Chrysler
 Lui||ei è \PN, un Allenatore di cui ha fatto la conoscenza nei pressi del <b>Saloon Torobrado</b>. Il||La ragazzo|a è in città per sfidare lo Sceriffo Crisante, ma una di quelle Reclute del Team Dimension, coinvolto nei fatti di cronaca degli ultimi tempi, blocca l'ingresso alla Palestra. È per questo che lo|a ha condotto|a qui in Caserma.
-He is|||||She's \PN, a Pokémon Trainer you met him||er<<n>>in <b>Wild Bull Saloon</b>'s vicinities.<<n>>The kid has come in this town to challenge Sheriff Caspar, but some Team Dimension Grunts,<<n>>involved in the recent events, block the gate to the Gym.<<n>>That's the reason why you led him||er here.
+He is|||||She's \PN, a Pokémon Trainer you met<<n>>in <b>Wild Bull Saloon</b>'s vicinities.<<n>>The kid has come in this town to challenge Sheriff Caspar, but some Team Dimension Grunts,<<n>>involved in the recent events, block the gate to the Gym.<<n>>That's the reason why you led him||er here.
 Maurice! Mi stavi per caso pedinando?
 Chrysler! Were you spying on me or something?
 Negativo, capitano! Semplicemente, il suo ricetrasmettitore era in funzione a sua insaputa...
@@ -6893,7 +6893,7 @@ Shut up, you two! Let Chrysler speak, he must have his reasons!
 ... Capitano, ha registrato uno strano campo elettromagnetico nell'area del Saloon Torobrado, vero?
 ...Captain, you have captured a strange magnetic field<<n>>in the Wild Bull Saloon area, right?
 Beh, sì. Ripensandoci, era una presenza davvero anormale, molto più intensa del solito... Ma quando è arrivato|a \PN non c'ho più fatto caso.
-Yeah, I have. On second thought, it was a really<<n>>abnormal presence, way more intense than usual...<<n>>But when \PN arrived, I completely forgot about it
+Yeah, I have. On second thought, it was a really<<n>>abnormal presence, way more intense than usual...<<n>>But when \PN arrived, I completely forgot about it.
 Ecco, vedi?! Un'occasione buttata al vento per colpa di 'sto|a moccioso|a!
 See?! A chance thrown under the bus, and it's all<<n>>this squirt's fault!
 Buster! Metti a tacere quell’arrogante di Saul!!
@@ -6927,13 +6927,13 @@ I-I have a really bad feeling...I'm so scared right now...
 Cosa aspettiamo allora? Tutti al saloon!
 What are we waiting for? To the saloon!
 Escogiteremo un piano per liberarci di quest'entità malvagia una volta lì.
-We'll come up with a plan to get rid of that entity once we get there.
+We'll come up with a plan to get rid of that entity once<<n>>we get there.
 \PN, dalle mie fonti risulta che tu sia qui in città per sfidare il Capopalestra Crisante. Con le mie conoscenze potrei riprogrammare i robot del Team Dimension, per liberare la Palestra... Ma noi abbiamo bisogno del tuo aiuto tanto quanto tu necessiti del nostro... perciò, ti chiedo di aiutarci in questa spedizione.
 \PN, my sources indicate that you are here to challenge<<n>>Gym Leader Caspar.<<n>>My knowledge might be enough to reprogram Team Dimension's robots, so we could free the Gym...<<n>>But we need your help just as much as you need ours... so, I'm asking you to assist us on this mission.
 Troppe chiacchiere per i miei gusti qui... L'ultimo che arriva è un Garbodor!
 I'm sick of all this chit-chat...the last one that gets there<<n>>smells like a Garbodor!
 Hombre! Sempre il solito avventato! Saul, giuro che te le suono!
-Hombre! He's always so reckless! Salem, I swear I'm going to give you a lesson!
+Hombre! He's always so reckless! Salem, I swear I'm gonna<<n>>give you a lesson!
 \PN, noi ci avviamo verso il Saloon Torobrado.
 \PN, we are going to Wild Bull Saloon.
 Ti aspetteremo lì, sempre che tu sia disposto|a ad accettare le nostre condizioni.
@@ -6951,11 +6951,11 @@ Bienvenido|a to the G.E.I.S.T. Firehouse!
 È da qui che monitoriamo la città per sventare incendi o infestazioni con efficienza!
 Here we monitor the city to thwart fires or infestations efficiently!
 Avevo detto che ti avrei presentato i miei collaboratori, vieni conmigo. Ne approfitto per mostrarti anche le varie stanze della caserma. Vamos!
-I said I'd introduce you to my co-workers,<<n>>so ven conmigo.<<n>>I'll show you the other rooms of the firehouse while I'm at it. Vamos!
+I said I'd introduce you to my co-workers,<<n>>so ven conmigo.<<n>>I'll show you the other rooms of the firehouse while<<n>>I'm at it. Vamos!
 <i>Dannato Santana!</b>
 <i>Dannato Santana!</b>
 <<[>>old<<]>>Ci sono diversi codici di programmazione, molti terminano con ''Bzz!''.
-<<[>>old<<]>>Ci sono diversi codici di programmazione, molti terminano con ''Bzz!''.
+<<[>>old<<]>>A lot of programming codes... many of them end with ''Bzz!''.
 Al piano di sopra dovrebbe esserci qualche altro membro della squadra. Andiamo!
 Other members of the team should be upstairs. Let's go!
 <<[>>old<<]>>Non c'è niente...
@@ -7038,9 +7038,9 @@ Ciao, \PN! Quel Pokémon che ci ha sbalzati via era davvero enorme... Ma scommet
 È stata davvero una bella festa!
 È stata davvero una bella festa!
 <<[>>old<<]>>È il diario di Will. Vuoi dare un'occhiata?
-<<[>>old<<]>>È il diario di Will. Vuoi dare un'occhiata?
+<<[>>old<<]>>It's Will's diary. Do you want to take a look?
 <<[>>old<<]>>''Ogni giorno cerco di farmi forza, ma non credo di essere all'altezza di questa squadra... Se solo ci fossi tu, papà.''
-<<[>>old<<]>>''Ogni giorno cerco di farmi forza, ma non credo di essere all'altezza di questa squadra... Se solo ci fossi tu, papà.''
+<<[>>old<<]>>''Everyday I try to be brave, but I don't think I deserve to be part of this team... I wish you were here, dad.''
 <<[>>old<<]>>È un Nintendo Switch nuovo di zecca! Al suo interno vi è un gioco chiamato ''Kidoon's Mansion 3''.
 <<[>>old<<]>>A brand new Nintendo Switch! There's a game in the slot: ''Kidoon's Mansion 3''.
 Silvia
@@ -7082,7 +7082,7 @@ Let's go back downstairs, \PN. It's time to meet<<n>>our last partner!
 <<[>>old<<]>>Non c'è niente...
 <<[>>old<<]>>There's nothing here...
 <<[>>old<<]>>In questo PC è salvata la cronologia di Saul. Vuoi leggerla?
-<<[>>old<<]>>In questo PC è salvata la cronologia di Saul. Vuoi leggerla?
+<<[>>old<<]>>Hey! It's Salem's browsing history. Do you want to read it?
 Sì
 Yes
 No
@@ -12271,7 +12271,7 @@ Who goes around comes around, \PN. Wrong place,<<n>>wrong time, as always, huh?
 Ah, e così te la fai coi mocciosi guastafeste adesso! Saresti proprio da rottamare...
 Ah, so you're dealing with this buzzkill now!<<n>>You are to be scrapped...
 Bah, dato che proprio non ne vuoi sapere, sarò costretta a portarti dal Generale con la forza!
-Bah, since you don’t cooperate, I'll have to take you<<n>>to the General by force!
+Bah, since you don't cooperate, I'll have to take you<<n>>to the General by force!
 Ovviamente non sarò io a occuparmi di te. Non vorrei mai risultare impresentabile al mio amato superiore, perciò...
 But I'm not gonna deal with you, of course. I never wanna<<n>>be a mess in front of my beloved boss, so...
 A & B, pensateci voi qui! Kyah ah ah!
@@ -12313,7 +12313,7 @@ And the same goes for you, mister-NewtronLibrary.png!
 Non abbiamo dimenticato la figuraccia che ci hai fatto fare! <i>Roger!</i>
 We haven't forgotten the fool you made of us! <i>Roger!</i>
 Nonostante possa contare sul nuovo potere di <b>Sabolt</b>, da solo non la spunterei tanto facilmente...
-Even though I can count on <b>Sabolt</b>'s newfound power, I wouldn't be able to win out that easy on my own...
+Even though I can count on <b>Sabolt</b>'s newfound power,<<n>>I wouldn't be able to win out that easy on my own...
 Ehi, \PN! Non avrei mai immaginato di chiederti qualcosa di simile, ma... Ho bisogno del tuo aiuto per sconfiggere questi due insopportabili pagliacci!
 Hey, \PN! I never thought I'd ask you such a thing,<<n>>but...<<n>>I need your help to take down these two annoying clowns!
 E così avete deciso di fare comunella, eh? Mi dispiace deludervi, ma stavolta non finirà come quella volta al campus... Vero, B?
@@ -12331,9 +12331,9 @@ E-Error.
 E lo stesso vale per te, miss-BibliotecaAriepoli.png!
 And the same goes for you, miss-NewtronLibrary.png!
 <i>FR4T3LL0N3... error.exe</i> <i>S0N0_TR0PP0_F0RT1.mp4</i>
-<i>BR0TH3R... error.exe</i><<n>><i>THEY_4RE_T00_STR0N6.mp4</i>
+<i>BR0TH3R...error.exe</i><<n>><i>THEY_4RE_T00_STR0N6.mp4</i>
 <i>D4NN4T1... 01000010</i> <i>M3GL10 R1T1R4R51... P3R 1L M0M_3NT0_</i>
-<i>D4MM1T... 01000010</i><<n>><i>B3TT3R R3TR34T... F0R TH3 M0M_3NT_</i>
+<i>D4MM1T...01000010</i><<n>><i>B3TT3R R3TR34T...F0R TH3 M0M_3NT_</i>
 Tsk! Finalmente hanno girato i tacchi... Basta una sconfitta a farli crashare, che ridicoli! Ptù!
 Tch! They finally get the hell out of here... Ridiculous,<<n>>just a defeat and they crash! Ptui!
 Rapidash
@@ -12371,7 +12371,7 @@ Tch! I'm sick of all this sob stuff...
 E tu, Rapidash, che farai ora?
 And now, Rapidash, what will you do?
 A giudicare dal battito cardiaco e dal respiro affannato, ora non desideri altro che vendicarti di ciò che il Team Dimension ha fatto a te, ma soprattutto al tuo cucciolo... Mi sbaglio?
-Judging by your heartbeat and the heavy breathing,<<n>>all you wanna do now is get back at Team Dimension<<n>>for what it has done to you, but especially to your baby...<<n>>am I wrong?
+Judging by your heartbeat and the heavy breathing,<<n>>all you wanna do now is get back at Team Dimension<<n>>for what it has done to you, but especially to your baby...am I wrong?
 Raaaah!!
 Raaaah!!
 La voglia di combattere certamente non ti manca...
