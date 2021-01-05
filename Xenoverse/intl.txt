@@ -3045,7 +3045,7 @@ We did lose, but at least we got our job done.<<n>><i>Roger-roger</i>, dummies!
 La lastra sembra aver perso tutto il suo colore originario...
 It seems the plate has lost all its original color...
 Ho letto molti libri al riguardo, ma non credevo che dietro quelle storie ci fosse un fondo di verità! Tu hai ottenuto l'essenza stessa del pianeta Terra: il <b>Codice Terrestre</b>! Quell’energia, contenuta nel tuo orecchino, ha permesso al tuo Pokémon di evolversi! Inoltre, la lastra si è tramutata in un anello...
-I've read a lot of books about it, but I've never thought<<n>>there was any truth in those tales!<<n>>You got the very essence of planet Earth--<<n>>the <b>Terrestrial Core</b>!<<n>>The energy enshrined in your earring allowed<<n>>your Pokémon to evolve!<<n>>And it seems the plate turned into a ring...
+I've read a lot of books about it, but I've never thought<<n>>there was any truth in those tales!<<n>>You got the very essence of planet Earth--<<n>>the <b>Earth Core</b>!<<n>>The energy enshrined in your earring allowed<<n>>your Pokémon to evolve!<<n>>And it seems the plate turned into a ring...
 Senza quello probabilmente l'evoluzione non avviene e il tuo Pokémon rimane allo stadio base. Affascinante! Spero di rivedere questo potere in azione, magari nella sfida della mia Palestra! Ci becchiamo, bei capelli!
 Probably, without that, the evolution does not occur and<<n>>your Pokémon stays at its basic-stage. Amazing!<<n>>I hope to see this power in action once again, possibly<<n>>in my Gym challenge! See you later, haircut! 
 <<[>>old<<]>>GO-GO, GRANBULLS!
@@ -5630,7 +5630,7 @@ Victor wasn't a skillful Trainer, but to make up for it<<n>>he was a first-class
 A poco a poco, lo staff del laboratorio si impreziosì di nuovi collaboratori, divenendo noto in tutta Eldiw. Tra questi c'era anche il celebre <b>Aster</b>, ai tempi un ragazzetto della tua età circa, ritenuto un assistente ottimo e particolarmente brillante.
 Step by step, the lab's staff enriched with new co-workers and became well-known all over Eldiw.<<n>>Among them was the renowned <b>Aster</b>,<<n>>a kid about your age back then,<<n>>who was considered an excellent and particularly bright assistant.
 Insomma, tuo padre faceva il lavoro dei suoi sogni, assieme ai suoi amici e alla sua splendida famiglia. Poi però accadde l'impensabile... Quello che porti all'orecchio è il <b>Codice Terrestre</b>, vero?
-In short, your father was doing his dream job,<<n>>along with his friends and with a splendid family.<<n>>But then, the unthinkable... What you're wearing in<<n>>your ear is the <b>Terrestrial Core</b>, isn't it?
+In short, your father was doing his dream job,<<n>>along with his friends and with a splendid family.<<n>>But then, the unthinkable... What you're wearing in<<n>>your ear is the <b>Earth Core</b>, isn't it?
 Direi dunque che tu sia a conoscenza dei recenti attacchi dei Pokémon X... Negli ultimi tempi, sono diventati all'ordine del giorno, ma la loro scoperta non è cosa recente... furono proprio tuo padre e Victor a farla!
 Therefore, I shall say you are aware of the recent attacks by X Pokémon...<<n>>They have become commonplace nowadays,<<n>>but their discovery is not a recent thing...<<n>>Your father and Victor made it!
 Creature provenienti da chissà quale universo... La mente dell'uomo poteva spingersi oltre! Versil era convinto che questi esemplari andassero allevati come normalissimi Pokémon. Victor, però, aveva ideali del tutto opposti.
@@ -5775,7 +5775,7 @@ Abraham
 Ehi! \PN, mi sen...i?! D...i to...are indie...o! Il port... sta per chiu...rsi!
 Hey! \PN, can you he--r me?! You ha--e to com--ack!<<n>>The gat- is cl-sing!
 <<[>>old<<]>>L'Alter si è tramutato nell'essenza dello Xenoverse... È il Codice Xenoverse!
-<<[>>old<<]>>The Alter turned into the essence of the Xenoverse... It's the Xenoversal Core!
+<<[>>old<<]>>The Alter turned into the essence of the Xenoverse... It's the Xenoverse Core!
 <<[>>old<<]>>La proiezione negativa del tuo Pokémon si è tramutata in un anello... È l'Anello Xenoverse!
 <<[>>old<<]>>The negative projection of your Pokémon turned into a ring... It's the Xenoversal Ring!
 Continui a restarmi vicina nonostante tutto... Qu-Questa cosa mi rende... mi rende... felice...
@@ -5792,7 +5792,7 @@ I took you here to ensure you obtain a power that<<n>>goes far beyond the one yo
 Grazie ad essa, sarai in grado di sprigionare tutto il potenziale del tuo Pokémon! Per entrarne in possesso, però, dovrai oltrepassare i confini dell'uomo...
 Thanks to that, you will be able to unlock the full potential<<n>>of your Pokémon!<<n>>In order to be given this power, however, you have to cross the limits of man...
 \PN, vedi quell'enorme cascata? Quella che scorre non è acqua, ma <b>Energia Terrestre</b>. Con quella, lo stesso Luxflon tenta di tappare le falle tra questo e l'altro mondo. Solo chi è in possesso del <b>Codice Terrestre</b>, può perciò addentrarsi nello Xenovarco dietro di essa. Per farlo, dev'essere inoltre pregno di una certa dose di risentimento... Non ho dunque sapere di ciò che affronterai laggiù, né tantomeno potrò prestarti soccorso. Ricorda, però... Senza il bene non può esistere il male e viceversa... È questa la chiave per imbrigliare l'<b>Energia Blu</b>!
-\PN, you see that enormous cascade there? That's not<<n>>water flowing--it's <b>Terrestrial Energy</b>.<<n>>It's Luxflon itself trying to patch the rifts between<<n>>this world and the other.<<n>>Only those who possess the <b>Terrestrial Core</b> can therefore walk through the Xeno Gate behind it.<<n>>But to do that, you must be impregnated with a certain amount of grudge...<<n>>That's why I don't know what you’re going to face in there or even give you any help.<<n>>Remember though... Without good, there is no evil<<n>>and vice versa...<<n>>This is the key to harness <b>Blue Energy</b>!
+\PN, you see that enormous cascade there? That's not<<n>>water flowing--it's <b>Terrestrial Energy</b>.<<n>>It's Luxflon itself trying to patch the rifts between<<n>>this world and the other.<<n>>Only those who possess the <b>Earth Core</b> can therefore walk through the Xeno Gate behind it.<<n>>But to do that, you must be impregnated with a certain amount of grudge...<<n>>That's why I don't know what you’re going to face in there or even give you any help.<<n>>Remember though... Without good, there is no evil<<n>>and vice versa...<<n>>This is the key to harness <b>Blue Energy</b>!
 Ora però basta ciance, è il momento di agire!
 Enough with the lollygagging now, it's time to act!
 Qualsiasi cosa accada, fidati sempre delle capacità tue e dei tuoi Pokémon. Addentrati laggiù e torna trionfante, con un nuovo e incredibile potere!
@@ -5876,7 +5876,7 @@ Are you sure that mommy can't be the one who tells him?
 Hippoo...!
 Hippoo...!
 Dit...Hippo!
-Dit... Hippo!
+Dit...Hippo!
 Silvana
 Nora
 Ho sempre vissuto da sola, ma i miei Hippopotas mi hanno aiutato a patire meno la solitudine. I Pokémon sono davvero delle creature straordinarie!
@@ -5969,83 +5969,95 @@ Ora però fuori dai piedi! Abbiamo tanto di cui discutere.
 55G
 55G
 L'abbiamo acciuffato, <b>Colonnello</b>! <i>Bzz!</i>
-L'abbiamo acciuffato, <b>Colonnello</b>! <i>Bzz!</i>
+We nabbed it, <b>Colonel</b>! <i>Bzz!</i>
 ???
 ???
 Kyah ah ah! Ben fatto, miei cari robottini!
-Kyah ah ah! Ben fatto, miei cari robottini!
+Kya ha ha! Good job, my fellow robots!
 Allora, Rapidash... Hai cambiato idea ora?
-Allora, Rapidash... Hai cambiato idea ora?
+So, Rapidash...have you changed your mind now?
 Rapidash
 Rapidash
 Raaaaaah!!
 Raaaaaah!!
 E pensi che questo basti a spaventarmi?
-E pensi che questo basti a spaventarmi?
+You think this is enough to scare me?
+Se solo proverai a torcermi un capello, il tuo figlioletto farà una brutta fine! Kyah ah ah!
+If you even try to touch me, just know your little baby<<n>>will pay for it! Kya ha ha!
 E lo stesso succederà se non collabori, chiaro?
-E lo stesso succederà se non collabori, chiaro?
+And so if you don't cooperate, all right?
 <<[>>old<<]>>Quello è il Team Dimension! Sembra proprio che stia tormentando Rapidash... Vuoi intervenire?
-<<[>>old<<]>>Quello è il Team Dimension! Sembra proprio che stia tormentando Rapidash... Vuoi intervenire?
+<<[>>old<<]>>That's Team Dimension! It seems to be harassing Rapidash... Do you want to step in?
 Tu
-Tu
+You
 Oh, ma guarda un po'! Chi abbiamo qui?
-Oh, ma guarda un po'! Chi abbiamo qui?
+Oh, look at that! Who have we here?
 Ehi, tu! Questo non è il posto adatto ai mocciosi, smamma! Kyah ah ah!
-Ehi, tu! Questo non è il posto adatto ai mocciosi, smamma! Kyah ah ah!
+Hey, kid! This is not a playground, so scram! Kya ha ha!
 Codice rosso! Codice rosso! <i>Bzz!</i>
-Codice rosso! Codice rosso! <i>Bzz!</i>
+Code red! Code red! <i>Bzz!</i>
+<b>Colonnello</b>, quello non è un moccioso qualsiasi... È l'Allenatore che ha dato rogne ai <b>Sergenti</b>!
+<b>Colonel</b>, that's not some random kid...that's the Trainer who has given a hard time to the <b>Sergeants</b>!
 Ah, così sei tu il famoso guastafeste di cui tanto si parla!
-Ah, così sei tu il famoso guastafeste di cui tanto si parla!
+Oh, so you're the famous buzzkill I've heard so much about!
 Ma che fortuna sfacciata!
-Ma che fortuna sfacciata!
+This must be my lucky day!
 Il <b>Generale</b> sarebbe fiero della sua <b>Tamara</b> se sapesse che ha tolto dai piedi un simile impiccio!
-Il <b>Generale</b> sarebbe fiero della sua <b>Tamara</b> se sapesse che ha tolto dai piedi un simile impiccio!
+The <b>General</b> would be proud of his <b>Dahlia</b> if he knew that she got such an annoying bug out of his way!
 Tamara
 Dahlia
 Se a tutto ciò aggiungiamo anche la cattura di ben due Pokémon X...
-Se a tutto ciò aggiungiamo anche la cattura di ben due Pokémon X...
+And if we add the capture of two X Pokémon to all this...
+Kyah, già arrossisco dalle attenzioni che mi darà!
+Kyah! I'm already blushing with the attention he'll give me!
 Ma questo bel visino non si sporcherà certo le mani...!
-Ma questo bel visino non si sporcherà certo le mani...!
+But this pretty face will certainly not get her hands dirty...!
 Rapidash! Se ci tieni all'incolumità del tuo cucciolo, occupati di questo moccioso e vedi di farlo nero!
-Rapidash! Se ci tieni all'incolumità del tuo cucciolo, occupati di questo moccioso e vedi di farlo nero!
+Rapidash! If you really care about your baby's safety,<<n>>take care of this pipsqueak and beat him down!
 Oh, e così non ne vuoi proprio sapere? E va bene, l'hai voluto tu...
-Oh, e così non ne vuoi proprio sapere? E va bene, l'hai voluto tu...
+Oh, so you want no part of this? All right, you asked for it...
 Robottini, fate il vostro dovere!
-Robottini, fate il vostro dovere!
+My robots, do your duty!
 90Y
 90Y
 Agli ordini, Colonnello! <i>Bzz!</i>
-Agli ordini, Colonnello! <i>Bzz!</i>
+Aye, Colonel! <i>Bzz!</i>
 Ponyta
 Ponyta
 Ponyyyy!
 Ponyyyy!
 Oh! Ma che meraviglia! Il nostro bel cavallino ci nascondeva una forma così potente!
-Oh! Ma che meraviglia! Il nostro bel cavallino ci nascondeva una forma così potente!
+Yowza! That's terrific! Our pretty horsie was keeping<<n>>such a powerful form from us!
+Finché avremo questo Ponyta nelle nostre mani saremo al sicuro... Lo stesso non si può dire di te, moccioso!
+As long as we have this Ponyta in our hands, we’re gonna be safe...but I can't say the same for you, maggot!
 Forza, mamma Rapidash! Fammi vedere cosa sei capace di fare per i tuoi cari bambini!
-Forza, mamma Rapidash! Fammi vedere cosa sei capace di fare per i tuoi cari bambini!
+C'mon, Rapidash mommy! Let's see what you can do<<n>>for your dear babies!
 Ah, così sei tu la famosa guastafeste di cui tanto si parla!
-Ah, così sei tu la famosa guastafeste di cui tanto si parla!
+Oh, so you're the famous buzzkill I've heard so much about!
 Rapidash! Se ci tieni all'incolumità del tuo cucciolo, occupati di questa mocciosa e vedi di farla nera!
-Rapidash! Se ci tieni all'incolumità del tuo cucciolo, occupati di questa mocciosa e vedi di farla nera!
+Rapidash! If you really care about your baby's safety,<<n>>take care of this pipsqueak and beat her down!
+Finché avremo questo Ponyta nelle nostre mani saremo al sicuro... Lo stesso non si può dire di te, mocciosa!
+As long as we have this Ponyta in our hands, we’re gonna be safe...but I can't say the same for you, maggot!
 Ponyyyy...!
 Ponyyyy...!
 Raaah...!
 Raaah...!
 Dannazione! Dannazioneee!! Rapidash, sei una vera delusione! Farei solo una figuraccia portandoti dal <b>Generale</b>...!
-Dannazione! Dannazioneee!! Rapidash, sei una vera delusione! Farei solo una figuraccia portandoti dal <b>Generale</b>...!
+Dammit! Dammiiit!! Rapidash, you're so<<n>>disappointing!<<n>>I'd just make a fool of myself by taking you to<<n>>the <b>General</b>...!
 Qui si mette male, meglio svignarsela...
-Qui si mette male, meglio svignarsela...
+Yikes, we'd better get out of here...
 Mocciosetto, hai solo avuto fortuna!
-Mocciosetto, hai solo avuto fortuna!
+Hey brat, you just got lucky!
+Ti darei volentieri una bella lezione, ma il mio caro Generale mi aspetta con ansia a <b>Scorpiopoli</b>, perciò non ho tempo da perdere, chiaro? In marcia, miei cari robottini! Ritirata!
+I'd really like to teach you a lesson, but my beloved General is looking forward to me in <b>Westar City</b>,<<n>>so I have no time for this, understand?<<n>>March on, my fellow robots! Retreat!
 23GT
 23GT
 Pony...!
 Pony...!
 <<[>>old<<]>>Sembra quasi che Rapidash e Ponyta ti stiano ringraziando dell'aiuto...
-<<[>>old<<]>>Sembra quasi che Rapidash e Ponyta ti stiano ringraziando dell'aiuto...
+<<[>>old<<]>>Rapidash and Ponyta seem to be thanking you for your help...
 Mocciosetta, hai solo avuto fortuna!
-Mocciosetta, hai solo avuto fortuna!
+Hey brat, you just got lucky!
 Efisio
 Dakota
 Spiegherò le mie ali e mi librerò in volo!
@@ -6053,7 +6065,7 @@ I will spread my wings and take flight!
 Forse non è mio destino volare...
 Maybe flying is not in my fate...
 D’altronde se la natura non mi ha donato delle ali, ci sarà un motivo.
-After all there's a reason why Nature didn't give me the gift of wings.
+After all there's a reason why Nature didn't give me<<n>>the gift of wings.
 Alaid
 Alaid
 Oh, qualcuno è riuscito a scovarmi!
@@ -6151,13 +6163,13 @@ Shyleon
 Shyyy!!
 Shyyy!!
 Vedo che sei riuscito|a ad ottenere il <b>Codice</b> <b>Xenoverse</b>... Perché non provi subito il nuovo potere, \PN? Forza, dai l'Anello al tuo Pokémon iniziale!
-I see you managed to get the <b>Xenoversal Core</b>...<<n>>Why don't you try the new power right now, \PN?<<n>>Go on, give the Ring to your starter Pokémon!
+I see you managed to get the <b>Xenoverse Core</b>...<<n>>Why don't you try the new power right now, \PN?<<n>>Go on, give the Ring to your starter Pokémon!
 <<[>>old<<]>>Assegna l'Anello Xenoverse al tuo Pokémon iniziale e mettilo in testa alla squadra per continuare.
 <<[>>old<<]>>Give the Xenoversal Ring to your starter Pokémon and put it on top of your party to continue.
 Guarda, il tuo Pokémon ha cambiato forma!
 Look, your Pokémon has changed form!
 È dunque questa l'essenza del Codice Xenoverse...
-So this is the essence of the Xenoversal Core...
+So this is the essence of the Xenoverse Core...
 Il tuo Pokémon ha un aspetto del tutto diverso, molto più selvaggio e animalesco, proprio perché lo Xenoverse non conosce sviluppo.
 Your Pokémon has a whole different look,<<n>>more savage and more animal,<<n>>just like the Xenoverse, which knows no development.
 Bravo|a, \PN. Hai saputo imbrigliare il tuo odio per diventare più forte... Su, va' a prendere il tuo Pokémon. Si torna a Cansiria!
@@ -6238,7 +6250,7 @@ Bravo! You've seen the Cofagrigus at the entrance, right?<<n>>So...<<n>>Wrong an
 Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
 What? You want to know who I am? And why?<<n>>You just need to know I'm cheering for you!
 Non ti sei lasciato|a ammaliare dalla bellezza della Capopalestra e hai avuto la meglio. Ora che hai quattro Medaglie, sei esattamente a metà strada!
-Non ti sei lasciato|a ammaliare dalla bellezza della Capopalestra e hai avuto la meglio. Ora che hai quattro Medaglie, sei esattamente a metà strada!
+You didn't let the beauty of the Gym Leader bewitch you<<n>>and you got the better of her.<<n>>Now you have four Badges, you're exactly halfway<<n>>in your Trainer journey!
 Fuoco
 Fire
 Acqua
@@ -6263,11 +6275,11 @@ Baada
 Oh oh! Sei riuscito|a a decifrare l’antica lingua degli Unown?
 Oh! You managed to decode the ancient Unown language!
 Pensavo fossimo gli unici a saperla leggere...
-I thought we were the only ones that could read it...
+I thought we were the only ones who could read it...
 Abbas
 Abbas
 Eccoti, sfidante. La sfida della Palestra Marea è strutturata secondo i giochi dei nostri avi... Il primo che affronterai è denominato ''la salita del Farfetch'd''. Il piano è disseminato di pedane con su l’effigie di vari Pokémon, sulle quali dovrai farti strada.
-Here you come, challenger. The challenge of the Ishtar Gym is based on our ancestors' games...<<n>>The first one you are going to challenge is called<<n>>''the game of Farfetch'd''.<<n>>The floor is dotted with platforms depicting the effigy of various Pokemon, where you need to find your way on.
+Here you come, challenger. The challenge of the Ishtar Gym<<n>>is based on our ancestors' games...<<n>>The first one you are going to challenge is called<<n>>''the game of Farfetch'd''.<<n>>The floor is dotted with platforms depicting the effigy of various Pokemon, where you need to find your way on.
 Solo decifrando e interpretando nella giusta maniera gli indizi su questi pilastri, saprai quale via seguire. Se invece farai un passo falso, beh, scoprirai a tue spese la sorte che ti spetta. Per questo gioco è tutto! Cerca di non finire tra le fauci del lupo, Allenatore!
 Only by reading and decrypting in the right way the clues on these pillars, you will know which road to take.<<n>>But if you miss your step, you will find out on your own<<n>>the fate you're destined to.<<n>>And that's all for this game! Try your best and watch your steps, Trainer!
 Cheris
@@ -6281,9 +6293,9 @@ This is the lesson that Unown are trying to teach us since ancient times.
 Daario
 Daarien
 La fortuna non esiste. Esiste solo il momento in cui il talento incontra l’opportunità.
-Luck does not exist. Exist a moment when preparation meets opportunity.
+Luck does not exist. Exist a moment when preparation<<n>>meets opportunity.
 La fortuna sorride ad alcuni e ride di altri.
-Fortune smiles on one man or the other... but never on both.
+Fortune smiles on one man or the other...but never on both.
 [Map144]
 <<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
 <<[>>old<<]>>There's something inside this ancient jar.
@@ -6300,7 +6312,7 @@ Shu...!
 Ebi
 Ebi
 La regina è il nostro sole e noi faremo di tutto per far sì che splenda radiosa!
-The Queen is our sun and we'll do everything in our power to let her shine bright!
+The Queen is our sun and we'll do everything in our power<<n>>to let her shine bright!
 Nessuno potrà spegnere la sua luce...!
 No one will ever extinguish her light...!
 Ghali
@@ -6337,7 +6349,7 @@ I've never been particularly good at crosswords...
 Abbas
 Abbas
 Se sei riuscito|a a giungere sino a qui, significa che hai superato con successo la prima sfida. Complimenti. Ora passiamo al secondo gioco, la ''dama Unown''.
-You've been able to reach here. This means you have completed the first challenge. Congrats.<<n>>Now let's move to the second game, the ''Unown checkers''.
+You've been able to reach here. This means you have completed the first challenge. I'm impressed.<<n>>Now let's move to the second game, the ''Unown checkers''.
 Le regole sono semplicissime: dovrai spostarti tra le caselle, seguendo l’alfabeto Unown dalla A alla Z. Tuttavia...
 The rules are simple: you have to move on the squares following the Unown writing, from A to Z.<<n>>However...
 Il percorso è irto d'insidie e potresti dover ripercorrere più volte i tuoi passi... L’intuito e la fortuna sono la chiave di questo gioco!
@@ -6404,11 +6416,13 @@ Exegg...!
 Abbas
 Abbas
 Hai superato con incredibile maestria anche il secondo gioco.
-You've skillfully overcome the second challenge, too. Now,<<n>>there is just the third and final game of this Gym...<<n>>...the ''palm tree game''.
+You've skillfully overcome the second challenge, too.
+Ora non rimane che la terza ed ultima sfida della Palestra, il ''gioco della palma''.
+Now, there is just the third and final game of this Gym...<<n>>the ''palm tree game''.
 Come puoi vedere, questa zona è verde e rigogliosa, per merito dell’acqua miracolosa che vi sgorga. Questa, però, per i suoi nutrienti, attira qui anche gli <b>Exeggutor</b> da molto lontano. Sono proprio loro i protagonisti del gioco!
 As you can see, this area of the pyramid is green and lush due to the miraculous water flowing here.<<n>>This water, with its rich nutrients, also attracts a type of <b>Exeggutor</b> from far away.<<n>>They are the real stars of this game!
 Sotto alcuni di essi, infatti, si celano delle stanze, nelle quali dovrai recuperare le <b>Perlacqua</b>. Solo ottenendole tutte e tre, potrai finalmente raggiungere la regina!
-Some of them hide the access to a few rooms, inside which you have to get three <b>Water Pearls</b>.<<n>>Only when you have all three of them, you'll finally be able to reach the Queen!
+Some of them hide the access to a few rooms, inside which<<n>>you have to get three <b>Water Pearls</b>.<<n>>Only when you have all three of them, you'll finally be able to reach the Queen!
 Non mi resta che augurarti buona fortuna, \PN.
 I can only wish you well, \PN.
 Ecco, ora mi vedi nelle vesti di Abbas, Consigliere della regina, ma in realtà mi conosci con un altro nome... <b>Joele</b>!
@@ -6438,15 +6452,17 @@ What's the reason? Well, in the end, a defenseless Lillipup will be wolfed down 
 La tua squadra è stata impetuosa come uno tsunami!
 Your power rushed me like a torrent!
 Che battaglia entusiasmante...
-Che battaglia entusiasmante...
+What a great battle...
 \PN, sei davvero formidabile e farai ancora molta strada, ne sono certa! Con questa Medaglia sei già a quota quattro, non sei più un Allenatore qualsiasi.
-\PN, sei davvero formidabile e farai ancora molta strada, ne sono certa! Con questa Medaglia sei già a quota quattro, non sei più un Allenatore qualsiasi.
+That was awfully good...you will go really far, \PN,<<n>>I'm sure about it!<<n>>With my Badge, you already got four of them, so you're not an average Trainer anymore.
 È la <b>Medaglia Marea</b>, emblema della mia Palestra e della tua vittoria. Ho anche un altro piccolo dono da farti.
-È la <b>Medaglia Marea</b>, emblema della mia Palestra e della tua vittoria. Ho anche un altro piccolo dono da farti.
+That's the <b>Tidal Badge</b>, the emblem of my Gym as well as your victory today.<<n>>And I have a small gift for you, too.
 Questa MT contiene <b>Idrovampata</b>, una mossa di tipo Acqua che può anche scottare l'avversario. È molto potente, ma può rivelarsi un'arma a doppio taglio se utilizzata su un Pokémon congelato.
-Questa MT contiene <b>Idrovampata</b>, una mossa di tipo Acqua che può anche scottare l'avversario. È molto potente, ma può rivelarsi un'arma a doppio taglio se utilizzata su un Pokémon congelato.
+This TM contains <b>Scald</b>, a Water-type move that can also leave the enemy with a burn.<<n>>It's a powerful attack, but it may turn in a double-edged sword if used on a frozen Pokémon.
 Ora hai tutte le carte in regola per inoltrarti nell'arido <b>Canyon Asteroide</b>! Dirigiti ad est, ma fa' attenzione, mi raccomando.
-Ora hai tutte le carte in regola per inoltrarti nell'arido <b>Canyon Asteroide</b>! Dirigiti ad est, ma fa' attenzione, mi raccomando.
+Well, you got what it takes to venture into the arid<<n>><b>Sunflare Canyon</b>!<<n>>Head east, but please be careful.
+Con questo potere nelle tue mani, gli avversari che ti si pareranno dinanzi saranno sempre più temibili! Buon viaggio e sappi che, se ne avrai bisogno, sarò sempre pronta a dare una mano!
+Now you have that new power in your hands, the enemies<<n>>on your path will be more and more terrible.<<n>>I wish you safe travels...just know that I'll be ready to<<n>>lend a helping hand whenever you need!
 Ciao, \PN! Il nonno mi ha detto che sei riuscito|a a sconfiggerlo e a scalare la vetta del Monte Zodiaco. I miei complimenti!
 Ciao, \PN! Il nonno mi ha detto che sei riuscito|a a sconfiggerlo e a scalare la vetta del Monte Zodiaco. I miei complimenti!
 Sono ancora tanti i misteri da svelare in questa regione, perciò continua a vivere la tua avventura con la grinta che ti contraddistingue, mi raccomando!
@@ -6456,7 +6472,7 @@ Anche in questa Palestra si nasconde un segreto, sai? Per scovarlo, però, ti se
 Sono certa che con il tuo spirito d’osservazione riuscirai a trovarlo in un batter d’occhio! Buona ricerca.
 Sono certa che con il tuo spirito d’osservazione riuscirai a trovarlo in un batter d’occhio!  Buona ricerca.
 <<[>>old<<]>>Questo Exeggutor sembra avere un'indole amichevole. Alzando la zampa, mostra un passaggio segreto.
-<<[>>old<<]>>Questo Exeggutor sembra avere un'indole amichevole. Alzando la zampa, mostra un passaggio segreto.
+<<[>>old<<]>>This Exeggutor looks friendly. It lifted its leg showing a hidden entrance. 
 La regina non si offenderà se faccio il tifo per te. Coraggio, \PN!
 The Queen will excuse me if I'm rooting for you.<<n>>Keep going, \PN!
 Ero certo avessi stoffa da vendere!
@@ -6512,15 +6528,15 @@ Silverio
 La mia casa ha preso fuoco all’improvviso, ma ci ha pensato la <b>S.P.E.T.T.R.I.</b> a domare l’incendio! Guarda, laggiù c’è la loro caserma!
 La mia casa ha preso fuoco all’improvviso, ma ci ha pensato la <b>S.P.E.T.T.R.I.</b> a domare l’incendio! Guarda, laggiù c’è la loro caserma!
 <<[>>old<<]>>El Purgatorio, Palestra di Scorpiopoli Capopalestra: <b>Crisante</b> <i>''Alle calcagna del crimine come un'ombra!''</i> Allenatori Certificati: 0
-<<[>>old<<]>>El Purgatorio, Palestra di Scorpiopoli Capopalestra: <b>Crisante</b> <i>''Alle calcagna del crimine come un'ombra!''</i> Allenatori Certificati: 0
+<<[>>old<<]>>El Purgatorio, Westar Gym\nGym Leader: <b>Caspar</b>\n<i>''Chasing crimes like a shadow!''</i>\nCertified Trainers: 0
 <<[>>old<<]>>El Purgatorio, Palestra di Scorpiopoli Capopalestra: <b>Crisante</b> <i>''Alle calcagna del crimine come un'ombra!''</i> Allenatori Certificati: \PN
-<<[>>old<<]>>El Purgatorio, Palestra di Scorpiopoli Capopalestra: <b>Crisante</b> <i>''Alle calcagna del crimine come un'ombra!''</i> Allenatori Certificati: \PN
+<<[>>old<<]>>El Purgatorio, Westar Gym\nGym Leader: <b>Caspar</b>\n<i>''Chasing crimes like a shadow!''</i>\nCertified Trainers: \PN
 Bernardo
 Bernardo
 Questo posto mette i brividi! Per non parlare del Capopalestra...
 Questo posto mette i brividi! Per non parlare del Capopalestra...
 <<[>>old<<]>><b>Scorpiopoli</b> <i>''Tra nuvole di sabbia e di polvere...''</i>
-<<[>>old<<]>><b>Scorpiopoli</b> <i>''Tra nuvole di sabbia e di polvere...''</i>
+<<[>>old<<]>><b>Westar City</b>\n<i>''Amid the clouds of sand and dust...''</i>
 Tina
 Tina
 E vattene!! ... Ah, pensavo fossi quel maledetto fantasma che mi tormenta. Prendi qua e scusami, eh!
@@ -6532,7 +6548,7 @@ Camilo
 Cosa ti porta qui a Scorpiopoli, gringo|a? Questa non è una città adatta ai turisti...
 Cosa ti porta qui a Scorpiopoli, gringo|a? Questa non è una città adatta ai turisti...
 <<[>>old<<]>>Casa di Crisante
-<<[>>old<<]>>Casa di Crisante
+<<[>>old<<]>>Caspar's House
 Norberto
 Norberto
 Il lavoro nei campi è tosto... ma cosa ne vuole sapere un cittadino come te?!
@@ -6544,9 +6560,9 @@ Il lavoro nei campi è tosto... ma cosa ne vuole sapere un cittadino come te?!
 C02
 C02
 Da qui non si passa! <i>Bzz!</i>
-Da qui non si passa! <i>Bzz!</i>
+Off limits! <i>Bzz!</i>
 <<[>>old<<]>>Saloon Torobrado ad est
-<<[>>old<<]>>Saloon Torobrado ad est
+<<[>>old<<]>>East: Wild Bull Saloon
 Maura
 Maura
 Sto facendo il bucato con l’acqua del pozzo... Che te ne serve un po’? To’, prendi!
@@ -6572,7 +6588,7 @@ Non vorrei mai finire in quella catorbia laggiù... Mi mette i brividi!
 DD4
 DD4
 <<[>>old<<]>>Cimitero di Scorpiopoli ''Luogo di eterno riposo per i Pokémon.''
-<<[>>old<<]>>Cimitero di Scorpiopoli ''Luogo di eterno riposo per i Pokémon.''
+<<[>>old<<]>>Westar Cemetery ''The place of eternal respite for Pokémon.''
 Chiara
 Chiara
 Come accidenti hai fatto a perdere la tua <b>Campana Mumu</b>? E ora io dove la trova un'altra?
@@ -6594,7 +6610,7 @@ Favel
 Quel campagnolo mi ha offerto riparo presso la sua stalla. Diceva che nessuno si è mai lamentato, ma ho i miei dubbi...
 Quel campagnolo mi ha offerto riparo presso la sua stalla. Diceva che nessuno si è mai lamentato, ma ho i miei dubbi...
 <<[>>old<<]>>Caserma S.P.E.T.T.R.I. ''Squadra Paranormale Emergenza e Tutela Territori per Roghi e Infestazioni.''
-<<[>>old<<]>>Caserma S.P.E.T.T.R.I. ''Squadra Paranormale Emergenza e Tutela Territori per Roghi e Infestazioni.''
+<<[>>old<<]>>G.E.I.S.T. Firehouse ''Ghost Emergency and Ignition Suppression Team''
 Mauro
 Mauro
 Talvolta ho come l'impressione che delle ombre mi stiano alle calcagna... succede anche a te? Devono essere dei Pokémon Spettro che si divertono a tormentarci!
@@ -6628,7 +6644,7 @@ Brando
 I pericolosi criminali segregati in questa prigione vi rimarranno finché non avranno espiato le loro colpe.
 I pericolosi criminali segregati in questa prigione vi rimarranno finché non avranno espiato le loro colpe.
 <<[>>old<<]>>Gola Steelix a nord
-<<[>>old<<]>>Gola Steelix a nord
+<<[>>old<<]>>North: Steelix Gorge
 Gary
 Gary
 Il mio Raticate è venuto a mancare anni fa...
@@ -6665,29 +6681,31 @@ La cittadina è stata edificata attorno a questo antico cimitero. È per questo 
 ???
 ???
 Mmh... Questa presenza occulta è diversa da quelle rilevate finora...
-Mmh... Questa presenza occulta è diversa da quelle rilevate finora...
+Hmm...this being is different from the ones we found before...
 Oh, finalmente sei arrivato, <b>Will</b>! Anche tu registri delle strane onde elettromagnetiche?
-Oh, finalmente sei arrivato, <b>Will</b>! Anche tu registri delle strane onde elettromagnetiche?
+Oh! You're finally here, <b>Will</b>! Are you receiving strange electromagnetic waves as well?
 Ma tu non sei il niñito! Chi sei, chico|a?
-Ma tu non sei il niñito! Chi sei, chico|a?
+You're not the niñito! Who are you, chico|a?
 \PN... Sei un Allenatore?
-\PN... Sei un Allenatore?
+\PN...are you a Trainer?
 Silvia
-Silvia
+Minta
 Piacere, io sono <b>Silvia</b>,
-Piacere, io sono <b>Silvia</b>,
+Nice to meet you, I'm <b>Minta</b>,
+il capitano della Squadra Paranormale di Emergenza e Tutela Territori per Roghi e Infestazioni, in breve ''<b>S.P.E.T.T.R.I.</b>''!
+leader of the Ghost Emergency and Ignition Suppression Team, or ''<b>G.E.I.S.T.</b>'', for short!
 Stai cercando il Capopalestra <b>Crisante</b>, vero? Beh, in tal caso non lo troverai qui. Da qualche giorno dei bastardi di nero vestiti hanno bloccato l'accesso a varie zone, tra cui la Palestra. Non ho idea di chi siano o di cosa vogliano dai cittadini...
-Stai cercando il Capopalestra <b>Crisante</b>, vero? Beh, in tal caso non lo troverai qui. Da qualche giorno dei bastardi di nero vestiti hanno bloccato l'accesso a varie zone, tra cui la Palestra. Non ho idea di chi siano o di cosa vogliano dai cittadini...
+You're looking for Gym Leader <b>Caspar</b>, aren't you? Well, you're not gonna find him here.<<n>>Some black clothed bastards have been blocking access<<n>>to some areas, Gym included, for a few days.<<n>>I have no idea who they are nor what they want from<<n>>the citizens...
 Come dici?! Quei disgraziati fanno parte del malvagio Team Dimension?! Forse <b>Maurice</b> potrebbe saperne qualcosa... Quel tipo è un geniaccio di prim'ordine!
-Come dici?! Quei disgraziati fanno parte del malvagio Team Dimension?! Forse <b>Maurice</b> potrebbe saperne qualcosa... Quel tipo è un geniaccio di prim'ordine!
+What are you saying?! Those perros hail from that damn<<n>>Team Dimension?!<<n>><b>Chrysler</b>may know something about it...<<n>>That guy is a top-tier genius!
 Oh, idea! Ti va di conoscere i restanti membri della mia squadriglia? Sai, la S.P.E.T.T.R.I. è in stretto contatto con lo Sceriffo Crisante, potremmo aiutarti a incontrarlo... Il motivo è presto detto. La nostra combriccola svolge una duplice funzione di tutela della città... durante il giorno, ci occupiamo di eventuali incendi civili, ma al vespro siamo degli acchiappa-fantasmi!
-Oh, idea! Ti va di conoscere i restanti membri della mia squadriglia? Sai, la S.P.E.T.T.R.I. è in stretto contatto con lo Sceriffo Crisante, potremmo aiutarti a incontrarlo... Il motivo è presto detto. La nostra combriccola svolge una duplice funzione di tutela della città... durante il giorno, ci occupiamo di eventuali incendi civili, ma al vespro siamo degli acchiappa-fantasmi!
+Ah, I've got an idea! Do you wanna meet the other members of my squad?<<n>>Y'know, G.E.I.S.T. works alongside Sheriff Caspar,<<n>>so we could help you meet him...<<n>>And I'll tell you why right away. Our group is tasked with<<n>>a double faced city patrol duty...<<n>>During the day, we handle the occasional fire, but<<n>>after dark we are ghost-busters!
 Un lavoro del genere è essenziale in un posto come <b>Scorpiopoli</b>, costantemente infestato dagli spettri, perciò lo Sceriffo nutre molta stima per la nostra equipe. Ándale, vieni in caserma che te li presento!
-Un lavoro del genere è essenziale in un posto come <b>Scorpiopoli</b>, costantemente infestato dagli spettri, perciò lo Sceriffo nutre molta stima per la nostra equipe. Ándale, vieni in caserma che te li presento!
-<<[>>old<<]>>Una misteriosa presenza blocca l'accesso...
-<<[>>old<<]>>Una misteriosa presenza blocca l'accesso...
+A job like ours is vital in a constantly haunted place<<n>>like <b>Westar City</b>,<<n>>so the Sheriff holds a lot of respect for our team. Ándale,<<n>>come inside the firehouse for the meet-and-greet!
+<<[>>old<<]>>Forse sarebbe meglio raggiungere Silvia alla Caserma S.P.E.T.T.R.I....
+<<[>>old<<]>>Maybe you should join Minta in G.E.I.S.T. Firehouse...
 <<[>>old<<]>>C'è scritto "Saloon Torobrado". Il resto è illeggibile...
-<<[>>old<<]>>C'è scritto "Saloon Torobrado".  Il resto è illeggibile...
+<<[>>old<<]>>It says ''Wild Bull Saloon''. Everything else is unreadable...
 [Map152]
 Garcia
 Garcia
@@ -6837,7 +6855,7 @@ Sì
 Yes
 [Map161]
 Silvia
-Silvia
+Minta
 Seguimi, forza!
 Seguimi, forza!
 Questa zona è praticamente il cuore della caserma... il laboratorio! Qui archiviamo le informazioni relative alle zone colpite da fenomeni paranormali, studiando notte e giorno strumenti per contrastarli. Ma cosa saremmo senza il nostro cervellone!
@@ -6851,7 +6869,7 @@ Sai, è a conoscenza di tutte le tecnologie in giro e riesce a riprodurle con un
 Ehi, Maurice! Vuoi almeno degnarci di uno sguardo?! Saluta il||la nostro|a osp...
 Ehi, Maurice! Vuoi almeno degnarci di uno sguardo?! Saluta il||la nostro|a osp...
 Maurice
-Maurice
+Chrysler
 Lui||ei è un Allenatore di Pokémon, che risponde al nome di \PN. Ha un’abilità sopra la norma e ne hai fatto la conoscenza nei pressi del <b>Saloon Torobrado</b>. Il||La ragazzo|a è qui in città per sfidare lo Sceriffo Crisante, ma delle Reclute del Team Dimension, coinvolto nei fatti di cronaca degli ultimi tempi, bloccano l'ingresso alla Palestra. Per questo motivo hai condotto \PN fin qui, per escogitare una soluzione a tale problema.
 Lui||ei è un Allenatore di Pokémon, che risponde al nome di \PN. Ha un’abilità sopra la norma e ne hai fatto la conoscenza nei pressi del <b>Saloon Torobrado</b>. Il||La ragazzo|a è qui in città per sfidare lo Sceriffo Crisante, ma delle Reclute del Team Dimension, coinvolto nei fatti di cronaca degli ultimi tempi, bloccano l'ingresso alla Palestra. Per questo motivo hai condotto \PN fin qui, per escogitare una soluzione a tale problema.
 Maurice! Mi stavi per caso pedinando?
@@ -6865,7 +6883,7 @@ Non c'è tempo! La città corre un grave rischio!
 Eh? Potresti essere più chiaro, Maurice?
 Eh? Potresti essere più chiaro, Maurice?
 Saul
-Saul
+Salem
 Ehi, Mauriyama! Perché mi hai chiamato? Spero per te che sia qualcosa di importante!
 Ehi, Mauriyama! Perché mi hai chiamato? Spero per te che sia qualcosa di importante!
 Will
@@ -6915,23 +6933,25 @@ Hombre! Sempre il solito avventato! Saul, giuro che te le suono!
 \PN, noi ci avviamo verso il Saloon Torobrado.
 \PN, noi ci avviamo verso il Saloon Torobrado.
 Seguimi, \PN.
-Seguimi, \PN.
+Follow me, \PN.
 Revolver
 Revolver
 Bzz!
-Bzz!
+<i>Bzz!</i>
 Hola, \PN! Ti aspettavo!
-Hola, \PN! Ti aspettavo!
+Hola, \PN! I've been waiting for you!
 Bienvenido|a nella Caserma S.P.E.T.T.R.I.!
-Bienvenido|a nella Caserma S.P.E.T.T.R.I.!
+Bienvenido|a to the G.E.I.S.T. Firehouse!
+È da qui che monitoriamo la città per sventare incendi o infestazioni con efficienza!
+Here we monitor the city to thwart fires or infestations efficiently!
 Avevo detto che ti avrei presentato i miei collaboratori, vieni conmigo. Ne approfitto per mostrarti anche le varie stanze della caserma. Vamos!
-Avevo detto che ti avrei presentato i miei collaboratori, vieni conmigo. Ne approfitto per mostrarti anche le varie stanze della caserma. Vamos!
+I said I'd introduce you to my co-workers,<<n>>so ven conmigo.<<n>>I'll show you the other rooms of the firehouse while I'm at it. Vamos!
 <i>Dannato Santana!</b>
 <i>Dannato Santana!</b>
 <<[>>old<<]>>Ci sono diversi codici di programmazione, molti terminano con ''Bzz!''.
 <<[>>old<<]>>Ci sono diversi codici di programmazione, molti terminano con ''Bzz!''.
 Al piano di sopra dovrebbe esserci qualche altro membro della squadra. Andiamo!
-Al piano di sopra dovrebbe esserci qualche altro membro della squadra. Andiamo!
+Other members of the team should be upstairs. Let's go!
 <<[>>old<<]>>Non c'è niente...
 <<[>>old<<]>>There's nothing here...
 ...
@@ -7020,27 +7040,29 @@ Ciao, \PN! Quel Pokémon che ci ha sbalzati via era davvero enorme... Ma scommet
 Silvia
 Silvia
 Questa è la zona relax. Qui ci concediamo un po' di meritato riposo dopo le nostre missioni.
-Questa è la zona relax. Qui ci concediamo un po' di meritato riposo dopo le nostre missioni.
+This is the relaxation area. This is where we enjoy<<n>>some well deserved rest after our missions.
 Oh, guarda. C'è <b>Will</b>!
-Oh, guarda. C'è <b>Will</b>!
+Oh, look. It's <b>Will</b>!
+Ehi, tutto bene? Sembra tu abbia visto un fantasma...
+Hey, is everything ok? You look like you've seen a ghost...
 Oh... C-Ciao, Silvia...
-Oh... C-Ciao, Silvia...
+Oh... H-Hi, Minta..
 Che succede?
-Che succede?
+What's wrong?
 N-Niente, ho solo fatto un brutto sogno... Ah! Sorellona, chi è lui||ei?
-N-Niente, ho solo fatto un brutto sogno... Ah! Sorellona, chi è lui||ei?
+N-Nothing, I just had a bad dream...<<n>>Ah! Sis, who's this?
 Oh, hai ragione! Niñito, ti presento \PN, è un Allenatore di Pokémon!
-Oh, hai ragione! Niñito, ti presento \PN, è un Allenatore di Pokémon!
+Oh, you're right!<<n>>Niñito, this is \PN--a Pokémon Trainer!
 Wow! D-Dici sul serio? A parte Silvia e Saul, non ne ho mai visti da queste parti... P-Piacere, io sono Will.
-Wow! D-Dici sul serio? A parte Silvia e Saul,  non ne ho mai visti da queste parti... P-Piacere, io sono Will.
+Wow! A-Are you serious? Besides Minta and Salem,<<n>>I've never seen other Trainers around here...<<n>>N-Nice to meet you, I'm Will.
 Come vedi, il nostro Will è molto timido, ma in compenso è un ragazzino d'oro!
-Come vedi, il nostro Will è molto timido, ma in compenso è un ragazzino d'oro!
+As you can see, our Will here is very shy,<<n>>but he's a sweet boy to boot!
 C-Così mi fai arrossire, Silvia... M-Ma grazie dei complimenti...
-C-Così mi fai arrossire, Silvia... M-Ma grazie dei complimenti...
+Y-You're making me blush, Minta...b-but thanks for<<n>>the compliments...
 È la verità! Ah ah! \PN, devi sapere che è stato il padre di Will a fondare la S.P.E.T.T.R.I. Dobbiamo tutto a lui!
-È la verità! Ah ah! \PN, devi sapere che è stato il padre di Will a fondare la S.P.E.T.T.R.I. Dobbiamo tutto a lui!
+It's the truth! Ha ha! \PN, you must know that<<n>>G.E.I.S.T. was founded by Will's father.<<n>>We owe everything to him!
 Papà però è venuto a mancare qualche anno fa...
-Papà però è venuto a mancare qualche anno fa...
+Dad passed away a few years back, though...
 Will, non dire così! Lo sai che non è vero! Devi avere più fiducia in te stesso!
 Will, non dire così! Lo sai che non è vero! Devi avere più fiducia in te stesso!
 G-Grazie, sorellona... Ci proverò, promesso.
@@ -7061,13 +7083,13 @@ No
 No
 [Map163]
 <<[>>old<<]>>È uno dei tanti riconoscimenti ottenuti dalla squadra di Silvia.
-<<[>>old<<]>>È uno dei tanti riconoscimenti ottenuti dalla squadra di Silvia.
+<<[>>old<<]>>It's one of the many achievements obtained by Minta's team.
 Buster
 Buster
 Blast...!
 Blast...!
 Silvia
-Silvia
+Minta
 Hola, \PN! Il nostro ultimo incontro è stato un po' turbolento, vero? A proposito... Se incontri Santana, suonagliele da parte mia! Ci ha fatto fare una figuraccia!
 Hola, \PN! Il nostro ultimo incontro è stato un po' turbolento, vero? A proposito... Se incontri Santana, suonagliele da parte mia! Ci ha fatto fare una figuraccia!
 Hola, \PN! Che bello vederti! Cosa ci fai da queste parti?
@@ -7085,62 +7107,68 @@ Che possa in qualche modo richiamare quel Pokémon che il proprietario nascondev
 Che quel <b>Registratore</b> possa richiamare il Pokémon che il proprietario nascondeva...?
 Che quel <b>Registratore</b> possa richiamare il Pokémon che il proprietario nascondeva...?
 <<[>>old<<]>>In mezzo agli scaffali era nascosta una lettera. Vuoi leggerla?
-<<[>>old<<]>>In mezzo agli scaffali era nascosta una lettera. Vuoi leggerla?
+<<[>>old<<]>>There's a letter between the shelves. Do you want to read it?
 <<[>>old<<]>>''Cara Silvia, sto per partire alla volta di una spedizione assai rischiosa. Semmai non dovessi fare ritorno, promettimi che ti occuperai di mio figlio Will, coltivando il suo talento. Firmato: Ben''
-<<[>>old<<]>>''Cara Silvia, sto per partire alla volta di una spedizione assai rischiosa. Semmai non dovessi fare ritorno, promettimi che ti occuperai di mio figlio Will, coltivando il suo talento. Firmato: Ben''
+<<[>>old<<]>>''Dear Minta, I'm about to embark on a highly dangerous expedition. If I were to never come back, please promise me you’re going to take care of my son Will, and nurture his talent.\n-Ben''
 <<[>>old<<]>>Sembrerebbero i progetti di una nuova arma per la caccia ai fantasmi...
-<<[>>old<<]>>Sembrerebbero i progetti di una nuova arma per la caccia ai fantasmi...
+<<[>>old<<]>>These look like projects for a new weapon for hunting ghosts...
 Questo è il mio ufficio!
-Questo è il mio ufficio!
+This is my office!
 Non sarà il massimo, ma ci conservo tutti i riconoscimenti ottenuti dalla squadra.
-Non sarà il massimo, ma ci conservo tutti i riconoscimenti ottenuti dalla squadra.
+It may not be much, but I keep all the team's achievements here.
 Laggiù invece c'è uno dei membri del nostro gruppetto... Dai, te lo presento!
-Laggiù invece c'è uno dei membri del nostro gruppetto... Dai, te lo presento!
+Over there is one of the members of our group...<<n>>C'mon, I'll introduce you!
 Lui è <b>Buster</b>, il mio fidato Blastoise, nonché migliore amico!
-Lui è <b>Buster</b>, il mio fidato Blastoise, nonché migliore amico!
+This is <b>Buster</b>, my trusty Blastoise, and my best friend!
 Buster però non è un comune Blastoise... Li vedi i cannoni nel suo carapace?
-Buster però non è un comune Blastoise... Li vedi i cannoni nel suo carapace?
+Buster is no common Blastoise, though...<<n>>You see the cannons on its shell?
+Di ritorno da una missione, ci imbattemmo in dei teppisti che malmenavano un povero Cubone... Il mio Pokémon subito si parò dinanzi al piccoletto per difenderlo da quelle canaglie, ma purtroppo... quei desperados riuscirono a spezzargli i cannoni!
+While returning from a mission, we met some punks<<n>>who were harassing a poor Cubone...<<n>>My Pokémon immediately put itself in front of the little guy to protect it from those perros, but alas...<<n>>those desperados managed to break its cannons!
 Buster, senza la sua arma principale, non riusciva più a dare il meglio di sé nelle missioni... Perciò Maurice, il cervellone della combriccola, progettò delle protesi artificiali per lui. Quel gordo però riesce sempre a sorprendermi...
-Buster, senza la sua arma principale, non riusciva più a dare il meglio di sé nelle missioni... Perciò Maurice, il cervellone della combriccola, progettò delle protesi artificiali per lui. Quel gordo però riesce sempre a sorprendermi...
+Buster, without its best weapon, couldn't put all itself<<n>>in our missions...<<n>>So Chrysler, the team's brain, invented some artificial<<n>>prosthetics for it.<<n>>That gordo never stops surprising me...
+Non gli bastò ricreare dei cannoni per sparare getti d'acqua ad alta pressione... Aggiunse una funzione di aspirazione all'interno, l'ideale per intrappolare gli spettri! In un primo momento, Buster si trovò disorientato da questo suo nuovo potere, ma col tempo ha imparato a gestirlo alla perfezione. Dico bene, amigo?
+He wasn't content with just creating cannons to shoot<<n>>high-pressured water...<<n>>He added a vacuum function, the ideal function for<<n>>ghost hunting!<<n>>At first, Buster was a little confused by its new power,<<n>>but with time it learned how to handle it perfectly.<<n>>Isn't that right, amigo?
 Eh eh! Come vedi, siamo molto affiatati.
-Eh eh! Come vedi, siamo molto affiatati.
+Heh heh! As you can see, we're two peas in a pod.
 Beh, qui non c'è altro. Non penso t'interessino le scartoffie! Proseguiamo col nostro giretto.
-Beh, qui non c'è altro. Non penso t'interessino le scartoffie! Proseguiamo col nostro giretto.
+Well, there's not much else here. I don’t think you're interested in papers! Let's keep going.
 Sì
 Yes
 No
 No
 [Map164]
 <<[>>old<<]>>Meglio non toccare, sembra roba delicata...
-<<[>>old<<]>>Meglio non toccare, sembra roba delicata...
+<<[>>old<<]>>Better not touch it, this stuff looks fragile...
 <<[>>old<<]>>Sembrerebbero i progetti di una nuova arma per la caccia ai fantasmi...
-<<[>>old<<]>>Sembrerebbero i progetti di una nuova arma per la caccia ai fantasmi...
+<<[>>old<<]>>These look like projects for a new weapon for hunting ghosts...
 <<[>>old<<]>>Diversi modelli di Pistole Kidoon.
-<<[>>old<<]>>Diversi modelli di Pistole Kidoon.
+<<[>>old<<]>>Various models of Kidoon Guns.
 <<[>>old<<]>>Davvero un bell'acchiappafantasmi!
-<<[>>old<<]>>Davvero un bell'acchiappafantasmi!
+<<[>>old<<]>>Now that's a ghost-buster!
 Silvia
-Silvia
+Minta
 Qui ci troviamo nel garage che funge da deposito per le nostre armi contro gli spettri, nonché per i pezzi di ricambio dei nostri veicoli.
-Qui ci troviamo nel garage che funge da deposito per le nostre armi contro gli spettri, nonché per i pezzi di ricambio dei nostri veicoli.
+We're now in the garage that functions as the storage room both for our weapons for ghost-hunting,<<n>>and for spare parts for our vehicles.
 Ehi, biondo! Non vedi che abbiamo visite?! Fa' il bravo padrone di casa e presentati, su!
-Ehi, biondo! Non vedi che abbiamo visite?! Fa' il bravo padrone di casa e presentati, su!
+Hey, blondie! Don't you see we have guests?!<<n>>Be a good host and introduce yourself, c'mon!
 ???
 ???
 Silvia, non ti scaldare. È solo un tappetto dopotutto...
-Silvia, non ti scaldare. È solo un tappetto dopotutto...
+No need to get so riled up, Minta. He is|||||She's just a squirt after all...
 Tsk! Questo cabrón è <b>Saul</b>, uno spericolato alla guida dei veicoli della S.P.E.T.T.R.I. e...
-Tsk! Questo cabrón è <b>Saul</b>, uno spericolato alla guida dei veicoli della S.P.E.T.T.R.I. e...
+Tch! This cabrón is <b>Salem</b>,  the reckless who drives G.E.I.S.T. vehicles and-
 Saul
-Saul
+Salem
 Silvia, non serve dilungarsi troppo... Ti basta dire che sono muy hermoso! Ah ah ah!
-Silvia, non serve dilungarsi troppo... Ti basta dire che sono muy hermoso! Ah ah ah!
+No need to make it that long, Minta...you just need to say<<n>>that I'm muy hermoso! Ha ha ha!
 Sempre il solito sbruffone, Saul.
-Sempre il solito sbruffone, Saul.
+A boaster as usual, Salem.
 Eddai, Silvia. Perché negare l'evidenza?
-Eddai, Silvia. Perché negare l'evidenza?
+C'mon, Minta. No point in hiding the truth, right?
+Comunque ragazzino|a, il capitano voleva dire che sono il più coraggioso membro della squadra! Niente mi fa paura, che siano fiamme o spettri li spazzerò via col mio fascino! Ah ah ah!
+Anyway, kiddo, what the captain wanted to say was that<<n>>I'm the bravest member of this team!<<n>>Nothing scares me, may they be fires or ghosts,<<n>>I'll blow them away with my charm! Ha ha ha!
 Fattelo dire, Saul... Sei davvero irrecuperabile. Dai, \PN. Andiamo via da quest'idiota.
-Fattelo dire, Saul... Sei davvero irrecuperabile. Dai, \PN. Andiamo via da quest'idiota.
+No offense, Salem...but you're hopeless.<<n>>C'mon, \PN. Let's leave this idiot here.
 <<[>>old<<]>>C'è solo spazzatura...
 <<[>>old<<]>>Just garbage...
 Guarda un po' chi si vede!
@@ -10805,7 +10833,7 @@ Colt
 In sella al mio destriero, cavalcherò anche nella più impetuosa delle burrasche!
 I'll face even the most violent storm while riding my steed!
 Anche le cadute da cavallo fanno parte della vita di un Cowboy.
-Falling is also part of everyday's life as a Cowboy.
+Also fall are part of the daily life of a Cowboy.
 Pico
 Pico
 Ho lasciato da poco il nido, ma il mio becco è bello affilato, puoi contarci!
@@ -10815,15 +10843,15 @@ Time to get back to the nest...
 Malaka
 Malaka
 <<[>>old<<]>>Soffia un vento di burrasca...
-<<[>>old<<]>>Soffia un vento di burrasca...
+<<[>>old<<]>>A gale wind is blowing...
 <<[>>old<<]>><b>Canyon Asteroide</b> <i>''Il tortuoso e torrido cammino del sole.''</i>
-<<[>>old<<]>><b>Canyon Asteroide</b> <i>''Il tortuoso e torrido cammino del sole.''</i>
+<<[>>old<<]>><b>Sunflare Canyon</b>\n<i>''The torrid winding path of the sun.''</i>
 Ponyta
 Ponyta
 Pony...!
 Pony...!
 <<[>>old<<]>>Questo strano Ponyta sembra molto impaurito... Vuoi prestargli soccorso?
-<<[>>old<<]>>Questo strano Ponyta sembra molto impaurito... Vuoi prestargli soccorso?
+<<[>>old<<]>>This weird Ponyta looks very frightened... Do you want to rescue it?
 Rapidash
 Rapidash
 Raaaaah!!
@@ -10831,45 +10859,51 @@ Raaaaah!!
 Raaah...!
 Raaah...!
 <<[>>old<<]>>Si sono dileguati per il canyon...
-<<[>>old<<]>>Si sono dileguati per il canyon...
+<<[>>old<<]>>They vanished through the canyon...
 ???
 ???
 Ti piace prendertela coi cuccioli indifesi adesso? Uh uh uh!
-Ti piace prendertela coi cuccioli indifesi adesso? Uh uh uh!
+You like picking on runty little babies now? Huh huh huh!
 Trey
 Trey
 Cos'è quella faccia, pivello? Hai per caso visto un fantasma? Rilassati, non ho alcuna intenzione di sfidarti... non ancora, perlomeno.
-Cos'è quella faccia, pivello? Hai per caso visto un fantasma? Rilassati, non ho alcuna intenzione di sfidarti... non ancora, perlomeno.
+What's that face, noob? You look like you've seen<<n>>a ghost.<<n>>Relax, I'm not interested in challenging you...<<n>>not yet, at least.
 Tu, piuttosto, hai del talento per immischiarti ogni volta nei piani del Team Dimension, eh? Uh uh!
-Tu, piuttosto, hai del talento per immischiarti ogni volta nei piani del Team Dimension, eh? Uh uh!
+You rather, must have some talent to meddle in Team Dimension's business every single time. Huh huh!
 Quella <b>Rapidash</b> che hai sfidato poco fa dev'essere la madre di quel <b>Ponyta</b>... Deve averti attaccato perché pensava stessi facendo del male al suo piccolo.
-Quella <b>Rapidash</b> che hai sfidato poco fa dev'essere la madre di quel <b>Ponyta</b>... Deve averti attaccato perché pensava stessi facendo del male al suo piccolo.
+That <b>Rapidash</b> you challenged earlier must be<<n>>that <b>Ponyta</b>'s mother...<<n>>I'm assuming it attacked you just because it thought<<n>>you were hurting its baby.
+Coincidenza o meno, anche quegli idioti che giocano a fare i cattivoni sono proprio qui nel canyon, alla ricerca di quello stesso Pokémon X.
+Coincidence or not, those idiots playing bad guys<<n>>are right here in the canyon too,<<n>>looking for that same X Pokémon.
 Come faccio ad essere al corrente dei loro piani, dici?
-Come faccio ad essere al corrente dei loro piani, dici?
+How can I be aware of their plans, you say?
+Diciamo che la mia storia e quella del Team Dimension sono intrecciate indissolubilmente tra di loro, anche se preferirei non averci nulla a che fare... In un certo senso si può dire che ne faccia parte.
+Let's say that my story and Team Dimension's<<n>>are inextricably entwined with one another,<<n>>although I'd rather have nothing to do with it...<<n>>In a way, you can say I am part of it.
 Tu
-Tu
+You
 ...!
 ...!
 Te l’ho già detto, non sono qui per sfidarti.
-Te l’ho già detto, non sono qui per sfidarti.
+I already told you, I'm not here to challenge you.
+È stato il vincolo che mi lega a quei dannati rottami a costringermi a venire qui, contro la mia volontà.
+The bond I hold with those damn junkheaps, it forced me<<n>>to come here, against my will.
 Se vuoi continuare a mettere loro i bastoni tra le ruote, fai pure, non sarò certo io a fermarti. Anche perché, se non sono in grado nemmeno di gestire un bamboccio come te, mi chiedo con quale faccia pensino di cavarsela nello Xenoverse. Uh uh uh!
-Se vuoi continuare a mettere loro i bastoni tra le ruote, fai pure, non sarò certo io a fermarti. Anche perché, se non sono in grado nemmeno di gestire un bamboccio come te, mi chiedo con quale faccia pensino di cavarsela nello Xenoverse. Uh uh uh!
+If you want to keep getting in their way, go ahead, I'm not going to stop you.<<n>>Especially since, if they can't even handle a maggot<<n>>like you, I wonder how they think to get by<<n>>into the Xenoverse with such a straight face.<<n>>Huh huh huh!
 Bah, qualcosa mi dice che vedrò il tuo brutto muso in giro ancora per un po'... Vedi almeno di non fartela sotto con quei buffoni. Uh uh uh!
-Bah, qualcosa mi dice che vedrò il tuo brutto muso in giro ancora per un po'... Vedi almeno di non fartela sotto con quei buffoni. Uh uh uh!
+Whatevs, something tells me I'm gonna see your ugly snout around for a while longer...<<n>>At least try not to chicken out with those clowns.<<n>>Huh huh huh!
 Andiamo, Sabolt.
-Andiamo, Sabolt.
+Let's go, Sabolt.
 Sabolt
 Sabolt
 Booolt!!
 Booolt!!
 <<[>>old<<]>>Si sono dileguati per il Canyon...
-<<[>>old<<]>>Si sono dileguati per il Canyon...
+<<[>>old<<]>>They vanished through the canyon...
 Cos'è quella faccia, pivella? Hai per caso visto un fantasma? Rilassati, non ho alcuna intenzione di sfidarti... non ancora, perlomeno.
-Cos'è quella faccia, pivella? Hai per caso visto un fantasma? Rilassati, non ho alcuna intenzione di sfidarti... non ancora, perlomeno.
+What's that face, noob? You look like you've seen<<n>>a ghost.<<n>>Relax, I'm not interested in challenging you...<<n>>not yet, at least.
 <<[>>old<<]>>Capricornia a nord
-<<[>>old<<]>>Capricornia a nord
+<<[>>old<<]>>North: Equinox Village
 Si
-Si
+Yes
 No
 No
 [Map242]
@@ -11264,7 +11298,7 @@ Someone had to put a spoke in my wheels, sooner or later...
 Chibs
 Chibs
 Qui nel canyon possiamo scatenarci quanto vogliamo, senza che nessuno ci rompa le scatole!
-Here at the canyon we can go wild as much we want without anyone making a fuss!
+Here at the canyon we can go wild as much we want<<n>>without anyone making a fuss!
 Ci hai rovinato la festa!
 You crashed the party!
 Half
@@ -11272,7 +11306,7 @@ Half
 Questo è il territorio degli Scovile Riders!
 This is the turf of us Scovile Riders!
 Non potevi scegliere nemici peggiori...!
-You've chosen your worst enemies...!
+You have just sealed your doom...!
 Agul
 Agul
 Il sovrano dei cieli vola troppo in alto per curarsi di ciò che accade al sotto di esso.
@@ -11288,7 +11322,7 @@ Land doesn't belong to man, it's the man that belongs to her!
 Cletus
 Cletus
 Che diavolo ci fanno tutti questi tizi conciati da pennuti nella mia tenuta?! Dovete sloggiare!
-What are these dang bird-like people doing in my estate?! You gotta scram!
+What are these dang bird-like people doing in my estate?!<<n>>You gotta scram!
 Come sarebbe a dire che non è la mia tenuta...?
 Whaddya mean dis ain't my estate...?!
 Saprei riconoscere la mia tenuta fra mille!
@@ -12199,7 +12233,7 @@ Si vocifera che nel canyon vi sia un’area segreta popolata da Pokémon proveni
 Alvaro
 Alvaro
 Registro un <b>campo magnetico speciale</b> in questa gola. Magari lo si potrebbe sfruttare in qualche modo...
-Registro un <b>campo magnetico speciale</b> in questa gola. Magari lo si potrebbe sfruttare in qualche modo...
+Registro un <b>special magnetic field</b> inside this gorge. Magari lo si potrebbe sfruttare in qualche modo...
 Juice
 Juice
 La Gola Steelix è perfetta per le gare clandestine! Ehi, ma... tu non sei dei nostri!
@@ -12215,91 +12249,95 @@ E cosa sono i Cowboy se non cavalieri del presente?
 Un vero cavaliere deve saper accettare la sconfitta!
 Un vero cavaliere deve saper accettare la sconfitta!
 Tamara
-Tamara
+Dahlia
 Dannato scarto di laboratorio! Datti una mossa anziché ribellarti agli ordini, come al solito! Non mi perdonerei mai se fossi la causa di un ritardo nei piani del mio caro Generale!
-Dannato scarto di laboratorio! Datti una mossa anziché ribellarti agli ordini, come al solito! Non mi perdonerei mai se fossi la causa di un ritardo nei piani del mio caro Generale!
+You damn lab waste! Get a move on and stop disobeying orders, as your usual!<<n>>I couldn't live with myself if I were the cause of a delay<<n>>in my beloved General's plans!
 Trey
 Trey
 Che vada al diavolo, quel vecchiaccio! Non sono un cane al suo guinzaglio!
-Che vada al diavolo, quel vecchiaccio! Non sono un cane al suo guinzaglio!
+Screw him, that old geezer! I'm not a dog on his leash!
 Tu
-Tu
+You
 ...!
 ...!
 Chi non muore si rivede, \PN. Sempre nel posto sbagliato al momento sbagliato, eh?
-Chi non muore si rivede, \PN. Sempre nel posto sbagliato al momento sbagliato, eh?
+Who goes around comes around, \PN. Wrong place,<<n>>wrong time, as always, huh?
 Ah, e così te la fai coi mocciosi guastafeste adesso! Saresti proprio da rottamare...
-Ah, e così te la fai coi mocciosi guastafeste adesso! Saresti proprio da rottamare...
+Ah, so you're dealing with this buzzkill now!<<n>>You are to be scrapped...
 Bah, dato che proprio non ne vuoi sapere, sarò costretta a portarti dal Generale con la forza!
-Bah, dato che proprio non ne vuoi sapere, sarò costretta a portarti dal Generale con la forza!
+Bah, since you don’t cooperate, I'll have to take you<<n>>to the General by force!
 Ovviamente non sarò io a occuparmi di te. Non vorrei mai risultare impresentabile al mio amato superiore, perciò...
-Ovviamente non sarò io a occuparmi di te. Non vorrei mai risultare impresentabile al mio amato superiore, perciò...
+But I'm not gonna deal with you, of course. I never wanna<<n>>be a mess in front of my beloved boss, so...
 A & B, pensateci voi qui! Kyah ah ah!
-A & B, pensateci voi qui! Kyah ah ah!
+A & B, you deal with this here! Kya ha ha!
 B
 B
 Agli ordini, Colonnello! Risolveremo la questione in men che non si dica! <i>Roger!</i>
-Agli ordini, Colonnello! Risolveremo la questione in men che non si dica! <i>Roger!</i>
+Aye, Colonel! We'll fix the situation in no time! <i>Roger!</i>
 Spero non facciate attendere il Generale ancora per molto!
-Spero non facciate attendere il Generale ancora per molto!
+I hope that you won't keep the General waiting much longer!
 Chissà quanto soffrirà quel pover'uomo al pensiero che il suo adorato cyborg, che reputa un figlio, non faccia altro che rivoltarsi contro di lui...
-Chissà quanto soffrirà quel pover'uomo al pensiero che il suo adorato cyborg, che reputa un figlio, non faccia altro che rivoltarsi contro di lui...
+I wonder how much he suffered thinking about<<n>>his beloved cyborg, he's always looked on as a son,<<n>>does nothing but turn against him...
 Avrà sicuramente bisogno della sottoscritta! Truppa, in marcia!
-Avrà sicuramente bisogno della sottoscritta! Truppa, in marcia!
+I'm sure he needs me! Troop, march!
 Allora, pronto a dare una bella lezione a questo indisciplinato, fratellone?
-Allora, pronto a dare una bella lezione a questo indisciplinato, fratellone?
+So, brother, are you ready to teach this unruly brat<<n>>a lesson?
 Fratellone, perché non rispondi?
-Fratellone, perché non rispondi?
+Brother, why don't you answer?
 Ehi, fratellone...?
-Ehi, fratellone...?
+Hey, brother...?
 A
 A
 Quante volte...
-Quante volte...
+How many times...
 ... te lo devo ripetere...
-... te lo devo ripetere...
+...do I have to tell you...
 ... che sono <b>io</b> a rispondere agli ordini?!
-... che sono <b>io</b> a rispondere agli ordini?!
+...that <b>I'm</b> the one who responds to orders here?!
 Scusami, non volevo...
-Scusami, non volevo...
+Sorry, I didn't mean to...
 Ehi, voi due! Piantatela con le vostre stupide scenate, dannati rottami senza cervello!
-Ehi, voi due! Piantatela con le vostre stupide scenate, dannati rottami senza cervello!
+Hey, you two! Quit with your stupid tantrums,<<n>>damn brainless pieces of junk!
 Ha parlato il supercomputer...
-Ha parlato il supercomputer...
+Look, the supercomputer is talking...
 Abbassa la cresta e porta rispetto ai tuoi superiori, insolente. Fossi stato a capo dell'organizzazione, mi sarei già sbarazzato da tempo di un rifiuto come te! Ma il Generale ci tiene a riaverti tutto intero, perciò ci limiteremo a rispettare gli ordini, dandoti una bella strigliata con una lotta.
-Abbassa la cresta e porta rispetto ai tuoi superiori, insolente. Fossi stato a capo dell'organizzazione, mi sarei già sbarazzato da tempo di un rifiuto come te! Ma il Generale ci tiene a riaverti tutto intero, perciò ci limiteremo a rispettare gli ordini, dandoti una bella strigliata con una lotta.
+Turn down the 'tude and pay respect to your superiors,<<n>>you insolent punk.<<n>>If I were the one pulling the strings, I'd have already gotten rid of trash like you long ago!<<n>>But the General wants you back in one piece, so we'll just follow orders and have your stripes with a battle!
 E lo stesso vale per te, mister-BibliotecaAriepoli.png!
-E lo stesso vale per te, mister-BibliotecaAriepoli.png!
+And the same goes for you, mister-NewtronLibrary.png!
+Non abbiamo dimenticato la figuraccia che ci hai fatto fare! <i>Roger!</i>
+We haven't forgotten the fool you made of us! <i>Roger!</i>
 Nonostante possa contare sul nuovo potere di <b>Sabolt</b>, da solo non la spunterei tanto facilmente...
-Nonostante possa contare sul nuovo potere di <b>Sabolt</b>, da solo non la spunterei tanto facilmente...
+Even though I can count on <b>Sabolt</b>'s newfound power, I wouldn't be able to win out that easy on my own...
 Ehi, \PN! Non avrei mai immaginato di chiederti qualcosa di simile, ma... Ho bisogno del tuo aiuto per sconfiggere questi due insopportabili pagliacci!
-Ehi, \PN! Non avrei mai immaginato di chiederti qualcosa di simile, ma... Ho bisogno del tuo aiuto per sconfiggere questi due insopportabili pagliacci!
+Hey, \PN! I never thought I'd ask you such a thing,<<n>>but...<<n>>I need your help to take down these two annoying clowns!
 E così avete deciso di fare comunella, eh? Mi dispiace deludervi, ma stavolta non finirà come quella volta al campus... Vero, B?
-E così avete deciso di fare comunella, eh? Mi dispiace deludervi, ma stavolta non finirà come quella volta al campus... Vero, B?
+So you decided to team up, huh?<<n>>I hate to disappoint you, but this time it won't end up<<n>>like that time on campus...am I right, B?
 Puoi dirlo forte, A!
-Puoi dirlo forte, A!
+You got that right, A!
 ''A'' di autorità...
-''A'' di autorità...
+''A'' as bravery...
+''B'' come baldanza...
+''B'' as bravery...
 A & B, dal Team Dimension con eleganza!! <i>Roger!!</i>
-A & B, dal Team Dimension con eleganza!! <i>Roger!!</i>
+A & B, Team Dimension's legacy!! <i>Roger!!</i>
 E-Errore.
-E-Errore.
+E-Error.
 E lo stesso vale per te, miss-BibliotecaAriepoli.png!
-E lo stesso vale per te, miss-BibliotecaAriepoli.png!
+And the same goes for you, miss-NewtronLibrary.png!
 <i>FR4T3LL0N3... error.exe</i> <i>S0N0_TR0PP0_F0RT1.mp4</i>
-<i>FR4T3LL0N3... error.exe</i> <i>S0N0_TR0PP0_F0RT1.mp4</i>
+<i>BR0TH3R... error.exe</i><<n>><i>THEY_4RE_T00_STR0N6.mp4</i>
 <i>D4NN4T1... 01000010</i> <i>M3GL10 R1T1R4R51... P3R 1L M0M_3NT0_</i>
-<i>D4NN4T1... 01000010</i> <i>M3GL10 R1T1R4R51... P3R 1L M0M_3NT0_</i>
+<i>D4MM1T... 01000010</i><<n>><i>B3TT3R R3TR34T... F0R TH3 M0M_3NT_</i>
 Tsk! Finalmente hanno girato i tacchi... Basta una sconfitta a farli crashare, che ridicoli! Ptù!
-Tsk! Finalmente hanno girato i tacchi... Basta una sconfitta a farli crashare, che ridicoli! Ptù!
+Tch! They finally get the hell out of here... Ridiculous,<<n>>just a defeat and they crash! Ptui!
 Rapidash
 Rapidash
 Raaaaah...!
 Raaaaah...!
 Cosa?! Ma quel Rapidash dovrebbe essere in mano al Team Dimension... Non dirmi che...
-Cosa?! Ma quel Rapidash dovrebbe essere in mano al Team Dimension... Non dirmi che...
+What?! That Rapidash should be in Team Dimension's<<n>>hands...don't tell me-
 Tsk! Certo che sei più in gamba di quanto pensassi, \PN.
-Tsk! Certo che sei più in gamba di quanto pensassi, \PN.
+Hmph! You sure are better than I thought, \PN.
 Ponyta
 Ponyta
 Pony...!
@@ -12307,43 +12345,49 @@ Pony...!
 Raaah...!
 Raaah...!
 (<i>Scansione attivata.</i>)
-(<i>Scansione attivata.</i>)
+(<i>Scan started.</i>)
 Ora capisco. Uh uh!
-Ora capisco. Uh uh!
+Now I get it. Huh huh!
 Questa Rapidash deve averti seguito poiché ti è riconoscente per aver salvato il suo piccolo dalle grinfie di quei rottami...
-Questa Rapidash deve averti seguito poiché ti è riconoscente per aver salvato il suo piccolo dalle grinfie di quei rottami...
+This Rapidash must have followed you because it's grateful for saving its baby from those junkheaps' clutches...
 Anzi, sembra proprio che quel Ponyta abbia occhi solo per te.
-Anzi, sembra proprio che quel Ponyta abbia occhi solo per te.
+Actually, it seems that Ponyta only has eyes for you.
 Pony...! Pony...!
 Pony...! Pony...!
 Ma certo, è chiaro!
-Ma certo, è chiaro!
+Sure, it's clear!
+Rapidash ha deciso che il suo cucciolo sia ormai pronto a intraprendere il proprio cammino senza di lei, e chi meglio dell'umano che l'ha aiutata come suo Allenatore?
+Rapidash has decided that its baby is ready to take<<n>>its own path now--and who better than the human<<n>>who helped it can be its new Trainer?
 <<[>>old<<]>>Non c'è più dubbio, questo Ponyta vuole unirsi alla tua squadra!
-<<[>>old<<]>>Non c'è più dubbio, questo Ponyta vuole unirsi alla tua squadra!
+<<[>>old<<]>>There's no doubt, this Ponyta wants to join your team!
 Tsk! Che sentimentalismi da quattro soldi...
-Tsk! Che sentimentalismi da quattro soldi...
+Tch! I'm sick of all this sob stuff...
 E tu, Rapidash, che farai ora?
-E tu, Rapidash, che farai ora?
+And now, Rapidash, what will you do?
 A giudicare dal battito cardiaco e dal respiro affannato, ora non desideri altro che vendicarti di ciò che il Team Dimension ha fatto a te, ma soprattutto al tuo cucciolo... Mi sbaglio?
-A giudicare dal battito cardiaco e dal respiro affannato, ora non desideri altro che vendicarti di ciò che il Team Dimension ha fatto a te, ma soprattutto al tuo cucciolo... Mi sbaglio?
+Judging by your heartbeat and the heavy breathing,<<n>>all you wanna do now is get back at Team Dimension<<n>>for what it has done to you, but especially to your baby...<<n>>am I wrong?
 Raaaah!!
 Raaaah!!
 La voglia di combattere certamente non ti manca...
-La voglia di combattere certamente non ti manca...
+You do have a real fighting spirit...
+Questa, unita all’energia tipica dei Pokémon X, senza dubbio farebbe di te un ottimo alleato.
+In addition, the typical energy of X Pokémon would<<n>>definitely make you a great ally.
 Tsk! Chi se l'aspettava che me ne sarei andato da questo dannato canyon con una new entry...
-Tsk! Chi se l'aspettava che me ne sarei andato da questo dannato canyon con una new entry...
+Hmph! I wasn't expecting to leave this damn canyon<<n>>with a new entry...
 D'accordo, Rapidash. Entra nella Ball, mi tornerai certamente utile.
-D'accordo, Rapidash. Entra nella Ball, mi tornerai certamente utile.
+All right, Rapidash. Get in the Ball, I'm gonna need your help.
 Direi che qui abbiamo finito...
-Direi che qui abbiamo finito...
+Then I'm done here...
 \PN, non credere che tutta questa faccenda mi abbia fatto cambiare idea su di te. Il nostro prossimo incontro sarà tutt'altro che amichevole, puoi contarci!
-\PN, non credere che tutta questa faccenda mi abbia fatto cambiare idea su di te. Il nostro prossimo incontro sarà tutt'altro che amichevole, puoi contarci!
+\PN, don't think that this whole thing has changed<<n>>my mind about you.<<n>>Next time, I'm not gonna be that generous with you,<<n>>I can tell you!
 Vieni, Sabolt.
-Vieni, Sabolt.
+Come on, Sabolt.
 Sabolt
 Sabolt
 Booolt!!
 Booolt!!
+Rapidash ha deciso che il suo cucciolo sia ormai pronto a intraprendere il proprio cammino senza di lei, e chi meglio dell'umana che l'ha aiutata come suo Allenatore?
+Rapidash has decided that its baby is ready to take<<n>>its own path now--and who better than the human<<n>>who helped it can be its new Trainer?
 [Map277]
 Jimmy
 Jimmy
@@ -39085,7 +39129,7 @@ Anello Xenoverse
 Xenoversal Ring
 671
 Codice Terrestre
-Terrestrial Core
+Earth Core
 672
 Repellente
 Repel
@@ -39109,7 +39153,7 @@ Baccaeden
 Eden Berry
 679
 Codice Xenoverse
-Xenoversal Core
+Xenoverse Core
 680
 Prototipo Xeno Ball
 Xeno Ball Prototype
