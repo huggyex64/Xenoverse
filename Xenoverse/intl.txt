@@ -6857,81 +6857,87 @@ Yes
 Silvia
 Minta
 Seguimi, forza!
-Seguimi, forza!
-Questa zona è praticamente il cuore della caserma... il laboratorio! Qui archiviamo le informazioni relative alle zone colpite da fenomeni paranormali, studiando notte e giorno strumenti per contrastarli. Ma cosa saremmo senza il nostro cervellone!
-Questa zona è praticamente il cuore della caserma... il laboratorio! Qui archiviamo le informazioni relative alle zone colpite da fenomeni paranormali, studiando notte e giorno strumenti per contrastarli. Ma cosa saremmo senza il nostro cervellone!
+C'mon, follow me!
+Questa zona è praticamente il cuore della caserma... il laboratorio! Qui archiviamo le informazioni relative ai fenomeni paranormali, studiando strumenti per contrastarli. Ma cosa saremmo senza il nostro cervellone!
+This area is basically the heart of the firehouse...<<n>>the laboratory!<<n>>Here we archive all the info regarding paranormal phenomena, studying the means to fight them back.<<n>>But none of this would be possible without our genius!
 Hola, <b>Maurice</b>! Disturbiamo? Ho una persona da farti conoscere!
-Hola, <b>Maurice</b>! Disturbiamo? Ho una persona da farti conoscere!
+Hola, <b>Chrysler</b>! Is it a bad time?<<n>>I've someone to introduce you to!
 Tra le particolarità del nostro Maurice, c’è proprio il suo essere di poche parole. Ciononostante, la nostra squadra non sarebbe nulla senza il suo lavoro!
-Tra le particolarità del nostro Maurice, c’è proprio il suo essere di poche parole. Ciononostante, la nostra squadra non sarebbe nulla senza il suo lavoro!
-Sai, è a conoscenza di tutte le tecnologie in giro e riesce a riprodurle con una facilità allarmante, rendendo il nostro lavoro un gioco da ragazzi.
-Sai, è a conoscenza di tutte le tecnologie in giro e riesce a riprodurle con una facilità allarmante, rendendo il nostro lavoro un gioco da ragazzi.
+One of Chrysler's quirks is being a man of few words. Other than that, our team would be nothing without his work!
 Ehi, Maurice! Vuoi almeno degnarci di uno sguardo?! Saluta il||la nostro|a osp...
-Ehi, Maurice! Vuoi almeno degnarci di uno sguardo?! Saluta il||la nostro|a osp...
+Hey, Chrysler! Will you even look at us?!<<n>>Say hi to our gue-
 Maurice
 Chrysler
-Lui||ei è un Allenatore di Pokémon, che risponde al nome di \PN. Ha un’abilità sopra la norma e ne hai fatto la conoscenza nei pressi del <b>Saloon Torobrado</b>. Il||La ragazzo|a è qui in città per sfidare lo Sceriffo Crisante, ma delle Reclute del Team Dimension, coinvolto nei fatti di cronaca degli ultimi tempi, bloccano l'ingresso alla Palestra. Per questo motivo hai condotto \PN fin qui, per escogitare una soluzione a tale problema.
-Lui||ei è un Allenatore di Pokémon, che risponde al nome di \PN. Ha un’abilità sopra la norma e ne hai fatto la conoscenza nei pressi del <b>Saloon Torobrado</b>. Il||La ragazzo|a è qui in città per sfidare lo Sceriffo Crisante, ma delle Reclute del Team Dimension, coinvolto nei fatti di cronaca degli ultimi tempi, bloccano l'ingresso alla Palestra. Per questo motivo hai condotto \PN fin qui, per escogitare una soluzione a tale problema.
+Lui||ei è \PN, un Allenatore di cui ha fatto la conoscenza nei pressi del <b>Saloon Torobrado</b>. Il||La ragazzo|a è in città per sfidare lo Sceriffo Crisante, ma una di quelle Reclute del Team Dimension, coinvolto nei fatti di cronaca degli ultimi tempi, blocca l'ingresso alla Palestra. È per questo che lo|a ha condotto|a qui in Caserma.
+He is|||||She's \PN, a Pokémon Trainer you met him||er<<n>>in <b>Wild Bull Saloon</b>'s vicinities.<<n>>The kid has come in this town to challenge Sheriff Caspar, but some Team Dimension Grunts,<<n>>involved in the recent events, block the gate to the Gym.<<n>>That's the reason why you led him||er here.
 Maurice! Mi stavi per caso pedinando?
-Maurice! Mi stavi per caso pedinando?
-Negativo, capitano! Semplicemente, il suo ricetrasmettitore era in funzione a sua insaputa... Ho captato il segnale, origliando tutta la conversazione.
-Negativo, capitano! Semplicemente, il suo ricetrasmettitore era in funzione a sua insaputa... Ho captato il segnale, origliando tutta la conversazione.
+Chrysler! Were you spying on me or something?
+Negativo, capitano! Semplicemente, il suo ricetrasmettitore era in funzione a sua insaputa...
+Negative, captain! Simply, you weren't aware your transceiver was in function…
 Ops! Mi culpa! Ma presentarsi di persona è tutt'altra cosa, dai.
-Ops! Mi culpa! Ma presentarsi di persona è tutt'altra cosa, dai.
+Whoops! Mi culpa! Still, introducing each other face to face is better.
 Non c'è tempo! La città corre un grave rischio!
-Non c'è tempo! La città corre un grave rischio!
+There's no time! The city is in grave danger!
 Eh? Potresti essere più chiaro, Maurice?
-Eh? Potresti essere più chiaro, Maurice?
+Huh? Could you be more specific, Chrysler?
 Saul
 Salem
 Ehi, Mauriyama! Perché mi hai chiamato? Spero per te che sia qualcosa di importante!
-Ehi, Mauriyama! Perché mi hai chiamato? Spero per te che sia qualcosa di importante!
+Hey, Chrysnerd! Why did you call me?<<n>>I hope for you it is something important!
 Will
 Will
 Co-Cosa succede? Perché questa riunione?
-Co-Cosa succede? Perché questa riunione?
+Wh-What's going on? Why the meeting?
 Silenzio, voi due! Fate parlare Maurice, avrà le sue ragioni!
-Silenzio, voi due! Fate parlare Maurice, avrà le sue ragioni!
-... Partiamo dal principio. Capitano, ha registrato uno strano campo elettromagnetico nell'area del Saloon Torobrado, vero?
-... Partiamo dal principio. Capitano, ha registrato uno strano campo elettromagnetico nell'area del Saloon Torobrado, vero?
+Shut up, you two! Let Chrysler speak, he must have his reasons!
+... Capitano, ha registrato uno strano campo elettromagnetico nell'area del Saloon Torobrado, vero?
+...Captain, you have captured a strange magnetic field<<n>>in the Wild Bull Saloon area, right?
 Beh, sì. Ripensandoci, era una presenza davvero anormale, molto più intensa del solito... Ma quando è arrivato|a \PN non c'ho più fatto caso.
-Beh, sì. Ripensandoci, era una presenza davvero anormale, molto più intensa del solito... Ma quando è arrivato|a \PN non c'ho più fatto caso.
+Yeah, I have. On second thought, it was a really<<n>>abnormal presence, way more intense than usual...<<n>>But when \PN arrived, I completely forgot about it
 Ecco, vedi?! Un'occasione buttata al vento per colpa di 'sto|a moccioso|a!
-Ecco, vedi?! Un'occasione buttata al vento per colpa di 'sto|a moccioso|a!
+See?! A chance thrown under the bus, and it's all<<n>>this squirt's fault!
 Buster! Metti a tacere quell’arrogante di Saul!!
-Buster! Metti a tacere quell’arrogante di Saul!!
+Buster! Shut up that show-off!!
 Buster
 Buster
 Blast!
 Blast!
-Tsk. Cosa pensi di fare contro il mio Houndoom?
-Tsk. Cosa pensi di fare contro il mio Houndoom?
+Tsk. Sta' buono, Buster.
+Tch. Keep it quiet, Buster.
 D-Dai, ragazzi. N-Non è il momento di litigare...
-D-Dai, ragazzi. N-Non è il momento di litigare...
-In realtà, stando ai fatti, se il capitano non fosse entrato in contatto con \PN, a quest'ora sarebbe prigioniera dell'ectoplasma del saloon...
-In realtà, stando ai fatti, se il capitano non fosse entrato in contatto con \PN, a quest'ora sarebbe prigioniera dell'ectoplasma del saloon...
+C-C'mon, guys. T-This isn't the time for arguments...
+In realtà, se il capitano non fosse entrato in contatto con \PN... ... a quest'ora sarebbe prigioniera dell'ectoplasma del saloon.
+Actually, if the captain hadn't come in contact<<n>>with \PN...<<n>>...she would be a prisoner of the saloon's ectoplasm now.
 Sei scemo, Maurice?! Per quanto detesti il caratteraccio di Silvia, devo ammettere che ci sa fare! Non sarebbe cambiato nulla!
-Sei scemo, Maurice?! Per quanto detesti il caratteraccio di Silvia, devo ammettere che ci sa fare! Non sarebbe cambiato nulla!
+Are you dumb, Chrysler?! I hate Minta's guts, but even<<n>>I have to admit how tough she is!<<n>>Nothing would have changed!
 Negativo, Saul.
-Negativo, Saul.
+Negative, Salem.
+Le competenze del capitano sono elevate, ma si sarebbero rivelate insufficienti.
+The captain's skills are in fact high, but not high enough.
 Tuttavia, l'arrivo di \PN deve aver innescato qualcosa nell'ectoplasma che si è affievolito...
-Tuttavia, l'arrivo di \PN deve aver innescato qualcosa nell'ectoplasma che si è affievolito...
+However, \PN's arrival must have triggered something<<n>>in the ectoplasm that made it disappear...
 Ecco perché, quando l'ho incontrato|a, non ho più avvertito alcuna anomalia... Hombre, devi proprio essere un Allenatore formidabile!
-Ecco perché, quando l'ho incontrato|a, non ho più avvertito alcuna anomalia... Hombre, devi proprio essere un Allenatore formidabile!
+That's why, when I met him||er, I couldn't pick up<<n>>anything...<<n>>Hombre! You must be a formidable Trainer!
 L'anomalia non è però scomparsa dai radar, è probabile che si aggiri ancora nel saloon. Tuttavia, non abbiamo dati relativi a questo Pokémon a nostra disposizione... Per quel che ne sappiamo potrebbe anche essere più di uno.
-L'anomalia non è però scomparsa dai radar, è probabile che si aggiri ancora nel saloon. Tuttavia, non abbiamo dati relativi a questo Pokémon a nostra disposizione... Per quel che ne sappiamo potrebbe anche essere più di uno.
+The anomaly isn't gone from the radars, it's probably<<n>>still wandering inside the saloon.<<n>>However, we possess no data regarding this Pokémon...<<n>>For all we know, there could be more than one.
+Dobbiamo intervenire alla svelta, ma con un piano ben congegnato...
+We must act quickly, but we need a good plan...
 C-Che brutta situazione... Ho tanta paura...
-C-Che brutta situazione... Ho tanta paura...
+I-I have a really bad feeling...I'm so scared right now...
 Cosa aspettiamo allora? Tutti al saloon!
-Cosa aspettiamo allora? Tutti al saloon!
-Secondo i miei calcoli, noi cinque avremmo una chance di vittoria pari a 0... Tuttavia, con l'aiuto di \PN, questa salirebbe senza dubbio.
-Secondo i miei calcoli, noi cinque avremmo una chance di vittoria pari a 0... Tuttavia, con l'aiuto di \PN, questa salirebbe senza dubbio.
+What are we waiting for? To the saloon!
+Escogiteremo un piano per liberarci di quest'entità malvagia una volta lì.
+We'll come up with a plan to get rid of that entity once we get there.
+\PN, dalle mie fonti risulta che tu sia qui in città per sfidare il Capopalestra Crisante. Con le mie conoscenze potrei riprogrammare i robot del Team Dimension, per liberare la Palestra... Ma noi abbiamo bisogno del tuo aiuto tanto quanto tu necessiti del nostro... perciò, ti chiedo di aiutarci in questa spedizione.
+\PN, my sources indicate that you are here to challenge<<n>>Gym Leader Caspar.<<n>>My knowledge might be enough to reprogram Team Dimension's robots, so we could free the Gym...<<n>>But we need your help just as much as you need ours... so, I'm asking you to assist us on this mission.
 Troppe chiacchiere per i miei gusti qui... L'ultimo che arriva è un Garbodor!
-Troppe chiacchiere per i miei gusti qui... L'ultimo che arriva è un Garbodor!
+I'm sick of all this chit-chat...the last one that gets there<<n>>smells like a Garbodor!
 Hombre! Sempre il solito avventato! Saul, giuro che te le suono!
-Hombre! Sempre il solito avventato! Saul, giuro che te le suono!
+Hombre! He's always so reckless! Salem, I swear I'm going to give you a lesson!
 \PN, noi ci avviamo verso il Saloon Torobrado.
-\PN, noi ci avviamo verso il Saloon Torobrado.
+\PN, we are going to Wild Bull Saloon.
+Ti aspetteremo lì, sempre che tu sia disposto|a ad accettare le nostre condizioni.
+We'll be waiting for you, in case you're willing to accept<<n>>our deal.
 Seguimi, \PN.
 Follow me, \PN.
 Revolver
@@ -7038,8 +7044,8 @@ Ciao, \PN! Quel Pokémon che ci ha sbalzati via era davvero enorme... Ma scommet
 <<[>>old<<]>>È un Nintendo Switch nuovo di zecca! Al suo interno vi è un gioco chiamato ''Kidoon's Mansion 3''.
 <<[>>old<<]>>A brand new Nintendo Switch! There's a game in the slot: ''Kidoon's Mansion 3''.
 Silvia
-Silvia
-Questa è la zona relax. Qui ci concediamo un po' di meritato riposo dopo le nostre missioni.
+Minta
+Qui è dove ci concediamo un po' di meritato riposo dopo le nostre missioni.
 This is the relaxation area. This is where we enjoy<<n>>some well deserved rest after our missions.
 Oh, guarda. C'è <b>Will</b>!
 Oh, look. It's <b>Will</b>!
@@ -7063,16 +7069,16 @@ Y-You're making me blush, Minta...b-but thanks for<<n>>the compliments...
 It's the truth! Ha ha! \PN, you must know that<<n>>G.E.I.S.T. was founded by Will's father.<<n>>We owe everything to him!
 Papà però è venuto a mancare qualche anno fa...
 Dad passed away a few years back, though...
+I miei amici ed io cerchiamo ogni giorno di proteggere ciò che ha creato, anche se io non ne sono ancora in grado...
+My friends and I try everyday to protect what he created,<<n>>although I'm still not ready to...
 Will, non dire così! Lo sai che non è vero! Devi avere più fiducia in te stesso!
-Will, non dire così! Lo sai che non è vero! Devi avere più fiducia in te stesso!
+Will, don't say that! You know that ain't true!<<n>>You should be more confident!
 G-Grazie, sorellona... Ci proverò, promesso.
-G-Grazie, sorellona... Ci proverò, promesso.
+Thanks, sis...I promise I'll try.
 Bravo, niñito. È questo lo spirito giusto!
-Bravo, niñito. È questo lo spirito giusto!
+Good niñito. That's the spirit!
 Ora torniamo al piano terra, \PN. È il momento di conoscere il nostro ultimo socio!
-Ora torniamo al piano terra, \PN. È il momento di conoscere il nostro ultimo socio!
-Mi ha davvero fatto piacere, \PN. Spero di rivederti, magari in azione...
-Mi ha davvero fatto piacere, \PN. Spero di rivederti, magari in azione...
+Let's go back downstairs, \PN. It's time to meet<<n>>our last partner!
 <<[>>old<<]>>Non c'è niente...
 <<[>>old<<]>>There's nothing here...
 <<[>>old<<]>>In questo PC è salvata la cronologia di Saul. Vuoi leggerla?
@@ -7118,20 +7124,20 @@ Non sarà il massimo, ma ci conservo tutti i riconoscimenti ottenuti dalla squad
 It may not be much, but I keep all the team's achievements here.
 Laggiù invece c'è uno dei membri del nostro gruppetto... Dai, te lo presento!
 Over there is one of the members of our group...<<n>>C'mon, I'll introduce you!
-Lui è <b>Buster</b>, il mio fidato Blastoise, nonché migliore amico!
-This is <b>Buster</b>, my trusty Blastoise, and my best friend!
+Lui è <b>Buster</b>, il mio fidato Blastoise!
+This is <b>Buster</b>, my trusty Blastoise!
 Buster però non è un comune Blastoise... Li vedi i cannoni nel suo carapace?
 Buster is no common Blastoise, though...<<n>>You see the cannons on its shell?
 Di ritorno da una missione, ci imbattemmo in dei teppisti che malmenavano un povero Cubone... Il mio Pokémon subito si parò dinanzi al piccoletto per difenderlo da quelle canaglie, ma purtroppo... quei desperados riuscirono a spezzargli i cannoni!
 While returning from a mission, we met some punks<<n>>who were harassing a poor Cubone...<<n>>My Pokémon immediately put itself in front of the little guy to protect it from those perros, but alas...<<n>>those desperados managed to break its cannons!
 Buster, senza la sua arma principale, non riusciva più a dare il meglio di sé nelle missioni... Perciò Maurice, il cervellone della combriccola, progettò delle protesi artificiali per lui. Quel gordo però riesce sempre a sorprendermi...
 Buster, without its best weapon, couldn't put all itself<<n>>in our missions...<<n>>So Chrysler, the team's brain, invented some artificial<<n>>prosthetics for it.<<n>>That gordo never stops surprising me...
-Non gli bastò ricreare dei cannoni per sparare getti d'acqua ad alta pressione... Aggiunse una funzione di aspirazione all'interno, l'ideale per intrappolare gli spettri! In un primo momento, Buster si trovò disorientato da questo suo nuovo potere, ma col tempo ha imparato a gestirlo alla perfezione. Dico bene, amigo?
-He wasn't content with just creating cannons to shoot<<n>>high-pressured water...<<n>>He added a vacuum function, the ideal function for<<n>>ghost hunting!<<n>>At first, Buster was a little confused by its new power,<<n>>but with time it learned how to handle it perfectly.<<n>>Isn't that right, amigo?
+Non gli bastò ricreare dei cannoni per sparare getti d'acqua ad alta pressione... Aggiunse una funzione di aspirazione all'interno, l'ideale per intrappolare gli spettri! Dico bene, amigo?
+He wasn't content with just creating cannons to shoot<<n>>high-pressured water...<<n>>He added a vacuum function, the ideal function for<<n>>ghost hunting! Isn't that right, amigo?
 Eh eh! Come vedi, siamo molto affiatati.
 Heh heh! As you can see, we're two peas in a pod.
-Beh, qui non c'è altro. Non penso t'interessino le scartoffie! Proseguiamo col nostro giretto.
-Well, there's not much else here. I don’t think you're interested in papers! Let's keep going.
+Beh, qui non c'è altro. Proseguiamo col nostro giretto!
+Well, there's not much else here. Let's keep going.
 Sì
 Yes
 No
@@ -7147,8 +7153,8 @@ No
 <<[>>old<<]>>Now that's a ghost-buster!
 Silvia
 Minta
-Qui ci troviamo nel garage che funge da deposito per le nostre armi contro gli spettri, nonché per i pezzi di ricambio dei nostri veicoli.
-We're now in the garage that functions as the storage room both for our weapons for ghost-hunting,<<n>>and for spare parts for our vehicles.
+Questo è il deposito dove conserviamo le nostre armi anti-spettro e i pezzi di ricambio dei nostri veicoli.
+We're now in the storage room. Here we keep our weapons for ghost-hunting and the spare parts for our vehicles.
 Ehi, biondo! Non vedi che abbiamo visite?! Fa' il bravo padrone di casa e presentati, su!
 Hey, blondie! Don't you see we have guests?!<<n>>Be a good host and introduce yourself, c'mon!
 ???
@@ -7165,8 +7171,8 @@ Sempre il solito sbruffone, Saul.
 A boaster as usual, Salem.
 Eddai, Silvia. Perché negare l'evidenza?
 C'mon, Minta. No point in hiding the truth, right?
-Comunque ragazzino|a, il capitano voleva dire che sono il più coraggioso membro della squadra! Niente mi fa paura, che siano fiamme o spettri li spazzerò via col mio fascino! Ah ah ah!
-Anyway, kiddo, what the captain wanted to say was that<<n>>I'm the bravest member of this team!<<n>>Nothing scares me, may they be fires or ghosts,<<n>>I'll blow them away with my charm! Ha ha ha!
+Niente mi fa paura, che siano fiamme o spettri li spazzerò via col mio fascino! Ah ah ah!
+Nothing scares me, may they be fires or ghosts,<<n>>I'll blow them away with my charm! Ha ha ha!
 Fattelo dire, Saul... Sei davvero irrecuperabile. Dai, \PN. Andiamo via da quest'idiota.
 No offense, Salem...but you're hopeless.<<n>>C'mon, \PN. Let's leave this idiot here.
 <<[>>old<<]>>C'è solo spazzatura...
