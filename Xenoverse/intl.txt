@@ -7185,103 +7185,107 @@ Allora, com’è allenare quel tappetto?
 Allora, com’è allenare quel tappetto?
 [Map165]
 Silvia
-Silvia
+Minta
 \PN!
 \PN!
 Hai deciso di darci una mano con la missione? Qué alegría!
-Hai deciso di darci una mano con la missione? Qué alegría!
+So you've decided to give us a hand on the mission?<<n>>Qué alegría!
 Questo edificio diroccato è il Saloon Torobrado.
-Questo edificio diroccato è il Saloon Torobrado.
-Il proprietario, <b>Cempa</b>, lo costruì circa un secolo fa, occupandosi anche del ruolo di barista. Devo dire che aveva davvero buon gusto quell'uomo... Ogni zona è organizzata ad hoc!
-Il proprietario, <b>Cempa</b>, lo costruì circa un secolo fa, occupandosi anche del ruolo di barista. Devo dire che aveva davvero buon gusto quell'uomo... Ogni zona è organizzata ad hoc!
-Ad esempio, quella in cui ci troviamo adesso è la ''sala della lotta''. In questa stanza, gli abitanti di Scorpiopoli e non, tra un bicchiere e l'altro, si divertivano a lottare! La mia abuela mi raccontava che qui ci si divertiva sempre da matti. Tutte le cose belle però sono destinate a finire...
-Ad esempio, quella in cui ci troviamo adesso è la ''sala della lotta''. In questa stanza, gli abitanti di Scorpiopoli e non, tra un bicchiere e l'altro, si divertivano a lottare! La mia abuela mi raccontava che qui ci si divertiva sempre da matti. Tutte le cose belle però sono destinate a finire...
+This ruined building is the Wild Bull Saloon.
+Fino a qualche anno fa, era una delle attrazioni principali di Scorpiopoli... L'avresti mai detto?
+Not many years ago, it used to be one of Westar City's<<n>>main attractions...can you believe that?
+Il proprietario, <b>Cempa</b>, lo costruì circa un secolo fa, occupandosi anche del ruolo di barista. Ogni zona era organizzata ad hoc!
+The owner <b>Chempo</b>, built it about a century ago,<<n>>taking the role as the bartender as well.<<n>>Every zone was finely organized!
+Quella in cui ci troviamo adesso, ad esempio, era la ''sala della lotta''. Qui, gli abitanti di Scorpiopoli e non, tra un bicchiere e l'altro, si divertivano a lottare! Tutte le cose belle però sono destinate a finire...
+For instance, the one we’re occupying right now was<<n>>the ''battle room''.<<n>>Here, both Westar City's citizens and outsiders, used to fight between one drink and the next one!<<n>>All good things come to an end though...
 Qualcuno mise in giro una voce secondo cui il proprietario nascondeva un Pokémon mostruoso... La gente, pur non avvistando mai questa creatura, diede credito alla diceria e Cempa vide scomparire, giorno dopo giorno, i suoi clienti uno dopo l'altro... fino a rimanere da solo. Il saloon è deserto da quel fatidico giorno. Il tempo ha fatto il resto...
-Qualcuno mise in giro una voce secondo cui il proprietario nascondeva un Pokémon mostruoso... La gente, pur non avvistando mai questa creatura, diede credito alla diceria e Cempa vide scomparire, giorno dopo giorno, i suoi clienti uno dopo l'altro... fino a rimanere da solo. Il saloon è deserto da quel fatidico giorno. Il tempo ha fatto il resto...
-Sai, i Pokémon Spettro adorano questo antico rudere, tanto che ne hanno fatto la propria dimora...
-Sai, i Pokémon Spettro adorano questo antico rudere, tanto che ne hanno fatto la propria dimora...
+Someone spread a rumor about a monstrous Pokémon<<n>>hidden by the owner...<<n>>People, even though they’ve never seen this creature in the flesh, believed the rumor and so Chempo started seeing,<<n>>day after day, his clients disappearing one after the other... until he was left alone.<<n>>So this saloon, that has been deserted ever since, became<<n>>the home of Ghost-type Pokémon...
 Ma noi della S.P.E.T.T.R.I. non permetteremo che uno spiritello arrogante se ne impossessi, mandando in fumo il lavoro del signor Cempa! È per questo che siamo qui!
-Ma noi della S.P.E.T.T.R.I. non permetteremo che uno spiritello arrogante se ne impossessi, mandando in fumo il lavoro del signor Cempa! È per questo che siamo qui!
+But G.E.I.S.T. will never let an arrogant two-bit spirit<<n>>take it for itself, ruining mr. Chempo's work!<<n>>That's why we're here!
 Ora che ci siamo tutti, la S.P.E.T.T.R.I. può finalmente entrare in azione! Eh sì, \PN, fino al termine della missione, sarai parte della squadra! Analizziamo la zona in cerca di indizi, vamonos!
-Ora che ci siamo tutti, la S.P.E.T.T.R.I. può finalmente entrare in azione! Eh sì, \PN, fino al termine della missione, sarai parte della squadra! Analizziamo la zona in cerca di indizi, vamonos!
+Now that everyone's here, G.E.I.S.T. can finally start<<n>>its magic!<<n>>That's right, \PN! Until the end of the mission,<<n>>you're going to be part of the team!<<n>>Let's go through the area for clues, vamonos!
 <<[>>old<<]>>La porta è chiusa a chiave.
 <<[>>old<<]>>The door is locked.
 Hombre! Saul, che diablo ti prende?
-Hombre! Saul, che diablo ti prende?
+Hombre! Salem, qué demonios has gotten into you?
 \PN, fa' presto! Abbiamo un problema!
-\PN, fa' presto! Abbiamo un problema!
+\PN, hurry up! We have a problem!
 Madre de Dios! Tutto d’un tratto quel cabrón di Saul ha perso il controllo e ci si è rivoltato contro!
-Madre de Dios! Tutto d’un tratto quel cabrón di Saul ha perso il controllo e ci si è rivoltato contro!
+Madre de Dios! That cabrón suddenly lost control<<n>>and turned against us!
 Saul
-Saul
+Salem
 Haaaaan!!
 Haaaaan!!
 Will
 Will
 H-Ho t-tanta pa-paura... F-Fermalo, \PN... T-Ti prego!
-H-Ho t-tanta pa-paura... F-Fermalo, \PN... T-Ti prego!
+I-I'm s-so s-scared... S-Stop him, \PN...<<n>>P-Please!
 Maurice
-Maurice
+Chrysler
 ... \PN, risparmia le forze. Questo è un compito che spetta al sottoscritto.
-... \PN, risparmia le forze. Questo è un compito che spetta al sottoscritto.
+...There's no need for you to waste your energies,<<n>>\PN. This is my duty.
 Senza offesa Maurice, ma sicuramente \PN è molto più adatto di te! Tu non sei nemmeno un autentico Allenatore, dopotutto...
-Senza offesa Maurice, ma sicuramente \PN è molto più adatto di te! Tu non sei nemmeno un autentico Allenatore, dopotutto...
+No offense Chrysler, but \PN is definitely more<<n>>qualified than you!<<n>>You aren't even a real Trainer, after all...
 Affermativo, capitano. Il piano che ho escogitato, però, ha un’elevata percentuale di successo proprio perché non ho una forza paragonabile a \PN.
-Affermativo, capitano. Il piano che ho escogitato, però, ha un’elevata percentuale di successo proprio perché non ho una forza paragonabile a \PN.
+Affirmative, captain. The plan I designed, though,<<n>>has a high success ratio just because<<n>>my strength isn't comparable to \PN's.
 E va bene! So di potermi fidare di te.
-E va bene! So di potermi fidare di te.
+Alright! I know I can trust you.
 Grazie, capitano.
-Grazie, capitano.
+Thank you, captain.
 Protocollo di trasferimento. Caricamento in corso... 10%... 40%... 70%... 90%... 100%! Avvio.
-Protocollo di trasferimento. Caricamento in corso... 10%... 40%... 70%... 90%... 100%! Avvio.
+Transfer protocol.<<n>>Loading... 10%...<<n>>40%... 70%...<<n>>90%... 100%!<<n>>Start.
 Ehi! Ma che diablo sta succedendo qui?! E perché quel grassone sta volando?!
-Ehi! Ma che diablo sta succedendo qui?! E perché quel grassone sta volando?!
-Cabrón che non sei altro! Hai già dimenticato tutto?! Il povero Maurice, per salvarti, si è lanciato nelle grinfie del Pokémon che ti aveva posseduto!
-Cabrón che non sei altro! Hai già dimenticato tutto?! Il povero Maurice, per salvarti, si è lanciato nelle grinfie del Pokémon che ti aveva posseduto!
+Hey! Qué demonios is going on here?!<<n>>Why is that tubbo flying?!
+Cabrón che non sei altro! Hai già dimenticato tutto?!
+Idiota! Did you already forget everything?!
+Il povero Maurice, per salvarti, si è lanciato nelle grnfie del Pokémon che ti aveva posseduto!
+Poor Chrysler saved you by letting himself be taken<<n>>by the Pokémon that possessed you!
 Eh? Cosa?! Allora adesso ho l'opportunità di ricambiare il favore... Grassone, ci penso io a salvarti la pellaccia!
-Eh? Cosa?! Allora adesso ho l'opportunità di ricambiare il favore... Grassone, ci penso io a salvarti la pellaccia!
+Uh? What?! Then I have the chance to redeem myself... Don't worry, tubbo, I'll save your fat behind!
 Tsk... Però non posso attaccare il buon Maurice... come si fa?
-Tsk... Però non posso attaccare il buon Maurice... come si fa?
+Tch... I can't attack ol' Chrysler though...<<n>>What to do?
 Tu
-Tu
+You
 ...
 ...
 Saul, fatti da parte! Pare proprio che voglia occuparsene \PN!
-Saul, fatti da parte! Pare proprio che voglia occuparsene \PN!
+Out of the way, Salem! It looks like \PN wants to<<n>>handle this!
 Ehi, Maurice... Todo bien?
-Ehi, Maurice... Todo bien?
+Hey, Chrysler... Todo bien?
 Rooonf...
 Rooonf...
 Eh eh! La lotta deve averlo sfiancato...
-Eh eh! La lotta deve averlo sfiancato...
+Heh heh! The battle must have made him tired...
+Maurice, grazie di aver corso questo rischio per salvarci, ma soprattutto... Muchas gracias, \PN!
+Chrysler, thank you for taking this risk in order to save us, but most importantly...muchas gracias, \PN!
 Co-Concordo con te, sorellona! \PN, sei stato davvero eccezionale!
-Co-Concordo con te, sorellona! \PN, sei stato davvero eccezionale!
+I-I agree with you, sis!<<n>>\PN, you were amazing!
 Ma è ancora presto per cantar vittoria... quel Pokémon è ancora a piede libero! Potrebbe metterci l'uno contro l'altro in ogni momento.
-Ma è ancora presto per cantar vittoria... quel Pokémon è ancora a piede libero! Potrebbe metterci l'uno contro l'altro in ogni momento.
+But it's still too early for celebrations...<<n>>that Pokémon is still on the loose!<<n>>It could put any of us against the others at any moment.
 Siamo già a meno uno senza il grassone... Maurice, quel bastardo se la vedrà con me! \PN, dammi quella chiave!
-Siamo già a meno uno senza il grassone... Maurice, quel bastardo se la vedrà con me! \PN, dammi quella chiave!
+And we're already short on tubbo...<<n>>Chrysler, I'll make that bastard pay!<<n>>\PN,gimme that key! Let's settle this,<<n>>good-for-nothing spirit.
 È ora di farla finita con 'sta farsa, spiritello da quattro soldi.
 È ora di farla finita con 'sta farsa, spiritello da quattro soldi.
 Saul, ma che diablo ti passa per quella zucca vuota? Non bisogna mai dividersi in situazioni del genere!
-Saul, ma che diablo ti passa per quella zucca vuota? Non bisogna mai dividersi in situazioni del genere!
+Salem, qué demonios are you thinking?<<n>>We can't split up at a time like this!
 Buster
 Buster
 Blast...!
 Blast...!
 E-Ehi, ragazzi. N-Non lasciatemi qui da solo!
-E-Ehi, ragazzi. N-Non lasciatemi qui da solo!
+H-Hey, guys. D-Don't leave me by myself!
 Whiiiiis!!
 Whiiiiis!!
 Co-Concordo con te, sorellona! \PN, sei stata davvero eccezionale!
-Co-Concordo con te, sorellona! \PN, sei stata davvero eccezionale!
+I-I agree with you, sis!<<n>>\PN, you were amazing!
 Ehi, tappetto|a. Vedi di non starmi tra i piedi!
-Ehi, tappetto|a. Vedi di non starmi tra i piedi!
+Hey, squirt. Try not to get in my way!
 <<[>>old<<]>>Una bottiglia di vetro contenente un denso liquido nero.
 <<[>>old<<]>>Una bottiglia di vetro contenente un denso liquido nero.
 <<[>>old<<]>>Questa dev’essere la boccetta della lacrima nera di cui parlava Cempa nel suo diario... Spostandola si apre un passaggio!
 <<[>>old<<]>>Questa dev’essere la boccetta della lacrima nera di cui parlava Cempa nel suo diario... Spostandola si apre un passaggio!
 \PN, ancora nessun indizio?
-\PN, ancora nessun indizio?
+\PN, haven't found any clue yet?
 [Map166]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
@@ -7292,9 +7296,9 @@ Ehi, tappetto|a. Vedi di non starmi tra i piedi!
 Will
 Will
 Oh... \PN, sei tu! S-Sono davvero felice che tu sia qui a dare una mano. Potrò vedere un vero Allenatore all'opera, wow!
-Oh... \PN, sei tu! S-Sono davvero felice che tu sia qui a dare una mano. Potrò vedere un vero Allenatore all'opera, wow!
+Oh... \PN, it's you! I-I'm really happy you're here<<n>>to help us.<<n>>Wow, I'll finally see a real Trainer in action!
 <<[>>old<<]>>C'è qualcosa che luccica sul pavimento.
-<<[>>old<<]>>C'è qualcosa che luccica sul pavimento.
+<<[>>old<<]>>Something's shiny on the floor.
 <<[>>old<<]>>''Era una serata come tante, qui al saloon... La clientela, assieme ai suoi Pokémon, tra un bicchiere e l'altro, s'intratteneva con qualche lotta.
 <<[>>old<<]>>''Era una serata come tante, qui al saloon... La clientela, assieme ai suoi Pokémon, tra un bicchiere e l'altro, s'intratteneva con qualche lotta.
 <<[>>old<<]>>Nella sala del teatro riecheggiavano musica e cori a squarciagola, tanto da far sembrare la deserta Scorpiopoli una città da movida.
@@ -7317,16 +7321,16 @@ Usa Box
 Use Box
 [Map167]
 <<[>>old<<]>>C'è qualcosa che luccica sul pavimento.
-<<[>>old<<]>>C'è qualcosa che luccica sul pavimento.
+<<[>>old<<]>>Something's shiny on the floor.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 [Map168]
 <<[>>old<<]>>Vuoi ritornare alla sala del saloon?
-<<[>>old<<]>>Vuoi ritornare alla sala del saloon?
+<<[>>old<<]>>Do you want to get back to the saloon room?
 <<[>>old<<]>>Un'ombra...? Cosa la proietterà?
-<<[>>old<<]>>Un'ombra...? Cosa la proietterà?
+<<[>>old<<]>>A shadow...? What could cast it?
 <<[>>old<<]>>Vuoi attivare il Registratore donato da Silvia?
-<<[>>old<<]>>Vuoi attivare il Registratore donato da Silvia?
+<<[>>old<<]>>Do you want to play the Recorder that Minta gave you?
 <<[>>old<<]>>Marsh...!
 <<[>>old<<]>>Marsh...!
 Sì
@@ -7335,51 +7339,59 @@ No
 No
 [Map169]
 Saul
-Saul
+Salem
 Aspettavo proprio te, \PN. Sei a tutt'altro livello rispetto a quegli altri.
-Aspettavo proprio te, \PN.  Sei a tutt'altro livello rispetto a quegli altri.
+I've been waiting just for you, \PN. You're on<<n>>a whole different level than the other ones.
 Sorpreso che io riesca a parlare? Bah, niente di speciale...
-Sorpreso che io riesca a parlare? Bah, niente di speciale...
+Are you surprised that I can talk?<<n>>It's nothing special, really...
+Un burattinaio come me è in grado di prendere il pieno controllo dei corpi altrui.
+A puppet master like me can easily take control of other people's bodies.
 Hangead
 Hangead
-Sono <b>Hangead</b>, un Pokémon che dimora in questo saloon da ormai troppo tempo. Queste mura fatiscenti mi danno la nausea, ho bisogno di cambiare aria. Questo posto mi ha conferito enormi poteri, tant'è che ora riesco a controllare anche gli esseri umani. La tua presenza, però, mi incuriosisce molto...
-Sono <b>Hangead</b>, un Pokémon che dimora in questo saloon da ormai troppo tempo. Queste mura fatiscenti mi danno la nausea, ho bisogno di cambiare aria. Questo posto mi ha conferito enormi poteri, tant'è che ora riesco a controllare anche gli esseri umani. La tua presenza, però, mi incuriosisce molto...
+Sono <b>Hangead</b>, un Pokémon che dimora in questo saloon da ormai troppo tempo. Queste mura fatiscenti mi danno la nausea, ho bisogno di cambiare aria. La tua presenza, però, mi incuriosisce molto...
+I'm <b>Hangead</b>--a Pokémon that has resided in this saloon for too much time, now.<<n>>These decaying walls disgust me, and I really need<<n>>a change of scenery.<<n>>Your presence, though, really piqued my interest...
 Non ho mai incontrato un umano dotato di una tale energia di amore e odio... Sei tu il mio vero obiettivo!
-Non ho mai incontrato un umano dotato di una tale energia di amore e odio... Sei tu il mio vero obiettivo!
+I've never met anyone gifted both with such love and<<n>>such hatred...you're my real prey!
 Però, devo ammettere che questo corpo ricolmo di rabbia non è poi così male... Potrei farci l'abitudine. Questo tizio, nonostante la facciata da duro, vuole solo dimostrare la sua utilità ai suoi compagni... È una pedina perfetta per il mio gioco!
-Però, devo ammettere che questo corpo ricolmo di rabbia non è poi così male... Potrei farci l'abitudine. Questo tizio, nonostante la facciata da duro, vuole solo dimostrare la sua utilità ai suoi compagni... È una pedina perfetta per il mio gioco!
+But, I have to admit that this hatred filled body is not bad<<n>>at all...I could get used to it.<<n>>This guy, behind the facade of the tough guy, only wants<<n>>to prove himself to be useful for his companions...<<n>>Such a perfect pawn for my game!
 E ora è il momento di metterti un po' alla prova e vedere fin dove arriva lo spirito di questo biondino!
-E ora è il momento di metterti un po' alla prova e vedere fin dove arriva lo spirito di questo biondino!
+And now it's time to test you to see how far I can push<<n>>this blondie's body!
 ...
 ...
 Ay! Che botta... Tappetto, sei tu?
-Ay! Che botta... Tappetto, sei tu?
+Ay! Qué dolor... Squirt, is that you? 
 Fammi indovinare... Mi hai di nuovo salvato la ghirba, vero?
-Fammi indovinare... Mi hai di nuovo salvato la ghirba, vero?
+Lemme guess... You saved my bacon again, haven't you?
+Assurdo, sono riuscito a prenderle da un ragazzino...
+This is absurd, I managed to get myself beaten<<n>>by a lil' kid...
 L'orgoglio mi ha annebbiato e ho agito senza riflettere... È colpa mia se ora ci troviamo in questa situazione!
-L'orgoglio mi ha annebbiato e ho agito senza riflettere... È colpa mia se ora ci troviamo in questa situazione!
+I let pride fog my mind and I acted carelessly..<<n>>It's my fault we're in this situation now!
 Non riesco a muovere nemmeno un muscolo, come se tutta l'energia mi fosse stata sottratta... Quel maledetto dev'essere ancora in giro per il saloon...
-Non riesco a muovere nemmeno un muscolo, come se tutta l'energia mi fosse stata sottratta... Quel maledetto dev'essere ancora in giro per il saloon...
+I can't move an inch, as if all the energy I had<<n>>had been drained...<<n>>That damned thing must still be roaming the saloon...
 \PN, sei il solo che possa farcela... Salva Silvia e Will, por favor!
-\PN, sei il solo che possa farcela... Salva Silvia e Will, por favor!
+\PN, you're the only one who can do this...<<n>>Save Minta and Will, por favor!
 Una cosa voglio dirtela... Mi avrai anche sconfitto, ma il più bello resto io! Ah ah ah!
-Una cosa voglio dirtela... Mi avrai anche sconfitto, ma il più bello resto io! Ah ah ah!
+Lemme tell you this, though...You may have defeated me,<<n>>but I'm still the most handsome! Ha ha ha!
 Forza, \PN! Suonagliele a quel bastardo!
-Forza, \PN! Suonagliele a quel bastardo!
+C'mon, \PN! Make that bastard pay!
 Sorpresa che io riesca a parlare? Bah, niente di speciale...
-Sorpresa che io riesca a parlare? Bah, niente di speciale...
+Are you surprised that I can talk?<<n>>It's nothing special, really...
+Una superiora come me è in grado di prendere il pieno controllo dei corpi altrui.
+A mother superior like me can easily take control of other people's bodies.
 Whisteract
 Whisteract
-Sono <b>Whisteract</b>, un Pokémon che dimora in questo saloon da ormai troppo tempo. Queste mura fatiscenti mi danno la nausea, ho bisogno di cambiare aria. Questo posto mi ha conferito enormi poteri, tant'è che ora riesco a controllare anche gli esseri umani. La tua presenza, però, mi incuriosisce molto...
-Sono <b>Whisteract</b>, un Pokémon che dimora in questo saloon da ormai troppo tempo. Queste mura fatiscenti mi danno la nausea, ho bisogno di cambiare aria. Questo posto mi ha conferito enormi poteri, tant'è che ora riesco a controllare anche gli esseri umani. La tua presenza, però, mi incuriosisce molto...
+Sono <b>Whisteract</b>, un Pokémon che dimora in questo saloon da ormai troppo tempo. Queste mura fatiscenti mi danno la nausea, ho bisogno di cambiare aria. La tua presenza, però, mi incuriosisce molto...
+I'm <b>Whisteract</b>--a Pokémon that has resided in this saloon for too much time, now.<<n>>These decaying walls disgust me, and I really need<<n>>a change of scenery.<<n>>Your presence, though, really piqued my interest...
 Ay! Che botta... Tappetta, sei tu?
-Ay! Che botta... Tappetta, sei tu?
+Ay! Qué dolor... Squirt, is that you?
+Assurdo, sono riuscito a prenderle da una ragazzina...
+This is absurd, I managed to get myself beaten<<n>>by a lil' girl...
 \PN, sei la sola che possa farcela... Salva Silvia e Will, por favor!
-\PN, sei la sola che possa farcela... Salva Silvia e Will, por favor!
+\PN, you're the only one who can do this...<<n>>Save Minta and Will, por favor!
 <<[>>old<<]>>Non si vede nessun membro della S.P.E.T.T.R.I. nei paraggi...
-<<[>>old<<]>>Non si vede nessun membro della S.P.E.T.T.R.I. nei paraggi...
+<<[>>old<<]>>No G.E.I.S.T. member in sight...
 <<[>>old<<]>>Un'oscura forza blocca il passaggio.
-<<[>>old<<]>>Un'oscura forza blocca il passaggio.
+<<[>>old<<]>>A dark presence blocked the way.
 Uh la la! Mi sentivo gli occhi di uno spettro addosso e invece eri tu! Che sei venuto|a a fare qui al saloon, tappetto|a?
 Uh la la! Mi sentivo gli occhi di uno spettro addosso e invece eri tu! Che sei venuto|a a fare qui al saloon, tappetto|a?
 Sai, ancora non ho digerito la sconfitta che m’hai inferto nella missione contro quello spirito...!
@@ -7403,7 +7415,7 @@ Senti un po’... Qualche tempo fa, durante una missione ho trovato questa. Potr
 Un vero duro come me, però, se la può benissimo cavare da solo e non ha bisogno della fortuna! Voglio darla a te. Tome aquí!
 Un vero duro come me, però, se la può benissimo cavare da solo e non ha bisogno della fortuna! Voglio darla a te. Tome aquí!
 <<[>>old<<]>>La musica sta cambiando...
-<<[>>old<<]>>La musica sta cambiando...
+<<[>>old<<]>>Music is changing...
 [Map170]
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
@@ -7443,9 +7455,9 @@ No
 Will
 Will
 Oh, eccoti finalmente! Ti va di giocare un po' a nascondino con me?
-Oh, eccoti finalmente! Ti va di giocare un po' a nascondino con me?
+Oh, there you are! Do you want to play hide-and-seek<<n>>with me?
 <<[>>old<<]>>Will è stremato... Meglio lasciarlo riposare.
-<<[>>old<<]>>Will è stremato... Meglio lasciarlo riposare.
+<<[>>old<<]>>Will is exhausted... Better let him rest.
 <<[>>old<<]>>''Ogni giorno quel piccoletto faceva ritorno al saloon, dove aveva un pasto assicurato. Finalmente avevo trovato un nuovo amico. Ma poi...
 <<[>>old<<]>>''Ogni giorno quel piccoletto faceva ritorno al saloon, dove aveva un pasto assicurato. Finalmente avevo trovato un nuovo amico. Ma poi...
 <<[>>old<<]>>Una sera, un gruppo di banditi accompagnato da tre Houndoom fece irruzione nel locale, facendo razzia degli averi miei e della clientela spaventatissima. Scorpiopoli è una città povera di Allenatori e non sapevo a chi chiedere aiuto, soprattutto per proteggere ad ogni costo quel Pokémon.
@@ -7465,51 +7477,57 @@ Oh, eccoti finalmente! Ti va di giocare un po' a nascondino con me?
 <<[>>old<<]>>Sembra che questa sia la terza pagina strappata da un diario...?
 <<[>>old<<]>>Sembra che questa sia la terza pagina strappata da un diario...?
 Bubù-settete!
-Bubù-settete!
+Peek-a-boo!
 Sai, sono sempre stato un fifone, sin da piccolo...
-Sai, sono sempre stato un fifone, sin da piccolo...
+You know, I've always been a scaredy-cat, ever since<<n>>I was a little kid...
+Per aiutarmi a combattere le mie paure, papà mi portava spesso in stamberghe del genere. Il solo averlo a fianco faceva sì che la mia inquietudine sparisse... Vedi questo Tauros meccanico?
+To help me overcome my fears, dad used to bring me<<n>>into hovels like this one.<<n>>Just standing by his side vanquished all the uneasiness<<n>>I could feel...<<n>>Do you see this mechanic Tauros?
 Ogni volta che venivamo qui, papà mi posizionava sopra questo Tauros per farmi distogliere i pensieri dalla paura dei Pokémon Spettro...
-Ogni volta che venivamo qui, papà mi posizionava sopra questo Tauros per farmi distogliere i pensieri dalla paura dei Pokémon Spettro...
+Everytime we came here, dad put me aboard it to make me forget about my fear of Ghost-type Pokémon...
+Ogni volta che ripenso a quei momenti, capisco perché ho deciso di seguire le orme del papà...
+Everytime I think about those days, I see why I decided<<n>>to follow in daddy's footsteps...
 Ma ora papà se n'è andato... Mi ha lasciato da solo... e io sono rimasto un fifone...!
-Ma ora papà se n'è andato... Mi ha lasciato da solo... e io sono rimasto un fifone...!
+But now dad's gone...He left me alone...and I'm still<<n>>a coward...!
 Hangead
 Hangead
 \PN, prendere possesso del corpo di questo ragazzino è stato piuttosto semplice... Soprattutto perché appena ha visto il mio aspetto è scoppiato in lacrime! Han han han!
-\PN, prendere possesso del corpo di questo ragazzino è stato piuttosto semplice... Soprattutto perché appena ha visto il mio aspetto è scoppiato in lacrime! Han han han!
+\PN, possessing the body of this kid was actually<<n>>pretty easy...<<n>>Mostly because when he saw me he started crying<<n>>his heart out! Han han han!
 Non sarà paragonabile al biondino, ma sotto queste spoglie mi sento un autentico umano. Sento che potrei abituarmici in fretta!
-Non sarà paragonabile al biondino, ma sotto queste spoglie mi sento un autentico umano. Sento che potrei abituarmici in fretta!
+It may not be that blondie, but with this body I feel like<<n>>a real human. I feel like I could get used to this quickly!
+Eliminandoti, potrò lasciare questa catapecchia e insediarmi nella società senza destare sospetti!
+When I'll get rid of you, I'll be able to leave this wretched<<n>>place and blend into your society without suspicion!
 ...
 ...
 Han han han! Sei riuscito a sconfiggermi, ma uscirò di qui con questo corpo ormai mio!
-Han han han! Sei riuscito a sconfiggermi, ma uscirò di qui con questo corpo ormai mio!
+Han han han! You managed to defeat me, but I'll leave<<n>>this place with this body!
 N-No! Hangead, questo è il mio corpo! Vattene!!
-N-No! Hangead, questo è il mio corpo! Vattene!!
+N-No! Hangead, this is my body!<<n>>Go away!!
 Han han han! Cerchi di ribellarti, coniglio? Nessuno è mai riuscito a liberarsi dal mio controllo!
-Han han han! Cerchi di ribellarti, coniglio? Nessuno è mai riuscito a liberarsi dal mio controllo!
+Han han han! Are you trying to oppose me, coward?<<n>>No one ever managed to get out of my control!
 T-Tu non puoi capire... Sarò anche un fifone, un codardo e un incapace nelle lotte Pokémon... ma se pensavi di buttarmi giù con le tue parole, hai ottenuto il risultato contrario! Io non sono più da solo... la sorellona, Buster, Maurice, Saul e anche \PN... sono la mia famiglia! Grazie a loro troverò la forza per affrontare le mie paure!
-T-Tu non puoi capire... Sarò anche un fifone, un codardo e un incapace nelle lotte Pokémon... ma se pensavi di buttarmi giù con le tue parole, hai ottenuto il risultato contrario! Io non sono più da solo... la sorellona, Buster, Maurice, Saul e anche \PN... sono la mia famiglia! Grazie a loro troverò la forza per affrontare le mie paure!
+Y-You can't understand...I may be a coward and<<n>>a worthless Pokémon Trainer...<<n>>but if you thought you could bring me down<<n>>with your words, you've made a sore mistake!<<n>>I'm not alone anymore... Sis, Buster, Chrysler, Salem and \PN too...they're my family!<<n>>Thanks to them I'll find the strength to overcome my fears!
 Argh! Da-Dannazione! La mia influenza si sta affievolendo...!
-Argh! Da-Dannazione! La mia influenza si sta affievolendo...!
+Argh! D-Dammit! My control is slipping...!
 Papà mi ha insegnato che non bisogna far leva sull'animo vacillante dei più deboli... Ma ora la tristezza su cui premevi, si è tramutata in voglia di combattere... lo spirito della S.P.E.T.T.R.I. si è infiammato!
-Papà mi ha insegnato che non bisogna far leva sull'animo vacillante dei più deboli... Ma ora la tristezza su cui premevi, si è tramutata in voglia di combattere... lo spirito della S.P.E.T.T.R.I. si è infiammato!
+Dad taught me that harnessing the weaknesses of the souls of fragile people is wrong...<<n>>But now, the sadness you were leeching on has become<<n>>my will to fight...<<n>>My G.E.I.S.T. soul is burning bright!
 Non hai più risorse, Hangead... via dal mio corpo!!
-Non hai più risorse, Hangead... via dal mio corpo!!
+You have nothing to grab onto anymore,<<n>>Hangead...get out of my body!!
 È t-tutto... finito...
 È t-tutto... finito...
 \PN... Grazie... G-Grazie di cuore... Ti prego, salva la sorellona... e sconfiggi quel mostro...
-\PN... Grazie... G-Grazie di cuore... Ti prego, salva la sorellona... e sconfiggi quel mostro...
+I-It's all...over now... Thank you...\PN...<<n>>T-Thank you so much...<<n>>Please, save my Sis...and defeat that monster...
 Whisteract
 Whisteract
 \PN, prendere possesso del corpo di questo ragazzino è stato piuttosto semplice... Soprattutto perché appena ha visto il mio aspetto è scoppiato in lacrime! Whi whi whi!
-\PN, prendere possesso del corpo di questo ragazzino è stato piuttosto semplice... Soprattutto perché appena ha visto il mio aspetto è scoppiato in lacrime! Whi whi whi!
+\PN, possessing the body of this kid was actually<<n>>pretty easy...<<n>>Mostly because when he saw me he started crying<<n>>his heart out! Whi hi hi!
 Whi ih ih! Sei riuscita a sconfiggermi, ma uscirò di qui con questo corpo ormai mio!
-Whi ih ih! Sei riuscita a sconfiggermi, ma uscirò di qui con questo corpo ormai mio!
+Whi hi hi! You managed to defeat me, but I'll leave<<n>>this place with this body!
 N-No! Whisteract, questo è il mio corpo! Vattene!!
-N-No! Whisteract, questo è il mio corpo! Vattene!!
+N-No! Whisteract, this is my body!<<n>>Go away!!
 Whi ih ih! Cerchi di ribellarti, coniglio? Nessuno è mai riuscito a liberarsi dal mio controllo!
-Whi ih ih! Cerchi di ribellarti, coniglio? Nessuno è mai riuscito a liberarsi dal mio controllo!
+Whi hi hi! Are you trying to oppose me, coward?<<n>>No one ever managed to get out of my control!
 Non hai più risorse, Whisteract... via dal mio corpo!!
-Non hai più risorse, Whisteract... via dal mio corpo!!
+You have nothing to grab onto anymore,<<n>>Whisteract...get out of my body!!
 [Map172]
 <<[>>old<<]>>''Agosto.\nNeanche più un cliente da mesi... Dal terrazzo avvertii un boato proveniente dalla sala principale. Subito mi ci fiondai... l'avessi mai fatto! Il gruppetto di criminali aveva fatto ritorno coi rinforzi... Ma questa volta tra di loro c'era anche un uomo di mia conoscenza... il sindaco!
 <<[>>old<<]>>''Agosto.\nNeanche più un cliente da mesi... Dal terrazzo avvertii un boato proveniente dalla sala principale. Subito mi ci fiondai... l'avessi mai fatto! Il gruppetto di criminali aveva fatto ritorno coi rinforzi... Ma questa volta tra di loro c'era anche un uomo di mia conoscenza... il sindaco!
@@ -7542,101 +7560,108 @@ Whist...!
 Blast...!
 Blast...!
 Molto bene, \PN...
-Molto bene, \PN...
+Very well, \PN...
 Ti stavo aspettando.
-Ti stavo aspettando.
+I've been waiting for you.
 Finora sei riuscito a umiliarmi, ma ora... è il momento della mia vendetta!
-Finora sei riuscito a umiliarmi, ma ora... è il momento della mia vendetta!
+You've managed to humiliate me, but now...it's time for<<n>>my revenge!
 Blast...! Sorpreso?
-Blast...! Sorpreso?
+Blast...! Surprised?
+Come vedi, posso manovrare simultaneamente questi corpi, perché uniti da un profondo legame.
+As you can see, I can simultaneously control these bodies, since they share a deep bond.
 Credo di aver proprio fatto centro con questa ragazza... Ha un'intelligenza paragonabile a quella del ciccione, un'esperienza al pari del biondino e, infine, non manca di spirito di rivalsa, come il bamboccio.
-Credo di aver proprio fatto centro con questa ragazza... Ha un'intelligenza paragonabile a quella del ciccione, un'esperienza al pari del biondino e, infine, non manca di spirito di rivalsa, come il bamboccio.
+I think I may have hit the jackpot with this girl...<<n>>She's smart like the tubbo, capable like the blondie<<n>>and, finally, she's full of spirit like that twerp.
 Fine dei giochi, cowboy. Hangead, il sovrano di questo saloon, te la farà pagare cara!
-Fine dei giochi, cowboy. Hangead, il sovrano di questo saloon, te la farà pagare cara!
+End of the line, cowboy. Hangead, the king of this saloon, is going to make you pay dearly!
+
 ...!
 ...!
 Non è possibile che io abbia perso pur manipolando due corpi!! Dannato moccioso, mi impadronirò definitivamente di te!
-Non è possibile che io abbia perso pur manipolando due corpi!! Dannato moccioso, mi impadronirò definitivamente di te!
+There's no way I could have lost while controlling<<n>>two bodies!!<<n>>Damn kid, I'll take control of you once and for all!
 Saul
-Saul
+Salem
 Non credo proprio, amigo!
-Non credo proprio, amigo!
+Not so fast, amigo!
 Will
 Will
 Puoi dirlo forte, Saul!
-Puoi dirlo forte, Saul!
+Yeah, tell it, Salem!
 Maurice
-Maurice
+Chrysler
 ...
 ...
 Dovrai prima vedertela con noi... non ti lasceremo \PN tanto facilmente!
-Dovrai prima vedertela con noi... non ti lasceremo \PN tanto facilmente!
+You'll have to deal with us first...we won't let you take<<n>>\PN that easily!
 Cosa credete di fare? Vi ho già messi a tacere una volta e potrei rifarlo in ogni momento.
-Cosa credete di fare? Vi ho già messi a tacere una volta e potrei rifarlo in ogni momento.
+What do you think you can do? I've already shut all of you<<n>>once and I can do it again whenever I want.
 Hai ragione, Hangead. Ci hai già sconfitti, ma quella volta eravamo soli... Ma stavolta è diverso... Noi...
-Hai ragione, Hangead. Ci hai già sconfitti, ma quella volta eravamo soli... Ma stavolta è diverso... Noi...
+You're right, Hangead. You've already<<n>>defeated us once, but we were alone back then...<<n>>This time is different... We...
 ... ti affronteremo...
-... ti affronteremo...
+...are gonna fight you..
 ... tutti insieme!!
-... tutti insieme!!
+...together!!
 La mia energia sta svanendo?!!
-La mia energia sta svanendo?!!
+My energy is disappearing?!!
 Forza, ragazzi! Mettiamocela tutta per la sorellona e Buster!
-Forza, ragazzi! Mettiamocela tutta per la sorellona e Buster!
+C'mon, guys! Let's put our back into it for Sis<<n>>and Buster!
 M-Maledetti... esseri umani!!
-M-Maledetti... esseri umani!!
+C-Curse you...humans!!
 UAAAARGH!
 UAAAARGH!
 Sorellona, come ti senti?
-Sorellona, come ti senti?
+Sis, how do you feel?
 Silvia
-Silvia
+Minta
 Oh, chicos... Siete sani e salvi... Ma cos'è successo?
-Oh, chicos... Siete sani e salvi... Ma cos'è successo?
+Oh, chicos..you're all ok... What happened?
 Hai lasciato che quell'Hangead prendesse possesso del tuo corpo, come un'idiota. Per tua fortuna, io, Maurice, Will e \PN abbiamo conciato per le feste quel buffone!
-Hai lasciato che quell'Hangead prendesse possesso del tuo corpo, come un'idiota. Per tua fortuna, io, Maurice, Will e \PN abbiamo conciato per le feste quel buffone!
+You let that Hangead take control of your body,<<n>>like an amateur.<<n>>Luckily for you, I, Chrysler, Will and \\PN beat<<n>>the living soul out of that buffoon!
 Come mi hai chiamata, Saul?! Ripetilo se ne hai il coraggio!!
-Come mi hai chiamata, Saul?! Ripetilo se ne hai il coraggio!!
+What did you call me, Salem?! I'll dare you say that<<n>>one more time!!
 Anche se hai ragione... Quel Pokémon non ci ha messo nulla a impadronirsi di me! Ah ah ah!
-Anche se hai ragione... Quel Pokémon non ci ha messo nulla a impadronirsi di me! Ah ah ah!
+You're right though... That Pokémon got me without breaking a sweat! Ha ha ha!
 È la prima volta che ridi ad una mia battuta, Silvia... Non ti starai mica innamorando di me?
-È la prima volta che ridi ad una mia battuta, Silvia... Non ti starai mica innamorando di me?
-Ma taci, sbruffone! La pianti di dire stupidaggini o vuoi un pugno nello stomaco?!
-Ma taci, sbruffone! La pianti di dire stupidaggini o vuoi un pugno nello stomaco?!
+It's the first time one of my jokes made you laugh,<<n>>Minta...finally falling for me?
+Ma taci, sbruffone!
+Shuddup, show-off!
 Eddai, quanto la fai difficile...
-Eddai, quanto la fai difficile...
+Gee, no need to get so worked up...
 \PN, grazie davvero dell'aiuto.
-\PN, grazie davvero dell'aiuto.
+\PN, thank you for your help, really.
 Buster
 Buster
 Squadra... Quello dovrebbe essere il reale aspetto di Hangead.
-Squadra... Quello dovrebbe essere il reale aspetto di Hangead.
+Guys...that seems to be Hangead's real form.
 Beh, allora cosa aspettiamo a farlo fuo...
-Beh, allora cosa aspettiamo a farlo fuo...
+Well, then let's get rid of it right awa-
 Espera, Saul! Ho un'idea!
-Espera, Saul! Ho un'idea!
+Espera, Salem! I've an idea!
+Ora che abbiamo prosciugato Hangead di quasi tutte le sue forze, non rappresenta più un pericolo.
+We've drained Hangead of almost all its energies,<<n>>so it's no longer a threat.
 \PN, in quanto Allenatore, spetta a te decidere se sconfiggere o catturare questo Pokémon.
-\PN, in quanto Allenatore, spetta a te decidere se sconfiggere o catturare questo Pokémon.
+\PN, as a Trainer, it's your choice to defeat or<<n>>catch this Pokémon.
 Tsk. Mi sembra giusto.
-Tsk. Mi sembra giusto.
+Hmph. Fair enough.
 Allora noi andiamo, \PN! Ricorda di passare dalla Caserma, quando avrai finito qui. Una promessa è una promessa e noi non dimenticheremo ciò che hai fatto per noi oggi! Hasta fuego!
-Allora noi andiamo, \PN! Ricorda di passare dalla Caserma, quando avrai finito qui. Una promessa è una promessa e noi non dimenticheremo ciò che hai fatto per noi oggi! Hasta fuego!
+We're going, then,  \PN! Remember to stop by<<n>>the firehouse, when you're done here.<<n>>A promise is a promise and we'll never forget<<n>>what you did for us! Hasta fuego!
 Finora sei riuscita a umiliarmi, ma ora... è il momento della mia vendetta!
-Finora sei riuscita a umiliarmi, ma ora... è il momento della mia vendetta!
+You've managed to humiliate me, but now...it's time for<<n>>my revenge!
 Blast...! Sorpresa?
-Blast...! Sorpresa?
+Blast...! Surprised?
 Fine dei giochi, cowgirl. Whisteract, la sovrana di questo saloon, te la farà pagare cara!
-Fine dei giochi, cowgirl. Whisteract, la sovrana di questo saloon, te la farà pagare cara!
+End of the line, cowgirl. Whisteract, the queen of this saloon, is going to make you pay dearly!
 Non credo proprio, amiga!
-Non credo proprio, amiga!
+Not so fast, amiga!
 Hai ragione, Whisteract. Ci hai già sconfitti, ma quella volta eravamo soli... Ma stavolta è diverso... Noi...
-Hai ragione, Whisteract. Ci hai già sconfitti, ma quella volta eravamo soli... Ma stavolta è diverso... Noi...
+You're right, Whisteract. You've already<<n>>defeated us once, but we were alone back then...<<n>>This time is different... We...
 Hai lasciato che quel Whisteract prendesse possesso del tuo corpo, come un'idiota. Per tua fortuna, io, Maurice, Will e \PN abbiamo conciato per le feste quel buffone!
-Hai lasciato che quel Whisteract prendesse possesso del tuo corpo, come un'idiota. Per tua fortuna, io, Maurice, Will e \PN abbiamo conciato per le feste quel buffone!
+You let that Whisteract take control of your body,<<n>>like an amateur.<<n>>Luckily for you, I, Chrysler, Will and \\PN beat<<n>>the living soul out of that buffoon!
 Squadra... Quello dovrebbe essere il reale aspetto di Whisteract.
-Squadra... Quello dovrebbe essere il reale aspetto di Whisteract.
+Guys...that seems to be Whisteract's real form.
 Beh, allora cosa aspettiamo a farla fuo...
-Beh, allora cosa aspettiamo a farla fuo...
+Well, then let's get rid of it right awa-
+Ora che abbiamo prosciugato Whisteract di quasi tutte le sue forze, non rappresenta più un pericolo.
+We've drained Whisteract of almost all its energies,<<n>>so it's no longer a threat.
 [Map173]
 Fabian
 Fabian
@@ -12056,7 +12081,7 @@ Yusri
 Yusri
 Giorgio
 Cameron
-Non voglio ma più sentir parlare di Bacche!
+Non voglio mai più sentir parlare di Bacche!
 I never want to hear about Berries again!
 Verbena
 Nuphar
@@ -19559,8 +19584,8 @@ Anf... Anf... Per un pelo...
 Anf... Anf... Per un pelo...
 Trey
 Trey
-Tsk...!.
-Tsk...!.
+Tsk...!
+Tsk...!
 Non so grazie a quale stella, ma siamo riusciti a sopravvivere a questo inferno...
 Non so grazie a quale stella, ma siamo riusciti a sopravvivere a questo inferno...
 \PN, prendi in spalla tuo padre! Ora, costi quel che costi, dobbiamo filarcela!
@@ -33379,7 +33404,7 @@ Marchiatura
 Inferno
 134
 Magifuoco
-Mystical Fire
+Sacred Fire
 135
 Sparafuoco
 Searing Shot
