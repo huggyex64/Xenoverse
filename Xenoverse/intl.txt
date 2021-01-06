@@ -12534,8 +12534,8 @@ Freddie è tornato finalmente! Ci penserò io a dargli la carica!
 Freddie è tornato finalmente! Ci penserò io a dargli la carica!
 Sapevo che avresti avuto occhio per accaparrarti il primo pass, \PN!
 Sapevo che avresti avuto occhio per accaparrarti il primo pass, \PN!
-Questa è la <b>Sala Rock</b>, il primo piano della Palestra Ritmo, ed è senza dubbio quello dove più ci si dimena!
-Questa è la <b>Sala Rock</b>, il primo piano della Palestra Ritmo, ed è senza dubbio quello dove più ci si dimena!
+Questa è la <b>Sala Rock</b>, il primo piano della Palestra Ritmo, quello dove più ci si dimena!
+Questa è la <b>Sala Rock</b>, il primo piano della Palestra Ritmo, quello dove più ci si dimena!
 Oh, dimenticavo! Se dovessi rimanere incastrato|a nel pubblico, la sicurezza verrà a darti una mano. Ti basterà premere il <b>tasto R</b> per chiamarla!
 Oh, dimenticavo! Se dovessi rimanere incastrato|a nel pubblico, la sicurezza verrà a darti una mano. Ti basterà premere il <b>tasto R</b> per chiamarla!
 [Map278]
@@ -16671,7 +16671,7 @@ Decisi che sarebbe stato quello il momento propizio per entrare nello Xenoverse 
 \PN. Hai deciso che sarebbe stato|a lui||ei ad aprirlo per te, non è vero?
 Avrei preferito lasciarlo|a fuori da tutta questa faccenda, ma era nato|a sotto una buona stella... In parole povere, era perfetto|a per questo incarico.
 Avrei preferito lasciarlo|a fuori da tutta questa faccenda, ma era nato|a sotto una buona stella... In parole povere, era perfetto|a per questo incarico.
-Decisi che gli avrei assegnato uno dei tre Pokémon iniziali e poi avrei fatto sparire le mie tracce, facendo sì la sua avventura lo conducesse sino a qui alla mia ricerca... E così è stato!
+Decisi che gli avrei assegnato uno dei tre Pokémon iniziali e poi avrei fatto sparire le mie tracce, facendo sì che la sua avventura lo conducesse sino a qui alla mia ricerca... E così è stato!
 Decisi che gli avrei assegnato uno dei tre Pokémon iniziali e poi avrei fatto sparire le mie tracce, facendo sì la sua avventura lo conducesse sino a qui alla mia ricerca... E così è stato!
 \PN, ti chiedo di lasciare a me il tuo Pokémon e i due Codici di modo che il piano possa procedere.
 \PN, ti chiedo di lasciare a me il tuo Pokémon e i due Codici di modo che il piano possa procedere.
@@ -55921,9 +55921,9 @@ You need to choose at least one Pokémon to confirm.
 Thanks for playing!
 Thanks for playing!
 La modalità moderna permette di avere un’esperienza più leggera,<<n>>con un sistema di esperienza più simile alle ultime generazioni.
-Modern Mode allows you to have a lighter gameplay experience. Exp. Points will be shared by the whole team like in new gen games.
+Exp. Points will be distributed to all of the Pokémon in the party. If you want an easier gameplay experience, Modern Mode is the perfect choice!
 La modalità classica permette di avere un’esperienza simile ai giochi delle vecchie generazioni, senza esperienza a tutta la squadra.
-Classic Mode allows you a gameplay experience similar to old gen games' one. Exp. Points won't be shared by the whole team.
+Only the Pokémon that partecipate in the battle gains Exp. Points. If you want a more challenging gameplay experience, Classic Mode is what you need!
 Classic Mode
 Classic Mode
 Modern Mode
