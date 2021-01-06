@@ -5382,7 +5382,7 @@ Tuuurt....!
 Pakuro
 Pakuro
 Oltre la porta di casa, chiunque può esser tuo nemico!
-When you step beyond your own gate, you face a million enemies!
+When you step beyond your own gate, you face<<n>>a million enemies!
 Non ho saputo padroneggiare le tecniche fondamentali.
 I could not master the fundamental techniques.
 Sì
@@ -5395,15 +5395,15 @@ Yes
 Roberto
 Derek
 Temo di aver sbagliato lo spot di pesca.
-Temo di aver sbagliato lo spot di pesca.
+I'm starting to think this isn't the best fishing spot...
 Non per altro, ma qui proprio non abboccano!
-Non per altro, ma qui proprio non abboccano!
+They don't take the bait at all!
 Tibbio
-Tibbio
+Timothy
 Presto! Aiutami a spegnere le fiamme!
-Presto! Aiutami a spegnere le fiamme!
+Quick! Help me extinguish these flames!
 Oh, ma che stupido... Siamo in un vulcano!
-Oh, ma che stupido... Siamo in un vulcano!
+Oh, how foolish of me...we are in a volcano!
 Turtonator
 Turtonator
 Tuuurt....!
@@ -5411,12 +5411,12 @@ Tuuurt....!
 <<[>>old<<]>>Vuoi salire su Turtonator?
 <<[>>old<<]>>Would you like to jump on Turtonator?
 Si
-Si
+Yes
 No
 No
 [Map122]
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Sabolt dia un'occhiata al suo interno?
-<<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Sabolt dia un'occhiata al suo interno?
+<<[>>old<<]>>It's a Pokémon Den...\nDo you want Sabolt to take a look inside?
 Sabolt
 Sabolt
 Booolt...!
@@ -5424,19 +5424,19 @@ Booolt...!
 <<[>>old<<]>>Forse un Pokémon di tipo Elettro potrebbe addentrarvisi...
 <<[>>old<<]>>Probably an Electric-type Pokémon could get in there...
 Maleo
-Maleo
+Hideo
 Uscirò da quest’inferno di fuoco e ghiaccio temprato nel fisico e nello spirito!
-Uscirò da quest’inferno di fuoco e ghiaccio temprato nel fisico e nello spirito!
+This hell of ice and flames will temper my body<<n>>and my soul!
 Uno spirito temprato non conosce sofferenza!
-Uno spirito temprato non conosce sofferenza!
+A tempered soul knows no suffering!
 Gino
-Gino
+Owen
 Geh eh eh! Sei caduto|a nel mio tranello!
-Geh eh eh! Sei caduto|a nel mio tranello!
+Bwa ha ha! You fell for my trick!
 Avrò la mia vendet... etciù!!
-Avrò la mia vendet... etciù!!
+I will get my reven--achoo!!
 Etciù! Etciùùù!!
-Etciù! Etciùùù!!
+Achoo! Achoo!!
 Bergmite
 Bergmite
 Berg...!
@@ -5453,11 +5453,11 @@ Tuuurt....!
 <<[>>old<<]>>Vuoi salire su Turtonator?
 <<[>>old<<]>>Would you like to jump on Turtonator?
 Cristiana
-Cristiana
+Christie
 Il vulcano è dormiente, io invece non dormo mai!
-Il vulcano è dormiente, io invece non dormo mai!
+The volcano is dormant, but I never sleep!
 Forse dovrei riposare un po’ anch’io...
-Forse dovrei riposare un po’ anch’io...
+Maybe I should rest too...
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 Si
@@ -5484,11 +5484,11 @@ Tuuurt....!
 Maui
 Maui
 Il mio spirito combattivo ribolle come la lava!
-Il mio spirito combattivo ribolle come la lava!
+My fighting spirit is building up inside of me<<n>>like a volcano!
 Dobbiamo cercare di contenere i nostri istinti.
-Dobbiamo cercare di contenere i nostri istinti.
+We must refrain from hot blooded behavior.
 Quinta regola del dojo: dobbiamo cercare di contenere i nostri istinti.
-Quinta regola del dojo: dobbiamo cercare di contenere i nostri istinti.
+Fifth dojo rule: each person must refrain from<<n>>hot blooded behavior.
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 <<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe addentrarvisi...
@@ -5519,7 +5519,7 @@ Tuuurt....!
 Lee
 Lee
 Sei ancora troppo acerbo|a per poterti inoltrare nei territori qui fuori.
-Sei ancora troppo acerbo|a per poterti inoltrare nei territori qui fuori.
+You are still too green to venture through the lands<<n>>out there, lad.
 Oleandro
 Abraham
 Fa' presto!!
@@ -5925,17 +5925,19 @@ Only Hudson's got what you're looking for!<<n>>C'mon, have a look!
 Sandman
 Sandman
 Smettetela di insozzare coi vostri passi il canyon! Questa è la terra del popolo di <b>Capricornia</b>!
-Smettetela di insozzare coi vostri passi il canyon! Questa è la terra del popolo di <b>Capricornia</b>!
+Stop fouling the canyon with your footsteps!<<n>>This land belongs to us, the people of <b>Equinox</b>!
 Jackson
 Jackson
 Taci! Questo canyon è mio e della mia banda, capito?!
-Taci! Questo canyon è mio e della mia banda, capito?!
+Shuddup! This canyon belongs to me and my gang, clear?!
 Hol
 Hol
 Ah ah ah! Ma sentili!
-Ah ah ah! Ma sentili!
+Ha ha ha! Look at them!
+E chi si occupa di difendere il canyon dai Pokémon pericolosi? Voi Mototeppisti? Voi Nativi? No, noi Cowboy! Questo territorio è nostro!!
+And who's been defending this canyon from dangerous Pokémon? You Bikers? You Natives?<<n>>No, we Cowboys! This territory is ours!!
 E tu che vuoi?! Non sarai qui anche tu per strapparmi il mio canyon?!
-E tu che vuoi?! Non sarai qui anche tu per strapparmi il mio canyon?!
+And whaddya want?! Don't tell me you're here to snatch<<n>>my canyon outta my hands?!
 Mi hai proprio tolto le parole di bocca!
 Mi hai proprio tolto le parole di bocca!
 Si sarà solo smarrito|a...
@@ -6632,9 +6634,9 @@ R3V0
 ???
 ???
 Ciao, Allenatore in erba! Dei criminali fuggiti di prigione non si vede neanche più l'ombra, eh? Ottimo lavoro!
-Ciao, Allenatore in erba! Dei criminali fuggiti di prigione non si vede neanche più l'ombra, eh? Ottimo lavoro!
+Hey there, green Trainer! Seems like there are no more<<n>>fugitives around, huh? Good work!
 Ora che più nessun ostacolo si interpone tra te e il Capopalestra, sei pronto|a per la sfida finale... Ma, se vuoi un consiglio, fa sì che i tuoi Pokémon siano nel pieno delle forze, lo Sceriffo è un tipo tosto! Io ti aspetto dentro e, come al solito, faccio il tifo per te!
-Ora che più nessun ostacolo si interpone tra te e il Capopalestra, sei pronto|a per la sfida finale... Ma, se vuoi un consiglio, fa sì che i tuoi Pokémon siano nel pieno delle forze, lo Sceriffo è un tipo tosto! Io ti aspetto dentro e, come al solito, faccio il tifo per te!
+Now that there are no more obstacles between you and<<n>>the Gym Leader, you're ready for the final challenge...<<n>>But I'm warning you, make sure your Pokémon are at the top of their shape because the Sheriff is a tough guy!<<n>>I'll be waiting for you inside and, as usual, I'll be cheering for you!
 Pablo
 Pablo
 Si dice che i Pokémon defunti ancora vincolati al mondo dei vivi, vi facciano ritorno sotto forma di spettri.
@@ -6654,7 +6656,7 @@ Alida
 Non è mica facile badare ad un’intera mandria di Miltank!
 Non è mica facile badare ad un’intera mandria di Miltank!
 <<[>>old<<]>>El Purgatorio ''Prigione di massima sicurezza e Palestra del misterioso Crisante.''
-<<[>>old<<]>>El Purgatorio ''Prigione di massima sicurezza e Palestra del misterioso Crisante.''
+<<[>>old<<]>>El Purgatorio ''High-security prison and Gym of the mysterious Caspar.''
 Juanito
 Juanito
 Ogni giorno vengo qui a spruzzare l’Iperpozione sulla tomba del mio Meowth, ma ancora non si risveglia...
@@ -6983,56 +6985,60 @@ Il tuo Raichu ha imparato la mossa.
 Portami un Raichu che possa padroneggiare questa mossa.
 Portami un Raichu che possa padroneggiare questa mossa.
 Oh, eccoti \PN!
-Oh, eccoti \PN!
+Oh, there you are \PN!
+Come promesso, Maurice ha messo a punto un aggeggio per togliere dai piedi quelle Reclute Dimension. Ora ti spiegherà tutto quanto lui.
+As promised, Chrysler developed a device that will make<<n>>those Dimension Grunts scram.<<n>>I'll let him explain everything, now.
 Affermativo.
-Affermativo.
+Affirmative.
 Ho sfruttato l’Elettrococcola del mio Pikachu per provocare un cortocircuito in quei robot. Chiaramente, quelle Reclute hanno scacciato il mio Pokémon, ma il piano è andato a buon fine. L'elettricità generata ha instaurato un legame a livello elettronico tra Pikachu e l'automa colpito.
-Ho sfruttato l’Elettrococcola del mio Pikachu per provocare un cortocircuito in quei robot. Chiaramente, quelle Reclute hanno scacciato il mio Pokémon, ma il piano è andato a buon fine. L'elettricità generata ha instaurato un legame a livello elettronico tra Pikachu e l'automa colpito.
+I used my Pikachu's Nuzzle to make those robots<<n>>short-circuit.<<n>>Obviously, my Pokémon was immediately chased away<<n>>by the Grunts, but the plan succeeded.<<n>>The resulting electricity created an electrical bond between Pikachu and the automatons.
 Quanti paroloni, Maurice!
-Quanti paroloni, Maurice!
+Too many words for one single explanation, Chrysler!
+\PN, per farla breve, è come se ora Pikachu e la Recluta fossero collegati da un filo invisibile.
+\PN, to make it short, Pikachu and the Grunt<<n>>are kinda linked by an invisible line.
 Esatto. Coi dati ricavati dall'elettricità condivisa, ho creato un controsistema in grado di manovrarle. Premendo il tasto di questo telecomando, genererò segnali elettromagnetici captabili da quei dispositivi...
-Esatto. Coi dati ricavati dall'elettricità condivisa, ho creato un controsistema in grado di manovrarle. Premendo il tasto di questo telecomando, genererò segnali elettromagnetici captabili da quei dispositivi...
+Exactly. With the data we received from this bond, I created a countermeasure that will let me maneuver them.<<n>>By pressing the button on this remote, I'll unleash EMPs<<n>>that will surely be registered by those devices...
 Beh, cos'aspetti allora? Premiamolo subito! Click!
-Beh, cos'aspetti allora? Premiamolo subito! Click!
+Well, what are you waiting for? Let's press it now! Click!
 Caricamento in corso... 10%... 40%... 70%... 90%... 100%! Avvio.
-Caricamento in corso... 10%... 40%... 70%... 90%... 100%! Avvio.
+Loading...10%...<<n>>40%...70%...<<n>>90%...100%!<<n>>Start.
 R3V0
 R3V0
 <i>Bzz!</i>
 <i>Bzz!</i>
 Maurice, sei davvero un genio! Ha funzionato!
-Maurice, sei davvero un genio! Ha funzionato!
+Chrysler, you're a genius! It worked!
 Grazie, capitano.
-Grazie, capitano.
+Thank you, captain.
 Maurice... Credi che, con qualche modifica qua e là, questo robot possa tornarci utile?
-Maurice... Credi che, con qualche modifica qua e là, questo robot possa tornarci utile?
+Chrysler... Do you think that, with a few tweaks here and<<n>>there, that robot might actually be useful to us?
 Affermativo. Mettere mano su un sistema così ben progettato sarebbe davvero un piacere.
-Affermativo. Mettere mano su un sistema così ben progettato sarebbe davvero un piacere.
+Affirmative. Being able to interact with such<<n>>a well-designed system will be a pleasure.
 Forse dovremmo trovarti un nome...
-Forse dovremmo trovarti un nome...
+We should give you a name...
 Mmh... Quella sigla sul collo... <b>R3V0</b>? Che ne dite di <b>Revolver</b>, ragazzi? Suena bien... non credi, \PN?
-Mmh... Quella sigla sul collo... <b>R3V0</b>? Che ne dite di <b>Revolver</b>, ragazzi? Suena bien... non credi, \PN? 
+Hmm... That code on its neck... <b>R3V0</b>? How about <b>Revolver</b>, guys? Suena bien...don't you think? 
 Revolver sia.
-Revolver sia.
+Revolver it is.
 Maurice, non vedo l'ora di vedere cosa tirerai fuori modificandolo!
-Maurice, non vedo l'ora di vedere cosa tirerai fuori modificandolo!
+I can't wait to see what you'll make of it, Chrysler!
 Mi metto subito all'opera, capitano.
-Mi metto subito all'opera, capitano.
+I'll get to work right away, captain.
 Ora potrai finalmente fare la conoscenza dello Sceriffo Crisante, il Capopalestra della città... La sua abilità ci è stata più volte indispensabile nella riuscita delle missioni più rischiose.
-Ora potrai finalmente fare la conoscenza dello Sceriffo Crisante, il Capopalestra della città... La sua abilità ci è stata più volte indispensabile nella riuscita delle missioni più rischiose.
+Now you can finally meet Sheriff Caspar, this city's<<n>>Gym Leader...<<n>>His skills were useful in more than one dangerous mission.
 Un po' come te con la disinfestazione di oggi... Sono certa che gli terrai testa! Buena suerte con todo, \PN!
-Un po' come te con la disinfestazione di oggi... Sono certa che gli terrai testa! Buena suerte con todo, \PN!
+Kinda like today's one...<<n>>I'm sure you'll be a tough opponent for him!<<n>>Buena suerte con todo, \PN!
 Allora... Hai incontrato Crisante?
-Allora... Hai incontrato Crisante?
+So...have you met Caspar?
 Affermativo!
-Affermativo!
+Affirmative!
 Negativo!
-Negativo!
+Negative!
 [Map162]
 Will
 Will
 Ciao, \PN! Non vedo l'ora di partecipare ad una nuova missione con te!
-Ciao, \PN! Non vedo l'ora di partecipare ad una nuova missione con te!
+Hi, \PN! I can't wait to go on a mission with you again!
 Ciao, \PN! Quel Pokémon che ci ha sbalzati via era davvero enorme... Ma scommetto che sei riuscito a occupartene tu!
 Ciao, \PN! Quel Pokémon che ci ha sbalzati via era davvero enorme... Ma scommetto che sei riuscito a occupartene tu!
 È stata davvero una bella festa!
@@ -7178,7 +7184,9 @@ No offense, Salem...but you're hopeless.<<n>>C'mon, \PN. Let's leave this idiot 
 <<[>>old<<]>>C'è solo spazzatura...
 <<[>>old<<]>>Just garbage...
 Guarda un po' chi si vede!
-Guarda un po' chi si vede!
+Look who it is!
+Il Camion S.P.E.T.T.R.I. aveva bisogno di qualche messa a punto e mi sono messo all'opera... Questo è un lavoro da veri uomini!
+The G.E.I.S.T. Truck needed some tune up so I'm working<<n>>on it... This is a job for a real man!
 Quel cantante da strapazzo ci ha fatto solo perdere tempo... Col cavolo che Leopoli vedrà più questo bel muso!
 Quel cantante da strapazzo ci ha fatto solo perdere tempo... Col cavolo che Leopoli vedrà più questo bel muso!
 Allora, com’è allenare quel tappetto?
@@ -7198,8 +7206,8 @@ Il proprietario, <b>Cempa</b>, lo costruì circa un secolo fa, occupandosi anche
 The owner <b>Chempo</b>, built it about a century ago,<<n>>taking the role as the bartender as well.<<n>>Every zone was finely organized!
 Quella in cui ci troviamo adesso, ad esempio, era la ''sala della lotta''. Qui, gli abitanti di Scorpiopoli e non, tra un bicchiere e l'altro, si divertivano a lottare! Tutte le cose belle però sono destinate a finire...
 For instance, the one we’re occupying right now was<<n>>the ''battle room''.<<n>>Here, both Westar City's citizens and outsiders, used to fight between one drink and the next one!<<n>>All good things come to an end though...
-Qualcuno mise in giro una voce secondo cui il proprietario nascondeva un Pokémon mostruoso... La gente, pur non avvistando mai questa creatura, diede credito alla diceria e Cempa vide scomparire, giorno dopo giorno, i suoi clienti uno dopo l'altro... fino a rimanere da solo. Il saloon è deserto da quel fatidico giorno. Il tempo ha fatto il resto...
-Someone spread a rumor about a monstrous Pokémon<<n>>hidden by the owner...<<n>>People, even though they’ve never seen this creature in the flesh, believed the rumor and so Chempo started seeing,<<n>>day after day, his clients disappearing one after the other... until he was left alone.<<n>>So this saloon, that has been deserted ever since, became<<n>>the home of Ghost-type Pokémon...
+Qualcuno mise in giro una voce secondo cui il proprietario nascondeva un Pokémon mostruoso... La gente, pur non avvistando mai questa creatura, diede credito alla diceria e Cempa vide scomparire, giorno dopo giorno, i suoi clienti uno dopo l'altro... fino a rimanere da solo. Il saloon, deserto da quel fatidico giorno, è così diventato la dimora dei Pokémon Spettro...
+Someone spread a rumor about a monstrous Pokémon<<n>>hidden by the owner...<<n>>People, even though they've never seen this creature, believed the rumor and so Chempo started seeing,<<n>>day after day, his clients disappearing one after the other... until he was left alone.<<n>>So this saloon, that has been deserted ever since, became<<n>>the home of Ghost-type Pokémon...
 Ma noi della S.P.E.T.T.R.I. non permetteremo che uno spiritello arrogante se ne impossessi, mandando in fumo il lavoro del signor Cempa! È per questo che siamo qui!
 But G.E.I.S.T. will never let an arrogant two-bit spirit<<n>>take it for itself, ruining mr. Chempo's work!<<n>>That's why we're here!
 Ora che ci siamo tutti, la S.P.E.T.T.R.I. può finalmente entrare in azione! Eh sì, \PN, fino al termine della missione, sarai parte della squadra! Analizziamo la zona in cerca di indizi, vamonos!
@@ -7233,15 +7241,15 @@ Alright! I know I can trust you.
 Grazie, capitano.
 Thank you, captain.
 Protocollo di trasferimento. Caricamento in corso... 10%... 40%... 70%... 90%... 100%! Avvio.
-Transfer protocol.<<n>>Loading... 10%...<<n>>40%... 70%...<<n>>90%... 100%!<<n>>Start.
+Transfer protocol.<<n>>Loading...10%...<<n>>40%...70%...<<n>>90%...100%!<<n>>Start.
 Ehi! Ma che diablo sta succedendo qui?! E perché quel grassone sta volando?!
 Hey! Qué demonios is going on here?!<<n>>Why is that tubbo flying?!
 Cabrón che non sei altro! Hai già dimenticato tutto?!
 Idiota! Did you already forget everything?!
-Il povero Maurice, per salvarti, si è lanciato nelle grnfie del Pokémon che ti aveva posseduto!
+Il povero Maurice, per salvarti, si è lanciato nelle grinfie del Pokémon che ti aveva posseduto!
 Poor Chrysler saved you by letting himself be taken<<n>>by the Pokémon that possessed you!
 Eh? Cosa?! Allora adesso ho l'opportunità di ricambiare il favore... Grassone, ci penso io a salvarti la pellaccia!
-Uh? What?! Then I have the chance to redeem myself... Don't worry, tubbo, I'll save your fat behind!
+Uh? What?! Then I have the chance to redeem myself...<<n>>Don't worry, tubbo, I'll save your fat behind!
 Tsk... Però non posso attaccare il buon Maurice... come si fa?
 Tch... I can't attack ol' Chrysler though...<<n>>What to do?
 Tu
@@ -7263,9 +7271,9 @@ I-I agree with you, sis!<<n>>\PN, you were amazing!
 Ma è ancora presto per cantar vittoria... quel Pokémon è ancora a piede libero! Potrebbe metterci l'uno contro l'altro in ogni momento.
 But it's still too early for celebrations...<<n>>that Pokémon is still on the loose!<<n>>It could put any of us against the others at any moment.
 Siamo già a meno uno senza il grassone... Maurice, quel bastardo se la vedrà con me! \PN, dammi quella chiave!
-And we're already short on tubbo...<<n>>Chrysler, I'll make that bastard pay!<<n>>\PN,gimme that key! Let's settle this,<<n>>good-for-nothing spirit.
+And we're already short on tubbo...<<n>>Chrysler, I'll make that bastard pay!<<n>>\PN, gimme that key!
 È ora di farla finita con 'sta farsa, spiritello da quattro soldi.
-È ora di farla finita con 'sta farsa, spiritello da quattro soldi.
+Let's settle this, good-for-nothing spirit.
 Saul, ma che diablo ti passa per quella zucca vuota? Non bisogna mai dividersi in situazioni del genere!
 Salem, qué demonios are you thinking?<<n>>We can't split up at a time like this!
 Buster
@@ -7365,13 +7373,13 @@ Lemme guess... You saved my bacon again, haven't you?
 Assurdo, sono riuscito a prenderle da un ragazzino...
 This is absurd, I managed to get myself beaten<<n>>by a lil' kid...
 L'orgoglio mi ha annebbiato e ho agito senza riflettere... È colpa mia se ora ci troviamo in questa situazione!
-I let pride fog my mind and I acted carelessly..<<n>>It's my fault we're in this situation now!
+I let pride fog my mind and I acted carelessly...<<n>>It's my fault we're in this situation now!
 Non riesco a muovere nemmeno un muscolo, come se tutta l'energia mi fosse stata sottratta... Quel maledetto dev'essere ancora in giro per il saloon...
 I can't move an inch, as if all the energy I had<<n>>had been drained...<<n>>That damned thing must still be roaming the saloon...
 \PN, sei il solo che possa farcela... Salva Silvia e Will, por favor!
 \PN, you're the only one who can do this...<<n>>Save Minta and Will, por favor!
 Una cosa voglio dirtela... Mi avrai anche sconfitto, ma il più bello resto io! Ah ah ah!
-Lemme tell you this, though...You may have defeated me,<<n>>but I'm still the most handsome! Ha ha ha!
+Lemme tell you this, though...you may have defeated me,<<n>>but I'm still the most handsome! Ha ha ha!
 Forza, \PN! Suonagliele a quel bastardo!
 C'mon, \PN! Make that bastard pay!
 Sorpresa che io riesca a parlare? Bah, niente di speciale...
@@ -7493,7 +7501,7 @@ Hangead
 \PN, prendere possesso del corpo di questo ragazzino è stato piuttosto semplice... Soprattutto perché appena ha visto il mio aspetto è scoppiato in lacrime! Han han han!
 \PN, possessing the body of this kid was actually<<n>>pretty easy...<<n>>Mostly because when he saw me he started crying<<n>>his heart out! Han han han!
 Non sarà paragonabile al biondino, ma sotto queste spoglie mi sento un autentico umano. Sento che potrei abituarmici in fretta!
-It may not be that blondie, but with this body I feel like<<n>>a real human. I feel like I could get used to this quickly!
+It may not be that blondie, but with this body I feel like<<n>>a real human. I could get used to this quickly!
 Eliminandoti, potrò lasciare questa catapecchia e insediarmi nella società senza destare sospetti!
 When I'll get rid of you, I'll be able to leave this wretched<<n>>place and blend into your society without suspicion!
 ...
@@ -7613,9 +7621,9 @@ Sis, how do you feel?
 Silvia
 Minta
 Oh, chicos... Siete sani e salvi... Ma cos'è successo?
-Oh, chicos..you're all ok... What happened?
+Oh, chicos...you're all ok... What happened?
 Hai lasciato che quell'Hangead prendesse possesso del tuo corpo, come un'idiota. Per tua fortuna, io, Maurice, Will e \PN abbiamo conciato per le feste quel buffone!
-You let that Hangead take control of your body,<<n>>like an amateur.<<n>>Luckily for you, I, Chrysler, Will and \\PN beat<<n>>the living soul out of that buffoon!
+You let that Hangead take control of your body,<<n>>like an amateur.<<n>>Luckily for you, I, Chrysler, Will and \PN beat<<n>>the living soul out of that buffoon!
 Come mi hai chiamata, Saul?! Ripetilo se ne hai il coraggio!!
 What did you call me, Salem?! I'll dare you say that<<n>>one more time!!
 Anche se hai ragione... Quel Pokémon non ci ha messo nulla a impadronirsi di me! Ah ah ah!
@@ -7655,7 +7663,7 @@ Not so fast, amiga!
 Hai ragione, Whisteract. Ci hai già sconfitti, ma quella volta eravamo soli... Ma stavolta è diverso... Noi...
 You're right, Whisteract. You've already<<n>>defeated us once, but we were alone back then...<<n>>This time is different... We...
 Hai lasciato che quel Whisteract prendesse possesso del tuo corpo, come un'idiota. Per tua fortuna, io, Maurice, Will e \PN abbiamo conciato per le feste quel buffone!
-You let that Whisteract take control of your body,<<n>>like an amateur.<<n>>Luckily for you, I, Chrysler, Will and \\PN beat<<n>>the living soul out of that buffoon!
+You let that Whisteract take control of your body,<<n>>like an amateur.<<n>>Luckily for you, I, Chrysler, Will and \PN beat<<n>>the living soul out of that buffoon!
 Squadra... Quello dovrebbe essere il reale aspetto di Whisteract.
 Guys...that seems to be Whisteract's real form.
 Beh, allora cosa aspettiamo a farla fuo...
@@ -7841,27 +7849,33 @@ No
 Ochoa
 Ochoa
 Ehi, mocciosetto|a!
-Ehi, mocciosetto|a!
+Hey, shorty!
 Lascia che ti ringrazi.
-Lascia che ti ringrazi.
+Let me thank ya.
+Ci hai fornito l'occasione propizia per fuggire di qui e seminare, ancora una volta, il panico in città!
+You just gave us the perfect chance to leave this place<<n>>and bring chaos to the city once again!
 Maria
 Maria
 E ora fuori dai piedi!
-E ora fuori dai piedi!
+Outta the way, now!
 Adios, amigo|a.
 Adios, amigo|a.
 ???
 ???
 Che guaio! Ragazzo|a, tutto bene?
-Che guaio! Ragazzo|a, tutto bene?
+What a mess! Are you alright, kid?
 Quei desperados hanno approfittato della tua sfida in Palestra per attuare il loro piano di evasione! Sarà una seccatura per lo Sceriffo Crisante andare a riacciuffarli...
-Quei desperados hanno approfittato della tua sfida in Palestra per attuare il loro piano di evasione! Sarà una seccatura per lo Sceriffo Crisante andare a riacciuffarli...
+Those desperados used your Gym challenge as a chance<<n>>to carry out their escape plan!<<n>>It's gonna be such a chore for Sheriff Caspar going around to catch them all over again...
 Ehi, ho un'idea!
-Ehi, ho un'idea!
+Hey, I've an idea!
+Andare a recuperare quei farabutti potrebbe essere un ottimo allenamento per te, non credi?
+Catching those crooks might be a good training for you,<<n>>don't you think?
 Coraggio, giovane! Recupera tutti e quattro i galeotti e riportali qui. Sono certo che lo Sceriffo apprezzerà che gli risparmi la fatica. Eh eh!
-Coraggio, giovane! Recupera tutti e quattro i galeotti e riportali qui. Sono certo che lo Sceriffo apprezzerà che gli risparmi la fatica. Eh eh!
+C'mon, youngster! Catch all four prisoners and bring them back here.<<n>>I'm sure the Sheriff's gonna appreciate your effort.<<n>>Heh heh!
+Non devono essere andati lontano, alla fin fine sono solo dei ladruncoli da quattro soldi... Probabilmente cercheranno di mettere un po' di pepe nella spenta Scorpiopoli. In bocca al lupo e ricorda che faccio il tifo per te, come sempre!
+They must still be close, they're just four no good thieves after all...<<n>>They're probably just trying to spice up things<<n>>in this lame town.<<n>>Break a leg and remember I'm always cheering for you!
 Ricorda che faccio il tifo per te, come sempre!
-Ricorda che faccio il tifo per te, come sempre!
+Remember I'm always cheering for you!
 [Map181]
 Delia
 Delia
@@ -8462,53 +8476,73 @@ Capopalestra
 Capopalestra
 [Map191]
 Crisante
-Crisante
+Caspar
 Allora... com'è andata col recupero dei fuggiaschi?
-Allora... com'è andata col recupero dei fuggiaschi?
-A dire il vero, sono stato io a permettere che tutto ciò accadesse, così da poterti mettere alla prova... Spirito d'osservazione, coraggio e voglia di mettersi in gioco... Queste sono le caratteristiche che contraddistinguono un Allenatore più di ogni altra cosa... Devo dire che non hai tradito le mie aspettative!
-A dire il vero, sono stato io a permettere che tutto ciò accadesse, così da poterti mettere alla prova... Spirito d'osservazione, coraggio e voglia di mettersi in gioco...  Queste sono le caratteristiche che contraddistinguono un Allenatore più di ogni altra cosa... Devo dire che non hai tradito le mie aspettative!
-A un uomo di sapere basta osservare le ombre degli uomini per carpire i loro sentimenti più reconditi... Starai pensando quanto sia stato irresponsabile lasciare dei malviventi a piede libero, vero? Non ti do torto, ma puoi dormire sonni tranquilli. Se avessi fallito, la città non avrebbe corso rischi. Certo, sarei dovuto intervenire io, ma mi hai risparmiato la seccatura e te ne sono grato! Inoltre, col tuo intervento, hai dato modo al mio estro di esplodere come un fiume in piena... Era da tempo che non mi immergevo così di capo nella scrittura! Ma ora bando alle ciance!
-A un uomo di sapere basta osservare le ombre degli uomini per carpire i loro sentimenti più reconditi... Starai pensando quanto sia stato irresponsabile lasciare dei malviventi a piede libero, vero? Non ti do torto, ma puoi dormire sonni tranquilli. Se avessi fallito, la città non avrebbe corso rischi. Certo, sarei dovuto intervenire io, ma mi hai risparmiato la seccatura e te ne sono grato! Inoltre, col tuo intervento, hai dato modo al mio estro di esplodere come un fiume in piena... Era da tempo che non mi immergevo così di capo nella scrittura! Ma ora bando alle ciance!
+So...did you manage to capture all the fugitives?
+Pensavi che ne fossi all'oscuro? Io sono al corrente di tutto ciò che avviene in questo penitenziario, inclusa la fuga di quei desperados.
+You think I didn't know about that? I'm aware of everything that happens in this penitentiary,<<n>>including the escape of those desperados.
+A dire il vero, sono stato io a permettere che tutto ciò accadesse, così da poterti mettere alla prova... Spirito d'osservazione, coraggio e voglia di mettersi in gioco...
+Actually, I'm the one who let that happen, so that I could test your abilities...<<n>>Observation, courage and spirit of initiative...
+Queste sono le caratteristiche che contraddistinguono un Allenatore più di ogni altra cosa... Devo dire che non hai tradito le mie aspettative!
+These are the characteristics that define a Trainer more than anything else...<<n>>I must say you haven't betrayed my expectations<<n>>in the slightest!
+Starai pensando quanto sia stato irresponsabile lasciare dei malviventi a piede libero, vero? Non ti do torto, ma puoi dormire sonni tranquilli. Se avessi fallito, la città non avrebbe corso rischi. Certo, sarei dovuto intervenire io, ma mi hai risparmiato la seccatura e te ne sono grato! Inoltre, col tuo intervento, hai dato modo al mio estro di esplodere come un fiume in piena... Ma ora bando alle ciance!
+You're probably thinking that it was irresponsible of me<<n>>to let those crooks run amok, right?<<n>>I can't blame you, but don't trouble yourself about it. If you had failed, the city would have been safe nonetheless.<<n>>Obviously, I would have intervened, but you spared me<<n>>this chore and I'm grateful for that!<<n>>Furthermore, thanks to your intervention, you made<<n>>my estrus burst forth like a gushing torrent...<<n>>But let's not waste any more time!
 La tua sfida è stata interrotta in medias res ed è tempo che si concluda con un gran finale... la lotta col Capopalestra!
-La tua sfida è stata interrotta in medias res ed è tempo che si concluda con un gran finale... la lotta col Capopalestra!
-Adoro quando nei romanzi i personaggi entrano in scena per poi rivelarsi solo dopo... Ebbene sì, io sono <b>Crisante</b>, Sceriffo e Capopalestra della contea di Scorpiopoli. Orsù, preparati ad affrontare i miei tenebrosi Pokémon di tipo Spettro!
-Adoro quando nei romanzi i personaggi entrano in scena per poi rivelarsi solo dopo... Ebbene sì, io sono <b>Crisante</b>, Sceriffo e Capopalestra della contea di Scorpiopoli. Orsù, preparati ad affrontare i miei tenebrosi Pokémon di tipo Spettro!
+Your challenge was interrupted once too much and it's time it reaches its climax...the battle with the Gym Leader!
+Perdona lo sgarbo, non mi sono ancora presentato...
+Pardon my rudeness, but I still haven't introduced myself...
+Ebbene sì, io sono <b>Crisante</b>, Sceriffo e Capopalestra della contea di Scorpiopoli. Orsù, preparati ad affrontare i miei tenebrosi Pokémon di tipo Spettro!
+That's right, I'm <b>Caspar</b>, Sheriff and Gym Leader of Westar City's county.<<n>>Prepare to face the might of my murky Ghost-type<<n>>Pokémon! En garde!
 Interessante colpo di scena...
-Interessante colpo di scena...
+Such an interesting turn of events...
 Delle abilità davvero eccelse, giovane! Saresti un ottimo protagonista di romanzi, sai? I miei più sentiti ringraziamenti per le emozioni che mi hai fatto provare con questa lotta serrata. Senza dubbio, le tramuterò in fonte d'ispirazione per i miei prossimi racconti.
-Delle abilità davvero eccelse, giovane! Saresti un ottimo protagonista di romanzi, sai? I miei più sentiti ringraziamenti per le emozioni che mi hai fatto provare con questa lotta serrata. Senza dubbio, le tramuterò in fonte d'ispirazione per i miei prossimi racconti.
-In quanto Capopalestra della contea ti conferisco l'emblema del mio status di Sceriffo. È un simbolo di ordine e disciplina, due aspetti che ho riscontrato nel tuo modo di lottare e, di riflesso, nell'allenamento cui certamente sottoponi i tuoi Pokémon. Prendi, la <b>Medaglia Desolazione</b> è tua ora.
-In quanto Capopalestra della contea ti conferisco l'emblema del mio status di Sceriffo. È un simbolo di ordine e disciplina, due aspetti che ho riscontrato nel tuo modo di lottare e, di riflesso, nell'allenamento cui certamente sottoponi i tuoi Pokémon. Prendi, la <b>Medaglia Desolazione</b> è tua ora.
+Bravo, young one, bravo! You'd be a perfect<<n>>protagonist for a novel, you know?<<n>>You have my most heartfelt gratitude for the emotions<<n>>that you forced me to feel in this tough battle.<<n>>Undoubtedly, I'll turn them into a source of inspiration<<n>>for my next novels.
+In quanto Capopalestra della contea ti conferisco l'emblema del mio status di Sceriffo. È un simbolo di ordine e disciplina, due aspetti che ho riscontrato nel tuo modo di lottare. Prendi, la <b>Medaglia Desolazione</b> è tua ora.
+As the Gym Leader of this county I hereby pledge you<<n>>with the emblem of my status as a Sheriff.<<n>>It's a symbol of order and discipline, two facets I saw<<n>>in the way you battle.<<n>>Here, the <b>Despair Badge</b> is now yours.
 Le stelle hanno sempre avuto un’enorme importanza nella storia della nostra regione, di cui sono il simbolo. Esse, col loro antico lume, rendono chiare e limpide anche le notti più buie... Ma è pur vero che, più intensamente brilla la luce, più l'ombra che produce è fitta e oscura. Per cui, più il tuo coraggio farà ardere gli animi dei tuoi Pokémon, più questa MT sarà efficace. Prendi pure, consideralo un regalo del sottoscritto.
-Le stelle hanno sempre avuto un’enorme importanza nella storia della nostra regione, di cui sono il simbolo. Esse, col loro antico lume, rendono chiare e limpide anche le notti più buie... Ma è pur vero che, più intensamente brilla la luce, più l'ombra che produce è fitta e oscura. Per cui, più il tuo coraggio farà ardere gli animi dei tuoi Pokémon, più questa MT sarà efficace. Prendi pure, consideralo un regalo del sottoscritto.
+The stars always enjoyed an important role in the history<<n>>of our region, and they are its symbol as well.<<n>>With their everlasting light, they make even the darkest<<n>>of nights clear as day...<<n>>Yet, the brightest the light, the thickest and dark<<n>>is the shadow it casts.<<n>>Therefore, the more your courage fuels the soul of your Pokémon, the more effective this TM is going to be.<<n>>Take it, and consider it a gift from yours truly.
 Hai mai sentito parlare del concetto di ''doppio''?
-Hai mai sentito parlare del concetto di ''doppio''?
+Have you ever heard of the idea known as ''double''?
+Ciascuno di noi ha in sé un lato che tiene ben nascosto nel proprio subconscio... l'ombra. negando la luce e ignorando che, senza di essa, la sua esistenza sarebbe vana,  questa cerca di espandersi al pari del suo opposto simmetrico.
+Each and everyone of us deeply hides within themselves a...shadow of sorts.<<n>>By refusing the light and ignoring that, without it,<<n>>its existence would be vain,<<n>>this shadow tries to expand just like its counterpart does.
 Una volta raggiunta una forma propria, si separa dal corpo principale, ma è pur sempre vincolata, in un modo o nell'altro, a ciò che l'ha creata...
-Una volta raggiunta una forma propria, si separa dal corpo principale, ma è pur sempre vincolata, in un modo o nell'altro, a ciò che l'ha creata...
-Perdonami se mi sono lasciato trasportare dalla poetica, ma hai davvero scosso il mio animo dalle fondamenta... Sarà meglio lasciare che l'inchiostro guidi le mie dita!
-Perdonami se mi sono lasciato trasportare dalla poetica, ma hai davvero scosso il mio animo dalle fondamenta... Sarà meglio lasciare che l'inchiostro guidi le mie dita!
+Once it reaches a proper form, it separates itself from<<n>>its host, yet it still shares a bond, in some way,<<n>>with the body that created it...
+È questo il concetto alla base dell'universo, nonché della mossa <b>Palla Ombra</b>, contenuta in quella MT. Fanne un buon uso, mi raccomando!
+This is the base concept of the universe, and the concept behind <b>Shadow Ball</b>, contained in this TM.<<n>>I'm sure you'll make good use of it!
+Perdonami se mi sono lasciato trasportare dalla poetica, ma hai davvero scosso il mio animo dalle fondamenta...
+Forgive me if I let myself be taken by my muse, but<<n>>our meeting shook my soul to its core...
+Che le stelle illuminino il sentiero su cui volgerai i tuoi passi, \PN.
+May the stars shine light onto your path,<<n>>o young \PN.
 Ricorda sempre, \PN... Più intensamente brilla la luce, più l'ombra che produce è fitta e oscura.
-Ricorda sempre, \PN... Più intensamente brilla la luce, più l'ombra che produce è fitta e oscura.
+Always remember, \PN... The brightest is the light,<<n>>the thickest and dark the shadow it casts.
 Non sono state le stelle a illuminare il tuo sentiero... Sei stato|a tu brillare come un astro!
-Non sono state le stelle a illuminare il tuo sentiero... Sei stato|a tu brillare come un astro!
+It looks like there was no need for the stars to shed light<<n>>on your path...because you're the real star!
 ???
 ???
 Altolà, Allenatore! Non fuggirai così facilmente di prigione!
-Altolà, Allenatore! Non fuggirai così facilmente di prigione!
+Hold it, Trainer! You're not going to escape from this prison so easily!
 <<[>>old<<]>>El Purgatorio, Palestra di Scorpiopoli Capopalestra: <b>Crisante</b> <i>''Alle calcagna del crimine come un'ombra!''</i> Allenatori Certificati: 0
-<<[>>old<<]>>El Purgatorio, Palestra di Scorpiopoli Capopalestra: <b>Crisante</b> <i>''Alle calcagna del crimine come un'ombra!''</i> Allenatori Certificati: 0
+<<[>>old<<]>>El Purgatorio, Westar Gym\nGym Leader: <b>Caspar</b>\n<i>''Chasing crimes like a shadow!''</i>\nCertified Trainers: 0
 <<[>>old<<]>>El Purgatorio, Palestra di Scorpiopoli Capopalestra: <b>Crisante</b> <i>''Alle calcagna del crimine come un'ombra!''</i> Allenatori Certificati: \PN
-<<[>>old<<]>>El Purgatorio, Palestra di Scorpiopoli Capopalestra: <b>Crisante</b> <i>''Alle calcagna del crimine come un'ombra!''</i> Allenatori Certificati: \PN
+<<[>>old<<]>>El Purgatorio, Westar Gym\nGym Leader: <b>Caspar</b>\n<i>''Chasing crimes like a shadow!''</i>\nCertified Trainers: \PN
 Bienvenido|a en El Purgatorio, la Palestra di Scorpiopoli! Mi domandavo quanto ci avresti messo ad arrivare...
-Bienvenido|a en El Purgatorio, la Palestra di Scorpiopoli! Mi domandavo quanto ci avresti messo ad arrivare...
+Bienvenido|a en El Purgatorio, Westar City's Gym!<<n>>I was starting to wonder when you would show up...
+Come dici? Vuoi sapere perché stia continuando a seguirti? In realtà... sono uno spettro che ti sta perseguitando!
+What? You wanna know why I keep following you?<<n>>Actually...I'm a ghost that is haunting you!
 Ovviamento scherzo! Avresti dovuto vedere la tua faccia! Ah ah ah! Tuttavia, è proprio il tipo Spettro il protagonista indiscusso di questa Palestra.
-Ovviamento scherzo! Avresti dovuto vedere la tua faccia! Ah ah ah! Tuttavia, è proprio il tipo Spettro il protagonista indiscusso di questa Palestra.
+Just kidding! You should have seen the look on your face!<<n>>Ha ha ha!<<n>>However, Ghost-type Pokémon are the undisputed protagonists of this Gym.
+Entrare qui è come finire in galera, quindi puoi considerarti un prigioniero adesso.
+Being inside here feels like being in jail, so you can<<n>>consider yourself a prisoner, now.
 Il tuo scopo è risolvere una serie di enigmi, per evadere e sfidare il Capopalestra situato laggiù. Non pensare che sia così semplice come sembra, presta attenzione ad ogni minimo particolare... soprattutto alle parole dei detenuti e al colore delle gemme che adornano varie zone della Palestra. E ricorda che faccio il tifo per te!
-Il tuo scopo è risolvere una serie di enigmi, per evadere e sfidare il Capopalestra situato laggiù. Non pensare che sia così semplice come sembra, presta attenzione ad ogni minimo particolare... soprattutto alle parole dei detenuti e al colore delle gemme che adornano varie zone della Palestra. E ricorda che faccio il tifo per te!
+Your goal is solving a series of riddles, so you can escape<<n>>and challenge the Gym Leader over there.<<n>>Don't think it's gonna be as easy as it seems, and observe any detail closely...<<n>>especially when they are the prisoners' words or the color<<n>>of the gems that decorate the Gym's various rooms.<<n>>And remember I'm always cheering for you!
 Bienvenido|a de nuevo en El Purgatorio... Allora, pronto|a a sfidare il Capopalestra?
-Bienvenido|a de nuevo en El Purgatorio... Allora, pronto|a a sfidare il Capopalestra?
+Bienvenido|a de nuevo en El Purgatorio... So, are you ready to challenge the Gym Leader?
+Crisante ha una completa padronanza dei Pokémon di tipo Spettro... Ricorda che, essendo intangibili, questi sono deboli solo al Buio e a Pokémon del loro stesso tipo! Tienilo bene a mente se vuoi avere la meglio. Come al solito, io faccio il tifo per te!
+Caspar's skills with Ghost-type Pokémon are<<n>>top-notch...<<n>>Remember, since they are intangible, they are weak only<<n>>to Dark-type and their same type!<<n>>Keep that in mind if you wanna win.<<n>>As usual, I'll be cheering for you!
 Neanche il cupo Crisante è riuscito ad arrestare la tua avanzata! Con questa, fanno cinque Medaglie in saccoccia!
-Neanche il cupo Crisante è riuscito ad arrestare la tua avanzata! Con questa, fanno cinque Medaglie in saccoccia!
+Not even the gloomy Caspar has managed to stop you!<<n>>With this, five Badges are out of the way!
+Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
+What? You want to know who I am? And why?<<n>>You just need to know I'm cheering for you!
 [Map192]
 <<[>>old<<]>>È un portone davvero spesso! Forse bisogna prima accedere a tutte le celle per entrare...?
 <<[>>old<<]>>This door is so thick! Maybe you should first get in the other jails to open it...?
@@ -8542,7 +8576,7 @@ No
 <<[>>old<<]>>''Dopo anni di ricerca, penso di aver trovato finalmente la mia casa: la tenebrosa Scorpiopoli! -Isabelle''
 <<[>>old<<]>>''Dopo anni di ricerca, penso di aver trovato finalmente la mia casa: la tenebrosa Scorpiopoli! -Isabelle''
 <<[>>old<<]>>Sembrerebbe il vecchio manifesto di un criminale di Scorpiopoli...
-<<[>>old<<]>>Sembrerebbe il vecchio manifesto di un criminale di Scorpiopoli...
+<<[>>old<<]>>It looks like an old wanted poster...
 <<[>>old<<]>>La foto è bruciacchiata, ma sul retro si riesce ancora a leggere qualcosa.
 <<[>>old<<]>>La foto è bruciacchiata, ma sul retro si riesce ancora a leggere qualcosa.
 <<[>>old<<]>>''Il Capopalestra Silvestro è riuscito a mettermi alle strette coi suoi Pokémon di tipo Ghiaccio. -C. Fire''
@@ -8574,9 +8608,9 @@ No
 <<[>>old<<]>>Ormai considerato l’uomo più ricco di Eldiw, egli decide di entrare in politica, divenendo il nuovo sindaco di Scorpiopoli.
 <<[>>old<<]>>Ormai considerato l’uomo più ricco di Eldiw, egli decide di entrare in politica, divenendo il nuovo sindaco di Scorpiopoli.
 <<[>>old<<]>>Un cunicolo segreto... L'avrà scavato un prigioniero?
-<<[>>old<<]>>Un cunicolo segreto... L'avrà scavato un prigioniero?
+<<[>>old<<]>>There's a secret tunnel... A prisoner must have dug it.
 <<[>>old<<]>>È la foto di un Pokémon... Potrebbe appartenere ad uno di questi Allenatori?
-<<[>>old<<]>>È la foto di un Pokémon... Potrebbe appartenere ad uno di questi Allenatori?
+<<[>>old<<]>>It's the picture of a Pokémon... May it belong to one of there Trainers?
 <<[>>old<<]>>Lo scatto di un meraviglio paesaggio, firmato dal criminale Rod Aruka. Sul retro c'è scritto qualcosa...
 <<[>>old<<]>>Lo scatto di un meraviglio paesaggio, firmato dal criminale Rod Aruka. Sul retro c'è scritto qualcosa...
 <<[>>old<<]>>''Consideratemi pure un criminale, ma ciò che faccio è arte pura. La mia non è più una semplice cella, ma un vero e proprio museo dove poter ammirare le mie adorate fotografie.
@@ -8592,7 +8626,7 @@ Serafina
 Dritto.
 Dritto.
 Tu!
-Tu!
+You!
 <<[>>old<<]>>Lo scatto di un oggetto visibilmente prezioso trovato da Rod Aruka durante il suo viaggio. Il gioiello splende degli stessi colori del Pokémon al fianco del criminale...
 <<[>>old<<]>>Lo scatto di un oggetto visibilmente prezioso trovato da Rod Aruka durante il suo viaggio. Il gioiello splende degli stessi colori del Pokémon al fianco del criminale...
 <<[>>old<<]>>In foto si può vedere la criminale Isabelle Nostenfer in compagnia di uno spaventoso <b>Pokémon rosa e viola</b>.
@@ -8644,8 +8678,8 @@ Fuori dai piedi! Hai rovinato il sogno di gloria delle sorelle Maria e Serafina!
 <<[>>old<<]>>Insert password.
 <<[>>old<<]>>La parola inserita è ''Amarantopoli''.
 <<[>>old<<]>>La parola inserita è ''Amarantopoli''.
-<<[>>old<<]>>The password is "Ectruteak City''.
-<<[>>old<<]>>The password is "Ectruteak City''.
+<<[>>old<<]>>The password is "Ecruteak City''.
+<<[>>old<<]>>The password is ''Ecruteak City''.
 TEMPO ESAURITO.\nNon sei riuscito a risolvere tutti gli enigmi. Sarai riportato all'entrata della palestra.
 TEMPO ESAURITO.\nNon sei riuscito a risolvere tutti gli enigmi. Sarai riportato all'entrata della palestra.
 <<[>>old<<]>>È una statua del leggendario Pokémon Raikou.
@@ -44122,7 +44156,7 @@ Jimmy
 Chua
 Chua
 Maleo
-Maleo
+Hideo
 Ryu
 Ryu
 Chan
@@ -44224,7 +44258,7 @@ Alder
 Denis
 Dennis
 Gino
-Gino
+Owen
 Alter
 Alter
 Jade
@@ -44386,7 +44420,7 @@ Massimo
 Dario
 Dario
 Tibbio
-Tibbio
+Timothy
 Simone
 Simon
 Pete
@@ -44496,7 +44530,7 @@ Sophie
 Pamela
 Pamela
 Cristiana
-Cristiana
+Christie
 Sunny
 Sunny
 Mara
