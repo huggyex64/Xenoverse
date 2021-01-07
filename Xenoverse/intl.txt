@@ -5885,11 +5885,11 @@ I've always lived alone, but my Hippopotas have helped me cope with the loneline
 Tig
 Tig
 Ehi, ma guarda dove vai! Per poco non ti mettevo sotto!!
-Ehi, ma guarda dove vai! Per poco non ti mettevo sotto!!
+Hey, watch your step! I almost ran over you!!
 Tsk! Per stavolta hai avuto fortuna...!
-Tsk! Per stavolta hai avuto fortuna...!
+Tch! You've got juice this time...!
 Non so se ti andrà altrettanto bene la prossima volta.
-Non so se ti andrà altrettanto bene la prossima volta.
+You're not gonna be this lucky next time!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
@@ -5899,11 +5899,11 @@ Non so se ti andrà altrettanto bene la prossima volta.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Carolina
-Carolina
+Nadie
 Chi ha ali maestose, in volo è leggiadro ed elegante come il vento!
-Chi ha ali maestose, in volo è leggiadro ed elegante come il vento!
+Having majestic wings makes the flight graceful and elegant as the wind!
 In terra, però, delle ali maestose non sono che un peso.
-In terra, però, delle ali maestose non sono che un peso.
+Those majestic wings are just a burden on the ground, though.
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Would you like to open this chest?
 Piliano
@@ -5919,9 +5919,9 @@ You were only having a look, after all...<<n>>but don't ever try that again!<<n>
 Solo da Piliano, articoli mai visti a prezzi stracciati!!
 Only Hudson's got what you're looking for!<<n>>C'mon, have a look!
 <<[>>old<<]>>Stanno discutendo animatamente...
-<<[>>old<<]>>Stanno discutendo animatamente...
+<<[>>old<<]>>They are having a heated argument...
 <<[>>old<<]>>Stanno concordando tranquillamente i territori da dividersi.
-<<[>>old<<]>>Stanno concordando tranquillamente i territori da dividersi.
+<<[>>old<<]>>They're peacefully arranging the division of territory.
 Sandman
 Sandman
 Smettetela di insozzare coi vostri passi il canyon! Questa è la terra del popolo di <b>Capricornia</b>!
@@ -5935,39 +5935,39 @@ Hol
 Ah ah ah! Ma sentili!
 Ha ha ha! Look at them!
 E chi si occupa di difendere il canyon dai Pokémon pericolosi? Voi Mototeppisti? Voi Nativi? No, noi Cowboy! Questo territorio è nostro!!
-And who's been defending this canyon from dangerous Pokémon? You Bikers? You Natives?<<n>>No, we Cowboys! This territory is ours!!
+And who's been defending this canyon from dangerous<<n>>Pokémon? You Bikers? You Natives?<<n>>No, we Cowboys! This territory is ours!!
 E tu che vuoi?! Non sarai qui anche tu per strapparmi il mio canyon?!
 And whaddya want?! Don't tell me you're here to snatch<<n>>my canyon outta my hands?!
 Mi hai proprio tolto le parole di bocca!
-Mi hai proprio tolto le parole di bocca!
+You beat me to the punch!
 Si sarà solo smarrito|a...
-Si sarà solo smarrito|a...
+Maybe he is|||||she's just lost...
 Come come?! Vuoi farci collaborare? A chi pensi di fare la paternale, eh?!
-Come come?! Vuoi farci collaborare? A chi pensi di fare la paternale, eh?!
+What?! You want us to work together?<<n>>Who do you think you can lecture, huh?!
 Ti meriti proprio una bella lezione!
-Ti meriti proprio una bella lezione!
+You need a lesson, kid!
 Vi siete immischiato|a in questioni delicate, forestiero|a! Non avreste dovuto...!
-Vi siete immischiato|a in questioni delicate, forestiero|a! Non avreste dovuto...!
+You should have kept your distance from issues you can't understand, foreigner...!
 Una volta tanto siamo d’accordo. Facciamo la pelle a ‘sto|a moccioso|a!!
-Una volta tanto siamo d’accordo. Facciamo la pelle a ‘sto|a moccioso|a!!
+We all agree for once. Let's get rid of this nosey lil' brat!
 ...!
 ...!
 Abbiamo unito le forze, davvero...?
-Abbiamo unito le forze, davvero...?
+We have teamed up...really?
 Tsk! Sarà la fortuna del principiante...!
-Tsk! Sarà la fortuna del principiante...!
+Hmph! You're a fluke, pipsqueak...!
 Però è stato divertente lottare fianco a fianco, sapete?
-Però è stato divertente lottare fianco a fianco, sapete?
+I gotta say I've enjoyed fighting side by side, you know?
 Perché, anziché contenderci l’intero canyon, non ce lo spartiamo?
-Perché, anziché contenderci l’intero canyon, non ce lo spartiamo?
+Okay, instead of competing for this whole canyon...<<n>>let's just split it up, nah?
 Mi sembra una buona idea. Accontenteremmo tutti!
-Mi sembra una buona idea. Accontenteremmo tutti!
+That's a really good idea. Each of us would get his cut!
 Potremmo persino correrci in aiuto in caso di pericolo...
-Potremmo persino correrci in aiuto in caso di pericolo...
+We could even help each other in dangerous situations...
 Perdonatemi se sono stato brusco con voi, volevate solo riappacificarci... e ci siete riusciti! Vi prego, accettate questa come ringraziamento.
-Perdonatemi se sono stato brusco con voi, volevate solo riappacificarci... e ci siete riusciti! Vi prego, accettate questa come ringraziamento.
+Please, forgive me if I was rough on you there...you only wanted to mend our fences and you did it!<<n>>Please, accept this as a sign of my gratitude.
 Ora però fuori dai piedi! Abbiamo tanto di cui discutere.
-Ora però fuori dai piedi! Abbiamo tanto di cui discutere.
+Yeah, yeah, outta my way now! We gotta get down<<n>>to business.
 55G
 55G
 L'abbiamo acciuffato, <b>Colonnello</b>! <i>Bzz!</i>
@@ -6518,47 +6518,47 @@ Miltank
 Muuu...!
 Moo...!
 Osvaldo
-Osvaldo
+Jean
 Il destino spesso lo si incontra proprio sulla strada presa per evitarlo.
-Il destino spesso lo si incontra proprio sulla strada presa per evitarlo.
+A person often meets his destiny on the road he took<<n>>to avoid it.
 Ernesto
-Ernesto
+Henry
 Scorpiopoli sembra una landa desolata, ma non è così. La città è popolata dai vivi... e dai morti! Uah ah ah!
-Scorpiopoli sembra una landa desolata, ma non è così. La città è popolata dai vivi... e dai morti! Uah ah ah!
+It may seem we're out in the boonies here, but Westar<<n>>is populated by the living...and the dead!
 Silverio
-Silverio
+Elias
 La mia casa ha preso fuoco all’improvviso, ma ci ha pensato la <b>S.P.E.T.T.R.I.</b> a domare l’incendio! Guarda, laggiù c’è la loro caserma!
-La mia casa ha preso fuoco all’improvviso, ma ci ha pensato la <b>S.P.E.T.T.R.I.</b> a domare l’incendio! Guarda, laggiù c’è la loro caserma!
+My house suddenly caught fire, but <b>G.E.I.S.T.</b> took care of it and put out the fire!<<n>>Look, their firehouse is over there!
 <<[>>old<<]>>El Purgatorio, Palestra di Scorpiopoli Capopalestra: <b>Crisante</b> <i>''Alle calcagna del crimine come un'ombra!''</i> Allenatori Certificati: 0
 <<[>>old<<]>>El Purgatorio, Westar Gym\nGym Leader: <b>Caspar</b>\n<i>''Chasing crimes like a shadow!''</i>\nCertified Trainers: 0
 <<[>>old<<]>>El Purgatorio, Palestra di Scorpiopoli Capopalestra: <b>Crisante</b> <i>''Alle calcagna del crimine come un'ombra!''</i> Allenatori Certificati: \PN
 <<[>>old<<]>>El Purgatorio, Westar Gym\nGym Leader: <b>Caspar</b>\n<i>''Chasing crimes like a shadow!''</i>\nCertified Trainers: \PN
 Bernardo
-Bernardo
+Bernard
 Questo posto mette i brividi! Per non parlare del Capopalestra...
-Questo posto mette i brividi! Per non parlare del Capopalestra...
+This place...the Gym Leader...<<n>>Everything is so creepy here!
 <<[>>old<<]>><b>Scorpiopoli</b> <i>''Tra nuvole di sabbia e di polvere...''</i>
 <<[>>old<<]>><b>Westar City</b>\n<i>''Amid the clouds of sand and dust...''</i>
 Tina
-Tina
+Charlotte
 E vattene!! ... Ah, pensavo fossi quel maledetto fantasma che mi tormenta. Prendi qua e scusami, eh!
-E vattene!! ... Ah, pensavo fossi quel maledetto fantasma che mi tormenta. Prendi qua e scusami, eh!
+Get outta here!!<<n>>...<<n>>Oh, I thought ya were that ghost that keeps hauntin' me. Here ya have, and sorry!
 E ora vattene per davvero, però.
-E ora vattene per davvero, però.
+Outta my way for true now.
 Camilo
 Camilo
 Cosa ti porta qui a Scorpiopoli, gringo|a? Questa non è una città adatta ai turisti...
-Cosa ti porta qui a Scorpiopoli, gringo|a? Questa non è una città adatta ai turisti...
+What brings you to Westar City, gringo|a? This isn't exactly the right city for tourists...
 <<[>>old<<]>>Casa di Crisante
 <<[>>old<<]>>Caspar's House
 Norberto
-Norberto
+Norbert
 Il lavoro nei campi è tosto... ma cosa ne vuole sapere un cittadino come te?!
-Il lavoro nei campi è tosto... ma cosa ne vuole sapere un cittadino come te?!
+Working in the fields is hard...nothing city folks like ya<<n>>can ever get!
 <<[>>old<<]>>Lavori in corso. -Kupa
-<<[>>old<<]>>Lavori in corso. -Kupa
+<<[>>old<<]>>Work in progress. -Kupa
 <<[>>old<<]>> Lavori in corso. Tornate presto! -Kupa.
-<<[>>old<<]>> Lavori in corso. Tornate presto! -Kupa.
+<<[>>old<<]>>Work in progress. Come back soon! -Kupa.
 C02
 C02
 Da qui non si passa! <i>Bzz!</i>
@@ -6566,69 +6566,71 @@ Off limits! <i>Bzz!</i>
 <<[>>old<<]>>Saloon Torobrado ad est
 <<[>>old<<]>>East: Wild Bull Saloon
 Maura
-Maura
+Betsy
 Sto facendo il bucato con l’acqua del pozzo... Che te ne serve un po’? To’, prendi!
-Sto facendo il bucato con l’acqua del pozzo... Che te ne serve un po’? To’, prendi!
+I'mma do laundry with the well water...<<n>>D'ya need some too? Here, take it!
 Alla tua età già fai il bucato da solo|a?
-Alla tua età già fai il bucato da solo|a?
+You kiddo do the laundry all by yerself?
 Maria
 Maria
 Argh! Come hai fatto a smascherarci?! E va bene, ora te la vedrai con le sorelle Maria e Serafina!
-Argh! Come hai fatto a smascherarci?! E va bene, ora te la vedrai con le sorelle Maria e Serafina!
+Argh! How did you get us? Alright, you'll have to deal with<<n>>the sisters Maria and Serafina!
 Ah ah ah! Come speri di metterci alle strette con un solo misero Pokémon? Torna quando avrai imparato che per una Lotta in Doppio ne servono almeno due!
-Ah ah ah! Come speri di metterci alle strette con un solo misero Pokémon? Torna quando avrai imparato che per una Lotta in Doppio ne servono almeno due!
+Ha ha ha! D'ya think you can stop us with just<<n>>a Pokémon?<<n>>Come back when you've learned that Double Battles require two Pokémon at least!
 Non è bastato nemmeno vestirsi da Miltank!!
-Non è bastato nemmeno vestirsi da Miltank!!
+Dressing up as Miltanks wasn't enough!!
 Che tu sia dannato|a!!
-Che tu sia dannato|a!!
+Curse you!!
 <<[>>old<<]>>Le detenute Maria e Serafina sono ritornate alle loro rispettive celle.
-<<[>>old<<]>>Le detenute Maria e Serafina sono ritornate alle loro rispettive celle.
+<<[>>old<<]>>Prisoners Maria and Serafina have returned to their respective cells.
 Stanislao
-Stanislao
+Bradley
 Non vorrei mai finire in quella catorbia laggiù... Mi mette i brividi!
-Non vorrei mai finire in quella catorbia laggiù... Mi mette i brividi!
+I'd never wanna end up in that slammer over there...<<n>>It creeps me out!
 DD4
 DD4
 <<[>>old<<]>>Cimitero di Scorpiopoli ''Luogo di eterno riposo per i Pokémon.''
 <<[>>old<<]>>Westar Cemetery ''The place of eternal respite for Pokémon.''
 Chiara
-Chiara
+Bonnie
 Come accidenti hai fatto a perdere la tua <b>Campana Mumu</b>? E ora io dove la trova un'altra?
-Come accidenti hai fatto a perdere la tua <b>Campana Mumu</b>? E ora io dove la trova un'altra?
+How the heck did ya lose yer <b>Moomoo Bell</b>?<<n>>How am I gonna get another one?
 Eh? Ce l'hai tu? Da' un po' qua, tanto non te ne fai molto, cittadino|a.
-Eh? Ce l'hai tu? Da' un po' qua, tanto non te ne fai molto, cittadino|a.
+Huh? Ya got one? Gimme that thing, c'mon!<<n>>I'm sure ya don't need that at all.
 Forse tu sai che fartene di 'sta robaccia, però.
-Forse tu sai che fartene di 'sta robaccia, però.
+But maybe ya know whatta do with this junk.
 Se avessi studiato, forse ci avrei potuto capire di più di tutte quelle scritte.
-Se avessi studiato, forse ci avrei potuto capire di più di tutte quelle scritte.
+If I had studied, I coulda gotten some of all those writings.
 Miltank, vedi di non perdere anche questa!
-Miltank, vedi di non perdere anche questa!
+Ya better not losing this one too, Miltank!
 Serafina
 Serafina
 M17
 M17
 Favel
-Favel
+Elk
 Quel campagnolo mi ha offerto riparo presso la sua stalla. Diceva che nessuno si è mai lamentato, ma ho i miei dubbi...
-Quel campagnolo mi ha offerto riparo presso la sua stalla. Diceva che nessuno si è mai lamentato, ma ho i miei dubbi...
+Tongue may be straight, but mouth hide many sharp teeth.
 <<[>>old<<]>>Caserma S.P.E.T.T.R.I. ''Squadra Paranormale Emergenza e Tutela Territori per Roghi e Infestazioni.''
 <<[>>old<<]>>G.E.I.S.T. Firehouse ''Ghost Emergency and Ignition Suppression Team''
 Mauro
-Mauro
+Mauritius
 Talvolta ho come l'impressione che delle ombre mi stiano alle calcagna... succede anche a te? Devono essere dei Pokémon Spettro che si divertono a tormentarci!
-Talvolta ho come l'impressione che delle ombre mi stiano alle calcagna... succede anche a te? Devono essere dei Pokémon Spettro che si divertono a tormentarci!
+Sometimes I feel like shadows are chasing me...<<n>>did that happen to you, too?<<n>>There must be some Ghost-type Pokémon who enjoy<<n>>haunting us!
 Ochoa
 Ochoa
 Ci hai beccati, maledetto|a! Ma ciò non vuol dire che la nostra latitanza sia finita, anzi! Approfitteremo dell’occasione per toglierci dai piedi un fastidio come te!
-Ci hai beccati, maledetto|a! Ma ciò non vuol dire che la nostra latitanza sia finita, anzi! Approfitteremo dell’occasione per toglierci dai piedi un fastidio come te!
+You busted us, you damn brat! But that doesn't mean<<n>>we'll cease and desist!<<n>>Actually, we'll take a chance to move ya outta the way!
 Mi prendi in giro?!
-Mi prendi in giro?!
+Are you kidding me?!
+Dovrebbero saperlo anche i mocciosi come te che per una Lotta in Doppio non basta un solo Pokémon! Se proprio ci tieni a metterci i bastoni tra le ruote, almeno fallo per bene...!
+Even a brat like you should know ya need more than<<n>>one Pokémon for a Double Battle!<<n>>If you really wanna stand in our way at least make sure<<n>>you're doing it right...!
 Neanche un'ora d'aria...!
-Neanche un'ora d'aria...!
+Not even some yard time...!
 Odio il buonismo dilagante dei racconti moderni. Il bene deve sempre trionfare e tutta quella roba lì! Un giorno tutto questo cambierà, puoi giurarci!!
-Odio il buonismo dilagante dei racconti moderni. Il bene deve sempre trionfare e tutta quella roba lì! Un giorno tutto questo cambierà, puoi giurarci!!
+I hate the widespread do-goodism of these days.<<n>>''Good will always prevail over evil'' and stuff!<<n>>But soon, all that will change!!
 <<[>>old<<]>>I detenuti Ochoa e Jose sono ritornati alle loro rispettive celle.
-<<[>>old<<]>>I detenuti Ochoa e Jose sono ritornati alle loro rispettive celle.
+<<[>>old<<]>>Prisoners Ochoa and Jose have returned to their respective cells.
 R3V0
 R3V0
 ???
@@ -6640,45 +6642,47 @@ Now that there are no more obstacles between you and<<n>>the Gym Leader, you're 
 Pablo
 Pablo
 Si dice che i Pokémon defunti ancora vincolati al mondo dei vivi, vi facciano ritorno sotto forma di spettri.
-Si dice che i Pokémon defunti ancora vincolati al mondo dei vivi, vi facciano ritorno sotto forma di spettri.
+They say that the deceased Pokémon which are still bound<<n>>to this world, come back as ghosts.
 Brando
-Brando
+Brandon
 I pericolosi criminali segregati in questa prigione vi rimarranno finché non avranno espiato le loro colpe.
-I pericolosi criminali segregati in questa prigione vi rimarranno finché non avranno espiato le loro colpe.
+Every dangerous criminal will be segregated in this jail<<n>>to purge their guilt.
 <<[>>old<<]>>Gola Steelix a nord
 <<[>>old<<]>>North: Steelix Gorge
 Gary
 Gary
 Il mio Raticate è venuto a mancare anni fa...
-Il mio Raticate è venuto a mancare anni fa...
+My Raticate passed away years ago..
 Alida
 Alida
 Non è mica facile badare ad un’intera mandria di Miltank!
-Non è mica facile badare ad un’intera mandria di Miltank!
+It's not easy looking after a whole herd of Miltank!
 <<[>>old<<]>>El Purgatorio ''Prigione di massima sicurezza e Palestra del misterioso Crisante.''
 <<[>>old<<]>>El Purgatorio ''High-security prison and Gym of the mysterious Caspar.''
 Juanito
 Juanito
 Ogni giorno vengo qui a spruzzare l’Iperpozione sulla tomba del mio Meowth, ma ancora non si risveglia...
-Ogni giorno vengo qui a spruzzare l’Iperpozione sulla tomba del mio Meowth, ma ancora non si risveglia...
+Everyday I come here and use a Hyper Potion on my Meowth's tombstone, but it still doesn't wake up... 
+Prendila tu, tanto ormai a me non serve...
+Take it, I don't need it anymore...
 Meowth, perché non ti svegli...?
-Meowth, perché non ti svegli...?
+Why don't you wake up, Meowth...?
 <<[>>old<<]>>Sartoria di Kupa
-<<[>>old<<]>>Sartoria di Kupa
+<<[>>old<<]>>Kupa's Tailoring
 <<[>>old<<]>>Sartoria di Kupa...
-<<[>>old<<]>>Sartoria di Kupa...
+<<[>>old<<]>>Kupa's Tailoring...
 <<[>>old<<]>>... e dolcetti da Min & Mun!
-<<[>>old<<]>>... e dolcetti da Min & Mun!
+<<[>>old<<]>>...and Min & Mun' treats!
 Blast...!
 Blast...!
 Nieves
 Nieves
 Ho camminato fin qui in cerca di riposo... Ho le gambe a pezzi!
-Ho camminato fin qui in cerca di riposo... Ho le gambe a pezzi!
+I've been walking this far, looking for rest...<<n>>My legs are on fire!
 Matias
 Matias
 La cittadina è stata edificata attorno a questo antico cimitero. È per questo che qui a Scorpiopoli si pratica il culto dei morti.
-La cittadina è stata edificata attorno a questo antico cimitero. È per questo che qui a Scorpiopoli si pratica il culto dei morti.
+Westar City was built around this ancient graveyard.<<n>>That's why we pratice a cult of the dead here.
 [Map151]
 ???
 ???
@@ -7882,19 +7886,21 @@ Delia
 Il treno ha fischiato.
 Il treno ha fischiato.
 Capotreno
-Capotreno
+Conductor
 A-Aiuto...
-A-Aiuto...
+H-Help...
 <<[>>old<<]>>Vuoi slegare il Capotreno?
-<<[>>old<<]>>Vuoi slegare il Capotreno?
+<<[>>old<<]>>Do you want to untie the Conductor?
 Ti sono davvero debitore, ragazzo|a. Io sono il Capotreno del <b>Quasar Express</b>...
-Ti sono davvero debitore, ragazzo|a. Io sono il Capotreno del <b>Quasar Express</b>...
+You have my deepest gratitude, kid.<<n>>I am the Conductor of the <b>Quasar Express</b>...
 O meglio, lo ero, prima che questi balordi mascherati arrivassero... Quella donna...! Sarà pur affascinante, ma è un'arpia!
-O meglio, lo ero, prima che questi balordi mascherati arrivassero... Quella donna...! Sarà pur affascinante, ma è un'arpia!
+Or rather, I was, before those masked goons'<<n>>arrival...<<n>>That woman...! She might be charming, but she's<<n>>a real witch!
+Ha ordinato ai suoi sottoposti di legarmi come un salame, per prendere controllo del mio treno! Però... La signorina non era sola coi suoi soldati!
+She ordered her minions to tie me up so she could take control of my train!<<n>>Though...she wasn't alone with her soldiers!
 C'era un uomo con lei... Un uomo il cui sguardo mi ha fatto raggelare il sangue nelle vene! Dalle sue parole, ho supposto si trattasse di un suo superiore all'interno dell'organizzazione... Il Quasar Express è un pezzo della storia di Eldiw... Dobbiamo impedire che cada nelle mani sbagliate!
-C'era un uomo con lei... Un uomo il cui sguardo mi ha fatto raggelare il sangue nelle vene! Dalle sue parole, ho supposto si trattasse di un suo superiore all'interno dell'organizzazione... Il Quasar Express è un pezzo della storia di Eldiw... Dobbiamo impedire che cada nelle mani sbagliate!
+There was a man with her...a man whose gaze froze<<n>>the blood in my veins!<<n>>From the way he spoke, I suppose his rank was higher<<n>>than that woman's one...<<n>>The Quasar Express is a piece of history of our region...<<n>>We can't let it fall into the wrong hands!
 Te lo chiedo col cuore in mano, ragazzo|a... Libera questo treno dalla morsa del male! Io farò ciò che posso, monitorando dalla stazione il tragitto che seguirà il treno... Tu passa all'azione intrufolandoti in questo vagone. Coraggio, giovane, confido in te!
-Te lo chiedo col cuore in mano, ragazzo|a... Libera questo treno dalla morsa del male! Io farò ciò che posso, monitorando dalla stazione il tragitto che seguirà il treno... Tu passa all'azione intrufolandoti in questo vagone. Coraggio, giovane, confido in te!
+I'm desperately asking you, kid...free this train from<<n>>the fangs of evil!<<n>>I'll do what I can from the station, by monitoring<<n>>the route followed by the train...<<n>>You should act by quietly sneaking around.<<n>>Go forth, young'un, I believe in you!
 N0P3
 N0P3
 <i>Bzz!</i>
@@ -7902,19 +7908,19 @@ N0P3
 DX3
 DX3
 Accesso vietato! <i>Bzz!</i>
-Accesso vietato! <i>Bzz!</i>
+This area is off-limit! <i>Bzz!</i>
 Ehi, ma tu non sarai mica l'umano|a di cui parlava il Colonnello?! Sterminare!! <i>Bzz!</i>
-Ehi, ma tu non sarai mica l'umano|a di cui parlava il Colonnello?! Sterminare!! <i>Bzz!</i>
+Hey, you're the human the Colonel was talking about?! Exterminate!! <i>Bzz!</i>
 E-Errore
-E-Errore
+E-Error
 E-Errore.
-E-Errore.
+E-Error.
 <i>3---ERR--0R3. Bzz!</i>
-<i>3---ERR--0R3. Bzz!</i>
+<i>3---ERR--0R. Bzz!</i>
 DX4
 DX4
 È di nuovo andato, maledizione! <i>Bzz!</i>
-È di nuovo andato, maledizione! <i>Bzz!</i>
+Darn it! Defeated once again! <i>Bzz!</i>
 Assunta
 Assunta
 Il poppante non la pianta di frignare, ma forse una lotta lo calmerà!
@@ -7924,27 +7930,31 @@ Oh, s’è addormentato il pupo.
 Guardalo, è una gioia mentre dorme.
 Guardalo, è una gioia mentre dorme.
 Tamara
-Tamara
+Dahlia
 Allora, i preparativi sono terminati?
-Allora, i preparativi sono terminati?
+Is everything ready?
 E45
 E45
 Sissignora! <i>Bzz!</i>
-Sissignora! <i>Bzz!</i>
+Yes, ma'am! <i>Bzz!</i>
 Molto bene.
-Molto bene.
+Very well.
 Recluta QQ6, tu sta' qui e tieni d'occhio il Capotreno...
-Recluta QQ6, tu sta' qui e tieni d'occhio il Capotreno...
+QQ6, you stay here and keep an eye on the Conductor...
+Anche se legato come un salame, non credo possa andare molto lontano. Kyah ah ah!
+Not that he can really go anywhere, given how tightly<<n>>we bound him. Kya ha ha!
 QQ6
 QQ6
 Agli ordini, Colonnello! <i>Bzz!</i>
-Agli ordini, Colonnello! <i>Bzz!</i>
+Aye, Colonel! <i>Bzz!</i>
 Tutto procede secondo i piani! Col <b>Quasar Express</b>, nessun guastafeste oserà metterci i bastoni tra le ruote.
-Tutto procede secondo i piani! Col <b>Quasar Express</b>, nessun guastafeste oserà metterci i bastoni tra le ruote.
+Everything's going according to plan! Thanks to the<<n>><b>Quasar Express</b>, no one will be able to stop us.
+Raggiungere il <b>Tempio</b> sarà una passeggiata! Kyah ah ah!
+We'll get to the <b>Temple</b> in no time! Kya ha ha!
 Piantala di agitarti, vecchio! Ormai il tuo treno è di proprietà del Team Dimension! <i>Bzz!</i>
-Piantala di agitarti, vecchio! Ormai il tuo treno è di proprietà del Team Dimension! <i>Bzz!</i>
+Stop squirming, old man! This train belongs to<<n>>Team Dimension, now! <i>Bzz!</i>
 A-Aiuto...!
-A-Aiuto...!
+H-Help...!
 N0P4
 N0P4
 <<[>>old<<]>>Quando un Pokémon si addormenta non può agire per tutta la durata del riposo. Tuttavia, una volta sveglio, non sarà più affetto dalle eventuali alterazioni di stato di cui soffriva prima.
@@ -7958,39 +7968,37 @@ Per stavolta chiuderò un occhio.
 Per stavolta chiuderò un occhio, ma che non si ripeta mai più!
 Per stavolta chiuderò un occhio, ma che non si ripeta mai più!
 Ehi, tu! Dove credi di andare? <i>Bzz!</i>
+Hey, you! Where do you think you're going? <i>Bzz!</i>
+<<[>>old<<]>>Non vorrai mica lasciar lì il Capotreno...
+<<[>>old<<]>>You can't possibly leave the Conductor like that...
+<<[>>old<<]>>Una volta sul vagone, non potrai più tornare indietro fino al termine dell'evento... Vuoi proseguire?
+<<[>>old<<]>>Once on the wagon, you won't be able to go back until the end of the event... Do you wish to proceed?
+<<[>>old<<]>>Su quest'insegna è possibile controllare le varie tappe del Quasar Express lungo il tragitto Scorpiopoli-Leopoli.
+<<[>>old<<]>>This sign shows all the different stops that the Quasar Express makes along the Westar-Hypelion route.
+Claus
+Claus
+Vuoi prendere quell’oggetto laggiù, vero? L’ho visto prima io e non sono disposto a cedertelo tanto facilmente!
+Vuoi prendere quell’oggetto laggiù, vero? L’ho visto prima io e non sono disposto a cedertelo tanto facilmente!
+Il nostro duello ha deciso chi merita di accaparrarselo...
+Il nostro duello ha deciso chi merita di accaparrarselo...
+Prendilo pure tu.
+Prendilo pure tu.
+<<[>>old<<]>>Stazione Ferroviaria di Scorpiopoli
+<<[>>old<<]>>Westar Railway Station
+N0P1
+N0P1
+<<[>>old<<]>>È troppo indaffarato per prestare attenzione a te...
+<<[>>old<<]>>It's too busy to notice you...
+Un umano?! Sarai mica qui per liberare il vecchio?! Povero|a illuso|a! <i>Bzz!</i>
+A human?! Are you here to free the old man?!<<n>>You're delusional! <i>Bzz!</i>
+Allarme rosso!! Allarme rosso!! <i>Bzz!</i> Rilevato Allenatore troppo forte... <i>Errore. Errore. Bzz!</i>
+Red-level threat!!<<n>>Red-level threat!! <i>Bzz!</i><<n>>Detected Trainer's skills are over the chart...<<n>><i>Error. Error. Bzz!</i>
+Rilevato un intruso! <i>Bzz!</i> Informazione da recapitare al Colonnello! <i>Bzz!</i>
+Intruder detected! <i>Bzz!</i><<n>>Inform the Colonel immediately! <i>Bzz!</i>
+N0P2
+N0P2
 Ehi, tu! Dove credi di andare? <i>Bzz!</i>
-<<[>>old<<]>>Non vorrai mica lasciar lì il Capotreno...
-<<[>>old<<]>>Non vorrai mica lasciar lì il Capotreno...
-<<[>>old<<]>>Una volta sul vagone, non potrai più tornare indietro fino al termine dell'evento... Vuoi proseguire?
-<<[>>old<<]>>Una volta sul vagone, non potrai più tornare indietro fino al termine dell'evento... Vuoi proseguire?
-<<[>>old<<]>>Su quest'insegna è possibile controllare le varie tappe del Quasar Express lungo il tragitto Scorpiopoli-Leopoli.
-<<[>>old<<]>>Su quest'insegna è possibile controllare le varie tappe del Quasar Express lungo il tragitto Scorpiopoli-Leopoli.
-Claus
-Claus
-Vuoi prendere quell’oggetto laggiù, vero? L’ho visto prima io e non sono disposto a cedertelo tanto facilmente!
-Vuoi prendere quell’oggetto laggiù, vero? L’ho visto prima io e non sono disposto a cedertelo tanto facilmente!
-Il nostro duello ha deciso chi merita di accaparrarselo...
-Il nostro duello ha deciso chi merita di accaparrarselo...
-Prendilo pure tu.
-Prendilo pure tu.
-<<[>>old<<]>>Stazione Ferroviaria di Scorpiopoli
-<<[>>old<<]>>Stazione Ferroviaria di Scorpiopoli
-N0P1
-N0P1
-<<[>>old<<]>>È troppo indaffarato per prestare attenzione a te...
-<<[>>old<<]>>È troppo indaffarato per prestare attenzione a te...
-Un umano?! Sarai mica qui per liberare il vecchio?! Povero|a illuso|a! <i>Bzz!</i>
-Un umano?! Sarai mica qui per liberare il vecchio?! Povero|a illuso|a! <i>Bzz!</i>
-Allarme rosso!! Allarme rosso!! <i>Bzz!</i> Rilevato Allenatore troppo forte... <i>Errore. Errore. Bzz!</i>
-Allarme rosso!! Allarme rosso!! <i>Bzz!</i> Rilevato Allenatore troppo forte... <i>Errore. Errore. Bzz!</i>
-Rilevato un intruso! <i>Bzz!</i> Informazione da recapitare al Colonnello! <i>Bzz!</i>
-Rilevato un intruso! <i>Bzz!</i> Informazione da recapitare al Colonnello! <i>Bzz!</i>
-N0P2
-N0P2
-Ehi, tu! Dove credi di andare? Bzz!
-Ehi, tu! Dove credi di andare? Bzz!
-<<[>>old<<]>>Una volta saliti sul vagone, tu e i tuoi Pokémon non potrete più tornare indietro fino al termine dell'evento... Sicuri di voler proseguire?
-<<[>>old<<]>>Una volta saliti sul vagone, tu e i tuoi Pokémon non potrete più tornare indietro fino al termine dell'evento... Sicuri di voler proseguire?
+Hey, you! Where do you think you're going? <i>Bzz!</i>
 Sì
 Yes
 No
@@ -8001,7 +8009,7 @@ Yes
 Il cimitero di questa città mi riporta alla mente quell’oscura melodia che sentii da bambino...
 Il cimitero di questa città mi riporta alla mente quell’oscura melodia che sentii da bambino...
 Capotreno
-Capotreno
+Conductor
 Cosa ci fai ancora qui, giovane? Devi fermare quei farabutti prima che la combinino grossa!
 Cosa ci fai ancora qui, giovane? Devi fermare quei farabutti prima che la combinino grossa!
 Giovane, so che hai dato il massimo per evitare una tragedia e di questo te ne sono grato.
@@ -8023,7 +8031,7 @@ B3N
 Ho bisogno di un po’ di movimento per scaldare i motori! <i>Bzz!</i>
 Ho bisogno di un po’ di movimento per scaldare i motori! <i>Bzz!</i>
 E-Errore.
-E-Errore.
+E-Error.
 <i>4CC1D3NT1! M1 S0N0 SURR1SC4LD4T0...!</i>
 <i>4CC1D3NT1! M1 S0N0 SURR1SC4LD4T0...!</i>
 <<[>>old<<]>>Il cestino è vuoto.
@@ -8043,15 +8051,15 @@ Che finale tragico...!! <i>Bzz!</i>
 Alice
 Alice
 Accipicchia, hanno pensato proprio bene alla vigilanza, eh?
-Accipicchia, hanno pensato proprio bene alla vigilanza, eh?
+Wowzers, this is some tough surveillance, huh?
 \PN, forse sarebbe il caso di dividersi per avere più possibilità... D'accordo?
-\PN, forse sarebbe il caso di dividersi per avere più possibilità... D'accordo?
+\PN, maybe we could have more chances<<n>>if we split up...don't you think?
 A dopo allora!
-A dopo allora!
+See you later, then!
 Kay
 Kay
 Cavolo, hanno pensato proprio bene alla vigilanza, eh?
-Cavolo, hanno pensato proprio bene alla vigilanza, eh?
+Dammit, this is some tough surveillance, huh?
 [Map185]
 <<[>>old<<]>>Il cestino contiene qualcosa.
 <<[>>old<<]>>There's something in the trash.
@@ -8064,7 +8072,7 @@ Vediamo un po’ cosa offre la casa... <i>Bzz!</i>
 Non vedi che sono fuori col mio uomo?! Fuori dai piedi! <i>Bzz!</i>
 Non vedi che sono fuori col mio uomo?! Fuori dai piedi! <i>Bzz!</i>
 E-Errore.
-E-Errore.
+E-Error.
 E ora lasciaci in pace! <i>Bzz!</i>
 E ora lasciaci in pace! <i>Bzz!</i>
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
@@ -8114,104 +8122,106 @@ Chissà, magari se mangiassi un seme super piccante, potrei sputare fuoco. <i>Bz
 <<[>>old<<]>>The door is locked.
 [Map187]
 <<[>>old<<]>>L’esplosione non ha scalfito minimamente la barriera...!
-<<[>>old<<]>>L’esplosione non ha scalfito minimamente la barriera...!
+<<[>>old<<]>>It looks like the explosion hasn't even made a dent on the barrier...!
 Aster
 Aster
 Acc... Che disastro... Ragazzi, siete tutti interi?
-Acc... Che disastro... Ragazzi, siete tutti interi?
+Ow...what a mess... Guys, are you alright?
 Alice
 Alice
 Sì, per fortuna... Grazie a lei Aster per averci tratto in salvo...
-Sì, per fortuna... Grazie a lei Aster per averci tratto in salvo...
+Luckily for us, yes... Thank you for saving us, Aster...
 E di che! È il minimo, Alice.
-E di che! È il minimo, Alice.
+Don't mention it! It was the least I could do, Alice.
 \PN... Come ti senti?
-\PN... Come ti senti?
+\PN...how are you feeling now?
 Mh? Che fine ha fatto quel tipo... Victor? Sarà riuscito a darsela a gambe prima dell'esplosione?
-Mh? Che fine ha fatto quel tipo... Victor? Sarà riuscito a darsela a gambe prima dell'esplosione?
+Hm? Where did that Victor go?<<n>>Has he managed to flee before the explosion?
 Tu
-Tu
+You
 ...
 ...
 Ehi, cos'hai intenzione di fare? Victor se l'è svi...
-Ehi, cos'hai intenzione di fare? Victor se l'è svi...
+Hey, what do you think you’re doing? Victor's lef-
 ???
 ???
 Ma si può sapere che è tutto 'sto baccano? <i>Roger!</i>
-Ma si può sapere che è tutto 'sto baccano? <i>Roger!</i>
+What's all this ruckus over here? <i>Roger!</i>
 B
 B
 Ehi, fratellone! Penso proprio che questo disastro sia colpa loro! <i>Roger!</i>
-Ehi, fratellone! Penso proprio che questo disastro sia colpa loro! <i>Roger!</i>
+Hey, brother! I think this mess has been caused by them!<<n>><i>Roger!</i>
 A
 A
 B...!
 B...!
 Sì, fratellone?
-Sì, fratellone?
+Yes, brother?
 Quante volte te lo devo ripetere che qui sono <b>io</b> il primo a parlare?!
-Quante volte te lo devo ripetere che qui sono <b>io</b> il primo a parlare?!
+How many times do I have to tell you that <b>I'm</b> the one who talks first, here?!
 S-Scusami...
-S-Scusami...
+S-Sorry...
 Dunque, dicevamo...
-Dunque, dicevamo...
+Now, back on track...
 B, penso proprio che questo disastro sia colpa loro! <i>Roger!</i>
-B, penso proprio che questo disastro sia colpa loro! <i>Roger!</i>
+B, I think this mess has been caused by them! <i>Roger!</i>
 Fratellone, ma... Hai ripetuto le mie esatte parole...
-Fratellone, ma... Hai ripetuto le mie esatte parole...
+But brother...this is exactly what I said before...
 Vuoi tacere una buona volta, B-rutto ammasso di rottami?! Qui le regole le faccio <b>io</b>!
-Vuoi tacere una buona volta, B-rutto ammasso di rottami?! Qui le regole le faccio <b>io</b>!
+Will you shut it for once, you B-adly assembled piece of scrap?! <b>I'm</b> the one who makes the rules, here!
 Mi spiace interrompervi in un momento così alto, ma... Chi siete voi due?
-Mi spiace interrompervi in un momento così alto, ma... Chi siete voi due?
+I'd rather not interrupt you in a pivotal moment like this<<n>>but...who are you two supposed to be?
 Rieccoci... Un altro che non ha la più pallida idea di chi siamo... Il mio cuore meccanico ha smesso di battere... <i>Roger!</i>
-Rieccoci... Un altro che non ha la più pallida idea di chi siamo... Il mio cuore meccanico ha smesso di battere... <i>Roger!</i>
+Here we go again...another one who doesn't have a clue<<n>>about who we are...<<n>>My robotic heart has been broken once again...<<n>><i>Roger!</i>
 Sono quei rompiscatole di <b>A & B</b>, i Sergenti del Team Dimension che avevano assediato il campus tempo fa!
-Sono quei rompiscatole di <b>A & B</b>, i Sergenti del Team Dimension che avevano assediato il campus tempo fa!
+They're some troublemakers called <b>A & B</b>, the Dimension Sergeants who invaded the campus a while ago!
 Oh, bene! Allora qui c'è qualcuno che ricorda le nostre belle facce! Mocciosa, dove lo vuoi l'autografo? <i>Roger!</i>
-Oh, bene! Allora qui c'è qualcuno che ricorda le nostre belle facce! Mocciosa, dove lo vuoi l'autografo? <i>Roger!</i>
+Oh, goodie! It looks like someone here does remember<<n>>our mugs!<<n>>Where do you want the autograph, runt? <i>Roger!</i>
 Ma chi vi ha chiesto niente?!
-Ma chi vi ha chiesto niente?!
+I didn't ask for one, thank you very much!!
 Cuore.exe ha smesso di funzionare...
-Cuore.exe ha smesso di funzionare...
+Heart.exe has stopped working...
 Basta chiacchiere, pagliacci. Cosa volete da noi?
-Basta chiacchiere, pagliacci. Cosa volete da noi?
+Enough with this nonsense, clowns.<<n>>What do you want from us?
 Vedete, questa vostra bravata ci costerà la tappa a <b>Leopoli</b> e sapete cosa vuol dire questo, vero? Che io e il mio compare qui ci perderemo la presentazione dell'inedito del nostro idolo!
-Vedete, questa vostra bravata ci costerà la tappa a <b>Leopoli</b> e sapete cosa vuol dire questo, vero? Che io e il mio compare qui ci perderemo la presentazione dell'inedito del nostro idolo!
+You see, your shenanigans here is gonna cost our stop to<<n>><b>Hypelion City</b> and you know what that means?<<n>>It means me and my partner here are gonna miss<<n>>the presentation of our idol's latest song!
 E chi si dovrà sorbire i piagnistei di quel frignone di B? Io, ovviamente! <i>Roger!</i>
-E chi si dovrà sorbire i piagnistei di quel frignone di B? Io, ovviamente! <i>Roger!</i>
+And who's gonna put up with crybaB’s complaints?<<n>>I'm gonna, of course! <i>Roger!</i>
 Ma veramen...
-Ma veramen...
+Actually-
 \PN...
 \PN...
+So che non dovrei metterti simili idee in testa, ma se pensi che seguire Victor sia la cosa giusta, allora vai!
+I know I shouldn't give you this kind of idea, but if you think that following Victor is the right thing to do, then go!
 Ci penseremo io e Alice a questi due fenomeni da baraccone, non preoccuparti!
-Ci penseremo io e Alice a questi due fenomeni da baraccone, non preoccuparti!
+Let me and Alice handle these two clowns over here,<<n>>don't worry!
 Con molto piacere, Aster!
-Con molto piacere, Aster!
+It's going to be a pleasure, Aster!
 Fa' attenzione, \PN... Mi raccomando!
-Fa' attenzione, \PN... Mi raccomando!
+But please, \PN...be careful!
 Kay
 Kay
 E di che! È il minimo, Kay.
-E di che! È il minimo, Kay.
+Don't mention it! It was the least I could do, Kay.
+(Sembrerebbe ancora influenzata da quell'oscuro potere...)
+(It looks like she's still being influenced by that<<n>>dark power...)
 Oh, bene! Allora qui c'è qualcuno che ricorda le nostre belle facce! Moccioso, dove lo vuoi l'autografo? <i>Roger!</i>
-Oh, bene! Allora qui c'è qualcuno che ricorda le nostre belle facce! Moccioso, dove lo vuoi l'autografo? <i>Roger!</i>
-So che non dovrei metterti simili idee in testa, ma se pensi che seguire Victor sia la cosa giusta, allora vai!
-So che non dovrei metterti simili idee in testa, ma se pensi che seguire Victor sia la cosa giusta, allora vai!
+Oh, goodie! It looks like someone here does remember<<n>>our mugs!<<n>>Where do you want the autograph, runt? <i>Roger!</i>
 [Map188]
 G45
 G45
 Come ci è arrivato qui un umano come te?! Ti spazzerò via come sabbia al vento! <i>Bzz!</i>
-Come ci è arrivato qui un umano come te?! Ti spazzerò via come sabbia al vento! <i>Bzz!</i>
+How did a human like you get here?! I'll blow you away like sand on the wind! <i>Bzz!</i>
 E-Errore.
-E-Errore.
+E-Error.
 O-Ok! F-Farò tutto quello che vuoi, ma t-ti prego, non farmi del male! Vu-Vuoi aprire quella porta, vero? Bene, disattivandomi avrai libero il passaggio... Addio, mondo crudele! <i>Bzzot!</i>
-O-Ok! F-Farò tutto quello che vuoi, ma t-ti prego, non farmi del male! Vu-Vuoi aprire quella porta, vero? Bene, disattivandomi avrai libero il passaggio... Addio, mondo crudele! <i>Bzzot!</i>
+O-OK! I-I'll do whatever you want, but p-please,<<n>>don't hurt me!<<n>>Y-You want to open that door, right? OK, once<<n>>I'm deactivated your path will be clear...<<n>>Goodbye, cruel world! <i>Bzzot!</i>
 <<[>>old<<]>>Sembrerebbe spento...
-<<[>>old<<]>>Sembrerebbe spento...
+<<[>>old<<]>>It looks like it's not active...
 Alice
 Alice
 Con questo buio non si riesce a vedere a un palmo di naso...
-Con questo buio non si riesce a vedere a un palmo di naso...
+It's so dark down here you can't see a thing...
 Kay
 Kay
 <<[>>old<<]>>La porta è chiusa...
@@ -8219,66 +8229,74 @@ Kay
 ???
 ???
 Ehi, \PN! Aspettami!
-Ehi, \PN! Aspettami!
+Hey, \PN! Wait for me!
 Phew! Grazie al cielo sono riuscita a fiondarmi sul treno prima che partisse...!
-Phew! Grazie al cielo sono riuscita a fiondarmi sul treno prima che partisse...!
+Phew! Thank the heavens I managed to jump on the train<<n>>before it departed...!
+Non appena mi è giunta la voce del sequestro del Quasar Express, ho corso a perdifiato. Ero convinta che ti avrei trovato qui! Vero, Pikachu?
+Once I heard the Quasar Express was being hijacked,<<n>>I immediately ran here without thinking.<<n>>I was sure I would have met you here! Right, Pikachu?
 Pikachu
 Pikachu
 Pika!
 Pika!
 Ma non perdiamo altro tempo prezioso!
-Ma non perdiamo altro tempo prezioso!
+Let's not waste any more of our precious time!
+Dobbiamo assolutamente fare qualcosa prima che quei maledetti ne combinino un'altra delle loro!
+We must do something before those damn criminals<<n>>try carrying out one of their usual schemes!
 Phew! Grazie al cielo sono riuscito a fiondarmi sul treno prima che partisse...!
-Phew! Grazie al cielo sono riuscito a fiondarmi sul treno prima che partisse...!
+Phew! Thank the heavens I managed to jump on the train<<n>>before it departed...!
+Non appena mi è giunta la voce del sequestro del Quasar Express, ho corso a perdifiato. Ero convinto che ti avrei trovata qui! Vero, Pikachu?
+Once I heard the Quasar Express was being hijacked,<<n>>I immediately ran here without thinking.<<n>>I was sure I would have met you here! Right, Pikachu?
 [Map189]
 <<[>>old<<]>><i>Bzz!</i>
 <<[>>old<<]>><i>Bzz!</i>
 ???
 ???
 Allora, \PN... Che te ne pare della mia melodia?
-Allora, \PN... Che te ne pare della mia melodia?
+So, \PN...what do you think of my melody?
 Il Meowth ti ha per caso mangiato la lingua, giovane?
-Il Meowth ti ha per caso mangiato la lingua, giovane?
+What's wrong, young one? Meowth got your tongue?
 Aster
 Aster
 V-<b>Victor</b>...! Maledetto...!
-V-<b>Victor</b>...! Maledetto...!
+V-<b>Victor</b>...! Curse you...!
 Tu
-Tu
+You
 ...
 ...
 Victor
 Victor
 Oh, vedo che qui le sorprese non mancano! È venuto a farci visita anche il piccolo Aster...
-Oh, vedo che qui le sorprese non mancano! È venuto a farci visita anche il piccolo Aster...
+Oh, I see you're not short on surprises!<<n>>It looks like little Aster has come to visit as well...
 Ma ciò che mi sorprende più d'ogni altra cosa è vedere il figlio di Versil qui. Che gran bella riunione di famiglia! Uh uh uh!
-Ma ciò che mi sorprende più d'ogni altra cosa è vedere il figlio di Versil qui. Che gran bella riunione di famiglia! Uh uh uh!
+But what surprises me the most is seeing<<n>>Versil's son here.<<n>>What a nice family reunion! Huh huh huh!
 Si può sapere cosa ci fai sul Quasar Express?! Dovresti sapere che è un patrimonio della regione!
-Si può sapere cosa ci fai sul Quasar Express?! Dovresti sapere che è un patrimonio della regione!
+What are you doing here on Quasar Express?!<<n>>You should know it's one of the region's treasures!
 Hai completamente ragione, caro Aster, ma sai, ci sono cose più importanti di queste quisquilie. Mi serviva uno strappo per <b>Ofiuchia</b> e la velocità di questo treno faceva proprio al caso mio! Vedi, laggiù c'è qualcosa che ha catturato la mia attenzione... Ovviamente è stato grazie agli studi del buon Versil se quest'informazione m'è giunta alle orecchie.
-Hai completamente ragione, caro Aster, ma sai, ci sono cose più importanti di queste quisquilie. Mi serviva uno strappo per <b>Ofiuchia</b> e la velocità di questo treno faceva proprio al caso mio! Vedi, laggiù c'è qualcosa che ha catturato la mia attenzione... Ovviamente è stato grazie agli studi del buon Versil se quest'informazione m'è giunta alle orecchie.
+You're absolutely right, dear Aster, but you know, some things are more important than a trifle like this one.<<n>>I needed a lift to <b>Dorado Village</b> and this train's speed was just what I needed!<<n>>You see, there's something over there that piqued<<n>>my interest...<<n>>Of course, it's thanks to good old Versil's studies<<n>>if this information reached my ears.
+E non solo...
+And not just that...
 Mettere le mani su un esemplare di specie X del calibro di questo <b>Gengar</b>, è stato un plus per i miei piani. Debbo dire che la dea bendata ha proprio volto il suo sguardo sui miei passi.
-Mettere le mani su un esemplare di specie X del calibro di questo <b>Gengar</b>, è stato un plus per i miei piani. Debbo dire che la dea bendata ha proprio volto il suo sguardo sui miei passi.
+Putting my hands on a X-specimen like this <b>Gengar</b>, was a nice bonus for my plans.<<n>>I have to say that Lady Fortune is on my side<<n>>now more than ever.
 Ora, però, vi chiedo di togliere il disturbo e di piantarla di metterci i bastoni fra le ruote, anche perché ho ancora un gran bisogno dell'aiuto di Versil.
-Ora, però, vi chiedo di togliere il disturbo e di piantarla di metterci i bastoni fra le ruote, anche perché ho ancora un gran bisogno dell'aiuto di Versil.
+What I ask of you, now, is to kindly leave and stop being<<n>>a hindrance to us, since I still need Versil's help.
 Trishout
 Trishout
 Triii!!
 Triii!!
 Ehi, \PN! Cerca di stare calmo! Sta cercando di abbindolarti con le sue parole! Non lasciarti trasportare, altrimenti soccomberai all'Energia Xenoverse! Torna in te, forza!
-Ehi, \PN! Cerca di stare calmo! Sta cercando di abbindolarti con le sue parole! Non lasciarti trasportare, altrimenti soccomberai all'Energia Xenoverse! Torna in te, forza!
+Hey, \PN! Stay calm!<<n>>He's trying to play mind tricks on you!<<n>>Don't fall for that, or you're going to succumb to<<n>>Xenoverse Energy! Snap out of it, please!
 Alice
 Alice
 \PN...
 \PN...
 Or bene, \PN. In questo momento vorresti vedermi stramazzare al suolo, nevvero? Fai pure, en garde.
-Or bene, \PN. In questo momento vorresti vedermi stramazzare al suolo, nevvero? Fai pure, en garde.
+What a sight to behold, \PN. I bet you're itching<<n>>to knock the stars out of me, right?<<n>>Well, so be it. En garde.
 <b>Tyranitar</b>, è il tuo turno.
-<b>Tyranitar</b>, è il tuo turno.
+<b>Tyranitar</b>, it's your turn.
 Tyraaa!!
 Tyraaa!!
 <<[>>old<<]>>Papà...
-<<[>>old<<]>>Papà...
+<<[>>old<<]>>Dad...
 <<[>>old<<]>>Gyaaahoraaah!!
 <<[>>old<<]>>Gyaaahoraaah!!
 Shyleon
@@ -8290,29 +8308,37 @@ Shulong
 Shuuu!!
 Shuuu!!
 Ma ciò che mi sorprende più d'ogni altra cosa è vedere la figlia di Versil qui. Che gran bella riunione di famiglia! Uh uh uh!
-Ma ciò che mi sorprende più d'ogni altra cosa è vedere la figlia di Versil qui. Che gran bella riunione di famiglia! Uh uh uh!
+But what surprises me the most is seeing<<n>>Versil's daughter here.<<n>>What a nice family reunion! Huh huh huh!
 Ehi, \PN! Cerca di stare calma! Sta cercando di abbindolarti con le sue parole! Non lasciarti trasportare, altrimenti soccomberai all'Energia Xenoverse! Torna in te, forza!
-Ehi, \PN! Cerca di stare calma! Sta cercando di abbindolarti con le sue parole! Non lasciarti trasportare, altrimenti soccomberai all'Energia Xenoverse! Torna in te, forza!
+Hey, \PN! Stay calm!<<n>>He's trying to play mind tricks on you!<<n>>Don't fall for that, or you're going to succumb to<<n>>Xenoverse Energy! Snap out of it, please!
 Kay
 Kay
 Ehi, \PN! Cosa ti succede?!
-Ehi, \PN! Cosa ti succede?!
+Hey, \PN! What's happening to you?!
+(Ha un'energia paurosa, ma totalmente corrotta dall'odio... Qui si mette male...)
+(The energy is overflowing, but it's completely corrupted<<n>>by hatred...this is bad...)
 \PN, calmati! Ti prego! Così farai solo il suo sporco gioco!
-\PN, calmati! Ti prego! Così farai solo il suo sporco gioco!
+\PN, calm down! Please!<<n>>You're giving him exactly what he wants!
 Pensi che questo insulso potere basti a vincermi? Figliolo, hai ancora molto da imparare.
-Pensi che questo insulso potere basti a vincermi? Figliolo, hai ancora molto da imparare.
+You think that this mere excuse of power will be enough to bring me down? Son, you still have much to learn.
+Ora che lo vedo coi miei occhi, non posso far altro che dare adito alle parole di <b>Trey</b>.
+Now that I'm seeing it with my own eyes, I can't help<<n>>but believe <b>Trey</b>'s words.
 ...!
 ...!
 Accidenti! Questa non ci voleva!
-Accidenti! Questa non ci voleva!
+Darn it! This isn't going well!
+Anche Trishout è totalmente in preda all'oscurità dell'Energia Xenoverse!
+Even Trishout has been engulfed by the darkness of Xenoverse Energy!
 Ehi, \PN! Fermati! Non vorrai far saltare in aria il t...
-Ehi, \PN! Fermati! Non vorrai far saltare in aria il t...
+Hey, \PN! Stop! You're going to make the train expl-
 N-Non può finire così...! Su-Suicune... M-Mega...
-N-Non può finire così...! Su-Suicune... M-Mega...
+I-It can't end like this...!<<n>>Su-Suicune...M-Mega-
 Pensi che questo insulso potere basti a vincermi? Figliola, hai ancora molto da imparare.
-Pensi che questo insulso potere basti a vincermi? Figliola, hai ancora molto da imparare.
-Accidenti! Questa non ci voleva! Anche Trishout è totalmente preda dell'oscurità del potere Xenoverse!
-Accidenti! Questa non ci voleva! Anche Trishout è totalmente preda dell'oscurità del potere Xenoverse!
+You think that this mere excuse of power will be enough to bring me down? Lass, you still have much to learn.
+Anche Shyleon è totalmente in preda all'oscurità dell'Energia Xenoverse!
+Even Shyleon has been engulfed by the darkness of Xenoverse Energy!
+Anche Shulong è totalmente in preda all'oscurità dell'Energia Xenoverse!
+Even Shulong has been engulfed by the darkness of Xenoverse Energy!
 [Map190]
 Caroline
 Caroline
@@ -8429,51 +8455,51 @@ Scovile
 Si
 Si
 Decaffeinato
-Decaffeinato
+Decaf
 Macchiato
-Macchiato
+Stained
 Ristretto
-Ristretto
+Short
 Shakerato
-Shakerato
+Shaked
 Tamara
-Tamara
+Dahlia
 Trey
 Trey
 Aster
 Aster
 Claudio
-Claudio
+Ginger
 Sergente
-Sergente
+Sergeant
 Recluta
-Recluta
+Grunt
 Scienziato
-Scienziato
+Scientist
 Montanaro
-Montanaro
+Hiker
 Nessuna delle 3
-Nessuna delle 3
+None of these
 Colonnello
-Colonnello
+Colonel
 Generale
-Generale
+General
 Sergente A
-Sergente A
+Sergeant A
 Sergente B
-Sergente B
+Sergeant B
 Sergente C
-Sergente C
+Sergeant C
 Duo Sergenti A & B
-Duo Sergenti A & B
+Sergeant Duo A & B
 Pigliamosche
-Pigliamosche
+Bug Catcher
 Allenatore
-Allenatore
+Trainer
 Cardinale
-Cardinale
+Cardinal
 Capopalestra
-Capopalestra
+Gym Leader
 [Map191]
 Crisante
 Caspar
@@ -8486,7 +8512,7 @@ Actually, I'm the one who let that happen, so that I could test your abilities..
 Queste sono le caratteristiche che contraddistinguono un Allenatore più di ogni altra cosa... Devo dire che non hai tradito le mie aspettative!
 These are the characteristics that define a Trainer more than anything else...<<n>>I must say you haven't betrayed my expectations<<n>>in the slightest!
 Starai pensando quanto sia stato irresponsabile lasciare dei malviventi a piede libero, vero? Non ti do torto, ma puoi dormire sonni tranquilli. Se avessi fallito, la città non avrebbe corso rischi. Certo, sarei dovuto intervenire io, ma mi hai risparmiato la seccatura e te ne sono grato! Inoltre, col tuo intervento, hai dato modo al mio estro di esplodere come un fiume in piena... Ma ora bando alle ciance!
-You're probably thinking that it was irresponsible of me<<n>>to let those crooks run amok, right?<<n>>I can't blame you, but don't trouble yourself about it. If you had failed, the city would have been safe nonetheless.<<n>>Obviously, I would have intervened, but you spared me<<n>>this chore and I'm grateful for that!<<n>>Furthermore, thanks to your intervention, you made<<n>>my estrus burst forth like a gushing torrent...<<n>>But let's not waste any more time!
+You're probably thinking that it was irresponsible of me<<n>>to let those crooks run amok, right?<<n>>I can't blame you, but don't trouble yourself. If you had failed, the city would have been safe nonetheless.<<n>>Obviously, I would have intervened, but you spared me<<n>>this chore and I'm grateful for that!<<n>>Furthermore, thanks to your intervention, you made<<n>>my estrus burst forth like a gushing torrent...<<n>>But let's not waste any more time!
 La tua sfida è stata interrotta in medias res ed è tempo che si concluda con un gran finale... la lotta col Capopalestra!
 Your challenge was interrupted once too much and it's time it reaches its climax...the battle with the Gym Leader!
 Perdona lo sgarbo, non mi sono ancora presentato...
@@ -8501,16 +8527,10 @@ In quanto Capopalestra della contea ti conferisco l'emblema del mio status di Sc
 As the Gym Leader of this county I hereby pledge you<<n>>with the emblem of my status as a Sheriff.<<n>>It's a symbol of order and discipline, two facets I saw<<n>>in the way you battle.<<n>>Here, the <b>Despair Badge</b> is now yours.
 Le stelle hanno sempre avuto un’enorme importanza nella storia della nostra regione, di cui sono il simbolo. Esse, col loro antico lume, rendono chiare e limpide anche le notti più buie... Ma è pur vero che, più intensamente brilla la luce, più l'ombra che produce è fitta e oscura. Per cui, più il tuo coraggio farà ardere gli animi dei tuoi Pokémon, più questa MT sarà efficace. Prendi pure, consideralo un regalo del sottoscritto.
 The stars always enjoyed an important role in the history<<n>>of our region, and they are its symbol as well.<<n>>With their everlasting light, they make even the darkest<<n>>of nights clear as day...<<n>>Yet, the brightest the light, the thickest and dark<<n>>is the shadow it casts.<<n>>Therefore, the more your courage fuels the soul of your Pokémon, the more effective this TM is going to be.<<n>>Take it, and consider it a gift from yours truly.
-Hai mai sentito parlare del concetto di ''doppio''?
-Have you ever heard of the idea known as ''double''?
-Ciascuno di noi ha in sé un lato che tiene ben nascosto nel proprio subconscio... l'ombra. negando la luce e ignorando che, senza di essa, la sua esistenza sarebbe vana,  questa cerca di espandersi al pari del suo opposto simmetrico.
-Each and everyone of us deeply hides within themselves a...shadow of sorts.<<n>>By refusing the light and ignoring that, without it,<<n>>its existence would be vain,<<n>>this shadow tries to expand just like its counterpart does.
-Una volta raggiunta una forma propria, si separa dal corpo principale, ma è pur sempre vincolata, in un modo o nell'altro, a ciò che l'ha creata...
-Once it reaches a proper form, it separates itself from<<n>>its host, yet it still shares a bond, in some way,<<n>>with the body that created it...
-È questo il concetto alla base dell'universo, nonché della mossa <b>Palla Ombra</b>, contenuta in quella MT. Fanne un buon uso, mi raccomando!
-This is the base concept of the universe, and the concept behind <b>Shadow Ball</b>, contained in this TM.<<n>>I'm sure you'll make good use of it!
-Perdonami se mi sono lasciato trasportare dalla poetica, ma hai davvero scosso il mio animo dalle fondamenta...
-Forgive me if I let myself be taken by my muse, but<<n>>our meeting shook my soul to its core...
+Con <b>Palla Ombra</b> potrai sciogliere le briglie al lato oscuro che ognuno di noi cova nell'inconscio. Fanne un buon uso, mi raccomando!
+With <b>Shadow Ball</b> you will be able to unleash the bridle of the shadow each of us deeply hides.<<n>>I'm sure you'll make good use of it!
+Hai davvero scosso il mio animo dalle fondamenta... perdonami, ma ora debbo abbandonarmi alla poetica.
+Our meeting shook my soul to its core...forgive me, but I need to let myself be taken my muse now. 
 Che le stelle illuminino il sentiero su cui volgerai i tuoi passi, \PN.
 May the stars shine light onto your path,<<n>>o young \PN.
 Ricorda sempre, \PN... Più intensamente brilla la luce, più l'ombra che produce è fitta e oscura.
@@ -8769,7 +8789,7 @@ Questo scrigno l’ho visto prima io! <i>Bzz!</i>
 Aster
 Aster
 Sei con le spalle al muro, rottame!
-Sei con le spalle al muro, rottame!
+You're done for, you piece of scrap!
 FG45
 FG45
 <i>Bzz!</i>
@@ -8777,35 +8797,37 @@ FG45
 Alice
 Alice
 Oh, \PN! Eccoti qui!
-Oh, \PN! Eccoti qui!
+Oh, \PN! There you are!
 Ehi, ma... \PN, anche tu qui?!
-Ehi, ma... \PN, anche tu qui?!
+Hey, wait...\PN, are you here too?!
 Oh, capisco! Quindi anche tu sei al corrente delle ultime malefatte del Team Dimension... Chissà cosa staranno escogitando...
-Oh, capisco! Quindi anche tu sei al corrente delle ultime malefatte del Team Dimension... Chissà cosa staranno escogitando...
+Oh, I see! So you're aware of Team Dimension's latest scheme too...<<n>>I wonder what they're up to...
 Beh, direi che stavolta gli è andata male! Se la dovranno vedere con noi tre!
-Beh, direi che stavolta gli è andata male! Se la dovranno vedere con noi tre!
+well, I guess they're out of luck this time!<<n>>They're against the three of us!
 A proposito, \PN... è da un po' che non ti vedo all'opera... Coraggio, mostrami i tuoi progressi con questa Recluta!
-A proposito, \PN... è da un po' che non ti vedo all'opera... Coraggio, mostrami i tuoi progressi con questa Recluta!
+By the way, \PN...it's been a while since the last time<<n>>I've seen you in action...<<n>>C'mon, show me your progress with this Grunt!
 L'avete voluto voi! <i>Bzz!</i>
-L'avete voluto voi! <i>Bzz!</i>
+You asked for it! <i>Bzz!</i>
 Kay
 Kay
 Acc...! Meglio svignarsela! <i>Bzz!</i>
-Acc...! Meglio svignarsela! <i>Bzz!</i>
+Yikes...! Better run! <i>Bzz!</i>
 \PN, vedo che quest'avventura per Eldiw sta facendo di te un Allenatore di tutto rispetto! Spero vivamente di potermi misurare con te un giorno!
-\PN, vedo che quest'avventura per Eldiw sta facendo di te un Allenatore di tutto rispetto! Spero vivamente di potermi misurare con te un giorno!
+\PN, I see this adventure around Eldiw is making<<n>>a full fledged Trainer out of you!<<n>>I really hope we can measure our strengths someday!
 Sono totalmente d'accordo con lei, Aster. E tu, Pikachu?
-Sono totalmente d'accordo con lei, Aster. E tu, Pikachu?
+I totally agree with you, Aster. What about you, Pikachu?
 Pikachu
 Pikachu
 Pika!
 Pika!
 Non cantiamo vittoria troppo presto, ragazzi!
-Non cantiamo vittoria troppo presto, ragazzi!
+No time for celebrations just yet, kids!
+Non sappiamo cosa ci riservi il prossimo vagone, ma ho un brutto presentimento... I miei Pokémon sono come terrorizzati da una potenza schiacciante...!
+We don't know what the next wagon has in store for us,<<n>>but I've got a bad feeling about it...<<n>>My Pokémon are terrified by some kind of overwhelming power...!
 \PN, senza dubbio siamo ad un passo dall'artefice della scomparsa di tuo padre... Prenditi tutto il tempo che ti serve e poi raggiungimi dentro!
-\PN, senza dubbio siamo ad un passo dall'artefice della scomparsa di tuo padre... Prenditi tutto il tempo che ti serve e poi raggiungimi dentro!
+\PN, we're undoubtedly about to meet the one<<n>>behind your father's disappearance...<<n>>Take all the time you need and reach me inside!
 Forza, \PN! Vedrai che insieme ce la faremo! Vado a dar man forte ad Aster!
-Forza, \PN! Vedrai che insieme ce la faremo! Vado a dar man forte ad Aster!
+C'mon, \PN! We can pull this off together!<<n>>I'm going forward to help Aster!
 Sì
 Yes
 No
@@ -9778,7 +9800,7 @@ Dance Room
 <<[>>old<<]>>A quale piano vuoi andare?
 <<[>>old<<]>>Which floor are you going to?
 Piano Terra
-Ground floor
+Ground Floor
 Esci
 Quit
 Sala Rock
@@ -10341,7 +10363,7 @@ Allora, affare fatto?
 Non posso crederci che sei riuscito|a a sconfiggere Wallace! Sei pazzesco|a, ora mi fai un autografo?
 Non posso crederci che sei riuscito|a a sconfiggere Wallace!  Sei pazzesco|a, ora mi fai un autografo?
 Piano Terra
-Ground floor
+Ground Floor
 Esci
 Quit
 Sala Rock
@@ -11164,11 +11186,11 @@ C’mon, take it! You can always have it with you and<<n>>remember your buddy Da
 Alla prossima allora!
 See ya next time!
 Oh, che bello! Sei tornato qui solo per trovare il tuo amico Eric?
-I'm so happy! You just came here for your buddy David, don't cha?
+I'm so happy! You just came here for your buddy David, don't ya?
 Oh, che bello! Sei tornata qui solo per trovare il tuo amico Eric?
-I'm so happy! You just came here for your buddy David, don't cha?
+I'm so happy! You just came here for your buddy David, don't ya?
 Oh, che bello! Sei tornato|a qui solo per trovare il tuo amico Eric?
-I'm so happy! You just came here for your buddy David, don't cha?
+I'm so happy! You just came here for your buddy David, don't ya?
 Sì
 Yes
 No
@@ -11227,94 +11249,106 @@ Gene X-2
 Victor
 Victor
 \PN, ero certo che mi avresti raggiunto.
-\PN, ero certo che mi avresti raggiunto.
+\PN, I knew you would have caught up with me.
+Qui all'esterno, potrai finalmente sfidarmi al massimo delle tue forze, non credi?
+Now that we're outside, we'll finally be able to fight at the maximum extent of our potentials, don't you think?
 Tyraaa!!
 Tyraaa!!
 Tu
-Tu
+You
 ...
 ...
 ???
 ???
 Mio Generale! Sono qui per lei!
-Mio Generale! Sono qui per lei!
+My General! I'm here for you!
 Oh, ma che sorpresa, <b>Colonnello</b>. Stavamo giusto per dare il via allo scontro.
-Oh, ma che sorpresa, <b>Colonnello</b>. Stavamo giusto per dare il via allo scontro.
+Oh, what a surprise, <b>Colonel</b>. I was just about to start the battle.
 Tamara
-Tamara
+Dahlia
 Oh, mio <b>Generale</b>! Perché sprecare le sue preziose energie con un pesce piccolo come questo?
-Oh, mio <b>Generale</b>! Perché sprecare le sue preziose energie con un pesce piccolo come questo?
+Oh, my <b>General</b>! Why would you waste your precious energies on such a small fish?
 Io, al contrario, ho tutti i motivi per avercela con questo ragazzino... Questo mi pare proprio il momento per regolare i conti!
-Io, al contrario, ho tutti i motivi per avercela con questo ragazzino... Questo mi pare proprio il momento per regolare i conti!
+I, on the other hand, still have a bone to pick with<<n>>this little pest...<<n>>This looks like the time to finally settle the score!
 Se proprio insiste, Colonnello. Il mio obiettivo è semplicemente quello di testare le sue capacità.
-Se proprio insiste, Colonnello. Il mio obiettivo è semplicemente quello di testare le sue capacità.
+If you really insist, Colonel. My objective merely was<<n>>to test the abilities.
 Lasci fare a me, mio Generale! Sarà un gioco da ragazzi fare a pezzi questo moccioso!
-Lasci fare a me, mio Generale! Sarà un gioco da ragazzi fare a pezzi questo moccioso!
+Let me handle this, my General! I'll crush this little maggot<<n>>in no time!
 Avanti, fatti sotto!
-Avanti, fatti sotto!
+C'mon, come at me!
 No! Non proprio davanti a lui!!
-No! Non proprio davanti a lui!!
+No! I can't lose while he’s watching!!
 Avete visto, mio Generale? Kyah ah ah!
-Avete visto, mio Generale? Kyah ah ah!
+Did you see that, my General? Kya ha ha!
 Io, al contrario, ho tutti i motivi per avercela con questa ragazzina... Questo mi pare proprio il momento per regolare i conti!
-Io, al contrario, ho tutti i motivi per avercela con questa ragazzina... Questo mi pare proprio il momento per regolare i conti!
+I, on the other hand, still have a bone to pick with<<n>>this little pest...<<n>>This looks like the time to finally settle the score!
+Lasci fare a me, mio Generale! Sarà un gioco da ragazzi fare a pezzi questa mocciosa!
+Let me handle this, my General! I'll crush this little maggot<<n>>in no time!
 Oh, diamine... Che figuraccia! E proprio davanti a lei, mio Generale...
-Oh, diamine... Che figuraccia! E proprio davanti a lei, mio Generale...
+Oh, damn you...this is embarrassing! And to think<<n>>I'd lose right in front of you, my General...
 Colonnello. Toglietevi da piedi, siete d'intralcio.
-Colonnello. Toglietevi da piedi, siete d'intralcio.
+Colonel. Step aside, you’re nothing but a hindrance.
 Beh, che dire... Sei davvero in gamba, \PN...
-Beh, che dire... Sei davvero in gamba, \PN...
+Well, what to say...you're quite gifted, \PN...
 ... ma non abbastanza da poter realmente fare la differenza.
-... ma non abbastanza da poter realmente fare la differenza.
+...but not gifted enough to really make a difference.
 Vedi, questo <b>Tyranitar</b> è stato sottoposto a svariate sperimentazioni dai più abili scienziati... Credevi di essere l'unico ad avere l'Energia Xenoverse nelle proprie mani? La scienza può tutto! Uh uh uh! Se permetti, ti darò una breve dimostrazione dell’immenso potere scaturito dal <b>Gene X</b>.
-Vedi, questo <b>Tyranitar</b> è stato sottoposto a svariate sperimentazioni dai più abili scienziati... Credevi di essere l'unico ad avere l'Energia Xenoverse nelle proprie mani? La scienza può tutto! Uh uh uh! Se permetti, ti darò una breve dimostrazione dell’immenso potere scaturito dal <b>Gene X</b>.
+You see, this <b>Tyranitar</b> has been subjected to several experiments by the most talented scientists...<<n>>Do you think you're the only one who has free will over Xenoverse Energy? Science can do everything!<<n>>Allow me to give you a taste of the immense power born from the <b>X Gene</b>.
 Oh, cavolo...
-Oh, cavolo...
+Oh, man...
 Au revoir, \PN.
 Au revoir, \PN.
 <<[>>old<<]>>...
 <<[>>old<<]>>...
 Vedi, questo <b>Tyranitar</b> è stato sottoposto a svariate sperimentazioni dai più abili scienziati... Credevi di essere l'unica ad avere l'Energia Xenoverse nelle proprie mani? La scienza può tutto! Uh uh uh! Se permetti, ti darò una breve dimostrazione dell’immenso potere scaturito dal <b>Gene X</b>.
-Vedi, questo <b>Tyranitar</b> è stato sottoposto a svariate sperimentazioni dai più abili scienziati... Credevi di essere l'unica ad avere l'Energia Xenoverse nelle proprie mani? La scienza può tutto! Uh uh uh! Se permetti, ti darò una breve dimostrazione dell’immenso potere scaturito dal <b>Gene X</b>.
-<<[>>old<<]>> ...
-<<[>>old<<]>> ...
+You see, this <b>Tyranitar</b> has been subjected to several experiments by the most talented scientists...<<n>>Do you think you're the only one who has free will over Xenoverse Energy? Science can do everything!<<n>>Allow me to give you a taste of the immense power born from the <b>X Gene</b>.
 [Map258]
 Tu
-Tu
+You
 ...
 ...
+E così ci si vede ancora una volta a quattr'occhi.
+And so we finally meet once again.
 Alter
 Alter
 Ti starai chiedendo che razza di posto sia questo, vero?
-Ti starai chiedendo che razza di posto sia questo, vero?
+You're probably wondering what kind of place is this, right?
 Beh, vedi... questa è una dimensione intermedia cui possono accedere solo i possessori delle Energie. Si potrebbe definire un vero e proprio ''limbo''...
-Beh, vedi... questa è una dimensione intermedia cui possono accedere solo i possessori delle Energie. Si potrebbe definire un vero e proprio ''limbo''...
+Well, you see...this is a middle dimension available only<<n>>to those who possess Energies.<<n>>You could say this is a bona-fide ''limbo'' of sorts...
 Risparmia le chiacchiere, \PN. So già tutto su quel tale, <b>Victor</b>...
-Risparmia le chiacchiere, \PN. So già tutto su quel tale, <b>Victor</b>...
+Don't waste your breath, \PN. I already know<<n>>everything about that <b>Victor</b>...
+Del resto, da quando mi hai sottratto l'Energia X, sono parte di te, come fossi la tua ombra...
+I mean, after you stole my X Energy, I'm basically<<n>>a part of you, kinda like your shadow...
 Tranquillo, quell'uomo non potrà in alcun modo addentrarsi in questa dimensione, seppur abbia provato a replicare l'energia dello Xenoverse con dei miseri esperimenti...
-Tranquillo, quell'uomo non potrà in alcun modo addentrarsi in questa dimensione, seppur abbia provato a replicare l'energia dello Xenoverse con dei miseri esperimenti...
+Don't worry, that man would never be able to enter<<n>>this dimension,<<n>>even though he tried to replicate the Xenoverse Energy<<n>>through some lame experiments...
 Tuttavia, le sue parole non erano campate per aria, anzi...
-Tuttavia, le sue parole non erano campate per aria, anzi...
+However, his words hold some truth, in fact...
+È innegabile che tu non abbia alcuna possibilità di sconfiggerlo, al momento. A meno che...
+It's undeniable that, as of now, you have no chance<<n>>of defeating him. Unless...
 ... non ti abbandoni totalmente alla mia volontà... In tal caso, potresti avere una chance.
-... non ti abbandoni totalmente alla mia volontà... In tal caso, potresti avere una chance.
+...you let yourself be completely engulfed by my will...<<n>>In that case, you could actually have a chance.
 ...!
 ...!
 Tranquillo, non ho alcuna intenzione di sfidarti.
-Tranquillo, non ho alcuna intenzione di sfidarti.
+Don't worry, I have no intention of challenging you.
+Pur prendendo possesso del tuo corpo, non avrei speranze di farcela contro quel Victor.
+Even if I were to take control of your body, I wouldn't stand<<n>>a chance against that Victor.
 Se sei così intenzionato a batterti con lui, perché non ti alleni con tutto te stesso? Così facendo, giunti nuovamente al faccia a faccia, il tuo ribollente odio mi riporterà a piede libero e potrò sfruttare il tuo nuovo potenziale! Ah ah ah!
-Se sei così intenzionato a batterti con lui, perché non ti alleni con tutto te stesso? Così facendo, giunti nuovamente al faccia a faccia, il tuo ribollente odio mi riporterà a piede libero e potrò sfruttare il tuo nuovo potenziale! Ah ah ah!
+If you really are that adamant on challenging him,<<n>>why don't you train yourself to do that?<<n>>Done that, the next time you meet him, your sizzling hatred<<n>>will free me once again<<n>>and I'll be able to freely use your new potential!<<n>>Ha ha ha!
 Su, non fare quella faccia! \PN, dovresti sapere benissimo che, a questo mondo, i deboli vengono spazzati via e restano indietro, mentre chi è privo di scrupoli diventa imbattibile!
-Su, non fare quella faccia! \PN, dovresti sapere benissimo che, a questo mondo, i deboli vengono spazzati via e restano indietro, mentre chi è privo di scrupoli diventa imbattibile!
+C'mon, don’t give me that look! \PN, you should know<<n>>by now that, in this world,<<n>>weaklings are destined to stay behind, while those who show no mercy are destined to become invincible!
 Bene, direi che il nostro tempo qui è scaduto.
-Bene, direi che il nostro tempo qui è scaduto.
+Well, it seems our time here is over.
+Quell’attacco mi ha prosciugato di tutte le energie, perciò la mia influenza è svanita, ma ricorda...
+That attack has drained all of my energies, so my influence<<n>>on you is dwindling, but remember...
 I tuoi tentativi di contrastare l'odio sono inutili, non sarà certo questo il nostro ultimo incontro... Alla prossima, \PN!
-I tuoi tentativi di contrastare l'odio sono inutili, non sarà certo questo il nostro ultimo incontro... Alla prossima, \PN!
+All of your attempts to counter your hatred are futile,<<n>>because this won't be the last time we meet...<<n>>See you next time, \PN!
 Tranquilla, quell'uomo non potrà in alcun modo addentrarsi in questa dimensione, seppur abbia provato a replicare l'energia dello Xenoverse con dei miseri esperimenti...
-Tranquilla, quell'uomo non potrà in alcun modo addentrarsi in questa dimensione, seppur abbia provato a replicare l'energia dello Xenoverse con dei miseri esperimenti...
+Don't worry, that man would never be able to enter<<n>>this dimension,<<n>>even though he tried to replicate the Xenoverse Energy<<n>>through some lame experiments...
 Tranquilla, non ho alcuna intenzione di sfidarti.
-Tranquilla, non ho alcuna intenzione di sfidarti.
+Don't worry, I have no intention of challenging you.
 Se sei così intenzionata a batterti con lui, perché non ti alleni con tutta te stessa? Così facendo, giunti nuovamente al faccia a faccia, il tuo ribollente odio mi riporterà a piede libero e potrò sfruttare il tuo nuovo potenziale! Ah ah ah!
-Se sei così intenzionata a batterti con lui, perché non ti alleni con tutta te stessa? Così facendo, giunti nuovamente al faccia a faccia, il tuo ribollente odio mi riporterà a piede libero e potrò sfruttare il tuo nuovo potenziale! Ah ah ah!
+If you really are that adamant on challenging him,<<n>>why don't you train yourself to do that?<<n>>Done that, the next time you meet him, your sizzling hatred<<n>>will free me once again<<n>>and I'll be able to freely use your new potential!<<n>>Ha ha ha!
 [Map259]
 Yahto
 Yahto
@@ -12271,11 +12305,11 @@ Si
 Yes
 [Map275]
 Mirto
-Mirto
+Otis
 La mia bella mi aspetta a casa, ma mica posso dire di no a una lotta!
-La mia bella mi aspetta a casa, ma mica posso dire di no a una lotta!
+My sweetie gal wants me home, but I can never say no<<n>>to a battle, c'mon!
 Se non mi do una mossa, quella mi riduce peggio di così!
-Se non mi do una mossa, quella mi riduce peggio di così!
+I'd better get a move now...or she'll rub me out!
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Ogni nuovo strumento viene inserito automaticamente nell'apposita Tasca della Borsa. Basati sul nome delle Tasche, quando vuoi usare uno strumento.
@@ -12283,36 +12317,36 @@ Se non mi do una mossa, quella mi riduce peggio di così!
 Coco
 Coco
 Vorrei potermi librare nel cielo come un Pokémon Volante!
-Vorrei potermi librare nel cielo come un Pokémon Volante!
+I just wish I could soar in the sky like Flying-type<<n>>Pokémon!
 Se avessi delle ali potrei guardare il mondo dall’alto...
-Se avessi delle ali potrei guardare il mondo dall’alto...
+If I had wings, I would look at this world from above...
 Titanio
-Titanio
+Neil
 Ho un segreto che non posso assolutamente rivelare!
-Ho un segreto che non posso assolutamente rivelare!
+I have a secret I can't tell anyone!
 E va bene, te lo dico... ma acqua in bocca!
-E va bene, te lo dico... ma acqua in bocca!
+All right, I'm gonna tell you...but keep it under your hat!
 Si vocifera che nel canyon vi sia un’area segreta popolata da Pokémon provenienti dallo spazio. Chissà se è vero, però...
-Si vocifera che nel canyon vi sia un’area segreta popolata da Pokémon provenienti dallo spazio. Chissà se è vero, però...
+Rumors say that there's a secret area populated by<<n>>Pokémon from outer space within the canyon.<<n>>I wonder if it's true...
 [Map276]
 Alvaro
-Alvaro
+Magnum
 Registro un <b>campo magnetico speciale</b> in questa gola. Magari lo si potrebbe sfruttare in qualche modo...
-Registro un <b>special magnetic field</b> inside this gorge. Magari lo si potrebbe sfruttare in qualche modo...
+I recorded a <b>special magnetic field</b> in this gorge.<<n>>I wonder how we could exploit it...
 Juice
 Juice
 La Gola Steelix è perfetta per le gare clandestine! Ehi, ma... tu non sei dei nostri!
-La Gola Steelix è perfetta per le gare clandestine! Ehi, ma... tu non sei dei nostri!
+Steelix Gorge is the perfect place for street racing!<<n>>Hey, but you ain't one of us!
 Spero tu tenga la boccaccia chiusa!
-Spero tu tenga la boccaccia chiusa!
+I hope you'll keep your damn mouth shut!
 Ti prego, non dirlo ai miei genitori!
-Ti prego, non dirlo ai miei genitori!
+Please, don't tell my parents!
 Ben
 Ben
 E cosa sono i Cowboy se non cavalieri del presente?
-E cosa sono i Cowboy se non cavalieri del presente?
+What are Cowboys if not modern-day knights?
 Un vero cavaliere deve saper accettare la sconfitta!
-Un vero cavaliere deve saper accettare la sconfitta!
+A true knight should know how to accept defeat!
 Tamara
 Dahlia
 Dannato scarto di laboratorio! Datti una mossa anziché ribellarti agli ordini, come al solito! Non mi perdonerei mai se fossi la causa di un ritardo nei piani del mio caro Generale!
@@ -12375,8 +12409,10 @@ Nonostante possa contare sul nuovo potere di <b>Sabolt</b>, da solo non la spunt
 Even though I can count on <b>Sabolt</b>'s newfound power,<<n>>I wouldn't be able to win out that easy on my own...
 Ehi, \PN! Non avrei mai immaginato di chiederti qualcosa di simile, ma... Ho bisogno del tuo aiuto per sconfiggere questi due insopportabili pagliacci!
 Hey, \PN! I never thought I'd ask you such a thing,<<n>>but...<<n>>I need your help to take down these two annoying clowns!
-E così avete deciso di fare comunella, eh? Mi dispiace deludervi, ma stavolta non finirà come quella volta al campus... Vero, B?
-So you decided to team up, huh?<<n>>I hate to disappoint you, but this time it won't end up<<n>>like that time on campus...am I right, B?
+E così avete deciso di fare comunella, eh?
+So you decided to team up, huh?
+Mi dispiace deludervi, ma stavolta non finirà come quella volta al campus... Vero, B?
+I hate to disappoint you, but this time it won't end up<<n>>like that time on campus...am I right, B?
 Puoi dirlo forte, A!
 You got that right, A!
 ''A'' di autorità...
@@ -13646,7 +13682,7 @@ Ehi! Questo è il quartier generale del nostro clan, che sei venuto|a a fare?!
 Spera solo che non ti scopra il capo!
 Spera solo che non ti scopra il capo!
 Carolina
-Carolina
+Nadie
 Non sono una grande fan della musica mainstream, preferisco qualcosa di più underground!
 Non sono una grande fan della musica mainstream, preferisco qualcosa di più underground!
 Più underground di così...
@@ -13960,7 +13996,7 @@ Tonio
 Quest’infuso ai petali di Roselia fa sparire ogni dolore della vecchiaia!
 Quest’infuso ai petali di Roselia fa sparire ogni dolore della vecchiaia!
 <<[>>old<<]>>A quale piano vuoi andare?
-<<[>>old<<]>>A quale piano vuoi andare?
+<<[>>old<<]>>Which floor are you going to?
 Mariolina
 Mariolina
 Le diamo il benvenuto al Centro Commerciale di Sagittopoli.
@@ -15580,7 +15616,7 @@ Ho comprato questo per sbaglio, ma non posso più ridarlo indietro... va beh, da
 La prossima volta cercherò di fare più attenzione.
 La prossima volta cercherò di fare più attenzione.
 <<[>>old<<]>>A quale piano vuoi andare?
-<<[>>old<<]>>A quale piano vuoi andare?
+<<[>>old<<]>>Which floor are you going to?
 Lorella
 Lorella
 Non mi ero mai imbattuta in un Pokémon cromatico fino a ieri. Peccato solo che fossi a corto di Poké Ball... Stavolta, però, ho fatto scorta!
@@ -15613,7 +15649,7 @@ Jerry
 Creare dei motivetti pubblicitari che rimangano in testa non dev'essere affatto facile!
 Creare dei motivetti pubblicitari che rimangano in testa non dev'essere affatto facile!
 <<[>>old<<]>>A quale piano vuoi andare?
-<<[>>old<<]>>A quale piano vuoi andare?
+<<[>>old<<]>>Which floor are you going to?
 Benvenuto al Centro Commerciale di Sagittopoli, qui vendiamo una vasta di prodotti per la salute e le statistiche dei tuoi Pokémon. Scegli quella che preferisci di più!
 Benvenuto al Centro Commerciale di Sagittopoli, qui vendiamo una vasta di prodotti per la salute e le statistiche dei tuoi Pokémon. Scegli quella che preferisci di più!
 Marlon
@@ -15634,7 +15670,7 @@ Cardion
 Ho visitato tutte le grotte del mondo per scovare queste splendide pietre preziose. Da' pure un'occhiata!
 Ho visitato tutte le grotte del mondo per scovare queste splendide pietre preziose. Da' pure un'occhiata!
 <<[>>old<<]>>A quale piano vuoi andare?
-<<[>>old<<]>>A quale piano vuoi andare?
+<<[>>old<<]>>Which floor are you going to?
 Ciao ragazzino|a, io sono Cardion! Sono un giramondo che ha visitato gran parte delle regioni del Mondo. Vendo tante pietre preziose e non solo, dacci un'occhiata!
 Ciao ragazzino|a, io sono Cardion! Sono un giramondo che ha visitato gran parte delle regioni del Mondo. Vendo tante pietre preziose e non solo, dacci un'occhiata!
 Nutrio
@@ -15699,7 +15735,7 @@ Ilaria
 Come dico sempre, non è lo Skater a scegliere il Pokéboard, ma il contrario!
 Come dico sempre, non è lo Skater a scegliere il Pokéboard, ma il contrario!
 <<[>>old<<]>>A quale piano vuoi andare?
-<<[>>old<<]>>A quale piano vuoi andare?
+<<[>>old<<]>>Which floor are you going to?
 Piano T
 Piano T
 Piano 1
@@ -20015,8 +20051,8 @@ Le onde sonore arrivano dal tetto della Palestra Ritmo, Santana!
 Le onde sonore arrivano dal tetto della Palestra Ritmo, Santana!
 Palestra Ritmo? Ma è proprio quassù! Tutti sul tetto, let’s go!
 Palestra Ritmo? Ma è proprio quassù! Tutti sul tetto, let’s go!
-<<[>>old<<]>> A quale piano vuoi andare?
-<<[>>old<<]>> A quale piano vuoi andare?
+<<[>>old<<]>>A quale piano vuoi andare?
+<<[>>old<<]>>Which floor are you going to?
 Jade
 Jade
 Amico|a, se sei qui per qualche richiesta sulla musica da metter su, dovrai aspettare! Nel frattempo, scatenati in pista, forza!
@@ -20526,20 +20562,20 @@ No
 [Map559]
 Alisio
 Alisio
-Hey non calpestarmi il campo!
-Hey non calpestarmi il campo!
-Gulp...
-Gulp...
-Passa pure... ma fai attenzione... Gulp.
-Passa pure... ma fai attenzione... Gulp.
+Ma che combini?! Hai calpestato tutto il mio orticello!
+Ma che combini?! Hai calpestato tutto il mio orticello!
+Per stavolta chiuderò un occhio.
+Per stavolta chiuderò un occhio.
+Per stavolta chiuderò un occhio, ma che non si ripeta mai più!
+Per stavolta chiuderò un occhio, ma che non si ripeta mai più!
 Delia
 Delia
 Il treno ha fischiato.
 Il treno ha fischiato.
 <<[>>old<<]>>Su quest'insegna è possibile controllare le varie tappe del Quasar Express lungo il tragitto Scorpiopoli-Leopoli.
-<<[>>old<<]>>Su quest'insegna è possibile controllare le varie tappe del Quasar Express lungo il tragitto Scorpiopoli-Leopoli.
+<<[>>old<<]>>This sign shows all the different stops that the Quasar Express makes along the Westar-Hypelion route.
 <<[>>old<<]>>Quando un Pokémon si addormenta non può agire per tutta la durata del riposo. Tuttavia, una volta sveglio, non sarà più affetto dalle eventuali alterazioni di stato di cui soffriva prima.
-<<[>>old<<]>>Quando un Pokémon si addormenta non può agire per tutta la durata del riposo. Tuttavia, una volta sveglio, non sarà più affetto dalle eventuali alterazioni di stato di cui soffriva prima.
+<<[>>old<<]>>While asleep, a Pokémon is not able to make a move during the whole rest. However, when it wakes up, it won't be affected by any previous status condition.
 Claus
 Claus
 Vuoi prendere quell’oggetto laggiù, vero? L’ho visto prima io e non sono disposto a cedertelo tanto facilmente!
@@ -20549,28 +20585,28 @@ Il nostro duello ha deciso chi merita di accaparrarselo...
 Prendilo pure tu.
 Prendilo pure tu.
 <<[>>old<<]>>Stazione Ferroviaria di Scorpiopoli
-<<[>>old<<]>>Stazione Ferroviaria di Scorpiopoli
+<<[>>old<<]>>Westar Railway Station
 Assunta
 Assunta
-Uè! Dove pensi di andare?
-Uè! Dove pensi di andare?
-Maronn...
-Maronn...
-Va vatten.
-Va vatten.
+Il poppante non la pianta di frignare, ma forse una lotta lo calmerà!
+Il poppante non la pianta di frignare, ma forse una lotta lo calmerà!
+Oh, s’è addormentato il pupo.
+Oh, s’è addormentato il pupo.
+Guardalo, è una gioia mentre dorme.
+Guardalo, è una gioia mentre dorme.
 [Map560]
 <<[>>old<<]>>Per Cascate Firmamento
 <<[>>old<<]>>Per Cascate Firmamento
 [Map561]
 [Map562]
-<<[>>old<<]>> A quale piano vuoi andare?
-<<[>>old<<]>> A quale piano vuoi andare?
+<<[>>old<<]>>A quale piano vuoi andare?
+<<[>>old<<]>>Which floor are you going to?
 Piano Terra
-Piano Terra
+Ground Floor
 Esci
-Esci
+Quit
 Sala Dance
-Sala Dance
+Dance Room
 Golden Studio
 Golden Studio
 [Map563]
@@ -44224,7 +44260,7 @@ Daarien
 Woody
 Woody
 Titanio
-Titanio
+Neil
 Nando
 Colt
 Gray
@@ -44314,7 +44350,7 @@ Henna
 Teresa
 Teresa
 Carolina
-Carolina
+Nadie
 Rika
 Rika
 Miya
@@ -44554,7 +44590,7 @@ Alisio
 Fonco
 Fonco
 Mirto
-Mirto
+Otis
 Cletus
 Cletus
 Crisante
