@@ -2433,14 +2433,14 @@ Outdoor=false
 [382]
 # Xenoverse
 BattleBack=MondoXenoverse
-Bicycle=true
+Bicycle=false
 Outdoor=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
 ShowArea=true
 [383]
 # Xenoverse
 BattleBack=MondoXenoverse
-Bicycle=true
+Bicycle=false
 Outdoor=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
 [384]
@@ -2454,7 +2454,7 @@ WildBattleBGM=Wild Battle.mp3
 [385]
 # Xenoverse
 BattleBack=crisante
-Bicycle=true
+Bicycle=false
 Outdoor=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
 [386]
