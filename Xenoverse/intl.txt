@@ -6544,7 +6544,7 @@ Charlotte
 E vattene!! ... Ah, pensavo fossi quel maledetto fantasma che mi tormenta. Prendi qua e scusami, eh!
 Get outta here!!<<n>>...<<n>>Oh, I thought ya were that ghost that keeps hauntin' me. Here ya have, and sorry!
 E ora vattene per davvero, però.
-Outta my way for true now.
+Outta my way fo' true now.
 Camilo
 Camilo
 Cosa ti porta qui a Scorpiopoli, gringo|a? Questa non è una città adatta ai turisti...
@@ -6554,7 +6554,7 @@ What brings you to Westar City, gringo|a? This isn't exactly the right city for 
 Norberto
 Norbert
 Il lavoro nei campi è tosto... ma cosa ne vuole sapere un cittadino come te?!
-Working in the fields is hard...nothing city folks like ya<<n>>can ever get!
+Working in the fields is hard...nuthin' ya'll city folks<<n>>can ever get!
 <<[>>old<<]>>Lavori in corso. -Kupa
 <<[>>old<<]>>Work in progress. -Kupa
 <<[>>old<<]>> Lavori in corso. Tornate presto! -Kupa.
@@ -6570,7 +6570,7 @@ Betsy
 Sto facendo il bucato con l’acqua del pozzo... Che te ne serve un po’? To’, prendi!
 I'mma do laundry with the well water...<<n>>D'ya need some too? Here, take it!
 Alla tua età già fai il bucato da solo|a?
-You kiddo do the laundry all by yerself?
+D'ya knee high do the laundry all by yerself?
 Maria
 Maria
 Argh! Come hai fatto a smascherarci?! E va bene, ora te la vedrai con le sorelle Maria e Serafina!
@@ -6594,7 +6594,7 @@ DD4
 Chiara
 Bonnie
 Come accidenti hai fatto a perdere la tua <b>Campana Mumu</b>? E ora io dove la trova un'altra?
-How the heck did ya lose yer <b>Moomoo Bell</b>?<<n>>How am I gonna get another one?
+How the hale did ya lose yer <b>Moomoo Bell</b>?<<n>>How am I gonna get another one?
 Eh? Ce l'hai tu? Da' un po' qua, tanto non te ne fai molto, cittadino|a.
 Huh? Ya got one? Gimme that thing, c'mon!<<n>>I'm sure ya don't need that at all.
 Forse tu sai che fartene di 'sta robaccia, però.
@@ -6602,9 +6602,9 @@ But maybe ya know whatta do with this junk.
 Se avessi studiato, forse ci avrei potuto capire di più di tutte quelle scritte.
 If I had studied, I coulda gotten some of all those writings.
 Miltank, vedi di non perdere anche questa!
-Ya better not losing this one too, Miltank!
+Ya better not losin' this one too, Miltank!
 Serafina
-Serafina
+Seraphine
 M17
 M17
 Favel
@@ -6725,23 +6725,23 @@ Evaler
 Norma
 Norma
 Quel Garcia non fa che lamentarsi di quanto sia disastrata questa casa, ma mai che pulisca niente!
-Quel Garcia non fa che lamentarsi di quanto sia disastrata questa casa, ma mai che pulisca niente!
+That Garcia is always complaining about the house, but<<n>>he never does anything when it comes to cleaning!
 [Map154]
 Vito
-Vito
+Otis
 Mia moglie non ne vuole sapere di avere altri figli, ma allora chi ci aiuterà col lavoro nei campi?!
-Mia moglie non ne vuole sapere di avere altri figli, ma allora chi ci aiuterà col lavoro nei campi?!
+My old lady doesn't wanna hear 'bout gettin' more children, but then who's gonna help we'uns with the crops?!
 Teresa
-Teresa
+Louisa
 Pensavo fosse una bella caramella e invece era una Neropietra!
-Pensavo fosse una bella caramella e invece era una Neropietra!
+That ain’t a tasty candy...it's a dern Dusk Stone!
 Avrei dovuto accorgermene prima di tirarle un bel morso...
-Avrei dovuto accorgermene prima di tirarle un bel morso...
+I shoulda realized it before givin' it a crunch...
 [Map155]
 Aldo
 Garth
 Non c'è niente che galoppi come la fantasia di un cowboy!
-If you haven't fallen off a horse...then you haven't been ridin long enough.
+If you haven't fallen off a horse...then you haven't been ridin' long enough.
 Sofia
 Sophia
 Qui a Scorpiopoli, un delinquente può sparire come fumo al vento... per merito di Crisante, chiaro!
@@ -6764,7 +6764,7 @@ The guy here beside me, um, you know...he smells like death!
 Rosa
 Rose
 Sono io la cuoca qui e se a qualcuno non sta bene, che venga a dirmelo in faccia!
-I'm the chef here and if someone got a problem with that,<<n>>then they can come talk to my face!
+I'm the cook here and if you'uns got a problem with that,<<n>>then come talk to my face!
 Raul
 Raul
 Preferirei mangiare un intero seme di Scovile anziché ‘sta robaccia!!
@@ -6772,13 +6772,13 @@ I'd rather eat a whole Scovile's seed than this slop!!
 [Map157]
 [Map158]
 Augusto
-Augusto
+Ralph
 Che roba è quella che hai sulla mano? Mai visto un guanto del genere...
 What's that thing on yer hand? I've never seen such a glove before...
 Ti va di scambiarlo col mio <b>oggetto specialissimo</b>?
 D'ya wanna trade it for my <b>very special item</b>?
 Scherzavo, non saprei nemmeno cosa farci! Tu però prendilo comunque.
-Just kidding, I don't even know how to use that thing!<<n>>Take this anyway.
+Just kiddin', I don't even know how to use that thing!<<n>>Take this anyway.
 Te l'ho detto, è un oggetto specialissimo!
 I told ya, it's a very special item!
 Lara
@@ -6788,7 +6788,7 @@ I'd like to be a Professor one day...
 Annamaria
 Rosemary
 Dice sempre di essere un vero uomo... E che lavi i piatti allora!
-He's always sayin' he's a real man...then I made him wash his dishes!
+He's always sayin' he's a real man...then I made him wash<<n>>his dishes!
 Carlos
 Carlos
 Ma dimmi tu se tocca a me lavare tutti ‘sti piatti!
@@ -7295,9 +7295,9 @@ I-I agree with you, sis!<<n>>\PN, you were amazing!
 Ehi, tappetto|a. Vedi di non starmi tra i piedi!
 Hey, squirt. Try not to get in my way!
 <<[>>old<<]>>Una bottiglia di vetro contenente un denso liquido nero.
-<<[>>old<<]>>Una bottiglia di vetro contenente un denso liquido nero.
+<<[>>old<<]>>A glass bottle containing a thick black liquid.
 <<[>>old<<]>>Questa dev’essere la boccetta della lacrima nera di cui parlava Cempa nel suo diario... Spostandola si apre un passaggio!
-<<[>>old<<]>>Questa dev’essere la boccetta della lacrima nera di cui parlava Cempa nel suo diario... Spostandola si apre un passaggio!
+<<[>>old<<]>>It must be the bottle of the black tear Chempo written about in his diary...\nMoving it opens a passage!
 \PN, ancora nessun indizio?
 \PN, haven't found any clue yet?
 [Map166]
@@ -7320,7 +7320,7 @@ Oh... \PN, it's you! I-I'm really happy you're here<<n>>to help us.<<n>>Wow, I'l
 <<[>>old<<]>>Io, pur essendo il proprietario di questa baracca, non sono mai stato un festaiolo, perciò mi limitavo ad osservare gli altri divertirsi, con un po' d'orgoglio nel cuore per ciò che avevo messo in piedi.
 <<[>>old<<]>>Despite being the owner of this shack, I've never been a partier, so I just used to watch others having fun, proudly enjoying the result of my efforts.
 <<[>>old<<]>>D'un tratto però, come un fulmine a ciel sereno, avvertii come un brivido lungo la schiena. Il mio spirito d'osservazione mi portò ad una scoperta sensazionale, quella sera... Vidi un'ombra che si celava in mezzo ai clienti del saloon... Un'ombra che ricordava un Pokémon...!
-<<[>>old<<]>>Suddenly, like a bolt from the blue, I felt a shiver down my spine. My observing spirit led me to find out something extraordinary that night... I saw a shadow hiding between the customers of the saloon...a shadow that resembled a Pokémon...!
+<<[>>old<<]>>Suddenly, like a bolt from the blue, I felt a shiver down my spine. My observing spirit led me to find out something extraordinary that night...\nI saw a shadow hiding between the customers of the saloon...\nA shadow that resembled a Pokémon...!
 <<[>>old<<]>>Da quel giorno, le giornate a lavoro non furono più le stesse...''
 <<[>>old<<]>>Ever since then, my working days have never been the same...''
 <<[>>old<<]>>Sembra che questa sia la prima pagina strappata da un diario...?
@@ -7340,7 +7340,7 @@ Use Box
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 [Map168]
 <<[>>old<<]>>Vuoi ritornare alla sala del saloon?
-<<[>>old<<]>>Do you want to get back to the saloon room?
+<<[>>old<<]>>Do you want to get back to the saloon hall?
 <<[>>old<<]>>Un'ombra...? Cosa la proietterà?
 <<[>>old<<]>>A shadow...? What could cast it?
 <<[>>old<<]>>Vuoi attivare il Registratore donato da Silvia?
@@ -7452,9 +7452,9 @@ Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
 <<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 <<[>>old<<]>>''Da quel momento, ogni giorno, aspettavo con ansia che quell'ombra facesse ritorno. Puntualmente, al calar della sera, ciò accadeva, con mio enorme stupore.
-<<[>>old<<]>>''Since then, everyday, I used to wait for that shadow to come back.\nAt nightfall, like clockwork, I was stunned to see this happening.
+<<[>>old<<]>>''Since then, everyday, I used to wait for that shadow to come back.\nAt nightfall, like clockwork, I was stunned to see\nthis happening.
 <<[>>old<<]>>Il mio animo era impaurito, ma al tempo stesso incuriosito da quella mistica presenza... Tuttavia, se la clientela fosse venuta al corrente che un Pokémon Spettro infestava il saloon durante le festicciole, sarebbe sicuramente scappata a gambe levate... Perciò, a notte fonda, quando non vi era più nessuno nel bar, decisi di suonare al pianoforte una vecchia canzone insegnatami da mio padre...
-<<[>>old<<]>>My soul was frightened and at the same time intrigued by that mysterious presence...\nHowever, if my clientele knew that a Ghost-type Pokémon was haunting the saloon during their parties, everyone would have never come back...\nSo, late at night, when no one was in the bar anymore, I started playing on the piano an old song I learnt from my father...
+<<[>>old<<]>>My soul was frightened and at the same time intrigued by that mysterious presence...\nHowever, if my clientele knew that a Ghost-type Pokémon was haunting the saloon during their parties, everyone would have never come back...\nSo, late at night, when no one was in the bar anymore, I started playing on the piano an old song\nI learnt from my father...
 <<[>>old<<]>>Preso dalla melodia, non mi accorsi che l'ombra si era mostrata ai miei occhi. Sarò sincero, a quel punto la paura superava la curiosità... Smisi perciò di suonare.
 <<[>>old<<]>>I was so lost in my melody that I didn't notice the shadow was showing itself to my eyes.\nI'll be frank, the fear overwhelmed my curiosity then...I stopped playing.
 <<[>>old<<]>>Però, facendomi forza, cercai di far capire a quel Pokémon che non avevo cattive intenzioni... La creatura d'ombra, come se leggesse il mio cuore, si tramutò improvvisamente, mostrando il suo reale aspetto! Nei suoi occhi si scorgeva ancora un po' di diffidenza, ma a poco a poco i nostri animi si avvicinarono...''
@@ -7473,21 +7473,21 @@ Oh, there you are! Do you want to play hide-and-seek<<n>>with me?
 <<[>>old<<]>>Will è stremato... Meglio lasciarlo riposare.
 <<[>>old<<]>>Will is exhausted... Better let him rest.
 <<[>>old<<]>>''Ogni giorno quel piccoletto faceva ritorno al saloon, dove aveva un pasto assicurato. Finalmente avevo trovato un nuovo amico. Ma poi...
-<<[>>old<<]>>''Everyday, the little one came to the saloon where it had an assured meal.\nFinally, I had found a new friend. But then...
+<<[>>old<<]>>''Everyday, the little one came to the saloon where\nit had an assured meal.\nFinally, I had found a new friend. But then...
 <<[>>old<<]>>Una sera, un gruppo di banditi accompagnato da tre Houndoom fece irruzione nel locale, facendo razzia degli averi miei e della clientela spaventatissima. Scorpiopoli è una città povera di Allenatori e non sapevo a chi chiedere aiuto, soprattutto per proteggere ad ogni costo quel Pokémon.
-<<[>>old<<]>>One night, a gang of outlaws alongside three Houndooms broke into the inn, raiding all my and my customers' money.\nWestar has never been the city of Trainers, so I didn't know who to ask for help, especially to protect at all costs that Pokémon.
+<<[>>old<<]>>One night, a gang of outlaws alongside three Houndooms broke into the inn, raiding all my and my customers' money.\nWestar has never been the city of Trainers,\nso I didn't know who to ask for help, especially to protect at all costs that Pokémon.
 <<[>>old<<]>>Tra la gente, una bambina, poco più che neonata, scoppiò in lacrime e uno degli Houndoom, stanco delle sue urla, si lanciò all'attacco della piccola. Non volevo assistere ad una scena così brutale, perciò chiusi gli occhi... Una volta riaperti però, vidi il Pokémon Buio gemente per terra...
-<<[>>old<<]>>Among the people, a newborn infant broke down in tears and one of the Houndoom, sick of that whining, attacked her.\nI didn't want to witness such a brutal scene, so I shut my eyes...\nOnce I opened them again, I saw the Dark Pokémon groaning on the floor...
+<<[>>old<<]>>Among the people, a newborn infant broke down in tears and one of the Houndoom, sick of that whining, attacked her.\nI didn't want to witness such a brutal scene,\nso I shut my eyes...\nOnce I opened them again, I saw the Dark Pokémon groaning on the floor...
 <<[>>old<<]>>Era stato il mio amico! Quel Pokémon dal buon cuore si era lanciato in difesa del saloon e della bambina! I tre banditi subito ordinarono un attacco simultaneo agli Houndoom che, però, vennero scaraventati via dalla piccola ombra in un batter d'occhio.
-<<[>>old<<]>>It was my friend! That kind-hearted Pokémon stood up for the saloon and that baby!\nThe three outlaws ordered their Houndooms a combined attack right away, but the small shadow threw them away in the blink of an eye.
+<<[>>old<<]>>It was my friend! That kind-hearted Pokémon stood up for the saloon and that baby!\nThe three outlaws ordered their Houndoom\na combined attack right away, but the small shadow threw them away in the blink of an eye.
 <<[>>old<<]>>I teppisti si diedero alla fuga e io cercai di tranquillizzare i clienti, raccontando loro l'accaduto... Era una liberazione poter finalmente parlare a qualcuno di quel Pokémon così legato al saloon!
 <<[>>old<<]>>The thugs cut and ran and so I tried to reassure the customers, telling them what really happened...\nIt was such a relief telling someone about that Pokémon strongly attached to the saloon!
 <<[>>old<<]>>Ma l'effetto non fu assolutamente quello sperato... Il pubblico, alla sola idea di essere stato per tutto quel tempo affiancato da uno spettro, rimase terrorizzato e scappò via...
 <<[>>old<<]>>But the outcome was not like I was expecting at all... The clientele, just by the idea that a ghost has been there for all that time, got terrified and fled...
 <<[>>old<<]>>Cercai di spiegare che quella creatura fosse innocua, ma niente da fare. Anche il mio amico, rattristito dalla scena, si nascose nella sua ombra... Da allora, i guadagni del saloon sono crollati e nessuno viene più a farci visita... Questo ricordo non è che un incubo che mi tormenta ogni notte ormai!
-<<[>>old<<]>>I tried explaining that creature was inoffensive, but I couldn't talk them out.\nEven my friend, saddened about the whole story, hid into its own shadow...\nSince then, the saloon income crashed and no one came by anymore...\nThis memory of mine now is nothing more than a nightmare that haunts my sleep!
+<<[>>old<<]>>I tried explaining that creature was inoffensive, but I couldn't talk them out.\nEven my friend, saddened about the whole story,\nhid into its own shadow...\nSince then, the saloon income crashed and no one came by anymore...\nThis memory of mine now is nothing more than\na nightmare that haunts my sleep!
 <<[>>old<<]>>Niente più canzoni, danze e bevute qui... È tutto così triste e silenzioso! Neanche lui è più tornato da me... mi è rimasta solo la solitudine, il mio peggior nemico...''
-<<[>>old<<]>>No more songs, no more dances nor drinks...everything is so sad and quiet here!\nNot even it came back...now it's only me and my worst enemy--the loneliness...''
+<<[>>old<<]>>No more songs, no more dances nor drinks...everything is so sad and quiet here!\nNot even it came back...now it's only me and\nmy worst enemy--the loneliness...''
 <<[>>old<<]>>Sembra che questa sia la terza pagina strappata da un diario...?
 <<[>>old<<]>>It looks like the third ripped page from a diary...?
 Bubù-settete!
@@ -7544,25 +7544,25 @@ Non hai più risorse, Whisteract... via dal mio corpo!!
 You have nothing to grab onto anymore,<<n>>Whisteract...get out of my body!!
 [Map172]
 <<[>>old<<]>>''Agosto.\nNeanche più un cliente da mesi... Dal terrazzo avvertii un boato proveniente dalla sala principale. Subito mi ci fiondai... l'avessi mai fatto! Il gruppetto di criminali aveva fatto ritorno coi rinforzi... Ma questa volta tra di loro c'era anche un uomo di mia conoscenza... il sindaco!
-<<[>>old<<]>>''August.\nNot even a single customer in months...\nI was on the rooftop, when I heard a roar coming from the main hall. I immediately ran there...I shouldn't have!\nThose gangsters came back with reinforcements... But this time there was a known face--the mayor!
+<<[>>old<<]>>''August.\nNot even a single customer in months...\nI was on the rooftop, when I heard a roar coming from the main hall. I immediately ran there...\nI shouldn't have!\nThose gangsters came back with reinforcements... But this time there was a known face--the mayor!
 <<[>>old<<]>><b>Negarg</b>, un politico corrotto dalla malavita di Eldiw, causa della crisi turistica della città di Scorpiopoli... perché era lì?
 <<[>>old<<]>><b>Gunther</b>, a corrupt politician of Eldiw's underworld--the man behind the tourist crisis of Westar City...why was he there?
 <<[>>old<<]>>Quell’uomo mi spiegò subito il suo intento: voleva vendicarsi dell'accaduto di qualche mese fa e fare suo quel Pokémon che spesso veniva qui al saloon! Non appena finì di parlare, lo Scarphasmo di uno dei teppisti mi assalì, mentre gli altri Pokémon distrussero quel che rimaneva del locale...
-<<[>>old<<]>>Quell’uomo mi spiegò subito il suo intento: voleva vendicarsi dell'accaduto di qualche mese fa e fare suo quel Pokémon che spesso veniva qui al saloon! Non appena finì di parlare, lo Scarphasmo di uno dei teppisti mi assalì, mentre gli altri Pokémon distrussero quel che rimaneva del locale...
+<<[>>old<<]>>He made it clear immediately: he had come to take his revenge for what happened a few months earlier and catch the Pokémon of the saloon!\nHe was done talking and one of the outlaws' Scarphasmo attacked me, while the other Pokémon started destroying what remained of my inn...
 <<[>>old<<]>>La Lacerazione mi aveva colpito in pieno, ma il mio dolore fisico era nulla in confronto alle piaghe del mio animo... Tutto ciò che avevo creato, tutti i ricordi felici, tutto era andato in fumo... Ero sul punto di svenire, quando... Tutti i Pokémon vennero lanciati via da un potentissimo attacco... Non poteva che essere lui, il mio amico!
-<<[>>old<<]>>La Lacerazione mi aveva colpito in pieno, ma il mio dolore fisico era nulla in confronto alle piaghe del mio animo... Tutto ciò che avevo creato, tutti i ricordi felici, tutto era andato in fumo... Ero sul punto di svenire, quando... Tutti i Pokémon vennero lanciati via da un potentissimo attacco... Non poteva che essere lui, il mio amico!
+<<[>>old<<]>>Slash hit me hard, but my physical pain was nothing compared to my inner wound...\nEverything I built, every happy memory, everything went up to smoke...\nI was about to pass out when...\nAll the Pokémon were thrown away by a powerful attack... It could be only it, my friend!
 <<[>>old<<]>>Negarg ordinò ai teppisti di lanciarsi all'attacco del piccolo Pokémon che, nonostante la stazza ridotta, era dotato di un'enorme forza. Era tornato per proteggermi, proprio come aveva fatto quella volta con quella bambina! Il sindaco, non avendo più scagnozzi, si ritirò e lui, ormai sfinito, cadde al suolo.
-<<[>>old<<]>>Negarg ordinò ai teppisti di lanciarsi all'attacco del piccolo Pokémon che, nonostante la stazza ridotta, era dotato di un'enorme forza. Era tornato per proteggermi, proprio come aveva fatto quella volta con quella bambina! Il sindaco, non avendo più scagnozzi, si ritirò e lui, ormai sfinito, cadde al suolo.
+<<[>>old<<]>>Gunther ordered his minions to attack the little Pokémon which, beside its small size, was really powerful.\nIt came back to protect me as it did with that child, months ago!\nThe mayor, out of henchmen, ran away and the little Pokémon fell on the floor exhausted.
 <<[>>old<<]>>Dovevo molto a quel Pokémon, perciò me ne presi cura per giorni, finché non si rimise del tutto. Intanto, l'intera città, ipnotizzata dalle sue chiacchiere, diede la caccia a quel Pokémon che si era macchiato del ''crimine'' di aver ferito quel bugiardo di Negarg. Non vi era altra soluzione... io e il piccoletto dovevamo abbandonare tutto e lasciare Scorpiopoli!
-<<[>>old<<]>>Dovevo molto a quel Pokémon, perciò me ne presi cura per giorni, finché non si rimise del tutto. Intanto, l'intera città, ipnotizzata dalle sue chiacchiere, diede la caccia a quel Pokémon che si era macchiato del ''crimine'' di aver ferito quel bugiardo di Negarg. Non vi era altra soluzione... io e il piccoletto dovevamo abbandonare tutto e lasciare Scorpiopoli!
+<<[>>old<<]>>I owed so much to that Pokémon, so I took care of it for days, until it got its health back.\nMeanwhile, the whole city, hypnotized by\nthe mayor's claptrap, started hunting the Pokémon\nthat committed the ''crime'' of hurting that liar of Gunther.\nI had no choice...the lil' one and I had to leave Westar City!
 <<[>>old<<]>>Svegliatosi dal suo coma, mi si avvicinò e una lacrima nera e densa solcò il suo viso... Non so se fosse per la tristezza o per la gioia di aver rivisto in me tutti i momenti felici del passato... ma era un ricordo indelebile del nostro legame!
-<<[>>old<<]>>Svegliatosi dal suo coma, mi si avvicinò e una lacrima nera e densa solcò il suo viso... Non so se fosse per la tristezza o per la gioia di aver rivisto in me tutti i momenti felici del passato... ma era un ricordo indelebile del nostro legame!
+<<[>>old<<]>>Waking up from its coma, it came closer to me and a thick black tear crossed its face...\nI don't know if it was sadness or happiness to see\nin me the good ol' days...all I know is that I witnessed the creation of an unforgettable memory of our bond!
 <<[>>old<<]>>Dopo di ciò, il Pokémon svanì nel nulla davanti ai miei occhi... Il mio amico forse desiderava che io non abbandonassi tutto ciò che avevo creato... E così è stato! Sono ormai vecchio e prossimo alla morte, perciò...
-<<[>>old<<]>>Dopo di ciò, il Pokémon svanì nel nulla davanti ai miei occhi...  Il mio amico forse desiderava che io non abbandonassi tutto ciò che avevo creato... E così è stato! Sono ormai vecchio e prossimo alla morte, perciò...
+<<[>>old<<]>>After that, the Pokémon vanished before my eyes...\nMy friend didn't want me to leave everything\nI had created...and so it was!\nI'm old now and death will soon come and visit me, so...
 <<[>>old<<]>>Vi prego! Voi che in futuro leggerete tra le pagine di questo diario, ho un'unica volontà da tramandarvi... Proteggete la boccetta della lacrima nera, conservata segretamente al piano terra... è l'anima di un Pokémon che ha dato tutto per difendere me e la mia amata città! Addio. Firmato: <b>Cempa</b>''
-<<[>>old<<]>>Vi prego! Voi che in futuro leggerete tra le pagine di questo diario, ho un'unica volontà da tramandarvi... Proteggete la boccetta della lacrima nera, conservata segretamente al piano terra... è l'anima di un Pokémon che ha dato tutto per difendere me e la mia amata città! Addio. Firmato: <b>Cempa</b>''
+<<[>>old<<]>>Please! I ask those of you who will read these words to respect my only remaining wish...\nKeep the bottle of the black tear safe--I've kept it hidden in the basement...\nIt represents the soul of a Pokémon that did everything to protect me and my beloved city!\nGoodbye.\n-<b>Chempo</b>''
 <<[>>old<<]>>Non vi sono altre pagine... Probabilmente è la fine del diario del proprietario del saloon...
-<<[>>old<<]>>Non vi sono altre pagine... Probabilmente è la fine del diario del proprietario del saloon...
+<<[>>old<<]>>There are no pages left... Maybe it's the finale of the saloon owner's diary...
 Hangead
 Hangead
 Hang...!
@@ -7711,9 +7711,9 @@ You'll know when ya grow up, sweetie...
 <<[>>old<<]>>In memoria di Machoke. Che possa riposare in pace.
 <<[>>old<<]>>In Machoke's memory. May it rest in peace.
 Claria
-Claria
+Claire
 Che tristezza mi fanno queste povere persone che hanno perduto i loro cari Pokémon...
-Che tristezza mi fanno queste povere persone che hanno perduto i loro cari Pokémon...
+All these people who lost their beloved Pokémon<<n>>make me so sad...
 <<[>>old<<]>>In memoria di Golduck. Che possa riposare in pace.
 <<[>>old<<]>>In Golduck's memory. May it rest in peace.
 Serafina
@@ -7798,57 +7798,57 @@ No
 No
 [Map179]
 <<[>>old<<]>>''L'unico modo per ottenere il Pass è compiere una serie di semplici mosse... Un passo a destra, quattro verso il basso, tre a sinistra e, infine, dritto verso il basso.''
-<<[>>old<<]>>''L'unico modo per ottenere il Pass è compiere una serie di semplici mosse... Un passo a destra, quattro verso il basso, tre a sinistra e, infine, dritto verso il basso.''
+<<[>>old<<]>>''The only way to get the next Pass is to perform a series of simple steps...\nA step to the left, four downwards, three to the left and finally straight downwards.''
 <<[>>old<<]>>Nulla di nulla...
-<<[>>old<<]>>Nulla di nulla...
+<<[>>old<<]>>Nothing at all...
 <<[>>old<<]>>''I quadri celano la soluzione all'enigma della stanza.''
-<<[>>old<<]>>''I quadri celano la soluzione all'enigma della stanza.''
+<<[>>old<<]>>''The paintings hide the solution to this puzzle.''
 <<[>>old<<]>>C'è uno strano pulsante... Vuoi premerlo?
-<<[>>old<<]>>C'è uno strano pulsante... Vuoi premerlo?
+<<[>>old<<]>>There is a strange button here... Do you want to press it?
 <<[>>old<<]>>Non succede nulla.
-<<[>>old<<]>>Non succede nulla.
+<<[>>old<<]>>Nothing happened.
 <<[>>old<<]>>Le bottiglie in basso a destra nascondono un passaggio segreto.
-<<[>>old<<]>>Le bottiglie in basso a destra nascondono un passaggio segreto.
+<<[>>old<<]>>The bottles on the lower right hide a secret passage. 
 <<[>>old<<]>>Quest'ampolla contiene uno strano liquido... Sarà meglio non toccarlo.
-<<[>>old<<]>>Quest'ampolla contiene uno strano liquido... Sarà meglio non toccarlo.
+<<[>>old<<]>>This flask contains a strange liquid... You should not touch it.
 <<[>>old<<]>>Sono solo scatoloni... O forse no...
-<<[>>old<<]>>Sono solo scatoloni... O forse no...
+<<[>>old<<]>>Just boxes here...or not.
 <<[>>old<<]>>''Non mi resta che dare un'occhiata alla libreria...''
-<<[>>old<<]>>''Non mi resta che dare un'occhiata alla libreria...''
+<<[>>old<<]>>''I can only check out the bookshelves...''
 <<[>>old<<]>>Un vecchio dipinto raffigurante un Uovo Pokémon... Che strano soggetto per un'opera d'arte...
-<<[>>old<<]>>Un vecchio dipinto raffigurante un Uovo Pokémon... Che strano soggetto per un'opera d'arte...
+<<[>>old<<]>>A old painting portraying a Pokémon Egg... What a strange subject for an artwork.
 TEMPO ESAURITO.\nNon sei riuscito a risolvere tutti gli enigmi. Sarai riportato all'entrata della palestra.
 TEMPO ESAURITO.\nNon sei riuscito a risolvere tutti gli enigmi. Sarai riportato all'entrata della palestra.
 <<[>>old<<]>>Gli scaffali impolverati sono colmi di libri sulla storia di Scorpiopoli.
-<<[>>old<<]>>Gli scaffali impolverati sono colmi di libri sulla storia di Scorpiopoli.
+<<[>>old<<]>>These dusty shelves are full of books about Westar City's history.
 <<[>>old<<]>>C'è qualcosa all'interno di questi scatoloni. Vuoi prenderlo?
-<<[>>old<<]>>C'è qualcosa all'interno di questi scatoloni. Vuoi prenderlo?
+<<[>>old<<]>>There is something inside this box. Would you like to take it?
 <<[>>old<<]>>Non si ruba!\nVorrai mica finire in galera...?
-<<[>>old<<]>>Non si ruba!\nVorrai mica finire in galera...?
+<<[>>old<<]>>Don't be a thief!\nDo you want to end up in jail...?
 <<[>>old<<]>>''Ho controllato questa maledetta stanza in lungo e in largo, ma non ho trovato nessuna soluzione!''
-<<[>>old<<]>>''Ho controllato questa maledetta stanza in lungo e in largo, ma non ho trovato nessuna soluzione!''
+<<[>>old<<]>>''I checked everything in this damn room, but I have found no solution to this puzzle!''
 <<[>>old<<]>>È molto pesante... Chissà, magari nasconde qualcosa sotto...
-<<[>>old<<]>>È molto pesante... Chissà, magari nasconde qualcosa sotto...
+<<[>>old<<]>>It is really heavy... There must be something hidden underneath...
 <<[>>old<<]>>Fuori di qui.
-<<[>>old<<]>>Fuori di qui.
+<<[>>old<<]>>Out of here.
 <<[>>old<<]>>Questo libro nasconde un pulsante segreto... Vuoi premerlo?
-<<[>>old<<]>>Questo libro nasconde un pulsante segreto... Vuoi premerlo?
+<<[>>old<<]>>There is a hidden button under this book... Do you want to press it?
 <<[>>old<<]>>Solo cianfrusaglie...
-<<[>>old<<]>>Solo cianfrusaglie...
+<<[>>old<<]>>Just odds and ends...
 <<[>>old<<]>>''Due passi avanti, uno indietro... Due passi avanti, uno indietro... Due passi avanti...''
-<<[>>old<<]>>''Due passi avanti, uno indietro... Due passi avanti, uno indietro... Due passi avanti...''
+<<[>>old<<]>>''Two steps forward, one step back...\nTwo steps forward, one step back...\nTwo steps forward...''
 <<[>>old<<]>>La cassaforte sembrerebbe aperta...
-<<[>>old<<]>>La cassaforte sembrerebbe aperta...
+<<[>>old<<]>>The safe is open...
 <<[>>old<<]>>''Il dipinto raffigurante uno spettro cela qualcosa... Ne sono sicuro!''
-<<[>>old<<]>>''Il dipinto raffigurante uno spettro cela qualcosa... Ne sono sicuro!''
+<<[>>old<<]>>''The painting portraying a ghost hides something... I'm sure about that!''
 <<[>>old<<]>>Questa botte contiene solo acqua...
-<<[>>old<<]>>Questa botte contiene solo acqua...
+<<[>>old<<]>>Just a barrel full of water...
 <<[>>old<<]>>''Questa stanza è maledetta! Non ci sto capendo più nulla!''
-<<[>>old<<]>>''Questa stanza è maledetta! Non ci sto capendo più nulla!''
+<<[>>old<<]>>''This room is cursed! It's driving me crazy!''
 <<[>>old<<]>>Sembrano comunissime ampolle... Serviranno a qualcosa?
-<<[>>old<<]>>Sembrano comunissime ampolle... Serviranno a qualcosa?
+<<[>>old<<]>>These look like normale flasks...or maybe not...
 Si
-Si
+Yes
 No
 No
 [Map180]
@@ -7884,9 +7884,9 @@ Ricorda che faccio il tifo per te, come sempre!
 Remember I'm always cheering for you!
 [Map181]
 Delia
-Delia
+Emma
 Il treno ha fischiato.
-Il treno ha fischiato.
+Where's that 3:10 train?
 Capotreno
 Conductor
 A-Aiuto...
@@ -7914,7 +7914,7 @@ This area is off-limit! <i>Bzz!</i>
 Ehi, ma tu non sarai mica l'umano|a di cui parlava il Colonnello?! Sterminare!! <i>Bzz!</i>
 Hey, you're the human the Colonel was talking about?! Exterminate!! <i>Bzz!</i>
 E-Errore
-E-Error
+E-Error.
 E-Errore.
 E-Error.
 <i>3---ERR--0R3. Bzz!</i>
@@ -7924,13 +7924,13 @@ DX4
 È di nuovo andato, maledizione! <i>Bzz!</i>
 Darn it! Defeated once again! <i>Bzz!</i>
 Assunta
-Assunta
+Quinn
 Il poppante non la pianta di frignare, ma forse una lotta lo calmerà!
-Il poppante non la pianta di frignare, ma forse una lotta lo calmerà!
+The knee-high keeps cryin', but maybe a battle will shut his yapper!
 Oh, s’è addormentato il pupo.
-Oh, s’è addormentato il pupo.
+Oh, he fell asleep.
 Guardalo, è una gioia mentre dorme.
-Guardalo, è una gioia mentre dorme.
+Look at my kin baby, he's such a 'nana puddin' when sleepin'.
 Tamara
 Dahlia
 Allora, i preparativi sono terminati?
@@ -7962,13 +7962,13 @@ N0P4
 <<[>>old<<]>>Quando un Pokémon si addormenta non può agire per tutta la durata del riposo. Tuttavia, una volta sveglio, non sarà più affetto dalle eventuali alterazioni di stato di cui soffriva prima.
 <<[>>old<<]>>While asleep, a Pokémon is not able to make a move during the whole rest. However, when it wakes up, it won't be affected by any previous status condition.
 Alisio
-Alisio
+Zeke
 Ma che combini?! Hai calpestato tutto il mio orticello!
-Ma che combini?! Hai calpestato tutto il mio orticello!
+Hey! Whatta heck ya doin'?! You're steppin' all over<<n>>my field!
 Per stavolta chiuderò un occhio.
-Per stavolta chiuderò un occhio.
+I'll turn a blind eye this time.
 Per stavolta chiuderò un occhio, ma che non si ripeta mai più!
-Per stavolta chiuderò un occhio, ma che non si ripeta mai più!
+I'll turn a blind eye this time, but it ain't gonna<<n>>happen again!
 Ehi, tu! Dove credi di andare? <i>Bzz!</i>
 Hey, you! Where do you think you're going? <i>Bzz!</i>
 <<[>>old<<]>>Non vorrai mica lasciar lì il Capotreno...
@@ -7980,11 +7980,11 @@ Hey, you! Where do you think you're going? <i>Bzz!</i>
 Claus
 Claus
 Vuoi prendere quell’oggetto laggiù, vero? L’ho visto prima io e non sono disposto a cedertelo tanto facilmente!
-Vuoi prendere quell’oggetto laggiù, vero? L’ho visto prima io e non sono disposto a cedertelo tanto facilmente!
+You wanna grab that item over there, right? I saw that first<<n>>and I'm not gonna let it be yours that easy!
 Il nostro duello ha deciso chi merita di accaparrarselo...
-Il nostro duello ha deciso chi merita di accaparrarselo...
+Our duel decided who's got the right to take it...
 Prendilo pure tu.
-Prendilo pure tu.
+It's yours, go ahead.
 <<[>>old<<]>>Stazione Ferroviaria di Scorpiopoli
 <<[>>old<<]>>Westar Railway Station
 N0P1
@@ -8008,48 +8008,52 @@ No
 Si
 Yes
 [Map182]
+Alan
+Laven
 Il cimitero di questa città mi riporta alla mente quell’oscura melodia che sentii da bambino...
-Il cimitero di questa città mi riporta alla mente quell’oscura melodia che sentii da bambino...
+The cemetery of this town makes me recall that creepy music<<n>>I listened to when I was a child...
 Capotreno
 Conductor
 Cosa ci fai ancora qui, giovane? Devi fermare quei farabutti prima che la combinino grossa!
-Cosa ci fai ancora qui, giovane? Devi fermare quei farabutti prima che la combinino grossa!
+What are you doing here, young one? You must stop<<n>>those scoundrels before they do something bad!
 Giovane, so che hai dato il massimo per evitare una tragedia e di questo te ne sono grato.
-Giovane, so che hai dato il massimo per evitare una tragedia e di questo te ne sono grato.
+Young one, I know you’ve done your best to prevent a tragedy and I’m grateful for that.
 Gomez
 Gomez
 Hanno posticipato la partenza... che sia successo qualcosa al treno?
-Hanno posticipato la partenza... che sia successo qualcosa al treno?
+They postponed the departure...did something happened?
 Selena
-Selena
+Sally
 Il Quasar Express ha un look decisamente vintage, ma monta un motore di trazione modernissimo, grazie al quale può raggiungere una velocità massima di 300 km/h... è una vera scheggia su rotaie!
-Il Quasar Express ha un look decisamente vintage, ma monta un motore di trazione modernissimo, grazie al quale può raggiungere una velocità massima di 300 km/h... è una vera scheggia su rotaie!
+The Quasar Express has such a vintage look,<<n>>but it runs a cutting-edge traction motor,<<n>>which lets it reach a max speed of 180 mph...it's like a bullet on rails!
+Geralda
+Whitney
 Ho visto degli strani tizi gironzolare per la stazione...
-Ho visto degli strani tizi gironzolare per la stazione...
+I saw some weird folks going around the station...
 [Map183]
 [Map184]
 B3N
 B3N
 Ho bisogno di un po’ di movimento per scaldare i motori! <i>Bzz!</i>
-Ho bisogno di un po’ di movimento per scaldare i motori! <i>Bzz!</i>
+I need some exercise to warm up my engines! <i>Bzz!</i>
 E-Errore.
 E-Error.
 <i>4CC1D3NT1! M1 S0N0 SURR1SC4LD4T0...!</i>
-<i>4CC1D3NT1! M1 S0N0 SURR1SC4LD4T0...!</i>
+<i>D4RN! 1 0V3RH34T3D MYS3LF...!</i>
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>The trash is empty.
 67U
 67U
 Impossibile! Non è consentito alcun accesso a questo vagone! <i>Bzz!</i>
-Impossibile! Non è consentito alcun accesso a questo vagone! <i>Bzz!</i>
+Impossible! Nobody's allowed to access this wagon! <i>Bzz!</i>
 Proverò a digerire quest’amara sconfitta con del <b>tè alla Mentalerba</b>, il preferito del Colonnello. <i>Bzz!</i>
-Proverò a digerire quest’amara sconfitta con del <b>tè alla Mentalerba</b>, il preferito del Colonnello. <i>Bzz!</i>
+I'll try to forget this defeat by drinking some <b>Mental Herb tea</b>, Colonel's favorite. <i>Bzz!</i>
 E3E
 E3E
 Mi sento il protagonista di un film western! <i>Bzz!</i>
-Mi sento il protagonista di un film western! <i>Bzz!</i>
+I feel like I'm in a wester movie! <i>Bzz!</i>
 Che finale tragico...!! <i>Bzz!</i>
-Che finale tragico...!! <i>Bzz!</i>
+What a tragic ending...!! <i>Bzz!</i>
 Alice
 Alice
 Accipicchia, hanno pensato proprio bene alla vigilanza, eh?
@@ -8114,9 +8118,9 @@ La senti anche tu? La OST di questo treno è un po’ troppo cupa... hic! Ci vor
 V3D3
 V3D3
 Sei tu l’idiota che m’ha portato ‘sta robaccia nera come petrolio?! <i>Bzz!</i>
-Sei tu l’idiota che m’ha portato ‘sta robaccia nera come petrolio?! <i>Bzz!</i>
+Are you the idiot that brought me this ink-looking junk?! <i>Bzz!</i>
 To’, riprenditi la tua robaccia! <i>Bzz!</i>
-To’, riprenditi la tua robaccia! <i>Bzz!</i>
+Here, take you garbage back! <i>Bzz!</i>
 Chissà, magari se mangiassi un seme super piccante, potrei sputare fuoco. <i>Bzz!</i> Potrei provare a chiederne uno allo <b>Scovile</b> del Colonnello! <i>Bzz!</i>
 Chissà, magari se mangiassi un seme super piccante, potrei sputare fuoco. <i>Bzz!</i> Potrei provare a chiederne uno allo <b>Scovile</b> del Colonnello! <i>Bzz!</i>
 [Map186]
@@ -8573,15 +8577,15 @@ What? You want to know who I am? And why?<<n>>You just need to know I'm cheering
 Jose
 Jose
 Due passi avanti, uno a destra... Due passi avanti, uno a sinistra... Dritto verso l’alto.
-Due passi avanti, uno a destra... Due passi avanti, uno a sinistra... Dritto verso l’alto.
+Two steps forwards, one to the right...<<n>>Two steps forwards, one to the left...<<n>>Straight upwards.
 ...
 ...
 Ochoa
 Ochoa
 Due passi avanti, due a destra... Cinque verso l’alto e infine tre a sinistra.
-Due passi avanti, due a destra... Cinque verso l’alto e infine tre a sinistra.
+Two steps forward, two to the right...<<n>>Five upwards and finally three to the left.
 Quando riusciremo a svignarcela da questo dannato posto, sarai il||la primo|a a passare sotto le nostre mani!
-Quando riusciremo a svignarcela da questo dannato posto, sarai il||la primo|a a passare sotto le nostre mani!
+When we'll finally slip out of this damn place, you'll be<<n>>our first target!
 <<[>>old<<]>>Per aprire la cella hai bisogno di un pass.
 <<[>>old<<]>>You need a specific pass to open this jail.
 <<[>>old<<]>>Vuoi utilizzare il pass?
@@ -8594,83 +8598,83 @@ No
 No
 [Map193]
 <<[>>old<<]>>La foto ritrae Isabelle Nostenfer. Sul retro c'è scritto qualcosa...
-<<[>>old<<]>>La foto ritrae Isabelle Nostenfer. Sul retro c'è scritto qualcosa...
+<<[>>old<<]>>The picture portrays Isabelle Nostenfer. There is something written on the back...
 <<[>>old<<]>>''Dopo anni di ricerca, penso di aver trovato finalmente la mia casa: la tenebrosa Scorpiopoli! -Isabelle''
-<<[>>old<<]>>''Dopo anni di ricerca, penso di aver trovato finalmente la mia casa: la tenebrosa Scorpiopoli! -Isabelle''
+<<[>>old<<]>>''After years of wandering, I think I've finally found my place--the gloomy Westar City!\n-Isabelle''
 <<[>>old<<]>>Sembrerebbe il vecchio manifesto di un criminale di Scorpiopoli...
 <<[>>old<<]>>It looks like an old wanted poster...
 <<[>>old<<]>>La foto è bruciacchiata, ma sul retro si riesce ancora a leggere qualcosa.
-<<[>>old<<]>>La foto è bruciacchiata, ma sul retro si riesce ancora a leggere qualcosa.
+<<[>>old<<]>>The picture is a bit scorched, but something can still be read on the back.
 <<[>>old<<]>>''Il Capopalestra Silvestro è riuscito a mettermi alle strette coi suoi Pokémon di tipo Ghiaccio. -C. Fire''
-<<[>>old<<]>>''Il Capopalestra Silvestro è riuscito a mettermi alle strette coi suoi Pokémon di tipo Ghiaccio. -C. Fire''
+<<[>>old<<]>>''That damn Gym Leader Brycen got me cornered with his Ice-type Pokémon.\n-C. Fire''
 <<[>>old<<]>>In foto, il sindaco Negarg è in compagnia di una banda di Mototeppisti. Il Pokémon al suo fianco è simile, ma non identico, a quelli accanto ai predoni...
-<<[>>old<<]>>In foto, il sindaco Negarg è in compagnia di una banda di Mototeppisti. Il Pokémon al suo fianco è simile, ma non identico, a quelli accanto ai predoni...
+<<[>>old<<]>>In the picture: mayor Gunther accompanied by a Biker gang. The Pokémon by his side is similar, but not identical, to the ones next to the raiders...
 <<[>>old<<]>>Uno scatto del Canyon Asteroide, firmato dal criminale Rod Aruka. C'è una scritta sul retro.
-<<[>>old<<]>>Uno scatto del Canyon Asteroide, firmato dal criminale Rod Aruka. C'è una scritta sul retro.
+<<[>>old<<]>>It is a picture of Sunflare Canyon signed by the criminal Rod Aruka. There is something written on the back.
 <<[>>old<<]>><b>Rod Aruka</b>, nato ad Azalina, Johto, scopre sin da piccolo la passione per la fotografia che lo condurrà, ben presto, ad Eldiw.
-<<[>>old<<]>><b>Rod Aruka</b>, nato ad Azalina, Johto, scopre sin da piccolo la passione per la fotografia che lo condurrà, ben presto, ad Eldiw.
+<<[>>old<<]>><b>Rod Aruka</b>, born in Azalea Town, in Johto region, was a photo enthusiast since childhood.\nSoon his passion brought him to Eldiw.
 <<[>>old<<]>>Esplorando l’intera regione col suo fido <b>Pokémon Buio</b>, un giorno assiste coi suoi occhi ad una rapina nel Casinò di Sagittopoli.
-<<[>>old<<]>>Esplorando l’intera regione col suo fido <b>Pokémon Buio</b>, un giorno assiste coi suoi occhi ad una rapina nel Casinò di Sagittopoli.
+<<[>>old<<]>>One day, during the exploration of the region alongside his loyal <b>Dark Pokémon</b>, he witnessed \na robbery in Vega's Casino.
 <<[>>old<<]>>Fotografando la scena del crimine, egli capisce di aver finalmente trovato il soggetto ideale per l’ambito scatto perfetto.
-<<[>>old<<]>>Fotografando la scena del crimine, egli capisce di aver finalmente trovato il soggetto ideale per l’ambito scatto perfetto.
+<<[>>old<<]>>While taking a picture of the crime scene,\nhe realized that he had found the ideal subject\nfor the highly coveted perfect shot.
 <<[>>old<<]>>Ormai ossessionato, Aruka si convince che per apprezzare al meglio i suoi scatti dev’essere egli stesso a compiere i crimini immortalati. La sua vita si trasforma perciò in un continuo susseguirsi di delitti che terminerà con l'arresto.
-<<[>>old<<]>>Ormai ossessionato, Aruka si convince che per apprezzare al meglio i suoi scatti dev’essere egli stesso a compiere i crimini immortalati. La sua vita si trasforma perciò in un continuo susseguirsi di delitti che terminerà con l'arresto.
+<<[>>old<<]>>So, a completely obsessed Aruka convinced himself that he had to commit crimes himself to better appreciate his own pictures.\nHis whole life thus became a perpetual crime which ended in his arrest.
 <<[>>old<<]>>Per la crudeltà dei suoi reati, Rod Aruka viene condannato all'ergastolo nella prigione di Scorpiopoli.
-<<[>>old<<]>>Per la crudeltà dei suoi reati, Rod Aruka viene condannato all'ergastolo nella prigione di Scorpiopoli.
+<<[>>old<<]>>As a result of his cruelty, Rod Aruka was sentenced to life in Westar's prison.
 <<[>>old<<]>>La foto ritrae il sindaco Negarg assieme ad una banda di Mototeppisti. C'è una scritta sul retro.
-<<[>>old<<]>>La foto ritrae il sindaco Negarg assieme ad una banda di Mototeppisti. C'è una scritta sul retro.
+<<[>>old<<]>>The picture portrays mayor Gunther with a Biker gang. There is something written on the back.
 <<[>>old<<]>><b>Negarg Moor</b> nasce nel Villaggio del Mare, Alola. La famiglia si trasferisce presto a Scorpiopoli, dove un piccolo Negarg, si dedica agli studi imprenditoriali.
-<<[>>old<<]>><b>Negarg Moor</b> nasce nel Villaggio del Mare, Alola. La famiglia si trasferisce presto a Scorpiopoli, dove un piccolo Negarg, si dedica agli studi imprenditoriali.
+<<[>>old<<]>><b>Gunther Moor</b> was born in Seafolk Village, Alola. Soon, his family moved to Westar City, where\na young Gunther applied himself to entrepreneurial studies.
 <<[>>old<<]>>Alla morte del padre, egli eredita la sua grossa ditta di Malasade e ne incrementa considerevolmente i guadagni. Ma ciò non basta a Moor...
-<<[>>old<<]>>Alla morte del padre, egli eredita la sua grossa ditta di Malasade e ne incrementa considerevolmente i guadagni. Ma ciò non basta a Moor...
+<<[>>old<<]>>After his father's death, he inherited the large Malasadas company and significantly increased\nthe earnings. But that was not enough for Moor...
 <<[>>old<<]>>Egli, infatti, lancia sul mercato delle Malasade preparate con una nuovissima ricetta. Le vendite subiscono una netta impennata... tutto è però dovuto all’ingrediente speciale che dà dipendenza agli acquirenti!
-<<[>>old<<]>>Egli, infatti, lancia sul mercato delle Malasade preparate con una nuovissima ricetta. Le vendite subiscono una netta impennata... tutto è però dovuto all’ingrediente speciale che dà dipendenza agli acquirenti!
+<<[>>old<<]>>Indeed, he released a new type of Malasada prepared with a brand-new recipe.\nThe sales sharply rose...but it was all\na result of a special addictive ingredient introduced\nin the recipe!
 <<[>>old<<]>>Moor, desideroso di gonfiarsi le tasche ancor di più, allarga il commercio del suo prodotto alle altre regioni, sfruttando le abilità mutaforma del suo <b>Pokémon rosso e nero</b>.
-<<[>>old<<]>>Moor, desideroso di gonfiarsi le tasche ancor di più, allarga il commercio del suo prodotto alle altre regioni, sfruttando le abilità mutaforma del suo <b>Pokémon rosso e nero</b>.
+<<[>>old<<]>>Moor, who wanted to get plenty of cash, decided to expand his commercial business to other regions, tricking everyone with the illusions created by his <b>gray and red Pokémon</b>.
 <<[>>old<<]>>Ormai considerato l’uomo più ricco di Eldiw, egli decide di entrare in politica, divenendo il nuovo sindaco di Scorpiopoli.
-<<[>>old<<]>>Ormai considerato l’uomo più ricco di Eldiw, egli decide di entrare in politica, divenendo il nuovo sindaco di Scorpiopoli.
+<<[>>old<<]>>By then, he was the richest Eldiwian citizen. He decided to get into politics and became Westar's new mayor.
 <<[>>old<<]>>Un cunicolo segreto... L'avrà scavato un prigioniero?
-<<[>>old<<]>>There's a secret tunnel... A prisoner must have dug it.
+<<[>>old<<]>>There is a secret tunnel... A prisoner must have dug it.
 <<[>>old<<]>>È la foto di un Pokémon... Potrebbe appartenere ad uno di questi Allenatori?
-<<[>>old<<]>>It's the picture of a Pokémon... May it belong to one of there Trainers?
+<<[>>old<<]>>It is the picture of a Pokémon...\nMay it belong to one of these Trainers here?
 <<[>>old<<]>>Lo scatto di un meraviglio paesaggio, firmato dal criminale Rod Aruka. Sul retro c'è scritto qualcosa...
-<<[>>old<<]>>Lo scatto di un meraviglio paesaggio, firmato dal criminale Rod Aruka. Sul retro c'è scritto qualcosa...
+<<[>>old<<]>>The picture of a breathtaking landscape signed by the criminal Rod Aruka. There is something written on the back...
 <<[>>old<<]>>''Consideratemi pure un criminale, ma ciò che faccio è arte pura. La mia non è più una semplice cella, ma un vero e proprio museo dove poter ammirare le mie adorate fotografie.
-<<[>>old<<]>>''Consideratemi pure un criminale, ma ciò che faccio è arte pura. La mia non è più una semplice cella, ma un vero e proprio museo dove poter ammirare le mie adorate fotografie.
+<<[>>old<<]>>''You can think of me as a criminal if you want, but what I do is pure art.\nThis room ain't just a jail cell--it's a real gallery where you can admire my beloved photos.
 <<[>>old<<]>>Futuri detenuti relegati in questa cella, lasciate che vi dia un'indicazione... Nella roccia in alto a destra si nasconde ciò che cercate. -Rod Aruka''
-<<[>>old<<]>>Futuri detenuti relegati in questa cella, lasciate che vi dia un'indicazione... Nella roccia in alto a destra si nasconde ciò che cercate. -Rod Aruka''
+<<[>>old<<]>>I got something to tell those who will be locked into this cell...\nThe rock at the top right hides what you're looking for.\n-Rod Aruka''
 <<[>>old<<]>>Uno scatto del Saloon Torobrado ai tempi d'oro... Un ritaglio di giornale è appiccicato sul retro.
-<<[>>old<<]>>Uno scatto del Saloon Torobrado ai tempi d'oro... Un ritaglio di giornale è appiccicato sul retro.
+<<[>>old<<]>>The picture of Wild Bull Saloon back to its golden age... There is newspaper clipping on the back.
 <<[>>old<<]>>''Carissimi cittadini, il presente Cempa, proprietario del Saloon Torobrado, è in possesso di un Pokémon pericoloso per l'ordine pubblico. Avendo a cuore la vostra incolumità, vi consigliamo di tenervi alla larga dal suddetto luogo, dove saranno svolti i dovuti accertamenti. -Vostro Negarg Moor''
-<<[>>old<<]>>''Carissimi cittadini, il presente Cempa, proprietario del Saloon Torobrado, è in possesso di un Pokémon pericoloso per l'ordine pubblico. Avendo a cuore la vostra incolumità, vi consigliamo di tenervi alla larga dal suddetto luogo, dove saranno svolti i dovuti accertamenti. -Vostro Negarg Moor''
+<<[>>old<<]>>''Dearest citizens, mister Chempo here, owner of Wild Bull Saloon, is hiding a Pokémon that represents a threat to public order.\nCaring for your safety, we suggest you to keep away from the aforementioned place, where we will make all the necessary enquiries.\n-Yours, Gunther Moor''
 Serafina
-Serafina
+Seraphina
 Dritto.
-Dritto.
+Head straight.
 Tu!
 You!
 <<[>>old<<]>>Lo scatto di un oggetto visibilmente prezioso trovato da Rod Aruka durante il suo viaggio. Il gioiello splende degli stessi colori del Pokémon al fianco del criminale...
-<<[>>old<<]>>Lo scatto di un oggetto visibilmente prezioso trovato da Rod Aruka durante il suo viaggio. Il gioiello splende degli stessi colori del Pokémon al fianco del criminale...
+<<[>>old<<]>>The picture of a very valuable item Rod Aruka found during his journey.\nThe precious stone and the Pokémon next to the criminal seem to share the same colors...
 <<[>>old<<]>>In foto si può vedere la criminale Isabelle Nostenfer in compagnia di uno spaventoso <b>Pokémon rosa e viola</b>.
-<<[>>old<<]>>In foto si può vedere la criminale Isabelle Nostenfer in compagnia di uno spaventoso <b>Pokémon rosa e viola</b>.
+<<[>>old<<]>>The photo shows the criminal Isabelle Nostenfer accompanied by her frightening <b>purple Pokémon</b>.
 <<[>>old<<]>>La foto ritrae Charles Fire insieme ad un <b>Pokémon di color nero e rosso</b>. Sul retro s'intravede una scritta resa illeggibile dal tempo...
-<<[>>old<<]>>La foto ritrae Charles Fire insieme ad un <b>Pokémon di color nero e rosso</b>. Sul retro s'intravede una scritta resa illeggibile dal tempo...
+<<[>>old<<]>>The picture portrays Charles Fire with a <b>black and red Pokémon</b>. There is something written on the back but time made it unreadable...
 <<[>>old<<]>>La foto ritrae Isabelle Nostenfer. C'è una scritta sul retro.
-<<[>>old<<]>>La foto ritrae Isabelle Nostenfer. C'è una scritta sul retro.
+<<[>>old<<]>>The picture portrays Isabelle Nostenfer. There is something written on the back.
 <<[>>old<<]>><b>Isabelle Nostenfer</b> nasce a Romantopoli, una calda e raffinata città nella regione di Kalos. Il suo incommensurabile fascino per l’occulto le vale sin da subito il soprannome di ''strega''.
-<<[>>old<<]>><b>Isabelle Nostenfer</b> nasce a Romantopoli, una calda e raffinata città nella regione di Kalos. Il suo incommensurabile fascino per l’occulto le vale sin da subito il soprannome di ''strega''.
+<<[>>old<<]>><b>Isabelle Nostenfer</b> was born in Laverre City,\na warm and charming city in Kalos.\nHer immeasurable fascination for the occult immediately gave her the nickname of ''witch''.
 <<[>>old<<]>>Allontanandosi da tutto e tutti, comincia a maturare una sola ossessione: la sua bellezza. Desiderosa di essere la più bella, comincia a far sparire nel nulla numerose ragazze...
-<<[>>old<<]>>Allontanandosi da tutto e tutti, comincia a maturare una sola ossessione: la sua bellezza. Desiderosa di essere la più bella, comincia a far sparire nel nulla numerose ragazze...
+<<[>>old<<]>>Isolated and away from everybody, she started to grow only one obsession: her appearance.\nShe desired to be the most beautiful, and so began to make more and more girls disappear...
 <<[>>old<<]>>Nel mentre, le sue indagini sul paranormale la portano a Scorpiopoli dove viene infine arrestata, non prima di aver tolto dalla piazza altre innumerevoli fanciulle...
-<<[>>old<<]>>Nel mentre, le sue indagini sul paranormale la portano a Scorpiopoli dove viene infine arrestata, non prima di aver tolto dalla piazza altre innumerevoli fanciulle...
+<<[>>old<<]>>Meanwhile, her investigation into the paranormal brought her to Westar City, where she was finally arrested--not before she got rid of countless other girls...
 <<[>>old<<]>>La foto ritrae l'arresto di Charles Fire. C'è una scritta sul retro.
-<<[>>old<<]>>La foto ritrae l'arresto di Charles Fire. C'è una scritta sul retro.
+<<[>>old<<]>>A picture of Charles Fire's arrest.\nThere is something written on the back.
 <<[>>old<<]>><b>Charles Fire</b>, pseudonimo di uno dei criminali più famosi della storia di Eldiw, ha origine ad Unima. Della sua vera identità, nonché della sua intera vita, si sa poco e nulla...
-<<[>>old<<]>><b>Charles Fire</b>, pseudonimo di uno dei criminali più famosi della storia di Eldiw, ha origine ad Unima. Della sua vera identità, nonché della sua intera vita, si sa poco e nulla...
+<<[>>old<<]>><b>Charles Fire</b>, pseudonym of one of Eldiw's most famous criminals, was born in Unova.\nLittle is known about his true identity, as well as about his entire life...
 <<[>>old<<]>>Fu uno spietato criminale che, assieme al suo <b>Pokémon nero e rosso</b>, fece piazza pulita di numerosi Allenatori. Una caratteristica contraddistingueva tutte le sue vittime: una ferita da Rogodenti marchiata a fuoco su di essi.
-<<[>>old<<]>>Fu uno spietato criminale che, assieme al suo <b>Pokémon nero e rosso</b>, fece piazza pulita di numerosi Allenatori. Una caratteristica contraddistingueva tutte le sue vittime: una ferita da Rogodenti marchiata a fuoco su di essi.
+<<[>>old<<]>>He was a ruthless criminal and made a clean sweep of many Trainers with his <b>black and red Pokémon</b>.\nAll his victims were marked with a mutual sign--\na Fire Fang wound seared on their bodies.
 <<[>>old<<]>>Non si hanno altre informazioni a riguardo.
-<<[>>old<<]>>Non si hanno altre informazioni a riguardo.
+<<[>>old<<]>>There is no further information about him.
 <<[>>old<<]>>A chi appartiene il Pokémon Houndoom?
 <<[>>old<<]>>Who does Houndoom belong to?
 Isabelle Nostenfer
@@ -8689,9 +8693,9 @@ Rod Aruka
 Maria
 Maria
 Due passi avanti, tre a sinistra... Due passi avanti, due a sinistra... Uno verso il basso, tre a sinistra... Dritto verso l'alto...
-Due passi avanti, tre a sinistra... Due passi avanti, due a sinistra... Uno verso il basso, tre a sinistra... Dritto verso l'alto...
+Two steps forward, three to the left...<<n>>Two steps forward, two to the left...<<n>>One downwards, three to the left...<<n>>Straight upwards…
 Fuori dai piedi! Hai rovinato il sogno di gloria delle sorelle Maria e Serafina!
-Fuori dai piedi! Hai rovinato il sogno di gloria delle sorelle Maria e Serafina!
+Get outta my way! You wrecked the dreams of glory of<<n>>the two sisters Maria and Seraphina!
 <<[>>old<<]>>È una statua del leggendario Pokémon Entei.
 <<[>>old<<]>>It's a statue of the legendary Pokémon Entei.
 <<[>>old<<]>>Inserisci la parola chiave.
@@ -11423,11 +11427,11 @@ Land doesn't belong to man, it's the man that belongs to her!
 Cletus
 Cletus
 Che diavolo ci fanno tutti questi tizi conciati da pennuti nella mia tenuta?! Dovete sloggiare!
-What are these dang bird-like people doing in my estate?!<<n>>You gotta scram!
+What are these dang bird-like people doin' in my estate?!<<n>>Ya'll gotta scram!
 Come sarebbe a dire che non è la mia tenuta...?
 Whaddya mean dis ain't my estate...?!
 Saprei riconoscere la mia tenuta fra mille!
-I'd know my estate anywhere!
+Darn tootin' it's my estate!
 [Map264]
 Marski
 Marski
@@ -12309,9 +12313,9 @@ Yes
 Mirto
 Otis
 La mia bella mi aspetta a casa, ma mica posso dire di no a una lotta!
-My sweetie gal wants me home, but I can never say no<<n>>to a battle, c'mon!
+My old lady wants me home, but I cain't say no<<n>>to a battle, c'mon!
 Se non mi do una mossa, quella mi riduce peggio di così!
-I'd better get a move now...or she'll rub me out!
+I'd better get a move now...or I'm gonna make her fit to be tied! 
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Ogni nuovo strumento viene inserito automaticamente nell'apposita Tasca della Borsa. Basati sul nome delle Tasche, quando vuoi usare uno strumento.
@@ -20563,17 +20567,17 @@ No
 No
 [Map559]
 Alisio
-Alisio
+Zeke
 Ma che combini?! Hai calpestato tutto il mio orticello!
-Ma che combini?! Hai calpestato tutto il mio orticello!
+Hey! Whatta heck ya doin'?! You're steppin' all over<<n>>my field!
 Per stavolta chiuderò un occhio.
-Per stavolta chiuderò un occhio.
+I'll turn a blind eye this time.
 Per stavolta chiuderò un occhio, ma che non si ripeta mai più!
-Per stavolta chiuderò un occhio, ma che non si ripeta mai più!
+I'll turn a blind eye this time, but it ain't gonna<<n>>happen again!
 Delia
-Delia
+Emma
 Il treno ha fischiato.
-Il treno ha fischiato.
+Where's that 3:10 train?
 <<[>>old<<]>>Su quest'insegna è possibile controllare le varie tappe del Quasar Express lungo il tragitto Scorpiopoli-Leopoli.
 <<[>>old<<]>>This sign shows all the different stops that the Quasar Express makes along the Westar-Hypelion route.
 <<[>>old<<]>>Quando un Pokémon si addormenta non può agire per tutta la durata del riposo. Tuttavia, una volta sveglio, non sarà più affetto dalle eventuali alterazioni di stato di cui soffriva prima.
@@ -20589,13 +20593,13 @@ Prendilo pure tu.
 <<[>>old<<]>>Stazione Ferroviaria di Scorpiopoli
 <<[>>old<<]>>Westar Railway Station
 Assunta
-Assunta
+Quinn
 Il poppante non la pianta di frignare, ma forse una lotta lo calmerà!
-Il poppante non la pianta di frignare, ma forse una lotta lo calmerà!
+The knee-high keeps cryin', but maybe a battle will shut his yapper!
 Oh, s’è addormentato il pupo.
-Oh, s’è addormentato il pupo.
+Oh, he fell asleep.
 Guardalo, è una gioia mentre dorme.
-Guardalo, è una gioia mentre dorme.
+Look at my kin baby, he's such a 'nana puddin' when sleepin'.
 [Map560]
 <<[>>old<<]>>Per Cascate Firmamento
 <<[>>old<<]>>Per Cascate Firmamento
@@ -44550,7 +44554,7 @@ Nicola
 Cristoforo
 Christopher
 Maria & Serafina
-Maria & Serafina
+Maria & Seraphina
 Ochoa & Jose
 Ochoa & Jose
 Albert
@@ -44584,11 +44588,11 @@ Jessica
 Emily
 Emily
 Assunta
-Assunta
+Quinn
 Matilda
 Matilda
 Alisio
-Alisio
+Zeke
 Fonco
 Fonco
 Mirto
@@ -55961,7 +55965,7 @@ Thanks for playing!
 La modalità moderna permette di avere un’esperienza più leggera,<<n>>con un sistema di esperienza più simile alle ultime generazioni.
 Exp. Points will be distributed to all of the Pokémon in the party. If you want an easier gameplay experience, Modern Mode is the perfect choice!
 La modalità classica permette di avere un’esperienza simile ai giochi delle vecchie generazioni, senza esperienza a tutta la squadra.
-Only the Pokémon that partecipate in the battle gains Exp. Points. If you want a more challenging gameplay experience, Classic Mode is what you need!
+Only the Pokémon that partecipate in the battle gain Exp. Points. If you want a more challenging gameplay experience, Classic Mode is what you need!
 Classic Mode
 Classic Mode
 Modern Mode
