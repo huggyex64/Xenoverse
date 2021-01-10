@@ -12225,7 +12225,7 @@ Secondo vari racconti, uno scienziato pazzo creò questa creatura unendo parti d
 (Forma Unità)\n Le zone più inquinate delle città brulicano di Chimaooze. Quando è in pericolo, chiama a raccolta tutti i suoi simili per debellare la minaccia.
 1080
 Agitando la coda, e' in grado di riprodurre il suono di qualsiasi strumento musicale. Una volta che ha ascoltato una melodia, non la scorda piu'.
-Può riprodurre alla perfezione il suono di qualsiasi strumento musicale. Quando memorizza una melodia, non lo scorda più per tutta la vita.
+Può riprodurre alla perfezione il suono di qualsiasi strumento musicale. Quando memorizza una melodia, non la scorda più per tutta la vita.
 1081
 Quando raggiunge un rapporto di assoluta fiducia col suo allenatore, gli permette di salirgli in groppa, per volare assieme grazie alle sue enormi orecchie.
 Spicca il volo spiegando le grandi orecchie come fossero ali. Respinge minaccioso chiunque invada il suo nido in alta montagna.
@@ -16581,7 +16581,7 @@ Chi la usa colpisce il bersaglio con lame fatte di forza psichica. Probabile bru
 Chi la usa colpisce il bersaglio con lame fatte di forza psichica. Probabile brutto colpo.
 459
 Chi la usa infligge danni a tutti i Pokémon dello stesso tipo che si trovano nelle vicinanze usando misteriose onde elettromagnetiche.
-Chi la usa infligge danni a tutti i Pokémon dello stesso tipo che si trovano nelle vicinanze usando misteriose onde elettromagnetiche.
+Chi la usa infligge danni a tutti i Pokémon dello stesso tipo nelle vicinanze usando misteriose onde elettromagnetiche.
 460
 Colpisce il bersaglio con un raggio speciale. Può anche confonderlo.
 Colpisce il bersaglio con un raggio speciale. Può anche confonderlo.
@@ -20231,7 +20231,7 @@ Rimedio che restituisce tutti i PS a un Pokémon e cura i suoi problemi di stato
 Rimedio che restituisce tutti i PS a un Pokémon e cura i suoi problemi di stato.
 222
 Rianima i Pokémon esausti e ricarica tutti i loro PS
-Rianima i Pokémon esausti e ricarica tutti i loro PS
+Rianima i Pokémon esausti e ricarica tutti i loro PS.
 223
 Rimedio spray. Sveglia un Pokémon addormentato.
 Rimedio spray. Sveglia un Pokémon addormentato.
@@ -20660,7 +20660,7 @@ Chi la usa s'ipnotizza per copiare ogni modifica alle statistiche del bersaglio.
 Chi la usa s'ipnotizza per copiare ogni modifica alle statistiche del bersaglio.
 365
 Chi la usa calpesta il terreno e scatena un terremoto che danneggia tutti i Pokémon nei paraggi e ne riduce anche la Velocità.
-Chi la usa calpesta il terreno e scatena un terremoto che danneggia tutti i Pokémon nei paraggi e ne riduce anche la Velocità.
+Chi la usa calpesta il terreno, scatenando un terremoto che danneggia tutti i Pokémon in campo e ne riduce la Velocità.
 366
 Chi la usa attacca il bersaglio con un soffio d'aria gelida. Brutto colpo assicurato.
 Chi la usa attacca il bersaglio con un soffio d'aria gelida. Brutto colpo assicurato.
