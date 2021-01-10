@@ -8862,11 +8862,11 @@ Use Box
 Dunkan
 Dunkan
 Spiacente, amico|a, ma qui non si entra. Stiamo lavorando a roba inedita!
-Spiacente, amico|a, ma qui non si entra. Stiamo lavorando a roba inedita!
+Sorry mate, but you won't get through here.<<n>>We're working on new stuff!
 Assistente
 Assistente
 Speriamo che il signor Daddy riesca a risolvere questa brutta situazione...
-Speriamo che il signor Daddy riesca a risolvere questa brutta situazione...
+I hope mr. Daddy will fix this bad situation...
 Max
 Max
 UAAARGH! S-Sì è lui! Ne sono certo! Ma quand'è diventato così... ENORME?!
@@ -8908,15 +8908,15 @@ Un Pokémon viola ha detto...?
 Mh! Un Pokémon viola...
 Mh! Un Pokémon viola...
 Leonardo
-Leonardo
+Leonard
 L’anno scorso, Daddy ha suonato nella mia città, ma me lo sono perso... Questa volta non farò lo stesso errore!
-L’anno scorso, Daddy ha suonato nella mia città, ma me lo sono perso... Questa volta non farò lo stesso errore!
+Daddy had performed in my city last year, but I missed it... I'm not gonna do the same this time!
 Quei dolcetti mi allettavano non poco... Fortuna che sono riuscita a trattenermi!
-Quei dolcetti mi allettavano non poco... Fortuna che sono riuscita a trattenermi!
+Those sweets were calling me...thank goodness I was able to help myself!
 Jasy
-Jasy
+Jayden
 La gente bigotta crede che i murales siano roba da vandali, ma non è affatto così. Qui a Leopoli, lasciare un graffito su un edificio, è come lasciare una traccia di sé nella città!
-La gente bigotta crede che i murales siano roba da vandali, ma non è affatto così. Qui a Leopoli, lasciare un graffito su un edificio, è come lasciare una traccia di sé nella città!
+Close-minded people believe that graffiti are vandals' stuff,<<n>>but that ain't true.<<n>>When you leave graffiti here in Hypelion, you do nothing<<n>>but leave your indelible sign in the city!
 <<[>>old<<]>>Qui c'è solo spazzatura.
 <<[>>old<<]>>Just garbage here.
 <<[>>old<<]>>La porta sembrerebbe chiusa a chiave...
@@ -8924,17 +8924,17 @@ La gente bigotta crede che i murales siano roba da vandali, ma non è affatto co
 Terence
 Terence
 Ho deciso che andrò a correre tutti i giorni d’ora in poi. Vedrai che figurino quest’estate!
-Ho deciso che andrò a correre tutti i giorni d’ora in poi. Vedrai che figurino quest’estate!
+I'm going to run everyday from now on.<<n>>You'll see, this summer I'll be a real model!
 Colton
 Colton
 Ho perso i miei occhiali all’ultimo grido mentre sfrecciavo su e giù per la città.
-Ho perso i miei occhiali all’ultimo grido mentre sfrecciavo su e giù per la città.
+I was zoomin' by on my board up and down the block...<<n>>and I lost my groovy glasses! 
 <<[>>old<<]>>Casa degli ospiti
 <<[>>old<<]>>Guest House
 Marlon
 Marlon
 Ma perché tocca sempre a me buttare l’immondizia?!
-Ma perché tocca sempre a me buttare l’immondizia?!
+I'm sick of being the one always has to take out<<n>>the garbage!
 Oh, ma guarda chi si rivede! \PN, sei proprio tu! Ti ricordi di me, il tuo fan numero uno, vero?
 Oh, ma guarda chi si rivede! \PN, sei proprio tu! Ti ricordi di me, il tuo fan numero uno, vero?
 Beh, ad ogni modo, benvenuto|a a <b>Leopoli</b>, il paradiso della musica! Se il mio fiuto non mente, direi che sei giunto|a in questa città per accaparrarti una nuova Medaglia... Mi sbaglio?
@@ -8970,11 +8970,11 @@ Non potrò vederti all'opera e fare il tifo per te, ma una scorpacciata me la fa
 Jacob
 Jacob
 Seguo Daddy fin dal suo primo disco. Quello sì che era rap!
-Seguo Daddy fin dal suo primo disco. Quello sì che era rap!
+I've been following Daddy since his first album.<<n>>Now that was rap!
 Arianna
-Arianna
+Audrey
 Non ho un gran senso dell’orientamento, ma i murales mi danno una mano a non perdermi.
-Non ho un gran senso dell’orientamento, ma i murales mi danno una mano a non perdermi.
+I don't have the best sense of direction, but graffiti<<n>>help me not to get lost.
 <<[>>old<<]>>Stanno discutendo dell'accaduto.
 <<[>>old<<]>>Stanno discutendo dell'accaduto.
 Oh, \PN! Per poco non mi piombavi in testa!
@@ -8988,19 +8988,19 @@ Sarà senza dubbio merito tuo! Ti ringrazio di cuore a nome della città!
 Ora che la minaccia è stata sventata potrai misurarti contro il signor Daddy... Ma prima, faresti meglio a prestare cure ai tuoi Pokémon. La sfida in Palestra richiede il massimo delle forze!
 Ora che la minaccia è stata sventata potrai misurarti contro il signor Daddy... Ma prima, faresti meglio a prestare cure ai tuoi Pokémon. La sfida in Palestra richiede il massimo delle forze!
 <<[>>old<<]>><b>Leopoli</b>\n<i>''Il paradiso della musica e dell'arte di strada!''</i>
-<<[>>old<<]>><b>Leopoli</b>\n<i>''Il paradiso della musica e dell'arte di strada!''</i>
+<<[>>old<<]>><b>Hypelion City</b>\n<i>''Il paradiso della musica e dell'arte di strada!''</i>
 Clarissa
-Clarissa
+Marissa
 A questa città manca solo un bello skate-park per essere perfetta.
-A questa città manca solo un bello skate-park per essere perfetta.
+This city only needs a skate-park to be perfect.
 Nicholas
-Nicholas
+Nicholson
 La musica di quel giovanotto mi fa proprio tornare nel fiore degli anni. Yo!
-La musica di quel giovanotto mi fa proprio tornare nel fiore degli anni. Yo!
+This dude's music brings me back to my prime. Yeah!
 Lavinia
-Lavinia
+Aubree
 E tu lo segui Daddy su Instagram?
-E tu lo segui Daddy su Instagram?
+D'ya follow Daddy on Instagram too?
 <<[>>old<<]>>Non c'è niente...
 <<[>>old<<]>>There's nothing here...
 <<[>>old<<]>>Stazione Ferroviaria di Leopoli
@@ -9010,51 +9010,51 @@ Joseph
 Prendi posto, amico|a. Stiamo per iniziare!
 Prendi posto, amico|a. Stiamo per iniziare!
 Doveva essere un gran giorno e invece guarda tu che disastro...
-Doveva essere un gran giorno e invece guarda tu che disastro...
+It should've been a great day but turned out to be<<n>>a real mess, instead...
 Anna
-Anna
+Everly
 No! Non così, maledetto zuccone! Uno-due, uno-due e poi tre!
-No! Non così, maledetto zuccone! Uno-due, uno-due e poi tre!
+No! Not like that, you freakin' bonehead! One-two, one-two and then three!
 <<[>>old<<]>>Scatta una foto con questo cartonato di MegaLopunny e postala su Instagram... e non scordare di taggarci!
-<<[>>old<<]>>Scatta una foto con questo cartonato di MegaLopunny e postala su Instagram... e non scordare di taggarci!
+<<[>>old<<]>>Take a pic with this MegaLopunny cutout and post it on Instagram...and don't forget to tag us!
 \PN, eccoti finalmente! Fa' presto, sta per cominciare!
 \PN, eccoti finalmente! Fa' presto, sta per cominciare!
 Luna
 Luna
 Lo streetwear esposto in vetrina è davvero figo, peccato solo che costi uno sfacelo...
-Lo streetwear esposto in vetrina è davvero figo, peccato solo che costi uno sfacelo... 
+The streetwear in that showcase is pretty cool!<<n>>Too bad it costs an arm and leg...
 Connor
 Connor
 Credo proprio che la breakdance non faccia per me...
-Credo proprio che la breakdance non faccia per me...
+Not sure breakdancing's for me...
 Pronto|a per l'evento?
 Pronto|a per l'evento?
 Leo
 Leo
 ''Quel che volevo io l’ho realizzato, ora confondo realtà con ciò che ho sognato''... Questa è una delle mie rime preferite di Daddy.
-''Quel che volevo io l’ho realizzato, ora confondo realtà con ciò che ho sognato''... Questa è una delle mie rime preferite di Daddy.
+''All I've ever wanted, I achieved it,<<n>>now it's life and dream that I can't split''...<<n>>It's one of my favourite Daddy bars.
 Stella
 Stella
 Ogni pezzo di Daddy è così orecchiabile che non posso fare a meno di canticchiarlo!
-Ogni pezzo di Daddy è così orecchiabile che non posso fare a meno di canticchiarlo!
+Each Daddy's track is so catchy that I can't help<<n>>humming it!
 Roman
 Roman
 Ehi, cerchi rogne?!
-Ehi, cerchi rogne?!
+Hey, ya looking for trouble?!
 Quinn
 Quinn
 Quanto ci mette questo autobus?
-Quanto ci mette questo autobus?
+The bus is late again.
 <<[>>old<<]>>La Palestra è chiusa oggi.
 <<[>>old<<]>>The Gym is closed today.
 Sally
 Sally
 Alle stelle si giunge attraverso aspri sentieri... E queste sull'asfalto sono il simbolo degli sforzi di Daddy!
-Alle stelle si giunge attraverso aspri sentieri... E queste sull'asfalto sono il simbolo degli sforzi di Daddy!
+You can only reach for the stars through hardships...<<n>>and these are a symbol of Daddy's efforts!
 Sarah
 Sarah
 Ci credi che Daddy un tempo era povero? Sul serio, rubava nei Pokémon-Market per mantenersi!
-Ci credi che Daddy un tempo era povero? Sul serio, rubava nei Pokémon-Market per mantenersi!
+Can you believe that Daddy was poor once? I mean,<<n>>he used to steal from Poké Marts for a livin'!
 [Map198]
 <<[>>old<<]>>Vuoi riposarti?
 <<[>>old<<]>>Would you like to rest?
@@ -9078,53 +9078,57 @@ No
 Rick
 Rick
 Lucido la mia pelata ogni giorno per essere sempre impeccabile. Avrò perso i capelli, ma non lo stile!
-Lucido la mia pelata ogni giorno per essere sempre impeccabile. Avrò perso i capelli, ma non lo stile!
+I've been waxing my scalp every day to be flawless.<<n>>I may have lost my hair but not my style!
 Margarita
 Margarita
 Laverò questi piatti così a fondo da farli luccicare più della zucca del pelato!
-Laverò questi piatti così a fondo da farli luccicare più della zucca del pelato!
+I'm gonna make these dishes shine brighter<<n>>than his scalp head!
 [Map200]
 <<[>>old<<]>>È un Nintendo Switch. All'interno c'è un gioco: ''The Legend of Excalibould''.
 <<[>>old<<]>>It's a Nintendo Switch. There's a game in the slot: ''The Legend of Excalibould''.
 Adela
 Adela
 Wallace Daddy adora l’oro alla follia! Chissà se potrebbe piacergli questo...
-Wallace Daddy adora l’oro alla follia! Chissà se potrebbe piacergli questo...
+Wallace Daddy has a real gold addiction!<<n>>Do you think he'd like something like this?
 Non mi sorprenderei se avesse anche dei Pokémon tutti dorati.
-Non mi sorprenderei se avesse anche dei Pokémon tutti dorati.
+Wouldn't be surprised if he had golden Pokémon too.
 <<[>>old<<]>>La TV sta trasmettendo uno speciale servizio su Wallace Daddy.
 <<[>>old<<]>>There's a feature on Wallace Daddy on TV.
 [Map201]
 Olivia
 Olivia
 Daddy non è semplicemente un cantante da record, è anche un uomo di spettacolo e un modello!
-Daddy non è semplicemente un cantante da record, è anche un uomo di spettacolo e un modello!
+Daddy's not only a record-breaking singer, but also<<n>>a showman and a model!
+Miriam
+Kylie
 Se vuoi che il tuo <b>Eevee</b> abbia la voce soave e cristallina di un <b>Bandeon</b>, dovrai insegnargli una certa mossa di tipo Suono.
-Se vuoi che il tuo <b>Eevee</b> abbia la voce soave e cristallina di un <b>Bandeon</b>, dovrai insegnargli una certa mossa di tipo Suono.
+If you want your <b>Eevee</b> to have <b>Bandeon</b>'s gentle voice, you need to teach it a specific Sound-type move.
 [Map202]
 Diana
-Diana
+Diane
 Sigh... Il mio fidanzato pensa più a Wallace Daddy che a me...
-Sigh... Il mio fidanzato pensa più a Wallace Daddy che a me...
+Sigh...my boyfriend thinks more about Wallace Daddy<<n>>than me now...
 Sigh... Il mio ragazzo pensa più a Wallace Daddy che a me ormai...
-Sigh... Il mio ragazzo pensa più a Wallace Daddy che a me ormai...
+Sigh...my boyfriend thinks more about Wallace Daddy<<n>>than me now...
 James
 James
 La TV ha smesso di funzionare proprio ora che davano il servizio sull’album di Daddy!!
-La TV ha smesso di funzionare proprio ora che davano il servizio sull’album di Daddy!!
+Jeez! TV's stopped working just when the report about<<n>>Daddy's new album is on!
 [Map203]
 Gordon
 Gordon
 Ti va di vedere la mia collezione di vinili?
-Ti va di vedere la mia collezione di vinili?
+D'ya want to see my vinyl collection?
 Evvai! Allora vediamo un po’ cos’abbiamo qui...
-Evvai! Allora vediamo un po’ cos’abbiamo qui...
+Hooray! Now, let's see what we got here...
+''Dalle stalle alle stelle''... ''Sole rosso''... ''In Branco''... ''Fari Puntati''... ''Savana''... ''Re della Giungla''...
+''Rags to Riches''...''Red Sun''...<<n>>''All Lightz On Me''...''Top Dawg''...<<n>>''Savage''...''King of the Jungle''...
 ... e per finire questa splendida MT24, ma prendila pure tu per essermi stato|a ad ascoltare!
-... e per finire questa splendida MT24, ma prendila pure tu per essermi stato|a ad ascoltare!
+...and finally this wonderful TM24, but you can have it<<n>>for listening to me!
 Uff, prima o poi troverò qualcuno che apprezzi i vinili come me...
-Uff, prima o poi troverò qualcuno che apprezzi i vinili come me...
+Phooey, I'll find another vinyl lover like me some day...
 Alla mia collezione manca solo il rarissimo vinile di ''Indigeno''...!
-Alla mia collezione manca solo il rarissimo vinile di ''Indigeno''...!
+I only need the extra-rare ''Native'' vinyl<<n>>to complete my collection...!
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>The trash is empty.
 Sì
@@ -9133,55 +9137,57 @@ No
 No
 [Map204]
 Salvador
-Salvador
+Bradley
 Yo anche a te, amico|a! Prendi un po’ qui, dai!
-Yo anche a te, amico|a! Prendi un po’ qui, dai!
+Hey ya, mate! Take this, c'mon!
 Io e la mia mogliettina siamo venuti fin qui solo per il concerto di Wallace Daddy! Non sto più nella pelle!
-Io e la mia mogliettina siamo venuti fin qui solo per il concerto di Wallace Daddy! Non sto più nella pelle!
+My wifey and I have come all the way up here for<<n>>Wallace Daddy's concert! I'm gettin' antsy!
 Raquel
-Raquel
+Alexa
 Uffa, io non ci volevo nemmeno venire qui per sentire ‘sta musica...
-Uffa, io non ci volevo nemmeno venire qui per sentire ‘sta musica...
+Oof, I don't even like this trash music...
 [Map205]
 Neil
 Neil
 Su questo brano ci starebbe proprio bene un flauto... Tu sai suonarlo?
-Su questo brano ci starebbe proprio bene un flauto... Tu sai suonarlo?
+A flute would be perfect on this track...can you play it?
 Ho già scartato montagne di brani... Forse sono un po’ troppo stacanovista...
-Ho già scartato montagne di brani... Forse sono un po’ troppo stacanovista...
+I've already rejected tons of tracks...maybe I'm a little<<n>>too perfectionist...
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>The trash is empty.
 [Map206]
 Tom
 Tom
 Questa è la Galleria dell’arte di strada, uno spazio a disposizione di chiunque voglia dilettarsi coi graffiti!
-Questa è la Galleria dell’arte di strada, uno spazio a disposizione di chiunque voglia dilettarsi coi graffiti!
+This is the Street Art Gallery, a space available for everyone who wanna dabble with graffiti!
 <<[>>old<<]>>Kekeke!
 <<[>>old<<]>>Kekeke!
 Denver
 Denver
 Che strano, sembra che alcuni murales si siano spostati... Bah, sarà solo un'impressione!
-Che strano, sembra che alcuni murales si siano spostati... Bah, sarà solo un'impressione!
+That's really weird...it seems like some graffiti have moved somewhere else...meh, maybe it's just a hunch!
 Madison
 Madison
 Accidenti! Prima avevo mille idee per la testa e ora zero ispirazione...!
-Accidenti! Prima avevo mille idee per la testa e ora zero ispirazione...!
+Jeez! I had so many ideas before...and now I have<<n>>no inspiration...!
+Cos’è che diceva sempre il maestro...? ''Quando non sai che soggetto ritrarre, ripiega sempre sulla frutta!''!
+What did the art teacher always say? ''When you have no idea on what to draw, fall back on fruits!''!
 Se solo avessi un bel frutto da ritrarre...
-Se solo avessi un bel frutto da ritrarre...
+If only I had a nice fruit to sketch...
 Ehi, quella tua <b>Baccamela Caramellata</b> sarebbe un soggetto perfetto per un murales! Ti sarei grata a vita se me la dessi.
-Ehi, quella tua <b>Baccamela Caramellata</b> sarebbe un soggetto perfetto per un murales! Ti sarei grata a vita se me la dessi.
+Hey, that <b>Candy Leppa Berry</b> you have there would be the perfect subject for a graffiti!<<n>>I'd be grateful my whole life if you gave it to me.
 <<[>>old<<]>>Vuoi aiutare Madison col suo murales?
-<<[>>old<<]>>Vuoi aiutare Madison col suo murales?
+<<[>>old<<]>>Would you like to help Madison with her graffiti?
 Sei davvero gentile, bro|||sis!
-Sei davvero gentile, bro|||sis!
+You sure are a darlin', bro|||sis!
 Ti faccio un bel regalo anch’io, dai!
-Ti faccio un bel regalo anch’io, dai!
+I'll give ya something special too!
 Qui, un <b>autografo di Daddy</b> è come un portafortuna, ma posso sempre chiedergliene un altro! Eh eh!
-Qui, un <b>autografo di Daddy</b> è come un portafortuna, ma posso sempre chiedergliene un altro! Eh eh!
+Here <b>Daddy's Autograph</b>'s like a lucky charm, but I can ask him for a new one! Heh heh!
 Avrei saputo come sdebitarmi, ma va bene...
-Avrei saputo come sdebitarmi, ma va bene...
+I could've made it up to you, but whatever...
 Grazie al tuo regalo sento che la mia ispirazione sta già tornando!
-Grazie al tuo regalo sento che la mia ispirazione sta già tornando!
+Thanks to your gift I feel my inspiration's<<n>>comin' back already!
 Sì
 Yes
 No
@@ -9190,28 +9196,28 @@ No
 Lily
 Lily
 Organizzare il matrimonio mi sta mandando ai pazzi!
-Organizzare il matrimonio mi sta mandando ai pazzi!
+This wedding planning is drivin' me crazy!
 Barney
 Barney
 Ho sempre voluto vedere coi miei occhi un Pokémon leggen... non ti muovere... dario! Leggendario!
-Ho sempre voluto vedere coi miei occhi un Pokémon leggen... non ti muovere... dario! Leggendario!
+The Pokémon I've always wanted to see is<<n>>legen--wait for it--dary! Legendary!
 Robin
 Robin
 Trasferirmi a Leopoli è stata la cosa migliore che potessi fare. Ho trovato dei grandi amici qui!
-Trasferirmi a Leopoli è stata la cosa migliore che potessi fare. Ho trovato dei grandi amici qui!
+Moving to Hypelion was the best thing I could've done.<<n>>I found great friends here!
 <<[>>old<<]>>Non c'è niente...
 <<[>>old<<]>>There's nothing here...
 Marshall
 Marshall
 I miei amici hanno organizzato un intervento per me... io lo adoravo quel cappello!
-I miei amici hanno organizzato un intervento per me... io lo adoravo quel cappello!
+My friends arranged an intervention for me...I loved<<n>>that hat!
 [Map208]
 <<[>>old<<]>>È un Nintendo Switch. All'interno c'è un gioco: ''Vroombug Kart 8''.
 <<[>>old<<]>>It's a Nintendo Switch. There's a game in the slot: ''Vroombug Kart 8''.
 Ted
 Ted
 Chissà se troverò mai l’anima gemella...
-Chissà se troverò mai l’anima gemella...
+Shall I ever meet my soulmate?
 <<[>>old<<]>>È una Baccananas... Ma che ci fa su una scrivania?
 <<[>>old<<]>>It's a Pinap Berry... Why is it on the desk?
 <<[>>old<<]>>Vuoi prenderla?
@@ -9997,63 +10003,63 @@ L’aereo è fantastico! In giornata, ti permette di passare dal clima mite di E
 L’aereo è fantastico! In giornata, ti permette di passare dal clima mite di Eldiw a quello tropicale di Alola.
 [Map220]
 Fonco
-Fonco
+Billy
 Lo sapevo che prima o poi quel dannato ferro vecchio mi avrebbe rovinato il raccolto!
-Lo sapevo che prima o poi quel dannato ferro vecchio mi avrebbe rovinato il raccolto!
+Darn tootin'! I knew that dang piece of junk woulda<<n>>torn up my harvest!
 Le mie splendide piantine di Baccamodoro...
-Le mie splendide piantine di Baccamodoro...
+My poor Tamato Berries look like somethin' the cat dragged in...
 Le mie splendide piantine di Baccamodoro... sigh!
-Le mie splendide piantine di Baccamodoro... sigh!
+My poor Tamato Berries look like somethin' the cat<<n>>dragged in...sigh!
 Massimo
-Massimo
+Dawson
 Noi Montanari siamo fisicamente più robusti perché siamo moralmente più puri!
-Noi Montanari siamo fisicamente più robusti perché siamo moralmente più puri!
+I took a walk in the woods and came out taller than trees!
 Ogni scusa è buona per non mettersi a dieta... sigh!
-Ogni scusa è buona per non mettersi a dieta... sigh!
+Woah! You're the highest tree I've ever come across!
 Peter
-Peter
+Goodman
 Con quest’<b>Amo Buono</b> pescare è tutta un’altra storia!
-Con quest’<b>Amo Buono</b> pescare è tutta un’altra storia!
+Fishing is a whole different story with this<<n>><b>Good Rod</b>!
 Come dici? Non hai un Amo Buono? Come puoi considerarti un Pescatore allora?
-Come dici? Non hai un Amo Buono? Come puoi considerarti un Pescatore allora?
+Excuse me? You don't have a Good Rod?! How can you consider yourself a Fisher then?
 Facciamo così! Se mi farai vedere un <b>Kidoon</b> bello grosso, te ne darò uno.
-Facciamo così! Se mi farai vedere un <b>Kidoon</b> bello grosso, te ne darò uno.
+OK, here's the deal! You show me a really big <b>Kidoon</b> and I give you one.
 Allora, mi hai portato un bel Kidoon?
-Allora, mi hai portato un bel Kidoon?
+So, did you bring me a nice Kidoon?
 Oh, allora vediamo un po'. Che colori sgargianti... hai trovato proprio un bell'esemplare, sai?
-Oh, allora vediamo un po'. Che colori sgargianti... hai trovato proprio un bell'esemplare, sai?
+Oh, lemme see. Look at these bright colors...<<n>>You caught a really good Kidoon, y'know?
 Un Pescatore mantiene sempre la parola data, perciò ecco a te ciò che ti avevo promesso.
-Un Pescatore mantiene sempre la parola data, perciò ecco a te ciò che ti avevo promesso.
+A Fisher always keeps his word, so here's what I promised you.
 Buon divertimento, giovane pescatore!
-Buon divertimento, giovane pescatore!
+Have fun, young Fisher!
 Capisco, ancora niente. Beh, fa’ pure con calma, tanto io da qui non mi schiodo.
-Capisco, ancora niente. Beh, fa’ pure con calma, tanto io da qui non mi schiodo.
+Still nothing, huh? Well, go ahead and take your time,<<n>>I'm not going anywhere.
 Con quest'Amo Buono, la pesca è tutta un'altra storia, vero?
-Con quest'Amo Buono, la pesca è tutta un'altra storia, vero?
+Fishing is a whole different story with this Good Rod,<<n>>isn't it?
 <<[>>old<<]>>Pare che il Pokémon Emularva <b>Masgot</b> talvolta si aggiri nei Nidi dei Pokémon di cui si traveste. Solo smascherandolo potrai acchiapparlo!
 <<[>>old<<]>>It looks like the Camouflage Pokémon <b>Masgot</b> occasionally occupies the Dens of Pokémon it disguise as. Only by casting it out, you will be able to catch it!
 Dino
-Dino
+Quentin
 Affronterò questa lotta Pokémon e la vincerò! Ne sono sicuro, anzi, persuaso!
-Affronterò questa lotta Pokémon e la vincerò! Ne sono sicuro, anzi, persuaso!
+I'm gonna win this Pokémon battle!<<n>>Yes I'm sure, indeed, I'm positive about that!
 Se invece di parlare avessi risparmiato il fiato, forse avrei potuto farcela...
-Se invece di parlare avessi risparmiato il fiato, forse avrei potuto farcela...
+I should have fought instead of wasting my breath...
 Corinaldo
-Corinaldo
+Cory
 Ecco, lo sapevo... mi sono perso!
-Ecco, lo sapevo... mi sono perso!
+Damn, I knew it...I got lost!
 Sia dannata la mia curiosità...
-Sia dannata la mia curiosità...
+Me and my damn curiosity...
 Mi sono messo a inseguire un Peckabone e guarda dove mi sono cacciato...!
-Mi sono messo a inseguire un Peckabone e guarda dove mi sono cacciato...!
+I was chasing a Peckabone and look what I got myself into...!
 <<[>>old<<]>>Occhio a rovistare tra la merce del Mercante! Potrebbe infastidirsi e sfidarti in una lotta Pokémon!
 <<[>>old<<]>>Watch out when you rummage through Merchant's chest! He could get annoyed and challenge you in a Pokémon battle!
 Mamimami
 Mamimami
 Mi hanno sempre presa in giro per il mio nome e io ogni volta li ho messi a tacere con una lotta!
-Mi hanno sempre presa in giro per il mio nome e io ogni volta li ho messi a tacere con una lotta!
+They always made jokes about my name and I always shut<<n>>their mouths in battles!
 Davvero credi che il mio nome sia carino...?
-Davvero credi che il mio nome sia carino...?
+Do you really think my name is cute...?
 Aster
 Aster
 Ehi, \PN! Sveglia, su!
@@ -10177,17 +10183,17 @@ I'll always have your back, and I'll help you with everything I've got! I promis
 Gray
 Gray
 Hai costretto il mio destriero ad assistere ad un così brutto incidente. Guarda com’è agitato!
-Hai costretto il mio destriero ad assistere ad un così brutto incidente. Guarda com’è agitato!
+You made my steed witness such a terrible accident.<<n>>Look, it got spooked!
 Calma, bello...
-Calma, bello...
+Easy, buddy, easy...
 Rapidash non tornerà mai più come prima...
-Rapidash non tornerà mai più come prima...
+Rapidash is never gonna be the same...
 Stephania
 Stephania
 Non ne posso più di camminare, fortuna che si inizia a intravedere la città!
-Non ne posso più di camminare, fortuna che si inizia a intravedere la città!
+I'm tired of walking...how lucky that the next city is not far!
 Ho proprio bisogno di un po’ di riposo...
-Ho proprio bisogno di un po’ di riposo...
+I really need some rest...
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 Romulano
@@ -10195,17 +10201,17 @@ Waylon
 Solo da Romulano, articoli mai visti a prezzi stracciati!!
 Only Waylon's got what you're looking for!<<n>>C'mon, have a look!
 Matilda
-Matilda
+Louisiana
 Tanti sforzi per far addormentare il moccioso e tu hai rovinato tutto! Te la faccio pagare!
-Tanti sforzi per far addormentare il moccioso e tu hai rovinato tutto! Te la faccio pagare!
+I was fixin' to get diddles asleep, but you decided you had to get in my way! I'm gonna make ya pay!
 Non la pianta più di frignare adesso...
-Non la pianta più di frignare adesso...
+He ain't gonna stop with his boo-hoo now...
 Rachele
-Rachele
+Cheryl
 Mi assicurerò che nessuno si perda attraversando questo sentiero!
-Mi assicurerò che nessuno si perda attraversando questo sentiero!
+I will make sure no one gets lost crossing this path!
 È il dovere di un Ranger soccorrere chi è in difficoltà!
-È il dovere di un Ranger soccorrere chi è in difficoltà!
+Rescuing those in need is the duty of us Rangers!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
@@ -13782,7 +13788,7 @@ No
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you go back to your dimension?
+<<[>>old<<]>>Would you like to go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -17886,7 +17892,7 @@ No
 <<[>>old<<]>>Gwogobo gwobobobo!
 <<[>>old<<]>>Gwogobo gwobobobo!
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you go back to your dimension?
+<<[>>old<<]>>Would you like to go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -17897,7 +17903,7 @@ No
 No
 [Map427]
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you go back to your dimension?
+<<[>>old<<]>>Would you like to go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -17966,7 +17972,7 @@ No
 <<[>>old<<]>>Lunaaan...!
 <<[>>old<<]>>Lunaaan...!
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you go back to your dimension?
+<<[>>old<<]>>Would you like to go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -17977,7 +17983,7 @@ No
 No
 [Map431]
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you go back to your dimension?
+<<[>>old<<]>>Would you like to go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -18010,7 +18016,7 @@ No
 <<[>>old<<]>> ...\n...
 <<[>>old<<]>> ...\n...
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you go back to your dimension?
+<<[>>old<<]>>Would you like to go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -18038,7 +18044,7 @@ No
 No
 [Map440]
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you go back to your dimension?
+<<[>>old<<]>>Would you like to go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -18065,7 +18071,7 @@ No
 No
 [Map443]
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you go back to your dimension?
+<<[>>old<<]>>Would you like to go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -18097,7 +18103,7 @@ No
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you go back to your dimension?
+<<[>>old<<]>>Would you like to go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -18124,7 +18130,7 @@ No
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you go back to your dimension?
+<<[>>old<<]>>Would you like to go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -18161,7 +18167,7 @@ No
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you go back to your dimension?
+<<[>>old<<]>>Would you like to go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -18209,9 +18215,9 @@ Progetto DNA-2
 Progetto DNA-2
 [Map463]
 Ferdinando
-Ferdinando
+Fernand
 Di giorno, in questo canyon pare di essere in un forno dal caldo che fa, ma di notte si gela! Su, non fare complimenti, forestiero|a. Riscaldati pure davanti al caminetto e riposa quanto vuoi.
-Di giorno, in questo canyon pare di essere in un forno dal caldo che fa, ma di notte si gela! Su, non fare complimenti, forestiero|a. Riscaldati pure davanti al caminetto e riposa quanto vuoi.
+During the day, this canyon feels like an oven, but at night<<n>>it's freezing outside!<<n>>C'mon, don't be shy, stranger. Have a seat by the fireplace and rest as much as you want.
 <<[>>old<<]>>Vuoi riposarti?
 <<[>>old<<]>>Would you like to rest?
 <<[>>old<<]>>Ora va molto meglio.
@@ -18644,7 +18650,7 @@ So che è incredibile, ma di ritorno dallo Xenoverse mi sono ritrovato per le ma
 \PN, ecco vedi... io non sono venuto qui solo per questo... C’è una cosa che voglio dirti da un po’...
 [Map478]
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you go back to your dimension?
+<<[>>old<<]>>Would you like to go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -20343,7 +20349,7 @@ No
 [Map552]
 [Map553]
 <<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you go back to your dimension?
+<<[>>old<<]>>Would you like to go back to your dimension?
 Dielebi
 Dielebi
 Lebi...!
@@ -44142,7 +44148,7 @@ Miller
 Antonio
 James
 Corinaldo
-Corinaldo
+Cory
 Giuseppe
 Giuseppe
 Poldo
@@ -44476,7 +44482,7 @@ Carlone
 Gerardo
 Gerardo
 Massimo
-Massimo
+Dawson
 Dario
 Dario
 Tibbio
@@ -44598,7 +44604,7 @@ Mara
 Zinna
 Zinna
 Rachele
-Rachele
+Cheryl
 Elisa
 Elisa
 Jessica
@@ -44608,11 +44614,11 @@ Emily
 Assunta
 Quinn
 Matilda
-Matilda
+Louisiana
 Alisio
 Zeke
 Fonco
-Fonco
+Billy
 Mirto
 Otis
 Cletus
