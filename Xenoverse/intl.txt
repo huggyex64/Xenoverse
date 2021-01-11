@@ -8864,33 +8864,35 @@ Dunkan
 Spiacente, amico|a, ma qui non si entra. Stiamo lavorando a roba inedita!
 Sorry mate, but you won't get through here.<<n>>We're working on new stuff!
 Assistente
-Assistente
+Assistant
 Speriamo che il signor Daddy riesca a risolvere questa brutta situazione...
 I hope mr. Daddy will fix this bad situation...
 Max
 Max
 UAAARGH! S-Sì è lui! Ne sono certo! Ma quand'è diventato così... ENORME?!
-UAAARGH!  S-Sì è lui! Ne sono certo! Ma quand'è diventato così... ENORME?!
+WAAARGH! Y-Yeah that's it! I'm sure of it!<<n>>But when did it become so--HUGE?!
 Wallace Daddy
 Wallace Daddy
 Ah, boh! So solo che gliela farò pagare!
-Ah, boh! So solo che gliela farò pagare!
+Beats me! I just know I'm gonna make it pay!
 Ho visto risolvere una situazione del genere in un film e conosco giusto chi fa al caso nostro! Vado a fare una telefonata!
-Ho visto risolvere una situazione del genere in un film e conosco giusto chi fa al caso nostro! Vado a fare una telefonata!
+I saw something like that in a movie and I know<<n>>who to call for help!<<n>>I'm gonna go make a phone buzz!
 \PN, prima m'hai detto di essere un Allenatore...
-\PN, prima m'hai detto di essere un Allenatore...
+\PN, you said you are a Trainer...
+Se non ti va di darmi una mano, me ne farò una ragione, ma un aiuto in più farebbe comodo.
+I won't really mind if you won't, but if you wanted to help,<<n>>I'd really appreciate it.
 Decidi in fretta e poi raggiungimi sul tetto della Palestra!
-Decidi in fretta e poi raggiungimi sul tetto della Palestra!
+Make up your mind quickly and meet me on the Gym's roof!
 Sebastian
 Sebastian
 Molto bene, signor Daddy. Noi ci daremo da fare per assistere le persone intossicate.
-Molto bene, signor Daddy. Noi ci daremo da fare per assistere le persone intossicate.
+Very well, mr. Daddy. We're going to assist<<n>>the poisoned people.
 ???
 ???
 Se non è un problema, io vorrei andare con Daddy. Non posso perdere l'occasione di vederlo in azione!
-Se non è un problema, io vorrei andare con Daddy. Non posso perdere l'occasione di vederlo in azione!
+If it's not a problem, I'd like to go with Daddy.<<n>>I can't miss seeing him in action!
 Alright, my friends! Let's go! Quel maledetto si pentirà di aver attaccato proprio la mia città!
-Alright, my friends! Let's go! Quel maledetto si pentirà di aver attaccato proprio la mia città!
+Alright, my friends! Let's go! That creep's gonna regret attacking my city!
 <<[>>old<<]>>La Stazione è chiusa oggi.
 <<[>>old<<]>>The Station is closed today.
 <<[>>old<<]>>Il cestino contiene qualcosa.
@@ -8898,21 +8900,27 @@ Alright, my friends! Let's go! Quel maledetto si pentirà di aver attaccato prop
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>The trash is empty.
 Aaah! Che mangiata! Burp! Peccato per il dessert, ma alla fine poco importa...
-Aaah! Che mangiata! Burp! Peccato per il dessert, ma alla fine poco importa...
+Aaah! That hit the spot! Urp! Too bad for the dessert,<<n>>but it's no big deal...
+\PN, devi essere stanco|a dopo questa lunga giornata... Che fatica la vita da Allenatore, eh?
+\PN, you must be tired after such a long day...<<n>>Must be hard to live as a Trainer, huh?
 Conosco giusto un posto in cui potrai riposare quanto vuoi. Vieni!
-Conosco giusto un posto in cui potrai riposare quanto vuoi. Vieni!
+I know just the place where you can rest as much<<n>>as you want. Come with me!
 Io ho visto tutto! Con questi occhi!
-Io ho visto tutto! Con questi occhi!
+I saw everything! With my own eyes!
+Uno strano Pokémon viola ha messo quei pasticcini sul bancone, mentre i cuochi erano distratti!
+A weird purple Pokémon put those sweets on the counter<<n>>while the cooks were distracted!
 Un Pokémon viola ha detto...?
-Un Pokémon viola ha detto...?
+A purple Pokémon, you said...?
 Mh! Un Pokémon viola...
-Mh! Un Pokémon viola...
+Hm! A purple Pokémon...
+... tipo quello là dietro?
+...like that one over there?
 Leonardo
 Leonard
 L’anno scorso, Daddy ha suonato nella mia città, ma me lo sono perso... Questa volta non farò lo stesso errore!
 Daddy had performed in my city last year, but I missed it... I'm not gonna do the same this time!
 Quei dolcetti mi allettavano non poco... Fortuna che sono riuscita a trattenermi!
-Those sweets were calling me...thank goodness I was able to help myself!
+Those sweets were calling me...thank goodness I was able<<n>>to help myself!
 Jasy
 Jayden
 La gente bigotta crede che i murales siano roba da vandali, ma non è affatto così. Qui a Leopoli, lasciare un graffito su un edificio, è come lasciare una traccia di sé nella città!
@@ -8936,37 +8944,47 @@ Marlon
 Ma perché tocca sempre a me buttare l’immondizia?!
 I'm sick of being the one always has to take out<<n>>the garbage!
 Oh, ma guarda chi si rivede! \PN, sei proprio tu! Ti ricordi di me, il tuo fan numero uno, vero?
-Oh, ma guarda chi si rivede! \PN, sei proprio tu! Ti ricordi di me, il tuo fan numero uno, vero?
+Oh, look who's here! \PN, it really is you!<<n>>You remember me, your number one fan, right?
 Beh, ad ogni modo, benvenuto|a a <b>Leopoli</b>, il paradiso della musica! Se il mio fiuto non mente, direi che sei giunto|a in questa città per accaparrarti una nuova Medaglia... Mi sbaglio?
-Beh, ad ogni modo, benvenuto|a a <b>Leopoli</b>, il paradiso della musica! Se il mio fiuto non mente, direi che sei giunto|a in questa città per accaparrarti una nuova Medaglia... Mi sbaglio?
+Well, anyway, welcome to <b>Hypelion City</b>,<<n>>music's heaven!<<n>>If my hunch is right, I'd say you came to this town<<n>>to snag a new Badge...don't you?
 Eh eh! Ti conosco come le mie tasche ormai!
-Eh eh! Ti conosco come le mie tasche ormai!
+Heh heh! I know you like the back of my hand!
 Però, vedi... Non potevi scegliere giorno peggiore per arrivare fin qui. Devi sapere che tutte le attività della città, sfide in Palestra incluse, saranno sospese in vista del grosso evento che <b>Wallace</b> <b>Daddy</b> terrà qui proprio domani.
-Però, vedi... Non potevi scegliere giorno peggiore per arrivare fin qui. Devi sapere che tutte le attività della città, sfide in Palestra incluse, saranno sospese in vista del grosso evento che <b>Wallace</b> <b>Daddy</b> terrà qui proprio domani.
+But, you see..you couldn't have chosen a worse day<<n>>to come here.<<n>>I'll have you know that all activities in town,<<n>>Gym challenges included,<<n>>will be suspended due to the big event that<<n>><b>Wallace Daddy</b> is going to hold here tomorrow.
 Ma come? Non ne sai niente? Non si parla d'altro ultimamente... ma vivi nello Xenoverse, per caso?
-Ma come? Non ne sai niente? Non si parla d'altro ultimamente... ma vivi nello Xenoverse, per caso?
+Really? You know nothing about it? It's been on everyone's mouths lately...do you live in the Xenoverse, maybe?
 Domani <b>Wallace Daddy</b>, il cantante più acclamato di Eldiw, si esibirà per presentare un nuovo singolo! Cosa c'entra tutto ciò con la Palestra chiusa agli sfidanti?
-Domani <b>Wallace Daddy</b>, il cantante più acclamato di Eldiw, si esibirà per presentare un nuovo singolo! Cosa c'entra tutto ciò con la Palestra chiusa agli sfidanti?
+Tomorrow <b>Wallace Daddy</b>, Eldiw's most acclaimed singer, is going to perform just to present his new song!<<n>>What does this have to do with the Gym being closed for challengers?
+Beh, Daddy, oltre a spopolare tra i giovani per la sua musica, è anche un Allenatore di tutto rispetto... è proprio lui il Capopalestra di Leopoli! Capito adesso?
+Well, Daddy, other than being super-famous among young fans for his music, is also a renowned Trainer...<<n>>He's Hypelion City's Gym Leader! Do you see now?
 Oh, mi è venuta un'idea!
-Oh, mi è venuta un'idea!
+Oh, I had an idea!
+La Palestra non ospiterà Allenatori per un po', per cui non ho altro da fare che starmene qui a girarmi i pollici... Perciò... Che ne dici di farci un bel giretto per la città?
+The Gym won't host Trainers for a while, so I have nothing better to do than stay here twirling my thumbs...<<n>>So...how about we do a little tour of the city?
 Dai, vieni! Ti faccio un po' da guida per le meraviglie di questa melodica metropoli.
-Dai, vieni! Ti faccio un po' da guida per le meraviglie di questa melodica metropoli.
+Come on, come with me! I'll be your guide to the wonders<<n>>of this melodical metropolis.
 Questo edificio è nientemeno che l'<b>Outlet Hip-Top</b>, il marchio d'alta moda rinomato in tutta Eldiw! Gli abiti che vedi esposti in vetrina sono parte della collezione firmata da Daddy, l'ideatore del brand!
-Questo edificio è nientemeno che l'<b>Outlet Hip-Top</b>, il marchio d'alta moda rinomato in tutta Eldiw! Gli abiti che vedi esposti in vetrina sono parte della collezione firmata da Daddy, l'ideatore del brand!
+This building is nothing less than the <b>Hip-Top Store</b>,<<n>>the fashion brand renowned in all Eldiw!<<n>>The clothes you see here on display are part of Daddy's<<n>>branded collection, the brand's creator!
+Se vuoi darti allo shopping sfrenato, questo è il posto adatto! Occhio al portafogli, però... Qui costa tutto uno stipendio!
+If you like compulsive shopping, this is the perfect place<<n>>for you!<<n>>Keep an eye on how much you spend, though...<<n>>Nothing's cheap here!
 Ma basta chiacchiere! Proseguiamo col nostro tour.
-Ma basta chiacchiere! Proseguiamo col nostro tour.
+Enough with the chit-chat! Let's proceed with our tour.
 Eccoci, \PN. Qui ci troviamo nel cuore di Leopoli: la zona concerti! Dalla gente accalcata qui attorno, capisci bene che è qui che il grande Wallace Daddy si esibirà! Detto sinceramente, anch'io sono un suo grande fan. Non sto più nella pelle per questo spettacolo!
-Eccoci, \PN. Qui ci troviamo nel cuore di Leopoli: la zona concerti! Dalla gente accalcata qui attorno, capisci bene che è qui che il grande Wallace Daddy si esibirà! Detto sinceramente, anch'io sono un suo grande fan. Non sto più nella pelle per questo spettacolo!
+Here we are, \PN. We have now arrived in Hypelion<<n>>City's heart: the concert square!<<n>>As you can see by the crowd, you can guess this is where<<n>>the great Wallace Daddy is going to perform!<<n>>If I'm being honest, I'm also a big fan of his.<<n>>I can't wait for the show to begin!
+Perdonami, mi sono fatto trascinare dall'emozione... Continuiamo la camminata, c’è ancora molto da vedere.
+Forgive me, I'm so excited that I got carried away...<<n>>Let's keep up with our walk, there's still much to see.
 Questa è la <b>Stazione Ferroviaria di Leopoli</b>. Da qui parte il <b>Quasar Express</b> per Scorpiopoli, dove si può ammirare l'impareggiabile tramonto sulle alture rocciose del Canyon Asteroide. Eh eh! Come vedi, è coperta di murales, ma niente panico!
-Questa è la <b>Stazione Ferroviaria di Leopoli</b>. Da qui parte il <b>Quasar Express</b> per Scorpiopoli, dove si può ammirare l'impareggiabile tramonto sulle alture rocciose del Canyon Asteroide. Eh eh! Come vedi, è coperta di murales, ma niente panico!
+This is <b>Hypelion Rail Station</b>. Here is where the <b>Quasar Express</b> departs for Westar City,<<n>>where you can admire the incomparable sunset<<n>>on the rocky heights of Sunflare Canyon. Heh heh!<<n>>As you can see, it's covered in murals, but don't worry!
 Questa scelta stilistica è semplicemente parte dell'atmosfera generale che si respira in città. Non è un edificio abbandonato, anche se pare che al momento sia fuori uso a causa di un guasto... Ne sai qualcosa, per caso?
-Questa scelta stilistica è semplicemente parte dell'atmosfera generale che si respira in città. Non è un edificio abbandonato, anche se pare che al momento sia fuori uso a causa di un guasto... Ne sai qualcosa, per caso?
+This stylistic choice is simply part of the general<<n>>atmosphere you can perceive in town.<<n>>It's not abandoned, although it seems like it is out of order due to a breakdown...<<n>>Do you have anything to do with it, by any chance?
 Ed eccoci finalmente arrivati alla Palestra di Leopoli, la dimora di Wallace Daddy! In cima a questo grattacielo c'è il ''Golden Studio'', lo studio in cui Daddy ha composto tutti i suoi album.
-Ed eccoci finalmente arrivati alla Palestra di Leopoli, la dimora di Wallace Daddy! In cima a questo grattacielo c'è il ''Golden Studio'', lo studio in cui Daddy ha composto tutti i suoi album.
+And here we finally are to Hypelion City's Gym,<<n>>Wallace Daddy's abode!<<n>>At the top of this skyscraper there's the ''Golden Studio'', where Daddy arranged all of his albums.
+Inoltre, all'interno, gli artisti più talentuosi, sotto l’ala di Daddy, ti sfideranno a ritmo di musica! Purtroppo dovrai aspettare per metterti alla prova, dato che la Palestra è chiusa... Ma c'è una bella sorpresa!
+Moreover, inside, the most talented artists, under the Gym Leader's wing, are going to challenge you to the beat!<<n>>Too bad you'll have to wait until you can prove yourself here, since the Gym is closed...but, there's a surprise!
 In vista dell’evento di domani, Daddy ha organizzato un buffet per tutta la città, tutto gratis per giunta! Che ragazzo d'oro... in tutti i sensi! Eh eh!
-In vista dell’evento di domani, Daddy ha organizzato un buffet per tutta la città, tutto gratis per giunta! Che ragazzo d'oro... in tutti i sensi! Eh eh!
+To celebrate tomorrow's event, Daddy set up a buffet for<<n>>the whole town, and free of charge to boot!<<n>>What a golden boy...quite literally! Heh heh!
 Non potrò vederti all'opera e fare il tifo per te, ma una scorpacciata me la faccio più che volentieri! Dai, entriamo!
-Non potrò vederti all'opera e fare il tifo per te, ma una scorpacciata me la faccio più che volentieri! Dai, entriamo!
+I won't be able to see you at work and cheer for you,<<n>>but I'll be more than glad to partake in this feast!<<n>>Come on, let's get in!
 Jacob
 Jacob
 Seguo Daddy fin dal suo primo disco. Quello sì che era rap!
@@ -8976,19 +8994,21 @@ Audrey
 Non ho un gran senso dell’orientamento, ma i murales mi danno una mano a non perdermi.
 I don't have the best sense of direction, but graffiti<<n>>help me not to get lost.
 <<[>>old<<]>>Stanno discutendo dell'accaduto.
-<<[>>old<<]>>Stanno discutendo dell'accaduto.
+<<[>>old<<]>>They're discussing what happened.
 Oh, \PN! Per poco non mi piombavi in testa!
-Oh, \PN! Per poco non mi piombavi in testa!
+Oh, \PN! You almost landed on my head there!
 Le voci riguardo le tue imprese contro quel Pokémon stanno già facendo il giro della città!
-Le voci riguardo le tue imprese contro quel Pokémon stanno già facendo il giro della città!
+Rumors about your misadventures with that Pokémon<<n>>are already spreading in town!
 Noi dello staff siamo riusciti a prenderci cura dei cittadini... Anche se, a dire il vero, sono ritornati in forze d'un tratto...!
-Noi dello staff siamo riusciti a prenderci cura dei cittadini... Anche se, a dire il vero, sono ritornati in forze d'un tratto...!
+We, as members of the staff, managed to take care of<<n>>the citizens...<<n>>Although, to be honest, they just got their strength back<<n>>all of a sudden...!
 Sarà senza dubbio merito tuo! Ti ringrazio di cuore a nome della città!
-Sarà senza dubbio merito tuo! Ti ringrazio di cuore a nome della città!
+It's undoubtedly your doing! So I thank you in the name<<n>>of the whole city!
 Ora che la minaccia è stata sventata potrai misurarti contro il signor Daddy... Ma prima, faresti meglio a prestare cure ai tuoi Pokémon. La sfida in Palestra richiede il massimo delle forze!
-Ora che la minaccia è stata sventata potrai misurarti contro il signor Daddy... Ma prima, faresti meglio a prestare cure ai tuoi Pokémon. La sfida in Palestra richiede il massimo delle forze!
+Now that the threat has been thwarted you will be able<<n>>to challenge mr. Daddy...<<n>>But first, you'd better heal your Pokémon. The Gym challenge requires the best of your ability!
+Lo staff sarà lieto di accoglierti e spiegarti come proseguire all'interno, quando sarai pronto|a. Ti aspettiamo!
+The staff will be glad to welcome you as well as explain how to tackle the challenge, whenever you're ready.<<n>>We'll be waiting for you!
 <<[>>old<<]>><b>Leopoli</b>\n<i>''Il paradiso della musica e dell'arte di strada!''</i>
-<<[>>old<<]>><b>Hypelion City</b>\n<i>''Il paradiso della musica e dell'arte di strada!''</i>
+<<[>>old<<]>><b>Hypelion City</b>\n<i>''A real heaven for music lovers and street artists!''</i>
 Clarissa
 Marissa
 A questa città manca solo un bello skate-park per essere perfetta.
@@ -9008,7 +9028,7 @@ D'ya follow Daddy on Instagram too?
 Joseph
 Joseph
 Prendi posto, amico|a. Stiamo per iniziare!
-Prendi posto, amico|a. Stiamo per iniziare!
+Take a seat, buddy. We're about to begin!
 Doveva essere un gran giorno e invece guarda tu che disastro...
 It should've been a great day but turned out to be<<n>>a real mess, instead...
 Anna
@@ -9018,7 +9038,7 @@ No! Not like that, you freakin' bonehead! One-two, one-two and then three!
 <<[>>old<<]>>Scatta una foto con questo cartonato di MegaLopunny e postala su Instagram... e non scordare di taggarci!
 <<[>>old<<]>>Take a pic with this MegaLopunny cutout and post it on Instagram...and don't forget to tag us!
 \PN, eccoti finalmente! Fa' presto, sta per cominciare!
-\PN, eccoti finalmente! Fa' presto, sta per cominciare!
+\PN, there you are! Hurry up, it's about to begin!
 Luna
 Luna
 Lo streetwear esposto in vetrina è davvero figo, peccato solo che costi uno sfacelo...
@@ -9028,7 +9048,7 @@ Connor
 Credo proprio che la breakdance non faccia per me...
 Not sure breakdancing's for me...
 Pronto|a per l'evento?
-Pronto|a per l'evento?
+Are you ready for the event?
 Leo
 Leo
 ''Quel che volevo io l’ho realizzato, ora confondo realtà con ciò che ho sognato''... Questa è una delle mie rime preferite di Daddy.
@@ -9065,11 +9085,13 @@ Can you believe that Daddy was poor once? I mean,<<n>>he used to steal from Pok�
 ???
 ???
 Eccoci qui, \PN. Questa modesta casetta è tutta per te e per i tuoi Pokémon!
-Eccoci qui, \PN. Questa modesta casetta è tutta per te e per i tuoi Pokémon!
+Here we are, \PN. This humble house is all for you<<n>>and your Pokémon!
+Fai come se fossi a casa tua, non fare complimenti e spaparanzati pure su quel lettone.
+Make yourself at home, get comfy and sleep to<<n>>your heart's content on that amazing bed.
 Io ora devo proprio andare, voglio essere in forze per domani! Eh eh! Consiglio anche a te di fare una bella dormitina, ma se vuoi andare ancora un po' in giro fa' pure.
-Io ora devo proprio andare, voglio essere in forze per domani! Eh eh! Consiglio anche a te di fare una bella dormitina, ma se vuoi andare ancora un po' in giro fa' pure.
+Now I really have to go, I wouldn't wanna be out of energy tomorrow! Heh heh!<<n>>I'd suggest you take a nice nap yourself, but if you want<<n>>to take one more stroll, feel free to do that.
 In ogni caso, sogni d'oro... e giuro che questa non è una battuta su Daddy! Eh eh!
-In ogni caso, sogni d'oro... e giuro che questa non è una battuta su Daddy! Eh eh!
+Anyway, sweet dreams--and I swear this isn't a joke<<n>>about the buffet! Heh heh!
 Sì
 Yes
 No
@@ -9230,37 +9252,37 @@ No
 Wallace Daddy
 Wallace Daddy
 Ehi, \PN! C'mon, vieni qui!
-Ehi, \PN! C'mon, vieni qui!
+Hey, \PN! C'mon, come here!
 Hai deciso di darmi una mano allora! Più siamo ad affrontare questo pivello troppo cresciuto, meglio è! L'unione fa la forza, nah?
-Hai deciso di darmi una mano allora! Più siamo ad affrontare questo pivello troppo cresciuto, meglio è! L'unione fa la forza, nah?
+You decided to help me then! The more we are nailing<<n>>this oversized noob, the merrier!<<n>>Unity is strength, nah?
 <<[>>old<<]>>SLUUUUR...!
 <<[>>old<<]>>SLUUUUR...!
 ???
 ???
 Sai, Daddy... Da quando conosco questo|a giovane, non l'ho mai visto|a tirarsi indietro.
-Sai, Daddy... Da quando conosco questo|a giovane, non l'ho mai visto|a tirarsi indietro.
+You know, Daddy...I've never seen this kid backing out<<n>>of something, ever since I met him||er.
 Oh, yeah...
 Oh, yeah...
 Tra l'altro... Dove cavolo sono finiti quei bastardi?!
-Tra l'altro... Dove cavolo sono finiti quei bastardi?!
+By da way...where the heck are those bastards?!
 Ehi, vacci piano con le parole!
-Ehi, vacci piano con le parole!
+Hey, watch your mouth!
 Silvia
-Silvia
+Minta
 Se provi anche solo a ripeterlo ti becchi un pugno sul muso, capito?!
-Se provi anche solo a ripeterlo ti becchi un pugno sul muso, capito?!
+Try to say that one more time and you'll get a punch<<n>>in your ugly mug, got it?!
 Wah ah ah! Come butta, <b>Silvia</b>? Sempre in splendida forma, vedo.
-Wah ah ah! Come butta, <b>Silvia</b>? Sempre in splendida forma, vedo.
+Wa ha ha! 'Sup, <b>Minta</b>?<<n>>I see you're always in good shape.
 M-Ma...?!
-M-Ma...?!
+B-But...?!
 Saul
-Saul
+Salem
 Piantiamola con queste stupide smancerie e pensiamo al lavoro!
-Piantiamola con queste stupide smancerie e pensiamo al lavoro!
+Enough with the pleasantries and let's get to work!
 Oh, ma c'è anche il||la tappetto|a!
-Oh, ma c'è anche il||la tappetto|a!
+Oh, squirt is here as well!
 \PN, non ti avevo visto|a, scusami! Ah ah ah! Todo bien?
-\PN, non ti avevo visto|a, scusami! Ah ah ah! Todo bien?
+\PN, I didn't see you there, sorry! Ha ha ha!<<n>>Todo bien?
 Buster
 Buster
 Blast...!
@@ -9268,53 +9290,57 @@ Blast...!
 Will
 Will
 Che bello rivederti, \PN...!
-Che bello rivederti, \PN...!
+Nice to see you again, \PN...!
 Maurice
-Maurice
+Chrysler
 ...!
 ...!
 Ma voi... già vi conoscete?! Fuori di testa! Noi invece ci siamo conosciuti da po...
-Ma voi... già vi conoscete?! Fuori di testa! Noi invece ci siamo conosciuti da po...
+So...you already know each other?! That's crazy!<<n>>We've just met each oth-
 Sembra che quel Pokémon si sia stufato delle chiacchiere... Probabilmente anche i giocatori! Eh eh!
-Sembra che quel Pokémon si sia stufato delle chiacchiere... Probabilmente anche i giocatori! Eh eh!
+Seems like that Pokémon is fed up with our chatter...<<n>>And so are the players, probably! Heh heh!
 Oh, giusto! Non preoccupatevi! Ora aquí ci pensa la S.P.E.T.T.R.I.!
-Oh, giusto! Non preoccupatevi! Ora aquí ci pensa la S.P.E.T.T.R.I.!
+Oh, right! Don't worry! G.E.I.S.T. is aquí to help you!
 Maurice, fai le dovute presentazioni, su!
-Maurice, fai le dovute presentazioni, su!
+Chrysler, it's time for the introductions!
 Agli ordini, capitano.
-Agli ordini, capitano.
+Aye, captain.
 <b>Revolver</b>, protocollo di presentazione.
-<b>Revolver</b>, protocollo di presentazione.
+<b>Revolver</b>, initiate introduction protocol.
 Revolver
 Revolver
 <i>Hola...!</i>
 <i>Hola...!</i>
 Revolver è un'arma supertecnologica creata modificando ciberneticamente l’impianto di quel meraviglioso capolavoro di ingegneria del Team Dimension.
-Revolver è un'arma supertecnologica creata modificando ciberneticamente l’impianto di quel meraviglioso  capolavoro di ingegneria del Team Dimension.
+Revolver is a supertecnologic weapon created<<n>>by cybernetically modifying the system<<n>>of Team Dimension's masterpiece of engineering.
+Debbo dire che hackerare il sistema non è stato facile neanche per me, ma non impossibile. Dopo aver alterato il codice madre, il lavoro ha dato i suoi frutti...
+I have to say that hacking the system was all but easy<<n>>even for me, but it wasn't impossible.<<n>>After altering the mother code, the work was more<<n>>than worth it-
 Va bene, Maurice! Devi sempre farla lunga tu...
-Va bene, Maurice! Devi sempre farla lunga tu...
+Alright, Chrysler! You always have to make<<n>>things longer...
+In parole povere, ora abbiamo dalla nostra un'arma acchiappa-fantasmi che agisce autonomamente! Fantastico, no crees?
+In short, we now have an automated ghost-catching<<n>>weapon on our side! Awesome, no crees?
 Non ci ho capito granché, ma sembra davvero dope! Sarà un gioco da ragazzi blindare 'sto mostro! Wah ah!
-Non ci ho capito granché, ma sembra davvero dope! Sarà un gioco da ragazzi blindare 'sto mostro! Wah ah!
+I didn't get much, but it looks dope as heck! Wrecking<<n>>this monster will be a piece of cake! Wa ha ha!
 Muy bien, chicos! Catturiamo questo gigantesco spettro!
-Muy bien, chicos! Catturiamo questo gigantesco spettro!
+Muy bien, chicos! Let's catch this gigantic ghost!
 Buster, prepara i cannoni!
-Buster, prepara i cannoni!
+Buster, charge your cannons!
 Saul, riscalda il tuo Magmortarm!
-Saul, riscalda il tuo Magmortarm!
+Salem, warm up your Magmortarm!
 Sempre in fiamme, bella!
-Sempre in fiamme, bella!
+I'm always on fire, girl!
 Will, coraggio! Fa' vedere a \PN i tuoi progressi con la Pistola Kidoon!
-Will, coraggio! Fa' vedere a \PN i tuoi progressi con la Pistola Kidoon!
+Come on, Will! Show \PN your progress<<n>>with the Kidoon Gun!
 S-Sì, sorellona!
-S-Sì, sorellona!
+Y-Yes, Sis!
 Maurice, il sistema di intrappolamento di Revolver è già operativo?
-Maurice, il sistema di intrappolamento di Revolver è già operativo?
+Chrysler, is Revolver's catching system ready yet?
 Affermativo.
-Affermativo.
+Affirmative.
 Muy bien.
 Muy bien.
 Revolver, una volta indebolito, ingabbierai quel fantasma, chiaro?
-Revolver, una volta indebolito, ingabbierai quel fantasma, chiaro?
+Revolver, once it's weakened, you have to trap<<n>>that ghost, alright?
 <i>Roger...!</i>
 <i>Roger...!</i>
 3...
@@ -9324,33 +9350,33 @@ Revolver, una volta indebolito, ingabbierai quel fantasma, chiaro?
 1...
 1...
 S.P.E.T.T.R.I. in azione!!
-S.P.E.T.T.R.I. in azione!!
+G.E.I.S.T. in action!!
 Ehi, ma... Le nostre armi non funzionano...?
-Ehi, ma... Le nostre armi non funzionano...?
+Hey, but- Why aren't our weapons working...?
 Ehm, avrei voluto dirvelo prima, ma eravate così presi...
-Ehm, avrei voluto dirvelo prima, ma eravate così presi...
+Ahem, I was about to tell you, but you were so caught up<<n>>in the moment...
+Daddy deve aver omesso questo particolare, ma sono dell'idea che il Pokémon non sia uno Spettro... Anzi, dato che i suoi dolcetti hanno intossicato i cittadini, probabilmente appartiene al tipo Veleno.
+Daddy must have omitted this detail, but I think that<<n>>the Pokémon isn't a Ghost-type...<<n>>Rather, since its sweets poisoned the citizens,<<n>>it's probably a Poison-type one.
 <b>Santana</b>, ma sei scemo?!! Noi siamo la S.P.E.T.T.R.I.!
-<b>Santana</b>, ma sei scemo?!! Noi siamo la S.P.E.T.T.R.I.!
+<b>Santana</b>, are you dumb?!!<<n>>We are the G.E.I.S.T.!
 Il nostro lavoro è catturare i Pokémon di tipo S-P-E-T-T-R-O, lo dice anche il nome! Ci hai fatti venire qui per niente!
-Il nostro lavoro è catturare i Pokémon di tipo S-P-E-T-T-R-O, lo dice anche il nome! Ci hai fatti venire qui per niente!
+Our job is to catch G-H-O-S-T-type Pokémon, as the name suggests! We came here for nothing!
 Sorry! È che appena ho visto 'sto bestione ho pensato a quel film con quel mostro gigante e...
-Sorry! È che appena ho visto 'sto bestione ho pensato a quel film con quel mostro gigante e...
+Sorry! It's just that when I saw this big fella I thought<<n>>about that movie with the giant monster and-
 Ma per chi ci hai preso, per degli attori?! Non abbiamo tempo da perdere in queste cavol...
-Ma per chi ci hai preso, per degli attori?! Non abbiamo tempo da perdere in queste cavol...
+Did you take us for actors?!<<n>>We don't have time to waste with this nonsen-
 Oh, bwoy! Quegli scemi si son fatti fregare... Li ha spazzati via in un lampo!
-Oh, bwoy! Quegli scemi si son fatti fregare... Li ha spazzati via in un lampo!
+Oh, bwoy! Those idiots were nailed...<<n>>They got blown up in a flash!
 E va bene! \PN, non resta che lasciar provare te... Fammi vedere di che pasta sei fatto|a!
-E va bene! \PN, non resta che lasciar provare te... Fammi vedere di che pasta sei fatto|a!
+Alright, then! \PN, I guess it's up to you now...<<n>>Lemme see what you're made of!
 Woh oh! Gliel'hai suonate di brutto, \PN!
-Woh oh! Gliel'hai suonate di brutto, \PN!
+Woah! You showed it what's what, \PN!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
 <<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
-Ehm, avrei voluto dirvelo prima, ma sembravate così presi... Probabilmente Daddy ha omesso questo piccolo particolare, ma sono dell'idea che questo Pokémon non sia di tipo Spettro...
-Ehm, avrei voluto dirvelo prima, ma sembravate così presi... Probabilmente Daddy ha omesso questo piccolo particolare, ma sono dell'idea che questo Pokémon non sia di tipo Spettro...
 Sì
 Yes
 No
@@ -9465,146 +9491,158 @@ Gliel’avevo detto io di partire qualche giorno prima del concerto, ma quelli f
 Joseph
 Joseph
 Ciao, Leopoli! Allora... Siete carichi?!
-Ciao, Leopoli! Allora... Siete carichi?!
+Hey, Hypelion City! So...are you hyped up?!
 Oh, yeah! Allora su le mani per Wallace Daddy!
-Oh, yeah! Allora su le mani per Wallace Daddy!
+Oh, yeah! Then put your hands up for Wallace Daddy!
 Wallace Daddy
 Wallace Daddy
 Yo, gente! Come butta?
-Yo, gente! Come butta?
+Yo, dawgs! Whassup?
+Alright, pronti a fare il bangarang?!
+Alright, ready to smash this place?!
 Sì? Allora voglio sentirvi urlare ''Yeah!''!
-Sì? Allora voglio sentirvi urlare ''Yeah!''!
+You cool with that? Then I want a ''Yeah!'' out of ya!
 <<[>>old<<]>>Yeaaah!
 <<[>>old<<]>>Yeaaah!
 Oh, andiamo! Più forte, dannazione!
-Oh, andiamo! Più forte, dannazione!
+Oh, come on! You can do better than that!
 <<[>>old<<]>>YEAAAH!
 <<[>>old<<]>>YEAAAH!
 Oh, yeah! È proprio quello che volevo sentire!
-Oh, yeah! È proprio quello che volevo sentire!
+Oh, yeah! That's the real deal!
+Ora che siete belli carichi, siamo pronti a droppare la mina... Siete qui per l'inedito, nah?
+Now that you're all fired up, we're ready to drop<<n>>da bomb...you're here for the new hit, ain't ya?
 Wah ah ah! Yeah! Socio, manda il beat!
-Wah ah ah! Yeah! Socio, manda il beat!
+Wa ha ha! Yeah! Partner, lay down the beat!
 Fan
 Fan
 Argh... Che terribile mal di pancia...
-Argh... Che terribile mal di pancia...
+Ugh...what a terrible stomachache...
 Anch'io! Non ce la facc... Bleargh!
-Anch'io! Non ce la facc... Bleargh!
+Me too! I can't--Blaargh!
 Ma che schifo! Devo andare a vomit...
-Ma che schifo! Devo andare a vomit...
+Gross! I gotta go throw-
 M-ma...! Whatta hell?!
-M-ma...! Whatta hell?!
+Wha-! Whadda hell?!
 Santana, pare che se ne siano andati tutti...
-Santana, pare che se ne siano andati tutti...
+Santana, it looks like everyone just left...
 Oh, bwoy! Che non sia piaciuto il nuovo pezzo? Eppure li vedevo così carichi...
-Oh, bwoy! Che non sia piaciuto il nuovo pezzo? Eppure li vedevo così carichi...
+Oh, bwoy! Was the new song so bad?<<n>>But they were so charged up...
 Sì, dev'essere così! L'inedito è stato un flop... Ma perché?!
-Sì, dev'essere così! L'inedito è stato un flop... Ma perché?!
+Yeah, it must be! The new hit was an epic fail...but why?!
 Oh, ma...! È rimasto ancora qualcuno là sotto! Allora c'è qualcuno che ha apprezzato!
-Oh, ma...! È rimasto ancora qualcuno là sotto! Allora c'è qualcuno che ha apprezzato!
+Oh, hey...! There's still someone down there!<<n>>Then there's someone who liked it!
 Grazie! Grazie! Grazieee!
-Grazie! Grazie! Grazieee!
+Thank ya! Thank ya! Thank yaaa!
 Scusateci se abbiamo interrotto lo spettacolo, ma pensavamo non ci fosse più nessuno!
-Scusateci se abbiamo interrotto lo spettacolo, ma pensavamo non ci fosse più nessuno!
+Sorry for the interruption, but we thought no one was left!
+Voglio davvero conoscerli dei fan così affezionati! Come vi chiamate?
+I really wanna know such dedicated fans!<<n>>Names?
 ???
 ???
 Io sono un tuo grande fan, nonché guida della città in occasione di questo evento. Eh eh!
-Io sono un tuo grande fan, nonché guida della città in occasione di questo evento. Eh eh!
+I'm a really big fan of yours, as well as the city's guide<<n>>for this event. Heh heh!
 Oh, figo. E tu, invece?
-Oh, figo. E tu, invece?
+Oh, cool. What about ya?
 \PN...? E sei un Allenatore? Davvero fuori di testa, amico|a!
-\PN...? E sei un Allenatore? Davvero fuori di testa, amico|a!
+\PN...? And you're a Trainer?<<n>>It's out of this world, buddy!
 Vi farei un autografo, ma 'sta brutta situazione m’ha lasciato l'amaro in bocca e non credo sia per l’oro...
-Vi farei un autografo, ma 'sta brutta situazione m’ha lasciato l'amaro in bocca e non credo sia per l’oro...
+I'd give ya both an autograph, but this mess left me with<<n>>a bad taste and I don't think it's because of the gold...
 Non mi era mai successo che qualcuno andasse via da un mio live... Ci metterò un po' a digerire 'sta batosta.
-Non mi era mai successo che qualcuno andasse via da un mio live... Ci metterò un po' a digerire 'sta batosta.
+It never happened before, people leaving my concerts...<<n>>I think I'll need some time to digest this failure.
 Io non credo che gli spettatori siano fuggiti per la canzone.
-Io non credo che gli spettatori siano fuggiti per la canzone.
+I don't think the spectators ran away because of the song.
 Come, scusa?!
-Come, scusa?!
+Whatcha say?!
 Penso che il pubblico non sia tornato a casa per colpa della qualità dell'esibizione.
-Penso che il pubblico non sia tornato a casa per colpa della qualità dell'esibizione.
+I don't think the people ran away because<<n>>the show was bad.
 Vedi, in vista di questo giorno, era stato organizzato un grande buffet al piano terra della Palestra...
-Vedi, in vista di questo giorno, era stato organizzato un grande buffet al piano terra della Palestra...
+You see, for this day, a big buffet was arranged<<n>>at the Gym's ground floor...
+Un buffet che non prevedeva dessert... Eh eh!
+A buffet that wasn't supposed to have desserts... Heh heh!
 Well, I know... Abbiamo organizzato st'abbuffata con la mia troupe per sponsorizzare l'evento, ma continuo a non capire...
-Well, I know... Abbiamo organizzato st'abbuffata con la mia troupe per sponsorizzare l'evento, ma continuo a non capire...
+Well, I know...we set up that thing with my troupe<<n>>to publish the event, but I'm not following ya...
 Sebastian
 Sebastian
 Ve lo spiego io, signore.
-Ve lo spiego io, signore.
+Let me explain, sir.
 Al contrario di ogni previsione, sui tavoli messi a disposizione, c'erano dei dolcetti e nemmeno gli organizzatori sapevano da dove fossero usciti!
-Al contrario di ogni previsione, sui tavoli messi a disposizione, c'erano dei dolcetti e nemmeno gli organizzatori sapevano da dove fossero usciti!
+Contrary to any arrangement, there were sweets on display, and not even the planners knew where those came from!
 Ancora non capisco...
-Ancora non capisco...
+I still don't get it...
 Sto dicendo che magari qualcuno sa chi è stato a mettere lì dei dolcetti, probabilmente andati a male!
-Sto dicendo che magari qualcuno sa chi è stato a mettere lì dei dolcetti, probabilmente andati a male!
+What I'm saying is that someone may know who put<<n>>those sweets there, which were probably bad!
 Guardacaso, né io, né \PN, li abbiamo mangiati e siamo in perfetta salute!
-Guardacaso, né io, né \PN, li abbiamo mangiati e siamo in perfetta salute!
+Coincidentally, neither me or \PN had any<<n>>and we're perfectly fine!
 Allora che aspettiamo? Andiamo in Palestra e cerchiamo di capirci qualcosa, nah?
-Allora che aspettiamo? Andiamo in Palestra e cerchiamo di capirci qualcosa, nah?
+Then what are we waiting for? Let's go to the Gym<<n>>and try to get something out of this, nah?
 [Map213]
 Alex
 Alex
 Quei dolcetti erano deliziosi!
-Quei dolcetti erano deliziosi!
+Those sweets were delicious!
 Zack
 Zack
 Le canzoni di Daddy possono spaziare da quelle meno impegnate a quelle più profonde. È per questo che riesce a soddisfare i gusti di tutto il suo pubblico!
-Le canzoni di Daddy possono spaziare da quelle meno impegnate a quelle più profonde. È per questo che riesce a soddisfare i gusti di tutto il suo pubblico!
+Daddy can range from freestyles to meaningful songs.<<n>>That's why he can always meet the public's needs!
 ???
 ???
 Che delizia!
-Che delizia!
+So good!
 <<[>>old<<]>>Lo schermo proietta dei video sul passato di Wallace Daddy. Vuoi dare un'occhiata?
-<<[>>old<<]>>Lo schermo proietta dei video sul passato di Wallace Daddy. Vuoi dare un'occhiata?
+<<[>>old<<]>>The screen is showing some clips about Wallace Daddy's background. Are you interested?
 <<[>>old<<]>>''Rimasto orfano, sin da bambino Santana vive nei sobborghi della regione di Alola, rubacchiando qua e là per mantenersi. Durante una delle sue bravate, entra in contatto con un gruppo di teppisti, il ''Team Skull'', a cui si unisce poco dopo, ammirando il loro spirito di fratellanza. Nel mentre partecipa a numerose battle di freestyle e il Boss, interessato al giovane talento, lo sprona a lanciarsi nel mondo della musica.'' Vuoi continuare a guardare?
-<<[>>old<<]>>''Rimasto orfano, sin da bambino Santana vive nei sobborghi della regione di Alola, rubacchiando qua e là per mantenersi. Durante una delle sue bravate, entra in contatto con un gruppo di teppisti, il ''Team Skull'', a cui si unisce poco dopo, ammirando il loro spirito di fratellanza. Nel mentre partecipa a numerose battle di freestyle e il Boss, interessato al giovane talento, lo sprona a lanciarsi nel mondo della musica.'' Vuoi continuare a guardare?
+<<[>>old<<]>>''He was left an orphan and since his childhood, Santana lived in the slums of Alola region, where he used to snatch something here and there for a living.\nDuring one of his shenanigans, he got in touch with a gang of thugs--known as ''Team Skull''--and he joined shortly after, admiring the brotherly spirit between its members.\nAfter proving his talent in several freestyle battles, he piqued the Boss' interest and was told by him to plunge in the music business.''\nWill you keep watching?
 <<[>>old<<]>>''Il giovane Santana compone così delle prime canzoni che tuttavia, per il loro sound innovativo, non sono viste di buon occhio dalla tradizionalista Alola. Per questo motivo il Boss, che il giovane considera come un padre, gli suggerisce di abbandonare la regione in cui non sfonderebbe mai, per trasferirsi ad Eldiw, regione in cui si cerca sempre il progresso musicale, e farsi una nuova vita. \nSeguendo il consiglio, il giovane aloliano parte per la regione di Eldiw, più precisamente a Scorpiopoli dove, dopo grandi sacrifici, riscuote un gran successo col nome di "Wallace Daddy".''
-<<[>>old<<]>>''Il giovane Santana compone così delle prime canzoni che tuttavia, per il loro sound innovativo, non sono viste di buon occhio dalla tradizionalista Alola. Per questo motivo il Boss, che il giovane considera come un padre, gli suggerisce di abbandonare la regione in cui non sfonderebbe mai, per trasferirsi ad Eldiw, regione in cui si cerca sempre il progresso musicale, e farsi una nuova vita. \nSeguendo il consiglio, il giovane aloliano parte per la regione di Eldiw, più precisamente a Scorpiopoli dove, dopo grandi sacrifici, riscuote un gran successo col nome di "Wallace Daddy".''
+<<[>>old<<]>>''Thus, the young Santana wrote a few songs, but unfortunately, their innovative sound was not well appreciated in the traditionalist Alola.\nFor this reason, the Boss, who was like a father to him, suggested the young talent to leave Alola and move to Eldiw, the region of musical innovation.\nFollowing his suggestion, the Alolan kid left for Eldiw--more precisely in Westar City--where, after all his efforts, he had a great success as ''Wallace Daddy".''
 Roy
 Roy
 Forse ho un po' esagerato con tutti quei dolci...
-Forse ho un po' esagerato con tutti quei dolci...
+I went a little nutso on all those sweets...
 Pensavo che non avrei mai visto il mio idolo dal vivo e invece la fortuna mi ha sorriso... ... e aveva i denti d’oro!
-Pensavo che non avrei mai visto il mio idolo dal vivo e invece la fortuna mi ha sorriso... ... e aveva i denti d’oro!
+I would have never thought that I would have seen<<n>>my idol in person yet Lord Luck smiled at me...<<n>>...and he had golden teeth!
+Wallace Daddy in persona mi ha regalato ben due pass per la <b>Sala Rock</b> del palazzo!!
+Wallace Daddy himself gave me two tickets for<<n>>the <b>Rock Room</b> here!!
 Eh? Ti serve uno di questi per andare a sfidare Daddy in Palestra?
-Eh? Ti serve uno di questi per andare a sfidare Daddy in Palestra?
+What? You need one of these to challenge Daddy<<n>>at the Gym?
 Beh, sì, potrei dartene uno, però sarebbe mia responsabilità mandarti da lui, perciò...
-Beh, sì, potrei dartene uno, però sarebbe mia responsabilità mandarti da lui, perciò...
+Well, I guess I could give you one, but sending you to him<<n>>would be my responsibility, so...
 Mi assicurerò prima che tu sia un valido Allenatore! Lottiamo!
-Mi assicurerò prima che tu sia un valido Allenatore! Lottiamo!
+I'll make sure you're a worthy Trainer first! Let's fight!
 Woah! Il pass è tutto tuo!
-Woah! Il pass è tutto tuo!
+Woah! The ticket is all yours!
 Ecco, prendi. Il pass è tutto tuo!
-Ecco, prendi. Il pass è tutto tuo!
+Here, take it. The ticket is all yours!
 Daddy mi ringrazierà per avergli mandato un Allenatore così tosto.
-Daddy mi ringrazierà per avergli mandato un Allenatore così tosto.
+Daddy will thank me for sending him such a tough Trainer.
 <<[>>old<<]>>Palestra Ritmo\nCapopalestra: <b>Wallace Daddy</b> <i>''Il ruggito del leone dalle fauci dorate.''</i> Allenatori Certificati: 0
-<<[>>old<<]>>Palestra Ritmo\nCapopalestra: <b>Wallace Daddy</b> <i>''Il ruggito del leone dalle fauci dorate.''</i> Allenatori Certificati: 0
+<<[>>old<<]>>Hypelion Gym\nGym Leader: <b>Wallace Daddy</b>\n<i>''The roar of the golden-fanged lion.''</i>\nCertified Trainers: 0
 <<[>>old<<]>>Palestra Ritmo\nCapopalestra: <b>Wallace Daddy</b> <i>''Il ruggito del leone dalle fauci dorate.''</i> Allenatori Certificati: \PN
-<<[>>old<<]>>Palestra Ritmo\nCapopalestra: <b>Wallace Daddy</b> <i>''Il ruggito del leone dalle fauci dorate.''</i> Allenatori Certificati: \PN
+<<[>>old<<]>>Hypelion Gym\nGym Leader: <b>Wallace Daddy</b>\n<i>''The roar of the golden-fanged lion.''</i>\nCertified Trainers: \PN
 Olivia
 Olivia
 Paris
 Paris
 No e poi no! Ti dico che la più bella è ''Radici''!
-No e poi no! Ti dico che la più bella è ''Radici''!
+No way! I'm tellin' ya ''Roots'' is way better!
 Sebastian
 Sebastian
 Servitevi pure, senza fare complimenti.
-Servitevi pure, senza fare complimenti.
+You're free to serve yourselves, please be our guests.
 Assistente
-Assistente
+Assistant
 Le diamo il benvenuto nella Palestra di Leopoli.
-Le diamo il benvenuto nella Palestra di Leopoli.
+Welcome to Hypelion City's Gym.
+Qui al piano terra troverà il fan club del signor Daddy dove poter conversare con altri appassionati del genere. Inoltre, se le interessa sapere di più sulla star della città, può consultare i video informativi sugli schermi.
+Here, ground floor, you will find mr. Daddy's fan club,<<n>>the perfect place to converse with other aficionados.<<n>>In addition, if you are interested in learning more about<<n>>our city star, you can check out the info-screens.
 Woah! Questi dolcetti sembrano squisiti! Gnam!
-Woah! Questi dolcetti sembrano squisiti! Gnam!
+Woah! These sweets look delicious! Yum!
 Ragazzi! Dovete provare questi bigné... Sono dannatamente buoni!
-Ragazzi! Dovete provare questi bigné... Sono dannatamente buoni!
+Guys! You should try these cream puffs...<<n>>They're damn delicious!
 Mi scusi? L'organizzazione non prevedeva alcun dessert... Ci sarà stato un cambio di programma?
-Mi scusi? L'organizzazione non prevedeva alcun dessert... Ci sarà stato un cambio di programma?
+Excuse me? There were no sweets arranged...<<n>>Was there a change of plans?
 E sia, dal momento che sono già in tavola... Potete servirvi liberamente!
-E sia, dal momento che sono già in tavola... Potete servirvi liberamente!
+Since they've already been served, so be it...<<n>>You may serve yourselves freely!
 <<[>>old<<]>>Evvai! Dessert!
 <<[>>old<<]>>Yay! Dessert!
 <<[>>old<<]>>Gnam! Che bontà!
@@ -9616,99 +9654,107 @@ Avrei tanto voluto assaggiare quei bignè... Mi sarei accontentato anche di una 
 Albert
 Albert
 Ti dico di no! La traccia migliore è ''El Dorado''!
-Ti dico di no! La traccia migliore è ''El Dorado''!
+Hell to the no! The best track is ''El Dorado''!
 Marvin
 Marvin
 \PN, ma dove vai?! Mangia quanto vuoi, tanto è tutto gratis! Eh eh!
-\PN, ma dove vai?! Mangia quanto vuoi, tanto è tutto gratis! Eh eh!
+\PN, where are you going?! Eat as much as you want,<<n>>everything is free! Heh heh!
 Benvenuti.
-Benvenuti.
+Welcome.
 Questo buffet è stato organizzato su gentile concessione del signor Daddy, per sponsorizzare il suo nuovo singolo, in uscita domani. Servitevi pure e ricordate che è il tutto è gratuito.
-Questo buffet è stato organizzato su gentile concessione del signor Daddy, per sponsorizzare il suo nuovo singolo, in uscita domani. Servitevi pure e ricordate che è il tutto è gratuito.
+This buffet has been arranged on mr. Daddy's kind behalf,<<n>>to promote his new song, coming out tomorrow.<<n>>You may serve yourselves and remember that everything<<n>>is free of charge.
 Ma guarda che bella tavolata! Se non ti dispiace io mi butto sul cibo, \PN!
-Ma guarda che bella tavolata! Se non ti dispiace io mi butto sul cibo, \PN!
+Look at all these delicacies! If you don't mind<<n>>I'm gonna dig in, \PN!
 Come avrai capito, Wallace Daddy è un vero esperto dei Pokémon di tipo Suono. Se vuoi metterlo alle strette, folgora l’impianto stereo con i Pokémon di tipo Elettro o distruggilo con quelli di tipo Drago!
-Come avrai capito, Wallace Daddy è un vero esperto dei Pokémon di tipo Suono. Se vuoi metterlo alle strette, folgora l’impianto stereo con i Pokémon di tipo Elettro o distruggilo con quelli di tipo Drago!
+As you may have guessed, Wallace Daddy is an expert<<n>>when it comes to Sound-type Pokémon.<<n>>If you want to give him a hard time, fry the stereo set with Electric-type or destroy it with Dragon-types!
 Wallace Daddy è un esperto del Suono, è vero... ma tu l’hai proprio suonato! Eh eh! Ora solo due Medaglie ti separano dal traguardo!
-Wallace Daddy è un esperto del Suono, è vero... ma tu l’hai proprio suonato! Eh eh! Ora solo due Medaglie ti separano dal traguardo!
+Wallace Daddy may be an expert on Sound alright...<<n>>but you really played him like a fiddle! Heh heh!<<n>>Now there are only two Badges left!
 Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
-Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
+What? You want to know who I am? And why?<<n>>You just need to know I'm cheering for you!
 Mi scusi ancora per l'inconveniente.
-Mi scusi ancora per l'inconveniente.
+Please forgive us for the inconvenience.
 Sharon
 Sharon
 Ho fatto un po’ di foto per il mio Instagram. Con l’hashtag #wallacedaddy farò tantissimi like!
-Ho fatto un po’ di foto per il mio Instagram. Con l’hashtag #wallacedaddy farò tantissimi like!
+I took some pics for my Instagram account. I'm gonna get tons of likes with the hashtag #wallacedaddy!
 Joe
 Joe
 È frustrante che il pezzo che ritieni più valido, talvolta, non venga compreso a pieno.
-È frustrante che il pezzo che ritieni più valido, talvolta, non venga compreso a pieno.
+It's frustrating when what you consider your best work, sometimes is not fully understood.
 Quei bignè non sono opera nostra... Anche se devo ammettere che erano davvero deliziosi!
-Quei bigné non sono opera nostra... Anche se devo ammettere che erano davvero deliziosi!
+We didn't cook those delicacies...but I have to admit<<n>>they really were good!
 Oh, eccoti qui!
-Oh, eccoti qui!
+Oh, here you are!
 Benvenuto|a finalmente nella Palestra di Leopoli, giovane Allenatore!
-Benvenuto|a finalmente nella Palestra di Leopoli, giovane Allenatore!
+Welcome, at last, to Hypelion City's Gym, young Trainer!
 La sfida di questa Palestra è davvero singolare, sai? Vedi questo enorme <b>QR Code</b> sul tappeto? Scannerizzandolo, verrai reindirizzato|a automaticamente sulla pagina Instagram <b>wallacedaddy</b>.
-La sfida di questa Palestra è davvero singolare, sai? Vedi questo enorme <b>QR Code</b> sul tappeto? Scannerizzandolo, verrai reindirizzato|a automaticamente sulla pagina Instagram <b>wallacedaddy</b>.
+This Gym's challenge is really peculiar, you know?<<n>>Do you see this huge <b>QR Code</b> on the carpet?<<n>>If you scan it, you'll be redirected to <b>wallacedaddy</b>'s Instagram page.
 Ormai sei come un libro aperto per me! Eh eh! Ti stai chiedendo cosa c’entrino i social, vero?
-Ormai sei come un libro aperto per me! Eh eh! Ti stai chiedendo cosa c’entrino i social, vero?
+I can read you like a book! Heh heh! You're wondering<<n>>what social networks have to do with this, aren't you?
+È proprio su quella pagina che troverai gli indizi necessari per raggiungere il Capopalestra su in cima!
+It's because that page holds the hints you need to reach<<n>>the Gym Leader at the top!
 Ovviamente, potresti anche ricavare gli stessi indizi sbirciando in giro per la Palestra, ma se Wallace Daddy in persona ha intenzione di darti una mano, io non la rifiuterei! Eh eh!
-Ovviamente, potresti anche ricavare gli stessi indizi sbirciando in giro per la Palestra, ma se Wallace Daddy in persona ha intenzione di darti una mano, io non la rifiuterei! Eh eh!
+You can, of course, guess the same hints by looking<<n>>around the Gym,<<n>>but Wallace Daddy’s help isn’t something you can<<n>>really turn down! Heh heh!
 Nooo! Se li sono pappati tutti!
-Nooo! Se li sono pappati tutti!
+Nooo! They wolfed them!
 Signori, ci dispiace davvero tanto che siate rimasti a bocca asciutta... Vi prego di accettare questa, come gesto di scusa.
-Signori, ci dispiace davvero tanto che siate rimasti a bocca asciutta... Vi prego di accettare questa, come gesto di scusa.
+Misters, we're really sorry you couldn't eat anything... Please accept this, as an apology.
 Ci scusi ancora per l'inconveniente.
-Ci scusi ancora per l'inconveniente.
+Please forgive us for the inconvenience.
 Uff... Quei pasticcini sembravano deliziosi...
-Uff... Quei pasticcini sembravano deliziosi...
+Boohoo...those sweets looked delicious...
 Vabbé, \PN... È il momento di andare!
-Vabbé, \PN... È il momento di andare!
+Whatever, \PN... It's time to go!
 Ah, quanto vorrei tornare all’epoca degli 8-bit... Quella sì che era musica!
-Ah, quanto vorrei tornare all’epoca degli 8-bit... Quella sì che era musica!
-Assistente Palestra
-Assistente Palestra
+I'd really love to go back to the era of 8-bit OSTs...<<n>>Dude||||Girl, that was music!
 Siamo spiacenti, ma al momento non è possibile accedere all'ascensore.
-Siamo spiacenti, ma al momento non è possibile accedere all'ascensore.
+We're sorry, but the elevator is out of use at the moment.
 Carol
 Carol
 La cucina è come la musica, può piacere o meno.
-La cucina è come la musica, può piacere o meno.
+In a lot of ways, cooking is like music.
 Wallace Daddy
 Wallace Daddy
 Damn, questo sì che è un bel problema... Io e te abbiamo gusti troppo simili in fatto di musica.
-Damn, questo sì che è un bel problema... Io e te abbiamo gusti troppo simili in fatto di musica.
+Dayum, now that's a problem...our tastes are way too close when it comes to music.
 Ci servirebbe proprio qualcun altro che abbia un orecchio diverso... Ma chi?
-Ci servirebbe proprio qualcun altro che abbia un orecchio diverso... Ma chi?
+We really need someone with a totally different set of ears...but who?
 \PN?!
 \PN?!
 Non sarai tornato|a per quell’invito speciale che t’avevo promesso? Sorry, ma non è un gran momento questo...
-Non sarai tornato|a per quell’invito speciale che t’avevo promesso? Sorry, ma non è un gran momento questo...
+I hope you aren't here for that special invitation<<n>>I promised you.<<n>>Sorry, but this isn't exactly the best of times...
 Oh, yeah! Ho trovato la persona che fa al caso nostro!
-Oh, yeah! Ho trovato la persona che fa al caso nostro!
+Oh, yeah! I just found the person we needed!
 Amico|a, ti spiego un attimo come stanno le cose! Vediamo...
-Amico|a, ti spiego un attimo come stanno le cose! Vediamo...
+Let me explain ya how things roll around here, buddy!<<n>>Lessee...
+Ho questo pezzo sul mio nuovo album che spacca un tot, ma sento che gli manca ancora qualcosa... Una bella voce cristallina sul beat di mio fratello ci starebbe come l’oro sui denti!
+I got this track on my new album that is really dope,<<n>>but I feel like something's missing there...<<n>>A nice crystal clear voice on my brother's beat<<n>>is like gold dust these days!
 Oh, già! Non vi ho ancora presentato...
-Oh, già! Non vi ho ancora presentato...
+Oh, yeah! You haven't met yet...
 'Sto bestione mascherato è il mio nuovo fratello... <b>S</b>! Wah ah ah!
-'Sto bestione mascherato è il mio nuovo fratello... <b>S</b>! Wah ah ah!
+This masked macho ovah here is my new brother...<<n>><b>S</b>! Wa ha ha!
 S
 S
-Ahem, <i>bzz</b>, pi-piacere!
-Ahem, <i>bzz</b>, pi-piacere!
+Ahem, <i>bzz</i>, pi-piacere!
+Ahem, <i>bzz</i>, pl-pleased to meet you!
+(Che imbarazzo... è il||la moccioso|a!)
+(How awkward...that's that damned boy|||gal!)
 Alright, e le presentazioni le abbiamo fatte!
-Alright, e le presentazioni le abbiamo fatte!
+Alright, introductions are done and done!
 Beh, comunque, come ti dicevo mi serve una voce per il ritornello di questa traccia, così...
-Beh, comunque, come ti dicevo mi serve una voce per il ritornello di questa traccia, così...
+Well, anyway, as I was tellin' ya I need a voice for<<n>>my track's refrain, so...
+Io e la mia troupe abbiamo messo in piedi 'sto talent!
+Me and my troupe put up a talent show!
 Ma un talent con due soli giudici, della stessa gang peraltro, sarebbe una vera pagliacciata, nah?
-Ma un talent con due soli giudici, della stessa gang peraltro, sarebbe una vera pagliacciata, nah?
+But a talent show with just two judges, from the same gang even, would be a joke, nah?
 Non è che t’andrebbe di farmi da terzo giudice? Hai anche un bel muso da TV, tu! Allora, che mi dici?
-Non è che t’andrebbe di farmi da terzo giudice? Hai anche un bel muso da TV, tu! Allora, che mi dici?
+Would ya like to be the third judge?<<n>>Your mug would be perfect on TV!<<n>>So, whaddya say?
 Oh, yeah! Sei proprio uno|a tosto tu, sì!
-Oh, yeah! Sei proprio uno|a tosto tu, sì!
+Oh, yeah! You're a lifesaver!
+Alright, let’s go allora! Abbiamo una vera star da trovare in mezzo a tutti 'sti giovani talenti qui!
+Alright, let's go then! There's a star among these young talents just waiting to slay this contest!
 Sei un po’ timidino|a tu, eh? Beh, fammi sapere se cambi idea, però!
-Sei un po’ timidino|a tu, eh? Beh, fammi sapere se cambi idea, però!
+You're a shy one, huh?<<n>>Well, lemme know if you change your mind!
 Si
 Yes
 No
@@ -9721,47 +9767,53 @@ No, man...
 Sebastian
 Sebastian
 Buona fortuna contro il signor Daddy!
-Buona fortuna contro il signor Daddy!
+Good luck against mr. Daddy!
 Complimenti, hai davvero meritato la vittoria.
-Complimenti, hai davvero meritato la vittoria.
+Congratulations, you really deserved the victory.
 Il talent show ''In cerca di una stella!'' procede a gonfie vele! Siamo sulla buona strada per trovare la voce che serve al signor Daddy!
-Il talent show ''In cerca di una stella!'' procede a gonfie vele! Siamo sulla buona strada per trovare la voce che serve al signor Daddy!
+The talent show ''Looking for a star!'' is going<<n>>as smoothly as it can!<<n>>We’re just about to find the voice mr. Daddy needs!
 S
 S
 Ah, sei tu. Se ti rivolgo la parola è solo perché Santana ha stima di te... Ma ora smamma, qui stiamo lavorando al nuovo disco!
-Ah, sei tu. Se ti rivolgo la parola è solo perché Santana ha stima di te... Ma ora smamma, qui stiamo lavorando al nuovo disco!
+Oh, it's you. If I'm talking to you it's only because<<n>>Santana respects you...<<n>>Now scram, we've got work to do for the new album!
 <<[>>old<<]>>La porta è chiusa a chiave.
 <<[>>old<<]>>The door is locked.
 ???
 ???
 Benvenuto nel Golden Studio, giovane Allenatore!
-Benvenuto nel Golden Studio, giovane Allenatore!
+Welcome to the Golden Studio, young Trainer!
+Come dici? Vuoi sapere come sia finito qui? È presto detto!
+What? You wanna know how I got here?<<n>>Easy peasy!
 Il signor Wallace Daddy mi ha nominato terzo giudice fisso del suo talent show... è un sogno che si avvera!
-Il signor Wallace Daddy mi ha nominato terzo giudice fisso del suo talent show... è un sogno che si avvera!
+Mr. Wallace Daddy took me as the third judge of<<n>>his talent show...it's a dream come true!
 Ma non preoccuparti, \PN, continuo a fare il tifo per te!
-Ma non preoccuparti, \PN, continuo a fare il tifo per te!
+But don't worry, \PN, I'll always keep cheering<<n>>for you!
 <<[>>old<<]>>Non c'è niente...
 <<[>>old<<]>>There's nothing here...
 Oh! Qualcuno è riuscito ad arrivare fin quassù, incredibile!
-Oh! Qualcuno è riuscito ad arrivare fin quassù, incredibile!
+Oh! Someone managed to get up here, incredible!
 Il signor Daddy è qui dietro, ma prima di raggiungerlo, voglio che tu risponda ad una semplice domanda...
-Il signor Daddy è qui dietro, ma prima di raggiungerlo, voglio che tu risponda ad una semplice domanda...
+Mr. Daddy is just ahead, but before you reach him,<<n>>I want you to answer a simple question...
 Qual è il titolo del suo primo album certificato come disco d’oro?
-Qual è il titolo del suo primo album certificato come disco d’oro?
+What is the title of his first album that was certified<<n>>as a gold record?
 Esatto! Devi proprio essere un fan di lunga data, tu!
-Esatto! Devi proprio essere un fan di lunga data, tu!
+Correct! You really are a long time fan!
+Ma ora, veniamo a noi! Per varcare questa porta, dovrai passare sul mio onore di Manager!
+And now, let's talk about us! If you want to pass through here, you'll have to get through my honor as a Manager!
 Un vero talento...!
-Un vero talento...!
+You are a real talent...!
 Sbagliato! ''Re della Giungla'' è il suo ultimo disco!
-Sbagliato! ''Re della Giungla'' è il suo ultimo disco!
+Wrong! ''King of the Jungle'' was his latest record!
+Per penitenza, a tutti i tuoi Pokémon sarà inferta un’alterazione di stato. E ora, veniamo a noi! Per varcare questa porta, dovrai passare sul mio onore di Manager!
+As a penalty, all your Pokémon will be afflicted with<<n>>a status condition.<<n>>And now, let's talk about us! If you want to pass through here, you'll have to get through my honor as a Manager!
 Sbagliato! ''Fari Puntati'' è uno dei più venduti, ma non di certo il primo!
-Sbagliato! ''Fari Puntati'' è uno dei più venduti, ma non di certo il primo!
+Wrong! ''All Lightz on Me'' is one of the best sellers,<<n>>but not the first!
 Sbagliato! ''Indigeno'' non è altro che il titolo del primo demo del signor Daddy!
-Sbagliato! ''Indigeno'' non è altro che il titolo del primo demo del signor Daddy!
+Wrong! ''Native'' is only the title of mr. Daddy's first demo!
 Mi hai dimostrato di essere un valido avversario e sono certo che anche il signor Daddy la penserà così!
-Mi hai dimostrato di essere un valido avversario e sono certo che anche il signor Daddy la penserà così!
+You proved to me you are a worthy opponent<<n>>and I'm sure mr. Daddy will think so as well!
 Però, devi essere in forma per affrontarlo, perciò lascia che curi i tuoi Pokémon!
-Però, devi essere in forma per affrontarlo, perciò lascia che curi i tuoi Pokémon!
+But, you have to be in full health to face him, so let me heal your Pokémon!
 Dalle stalle alle stelle
 Rags to Riches
 Re della Giungla
@@ -9774,35 +9826,45 @@ Native
 Wallace Daddy
 Wallace Daddy
 Oh, yeah! Sei proprio uno|a tosto|a, tu!
-Oh, yeah! Sei proprio uno|a tosto|a, tu!
+Oh, yeah! You are a tough one, aren't ya?
+Pensavo di averli nascosti per bene gli indizi per arrivare quassù, e invece m'hai fregato! Wah ah ah!
+I thought I hid the clues to get up here better,<<n>>but ya got me! Wa ha ha!
 Sei partito|a dal basso e sei riuscito|a a raggiungere il top, ma mi dispiace per te, amico|a...
-Sei partito|a dal basso e sei riuscito|a a raggiungere il top, ma mi dispiace per te, amico|a...
+You went from rags to riches, but I'm sorry, buddy...
+Sei finito|a dritto|a dritto|a nelle fauci dorate del leone, con tutte le scarpe per giunta!! In questa giungla d'asfalto, c'è posto per un solo re! Se vuoi 'sta corona, vieni a prendertela!
+You went straight into the lion's golden fangs,<<n>>all in one bite!!<<n>>In this urban jungle, there can only be one king!<<n>>If you want my crown, come and get it!
 Prima però...
-Prima però...
+But first...
+Fammi mettere su un beat bello potente, voglio essere super carico per 'sta lotta!
+Lemme put a powerful beat, I wanna be all fired up<<n>>for this battle!
 C'mon, venderò care le zanne!!
-C'mon, venderò care le zanne!!
+C'mon, I'll sell my fangs dearly!!
 Oh, bwoy! Picchi più forte di rullante e cassa...!
-Oh, bwoy! Picchi più forte di rullante e cassa...!
+Oh, bwoy! You hit harder than a bass drum snare...!
 Oh, bwoy! Ma come fai ad essere così forte?!
-Oh, bwoy! Ma come fai ad essere così forte?!
+Oh, bwoy! How can you be this strong?!
 Bah, chissene importa... mi hai proprio stracciato, però!
-Bah, chissene importa... mi hai proprio stracciato, però!
+Ah, whatevs...you nailed me good, fella!
+Non le prendevo così tanto da quando il vecchiaccio mi stava addosso! Wah ah ah!
+Last time I was beaten this much was when the old geezer<<n>>was still naggin' me! Wa ha ha!
 Ma sono state proprio le batoste a rendermi più forte e a farmi diventare quello che sono ora... Se non avessi sbattuto così tante volte la testa su quel muro, chissà che fine avrei fatto!
-Ma sono state proprio le batoste a rendermi più forte e a farmi diventare quello che sono ora...  Se non avessi sbattuto così tante volte la testa su quel muro, chissà che fine avrei fatto!
+But is this kinda beatings that made me strong, turning me into who I am now...<<n>>If I hadn't smacked my head on that wall so much,<<n>>I don't know where I'd be now!
 \PN, se anche tu hai un sogno da raggiungere, rendilo il tuo sole, la tua ragione di vita. Anche quando tutto sembra crollare, vai avanti e afferralo stretto come 'sta Medaglia!
-\PN, se anche tu hai un sogno da raggiungere, rendilo il tuo sole, la tua ragione di vita. Anche quando tutto sembra crollare, vai avanti e afferralo stretto come 'sta Medaglia!
+\PN, if you have a dream, make it your sun,<<n>>your purpose in life.<<n>>Even when everything seems to fall apart, keep going<<n>>and seize the day like you're seizing this Badge!
 Visto che bling-bling? La mia <b>Medaglia Ritmo</b> è proprio un bel pezzo d’oro ed è tutto tuo ora! Wah ah ah!
-Visto che bling-bling? La mia <b>Medaglia Ritmo</b> è proprio un bel pezzo d’oro ed è tutto tuo ora! Wah ah ah!
+See the ice? My <b>Beat Badge</b> is a nice piece of gold and it's all yours now! Wa ha ha!
 Ti avevo anche promesso un autografo, ma, dopo quello che hai fatto per la mia città, sarebbe troppo poco... Voglio darti questa!
-Ti avevo anche promesso un autografo, ma, dopo quello che hai fatto per la mia città, sarebbe troppo poco... Voglio darti questa!
+I promised you an autograph as well, but after what you did for my town, it wouldn't be enough...<<n>>I want you to have this!
 Quella MT contiene la mia mossa preferita, <b>Trematutto</b>!
-Quella MT contiene la mia mossa preferita, <b>Trematutto</b>!
+That TM contains my favorite move--<b>Subwoofer</b>!
+Ai Pokémon che la usano basterà urlare per far capire ai nemici chi comanda e farli tentennare! Che forza, huh? Sono sicuro che stia proprio a pennello per un Allenatore tosto come te, \PN!
+Any Pokémon who uses this move will scream, showin' the foes who's the boss and makin' them flinch! Cool, huh?<<n>>I'm sure a tough Trainer like you will make the best<<n>>of it, \PN!
 Giuro che ora ho finito con tutte ‘ste chiacchiere, eh! Ci si becca alla prossima, amico|a! Chissà che non ci scappi un invito speciale per il release party del prossimo album! Wah ah ah!
-Giuro che ora ho finito con tutte ‘ste chiacchiere, eh! Ci si becca alla prossima, amico|a! Chissà che non ci scappi un invito speciale per il release party del prossimo album! Wah ah ah!
+I swear I'm done with the chit-chat, heh!<<n>>See ya next time, buddy!<<n>>I may have a special invite for the release party<<n>>of my next record! Wa ha ha!
 Chissà che non ci scappi un invito speciale per il release party del prossimo album! Wah ah ah!
-Chissà che non ci scappi un invito speciale per il release party del prossimo album! Wah ah ah!
+I may have a special invite for the release party<<n>>of my next record! Wa ha ha!
 Oh, \PN! Come butta? T’ho detto che forse ho trovato la cantante?
-Oh, \PN! Come butta?  T’ho detto che forse ho trovato la cantante?
+Oh, \PN! Whassup? Did I tell ya I may<<n>>have found the singer?
 Slurpuff
 Slurpuff
 Slur! Slur!
@@ -9849,75 +9911,81 @@ Slur...!
 Wallace Daddy
 Wallace Daddy
 Oh, ma...! Whatta hell?! Quel panzone è diventato... minuscolo!
-Oh, ma...! Whatta hell?! Quel panzone è diventato... minuscolo!
+Oh, um...! Whadda hell?!<<n>>That tubbo has become so...tiny!
 ???
 ???
 Era ovvio che non fosse la sua vera forma, sennò come avrebbe fatto a intrufolarsi in Palestra? Dev'essersi ingigantito solo dopo aver assorbito energia tramite quei misteriosi dolcetti... Eh eh!
-Era ovvio che non fosse la sua vera forma, sennò come avrebbe fatto a intrufolarsi in Palestra? Dev'essersi ingigantito solo dopo aver assorbito energia tramite quei misteriosi dolcetti... Eh eh!
+It's obvious that it wasn't its real form, otherwise<<n>>how could it have sneaked into the Gym?<<n>>It must have turned into a giant only after absorbing energy through those mysterious sweets... Heh heh!
 Oh, right! Sei proprio un geniaccio tu!
-Oh, right! Sei proprio un geniaccio tu!
+Oh, right! You're a legit genius!
 Alright! È ora di fargliela pagare a 'sto piccolo bastar...
-Alright! È ora di fargliela pagare a 'sto piccolo bastar...
+Alright! It's time to make this lil' bastard pay fo-
 Slur...
 Slur...
 Sembra stia piangendo...
-Sembra stia piangendo...
+Is it crying...?
 Quelle...
-Quelle...
+That...
 Quelle sono lacrime di tristezza, non di sconfitta!
-Quelle sono lacrime di tristezza, non di sconfitta!
+That is a sad cry, not a defeat one!
 Ehi, piccoletto! Dimmi un po'... Ti piace la musica? È per questo che sei venuto qui in città, nah?
-Ehi, piccoletto! Dimmi un po'... Ti piace la musica? È per questo che sei venuto qui in città, nah?
+Hey, lil' guy! Tell me...you like music?<<n>>Is that why you've come to this town, don't cha?
 Wah ah ah! Come darti torto? Ma allora per...!
-Wah ah ah! Come darti torto? Ma allora per...!
+Wa ha ha! Can't blame ya! But then why-
 Sluuuuuur...!
 Sluuuuuur...!
 Ehi, ma che diavolo fai?!
-Ehi, ma che diavolo fai?!
+Hey, whatta hell are ya doin'?!
 Tranquillo, Daddy. Sta usando la sua mossa Pulifumo... Sembra voglia rimediare al guaio che ha combinato.
-Tranquillo, Daddy. Sta usando la sua mossa Pulifumo... Sembra voglia rimediare al guaio che ha combinato.
+Don't worry. It's using its Clear Smog move...seems like<<n>>it wants to make amends for what it has done.
 Oh, davvero? Grandioso! Quindi non l'hai fatto con cattive intenzioni!
-Oh, davvero? Grandioso! Quindi non l'hai fatto con cattive intenzioni!
+Oh, really? Cool! So you aren't a bad guy at all!
 Ma certo, dev'essere andata così!
-Ma certo, dev'essere andata così!
+Of course, now I get it!
+Volevi solo dare il tuo contributo, ma non sapevi che quei dolcetti fossero come veleno per noi umani...
+You only wanted to help, but you didn't know those sweets were poisonous for us humans...
 Slur! Slur!
 Slur! Slur!
 Sai, piccoletto...
-Sai, piccoletto...
+Y'now, lil' guy...
+Quando ancora bazzicavo per Alola, un uomo che lavorava in un negozio di Malasade mi disse che, chi sa cucinare, non può essere una cattiva persona...
+When I was still bustin' in Alola, a man working<<n>>in a Malasada shop told me<<n>>that someone who can cook can't be a bad guy...
 E, guarda un po' tu, quella baracca aveva proprio uno Slurpuff sull'insegna!
-E, guarda un po' tu, quella baracca aveva proprio uno Slurpuff sull'insegna!
+And, wouldn't ya know, that kiosk's sign had a Slurpuff on it!
 Alright! Ho preso la mia decisione!
-Alright! Ho preso la mia decisione!
+Alright! I've made my decision!
 Listen up, Slurpuff... Ti va di unirti alla mia squadra?
-Listen up, Slurpuff... Ti va di unirti alla mia squadra?
+Listen up, Slurpuff...would ya like to join my team?
 Ehi, Daddy! Non ti sembra di correre troppo?
-Ehi, Daddy! Non ti sembra di correre troppo?
+Hey, Daddy! Don't you think you're going a little ahead<<n>>of yourself?
 Sono cose che solo chi ha vissuto per strada può capire... Quando ti trovi da solo, senza niente e nessuno, basta poco per sentirsi parte di un gruppo... E la musica è ciò che ci accomuna!
-Sono cose che solo chi ha vissuto per strada può capire... Quando ti trovi da solo, senza niente e nessuno, basta poco per sentirsi parte di un gruppo... E la musica è ciò che ci accomuna!
+These are things that only someone who lived<<n>>in the hood can get...<<n>>When you're alone, all by yourself, you just need a lil' push to feel part of a group...<<n>>And music is something that unites people!
 Dico bene, piccoletto?
-Dico bene, piccoletto?
+Am I right, lil' guy?
 Wah ah ah! Ben detto, my boy!
-Wah ah ah! Ben detto, my boy!
+Wa ha ha! Well said, mah boy!
 Però non puoi catturare questo Pokémon con una comune Ball poiché non proviene da Eldiw, bensì da...
-Però non puoi catturare questo Pokémon con una comune Ball poiché non proviene da Eldiw, bensì da...
+But you can't catch this Pokémon with a regular Ball<<n>>because it's not from Eldiw, but from anoth-
 Ah, ma chi vuole rinchiuderlo in una Poké Ball! 'Sto tipetto mi sembra uno tosto, uno spirito libero!
-Ah, ma chi vuole rinchiuderlo in una Poké Ball! 'Sto tipetto mi sembra uno tosto, uno spirito libero!
+Ah, I never said I was gonna close it in a Poké Ball!<<n>>This fella looks like a tough guy, a free spirit!
 Com'è che hai detto poi? Non viene da Eldiw...? Ma quante cose abbiamo in comune?! Wah ah ah!
-Com'è che hai detto poi? Non viene da Eldiw...? Ma quante cose abbiamo in comune?! Wah ah ah!
+And what's that you said? It's not from Eldiw...? It's one<<n>>more thing we have in common, then! Wa ha ha!
 Ho trovato un nuovo fratello e tutto grazie a te, \PN!
-Ho trovato un nuovo fratello e tutto grazie a te, \PN!
+I found a new brother thanks to you, \PN!
+Hai detto di essere un Allenatore, quindi suppongo tu sia qui per suonarmele in Palestra, nah?
+You said you're a Trainer, so I suppose you came here<<n>>to tussle with me at the Gym, nah?
 Alright, challenge accepted! Però... Non puoi mica già partire dalla vetta!
-Alright, challenge accepted! Però... Non puoi mica già partire dalla vetta!
+Alright, challenge accepted! Although...you can't aim<<n>>for the top from the get go!
 Come nella musica, anche in questa Palestra bisogna iniziare dalla gavetta, perciò...
-Come nella musica, anche in questa Palestra bisogna iniziare dalla gavetta, perciò...
+Just like with music biz, you gotta start from the bottom<<n>>in my Gym as well, so...
 Let's go, Noivern! Riportali ai piedi del palazzone!
-Let's go, Noivern! Riportali ai piedi del palazzone!
+Let's go, Noivern! Bring them back at the bottom of<<n>>the building!
 Noivern
 Noivern
 Veeern...!
 Veeern...!
 Bye-bye, amico|a! See ya later!
-Bye-bye, amico|a! See ya later!
+Bye, buddy! See ya later!
 Sì
 Yes
 No
@@ -10313,9 +10381,9 @@ Dalle stelle alle stalle in tempo record...
 ???
 ???
 Stai andando alla grande, \PN! Vedo proprio che hai il ritmo nel sangue! Eh eh!
-Stai andando alla grande, \PN! Vedo proprio che hai il ritmo nel sangue! Eh eh!
+You're doing great, \PN! I see you have rhythm<<n>>in your blood! Heh heh!
 Questa è la <b>Sala Dance</b>, zeppa di Breaker e gente che col ballo ci sa fare... E tu, come te la cavi, invece? L’indizio come al solito si cela sull'Instagram di <b>wallacedaddy</b>!
-Questa è la <b>Sala Dance</b>, zeppa di Breaker e gente che col ballo ci sa fare... E tu, come te la cavi, invece? L’indizio come al solito si cela sull'Instagram di <b>wallacedaddy</b>!
+This is the <b>Dance Room</b>, chock full of Breakers and dance experts...are you a good dancer, by the way?<<n>>The hint, as usual, is hidden in <b>wallacedaddy</b>'s<<n>>Instagram page!
 <<[>>old<<]>>Il cestino contiene qualcosa.
 <<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
@@ -10329,7 +10397,7 @@ Troppo tardi per tornare indietro e scegliere di ballare...?
 Jona
 Jona
 Ehi, ehi! Questa è l’area riservata ai vip, amico|a!
-Ehi, ehi! Questa è l’area riservata ai vip, amico|a!
+Hey ya! This is the VIP area, mate!
 <<[>>old<<]>>Qui non c'è niente...
 <<[>>old<<]>>There's nothing here...
 Jake
@@ -10387,7 +10455,7 @@ Dove li hai imparati quei passi?
 Insegnami quei passi, ti scongiuro! Sono pronta a cederti questo, guarda!
 Insegnami quei passi, ti scongiuro! Sono pronta a cederti questo, guarda!
 <<[>>old<<]>>È Wallace Daddy che si scatena sulla pista da ballo. C'è anche il suo autografo.
-<<[>>old<<]>>È Wallace Daddy che si scatena sulla pista da ballo. C'è anche il suo autografo.
+<<[>>old<<]>>It's a pic of Wallace Daddy hitting the dance floor. There's his autograph too!
 Allora, affare fatto?
 Allora, affare fatto?
 Non posso crederci che sei riuscito|a a sconfiggere Wallace! Sei pazzesco|a, ora mi fai un autografo?
@@ -12523,87 +12591,95 @@ Rapidash has decided that its baby is ready to take<<n>>its own path now--and wh
 Jimmy
 Jimmy
 Il pubblico di oggi è carico a palla! Guarda, sono tutti elettrizzati per i miei assoli di chitarra!
-Il pubblico di oggi è carico a palla! Guarda, sono tutti elettrizzati per i miei assoli di chitarra!
+The public is hyped as heck today! Look at that, my guitar solo's making 'em jazzed!
 Sei riuscito|a a suonarle a quella spilungona di Tina, eh? Ora tocca a me allora!
-Sei riuscito|a a suonarle a quella spilungona di Tina, eh? Ora tocca a me allora!
+Heard you knocked the stuffin' outta that tall stick Tina!<<n>>OK, I'm up next then!
 <b>Jimmy</b>, qua la mano! Sono l’elettrizzante chitarrista dei ''The Roggenrola''!
-<b>Jimmy</b>, qua la mano! Sono l’elettrizzante chitarrista dei ''The Roggenrola''!
+I'm <b>Jimmy</b>, let's shake hands! I'm the electrifying Guitarist of ''The Roggenrola''!
+Se cerchi il pass, ti dico subito che non ce l’ho io, ma tu non ti tirerai mica indietro per questo, vero? Vieni a prendere la scossa, su!
+If it's the ticket you want, lemme tell ya I ain't got it...<<n>>but you're not backing out for such a thing, do you?<<n>>Come and get the shock, c'mon!
 La scossa l’ho presa io e in pieno!
-La scossa l’ho presa io e in pieno!
+I got totally shocked!
 <<[>>old<<]>>Il pubblico preso dall’euforia ti scaraventa fuori dalla sala.
-<<[>>old<<]>>Il pubblico preso dall’euforia ti scaraventa fuori dalla sala.
+<<[>>old<<]>>The crowd was swept up in the moment and threw you outside.
 Cavolo, amico|a! Mi hai mandato in blackout totale!
-Cavolo, amico|a! Mi hai mandato in blackout totale!
+Damn, dude||||girl! You totally blacked me out!
 Per il pass, prova a chiedere a quel panzone di <b>Dave</b>, il batterista!
-Per il pass, prova a chiedere a quel panzone di <b>Dave</b>, il batterista!
+Oh, for the ticket, try asking that tubbo <b>Dave</b>,<<n>>the Drummer!
 Da quando è tornato, Freddie mi sembra diverso... È molto più motivato di prima!
-Da quando è tornato, Freddie mi sembra diverso... È molto più motivato di prima!
+Since when he came back, Freddie looks different...<<n>>He's more motivated than before!
 Tina
 Tina
 Complimenti, sei riuscito|a a farti spazio tra la folla nonostante la stazza minuta.
-Complimenti, sei riuscito|a a farti spazio tra la folla nonostante la stazza minuta.
+Well done. Despite your size, you managed to pass<<n>>through all these people here.
+Io sono <b>Tina</b>, la bassista dei ''The Roggenrola'', la band che apre i concerti a Wallace Daddy.
+I'm <b>Tina</b>, the Bassist of ''The Roggenrola'', the band that opens Wallace Daddy's concerts.
 Ti serve il pass per proseguire la scalata? Se vuoi saperne qualcosa, prima battiti con me. Avanti.
-Ti serve il pass per proseguire la scalata? Se vuoi saperne qualcosa, prima battiti con me. Avanti.
+You need the ticket to go up, don't you? If you want me<<n>>to tell you something, fight me first. Come on.
 Mi hai teso come le corde di un basso.
-Mi hai teso come le corde di un basso.
+You strung me tight as a bass.
 Una bella figuraccia perdere davanti a tutta questa gente...
-Una bella figuraccia perdere davanti a tutta questa gente...
+What a shame I lost in front of all these people...
 Ad ogni modo, non sono io ad avere il pass che cerchi. <b>Jimmy</b>, il chitarrista, potrebbe saperne qualcosa.
-Ad ogni modo, non sono io ad avere il pass che cerchi. <b>Jimmy</b>, il chitarrista, potrebbe saperne qualcosa.
+By the way, I ain't got no ticket, but maybe <b>Jimmy</b>, the Guitarist, should have one.
 Ah, Freddie se n’era andato...?
-Ah, Freddie se n’era andato...?
+Oh, was Freddie gone...?
 Bruta
-Bruta
+Moxie
 Ci vorrebbe la Forza di un Hercurcules per farsi spazio tra quella folla di assatanati laggiù...
-Ci vorrebbe la Forza di un Hercurcules per farsi spazio tra quella folla di assatanati laggiù...
+You'd need an Hercurcules' Strength to pass through<<n>>that army of rabid fans over there...
 Freddie
 Freddie
 La mia voce manda la folla in visibilio!
-La mia voce manda la folla in visibilio!
+The crowd loves my voice!
 Leopoli, sei davvero un pubblico eccezionale! Allora, un caloroso benvenuto ai ''The Roggenrola''!
-Leopoli, sei davvero un pubblico eccezionale! Allora, un caloroso benvenuto ai ''The Roggenrola''!
+Hypelion City, you really are an outstanding audience!<<n>>Let me hear a big welcome to ''The Roggenrola''!
 Ehi, ci stiamo esibendo qui! Giù dal palco, forza! Gli autografi a dopo!
-Ehi, ci stiamo esibendo qui! Giù dal palco, forza! Gli autografi a dopo!
+Hey, can't you see we're busy now?! Get off the stage! Autographs later!
 Mh, capisco. Ti serve il pass per il prossimo piano... Beh, sei fortunato|a che io ne abbia uno qui con me!
-Mh, capisco. Ti serve il pass per il prossimo piano... Beh, sei fortunato|a che io ne abbia uno qui con me!
+Oh, I got it. You need the ticket for the next level...<<n>>Well, you're pretty lucky I have one here!
 Te lo cederò solo se darai spettacolo con me in una lotta Pokémon condita con del sano rock!!
-Te lo cederò solo se darai spettacolo con me in una lotta Pokémon condita con del sano rock!!
+But I'm going to give it to you only if you will rock<<n>>this Pokémon battle!!
 Che spettacolo entusiasmante!
-Che spettacolo entusiasmante!
+What an exciting show!
 Stile ed eleganza si sono intrecciati a doppio filo in questo spettacolo! Ecco a te il Pass che tanto cercavi!
-Stile ed eleganza si sono intrecciati a doppio filo in questo spettacolo! Ecco a te il Pass che tanto cercavi!
+Style and elegance intertwined in an authentic show!<<n>>Here the Ticket you've been looking for!
 Ora giù dal palco, però! Lo spettacolo deve continuare!
-Ora giù dal palco, però! Lo spettacolo deve continuare!
+Get off the stage now! The show must go on!
 Leopoli, fammi sentire che ci sei!
-Leopoli, fammi sentire che ci sei!
+Hypelion, give me your voice!!
 Il mio destino è essere il Frontman dei ''The Roggenrola''!
-Il mio destino è essere il Frontman dei ''The Roggenrola''!
+My destiny is to be the Frontman of<<n>>''The Roggenrola''!
 ???
 ???
 Per proseguire dovrai mettere le mani sul prossimo pass, ma prima trova il modo di farti strada nel pubblico! L’indizio come al solito si cela sull’Instagram di <b>wallacedaddy</b>!
-Per proseguire dovrai mettere le mani sul prossimo pass, ma prima trova il modo di farti strada nel pubblico! L’indizio come al solito si cela sull’Instagram di <b>wallacedaddy</b>!
+To progress you'll need to get the next ticket, but first<<n>>you need to find a way to get through the audience!<<n>>As usual, the hint is hidden in <b>wallacedaddy</b>'s<<n>>Instagram page!
 Dave
 Dave
 Ci penso io a dare la carica a tutti! Grah ah ah!
-Ci penso io a dare la carica a tutti! Grah ah ah!
+Lemme fire up the boys here! Gra ha ha!
 Non riesco a sentirti, la musica è troppo alta!!
-Non riesco a sentirti, la musica è troppo alta!!
+I can't hear ya! The music's too loud!!
 Come dici?! Una lotta Pokémon?! Ma sì, che vuoi che sia!
-Come dici?! Una lotta Pokémon?!  Ma sì, che vuoi che sia!
+What?! A Pokémon battle, you say?!<<n>>Yeah, why not?!
 Ehi, mi senti?! Ho perso il ritmo!!
-Ehi, mi senti?! Ho perso il ritmo!!
+Hey, can ya hear me?! I'm off the beat!
 Sei forte, ragazzino|a!
-Sei forte, ragazzino|a!
+You sure are strong, kid!
 Ah, ma quindi mi avevi chiesto del pass prima!
-Ah, ma quindi mi avevi chiesto del pass prima!
+Oh, so you were asking me for the ticket before!
+Io non ce l’ho, ma stai certo|a che <b>Freddie</b>, il nostro frontman, può aiutarti!
+I don't have it, but I'm sure <b>Freddie</b>, our Frontman, can give ya one!
 Freddie è tornato finalmente! Ci penserò io a dargli la carica!
-Freddie è tornato finalmente! Ci penserò io a dargli la carica!
+Freddie is finally back! I'll be the one to charge him up<<n>>for good!
 Sapevo che avresti avuto occhio per accaparrarti il primo pass, \PN!
-Sapevo che avresti avuto occhio per accaparrarti il primo pass, \PN!
+I knew you would have gotten the first ticket easily,<<n>>\PN!
 Questa è la <b>Sala Rock</b>, il primo piano della Palestra Ritmo, quello dove più ci si dimena!
-Questa è la <b>Sala Rock</b>, il primo piano della Palestra Ritmo, quello dove più ci si dimena!
+This is the <b>Rock Room</b>, the first floor of the Hypelion Gym, and the most exciting one!
 Oh, dimenticavo! Se dovessi rimanere incastrato|a nel pubblico, la sicurezza verrà a darti una mano. Ti basterà premere il <b>tasto R</b> per chiamarla!
-Oh, dimenticavo! Se dovessi rimanere incastrato|a nel pubblico, la sicurezza verrà a darti una mano. Ti basterà premere il <b>tasto R</b> per chiamarla!
+Oh, right! If you get caught in the crowd, security will<<n>>come and help you.<<n>>Just hit the <b>R-key</b> to call it!
+Se dovessi rimanere incastrato|a nel pubblico, la sicurezza verrà a darti una mano. Ti basterà premere il <b>tasto R</b> per chiamarla!
+If you get caught in the crowd, security will come and<<n>>help you. Just hit the <b>R-key</b> to call it!
 [Map278]
 <<[>>old<<]>>Vietato l'accesso
 <<[>>old<<]>>Access denied
@@ -19880,207 +19956,225 @@ Tsk! Certo che sei proprio ingenua.
 Sebastian
 Sebastian
 Signore e signori, vi do il benvenuto al nuovissimo talent ''In cerca di una stella!'' organizzato dal signor Daddy!
-Signore e signori, vi do il benvenuto al nuovissimo talent ''In cerca di una stella!'' organizzato dal signor Daddy!
+Ladies and gentlemen, I welcome you to the new talent show ''Looking for a star!'' brought to you by mr. Daddy!
 Ma presentiamo subito la nostra giuria d’eccezione!
-Ma presentiamo subito la nostra giuria d’eccezione!
+But let's introduce our exceptional judges!
 Comparso come un fulmine a ciel sereno, con la sua enorme armatura d’acciaio lucidata a specchio...
-Comparso come un fulmine a ciel sereno, con la sua enorme armatura d’acciaio lucidata a specchio...
+Hailing from no one knows where, with a steel armor<<n>>as shiny as a mirror...
 Un applauso al giudice S, beatmaker di fiducia del signor Daddy!
-Un applauso al giudice S, beatmaker di fiducia del signor Daddy!
+A round of applause for judge S, mr. Daddy's trusty beatmaker!
 S
 S
 Preferirei <b>Sergente</b> S, damerino!
-Preferirei <b>Sergente</b> S, damerino!
+I'd rather be called <b>Sergeant</b> S, you fancy pants!
 Il secondo giudice non ha bisogno di presentazioni, ma qui non ci risparmiamo!
-Il secondo giudice non ha bisogno di presentazioni, ma qui non ci risparmiamo!
+Our second judge needs no introduction, but he still deserves one!
 L’aloliano che tutti quanti abbiamo imparato a conoscere ed amare in questi anni... L’uomo che con le sue hit da record ha scalato tutte le classifiche mondiali...
-L’aloliano che tutti quanti abbiamo imparato a conoscere ed amare in questi anni...  L’uomo che con le sue hit da record ha scalato tutte le classifiche mondiali...
+The Alolan all of us have learned to know and love<<n>>for all these years...<<n>>The man that climbed the top of all rankings worldwide<<n>>with his record-breaking hits...
+Il ruggito del leone dalle fauci dorate... il signor Wallace Daddy, la stella di Leopoli nonché di tutta Eldiw!
+The roar of the golden-fanged lion...mr. Wallace Daddy,<<n>>Hypelion's and Eldiw's shining star!
 Wallace Daddy
 Wallace Daddy
 Oh, yeah!! Qui siamo pronti al bangarang!
-Oh, yeah!! Qui siamo pronti al bangarang!
+Oh, yeah!! We're ready to smash ovah here!
 E infine il terzo giudice! L’ago della bilancia tra i severi gusti di S e il palato sopraffino del signor Daddy...
-E infine il terzo giudice! L’ago della bilancia tra i severi gusti di S e il palato sopraffino del signor Daddy...
+And lastly our third judge! The deciding factor between<<n>>S' rigid tastes and mister Daddy's expert ears...
 L’Allenatore che è addirittura riuscito a mettere alle strette il nostro amato Capopalestra...
-L’Allenatore che è addirittura riuscito a mettere alle strette il nostro amato Capopalestra...
+The Trainer who managed to get our beloved Gym Leader<<n>>in a pinch...
+Fatemi sentire un caldo benvenuto per il||la nostro|a \PN!!
+Please let me hear your warm welcome for our \PN!!
 Molto bene, signori. Se voi siete d’accordo, io partirei subito con il primo talento della giornata!
-Molto bene, signori. Se voi siete d’accordo, io partirei subito con il primo talento della giornata!
+Very well, audience. Without further ado, I'd start<<n>>immediately with today's first talent!
 Accomodati pure!
-Accomodati pure!
+Please, on stage!
 <b>Adriano</b> arriva direttamente dalla regione di Kanto!
-<b>Adriano</b> arriva direttamente dalla regione di Kanto!
+This is <b>Nash</b> from the Kanto region!
+Con la sua voce graffiante è riuscito a conquistare la giuria dei provini... riuscirà a convincere i nostri giudici? Signor Daddy, a lei la parola!
+With his raspy voice he managed to win the jury at<<n>>the audition...will he be able to convince our judges?<<n>>Mr. Daddy, please do the honors!
 Alright, Adriano! Fammi vedere come te la cavi con la voce... nel bel mezzo di una lotta Pokémon!
-Alright, Adriano! Fammi vedere come te la cavi con la voce... nel bel mezzo di una lotta Pokémon!
+Alright, Nash! Lemme see how good you're with your voice...<<n>>in the middle of a Pokémon battle!
 Qui cerchiamo qualcuno che sappia il fatto suo in ogni campo... or nah, S?
-Qui cerchiamo qualcuno che sappia il fatto suo in ogni campo... or nah, S?
+We're looking for someone who can handle themselves<<n>>in any field...am I rite, S?
 Puoi dirlo forte, Santana!! Non vogliamo mica che delle mezze calzette collaborino con noi!
-Puoi dirlo forte, Santana!! Non vogliamo mica che delle mezze calzette collaborino con noi!
+You betcha, Santana!! We don't wanna get ourselves<<n>>involved with amateurs!
 Oh, yeah! È per questo che ho voluto che \PN si unisse a noi!
-Oh, yeah! È per questo che ho voluto che \PN si unisse a noi!
+Oh, yeah! That's why I wanted \PN to join us!
 È riuscito|a a stracciarmi in Palestra, perciò sarà proprio lui||ei l’addetto|a alla valutazione delle abilità di lotta! Ha senso, nah?
-È riuscito|a a stracciarmi in Palestra, perciò sarà proprio lui||ei l’addetto|a alla valutazione delle abilità di lotta! Ha senso, nah?
+He |||She managed to beat me in my Gym, so he is|||||she's gonna be<<n>>the one judging your fighting skills!<<n>>Makes sense, right?
 C’mon, \PN. Facci vedere un po’ di cosa sono capaci questi talenti!
-C’mon, \PN. Facci vedere un po’ di cosa sono capaci questi talenti!
+C'mon, \PN. Let us see what these talents<<n>>are good for!
 Adriano
-Adriano
+Nash
 Voglio impressionare i giudici e sta’ certo|a che lo farò! Sono pronto!
-Voglio impressionare i giudici e sta’ certo|a che lo farò! Sono pronto!
+I want to impress the judges, no matter what! I'm ready!
 Non avrò vinto, ma spero almeno di aver attirato la vostra attenzione.
-Non avrò vinto, ma spero almeno di aver attirato la vostra attenzione.
+I lost, but I still hope I piqued your interest.
 Che incontro formidabile, signori!
-Che incontro formidabile, signori!
+What a formidable battle, my dear audience!
+Prego, giudice \PN, torni pure al suo posto. È il momento di dare le vostre valutazioni!
+Please, judge \PN, you can go back to your seat.<<n>>It's time for your votes!
 Allora, come vi è sembrata l’esibizione di Adriano? Partiamo da lei, S.
-Allora, come vi è sembrata l’esibizione di Adriano? Partiamo da lei, S.
+So, what do you think about Nash's show?<<n>>You first, S.
 Si è lasciato sconfiggere dal mocc-ehm... da \PN in un click d’interruttore! <i>Bzzah!</i>
-Si è lasciato sconfiggere dal mocc-ehm... da \PN in un click d’interruttore! <i>Bzzah!</i>
+He let himself be beaten by the bra-um...<<n>>by \PN in a blink of a sensor! <i>Bzzah!</i>
 La voce non era neanche malaccio, ma le abilità nella lotta molto discutibili a mio dire.
-La voce non era neanche malaccio, ma le abilità nella lotta molto discutibili a mio dire.
+His voice wasn't bad per se, but his fighting skills<<n>>are a little lacking, if I may.
 Per me è un bel no!
-Per me è un bel no!
+It's a big no from me!
 Il giudice S ribadisce la sua severità con un no, ma non è detta l’ultima parola! Signor Daddy, lei cosa ne pensa invece?
-Il giudice S ribadisce la sua severità con un no, ma non è detta l’ultima parola! Signor Daddy, lei cosa ne pensa invece?
+Judge S stands firm with a no, but there's still<<n>>much to say! Mr. Daddy, what do you think?
 Il giudizio di my boy S è stato un po’ duro, ma a malincuore devo concordare con lui.
-Il giudizio di my boy S è stato un po’ duro, ma a malincuore devo concordare con lui.
+Mah boy S' judgment was kinda tough, but I gotta say<<n>>I agree with him.
+Capisco che i Pokémon Suono siano una vera mina, ma sarebbe il caso di variare un po’ coi tipi, nah?
+I know Sound-type Pokémon are rockin', but I think<<n>>some variety would really be dope, nah?
 Anche per me è un no.
-Anche per me è un no.
+It's a no from me as well.
 Purtroppo il nostro Adriano non è riuscito a conquistare la nostra giuria, ottenendo ben due no.
-Purtroppo il nostro Adriano non è riuscito a conquistare la nostra giuria, ottenendo ben due no.
+Unfortunately our Nash hasn't managed to win our jury's,<<n>>and obtained two nos.
 Ma sentiamo il parere del giudice \PN per completezza! Allora, qual è la sua valutazione?
-Ma sentiamo il parere del giudice \PN per completezza! Allora, qual è la sua valutazione?
+But let's hear judge \PN's opinion for the sake<<n>>of completeness! So, what's your vote?
 Nonostante abbia vinto il suo avversario, il||la nostro|a \PN decide di premiare la grinta di Adriano! Questa è una vera dimostrazione di umiltà, signori!
-Nonostante abbia vinto il suo avversario, il||la nostro|a \PN decide di premiare la grinta di Adriano! Questa è una vera dimostrazione di umiltà, signori!
+Even though he |||she bested his||er opponent,<<n>>our \PN decided to reward Nash's energy!<<n>>Now that's what being humble is all about,<<n>>my dear audience!
 Bene, ringraziamo Adriano per aver preso parte al nostro show e passiamo al prossimo talento!
-Bene, ringraziamo Adriano per aver preso parte al nostro show e passiamo al prossimo talento!
+Very well, let's thank Nash for taking part in our show<<n>>and let's get right to the next talent!
 Il nostro primo talento si porta a casa ben tre no, purtroppo... Non lasciarti abbattere, però!
-Il nostro primo talento si porta a casa ben tre no, purtroppo... Non lasciarti abbattere, però!
+It seems our first talent was rewarded with three nos... Don't let it get you down, though!
 Il graffiato di Adriano cede il passo ad una vera stella nascente dell’hip-hop! Sale sul palco di ''In cerca di una stella!'' <b>K-Lotta</b>!
-Il graffiato di Adriano cede il passo ad una vera stella nascente dell’hip-hop! Sale sul palco di ''In cerca di una stella!'' <b>K-Lotta</b>!
+And now Nash's rasp makes room for a real rising star<<n>>in hip-hop music!<<n>>Please welcome <b>OH-Keiyo</b> on ''Looking for a star'''s stage!
 Signori della giuria, a voi.
-Signori della giuria, a voi.
+Judges, it's your turn.
 C’mon! Andiamo dritti al punto!
-C’mon! Andiamo dritti al punto!
+C'mon! Let's get straight to the point!
 \PN, corri sul palco e facci vedere di che pasta è fatta 'sta K-Lotta!
-\PN, corri sul palco e facci vedere di che pasta è fatta 'sta K-Lotta!
+\PN, get on that stage and let us see what<<n>>this OH-Keiyo is made of, pronto!
 K-Lotta
-K-Lotta
+OH-Keiyo
 Questo pezzo l’ho scritto per i miei fratelli giù a Sagittopoli. Spero vi piaccia!
-Questo pezzo l’ho scritto per i miei fratelli giù a Sagittopoli. Spero vi piaccia!
+I wrote this song for my brothers in Vega City.<<n>>I hope you like it!
 Scusate, mi sono emozionata...
-Scusate, mi sono emozionata...
+Forgive me, I got emotional...
 Il||La giudice \PN tiene alta l’asticella con un altro scontro mozzafiato! Ora si accomodi, è arrivato il momento delle valutazioni.
-Il||La giudice \PN tiene alta l’asticella con un altro scontro mozzafiato! Ora si accomodi, è arrivato il momento delle valutazioni.
+Judge \PN keeps the stakes high with<<n>>a breathtaking battle!<<n>>Now sit down, please. It's time for your votes.
 Signori della giuria, come vi è sembrata l’esibizione della giovane K-Lotta? Signor Daddy, questa volta tocca a lei iniziare.
-Signori della giuria, come vi è sembrata l’esibizione della giovane K-Lotta? Signor Daddy, questa volta tocca a lei iniziare.
+Dear judges, what do you think about young OH-Keiyo's<<n>>show of talent?<<n>>Mr. Daddy, this time you'll be the first to begin.
 Devo proprio dire che 'sti talenti che stiamo vedendo sono proprio fuori di testa!
-Devo proprio dire che 'sti talenti che stiamo vedendo sono proprio fuori di testa!
+I gotta say these talents we're seein' are really<<n>>out of this world!
 Ma veniamo a noi, K-Lotta... Il tuo stile è proprio un’altra roba rispetto al precedente talento! Ti dirò, ho trovato la tua scelta per questa lotta piuttosto azzardata, y’know?
-Ma veniamo a noi, K-Lotta... Il tuo stile è proprio un’altra roba rispetto al precedente talento! Ti dirò, ho trovato la tua scelta per questa lotta piuttosto azzardata, y’know?
+But let's get to the point, OH-Keiyo...your style is on<<n>>a whole different level from the previous talent!<<n>>I have to tell ya, I found your choice for this battle<<n>>really risky, y'know?
 Per come la vedo io, non è mai una bella mossa fare carico su un solo Pokémon. Il lavoro di squadra è essenziale, soprattutto in 'sto lavoro!
-Per come la vedo io, non è mai una bella mossa fare carico su un solo Pokémon. Il lavoro di squadra è essenziale, soprattutto in 'sto lavoro!
+The way I see it, putting everything on the shoulders<<n>>of just one Pokémon is always a bad move.<<n>>Teamwork is essential, especially in this industry!
 Proprio per questo devo darti un no. I’m sorry!
-Proprio per questo devo darti un no. I’m sorry!
+This is why I have to give you a no. I'm sorry!
 Le parole del signor Daddy sono sempre oro colato per chi vuole intraprendere questo percorso! Sentiamo il parere del giudice S ora.
-Le parole del signor Daddy sono sempre oro colato per chi vuole intraprendere questo percorso! Sentiamo il parere del giudice S ora.
+As usual, mr. Daddy's words are precious as gold<<n>>for whoever wants to take the road of music!<<n>>Let's hear judge S' opinion, now.
 Questa volta ho da ridire sulle parole del mio socio qui!
-Questa volta ho da ridire sulle parole del mio socio qui!
+This time I have to disagree with my partner!
+Ho trovato questo scontro decisamente impari, poiché il||la moccioso|a aveva a disposizione più Pokémon! Se anche lui||ei ne avesse usato uno solo 'sta tizia l’avrebbe demolito|a di sicuro!!
+I think the battle was unfair to say the least, since<<n>>the runt had more Pokémon than she did!<<n>>If they both had one Pokémon, this gal would have wiped<<n>>the floor with him||er, that's for sure!
 Ahem... Mi perdoni, ma mi sfugge il senso della sua critica, signore.
-Ahem... Mi perdoni, ma mi sfugge il senso della sua critica, signore.
+Ahem...forgive me, but I can't really follow your critic, sir.
 Bah, comunque per me è un no!
-Bah, comunque per me è un no!
+Bah, whatever. It's a no from me!
+L’unico umano che può rappare su un mio beat è solo Santana e nessun altro!
+The only human who can rap on my beat is Santana<<n>>and no one else!
 Il giudice S è un fiero sostenitore del signor Daddy, eh?
-Il giudice S è un fiero sostenitore del signor Daddy, eh?
+Judge S seems to be a proud estimator of mr. Daddy, huh?
 Sfortunatamente, neanche K-Lotta riesce ad ottenere un sì dai nostri due giudici!
-Sfortunatamente, neanche K-Lotta riesce ad ottenere un sì dai nostri due giudici!
+Unfortunately, not even OH-Keiyo has managed to get<<n>>a yes from two of our judges!
 Sentiamo cosa dice il||la diretto|a interessato|a, \PN. Qual è il suo giudizio su K-Lotta?
-Sentiamo cosa dice il||la diretto|a interessato|a, \PN. Qual è il suo giudizio su K-Lotta?
+Let's hear the word of our concerned part, \PN.<<n>>What's your opinion on OH-Keiyo?
 A dispetto della sua vittoria, il||la nostro|a \PN decide di dare un sì alla giovane K-Lotta! Questa valutazione sarà di certo un incentivo per la sua promettente carriera!
-A dispetto della sua vittoria, il||la nostro|a \PN decide di dare un sì alla giovane K-Lotta! Questa valutazione sarà di certo un incentivo per la sua promettente carriera!
+Despite his||er victory, our \PN decided to give<<n>>his||er approval to our young OH-Keiyo!<<n>>This vote of trust is certainly going to be an incentive<<n>>for her already promising career!
 Bene, ringraziamo K-Lotta per aver preso parte al nostro show e passiamo al prossimo talento!
-Bene, ringraziamo K-Lotta per aver preso parte al nostro show e passiamo al prossimo talento!
+Very well, let's thank OH-Keiyo for taking part in our show and let's get right to the next talent!
 Il nostro secondo talento si porta a casa ben tre no, purtroppo... Non lasciarti abbattere, però!
-Il nostro secondo talento si porta a casa ben tre no, purtroppo... Non lasciarti abbattere, però!
+Our second talent was rewarded with three nos...<<n>>Don't let it get you down, though!
 Oh, ma che sorpresa!
-Oh, ma che sorpresa!
+Oh, what a surprise!
 Freddie
 Freddie
 Sono proprio io, Leopoli! Il vostro cantante preferito... <b>Freddie</b>!
-Sono proprio io, Leopoli! Il vostro cantante preferito... <b>Freddie</b>!
+It's me, Hypelion City! Your favorite singer... <b>Freddie</b>!
 Il terzo talento è una vera e propria guest star... Freddie, l’ex Frontman dei ''The Roggenrola''!
-Il terzo talento è una vera e propria guest star... Freddie, l’ex Frontman dei ''The Roggenrola''!
+Our third talent is a bona-fide guest star...<<n>>Freddie, the former Frontman of ''The Roggenrola''!
 Quando ho lasciato la band per percorrere la strada da solista ho preso la scelta migliore che potessi fare!
-Quando ho lasciato la band per percorrere la strada da solista ho preso la scelta migliore che potessi fare!
+When I left the band to fly solo I took the best decision<<n>>of my whole life!
 Ho sempre e solo aperto i tuoi concerti, Santana... ma non ti è mai passato per la mente di fare un pezzo assieme! Vedrai, ti conquisterò con la mia voce e diventerò famoso!!
-Ho sempre e solo aperto i tuoi concerti, Santana... ma non ti è mai passato per la mente di fare un pezzo assieme! Vedrai, ti conquisterò con la mia voce e diventerò famoso!!
+All I've always done was open your concerts, Santana...<<n>>but you never thought of recording a song with me!<<n>>You'll see, I'll win your attention with my voice and become famous!!
 Freddie, non m’è piaciuto il modo in cui hai abbandonato i tuoi fratelli della band, y’know? Ma mi conosci e sai bene che non lascerò che 'sta storia influenzi il mio giudizio!
-Freddie, non m’è piaciuto il modo in cui hai abbandonato i tuoi fratelli della band, y’know? Ma mi conosci e sai bene che non lascerò che 'sta storia influenzi il mio giudizio!
+Freddie, I didn't like the way you abandoned you brothers<<n>>of the band, y'know?<<n>>But you know me good enough to know that all that<<n>>won't stir my judgement in the slightest!
 Hmph. Ti dimostrerò che, con quei tre, il mio talento era sprecato! Ora sono a tutt’altro livello!
-Hmph. Ti dimostrerò che, con quei tre, il mio talento era sprecato! Ora sono a tutt’altro livello!
+Hmph. I'll show you that, with those three, my talent<<n>>was wasted! I'm on a whole different level, now!
 Bene, allora direi di procedere subito con l’esibizione!
-Bene, allora direi di procedere subito con l’esibizione!
+Very well, I'd say it's time for the exhibition!
 Ho un’ultima cosa da dire, Sebastian.
-Ho un’ultima cosa da dire, Sebastian.
+I have one last thing to say, Sebastian.
 Sono sicuro che il||la nostro|a \PN riuscirà a mettergli in quella zucca l’importanza del lavoro di squadra!
-Sono sicuro che il||la nostro|a \PN riuscirà a mettergli in quella zucca l’importanza del lavoro di squadra!
+I'm sure our \PN here is gonna put the value<<n>>of teamwork in that thick head of his!
 Tu che mi hai già sfidato allora, saprai fare il confronto tra quello che ero e quello che sono ora. Forza, vieni a conoscere il nuovo Freddie!
-Tu che mi hai già sfidato allora, saprai fare il confronto tra quello che ero e quello che sono ora. Forza, vieni a conoscere il nuovo Freddie!
+You already challenged me once, so you're going to see<<n>>how different I am from back then.<<n>>C'mon, say hi to the new Freddie!
 Mi hai spezzato la voce...!!
-Mi hai spezzato la voce...!!
+You broke my voice...!!
 Ancora una volta, il||la nostro|a giudice \PN dà dimostrazione della sua incredibile abilità!
-Ancora una volta, il||la nostro|a giudice \PN dà dimostrazione della sua incredibile abilità!
+Once again, our judge \PN makes a show<<n>>of his||er incredible abilities!
 Pensavo che abbandonare quella band di pelandroni m’avesse reso imbattibile...!
-Pensavo che abbandonare quella band di pelandroni m’avesse reso imbattibile...!
+I thought abandoning that band of losers would<<n>>have made me unbeatable...!
 Ora sentiamo il parere dei giudici. \PN, si accomodi pure.
-Ora sentiamo il parere dei giudici. \PN, si accomodi pure.
+Let's hear our judges' opinion, now.<<n>>\PN, take your seat.
 Prego, signor Daddy, a lei la parola!
-Prego, signor Daddy, a lei la parola!
+Please, mr. Daddy, your words!
 Devo dire che a 'sto giro ho fatto il tifo per \PN.
-Devo dire che a 'sto giro ho fatto il tifo per \PN.
+I have to admit that I cheered for \PN this time.
 Freddie, ascolta un po’...
-Freddie, ascolta un po’...
+Freddie, listen up...
+Nella musica fare i soldi non è la priorità assoluta... le emozioni vengono prima di tutto! Hai abbandonato i tuoi fratelli per fare successo, dimenticando che non può sbocciare chi taglia le radici. Così, non solo hai distrutto con le tue mani i ''The Roggenrola'', ma anche il tuo stesso futuro da artista.
+Music isn't about making money...it's all a matter<<n>>of emotions!<<n>>When you abandoned your brothers to chase success,<<n>>you forgot that a flower can't bloom without its roots.<<n>>This way, you destroyed ''The Roggenrola'' with your bare hands, and your own future as an artist with them.
 Ma niente è ancora perduto! Manda giù il tuo orgoglio e riunisci la band! Col vostro talento, non avrete bisogno né di me, né di questo talent per arrivare al top, verrà tutto da sé.
-Ma niente è ancora perduto! Manda giù il tuo orgoglio e riunisci la band! Col vostro talento, non avrete bisogno né di me, né di questo talent per arrivare al top, verrà tutto da sé.
+But nothing is lost, yet! Throw away your pride and reunite the band!<<n>>With your talent, you won't need me or this show to get<<n>>to the top, 'cuz you're gonna make it on your own.
 È per questo che ti dico no!
-È per questo che ti dico no!
+That's why you get a no from me!
 Signor Daddy, davvero delle belle parole le sue. Mi ha fatto commuovere! Passiamo ora al giudizio di S.
-Signor Daddy, davvero delle belle parole le sue. Mi ha fatto commuovere! Passiamo ora al giudizio di S.
+Mr. Daddy, your words were golden.<<n>>You made me shed a tear!<<n>>Let's get to S' judgement, now.
 Io invece, come al solito, speravo che quell’altro distruggesse \PN... Ahem!
-Io invece, come al solito, speravo che quell’altro distruggesse \PN... Ahem!
+As usual I was hoping for that guy to smash \PN...<<n>>Ahem!
 Anche per me è un no!
-Anche per me è un no!
+It's a no for me as well!
+Chi è nato per stare insieme, sarà sempre destinato ad unire le forze se vuole concludere qualcosa.
+Those who are born together will always be destined<<n>>to join forces to achieve greater goals.
 Parole dure, ma sagge quelle del nostro S.
-Parole dure, ma sagge quelle del nostro S.
+Harsh but wise words, those of our S.
 Anche il terzo talento deve purtroppo lasciare il palco, ma per correttezza sentiamo anche il parere di \PN.
-Anche il terzo talento deve purtroppo lasciare il palco, ma per correttezza sentiamo anche il parere di \PN. 
+The third talent will also have to leave the stage, but let's hear \PN's opinion for the sake of completeness.
 Il nostro terzo giudice salva Freddie dal tornare a casa con tre no in tasca. La sua benevolenza è davvero ammirevole!
-Il nostro terzo giudice salva Freddie dal tornare a casa con tre no in tasca. La sua benevolenza è davvero ammirevole!
+Our third judge saves Freddie from going home<<n>>with three nos in his belt.<<n>>His||er benevolence is truly admiring!
 Freddie, vuoi dire qualcosa prima di lasciarci?
-Freddie, vuoi dire qualcosa prima di lasciarci?
+Freddie, do you wish to say something before<<n>>leaving us?
 Sì, una cosa da dire ce l’avrei.
-Sì, una cosa da dire ce l’avrei.
+Yes, I do have something to say.
 Vorrei ringraziarvi per avermi fatto capire che io ho bisogno dei ''The Roggenrola'', tanto quanto loro di me.
-Vorrei ringraziarvi per avermi fatto capire che io ho bisogno dei ''The Roggenrola'', tanto quanto loro di me.
+I wish to thank you for making me understand that I need ''The Roggenrola'' just as much as they need me.
 Rimetterò in piedi la band e insieme suoneremo sui migliori palchi del mondo!
-Rimetterò in piedi la band e insieme suoneremo sui migliori palchi del mondo!
+I'll put the band back together and we're gonna play<<n>>on the best stages in the world!
 Il voto dei nostri tre giudici è unanime: Freddie torna a casa con ben tre no sulle spalle. Ci auguriamo che non si lasci abbattere e, anzi, ne tragga insegnamento!
-Il voto dei nostri tre giudici è unanime: Freddie torna a casa con ben tre no sulle spalle. Ci auguriamo che non si lasci abbattere e, anzi, ne tragga insegnamento!
+The three judges' vote is unanimous--Freddie is going home with three nos on his belt.<<n>>Let's hope this won't bring him down, but instead,<<n>>will teach him a crucial lesson!
 Questo spettacolo si sta rivelando davvero ricco di sorprese. Molto bene, proseguiamo!
-Questo spettacolo si sta rivelando davvero ricco di sorprese. Molto bene, proseguiamo!
+This show seems to be rich with surprises.<<n>>Very well, let's proceed!
 <<[>>old<<]>>Molti talenti dopo...
-<<[>>old<<]>>Molti talenti dopo...
+<<[>>old<<]>>Many talents later...
 Anche questo è andato e della nuova stella ancora neanche l’ombra... Comincio ad avere il morale sotto le suole delle scarpe, ragazzi...
-Anche questo è andato e della nuova stella ancora neanche l’ombra... Comincio ad avere il morale sotto le suole delle scarpe, ragazzi...
+This one is gone as well and no sight of that new star...<<n>>I'm starting to feel a little down in the dumps, guys...
 Oh, bwoy! Dev’essere la voce di un angelo questa!! Si può sapere da dove arriva?!
-Oh, bwoy! Dev’essere la voce di un angelo questa!! Si può sapere da dove arriva?!
+Oh, bwoy! This must be the voice of an angel!!<<n>>Where is it coming from?!
 L’ho trovata! La voce che cercavo è proprio 'sta qui!
-L’ho trovata! La voce che cercavo è proprio 'sta qui!
+I found it! That's the voice I've been looking for!
 S, tu che hai un buon orecchio, riesci mica a capire dove si nasconde chi ha 'sta voce angelica?
-S, tu che hai un buon orecchio, riesci mica a capire dove si nasconde chi ha 'sta voce angelica?
+S, since you have such a good ear, can you let me<<n>>understand where this angel is hidin'?
 Certo che ci riesco! <i>Bzzah!</i>
-Certo che ci riesco! <i>Bzzah!</i>
+Of course I can! <i>Bzzah!</i>
 Le onde sonore arrivano dal tetto della Palestra Ritmo, Santana!
-Le onde sonore arrivano dal tetto della Palestra Ritmo, Santana!
+The sound waves are coming from the Hypelion Gym's rooftop, Santana!
 Palestra Ritmo? Ma è proprio quassù! Tutti sul tetto, let’s go!
-Palestra Ritmo? Ma è proprio quassù! Tutti sul tetto, let’s go!
+Hypelion Gym? But it's just up here!<<n>>Everybody, on the rooftop, let's go!
 <<[>>old<<]>>A quale piano vuoi andare?
 <<[>>old<<]>>Which floor are you going to?
 Jade
@@ -20100,15 +20194,15 @@ Non farti ingannare dai suoi modi di fare allegri e scherzosi... Wallace D. è u
 Non solo hai tenuto testa ai Pokémon Suono di Daddy, li hai anche stracciati! Sei stato|a grandioso|a!
 Non solo hai tenuto testa ai Pokémon Suono di Daddy, li hai anche stracciati! Sei stato|a grandioso|a!
 Per me è sì!
-Per me è sì!
+I think it's a yes!
 Per me è no.
-Per me è no.
+I think it's a no.
 Piano Terra
-Piano Terra
+Ground Flor
 Esci
-Esci
+Quit
 Sala Rock
-Sala Rock
+Rock Room
 Golden Studio
 Golden Studio
 [Map543]
@@ -20121,61 +20215,69 @@ Golden Studio
 Wallace Daddy
 Wallace Daddy
 Whatta hell?! È 'sto Pokémon ad avere quella voce angelica?!
-Whatta hell?! È 'sto Pokémon ad avere quella voce angelica?!
+Whadda hell?! The voice was comin' from a Pokémon?!
 ???
 ???
 Etta...!
 Etta...!
 Oh, ha smesso di cantare... Che si vergogni di farlo davanti a noi?
-Oh, ha smesso di cantare... Che si vergogni di farlo davanti a noi?
+Oh, it stopped singin'...maybe it's too shy to do that<<n>>in front of us.
 S
 S
 Stando al mio database questo è un <b>Meloetta</b>, un Pokémon che non si vede spesso in giro. Che diavolo ci fa qui sul tetto?!
-Stando al mio database questo è un <b>Meloetta</b>, un Pokémon che non si vede spesso in giro. Che diavolo ci fa qui sul tetto?!
+According to my database this is a <b>Meloetta</b>,<<n>>a particularly rare Pokémon.<<n>>I wonder why it's here on this rooftop?!
 Meloetta
 Meloetta
 Che sta farfugliando...? Provo a capirci qualcosa.
-Che sta farfugliando...? Provo a capirci qualcosa.
+What is it mumbling...? Let me try and translate that.
 Dice che sarà disposto a cantare per noi, solo se gli offriremo uno spettacolo memorabile. <i>Tsk!</i>
-Dice che sarà disposto a cantare per noi, solo se gli offriremo uno spettacolo memorabile. <i>Tsk!</i>
+It says it’s willing to sing for us, but only if we give it<<n>>a memorable show. <i>Bzz!</i>
 Uno spettacolo memorabile, huh?
-Uno spettacolo memorabile, huh?
+A memorable show, huh?
 Wah ah ah! Sembra quasi si siano invertiti i ruoli! Ora siamo noi i talenti da giudicare!
-Wah ah ah! Sembra quasi si siano invertiti i ruoli! Ora siamo noi i talenti da giudicare!
+Wah ha ha! It looks like the tables have turned!<<n>>Now we are the talents that are gonna be judged!
 Mh, vediamo... potremmo provare a stupire 'sto angelo con una bella scazzottata tra Pokémon?
-Mh, vediamo... potremmo provare a stupire 'sto angelo con una bella scazzottata tra Pokémon?
+Hm, lessee...how about we try to impress this angel<<n>>with a good ol' Pokémon tussle?
 Oh, yeah! Proprio una bella idea! Di certo tre Allenatori tosti come noi faranno i fuochi d’artificio!
-Oh, yeah! Proprio una bella idea! Di certo tre Allenatori tosti come noi faranno i fuochi d’artificio!
+Oh, yeah! I think it's a really good idea! Three Trainers<<n>>like us are definitely gonna rock this place!
 Sai, \PN, tornando qui sul terrazzo con te, per un attimo ho fatto un tuffo nel passato... È qui che ho trovato mio fratello Slurpuff, soffiandotelo da sotto al naso! Wah ah ah!
-Sai, \PN, tornando qui sul terrazzo con te, per un attimo ho fatto un tuffo nel passato... È qui che ho trovato mio fratello Slurpuff, soffiandotelo da sotto al naso! Wah ah ah!
+Y'know, \PN, being here on this rooftop with you,<<n>>for a minute I had a flashback from the past...<<n>>I found my brother Slurpuff here, stealin' it from under<<n>>your nose! Wa ha ha!
 È arrivato il momento di ricambiarti il favore, amico|a.
-È arrivato il momento di ricambiarti il favore, amico|a.
+It's time to repay the favor, buddy.
+Se riuscirai a farmi le scarpe anche a 'sto giro, rinuncerò alla voce che tanto cercavo e ti cederò quel Meloetta!
+If you manage to beat me this time, I'll give up the voice<<n>>I was looking for and I'll let you catch that Meloetta!
 Ti sei bevuto il cervello, Santana?! Finalmente abbiamo davanti la voce per-fet-ta per quel tuo pezzo... ... e tu vuoi mandare tutto all’aria per questo|a moccioso|a?!
-Ti sei bevuto il cervello, Santana?! Finalmente abbiamo davanti la voce per-fet-ta per quel tuo pezzo... ... e tu vuoi mandare tutto all’aria per questo|a moccioso|a?!
+Have you lost your mind, Santana?! We're finally one step<<n>>to the per-fect voice for that track of yours...<<n>>...and you wanna throw everything down the drain<<n>>for this kid?!
 \PN quella volta m’ha dato una gran mano a salvare la mia gente... glielo devo, S!
-\PN quella volta m’ha dato una gran mano a salvare la mia gente... glielo devo, S!
+That time \PN really helped me save my people...<<n>>I owe him||er big time, S!
 Se però ci tieni anche tu a mettere le mani su quel Pokémon, vieni qui e lotta insieme a me, my boy!
-Se però ci tieni anche tu a mettere le mani su quel Pokémon, vieni qui e lotta insieme a me, my boy!
+If you really wanna get yer hands on that Pokémon, tho,<<n>>come here and fight on my side, mah boy!
 Ora sì che ragioniamo! <i>Bzah bzah!</i>
-Ora sì che ragioniamo! <i>Bzah bzah!</i>
+Now you're speaking my language! <i>Bzah bzah!</i>
+Ti strapperò la vittoria dalle mani e ti farò pagare tutte le tue bravate, dannato|a moccioso|a!
+I'll steal the victory from your hands and make you pay<<n>>for everything you've done, you damned brat!
 Ho detto dannato|a moccioso|a...? Volevo dire sconosciuto|a-che-non-ho-mai-visto-prima!
-Ho detto dannato|a moccioso|a...? Volevo dire sconosciuto|a-che-non-ho-mai-visto-prima!
+Did I say damned brat...? I meant<<n>>unknown-person-I've-never-met-before!
 Alright, sembra che Meloetta abbia preso posto. Diamogli il miglior spettacolo che abbia mai visto, c’mon!!
-Alright, sembra che Meloetta abbia preso posto. Diamogli il miglior spettacolo che abbia mai visto, c’mon!!
+Alright, seems like Meloetta took its seat. Let's give it<<n>>the best show it has ever seen, c'mon!!
 Oh, bwoy!
 Oh, bwoy!
 (Questo|a dannato|a moccioso|a diventa più forte ogni giorno che passa... ha l’aggiornamento automatico?!)
-(Questo|a dannato|a moccioso|a diventa più forte ogni giorno che passa... ha l’aggiornamento automatico?!)
+(This damned brat gets stronger every day...<<n>>Does he |||she has the automatic update on?!)
 Oh, bwoy! Un’altra bella batosta!
-Oh, bwoy! Un’altra bella batosta!
+Oh, bwoy! Now that was a beatin'!
 Amico|a mio|a, t’ho fatto una promessa e, a malincuore, mi tocca rispettarla... C’mon, affronta quel Meloetta e fallo tuo!
-Amico|a mio|a, t’ho fatto una promessa e, a malincuore, mi tocca rispettarla... C’mon, affronta quel Meloetta e fallo tuo!
+Buddy, I made a promise so, for as much as I wouldn't<<n>>want to, I have to pay up...<<n>>C'mon, face that Meloetta and catch it!
+Così facendo, avremo finalmente pareggiato i conti!
+With that, we'll be square!
 Let’s go, S! Torniamocene al Golden Studio!
-Let’s go, S! Torniamocene al Golden Studio!
+Let's go, S! Back to the Golden Studio!
+Dobbiamo mettere in piedi una strategia per trovare la stella che ci serve, nah?
+We have to come up with a strategy to find the star<<n>>we need, nah?
 \PN, quando ti pomperai il mio nuovo disco, ricordati che al suo interno c’è anche un pezzo di te...
-\PN, quando ti pomperai il mio nuovo disco, ricordati che al suo interno c’è anche un pezzo di te...
+\PN, when you'll hear my new album, remember<<n>>there's a part of you in there as well...
 ''Per Aspera Ad Astra'', è questo il titolo che ho scelto!
-''Per Aspera Ad Astra'', è questo il titolo che ho scelto!
+''Per Aspera Ad Astra''--that's the name I chose!
 Sì
 Yes
 No
@@ -44386,7 +44488,7 @@ Rika
 Miya
 Miya
 K-Lotta
-K-Lotta
+OH-Keiyo
 Jake
 Jake
 William
@@ -44424,7 +44526,7 @@ Giovanni
 Tonio
 Tonio
 Adriano
-Adriano
+Nash
 Lisa
 Lisa
 Efisio
@@ -49085,7 +49187,7 @@ Gola Steelix
 Steelix Gorge
 277
 Palestra Ritmo
-Palestra Ritmo
+Hypelion Gym
 278
 Area Dugtrio
 Area Dugtrio
