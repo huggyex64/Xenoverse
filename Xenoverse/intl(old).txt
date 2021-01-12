@@ -16629,7 +16629,7 @@ Chi la usa sfrutta la sua forza psichica per scambiare le modifiche a Difesa e D
 Chi la usa sfrutta la sua forza psichica per scambiare le modifiche a Difesa e Difesa Speciale con il bersaglio.
 475
 Chi la usa impedisce per cinque turni ai nemici di utilizzare mosse, abilità e strumenti recupera-PS che hanno con sé.
-Chi la usa impedisce per cinque turni ai nemici di utilizzare mosse, abilità e strumenti recupera-PS che hanno con sé.
+Chi la usa impedisce per cinque turni ai nemici di utilizzare mosse, abilità e strumenti recupera-PS.
 476
 Chi la usa lancia un'onda rilassante che fa recuperare al bersaglio metà dei suoi PS massimi.
 Chi la usa lancia un'onda rilassante che fa recuperare al bersaglio metà dei suoi PS massimi.

@@ -21940,7 +21940,7 @@ InternalName=ELECTABUZZX
 Type1=FIRE
 BaseStats=65,83,57,105,95,85
 GenderRate=Female25Percent
-GrowthRate=Medium
+GrowthRate=Parabolic
 BaseEXP=172
 EffortPoints=0,0,0,1,1,0
 Rareness=45
@@ -23219,7 +23219,7 @@ Pokedex=Anticamente era molto più forte dell'odierno discendente, incredibilmen
 BattlerPlayerY=26
 BattlerEnemyY=30
 BattlerAltitude=10
-Evolutions=GYARADOS,Level,20
+Evolutions=GYARADOSVINTAGE,Level,20
 [1312]
 Name=Gyarados
 InternalName=GYARADOSVINTAGE

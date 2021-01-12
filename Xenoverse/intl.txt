@@ -8453,7 +8453,7 @@ Chamo-Miltank
 Frappucinccinno
 Frappu-Cinccinno
 Koko Cola
-Koko Cola
+Tapu Cocoa
 Purple Masquerain
 Purple Masquerain
 Let it Beedrill
@@ -9387,13 +9387,13 @@ Usa Box
 Use Box
 [Map210]
 Evoluto
-Evoluto
+Evolkner
 Proprio non trovo la <b>Neropietra</b> che mi serve per far evolvere il mio <b>Peckabone</b>!
-Proprio non trovo la <b>Neropietra</b> che mi serve per far evolvere il mio <b>Peckabone</b>!
+I can't just find the <b>Dusk Stone</b> I need to evolve<<n>>my <b>Peckabone</b>!
 Noa
-Noa
+Noah
 È proprio vero che gli artisti migliori sono quelli dal passato travagliato.
-È proprio vero che gli artisti migliori sono quelli dal passato travagliato.
+The best artists are the ones with a troubled past,<<n>>it's a fact.
 Mnemonio
 Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
@@ -9439,7 +9439,7 @@ Merry Christmas from the whole staff!
 Ronny
 Ronny
 Daddy ama così tanto la musica, da aver deciso di dedicarle un’intera città autofinanziandola. È così che è nata Leopoli!
-Daddy ama così tanto la musica, da aver deciso di dedicarle un’intera città autofinanziandola. È così che è nata Leopoli!
+Daddy loves music so much that he decided to honor it<<n>>with an entire city, funding the project all by himself.<<n>>This is how Hypelion was born!
 Roy
 Roy
 Yo! Questo è il Pokémon-Market di Beatville!
@@ -9447,7 +9447,7 @@ Yo! This is the Poké Mart in Hypelion City!
 Dina
 Dina
 Se non mi fossi iscritta al fanclub, non avrei mai saputo che Daddy fosse originario di Alola!
-Se non mi fossi iscritta al fanclub, non avrei mai saputo che Daddy fosse originario di Alola!
+If I hadn't subscribed to the fanclub, I would have never<<n>>known that Daddy comes from Alola!
 Dolly
 Dolly
 Yo! Questo è il Pokémon-Market di Leopoli!
@@ -9460,31 +9460,31 @@ Si
 Yes
 [Map211]
 Natasha
-Natasha
+Ember
 Questa felpa della Hip-Top non è solo super alla moda, ma anche super comoda!
-Questa felpa della Hip-Top non è solo super alla moda, ma anche super comoda!
+This Hip-Top hoodie not only is super cool, but it's super comfy as well!
 Sofia
-Sofia
+Sophie
 Se fossi tornata a casa oggi, mi sarei persa il concerto di Daddy... perciò ho cambiato il biglietto! Fortuna che ho fatto marcia indietro!
-Se fossi tornata a casa oggi, mi sarei persa il concerto di Daddy... perciò ho cambiato il biglietto! Fortuna che ho fatto marcia indietro!
+If I came back home today, I'd have lost<<n>>Daddy's concert...so I took another ticket!<<n>>I'm glad I backed off!
 Tra l’altro pare anche che il treno che avrei dovuto prendere sia anche stato cancellato.
-Tra l’altro pare anche che il treno che avrei dovuto prendere sia anche stato cancellato.
+By the way, it seems that the train I was supposed<<n>>to take has been cancelled.
 Capotreno
-Capotreno
+Conductor
 A seguito del deragliamento del Quasar Express, abbiamo deciso di rimandare le attività a data da destinarsi. Ci dispiace per l'inconveniente, ma spero siate comprensivi... La sicurezza dei nostri passeggeri viene prima di tutto!
-A seguito del deragliamento del Quasar Express, abbiamo deciso di rimandare le attività a data da destinarsi. Ci dispiace per l'inconveniente, ma spero siate comprensivi... La sicurezza dei nostri passeggeri viene prima di tutto!
+Due to the Quasar Express derailment, we've decided<<n>>to postpone our activities indefinitely.<<n>>We are sorry for the inconvenience, but please understand... Our passengers' safety comes first!
 Bill
 Bill
 Quando c'erano Andy e Torn, i treni partivano sempre in orario...
-Quando c'erano Andy e Torn, i treni partivano sempre in orario...
+I miss the good ol' days with Ingo and Emmet...
 Patro
-Patro
+Garrett
 Accidenti, non ci voleva proprio! I miei fratelli erano sul treno che è stato cancellato!
-Accidenti, non ci voleva proprio! I miei fratelli erano sul treno che è stato cancellato!
+Dayum, whatta disaster! My bros were supposed to be<<n>>on the train ride that has been cancelled!
 Marianna
-Marianna
+Summer
 Gliel’avevo detto io di partire qualche giorno prima del concerto, ma quelli fanno sempre di testa loro!
-Gliel’avevo detto io di partire qualche giorno prima del concerto, ma quelli fanno sempre di testa loro!
+I told 'em to leave a few days before the concert,<<n>>but they're so stuck in their ways!
 [Map212]
 <<[>>old<<]>>Qui c'è solo spazzatura.
 <<[>>old<<]>>Just garbage here.
@@ -10316,53 +10316,53 @@ No
 No
 [Map221]
 Donna
-Donna
+Dana
 Le borse griffate #hiptop sono la mia passione!
-Le borse griffate #hiptop sono la mia passione!
+I love these #hiptop designer bags!
 Agostina
-Agostina
+Adelynn
 Benvenuto|a all'Outlet Hip-Top.
-Benvenuto|a all'Outlet Hip-Top.
+Welcome to Hip-Top Store.
 Le diamo il benvenuto all’Outlet Hip-Top.
-Le diamo il benvenuto all’Outlet Hip-Top.
+Welcome to Hip-Top Store.
 Sonico
-Sonico
+Sonny
 Scusami, ma sono un po’ di fretta al momento. Se ti va, ci si becca qui dopo il concerto, ok?
-Scusami, ma sono un po’ di fretta al momento. Se ti va, ci si becca qui dopo il concerto, ok?
+Sorry, dude||||girl, but I'm on a rush right now!<<n>>Let's meet here after the concert, OK?
 Ehi, eccoti qui! Allora amico|a, eri venuto|a da me per far imparare <b>Suonopatto</b> a uno dei tuoi Pokémon?
-Ehi, eccoti qui! Allora amico|a, eri venuto|a da me per far imparare <b>Suonopatto</b> a uno dei tuoi Pokémon?
+Oh, here you are! So, homie, did ya come here to make<<n>>me teach <b>Sound Pledge</b> to one of your Pokémon?
 Ora anche il tuo piccolo amico potrà spaccare tutto con la musica!
-Ora anche il tuo piccolo amico potrà spaccare tutto con la musica!
+Now your lil' buddy is ready to rock, too!
 Torna a trovarmi se vuoi che uno dei tuoi Pokémon impari questa mossa.
-Torna a trovarmi se vuoi che uno dei tuoi Pokémon impari questa mossa.
+Come back if any of your Pokémon needs to learn<<n>>this move.
 Filomena
-Filomena
+Adelaide
 Sierra
 Sierra
 Ehi, sorella, ma quanto ci metti a provarti quei due stracci?!
-Ehi, sorella, ma quanto ci metti a provarti quei due stracci?!
+Hey, sis! How long does it take you to try those rags on?!
 Alex
 Alex
 Questa Canotta Skull spacca davvero! Sk-Sk-Skull!
-Questa Canotta Skull spacca davvero! Sk-Sk-Skull!
+This Skull Tank's freakin' good, homie!
 Sidney
 Sidney
 Come mi stanno questi occhiali secondo te? Rispondi sinceramente, per favore.
-Come mi stanno questi occhiali secondo te? Rispondi sinceramente, per favore.
+Do these glasses suit me? Please, be honest!
 Tu dici?
-Tu dici?
+You say?
 Effettivamente non convincono neanche me, sai? Forse dovresti provarli tu!
-Effettivamente non convincono neanche me, sai? Forse dovresti provarli tu!
+Actually I'm not sure either, y'know?<<n>>You should try 'em on!
 A te stanno una favola invece!
-A te stanno una favola invece!
+Look at that! They fit you so well!
 Dani
-Dani
+Dan
 Bah, questi abiti non fanno proprio per me. Servirebbe qualcosa di più vintage...
-Bah, questi abiti non fanno proprio per me. Servirebbe qualcosa di più vintage... 
+Bah, these clothes aren't for me.<<n>>I'd like some vintage pieces...
 Beatrice
-Beatrice
+Lexi
 Al giorno d’oggi l’apparenza è tutto, perciò vesto solo Hip-Top dalla testa ai piedi!
-Al giorno d’oggi l’apparenza è tutto, perciò vesto solo Hip-Top dalla testa ai piedi!
+Nowadays appearance's everything, that's why I only wear Hip-Top from head to toe!
 Sì
 Yes
 No
@@ -10370,14 +10370,14 @@ No
 Benissimo!
 Very well!
 Ehm, ecco...
-Ahem...
+Ahem, actually...
 [Map222]
 Sean
 Sean
 Ehi, il re della pista qui sono io!
-Ehi, il re della pista qui sono io!
+Hey, I'm the king of the dance floor here!
 Dalle stelle alle stalle in tempo record...
-Dalle stelle alle stalle in tempo record...
+I went riches to rags in no time...
 ???
 ???
 Stai andando alla grande, \PN! Vedo proprio che hai il ritmo nel sangue! Eh eh!
@@ -10391,11 +10391,11 @@ This is the <b>Dance Room</b>, chock full of Breakers and dance experts...are yo
 Miya
 Miya
 Sei un po’ troppo piccolo|a per ballare con me, ma se vuoi posso concederti una lotta!
-Sei un po’ troppo piccolo|a per ballare con me, ma se vuoi posso concederti una lotta!
+You're way too young to dance with me, but not for<<n>>a Pokémon battle!
 Troppo tardi per tornare indietro e scegliere di ballare...?
-Troppo tardi per tornare indietro e scegliere di ballare...?
+Is it too late to go back and choose to dance instead...?
 Jona
-Jona
+Jonas
 Ehi, ehi! Questa è l’area riservata ai vip, amico|a!
 Hey ya! This is the VIP area, mate!
 <<[>>old<<]>>Qui non c'è niente...
@@ -10403,63 +10403,65 @@ Hey ya! This is the VIP area, mate!
 Jake
 Jake
 Questa sì che è musica, mica come quello schifo di rock!!
-Questa sì che è musica, mica come quello schifo di rock!!
+Now this is music, not that rock garbage!!
 Ecco, mi sono rovinato la serata...
-Ecco, mi sono rovinato la serata...
+My party got spoiled right now...
 Non fosse per la musica, sarei già a deprimermi per questa batosta...
-Non fosse per la musica, sarei già a deprimermi per questa batosta...
+I'd start getting bummed out if it weren't for dis music...
 Jade
 Jade
 Ehi, ragazzino|a!
-Ehi, ragazzino|a!
+Hey, kid!
 Sei stato formidabile! Raggiungimi in console, su!
-Sei stato formidabile! Raggiungimi in console, su!
+You were terrific! Come here at the deejay booth, c'mon!
 <<[>>old<<]>>Sta chiacchierando col barista.
-<<[>>old<<]>>They're chatting.
+<<[>>old<<]>>They are chatting.
 <<[>>old<<]>>A quale piano vuoi andare?
 <<[>>old<<]>>Which floor are you going to?
-Amico, se hai qualche richiesta sulla musica da mettere su, dovrai aspettare! Intanto, però, puoi scatenarti in pista! Forza!
-Amico, se hai qualche richiesta sulla musica da mettere su, dovrai aspettare! Intanto, però, puoi scatenarti in pista! Forza!
+Amico|a, se hai qualche richiesta sulla musica da mettere su, dovrai aspettare! Intanto, però, puoi scatenarti in pista! Forza!
+Dude||||Girl, if you're here to request the music, I'll have ya know you gotta wait!<<n>>Meanwhile, go and hit the dance floor! C'mon!
 Che forza, amico|a! Quei tuoi passi di danza erano davvero pazzeschi!
-Che forza, amico|a! Quei tuoi passi di danza erano davvero pazzeschi!
+Man, that was cool! Those dance steps were totally insane!
+Vediamo un po’ se meriti anche di salire al Golden Studio!
+Lessee if you're worth going up to the Golden Studio!
 C’è qualcosa in cui non sei un portento? Ah ah!
-C’è qualcosa in cui non sei un portento? Ah ah!
+Is there somethin' you're not good at? Ha ha ha!
 C’è qualcosa in cui non sei un portento? Ah ah! Ecco a te il pass per raggiungere Daddy!
-C’è qualcosa in cui non sei un portento? Ah ah! Ecco a te il pass per raggiungere Daddy!
+Is there somethin' you're not good at? Ha ha ha!<<n>>Here's your ticket to get to Daddy!
 Buona fortuna, amico|a!
-Buona fortuna, amico|a!
+Good luck, homie!
 Non farti ingannare dai suoi modi di fare allegri... Daddy è un avversario da non sottovalutare!
-Non farti ingannare dai suoi modi di fare allegri... Daddy è un avversario da non sottovalutare!
+Don't get fooled by his goodish facade...<<n>>Daddy's an opponent you can't take lightly!
 William
 William
 Questa musica mi dà una carica pazzesca!!
-Questa musica mi dà una carica pazzesca!!
+This music's the only thing that gets my engine goin'!!
 Anf... pant!
-Anf... pant!
+Haa...pant!
 Anf... anf... Dammi tregua...
-Anf... anf... Dammi tregua...
+Haa...haa... Gimme a break, dude||||girl!
 Kate
 Kate
 Un passo avanti, un passo a ritmo, e che la lotta abbia inizio!
-Un passo avanti, un passo a ritmo, e che la lotta abbia inizio!
+First step up, then repeat, now let's sway to the beat!
 Sulle rime devo ancora lavorarci...
-Sulle rime devo ancora lavorarci...
+I'm still workin' on rhymes...
 <<[>>old<<]>>Sta chiacchierando con la barista.
-<<[>>old<<]>>They're chatting.
+<<[>>old<<]>>They are chatting.
 Rika
 Rika
 Che c’è? Vuoi ballare? Okay, andiamo in pista allora!!
-Che c’è? Vuoi ballare? Okay, andiamo in pista allora!!
+Whaddya want? Wanna dance?<<n>>Alright, let's hit the dance floor then!!
 Dove li hai imparati quei passi?
-Dove li hai imparati quei passi?
+Where did ya learn those steps?
 Insegnami quei passi, ti scongiuro! Sono pronta a cederti questo, guarda!
-Insegnami quei passi, ti scongiuro! Sono pronta a cederti questo, guarda!
+Please, teach me those steps! I'm ready to give ya this one! Check it out!
 <<[>>old<<]>>È Wallace Daddy che si scatena sulla pista da ballo. C'è anche il suo autografo.
 <<[>>old<<]>>It's a pic of Wallace Daddy hitting the dance floor. There's his autograph too!
 Allora, affare fatto?
-Allora, affare fatto?
-Non posso crederci che sei riuscito|a a sconfiggere Wallace! Sei pazzesco|a, ora mi fai un autografo?
-Non posso crederci che sei riuscito|a a sconfiggere Wallace!  Sei pazzesco|a, ora mi fai un autografo?
+So we got a deal?
+Incredibile! Hai battuto Daddy! Me lo fai un autografo?
+That's crazy! You defeated Daddy!<<n>>Can I have your autograph now?
 Piano Terra
 Ground Floor
 Esci
@@ -13407,14 +13409,14 @@ Mentre eri intento ad occuparti di Roserade, la nostra missione è volta al term
 Mentre eri intenta ad occuparti di Roserade, la nostra missione è volta al termine con successo.
 Mentre eri intenta ad occuparti di Roserade, la nostra missione è volta al termine con successo.
 [Map296]
-<<[>>old<<]>> Non è il momento di uscire.
-<<[>>old<<]>> Non è il momento di uscire.
-<<[>>old<<]>> Decidueye è esausto...
-<<[>>old<<]>> Decidueye è esausto...
+<<[>>old<<]>>Non è il momento di uscire.
+<<[>>old<<]>>Non è il momento di uscire.
+<<[>>old<<]>>Decidueye è esausto...
+<<[>>old<<]>>Decidueye è esausto...
 Ruta
 Ruta
-\PN chi è quello?
-\PN chi è quello?
+\PN, ti chiedo perdono...
+\PN, ti chiedo perdono...
 Victor
 Victor
 Ebbene...
