@@ -79,7 +79,9 @@ class AnimatedBitmapWrapper
   def bitmap=(val); @actualBitmap=val; end
   def each; end
   def alterBitmap(index); return @strip[index]; end
-    
+  
+  def ogBitmap; return @bitmapFile; end
+
   def prepareStrip
     @strip=[]
     for i in 0...@totalFrames

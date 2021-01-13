@@ -39,6 +39,7 @@ module EAM_Sprite
 		@zoom ={}
 		@rotate ={}
 		@coloring ={}
+		@toning={}
 		# Initializing position variables
 		#@transition["stX"] = 0
 		#@transition["stY"] = 0
@@ -93,6 +94,8 @@ module EAM_Sprite
 		#@coloring["colorVal"] = 0
 		#@coloring["callback"] = nil
 		@coloring["active"] = false
+		# Initializing Tone animation variables
+		@toning["active"] = false
 		# Initializing radius animation variables
 		@animationRadius["active"] = false
 		# initializing circumference centre animation variables
@@ -243,6 +246,17 @@ module EAM_Sprite
 		@coloring["active"] = true
 	end
 	
+	def toning(nTone,frame,ease=:linear_tween,callback=nil)
+		@toning["start"] = self.tone.clone
+		@toning["end"] = nTone
+		@toning["frame"] = 0
+		@toning["totFrame"] = frame
+		@toning["ease"] = Ease.method(ease)
+		@toning["color"] = Tone.new(0,0,0)
+		@toning["callback"] = callback
+		@toning["active"] = true
+	end
+
 	def waitAnimation
 		while isAnimating?
 			update
@@ -387,6 +401,20 @@ module EAM_Sprite
 				@coloring["active"] = false
 				self.color = @coloring["end"]
 				@coloring["callback"].call(self,:coloring) if @coloring["callback"]
+			end
+		end
+		#added by zekro
+		if @toning["active"]
+			@toning["frame"] += 1
+			@toning["color"].red = @toning["ease"].call(@toning["frame"], @toning["start"].red, @toning["end"].red-@toning["start"].red, @toning["totFrame"]) if @toning["start"].red != @toning["end"].red
+			@toning["color"].green = @toning["ease"].call(@toning["frame"], @toning["start"].green, @toning["end"].green-@toning["start"].green, @toning["totFrame"]) if @toning["start"].green != @toning["end"].green
+			@toning["color"].blue = @toning["ease"].call(@toning["frame"], @toning["start"].blue, @toning["end"].blue-@toning["start"].blue, @toning["totFrame"]) if @toning["start"].blue != @toning["end"].blue
+			@toning["color"].gray = @toning["ease"].call(@toning["frame"], @toning["start"].gray, @toning["end"].gray-@toning["start"].gray, @toning["totFrame"]) if @toning["start"].gray != @toning["end"].gray
+			self.tone = @toning["color"]
+			if @toning["frame"] >= @toning["totFrame"]
+				@toning["active"] = false
+				self.tone = @toning["end"]
+				@toning["callback"].call(self,:coloring) if @toning["callback"]
 			end
 		end
 	end

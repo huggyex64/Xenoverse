@@ -150,50 +150,50 @@ class NewMenu
     pbSEPlay("BW2OpenMenu")
     
     #Ordine Poke  t.c  wes  save quit opt bag
-		@xPos = [213, 316, 340, 269, 156, 85, 110]
+	@xPos = [213, 316, 340, 269, 156, 85, 110]
     #Ordine Poke t.c wes  save  quit opt  bag 
     @yPos = [28, 79, 189, 280, 276, 188, 77]
-		@index = 0 if $Trainer.party.length>0
+	@index = 0 if $Trainer.party.length>0
     @index = 1 if $Trainer.party.length==0
 		
-		@items = []
-		initItems
-		@noItems = @items.length
-		for i in 0...@noItems
-      if @items[i] != nil
-        @items[i].setPosition(@xPos[i], @yPos[i])
-        @items[i].fade(255, 4)
-      end
+	@items = []
+	initItems
+	@noItems = @items.length
+	for i in 0...@noItems
+		if @items[i] != nil
+			@items[i].setPosition(@xPos[i], @yPos[i])
+			@items[i].fade(255, 4)
 		end
-		
-		@looping = true
+	end
+	
+	@looping = true
 		
     viewport = Viewport.new(0, 0, Graphics.width, Graphics.height)
     viewport.z = 99996
     
-		@sprites = {}
+	@sprites = {}
     @bg=Sprite.new(viewport)
     #@bg.snapScreen
-		#@bg.blur_sprite(4)
-		#@bg.bitmap.blt(0,0,pbBitmap("Graphics/Pictures/newMenu/TestBlur"),Rect.new(0,0,512,384))
-		@bg.bitmap=pbBitmap("Graphics/Pictures/newMenu/TestBlur")
+	#@bg.blur_sprite(4)
+	#@bg.bitmap.blt(0,0,pbBitmap("Graphics/Pictures/newMenu/TestBlur"),Rect.new(0,0,512,384))
+	@bg.bitmap=pbBitmap("Graphics/Pictures/newMenu/TestBlur")
     #@bg.bitmap=Bitmap.new(Graphics.width,Graphics.height)
     #@bg.bitmap.fill_rect(0,0,Graphics.width,Graphics.height,Color.new(0,0,0))
     @bg.blur_sprite(2)
     @bg.opacity=0
-		@sprites["bg"] = NewMenu_Bg.new
-		@sprites["selector"] = NewMenu_Selector.new(self)
-		@sprites["text"] = NewMenu_Text.new
-		@sprites["text"].bitmap.font.name = "Kimberley Bl"
-		@sprites["text"].updateText(@items[@index].displayedName) if @items[@index] != nil
-		
-		10.times do
+	@sprites["bg"] = NewMenu_Bg.new
+	@sprites["selector"] = NewMenu_Selector.new(self)
+	@sprites["text"] = NewMenu_Text.new
+	@sprites["text"].bitmap.font.name = "Kimberley Bl"
+	@sprites["text"].updateText(@items[@index].displayedName) if @items[@index] != nil
+	
+	10.times do
       @bg.opacity+=15.5
     end
     
     @sprites.each do |k, s|
-			s.fade(255, 10)
-		end
+		s.fade(255, 10)
+	end
     
     update
   end
@@ -224,14 +224,14 @@ class NewMenu
 		pokewes = NewMenu_Item.new("pokewes", _INTL("PokéWES"))
 		pokewes.function = lambda {
 			#pbFadeOutIn(99999) {
-      if pbInSafari?
-        Kernel.pbMessage(_INTL("Can't use this while you're taking the Hero trial."))
-      elsif $game_switches[997]==true
-        Kernel.pbMessage(_INTL("Can't use the PokeWES right now."))
-      else  
-        PokeWES.new(self)
-      end
-      #}
+			if pbInSafari?
+				Kernel.pbMessage(_INTL("Can't use this while you're taking the Hero trial."))
+			elsif $game_switches[997]==true
+				Kernel.pbMessage(_INTL("Can't use the PokeWES right now."))
+			else  
+				PokeWES.new(self)
+			end
+			#}
 		}
     
     # NO POKÉWES
@@ -347,23 +347,26 @@ class NewMenu
 	
 	def handleInput
 		Input.update
-    if Input.trigger?(Input::LEFT)
-      @index = (@index - (@items[@index - 1] == nil ? 2 : 1)) % @noItems
+		if Input.trigger?(Input::LEFT)
+			@index = (@index - (@items[@index - 1] == nil ? 2 : 1)) % @noItems
 			@sprites["selector"].animate
 			@sprites["text"].updateText(@items[@index].displayedName)
 			pbSEPlay("Select")
-    elsif Input.trigger?(Input::RIGHT)
-      @index += 1
-      @index = 0 if @index == @items.length
-      @index += 1 if @items[@index] == nil
+		elsif Input.trigger?(Input::RIGHT)
+			@index += 1
+			@index = 0 if @index == @items.length
+			@index += 1 if @items[@index] == nil
 			@sprites["selector"].animate
 			@sprites["text"].updateText(@items[@index].displayedName)# if @items[@index] != nil
 			pbSEPlay("Select")
 		elsif Input.trigger?(Input::C)
 			@items[@index].select
 			pbSEPlay("Select")
+		elsif Input.trigger?(Input::Y)
+			pbSEPlay("Select")
+			pbMGH			
 		elsif Input.trigger?(Input::B)
-      pbSEPlay("menu")
+			pbSEPlay("menu")
 			close
 		elsif Input.trigger?(Input::X) && $DEBUG
 			pbFadeOutIn(99999) { 
