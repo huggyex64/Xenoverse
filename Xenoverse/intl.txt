@@ -4288,7 +4288,7 @@ P08
 Come avete fatto a eludere la sorveglianza?! <i>Bzz!</i>
 How have you managed to elude our vigilance?! <i>Bzz!</i>
 <<[>>old<<]>>È il fossile di un antico Pokémon proveniente dallo spazio. Sembrerebbe essere dell'inchiostro solidificato... Vuoi prenderlo?
-<<[>>old<<]>>A fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink... You want this?
+<<[>>old<<]>>The fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink... You want this?
 Prendilo pure tu. Io non saprei che farmene! Ah ah ah!
 You can have it. I wouldn't know what to do with it!<<n>>Ha ha ha!
 Molto bene, allora io prenderò questo per analizzarlo in laboratorio!
@@ -4296,7 +4296,7 @@ Well, so I'm gonna take this one for further examination<<n>>in a lab!
 \PN, è stato bello condividere una simile avventura con te, ma ora devo proprio andare. Signore, venga con me. Non può mica attraversare la grotta da solo e senza Pokémon! Ciao, \PN!
 \PN, it was nice helping you in such an adventure,<<n>>but I really gotta go now.<<n>>Come with me, sir. You can't just cross the cave all alone<<n>>and without any Pokémon!<<n>>Bye, \PN!
 <<[>>old<<]>>È il fossile di un antico Pokémon proveniente dallo spazio. Sembrerebbe essere dell'inchiostro solidificato... Non puoi prenderlo: hai già il Chirofossile!
-<<[>>old<<]>>A fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink... You can't take it: you already got the Print Fossil!
+<<[>>old<<]>>The fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink... You can't take it: you already got the Print Fossil!
 G1N0
 G1N0
 <i>Bzz!</i>
@@ -4316,9 +4316,9 @@ HJ65
 Questo posto ormai è di proprietà del Team Dimension! <i>Bzz!</i>
 This cave is Team Dimension’s property now! <i>Bzz!</i>
 <<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Vuoi prenderlo?
-<<[>>old<<]>>A fossil of an ancient Pokémon that lived on land. It appears to be a handprint... You want this?
+<<[>>old<<]>>The fossil of an ancient Pokémon that lived on land. It appears to be a handprint... You want this?
 <<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Non puoi prenderlo: hai già il Fossilcosmo!
-<<[>>old<<]>>A fossil of an ancient Pokémon that lived on land. It appears to be a handprint... You can't take it: you already got the Space Fossil!
+<<[>>old<<]>>The fossil of an ancient Pokémon that lived on land. It appears to be a handprint... You can't take it: you already got the Space Fossil!
 4Y
 4Y
 Non farmi girare gli ingranaggi! <i>Bzz!</i>
@@ -7290,6 +7290,8 @@ E-Ehi, ragazzi. N-Non lasciatemi qui da solo!
 H-Hey, guys. D-Don't leave me by myself!
 Whiiiiis!!
 Whiiiiis!!
+Senza offesa Maurice, ma sicuramente \PN è molto più adatta di te! Tu non sei nemmeno un autentico Allenatore, dopotutto...
+No offense Chrysler, but \PN is definitely more<<n>>qualified than you!<<n>>You aren't even a real Trainer, after all...
 Co-Concordo con te, sorellona! \PN, sei stata davvero eccezionale!
 I-I agree with you, sis!<<n>>\PN, you were amazing!
 Ehi, tappetto|a. Vedi di non starmi tra i piedi!
@@ -7532,7 +7534,7 @@ You have nothing to grab onto anymore,<<n>>Hangead...get out of my body!!
 I-It's all...over now... Thank you...\PN...<<n>>T-Thank you so much...<<n>>Please, save my Sis...and defeat that monster...
 Whisteract
 Whisteract
-\PN, prendere possesso del corpo di questo ragazzino è stato piuttosto semplice... Soprattutto perché appena ha visto il mio aspetto è scoppiato in lacrime! Whi whi whi!
+\PN, prendere possesso del corpo di questo ragazzino è stato piuttosto semplice... Soprattutto perché appena ha visto il mio aspetto è scoppiato in lacrime! Whi ih ih!
 \PN, possessing the body of this kid was actually<<n>>pretty easy...<<n>>Mostly because when he saw me he started crying<<n>>his heart out! Whi hi hi!
 Whi ih ih! Sei riuscita a sconfiggermi, ma uscirò di qui con questo corpo ormai mio!
 Whi hi hi! You managed to defeat me, but I'll leave<<n>>this place with this body!
@@ -10000,11 +10002,11 @@ Use Box
 <<[>>old<<]>>Aeroporto Samuel Oak
 <<[>>old<<]>>Samuel Oak Airport
 Elvira
-Elvira
+August
 Sono così in ansia per l’aereo! Mi ci vuole una bella lotta Pokémon per calmarmi!
-Sono così in ansia per l’aereo! Mi ci vuole una bella lotta Pokémon per calmarmi!
+I'm so anxious for the flight! I need a good<<n>>Pokémon battle to take the edge off!
 Phew! Ho ritrovato la calma.
-Phew! Ho ritrovato la calma.
+Haa! I got back my peace of mind.
 Michonne
 Michonne
 Siamo spiacenti, ma non è possibile accedere all’aeroporto senza la <b>Medaglia Ritmo</b>.
@@ -10044,31 +10046,31 @@ Wow, you sure don't hold back... Ha ha ha!<<n>>I'm just kidding, c'mon!
 Sai che è sempre un piacere vederti e lottare con te! Ora vado, però... Ci vediamo!
 You know I always enjoy seeing you and fighting you!<<n>>I really have to go, though... See you!
 Mahmood
-Mahmood
+Sheeran
 Ho passato tutta la giovinezza a fare pratica col Gameboy, ma ora sono pronto per una lotta vera!
-Ho passato tutta la giovinezza a fare pratica col Gameboy, ma ora sono pronto per una lotta vera!
+I've been playing with Game Boy my entire youth,<<n>>but now I'm ready to move on to real battles!
 Che gioventù bruciata...
-Che gioventù bruciata...
+I see fire!!
 Teresa
-Teresa
+Zoey
 Starmene buona ad aspettare non fa proprio per me!
-Starmene buona ad aspettare non fa proprio per me!
+Sitting back and waiting ain't my thing!
 Se non altro un po' di tempo l'ho passato a lottare.
-Se non altro un po' di tempo l'ho passato a lottare.
+Well, at least I spent some time battling.
 Ma quanto ci mette questo aereo?! Sono qui che aspetto da almeno cinque minuti!
-Ma quanto ci mette questo aereo?! Sono qui che aspetto da almeno cinque minuti!
+This plane's takin' too damn long!! I've been waitin' here<<n>>for five minutes straight!
 Berny
 Berny
 Questa giungla è così instagrammabile che ce la vedrei perfetta come sfondo per i miei Pokémon che lottano!
-Questa giungla è così instagrammabile che ce la vedrei perfetta come sfondo per i miei Pokémon che lottano!
+This glimpse of the jungle is so instagrammatic...<<n>>I really wanna take some pics of my Pokémon battling!
 Almeno sono riuscito a scattare qualche foto niente male...
-Almeno sono riuscito a scattare qualche foto niente male...
+At least I took some decent pictures...
 Vediamo, che filtro potrei metterci...?
-Vediamo, che filtro potrei metterci...?
+Hmmm, what filter could I use...?
 Salvador
-Salvador
+Jeffrey
 L’aereo è fantastico! In giornata, ti permette di passare dal clima mite di Eldiw a quello tropicale di Alola.
-L’aereo è fantastico! In giornata, ti permette di passare dal clima mite di Eldiw a quello tropicale di Alola.
+The plane's great! Within the day, it allows you to pass<<n>>from Eldiw's mild climate to Alola's tropical one.
 [Map220]
 Fonco
 Billy
@@ -11540,7 +11542,7 @@ Ruta
 Eccoti qui, \PN...
 Here you are, \PN...
 Cosa ci fanno le Sentinelle qui, all'ingresso...? Dovrebbero presidiare le porte del Tempio!
-What are these Sentinels doing here, at the entrance...? They should protect the Temple doors!
+What are these Sentinels doing here, at the entrance...?<<n>>They should protect the Temple doors!
 Demetrii
 Demetrii
 Andatevene immediatamente! Nessuno può passare senza il permesso del padrone!
@@ -11554,7 +11556,9 @@ You asked for this! \PN, let's give 'em a lesson!
 Il cuore mi batte all'impazzata...!
 My heart's beating wildly...!
 Accidenti! Ma che diavolo sta combinando quello zuccone di mio padre?!
-Dammit! What the heck has that chowderhead of daddy been doing here?!
+Dammit! What the heck has that chowderhead of daddy<<n>>been doing here?!
+Perché posizionare delle guardie a difesa della giungla...?
+Why did he place these guards to defend the jungle...?
 Come dici, \PN?! Pensi che possa esserci lo zampino di alcuni cattivi dietro questa situazione?! Vuol dire che papà è in pericolo, allora!
 What you say, \PN?! Do you think some villains<<n>>have to be behind all this situation?!<<n>>Then it means daddy is in danger!
 \PN, sei un Allenatore tosto e sono sicuro che riuscirai a trovare il Tempio con le tue forze! Ci ritroveremo direttamente laggiù, ok?
@@ -11602,13 +11606,13 @@ Well, incidentally, I have a friend here, and I think it might<<n>>help you...
 Se mi dimostrerai di non esserlo con una bella lotta, foooorse potrebbe decidere di darti una mano... Che ne dici?
 If you prove me not to be one with a battle, maaaaybe<<n>>it will help you out... How 'bout that?
 Evvai! Forza, <b>Decidueye</b>! Facciamo mangiare la polvere a questo|a! Ih ih!
-Booyah! C'mon, <b>Decidueye</b>! Let's make this one bite the dust! Tee-hee!
+Booyah! C'mon, <b>Decidueye</b>! Let's make this one bite<<n>>the dust! Tee-hee!
 Decidueye
 Decidueye
 Dueye...!
 Dueye...!
 Che botta!
-Che botta!
+Ouchie!
 Accidenti, che botta!
 Ouchie!
 Tutto bene, Decidueye?
@@ -11679,7 +11683,7 @@ You see, I'm a resident of Dorado Village too, well...
 A dirla tutta, sono il figlio del capovillaggio... il <b>Cardinale Chua</b>!
 Actually, I'm the son of the village chief...<<n>>the <b>Cardinal Chua</b>!
 Ho rubato questa pietra dal suo palazzo, perché speravo di attirare la sua attenzione.
-Ho rubato questa pietra dal suo palazzo, perché speravo di attirare la sua attenzione.
+I stole this stone from his sanctuary to try and catch<<n>>his eye.
 Sai, lui è sempre impegnato col suo lavoro al <b>Tempio Shyleon</b> e non ha mai tempo per me...
 Y'know, he's always busy with his full-time job at the <b>Shyleon Temple</b> and he never has time for me...
 È così che ho conosciuto questo Decidueye, quando era ancora un piccolo Rowlet, e da allora siamo come fratelli! Vero, amico mio?
@@ -11689,7 +11693,7 @@ Decidueye
 Dueye...!
 Dueye...!
 Tu però non c'entri niente, perciò dovresti andare dal Cardinale a dimostrare la tua innocenza... Se vuoi, ti do una mano a raggiungerlo!
-But you had nothing to do with this, so you should go<<n>>to the Cardinal to prove your innocence<<n>>I can help you to reach him, if you want!
+But you had nothing to do with this, so you should go<<n>>to the Cardinal to prove your innocence...<<n>>I can help you to reach him, if you want!
 Prendi questa, ti servirà sicuramente per attraversare la fitta selva della giungla!
 Take this, you'd definitely need it to cross the thick<<n>>jungle forest!
 Non so bene come funzioni, ma da quel che dicevano quei vecchiacci a palazzo, pare che permetta di tagliare gli alberelli che intralciano il cammino!
@@ -11705,83 +11709,85 @@ All you have to do is heading east of Dorado and then, with Feraligatr's help, g
 Kixo
 Kixo
 Il Cardinale ci ha ordinato di tenere chiunque alla larga dalla sua dimora.
-Il Cardinale ci ha ordinato di tenere chiunque alla larga dalla sua dimora.
+The Cardinal has entrusted us to keep everyone away<<n>>from his sanctuary.
 <<[>>old<<]>>Capanna dello sciamano
-<<[>>old<<]>>Capanna dello sciamano
+<<[>>old<<]>>Shaman's Hut
 Brasso
-Brasso
+Anix
 Mio nipote ha deciso di portare l’amore per la natura al di fuori del villaggio e si è trasferito a Balansopoli.
-Mio nipote ha deciso di portare l’amore per la natura al di fuori del villaggio e si è trasferito a Balansopoli.
+My nephew has decided to bring the love for nature<<n>>outside this village and has moved to Hadwarf City.
 Frehio
 Frehio
 Nessun varcherà questa terra senza aver portato ossequi al <b>Cardinale</b>.
-Nessun varcherà questa terra senza aver portato ossequi al <b>Cardinale</b>.
+Not a single man will cross this land without paying<<n>>his respect to the <b>Cardinal</b> first.
 Xion
 Xion
 Qui nel villaggio, i miei flauti di pregiata fattura sono sulla bocca di tutti!
-Qui nel villaggio, i miei flauti di pregiata fattura sono sulla bocca di tutti!
+My finely crafted Flutes are on everyone's lips here<<n>>in the village!
 <<[>>old<<]>>Paleocava
-<<[>>old<<]>>Paleocava
+<<[>>old<<]>>Historia Cave
 Joseph
 Joseph
 Questo antico villaggio è una meta ambitissima da noi Scoprirovine!
-Questo antico villaggio è una meta ambitissima da noi Scoprirovine!
+This ancient village is a sought-after destination for<<n>>Ruin Maniacs like me!
 Grehio
 Grehio
 Niio
 Niio
 La Baccagrana rende i Pokémon più amichevoli, ma ne riduce i PS. Prendine una.
-La Baccagrana rende i Pokémon più amichevoli, ma ne riduce i PS. Prendine una.
+Pomeg Berries make Pokémon more friendly, but lower<<n>>their HP. Here, take one.
 Per ottenere qualcosa è necessario dare in cambio qualcos’altro che abbia il medesimo valore. Ce lo dimostra anche la natura!
-Per ottenere qualcosa è necessario dare in cambio qualcos’altro che abbia il medesimo valore. Ce lo dimostra anche la natura!
+If you want to make something, you need to give something<<n>>of the equivalent cost in exchange.<<n>>It's the law of nature!
 Pasio
 Pasio
 Questo Kecleon ha davvero una gran febbre...
-Questo Kecleon ha davvero una gran febbre...
-Oh, saresti disposto a cedermi quel tuo <b>Cristallo di ghiaccio</b>?
-Oh, saresti disposto a cedermi quel tuo <b>Cristallo di ghiaccio</b>?
+This Kecleon's got a terrible fever...
+Se solo avessi qualcosa per rinfrescargli la fronte... Del ghiaccio, magari...
+If only I had something to cool its brow...<<n>>Some ice would be perfect!
+Oh, saresti disposto|a a cedermi quel tuo <b>Cristallo di ghiaccio</b>?
+Oh, would you be willing to give me that<<n>><b>Ice Crystal</b> of yours?
 Il tuo animo gentile merita di custodire l'<b>Idolo d'Erba</b>. Prendilo, coraggio.
-Il tuo animo gentile merita di custodire l'<b>Idolo d'Erba</b>. Prendilo, coraggio.
+Your gentle soul deserves to keep the <b>Idol of Grass</b><<n>>in its hands. Take it, it's your now!
 L'Idolo d'Erba è la rappresentazione del sacro Pokémon venerato a Ofiuchia sin dalle origini.
-L'Idolo d'Erba è la rappresentazione del sacro Pokémon venerato a Ofiuchia sin dalle origini.
+The Idol of Grass represents the sacred Pokémon<<n>>we've been worshipping in Dorado since its birth.
 Belliq
 Belliq
 <<[>>old<<]>><b>Ofiuchia</b>\n<i>''Un'antica civiltà sfuggita alle grinfie del tempo.''</i>
-<<[>>old<<]>><b>Ofiuchia</b>\n<i>''Un'antica civiltà sfuggita alle grinfie del tempo.''</i>
+<<[>>old<<]>><b>Dorado Village</b>\n<i>''Ancient civilization survived the clutches of time.''</i>
 Paxilo
 Paxilo
 Sotto questo sole, voglio farti un dono.
-Sotto questo sole, voglio farti un dono.
+Beneath this Sun, I gift you this.
 Solo con l’amore, un popolo può sopravvivere al tempo.
-Solo con l’amore, un popolo può sopravvivere al tempo.
+It is only through love that a population can survive<<n>>the passage of time.
 Solo i coraggiosi che affrontano il <b>Cammino dell’Eroe</b> possono sperare di catturare un <b>Rowlet</b>.
-Solo i coraggiosi che affrontano il <b>Cammino dell’Eroe</b> possono sperare di catturare un <b>Rowlet</b>.
+Only the brave ones who face the trial of <b>Heroes Path</b><<n>>can hope to put their hands on a <b>Rowlet</b>.
 Exeggutor di Alola
-Exeggutor di Alola
+Alolan Exeggutor
 Exegg...!
 Exegg...!
 <<[>>old<<]>>Dimora del Cardinale
-<<[>>old<<]>>Dimora del Cardinale
+<<[>>old<<]>>Cardinal's Sanctuary
 Xuugo
 Cozcatl
 Ormai i nutrienti di questa terra cominciano ad essere pochi per questo spilungone...
-Ormai i nutrienti di questa terra cominciano ad essere pochi per questo spilungone...
+The nutrients from this soil are no longer enough<<n>>for this big guy...
 Chi se lo sarebbe mai aspettato che un Exeggutor potesse crescere così tanto!
-Chi se lo sarebbe mai aspettato che un Exeggutor potesse crescere così tanto!
+I would have never expected an Exeggutor might grow<<n>>this big!
 Non è che ti andrebbe di scambiare un Exeggutor mignon col mio <b>Exeggutor di Alola</b>?
-Non è che ti andrebbe di scambiare un Exeggutor mignon col mio <b>Exeggutor di Alola</b>?
+Do you have a regular size Exeggutor you want to trade<<n>>for my <b>Alolan Exeggutor</b>, by any chance?
 Torna a trovarmi se dovessi trovarne uno.
-Torna a trovarmi se dovessi trovarne uno.
+Come again if you have one.
 Diamo inizio al rito dello scambio!
-Diamo inizio al rito dello scambio!
+Let's get the trade ceremony started!
 Che sia stato il potere del sole a renderlo così alto...?
-Che sia stato il potere del sole a renderlo così alto...?
+I think it was the blazing sunlight that made Exeggutor<<n>>like this...
 Vrehio
 Vrehio
 Tuuba
 Tuuba
 Da secoli, la mia famiglia è alla ricerca di un antico artefatto capace di liberare il potenziale inespresso... Ne hai mai sentito parlare?
-Da secoli, la mia famiglia è alla ricerca di un antico artefatto capace di liberare il potenziale inespresso... Ne hai mai sentito parlare?
+My family has been searching for an ancient artifact<<n>>that could grant unimaginable powers for ages...<<n>>Have you ever heard of it?
 Sì
 Yes
 No
@@ -11823,35 +11829,35 @@ You were only having a look, after all...<<n>>but don't ever try that again!<<n>
 <<[>>old<<]>>Meglio non rischiare...
 <<[>>old<<]>>It's too risky...
 Selestino
-Selestino
+Ahuatzi
 L’uomo deve assecondare il flusso della giungla se non vuole soccombere ad essa.
 L’uomo deve assecondare il flusso della giungla se non vuole soccombere ad essa.
 Solo da Laborano, articoli mai visti a prezzi stracciati!!
 Only Harrison's got what you're looking for!<<n>>C'mon, have a look!
 Come hai osato addentrarti nella giungla, straniero|a?!
-Come hai osato addentrarti nella giungla, straniero|a?!
+How dare you enter the jungle, stranger?!
 Sento le forze venir meno...
-Sento le forze venir meno...
+I can feel my energy's fading away...
 <<[>>old<<]>>Ha perso conoscenza...
-<<[>>old<<]>>Ha perso conoscenza...
+<<[>>old<<]>>He fainted...
 Xochi
 Xochi
 Non permetterò più a nessuno di manipolare il mio animo per i propri scopi!
 Non permetterò più a nessuno di manipolare il mio animo per i propri scopi!
 Azucena
-Azucena
+Ichtaka
 Il mio compito è tenere alla larga dal Tempio gli intrusi!
-Il mio compito è tenere alla larga dal Tempio gli intrusi!
+My duty is to keep intruders away from the Temple!
 Padrone, riprendetevi le energie che mi avete concesso...
-Padrone, riprendetevi le energie che mi avete concesso...
+I'm returning the power you gave me, master...
 Non solo hai attraversato questo dedalo selvaggio, ma anche l’insidioso Tempio Shyleon! Devi proprio essere un Allenatore di tutto rispetto, straniero|a!
 Non solo hai attraversato questo dedalo selvaggio, ma anche l’insidioso Tempio Shyleon! Devi proprio essere un Allenatore di tutto rispetto, straniero|a!
 Sei qui per rubare i preziosi tesori del nostro popolo, non è vero?!
-Sei qui per rubare i preziosi tesori del nostro popolo, non è vero?!
+You won't steal our people's precious treasures!!
 Cosa succede al mio corpo...?
-Cosa succede al mio corpo...?
+What's happening to my body...?
 <<[>>old<<]>>Giungla Nebulosa
-<<[>>old<<]>>Giungla Nebulosa
+<<[>>old<<]>>Cluster Jungle
 Sì
 Yes
 No
@@ -11862,13 +11868,13 @@ Laka
 Da queste parti dovrebbe aver messo il Nido colui che porta un fiore in groppa.
 Da queste parti dovrebbe aver messo il Nido colui che porta un fiore in groppa.
 Sta' alla larga dal tempio, è un avvertimento!
-Sta' alla larga dal tempio, è un avvertimento!
+This is a warning--get away from the Temple!
 Avresti potuto avvertirmi anche tu della tua forza...
-Avresti potuto avvertirmi anche tu della tua forza...
+You could've warned me about your strength, too...
 <<[>>old<<]>>Ha perso conoscenza...
-<<[>>old<<]>>Ha perso conoscenza...
+<<[>>old<<]>>He fainted...
 Valdiss
-Valdiss
+Zamatl
 Un tempo, la prova del Cammino dell’Eroe era una vera cerimonia... ora non è che un’attrazione per turisti!
 Un tempo, la prova del Cammino dell’Eroe era una vera cerimonia... ora non è che un’attrazione per turisti!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
@@ -11880,9 +11886,9 @@ Shy...!
 <<[>>old<<]>>Forse un Pokémon di tipo Erba potrebbe addentrarvisi...
 <<[>>old<<]>>Probably a Grass-type Pokémon could get in there...
 Se questa selva labirintica non è abbastanza per te, ci penso io a farti perdere!
-Se questa selva labirintica non è abbastanza per te, ci penso io a farti perdere!
+If this labyrinthine jungle is not enough for you,<<n>>I'll get you lost myself!
 Ho perso... con questa forza...?
-Ho perso... con questa forza...?
+I lost...even with this power...?
 Funesto
 Ropert
 Ciao giovanotto|a! Mi presento, sono <b>Funesto</b>.
@@ -11909,50 +11915,50 @@ Yes
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Dakyu
-Dakyu
+Tenoch
 Come ho potuto lasciare che violassero così il Tempio che avrei dovuto proteggere...!
 Come ho potuto lasciare che violassero così il Tempio che avrei dovuto proteggere...!
 Isac
-Isac
+Xolotl
 Se ti armi di pazienza, in questa selva potresti addirittura trovare un <b>Totodile</b>.
 Se ti armi di pazienza, in questa selva potresti addirittura trovare un <b>Totodile</b>.
 Cosa dice la legge della giungla? Prima colpisci, poi parla!
-Cosa dice la legge della giungla? Prima colpisci, poi parla!
+Now this is the law of the jungle--hit first,<<n>>ask question later!
 C’è chi è predatore e chi preda...
-C’è chi è predatore e chi preda...
+Some of us are predators, some others prey...
 <<[>>old<<]>>Ha perso conoscenza...
-<<[>>old<<]>>Ha perso conoscenza...
+<<[>>old<<]>>He fainted...
 Elmer
-Elmer
+Ueman
 Sarai anche riuscito|a a non smarrirti tra queste fronde, ma questo per te è il capolinea!
-Sarai anche riuscito|a a non smarrirti tra queste fronde, ma questo per te è il capolinea!
+You may have been able to not get lost in these fronds,<<n>>but this is the end of the line for you!
 No... il Tempio dev’essere protetto...!
-No... il Tempio dev’essere protetto...!
+No...the Temple must be protected...!
 Vedo che la giungla ti sta dando del filo da torcere. Se non ti dispiace, mi aggrego anch'io!
-Vedo che la giungla ti sta dando del filo da torcere. Se non ti dispiace, mi aggrego anch'io!
+The jungle is giving you a hard time, huh?!<<n>>I'm going to do the same, if you don't mind!
 Ci penserà la natura selvaggia a te.
-Ci penserà la natura selvaggia a te.
+Nature will take care of you.
 Cisco
-Cisco
+Zuma
 I Donanas di rado si vedono in natura, ma pare che se ne trovino a bizzeffe nella riserva del Cammino dell’Eroe.
 I Donanas di rado si vedono in natura, ma pare che se ne trovino a bizzeffe nella riserva del Cammino dell’Eroe.
 Sei pericolosamente vicino|a alla meta... non posso permetterti di fare un passo di più!
-Sei pericolosamente vicino|a alla meta... non posso permetterti di fare un passo di più!
+You're dangerously close to your destination...<<n>>I'm not letting you go one step further!
 Il mio è stato un passo falso...
-Il mio è stato un passo falso...
+I made a misstep...
 Quest’emicrania proprio non ne vuol sapere di andarsene...
 Quest’emicrania proprio non ne vuol sapere di andarsene...
 [Map270]
 <<[>>old<<]>>Cammino dell'Eroe
-<<[>>old<<]>>Cammino dell'Eroe
+<<[>>old<<]>>Heroes Path
 Donanas
 Donanas
 Dona...!
-Dona...!
+Na-nas!
 Greeno
 Greeno
 Vietato passare.
-Vietato passare.
+No crossing.
 Flik
 Flik
 Na-nas!
@@ -11981,9 +11987,9 @@ Please...please, \PN! Help me!
 Grazie! Grazie! Grazie!
 Thank you! Thank you! Thank you!
 Nonostante tutto quello che stavo per farti, hai accettato senza esitare! Sei davvero una persona di buon cuore, \PN.
-Despite what I was gonna do to you, you agreed<<n>>with no hesitation!<<n>>You really are a good person, \PN.
+Despite what I was gonna do to you, you accepted<<n>>with no hesitation!<<n>>You really are a good person, \PN.
 Bene, allora... io conosco il Tempio come le mie tasche, perciò ti precederò...
-Well, then...I know the Temple like an owl knows its tree, so I'll go ahead...
+Well, then...I know the Temple like an owl knows its tree,<<n>>so I'll go ahead...
 Mi raccomando, tu stendi tutte quelle Sentinelle e occhio alle trappole! Ci si vede dentro!
 You make sure to knock down all those Sentinels<<n>>and watch out for traps! See you inside!
 Decidueye
@@ -13610,39 +13616,39 @@ Linio
 Jili
 Jili
 Qualcuno deve aver perso questo mentre esplorava il <b>Tempio Shyleon</b>. Proprio non capisco cosa sia, prendilo tu.
-Qualcuno deve aver perso questo mentre esplorava il <b>Tempio Shyleon</b>. Proprio non capisco cosa sia, prendilo tu.
+Someone must have lost this thing while exploring<<n>>the <b>Shyleon Temple</b>.<<n>><<n>>I really don't know what it could be. You can have it.
 Mai tentare la sorte nell’insidioso tempio della giungla.
-Mai tentare la sorte nell’insidioso tempio della giungla.
+Don't tempt fate venturing inside the treacherous temple<<n>>in the jungle.
 Virandah
 Virandah
 Il dolore è indubbiamente parte integrante della vita di noi tutti... Del resto, come si può apprezzare un giorno di sole, senza prima aver fatto esperienza di un cielo cupo?
-Il dolore è indubbiamente parte integrante della vita di noi tutti... Del resto, come si può apprezzare un giorno di sole, senza prima aver fatto esperienza di un cielo cupo?
+Sunny days wouldn't be special, if it wasn't for rain.<<n>>So, joy wouldn't feel so good, if it wasn't for pain.
 [Map299]
 Luulio
-Luulio
+Coyotl
 Lontani dalla caotica città, noi abitanti di Ofiuchia ci affidiamo ancora ai rimedi donatici dalla natura.
-Lontani dalla caotica città, noi abitanti di Ofiuchia ci affidiamo ancora ai rimedi donatici dalla natura.
+Away from the city, we, the people of Dorado, still<<n>>rely on the remedies that nature has given us.
 La natura ci ha donato tutto ciò di cui abbiamo bisogno per sopravvivere su questa terra.
-La natura ci ha donato tutto ciò di cui abbiamo bisogno per sopravvivere su questa terra.
+Nature has gifted us everything we need to survive<<n>>on this earth.
 Tullio
-Tullio
+Tulio
 L'accoglienza di questo posto è così calorosa, anzi, oserei quasi dire... divina!
-L'accoglienza di questo posto è così calorosa, anzi, oserei quasi dire... divina!
+This is not a warm welcome...it's a divine one!
 [Map300]
 Miguel
 Miguel
 Non appena io e il mio amico Tullio abbiamo messo piede in questo villaggio, ci hanno accolto come dei! Ah ah ah!
-Non appena io e il mio amico Tullio abbiamo messo piede in questo villaggio, ci hanno accolto come dei! Ah ah ah!
+These villagers has mistaken my friend Tulio and me<<n>>for gods...that's great! Ha ha ha!
 Evidio
-Evidio
+Evid
 Ero così abbattuto per non aver trovato neanche un Fossile, da non accorgermi nemmeno che il mio <b>Hystearic</b> si fosse evoluto... Sarà stata quella <b>Pietrafoglia</b> che ho raccolto?
-Ero così abbattuto per non aver trovato neanche un Fossile, da non accorgermi nemmeno che il mio <b>Hystearic</b> si fosse evoluto... Sarà stata quella <b>Pietrafoglia</b> che ho raccolto?
+I was so bummed for not having found a single Fossil,<<n>>I didn't even notice my <b>Hystearic</b> had evolved...<<n>>Could it be that <b>Leaf Stone</b> I picked up right before?
 Xeegioo
-Xeegioo
+Xiuh
 Il fuoco che sembra spento, spesso dorme sotto la cenere.
-Il fuoco che sembra spento, spesso dorme sotto la cenere.
+The fire which seems extinguished often slumbers<<n>>beneath the ashes.
 Come le fiamme, anche i tuoi Pokémon rinasceranno se utilizzerai su di essi quella Ceneremagica.
-Come le fiamme, anche i tuoi Pokémon rinasceranno se utilizzerai su di essi quella Ceneremagica.
+Just as the flames, your Pokémon will be born again<<n>>if you use that Sacred Ash on them.
 [Map301]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
@@ -13653,17 +13659,17 @@ Come le fiamme, anche i tuoi Pokémon rinasceranno se utilizzerai su di essi que
 Cochimetl
 Cochimetl
 Qui i visitatori possono acquistare merce cui sono più avvezzi.
-Qui i visitatori possono acquistare merce cui sono più avvezzi.
+Here visitors can buy a lot of modern products!
 Patecatl
 Patecatl
 Nel villaggio sono conosciuto col nome di Patecatl lo sciamano. Disponendo di antichi rituali magici, sono in grado di riportare nel pieno delle forze i Pokémon. Se avranno bisogno di cure, sarò lieto di mettere i miei poteri al tuo servizio, senza chiedere compenso alcuno.
-Nel villaggio sono conosciuto col nome di Patecatl lo sciamano. Disponendo di antichi rituali magici, sono in grado di riportare nel pieno delle forze i Pokémon. Se avranno bisogno di cure, sarò lieto di mettere i miei poteri al tuo servizio, senza chiedere compenso alcuno.
+The entire Dorado Village calls me <b>Patecatl</b>,<<n>>the Shaman.<<n>>Performing ancient magic rituals, I can restore<<n>>Pokémon back to full health.<<n>>If they need treatment, I'll be glad to put my powers at<<n>>your full disposal, without asking anything in return.
 Vuoi che presti cure ai tuoi Pokémon?
-Vuoi che presti cure ai tuoi Pokémon?
+Would you like to rest your Pokémon?
 Perfetto, ora i tuoi Pokémon sono in perfetta forma!
-Perfetto, ora i tuoi Pokémon sono in perfetta forma!
+All right, I've restored your Pokémon to full health!
 Sarò sempre lieto di mettere i miei poteri al tuo servizio!
-Sarò sempre lieto di mettere i miei poteri al tuo servizio!
+I'll always be glad to put my power at your disposal!
 Sì
 Yes
 No
@@ -13676,94 +13682,94 @@ Si
 Yes
 [Map302]
 <<[>>old<<]>><b>Radifossile</b> ''Fossile di un Pokémon antico che viveva nel mare. Sembra essere il pezzo di una radice antica.''
-<<[>>old<<]>><b>Radifossile</b> ''Fossile di un Pokémon antico che viveva nel mare. Sembra essere il pezzo di una radice antica.''
+<<[>>old<<]>><b>Root Fossil</b> ''The fossil of a prehistoric Pokémon that lived in the sea. It appears to be part of a plant root.''
 <<[>>old<<]>>I reperti in questa teca sono stati rinvenuti esclusivamente nella regione di Eldiw.
-<<[>>old<<]>>I reperti in questa teca sono stati rinvenuti esclusivamente nella regione di Eldiw.
+<<[>>old<<]>>These pieces were discovered in the Eldiw region only.
 <<[>>old<<]>><b>Plesiofossile</b> ''Parte del fossile di un Pokémon preistorico che viveva in mare. Nessuno sa quale fosse il suo aspetto.''
-<<[>>old<<]>><b>Plesiofossile</b> ''Parte del fossile di un Pokémon preistorico che viveva in mare. Nessuno sa quale fosse il suo aspetto.''
+<<[>>old<<]>><b>Fossilized Dino</b> ''The fossil of a prehistoric Pokémon that lived in the sea.\nWhat it looked like is a mystery.''
 Vareexi
 Vareexi
 La conoscenza umana s’accresce di pari passo col tempo. Potremmo dire che la psiche stessa evolve!
-La conoscenza umana s’accresce di pari passo col tempo. Potremmo dire che la psiche stessa evolve!
+Human knowledge grows hand in hand with time.<<n>>We could even say that our psyche evolves too!
 Purtroppo, però, non sempre questo accade...
-Purtroppo, però, non sempre questo accade...
+Unfortunately, this isn't always the case...
 <<[>>old<<]>><b>Fossilscudo</b> ''Fossile di un Pokémon antico che viveva sulla terra. Sembra essere parte di un collare.''
-<<[>>old<<]>><b>Fossilscudo</b> ''Fossile di un Pokémon antico che viveva sulla terra. Sembra essere parte di un collare.''
+<<[>>old<<]>><b>Armor Fossil</b> ''The fossil of a prehistoric Pokémon that lived on the land. It appears to be part of a head.''
 <<[>>old<<]>><b>Fossilunghia</b> ''Fossile di un Pokémon antico che viveva nel mare. Sembra essere parte di un artiglio.''
-<<[>>old<<]>><b>Fossilunghia</b> ''Fossile di un Pokémon antico che viveva nel mare. Sembra essere parte di un artiglio.''
+<<[>>old<<]>><b>Claw Fossil</b> ''The fossil of a prehistoric Pokémon that lived in the sea. It appears to be part of a claw.''
 <<[>>old<<]>><b>Ornitofossile</b> ''Parte del fossile di un Pokémon preistorico che solcava i cieli. Nessuno sa quale fosse il suo aspetto.''
-<<[>>old<<]>><b>Ornitofossile</b> ''Parte del fossile di un Pokémon preistorico che solcava i cieli. Nessuno sa quale fosse il suo aspetto.''
+<<[>>old<<]>><b>Fossilized Bird</b> ''The fossil of a prehistoric Pokémon that soared through the sky.\nWhat it looked like is a mystery.''
 <<[>>old<<]>><b>Helixfossile</b> ''Fossile di un Pokémon antico che viveva nel mare. Sembra essere parte di una conchiglia.''
-<<[>>old<<]>><b>Helixfossile</b> ''Fossile di un Pokémon antico che viveva nel mare. Sembra essere parte di una conchiglia.''
+<<[>>old<<]>><b>Helix Fossil</b> ''The fossil of a prehistoric Pokémon that lived in the sea. It appears to be part of a seashell.''
 <<[>>old<<]>><b>Fossilcranio</b> ''Fossile di un Pokémon antico che viveva sulla terra. Sembra essere parte di una testa.''
-<<[>>old<<]>><b>Fossilcranio</b> ''Fossile di un Pokémon antico che viveva sulla terra. Sembra essere parte di una testa.''
+<<[>>old<<]>><b>Skull Fossil</b> ''The fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a head.''
 <<[>>old<<]>><b>Fossilpinna</b> ''Fossile di un Pokémon antico che viveva tra i ghiacci. Sembra essere parte di una cresta.''
-<<[>>old<<]>><b>Fossilpinna</b> ''Fossile di un Pokémon antico che viveva tra i ghiacci. Sembra essere parte di una cresta.''
+<<[>>old<<]>><b>Sail Fossil</b> ''The fossil of a prehistoric Pokémon that lived on land. It appears to be part of a skin sail.''
 <<[>>old<<]>><b>Domofossile</b> ''Fossile di un Pokémon antico che viveva nel mare. Sembra essere parte di uno scudo.''
-<<[>>old<<]>><b>Domofossile</b> ''Fossile di un Pokémon antico che viveva nel mare. Sembra essere parte di uno scudo.''
+<<[>>old<<]>><b>Dome Fossil</b> ''The fossil of a prehistoric Pokémon that lived in the sea. It appears to be part of a shell.''
 <<[>>old<<]>><b>Uovo Misterioso</b> ''Uovo Pokémon dagli strani colori. Non si è mai schiuso e non se ne conosce la provenienza.''
-<<[>>old<<]>><b>Uovo Misterioso</b> ''Uovo Pokémon dagli strani colori. Non si è mai schiuso e non se ne conosce la provenienza.''
+<<[>>old<<]>><b>Mysterious Egg</b> ''A strange-colored Pokémon Egg. It has never hatched and its origin is a mystery.''
 <<[>>old<<]>><b>Desioblocco</b> ''Frammento roccioso proveniente dalla lontana regione di Galar.''
-<<[>>old<<]>><b>Desioblocco</b> ''Frammento roccioso proveniente dalla lontana regione di Galar.''
+<<[>>old<<]>><b>Wishing Piece</b> ''A rock fragment from the remote Galar region.''
 <<[>>old<<]>><b>Fossilmascella</b> ''Fossile di un Pokémon antico che regnava sulla terra. Sembra essere parte di una mascella.''
-<<[>>old<<]>><b>Fossilmascella</b> ''Fossile di un Pokémon antico che regnava sulla terra. Sembra essere parte di una mascella.''
+<<[>>old<<]>><b>Jaw Fossil</b> ''The fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a large jaw.''
 <<[>>old<<]>><b>Ambra Antica</b> ''Pezzo di ambra antica che contiene il materiale genetico di un Pokémon antico. È chiara e giallastra.''
-<<[>>old<<]>><b>Ambra Antica</b> ''Pezzo di ambra antica che contiene il materiale genetico di un Pokémon antico. È chiara e giallastra.''
+<<[>>old<<]>><b>Old Amber</b> ''A piece of amber that contains the genetic material of a prehistoric Pokémon.\nIt is clear with a reddish tint.''
 <<[>>old<<]>><b>Chirofossile</b> ''Fossile di un antico Pokémon che abitava sulla terraferma. Sembra l'impronta di una mano.''
-<<[>>old<<]>><b>Chirofossile</b> ''Fossile di un antico Pokémon che abitava sulla terraferma. Sembra l'impronta di una mano.''
+<<[>>old<<]>><b>Print Fossil</b> ''The fossil of an ancient Pokémon that lived on land. It appears to be an handprint.''
 <<[>>old<<]>><b>Ittiofossile</b> ''Parte del fossile di un Pokémon preistorico che viveva in mare. Nessuno sa quale fosse il suo aspetto.''
-<<[>>old<<]>><b>Ittiofossile</b> ''Parte del fossile di un Pokémon preistorico che viveva in mare. Nessuno sa quale fosse il suo aspetto.''
+<<[>>old<<]>><b>Fossilized Fish</b> ''The fossil of a prehistoric Pokémon that lived in the sea.\nWhat it looked like is a mystery.''
 Meerio
 Meerio
 I Fossili dimostrano quanto il tempo doni valore alle cose. È per questo che abbiamo dedicato loro un edificio.
-I Fossili dimostrano quanto il tempo doni valore alle cose. È per questo che abbiamo dedicato loro un edificio.
+Fossils are a proof of time giving much more value to<<n>>the things. That's why we devoted this cave to them.
 <<[>>old<<]>><b>Fossiltappo</b> ''Fossile di un Pokémon antico che viveva nel mare. Sembra essere parte della sua schiena.''
-<<[>>old<<]>><b>Fossiltappo</b> ''Fossile di un Pokémon antico che viveva nel mare. Sembra essere parte della sua schiena.''
+<<[>>old<<]>><b>Cover Fossil</b> ''The fossil of a prehistoric Pokémon that lived in the sea. It appears to be part of its back.''
 <<[>>old<<]>><b>Teschio Raro</b> ''Parte dello scheletro di un Pokémon molto raro.''
-<<[>>old<<]>><b>Teschio Raro</b> ''Parte dello scheletro di un Pokémon molto raro.''
+<<[>>old<<]>><b>Rare Skull</b> ''The skull bone of a very rare Pokémon. It's part of a skeleton.''
 <<[>>old<<]>><b>Fossilcosmo</b> ''Fossile di un antico Pokémon proveniente dallo spazio. Sembra essere inchiostro solidificato.''
-<<[>>old<<]>><b>Fossilcosmo</b> ''Fossile di un antico Pokémon proveniente dallo spazio. Sembra essere inchiostro solidificato.''
+<<[>>old<<]>><b>Space Fossil</b> ''The fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink.''
 <<[>>old<<]>><b>Dracofossile</b> ''Parte del fossile di un Pokémon preistorico che viveva sulla terraferma. Nessuno sa quale fosse il suo aspetto.''
-<<[>>old<<]>><b>Dracofossile</b> ''Parte del fossile di un Pokémon preistorico che viveva sulla terraferma. Nessuno sa quale fosse il suo aspetto.''
+<<[>>old<<]>><b>Fossilized Drake</b> ''The fossil of a prehistoric Pokémon that roamed the land.\nWhat it looked like is a mystery.''
 Dhali
 Dhali
 In queste teche sono custoditi i Fossili rinvenuti nella regione di <b>Kanto</b>.
-In queste teche sono custoditi i Fossili rinvenuti nella regione di <b>Kanto</b>.
+Fossils discovered in the <b>Kanto</b> region are guarded in these shrines.
 <<[>>old<<]>><b>Fossilpiuma</b> ''Fossile di un Pokémon antico che volava nei cieli. Sembra essere parte delle sue ali.''
-<<[>>old<<]>><b>Fossilpiuma</b> ''Fossile di un Pokémon antico che volava nei cieli. Sembra essere parte delle sue ali.''
+<<[>>old<<]>><b>Plume Fossil</b> ''The fossil of a prehistoric Pokémon that flew in the sky. It appears to be part of its wing.''
 [Map303]
 Foxil
 Foxil
 Benvenuto|a nella <b>Paleocava</b>, la caverna dedita al culto dei tesori antichi.
-Benvenuto|a nella <b>Paleocava</b>, la caverna dedita al culto dei tesori antichi.
+Welcome to the <b>Historia Cave</b>, a grotto devoted to ancient treasures.
+Io, Foxil, ho ricevuto in dono dai miei avi la padronanza di un antico rito capace di riportare in vita il passato.
+I, Foxil, received from my ancestors the mastery of<<n>>an ancient ritual that can bring the past back to life.
 Sarà un onore per me metterlo a tua disposizione, se ne dovessi avere bisogno.
-Sarà un onore per me metterlo a tua disposizione, se ne dovessi avere bisogno.
+If you need it, it would be a real honor for me to put it<<n>>at your disposal.
 Benvenuto nella <b>Paleocava</b>, la caverna dedita al culto dei tesori antichi.
-Benvenuto nella <b>Paleocava</b>, la caverna dedita al culto dei tesori antichi.
+Welcome to the <b>Historia Cave</b>, a grotto devoted to ancient treasures.
 Vedo che hai un <b>Chirofossile</b> lì con te! Allora, vuoi sottoporlo al rito di rigenerazione?
-Vedo che hai un <b>Chirofossile</b> lì con te! Allora, vuoi sottoporlo al rito di rigenerazione?
+What do you have there? A <b>Print Fossil</b>!<<n>>So, you want me to use my ritual of regeneration on it?
 Che il potere dell’antichità scorra impetuoso in me!
-Che il potere dell’antichità scorra impetuoso in me!
+May the ancient energy flow through me like a rushing stream!
 <<[>>old<<]>>Abra-Kadabra... Alakazam!
-<<[>>old<<]>>Abra-Kadabra... Alakazam!
+<<[>>old<<]>>Abra-Kadabra...Alakazam!
 Dal passato, questo <b>Rockapye</b> è giunto sino a noi attraverso il tuo Chirofossile!
-Dal passato, questo <b>Rockapye</b> è giunto sino a noi attraverso il tuo Chirofossile!
+From ancient times, this <b>Rockapye</b> came down to us through your Print Fossil!
 Questo è ciò che ne rimane. Potrebbe tornarti utile nelle antiche rovine del <b>Tempio Shyleon</b>. Prendi.
-Questo è ciò che ne rimane. Potrebbe tornarti utile nelle antiche rovine del <b>Tempio Shyleon</b>. Prendi.
+This is what remains. It might come in handy in<<n>><b>Shyleon Temple</b> ruins. There you have!
 Torna da me quando avrai un Fossile da sottoporre al mio antichissimo rito.
-Torna da me quando avrai un Fossile da sottoporre al mio antichissimo rito.
+Come again when you have a Fossil I could use<<n>>my ancient ritual on. 
 Benvenuta nella <b>Paleocava</b>, la caverna dedita al culto dei tesori antichi.
-Benvenuta nella <b>Paleocava</b>, la caverna dedita al culto dei tesori antichi.
+Welcome to the <b>Historia Cave</b>, a grotto devoted to ancient treasures.
 Vedo che hai un <b>Fossilcosmo</b> lì con te! Allora, vuoi sottoporlo al rito di rigenerazione?
-Vedo che hai un <b>Fossilcosmo</b> lì con te! Allora, vuoi sottoporlo al rito di rigenerazione?
+What do you have there? A <b>Space Fossil</b>!<<n>>So, you want me to use my ritual of regeneration on it?
 Dal passato, questo <b>Sputnink</b> è giunto sino a noi attraverso il tuo Fossilcosmo!
-Dal passato, questo <b>Sputnink</b> è giunto sino a noi attraverso il tuo Fossilcosmo!
-Torna da me quando vuoi rigenerare un fossile.
-Torna da me quando vuoi rigenerare un fossile. 
+From ancient times, this <b>Sputnink</b> came down to us through your Space Fossil!
 Varren
 Varren
 Nel piano superiore sono conservati dei preziosi Fossili.
-Nel piano superiore sono conservati dei preziosi Fossili.
+Valuable Fossils are guarded on the top floor.
 Sì
 Yes
 No
@@ -20775,9 +20781,9 @@ Golden Studio
 Golden Studio
 [Map563]
 <<[>>old<<]>>È il fossile di un antico Pokémon proveniente dallo spazio. Sembrerebbe essere dell'inchiostro solidificato... Vuoi prenderlo?
-<<[>>old<<]>>È il fossile di un antico Pokémon proveniente dallo spazio. Sembrerebbe essere dell'inchiostro solidificato... Vuoi prenderlo?
+<<[>>old<<]>>The fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink... Do you want to take it?
 <<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Vuoi prenderlo?
-<<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Vuoi prenderlo?
+<<[>>old<<]>>The fossil of an ancient Pokémon that lived on land. It appears to be a handprint... Do you want to take it?
 Sì
 Yes
 No
@@ -41600,10 +41606,10 @@ L'ultima versione del noto programma della Silph S.p.a., portatore di numerosi a
 L'ultima versione del noto programma della Silph S.p.a., portatore di numerosi aggiornamenti.
 624
 Il fossile di un antico Pokémon proveniente dallo spazio. Sembra essere inchiostro solidificato.
-Il fossile di un antico Pokémon proveniente dallo spazio. Sembra essere inchiostro solidificato.
+The fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink.
 625
 Il fossile di un antico Pokémon che abitava sulla terraferma. Sembra l'impronta di una mano.
-Il fossile di un antico Pokémon che abitava sulla terraferma. Sembra l'impronta di una mano.
+The fossil of an ancient Pokémon that lived on land. It appears to be a handprint.
 626
 Poké Ball un po' diversa. Risulta particolarmente efficace sui Pokémon di tipo Spettro, Buio e Veleno.
 Poké Ball un po' diversa. Risulta particolarmente efficace sui Pokémon di tipo Spettro, Buio e Veleno.
@@ -44464,7 +44470,7 @@ Alter
 Jade
 Jade
 Mahmood
-Mahmood
+Sheeran
 Claudio
 Ginger
 Leon
@@ -44478,7 +44484,7 @@ Milione
 Ladinel
 Ladinel
 Elvira
-Elvira
+August
 Arianna
 Ariana
 Aneta
@@ -44512,7 +44518,7 @@ Gold
 Henné
 Henna
 Teresa
-Teresa
+Zoey
 Carolina
 Nadie
 Rika
@@ -44766,27 +44772,27 @@ Boy
 Ruta
 Ruta
 Valdiss
-Valdiss
+Zamatl
 Xochi
 Xochi
 Karma
 Karma
 Azucena
-Azucena
+Ichtaka
 Kars
 Kars
 Naana
 Naana
 Selestino
-Selestino
+Ahuatzi
 Atl
 Atl
 Laka
 Laka
 Cisco
-Cisco
+Zuma
 Isac
-Isac
+Xolotl
 Wamuu
 Wamuu
 Esidisi
@@ -44800,9 +44806,9 @@ Mazatl
 Aloe
 Aloe
 Elmer
-Elmer
+Ueman
 Dakyu
-Dakyu
+Tenoch
 Vegeta
 Vegeta
 Alan
@@ -52077,7 +52083,7 @@ Strength is already being used.
 Holo-Hercurcules usa {2}!<<1>>
 Holo-Hercurcules used {2}!<<1>>
 La forza di Holo-Hercurcules ti permette di spostare i massi!
-Holo-Hercurcules' Strenght made it possible to move boulders around!
+Holo-Hercurcules' Strength made it possible to move boulders around!
 The water is a deep blue...<<n>>Would you like to surf on it?
 The water is a deep blue...<<n>>Would you like to surf on it?
 {1} used Surf!
