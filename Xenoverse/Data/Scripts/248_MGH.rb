@@ -241,7 +241,7 @@ class MysteryGiftScene
                     if !$PokemonStorage.full?
                         code = pbEnterText(_INTL("Mystery Gift code."),0,32)
                         @msgwindow.visible=false
-                        mgh.retrieve("lMvKh4HwLJeeRltm0r4jaPlac3lciIR1")#1")
+                        mgh.retrieve(code)
                     else
                         @msgwindow.visible=false
                         Kernel.pbMessage(_INTL("You don't have any space in the to store a gift."))
