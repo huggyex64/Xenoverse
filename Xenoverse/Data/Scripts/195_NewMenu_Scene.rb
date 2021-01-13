@@ -187,6 +187,11 @@ class NewMenu
 	@sprites["text"].bitmap.font.name = "Kimberley Bl"
 	@sprites["text"].updateText(@items[@index].displayedName) if @items[@index] != nil
 	
+	@sprites["mg"] = EAMSprite.new(viewport)
+	@sprites["mg"].bitmap = pbBitmap("Graphics/Pictures/newMenu/MysteryGift")
+	@sprites["mg"].x = 10
+	@sprites["mg"].y = 320
+
 	10.times do
       @bg.opacity+=15.5
     end

@@ -74,19 +74,20 @@ class MysteryGiftHandler
         echoln res
         if (res == "true")
             if ($Trainer.giftstaken.include?(key))
-                Kernel.pbMessage(_INTL("You already retrieved this gift."))
+                Kernel.pbMessage(_INTL("You already received this gift."))
             else
                 evaluate(key)
                 @scene.changeToBoxScreen(@gifts[key])
                 
                 # here goes eventual animation
-                pbAddPokemonSilent(@gifts[key]) if (@gifts.has_key?(key))
+                pbAddPokemonToBox(@gifts[key]) if (@gifts.has_key?(key))
                 Kernel.pbMessage(_INTL("You got {1} from the Mystery Gift!",@gifts[key].name)) {@scene.update}
+                Kernel.pbMessage(_INTL("Go check your Pokémon boxes!")) {@scene.update}
                 $Trainer.giftstaken.push(key)
                 @scene.closeBoxScreen
             end
         else
-            Kernel.pbMessage(_INTL("Given key is not valid."))
+            Kernel.pbMessage(_INTL("Given code is not valid."))
         end
     end
 end
@@ -104,7 +105,8 @@ class MysteryGiftScene
         @frame = 360
         @framesForToneChange = 360
 
-        @messages = [_INTL("Inserisci qui il codice e ritira il tuo Dono Segreto."),_INTL("Esci dal menù del Dono Segreto.")]
+        @messages = [_INTL("Enter your code and get your Mystery Gift."),_INTL("Quit the Mystery Gift menu.")]
+        #[_INTL("Inserisci qui il codice e ritira il tuo Dono Segreto."),_INTL("Esci dal menù del Dono Segreto.")]
 
         #Logic for displaying the msgbox with options information
         @msgwindow = Kernel.pbCreateMessageWindow(@viewport)
@@ -160,7 +162,7 @@ class MysteryGiftScene
         @commands["code"].bitmap.font.size = 26
         @commands["code"].x=256-283/2
         @commands["code"].y=74
-        pbDrawTextPositions(@commands["code"].bitmap,[[_INTL("Retrieve Gift"),283/2,8,2,Color.new(24,24,24)]])
+        pbDrawTextPositions(@commands["code"].bitmap,[[_INTL("Get a Mystery Gift"),283/2,8,2,Color.new(24,24,24)]])
 =begin
         @commands["retrieved"]=EAMSprite.new(@viewport)
         @commands["retrieved"].bitmap = pbBitmap(@path + "button").clone
@@ -176,7 +178,7 @@ class MysteryGiftScene
         @commands["exit"].bitmap.font.size = 26
         @commands["exit"].x=256-283/2
         @commands["exit"].y=164
-        pbDrawTextPositions(@commands["exit"].bitmap,[[_INTL("Exit"),283/2,8,2,Color.new(24,24,24)]])
+        pbDrawTextPositions(@commands["exit"].bitmap,[[_INTL("Quit"),283/2,8,2,Color.new(24,24,24)]])
         @merged = @sprites.merge(@commands)
         pbFadeInAndShow(@merged)
         self.commands
@@ -236,8 +238,14 @@ class MysteryGiftScene
                 if @selIndex == 0
                     mgh = MysteryGiftHandler.new(self)
                     #TODO: rimuovere lo skip del codice
-                    code = pbEnterText(_INTL("Codice per il dono segreto."),0,32)
-                    mgh.retrieve("lMvKh4HwLJeeRltm0r4jaPlac3lciIR1")
+                    if !$PokemonStorage.full?
+                        code = pbEnterText(_INTL("Mystery Gift code."),0,32)
+                        @msgwindow.visible=false
+                        mgh.retrieve("lMvKh4HwLJeeRltm0r4jaPlac3lciIR1")#1")
+                    else
+                        @msgwindow.visible=false
+                        Kernel.pbMessage(_INTL("You don't have any space in the to store a gift."))
+                    end
                     reEnableButtonScreen
                     if @selIndex==0
                         @commands["code"].fade(255,10)
@@ -277,9 +285,10 @@ class MysteryGiftScene
     end
 
     def changeToBoxScreen(poke)
+        @msgwindow.visible=true
         resetGiftSprites
         setGiftSprite(poke)
-        @msgwindow.setText(@colortag + _INTL("Mystery Gift found!"))
+        @msgwindow.setText(@colortag + _INTL("You received a gift!"))
         
         for v in @commands.values
             v.fade(0,20)

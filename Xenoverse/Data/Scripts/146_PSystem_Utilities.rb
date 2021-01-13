@@ -1788,6 +1788,22 @@ def pbAddPokemonSilent(pokemon,level=nil,seeform=true)
 	return true
 end
 
+def pbAddPokemonToBox(pokemon,level=nil,seeform=true)
+	return false if !pokemon || pbBoxesFull? || !$Trainer
+	if pokemon.is_a?(String) || pokemon.is_a?(Symbol)
+		pokemon=getID(PBSpecies,pokemon)
+	end
+	if pokemon.is_a?(Integer) && level.is_a?(Integer)
+		pokemon=PokeBattle_Pokemon.new(pokemon,level,$Trainer)
+	end
+	$Trainer.seen[pokemon.species]=true
+	$Trainer.owned[pokemon.species]=true
+	pbSeenForm(pokemon) if seeform
+	pokemon.pbRecordFirstMoves
+	$PokemonStorage.pbStoreCaught(pokemon)
+	return true
+end
+
 def pbAddToParty(pokemon,level=nil,seeform=true)
 	return false if !pokemon || !$Trainer || $Trainer.party.length>=6
 	if pokemon.is_a?(String) || pokemon.is_a?(Symbol)
