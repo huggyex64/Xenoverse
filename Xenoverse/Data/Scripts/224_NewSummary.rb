@@ -341,14 +341,6 @@ class PokemonSummaryScene
 		textpos.push([_INTL("Sp.Def"),260,197,0,Color.new(248,248,248)])
 		textpos.push([_INTL("Speed"),260,222,0,Color.new(248,248,248)])
 		pbDrawTextPositions(@pages["overlay"].bitmap,textpos)
-    
-    for ev in 0...6
-      if pokemon.ev[ev]<0
-        total = 0
-        pokemon.ev {|e| total+=e}
-        pokemon.ev[ev]=252
-      end
-    end
 
 		#values
 		textpos=[]
