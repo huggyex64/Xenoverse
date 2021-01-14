@@ -2157,7 +2157,7 @@ class PokeBattle_Battle
 					if eff>0
 						PBDebug.log("[#{pkmn.pbThis} took damage from Stealth Rock]")
 						@scene.pbDamageAnimation(pkmn,0)
-						pkmn.pbReduceHP([(pkmn.totalhp*eff/32).floor,1].max)
+						pkmn.pbReduceHP([(pkmn.totalhp*(eff)/64).floor,1].max)
 						pbDisplayPaused(_INTL("{1} was hurt by stealth rocks!",pkmn.pbThis))
 					end
 				end

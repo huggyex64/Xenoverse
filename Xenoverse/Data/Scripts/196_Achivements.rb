@@ -215,16 +215,28 @@ class Achievement
 			pbsData = pbReadPBS("achievements")
 			if File.exist?(RTP.getSaveFileName("Achievements.rxdata")) && !newGame
 				achieve_echoln("Achievement data found, loading...")
-				loadedData = load_data(RTP.getSaveFileName("Achievements.rxdata"))
+				File.open(RTP.getSaveFileName("Achievements.rxdata"), "rb") { |f|
+					loadedData = Marshal.load(f)
+					self.createObjects(pbsData)
+					$achievements.each do |key,val|
+						if $achievements.has_key?(key) && loadedData.has_key?(key)
+							$achievements[key].silentProgress(loadedData[key][0],true)
+							$achievements[key].hidden = loadedData[key][1]
+							$achievements[key].locked = loadedData[key][2]
+						end
+					end
+				}
+
+				#loadedData = load_data(RTP.getSaveFileName("Achievements.rxdata"))
 				#achieve_echoln(loadedData.inspect)
-				self.createObjects(pbsData)
-				$achievements.each do |key,val|
-          if $achievements.has_key?(key) && loadedData.has_key?(key)
-            $achievements[key].silentProgress(loadedData[key][0],true)
-            $achievements[key].hidden = loadedData[key][1]
-            $achievements[key].locked = loadedData[key][2]
-          end
-				end
+				#self.createObjects(pbsData)
+				#$achievements.each do |key,val|
+				#	if $achievements.has_key?(key) && loadedData.has_key?(key)
+				#		$achievements[key].silentProgress(loadedData[key][0],true)
+				#		$achievements[key].hidden = loadedData[key][1]
+				#		$achievements[key].locked = loadedData[key][2]
+				#	end
+				#end
 			else
 				achieve_echoln("No data found, creating it...")
 				self.createObjects(pbsData)
