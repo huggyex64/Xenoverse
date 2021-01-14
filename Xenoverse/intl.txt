@@ -11543,8 +11543,8 @@ Eccoti qui, \PN...
 Here you are, \PN...
 Cosa ci fanno le Sentinelle qui, all'ingresso...? Dovrebbero presidiare le porte del Tempio!
 What are these Sentinels doing here, at the entrance...?<<n>>They should protect the Temple doors!
-Demetrii
-Demetrii
+Tezca
+Tezca
 Andatevene immediatamente! Nessuno può passare senza il permesso del padrone!
 Get out of here now! Nobody's getting through without<<n>>the permission of the master!
 Padrone?! Di che diavolo state parlando?! Sono il figlio del Cardinale, fateci passare!
@@ -11831,7 +11831,7 @@ You were only having a look, after all...<<n>>but don't ever try that again!<<n>
 Selestino
 Ahuatzi
 L’uomo deve assecondare il flusso della giungla se non vuole soccombere ad essa.
-L’uomo deve assecondare il flusso della giungla se non vuole soccombere ad essa.
+Men need to follow the flow of the jungle to not succumb to it.
 Solo da Laborano, articoli mai visti a prezzi stracciati!!
 Only Harrison's got what you're looking for!<<n>>C'mon, have a look!
 Come hai osato addentrarti nella giungla, straniero|a?!
@@ -11843,7 +11843,7 @@ I can feel my energy's fading away...
 Xochi
 Xochi
 Non permetterò più a nessuno di manipolare il mio animo per i propri scopi!
-Non permetterò più a nessuno di manipolare il mio animo per i propri scopi!
+I won't allow anyone to manipulate my soul for their own<<n>>purposes anymore!
 Azucena
 Ichtaka
 Il mio compito è tenere alla larga dal Tempio gli intrusi!
@@ -11851,7 +11851,7 @@ My duty is to keep intruders away from the Temple!
 Padrone, riprendetevi le energie che mi avete concesso...
 I'm returning the power you gave me, master...
 Non solo hai attraversato questo dedalo selvaggio, ma anche l’insidioso Tempio Shyleon! Devi proprio essere un Allenatore di tutto rispetto, straniero|a!
-Non solo hai attraversato questo dedalo selvaggio, ma anche l’insidioso Tempio Shyleon! Devi proprio essere un Allenatore di tutto rispetto, straniero|a!
+You've crossed not only this wild maze, but also<<n>>the treacherous Shyleon Temple!<<n>>You really are a Trainer of respect, stranger!
 Sei qui per rubare i preziosi tesori del nostro popolo, non è vero?!
 You won't steal our people's precious treasures!!
 Cosa succede al mio corpo...?
@@ -13357,7 +13357,7 @@ You
 \PN, ma che sorpresa!
 What a surprise, \PN!
 Maledetto bastardo, chi diavolo sei?! E cosa stai combinando qui?!
-Who the heck are you, you damn @#&%?!<<n>>And what have you been doing here?!
+Who the heck are you, you damn $#&%?!<<n>>And what have you been doing here?!
 Abbassa i toni, moccioso. Questo è un luogo sacro, sai?
 Tone it down, pest. This is a sacred place, you know?
 Grr!
@@ -13391,9 +13391,9 @@ Liar! Dad would never help bad guys like you!
 Tsk.
 Hmph.
 In effetti, è stato necessario un piccolo ausilio esterno per farlo collaborare senza fiatare... Questo splendido <b>Roserade</b> dello Xenoverse!
-Actually, some outside help was required to make him<<n>>cooperate without a fuss...<<n>>this magnificent <b>Roserade</b> from the Xenoverse!
+Actually, some outside help was required to make him<<n>>cooperate without a fuss...<<n>>This magnificent <b>Roserade</b> from the Xenoverse!
 Con la sua straordinaria melodia ha stregato tutti i presenti qui al Tempio, Cardinale compreso.
-With its sublime melody, it enchanted everyone standing here at the Temple, including the Cardinal.
+With its sublime melody, it enchanted everyone standing<<n>>here at the Temple, including the Cardinal.
 ???
 ???
 Così facendo, il nostro piano per l'ottenimento dell'Energia X ha potuto prendere il via.
@@ -13402,7 +13402,7 @@ Nonostante tutto, quel ragazzino scenderebbe a patti col diavolo in persona per 
 Nevertheless, that kid would be willing to make deals<<n>>with the devil itself in order to increase his power...
 Al momento è all'interno del portale, in cerca di quell'oscura Energia per conto nostro...
 Right now he is inside the portal, looking for that<<n>>dark Energy for our behalf...
-Secondo la tabella di marcia, tra non molto dovrebbe uscirne vittorioso e, in tal modo,il Team Dimension avrebbe dalla sua entrambe le Energie!
+Secondo la tabella di marcia, tra non molto dovrebbe uscirne vittorioso e, in tal modo, il Team Dimension avrebbe dalla sua entrambe le Energie!
 According to the schedule, he'll soon come out and thus<<n>>Team Dimension will have both Energies at its disposal!
 Due prescelti sono indubbiamente meglio di uno solo... Non sei d'accordo, \PN?
 Two chosen are undoubtedly better than one...<<n>>Don't you agree, \PN?
@@ -13413,7 +13413,7 @@ Even if you were to break these savages out of the spell,<<n>>our plan would sti
 Sempre che tu riesca ad avere la meglio contro Roserade, sia chiaro.
 Assuming you can get a chance against this Roserade,<<n>>of course.
 \PN, ti prego! Fai qualcosa! È colpa di quel Pokémon se papà è in quello stato!
-\PN, I beg you! Please, do something!<<n>>It's Pokémon who has made dad like this!
+\PN, I beg you! Please, do something!<<n>>It's that Pokémon who has made dad like this!
 Tsk! Roserade, sbarazzatene.
 Hmph! Roserade, get rid of them.
 Roooose...!
@@ -13575,33 +13575,37 @@ Seriously, you've been great at breaking the curse<<n>>casted by that Roserade.
 Chua
 Chua
 Non so se fosse per loro quello più accessibile, ma di sicuro era quello a loro più congeniale. Sarà mica che il Tempio Shyleon era di strada per raggiungere <b>Sagittopoli</b>...? Beh, è solo l’illazione di un selvaggio, ma la civiltà urbana non mi è mai andata a genio...
-Non so se fosse per loro quello più accessibile, ma di sicuro era quello a loro più congeniale. Sarà mica che il Tempio Shyleon era di strada per raggiungere <b>Sagittopoli</b>...? Beh, è solo l’illazione di un selvaggio, ma la civiltà urbana non mi è mai andata a genio...
+I don't know if it was the easiest for them to reach,<<n>>but it was definitely the most convenient choice.<<n>>Could it be that Shyleon Temple was on their way<<n>>to <b>Vega City</b>...?<<n>>Well, this is just the assumption of a savage, but urban<<n>>civilization has never appealed to me...
 Patrio
 Patrio
 Volente o nolente, il testimone di questa civiltà passerà al giovane Ruta prima o poi...
 Volente o nolente, il testimone di questa civiltà passerà al giovane Ruta prima o poi...
 Un po' improvvisato, ma meglio di niente no?
-Un po' improvvisato, ma meglio di niente no?
+A bit improvised, but it's better than nothing,<<n>>don't you think?
 Ruta, potresti lasciarci un attimo a discutere da soli, per cortesia?
-Ruta, potresti lasciarci un attimo a discutere da soli, per cortesia?
+Ruta, could you please leave us alone for a minute?
 Ruta
 Ruta
 Uffa, che barba... E va bene!
-Uffa, che barba... E va bene!
+Ugh...alright!
 Questo bell'arrosto però viene con me!
-Questo bell'arrosto però viene con me!
+But this roast's comin' with me!
 \PN, in quanto prescelto, è tuo dovere essere al corrente della situazione...
-\PN, in quanto prescelto, è tuo dovere essere al corrente della situazione...
+\PN, as the chosen one, it is your duty to be aware<<n>>of this situation...
 Assieme allo Xenovarco della <b>Caverna Zenit</b>, nel quale tu hai affrontato la prova, con oggi, la quota dei portali prosciugati della propria energia sale a due.
-Assieme allo Xenovarco della <b>Caverna Zenit</b>, nel quale tu hai affrontato la prova, con oggi, la quota dei portali prosciugati della propria energia sale a due.
+Along with the Xeno Gate of the <b>Zenith Cave</b>,<<n>>where you dealt the trial,<<n>>today, the count of gates drained out of all their energy<<n>>goes up to two.
 Al momento, lo Xenovarco presieduto dal Cardinale di <b>Tauronordia</b> sembrerebbe ancora intonso. Stesso dicasi per quello delle <b>Cascate Firmamento</b> consacrato dallo stesso <b>Luxflon</b>, di cui solo noi Cardinali siamo a conoscenza.
-Al momento, lo Xenovarco presieduto dal Cardinale di <b>Tauronordia</b> sembrerebbe ancora intonso. Stesso dicasi per quello delle <b>Cascate Firmamento</b> consacrato dallo stesso <b>Luxflon</b>, di cui solo noi Cardinali siamo a conoscenza.
+At the moment, the Xeno Gate held by the Cardinal of<<n>><b>Borealis Town</b> seems to be still intact.<<n>>The same goes for the gate of <b>Welkin Falls</b><<n>>devoted to <b>Luxflon</b>,<<n>>of which only us Cardinals have knowledge.
+Per cui quei manigoldi non avevano che il mio portale per impadronirsi dell'Energia Xenoverse...
+Hence, those scoundrels had nothing but my gate<<n>>to seize the Xenoverse Energy...
 Come già detto, però, quel tale che l'ha estratta non mi piace per nulla... Sembra si sia fatto totalmente soggiogare dall'oscurità e questo non può che essere un male.
-Come già detto, però, quel tale che l'ha estratta non mi piace per nulla... Sembra si sia fatto totalmente soggiogare dall'oscurità e questo non può che essere un male.
+But as I was saying, I really don't like that guy<<n>>who has extracted it...<<n>>It looks like he's been completely taken over by<<n>>the darkness and that's too bad.
 I possessori delle Energie sono però destinati a scontrarsi, perciò... Tu che hai ottenuto la benedizione di un Cardinale senza imboccare scorciatoie sei il vero prescelto, perciò sarà compito tuo far rinsavire quel giovane al vostro prossimo incontro. Rabbrividisco al pensiero che un peso così gargantuesco gravi su spalle così giovani, ma non demordere... Ce la farai senza alcun dubbio!
-I possessori delle Energie sono però destinati a scontrarsi, perciò... Tu che hai ottenuto la benedizione di un Cardinale senza imboccare scorciatoie sei il vero prescelto, perciò sarà compito tuo far rinsavire quel giovane al vostro prossimo incontro. Rabbrividisco al pensiero che un peso così gargantuesco gravi su spalle così giovani, ma non demordere... Ce la farai senza alcun dubbio!
+The ones who hold the Energies are meant to fight<<n>>each other...<<n>>However, because you received the Cardinal's blessing<<n>>with no shortcuts, you are the only chosen one,<<n>>then it will be your duty to bring that kid to his senses<<n>>at your next encounter.<<n>>I shudder to think that such a heavy burden weighs<<n>>upon your young shoulders, but don't give up...<<n>>You can do it beyond any doubt!
 Sai, \PN...
-Sai, \PN...
+You know, \PN...
+Non credo che la scelta dello Xenovarco del Tempio sia stata casuale.
+I'm beginning to suspect the choice of the Temple's<<n>>Xenogate was not random.
 Feegel
 Feegel
 ...
@@ -14291,21 +14295,21 @@ Asher
 Voglio andare dove mi va e non fermarmi qua...!
 Voglio andare dove mi va e non fermarmi qua...!
 Sirio
-Sirio
+Sun
 Ehi, giovane!
-Ehi, giovane!
+Hey, kid!
 Ti ho visto|a lottare lì dentro, sei stato|a davvero eccezionale!
-Ti ho visto|a lottare lì dentro, sei stato|a davvero eccezionale!
+I saw you battle in there, you know?<<n>>You were amazing!
 Per quanto detesti il circo, è sempre un gran piacere vedere Allenatori del tuo calibro all'opera.
-Per quanto detesti il circo, è sempre un gran piacere vedere Allenatori del tuo calibro all'opera.
+I hate the circus, but it's always a great pleasure<<n>>seeing Trainers of your level at work.
 Stai viaggiando per Eldiw a caccia delle Medaglie delle Palestre, vero? Beh, in tal caso, ho qui qualcosa che potrà tornarti utile... ma dartelo così sarebbe troppo semplice!
-Stai viaggiando per Eldiw a caccia delle Medaglie delle Palestre, vero? Beh, in tal caso, ho qui qualcosa che potrà tornarti utile... ma dartelo così sarebbe troppo semplice!
+You're travelling around Eldiw hunting for the Gym<<n>>Badges, am I right?<<n>>Well, in that case, here I have something that may come<<n>>in handy...but just giving it to you would be too easy!
 Sarà tuo solo se farai fuoco e fiamme nella lotta contro la mia nipotina Henné!
-Sarà tuo solo se farai fuoco e fiamme nella lotta contro la mia nipotina Henné!
+It's yours only if you bring fire and brimstone down<<n>>in the battle against my lil' niece Henna!
 Se e solo se riuscirai a metterla alle strette, mi troverai davanti alla vecchia Palestra abbandonata.
-Se e solo se riuscirai a metterla alle strette, mi troverai davanti alla vecchia Palestra abbandonata.
+Only if you get to corner them, you will find me in front<<n>>of the old abandoned Gym.
 Henné
-Henné
+Henna
 Ma chi si vede, \PN! Allora, che mi dici?
 Ma chi si vede, \PN! Allora, che mi dici?
 Tranquillo|a, so già tutto. Il nonno mi aveva detto che t’avrebbe mandato da quel vecchio Capopalestra. Piuttosto, volevo chiederti un piccolo favore.
@@ -14315,7 +14319,7 @@ Ho trovato quest’Uovo nelle quinte del mio Circo Sirio.
 Vuoi accudirlo tu?
 Vuoi accudirlo tu?
 Circo Sirio
-Circo Sirio
+Sunshine Circus
 Non ho proprio idea di cosa spunterà fuori, lascerò a te il piacere di scoprirlo!
 Non ho proprio idea di cosa spunterà fuori, lascerò a te il piacere di scoprirlo!
 La tua squadra è al completo! Libera un posto se proprio ci tieni ad avere quest’Uovo.
@@ -14538,187 +14542,209 @@ Cartelli grandi!
 Cartelli grandi!
 [Map324]
 Oh-oh! Dalla platea, un coraggioso volontario ha deciso di farsi avanti! Vuole mettersi alla prova con la più bizzarra sfida in Palestra che Eldiw abbia mai visto!
-Oh-oh! Dalla platea, un coraggioso volontario ha deciso di farsi avanti! Vuole mettersi alla prova con la più bizzarra sfida in Palestra che Eldiw abbia mai visto!
+Ho-ho! A plucky volunteer from the audience has decided<<n>>to take a stand!<<n>>You want to take on the most quirky Gym challenge<<n>>that Eldiw has ever seen?
 Accogliamolo|a tutti con un caloroso applauso, forza!
-Accogliamolo|a tutti con un caloroso applauso, forza!
+Let's give him||er a warm round of applause, c'mon!
 Or bene... Si aprano le danze!
-Or bene... Si aprano le danze!
+And now...let's get started!
 Con la leggiadria di una piuma che danza nel cielo, entri il primo dei lottatori di questa Palestra...
-Con la leggiadria di una piuma che danza nel cielo, entri il primo dei lottatori di questa Palestra...
+With the grace of a feather dancing in the sky, here comes<<n>>the first Trainer of this Gym...
 <b>Aria</b>, l'elegante Acrobata del cielo! Fatevi sentire, gente!
-<b>Aria</b>, l'elegante Acrobata del cielo! Fatevi sentire, gente!
+Make some noise for <b>Skyler</b>, the stylish Acrobat!
 Aria
-Aria
+Skyler
 Merci, merci beaucoup! Sono certa che questa sfida sarà trés excitant!
-Merci, merci beaucoup! Sono certa che questa sfida sarà trés excitant!
+Merci, merci beaucoup!<<n>>I'm sure this battle's gonna be trés excitant!
 Coraggio, sfidante... Allez!
-Coraggio, sfidante... Allez!
+Bring it on, challenger...allez! 
 Quelle puissance!
 Quelle puissance!
 Che peccato! Lo|a sfidante ha perso! Andrà meglio la prossima volta, dai!
-Che peccato! Lo|a sfidante ha perso! Andrà meglio la prossima volta, dai!
+Aw, too bad! The challenger has lost!<<n>>You'll get 'em next time, c'mon!
 Quelle puissance! Mi hai spazzata via...
-Quelle puissance! Mi hai spazzata via...
+Quelle puissance! I got blown away...
 Sembra proprio che lo|a sfidante di oggi non sia da prendere alla leggera, eh?
-Sembra proprio che lo|a sfidante di oggi non sia da prendere alla leggera, eh?
+It seems that today's challenger is someone not to take<<n>>lightly, huh?
 E il prossimo lottatore fa proprio al caso nostro contro una potenza tanto schiacciante! Un uomo la cui forza è pari a quella di cento uomini, in grado di sollevare un Golem con un sol braccio...
-E il prossimo lottatore fa proprio al caso nostro contro una potenza tanto schiacciante! Un uomo la cui forza è pari a quella di cento uomini, in grado di sollevare un Golem con un sol braccio...
+Our next fighter is just what we need against<<n>>such a crushing power!<<n>>A man whose strength is equal to that of a hundred men,<<n>>capable of lifting a Golem with one single arm...
 <b>Golia</b>, il gigante forzuto! Diamogli il benvenuto!
-<b>Golia</b>, il gigante forzuto! Diamogli il benvenuto!
+<b>Goliath</b>, the giant Strongman!<<n>>Let's give him a big welcome!
 Golia
-Golia
+Goliath
 Ahr ahr ahr! Il||La mio|a sfidante è una pulce come te?
-Ahr ahr ahr! Il||La mio|a sfidante è una pulce come te?
+Gra ha ha! My opponent is this pint-size runt?
 Non preoccuparti, ci andrò piano con te... o almeno ci proverò! Ahr ahr ahr!
-Non preoccuparti, ci andrò piano con te... o almeno ci proverò! Ahr ahr ahr!
+Don't worry, I'll go easy on you...try to, at least!<<n>>Gra ha ha!
 Acci-Pignite...!
-Acci-Pignite...!
+Darnitan...!
 Acci-Pignite, che batosta...!
-Acci-Pignite, che batosta...!
+Darnitan, that was tough...!
 Oh-ooh! E chi se l'aspettava che lo|a sfidante riuscisse a sbaragliare il suo enorme avversario?!
-Oh-ooh! E chi se l'aspettava che lo|a sfidante riuscisse a sbaragliare il suo enorme avversario?!
+Ho-hoo! Who would expect that the challenger was able<<n>>to take down his||er huge opponent?!
 Molto bene, allora... Dulcis in fundo un vero e proprio veterano del Circo Sirio...!
-Molto bene, allora... Dulcis in fundo un vero e proprio veterano del Circo Sirio...!
+Well, then... Last but not least, we have a real veteran<<n>>here at Sunshine Circus...!
 Sin da bambino, non aspettava mai che il suo pasto si freddasse per poterlo addentare... anzi, azzannava il suo boccone ancora fumante!
-Sin da bambino, non aspettava mai che il suo pasto si freddasse per poterlo addentare... anzi, azzannava il suo boccone ancora fumante!
+Since he was a kid, he never left his food to cool off<<n>>before biting it...<<n>>...in fact, he used to chomp the morsel while still steaming!
 Da allora, ha osato sempre di più, facendo delle stesse fiamme la sua alimentazione quotidiana!
-Da allora, ha osato sempre di più, facendo delle stesse fiamme la sua alimentazione quotidiana!
+Then, he went beyond, making the fire itself his daily meal!
 Che entri <b>Stromboli</b>, il divoratore di fuoco!
-Che entri <b>Stromboli</b>, il divoratore di fuoco!
+Here comes <b>Rainier</b>, the Fire Eater!
 Stromboli
-Stromboli
+Rainier
 Potessi trangugiare anche quest'accoglienza infuocata, mi farei una grossa abbuffata! Uoh oh oh!
-Potessi trangugiare anche quest'accoglienza infuocata, mi farei una grossa abbuffata! Uoh oh oh!
+If only I could gobble this fiery welcome, I'd get absolutely stuffed! Wo ho ho!
 Ma qui abbiamo qualcuno di ben più focoso... vero?
-Ma qui abbiamo qualcuno di ben più focoso... vero?
+But we got someone clearly burning here...huh?
+Bene! Spegnerò il tuo spirito, pappandomi la fiamma della tua determinazione...! Uoh oh oh!
+All right! I'll eat the flame of your determination and<<n>>burn out your spirit...! Wo ho ho!
 Ahi, ahi, ahi!
-Ahi, ahi, ahi!
+Ow ow ow!
 Ahi, ahi, ahi! Calma e sangue freddo sono i miei nemici naturali!
-Ahi, ahi, ahi! Calma e sangue freddo sono i miei nemici naturali!
+Ow ow ow! Calm and cool tempers are my natural enemies!
 Neppure il nostro Stromboli ha potuto nulla contro la freddezza dello|a sfidante di oggi! Ora il pubblico è in visibilio per l'ultima grande sfida dello show!
-Neppure il nostro Stromboli ha potuto nulla contro la freddezza dello|a sfidante di oggi! Ora il pubblico è in visibilio per l'ultima grande sfida dello show!
+Not even the explosive Rainier was able to melt<<n>>the chill of today's challenger!<<n>>And now, the public is in raptures, calling for the last<<n>>big match of this show! 
 È dunque giunto il momento del gran finale, ciò per cui tutti voi siete giunti fin qui... la lotta contro la stella del Circo Sirio, il Capopalestra!
-È dunque giunto il momento del gran finale, ciò per cui tutti voi siete giunti fin qui... la lotta contro la stella del Circo Sirio, il Capopalestra!
+So it's time for the big finale, what you all have been<<n>>waiting for...<<n>>...the battle against the star of Sunshine Circus--<<n>>the Gym Leader!
 Ma lo show oggi prevede per voi un inatteso colpo di scena, perché al posto del Capopalestra...
-Ma lo show oggi prevede per voi un inatteso colpo di scena, perché al posto del Capopalestra...
+But today's show includes a sensational plot twist, 'cause<<n>>instead of the Gym Leader...
 ... sarà il sottoscritto a battersi con lo|a sfidante!
-... sarà il sottoscritto a battersi con lo|a sfidante!
+...the challenger will have to face me!
 Gengar
 Gengar
 Gengah ah ah! Salve gente!
-Gengah ah ah! Salve gente!
+Genga ha ha! Hiya, folks!
 Sorpreso|a, \PN? Non dirmi che ti eri dimenticato|a di me!
-Sorpreso|a, \PN? Non dirmi che ti eri dimenticato|a di me!
+Are you surprised, \PN?<<n>>Don't tell me you forgot about me!
 Eddai, non fare quella faccia! Siamo qui per divertirci, no?
-Eddai, non fare quella faccia! Siamo qui per divertirci, no?
+C'mon, don't gimme that look! We're here to have a laugh,<<n>>right?
 Non l'avrei mai detto, ma questa roba dello spettacolo è un vero spasso! Gengah ah ah!
-Non l'avrei mai detto, ma questa roba dello spettacolo è un vero spasso! Gengah ah ah!
+I couldn't tell this whole show thing was such a wild ride!<<n>>Genga ha ha!
 Ehi, ehi!! Vacci piano con le accuse! Non ho combinato niente di male (stavolta)!
-Ehi, ehi!! Vacci piano con le accuse! Non ho combinato niente di male (stavolta)!
+Whoa, whoa!! Take it easy! I haven't done<<n>>anything wrong (this time)!
 Ho solo approfittato dell'assenza del Capopalestra di questo circo itinerante per divertirmi un po'... Anche i sovrani come me hanno bisogno di svago, sai?
-Ho solo approfittato dell'assenza del Capopalestra di questo circo itinerante per divertirmi un po'... Anche i sovrani come me hanno bisogno di svago, sai?
+I just took the opportunity that the missing Gym Leader<<n>>of this circus gave me to have some fun...<<n>>Kings like me need some entertainment too, y'know?
 E poi, non potevo certo lasciarmi sfuggire l'occasione di essere al centro dell'attenzione!
-E poi, non potevo certo lasciarmi sfuggire l'occasione di essere al centro dell'attenzione!
+But other than that, I just couldn't miss this chance<<n>>of being the center of everything!
 Non ho dimenticato il conto in sospeso che ho con te... ero certo che ti avrei trovato|a qui!
-Non ho dimenticato il conto in sospeso che ho con te... ero certo che ti avrei trovato|a qui!
+I didn't forget I still have a score to settle with you...<<n>>I knew you'd have come here!
 Per di più, non puoi tirarti indietro, tutta questa gente aspetta solo di vederci fare faville in lotta...
-Per di più, non puoi tirarti indietro, tutta questa gente aspetta solo di vederci fare faville in lotta...
+And what's more, you can't back out now! All these servants here are just waiting for the climax...
 Sai, ho imparato molto di voi umani dall'ultima volta... Stavolta, farò le cose in grande!
-Sai, ho imparato molto di voi umani dall'ultima volta... Stavolta, farò le cose in grande!
+You know, I've learned a lot about you humans since<<n>>last time... This time, I'll do things in style!
 Ovviamente non sarebbe troppo scenico che un elegante Pokémon lotti contro un infimo umano, perciò... non sarò io a battermi!
-Ovviamente non sarebbe troppo scenico che un elegante Pokémon lotti contro un infimo umano, perciò... non sarò io a battermi!
+Obviously, it wouldn’t be much of a scene for a charming<<n>>Pokémon to battle a lowly plebeian, so...<<n>>I won't do it!
 Non direttamente, almeno... Gengah ah ah!
-Non direttamente, almeno... Gengah ah ah!
+Not myself, at least... Genga ha ha!
 Ti sfiderò alla pari utilizzando questi due Pokémon (presi in prestito)! Gengah ah ah!
-Ti sfiderò alla pari utilizzando questi due Pokémon (presi in prestito)! Gengah ah ah!
+I'll sink to your level and battle you using these two<<n>>Pokémon (I borrowed)! Genga ha ha!
 Gente, fatemi sentire un po' di calore per questa lotta così inaspettata!
-Gente, fatemi sentire un po' di calore per questa lotta così inaspettata!
+Hey folks, lemme hear some noise for this<<n>>unexpected battle!
 E tu, \PN, preparati a dare spettacolo! Gengah ah ah!
-E tu, \PN, preparati a dare spettacolo! Gengah ah ah!
+And you, \PN...it's showtime! Genga ha ha!
 GengARGH!
-GengARGH!
+GengaRRGH!
 Gengah ah ah! Questa volta ho vinto io!!
-Gengah ah ah! Questa volta ho vinto io!!
+Genga ha ha! Smoked you this time!!
 Dannazione!! La mia figura infangata da un'altra sconfitta e, per di più, dinanzi a tutti questi sudditi...!
-Dannazione!! La mia figura infangata da un'altra sconfitta e, per di più, dinanzi a tutti questi sudditi...!
+Cursed you!! My image has been stained once more<<n>>and this time, in front of all these servants...!
 (Argh, così non faccio che scavarmi ancor di più la fossa...)
-(Argh, così non faccio che scavarmi ancor di più la fossa...)
+(Aargh! I'm just digging my own grave deeper...)
+(Un sovrano deve dimostrare di saper accettare le sconfitte! Aaaanf...)
+(A true leader has to show it's able to accept failures too!<<n>>Haaaa...)
 E va bene, gente! Lo avete visto tutti, no? Questo|a sfidante è riuscito a battermi... e allora?
-E va bene, gente! Lo avete visto tutti, no? Questo|a sfidante è riuscito a battermi... e allora?
+All right, people! You've all seen, right? This Trainer<<n>>defeated me...so what?
 L'importante è spassarsela, dico bene?!
-L'importante è spassarsela, dico bene?!
+The whole point is to have fun, isn't it?!
 ???
 ???
 Ma che accidenti sta succedendo qui?!
-Ma che accidenti sta succedendo qui?!
+What on earth is going on here?!
 <<[>>old<<]>>Eccola! È arrivata la Capopalestra <b>Henné</b>!
-<<[>>old<<]>>Eccola! È arrivata la Capopalestra <b>Henné</b>!
+<<[>>old<<]>>Here they are! It's Gym Leader <b>Henna</b>!
 <<[>>old<<]>>Wow! Questo spettacolo è davvero pieno di sorprese!
-<<[>>old<<]>>Wow! Questo spettacolo è davvero pieno di sorprese!
+<<[>>old<<]>>Wow! This show is really full of surprises!
 Gengah ah ah! Beh, è giunto il momento di salutare i miei affezionatissimi sudditi...
-Gengah ah ah! Beh, è giunto il momento di salutare i miei affezionatissimi sudditi...
+Genga ha ha! Well, it's time to say goodbye<<n>>to my most devoted subjects...
 Adieu! Gengah ah ah!
-Adieu! Gengah ah ah!
+Adieu! Genga ha ha!
 Henné
-Henné
+Henna
 Ehi, dove pensi di anda...!
-Ehi, dove pensi di anda...!
+Hey, where do you think you're goi-!
 Niente, è proprio andato.
-Niente, è proprio andato.
+Hmph! It's really gone.
 Deduco che quello fosse proprio il Gengar di cui mi parlava <b>Oleandro</b>... davvero un tipaccio!
-Deduco che quello fosse proprio il Gengar di cui mi parlava <b>Oleandro</b>... davvero un tipaccio!
+I suppose that was the Gengar <b>Abraham</b> was telling me about...that's really a slippery devil!
+Guarda qua come ha conciato il mio povero Circo Sirio...
+Look what it did to my poor Sunshine Circus...
 Oh! Chi va là?
-Oh! Chi va là?
+Oh! Who's there?
 Quindi è così che è andata...
-Quindi è così che è andata...
+So that's what happened...
 Beh, quantomeno ha intrattenuto il mio pubblico con un gran spettacolo...
-Beh, quantomeno ha intrattenuto il mio pubblico con un gran spettacolo...
+So that's what happened... Well, at least it put on a good show for my audience...
 ... però che bruci all'inferno, poteva degnarsi di ripulire questo putiferio prima di svignarsela!
-... però che bruci all'inferno, poteva degnarsi di ripulire questo putiferio prima di svignarsela!
+...but it has to burn in hell! It could have cleaned this mess before sneaking out my circus!
 Poche lagne, tocca a me rimboccarmi le maniche e sistemare tutto prima del prossimo show.
-Poche lagne, tocca a me rimboccarmi le maniche e sistemare tutto prima del prossimo show.
+Ow, no more fuss. I'd better roll up my sleeves and fix<<n>>this place up for the next show now.
 E tu, \PN, se intendi accettare la sfida della Palestra del Circo Sirio, faresti meglio a prepararti a dovere, se non vuoi rimanere scottato|a!
-E tu, \PN, se intendi accettare la sfida della Palestra del Circo Sirio, faresti meglio a prepararti a dovere, se non vuoi rimanere scottato|a!
+Back to you, \PN, if you still wanna accept Sunshine<<n>>Circus Gym challenge, you'd better prepare yourself,<<n>>if you don't wanna get burned!
 Molto bene, gente! Il Circo Sirio al momento chiude baracca per allestire al meglio il palco, in vista della lotta dello|a sfidante \PN contro la sottoscritta Capopalestra <b>Henné</b>!
-Molto bene, gente! Il Circo Sirio al momento chiude baracca per allestire al meglio il palco, in vista della lotta dello|a sfidante \PN contro la sottoscritta Capopalestra <b>Henné</b>!
+All right, folks! Sunshine Circus now closes its doors<<n>>to prepare the best stage for the battle...<<n>>The challenger \PN versus me, the Gym Leader<<n>><b>Henna</b>!
 Venghino, signori!
-Venghino, signori!
+Step right up, ladies and gentlemen!
 La Palestra itinerante del <b>Circo Sirio</b> sta per aprire i battenti!
-La Palestra itinerante del <b>Circo Sirio</b> sta per aprire i battenti!
+The traveling <b>Sunshine Circus</b> Gym has opened its doors!
 Benvenuto|a nella Palestra itinerante del Circo Sirio, giovane Allenatore!
-Benvenuto|a nella Palestra itinerante del Circo Sirio, giovane Allenatore!
+Welcome to the Sunshine Circus travelling Gym,<<n>>young Trainer!
+Come dici? Vuoi sapere perché io sia qui?
+What? You want to know why I'm here?
 Sono un amante del circo, ma non è questo l’importante... Sono qui per fare il tifo per te!
-Sono un amante del circo, ma non è questo l’importante... Sono qui per fare il tifo per te!
+I'm a big fan of the circus, but this isn't the answer...<<n>>I'm here to cheer for you!
 Henné, la Capopalestra, è un’esperta domatrice dei Pokémon di tipo Fuoco... ... e come dice quel vecchio detto, col fuoco non si scherza. Eh eh!
-Henné, la Capopalestra, è un’esperta domatrice dei Pokémon di tipo Fuoco... ... e come dice quel vecchio detto, col fuoco non si scherza. Eh eh!
+Henna, the Gym Leader, is an expert Fire-type<<n>>Pokémon tamer...<<n>>...and, as they say, don't play with fire! Heh heh!
+Con un Pokémon di tipo Acqua o Terra dalla tua, però, potresti riuscire a domare le sue fiamme roventi!
+But with Water or Ground-type Pokémon on your side,<<n>>you might be able to douse their scorching flames!
 Tu ed Henné avete infiammato l’arena col vostro scontro sensazionale! Il traguardo è sempre più vicino... ti manca solo l’ultima Medaglia adesso!
-Tu ed Henné avete infiammato l’arena col vostro scontro sensazionale! Il traguardo è sempre più vicino... ti manca solo l’ultima Medaglia adesso!
+Henna and you set the battle arena on fire with your<<n>>spectacular fight!<<n>>Your goal is near, now more than ever...all you need is<<n>>the last Badge!
+Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
+What? You want to know who I am? And why?<<n>>You just need to know I'm cheering for you!
 Signore e signori, diamo il benvenuto allo|a sfidante della giornata!
-Signore e signori, diamo il benvenuto allo|a sfidante della giornata!
+Ladies and gentlemen, let's welcome today's challenger,<<n>>c'mon!
 La sfida del Circo Sirio impone che si lotti in successione con i migliori saltimbanchi della mia compagnia.
-La sfida del Circo Sirio impone che si lotti in successione con i migliori saltimbanchi della mia compagnia.
+The Sunshine Circus' challenge consists in a sequence<<n>>of three battles against my company's best tumblers.
 Seppur non fosse uno spettacolo ufficiale, tu hai già dimostrato di essere all’altezza della battaglia finale, sbaragliando in toto tutti e tre i miei colleghi.
-Seppur non fosse uno spettacolo ufficiale, tu hai già dimostrato di essere all’altezza della battaglia finale, sbaragliando in toto tutti e tre i miei colleghi.
+Although it wasn't an official show, you have already<<n>>proven yourself to be worthy of the final battle,<<n>>defeating all three of my associates.
+Perciò...
+So...
 Con l’eleganza della fenice che risorge dalle proprie ceneri...
-Con l’eleganza della fenice che risorge dalle proprie ceneri...
+As elegant as the phoenix rising from the ashes...
+... con la potenza distruttiva delle fiamme che bruciano all’inferno...
+...fueled by the eternal flames burning in hell...
 ... con la passione che divampa nel cuore di chi lotta...
-... con la passione che divampa nel cuore di chi lotta...
+...and with the fiery passion within the heart of a warrior...
+... i miei Pokémon di Fuoco daranno fuoco alle polveri, per illuminare il Circo Sirio con una calorosa battaglia!
+...my Fire-type Pokémon will blaze up like gunpowder,<<n>>in their fiery glory, to light up the Sunshine Circus!
 Hai messo a tacere le fiamme del mio spirito!
-Hai messo a tacere le fiamme del mio spirito!
+You quenched the flames of my spirit!
 In te arde vivida la vera essenza di un Allenatore Pokémon, \PN.
-In te arde vivida la vera essenza di un Allenatore Pokémon, \PN.
+The very essence of a Trainer burns brightly within you,<<n>>\PN.
 Non sono in tanti a mettere così alle strette i miei feroci Pokémon di tipo Fuoco, temprati da scontri efferati, ma tu sei stato|a in grado di ammansirli come nemmeno una domatrice come me abbia mai fatto.
-Non sono in tanti a mettere così alle strette i miei feroci Pokémon di tipo Fuoco, temprati da scontri efferati, ma tu sei stato|a in grado di ammansirli come nemmeno una domatrice come me abbia mai fatto.
+Not many people put on the spot like that my beastly<<n>>Fire-type Pokémon, tempered by vicious battles,<<n>>but you were able to put them in their places like neither<<n>>a tamer like me has ever done.
+La <b>Medaglia Marchiatura</b> merita di essere stretta da mani tanto sapienti!
+The <b>Brand Badge</b> deserves to be held tightly by your skilful hands!
 Come vuole la tradizione del Circo Sirio, inoltre, vado a consegnarti questa MT.
-Come vuole la tradizione del Circo Sirio, inoltre, vado a consegnarti questa MT.
+As tradition wants, here at Sunshine Circus, I'm going<<n>>to give you this TM too.
 Contiene <b>Lanciafiamme</b>, uno dei più classici, ma al contempo distruttivi, attacchi di tipo Fuoco. Insegnandola ai tuoi Pokémon, aggiungerai ancor più potenza di fuoco ai tuoi scontri!
-Contiene <b>Lanciafiamme</b>, uno dei più classici, ma al contempo distruttivi, attacchi di tipo Fuoco. Insegnandola ai tuoi Pokémon, aggiungerai ancor più potenza di fuoco ai tuoi scontri!
+It contains <b>Flamethrower</b>, one of the most iconic and powerful Fire-type attacks.<<n>>Teach it to your Pokémon and you'll get some more<<n>>firepower to your battles!
 Molto bene, signori! Lo spettacolo di oggi può considerarsi concluso.
-Molto bene, signori! Lo spettacolo di oggi può considerarsi concluso.
+All right, ladies and gentlemen! That's all for the show<<n>>today!
+Tutto il Circo Sirio vi ringrazia per avergli fornito anche oggi la vostra calorosa presenza! Alla prossima!
+The whole Sunshine Circus would like to thank you for<<n>>your warm presence today too! See you next time!
 Ma soprattutto grazie a te per la lotta e lo spettacolo che mi hai concesso di portare, \PN. Marchierò a fuoco nella mia memoria questa entusiasmante giornata!
-Ma soprattutto grazie a te per la lotta e lo spettacolo che mi hai concesso di portare, \PN. Marchierò a fuoco nella mia memoria questa entusiasmante giornata!
+But more than everybody, I wanna thank you, \PN,<<n>>for this great show you made.<<n>>I'll brand this exciting day in my memory with fire!
 La tua forza è come una fiamma inestinguibile... per quanta acqua si versi sopra, brucerà in eterno!
-La tua forza è come una fiamma inestinguibile... per quanta acqua si versi sopra, brucerà in eterno!
+Your energy is like an eternal flame...no amount of water<<n>>will ever stop it from burning!
 [Map325]
 Tullio
 Tullio
@@ -44208,7 +44234,7 @@ Evan
 (Lumen)
 [13]
 Aria
-Aria
+Skyler
 Verbena
 Nuphar
 Alice
@@ -57022,10 +57048,27 @@ Ulisse
 Ulysses
 Bardo
 James
-
-
-
-
-
+Get a Mystery Gift
+Get a Mystery Gift
+Quit
+Quit
+Enter your code and get your Mystery Gift.
+Enter your code and get your Mystery Gift.
+Quit the Mystery Gift menu.
+Quit the Mystery Gift menu.
+Mystery Gift code.
+Enter serial code.
+You don't have any space in the to store a gift.
+You don't have any space to store a gift...
+Given code is not valid.
+Given code is not valid.
+You receive a gift!
+You receive a gift!
+You already received this gift.
+You already received this gift.
+Go check your Pokémon boxes!
+Go check your Pokémon Boxes!
+You got {1} from the Mystery Gift!
+You got {1} from the Mystery Gift!
 
 

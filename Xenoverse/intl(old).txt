@@ -36741,3 +36741,26 @@ The boss Pokémon didn't move an inch!
 Il Pokémon boss non indietreggia di un passo!
 Sembra inutilizzabile...
 Sembra inutilizzabile...
+Get a Mystery Gift
+Ritira Dono Segreto
+Quit
+Esci
+Enter your code and get your Mystery Gift.
+Inserisci il codice e ritira il tuo Dono Segreto.
+Quit the Mystery Gift menu.
+Esci dal menù del Dono Segreto.
+Mystery Gift code.
+Inserisci codice seriale.
+You don't have any space in the to store a gift.
+Non hai posto per un dono nei Box...
+Given code is not valid.
+Il codice inserito non è valido.
+You receive a gift!
+È arrivato un dono!
+You already received this gift.
+Hai già ritirato questo dono!
+Go check your Pokémon boxes!
+Non dimenticare di controllare nei Box!
+You got {1} from the Mystery Gift!
+Hai ottenuto {1} in dono!
+
