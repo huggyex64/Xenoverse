@@ -22774,10 +22774,10 @@ Elimina gli effetti del clima.
 Elimina gli effetti del clima.
 77
 Aumenta l'elusione se il Pokémon è confuso
-Aumenta l'elusione se il Pokémon è confuso
+Aumenta l'elusione se il Pokémon è confuso.
 78
 Le mosse elettro subite aumentano la Velocità.
-Le mosse elettro subite aumentano la Velocità.
+Le mosse Elettro subite aumentano la Velocità.
 79
 Rende più forti contro nemici dello stesso sesso.
 Rende più forti contro nemici dello stesso sesso.
@@ -23023,7 +23023,7 @@ Potenzia alcune mosse nelle tempeste di sabbia.
 Potenzia alcune mosse nelle tempeste di sabbia.
 160
 Se chi attacca mette a segno una mossa fisica, viene danneggiata.
-Se chi attacca mette a segno una mossa fisica, viene danneggiata.
+Se chi attacca mette a segno una mossa fisica, viene danneggiato.
 161
 Se il Pokémon è in difficoltà, ne cambia l'aspetto.
 Se il Pokémon è in difficoltà, ne cambia l'aspetto.
@@ -23104,7 +23104,7 @@ Impedisce che gli alleati dell'utilizzatore si addormentino.
 Impedisce che gli alleati dell'utilizzatore si addormentino.
 187
 Cede il suo strumento a un suo alleato dopo l’uso
-Cede il suo strumento a un suo alleato dopo l’uso
+Cede il suo strumento a un suo alleato dopo l'uso.
 188
 Potenzia le mosse che causano un contatto fisico.
 Potenzia le mosse che causano un contatto fisico.

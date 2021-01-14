@@ -4150,7 +4150,7 @@ The Princess relievedeth me of duty for the mere fact<<n>>I consumede one of the
 Magari dandole in dono un di quelli che chiamano souvenir, potrò espiare il mio peccato...
 Haply gifting her sum sort of souvenir, I couldst atone<<n>>myn own sinne...
 Baldo|a giovane! Quel ch’avete con voi è un <b>Idolo</b> <b>d’Erba</b>, dico il vero?
-Yong blade! What thee hath ther is the <b>Idol</b> <b>of Grass</b>, isn't it?
+Yong blade! What thee hath ther is the <b>Idol of</b> <b>Grass</b>, isn't it?
 Il sarebbe perfetto da consegnare in dono alla principessa c’ho tanto deluso... Per gentil cortesia, a cedermi siffatta ricchezza voi sareste ben disposto|a?
 It wouldst be the perfit yift for the Princess<<n>>I failede...<<n>>Prithee, couldst thee giveth me yond proper of youre?
 Non indugiate oltremodo, messere|||||||madonna.
@@ -4288,7 +4288,7 @@ P08
 Come avete fatto a eludere la sorveglianza?! <i>Bzz!</i>
 How have you managed to elude our vigilance?! <i>Bzz!</i>
 <<[>>old<<]>>È il fossile di un antico Pokémon proveniente dallo spazio. Sembrerebbe essere dell'inchiostro solidificato... Vuoi prenderlo?
-<<[>>old<<]>>The fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink... You want this?
+<<[>>old<<]>>The fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink...\nYou want this?
 Prendilo pure tu. Io non saprei che farmene! Ah ah ah!
 You can have it. I wouldn't know what to do with it!<<n>>Ha ha ha!
 Molto bene, allora io prenderò questo per analizzarlo in laboratorio!
@@ -4296,7 +4296,7 @@ Well, so I'm gonna take this one for further examination<<n>>in a lab!
 \PN, è stato bello condividere una simile avventura con te, ma ora devo proprio andare. Signore, venga con me. Non può mica attraversare la grotta da solo e senza Pokémon! Ciao, \PN!
 \PN, it was nice helping you in such an adventure,<<n>>but I really gotta go now.<<n>>Come with me, sir. You can't just cross the cave all alone<<n>>and without any Pokémon!<<n>>Bye, \PN!
 <<[>>old<<]>>È il fossile di un antico Pokémon proveniente dallo spazio. Sembrerebbe essere dell'inchiostro solidificato... Non puoi prenderlo: hai già il Chirofossile!
-<<[>>old<<]>>The fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink... You can't take it: you already got the Print Fossil!
+<<[>>old<<]>>The fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink...\nYou can't take it: you already got the Print Fossil!
 G1N0
 G1N0
 <i>Bzz!</i>
@@ -4316,9 +4316,9 @@ HJ65
 Questo posto ormai è di proprietà del Team Dimension! <i>Bzz!</i>
 This cave is Team Dimension’s property now! <i>Bzz!</i>
 <<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Vuoi prenderlo?
-<<[>>old<<]>>The fossil of an ancient Pokémon that lived on land. It appears to be a handprint... You want this?
+<<[>>old<<]>>The fossil of an ancient Pokémon that lived on land. It appears to be a handprint...\nYou want this?
 <<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Non puoi prenderlo: hai già il Fossilcosmo!
-<<[>>old<<]>>The fossil of an ancient Pokémon that lived on land. It appears to be a handprint... You can't take it: you already got the Space Fossil!
+<<[>>old<<]>>The fossil of an ancient Pokémon that lived on land. It appears to be a handprint...\nYou can't take it: you already got the Space Fossil!
 4Y
 4Y
 Non farmi girare gli ingranaggi! <i>Bzz!</i>
@@ -5146,7 +5146,7 @@ Kazam...!
 Kazam...!
 [Map110]
 <<[>>old<<]>>Bacino
-<<[>>old<<]>>Bacino
+<<[>>old<<]>>Lake Area
 [Map111]
 <<[>>old<<]>>Qui non c'è niente...
 <<[>>old<<]>>There's nothing here...
@@ -5159,16 +5159,18 @@ Holden
 Quando ti trovi di fronte a un Pokémon selvatico, non scappare e affrontalo a muso duro! Oltre a cedere Punti Esperienza, alcuni potrebbero persino perdere lo strumento che tenevano, sai?
 When you encounter a wild Pokémon don't flee,<<n>>face it down instead!<<n>>Beside Exp. Points, some of them could drop their<<n>>held item on the ground!
 [Map112]
+Nando
+Kenny
 So che potrà sembrarti strano, ma sono un incallito collezionista di lattine. Se hai qualche pezzo da collezione, sarei felice di darci un'occhiata...
-So che potrà sembrarti strano, ma sono un incallito collezionista di lattine. Se hai qualche pezzo da collezione, sarei felice di darci un'occhiata...
+I know, this may sound weird to you, but I'm a discerning collector of cans.<<n>>If you have some rare cans with you, I'd love to have<<n>>a look...
 M-Ma quella è una lattina di <b>Sidrostelle Special</b>?! Come fai ad averla?! È fuori produzione da anni ormai!
-M-Ma quella è una lattina di <b>Sidrostelle Special</b>?! Come fai ad averla?! È fuori produzione da anni ormai!
+Wa-Wait- is that a <b>Star Sider Special</b> can?! How did you get one?! It's been out of production for years!
 Sei davvero disposto|a a cedermela? In tal caso, premierò il tuo animo con questo souvenir.
-Sei davvero disposto|a a cedermela? In tal caso, premierò il tuo animo con questo souvenir.
+Are you really giving it to me? In this case, I'll reward<<n>>your kindness with this souvenir.
 Quello è il famoso <b>Idolo di Fuoco</b> di Cansiria, ma non so cos'abbia di tanto entusiasmante francamente...
-Quello è il famoso <b>Idolo di Fuoco</b> di Cansiria, ma non so cos'abbia di tanto entusiasmante francamente...
+It's the famous Fortbelt's <b>Idol of Fire</b>, but I honestly don't know what's so special about it...
 Poi sarei io quello strano che colleziona lattine!
-Poi sarei io quello strano che colleziona lattine!
+And they call me a weirdo for collecting cans!
 [Map113]
 Mauro
 Bryan
@@ -11534,7 +11536,7 @@ Darn tootin' it's my estate!
 Marski
 Marski
 Vattene, straniero|a.
-Go away, stranger.
+Go away, foreigner.
 <<[>>old<<]>>È esausto dopo la lotta... Sarà tornato in sé?
 <<[>>old<<]>>The battle must have made him tired... Did he come to his senses?
 Ruta
@@ -11746,6 +11748,8 @@ Se solo avessi qualcosa per rinfrescargli la fronte... Del ghiaccio, magari...
 If only I had something to cool its brow...<<n>>Some ice would be perfect!
 Oh, saresti disposto|a a cedermi quel tuo <b>Cristallo di ghiaccio</b>?
 Oh, would you be willing to give me that<<n>><b>Ice Crystal</b> of yours?
+Io e questo Kecleon ti siamo debitori.
+This Kecleon and I owe you a favor, foreigner.
 Il tuo animo gentile merita di custodire l'<b>Idolo d'Erba</b>. Prendilo, coraggio.
 Your gentle soul deserves to keep the <b>Idol of Grass</b><<n>>in its hands. Take it, it's your now!
 L'Idolo d'Erba è la rappresentazione del sacro Pokémon venerato a Ofiuchia sin dalle origini.
@@ -11831,11 +11835,11 @@ You were only having a look, after all...<<n>>but don't ever try that again!<<n>
 Selestino
 Ahuatzi
 L’uomo deve assecondare il flusso della giungla se non vuole soccombere ad essa.
-Men need to follow the flow of the jungle to not succumb to it.
+Men need to follow the flow of the jungle to not succumb<<n>>to it.
 Solo da Laborano, articoli mai visti a prezzi stracciati!!
 Only Harrison's got what you're looking for!<<n>>C'mon, have a look!
 Come hai osato addentrarti nella giungla, straniero|a?!
-How dare you enter the jungle, stranger?!
+How dare you enter the jungle, foreigner?!
 Sento le forze venir meno...
 I can feel my energy's fading away...
 <<[>>old<<]>>Ha perso conoscenza...
@@ -11851,7 +11855,7 @@ My duty is to keep intruders away from the Temple!
 Padrone, riprendetevi le energie che mi avete concesso...
 I'm returning the power you gave me, master...
 Non solo hai attraversato questo dedalo selvaggio, ma anche l’insidioso Tempio Shyleon! Devi proprio essere un Allenatore di tutto rispetto, straniero|a!
-You've crossed not only this wild maze, but also<<n>>the treacherous Shyleon Temple!<<n>>You really are a Trainer of respect, stranger!
+You've crossed not only this wild maze, but also<<n>>the treacherous Shyleon Temple!<<n>>You really are a Trainer of respect, foreigner!
 Sei qui per rubare i preziosi tesori del nostro popolo, non è vero?!
 You won't steal our people's precious treasures!!
 Cosa succede al mio corpo...?
@@ -11866,7 +11870,7 @@ No
 Laka
 Laka
 Da queste parti dovrebbe aver messo il Nido colui che porta un fiore in groppa.
-Da queste parti dovrebbe aver messo il Nido colui che porta un fiore in groppa.
+Around here, the one carrying a flower on its back<<n>>should have made its Den.
 Sta' alla larga dal tempio, è un avvertimento!
 This is a warning--get away from the Temple!
 Avresti potuto avvertirmi anche tu della tua forza...
@@ -11876,7 +11880,7 @@ You could've warned me about your strength, too...
 Valdiss
 Zamatl
 Un tempo, la prova del Cammino dell’Eroe era una vera cerimonia... ora non è che un’attrazione per turisti!
-Un tempo, la prova del Cammino dell’Eroe era una vera cerimonia... ora non è che un’attrazione per turisti!
+Formerly, the trial of Heroes Path was an actual<<n>>ceremony...now it's merely an attraction for tourists!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shyleon dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Shyleon to take a look inside?
 Shyleon
@@ -11917,11 +11921,11 @@ Yes
 Dakyu
 Tenoch
 Come ho potuto lasciare che violassero così il Tempio che avrei dovuto proteggere...!
-Come ho potuto lasciare che violassero così il Tempio che avrei dovuto proteggere...!
+How could I let those foreigners invade the Temple<<n>>I should have protected...?!
 Isac
 Xolotl
 Se ti armi di pazienza, in questa selva potresti addirittura trovare un <b>Totodile</b>.
-Se ti armi di pazienza, in questa selva potresti addirittura trovare un <b>Totodile</b>.
+With patience and good will, you could even find<<n>>a <b>Totodile</b> in this jungle.
 Cosa dice la legge della giungla? Prima colpisci, poi parla!
 Now this is the law of the jungle--hit first,<<n>>ask question later!
 C’è chi è predatore e chi preda...
@@ -11941,13 +11945,13 @@ Nature will take care of you.
 Cisco
 Zuma
 I Donanas di rado si vedono in natura, ma pare che se ne trovino a bizzeffe nella riserva del Cammino dell’Eroe.
-I Donanas di rado si vedono in natura, ma pare che se ne trovino a bizzeffe nella riserva del Cammino dell’Eroe.
+Donanas are not often seen in nature, but apparently<<n>>you can find them in abundance in Heroes Path reserve.
 Sei pericolosamente vicino|a alla meta... non posso permetterti di fare un passo di più!
 You're dangerously close to your destination...<<n>>I'm not letting you go one step further!
 Il mio è stato un passo falso...
 I made a misstep...
 Quest’emicrania proprio non ne vuol sapere di andarsene...
-Quest’emicrania proprio non ne vuol sapere di andarsene...
+I still can't shake this terrible headache...!
 [Map270]
 <<[>>old<<]>>Cammino dell'Eroe
 <<[>>old<<]>>Heroes Path
@@ -12028,45 +12032,43 @@ No
 Sanana
 Sanana
 Complimenti, hai portato a termine con successo la modalità facile.
-Complimenti, hai portato a termine con successo la modalità facile.
+Congrats, you have successfully completed easy mode.
+Ecco la tua ricompensa!
+Here is your reward!
 I miei più vivi complimenti, hai portato a termine con successo la modalità difficile! Sei davvero abile!
-I miei più vivi complimenti, hai portato a termine con successo la modalità difficile! Sei davvero abile!
+My warmest congratulations! You have successfully<<n>>completed hard mode! You're really good!
+Ecco la tua ricompensa! Te la sei meritata!
+Here is your reward! You deserve it!
 Don
 Don
 Dimmi, straniero... Vuoi sottoporre le tue abilità al Cammino dell’Eroe per la modica cifra di 500$?
-Dimmi, straniero... Vuoi sottoporre le tue abilità al Cammino dell’Eroe per la modica cifra di 500$?
+Tell me, foreigner... Do you want to test your ability<<n>>in the Heroes Path for the mere price of $500?
 Prego, scegli pure la modalità che preferisci.
-Prego, scegli pure la modalità che preferisci.
+Please, choose the mode you're going to face.
 Facile, eh? Bene, buon divertimento!
-Facile, eh? Bene, buon divertimento!
+Easy, huh? Well, have fun!
 Difficile, eh? Devi essere davvero coraggioso! Che la caccia abbia inizio, dunque!
-Difficile, eh? Devi essere davvero coraggioso! Che la caccia abbia inizio, dunque!
+Hard, huh? You must be really brave!<<n>>Let the real hunt begin, then!
 Comprendo perfettamente, non è una prova adatta a chiunque.
-Comprendo perfettamente, non è una prova adatta a chiunque.
+I fully understand. This challenge isn't for anyone.
 Dimmi, straniera... Vuoi sottoporre le tue abilità al Cammino dell’Eroe per la modica cifra di 500$?
-Dimmi, straniera... Vuoi sottoporre le tue abilità al Cammino dell’Eroe per la modica cifra di 500$?
+Tell me, foreigner... Do you want to test your ability<<n>>in the Heroes Path for the mere price of $500?
 Difficile, eh? Devi essere davvero coraggiosa! Che la caccia abbia inizio, dunque!
-Difficile, eh? Devi essere davvero coraggiosa! Che la caccia abbia inizio, dunque!
+Hard, huh? You must be really brave!<<n>>Let the real hunt begin, then!
 <<[>>old<<]>>Sembrano dei modelli di Poké Ball molto obsoleti.
-<<[>>old<<]>>Sembrano dei modelli di Poké Ball molto obsoleti.
-Ananas
-Ananas
-Ciao Allenatore! E benvenuto nel Cammino dell'Eroe! Come posso aiutarti?
-Ciao Allenatore! E benvenuto nel Cammino dell'Eroe! Come posso aiutarti?
-Il Cammino dell'Eroe, è una delle attrazioni principali della Giungla Nebulosa. Fin dai tempi antichi, gli abitanti di Ofiuschia, utilizzavano dei Donanas, Pokémon molto veloci, per sopravvivere e cattuare altre specie di Pokémon! Abbiamo deciso di ritornare alle origini, creando questo parco a tema per onorare i nostri antenati. E' possibile utilizzare solo i nostri Donanas durante questa avventura, e un massimo di 30 OldBall. Quando il tuo Donanas viene sconfitto, il gioco finisce! Oppure puoi tranquillamente ritirarti uscendo dall'area.
-Il Cammino dell'Eroe, è una delle attrazioni principali della Giungla Nebulosa. Fin dai tempi antichi, gli abitanti di Ofiuschia, utilizzavano dei Donanas, Pokémon molto veloci, per sopravvivere e cattuare altre specie di Pokémon! Abbiamo deciso di ritornare alle origini, creando questo parco a tema per onorare i nostri antenati. E' possibile utilizzare solo i nostri Donanas durante questa avventura, e un massimo di 30 OldBall. Quando il tuo Donanas viene sconfitto, il gioco finisce! Oppure puoi tranquillamente ritirarti uscendo dall'area. 
-Se hai bisogno di informazioni, chiedi pure!
-Se hai bisogno di informazioni, chiedi pure!
+<<[>>old<<]>>It looks like an early Poké Ball model.
 Questo è il <b>Cammino dell'Eroe</b>. Come posso aiutarti, straniero|a?
-Questo è il <b>Cammino dell'Eroe</b>. Come posso aiutarti, straniero|a?
+This is the <b>Heroes Path</b>.<<n>>How can I help you, foreigner?
 Il Cammino dell’Eroe è un’ardua prova di abilità cui si sottopongono gli abitanti di Ofiuchia sin dalle origini. Completandola, si dimostra di essere finalmente pronti all’ingresso nel mondo degli adulti. È una sorta di cerimonia di iniziazione, insomma!
-Il Cammino dell’Eroe è un’ardua prova di abilità cui si sottopongono gli abitanti di Ofiuchia sin dalle origini. Completandola, si dimostra di essere finalmente pronti all’ingresso nel mondo degli adulti. È una sorta di cerimonia di iniziazione, insomma!
+The Heroes Path is an arduous skill trial we Dorado's<<n>>people have taken since the rise of the village.<<n>>By completing it, we prove to be ready to join<<n>>the world of adults.<<n>>In brief, it's sort of an initiation ceremony!
 Chi si sottopone alla prova dovrà sopravvivere alla giungla utilizzando un solo Pokémon... <b>Donanas</b>! Inoltre, lo sfidante potrà fare affidamento solo sugli strumenti che troverà nel corso della prova, e gli saranno consegnate 50 <b>Old Ball</b> che potrà usare quando meglio crede per la cattura dei Pokémon. Lo scopo della prova è quello di recuperare i pezzi di un <b>totem</b> sparpagliati nelle varie zone, ma attenzione! Se Donanas dovesse venire sconfitto, la prova si concluderebbe all’istante!
-Chi si sottopone alla prova dovrà sopravvivere alla giungla utilizzando un solo Pokémon... <b>Donanas</b>! Inoltre, lo sfidante potrà fare affidamento solo sugli strumenti che troverà nel corso della prova, e gli saranno consegnate 50 <b>Old Ball</b> che potrà usare quando meglio crede per la cattura dei Pokémon. Lo scopo della prova è quello di recuperare i pezzi di un <b>totem</b> sparpagliati nelle varie zone, ma attenzione! Se Donanas dovesse venire sconfitto, la prova si concluderebbe all’istante!
+Whoever takes the trial has to survive the jungle<<n>>with only one Pokémon...<b>Donanas</b>!<<n>>Moreover, the challenger can use only the items<<n>>found during the trial,<<n>>and is given 50 <b>Old Ball</b> to catch wild Pokémon<<n>>when desired.<<n>>The purpose of the trial is to gather three parts of a <b>totem</b> from the various areas, but be careful!<<n>><<n>>If Donanas faints, the trial ends immediately!
 La prova si suddivide in due modalità: facile e difficile.
-La prova si suddivide in due modalità: facile e difficile.
+The trial consists of two different modes: easy and hard.
+Nella <b>modalità facile</b>, sta allo sfidante decidere se scontrarsi o meno coi Pokémon che incontra. Al contrario, nella <b>modalità difficile</b>, che richiede una maggior dimostrazione di abilità, non ci sarà modo di sfuggire ai Pokémon selvatici!
+In <b>easy mode</b>, the challenger can choose whether<<n>>to fight wild Pokémon or not.<<n>>But instead, in <b>hard mode</b>, every wild Pokémon has to be defeated in order to prove a greater ability!
 Se hai bisogno di informazioni, sarò ben lieto di dartele.
-Se hai bisogno di informazioni, sarò ben lieto di dartele.
+If you need more information, I will gladly help you.
 Sì
 Yes
 No
@@ -12076,19 +12078,19 @@ Easy
 Difficile
 Hard
 Ho cambiato idea
-Ho cambiato idea
+Never mind!
 Ho cambiato idea.
-Ho cambiato idea.
+Never mind!
 Informazioni
 Informazioni
 Modalità di Gioco
 Modalità di Gioco
 Di cosa si tratta?
-Di cosa si tratta?
+What is it?
 Come funziona?
-Come funziona?
+How does it work?
 Modalità di gioco
-Modalità di gioco
+Game modes
 [Map273]
 <<[>>old<<]>>L'oasi di Acquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
 <<[>>old<<]>>The oasis of Ishtar City is renowned for its miraculous springs. Their water is traded all over the region with the name of ''Fresh Water''.
@@ -13081,87 +13083,87 @@ Stiamo svolgendo delle ricerche all’interno di questa caverna. Finiti gli acce
 Wamuu
 Wamuu
 Ti siamo debitori, straniero|a.
-Ti siamo debitori, straniero|a.
+We owe you for life, foreigner.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Kars
 Kars
 Dovrai passare su questa mia forza se vorrai strapparmi dalle mani la chiave!
-Dovrai passare su questa mia forza se vorrai strapparmi dalle mani la chiave!
+You fool are getting this mask over my superhuman strength!
 No! La mia forza sovrumana...!
-No! La mia forza sovrumana...!
+This cannot be! I'm the ultimate-!
 <<[>>old<<]>>Ha perso conoscenza...
-<<[>>old<<]>>Ha perso conoscenza...
+<<[>>old<<]>>He fainted...
 Esidisi
 Esidisi
 Il sangue mi ribolle nelle vene alla vista degli intrusi!
-Il sangue mi ribolle nelle vene alla vista degli intrusi!
+My blood boils like lava to the sight of the intruders!
 Le fiamme mi stanno divorando il cuore...!
-Le fiamme mi stanno divorando il cuore...!
+The flames are burning my heart...!
 Lasciarmi bruciare dalle fiamme del male... non so cosa mi sia preso!
-Lasciarmi bruciare dalle fiamme del male... non so cosa mi sia preso!
+I let the flames of evil burn me...how could I do this?
 Gli sprovveduti che osano affrontare le insidie del tempio non tornano indietro tanto facilmente!
-Gli sprovveduti che osano affrontare le insidie del tempio non tornano indietro tanto facilmente!
+How dare you worthless fools venture into this<<n>>sacred temple?!
 Forza, non abbandonarmi proprio ora...!
-Forza, non abbandonarmi proprio ora...!
+That was my first truly satisfying battle in a while...!
 Il mio potere era salito alle stelle, ma il mio animo era completamente annebbiato...
-Il mio potere era salito alle stelle, ma il mio animo era completamente annebbiato...
+My power had risen to the stars, but my mind was<<n>>completely poisoned...
 [Map288]
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Atl
 Atl
 Le insidie del Tempio Shyleon sono innumerevoli... una è proprio qui davanti ai tuoi occhi!
-Le insidie del Tempio Shyleon sono innumerevoli... una è proprio qui davanti ai tuoi occhi!
+The dangers of the Shyleon Temple are countless...<<n>>one of them is standing right here!
 La superbia si è insidiata nel mio cuore...
-La superbia si è insidiata nel mio cuore...
+Arrogance's taken root in my heart...
 <<[>>old<<]>>Ha perso conoscenza...
-<<[>>old<<]>>Ha perso conoscenza...
+<<[>>old<<]>>He fainted...
 [Map289]
 Naana
 Naana
 Non uscirai vivo|a da queste sacre mura!
-Non uscirai vivo|a da queste sacre mura!
+You'll never get out of these sacred walls alive!
 Compagni, pensateci voi a custodire questo Tempio...
-Compagni, pensateci voi a custodire questo Tempio...
+My comrades, please protect this Temple...
 <<[>>old<<]>>Ha perso conoscenza...
-<<[>>old<<]>>Ha perso conoscenza...
+<<[>>old<<]>>He fainted...
 <<[>>old<<]>>''Ciò che sorregge il cielo di questa stanza risponderà solo in presenza di una maschera dal purpureo colore.''
-<<[>>old<<]>>''Ciò che sorregge il cielo di questa stanza risponderà solo in presenza di una maschera dal purpureo colore.''
+<<[>>old<<]>>''What is holding up the sky of this room will only responds to the presence of a mask,\ndeep red in color.''
 <<[>>old<<]>>Il testo sulla stele è cambiato!
-<<[>>old<<]>>Il testo sulla stele è cambiato!
+<<[>>old<<]>>The text on the stele has changed!
 <<[>>old<<]>>''Restituisci l'ordine al tetto del cielo per celare il tuo volto nell’azzurro.''
-<<[>>old<<]>>''Restituisci l'ordine al tetto del cielo per celare il tuo volto nell’azzurro.''
+<<[>>old<<]>>''Bringing back the roof of the sky to its order, you will disguise your face in the blue.''
 <<[>>old<<]>>Qual è l’ordine corretto?
-<<[>>old<<]>>Qual è l’ordine corretto?
+<<[>>old<<]>>What's the right order?
 <<[>>old<<]>>Hai risolto l'enigma.
-<<[>>old<<]>>Hai risolto l'enigma.
+<<[>>old<<]>>You solved the riddle.
 Mazatl
 Mazatl
 Ci penserò io a tenerti alla larga dal cuore del tempio!
-Ci penserò io a tenerti alla larga dal cuore del tempio!
+I'm gonna keep you away from the heart of this temple!
 Ugh, mi sta scoppiando la testa!
-Ugh, mi sta scoppiando la testa!
+Ugh! My head...!
 <<[>>old<<]>>Questa crepa ha una forma particolare... Che si possa inserire qualcosa?
-<<[>>old<<]>>Questa crepa ha una forma particolare... Che si possa inserire qualcosa?
+<<[>>old<<]>>This crack in the wall really has a particular shape...\nProbably you can put something in.
 <<[>>old<<]>>Questa crepa ha una forma particolare... Vuoi inserirci lo stampo del Chirofossile?
-<<[>>old<<]>>Questa crepa ha una forma particolare... Vuoi inserirci lo stampo del Chirofossile?
+<<[>>old<<]>>This crack in the wall really has a particular shape...\nDo you want to put the Print Fossil's mold in?
 <<[>>old<<]>>Questa crepa ha una forma particolare... Vuoi inserirci lo stampo del Fossilcosmo?
-<<[>>old<<]>>Questa crepa ha una forma particolare... Vuoi inserirci lo stampo del Fossilcosmo?
+<<[>>old<<]>>This crack in the wall really has a particular shape...\nDo you want to put the Space Fossil's mold in?
 Vaisenen
 Vaisenen
 La melodia di quel Pokémon si era impossessata del nostro corpo e del nostro spirito...
-La melodia di quel Pokémon si era impossessata del nostro corpo e del nostro spirito...
+The melody of that Pokémon had taken control<<n>>of our bodies and our souls...
 I trafugatori di tesori non sono i benvenuti qui.
-I trafugatori di tesori non sono i benvenuti qui.
+You treasure-snatchers are not welcome here.
 Il corpo mio non ha saputo essere fortezza dello spirito...
-Il corpo mio non ha saputo essere fortezza dello spirito...
+My body has failed to be the fortress of my spirit...
 Si dice che inserendo un oggetto del passato in una di queste pareti, si possa accedere a una stanza segreta.
-Si dice che inserendo un oggetto del passato in una di queste pareti, si possa accedere a una stanza segreta.
+It is said that you can insert a object from the past<<n>>in one of these walls to unlock a secret room.
 È la Maschera Shyleon!
-È la Maschera Shyleon!
+It's the Shyleon Mask!
 Cosa vorrà dire...?
-Cosa vorrà dire...?
+What does it mean...?
 1-2-3-4
 1-2-3-4
 2-3-4-1
@@ -13192,47 +13194,47 @@ No
 No
 [Map290]
 <<[>>old<<]>>Vuoi posizionare qui la Maschera Shyleon di colore blu?
-<<[>>old<<]>>Vuoi posizionare qui la Maschera Shyleon di colore blu?
+<<[>>old<<]>>Would you like to place the blue Shyleon Mask here?
 <<[>>old<<]>>Voilà!
-<<[>>old<<]>>Voilà!
+<<[>>old<<]>>Ta-daan!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
 <<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 <<[>>old<<]>>''Solo a chi avrà mascherato di rosso il suo volto sarà consentito mettere piede in questa stanza.''
-<<[>>old<<]>>''Solo a chi avrà mascherato di rosso il suo volto sarà consentito mettere piede in questa stanza.''
+<<[>>old<<]>>''Only those disguising their faces in the red will be allowed to set foot in this room.''
 <<[>>old<<]>>Vuoi sbloccare l'accesso?
-<<[>>old<<]>>Vuoi sbloccare l'accesso?
+<<[>>old<<]>>Would you like to unlock the access?
 <<[>>old<<]>>La porta si è aperta.
 <<[>>old<<]>>The door opened.
 <<[>>old<<]>>Vuoi posizionare qui la Maschera Shyleon di colore rosso?
-<<[>>old<<]>>Vuoi posizionare qui la Maschera Shyleon di colore rosso?
+<<[>>old<<]>>Would you like to place the red Shyleon Mask here?
 Tu
-Tu
+You
 ...!
 ...!
 ???
 ???
 Ehi, aspettami!
-Ehi, aspettami!
+Heeeyyy! Don't move!
 Ruta
 Ruta
 Quelle dannate Sentinelle mi hanno fatto perdere un mucchio di tempo!
-Quelle dannate Sentinelle mi hanno fatto perdere un mucchio di tempo!
+Those damn Sentinels were a real waste of time!
 Non possiamo perderne dell’altro, \PN! Ho bisogno di vederci chiaro su questa faccenda e alla svelta anche!
-Non possiamo perderne dell’altro, \PN! Ho bisogno di vederci chiaro su questa faccenda e alla svelta anche!
+We can't waste any more, \PN! I gotta see this whole<<n>>thing through and quickly! 
 <<[>>old<<]>>Vuoi posizionare qui la Maschera Shyleon di colore verde?
-<<[>>old<<]>>Vuoi posizionare qui la Maschera Shyleon di colore verde?
+<<[>>old<<]>>Would you like to place the green Shyleon Mask here?
 <<[>>old<<]>>Nel portone si è aperto uno spiraglio!
-<<[>>old<<]>>Nel portone si è aperto uno spiraglio!
+<<[>>old<<]>>The gate has opened!
 <<[>>old<<]>>''Solo a chi avrà mascherato di blu il suo volto sarà consentito mettere piede in questa stanza.''
-<<[>>old<<]>>''Solo a chi avrà mascherato di blu il suo volto sarà consentito mettere piede in questa stanza.''
+<<[>>old<<]>>''Only those disguising their faces in the blue will be allowed to set foot in this room.''
 <<[>>old<<]>>Ha perso conoscenza...
-<<[>>old<<]>>Ha perso conoscenza...
+<<[>>old<<]>>He fainted...
 <<[>>old<<]>>Vuoi proseguire?
-<<[>>old<<]>>Vuoi proseguire?
+<<[>>old<<]>>Do you wish to proceed?
 <<[>>old<<]>>Assicurati di avere il tuo Pokémon iniziale in squadra per proseguire.
-<<[>>old<<]>>Assicurati di avere il tuo Pokémon iniziale in squadra per proseguire. 
+<<[>>old<<]>>Make sure you have your starter Pokémon with you to proceed. 
 Funesto
 Ropert
 Ciao giovanotto|a! Mi presento, sono <b>Funesto</b>.
@@ -13247,18 +13249,18 @@ Con Funesto si fa presto! Gambe in spalla!
 Ropert's walking in your shoes! Chop chop!
 Se hai bisogno, fammi un fischio.
 Hit me up if you need something.
-Sei pronto|a?
-Sei pronto|a?
 Karma
 Karma
 Da millenni quegli indecifrabili enigmi proteggono il Tempio Shyleon da chi osa profanarlo... Com’è possibile che uno|a straniero|a li abbia risolti?!
-Da millenni quegli indecifrabili enigmi proteggono il Tempio Shyleon da chi osa profanarlo... Com’è possibile che uno|a straniero|a li abbia risolti?!
+Those unsolvable riddles have been protecting the Shyleon Temple from snatchers for millennia...<<n>>How did a foreigner like you solve them?!
+Alakazam, ora è nostro preciso dovere sbarazzarcene!
+Alakazam, it is our sworn duty to take him||er down now!
 Alakazam
 Alakazam
 Kazam...!
 Kazam...!
 Voi mi avete reso potente e io vi ho deluso, padrone...!
-Voi mi avete reso potente e io vi ho deluso, padrone...!
+You gave me power and I failed you, master...!
 Sì
 Yes
 No
@@ -13271,13 +13273,13 @@ Usa Box
 Use Box
 [Map291]
 <<[>>old<<]>>Nord: Montagna
-<<[>>old<<]>>Nord: Montagna
+<<[>>old<<]>>North: Mountain Area
 <<[>>old<<]>>Ovest: Bacino
-<<[>>old<<]>>Ovest: Bacino
+<<[>>old<<]>>West: Lake Area
 <<[>>old<<]>>Vuoi davvero abbandonare il Cammino dell’Eroe? Tutti gli strumenti raccolti andranno perduti.
-<<[>>old<<]>>Vuoi davvero abbandonare il Cammino dell’Eroe? Tutti gli strumenti raccolti andranno perduti.
+<<[>>old<<]>>Do you want to leave the Heroes Path?\nAll the items will be lost forever.
 <<[>>old<<]>>Est: Boschetto
-<<[>>old<<]>>Est: Boschetto
+<<[>>old<<]>>East: Woodland Area
 Sì
 Yes
 No
@@ -13332,11 +13334,11 @@ No
 No
 [Map294]
 <<[>>old<<]>>''Qui dovrai piantare un'antica nuova vita.''
-<<[>>old<<]>>''Qui dovrai piantare un'antica nuova vita.''
+<<[>>old<<]>>''Here you will have to plant an old new life.''
 <<[>>old<<]>>Vuoi provare ad inserire l’Antico Miracolseme?
-<<[>>old<<]>>Vuoi provare ad inserire l’Antico Miracolseme?
+<<[>>old<<]>>Do you want to insert here the Old Miracle Seed?
 <<[>>old<<]>>Dev’essere successo qualcosa nella sala principale.
-<<[>>old<<]>>Dev’essere successo qualcosa nella sala principale.
+<<[>>old<<]>>Something happened in the main room.
 Sì
 Yes
 No
@@ -13577,9 +13579,9 @@ Chua
 Non so se fosse per loro quello più accessibile, ma di sicuro era quello a loro più congeniale. Sarà mica che il Tempio Shyleon era di strada per raggiungere <b>Sagittopoli</b>...? Beh, è solo l’illazione di un selvaggio, ma la civiltà urbana non mi è mai andata a genio...
 I don't know if it was the easiest for them to reach,<<n>>but it was definitely the most convenient choice.<<n>>Could it be that Shyleon Temple was on their way<<n>>to <b>Vega City</b>...?<<n>>Well, this is just the assumption of a savage, but urban<<n>>civilization has never appealed to me...
 Patrio
-Patrio
+Acalan
 Volente o nolente, il testimone di questa civiltà passerà al giovane Ruta prima o poi...
-Volente o nolente, il testimone di questa civiltà passerà al giovane Ruta prima o poi...
+Willing or unwilling, the young Ruta is going to receive<<n>>the torch of our civilization sooner or later...
 Un po' improvvisato, ma meglio di niente no?
 A bit improvised, but it's better than nothing,<<n>>don't you think?
 Ruta, potresti lasciarci un attimo a discutere da soli, per cortesia?
@@ -13611,9 +13613,9 @@ Feegel
 ...
 ...
 Saaxi
-Saaxi
+Xipil
 Il <b>Marchio Cardinale</b> è il simbolo della benedizione che i quattro pilastri di Eldiw hanno ricevuto.
-Il <b>Marchio Cardinale</b> è il simbolo della benedizione che i quattro pilastri di Eldiw hanno ricevuto.
+The <b>Cardinal's Stigma</b> is a symbol of the blessing<<n>>the four pillars of Eldiw received from Luxflon.
 Linio
 Linio
 [Map298]
@@ -16475,7 +16477,7 @@ Guarda, guarda! Qualcuno qui pensava di poterci fregare senza essere scoperto|a!
 <<[>>old<<]>>Una volta dentro, non potrai più tornare indietro. Vuoi davvero proseguire?
 <<[>>old<<]>>Una volta dentro, non potrai più tornare indietro. Vuoi davvero proseguire?
 <<[>>old<<]>>Assicurati di avere il tuo Pokémon iniziale in squadra per proseguire.
-<<[>>old<<]>>Assicurati di avere il tuo Pokémon iniziale in squadra per proseguire. 
+<<[>>old<<]>>Make sure you have your starter Pokémon with you to proceed. 
 20KL
 20KL
 Per te è la fine, umano|a! Ho appena fatto il pieno di cola e sono pieno di energie! <i>Bzz!</i>
@@ -17488,6 +17490,10 @@ No
 [Map403]
 [Map404]
 [Map405]
+<<[>>old<<]>>Un antico totem pervaso dall'energia delle stelle. Vuoi insegnare <b>Ipernova</b> a Shulong?
+<<[>>old<<]>>An ancient totem pervaded with star energy. Would you like to teach <b>Star Burst</b> to Shulong?
+<<[>>old<<]>>Un antico totem pervaso dall'energia delle stelle. Forse un Pokémon potrebbe sfruttarne il potenziale...
+<<[>>old<<]>>An ancient totem pervaded with star energy. Maybe a Pokémon could exploit its potential...
 Shulong
 Shulong
 Shu...!
@@ -17985,15 +17991,15 @@ Sì
 Yes
 [Map421]
 <<[>>old<<]>>Boschetto
-<<[>>old<<]>>Boschetto
+<<[>>old<<]>>Woodland Area
 [Map422]
 <<[>>old<<]>>Montagna
-<<[>>old<<]>>Montagna
+<<[>>old<<]>>Mountain Area
 [Map423]
 Ennardo
-Ennardo
+Edward
 La bufera deve aver congelato te e i tuoi Pokémon... Guarda quei ghiaccioli sotto al naso! Oh oh oh! Scherzi a parte, non fare complimenti. Fa' come se fosse casa tua. Scaldati pure davanti al caminetto e riposa quanto vuoi.
-La bufera deve aver congelato te e i tuoi Pokémon...  Guarda quei ghiaccioli sotto al naso! Oh oh oh! Scherzi a parte, non fare complimenti. Fa' come se fosse casa tua.  Scaldati pure davanti al caminetto e riposa quanto vuoi.
+The blizzard must have frozen you and your Pokémon.<<n>>Look at those icicles on your nose! Ho ho ho!<<n>>Jokes aside, feel free to make yourself at home. Have a seat by the fireplace and rest as much as you want.
 <<[>>old<<]>>Vuoi riposarti?
 <<[>>old<<]>>Would you like to rest?
 <<[>>old<<]>>Ora va molto meglio.
@@ -18834,13 +18840,17 @@ Shulong
 Shulong
 Shu...!
 Shu...!
-<<[>>old<<]>> Probabilmente per entrare in questo Nido, hai bisogno del tuo starter.
-<<[>>old<<]>> Probabilmente per entrare in questo Nido, hai bisogno del tuo starter.
+<<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
+<<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 Si
 Si
 No
 No
 [Map484]
+<<[>>old<<]>>Un antico totem pervaso dall'energia delle stelle. Vuoi insegnare <b>Ipernova</b> a Shyleon?
+<<[>>old<<]>>An ancient totem pervaded with star energy. Would you like to teach <b>Star Burst</b> to Shyleon?
+<<[>>old<<]>>Un antico totem pervaso dall'energia delle stelle. Forse un Pokémon potrebbe sfruttarne il potenziale...
+<<[>>old<<]>>An ancient totem pervaded with star energy. Maybe a Pokémon could exploit its potential...
 Shyleon
 Shyleon
 Shy...!
@@ -18866,6 +18876,10 @@ Yes
 No
 No
 [Map485]
+<<[>>old<<]>>Un antico totem pervaso dall'energia delle stelle. Vuoi insegnare <b>Ipernova</b> a Trishout?
+<<[>>old<<]>>An ancient totem pervaded with star energy. Would you like to teach <b>Star Burst</b> to Trishout?
+<<[>>old<<]>>Un antico totem pervaso dall'energia delle stelle. Forse un Pokémon potrebbe sfruttarne il potenziale...
+<<[>>old<<]>>An ancient totem pervaded with star energy. Maybe a Pokémon could exploit its potential...
 Trishout
 Trishout
 Tri...!
@@ -20807,9 +20821,9 @@ Golden Studio
 Golden Studio
 [Map563]
 <<[>>old<<]>>È il fossile di un antico Pokémon proveniente dallo spazio. Sembrerebbe essere dell'inchiostro solidificato... Vuoi prenderlo?
-<<[>>old<<]>>The fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink... Do you want to take it?
+<<[>>old<<]>>The fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink...\nDo you want to take it?
 <<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Vuoi prenderlo?
-<<[>>old<<]>>The fossil of an ancient Pokémon that lived on land. It appears to be a handprint... Do you want to take it?
+<<[>>old<<]>>The fossil of an ancient Pokémon that lived on land. It appears to be a handprint...\nDo you want to take it?
 Sì
 Yes
 No
@@ -42741,577 +42755,577 @@ Equalize
 [10]
 1
 A volte fa tentennare i nemici.
-A volte fa tentennare i nemici.
+The stench may cause the target to flinch.
 2
 Quando scende in campo, il Pokémon attira la pioggia.
-Quando scende in campo, il Pokémon attira la pioggia.
+The Pokémon makes it rain when it enters a battle.
 3
 La statistica Velocità aumenta gradualmente.
-La statistica Velocità aumenta gradualmente.
+Its Speed stat is boosted every turn.
 4
 Evita che il Pokémon subisca brutti colpi.
-Evita che il Pokémon subisca brutti colpi.
+Hard armor protects the Pokémon from critical hits.
 5
 Evita che il Pokémon vada KO in un sol colpo.
-Evita che il Pokémon vada KO in un sol colpo.
+It cannot be knocked out with one hit.
 6
 Impedisce le mosse autodistruttive.
-Impedisce le mosse autodistruttive.
+Prevents the use of self-destructing moves.
 7
 Il Pokémon è protetto contro la paralisi.
-Il Pokémon è protetto contro la paralisi.
+Its limber body protects the Pokémon from paralysis.
 8
 L'elusione aumenta durante le tempeste di sabbia.
-L'elusione aumenta durante le tempeste di sabbia.
+Boosts the Pokémon's evasion in a sandstorm.
 9
 Il contatto fisico con il Pokémon può causare paralisi.
-Il contatto fisico con il Pokémon può causare paralisi.
+Contact with the Pokémon may cause paralysis.
 10
 Ridà PS se si subisce una mossa di tipo Elettro.
-Ridà PS se si subisce una mossa di tipo Elettro.
+Restores HP if hit by an Electric-type move.
 11
 Ridà PS se si subisce una mossa di tipo Acqua.
-Ridà PS se si subisce una mossa di tipo Acqua.
+Restores HP if hit by a Water-type move.
 12
 Protegge il Pokémon da infatuazioni e provocazioni.
-Protegge il Pokémon da infatuazioni e provocazioni.
+Keeps the Pokémon from being infatuated or falling for taunts.
 13
 Neutralizza gli effetti delle condizioni atmosferiche.
-Neutralizza gli effetti delle condizioni atmosferiche.
+Eliminates the effects of weather.
 14
 Aumenta la precisione del Pokémon.
-Aumenta la precisione del Pokémon.
+The Pokémon's compound eyes boost its accuracy.
 15
 Impedisce al Pokémon di addormentarsi.
-Impedisce al Pokémon di addormentarsi.
+Prevents the Pokémon from falling asleep.
 16
 Il Pokémon acquisisce il tipo della mossa subita.
-Il Pokémon acquisisce il tipo della mossa subita.
+The Pokémon's type becomes the type of the move used on it.
 17
 Impedisce al Pokémon di venire avvelenato.
-Impedisce al Pokémon di venire avvelenato.
+Prevents the Pokémon from getting poisoned.
 18
 Potenzia le proprie mosse Fuoco se ne subisce una.
-Potenzia le proprie mosse Fuoco se ne subisce una.
+Powers up the Pokémon's Fire-type moves if it's hit by one.
 19
 Annulla gli effetti secondari delle mosse subite.
-Annulla gli effetti secondari delle mosse subite.
+Blocks the additional effects of attacks taken.
 20
 Impedisce al Pokémon di venire confuso.
-Impedisce al Pokémon di venire confuso.
+Prevents the Pokémon from becoming confused.
 21
 Resiste a strumenti e mosse di sostituzione.
-Resiste a strumenti e mosse di sostituzione.
+Negates all moves and items that force switching out.
 22
 Riduce la statistica Attacco del nemico.
-Riduce la statistica Attacco del nemico.
+Lowers the opposing Pokémon's Attack stat.
 23
 Impedisce la fuga al nemico.
-Impedisce la fuga al nemico.
+Prevents opposing Pokémon from escaping.
 24
 Danneggia il nemico al minimo contatto fisico.
-Danneggia il nemico al minimo contatto fisico.
+Inflicts damage to the attacker on contact.
 25
 Rende vulnerabili solo alle mosse superefficaci.
-Rende vulnerabili solo alle mosse superefficaci.
+Only supereffective moves will hit.
 26
 Conferisce immunità dagli attacchi di tipo Terra.
-Conferisce immunità dagli attacchi di tipo Terra.
+Gives full immunity to all Ground-type moves.
 27
 Al contatto può causare avvelenamento, paralisi o sonno.
-Al contatto può causare avvelenamento, paralisi o sonno.
+Contact may poison or cause paralysis or sleep.
 28
 Avvelena, paralizza o scotta il nemico che infligge lo stato.
-Avvelena, paralizza o scotta il nemico che infligge lo stato.
+Passes poison, paralyze, or burn to the Pokémon that inflicted it.
 29
 Le statistiche del Pokémon non possono essere ridotte.
-Le statistiche del Pokémon non possono essere ridotte.
+Prevents other Pokémon from lowering its stats.
 30
 Cura i problemi di stato del Pokémon sostituito.
-Cura i problemi di stato del Pokémon sostituito.
+All status conditions heal when the Pokémon switches out.
 31
 Le mosse di tipo Elettro subite aumentano l'Att. Sp.
-Le mosse di tipo Elettro subite aumentano l'Att. Sp.
+Draws in all Electric-type moves to boost its Sp. Atk stat.
 32
 Gli effetti secondari delle mosse sono più probabili.
-Gli effetti secondari delle mosse sono più probabili.
+Boosts the likelihood of additional effects occurring.
 33
 Se piove, la Velocità aumenta.
-Se piove, la Velocità aumenta.
+Boosts the Pokémon's Speed stat in rain.
 34
 Se c'è il sole, la Velocità aumenta.
-Se c'è il sole, la Velocità aumenta.
+Boosts the Pokémon's Speed stat in harsh sunlight.
 35
 Aumenta la probabilità di incontrare Pokémon selvatici.
-Aumenta la probabilità di incontrare Pokémon selvatici.
+Raises the likelihood of meeting wild Pokémon.
 36
 Copia l'abilità del nemico.
-Copia l'abilità del nemico.
+The Pokémon copies an opposing Pokémon's Ability.
 37
 Migliora la statistica Attacco del Pokémon.
-Migliora la statistica Attacco del Pokémon.
+Doubles the Pokémon's Attack stat.
 38
 Avvelena il nemico al minimo contatto fisico.
-Avvelena il nemico al minimo contatto fisico.
+Contact with the Pokémon may poison the attacker.
 39
 Evita che il Pokémon tentenni.
-Evita che il Pokémon tentenni.
+Protects the Pokémon from flinching.
 40
 Evita che il Pokémon venga congelato.
-Evita che il Pokémon venga congelato.
+Prevents the Pokémon from becoming frozen.
 41
 Evita che il Pokémon resti scottato.
-Evita che il Pokémon resti scottato.
+Prevents the Pokémon from getting a burn.
 42
 Impedisce la fuga ai Pokémon di tipo Acciaio.
-Impedisce la fuga ai Pokémon di tipo Acciaio.
+Prevents Steel-type Pokémon from escaping.
 43
 Fornisce immunità alle mosse basate sul suono.
-Fornisce immunità alle mosse basate sul suono.
+Gives full immunity to all sound-based moves.
 44
 Il Pokémon recupera PS quando piove.
-Il Pokémon recupera PS quando piove.
+The Pokémon gradually regains HP in rain.
 45
 Causa una tempesta di sabbia durante la lotta.
-Causa una tempesta di sabbia durante la lotta.
+The Pokémon summons a sandstorm when it enters a battle.
 46
 Il nemico usa più PP.
-Il nemico usa più PP.
+The Pokémon raises opposing Pokémon's PP usage.
 47
 Aumenta la resistenza alle mosse di tipo Fuoco e Ghiaccio.
-Aumenta la resistenza alle mosse di tipo Fuoco e Ghiaccio.
+Boosts resistance to Fire- and Ice-type moves.
 48
 Il Pokémon si risveglia rapidamente dal sonno.
-Il Pokémon si risveglia rapidamente dal sonno.
+The Pokémon awakens quickly from sleep.
 49
 Può bruciare il nemico al minimo contatto fisico.
-Può bruciare il nemico al minimo contatto fisico.
+Contact with the Pokémon may burn the attacker.
 50
 Garantisce la fuga dai Pokémon selvatici.
-Garantisce la fuga dai Pokémon selvatici.
+Enables a sure getaway from wild Pokémon.
 51
 Evita che la precisione diminuisca.
-Evita che la precisione diminuisca.
+Prevents other Pokémon from lowering accuracy.
 52
 Evita che l'Attacco venga ridotto.
-Evita che l'Attacco venga ridotto.
+Prevents other Pokémon from lowering its Attack stat.
 53
 Aumenta la probabilità di trovare strumenti.
-Aumenta la probabilità di trovare strumenti.
+The Pokémon may pick up items.
 54
 Il Pokémon attacca un turno sì e uno no.
-Il Pokémon attacca un turno sì e uno no.
+The Pokémon can't attack on consecutive turns.
 55
 Aumenta l'Attacco, ma riduce la precisione.
-Aumenta l'Attacco, ma riduce la precisione.
+Boosts the Attack stat, but lowers accuracy.
 56
 Al contatto subito, chi sferra l'attacco può infatuarsi.
-Al contatto subito, chi sferra l'attacco può infatuarsi.
+Contact with the Pokémon may cause infatuation.
 57
 Aumenta l'Attacco Speciale se ci sono Meno o Più.
-Aumenta l'Attacco Speciale se ci sono Meno o Più.
+Boosts the Sp. Atk stat if another Pokémon has Plus or Minus.
 58
 Aumenta l'Attacco Speciale se ci sono Più o Meno.
-Aumenta l'Attacco Speciale se ci sono Più o Meno.
+Boosts the Sp. Atk stat if another Pokémon has Plus or Minus.
 59
 Castform muta in base al tempo atmosferico.
-Castform muta in base al tempo atmosferico.
+Castform transforms with the weather.
 60
 Protegge il Pokémon dal furto di strumenti.
-Protegge il Pokémon dal furto di strumenti.
+Protects the Pokémon from item theft.
 61
 Può guarire i problemi di stato del Pokémon.
-Può guarire i problemi di stato del Pokémon.
+The Pokémon may heal its own status conditions.
 62
 Aumenta l'Attacco in caso di problemi di stato.
-Aumenta l'Attacco in caso di problemi di stato.
+Boosts the Attack stat if the Pokémon has a status condition.
 63
 Aumenta la Difesa in caso di problemi di stato.
-Aumenta la Difesa in caso di problemi di stato.
+Boosts the Defense stat if the Pokémon has a status condition.
 64
 Danneggia i nemici che usano mosse ruba-PS.
-Danneggia i nemici che usano mosse ruba-PS.
+Damages attackers using any draining move.
 65
 In difficoltà, potenzia le mosse di tipo Erba.
-In difficoltà, potenzia le mosse di tipo Erba.
+Powers up Grass-type moves in a pinch.
 66
 In difficoltà, potenzia le mosse di tipo Fuoco.
-In difficoltà, potenzia le mosse di tipo Fuoco.
+Powers up Fire-type moves in a pinch.
 67
 In difficoltà, potenzia le mosse di tipo Acqua.
-In difficoltà, potenzia le mosse di tipo Acqua.
+Powers up Water-type moves in a pinch.
 68
 In difficoltà, potenzia le mosse di tipo Coleottero.
-In difficoltà, potenzia le mosse di tipo Coleottero.
+Powers up Bug-type moves in a pinch.
 69
 Protegge il Pokémon dai contraccolpi.
-Protegge il Pokémon dai contraccolpi.
+Protects the Pokémon from recoil damage.
 70
 Aumenta l'intensità dei raggi solari nella lotta.
-Aumenta l'intensità dei raggi solari nella lotta.
+Turns the sunlight harsh when the Pokémon enters a battle.
 71
 Impedisce la fuga al nemico.
-Impedisce la fuga al nemico.
+Prevents opposing Pokémon from fleeing.
 72
 Evita che il Pokémon si addormenti.
-Evita che il Pokémon si addormenti.
+Prevents the Pokémon from falling asleep.
 73
 Evita la riduzione delle proprie statistiche.
-Evita la riduzione delle proprie statistiche.
+Prevents other Pokémon from lowering its stats.
 74
 Migliora la statistica Attacco del Pokémon.
-Migliora la statistica Attacco del Pokémon.
+Boosts the Pokémon's Attack stat.
 75
 Evita che il Pokémon subisca brutti colpi.
-Evita che il Pokémon subisca brutti colpi.
+A hard shell protects the Pokémon from critical hits.
 76
 Elimina gli effetti del clima.
-Elimina gli effetti del clima.
+Eliminates the effects of weather.
 77
 Aumenta l'elusione se il Pokémon è confuso
-Aumenta l'elusione se il Pokémon è confuso
+Raises evasiveness if the Pokémon is confused.
 78
 Le mosse elettro subite aumentano la Velocità.
-Le mosse elettro subite aumentano la Velocità.
+Boosts the Speed stat when it's hit by an Electric-type move.
 79
 Rende più forti contro nemici dello stesso sesso.
-Rende più forti contro nemici dello stesso sesso.
+Deals more damage to Pokémon of the same gender.
 80
 Aumenta la Velocità se il Pokémon tentenna.
-Aumenta la Velocità se il Pokémon tentenna.
+Boosts the Speed stat each time the Pokémon flinches.
 81
 Aumenta l'elusione quando grandina.
-Aumenta l'elusione quando grandina.
+Boosts evasion in a hailstorm.
 82
 Favorisce l'uso anticipato di una Bacca tenuta.
-Favorisce l'uso anticipato di una Bacca tenuta.
+Makes the Pokémon use a held Berry earlier than usual.
 83
 Massimizza l'Attacco se si subisce un brutto colpo.
-Massimizza l'Attacco se si subisce un brutto colpo.
+Maxes the Attack stat after the Pokémon takes a critical hit.
 84
 Aumenta la Velocità dopo aver usato uno strumento.
-Aumenta la Velocità dopo aver usato uno strumento.
+Boosts the Speed stat if its held item is used or lost.
 85
 Indebolisce l'effetto di mosse di tipo Fuoco.
-Indebolisce l'effetto di mosse di tipo Fuoco.
+Weakens the power of Fire-type moves.
 86
 Le statistiche possono cambiare senza preavviso.
-Le statistiche possono cambiare senza preavviso.
+The stat changes the Pokémon receives are doubled.
 87
 Riduce PS se fa caldo. L'acqua ridà PS.
-Riduce PS se fa caldo. L'acqua ridà PS.
+Reduces HP if it's hot. Water restores HP.
 88
 Regola la potenza in base al nemico.
-Regola la potenza in base al nemico.
+Adjusts power based on an opposing Pokémon's stats.
 89
 Potenzia le mosse tirapugni.
-Potenzia le mosse tirapugni.
+Powers up punching moves.
 90
 Ridà PS se il Pokémon è avvelenato.
-Ridà PS se il Pokémon è avvelenato.
+Restores HP if the Pokémon is poisoned.
 91
 Potenzia le mosse del tipo del Pokémon.
-Potenzia le mosse del tipo del Pokémon.
+Powers up moves of the same type as the Pokémon.
 92
 Aumenta la frequenza di mosse multicolpo.
-Aumenta la frequenza di mosse multicolpo.
+Maximizes the number of times multistrike moves hit.
 93
 Cura i problemi di stato se piove.
-Cura i problemi di stato se piove.
+Heals status conditions if it's raining.
 94
 Se c'è il sole aumenta l'Att. Sp. ma riduce i PS.
-Se c'è il sole aumenta l'Att. Sp. ma riduce i PS.
+Boosts the Sp. Atk stat in sunny weather, but HP decreases.
 95
 Aumenta la Velocità se c’è un problema di stato.
-Aumenta la Velocità se c’è un problema di stato.
+Boosts the Speed stat if the Pokémon has a status condition.
 96
 Le mosse del Pokémon diventano di tipo Normale.
-Le mosse del Pokémon diventano di tipo Normale.
+All the Pokémon's moves become Normal type.
 97
 Potenzia i brutti colpi.
-Potenzia i brutti colpi.
+Powers up moves if they become critical hits.
 98
 Il Pokémon subisce danni solo da attacchi diretti.
-Il Pokémon subisce danni solo da attacchi diretti.
+The Pokémon only takes damage from attacks.
 99
 Le mosse dei Pokémon in campo non possono fallire.
-Le mosse dei Pokémon in campo non possono fallire.
+Ensures attacks by or against the Pokémon land.
 100
 Anche i nemici più lenti attaccano per primi.
-Anche i nemici più lenti attaccano per primi.
+The Pokémon moves after all other Pokémon do.
 101
 Potenzia le mosse più deboli del Pokémon.
-Potenzia le mosse più deboli del Pokémon.
+Powers up the Pokémon's weaker moves.
 102
 Evita problemi di stato quando c'è il sole.
-Evita problemi di stato quando c'è il sole.
+Prevents status conditions in harsh sunlight.
 103
 Il Pokémon non può usare lo strumento che ha.
-Il Pokémon non può usare lo strumento che ha.
+The Pokémon can't use any held items.
 104
 Neutralizza le abilità che bloccano le mosse.
-Neutralizza le abilità che bloccano le mosse.
+Moves can be used on the target regardless of its Abilities.
 105
 Aumenta la probabilità di infliggere brutti colpi.
-Aumenta la probabilità di infliggere brutti colpi.
+Boosts the critical-hit ratios of moves.
 106
 Danneggia il nemico che sferra il colpo finale.
-Danneggia il nemico che sferra il colpo finale.
+Damages the attacker landing the finishing hit.
 107
 Rivela se il nemico ha mosse pericolose.
-Rivela se il nemico ha mosse pericolose.
+Senses an opposing Pokémon's dangerous moves.
 108
 Scopre la mossa più potente del nemico.
-Scopre la mossa più potente del nemico.
+Determines what moves an opposing Pokémon has.
 109
 Ignora ogni modifica alle statistiche.
-Ignora ogni modifica alle statistiche.
+Ignores the opposing Pokémon's stat changes.
 110
 Potenzia le mosse non molto efficaci.
-Potenzia le mosse non molto efficaci.
+Powers up ''not very effective'' moves.
 111
 Riduce la potenza delle mosse superefficaci.
-Riduce la potenza delle mosse superefficaci.
+Reduces the power of supereffective attacks taken.
 112
 Dimezza per un po' l'Attacco e la Velocità.
-Dimezza per un po' l'Attacco e la Velocità.
+Temporarily halves the Pokémon's Attack and Speed stats.
 113
 Rende il tipo Spettro vulnerabile al tipo Normale e Lotta.
-Rende il tipo Spettro vulnerabile al tipo Normale e Lotta.
+Makes Normal and Fighting-type moves hit Ghost-type Pokémon.
 114
 Le mosse acqua subite aumentano l'Att. Sp.
-Le mosse acqua subite aumentano l'Att. Sp.
+Draws in all Water-type moves to boost its Sp. Atk stat.
 115
 Il Pokémon recupera PS quando grandina.
-Il Pokémon recupera PS quando grandina.
+The Pokémon gradually regains HP in a hailstorm.
 116
 Riduce i danni delle mosse superefficaci.
-Riduce i danni delle mosse superefficaci.
+Reduces the power of supereffective attacks taken.
 117
 Il Pokémon provoca una grandinata in lotta.
-Il Pokémon provoca una grandinata in lotta.
+The Pokémon summons a hailstorm when it enters a battle.
 118
 Il Pokémon può raccogliere Miele.
-Il Pokémon può raccogliere Miele.
+The Pokémon may gather Honey from somewhere.
 119
 Il Pokémon scopre lo strumento dell’avversario.
-Il Pokémon scopre lo strumento dell’avversario.
+The Pokémon can check an opposing Pokémon's held item.
 120
 Potenzia le mosse che provocano contraccolpi.
-Potenzia le mosse che provocano contraccolpi.
+Powers up moves that have recoil damage.
 121
 Cambia il tipo inbase alla Lastra posseduta.
-Cambia il tipo inbase alla Lastra posseduta.
+Changes the Pokémon's type to match the Plate it holds.
 122
 Potenzia i Pokémon della squadra se c'è il sole.
-Potenzia i Pokémon della squadra se c'è il sole.
+Powers up party Pokémon when it's sunny.
 123
 Riduce i PS dei nemici addormentati.
-Riduce i PS dei nemici addormentati.
+Reduces the HP of sleeping opposing Pokémon.
 124
 Al contatto subito, ruba uno strumento al nemico.
-Al contatto subito, ruba uno strumento al nemico.
+Steals an item from an attacker that made direct contact.
 125
 Aumenta i danni annullando altri effetti delle mosse.
-Aumenta i danni annullando altri effetti delle mosse.
+Removes additional effects to increase move damage.
 126
 I cambi alle statistiche hanno effetto inverso.
-I cambi alle statistiche hanno effetto inverso.
+Makes stat changes have an opposite effect.
 127
 Il nemico non può mangiare Bacche.
-Il nemico non può mangiare Bacche.
+Unnerves opposing Pokémon and makes them unable to eat Berries.
 128
 L'Attacco aumenta quando un nemico fa calare le statistiche.
-L'Attacco aumenta quando un nemico fa calare le statistiche.
+Boosts the Pokémon's Attack stat when its stats are lowered.
 129
 Le statistiche scendono se i PS calano a metà o meno.
-Le statistiche scendono se i PS calano a metà o meno.
+Lowers stats when HP becomes half or less.
 130
 A volte inibisce l'ultima mossa usata dal nemico.
-A volte inibisce l'ultima mossa usata dal nemico.
+May disable a move used on the Pokémon.
 131
 A volte cura i problemi di stato degli alleati.
-A volte cura i problemi di stato degli alleati.
+Sometimes heals an ally's status condition.
 132
 Riduce il danno subìto dagli alleati.
-Riduce il danno subìto dagli alleati.
+Reduces damage done to allies.
 133
 Riduce la Difesa e aumenta la Velocità se il Pokémon è colpito.
-Riduce la Difesa e aumenta la Velocità se il Pokémon è colpito.
+Physical attacks lower its Defense stat and raise its Speed stat.
 134
 Raddoppia il peso del Pokémon.
-Raddoppia il peso del Pokémon.
+Doubles the Pokémon's weight.
 135
 Dimezza il peso del Pokémon.
-Dimezza il peso del Pokémon.
+Halves the Pokémon's weight.
 136
 Riduce il danno subìto se i PS sono al massimo.
-Riduce il danno subìto se i PS sono al massimo.
+Reduces damage the Pokémon takes when its HP is full.
 137
 Aumenta l'Attacco se il Pokémon è avvelenato.
-Aumenta l'Attacco se il Pokémon è avvelenato.
+Powers up physical attacks when the Pokémon is poisoned.
 138
 Aumenta l'Attacco Speciale se il Pokémon è scottato.
-Aumenta l'Attacco Speciale se il Pokémon è scottato.
+Powers up special attacks when the Pokémon is burned.
 139
 Può ricreare una bacca utilizzata.
-Può ricreare una bacca utilizzata.
+May create another Berry after one is used.
 140
 Prevede ed evita gli attacchi degli alleati.
-Prevede ed evita gli attacchi degli alleati.
+Anticipates an ally's attack and dodges it.
 141
 Aumenta una statistica e ne riduce un'altra.
-Aumenta una statistica e ne riduce un'altra.
+Raises one stat and lowers another.
 142
 Protegge il Pokémon da polvere, sabbia e grandine.
-Protegge il Pokémon da polvere, sabbia e grandine.
+Protects the Pokémon from things like sand, hail and powder.
 143
 Può avvelenare il nemico al solo contatto fisico.
-Può avvelenare il nemico al solo contatto fisico.
+May poison a target when the Pokémon makes contact.
 144
 Il Pokémon recupera un po' di PS quando viene sostituito.
-Il Pokémon recupera un po' di PS quando viene sostituito.
+Restores a little HP when withdrawn from battle.
 145
 Evita che la Difesa diminuisca.
-Evita che la Difesa diminuisca.
+Protects the Pokémon from Defense-lowering effects.
 146
 La Velocità aumenta nelle tempeste di sabbia.
-La Velocità aumenta nelle tempeste di sabbia.
+Boosts the Pokémon's Speed stat in a sandstorm.
 147
 Resiste più facilmente ai cambiamenti di stato.
-Resiste più facilmente ai cambiamenti di stato.
+Makes status moves more likely to miss.
 148
 Se agisce per ultimo, la potenza della mossa sale.
-Se agisce per ultimo, la potenza della mossa sale.
+Boosts move power when the Pokémon moves last.
 149
 Entra con le sembianze dell'ultimo Pokémon in squadra.
-Entra con le sembianze dell'ultimo Pokémon in squadra.
+Comes out disguised as the Pokémon in the party's last spot.
 150
 Si trasforma nel Pokémon che ha davanti.
-Si trasforma nel Pokémon che ha davanti.
+The Pokémon transforms itself into the Pokémon it's facing.
 151
 Attacca evitando le barriere del nemico.
-Attacca evitando le barriere del nemico.
+Passes through the opposing Pokémon's barrier and strikes.
 152
 L'abilità del nemico cambia in Mummia dopo il contatto.
-L'abilità del nemico cambia in Mummia dopo il contatto.
+Contact with the Pokémon spreads this Ability.
 153
 Aumenta l'Attacco quando manda un nemico KO.
-Aumenta l'Attacco quando manda un nemico KO.
+Boosts the Attack stat after knocking out any Pokémon.
 154
 L'Attacco aumenta se si è colpiti da una mossa di tipo Buio.
-L'Attacco aumenta se si è colpiti da una mossa di tipo Buio.
+Boosts the Attack stat when it's hit by a Dark-type move.
 155
 Per paura di certi tipi di mosse, la Velocità sale.
-Per paura di certi tipi di mosse, la Velocità sale.
+Some move types scare it and boost its Speed stat.
 156
 Riflette al mittente le mosse di stato.
-Riflette al mittente le mosse di stato.
+Reflects status moves.
 157
 Neutralizza le mosse di tipo Erba subite per aumentare l'Attacco.
-Neutralizza le mosse di tipo Erba subite per aumentare l'Attacco.
+Boosts the Attack stat when hit by a Grass-type move.
 158
 Dà priorità a mosse che alterano lo stato.
-Dà priorità a mosse che alterano lo stato.
+Gives priority to a status move.
 159
 Potenzia alcune mosse nelle tempeste di sabbia.
-Potenzia alcune mosse nelle tempeste di sabbia.
+Boosts certain moves' power in a sandstorm.
 160
 Se chi attacca mette a segno una mossa fisica, viene danneggiata.
-Se chi attacca mette a segno una mossa fisica, viene danneggiata.
+Inflicts damage to the attacker on contact.
 161
 Se il Pokémon è in difficoltà, ne cambia l'aspetto.
-Se il Pokémon è in difficoltà, ne cambia l'aspetto.
+Changes the Pokémon's shape when HP is half or less.
 162
 Aumenta la precisione di chi la possiede e quella degli alleati.
-Aumenta la precisione di chi la possiede e quella degli alleati.
+Boosts the accuracy of its allies and itself.
 163
 Neutralizza le abilità che bloccano le mosse.
-Neutralizza le abilità che bloccano le mosse.
+Moves can be used on the target regardless of its Abilities.
 164
 Neutralizza le abilità che bloccano le mosse.
-Neutralizza le abilità che bloccano le mosse.
+Moves can be used on the target regardless of its Abilities.
 165
 Le mosse di tipo Normale diventano di tipo Volante.
-Le mosse di tipo Normale diventano di tipo Volante.
+Normal-type moves become Flying-type moves.
 166
 Protegge sé e gli alleati da mosse che limitano la scelta di attacchi.
-Protegge sé e gli alleati da mosse che limitano la scelta di attacchi.
+Protects allies from attacks that limit their move choices.
 167
 Inverte gli effetti di tutte le aure.
-Inverte gli effetti di tutte le aure.
+The effects of ''Aura'' Abilities are reversed.
 168
 Protegge da alcune mosse a base di proiettili e bombe.
-Protegge da alcune mosse a base di proiettili e bombe.
+Protects the Pokémon from some ball and bomb moves.
 169
 Fa recuperare PS quando il Pokémon mangia una bacca.
-Fa recuperare PS quando il Pokémon mangia una bacca.
+Restores HP as well when the Pokémon eats a Berry.
 170
 L'Attacco aumenta quando un nemico fa calare le statistiche.
-L'Attacco aumenta quando un nemico fa calare le statistiche.
+Boosts the Sp. Atk stat when a stat is lowered.
 171
 Potenzia le mosse di tipo Buio di tutti i Pokémon.
-Potenzia le mosse di tipo Buio di tutti i Pokémon.
+Powers up each Pokémon's Dark-type moves.
 172
 Potenzia le mosse di tipo Folletto di tutti i Pokémon.
-Potenzia le mosse di tipo Folletto di tutti i Pokémon.
+Powers up each Pokémon's Fairy-type moves.
 173
 Evita il calo delle statistiche degli alleati di tipo Erba.
-Evita il calo delle statistiche degli alleati di tipo Erba.
+Prevents lowering of ally Grass-type Pokémon's stats.
 174
 Dimezza il danno degli attacchi fisici subiti.
-Dimezza il danno degli attacchi fisici subiti.
+Halves the damage from physical moves.
 175
 Dà priorità alle mosse di tipo Volante.
-Dà priorità alle mosse di tipo Volante.
+Gives priority to Flying-type moves.
 176
 Riduce la Velocità del Pokémon con cui entra in contatto.
-Riduce la Velocità del Pokémon con cui entra in contatto.
+Contact with the Pokémon lowers the attacker's Speed stat.
 177
 Aumenta la Difesa durante l'effetto di Campo Erboso.
-Aumenta la Difesa durante l'effetto di Campo Erboso.
+Boosts the Defense stat in Grassy Terrain.
 178
 Ruba lo strumento del Pokémon su cui è stata usata una mossa.
-Ruba lo strumento del Pokémon su cui è stata usata una mossa.
+The Pokémon steals the held item of a Pokémon it hits with a move.
 179
 Potenzia le mosse 'pulsar' e altre come Ondasana.
-Potenzia le mosse 'pulsar' e altre come Ondasana.
+Powers up aura and pulse moves.
 180
 Il Pokémon e il suo piccolo attaccano insieme. 
-Il Pokémon e il suo piccolo attaccano insieme. 
+Parent and child attack together.
 181
 Le mosse di tipo Normale diventano di tipo Folletto.
-Le mosse di tipo Normale diventano di tipo Folletto.
+Normal-type moves become Fairy-type moves.
 182
 Il tipo cambia in quello dell'attacco usato prima che sia eseguito.
-Il tipo cambia in quello dell'attacco usato prima che sia eseguito.
+Changes the Pokémon's type to the type of the move it's using.
 183
 Le mosse di tipo Normale diventano di tipo Ghiaccio.
-Le mosse di tipo Normale diventano di tipo Ghiaccio.
+Normal-type moves become Ice-type moves.
 184
 Permette ad Aegislash di cambiare forma.
-Permette ad Aegislash di cambiare forma.
+The Pokémon changes form depending on how it battles.
 185
 Potenzia le mosse basate sui morsi.
-Potenzia le mosse basate sui morsi.
+The Pokémon's strong jaw gives it tremendous biting power.
 186
 Impedisce che gli alleati dell'utilizzatore si addormentino.
-Impedisce che gli alleati dell'utilizzatore si addormentino.
+Prevents itself and ally Pokémon from falling asleep.
 187
 Cede il suo strumento a un suo alleato dopo l’uso
-Cede il suo strumento a un suo alleato dopo l’uso
+The Pokémon can pass an item to an ally.
 188
 Potenzia le mosse che causano un contatto fisico.
-Potenzia le mosse che causano un contatto fisico.
+Powers up moves that make direct contact.
 189
 Le mosse di tipo Normale diventano di tipo Suono.
-Le mosse di tipo Normale diventano di tipo Suono.
+Normal-type moves become Sound-type moves.
 190
 le mosse elettro hanno molte probabilità di paralizzare.
 le mosse elettro hanno molte probabilità di paralizzare.
 191
 Le mosse di tipo Normale diventano di tipo Drago.
-Le mosse di tipo Normale diventano di tipo Drago.
+Normal-type moves become Dragon-type moves.
 192
 Le mosse che modificano la battaglia durano più turni.
 Le mosse che modificano la battaglia durano più turni.
@@ -43353,7 +43367,7 @@ Il Pokémon sbalordisce il nemico e non gli permette di attaccarlo con mosse che
 Il Pokémon sbalordisce il nemico e non gli permette di attaccarlo con mosse che hanno priorità alta.
 205
 Il panno che ricopre il Pokémon lo protegge da un singolo attacco.
-Il panno che ricopre il Pokémon lo protegge da un singolo attacco.
+The shroud that covers the Pokémon can protect it from an attack.
 206
 Quando il Pokémon entra in campo, lo trasforma in un Campo Elettrico.
 Quando il Pokémon entra in campo, lo trasforma in un Campo Elettrico.
@@ -43365,25 +43379,25 @@ Dimezza il danno causato dagli attacchi diretti del nemico, ma raddoppia quelli 
 Dimezza il danno causato dagli attacchi diretti del nemico, ma raddoppia quelli subiti dalle mosse di tipo Fuoco.
 209
 Rende immuni alla diminuzione delle statistiche causata da abilità o mosse di altri Pokémon.
-Rende immuni alla diminuzione delle statistiche causata da abilità o mosse di altri Pokémon.
+Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.
 210
 Le mosse di tipo Normale diventano di tipo Elettro.
-Le mosse di tipo Normale diventano di tipo Elettro.
+Normal-type moves become Electric-type moves.
 211
 Quando il Pokémon entra in campo, lo trasforma in un Campo Erboso.
 Quando il Pokémon entra in campo, lo trasforma in un Campo Erboso.
 212
 Se il Pokémon viene mandato KO da un attacco, infligge a chi lo ho sferrato tanti danni quanti erano i suoi PS prima di ricevere il colpo.
-Se il Pokémon viene mandato KO da un attacco, infligge a chi lo ho sferrato tanti danni quanti erano i suoi PS prima di ricevere il colpo.
+Damages the attacker landing the finishing hit by the amount equal to its last HP.
 213
 Le mosse basate sul suono del Pokémon diventano di tipo Acqua.
-Le mosse basate sul suono del Pokémon diventano di tipo Acqua.
+All sound-based moves become Water-type moves.
 214
 Il Pokémon è in grado di usare tutte le sue mosse senza entrare in contatto diretto con il bersaglio.
-Il Pokémon è in grado di usare tutte le sue mosse senza entrare in contatto diretto con il bersaglio.
+The Pokémon uses its moves without making contact with the target.
 215
 Gli attacchi sferrati su un bersaglio avvelenato producono sempre brutti colpi.
-Gli attacchi sferrati su un bersaglio avvelenato producono sempre brutti colpi.
+The Pokémon's attacks become critical hits if the target is poisoned.
 216
 Quando il Pokémon entra in campo, lo trasforma in un Campo Nebbioso.
 Quando il Pokémon entra in campo, lo trasforma in un Campo Nebbioso.
@@ -43392,10 +43406,10 @@ Se i PS del Pokémon scendono a metà o meno, le cellule si raggruppano e gli pe
 Se i PS del Pokémon scendono a metà o meno, le cellule si raggruppano e gli permettono di assumere la Forma Perfetta.
 218
 Il Pokémon trasforma la propria abilità in quella di un alleato andato KO.
-Il Pokémon trasforma la propria abilità in quella di un alleato andato KO.
+The Pokémon copies the Ability of a defeated ally.
 219
 Riduce la potenza delle mosse superefficaci subite.
-Riduce la potenza delle mosse superefficaci subite.
+Reduces the power of supereffective attacks taken.
 220
 Quando il Pokémon entra in campo, lo trasforma in un Campo Psichico.
 Quando il Pokémon entra in campo, lo trasforma in un Campo Psichico.
@@ -43419,7 +43433,7 @@ Se i PS scendono a metà o meno, il guscio si rompe e il Pokémon si prepara all
 Se i PS scendono a metà o meno, il guscio si rompe e il Pokémon si prepara all'offensiva.
 227
 Raddoppia la Velocità sotto la grandine, non subendone i danni.
-Raddoppia la Velocità sotto la grandine, non subendone i danni.
+Boosts the Pokémon's Speed stat in a hailstorm.
 228
 Aumenta l'Attacco Speciale ogni volta che un Pokémon va KO.
 Aumenta l'Attacco Speciale ogni volta che un Pokémon va KO.
@@ -43428,61 +43442,61 @@ Raddoppia i danni inflitti a un bersaglio che è appena entrato in campo per sos
 Raddoppia i danni inflitti a un bersaglio che è appena entrato in campo per sostituire un altro Pokémon.
 230
 Se il Pokémon subisce un attacco, la sua Difesa aumenta.
-Se il Pokémon subisce un attacco, la sua Difesa aumenta.
+Boosts the Defense stat when hit by an attack.
 231
 Aumenta la potenza delle mosse di tipo Acciaio.
-Aumenta la potenza delle mosse di tipo Acciaio.
+Powers up Steel-type moves.
 232
 In presenza di un Campo Elettrico, la Velocità raddoppia.
-In presenza di un Campo Elettrico, la Velocità raddoppia.
+Doubles the Pokémon's Speed stat on Electric Terrain.
 233
 Se il Pokémon viene colpito da un attacco diretto, la Velocità di chi l'ha colpito diminuisce.
-Se il Pokémon viene colpito da un attacco diretto, la Velocità di chi l'ha colpito diminuisce.
+Contact with the Pokémon lowers the attacker's Speed stat.
 234
 Le mosse che ripristinano direttamente i PS del Pokémon acquistano priorità alta.
 Le mosse che ripristinano direttamente i PS del Pokémon acquistano priorità alta.
 235
 Riduce la potenza delle mosse di tipo Fuoco subite e rende immuni alle scottature.
-Riduce la potenza delle mosse di tipo Fuoco subite e rende immuni alle scottature.
+Lowers the power of Fire-type moves and prevents it from getting a burn.
 236
 Se il Pokémon subisce mosse di tipo Acqua, la sua Difesa aumenta di molto.
-Se il Pokémon subisce mosse di tipo Acqua, la sua Difesa aumenta di molto.
+Boosts the Pokémon's Defense stat sharply when hit by a Water-type move.
 237
 Se i PS scendono a metà o meno, il Pokémon si fa prendere dalla paura e abbandona la lotta in tutta fretta.
 Se i PS scendono a metà o meno, il Pokémon si fa prendere dalla paura e abbandona la lotta in tutta fretta.
 238
 Se in difficoltà, il Pokémon muta il tipo in Elettro.
-Se in difficoltà, il Pokémon muta il tipo in Elettro.
+The Pokémon becomes Electric-type when its HP is halved.
 239
 Se ha molti PS, il Pokémon chiama a raccolta i suoi simili.
-Se ha molti PS, il Pokémon chiama a raccolta i suoi simili.
+When it has a lot of HP, the Pokémon calls out its fellows.
 240
 Potenzia le mosse dello stesso tipo del Pokémon.
-Potenzia le mosse dello stesso tipo del Pokémon.
+Powers up moves of the same type as the Pokémon.
 241
 Potenzia le mosse dello stesso tipo del Pokémon.
-Potenzia le mosse dello stesso tipo del Pokémon.
+Powers up moves of the same type as the Pokémon.
 242
 Potenzia le mosse dello stesso tipo del Pokémon.
-Potenzia le mosse dello stesso tipo del Pokémon.
+Powers up moves of the same type as the Pokémon.
 243
 Raddoppia i guadagni a fine lotta.
-Raddoppia i guadagni a fine lotta.
+The Pokémon doubles any prize money if joins a battle.
 244
 Regola le difese in base alla potenza del nemico.
-Regola le difese in base alla potenza del nemico.
+Adjusts defense based on an opposing Pokémon's attacks.
 245
 Un'aria rarefatta e gelida fa consumare più PP al nemico.
-Un'aria rarefatta e gelida fa consumare più PP al nemico.
+A freezing aura raises opposing Pokémon's PP usage.
 246
 Ridà PS se si subisce una mossa di tipo Suono.
-Ridà PS se si subisce una mossa di tipo Suono.
+Restores HP if hit by a Sound-type move.
 247
 Le mosse di tipo Normale diventano di tipo Drago.
-Le mosse di tipo Normale diventano di tipo Drago.
+Normal-type moves become Dragon-type moves.
 248
 Le mosse di tipo Normale diventano di tipo Suono.
-Le mosse di tipo Normale diventano di tipo Suono.
+Normal-type moves become Sound-type moves.
 [11]
 0
 NORMAL
@@ -55975,11 +55989,11 @@ Abbandona
 Debug (A)
 Debug (A)
 Can't use this while you're taking the Hero trial.
-Can't use this while you're taking the Hero trial.
+Can't use this while you're taking the trial of Heroes Path.
 Can't use the PokeWES right now.
-Can't use the PokeWES right now.
+Can't use the PokéWES right now.
 Are you sure you wanna leave the Hero trial?
-Are you sure you wanna leave the Hero trial?
+Are you sure you want to leave the trial of Heroes Path?
 New Achivement!
 New Achievement!
 Completed!
