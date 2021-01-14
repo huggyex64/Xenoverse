@@ -835,6 +835,12 @@ end
     nature=self.nature
     stats=[]
     pvalues=[100,100,100,100,100]
+    for i in 0...6
+      if ev[i]<0
+        ev[i]=252
+      end
+    end
+
     nd5=(nature/5).floor
     nm5=(nature%5).floor
     if nd5!=nm5

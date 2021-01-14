@@ -294,7 +294,7 @@ class PokemonOptionScene
 		@sprites["banner"].bitmap = pbBitmap(@path + "topbar").clone
 		@sprites["banner"].bitmap.font = Font.new
 		@sprites["banner"].bitmap.font.size = 28
-		@sprites["banner"].bitmap.font.name = "Kimberley Bl"
+		@sprites["banner"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 		
 		pbDrawTextPositions(@sprites["banner"].bitmap,[[_INTL("Settings"),71,13,0,Color.new(248,248,248)]])
 		

@@ -1,5 +1,5 @@
 BAGITEMFONT = Font.new
-BAGITEMFONT.name = ["Kimberley Bl","Verdana"]
+BAGITEMFONT.name = [$MKXP ? "Kimberley" : "Kimberley Bl","Verdana"]
 BAGITEMFONT.size = 18
 class NewBagScreen
 	

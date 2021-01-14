@@ -238,7 +238,7 @@ class MoveRelearnerScene
 				@moves["m#{i}"]=EAMSprite.new(@viewport2)
 				@moves["m#{i}"].bitmap = Bitmap.new(232,25)
 				@moves["m#{i}"].bitmap.blt(0,0,bmp,Rect.new(0,md.type*25,232,25))
-				@moves["m#{i}"].bitmap.font.name = "Kimberley Bl"
+				@moves["m#{i}"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 				@moves["m#{i}"].bitmap.font.size = 18
 				dark = getDarkerColor(@moves["m#{i}"].bitmap.get_pixel(50,13),0.35)
 				pbDrawTextPositions(@moves["m#{i}"].bitmap,[[PBMoves.getName(i),35,3,0,Color.new(248,248,248),dark,true]]) #outlined

@@ -21,7 +21,7 @@ class PokemonSaveScene
     @sprites["savebg"]=EAMSprite.new(@viewport)
     @sprites["savebg"].bitmap = pbBitmap("Graphics/Pictures/saveui").clone
     @sprites["savebg"].bitmap.font = Font.new
-    @sprites["savebg"].bitmap.font.name = "Kimberley Bl"
+    @sprites["savebg"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
     @sprites["savebg"].bitmap.font.size = 24
     @sprites["savebg"].x=4
     @sprites["savebg"].y=4

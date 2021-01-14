@@ -50,7 +50,7 @@ class SceltaStarter
     #@sprites["shulongDet"].setBitmap(@folder+"shulongDet")
 		@sprites["shulongDet"].bitmap = Bitmap.new(512,384)
     @sprites["shulongDet"].y = 0
-		@sprites["shulongDet"].bitmap.font.name = "Kimberley Bl"
+		@sprites["shulongDet"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 		@sprites["shulongDet"].bitmap.font.size = 28
     @sprites["shulongDet"].visible = false
 		pbDrawTextPositions(@sprites["shulongDet"].bitmap,[[PBSpecies.getName(@pkmn3),256,294,2,Color.new(248,248,248)]])
@@ -79,7 +79,7 @@ class SceltaStarter
 		@sprites["shyleonDet"].bitmap = Bitmap.new(512,384)
     #@sprites["shyleonDet"].setBitmap(@folder+"shyleonDet")
     @sprites["shyleonDet"].y = 0
-    @sprites["shyleonDet"].bitmap.font.name = "Kimberley Bl"
+    @sprites["shyleonDet"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 		@sprites["shyleonDet"].bitmap.font.size = 28
     @sprites["shyleonDet"].visible = false
 		pbDrawTextPositions(@sprites["shyleonDet"].bitmap,[[PBSpecies.getName(@pkmn1),256,294,2,Color.new(248,248,248)]])
@@ -108,7 +108,7 @@ class SceltaStarter
 		@sprites["trishoutDet"].bitmap = Bitmap.new(512,384)
     #@sprites["trishoutDet"].setBitmap(@folder+"trishoutDet")
     @sprites["trishoutDet"].y = 0
-    @sprites["trishoutDet"].bitmap.font.name = "Kimberley Bl"
+    @sprites["trishoutDet"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 		@sprites["trishoutDet"].bitmap.font.size = 28
     @sprites["trishoutDet"].visible = false
 		pbDrawTextPositions(@sprites["trishoutDet"].bitmap,[[PBSpecies.getName(@pkmn2),256,294,2,Color.new(248,248,248)]])
@@ -139,7 +139,7 @@ class SceltaStarter
     @sprites["si"].x = 467
     @sprites["si"].y = 226
     @sprites["si"].opacity = 0
-		@sprites["si"].bitmap.font.name = "Kimberley Bl"
+		@sprites["si"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 		@sprites["si"].bitmap.font.size = 24
 		pbDrawTextPositions(@sprites["si"].bitmap,[[_INTL("Sì"),40,6,2,Color.new(119,119,119)]])
     
@@ -151,7 +151,7 @@ class SceltaStarter
     @sprites["siSel"].x = 467
     @sprites["siSel"].y = 226
     @sprites["siSel"].visible = false
-		@sprites["siSel"].bitmap.font.name = "Kimberley Bl"
+		@sprites["siSel"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 		@sprites["siSel"].bitmap.font.size = 24
     pbDrawTextPositions(@sprites["siSel"].bitmap,[[_INTL("Sì"),40,6,2,Color.new(60,59,54)]])
 		
@@ -163,7 +163,7 @@ class SceltaStarter
     @sprites["no"].x = 467
     @sprites["no"].y = 264
     @sprites["no"].opacity = 0
-		@sprites["no"].bitmap.font.name = "Kimberley Bl"
+		@sprites["no"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 		@sprites["no"].bitmap.font.size = 24
     pbDrawTextPositions(@sprites["no"].bitmap,[[_INTL("No"),40,6,2,Color.new(119,119,119)]])
 		
@@ -175,7 +175,7 @@ class SceltaStarter
     @sprites["noSel"].x = 467
     @sprites["noSel"].y = 264
     @sprites["noSel"].visible = false
-		@sprites["noSel"].bitmap.font.name = "Kimberley Bl"
+		@sprites["noSel"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 		@sprites["noSel"].bitmap.font.size = 24
 		pbDrawTextPositions(@sprites["noSel"].bitmap,[[_INTL("No"),40,6	,2,Color.new(60,59,54)]])
     

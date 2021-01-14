@@ -452,7 +452,7 @@ def getKnownFolder(guid)
     ret=shGetKnownFolderPath.call(packedGuid,0,0,path)
     path=path.unpack("V")[0]
     ret=getUnicodeString(path)
-    coTaskMemFree.call(path)
+    #coTaskMemFree.call(path)
     return ret
   end
   return ""
@@ -1473,6 +1473,15 @@ def pbDisposeSprite(sprites,id)
   sprites[id]=nil
 end
 
+if $MKXP
+  class Bitmap
+    alias std_draw_text draw_text
+    def draw_text(x, y, width, height, str, align=0)
+      std_draw_text(x,y,width, height-4,str,align)
+    end
+  end
+end
+
 # Draws text on a bitmap. _textpos_ is an array
 # of text commands. Each text command is an array
 # that contains the following:
@@ -1494,9 +1503,9 @@ def pbDrawTextPositions(bitmap,textpos)
       x-=(textsize.width/2)
     end
     if i[6]==true || i[6]==1 # outline text
-      pbDrawOutlineText(bitmap,x,y,textsize.width,textsize.height - ($MKXP ? 3 : 0),i[0],i[4],i[5])
+      pbDrawOutlineText(bitmap,x,y,textsize.width,textsize.height,i[0],i[4],i[5])
     else
-      pbDrawShadowText(bitmap,x,y,textsize.width,textsize.height - ($MKXP ? 3 : 0),i[0],i[4],i[5])
+      pbDrawShadowText(bitmap,x,y,textsize.width,textsize.height,i[0],i[4],i[5])
     end
   end
 end

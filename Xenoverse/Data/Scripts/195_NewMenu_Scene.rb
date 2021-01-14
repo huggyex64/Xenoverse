@@ -184,7 +184,7 @@ class NewMenu
 	@sprites["bg"] = NewMenu_Bg.new
 	@sprites["selector"] = NewMenu_Selector.new(self)
 	@sprites["text"] = NewMenu_Text.new
-	@sprites["text"].bitmap.font.name = "Kimberley Bl"
+	@sprites["text"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 	@sprites["text"].updateText(@items[@index].displayedName) if @items[@index] != nil
 	
 	@sprites["mg"] = EAMSprite.new(viewport)

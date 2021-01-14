@@ -363,7 +363,7 @@ class PokeBattle_Scene
 			maxframes=frames2
 		end
 		maxframes = 17 if maxframes < 17
-	else
+	#else
 		@sprites["battlebox1"].x=-264-10
 		@sprites["battlebox1"].y=24
 		@sprites["battlebox1"].appear

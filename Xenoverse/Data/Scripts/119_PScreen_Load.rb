@@ -43,7 +43,7 @@ class PokemonLoadPanel < SpriteWrapper
     if !self.bitmap || self.bitmap.disposed?
       self.bitmap=BitmapWrapper.new(@bgbitmap.width,235)
       #pbSetSystemFont(self.bitmap)
-			self.bitmap.font.name = "Kimberley Bl"
+			self.bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 			self.bitmap.font.size = 24
     end
     if @refreshBitmap

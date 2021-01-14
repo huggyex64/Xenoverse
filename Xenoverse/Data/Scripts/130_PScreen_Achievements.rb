@@ -90,7 +90,7 @@ class AchievementsScreen
     @sprites = {}
     @sprites["bg"] = IconSprite.new(0, 0, @viewport)
     @sprites["bg"].setBitmap("Graphics/Pictures/Achievements/Screen/bg")
-    @sprites["bg"].bitmap.font.name = "Kimberley Bl"
+    @sprites["bg"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 		@sprites["bg"].bitmap.font.size = 32
 		pbDrawTextPositions(@sprites["bg"].bitmap,[[_INTL("Achievements"),256,0,2,Color.new(248,248,248),Color.new(24,24,24),true]])
 		

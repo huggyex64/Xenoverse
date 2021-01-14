@@ -344,11 +344,11 @@ def pbJustRaiseEffortValues(pokemon,ev,evgain)
   end
   if totalev+evgain>510
     # Bug Fix: must use "-=" instead of "="
-    evgain-=totalev+evgain-510
+    evgain=510-totalev#totalev+evgain-510
   end
   if pokemon.ev[ev]+evgain>255
     # Bug Fix: must use "-=" instead of "="
-    evgain-=pokemon.ev[ev]+evgain-255
+    evgain=255-pokemon.ev[ev]#pokemon.ev[ev]+evgain-255
   end
   if evgain>0
     pokemon.ev[ev]+=evgain

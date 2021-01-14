@@ -195,7 +195,7 @@ class Scene_Map
         Kernel.pbMessage(_INTL("Non puoi usare il menù quando sei in un Nido Pokémon."))
       end
     end
-    if Input.trigger?(0x52) && $game_switches[943] #reset palestra ritmo
+    if Input.trigger?($MKXP ? [0x52] : Input::K) && $game_switches[943] #reset palestra ritmo
       pbCommonEvent(10)
     end
     #PokeWES shortcuts

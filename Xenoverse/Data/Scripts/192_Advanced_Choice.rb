@@ -43,9 +43,9 @@ class Fullbox_Option
 				text.gsub!(com[0],"")
 			elsif com[1] == "@"
 				case com[2]
-				when "pl":
+				when "pl"
 					text.gsub!(com[0],($Trainer ? $Trainer.name : ""))
-				when "o":
+				when "o"
 					text.gsub!(com[0],($Trainer.isFemale? ? "a" : "o"))
 				else
 					text.gsub!(com[0],$game_variables[com[3].to_i]) if com[2].is_i?

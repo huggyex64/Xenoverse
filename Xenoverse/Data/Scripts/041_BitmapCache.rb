@@ -1,6 +1,19 @@
 class Hangup < Exception; end
 
 
+if $MKXP
+  class Thread 
+    attr_accessor(:critical)
+    def self.critical
+      @critical = false if @critical == nil
+      return @critical
+    end
+
+    def self.critical=(value)
+      @critical = value
+    end
+  end
+end
 
 def strsplit(str,re)
   ret=[]

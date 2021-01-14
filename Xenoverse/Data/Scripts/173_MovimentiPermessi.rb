@@ -239,23 +239,23 @@ class Game_Player < Game_Character
   end
 end
 
-=begin
+if !$MKXP
 # Creating Input K.
-module Input  
-  K = 42
-  class << self
-    alias old_self_button_to_key_shiney :buttonToKey
-  end
-  
-  def self.buttonToKey(button)
-    case button    
-    when Input::K
-      return [0x4B] # K
-    end 
-    self.old_self_button_to_key_shiney(button)
+  module Input  
+    K = 42
+    class << self
+      alias old_self_button_to_key_shiney :buttonToKey
+    end
+    
+    def self.buttonToKey(button)
+      case button    
+      when Input::K
+        return [0x4B] # K
+      end 
+      self.old_self_button_to_key_shiney(button)
+    end
   end
 end
-=end
 # Updating Scene_Map
 class Scene_Map 
   def main

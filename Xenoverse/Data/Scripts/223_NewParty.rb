@@ -375,8 +375,8 @@ class PokeSelectionSprite < SpriteWrapper
 		shadow=Color.new(40,40,40)
 		darkblue = Color.new(18,54,83)
 		#pbSetSystemFont(self.bitmap)
-		pbSetFont(self.bitmap,"Kimberley Bl",16)
-		pbSetFont(@overlay.bitmap,"Kimberley Bl",16)
+		pbSetFont(self.bitmap,$MKXP ? "Kimberley" : "Kimberley Bl",16)
+		pbSetFont(@overlay.bitmap,$MKXP ? "Kimberley" : "Kimberley Bl",16)
 		pokename=@pokemon.name
 		textpos=[[pokename,@pokenameX,@pokenameY,0,darkblue,nil]]
 		
@@ -419,14 +419,14 @@ class PokeSelectionSprite < SpriteWrapper
 		end
 		#self.bitmap.blt(@hpbarX,@hpbarY,@healthbar.bitmap,Rect.new(0,0,(self.hp*@healthbar.width/@pokemon.totalhp),@healthbar.height)) if @pokemon
 		pbDrawTextPositions(@overlay.bitmap,textpos)
-		pbSetFont(self.bitmap,"Kimberley Bl",18)
+		pbSetFont(self.bitmap,$MKXP ? "Kimberley" : "Kimberley Bl",18)
 		#pbDrawTextPositions(@overlay.bitmap,textpos2) if textpos2
 		if !@pokemon.isEgg?
 			b = Bitmap.new(500,20)
 			b2 = Bitmap.new(500,20)
-			pbSetFont(self.bitmap,"Kimberley Bl",7)
-			pbSetFont(b,"Kimberley Bl",14)
-			pbSetFont(b2,"Kimberley Bl",14)
+			pbSetFont(self.bitmap,$MKXP ? "Kimberley" : "Kimberley Bl",7)
+			pbSetFont(b,$MKXP ? "Kimberley" : "Kimberley Bl",14)
+			pbSetFont(b2,$MKXP ? "Kimberley" : "Kimberley Bl",14)
 			#@levelX,@levelY
 			tothp=@pokemon.totalhp
 			textpos2=[[_ISPRINTF("{1: 3d}/{2: 3d}",@pokemon.hp,tothp),100,0,2,base]]
@@ -443,7 +443,7 @@ class PokeSelectionSprite < SpriteWrapper
 			#pbSetSystemFont(@overlay.bitmap)
 			#@overlay.bitmap
 			b = Bitmap.new(500,20)
-			pbSetFont(b,"Kimberley Bl",14)
+			pbSetFont(b,$MKXP ? "Kimberley" : "Kimberley Bl",14)
 			#@annotY
 			annotation=[[@text,0,0,0,base]]
 			pbDrawTextPositions(b,annotation)

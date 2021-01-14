@@ -19,7 +19,7 @@
 #  interfaces.
 #===============================================================================
 #UI SETTINGS
-FONT_NAME = "Kimberley Bl"
+FONT_NAME = $MKXP ? "Kimberley" : "Kimberley Bl"
 
 module PokeBattle_SceneConstants
   if EBUISTYLE > 0
@@ -1892,10 +1892,10 @@ class NewBattleBag
     bitmap.blt(10,10,pbBitmap("#{checkEBFolderPath}/battleItemConfirm"),Rect.new(11,9,442,140))
     bitmap.blt(26,30,pbBitmap(sprintf("Graphics/Icons/item%03d",@ret)),Rect.new(0,0,48,48))
     drawTextEx(bitmap,86,14,364,3,pbGetMessage(MessageTypes::ItemDescriptions,@ret),Color.new(248,248,248),@shadowColor)
-    bitmap.font.name = "Kimberley Bl"
+    bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
     bitmap.font.size = 28
     pbDrawTextPositions(bitmap,[[_INTL("USE"),210,106,0,Color.new(248,248,248),Color.new(61,71,103),true]])
-    @sprites["cancel"].bitmap.font.name = "Kimberley Bl"
+    @sprites["cancel"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
     @sprites["cancel"].bitmap.font.size = 28
     pbDrawTextPositions(@sprites["cancel"].bitmap,[[_INTL("DON'T USE"),700,22,2,Color.new(248,248,248),Color.new(61,71,103),true]])
     @sprites["sel"].bitmap=pbBitmap("#{checkEBFolderPath}/battleItemConfirm")

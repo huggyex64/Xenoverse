@@ -22,6 +22,14 @@ def pbBattleAltPokemonForm(pkmn,form=0,variable=nil,canescape=true,canlose=false
   pbWildPokemonBattle(pkmn,variable,canescape,canlose,skipanim) 
 end
 
+if $MKXP
+  #class Font
+  #  def size=(value)
+  #      @size=value-2
+  #  end
+  #end
+end
+
 #===============================================================================
 # Start a single wild Pokemon battle
 #===============================================================================
@@ -180,7 +188,7 @@ class LocationWindow
     @sprites["overlay"]=Sprite.new
     @sprites["overlay"].bitmap=Bitmap.new(Graphics.width,Graphics.height)
     @sprites["overlay"].z=99999
-    @sprites["overlay"].bitmap.font.name = "Kimberley Bl"
+    @sprites["overlay"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
     #Dimensione standard 20, oltre i 
     fontsize = 20 - ($game_map.name.length>13 ? ($game_map.name.length-13)*0.5 : 0)
     @sprites["overlay"].bitmap.font.size = fontsize

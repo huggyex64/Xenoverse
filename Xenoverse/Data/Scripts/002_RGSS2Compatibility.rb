@@ -65,6 +65,7 @@ end
 if $TEST
   $DEBUG=true
 end
+#$DEBUG = true
 $scene=nil
 if Font.respond_to?(:default_shadow)
   Font.default_shadow=false

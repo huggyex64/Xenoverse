@@ -100,10 +100,10 @@ class PokeWES
 		@sprites["overlay3"].z=20
 		@overlay3=@sprites["overlay3"].bitmap
 		@overlay3.clear
-		pbSetFont(@overlay,"Kimberley Bl",40)
-		pbSetFont(@overlay1,"Kimberley Bl",40)
-		pbSetFont(@overlay2,"Kimberley Bl",40)
-		pbSetFont(@overlay3,"Kimberley Bl",40)
+		pbSetFont(@overlay,$MKXP ? "Kimberley" : "Kimberley Bl",40)
+		pbSetFont(@overlay1,$MKXP ? "Kimberley" : "Kimberley Bl",40)
+		pbSetFont(@overlay2,$MKXP ? "Kimberley" : "Kimberley Bl",40)
+		pbSetFont(@overlay3,$MKXP ? "Kimberley" : "Kimberley Bl",40)
 		
 		if $game_switches[RETROMONSWITCH]
 			@sprites["rd"] = BitmapSprite.new(300,200,@viewport)
@@ -743,11 +743,11 @@ class MNScene
 		#pbDrawTextPositions(@overlay3,@text3)
 		#pbDrawTextPositions(@overlay4,@text4)
 		
-		pbSetFont(@overlay,"Kimberley Bl",25)
-		pbSetFont(@overlay1,"Kimberley Bl",25)
-		pbSetFont(@overlay2,"Kimberley Bl",25)
-		pbSetFont(@overlay3,"Kimberley Bl",25)
-		pbSetFont(@overlay4,"Kimberley Bl",25)
+		pbSetFont(@overlay,$MKXP ? "Kimberley" : "Kimberley Bl",25)
+		pbSetFont(@overlay1,$MKXP ? "Kimberley" : "Kimberley Bl",25)
+		pbSetFont(@overlay2,$MKXP ? "Kimberley" : "Kimberley Bl",25)
+		pbSetFont(@overlay3,$MKXP ? "Kimberley" : "Kimberley Bl",25)
+		pbSetFont(@overlay4,$MKXP ? "Kimberley" : "Kimberley Bl",25)
 		
 		pbDrawTextPositions(@overlay,@name)
 		pbDrawTextPositions(@overlay1,@name1)

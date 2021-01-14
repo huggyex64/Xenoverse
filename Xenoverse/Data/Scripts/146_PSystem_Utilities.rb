@@ -196,7 +196,7 @@ def  pbIsJsonString(str)
 	return false if (!str || str[ /^[\s]*$/ ])
 	d=/(?:^|:|,)(?: ?\[)+/
 	charEscapes=/\\[\"\\\/nrtubf]/ #"
-	stringLiterals=/"[^"\\\n\r\x00-\x1f\x7f-\x9f]*"/ #"
+	stringLiterals=Regexp.new('[^"\\\n\r\x00-\x1f\x7f-\x9f]*"', nil, 'n') #/"[^"\\\n\r\x00-\x1f\x7f-\x9f]*"/ #"
 	whiteSpace=/[\s]+/
 	str=str.gsub(charEscapes,"@").gsub(stringLiterals,"true").gsub(whiteSpace," ")
 	# prevent cases like "truetrue" or "true true" or "true[true]" or "5-2" or "5true" 

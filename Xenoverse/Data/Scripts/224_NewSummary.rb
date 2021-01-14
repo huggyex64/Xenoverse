@@ -1,5 +1,5 @@
 SUMMARYFONT = Font.new
-SUMMARYFONT.name = ["Kimberley Bl","Verdana"]
+SUMMARYFONT.name = [$MKXP ? "Kimberley" : "Kimberley Bl","Verdana"]
 SUMMARYFONT.size = 18
 
 SUMMARYITEMFONT = Font.new
@@ -184,7 +184,7 @@ class PokemonSummaryScene
 			@pages["move4"].bitmap.blt(0,0,movesbmp,Rect.new(0,mtl.type*25,232,25))
 			@pages["move4"].x = 270
 			@pages["move4"].y = 80-16 + 26*4
-			@pages["move4"].bitmap.font.name = "Kimberley Bl"
+			@pages["move4"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 			@pages["move4"].bitmap.font.size = 18
 			dark = getDarkerColor(@pages["move4"].bitmap.get_pixel(50,13),0.35)
 			textpos = []
@@ -341,7 +341,15 @@ class PokemonSummaryScene
 		textpos.push([_INTL("Sp.Def"),260,197,0,Color.new(248,248,248)])
 		textpos.push([_INTL("Speed"),260,222,0,Color.new(248,248,248)])
 		pbDrawTextPositions(@pages["overlay"].bitmap,textpos)
-		
+    
+    for ev in 0...6
+      if pokemon.ev[ev]<0
+        total = 0
+        pokemon.ev {|e| total+=e}
+        pokemon.ev[ev]=252
+      end
+    end
+
 		#values
 		textpos=[]
 		textpos.push([sprintf("%3d/%3d",pokemon.hp,pokemon.totalhp),340,80,0,Color.new(48,48,48)])
@@ -410,7 +418,7 @@ class PokemonSummaryScene
 				@pages["move#{numMoves}"].bitmap.blt(0,0,movesbmp,Rect.new(0,i.type*25,232,25))
 				@pages["move#{numMoves}"].x = 270
 				@pages["move#{numMoves}"].y = 80 + 26*pokemon.moves.index(i)
-				@pages["move#{numMoves}"].bitmap.font.name = "Kimberley Bl"
+				@pages["move#{numMoves}"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 				@pages["move#{numMoves}"].bitmap.font.size = 18
 				dark = getDarkerColor(@pages["move#{numMoves}"].bitmap.get_pixel(50,13),0.35)
 				textpos = []

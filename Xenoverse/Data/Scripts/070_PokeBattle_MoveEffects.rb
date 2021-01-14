@@ -302,7 +302,7 @@ class PokeBattle_Move_009 < PokeBattle_Move
 	def pbAdditionalEffect(attacker,opponent)
 		hadeffect=false
 		if @battle.pbRandom(10)==0
-			break if !opponent.pbCanParalyze?(false)
+			return false if !opponent.pbCanParalyze?(false)
 			opponent.pbParalyze(attacker)
 			@battle.pbDisplay(_INTL("{1} was paralyzed!  It may be unable to move!",opponent.pbThis))
 			hadeffect=true
@@ -350,7 +350,7 @@ class PokeBattle_Move_00B < PokeBattle_Move
 	def pbAdditionalEffect(attacker,opponent)
 		hadeffect=false
 		if @battle.pbRandom(10)==0
-			break if !opponent.pbCanBurn?(false)
+			return false if !opponent.pbCanBurn?(false)
 			opponent.pbBurn(attacker)
 			@battle.pbDisplay(_INTL("{1} was burned!",opponent.pbThis))
 			hadeffect=true

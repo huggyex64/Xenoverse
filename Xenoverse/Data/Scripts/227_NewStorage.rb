@@ -1,5 +1,5 @@
 BOX_TOPBARFONT = Font.new
-BOX_TOPBARFONT.name = ["Kimberley Bl","Verdana"]
+BOX_TOPBARFONT.name = [$MKXP ? "Kimberley" : "Kimberley Bl","Verdana"]
 BOX_TOPBARFONT.size = 24
 
 #Lower bar font
@@ -536,7 +536,7 @@ class NewPokemonStorage
 		@s["bar"].opacity = 0
 		
 		@s["bar"].bitmap.font = Font.new
-		@s["bar"].bitmap.font.name = "Kimberley Bl"
+		@s["bar"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 		@s["bar"].bitmap.font.size = 18
 		
 		pbDrawTextPositions(@s["bar"].bitmap,[[pkmn.name,10,10,0,Color.new(248,248,248),Color.new(124,124,124),true],
