@@ -185,7 +185,8 @@ end
 
 module GifLibrary
   @@loadlib=Win32API.new("Kernel32.dll","LoadLibrary",'p','')
-  if safeExists?("gif.dll")
+
+  if safeExists?("gif.dll") && !$MKXP
     PngDll=@@loadlib.call("gif.dll")
     GifToPngFiles=Win32API.new("gif.dll","GifToPngFiles",'pp','l')
     GifToPngFilesInMemory=Win32API.new("gif.dll","GifToPngFilesInMemory",'plp','l')
@@ -1493,9 +1494,9 @@ def pbDrawTextPositions(bitmap,textpos)
       x-=(textsize.width/2)
     end
     if i[6]==true || i[6]==1 # outline text
-      pbDrawOutlineText(bitmap,x,y,textsize.width,textsize.height,i[0],i[4],i[5])
+      pbDrawOutlineText(bitmap,x,y,textsize.width,textsize.height - ($MKXP ? 3 : 0),i[0],i[4],i[5])
     else
-      pbDrawShadowText(bitmap,x,y,textsize.width,textsize.height,i[0],i[4],i[5])
+      pbDrawShadowText(bitmap,x,y,textsize.width,textsize.height - ($MKXP ? 3 : 0),i[0],i[4],i[5])
     end
   end
 end

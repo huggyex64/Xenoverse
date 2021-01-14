@@ -930,15 +930,15 @@ class AnimatedBitmapWrapper
       # 2 - medium speed
       # 3 - slow speed
     begin
-    bmp = pbBitmap(file)#BitmapCache.load_bitmap(file)
+    #bmp = pbBitmap(file)#BitmapCache.load_bitmap(file)
 		ensure
     #bmp = Bitmap.new(file)
-    @bitmapFile=Bitmap.new(bmp.width,bmp.height)
+    @bitmapFile=pbBitmap(file)#Bitmap.new(bmp.width,bmp.height)
 		end
-    @bitmapFile.blt(0,0,bmp,Rect.new(0,0,bmp.width,bmp.height))
+    #@bitmapFile.blt(0,0,bmp,Rect.new(0,0,bmp.width,bmp.height))
     # initializes full Pokemon bitmap
-    @bitmap=Bitmap.new(@bitmapFile.width,@bitmapFile.height)
-    @bitmap.blt(0,0,@bitmapFile,Rect.new(0,0,@bitmapFile.width,@bitmapFile.height))
+    @bitmap=pbBitmap(file)#Bitmap.new(@bitmapFile.width,@bitmapFile.height)
+    #@bitmap.blt(0,0,@bitmapFile,Rect.new(0,0,@bitmapFile.width,@bitmapFile.height))
     @width=@bitmapFile.height*@scale
     @height=@bitmap.height*@scale
 

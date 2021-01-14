@@ -239,6 +239,7 @@ class Game_Player < Game_Character
   end
 end
 
+=begin
 # Creating Input K.
 module Input  
   K = 42
@@ -254,7 +255,7 @@ module Input
     self.old_self_button_to_key_shiney(button)
   end
 end
-
+=end
 # Updating Scene_Map
 class Scene_Map 
   def main
@@ -273,7 +274,7 @@ class Scene_Map
       Graphics.update
       Input.update
       update
-      if Input.trigger?(Input::K) && $DEBUG
+      if Input.trigger?($MKXP ? [0x4B] : Input::K) && $DEBUG
         if $passa_sprite
           dispose_Debug_Passability
         else
