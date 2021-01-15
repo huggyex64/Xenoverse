@@ -26877,22 +26877,22 @@ Seme
 Seed
 4
 Lucertola
-Lucertola
+Lizard
 5
 Fiamma
-Fiamma
+Flame
 6
 Fiamma
-Fiamma
+Flame
 7
 Tartaghina
-Tartaghina
+Tiny Turtle
 8
 Tartaruga
-Tartaruga
+Turtle
 9
 Crostaceo
-Crostaceo
+Shellfish
 10
 Baco
 Baco
@@ -26904,13 +26904,13 @@ Farfalla
 Farfalla
 13
 Millepiedi
-Millepiedi
+Hairy Bug
 14
 Bozzolo
-Bozzolo
+Cocoon
 15
 Velenape
-Velenape
+Poison Bee
 16
 Uccellino
 Uccellino
@@ -26922,10 +26922,10 @@ Uccello
 Uccello
 19
 Topo
-Topo
+Mouse
 20
 Topo
-Topo
+Mouse
 21
 Uccellino
 Uccellino
@@ -26934,22 +26934,22 @@ Becco
 Becco
 23
 Serpente
-Serpente
+Snake
 24
 Cobra
 Cobra
 25
 Topo
-Topo
+Mouse
 26
 Topo
-Topo
+Mouse
 27
 Topo
-Topo
+Mouse
 28
 Topo
-Topo
+Mouse
 29
 Velenago
 Velenago
@@ -26976,31 +26976,31 @@ Fata
 Fata
 37
 Volpe
-Volpe
+Fox
 38
 Volpe
-Volpe
+Fox
 39
 Pallone
-Pallone
+Balloon
 40
 Pallone
-Pallone
+Balloon
 41
 Pipistrello
-Pipistrello
+Bat
 42
 Pipistrello
-Pipistrello
+Bat
 43
 Malerba
-Malerba
+Weed
 44
 Malerba
-Malerba
+Weed
 45
 Fiore
-Fiore
+Flower
 46
 Fungo
 Fungo
@@ -27015,16 +27015,16 @@ Velentarma
 Velentarma
 50
 Talpa
-Talpa
+Mole
 51
 Talpa
-Talpa
+Mole
 52
 Graffimiao
-Graffimiao
+Scratch Cat
 53
 Nobilgatto
-Nobilgatto
+Classy Cat
 54
 Papero
 Papero
@@ -27054,13 +27054,13 @@ Girino
 Girino
 63
 Psico
-Psico
+Psi
 64
 Psico
-Psico
+Psi
 65
 Psico
-Psico
+Psi
 66
 Megaforza
 Megaforza
@@ -27087,19 +27087,19 @@ Medusa
 Medusa
 74
 Roccia
-Roccia
+Rock
 75
 Roccia
-Roccia
+Rock
 76
 Megatone
-Megatone
+Megaton
 77
 Cavalfuoco
-Cavalfuoco
+Fire Horse
 78
 Cavalfuoco
-Cavalfuoco
+Fire Horse
 79
 Ronfone
 Ronfone
@@ -27108,10 +27108,10 @@ Paguro
 Paguro
 81
 Calamita
-Calamita
+Magnet
 82
 Calamita
-Calamita
+Magnet
 83
 Selvanatra
 Selvanatra
@@ -27123,16 +27123,16 @@ Triuccello
 Triuccello
 86
 Otaria
-Otaria
+Sea Lion
 87
 Otaria
-Otaria
+Sea Lion
 88
 Melma
-Melma
+Sludge
 89
 Melma
-Melma
+Sludge
 90
 Bivalve
 Bivalve
@@ -27147,16 +27147,16 @@ Gas
 Gas
 94
 Ombra
-Ombra
+Shadow
 95
 Serpesasso
-Serpesasso
+Rock Snake
 96
 Ipnosi
-Ipnosi
+Hypnosis
 97
 Ipnosi
-Ipnosi
+Hypnosis
 98
 Granchio
 Granchio
@@ -27171,16 +27171,16 @@ Ball
 Ball
 102
 Uovo
-Uovo
+Egg
 103
 Nocecocco
-Nocecocco
+Coconut
 104
 Solitario
-Solitario
+Lonely
 105
 Guardaossi
-Guardaossi
+Bone Keeper
 106
 Tiracalci
 Tiracalci
@@ -27192,19 +27192,19 @@ Linguaccia
 Linguaccia
 109
 Velenuvola
-Velenuvola
+Poison Gas
 110
 Velenuvola
-Velenuvola
+Poison Gas
 111
 Punzoni
-Punzoni
+Spikes
 112
 Trapano
-Trapano
+Drill
 113
 Uovo
-Uovo
+Egg
 114
 Liana
 Liana
@@ -27225,22 +27225,22 @@ Pescerosso
 Pescerosso
 120
 Stella
-Stella
+Star Shape
 121
 Misterioso
-Misterioso
+Mysterious
 122
 Barriera
-Barriera
+Barrier
 123
 Mantide
-Mantide
+Mantis
 124
 Umanoide
 Umanoide
 125
 Elettrico
-Elettrico
+Elettric
 126
 Sputafuoco
 Sputafuoco
@@ -27249,34 +27249,34 @@ Cervolante
 Cervolante
 128
 Torobrado
-Torobrado
+Wild Bull
 129
 Pesce
-Pesce
+Fish
 130
 Atroce
-Atroce
+Atrocious
 131
 Trasporto
-Trasporto
+Transport
 132
 Mutante
-Mutante
+Transform
 133
 Evoluzione
-Evoluzione
+Evolution
 134
 Bollajet
-Bollajet
+Bubble Jet
 135
 Luminoso
-Luminoso
+Lightning
 136
 Fiamma
-Fiamma
+Flame
 137
 Virtuale
-Virtuale
+Virtual
 138
 Spirale
 Spirale
@@ -27306,46 +27306,46 @@ Fiamma
 Fiamma
 147
 Drago
-Drago
+Dragon
 148
 Drago
-Drago
+Dragon
 149
 Drago
-Drago
+Dragon
 150
 Genetico
-Genetico
+Genetic
 151
 Novaspecie
-Novaspecie
+New Species
 152
 Foglia
-Foglia
+Leaf
 153
 Foglia
-Foglia
+Leaf
 154
 Erbe
-Erbe
+Herb
 155
 Fuocotopo
-Fuocotopo
+Fire Mouse
 156
 Vulcano
-Vulcano
+Volcano
 157
 Vulcano
-Vulcano
+Volcano
 158
 Mascellone
-Mascellone
+Big Jaw
 159
 Mascellone
-Mascellone
+Big Jaw
 160
 Mascellone
-Mascellone
+Big Jaw
 161
 Esplorante
 Esplorante
@@ -27360,10 +27360,10 @@ Gufo
 Gufo
 165
 Pentastra
-Pentastra
+Five Star
 166
 Pentastra
-Pentastra
+Five Star
 167
 Tela
 Tela
@@ -27372,7 +27372,7 @@ Lungazampa
 Lungazampa
 169
 Pipistrello
-Pipistrello
+Bat
 170
 Pescatore
 Pescatore
@@ -27381,13 +27381,13 @@ Luce
 Luce
 172
 Topino
-Topino
+Tiny Mouse
 173
 Stella
 Stella
 174
 Pallone
-Pallone
+Balloon
 175
 Pallapunte
 Pallapunte
@@ -27396,22 +27396,22 @@ Felicita'
 Felicita'
 177
 Uccellino
-Uccellino
+Tiny Bird
 178
 Magico
-Magico
+Mystic
 179
 Lana
-Lana
+Wool
 180
 Lana
-Lana
+Wool
 181
 Luce
-Luce
+Light
 182
 Fiore
-Fiore
+Flower
 183
 Acquatopo
 Acquatopo
@@ -27435,7 +27435,7 @@ Gramigna
 Gramigna
 190
 Lungacoda
-Lungacoda
+Long Tail
 191
 Seme
 Seme
@@ -27444,7 +27444,7 @@ Sole
 Sole
 193
 Alachiara
-Alachiara
+Clear Wing
 194
 Acquapesce
 Acquapesce
@@ -27453,28 +27453,28 @@ Acquapesce
 Acquapesce
 196
 Sole
-Sole
+Sun
 197
 Lucelunare
-Lucelunare
+Moonlight
 198
 Oscurità
-Oscurità
+Darkness
 199
 Reale
 Reale
 200
 Strido
-Strido
+Screech
 201
 Simbolo
-Simbolo
+Symbol
 202
 Pazienza
 Pazienza
 203
 Lungocollo
-Lungocollo
+Long Neck
 204
 Larva
 Larva
@@ -27489,34 +27489,34 @@ Aliscorpio
 Aliscorpio
 208
 Ferroserpe
-Ferroserpe
+Iron Snake
 209
 Fata
-Fata
+Fairy
 210
 Fata
-Fata
+Fairy
 211
 Pallone
-Pallone
+Balloon
 212
 Chele
-Chele
+Pincer
 213
 Muffa
-Muffa
+Mold
 214
 Monocorno
-Monocorno
+Single Horn
 215
 Lamartigli
-Lamartigli
+Sharp Claw
 216
 Orsetto
-Orsetto
+Little Bear
 217
 Letargo
-Letargo
+Hibernator
 218
 Lava
 Lava
@@ -27531,7 +27531,7 @@ Suino
 Suino
 222
 Corallo
-Corallo
+Coral
 223
 Jet
 Jet
@@ -27543,16 +27543,16 @@ Consegna
 Consegna
 226
 Aquilone
-Aquilone
+Kite
 227
 Armuccello
-Armuccello
+Armor Bird
 228
 Buio
-Buio
+Dark
 229
 Buio
-Buio
+Dark
 230
 Drago
 Drago
@@ -27564,13 +27564,13 @@ Armatura
 Armatura
 233
 Virtuale
-Virtuale
+Virtual
 234
 Grancorno
 Grancorno
 235
 Pittore
-Pittore
+Painter
 236
 Baruffa
 Baruffa
@@ -27582,43 +27582,43 @@ Bacio
 Bacio
 239
 Elettrico
-Elettrico
+Electric
 240
 Carbonvivo
 Carbonvivo
 241
 Bovino
-Bovino
+Milk Cow
 242
 Felicita'
-Felicita'
+Happiness
 243
 Tuono
-Tuono
+Thunder
 244
 Vulcano
-Vulcano
+Volcano
 245
 Aurora
 Aurora
 246
 Peldisasso
-Peldisasso
+Rock Skin
 247
 Guscioduro
-Guscioduro
+Hard Shell
 248
 Armatura
-Armatura
+Armor
 249
 Immersione
-Immersione
+Diving
 250
 Arcobaleno
-Arcobaleno
+Rainbow
 251
 Tempovia
-Tempovia
+Time Travel
 252
 Legnogeco
 Legnogeco
@@ -27654,10 +27654,10 @@ Morso
 Morso
 263
 Procione
-Procione
+Tiny Raccoon
 264
 Sfrecciante
-Sfrecciante
+Rushing
 265
 Baco
 Baco
@@ -27693,16 +27693,16 @@ Burbero
 Burbero
 276
 Rondine
-Rondine
+Tiny Swallow
 277
 Rondine
-Rondine
+Swallow
 278
 Gabbiano
-Gabbiano
+Seagull
 279
 Alacquatico
-Alacquatico
+Water Bird
 280
 Sensazione
 Sensazione
@@ -27744,13 +27744,13 @@ Cambiapelle
 Cambiapelle
 293
 Sussurro
-Sussurro
+Whisper
 294
 Vocione
-Vocione
+Big Voice
 295
 Fragore
-Fragore
+Loud Noise
 296
 Coraggio
 Coraggio
@@ -27762,7 +27762,7 @@ Pois
 Pois
 299
 Bussola
-Bussola
+Compass
 300
 Micio
 Micio
@@ -27777,13 +27777,13 @@ Inganno
 Inganno
 304
 Corazza
-Corazza
+Iron Armor
 305
 Corazza
-Corazza
+Iron Armor
 306
 Corazza
-Corazza
+Iron Armor
 307
 Meditazione
 Meditazione
@@ -27798,10 +27798,10 @@ Scarica
 Scarica
 311
 Incitamento
-Incitamento
+Cheering
 312
 Incitamento
-Incitamento
+Cheering
 313
 Lucciola
 Lucciola
@@ -27810,19 +27810,19 @@ Lucciola
 Lucciola
 315
 Spina
-Spina
+Thorn
 316
 Stomaco
-Stomaco
+Stomach
 317
 Velenosacco
-Velenosacco
+Poison Bag
 318
 Feroce
-Feroce
+Savage
 319
 Brutale
-Brutale
+Brutal
 320
 Balenottero
 Balenottero
@@ -27831,13 +27831,13 @@ Megabalena
 Megabalena
 322
 Torpore
-Torpore
+Numb
 323
 Eruzione
-Eruzione
+Eruption
 324
 Carbone
-Carbone
+Coal
 325
 Molla
 Molla
@@ -27846,22 +27846,22 @@ Raggiro
 Raggiro
 327
 Macchipanda
-Macchipanda
+Spot Panda
 328
 Trappola
-Trappola
+Ant Pit
 329
 Vibrazione
-Vibrazione
+Vibration
 330
 Magico
-Magico
+Mystic
 331
 Cactus
 Cactus
 332
 Spavento
-Spavento
+Scarecrow
 333
 Alidicotone
 Alidicotone
@@ -27888,16 +27888,16 @@ Baffetti
 Baffetti
 341
 Birbone
-Birbone
+Ruffian
 342
 Canaglia
-Canaglia
+Rogue
 343
 Argilla
-Argilla
+Clay Doll
 344
 Argilla
-Argilla
+Clay Doll
 345
 Fiordimare
 Fiordimare
@@ -27912,16 +27912,16 @@ Piastre
 Piastre
 349
 Pesce
-Pesce
+Fish
 350
 Tenerezza
-Tenerezza
+Tender
 351
 Meteo
 Meteo
 352
 Mutacolore
-Mutacolore
+Color Swap
 353
 Pupazzo
 Pupazzo
@@ -27936,13 +27936,13 @@ Ipnosguardo
 Ipnosguardo
 357
 Frutto
-Frutto
+Fruit
 358
 Vencampana
 Vencampana
 359
 Catastrofe
-Catastrofe
+Disaster
 360
 Brillante
 Brillante
@@ -27954,22 +27954,22 @@ Tuttomuso
 Tuttomuso
 363
 Rotolante
-Rotolante
+Clap
 364
 Rotapalla
-Rotapalla
+Ball Roll
 365
 Spaccagelo
-Spaccagelo
+Ice Break
 366
 Bivalve
 Bivalve
 367
 Abissi
-Abissi
+Deep Sea
 368
 Sudmarino
-Sudmarino
+South Sea
 369
 Longevita'
 Longevita'
@@ -27987,13 +27987,13 @@ Drago
 Drago
 374
 Ferrosfera
-Ferrosfera
+Iron Ball
 375
 Ferrunghia
-Ferrunghia
+Iron Claw
 376
 Ferrarto
-Ferrarto
+Iron Leg
 377
 Picco
 Picco
@@ -28062,16 +28062,16 @@ Predator
 Predator
 399
 Topaffuto
-Topaffuto
+Plump Mouse
 400
 Castoro
-Castoro
+Beaver
 401
 Grillo
-Grillo
+Cricket
 402
 Grillo
-Grillo
+Cricket
 403
 Baleno
 Baleno
@@ -28083,10 +28083,10 @@ Occhiluce
 Occhiluce
 406
 Germoglio
-Germoglio
+Bud
 407
 Floreale
-Floreale
+Bouquet
 408
 Head Butt
 Head Butt
@@ -28110,19 +28110,19 @@ Moth
 Moth
 415
 Apetta
-Apetta
+Tiny Bee
 416
 Alveare
-Alveare
+Beehive
 417
 Elescoiatto
-Elescoiatto
+EleSquirrel
 418
 Maridonnola
-Maridonnola
+Sea Weasel
 419
 Maridonnola
-Maridonnola
+Sea Weasel
 420
 Cherry
 Cherry
@@ -28137,7 +28137,7 @@ Sea Slug
 Sea Slug
 424
 Lungacoda
-Lungacoda
+Long Tail
 425
 Pallone
 Pallone
@@ -28146,16 +28146,16 @@ Dirigibile
 Dirigibile
 427
 Coniglio
-Coniglio
+Rabbit
 428
 Coniglio
-Coniglio
+Rabbit
 429
 Magical
 Magical
 430
 Grancapo
-Grancapo
+Big Boss
 431
 Catty
 Catty
@@ -28167,10 +28167,10 @@ Bell
 Bell
 434
 Moffetta
-Moffetta
+Skunk
 435
 Moffetta
-Moffetta
+Skunk
 436
 Bronze
 Bronze
@@ -28185,13 +28185,13 @@ Mime
 Mime
 440
 Ovettino
-Ovettino
+Playhouse
 441
 Musicale
-Musicale
+Music Note
 442
 Proibito
-Proibito
+Forbidden
 443
 Land Shark
 Land Shark
@@ -28206,16 +28206,16 @@ Ghiottone
 Ghiottone
 447
 Emanazione
-Emanazione
+Emanation
 448
 Aura
 Aura
 449
 Ippo
-Ippo
+Hippo
 450
 Grandepeso
-Grandepeso
+Heavyweight
 451
 Scorpion
 Scorpion
@@ -28224,13 +28224,13 @@ Ogre Scorp
 Ogre Scorp
 453
 Inveieleno
-Inveieleno
+Toxic Mouth
 454
 Inveieleno
-Inveieleno
+Toxic Mouth
 455
 Insettivoro
-Insettivoro
+Bug Catcher
 456
 Wing Fish
 Wing Fish
@@ -28239,7 +28239,7 @@ Neon
 Neon
 458
 Aquilone
-Aquilone
+Kite
 459
 Frost Tree
 Frost Tree
@@ -28248,22 +28248,22 @@ Frost Tree
 Frost Tree
 461
 Lamartigli
-Lamartigli
+Sharp Claw
 462
 Magnetico
-Magnetico
+Magnet Area
 463
 Licking
 Licking
 464
 Trapano
-Trapano
+Drill
 465
 Vine
 Vine
 466
 Saetta
-Saetta
+Thunderbolt
 467
 Esplosivo
 Esplosivo
@@ -28272,13 +28272,13 @@ Festa
 Festa
 469
 Libellorco
-Libellorco
+Ogre Darner
 470
 Rigoglioso
-Rigoglioso
+Verdant
 471
 Nevefresca
-Nevefresca
+Fresh Snow
 472
 Scorpidente
 Scorpidente
@@ -28287,13 +28287,13 @@ Twin Tusk
 Twin Tusk
 474
 Virtuale
-Virtuale
+Virtual
 475
 Blade
 Blade
 476
 Bussola
-Bussola
+Compass
 477
 Gripper
 Gripper
@@ -28320,7 +28320,7 @@ Spatial
 Spatial
 485
 Cratere
-Cratere
+Lava Dome
 486
 Colossal
 Colossal
@@ -28329,7 +28329,7 @@ Renegade
 Renegade
 488
 Falcato
-Falcato
+Lunar
 489
 Sea Drifter
 Sea Drifter
@@ -28338,7 +28338,7 @@ Seafaring
 Seafaring
 491
 Neropesto
-Neropesto
+Pitch-Black
 492
 Gratitude
 Gratitude
@@ -28431,19 +28431,19 @@ Proud
 Proud
 522
 Caricavolt
-Caricavolt
+Electrified
 523
 Saetta
-Saetta
+Thunderbolt
 524
 Placca
-Placca
+Mantle
 525
 Minerale
-Minerale
+Ore
 526
 Pressionalta
-Pressionalta
+Compressed
 527
 Bat
 Bat
@@ -28452,22 +28452,22 @@ Courting
 Courting
 529
 Talpa
-Talpa
+Mole
 530
 Sottoterra
-Sottoterra
+Subterrene
 531
 Ascolto
-Ascolto
+Hearing
 532
 Forzaimmane
-Forzaimmane
+Muscular
 533
 Forzaimmane
-Forzaimmane
+Muscular
 534
 Forzaimmane
-Forzaimmane
+Muscular
 535
 Tadpole
 Tadpole
@@ -28485,13 +28485,13 @@ Karate
 Karate
 540
 Grancucito
-Grancucito
+Sewing
 541
 Coprifoglia
-Coprifoglia
+Leaf-Wrapped
 542
 Balia
-Balia
+Nurturing
 543
 Centipede
 Centipede
@@ -28503,10 +28503,10 @@ Megapede
 Megapede
 546
 Cotonpalla
-Cotonpalla
+Cotton Puff
 547
 Spiffero
-Spiffero
+Windveiled
 548
 Bulb
 Bulb
@@ -28518,13 +28518,13 @@ Hostile
 Hostile
 551
 Sabbiadrillo
-Sabbiadrillo
+Desert Croc
 552
 Sabbiadrillo
-Sabbiadrillo
+Desert Croc
 553
 Minaccia
-Minaccia
+Intimidation
 554
 Zen Charm
 Zen Charm
@@ -28536,25 +28536,25 @@ Cactus
 Cactus
 557
 Pietracasa
-Pietracasa
+Rock Inn
 558
 Scogliocasa
-Scogliocasa
+Stone Home
 559
 Mutapelle
-Mutapelle
+Shedding
 560
 Furfante
-Furfante
+Hoodlum
 561
 Pseuduccello
-Pseuduccello
+Avianoid
 562
 Fatuanima
-Fatuanima
+Spirit
 563
 Bara
-Bara
+Coffin
 564
 Prototurtle
 Prototurtle
@@ -28569,10 +28569,10 @@ First Bird
 First Bird
 568
 Spazzatura
-Spazzatura
+Trash Bag
 569
 Discarica
-Discarica
+Trash Heap
 570
 Malavolpe
 Malavolpe
@@ -28581,10 +28581,10 @@ Mutevolpe
 Mutevolpe
 572
 Cincilla'
-Cincilla'
+Chinchilla
 573
 Sciarpa
-Sciarpa
+Scarf
 574
 Fixation
 Fixation
@@ -28647,13 +28647,13 @@ Floating
 Floating
 594
 Assistenza
-Assistenza
+Caring
 595
 Appiccicante
-Appiccicante
+Attaching
 596
 Elettroragno
-Elettroragno
+EleSpider
 597
 Thorn Seed
 Thorn Seed
@@ -28662,52 +28662,52 @@ Thorn Pod
 Thorn Pod
 599
 Ingranaggio
-Ingranaggio
+Gear
 600
 Ingranaggio
-Ingranaggio
+Gear
 601
 Ingranaggio
-Ingranaggio
+Gear
 602
 Elettropesce
-Elettropesce
+EleFish
 603
 Elettropesce
-Elettropesce
+EleFish
 604
 Elettropesce
-Elettropesce
+EleFish
 605
 Cervello
-Cervello
+Cerebral
 606
 Cervello
-Cervello
+Cerebral
 607
 Candela
-Candela
+Candle
 608
 Lanterna
-Lanterna
+Lamp
 609
 Attiranima
-Attiranima
+Luring
 610
 Zanna
-Zanna
+Tusk
 611
 Mascellascia
-Mascellascia
+Axe Jaw
 612
 Mascellascia
-Mascellascia
+Axe Jaw
 613
 Freddo
-Freddo
+Chill
 614
 Glaciale
-Glaciale
+Freezing
 615
 Crystallizing
 Crystallizing
@@ -28728,7 +28728,7 @@ Martial Arts
 Martial Arts
 621
 Grotta
-Grotta
+Cave
 622
 Automaton
 Automaton
@@ -28737,25 +28737,25 @@ Automaton
 Automaton
 624
 Lamaffilata
-Lamaffilata
+Sharp Blade
 625
 Fildilama
-Fildilama
+Sword Blade
 626
 Sfondatoro
-Sfondatoro
+Bash Buffalo
 627
 Aquilotto
-Aquilotto
+Eaglet
 628
 Baldanza
-Baldanza
+Valiant
 629
 Pannolino
-Pannolino
+Diapered
 630
 Ossaquila
-Ossaquila
+Bone Vulture
 631
 Anteater
 Anteater
@@ -28809,10 +28809,10 @@ Colt
 Colt
 648
 Melodia
-Melodia
+Melody
 649
 Paleozoico
-Paleozoico
+Paleozoic
 650
 Castanriccio
 Castanriccio
@@ -28866,10 +28866,10 @@ Farfascaglia
 Farfascaglia
 667
 Leoncino
-Leoncino
+Lion Cub
 668
 Reale
-Reale
+Royal
 669
 Monofiore
 Monofiore
@@ -28917,16 +28917,16 @@ Fragranza
 Fragranza
 684
 Zuccherino
-Zuccherino
+Cotton Candy
 685
 Panna
-Panna
+Meringue
 686
 Volteggio
-Volteggio
+Revolving
 687
 Giravolta
-Giravolta
+Overturning
 688
 Bimano
 Bimano
@@ -28965,10 +28965,10 @@ Tundra
 Tundra
 700
 Legame
-Legame
+Intertwining
 701
 Lottalibera
-Lottalibera
+Wrestling
 702
 Antenna
 Antenna
@@ -28989,10 +28989,10 @@ Portachiavi
 Portachiavi
 708
 Ceppo
-Ceppo
+Stump
 709
 Alberantico
-Alberantico
+Elder Tree
 710
 Zucca
 Zucca
@@ -29001,16 +29001,16 @@ Zucca
 Zucca
 712
 Ghiacciolo
-Ghiacciolo
+Ice Chunk
 713
 Iceberg
 Iceberg
 714
 Ondasonora
-Ondasonora
+Sound Wave
 715
 Ondasonora
-Ondasonora
+Sound Wave
 716
 Creazione
 Creazione
@@ -29100,145 +29100,145 @@ Vapore
 Vapore
 1000
 Aliderba
-Aliderba
+Grass Quill
 1001
 Piumaffilata
-Piumaffilata
+Blade Quill
 1002
 Alifreccia
-Alifreccia
+Arrow Quill
 1003
 Pirofelino
-Pirofelino
+Fire Cat
 1004
 Pirofelino
-Pirofelino
+Fire Cat
 1005
 Colpibassi
-Colpibassi
+Heel
 1006
 Otaria
-Otaria
+Sea Lion
 1007
 Pop Star
 Pop Star
 1008
 Solista
-Solista
+Soloist
 1009
 Stellatroce
-Stellatroce
+Brutal Star
 1010
 Stellatroce
-Stellatroce
+Brutal Star
 1011
 Luminescenza
-Luminescenza
+Illuminating
 1012
 Luminescenza
-Luminescenza
+Illuminating
 1013
 Giocosquadra
-Giocosquadra
+Teamwork
 1014
 Montesabbia
-Montesabbia
+Sand Heap
 1015
 Castelsabbia
-Castelsabbia
+Sand Castle
 1016
 Oloturia
-Oloturia
+Sea Cucumber
 1017
 Tartabomba
-Tartabomba
+Blast Turtle
 1018
 Fantasmanto
-Fantasmanto
+Disguise
 1019
 Tuttacalma
-Tuttacalma
+Placid
 1020
 Vivinombra
-Vivinombra
+Gloomdweller
 1021
 Maschera
-Maschera
+Mask
 1022
 Urlocertola
-Urlocertola
+Shout Lizard
 1023
 Dragoblu
-Dragoblu
+Sea Dragon
 1024
 Scossa
-Scossa
+Shock
 1025
 Saetta
-Saetta
+Bolt
 1026
 Tuono
-Tuono
+Thunder
 1027
 Novizio
-Novizio
+Trainee
 1028
 Artimarziali
-Artimarziali
+Martial Arts
 1029
 Emularva
-Emularva
+Camouflage
 1030
 Musicante
-Musicante
+Musician
 1031
 Marionetta
-Marionetta
+Puppet
 1032
 Controllo
-Controllo
+Control
 1033
 Dispetto
-Dispetto
+Spite
 1034
 Custode
-Custode
+Guardian
 1035
 Fielegrinfie
-Fielegrinfie
+Toxic Claw
 1036
 Fielegrinfie
-Fielegrinfie
+Toxic Claw
 1037
 Freddocane
-Freddocane
+Snow Dog
 1038
 Freddocane
-Freddocane
+Snow Dog
 1039
 Segnavento
-Segnavento
+Wind Vane
 1040
 Dragone
-Dragone
+Dragon
 1041
 Enigmiao
-Enigmiao
+Enigma Cat
 1042
 Ausmicio
-Ausmicio
+Predict Cat
 1043
 Sfarsuino
-Sfarsuino
+Piggy Bank
 1044
 Testadura
-Testadura
+Knuckle Head
 1045
 Saccopugni
-Saccopugni
+Heavy Bag
 1046
 Pesimassimi
-Pesimassimi
+Heavyweight
 1047
 Origami
 Origami
@@ -29247,304 +29247,304 @@ Origami
 Origami
 1049
 Cortocircuito
-Cortocircuito
+Blackout
 1050
 Istricciù
-Istricciù
+Hedge-Hoo
 1051
 Gridoradice
-Gridoradice
+Shriek Root
 1052
 Blablabietola
-Blablabietola
+Big Mouth
 1053
 Peperino
-Peperino
+Spicy Head
 1054
 Vampiccante
-Vampiccante
+Hot-Tempered
 1055
 Mediovale
-Mediovale
+Stone Trooper
 1056
 Megalito
-Megalito
+Megalith
 1057
 Infantenato
-Infantenato
+Ancient Baby
 1058
 Antenato
-Antenato
+Ancestor
 1059
 Cosmico
-Cosmico
+Cosmic
 1060
 Cosmico
-Cosmico
+Cosmic
 1061
 Corrente
-Corrente
+Stream Flow
 1062
 Gommorso
-Gommorso
+Gummy Bear
 1063
 Appiccicorso
-Appiccicorso
+Sticky Sticks
 1064
 Tradimento
-Tradimento
+Betrayal
 1065
 Tradimento
-Tradimento
+Betrayal
 1066
 Etichetta
-Etichetta
+Tag
 1067
 Musolungo
-Musolungo
+Stag Alone
 1068
 Soccorso
-Soccorso
+Rescue
 1069
 Scorrifaggio
-Scorrifaggio
+Dung Buggy
 1070
 Blattistrada
-Blattistrada
+Off Roach
 1071
 Uccellaccio
-Uccellaccio
+Hatchling
 1072
 Carogna
-Carogna
+Carrion
 1073
 Malaugurio
-Malaugurio
+Doom Bird
 1074
 Fobia
-Fobia
+Phobia
 1075
 Fobia
-Fobia
+Phobia
 1076
 Fobia
-Fobia
+Phobia
 1077
 Murales
-Murales
+Graffiti
 1078
 Scorzadura
-Scorzadura
+Fruit Shell
 1079
 Agglomeratto
-Agglomeratto
+Sewer Rat
 1080
 Melodia
-Melodia
+Melodic
 1081
 Draconico
-Draconico
+Draconic
 1082
 Cibernetico
-Cibernetico
+Cybernetic
 1083
 Muta
-Muta
+Shedding
 1084
 Muta
-Muta
+Shedding
 1085
 Sguardoserpe
-Sguardoserpe
+Glare Snake
 1086
 Fruttostrello
-Fruttostrello
+Fruit Bat
 1087
 Fruttostrello
-Fruttostrello
+Fruit Bat
 1088
 Cacciafiore
-Cacciafiore
+Bloom Hunter
 1089
 Focorana
-Focorana
+Fire Frog
 1090
 Cannone
-Cannone
+Cannon
 1091
 Stunt
 Stunt
 1092
 Elefantino
-Elefantino
+Tiny Phant
 1093
 Gonfiamuscoli
-Gonfiamuscoli
+Pump
 1094
 Gonfiamuscoli
-Gonfiamuscoli
+Pump
 1095
 Terrasanta
-Terrasanta
+Holy Land
 1096
 Esiliato
-Esiliato
+Disaster
 1097
 Spaziotempo
-Spaziotempo
+Spacetime
 1200
 Dinamite
-Dinamite
+Dynamite
 1201
 Fiamma
-Fiamma
+Dynamite
 1202
 Detonazione
-Detonazione
+Explosion
 1203
 Spiritalbero
-Spiritalbero
+Tree Spirit
 1204
 Schelopesce
-Schelopesce
+Fish Bone
 1205
 Relitto
-Relitto
+Wreckage
 1206
 Muscoloturia
-Muscoloturia
+All-Muscle
 1207
 Amico
-Amico
+Amie
 1208
 Neviragno
-Neviragno
+Ice Tick
 1209
 Ragnagela
-Ragnagela
+Frostbite
 1210
 Baugnè
-Baugnè
+Cream Woof
 1211
 Gas
-Gas
+Hard Scale
 1212
 Gas
-Gas
+Clutch
 1213
 Ombra
-Ombra
+Evil Genius
 1214
 Guscioantico
-Guscioantico
+Ancient Shell
 1215
 Statuantica
-Statuantica
+Ancient Statue
 1216
 Ronzinuvola
-Ronzinuvola
+Cloud Horse
 1217
 Cavallonembo
-Cavallonembo
+Nimbus Steed
 1218
 Vudù
-Vudù
+Voodoo
 1219
 Vudù
-Vudù
+Voodoo
 1220
 Zuccherino
-Zuccherino
+Poison Apple
 1221
 Rancidolce
-Rancidolce
+Rancid Cake
 1222
 Acustico
-Acustico
+Acoustic
 1223
 Acustico
-Acustico
+Acoustic
 1224
 Acustico
-Acustico
+Acoustic
 1225
 Brutal Star
-Brutal Star
+Fire Shooting
 1226
 Fluotossina
-Fluotossina
+Glowing
 1227
 Aura
 Aura
 1228
 Topo
-Topo
+Mouse
 1229
 Fusione
-Fusione
+Fusion
 1230
 Piccantuono
-Piccantuono
+Stun Pepper
 1231
 Armatura
-Armatura
+Armor
 1232
 Genetico
-Genetico
+Genetic
 1233
 Bestia
-Bestia
+Beast
 1234
 Bestia
-Bestia
+Beast
 1235
 Bestia
-Bestia
+Beast
 1236
 Bestia
-Bestia
+Beast
 1237
 Semifreddo
-Semifreddo
+Frosting
 1300
 Millepiedi
-Millepiedi
+Hairy Bug
 1301
 Bozzolo
-Bozzolo
+Cocoon
 1302
 Velenape
-Velenape
+Poison Bee
 1303
 Pentastra
-Pentastra
+Five Star
 1304
 Pentastra
-Pentastra
+Five Star
 1305
 Lana
-Lana
+Wool
 1306
 Lana
-Lana
+Wool
 1307
 Luce
-Luce
+Light
 1308
 Psico
-Psico
+Psi
 1309
 Psico
-Psico
+Psi
 1310
 Psico
-Psico
+Psi
 1311
 Pesce
-Pesce
+Fish
 1312
 Atroce
-Atroce
+Atrocious
 1313
 Jet
 Jet
@@ -29553,40 +29553,40 @@ Jet
 Jet
 1315
 Corallo
-Corallo
+Coral
 1316
 Stella
-Stella
+StarShape
 1317
 Misterioso
-Misterioso
+Mysterious
 1318
 Aquilone
-Aquilone
+Kite
 1319
 Muffa
-Muffa
+Mold
 1320
 Malerba
-Malerba
+Weed
 1321
 Malerba
-Malerba
+Weed
 1322
 Fiore
-Fiore
+Flower
 1323
 Fiore
-Fiore
+Flower
 1324
 Pipistrello
-Pipistrello
+Bat
 1325
 Pipistrello
-Pipistrello
+Bat
 1326
 Pipistrello
-Pipistrello
+Bat
 1327
 Gas
 Gas
@@ -29595,370 +29595,370 @@ Gas
 Gas
 1329
 Ombra
-Ombra
+Shadow
 1330
 Melma
-Melma
+Sludge
 1331
 Melma
-Melma
+Sludge
 1332
 Serpesasso
-Serpesasso
+Rock Snake
 1333
 Ferroserpe
-Ferroserpe
+Iron Snake
 1334
 Roccia
-Roccia
+Rock
 1335
 Roccia
-Roccia
+Rock
 1336
 Megatone
-Megatone
+Megaton
 1337
 Lamartigli
-Lamartigli
+Sharp Claw
 1338
 Otaria
-Otaria
+Sea Lion
 1339
 Otaria
-Otaria
+Sea Lion
 1340
 Pittore
-Pittore
+Painter
 1341
 Fata
-Fata
+Fairy
 1342
 Fata
-Fata
+Fairy
 1343
 Ipnosi
-Ipnosi
+Hypnosis
 1344
 Ipnosi
-Ipnosi
+Hypnosis
 1345
 Foglia
-Foglia
+Leaf
 1346
 Foglia
-Foglia
+Leaf
 1347
 Erbe
-Erbe
+Herb
 1348
 Alachiara
-Alachiara
+Clear Wing
 1349
 Monocorno
-Monocorno
+SingleHorn
 1350
 Serpente
-Serpente
+Snake
 1351
 Cobra
 Cobra
 1352
 Topino
-Topino
+Tiny Mouse
 1353
 Topo
-Topo
+Mouse
 1354
 Topo
-Topo
+Mouse
 1355
 Folgore
-Folgore
+Thunderstruck
 1356
 Bovino
-Bovino
+Milk Cow
 1357
 Talpa
-Talpa
+Mole
 1358
 Talpa
-Talpa
+Mole
 1359
 Peldisasso
-Peldisasso
+Rock Skin
 1360
 Guscioduro
-Guscioduro
+Hard Shell
 1361
 Armatura
-Armatura
+Armor
 1362
 Drago
-Drago
+Dragon
 1363
 Drago
-Drago
+Dragon
 1364
 Drago
-Drago
+Dragon
 1365
 Lucertola
-Lucertola
+Lizard
 1366
 Fiamma
-Fiamma
+Flame
 1367
 Fiamma
-Fiamma
+Flame
 1368
 Volpe
-Volpe
+Fox
 1369
 Volpe
-Volpe
+Fox
 1370
 Velenuvola
-Velenuvola
+Poison Gas
 1371
 Velenuvola
-Velenuvola
+Poison Gas
 1372
 Buio
-Buio
+Dark
 1373
 Buio
-Buio
+Dark
 1374
 Tartaghina
-Tartaghina
+TinyTurtle
 1375
 Tartaruga
-Tartaruga
+Turtle
 1376
 Crostaceo
-Crostaceo
+Shellfish
 1377
 Orsetto
-Orsetto
+LittleBear
 1378
 Letargo
-Letargo
+Hibernant
 1379
 Cavalfuoco
-Cavalfuoco
+Fire Horse
 1380
 Cavalfuoco
-Cavalfuoco
+Fire Horse
 1381
 Topo
-Topo
+Mouse
 1382
 Topo
-Topo
+Mouse
 1383
 Solitario
-Solitario
+Lonely 
 1384
 Guardaossi
-Guardaossi
+BoneKeeper
 1385
 Uccellino
-Uccellino
+Tiny Bird
 1386
 Magico
-Magico
+Mystic
 1387
 Armuccello
-Armuccello
+Armor Bird
 1388
 Punzoni
-Punzoni
+Spikes
 1389
 Trapano
-Trapano
+Drill
 1390
 Oscurità
-Oscurità
+Darkness
 1391
 Torobrado
-Torobrado
+Wild Bull
 1392
 Calamita
-Calamita
+Magnet
 1393
 Calamita
-Calamita
+Magnet
 1394
 Elettrico
-Elettrico
+Electric
 1395
 Elettrico
-Elettrico
+Electric
 1396
 Graffimiao
-Graffimiao
+ScratchCat
 1397
 Graffimiao
-Graffimiao
+ScrathCat
 1398
 Nobilgatto
-Nobilgatto
+Classy Cat
 1399
 Pallone
-Pallone
+Balloon
 1400
 Pallone
-Pallone
+Balloon
 1401
 Pallone
-Pallone
+Balloon
 1402
 Mascellone
-Mascellone
+Big Jaw
 1403
 Mascellone
-Mascellone
+Big Jaw
 1404
 Mascellone
-Mascellone
+Big Jaw
 1405
 Uovo
-Uovo
+Egg
 1406
 Nocecocco
-Nocecocco
+Coconut
 1407
 Uovo
-Uovo
+Egg
 1408
 Felicità
-Felicità
+Happiness
 1409
 Mantide
-Mantide
+Mantis
 1410
 Chele
-Chele
+Scissors
 1411
 Lungacoda
-Lungacoda
+Long Tail
 1412
 Lungocollo
-Lungocollo
+Long Neck
 1413
 Seme
-Seme
+Seed
 1414
 Seme
-Seme
+Seed
 1415
 Seme
-Seme
+Seed
 1416
 Topo
-Topo
+Mouse
 1417
 Topo
-Topo
+Mouse
 1418
 Fuocotopo
-Fuocotopo
+Fire Mouse
 1419
 Vulcano
-Vulcano
+Volcano
 1420
 Vulcano
-Vulcano
+Volcano
 1421
 Trasporto
-Trasporto
+Transport
 1422
 Mutante
-Mutante
+Transform
 1423
 Evoluzione
-Evoluzione
+Evolution
 1424
 Bollajet
-Bollajet
+Bubble Jet
 1425
 Luminoso
-Luminoso
+Lightning
 1426
 Fiamma
-Fiamma
+Flame
 1427
 Sole
-Sole
+Sun
 1428
 Lucelunare
-Lucelunare
+Moonlight
 1429
 Virtuale
-Virtuale
+Virtual
 1430
 Virtuale
-Virtuale
+Virtual
 1431
 Tartaghina
-Tartaghina
+Tiny Fish
 1432
 Tartaghina
-Tartaghina
+Anchor
 1433
 Tartaghina
-Tartaghina
+Sea Bed
 1434
 Tartaghina
-Tartaghina
+Fire Seal
 1435
 Topo
-Topo
+Tiny Tiger
 1436
 Topo
-Topo
+Tiger
 1437
 Otaria
-Otaria
+Fur Coat
 1438
 Otaria
-Otaria
+Fur Coat
 2000
 Cavallonembo
-Cavallonembo
+Nimbus Steed
 2001
 Cavallonembo
-Cavallonembo
+Nimbus Steed
 2002
 Crostaceo
 Crostaceo
 2003
 Rancidolce
-Rancidolce
+Rancid Cake
 2004
 Graffimiao
-Graffimiao
+Scratch Cat
 2005
 Draconico
-Draconico
+Draconic
 2006
 Esiliato
-Esiliato
+Disaster
 2007
 Renegade
 Renegade
 2008
 Lamaffilata
-Lamaffilata
+Sharp Blade
 2009
 Maschera
-Maschera
+Mask
 2010
 Urlocertola
-Urlocertola
+Shout Lizard
 2011
 Dragoblu
-Dragoblu
+Sea Dragon
 [3]
 1
 Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
@@ -30991,7 +30991,7 @@ Pokémon raro che si muove roteando su sé stesso. È stato scoperto nei pressi 
 It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.
 344
 Si tramanda che sia una statuetta d'argilla creata dagli antichi 20.000 anni fa che ha preso vita.
-This mysterious Pokémon started life\mas an ancient clay figurine made over 20,000 years ago.
+This mysterious Pokémon started life\n as an ancient clay figurine made over 20,000 years ago.
 345
 Cattura le prede che si avvicinano con i tentacoli a forma di corolla. Si e' estinto 100 milioni di anni fa.
 Cattura le prede che si avvicinano con i tentacoli a forma di corolla. Si e' estinto 100 milioni di anni fa.
@@ -32257,349 +32257,349 @@ Si nasconde nelle ombre per sfuggire alla vista degli esseri viventi, e per ques
 This Pokémon can conceal itself in any shadow, so it went undiscovered for a long time.
 1021
 Pokémon timidissimo che cela perennemente il suo volto con una maschera. Pare che i suoi poteri derivino proprio da questa.
-Pokémon timidissimo che cela perennemente il suo volto con una maschera. Pare che i suoi poteri derivino proprio da questa.
+An exceptionally timid Pokémon always wearing a mask that covers it face.\n The mask itself seems to be its power source.
 1022
 A dispetto della stazza minuta, è in grado di lanciare potenti urla. Se esagera, però, rimane afono e sbuffa fumo nero.
-A dispetto della stazza minuta, è in grado di lanciare potenti urla. Se esagera, però, rimane afono e sbuffa fumo nero.
+Despite its size, it can already shout very loudly. If it cries too much, it becomes voiceless and coughs smoke.
 1023
 La pelle che lo riveste è tanto elastica da fargli rimbalzare gli attacchi addosso. Tuttavia, è particolarmente sensibile al freddo.
-La pelle che lo riveste è tanto elastica da fargli rimbalzare gli attacchi addosso. Tuttavia, è particolarmente sensibile al freddo.
+Its blue covering skin is very elastic and can rebound attacks. However, it is extremely sensitive to cold.
 1024
 Di indole pacifica, reagisce solo se attaccato. Paralizza il nemico con una debole scarica per poi darsela a gambe.
-Di indole pacifica, reagisce solo se attaccato. Paralizza il nemico con una debole scarica per poi darsela a gambe.
+It has a peaceful nature and attacks only when threatened. First it paralyzes the enemy with a weak electric shock, then runs away.
 1025
 Se ne vedono a stormi durante le tempeste. È così veloce che, sfiorandolo in volo, si rischia di rimanere folgorati.
-Se ne vedono a stormi durante le tempeste. È così veloce che, sfiorandolo in volo, si rischia di rimanere folgorati.
+You can see flocks of Shawkbird during storms. If you touch one of them while it's flying, you will get zapped. 
 1026
 Il suo nido è in cima ai monti, dov'è più vicino ai fulmini. Accumula elettricità nella nube per poi lanciarsi in picchiata sulla preda.
-Il suo nido è in cima ai monti, dov'è più vicino ai fulmini. Accumula elettricità nella nube per poi lanciarsi in picchiata sulla preda.
+It lives on mountaintops that are likely to be stricken by lightning bolts. It stores electricity in its cloud, then plummets down to strike its prey.
 1027
 Si sottopone ad un costante allenamento meditativo grazie al quale riesce ad essere super concentrato in battaglia.
-Si sottopone ad un costante allenamento meditativo grazie al quale riesce ad essere super concentrato in battaglia.
+It constantly undertakes an intense meditation training. As a result of this, it is always super focused in battles.
 1028
 Sfrutta l'esperienza acquisita in innumerevoli battaglie per istruire alla lotta i Pokémon più deboli e indifesi. È un insegnante molto severo.
-Sfrutta l'esperienza acquisita in innumerevoli battaglie per istruire alla lotta i Pokémon più deboli e indifesi. È un insegnante molto severo.
+Thanks to the strong experience it has acquired in countless battles, it teaches weak and harmless Pokémon\n to fight. It is very strict as an instructor.
 1029
 (Fiammoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Fiammoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Fire Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 1030
 (Forma Cantante)\n Si ritiene che rappresenti la musica in tutte le sue forme. Con pieno controllo della voce, può spaziare dai toni più gravi a quelli più acuti.
-(Forma Cantante)\n Si ritiene che rappresenti la musica in tutte le sue forme. Con pieno controllo della voce, può spaziare dai toni più gravi a quelli più acuti.
+(Vocalist)\n It is said this Pokémon represents the soul of music. It has full control over its voice so that it can adapt to any kind of song.
 1031
 Prende il controllo di altri Pokémon per compiere azioni che vorrebbe fare lui. Non lo fa con cattive intenzioni, ma solo per timidezza.
-Prende il controllo di altri Pokémon per compiere azioni che vorrebbe fare lui. Non lo fa con cattive intenzioni, ma solo per timidezza.
+It takes control of others Pokémon to do whatever it wants. However, it does this not with malevolence, but just because it is bashful.
 1032
 Controlla umani e Pokémon tramite i suoi filamenti e, assorbendone l'energia vitale, li lascia come gusci vuoti senz'anima.
-Controlla umani e Pokémon tramite i suoi filamenti e, assorbendone l'energia vitale, li lascia come gusci vuoti senz'anima.
+It controls Pokémon and human beings\n as puppets using its strings. Feeding on their life energy, it turns their bodies in soul-less empty shells.  
 1033
 Dietro l'aspetto tenero e grazioso si cela in realtà un Pokémon molto dispettoso. Terrorizza i suoi avversari per il solo gusto di farlo.
-Dietro l'aspetto tenero e grazioso si cela in realtà un Pokémon molto dispettoso. Terrorizza i suoi avversari per il solo gusto di farlo.
+Behind its lovely graceful appearance lies a spiteful side. It will its terrify enemies just for fun. 
 1034
 Infesta vecchie stamberghe, custodendo gelosamente tutto ciò che vi è all'interno. È molto vendicativo con chi sottrae qualcosa dalla sua dimora.
-Infesta vecchie stamberghe, custodendo gelosamente tutto ciò che vi è all'interno. È molto vendicativo con chi sottrae qualcosa dalla sua dimora.
+Whisteract haunts abandoned mansions, jealously guarding everything inside. It's said to be very vengeful towards raiders. 
 1035
 È il tormento dei minatori. Essere colpiti dal suo Ferrartigli equivale a intossicazione certa.
-È il tormento dei minatori. Essere colpiti dal suo Ferrartigli equivale a intossicazione certa.
+It is a real miners' nightmare. A single touch of its metal claws and you will be badly intoxicated.
 1036
 Comprimendo e rilasciando la coda può perforare anche le pareti più solide. Sfianca la preda scavando veri e propri labirinti.
-Comprimendo e rilasciando la coda può perforare anche le pareti più solide. Sfianca la preda scavando veri e propri labirinti.
+Compressing and releasing its spiked tail, it will pierce even the thickest walls. It builds complicated tunnels in mazes to exhaust its preys.
 1037
 Hikiloo è il compagno ideale per i neofiti. Segue alla lettera gli ordini impartiti dal proprio Allenatore, che vede come un capobranco.
-Hikiloo è il compagno ideale per i neofiti. Segue alla lettera gli ordini impartiti dal proprio Allenatore, che vede come un capobranco.
+Hikiloo is a perfect partner for beginners. It will always follow orders by its Trainer it sees as a leader.
 1038
 Pokémon estremamente fedele e intelligente. Impiegato nel traino delle slitte, riesce a fiutare la strada più sicura anche nel mezzo di una bufera.
-Pokémon estremamente fedele e intelligente. Impiegato nel traino delle slitte, riesce a fiutare la strada più sicura anche nel mezzo di una bufera.
+Extremely loyal and intelligent Pokémon. It is widely used for pulling sleds since it can scent the safe route even in a blizzard.
 1039
 Particolarmente prolifico in stagni e acquitrini. Filtra l'acqua con l'enorme bocca in cerca di microrganismi di cui nutrirsi.
-Particolarmente prolifico in stagni e acquitrini. Filtra l'acqua con l'enorme bocca in cerca di microrganismi di cui nutrirsi.
+It's incredibly fertile in ponds and swamps. It feeds on microorganisms it filters with its large mouth.
 1040
 Un tempo venerato come una divinità. Pare che ancora oggi, in alcune parti del mondo, sia tradizione accogliere il nuovo anno dedicandogli una danza.
-Un tempo venerato come una divinità. Pare che ancora oggi, in alcune parti del mondo, sia tradizione accogliere il nuovo anno dedicandogli una danza.
+Revered as a deity in the past. Somewhere in the world, there's still the tradition to welcome the new year dedicating it a dance.
 1041
 Prendersi cura del suo manto delicato e stare dietro ai suoi poteri telecinetici è un'impresa non da poco anche per gli Allenatori più navigati.
-Prendersi cura del suo manto delicato e stare dietro ai suoi poteri telecinetici è un'impresa non da poco anche per gli Allenatori più navigati.
+Due to its delicate fur and its psychic powers, even veteran Trainers find it difficult to raise this Pokémon.
 1042
 Presagisce il futuro dalla sua sfera di cristallo. Chi gli richiede auspici per più di tre volte cade vittima di una terribile maledizione.
-Presagisce il futuro dalla sua sfera di cristallo. Chi gli richiede auspici per più di tre volte cade vittima di una terribile maledizione.
+It can see the future through its crystal ball. Those who ask it for prediction more than three times will be cursed for life.
 1043
 Più si muove, più è l'oro che produce dall'ombelico. Dopo una lotta intensa, con gran gioia del suo Allenatore, l'intero campo è pieno di Pepite.
-Più si muove, più è l'oro che produce dall'ombelico. Dopo una lotta intensa, con gran gioia del suo Allenatore, l'intero campo è pieno di Pepite.
+The more it moves, the more is the gold it drops from its navel. After an intense struggle, its Trainer will make plenty of Nuggets.
 1044
 Pieno di vitalità, scorrazza qua e là lanciandosi alla carica di Pokémon ben più grossi di lui. Col tempo il guscio gli si irrobustisce.
-Pieno di vitalità, scorrazza qua e là lanciandosi alla carica di Pokémon ben più grossi di lui. Col tempo il guscio gli si irrobustisce.
+It runs around full of vitality and charges into bigger and stronger Pokémon. Its external shell hardens over time.
 1045
 Se ne sta appeso agli alberi, lasciandosi colpire dai Beefle per accumulare l'energia necessaria all'evoluzione.
-Se ne sta appeso agli alberi, lasciandosi colpire dai Beefle per accumulare l'energia necessaria all'evoluzione.
+They hangs on tree branches, letting Beefle punching them to accumulate the energy required to evolve.
 1046
 Si impone sull'avversario con la sua enorme stazza. Rifiuta categoricamente la sfida con Pokémon che ritiene più deboli.
-Si impone sull'avversario con la sua enorme stazza. Rifiuta categoricamente la sfida con Pokémon che ritiene più deboli.
+It overcomes opponents with its huge body. It categorically refuses to battle against a Pokémon it doesn't deem worthy.
 1047
 La sua pelle ha le stesse proprietà della carta. Si dice che gli origami siano stati inventati proprio osservando questo Pokémon.
-La sua pelle ha le stesse proprietà della carta. Si dice che gli origami siano stati inventati proprio osservando questo Pokémon.
+Its skin has the same properties as the paper. Apparently origamis were invented looking at this exact Pokémon.
 1048
 La leggenda vuole che l'origami di una bambina, alla sua morte, abbia preso vita grazie ad una mistica melodia, generando Grudako.
-La leggenda vuole che l'origami di una bambina, alla sua morte, abbia preso vita grazie ad una mistica melodia, generando Grudako.
+According to the legend, this origami crane came to life thanks to a mystical melody after the death of its child creator.
 1049
 Le informazioni su questo Pokémon sono avvolte nel mistero. Pare sia comparso a seguito di un blackout di sistema.
-Le informazioni su questo Pokémon sono avvolte nel mistero. Pare sia comparso a seguito di un blackout di sistema.
+Information about this Pokémon is shrouded in mystery. It is said to have appeared after a power outage.
 1050
 Resiste alle basse temperature grazie alla folta pelliccia. Questa, se strofinata, si carica di elettricità statica e può dare la scossa.
-Resiste alle basse temperature grazie alla folta pelliccia. Questa, se strofinata, si carica di elettricità statica e può dare la scossa.
+It withstands low temperatures thanks to its thick fur coat. If you rub that, it will charge with static electricity and electrocute. 
 1051
 Se dissotterrato mentre dorme, emette urla così strazianti da stordire anche un Pokémon di grossa taglia.
-Se dissotterrato mentre dorme, emette urla così strazianti da stordire anche un Pokémon di grossa taglia.
+If someone tries to yank them out of the ground while they're sleeping, these Pokémon will shriek out loud making even large size Pokémon dizzy.
 1052
 Chiacchiera ininterrottamente all'ombra delle sue foglie. Chi, per errore, capta le onde sonore dei suoi fiori-antenna, è costretto a sorbirsi ore di ciance.
-Chiacchiera ininterrottamente all'ombra delle sue foglie. Chi, per errore, capta le onde sonore dei suoi fiori-antenna, è costretto a sorbirsi ore di ciance.
+It chatters non-stop in the shade of its foliage. Whoever accidentally catches the sound waves from its floreal antennas will have to swallow its endless babble.
 1053
 È ricoperto da una sostanza oleosa piccante. Si mimetizza in mezzo alle Bacche aspettando di essere addentato, poi se la ride di gusto.
-È ricoperto da una sostanza oleosa piccante. Si mimetizza in mezzo alle Bacche aspettando di essere addentato, poi se la ride di gusto.
+It is coated with a oily, spicy substance. Pretending to be a Berry, it waits for someone who bites it. Then it laughs out loud on its own joke.
 1054
 La coda è indice della sua temperatura corporea, nonché del suo umore. Quando è infuriato, incendia ogni cosa.
-La coda è indice della sua temperatura corporea, nonché del suo umore. Quando è infuriato, incendia ogni cosa.
+The color of its tail is indicative of its body temperature and its actual mood. If it rampages, it will burn everything down.
 1055
 Questa pila di ciottoli ha preso vita grazie allo spirito combattivo dei paladini del passato che alberga nella spada in essa incastonata.
-Questa pila di ciottoli ha preso vita grazie allo spirito combattivo dei paladini del passato che alberga nella spada in essa incastonata.
+This rock pile came to life thanks to the combative spirit of past paladins that inhabited the sword wedged in it.
 1056
 Si pensa che l'energia mistica che pervade questo Pokémon, facendone levitare le rocce, sia in qualche modo da correlare all'influenza della luna.
-Si pensa che l'energia mistica che pervade questo Pokémon, facendone levitare le rocce, sia in qualche modo da correlare all'influenza della luna.
+It is said that the mystical energy which fills this Pokémon and makes its stones float around is somehow related to the Moon's influence.
 1057
 Nel suo corpo scorre magma. Se non si muove continuamente, il suo corpo si raffredda e s'indurisce.
-Nel suo corpo scorre magma. Se non si muove continuamente, il suo corpo si raffredda e s'indurisce.
+Despite its clumsy appearance, it is a very quick learner if followed step by step. Each Rockapye has a different handprint.
 1058
 Presunto anello mancante dell'evoluzione. Nel passato era solito allevare Pokémon con modalità del tutto diverse tra il maschio e la femmina.
-Presunto anello mancante dell'evoluzione. Nel passato era solito allevare Pokémon con modalità del tutto diverse tra il maschio e la femmina.
+It is supposed to be the missing evolutionary link. In ancient times, males and females used to raise wild\n Pokémon in two very different ways.
 1059
 Pare sia comparso sulla Terra in seguito alla caduta di un meteorite. Si nasconde in una pozza d'inchiostro per poi attaccare all'improvviso.
-Pare sia comparso sulla Terra in seguito alla caduta di un meteorite. Si nasconde in una pozza d'inchiostro per poi attaccare all'improvviso.
+Apparently it was found on Earth after\n a meteor impact. It blends in an ink puddle, then sneaks out to attack.
 1060
 Pokémon giunto dallo spazio. Dotato di potenti poteri psichici, può portare alla pazzia le creature con cui stabilisce un contatto mentale.
-Pokémon giunto dallo spazio. Dotato di potenti poteri psichici, può portare alla pazzia le creature con cui stabilisce un contatto mentale.
+A Pokémon from outer space. Using its terrible psychic powers, it can drive crazy creatures it establishes mental connection with. 
 1061
 Si muove grazie all'energia condivisa dall'intero banco. Pare che, dato l'elevato apporto calorico, i Chubiburny siano la sua preda favorita.
-Si muove grazie all'energia condivisa dall'intero banco. Pare che, dato l'elevato apporto calorico, i Chubiburny siano la sua preda favorita.
+They swim around thanks to the energy\n they share with the whole shoal. Due to its high calorie value, Chubiburny is known to be their favorite prey.   
 1062
 La sua pelle contiene sostanze zuccherine altamente caloriche. Si crogiola beato al sole, ignorando i Birigiri che lo addentano.
-La sua pelle contiene sostanze zuccherine altamente caloriche. Si crogiola beato al sole, ignorando i Birigiri che lo addentano.
+Its pelt contains sugary high-calorie substances. It peacefully basks in the sunlight, ignoring Birigiri's bites.
 1063
 Allunga gli arti a piacimento bruciando cio' che mangia. Quando va in letargo, o in assenza di cibo, brucia addirittura i suoi stessi trampoli.
-Allunga gli arti a piacimento bruciando cio' che mangia. Quando va in letargo, o in assenza di cibo, brucia addirittura i suoi stessi trampoli.
+It can freely stretch its limbs by burning off everything it has eaten. Before hibernation or when it has no food, it will even burn its own stilts.
 1064
 Pokémon dall'indole volubile. Attrae le prede col bel visino per poi colpirle a tradimento con il suo pungiglione.
-Pokémon dall'indole volubile. Attrae le prede col bel visino per poi colpirle a tradimento con il suo pungiglione.
+This Pokémon has a moody temper. It lures preys with its sweet face, then sucker punches them using its stinger.
 1065
 Di natura astuta, tende a sfruttare il prossimo a proprio vantaggio. Pochi sono gli Allenatori in grado di instaurare un rapporto di fiducia con esso.
-Di natura astuta, tende a sfruttare il prossimo a proprio vantaggio. Pochi sono gli Allenatori in grado di instaurare un rapporto di fiducia con esso.
+Extremely slick, it has a tendency to take advantage on its fellows. Only a few Trainers are able to develop a trustful relationship with it.
 1066
 Giudica la condotta degli altri Pokémon marchiandoli poi con dei bollini. Premia con un dono chi è stato buono.
-Giudica la condotta degli altri Pokémon marchiandoli poi con dei bollini. Premia con un dono chi è stato buono.
+It judges the behavior of other Pokémon, then marks them with tags.\n It rewards with a gift those who have been nice.
 1067
 Al contrario di quanto si pensi, ha un animo gentile. Il volto perennemente imbronciato è infatti dovuto al peso eccessivo dei palchi.
-Al contrario di quanto si pensi, ha un animo gentile. Il volto perennemente imbronciato è infatti dovuto al peso eccessivo dei palchi.
+Contrary to popular belief, it is a gentle soul. Actually, the cause for its constantly sullen face seems to lie in the excessive weight of its antlers.
 1068
 Si sposta sulle nevi con uno stile tutto suo. In seguito a una slavina soccorre chi è rimasto travolto fornendogli calore.
-Si sposta sulle nevi con uno stile tutto suo. In seguito a una slavina soccorre chi è rimasto travolto fornendogli calore.
+It wanders around on snowy mountains with its own original style. It assists whoever's stranded by avalanches and keeps them warm.
 1069
 Dall'equilibrio eccezionale, si sposta sfrecciando su uno pneumatico. Quando questo si usura troppo, ne cerca uno nuovo.
-Dall'equilibrio eccezionale, si sposta sfrecciando su uno pneumatico. Quando questo si usura troppo, ne cerca uno nuovo.
+It has an excellent balance and drives around running on a tire. Once that is over worn, it looks for another new one.
 1070
 Le gang rivali si contendono il territorio in gare di velocità così rumorose da far allontanare chiunque sia nei paraggi.
-Le gang rivali si contendono il territorio in gare di velocità così rumorose da far allontanare chiunque sia nei paraggi.
+Rival gangs compete for territories in really noisy speed races that make anyone around run away.
 1071
 Deve cavarsela da solo sin dalla nascita. Non sapendo ancora procacciarsi del cibo, approfitta della pietà altrui pur di sopravvivere.
-Deve cavarsela da solo sin dalla nascita. Non sapendo ancora procacciarsi del cibo, approfitta della pietà altrui pur di sopravvivere.
+It has to take care of itself since birth. It doesn't know how to provide food yet, so it plays on others' pity to survive.
 1072
 Si nutre solo di ciò che sottrae ai predatori. Dopo averli scoraggiati col motivo sul piumaggio, si avventa avidamente sul bottino.
-Si nutre solo di ciò che sottrae ai predatori. Dopo averli scoraggiati col motivo sul piumaggio, si avventa avidamente sul bottino.
+It feeds merely on what it steals from predators. First it deters them with the skull-like pattern, then digs into its target.
 1073
 Si dice che si palesi ad umani e Pokémon ormai in fin di vita per condurli nell'aldilà. Da qui il soprannome ''Emissario del Diavolo''.
-Si dice che si palesi ad umani e Pokémon ormai in fin di vita per condurli nell'aldilà. Da qui il soprannome ''Emissario del Diavolo''.
+Said to only reveal to people and Pokémon about to die to drag them to the afterlife. It is also known as ''the Emissary of Devil''.  
 1074
 Si pensa che questo Pokémon sia una manifestazione fisica della paura dei Coleotteri, insita nell'uomo sin dall'antichità.
-Si pensa che questo Pokémon sia una manifestazione fisica della paura dei Coleotteri, insita nell'uomo sin dall'antichità.
+This Pokémon is supposed to be a physical manifestation of the Bug-type phobia, mankind has always had since ancient times.
 1075
 La fobia degli eventuali pericoli che il buio può celare ha in qualche modo dato vita a questo bizzarro Pokémon.
-La fobia degli eventuali pericoli che il buio può celare ha in qualche modo dato vita a questo bizzarro Pokémon.
+The fear of dangers lurking in the darkness, usually seen among children, has somehow spawned this weird\n Pokémon.
 1076
 Secondo vari racconti, uno scienziato pazzo creò questa creatura unendo parti di più Pokémon.
-Secondo vari racconti, uno scienziato pazzo creò questa creatura unendo parti di più Pokémon.
+According to several tales, a mad scientist created this creature by combining parts of different Pokémon.
 1077
 (Tinta Verde)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
-(Tinta Verde)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
+(Green Paint)\n It's not graffiti...that's a Pokémon! It mixes up on city walls and mocks on anyone else who comes its way.
 1078
 È timidissimo e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Sono rari i casi in cui passa al contrattacco.
-È timidissimo e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Sono rari i casi in cui passa al contrattacco.
+This very shy Pokémon rarely counterattacks. When in danger, it withdraws in its shell as hard as steel.
 1079
 (Forma Unità)\n Le zone più inquinate delle città brulicano di Chimaooze. Quando è in pericolo, chiama a raccolta tutti i suoi simili per debellare la minaccia.
-(Forma Unità)\n Le zone più inquinate delle città brulicano di Chimaooze. Quando è in pericolo, chiama a raccolta tutti i suoi simili per debellare la minaccia.
+(Solo Form)\n The most polluted aeras of cities are infested by Chimaooze. When they senses danger, they team up together to eliminate the threat.
 1080
 Agitando la coda, e' in grado di riprodurre il suono di qualsiasi strumento musicale. Una volta che ha ascoltato una melodia, non la scorda piu'.
-Agitando la coda, e' in grado di riprodurre il suono di qualsiasi strumento musicale. Una volta che ha ascoltato una melodia, non la scorda piu'.
+It can perfectly replicate the sound of any musical instrument. Once it learns a melody, this Pokémon will never forget it. 
 1081
 Quando raggiunge un rapporto di assoluta fiducia col suo allenatore, gli permette di salirgli in groppa, per volare assieme grazie alle sue enormi orecchie.
-Quando raggiunge un rapporto di assoluta fiducia col suo allenatore, gli permette di salirgli in groppa, per volare assieme grazie alle sue enormi orecchie.
+It takes flight by spreading its big ears as if they were wings. It viciously threaten anyone who enters its den in the mountains. 
 1082
 Gli è stato installato un aggiornamento al passo con la tecnologia odierna. Inizialmente era previsto come assistente nel PokéWES.
-Gli è stato installato un aggiornamento al passo con la tecnologia odierna. Inizialmente era previsto come assistente nel PokéWES.
+It was updated with the most cutting-edge technology ever created. It was originally meant to be an assistant in PokéWES.
 1083
 Alla continua ricerca di attenzioni, farebbe di tutto per farsi notare. Quando non riesce nell'intento inizia a piagnucolare rumorosamente.
-Alla continua ricerca di attenzioni, farebbe di tutto per farsi notare. Quando non riesce nell'intento inizia a piagnucolare rumorosamente.
+It desperates for attention and makes everything with the sole purpose of getting noticed. When it fails, it starts whining as a baby.
 1084
 Muta pelle di continuo nella speranza di eliminarne i difetti. Tale processo lo rende cieco, costringendolo a sondare l'ambiente con la coda.
-Muta pelle di continuo nella speranza di eliminarne i difetti. Tale processo lo rende cieco, costringendolo a sondare l'ambiente con la coda.
+It periodically sheds its skin trying to remove any flaws. Because this process makes Egohiss blind, its tail serves as a radar that senses its surroundings. 
 1085
 Rifrange lo sguardo paralizzante tramite le scaglie che ha sul corpo. Così facendo, cattura le prede e le agghinda con le sue vecchie pelli.
-Rifrange lo sguardo paralizzante tramite le scaglie che ha sul corpo. Così facendo, cattura le prede e le agghinda con le sue vecchie pelli.
+It has a paralyzing glare it refracts through the scales on its body. In this way, it catches preys and dresses them up with its old leather.
 1086
 Un dolce profumo si diffonde dalla sua foglia sulla testa. E' docile e ama scaldarsi al sole.
-Un dolce profumo si diffonde dalla sua foglia sulla testa. E' docile e ama scaldarsi al sole.
+It has the habit of swinging back and forth while hanging upside down on trees. Because of that, it is usually mistaken for a fruit.
 1087
 La sua dieta è cambiata e ora tenta di muovere i primi passi verso la caccia. Tuttavia, è molto goffo e si fa sfuggire le prede.
-La sua dieta è cambiata e ora tenta di muovere i primi passi verso la caccia. Tuttavia, è molto goffo e si fa sfuggire le prede.
+Its diet has changed and now it is trying to take its first steps into hunting. However, it is very clumsy and makes preys slip away.
 1088
 È un cacciatore infallibile. Fingendosi un fiore, attende che le prede gli si avvicinino, attratte dal suo aroma, per poi assaltarle all'improvviso.
-È un cacciatore infallibile. Fingendosi un fiore, attende che le prede gli si avvicinino, attratte dal suo aroma, per poi assaltarle all'improvviso.
+It is a perfect hunter. Pretending to be a flower, it waits for preys to approach attracted by its scent, then strikes lightning-fast.
 1089
 Sfruttando le membrane incredibilmente elastiche, usa le dita a mo' di fionda per lanciare sassi infuocati. La mira, però, non è perfetta.
-Sfruttando le membrane incredibilmente elastiche, usa le dita a mo' di fionda per lanciare sassi infuocati. La mira, però, non è perfetta.
+It uses its fingers as a sling to shoot ignited rocks with its extremely elastic membranes. Its aim is not that good though.
 1090
 Le membrane gli si sono irrigidite con l'evoluzione, divenendo simili al vetro. Quando va in escandescenze, sputa palle incendiarie dalla bocca.
-Le membrane gli si sono irrigidite con l'evoluzione, divenendo simili al vetro. Quando va in escandescenze, sputa palle incendiarie dalla bocca.
+Its membranes toughen up during evolution, turning similar to glass. When it blows up, spits out fiery cannonballs.
 1091
 Ogni sua lotta è un vero show. Ricoprendosi di fiamme, fonde il vetro delle braccia, lasciandosi dietro un'elegante scia di cristalli.
-Ogni sua lotta è un vero show. Ricoprendosi di fiamme, fonde il vetro delle braccia, lasciandosi dietro un'elegante scia di cristalli.
+All of its fights is a spectacular show. Surrounded by flames, it melts the glass on its arms, leaving an elegant trail of crystals behind.
 1092
 Galleggia grazie alle grandi orecchie. Molto competitivo, è sempre alla ricerca di avversari da sfidare nel nuoto.
-Galleggia grazie alle grandi orecchie. Molto competitivo, è sempre alla ricerca di avversari da sfidare nel nuoto.
+It floats because of its large ears. Really competitive, it always looks for an opponent to challenge in swimming.
 1093
 Si avventa su tutto e tutti per dimostrare la sua forza. Si gonfia d'acqua per sembrare più grosso.
-Si avventa su tutto e tutti per dimostrare la sua forza. Si gonfia d'acqua per sembrare più grosso.
+Floatusk will plough into everything and everyone to prove its strength. It swells of water to look bigger.
 1094
 Prima della lotta, pompa acqua nei muscoli per aumentare la forza dei suoi pugni. Tuttavia, questo potenziamento ha un limite di tempo.
-Prima della lotta, pompa acqua nei muscoli per aumentare la forza dei suoi pugni. Tuttavia, questo potenziamento ha un limite di tempo.
+Before a fight, it pumps water in its muscles to strengthen its fists. However, this power-up has a specific time limit.
 1095
 Pokémon leggendario protettore della Terra. Ha il pieno controllo della natura, che può modificare a piacimento.
-Pokémon leggendario protettore della Terra. Ha il pieno controllo della natura, che può modificare a piacimento.
+A legendary Pokémon that protect planet Earth. It has full control over nature it can shape at its will.
 1096
 Recluso nello Xenoverse per la sua brama di potere. Piantando la coda nel terreno, sottrae energia vitale al pianeta, rendendolo sterile e infecondo.
-Recluso nello Xenoverse per la sua brama di potere. Piantando la coda nel terreno, sottrae energia vitale al pianeta, rendendolo sterile e infecondo.
+It was confined in Xenoverse for its thirst for power. It sticks its tail into the soil to drains life energy from the planet, leaving it lifeless and sterile.
 1097
 Sembra in qualche modo collegato a Celebi. A differenza della controparte, però, Dielebi viaggia attraverso dimensioni alternative passate e future.
-Sembra in qualche modo collegato a Celebi. A differenza della controparte, però, Dielebi viaggia attraverso dimensioni alternative passate e future.
+It seems somehow related to Celebi. Unlike its counterpart, Dielebi travels across past and future alternate dimensions.
 1200
 Le scintille che emette dal capo possono causare incendi ed esplosioni con estrema facilità. È una vera bomba ad orologeria!
-Le scintille che emette dal capo possono causare incendi ed esplosioni con estrema facilità. È una vera bomba ad orologeria!
+The sparks it scatters from its head can easily cause fires or explosions. It is a real ticking bomb!
 1201
 La sua energia e' incontenibile, e quindi e' sempre alla ricerca di un avversario su cui sfogarla. Se non trova degli sfidanti, scarica la sua furia sull'ambiente circostante.
-La sua energia e' incontenibile, e quindi e' sempre alla ricerca di un avversario su cui sfogarla. Se non trova degli sfidanti, scarica la sua furia sull'ambiente circostante.
+Bumping its fists together, it creates strong explosions. It will discharge its fury around when enraged.
 1202
 L'eccessiva energia sprigionata con l'evoluzione gli ha scomposto il corpo. Combinando tuoni e fiamme, scatena terribili esplosioni attorno a sé.
-L'eccessiva energia sprigionata con l'evoluzione gli ha scomposto il corpo. Combinando tuoni e fiamme, scatena terribili esplosioni attorno a sé.
+The excessive energy unleashed\n during evolution split up its body. It combines thunders and flares to set off terrible explosions all around.
 1203
 Alcune teorie sostengono che sia questo il reale aspetto di Spiritomb; sarebbe quello già noto, infatti, a provenire dallo Xenoverse.
-Alcune teorie sostengono che sia questo il reale aspetto di Spiritomb; sarebbe quello già noto, infatti, a provenire dallo Xenoverse.
+Some theories assert that this is Spiritomb's real appearance-it's the one we already know who comes from\n the Xenoverse.
 1204
 Galleggia a pelo d'acqua, standosene perennemente a testa in giù. Pare che non si nutra di nulla per vivere.
-Galleggia a pelo d'acqua, standosene perennemente a testa in giù. Pare che non si nutra di nulla per vivere.
+It perpetually floats upside down on the surface of the water. Apparently, it doesn't feed on anything to survive.
 1205
 Potrebbe aver fatto la sua comparsa molto tempo fa. Antichissimi racconti di mare, infatti, già descrivono un Pokémon che divora le navi per farne la propria dimora.
-Potrebbe aver fatto la sua comparsa molto tempo fa. Antichissimi racconti di mare, infatti, già descrivono un Pokémon che divora le navi per farne la propria dimora.
+This Pokémon may have appeared long time ago, since very ancient seamen tales already told of a creature used to devour ships to make them its den.
 1206
 Ben più grosso del Pyukumuku a noi noto. Espellendo gli organi interni, si dà lo slancio per scaraventarsi sull'avversario.
-Ben più grosso del Pyukumuku a noi noto. Espellendo gli organi interni, si dà lo slancio per scaraventarsi sull'avversario.
+It is way bigger than the actual Pyukumuku. Expelling its internal organs, it propels itself to strike its opponent.
 1207
 Rappresenta una vera e propria anomalia tra i Pokémon X. La sua indole, infatti, lo rende amichevole persino con l'uomo.
-Rappresenta una vera e propria anomalia tra i Pokémon X. La sua indole, infatti, lo rende amichevole persino con l'uomo.
+It is a real anomaly between X Pokémon. Its nature makes it friendly even to human.
 1208
 Tendono imboscate piovendo dal cielo in gruppi numerosissimi, per sopperire alle dimensioni ridotte. Poi conducono la preda da Galvantula.
-Tendono imboscate piovendo dal cielo in gruppi numerosissimi, per sopperire alle dimensioni ridotte. Poi conducono la preda da Galvantula.
+They sneak up falling from the sky in large groups, so they can overcome their small size. Then they bring the prey to Galvantula.
 1209
 Congela l'aria circostante la sua tana. Intrappola le prede in una spessa ragnatela di ghiaccio, portandole lentamente all'ipotermia.
-Congela l'aria circostante la sua tana. Intrappola le prede in una spessa ragnatela di ghiaccio, portandole lentamente all'ipotermia.
+It freezes the air around its nest. Then it traps preys in a thick ice web, slowly leading them to hypothermia.
 1210
 La panna che produce è ipocalorica e deliziosa. Tuttavia, diventa rancida se non viene tenuta al fresco.
-La panna che produce è ipocalorica e deliziosa. Tuttavia, diventa rancida se non viene tenuta al fresco.
+It produces a delicious low-calory cream, but it becomes rancid if not kept cool.
 1211
 Si dice che appaia in case diroccate e deserte. Non ha una forma vera e propria poiche' e' fatto di gas.
-Si dice che appaia in case diroccate e deserte. Non ha una forma vera e propria poiche' e' fatto di gas.
+Compressed by an enormous pressure, it body is protected by a shell as hard as steel. Nobody knows how it looks inside this shell.
 1212
 Succhia l'anima al nemico con una Leccata. Causa tremori orribili che finiscono solo con il decesso.
-Succhia l'anima al nemico con una Leccata. Causa tremori orribili che finiscono solo con il decesso.
+It catches even the most elusive preys with its claws. It tortures them and, once it's fed up, it let them go.
 1213
 Nelle notti di luna piena ama mimare le ombre della gente e deridere il loro terrore.
-Nelle notti di luna piena ama mimare le ombre della gente e deridere il loro terrore.
+Because its intelligence is exceptional, Gengar can communicate with any form\n of life. However, it uses this gift for not-so-ethical purposes.
 1214
 Il suo guscio calcareo è simile ad un'anfora antica. Non si sa se sia stato l'uomo ad ispirarsi a questo Pokémon o viceversa.
-Il suo guscio calcareo è simile ad un'anfora antica. Non si sa se sia stato l'uomo ad ispirarsi a questo Pokémon o viceversa.
+Its calcareous shell resembles an ancient water jar. It is unknown if men's artifacts were inspired by this Pokémon or vice versa.
 1215
 La sua esistenza e' stata creduta una leggenda poiche' e' stato ritrovato raffigurato all'interno di antiche piramidi ormai sommerse. L'acqua contenuta nel suo corpo pare garantire la vita eterna.
-La sua esistenza e' stata creduta una leggenda poiche' e' stato ritrovato raffigurato all'interno di antiche piramidi ormai sommerse. L'acqua contenuta nel suo corpo pare garantire la vita eterna.
+Its limbs are made of pure cristalline water. Some people believe that a single sip of that water will give you everlasting life.
 1216
 La folta criniera di nuvole lo tiene sollevato dal suolo. Tuttavia, essendo ancora inesperto nel volo, si muove in maniera molto impacciata.
-La folta criniera di nuvole lo tiene sollevato dal suolo. Tuttavia, essendo ancora inesperto nel volo, si muove in maniera molto impacciata.
+A thick cloud mane makes it float in the air. It is still a green baby, so it can only clumsily fly around.
 1217
 (Forma Quiete)\n Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
-(Forma Quiete)\n Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
+(Quiet Mode)\n A peaceful tempered X Pokémon.\n However, if it gets furious, it wraps itself in thunderclouds and triggers raging lightning storms.
 1218
 Cacnea vive in zone aride, dove non piove quasi mai. Il suo fiore giallo sboccia una volta all'anno.
-Cacnea vive in zone aride, dove non piove quasi mai. Il suo fiore giallo sboccia una volta all'anno.
+Because its appearance resembles a severed head, everyone who fights this Cacnea is scared to death.
 1219
 Il suo corpo è internamente costituito da simil paglia. Lancia terribili anatemi scagliando i suoi spilli addosso ai nemici.
-Il suo corpo è internamente costituito da simil paglia. Lancia terribili anatemi scagliando i suoi spilli addosso ai nemici.
+Its internal body is made of a straw-like material. It shoots its needles to cast cursed spell against enemies.
 1220
 Immobilizza il nemico avvolgendolo in filamenti bianchi, dolci e appiccicosi, simili a zucchero filato.
-Immobilizza il nemico avvolgendolo in filamenti bianchi, dolci e appiccicosi, simili a zucchero filato.
+The appealing sweet fragrance it releases vaguely resembles that of Leppa Berries. Behind its delicious appearance lies an acid filling.
 1221
 Ingerire i suoi dolcetti provoca un forte senso di nausea. Più sono i malcapitati che li mangiano, più Slurpuff s'ingigantisce.
-Ingerire i suoi dolcetti provoca un forte senso di nausea. Più sono i malcapitati che li mangiano, più Slurpuff s'ingigantisce.
+Anyone who digests its sweets will feel a strong sense of nausea. The more you eat them, the bigger Slurpuff gets.
 1222
 Avvicinando l'orecchio al suo organo sonoro, si percepisce come un flebile fischio. Quando fa sul serio, questo diventa assordante.
-Avvicinando l'orecchio al suo organo sonoro, si percepisce come un flebile fischio. Quando fa sul serio, questo diventa assordante.
+If you put your ear to its sound organ, you will hear the sound of a soft breathing. When it's fired up, the sound becomes defeaning.
 1223
 Intensifica la potenza della sua voce con gli organi auricolari posti sulle braccia. Alla massima intensità sgretola persino le rocce.
-Intensifica la potenza della sua voce con gli organi auricolari posti sulle braccia. Alla massima intensità sgretola persino le rocce.
+Using the auricular organs on its arms, Roselia amplifies the range of its voice. It can even break rocks at full volume.
 1224
 Agitando i suoi spilli, può modificare a piacimento qualsivoglia onda acustica. Se interferisce col battito cardiaco, causa danni irreparabili al fisico.
-Agitando i suoi spilli, può modificare a piacimento qualsivoglia onda acustica. Se interferisce col battito cardiaco, causa danni irreparabili al fisico.
+It waves its stings to modify any sound wave at will. If it interferes with its opponents' heartbeat, it will cause them irreparable harm.
 1225
 The coral that grows on Corsola's head is as good as a five-star banquet to this pokemon.
-The coral that grows on Corsola's head is as good as a five-star banquet to this pokemon.
+When frightened, it shoots fire and sparks from the top of its head. It appears to be pretty friendly with others of the same specie.
 1226
 Secerne una particolare tossina che, se riscaldata, risplende intensamente. Attira le prede e le cattura, usando il corpo come gabbia.
-Secerne una particolare tossina che, se riscaldata, risplende intensamente. Attira le prede e le cattura, usando il corpo come gabbia.
+The special toxin it secretes, when heated, shines brightly. It lures preys and trap them, using its body as a cage.
 1227
 Oltre a essere in grado di percepire l'aura, ha anche la capacite' di controllarla. Sfrutta questa sua abilita' anche nelle lotte.
 Oltre a essere in grado di percepire l'aura, ha anche la capacite' di controllarla. Sfrutta questa sua abilita' anche nelle lotte.
 1228
 Quando si accumula elettricita' nel suo corpo, si fa irascibile. Al buio brilla di luce propria.
-Quando si accumula elettricita' nel suo corpo, si fa irascibile. Al buio brilla di luce propria.
+Gym Leader Surge's faithful companion, it has been bring back to life after a terrible accident. It is as fast as fragile.
 1229
 È il Bisharp in possesso di S del Team Dimension. In lui convivono le coscienze dei due Bisharp di A & B.
-È il Bisharp in possesso di S del Team Dimension. In lui convivono le coscienze dei due Bisharp di A & B.
+The Bisharp owned by Dimension Sergeant S. The consciences of both A & B's Bisharp coexist in this Pokémon.
 1230
 È lo Scovile in possesso di Tamara del Team Dimension. I suoi semi, se ingeriti, folgorano il corpo dall'interno.
-È lo Scovile in possesso di Tamara del Team Dimension. I suoi semi, se ingeriti, folgorano il corpo dall'interno.
+The Scovile owned by Dimension Colonel Dahlia. When ingested, its seeds will electrocute the body from the inside.
 1231
 È il Tyranitar in possesso di Victor del Team Dimension. È in grado di generare ronzii assordanti vibrando le sole ali.
-È il Tyranitar in possesso di Victor del Team Dimension. È in grado di generare ronzii assordanti vibrando le sole ali.
+The Tyranitar owned by Dimension General Victor. It generates a defeaning buzz by vibrating its wings.
 1232
 È stato sottoposto a un'ulteriore manipolazione genetica dal Team Dimension. I suoi poteri psichici sono spaventosi.
-È stato sottoposto a un'ulteriore manipolazione genetica dal Team Dimension. I suoi poteri psichici sono spaventosi.
+It has been further genetically modified by Team Dimension. Its psychic powers are frightening.
 1233
 Una delle quattro bestie dello Xenoverse, i soldati scelti di Dragalisk. È in mano al Cardinale Peyote.
-Una delle quattro bestie dello Xenoverse, i soldati scelti di Dragalisk. È in mano al Cardinale Peyote.
+One of the four beast from Xenoverse, Dragalisk's elite soldiers. It is held by the Cardinal Peyote.
 1234
 Una delle quattro bestie dello Xenoverse, i soldati scelti di Dragalisk. È in mano al Cardinale Castalia.
-Una delle quattro bestie dello Xenoverse, i soldati scelti di Dragalisk. È in mano al Cardinale Castalia.
+One of the four beast from Xenoverse, Dragalisk's elite soldiers. It is held by the Cardinal Niva.
 1235
 Una delle quattro bestie dello Xenoverse, i soldati scelti di Dragalisk. È in mano al Cardinale Oleandro.
-Una delle quattro bestie dello Xenoverse, i soldati scelti di Dragalisk. È in mano al Cardinale Oleandro.
+One of the four beast from Xenoverse, Dragalisk's elite soldiers. It is held by the Cardinal Abraham.
 1236
 Una delle quattro bestie dello Xenoverse, i soldati scelti di Dragalisk. È in mano al Cardinale Chua.
-Una delle quattro bestie dello Xenoverse, i soldati scelti di Dragalisk. È in mano al Cardinale Chua.
+One of the four beast from Xenoverse, Dragalisk's elite soldiers. It is held by the Cardinal Chua.
 1237
 Secerne panna freschissima dalla coda. Se la qualità non soddisfa a pieno le sue elevate esigenze, la lancia via.
-Secerne panna freschissima dalla coda. Se la qualità non soddisfa a pieno le sue elevate esigenze, la lancia via.
+It secretes ice-fresh cream from its tail. If the quality doesn't match its high requirements, it throws that away.
 1300
 Spesso presente nei boschi, si nutre di foglie. Ha un velenoso pungiglione sulla testa.
 Often found in forests, eating leaves. It has a sharp venomous stinger on its head.
@@ -32767,7 +32767,7 @@ La sua lunga coda serve da messa a terra per proteggerlo dalla sua stessa alta t
 Its long tail serves as a ground to protect itself from its own high voltage power.
 1355
 Pokémon scoperto solo di recente. Di una violenza inaudita, prima folgora il nemico e poi, con la coda, ne frantuma le ossa.
-Pokémon scoperto solo di recente. Di una violenza inaudita, prima folgora il nemico e poi, con la coda, ne frantuma le ossa.
+Recently discovered Pokémon. It is extremely violent-first it electrocutes its foes, then crushes their bones with its tail.
 1356
 Il suo latte è ricco di sostanze nutrienti, che ne fanno il miglior rimedio per chi è stanco o ammalato.
 Its milk is packed with nutrition, making it the ultimate beverage for the sick or weary.
@@ -32890,7 +32890,7 @@ Normalmente vive vicino a centrali elettriche e se si allontana può causare bla
 Normally found near power plants, they can wander away and cause major blackouts in cities.
 1396
 Ama gli oggetti rotondi. Di notte vaga per le vie in cerca di monetine perdute.
-Ama gli oggetti rotondi. Di notte vaga per le vie in cerca di monetine perdute.
+It spends all day sleeping. However, if it has no coins with it, it cannot sleep well.
 1397
 Ama gli oggetti rotondi. Di notte vaga per le vie in cerca di monetine perdute.
 Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.
@@ -32995,28 +32995,28 @@ Ricerche avanzate hanno potenziato le sue capacità. Ora può fare movimenti che
 Further research enhanced its abilities. Sometimes, it may exhibit motions that were not programmed.
 1431
 Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
-Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
+It swims peacefully in salt water. When a predator's approaching, it runs away as fast as it can.
 1432
 Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
-Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
+When it evolves, an heavy anchor attaches on its body. It learned how to use that for its attacks. 
 1433
 Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
-Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
+It conceals itself in the sand leaving its mouth wide open. When prey blunder in unaware, it clamps its jaws down on them.
 1434
 Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
-Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.
+It balances a fiery meteor on the tip of its nose. It throws the meteor on enemies and then fetches it with extraordinary agility.
 1435
 Quando vari Pokemon di questo tipo si radunano, la loro energia puo' causare forti tempeste.
-Quando vari Pokemon di questo tipo si radunano, la loro energia puo' causare forti tempeste.
+Its soft fur accumulates static electricity. When it builds up, it discharge the electricity coughing up electrified fur balls.
 1436
 Quando si accumula elettricita' nel suo corpo, si fa irascibile. Al buio brilla di luce propria.
-Quando si accumula elettricita' nel suo corpo, si fa irascibile. Al buio brilla di luce propria.
+It is a ferocius predator. It electrifies itself, then charges prey with the power of a thunder.
 1437
 Adora gli ambienti freddi gelidi. Nuota in acque a temperature polari di circa 10 gradi sotto zero.
-Adora gli ambienti freddi gelidi. Nuota in acque a temperature polari di circa 10 gradi sotto zero.
+A Pokémon that lives in freezing-cold conditions. A thick fur coat keeps it protected against the cold.
 1438
 Accumula energia termica nel suo corpo. Nuota a 8 nodi costanti anche in acqua molto fredda.
-Accumula energia termica nel suo corpo. Nuota a 8 nodi costanti anche in acqua molto fredda.
+Big and vicious, it keeps intruders away from its mountain. It could have inspired the legends about the yeti.
 2000
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.

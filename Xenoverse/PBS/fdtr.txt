@@ -1,27 +1,27 @@
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n È stato introdotto da un'altra regione grazie a una fiorente famiglia reale dell'antichità. È egoista e molto orgoglioso.
-(Forma di Alola)\n È stato introdotto da un'altra regione grazie a una fiorente famiglia reale dell'antichità. È egoista e molto orgoglioso.
+(Alolan Meowth)\n A royal house that flourished in the distant past brought it here from another region. Meowth is both selfish and prideful.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n Le sue chiome dorate sono in grado di rilevare le vibrazioni di un suono prodotto a diversi chilometri di distanza.
-(Forma di Alola)\n Le sue chiome dorate sono in grado di rilevare le vibrazioni di un suono prodotto a diversi chilometri di distanza.
+(Alolan Dugtrio)\n Its shining gold whiskers are advanced sensors that can detect vibrations from sounds several miles away.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Suonoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Suonoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Sound Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Litoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Litoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Rock Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n Spara grosse rocce elettrizzate che propagano tremende scariche elettriche per tutta l'area dell'impatto.
-(Forma di Alola)\n Spara grosse rocce elettrizzate che propagano tremende scariche elettriche per tutta l'area dell'impatto.
+(Alolan Golem)\n It shoots large rocks that are charged with electricity. Tremendous electric shocks are flung out across the whole area of impact.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Psicoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Psicoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Psychic Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 
@@ -29,208 +29,208 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n La pelle rinforzata della schiena è dura come l'acciaio. Per proteggere il ventre molle, si avvinghia al terreno con tutte le forze.
-(Forma di Alola)\n La pelle rinforzata della schiena è dura come l'acciaio. Per proteggere il ventre molle, si avvinghia al terreno con tutte le forze.
+(Alolan Sandshrew)\n The skin on its back is as hard as steel. Predators go after its soft belly, so it clings to the ground desperately.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Dracoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Dracoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Dragon Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Spettroveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Spettroveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Ghost Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n Concentra i suoi poteri psichici nella coda e si sposta su di essa come se scivolasse. È soprannominato “il surfista di terra”.
-(Forma di Alola)\n Concentra i suoi poteri psichici nella coda e si sposta su di essa come se scivolasse. È soprannominato “il surfista di terra”.
+(Alolan Raichu)\n It focuses psychic energy into its tail and rides it like it's surfing. Another name for this Pokémon is ''hodad''.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n Rosicchia le porte delle case con le zanne per intrufolarvisi. È in grado di sondare l'aria con i suoi baffi per individuare cibo da rubare.
-(Forma di Alola)\n Rosicchia le porte delle case con le zanne per intrufolarvisi. È in grado di sondare l'aria con i suoi baffi per individuare cibo da rubare.
+(Alolan Rattata)\n With its incisors, it gnaws through doors and infiltrates people's homes. Then, with a twitch of its whiskers, it steals whatever food it finds.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma Chitarrista)\n Si ritiene che rappresenti la musica in tutte le sue forme. Pizzicando i grandi baffi, realizza assoli così elettrizzanti da far rizzare il pelo. 
-(Forma Chitarrista)\n Si ritiene che rappresenti la musica in tutte le sue forme. Pizzicando i grandi baffi, realizza assoli così elettrizzanti da far rizzare il pelo. 
+(Guitarist)\n It is said this Pokémon represents the soul of music. The electrifying solos it plays with its big whiskers will make your hair stand on end. 
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Geloveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Geloveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Ice Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma Terrestre)\n L'esposizione all'Energia Terrestre sembra aver sortito degli effetti. Scarica i suoi fulmini all'improvviso, avvolto tra le tenebre del suo mantello.
-(Forma Terrestre)\n L'esposizione all'Energia Terrestre sembra aver sortito degli effetti. Scarica i suoi fulmini all'improvviso, avvolto tra le tenebre del suo mantello.
+(Terrestrial Form)\n It looks like the Red Energy had somehow affected this Pokémon. Wrapped in the darkness of its cloak, it shoots thunderbolts all of sudden.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma Percussionista)\n Si ritiene che rappresenti la musica in tutte le sue forme. Percuotendosi il petto con le bacchette, dà la carica a sé stesso e ai compagni. 
-(Forma Percussionista)\n Si ritiene che rappresenti la musica in tutte le sue forme. Percuotendosi il petto con le bacchette, dà la carica a sé stesso e ai compagni. 
+(Drummer)\n It is said this Pokémon represents the soul of music. Thumping its chest with two drumsticks, it boost the morale to anyone who's listening. 
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Fataveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Fataveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Fairy Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n I peli sulla testa sono dei fili metallici, frutto di una mutazione dei suoi baffi. Comunica coi simili oscillando dolcemente.
-(Forma di Alola)\n I peli sulla testa sono dei fili metallici, frutto di una mutazione dei suoi baffi. Comunica coi simili oscillando dolcemente.
+(Alolan Diglett)\n Its head sports an altered form of whiskers made of metal. When in communication with its comrades, its whiskers wobble to and fro.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n Ha sviluppato degli artigli robusti e affilati per farsi strada fra la neve, in cui ora riesce a correre a gran velocità.
-(Forma di Alola)\n Ha sviluppato degli artigli robusti e affilati per farsi strada fra la neve, in cui ora riesce a correre a gran velocità.
+(Alolan Sandslash)\n It runs across snow-covered plains at high speeds. It developed thick, sharp claws to plow through the snow.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma Xenoverse)\n Sembra risentire anche dell'influsso dell'Energia Blu, divenendo più truce e selvaggio. Lancia terribili tuoni neri dalla criniera irta di elettricità.
-(Forma Xenoverse)\n Sembra risentire anche dell'influsso dell'Energia Blu, divenendo più truce e selvaggio. Lancia terribili tuoni neri dalla criniera irta di elettricità.
+(Xenoversal Form)\n It appears to be affected by the Blue Energy too, becoming fierce and savage. It fires immense dark lighting bolts from its mane charged with electricity.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma Bassista)\n Si ritiene che rappresenti la musica in tutte le sue forme. Strimpella la sua coda tranquillo, ma talvolta può sorprendere con dei groove energici.
-(Forma Bassista)\n Si ritiene che rappresenti la musica in tutte le sue forme. Strimpella la sua coda tranquillo, ma talvolta può sorprendere con dei groove energici.
+(Bassist)\n It is said this Pokémon represents the soul of music. It quietly strims its tail, but occasionally it can play unexpectedly energetic grooves.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Scuroveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Scuroveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Dark Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 Maschera
-Maschera
+Mask
 (Forma Terrestre)\n L'Energia Rossa ha acuito la sua capacità di mimetizzarsi. Nel suo habitat è praticamente impossibile da individuare.
-(Forma Terrestre)\n L'Energia Rossa ha acuito la sua capacità di mimetizzarsi. Nel suo habitat è praticamente impossibile da individuare.
+(Terrestrial Form)\n The Red Energy enhanced its ability to camouflage. It is almost impossible to detect Shyleon in its habitat.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n Quelli che sembrano denti e artigli sono in realtà tossine cristallizzate che avvelenano al solo contatto. Avvicinarsi è molto pericoloso.
-(Forma di Alola)\n Quelli che sembrano denti e artigli sono in realtà tossine cristallizzate che avvelenano al solo contatto. Avvicinarsi è molto pericoloso.
+(Alolan Muk)\n What look like fangs and claws are actually crystallized poison that will afflict you at a mere touch, so don't get too close.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n Colpisce il nemico con una pioggia di cristalli di ghiaccio che genera dal suo manto. Chi lo fa arrabbiare si ritrova congelato all'istante.
-(Forma di Alola)\n Colpisce il nemico con una pioggia di cristalli di ghiaccio che genera dal suo manto. Chi lo fa arrabbiare si ritrova congelato all'istante.
+(Alolan Ninetales)\n It creates drops of ice in its coat and showers them over its enemies. Anyone who angers it will be frozen stiff in an instant.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Tinta Rossa)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
-(Tinta Rossa)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
+(Red Paint)\n It's not graffiti...that's a Pokémon! It mixes up on city walls and mocks on anyone else who comes its way.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Normoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Normoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Normal Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Tuonoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Tuonoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Electric Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 Urlocertola
-Urlocertola
+Shout Lizard
 (Forma Terrestre)\n È divenuto più combattivo grazie all'Energia Terrestre. In lotta si scatena con fiamme roventi che sprigiona dal corno.
-(Forma Terrestre)\n Amazing.
+(Terrestrial Form)\n It has become more competitive thanks\n to the Red Energy. It goes wild during battle, releasing scorching flames from its horn.
 Maschera
-Maschera
+Mask
 (Forma Xenoverse)\n Ha acquisito poteri magici assorbendo l'Energia Blu. Un'antica civiltà del passato lo venerava come una divinità.
-(Forma Xenoverse)\n Ha acquisito poteri magici assorbendo l'Energia Blu. Un'antica civiltà del passato lo venerava come una divinità.
+(Xenoversal Form)\n It acquired magic powers after absorbing the Blue Energy. It was revered as a deity by an ancient civilization.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Manto Shyleon)\n Soffre molto la solitudine e per poter avvicinare gli esseri umani e gli altri Pokémon, cela il suo tremendo aspetto sotto a un panno.
-(Manto Shyleon)\n Soffre molto la solitudine e per poter avvicinare gli esseri umani e gli altri Pokémon, cela il suo tremendo aspetto sotto a un panno.
+(Shyleon Disguise)\n A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n I cristalli sul suo corpo sono grumi di tossine. Se si staccano e cadono a terra, rilasciano un veleno mortale.
-(Forma di Alola)\n I cristalli sul suo corpo sono grumi di tossine. Se si staccano e cadono a terra, rilasciano un veleno mortale.
+(Alolan Grimer)\n The crystals on Grimer's body are lumps of toxins. If one falls off, lethal poisons leak out.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n I Vulpix vivono in branco aiutandosi a vicenda. Divorano le prede dopo averle congelate con il loro soffio a -50 C.
-(Forma di Alola)\n I Vulpix vivono in branco aiutandosi a vicenda. Divorano le prede dopo averle congelate con il loro soffio a -50 C.
+(Alolan Vulpix)\n They live together in a skulk, helping one another. Before eating their prey, they freeze it solid with their –58 °F breath.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma Tempesta)\n Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
-(Forma Tempesta)\n Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
+(Storm Mode)\n A peaceful tempered X Pokémon.\n However, if it gets furious, it wraps itself in thunderclouds and triggers raging lightning storms.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Tinta Gialla)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
-(Tinta Gialla)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
+(Yellow Paint)\n It's not graffiti...that's a Pokémon! It mixes up on city walls and mocks on anyone else who comes its way.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Fieleveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Fieleveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Poison Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Pugnoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Pugnoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Fighting Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 Dragoblu
-Dragoblu
+Sea Dragon
 (Forma Terrestre)\n L'energia del Pianeta Terra gli ha mutato la pelle in una coriacea armatura. Ad ogni ferita si rialza più forte.
-(Forma Terrestre)\n L'energia del Pianeta Terra gli ha mutato la pelle in una coriacea armatura. Ad ogni ferita si rialza più forte.
+(Terrestrial Form)\n The energy of Planet Earth has turned its skin into a coriaceous armor. After every wound, it comes back harder.
 Urlocertola
-Urlocertola
+Shout Lizard
 (Forma Xenoverse)\n L'Energia Blu gli ha conferito un potere esplosivo incontenibile. Espellendo aria dai fori sul corpo, accresce l'intensità dei propri boati.
-(Forma Xenoverse)\n L'Energia Blu gli ha conferito un potere esplosivo incontenibile. Espellendo aria dai fori sul corpo, accresce l'intensità dei propri boati.
+(Xenoversal Form)\n The Blue Energy has given it an overwhelming explosive power. It ejects air from the ports on its body to boost its fiery roars.
 Novastella
-Novastella
+New Star
 (Forma Astro)\n Il reale aspetto di Shyleon. In tempi antichissimi, combatté coi suoi fratelli al fianco di Luxflon per scongiurare il Caos nell'universo.
-(Forma Astro)\n Il reale aspetto di Shyleon. In tempi antichissimi, combatté coi suoi fratelli al fianco di Luxflon per scongiurare il Caos nell'universo.
+(Astral Form)\n Shyleon's real form. In ancient times, it fought with its brothers alongside Luxflon to defeat the Chaos throughout the universe.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Manto Trishout)\n Soffre molto la solitudine e per poter avvicinare gli esseri umani e gli altri Pokémon, cela il suo tremendo aspetto sotto a un panno.
-(Manto Trishout)\n Soffre molto la solitudine e per poter avvicinare gli esseri umani e gli altri Pokémon, cela il suo tremendo aspetto sotto a un panno.
+(Trishout Disguise)\n A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n L'esposizione a intensi raggi solari ha risvegliato l'aspetto e il potere originari di questo Pokémon.
-(Forma di Alola)\n L'esposizione a intensi raggi solari ha risvegliato l'aspetto e il potere originari di questo Pokémon.
+(Alolan Exeggutor)\n Blazing sunlight has brought out the true form and powers of this Pokémon.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma Agglomeratto)\n Le zone più inquinate delle città brulicano di Chimaooze. Quando è in pericolo, chiama a raccolta tutti i suoi simili per debellare la minaccia.
-(Forma Agglomeratto)\n Le zone più inquinate delle città brulicano di Chimaooze. Quando è in pericolo, chiama a raccolta tutti i suoi simili per debellare la minaccia.
+(Monster Form)\n The most polluted aeras of cities are infested by Chimaooze. When they senses danger, they team up together to eliminate the threat.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Tinta Blu)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
-(Tinta Blu)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
+(Blue Paint)\n It's not graffiti...that's a Pokémon! It mixes up on city walls and mocks on anyone else who comes its way.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Geoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Geoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Ground Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Voloveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Voloveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Flying Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 Dragoblu
-Dragoblu
+Sea Dragon
 (Forma Xenoverse)\n L'esposizione all'Energia Blu lo ha reso aggressivo e territoriale. Niente e nessuno può tenergli testa in una lotta subacquea.
-(Forma Xenoverse)\n L'esposizione all'Energia Blu lo ha reso aggressivo e territoriale. Niente e nessuno può tenergli testa in una lotta subacquea.
+(Xenoversal Form)\n Blue Energy has made it vicious and territorial. No one is able to take on it underwater.
 Novastella
-Novastella
+New Star
 (Forma Astro)\n Il reale aspetto di Trishout. In tempi antichissimi, combatté coi suoi fratelli al fianco di Luxflon per scongiurare il Caos nell'universo.
-(Forma Astro)\n Il reale aspetto di Trishout. In tempi antichissimi, combatté coi suoi fratelli al fianco di Luxflon per scongiurare il Caos nell'universo.
+(Astral Form)\n Trishout's real form. In ancient times, it fought with its brothers alongside Luxflon to defeat the Chaos throughout the universe.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Manto Shulong)\n Soffre molto la solitudine e per poter avvicinare gli esseri umani e gli altri Pokémon, cela il suo tremendo aspetto sotto a un panno.
-(Manto Shulong)\n Soffre molto la solitudine e per poter avvicinare gli esseri umani e gli altri Pokémon, cela il suo tremendo aspetto sotto a un panno.
+(Shulong Disguise)\n A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n Per effetto delle rocce di cui è ghiotto, il suo corpo è interamente pervaso dall'elettricità. Ha un carattere molto litigioso.
-(Forma di Alola)\n Per effetto delle rocce di cui è ghiotto, il suo corpo è interamente pervaso dall'elettricità. Ha un carattere molto litigioso.
+(Alolan Graveler)\n Graveler's entire body is tinged with electricity due to the stones it likes to eat. It's very quick-tempered.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n Si circonda di Rattata con cui forma il proprio branco. Nei branchi regna la discordia e spesso sorgono feroci dispute per il cibo.
-(Forma di Alola)\n Si circonda di Rattata con cui forma il proprio branco. Nei branchi regna la discordia e spesso sorgono feroci dispute per il cibo.
+(Alolan Raticate)\n It forms a group of Rattata, which it assumes command of. Each group has its own territory, and disputes over food happen often.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Tinta Viola)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
-(Tinta Viola)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
+(Purple Paint)\n It's not graffiti...that's a Pokémon! It mixes up on city walls and mocks on anyone else who comes its way.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Ferroveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Ferroveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Steel Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Erboveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Erboveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Grass Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
 Novastella
-Novastella
+New Star
 (Forma Astro)\n Il reale aspetto di Shulong. In tempi antichissimi, combatté coi suoi fratelli al fianco di Luxflon per scongiurare il Caos nell'universo.
-(Forma Astro)\n Il reale aspetto di Shulong. In tempi antichissimi, combatté coi suoi fratelli al fianco di Luxflon per scongiurare il Caos nell'universo.
+(Astral Form)\n Shulong's real form. In ancient times, it fought with its brothers alongside Luxflon to defeat the Chaos throughout the universe.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n Nonostante il muso grazioso, ha un’indole crudele. Si diverte a giocare con le prede indebolite senza dar loro il colpo di grazia.
-(Forma di Alola)\n Nonostante il muso grazioso, ha un’indole crudele. Si diverte a giocare con le prede indebolite senza dar loro il colpo di grazia.
+(Alolan Persian)\n In contrast to its lovely face, it's so brutal that it tortures its weakened prey rather than finishing them off.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
-(Forma di Alola)\n 
-(Forma di Alola)\n 
+(Forma di Alola)\n Quando colpisce con il suo osso, appicca un fuoco maledetto che continuerà a bruciare in eterno per quanta acqua ci si versi sopra.
+(Alolan Marowak)\n When it beats opponents with its bone, the cursed flames spread to them. No amount of water will stop those flames from burning.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Alola)\n La sua testa rocciosa è elettrica e magnetica. Chi lo calpesta accidentalmente viene colpito da una dolorosa scarica.
-(Forma di Alola)\n La sua testa rocciosa è elettrica e magnetica. Chi lo calpesta accidentalmente viene colpito da una dolorosa scarica.
+(Alolan Geodude)\n Its stone head is imbued with electricity and magnetism. If you carelessly step on one, you'll be in for a painful shock.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Idroveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
-(Idroveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
+(Water Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.

@@ -250,8 +250,7 @@ WEIGHT=415.6
 TYPE1=12
 TYPE2=16
 [105_1d]
-DESCRIPTION=(Forma di Alola)\n 
-Quando colpisce con il suo osso, appicca un fuoco maledetto che continuerà a bruciare in eterno per quanta acqua ci si versi sopra.
+DESCRIPTION=(Forma di Alola)\n Quando colpisce con il suo osso, appicca un fuoco maledetto che continuerà a bruciare in eterno per quanta acqua ci si versi sopra.
 HEIGHT=1
 WEIGHT=34
 TYPE1=10
