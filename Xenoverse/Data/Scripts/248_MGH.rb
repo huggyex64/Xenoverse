@@ -438,20 +438,8 @@ end
 
 def pbMGH
     if $MKXP
-        $DEBUG = true
-        Console::setup_console
-        # Perform a POST request on any URL
-        postdata = {
-            "type" => "getGifts",
-            "code" => "lMvKh4HwLJeeRltm0r4jaPlac3lciIR1"
-        }
         echoln "Ruby version #{VERSION}"
         echoln defined?(Net::HTTP)
-        #uri = URI('https://www.weedleteam.com/request.php')
-        #response = Net::HTTP.post_form(uri, 'type' => 'getGifts', 'code' => 'lMvKh4HwLJeeRltm0r4jaPlac3lciIR1')    
-        #response = HTTP.post("http://example.com/resource", :form => {"type" => "getGifts",
-        #                                                                "code" => "lMvKh4HwLJeeRltm0r4jaPlac3lciIR1"})#HTTPLite.post("https://www.weedleteam.com/request.php", postdata)
-        #echoln response
     else
         pbFadeOutIn(99999){
             MysteryGiftScene.new
