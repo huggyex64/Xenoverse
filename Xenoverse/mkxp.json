@@ -247,7 +247,7 @@
     // asset search path (multiple allowed)
     // (default: none)
     //
-    // "RTP": ["/path/to/rtp1",
+    // "RTP": ["lib/"],
     //         "/path/to/rtp2.zip",
     //         "/path/to/game.rgssad"],
 
@@ -281,7 +281,7 @@
     // link all required gems into libruby.so.
     // (default: none)
     //
-    // "rubyLoadpath": ["/usr/lib64/ruby/",
+    // "rubyLoadpath": ["L:/XenoGit/Xenoverse/Xenoverse/lib/"],//"/usr/lib64/ruby/",
     //                  "/usr/local/share/ruby/site_ruby"],
 
 

@@ -73,3 +73,41 @@ def pbSCRETRO(seen=true)
   end
   return ret
 end
+
+# Form description translation
+$fdtr={}
+
+def pbCreateFormDescTranslation
+  f = File.open("PBS/fdtr.txt","w")
+  formdesc = pbLoadFormInfos
+  for k in formdesc.keys
+    kind = formdesc[k].kind == nil ? "NO_KIND_SET (DO NOT REMOVE THIS LINE)" : formdesc[k].kind
+    f.write(kind)
+    f.write("\n")
+		f.write(kind)
+		f.write("\n")
+		f.write(formdesc[k].description)
+		f.write("\n")
+		f.write(formdesc[k].description)
+		f.write("\n")
+	end
+	f.close
+end
+
+def pbLoadFormDescTranslation
+	f = File.open("PBS/fdtr.txt")
+	l=0
+	key=nil
+	f.readlines.each do |line|
+		
+		if l%2==0
+			$fdtr[line.gsub("\n","")]=nil
+			key=line.gsub("\n","")
+		else
+			$fdtr[key]=line.gsub("\n","")
+			key=nil
+		end
+		l+=1
+	end
+	f.close
+end

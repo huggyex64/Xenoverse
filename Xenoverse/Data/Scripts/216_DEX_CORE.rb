@@ -18,7 +18,7 @@ module Dex
 	#TextUtilities
 	NUMBERFONTNAME = "Barlow Condensed"
 	NUMBERFONTSIZE = 20
-	TEXTFONTNAME = "Barlow Condensed ExtraBold"
+	TEXTFONTNAME = $MKXP ? "Barlow Condensed Bold" : "Barlow Condensed ExtraBold"
 	TEXTFONTSIZE = 25
 	FONTBOLD = true
 	
@@ -29,7 +29,7 @@ module Dex
 	
 	SPRITESIZE = 2
 	
-  STANDARDFONT = Font.new
+  	STANDARDFONT = Font.new
 	STANDARDFONT.name = ["Barlow Condensed","Verdana"]
 	STANDARDFONT.size = 28
 	STANDARDFONT.color.set(250,250,250,255)
@@ -97,6 +97,16 @@ class FormInfos
 		@height = height
 		@weight = weight
 		@kind = kind
+	end
+
+	def kind
+		return @kind if $PokemonSystem.language==0
+		return $fdtr[@kind] if $PokemonSystem.language!=0
+	end
+
+	def description
+		return @description if $PokemonSystem.language==0
+		return $fdtr[@description] if $PokemonSystem.language!=0
 	end
 end
 

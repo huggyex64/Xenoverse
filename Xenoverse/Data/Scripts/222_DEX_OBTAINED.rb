@@ -151,11 +151,16 @@ class DexObtained
     @pokemonBitmap = pbBitmap(st+add+sprintf("%03d",@species.to_s) + last )
 		
 		@frameCount = @pokemonBitmap.width/@pokemonBitmap.height
-		@sprites["sprite"].bitmap = @pokemonBitmap
+		@sprites["sprite"].bitmap = $MKXP ? Bitmap.new(@pokemonBitmap.height,@pokemonBitmap.height) : @pokemonBitmap
 		@sprites["sprite"].ox = @pokemonBitmap.height/2
 		@sprites["sprite"].oy = getSpriteBase(@pokemonBitmap)
 		@sprites["sprite"].y = 240
-		@sprites["sprite"].src_rect = Rect.new(@pokemonBitmap.height*@frame,0,@pokemonBitmap.height,@pokemonBitmap.height)
+		if !$MKXP
+			@sprites["sprite"].src_rect = Rect.new(@pokemonBitmap.height*@frame,0,@pokemonBitmap.height,@pokemonBitmap.height)
+		else
+			@sprites["sprite"].bitmap.clear
+			@sprites["sprite"].bitmap.blt(0,0,@pokemonBitmap,Rect.new(@pokemonBitmap.height*@frame,0,@pokemonBitmap.height,@pokemonBitmap.height))
+		end
 		#updating icon info
 		@sprites["icon"].bitmap = pbBitmap(Dex::PATH+"Icon/"+@species.to_s+last)
 		@sprites["type"].bitmap.clear if @sprites["type"].bitmap
@@ -282,7 +287,12 @@ class DexObtained
 		@frame += 1 if @frameskip == 1
 		@frameskip = 0 if @frameskip == 2
 		@frame = 0 if @frame>=@frameCount
-		@sprites["sprite"].src_rect = Rect.new(@pokemonBitmap.height*@frame,0,@pokemonBitmap.height,@pokemonBitmap.height)
+		if !$MKXP
+			@sprites["sprite"].src_rect = Rect.new(@pokemonBitmap.height*@frame,0,@pokemonBitmap.height,@pokemonBitmap.height)
+		else
+			@sprites["sprite"].bitmap.clear
+			@sprites["sprite"].bitmap.blt(0,0,@pokemonBitmap,Rect.new(@pokemonBitmap.height*@frame,0,@pokemonBitmap.height,@pokemonBitmap.height))
+		end
 		
 	end
 	

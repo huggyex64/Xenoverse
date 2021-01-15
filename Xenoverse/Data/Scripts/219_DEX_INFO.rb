@@ -75,13 +75,13 @@ class DexInfo
 		@sprites["formarrows"].z = 30
 		
 		@sprites["slider"] = EAMSprite.new(@viewport)
-    if @dexmain.lastpokemonIndex>0
-      height = (Dex::MAXSLIDERSIZE*(@dexmain.list.length/Dex::LINE-(@dexmain.lastpokemonIndex/Dex::LINE)))/(@dexmain.list.length.to_f/Dex::LINE)#
-    else
-      height = Dex::MAXSLIDERSIZE
-    end
-    
-    @sprites["slider"].bitmap = Bitmap.new(23,height+23)
+		if @dexmain.lastpokemonIndex>0
+			height = (Dex::MAXSLIDERSIZE*(@dexmain.list.length/Dex::LINE-(@dexmain.lastpokemonIndex/Dex::LINE)))/(@dexmain.list.length.to_f/Dex::LINE)#
+		else
+			height = Dex::MAXSLIDERSIZE
+		end
+		
+		@sprites["slider"].bitmap = Bitmap.new(23,height+23)
 		@sprites["slider"].z = 30
 		@sprites["slider"].x = 14
 		#generating the slider
@@ -95,13 +95,13 @@ class DexInfo
 		@maxsliderY = 188-height+11
 		
 		currentline =  @dexmain.list.index(@species)/ Dex::LINE
-    if @dexmain.lastpokemonIndex.to_f>0
-      threshold = (currentline*@maxsliderY)/(@dexmain.lastpokemonIndex.to_f/Dex::LINE)
-    else
-      threshold = 0
-    end
-    
-    @sprites["slider"].y = @startsliderY+threshold
+		if @dexmain.lastpokemonIndex.to_f>0
+			threshold = (currentline*@maxsliderY)/(@dexmain.lastpokemonIndex.to_f/Dex::LINE)
+		else
+			threshold = 0
+		end
+		
+		@sprites["slider"].y = @startsliderY+threshold
 		
 		@sprites["overbg"] = Sprite.new(@viewport)
 		@sprites["overbg"].bitmap = pbBitmap(Dex::PATH + "Info_overlay")
@@ -142,7 +142,12 @@ class DexInfo
 		@frame += 1 if @frameskip == 1
 		@frameskip = 0 if @frameskip == 2
 		@frame = 0 if @frame>=@frameCount
-		@sprites["sprite"].src_rect = Rect.new(@pokemonBitmap.height*@frame,0,@pokemonBitmap.height,@pokemonBitmap.height)
+		if !$MKXP
+			@sprites["sprite"].src_rect = Rect.new(@pokemonBitmap.height*@frame,0,@pokemonBitmap.height,@pokemonBitmap.height)
+		else
+			@sprites["sprite"].bitmap.clear
+			@sprites["sprite"].bitmap.blt(0,0,@pokemonBitmap,Rect.new(@pokemonBitmap.height*@frame,0,@pokemonBitmap.height,@pokemonBitmap.height))
+		end
 		@sprites["slider"].update
 		
 		for icon in @icons.values
@@ -152,13 +157,13 @@ class DexInfo
 	
 	def updateSliderPosition
 		currentline =  @dexmain.list.index(@species)/ Dex::LINE
-    if @dexmain.lastpokemonIndex>0
-      threshold = (currentline*@maxsliderY)/(@dexmain.lastpokemonIndex.to_f/Dex::LINE)
-    else
-      threshold = 0
-    end
-    
-    @sprites["slider"].move(14,@startsliderY+threshold,10,:ease_out_quad)
+		if @dexmain.lastpokemonIndex>0
+		threshold = (currentline*@maxsliderY)/(@dexmain.lastpokemonIndex.to_f/Dex::LINE)
+		else
+		threshold = 0
+		end
+		
+		@sprites["slider"].move(14,@startsliderY+threshold,10,:ease_out_quad)
 	end
 	
 	def updatePokemonInfo		
@@ -166,10 +171,10 @@ class DexInfo
 		@frame = 0
 		@frameskip = 0
     
-    st = (@shiny ? "Graphics/Battlers/FrontShiny/" : "Graphics/Battlers/Front/")
+    	st = (@shiny ? "Graphics/Battlers/FrontShiny/" : "Graphics/Battlers/Front/")
 		@sprites["shinybutton"].visible = $Trainer.shinyseen[@species]
     
-    last = ""
+    	last = ""
 		if !@forms[@formIndex].is_a?(String)
 			last = (@forms[@formIndex]>0 ? "_#{@forms[@formIndex]}" : "") if @forms.length>0
 		else
@@ -181,22 +186,27 @@ class DexInfo
 		@pokemonBitmap = pbBitmap(st+add+sprintf("%03d",@species.to_s) + last )
 		
 		@frameCount = @pokemonBitmap.width/@pokemonBitmap.height
-		@sprites["sprite"].bitmap = @pokemonBitmap
+		@sprites["sprite"].bitmap = $MKXP ? Bitmap.new(@pokemonBitmap.height,@pokemonBitmap.height) : @pokemonBitmap
 		@sprites["sprite"].ox = @pokemonBitmap.height/2
 		@sprites["sprite"].oy = getSpriteBase(@pokemonBitmap)
 		@sprites["sprite"].y = 240
-		@sprites["sprite"].src_rect = Rect.new(@pokemonBitmap.height*@frame,0,@pokemonBitmap.height,@pokemonBitmap.height)
+		if !$MKXP
+			@sprites["sprite"].src_rect = Rect.new(@pokemonBitmap.height*@frame,0,@pokemonBitmap.height,@pokemonBitmap.height)
+		else
+			@sprites["sprite"].bitmap.clear
+			@sprites["sprite"].bitmap.blt(0,0,@pokemonBitmap,Rect.new(@pokemonBitmap.height*@frame,0,@pokemonBitmap.height,@pokemonBitmap.height))
+		end
 		#updating icon info
 		#@sprites["icon"].bitmap = pbBitmap(Dex::PATH+"Icon/"+@species.to_s)
-    @sprites["icon"].dispose
+		@sprites["icon"].dispose
 		@sprites["icon"] = DexIcon.new(@viewport,@species)
-    @sprites["icon"].x = 162
+		@sprites["icon"].x = 162
 		@sprites["icon"].y = 5
-    @sprites["icon"].z = 30
-    @sprites["icon"].tone = Tone.new(0,0,0,0)
+		@sprites["icon"].z = 30
+		@sprites["icon"].tone = Tone.new(0,0,0,0)
 		@sprites["icon"].color = Color.new(0,0,0,0)
-    @sprites["icon"].opacity = 255
-    @sprites["type"].bitmap.clear if @sprites["type"].bitmap
+		@sprites["icon"].opacity = 255
+		@sprites["type"].bitmap.clear if @sprites["type"].bitmap
 		
 		index = @dexmain.dex.index(@species)+1
 		echoln @forms

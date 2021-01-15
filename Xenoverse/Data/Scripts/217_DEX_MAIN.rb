@@ -25,6 +25,7 @@ class DexMain
 	
   def initialize(dexlist=0)
 		Console::setup_console if $DEBUG
+		pbLoadFormDescTranslation
     @viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
     @viewport.z = 999999
 		#$Trainer.seen[244] = false

@@ -29,7 +29,14 @@ class Fullbox_Option
 	def self.createFromText(text)
 		color = nil
 		callback = nil
-		
+		if $PokemonSystem.language != 0 #0 italian, 1 english
+			begin
+				text=MessageTypes.getFromMapHash($game_map.map_id,text.gsub(/\n/,' '))#MessageTypes.getFromMapHash(0,message)
+				echoln(text)
+			rescue
+				text=text	
+			end
+		end
 		commands = text.scan(/(\[(\\|@|:)([0-9a-zA-Z]+)\])/)
 		Log.d(FBC_TAG,commands.inspect)
 		
