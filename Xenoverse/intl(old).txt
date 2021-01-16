@@ -31200,7 +31200,7 @@ I PP di {2} di {1} calano di {3}!
 {1} blew away poison spikes!
 {1} spazza via le Fielepunte!
 {1} foresaw an attack!
-{1} prevede l'attacco!
+{1} prevede il futuro imminente!
 {1} chose Doom Desire as its destiny!
 {1} chose Doom Desire as its destiny!
 {1} can't stockpile any more!

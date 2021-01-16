@@ -4428,7 +4428,7 @@ Julie
 Tesoro, fa' attenzione ai Pokémon selvatici!
 Watch out for wild Pokémon, honey!
 <<[>>old<<]>>Non sai come far evolvere un Pokémon? Non preoccuparti! In giro per la regione troverai tanti cittadini che aspettano solo di condividere le loro preziose informazioni con te!
-<<[>>old<<]>>Don't know how to evolve a certain Pokémon? Don't worry! All around the region, you may find bunch of citizens just waiting to share their precious informations with you!
+<<[>>old<<]>>Don't know how to evolve a certain Pokémon?\nDon't worry!\nAll around the region, you may find bunch of citizens just waiting to share their precious informations with you!
 [Map93]
 Ivan
 Nathan
@@ -12708,41 +12708,41 @@ If you get caught in the crowd, security will come and<<n>>help you. Just hit th
 [Map279]
 [Map280]
 Ginevra
-Ginevra
+Kendall
 Non riesco più a trovare la strada... forse una lotta mi farà ragionare a mentre fredda!
-Non riesco più a trovare la strada... forse una lotta mi farà ragionare a mentre fredda!
+I can't find my way out...maybe a battle will make me<<n>>keep a cool head!
 Allora, ragioniamo... la città è laggiù ed io sono quassù...
-Allora, ragioniamo... la città è laggiù ed io sono quassù...
+Hmm. Lemme think...the town is down there and I'm up here...
 Bella
 Bella
 Wow, il profumo di questi fiori sembra proprio rinvigorire i Pokémon!
-Wow, il profumo di questi fiori sembra proprio rinvigorire i Pokémon!
+It looks like the delicate scent of these flowers<<n>>reinvigorates my Pokémon!
 Mi basterà far annusare questi fiori ai miei Pokémon per rimetterli in forze.
-Mi basterà far annusare questi fiori ai miei Pokémon per rimetterli in forze.
+I just think a smelt of these flowers is all my Pokémon need to get their strength back!
 Pesci
-Pesci
+Pisces
 Vediamo un po’ cosa si riesce a tirare su con quest’esca così originale!
-Vediamo un po’ cosa si riesce a tirare su con quest’esca così originale!
+Well, let's see what can I fish up with such<<n>>an unusual bait!
 Il pesce più grosso è quello che non ho ancora pescato!
-Il pesce più grosso è quello che non ho ancora pescato!
+The biggest fish is the one I haven't caught yet!
 Siliano
 Carson
 Solo da Siliano, articoli mai visti a prezzi stracciati!!
 Only Carson's got what you're looking for!<<n>>C'mon, have a look!
 Tonio
-Tonio
+Brady
 Bah, i Pokémon selvatici tra i fiori! Cos’altro toccherà sorbirmi?!
-Bah, i Pokémon selvatici tra i fiori! Cos’altro toccherà sorbirmi?!
+Pshaw! Wild Pokémon among flowers...!<<n>>What else am I gonna have to suffer?!
 Certo che non esistono nemmeno più i Percorsi di una volta, eh?
-Certo che non esistono nemmeno più i Percorsi di una volta, eh?
+Routes nowadays aren't what they used to be, huh?
 <<[>>old<<]>>Non sai come far evolvere un Pokémon? Non preoccuparti! In giro per la regione troverai tanti cittadini che aspettano solo di condividere le loro preziose informazioni con te!
-<<[>>old<<]>>Don't know how to evolve a certain Pokémon? Don't worry! All around the region, you may find bunch of citizens just waiting to share their precious informations with you!
+<<[>>old<<]>>Don't know how to evolve a certain Pokémon?\nDon't worry!\nAll around the region, you may find bunch of citizens just waiting to share their precious informations with you!
 Holly
 Holly
 Ehi, ma proprio da qui dovevi passare?! Mi hai fatto scappare il Coleottero che tenevo d’occhio da un pezzo!
-Ehi, ma proprio da qui dovevi passare?! Mi hai fatto scappare il Coleottero che tenevo d’occhio da un pezzo!
+Why'd you screw it up?! You made that Bug I've been<<n>>keeping an eye on for days ran away!
 Non riuscirò mai più ad averlo così a portata di retino...
-Non riuscirò mai più ad averlo così a portata di retino...
+I'll never have it on net again...
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Would you like to open this chest?
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
@@ -12754,11 +12754,11 @@ You were only having a look, after all...<<n>>but don't ever try that again!<<n>
 <<[>>old<<]>>Meglio non rischiare...
 <<[>>old<<]>>It's too risky...
 Dario
-Dario
+Daniel
 Il sentiero è ancora lungo, ma penso proprio che una lotta possa motivarmi a dovere!
-Il sentiero è ancora lungo, ma penso proprio che una lotta possa motivarmi a dovere!
+The walk is still long, but I'm sure a fight will help motivate me!
 E invece mi sa tanto che me rimango qui a riposare per un po'...
-E invece mi sa tanto che me rimango qui a riposare per un po'...
+Well, think I'm gonna stay here and get some rest...
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
@@ -12780,63 +12780,63 @@ Shu...!
 <<[>>old<<]>>Forse il tuo Pokémon iniziale potrebbe addentrarsi in questo Nido.
 <<[>>old<<]>>Probably your starter Pokémon could get in this Den.
 Pepe
-Pepe
+Kira
 Uaa-tah!! Finito l’allenamento saremo in grado di spaccare anche quello spesso muro di roccia!
-Uaa-tah!! Finito l’allenamento saremo in grado di spaccare anche quello spesso muro di roccia!
+Hi-yah!! Once we're done with training, we'll be able to break even that thick rock wall over there!
 Dobbiamo allenarci con più impegno!
-Dobbiamo allenarci con più impegno!
+We gotta train harder!
 Alejandro
-Alejandro
+Martin
 Guarda! I Pokémon selvatici vengono dietro al suono della mia chitarra!
-Guarda! I Pokémon selvatici vengono dietro al suono della mia chitarra!
+Whoa, look at that! Wild Pokémon are coming after<<n>>the sound of my guitar!
 Mi sento come il pifferaio di quella famosa leggenda!
-Mi sento come il pifferaio di quella famosa leggenda!
+I'm feeling like the pied piper of that famous legend!
 Adelia
-Adelia
+Candace
 Non bastava dare a tutti dei nomi di fiori... ora me li devo anche trovare tra i piedi mentre passeggio!
-Non bastava dare a tutti dei nomi di fiori... ora me li devo anche trovare tra i piedi mentre passeggio!
+Giving everyone flowers' names wasn't enough?!<<n>>Now I find them in my way while taking a walk too!
 Bah, proprio non capisco questa improvvisa passione per i fiori.
-Bah, proprio non capisco questa improvvisa passione per i fiori.
+Yuck, I just really don't get it...where is this sudden passion for flowers coming from?!
 Frank
 Frank
 Argh! Non ci capisco niente con tutte queste stradine segnate sulla mappa...!
-Argh! Non ci capisco niente con tutte queste stradine segnate sulla mappa...!
+Ugh! I can't get any of these paths on the nav...!
 Mi chiedo come ci si possa perdere con tanto di Mappa Città sotto al naso...
-Mi chiedo come ci si possa perdere con tanto di Mappa Città sotto al naso...
+How could I have got lost with this Town Map under my nose?! 
 Sonia
 Sonia
 Non avevo mai visto niente del genere... Qui i Pokémon non si trovano nell’erba alta, ma tra i fiori!
-Non avevo mai visto niente del genere... Qui i Pokémon non si trovano nell’erba alta, ma tra i fiori!
+I've never seen anything like that...here Pokémon<<n>>aren't hiding in tall grass, but among flowers!
 Non avevo nemmeno mai visto un Allenatore del tuo calibro!
-Non avevo nemmeno mai visto un Allenatore del tuo calibro!
+I've never seen a Trainer like you either!
 Certo che mi sono spaventata quando, passeggiando tra i fiori, mi sono imbattuta in un Pokémon selvatico.
-Certo che mi sono spaventata quando, passeggiando tra i fiori, mi sono imbattuta in un Pokémon selvatico.
+I really got scared when a wild Pokémon attacked me<<n>>while I was strolling through flowers.
 Viviano
-Viviano
+Vincent
 Amo alla mano, peschiamo e lottiamo!
-Amo alla mano, peschiamo e lottiamo!
+Hook in hand, let's fight and catch!
 È il motto di noi Pescatori...
-È il motto di noi Pescatori...
+That's the Fishers motto...
 ''Amo alla mano, peschiamo e lottiamo!'' è il motto di noi Pescatori.
-''Amo alla mano, peschiamo e lottiamo!'' è il motto di noi Pescatori.
+''Hook in hand, let's fight and catch!'' is the Fishers motto.
 <<[>>old<<]>>Rivolgiti al Ricordamosse <b>Mnemonio</b> per insegnare ai tuoi Pokémon mosse che hanno dimenticato col tempo. Chissà, potrebbe sorprenderti!
 <<[>>old<<]>>Talk to <b>Memo</b> the Move Reminder if you want him to teach your Pokémon moves they have forgotten while leveling up. He may surprise you!
 Tatiana
-Tatiana
+Caroline
 Secondo le ricerche, da qualche parte in questo sentiero, dovrebbe esserci una faglia interdimensionale.
-Secondo le ricerche, da qualche parte in questo sentiero, dovrebbe esserci una faglia interdimensionale.
+According to research, there is an interdimensional<<n>>fault line somewhere in this path.
 Alessia
-Alessia
+Hailey
 Il Pokéboard è come un magico tappeto volante che punta sempre in una direzione... la vittoria!
-Il Pokéboard è come un magico tappeto volante che punta sempre in una direzione... la vittoria!
+Pokéboard is like a flying magical carpet always pointing in a specific direction--victory!
 Lo skateboarding mi ha insegnato a stare in equilibrio e a rialzarmi dalle cadute.
-Lo skateboarding mi ha insegnato a stare in equilibrio e a rialzarmi dalle cadute.
+Skateboarding has taught me how to keep a balance and how to pick myself up after a fall.
 Leo
 Leo
 Chissà se qui si riesce a pescare il leggendario Gyarados rosso... Non mi resta che provare!
-Chissà se qui si riesce a pescare il leggendario Gyarados rosso... Non mi resta che provare!
+Who knows if I can fish the mythical red Gyarados<<n>>here? I'll find it out all by myself!
 Ci sono pesci che nessuno riesce a catturare, ma il discorso non vale per me!
-Ci sono pesci che nessuno riesce a catturare, ma il discorso non vale per me!
+There are some fish that cannot be caught...but this doesn't work for me!
 Aster
 Aster
 \PN, siamo qui!
@@ -16131,8 +16131,6 @@ Rocco
 Rocco
 Quel tipo coi capelli azzurri dev’essere un mostro! Guarda qui come ha ridotto questa povera Recluta...
 Quel tipo coi capelli azzurri dev’essere un mostro! Guarda qui come ha ridotto questa povera Recluta...
-<<[>>old<<]>> Questi laser t'impediscono di proseguire. Forse sconfiggendo determinati avversari, potrebbero disattivarsi.
-<<[>>old<<]>> Questi laser t'impediscono di proseguire. Forse sconfiggendo determinati avversari, potrebbero disattivarsi.
 BB88
 BB88
 Pensavo di potermene andare in standby per un po', ma a quanto pare mi sbagliavo! <i>Bzz!</i>
@@ -16163,7 +16161,7 @@ Sabolt
 Bolt...!
 Bolt...!
 \PN! Uh uh uh!
- \PN! Uh uh uh!
+\PN! Uh uh uh!
 La puzza di rottame qui si fa più intensa...
 La puzza di rottame qui si fa più intensa...
 Vi ho trovati, A & B!!
@@ -16755,8 +16753,8 @@ Alice, ma tu come...?
 Alice, ma tu come...?
 Trey mi ha raccontato tutto mentre venivamo qui.
 Trey mi ha raccontato tutto mentre venivamo qui.
-\PN, posso capire quanto ti abbia shockato sapere la verità, ma è proprio questo il momento di reagire! Se tuo padre è davvero in pericolo dobbiamo andare lì dentro e aiutarlo! Non possiamo stare qui a piangerci addosso dopo aver fatto tutta questa strada!
-\PN, posso capire quanto ti abbia shockato sapere la verità, ma è proprio questo il momento di reagire! Se tuo padre è davvero in pericolo dobbiamo andare lì dentro e aiutarlo!  Non possiamo stare qui a piangerci addosso dopo aver fatto tutta questa strada!
+\PN, posso capire quanto ti abbia shockato la verità, ma è proprio questo il momento di reagire! Se tuo padre è davvero in pericolo dobbiamo andare lì dentro e aiutarlo! Non possiamo stare qui a piangerci addosso dopo aver fatto tutta questa strada!
+\PN, posso capire quanto ti abbia shockato la verità, ma è proprio questo il momento di reagire! Se tuo padre è davvero in pericolo dobbiamo andare lì dentro e aiutarlo!  Non possiamo stare qui a piangerci addosso dopo aver fatto tutta questa strada!
 Sì, Alice ha ragione! Dobbiamo entrare nello Xenoverse anche noi e alla svelta anche!
 Sì, Alice ha ragione! Dobbiamo entrare nello Xenoverse anche noi e alla svelta anche!
 Coraggio \PN, aspettiamo solo che tu te la senta di proseguire.
@@ -16767,8 +16765,8 @@ Kay
 Kay
 Kay, ma tu come...?
 Kay, ma tu come...?
-\PN, posso capire quanto ti abbia shockata sapere la verità, ma è proprio questo il momento di reagire! Se tuo padre è davvero in pericolo dobbiamo andare lì dentro e aiutarlo! Non possiamo stare qui a piangerci addosso dopo aver fatto tutta questa strada!
-\PN, posso capire quanto ti abbia shockata sapere la verità, ma è proprio questo il momento di reagire! Se tuo padre è davvero in pericolo dobbiamo andare lì dentro e aiutarlo!  Non possiamo stare qui a piangerci addosso dopo aver fatto tutta questa strada!
+\PN, posso capire quanto ti abbia shockata la verità, ma è proprio questo il momento di reagire! Se tuo padre è davvero in pericolo dobbiamo andare lì dentro e aiutarlo! Non possiamo stare qui a piangerci addosso dopo aver fatto tutta questa strada!
+\PN, posso capire quanto ti abbia shockata la verità, ma è proprio questo il momento di reagire! Se tuo padre è davvero in pericolo dobbiamo andare lì dentro e aiutarlo!  Non possiamo stare qui a piangerci addosso dopo aver fatto tutta questa strada!
 Sì, Kay ha ragione! Dobbiamo entrare nello Xenoverse anche noi e alla svelta anche!
 Sì, Kay ha ragione! Dobbiamo entrare nello Xenoverse anche noi e alla svelta anche!
 Sabolt
@@ -17052,8 +17050,8 @@ Che domande! Voglio un posto in prima fila per assistere alla fine del genere um
 Che domande! Voglio un posto in prima fila per assistere alla fine del genere umano!! Dopo millenni, questa è finalmente la volta buona! Gengah ah ah!
 Potete solo pregare che il vostro ''supremo signore'' venga a salvarvi la pelle... Oh, già! Non può! Gengah ah ah!
 Potete solo pregare che il vostro ''supremo signore'' venga a salvarvi la pelle... Oh, già! Non può! Gengah ah ah!
-Con <b>quei quattro</b> sguinzagliati sulla Terra ha tutt’altra gatta da pelare! Siete spacciatiii! Gengah ah ah!
-Con <b>quei quattro</b> sguinzagliati sulla Terra ha tutt’altra gatta da pelare! Siete spacciatiii! Gengah ah ah!
+Con <b>quei quattro</b> sguinzagliati sulla Terra ha tutt'altra gatta da pelare! Siete spacciatiii! Gengah ah ah!
+Con <b>quei quattro</b> sguinzagliati sulla Terra ha tutt'altra gatta da pelare! Siete spacciatiii! Gengah ah ah!
 Ehi, aspetta, maledetto! Cosa vuoi dire?!
 Ehi, aspetta, maledetto! Cosa vuoi dire?!
 Dannazione!! Dannazione!! Sta andando tutto a rotoli!
@@ -17068,10 +17066,6 @@ Andiamo a prendere Versil e torniamo indietro!!
 Andiamo a prendere Versil e torniamo indietro!!
 Kay
 Kay
-Gengar X
-Gengar X
-Con <b>quei quattro</b> sguinzagliati sulla Terra ha tutt'altra gatta da pelare! Siete spacciatiii! Gengah ah ah!
-Con <b>quei quattro</b> sguinzagliati sulla Terra ha tutt'altra gatta da pelare! Siete spacciatiii! Gengah ah ah!
 [Map386]
 Versil
 Versil
@@ -19868,8 +19862,6 @@ Volevo solo... proteggervi...
 Volevo solo... proteggervi...
 Tu & Kay
 Tu & Kay
-Scusatemi... se vi ho trascinato in tutto questo.. cough!
-Scusatemi... se vi ho trascinato in tutto questo.. cough!
 [Map540]
 Alter
 Alter
@@ -44368,7 +44360,7 @@ Tata
 Giorgina
 Georgina
 Ginevra
-Ginevra
+Kendall
 Ermia
 Erina
 Klaudia
@@ -44420,7 +44412,7 @@ Oscar
 Karua
 Karua
 Pepe
-Pepe
+Kira
 Roman
 Roman
 Marano
@@ -44536,7 +44528,7 @@ Verena
 Ivan
 Nathan
 Alejandro
-Alejandro
+Martin
 George
 George
 Pier
@@ -44580,7 +44572,7 @@ Annarita
 Donna
 Donna
 Adelia
-Adelia
+Candace
 Brianna
 Brianna
 Alisia
@@ -44602,7 +44594,7 @@ Jacob
 Giovanni
 Giovanni
 Tonio
-Tonio
+Brady
 Adriano
 Nash
 Lisa
@@ -44664,7 +44656,7 @@ Gerardo
 Massimo
 Dawson
 Dario
-Dario
+Daniel
 Tibbio
 Timothy
 Simone
@@ -44710,7 +44702,7 @@ Derek
 Faso
 Faso
 Pesci
-Pesci
+Pisces
 Holland
 Holland
 Pasqualino
@@ -44722,7 +44714,7 @@ Malcolm
 Guglielmo
 Guglielmo
 Viviano
-Viviano
+Vincent
 Carmine
 Carmine
 Lorenzo
@@ -44906,7 +44898,7 @@ Madalina
 Sibilla
 Sibilla
 Alessia
-Alessia
+Hailey
 Wolly
 Wolly
 Timon
