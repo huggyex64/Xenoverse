@@ -21,15 +21,25 @@ def pbBattleAltPokemonForm(pkmn,form=0,variable=nil,canescape=true,canlose=false
   pkmn.forcedForm=form
   pbWildPokemonBattle(pkmn,variable,canescape,canlose,skipanim) 
 end
-
+=begin
 if $MKXP
-  #class Font
+  class Font
+    #alias old_init initialize
+    #def initialize(*args)
+    #  old_init(args)
+    #  @default_size=22
+    #end
+
+    def size=(value)
+      @size=value#value-1
+    end
+
   #  def size=(value)
   #      @size=value-2
   #  end
-  #end
+  end
 end
-
+=end
 #===============================================================================
 # Start a single wild Pokemon battle
 #===============================================================================
@@ -177,6 +187,10 @@ def pbChangeLegendaryForm(index)
   $Trainer.party[index].form = $Trainer.party[index].form==1 ? 0 : 1
 end
 
+def testbit
+  return ['foo'].pack('p').size
+end
+
 ################################################################################
 # Location box override
 ################################################################################
@@ -190,7 +204,7 @@ class LocationWindow
     @sprites["overlay"].z=99999
     @sprites["overlay"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
     #Dimensione standard 20, oltre i 
-    fontsize = 20 - ($game_map.name.length>13 ? ($game_map.name.length-13)*0.5 : 0)
+    fontsize = ($MKXP ? 18 : 20) - ($game_map.name.length>13 ? ($game_map.name.length-13)*0.5 : 0)
     @sprites["overlay"].bitmap.font.size = fontsize
     
     @overlay = @sprites["overlay"].bitmap

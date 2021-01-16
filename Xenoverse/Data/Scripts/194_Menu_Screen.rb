@@ -45,7 +45,7 @@ class WheelMenu_Option < Sprite
 		@option.y = Graphics.height/2 # 20/2 - height
 		@option.bitmap = Bitmap.new(150,40)
 		pbSetSystemFont(@option.bitmap)
-		@option.bitmap.font.size = 38
+		@option.bitmap.font.size = $MKXP ? 36 : 38
 		@option.bitmap.draw_text(0,0,150,40,@text,1)
 		@option.ox = 75	# 150/2 - width
 		@option.oy = 20	# 20/2 - height

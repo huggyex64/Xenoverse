@@ -10,56 +10,72 @@ $ResizeOffsetY    = 0
 $ResizeFactorSet  = false
 $HaveResizeBorder = false
 
-if true   # Disables using Alt+Enter to go fullscreen
+if true && !$MKXP   # Disables using Alt+Enter to go fullscreen
   regHotKey = Win32API.new('user32', 'RegisterHotKey', 'LIII', 'I')
   regHotKey.call(0, 1, 1, 0x0D)
 end
-
-def pbSetResizeFactor(factor)
-  if $ResizeFactor!=factor
-    $ResizeFactor=factor
-    $ResizeFactorMul=(factor*100).to_i
-    if $ResizeFactorSet!=false
-      ObjectSpace.each_object(Sprite){|o|
-         next if o.disposed?
-         o.x=o.x
-         o.y=o.y
-         o.ox=o.ox
-         o.oy=o.oy
-         o.zoom_x=o.zoom_x
-         o.zoom_y=o.zoom_y
-      }
-      ObjectSpace.each_object(Viewport){|o|
-         begin
-           o.rect=o.rect
-           o.ox=o.ox
-           o.oy=o.oy
-         rescue RGSSError
-         end
-      }
-      ObjectSpace.each_object(Plane){|o|
-         next if o.disposed?
-         o.zoom_x=o.zoom_x
-         o.zoom_y=o.zoom_y
-      }
+if !$MKXP
+  def pbSetResizeFactor(factor)
+    if $ResizeFactor!=factor
+      $ResizeFactor=factor
+      $ResizeFactorMul=(factor*100).to_i
+      if $ResizeFactorSet!=false
+        ObjectSpace.each_object(Sprite){|o|
+          next if o.disposed?
+          o.x=o.x
+          o.y=o.y
+          o.ox=o.ox
+          o.oy=o.oy
+          o.zoom_x=o.zoom_x
+          o.zoom_y=o.zoom_y
+        }
+        ObjectSpace.each_object(Viewport){|o|
+          begin
+            o.rect=o.rect
+            o.ox=o.ox
+            o.oy=o.oy
+          rescue RGSSError
+          end
+        }
+        ObjectSpace.each_object(Plane){|o|
+          next if o.disposed?
+          o.zoom_x=o.zoom_x
+          o.zoom_y=o.zoom_y
+        }
+      end
     end
-  end
-  $ResizeFactorSet=true
-  if $HaveResizeBorder
-    $ResizeBorder.refresh
-  end
-  begin
-    if Graphics.haveresizescreen
-      Graphics.oldresizescreen(
+    $ResizeFactorSet=true
+    if $HaveResizeBorder
+      $ResizeBorder.refresh
+    end
+    begin
+      if Graphics.haveresizescreen
+        Graphics.oldresizescreen(
+          (Graphics.width+$ResizeOffsetX*2)*factor,
+          (Graphics.height+$ResizeOffsetY*2)*factor
+        )
+      end
+      Win32API.SetWindowPos(
         (Graphics.width+$ResizeOffsetX*2)*factor,
         (Graphics.height+$ResizeOffsetY*2)*factor
       )
+    rescue
     end
-    Win32API.SetWindowPos(
-       (Graphics.width+$ResizeOffsetX*2)*factor,
-       (Graphics.height+$ResizeOffsetY*2)*factor
-    )
-  rescue
+  end
+else
+  # This kinda puts most of SpriteResizer out of business
+  def pbSetResizeFactor(factor)
+    if !$ResizeInitialized
+      Graphics.resize_screen(DEFAULTSCREENWIDTH,DEFAULTSCREENHEIGHT)
+      $ResizeInitialized = true
+    end
+    if factor < 0
+      Graphics.fullscreen = true if !Graphics.fullscreen
+    else
+      Graphics.fullscreen = false if Graphics.fullscreen
+      Graphics.scale = factor
+      Graphics.center
+    end
   end
 end
 
@@ -149,13 +165,13 @@ module Graphics
       @@haveresizescreen
     end
   end
-
-  def self.resize_screen(w,h)
-    @@width=w
-    @@height=h
-    pbSetResizeFactor($ResizeFactor)
+  if !$MKXP
+    def self.resize_screen(w,h)
+      @@width=w
+      @@height=h
+      pbSetResizeFactor($ResizeFactor)
+    end
   end
-
   @@deletefailed=false
 
   def self.snap_to_bitmap

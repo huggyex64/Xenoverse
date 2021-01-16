@@ -1,6 +1,6 @@
 BAGITEMFONT = Font.new
 BAGITEMFONT.name = [$MKXP ? "Kimberley" : "Kimberley Bl","Verdana"]
-BAGITEMFONT.size = 18
+BAGITEMFONT.size = $MKXP ? 16 : 18
 class NewBagScreen
 	
 	def pbStartScene(bag)
@@ -38,7 +38,7 @@ class NewBagScreen
 		@sprites["pocketname"].bitmap = Bitmap.new(216,53)
 		@sprites["pocketname"].y = 47
 		@sprites["pocketname"].bitmap.font = BAGITEMFONT
-		@sprites["pocketname"].bitmap.font.size = 24
+		@sprites["pocketname"].bitmap.font.size = $MKXP ? 22 : 24
 		pbDrawTextPositions(@sprites["pocketname"].bitmap,[[@pocketNames[@curPocketIndex],14,10,0,Color.new(24,24,24,100)]])
 		
 		@sprites["barbg"]=Sprite.new(@viewport)
@@ -56,14 +56,14 @@ class NewBagScreen
 		@sprites["lowerbar"].bitmap = pbBitmap(@path+"Lowerbar")
 		@sprites["lowerbar"].y = 343
 		@sprites["lowerbar"].bitmap.font = SUMMARYITEMFONT
-		@sprites["lowerbar"].bitmap.font.size = 26
+		@sprites["lowerbar"].bitmap.font.size = $MKXP ? 24 : 26
 		@sprites["lowerbar"].bitmap.font.bold = true
 		@sprites["lowerbar"].z = 10
 		
 		@sprites["info"]=Sprite.new(@viewport)
 		@sprites["info"].bitmap = Bitmap.new(512,384)
 		@sprites["info"].bitmap.font = SUMMARYITEMFONT
-		@sprites["info"].bitmap.font.size = 22
+		@sprites["info"].bitmap.font.size = $MKXP ? 18 :  22
 		@sprites["info"].z = 10
 		
 		drawItemInfo if @curPocket.length>0
@@ -160,7 +160,7 @@ class NewBagScreen
 		@s["box"].z = 100
 		@s["box"].bitmap = pbBitmap(@path + "SelectBox").clone
 		@s["box"].bitmap.font = SUMMARYITEMFONT
-		@s["box"].bitmap.font.size = 24
+		@s["box"].bitmap.font.size = $MKXP ? 22 : 24
 		drawTextExH(@s["box"].bitmap,45,314,434,2,text,Color.new(24,24,24),Color.new(24,24,24,0),22)
 		@s["box"].opacity = 0
 		@s["box"].fade(255,10)
@@ -187,7 +187,7 @@ class NewBagScreen
 		@s["box"].z = 100
 		@s["box"].bitmap = pbBitmap(@path + "SelectBox").clone
 		@s["box"].bitmap.font = SUMMARYITEMFONT
-		@s["box"].bitmap.font.size = 24
+		@s["box"].bitmap.font.size = $MKXP ? 22 : 24
 		
 		drawTextExH(@s["box"].bitmap,45,314,434,2,text,Color.new(24,24,24),Color.new(24,24,24,0),22)
 		@s["box"].opacity = 0
@@ -197,7 +197,7 @@ class NewBagScreen
 		bmp.blt(22,0,b,Rect.new(22,0,44,38))
 		bmp.blt(88-22,0,b,Rect.new(148-22,0,22,38))
 		bmp.font = SUMMARYITEMFONT
-		bmp.font.size = 26
+		bmp.font.size = $MKXP ? 24 : 26
 		@s["yes"] = EAMSprite.new(@viewport3)
 		@s["yes"].bitmap = bmp.clone
 		@s["yes"].ox = @s["yes"].bitmap.width
@@ -366,7 +366,8 @@ class NewBagScreen
 					tmpbmp = @icons["i#{@index}"].bitmap
 					@icons["i#{@index}"].bitmap = @icons["i#{@swid}"].bitmap
 					@icons["i#{@swid}"].bitmap = tmpbmp
-					@icons["i#{@swid}"].color = Color.new(0,0,0,0)
+					@icons["i#{@swid}"].color = (@swid==@index ? Color.new(0,0,0,0) : Color.new(0,0,0,150))
+					@icons["i#{@index}"].color = Color.new(0,0,0,0)
 					@swid=-1
 					drawItemInfo
 					#pbRefresh
@@ -438,7 +439,7 @@ class NewBagScreen
 		@s["box"].z = 1
 		@s["box"].bitmap = pbBitmap(@path + "SelectBox").clone
 		@s["box"].bitmap.font = SUMMARYITEMFONT
-		@s["box"].bitmap.font.size = 24
+		@s["box"].bitmap.font.size = $MKXP ? 22 : 24
 		
 		drawTextExH(@s["box"].bitmap,45,314,434,2,helptext,Color.new(24,24,24),Color.new(24,24,24,0),22)
 		maxqty = qty
@@ -446,7 +447,7 @@ class NewBagScreen
 		qt = 0
 		bmp = pbBitmap(@path + "qtyoption")
 		bmp.font = SUMMARYITEMFONT
-		bmp.font.size = 26
+		bmp.font.size = $MKXP ? 24 : 26
 		@s["qtbg"] = EAMSprite.new(@viewport3)
 		@s["qtbg"].bitmap = bmp.clone
 		@s["qtbg"].ox = @s["qtbg"].bitmap.width
@@ -520,7 +521,7 @@ class NewBagScreen
 		@s["box"].z = 101
 		@s["box"].bitmap = pbBitmap(@path + "SelectBox").clone
 		@s["box"].bitmap.font = SUMMARYITEMFONT
-		@s["box"].bitmap.font.size = 24
+		@s["box"].bitmap.font.size = $MKXP ? 22 : 24
 		anchor = 496
 		@cmdid = 0
 		for cmd in 0...commands.length
@@ -530,7 +531,7 @@ class NewBagScreen
 			@s["#{cmd}"].x = anchor
 			@s["#{cmd}"].y = 270 - 38*(commands.length-1) + 38*cmd
 			@s["#{cmd}"].bitmap.font = SUMMARYITEMFONT
-			@s["#{cmd}"].bitmap.font.size = 24
+			@s["#{cmd}"].bitmap.font.size = $MKXP ? 22 : 24
 			@s["#{cmd}"].z = 102
 			pbDrawTextPositions(@s["#{cmd}"].bitmap,[[commands[cmd],74,6,2,Color.new(24,24,24)]])
 			

@@ -17,7 +17,7 @@ class CommandScreen
 		@sprites["page1"].src_rect=Rect.new(0,0,512,340)# if !$Trainer.pokewes
 		@sprites["page1"].bitmap.font = Font.new
 		@sprites["page1"].bitmap.font.name = "Barlow Condensed"
-		@sprites["page1"].bitmap.font.size = 24
+		@sprites["page1"].bitmap.font.size = $MKXP ? 22 : 24
 		
 		textpos = []
 		textpos.push([_INTL("Move / Navigate"),360,67,2,Color.new(248,248,248)])

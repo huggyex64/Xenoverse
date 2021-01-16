@@ -18,7 +18,7 @@ class GameModeScreen
 		
 		fontname = "Barlow Condensed"
 		
-		fontsize = 28
+		fontsize = $MKXP ? 26 : 28
 		
 		@baseColor = Color.new(248,248,248)
 		@shadowColor = Color.new(28,28,28)

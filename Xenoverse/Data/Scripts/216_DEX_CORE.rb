@@ -17,9 +17,9 @@ module Dex
 	
 	#TextUtilities
 	NUMBERFONTNAME = "Barlow Condensed"
-	NUMBERFONTSIZE = 20
+	NUMBERFONTSIZE = $MKXP ? 18 : 20
 	TEXTFONTNAME = $MKXP ? "Barlow Condensed Bold" : "Barlow Condensed ExtraBold"
-	TEXTFONTSIZE = 25
+	TEXTFONTSIZE = $MKXP ? 23 : 25
 	FONTBOLD = true
 	
 	MAINCOLOR = Color.new(248,248,248)
@@ -31,7 +31,7 @@ module Dex
 	
   	STANDARDFONT = Font.new
 	STANDARDFONT.name = ["Barlow Condensed","Verdana"]
-	STANDARDFONT.size = 28
+	STANDARDFONT.size = $MKXP ? 26 : 28
 	STANDARDFONT.color.set(250,250,250,255)
   
 end

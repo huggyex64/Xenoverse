@@ -28,7 +28,7 @@ class PokemonEntryScene
 		@sprites["hw"] = BitmapSprite.new(512,28,@viewport)
 		@sprites["hw"].y = 343
 		@sprites["hw"].bitmap.font = SUMMARYITEMFONT
-		@sprites["hw"].bitmap.font.size = 24
+		@sprites["hw"].bitmap.font.size = $MKXP ? 22 : 24
 		textpos = []
 		if minlength==0
 			textpos.push([_INTL("Enter text using the keyboard. Press ESC to cancel, or ENTER to confirm."),256,2,2,Color.new(248,248,248)])
@@ -102,7 +102,7 @@ class Window_TextEntry_KeyboardNEW < Window_TextEntry_Keyboard
 		self.__setWindowskin(Bitmap.new(1,1))
 		@curfont = SUMMARYITEMFONT
 		self.contents.font = SUMMARYITEMFONT
-		self.contents.font.size = 26
+		self.contents.font.size = $MKXP ? 24 : 26
 		#self.contents.font.bold = false
 		@baseColor=Color.new(24,24,24)
 		@shadowColor=Color.new(168,184,184,0)

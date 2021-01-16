@@ -5,7 +5,7 @@ Eventer:
 Fabrizio Laborano (Starkey)
 Pietro Fanti (Sasso)
 Christian Sardano (ZioCricco)
-Nicola (Nalkio)
+Irene (Stygian)
 
 Scripting:
 Alvise Gorinati (Dr. Aghs)
@@ -16,7 +16,7 @@ Mapping:
 Fabrizio Laborano (Starkey)
 Ivan Vanni (IvanFGK)
 Pietro Fanti (Sasso)
-Nicola (Nalkio)
+Irene (Stygian)
 Christian Sardano (ZioCricco)
 
 Level Design:
@@ -25,7 +25,7 @@ Chrome
 Fabrizio Laborano (Starkey)
 Ivan Vanni (IvanFGK)
 Massimiliano Bruni (Makly)
-Nicola (Nalkio)
+Irene (Stygian)
 
 Level Trainer:
 Admir Hyka(Adi)
@@ -83,7 +83,7 @@ Ivan Vanni (IvanFGK)
 Massimiliano Bruni (Makly)
 Matteo Facchinelli (Fachinhell)
 Michele Schirinzi (Mike)
-Nicola (Nalkio)
+Irene (Stygian)
 
 Sprite:
 Alessandro Kondic (IlGordo)

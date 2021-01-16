@@ -26,8 +26,8 @@ class NewMenu_Text < Sprite
 		viewport.z = 99998
 		super(viewport)
 		self.bitmap = Bitmap.new(Graphics.width, 40)
-    @bgColor = Color.new(0, 0, 0, 150)
-		self.bitmap.font.size = 32
+    	@bgColor = Color.new(0, 0, 0, 150)
+		self.bitmap.font.size = $MKXP ? 30 : 32
 		#self.x = Graphics.width / 2 + 4
 		self.y = Graphics.height / 2 + 60
 		#self.ox = Graphics.width / 2

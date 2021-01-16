@@ -97,10 +97,10 @@ class PokemonMartScene
     
     @sprites["overlay"]=BitmapSprite.new(512,384,@view)
 		@sprites["overlay"].bitmap.font = SUMMARYITEMFONT
-		@sprites["overlay"].bitmap.font.size = 24
+		@sprites["overlay"].bitmap.font.size = $MKXP ? 22 : 24
 		@sprites["itemoverlay"]=BitmapSprite.new(512,384,@view)
 		@sprites["itemoverlay"].bitmap.font = SUMMARYITEMFONT
-		@sprites["itemoverlay"].bitmap.font.size = 24
+		@sprites["itemoverlay"].bitmap.font.size = $MKXP ? 22 : 24
     @viewitem=Viewport.new(270,26,218,326)
     @viewitem.z=@view.z
     
@@ -274,7 +274,7 @@ class PokemonMartScene
 	
 	def drawItemInfo(index)
 		@sprites["itemoverlay"].bitmap.clear
-		@sprites["itemoverlay"].bitmap.font.size = 24
+		@sprites["itemoverlay"].bitmap.font.size = $MKXP ? 22 : 24
 		@sprites["itemoverlay"].bitmap.font.bold = true
 		textpos=[]
 		name = PBItems.getName(@stock[index])
@@ -285,7 +285,7 @@ class PokemonMartScene
 		textpos.push([name,15,238,0,Color.new(248,248,248)])
 		pbDrawTextPositions(@sprites["itemoverlay"].bitmap,textpos)
 		@sprites["itemoverlay"].bitmap.font.bold = false
-		@sprites["itemoverlay"].bitmap.font.size = 20
+		@sprites["itemoverlay"].bitmap.font.size = $MKXP ? 18 : 20
 		if defined?(NewBagScreen.drawTextExH)
 			NewBagScreen.drawTextExH(@sprites["itemoverlay"].bitmap,15,266,225,5,
 				pbGetMessage(MessageTypes::ItemDescriptions,@stock[index]),Color.new(48,48,48),Color.new(0,0,0,0),21)

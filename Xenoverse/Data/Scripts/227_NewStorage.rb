@@ -1,16 +1,16 @@
 BOX_TOPBARFONT = Font.new
 BOX_TOPBARFONT.name = [$MKXP ? "Kimberley" : "Kimberley Bl","Verdana"]
-BOX_TOPBARFONT.size = 24
+BOX_TOPBARFONT.size = $MKXP ? 22 : 24
 
 #Lower bar font
 BOX_LB = Font.new
 BOX_LB.name = ["Barlow Condensed ExtraBold","Verdana"]
-BOX_LB.size = 26
+BOX_LB.size = $MKXP ? 24 : 26
 BOX_LB.bold = false
 
 BOX_ACTFONT = Font.new 
 BOX_ACTFONT.name = ["Barlow Condensed","Verdana"]
-BOX_ACTFONT.size = 18
+BOX_ACTFONT.size = $MKXP ? 16 : 18
 BOX_ACTFONT.bold = true
 
 BOX_PATH = "Graphics/Pictures/StorageNew/"
@@ -537,7 +537,7 @@ class NewPokemonStorage
 		
 		@s["bar"].bitmap.font = Font.new
 		@s["bar"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
-		@s["bar"].bitmap.font.size = 18
+		@s["bar"].bitmap.font.size = $MKXP ? 16 : 18
 		
 		pbDrawTextPositions(@s["bar"].bitmap,[[pkmn.name,10,10,0,Color.new(248,248,248),Color.new(124,124,124),true],
 				[sprintf("Lv.%3d",pkmn.level),150,10,0,Color.new(248,248,248),Color.new(124,124,124),true]])
@@ -972,7 +972,7 @@ class NewPokemonStorage
 		@c["box"].z = 151
 		@c["box"].bitmap = pbBitmap(path + "SelectBox").clone
 		@c["box"].bitmap.font = SUMMARYITEMFONT
-		@c["box"].bitmap.font.size = 24
+		@c["box"].bitmap.font.size = $MKXP ? 22 : 24
 		anchor = 496
 		@cmdid = 0
 		for cmd in 0...commands.length
@@ -982,7 +982,7 @@ class NewPokemonStorage
 			@c["#{cmd}"].x = anchor
 			@c["#{cmd}"].y = 270 - 38*(commands.length-1) + 38*cmd
 			@c["#{cmd}"].bitmap.font = SUMMARYITEMFONT
-			@c["#{cmd}"].bitmap.font.size = 24
+			@c["#{cmd}"].bitmap.font.size = $MKXP ? 22 : 24
 			@c["#{cmd}"].z = 152
 			pbDrawTextPositions(@c["#{cmd}"].bitmap,[[commands[cmd],74,6,2,Color.new(24,24,24)]])
 			
@@ -1144,7 +1144,7 @@ class NewPokemonStorage
 		@s["box"].z = 100
 		@s["box"].bitmap = pbBitmap(path + "SelectBox").clone
 		@s["box"].bitmap.font = SUMMARYITEMFONT
-		@s["box"].bitmap.font.size = 24
+		@s["box"].bitmap.font.size = $MKXP ? 22 : 24
 		@s["box"].opacity = 0
 		
 		drawTextExH(@s["box"].bitmap,45,314,434,2,helptext,Color.new(24,24,24),Color.new(24,24,24,0),22)
@@ -1153,7 +1153,7 @@ class NewPokemonStorage
 		qt = minqty
 		bmp = pbBitmap(path + "qtyoption")
 		bmp.font = SUMMARYITEMFONT
-		bmp.font.size = 26
+		bmp.font.size = $MKXP ? 24 : 26
 		@s["qtbg"] = EAMSprite.new(@viewport)
 		@s["qtbg"].bitmap = bmp.clone
 		@s["qtbg"].ox = @s["qtbg"].bitmap.width
@@ -1224,13 +1224,13 @@ class NewPokemonStorage
 		@m["box"].z = 100
 		@m["box"].bitmap = pbBitmap(path + "SelectBox").clone
 		@m["box"].bitmap.font = SUMMARYITEMFONT
-		@m["box"].bitmap.font.size = 24
+		@m["box"].bitmap.font.size = $MKXP ? 22 : 24
 		@m["box"].opacity = 0
 		
 		drawTextExH(@m["box"].bitmap,45,314,434,2,_INTL("Choose the Pokémon marks."),Color.new(24,24,24),Color.new(24,24,24,0),22)
 		bmp = pbBitmap(path + "SCOption")
 		bmp.font = SUMMARYITEMFONT
-		bmp.font.size = 26
+		bmp.font.size = $MKXP ? 24 : 26
 		@m["mbg"] = EAMSprite.new(@viewport)
 		@m["mbg"].bitmap = Bitmap.new(168,38)
 		@m["mbg"].bitmap.blt(0,0,bmp,Rect.new(0,0,22,38))

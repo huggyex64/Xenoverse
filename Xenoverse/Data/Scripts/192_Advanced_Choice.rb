@@ -119,7 +119,7 @@ class Fullbox_RealOption
 		@text.y = posY
 		@text.opacity = 0
 		@text.bitmap.font = Font.new("Verdana")
-		@text.bitmap.font.size = 18
+		@text.bitmap.font.size = $MKXP ? 16 : 18
 		@text.bitmap.font.color = Color.new(240,240,240)
 		@text.bitmap.draw_text(0,0,@text.bitmap.width,@text.bitmap.height,text,1)
 	end

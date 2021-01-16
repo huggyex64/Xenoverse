@@ -43,7 +43,7 @@ NEW_FONT_LINE_OFFSET = 6
 # Font settings
 TEXT_FONT = Font.new
 TEXT_FONT.name = ["Barlow Condensed","Verdana"]
-TEXT_FONT.size = 28
+TEXT_FONT.size = $MKXP ? 26 : 28
 TEXT_FONT.color.set(250,250,250,255)
 
 # Log constants

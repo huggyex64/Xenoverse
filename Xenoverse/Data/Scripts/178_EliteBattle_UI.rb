@@ -1584,7 +1584,7 @@ class NewBattleBag
       @sprites["pocket#{i}"]=Sprite.new(@viewport)
       @sprites["pocket#{i}"].bitmap=@bitmaps[0]
       @sprites["pocket#{i}"].bitmap.font.name = FONT_NAME
-      @sprites["pocket#{i}"].bitmap.font.size = 28
+      @sprites["pocket#{i}"].bitmap.font.size = $MKXP ? 26 : 28
       
       @sprites["pocket#{i}"].src_rect.set(216*i,0,216,92)
       @sprites["pocket#{i}"].x=24+(i%2)*244+((i%2==0) ? -260 : 260)
@@ -1893,10 +1893,10 @@ class NewBattleBag
     bitmap.blt(26,30,pbBitmap(sprintf("Graphics/Icons/item%03d",@ret)),Rect.new(0,0,48,48))
     drawTextEx(bitmap,86,14,364,3,pbGetMessage(MessageTypes::ItemDescriptions,@ret),Color.new(248,248,248),@shadowColor)
     bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
-    bitmap.font.size = 28
+    bitmap.font.size = $MKXP ? 26 : 28
     pbDrawTextPositions(bitmap,[[_INTL("USE"),210,106,0,Color.new(248,248,248),Color.new(61,71,103),true]])
     @sprites["cancel"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
-    @sprites["cancel"].bitmap.font.size = 28
+    @sprites["cancel"].bitmap.font.size = $MKXP ? 26 : 28
     pbDrawTextPositions(@sprites["cancel"].bitmap,[[_INTL("DON'T USE"),700,22,2,Color.new(248,248,248),Color.new(61,71,103),true]])
     @sprites["sel"].bitmap=pbBitmap("#{checkEBFolderPath}/battleItemConfirm")
     @sprites["sel"].x=Graphics.width

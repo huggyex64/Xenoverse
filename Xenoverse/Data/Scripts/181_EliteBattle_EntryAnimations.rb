@@ -1661,7 +1661,7 @@ def vsSequenceSpecial(viewport,trainername,trainerid,tbargraphic,tgraphic)
   name = Sprite.new(viewport)
   name.bitmap = Bitmap.new(viewport.rect.width,viewport.rect.height)
   name.bitmap.font.name = "Arial"
-  name.bitmap.font.size = 48
+  name.bitmap.font.size = $MKXP ? 46 : 48
   name.visible = false
   pbDrawOutlineText(name.bitmap,110,viewport.rect.height-128,-1,-1,"#{trainername}",Color.new(255,255,255),Color.new(0,0,0),2)
   names.bitmap = name.bitmap.clone

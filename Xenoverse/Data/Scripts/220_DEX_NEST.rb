@@ -75,7 +75,7 @@ class DexNest
 			@sprites["unknown"].z = 42
 			@sprites["unknown"].bitmap = pbBitmap(Dex::PATH + "unknownBG")
 			@sprites["unknown"].bitmap.font.name = "Barlow Condensed"
-			@sprites["unknown"].bitmap.font.size = 30
+			@sprites["unknown"].bitmap.font.size = $MKXP ? 28 : 30
 			pbDrawTextPositions(@sprites["unknown"].bitmap,[[_INTL("Unknown"),256,177,2,Color.new(248,248,248)]])
 			
 		end

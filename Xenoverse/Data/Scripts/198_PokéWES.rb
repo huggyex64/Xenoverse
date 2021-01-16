@@ -112,7 +112,7 @@ class PokeWES
 			
 			@sprites["rd"].bitmap.font = Font.new
 			@sprites["rd"].bitmap.font.name = "M42_FLIGHT 721"
-			@sprites["rd"].bitmap.font.size = 10
+			@sprites["rd"].bitmap.font.size = $MKXP ? 8 : 10
 			
 			pbDrawTextPositions(@sprites["rd"].bitmap,[[_INTL("Press Z to open the Retrodex"),10,4,0,Color.new(248,248,248),Color.new(48,48,48,48),true]])
 		end
@@ -557,7 +557,7 @@ class MNScene
 		@sprites["animbg"].bitmap=pbBitmap("Graphics/Pictures/Dex/animbg")
 		@sprites["interface"]=BSprite.new(@viewport,"Graphics/Pictures/MN/interface")
 		@sprites["interface"].bitmap.font.name="Barlow Condensed"
-		@sprites["interface"].bitmap.font.size = 24
+		@sprites["interface"].bitmap.font.size = $MKXP ? 22 : 24
 		@sprites["interface"].bitmap.font.bold = true
 		pbDrawTextPositions(@sprites["interface"].bitmap,[[_INTL("Chiudi"),474,346,1,Color.new(248,248,248)],
 																											[_INTL("PokéWES - Funzione MN "),12,346,0,Color.new(248,248,248)]])

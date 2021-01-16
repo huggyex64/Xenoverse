@@ -1,10 +1,10 @@
 SUMMARYFONT = Font.new
 SUMMARYFONT.name = [$MKXP ? "Kimberley" : "Kimberley Bl","Verdana"]
-SUMMARYFONT.size = 18
+SUMMARYFONT.size = $MKXP ? 16 : 18 
 
 SUMMARYITEMFONT = Font.new
 SUMMARYITEMFONT.name = ["Barlow Condensed","Verdana"]
-SUMMARYITEMFONT.size = 22
+SUMMARYITEMFONT.size = $MKXP ? 20 : 22
 
 class MoveSelectionSprite < SpriteWrapper
   attr_reader :preselected
@@ -100,7 +100,7 @@ class PokemonSummaryScene
 		@sprites["lowerbar"].y = 344
 		@sprites["lowerbar"].bitmap.font = SUMMARYITEMFONT
 		@sprites["lowerbar"].bitmap.font.bold = true
-		@sprites["lowerbar"].bitmap.font.size = 26
+		@sprites["lowerbar"].bitmap.font.size = $MKXP ? 24 : 26
 		pbDrawTextPositions(@sprites["lowerbar"].bitmap,[[_INTL("Close"),462,2,1,Color.new(248,248,248)]])
     @sprites["overlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
 		@sprites["overlay"].bitmap.font = SUMMARYFONT
@@ -185,7 +185,7 @@ class PokemonSummaryScene
 			@pages["move4"].x = 270
 			@pages["move4"].y = 80-16 + 26*4
 			@pages["move4"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
-			@pages["move4"].bitmap.font.size = 18
+			@pages["move4"].bitmap.font.size = $MKXP ? 16 : 18
 			dark = getDarkerColor(@pages["move4"].bitmap.get_pixel(50,13),0.35)
 			textpos = []
 			textpos.push([PBMoves.getName(mtl.id),35,3,0,Color.new(248,248,248),dark,true]) #outlined
@@ -213,7 +213,7 @@ class PokemonSummaryScene
 		textpos.push([@pokemon.name,62,22,0,Color.new(248,248,248)])
 		
 		pbDrawTextPositions(@sprites["overlay"].bitmap,textpos)
-		@sprites["overlay"].bitmap.font.size = 14
+		@sprites["overlay"].bitmap.font.size = $MKXP ? 12 : 14
 		textpos=[]
 		textpos.push([sprintf("%3d",@pokemon.level),190,25,0,Color.new(248,248,248)])
 		textpos.push(["Lv.",174,25,0,Color.new(248,178,13)])
@@ -241,7 +241,7 @@ class PokemonSummaryScene
 				
 		@pages["overlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
 		@pages["overlay"].bitmap.font = SUMMARYITEMFONT
-		@pages["overlay"].bitmap.font.size = 24
+		@pages["overlay"].bitmap.font.size = $MKXP ? 22 : 24
 		types = pbBitmap("Graphics/Pictures/types2_" + (@language==0 ? "ita" : "eng"))
 		typeheight = 22
 		type1rect = Rect.new(0,((typeheight)*pokemon.type1),types.width,typeheight)
@@ -330,7 +330,7 @@ class PokemonSummaryScene
 		
 		@pages["overlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
 		@pages["overlay"].bitmap.font = SUMMARYITEMFONT
-		@pages["overlay"].bitmap.font.size = 24
+		@pages["overlay"].bitmap.font.size = $MKXP ? 22 : 24
 		
 		#fields
 		textpos=[]
@@ -385,7 +385,7 @@ class PokemonSummaryScene
 		textpos.push([_INTL("Ability"),260,266,0,Color.new(248,248,248)])
 		textpos.push([PBAbilities.getName(pokemon.ability),340,266,0,Color.new(48,48,48)])
 		pbDrawTextPositions(@pages["overlay"].bitmap,textpos)
-		@pages["overlay"].bitmap.font.size = 20
+		@pages["overlay"].bitmap.font.size = $MKXP ? 18 : 20
 		abilitydesc=pbGetMessage(MessageTypes::AbilityDescs,pokemon.ability)
 		drawTextExH(@pages["overlay"].bitmap,263,291,231,2,abilitydesc,Color.new(48,48,48),Color.new(48,48,48,0),18)
 	end
@@ -400,7 +400,7 @@ class PokemonSummaryScene
 		
 		@pages["overlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
 		@pages["overlay"].bitmap.font = SUMMARYITEMFONT
-		@pages["overlay"].bitmap.font.size = 24
+		@pages["overlay"].bitmap.font.size = $MKXP ? 22 : 24
 		numMoves = 0
 		movesbmp = pbBitmap("Graphics/Pictures/EBS/Xenoverse/casellemosse_rs")
 		for i in pokemon.moves
@@ -411,7 +411,7 @@ class PokemonSummaryScene
 				@pages["move#{numMoves}"].x = 270
 				@pages["move#{numMoves}"].y = 80 + 26*pokemon.moves.index(i)
 				@pages["move#{numMoves}"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
-				@pages["move#{numMoves}"].bitmap.font.size = 18
+				@pages["move#{numMoves}"].bitmap.font.size = $MKXP ? 16 : 18
 				dark = getDarkerColor(@pages["move#{numMoves}"].bitmap.get_pixel(50,13),0.35)
 				textpos = []
 				textpos.push([PBMoves.getName(i.id),35,3,0,Color.new(248,248,248),dark,true]) #outlined
@@ -430,7 +430,7 @@ class PokemonSummaryScene
 		
 		@pages["overlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
 		@pages["overlay"].bitmap.font = SUMMARYITEMFONT
-		@pages["overlay"].bitmap.font.size = 24
+		@pages["overlay"].bitmap.font.size = $MKXP ? 22 : 24
 		
 		textpos = []
 		
@@ -558,7 +558,7 @@ class PokemonSummaryScene
 		
 		@pages["overlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
 		@pages["overlay"].bitmap.font = SUMMARYITEMFONT
-		@pages["overlay"].bitmap.font.size = 24
+		@pages["overlay"].bitmap.font.size = $MKXP ? 22 : 24
 		
 		overlay=@pages["overlay"].bitmap
     overlay.clear
@@ -934,7 +934,7 @@ class PokemonSummaryScene
 		@pages["moveinfo"].y=198
 		
 		@pages["moveinfo"].bitmap.font = SUMMARYITEMFONT
-		@pages["moveinfo"].bitmap.font.size = 24
+		@pages["moveinfo"].bitmap.font.size = $MKXP ? 22 : 24
 		movedata=PBMoveData.new(moveid)
     basedamage=movedata.basedamage
     type=movedata.type
@@ -956,7 +956,7 @@ class PokemonSummaryScene
 		pbDrawTextPositions(@pages["moveinfo"].bitmap,textpos)
 		
 		movedesc = pbGetMessage(MessageTypes::MoveDescriptions,moveid)
-		@pages["moveinfo"].bitmap.font.size = 20
+		@pages["moveinfo"].bitmap.font.size = $MKXP ? 18 : 20
 		drawTextExH(@pages["moveinfo"].bitmap,7,76,231,2,movedesc,Color.new(48,48,48),Color.new(48,48,48,0),18)
 	end
 	

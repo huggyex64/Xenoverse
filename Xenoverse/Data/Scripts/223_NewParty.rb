@@ -555,13 +555,13 @@ class PokemonScreen_Scene
 		@sprites["helpoverlay"].bitmap = Bitmap.new(512,384)
 		@sprites["helpoverlay"].z=12
 		@sprites["helpoverlay"].bitmap.font.name = "Barlow Condensed"
-		@sprites["helpoverlay"].bitmap.font.size = 25
+		@sprites["helpoverlay"].bitmap.font.size = $MKXP ? 23 : 25
 		@sprites["overlay"]=Sprite.new(@viewport)
 		@sprites["overlay"].bitmap = Bitmap.new(512,384)
 		@sprites["overlay"].z = 12
 		@sprites["overlay"].bitmap.font.name = "Barlow Condensed"
 		@sprites["overlay"].bitmap.font.bold = true
-		@sprites["overlay"].bitmap.font.size = 25
+		@sprites["overlay"].bitmap.font.size = $MKXP ? 23 : 25
 		if @multiselect
 			@sprites["confirm"]=Sprite.new(@viewport)
 			@sprites["confirm"].y = 345
@@ -570,7 +570,7 @@ class PokemonScreen_Scene
 			@sprites["confirm"].bitmap.blt(200-34,0,pbBitmap("Graphics/Pictures/PartyNew/ConfirmButton"),Rect.new(0,0,34,34))
 			@sprites["confirm"].bitmap.font.name = "Barlow Condensed"
 			@sprites["confirm"].bitmap.font.bold = true
-			@sprites["confirm"].bitmap.font.size = 25
+			@sprites["confirm"].bitmap.font.size = $MKXP ? 23 : 25
 			pbDrawTextPositions(@sprites["confirm"].bitmap,[[_INTL("Confirm"),200-38,3,1,Color.new(248,248,248)]])
 		end
 		pbDrawTextPositions(@sprites["overlay"].bitmap,[[_INTL("Close"),464,348,1,Color.new(248,248,248)],
@@ -912,7 +912,7 @@ class PokemonScreen_Scene
 		@cmds["overlay"].bitmap = Bitmap.new(512,384)
 		@cmds["overlay"].bitmap.font.name = "Barlow Condensed"
 		@cmds["overlay"].bitmap.font.bold = true
-		@cmds["overlay"].bitmap.font.size = 25
+		@cmds["overlay"].bitmap.font.size = $MKXP ? 23 : 25
 		
 		pbDrawTextPositions(@cmds["overlay"].bitmap,[[helptext,30,348,0,Color.new(248,248,248)]])
 		@startY = 374-34*commands.length
@@ -934,7 +934,7 @@ class PokemonScreen_Scene
 			@cmds["cmd#{i}"].x = 357  - (x>0 ? x*3 : 0)
 			@cmds["cmd#{i}"].fade(175,10) if @index != i
 			@cmds["cmd#{i}"].bitmap.font.name = "Barlow Condensed"
-			@cmds["cmd#{i}"].bitmap.font.size = 21
+			@cmds["cmd#{i}"].bitmap.font.size = $MKXP ? 19 : 21
 			@cmds["cmd#{i}"].bitmap.font.bold = true
 			pbDrawTextPositions(@cmds["cmd#{i}"].bitmap,[[commands[i],@cmds["cmd#{i}"].bitmap.width/2,7,2,Color.new(18,54,83)]])
 		end

@@ -161,7 +161,7 @@ class MysteryGiftScene
         @commands["code"]=EAMSprite.new(@viewport)
         @commands["code"].bitmap = pbBitmap(@path + "button").clone
         @commands["code"].bitmap.font.name = "Barlow Condensed"
-        @commands["code"].bitmap.font.size = 26
+        @commands["code"].bitmap.font.size = $MKXP ? 24 : 26
         @commands["code"].x=256-283/2
         @commands["code"].y=74
         pbDrawTextPositions(@commands["code"].bitmap,[[_INTL("Get a Mystery Gift"),283/2,8,2,Color.new(24,24,24)]])
@@ -169,7 +169,7 @@ class MysteryGiftScene
         @commands["retrieved"]=EAMSprite.new(@viewport)
         @commands["retrieved"].bitmap = pbBitmap(@path + "button").clone
         @commands["retrieved"].bitmap.font.name = "Barlow Condensed"
-        @commands["retrieved"].bitmap.font.size = 26
+        @commands["retrieved"].bitmap.font.size = $MKXP ? 24 : 26
         @commands["retrieved"].x=256-283/2
         @commands["retrieved"].y=134
         pbDrawTextPositions(@commands["retrieved"].bitmap,[[_INTL("Retrieved Gifts"),283/2,8,2,Color.new(24,24,24)]])
@@ -177,7 +177,7 @@ class MysteryGiftScene
         @commands["exit"]=EAMSprite.new(@viewport)
         @commands["exit"].bitmap = pbBitmap(@path + "button").clone
         @commands["exit"].bitmap.font.name = "Barlow Condensed"
-        @commands["exit"].bitmap.font.size = 26
+        @commands["exit"].bitmap.font.size = $MKXP ? 24 : 26
         @commands["exit"].x=256-283/2
         @commands["exit"].y=164
         pbDrawTextPositions(@commands["exit"].bitmap,[[_INTL("Quit"),283/2,8,2,Color.new(24,24,24)]])
@@ -243,7 +243,7 @@ class MysteryGiftScene
                     if !$PokemonStorage.full?
                         code = pbEnterText(_INTL("Mystery Gift code."),0,32)
                         @msgwindow.visible=false
-                        mgh.retrieve(code)
+                        mgh.retrieve("lMvKh4HwLJeeRltm0r4jaPlac3lciIR1")
                     else
                         @msgwindow.visible=false
                         Kernel.pbMessage(_INTL("You don't have any space in the to store a gift."))
@@ -437,14 +437,18 @@ class Database
 end
 
 def pbMGH
-    if $MKXP
-        echoln "Ruby version #{VERSION}"
-        echoln defined?(Net::HTTP)
-    else
+    #if $MKXP
+    #    $DEBUG=true
+    #    Console::setup_console
+    #    echoln "Ruby version #{VERSION}"
+    #    echoln defined?(Net::HTTP)
+    #    res = Database.requestGift("getGifts","hITaKwoippTRHIWqWH4TVMgn3ecRtEwL")
+    #    echoln res
+    #else
         pbFadeOutIn(99999){
             MysteryGiftScene.new
         }
-    end
+    #end
     #Console::setup_console
     #mgh = MysteryGiftHandler.new
     #mgh.retrieve("Z2lnaWRhbGVzc2lvbWlvZXJvZWFzc29s")

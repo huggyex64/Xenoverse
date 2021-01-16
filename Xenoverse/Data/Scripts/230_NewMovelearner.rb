@@ -30,7 +30,7 @@ class MoveRelearnerScene
 		@s["box"].z = 100
 		@s["box"].bitmap = pbBitmap(path + "SelectBox").clone
 		@s["box"].bitmap.font = SUMMARYITEMFONT
-		@s["box"].bitmap.font.size = 24
+		@s["box"].bitmap.font.size = $MKXP ? 22 : 24
 		
 		drawTextExH(@s["box"].bitmap,45,314,434,2,msg,Color.new(24,24,24),Color.new(24,24,24,0),22)
 		@s["box"].opacity = 0
@@ -40,7 +40,7 @@ class MoveRelearnerScene
 		bmp.blt(22,0,b,Rect.new(22,0,44,38))
 		bmp.blt(88-22,0,b,Rect.new(148-22,0,22,38))
 		bmp.font = SUMMARYITEMFONT
-		bmp.font.size = 26
+		bmp.font.size = $MKXP ? 24 : 26
 		@s["yes"] = EAMSprite.new(@viewport3)
 		@s["yes"].bitmap = bmp.clone
 		@s["yes"].ox = @s["yes"].bitmap.width
@@ -164,7 +164,7 @@ class MoveRelearnerScene
     @sprites["overlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
     @sprites["overlay"].bitmap.font = Font.new
 		@sprites["overlay"].bitmap.font.name = "Barlow Condensed"
-		@sprites["overlay"].bitmap.font.size = 22
+		@sprites["overlay"].bitmap.font.size = $MKXP ? 20 : 22
 		
 		##drawing the types
 		#@sprites["overlay"].bitmap.blt(370,110,typebmp,Rect.new(0,((22)*pokemon.type1),typebmp.width,22))
@@ -180,7 +180,7 @@ class MoveRelearnerScene
 		textpos.push([sprintf("Lv.%3d",pokemon.level),438,96,0,Color.new(48,48,48)])
 		pbDrawTextPositions(@sprites["overlay"].bitmap,textpos)
 		
-		@sprites["overlay"].bitmap.font.size = 24
+		@sprites["overlay"].bitmap.font.size = $MKXP ? 22 : 24
 		textpos=[]
 		textpos.push([_INTL("Category"),333,154,2,Color.new(248,248,248)])
 		textpos.push([_INTL("Power"),333,179,2,Color.new(248,248,248)])
@@ -195,7 +195,7 @@ class MoveRelearnerScene
 		pbDrawTextPositions(@sprites["overlay"].bitmap,textpos)
     @sprites["moveoverlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
     @sprites["moveoverlay"].bitmap.font = SUMMARYITEMFONT
-		@sprites["moveoverlay"].bitmap.font.size = 24
+		@sprites["moveoverlay"].bitmap.font.size = $MKXP ? 22 : 24
     pbDrawMoveList
 		
 		drawMoveInfo(0)
@@ -218,11 +218,11 @@ class MoveRelearnerScene
 		@sprites["moveoverlay"].bitmap.blt(376,(category==0? 154 : 156),pbBitmap("Graphics/Pictures/SummaryNew/cat#{category}"),Rect.new(0,0,27,23))
 		textpos.push([(basedamage<=1 ?(basedamage==1 ? "???" : "---" ): sprintf("%d",basedamage)),378,179,0,Color.new(48,48,48)])
 		textpos.push([accuracy==0 ? "---" : sprintf("%d",accuracy)+"%",378,204,0,Color.new(48,48,48)])
-		@sprites["moveoverlay"].bitmap.font.size = 24
+		@sprites["moveoverlay"].bitmap.font.size = $MKXP ? 22 : 24
 		pbDrawTextPositions(@sprites["moveoverlay"].bitmap,textpos)
 		
 		movedesc = pbGetMessage(MessageTypes::MoveDescriptions,moveid)
-		@sprites["moveoverlay"].bitmap.font.size = 20
+		@sprites["moveoverlay"].bitmap.font.size = $MKXP ? 18 : 20
 		drawTextExH(@sprites["moveoverlay"].bitmap,301,230,192,4,movedesc,Color.new(48,48,48),Color.new(48,48,48,0),18)
 	end
 	
@@ -239,7 +239,7 @@ class MoveRelearnerScene
 				@moves["m#{i}"].bitmap = Bitmap.new(232,25)
 				@moves["m#{i}"].bitmap.blt(0,0,bmp,Rect.new(0,md.type*25,232,25))
 				@moves["m#{i}"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
-				@moves["m#{i}"].bitmap.font.size = 18
+				@moves["m#{i}"].bitmap.font.size = $MKXP ? 16 : 18
 				dark = getDarkerColor(@moves["m#{i}"].bitmap.get_pixel(50,13),0.35)
 				pbDrawTextPositions(@moves["m#{i}"].bitmap,[[PBMoves.getName(i),35,3,0,Color.new(248,248,248),dark,true]]) #outlined
 				@moves["m#{i}"].y=28*@pastmoves.index(i)

@@ -13,7 +13,7 @@ class PokemonGenderSelectScene
 		@sprites["card"]=IconSprite.new(0,0,@viewport)
 		@sprites["card"].setBitmap("Graphics/Pictures/charaselectbg")
 		@sprites["card"].bitmap.font.name = "Barlow Condensed ExtraBold"
-		@sprites["card"].bitmap.font.size = 28
+		@sprites["card"].bitmap.font.size = $MKXP ? 26 : 28
 		pbDrawTextPositions(@sprites["card"].bitmap,[[_INTL("È un maschietto o una femminuccia?"),256,16,2,Color.new(48,48,48)]])			
 		
 		@sprites["boy"]=IconSprite.new(0,0,@viewport)

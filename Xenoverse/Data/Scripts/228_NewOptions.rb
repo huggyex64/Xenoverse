@@ -293,7 +293,7 @@ class PokemonOptionScene
 		@sprites["banner"] = EAMSprite.new(@viewport)
 		@sprites["banner"].bitmap = pbBitmap(@path + "topbar").clone
 		@sprites["banner"].bitmap.font = Font.new
-		@sprites["banner"].bitmap.font.size = 28
+		@sprites["banner"].bitmap.font.size = $MKXP ? 26 : 28
 		@sprites["banner"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 		
 		pbDrawTextPositions(@sprites["banner"].bitmap,[[_INTL("Settings"),71,13,0,Color.new(248,248,248)]])
@@ -309,7 +309,7 @@ class PokemonOptionScene
 		@sprites["lowerbar"].bitmap.font = Font.new
 		@sprites["lowerbar"].bitmap.font.name = "Barlow Condensed"
 		@sprites["lowerbar"].bitmap.font.bold = true
-		@sprites["lowerbar"].bitmap.font.size = 24
+		@sprites["lowerbar"].bitmap.font.size = $MKXP ? 22 : 24
 		
 		
 		pbDrawTextPositions(@sprites["lowerbar"].bitmap,[[_INTL("Default"),104,3,1,Color.new(248,248,248)],
@@ -473,8 +473,8 @@ class PokemonOptionScene
 end
 
 OPT_OPTFONT = Font.new
-OPT_OPTFONT.name = "Barlow Condensed ExtraBold"
-OPT_OPTFONT.size = 24
+OPT_OPTFONT.name = "Barlow Condensed Bold"
+OPT_OPTFONT.size = $MKXP ? 22 : 24
 #OPT_OPTFONT.bold = true
 
 OPT_SELCOLOR = Color.new(198,129,0)
@@ -533,7 +533,7 @@ class NewSingleOption<EAMSprite
 	def updateOptions(id)
 		return if id>@optionsSprites.length
 		@optionsSprites[id].bitmap.clear
-		@optionsSprites[id].bitmap.font.name = id==@selIndex ? "Barlow Condensed ExtraBold" :  "Barlow Condensed"
+		@optionsSprites[id].bitmap.font.name = id==@selIndex ? "Barlow Condensed Bold" :  "Barlow Condensed"
 		pbDrawTextPositions(@optionsSprites[id].bitmap,[[@options[id],@optionsSprites[id].bitmap.width/2,9,2,(id==@selIndex ? OPT_SELCOLOR : OPT_NORMALCOLOR)]])
 	end
 	

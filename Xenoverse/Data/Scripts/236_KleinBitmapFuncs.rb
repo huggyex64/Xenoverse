@@ -57,7 +57,7 @@
 #      
 #===============================================================================
 KLEIN_BFUNCS_WORKING = true
-KLEIN_BFUNCS_DLL = "KleinBitmap.dll"
+KLEIN_BFUNCS_DLL = "KleinBitmap"
 
 ################################################################################
 # Bitmap functions

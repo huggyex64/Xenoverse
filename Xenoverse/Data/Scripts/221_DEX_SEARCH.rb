@@ -86,7 +86,7 @@ class DexSearch
 			@sprites["button#{i}"].x = 365
 			@sprites["button#{i}"].y = 92 + (81*(i-7))
 			@sprites["button#{i}"].bitmap.font.name = Dex::TEXTFONTNAME
-			@sprites["button#{i}"].bitmap.font.size = 24
+			@sprites["button#{i}"].bitmap.font.size = $MKXP ? 22 : 24
 			@sprites["button#{i}"].fade(180,20,:ease_out_cubic) if i != @fieldIndex
 			pbDrawTextPositions(@sprites["button#{i}"].bitmap,[[@buttonTexts[i-7],52,27,2,Color.new(28,28,28)]])
 		end
@@ -120,7 +120,7 @@ class DexSearch
 		@sprites["field#{i}"].bitmap = pbBitmap(Dex::PATH + "Field_search").clone if i<6
 		@sprites["field#{i}"].bitmap = pbBitmap(Dex::PATH + "Shape_search").clone if i==6
 		@sprites["field#{i}"].bitmap.font.name = Dex::NUMBERFONTNAME
-		@sprites["field#{i}"].bitmap.font.size = 24
+		@sprites["field#{i}"].bitmap.font.size = $MKXP ? 22 : 24
 		@fieldvalues[i] = fieldvalue
 		texts = []
 		texts.push([_INTL(fieldname),67,(i==6? 41 : 3),2,Color.new(248,248,248)])
@@ -411,7 +411,7 @@ class DexSearchChoice
 			@options[option].bitmap = Bitmap.new(30*option.length,30)
 			#@options[option].bitmap.fill_rect(0,0,@options[option].bitmap.width,@options[option].bitmap.height-5,Color.new(255,0,0))
 			@options[option].bitmap.font.name = Dex::TEXTFONTNAME
-			@options[option].bitmap.font.size = 26
+			@options[option].bitmap.font.size = $MKXP ? 24 : 26
 			@options[option].ox = @options[option].bitmap.width/2
 			@options[option].oy = 15
 			@options[option].x = 409

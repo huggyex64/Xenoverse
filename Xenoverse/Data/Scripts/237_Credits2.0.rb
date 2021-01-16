@@ -39,19 +39,19 @@ if $DEBUG
     @credits = File.open("PBS/credits.txt").read.split("\n")
     @creditsBitmap = Bitmap.new(512,(384+30*@credits.length))
     pbSetSystemFont(@creditsBitmap)
-    @creditsBitmap.font.size = 22
+    @creditsBitmap.font.size = $MKXP ? 20 : 22
     Console::setup_console
     for i in 0...@credits.length
       Graphics.update
       line = @credits[i]
       if line.length>MAXCHARPERLINE
-        @creditsBitmap.font.size = 18
+        @creditsBitmap.font.size = $MKXP ? 16 : 18
         #Drawing the shadow first, then the text on top
         #draw_text_outline(@creditsBitmap,0,8+30*i,512,30,line,@shadowColor,nil,1)
         #Drawing the shadow first, then the text on top
         draw_text_outline(@creditsBitmap,0,30*i,512,30,line,CREDITS_FILL,CREDITS_OUTLINE,1)
       else
-        @creditsBitmap.font.size = 22
+        @creditsBitmap.font.size = $MKXP ? 20 : 22
         #Drawing the shadow first, then the text on top
         #pbDrawOutlineText(@creditsBitmap,0,8+30*i,512,30,line,@shadowColor,nil,1)
         #Drawing the shadow first, then the text on top
@@ -104,7 +104,7 @@ class Credits
     @sprites["tfp"] = Sprite.new(@viewport)
     @sprites["tfp"].bitmap = Bitmap.new(512,384)
     pbSetSystemFont(@sprites["tfp"].bitmap)
-    @sprites["tfp"].bitmap.font.size = 32
+    @sprites["tfp"].bitmap.font.size = $MKXP ? 30 : 32
     pbDrawOutlineText(@sprites["tfp"].bitmap,0,0,512,384,_INTL("Thanks for playing!"),CREDITS_FILL,Color.new(120,120,120),1)
     @sprites["tfp"].opacity = 0
     
@@ -131,7 +131,7 @@ class Credits
     @sprites["credits"].oy = -384
     @creditsBitmap = @sprites["credits"].bitmap
     pbSetSystemFont(@creditsBitmap)
-    @creditsBitmap.font.size = 22
+    @creditsBitmap.font.size = $MKXP ? 20 : 22
     #pbDrawOutlineText(bitmap,x,y,width,height,string,baseColor,shadowColor=nil,align=0)
 =begin
     for i in 0...@credits.length
@@ -162,10 +162,10 @@ class Credits
 		for i in @ranges[@id]
       line = @credits[i]
       if line.length>MAXCHARPERLINE
-        @creditsBitmap.font.size = 18
+        @creditsBitmap.font.size = $MKXP ? 16 : 18
         draw_text_outline(@creditsBitmap,0,30*i,512,30,line,CREDITS_FILL,CREDITS_OUTLINE,1)
       else
-        @creditsBitmap.font.size = 22
+        @creditsBitmap.font.size = $MKXP ? 20 : 22
         pbDrawOutlineText(@creditsBitmap,0,30*i,512,30,line,CREDITS_FILL,CREDITS_OUTLINE,1)
       end
     end
