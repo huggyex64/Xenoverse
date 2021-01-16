@@ -336,10 +336,11 @@ end
 # This should allow someone to load up games on Windows just fine.
 # Maybe not perfect compatibility, but better.
 # =================================================================
-
-module Graphics
-  def self.snap_to_bitmap
-    return Graphics.mkxp_snap_to_bitmap
+if $MKXP
+  module Graphics
+    def self.snap_to_bitmap
+      return Graphics.mkxp_snap_to_bitmap
+    end
   end
 end
 

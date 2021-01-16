@@ -173,55 +173,93 @@ module Graphics
     end
   end
   @@deletefailed=false
-
-  def self.snap_to_bitmap
-    tempPath=ENV["TEMP"]+"\\tempscreen.bmp"
-    if safeExists?(tempPath) && @@deletefailed
-      begin
-        File.delete(tempPath)
-        @@deletefailed=false
-      rescue Errno::EACCES
-        @@deletefailed=true
-        return nil
+  if !$MKXP
+    def self.snap_to_bitmap
+      tempPath=ENV["TEMP"]+"\\tempscreen.bmp"
+      if safeExists?(tempPath) && @@deletefailed
+        begin
+          File.delete(tempPath)
+          @@deletefailed=false
+        rescue Errno::EACCES
+          @@deletefailed=true
+          return nil
+        end
       end
-    end
-    if safeExists?("./rubyscreen.dll")
-      takescreen=Win32API.new("rubyscreen.dll","TakeScreenshot","p","i")
-      takescreen.call(tempPath)
-    end
-    bm=nil
-    if safeExists?(tempPath)
-      bm=Bitmap.new(tempPath)
-      begin
-        File.delete(tempPath)
-        @@deletefailed=false
-      rescue Errno::EACCES
-        @@deletefailed=true
+      if safeExists?("./rubyscreen.dll")
+        takescreen=Win32API.new("rubyscreen.dll","TakeScreenshot","p","i")
+        takescreen.call(tempPath)
       end
+      bm=nil
+      if safeExists?(tempPath)
+        bm=Bitmap.new(tempPath)
+        begin
+          File.delete(tempPath)
+          @@deletefailed=false
+        rescue Errno::EACCES
+          @@deletefailed=true
+        end
+      end
+      if bm && bm.get_pixel(0,0).alpha==0
+        bm.asOpaque
+      end
+      echoln $ResizeFactor
+      if bm && $ResizeOffsetX && $ResizeOffsetY &&
+        $ResizeOffsetX!=0 || $ResizeOffsetY!=0
+        tmpbitmap=Bitmap.new(Graphics.width*$ResizeFactor,
+          Graphics.height*$ResizeFactor)
+        tmpbitmap.blt(0,0,bm,Rect.new($ResizeOffsetX*$ResizeFactor,
+          $ResizeOffsetY*$ResizeFactor,tmpbitmap.width,tmpbitmap.height))
+        bm.dispose
+        bm=tmpbitmap
+      end
+      if bm && (bm.width!=Graphics.width || bm.height!=Graphics.height)
+        newbitmap=Bitmap.new(Graphics.width,Graphics.height)
+        newbitmap.stretch_blt(newbitmap.rect,bm,Rect.new(0,0,bm.width,bm.height))
+        bm.dispose
+        bm=newbitmap
+      end
+      return bm
     end
-    if bm && bm.get_pixel(0,0).alpha==0
-      bm.asOpaque
-    end
-    echoln $ResizeFactor
-    if bm && $ResizeOffsetX && $ResizeOffsetY &&
-       $ResizeOffsetX!=0 || $ResizeOffsetY!=0
-      tmpbitmap=Bitmap.new(Graphics.width*$ResizeFactor,
-         Graphics.height*$ResizeFactor)
-      tmpbitmap.blt(0,0,bm,Rect.new($ResizeOffsetX*$ResizeFactor,
-         $ResizeOffsetY*$ResizeFactor,tmpbitmap.width,tmpbitmap.height))
-      bm.dispose
-      bm=tmpbitmap
-    end
-    if bm && (bm.width!=Graphics.width || bm.height!=Graphics.height)
-      newbitmap=Bitmap.new(Graphics.width,Graphics.height)
-      newbitmap.stretch_blt(newbitmap.rect,bm,Rect.new(0,0,bm.width,bm.height))
-      bm.dispose
-      bm=newbitmap
-    end
-    return bm
   end
 end
 
+if $MKXP
+  # Simple function used in drawCircle to convert colors to integers
+class Color
+  def to_i
+    return self.red.to_i << 24 | self.green.to_i << 16 | self.blue.to_i << 8 | self.alpha.to_i
+  end
+end
+
+# Massively speeds up mega animation for dedicated GPUs
+class Bitmap
+  def drawCircle(color=Color.new(255,255,255),r=(self.width/2),tx=(self.width/2),ty=(self.height/2),hollow=false)
+    # basic circle formula
+    # (x - tx)**2 + (y - ty)**2 = r**2
+    pixels = self.raw_data.unpack('I*')
+    colori = color.to_i
+    for x in 0...self.width
+      f = (r**2 - (x - tx)**2)
+      row = self.height * x
+      next if f < 0
+      y1 = -Math.sqrt(f).to_i + ty
+      y2 =  Math.sqrt(f).to_i + ty
+      if hollow
+        pixels[row + y1] = colori
+        pixels[row + y2] = colori 
+        #self.set_pixel(x,y1,color)
+        #self.set_pixel(x,y2,color)
+      else
+        for y in y1..y2
+          pixels[row + y] = colori
+          #self.set_pixel(x,y,color)
+        end
+      end
+    end
+    self.raw_data = pixels.pack('I*')
+  end
+end
+end
 
 
 class Sprite
