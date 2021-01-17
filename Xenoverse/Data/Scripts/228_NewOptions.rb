@@ -235,6 +235,15 @@ class PokemonSystem
   attr_accessor :font
   attr_accessor :screensize
   attr_accessor :language
+  attr_accessor :bgmvolume
+  attr_accessor :bgsvolume
+  attr_accessor :mevolume
+  attr_accessor :sevolume
+
+  def bgmvolume;return 100;end
+  def bgsvolume;return 100;end
+  def mevolume;return 100;end
+  def sevolume;return 100;end
 
   def language
     return (!@language) ? 0 : @language
@@ -473,7 +482,7 @@ class PokemonOptionScene
 end
 
 OPT_OPTFONT = Font.new
-OPT_OPTFONT.name = "Barlow Condensed Bold"
+OPT_OPTFONT.name = $MKXP ? "Barlow Condensed" : "Barlow Condensed Extrabold"
 OPT_OPTFONT.size = $MKXP ? 22 : 24
 #OPT_OPTFONT.bold = true
 
@@ -491,7 +500,10 @@ class NewSingleOption<EAMSprite
 		@optvp = Viewport.new(160,5,275,44)
 		@optvp.z = args[0].z#+1
 		self.bitmap = pbBitmap(OPT_PATH + "optionsbar").clone
-		self.bitmap.font = OPT_OPTFONT
+    self.bitmap.font = OPT_OPTFONT
+    if $MKXP
+      self.bitmap.font.bold = true
+    end
 		@selIndex = 0
 		@options=[]
 		@optionsSprites=[]
@@ -533,7 +545,8 @@ class NewSingleOption<EAMSprite
 	def updateOptions(id)
 		return if id>@optionsSprites.length
 		@optionsSprites[id].bitmap.clear
-		@optionsSprites[id].bitmap.font.name = id==@selIndex ? "Barlow Condensed Bold" :  "Barlow Condensed"
+    @optionsSprites[id].bitmap.font.name = id==@selIndex && !$MKXP ? "Barlow Condensed Bold" :  "Barlow Condensed"
+    @optionsSprites[id].bitmap.font.bold = id==@selIndex && $MKXP ? true : false
 		pbDrawTextPositions(@optionsSprites[id].bitmap,[[@options[id],@optionsSprites[id].bitmap.width/2,9,2,(id==@selIndex ? OPT_SELCOLOR : OPT_NORMALCOLOR)]])
 	end
 	

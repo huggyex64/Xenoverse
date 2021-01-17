@@ -18,7 +18,7 @@ module Dex
 	#TextUtilities
 	NUMBERFONTNAME = "Barlow Condensed"
 	NUMBERFONTSIZE = $MKXP ? 18 : 20
-	TEXTFONTNAME = $MKXP ? "Barlow Condensed Bold" : "Barlow Condensed ExtraBold"
+	TEXTFONTNAME = $MKXP ? "Barlow Condensed" : "Barlow Condensed ExtraBold"
 	TEXTFONTSIZE = $MKXP ? 23 : 25
 	FONTBOLD = true
 	

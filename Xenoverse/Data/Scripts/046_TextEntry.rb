@@ -243,7 +243,7 @@ class Window_TextEntry < SpriteWindow_Base
       return
     end
     # Backspace
-    if Input.repeat?(Input::B)
+    if Input.repeat?(Input::B) || ($MKXP && Input.repeat?(0x2E))
       self.delete if @helper.cursor > 0
       return
     end
@@ -754,6 +754,7 @@ class Window_TextEntry_Keyboard < Window_TextEntry
     @frame%=20
     self.refresh if ((@frame%10)==0)
     return if !self.active
+    #echoln "Inserting text"
     # Moving cursor
     if Input.repeat?(Input::LEFT)
       if @helper.cursor > 0
@@ -772,21 +773,26 @@ class Window_TextEntry_Keyboard < Window_TextEntry
       return
     end
     # Backspace
-    if Input.repeatex?(8) || Input.repeatex?(0x2E)
+    if Input.repeatex?(8) || Input.repeatex?(0x2E) || Input.repeatex?(0x08)
       self.delete if @helper.cursor > 0
       return
     end
     if !@toUnicode
-      @toUnicode=Win32API.new("user32.dll","ToUnicode","iippii","i") rescue nil
-      @mapVirtualKey=Win32API.new("user32.dll","MapVirtualKey","ii","i") rescue nil
-      @getKeyboardState=Win32API.new("user32.dll","GetKeyboardState","p","i") rescue nil
+      @toUnicode=Win32API.new("user32","ToUnicode","iippii","i") rescue nil
+      @mapVirtualKey=Win32API.new("user32","MapVirtualKey","ii","i") rescue nil
+      @getKeyboardState=Win32API.new("user32","GetKeyboardState","p","i") rescue nil
     end
     if @getKeyboardState
       kbs="\0"*256
       @getKeyboardState.call(kbs)
       kbcount=0
       for i in 3...256
-        if Input.triggerex?(i)
+        if Input.triggerex?(i) && ($MKXP? (i == 0x2E || i == 0x08) : false)
+          self.delete if @helper.cursor > 0
+          return
+        end
+        if Input.triggerex?(i) && ($MKXP? (i != 0x2E && i != 0x08) : true)
+          echoln i
           vsc=@mapVirtualKey.call(i,0)
           buf="\0"*8
           ret=@toUnicode.call(i,vsc,kbs,buf,4,0)
@@ -1520,6 +1526,7 @@ class PokemonEntryScene2
       Input.update
       pbUpdate
       next if pbMoveCursor
+      
       if Input.trigger?(Input::B)
         @helper.delete
         pbPlayCancelSE()

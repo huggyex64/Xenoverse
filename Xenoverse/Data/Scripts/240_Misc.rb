@@ -743,3 +743,32 @@ def pbGetIncense(baby)
   end
   return 0
 end
+
+
+
+# Faster method for drawing outlines in MKXP.
+if $MKXP
+
+  class Sprite
+    def add_outline(c1)
+      return false if !self.bitmap
+      bmp = self.bitmap.clone
+      self.bitmap = Bitmap.new(bmp.height,bmp.width)
+      #creating outline
+      self.bitmap.blt(-1,0,bmp,Rect.new(0,0,bmp.width,bmp.height),40)
+      self.bitmap.blt(1,0,bmp,Rect.new(0,0,bmp.width,bmp.height),40)
+      self.bitmap.blt(0,1,bmp,Rect.new(0,0,bmp.width,bmp.height),40)
+      self.bitmap.blt(0,-1,bmp,Rect.new(0,0,bmp.width,bmp.height),40)
+      self.bitmap.blt(0,0,bmp,Rect.new(0,0,bmp.width,bmp.height))
+      for y in 0...bmp.width
+        for x in 0...bmp.height
+          pixel = self.bitmap.get_pixel(x,y)
+          if pixel.alpha != 255 && pixel.alpha > 0 # keeps alpha
+            self.bitmap.set_pixel(x,y,c1)
+          end
+        end
+      end
+    end
+  end
+
+end

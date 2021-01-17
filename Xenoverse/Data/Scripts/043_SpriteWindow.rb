@@ -1473,14 +1473,14 @@ def pbDisposeSprite(sprites,id)
   sprites[id]=nil
 end
 
-if $MKXP
-  class Bitmap
-    alias std_draw_text draw_text
-    def draw_text(x, y, width, height, str, align=0)
-      std_draw_text(x,y,width, height-4,str,align)
-    end
-  end
-end
+#if $MKXP
+#  class Bitmap
+#    alias std_draw_text draw_text
+#    def draw_text(x, y, width, height, str, align=0)
+#      std_draw_text(x,y,width, height-4,str,align)
+#    end
+#  end
+#end
 
 # Draws text on a bitmap. _textpos_ is an array
 # of text commands. Each text command is an array

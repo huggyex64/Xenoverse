@@ -812,8 +812,12 @@ class PokemonScreen_Scene
 		#@actualBitmap.fill_rect(0,0,30,30,Color.new(255,0,0))#debug
 		@actualBitmap.blt(0,0,@pokemonBitmap,Rect.new(@pokemonBitmap.height*@frame,0,@pokemonBitmap.height,@pokemonBitmap.height))
 		#@actualBitmap = @actualBitmap.clone
-		@actualBitmap.add_outline(Color.new(248,248,248),1)
+		@actualBitmap.add_outline(Color.new(248,248,248),1) if !$MKXP
 		@cmds["sprite"].bitmap = @actualBitmap if @cmds["sprite"] && @actualBitmap
+		if $MKXP 
+			@cmds["sprite"].add_outline(Color.new(248,248,248))
+			#@cmds["sprite"].create_outline(Color.new(248,248,248),1)
+		end
 	end
 	
 	def updateCmds
@@ -876,8 +880,10 @@ class PokemonScreen_Scene
       @actualBitmap = Bitmap.new(@pokemonBitmap.height,@pokemonBitmap.height)
       @actualBitmap.blt(0,0,@pokemonBitmap,Rect.new(0,@pokemonBitmap.height*@frame,@pokemonBitmap.height,@pokemonBitmap.height+2))
       #@actualBitmap = @actualBitmap.clone
-      #@actualBitmap.fill_rect(0,0,30,30,Color.new(255,0,0))
-      @actualBitmap.add_outline(Color.new(248,248,248),1)
+	  #@actualBitmap.fill_rect(0,0,30,30,Color.new(255,0,0))
+	  if !$MKXP
+	 	 @actualBitmap.add_outline(Color.new(248,248,248),1)
+	  end
     else
       @frameskip = 0
       @frame = 0
@@ -885,12 +891,15 @@ class PokemonScreen_Scene
       @pokemonBitmap = pbBitmap("Graphics/Battlers/egg")
       @actualBitmap = Bitmap.new(@pokemonBitmap.height,@pokemonBitmap.height)
       @actualBitmap.blt(0,0,@pokemonBitmap,Rect.new(0,0,@pokemonBitmap.height,@pokemonBitmap.height+2))
-      @actualBitmap.add_outline(Color.new(248,248,248),1)
+      @actualBitmap.add_outline(Color.new(248,248,248),1) if !$MKXP
     end
 		@cmds["sprite"]=Sprite.new(@viewport)
 		@cmds["sprite"].bitmap = @actualBitmap# @pokemonBitmap.clone
-		
-    #@cmds["sprite"].create_outline(Color.new(248,248,248),1)
+		if $MKXP 
+			@cmds["sprite"].add_outline(Color.new(248,248,248))
+			#@cmds["sprite"].create_outline(Color.new(248,248,248),1)
+		end
+    	#@cmds["sprite"].create_outline(Color.new(248,248,248),1)
 		#@cmds["sprite"].bitmap.add_outline(Color.new(248,248,248),1)
 		@cmds["sprite"].ox = @pokemonBitmap.height/2
 		@cmds["sprite"].z = 40
@@ -898,10 +907,10 @@ class PokemonScreen_Scene
 		#@cmds["sprite"].src_rect = Rect.new(0,@pokemonBitmap.height*@frame,@pokemonBitmap.height,@pokemonBitmap.height+2)
 		@cmds["sprite"].zoom_x = 2
 		@cmds["sprite"].zoom_y = 2
-    if pkmn.isEgg?
-      @cmds["sprite"].zoom_x = 1
-      @cmds["sprite"].zoom_y = 1
-    end
+		if pkmn.isEgg?
+			@cmds["sprite"].zoom_x = 1
+			@cmds["sprite"].zoom_y = 1
+		end
 		@cmds["sprite"].x = 111
 		@cmds["sprite"].y = 331#331
 		

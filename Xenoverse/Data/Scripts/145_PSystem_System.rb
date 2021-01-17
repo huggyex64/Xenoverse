@@ -166,14 +166,15 @@ end
  
  
 def pbDebugF7
-  if $DEBUG
+  $DEBUG=true
+  #if $DEBUG
     Console::setup_console
 		begin
       debugBitmaps
 			rescue
 		end
     pbSEPlay("expfull") if FileTest.audio_exist?("Audio/SE/expfull")
-  end
+  #end
 end
  
 pbSetUpSystem()

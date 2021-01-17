@@ -299,79 +299,106 @@ module Graphics
 end
 
 
+if !$MKXP
+  module Audio
+    @@musicstate=nil
+    @@soundstate=nil
 
-module Audio
-  @@musicstate=nil
-  @@soundstate=nil
-
-  def self.update
-    return if Graphics.frame_count%10!=0
-    if AudioState.waitingBGM && !AudioState.meActive?
-      waitbgm=AudioState.waitingBGM
-      AudioState.waitingBGM=nil
-      bgm_play(waitbgm[0],waitbgm[1],waitbgm[2],waitbgm[3])
-    end
-  end
-
-  def self.bgm_play(name,volume=80,pitch=100,position=nil)
-    begin
-      if position==nil || position==0
-        Kernel.Audio_bgm_play(name,volume,pitch,0)
-      else
-        Kernel.Audio_bgm_play(name,volume,pitch,position)
-        Kernel.Audio_bgm_fadein(500)
+    def self.update
+      return if Graphics.frame_count%10!=0
+      if AudioState.waitingBGM && !AudioState.meActive?
+        waitbgm=AudioState.waitingBGM
+        AudioState.waitingBGM=nil
+        bgm_play(waitbgm[0],waitbgm[1],waitbgm[2],waitbgm[3])
       end
-    rescue Hangup
-      bgm_play(name,volume,pitch,position)
     end
-  end
 
-  def self.bgm_fade(ms)
-    Kernel.Audio_bgm_fade(ms)
-  end
+    def self.bgm_play(name,volume=80,pitch=100,position=nil)
+      begin
+        if position==nil || position==0
+          Kernel.Audio_bgm_play(name,volume,pitch,0)
+        else
+          Kernel.Audio_bgm_play(name,volume,pitch,position)
+          Kernel.Audio_bgm_fadein(500)
+        end
+      rescue Hangup
+        bgm_play(name,volume,pitch,position)
+      end
+    end
 
-  def self.bgm_stop
-    Kernel.Audio_bgm_stop()
-  end
+    def self.bgm_fade(ms)
+      Kernel.Audio_bgm_fade(ms)
+    end
 
-  def self.bgm_position
-    ret=Kernel.Audio_bgm_get_position
-    return ret
-  end
+    def self.bgm_stop
+      Kernel.Audio_bgm_stop()
+    end
 
-  def self.me_play(name,volume=80,pitch=100)
-    Kernel.Audio_me_play(name,volume,pitch,0)
-  end
+    def self.bgm_position
+      ret=Kernel.Audio_bgm_get_position
+      return ret
+    end
 
-  def self.me_fade(ms)
-    Kernel.Audio_me_fade(ms)
-  end
+    def self.me_play(name,volume=80,pitch=100)
+      Kernel.Audio_me_play(name,volume,pitch,0)
+    end
 
-  def self.me_stop
-    Kernel.Audio_me_stop()
-  end
+    def self.me_fade(ms)
+      Kernel.Audio_me_fade(ms)
+    end
 
-  def self.bgs_play(name,volume=80,pitch=100)
-    Kernel.Audio_bgs_play(name,volume,pitch,0)
-  end
+    def self.me_stop
+      Kernel.Audio_me_stop()
+    end
 
-  def self.bgs_fade(ms)
-    Kernel.Audio_bgs_fade(ms)
-  end
+    def self.bgs_play(name,volume=80,pitch=100)
+      Kernel.Audio_bgs_play(name,volume,pitch,0)
+    end
 
-  def self.bgs_stop
-    Kernel.Audio_bgs_stop()
-  end
+    def self.bgs_fade(ms)
+      Kernel.Audio_bgs_fade(ms)
+    end
+
+    def self.bgs_stop
+      Kernel.Audio_bgs_stop()
+    end
 
 =begin
- def self.se_play(name,volume=80,pitch=100)
-   Kernel.Audio_se_play(name,volume,pitch,0)
- end
- def self.se_stop
-   Kernel.Audio_se_stop()
- end
+    def self.se_play(name,volume=80,pitch=100)
+      Kernel.Audio_se_play(name,volume,pitch,0)
+    end
+    def self.se_stop
+      Kernel.Audio_se_stop()
+    end
 =end
+  end
+else
+  module Audio
+    @bgm_play = method(:bgm_play)
+    @bgs_play = method(:bgs_play)
+    @me_play = method(:me_play)
+    @se_play = method(:se_play)
+  
+    def self.bgm_play(file_name, volume = 80, pitch = 100)
+      #volume=$PokemonSystem.bgmvolume
+      return @bgm_play.call(file_name, volume, pitch)
+    end
+    
+    def self.bgs_play(file_name, volume = 80, pitch = 100)
+      #volume=$PokemonSystem.sevolume
+      return @bgs_play.call(file_name,volume,pitch)
+    end
+    
+    def self.me_play(file_name, volume = 80, pitch = 100)
+      #volume=$PokemonSystem.bgmvolume
+      return @me_play.call(file_name,volume,pitch)
+    end
+    
+    def self.se_play(file_name, volume = 80, pitch = 100)
+      #volume=$PokemonSystem.sevolume
+      return @se_play.call(file_name,volume,pitch)
+    end
+  end
 end
-
 
 end # safeExists?("audio.dll")
