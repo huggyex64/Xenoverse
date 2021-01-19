@@ -139,6 +139,14 @@ class Scene_Jukebox
            Dir.glob("*.mid"){|f| files.push(f) }
            Dir.glob("*.MID"){|f| files.push(f) }
         }
+        #Dir.chdir("Audio/SE/"){
+        #   Dir.glob("*.mp3"){|f| files.push(f) }
+        #   Dir.glob("*.MP3"){|f| files.push(f) }
+        #   Dir.glob("*.mid"){|f| files.push(f) }
+        #   Dir.glob("*.MID"){|f| files.push(f) }
+        #   Dir.glob("*.wav"){|f| files.push(f) }
+        #   Dir.glob("*.WAV"){|f| files.push(f) }
+        #}
         @sprites["command_window"].commands=files
         @sprites["command_window"].index=0
         @custom=true
