@@ -1,35 +1,48 @@
-Is a directory @ rb_sysopen - Graphics/Autotiles/
+Script error within event 5, map 66 (Stellato Town):
+Exception: NoMethodError
+Message: undefined method `length' for nil:NilClass
+***Full script:
+cmd = pbEnterBoxName("Type a 
+command", 0, 200, initialText="")
+ret = eval cmd
+begin
+  Log.i("COMMAND","=> " + ret.to_s)
+rescue
+  Log.i("COMMAND","=> nil")
+end
+
+034_Interpreter.rb:243:in `pbExecuteScript'
+046_TextEntry.rb:1151:in `pbEntry1'
+046_TextEntry.rb:1139:in `loop'
+046_TextEntry.rb:1139:in `pbEntry1'
+046_TextEntry.rb:1204:in `pbEntry'
+046_TextEntry.rb:1722:in `pbStartScreen'
+046_TextEntry.rb:1736:in `pbEnterText'
+043_SpriteWindow.rb:1575:in `pbFadeOutIn'
+046_TextEntry.rb:1733:in `pbEnterText'
+046_TextEntry.rb:1757:in `pbEnterBoxName'
 
-043_SpriteWindow.rb:2245:in `initialize'
-043_SpriteWindow.rb:2245:in `open'
-043_SpriteWindow.rb:2245:in `pbGetFileChar'
-043_SpriteWindow.rb:785:in `initialize'
-043_SpriteWindow.rb:223:in `new'
-043_SpriteWindow.rb:223:in `initialize'
-043_SpriteWindow.rb:260:in `new'
-043_SpriteWindow.rb:260:in `pbGetAutotile'
-026_Spriteset_Map.rb:154:in `block in initialize'
-026_Spriteset_Map.rb:152:in `each'
-026_Spriteset_Map.rb:152:in `initialize'
-031_AnimationSprite.rb:45:in `initialize'
-033_DynamicShadows.rb:220:in `initialize'
-158_FootPrint.rb:63:in `initialize'
-166_WaterBubble.rb:241:in `initialize'
-167_MapConFix.rb:8:in `initialize'
-172_Ombra.rb:103:in `initialize'
-048_Scene_Map.rb:32:in `new'
-048_Scene_Map.rb:32:in `block in createSpritesets'
-048_Scene_Map.rb:31:in `each'
-048_Scene_Map.rb:31:in `createSpritesets'
-173_MovimentiPermessi.rb:262:in `main'
+
+034_Interpreter.rb:276:in `pbExecuteScript'
+034_Interpreter.rb:1606:in `command_355'
+034_Interpreter.rb:494:in `execute_command'
+034_Interpreter.rb:193:in `update'
+034_Interpreter.rb:106:in `loop'
+034_Interpreter.rb:106:in `update'
+048_Scene_Map.rb:108:in `zer0_choice_window_upd'
+048_Scene_Map.rb:106:in `loop'
+048_Scene_Map.rb:106:in `zer0_choice_window_upd'
+159_Choice.rb:35:in `update'
+173_MovimentiPermessi.rb:276:in `main'
+173_MovimentiPermessi.rb:264:in `loop'
+173_MovimentiPermessi.rb:264:in `main'
 999_Main.rb:96:in `mainFunctionDebug'
 999_Main.rb:76:in `mainFunction'
-999_Main.rb:106:in `block (2 levels) in load_scripts_from_folder'
+999_Main.rb:106:in `load_scripts_from_folder'
 999_Main.rb:105:in `loop'
-999_Main.rb:105:in `block in load_scripts_from_folder'
-000:Main:31:in `eval'
-000:Main:31:in `block in load_scripts_from_folder'
+999_Main.rb:105:in `load_scripts_from_folder'
+000:Main:28:in `eval'
+000:Main:31:in `load_scripts_from_folder'
 000:Main:28:in `each'
 000:Main:28:in `load_scripts_from_folder'
-000:Main:45:in `<main>'
-ruby:in `eval'
+000:Main:45

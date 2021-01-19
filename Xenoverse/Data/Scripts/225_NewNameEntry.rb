@@ -96,6 +96,9 @@ class Window_TextEntry_KeyboardNEW < Window_TextEntry_Keyboard
 	def initialize(*args)
 		super(*args)
 		setup
+		if $MKXP 
+			Input.gets #Used to clear text cache
+		end
 	end
 	
 	def setup
