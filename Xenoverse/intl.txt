@@ -11157,6 +11157,11 @@ Sì
 Yes
 No
 No
+[Map246]
+Eva
+Eva
+Questa riserva è l'ideale per testare le abilità di lotta delle Reclute uscite dalla catena di assemblaggio.
+Questa riserva è l'ideale per testare le abilità di lotta delle Reclute uscite dalla catena di assemblaggio.
 [Map249]
 <<[>>old<<]>>Vuoi uscire dal Nido?
 <<[>>old<<]>>Will you get out of the Den?
@@ -14136,41 +14141,41 @@ I know it may sound weird to you, but have you ever tried<<n>>to dig through the
 <<[>>old<<]>>The trash is full of wastepaper.
 [Map312]
 Lalla
-Lalla
+Laura
 E ora un po’ di shopping therapy!
-E ora un po’ di shopping therapy!
+It's shopping therapy time!
 Paola
-Paola
+Pauline
 Vuoi prendere qualcosa da bere? Tieni, questo lo offre la casa.
-Vuoi prendere qualcosa da bere? Tieni, questo lo offre la casa.
+Do you want to drink something?<<n>>Here, this one's on the house!
 Ti è piaciuto il Succo di Bacca, eh?
-Ti è piaciuto il Succo di Bacca, eh?
+You liked that Berry Juice, huh?
 Tonio
-Tonio
+Eugene
 Quest’infuso ai petali di Roselia fa sparire ogni dolore della vecchiaia!
-Quest’infuso ai petali di Roselia fa sparire ogni dolore della vecchiaia!
+This Roselia petal tea makes the pain of old age go away!
 <<[>>old<<]>>A quale piano vuoi andare?
 <<[>>old<<]>>Which floor are you going to?
 Mariolina
-Mariolina
+Mariposa
 Le diamo il benvenuto al Centro Commerciale di Sagittopoli.
-Le diamo il benvenuto al Centro Commerciale di Sagittopoli.
+Welcome to Vega Department Store.
 Carolina
-Carolina
+Marilyn
 <<[>>old<<]>>Qui non c'è niente...
 <<[>>old<<]>>There's nothing here...
 Gigio
-Gigio
+Dash
 Sluuurp! Un Succo di Bacca bello fresco è proprio quello che mi ci voleva!
-Sluuurp! Un Succo di Bacca bello fresco è proprio quello che mi ci voleva!
+Sluuurp! This fresh Berry Juice is what I needed!
 Piano 1
-Piano 1
+1st Floor
 Piano 2
-Piano 2
+2nd Floor
 Piano 3
-Piano 3
+3rd Floor
 Piano 4
-Piano 4
+4th Floor
 [Map313]
 Colorio
 Colorio
@@ -14337,7 +14342,7 @@ Capisco, anche tu hai il tuo gran da fare. Fammi sapere se cambi idea, però!
 Gigio
 Louie
 Con tutto il baccano che fa, quella baracca lassù mi farà scappare tutti i pesci...
-All the uproar that shed over there makes is gonna scare<<n>>all fish away...
+All the uproar that tent over there makes is gonna scare<<n>>all fish away...
 T1X
 T1X
 Fuori dagli ingranaggi, umano|a! <i>Bzz!</i>
@@ -14345,7 +14350,7 @@ Buzz off, human! <i>Bzz!</i>
 Alvin
 Alvin
 Nell’erba alta si hanno buone probabilità di trovare Pokémon con un’<b>abilità speciale</b>. Ora sì che potrò escogitare nuove strategie di lotta!
-It seems you have a good chance of finding Pokémon<<n>>with their <b>hidden ability</b> in tall grass.<<n>>Now I can finally think about new battle strategies!
+It seems you have a good chance of finding Pokémon<<n>>with their <b>Hidden Ability</b> in tall grass.<<n>>Now I can finally think about new battle strategies!
 Ti aspettavo, sai?
 I was waiting for you.
 Non ho assistito fino in fondo allo scontro, ma quello che ho potuto vedere mi è bastato.
@@ -14763,9 +14768,9 @@ La tua forza è come una fiamma inestinguibile... per quanta acqua si versi sopr
 Your energy is like an eternal flame...no amount of water<<n>>will ever stop it from burning!
 [Map325]
 Tullio
-Tullio
+Dorian
 Dovrei proprio fare un salto al <b>Percorso 17</b> per procurarmi un bel <b>Popplio</b>. Se ne avessi uno, di certo potrei unirmi anch'io ai saltimbanchi del <b>Circo Sirio</b>!
-Dovrei proprio fare un salto al <b>Percorso 17</b> per procurarmi un bel <b>Popplio</b>.  Se ne avessi uno, di certo potrei unirmi anch'io ai saltimbanchi del <b>Circo Sirio</b>!
+I should really go on <b>Route 17</b> to get me a nice<<n>><b>Popplio</b>...<<n>>If I had one, I could certainly join the tumblers in<<n>>the <b>Sunshine Circus</b>!
 [Map326]
 Leon
 Leon
@@ -14876,61 +14881,61 @@ Il gestore del casinò ha rinvenuto un vecchio cabinato quaggiù, ma ha davvero 
 [Map329]
 [Map330]
 Ignazio
-Ignazio
+Ralph
 Meglio non passare di qui! Ho appena dato lo straccio e non voglio che nessuno scivoli e si faccia male.
-Meglio non passare di qui! Ho appena dato lo straccio e non voglio che nessuno scivoli e si faccia male.
+Keep out! I just mopped the stairs and I don't want<<n>>anyone to slip and get hurt.
 [Map331]
 Anita
 Anita
 Tutti i Capipalestra della regione hanno un'occupazione alternativa, lo sapevi?
-Tutti i Capipalestra della regione hanno un'occupazione alternativa, lo sapevi?
+All the Gym Leaders of the region have an alternative employment, did you know?
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>The trash is empty.
 [Map332]
 Annabella
 Annabella
 Non c’è niente di male a scappare, quando la situazione si fa critica.
-Non c’è niente di male a scappare, quando la situazione si fa critica.
+There's nothing wrong with running away when things<<n>>get difficult.
 I Pokémon però sono dei veri duri e anziché scappare, aumentano la Velocità per colpire veloci come il vento!
-I Pokémon però sono dei veri duri e anziché scappare, aumentano la Velocità per colpire veloci come il vento!
+But Pokémon are tough guys and rather than running<<n>>away, they boost their Speed to strike faster than wind!
 Kimberly
 Kimberly
 Da quando hanno deciso di abolire la Lega Pokémon, le Palestre hanno assunto tutt'altro significato ad Eldiw.
-Da quando hanno deciso di abolire la Lega Pokémon, le Palestre hanno assunto tutt'altro significato ad Eldiw.
+Since they've decided to abolish the Pokémon League,<<n>>Gyms took a whole new meaning in Eldiw.
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
 <<[>>old<<]>>The trash is full of wastepaper.
 [Map333]
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
 <<[>>old<<]>>The trash is full of wastepaper.
 Ludmilla
-Ludmilla
+Amelie
 Dal punto di vista istituzionale, Eldiw è differente dalle altre regioni del mondo Pokémon. Le cause sarebbero da ricercarsi nella sua storia lunga e travagliata.
-Dal punto di vista istituzionale, Eldiw è differente dalle altre regioni del mondo Pokémon. Le cause sarebbero da ricercarsi nella sua storia lunga e travagliata.
+Institutionally, Eldiw is different from the other regions<<n>>of the Pokémon world.<<n>>The causes should be looked for in the long troubled<<n>>history of our region.
 Clara
-Clara
+Linda
 Un tempo la città ospitava una Palestra, ma sono anni che il suo Capopalestra non si fa più vivo ormai...
-Un tempo la città ospitava una Palestra, ma sono anni che il suo Capopalestra non si fa più vivo ormai... 
+The city was once home of a Gym, but the Gym Leader<<n>>has disappeared for years...
 Molly
 Molly
 Questa volta salviamo il gioco, però. Non voglio che il Sig. Drilbur si arrabbi di nuovo!
-Questa volta salviamo il gioco, però. Non voglio che il Sig. Drilbur si arrabbi di nuovo!
+But this time we save our game. I don't want Mr. Drilbur<<n>>to get angry again!
 <<[>>old<<]>>È un Nintendo Switch. All'interno c'è un gioco: ''Pokémon Crossing''!
 <<[>>old<<]>>It's a Nintendo Switch. There's a game in the slot: ''Pokémon Crossing''!
 Holly
 Holly
 Evvai, ho preso un Joltik col retino!
-Evvai, ho preso un Joltik col retino!
+Yayyy! I caught a Joltik with my golden net!
 [Map334]
 Manuel
-Manuel
+Isaac
 E gli scatoloni sono fatti! Ora il difficile sarà separarsi da tutto ciò che è dentro...
-E gli scatoloni sono fatti! Ora il difficile sarà separarsi da tutto ciò che è dentro...
+Finally I'm done with the boxes! The tough part will be<<n>>getting rid of everything inside now...
 Claudia
-Claudia
+Judith
 Il mio ragazzo è un vero accumulatore seriale, non riesce a separarsi nemmeno dall’oggetto più inutile! Tieni, aiutami a nascondere un po’ di roba.
-Il mio ragazzo è un vero accumulatore seriale, non riesce a separarsi nemmeno dall’oggetto più inutile! Tieni, aiutami a nascondere un po’ di roba.
+My boyfriend really is a bad hoarder--he can't even<<n>>get enough of the most useless item!<<n>>Here, help me get rid of some of this stuff.
 Sono sicura che non se ne accorgerà nemmeno.
-Sono sicura che non se ne accorgerà nemmeno.
+I'm sure he won't even notice it.
 [Map335]
 <<[>>old<<]>><b>Aranciopoli</b> <i>''La città dei tramonti vermigli.''
 <<[>>old<<]>><b>Aranciopoli</b> <i>''La città dei tramonti vermigli.''
@@ -14939,7 +14944,7 @@ Martino
 Qui nel porto non si può nuotare, ma se proprio ci tieni a farti una sguazzata, puoi provare nella spiaggetta a sud.
 Qui nel porto non si può nuotare, ma se proprio ci tieni a farti una sguazzata, puoi provare nella spiaggetta a sud.
 <<[>>old<<]>>P...les...ra T...on...
-<<[>>old<<]>>P...les...ra T...on...
+<<[>>old<<]>>V-rm-l--n Gy-
 Susanna
 Susanna
 Ad occhio e croce, direi che tu non sei del posto, mi sbaglio forse?
@@ -15804,56 +15809,56 @@ Ti ringrazio dell’esperienza, Allenatore.
 Steph
 Steph
 Allora, vediamo un po'... Poké Ball prese... Repellenti presi... ora mancano solo i rimedi!
-Allora, vediamo un po'... Poké Ball prese... Repellenti presi... ora mancano solo i rimedi!
+Hmm. Let me see...Poké Balls, check...Repels,<<n>>check...I only need medicine now!
 <<[>>old<<]>>Qui non c'è niente...
 <<[>>old<<]>>There's nothing here...
 Holly
 Holly
 Una vasta gamma di Poké Ball in vendita solo qui, al Centro Commerciale di Sagittopoli!
-Una vasta gamma di Poké Ball in vendita solo qui, al Centro Commerciale di Sagittopoli!
+The widest variety of Poké Balls on sale only here,<<n>>at Vega Department Store!
 Qui abbiamo una vasta gamma di strumenti utili per i tuoi Pokémon. Da' un'occhiata e non te ne pentirai!
-Qui abbiamo una vasta gamma di strumenti utili per i tuoi Pokémon. Da' un'occhiata e non te ne pentirai!
+Here we have a wide variety of useful items for your<<n>>Pokémon. Have a look and you won't regret it!
 Toy
 Toy
 Rubio
-Rubio
+Rudy
 Ho comprato questo per sbaglio, ma non posso più ridarlo indietro... va beh, dai prendilo tu!
-Ho comprato questo per sbaglio, ma non posso più ridarlo indietro... va beh, dai prendilo tu!
+I accidentally bought this one and I can't give it back<<n>>anymore now...well, you can have it!
 La prossima volta cercherò di fare più attenzione.
-La prossima volta cercherò di fare più attenzione.
+I'll be more careful next time.
 <<[>>old<<]>>A quale piano vuoi andare?
 <<[>>old<<]>>Which floor are you going to?
 Lorella
-Lorella
+Lorelai
 Non mi ero mai imbattuta in un Pokémon cromatico fino a ieri. Peccato solo che fossi a corto di Poké Ball... Stavolta, però, ho fatto scorta!
-Non mi ero mai imbattuta in un Pokémon cromatico fino a ieri. Peccato solo che fossi a corto di Poké Ball... Stavolta, però, ho fatto scorta!
+I've never bumped into a shiny Pokémon until yesterday.<<n>>Too bad I had no Poké Ball with me...<<n>>But this time I got plenty of 'em!
 Piano T
-Piano T
+Ground Floor
 Piano 2
-Piano 2
+2nd Floor
 Piano 3
-Piano 3
+3rd Floor
 Piano 4
-Piano 4
+4th Floor
 [Map361]
 Elizabeth
 Elizabeth
 Mio figlio mi ha mandata qui ad acquistare dei prodotti per i suoi Pokémon, ma non ci capisco niente... Mi sembrano tutti uguali!
-Mio figlio mi ha mandata qui ad acquistare dei prodotti per i suoi Pokémon, ma non ci capisco niente... Mi sembrano tutti uguali!
+My son sent me here to buy some of these products<<n>>for his Pokémon, but I'm so confused...<<n>>They all look the same to me!
 Frod
-Frod
+Franklin
 Se vuoi acquistare strumenti per potenziare i tuoi Pokémon, sei nel posto giusto!
-Se vuoi acquistare strumenti per potenziare i tuoi Pokémon, sei nel posto giusto!
+If you want to buy items to enhance your Pokémon,<<n>>here you are at the right place!
 <<[>>old<<]>>Qui non c'è niente...
 <<[>>old<<]>>There's nothing here...
 Ken
 Ken
 Questi prodotti dovrebbero essere integrati a un buon allenamento, non sostituirlo del tutto, sia chiaro!
-Questi prodotti dovrebbero essere integrati a un buon allenamento, non sostituirlo del tutto, sia chiaro!
+These products are meant to supplement a good training,<<n>>not to replace it entirely!
 Jerry
 Jerry
 Creare dei motivetti pubblicitari che rimangano in testa non dev'essere affatto facile!
-Creare dei motivetti pubblicitari che rimangano in testa non dev'essere affatto facile!
+It must be hard writing commercial jingles that can stick<<n>>in everyone's head!
 <<[>>old<<]>>A quale piano vuoi andare?
 <<[>>old<<]>>Which floor are you going to?
 Benvenuto al Centro Commerciale di Sagittopoli, qui vendiamo una vasta di prodotti per la salute e le statistiche dei tuoi Pokémon. Scegli quella che preferisci di più!
@@ -15861,85 +15866,85 @@ Benvenuto al Centro Commerciale di Sagittopoli, qui vendiamo una vasta di prodot
 Marlon
 Marlon
 Ero scettico sull'utilità di questi prodotti, ma dopo averli provati, mi sono ricreduto!
-Ero scettico sull'utilità di questi prodotti, ma dopo averli provati, mi sono ricreduto!
+I was sceptical about these products once, but after<<n>>having tried 'em out, I changed my mind!
 Piano T
-Piano T
+Ground Floor
 Piano 1
-Piano 1
+1st Floor
 Piano 3
-Piano 3
+3rd Floor
 Piano 4
-Piano 4
+4th Floor
 [Map362]
 Cardion
-Cardion
+Roco
 Ho visitato tutte le grotte del mondo per scovare queste splendide pietre preziose. Da' pure un'occhiata!
-Ho visitato tutte le grotte del mondo per scovare queste splendide pietre preziose. Da' pure un'occhiata!
+I've been in all the caves on this earth to collect these splendid precious stones. Please, take a look!
 <<[>>old<<]>>A quale piano vuoi andare?
 <<[>>old<<]>>Which floor are you going to?
 Ciao ragazzino|a, io sono Cardion! Sono un giramondo che ha visitato gran parte delle regioni del Mondo. Vendo tante pietre preziose e non solo, dacci un'occhiata!
 Ciao ragazzino|a, io sono Cardion! Sono un giramondo che ha visitato gran parte delle regioni del Mondo. Vendo tante pietre preziose e non solo, dacci un'occhiata!
 Nutrio
-Nutrio
+Brodie
 S-Sto solo dando un’occhiata... firulì firulà!
-S-Sto solo dando un’occhiata... firulì firulà!
+I-I'm just looking around...whistly-whistle!
 Margherita
-Margherita
+Maggie
 Wow! Guarda come luccicano queste pietre!!
-Wow! Guarda come luccicano queste pietre!!
+Wooow! Look how these stones twinkles!
 Eleno
-Eleno
+Eric
 Lo sapevi che Pokémon che si evolvono tramite una pietra evolutiva dispongono di più mosse dal Ricordamosse?
-Lo sapevi che Pokémon che si evolvono tramite una pietra evolutiva dispongono di più mosse dal Ricordamosse?
+Did you know the Move Reminder can teach more moves<<n>>to Pokémon evolving with Evolution stones?
 Leri
-Leri
+Lexi
 Volevo vendere questa curiosa pietra al commesso, ma a quanto dice lui non è nemmeno una pietra evolutiva.
-Volevo vendere questa curiosa pietra al commesso, ma a quanto dice lui non è nemmeno una pietra evolutiva.
+I wanted to sell this odd stone to the salesman,<<n>>but he said it isn't even an Evolution stone.
 Se non è una pietra, mi chiedo cosa sia...
-Se non è una pietra, mi chiedo cosa sia...
+If that isn't a stone, I wonder what it could be...
 Rex
 Rex
 Meglio la Pietragelo o la Pietrafoglia per il mio Eevee? Non riesco proprio a decidermi!
-Meglio la Pietragelo o la Pietrafoglia per il mio Eevee? Non riesco proprio a decidermi!
+What do you think? Ice Stone or Leaf Stone for my Eevee?<<n>>I can't decide!
 Piano T
-Piano T
+Ground Floor
 Piano 1
-Piano 1
+1st Floor
 Piano 2
-Piano 2
+2nd Floor
 Piano 4
-Piano 4
+4th Floor
 [Map363]
 <<[>>old<<]>>Qui non c'è niente...
 <<[>>old<<]>>There's nothing here...
 Croco
-Croco
+Cardam
 Ciao, giovane! Vuoi dare un'occhiata ai modelli di Pokéboard?
-Ciao, giovane! Vuoi dare un'occhiata ai modelli di Pokéboard?
+Hey there, young one! Do you want to check out some<<n>>new Pokéboard models?
 Oh, tu devi essere il||la ragazzo|a di cui mi parlava mio figlio Claudio!
-Oh, tu devi essere il||la ragazzo|a di cui mi parlava mio figlio Claudio!
-Mi ha raccontato delle tue eroiche impresi al Campus Ariepoli, ma soprattutto della tua vittoria in Palestra! Non tutti riescono a dargli del filo da torcere, sai?
-Mi ha raccontato delle tue eroiche impresi al Campus Ariepoli, ma soprattutto della tua vittoria in Palestra! Non tutti riescono a dargli del filo da torcere, sai?
+Oh, you must be the boy|||gal my son Ginger told me about!
+Mi ha raccontato delle tue eroiche imprese al Campus Ariepoli, ma soprattutto della tua vittoria in Palestra! Non tutti riescono a dargli del filo da torcere, sai?
+He told me about your heroic deeds in Newtron's campus,<<n>>but especially about your victory at the Gym!<<n>>It's not everyone that gives him a hard time, y'know?
 Essendo spesso lontano da mio figlio, ho sempre paura che finisca in cattive compagnie... ... ma a vederti, si direbbe che Claudio sappia circondarsi di brave persone.
-Essendo spesso lontano da mio figlio, ho sempre paura che finisca in cattive compagnie... ... ma a vederti, si direbbe che Claudio sappia circondarsi di brave persone.
+Because my job keeps me away from my son, I'm always<<n>>worried he could get mixed up in bad scenes...<<n>>...but from what I can see now, my Ginger knows how<<n>>to have good people around. 
 Su, non fare complimenti e accetta questo pensierino!
-Su, non fare complimenti e accetta questo pensierino!
+I want to give you this lil' present. C'mon, take it!
 \PN, vero? È stato un piacere conoscerti! Dai pure un'occhiata qui in giro se ti va.
-\PN, vero? È stato un piacere conoscerti! Dai pure un'occhiata qui in giro se ti va.
+\PN, right? It was great meeting you!<<n>>Feel free to look around if you want.
 Ciao, \PN! Allora che si dice?
-Ciao, \PN! Allora che si dice?
+Oi, \PN! So what's up?
 Dotta
-Dotta
+Charlotte
 Il Pokéboard sfrutta la repulsione e l'attrazione magnetica come mezzo di locomozione. In parole povere, viaggia grazie alla levitazione magnetica.
-Il Pokéboard sfrutta la repulsione e l'attrazione magnetica come mezzo di locomozione. In parole povere, viaggia grazie alla levitazione magnetica.
+The Pokéboard uses both magnetic repulsive and<<n>>adhesive forces for its locomotion.<<n>>To make a long story short, it moves because of<<n>>the magnetic levitation.
 Linux
 Linux
 Non riesco proprio a capire se questo Pokéboard sia adatto al mio stile...
-Non riesco proprio a capire se questo Pokéboard sia adatto al mio stile...
+I just don't get if this Pokéboard could be the right one<<n>>for my style...
 Ilaria
-Ilaria
+Rayna
 Come dico sempre, non è lo Skater a scegliere il Pokéboard, ma il contrario!
-Come dico sempre, non è lo Skater a scegliere il Pokéboard, ma il contrario!
+As I always say, it's not the Skater who chooses his<<n>>Pokéboard, but the opposite!
 <<[>>old<<]>>A quale piano vuoi andare?
 <<[>>old<<]>>Which floor are you going to?
 Piano T
@@ -18511,17 +18516,19 @@ Stia calmo, milord. Sono certo che anche Luxflon stia bene, ovunque egli sia.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 [Map465]
 Minerva
-Minerva
+Athena
 Giovane Allenatore, vuole scoprire il futuro che la attende?
-Giovane Allenatore, vuole scoprire il futuro che la attende?
+Young Trainer, do you wish to discover the fate awaiting you?
 Vedo... vedo...
-Vedo... vedo...
+I see...
 Oh, per tutti gli astri del cielo!
-Oh, per tutti gli astri del cielo!
+Oh, for star's sake!
+Nella mia sfera di cristallo leggo che una maledizione la tormenterà per il resto dei suoi giorni... ... ma si salverà acquistando da me dei rarissimi Bijou!
+In this crystal ball of mine, I'm reading that a terrible curse will torment you for the rest of your days...<<n>>...but there's a way out of this--my rare Gems!
 Sfugga al suo infausto destino e si serva pure.
-Sfugga al suo infausto destino e si serva pure.
+Come on, escape your ominous fate then!
 Capisco, deve far paura conoscere il proprio destino con anticipo.
-Capisco, deve far paura conoscere il proprio destino con anticipo.
+I know. It must be scary to learn about your future<<n>>in advance.
 Litwick
 Litwick
 Lit...!
@@ -18534,17 +18541,17 @@ No
 Nanu
 Nanu
 Da Alola, sono venuto fino a qui, non per fare affari con la mia mercanzia...
-Da Alola, sono venuto fino a qui, non per fare affari con la mia mercanzia...
+From Alola, I moved here, not to do some business<<n>>with my merch...
 ... bensì, per mettere le mani sull’enigmatico Meowth che regna silenzioso in questa regione.
-... bensì, per mettere le mani sull’enigmatico Meowth che regna silenzioso in questa regione.
+I came here to get my hands on the enigmatic Meowth silently ruling over this region!
 Sarei persino disposto a cedere il mio nobile <b>Meowth di Alola</b> per averne uno! Tu ne hai uno per caso?
-Sarei persino disposto a cedere il mio nobile <b>Meowth di Alola</b> per averne uno! Tu ne hai uno per caso?
+I may even give away my noble <b>Alolan Meowth</b><<n>>to get one!<<n>>D'ya have one, by any chance?
 Prima o poi lo troverò.
-Prima o poi lo troverò.
+I'll find it, sooner or later.
 Miao! Quel Meowth sarà mio!
-Miao! Quel Meowth sarà mio!
+Meow! That Meowth's gonna be mine!
 Occhio a non sporcare la moneta sulla sua fronte... potrebbe diventare intrattabile!
-Occhio a non sporcare la moneta sulla sua fronte... potrebbe diventare intrattabile!
+Don't get any dirt on the gold coin on its forehead...<<n>>or it will get hysterical!
 Sì
 Yes
 No
@@ -18989,35 +18996,35 @@ No
 Felix
 Felix
 Le do il benvenuto all’Ostello Sagitta. Se vuole riposare, al piano superiore troverà una stanza tutta per lei. Buona permanenza!
-Le do il benvenuto all’Ostello Sagitta. Se vuole riposare, al piano superiore troverà una stanza tutta per lei. Buona permanenza!
+I'd like to welcome you to Vega Hostel. If you want to<<n>>rest, you will find a whole room to yourself upstairs.<<n>>Have a good stay!
 [Map490]
 [Map491]
 Pinerolo
-Pinerolo
+Douglas
 Ho una bella stanzetta ed ora anche un po’ di compagnia. Cosa potrei chiedere di meglio? Una lotta!
-Ho una bella stanzetta ed ora anche un po’ di compagnia. Cosa potrei chiedere di meglio? Una lotta!
+I got a cozy little room and now some company too.<<n>>What more could I ask for? A battle!
 Quest’ostello non è poi così male.
-Quest’ostello non è poi così male.
+This hostel isn't that bad.
 Quest’ostello è l’ideale per chi come me non ha un soldo per permettersi un appartamento...
-Quest’ostello è l’ideale per chi come me non ha un soldo per permettersi un appartamento...
+This hostel is ideal for people like me who ain't got<<n>>no money to afford a place...
 [Map492]
 Donatella
-Donatella
+Leanna
 Mio marito mi ha promesso che quando diventerà miliardario al casinò, mi porterà in vacanza ad Alola!
-Mio marito mi ha promesso che quando diventerà miliardario al casinò, mi porterà in vacanza ad Alola!
+My husband will become a billionaire at the casino<<n>>and take me on a vacation in Aola!
 [Map493]
 Zack
-Zack
+Haku
 Dopo un riposo rinvigorente, sono pronto a sfoderare le mie migliori tecniche di karate!
-Dopo un riposo rinvigorente, sono pronto a sfoderare le mie migliori tecniche di karate!
+After my reinvigorating rest, I'm ready to unleash<<n>>my best karate techniques!
 Avrei dovuto pensare a non perdere, piuttosto che puntare alla vittoria.
-Avrei dovuto pensare a non perdere, piuttosto che puntare alla vittoria.
+I shouldn't have thought to win, rather I should have thought not to lose.
 Zinna
-Zinna
+Dana
 Salvaguardare la natura è stancante, ma le lotte sono un vero svago!
-Salvaguardare la natura è stancante, ma le lotte sono un vero svago!
+Safeguarding nature is exhausting, but battles are<<n>>a real leisure!
 Rettifico, anche le lotte sono stancanti...
-Rettifico, anche le lotte sono stancanti...
+My bad, battles are exhausting too...
 [Map494]
 <<[>>old<<]>>Vuoi riposarti?
 <<[>>old<<]>>Would you like to rest?
@@ -44396,7 +44403,7 @@ Samuele
 Filippo
 Phil
 Pinerolo
-Pinerolo
+Douglas
 Minervo
 Minervo
 Fausto
@@ -44480,7 +44487,7 @@ Pakuro
 Raitu
 Raitu
 Zack
-Zack
+Haku
 Mustard
 Mustard
 Akuma
@@ -44826,7 +44833,7 @@ Sunny
 Mara
 Mara
 Zinna
-Zinna
+Dana
 Rachele
 Cheryl
 Elisa
