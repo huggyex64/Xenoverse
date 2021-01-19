@@ -294,7 +294,7 @@ class PokemonLoad
     cmdQuit        = -1
     commands       = []
     savefile = RTP.getSaveFileName("Game.rxdata")
-    FontInstaller.install
+    FontInstaller.install if !$MKXP
     data_system = pbLoadRxData("Data/System")
     mapfile=$RPGVX ? sprintf("Data/Map%03d.rvdata",data_system.start_map_id) :
                      sprintf("Data/Map%03d.rxdata",data_system.start_map_id)

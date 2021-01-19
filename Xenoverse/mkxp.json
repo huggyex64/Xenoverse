@@ -306,7 +306,7 @@
     // and audibly cutting each other off, try increasing
     // this number. Maximum: 64.
     //
-    // "SESourceCount": 6
+     "SESourceCount": 12
 
 
     // The Windows game executable name minus ".exe". By default

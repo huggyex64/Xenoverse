@@ -38,7 +38,10 @@ end
 
 
 def pbCallTitle #:nodoc:
-	$DEBUG=false
+  $DEBUG=false
+  if $MKXP
+    System.set_window_title("Xenoverse - Per Aspera Ad Astra")
+  end
   Graphics.transition(0)
   viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
   viewport.z = 99999
@@ -57,7 +60,7 @@ def pbCallTitle #:nodoc:
   weedleLogo.dispose
   Graphics.transition(20)
   pbWait(18)
-  Graphics.play_movie("Graphics/Movies/intro.avi") unless defined?($MKXP) #for joiplay compatibility
+  Graphics.play_movie("Graphics/Movies/intro.avi") unless defined?($MKXP)#for joiplay compatibility
 	if $DEBUG
     return Scene_DebugIntro.new
   else

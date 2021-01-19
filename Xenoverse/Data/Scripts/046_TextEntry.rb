@@ -944,9 +944,8 @@ class Window_TextEntry_Keyboard < Window_TextEntry
       end
 
       if Input.pressex?(:LCTRL) || Input.pressex?(:RCTRL)
-        echoln "Holding CTRL"
         if Input.triggerex?(:C)
-          Input.clipboard = @text
+          Input.clipboard = @helper.text
           return
         #insert(Input.clipboard) if Input.triggerex?(:V)
         elsif Input.triggerex?(:V)
