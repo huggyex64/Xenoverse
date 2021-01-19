@@ -5514,14 +5514,12 @@ Tuuurt....!
 <<[>>old<<]>>Would you like to heal your Pokémon?
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
 <<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
-<<[>>old<<]>>Un'energia arcana impedisce di proseguire...
-<<[>>old<<]>>A mysterious energy blocked the way.
+<<[>>old<<]>>Bisogna prima raggiungere il Cardinale Oleandro!
+<<[>>old<<]>>You must first reach Cardinal Abraham!
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
-Lee
-Lee
-Sei ancora troppo acerbo|a per poterti inoltrare nei territori qui fuori.
-You are still too green to venture through the lands<<n>>out there, lad.
+<<[>>old<<]>>Questo Turtonator non ne vuole sapere di farti passare... per il momento!
+<<[>>old<<]>>This Turtonator doesn't want to let you jump on it...for now! 
 Oleandro
 Abraham
 Fa' presto!!
@@ -14178,31 +14176,31 @@ Piano 4
 4th Floor
 [Map313]
 Colorio
-Colorio
+Color
 Salve, Allenatore! Sono lieto di darti finalmente il benvenuto nel <b>Condominio Lotta</b>!
-Salve, Allenatore! Sono lieto di darti finalmente il benvenuto nel <b>Condominio Lotta</b>!
+Greetings, Trainer! I'm glad to finally welcome you to<<n>>the <b>Battle Condo</b>!
 Allora dimmi, sei qui per metterti alla prova?
-Allora dimmi, sei qui per metterti alla prova?
+So tell me, are you here to prove yourself?
 Va bene, alla prossima allora!
-Va bene, alla prossima allora!
+Okay then, see you next time!
 Bene, sali pure al primo piano per iniziare la tua scalata!
-Bene, sali pure al primo piano per iniziare la tua scalata!
+Well then, you can go upstairs and start your climb!
 Il Condominio Lotta consiste in nulla più che la scalata di questo palazzo, lotta dopo lotta. Sconfiggendo un abile Allenatore ad ogni piano, potrai procedere in quello successivo, così fino alla vetta!
-Il Condominio Lotta consiste in nulla più che la scalata di questo palazzo, lotta dopo lotta. Sconfiggendo un abile Allenatore ad ogni piano, potrai procedere in quello successivo, così fino alla vetta!
+The challenge of Battle Condo consists in nothing more<<n>>than climbing this skyscraper, battle after battle.<<n>>Every time you defeat the skilled Trainer of a floor, you<<n>>can get to the next one and so until you reach the top! 
 Non sarà affatto semplice, ma ti assicuro che il gioco ne vale la candela!
-Non sarà affatto semplice, ma ti assicuro che il gioco ne vale la candela!
+It won't be easy, but I can assure you the game is worth<<n>>all the trouble!
 Va’ e affrontali tutti.
-Va’ e affrontali tutti.
+Go and battle 'em all!
 Certo che eri davvero preso|a dalla scalata, eh? Hai perso questo oggettino.
-Certo che eri davvero preso|a dalla scalata, eh? Hai perso questo oggettino.
+You sure were into the climb, huh? You lost this gadget.
 Congratulazioni! Sei il||la primo|a sfidante ad aver completato l’impossibile sfida del Condominio Lotta!
-Congratulazioni! Sei il||la primo|a sfidante ad aver completato l’impossibile sfida del Condominio Lotta!
+Well done! You're the first Trainer ever to complete<<n>>the impossible challenge of Battle Condo!
 Voglio partecipare!
-Voglio partecipare!
+I want to enter!
 Di cosa si tratta?
-Di cosa si tratta?
+What is it?
 Ho cambiato idea.
-Ho cambiato idea.
+Never mind!
 [Map314]
 <<[>>old<<]>>È un Nintendo Switch.
 <<[>>old<<]>>A brand new Nintendo Switch.
@@ -14775,17 +14773,17 @@ I should really go on <b>Route 17</b> to get me a nice<<n>><b>Popplio</b>...<<n>
 Leon
 Leon
 Io e i miei bellissimi Pokémon ti manderemo al tappeto con eleganza!
-Io e i miei bellissimi Pokémon ti manderemo al tappeto con eleganza!
+I'll stylishly knock you down with my beautiful Pokémon!
 Miei cari, siete stati davvero splendidi!
-Miei cari, siete stati davvero splendidi!
+My dear babies, you've been really splendid!
 Colorio
-Colorio
+Color
 Che peccato, la tua scalata finisce qui. Sarà per la prossima!
-Che peccato, la tua scalata finisce qui. Sarà per la prossima!
+Too bad, your climb ends here. Maybe next time!
 Hai dimostrato di essere in gamba. Lascia che curi i tuoi Pokémon.
-Hai dimostrato di essere in gamba. Lascia che curi i tuoi Pokémon.
+You've proven to be smart. Let me heal your Pokémon.
 Prego, sali pure al secondo piano.
-Prego, sali pure al secondo piano.
+Now, you can go upstairs to the second floor.
 [Map327]
 Manager
 Manager
@@ -15700,111 +15698,111 @@ Quando la mia bambina imparerà ad essere gentile con gli altri, potrà riavere 
 Sunny
 Sunny
 Sei riuscito|a a superare il primo piano, ma non ti lascerò proseguire oltre! I miei Pokémon ti ridurranno in cenere affidandosi alla potenza del sole!
-Sei riuscito|a a superare il primo piano, ma non ti lascerò proseguire oltre! I miei Pokémon ti ridurranno in cenere affidandosi alla potenza del sole!
+You've been able to get over the first floor, but I won't<<n>>let you go ahead!<<n>>My Pokémon will burn you to the ground thanks to<<n>>the power of sun!
 Mi hai oscurata come un'eclissi...
-Mi hai oscurata come un'eclissi...
+You completely eclipsed me...
 Colorio
-Colorio
+Color
 Che peccato, la tua scalata finisce qui. Sarà per la prossima!
-Che peccato, la tua scalata finisce qui. Sarà per la prossima!
+Too bad, your climb ends here. Maybe next time!
 La tua non è fortuna, ma vera e propria abilità. Lascia che presti cure ai tuoi Pokémon.
-La tua non è fortuna, ma vera e propria abilità. Lascia che presti cure ai tuoi Pokémon.
+Yours isn't mere luck, but authentic skill.<<n>>Let me heal your Pokémon.
 Prego, sali pure al terzo piano.
-Prego, sali pure al terzo piano.
+Now, you can go upstairs to the third floor.
 [Map354]
 Rainn
 Rainn
 Non ti aspettavi di trovare un ragazzino al terzo piano, vero? Non sottovalutarmi! Con la mia strategia di lotta, una violenta tempesta si abbatterà su te e tutta la tua squadra!
-Non ti aspettavi di trovare un ragazzino al terzo piano, vero? Non sottovalutarmi! Con la mia strategia di lotta, una violenta tempesta si abbatterà su te e tutta la tua squadra!
+You weren't expecting a kid on the third floor, huh?<<n>>Don't underestimate me!<<n>>With my battle strategy, a raging storm will strike<<n>>you and your entire party!
 Alla tempesta segue sempre la quiete.
-Alla tempesta segue sempre la quiete.
+It's always quiet after a storm.
 Colorio
-Colorio
+Color
 Che peccato, la tua scalata finisce qui. Sarà per la prossima!
-Che peccato, la tua scalata finisce qui. Sarà per la prossima!
+Too bad, your climb ends here. Maybe next time!
 Hai mandato all’aria la mia tattica così ben studiata. I tuoi Pokémon meritano un po’ di riposo.
-Hai mandato all’aria la mia tattica così ben studiata. I tuoi Pokémon meritano un po’ di riposo.
+You just blew up my well-considered tactic.<<n>>Your Pokémon truly deserve some rest.
 Prego, sali pure al quarto piano.
-Prego, sali pure al quarto piano.
+Now, you can go upstairs to the fourth floor.
 [Map355]
 Sandy
 Sandy
 Nel quarto piano imperversa una violenta tempesta di sabbia! Fatti sotto!
-Nel quarto piano imperversa una violenta tempesta di sabbia! Fatti sotto!
+A violent sandstorm is raging on the fourth floor!<<n>>Bring it on, challenger!
 Mi chiedo chi pulirà il piano da tutta questa sabbia...
-Mi chiedo chi pulirà il piano da tutta questa sabbia...
+I wonder who's gonna clean all this sand here now...
 Colorio
-Colorio
+Color
 Che peccato, la tua scalata finisce qui. Sarà per la prossima!
-Che peccato, la tua scalata finisce qui. Sarà per la prossima!
+Too bad, your climb ends here. Maybe next time!
 Mettere a tacere la furia del deserto non è cosa da poco. Lascia che curi i tuoi Pokémon.
-Mettere a tacere la furia del deserto non è cosa da poco. Lascia che curi i tuoi Pokémon.
+Putting to rest the fury of the desert is no small thing.<<n>>Let me heal your Pokémon.
 Prego, sali pure al quinto piano.
-Prego, sali pure al quinto piano.
+Now, you can go upstairs to the fifth floor.
 [Map356]
 Gale
 Gale
 Allenatore, cominci ad entrare nelle zone calde del Condominio Lotta... Meglio abbassare un po’ la temperatura con una bella nevicata!
-Allenatore, cominci ad entrare nelle zone calde del Condominio Lotta...  Meglio abbassare un po’ la temperatura con una bella nevicata!
+Trainer, you're starting to get into Battle Condo's<<n>>hot spot...<<n>>I better lower the temperature with a good snowfall!
 Più veloce del vento di bufera!
-Più veloce del vento di bufera!
+Faster than gale winds!
 Colorio
-Colorio
+Color
 Che peccato, la tua scalata finisce qui. Sarà per la prossima!
-Che peccato, la tua scalata finisce qui. Sarà per la prossima!
+Too bad, your climb ends here. Maybe next time!
 Non sei niente male, moccioso|a! Da’ qua, i tuoi Pokémon devono essere in forze per proseguire.
-Non sei niente male, moccioso|a! Da’ qua, i tuoi Pokémon devono essere in forze per proseguire.
+You ain't that bad, squirt! Gimme here, your Pokémon<<n>>gotta be healthy to go on.
 Prego, sali pure al sesto piano.
-Prego, sali pure al sesto piano.
+Now, you can go upstairs to the sixth floor.
 [Map357]
 Ricky
 Ricky
 Sei stato in grado di resistere per ben cinque piani, ma la tua scalata finisce qui! Nessuno è mai riuscito a buttare giù la difesa d’acciaio dei miei Pokémon!!
-Sei stato in grado di resistere per ben cinque piani, ma la tua scalata finisce qui! Nessuno è mai riuscito a buttare giù la difesa d’acciaio dei miei Pokémon!!
+You've been able to make it through for five floors,<<n>>but your climb is gonna end here and now!<<n>>No one could ever knock down my defensive Pokémon<<n>>as hard as steel!!
 La lancia che fora lo scudo...
-La lancia che fora lo scudo...
+The spear that can pierce my shield...
 Colorio
-Colorio
+Color
 Che peccato, la tua scalata finisce qui. Sarà per la prossima!
-Che peccato, la tua scalata finisce qui. Sarà per la prossima!
+Too bad, your climb ends here. Maybe next time!
 Pensavo che avresti dato forfeit e invece hai tenuto duro. Lascia che rimetta in sesto i tuoi Pokémon.
-Pensavo che avresti dato forfeit e invece hai tenuto duro. Lascia che rimetta in sesto i tuoi Pokémon.
+I thought you'd forfeit this match and then you hung in.<<n>>Let me heal your Pokémon.
 Prego, sali pure al settimo piano.
-Prego, sali pure al settimo piano.
+Now, you can go upstairs to the seventh floor.
 [Map358]
 Seiya
 Seiya
 La mia fine strategia non ti permetterà nemmeno di scalfire i miei Pokémon!
-La mia fine strategia non ti permetterà nemmeno di scalfire i miei Pokémon!
+My worked-out strategy won't let you touch either one<<n>>of my Pokémon!
 E pensare che non avresti nemmeno dovuto scalfirmi...
-E pensare che non avresti nemmeno dovuto scalfirmi...
+You were supposed not to touch my Pokémon...
 Colorio
-Colorio
+Color
 Che peccato, la tua scalata finisce qui. Sarà per la prossima!
-Che peccato, la tua scalata finisce qui. Sarà per la prossima!
+Too bad, your climb ends here. Maybe next time!
 Cavolo, mi hai proprio demolita, altroché! Lascia che curi i tuoi amici, forza.
-Cavolo, mi hai proprio demolita, altroché! Lascia che curi i tuoi amici, forza.
+Man, you crashed me for sure!<<n>>Lemme heal your buddies, c'mon.
 Prego, sali pure all’ottavo ed ultimo piano.
-Prego, sali pure all’ottavo ed ultimo piano.
+Now, you can go upstairs to the eighth and last floor.
 [Map359]
 Ryu
 Ryu
 Bene, vedo che le tattiche degli altri condomini non si sono rivelate capaci di arrestare la tua avanzata. Sappi che io, al contrario, non farò ricorso ad alcun mezzuccio per arrivare alla vittoria...
-Bene, vedo che le tattiche degli altri condomini non si sono rivelate capaci di arrestare la tua avanzata. Sappi che io, al contrario, non farò ricorso ad alcun mezzuccio per arrivare alla vittoria...
+Well, I see that the strategies of the other residents<<n>>have not succeeded in stopping your climb.<<n>>Just know I'm not going to make use of that sort of thing<<n>>to achieve victory...
 Mi affiderò esclusivamente alla leggendaria potenza dei Pokémon di tipo Drago!
-Mi affiderò esclusivamente alla leggendaria potenza dei Pokémon di tipo Drago!
+I'll just rely on the mythical power of my Dragon-type<<n>>Pokémon!
 I miei invincibili draghi...!
-I miei invincibili draghi...!
+My invincible dragons...!
 Colorio
-Colorio
+Color
 Che peccato, la tua scalata finisce qui. Sarà per la prossima!
-Che peccato, la tua scalata finisce qui. Sarà per la prossima!
+Too bad, your climb ends here. Maybe next time!
 Chi riesce a sconfiggere non uno, ma ben tre draghi non può che essere un asso con le lotte Pokémon.
-Chi riesce a sconfiggere non uno, ma ben tre draghi non può che essere un asso con le lotte Pokémon.
+A Trainer who manages to defeat not one, but three<<n>>dragons, is a real master of Pokémon battles.
 Con questa vittoria, hai conquistato il Condominio Lotta! Prendi, questo è il premio che ti spetta.
-Con questa vittoria, hai conquistato il Condominio Lotta! Prendi, questo è il premio che ti spetta.
+With this victory, you've finally won the Battle Condo!<<n>>Here, this is the prize you deserve.
 Ti ringrazio dell’esperienza, Allenatore.
-Ti ringrazio dell’esperienza, Allenatore.
+Thank you for this amazing battle, Trainer.
 [Map360]
 Steph
 Steph

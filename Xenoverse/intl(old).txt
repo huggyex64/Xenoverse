@@ -21770,10 +21770,10 @@ Update contenente i dati del Pokémon Feebas. Permette al Pokémon di evolversi 
 Update contenente i dati del Pokémon Feebas. Permette al Pokémon di evolversi tramite Trasferitore.
 776
 Update contenente dati danneggiati del Pokémon Porygon. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente dati danneggiati del Pokémon Porygon. Permette al Pokémon di evolversi tramite Trasferitore.
+Update contenente dati corrotti del Pokémon Porygon2. Permette al Pokémon di evolversi tramite Trasferitore.
 777
 Update contenente i dati del Pokémon Porygon. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Porygon. Permette al Pokémon di evolversi tramite Trasferitore.
+Update contenente i dati del Pokémon Porygon2. Permette al Pokémon di evolversi tramite Trasferitore.
 778
 Strumento creato da Tarassaco per far evolvere determinate specie di Pokémon senza l'ausilio di scambi.
 Strumento creato da Tarassaco per far evolvere determinate specie di Pokémon senza l'ausilio di scambi.
