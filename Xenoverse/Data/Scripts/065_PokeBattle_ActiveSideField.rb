@@ -27,7 +27,7 @@ begin
       @effects[PBEffects::Gravity]     = 0
       @effects[PBEffects::MagicRoom]   = 0
 			@effects[PBEffects::IonDeluge]   = false
-#      @effects[PBEffects::TrickRoom]   = 0
+      @effects[PBEffects::TrickRoom]   = 0
 #      @effects[PBEffects::WonderRoom]  = 0
     end
   end

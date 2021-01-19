@@ -887,6 +887,13 @@ class PokeBattle_Battle
 			end
 			return false
 		end
+		if thispkmn.effects[PBEffects::ThroatChop]>0 && thismove.isSoundBased?
+			if showMessages
+				msg = _INTL("{1} can't use {2} because of Throat Chop!",pbThis,move.name)
+				(commandPhase) ? @battle.pbDisplayPaused(msg) : @battle.pbDisplay(msg)
+			end
+			return false
+		end
 		if thispkmn.effects[PBEffects::ChoiceBand]>=0 &&
 			(thispkmn.hasWorkingItem(:CHOICEBAND) ||
 				thispkmn.hasWorkingItem(:CHOICESPECS) ||
@@ -1004,7 +1011,9 @@ class PokeBattle_Battle
 	def pbRegisterMove(idxPokemon,idxMove,showMessages=true)
 		thispkmn=@battlers[idxPokemon]
 		thismove=thispkmn.moves[idxMove]
-		return false if !pbCanChooseMove?(idxPokemon,idxMove,showMessages)
+		res = pbCanChooseMove?(idxPokemon,idxMove,showMessages)
+		PBDebug.log("[#{thispkmn.pbThis} #{res==true ? "can use" : "can't use"} #{thismove.name}]")
+		return false if !res
 		@choices[idxPokemon][0]=1         # "Use move"
 		@choices[idxPokemon][1]=idxMove   # Index of move to be used
 		@choices[idxPokemon][2]=thismove  # PokeBattle_Move object of the move
@@ -1040,6 +1049,7 @@ class PokeBattle_Battle
 			# use stored priority if round isn't over yet
 			return @priority
 		end
+		@priorityTrickRoom = (@field.effects[PBEffects::TrickRoom]>0)
 		speeds=[]
 		quickclaw=[];lagging=[];
 		priorities=[]
@@ -1047,6 +1057,13 @@ class PokeBattle_Battle
 		@priority.clear
 		maxpri=0
 		minpri=0
+		# Random order used for ties
+		randomOrder = Array.new(@battlers.length) { |i| i }
+		(randomOrder.length-1).times do |i|   # Can't use shuffle! here
+			r = i+pbRandom(randomOrder.length-i)
+			randomOrder[i], randomOrder[r] = randomOrder[r], randomOrder[i]
+		end
+
 		# Calculate each Pokémon's speed
 		for i in 0...4
 			speeds[i]=@battlers[i].pbSpeed
@@ -1057,35 +1074,35 @@ class PokeBattle_Battle
 			quickclaw[i]=false if ignorequickclaw
 =end
 			quickclaw[i]=false
-      lagging[i]=false
-      if !ignorequickclaw && @choices[i][0]==1 # Chose to use a move
-        if !quickclaw[i] && @battlers[i].hasWorkingItem(:CUSTAPBERRY) &&
-           !@battlers[i].pbOpposing1.hasWorkingAbility(:UNNERVE) &&
-           !@battlers[i].pbOpposing2.hasWorkingAbility(:UNNERVE)
-          if (@battlers[i].hasWorkingAbility(:GLUTTONY) && @battlers[i].hp<=(@battlers[i].totalhp/2).floor) ||
-             @battlers[i].hp<=(@battlers[i].totalhp/4).floor
-            pbCommonAnimation("UseItem",@battlers[i],nil)
-            quickclaw[i]=true
-            pbDisplayBrief(_INTL("{1}'s {2} let it move first!",
-               @battlers[i].pbThis,PBItems.getName(@battlers[i].item)))
-            @battlers[i].pbConsumeItem
-          end
-        end
-        if !quickclaw[i] && @battlers[i].hasWorkingItem(:QUICKCLAW)
-          if pbRandom(10)<2
-            pbCommonAnimation("UseItem",@battlers[i],nil)
-            quickclaw[i]=true
-            pbDisplayBrief(_INTL("{1}'s {2} let it move first!",
-               @battlers[i].pbThis,PBItems.getName(@battlers[i].item)))
-          end
-        end
-        if !quickclaw[i] &&
-           (@battlers[i].hasWorkingAbility(:STALL) ||
-           @battlers[i].hasWorkingItem(:LAGGINGTAIL) ||
-           @battlers[i].hasWorkingItem(:FULLINCENSE))
-          lagging[i]=true
-        end
-      end
+			lagging[i]=false
+			if !ignorequickclaw && @choices[i][0]==1 # Chose to use a move
+				if !quickclaw[i] && @battlers[i].hasWorkingItem(:CUSTAPBERRY) &&
+					!@battlers[i].pbOpposing1.hasWorkingAbility(:UNNERVE) &&
+					!@battlers[i].pbOpposing2.hasWorkingAbility(:UNNERVE)
+					if (@battlers[i].hasWorkingAbility(:GLUTTONY) && @battlers[i].hp<=(@battlers[i].totalhp/2).floor) ||
+						@battlers[i].hp<=(@battlers[i].totalhp/4).floor
+						pbCommonAnimation("UseItem",@battlers[i],nil)
+						quickclaw[i]=true
+						pbDisplayBrief(_INTL("{1}'s {2} let it move first!",
+						@battlers[i].pbThis,PBItems.getName(@battlers[i].item)))
+						@battlers[i].pbConsumeItem
+					end
+				end
+				if !quickclaw[i] && @battlers[i].hasWorkingItem(:QUICKCLAW)
+					if pbRandom(10)<2
+						pbCommonAnimation("UseItem",@battlers[i],nil)
+						quickclaw[i]=true
+						pbDisplayBrief(_INTL("{1}'s {2} let it move first!",
+						@battlers[i].pbThis,PBItems.getName(@battlers[i].item)))
+					end
+				end
+				if !quickclaw[i] &&
+					(@battlers[i].hasWorkingAbility(:STALL) ||
+					@battlers[i].hasWorkingItem(:LAGGINGTAIL) ||
+					@battlers[i].hasWorkingItem(:FULLINCENSE))
+					lagging[i]=true
+				end
+			end
 		end
 		# Find the maximum and minimum priority
 		for i in 0...4
@@ -1163,6 +1180,13 @@ class PokeBattle_Battle
     ]
     print("#{speeds.inspect} #{prioind.inspect}")
 =end
+		#Quick rearranging for Trick room
+		if @priorityTrickRoom
+			@priority.sort!{ |a,b|
+				(a.pbSpeed==b.pbSpeed) ? randomOrder[b.index]<=>randomOrder[a.index] : a.pbSpeed<=>b.pbSpeed
+			}
+		end
+
 		@usepriority=true
 		d="   Priority: #{@priority[0].index}"
 		d+=", #{@priority[1].index}" if @priority[1]
@@ -2816,6 +2840,7 @@ class PokeBattle_Battle
 			@battlers[i].effects[PBEffects::ProtectNegation]=false
 			@battlers[i].effects[PBEffects::Endure]=false
 			@battlers[i].effects[PBEffects::HyperBeam]-=1 if @battlers[i].effects[PBEffects::HyperBeam]>0
+			@battlers[i].effects[PBEffects::ThroatChop] -= 1 if @battlers[i].effects[PBEffects::ThroatChop]>0
 			@battlers[i].effects[PBEffects::KingsShield]=false
 			@battlers[i].effects[PBEffects::SpikyShield]=false
 			@battlers[i].effects[PBEffects::BanefulBunker]=false
@@ -3466,6 +3491,13 @@ class PokeBattle_Battle
 			end
 		end
 		# Trick Room - should go here
+		if @field.effects[PBEffects::TrickRoom]>0
+			@field.effects[PBEffects::TrickRoom]-=1
+			if @field.effects[PBEffects::TrickRoom]==0
+				pbDisplay(_INTL("The area returned to normal."))
+				PBDebug.log("[Trick Room ended]")
+			end
+		end
 		# Wonder Room - should go here
 		# Magic Room
 		if @field.effects[PBEffects::MagicRoom]>0

@@ -385,6 +385,7 @@ class PokeBattle_Battler
 		@effects[PBEffects::LastMoveFailed]   = false
 		@effects[PBEffects::LaserFocus]   		= false
 	  @effects[PBEffects::ShellTrap]     		= -1
+	  @effects[PBEffects::ThroatChop]			= 0
 	end
 	
 	def pbUpdate(fullchange=false)

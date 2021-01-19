@@ -101,7 +101,8 @@ begin
 		LastMoveFailed    = 97
 		LaserFocus				= 98
 		BanefulBunker			= 99
-		ShellTrap         = 100
+    ShellTrap         = 100
+    ThroatChop        = 101
     # These effects apply to a side
     LightScreen = 0
     LuckyChant  = 1
@@ -117,7 +118,7 @@ begin
     Gravity    = 0
     MagicRoom  = 1
 		IonDeluge  = 2
-    #TrickRoom  = 2
+    TrickRoom  = 3
     #WonderRoom = 3
     # These effects apply to the usage of a move
     SpecialUsage = 0

@@ -166,15 +166,16 @@ end
  
  
 def pbDebugF7
-  $DEBUG=true
-  #if $DEBUG
+  if $DEBUG
     Console::setup_console
+    echoln defined?(MKXP)
+    echoln MKXP.instance_methods if defined?(MKXP)
 		begin
       debugBitmaps
 			rescue
 		end
     pbSEPlay("expfull") if FileTest.audio_exist?("Audio/SE/expfull")
-  #end
+  end
 end
  
 pbSetUpSystem()

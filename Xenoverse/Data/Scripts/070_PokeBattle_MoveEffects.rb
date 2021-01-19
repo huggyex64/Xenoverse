@@ -7237,10 +7237,25 @@ end
 
 
 ################################################################################
-# For 5 rounds, for each priority bracket, slow Pokémon move before fast ones.
+# For 5 rounds, for each priority bracket, slow Pokémon move before fast ones. 
+# (Trick Room)
 ################################################################################
 class PokeBattle_Move_11F < PokeBattle_UnimplementedMove
 	# Not implemented yet.
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		if @battle.field.effects[PBEffects::TrickRoom]>0
+			@battle.field.effects[PBEffects::TrickRoom] = 0
+			@battle.pbDisplay(_INTL("{1} reverted the dimensions!",attacker.pbThis))
+		else
+			@battle.field.effects[PBEffects::TrickRoom] = 5
+			@battle.pbDisplay(_INTL("{1} twisted the dimensions!",attacker.pbThis))
+		end
+	end
+
+	def pbShowAnimation(id,user,targets,hitNum=0,showAnimation=true)
+		return if @battle.field.effects[PBEffects::TrickRoom]>0   # No animation
+		super
+	end
 end
 
 

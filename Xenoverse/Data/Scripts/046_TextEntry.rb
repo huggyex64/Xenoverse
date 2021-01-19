@@ -114,12 +114,13 @@ class CharacterEntryHelper
   def insert(ch)
     chars=self.text.scan(/./m)
     return false if @maxlength>=0 && chars.length>=@maxlength
+    oldl = @text.length if $MKXP
     chars.insert(@cursor,ch)
     @text=""
     for ch in chars
       @text+=ch if ch
     end
-    @cursor+=1
+    @cursor+=$MKXP ? @text.length-oldl : 1 
     return true
   end
 
@@ -138,6 +139,18 @@ class CharacterEntryHelper
       @text+=ch if ch
     end
     @cursor-=1
+    return true
+  end
+
+  def revDelete
+    chars=self.text.scan(/./m)
+    return false if chars.length<=0 || @cursor>=@text.length
+    chars.delete_at(@cursor)
+    @text=""
+    for ch in chars
+      @text+=ch if ch
+    end
+    #@cursor-=1
     return true
   end
 
@@ -749,111 +762,219 @@ end
 
 
 class Window_TextEntry_Keyboard < Window_TextEntry
+=begin
+  def mkxp_insert(ch)
+    #chars=self.text.scan(/./m)
+    #return false if @maxlength>=0 && chars.length>=@maxlength
+    #chars.insert(@cursor,ch)
+    #@text=""
+    #for ch in chars
+    #  @text+=ch if ch
+    #end
+    #@cursor+=1
+    #return true
+    chars=self.text.scan(/./m)
+    return false if @maxlength>=0 && chars.length>=@maxlength
+    chars.insert(@cursor,ch)
+    oldl = @text.length
+    @text=""
+    for ch in chars
+      @text+=ch if ch
+    end
+    @cursor+=@text.length-oldl
+    return true
+
+  end
+=end
+
+  def revDelete()
+    if @helper.revDelete
+      @frame=0
+      self.refresh
+      return true
+    end
+    return false
+  end
+
   def update
+    $DEBUG = true
     @frame+=1
     @frame%=20
     self.refresh if ((@frame%10)==0)
     return if !self.active
-    #echoln "Inserting text"
-    # Moving cursor
-    if Input.repeat?(Input::LEFT)
-      if @helper.cursor > 0
-        @helper.cursor-=1
-        @frame=0
-        self.refresh
-      end
-      return
-    end
-    if Input.repeat?(Input::RIGHT)
-      if @helper.cursor < self.text.scan(/./m).length
-        @helper.cursor+=1
-        @frame=0
-        self.refresh
-      end
-      return
-    end
-    # Backspace
-    if Input.repeatex?(8) || Input.repeatex?(0x2E) || Input.repeatex?(0x08)
-      self.delete if @helper.cursor > 0
-      return
-    end
-    if !@toUnicode
-      @toUnicode=Win32API.new("user32","ToUnicode","iippii","i") rescue nil
-      @mapVirtualKey=Win32API.new("user32","MapVirtualKey","ii","i") rescue nil
-      @getKeyboardState=Win32API.new("user32","GetKeyboardState","p","i") rescue nil
-    end
-    if @getKeyboardState
-      kbs="\0"*256
-      @getKeyboardState.call(kbs)
-      kbcount=0
-      for i in 3...256
-        if Input.triggerex?(i) && ($MKXP? (i == 0x2E || i == 0x08) : false)
-          self.delete if @helper.cursor > 0
-          return
+    if !$MKXP
+      # Moving cursor
+      if Input.repeat?(Input::LEFT)
+        if @helper.cursor > 0
+          @helper.cursor-=1
+          @frame=0
+          self.refresh
         end
-        if Input.triggerex?(i) && ($MKXP? (i != 0x2E && i != 0x08) : true)
-          echoln i
-          vsc=@mapVirtualKey.call(i,0)
-          buf="\0"*8
-          ret=@toUnicode.call(i,vsc,kbs,buf,4,0)
-          if ret>0
-            b=buf.unpack("v*")
-            for j in 0...ret
-              if buf[j]<=0x7F
-                insert(buf[j].chr)
-              elsif buf[j]<=0x7FF
-                insert((0xC0|((buf[j]>>6)&0x1F)).chr+(0x80|(buf[j]&0x3F)).chr)
-              else
-                str=(0xE0|((buf[j]>>12)&0x0F)).chr
-                str+=(0x80|((buf[j]>>6)&0x3F)).chr
-                str+=(0x80|(buf[j]&0x3F)).chr
-                insert(str)
+        return
+      end
+      if Input.repeat?(Input::RIGHT)
+        if @helper.cursor < self.text.scan(/./m).length
+          @helper.cursor+=1
+          @frame=0
+          self.refresh
+        end
+        return
+      end
+      # Backspace
+      if Input.repeatex?(8) || Input.repeatex?(0x2E) || Input.repeatex?(0x08)
+        self.delete if @helper.cursor > 0
+        return
+      end
+      if !@toUnicode
+        @toUnicode=Win32API.new("user32","ToUnicode","iippii","i") rescue nil
+        @mapVirtualKey=Win32API.new("user32","MapVirtualKey","ii","i") rescue nil
+        @getKeyboardState=Win32API.new("user32","GetKeyboardState","p","i") rescue nil
+        @getKeyState=Win32API.new("user32","GetKeyState","i","i") rescue nil
+      end
+      if @getKeyboardState
+        @getKeyState.call(10)
+        @getKeyState.call(12)
+        kbs="\0"*256
+        @getKeyboardState.call(kbs)
+        kbcount=0
+        for i in 3...256
+          if Input.triggerex?(i)
+            echoln "VK #{i.to_s(16)}"
+            vsc=@mapVirtualKey.call(i,0)
+            echoln "VSC CHAR #{@mapVirtualKey.call(i,2)}"
+            buf="\0"*8
+            echoln "Vsc #{vsc}"
+            #vk = @getKeyState.call(i)
+            #echoln "KeyState func #{vk}"
+            ret=@toUnicode.call(i,vsc,kbs,buf,4,0)
+            echoln "Ret #{ret}"
+            echoln "BUF return #{buf[0]}"
+            if ret>0
+              echoln buf
+              b=buf.unpack("V*")
+              for j in 0...ret
+                
+                if buf[j]<=0x7F
+                  echoln "Inserted #{buf[j]}, could've been #{i.chr} or #{vsc.chr} or #{b[0].chr} => FIRST IF"
+                  insert(buf[j].chr)
+                elsif buf[j]<=0x7FF
+                  echoln "Inserted #{(0xC0|((buf[j]>>6)&0x1F))} + #{(0x80|(buf[j]&0x3F))}, could've been #{i.chr} or #{vsc.chr} or #{b[0].chr} => SECOND IF"
+                  insert((0xC0|((buf[j]>>6)&0x1F)).chr+(0x80|(buf[j]&0x3F)).chr)
+                else
+                  str=(0xE0|((buf[j]>>12)&0x0F)).chr
+                  str+=(0x80|((buf[j]>>6)&0x3F)).chr
+                  str+=(0x80|(buf[j]&0x3F)).chr
+                  insert(str)
+                end
+                kbcount+=1
               end
-              kbcount+=1
             end
           end
         end
+        return if kbcount>0
       end
-      return if kbcount>0
-    end
-    # Letter keys
-    for i in 65..90
-      if Input.repeatex?(i)
-        shift=(Input.press?(Input::SHIFT)) ? 0x41 : 0x61
-        insert((shift+(i-65)).chr)
+
+      # It basically never goes down here so don't bother looking what this means
+
+      # Letter keys
+      for i in 65..90
+        if Input.repeatex?(i)
+          echoln "Got to letters"
+          shift=(Input.press?(Input::SHIFT)) ? 0x41 : 0x61
+          insert((shift+(i-65)).chr)
+          return
+        end
+      end
+      
+      # Number keys
+      shifted=")!@\#$%^&*("
+      unshifted="0123456789"
+      for i in 48..57
+        if Input.repeatex?(i)
+          echoln "Got to numbers"
+          insert((Input.press?(Input::SHIFT)) ? shifted[i-48].chr : unshifted[i-48].chr)
+          return
+        end
+      end
+      
+      keys=[
+        [32," "," "],
+        [106,"*","*"],
+        [107,"+","+"],
+        [109,"-","-"],
+        [111,"/","/"],
+        [186,";",":"],
+        [187,"=","+"],
+        [189,"-","_"],
+        [191,"/","?"],
+        [219,"[","{"],
+        [190,".",""],
+        [188,",",""],
+        [221,"]","}"],
+        [222,"'","\""]
+      ]
+      for i in keys
+        if Input.repeatex?(i[0])
+          echoln "Got to keys"
+          insert((Input.press?(Input::SHIFT)) ? i[2] : i[1])
+          return
+        end
+      end
+    else
+      Input.text_input = true
+      input = Input.gets
+      echoln "Current input #{input}" if input != "" && input != nil
+
+      # Moving cursor
+      if Input.repeat?(Input::LEFT)
+        if @helper.cursor > 0
+          @helper.cursor-=1
+          @frame=0
+          self.refresh
+        end
         return
       end
-    end
-    # Number keys
-    shifted=")!@\#$%^&*("
-    unshifted="0123456789"
-    for i in 48..57
-      if Input.repeatex?(i)
-        insert((Input.press?(Input::SHIFT)) ? shifted[i-48].chr : unshifted[i-48].chr)
+      if Input.repeat?(Input::RIGHT)
+        if @helper.cursor < self.text.scan(/./m).length
+          @helper.cursor+=1
+          @frame=0
+          self.refresh
+        end
         return
       end
-    end
-    keys=[
-       [32," "," "],
-       [106,"*","*"],
-       [107,"+","+"],
-       [109,"-","-"],
-       [111,"/","/"],
-       [186,";",":"],
-       [187,"=","+"],
-       [189,"-","_"],
-       [191,"/","?"],
-       [219,"[","{"],
-       [190,".",""],
-       [188,",",""],
-       [221,"]","}"],
-       [222,"'","\""]
-    ]
-    for i in keys
-      if Input.repeatex?(i[0])
-        insert((Input.press?(Input::SHIFT)) ? i[2] : i[1])
+
+      if Input.pressex?(:LCTRL) || Input.pressex?(:RCTRL)
+        echoln "Holding CTRL"
+        if Input.triggerex?(:C)
+          Input.clipboard = @text
+          return
+        #insert(Input.clipboard) if Input.triggerex?(:V)
+        elsif Input.triggerex?(:V)
+          insert(Input.clipboard)
+          return
+        elsif input != "" && input != nil
+          insert(input)
+          return
+        end
+      elsif Input.triggerex?(:BACKSPACE) # Deleting backwards characters
+        self.delete if @helper.cursor > 0
+        return
+      elsif Input.triggerex?(:DELETE) # Deleting upfront characters
+        self.revDelete if @helper.cursor < @helper.text.length
+        return
+      else
+        #insert(input) if input != "" && input != nil
+        if input != "" && input != nil
+          insert(input)
+          return
+        end        
+      end
+
+      if Input.pressex?(:RETURN)
+        Input.text_input=false
         return
       end
+
     end
   end
 end
