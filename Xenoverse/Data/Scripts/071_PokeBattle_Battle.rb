@@ -878,6 +878,7 @@ class PokeBattle_Battle
 		thismove=thispkmn.moves[idxMove]
 		opp1=thispkmn.pbOpposing1
 		opp2=thispkmn.pbOpposing2
+		echoln "THIS IS #{thispkmn.pbThis}"
 		if !thismove||thismove.id==0
 			return false
 		end
@@ -887,6 +888,8 @@ class PokeBattle_Battle
 			end
 			return false
 		end
+		echoln "Throatchop stage #{thispkmn.effects[PBEffects::ThroatChop]}"
+		echoln "Soundbased? #{thismove.isSoundBased?}"
 		if thispkmn.effects[PBEffects::ThroatChop]>0 && thismove.isSoundBased?
 			if showMessages
 				msg = _INTL("{1} can't use {2} because of Throat Chop!",pbThis,move.name)

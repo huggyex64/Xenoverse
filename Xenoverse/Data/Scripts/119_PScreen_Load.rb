@@ -294,7 +294,7 @@ class PokemonLoad
     cmdQuit        = -1
     commands       = []
     savefile = RTP.getSaveFileName("Game.rxdata")
-    FontInstaller.install if !$MKXP
+    FontInstaller.install #if !$MKXP
     data_system = pbLoadRxData("Data/System")
     mapfile=$RPGVX ? sprintf("Data/Map%03d.rvdata",data_system.start_map_id) :
                      sprintf("Data/Map%03d.rxdata",data_system.start_map_id)
@@ -576,9 +576,9 @@ module FontInstaller
      'pkmnrs.ttf',
      'pkmndp.ttf',
 		'pkmnfl.ttf',
-		'BarlowCondensed-ExtraBold.ttf',
-		'BarlowCondensed-Regular.otf',
-		'BarlowCondensed-Regular.ttf',
+		#'BarlowCondensed-Regular.otf',
+    'BarlowCondensed-Regular.ttf',
+    'BarlowCondensed-ExtraBold.ttf',
 		'concielianboldsemital.ttf',
 		'concielianjetcond.ttf',
 		'Exo2-SemiBold.otf',
@@ -593,7 +593,7 @@ module FontInstaller
     'Power Red and Blue',
     'Power Clear',
     'Power Red and Green',
-		'Barlow Condensed',
+		#'Barlow Condensed',
 		'Barlow Condensed',
 		'Barlow Condensed',
 		'Concielian Semi',
@@ -650,6 +650,7 @@ module FontInstaller
     filesExist=true
     fontsExist=true
     dest=self.getFontFolder()
+    Console::setup_console
     for i in 0...Names.size
       if !safeExists?(dest + Filenames[i])
         filesExist=false
@@ -677,8 +678,10 @@ module FontInstaller
       if safeExists?(dest + f) && !Font.exist?(Names[i])
         File.delete(dest + f) rescue nil
       end
+      Kernel.pbMessage("Checking if \"#{dest+f}\" is already installed...")
       # check if already installed...
       if not safeExists?(dest + f)
+        Kernel.pbMessage("Checking if \"#{dest+f}\" source exists...")
         # check to ensure font is in specified location...
         if RTP.exists?(Source + f)
           # copy file to fonts folder
@@ -690,6 +693,7 @@ module FontInstaller
             # add entry to win.ini/registry
             WPS.call('Fonts', Names[i] + ' (TrueType)', f)
             succeeded=safeExists?(dest + f)
+            Kernel.pbMessage("Outcome for \"#{dest+f}\" is #{succeeded.to_s}...")
           rescue SystemCallError
 						
             # failed
@@ -699,12 +703,14 @@ module FontInstaller
 							succeeded=true
 						rescue
 							succeeded=false
-						end
+            end
+            Kernel.pbMessage("Outcome for \"#{dest+f}\" is #{succeeded.to_s}...")
           end
           if succeeded
             success.push(Names[i])
           else
-						echoln "failed " +Names[i]
+            echoln "failed " +Names[i]
+            Kernel.pbMessage("Failed \"#{Names[i]}\"...")
             failed=true
           end
         end
