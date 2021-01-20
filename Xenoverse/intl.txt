@@ -10597,17 +10597,17 @@ Meng
 Ni hao! Wo láizì Chéngdu. Nín láizì nali?
 Ni hao! Wo láizì Chéngdu. Nín láizì nali?
 Oh, vedo che ha un biglietto lì con sé! Me lo dia pure.
-Oh, vedo che ha un biglietto lì con sé! Me lo dia pure.
+Oh, I see you have a ticket there! Please, give it to me.
 Quindi è diretto|a nella <b>regione di Kanto</b>! È davvero un bel posto, sa?
-Quindi è diretto|a nella <b>regione di Kanto</b>! È davvero un bel posto, sa?
+So you are heading to the <b>Kanto region</b>!<<n>>It really is a beautiful place, you know?
 Ad ogni modo, vuole imbarcarsi ora o preferisce prima assicurarsi di avere il necessario con sé?
-Ad ogni modo, vuole imbarcarsi ora o preferisce prima assicurarsi di avere il necessario con sé?
+Anyway, would you like to get on board now or do you wish<<n>>to make sure you have everything you need first?
 Prego, da questa parte. L’aereo è pronto ad avviare i motori!
-Prego, da questa parte. L’aereo è pronto ad avviare i motori!
+Please, come this way. The plane is ready to roll!
 Certo, non si preoccupi. Si prenda il tempo che le serve e torni qui quando vorrà partire.
-Certo, non si preoccupi. Si prenda il tempo che le serve e torni qui quando vorrà partire.
+Of course, don't worry. Take as much time as you need<<n>>and come back when you want to leave.
 Le diamo il benvenuto all'Aeroporto Samuel Oak. Vuole imbarcarsi per la regione di Kanto?
-Le diamo il benvenuto all'Aeroporto Samuel Oak. Vuole imbarcarsi per la regione di Kanto?
+Welcome to Samuel Oak Airport.<<n>>Would you like to board for the Kanto region?
 Henry
 Mario
 I don't like to fly, but I really am super fly!
@@ -10617,9 +10617,9 @@ Jackson
 Scusat, arò sta 'o gabinett?
 Pardon me, where's the washroom, eh?
 Voglio imbarcarmi!
-Voglio imbarcarmi!
+I want to get on board!
 Aspetti ancora un po'.
-Aspetti ancora un po'.
+Please, wait a little bit.
 Sì
 Yes
 No
@@ -14936,126 +14936,122 @@ Sono sicura che non se ne accorgerà nemmeno.
 I'm sure he won't even notice it.
 [Map335]
 <<[>>old<<]>><b>Aranciopoli</b> <i>''La città dei tramonti vermigli.''
-<<[>>old<<]>><b>Aranciopoli</b> <i>''La città dei tramonti vermigli.''
+<<[>>old<<]>><b>Vermilion City</b>\n<i>''The port of exquisite sunsets.''
 Martino
-Martino
+Martin
 Qui nel porto non si può nuotare, ma se proprio ci tieni a farti una sguazzata, puoi provare nella spiaggetta a sud.
-Qui nel porto non si può nuotare, ma se proprio ci tieni a farti una sguazzata, puoi provare nella spiaggetta a sud.
+Here at the dock you can't swim, but if you really wanna<<n>>do it, you can try on the small beach south of the city.
 <<[>>old<<]>>P...les...ra T...on...
 <<[>>old<<]>>V-rm-l--n Gy-
 Susanna
-Susanna
+Susie
 Ad occhio e croce, direi che tu non sei del posto, mi sbaglio forse?
-Ad occhio e croce, direi che tu non sei del posto, mi sbaglio forse?
+Looking at you, I can say you are not from here,<<n>>am I right?
+Prendi, accetta un piccolo pensierino di benvenuto.
+Take this, it's a small welcome gift.
 Sono certa che qui ad Aranciopoli ti sentirai come a casa!
-Sono certa che qui ad Aranciopoli ti sentirai come a casa!
+I'm sure you'll feel at home here in Vermilion City!
 Renzo
-Renzo
+Kenny
 Niente biglietto, da qui non si passa!
-Niente biglietto, da qui non si passa!
+No ticket--you can't pass!
 Egidio
-Egidio
+Edgar
 Ah, come lo capisco quel Pokémon dormiente! Anch’io vorrei tanto starmene a dormire tutto il giorno!
-Ah, come lo capisco quel Pokémon dormiente! Anch’io vorrei tanto starmene a dormire tutto il giorno!
+Ah, I understand that sleepy Pokémon so much!<<n>>I'd really like to sleep all day as well!
 Tutti abbiamo bisogno di un po' di sano riposo!
-Tutti abbiamo bisogno di un po' di sano riposo!
+Everyone needs some healthy rest!
 Bardo
-Bardo
+Brandon
 Credo che questo sentiero sia destinato ad altri Allenatori, giovane.
-Credo che questo sentiero sia destinato ad altri Allenatori, giovane.
+I think this path is destined to other Trainers, kid.
 Denny
 Denny
 Quando uno è nato in riva al mare come me, non potrà mai vivere senza di lui.
-Quando uno è nato in riva al mare come me, non potrà mai vivere senza di lui.
+When someone is born near the sea like myself,<<n>>they could never live without it.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Ben
 Ben
 Per colpa di quel Pokémon addormentato, mi toccherà allungare la strada per andare dalla mia ragazza.
-Per colpa di quel Pokémon addormentato, mi toccherà allungare la strada per andare dalla mia ragazza.
+Because of that damn sleeping Pokémon, I'm gonna have<<n>>to walk more to see my girlfriend!
 Cecilia
-Cecilia
+Cecil
 Aranciopoli è davvero una splendida città... peccato solo che quella vecchia Palestra rovini l’ambiente! Mi chiedo perché non la buttino giù...
-Aranciopoli è davvero una splendida città... peccato solo che quella vecchia Palestra rovini l’ambiente! Mi chiedo perché non la buttino giù...
-Francesca
-Francesca
+Vermilion City really is a nice place...it's a shame<<n>>that the old Gym ruins the atmosphere!<<n>>I wonder why they don't tear it down...
+Chicca
+Kiki
 Ehi, lo hai visto anche tu quel Pokémon gigaaaante che dorme per la strada?
-Ehi, lo hai visto anche tu quel Pokémon gigaaaante che dorme per la strada?
-Gianni
-Gianni
+Hey, have you seen that huuuge Pokémon sleeping<<n>>on the street?
+Chicco
+Keke
 Sì, è davvero enorme! Chissà se ci entra in una Poké Ball...?
-Sì, è davvero enorme! Chissà se ci entra in una Poké Ball...?
-<<[>>old<<]>>Questo enorme Pokémon sta schiacciando un pisolino...
-<<[>>old<<]>>Questo enorme Pokémon sta schiacciando un pisolino...
+Yes, it's so big! I wonder if it fits a Poké Ball...?
 <<[>>old<<]>>Questo Pokémon enorme sta schiacciando un pisolino proprio qui sul sentiero...
-<<[>>old<<]>>Questo Pokémon enorme sta schiacciando un pisolino proprio qui sul sentiero...
+<<[>>old<<]>>This huge Pokémon is taking a nap right here on the path...
 Rosa
-Rosa
+Rosalinda
 La prego di allontanarsi da questo furgoncino. Stiamo svolgendo una ricerca e al momento è off-limit.
-La prego di allontanarsi da questo furgoncino. Stiamo svolgendo una ricerca e al momento è off-limit.
+Please step away from this truck. We're running<<n>>a research here, so it's currently off-limits.
 Clara
-Clara
+Clair
 Il Presidente del <b>Pokémon Fan Club</b> è un autentico collezionista incallito. Ovunque vada, fa incetta di oggettini tipici del posto per la sua collezione di <b>souvenir</b>!
-Il Presidente del <b>Pokémon Fan Club</b> è un autentico collezionista incallito. Ovunque vada, fa incetta di oggettini tipici del posto per la sua collezione di <b>souvenir</b>!
+The <b>Pokémon Fan Club</b> Chairman is really a hardcore collector.<<n>>Everywhere he goes, he gets a ton of local goods for<<n>>his <b>souvenir</b> collection!
 Klein
 Klein
 Se è il Capopalestra che cerchi, sappi che è partito per mete ignote.
-Se è il Capopalestra che cerchi, sappi che è partito per mete ignote.
+If it's the Gym Leader you're looking for, just know that<<n>>he's left for unknown lands.
 <<[>>old<<]>>Aeroporto Megaforza
-<<[>>old<<]>>Aeroporto Megaforza
+<<[>>old<<]>>Superpower Airport
 Pisaro
-Pisaro
+Tucker
 L’Aeroporto Megaforza è frutto del duro lavoro di mio padre e dei suoi Pokémon forzuti. Anche se non c’è più, la sua memoria rimarrà sempre impressa nei cuori di tutti grazie alla sua grande opera!
-L’Aeroporto Megaforza è frutto del duro lavoro di mio padre e dei suoi Pokémon forzuti. Anche se non c’è più, la sua memoria rimarrà sempre impressa nei cuori di tutti grazie alla sua grande opera!
+Superpower Airport is the result of the hard work that<<n>>my father and his strong Pokémon put in.<<n>>Even though he's gone, his memory will live on in<<n>>everyone's hearts thanks to his masterpiece!
 Leone
-Leone
+Lionel
 Ogni anno, in città attracca la <b>Motonave Anna</b>, un’importante nave da crociera che viaggia per il mondo. Per imbarcarsi, però, è necessario un biglietto esclusivo!
-Ogni anno, in città attracca la <b>Motonave Anna</b>, un’importante nave da crociera che viaggia per il mondo. Per imbarcarsi, però, è necessario un biglietto esclusivo!
+The <b>S.S. Anne</b>, a well-known luxury cruise liner which sails the world, stops here annually.<<n>>Embarking, however, requires an exclusive ticket!
 <<[>>old<<]>>Pokémon Fan Club ''Tutti i fan dei Pokémon sono i benvenuti qui!''
-<<[>>old<<]>>Pokémon Fan Club ''Tutti i fan dei Pokémon sono i benvenuti qui!''
+<<[>>old<<]>>Pokémon Fan Club ''All Pokémon fans welcome!''
 Kenzo
-Kenzo
-Chicca
-Chicca
-Chicco
-Chicco
+Lenny
 Jim
 Jim
 Ho come l’impressione che questa panchina mi leghi a qualcuno del mio passato...
-Ho come l’impressione che questa panchina mi leghi a qualcuno del mio passato...
+I have this strange feeling that this bench is linking me<<n>>with someone from my past...
 [Map336]
 Hostess
 Hostess
 Mike scrivimi cose.
 Mike scrivimi cose.
 Annah
-Annah
+Hannah
 Ogni volta che prendo l’aereo, incrocio le dita davanti al nastro, sperando che non abbiano smarrito il mio trolley. È una sorta di rito ormai!
-Ogni volta che prendo l’aereo, incrocio le dita davanti al nastro, sperando che non abbiano smarrito il mio trolley. È una sorta di rito ormai!
+Every time I take the plane, I cross my fingers on the<<n>>conveyor belt and hope they didn't lose my trolley.<<n>>It's a sort of ritual now!
 Le diamo il benvenuto all’<b>Aeroporto Megaforza</b>. Vuole imbarcarsi per la regione di Eldiw?
-Le diamo il benvenuto all’<b>Aeroporto Megaforza</b>. Vuole imbarcarsi per la regione di Eldiw?
+Welcome to <b>Superpower Airport</b>.<<n>>Would you like to board for the Eldiw region?
 Prego, da questa parte. L’aereo è pronto ad avviare i motori!
-Prego, da questa parte. L’aereo è pronto ad avviare i motori!
+Please, come this way. The plane is ready to roll!
 Certo, non si preoccupi. Si prenda il tempo che le serve e torni qui quando vorrà partire.
-Certo, non si preoccupi. Si prenda il tempo che le serve e torni qui quando vorrà partire.
+Of course, don't worry. Take as much time as you need<<n>>and come back when you want to leave.
 Rotter
-Rotter
+Reggie
 Conosci la <b>Grotta Diglett</b>? È una delle mete più ambite da noi Montanari qui a Kanto!
-Conosci la <b>Grotta Diglett</b>? È una delle mete più ambite da noi Montanari qui a Kanto!
+Never heard of <b>Diglett's Cave</b>? It's one of the most desired hiking destinations here in Kanto!
 Le diamo il benvenuto all’Aeroporto Megaforza.
-Le diamo il benvenuto all’Aeroporto Megaforza.
+Welcome to Superpower Airport.
 Federica
-Federica
+Kenna
 L’attesa del piacere non fa che accrescere il piacere stesso, non credi anche tu?
-L’attesa del piacere non fa che accrescere il piacere stesso, non credi anche tu?
+I think awaiting a pleasure is itself a pleasure,<<n>>don't you agree?
 Lo stesso vale per quella Ball: più durerà lo scontro, più sarà efficace sui Pokémon selvatici!
-Lo stesso vale per quella Ball: più durerà lo scontro, più sarà efficace sui Pokémon selvatici!
+The same goes for that Ball: the longer the battle is,<<n>>the more it is likely to succeed on wild Pokémon!
 Girolamo
-Girolamo
+Richard
 Di nuovo?! Devo proprio avere un talento naturale nello scegliere gli aerei in ritardo!
-Di nuovo?! Devo proprio avere un talento naturale nello scegliere gli aerei in ritardo!
+Aw, not again!! I really have a talent for booking<<n>>all the delayed flights!
 <<[>>old<<]>>Phew! Finalmente di nuovo coi piedi sulla terraferma!
-<<[>>old<<]>>Phew! Finalmente di nuovo coi piedi sulla terraferma!
+<<[>>old<<]>>Phew! We have landed finally!
 Sì
 Yes
 No
@@ -15153,22 +15149,22 @@ Hey, you.
 Hey, kid.
 [Map338]
 Siria
-Siria
+Emma
 Oh, quindi il Capopalestra di <b>Lavandonia</b> ha sostituito quello di Aranciopoli!
-Oh, quindi il Capopalestra di <b>Lavandonia</b> ha sostituito quello di Aranciopoli!
+Oh! So the Gym Leader of <b>Lavender Town</b>'s Gym<<n>>took the place of Vermilion City’s one!
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>The trash is empty.
 <<[>>old<<]>>È un Nintendo Switch! Spopola anche qui a Kanto?
-<<[>>old<<]>>È un Nintendo Switch! Spopola anche qui a Kanto?
+<<[>>old<<]>>It's a Nintendo Switch! Is it popular here in Kanto too?
 Tiziana
-Tiziana
+Tate
 Quando un Capopalestra lascia la carica, la <b>Lega</b> <b>Pokémon</b> ne elegge un altro che lo sostituisca.
-Quando un Capopalestra lascia la carica, la <b>Lega</b> <b>Pokémon</b> ne elegge un altro che lo sostituisca.
+When a Gym Leader leaves the charge, the <b>Pokémon</b> <b>League</b> finds someone else to take the place.
 [Map339]
 Borone
-Borone
+Rickert
 Da giovani, io e il mio Pokémon abbiamo vissuto avventure incredibili per tutta la regione. Col tempo, entrambi ci siamo evoluti: lui in un Golem ed io in un vecchietto! Ah ah ah!
-Da giovani, io e il mio Pokémon abbiamo vissuto avventure incredibili per tutta la regione. Col tempo, entrambi ci siamo evoluti: lui in un Golem ed io in un vecchietto! Ah ah ah!
+When we were young, my Pokémon and I had wonderful adventures all over the region.<<n>>We both evolved over the years--it became a Golem<<n>>and I an old man! Ha ha ha!
 Golem
 Golem
 Lem...!
@@ -15179,20 +15175,20 @@ Koy
 Questo è il Pokémon-Market di Aranciopoli!
 This is the Poké Mart in Vermilion City!
 Celestino
-Celestino
+Azure
 Proprio qui ad Aranciopoli doveva prenotare questo pacco il Professor <b>Blu Oak</b>?!
-Proprio qui ad Aranciopoli doveva prenotare questo pacco il Professor <b>Blu Oak</b>?!
+So exactly, why Professor <b>Blue Oak</b> pre-ordered this parcel here in Vermilion City's Mart?!
 Fioravante
-Fioravante
+Federic
 Perché nessuno ha mai pensato di unire Centro Pokémon e Pokémon-Market sotto lo stesso tetto? Sarebbe così comodo!
-Perché nessuno ha mai pensato di unire Centro Pokémon e Pokémon-Market sotto lo stesso tetto? Sarebbe così comodo!
+Why has nobody ever thought about merging Poké Marts<<n>>and Pokémon Centers together?<<n>>It would be such a comfort!
 Ciao! Questo è il Pokémon-Market di Aranciopoli!
 Hello! This is the Poké Mart in Vermilion City!
 [Map341]
 Ash
 Ash
 Vedrai, collezionerò in men che non si dica tutte e otto le Medaglie e raggiungerò l’<b>Altopiano Blu</b>!
-Vedrai, collezionerò in men che non si dica tutte e otto le Medaglie e raggiungerò l’<b>Altopiano Blu</b>!
+I'm gonna collect all the eight Badges in no time and<<n>>get to the <b>Indigo Plateau</b>! You're gonna see that!
 Natale
 Claus
 Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
@@ -15212,11 +15208,11 @@ Thank you for waiting.<<n>>We've restored your Pokémon to full health!
 Torna pure quando vuoi.
 We hope to see you again!
 Petronio
-Petronio
+Noland
 Attraversavo l'oscuro <b>Tunnel Roccioso</b>, quando... blink! Questa pietra ha catturato la mia attenzione!
-Attraversavo l'oscuro <b>Tunnel Roccioso</b>, quando... blink! Questa pietra ha catturato la mia attenzione!
+I was crossing the dark <b>Rock Tunnel</b> when...blink!<<n>>This stone got my attention!
 È sempre un piacere per me condividere le mie scoperte con i giovani esploratori.
-È sempre un piacere per me condividere le mie scoperte con i giovani esploratori.
+It's always a pleasure to share what I discovered<<n>>with young Hikers like you.
 Mr. Bug
 Mr. Bug
 Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
@@ -15242,9 +15238,9 @@ Hmm... It doesn't seem like \v[3] has any moves<<n>>that it can remember...
 Quale mossa vuoi far ricordare a \v[3]?
 Which move should \v[3] remember?
 Cocco
-Cocco
+Garrett
 Mi sono appisolato un attimo e la nave su cui ero ha levato gli ormeggi ed è tornata a Johto. Mi toccherà starmene qui ad aspettare che ritornino tra qualche giorno!
-Mi sono appisolato un attimo e la nave su cui ero ha levato gli ormeggi ed è tornata a Johto. Mi toccherà starmene qui ad aspettare che ritornino tra qualche giorno!
+I had dozed off just a second and the ship I was on<<n>>sailed for Johto.<<n>>I'm gonna stay here and wait for it to come back<<n>>in a couple of days!
 Si
 Yes
 No
@@ -15255,89 +15251,89 @@ Yes
 Meg
 Meg
 Esiste un fenomeno che permette ai Pokémon di trascendere i limiti dell’evoluzione. Il suo nome è <b>megaevoluzione</b>!
-Esiste un fenomeno che permette ai Pokémon di trascendere i limiti dell’evoluzione. Il suo nome è <b>megaevoluzione</b>!
+There's a phenomenon that allows Pokémon to go beyond evolution limits. Its name is <b>Mega Evolution</b>!
 <<[>>old<<]>>Il cestino contiene qualcosa.
 <<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>The trash is empty.
 Regio
-Regio
+Reginald
 Ho sentito dire che nelle altre regioni i Pokémon di Kanto possono assumere forme diverse... Sarà vero?
-Ho sentito dire che nelle altre regioni i Pokémon di Kanto possono assumere forme diverse... Sarà vero?
+I heard that Kantonian Pokémon take on different forms<<n>>in other regions...you think it's true?
 Dino
-Dino
+Dyne
 Mi chiedo se quel fenomeno che rende giganti i Pokémon abbia colpito anche quello che dorme sul sentiero.
-Mi chiedo se quel fenomeno che rende giganti i Pokémon abbia colpito anche quello che dorme sul sentiero.
+I wonder if that phenomenon that makes Pokémon<<n>>huge affected that one sleeping on the path too.
 <<[>>old<<]>>È un Nintendo Switch! Spopola anche qui a Kanto?
-<<[>>old<<]>>È un Nintendo Switch! Spopola anche qui a Kanto?
+<<[>>old<<]>>It's a Nintendo Switch! Is it popular here in Kanto too?
 Zet
 Zet
 Non avevo mai visto delle mosse così eccezionali!!
-Non avevo mai visto delle mosse così eccezionali!!
+I haven't seen such powerful moves before!!
 [Map343]
 Rebecca
-Rebecca
+Becca
 I miei adorati nipotini vanno davvero matti per i miei dorayaki Magikarp. Se non se li fossero già pappati tutti, ne farei provare uno anche a te.
-I miei adorati nipotini vanno davvero matti per i miei dorayaki Magikarp. Se non se li fossero già pappati tutti, ne farei provare uno anche a te.
+My precious grandchildren love my Magikarp<<n>>dorayakis so much.<<n>>I'd give you one, but they already wolfed them all.
 Carolina
-Carolina
+Katie
 Con tutto il casino che fa il fratellone, non riesco nemmeno a capire cosa dicano in televisione!
-Con tutto il casino che fa il fratellone, non riesco nemmeno a capire cosa dicano in televisione!
+My big bro is making such a noise...I can't even listen to<<n>>what they're saying on the TV!
 Steve
 Steve
 Da quando ho visto quel <b>Dusmee</b> nella regione di Eldiw non riesco più a darmi pace... ne voglio uno! Dimmi che almeno tu ne hai uno da scambiare col mio rarissimo <b>Dratini</b>!
-Da quando ho visto quel <b>Dusmee</b> nella regione di Eldiw non riesco più a darmi pace... ne voglio uno! Dimmi che almeno tu ne hai uno da scambiare col mio rarissimo <b>Dratini</b>!
+Ever since I saw that <b>Dusmee</b> in the Eldiw region, I've been obsessed with it...I absolutely want one!<<n>>Please, tell me you have one to trade with<<n>>my super-rare <b>Dratini</b>!
 Non avrò pace finché non lo avrò tra le mie mani!
-Non avrò pace finché non lo avrò tra le mie mani!
+I won't rest until I have it in my hands!
 Sì, finalmente ti ho trovato! Non perdiamo altro tempo, via allo scambio!!
-Sì, finalmente ti ho trovato! Non perdiamo altro tempo, via allo scambio!!
+Yaay! I finally found you, Dusmee!<<n>>Stop wasting time, let's trade now!!
 Sta’ tranquillo|a, darò al tuo Dusmee tutte le attenzioni che merita! È così carino!!
-Sta’ tranquillo|a, darò al tuo Dusmee tutte le attenzioni che merita! È così carino!!
+Don't worry. I'll give your Dusmee all the attention<<n>>it deserves! It's sooo cute!!
 [Map344]
 <<[>>old<<]>>La porta sembra chiusa a chiave.
 <<[>>old<<]>>The door is locked.
 Presidente
-Presidente
+Chairman
 Benvenuto|a nel <b>Pokémon Fan Club</b>, il paradiso per chi, come me, ama i Pokémon!
-Benvenuto|a nel <b>Pokémon Fan Club</b>, il paradiso per chi, come me, ama i Pokémon!
+Welcome to the <b>Pokémon Fan Club</b>, the paradise for all Pokémon lovers, just like myself!
 Tanti anni fa era mio nonno a gestirlo e, generazione dopo generazione, è finito nelle mie mani.
-Tanti anni fa era mio nonno a gestirlo e, generazione dopo generazione, è finito nelle mie mani.
+Many years ago, my grandfather used to run it, and<<n>>after many generations, I inherited this fan club.
 Ma questo splendido posto non è l’unica cosa che mi ha tramandato il nonno... Ho preso in eredità da lui anche la sua passione sfrenata per i <b>souvenir</b> del mondo!
-Ma questo splendido posto non è l’unica cosa che mi ha tramandato il nonno... Ho preso in eredità da lui anche la sua passione sfrenata per i <b>souvenir</b> del mondo!
+But this splendid place isn't the only thing<<n>>my grandfather has left me...<<n>>I've inherited also his unbridled passion for <b>souvenirs</b> coming from all over the world!
 Come? Vieni dalla regione di Eldiw?
-Come? Vieni dalla regione di Eldiw?
+What? You're coming from the Eldiw region?
 Allora forse tu potresti riuscire a mettere le mani sull’introvabile pezzo da collezione che mi manca. Torna a trovarmi quando avrai quello che cerco!
-Allora forse tu potresti riuscire a mettere le mani sull’introvabile pezzo da collezione che mi manca. Torna a trovarmi quando avrai quello che cerco!
+You could get your hands on the undetectable<<n>>collector's piece I'm looking for then.<<n>>Come back when you have what I seek!
 <<[>>old<<]>>Porgi la miniatura del Monte Zodiaco al Presidente.
-<<[>>old<<]>>Porgi la miniatura del Monte Zodiaco al Presidente.
+<<[>>old<<]>>You give the Mt. Zodiac Diorama to the Chairman.
 Oh, miseria!
-Oh, miseria!
+Oh, my goodness!
 Meraviglioso!
-Meraviglioso!
+Magnifique!
 Quella <b>miniatura del Monte Zodiaco</b> è proprio il pezzo che tanto ambivo per la mia collezione!
-Quella <b>miniatura del Monte Zodiaco</b> è proprio il pezzo che tanto ambivo per la mia collezione!
+That <b>Mt. Zodiac Diorama</b> is the piece I've been looking for to complete my collection!
 Ti ringrazio con tutto il cuore, ragazzino|a! Voglio proprio conoscere il tuo nome!
-Ti ringrazio con tutto il cuore, ragazzino|a! Voglio proprio conoscere il tuo nome!
+I sincerely thank you for your help, kid!<<n>>I'd really want to know your name!
 \PN? Senti che bel nome!
-\PN? Senti che bel nome!
+\PN? What a lovely name!
 Dai, vieni con me. Voglio mostrarti una cosuccia.
-Dai, vieni con me. Voglio mostrarti una cosuccia.
+Come with me, c'mon. I want to show you something.
 Selene
 Selene
 Hai già dato un’occhiata alla nostra pagina social? La grafica è tutta opera mia!
-Hai già dato un’occhiata alla nostra pagina social? La grafica è tutta opera mia!
+Did you already check on our social media page?<<n>>The graphic is all my doing!
 Billy
 Billy
 Grazie al mio Porygon, la pagina social del Fan Club sta andando fortissimo in rete!
-Grazie al mio Porygon, la pagina social del Fan Club sta andando fortissimo in rete!
+The Pokémon Fan Club social media page is a big hit<<n>>thanks to my Porygon!
 Danila
-Danila
+Darla
 Ora che è in mano a noi giovani, il Pokémon Fan Club farà passi da gigante!
-Ora che è in mano a noi giovani, il Pokémon Fan Club farà passi da gigante!
+Now that the Pokémon Fan Club is held by us young people,<<n>>it will make great strides!
 Pascal
 Pascal
 Il Presidente ha una collezione di souvenir provenienti da tutto il mondo. Pare che gli manchi solo una <b>miniatura del</b> <b>Monte Zodiaco</b> per averla al gran completo.
-Il Presidente ha una collezione di souvenir provenienti da tutto il mondo. Pare che gli manchi solo una <b>miniatura del</b> <b>Monte Zodiaco</b> per averla al gran completo.
+Our Chairman has a collection of souvenirs from all over<<n>>the world.<<n>>It seems he needs only a <b>Mt. Zodiac Diorama</b><<n>>to complete it.
 [Map345]
 Ferry
 Ferry
@@ -15681,19 +15677,19 @@ C’è chi nasce per star seduto sulla riva e chi, come me, nasce per nuotare ne
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>The trash is empty.
 Fabrizio
-Fabrizio
+Fabian
 Ho sentito dire che il Capopalestra non vuole che nessuno si avvicini alla sua Palestra. Dev’essere un vero eremita!
-Ho sentito dire che il Capopalestra non vuole che nessuno si avvicini alla sua Palestra. Dev’essere un vero eremita!
+I heard that the Gym Leader doesn't like anyone to come down to his Gym. He must be a real hermit!
 Nina
 Nina
 Magari se condivido le mie caramelle con te, la mamma mi ridarà la mia Pokébambola.
-Magari se condivido le mie caramelle con te, la mamma mi ridarà la mia Pokébambola.
+Maybe if I share my candy with you, mommy will give me<<n>>my Poké Doll back.
 Farò vedere alla mamma che sono una brava bambina!
-Farò vedere alla mamma che sono una brava bambina!
+I'll show mommy I'm a good girl!
 Barbara
 Barbara
 Quando la mia bambina imparerà ad essere gentile con gli altri, potrà riavere il suo peluche.
-Quando la mia bambina imparerà ad essere gentile con gli altri, potrà riavere il suo peluche.
+When my baby learns how to be nice with others,<<n>>she'll have her doll back.
 [Map353]
 Sunny
 Sunny
@@ -18093,45 +18089,45 @@ No
 <<[>>old<<]>>La porta è chiusa.
 <<[>>old<<]>>The door is locked.
 <<[>>old<<]>>Qui nel porto non si può nuotare, ma se proprio ci tieni a farti una sguazzata, puoi provare nella spiaggetta a sud.
-<<[>>old<<]>>Qui nel porto non si può nuotare, ma se proprio ci tieni a farti una sguazzata, puoi provare nella spiaggetta a sud.
+<<[>>old<<]>>Here at the dock you can't swim, but if you really wanna do it, you can try on the small beach south of the city.
 <<[>>old<<]>>Niente biglietto, da qui non si passa!
-<<[>>old<<]>>Niente biglietto, da qui non si passa!
+<<[>>old<<]>>No ticket--you can't pass!
 <<[>>old<<]>>Ad occhio e croce, direi che tu non sei del posto, mi sbaglio forse?
-<<[>>old<<]>>Ad occhio e croce, direi che tu non sei del posto, mi sbaglio forse?
+<<[>>old<<]>>Looking at you, I can say you are not from here, am I right?
 <<[>>old<<]>>Credo che questo sentiero sia destinato ad altri Allenatori, giovane.
-<<[>>old<<]>>Credo che questo sentiero sia destinato ad altri Allenatori, giovane.
+<<[>>old<<]>>I think this path is destined to other Trainers, kid.
 <<[>>old<<]>>Ah, come lo capisco quel Pokémon dormiente! Anch’io vorrei tanto starmene a dormire tutto il giorno!
-<<[>>old<<]>>Ah, come lo capisco quel Pokémon dormiente! Anch’io vorrei tanto starmene a dormire tutto il giorno!
+<<[>>old<<]>>Ah, I understand that sleepy Pokémon so much!\nI'd really like to sleep all day as well!
 <<[>>old<<]>>Nonostante manchino i fondi, io e i miei Pokémon ci stiamo dando un gran da fare!
-<<[>>old<<]>>Nonostante manchino i fondi, io e i miei Pokémon ci stiamo dando un gran da fare!
+<<[>>old<<]>>Despite the lack of money, my Pokémon and I are working hard on this! 
 <<[>>old<<]>>Quando uno è nato in riva al mare come me, non potrà mai vivere senza di lui.
-<<[>>old<<]>>Quando uno è nato in riva al mare come me, non potrà mai vivere senza di lui.
+<<[>>old<<]>>When someone is born near the sea like myself, they could never live without it.
 <<[>>old<<]>>Aranciopoli è davvero una splendida città!
-<<[>>old<<]>>Aranciopoli è davvero una splendida città!
+<<[>>old<<]>>Vermilion City really is a nice place!
 <<[>>old<<]>>Per colpa di quel Pokémon addormentato, mi toccherà allungare la strada per andare dalla mia ragazza.
-<<[>>old<<]>>Per colpa di quel Pokémon addormentato, mi toccherà allungare la strada per andare dalla mia ragazza.
+<<[>>old<<]>>Because of that damn sleeping Pokémon, I'm gonna have to walk more to see my girlfriend!
 <<[>>old<<]>>Questo Pokémon enorme sta schiacciando un pisolino proprio qui sul sentiero...
-<<[>>old<<]>>Questo Pokémon enorme sta schiacciando un pisolino proprio qui sul sentiero...
+<<[>>old<<]>>This huge Pokémon is taking a nap right here on the path...
 <<[>>old<<]>>Ehi, lo hai visto anche tu quel Pokémon gigaaaante che dorme per la strada?
-<<[>>old<<]>>Ehi, lo hai visto anche tu quel Pokémon gigaaaante che dorme per la strada?
+<<[>>old<<]>>Hey, have you seen that huuuge Pokémon sleeping on the street?
 <<[>>old<<]>>Sì, è davvero enorme! Chissà se ci entra in una Poké Ball...?
-<<[>>old<<]>>Sì, è davvero enorme! Chissà se ci entra in una Poké Ball...?
+<<[>>old<<]>>Yes, it's so big! I wonder if it fits a Poké Ball...?
 <<[>>old<<]>>Il Presidente del Pokémon Fan Club è un autentico collezionista incallito.
-<<[>>old<<]>>Il Presidente del Pokémon Fan Club è un autentico collezionista incallito.
+<<[>>old<<]>>The Pokémon Fan Club Chairman is really a hardcore collector.
 <<[>>old<<]>>Chop-chop!
 <<[>>old<<]>>Chop-chop!
 <<[>>old<<]>>Questo alberello blocca la strada.
-<<[>>old<<]>>This tree blocks the way.
+<<[>>old<<]>>This tree is blocking the way.
 <<[>>old<<]>>Ogni anno, in città attracca la M/N Anna, un’importante nave da crociera che viaggia per il mondo. Per imbarcarsi, però, è necessario un biglietto esclusivo!
-<<[>>old<<]>>Ogni anno, in città attracca la M/N Anna, un’importante nave da crociera che viaggia per il mondo. Per imbarcarsi, però, è necessario un biglietto esclusivo!
+<<[>>old<<]>>The S.S. Anne, a well-known luxury cruise liner which sails the world, stops here annually.\nEmbarking, however, requires an exclusive ticket!
 <<[>>old<<]>>Chissà cosa ci costruiranno qui...
-<<[>>old<<]>>Chissà cosa ci costruiranno qui...
+<<[>>old<<]>>I wonder what they're building here...
 <<[>>old<<]>>Meeeew...!
 <<[>>old<<]>>Meeeew...!
 <<[>>old<<]>>Pokémon Fan Club ''Tutti i fan dei Pokémon sono i benvenuti qui!''
-<<[>>old<<]>>Pokémon Fan Club ''Tutti i fan dei Pokémon sono i benvenuti qui!''
+<<[>>old<<]>>Pokémon Fan Club ''All Pokémon fans welcome!''
 <<[>>old<<]>>Ho come l’impressione che questa panchina mi leghi a qualcuno del mio futuro...
-<<[>>old<<]>>Ho come l’impressione che questa panchina mi leghi a qualcuno del mio futuro...
+<<[>>old<<]>>I have this strange feeling that this bench is linking me with someone from my future...
 [Map429]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
 <<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
@@ -19757,55 +19753,53 @@ No
 <<[>>old<<]>>You completed the Pokémon Den!
 [Map538]
 <<[>>old<<]>><b>Attestato del Campus</b> ''Attestato rilasciato dal Campus Ariepoli.''
-<<[>>old<<]>><b>Attestato del Campus</b> ''Attestato rilasciato dal Campus Ariepoli.''
+<<[>>old<<]>><b>Newtron's certificate</b> ''A certificate issued by Newtron's campus.''
 <<[>>old<<]>><b>Miniatura Monte Zodiaco</b> ''Riproduzione in miniatura del Monte Zodiaco.''
-<<[>>old<<]>><b>Miniatura Monte Zodiaco</b> ''Riproduzione in miniatura del Monte Zodiaco.''
+<<[>>old<<]>><b>Mt. Zodiac Diorama</b> ''Miniature version of Mt. Zodiac.''
 Presidente
-Presidente
-Mi raccomando, non utilizzare la <b>Master Ball<b> su quei Pokémon invasori... sarebbe del tutto inutile!
-Mi raccomando, non utilizzare la <b>Master Ball<b> su quei Pokémon invasori... sarebbe del tutto inutile!
-<<[>>old<<]>><b>Scacciasogni</b> ''Un souvenir di Capricornia.''
-<<[>>old<<]>><b>Scacciasogni</b> ''Un souvenir di Capricornia.''
-<<[>>old<<]>><b>Sidrostelle Special</b> ''Lattina commemorativa del Sidrostelle di Borgo Gemini.''
-<<[>>old<<]>><b>Sidrostelle Special</b> ''Lattina commemorativa del Sidrostelle di Borgo Gemini.''
-Ti do il benvenuto nel mio <b>museo dei souvenir</b>!
-Ti do il benvenuto nel mio <b>museo dei souvenir</b>!
-In queste teche conservo tutti quelli che ho potuto raccogliere nella tua regione, Eldiw. Grazie a quello che mi hai portato tu oggi, però, la mia collezione è finalmente al gran completo!
-In queste teche conservo tutti quelli che ho potuto raccogliere nella tua regione, Eldiw. Grazie a quello che mi hai portato tu oggi, però, la mia collezione è finalmente al gran completo!
-Il tuo gesto vale tanto per me e non può che essere premiato con un dono altrettanto speciale. Prendi!
-Il tuo gesto vale tanto per me e non può che essere premiato con un dono altrettanto speciale. Prendi!
-Quella è una <b>Master Ball</b>, la Ball definitiva capace di catturare qualsiasi Pokémon... con una sola eccezione.
-Quella è una <b>Master Ball</b>, la Ball definitiva capace di catturare qualsiasi Pokémon... con una sola eccezione.
-Per quanto prestante, pare che non possa imprigionare quegli strani Pokémon che hanno invaso la tua terra!
-Per quanto prestante, pare che non possa imprigionare quegli strani Pokémon che hanno invaso la tua terra!
-Beh, ad ogni modo, sappi che quando vorrai ammirare i miei splendidi souvenir, sarai sempre il||la benvenuto|a!
-Beh, ad ogni modo, sappi che quando vorrai ammirare i miei splendidi souvenir, sarai sempre il||la benvenuto|a!
-<<[>>old<<]>><b>Campana Mumu</b> ''Campanaccio dei Miltank del Ranch Spigadoro.''
-<<[>>old<<]>><b>Campana Mumu</b> ''Campanaccio dei Miltank del Ranch Spigadoro.''
-<<[>>old<<]>><b>Acqua Mistica</b> ''Boccetta della miracolosa acqua di Aquariopoli.''
-<<[>>old<<]>><b>Acqua Mistica</b> ''Boccetta della miracolosa acqua di Aquariopoli.''
-<<[>>old<<]>><b>Baccamela Caramellata</b> ''Prelibatezza del Regno di Virgopoli.''
-<<[>>old<<]>><b>Baccamela Caramellata</b> ''Prelibatezza del Regno di Virgopoli.''
+Chairman
 Mi raccomando, non utilizzare la <b>Master Ball</b> su quei Pokémon invasori... sarebbe del tutto inutile!
-Mi raccomando, non utilizzare la <b>Master Ball</b> su quei Pokémon invasori... sarebbe del tutto inutile!
+Be careful not to use the <b>Master Ball</b> on those invading Pokémon...it will be useless!
+<<[>>old<<]>><b>Scacciasogni</b> ''Un souvenir di Capricornia.''
+<<[>>old<<]>><b>Scacciasogni</b> ''A souvenir from Equinox Village.''
+<<[>>old<<]>><b>Sidrostelle Special</b> ''Lattina commemorativa del Sidrostelle di Borgo Gemini.''
+<<[>>old<<]>><b>Star Sider Special</b> ''A commemorative can of Stellato Town's Star Sider.''
+Ti do il benvenuto nel mio <b>museo dei souvenir</b>!
+I gladly welcome you to my <b>souvenir museum</b>!
+In queste teche conservo tutti quelli che ho potuto raccogliere nella tua regione, Eldiw. Grazie a quello che mi hai portato tu oggi, però, la mia collezione è finalmente al gran completo!
+All the souvenirs I collected in Eldiw, your region,<<n>>are stored in these display cases.<<n>>Thanks to you and what you brought me, my collection<<n>>is finally completed today!
+Il tuo gesto vale tanto per me e non può che essere premiato con un dono altrettanto speciale. Prendi!
+What you did means a lot to me and I'd like to reward<<n>>you with an equally special gift. Take this! 
+Quella è una <b>Master Ball</b>, la Ball definitiva capace di catturare qualsiasi Pokémon... con una sola eccezione.
+That's a <b>Master Ball</b>, the best Ball. With it, you will catch any wild Pokémon...with one single exception.
+Per quanto prestante, pare che non possa imprigionare quegli strani Pokémon che hanno invaso la tua terra!
+Despite its level of performance, it would be useless<<n>>on those strange Pokémon that flooded your region!
+Beh, ad ogni modo, sappi che quando vorrai ammirare i miei splendidi souvenir, sarai sempre il||la benvenuto|a!
+Well, anyway, I want you to know that you're welcome<<n>>whenever you want to enjoy my wonderful souvenirs!
+<<[>>old<<]>><b>Campana Mumu</b> ''Campanaccio dei Miltank del Ranch Spigadoro.''
+<<[>>old<<]>><b>Moomoo Bell</b> ''A Miltank's bell from Nova Ranch.''
+<<[>>old<<]>><b>Acqua Mistica</b> ''Boccetta della miracolosa acqua di Aquariopoli.''
+<<[>>old<<]>><b>Miracle Water</b> ''A bottle containing the miraculous water from Ishtar City.''
+<<[>>old<<]>><b>Baccamela Caramellata</b> ''Prelibatezza del Regno di Virgopoli.''
+<<[>>old<<]>><b>Candy Leppa Berry</b> ''A real delicacy in Milkiway City's kingdom.''
 <<[>>old<<]>><b>Splendisabbia</b> ''Sacchetto contenente sabbia della Spiaggia Polvostella.''
-<<[>>old<<]>><b>Splendisabbia</b> ''Sacchetto contenente sabbia della Spiaggia Polvostella.''
+<<[>>old<<]>><b>Shining Sand</b> ''A bag containing the sand from Stardust Beach.''
 <<[>>old<<]>><b>Romanzo di Crisante</b> ''Best-seller del Capopalestra scrittore di Scorpiopoli.''
-<<[>>old<<]>><b>Romanzo di Crisante</b> ''Best-seller del Capopalestra scrittore di Scorpiopoli.''
+<<[>>old<<]>><b>Caspar's Novel</b> ''Bestseller written by Westar City's Gym Leader.''
 <<[>>old<<]>><b>Idolo di Fuoco</b> ''Statuetta raffigurante un Pokémon venerato a Cansiria.''
-<<[>>old<<]>><b>Idolo di Fuoco</b> ''Statuetta raffigurante un Pokémon venerato a Cansiria.''
+<<[>>old<<]>><b>Idol of Fire</b> ''A statue that represents the Pokémon revered in Fortbelt Town.''
 <<[>>old<<]>><b>Rete Pescagrossa</b> ''Rete utilizzata dai pescatori dell'Isola Pigliapesci.''
-<<[>>old<<]>><b>Rete Pescagrossa</b> ''Rete utilizzata dai pescatori dell'Isola Pigliapesci.''
+<<[>>old<<]>><b>Big Fish Net</b> ''Fishing net used by fishers in Proxim Island.''
 <<[>>old<<]>><b>Autografo di Daddy</b> ''Autografo della superstar di Leopoli Wallace Daddy.''
-<<[>>old<<]>><b>Autografo di Daddy</b> ''Autografo della superstar di Leopoli Wallace Daddy.''
+<<[>>old<<]>><b>Daddy's Autograph</b> ''Photo autographed by Hypelion's superstar Wallace Daddy.''
 <<[>>old<<]>><b>Idolo d'Erba</b> ''Statuetta raffigurante un Pokémon venerato a Ofiuchia.''
-<<[>>old<<]>><b>Idolo d'Erba</b> ''Statuetta raffigurante un Pokémon venerato a Ofiuchia.''
+<<[>>old<<]>><b>Idol of Grass</b> ''A statue that represents the Pokémon revered in Dorado Village.''
 <<[>>old<<]>><b>Cristallo di ghiaccio</b> ''Formazione glaciale rinvenuta a Vetta Polare.''
-<<[>>old<<]>><b>Cristallo di ghiaccio</b> ''Formazione glaciale rinvenuta a Vetta Polare.''
+<<[>>old<<]>><b>Ice Crystal</b> ''A glacial formation found in Polaris Town.''
 <<[>>old<<]>><b>Gettone d'oro</b> ''Un gettone speciale rilasciato dal casinò di Sagittopoli.''
-<<[>>old<<]>><b>Gettone d'oro</b> ''Un gettone speciale rilasciato dal casinò di Sagittopoli.''
+<<[>>old<<]>><b>Gold Coin</b> ''A special coin issued by Vega City's casino.''
 <<[>>old<<]>><b>Idolo d'Acqua</b> ''Statuetta raffigurante un Pokémon venerato a Tauronordia.''
-<<[>>old<<]>><b>Idolo d'Acqua</b> ''Statuetta raffigurante un Pokémon venerato a Tauronordia.''
+<<[>>old<<]>><b>Idol of Water</b> ''A statue that represents the Pokémon revered in Borealis Town.''
 [Map539]
 Alice
 Alice
@@ -41926,55 +41920,55 @@ Vecchia cassetta su cui è registrata una melodia al pianoforte.
 Vecchia cassetta su cui è registrata una melodia al pianoforte.
 742
 Campanaccio dei Miltank del Ranch Spigadoro. Non sembrerebbe avere alcuna utilità.
-Campanaccio dei Miltank del Ranch Spigadoro. Non sembrerebbe avere alcuna utilità.
+A Miltank's bell from Nova Ranch. It looks like it has no utility at all.
 743
 Sacchetto contenente sabbia della Spiaggia Polvostella. Non sembrerebbe avere alcuna utilità.
-Sacchetto contenente sabbia della Spiaggia Polvostella. Non sembrerebbe avere alcuna utilità.
+A bag containing the sand from Stardust Beach. It looks like it has no utility at all.
 744
 Rete utilizzata dai pescatori dell'Isola Pigliapesci. Non sembrerebbe avere alcuna utilità.
-Rete utilizzata dai pescatori dell'Isola Pigliapesci. Non sembrerebbe avere alcuna utilità.
+The fishing net used by fishers in Proxim Island. It looks like it has no utility at all.
 745
 Formazione glaciale rinvenuta a Vetta Polare. Non sembrerebbe avere alcuna utilità.
-Formazione glaciale rinvenuta a Vetta Polare. Non sembrerebbe avere alcuna utilità.
+A glacial formation found in Polaris Town. It looks like it has no utility at all.
 746
 Attestato rilasciato dal Campus Ariepoli. Non sembrerebbe avere alcuna utilità.
-Attestato rilasciato dal Campus Ariepoli. Non sembrerebbe avere alcuna utilità.
+A certificate issued by Newtron's campus. It looks like it has no utility at all.
 747
 Lattina commemorativa del Sidrostelle di Borgo Gemini. Non sembrerebbe avere alcuna utilità.
-Lattina commemorativa del Sidrostelle di Borgo Gemini. Non sembrerebbe avere alcuna utilità.
+A commemorative can of Stellato Town's Star Sider. It looks like it has no utility at all.
 748
 Prelibatezza del Regno di Virgopoli. Non sembrerebbe avere alcuna utilità.
-Prelibatezza del Regno di Virgopoli. Non sembrerebbe avere alcuna utilità.
+A real delicacy in Milkiway City's kingdom. It looks like it has no utility at all.
 749
 Statuetta raffigurante un Pokémon venerato a Cansiria. Non sembrerebbe avere alcuna utilità.
-Statuetta raffigurante un Pokémon venerato a Cansiria. Non sembrerebbe avere alcuna utilità.
+A statue that represents the Pokémon revered in Fortbelt Town. It looks like it has no utility at all.
 750
 Boccetta della miracolosa acqua di Aquariopoli. Non sembrerebbe avere alcuna utilità.
-Boccetta della miracolosa acqua di Aquariopoli. Non sembrerebbe avere alcuna utilità.
+A bottle containing the miraculous water from Ishtar City. It looks like it has no utility at all.
 751
 Un Souvenir di Capricornia. Non sembrerebbe avere alcuna utilità.
-Un Souvenir di Capricornia. Non sembrerebbe avere alcuna utilità.
+A souvenir from Equinox Village. It looks like it has no utility at all.
 752
 Best-seller del Capopalestra scrittore di Scorpiopoli. Non sembrerebbe avere alcuna utilità.
-Best-seller del Capopalestra scrittore di Scorpiopoli. Non sembrerebbe avere alcuna utilità.
+Bestseller written by Westar City's Gym Leader. It looks like it has no utility at all.
 753
 Autografo della superstar di Leopoli Wallace Daddy. Non sembrerebbe avere alcuna utilità.
-Autografo della superstar di Leopoli Wallace Daddy. Non sembrerebbe avere alcuna utilità.
+Photo autographed by Hypelion's superstar Wallace Daddy. It looks like it has no utility at all.
 754
 Statuetta raffigurante un Pokémon venerato a Ofiuchia. Non sembrerebbe avere alcuna utilità.
-Statuetta raffigurante un Pokémon venerato a Ofiuchia. Non sembrerebbe avere alcuna utilità.
+A statue that represents the Pokémon revered in Dorado Village. It looks like it has no utility at all.
 755
 Un gettone speciale rilasciato dal casinò di Sagittopoli. Non sembrerebbe avere alcuna utilità.
-Un gettone speciale rilasciato dal casinò di Sagittopoli. Non sembrerebbe avere alcuna utilità.
+A special coin issued by Vega City's casino. It looks like it has no utility at all.
 756
 Un Souvenir di Aranciopoli. Forse scambiandolo si può ottenere qualcosa?
 Un Souvenir di Aranciopoli. Forse scambiandolo si può ottenere qualcosa?
 757
 Statuetta raffigurante un Pokémon venerato a Tauronordia. Non sembrerebbe avere alcuna utilità.
-Statuetta raffigurante un Pokémon venerato a Tauronordia. Non sembrerebbe avere alcuna utilità.
+A statue that represents the Pokémon revered in Borealis Town. It looks like it has no utility at all.
 758
 Riproduzione in miniatura del Monte Zodiaco. Non sembrerebbe avere alcuna utilità.
-Riproduzione in miniatura del Monte Zodiaco. Non sembrerebbe avere alcuna utilità.
+Miniature version of Mt. Zodiac. It looks like it has no utility at all.
 759
 Update contenente i dati del Pokémon Kadabra. Permette al Pokémon di evolversi tramite Trasferitore.
 Update contenente i dati del Pokémon Kadabra. Permette al Pokémon di evolversi tramite Trasferitore.
