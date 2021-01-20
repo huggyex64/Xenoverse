@@ -582,12 +582,27 @@ end
 # Target cannot use sound-based moves for 2 more rounds. (Throat Chop)
 #===============================================================================
 class PokeBattle_Move_16C < PokeBattle_Move
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		ret=super(attacker,opponent,hitnum,alltargets,showanimation)
+		if opponent.damagestate.calcdamage>0 && !(opponent.fainted? || opponent.damagestate.substitute)
+			if opponent.effects[PBEffects::ThroatChop]==0
+				@battle.pbDisplay(_INTL("The effects of {1} prevent {2} from using certain moves!",@name,opponent.pbThis(true)))
+			end
+			opponent.effects[PBEffects::ThroatChop] = 3
+		end
+		return ret
+	end
+=begin
 	def pbAdditionalEffect(user,target)
+		echoln "TRYING TO INFLICT THROATCHOP"
 		return if target.fainted? || target.damageState.substitute
-		@battle.pbDisplay(_INTL("The effects of {1} prevent {2} from using certain moves!",
-				@name,target.pbThis(true))) if target.effects[PBEffects::ThroatChop]==0
+		echoln "INFLICTED THROATCHOP"
+		if target.effects[PBEffects::ThroatChop]==0
+			@battle.pbDisplay(_INTL("The effects of {1} prevent {2} from using certain moves!",@name,target.pbThis(true)))
+		end
 		target.effects[PBEffects::ThroatChop] = 3
 	end
+=end
 end
 ################################################################################
 # Freezes the target. (Freeze-Dry)

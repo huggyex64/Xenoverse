@@ -3292,7 +3292,7 @@ class PokeBattle_Battle
       end
     end
     # Main damage calculation
-    damage=(((2.0*attacker.level/5+2).floor*basedamage*atk/defense).floor/50).floor+2
+    damage=(((2.0*attacker.level/5+2).floor*basedamage*atk/[defense,1].max).floor/50).floor+2
     # Multi-targeting attacks
     if skill>=PBTrainerAI.highSkill
       if move.pbTargetsAll?(attacker)
@@ -3550,6 +3550,7 @@ class PokeBattle_Battle
     if wildbattle # If wild battle
       for i in 0...4
         if pbCanChooseMove?(index,i,false)
+          echoln "Can choose #{i}"
           scores[i]=100
           myChoices.push(i)
           totalscore+=100
