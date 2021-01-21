@@ -83,9 +83,10 @@ class MysteryGiftHandler
                 
                 # here goes eventual animation
                 pbAddPokemonToBox(@gifts[key]) if (@gifts.has_key?(key))
+                $Trainer.giftstaken.push(key)
+                pbSave
                 Kernel.pbMessage(_INTL("You got {1} from the Mystery Gift!",@gifts[key].name)) {@scene.update}
                 Kernel.pbMessage(_INTL("Go check your Pokémon boxes!")) {@scene.update}
-                $Trainer.giftstaken.push(key)
                 @scene.closeBoxScreen
             end
         else
@@ -458,4 +459,5 @@ def pbMGH
     #mgh.retrieve("lMvKh4HwLJeeRltm0r4jaPlac3lciIR1")
     #mgh.retrieve("oNCWiHGuWMIOWy8ujTz0J4M4uFp9qj79")
     #mgh.retrieve("dsPZcTbg09jQOZUFrerinPJWABt3Fpw5")
+    
 end

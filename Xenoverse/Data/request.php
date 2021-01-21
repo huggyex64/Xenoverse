@@ -19,7 +19,7 @@
     
     $type = $_POST["type"];
     if ($type=="getGifts"):
-        $query = mysqli_query($conn,"SELECT * FROM MysteryGift WHERE IDC LIKE \"".$_POST["code"]. "\"");
+        $query = mysqli_query($conn,"SELECT * FROM MysteryGift WHERE IDC = BINARY \"".$_POST["code"]. "\"");
         while ($row = mysqli_fetch_assoc($query)){
             echo($row["IDC"] ."</s>". $row["NAME"] ."</s>". 
             $row["LEVEL"]."</s>". $row["SHINY"]."</s>".
@@ -30,7 +30,7 @@
         }
     elseif ($type=="checkCode"):
     
-        $query = mysqli_query($conn,"SELECT * FROM MysteryGift WHERE IDC LIKE \"".$_POST["code"]. "\"");
+        $query = mysqli_query($conn,"SELECT * FROM MysteryGift WHERE IDC = BINARY \"".$_POST["code"]. "\"");
         if($result = mysqli_fetch_assoc($query)) {
             echo("true");
         } 

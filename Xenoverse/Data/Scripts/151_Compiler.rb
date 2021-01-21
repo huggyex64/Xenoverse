@@ -4171,7 +4171,7 @@ if $DEBUG
       end
     end
   end
-  pbCompileAllData(mustcompile){|msg| Win32API.SetWindowText(msg) }
+  pbCompileAllData(mustcompile){|msg| Win32API.SetWindowText(msg) } unless Input.pressex?(:CTRL)
 end
 
 
