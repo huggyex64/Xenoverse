@@ -36755,7 +36755,7 @@ You don't have any space in the to store a gift.
 Non hai posto per un dono nei Box...
 Given code is not valid.
 Il codice inserito non è valido.
-You receive a gift!
+You received a gift!
 È arrivato un dono!
 You already received this gift.
 Hai già ritirato questo dono!

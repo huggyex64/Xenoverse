@@ -175,6 +175,7 @@ class MysteryGiftScene
         @commands["retrieved"].y=134
         pbDrawTextPositions(@commands["retrieved"].bitmap,[[_INTL("Retrieved Gifts"),283/2,8,2,Color.new(24,24,24)]])
 =end
+        
         @commands["exit"]=EAMSprite.new(@viewport)
         @commands["exit"].bitmap = pbBitmap(@path + "button").clone
         @commands["exit"].bitmap.font.name = "Barlow Condensed"
@@ -184,6 +185,8 @@ class MysteryGiftScene
         pbDrawTextPositions(@commands["exit"].bitmap,[[_INTL("Quit"),283/2,8,2,Color.new(24,24,24)]])
         @merged = @sprites.merge(@commands)
         pbFadeInAndShow(@merged)
+        $game_system.bgm_memorize
+        pbBGMPlay("Dono Segreto")
         self.commands
     end
 
@@ -213,6 +216,7 @@ class MysteryGiftScene
 
     #main loop 
     def commands
+        $DEBUG = true
         if @selIndex==0
             @commands["code"].fade(255,10)
             @commands["exit"].fade(120,10)
@@ -250,6 +254,7 @@ class MysteryGiftScene
                         Kernel.pbMessage(_INTL("You don't have any space in the to store a gift."))
                     end
                     reEnableButtonScreen
+                    @msgwindow.setText(@colortag + @messages[@selIndex])
                     if @selIndex==0
                         @commands["code"].fade(255,10)
                         @commands["exit"].fade(120,10)
@@ -269,6 +274,8 @@ class MysteryGiftScene
         @merged = @sprites.merge(@commands)
         Kernel.pbDisposeMessageWindow(@msgwindow)
         pbFadeOutAndHide(@merged)
+        pbBGMStop()
+        $game_system.bgm_restore
         Graphics.frame_rate = @oldfr
     end
 
@@ -322,6 +329,7 @@ class MysteryGiftScene
             @sprites["box"].update
             @sprites["lid"].update
         end
+        pbSEPlay("Substitute")
         @msgwindow.visible=false
         @sprites["box"].move(0,-10,6,:ease_in_cubic)
         @sprites["lid"].move(322,156,6,:ease_in_cubic)
@@ -342,7 +350,7 @@ class MysteryGiftScene
         end
 
         pbWait(60)
-
+        pbSEPlay("flash")
         @sprites["lid"].rotate(-180,55,:ease_in_cubic)
         @sprites["lid"].fade(0,50)
         @sprites["flash"].fade(255,50)
@@ -354,6 +362,7 @@ class MysteryGiftScene
         end
         pbWait(60)
         @sprites["gift"].fade(255,10,:ease_out_cubic)
+        pbPlayCry(poke.species)
         70.times do 
             Graphics.update
             update
