@@ -17286,7 +17286,7 @@ Chi la usa colpisce con una raffica di energia da due a cinque volte.
 Chi la usa colpisce con una raffica di energia da due a cinque volte.
 717
 Scaraventa sull'avversario un tuono sinistro che può anche ridurne la Difesa.
-Scaraventa sull'avversario un tuono sinistro che può anche ridurne la Difesa.
+Scaraventa sull'avversario un tuono sinistro che può anche ridurne la Difesa Speciale.
 718
 Intimorisce l'avversario emettendo un sibilo che ne riduce la Difesa.
 Intimorisce l'avversario emettendo un sibilo che ne riduce di molto la Difesa Speciale.
