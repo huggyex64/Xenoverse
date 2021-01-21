@@ -216,7 +216,6 @@ class MysteryGiftScene
 
     #main loop 
     def commands
-        $DEBUG = true
         if @selIndex==0
             @commands["code"].fade(255,10)
             @commands["exit"].fade(120,10)
