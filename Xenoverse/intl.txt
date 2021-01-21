@@ -5486,7 +5486,7 @@ Tuuurt....!
 Maui
 Maui
 Il mio spirito combattivo ribolle come la lava!
-My fighting spirit is building up inside of me<<n>>like a volcano!
+My fighting spirit's burning inside of me<<n>>like a volcano!
 Dobbiamo cercare di contenere i nostri istinti.
 We must refrain from hot blooded behavior.
 Quinta regola del dojo: dobbiamo cercare di contenere i nostri istinti.
@@ -13799,57 +13799,59 @@ Ropert's walking in your shoes! Chop chop!
 Se hai bisogno, fammi un fischio.
 Hit me up if you need something.
 <<[>>old<<]>>L’interruttore è su ''spento''. Vuoi accenderlo?
-<<[>>old<<]>>L’interruttore è su ''spento''. Vuoi accenderlo?
+<<[>>old<<]>>The switch is turned off. Do you want to turn it on?
 <<[>>old<<]>>Dev'essersi attivato qualcosa. Meglio dare un'occhiata nei dintorni.
-<<[>>old<<]>>Dev'essersi attivato qualcosa. Meglio dare un'occhiata nei dintorni. 
+<<[>>old<<]>>It seems something has been activated. Better look around.
 <<[>>old<<]>>Chissà a cosa serve...
-<<[>>old<<]>>Chissà a cosa serve...
+<<[>>old<<]>>I wonder what it is for...
 Meneslao
-Meneslao
+Mitchell
 Certo che stabilire il covo nelle fogne è davvero una bella trova...! E-Ehi, m-mi hai sentito?! M-Mi costringi a metterti a tacere con la forza!
-Certo che stabilire il covo nelle fogne è davvero una bella trova...! E-Ehi, m-mi hai sentito?! M-Mi costringi a metterti a tacere con la forza!
+Settle the hideout in a sewer is a really good ide-!<<n>>H-Hey, did...did you hear me?!<<n>>Y-You're forcing me to put you out by force!
 T-Ti prego, risparmiami! Sono solo uno scienziato!
-T-Ti prego, risparmiami! Sono solo uno scienziato!
+P-Please, do spare me! I'm just a scientist!
 T-Ti prego! Faccio solo il mio dovere per sopravvivere in questo mondo crudele!
-T-Ti prego! Faccio solo il mio dovere per sopravvivere in questo mondo crudele!
+P-Please! I'm just trying to survive this cruel world!
 Tobia
-Tobia
+Toby
 Il capo mi ha incaricato di sorvegliare il quartier generale e io lo farò con le unghie e con i denti!
-Il capo mi ha incaricato di sorvegliare il quartier generale e io lo farò con le unghie e con i denti!
+The boss has charged me to stake out the headquarters<<n>>and I'll do it long and hard!
 Capo... ti ho deluso, vero?
-Capo... ti ho deluso, vero?
+Boss, I'm sorry...I've failed you!
 Milo
-Milo
+Morty
 Tu sei uno|a di quegli strani tizi che pensano di fregarci il quartier generale, non è vero?! Beh, va' a dire a chi ti manda di sloggiare!!
-Tu sei uno|a di quegli strani tizi che pensano di fregarci il quartier generale, non è vero?! Beh, va' a dire a chi ti manda di sloggiare!!
+You're one of those weirdos who think they can steal<<n>>our headquarters off, aren't you?!<<n>>Well, go and tell 'em to get the hell outta here!!
 Ci penserà il capo a quelli come voi!
-Ci penserà il capo a quelli come voi!
+Our boss will make y'all scram!
 Nero
-Nero
+Grim
 Perché mai costruire un <b>tempietto</b> in un posto del genere? Questi nuovi culti proprio non li capisco. Fossi in te, ne starei alla larga!
-Perché mai costruire un <b>tempietto</b> in un posto del genere? Questi nuovi culti proprio non li capisco. Fossi in te, ne starei alla larga!
+Why on earth did someone build a <b>shrine</b> in a place like this?! I can't really understand these new cults.<<n>>If I were you, I'd stay away from it!
 Serry
-Serry
+Sam
 Ehi! Questo è il quartier generale del nostro clan, che sei venuto|a a fare?!
-Ehi! Questo è il quartier generale del nostro clan, che sei venuto|a a fare?!
+Hey you! This is our clan headquarter!<<n>>What the heck are ya doin' here?
 Spera solo che non ti scopra il capo!
-Spera solo che non ti scopra il capo!
+You better hope the boss never finds you!
 Carolina
 Nadie
 Non sono una grande fan della musica mainstream, preferisco qualcosa di più underground!
-Non sono una grande fan della musica mainstream, preferisco qualcosa di più underground!
+I'm not a big fan of mainstream music--I prefer something more underground!
 Più underground di così...
-Più underground di così...
+It can't be more underground than this...
+Giovanni
+Johnny
 Il capo non vuole impiastri tra i piedi. Smamma!
-Il capo non vuole impiastri tra i piedi. Smamma!
+The boss doesn't want you meddlin' kids in his way.<<n>>Now scram!
 Aaron
 Aaron
 Allora, dov’è la Pizza Donanas che aveva ordinato il capo?
-Allora, dov’è la Pizza Donanas che aveva ordinato il capo?
+So where's the Donanas Pizza the boss ordered?
 Come non ne sai niente?! Bene, ci penso io a rinfrescarti la memoria!
-Come non ne sai niente?! Bene, ci penso io a rinfrescarti la memoria!
+What does ''I don't know'' mean?! Alright, lemme help ya refresh your memory!
 Non sei il fattorino, vero?
-Non sei il fattorino, vero?
+You're not a delivery guy, am I rite?
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 Trishout
@@ -13875,21 +13877,21 @@ Shu...!
 44RF
 44RF
 Ehi! Perché diavolo mi hai riattivato?! Ero qui per un motivo ben preciso: bloccare l’accesso! <i>Bzz!</i> Ti terrò alla larga con una lotta! <i>Bzz!</i>
-Ehi! Perché diavolo mi hai riattivato?! Ero qui per un motivo ben preciso: bloccare l’accesso! <i>Bzz!</i> Ti terrò alla larga con una lotta! <i>Bzz!</i>
+Hey! Why the hell did you activate me?! I was here for<<n>>a very specific reason--block the access! <i>Bzz!</i><<n>>I'll keep you out with a battle! <i>Bzz!</i>
 E-Errore.
-E-Errore.
+E-Error.
 <i>E-ERRORE. E-ERRORE. BZZ.</i> <i>RI-RITIRATA. BZZ.</i>
-<i>E-ERRORE. E-ERRORE. BZZ.</i> <i>RI-RITIRATA. BZZ.</i>
+<i>E-ERROR. E-ERROR. BZZ.</i><<n>><i>RE-RETREAT. BZZ.</i>
 Janet
 Janet
 Ora che abbiamo scoperto dove si nascondeva il Team Dimension, la sua tecnologia non avrà più segreti per noi!
-Ora che abbiamo scoperto dove si nascondeva il Team Dimension, la sua tecnologia non avrà più segreti per noi!
+Now that we know where Team Dimension was hiding, their technology has no more secrets for us!
 Lollo
-Lollo
+Landon
 Le fogne sono più vicine al sottosuolo... sono certo che qui da qualche parte si nascondano dei Fossili rari!
-Le fogne sono più vicine al sottosuolo... sono certo che qui da qualche parte si nascondano dei Fossili rari!
+Sewers are closer to the underground...I'm sure there<<n>>are some rare Fossils around here somewhere!
 Credo che anche la mia abilità nella lotta si sia fossilizzata ormai...
-Credo che anche la mia abilità nella lotta si sia fossilizzata ormai...
+I think my battle abilities fossilized too...
 Sì
 Yes
 No
@@ -14873,9 +14875,9 @@ No
 No
 [Map328]
 Viola
-Viola
+Violet
 Il gestore del casinò ha rinvenuto un vecchio cabinato quaggiù, ma ha davvero un aspetto bizzarro. È da un po’ che lo osserviamo, ma ancora non siamo riusciti a capire come funzioni... Per il momento, è meglio che i non addetti ai lavori ne stiano alla larga!
-Il gestore del casinò ha rinvenuto un vecchio cabinato quaggiù, ma ha davvero un aspetto bizzarro. È da un po’ che lo osserviamo, ma ancora non siamo riusciti a capire come funzioni... Per il momento, è meglio che i non addetti ai lavori ne stiano alla larga!
+The casino manager has found an old cabinet over here,<<n>>but I have to say it is really strange-looking.<<n>>We've been observing it for a while now but we can't<<n>>figure out how it works...<<n>>Laymen are asked to keep a safe distance from it<<n>>for the time being!
 [Map329]
 [Map330]
 Ignazio
@@ -16701,11 +16703,11 @@ Shu...!
 <<[>>old<<]>>Accidenti! Magnemite si è accorto della tua presenza!
 <<[>>old<<]>>Oh, no! Magnemite caught you!
 <<[>>old<<]>>L’interruttore è su ''spento''. Vuoi accenderlo?
-<<[>>old<<]>>L’interruttore è su ''spento''. Vuoi accenderlo?
+<<[>>old<<]>>The switch is turned off. Do you want to turn it on?
 <<[>>old<<]>>Dev’essere successo qualcosa. Meglio dare un’occhiata là fuori.
-<<[>>old<<]>>Dev’essere successo qualcosa. Meglio dare un’occhiata là fuori.
+<<[>>old<<]>>It seems something has happened. Better look out there.
 <<[>>old<<]>>Chissà a cosa serve...
-<<[>>old<<]>>Chissà a cosa serve...
+<<[>>old<<]>>I wonder what it is for...
 <<[>>old<<]>>Vuoi ritornare all'ingresso del condotto?
 <<[>>old<<]>>Vuoi ritornare all'ingresso del condotto?
 Sì
@@ -44311,7 +44313,7 @@ Peppe
 Stefano
 Stefano
 Lollo
-Lollo
+Landon
 Alessandro
 Axel
 Aster
@@ -44353,13 +44355,13 @@ Min & Mun
 Federico
 Freddie
 Milo
-Milo
+Morty
 Aaron
 Aaron
 Luigi
 Luigi
 Serry
-Serry
+Sam
 Marco
 Maxie
 Tobia
@@ -44923,7 +44925,7 @@ Nanda
 Miriam
 Miriam
 Meneslao
-Meneslao
+Mitchell
 Vicio
 Vicio
 Mina
