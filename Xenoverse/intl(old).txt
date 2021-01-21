@@ -17289,7 +17289,7 @@ Scaraventa sull'avversario un tuono sinistro che può anche ridurne la Difesa.
 Scaraventa sull'avversario un tuono sinistro che può anche ridurne la Difesa.
 718
 Intimorisce l'avversario emettendo un sibilo che ne riduce la Difesa.
-Intimorisce l'avversario emettendo un sibilo che ne riduce la Difesa.
+Intimorisce l'avversario emettendo un sibilo che ne riduce di molto la Difesa Speciale.
 719
 Chi la usa performa un'esibizione vocale festosa e dinamica che confonde il bersaglio.
 Chi la usa performa un'esibizione vocale festosa e dinamica che confonde il bersaglio.
@@ -36763,4 +36763,7 @@ Go check your Pokémon boxes!
 Non dimenticare di controllare nei Box!
 You got {1} from the Mystery Gift!
 Hai ottenuto {1} in dono!
+{1} can't use {2} because of Throat Chop!
+{1} non può usare {2} a causa di Colpo Infernale!
+
 

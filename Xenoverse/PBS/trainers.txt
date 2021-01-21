@@ -2436,9 +2436,8 @@ GYARADOS,32,,ICEFANG,CRUNCH,AQUATAIL,SCARYFACE
 #==============================
 SOLDATO
 Quasim
-2
-REMORAID,32
-SHARPEDO,34
+1
+SHARPEDO,33
 #==============================
 SOLDATO
 Veliano
