@@ -39822,85 +39822,85 @@ Special Rod
 [8]
 1
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
-Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
+An item that prevents weak wild Pokémon from appearing for 100 steps after its use.
 2
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 200 passi dopo l'utilizzo.
-Strumento che evita l'incontro con i Pokémon selvatici deboli per 200 passi dopo l'utilizzo.
+An item that prevents weak wild Pokémon from appearing for 200 steps after its use.
 3
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 250 passi dopo l'utilizzo.
-Strumento che evita l'incontro con i Pokémon selvatici deboli per 250 passi dopo l'utilizzo.
+An item that prevents weak wild Pokémon from appearing for 250 steps after its use.
 4
 Un flauto nero fatto di vetro soffiato. La sua melodia rende più difficile incontrare dei Pokémon selvatici.
-Un flauto nero fatto di vetro soffiato. La sua melodia rende più difficile incontrare dei Pokémon selvatici.
+A black flute made from blown glass. Its melody makes wild Pokémon less likely to appear
 5
 Un flauto bianco fatto di vetro soffiato. La sua melodia rende più difficile incontrare dei Pokémon selvatici.
-Un flauto bianco fatto di vetro soffiato. La sua melodia rende più difficile incontrare dei Pokémon selvatici.
+A white flute made from blown glass. Its melody makes wild Pokémon less likely to appear
 6
 Un dolce miele con un aroma che attira i Pokémon selvatici se usato nell'erba, nelle grotte o su alberi speciali.
-Un dolce miele con un aroma che attira i Pokémon selvatici se usato nell'erba, nelle grotte o su alberi speciali.
+A sweet honey with a lush aroma that attracts wild Pokémon when it is used in grass, caves, or on special trees.
 7
 Una lunga corda usata per fuggire da grotte o sotterranei.
-Una lunga corda usata per fuggire da grotte o sotterranei.
+A long, durable rope. Use it to escape instantly from a cave or a dungeon.
 8
 Un piccolo coccio rosso. Sembra provenire da una specie di oggetto antico.
-Un piccolo coccio rosso. Sembra provenire da una specie di oggetto antico.
+A small red shard. It appears to be from some sort of implement made long ago.
 9
 Un piccolo coccio giallo. Sembra provenire da una specie di oggetto antico.
-Un piccolo coccio giallo. Sembra provenire da una specie di oggetto antico.
+A small yellow shard. It appears to be from some sort of implement made long ago.
 10
 Un piccolo coccio blu. Sembra provenire da una specie di oggetto antico.
-Un piccolo coccio blu. Sembra provenire da una specie di oggetto antico.
+A small blue shard. It appears to be from some sort of implement made long ago.
 11
 Un piccolo coccio verde. Sembra provenire da una specie di oggetto antico.
-Un piccolo coccio verde. Sembra provenire da una specie di oggetto antico.
+A small green shard. It appears to be from some sort of implement made long ago.
 12
 Pietra particolare che fa evolvere determinate specie di Pokémon. È di color arancione brillante
-Pietra particolare che fa evolvere determinate specie di Pokémon. È di color arancione brillante
+A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.
 13
 Pietra particolare che fa evolvere determinate specie di Pokémon. Sopra ha l'immagine di un fulmine.
-Pietra particolare che fa evolvere determinate specie di Pokémon. Sopra ha l'immagine di un fulmine.
+A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.
 14
 Pietra particolare che fa evolvere determinate specie di Pokémon. Ha un colore azzurro come il mare.
-Pietra particolare che fa evolvere determinate specie di Pokémon. Ha un colore azzurro come il mare.
+A peculiar stone that makes certain species of Pokémon evolve. It is a clear, light blue.
 15
 Pietra particolare che fa evolvere determinate specie di Pokémon. Sopra ha l'immagine di una foglia.
-Pietra particolare che fa evolvere determinate specie di Pokémon. Sopra ha l'immagine di una foglia.
+A peculiar stone that makes certain species of Pokémon evolve. It has a leaf pattern.
 16
 Pietra particolare che fa evolvere determinate specie di Pokémon. È nera come il cielo della notte.
-Pietra particolare che fa evolvere determinate specie di Pokémon. È nera come il cielo della notte.
+A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky.
 17
 Pietra particolare che fa evolvere determinate specie di Pokémon. È rossa come il sole.
-Pietra particolare che fa evolvere determinate specie di Pokémon. È rossa come il sole.
+A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun.
 18
 Pietra particolare che fa evolvere determinate specie di Pokémon. È scura più delle tenebre.
-Pietra particolare che fa evolvere determinate specie di Pokémon. È scura più delle tenebre.
+A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be.
 19
 Pietra particolare che fa evolvere determinate specie di Pokémon. È luccicante come gli occhi.
-Pietra particolare che fa evolvere determinate specie di Pokémon. È luccicante come gli occhi.
+A peculiar stone that makes certain species of Pokémon evolve. It sparkles like eyes.
 20
 Pietra particolare che fa evolvere determinate specie di Pokémon. Brilla di una luce abbagliante.
-Pietra particolare che fa evolvere determinate specie di Pokémon. Brilla di una luce abbagliante.
+A peculiar stone that can make certain species of Pokémon evolve. It shines with a dazzling light.
 21
 Una Ghicocca di colore rosso che emana un profumo molto forte.
-Una Ghicocca di colore rosso che emana un profumo molto forte.
+A red Apricorn. It assails your nostrils.
 22
 Una Ghicocca di colore giallo che emana un profumo delicato.
-Una Ghicocca di colore giallo che emana un profumo delicato.
+A yellow Apricorn. It assails your nostrils.
 23
 Una Ghicocca di colore blu che emana un profumo leggermente aspro.
-Una Ghicocca di colore blu che emana un profumo leggermente aspro.
+A blue Apricorn. It assails your nostrils.
 24
 Una Ghicocca di colore verde che emana un profumo intenso.
-Una Ghicocca di colore verde che emana un profumo intenso.
+A green Apricorn. It assails your nostrils.
 25
 Una Ghicocca di colore rosa che emana un profumo dolce.
-Una Ghicocca di colore rosa che emana un profumo dolce.
+A pink Apricorn. It assails your nostrils.
 26
 Una Ghicocca di colore bianco che non sa di nulla.
-Una Ghicocca di colore bianco che non sa di nulla.
+A white Apricorn. It assails your nostrils.
 27
 Una Ghicocca di colore nero che emana un profumo strano ed indefinibile.
-Una Ghicocca di colore nero che emana un profumo strano ed indefinibile.
+A black Apricorn. It assails your nostrils.
 28
 Il fossile di un Pokémon antico che viveva nel mare. Sembra essere parte di una conchiglia.
 Il fossile di un Pokémon antico che viveva nel mare. Sembra essere parte di una conchiglia.
@@ -39930,196 +39930,196 @@ Il fossile di un Pokémon antico che volava nei cieli. Sembra essere parte delle
 Il fossile di un Pokémon antico che volava nei cieli. Sembra essere parte delle sue ali.
 37
 Piuma molto bella ma priva di qualsiasi utilità: non ha alcun effetto.
-Piuma molto bella ma priva di qualsiasi utilità: non ha alcun effetto.
+Though this feather is beautiful, it's just a regular feather and has no effect.
 38
 Un piccolo e raro fungo molto apprezzato dagli intenditori.
-Un piccolo e raro fungo molto apprezzato dagli intenditori.
+A small and rare mushroom. It is sought after by collectors.
 39
 Fungo grande e raro molto apprezzato dagli intenditori.
-Fungo grande e raro molto apprezzato dagli intenditori.
+A large and rare mushroom. It is sought after by collectors.
 40
 Fungo raro che emana un profumo gradevolissimo. Si può vendere a un prezzo piuttosto alto agli intenditori.
-Fungo raro che emana un profumo gradevolissimo. Si può vendere a un prezzo piuttosto alto agli intenditori.
+A rare mushroom which gives off a nice fragrance. A maniac will buy it for a high price.
 41
 Perla piuttosto piccola dai graziosi riflessi argentei. Si può vendere a un prezzo basso nei negozi.
-Perla piuttosto piccola dai graziosi riflessi argentei. Si può vendere a un prezzo basso nei negozi.
+A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops.
 42
 Perla piuttosto grande dai graziosi riflessi argentei. Si può vendere a un prezzo alto nei negozi.
-Perla piuttosto grande dai graziosi riflessi argentei. Si può vendere a un prezzo alto nei negozi.
+A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops.
 43
 Grossa perla dai riflessi argentei. Si può vendere a un prezzo alto agli intenditori.
-Grossa perla dai riflessi argentei. Si può vendere a un prezzo alto agli intenditori.
+Very large pearls that sparkle in a pretty silver color. A maniac will buy them for a high price.
 44
 Della sabbia rossa dalla consistenza leggera e farinosa. Si può vendere a un prezzo alto nei negozi.
-Della sabbia rossa dalla consistenza leggera e farinosa. Si può vendere a un prezzo alto nei negozi.
+Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops.
 45
 Frammento rosso acceso di una gemma. Si può vendere a un prezzo alto nei negozi.
-Frammento rosso acceso di una gemma. Si può vendere a un prezzo alto nei negozi.
+A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops.
 46
 Scheggia di cometa caduta al suolo. Si può vendere a un prezzo alto agli intenditori.
-Scheggia di cometa caduta al suolo. Si può vendere a un prezzo alto agli intenditori.
+A shard which fell to the ground when a comet approached. A maniac will buy it for a high price.
 47
 Pepita luccicante d'oro puro. Si può vendere a un prezzo alto nei negozi.
-Pepita luccicante d'oro puro. Si può vendere a un prezzo alto nei negozi.
+A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops.
 48
 Grossa pepita luccicante d'oro puro. Si può vendere a un prezzo alto agli intenditori.
-Grossa pepita luccicante d'oro puro. Si può vendere a un prezzo alto agli intenditori.
+A big nugget of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price.
 49
 Squama molto rara a forma di cuore. Riflette tutti i colori dell'iride.
-Squama molto rara a forma di cuore. Riflette tutti i colori dell'iride.
+A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.
 50
 Una coda molto gustosa. Vendibile a caro prezzo.
-Una coda molto gustosa. Vendibile a caro prezzo.
+A very tasty tail of something. It sells for a high price.
 51
 Osso di grande valore per l'archeologia Pokémon. Può essere venduto nei negozi a un prezzo alto.
-Osso di grande valore per l'archeologia Pokémon. Può essere venduto nei negozi a un prezzo alto.
+A bone that is extremely valuable for Pokémon archeology. It can be sold for a high price to shops.
 52
 Moneta di rame di circa 3000 anni fa. Si può vendere a un prezzo alto agli intenditori.
-Moneta di rame di circa 3000 anni fa. Si può vendere a un prezzo alto agli intenditori.
+A copper coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.
 53
 Moneta di argento di circa 3000 anni fa. Si può vendere a un prezzo alto agli intenditori.
-Moneta di argento di circa 3000 anni fa. Si può vendere a un prezzo alto agli intenditori.
+A silver coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.
 54
 Moneta d'oro di circa 3000 anni fa. Si può vendere a un prezzo alto agli intenditori.
-Moneta d'oro di circa 3000 anni fa. Si può vendere a un prezzo alto agli intenditori.
+A gold coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.
 55
 Vaso di circa 3000 anni fa. Si può vendere a un prezzo alto agli intenditori.
-Vaso di circa 3000 anni fa. Si può vendere a un prezzo alto agli intenditori.
+A vase made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
 56
 Braccialetto di circa 3000 anni fa. Si può vendere a un prezzo alto agli intenditori.
-Braccialetto di circa 3000 anni fa. Si può vendere a un prezzo alto agli intenditori.
+A bracelet made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
 57
 Statua di circa 3000 anni fa. Si può vendere a un prezzo alto agli intenditori.
-Statua di circa 3000 anni fa. Si può vendere a un prezzo alto agli intenditori.
+A stone figure made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
 58
 Corona di circa 3000 anni fa. Si può vendere a un prezzo alto agli intenditori.
-Corona di circa 3000 anni fa. Si può vendere a un prezzo alto agli intenditori.
+A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
 59
 Fertilizzante da usare sul terreno soffice. Le Bacche crescono in fretta, ma il terreno si secca più velocemente.
-Fertilizzante da usare sul terreno soffice. Le Bacche crescono in fretta, ma il terreno si secca più velocemente.
+A fertilizer to be spread on soft soil. It speeds up the growth of Berries. However, it also dries the soil faster.
 60
 Fertilizzante da usare sul terreno soffice. Le Bacche crescono piano, ma il terreno rimane umido più a lungo.
-Fertilizzante da usare sul terreno soffice. Le Bacche crescono piano, ma il terreno rimane umido più a lungo.
+A fertilizer to be spread on soft soil. It slows the growth of Berries and causes the soil to dry slower.
 61
 Fertilizzante da usare sul terreno soffice. Le Bacche mature rimangono sulla pianta più a lungo prima di cadere.
-Fertilizzante da usare sul terreno soffice. Le Bacche mature rimangono sulla pianta più a lungo prima di cadere.
+A fertilizer to be spread on soft soil. It extends the time ripened Berries remain on their plants before falling.
 62
 Fertilizzante da usare sul terreno soffice. Crescono più piante quando appassiscono quelle mature.
-Fertilizzante da usare sul terreno soffice. Crescono più piante quando appassiscono quelle mature.
+A fertilizer to be spread on soft soil. It ups the number of times new plants grow where mature plants withered.
 63
 Sale purissimo scoperto nel profondo della Grotta Ondosa.Ha un gusto molto intenso.
-Sale purissimo scoperto nel profondo della Grotta Ondosa.Ha un gusto molto intenso.
+Pure salt that was discovered deep inside the Shoal Cave. It is extremely salty.
 64
 Conchiglia graziosa trovata nel profondo della Grotta Ondosa. È a striscie bianche e blu.
-Conchiglia graziosa trovata nel profondo della Grotta Ondosa. È a striscie bianche e blu.
+A pretty seashell that was found deep inside the Shoal Cave. It is striped in blue and white.
 65
 Strumento di vitale importanza che serve ad evitare il collasso di una torre di pietra. A volte si sentono voci dall'interno.
-Strumento di vitale importanza che serve ad evitare il collasso di una torre di pietra. A volte si sentono voci dall'interno.
+A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally.
 66
 Permette al Pokémon che lo tiene di fluttuare in aria. Scoppia se è colpito da un attacco.
-Permette al Pokémon che lo tiene di fluttuare in aria. Scoppia se è colpito da un attacco.
+When held by a Pokémon, the Pokémon will float in the air. When the holder is attacked, the item will burst.
 67
 Strumento da far tenere a un Pokémon. Lancia un bagliore insidioso che riduce la precisione dell'avversario.
-Strumento da far tenere a un Pokémon. Lancia un bagliore insidioso che riduce la precisione dell'avversario.
+An item to be held by a Pokémon. It casts a tricky glare that lowers the opponent's accuracy.
 68
 Misterioso concentrato di materia evolutiva. Aumenta la Difesa e la Difesa Speciale di un Pokémon che può ancora evolversi.
-Misterioso concentrato di materia evolutiva. Aumenta la Difesa e la Difesa Speciale di un Pokémon che può ancora evolversi.
+A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def of a Pokémon that can still evolve.
 69
 Pietra leggerissima che riduce il peso del Pokémon che la tiene.
-Pietra leggerissima che riduce il peso del Pokémon che la tiene.
+A very light stone. It reduces the weight of a Pokémon when held.
 70
 Gomitolo di filo rosso sottile da dare a un Pokémon. Se il Pokémon rimane infatuato, contagia anche il nemico.
-Gomitolo di filo rosso sottile da dare a un Pokémon. Se il Pokémon rimane infatuato, contagia anche il nemico.
+A long, thin, bright-red string to be held by a Pokémon. If the holder becomes infatuated, the foe does too.
 71
 Se il Pokémon che lo tiene è colpito da un attacco fisico, anche l'avversario subisce dei danni.
-Se il Pokémon che lo tiene è colpito da un attacco fisico, anche l'avversario subisce dei danni.
+If the holder of this item takes damage, the attacker will also be damaged upon contact.
 72
 Se il Pokémon che lo tiene è colpito da un attacco, viene immediatamente sostituito da un compagno.
-Se il Pokémon che lo tiene è colpito da un attacco, viene immediatamente sostituito da un compagno.
+If the holder is hit by an attack, it will switch with another Pokémon in your party.
 73
 Cartellino dal potere misterioso. Chi lo tiene fa ritirare dalla lotta il Pokémon che lo ha colpito.
-Cartellino dal potere misterioso. Chi lo tiene fa ritirare dalla lotta il Pokémon che lo ha colpito.
+A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.
 74
 Un Pokémon con questo robusto guscio può sfuggire al nemico anche se questi ha usato mosse o abilità intrappolanti.
-Un Pokémon con questo robusto guscio può sfuggire al nemico anche se questi ha usato mosse o abilità intrappolanti.
+A tough, discarded carapace to be held by a Pokémon. It enables the holder to switch with a waiting Pokémon in battle.
 75
 Strumento da far tenere a un Pokémon. Permette a chi lo tiene di fuggire con successo da un Pokémon selvatico.
-Strumento da far tenere a un Pokémon. Permette a chi lo tiene di fuggire con successo da un Pokémon selvatico.
+An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail.
 76
 Strumento da dare a un Pokémon. Uovo pieno di felicità che aumenta i Punti Esperienza in lotta.
-Strumento da dare a un Pokémon. Uovo pieno di felicità che aumenta i Punti Esperienza in lotta.
+An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
 77
 Strumento da far tenere a un Pokémon. Chi lo tiene ottiene Punti Esperienza dalla lotta anche se non vi partecipa.
-Strumento da far tenere a un Pokémon. Chi lo tiene ottiene Punti Esperienza dalla lotta anche se non vi partecipa.
+An item to be held by a Pokémon. The holder gets a share of a battle's Exp. Points without battling.
 78
 Strumento da far tenere a un Pokémon. Raddoppia i guadagni nella lotta se chi lo tiene vi partecipa.
-Strumento da far tenere a un Pokémon. Raddoppia i guadagni nella lotta se chi lo tiene vi partecipa.
+An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.
 79
 Strumento da far tenere a un Pokémon. Emette un suono conformante capace di calmare i Pokémon.
-Strumento da far tenere a un Pokémon. Emette un suono conformante capace di calmare i Pokémon.
+An item to be held by a Pokémon. It is a bell with a comforting chime that calms the holder.
 80
 Strumento da far tenere a un Pokémon. Aiuta ad allontanare i Pokémon selvatici se chi lo tiene è il primo della squadra.
-Strumento da far tenere a un Pokémon. Aiuta ad allontanare i Pokémon selvatici se chi lo tiene è il primo della squadra.
+An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.
 81
 Aumenta del 50% la potenza delle mosse fisiche del Pokémon che l'ha con sé, ma lo costringe ad usare sempre la stessa mossa.
-Aumenta del 50% la potenza delle mosse fisiche del Pokémon che l'ha con sé, ma lo costringe ad usare sempre la stessa mossa.
+An item to be held by a Pokémon. This headband ups Attack, but allows the use of only one of its moves.
 82
 Strumento da dare a un Pokémon. Questi occhiali aumentano l'Attacco Speciale, ma permettono l'uso di una sola mossa.
-Strumento da dare a un Pokémon. Questi occhiali aumentano l'Attacco Speciale, ma permettono l'uso di una sola mossa.
+An item to be held by a Pokémon. These distinctive glasses boost Sp. Atk but allow the use of only one of its moves.
 83
 Strumento da dare a un Pokémon. Questa benda aumenta la Velocità, ma consente l'uso di una sola mossa.
-Strumento da dare a un Pokémon. Questa benda aumenta la Velocità, ma consente l'uso di una sola mossa.
+An item to be held by a Pokémon. This scarf boosts Speed, but allows the use of only one of its moves.
 84
 Strumento da dare a un Pokémon. Allunga la durata della mossa Giornodisole.
-Strumento da dare a un Pokémon. Allunga la durata della mossa Giornodisole.
+A Pokémon held item that extends the duration of the move Sunny Day used by the holder.
 85
 Strumento da dare a un Pokémon. Allunga la durata della mossa Pioggiadanza.
-Strumento da dare a un Pokémon. Allunga la durata della mossa Pioggiadanza.
+A Pokémon held item that extends the duration of the move Rain Dance used by the holder.
 86
 Strumento da dare a un Pokémon. Allunga la durata della mossa Terrempesta.
-Strumento da dare a un Pokémon. Allunga la durata della mossa Terrempesta.
+A Pokémon held item that extends the duration of the move Sandstorm used by the holder.
 87
 Strumento da dare a un Pokémon. Allunga la durata della mossa Grandine.
-Strumento da dare a un Pokémon. Allunga la durata della mossa Grandine.
+A Pokémon held item that extends the duration of the move Hail used by the holder.
 88
 Strumento da dare a un Pokémon. Allunga la durata delle mosse barriera come Schermoluce e Riflesso.
-Strumento da dare a un Pokémon. Allunga la durata delle mosse barriera come Schermoluce e Riflesso.
+A Pokémon held item that extends the duration of barrier moves like Light Screen and Reflect used by the holder.
 89
 Strumento da far tenere a un Pokémon che prolunga gli attacchi multiturno come Avvolgibotta e Legatutto.
-Strumento da far tenere a un Pokémon che prolunga gli attacchi multiturno come Avvolgibotta e Legatutto.
+A Pokémon held item that extends the duration of multiturn attacks like Bind and Wrap.
 90
 Strumento da far tenere a un Pokémon che aumenta la potenza di mosse come Avvolgibotta e Legatutto.
-Strumento da far tenere a un Pokémon che aumenta la potenza di mosse come Avvolgibotta e Legatutto.
+A band that increases the power of binding moves when held.
 91
 Strumento da far tenere a un Pokémon. Potenzia le mosse ruba-PS facendo recuperare più PS a chi lo usa.
-Strumento da far tenere a un Pokémon. Potenzia le mosse ruba-PS facendo recuperare più PS a chi lo usa.
+A Pokémon held item that boosts the power of HP-stealing moves to let the holder recover more HP.
 92
 Strumento da far tenere a un Pokémon: ridà gradualmente PS ai Pokémon di tipo Veleno. Danneggia tutti gli altri.
-Strumento da far tenere a un Pokémon: ridà gradualmente PS ai Pokémon di tipo Veleno. Danneggia tutti gli altri.
+A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.
 93
 Strumento da far tenere a un Pokémon. Fa recuperare gradualmente i PS a chi lo usa nella lotta.
-Strumento da far tenere a un Pokémon. Fa recuperare gradualmente i PS a chi lo usa nella lotta.
+An item to be held by a Pokémon. The holder's HP is gradually restored during battle.
 94
 Strumento da dare a un Pokémon. Chi ce l'ha recupera un po' di PS ogni volta che infligge danni.
-Strumento da dare a un Pokémon. Chi ce l'ha recupera un po' di PS ogni volta che infligge danni.
+An item to be held by a Pokémon. The holder's HP is restored a little every time it inflicts damage.
 95
 Strumento da far tenere a un Pokémon. Libera chi lo usa dall'infatuazione. Può essere usato una volta sola.
-Strumento da far tenere a un Pokémon. Libera chi lo usa dall'infatuazione. Può essere usato una volta sola.
+An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once.
 96
 Strumento da far tenere a un Pokémon. Impedisce la modifica negativa delle statistiche. Può essere usato una volta sola.
-Strumento da far tenere a un Pokémon. Impedisce la modifica negativa delle statistiche. Può essere usato una volta sola.
+An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.
 97
 Strumento monouso da far tenere a un Pokémon. Permette l'uso immediato di una mossa che al primo turno si carica.
-Strumento monouso da far tenere a un Pokémon. Permette l'uso immediato di una mossa che al primo turno si carica.
+A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges on the first turn.
 98
 Bulbo monouso. Se il Pokémon che lo tiene subisce una mossa di tipo Acqua, il suo Attacco Speciale aumenta.
-Bulbo monouso. Se il Pokémon che lo tiene subisce una mossa di tipo Acqua, il suo Attacco Speciale aumenta.
+A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise.
 99
 Pila monouso. Se il Pokémon che lo tiene subisce una mossa di tipo Elettro, il suo Attacco Speciale aumenta.
-Pila monouso. Se il Pokémon che lo tiene subisce una mossa di tipo Elettro, il suo Attacco Speciale aumenta.
+A consumable battery. If the holder is hit by an Electric-type move, its Attack will rise.
 100
 Strumento da far tenere a un Pokémon. Aumenta la potenza delle mosse ma al costo di un po' di PS ad ogni colpo.
-Strumento da far tenere a un Pokémon. Aumenta la potenza delle mosse ma al costo di un po' di PS ad ogni colpo.
+An item to be held by a Pokémon. It boosts the power of moves, but at the cost of some HP on each hit.
 101
 Strumento da dare a un Pokémon. Cintura consumata che potenzia di poco le mosse superefficaci.
 Strumento da dare a un Pokémon. Cintura consumata che potenzia di poco le mosse superefficaci.
