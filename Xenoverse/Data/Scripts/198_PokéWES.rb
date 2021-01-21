@@ -777,12 +777,6 @@ class MNScene
 			Graphics.update
 			Input.update
 			update
-			#@sprites["scaleon"].update
-			#@sprites["schyter"].update
-			#@sprites["lapras"].update
-			#@sprites["hariyama"].update
-			#@sprites["trapinch"].update
-
 
 			#CHECK FOR MAP OUTDOOR			
 			if Input.trigger?(Input::RIGHT) && @index<4
