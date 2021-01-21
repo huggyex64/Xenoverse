@@ -1030,6 +1030,7 @@ class PokeBattle_Scene
       pbGraphicsUpdate
       pbSEPlay("recall")
       spritePoke.showshadow=true
+      spritePoke.tone = Tone.new(256,256,256)
       ballburst = EBBallBurst.new(pokeball.viewport,pokeball.x,pokeball.y,50,@vector.zoom1,balltype)
       for i in 0...32
         if i < 20
@@ -1044,6 +1045,7 @@ class PokeBattle_Scene
         ballburst.update
         wait(1)
       end
+      
       ballburst.dispose
       ballburst = nil
       @sprites["battlebox0"].visible = true if @sprites["battlebox0"]

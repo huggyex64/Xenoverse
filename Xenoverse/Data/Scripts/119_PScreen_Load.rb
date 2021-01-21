@@ -595,7 +595,7 @@ module FontInstaller
     'Power Red and Green',
 		#'Barlow Condensed',
 		'Barlow Condensed',
-		'Barlow Condensed',
+		'Barlow Condensed ExtraBold',
 		'Concielian Semi',
 		'Concielian Jet',
 		'Exo 2',

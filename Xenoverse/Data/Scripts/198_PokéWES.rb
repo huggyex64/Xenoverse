@@ -769,6 +769,7 @@ class MNScene
 	end
 	
 	def comandi
+		val=pbGetMetadata($game_map.map_id,MetadataOutdoor)
 		loop do
 			if $fly==1
 				break
@@ -776,14 +777,8 @@ class MNScene
 			Graphics.update
 			Input.update
 			update
-			@sprites["scaleon"].update
-			@sprites["schyter"].update
-			@sprites["lapras"].update
-			@sprites["hariyama"].update
-			@sprites["trapinch"].update
-			#CHECK FOR MAP OUTDOOR
-			val=pbGetMetadata($game_map.map_id,MetadataOutdoor)
-			
+
+			#CHECK FOR MAP OUTDOOR			
 			if Input.trigger?(Input::RIGHT) && @index<4
 				pbPlayDecisionSE()
 				@index+=1
@@ -963,13 +958,13 @@ class MNScene
 			@zoom=false
 		end
 		if @sprites["cursor"].zoom_x<1 && @zoom==true || @sprites["cursor"].zoom_x>1 && @zoom==true || @sprites["cursor"].zoom_x==1 && @zoom==true
-			@sprites["cursor"].zoom_x+=0.05
-			@sprites["cursor"].zoom_y+=0.05
-			wait(1)
+			@sprites["cursor"].zoom_x+=0.025
+			@sprites["cursor"].zoom_y+=0.025
+			#wait(1)
 		elsif @sprites["cursor"].zoom_x<1.2 && @zoom==false || @sprites["cursor"].zoom_x>1.2 && @zoom==false || @sprites["cursor"].zoom_x==1.2 && @zoom==false
-			@sprites["cursor"].zoom_x-=0.05
-			@sprites["cursor"].zoom_y-=0.05
-			wait(1)
+			@sprites["cursor"].zoom_x-=0.025
+			@sprites["cursor"].zoom_y-=0.025
+			#wait(1)
 		end
 		
 		if @index==0 && $game_switches[186]==true

@@ -797,7 +797,6 @@ class Window_TextEntry_Keyboard < Window_TextEntry
   end
 
   def update
-    $DEBUG = true
     @frame+=1
     @frame%=20
     self.refresh if ((@frame%10)==0)
