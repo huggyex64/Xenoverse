@@ -40360,82 +40360,82 @@ Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di
 An item to be held by a Pokémon. It is a stone tablet that boosts the power of Steel-type moves.
 169
 Una gemma con l'essenza del fuoco. Se tenuta da un Pokémon, potenzia le mosse di tipo Fuoco solo una volta.
-Una gemma con l'essenza del fuoco. Se tenuta da un Pokémon, potenzia le mosse di tipo Fuoco solo una volta.
+A gem with an essence of fire. When held, it strengthens the power of a Fire-type move only once.
 170
 Una gemma con l'essenza dell'acqua. Se tenuta da un Pokémon, potenzia le mosse di tipo Acqua solo una volta.
-Una gemma con l'essenza dell'acqua. Se tenuta da un Pokémon, potenzia le mosse di tipo Acqua solo una volta.
+A gem with an essence of water. When held, it strengthens the power of a Water-type move only once.
 171
 Una gemma con l'essenza dell'elettricità. Se tenuta da un Pokémon, potenzia le mosse di tipo Elettro solo una volta.
-Una gemma con l'essenza dell'elettricità. Se tenuta da un Pokémon, potenzia le mosse di tipo Elettro solo una volta.
+A gem with an essence of electricity. When held, it strengthens the power of a Electric-type move only once.
 172
 Una gemma con l'essenza della natura. Se tenuta da un Pokémon, potenzia le mosse di tipo Erba solo una volta.
-Una gemma con l'essenza della natura. Se tenuta da un Pokémon, potenzia le mosse di tipo Erba solo una volta.
+A gem with an essence of nature. When held, it strengthens the power of a Grass-type move only once.
 173
 Una gemma con l'essenza del ghiaccio. Se tenuta da un Pokémon, potenzia le mosse di tipo Ghiaccio solo una volta.
-Una gemma con l'essenza del ghiaccio. Se tenuta da un Pokémon, potenzia le mosse di tipo Ghiaccio solo una volta.
+A gem with an essence of ice. When held, it strengthens the power of a Ice-type move only once.
 174
 Una gemma con l'essenza della lotta. Se tenuta da un Pokémon, potenzia le mosse di tipo Lotta solo una volta.
-Una gemma con l'essenza della lotta. Se tenuta da un Pokémon, potenzia le mosse di tipo Lotta solo una volta.
+A gem with an essence of combat. When held, it strengthens the power of a Fighting-type move only once.
 175
 Una gemma con l'essenza del veleno. Se tenuta da un Pokémon, potenzia le mosse di tipo Veleno solo una volta.
-Una gemma con l'essenza del veleno. Se tenuta da un Pokémon, potenzia le mosse di tipo Veleno solo una volta.
+A gem with an essence of poison. When held, it strengthens the power of a Poison-type move only once.
 176
 Una gemma con l'essenza della terra. Se tenuta da un Pokémon, potenzia le mosse di tipo Terra solo una volta.
-Una gemma con l'essenza della terra. Se tenuta da un Pokémon, potenzia le mosse di tipo Terra solo una volta.
+A gem with an essence of land. When held, it strengthens the power of a Ground-type move only once.
 177
 Una gemma con l'essenza dell'aria. Se tenuta da un Pokémon, potenzia le mosse di tipo Volante solo una volta.
-Una gemma con l'essenza dell'aria. Se tenuta da un Pokémon, potenzia le mosse di tipo Volante solo una volta.
+A gem with an essence of air. When held, it strengthens the power of a Flying-type move only once.
 178
 Una gemma con un'essenza psichica. Se tenuta da un Pokémon, potenzia le mosse di tipo Psico solo una volta.
-Una gemma con un'essenza psichica. Se tenuta da un Pokémon, potenzia le mosse di tipo Psico solo una volta.
+A gem with an essence of the mind. When held, it strengthens the power of a Psychic-type move only once.
 179
 Una gemma con l'essenza degli insetti. Se tenuta da un Pokémon, potenzia le mosse di tipo Coleottero solo una volta.
-Una gemma con l'essenza degli insetti. Se tenuta da un Pokémon, potenzia le mosse di tipo Coleottero solo una volta.
+A gem with an insect-like essence. When held, it strengthens the power of a Bug-type move only once.
 180
 Una gemma con l'essenza della roccia. Se tenuta da un Pokémon, potenzia le mosse di tipo Roccia solo una volta.
-Una gemma con l'essenza della roccia. Se tenuta da un Pokémon, potenzia le mosse di tipo Roccia solo una volta.
+A gem with an essence of rock. When held, it strengthens the power of a Rock-type move only once.
 181
 Una gemma con unn'essenza spettrale. Se tenuta da un Pokémon, potenzia le mosse di tipo Spettro solo una volta.
-Una gemma con unn'essenza spettrale. Se tenuta da un Pokémon, potenzia le mosse di tipo Spettro solo una volta.
+A gem with a spectral essence. When held, it strengthens the power of a Ghost-type move only once.
 182
 Una gemma con l'essenza della potenza dei draghi. Se tenuta da un Pokémon, potenzia le mosse di tipo Drago solo una volta.
-Una gemma con l'essenza della potenza dei draghi. Se tenuta da un Pokémon, potenzia le mosse di tipo Drago solo una volta.
+A gem with a draconic essence. When held, it strengthens the power of a Dragon-type move only once.
 183
 Una gemma con un'essenza oscura. Se tenuta da un Pokémon, potenzia le mosse di tipo Buio solo una volta.
-Una gemma con un'essenza oscura. Se tenuta da un Pokémon, potenzia le mosse di tipo Buio solo una volta.
+A gem with an essence of darkness. When held, it strengthens the power of a Dark-type move only once.
 184
 Una gemma con l'essenza del metallo. Se tenuta da un Pokémon, potenzia le mosse di tipo Acciaio solo una volta.
-Una gemma con l'essenza del metallo. Se tenuta da un Pokémon, potenzia le mosse di tipo Acciaio solo una volta.
+A gem with an essence of steel. When held, it strengthens the power of a Steel-type move only once.
 185
 Una gemma con un'essenza normale. Se tenuta da un Pokémon, potenzia le mosse di tipo Normale solo una volta.
-Una gemma con un'essenza normale. Se tenuta da un Pokémon, potenzia le mosse di tipo Normale solo una volta.
+A gem with an ordinary essence. When held, it strengthens the power of a Normal-type move only once.
 186
 Strumento da dare a Pikachu. Sfera insolita che aumenta l'Attacco e l'Attacco Speciale.
-Strumento da dare a Pikachu. Sfera insolita che aumenta l'Attacco e l'Attacco Speciale.
+An item to be held by Pikachu. It is a puzzling orb that raises the Attack and Sp. Atk stat.
 187
 Strumento da far tenere a Chansey. Guanti che aumentano la probabilità di brutti colpi.
-Strumento da far tenere a Chansey. Guanti che aumentano la probabilità di brutti colpi.
+An item to be held by Chansey. It is a pair of gloves that boosts Chansey's critical-hit ratio.
 188
 Strumento da dare a Ditto. Strana polvere finissima e al tempo stesso dura che migliora la Difesa.
-Strumento da dare a Ditto. Strana polvere finissima e al tempo stesso dura che migliora la Difesa.
+An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Defense stat.
 189
 Strumento da dare a Ditto. Questa strana polvere, fine e al contempo dura, aumenta la Velocità.
-Strumento da dare a Ditto. Questa strana polvere, fine e al contempo dura, aumenta la Velocità.
+An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Speed stat.
 190
 Strumento da far tenere a Cubone o Marowak. Osso duro che migliora l'Attacco.
-Strumento da far tenere a Cubone o Marowak. Osso duro che migliora l'Attacco.
+An item to be held by Cubone or Marowak. It is a hard bone of some sort that boosts the Attack stat.
 191
 Strumento da far tenere a Farfetch'd. Gambo di porro lungo che aumenta di molto la probabilità di brutti colpi.
-Strumento da far tenere a Farfetch'd. Gambo di porro lungo che aumenta di molto la probabilità di brutti colpi.
+An item to be held by Farfetch'd. It is a very long and stiff stalk of leek that boosts the critical-hit ratio.
 192
 Sfera miracolosa da far tenere a Latios o Latias. Aumenta l'Attacco Speciale e la Difesa Speciale.
-Sfera miracolosa da far tenere a Latios o Latias. Aumenta l'Attacco Speciale e la Difesa Speciale.
+A wondrous orb to be held by Latios or Latias. It raises both the Sp. Atk and Sp. Def stats.
 193
 Strumento da far tenere a Clamperl. Dente dai bagliori argentei che aumenta l'Attacco Speciale.
-Strumento da far tenere a Clamperl. Dente dai bagliori argentei che aumenta l'Attacco Speciale.
+An item to be held by Clamperl. A fang that gleams a sharp silver, it raises the Sp. Atk stat.
 194
 Strumento da far tenere a Clamperl. Squama dai bagliori rosei che aumenta la Difesa Speciale.
-Strumento da far tenere a Clamperl. Squama dai bagliori rosei che aumenta la Difesa Speciale.
+An item to be held by Clamperl. A scale that shines a faint pink, it raises the Sp. Def stat.
 195
 Sfera molto luminosa da far tenere a Dialga. Potenzia le mosse di tipo Drago e Acciaio.
 Sfera molto luminosa da far tenere a Dialga. Potenzia le mosse di tipo Drago e Acciaio.
@@ -40447,22 +40447,22 @@ Sfera splendente da far tenere a Giratina. Aumenta la potenza delle mosse di tip
 Sfera splendente da far tenere a Giratina. Aumenta la potenza delle mosse di tipo Drago e Spettro.
 198
 Modulo da far tenere a Genesect. Trasforma Tecnobotto in una mossa di tipo Acqua.
-Modulo da far tenere a Genesect. Trasforma Tecnobotto in una mossa di tipo Acqua.
+A cassette to be held by Genesect. It changes Techno Blast to a Water-type move.
 199
 Modulo da far tenere a Genesect. Trasforma Tecnobotto in una mossa di tipo Elettro.
-Modulo da far tenere a Genesect. Trasforma Tecnobotto in una mossa di tipo Elettro.
+A cassette to be held by Genesect. It changes Techno Blast to a Electric-type move.
 200
 Modulo da far tenere a Genesect. Trasforma Tecnobotto in una mossa di tipo Fuoco.
-Modulo da far tenere a Genesect. Trasforma Tecnobotto in una mossa di tipo Fuoco.
+A cassette to be held by Genesect. It changes Techno Blast to a Fire-type move.
 201
 Modulo da far tenere a Genesect. Trasforma Tecnobotto in una mossa di tipo Ghiaccio.
-Modulo da far tenere a Genesect. Trasforma Tecnobotto in una mossa di tipo Ghiaccio.
+A cassette to be held by Genesect. It changes Techno Blast to a Ice-type move.
 202
 Strumento da far tenere a un Pokémon. Chi tiene questa pietra particolare evita l'evoluzione.
-Strumento da far tenere a un Pokémon. Chi tiene questa pietra particolare evita l'evoluzione.
+An item to be held by a Pokémon. The Pokémon holding this peculiar stone is prevented from evolving.
 203
 Squama spessa e dura. Può averla un Pokémon di tipo Drago quando viene catturato.
-Squama spessa e dura. Può averla un Pokémon di tipo Drago quando viene catturato.
+A thick and tough scale. Dragon-type Pokémon may be holding this item when caught.
 204
 Apparecchio trasparente pieno zeppo di dati di ogni tipo prodotto dalla Silph SpA.
 Apparecchio trasparente pieno zeppo di dati di ogni tipo prodotto dalla Silph SpA.
@@ -40480,163 +40480,163 @@ Scatola strapiena di energia lavica. Un Pokémon in particolare adora questo str
 Scatola strapiena di energia lavica. Un Pokémon in particolare adora questo strumento.
 209
 Panno intriso di un'energia spirituale terribilmente forte. Un Pokémon in particolare adora questo strumento.
-Panno intriso di un'energia spirituale terribilmente forte. Un Pokémon in particolare adora questo strumento.
+A cloth imbued with horrifyingly strong spiritual energy. It is loved by a certain Pokémon.
 210
 Squama misteriosa che fa evolvere determinate specie di Pokémon. Riflette i colori dell'arcobaleno.
-Squama misteriosa che fa evolvere determinate specie di Pokémon. Riflette i colori dell'arcobaleno.
+A mysterious scale that evolves certain Pokémon. It shines in rainbow colors.
 211
 Pietra particolare che fa evolvere determinate specie di Pokémon. È a forma di uovo.
-Pietra particolare che fa evolvere determinate specie di Pokémon. È a forma di uovo.
+A peculiar stone that makes certain species of Pokémon evolve. It is shaped like an egg.
 212
 Strumento da far tenere a un Pokémon. Aumenta la ''Classe'' di chi lo tiene in una Gara.
-Strumento da far tenere a un Pokémon. Aumenta la ''Classe'' di chi lo tiene in una Gara.
+An item to be held by a Pokémon. It boosts the Cool aspect of the holder in a Contest.
 213
 Strumento da far tenere a un Pokémon. Aumenta la''Bellezza'' di chi lo tiene in una Gara.
-Strumento da far tenere a un Pokémon. Aumenta la''Bellezza'' di chi lo tiene in una Gara.
+An item to be held by a Pokémon. It boosts the Beauty aspect of the holder in a Contest.
 214
 Strumento da far tenere a un Pokémon. Aumenta la ''Grazia'' di chi lo tiene in una Gara.
-Strumento da far tenere a un Pokémon. Aumenta la ''Grazia'' di chi lo tiene in una Gara.
+An item to be held by a Pokémon. It boosts the Cute aspect of the holder in a Contest.
 215
 Strumento da far tenere a un Pokémon. Aumenta la ''Grazia'' di chi lo tiene in una Gara.
-Strumento da far tenere a un Pokémon. Aumenta la ''Grazia'' di chi lo tiene in una Gara.
+An item to be held by a Pokémon. It boosts the Cute aspect of the holder in a Contest.
 216
 Strumento da far tenere a un Pokémon. Aumenta la ''Grinta'' di chi lo tiene in una Gara..
-Strumento da far tenere a un Pokémon. Aumenta la ''Grinta'' di chi lo tiene in una Gara..
+An item to be held by a Pokémon. It boosts the Though aspect of the holder in a Contest.
 217
 Rimedio spray per le ferite. Restituisce 20 PS ad un Pokémon.
-Rimedio spray per le ferite. Restituisce 20 PS ad un Pokémon.
+A spray-type medicine for wounds. It restores the HP of one Pokémon by just 20 points.
 218
 Rimedio spray per le ferite. Restituisce 50 PS ad un Pokémon.
-Rimedio spray per le ferite. Restituisce 50 PS ad un Pokémon.
+A spray-type medicine for wounds. It restores the HP of one Pokémon by just 50 points.
 219
 Rimedio spray per le ferite. Restituisce 200 PS ad un Pokémon.
-Rimedio spray per le ferite. Restituisce 200 PS ad un Pokémon.
+A spray-type medicine for wounds. It restores the HP of one Pokémon by just 200 points.
 220
 Rimedio spray per le ferite. Restituisce tutti i PS a un Pokémon.
-Rimedio spray per le ferite. Restituisce tutti i PS a un Pokémon.
+A spray-type medicine for wounds. It completely restores the HP of a single Pokémon.
 221
 Rimedio che restituisce tutti i PS a un Pokémon e cura i suoi problemi di stato.
-Rimedio che restituisce tutti i PS a un Pokémon e cura i suoi problemi di stato.
+A medicine that fully restores the HP and heals any status problems of a single Pokémon.
 222
 Rianima i Pokémon esausti e ricarica tutti i loro PS
-Rianima i Pokémon esausti e ricarica tutti i loro PS
+It revives all fainted Pokémon. In doing so, it also fully restores their HP.
 223
 Rimedio spray. Sveglia un Pokémon addormentato.
-Rimedio spray. Sveglia un Pokémon addormentato.
+A spray-type medicine. It awakens a Pokémon from the clutches of sleep.
 224
 Rimedio spray. Cura un Pokémon avvelenato.
-Rimedio spray. Cura un Pokémon avvelenato.
+A spray-type medicine. It lifts the effect of poison from one Pokémon.
 225
 Rimedio spray. Cura un Pokémon dalla scottatura.
-Rimedio spray. Cura un Pokémon dalla scottatura.
+A spray-type medicine. It heals a single Pokémon that is suffering from a burn.
 226
 Rimedio spray. Cura un Pokémon dalla paralisi.
-Rimedio spray. Cura un Pokémon dalla paralisi.
+A spray-type medicine. It eliminates paralysis from a single Pokémon.
 227
 Rimedio spray. Cura un Pokémon dal congelamento.
-Rimedio spray. Cura un Pokémon dal congelamento.
+A spray-type medicine. It defrosts a Pokémon that has been frozen solid.
 228
 Rimedio spray. Risolve tutti i problemi di stato di un Pokémon.
-Rimedio spray. Risolve tutti i problemi di stato di un Pokémon.
+A spray-type medicine. It heals all the status problems of a single Pokémon.
 229
 Specialità locale di Cuordilava. Cura tutti i problemi di stato di un Pokémon
-Specialità locale di Cuordilava. Cura tutti i problemi di stato di un Pokémon
+Lavaridge Town's local specialty. It heals all the status problems of one Pokémon.
 230
 Specialità dell'Antico Chateau. Cura tutti i problemi di stato di un Pokémon.
-Specialità dell'Antico Chateau. Cura tutti i problemi di stato di un Pokémon.
+Old Chateau's hidden specialty. It heals all the status problems of a single Pokémon.
 231
 Il famoso gelato di Austropoli. Cura tutti i problemi di stato di un Pokémon.
-Il famoso gelato di Austropoli. Cura tutti i problemi di stato di un Pokémon.
+Castelia City's specialty, soft-serve ice cream. It heals all the status problems of a single Pokémon.
 232
 Rimedio che rianima un Pokémon esausto e gli restituisce metà dei suoi PS massimi.
-Rimedio che rianima un Pokémon esausto e gli restituisce metà dei suoi PS massimi.
+A medicine that revives a fainted Pokémon. It restores half the Pokémon's maximum HP.
 233
 Rimedio che rianima un Pokémon esausto restituendogli tutti i PS.
-Rimedio che rianima un Pokémon esausto restituendogli tutti i PS.
+A medicine that revives a fainted Pokémon. It fully restores the Pokémon's HP.
 234
 Succo di bacca puro al 100%. Bevanda a base di puro succo di Bacche. Restituisce 20 PS ad un Pokémon.
-Succo di bacca puro al 100%. Bevanda a base di puro succo di Bacche. Restituisce 20 PS ad un Pokémon.
+A 100% pure juice made of Berries. It restores the HP of one Pokémon by just 20 points.
 235
 Un dolce tipico di Mogania molto amata dai turisti. Restituisce 20 PS ad un Pokémon.
-Un dolce tipico di Mogania molto amata dai turisti. Restituisce 20 PS ad un Pokémon.
+A famous Mahogany Town candy tourists like to buy and take home. It restores the HP of one Pokémon by 20 points.
 236
 Un cioccolatino molto dolce. Restituisce 20 PS ad un Pokémon.
-Un cioccolatino molto dolce. Restituisce 20 PS ad un Pokémon.
+Very sweet chocolate. It restores the HP of one Pokémon by only 20 points.
 237
 Acqua ricca di sostanze minerali. Restituisce 50 PS ad un Pokémon.
-Acqua ricca di sostanze minerali. Restituisce 50 PS ad un Pokémon.
+Water with a high mineral content. It restores the HP of one Pokémon by 50 points.
 238
 Bevanda frizzante. Restituisce 60 PS ad un Pokémon.
-Bevanda frizzante. Restituisce 60 PS ad un Pokémon.
+A fizzy soda drink. It restores the HP of one Pokémon by 60 points.
 239
 Bevanda molto dolce. Restituisce 80 PS ad un Pokémon.
-Bevanda molto dolce. Restituisce 80 PS ad un Pokémon.
+A very sweet drink. It restores the HP of one Pokémon by 80 points.
 240
 Latte ricco di sostanze nutrienti. Restituisce 100 PS ad un Pokémon.
-Latte ricco di sostanze nutrienti. Restituisce 100 PS ad un Pokémon.
+Milk with a very high nutrition content. It restores the HP of one Pokémon by 100 points.
 241
 Rimedio amarissimo in polvere. Restituisce 50 PS ad un Pokémon.
-Rimedio amarissimo in polvere. Restituisce 50 PS ad un Pokémon.
+A very bitter medicine powder. It restores the HP of one Pokémon by 50 points.
 242
 Radice amarissima. Restituisce 200 PS ad un Pokémon.
-Radice amarissima. Restituisce 200 PS ad un Pokémon.
+A very bitter root. It restores the HP of one Pokémon by 200 points.
 243
 Rimedio amarissimo in polvere. Risolve tutti i problemi di stato di un Pokémon.
-Rimedio amarissimo in polvere. Risolve tutti i problemi di stato di un Pokémon.
+A very bitter medicine powder. It heals all the status problems of a single Pokémon.
 244
 Erba medicinale amarissima. Rianima un Pokémon esausto e gli restituisce tutti i PS.
-Erba medicinale amarissima. Rianima un Pokémon esausto e gli restituisce tutti i PS.
+A very bitter medicinal herb. It revives a fainted Pokémon, fully restoring its HP.
 245
 Restituisce un massimo di 10 PP a una mossa a scelta tra quelle conosciute dal Pokémon.
-Restituisce un massimo di 10 PP a una mossa a scelta tra quelle conosciute dal Pokémon.
+It restores the PP of a Pokémon's selected move by a maximum of 10 points.
 246
 Restituisce tutti i PP a una mossa a scelta tra quelle conosciute dal Pokémon.
-Restituisce tutti i PP a una mossa a scelta tra quelle conosciute dal Pokémon.
+It fully restores the PP of a single selected move that has been learned by the target Pokémon.
 247
 Restituisce 10 PP a ciascuna delle mosse conosciute dal Pokémon.
-Restituisce 10 PP a ciascuna delle mosse conosciute dal Pokémon.
+It restores the PP of all the moves learned by the targeted Pokémon by 10 points each.
 248
 Restituisce tutti i PP a ogni mossa conosciuta dal Pokémon.
-Restituisce tutti i PP a ogni mossa conosciuta dal Pokémon.
+It fully restores the PP of all the moves learned by the targeted Pokémon.
 249
 Aumenta di poco i PP massimi di una mossa a scelta tra quelle conosciute dal Pokémon.
-Aumenta di poco i PP massimi di una mossa a scelta tra quelle conosciute dal Pokémon.
+It slightly raises the maximum PP of a selected move that has been learned by the target Pokémon.
 250
 Porta al limite i PP massimi di una mossa a scelta imparata da un Pokémon.
-Porta al limite i PP massimi di una mossa a scelta imparata da un Pokémon.
+It maximally raises the top PP of a selected move that has been learned by the target Pokémon.
 251
 Bevanda nutriente per Pokémon. Aumenta i punti base dei PS.
-Bevanda nutriente per Pokémon. Aumenta i punti base dei PS.
+A nutritious drink for Pokémon. It raises the base HP of a single Pokémon.
 252
 Bevanda nutriente per Pokémon. Aumenta i punti base dell'Attacco.
-Bevanda nutriente per Pokémon. Aumenta i punti base dell'Attacco.
+A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon.
 253
 Bevanda nutriente per Pokémon. Aumenta i punti base della Difesa.
-Bevanda nutriente per Pokémon. Aumenta i punti base della Difesa.
+A nutritious drink for Pokémon. It raises the base Defense stat of a single Pokémon.
 254
 Bevanda nutriente per Pokémon. Aumenta i punti base dell'Attacco Speciale.
-Bevanda nutriente per Pokémon. Aumenta i punti base dell'Attacco Speciale.
+A nutritious drink for Pokémon. It raises the base Sp. Atk stat of a single Pokémon.
 255
 Bevanda nutriente per Pokémon. Aumenta i punti base della Difesa Speciale.
-Bevanda nutriente per Pokémon. Aumenta i punti base della Difesa Speciale.
+A nutritious drink for Pokémon. It raises the base Sp. Def stat of a single Pokémon.
 256
 Bevanda nutriente per Pokémon. Aumenta i punti base della Velocità.
-Bevanda nutriente per Pokémon. Aumenta i punti base della Velocità.
+A nutritious drink for Pokémon. It raises the base Speed stat of a single Pokémon.
 257
 Strumento da usare su un Pokémon. Ne aumenta di poco i punti base dei PS.
-Strumento da usare su un Pokémon. Ne aumenta di poco i punti base dei PS.
+An item for use on a Pokémon. It slightly increases the base HP of a single Pokémon.
 258
 Strumento da usare su un Pokémon. Ne aumenta di poco i punti base dell'Attacco.
-Strumento da usare su un Pokémon. Ne aumenta di poco i punti base dell'Attacco.
+An item for use on a Pokémon. It slightly increases the base Attack stat of a single Pokémon.
 259
 Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Difesa.
-Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Difesa.
+An item for use on a Pokémon. It slightly increases the base Defense stat of a single Pokémon.
 260
 Strumento da usare su un Pokémon. Ne aumenta di poco i punti base dell'Atacco Speciale.
-Strumento da usare su un Pokémon. Ne aumenta di poco i punti base dell'Atacco Speciale.
+An item for use on a Pokémon. It slightly increases the base Sp. Atk stat of a single Pokémon.
 261
 Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Difesa Speciale.
-Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Difesa Speciale.
+An item for use on a Pokémon. It slightly increases the base Sp. Def stat of a single Pokémon.
 262
 Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Velocità.
 Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Velocità.
