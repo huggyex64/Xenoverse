@@ -998,6 +998,7 @@ def pbBGMPlay(param,volume=nil,pitch=nil)
   param=pbResolveAudioFile(param,volume,pitch)
   if param.name && param.name!=""
     if $game_system && $game_system.respond_to?("bgm_play")
+      echoln "CALLING GAME SYSTEM CLASS"
       $game_system.bgm_play(param)
       return
     elsif (RPG.const_defined?(:BGM) rescue false)
@@ -1006,6 +1007,7 @@ def pbBGMPlay(param,volume=nil,pitch=nil)
         b.play; return
       end
     end
+    echoln "CALLING AUDIO CLASS"
     Audio.bgm_play(canonicalize("Audio/BGM/"+param.name),param.volume,param.pitch)
   end
 end
