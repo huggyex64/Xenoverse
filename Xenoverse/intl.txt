@@ -1813,7 +1813,7 @@ If you don't want to fight you can just avoid their eyes.
 <<[>>old<<]>>Un noto canale chiamato WEEDle ha appena caricato un video...
 <<[>>old<<]>>A renowned channel called WEEDle just uploaded a video...
 <<[>>old<<]>>Hai sbloccato un nuovo potere per il tuo Pokémon iniziale: l’<b>Astroevoluzione</b>! Rimuovi l’Anello che tiene per sprigionare tutto il suo potenziale durante la lotta!
-<<[>>old<<]>>Hai sbloccato un nuovo potere per il tuo Pokémon iniziale: l’<b>Astroevoluzione</b>! Rimuovi l’Anello che tiene per sprigionare tutto il suo potenziale durante la lotta!
+<<[>>old<<]>>Your starter Pokémon has now access to a new amazing power--the <b>Astral Rising</b>!\nRemove the Ring it is holding to make it release its full potential during battles!
 <<[>>old<<]>>In TV danno quel famoso talent musicale!
 <<[>>old<<]>>That famous singing show is on!
 Tu
@@ -15334,45 +15334,45 @@ Il Presidente ha una collezione di souvenir provenienti da tutto il mondo. Pare 
 Our Chairman has a collection of souvenirs from all over<<n>>the world.<<n>>It seems he needs only a <b>Mt. Zodiac Diorama</b><<n>>to complete it.
 [Map345]
 Ferry
-Ferry
+Wyatt
 Stai andando alla <b>Via Vittoria</b>? Bene, vorrà dire che io sarò il muro d’acqua che ti impedirà di proseguire!
-Stai andando alla <b>Via Vittoria</b>? Bene, vorrà dire che io sarò il muro d’acqua che ti impedirà di proseguire!
+Ya headin' to <b>Victory Road</b>? Then lemme be the wall of water that gets in your way!
 Accipicchia! Sfondi tutti i muri che ti si parano davanti, tu?
-Accipicchia! Sfondi tutti i muri che ti si parano davanti, tu?
+Jeez! D'ya punch through every wall that stands over you?
 Via libero, amico|a!
-Via libero, amico|a!
+Go free, mate!
 Enrico
-Enrico
+Tengu
 Come l’acqua, saprò plasmare la mia forza a seconda del mio avversario!
-Come l’acqua, saprò plasmare la mia forza a seconda del mio avversario!
+Just like water, I'll shape my strength depending<<n>>on my opponent!
 Cadi sette volte, ma rialzati otto.
-Cadi sette volte, ma rialzati otto.
+Fall seven times, stand up eight.
 Benny
 Benny
 Ehi, questo è grosso!! Su, togliti dai piedi e lasciami fare il mio lavoro!
-Ehi, questo è grosso!! Su, togliti dai piedi e lasciami fare il mio lavoro!
+Hey, that's huge! C'mon, get outta my way and<<n>>lemme do my job!
 Nnnggh! Senti come tira questo bestione!
-Nnnggh! Senti come tira questo bestione!
+Nnggh! This big boy is pulling really hard!
 ... Mi si era solo incagliato l’amo sul fondo...
-... Mi si era solo incagliato l’amo sul fondo...
+...I just got my hook stuck on the bottom...
 Duke
 Duke
 Ehi, tu!
-Ehi, tu!
+Hey, you!
 Pensavi fossi un Allenatore pronto a sfidarti, vero? Sta’ tranquillo|a, sono un Surfista pacifico, io!
-Pensavi fossi un Allenatore pronto a sfidarti, vero? Sta’ tranquillo|a, sono un Surfista pacifico, io!
+You thought I was a Trainer ready to fight you, ain't ya?<<n>>Don't worry, I'm a peaceful Surfer actually!
 Sai, quando dalla mia Alola mi sono trasferito qui, temevo non avrei trovato pane per i miei denti... ... e invece, devo dire che il mare di questa regione non ha proprio nulla da invidiare!
-Sai, quando dalla mia Alola mi sono trasferito qui, temevo non avrei trovato pane per i miei denti... ... e invece, devo dire che il mare di questa regione non ha proprio nulla da invidiare!
+Y'know, when I moved in Eldiw from my beloved Alola I was worried I wouldn't have got work cut out for me here...<<n>>...but I must admit that the sea in this region is no way<<n>>inferior to the Alolan one!
 Però, non ho potuto non notare che da queste parti i Raichu non sono avvezzi al surf... Sarei davvero curioso di allenarne uno ed insegnargli questa nobile arte!
-Però, non ho potuto non notare che da queste parti i Raichu non sono avvezzi al surf... Sarei davvero curioso di allenarne uno ed insegnargli questa nobile arte!
+However, I noticed that Raichu are not used to surfin'<<n>>out here...<<n>>I'd like to train one and teach this fine art to it!
 Non è che tu avresti un Raichu da scambiare col mio <b>Raichu di Alola</b>?
-Non è che tu avresti un Raichu da scambiare col mio <b>Raichu di Alola</b>?
+Is there any chance you'd trade your Raichu for<<n>>an <b>Alolan Raichu</b>?
 Torna a trovarmi quando avrai un Raichu. Ci conto!
-Torna a trovarmi quando avrai un Raichu. Ci conto!
+Come again when you have a Raichu for me, dude||||girl!
 Via allo scambio!!
-Via allo scambio!!
+Let's trade!!
 Il Raichu di Alola è un surfista nato! Vedrai che spasso!
-Il Raichu di Alola è un surfista nato! Vedrai che spasso!
+Alolan Raichu is a natural surfer! You gonna see that!
 Ariella
 Gemma
 Il mare da sempre incanta, commuove, spaventa, alle volte fa anche ridere... ma soprattutto, il mare chiama!
@@ -15390,9 +15390,9 @@ Shu...!
 Claus
 Claus
 Guarda che non sto mica battendo la fiacca qui, eh!
-Guarda che non sto mica battendo la fiacca qui, eh!
+I ain't slacking off here, y'know?
 Esiste una sottile linea di confine tra il pescare e lo starsene in spiaggia come un idiota.
-Esiste una sottile linea di confine tra il pescare e lo starsene in spiaggia come un idiota.
+There's a narrow line between fishing and sitting on the beach like a fool...the fishing line!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 Alex
@@ -15406,25 +15406,25 @@ The perfect wave won't come to me...<<n>>I need to look for it!
 <<[>>old<<]>>Percorso 11
 <<[>>old<<]>>Route 11
 Selene
-Selene
+Selena
 L’eleganza nel nuoto è tutto per una Nuotatrice!
-L’eleganza nel nuoto è tutto per una Nuotatrice!
+Elegance is everything for Swimmers!
 Non avremo vinto la lotta, ma hai visto che leggiadria io e Gorebyss?
-Non avremo vinto la lotta, ma hai visto che leggiadria io e Gorebyss?
+We may have lost the battle, but Gorebyss and I are graceful, aren't we?
 Con questo, anche il tuo Clamperl potrà vantare il fascino di un Gorebyss.
-Con questo, anche il tuo Clamperl potrà vantare il fascino di un Gorebyss.
+With this, even your Clamperl can match the alluring charm of a Gorebyss.
 Valerio
-Valerio
+Roger
 Non me ne andrò da qui finché non avrò pescato il pesce più grosso dell’oceano!
-Non me ne andrò da qui finché non avrò pescato il pesce più grosso dell’oceano!
+I won't leave 'til I catch the biggest fish in this ocean!
 La pazienza è la virtù dei Pescatori.
-La pazienza è la virtù dei Pescatori.
+Patience is all a good Fisher requires.
 Paul
 Paul
 Certo, la riva è più sicura, ma se non posso cavalcare le onde che gusto c’è?!
-Certo, la riva è più sicura, ma se non posso cavalcare le onde che gusto c’è?!
+Yeah, the shore's safer, but where's the fun in it<<n>>if I can't ride waves?!
 La vita del Surfista è dura, ma qualcuno la dovrà pur fare, no?
-La vita del Surfista è dura, ma qualcuno la dovrà pur fare, no?
+Surfer's life is hard, but someone's gotta do it.
 Sì
 Yes
 No
@@ -15564,7 +15564,7 @@ Cress
 Mariano
 Marlon
 Da queste parti il mare è sempre così furioso... è il posto perfetto per cavalcare le onde!
-The sea's always raging around here... è il posto perfetto per cavalcare le onde!
+The sea's always raging around here...it's the perfect place to ride waves!
 Il mare non sarà nostro amico, ma di certo è la causa della nostra irrequietezza!
 The sea is a desert of waves--a wilderness of water!
 Guglielmo
@@ -17073,19 +17073,19 @@ Aster
 Se vogliamo fermare Versil devi affrontare quel Pokémon!
 If we want to stop Versil, we'll have to face<<n>>that Pokémon!
 Lo Xenoverse... è un mondo così... spento.
-Lo Xenoverse... è un mondo così... spento.
+The Xenoverse...what a...desolate world.
 Stando alle leggende, Dragalisk odia la vita, tanto da nutrirsi di quella del suo stesso mondo. È per questo che il territorio qui è così arido e l’aria così irrespirabile...
-Stando alle leggende, Dragalisk odia la vita, tanto da nutrirsi di quella del suo stesso mondo. È per questo che il territorio qui è così arido e l’aria così irrespirabile...
+According to the legends, Dragalisk despises life,<<n>>so much that it feeds on the life of its own world.<<n>>This is the reason behind the desolate state of this world and its unbreathable air...
 Come si può arrivare a tanto? Quel Dragalisk è davvero un mostro spietato...
-Come si può arrivare a tanto? Quel Dragalisk è davvero un mostro spietato...
+How can anyone go this far? That Dragalisk really is<<n>>a ruthless monster...
 Già. Non possiamo lasciare che Versil si lanci nelle sue grinfie... È un autentico suicidio!
-Già. Non possiamo lasciare che Versil si lanci nelle sue grinfie... È un autentico suicidio!
+Exactly. We can't let Versil throw himself between<<n>>its fangs...it's a real deathwish!
 E allora cosa aspettiamo? Diamoci una mossa!
-E allora cosa aspettiamo? Diamoci una mossa!
+Then what are we waiting for? Let's get to it!
 \PN, non sappiamo cosa ci aspetti in questo mondo così primitivo. Meglio fare attenzione!
-\PN, non sappiamo cosa ci aspetti in questo mondo così primitivo. Meglio fare attenzione!
+\PN, we don't know what this primitive world<<n>>has in store for us. We better be careful!
 Andiamo, forza!!
-Andiamo, forza!!
+C'mon, let's go!!
 [Map383]
 [Map384]
 [Map385]
@@ -17096,60 +17096,60 @@ V-Versil...!!
 Trey
 Trey
 Niente da fare, ormai è completamente accecato dal suo piano...
-Niente da fare, ormai è completamente accecato dal suo piano...
+There's nothing we can do, his mind is fixated on his plan...
 ???
 ???
 È inutile preoccuparsi per lui, neanche voi avete scampo!
-È inutile preoccuparsi per lui, neanche voi avete scampo!
+You don't need to worry about him, soon you're going<<n>>to share his fate!
 Chi ha parlato?!
-Chi ha parlato?!
+Who's there?!
 Alice
 Alice
 Questa voce...!
-Questa voce...!
+That voice...!
 Gengar
 Gengar
 Gengah ah ah! Gengah ah ah!
-Gengah ah ah! Gengah ah ah!
+Genga ha ha! Genga ha ha!
 Gengar!! Cosa ci fai qui?
-Gengar!! Cosa ci fai qui?
+Gengar!! What are you doing here?!
 Che domande! Voglio un posto in prima fila per assistere alla fine del genere umano!! Dopo millenni, questa è finalmente la volta buona! Gengah ah ah!
-Che domande! Voglio un posto in prima fila per assistere alla fine del genere umano!! Dopo millenni, questa è finalmente la volta buona! Gengah ah ah!
+What, you ask? I'm just reserving a front row seat<<n>>for the end of humanity!!<<n>>After millennia, this time will finally be the charm!<<n>>Genga ha ha!
 Potete solo pregare che il vostro ''supremo signore'' venga a salvarvi la pelle... Oh, già! Non può! Gengah ah ah!
-Potete solo pregare che il vostro ''supremo signore'' venga a salvarvi la pelle... Oh, già! Non può! Gengah ah ah!
+You can only pray for your ''supreme lord'' to come<<n>>rescue you...oh, yeah!<<n>>It can't! Genga ha ha!
 Con <b>quei quattro</b> sguinzagliati sulla Terra ha tutt'altra gatta da pelare! Siete spacciatiii! Gengah ah ah!
-Con <b>quei quattro</b> sguinzagliati sulla Terra ha tutt'altra gatta da pelare! Siete spacciatiii! Gengah ah ah!
+With <b>those four</b> having fun on Earth it probably<<n>>has its fair share of trouble! You're doooomed!<<n>>Genga ha ha!
 Ehi, aspetta, maledetto! Cosa vuoi dire?!
-Ehi, aspetta, maledetto! Cosa vuoi dire?!
+Hey, wait, you sicko! What do you mean?!
 Dannazione!! Dannazione!! Sta andando tutto a rotoli!
-Dannazione!! Dannazione!!  Sta andando tutto a rotoli!
+Dammit!! Dammit!!<<n>>Nothing's going right!
 Se anche sulla Terra si sta per scatenare il finimondo, dobbiamo fare ancora più alla svelta!
-Se anche sulla Terra si sta per scatenare il finimondo, dobbiamo fare ancora più alla svelta!
+If Earth is going nuts too, we have to be even quicker!
 Tu
-Tu
+You
 ...!
 ...!
 Andiamo a prendere Versil e torniamo indietro!!
-Andiamo a prendere Versil e torniamo indietro!!
+Let's go catch Versil and get back straight away!!
 Kay
 Kay
 [Map386]
 Versil
 Versil
 Finalmente ti ho qui, davanti ai miei occhi, lurido mostro.
-Finalmente ti ho qui, davanti ai miei occhi, lurido mostro.
+So I'm finally here, right in front of your eyes,<<n>>you filthy monster.
 Nemmeno immagini quante notti in bianco, quanti sacrifici ho dovuto fare per arrivare fino a te...!
-Nemmeno immagini quante notti in bianco, quanti sacrifici ho dovuto fare per arrivare fino a te...!
+You can't even begin to fathom how many sleepless nights and how many sacrifices I had to make to get to you...!
 Tu che giaci in questo mondo appassito per mano tua, bramando quello che non hai, facendo piazza pulita di tutto ciò che ti ostacola solo per una sete incontenibile...
-Tu che giaci in questo mondo appassito per mano tua, bramando quello che non hai, facendo piazza pulita di tutto ciò che ti ostacola solo per una sete incontenibile...
+You, the one who made its own world wither,<<n>>craving for what it can't have,<<n>>getting rid of everything that opposes it only because<<n>>of its endless thirst...
 Chissà quanti ne hai fatti fuori e quanti altri speri di farne... ma hai finito di mietere vittime...
-Chissà quanti ne hai fatti fuori e quanti altri speri di farne... ma hai finito di mietere vittime...
+I wonder how many you killed and how many you hope<<n>>you will...but this is the end of the line...
 Non lascerò che una creatura ignobile come te viva ancora!!
-Non lascerò che una creatura ignobile come te viva ancora!!
+I won't let such a foul creature live any longer!!
 Aster
 Aster
 Stai indietro, Versil!! Non è un avversario che tu possa sconfiggere! Andiamocene prima che sia troppo tardi!
-Stai indietro, Versil!! Non è un avversario che tu possa sconfiggere! Andiamocene prima che sia troppo tardi!
+Stand back, Versil!! It's too strong of an opponent, for you!<<n>>We have to go before it's too late!
 Aster...! \PN!!
 Aster...! \PN!!
 Dragalisk
@@ -17159,72 +17159,72 @@ Gyaaahoraaah!!
 Versiiil!!
 Versiiil!!
 Tu
-Tu
+You
 ...!
 ...!
 Alice
 Alice
 Che... Che luce accecante! Non riesco a vedere nulla!
-Che... Che luce accecante! Non riesco a vedere nulla!
+Th-this light! I can't see a thing!
 Non c’è dubbio, è lui... È arrivato per proteggere il pianeta e i suoi abitanti...!
-Non c’è dubbio, è lui... È arrivato per proteggere il pianeta e i suoi abitanti...!
+There's no doubt, this is it...it has come to protect<<n>>the planet and its inhabitants...!
 L’<b>Essere di Luce</b>...!
-L’<b>Essere di Luce</b>...!
+The <b>Light Being</b>...!
 Luxflon
 Luxflon
 Syyyhoooon!!
 Syyyhoooon!!
 <b>Luxflon</b> è emerso dalle viscere della Terra per proteggere noi, le sue creature predilette!
-<b>Luxflon</b> è emerso dalle viscere della Terra per proteggere noi, le sue creature predilette!
+<b>Luxflon</b> has emerged from the depths of Earth to protect us, its beloved creatures!
 O Altissimo, prestami ascolto...
-O Altissimo, prestami ascolto...
+O Mighty One, please listen to me...
 Sono stato io, Versil, a fornirti l’occasione di porre fine a questo scontro rimasto in sospeso per millenni...! È tempo di porre fine alla scia di distruzione del tuo malefico gemello!
-Sono stato io, Versil, a fornirti l’occasione di porre fine a questo scontro rimasto in sospeso per millenni...! È tempo di porre fine alla scia di distruzione del tuo malefico gemello!
+I, Versil, was the one who made it possible for this duel<<n>>to finally come to an end after millennia of hiatus...!<<n>>It's time to put an end to the trail of destruction<<n>>of your evil twin!
 Kay
 Kay
 Gengar
 Gengar
 Eccoci finalmente alla resa dei co...
-Eccoci finalmente alla resa dei co...
+We're finally at the clima-
 Come diavolo fa quel dannato Luxflon ad essere qui?! Non può averli già fatti fuori...!
-Come diavolo fa quel dannato Luxflon ad essere qui?! Non può averli già fatti fuori...!
+How did that damn Luxflon get here?!<<n>>It can't have already disposed of them...!
 Gyaaahoraaah!! Gyaaahoraaah!!
 Gyaaahoraaah!! Gyaaahoraaah!!
 Padrone, non si lasci sopraffare! Coi suoi immensi poteri non ha bisogno di chiedere pietà!
-Padrone, non si lasci sopraffare! Coi suoi immensi poteri non ha bisogno di chiedere pietà!
+Master, don't let yourself be fooled! With your immense power you don't need to ask for its mercy!
 Spiacente, Gengar! Finché ci sarà Luxflon dalla nostra parte, Dragalisk non potrà fare nulla! Puoi dire addio al tuo agognato spettacolo!
-Spiacente, Gengar! Finché ci sarà Luxflon dalla nostra parte, Dragalisk non potrà fare nulla! Puoi dire addio al tuo agognato spettacolo!
+Sorry, Gengar! As long as Luxflon is on our side,<<n>>Dragalisk can do nothing!<<n>>You can kiss your show goodbye!
 Aspetta a cantar vittoria, Alice... Luxflon si è fermato...?
-Aspetta a cantar vittoria, Alice... Luxflon si è fermato...?
+Don't celebrate just yet, Alice...Luxflon has stopped...?
 Finiscilo! È giusto che un distruttore come lui sparisca dalla faccia dell'universo!!
-Finiscilo! È giusto che un distruttore come lui sparisca dalla faccia dell'universo!!
+Finish it! A destructive being like it deserves to be erased from the face of the universe!!
 Gengah ah ah! Sei davvero uno sciocco, umano!
-Gengah ah ah! Sei davvero uno sciocco, umano!
+Genga ha ha! You're such a fool, human!
 Per quanto si scontri col padrone, Luxflon è pur sempre vincolato a lui...
-Per quanto si scontri col padrone, Luxflon è pur sempre vincolato a lui...
+It can fight my master all it wants, but Luxflon will<<n>>always be linked with it...
 In parole povere, se schiatta uno, anche l'altro fa una brutta fine! Gengah ah ah!
-In parole povere, se schiatta uno, anche l'altro fa una brutta fine! Gengah ah ah!
+In other words, if one kicks the bucket, the other one<<n>>will follow soon after! Genga ha ha!
 No-Non è possibile...! Qu-Quindi se distruggessi lo Xenoverse, anche la Terra...!
-No-Non è possibile...! Qu-Quindi se distruggessi lo Xenoverse, anche la Terra...!
+Th-This can't be...! S-So if the Xenoverse were to be destroyed, then Earth-!
 Luxflon l'ha indebolito parecchio, ora Dragalisk non può fare più molto...!
-Luxflon l'ha indebolito parecchio, ora Dragalisk non può fare più molto...!
+Luxflon has weakened it a lot, there isn't much that Dragalisk can do-!
 Bella mossa, padrone! Gengah ah ah!
-Bella mossa, padrone! Gengah ah ah!
+Well played, master! Genga ha ha!
 Che... Che mi succede?
-Che... Che mi succede?
+Wha- What is happening to me?
 ...
 ...
 Ora sì che ci divertiamo, marmocchio.
-Ora sì che ci divertiamo, marmocchio.
+Now this is the fun I was talking about, brat.
 Aspetta a cantar vittoria, Kay... Luxflon si è fermato...?
-Aspetta a cantar vittoria, Kay... Luxflon si è fermato...?
+Don't celebrate just yet, Kay...Luxflon has stopped...?
 [Map387]
 <<[>>old<<]>>Accesso alla Via Vittoria
-<<[>>old<<]>>Accesso alla Via Vittoria
+<<[>>old<<]>>Access to Victory Road
 Elder
 Elder
 Se sei riuscito|a ad arrivare sin qui con le tue sole forze, significa che sei un Allenatore di tutto rispetto. Ora solo un cammino ti attende: la <b>Via Vittoria</b>, il sentiero che porta alle stelle più alte nel cielo!
-Se sei riuscito|a ad arrivare sin qui con le tue sole forze, significa che sei un Allenatore di tutto rispetto. Ora solo un cammino ti attende: la <b>Via Vittoria</b>, il sentiero che porta alle stelle più alte nel cielo!
+If you managed to get here on your own, this means<<n>>that you're a respectable Trainer.<<n>>Now, one last walk is waiting for you--the <b>Victory Road</b>,<<n>>the path that leads to the highest stars in the sky!
 [Map388]
 <<[>>old<<]>><b>Monte Zodiaco</b> <i>''Dove le stelle si riuniscono in un'unica costellazione!''</i>
 <<[>>old<<]>><b>Monte Zodiaco</b> <i>''Dove le stelle si riuniscono in un'unica costellazione!''</i>
@@ -17773,21 +17773,21 @@ Thank you for waiting.<<n>>We've restored your Pokémon to full health!
 Torna pure quando vuoi.
 We hope to see you again!
 Gala
-Gala
+Galand
 Sono pochissimi gli Allenatori in grado di oltrepassare la Via Vittoria per raggiungere il <b>Monte Zodiaco</b>.
-Sono pochissimi gli Allenatori in grado di oltrepassare la Via Vittoria per raggiungere il <b>Monte Zodiaco</b>.
+Only a few Trainers are capable of getting through<<n>>Victory Road and reaching <b>Mt. Zodiac</b>.
 Augusto
-Augusto
+Norman
 Ho provato ad incamminarmi per la <b>Via Vittoria<b> alla ricerca di un <b>Cyndaquil</b>, ma niente da fare... Non ho potuto nulla contro i feroci Pokémon di quel sentiero selvaggio!
-Ho provato ad incamminarmi per la <b>Via Vittoria<b> alla ricerca di un <b>Cyndaquil</b>, ma niente da fare... Non ho potuto nulla contro i feroci Pokémon di quel sentiero selvaggio!
+I've tried entering <b>Victory Road<b> to look for<<n>>a <b>Cyndaquil</b>, but no luck...<<n>>I couldn't do anything against those savage Pokémon<<n>>that live in that wild path!
 Fabri
-Fabri
+Fab
 Si vocifera che la Via Vittoria sia piena zeppa di Allenatori formidabili e Pokémon selvatici ferocissimi.
-Si vocifera che la Via Vittoria sia piena zeppa di Allenatori formidabili e Pokémon selvatici ferocissimi.
+It is rumoured that Victory Road is full of powerful<<n>>Trainers and fierce wild Pokémon.
 Se è tua intenzione intraprendere quel cammino, lascia che ti dia un aiutino.
-Se è tua intenzione intraprendere quel cammino, lascia che ti dia un aiutino.
+If you're thinking about undertaking that path,<<n>>lemme give you some help.
 Ricordati di me, se riuscirai a scalare fino alla vetta il Monte Zodiaco.
-Ricordati di me, se riuscirai a scalare fino alla vetta il Monte Zodiaco.
+If you manage to climb the peak of Mt. Zodiac,<<n>>remember me.
 Sì
 Yes
 No
@@ -18439,107 +18439,109 @@ No
 Alice
 Alice
 Cosa succede...?
-Cosa succede...?
+What's going on...?
 Aster
 Aster
 Versil... Versil!!
-Versil... Versil!!
+Versil...Versil!!
 Peyote
 Peyote
 Intossicazione da Energia Blu... Ha bisogno di cure al più presto!
-Intossicazione da Energia Blu... Ha bisogno di cure al più presto!
+Blue Energy poisoning...he needs treatment<<n>>as soon as possible!
 Non c’è tempo da perdere! Dobbiamo portarlo nella mia tenda!
-Non c’è tempo da perdere! Dobbiamo portarlo nella mia tenda!
+There's no time to waste! Let's take him to my tent!
 Kay
 Kay
 <<[>>old<<]>>Tre mesi dopo...
-<<[>>old<<]>>Tre mesi dopo...
+<<[>>old<<]>>Three months later...
 <<[>>old<<]>>Cascate Firmamento
-<<[>>old<<]>>Cascate Firmamento
+<<[>>old<<]>>Welkin Falls
 Tu
-Tu
+You
 ...
 ...
 Versil
 Versil
 Non posso credere che lo abbia fatto... cough!
-Non posso credere che lo abbia fatto... cough!
+I can't believe he's done this...cough!
 No! Non dobbiamo perderci d’animo! Non è quello che avrebbe voluto Trey!
-No! Non dobbiamo perderci d’animo! Non è quello che avrebbe voluto Trey!
+No! We can’t lose our spirit!<<n>>That's not what Trey would've wanted!
 Se solo non... <b>cough!</b>
-Se solo non... <b>cough!</b>
+If only...<b>cough!</b>
 Alice ha ragione! Ora dobbiamo pensare a quello che sta succedendo qui sulla Terra!
-Alice ha ragione! Ora dobbiamo pensare a quello che sta succedendo qui sulla Terra!
+Alice is right! We must focus on what's happening here!
 Oh, già... Ma dove siamo finiti?
-Oh, già... Ma dove siamo finiti?
+Yeah, right...what is this place?
 ???
 ???
 Vi aspettavo.
-Vi aspettavo.
+I've been waiting for you.
 Vi do il benvenuto nella sacra terra delle <b>Cascate Firmamento</b>!
-Vi do il benvenuto nella sacra terra delle <b>Cascate Firmamento</b>!
+You are most welcome to the holy land of<<n>><b>Welkin Falls</b>!
 Ca-Cascate Firmamento? Mai sentite in vita mia...
-Ca-Cascate Firmamento? Mai sentite in vita mia...
+W-Welkin Falls? Never heard of them...
 Ah ah! Ma è ovvio, milady. Solo noi Cardinali siamo a conoscenza di questa florida oasi.
-Ah ah! Ma è ovvio, milady. Solo noi Cardinali siamo a conoscenza di questa florida oasi.
+Ha ha! Indeed, milady. Only we Cardinals know<<n>>of this thriving oasis.
 A-Aspetta... hai detto <b>noi</b> Cardinali?!
- A-Aspetta... hai detto <b>noi</b> Cardinali?!
+W-Wait...did you say <b>we</b> Cardinals?!
 Passando di generazione in generazione, la benedizione dell’Altissimo è giunta sino al sottoscritto...
-Passando di generazione in generazione, la benedizione dell’Altissimo è giunta sino al sottoscritto...
+Passing on through the generations, Almighty One's<<n>>blessing has come to me...
 <b>Cardinale Peyote</b> a rapporto! Mio è l’incarico di sorvegliare queste terre con occhi di falco!
-<b>Cardinale Peyote</b> a rapporto! Mio è l’incarico di sorvegliare queste terre con occhi di falco!
+<b>Cardinal Peyote</b>, reporting as ordered! My job is to keep an eagle eye on these lands!
 Voi dovete essere il prescelto... Il vostro arrivo era scritto nelle stelle. Non avete di che temere, il pianeta è sano e salvo ormai.
-Voi dovete essere il prescelto... Il vostro arrivo era scritto nelle stelle. Non avete di che temere, il pianeta è sano e salvo ormai.
+You must be the chosen one...your arrival was written<<n>>in the stars.<<n>>The planet is safe by now, you shouldn't be afraid anymore.
 E cosa ne è stato di Luxflon? Ha aperto un varco per noi e...!
-E cosa ne è stato di Luxflon? Ha aperto un varco per noi e...!
+What about Luxflon? It opened a way out for us and-!
 Stia calma, milady. Sono certo che anche Luxflon stia bene, ovunque egli sia.
-Stia calma, milady. Sono certo che anche Luxflon stia bene, ovunque egli sia.
+Calm down, milady. I'm sure Luxflon is alright,<<n>>wherever it is.
 Da-Davvero?! Che bella notizia!
-Da-Davvero?! Che bella notizia!
+R-Really?! That's great!
 Peyote, cos’è successo qui sulla Terra? Raccontami tutto ciò che sai, senza tralasciare i particolari.
-Peyote, cos’è successo qui sulla Terra? Raccontami tutto ciò che sai, senza tralasciare i particolari.
+Peyote, what happened to the Earth?<<n>>Tell me everything you know, details included.
 Dallo Xenoverse, <b>quattro bestie</b> hanno fatto la loro comparsa negli Xenovarchi della regione...
-Dallo Xenoverse, <b>quattro bestie</b> hanno fatto la loro comparsa negli Xenovarchi della regione...
+Coming from the Xenoverse, <b>four beasts</b> appeared<<n>>within the Xeno Gates of the region...
 Non avrei mai pensato di dover affrontare una simile minaccia appena ottenuto il mio incarico, ma... L'Altissimo ha invece ritenuto che noi <b>Quattro</b> <b>Cardinali</b> fossimo pronti a quelle creature.
-Non avrei mai pensato di dover affrontare una simile minaccia appena ottenuto il mio incarico, ma... L'Altissimo ha invece ritenuto che noi <b>Quattro</b> <b>Cardinali</b> fossimo pronti a quelle creature.
+I've never thought I'd face such a threat right from<<n>>my first day, but...<<n>>The almighty Luxflon believed that we <b>Four</b> <b>Cardinals</b> were ready for those creatures.
 Noi abbiamo riposto la nostra fede in lui ed egli in noi... Così facendo, abbiamo respinto il male dalla Terra!
-Noi abbiamo riposto la nostra fede in lui ed egli in noi...  Così facendo, abbiamo respinto il male dalla Terra!
+We've put our faith in it and it did the same with us...<<n>>In this way, we defeated the evil!
 Tu... sei il nipote di <b>Matuca</b>, non è vero? Parli proprio come lui... <b>cough!</b>
-Tu... sei il nipote di <b>Matuca</b>, non è vero? Parli proprio come lui... <b>cough!</b>
+You...are <b>Matuca</b>'s grandchild, aren't you?<<n>>You just talk like him...<b>cough!</b>
 Conoscevi il nonno?
-Conoscevi il nonno?
+You knew my grandpa?
 Diciamo di sì... <b>cough!</b> Ero al corrente della sua premonizione.
-Diciamo di sì... <b>cough!</b> Ero al corrente della sua premonizione.
+Kind of, yes...<b>cough!</b> I've heard of his premonition.
 Ehi, voi due! Si può sapere di cosa state parlando?!
-Ehi, voi due! Si può sapere di cosa state parlando?!
+Hey, you two! What the heck are you talking about?!
 Vedete, un tempo i Cardinali regnavano sul <b>Monte</b> <b>Zodiaco</b>, la vetta più alta di Eldiw. Un giorno, però, uno di essi ebbe una visione... <b>cough!</b>
-Vedete, un tempo i Cardinali regnavano sul <b>Monte</b> <b>Zodiaco</b>, la vetta più alta di Eldiw. Un giorno, però, uno di essi ebbe una visione... <b>cough!</b>
+You see, there was a time when the Cardinals ruled<<n>>over <b>Mt. Zodiac</b>,  Eldiw's highest peak.<<n>>One day, however, one of them had a vision...<<n>><b>cough!</b>
 Di lì a poco, un evento avrebbe sconvolto l’equilibrio del pianeta... l’Eclissi Xenoverse!
-Di lì a poco, un evento avrebbe sconvolto l’equilibrio del pianeta... l’Eclissi Xenoverse!
+Shortly afterwards, an event was about to shake<<n>>the planet's stability...the Xenoverse Eclipse!
 Appresa la notizia, tornarono tutti a custodire i propri Xenovarchi, in attesa di quel giorno nefasto... <b>cough!</b>
-Appresa la notizia, tornarono tutti a custodire i propri Xenovarchi, in attesa di quel giorno nefasto... <b>cough!</b>
+After learning of it, everyone went back to watch over<<n>>their Xeno Gates, waiting for that ill-fated day...<<n>><b>Cough!</b>
 L’uomo della premonizione era mio nonno <b>Matuca</b>, il precedente Cardinale di Capricornia.
-L’uomo della premonizione era mio nonno <b>Matuca</b>,  il precedente Cardinale di Capricornia.
+The man of the premonition was my grandpa <b>Matuca</b>, Equinox Village's previous Cardinal.
+Prima di andarsene, mi disse che, quando sarebbe giunto il momento, avremmo ricevuto una missione dall’alto... E così è stato!
+Before his departure, he told me that once the moment<<n>>came, we'd receive a mission from above...<<n>>And so it was!
 Capisco, dunque erano le quattro bestie dello Xenoverse la vostra missione. Ora che è tutto finito potrete finalmente fare ritorno al Monte Zodiaco...
-Capisco, dunque erano le quattro bestie dello Xenoverse la vostra missione. Ora che è tutto finito potrete finalmente fare ritorno al Monte Zodiaco...
+I see, so the four beasts from the Xenoverse were<<n>>your mission.<<n>>Now that everything's over, you can finally go back<<n>>to Mt. Zodiac...
 Matuca era un uomo saggio e virtuoso la cui fede non ha mai smesso di vacillare... cough...
-Matuca era un uomo saggio e virtuoso la cui fede non ha mai smesso di vacillare... cough...
+Matuca was a man of wisdom and virtue, whose faith<<n>>never ceased to falter...cough...
 ... non un buono a nulla che ha solo saputo fare del male a chiunque gli stesse vicino! <b>Cough!</b>
-... non un buono a nulla che ha solo saputo fare del male a chiunque gli stesse vicino!  <b>Cough!</b>
+...not a bungler only capable of hurting everyone<<n>>around him! <b>Cough!</b>
 Versil, adesso calmati! Comportarsi così non cambierà le cose!!
-Versil, adesso calmati! Comportarsi così non cambierà le cose!!
+Now chill out, Versil! This behavior won't change things!
 No, Aster!! È giusto che io pa...
-No, Aster!! È giusto che io pa...
+No, Aster!! It is only fair that I pa-
 ...ghi...
-...ghi...
+...ugh...
 <<[>>old<<]>>Sthump!!
 <<[>>old<<]>>Sthump!!
 Kay ha ragione! Ora dobbiamo pensare a quello che sta succedendo qui sulla Terra!
-Kay ha ragione! Ora dobbiamo pensare a quello che sta succedendo qui sulla Terra!
+Kay is right! We must focus on what's happening here!
 Ah ah! Ma è ovvio, milord. Solo noi Cardinali siamo a conoscenza di questa florida oasi.
-Ah ah! Ma è ovvio, milord. Solo noi Cardinali siamo a conoscenza di questa florida oasi.
+Ha ha! Indeed, milord. Only we Cardinals know<<n>>of this thriving oasis.
 Stia calmo, milord. Sono certo che anche Luxflon stia bene, ovunque egli sia.
-Stia calmo, milord. Sono certo che anche Luxflon stia bene, ovunque egli sia.
+Calm down, milord. I'm sure Luxflon is alright,<<n>>wherever it is.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 [Map465]
@@ -19840,122 +19842,118 @@ Well, anyway, I want you to know that you're welcome<<n>>whenever you want to en
 Alice
 Alice
 Ehi, \PN! Sei ancora tra noi, menomale!
-Ehi, \PN! Sei ancora tra noi, menomale!
+Hey, \PN! You're still with us, thankfully!
 Tu e tuo padre vi siete come immobilizzati all'improvviso...
-Tu e tuo padre vi siete come immobilizzati all'improvviso...
+You and your father were put in some sort of trance...
 Aster
 Aster
 Sembrava quasi che Dragalisk volesse sfruttare il corpo di Versil per attaccarci... Non ho ben capito cosa sia successo, ma qualcosa lo deve aver fatto rinsavire, guardate!
-Sembrava quasi che Dragalisk volesse sfruttare il corpo di Versil per attaccarci... Non ho ben capito cosa sia successo, ma qualcosa lo deve aver fatto rinsavire, guardate!
+It seemed like Dragalisk wanted to use Versil's body<<n>>to attack us...<<n>>I don't really get what happened, but something must<<n>>have made him sane again, look!
 Versil
 Versil
 Figliolo, ragazzi... Ho commesso un grave errore... Perdonatemi, vi prego... cough!
-Figliolo, ragazzi... Ho commesso un grave errore... Perdonatemi, vi prego... cough!
+Child of mine, boys...I made a terrible mistake...<<n>>Please, forgive me...cough!
 Gengar
 Gengar
-Cos’avete fatto al mio Signore? Come avete osato?!
-Cos’avete fatto al mio Signore? Come avete osato?!
+Cos'avete fatto al mio Signore? Come avete osato?!
+What did you do to my Lord? How dare you?!
 Dragalisk
 Dragalisk
 Gyaaahoraaah!!
 Gyaaahoraaah!!
 Ma... dov'è finito il padrone...?
-Ma... dov'è finito il padrone...?
+Wha- where did they go...?
 Sono spariti entrambi... che sia tutto finito?
-Sono spariti entrambi... che sia tutto finito?
+They're gone...is it over?
 Guardate, lassù!
-Guardate, lassù!
+Look, up there!
 Pa-Padrone... No-Non pensavo che sarebbe arrivato a tanto... È-È troppo, anche per lei...!
-Pa-Padrone... No-Non pensavo che sarebbe arrivato a tanto... È-È troppo, anche per lei...!
+M-Master...I-I didn't think you would go that far...<<n>>I-It's too much, even for you...!
 Gengar, spiegati meglio! Quell’energia lassù sarebbe Dragalisk?!
-Gengar, spiegati meglio! Quell’energia lassù sarebbe Dragalisk?!
+Gengar, explain yourself! That energy up there is supposed to be Dragalisk?!
 Vorrei tanto lo fosse... Sarebbe meglio per tutti!
-Vorrei tanto lo fosse... Sarebbe meglio per tutti!
+I wish it was...it would be better for everyone!
 Sbrigatevi e attaccatelo anche voi con tutte le forze che avete in corpo!
-Sbrigatevi e attaccatelo anche voi con tutte le forze che avete in corpo!
+Quick, attack that thing with everything you've got!
 Fate come vi dico, sciocchi umani!!
-Fate come vi dico, sciocchi umani!!
+Do as I say, foolish humans!!
+Se si risvegliasse, sarebbe la fine non solo per l’universo, ma anche della realtà per come la conosciamo!
+If it were to wake up, it wouldn't be the end just for<<n>>the universe, but for reality as we know it!
 \PN! Alice! Trey! Attacchiamolo tutti insieme, forza!
-\PN! Alice! Trey! Attacchiamolo tutti insieme, forza!
-Cos'avete fatto al mio Signore? Come avete osato?!
-Cos'avete fatto al mio Signore? Come avete osato?!
-Gengar, spiegati meglio! Quell'energia lassù sarebbe Dragalisk?!
-Gengar, spiegati meglio! Quell'energia lassù sarebbe Dragalisk?!
+\PN! Alice! Trey! Let's attack it all together, c'mon!
 Kay
 Kay
 Figliola, ragazzi... Ho commesso un grave errore... Perdonatemi, vi prego... cough!
-Figliola, ragazzi... Ho commesso un grave errore... Perdonatemi, vi prego... cough!
+Child of mine, boys...I made a terrible mistake...<<n>>Please, forgive me...cough!
 \PN! Kay! Trey! Attacchiamolo tutti insieme, forza!
-\PN! Kay! Trey! Attacchiamolo tutti insieme, forza!
-Sembrava quasi che Dragalisk volesse sfruttare il corpo di Versil per attaccarci...
-Sembrava quasi che Dragalisk volesse sfruttare il corpo di Versil per attaccarci...
+\PN! Kay! Trey! Let's attack it all together, c'mon!
 Tu & Alice
-Tu & Alice
+You & Alice
 Aster & Trey
 Aster & Trey
 Per la Terra!!
-Per la Terra!!
+For Earth!!
 Evvai! Ce l'abbiamo fatta!!
-Evvai! Ce l'abbiamo fatta!!
+Yay! We did it!!
 Anf... Anf... Per un pelo...
-Anf... Anf... Per un pelo...
+Pant...pant...that was close!!
 Trey
 Trey
 Tsk...!
-Tsk...!
+Tch...!
 Non so grazie a quale stella, ma siamo riusciti a sopravvivere a questo inferno...
-Non so grazie a quale stella, ma siamo riusciti a sopravvivere a questo inferno...
+I don't know what star we owe our thanks to,<<n>>but we managed to survive this hell...
 \PN, prendi in spalla tuo padre! Ora, costi quel che costi, dobbiamo filarcela!
-\PN, prendi in spalla tuo padre! Ora, costi quel che costi, dobbiamo filarcela!
+\PN, carry your father!<<n>>We have to run, now, whatever it takes!
 <<[>>old<<]>>Prescelto...
-<<[>>old<<]>>Prescelto...
+<<[>>old<<]>>Chosen one...
 <<[>>old<<]>>È Luxflon! Sta comunicando direttamente al tuo spirito!
-<<[>>old<<]>>È Luxflon! Sta comunicando direttamente al tuo spirito!
+<<[>>old<<]>>It's Luxflon! It's communicating directly with your spirit!
 <<[>>old<<]>>Rimembra, prescelto... ''Solo colui che saprà restaurare l'ormai perduta armonia tra luce e tenebra, sarà meritevole dell’energia degli astri più brillanti del firmamento.’’
-<<[>>old<<]>>Rimembra, prescelto... ''Solo colui che saprà restaurare l'ormai perduta armonia tra luce e tenebra, sarà meritevole dell’energia degli astri più brillanti del firmamento.’’
+<<[>>old<<]>>Remember, chosen one... ''Only the one who will be able to restore the lost harmony between light and darkness, will be worthy enough to bear the energy of the brightest star in the night sky.''
 Cos'è...
-Cos'è...
+What is that...
 ... quell'abominio?!
-... quell'abominio?!
+...abomination?!
 Dannati umani...!
-Dannati umani...!
+Cursed humans...!
 Se solo non aveste esitato così tanto, saremmo riusciti a evitare questa catastrofe!!
-Se solo non aveste esitato così tanto, saremmo riusciti a evitare questa catastrofe!!
+If only you hadn't hesitated that much, we would have<<n>>avoided this catastrophe!!
 Vi siete immischiati in affari troppo grossi per voi e questo è il risultato... È solo colpa vostra!!
-Vi siete immischiati in affari troppo grossi per voi e questo è il risultato... È solo colpa vostra!!
+You messed with forces too big for you and this is what<<n>>you get...this is all your fault!!
 Questa è davvero la fine... ora più niente potrà salvarci...
-Questa è davvero la fine... ora più niente potrà salvarci...
+This is the end...now nothing can save us anymore...
 Scusatemi... se vi ho trascinato in tutto questo... cough!
-Scusatemi... se vi ho trascinato in tutto questo... cough!
+Sorry...for dragging you into this...cough!
 Volevo solo... proteggervi...
-Volevo solo... proteggervi...
+All I wanted was...to protect you...
 Tu & Kay
-Tu & Kay
+You & Kay
 [Map540]
 Alter
 Alter
 E così, nonostante tutti i nostri sforzi, non siamo riusciti a fare nulla... eh, \PN?
-E così, nonostante tutti i nostri sforzi, non siamo riusciti a fare nulla... eh, \PN?
+So, after all we've been through, we accomplished<<n>>nothing...right, \PN?
 Una cosa però te la voglio dire... alla fine la nostra partita si è rivelata un pareggio.
-Una cosa però te la voglio dire... alla fine la nostra partita si è rivelata un pareggio.
+There's one thing I wish to tell you...in the end our score<<n>>is set to a tie.
 È vero, ti sei impossessato dei miei poteri, ma ogni qualvolta che il tuo animo vacillava, ho avuto l'occasione di venire allo scoperto e prendermi la mia piccola rivincita.
-È vero, ti sei impossessato dei miei poteri, ma ogni qualvolta che il tuo animo vacillava, ho avuto l'occasione di venire allo scoperto e prendermi la mia piccola rivincita.
+It's true, you got ahold of my powers, but whenever<<n>>your soul showed any weakness,<<n>>I had my chance to come out and get a little taste<<n>>of my revenge.
 Anzi, a dire il vero, sei stato proprio tu a fare in modo che io potessi farlo...
-Anzi, a dire il vero, sei stato proprio tu a fare in modo che io potessi farlo...
+In fact, to be honest, you were the one who made it<<n>>possible for me to do that...
 Sei riuscito quasi a dare un senso alla mia esistenza fatta solo di risentimento... Ora che è tutto finito, però, devo ammetterlo...
-Sei riuscito quasi a dare un senso alla mia esistenza fatta solo di risentimento... Ora che è tutto finito, però, devo ammetterlo...
+You almost managed to give a meaning to<<n>>my existence made up of nothing but grudge...<<n>>But now that it's all over, I have to admit...
 Con te mi sono proprio divertito, \PN...
-Con te mi sono proprio divertito, \PN...
+I had the time of my life with you, \PN...
 E così, nonostante tutti i nostri sforzi, non siamo riuscite a fare nulla... eh, \PN?
-E così, nonostante tutti i nostri sforzi, non siamo riuscite a fare nulla... eh, \PN?
+So, after all we've been through, we accomplished<<n>>nothing...right, \PN?
 È vero, ti sei impossessata dei miei poteri, ma ogni qualvolta che il tuo animo vacillava, ho avuto l'occasione di venire allo scoperto e prendermi la mia piccola rivincita.
-È vero, ti sei impossessata dei miei poteri, ma ogni qualvolta che il tuo animo vacillava, ho avuto l'occasione di venire allo scoperto e prendermi la mia piccola rivincita.
+It's true, you got ahold of my powers, but whenever<<n>>your soul showed any weakness,<<n>>I had my chance to come out and get a little taste<<n>>of my revenge.
 Anzi, a dire il vero, sei stata proprio tu a fare in modo che io potessi farlo...
-Anzi, a dire il vero, sei stata proprio tu a fare in modo che io potessi farlo...
+In fact, to be honest, you were the one who made it<<n>>possible for me to do that...
 Sei riuscita quasi a dare un senso alla mia esistenza fatta solo di risentimento... Ora che è tutto finito, però, devo ammetterlo...
-Sei riuscita quasi a dare un senso alla mia esistenza fatta solo di risentimento... Ora che è tutto finito, però, devo ammetterlo...
+You almost managed to give a meaning to<<n>>my existence made up of nothing but grudge...<<n>>But now that it's all over, I have to admit...
 Con te mi sono proprio divertita, \PN...
-Con te mi sono proprio divertita, \PN...
+I had the time of my life with you, \PN...
 [Map541]
 Trishout
 Trishout
@@ -19976,121 +19974,119 @@ Versil
 <i>''Per aspera ad astra''</i>...
 <i>''Per aspera ad astra''</i>...
 Lessi questa frase in un antico testo, senza mai comprenderne il reale significato... cough!
-Lessi questa frase in un antico testo, senza mai comprenderne il reale significato... cough!
+I once read this phrase on an ancient text, without<<n>>ever being able to discern its meaning...cough!
 Affrontare le difficoltà e rialzarsi più forte e più in alto, fino a raggiungere le stelle... Si riferiva a questo potere!
-Affrontare le difficoltà e rialzarsi più forte e più in alto, fino a raggiungere le stelle... Si riferiva a questo potere!
+To face hardships and reach further heights and<<n>>strength, to reach the stars and beyond...<<n>>That's the power it was referring to!
 Alice
 Alice
 Luxflon! Era ancora qui...!
-Luxflon! Era ancora qui...!
+Luxflon! It's still here...!
 Aster
 Aster
 Ora capisco! Era stato inglobato da Dragalisk diventando un tutt'uno con esso!
-Ora capisco! Era stato inglobato da Dragalisk diventando un tutt'uno con esso!
+I see, now! It has been engulfed by Dragalisk<<n>>becoming one with it!
 Gengar
 Gengar
 Pa-Padrone, siete tornato...!
-Pa-Padrone, siete tornato...!
+M-Master, you're back...!
 Dragalisk
 Dragalisk
 Gyaaahoraaah!!
 Gyaaahoraaah!!
 No-Non può fare sul serio... Lo sa bene che sarebbe una...!
-No-Non può fare sul serio... Lo sa bene che sarebbe una...!
+Y-You can't be serious...you know it would be a-!
 Dragalisk è totalmente fuori di sé! Non si farà scrupoli a distruggere tutto ciò che ha davanti... ... anche a scapito del suo stesso pianeta!!
-Dragalisk è totalmente fuori di sé! Non si farà scrupoli a distruggere tutto ciò che ha davanti... ... anche a scapito del suo stesso pianeta!!
+Dragalisk has gone totally insane!! It won't hesitate<<n>>to destroy anything in front of it...<<n>>...even at the cost of its own planet!!
 Dannazione! Dragalisk è ancora in forze!
-Dannazione! Dragalisk è ancora in forze!
+Dammit! Dragalisk still has some energy!
 Dobbiamo pensare a noi ora!
-Dobbiamo pensare a noi ora!
+We have to worry about ourselves now!
 Prima di svanire, Luxflon ha generato questo varco con le sue ultime energie... Non rendiamo vano quest’aiuto! Dobbiamo approfittare del tempo che ci rimane prima che Dragalisk carichi il suo attacco per attraversarlo!
-Prima di svanire, Luxflon ha generato questo varco con le sue ultime energie... Non rendiamo vano quest’aiuto! Dobbiamo approfittare del tempo che ci rimane prima che Dragalisk carichi il suo attacco per attraversarlo!
+Before disappearing, Luxflon generated this gate with<<n>>its last energies...we can't let its sacrifice go vain!<<n>>We have to use the time we have before Dragalisk charges<<n>>its attack to go through it!
 Aster ha ragione! Facciamo un ultimo sforzo e andiamocene da questo postaccio!
-Aster ha ragione! Facciamo un ultimo sforzo e andiamocene da questo postaccio!
+Aster is right! Just a little more and we'll be able<<n>>to leave this place for good!
 \PN, non so cosa fosse quel potere che hai liberato prima, ma deve averti sfinito... Lascia pure a me tuo padre.
-\PN, non so cosa fosse quel potere che hai liberato prima, ma deve averti sfinito... Lascia pure a me tuo padre.
+\PN, I don't know where that power you used before<<n>>came from, but it must have taken a lot out of you...<<n>>Let me hold your father.
 Grazie, ragazzi... cough!
-Grazie, ragazzi... cough!
+Thanks, guys...cough!
 Dragalisk... è finita così...!
-Dragalisk... è finita così...!
+It's over...Dragalisk...!
 Coraggio, ragazzi... si torna a casa!
-Coraggio, ragazzi... si torna a casa!
+C'mon, guys...let's go home!
 Io me la svigno, bambocci!
-Io me la svigno, bambocci!
+Sayonara, suckers!
 \PN, Trey, forza! Il portale sta per chiudersi, se non vi sbrigate rimarrete intrap...
-\PN, Trey, forza! Il portale sta per chiudersi, se non vi sbrigate rimarrete intrap...
+\PN, Trey, c'mon! The portal is about to close,<<n>>if you don't hurry up you're going to be trapp-
 Trey
 Trey
 Tsk! Come se non sapessi qual è il mio destino... eh, Versil?
-Tsk! Come se non sapessi qual è il mio destino... eh, Versil?
+Tch! As if I didn't know what my destiny was...<<n>>right, Versil?
 Non l’hai detto al tuo caro figliolo che io, in realtà, sono una bomba umana?!
-Non l’hai detto al tuo caro figliolo che io, in realtà, sono una bomba umana?!
+You never told your dear child that, in reality...<<n>>I'm a human bomb?
 Trey, io...
-Trey, io...
+Trey, I-
 Io non ho nulla a che vedere col vostro mondo! Non ho legami con nessuno, se non con Sabolt!
-Io non ho nulla a che vedere col vostro mondo! Non ho legami con nessuno, se non con Sabolt!
+I have nothing to do with your world! The only bond<<n>>I share is with Sabolt!
 Voialtri, invece, avete una famiglia e degli amici che non aspettano altro che il vostro ritorno...!
-Voialtri, invece, avete una famiglia e degli amici che non aspettano altro che il vostro ritorno...!
+You, on the other hand, have a family and friends that<<n>>await nothing but your return...!
 Non preoccupatevi per me... Andate!! Io terrò occupato questo mostro...
-Non preoccupatevi per me... Andate!! Io terrò occupato questo mostro...
+Don't worry about me...go!! I'll hold off this monster...
 ... facendomi saltare in aria assieme a lui!
-... facendomi saltare in aria assieme a lui!
+...by blowing myself up with it!
 Tu
-Tu
+You
 ...!
 ...!
 È il colmo che tu, che ti sei sempre ribellato ad ogni ordine, voglia farlo proprio ora...!
-È il colmo che tu, che ti sei sempre ribellato ad ogni ordine, voglia farlo proprio ora...!
+How ironic that you, the one who always opposed<<n>>every order, decided to follow one now...!
 Trey, lascia perdere tutta questa storia e torna indietro con noi! La mia famiglia sarà pronta ad accogl... cough!!
-Trey, lascia perdere tutta questa storia e torna indietro con noi! La mia famiglia sarà pronta ad accogl... cough!!
+Trey, let all this matter in the past and go back with us!<<n>>My family will be more than glad to wel- cough!!
 Risparmia il fiato, Versil. È un miracolo che tu sia ancora vivo con tutta l’Energia Blu che hai avuto in corpo. Ho preso la mia decisione e non sarai di certo tu a farmi cambiare idea!
-Risparmia il fiato, Versil. È un miracolo che tu sia ancora vivo con tutta l’Energia Blu che hai avuto in corpo. Ho preso la mia decisione e non sarai di certo tu a farmi cambiare idea!
+Save your breath, Versil. It's a miracle you're still alive<<n>>after all the Blue Energy that went through your body.<<n>>I took my decision and you won't be the one who will change my mind!
 Ma se proprio ci tieni a metterti l’anima in pace, sappi che non nutro alcun risentimento per ciò che mi hai fatto...
-Ma se proprio ci tieni a metterti l’anima in pace, sappi che non nutro alcun risentimento per ciò che mi hai fatto...
+But if you really want to make peace with yourself,<<n>>just know that I hold nothing against you...
 In fin dei conti mi hai salvato da morte certa.
-In fin dei conti mi hai salvato da morte certa.
+After all, you saved me from certain death.
 Trey...
 Trey...
 E tu, \PN... In un modo o nell’altro, sei sempre riuscito a mettermi i bastoni tra le ruote...
-E tu, \PN... In un modo o nell’altro, sei sempre riuscito a mettermi i bastoni tra le ruote...
+And you, \PN...one way or another, you always<<n>>managed to hinder my plans...
 Stavolta, però, non te lo permetterò!
-Stavolta, però, non te lo permetterò!
+But this time, I won't let you do that!
 Lascia però che ti dica una cosa...
-Lascia però che ti dica una cosa...
+Let me tell you something, though...
 Erano anni che avevo represso la mia umanità, ritenendola solo d’intralcio, ma tu... Tu, come niente fosse, mi hai fatto riscoprire il valore del lavoro di squadra, ma soprattutto dell’amicizia.
-Erano anni che avevo represso la mia umanità, ritenendola solo d’intralcio, ma tu... Tu, come niente fosse, mi hai fatto riscoprire il valore del lavoro di squadra, ma soprattutto dell’amicizia.
+I've suppressed my humanity for years, thinking it was<<n>>nothing but a hindrance, but you...<<n>>You, with surprising ease, made me recognize the importance of teamwork, and of friendship, above all.
 Sarò anche uno sporco cyborg senza emozioni emarginato da tutti, ma sappi che tu, con la tua genuinità, mi hai fatto sentire più umano che mai!
-Sarò anche uno sporco cyborg senza emozioni emarginato da tutti, ma sappi che tu, con la tua genuinità, mi hai fatto sentire più umano che mai!
+I may be a filthy outcast of a cyborg with no emotions,<<n>>but I'll have you know that you,<<n>>with your honesty, made me feel more human than ever!
 Tsk! Persino in una situazione così disperata trovi il tempo per i tuoi soliti piani.
-Tsk! Persino in una situazione così disperata trovi il tempo per i tuoi soliti piani.
+Hmph! Even in the direst of situations you still find time<<n>>for one of your usual plans.
 Sfidare insieme questo mostro, dici?
-Sfidare insieme questo mostro, dici?
+Challenge this monster together, you say?
 Ma sì, perché non provarci? In fondo, nelle Lotte in Doppio ce la siamo sempre cavata, no?
-Ma sì, perché non provarci? In fondo, nelle Lotte in Doppio ce la siamo sempre cavata, no?
+Aw, why not? After all, we've always been really good<<n>>with Double Battles, am I right?
 Ragazzi...!
-Ragazzi...!
+Guys-!
 Bene, allora... Datti da fare sul serio stavolta, pivello!
-Bene, allora... Datti da fare sul serio stavolta, pivello!
+Very well, then...you better not hold anything back<<n>>this time, noob!
 Tsk! Certo che sei proprio ingenuo.
-Tsk! Certo che sei proprio ingenuo.
+Hmph! You're so naive.
 Ti ringrazio del pensiero, veramente, ma tu... devi continuare a vivere!
-Ti ringrazio del pensiero, veramente, ma tu... devi continuare a vivere!
+Thank you for the thought, really, but you...<<n>>You have to survive!
 <<[>>old<<]>>Addio, amico...
-<<[>>old<<]>>Addio, amico...
-''<i>Per aspera ad astra</i>''...
-''<i>Per aspera ad astra</i>''...
+<<[>>old<<]>>Farewell, my friend...
 Kay
 Kay
 Non l'hai detto alla tua cara figliola che io, in realtà, sono una bomba umana?!
-Non l'hai detto alla tua cara figliola che io, in realtà, sono una bomba umana?!
+You never told your dear child that, in reality...<<n>>I'm a human bomb?
 E tu, \PN... In un modo o nell’altro, sei sempre riuscita a mettermi i bastoni tra le ruote...
-E tu, \PN... In un modo o nell’altro, sei sempre riuscita a mettermi i bastoni tra le ruote...
+And you, \PN...one way or another, you always<<n>>managed to hinder my plans...
 Bene, allora... Datti da fare sul serio stavolta, pivella!
-Bene, allora... Datti da fare sul serio stavolta, pivella!
+Very well, then...you better not hold anything back<<n>>this time, noob!
 Tsk! Certo che sei proprio ingenua.
-Tsk! Certo che sei proprio ingenua.
+Hmph! You're so naive.
 <<[>>old<<]>>Addio, amica...
-<<[>>old<<]>>Addio, amica...
+<<[>>old<<]>>Farewell, my friend...
 [Map542]
 Sebastian
 Sebastian
@@ -44491,7 +44487,7 @@ Kuro
 Maui
 Maui
 Enrico
-Enrico
+Tengu
 Lee
 Lee
 Oscar
@@ -44811,7 +44807,7 @@ Rory
 Tino
 Tinan
 Valerio
-Valerio
+Roger
 Leo
 Leo
 Peyote
@@ -45007,7 +45003,7 @@ Fida
 Mazhar
 Mazhar
 Selene
-Selene
+Selena
 Marina
 Aqua
 Angela
@@ -45021,7 +45017,7 @@ Patricia
 Gasparre
 Gasparre
 Ferry
-Ferry
+Wyatt
 Maurizio
 Maurice
 Robert
