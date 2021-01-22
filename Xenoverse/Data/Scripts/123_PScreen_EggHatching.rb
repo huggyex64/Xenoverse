@@ -96,7 +96,7 @@ class PokemonEggHatchScene
       Graphics.update
       self.update
     end
-    pbMEPlay("Pokémon Evolution pt.2")
+    pbMEPlay("Pokemon Evolution pt.2")
     Kernel.pbMessage(_INTL("\\se[]{1} hatched from the Egg!\\wt[80]",@pokemon.name)) {@sprites["pokemon"].update}
     if Kernel.pbConfirmMessage(
         _INTL("Would you like to nickname the newly hatched {1}?",@pokemon.name)) {@sprites["pokemon"].update}
