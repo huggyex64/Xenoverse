@@ -522,7 +522,7 @@ class Achievement_UI
 				bitmap.fill_rect(internalX,internalY,progressWidth,internalHeight,Color.new(40,57,61))
         if onbar
           pbSetSmallFont(bitmap)
-          bitmap.font.size = $MKXP ? 10 : 12
+          bitmap.font.size = $MKXP ? 12 : 12
           color = Color.new(240,240,240)
           pbDrawTextPositions(bitmap,[[achiv.progress.to_s + "/" + achiv.amount.to_s,x+120+PROGRESS_BORDER,y+6,false,color]])
         else

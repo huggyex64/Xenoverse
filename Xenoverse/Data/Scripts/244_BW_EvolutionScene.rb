@@ -502,7 +502,7 @@ class PokemonEvolutionScene
 				frames.times do
 					pbUpdate
 				end
-				pbMEPlay("Pokémon Evolution pt.2")
+				pbMEPlay("Pokemon Evolution pt.2")
 				newspeciesname=PBSpecies.getName(@newspecies)
 				newspeciesname="Persian" if newspeciesname == "Persage" && @pokemon.isDelta?
 				oldspeciesname=PBSpecies.getName(@pokemon.species)

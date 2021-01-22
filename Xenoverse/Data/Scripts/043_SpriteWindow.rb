@@ -1816,7 +1816,7 @@ end
 # Sets a bitmap's font to the system small font.
 def pbSetSmallFont(bitmap)
   bitmap.font.name=pbSmallFontName()
-  bitmap.font.size=$MKXP ? 23 : 25
+  bitmap.font.size=$MKXP ? 25 : 25
 end
 
 # Sets a bitmap's font to the system narrow font.

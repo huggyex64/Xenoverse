@@ -4,9 +4,9 @@ BOX_TOPBARFONT.size = $MKXP ? 22 : 24
 
 #Lower bar font
 BOX_LB = Font.new
-BOX_LB.name = ["Barlow Condensed ExtraBold","Verdana"]
+BOX_LB.name = [$MKXP ? "Barlow Condensed" : "Barlow Condensed ExtraBold","Verdana"]
 BOX_LB.size = $MKXP ? 24 : 26
-BOX_LB.bold = false
+BOX_LB.bold = $MKXP ? true : false
 
 BOX_ACTFONT = Font.new 
 BOX_ACTFONT.name = ["Barlow Condensed","Verdana"]
