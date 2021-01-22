@@ -40130,208 +40130,208 @@ Strumento da far tenere a un Pokémon. Aumenta la potenza delle mosse ma al cost
 An item to be held by a Pokémon. It boosts the power of moves, but at the cost of some HP on each hit.
 101
 Strumento da dare a un Pokémon. Cintura consumata che potenzia di poco le mosse superefficaci.
-Strumento da dare a un Pokémon. Cintura consumata che potenzia di poco le mosse superefficaci.
+An item to be held by a Pokémon. It is a well-worn belt that slightly boosts the power of supereffective moves.
 102
 Strumento tenuto da un Pokémon che potenzia una mossa utilizzata ripetutamente. L'effetto svanisce se si usa un'altra mossa.
-Strumento tenuto da un Pokémon che potenzia una mossa utilizzata ripetutamente. L'effetto svanisce se si usa un'altra mossa.
+A Pokémon held item that boosts a move used consecutively. Its effect is reset if another move is used.
 103
 Strumento da far tenere a un Pokémon. Fascia che potenzia di poco gli attacchi fisici.
-Strumento da far tenere a un Pokémon. Fascia che potenzia di poco gli attacchi fisici.
+An item to be held by a Pokémon. It is a headband that slightly boosts the power of physical moves.
 104
 Strumento da far tenere a un Pokémon. Paio di occhiali dalle lenti spesse che potenzia di poco le mosse speciali.
-Strumento da far tenere a un Pokémon. Paio di occhiali dalle lenti spesse che potenzia di poco le mosse speciali.
+An item to be held by a Pokémon. It is a thick pair of glasses that slightly boosts the power of special moves.
 105
 Strumento da far tenere a un Pokémon. Artiglio che aumenta le probabilità per chi lo tiene di sferrare dei brutti colpi.
-Strumento da far tenere a un Pokémon. Artiglio che aumenta le probabilità per chi lo tiene di sferrare dei brutti colpi.
+An item to be held by a Pokémon. It is a sharply hooked claw that ups the holder's critical-hit ratio.
 106
 Strumento da dare a un Pokémon. Lente che aumenta le probabilità di sferrare brutti colpi.
-Strumento da dare a un Pokémon. Lente che aumenta le probabilità di sferrare brutti colpi.
+An item to be held by a Pokémon. It is a lens that boosts the holder's critical-hit ratio.
 107
 Strumento da dare a un Pokémon. Lente d'ingrandimento che aumenta di poco la precisione delle mosse.
-Strumento da dare a un Pokémon. Lente d'ingrandimento che aumenta di poco la precisione delle mosse.
+An item to be held by a Pokémon. It is a magnifying lens that slightly boosts the accuracy of moves.
 108
 Strumento da far tenere a un Pokémon. Aumenta la precisione se chi lo tiene attacca dopo il nemico.
-Strumento da far tenere a un Pokémon. Aumenta la precisione se chi lo tiene attacca dopo il nemico.
+An item to be held by a Pokémon. If the holder moves after its target, its accuracy will be boosted.
 109
 Strumento da far tenere a un Pokémon. Se chi la usa arreca danni, può far tentennare il nemico.
-Strumento da far tenere a un Pokémon. Se chi la usa arreca danni, può far tentennare il nemico.
+An item to be held by a Pokémon. When the holder inflicts damage, the target may flinch.
 110
 Strumento da far tenere a un Pokémon. Chi lo tiene può far tentennare il nemico colpito.
-Strumento da far tenere a un Pokémon. Chi lo tiene può far tentennare il nemico colpito.
+An item to be held by a Pokémon. It may make foes and allies flinch when the holder inflicts damage.
 111
 Strumento da far tenere a un Pokémon. È tremendamente pesante e rende chi lo tiene più lento del normale.
-Strumento da far tenere a un Pokémon. È tremendamente pesante e rende chi lo tiene più lento del normale.
+An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual.
 112
 Strumento da dare a un Pokémon. Leggero e affilato, ogni tanto permette di fare la prima mossa.
-Strumento da dare a un Pokémon. Leggero e affilato, ogni tanto permette di fare la prima mossa.
+An item to be held by a Pokémon. A light, sharp claw that lets the bearer move first occasionally.
 113
 Strumento da far tenere a un Pokémon. Chi lo tiene può resistere ad un attacco da KO, restando con solo 1 PS.
-Strumento da far tenere a un Pokémon. Chi lo tiene può resistere ad un attacco da KO, restando con solo 1 PS.
+An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP.
 114
 Strumento da far tenere a un Pokémon. Se chi lo tiene ha tutti i PS può evitare un KO restando con 1 PS.
-Strumento da far tenere a un Pokémon. Se chi lo tiene ha tutti i PS può evitare un KO restando con 1 PS.
+An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.
 115
 Strumento da far tenere a un Pokémon. Sfera bizzarra che procura una scottatura a chi la tiene in lotta.
-Strumento da far tenere a un Pokémon. Sfera bizzarra che procura una scottatura a chi la tiene in lotta.
+An item to be held by a Pokémon. It is a bizarre orb that inflicts a burn on the holder in battle.
 116
 Strumento da far tenere a un Pokémon. Sfera bizzara che iperavvelena chi la tiene in lotta.
-Strumento da far tenere a un Pokémon. Sfera bizzara che iperavvelena chi la tiene in lotta.
+An item to be held by a Pokémon. It is a bizarre orb that badly poisons the holder in battle.
 117
 Strumento che danneggia chi ce l'ha a ogni turno. Può attaccarsi al nemico che lancia un attacco fisico.
-Strumento che danneggia chi ce l'ha a ogni turno. Può attaccarsi al nemico che lancia un attacco fisico.
+A held item that damages the holder on every turn. It may latch on to foes and allies that touch the holder.
 118
 Riduce la Velocità e rende vulnerabili alle mosse terra se chi la tiene è di tipo Volante o ha l'abilità Levitazione.
-Riduce la Velocità e rende vulnerabili alle mosse terra se chi la tiene è di tipo Volante o ha l'abilità Levitazione.
+A Pokémon held item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves.
 119
 Se un Pokémon ha questo strumento, le mosse che di norma non hanno effetto contro il suo tipo vanno a segno.
-Se un Pokémon ha questo strumento, le mosse che di norma non hanno effetto contro il suo tipo vanno a segno.
+Moves that would otherwise have no effect will land on the Pokémon that holds it.
 120
 Strumento da dare a un Pokémon. Attrezzo pesante che riduce la Velocità ma aiuta la crescita delle statistiche.
-Strumento da dare a un Pokémon. Attrezzo pesante che riduce la Velocità ma aiuta la crescita delle statistiche.
+An item to be held by a Pokémon. It is a stiff and heavy brace that promotes strong growth but lowers Speed.
 121
 Strumento da dare a un Pokémon. Riduce la Velocità nella lotta, ma aumenta di molto i PS al crescere di livello.
-Strumento da dare a un Pokémon. Riduce la Velocità nella lotta, ma aumenta di molto i PS al crescere di livello.
+A Pokémon held item that promotes HP gain on leveling, but reduces the Speed stat.
 122
 Strumento da dare a un Pokémon. Riduce la Velocità nella lotta, ma aumenta di molto i PS al crescere di livello.
-Strumento da dare a un Pokémon. Riduce la Velocità nella lotta, ma aumenta di molto i PS al crescere di livello.
+A Pokémon held item that promotes Attack gain on leveling, but reduces the Speed stat.
 123
 Strumento da far tenere a un Pokémon. Riduce la Velocità, ma aumenta molto la Difesa al crescere di livello.
-Strumento da far tenere a un Pokémon. Riduce la Velocità, ma aumenta molto la Difesa al crescere di livello.
+A Pokémon held item that promotes Defense gain on leveling, but reduces the Speed stat.
 124
 Strumento da far tenere a un Pokémon. Riduce la Velocità, ma aumenta molto l'Attacco Speciale al crescere di livello.
-Strumento da far tenere a un Pokémon. Riduce la Velocità, ma aumenta molto l'Attacco Speciale al crescere di livello.
+A Pokémon held item that promotes Sp. Atk gain on leveling, but reduces the Speed stat.
 125
 Strumento da far tenere a un Pokémon. Riduce la Velocità, ma aumenta di molto la Difesa Speciale al crescere di livello.
-Strumento da far tenere a un Pokémon. Riduce la Velocità, ma aumenta di molto la Difesa Speciale al crescere di livello.
+A Pokémon held item that promotes Sp. Def gain on leveling, but reduces the Speed stat.
 126
 Strumento da far tenere a un Pokémon. Riduce la Velocità, ma l'aumenta di molto al crescere di livello.
-Strumento da far tenere a un Pokémon. Riduce la Velocità, ma l'aumenta di molto al crescere di livello.
+A Pokémon held item that promotes Speed gain on leveling, but reduces the Speed stat.
 127
 Strumento da dare a un Pokémon. Il suo aroma intenso riduce la precisione del nemico.
-Strumento da dare a un Pokémon. Il suo aroma intenso riduce la precisione del nemico.
+An item to be held by a Pokémon. The tricky aroma of this incense may make attacks miss the holder.
 128
 Strumento da far tenere a un Pokémon. Incenso dal profumo esotico che rende gonfio e lento chi lo tiene.
-Strumento da far tenere a un Pokémon. Incenso dal profumo esotico che rende gonfio e lento chi lo tiene.
+An item to be held by a Pokémon. It is an exotic-smelling incense that makes the holder bloated and slow moving.
 129
 Strumento da far tenere a un Pokémon. Raddoppia i guadagni nella lotta se chi lo tiene vi partecipa.
-Strumento da far tenere a un Pokémon. Raddoppia i guadagni nella lotta se chi lo tiene vi partecipa.
+An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.
 130
 Strumento da far tenere a un Pokémon. Aiuta ad allontanare i Pokémon selvatici se chi lo tiene è il primo della squadra.
-Strumento da far tenere a un Pokémon. Aiuta ad allontanare i Pokémon selvatici se chi lo tiene è il primo della squadra.
+An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.
 131
 Strumento da far tenere a un Pokémon. Incenso dal curioso aroma che potenzia le mosse di tipo Acqua.
-Strumento da far tenere a un Pokémon. Incenso dal curioso aroma che potenzia le mosse di tipo Acqua.
+An item to be held by a Pokémon. It is an incense with a curious aroma that boosts the power of Water-type moves.
 132
 Strumento da far tenere a un Pokémon. Incenso dal curioso aroma che potenzia le mosse di tipo Acqua.
-Strumento da far tenere a un Pokémon. Incenso dal curioso aroma che potenzia le mosse di tipo Acqua.
+An item to be held by a Pokémon. It is an incense with a curious aroma that boosts the power of Water-type moves.
 133
 Strumento da far tenere a un Pokémon. Incenso dal profumo esotico che potenzia le mosse di tipo Erba.
-Strumento da far tenere a un Pokémon. Incenso dal profumo esotico che potenzia le mosse di tipo Erba.
+An item to be held by a Pokémon. It is an exotic-smelling incense that boosts the power of Grass-type moves.
 134
 Strumento da far tenere a un Pokémon. Incenso dal profumo esotico che potenzia le mosse di tipo Psico.
-Strumento da far tenere a un Pokémon. Incenso dal profumo esotico che potenzia le mosse di tipo Psico.
+An item to be held by a Pokémon. It is an exotic-smelling incense that boosts the power of Psychic-type moves.
 135
 Strumento da far tenere a un Pokémon. Incenso dal profumo esotico che potenzia le mosse di tipo Roccia.
-Strumento da far tenere a un Pokémon. Incenso dal profumo esotico che potenzia le mosse di tipo Roccia.
+An item to be held by a Pokémon. It is an exotic-smelling incense that boosts the power of Rock-type moves.
 136
 Strumento da dare a un Pokémon. Sostanza combustibile che potenzia le mosse di tipo Fuoco.
-Strumento da dare a un Pokémon. Sostanza combustibile che potenzia le mosse di tipo Fuoco.
+An item to be held by a Pokémon. It is a combustible fuel that boosts the power of Fire-type moves.
 137
 Strumento da dare a un Pokémon. Gemma a forma di goccia che potenzia le mosse di tipo Acqua.
-Strumento da dare a un Pokémon. Gemma a forma di goccia che potenzia le mosse di tipo Acqua.
+An item to be held by a Pokémon. It is a teardrop-shaped gem that ups the power of Water-type moves.
 138
 Strumento da dare a un Pokémon. Potente magnete che potenzia le mosse di tipo Elettro.
-Strumento da dare a un Pokémon. Potente magnete che potenzia le mosse di tipo Elettro.
+An item to be held by a Pokémon. It is a powerful magnet that boosts the power of Electric-type moves.
 139
 Strumento da dare a un Pokémon. Seme intriso di vita che potenzia le mosse di tipo Erba.
-Strumento da dare a un Pokémon. Seme intriso di vita che potenzia le mosse di tipo Erba.
+An item to be held by a Pokémon. It is a seed imbued with life that ups the power of Grass-type moves.
 140
 Strumento da dare a un Pokémon. Pezzo di ghiaccio che respinge il calore e potenzia le mosse di tipo Ghiaccio.
-Strumento da dare a un Pokémon. Pezzo di ghiaccio che respinge il calore e potenzia le mosse di tipo Ghiaccio.
+An item to be held by a Pokémon. It is a piece of ice that repels heat and boosts Ice-type moves.
 141
 Strumento da far tenere a un Pokémon. Cintura che potenzia la determinazione e le mosse di tipo Lotta.
-Strumento da far tenere a un Pokémon. Cintura che potenzia la determinazione e le mosse di tipo Lotta.
+An item to be held by a Pokémon. It is a belt that boosts determination and Fighting-type moves.
 142
 Strumento da dare a un Pokémon. Aculeo piccolo e tossico che potenzia le mosse di tipo Veleno.
-Strumento da dare a un Pokémon. Aculeo piccolo e tossico che potenzia le mosse di tipo Veleno.
+An item to be held by a Pokémon. It is a small, poisonous barb that ups the power of Poison-type moves.
 143
 Strumento da dare a un Pokémon. Sabbia leggera e farinosa che potenzia le mosse di tipo Terra.
-Strumento da dare a un Pokémon. Sabbia leggera e farinosa che potenzia le mosse di tipo Terra.
+An item to be held by a Pokémon. It is a loose, silky sand that boosts the power of Ground-type moves.
 144
 Strumento da dare a un Pokémon. Becco lungo e affilato che potenzia le mosse di tipo Volante.
-Strumento da dare a un Pokémon. Becco lungo e affilato che potenzia le mosse di tipo Volante.
+An item to be held by a Pokémon. It is a long, sharp beak that boosts the power of Flying-type moves.
 145
 Strumento da dare a un Pokémon. Cucchiaio dotato di potere telecinetico che potenzia le mosse di tipo Psico.
-Strumento da dare a un Pokémon. Cucchiaio dotato di potere telecinetico che potenzia le mosse di tipo Psico.
+An item to be held by a Pokémon. It is a spoon imbued with telekinetic power that boosts Psychic-type moves.
 146
 Strumento da dare a un Pokémon. Polvere argentea e brillante che potenzia le mosse di tipo Coleottero.
-Strumento da dare a un Pokémon. Polvere argentea e brillante che potenzia le mosse di tipo Coleottero.
+An item to be held by a Pokémon. It is a shiny, silver powder that ups the power of Bug-type moves.
 147
 Strumento da dare a un Pokémon. Pietra indistruttibile che potenzia le mosse di tipo Roccia.
-Strumento da dare a un Pokémon. Pietra indistruttibile che potenzia le mosse di tipo Roccia.
+An item to be held by a Pokémon. It is an unbreakable stone that ups the power of Rock-type moves.
 148
 Strumento da dare a un Pokémon. Targa sinistra e inquietante che potenzia le mosse di tipo Spettro.
-Strumento da dare a un Pokémon. Targa sinistra e inquietante che potenzia le mosse di tipo Spettro.
+An item to be held by a Pokémon. It is a sinister, eerie tag that boosts the power of Ghost-type moves.
 149
 Strumento da dare a un Pokémon. Dente duro e affilato che potenzia le mosse di tipo Drago.
-Strumento da dare a un Pokémon. Dente duro e affilato che potenzia le mosse di tipo Drago.
+An item to be held by a Pokémon. It is a hard and sharp fang that ups the power of Dragon-type moves.
 150
 Strumento da dare a un Pokémon. Inquietante paio di occhiali che potenzia le mosse di tipo Buio.
-Strumento da dare a un Pokémon. Inquietante paio di occhiali che potenzia le mosse di tipo Buio.
+An item to be held by a Pokémon. It is a shady-looking pair of glasses that boosts Dark-type moves.
 151
 Strumento da dare a un Pokémon. Speciale pellicola metallica che potenzia le mosse di tipo Acciaio.
-Strumento da dare a un Pokémon. Speciale pellicola metallica che potenzia le mosse di tipo Acciaio.
+An item to be held by a Pokémon. It is a special metallic film that ups the power of Steel-type moves.
 152
 Strumento da dare a un Pokémon. Sciarpa raffinata che potenzia le mosse di tipo Normale.
-Strumento da dare a un Pokémon. Sciarpa raffinata che potenzia le mosse di tipo Normale.
+An item to be held by a Pokémon. It is a sumptuous scarf that boosts the power of Normal-type moves.
 153
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Fuoco.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Fuoco.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fire-type moves.
 154
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Acqua.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Acqua.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Water-type moves.
 155
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Elettro.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Elettro.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Electric-type moves.
 156
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Erba.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Erba.
+An item to be held by a Pokémon. It is a stone tablet the boosts the power of Grass-type moves.
 157
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Ghiaccio.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Ghiaccio.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ice-type moves.
 158
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Lotta.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Lotta.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fighting-type moves.
 159
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Veleno.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Veleno.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Poison-type moves.
 160
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Terra.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Terra.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ground-type moves.
 161
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Volante.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Volante.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Flying-type moves.
 162
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Psico.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Psico.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Psychic-type moves.
 163
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Coleottero.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Coleottero.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Bug-type moves.
 164
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Roccia.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Roccia.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Rock-type moves.
 165
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Spettro.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Spettro.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ghost-type moves.
 166
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Drago.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Drago.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Dragon-type moves.
 167
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Buio.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Buio.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Dark-type moves.
 168
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Acciaio.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Acciaio.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Steel-type moves.
 169
 Una gemma con l'essenza del fuoco. Se tenuta da un Pokémon, potenzia le mosse di tipo Fuoco solo una volta.
 Una gemma con l'essenza del fuoco. Se tenuta da un Pokémon, potenzia le mosse di tipo Fuoco solo una volta.
