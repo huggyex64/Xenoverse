@@ -4018,7 +4018,7 @@ Blaunch
 Altolà! Stiamo svolgendo delle ricerche in questa grotta.
 Halt! We are carrying out research in this cave.
 Finiti gli accertamenti potrai passare, ma al momento la zona è off-limits!
-You'll be able to pass once we're done, but right now<<n>>this area is off limits!
+You shall pass once the investigation is over.<<n>>But this area is off-limits for now.
 Massimiliano
 Maximilian
 Sai cosa accomuna Hipster e Scoprirovine?
@@ -13071,9 +13071,9 @@ No
 No
 [Map282]
 Carminio
-Carminio
+Lavy
 Stiamo svolgendo delle ricerche all’interno di questa caverna. Finiti gli accertamenti potrai passare, ma per il momento la zona è off-limits.
-Stiamo svolgendo delle ricerche all’interno di questa caverna. Finiti gli accertamenti potrai passare, ma per il momento la zona è off-limits.
+We're currently carrying out research in this cave.<<n>>You shall pass once the investigation is over.<<n>>But this area is off-limits for now.
 [Map283]
 [Map284]
 [Map285]
@@ -15374,11 +15374,11 @@ Via allo scambio!!
 Il Raichu di Alola è un surfista nato! Vedrai che spasso!
 Il Raichu di Alola è un surfista nato! Vedrai che spasso!
 Ariella
-Ariella
+Gemma
 Il mare da sempre incanta, commuove, spaventa, alle volte fa anche ridere... ma soprattutto, il mare chiama!
-Il mare da sempre incanta, commuove, spaventa, alle volte fa anche ridere... ma soprattutto, il mare chiama!
+The sea, once it casts its spell, holds us in its net of<<n>>wonder forever!
 Mi chiedo cosa renda il mare tanto affascinante...
-Mi chiedo cosa renda il mare tanto affascinante...
+I wonder what makes the sea so wonderful...
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
@@ -15398,13 +15398,13 @@ Esiste una sottile linea di confine tra il pescare e lo starsene in spiaggia com
 Alex
 Alex
 Dai amico|a, facciamoci una lotta Pokémon mentre aspetto che arrivi l’onda perfetta!
-Dai amico|a, facciamoci una lotta Pokémon mentre aspetto che arrivi l’onda perfetta!
-Ho capito! Non sarà l’onda perfetta a venire da me, sono io che devo cercarla!
-Ho capito! Non sarà l’onda perfetta a venire da me, sono io che devo cercarla!
+ I'm waitin' for a big wave to come...let's have a Pokémon<<n>>battle in the meantime, c'mon!
+ Ho capito! Non sarà l’onda perfetta a venire da me, sono io che devo cercarla!
+I got it! The perfect wave won't come to me...I need to look for it!
 Non sarà l’onda perfetta a venire da me, sono io che devo cercarla!
-Non sarà l’onda perfetta a venire da me, sono io che devo cercarla!
+The perfect wave won't come to me...<<n>>I need to look for it!
 <<[>>old<<]>>Percorso 11
-<<[>>old<<]>>Percorso 11
+<<[>>old<<]>>Route 11
 Selene
 Selene
 L’eleganza nel nuoto è tutto per una Nuotatrice!
@@ -15540,86 +15540,86 @@ No
 [Map348]
 [Map349]
 <<[>>old<<]>>Percorso 16
-<<[>>old<<]>>Percorso 16
+<<[>>old<<]>>Route 16
 Gasparre
-Gasparre
+Damon
 Pensavi di sfuggire ad un Surfista come me standotene a bordo di quel Lapras, eh? E invece no!
-Pensavi di sfuggire ad un Surfista come me standotene a bordo di quel Lapras, eh? E invece no!
+You thought you could avoid a Surfer like me by stayin'<<n>>aboard your Lapras, huh? Well, you were wrong!
 Vorrei sparire sotto un’onda dalla vergogna...
-Vorrei sparire sotto un’onda dalla vergogna...
+I wish I could hide my face under a wave in shame...
 Luna
 Luna
 Stiamo svolgendo delle ricerche all’interno di questo boschetto. Finiti gli accertamenti potrai passare, ma per il momento la zona è off-limits.
-Stiamo svolgendo delle ricerche all’interno di questo boschetto. Finiti gli accertamenti potrai passare, ma per il momento la zona è off-limits.
+We're currently carrying out research in this grove.<<n>>You shall pass once the investigation is over.<<n>>But this area is off-limits for now.
 Angela
-Angela
+Angie
 Nuoto in stile Froakie o in stile Vivillon? Nel dubbio, lottiamo!
-Nuoto in stile Froakie o in stile Vivillon? Nel dubbio, lottiamo!
+Should I swim in Froakie or Vivillon stroke?<<n>>Well, let's just battle!
 Non riesco mai a decidermi...
-Non riesco mai a decidermi...
+Aaah! I can't decide...
 Allora, stile Froakie o stile Vivillon? Non riesco mai a decidermi...
-Allora, stile Froakie o stile Vivillon? Non riesco mai a decidermi...
+So, Froakie or Vivillon stroke? I can't decide...
 Crescenzia
-Crescenzia
+Cress
 Mariano
 Marlon
 Da queste parti il mare è sempre così furioso... è il posto perfetto per cavalcare le onde!
-Da queste parti il mare è sempre così furioso... è il posto perfetto per cavalcare le onde!
+The sea's always raging around here... è il posto perfetto per cavalcare le onde!
 Il mare non sarà nostro amico, ma di certo è la causa della nostra irrequietezza!
-Il mare non sarà nostro amico, ma di certo è la causa della nostra irrequietezza!
+The sea is a desert of waves--a wilderness of water!
 Guglielmo
-Guglielmo
+William
 Cosa c’è di bello nello starsene qui, a reggere per ore la canna da pesca, aspettando che succeda qualcosa? Cosa c’è di noioso, vorrai dire!
-Cosa c’è di bello nello starsene qui, a reggere per ore la canna da pesca, aspettando che succeda qualcosa? Cosa c’è di noioso, vorrai dire!
+What's good 'bout staying here, holding a fishing rod<<n>>for hours, waiting for something to happen?<<n>>You mean what's boring 'bout it, I hope!
 Non potrai mai capire l’emozione finché non proverai anche tu.
-Non potrai mai capire l’emozione finché non proverai anche tu.
+You'll never understand this feeling 'til you try it yourself.
 Con questo <b>Super Amo</b>, anche un miscredente della pesca come te potrà comprendere il suo reale significato.
-Con questo <b>Super Amo</b>, anche un miscredente della pesca come te potrà comprendere il suo reale significato.
+With this <b>Super Rod</b>, even a fishing miscreant like you will understand what fishing really means.
 Va’ e prova anche tu l’emozione della pesca!
-Va’ e prova anche tu l’emozione della pesca!
+Go and try this amazing feeling!
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 [Map350]
 Vento
-Vento
+Herbert
 Nel mare grosso si pescano i pesci grossi... è così che fa il detto, no?
-Nel mare grosso si pescano i pesci grossi... è così che fa il detto, no?
+''When it rains on the ocean it rains on fish too''...<<n>>that's how the saying goes, right?
 Eppure non ho tirato su un bel niente per ora...
-Eppure non ho tirato su un bel niente per ora...
+Why am I not catching a single fish then?!
 Ma tu guarda che pesce lesso che sono! Invan si pesca se l’amo non ha l’esca!
-Ma tu guarda che pesce lesso che sono! Invan si pesca se l’amo non ha l’esca!
+I gotta be patient and calm--for no one can catch fish<<n>>in anger.
 Maurizio
-Maurizio
+Maurice
 Il bello del surf è che bastano solo tre cose per farlo: il corpo, una tavola e le onde!
-Il bello del surf è che bastano solo tre cose per farlo: il corpo, una tavola e le onde!
+What's good 'bout surfing is that you just need<<n>>three things: a body, a board, and waves!
 Quattro... ci vuole anche l’equilibrio!
-Quattro... ci vuole anche l’equilibrio!
+Four...you need balance too!
 Il bello del surf è che bastano solo quattro cose per farlo: il corpo, una tavola, le onde e l’equilibrio!
-Il bello del surf è che bastano solo quattro cose per farlo: il corpo, una tavola, le onde e l’equilibrio!
+What's good 'bout surfing is that you just need<<n>>four things: a body, a board, waves, and balance!
 <<[>>old<<]>>Percorso 15
-<<[>>old<<]>>Percorso 15
+<<[>>old<<]>>Route 15
 Ciro
-Ciro
+Alvin
 Se vuoi un consiglio, tieniti alla larga da quell’isolotto a nord con la strana palma al centro...
-Se vuoi un consiglio, tieniti alla larga da quell’isolotto a nord con la strana palma al centro...
+Stay the hell away from that north islet with a strange<<n>>palm tree in the middle, trust me...
 Patricia
 Patricia
 Vediamo un po’ se sono capace di nuotare e lottare allo stesso tempo!
-Vediamo un po’ se sono capace di nuotare e lottare allo stesso tempo!
+Let's see if you are able to swim and battle<<n>>at the same time!
 Ho proprio fatto un buco nell’acqua...
-Ho proprio fatto un buco nell’acqua...
+That's a real wild-goose chase...
 Holland
 Holland
 Con quel tuo Lapras mi hai fatto scappare tutti i pesci, diamine!
-Con quel tuo Lapras mi hai fatto scappare tutti i pesci, diamine!
+Dammit, your Lapras is scaring all fish away!
 Quando non si pesca niente è sempre colpa degli altri... è una legge non scritta!
-Quando non si pesca niente è sempre colpa degli altri... è una legge non scritta!
+Whenever you can't fish anything it's always someone else's fault...that's an unwritten rule!
 Arianna
-Arianna
+Ariana
 Un nuotatore è come un uccello che spiega le sue ali sull’abisso!
-Un nuotatore è come un uccello che spiega le sue ali sull’abisso!
+Smell the sea and feel the sky, let your soul<<n>>and spirit fly!
 Fossi stata in volo sarei precipitata al suolo ora...
-Fossi stata in volo sarei precipitata al suolo ora...
+If I were flying, I'd have plummeted to the ground by now...
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Shulong dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Shulong to take a look inside?
 Shulong
@@ -15631,15 +15631,15 @@ Shu...!
 Perry
 Perry
 A chi importa se non possiamo fermare le onde, cavalcarle è un tale spasso!
-A chi importa se non possiamo fermare le onde, cavalcarle è un tale spasso! 
+Who cares if we can't stop waves...<<n>>surfing on them is such a blast!
 Mi hai spazzato via come un cavallone!
-Mi hai spazzato via come un cavallone!
+Man, you blew me away like a tsunami!
 Birio
-Birio
+Barry
 La pesca è come uno splendido tiro alla fune tra il Pescatore e il mare!
-La pesca è come uno splendido tiro alla fune tra il Pescatore e il mare!
+Fishing is like a tug-of-war between the Fisher<<n>>and the sea!
 Se solo fossi bravo nelle lotte tanto quanto con le metafore...
-Se solo fossi bravo nelle lotte tanto quanto con le metafore...
+If only I were good at battles as I am in metaphors...
 Sì
 Yes
 No
@@ -15648,29 +15648,29 @@ No
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>Percorso 17
-<<[>>old<<]>>Percorso 17
+<<[>>old<<]>>Route 17
 Robert
 Robert
 Se riuscirai a sconfiggermi, ti regalerò il tesoro che il mio Pokémon ha raccolto sul fondale!
-Se riuscirai a sconfiggermi, ti regalerò il tesoro che il mio Pokémon ha raccolto sul fondale!
+If you're able to defeat me, I'll give you a precious<<n>>treasure my Pokémon found on the sea bottom!
 Cavoli, ho perso il mio surf-control...
-Cavoli, ho perso il mio surf-control...
+Jeez, I've lost my surf-control...
 Mi hai stracciato, quindi questo è per te!
-Mi hai stracciato, quindi questo è per te!
+You creamed me, dude|||girl! This is for you, then.
 Il miglior Surfista è quello che cavalca le onde col sorriso stampato sulla faccia!
-Il miglior Surfista è quello che cavalca le onde col sorriso stampato sulla faccia!
+The best Surfer out there is the one havin' more fun!
 Marina
-Marina
+Aqua
 Il nuoto non è uno sport... il nuoto è arte!
-Il nuoto non è uno sport... il nuoto è arte!
+Swimming is not a sport...it's an art!
 L’acqua rende ogni movimento così leggiadro.
-L’acqua rende ogni movimento così leggiadro.
+Water makes every movement graceful.
 Vanessa
 Vanessa
 C’è chi nasce per star seduto sulla riva e chi, come me, nasce per nuotare nelle acque profonde!
-C’è chi nasce per star seduto sulla riva e chi, come me, nasce per nuotare nelle acque profonde!
+Some people are born to sit on the shore, while others<<n>>are born to swim in deep-water, just like myself!
 ... e c’è chi nasce col talento per le lotte Pokémon!
-... e c’è chi nasce col talento per le lotte Pokémon!
+...and others who have a natural talent for Pokémon battles!
 [Map352]
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>The trash is empty.
@@ -18668,9 +18668,11 @@ Lo skateboard è come la vita: cadi, ti rialzi e fai il numero più bello.
 Lo skateboard è come la vita: cadi, ti rialzi e fai il numero più bello.
 [Map471]
 Fenicio
-Fenicio
+Phoenix
 Stiamo svolgendo delle ricerche nel boschetto qui fuori.
-Stiamo svolgendo delle ricerche nel boschetto qui fuori.
+We're currently carrying out research in the grove<<n>>out there.
+Finiti gli accertamenti potrai passare, ma per il momento la zona è off-limits.
+You shall pass once the investigation is over.<<n>>But this area is off-limits for now.
 [Map472]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
 <<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
@@ -18778,7 +18780,7 @@ Non fossilizzarti mai sulle cose, ma cerca sempre di cogliere ogni occasione.
 Xena
 Xena
 Spiacente, ma di qui non si passa. Stiamo svolgendo delle ricerche importanti!
-Spiacente, ma di qui non si passa. Stiamo svolgendo delle ricerche importanti!
+We regret to say this area is off-limits.<<n>>We're carrying out an important research!
 Xolot
 Xolot
 Fausto
@@ -44779,9 +44781,9 @@ Abraham
 Johnny
 Johnny
 Vento
-Vento
+Herbert
 Birio
-Birio
+Barry
 Roberto
 Derek
 Faso
@@ -44797,7 +44799,7 @@ Melbourne
 Michelangelo
 Malcolm
 Guglielmo
-Guglielmo
+William
 Viviano
 Vincent
 Carmine
@@ -45007,11 +45009,11 @@ Mazhar
 Selene
 Selene
 Marina
-Marina
+Aqua
 Angela
-Angela
+Angie
 Ariella
-Ariella
+Gemma
 Vanessa
 Vanessa
 Patricia
@@ -45021,7 +45023,7 @@ Gasparre
 Ferry
 Ferry
 Maurizio
-Maurizio
+Maurice
 Robert
 Robert
 Perry
