@@ -40635,82 +40635,82 @@ Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Difesa 
 An item for use on a Pokémon. It slightly increases the base Sp. Def stat of a single Pokémon.
 262
 Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Velocità.
-Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Velocità.
+An item for use on a Pokémon. It slightly increases the base Speed stat of a single Pokémon.
 263
 Caramella altamente energetica. Fa salire un Pokémon di un livello.
-Caramella altamente energetica. Fa salire un Pokémon di un livello.
+A candy that is packed with energy. It raises the level of a single Pokémon by one.
 264
 La Ball dalle prestazioni migliori: cattura qualsiasi Pokémon selvatico senza mai fallire.
-La Ball dalle prestazioni migliori: cattura qualsiasi Pokémon selvatico senza mai fallire.
+The best Ball with the ultimate level of performance. It will catch any wild Pokémon without fail.
 265
 Ball dalle prestazioni eccellenti: fornisce maggiori probabilità di cattura rispetto alla Mega Ball.
-Ball dalle prestazioni eccellenti: fornisce maggiori probabilità di cattura rispetto alla Mega Ball.
+An ultra-performance Ball that provides a higher Pokémon catch rate than a Great Ball.
 266
 Ball dalle ottime prestazioni: fornisce maggiori probabilità di cattura rispetto alla Poké Ball.
-Ball dalle ottime prestazioni: fornisce maggiori probabilità di cattura rispetto alla Poké Ball.
+A good, high-performance Ball that provides a higher Pokémon catch rate than a standard Poké Ball.
 267
 Strumento dotato di capsula usato per catturare Pokémon selvatici. Si lancia contro il bersaglio come una palla.
-Strumento dotato di capsula usato per catturare Pokémon selvatici. Si lancia contro il bersaglio come una palla.
+A device for catching wild Pokémon. It is thrown like a ball at the target. It is designed as a capsule system.
 268
 Poké Ball speciale, usata soltanto nella Zona Safari. È decorata con un motivo mimetico.
-Poké Ball speciale, usata soltanto nella Zona Safari. È decorata con un motivo mimetico.
+A special Poké Ball that is used only in the Great Marsh. It is decorated in a camouflage pattern.
 269
 Poké Ball speciale utilizzata nella Gara Pigliamosche.
-Poké Ball speciale utilizzata nella Gara Pigliamosche.
+A special Poké Ball for the Bug-Catching Contest.
 270
 Poké Ball un po' diversa. Risulta particolarmente efficace sui Pokémon di tipo Acqua e Coleottero.
-Poké Ball un po' diversa. Risulta particolarmente efficace sui Pokémon di tipo Acqua e Coleottero.
+A somewhat different Poké Ball that works especially well on Water- and Bug-type Pokémon.
 271
 Poké Ball un po' diversa. Risulta particolarmente efficace sui Pokémon che vivono in acqua.
-Poké Ball un po' diversa. Risulta particolarmente efficace sui Pokémon che vivono in acqua.
+A somewhat different Poké Ball that works especially well on Pokémon that live underwater.
 272
 Poké Ball un po' diversa, particolarmente efficace sui Pokémon selvatici più deboli.
-Poké Ball un po' diversa, particolarmente efficace sui Pokémon selvatici più deboli.
+A somewhat different Poké Ball that works especially well on weaker Pokémon in the wild.
 273
 Poké Ball un po' diversa, particolarmente efficace sulle specie di Pokémon già catturate in precedenza.
-Poké Ball un po' diversa, particolarmente efficace sulle specie di Pokémon già catturate in precedenza.
+A somewhat different Poké Ball that works especially well on Pokémon species that were previously caught.
 274
 Poké Ball un po' diversa che diventa progressivamente più efficace con l'aumentare dei turni in lotta.
-Poké Ball un po' diversa che diventa progressivamente più efficace con l'aumentare dei turni in lotta.
+A somewhat different Ball that becomes progressively better the more turns there are in a battle.
 275
 Poké Ball utile che rende più amichevoli i Pokémon selvatici catturati.
-Poké Ball utile che rende più amichevoli i Pokémon selvatici catturati.
+A comfortable Poké Ball that makes a caught wild Pokémon quickly grow friendly.
 276
 Poké Ball rara che è stata realizzata appositamente per commemorare un particolare evento.
-Poké Ball rara che è stata realizzata appositamente per commemorare un particolare evento.
+A somewhat rare Poké Ball that has been specially made to commemorate an event of some sort.
 277
 Poké Ball un po' diversa che rende più facile catturare Pokémon selvatici di notte.
-Poké Ball un po' diversa che rende più facile catturare Pokémon selvatici di notte.
+A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night or in dark places like caves.
 278
 Poké Ball curativa che ridà PS al Pokémon catturato e risolve ogni problema di stato.
-Poké Ball curativa che ridà PS al Pokémon catturato e risolve ogni problema di stato.
+A remedial Poké Ball that restores the caught Pokémon's HP and eliminates any status problem.
 279
 Poké Ball un po' diversa che facilita la cattura di un Pokémon selvatico se usata all'inizio della lotta.
-Poké Ball un po' diversa che facilita la cattura di un Pokémon selvatico se usata all'inizio della lotta.
+A somewhat different Poké Ball that provides a better catch rate if it is used at the start of a wild encounter.
 280
 Poké Ball rara che è stata creata per commemorare un evento speciale.
-Poké Ball rara che è stata creata per commemorare un evento speciale.
+A quite rare Poké Ball that has been specially crafted to commemorate an occasion of some sort.
 281
 Poké Ball un po' originale che funziona proprio bene sui Pokémon rapidi.
-Poké Ball un po' originale che funziona proprio bene sui Pokémon rapidi.
+A Poké Ball that makes it easier to catch Pokémon which are quick to run away.
 282
 Poké Ball un po' originale che funziona particolarmente bene sui Pokémon di livello inferiore al proprio.
-Poké Ball un po' originale che funziona particolarmente bene sui Pokémon di livello inferiore al proprio.
+A Poké Ball for catching Pokémon that are a lower level than your own.
 283
 Poké Ball un po' originale che funziona particolarmente bene sui Pokémon pescati con Amo.
-Poké Ball un po' originale che funziona particolarmente bene sui Pokémon pescati con Amo.
+A Poké Ball for catching Pokémon hooked by a Rod when fishing.
 284
 Poké Ball un po' originale che funziona particolarmente bene sui Pokémon pesanti.
-Poké Ball un po' originale che funziona particolarmente bene sui Pokémon pesanti.
+A Poké Ball for catching very heavy Pokémon.
 285
 Poké Ball un po' originale che funziona particolarmente bene sui Pokémon di sesso opposto a quello del proprio.
-Poké Ball un po' originale che funziona particolarmente bene sui Pokémon di sesso opposto a quello del proprio.
+Poké Ball for catching Pokémon that are the opposite gender of your Pokémon.
 286
 Poké Ball un po' originale che rende rapidamente affettuosi i Pokémon selvatici con essa catturati.
-Poké Ball un po' originale che rende rapidamente affettuosi i Pokémon selvatici con essa catturati.
+A Poké Ball that makes caught Pokémon more friendly.
 287
 Poké Ball un po' originale che funziona particolarmente bene sui Pokémon che si evolvono con una Pietralunare.
-Poké Ball un po' originale che funziona particolarmente bene sui Pokémon che si evolvono con una Pietralunare.
+A Poké Ball for catching Pokémon that evolve using the Moon Stone.
 288
 Chi la usa affila i propri artigli, aumentando Attacco e precisione.
 Chi la usa affila i propri artigli, aumentando Attacco e precisione.
