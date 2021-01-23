@@ -3808,6 +3808,7 @@ class PokeBattle_Battle
 				end
 			end
 		end
+		Graphics.frame_rate = 40
 		# Pass on Pokérus within the party
 		infected=[]
 		for i in 0...$Trainer.party.length

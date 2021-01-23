@@ -201,6 +201,7 @@ class PokeBattle_Battle
   
   alias pbStartBattleCore_ebs pbStartBattleCore unless self.method_defined?(:pbStartBattleCore_ebs)
   def pbStartBattleCore(canlose)
+    Graphics.frame_rate = 60
     if !@fullparty1 && @party1.length > MAXPARTYSIZE
       raise ArgumentError.new(_INTL("Party 1 has more than {1} Pokémon.",MAXPARTYSIZE))
     end

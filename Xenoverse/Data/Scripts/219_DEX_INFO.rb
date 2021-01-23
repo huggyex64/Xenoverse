@@ -552,12 +552,16 @@ class DexInfo
 					@nest = DexNest.new(@viewport,@species)
 					@viewport.color = Color.new(0,0,0,0)
 				}
+				day = true
 				loop do
 					Graphics.update
 					Input.update
 					update
 					@nest.update
-					
+					if Input.trigger?(Input::LEFT) || Input.trigger?(Input::RIGHT)
+						day = !day
+						@nest.loadEncounters(day)
+					end
 					if Input.trigger?(Input::B)
 						break
 					end

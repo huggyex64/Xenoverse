@@ -306,21 +306,29 @@ class PokeBattle_Scene
     fp["shot"].opacity = 0
 
     x = defaultvector[0]; y = defaultvector[1]
-    x2, y2 = getCenter(targetsprite, true)
+    #x2, y2 = getCenter(targetsprite, true)
+    #x2 = targetsprite.x
+    #y2 = targetsprite.y
+    x2, y2 = @vector.spoof(defaultvector)
+    y2+=(player ? 0 : 40)
+    x2+=(player ? 60 : 180) #Added to make the animation go over the side of the screens
     fp["shot"].x = cx
     fp["shot"].y = cy
     pbSEPlay("Voltorb Flip Explosion",80)
     k = -1
+    echoln "Is player using the shooting move? #{player} X:#{x2} Y:#{y2}"
+    # Shoot ball
     for i in 0...20
       cx, cy = getCenter(usersprite)
       @vector.set(defaultvector) if i == 0
       if i > 0
-        fp["shot"].angle = Math.atan(1.0*(cy-y2)/(x2-cx))*(180.0/Math::PI) + (player ? 180 : 0)
+        fp["shot"].angle = Math.atan(1.0*(y-y2)/(x2-x))*(180.0/Math::PI) + (player ? 180 : 0)
+        #Math.atan(1.0*(cy-y2)/(x2-cx))*(180.0/Math::PI) + (player ? 180 : 0)
         fp["shot"].opacity += 32
         fp["shot"].zoom_x -= (fp["shot"].zoom_x - targetsprite.zoom_x)*0.1
         fp["shot"].zoom_y -= (fp["shot"].zoom_y - targetsprite.zoom_y)*0.1
-        fp["shot"].x += (player ? -1 : 1)*(x2 - cx)/24
-        fp["shot"].y -= (player ? -1 : 1)*(cy - y2)/24
+        fp["shot"].x += (player ? -1 : 1)*(x2 - x)/24#(player ? 1 : 1)*(x2 - cx)/(player ? 72 : 24)
+        fp["shot"].y -= (player ? -1 : 1)*(y - y2)/24#(player ? 1 : 1)*(cy - y2)/(player ? 72 : 24)
         for j in 0...8
           fp["#{j}s"].visible = true
           fp["#{j}s"].opacity -= 32
@@ -343,13 +351,14 @@ class PokeBattle_Scene
       wait(1,i < 12)
     end
     shake = 2
+    # Hit Target
     16.times do
-      fp["shot"].angle = Math.atan(1.0*(@vector.y-@vector.y2)/(@vector.x2-@vector.x))*(180.0/Math::PI) + (player ? 180 : 0)
+      fp["shot"].angle = Math.atan(1.0*(y-y2)/(x2-x))*(180.0/Math::PI) + (player ? 180 : 0)
       fp["shot"].opacity += 32
       fp["shot"].zoom_x -= (fp["shot"].zoom_x - targetsprite.zoom_x)*0.1
       fp["shot"].zoom_y -= (fp["shot"].zoom_y - targetsprite.zoom_y)*0.1
-      fp["shot"].x += (player ? -1 : 1)*(x2 - x)/24
-      fp["shot"].y -= (player ? -1 : 1)*(y - y2)/24
+      fp["shot"].x += (player ? -1 : 1)*(x2 - x)/(player ? 72 : 24)
+      fp["shot"].y -= (player ? -1 : 1)*(y - y2)/(player ? 72 : 24)
       fp["bg"].color.alpha += 16
       fp["bg"].update
       targetsprite.addOx(shake)
@@ -583,7 +592,9 @@ class PokeBattle_Scene
     fp["shot"].opacity = 0
 
     x = defaultvector[0]; y = defaultvector[1]
-    x2, y2 = getCenter(targetsprite, true)
+    x2, y2 = @vector.spoof(defaultvector)
+    y2+=(player ? 0 : 40)
+    x2+=(player ? 60 : 180) #Added to make the animation go over the side of the screens
     fp["shot"].x = cx
     fp["shot"].y = cy
     pbSEPlay("eb_iron4",80)
@@ -592,7 +603,7 @@ class PokeBattle_Scene
       cx, cy = getCenter(usersprite)
       @vector.set(defaultvector) if i == 0
       if i > 0
-        fp["shot"].angle = Math.atan(1.0*(cy-y2)/(x2-cx))*(180.0/Math::PI) + (player ? 180 : 0)
+        fp["shot"].angle = Math.atan(1.0*(y-y2)/(x2-x))*(180.0/Math::PI) + (player ? 180 : 0)
         fp["shot"].opacity += 32
         fp["shot"].zoom_x -= (fp["shot"].zoom_x - targetsprite.zoom_x)*0.1
         fp["shot"].zoom_y -= (fp["shot"].zoom_y - targetsprite.zoom_y)*0.1
@@ -621,7 +632,7 @@ class PokeBattle_Scene
     end
     shake = 2
     16.times do
-      fp["shot"].angle = Math.atan(1.0*(@vector.y-@vector.y2)/(@vector.x2-@vector.x))*(180.0/Math::PI) + (player ? 180 : 0)
+      fp["shot"].angle = Math.atan(1.0*(y-y2)/(x2-x))*(180.0/Math::PI) + (player ? 180 : 0)
       fp["shot"].opacity += 32
       fp["shot"].zoom_x -= (fp["shot"].zoom_x - targetsprite.zoom_x)*0.1
       fp["shot"].zoom_y -= (fp["shot"].zoom_y - targetsprite.zoom_y)*0.1
@@ -1285,7 +1296,9 @@ class PokeBattle_Scene
     fp["shot"].opacity = 0
 
     x = defaultvector[0]; y = defaultvector[1]
-    x2, y2 = getCenter(targetsprite, true)
+    x2, y2 = @vector.spoof(defaultvector)
+    y2+=(player ? 0 : 40)
+    x2+=(player ? 60 : 180) #Added to make the animation go over the side of the screens
     fp["shot"].x = cx
     fp["shot"].y = cy
     pbSEPlay("eb_normal5",80)
@@ -1294,7 +1307,7 @@ class PokeBattle_Scene
       cx, cy = getCenter(usersprite)
       @vector.set(defaultvector) if i == 0
       if i > 0
-        fp["shot"].angle = Math.atan(1.0*(cy-y2)/(x2-cx))*(180.0/Math::PI) + (player ? 180 : 0)
+        fp["shot"].angle = Math.atan(1.0*(y-y2)/(x2-x))*(180.0/Math::PI) + (player ? 180 : 0)
         fp["shot"].opacity += 32
         fp["shot"].zoom_x -= (fp["shot"].zoom_x - targetsprite.zoom_x)*0.1
         fp["shot"].zoom_y -= (fp["shot"].zoom_y - targetsprite.zoom_y)*0.1
@@ -1323,7 +1336,7 @@ class PokeBattle_Scene
     end
     shake = 2
     16.times do
-      fp["shot"].angle = Math.atan(1.0*(@vector.y-@vector.y2)/(@vector.x2-@vector.x))*(180.0/Math::PI) + (player ? 180 : 0)
+      fp["shot"].angle = Math.atan(1.0*(y-y2)/(x2-x))*(180.0/Math::PI) + (player ? 180 : 0)
       fp["shot"].opacity += 32
       fp["shot"].zoom_x -= (fp["shot"].zoom_x - targetsprite.zoom_x)*0.1
       fp["shot"].zoom_y -= (fp["shot"].zoom_y - targetsprite.zoom_y)*0.1
@@ -3296,8 +3309,9 @@ class PokeBattle_Scene
     fp["shot"].opacity = 0
 
     x = defaultvector[0]; y = defaultvector[1]
-    x2 = targetsprite.x
-    y2 = targetsprite.y
+    x2, y2 = @vector.spoof(defaultvector)
+    y2+=(player ? 0 : 40)
+    x2+=(player ? 60 : 180) #Added to make the animation go over the side of the screens
     fp["shot"].x = cx
     fp["shot"].y = cy
     pbSEPlay("eb_normal5",80)
@@ -3306,12 +3320,12 @@ class PokeBattle_Scene
       cx, cy = getCenter(usersprite)
       @vector.set(defaultvector) if i == 0
       if i > 0
-        fp["shot"].angle = Math.atan(1.0*(@vector.y-@vector.y2)/(@vector.x2-@vector.x))*(180.0/Math::PI) + (player ? 180 : 0)
+        fp["shot"].angle = Math.atan(1.0*(y-y2)/(x2-x))*(180.0/Math::PI) + (player ? 180 : 0)
         fp["shot"].opacity += 32
         fp["shot"].zoom_x -= (fp["shot"].zoom_x - targetsprite.zoom_x)*0.1
         fp["shot"].zoom_y -= (fp["shot"].zoom_y - targetsprite.zoom_y)*0.1
-        fp["shot"].x += (player ? -1 : 1)*(x2 - x)/24
-        fp["shot"].y -= (player ? -1 : 1)*(y - y2)/24
+        fp["shot"].x += (player ? -1 : 1)*(x2 - cx)/24
+        fp["shot"].y -= (player ? -1 : 1)*(cy - y2)/24
         for j in 0...8
           fp["#{j}s"].visible = true
           fp["#{j}s"].opacity -= 32
@@ -3335,7 +3349,7 @@ class PokeBattle_Scene
     end
     shake = 2
     16.times do
-      fp["shot"].angle = Math.atan(1.0*(@vector.y-@vector.y2)/(@vector.x2-@vector.x))*(180.0/Math::PI) + (player ? 180 : 0)
+      fp["shot"].angle = Math.atan(1.0*(y-y2)/(x2-x))*(180.0/Math::PI) + (player ? 180 : 0)
       fp["shot"].opacity += 32
       fp["shot"].zoom_x -= (fp["shot"].zoom_x - targetsprite.zoom_x)*0.1
       fp["shot"].zoom_y -= (fp["shot"].zoom_y - targetsprite.zoom_y)*0.1

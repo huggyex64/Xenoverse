@@ -2,7 +2,9 @@ def pbFindEncounter(encounter,species)
   return false if !encounter
   for i in 0...encounter.length
     next if !encounter[i]
+    echoln encounter[i].length
     for j in 0...encounter[i].length
+      echoln "checking encounter #{j}"
       return true if encounter[i][j][0]==species
     end
   end

@@ -5,7 +5,7 @@ class DexNest
 		@sprites={}
 		@frame = 60
 		@maxframe = 80
-		
+		@species = species
 		pointsize = 16
 		
 		@sprites["region"] = Sprite.new(@viewport)
@@ -13,10 +13,15 @@ class DexNest
 		
 		@sprites["region"].bitmap = pbBitmap("Graphics/Pictures/mapRegion0")
 		
-		monsterIcon = pbBitmap("Graphics/Pictures/monsterIcon")
+		@monsterIcon = pbBitmap("Graphics/Pictures/monsterIcon")
 		@xsize = 512/pointsize
 		@ysize = 384/pointsize
 		
+		@sprites["daytime"] = Sprite.new(@viewport)
+		@sprites["daytime"].z = 50
+		@sprites["daytime"].x = 12
+		@sprites["daytime"].y = 12
+
 		@points = {}
 		for y in 0..@ysize
 			@points[y] = Hash.new
@@ -33,17 +38,36 @@ class DexNest
 		pbRgssOpen("Data/townmap.dat","rb"){|f|
 			@mapdata=Marshal.load(f)
 		}
-		region = 0
+		@region = 0
+		loadEncounters(true)
+		#echoln points
+		
+	end
+	
+	def loadEncounters(day=true)
+		echoln "#{day ? "DAY" : "NIGHT"}"
+		@sprites["daytime"].bitmap = pbBitmap("Graphics/Pictures/DexNew/#{(day ? "nestday" : "nestnight")}")
+		if @sprites["unknown"] && @sprites["unknown"].is_a?(Sprite)
+			@sprites["unknown"].dispose
+		end
+		
+		for y in 0..@ysize
+			for x in 0..@xsize
+				if @points[y][y] != nil
+					@points[y][x].bitmap.clear if @points[y][x].bitmap != nil
+				end
+			end
+		end
 		encdata=load_data("Data/encounters.dat")
 		points=[]
 		mapwidth=1+PokemonRegionMapScene::RIGHT-PokemonRegionMapScene::LEFT
 		for enc in encdata.keys
 			enctypes=encdata[enc][1]
-			if pbFindEncounter(enctypes,species)
+			if (day ? pbFindEncounterDay(enctypes,@species) : pbFindEncounterNight(enctypes,@species))
 				mappos=pbGetMetadata(enc,MetadataMapPosition)
-				if mappos && mappos[0]==region
+				if mappos && mappos[0]==@region
 					showpoint=true
-					for loc in @mapdata[region][2]
+					for loc in @mapdata[@region][2]
 						showpoint=false if loc[0]==mappos[1] && loc[1]==mappos[2] &&
 						loc[7] && !$game_switches[loc[7]]
 					end
@@ -66,9 +90,10 @@ class DexNest
 				end
 			end
 		end
+		echoln "Length #{@points.length} #{points.length}" 
 		if points.include?(true)
 			for point in 0...points.length
-				@points[point/@xsize][point% (@xsize)].bitmap = monsterIcon if points[point]
+				@points[point/@xsize][point% (@xsize)].bitmap = @monsterIcon.clone if points[point]
 			end
 		else
 			@sprites["unknown"] = Sprite.new(@viewport)
@@ -77,12 +102,9 @@ class DexNest
 			@sprites["unknown"].bitmap.font.name = "Barlow Condensed"
 			@sprites["unknown"].bitmap.font.size = $MKXP ? 28 : 30
 			pbDrawTextPositions(@sprites["unknown"].bitmap,[[_INTL("Unknown"),256,177,2,Color.new(248,248,248)]])
-			
 		end
-		echoln points
-		
 	end
-	
+
 	def update
 		@frame+=1
 		if @frame > @maxframe
@@ -106,4 +128,26 @@ class DexNest
 			pbDisposeSpriteHash(hash)
 		end
 	end
+end
+
+def pbFindEncounterDay(encounter,species)
+	return false if !encounter
+	for i in 0...encounter.length
+		next if !encounter[i] || i==11
+		for j in 0...encounter[i].length
+			return true if encounter[i][j][0]==species
+		end
+	end
+	return false
+end
+
+def pbFindEncounterNight(encounter,species)
+	return false if !encounter
+	for i in 0...encounter.length
+		next if !encounter[i] || i!=11
+		for j in 0...encounter[i].length
+			return true if encounter[i][j][0]==species
+		end
+	end
+	return false
 end
