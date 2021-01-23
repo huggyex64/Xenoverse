@@ -15398,8 +15398,8 @@ There's a narrow line between fishing and sitting on the beach like a fool...the
 Alex
 Alex
 Dai amico|a, facciamoci una lotta Pokémon mentre aspetto che arrivi l’onda perfetta!
- I'm waitin' for a big wave to come...let's have a Pokémon<<n>>battle in the meantime, c'mon!
- Ho capito! Non sarà l’onda perfetta a venire da me, sono io che devo cercarla!
+I'm waitin' for a big wave to come...let's have a Pokémon<<n>>battle in the meantime, c'mon!
+Ho capito! Non sarà l’onda perfetta a venire da me, sono io che devo cercarla!
 I got it! The perfect wave won't come to me...I need to look for it!
 Non sarà l’onda perfetta a venire da me, sono io che devo cercarla!
 The perfect wave won't come to me...<<n>>I need to look for it!
@@ -15412,7 +15412,7 @@ Elegance is everything for Swimmers!
 Non avremo vinto la lotta, ma hai visto che leggiadria io e Gorebyss?
 We may have lost the battle, but Gorebyss and I are graceful, aren't we?
 Con questo, anche il tuo Clamperl potrà vantare il fascino di un Gorebyss.
-With this, even your Clamperl can match the alluring charm of a Gorebyss.
+With this, even your Clamperl can match the alluring<<n>>charm of a Gorebyss.
 Valerio
 Roger
 Non me ne andrò da qui finché non avrò pescato il pesce più grosso dell’oceano!
@@ -15605,7 +15605,7 @@ Stay the hell away from that north islet with a strange<<n>>palm tree in the mid
 Patricia
 Patricia
 Vediamo un po’ se sono capace di nuotare e lottare allo stesso tempo!
-Let's see if you are able to swim and battle<<n>>at the same time!
+Let's see if I'm able to swim and battle<<n>>at the same time!
 Ho proprio fatto un buco nell’acqua...
 That's a real wild-goose chase...
 Holland
@@ -17224,10 +17224,10 @@ Don't celebrate just yet, Kay...Luxflon has stopped...?
 Elder
 Elder
 Se sei riuscito|a ad arrivare sin qui con le tue sole forze, significa che sei un Allenatore di tutto rispetto. Ora solo un cammino ti attende: la <b>Via Vittoria</b>, il sentiero che porta alle stelle più alte nel cielo!
-If you managed to get here on your own, this means<<n>>that you're a respectable Trainer.<<n>>Now, one last walk is waiting for you--the <b>Victory Road</b>,<<n>>the path that leads to the highest stars in the sky!
+If you managed to get here on your own, this means<<n>>that you're a respectable Trainer.<<n>>Now, one last walk is waiting for you--<<n>>the <b>Victory Road</b>...<<n>>...the path that leads to the highest stars in the sky!
 [Map388]
 <<[>>old<<]>><b>Monte Zodiaco</b> <i>''Dove le stelle si riuniscono in un'unica costellazione!''</i>
-<<[>>old<<]>><b>Monte Zodiaco</b> <i>''Dove le stelle si riuniscono in un'unica costellazione!''</i>
+<<[>>old<<]>><b>Mt. Zodiac</b>\n<i>''Where stars shine in one single constellation!''</i>
 Leon
 Leon
 Ho camminato in lungo e in largo, ma di quell’antico <b>Idolo d’Acqua</b> neanche l’ombra...
@@ -17266,9 +17266,9 @@ Nurse Joy
 I Cardinali sono impegnati con delle cerimonie sacre. Meglio non disturbarli!
 I Cardinali sono impegnati con delle cerimonie sacre. Meglio non disturbarli!
 <<[>>old<<]>><b>ATTENZIONE!</b>
-<<[>>old<<]>><b>ATTENZIONE!</b>
+<<[>>old<<]>><b>WARNING!</b>
 <<[>>old<<]>>Accedendo al <b>Monte Zodiaco</b>, non potrai più utilizzare un Centro Pokémon o fare acquisti per l’intera scalata. Vuoi davvero proseguire?
-<<[>>old<<]>>Accedendo al <b>Monte Zodiaco</b>, non potrai più utilizzare un Centro Pokémon o fare acquisti per l’intera scalata. Vuoi davvero proseguire?
+<<[>>old<<]>>Once you enter <b>Mt. Zodiac</b>, you can never use a Pokémon Center or stock up on any kind of item.\nDo you wish to proceed? 
 Ciao! Benvenuto|a nel Centro Pokémon del Monte Zodiaco! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
 Hello!<<n>>Welcome to Mt. Zodiac's Pokémon Center!<<n>>In this building, we restore your tired Pokémon to full health.<<n>>Would you like to rest your Pokémon?
 Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
@@ -17284,27 +17284,31 @@ Yes
 No
 No
 [Map390]
-<<[>>old<<]>> Non puoi tornare indietro.
-<<[>>old<<]>> Non puoi tornare indietro.
+<<[>>old<<]>>Non puoi tornare indietro.
+<<[>>old<<]>>You cannot go back.
 [Map391]
 Chua
 Chua
 Per anni ho custodito il Tempio Shyleon nella speranza di fare ritorno in questa terra santa, un giorno...
-Per anni ho custodito il Tempio Shyleon nella speranza di fare ritorno in questa terra santa, un giorno...
+For years I guarded the Shyleon Temple hoping to come<<n>>back in this sacred land, someday...
+Una landa in cui il supremo Luxflon plasma la terra su misura per i suoi Cardinali... A quanto di più alto può aspirare un uomo?
+A land where the almighty Luxflon molded the earth<<n>>just for its Cardinals...<<n>>Is there anything more a man can crave?
 Prescelto, è infine per merito tuo che io giaccio qui, in grembo al Monte Zodiaco... Ebbene, tienti pronto|a! Ti dimostrerò la mia gratitudine in un efferato scontro senza esclusione di colpi!
-Prescelto, è infine per merito tuo che io giaccio qui, in grembo al Monte Zodiaco...  Ebbene, tienti pronto|a! Ti dimostrerò la mia gratitudine in un efferato scontro senza esclusione di colpi!
+Chosen one, it's thanks to you that I'm now able to stand here, at the base of Mt. Zodiac...<<n>>Very well, I hope you're ready! I'm going to show you<<n>>my gratitude with a fierce battle!
 Hai dimostrato una mente tanto ferma quanto eccelsa, prescelto.
-Hai dimostrato una mente tanto ferma quanto eccelsa, prescelto.
+Your mind is as strong as it is sharp, chosen one. You showed me that.
 Non sei stato|a in grado di dimostrare il tuo valore in una lotta, ma non demordere! Se il supremo Luxflon ha riposto le sue speranze in te ci sarà un motivo...
-Non sei stato|a in grado di dimostrare il tuo valore in una lotta, ma non demordere! Se il supremo Luxflon ha riposto le sue speranze in te ci sarà un motivo...
+You weren't capable of showing your worth in battle,<<n>>but don't give up!<<n>>There must be a reason if the almighty Luxflon put<<n>>its hopes in you...
 Tanto ho atteso la venuta di un messia, domandandomi se fosse realmente all'altezza del compito cui la sorte lo aveva destinato...
-Tanto ho atteso la venuta di un messia, domandandomi se fosse realmente all'altezza del compito cui la sorte lo aveva destinato...
+For a long time I've awaited the arrival of a messiah,<<n>>asking myself if they would have been worthy<<n>>of the task fate brought upon them...
+Ora che ho potuto provarlo sulla mia pelle, però, ogni dubbio è svanito completamente!
+Now that I've seen it for myself, though, any doubt<<n>>was cast aside!
 \PN, meriti davvero di fregiarti del nome di prescelto.
-\PN, meriti davvero di fregiarti del nome di prescelto.
+\PN, you really deserve your title of chosen one.
 Tuttavia, io non sono che il primo degli avversari che affronterai oggi! Sfide ardue ti attendono ancora su questi monti. Sarà bene placare mente e spirito prima di proseguire.
-Tuttavia, io non sono che il primo degli avversari che affronterai oggi! Sfide ardue ti attendono ancora su questi monti. Sarà bene placare mente e spirito prima di proseguire.
+However, I'm but the first opponent of the several<<n>>you will have to face today!<<n>>Harsh battles await you further in this mountain. You'd better quell both mind and soul before progressing.
 Sfide ardue ti attendono ancora su questi monti. Sarà bene placare mente e spirito prima di proseguire.
-Sfide ardue ti attendono ancora su questi monti.  Sarà bene placare mente e spirito prima di proseguire.
+Harsh challenges await you further in this mountain. You'd better quell both your mind and soul before progressing.
 Ciao \PN, o meglio Campione. E' davvero un'onore rivederti qui.
 Ciao \PN, o meglio Campione. E' davvero un'onore rivederti qui.
 Preparati a sfidare il sottoscritto Chua, Cardinale di Ofiuchia, protettore del Tempio Shyleon.
@@ -17316,39 +17320,41 @@ Se non riesci a battermi non potrai mai arrivare alla Vetta. Ti aspetto quando s
 Incredibile... Il tuo potere va oltre le stelle \PN.
 Incredibile... Il tuo potere va oltre le stelle \PN.
 Ti do il benvenuto, prescelto.
-Ti do il benvenuto, prescelto.
-<<[>>old<<]>> Non puoi tornare indietro.
-<<[>>old<<]>> Non puoi tornare indietro.
+Welcome, chosen one.
+<<[>>old<<]>>Non puoi tornare indietro.
+<<[>>old<<]>>You cannot go back.
 [Map392]
-<<[>>old<<]>> Non puoi tornare indietro.
-<<[>>old<<]>> Non puoi tornare indietro.
+<<[>>old<<]>>Non puoi tornare indietro.
+<<[>>old<<]>>You cannot go back.
 [Map393]
 Castalia
-Castalia
+Niva
 Sei arrivato|a alla fine!
-Sei arrivato|a alla fine!
-<<[>>old<<]>> Non puoi tornare indietro.
-<<[>>old<<]>> Non puoi tornare indietro.
+So you've come, at last!
+<<[>>old<<]>>Non puoi tornare indietro.
+<<[>>old<<]>>You cannot go back.
 Chi se lo aspettava che fossi tu il prescelto di cui si fa un gran parlare? Io sono <b>Castalia</b>, lieta di fare la tua conoscenza!
-Chi se lo aspettava che fossi tu il prescelto di cui si fa un gran parlare? Io sono <b>Castalia</b>, lieta di fare la tua conoscenza!
+Who would have expected you to be the chosen one<<n>>everyone's making a fuss about?
 Brr!
 Brr!
 Un brivido percorre la mia schiena al pensiero che Luxflon ci abbia voluti|e entrambi|e qui... Il nostro è un incontro dettato dal destino!
-Un brivido percorre la mia schiena al pensiero che Luxflon ci abbia voluti|e entrambi|e qui... Il nostro è un incontro dettato dal destino!
+I can't help but shiver when I think that Luxflon<<n>>wanted us both here at the same time...<<n>>Our meeting was decided by fate!
 Sarò anche la più giovane tra tutti i Cardinali, ma non per questo non adempirò a dovere al mio compito! Vedrai, la mia freddezza ti lascerà come una statua di ghiaccio! Fatti sotto!
-Sarò anche la più giovane tra tutti i Cardinali, ma non per questo non adempirò a dovere al mio compito! Vedrai, la mia freddezza ti lascerà come una statua di ghiaccio! Fatti sotto!
+I may be the youngest Cardinal, but that doesn't mean<<n>>I won't fulfill my duty as seriously as the other ones!<<n>>You'll see, my coldness is going to freeze you solid!<<n>>Come at me!
 Brrrrr!! Ho i brividi fin dentro le ossa!
-Brrrrr!! Ho i brividi fin dentro le ossa!
+Brrrrr! Even my bones are shivering!
 Temo proprio di aver esagerato... Ma è giusto che abbia dato tutta me stessa in questa lotta! Prova e riprova fino alla perfezione, prescelto!!
-Temo proprio di aver esagerato... Ma è giusto che abbia dato tutta me stessa in questa lotta! Prova e riprova fino alla perfezione, prescelto!!
+I'm afraid I overdid it there...but it's only fair I gave it<<n>>my all in this battle!<<n>>But practice makes perfect, chosen one!!
+Wow! Davvero un duello meraviglioso!
+Wow! That was a majestic duel!
 Se è vero che il freddo conserva, spero faccia sì che non me ne dimentichi!
-Se è vero che il freddo conserva, spero faccia sì che non me ne dimentichi!
+If it's true that cold preserves things, then I hope it will<<n>>preserve this memory in my mind forever!
 Lascia che ti dica una cosa...
-Lascia che ti dica una cosa...
+Let me tell you something...
 Nessun fiocco di neve sarà mai uguale ad un altro, ma sarà comunque splendido in egual modo... Tienilo bene a mente e continua a farti strada! Gli altri Cardinali ti stanno aspettando!
-Nessun fiocco di neve sarà mai uguale ad un altro,  ma sarà comunque splendido in egual modo... Tienilo bene a mente e continua a farti strada!  Gli altri Cardinali ti stanno aspettando!
+No snowflake will ever be the same as another one,<<n>>but it will be as splendid regardless...<<n>>Keep it in your thoughts and push forward!<<n>>The other Cardinals await you!
 Continua a farti strada, avanti! Gli altri Cardinali ti stanno aspettando!
-Continua a farti strada, avanti! Gli altri Cardinali ti stanno aspettando!
+Keep pushing forward! The other Cardinals await you!
 Hey \PN, che ci fa il Campione da queste parti?
 Hey \PN, che ci fa il Campione da queste parti?
 Sai, da quando sei riuscito|a a battere Aster, mi sono allenata davvero tanto, e sarà davvero difficile questa volta arrivare sulla vetta.
@@ -17364,37 +17370,37 @@ La tua forza è davvero leggendaria... Ma un giorno riuscirò a batterti!
 Se non l'hai ancora fatto, ti ricordo il mio invito a Tauronordia dopo questa tua avventura. Ti aspetto!
 Se non l'hai ancora fatto, ti ricordo il mio invito a Tauronordia dopo questa tua avventura. Ti aspetto!
 [Map394]
-<<[>>old<<]>> Non puoi tornare indietro.
-<<[>>old<<]>> Non puoi tornare indietro.
+<<[>>old<<]>>Non puoi tornare indietro.
+<<[>>old<<]>>You cannot go back.
 [Map395]
 Oleandro
-Oleandro
+Abraham
 Attendevo il tuo arrivo, o prescelto.
-Attendevo il tuo arrivo, o prescelto.
-<<[>>old<<]>> Non puoi tornare indietro.
-<<[>>old<<]>> Non puoi tornare indietro.
+I was waiting for your arrival, chosen one.
+<<[>>old<<]>>Non puoi tornare indietro.
+<<[>>old<<]>>You cannot go back.
 Rimembro come fosse ieri l’altro il giorno in cui le nostre strade s’intrecciarono sulla vetta del Vulcano Pulsar.
-Rimembro come fosse ieri l’altro il giorno in cui le nostre strade s’intrecciarono sulla vetta del Vulcano Pulsar.
+I remember the day our paths crossed at the top of<<n>>Mt. Starburst like the day before yesterday.
 All’epoca eri ancora inesperto|a, ma nelle stelle già si leggeva che eri destinato|a a compiere incredibili gesta.
-All’epoca eri ancora inesperto|a, ma nelle stelle già si leggeva che eri destinato|a a compiere incredibili gesta.
+Back then you were still green, but I could already read in the stars you were destined to accomplish great deeds.
 Pertanto, allora decisi di offrirti il mio aiuto, ma ora, il supremo Luxflon ha scelto per me un altro sentiero... Sarà mio dovere mettere alla prova il prescelto per obbligarlo ad attingere alla totalità del suo potenziale!
-Pertanto, allora decisi di offrirti il mio aiuto, ma ora, il supremo Luxflon ha scelto per me un altro sentiero...  Sarà mio dovere mettere alla prova il prescelto per obbligarlo ad attingere alla totalità del suo potenziale!
+So, I decided to help you then, but now, the almighty<<n>>Luxflon chose another path for me...<<n>>My duty will now be to test the chosen one to force him||er to use his||er potential to its fullest extent!
 Perciò, su questo sacro monte, sulle cui vette non è mai né giorno, né notte, per volere dell’Altissimo...
-Perciò, su questo sacro monte, sulle cui vette non è mai né giorno, né notte, per volere dell’Altissimo...
+Therefore, on this sacred mountain, whose peaks are never touched by either day or night, as the Almighty's wish...
 ... io, Oleandro, l’ultimo dei Cardinali, ti sottoporrò alla ferocia dei Pokémon Drago!
-... io, Oleandro, l’ultimo dei Cardinali, ti sottoporrò alla ferocia dei Pokémon Drago! 
+...I, Abraham--the last Cardinal--will test your might against the fury of my Dragon-type Pokémon!
 Non posso che dirmi orgoglioso di aver coltivato un simile talento.
-Non posso che dirmi orgoglioso di aver coltivato un simile talento.
+I can only be proud of being able to cultivate a talent such as yours.
 Sei quasi riuscito|a nel tentativo di sfiorare la vetta, ma purtroppo un ultimo ostacolo ti ha abbattuto|a. La tua scalata riparte dal principio, \PN.
-Sei quasi riuscito|a nel tentativo di sfiorare la vetta, ma purtroppo un ultimo ostacolo ti ha abbattuto|a. La tua scalata riparte dal principio, \PN.
+You almost managed to grasp the peak, but, unfortunately,<<n>>one last obstacle overthrew you.<<n>>Your climb will have to restart from the beginning,<<n>>\PN.
 Colui||ei che non lascia che il capital peccato dell’ira lo|a stringa tra le sue strette fauci, ma al contrario, è in grado di imbrigliarlo, senza rinunciare al suo impeto dirompente pari a quello d’un vulcano...
-Colui||ei che non lascia che il capital peccato dell’ira lo|a stringa tra le sue strette fauci, ma al contrario, è in grado di imbrigliarlo, senza rinunciare al suo impeto dirompente pari a quello d’un vulcano...
+Those who don't let the capital sin of rage devour them,<<n>>but, on the contrary, are able to tame it,<<n>>without having to let go of its overwhelming power<<n>>equal to that of a volcano...
 Questa è la linea di confine che separa l’uomo comune da un degno prescelto!
-Questa è la linea di confine che separa l’uomo comune da un degno prescelto!
+This is the crossline between common people<<n>>and chosen ones!
 \PN, sfidandoti, noi Quattro Cardinali abbiamo assolto al compito cui eravamo destinati.
-\PN, sfidandoti, noi Quattro Cardinali abbiamo assolto al compito cui eravamo destinati.
+\PN, by challenging you, us Four Cardinals have<<n>>fulfilled the duty we were destined to.
 E allora va’, volgi il tuo sguardo sulla terra che proteggi dalla cima del monte che la sovrasta... La vetta degli dèi è tua!
-E allora va’, volgi il tuo sguardo sulla terra che proteggi dalla cima del monte che la sovrasta... La vetta degli dèi è tua!
+Now go, turn your sight towards the land you're protecting from the peak of the mountain that sees it all...<<n>>The peak where gods rest is yours!
 Qual buon vento Campione. Sei venuto qui per risalire in cima al Monte Zodiaco?
 Qual buon vento Campione. Sei venuto qui per risalire in cima al Monte Zodiaco?
 E' giusto che le nuove generazioni diventino sempre più potenti affinchè si possa proteggere questa regione, ma sappi che anche noi vecchi Cardinali ogni giorno ci potenziamo, e i miei Pokémon di tipo Drago sono pronti per risfidarti.
@@ -17410,29 +17416,31 @@ Le nuove generazioni sono incredibili... E tu \PN, mi hai dimostrato ancora una 
 Il Campione ti sta aspettando sulla vetta del Monte Zodiaco. La battaglia finale sarà lì, corri!
 Il Campione ti sta aspettando sulla vetta del Monte Zodiaco. La battaglia finale sarà lì, corri!
 [Map396]
-<<[>>old<<]>> Non puoi tornare indietro.
-<<[>>old<<]>> Non puoi tornare indietro.
+<<[>>old<<]>>Non puoi tornare indietro.
+<<[>>old<<]>>You cannot go back.
 [Map397]
 Peyote
 Peyote
 Eccovi, prescelto.
-Eccovi, prescelto.
+There you are, chosen one.
 Sapete, prima di diventare Cardinale, ho girato il mondo in lungo e in largo. Volevo sapere quali meraviglie si nascondessero al di là dell'arido Canyon Asteroide!
-Sapete, prima di diventare Cardinale, ho girato il mondo in lungo e in largo. Volevo sapere quali meraviglie si nascondessero al di là dell'arido Canyon Asteroide!
+You know, before being chosen as a Cardinal,<<n>>I wandered all over the world.<<n>>I wanted to know the marvels hidden beyond<<n>>Sunflare Canyon!
+Fitte foreste, fiumi impetuosi, vasti oceani, vette innevate... ecco cosa ci riserva la natura.
+Thick woods, raging rivers, vast oceans, snowy peaks...<<n>>Those were the things nature gifted us.
 Ogni giorno renderò grazie all'Essere di Luce per avermi concesso di ammirare queste meraviglie!
-Ogni giorno renderò grazie all'Essere di Luce per avermi concesso di ammirare queste meraviglie!
+Everyday I'll thank the Light Being for letting me<<n>>be able to witness the beauty of these marvels!
 E ora che ho finalmente l'occasione di ripagare tutto questo, non me la lascerò scappare! Sta' a vedere, nonno. Il tuo Peyote sta per prendere il volo!
-E ora che ho finalmente l'occasione di ripagare tutto questo, non me la lascerò scappare! Sta' a vedere, nonno. Il tuo Peyote sta per prendere il volo!
+And now that I'm finally able to repay all of this,<<n>>I won't let this chance slip!<<n>>Behold, grandpa. Your Peyote is ready to soar!
 Mayday! Ho perso la rotta...
-Mayday! Ho perso la rotta... 
+Mayday! I lost my route... 
 Perché trattenete la vostra forza, prescelto?! Dimostratemi che l’Altissimo non si sbagliava su di voi!
-Perché trattenete la vostra forza, prescelto?! Dimostratemi che l’Altissimo non si sbagliava su di voi!
+Why are you holding yourself, chosen one?! Show me that<<n>>the Almighty wasn't mistaken about you!
 Anche il rapace più violento non può nulla dinanzi a una tempesta... Ho dato tutto me stesso in questa lotta, ma voi avete dimostrato una forza senza eguali.
-Anche il rapace più violento non può nulla dinanzi a una tempesta... Ho dato tutto me stesso in questa lotta, ma voi avete dimostrato una forza senza eguali.
+Even the strongest of predator birds can't stand a chance<<n>>against a tempest...<<n>>I gave everything I had in this battle, but you showed me<<n>>a strength without equals.
 Non mi aspettavo di meno dall'Allenatore prediletto di Luxflon! Cime più alte ora vi attendono. Coraggio, spiegate le ali e proseguite!
-Non mi aspettavo di meno dall'Allenatore prediletto di Luxflon! Cime più alte ora vi attendono. Coraggio, spiegate le ali e proseguite!
+I expected no less from the Trainer chosen<<n>>by Luxflon!<<n>>Even greater heights await you. Now, spread your wings<<n>>and push forward!
 Cime più alte ora vi attendono. Coraggio, spiegate le ali e proseguite!
-Cime più alte ora vi attendono. Coraggio, spiegate le ali e proseguite!
+Even greater heights await you. Now, spread your wings<<n>>and push forward!
 Che bello vederti \PN. Sei qui per un rematch sul Monte Zodiaco, non è così?
 Che bello vederti \PN. Sei qui per un rematch sul Monte Zodiaco, non è così?
 Io sono Peyote. Protettore delle Cascate Firmamento e del sommo Luxflon. Dimostra la tua vera potenza in questa lotta Pokémon.
@@ -17443,50 +17451,52 @@ Se non riesci a battermi non potrai mai arrivare alla Vetta. Ti aspetto quando s
 Se non riesci a battermi non potrai mai arrivare alla Vetta. Ti aspetto quando sarai pronto per sfidarmi.
 TSK, ho ancora molta strada da fare prima di sconfiggerti.
 TSK, ho ancora molta strada da fare prima di sconfiggerti.
-<<[>>old<<]>> Non puoi tornare indietro.
-<<[>>old<<]>> Non puoi tornare indietro.
+<<[>>old<<]>>Non puoi tornare indietro.
+<<[>>old<<]>>You cannot go back.
 [Map398]
 Tu
-Tu
+You
 ...!
 ...!
-<<[>>old<<]>> Non puoi tornare indietro.
-<<[>>old<<]>> Non puoi tornare indietro.
+<<[>>old<<]>>Non puoi tornare indietro.
+<<[>>old<<]>>You cannot go back.
 [Map399]
-<<[>>old<<]>> Non puoi tornare indietro.
-<<[>>old<<]>> Non puoi tornare indietro.
+<<[>>old<<]>>Non puoi tornare indietro.
+<<[>>old<<]>>You cannot go back.
 L'universo... qualcosa di così immenso da non poter essere colto nella sua totalità.
-L'universo... qualcosa di così immenso da non poter essere colto nella sua totalità.
+The universe...something so immense its length<<n>>can't even be fathomed.
+Dinanzi al suo millenario splendore, noi uomini non siamo che pulviscolo... Tutto ciò che possiamo fare è ammirarlo in religioso silenzio.
+Before its millennial splendor, us humans are but dust...<<n>>All we can do is admire it in religious silence.
 A noi però è stato concesso il privilegio di poter ammirare questo splendido panorama da quassù...
-A noi però è stato concesso il privilegio di poter ammirare questo splendido panorama da quassù...
+We, however, were granted the privilege of<<n>>witnessing this splendid sight from this peak...
 Aster
 Aster
 Dovremmo sentirci onorati! Non credi, \PN?
-Dovremmo sentirci onorati! Non credi, \PN?
+We should be honored! Don't you think so, \PN?
 Ho atteso con ansia il momento in cui mi sarei potuto finalmente misurare con te... ... e l'universo ha voluto che accadesse proprio qui, sulla vetta che domina tutta Eldiw!
-Ho atteso con ansia il momento in cui mi sarei potuto finalmente misurare con te... ... e l'universo ha voluto che accadesse proprio qui, sulla vetta che domina tutta Eldiw!
+I was craving for the moment when you and I could<<n>>finally face each other in a battle<<n>>and the universe wanted it to happen here, on the peak<<n>>that dominates the whole Eldiw!
 E allora, cosa aspettiamo? Una volta tanto, lasciamo che sia l'universo a guardare!
-E allora, cosa aspettiamo? Una volta tanto, lasciamo che sia l'universo a guardare!
+What are we waiting for, then? For once, the universe<<n>>will have to watch!
 Forza, \PN! Facciamo sì che gli astri assistano ad uno spettacolo mai visto prima!
-Forza, \PN! Facciamo sì che gli astri assistano ad uno spettacolo mai visto prima!
+C'mon, \PN! Let's give the stars a show like no one<<n>>they've ever seen before!
 Una stella è nata davanti ai miei occhi!
-Una stella è nata davanti ai miei occhi!
+A star was just born before my very own eyes!
 La prima volta in cui ti ho visto|a lottare contro quell'Elekid ho pensato fossi capace di grandi cose. Qualunque ostacolo incontrassi sul tuo cammino non faceva che renderti via via più forte...
-La prima volta in cui ti ho visto|a lottare contro quell'Elekid ho pensato fossi capace di grandi cose. Qualunque ostacolo incontrassi sul tuo cammino non faceva che renderti via via più forte...
+The first time I saw you fight against that Elekid I thought you would have been able to accomplish any goal.<<n>>Any obstacle you met did nothing but help you in your quest to become stronger and stronger...
 I Capipalestra, i Quattro Cardinali... infine, lo stesso Luxflon ha voluto mettere alla prova il tuo valore!
-I Capipalestra, i Quattro Cardinali... infine, lo stesso Luxflon ha voluto mettere alla prova il tuo valore!
+The Gym Leaders, the Four Cardinals...and at last,<<n>>even Luxflon itself wanted to test your might!
 Ebbene, posso finalmente dire con certezza di non essermi mai sbagliato sul tuo conto.
-Ebbene, posso finalmente dire con certezza di non essermi mai sbagliato sul tuo conto.
+Well, I can finally say without the slightest hint of a doubt<<n>>that I was right all along.
 Sei davvero degno|a di portare il nome di prescelto!
-Sei davvero degno|a di portare il nome di prescelto!
+You really are worthy of the title of chosen one!
 Questo magnifico cielo stellato è tutto per te, \PN. Goditelo.
-Questo magnifico cielo stellato è tutto per te, \PN. Goditelo.
+This magnificent starry sky is for you, \PN.<<n>>Enjoy it.
 Tutto ciò che hai vissuto, nel bene e nel male, ti ha reso ciò che sei ora... La stella che splende più radiosa nell'intero firmamento!
-Tutto ciò che hai vissuto, nel bene e nel male, ti ha reso ciò che sei ora...  La stella che splende più radiosa nell'intero firmamento! 
+Everything you went through, may it be good or bad,<<n>>molded you into who you are now...<<n>>The brightest star in the entire sky!
 <<[>>old<<]>>Per Aspera Ad Astra.
 <<[>>old<<]>>Per Aspera Ad Astra.
 <<[>>old<<]>>Una settimana più tardi...
-<<[>>old<<]>>Una settimana più tardi...
+<<[>>old<<]>>A week later...
 \PN, ti aspettavi davvero di trovare Aster? Beh sai che ormai è totalmente impegnato come Professor Pokémon...
 \PN, ti aspettavi davvero di trovare Aster? Beh sai che ormai è totalmente impegnato come Professor Pokémon...
 Versil
@@ -17518,9 +17528,9 @@ Per Aspera Ad Astra!
 <<[>>old<<]>>Non hai abbastanza soldi.
 <<[>>old<<]>>You don't have enough money.
 <<[>>old<<]>>L'aura dorata di Ho-Oh sblocca il passaggio.
-<<[>>old<<]>>L'aura dorata di Ho-Oh sblocca il passaggio.
+<<[>>old<<]>>Ho-Oh's golden aura took the wall down.
 <<[>>old<<]>>Una spessa parete intralcia il passaggio. Forse l'aura di un Pokémon dorato potrebbe sbloccarlo...
-<<[>>old<<]>>Una spessa parete intralcia il passaggio. Forse l'aura di un Pokémon dorato potrebbe sbloccarlo...
+<<[>>old<<]>>A thick wall is blocking the way. Maybe the aura from a golden Pokémon could take it down...
 Sì
 Yes
 No
@@ -17581,9 +17591,9 @@ No
 No
 [Map406]
 <<[>>old<<]>>L'aura argentea di Lugia sblocca il passaggio.
-<<[>>old<<]>>L'aura argentea di Lugia sblocca il passaggio.
+<<[>>old<<]>>Lugia's silver aura took the wall down.
 <<[>>old<<]>>Una spessa parete intralcia il passaggio. Forse l'aura di un Pokémon argenteo potrebbe sbloccarlo...
-<<[>>old<<]>>Una spessa parete intralcia il passaggio. Forse l'aura di un Pokémon argenteo potrebbe sbloccarlo...
+<<[>>old<<]>>A thick wall is blocking the way. Maybe the aura from a silver Pokémon could take it down
 [Map407]
 ???
 ???
@@ -17779,7 +17789,7 @@ Only a few Trainers are capable of getting through<<n>>Victory Road and reaching
 Augusto
 Norman
 Ho provato ad incamminarmi per la <b>Via Vittoria<b> alla ricerca di un <b>Cyndaquil</b>, ma niente da fare... Non ho potuto nulla contro i feroci Pokémon di quel sentiero selvaggio!
-I've tried entering <b>Victory Road<b> to look for<<n>>a <b>Cyndaquil</b>, but no luck...<<n>>I couldn't do anything against those savage Pokémon<<n>>that live in that wild path!
+I've tried entering <b>Victory Road</b> to look for<<n>>a <b>Cyndaquil</b>, but no luck...<<n>>I couldn't do anything against those savage Pokémon<<n>>that live in that wild path!
 Fabri
 Fab
 Si vocifera che la Via Vittoria sia piena zeppa di Allenatori formidabili e Pokémon selvatici ferocissimi.
@@ -57018,7 +57028,7 @@ Where to jump?
 There seem to be unsaved changes.
 There seem to be unsaved changes.
 {1} sent out {2}! {3} sent out {4}!
-{1} sent<<r>> out {2}! {3} sent<<r>> out {4}!
+{1} sent<<r>>out {2}! {3} sent<<r>>out {4}!
 \se<<[>>itemlevel<<]>> Trovata una \c<<[>>1<<]>>{1}\c<<[>>0<<]>>!<<n>>Che contiene \c<<[>>1<<]>>{2}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
 \se<<[>>itemlevel<<]>>You found \c<<[>>1<<]>>{1}\c<<[>>0<<]>>!<<n>>It contains \c<<[>>1<<]>>{2}\c<<[>>0<<]>>.\wtnp<<[>>30<<]>>
 {1} sistema \c<<[>>1<<]>>{2}\c<<[>>0<<]>><<n>>nella tasca \c<<[>>1<<]>>{3}\c<<[>>0<<]>>
