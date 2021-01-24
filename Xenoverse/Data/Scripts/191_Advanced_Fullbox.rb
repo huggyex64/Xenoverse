@@ -336,7 +336,7 @@ class Fullbox
 			writer.clear
 			#writer.draw_text(0,0,Graphics.width-80,60,text2)
 			writer.drawFormattedTextFullbox(writer,0,10 + NEW_FONT_LINE_OFFSET,Graphics.width,text2,Color.new(255,255,255))
-      #Log.d(FT_LOG,"" + (bitmap.height - rect.height).to_s + "/" + bitmap.height.to_s)
+      		#Log.d(FT_LOG,"" + (bitmap.height - rect.height).to_s + "/" + bitmap.height.to_s)
 			bitmap.blt(0,(bitmap.height - TEXT_FONT.size - ($MKXP ? 4:0)),writer,rect)
 		end
 		writer.dispose

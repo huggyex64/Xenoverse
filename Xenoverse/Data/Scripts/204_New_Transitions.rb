@@ -2764,6 +2764,7 @@ class SunMoonBattleTransitions
       self.update
       Graphics.update
     end
+    @sprites["trainer"].tone = Tone.new(0,0,0)
     # wraps glow around trainer
     16.times do
       @sprites["glow"].src_rect.height += @viewport.rect.height/16
@@ -2774,7 +2775,7 @@ class SunMoonBattleTransitions
       Graphics.update
     end
     # flashes viewport
-    @viewport.color = Color.new(255,255,255,0)
+    #@viewport.color = Color.new(255,255,255,0)
     8.times do
       if @variant != "plasma" && @variant != "cardinal" 
         @sprites["glow"].tone.red += 32
@@ -2799,6 +2800,7 @@ class SunMoonBattleTransitions
       @sprites["trainer"].tone.red += 64
       @sprites["trainer"].tone.green += 64
       @sprites["trainer"].tone.blue += 64
+      @sprites["trainer"].update
       self.update
       Graphics.update
     end
@@ -2819,11 +2821,13 @@ class SunMoonBattleTransitions
       @sprites["trainer"].tone.red -= 32 if @sprites["trainer"].tone.red > 0
       @sprites["trainer"].tone.green -= 32 if @sprites["trainer"].tone.green > 0
       @sprites["trainer"].tone.blue -= 32 if @sprites["trainer"].tone.blue > 0
+      @sprites["trainer"].update
       @sprites["shade"].opacity += 32
       @sprites["shade"].x -= 4
       self.update
       Graphics.update
     end
+    #@sprites["trainer"].tone = Tone.new(0,0,0)
   end
   # main update call
   def update
