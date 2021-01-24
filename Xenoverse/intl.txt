@@ -40723,307 +40723,307 @@ Poké Ball un po' originale che funziona particolarmente bene sui Pokémon che s
 A Poké Ball for catching Pokémon that evolve using the Moon Stone.
 288
 Chi la usa affila i propri artigli, aumentando Attacco e precisione.
-Chi la usa affila i propri artigli, aumentando Attacco e precisione.
+The user sharpens its claws to boost its Attack stat and accuracy.
 289
 Chi la usa attacca con artigli affilati che graffiano il nemico rapidamente e con grande forza.
-Chi la usa attacca con artigli affilati che graffiano il nemico rapidamente e con grande forza.
+The user slashes the target with huge, sharp claws.
 290
 Chi la usa attacca il bersaglio facendo materializzare un misterioso raggio psichico che provoca danni fisici.
-Chi la usa attacca il bersaglio facendo materializzare un misterioso raggio psichico che provoca danni fisici.
+The user materializes an odd psychic wave to attack the target. This attack does physical damage.
 291
 Chi la usa, meditando, placa il proprio spirito per aumentare l'Attacco Speciale e la Difesa Speciale.
-Chi la usa, meditando, placa il proprio spirito per aumentare l'Attacco Speciale e la Difesa Speciale.
+The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.
 292
 Il bersaglio è costretto a lasciare il campo e viene sostituito. Mette fine alle lotte contro Pokémon selvatici.
-Il bersaglio è costretto a lasciare il campo e viene sostituito. Mette fine alle lotte contro Pokémon selvatici.
+The target is scared off and switched. In the wild, a battle against a single Pokémon ends.
 293
 Una mossa che lascia l'obiettivo gravemente avvelenato. Il danno da veleno peggiora ad ogni turno.
-Una mossa che lascia l'obiettivo gravemente avvelenato. Il danno da veleno peggiora ad ogni turno.
+A move that leaves the target badly poisoned. Its poison damage worsens every turn.
 294
 Chi la usa causa una grandinata che dura cinque turni. Danneggia tutti i Pokémon tranne quelli di tipo Ghiaccio.
-Chi la usa causa una grandinata che dura cinque turni. Danneggia tutti i Pokémon tranne quelli di tipo Ghiaccio.
+The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.
 295
 Chi la usa tende i muscoli per gonfiare il corpo, aumentando Difesa e Attacco.
-Chi la usa tende i muscoli per gonfiare il corpo, aumentando Difesa e Attacco.
+The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.
 296
 Lancia uno speciale liquido tossico sul bersaglio. Se questi è avvelenato, il danno provocato raddoppia.
-Lancia uno speciale liquido tossico sul bersaglio. Se questi è avvelenato, il danno provocato raddoppia.
+The user drenches the target in a special poisonous liquid. Its power is doubled if the target is poisoned.
 297
 Mossa singolare che cambia tipo e potenza a seconda del Pokémon che la usa.
-Mossa singolare che cambia tipo e potenza a seconda del Pokémon che la usa.
+A unique attack that varies in type and intensity depending on the Pokémon using it.
 298
 Chi la usa intensifica i raggi solari per cinque turni, potenziando le mosse di tipo Fuoco.
-Chi la usa intensifica i raggi solari per cinque turni, potenziando le mosse di tipo Fuoco.
+The user intensifies the sun for five turns, powering up Fire-type moves.
 299
 Provoca il nemico, inducendolo ad usare solo mosse d'attacco per tre turni.
-Provoca il nemico, inducendolo ad usare solo mosse d'attacco per tre turni.
+The target is taunted into a rage that allows it to use only attack moves for three turns.
 300
 Il nemico è colpito da un raggio di energia gelida che può anche congelarlo.
-Il nemico è colpito da un raggio di energia gelida che può anche congelarlo.
+The target is struck with an icy-cold beam of energy. It may also freeze the target solid.
 301
 Colpisce i bersagli con una tremenda tempesta di ghiaccio che può anche congelarli.
-Colpisce i bersagli con una tremenda tempesta di ghiaccio che può anche congelarli.
+A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.
 302
 Colpisce il nemico con un potente raggio. Chi la usa salta il turno successivo per recuperare energia.
-Colpisce il nemico con un potente raggio. Chi la usa salta il turno successivo per recuperare energia.
+The target is attacked with a powerful beam. The user must rest on the next turn to regain its energy.
 303
 Innalza una barriera di luce fantastica per ridurre i danni degli attacchi speciali alla squadra per cinque turni.
-Innalza una barriera di luce fantastica per ridurre i danni degli attacchi speciali alla squadra per cinque turni.
+A wondrous wall of light is put up to suppress damage from special attacks for five turns.
 304
 Permette di eludere tutti gli attacchi. Se usata in successione può fallire.
-Permette di eludere tutti gli attacchi. Se usata in successione può fallire.
+It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
 305
 Chi la usa provoca una forte pioggia per cinque turni, potenziando le mosse di tipo Acqua.
-Chi la usa provoca una forte pioggia per cinque turni, potenziando le mosse di tipo Acqua.
+The user summons a heavy rain that falls for five turns, powering up Water-type moves.
 306
 Chi la usa sta fermo e riposa, recuperando metà dei propri PS massimi.
-Chi la usa sta fermo e riposa, recuperando metà dei propri PS massimi.
+The user lands and rests its body. It restores the user's HP by up to half of its max HP.
 307
 Chi la usa crea un campo protettivo che difende tutta la squadra dai problemi di stato per cinque turni.
-Chi la usa crea un campo protettivo che difende tutta la squadra dai problemi di stato per cinque turni.
+The user creates a protective field that prevents status problems for five turns.
 308
 I nemici vengono investiti da suoni a bassissima frequenza in grado di farli tentennare.
 I nemici vengono investiti da suoni a bassissima frequenza in grado di farli tentennare.
 309
 Chi la usa assorbe luce al primo turno per proiettare un raggio intenso al turno successivo.
-Chi la usa assorbe luce al primo turno per proiettare un raggio intenso al turno successivo.
+A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.
 310
 Chi la usa lancia una pietra o un proiettile. Può colpire anche un bersaglio in volo e farlo cadere.
-Chi la usa lancia una pietra o un proiettile. Può colpire anche un bersaglio in volo e farlo cadere.
+The user throws a stone or projectile to attack an opponent. A flying Pokémon will fall to the ground when it's hit.
 311
 Il bersaglio viene colpito da una potente scarica elettrica che può anche paralizzarlo.
-Il bersaglio viene colpito da una potente scarica elettrica che può anche paralizzarlo.
+A strong electric blast is loosed at the target. It may also leave the target with paralysis.
 312
 Il nemico è colpito da un lampo molto violento che può anche paralizzarlo.
-Il nemico è colpito da un lampo molto violento che può anche paralizzarlo.
+A wicked thunderbolt is dropped on the target to inflict damage. It may also leave the target with paralysis.
 313
 Chi la usa provoca un potente sisma che colpisce gli altri Pokémon in campo.
-Chi la usa provoca un potente sisma che colpisce gli altri Pokémon in campo.
+The user sets off an earthquake that strikes those around it.
 314
 Mossa che diventa tanto più potente quanto maggiore è il grado di affezione del Pokémon per il proprio Allenatore.
-Mossa che diventa tanto più potente quanto maggiore è il grado di affezione del Pokémon per il proprio Allenatore.
+A full-power attack that grows more powerful the more the user likes its Trainer.
 315
 Chi la usa scava al primo turno e attacca al successivo.
-Chi la usa scava al primo turno e attacca al successivo.
+The user burrows, then attacks on the second turn.
 316
 Il nemico viene colpito da una potente forza telecinetica che può anche ridurne la Difesa Speciale.
-Il nemico viene colpito da una potente forza telecinetica che può anche ridurne la Difesa Speciale.
+The target is hit by a strong telekinetic force. It may also reduce the target's Sp.Def stat.
 317
 Lancia sul nemico una sfera nera. Può anche ridurne la Difesa Speciale.
-Lancia sul nemico una sfera nera. Può anche ridurne la Difesa Speciale.
+The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.
 318
 Colpisce il nemico con una mano e rompe barriere come Riflesso e Schermoluce.
-Colpisce il nemico con una mano e rompe barriere come Riflesso e Schermoluce.
+The user attacks with a swift chop. It can also break any barrier such as Light Screen and Reflect.
 319
 Chi la usa si muove in fretta e crea copie illusorie di se stesso che aumentano la capacità di elusione.
-Chi la usa si muove in fretta e crea copie illusorie di se stesso che aumentano la capacità di elusione.
+By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.
 320
 Innalza una barriera di luce fantastica per ridurre i danni degli attacchi fisici alla squadra per cinque turni.
-Innalza una barriera di luce fantastica per ridurre i danni degli attacchi fisici alla squadra per cinque turni.
+A wondrous wall is put up to suppress damage from physical attacks for five turns.
 321
 Mossa succhiasangue. Chi la usa recupera una quantità di PS pari a metà del danno inferto
-Mossa succhiasangue. Chi la usa recupera una quantità di PS pari a metà del danno inferto
+The user drains the target's blood. The user's HP is restored by half the damage taken by the target.
 322
 Il nemico viene colpito da intense fiammate che possono anche scottarlo.
-Il nemico viene colpito da intense fiammate che possono anche scottarlo.
+The target is scorched with an intense blast of fire. It may also leave the target with a burn.
 323
 Chi la usa attacca lanciando fango sul bersaglio. Può anche avvelenarlo.
-Chi la usa attacca lanciando fango sul bersaglio. Può anche avvelenarlo.
+Unsanitary sludge is hurled at the target. It may also poison the target.
 324
 Causa una tempesta di sabbia per cinque turni che danneggia tutti i tipi in campo esclusi Terra, Roccia e Acciaio.
-Causa una tempesta di sabbia per cinque turni che danneggia tutti i tipi in campo esclusi Terra, Roccia e Acciaio.
+A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types.
 325
 Investe il nemico con un'intensa fiammata che fa terra bruciata. Può anche scottarlo.
-Investe il nemico con un'intensa fiammata che fa terra bruciata. Può anche scottarlo.
+The target is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.
 326
 Colpisce il nemico con rocce. Inoltre, lo rallenta riducendone la Velocità.
-Colpisce il nemico con rocce. Inoltre, lo rallenta riducendone la Velocità.
+Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.
 327
 Chi la usa attacca il nemico a grande velocità. Questa mossa è infallibile.
-Chi la usa attacca il nemico a grande velocità. Questa mossa è infallibile.
+The user confounds the target with speed, then slashes. The attack lands without fail.
 328
 Chi la usa tormenta e fa infuriare il nemico, impedendogli di usare la stessa mossa due volte di seguito.
-Chi la usa tormenta e fa infuriare il nemico, impedendogli di usare la stessa mossa due volte di seguito.
+The user torments and enrages the target, making it incapable of using the same move twice in a row.
 329
 Mossa d'attacco che raddoppia la potenza se chi la usa è scottato, avvelenato o paralizzato.
-Mossa d'attacco che raddoppia la potenza se chi la usa è scottato, avvelenato o paralizzato.
+An attack move that doubles its power if the user is poisoned, burned, or has paralysis.
 330
 Chi la usa si copre di fuoco e attacca il bersaglio. Concentrandosi aumenta, inoltre, la propria Velocità.
-Chi la usa si copre di fuoco e attacca il bersaglio. Concentrandosi aumenta, inoltre, la propria Velocità.
+The user cloaks itself with flame and attacks. Building up more power, it raises the user's Speed stat.
 331
 Il Pokémon si addormenta per due turni per curare tutti i PS e qualsiasi alterazione di stato.
-Il Pokémon si addormenta per due turni per curare tutti i PS e qualsiasi alterazione di stato.
+The user goes to sleep for two turns. It fully restores the user's HP and heals any status problem.
 332
 Se il nemico è del sesso opposto, s'infatua e attacca con meno probabilità.
-Se il nemico è del sesso opposto, s'infatua e attacca con meno probabilità.
+If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.
 333
 Il Pokémon attacca e contemporaneamente ruba lo strumento tenuto dal nemico. Non ruberà nulla, se si possiede già uno strumento.
-Il Pokémon attacca e contemporaneamente ruba lo strumento tenuto dal nemico. Non ruberà nulla, se si possiede già uno strumento.
+The user attacks and steals the target's item simultaneously. It can't steal if the user holds an item.
 334
 Chi la usa colpisce con un attacco fulmineo la parte inferiore del corpo del bersaglio, riducendone la Velocità.
-Chi la usa colpisce con un attacco fulmineo la parte inferiore del corpo del bersaglio, riducendone la Velocità.
+The user attacks the target's legs swiftly, reducing the target's Speed stat.
 335
 Attacca il bersaglio con una melodia. Se usata ripetutamente da uno o più Pokémon i danni inflitti aumentano.
 Attacca il bersaglio con una melodia. Se usata ripetutamente da uno o più Pokémon i danni inflitti aumentano.
 336
 Attacca il bersaglio con la propria voce echeggiante. Se usata a ripetizione da uno o più Pokémon il danno aumenta.
-Attacca il bersaglio con la propria voce echeggiante. Se usata a ripetizione da uno o più Pokémon il danno aumenta.
+The user attacks the target with an echoing voice. If this move is used every turn, it does greater damage.
 337
 Chi la usa sferra un potente attacco, ma il contraccolpo riduce di molto il suo Attacco Speciale.
-Chi la usa sferra un potente attacco, ma il contraccolpo riduce di molto il suo Attacco Speciale.
+The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat.
 338
 Colpisce il nemico con ali d'acciaio. Può anche aumentare la Difesa di chi la usa.
-Colpisce il nemico con ali d'acciaio. Può anche aumentare la Difesa di chi la usa.
+The target is hit with wings of steel. It may also raise the user's Defense stat.
 339
 Chi la usa incrementa la sua concentrazione mentale per scatenare il suo potere. Può ridurre la Difesa Speciale del nemico.
-Chi la usa incrementa la sua concentrazione mentale per scatenare il suo potere. Può ridurre la Difesa Speciale del nemico.
+The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.
 340
 Chi la usa attinge energia dalla natura e la scaglia contro il bersaglio. Può anche ridurne la Difesa Speciale.
-Chi la usa attinge energia dalla natura e la scaglia contro il bersaglio. Può anche ridurne la Difesa Speciale.
+The user draws power from nature and fires it at the target. It may also lower the target's Sp. Def.
 341
 Chi la usa trattiene il colpo per impedire al nemico di andare KO, lasciandolo con almeno un PS.
-Chi la usa trattiene il colpo per impedire al nemico di andare KO, lasciandolo con almeno un PS.
+A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.
 342
 Chi la usa attacca il bersaglio con un getto d'acqua bollente che può anche scottarlo.
-Chi la usa attacca il bersaglio con un getto d'acqua bollente che può anche scottarlo.
+The user shoots boiling hot water at its target. It may also leave the target with a burn.
 343
 Chi la usa lancia sul nemico lo strumento che tiene. La forza e l'effetto dipendono dallo strumento
-Chi la usa lancia sul nemico lo strumento che tiene. La forza e l'effetto dipendono dallo strumento
+The user flings its held item at the target to attack. Its power and effects depend on the item.
 344
 Chi la usa lancia un fascio di elettricità molto intensa. Può anche aumentare il suo Attacco Speciale.
-Chi la usa lancia un fascio di elettricità molto intensa. Può anche aumentare il suo Attacco Speciale.
+The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.
 345
 Porta il bersaglio in cielo e lo scaglia a terra al turno successivo. Il bersaglio catturato non può muoversi.
-Porta il bersaglio in cielo e lo scaglia a terra al turno successivo. Il bersaglio catturato non può muoversi.
+The user hurls the target into the air, then drops it on the second turn. The target cannot attack while in the air.
 346
 Chi la usa infligge danni intorno a sé facendo ruotare una parte del corpo.
-Chi la usa infligge danni intorno a sé facendo ruotare una parte del corpo.
+The user swings its body around violently to inflict damage on everything in its vicinity.
 347
 Chi la usa trattiene il bersaglio, costringendolo ad agire per ultimo.
-Chi la usa trattiene il bersaglio, costringendolo ad agire per ultimo.
+The user suppresses the target and makes its move go last.
 348
 Fiamme intense di colore viola causano una scottatura al nemico.
-Fiamme intense di colore viola causano una scottatura al nemico.
+The user shoots a sinister, bluish-white flame at the target to inflict a burn.
 349
 Attacca rapidamente il bersaglio. Se chi la usa non ha uno strumento, infligge al nemico grossi danni.
-Attacca rapidamente il bersaglio. Se chi la usa non ha uno strumento, infligge al nemico grossi danni.
+The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.
 350
 Impedisce al nemico di usare lo strumento che tiene e al suo Allenatore di usarne altri sul Pokémon.
-Impedisce al nemico di usare lo strumento che tiene e al suo Allenatore di usarne altri sul Pokémon.
+It prevents the target from using its held item. Its Trainer is also prevented from using items on it.
 351
 Chi la usa esplode per infliggere danni agli altri Pokémon attorno, ma va KO.
-Chi la usa esplode per infliggere danni agli altri Pokémon attorno, ma va KO.
+The user explodes to inflict damage on those around it. The user faints upon using this move.
 352
 Chi la usa attacca con artigli d'ombra che colpiscono con gran forza. Probabile brutto colpo.
-Chi la usa attacca con artigli d'ombra che colpiscono con gran forza. Probabile brutto colpo.
+The user slashes with a sharp claw made from shadows. Critical hits land more easily.
 353
 Chi la usa accumula forza, poi attacca. La potenza raddoppia se agisce dopo il Pokémon nemico.
-Chi la usa accumula forza, poi attacca. La potenza raddoppia se agisce dopo il Pokémon nemico.
+The user stores power, then attacks. If the user moves after the target, this attack's power will be doubled.
 354
 Chi la usa colpisce il bersaglio con un corno appuntito. Questa mossa va sempre a segno.
-Chi la usa colpisce il bersaglio con un corno appuntito. Questa mossa va sempre a segno.
+The user stabs the target with a sharp horn. This attack never misses.
 355
 Chi la usa carica il nemico usando tutta la sua forza, ma al turno successivo deve riposare.
-Chi la usa carica il nemico usando tutta la sua forza, ma al turno successivo deve riposare.
+The user charges at the target using every bit of its power. The user must rest on the next turn.
 356
 Chi la usa leviga il proprio corpo per ridurne l'attrito. Aumenta di molto la Velocità.
-Chi la usa leviga il proprio corpo per ridurne l'attrito. Aumenta di molto la Velocità.
+The user polishes its body to reduce drag. It can sharply raise the Speed stat.
 357
 Un'onda enorme sommerge il campo di lotta travolgendo tutti i Pokémon in campo.
-Un'onda enorme sommerge il campo di lotta travolgendo tutti i Pokémon in campo.
+It swamps the area around the user with a giant wave.
 358
 Chi la usa colpisce il nemico dal basso con pietre affilate. Probabile brutto colpo.
-Chi la usa colpisce il nemico dal basso con pietre affilate. Probabile brutto colpo.
+The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.
 359
 Chi usa questa mossa fa marcia indietro per farsi sostituire dopo aver sferrato l'attacco.
-Chi usa questa mossa fa marcia indietro per farsi sostituire dopo aver sferrato l'attacco.
+After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
 360
 Il nemico viene colpito da una debole scarica elettrica che, se va a segno, ne causa la paralisi.
-Il nemico viene colpito da una debole scarica elettrica che, se va a segno, ne causa la paralisi.
+A weak electric charge is launched at the target. It causes paralysis if it hits.
 361
 Chi la usa colpisce il nemico con un vortice rapidissimo. Più lento è chi la usa, maggiore è il danno.
-Chi la usa colpisce il nemico con un vortice rapidissimo. Più lento è chi la usa, maggiore è il danno.
+The user tackles the target with a high-speed spin. The slower the user, the greater the damage.
 362
 Danza frenetica che incrementa lo spirito combattivo. Chi la usa aumenta di molto il suo Attacco.
-Danza frenetica che incrementa lo spirito combattivo. Chi la usa aumenta di molto il suo Attacco.
+A frenetic dance to uplift the fighting spirit. It sharply raises the user's Attack stat.
 363
 Rende i pugni più duri a ogni colpo inferto. Se i pugni vanno a segno, aumenta l'Attacco.
-Rende i pugni più duri a ogni colpo inferto. Se i pugni vanno a segno, aumenta l'Attacco.
+Striking opponents over and over makes the user's fists harder. Hitting a target raises the Attack stat.
 364
 Chi la usa s'ipnotizza per copiare ogni modifica alle statistiche del bersaglio.
-Chi la usa s'ipnotizza per copiare ogni modifica alle statistiche del bersaglio.
+The user hypnotizes itself into copying any stat change made by the target.
 365
 Chi la usa calpesta il terreno e scatena un terremoto che danneggia tutti i Pokémon nei paraggi e ne riduce anche la Velocità.
-Chi la usa calpesta il terreno e scatena un terremoto che danneggia tutti i Pokémon nei paraggi e ne riduce anche la Velocità.
+The user stomps down on the ground and attacks everything in the area. Hit Pokémon's Speed stat is reduced.
 366
 Chi la usa attacca il bersaglio con un soffio d'aria gelida. Brutto colpo assicurato.
-Chi la usa attacca il bersaglio con un soffio d'aria gelida. Brutto colpo assicurato.
+The user blows a cold breath on the target. This attack always results in a critical hit.
 367
 I nemici vengono colpiti da grandi massi che possono anche farli tentennare.
-I nemici vengono colpiti da grandi massi che possono anche farli tentennare.
+Large boulders are hurled at the opposing team to inflict damage.
 368
 Chi la usa colpisce il nemico usando le sue falci o artigli come se fossero un paio di forbici.
-Chi la usa colpisce il nemico usando le sue falci o artigli come se fossero un paio di forbici.
+The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.
 369
 Chi la usa fa volar via il bersaglio in modo che venga sostituito. Se il bersaglio è un Pokémon selvatico, la lotta finisce.
-Chi la usa fa volar via il bersaglio in modo che venga sostituito. Se il bersaglio è un Pokémon selvatico, la lotta finisce.
+The target is knocked away and switched. In the wild, a battle against a single Pokémon ends.
 370
 Chi la usa lancia un attacco che tormenta il bersaglio per quattro o cinque turni durante i quali gli impedisce di fuggire.
-Chi la usa lancia un attacco che tormenta il bersaglio per quattro o cinque turni durante i quali gli impedisce di fuggire.
+The target is infested and attacked for four to five turns. The target can't flee during this time.
 371
 Il nemico viene colpito con un tentacolo od un braccio intriso di veleno. Può anche avvelenarlo.
-Il nemico viene colpito con un tentacolo od un braccio intriso di veleno. Può anche avvelenarlo.
+The target is stabbed with a tentacle or arm steeped in poison. It may also poison the target.
 372
 Attacco che funziona solo su un nemico che dorme. Chi lo usa riceve metà dei PS persi dal nemico.
-Attacco che funziona solo su un nemico che dorme. Chi lo usa riceve metà dei PS persi dal nemico.
+The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal the user's HP.
 373
 Chi la usa intrappola il bersaglio con l'erba e lo fa cadere. Danneggia maggiormente i Pokémon più pesanti.
-Chi la usa intrappola il bersaglio con l'erba e lo fa cadere. Danneggia maggiormente i Pokémon più pesanti.
+The user snares the target with grass and trips it. The heavier the target, the greater the damage.
 374
 Chi la usa provoca il bersaglio e lo confonde, facendo aumentare però di molto il suo Attacco.
-Chi la usa provoca il bersaglio e lo confonde, facendo aumentare però di molto il suo Attacco.
+The user enrages and confuses the target. However, it also sharply raises the target's Attack stat.
 375
 Carica il nemico con l'impeto di una cascata. Può farlo tentennare.
-Carica il nemico con l'impeto di una cascata. Può farlo tentennare.
+The user charges at the target and may make it flinch
 376
 Dopo aver selezionato questo attacco, chi la usa colpisce il nemico per poi essere sostituito con un altro Pokémon della squadra.
-Dopo aver selezionato questo attacco, chi la usa colpisce il nemico per poi essere sostituito con un altro Pokémon della squadra.
+After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
 377
 Chi la usa crea una copia di sé stesso usando alcuni PS. La copia serve come esca per il nemico.
-Chi la usa crea una copia di sé stesso usando alcuni PS. La copia serve come esca per il nemico.
+The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.
 378
 Chi la usa attacca raccogliendo e rilasciando energia luminosa. Può ridurre la Difesa Speciale del nemico.
-Chi la usa attacca raccogliendo e rilasciando energia luminosa. Può ridurre la Difesa Speciale del nemico.
+The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.
 379
 Chi la usa crea una dimensione in cui i Pokémon più lenti si muovono per primi per cinque turni.
-Chi la usa crea una dimensione in cui i Pokémon più lenti si muovono per primi per cinque turni.
+The user creates a bizarre area in which slower Pokémon get to move first for five turns.
 380
 Chi la usa si carica di elettricità per poi scagliarsi sul bersaglio, ma subisce dei danni per il contraccolpo.
-Chi la usa si carica di elettricità per poi scagliarsi sul bersaglio, ma subisce dei danni per il contraccolpo.
+The user shrouds itself in electricity and smashes into its target. It also damages the user a little.
 381
 Emette una luce potentissima che infligge danni ai nemici che sono vicini a chi la usa.
-Emette una luce potentissima che infligge danni ai nemici che sono vicini a chi la usa.
+The user damages opposing Pokémon by emitting a powerful flash.
 382
 Chi la usa emana un'orribile aura intrisa di pensieri oscuri. Può anche far tentennare il bersaglio.
-Chi la usa emana un'orribile aura intrisa di pensieri oscuri. Può anche far tentennare il bersaglio.
+The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.
 383
 Attacca il nemico con artigli o falci affilate. Fuori dalla lotta si usa per tagliare piccoli alberi.
-Attacca il nemico con artigli o falci affilate. Fuori dalla lotta si usa per tagliare piccoli alberi.
+The target is cut with a scythe or a claw.
 384
 Chi la usa si alza in volo per attaccare al turno seguente. Fuori dalla lotta permette di volare in città già visitate.
-Chi la usa si alza in volo per attaccare al turno seguente. Fuori dalla lotta permette di volare in città già visitate.
+The user soars, then strikes on the second turn.
 385
 Un'onda enorme sommerge il campo di lotta. Fuori dalla lotta si usa per spostarsi sull'acqua
-Un'onda enorme sommerge il campo di lotta. Fuori dalla lotta si usa per spostarsi sull'acqua
+The user flashes a bright light that cuts the target's accuracy. It can also be used to illuminate caves.
 386
 Colpisce il nemico con un'enorme energia. Fuori dalla lotta si usa per spostare i massi.
-Colpisce il nemico con un'enorme energia. Fuori dalla lotta si usa per spostare i massi.
+The target is slugged with a punch thrown at maximum power. This move can also be used to move boulders.
 387
 Carica il nemico a grande velocità e può farlo tentennare. Fuori dalla lotta fa risalire le cascate.
-Carica il nemico a grande velocità e può farlo tentennare. Fuori dalla lotta fa risalire le cascate.
+While it is asleep, the user randomly uses one of the moves it knows.
 388
 Chi la usa si tuffa in acqua per emergere e attaccare al turno seguente. Fuori dalla lotta permette di immergersi sott'acqua.
-Chi la usa si tuffa in acqua per emergere e attaccare al turno seguente. Fuori dalla lotta permette di immergersi sott'acqua.
+Diving on the first turn, the user floats up and attacks on the second turn. It can be used to dive deep in the ocean.
 389
 Se tenuta da un Pokémon o usata dall'Allenatore può guarire dalla paralisi.
 Se tenuta da un Pokémon o usata dall'Allenatore può guarire dalla paralisi.
