@@ -41026,196 +41026,196 @@ Chi la usa si tuffa in acqua per emergere e attaccare al turno seguente. Fuori d
 Diving on the first turn, the user floats up and attacks on the second turn. It can be used to dive deep in the ocean.
 389
 Se tenuta da un Pokémon o usata dall'Allenatore può guarire dalla paralisi.
-Se tenuta da un Pokémon o usata dall'Allenatore può guarire dalla paralisi.
+If held by a Pokémon, it recovers from paralysis.
 390
 Se tenuta da un Pokémon o usata dall'Allenatore può risvegliare dal sonno.
-Se tenuta da un Pokémon o usata dall'Allenatore può risvegliare dal sonno.
+If held by a Pokémon, it recovers from sleep.
 391
 Se tenuta da un Pokémon o usata dall'Allenatore può guarire dall'avvelenamento.
-Se tenuta da un Pokémon o usata dall'Allenatore può guarire dall'avvelenamento.
+If held by a Pokémon, it recovers from poison.
 392
 Se tenuta da un Pokémon o usata dall'Allenatore può guarire da una scottatura.
-Se tenuta da un Pokémon o usata dall'Allenatore può guarire da una scottatura.
+If held by a Pokémon, it recovers from a burn.
 393
 Se tenuta da un Pokémon o usata dall'Allenatore può guarire dal congelamento.
-Se tenuta da un Pokémon o usata dall'Allenatore può guarire dal congelamento.
+If held by a Pokémon, it defrosts it.
 394
 Se tenuta da un Pokémon o usata dall'Allenatore restituisce 10PP a una mossa.
-Se tenuta da un Pokémon o usata dall'Allenatore restituisce 10PP a una mossa.
+If held by a Pokémon, it restores a move's PP by 10.
 395
 Se tenuta da un Pokémon o usata dall'Allenatore restituisce 10PS.
-Se tenuta da un Pokémon o usata dall'Allenatore restituisce 10PS.
+If held by a Pokémon, it heals the user by just 10 HP.
 396
 Se tenuta da un Pokémon o usata dall'Allenatore può liberare dalla confusione.
-Se tenuta da un Pokémon o usata dall'Allenatore può liberare dalla confusione.
+If held by a Pokémon, it recovers from confusion.
 397
 Se tenuta da un Pokémon o usata dall'Allenatore risolve qualsiasi problema di stato.
-Se tenuta da un Pokémon o usata dall'Allenatore risolve qualsiasi problema di stato.
+If held by a Pokémon, it recovers from any status problem.
 398
 Se tenuta da un Pokémon o usata dall'Allenatore restituisce un po' di PS.
-Se tenuta da un Pokémon o usata dall'Allenatore restituisce un po' di PS.
+If held by a Pokémon, it heals the user's HP a little.
 399
 Se tenuta da un Pokémon in difficoltà, restituisce PS. Se al Pokémon non piace il suo sapore, può causare confusione.
-Se tenuta da un Pokémon in difficoltà, restituisce PS. Se al Pokémon non piace il suo sapore, può causare confusione.
+If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
 400
 Se tenuta da un Pokémon in difficoltà, restituisce PS. Se al Pokémon non piace il suo sapore, può causare confusione.
-Se tenuta da un Pokémon in difficoltà, restituisce PS. Se al Pokémon non piace il suo sapore, può causare confusione.
+If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
 401
 Se tenuta da un Pokémon in difficoltà, restituisce PS. Se al Pokémon non piace il suo sapore, può causare confusione.
-Se tenuta da un Pokémon in difficoltà, restituisce PS. Se al Pokémon non piace il suo sapore, può causare confusione.
+If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
 402
 Se tenuta da un Pokémon in difficoltà, restituisce PS. Se al Pokémon non piace il suo sapore, può causare confusione.
-Se tenuta da un Pokémon in difficoltà, restituisce PS. Se al Pokémon non piace il suo sapore, può causare confusione.
+If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
 403
 Se tenuta da un Pokémon in difficoltà, restituisce PS. Se al Pokémon non piace il suo sapore, può causare confusione.
-Se tenuta da un Pokémon in difficoltà, restituisce PS. Se al Pokémon non piace il suo sapore, può causare confusione.
+If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
 404
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
 405
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
 406
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
 407
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
 408
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
 409
 Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce i PS.
-Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce i PS.
+Using it on a Pokémon makes it more friendly, but it also lowers its base HP.
 410
 Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce l'Attacco.
-Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce l'Attacco.
+Using it on a Pokémon makes it more friendly, but it also lowers its base Attack stat.
 411
 Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce la Difesa.
-Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce la Difesa.
+Using it on a Pokémon makes it more friendly, but it also lowers its base Defense stat.
 412
 Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce l'Attacco Speciale.
-Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce l'Attacco Speciale.
+Using it on a Pokémon makes it more friendly, but it also lowers its base Special Attack stat.
 413
 Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce la Difesa Speciale.
-Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce la Difesa Speciale.
+Using it on a Pokémon makes it more friendly, but it also lowers its base Special Defense stat.
 414
 Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce la Velocità.
-Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce la Velocità.
+Using it on a Pokémon makes it more friendly, but it also lowers its base Speed stat.
 415
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
 416
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta..
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta..
+A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
 417
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
 418
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
 419
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
 420
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
 421
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
 422
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
 423
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
+A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
 424
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Fuoco del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Fuoco del Pokémon avversario.
+Weakens a supereffective Fire-type attack against the holding Pokémon.
 425
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Acqua del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Acqua del Pokémon avversario.
+Weakens a supereffective Water-type attack against the holding Pokémon.
 426
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Elettro del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Elettro del Pokémon avversario.
+Weakens a supereffective Electric-type attack against the holding Pokémon.
 427
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Erba del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Erba del Pokémon avversario.
+Weakens a supereffective Grass-type attack against the holding Pokémon.
 428
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Ghiaccio del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Ghiaccio del Pokémon avversario.
+Weakens a supereffective Ice-type attack against the holding Pokémon.
 429
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Lotta del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Lotta del Pokémon avversario.
+Weakens a supereffective Fighting-type attack against the holding Pokémon.
 430
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Veleno del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Veleno del Pokémon avversario.
+Weakens a supereffective Poison-type attack against the holding Pokémon.
 431
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Terra del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Terra del Pokémon avversario.
+Weakens a supereffective Ground-type attack against the holding Pokémon.
 432
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Volante del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Volante del Pokémon avversario.
+Weakens a supereffective Flying-type attack against the holding Pokémon.
 433
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Psico del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Psico del Pokémon avversario.
+Weakens a supereffective Psychic-type attack against the holding Pokémon.
 434
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Coleottero del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Coleottero del Pokémon avversario.
+Weakens a supereffective Bug-type attack against the holding Pokémon.
 435
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Roccia del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Roccia del Pokémon avversario.
+Weakens a supereffective Rock-type attack against the holding Pokémon.
 436
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Spettro del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Spettro del Pokémon avversario.
+Weakens a supereffective Ghost-type attack against the holding Pokémon.
 437
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Drago del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Drago del Pokémon avversario.
+Weakens a supereffective Dragon-type attack against the holding Pokémon.
 438
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Buio del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Buio del Pokémon avversario.
+Weakens a supereffective Dark-type attack against the holding Pokémon.
 439
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Acciaio del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Acciaio del Pokémon avversario.
+Weakens a Steel-type attack against the holding Pokémon.
 440
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse di tipo Normale del Pokémon avversario.
-Se tenuta da un Pokémon, diminuisce la potenza delle mosse di tipo Normale del Pokémon avversario.
+Weakens a Normal-type attack against the holding Pokémon.
 441
 Aumenta l'Attacco se il Pokémon che la tiene si trova in difficoltà.
-Aumenta l'Attacco se il Pokémon che la tiene si trova in difficoltà.
+If held by a Pokémon, it raises its Attack stat in a pinch.
 442
 Aumenta la Difesa se il Pokémon che la tiene si trova in difficoltà.
-Aumenta la Difesa se il Pokémon che la tiene si trova in difficoltà.
+If held by a Pokémon, it raises its Defense stat in a pinch.
 443
 Aumenta la Velocità se il Pokémon che la tiene si trova in difficoltà.
-Aumenta la Velocità se il Pokémon che la tiene si trova in difficoltà.
+If held by a Pokémon, it raises its Speed stat in a pinch.
 444
 Aumenta l'Attacco Speciale se il Pokémon che la tiene si trova in difficoltà.
-Aumenta l'Attacco Speciale se il Pokémon che la tiene si trova in difficoltà.
+If held by a Pokémon, it raises its Sp. Atk stat in a pinch.
 445
 Aumenta la Difesa Speciale se il Pokémon che la tiene si trova in difficoltà.
-Aumenta la Difesa Speciale se il Pokémon che la tiene si trova in difficoltà.
+If held by a Pokémon, it raises its Sp. Def stat in a pinch.
 446
 Aumenta la probabilità di eseguire brutti colpi se il Pokémon che la tiene si trova in difficoltà.
-Aumenta la probabilità di eseguire brutti colpi se il Pokémon che la tiene si trova in difficoltà.
+If held by a Pokémon, it raises its critical-hit ratio in a pinch.
 447
 Aumenta una statistica a caso se il Pokémon che la tiene si trova in difficoltà.
-Aumenta una statistica a caso se il Pokémon che la tiene si trova in difficoltà.
+If held by a Pokémon, it sharply raises one of its stats in a pinch.
 448
 Ripristina i PS, se il Pokémon che la tiene è colpito da un attacco superefficace.
-Ripristina i PS, se il Pokémon che la tiene è colpito da un attacco superefficace.
+If held by a Pokémon, it restores its HP if it is hit by any supereffective attack.
 449
 Aumenta la precisione della mossa successiva se il Pokémon che la tiene si trova in difficoltà.
-Aumenta la precisione della mossa successiva se il Pokémon che la tiene si trova in difficoltà.
+If held by a Pokémon, it raises the accuracy of a move just once in a pinch.
 450
 Consente di attaccare per primo (solo una volta) se il Pokémon che la tiene si trova in difficoltà.
-Consente di attaccare per primo (solo una volta) se il Pokémon che la tiene si trova in difficoltà.
+If held by a Pokémon, it gets to move first just once in a pinch.
 451
 Se tenuta da un Pokémon, il nemico subirà danni se il suo attacco fisico va a segno.
-Se tenuta da un Pokémon, il nemico subirà danni se il suo attacco fisico va a segno.
+If held by a Pokémon and a physical attack lands, the attacker also takes damage.
 452
 Se tenuta da un Pokémon, il nemico subirà danni se il suo attacco speciale va a segno.
-Se tenuta da un Pokémon, il nemico subirà danni se il suo attacco speciale va a segno.
+If held by a Pokémon and a special attack lands, the attacker takes damage.
 453
 Carta da lettera decorata con ciuffi d'erba disegnati. Un Pokémon può tenerla e consegnarla.
 Carta da lettera decorata con ciuffi d'erba disegnati. Un Pokémon può tenerla e consegnarla.
@@ -41254,7 +41254,7 @@ SCarta da lettera con un motivo che ricorda un massiccio muro in mattoni. Un Pok
 SCarta da lettera con un motivo che ricorda un massiccio muro in mattoni. Un Pokémon può tenerla e consegnarla.
 465
 Aumenta l'Attacco di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
-Aumenta l'Attacco di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
+An item that raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
 466
 Aumenta di molto l'Attacco di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
 Aumenta di molto l'Attacco di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
@@ -41266,7 +41266,7 @@ Aumenta enormemente l'Attacco di un Pokémon in una lotta. L'effetto svanisce se
 Aumenta enormemente l'Attacco di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
 469
 Aumenta la Difesa di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
-Aumenta la Difesa di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
+An item that raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
 470
 Aumenta di molto la Difesa di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
 Aumenta di molto la Difesa di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
@@ -41278,7 +41278,7 @@ Aumenta enormemente la Difesa di un Pokémon in una lotta. L'effetto svanisce se
 Aumenta enormemente la Difesa di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
 473
 Aumenta l'Attacco Speciale di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
-Aumenta l'Attacco Speciale di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
+An item that raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
 474
 Aumenta di molto l'Attacco Speciale di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
 Aumenta di molto l'Attacco Speciale di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
@@ -41290,7 +41290,7 @@ Aumenta enormemente l'Attacco Speciale di un Pokémon in una lotta. L'effetto sv
 Aumenta enormemente l'Attacco Speciale di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
 477
 Aumenta la Difesa Speciale di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
-Aumenta la Difesa Speciale di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
+An item that raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
 478
 Aumenta di molto la Difesa Speciale di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
 Aumenta di molto la Difesa Speciale di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
@@ -41302,7 +41302,7 @@ Aumenta enormemente la Difesa Speciale di un Pokémon in una lotta. L'effetto sv
 Aumenta enormemente la Difesa Speciale di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
 481
 Aumenta la Velocità di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
-Aumenta la Velocità di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
+An item that raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
 482
 Aumenta di molto la Velocità di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
 Aumenta di molto la Velocità di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
@@ -41314,7 +41314,7 @@ Aumenta enormemente la Velocità di un Pokémon in una lotta. L'effetto svanisce
 Aumenta enormemente la Velocità di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
 485
 Aumenta la Precisione di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
-Aumenta la Precisione di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
+An item that raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
 486
 Aumenta di molto la Precisione di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
 Aumenta di molto la Precisione di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
@@ -41326,7 +41326,7 @@ Aumenta enormemente la Precisione di un Pokémon in una lotta. L'effetto svanisc
 Aumenta enormemente la Precisione di un Pokémon in una lotta. L'effetto svanisce se il Pokémon è sostituito.
 489
 Brutti colpi più probabili per un Pokémon impegnato in una lotta.Può essere usato solo una volta. L'effetto svanisce de il Pokémon è sostituito.
-Brutti colpi più probabili per un Pokémon impegnato in una lotta.Può essere usato solo una volta. L'effetto svanisce de il Pokémon è sostituito.
+It raises the critical-hit ratio greatly. It can be used only once and wears off if the Pokémon is withdrawn.
 490
 Può essere usato più volte per aumentare la probabilità di eseguire brutti colpi.L'effetto svanisce de il Pokémon è sostituito.
 Può essere usato più volte per aumentare la probabilità di eseguire brutti colpi.L'effetto svanisce de il Pokémon è sostituito.
@@ -41335,49 +41335,49 @@ Può essere usato più volte per aumentare di molto la probabilità di eseguire 
 Può essere usato più volte per aumentare di molto la probabilità di eseguire brutti colpi.L'effetto svanisce de il Pokémon è sostituito.
 492
 Per 5 turni dopo l'uso, evita la riduzione delle statistiche dei Pokémon della squadra dell'Allenatore.
-Per 5 turni dopo l'uso, evita la riduzione delle statistiche dei Pokémon della squadra dell'Allenatore.
+An item that prevents stat reduction among the Trainer's party Pokémon for five turns after use.
 493
 Quando viene usato, annulla tutte le variazioni delle tatistiche di un Pokémon.
-Quando viene usato, annulla tutte le variazioni delle tatistiche di un Pokémon.
+When used, it restores any stat changes of an ally Pokémon.
 494
 Quando viene usato, attiva l'abilità di un Pokémon.
-Quando viene usato, attiva l'abilità di un Pokémon.
+When used, it activates the Ability of an ally Pokémon.
 495
 Quando viene usato, fa usare al Pokémon lo strumento che tiene.
-Quando viene usato, fa usare al Pokémon lo strumento che tiene.
+When used, it causes an ally Pokémon to use its held item.
 496
 Quando viene usato, fa buttare al Pokémon lo strumento che tiene.
-Quando viene usato, fa buttare al Pokémon lo strumento che tiene.
+When used, it causes an ally Pokémon to drop a held item.
 497
 Un flauto blu fatto di vetro soffiato. La sua melodia sveglia un Pokémon dal sonno.
-Un flauto blu fatto di vetro soffiato. La sua melodia sveglia un Pokémon dal sonno.
+A blue flute made from blown glass. Its melody awakens a single Pokémon from sleep.
 498
 Un flauto giallo fatto di vetro soffiato. La sua melodia libera un Pokémon dalla confusione.
-Un flauto giallo fatto di vetro soffiato. La sua melodia libera un Pokémon dalla confusione.
+A yellow flute made from blown glass. Its melody snaps a single Pokémon out of confusion.
 499
 Un flauto rosso fatto di vetro soffiato. La sua melodia libera un Pokémon dalla infatuazione.
-Un flauto rosso fatto di vetro soffiato. La sua melodia libera un Pokémon dalla infatuazione.
+A toy flute made from red glass. A maniac will buy it for a high price.
 500
 Bambola che attrae i Pokémon. Utile per fuggire dalla lotta con un Pokémon selvatico.
-Bambola che attrae i Pokémon. Utile per fuggire dalla lotta con un Pokémon selvatico.
+A doll that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.
 501
 Strumento che attrae i Pokémon. Utile per fuggire dalla lotta con un Pokémon selvatico..
-Strumento che attrae i Pokémon. Utile per fuggire dalla lotta con un Pokémon selvatico..
+An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.
 502
 Strumento che attrae i Pokémon. Utile per fuggire dalla lotta con un Pokémon selvatico..
-Strumento che attrae i Pokémon. Utile per fuggire dalla lotta con un Pokémon selvatico..
+An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.
 503
 Bici pieghevole, che permette di spostarsi più velocemente che con le Scarpe da Corsa.
 Bici pieghevole, che permette di spostarsi più velocemente che con le Scarpe da Corsa.
 504
 Amo vecchio e rovinato. Si usa per pescare Pokémon selvatici in qualsiasi specchio d'acqua.
-Amo vecchio e rovinato. Si usa per pescare Pokémon selvatici in qualsiasi specchio d'acqua.
+An old and beat-up fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.
 505
 Amo nuovo e di qualità. Si usa per pescare Pokémon selvatici in qualsiasi specchio d'acqua.
-Amo nuovo e di qualità. Si usa per pescare Pokémon selvatici in qualsiasi specchio d'acqua.
+A new, good-quality fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.
 506
 Amo supertecnologico. Si usa per pescare Pokémon selvatici in qualsiasi specchio d'acqua.
-Amo supertecnologico. Si usa per pescare Pokémon selvatici in qualsiasi specchio d'acqua.
+An awesome, high-tech fishing rod. Use it at any body of water to fish for wild aquatic Pokémon.
 507
 Strumento usato per cercare oggetti nascosti. Se ne trova uno nelle vicinanze, emette un segnale.
 Strumento usato per cercare oggetti nascosti. Se ne trova uno nelle vicinanze, emette un segnale.
@@ -41431,10 +41431,10 @@ Specchio misterioso che, riflettendo la verità, fa riacquistare ai Pokémon la 
 Specchio misterioso che, riflettendo la verità, fa riacquistare ai Pokémon la loro vera forma.
 524
 Misterioso amuleto di forma sferica che aumenta la probabilità di trovare Uova nella Pensione Pokémon.
-Misterioso amuleto di forma sferica che aumenta la probabilità di trovare Uova nella Pensione Pokémon.
+An oval charm said to increase the chance of Eggs being found at the Day Care.
 525
 Misterioso amuleto luminoso che aumenta la probabilità di incontrare Pokémon cromatici.
-Misterioso amuleto luminoso che aumenta la probabilità di incontrare Pokémon cromatici.
+A shiny charm said to increase the chance of finding a Shiny Pokémon.
 526
 Una bustina che contiene aromi dal profumo piuttosto intenso. Piace a un Pokémon in particolare.
 Una bustina che contiene aromi dal profumo piuttosto intenso. Piace a un Pokémon in particolare.
@@ -41446,7 +41446,7 @@ Strumento da dare a un Pokémon. Questo corpetto aumenta la Difesa Speciale, ma 
 Strumento da dare a un Pokémon. Questo corpetto aumenta la Difesa Speciale, ma impedisce l'uso di mosse di stato.
 529
 Un esemplare delle misteriose Megapietre. Data ad Absol, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data ad Absol, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Absol hold it, and this stone will enable it to Mega Evolve during battle.
 530
 Un esemplare delle misteriose Megapietre. Data a Gallade, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Gallade, gli permette di megaevolversi durante la lotta.
@@ -41461,25 +41461,25 @@ Un esemplare delle misteriose Megapietre. Data a Garchomp, gli permette di megae
 Un esemplare delle misteriose Megapietre. Data a Garchomp, gli permette di megaevolversi durante la lotta.
 534
 Un esemplare delle misteriose Megapietre. Data a Blastoise, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Blastoise, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Blastoise hold it, and this stone will enable it to Mega Evolve during battle.
 535
 Un esemplare delle misteriose Megapietre. Data a Kangaskhan, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Kangaskhan, gli permette di megaevolversi durante la lotta.
 536
 Un esemplare delle misteriose Megapietre. Data a Gyarados, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Gyarados, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Gyarados hold it, and this stone will enable it to Mega Evolve during battle.
 537
 Un esemplare delle misteriose Megapietre. Data a Mawile, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Mawile, gli permette di megaevolversi durante la lotta.
 538
 Un esemplare delle misteriose Megapietre. Data a Gengar, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Gengar, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Gengar hold it, and this stone will enable it to Mega Evolve during battle.
 539
 Un esemplare delle misteriose Megapietre. Data a Gardevoir, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Gardevoir, gli permette di megaevolversi durante la lotta.
 540
 Un esemplare delle misteriose Megapietre. Data a Sharpedo, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Sharpedo, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Sharpedo hold it, and this stone will enable it to Mega Evolve during battle.
 541
 Un esemplare delle misteriose Megapietre. Data a Sceptile, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Sceptile, gli permette di megaevolversi durante la lotta.
@@ -41488,10 +41488,10 @@ Un esemplare delle misteriose Megapietre. Data a Banette, gli permette di megaev
 Un esemplare delle misteriose Megapietre. Data a Banette, gli permette di megaevolversi durante la lotta.
 543
 Un esemplare delle misteriose Megapietre. Data a Beedrill, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Beedrill, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Beedrill hold it, and this stone will enable it to Mega Evolve during battle.
 544
 Un esemplare delle misteriose Megapietre. Data ad Audino, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data ad Audino, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Audino hold it, and this stone will enable it to Mega Evolve during battle.
 545
 Un esemplare delle misteriose Megapietre. Data a Medicham, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Medicham, gli permette di megaevolversi durante la lotta.
@@ -41503,49 +41503,49 @@ Un esemplare delle misteriose Megapietre. Data a Diancie, gli permette di megaev
 Un esemplare delle misteriose Megapietre. Data a Diancie, gli permette di megaevolversi durante la lotta.
 548
 Un esemplare delle misteriose Megapietre. Data ad Ampharos, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data ad Ampharos, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Ampharos hold it, and this stone will enable it to Mega Evolve during battle.
 549
 Un esemplare delle misteriose Megapietre. Data a Steelix, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Steelix, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Steelix hold it, and this stone will enable it to Mega Evolve during battle.
 550
 Un esemplare delle misteriose Megapietre. Data a Camerupt, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Camerupt, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Camerupt hold it, and this stone will enable it to Mega Evolve during battle.
 551
 Un esemplare delle misteriose Megapietre. Data a Blaziken, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Blaziken, gli permette di megaevolversi durante la lotta.
 552
 Un esemplare delle misteriose Megapietre. Data a Scizor, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Scizor, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Scizor hold it, and this stone will enable it to Mega Evolve during battle.
 553
 Un esemplare delle misteriose Megapietre. Data a Tyranitar, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Tyranitar, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Tyranitar hold it, and this stone will enable it to Mega Evolve during battle.
 554
 Un esemplare delle misteriose Megapietre. Data a Pidgeot, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Pidgeot, gli permette di megaevolversi durante la lotta.
 555
 Un esemplare delle misteriose Megapietre. Data ad Alakazam, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data ad Alakazam, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Alakazam hold it, and this stone will enable it to Mega Evolve during battle.
 556
 Un esemplare delle misteriose Megapietre. Data a Venusaur, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Venusaur, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Venusaur hold it, and this stone will enable it to Mega Evolve during battle.
 557
 Un esemplare delle misteriose Megapietre. Data ad Aerodactyl, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data ad Aerodactyl, gli permette di megaevolversi durante la lotta.
 558
 Un esemplare delle misteriose Megapietre. Data ad Heracross, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data ad Heracross, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Heracross hold it, and this stone will enable it to Mega Evolve during battle.
 559
 Un esemplare delle misteriose Megapietre. Data ad Houndoom, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data ad Houndoom, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Houndoom hold it, and this stone will enable it to Mega Evolve during battle.
 560
 Un esemplare delle misteriose Megapietre. Data a Salamence, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Salamence, gli permette di megaevolversi durante la lotta.
 561
 Un esemplare delle misteriose Megapietre. Data ad Aggron, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data ad Aggron, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Aggron hold it, and this stone will enable it to Mega Evolve during battle.
 562
 Un esemplare delle misteriose Megapietre. Data a Lopunny, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Lopunny, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Lopunny hold it, and this stone will enable it to Mega Evolve during battle.
 563
 Un esemplare delle misteriose Megapietre. Data a Mewtwo, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Mewtwo, gli permette di megaevolversi durante la lotta.
@@ -41554,7 +41554,7 @@ Un esemplare delle misteriose Megapietre. Data a Mewtwo, gli permette di megaevo
 Un esemplare delle misteriose Megapietre. Data a Mewtwo, gli permette di megaevolversi durante la lotta.
 565
 Un esemplare delle misteriose Megapietre. Data a Metagross, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Metagross, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Metagross hold it, and this stone will enable it to Mega Evolve during battle.
 566
 Un esemplare delle misteriose Megapietre. Data a Slowbro, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Slowbro, gli permette di megaevolversi durante la lotta.
@@ -41578,31 +41578,31 @@ Un esemplare delle misteriose Megapietre. Data a Latios, gli permette di megaevo
 Un esemplare delle misteriose Megapietre. Data a Latios, gli permette di megaevolversi durante la lotta.
 573
 Un esemplare delle misteriose Megapietre. Data a Charizard, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Charizard, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve during battle.
 574
 Un esemplare delle misteriose Megapietre. Data a Charizard, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Charizard, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve during battle.
 575
 Un esemplare delle misteriose Megapietre. Data a Lucario, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Lucario, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Lucario hold it, and this stone will enable it to Mega Evolve during battle.
 576
 Se usata su un Pokémon che ha due abilità, questa capsula permette di cambiare quella attiva.
-Se usata su un Pokémon che ha due abilità, questa capsula permette di cambiare quella attiva.
+A capsule that allows a Pokémon with two Abilities to switch between these Abilities when it is used.
 577
 Mossa che fa uso della forza della natura. Il suo effetto varia in base all'ambiente.
-Mossa che fa uso della forza della natura. Il suo effetto varia in base all'ambiente.
+An attack that makes use of nature's power. Its effects vary depending on the user's environment.
 578
 Chi la usa emana un'aura impregnata di oscuri pensieri. Può anche far tentennare il Pokémon colpito.
-Chi la usa emana un'aura impregnata di oscuri pensieri. Può anche far tentennare il Pokémon colpito.
+The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.
 579
 Rende i pugni più forti a ogni colpo inferto. Se i pugni vanno a segno, aumenta l'Attacco.
-Rende i pugni più forti a ogni colpo inferto. Se i pugni vanno a segno, aumenta l'Attacco.
+Striking opponents over and over makes the user's fists harder. Hitting a target raises the Attack stat.
 580
 Emette una luce potentissima che infligge danni ai nemici che sono vicini a chi la usa.
-Emette una luce potentissima che infligge danni ai nemici che sono vicini a chi la usa.
+The user damages opposing Pokémon by emitting a powerful flash.
 581
 Chi la usa svela dei segreti al bersaglio, distraendolo e riducendone l'Attacco Speciale.
-Chi la usa svela dei segreti al bersaglio, distraendolo e riducendone l'Attacco Speciale.
+The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target's Sp. Atk stat.
 582
 Gemma dai riflessi rossi, che pare abbia un profondo legame con le leggende della regione di Hoenn.
 Gemma dai riflessi rossi, che pare abbia un profondo legame con le leggende della regione di Hoenn.
@@ -41611,22 +41611,22 @@ Gemma dai riflessi blu, che pare abbia un profondo legame con le leggende della 
 Gemma dai riflessi blu, che pare abbia un profondo legame con le leggende della regione di Hoenn.
 584
 Una gemma dall'aria fatata. Se tenuta da un Pokémon, potenzia le mosse di tipo Folletto solo una volta.
-Una gemma dall'aria fatata. Se tenuta da un Pokémon, potenzia le mosse di tipo Folletto solo una volta.
+A gem with an essence of the fey. When held, it strengthens the power of a Fairy-type move one time.
 585
 Vaso in cui pare sia stato confinato un Pokémon molto potente nell'antichità.
 Vaso in cui pare sia stato confinato un Pokémon molto potente nell'antichità.
 586
 Se attivato, tutti i Pokémon della squadra ricevono Punti Esperienza dalla lotta anche se non vi hanno partecipato.
-Se attivato, tutti i Pokémon della squadra ricevono Punti Esperienza dalla lotta anche se non vi hanno partecipato.
+An item to be held by a Pokémon. The holder gets a share of a battle's Exp. Points without battling.
 587
 Muschio luminoso monouso. Se il Pokémon che ha questo strumento subisce una mossa di tipo Acqua, la sua Difesa Speciale aumenta.
-Muschio luminoso monouso. Se il Pokémon che ha questo strumento subisce una mossa di tipo Acqua, la sua Difesa Speciale aumenta.
+An item to be held by a Pokémon. It boosts Sp. Def if hit with a Water-type attack. It can only be used once.
 588
 Se il Pokémon viene colpito da una mossa contro cui è debole, l'Attacco e l'Attacco Speciale aumentano considerevolmente.
-Se il Pokémon viene colpito da una mossa contro cui è debole, l'Attacco e l'Attacco Speciale aumentano considerevolmente.
+An item to be held by a Pokémon. Attack and Sp. Atk sharply increase if the holder is hit with a move it's weak to.
 589
 Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Folletto.
-Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Folletto.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fairy-type moves.
 590
 Il fossile di un Pokémon antico che viveva sulla terraferma. Sembra essere parte di una pinna.
 Il fossile di un Pokémon antico che viveva sulla terraferma. Sembra essere parte di una pinna.
@@ -41647,7 +41647,7 @@ Palla di neve monouso. Se il Pokémon che ce l'ha subisce una mossa di tipo Ghia
 Palla di neve monouso. Se il Pokémon che ce l'ha subisce una mossa di tipo Ghiaccio, il suo Attacco aumenta.
 596
 Un esemplare delle misteriose Megapietre. Data ad Hypno, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data ad Hypno, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Hypno hold it, and this stone will enable it to Mega Evolve during battle.
 597
 Strano circuito che permette la creazione di Poké Ball attraverso un particolare processo.
 Strano circuito che permette la creazione di Poké Ball attraverso un particolare processo.
@@ -41692,7 +41692,7 @@ Uno strano anello intriso di una forte energia.
 Uno strano anello intriso di una forte energia.
 611
 Un esemplare delle misteriose Megapietre. Data a Venusaur, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Venusaur, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Venusaur hold it, and this stone will enable it to Mega Evolve during battle.
 612
 Bevanda tipica di Borgo Gemini. Restituisce 80 PS.
 Bevanda tipica di Borgo Gemini. Restituisce 80 PS.
@@ -41920,13 +41920,13 @@ Una Poké Ball di un'altra dimensione regalata da Vint. A cosa servirà?
 Una Poké Ball di un'altra dimensione regalata da Vint. A cosa servirà?
 728
 Un esemplare delle misteriose Megapietre. Data a Entei, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Entei, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Entei hold it, and this stone will enable it to Mega Evolve during battle.
 729
 Un esemplare delle misteriose Megapietre. Data a Suicune, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Suicune, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Suicune hold it, and this stone will enable it to Mega Evolve during battle.
 730
 Un esemplare delle misteriose Megapietre. Data a Raikou, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Raikou, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Raikou hold it, and this stone will enable it to Mega Evolve during battle.
 731
 Biglietto aereo donato dal nonno di Henné con destinazione Kanto.
 Biglietto aereo donato dal nonno di Henné con destinazione Kanto.
@@ -41935,28 +41935,28 @@ Amo vecchio e rovinato. Si usa per pescare Pokémon selvatici in qualsiasi specc
 Amo vecchio e rovinato. Si usa per pescare Pokémon selvatici in qualsiasi specchio d'acqua.
 733
 Un esemplare delle misteriose Megapietre. Data a Blastoise, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Blastoise, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Blastoise hold it, and this stone will enable it to Mega Evolve during battle.
 734
 Un esemplare delle misteriose Megapietre. Data a Venusaur, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Venusaur, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Venusaur hold it, and this stone will enable it to Mega Evolve during battle.
 735
 Un esemplare delle misteriose Megapietre. Data a Granbull, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Granbull, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Granbull hold it, and this stone will enable it to Mega Evolve during battle.
 736
 Un esemplare delle misteriose Megapietre. Data a Braviary, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Braviary, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Braviary hold it, and this stone will enable it to Mega Evolve during battle.
 737
 Un esemplare delle misteriose Megapietre. Data a Dragonite, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Dragonite, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Dragonite hold it, and this stone will enable it to Mega Evolve during battle.
 738
 Un esemplare delle misteriose Megapietre. Data a Bouffalant, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Bouffalant, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Bouffalant hold it, and this stone will enable it to Mega Evolve during battle.
 739
 Un esemplare delle misteriose Megapietre. Data a Weavile, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Weavile, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Weavile hold it, and this stone will enable it to Mega Evolve during battle.
 740
 Un esemplare delle misteriose Megapietre. Data a Hypno, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Hypno, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Hypno hold it, and this stone will enable it to Mega Evolve during battle.
 741
 Vecchia cassetta su cui è registrata una melodia al pianoforte.
 Vecchia cassetta su cui è registrata una melodia al pianoforte.
