@@ -38,7 +38,7 @@ CURSOR_X = Graphics.width - 68
 CURSOR_Y = Graphics.height - 48
 DEBUG = false											# Enable console debug messages
 
-NEW_FONT_LINE_OFFSET = 6
+NEW_FONT_LINE_OFFSET = 6#$MKXP ? 4 : 6
 
 # Font settings
 TEXT_FONT = Font.new
@@ -324,20 +324,20 @@ class Fullbox
 		Log.d(FT_LOG,"Make sprite with text1: " + text1 + (text2 ? " text2: " + text2 : ""))
 		width = $fullbox_window.window.bitmap.width - OFFSET_TEXT_X * 2
 		height = $fullbox_window.window.bitmap.height - OFFSET_TEXT_Y * 2
-		bitmap = Bitmap.new(width,height)
-		writer = Bitmap.new(Graphics.width-30,60)
+		bitmap = Bitmap.new(width,height + ($MKXP ? 4:0))
+		writer = Bitmap.new(Graphics.width-30,80)
 		writer.font = TEXT_FONT
-    writer.drawFormattedTextFullbox(writer,0,10,Graphics.width,text1,Color.new(255,255,255))
+    	writer.drawFormattedTextFullbox(writer,0,10,Graphics.width,text1,Color.new(255,255,255))
 		#writer.draw_text(0,0,Graphics.width,60,text1)#drawFormattedTextEx(bitmap,0,0,Graphics.width-50,text1,Color.new(255,255,255),Color.new(44,44,44))#draw_text(0,0,Graphics.width,60,text1)
-    txtHeight = (60 - TEXT_FONT.size) / 2
-		rect = Rect.new(0,txtHeight,Graphics.width-10,writer.height)
+    	txtHeight = (60 - TEXT_FONT.size) / 2
+		rect = Rect.new(0,txtHeight,Graphics.width-10,writer.height+8)
 		bitmap.blt(0,0,writer,rect)
 		if text2
 			writer.clear
 			#writer.draw_text(0,0,Graphics.width-80,60,text2)
 			writer.drawFormattedTextFullbox(writer,0,10 + NEW_FONT_LINE_OFFSET,Graphics.width,text2,Color.new(255,255,255))
       #Log.d(FT_LOG,"" + (bitmap.height - rect.height).to_s + "/" + bitmap.height.to_s)
-			bitmap.blt(0,(bitmap.height - TEXT_FONT.size),writer,rect)
+			bitmap.blt(0,(bitmap.height - TEXT_FONT.size - ($MKXP ? 4:0)),writer,rect)
 		end
 		writer.dispose
 		return bitmap
