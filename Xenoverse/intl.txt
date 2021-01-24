@@ -4742,12 +4742,12 @@ Oh, cielo! Non posso prendere il tuo unico Pokémon rimasto! Torna a farci visit
 Oh my! I can't take your only Pokémon!<<n>>We hope to see you again.
 Quale Pokémon vuoi affidarci?
 Which Pokémon would you like to give us?
+Oh, cielo! Non posso prendermi cura di questo Pokémon! Torna a farci visita.
+Oh my! I can't take care of that Pokémon!<<n>>We hope to see you again.
 Torna a farci visita.
 We hope to see you again.
 Oh, cielo! Non posso prendere il tuo unico Pokémon rimasto in forze! Torna a farci visita.
 Oh my! I can't take your only healthy Pokémon!<<n>>We hope to see you again.
-Oh, cielo! Non posso prendere questo Pokémon, mi spiace!
-Oh, my! I can't take this Pokémon, I'm sorry!
 Possiamo prendere in consegna due Pokémon per volta, vuoi affidarcene un altro?
 We can take up to two Pokémon at a time,<<n>>do you want to leave another one?
 Oh, eccoti. Allora, vediamo un po’...
