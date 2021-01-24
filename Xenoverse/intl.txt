@@ -11155,7 +11155,7 @@ No
 Eva
 Eva
 Questa riserva è l'ideale per testare le abilità di lotta delle Reclute uscite dalla catena di assemblaggio.
-Questa riserva è l'ideale per testare le abilità di lotta delle Reclute uscite dalla catena di assemblaggio.
+This reserve is the perfect place to test the battling skills of Grunts fresh out of the assembly-line.
 [Map249]
 <<[>>old<<]>>Vuoi uscire dal Nido?
 <<[>>old<<]>>Will you get out of the Den?
@@ -16070,9 +16070,9 @@ Absolutely yes!
 5TER
 5TER
 <i>Bzz</i>, il tuo casco è davvero strano... Qual è il tuo numero, Recluta? <i>Bzz!</i>
-<i>Bzz</i>, il tuo casco è davvero strano... Qual è il tuo numero, Recluta? <i>Bzz!</i>
+<i>Bzz</i>. Your helmet is really weird...<<n>>What's your number, Grunt? <i>Bzz!</i>
 Ora ho capito! Tu non sei una Recluta!! <i>Bzz!</i>
-Ora ho capito! Tu non sei una Recluta!! <i>Bzz!</i>
+Oh, I gotcha! You're not a Grunt!! <i>Bzz!</i>
 E-Errore.
 E-Error.
 <i>E-Errore.</i>
@@ -16080,7 +16080,7 @@ E-Error.
 88UI
 88UI
 Nemmeno dietro la barriera del Sergente si può stare tranquilli... <i>Bzz!</i>
-Nemmeno dietro la barriera del Sergente si può stare tranquilli... <i>Bzz!</i>
+I can't relax even behind the Sergeant's barrier... <i>Bzz!</i>
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
@@ -16163,29 +16163,29 @@ Use Box
 R4T
 R4T
 <i>Operativo!</i> La Recluta R4T colpisce ancora! <i>Bzz!</i>
-<i>Operativo!</i> La Recluta R4T colpisce ancora! <i>Bzz!</i>
+<i>Operative!</i> Grunt R4T strikes back! <i>Bzz!</i>
 E-Errore.
 E-Error.
 <i>E-Errore.</i>
 <i>E-Error.</i>
 Rocco
-Rocco
+Brad
 Quel tipo coi capelli azzurri dev’essere un mostro! Guarda qui come ha ridotto questa povera Recluta...
-Quel tipo coi capelli azzurri dev’essere un mostro! Guarda qui come ha ridotto questa povera Recluta...
+That bluehead really is a monster! Look at how<<n>>he has crashed this poor Grunt...
 C0PL
 C0PL
 Nessun guastafeste in vista, fratello di fabbrica. Andiamo a rilassarci con un bel bagno d’olio! <i>Bzz!</i>
-Nessun guastafeste in vista, fratello di fabbrica. Andiamo a rilassarci con un bel bagno d’olio! <i>Bzz!</i>
+No buzzkill on radar, factory brother. Let's go and relax<<n>>with a good oil bath! <i>Bzz!</i>
 Tu sei un guastafeste, vero? <i>Bzz!</i>
-Tu sei un guastafeste, vero? <i>Bzz!</i>
+You are a buzzkill, aren't you? <i>Bzz!</i>
 5D05
 5D05
 Sei entrato|a nella tana dei robot sbagliati, umano|a! <i>Bzz!</i>
-Sei entrato|a nella tana dei robot sbagliati, umano|a! <i>Bzz!</i>
+You stepped into the wrong robots' den, human! <i>Bzz!</i>
 RUN89
 RUN89
 Ma chi pensi di fregare, umano?! I robot non si muovono mica come fai tu! <i>Bzz!</i>
-Ma chi pensi di fregare, umano?! I robot non si muovono mica come fai tu! <i>Bzz!</i>
+Who you trying to fool, human?! Robots don't move around<<n>>like you're doing! <i>Bzz!</i>
 [Map367]
 <<[>>old<<]>>È totalmente a corto di energie... Menomale!
 <<[>>old<<]>>It is completely out of energy...Phew!
@@ -16279,7 +16279,7 @@ But first, gimme your Pokémon. We can't take it easy<<n>>in such a place!
 33DW
 33DW
 <i>Pericolo! Pericolo! Bzz!</i>
-<i>Pericolo! Pericolo! Bzz!</i>
+<i>Danger! Danger! Bzz!</i>
 E-Errore.
 E-Error.
 <i>E-Errore.</i>
@@ -16287,26 +16287,26 @@ E-Error.
 DW33
 DW33
 Niente di personale, umano|a, ma se non ti faccio fuori, finirò sugli scaffali come lattina di Sidrostelle! <i>Bzz!</i>
-Niente di personale, umano|a, ma se non ti faccio fuori, finirò sugli scaffali come lattina di Sidrostelle! <i>Bzz!</i>
+It’s nothing personal, human, but if I don't take you out,<<n>>they'll turn me in a Star Sider can! <i>Bzz!</i>
 QX11
 QX11
 E se mi avessero mandato indietro nel tempo per sbarazzarmi di chi, come te, vuole mettere i bastoni tra le ruote a noi robot?! <i>Bzz!</i>
-E se mi avessero mandato indietro nel tempo per sbarazzarmi di chi, come te, vuole mettere i bastoni tra le ruote a noi robot?! <i>Bzz!</i>
+How 'bout they've sent me back in the time to get rid<<n>>of those who want to get in the way of us robots?! <i>Bzz!</i>
 <<[>>old<<]>>Una barriera laser blocca il passaggio. Bisogna sconfiggere gli ufficiali per passare!
 <<[>>old<<]>>A laser barrier is blocking the way. You must defeat Dimension's officers to take it down!
 EEG6
 EEG6
 Facevo la conta dei Mareep per andare in standby, ma tu hai rovinato tutto! Mi toccherà ripartire da zero! <i>Bzz!</i>
-Facevo la conta dei Mareep per andare in standby, ma tu hai rovinato tutto! Mi toccherà ripartire da zero! <i>Bzz!</i>
+I was counting Mareep to fall standby, but you made me lose count...now I gotta start over! <i>Bzz!</i>
 53HJ
 53HJ
 Che ingranaggi! Questa dannata finestra ''non sono un robot'' non mi fa accedere al database! <i>Bzz!</i>
-Che ingranaggi! Questa dannata finestra ''non sono un robot'' non mi fa accedere al database! <i>Bzz!</i>
+Buzzer! I can't access the database because of this damn<<n>>''I'm not a robot'' captcha! <i>Bzz!</i>
 [Map369]
 10O
 10O
 Ho un gran brutto presentimento! <i>Bzz!</i>
-Ho un gran brutto presentimento! <i>Bzz!</i>
+I have a bad feeling about this! <i>Bzz!</i>
 E-Errore.
 E-Error.
 <i>E-Errore.</i>
@@ -16314,7 +16314,7 @@ E-Error.
 3BV
 3BV
 Non hai scampo, umano|a! Coi miei Pokémon potrei sfondare persino il cielo, se lo volessi! <i>Bzz!</i>
-Non hai scampo, umano|a! Coi miei Pokémon potrei sfondare persino il cielo, se lo volessi! <i>Bzz!</i>
+There's no way out for you, human! I could even pierce<<n>>heaven with my Pokémon, if I wanted to! <i>Bzz!</i>
 <<[>>old<<]>>Forse un Pokémon potrebbe riuscire ad intrufolarsi in quel condotto. Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>Probably a Pokémon could get in the air duct.\nDo you want Trishout to take a look inside?
 Trishout
@@ -16336,9 +16336,9 @@ Shu...!
 <<[>>old<<]>>Forse il Pokémon iniziale potrebbe riuscire ad intrufolarsi in quel condotto...
 <<[>>old<<]>>Probably your starter Pokémon could get in the air duct...
 Aurora
-Aurora
+Amber
 Sto ricevendo molte segnalazioni di arresto anomalo nelle Reclute... non c’entrerai mica qualcosa?
-Sto ricevendo molte segnalazioni di arresto anomalo nelle Reclute... non c’entrerai mica qualcosa?
+I'm getting tons of crash reports in Grunts...don't tell me you are involved in this!
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
@@ -16348,17 +16348,17 @@ Sto ricevendo molte segnalazioni di arresto anomalo nelle Reclute... non c’ent
 <<[>>old<<]>>Una barriera laser blocca il passaggio. Bisogna sconfiggere gli ufficiali per passare!
 <<[>>old<<]>>A laser barrier is blocking the way. You must defeat Dimension's officers to take it down!
 Miriam
-Miriam
+Marble
 Non sono un asso delle lotte, ma devo arrestare la tua avanzata ad ogni costo!
-Non sono un asso delle lotte, ma devo arrestare la tua avanzata ad ogni costo!
+I'm not great at battles, but I have to stop your advance<<n>>at any cost!
 Fossi stato un virus informatico avrei saputo come comportarmi...
-Fossi stato un virus informatico avrei saputo come comportarmi...
+If you were a computer virus, I would have known what to do...
 Ruggero
-Ruggero
+Roger
 Nessuno saprà mai che l’unico modo per bypassare il sistema di sicurezza è nel condotto dell’aria!
-Nessuno saprà mai che l’unico modo per bypassare il sistema di sicurezza è nel condotto dell’aria!
+No one will ever know that the only way to disable<<n>>the security system is in the air duct!
 N-Non stavi origliando, vero?
-N-Non stavi origliando, vero?
+Y-You we-were not eavesdropping, right?
 VB6
 VB6
 <i>Mazin... Go!! Bzz!</i>
@@ -16480,7 +16480,7 @@ Listen kiddo, you may not be an ace as a Trainer,<<n>>but I gotta say you're pre
 XC11
 XC11
 Perché avranno scelto questa tuta per noi Reclute? Una bella camicia a fiori avrebbe avuto più stile! <i>Bzz!</i>
-Perché avranno scelto questa tuta per noi Reclute? Una bella camicia a fiori avrebbe avuto più stile! <i>Bzz!</i>
+Why did they choose these suits for us Grunts?<<n>>An Alolan shirt would have been way better! <i>Bzz!</i>
 E-Errore.
 E-Error.
 <i>E-Errore.</i>
@@ -16513,10 +16513,6 @@ Forza, va' a riabbracciare il tuo vecchio dopo tanto tempo!
 Go, reunite with your old man after all this time!
 <<[>>old<<]>>Una barriera laser blocca il passaggio. Bisogna sconfiggere gli ufficiali per passare!
 <<[>>old<<]>>A laser barrier is blocking the way. You must defeat Dimension's officers to take it down!
-PP1
-PP1
-Guarda, guarda! Qualcuno qui pensava di poterci fregare senza essere scoperto|a! <i>Bzz!</i>
-Guarda, guarda! Qualcuno qui pensava di poterci fregare senza essere scoperto|a! <i>Bzz!</i>
 <<[>>old<<]>>Una volta dentro, non potrai più tornare indietro. Vuoi davvero proseguire?
 <<[>>old<<]>>Once you enter this room, you won't be able to go back. Do you wish to proceed?
 <<[>>old<<]>>Assicurati di avere il tuo Pokémon iniziale in squadra per proseguire.
@@ -16524,7 +16520,7 @@ Guarda, guarda! Qualcuno qui pensava di poterci fregare senza essere scoperto|a!
 20KL
 20KL
 Per te è la fine, umano|a! Ho appena fatto il pieno di cola e sono pieno di energie! <i>Bzz!</i>
-Per te è la fine, umano|a! Ho appena fatto il pieno di cola e sono pieno di energie! <i>Bzz!</i>
+You're done, human! I just tanked on cola and I'm full<<n>>of energy! <i>Bzz!</i>
 Sì
 Yes
 No
@@ -16533,7 +16529,7 @@ No
 OL8N
 OL8N
 Ahr! A bordo di questo razzo mi sento come un pirata spaziale... chiamatemi <b>Capitan Harrowk</b>! <i>Bzz!</i>
-Ahr! A bordo di questo razzo mi sento come un pirata spaziale... chiamatemi <b>Capitan Harrowk</b>! <i>Bzz!</i>
+Arr! Aboard this rocket I'm feeling like a space pirate...<<n>>Call me <b>Captain Harrowk</b>! <i>Bzz!</i>
 E-Errore.
 E-Error.
 <i>E-Errore.</i>
@@ -16541,83 +16537,83 @@ E-Error.
 6VB
 6VB
 Non sei il tipo di mostro che avrei pensato di affrontare nello spazio, ma non per questo ti risparmierò! <i>Bzz!</i>
-Non sei il tipo di mostro che avrei pensato di affrontare nello spazio, ma non per questo ti risparmierò! <i>Bzz!</i>
+You're not exactly the kind of monster I was expecting to face in space, but that doesn't mean I'm gonna spare you! <i>Bzz!</i>
 JU6
 JU6
 Siamo nati per lottare per il Generale, non abbiamo altro destino nella nostra esistenza! <i>Bzz!</i>
-Siamo nati per lottare per il Generale, non abbiamo altro destino nella nostra esistenza! <i>Bzz!</i>
+We seem to be made to fight for the General.<<n>>It's our lot in life! <i>Bzz!</i>
 T5H
 T5H
 Nessuno oserà avvicinarsi alle stanze del Generale, finché ci sarò io a fargli da scudo! <i>Bzz!</i>
-Nessuno oserà avvicinarsi alle stanze del Generale, finché ci sarò io a fargli da scudo! <i>Bzz!</i>
+No one will dare get close to the General's room as long<<n>>as I'm here to shield him! <i>Bzz!</i>
 [Map373]
 Luna
 Luna
 Aster sarà pure un gran luminare, ma s'è lasciato fregare i dati sui Pokémon X come niente fosse!
-Aster sarà pure un gran luminare, ma s'è lasciato fregare i dati sui Pokémon X come niente fosse!
+Aster may be a leading light in science, but he let me steal all the precious information about X Pokémon so easily!
 R-Restituirò tutto quello che ho rubato, lo prometto!
-R-Restituirò tutto quello che ho rubato, lo prometto!
+I-I will give back fourfold what I've stolen, I promise!
 Ho approfittato della bontà altrui... non era questo il tipo di scienziata che avrei voluto diventare...
-Ho approfittato della bontà altrui... non era questo il tipo di scienziata che avrei voluto diventare...
+I took advantage of others' kindness...this is not the kind<<n>>of scientist I've ever wanted to become...
 [Map374]
 Robert
 Robert
 Il ricordo di quella tremenda esplosione avvenuta anni fa nei nostri laboratori ancora mi tormenta...!
-Il ricordo di quella tremenda esplosione avvenuta anni fa nei nostri laboratori ancora mi tormenta...!
+The memory of that tremendous explosion in our labs<<n>>has been tormenting me ever since...!
 Ludmilla
-Ludmilla
+Neilla
 1969: il primo uomo mette piede sulla Luna. Fu un piccolo passo per l'uomo, ma un grande passo per l'umanità!
-1969: il primo uomo mette piede sulla Luna. Fu un piccolo passo per l'uomo, ma un grande passo per l'umanità!
+1969--the first man landed on the Moon. That was a small<<n>>step for a man, but one giant leap for mankind!
 Valerio
-Valerio
+Wagner
 Pensavo che a stento sarei riuscito a sbarcare il lunario... e invece sbarcherò sulla Luna!
-Pensavo che a stento sarei riuscito a sbarcare il lunario... e invece sbarcherò sulla Luna!
+I even suffer car-sickness...I never expected to land<<n>>on the Moon!<<n>>But now I'm feeling a bit space-sick...
 Alfred
 Alfred
 Con questa tuta indosso, sento un'irrefrenabile voglia di lottare!
-Con questa tuta indosso, sento un'irrefrenabile voglia di lottare! 
+Wearing this suit makes me want to fight so bad!
 E-Erro... ah, no. Io sono un umano!
-E-Erro... ah, no. Io sono un umano!
+E-Erro- no, wait. I'm a human!
 A-Aiuto! Questo casco non viene più via...!
-A-Aiuto! Questo casco non viene più via...!
+H-Help me! I cannot take this helmet off...!
 Paris
 Paris
 È tutta colpa della Luna se sto dando di matto!
-È tutta colpa della Luna se sto dando di matto!
+I'm going crazy and this is all because of the Moon!
 Ognuno di noi ha un lato oscuro che non mostra mai a nessuno.
-Ognuno di noi ha un lato oscuro che non mostra mai a nessuno.
+Everyone has a dark side they never show to anyone, just like Moon.
 [Map375]
 [Map376]
 Nanda
-Nanda
+Nancy
 Davanti al pericolo, non è saggio farsi avanti, ma è altrettanto sciocco tirarsi indietro!
-Davanti al pericolo, non è saggio farsi avanti, ma è altrettanto sciocco tirarsi indietro!
+Before danger, it is not wise to step forward, but it is<<n>>likewise naive to back out!
 La violenza è il rifugio ultimo degli incapaci.
-La violenza è il rifugio ultimo degli incapaci.
+Violence is the last refuge of the incompetent.
 Isaac
 Isaac
 ''Prima legge: un robot non può arrecare danno agli esseri umani, né può permettere che ne ricevano.''... ''Seconda legge: un robot deve obbedire agli ordini impartiti dagli esseri umani.''... Non c’è pericolo che queste macchine ci si rivoltino contro, siamo in una botte di ferro!
-''Prima legge: un robot non può arrecare danno agli esseri umani, né può permettere che ne ricevano.''...  ''Seconda legge: un robot deve obbedire agli ordini impartiti dagli esseri umani.''... Non c’è pericolo che queste macchine ci si rivoltino contro, siamo in una botte di ferro!
+''First law--a robot may not injure a human being or allow<<n>>a human being to come to harm.''...<<n>>''Second law--a robot must obey any orders given to it by human beings.''...<<n>>There's no way these machines can ever rise up against us--the law is on our side!
 GF5
 GF5
 Sono fresco fresco di montaggio, vediamo se tutto funziona come si deve! <i>Bzz!</i>
-Sono fresco fresco di montaggio, vediamo se tutto funziona come si deve! <i>Bzz!</i>
+I'm fresh out of the assembly-line. Lemme see if<<n>>everything's alright! <i>Bzz!</i>
 E-Errore.
 E-Error.
 <<[>>old<<]>>Forse non funzionava come si deve...
-<<[>>old<<]>>Forse non funzionava come si deve...
+<<[>>old<<]>>Maybe there's something not alright...
 Ben
 Ben
 Non lascerò che un intruso metta le mani sulle nostre preziose informazioni riservate!
-Non lascerò che un intruso metta le mani sulle nostre preziose informazioni riservate!
+I won't let you intruders get your filthy hands on our<<n>>precious confidential information!
 Non ti sarà facile scovarle!
-Non ti sarà facile scovarle!
+It won't be easy for you to find it out!
 Le informazioni sono ben nascoste negli archivi del covo... non ti sarà facile scovarle!
-Le informazioni sono ben nascoste negli archivi del covo... non ti sarà facile scovarle!
+Our information is kept hidden in the archives of<<n>>the hideout...it won't be easy for you to find it out!
 Phoebe
 Phoebe
 Sembra che l’intelligenza artificiale dei robot si stia in qualche modo evolvendo...
-Sembra che l’intelligenza artificiale dei robot si stia in qualche modo evolvendo...
+It looks like the artificial intelligence of robots has been<<n>>going through an evolutionary process somehow...
 [Map377]
 Aster
 Aster
@@ -37178,7 +37174,7 @@ Il corpo si ritira nel suo duro guscio per aumentare la Difesa.
 Il corpo si ritira nel suo duro guscio per aumentare la Difesa.
 560
 Chi la usa emette delle urla che danneggiano l'avversario.
-Chi la usa emette delle urla che danneggiano l'avversario.
+The user attacks the target by shouting at it.
 561
 Chi la usa rivolge i propri occhioni languidi al bersaglio, riducendone l'Attacco. Questa mossa ha priorità alta.
 Chi la usa rivolge i propri occhioni languidi al bersaglio, riducendone l'Attacco. Questa mossa ha priorità alta.
@@ -37535,97 +37531,97 @@ Chi la usa attacca il bersaglio con un rutto potente, ma per farlo deve mangiare
 Chi la usa attacca il bersaglio con un rutto potente, ma per farlo deve mangiare la Bacca che possiede.
 702
 Chi la usa carica l'avversario alla velocità del suono. Colpisce sempre per primo.
-Chi la usa carica l'avversario alla velocità del suono. Colpisce sempre per primo.
+The user lunges at the target at sound speed. It is sure to strike first.
 703
 I nemici vengono investiti da suoni a bassissima frequenza in grado di farli tentennare.
-I nemici vengono investiti da suoni a bassissima frequenza in grado di farli tentennare.
+Low pitched noises attack the opposing team to inflict damage. They may also make the targets flinch.
 704
 Chi la usa spintona il nemico a ritmo di musica per due o tre turni, ma rimane confuso.
-Chi la usa spintona il nemico a ritmo di musica per due o tre turni, ma rimane confuso.
+The user attacks the target by pushing it to the beat for two to three turns, then gets confused.
 705
 Chi la usa emette così suoni assordanti da impedirgli di attaccare il turno successivo.
-Chi la usa emette così suoni assordanti da impedirgli di attaccare il turno successivo.
+The target is attacked with a defeaning sound. The user must rest on the next turn to regain its energy.
 706
 Chi la usa paralizza il nemico con lo sguardo. Colpisce sempre per primo.
-Chi la usa paralizza il nemico con lo sguardo. Colpisce sempre per primo.
+The user paralyzes the target with its glare. This move always goes first.
 707
 Chi la usa urla prepotentemente addosso ai nemici e ne riduce l'Attacco.
-Chi la usa urla prepotentemente addosso ai nemici e ne riduce l'Attacco.
+The user yells at the opposing team and lower their Attack stat. 
 708
 Chi la usa scalda i motori e travolge il bersaglio. Aumenta inoltre la propria Velocità.
-Chi la usa scalda i motori e travolge il bersaglio. Aumenta inoltre la propria Velocità.
+The user revs its engines and strikes the target. Then it raises its Speed stat.
 709
 Chi la usa si lancia energicamente sul bersaglio dopo essersi strafogato di dolci, ma subisce il contraccolpo.
-Chi la usa si lancia energicamente sul bersaglio dopo essersi strafogato di dolci, ma subisce il contraccolpo.
+The user ate tons of sweets and then rushes the targer. This also damages the user quite a lot.
 710
 Chi la usa suona una chitarra creando un'onda sonora potentissima con cui attacca il bersaglio.
-Chi la usa suona una chitarra creando un'onda sonora potentissima con cui attacca il bersaglio.
+The user attacks opposing Pokémon by twanging a guitar, causing a huge echo and strong vibration.
 711
 Investe il bersaglio con una forte ondata di energia draconica.
-Investe il bersaglio con una forte ondata di energia draconica.
+A column of draconic energy hits opposing Pokémon.
 712
 Investe il bersaglio con una forte ondata di energia fatata.
-Investe il bersaglio con una forte ondata di energia fatata.
+A column of fairy energy hits opposing Pokémon.
 713
 Investe il bersaglio con una forte ondata di energia sonora.
-Investe il bersaglio con una forte ondata di energia sonora.
+A column of sound energy hits opposing Pokémon.
 714
 Chi la usa lancia sul bersaglio aculei di freddo pungente che possono paralizzarlo.
-Chi la usa lancia sul bersaglio aculei di freddo pungente che possono paralizzarlo.
+The user attacks by shooting frost pins at the target. They may also leave the target with paralysis.
 715
 Stritola il bersaglio in una forte stretta per quattro o cinque turni.
-Stritola il bersaglio in una forte stretta per quattro o cinque turni.
+The user clutches the target using its snake-like body for two to five turns.
 716
 Chi la usa colpisce con una raffica di energia da due a cinque volte.
-Chi la usa colpisce con una raffica di energia da due a cinque volte.
+The user hits the target with blasts of energy two to five times in a row. 
 717
 Scaraventa sull'avversario un tuono sinistro che può anche ridurne la Difesa.
-Scaraventa sull'avversario un tuono sinistro che può anche ridurne la Difesa.
+The user throws down an ominous thunderbolt. This may also lower its Defense stat.
 718
 Intimorisce l'avversario emettendo un sibilo che ne riduce la Difesa.
-Intimorisce l'avversario emettendo un sibilo che ne riduce la Difesa.
+The user emits an intimidating hiss that harshly reduces the target's Sp. Def stat.
 719
 Chi la usa performa un'esibizione vocale festosa e dinamica che confonde il bersaglio.
-Chi la usa performa un'esibizione vocale festosa e dinamica che confonde il bersaglio.
+The user sings a fast lively song that confuses the target.
 720
 Chi la usa pizzica una chitarra a ritmo sfrenato, lanciando saette che paralizzano il bersaglio.
-Chi la usa pizzica una chitarra a ritmo sfrenato, lanciando saette che paralizzano il bersaglio.
+The user wildly twangs a guitar, hurling bolts that paralyzes the target.
 721
 Chi la usa suona una melodia rilassante che addormenta il bersaglio colpito.
-Chi la usa suona una melodia rilassante che addormenta il bersaglio colpito.
+The user plays a relaxing melody that puts the target into a deep slumber.
 722
 Tira al nemico un ceffone di panna densa e cremosa che ne riduce anche la Velocità.
-Tira al nemico un ceffone di panna densa e cremosa che ne riduce anche la Velocità.
+The target is slapped by a hand full of creamy thick foam. It also reduces the target's Speed stat. 
 723
 Chi la usa colpisce il bersaglio usando tutta la sua forza, ma al turno successivo deve riposare.
-Chi la usa colpisce il bersaglio usando tutta la sua forza, ma al turno successivo deve riposare.
+The user charges at the target using every bit of its power. The user must rest on the next turn.
 724
 Chi la usa finge di supplicare il bersaglio per poi attaccarlo coi suoi capelli scarmigliati. Questa mossa va sempre a segno.
-Chi la usa finge di supplicare il bersaglio per poi attaccarlo coi suoi capelli scarmigliati. Questa mossa va sempre a segno.
+The user pretends to bow its head, but then it stabs the target with its disheveled hair. This attack never misses.
 725
 Chi la usa disperde delle particelle elettrizzate che trasformano le mosse di tipo Normale in mosse di tipo Elettro.
-Chi la usa disperde delle particelle elettrizzate che trasformano le mosse di tipo Normale in mosse di tipo Elettro.
+The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves.
 726
 Attacca il nemico con pericolose tenaglie. Se l'attacco va a segno, il nemico va subito KO.
 Attacca il nemico con pericolose tenaglie. Se l'attacco va a segno, il nemico va subito KO.
 727
 Chi la usa divora l'energia del bersaglio, recuperando PS pari alla metà del danno inferto.
-Chi la usa divora l'energia del bersaglio, recuperando PS pari alla metà del danno inferto.
+The user devours the energy of its target and restore its HP by half the damage taken.
 728
 Chi la usa scaglia immancabilmente sul bersaglio una lancia di pura Energia Rossa. Brutto colpo assicurato.
-Chi la usa scaglia immancabilmente sul bersaglio una lancia di pura Energia Rossa. Brutto colpo assicurato.
+The user throws a pure Red Energy lance at the target. This attack never misses and always results in a critical hit.
 729
 Un'esplosione stellare infligge danni in base all'attacco più alto, ignorando qualsiasi Protezione.
-Un'esplosione stellare infligge danni in base all'attacco più alto, ignorando qualsiasi Protezione.
+The user attacks with a stellar explosion using its higher attack stat, even if the target protects itself.
 730
 Un'esplosione stellare infligge danni in base all'attacco più alto, ignorando qualsiasi Protezione.
-Un'esplosione stellare infligge danni in base all'attacco più alto, ignorando qualsiasi Protezione.
+The user attacks with a stellar explosion using its higher attack stat, even if the target protects itself.
 731
 Un'esplosione stellare infligge danni in base all'attacco più alto, ignorando qualsiasi Protezione.
-Un'esplosione stellare infligge danni in base all'attacco più alto, ignorando qualsiasi Protezione.
+The user attacks with a stellar explosion using its higher attack stat, even if the target protects itself.
 732
 Controllando i campi magnetici, aumentano Difesa e Difesa Speciale degli alleati con abilità Più o Meno.
-Controllando i campi magnetici, aumentano Difesa e Difesa Speciale degli alleati con abilità Più o Meno.
+The user manipulates magnetic fields which raises the Def. and Sp. Def stats of ally Pokémon with Plus or Minus.
 [7]
 1
 Repellente
@@ -40684,7 +40680,7 @@ Poké Ball un po' diversa che diventa progressivamente più efficace con l'aumen
 A somewhat different Ball that becomes progressively better the more turns there are in a battle.
 275
 Poké Ball utile che rende più amichevoli i Pokémon selvatici catturati.
-A comfortable Poké Ball that makes a caught wild Pokémon quickly grow friendly.
+A Poké Ball inspired by a smith's project. It makes a caught wild Pokémon quickly grow friendly.
 276
 Poké Ball rara che è stata realizzata appositamente per commemorare un particolare evento.
 A somewhat rare Poké Ball that has been specially made to commemorate an event of some sort.
@@ -40702,25 +40698,25 @@ Poké Ball rara che è stata creata per commemorare un evento speciale.
 A quite rare Poké Ball that has been specially crafted to commemorate an occasion of some sort.
 281
 Poké Ball un po' originale che funziona proprio bene sui Pokémon rapidi.
-A Poké Ball that makes it easier to catch Pokémon which are quick to run away.
+A Poké Ball inspired by a smith's project. It makes it easier to catch Pokémon which are quick to run away.
 282
 Poké Ball un po' originale che funziona particolarmente bene sui Pokémon di livello inferiore al proprio.
-A Poké Ball for catching Pokémon that are a lower level than your own.
+A Poké Ball inspired by a smith's project. It makes Pokémon that are a lower level than your own easier to catch.
 283
 Poké Ball un po' originale che funziona particolarmente bene sui Pokémon pescati con Amo.
-A Poké Ball for catching Pokémon hooked by a Rod when fishing.
+A Poké Ball inspired by a smith's project. It makes Pokémon hooked by a Rod when fishing easier to catch.
 284
 Poké Ball un po' originale che funziona particolarmente bene sui Pokémon pesanti.
-A Poké Ball for catching very heavy Pokémon.
+A Poké Ball inspired by a smith's project. It makes very heavy Pokémon easier to catch.
 285
 Poké Ball un po' originale che funziona particolarmente bene sui Pokémon di sesso opposto a quello del proprio.
-Poké Ball for catching Pokémon that are the opposite gender of your Pokémon.
+A Poké Ball inspired by a smith's project. It makes Pokémon that are the opposite gender of yours easier to catch.
 286
 Poké Ball un po' originale che rende rapidamente affettuosi i Pokémon selvatici con essa catturati.
-A Poké Ball that makes caught Pokémon more friendly.
+A Poké Ball inspired by a smith's project. It makes caught Pokémon more friendly.
 287
 Poké Ball un po' originale che funziona particolarmente bene sui Pokémon che si evolvono con una Pietralunare.
-A Poké Ball for catching Pokémon that evolve using the Moon Stone.
+A Poké Ball inspired by a smith's project. It makes Pokémon that evolve using the Moon Stone easier to catch.
 288
 Chi la usa affila i propri artigli, aumentando Attacco e precisione.
 The user sharpens its claws to boost its Attack stat and accuracy.
@@ -40783,7 +40779,7 @@ Chi la usa crea un campo protettivo che difende tutta la squadra dai problemi di
 The user creates a protective field that prevents status problems for five turns.
 308
 I nemici vengono investiti da suoni a bassissima frequenza in grado di farli tentennare.
-I nemici vengono investiti da suoni a bassissima frequenza in grado di farli tentennare.
+Low pitched noises attack the opposing team to inflict damage. They may also make the targets flinch.
 309
 Chi la usa assorbe luce al primo turno per proiettare un raggio intenso al turno successivo.
 A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.
@@ -40864,7 +40860,7 @@ Chi la usa colpisce con un attacco fulmineo la parte inferiore del corpo del ber
 The user attacks the target's legs swiftly, reducing the target's Speed stat.
 335
 Attacca il bersaglio con una melodia. Se usata ripetutamente da uno o più Pokémon i danni inflitti aumentano.
-Attacca il bersaglio con una melodia. Se usata ripetutamente da uno o più Pokémon i danni inflitti aumentano.
+The user attacks the target with a song. Others can join in the Round and make the attack do greater damage.
 336
 Attacca il bersaglio con la propria voce echeggiante. Se usata a ripetizione da uno o più Pokémon il danno aumenta.
 The user attacks the target with an echoing voice. If this move is used every turn, it does greater damage.
@@ -41071,19 +41067,19 @@ Se tenuta da un Pokémon in difficoltà, restituisce PS. Se al Pokémon non piac
 If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
 404
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+A Berry which is very rare in the Eldiw region. A maniac will buy it for a high price.
 405
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+A Berry which is very rare in the Eldiw region. A maniac will buy it for a high price.
 406
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+A Berry which is very rare in the Eldiw region. A maniac will buy it for a high price.
 407
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+A Berry which is very rare in the Eldiw region. A maniac will buy it for a high price.
 408
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+A Berry which is very rare in the Eldiw region. A maniac will buy it for a high price.
 409
 Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce i PS.
 Using it on a Pokémon makes it more friendly, but it also lowers its base HP.
@@ -41104,31 +41100,31 @@ Utilizzata su un Pokémon, lo rende più amichevole, ma ne riduce la Velocità.
 Using it on a Pokémon makes it more friendly, but it also lowers its base Speed stat.
 415
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+A Berry which is very rare in the Eldiw region. A maniac will buy it for a high price.
 416
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta..
-A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+A Berry which is very rare in the Eldiw region. A maniac will buy it for a high price.
 417
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+A Berry which is very rare in the Eldiw region. A maniac will buy it for a high price.
 418
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+A Berry which is very rare in the Eldiw region. A maniac will buy it for a high price.
 419
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+A Berry which is very rare in the Eldiw region. A maniac will buy it for a high price.
 420
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+A Berry which is very rare in the Eldiw region. A maniac will buy it for a high price.
 421
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+A Berry which is very rare in the Eldiw region. A maniac will buy it for a high price.
 422
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+A Berry which is very rare in the Eldiw region. A maniac will buy it for a high price.
 423
 A Sinnoh si usa per fare i Poffin. Seminala nel terreno soffice per far crescere una pianta.
-A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+A Berry which is very rare in the Eldiw region. A maniac will buy it for a high price.
 424
 Se tenuta da un Pokémon, diminuisce la potenza delle mosse superefficaci di tipo Fuoco del Pokémon avversario.
 Weakens a supereffective Fire-type attack against the holding Pokémon.
@@ -41665,10 +41661,10 @@ Chiave di accesso ad una stanza della Motonave Cometa.
 Chiave di accesso ad una stanza della Motonave Cometa.
 602
 Delizioso risotto al nero di Octillery. Usato su un Pokémon, fa recuperare 50 PS.
-Delizioso risotto al nero di Octillery. Usato su un Pokémon, fa recuperare 50 PS.
+A delicious risotto with Octillery's ink. It restores the HP of one Pokémon by 50 points.
 603
 Una strana pozione che permette di curare un Pokémon da qualsiasi malattia.
-Una strana pozione che permette di curare un Pokémon da qualsiasi malattia.
+A strange potion that can be used to fully heals a Pokémon of any ailment.
 604
 Strano circuito che permette la creazione di Premier Ball attraverso un particolare processo.
 Strano circuito che permette la creazione di Premier Ball attraverso un particolare processo.
@@ -41686,43 +41682,43 @@ Piccolo e pratico piccone che permette di rompere i massi.
 Piccolo e pratico piccone che permette di rompere i massi.
 609
 Misterioso orecchino perso da una Recluta Dimension. Non sembra avere alcuna utilità.
-Misterioso orecchino perso da una Recluta Dimension. Non sembra avere alcuna utilità.
+A mysterious earring lost by a Dimension Grunt. It doesn't seem to have any effect. 
 610
 Uno strano anello intriso di una forte energia.
-Uno strano anello intriso di una forte energia.
+A mysterious ring imbued with a powerful red energy.
 611
 Un esemplare delle misteriose Megapietre. Data a Venusaur, gli permette di megaevolversi durante la lotta.
 One variety of the mysterious Mega Stones. Have Venusaur hold it, and this stone will enable it to Mega Evolve during battle.
 612
 Bevanda tipica di Borgo Gemini. Restituisce 80 PS.
-Bevanda tipica di Borgo Gemini. Restituisce 80 PS.
+Stellato Town's famous specialty. It restores the HP of one Pokémon by 80 points.
 613
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
 614
 Ball creata da Aster per catturare i Pokémon di specie X.
-Ball creata da Aster per catturare i Pokémon di specie X.
+A special Ball designed by Aster to catch X-species Pokémon.
 615
 Questa chiave apre l'aula di scienze nel College di Ariepoli.
-Questa chiave apre l'aula di scienze nel College di Ariepoli.
+This key opens the Science Class of Newtron's college.
 616
 Questa chiave apre l'anfiteatro del College di Ariepoli.
-Questa chiave apre l'anfiteatro del College di Ariepoli.
+This key opens the amphitheater of Newtron's college.
 617
 Questa chiave apre l'aula di matematica nel College di Ariepoli.
-Questa chiave apre l'aula di matematica nel College di Ariepoli.
+This key opens the Science Class of Newtron's college.
 618
 Questa chiave apre lo sgabuzzino nel College di Ariepoli.
-Questa chiave apre lo sgabuzzino nel College di Ariepoli.
+This key opens the janitor's closet of Newtron's college.
 619
 Questa chiave apre la porta che conduce al cortile del College di Ariepoli.
-Questa chiave apre la porta che conduce al cortile del College di Ariepoli.
+This key opens the gate to Newtron's college schoolyard.
 620
 Una tiara che emana un'aura oscura. Piace a un Pokémon in particolare.
 Una tiara che emana un'aura oscura. Piace a un Pokémon in particolare.
 621
 Pietra particolare che fa evolvere determinate specie di Pokémon. È fredda come il ghiaccio.
-Pietra particolare che fa evolvere determinate specie di Pokémon. È fredda come il ghiaccio.
+A peculiar stone that can make certain species of Pokémon evolve. It has an unmistakable snowflake pattern.
 622
 Rende possibile la creazione di strumenti mediante stampa
 Rende possibile la creazione di strumenti mediante stampa
@@ -41746,76 +41742,76 @@ Poké Ball un po' diversa. Risulta particolarmente efficace sui Pokémon di tipo
 Poké Ball un po' diversa. Risulta particolarmente efficace sui Pokémon di tipo Erba, Volante e Coleottero.
 630
 Veicolo di nuova generazione che permette di sfrecciare levitando.
-Veicolo di nuova generazione che permette di sfrecciare levitando.
+A new-gen vehicle that allows you to get around faster than with Running Shoes.
 631
 Un premio per aver superato la Prova del Fuoco del Regno di Virgopoli.
-Un premio per aver superato la Prova del Fuoco del Regno di Virgopoli.
+The prize received for the completion of the Milkiway Gym's Trial of Fire.
 632
 Un premio per aver superato la Prova dell'Acqua del Regno di Virgopoli.
-Un premio per aver superato la Prova dell'Acqua del Regno di Virgopoli.
+The prize received for the completion of the Milkiway Gym's Trial of Water.
 636
 Uno strano anello intriso di una forte energia oscura.
-Uno strano anello intriso di una forte energia oscura.
+A mysterious ring imbued with a powerful dark blue energy.
 671
 Un misterioso orecchino contenente un’energia pura dal colore rosso intenso.
-Un misterioso orecchino contenente un’energia pura dal colore rosso intenso.
+A mysterious earring containing a deep red pure energy.
 672
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
 673
 Una chiave che potrebbe aprire la porta dell’aula di Scienze.
-Una chiave che potrebbe aprire la porta dell’aula di Scienze.
+This key opens the Science Class of Newtron's college.
 674
 Una chiave che potrebbe aprire la porta dell’anfiteatro.
-Una chiave che potrebbe aprire la porta dell’anfiteatro.
+This key opens the amphitheater of Newtron's college.
 675
 Una chiave che potrebbe aprire la porta dell’aula di Matematica.
-Una chiave che potrebbe aprire la porta dell’aula di Matematica.
+This key opens the Maths Class of Newtron's college.
 676
 Una chiave che potrebbe aprire la porta dello sgabuzzino.
-Una chiave che potrebbe aprire la porta dello sgabuzzino.
+This key opens the janitor's closet of Newtron's college.
 677
 Una chiave che potrebbe aprire la porta del cortile.
-Una chiave che potrebbe aprire la porta del cortile.
+This key opens the gate to Newtron's college schoolyard.
 678
 Una misteriosa Bacca proveniente da un altro pianeta. Nessuno ha mai avuto il coraggio di mangiarla.
-Una misteriosa Bacca proveniente da un altro pianeta. Nessuno ha mai avuto il coraggio di mangiarla.
+A mysterious Berry coming from another planet. Nobody's ever been brave enough to eat it. 
 679
 Un misterioso orecchino contenente un'oscura energia dal colore blu intenso.
-Un misterioso orecchino contenente un'oscura energia dal colore blu intenso.
+A mysterious earring containing a deep blue dark energy.
 680
 Ball creata da Aster per catturare i Pokémon di specie X.
-Ball creata da Aster per catturare i Pokémon di specie X.
+A special Ball designed by Aster to catch X-species Pokémon.
 681
 Una Gemma N compatibile col PokéWES. Vi è inciso un Trapinch stilizzato.
-Una Gemma N compatibile col PokéWES. Vi è inciso un Trapinch stilizzato.
+One of the H-Minerals for the PokéWES. A Trapinch is pictured on it.
 682
 Una Gemma N compatibile col PokéWES. Vi è inciso un Hercurcules stilizzato.
-Una Gemma N compatibile col PokéWES. Vi è inciso un Hercurcules stilizzato.
+One of the H-Minerals for the PokéWES. An Hercurcules is pictured on it.
 683
 Una Gemma N compatibile col PokéWES. Vi è inciso uno Scaleon stilizzato.
-Una Gemma N compatibile col PokéWES. Vi è inciso uno Scaleon stilizzato.
+One of the H-Minerals for the PokéWES. A Scaleon is pictured on it.
 684
 Una Gemma N compatibile col PokéWES. Vi è inciso uno Scyther stilizzato.
-Una Gemma N compatibile col PokéWES. Vi è inciso uno Scyther stilizzato.
+One of the H-Minerals for the PokéWES. A Scyther is pictured on it.
 685
 Una Gemma N compatibile col PokéWES. Vi è inciso un Lapras stilizzato.
-Una Gemma N compatibile col PokéWES. Vi è inciso un Lapras stilizzato.
+One of the H-Minerals for the PokéWES. A Lapras is pictured on it.
 686
 Contenitore d’acqua miracolosa da consegnare al vecchio Oleandro.
-Contenitore d’acqua miracolosa da consegnare al vecchio Oleandro.
+A container full of miracle water to be delivered to Nuphar's grandpa, Abraham.
 687
 Una veste che ricorda il Pokémon Pikachu. È in condizioni pessime.
-Una veste che ricorda il Pokémon Pikachu. È in condizioni pessime.
+A cloth resembling the Pokémon Pikachu. It's torn and rumpled.
 688
 Una veste che ricorda il Pokémon Trishout. È opera di un grande artista.
-Una veste che ricorda il Pokémon Trishout. È opera di un grande artista.
+A cloth resembling the Pokémon Trishout. It was made by a great sewer. 
 689
 Una veste che ricorda il Pokémon Shyleon. È opera di un grande artista.
-Una veste che ricorda il Pokémon Shyleon. È opera di un grande artista.
+A cloth resembling the Pokémon Shyleon. It was made by a great sewer. 
 690
 Una veste che ricorda il Pokémon Shulong. È opera di un grande artista.
-Una veste che ricorda il Pokémon Shulong. È opera di un grande artista.
+A cloth resembling the Pokémon Shulong. It was made by a great sewer. 
 691
 Pergamena scritta con misteriosi grafemi.
 Pergamena scritta con misteriosi grafemi.
@@ -41830,94 +41826,94 @@ Pergamena scritta con misteriosi grafemi.
 Pergamena scritta con misteriosi grafemi.
 695
 Perla contenente acqua. Appartiene alla regina Verbena.
-Perla contenente acqua. Appartiene alla regina Verbena.
+A pearl containing water that belongs to Queen Nuphar.
 696
 Perla contenente acqua. Appartiene alla regina Verbena.
-Perla contenente acqua. Appartiene alla regina Verbena.
+A pearl containing water that belongs to Queen Nuphar.
 697
 Perla contenente acqua. Appartiene alla regina Verbena.
-Perla contenente acqua. Appartiene alla regina Verbena.
+A pearl containing water that belongs to Queen Nuphar.
 701
 Chiave di accesso ad una delle sale del Saloon Torobrado.
-Chiave di accesso ad una delle sale del Saloon Torobrado.
+The access key to one of the Wild Bull Saloon's rooms.
 702
 Chiave di accesso ad una delle sale del Saloon Torobrado.
-Chiave di accesso ad una delle sale del Saloon Torobrado.
+The access key to one of the Wild Bull Saloon's rooms.
 703
 Chiave di accesso ad una delle sale del Saloon Torobrado.
-Chiave di accesso ad una delle sale del Saloon Torobrado.
+The access key to one of the Wild Bull Saloon's rooms.
 704
 Chiave di accesso ad una delle sale del Saloon Torobrado.
-Chiave di accesso ad una delle sale del Saloon Torobrado.
+The access key to one of the Wild Bull Saloon's rooms.
 705
 Pass di accesso a una delle stanze della Palestra di Scorpiopoli.
-Pass di accesso a una delle stanze della Palestra di Scorpiopoli.
+The pass for one of the Westar Gym's rooms.
 706
 Pass di accesso a una delle stanze della Palestra di Scorpiopoli.
-Pass di accesso a una delle stanze della Palestra di Scorpiopoli.
+The pass for one of the Westar Gym's rooms.
 707
 Un esemplare delle misteriose Megapietre. Data a Houndoom, gli permette di megaevolversi.
-Un esemplare delle misteriose Megapietre. Data a Houndoom, gli permette di megaevolversi.
+One variety of the mysterious Mega Stones. Have Houndoom hold it, and this stone will enable it to Mega Evolve during battle.
 708
 Pass di accesso a una delle stanze della Palestra di Scorpiopoli.
-Pass di accesso a una delle stanze della Palestra di Scorpiopoli.
+The pass for one of the Westar Gym's rooms.
 709
 Pass di accesso a una delle stanze della Palestra di Scorpiopoli.
-Pass di accesso a una delle stanze della Palestra di Scorpiopoli.
+The pass for one of the Westar Gym's rooms.
 710
 Un esemplare delle misteriose Megapietre. Data a Glalie, gli permette di megaevolversi.
 Un esemplare delle misteriose Megapietre. Data a Glalie, gli permette di megaevolversi.
 711
 Una foto scattata insieme al Montanaro Eric. C'è anche l'autografo.
-Una foto scattata insieme al Montanaro Eric. C'è anche l'autografo.
+A pic taken with David, the Hiker. There's his autograph too.
 712
 Ticket esclusivo per accedere alla Sala Rock della Palestra Ritmo.
-Ticket esclusivo per accedere alla Sala Rock della Palestra Ritmo.
+The exclusive ticket for the Rock Room of Hypelion Gym.
 713
 Ticket esclusivo per accedere alla Sala Dance della Palestra Ritmo.
-Ticket esclusivo per accedere alla Sala Dance della Palestra Ritmo.
+The exclusive ticket for the Dance Room of Hypelion Gym.
 714
 Ticket esclusivo per accedere al Golden Studio della Palestra Ritmo.
-Ticket esclusivo per accedere al Golden Studio della Palestra Ritmo.
+The exclusive ticket for the Golden Studio of Hypelion Gym.
 715
 Maschera del Pokémon Shyleon. È di un colore rosso intenso.
-Maschera del Pokémon Shyleon. È di un colore rosso intenso.
+A mask of the Pokémon Shyleon. It is deep red.
 716
 Maschera del Pokémon Shyleon. È di un colore blu intenso.
-Maschera del Pokémon Shyleon. È di un colore blu intenso.
+A mask of the Pokémon Shyleon. It is deep blue.
 717
 Maschera del Pokémon Shyleon. È di un colore verde intenso.
-Maschera del Pokémon Shyleon. È di un colore verde intenso.
+A mask of the Pokémon Shyleon. It is deep green.
 718
 Seme di una pianta secolare che cresce solo nel Tempio Shyleon.
-Seme di una pianta secolare che cresce solo nel Tempio Shyleon.
+The seed of a secular plant that only grows in Shyleon Temple.
 719
 Stampo ottenuto dopo aver rigenerato il Fossilcosmo.
-Stampo ottenuto dopo aver rigenerato il Fossilcosmo.
+A mold obtained after the regeneration of the Space Fossil.
 720
 Stampo ottenuto dopo aver rigenerato il Chirofossile.
-Stampo ottenuto dopo aver rigenerato il Chirofossile.
+A mold obtained after the regeneration of the Print Fossil.
 721
 Pezzo di un Totem raffigurante Donanas. A cosa servirà?
-Pezzo di un Totem raffigurante Donanas. A cosa servirà?
+The piece of a totem representing Donanas.
 722
 Pezzo di un Totem raffigurante Donanas. A cosa servirà?
-Pezzo di un Totem raffigurante Donanas. A cosa servirà?
+The piece of a totem representing Donanas.
 723
 Pezzo di un Totem raffigurante Donanas. A cosa servirà?
-Pezzo di un Totem raffigurante Donanas. A cosa servirà?
+The piece of a totem representing Donanas.
 724
 Pezzo luccicante di un Totem raffigurante Donanas. A cosa servirà?
-Pezzo luccicante di un Totem raffigurante Donanas. A cosa servirà?
+The piece of a golden totem representing Donanas.
 725
 Pezzo luccicante di un Totem raffigurante Donanas. A cosa servirà?
-Pezzo luccicante di un Totem raffigurante Donanas. A cosa servirà?
+The piece of a golden totem representing Donanas.
 726
 Pezzo luccicante di un Totem raffigurante Donanas. A cosa servirà?
-Pezzo luccicante di un Totem raffigurante Donanas. A cosa servirà?
+The piece of a golden totem representing Donanas.
 727
 Una Poké Ball di un'altra dimensione regalata da Vint. A cosa servirà?
-Una Poké Ball di un'altra dimensione regalata da Vint. A cosa servirà?
+A special Pokémon gifted in another dimension by Vint. Nobody knows what's used for. 
 728
 Un esemplare delle misteriose Megapietre. Data a Entei, gli permette di megaevolversi durante la lotta.
 One variety of the mysterious Mega Stones. Have Entei hold it, and this stone will enable it to Mega Evolve during battle.
@@ -41929,10 +41925,10 @@ Un esemplare delle misteriose Megapietre. Data a Raikou, gli permette di megaevo
 One variety of the mysterious Mega Stones. Have Raikou hold it, and this stone will enable it to Mega Evolve during battle.
 731
 Biglietto aereo donato dal nonno di Henné con destinazione Kanto.
-Biglietto aereo donato dal nonno di Henné con destinazione Kanto.
+An air ticket gifted by Henna's grandpa to reach Vega's Gym Leader in a distant region.
 732
 Amo vecchio e rovinato. Si usa per pescare Pokémon selvatici in qualsiasi specchio d'acqua.
-Amo vecchio e rovinato. Si usa per pescare Pokémon selvatici in qualsiasi specchio d'acqua.
+An old and beat-up fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.
 733
 Un esemplare delle misteriose Megapietre. Data a Blastoise, gli permette di megaevolversi durante la lotta.
 One variety of the mysterious Mega Stones. Have Blastoise hold it, and this stone will enable it to Mega Evolve during battle.
@@ -41959,7 +41955,7 @@ Un esemplare delle misteriose Megapietre. Data a Hypno, gli permette di megaevol
 One variety of the mysterious Mega Stones. Have Hypno hold it, and this stone will enable it to Mega Evolve during battle.
 741
 Vecchia cassetta su cui è registrata una melodia al pianoforte.
-Vecchia cassetta su cui è registrata una melodia al pianoforte.
+An old cassette tape on which is recorded a melody on piano.
 742
 Campanaccio dei Miltank del Ranch Spigadoro. Non sembrerebbe avere alcuna utilità.
 A Miltank's bell from Nova Ranch. It looks like it has no utility at all.
@@ -42013,85 +42009,85 @@ Riproduzione in miniatura del Monte Zodiaco. Non sembrerebbe avere alcuna utilit
 Miniature version of Mt. Zodiac. It looks like it has no utility at all.
 759
 Update contenente i dati del Pokémon Kadabra. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Kadabra. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Kadabra's data. It makes the Pokémon evolve via Pokémon Transfer.
 760
 Update contenente i dati del Pokémon Machoke. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Machoke. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Machoke's data. It makes the Pokémon evolve via Pokémon Transfer.
 761
 Update contenente i dati del Pokémon Graveler. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Graveler. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Graveler's data. It makes the Pokémon evolve via Pokémon Transfer.
 762
 Update contenente i dati del Pokémon Graveler. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Graveler. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Graveler's data. It makes the Pokémon evolve via Pokémon Transfer.
 763
 Update contenente i dati del Pokémon Haunter. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Haunter. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Haunter's data. It makes the Pokémon evolve via Pokémon Transfer.
 764
 Update contenente i dati del Pokémon Onix. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Onix. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Onix's data. It makes the Pokémon evolve via Pokémon Transfer.
 765
 Update contenente i dati del Pokémon Scyther. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Scyther. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Scyther's data. It makes the Pokémon evolve via Pokémon Transfer.
 766
 Update contenente i dati del Pokémon Porygon. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Porygon. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Porygon's data. It makes the Pokémon evolve via Pokémon Transfer.
 767
 Update contenente i dati del Pokémon Clamperl. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Clamperl. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Clamperl's data. It makes the Pokémon evolve via Pokémon Transfer.
 768
 Update contenente i dati del Pokémon Clamperl. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Clamperl. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Clamperl's data. It makes the Pokémon evolve via Pokémon Transfer.
 769
 Update contenente i dati del Pokémon Rhydon. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Rhydon. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Rhydon's data. It makes the Pokémon evolve via Pokémon Transfer.
 770
 Update contenente i dati del Pokémon Electabuzz. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Electabuzz. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Electabuzz's data. It makes the Pokémon evolve via Pokémon Transfer.
 771
 Update contenente i dati del Pokémon Boldore. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Boldore. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Boldore's data. It makes the Pokémon evolve via Pokémon Transfer.
 772
 Update contenente i dati del Pokémon Gurdurr. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Gurdurr. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Gurdurr's data. It makes the Pokémon evolve via Pokémon Transfer.
 773
 Update contenente i dati del Pokémon Swirlix. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Swirlix. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Swirlix's data. It makes the Pokémon evolve via Pokémon Transfer.
 774
 Update contenente i dati del Pokémon Phantump. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Phantump. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Phantump's data. It makes the Pokémon evolve via Pokémon Transfer.
 775
 Update contenente i dati del Pokémon Feebas. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Feebas. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Feebas' data. It makes the Pokémon evolve via Pokémon Transfer.
 776
 Update contenente dati danneggiati del Pokémon Porygon. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente dati danneggiati del Pokémon Porygon. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing corrupted Porygon2's data. It makes the Pokémon evolve via Pokémon Transfer.
 777
 Update contenente i dati del Pokémon Porygon. Permette al Pokémon di evolversi tramite Trasferitore.
-Update contenente i dati del Pokémon Porygon. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Porygon2's data. It makes the Pokémon evolve via Pokémon Transfer.
 778
 Strumento creato da Tarassaco per far evolvere determinate specie di Pokémon senza l'ausilio di scambi.
-Strumento creato da Tarassaco per far evolvere determinate specie di Pokémon senza l'ausilio di scambi.
+A device designer by Taraxo to make certain species of Pokémon to evolve without trades.
 779
 Una strana pietra che emana energia Xenoverse. Serve ad evolvere alcuni Pokémon X.
-Una strana pietra che emana energia Xenoverse. Serve ad evolvere alcuni Pokémon X.
+A mysterious stone imbued with the energy from Xenoverse. It makes certain X Pokémon to evolve.
 780
 Oggetto sinistro proveniente dal Saloon Torobrado. Piace a due Pokémon in particolare.
-Oggetto sinistro proveniente dal Saloon Torobrado. Piace a due Pokémon in particolare.
+An ominous item coming from the Wild Bull Saloon. It is loved by two certain Pokémon.
 781
 Pietra particolare che fa evolvere determinate specie di Pokémon. Si intravede l'immagine di un fiocco di neve.
-Pietra particolare che fa evolvere determinate specie di Pokémon. Si intravede l'immagine di un fiocco di neve.
+A peculiar stone that can make certain species of Pokémon evolve. It has an unmistakable snowflake pattern.
 782
 Kit di pezzi di ricambio per veicoli da corsa. Piace a un Pokémon in particolare.
-Kit di pezzi di ricambio per veicoli da corsa. Piace a un Pokémon in particolare.
+The spare parts kit for racing vehicles. It is loved by a certain Pokémon.
 783
 Una speciale lettera inviata dai Quattro Cardinali.
-Una speciale lettera inviata dai Quattro Cardinali.
+A special letter sent by the Four Cardinal.
 784
 Vecchio modello di Poké Ball utilizzato durante la Prova dell'eroe.
-Vecchio modello di Poké Ball utilizzato durante la Prova dell'eroe.
+An old model of Poké Ball that is used during the trial of Heroes Path.
 785
 Speciale canna da pesca che permette di pescare Pokémon selvatici e recuperare tesori dal fondale.
-Speciale canna da pesca che permette di pescare Pokémon selvatici e recuperare tesori dal fondale.
+A special fishing rod to fish for wild aquatic Pokémon or to drag treasures up from the deep.
 [9]
 1
 Tanfo
@@ -44961,9 +44957,9 @@ Paris
 Luna
 Luna
 Nanda
-Nanda
+Nancy
 Miriam
-Miriam
+Marble
 Meneslao
 Mitchell
 Vicio
