@@ -12926,27 +12926,27 @@ No
 No
 [Map281]
 Marano
-Marano
+Shiro
 La conoscenza da sola non è sufficiente, va applicata!
-La conoscenza da sola non è sufficiente, va applicata!
+Knowledge alone isn't enough--it must be applied!
 Ci siamo battuti entrambi con onore. Hai il mio rispetto.
-Ci siamo battuti entrambi con onore. Hai il mio rispetto.
+We both fought with honor. You got my respect.
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Tauronordia ad ovest
-<<[>>old<<]>>Tauronordia ad ovest
+<<[>>old<<]>>West: Borealis Town
 <<[>>old<<]>>Quando un Pokémon è congelato non può in alcun modo muoversi. Tuttavia, se usi una mossa Fuoco, potrai scongelarlo all'istante!
 <<[>>old<<]>>Once frozen, a Pokémon cannot make any move. However, when it is hit by a Fire-type move, it will immediately thaw out!
 Fr3ny01
 Fr3ny01
 Ci sarà un motivo se sono l’unico Montanaro ad aver oltrepassato il Vulcano Pulsar, no?!
-Ci sarà un motivo se sono l’unico Montanaro ad aver oltrepassato il Vulcano Pulsar, no?!
+There's a reason why I'm the only Hiker who has ever<<n>>crossed Mt. Starburst, right?!
 Credo proprio che il motivo non c’entri con la mia abilità nella lotta...
-Credo proprio che il motivo non c’entri con la mia abilità nella lotta...
+I believe it ain't about battling skills...
 Che sia stata fortuna o, addirittura, volere divino...?
-Che sia stata fortuna o, addirittura, volere divino...?
+Could it be fortune...? Or even divine will...?
 Tarassaco
-Tarassaco
+Taraxo
 \PN? Come ci sei finito|a tra questi monti innevati?
 \PN? Come ci sei finito|a tra questi monti innevati?
 Capisco, così ti stai recando a Tauronordia.
@@ -12988,21 +12988,21 @@ Only Jackson's got what you're looking for!<<n>>C'mon, have a look!
 Akuma
 Akuma
 Osserva bene la mia cintura! Dimostra che ho raggiunto il più alto rango nel mio dojo!
-Osserva bene la mia cintura! Dimostra che ho raggiunto il più alto rango nel mio dojo!
+Look at my belt closely! It proves I've reached my dojo's highest rank!
 La cintura serve solo per tenere su i pantaloni...
-La cintura serve solo per tenere su i pantaloni...
+Belts are only good for holding up your pants...
 Tao
 Tao
 Ti immaginavi già con un nuovo strumento tra le mani, eh? E invece beccati una lotta!
-Ti immaginavi già con un nuovo strumento tra le mani, eh? E invece beccati una lotta! 
+You were already thinking of yourself with an item<<n>>in your hands, huh? And you got a battle instead!
 Dannazione, le mie tecniche ninja...!
-Dannazione, le mie tecniche ninja...!
+Oh, no! My ninja tactics-!
 Alonso
-Alonso
+Beckham
 Mi basta legare i piedi alla tavola per dimenticare tutti i problemi e sentirmi libero come il vento!
-Mi basta legare i piedi alla tavola per dimenticare tutti i problemi e sentirmi libero come il vento!
+I just need to put my feet on a board to forget all<<n>>my problems and feel as free as the wind!
 L’unico limite è il cielo.
-L’unico limite è il cielo.
+Sky's the limit.
 Kazam...!
 Kazam...!
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
@@ -13016,27 +13016,27 @@ You were only having a look, after all...<<n>>but don't ever try that again!<<n>
 <<[>>old<<]>>Meglio non rischiare...
 <<[>>old<<]>>It's too risky...
 Neve
-Neve
+Sasuke
 Credevi davvero di trovare uno strumento nel bel mezzo di un ponte? Ih ih!
-Credevi davvero di trovare uno strumento nel bel mezzo di un ponte? Ih ih!
+Did you honestly believe you would've found an item<<n>>in the middle of a bridge? Tee-hee!
 Ah, quindi vorresti farmi credere che te l’aspettavi?
-Ah, quindi vorresti farmi credere che te l’aspettavi?
+So you want me to believe you were expecting that?
 Ah, quindi vorresti farmi credere che te l’aspettavi? Mmh, non so se me la conti giusta, tu!
-Ah, quindi vorresti farmi credere che te l’aspettavi? Mmh, non so se me la conti giusta, tu!
+So you want me to believe you were expecting that?<<n>>Hmm, dunno...you ain't giving me the straight!
 Ignazio
-Ignazio
+Anderson
 Quei dannati mocciosi hanno un travestimento migliore del mio!
-Quei dannati mocciosi hanno un travestimento migliore del mio!
+These freakin' little punks have a better disguise than mine!
 Io non riuscirei mai a nascondermi in una cassa...
-Io non riuscirei mai a nascondermi in una cassa...
+I could never hide in a chest...
 Ilario
-Ilario
+Shaun
 Lo snowboard è uno sport pericoloso, ma niente mi renderà mai felice come stare in sella alla tavola!
-Lo snowboard è uno sport pericoloso, ma niente mi renderà mai felice come stare in sella alla tavola!
+Snowboarding is a dangerous sport, but nothing<<n>>makes me as happy as staying on my board!
 Attaccare lo snowboard ai piedi è facile, legarselo all’anima è cosa da pochi.
-Attaccare lo snowboard ai piedi è facile, legarselo all’anima è cosa da pochi.
+Attaching a snowboard to your feet is easy, attaching it to your soul is the real deal.
 <<[>>old<<]>>Questo alberello è congelato. Vuoi che Trishout lo scongeli?
-<<[>>old<<]>>Questo alberello è congelato. Vuoi che Trishout lo scongeli?
+<<[>>old<<]>>This tree is frozen. Do you want Trishout to thaw it out?
 Trishout
 Trishout
 Tri...!
@@ -13046,11 +13046,11 @@ Tri...!
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Jinny
-Jinny
+Ginga
 Lo sapevo che prima o poi qualche allocco sarebbe cascato nel mio tranello! Ih ih!
-Lo sapevo che prima o poi qualche allocco sarebbe cascato nel mio tranello! Ih ih!
+I knew it was only a matter of time before some fool<<n>>fell into my trap! Tee-hee!
 Sono un vero maestro dell’inganno. Ih ih!
-Sono un vero maestro dell’inganno. Ih ih!
+I'm a real master of deception. Tee-hee!
 Kimo
 Kimo
 Ti dimostrerò quanto lo studio di quest’arte marziale mi abbia reso forte! Avanti!
@@ -13066,15 +13066,15 @@ I said snowboarding not battling...
 Kun
 Kun
 Ih ih! Nientre strumento per te!
-Ih ih! Nientre strumento per te!
+Tee-hee! No item for you!
 Tattica ninja numero tre... ''falsa sconfitta''!
-Tattica ninja numero tre... ''falsa sconfitta''! 
+Ninja tactic number three--''fake defeat''!
 Lucio
 Luke
 Ehi! Ti pare il caso di fare il||la ficcanaso nel mio cumulo di neve?!
-Ehi! Ti pare il caso di fare il||la ficcanaso nel mio cumulo di neve?!
+Aw, c'mon! Why did you snoop around my snowdrift<<n>>like that?!
 Qui dentro sono in una botte di freddo.
-Qui dentro sono in una botte di freddo.
+I'm coldly placed in here.
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 <<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe addentrarvisi...
@@ -13082,9 +13082,9 @@ Qui dentro sono in una botte di freddo.
 Flik
 Flik
 Noi Ninja siamo i maestri del travestimento! Ih ih!
-Noi Ninja siamo i maestri del travestimento! Ih ih!
+Ninjas are masters of disguise! Tee-hee!
 L’invisibilità è tutta questione di pazienza e agilità.
-L’invisibilità è tutta questione di pazienza e agilità.
+Invisibility is a matter of patience and agility.
 Sì
 Yes
 No
@@ -15380,11 +15380,11 @@ Duke
 Ehi, tu!
 Hey, you!
 Pensavi fossi un Allenatore pronto a sfidarti, vero? Sta’ tranquillo|a, sono un Surfista pacifico, io!
-You thought I was a Trainer ready to fight you, ain't ya?<<n>>Don't worry, I'm a peaceful Surfer actually!
+You thought I was a Trainer ready to battle you, ain't ya?<<n>>Chill out, it's all right. I'm a peaceful Surfer actually!
 Sai, quando dalla mia Alola mi sono trasferito qui, temevo non avrei trovato pane per i miei denti... ... e invece, devo dire che il mare di questa regione non ha proprio nulla da invidiare!
 Y'know, when I moved in Eldiw from my beloved Alola I was worried I wouldn't have got work cut out for me here...<<n>>...but I must admit that the sea in this region is no way<<n>>inferior to the Alolan one!
 Però, non ho potuto non notare che da queste parti i Raichu non sono avvezzi al surf... Sarei davvero curioso di allenarne uno ed insegnargli questa nobile arte!
-However, I noticed that Raichu are not used to surfin'<<n>>out here...<<n>>I'd like to train one and teach this fine art to it!
+However, I noticed that Raichu are not used to surfin'<<n>>out here...<<n>>I'd like to train one myself and teach it this fine art!
 Non è che tu avresti un Raichu da scambiare col mio <b>Raichu di Alola</b>?
 Is there any chance you'd trade your Raichu for<<n>>an <b>Alolan Raichu</b>?
 Torna a trovarmi quando avrai un Raichu. Ci conto!
@@ -15392,7 +15392,7 @@ Come again when you have a Raichu for me, dude||||girl!
 Via allo scambio!!
 Let's trade!!
 Il Raichu di Alola è un surfista nato! Vedrai che spasso!
-Alolan Raichu is a natural surfer! You gonna see that!
+Alolan Raichu is born to surf! You gonna see that!
 Ariella
 Gemma
 Il mare da sempre incanta, commuove, spaventa, alle volte fa anche ridere... ma soprattutto, il mare chiama!
@@ -15491,7 +15491,9 @@ Shui
 C'è chi proprio non sopporta il freddo e chi, come me, non potrebbe vivere senza. Il mondo è bello perché è vario!
 C'è chi proprio non sopporta il freddo e chi, come me, non potrebbe vivere senza.  Il mondo è bello perché è vario!
 <<[>>old<<]>><b>Tauronordia</b> <i>''La luce che risplende tra i monti.''</i>
-<<[>>old<<]>><b>Tauronordia</b> <i>''La luce che risplende tra i monti.''</i>
+<<[>>old<<]>><b>Borealis Town</b>\n<i>''The light shining in the mountains.''</i>
+<<[>>old<<]>>Casa dei Fratelli Eccelsi
+<<[>>old<<]>>Ultimate Brothers' House
 Feng
 Feng
 Ho chiesto al Cardinale il permesso di provare il suo spadone... quel coso peserà almeno 40 chili!! Come farà a sollevarlo con una tale facilità lei che è così minuta?
@@ -15503,25 +15505,31 @@ Quest'anno ho fatto il bravo. Mi merito proprio un bel premio dal vecchio dei Re
 Hit
 Hit
 Se ti piacciono le sfide, il <b>Dojo Lotta</b> è il posto che fa per te!
-Se ti piacciono le sfide, il <b>Dojo Lotta</b> è il posto che fa per te!
+If you enjoy challenges, the <b>Battle Dojo</b> is the perfect place for you!
+Prendi questo, ne avrai bisogno.
+Take this, you'll need it.
 Vieni al Dojo Lotta se vuoi metterti alla prova coi più esperti lottatori di Tauronordia.
-Vieni al Dojo Lotta se vuoi metterti alla prova coi più esperti lottatori di Tauronordia.
+Come to the Battle Dojo if you want to prove yourself<<n>>with the most experienced Trainers of Borealis Town.
 Terry
-Terry
+Suna
 Adoro la montagna, ma a volte ho come l'impressione che il mare mi manchi.
-Adoro la montagna, ma a volte ho come l'impressione che il mare mi manchi.
+I love mountains, but sometimes I have this feeling<<n>>that I miss the sea.
+Se solo avessi della sabbia, potrei ricordare almeno il suo profumo...
+If only I had some sand, I could at least remember<<n>>its scent...
 Vuoi regalarmi quel sacchetto di <b>Splendisabbia</b> della Spiaggia Polvostella? È davvero un bel gesto da parte tua, grazie!
-Vuoi regalarmi quel sacchetto di <b>Splendisabbia</b> della Spiaggia Polvostella? È davvero un bel gesto da parte tua, grazie!
+What? You're giving me that bag of <b>Shining Sand</b> from Stardust Beach? <<n>>That's really nice of you, thanks!
 Vorrei tanto sdebitarmi, ma purtroppo non ho qui niente...
-Vorrei tanto sdebitarmi, ma purtroppo non ho qui niente...
+I would gladly give something in return, but unfortunately<<n>>I have nothing here...
 Però... posso darti una dritta, se vuoi!
-Però... posso darti una dritta, se vuoi!
+However...I can give you a special tip, if you want!
+Pare che in un ceppo del <b>Percorso 14</b> si nasconda un vero tesoro del popolo di Tauronordia.
+I heard that in a log on <b>Route 14</b> there's hidden a real treasure of Borealis Town's people.
 Non so dirti altro, ma magari potrebbe farti comodo!
-Non so dirti altro, ma magari potrebbe farti comodo!
+That's all I got, but I guess it could be useful! 
 Oh, com'è bello l'odore del mare!
-Oh, com'è bello l'odore del mare!
+Ah, the scent of the sea!
 Castalia
-Castalia
+Niva
 \PN! Infine, hai mantenuto fede alla promessa di venire a farmi visita!
 \PN! Infine, hai mantenuto fede alla promessa di venire a farmi visita!
 Allora, che te ne pare della mia Tauronordia?
@@ -15547,16 +15555,16 @@ Ora, col tuo permesso, mi congedo.
 Zài jiàn, \PN!
 Zài jiàn, \PN!
 <<[>>old<<]>>Dojo Lotta
-<<[>>old<<]>>Dojo Lotta
+<<[>>old<<]>>Battle Dojo
 <<[>>old<<]>>Dojo Lotta\nAllenatori certificati: \PN
-<<[>>old<<]>>Dojo Lotta\nAllenatori certificati: \PN
+<<[>>old<<]>>Battle Dojo\nCertified Trainers: \PN
 Sì
 Yes
 No
 No
 [Map347]
 <<[>>old<<]>><b>Nido Boreale</b> <i>''Il miracolo delle lande ghiacciate.''</i>
-<<[>>old<<]>><b>Nido Boreale</b> <i>''Il miracolo delle lande ghiacciate.''</i>
+<<[>>old<<]>><b>Aurora Den</b>\n<i>''The miracle of frozen lands.''</i>
 [Map348]
 [Map349]
 <<[>>old<<]>>Percorso 16
@@ -17247,17 +17255,17 @@ If you managed to get here on your own, this means<<n>>that you're a respectable
 Leon
 Leon
 Ho camminato in lungo e in largo, ma di quell’antico <b>Idolo d’Acqua</b> neanche l’ombra...
-Ho camminato in lungo e in largo, ma di quell’antico <b>Idolo d’Acqua</b> neanche l’ombra...
+I've been walking all over the place, but not even a trace<<n>>of that ancient <b>Idol of Water</b>...
 Ma quello è proprio l’Idolo d’Acqua! L’hai trovato!!
-Ma quello è proprio l’Idolo d’Acqua! L’hai trovato!!
+Wha- that's the Idol of Water! You found it!!
 Ascolta un po’ la mia proposta: tu mi dai quel tesoro e, in cambio, io ti cedo questa scultura che ho trovato... Allora, che ne dici?
-Ascolta un po’ la mia proposta: tu mi dai quel tesoro e, in cambio, io ti cedo questa scultura che ho trovato...  Allora, che ne dici?
+OK, listen, here's my deal--you give me that treasure,<<n>>and, in return, I give you this sculpture I found.<<n>>So, how 'bout that?
 Grazie, ed ecco a te la <b>miniatura del Mt. Zodiaco</b>, come promesso!
-Grazie, ed ecco a te la <b>miniatura del Mt. Zodiaco</b>, come promesso!
+Thank you! Here's your <b>Mt. Zodiac Diorama</b>,<<n>>as I promised.
 Te ne prego... Sei l’unico|a ad avere tra le mani quello che cerco!
-Te ne prego... Sei l’unico|a ad avere tra le mani quello che cerco!
+I'm begging you...you're the only one who can give me<<n>>what I've been looking for!
 Pare che quelli scolpiti su quella miniatura, siano i volti di quattro importanti figure della regione.
-Pare che quelli scolpiti su quella miniatura, siano i volti di quattro importanti figure della regione.
+I heard that the faces of four prominent figures of<<n>>the region are carved on that diorama.
 Sì
 Yes
 No
@@ -17683,7 +17691,7 @@ Never look away from your opponent...not even<<n>>when you're bowing!
 La vita ci butta giù, ma sta a noi scegliere se rimetterci in piedi o meno.
 Life can let us down, but we must choose if we're getting up or not.
 Tata
-Tata
+Tate
 Sei quasi alla fine del tuo viaggio, ma tranquillo|a. Ci penserò io a tenerti lontano dalla conclusione!
 You're almost at the end of your journey, but don't worry...it'll be my pleasure to keep you away from it!
 Hai proprio intenzione di andare fino in fondo, eh?
@@ -17830,30 +17838,6 @@ I get the feeling you're giving me a hard time, but I won't<<n>>let you go witho
 Quanto mi secca avere sempre ragione...
 Boy, do I hate being right all the time...
 [Map412]
-Lee
-Lee
-Una leggenda narra che <b>Qing Lóng</b>, il drago azzurro, riposi nei meandri più reconditi del Nido Boreale.
-Una leggenda narra che <b>Qing Lóng</b>, il drago azzurro, riposi nei meandri più reconditi del Nido Boreale.
-<<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
-<<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
-<<[>>old<<]>>È vuota.
-<<[>>old<<]>>It's empty.
-<<[>>old<<]>>C'è qualcosa all'interno.
-<<[>>old<<]>>There's something inside.
-[Map413]
-Liu
-Liu
-Con queste temperature, a noi il calduccio fa un gran bene, ma lo stesso non vale per i Pokémon Ghiaccio. Se darai loro una di queste, però, potranno sopportare un po’ di più il caldo!
-Con queste temperature, a noi il calduccio fa un gran bene, ma lo stesso non vale per i Pokémon Ghiaccio. Se darai loro una di queste, però, potranno sopportare un po’ di più il caldo!
-Ma attento|a, quella Bacca potrà neutralizzare un solo attacco di tipo Fuoco indirizzato al tuo Pokémon.
-Ma attento|a, quella Bacca potrà neutralizzare un solo attacco di tipo Fuoco indirizzato al tuo Pokémon.
-<<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
-<<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
-Tao
-Tao
-Una volta ho affrontato un Beartic a mani nude, sai? ... Nah, non è vero. Me la sono fatta sotto e sono scappato con la coda tra le gambe.
-Una volta ho affrontato un Beartic a mani nude, sai? ... Nah, non è vero. Me la sono fatta sotto e sono scappato con la coda tra le gambe.
-[Map414]
 Erbilio
 Herbert
 Io e i miei fratelli da secoli abbiamo il compito di tramandare potenti attacchi alle nuove generazioni.  Dimmi, giovane, vuoi che insegni la mossa eccelsa <b>Radicalbero</b> a uno dei tuoi Pokémon?
@@ -17874,6 +17858,30 @@ Io e i miei fratelli da secoli abbiamo il compito di tramandare potenti attacchi
 My brothers and I have a duty to pass on powerful moves<<n>>to future generations.<<n>>Tell me, young one, you want me to teach the ultimate<<n>><b>Hydro Cannon</b> to one of your Pokémon?
 Ecco fatto! Ora il tuo Pokémon potrà sprigionare il pieno potenziale del tipo Acqua.
 There you go! Now, your Pokémon will be able unleash<<n>>its full Water-type potential.
+<<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
+<<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
+<<[>>old<<]>>È vuota.
+<<[>>old<<]>>It's empty.
+<<[>>old<<]>>C'è qualcosa all'interno.
+<<[>>old<<]>>There's something inside.
+[Map413]
+Liu
+Liu
+Con queste temperature, a noi il calduccio fa un gran bene, ma lo stesso non vale per i Pokémon Ghiaccio. Se darai loro una di queste, però, potranno sopportare un po’ di più il caldo!
+Con queste temperature, a noi il calduccio fa un gran bene, ma lo stesso non vale per i Pokémon Ghiaccio. Se darai loro una di queste, però, potranno sopportare un po’ di più il caldo!
+Ma attento|a, quella Bacca potrà neutralizzare un solo attacco di tipo Fuoco indirizzato al tuo Pokémon.
+Ma attento|a, quella Bacca potrà neutralizzare un solo attacco di tipo Fuoco indirizzato al tuo Pokémon.
+<<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
+<<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
+Tao
+Tao
+Una volta ho affrontato un Beartic a mani nude, sai? ... Nah, non è vero. Me la sono fatta sotto e sono scappato con la coda tra le gambe.
+Una volta ho affrontato un Beartic a mani nude, sai? ... Nah, non è vero. Me la sono fatta sotto e sono scappato con la coda tra le gambe.
+[Map414]
+Lee
+Lee
+Una leggenda narra che <b>Qing Lóng</b>, il drago azzurro, riposi nei meandri più reconditi del Nido Boreale.
+Una leggenda narra che <b>Qing Lóng</b>, il drago azzurro, riposi nei meandri più reconditi del Nido Boreale.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
 Sì
@@ -18105,6 +18113,16 @@ Ennardo
 Edward
 La bufera deve aver congelato te e i tuoi Pokémon... Guarda quei ghiaccioli sotto al naso! Oh oh oh! Scherzi a parte, non fare complimenti. Fa' come se fosse casa tua. Scaldati pure davanti al caminetto e riposa quanto vuoi.
 The blizzard must have frozen you and your Pokémon.<<n>>Look at those icicles on your nose! Ho ho ho!<<n>>Jokes aside, feel free to make yourself at home. Have a seat by the fireplace and rest as much as you want.
+Draconio
+Drake
+Il Cardinale Oleandro ha insignito la mia famiglia del compito di tramandare ai posteri un attacco capace di liberare il potenziale inespresso dei draghi.
+Cardinal Abraham entrusted my family with the duty of passing on future generations a power attack,<<n>>capable of unleashing the full potential of dragons. 
+Dimmi, giovane, vuoi che insegni la potente mossa <b>Dragobolide</b> a uno dei tuoi Pokémon?
+Tell me, young one, you want me to teach the powerful<<n>><b>Draco Meteor</b> to one of your Pokémon?
+Ecco fatto! Ora il tuo Pokémon potrà sprigionare il pieno potenziale del tipo Drago.
+There you go! Now, your Pokémon will be able unleash<<n>>its full Dragon-type potential.
+Torna a trovarmi quando vorrai insegnare la mia potente mossa a uno dei tuoi Pokémon.
+Come back when you want me to teach my powerful<<n>>move to one of your Pokémon.
 <<[>>old<<]>>Vuoi riposarti?
 <<[>>old<<]>>Would you like to rest?
 <<[>>old<<]>>Ora va molto meglio.
@@ -18701,13 +18719,13 @@ OK, I'll roam in this cave forever...
 Ken
 Ken
 Per difendermi non userò la mia forza, ma sfrutterò la tua... proprio come fa un torrente d’acqua!
-I won't use force to protect me. I'll use your instead...<<n>>just like a freshwater stream does!
+I won't use force to protect me. I'll use yours instead...<<n>>just like a freshwater stream does!
 Non ho saputo fare mia la pazienza dell’acqua.
 I wasn't able to make water patience mine.
 [Map469]
 [Map470]
 Madalina
-Madalina
+Madelyne
 Lo skate è un vero maestro di vita, e infatti ora ti darò una bella lezione!
 Skateboarding is a real life coach...which is why<<n>>I'm gonna teach you a lesson!
 Lo skateboard è come la vita: cadi, ti rialzi e fai il numero più bello.
@@ -18789,7 +18807,7 @@ How much to hire you as a bodyguard...?<<n>>One thousand? Ten thousand? One mill
 Klaudia
 Karen
 A quanto pare siamo sulla stessa rotta... Era ovvio che i nostri cammini si sarebbero incrociati!
-Apparently we're on the same path...it was obvious<<n>>our paths would've crossed!
+Apparently our destination is the same...<<n>>It was obvious our paths would've crossed!
 Era ovvio anche che uno dei due perdesse...
 It was obvious that one of us had to lose too...
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
@@ -44545,7 +44563,7 @@ Kira
 Roman
 Roman
 Marano
-Marano
+Shiro
 Kevin
 Kevin
 Ken
@@ -44617,7 +44635,7 @@ Sandy
 Jessie
 Jessie
 Ignazio
-Ignazio
+Anderson
 Markus
 Markus
 Alfonso
@@ -44809,11 +44827,11 @@ Fulvio
 Kun
 Kun
 Jinny
-Jinny
+Ginga
 J.J
 J.J.
 Neve
-Neve
+Sasuke
 Tao
 Tao
 Flik
@@ -44985,13 +45003,13 @@ Ricky
 Fred
 Fred
 Ilario
-Ilario
+Shaun
 Franceschino
 Francis
 Beppe
 Hank
 Alonso
-Alonso
+Beckham
 Paris
 Paris
 Luna
