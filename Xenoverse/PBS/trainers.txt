@@ -214,7 +214,7 @@ BLINGRIMM,12,,LEER,HONECLAWS,FURYSWIPES,RAPIDSPIN
 BULLO
 Federico
 3
-LEDYBA,2
+LEDYBA,3
 SPARKOWL,3
 RATTATA,3
 #==============================
@@ -287,8 +287,8 @@ TORKOAL,28
 CAMPEGGIATORE
 Luca
 2
-WINGULL,4
-TAILLOW,4
+WINGULL,5
+TAILLOW,5
 #==============================
 CAMPEGGIATORE
 Frank
@@ -310,13 +310,13 @@ GACHIGACHOO,22
 CAMPEGGIATORE
 Michiel
 2
-INKAY,8
+INKAY,9
 SANDYGAST,9
 #==============================
 CAMPEGGIATORE
 Pino
 3
-ZIGZAGOON,2
+YEMIN,2
 ZIGZAGOON,2
 KRICKETOT,2
 #==============================
@@ -578,7 +578,7 @@ HERCURCULES,72
 CINTURANERA
 Aziz
 2
-DWEBBLE,4
+DWEBBLE,5
 YEMIN,6
 #==============================
 CINTURANERA
@@ -980,7 +980,7 @@ SHIINOTIC,50
 FIGLIO_DEI_FIORI
 Alessandro
 1
-BREMAND,6,,,,,,,,1
+BREMAND,7,,,,,,,,1
 #==============================
 FIGLIO_DEI_FIORI
 Teo
