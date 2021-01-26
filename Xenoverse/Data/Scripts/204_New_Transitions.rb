@@ -1129,7 +1129,7 @@ def pbBattleAnimation(bgm=nil,trainerid=-1,trainername="",skip = false)
     end
   end
   if bgm
-    if $MKXP
+    if $MKXP && playingBGM != nil
       echoln "INTO #{bgm.name.gsub(/.mp3|.mid|.wav/,"")} from #{playingBGM.name.gsub(/.mp3|.mid|.wav/,"")}"
       if bgm.name.gsub(/.mp3|.mid|.wav/,"") != playingBGM.name.gsub(/.mp3|.mid|.wav/,"")
         pbBGMPlay(bgm,80)
