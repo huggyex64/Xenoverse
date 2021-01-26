@@ -524,7 +524,7 @@ class Achievement_UI
           pbSetSmallFont(bitmap)
           bitmap.font.size = $MKXP ? 12 : 12
           color = Color.new(240,240,240)
-          pbDrawTextPositions(bitmap,[[achiv.progress.to_s + "/" + achiv.amount.to_s,x+120+PROGRESS_BORDER,y+6,false,color]])
+          pbDrawTextPositions(bitmap,[[achiv.progress.to_s + "/" + achiv.amount.to_s,x+120+PROGRESS_BORDER+($MKXP ? 2 : 0),y+6+($MKXP ? 2 : 0),false,color]])
         else
         end
       end

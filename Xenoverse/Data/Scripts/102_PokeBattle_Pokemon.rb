@@ -51,6 +51,9 @@ class PokeBattle_Pokemon
   attr_accessor(:ribbons)     # Array of ribbons
   attr_accessor :cool,:beauty,:cute,:smart,:tough,:sheen # Contest stats
 
+  EVLIMIT     = 510   # Max total EVs
+  EVSTATLIMIT = 252   # Max EVs that a single stat can have
+
 ################################################################################
 # Ownership, obtained information
 ################################################################################

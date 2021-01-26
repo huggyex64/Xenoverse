@@ -1917,10 +1917,18 @@ class PokeBattle_Battle
 			end
 			evgain*=2 if thispoke.pokerusStage>=1 # Infected or cured
 			if evgain>0
+				echoln "EVGAIN #{evgain} TOTALEV #{totalev}"
 				# Can't exceed overall limit
-				evgain-=totalev+evgain-510 if totalev+evgain>510
+				if totalev+evgain>510
+					evgain-=totalev+evgain-510
+					echoln "EXCEEDED 510 EV"
+				end
 				# Can't exceed stat limit
-				evgain-=thispoke.ev[k]+255 if thispoke.ev[k]+evgain>255
+				if thispoke.ev[k]+evgain>255
+					evgain-=thispoke.ev[k]+evgain-255 
+					echoln "EXCEEDED 255 SINGLE STAT EV"
+				end
+				echoln "EVGAIN #{evgain}"
 				# Add EV gain
 				thispoke.ev[k]+=evgain
 				if thispoke.ev[k]>255
@@ -3562,10 +3570,10 @@ class PokeBattle_Battle
 			if i.hasWorkingAbility(:MOODY)
 				PBDebug.log("[#{i.pbThis}'s Moody triggered]")
 				randomup=[]; randomdown=[]
-				for i in [PBStats::ATTACK,PBStats::DEFENSE,PBStats::SPEED,PBStats::SPATK,
+				for j in [PBStats::ATTACK,PBStats::DEFENSE,PBStats::SPEED,PBStats::SPATK,
 						PBStats::SPDEF,PBStats::ACCURACY,PBStats::EVASION]
-					randomup.push(i) if !i.pbTooHigh?(i)
-					randomdown.push(i) if !i.pbTooLow?(i)
+					randomup.push(j) if !i.pbTooHigh?(j)
+					randomdown.push(j) if !i.pbTooLow?(j)
 				end
 				statnames=[_INTL("Attack"),_INTL("Defense"),_INTL("Speed"),_INTL("Special Attack"),
 					_INTL("Special Defense"),_INTL("accuracy"),_INTL("evasiveness")]
