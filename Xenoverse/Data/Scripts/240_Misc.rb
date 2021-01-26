@@ -747,27 +747,131 @@ end
 
 
 # Faster method for drawing outlines in MKXP.
+
 if $MKXP
 
   class Sprite
-    def add_outline(c1)
-      return false if !self.bitmap
-      bmp = self.bitmap.clone
-      self.bitmap = Bitmap.new(bmp.height,bmp.width)
-      #creating outline
-      self.bitmap.blt(-1,0,bmp,Rect.new(0,0,bmp.width,bmp.height),40)
-      self.bitmap.blt(1,0,bmp,Rect.new(0,0,bmp.width,bmp.height),40)
-      self.bitmap.blt(0,1,bmp,Rect.new(0,0,bmp.width,bmp.height),40)
-      self.bitmap.blt(0,-1,bmp,Rect.new(0,0,bmp.width,bmp.height),40)
-      self.bitmap.blt(0,0,bmp,Rect.new(0,0,bmp.width,bmp.height))
-      for y in 0...bmp.width
-        for x in 0...bmp.height
-          pixel = self.bitmap.get_pixel(x,y)
-          if pixel.alpha != 255 && pixel.alpha > 0 # keeps alpha
-            self.bitmap.set_pixel(x,y,c1)
+    attr_accessor :cachedOutlined
+
+    def cachedOutlined
+      @cachedOutlined = {} if @cachedOutlined == nil
+      return @cachedOutlined
+    end
+
+    def add_outline(c1,frame=0,cache = true)
+      #self.bitmap.add_outline(c1)
+      return if !self.bitmap
+      if cache
+        if !cachedOutlined.keys.include?(frame)
+          bmp = self.bitmap.clone
+          self.bitmap = Bitmap.new(bmp.width,bmp.height)
+          self.bitmap.blt(-1,0,bmp,Rect.new(0,0,bmp.width,bmp.height),80)
+          self.bitmap.blt(1,0,bmp,Rect.new(0,0,bmp.width,bmp.height),80)
+          self.bitmap.blt(0,-1,bmp,Rect.new(0,0,bmp.width,bmp.height),80)
+          self.bitmap.blt(0,1,bmp,Rect.new(0,0,bmp.width,bmp.height),80)
+          self.bitmap.blt(0,0,bmp,Rect.new(0,0,bmp.width,bmp.height))
+          for y in 0...bmp.height
+            for x in 0...bmp.width
+              pixel = self.bitmap.get_pixel(x,y)
+              if pixel.alpha>0 && pixel.alpha <255
+                self.bitmap.set_pixel(x,y,c1)
+              end
+            end
+          end
+          cachedOutlined[frame] = self.bitmap.clone
+        else
+          self.bitmap = cachedOutlined[frame].clone
+        end
+      else
+        bmp = self.bitmap.clone
+        self.bitmap = Bitmap.new(bmp.width,bmp.height)
+        self.bitmap.blt(-1,0,bmp,Rect.new(0,0,bmp.width,bmp.height),80)
+        self.bitmap.blt(1,0,bmp,Rect.new(0,0,bmp.width,bmp.height),80)
+        self.bitmap.blt(0,-1,bmp,Rect.new(0,0,bmp.width,bmp.height),80)
+        self.bitmap.blt(0,1,bmp,Rect.new(0,0,bmp.width,bmp.height),80)
+        self.bitmap.blt(0,0,bmp,Rect.new(0,0,bmp.width,bmp.height))
+        for y in 0...bmp.height
+          for x in 0...bmp.width
+            pixel = self.bitmap.get_pixel(x,y)
+            if pixel.alpha>0 && pixel.alpha <255
+              self.bitmap.set_pixel(x,y,c1)
+            end
           end
         end
       end
+=begin
+      x0,y0 = 0,0
+      found = false
+      for y in 0...bmp.height
+        for x in 0...bmp.width
+          pixel = self.bitmap.get_pixel(x,y)
+          if pixel.alpha>0 && pixel.alpha <255
+            x0,y0 = x,y
+            self.bitmap.set_pixel(x,y,Color.new(255,0,0))
+            found = true
+            break
+          end
+          #pixel = self.bitmap.get_pixel(x,y)
+          #if pixel.alpha > 0 && pixel.alpha < 255
+          #  self.bitmap.set_pixel(x,y,c1)
+          #end
+        end
+        break if found
+      end
+      
+      nextfound = true
+      pass = 0
+      while nextfound
+        nextfound = false
+        pass+=1
+        tmpx0,tmpy0 = x0,y0
+        echoln "===== #{pass} PASS"
+        #priority on linear rather than diagonal
+        if self.bitmap.get_pixel(x0-1,y0-1).alpha>0 && self.bitmap.get_pixel(x0-1,y0-1).alpha<255 && pass>1
+          nextfound = true
+          tmpx0,tmpy0 = x0-1,y0-1
+          echoln "Found at x-1,y-1"
+        end
+        if self.bitmap.get_pixel(x0,y0-1).alpha>0 && self.bitmap.get_pixel(x0,y0-1).alpha<255 && pass>1
+          nextfound = true
+          tmpx0,tmpy0 = x0,y0-1
+          echoln "Found at x,y-1"
+        end
+        if self.bitmap.get_pixel(x0+1,y0-1).alpha>0 && self.bitmap.get_pixel(x0+1,y0-1).alpha<255
+          nextfound = true
+          tmpx0,tmpy0 = x0+1,y0-1 
+          echoln "Found at x+1,y-1"
+        end
+        if self.bitmap.get_pixel(x0+1,y0).alpha>0 && self.bitmap.get_pixel(x0+1,y0).alpha<255
+          nextfound = true
+          tmpx0,tmpy0 = x0+1,y0
+          echoln "Found at x+1,y"
+        end
+        if self.bitmap.get_pixel(x0+1,y0+1).alpha>0 && self.bitmap.get_pixel(x0+1,y0+1).alpha<255
+          nextfound = true
+          tmpx0,tmpy0 = x0+1,y0+1
+          echoln "Found at x+1,y+1"
+        end
+        if self.bitmap.get_pixel(x0,y0+1).alpha>0 && self.bitmap.get_pixel(x0,y0+1).alpha<255 && pass>1
+          nextfound = true
+          tmpx0,tmpy0 = x0,y0+1
+          echoln "Found at x,y+1"
+        end
+        if self.bitmap.get_pixel(x0-1,y0+1).alpha>0 && self.bitmap.get_pixel(x0-1,y0+1).alpha<255 && pass>1
+          nextfound = true
+          tmpx0,tmpy0 = x0-1,y0+1
+          echoln "Found at x-1,y+1"
+        end
+        if self.bitmap.get_pixel(x0-1,y0).alpha>0 && self.bitmap.get_pixel(x0-1,y0).alpha<255 && pass>1
+          nextfound = true
+          tmpx0,tmpy0 = x0-1,y0
+          echoln "Found at x-1,y"
+        end
+        x0,y0 = tmpx0,tmpy0
+        self.bitmap.set_pixel(x0,y0,c1) if nextfound == true
+      end
+      
+=end
     end
   end
 

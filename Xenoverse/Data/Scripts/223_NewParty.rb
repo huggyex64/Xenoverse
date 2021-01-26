@@ -815,7 +815,7 @@ class PokemonScreen_Scene
 		@actualBitmap.add_outline(Color.new(248,248,248),1) if !$MKXP
 		@cmds["sprite"].bitmap = @actualBitmap if @cmds["sprite"] && @actualBitmap
 		if $MKXP 
-			@cmds["sprite"].add_outline(Color.new(248,248,248))
+			@cmds["sprite"].add_outline(Color.new(248,248,248),@frame)
 			#@cmds["sprite"].create_outline(Color.new(248,248,248),1)
 		end
 	end
@@ -863,40 +863,40 @@ class PokemonScreen_Scene
 		@cmds["bg"].bitmap = pbBitmap("Graphics/Pictures/PartyNew/gradient")
 		@cmds["bg"].y = 384-292
 		@cmds["bg"].z = 20
-    if !pkmn.isEgg?
-      last = ""
-      if pkmn.isDelta?
-        last = "d"
-      else
-        last = (pkmn.form>0 ? "_#{pkmn.form}" : "")
-      end
-      add=""
-      add = "Female/" if pkmn.gender==1 && pbResolveBitmap("Graphics/Battlers/Front/Female/"+sprintf("%03d",pkmn.species)+last)
-      @pokemonBitmap = pbBitmap((pkmn.isShiny? ? "Graphics/Battlers/FrontShiny/" : "Graphics/Battlers/Front/")+add+sprintf("%03d",pkmn.species) + last )
-      @frameskip = 0
-      @frame = 0
-      @framecount = @pokemonBitmap.width/@pokemonBitmap.height
-      
-      @actualBitmap = Bitmap.new(@pokemonBitmap.height,@pokemonBitmap.height)
-      @actualBitmap.blt(0,0,@pokemonBitmap,Rect.new(0,@pokemonBitmap.height*@frame,@pokemonBitmap.height,@pokemonBitmap.height+2))
-      #@actualBitmap = @actualBitmap.clone
-	  #@actualBitmap.fill_rect(0,0,30,30,Color.new(255,0,0))
-	  if !$MKXP
-	 	 @actualBitmap.add_outline(Color.new(248,248,248),1)
-	  end
-    else
-      @frameskip = 0
-      @frame = 0
-      @framecount = 1
-      @pokemonBitmap = pbBitmap("Graphics/Battlers/egg")
-      @actualBitmap = Bitmap.new(@pokemonBitmap.height,@pokemonBitmap.height)
-      @actualBitmap.blt(0,0,@pokemonBitmap,Rect.new(0,0,@pokemonBitmap.height,@pokemonBitmap.height+2))
-      @actualBitmap.add_outline(Color.new(248,248,248),1) if !$MKXP
-    end
+		if !pkmn.isEgg?
+			last = ""
+			if pkmn.isDelta?
+				last = "d"
+			else
+				last = (pkmn.form>0 ? "_#{pkmn.form}" : "")
+			end
+			add=""
+			add = "Female/" if pkmn.gender==1 && pbResolveBitmap("Graphics/Battlers/Front/Female/"+sprintf("%03d",pkmn.species)+last)
+			@pokemonBitmap = pbBitmap((pkmn.isShiny? ? "Graphics/Battlers/FrontShiny/" : "Graphics/Battlers/Front/")+add+sprintf("%03d",pkmn.species) + last )
+			@frameskip = 0
+			@frame = 0
+			@framecount = @pokemonBitmap.width/@pokemonBitmap.height
+			
+			@actualBitmap = Bitmap.new(@pokemonBitmap.height,@pokemonBitmap.height)
+			@actualBitmap.blt(0,0,@pokemonBitmap,Rect.new(0,@pokemonBitmap.height*@frame,@pokemonBitmap.height,@pokemonBitmap.height+2))
+			#@actualBitmap = @actualBitmap.clone
+			#@actualBitmap.fill_rect(0,0,30,30,Color.new(255,0,0))
+			if !$MKXP
+				@actualBitmap.add_outline(Color.new(248,248,248),1)
+			end
+		else
+			@frameskip = 0
+			@frame = 0
+			@framecount = 1
+			@pokemonBitmap = pbBitmap("Graphics/Battlers/egg")
+			@actualBitmap = Bitmap.new(@pokemonBitmap.height,@pokemonBitmap.height)
+			@actualBitmap.blt(0,0,@pokemonBitmap,Rect.new(0,0,@pokemonBitmap.height,@pokemonBitmap.height+2))
+			@actualBitmap.add_outline(Color.new(248,248,248),1) if !$MKXP
+		end
 		@cmds["sprite"]=Sprite.new(@viewport)
 		@cmds["sprite"].bitmap = @actualBitmap# @pokemonBitmap.clone
 		if $MKXP 
-			@cmds["sprite"].add_outline(Color.new(248,248,248))
+			@cmds["sprite"].add_outline(Color.new(248,248,248),@frame)
 			#@cmds["sprite"].create_outline(Color.new(248,248,248),1)
 		end
     	#@cmds["sprite"].create_outline(Color.new(248,248,248),1)
