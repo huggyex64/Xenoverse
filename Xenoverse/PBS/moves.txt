@@ -524,7 +524,7 @@
 524,GEARGRIND,Ingracolpo,0BD,50,STEEL,Physical,85,15,0,00,0,abef,"Chi la usa colpisce il bersaglio due volte di fila lanciandogli contro degli ingranaggi d'acciaio."
 525,METALCLAW,Ferrartigli,01C,50,STEEL,Physical,95,35,10,00,0,abe,"Colpisce il bersaglio con artigli d'acciaio. Può anche aumentare l'Attacco di chi la usa."
 526,BULLETPUNCH,Pugnoscarica,000,40,STEEL,Physical,100,30,0,00,1,abefj,"Chi la usa attacca con una scarica di pugni veloci come proiettili. Questa mossa ha priorità alta."
-527,GYROBALL,Vortexpalla,08D,1,STEEL,Physical,100,5,0,00,0,abef,"Chi la usa si scaglia sul bersaglio facendo ruotare vorticosamente il proprio corpo. Più lento è chi la usa, maggiore è il danno."
+527,GYROBALL,Vortexpalla,08D,1,STEEL,Physical,100,10,0,00,0,abef,"Chi la usa si scaglia sul bersaglio facendo ruotare vorticosamente il proprio corpo. Più lento è chi la usa, maggiore è il danno."
 528,HEAVYSLAM,Pesobomba,09B,1,STEEL,Physical,100,10,0,00,0,abef,"Chi la usa si lancia contro il bersaglio con tutto il proprio peso. Più è pesante rispetto ad esso, più danni causa."
 529,METALBURST,Metalscoppio,073,1,STEEL,Physical,100,10,0,01,0,be,"Chi la usa si vendica sul nemico che l'ha appena ferito con una mossa anche più potente."
 530,AUTOTOMIZE,Sganciapesi,031,0,STEEL,Status,0,15,0,10,0,d,"Chi la usa si libera di tutti i pesi in eccesso, alleggerendosi e aumentando di molto la propria Velocità."

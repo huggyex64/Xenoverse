@@ -1174,7 +1174,9 @@ I don't know what's written in it, but given the sender,<<n>>I'm guessing it’s
 Che aspetti? Leggila, forza!
 What are you waiting for? C'mon, read it!
 ''Voi che state leggendo questa lettera siete stato designato come il legittimo prescelto che manterrà intatto l’equilibrio tra questo e l’altro mondo.
-''Voi che state leggendo questa lettera siete stato designato come il legittimo prescelto che manterrà intatto l’equilibrio tra questo e l’altro mondo.
+''You who are reading this letter have been appointed as<<n>>the rightful chosen one whose duty will be to keep intact<<n>>the balance between this world and the other.
+Dall’alto ci è dunque giunto il dovere di saggiare un’ultima volta le vostre abilità, per valutare se siate degni di affrontare la prova ultima della Terra.
+From up above, it came to us, the duty to test your skills<<n>>for one last time, to state once and for all whether<<n>>you're worthy of facing the ultimate trial of Earth.
 Siete pertanto ufficialmente invitato|a a raggiungerci sulle alte vette del <b>Monte Zodiaco</b>, terra immacolata soggetta a null’altro che gli sconfinati poteri del sacro <b>Luxflon</b>.
 You are therefore formally invited to join us in the highest<<b>>peaks of <b>Mt. Zodiac</b>,<<n>>an immaculate land subject to nothing but the sacred<<n>><b>Luxflon</b>'s limitless power.
 Con pazienza attenderemo il vostro arrivo, i <b>Quattro Cardinali</b>.''
@@ -1200,15 +1202,17 @@ If you throw it on Pokémon coming from the Xenoverse,<<n>>you will waste the in
 Fatti valere, \PN.
 Go get them, \PN.
 \PN, ma non sei ancora pronto|a?! Sbrigati o faremo tardi alla festa!
-\PN, ma non sei ancora pronto|a?! Sbrigati o faremo tardi alla festa!
+\PN, you're not ready yet?!<<n>>Hurry up or we'll be late for the party!
 Quale festa? Aster ci ha invitati alla sua cerimonia...
-Quale festa? Aster ci ha invitati alla sua cerimonia...
+What party? Aster has invited us to his big ceremony...
+Oggi finalmente diventa <b>Professore</b> a tutti gli effetti! Non possiamo permetterci nessun ritardo!
+Today he finally becomes a full-fledged <b>Professor</b>!<<n>>We just can't afford any delay!
 Sempre la solita ansiosa, tesoro! Sta' tranquilla, Aster non si formalizza mai sugli orari.
-Sempre la solita ansiosa, tesoro! Sta' tranquilla, Aster non si formalizza mai sugli orari.
+Don't be a worrywart, honey! Take it easy.<<n>>I'm sure Aster will forgive us for a little delay.
 E quindi?! Non voglio fare brutte figure per colpa vostra, chiaro?!
-E quindi?! Non voglio fare brutte figure per colpa vostra, chiaro?!
+No way!! I'm not looking bad because of you two, okay?!
 Pronti o no, adesso diamoci una mossa!
-Pronti o no, adesso diamoci una mossa!
+Ready or not, let's get going now!
 Jiggly
 Jiggly
 Wiggly...!
@@ -1986,8 +1990,8 @@ In spiaggia troverai sicuramente qualche buon marinaio disposto a portartici. Ba
 On the beach, you should find some good sailor willing to take you there. Just tell them I'm sending you.<<n>>When you're done, just join me at the lab.<<n>>I'll know how to reward you properly!
 <<[>>old<<]>>Percorso 2 a nord
 <<[>>old<<]>>North: Route 2 - Stardust Beach
-<<[>>old<<]>> Il Laboratorio è chiuso. Meglio dirigersi al Percorso 10.
 <<[>>old<<]>>Il laboratorio è chiuso. Meglio raggiungere Aster al Percorso 10!
+<<[>>old<<]>>Lab is closed. Time to join Aster on Route 10!
 <<[>>old<<]>><b>Balansopoli</b> <i>''Una ridente cittadina immersa nel verde.''</i>
 <<[>>old<<]>><b>Hadwarf City</b>\n<i>''The city of never-ending sun.''</i>
 <<[>>old<<]>>Aiutooooo!!
@@ -2388,12 +2392,12 @@ Questo è il più grande traguardo che il laboratorio di Balansopoli potesse ott
 Questo è il più grande traguardo che il laboratorio di Balansopoli potesse ottenere. A nome mio, dei ricercatori di tutta Balansopoli ma soprattutto... A nome di tutti gli sviluppatori di questo gioco, meriti questo diploma!
 <<[>>old<<]>>Hai completato il gioco al 100%. Complimenti da tutto lo staff.
 <<[>>old<<]>>Hai completato il gioco al 100%. Complimenti da tutto lo staff.
-Non ho nient altro da insegnarti \PN. Grazie per tutto l'aiuto fornito! Ora puoi esplorare tranquillamente tutta la regione. Mi raccomando, divertiti!
-Non ho nient altro da insegnarti \PN. Grazie per tutto l'aiuto fornito! Ora puoi esplorare tranquillamente tutta la regione. Mi raccomando, divertiti!
+Io non ho nient’altro da insegnarti, \PN. Grazie di tutto il tempo che hai dedicato alla ricerca!
+Io non ho nient’altro da insegnarti, \PN. Grazie di tutto il tempo che hai dedicato alla ricerca!
 Alice
 Alice
 Che bello vederti, \PN! Aster ti dà sempre un gran da fare, eh? Non mollare, so che puoi riuscire in qualsiasi impresa, tu! Vero, Pikachu?
-Che bello vederti, \PN! Aster ti dà sempre un gran da fare, eh? Non mollare, so che puoi riuscire in qualsiasi impresa, tu! Vero, Pikachu?
+Oh, it's you \PN! Good to see ya!<<n>>Aster always gives you a lot to do, huh?<<n>>Don't give up! I know you can do everything!<<n>>Am I right, Pikachu?
 Pikachu
 Pikachu
 Pika!
@@ -12859,67 +12863,69 @@ There are some fish that cannot be caught...but this doesn't work for me!
 Aster
 Aster
 \PN, siamo qui!
-\PN, siamo qui!
+\PN, over here!
 Ecco il||la ragazzo|a talentuoso|a di cui ti parlavo, <b>Bellocchio</b>!
-Ecco il||la ragazzo|a talentuoso|a di cui ti parlavo, <b>Bellocchio</b>!
+Here's the talented boy|||gal I told you about, <b>Looker</b>!
 Bellocchio
-Bellocchio
+Looker
 Se persino Aster in persona ci mette la firma, dovete proprio essere un Allenatore di tutto rispetto!
-Se persino Aster in persona ci mette la firma, dovete proprio essere un Allenatore di tutto rispetto!
+If even Aster himself gives me his word, you really<<n>>must be a respectable Trainer!
 Sono un agente scelto in missione per conto della <b>Polizia Internazionale</b>. Nome in codice: Bellocchio!!
-Sono un agente scelto in missione per conto della <b>Polizia Internazionale</b>. Nome in codice: Bellocchio!!
+I am a globe-trotting elite of the <b>International</b> <b>Police</b>.<<n>>My code name, it is Looker!!
 Ma veniamo al dunque.
-Ma veniamo al dunque.
+But let's come to the point.
 Da anni sono sulle tracce di un Pokémon misterioso con la capacità di viaggiare nello spazio e nel tempo... In quanto agente della Polizia Internazionale, non posso permettere che un cattivone ci metta le mani su!
-Da anni sono sulle tracce di un Pokémon misterioso con la capacità di viaggiare nello spazio e nel tempo... In quanto agente della Polizia Internazionale, non posso permettere che un cattivone ci metta le mani su!
+For years I've been on the trail of a mythical Pokémon<<n>>that has the power to travel across spacetime...<<n>>As a detective of the International Police, I cannot let<<n>>bad guys put their hands on it!
 Gli sono stato alle calcagna in epoche e dimensioni differenti e la ricerca mi ha condotto fin qui!
-Gli sono stato alle calcagna in epoche e dimensioni differenti e la ricerca mi ha condotto fin qui!
+I've been dashing on its pursuit across several different ages and dimensions, and that's how I got here!
 <b>Dielebi</b>, il Pokémon Spaziotempo!
-<b>Dielebi</b>, il Pokémon Spaziotempo!
+Here's <b>Dielebi</b>--the Spacetime Pokémon!
 Wow! Mi chiedo però cosa lo abbia portato proprio qui ad Eldiw...
-Wow! Mi chiedo però cosa lo abbia portato proprio qui ad Eldiw...
+Wow! I wonder, though, what led it right here, in Eldiw...
 Pare che coi suoi poteri abbia generato dei punti dediti al riposo nelle più disparate linee temporali e spaziali.
-Pare che coi suoi poteri abbia generato dei punti dediti  al riposo nelle più disparate linee temporali e spaziali.
+Apparently, it used its powers to create rest spots in<<n>>the most different timelines and dimensions.
 Stando alle informazioni in mio possesso, nella regione sono presenti in gran numero queste fonti, che si presentano sotto forma di piccoli <b>tempietti</b> dal bizzarro aspetto.
-Stando alle informazioni in mio possesso, nella regione sono presenti in gran numero queste fonti, che si presentano sotto forma di piccoli <b>tempietti</b> dal bizzarro aspetto.
+According to the information I have, in this region<<n>>there is plenty of these sources of energy,<<n>>that occur as bizarre looking little <b>shrines</b>.
 Dielebi è però un Pokémon timido e sfuggente, pertanto è molto difficile avvicinarlo...
-Dielebi è però un Pokémon timido e sfuggente, pertanto è molto difficile avvicinarlo...
+However, Dielebi is quite a shy and elusive Pokémon,<<n>>and thus difficult to approach...
 E qui entri in gioco tu, \PN!
-E qui entri in gioco tu, \PN!
+And that's where you come in, \PN!
 Un Allenatore abile come te suscita fiducia nei Pokémon... Sono certo che sarà lo stesso anche per Dielebi!
-Un Allenatore abile come te suscita fiducia nei Pokémon... Sono certo che sarà lo stesso anche per Dielebi!
+A skilled Trainer like you evokes confidence in<<n>>Pokémon...I'm sure it will be the same with Dielebi!
 Provare non costa nulla. Fatevi pure avanti, \PN.
-Provare non costa nulla. Fatevi pure avanti, \PN.
+I figure it is worth a try. Please, go ahead, \PN.
 Dielebi
 Dielebi
 Biiii!!
 Biiii!!
 <<[>>old<<]>>Dielebi è sparito...
-<<[>>old<<]>>Dielebi è sparito...
+<<[>>old<<]>>Dielebi fled...
 Ero certo che sarebbe andata a finire così...
-Ero certo che sarebbe andata a finire così...
+I was pretty sure it would come to this...
 Sta' tranquillo, Bellocchio. Era tutto parte del mio piano!
-Sta' tranquillo, Bellocchio. Era tutto parte del mio piano!
+It's okay, Looker. This was all part of my plan!
 \PN, interagendo con Dielebi, il tuo PokéWES ha già registrato alcune informazioni su di lui.
-\PN, interagendo con Dielebi, il tuo PokéWES ha già registrato alcune informazioni su di lui.
+\PN, when you interacted with Dielebi, your PokéWES<<n>>already registered its data.
+Finché si tratterrà qui ad Eldiw, ti sarà possibile tracciare ogni suo movimento sulla Mappa Città!
+As long as it will be staying in Eldiw, you will be able<<n>>to track its real-time location on your Town Map!
 Così facendo, saprai sempre dove si trova e, raggiungendolo, potrai provare a catturarlo.
-Così facendo, saprai sempre dove si trova e, raggiungendolo, potrai provare a catturarlo.
+In this way, you will always know where it is and, once you have reached it, you'll have your chance to catch it.
 Non mi aspettavo di meno da una mente brillante come la vostra, Aster.
-Non mi aspettavo di meno da una mente brillante come la vostra, Aster.
+I was expecting nothing less by such a brilliant mind<<n>>of yours, Aster.
 E sia! \PN, vi cedo il testimone della caccia a quel Pokémon! D’ora in poi sarà vostro compito occuparvene ed evitare che un potere come il suo cada in mani criminali!
-E sia! \PN, vi cedo il testimone della caccia a quel Pokémon! D’ora in poi sarà vostro compito occuparvene ed evitare che un potere come il suo cada in mani criminali!
+So it be! \PN, I hereby pass you the baton of<<n>>my Dielebi investigation!
 Molto bene. Sembra proprio che il mio incarico sia giunto alla sua conclusione. È il momento di separarsi!
-Molto bene. Sembra proprio che il mio incarico sia giunto alla sua conclusione. È il momento di separarsi!
+Very well. I sense that my duty here in Eldiw has come<<n>>to its end. I think that it's time I went!
 Chissà che non ricapiti l’occasione di incontrarsi, ma fino ad allora... addio, ragazzi miei!
-Chissà che non ricapiti l’occasione di incontrarsi, ma fino ad allora... addio, ragazzi miei!
+We shall meet again, so until then...farewell, my friends!
 Bellocchio... che tipo in gamba, eh?
-Bellocchio... che tipo in gamba, eh?
+Looker...what a great guy, huh?
 Bene, \PN. A quanto pare ora hai una missione da portare a termine!
-Bene, \PN. A quanto pare ora hai una missione da portare a termine!
+Well, \PN. It looks like you have a mission to accomplish now!
 Purtroppo io non potrò darti una mano, ma sono sicuro che saprai fare un ottimo lavoro anche da solo|a!
-Purtroppo io non potrò darti una mano, ma sono sicuro che saprai fare un ottimo lavoro anche da solo|a!
+Unfortunately, I won't be able to help you, but I'm 100%<<n>>sure you can do an excellent job all by yourself!
 Alla prossima!
-Alla prossima!
+See you!
 Sì
 Yes
 No
@@ -17840,7 +17846,7 @@ Boy, do I hate being right all the time...
 [Map412]
 Erbilio
 Herbert
-Io e i miei fratelli da secoli abbiamo il compito di tramandare potenti attacchi alle nuove generazioni.  Dimmi, giovane, vuoi che insegni la mossa eccelsa <b>Radicalbero</b> a uno dei tuoi Pokémon?
+Io e i miei fratelli da secoli abbiamo il compito di tramandare potenti attacchi alle nuove generazioni. Dimmi, giovane, vuoi che insegni la mossa eccelsa <b>Radicalbero</b> a uno dei tuoi Pokémon?
 My brothers and I have a duty to pass on powerful moves<<n>>to future generations.<<n>>Tell me, young one, you want me to teach the ultimate<<n>><b>Frenzy Plant</b> to one of your Pokémon?
 Ecco fatto! Ora il tuo Pokémon potrà sprigionare il pieno potenziale del tipo Erba.
 There you go! Now, your Pokémon will be able unleash<<n>>its full Grass-type potential.
@@ -17848,7 +17854,7 @@ Torna a trovarmi quando vorrai insegnare la mia mossa eccelsa a uno dei tuoi Pok
 Come back when you want me to teach my ultimate<<n>>move to one of your Pokémon.
 Flaminio
 Blaise
-Io e i miei fratelli da secoli abbiamo il compito di tramandare potenti attacchi alle nuove generazioni.  Dimmi, giovane, vuoi che insegni la mossa eccelsa <b>Incendio</b> a uno dei tuoi Pokémon?
+Io e i miei fratelli da secoli abbiamo il compito di tramandare potenti attacchi alle nuove generazioni. Dimmi, giovane, vuoi che insegni la mossa eccelsa <b>Incendio</b> a uno dei tuoi Pokémon?
 My brothers and I have a duty to pass on powerful moves<<n>>to future generations.<<n>>Tell me, young one, you want me to teach the ultimate<<n>><b>Blast Burn</b> to one of your Pokémon?
 Ecco fatto! Ora il tuo Pokémon potrà sprigionare il pieno potenziale del tipo Fuoco.
 There you go! Now, your Pokémon will be able unleash<<n>>its full Fire-type potential.
@@ -18116,7 +18122,7 @@ The blizzard must have frozen you and your Pokémon.<<n>>Look at those icicles o
 Draconio
 Drake
 Il Cardinale Oleandro ha insignito la mia famiglia del compito di tramandare ai posteri un attacco capace di liberare il potenziale inespresso dei draghi.
-Cardinal Abraham entrusted my family with the duty of passing on future generations a power attack,<<n>>capable of unleashing the full potential of dragons. 
+Cardinal Abraham entrusted my family with the duty of<<n>>passing on future generations a power attack,<<n>>capable of unleashing the full potential of dragons. 
 Dimmi, giovane, vuoi che insegni la potente mossa <b>Dragobolide</b> a uno dei tuoi Pokémon?
 Tell me, young one, you want me to teach the powerful<<n>><b>Draco Meteor</b> to one of your Pokémon?
 Ecco fatto! Ora il tuo Pokémon potrà sprigionare il pieno potenziale del tipo Drago.
@@ -20686,7 +20692,7 @@ Bolt...!
 Edera
 Clover
 Oooh! Aster ti ha dato un nuovo Pokémon? È così carino!
-Oooh! Aster ti ha dato un nuovo Pokémon? È così carino!
+Aww! So Aster gave you a new Pokémon?<<n>>It's so cute!
 Hector
 Hector
 Al Professor Aster!!
@@ -20694,33 +20700,33 @@ To Professor Aster!!
 Will
 Will
 C-Che bello vederti, \PN!
-C-Che bello vederti, \PN!
+Ho-How nice to see you, \PN!
 Aster
 Aster
 Oooh, eccovi ragazzi!
-Oooh, eccovi ragazzi!
+Oooh. Here you are, guys!
 Versil
 Versil
 Ma tu guarda quanta gente! Hai proprio fatto le cose in grande, eh Aster?
-Ma tu guarda quanta gente! Hai proprio fatto le cose in grande, eh Aster?
+Look at all these people! You're really throwing a big party,<<n>>aren't you Aster?
 Beh, non capita tutti i giorni di diventare un <b>Professore Pokémon</b>, no?
-Beh, non capita tutti i giorni di diventare un <b>Professore Pokémon</b>, no?
+Ha ha ha! It's not everyday you become<<n>>a <b>Pokémon Professor</b>, am I right?
 Perdona il ritardo, ma qualcuno qui non si decideva a darsi una mossa...
-Perdona il ritardo, ma qualcuno qui non si decideva a darsi una mossa...
+I'm sorry we're late, but someone here is a real sleepyhead...
 Vero, \PN?
-Vero, \PN?
+Aren't you, \PN?
 Ah ah ah! Non preoccuparti, Edera. Dopotutto stiamo parlando del prescelto... Un ritardo è più che concesso!
-Ah ah ah! Non preoccuparti, Edera. Dopotutto stiamo parlando del prescelto... Un ritardo è più che concesso!
+Ha ha ha! Don't worry, Clover. We're talking about the chosen one, after all...a small delay is no big deal!
 Prego, prendete pure posto!
-Prego, prendete pure posto!
+Please, have a seat!
 Maurice
 Chrysler
 Qui c'è troppa gente...
-Qui c'è troppa gente...
+There's too many people here...
 Dove pensi di svignartela giovane? Non è il tempo di pensare a divertirsi con i propri Pokémon! Goditi la festa, su!
-Dove pensi di svignartela giovane? Non è il tempo di pensare a divertirsi con i propri Pokémon! Goditi la festa, su!
+Where do you think you're going, youngster?<<n>>This is no time to play with your Pokémon!<<n>>Enjoy the party, c'mon!
 Un nuovo piccoletto in squadra, eh? Sembra quasi di vederti ritornare bambino|a! Ah ah ah!
-Un nuovo piccoletto in squadra, eh? Sembra quasi di vederti ritornare bambino|a! Ah ah ah!
+A new lil' guy in your party, huh? It feels like you're<<n>>a little baby again! Ha ha ha!
 Camilla
 Katie
 Hai visto che bella festa hanno organizzato, nonnino?
@@ -20728,53 +20734,55 @@ Gramps, have you seen what amazing party have they thrown?
 Anna
 Hannah
 Aster ha invitato proprio un sacco di vip a questa festa! Vediamo, a chi potrei chiedere un autografo...?
-Aster has invited a lot of vips to this party! Who could I ask for an autograph...?
+Aster has invited a lot of vips to this party! Who could<<n>>I ask for an autograph...?
 Buster
 Buster
 Blast...!
 Blast...!
 \PN, dovresti andare a complimentarti con Aster.
-\PN, dovresti andare a complimentarti con Aster.
+\PN, you should go and give Aster a compliment.
 Artemio
 Artie
 Guarda com’è felice la mia nipotina!
 Look at how happy my granddaughter is!
 <<[>>old<<]>>Sta squillando un telefono!
-<<[>>old<<]>>Sta squillando un telefono!
+<<[>>old<<]>>A phone is ringing!
 Oh! È il mio! Ma chi sarà mai...?
-Oh! È il mio! Ma chi sarà mai...?
+Oh! It's mine! Who might this be...?
 Pronto?... Sì, sono io.
-Pronto?... Sì, sono io.
+Hello? ...Yes, it's me.
 Come?! Sei riuscito a far luce su <b>quel</b> caso?!
-Come?! Sei riuscito a far luce su <b>quel</b> caso?!
+What?! You found something relevant to <b>that</b> case?!
 Dove sei ora? <b>Percorso 10</b>? Aspettami lì, arrivo subito!
-Dove sei ora? <b>Percorso 10</b>? Aspettami lì, arrivo subito!
+Where are you now? <b>Route 10</b>? Don't move, I'll be there in a minute!
 Ah, ti dispiace se porto un amico? Ti assicuro che nessuno potrà aiutarci quanto lui!
-Ah, ti dispiace se porto un amico? Ti assicuro che nessuno potrà aiutarci quanto lui!
+Oh, would you mind me bringing a friend? I can assure you nobody can help us as much as him!
 Perfetto, arriviamo allora! <i>Tlack!</i>
-Perfetto, arriviamo allora! <i>Tlack!</i>
+Excellent, we're coming then! <i>Tlack!</i>
 Spiacente ragazzi, ma il lavoro chiama, pertanto la festa può considerarsi conclusa.
-Spiacente ragazzi, ma il lavoro chiama, pertanto la festa può considerarsi conclusa.
+I'm very sorry folks, but work's calling, hence the party<<n>>is over.
 Vi ringrazio di aver accettato l’invito e auguro a tutti voi una piacevole continuazione!
-Vi ringrazio di aver accettato l’invito e auguro a tutti voi una piacevole continuazione!
+Thank you very much for having accepted my invitation.<<n>>I wish you all a good day!
 Grazie a te, Aster.
-Grazie a te, Aster.
+No, thank you, Aster.
 Ah, ti dispiace se porto un'amica? Ti assicuro che nessuno potrà aiutarci quanto lei!
-Ah, ti dispiace se porto un'amica? Ti assicuro che nessuno potrà aiutarci quanto lei!
+Oh, would you mind me bringing a friend? I can assure you nobody can help us as much as her!
 Per quanto riguarda te, \PN, ho ancora bisogno del tuo aiuto.
-Per quanto riguarda te, \PN, ho ancora bisogno del tuo aiuto.
+Speaking of you, \PN, I still need your help.
+Un mio vecchio conoscente mi ha chiesto di raggiungerlo alla svelta sul <b>Percorso 10</b>... Ha fatto una scoperta incredibile su un Pokémon!
+An old acquaintance of mine asked me to join him<<n>>on <b>Route 10</b> quickly...<<n>>He discovered something amazing about a Pokémon!
 So per certo che avremo bisogno di una mano, quindi ti chiedo di raggiungerci! Fai proprio al caso nostro!
-So per certo che avremo bisogno di una mano, quindi ti chiedo di raggiungerci! Fai proprio al caso nostro!
+I'm sure we're going to need some help, so I'm asking you<<n>>to join us! This case is just perfect for you!
 Ci vediamo laggiù!
-Ci vediamo laggiù!
+See you down there!
 Forza, \PN. Va' da Aster!
-Forza, \PN. Va' da Aster!
+C'mon, \PN. Go get Aster!
 Claudio
 Ginger
 E pensare che fino a poco tempo fa combattevamo alla pari... Guarda ora dove sei arrivato|a!
-E pensare che fino a poco tempo fa combattevamo alla pari... Guarda ora dove sei arrivato|a!
+Thinking about we once fought as equals gives me chills...look how far you've come!
 Forza, \PN. Va' a congratularti con Aster!
-Forza, \PN. Va' a congratularti con Aster!
+C'mon, \PN. Go and congratulate Aster! 
 Olivia
 Olivia
 Per me è davvero un onore lavorare con Aster, anzi, col Professor Aster!
@@ -20786,43 +20794,43 @@ Revolver
 Verbena
 Nuphar
 \PN! Ti trovo in forma!
-\PN! Ti trovo in forma!
+\PN! You're looking great!
 \PN, o forse dovrei dire prescelto! A dire il vero aspettavo proprio te, sai? Lottare con te mi ha emozionato come mai prima d’ora!
-\PN, o forse dovrei dire prescelto! A dire il vero aspettavo proprio te, sai? Lottare con te mi ha emozionato come mai prima d’ora!
+\PN, or I should call you chosen one! To be honest,<<n>>I was waiting for you, you know?<<n>>That battle with you has touched me as never before!
 Era da un po’ che mi frullava per la testa l’idea di diventare Professore, ma solo dopo allora mi sono deciso! Perciò sono io a doverti ringraziare. Ah ah ah!
-Era da un po’ che mi frullava per la testa l’idea di diventare Professore, ma solo dopo allora mi sono deciso! Perciò sono io a doverti ringraziare. Ah ah ah!
+I've always been thinking about becoming a Professor,<<n>>but only after that battle I've decided to make my move!<<n>>So I'm the one who has to thank you. Ha ha ha!
 D’ora in poi sarà mio dovere introdurre all’avventura le giovani promesse di Eldiw...
-D’ora in poi sarà mio dovere introdurre all’avventura le giovani promesse di Eldiw...
+From now on, it will be my own duty to introduce Eldiw's young Trainers to adventure...
 Perciò, in memoria dei vecchi tempi, vorrei inaugurare questa nuova parentesi della mia vita con te, \PN!
-Perciò, in memoria dei vecchi tempi, vorrei inaugurare questa nuova parentesi della mia vita con te, \PN!
+That's why I want to start this new chapter of my life<<n>>with you, \PN, for old times' sake!
 Vedi, ho qui tre Pokémon molto speciali, gli stessi che affiderò ai nuovi Allenatori...
-Vedi, ho qui tre Pokémon molto speciali, gli stessi che affiderò ai nuovi Allenatori...
+You see, I've got three special Pokémon here, the same<<n>>I'm going to give to new Trainers...
 Vorrei che ne prendessi uno anche tu e lo allevassi con cura. Che dici, ti va?
-Vorrei che ne prendessi uno anche tu e lo allevassi con cura.  Che dici, ti va?
+I want you to take one of them and take care of it.<<n>>How about that?
 Grandioso! Prego, scegli pure con calma quello che più ti aggrada.
-Grandioso! Prego, scegli pure con calma quello che più ti aggrada.
+Awesome! Please, choose the Pokémon you like the best.
 <b>Chiripe</b>, eh? È un tipetto molto scaltro, ma sa il fatto suo! Ottima scelta!
-<b>Chiripe</b>, eh? È un tipetto molto scaltro, ma sa il fatto suo! Ottima scelta!
+So you want <b>Chiripe</b>! It's really an impish guy,<<n>>but it is really strong willed. Great choice!
 Sono certo che sarai un ottimo banco di prova per questi Pokémon. Prenditene cura, mi raccomando!
-Sono certo che sarai un ottimo banco di prova per questi Pokémon. Prenditene cura, mi raccomando!
+I know for sure you're going to be a very good tester<<n>>for these Pokémon. Take good care of it!
 <b>Croakling</b>, eh? A volte è un po’ goffo, ma ce la mette sempre tutta! Ottima scelta!
-<b>Croakling</b>, eh? A volte è un po’ goffo, ma ce la mette sempre tutta! Ottima scelta!
+So you want <b>Croakling</b>! It's a little clumsy sometimes, but it always does its best. Great choice!
 <b>Inflant</b>, eh? È un Pokémon davvero competitivo, perfetto per le lotte! Ottima scelta!
-<b>Inflant</b>, eh? È un Pokémon davvero competitivo, perfetto per le lotte! Ottima scelta!
+So you want <b>Inflant</b>! It's a real competitive Pokémon, the ideal for battles. Great choice!
 Oh! Non me l'aspettavo!
-Oh! Non me l'aspettavo!
+Oh! What a surprise!
 Beh! Se cambi idea, sai dove trovarmi.
-Beh! Se cambi idea, sai dove trovarmi.
+You know where to find me, in case you change your mind.
 E ora, forza! Torniamo a divertirci!
-E ora, forza! Torniamo a divertirci!
+And now, let's go have fun!
 ???
 ???
 Come dici? Vuoi sapere chi io sia? Ma a che scopo? Un brindisi per il nuovo Professor Aster! Hic!
-Come dici? Vuoi sapere chi io sia? Ma a che scopo? Un brindisi per il nuovo Professor Aster! Hic!
+What? You want to know who I am? And why?<<n>>Let's drink to the new Professor Aster! Hic!
 Tarassaco
 Taraxo
 Erano anni che non facevo ritorno in questo laboratorio... È rimasto tutto come allora, pazzesco.
-Erano anni che non facevo ritorno in questo laboratorio... È rimasto tutto come allora, pazzesco.
+It's been a while since I last stepped into this lab...<<n>>Everything's the same I remembered--that's crazy.
 Ilaria
 Hilary
 Dopo tutto il lavoro di ricerca, ci voleva proprio una bella pausa!
@@ -20830,25 +20838,25 @@ After all the research work, we really needed some rest!
 Saul
 Salem
 Aster di qua, Aster di là... Non è niente di che paragonato a questo hermoso fusto!
-Aster di qua, Aster di là... Non è niente di che paragonato a questo hermoso fusto!
+Aster, Aster and again Aster...he's nothing special<<n>>compared to this hermoso stud!
 Alice
 Alice
 Ciao, \PN!
-Ciao, \PN!
+Hey, \PN!
 Pikachu
 Pikachu
 Pika!
 Pika!
 Dopo tutte le volte che ho lavorato al suo fianco, Aster mi ha assolutamente voluta come sua assistente. Ed eccomi qui! Ah ah ah!
-Dopo tutte le volte che ho lavorato al suo fianco, Aster mi ha assolutamente voluta come sua assistente. Ed eccomi qui! Ah ah ah!
+After all the times I've worked with him, Aster absolutely<<n>>wanted me as his assistant. So here I am! Ha ha ha!
 Kay
 Kay
 Dopo tutte le volte che ho lavorato al suo fianco, Aster mi ha assolutamente voluto come suo assistente. Ed eccomi qui! Ah ah ah!
-Dopo tutte le volte che ho lavorato al suo fianco, Aster mi ha assolutamente voluto come suo assistente. Ed eccomi qui! Ah ah ah!
+After all the times I've worked with him, Aster absolutely<<n>>wanted me as his assistant. So here I am! Ha ha ha!
 Silvia
 Minta
 Chi l’avrebbe mai detto che quel niño a cui abbiamo dato uno strappo fosse in realtà il geniale Aster!
-Chi l’avrebbe mai detto che quel niño a cui abbiamo dato uno strappo fosse in realtà il geniale Aster!
+Who'd have thought that niño we gave a ride to<<n>>was actually that genius Aster!
 Adolfo
 Rudolph
 Dovremmo fare festa ogni settimana... questo cibo è una vera squisitezza!
@@ -40861,7 +40869,7 @@ Chi la usa scava al primo turno e attacca al successivo.
 The user burrows, then attacks on the second turn.
 316
 Il nemico viene colpito da una potente forza telecinetica che può anche ridurne la Difesa Speciale.
-The target is hit by a strong telekinetic force. It may also reduce the target's Sp.Def stat.
+The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat.
 317
 Lancia sul nemico una sfera nera. Può anche ridurne la Difesa Speciale.
 The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.
