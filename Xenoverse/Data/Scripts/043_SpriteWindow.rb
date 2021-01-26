@@ -1495,7 +1495,7 @@ end
 #  4 - Base color
 #  5 - Shadow color
 def pbDrawTextPositions(bitmap,textpos)
-  if bitmap.font.bold == true
+  if bitmap.font.bold == true && $MKXP
     bitmap.font.bold = false
     for j in 0..1
       for i in textpos
