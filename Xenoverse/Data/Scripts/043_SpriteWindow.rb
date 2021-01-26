@@ -1495,19 +1495,41 @@ end
 #  4 - Base color
 #  5 - Shadow color
 def pbDrawTextPositions(bitmap,textpos)
-  for i in textpos
-    textsize=bitmap.text_size(i[0])
-    x=i[1]
-    y=i[2]
-    if i[3]==true || i[3]==1 # right align
-      x-=textsize.width
-    elsif i[3]==2 # centered
-      x-=(textsize.width/2)
+  if bitmap.font.bold == true
+    bitmap.font.bold = false
+    for j in 0..1
+      for i in textpos
+        textsize=bitmap.text_size(i[0])
+        x=i[1]+j
+        y=i[2]
+        if i[3]==true || i[3]==1 # right align
+          x-=textsize.width
+        elsif i[3]==2 # centered
+          x-=(textsize.width/2)
+        end
+        if i[6]==true || i[6]==1 # outline text
+          pbDrawOutlineText(bitmap,x,y,textsize.width,textsize.height,i[0],i[4],i[5])
+        else
+          pbDrawShadowText(bitmap,x,y,textsize.width,textsize.height,i[0],i[4],i[5])
+        end
+      end
     end
-    if i[6]==true || i[6]==1 # outline text
-      pbDrawOutlineText(bitmap,x,y,textsize.width,textsize.height,i[0],i[4],i[5])
-    else
-      pbDrawShadowText(bitmap,x,y,textsize.width,textsize.height,i[0],i[4],i[5])
+    bitmap.font.bold = true
+  else
+    for i in textpos
+      textsize=bitmap.text_size(i[0])
+      x=i[1]
+      y=i[2]
+      if i[3]==true || i[3]==1 # right align
+        x-=textsize.width
+      elsif i[3]==2 # centered
+        x-=(textsize.width/2)
+      end
+      if i[6]==true || i[6]==1 # outline text
+        pbDrawOutlineText(bitmap,x,y,textsize.width,textsize.height,i[0],i[4],i[5])
+      else
+        pbDrawShadowText(bitmap,x,y,textsize.width,textsize.height,i[0],i[4],i[5])
+      end
     end
   end
 end

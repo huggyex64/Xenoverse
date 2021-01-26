@@ -42,8 +42,9 @@ class Item < Sprite
         Achievement_UI.screenProgressBar(140, 13, self.bitmap, $achievements[@name],true) if !@completed
         #self.bitmap.blt(1, 1, Bitmap.new(_INTL(@icon)), Rect.new(0, 0, 80, 80))
         #self.tone = Tone.new(0, 0, 0 , 0)
-        bitmap.font.bold = true
+        bitmap.font.bold = true# if !$MKXP
         pbDrawTextPositions(self.bitmap, [[$PokemonSystem.language==0 ? @title : $achtr[@title], 85, 13, false, @baseColor]])
+        #pbDrawTextPositions(self.bitmap, [[$PokemonSystem.language==0 ? @title : $achtr[@title], 86, 13, false, @baseColor]]) if $MKXP
         bitmap.font.bold = false
         echoln @description
         echoln $achtr[@description]
