@@ -11825,7 +11825,7 @@ Woody
 Aaaah! Ho un Ekans nello stivale!!
 Waah! There's an Ekans in my boot!!
 In questa città non c’è spazio per tutti e due...
-This town ain’t big enough for the two of us...
+This town ain't big enough for the two of us...
 Pete
 Pete
 Wow! L’acqua dev’essere stata davvero vigorosa per generare un canyon come questo!
@@ -12934,9 +12934,9 @@ No
 Marano
 Shiro
 La conoscenza da sola non è sufficiente, va applicata!
-Knowledge alone isn't enough--it must be applied!
+Knowing is not enough--we must apply!
 Ci siamo battuti entrambi con onore. Hai il mio rispetto.
-We both fought with honor. You got my respect.
+Willing is not enough--we must do.
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Gooot...!
 <<[>>old<<]>>Tauronordia ad ovest
@@ -14344,23 +14344,25 @@ Only if you get to corner them, you will find me in front<<n>>of the old abandon
 Henné
 Henna
 Ma chi si vede, \PN! Allora, che mi dici?
-Ma chi si vede, \PN! Allora, che mi dici?
+Look who's here, \PN! How is it going?
 Tranquillo|a, so già tutto. Il nonno mi aveva detto che t’avrebbe mandato da quel vecchio Capopalestra. Piuttosto, volevo chiederti un piccolo favore.
-Tranquillo|a, so già tutto. Il nonno mi aveva detto che t’avrebbe mandato da quel vecchio Capopalestra. Piuttosto, volevo chiederti un piccolo favore.
+Cut the chatter, I already know. Grandpa said that<<n>>he'd send you to that old Gym Leader.<<n>>Actually, I have a small favour to ask.
 Ho trovato quest’Uovo nelle quinte del mio Circo Sirio.
-Ho trovato quest’Uovo nelle quinte del mio Circo Sirio.
+I found this Egg behind the stage of Sunshine Circus.
+Me ne prenderei cura per fare del nascituro una fiera feroce, ma purtroppo proprio non ne ho modo...
+I'd take care of it so it grows up to be a wild member on stage, but unfortunately I don't have the time for it...
 Vuoi accudirlo tu?
-Vuoi accudirlo tu?
+You wanna take it?
 Circo Sirio
 Sunshine Circus
 Non ho proprio idea di cosa spunterà fuori, lascerò a te il piacere di scoprirlo!
-Non ho proprio idea di cosa spunterà fuori, lascerò a te il piacere di scoprirlo!
+I have no idea what will hatch, but I'll leave you<<n>>the pleasure to find out!
 La tua squadra è al completo! Libera un posto se proprio ci tieni ad avere quest’Uovo.
-La tua squadra è al completo! Libera un posto se proprio ci tieni ad avere quest’Uovo.
+Your party is full! Make some space, if you really want<<n>>this Egg.
 Capisco, anche tu hai il tuo gran da fare. Fammi sapere se cambi idea, però!
-Capisco, anche tu hai il tuo gran da fare. Fammi sapere se cambi idea, però!
+I see, you're very busy too. Let me know if you change<<n>>your mind!
 \PN, prima o poi daremo spettacolo di nuovo. Faresti bene a prepararti!
-\PN, prima o poi daremo spettacolo di nuovo. Faresti bene a prepararti!
+\PN, we'll put on a show again, one day.<<n>>You better be ready!
 Gigio
 Louie
 Con tutto il baccano che fa, quella baracca lassù mi farà scappare tutti i pesci...
@@ -15491,11 +15493,11 @@ Ning
 È sempre un’emozione unica vedere qualche faccia nuova al villaggio! Non sono in tanti a venire fin qui...
 È sempre un’emozione unica vedere qualche faccia nuova al villaggio! Non sono in tanti a venire fin qui...
 <<[>>old<<]>>Pagoda del Cardinale
-<<[>>old<<]>>Pagoda del Cardinale
+<<[>>old<<]>>Cardinal's Pagoda
 Shui
 Shui
 C'è chi proprio non sopporta il freddo e chi, come me, non potrebbe vivere senza. Il mondo è bello perché è vario!
-C'è chi proprio non sopporta il freddo e chi, come me, non potrebbe vivere senza.  Il mondo è bello perché è vario!
+There are those who just can't stand the cold<<n>>and those, like me, who couldn't live without it.<<n>>To each their own!
 <<[>>old<<]>><b>Tauronordia</b> <i>''La luce che risplende tra i monti.''</i>
 <<[>>old<<]>><b>Borealis Town</b>\n<i>''The light shining in the mountains.''</i>
 <<[>>old<<]>>Casa dei Fratelli Eccelsi
@@ -15507,7 +15509,7 @@ Ho chiesto al Cardinale il permesso di provare il suo spadone... quel coso peser
 Guo
 Guo
 Quest'anno ho fatto il bravo. Mi merito proprio un bel premio dal vecchio dei Reindear!
-Quest'anno ho fatto il bravo. Mi merito proprio un bel premio dal vecchio dei Reindear!
+I've been good all year. I think I deserve a little treat<<n>>from the Old Man of Reindear!
 Hit
 Hit
 Se ti piacciono le sfide, il <b>Dojo Lotta</b> è il posto che fa per te!
@@ -17600,21 +17602,21 @@ Shulong
 Shu...!
 Shu...!
 <<[>>old<<]>>Stai per affrontare uno <b>scontro leggenda</b>, una lotta a più fasi cui potrai sottrarti solo alla fine. Vuoi davvero proseguire?
-<<[>>old<<]>>Stai per affrontare uno <b>scontro leggenda</b>, una lotta a più fasi cui potrai sottrarti solo alla fine. Vuoi davvero proseguire?
+<<[>>old<<]>>You are going to face a <b>legend battle</b>, a multi-set battle you cannot withdraw until its end.\nDo you wish to proceed?
 Shu!
 Shu!
 <<[>>old<<]>>Shulong entra in risonanza con l’Energia dell’Anello Terrestre.
-<<[>>old<<]>>Shulong entra in risonanza con l’Energia dell’Anello Terrestre.
+<<[>>old<<]>>Shulong resonated with the Energy from your Earth Core.
 Shuuu!!
 Shuuu!!
 <<[>>old<<]>>Shulong entra in risonanza con l’Energia dell’Anello Xenoverse. Non ha nessuna intenzione di arrendersi!
-<<[>>old<<]>>Shulong entra in risonanza con l’Energia dell’Anello Xenoverse. Non ha nessuna intenzione di arrendersi!
+<<[>>old<<]>>Shulong resonated with the Energy from your Xenoverse Core. It has no intention to give up!
 <<[>>old<<]>>In presenza del prescelto, Shulong ritrova l’equilibrio tra le due Energie...
-<<[>>old<<]>>In presenza del prescelto, Shulong ritrova l’equilibrio tra le due Energie...
+<<[>>old<<]>>In presence of the chosen one, Shulong regained the balance between the two Energies...
 Shuuurooon!!
 Shuuurooon!!
 <<[>>old<<]>>Ora che Shulong fa sul serio, potrai finalmente catturarlo!
-<<[>>old<<]>>Ora che Shulong fa sul serio, potrai finalmente catturarlo!
+<<[>>old<<]>>Now Shulong fights at its best, you will be able to catch it!
 Sì
 Yes
 No
@@ -17874,15 +17876,15 @@ There you go! Now, your Pokémon will be able unleash<<n>>its full Water-type po
 Liu
 Liu
 Con queste temperature, a noi il calduccio fa un gran bene, ma lo stesso non vale per i Pokémon Ghiaccio. Se darai loro una di queste, però, potranno sopportare un po’ di più il caldo!
-Con queste temperature, a noi il calduccio fa un gran bene, ma lo stesso non vale per i Pokémon Ghiaccio. Se darai loro una di queste, però, potranno sopportare un po’ di più il caldo!
+In these temperatures, staying warm and cosy is good for us, but the same doesn't apply to Ice-type Pokémon.<<n>>However, if you give them one of these, they will stand<<n>>the heat a little more!
 Ma attento|a, quella Bacca potrà neutralizzare un solo attacco di tipo Fuoco indirizzato al tuo Pokémon.
-Ma attento|a, quella Bacca potrà neutralizzare un solo attacco di tipo Fuoco indirizzato al tuo Pokémon.
+Be careful, though, that Berry will lessen the damage taken by one single Fire-type attack.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
 Tao
 Tao
 Una volta ho affrontato un Beartic a mani nude, sai? ... Nah, non è vero. Me la sono fatta sotto e sono scappato con la coda tra le gambe.
-Una volta ho affrontato un Beartic a mani nude, sai? ... Nah, non è vero. Me la sono fatta sotto e sono scappato con la coda tra le gambe.
+I once fought a Beartic with my own hands, you know?<<n>>...<<n>>Nah, just kidding. I just chickened out and ran away<<n>>scared as heck.
 [Map414]
 Lee
 Lee
@@ -17898,31 +17900,31 @@ No
 Tyro
 Tyro
 Sei riuscito|a a mettere schiena a terra i miei abili fratelli, ma io non cadrò... Sono il maestro di questo dojo!
-Sei riuscito|a a mettere schiena a terra i miei abili fratelli, ma io non cadrò...  Sono il maestro di questo dojo!
+You managed to knock out my skillful brother, but I'll have you know I'm not going to fall...<<n>>I'm the master of this dojo!
 Mi mostri la via della forza.
-Mi mostri la via della forza.
+Show me the way of the power.
 Le vostre tecniche sono quanto di più puro abbia mai visto. Questa MT dev’essere vostra!
-Le vostre tecniche sono quanto di più puro abbia mai visto. Questa MT dev’essere vostra!
+Those techniques of yours were the strongest I've ever seen. You really deserved this TM!
 Maestro|a, mi mostri la via della forza.
-Maestro|a, mi mostri la via della forza.
+Please, show me the way of the power, my master.
 Top
 Top
 Se riuscirai a vincere con la tua forza mio fratello Tyro, metterò in vendita anche a te i miei preziosi strumenti.
-Se riuscirai a vincere con la tua forza mio fratello Tyro, metterò in vendita anche a te i miei preziosi strumenti. 
+Prevail over my brother Tyro by relying on your force,<<n>>and I will sell my precious items to you, too.
 Maestro|a della forza, sarei lieto se acquistasse da me.
-Maestro|a della forza, sarei lieto se acquistasse da me.
+Master of power, I would be glad if you wanted to buy<<n>>something from your pupil.
 Chan
 Chan
 La scuola viene prima di tutto, perché nella scuola ci sono i nostri ideali, il nostro futuro!
-La scuola viene prima di tutto, perché nella scuola ci sono i nostri ideali, il nostro futuro!
+The school comes first, for the school has our ideals,<<n>>our future!
 Vincere o perdere non importa, ciò che realmente conta è guadagnare il rispetto.
-Vincere o perdere non importa, ciò che realmente conta è guadagnare il rispetto.
+Winning or losing has no meaning--earning the respect, that's what really matters.
 Lee
 Lee
 Sto ancora imparando perché l’apprendimento non ha limite, ma vedrò di essere un degno avversario!
-Sto ancora imparando perché l’apprendimento non ha limite, ma vedrò di essere un degno avversario!
+I'm still learning, for learning is boundless, but I'll try to be<<n>>a worthy opponent for you!
 La sconfitta non è nient’altro che educazione.
-La sconfitta non è nient’altro che educazione.
+Defeat is nothing but education.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
 [Map416]
@@ -18019,17 +18021,17 @@ Ricorda che il Repellente tiene alla larga solo i Pokémon più deboli di quello
 Nuo
 Nuo
 Il precedente Cardinale ci ha lasciati quando sua figlia Castalia era poco più che una neonata. Quella bambina è dovuta entrare presto nel mondo dei grandi, ereditando la carica di suo padre.
-Il precedente Cardinale ci ha lasciati quando sua figlia Castalia era poco più che una neonata. Quella bambina è dovuta entrare presto nel mondo dei grandi, ereditando la carica di suo padre.
+The previous Cardinal has left us when his daughter Niva<<n>>was little more than a baby.<<n>>That little girl had to enter soon the adult world, inheriting<<n>>the charge from her father.
 Xiu
 Xiu
 Il Cardinale spesso si diletta a fendere il ghiaccio con la sua alabarda per scolpire figure magnifiche.
-Il Cardinale spesso si diletta a fendere il ghiaccio con la sua alabarda per scolpire figure magnifiche.
+The Cardinal often delights in sculpting ice with<<n>>her halberd to create magnificent sculptures.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
 Jie
 Jie
 ''Yanyuèdao'', lama di luna crescente, è il nome che diede a quell'alabarda il fabbro che, anni or sono, la forgiò.
-''Yanyuèdao'', lama di luna crescente, è il nome che diede a quell'alabarda il fabbro che, anni or sono, la forgiò.
+''Yanyuèdao''--reclining moon blade--is the name that halberd was given by the smith who forged it, years ago.
 [Map419]
 Mei
 Mei
@@ -18040,7 +18042,7 @@ Quella del vecchio dei Reindear è una storiella come un’altra per educare i n
 Ping
 Ping
 Una volta l'anno, un vecchio barbuto scende dai monti coi suoi Reindear per premiare i bimbi buoni.
-Una volta l'anno, un vecchio barbuto scende dai monti coi suoi Reindear per premiare i bimbi buoni.
+Once a year, a old longbeard comes down the mountains with his Reindear to present all the good children.
 <<[>>old<<]>>È vuota.
 <<[>>old<<]>>It's empty.
 [Map420]
@@ -18993,21 +18995,21 @@ Shyleon
 Shy...!
 Shy...!
 <<[>>old<<]>>Stai per affrontare uno <b>scontro leggenda</b>, una lotta a più fasi cui potrai sottrarti solo alla fine. Vuoi davvero proseguire?
-<<[>>old<<]>>Stai per affrontare uno <b>scontro leggenda</b>, una lotta a più fasi cui potrai sottrarti solo alla fine. Vuoi davvero proseguire?
+<<[>>old<<]>>You are going to face a <b>legend battle</b>, a multi-set battle you cannot withdraw until its end.\nDo you wish to proceed?
 Shy!
 Shy!
 <<[>>old<<]>>Shyleon entra in risonanza con l’Energia dell’Anello Terrestre.
-<<[>>old<<]>>Shyleon entra in risonanza con l’Energia dell’Anello Terrestre.
+<<[>>old<<]>>Shyleon esonated with the Energy from your Earth Core.
 Shyyy!!
 Shyyy!!
 <<[>>old<<]>>Shyleon entra in risonanza con l’Energia dell’Anello Xenoverse. Non ha nessuna intenzione di arrendersi!
-<<[>>old<<]>>Shyleon entra in risonanza con l’Energia dell’Anello Xenoverse. Non ha nessuna intenzione di arrendersi!
+<<[>>old<<]>>Shyleon resonated with the Energy from your Xenoverse Core. It has no intention to give up!
 <<[>>old<<]>>In presenza del prescelto, Shyleon ritrova l’equilibrio tra le due Energie...
-<<[>>old<<]>>In presenza del prescelto, Shyleon ritrova l’equilibrio tra le due Energie...
+<<[>>old<<]>>In presence of the chosen one, Shyleon regained the balance between the two Energies...
 Shyyyhooo!!
 Shyyyhooo!!
 <<[>>old<<]>>Ora che Shyleon fa sul serio, potrai finalmente catturarlo!
-<<[>>old<<]>>Ora che Shyleon fa sul serio, potrai finalmente catturarlo!
+<<[>>old<<]>>Now Shyleon fights at its best, you will be able to catch it!
 Sì
 Yes
 No
@@ -19022,21 +19024,21 @@ Trishout
 Tri...!
 Tri...!
 <<[>>old<<]>>Stai per affrontare uno <b>scontro leggenda</b>, una lotta a più fasi cui potrai sottrarti solo alla fine. Vuoi davvero proseguire?
-<<[>>old<<]>>Stai per affrontare uno <b>scontro leggenda</b>, una lotta a più fasi cui potrai sottrarti solo alla fine. Vuoi davvero proseguire?
+<<[>>old<<]>>You are going to face a <b>legend battle</b>, a multi-set battle you cannot withdraw until its end.\nDo you wish to proceed?
 Tri!
 Tri!
 <<[>>old<<]>>Trishout entra in risonanza con l’Energia dell’Anello Terrestre.
-<<[>>old<<]>>Trishout entra in risonanza con l’Energia dell’Anello Terrestre.
+<<[>>old<<]>>Trishout resonated with the Energy from your Earth Core.
 Triii!!
 Triii!!
 <<[>>old<<]>>Trishout entra in risonanza con l’Energia dell’Anello Xenoverse. Non ha nessuna intenzione di arrendersi!
-<<[>>old<<]>>Trishout entra in risonanza con l’Energia dell’Anello Xenoverse. Non ha nessuna intenzione di arrendersi!
+<<[>>old<<]>>Trishout resonated with the Energy from your Xenoverse Core. It has no intention to give up!
 <<[>>old<<]>>In presenza del prescelto, Trishout ritrova l’equilibrio tra le due Energie...
-<<[>>old<<]>>In presenza del prescelto, Trishout ritrova l’equilibrio tra le due Energie...
+<<[>>old<<]>>In presence of the chosen one, Trishout regained the balance between the two Energies...
 Triiihooo!!
 Triiihooo!!
 <<[>>old<<]>>Ora che Trishout fa sul serio, potrai finalmente catturarlo!
-<<[>>old<<]>>Ora che Trishout fa sul serio, potrai finalmente catturarlo!
+<<[>>old<<]>>Now Trishout fights at its best, you will be able to catch it!
 Sì
 Yes
 No
@@ -36760,307 +36762,307 @@ Chi la usa spaventa il bersaglio con una faccia terribile e ne riduce di molto l
 Chi la usa spaventa il bersaglio con una faccia terribile e ne riduce di molto la Velocità.
 400
 Stridio assordante che riduce di molto la Difesa del bersaglio.
-Stridio assordante che riduce di molto la Difesa del bersaglio.
+An earsplitting screech harshly reduces the target's Defense stat.
 401
 Chi la usa affila i propri spigoli per aumentare l'Attacco.
-Chi la usa affila i propri spigoli per aumentare l'Attacco.
+The user makes its edges more jagged, which raises its Attack stat.
 402
 Chi la usa si disfa del guscio. Le difese calano, ma aumentano di molto Attacco, Attacco Speciale e Velocità.
-Chi la usa si disfa del guscio. Le difese calano, ma aumentano di molto Attacco, Attacco Speciale e Velocità.
+The user breaks its shell, lowering its Defense and Sp. Def stats but sharply raising Attack, Sp. Atk, and Speed stats.
 403
 Chi la usa emette un misterioso raggio psichico che trasforma l'abilità del bersaglio in Disinvoltura.
-Chi la usa emette un misterioso raggio psichico che trasforma l'abilità del bersaglio in Disinvoltura.
+The user's mysterious psychic wave changes the target's Ability to Simple.
 404
 Dolce ninnananna, cantata da una voce suadente, che fa addormentare il bersaglio.
-Dolce ninnananna, cantata da una voce suadente, che fa addormentare il bersaglio.
+A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.
 405
 Permette a chi la usa di imparare l'ultima mossa usata dal bersaglio. La nuova mossa appresa sostituisce Schizzo.
-Permette a chi la usa di imparare l'ultima mossa usata dal bersaglio. La nuova mossa appresa sostituisce Schizzo.
+It enables the user to permanently learn the move last used by the target. Once used, Sketch disappears.
 406
 Chi la usa si rilassa recuperando metà dei propri PS massimi.
-Chi la usa si rilassa recuperando metà dei propri PS massimi.
+The user slacks off, restoring its own HP by up to half of its max HP.
 407
 Chi la usa sferra a caso una delle proprie mosse mentre sta dormendo.
-Chi la usa sferra a caso una delle proprie mosse mentre sta dormendo.
+While it is asleep, the user randomly uses one of the moves it knows.
 408
 Nuvola di fumo o inchiostro che riduce la precisione del bersaglio.
-Nuvola di fumo o inchiostro che riduce la precisione del bersaglio.
+The user releases an obscuring cloud of smoke or ink. It reduces the target's accuracy.
 409
 Chi la usa recupera metà dei propri PS massimi.
-Chi la usa recupera metà dei propri PS massimi.
+The user restores its own HP by up to half of its max HP.
 410
 Chi la usa sguazza nell'acqua, senza ottenere alcun effetto.
-Chi la usa sguazza nell'acqua, senza ottenere alcun effetto.
+The user just flops and splashes around to no effect at all...
 411
 Chi la usa accumula energia aumentando la Difesa e la Difesa Speciale. Si può utilizzare tre volte.
-Chi la usa accumula energia aumentando la Difesa e la Difesa Speciale. Si può utilizzare tre volte.
+The user charges up power and raises both its Defense and Sp. Def. The move can be used three times.
 412
 Chi la usa crea una copia di sé stesso usando alcuni PS. La copia serve come esca per il nemico.
-Chi la usa crea una copia di sé stesso usando alcuni PS. La copia serve come esca per il nemico.
+The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.
 413
 Chi la usa genera dal proprio corpo strane onde acustiche che possono confondere il bersaglio.
-Chi la usa genera dal proprio corpo strane onde acustiche che possono confondere il bersaglio.
+The user generates odd sound waves from its body that confuse the target.
 414
 Chi la usa provoca il bersaglio e lo confonde, facendo aumentare però di molto il suo Attacco.
-Chi la usa provoca il bersaglio e lo confonde, facendo aumentare però di molto il suo Attacco.
+The user enrages and confuses the target. However, it also sharply raises the target's Attack stat.
 415
 Chi la usa assorbe l'energia raccolta con la mossa Accumulo e recupera PS. Maggiore è l'energia, più PS si recuperano.
-Chi la usa assorbe l'energia raccolta con la mossa Accumulo e recupera PS. Maggiore è l'energia, più PS si recuperano.
+The power stored using the move Stockpile is absorbed by the user to heal its HP.
 416
 Chi la usa bacia il nemico con una dolcezza angelica, confondendolo.
-Chi la usa bacia il nemico con una dolcezza angelica, confondendolo.
+The user kisses the target with a sweet, angelic cuteness that causes confusion.
 417
 Un dolce profumo che riduce di molto l'elusione dei nemici intorno a chi la usa.
-Un dolce profumo che riduce di molto l'elusione dei nemici intorno a chi la usa.
+A sweet scent that harshly lowers opposing Pokémon's evasiveness.
 418
 Danza frenetica che incrementa lo spirito combattivo. Chi la usa aumenta di molto il suo Attacco.
-Danza frenetica che incrementa lo spirito combattivo. Chi la usa aumenta di molto il suo Attacco.
+A frenetic dance to uplift the fighting spirit. This sharply raises the user's Attack stat.
 419
 Chi la usa agita la coda per distrarre i nemici che ha intorno, riducendone la Difesa.
-Chi la usa agita la coda per distrarre i nemici che ha intorno, riducendone la Difesa.
+The user wags its tail cutely, making opposing Pokémon less wary and lowering their Defense stat.
 420
 Chi la usa esegue una danza goffa che confonde tutti i Pokémon attorno.
-Chi la usa esegue una danza goffa che confonde tutti i Pokémon attorno.
+The user performs a wobbly dance that confuses the Pokémon around it.
 421
 Chi la usa solletica il bersaglio e lo fa ridere, riducendo il suo Attacco e la sua Difesa.
-Chi la usa solletica il bersaglio e lo fa ridere, riducendo il suo Attacco e la sua Difesa.
+The user tickles the target into laughing, reducing its Attack and Defense stats.
 422
 Chi la usa si trasforma in una copia esatta del bersaglio per sfruttarne le mosse.
-Chi la usa si trasforma in una copia esatta del bersaglio per sfruttarne le mosse.
+The user transforms into a copy of the target right down to having the same move set.
 423
 Il bersaglio lascia il campo e viene sostituito. Mette fine alle lotte contro singoli Pokémon selvatici.
-Il bersaglio lascia il campo e viene sostituito. Mette fine alle lotte contro singoli Pokémon selvatici.
+The target is blown away and switched. In the wild, a battle against a single Pokémon ends.
 424
 Permette di recuperare metà dei PS massimi al turno successivo.
-Permette di recuperare metà dei PS massimi al turno successivo.
+One turn after this move is used, the target's HP is restored by half the user's max HP.
 425
 Chi la usa si tira su di morale, aumentando il proprio Attacco e l'Attacco Speciale.
-Chi la usa si tira su di morale, aumentando il proprio Attacco e l'Attacco Speciale.
+The user is roused, and its Attack and Sp. Atk stats increase.
 426
 Chi la usa fa un grande sbadiglio che addormenta il bersaglio al turno seguente.
-Chi la usa fa un grande sbadiglio che addormenta il bersaglio al turno seguente.
+The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.
 427
 Chi la usa attacca il bersaglio con rifiuti sudici che possono anche avvelenarlo.
-Chi la usa attacca il bersaglio con rifiuti sudici che possono anche avvelenarlo.
+The user shoots filthy garbage at the target to attack. This may also poison the target.
 428
 Lancia un'onda di fango che attacca tutti i Pokémon nelle vicinanze. Può anche avvelenarli.
-Lancia un'onda di fango che attacca tutti i Pokémon nelle vicinanze. Può anche avvelenarli.
+It swamps the area around the user with a giant sludge wave. It may also poison those hit.
 429
 Chi la usa attacca lanciando fango sul bersaglio. Può anche avvelenarlo.
-Chi la usa attacca lanciando fango sul bersaglio. Può anche avvelenarlo.
+Unsanitary sludge is hurled at the target. It may also poison the target.
 430
 Il bersaglio è colpito da un tentacolo o da un arto intriso di una sostanza tossica che può anche avvelenarlo.
-Il bersaglio è colpito da un tentacolo o da un arto intriso di una sostanza tossica che può anche avvelenarlo.
+The target is stabbed with a tentacle or arm steeped in poison. It may also poison the target.
 431
 Attacco con zanne avvelenate che può anche avvelenare il Pokémon colpito. Probabile brutto colpo.
-Attacco con zanne avvelenate che può anche avvelenare il Pokémon colpito. Probabile brutto colpo.
+A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.
 432
 Chi la usa lancia fango malsano sul bersaglio. Può anche avvelenarlo.
-Chi la usa lancia fango malsano sul bersaglio. Può anche avvelenarlo.
+Unsanitary sludge is hurled at the target. It may also poison the target.
 433
 Lancia uno speciale liquido tossico sul bersaglio. Se questi è avvelenato, il danno provocato raddoppia.
-Lancia uno speciale liquido tossico sul bersaglio. Se questi è avvelenato, il danno provocato raddoppia.
+The user drenches the target in a special poisonous liquid. Its power is doubled if the target is poisoned.
 434
 Attacca il bersaglio lanciandogli contro una nuvola di fumo speciale, che annulla ogni modifica alle statistiche.
-Attacca il bersaglio lanciandogli contro una nuvola di fumo speciale, che annulla ogni modifica alle statistiche.
+The user attacks by throwing a clump of special mud. All status changes are returned to normal.
 435
 Chi la usa morde il bersaglio con denti avvelenati che possono anche iperavvelenarlo.
-Chi la usa morde il bersaglio con denti avvelenati che possono anche iperavvelenarlo.
+The user bites the target with toxic fangs. It may also leave the target badly poisoned.
 436
 Chi la usa colpisce con la coda e può avvelenare il bersaglio. Probabile brutto colpo.
-Chi la usa colpisce con la coda e può avvelenare il bersaglio. Probabile brutto colpo.
+The user hits the target with its tail. It may also poison the target. Critical hits land more easily.
 437
 Colpisce i nemici intorno spruzzando un acido corrosivo. Può anche ridurne la Difesa Speciale.
-Colpisce i nemici intorno spruzzando un acido corrosivo. Può anche ridurne la Difesa Speciale.
+The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stat.
 438
 Chi la usa attacca il bersaglio con un acido altamente corrosivo. Il fluido riduce di molto la Difesa Speciale del bersaglio.
-Chi la usa attacca il bersaglio con un acido altamente corrosivo. Il fluido riduce di molto la Difesa Speciale del bersaglio.
+The user spits fluid that works to melt the target. This harshly reduces the target's Sp. Def stat.
 439
 Colpisce il bersaglio con una scarica di gas maleodoranti. Può anche avvelenarlo.
-Colpisce il bersaglio con una scarica di gas maleodoranti. Può anche avvelenarlo.
+The target is attacked with a discharge of filthy gases. It may also poison the target.
 440
 Colpisce il bersaglio con un aculeo tossico che può anche avvelenarlo.
-Colpisce il bersaglio con un aculeo tossico che può anche avvelenarlo.
+The user stabs the target with a poisonous stinger. This may also poison the target.
 441
 Chi la usa altera la sua struttura cellulare liquefandosi, per aumentare di molto la sua Difesa.
-Chi la usa altera la sua struttura cellulare liquefandosi, per aumentare di molto la sua Difesa.
+The user alters its cellular structure to liquefy itself, sharply raising its Defense stat.
 442
 Chi la usa si concentra aumentando Attacco, Difesa e precisione.
-Chi la usa si concentra aumentando Attacco, Difesa e precisione.
+The user coils up and concentrates. This raises its Attack and Defense stats as well as its accuracy.
 443
 Chi la usa lancia sul bersaglio i suoi acidi gastrici che ne annullano l'Abilità.
-Chi la usa lancia sul bersaglio i suoi acidi gastrici che ne annullano l'Abilità.
+The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target's Ability.
 444
 Spruzza in faccia ai nemici che ha intorno una nuvola di gas tossico che avvelena.
-Spruzza in faccia ai nemici che ha intorno una nuvola di gas tossico che avvelena.
+A cloud of poison gas is sprayed in the face of opposing Pokémon, poisoning those hit.
 445
 Investe il bersaglio con una nuvola di polvere tossica che avvelena.
-Investe il bersaglio con una nuvola di polvere tossica che avvelena.
+The user scatters a cloud of poisonous dust that poisons the target.
 446
 Iperavvelena il bersaglio con una potente tossina. Il danno peggiora a ogni turno.
-Iperavvelena il bersaglio con una potente tossina. Il danno peggiora a ogni turno.
+A move that leaves the target badly poisoned. Its poison damage worsens every turn.
 447
 Chi la usa piazza una trappola di punte che avvelenano i nemici che scendono in campo.
-Chi la usa piazza una trappola di punte che avvelenano i nemici che scendono in campo.
+The user lays a trap of poison spikes at the opponent's feet. They poison opponents that switch into battle.
 448
 Chi la usa sferra un potente attacco, ma il contraccolpo riduce di molto il suo Attacco Speciale.
-Chi la usa sferra un potente attacco, ma il contraccolpo riduce di molto il suo Attacco Speciale.
+The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat.
 449
 Attacco che funziona solo su un bersaglio che dorme. Chi lo usa riceve metà dei PS persi dal Pokémon colpito.
-Attacco che funziona solo su un bersaglio che dorme. Chi lo usa riceve metà dei PS persi dal Pokémon colpito.
+The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal the user's HP.
 450
 Due turni dopo l'utilizzo di questa mossa, il bersaglio viene attaccato con energia psichica.
-Due turni dopo l'utilizzo di questa mossa, il bersaglio viene attaccato con energia psichica.
+Two turns after this move is used, a hunk of psychic energy attacks the target.
 451
 Chi la usa attacca il bersaglio facendo materializzare misteriose onde psichiche che provocano danni fisici.
-Chi la usa attacca il bersaglio facendo materializzare misteriose onde psichiche che provocano danni fisici.
+The user materializes an odd psychic wave to attack the target. This attack does physical damage.
 452
 Il bersaglio viene colpito da una potente forza telecinetica che può anche ridurne la Difesa Speciale.
-Il bersaglio viene colpito da una potente forza telecinetica che può anche ridurne la Difesa Speciale.
+The target is hit by a strong telekinetic force. It may also reduce the target's Sp.Def stat.
 453
 Chi la usa attacca con una misteriosa forza invisibile. Può far tentennare il bersaglio.
-Chi la usa attacca con una misteriosa forza invisibile. Può far tentennare il bersaglio.
+The user attacks with an odd, unseeable power. It may also make the target flinch.
 454
 Chi la usa attacca il bersaglio facendo materializzare misteriose onde psichiche che provocano danni fisici.
-Chi la usa attacca il bersaglio facendo materializzare misteriose onde psichiche che provocano danni fisici.
+The user materializes an odd psychic wave to attack the target. This attack does physical damage.
 455
 Chi la usa concentra le energie psichiche nella testa e si lancia contro il bersaglio. Può anche farlo tentennare.
-Chi la usa concentra le energie psichiche nella testa e si lancia contro il bersaglio. Può anche farlo tentennare.
+The user focuses its willpower to its head and attacks the target. It may also make the target flinch.
 456
 Chi la usa scatena un'esplosione abbagliante che può anche ridurre la Difesa Speciale del Pokémon colpito.
-Chi la usa scatena un'esplosione abbagliante che può anche ridurre la Difesa Speciale del Pokémon colpito.
+The user lets loose a damaging burst of light. It may also reduce the target's Sp. Def stat.
 457
 Una sfera di nebbia avvolge e danneggia il bersaglio. Può anche ridurne l'Attacco Speciale.
-Una sfera di nebbia avvolge e danneggia il bersaglio. Può anche ridurne l'Attacco Speciale.
+A mistlike flurry of down envelops and damages the target. It may also lower the target's Sp. Atk.
 458
 Chi la usa colpisce il bersaglio con lame fatte di forza psichica. Probabile brutto colpo.
-Chi la usa colpisce il bersaglio con lame fatte di forza psichica. Probabile brutto colpo.
+The user tears at the target with blades formed by psychic power. Critical hits land more easily.
 459
 Chi la usa infligge danni a tutti i Pokémon dello stesso tipo che si trovano nelle vicinanze usando misteriose onde elettromagnetiche.
-Chi la usa infligge danni a tutti i Pokémon dello stesso tipo che si trovano nelle vicinanze usando misteriose onde elettromagnetiche.
+Using an odd shock wave, the user inflicts damage on any Pokémon of the same type in the area around it.
 460
 Colpisce il bersaglio con un raggio speciale. Può anche confonderlo.
-Colpisce il bersaglio con un raggio speciale. Può anche confonderlo.
+The target is attacked with a peculiar ray. It may also cause confusion.
 461
 Chi la usa distrae il bersaglio con un faccino innocente per poi sferrargli un colpo devastante che può farlo tentennare.
-Chi la usa distrae il bersaglio con un faccino innocente per poi sferrargli un colpo devastante che può farlo tentennare.
+The user unleashes a vicious blow after its cute act makes the target less wary. It may also make the target flinch.
 462
 Colpisce il bersaglio con una leggera forza telecinetica e può anche confonderlo.
-Colpisce il bersaglio con una leggera forza telecinetica e può anche confonderlo.
+The target is hit by a weak telekinetic force. It may also leave the target confused.
 463
 Mossa che replica ogni attacco speciale, arrecando il doppio del danno ricevuto.
-Mossa che replica ogni attacco speciale, arrecando il doppio del danno ricevuto.
+A retaliation move that counters any special attack, inflicting double the damage taken.
 464
 Colpisce il bersaglio con una strana onda psichica. Ha un'intensità variabile.
-Colpisce il bersaglio con una strana onda psichica. Ha un'intensità variabile.
+The target is attacked with an odd psychic wave. The attack varies in intensity.
 465
 Attacca il bersaglio con l'energia accumulata. Più sono state aumentate le statistiche, maggiore è il danno inflitto.
-Attacca il bersaglio con l'energia accumulata. Più sono state aumentate le statistiche, maggiore è il danno inflitto.
+The user attacks the target with stored power. The more the user's stats are raised, the greater the damage.
 466
 Chi la usa rilassa e alleggerisce il proprio corpo per far salire di molto la Velocità.
-Chi la usa rilassa e alleggerisce il proprio corpo per far salire di molto la Velocità.
+The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.
 467
 Chi la usa cambia di posto con un alleato in campo grazie a un misterioso potere.
-Chi la usa cambia di posto con un alleato in campo grazie a un misterioso potere.
+The user teleports using a strange power and switches places with one of its allies.
 468
 Chi la usa svuota per un po' la mente per dimenticare i problemi. La Difesa Speciale aumenta di molto.
-Chi la usa svuota per un po' la mente per dimenticare i problemi. La Difesa Speciale aumenta di molto.
+The user temporarily empties its mind to forget its concerns. It sharply raises the user's Sp. Def stat.
 469
 Innalza una barriera resistente che aumenta molto la Difesa.
-Innalza una barriera resistente che aumenta molto la Difesa.
+The user throws up a sturdy wall that sharply raises its Defense stat.
 470
 Chi la usa placa il proprio spirito meditando per aumentare l'Attacco Speciale e la Difesa Speciale.
-Chi la usa placa il proprio spirito meditando per aumentare l'Attacco Speciale e la Difesa Speciale.
+The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.
 471
 Chi la usa assorbe una forza mistica dallo spazio che aumenta la Difesa e la Difesa Speciale.
-Chi la usa assorbe una forza mistica dallo spazio che aumenta la Difesa e la Difesa Speciale.
+The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.
 472
 Intensifica la gravità per cinque turni. Le mosse che fanno volare e Levitazione sono inutilizzabili.
-Intensifica la gravità per cinque turni. Le mosse che fanno volare e Levitazione sono inutilizzabili.
+Gravity is intensified for five turns, making moves involving flying unusable and negating Levitate.
 473
 Chi la usa sfrutta la sua forza psichica per sommare Difesa e Difesa Speciale a quelle del bersaglio e dividerle equamente.
-Chi la usa sfrutta la sua forza psichica per sommare Difesa e Difesa Speciale a quelle del bersaglio e dividerle equamente.
+The user employs its psychic power to average its Defense and Sp. Def stats with those of the target.
 474
 Chi la usa sfrutta la sua forza psichica per scambiare le modifiche a Difesa e Difesa Speciale con il bersaglio.
-Chi la usa sfrutta la sua forza psichica per scambiare le modifiche a Difesa e Difesa Speciale con il bersaglio.
+The user employs its psychic power to switch changes to its Defense and Sp. Def with the target.
 475
 Chi la usa impedisce per cinque turni ai nemici di utilizzare mosse, abilità e strumenti recupera-PS che hanno con sé.
-Chi la usa impedisce per cinque turni ai nemici di utilizzare mosse, abilità e strumenti recupera-PS che hanno con sé.
+For five turns, the user prevents the opposing team from using any moves, Abilities, or held items that recover HP.
 476
 Chi la usa lancia un'onda rilassante che fa recuperare al bersaglio metà dei suoi PS massimi.
-Chi la usa lancia un'onda rilassante che fa recuperare al bersaglio metà dei suoi PS massimi.
+The user emits a healing pulse that restores the target's HP by up to half of its max HP.
 477
 Chi la usa va KO, ma il Pokémon che lo sostituisce recupera tutti i PS e guarisce dai problemi di stato.
-Chi la usa va KO, ma il Pokémon che lo sostituisce recupera tutti i PS e guarisce dai problemi di stato.
+The user faints. In return, the Pokémon taking its place will have its HP restored and status cured.
 478
 Chi la usa sfrutta la sua forza psichica per scambiare le modifiche alle statistiche con il bersaglio.
-Chi la usa sfrutta la sua forza psichica per scambiare le modifiche alle statistiche con il bersaglio.
+The user employs its psychic power to switch stat changes with the target.
 479
 Chi la usa si avvale della suggestione ipnotica per far addormentare il bersaglio.
-Chi la usa si avvale della suggestione ipnotica per far addormentare il bersaglio.
+The user employs hypnotic suggestion to make the target fall into a deep sleep.
 480
 Chi la usa impedisce al nemico di usare mosse che conoscono entrambi.
-Chi la usa impedisce al nemico di usare mosse che conoscono entrambi.
+If the opponents know any move also known by the user, the opponents are prevented from using it.
 481
 Chi la usa distrae il bersaglio piegando un cucchiaio e ne riduce la precisione.
-Chi la usa distrae il bersaglio piegando un cucchiaio e ne riduce la precisione.
+The user distracts the target by bending a spoon. This lowers the target's accuracy.
 482
 Innalza una barriera misteriosa che riduce i danni degli attacchi speciali per sé e gli alleati per cinque turni.
-Innalza una barriera misteriosa che riduce i danni degli attacchi speciali per sé e gli alleati per cinque turni.
+A wondrous wall of light is put up to reduce damage from special attacks for five turns.
 483
 Chi la usa va KO. Il Pokémon che lo sostituisce guarisce dai propri problemi di stato e recupera tutti i PS e i PP.
-Chi la usa va KO. Il Pokémon che lo sostituisce guarisce dai propri problemi di stato e recupera tutti i PS e i PP.
+The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.
 484
 Una barriera rimanda al mittente l'effetto di mosse come Parassiseme e di mosse che influenzano lo stato.
-Una barriera rimanda al mittente l'effetto di mosse come Parassiseme e di mosse che influenzano lo stato.
+A barrier reflects back to the target moves like Leech Seed and moves that damage status.
 485
 Chi la usa crea una dimensione in cui l'effetto degli strumenti di tutti i Pokémon è annullato per cinque turni.
-Chi la usa crea una dimensione in cui l'effetto degli strumenti di tutti i Pokémon è annullato per cinque turni.
+The user creates a bizarre area in which Pokémon's held items lose their effects for five turns.
 486
 Chi la usa medita per risvegliare la propria forza interiore e migliorare l'Attacco.
-Chi la usa medita per risvegliare la propria forza interiore e migliorare l'Attacco.
+The user meditates to awaken the power deep within its body and raise its Attack stat.
 487
 Rende i Pokémon di tipo Buio vulnerabili a qualsiasi tipo di mossa e, inoltre, permette di colpire i nemici sfuggenti.
-Rende i Pokémon di tipo Buio vulnerabili a qualsiasi tipo di mossa e, inoltre, permette di colpire i nemici sfuggenti.
+Enables a Dark-type target to be hit by Psychic-type attacks. It also enables an evasive target to be hit.
 488
 Chi la usa sfrutta la sua forza psichica per sommare Attacco e Attacco Speciale a quelli del bersaglio e dividerli equamente.
-Chi la usa sfrutta la sua forza psichica per sommare Attacco e Attacco Speciale a quelli del bersaglio e dividerli equamente.
+The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target's.
 489
 Chi la usa sfrutta la sua forza psichica per sommare Attacco e Attacco Speciale a quelli del bersaglio e dividerli equamente.
-Chi la usa sfrutta la sua forza psichica per sommare Attacco e Attacco Speciale a quelli del bersaglio e dividerli equamente.
+The user employs its psychic power to switch changes to its Attack and Sp. Atk with the target.
 490
 Mossa psichica che permette a chi la usa di scambiare i valori delle sue statistiche di Attacco e Difesa.
-Mossa psichica che permette a chi la usa di scambiare i valori delle sue statistiche di Attacco e Difesa.
+The user employs its psychic power to switch its Attack stat with its Defense stat.
 491
 Con la forza psichica e la suggestione, chi la usa può trasferire i suoi problemi di stato al Pokémon colpito.
-Con la forza psichica e la suggestione, chi la usa può trasferire i suoi problemi di stato al Pokémon colpito.
+Using its psychic power of suggestion, the user transfers its status conditions to the target.
 492
 Innalza una barriera misteriosa che riduce i danni degli attacchi fisici per sé e gli alleati per cinque turni.
-Innalza una barriera misteriosa che riduce i danni degli attacchi fisici per sé e gli alleati per cinque turni.
+A wondrous wall of light is put up to reduce damage from physical attacks for five turns.
 493
 Chi la usa recupera tutti i PS e guarisce da tutti i suoi problemi di stato, ma dorme per due turni.
-Chi la usa recupera tutti i PS e guarisce da tutti i suoi problemi di stato, ma dorme per due turni.
+The user goes to sleep for two turns. It fully restores the user's HP and heals any status problem.
 494
 Chi la usa mima in tutto il bersaglio, copiandone l'abilità.
-Chi la usa mima in tutto il bersaglio, copiandone l'abilità.
+The user mimics the target completely, copying the target's Ability.
 495
 Chi la usa sfrutta i suoi poteri psichici per scambiare l'abilità con il bersaglio.
-Chi la usa sfrutta i suoi poteri psichici per scambiare l'abilità con il bersaglio.
+The user employs its psychic power to exchange Abilities with the target.
 496
 Chi la usa fa fluttuare in aria il bersaglio, rendendolo facile da colpire per tre turni.
-Chi la usa fa fluttuare in aria il bersaglio, rendendolo facile da colpire per tre turni.
+The user makes the target float with its psychic power. The target is easier to hit for three turns.
 497
 Chi la usa viene sostituito se ci sono altri Pokémon in squadra. Se un Pokémon selvatico usa questa mossa, fugge dalla lotta.
-Chi la usa viene sostituito se ci sono altri Pokémon in squadra. Se un Pokémon selvatico usa questa mossa, fugge dalla lotta.
+The user switches places with a party Pokémon in waiting, if any. If a wild Pokémon uses this move, it flees.
 498
 Chi la usa coglie il bersaglio in contropiede e lo obbliga a cambiare il suo strumento con il proprio.
-Chi la usa coglie il bersaglio in contropiede e lo obbliga a cambiare il suo strumento con il proprio.
+The user catches the target off guard and swaps its held item with its own.
 499
 Chi la usa crea una dimensione in cui i Pokémon più lenti agiscono per primi per cinque turni.
-Chi la usa crea una dimensione in cui i Pokémon più lenti agiscono per primi per cinque turni.
+The user creates a bizarre area in which slower Pokémon get to move first for five turns.
 500
 Chi la usa crea una dimensione in cui Difesa e Difesa Speciale di tutti i Pokémon vengono scambiate per cinque turni.
-Chi la usa crea una dimensione in cui Difesa e Difesa Speciale di tutti i Pokémon vengono scambiate per cinque turni.
+The user creates a bizarre area in which Pokémon's Defense and Sp. Def stats are swapped for five turns.
 501
 Chi la usa attacca con tutta la potenza di cui dispone, ma subisce danni considerevoli.
 Chi la usa attacca con tutta la potenza di cui dispone, ma subisce danni considerevoli.
