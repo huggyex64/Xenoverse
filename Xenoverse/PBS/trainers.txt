@@ -1090,7 +1090,7 @@ HIPHOPF
 Carolina
 2
 BREMAND,47
-BRIONNE,47
+TOKAKLE,47,,,,,,,,2
 #==============================
 HIPHOPF
 Rika
@@ -1518,7 +1518,7 @@ MONTANARO
 Marshall
 2
 GOLEM,53
-TURTONATOR,53
+REINDIGO,53
 #==============================
 MONTANARO
 Alessio
@@ -2243,7 +2243,7 @@ SCIENZIATADIMENSION
 Paris
 2
 MALAMAR,49
-ZEBSTRIKA,49
+REINDIGO,49
 #==============================
 SCIENZIATADIMENSION
 Luna
@@ -2854,7 +2854,7 @@ TEAMDIMENSION
 JU6
 2
 SHARPEDO,49
-AMPHAROS,49
+REINDIGO,49
 #==============================
 TEAMDIMENSION
 10O
@@ -2915,7 +2915,7 @@ TEAMDIMENSION
 5D05
 2
 TOXICROAK,48
-TOXAPEX,48
+TOKAKLE,48
 #==============================
 TEAMDIMENSION
 GF5
