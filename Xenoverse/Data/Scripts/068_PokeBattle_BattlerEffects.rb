@@ -558,13 +558,13 @@ class PokeBattle_Battler
       pbIncreaseStatBasic(stat,increment,nil,ignoreContrary)
       @battle.pbCommonAnimation("StatUp",self,nil) if upanim
       if increment>3
-        @battle.pbDisplay(arrStatTexts[3])
+        @battle.scene.pbDisplay(arrStatTexts[3])
       elsif increment==3
-        @battle.pbDisplay(arrStatTexts[2])
+        @battle.scene.pbDisplay(arrStatTexts[2])
       elsif increment==2
-        @battle.pbDisplay(arrStatTexts[1])
+        @battle.scene.pbDisplay(arrStatTexts[1])
       else
-        @battle.pbDisplay(arrStatTexts[0])
+        @battle.scene.pbDisplay(arrStatTexts[0])
       end
       return true
     end

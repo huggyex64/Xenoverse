@@ -21,25 +21,7 @@ def pbBattleAltPokemonForm(pkmn,form=0,variable=nil,canescape=true,canlose=false
   pkmn.forcedForm=form
   pbWildPokemonBattle(pkmn,variable,canescape,canlose,skipanim) 
 end
-=begin
-if $MKXP
-  class Font
-    #alias old_init initialize
-    #def initialize(*args)
-    #  old_init(args)
-    #  @default_size=22
-    #end
 
-    def size=(value)
-      @size=value#value-1
-    end
-
-  #  def size=(value)
-  #      @size=value-2
-  #  end
-  end
-end
-=end
 #===============================================================================
 # Start a single wild Pokemon battle
 #===============================================================================

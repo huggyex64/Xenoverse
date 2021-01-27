@@ -136,9 +136,11 @@ class PokemonEvolutionScene
 		
 	end
 	
-	def pbStartAstroScreen(pokemon,newspecies)
+	def pbStartAstroScreen(pokemon,newspecies,canCancel = false)
 		@sprites={}
 		
+		@canCancel = false
+
 		@viewportd=Viewport.new(0,0,Graphics.width,Graphics.height)
 		@viewportd.z=99999
 		@viewport=Viewport.new(0,48,Graphics.width,DEFAULTSCREENHEIGHT-48*2)
@@ -217,7 +219,7 @@ class PokemonEvolutionScene
 		poke2=@sprites["pokemon2"]
 		if !more
 			loop do
-				if Input.trigger?(Input::B)
+				if Input.trigger?(Input::B) && @canCancel
 					@canceled = true
 				end				
 				pbUpdate
@@ -234,7 +236,7 @@ class PokemonEvolutionScene
 			end
 		else
 			loop do
-				if Input.trigger?(Input::B)
+				if Input.trigger?(Input::B) && @canCancel
 					@canceled = true
 				end	
 				pbUpdate
