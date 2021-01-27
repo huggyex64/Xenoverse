@@ -570,7 +570,9 @@ class NewPokemonStorage
 			@actualBitmap.blt(0,0,@pokemonBitmap,Rect.new(0,@pokemonBitmap.height*@frame,@pokemonBitmap.height,@pokemonBitmap.height+2))
 			#@actualBitmap = @actualBitmap.clone
 			#@actualBitmap.fill_rect(0,0,30,30,Color.new(255,0,0))
-			@actualBitmap.add_outline(Color.new(248,248,248),1)
+			if !$MKXP
+				@actualBitmap.add_outline(Color.new(248,248,248),1)
+			end
 		else
 			@frameskip = 0
 			@frame = 0
@@ -578,19 +580,24 @@ class NewPokemonStorage
 			@pokemonBitmap = pbBitmap("Graphics/Battlers/egg")
 			@actualBitmap = Bitmap.new(@pokemonBitmap.height,@pokemonBitmap.height)
 			@actualBitmap.blt(0,0,@pokemonBitmap,Rect.new(0,0,@pokemonBitmap.height,@pokemonBitmap.height+2))
-			@actualBitmap.add_outline(Color.new(248,248,248),1)
+			if !$MKXP
+				@actualBitmap.add_outline(Color.new(248,248,248),1)
+			end
 		end
 		@s["sprite"]=EAMSprite.new(@viewport)
 		@s["sprite"].bitmap = @actualBitmap
+		if $MKXP 
+			@s["sprite"].add_outline(Color.new(248,248,248),@frame)
+		end
 		@s["sprite"].ox = @pokemonBitmap.height/2
 		@s["sprite"].z = 51
 		@s["sprite"].oy = pbGetSpriteBase(@pokemonBitmap)+1
 		@s["sprite"].zoom_x = 2
 		@s["sprite"].zoom_y = 2
-    if pkmn.isEgg?
-      @s["sprite"].zoom_x = 1
-      @s["sprite"].zoom_y = 1
-    end
+		if pkmn.isEgg?
+			@s["sprite"].zoom_x = 1
+			@s["sprite"].zoom_y = 1
+		end
 		@s["sprite"].x = 111
 		@s["sprite"].y = 321
 		@s["sprite"].opacity = 0
@@ -1035,8 +1042,11 @@ class NewPokemonStorage
 		
 		@actualBitmap.clear
 		@actualBitmap.blt(0,0,@pokemonBitmap,Rect.new(@pokemonBitmap.height*@frame,0,@pokemonBitmap.height,@pokemonBitmap.height))
-		@actualBitmap.add_outline(Color.new(248,248,248),1)
+		@actualBitmap.add_outline(Color.new(248,248,248),1) if !$MKXP
 		@s["sprite"].bitmap = @actualBitmap if @s["sprite"] && @actualBitmap
+		if $MKXP 
+			@s["sprite"].add_outline(Color.new(248,248,248),@frame)
+		end
 	end
 	
 	def jump(target)
