@@ -36477,289 +36477,289 @@ Mossa d'attacco il cui tipo e la cui potenza variano in base alle condizioni atm
 An attack move that varies in power and type depending on the weather.
 305
 Attacca il bersaglio con la propria voce echeggiante. Se usata a ripetizione da uno o più Pokémon il danno aumenta.
-Attacca il bersaglio con la propria voce echeggiante. Se usata a ripetizione da uno o più Pokémon il danno aumenta.
+The user attacks the target with an echoing voice. If this move is used every turn, it does greater damage.
 306
 Mossa ad alta priorità che fa tentennare il bersaglio. Funziona solo appena scesi in campo.
-Mossa ad alta priorità che fa tentennare il bersaglio. Funziona solo appena scesi in campo.
+An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.
 307
 Chi la usa trattiene il colpo per impedire al bersaglio di andare KO, lasciandolo con almeno un PS.
-Chi la usa trattiene il colpo per impedire al bersaglio di andare KO, lasciandolo con almeno un PS.
+A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.
 308
 Colpisce il bersaglio con una gran quantità di monete recuperabili dopo la lotta.
-Colpisce il bersaglio con una gran quantità di monete recuperabili dopo la lotta.
+Numerous coins are hurled at the target to inflict damage. Money is earned after the battle.
 309
 Colpisce il bersaglio con la coda o le zampe anteriori.
-Colpisce il bersaglio con la coda o le zampe anteriori.
+The target is physically pounded with a long tail or a foreleg.
 310
 Chi la usa colpisce a una tale velocità da rendersi quasi invisibile. Questa mossa ha priorità alta.
-Chi la usa colpisce a una tale velocità da rendersi quasi invisibile. Questa mossa ha priorità alta.
+The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.
 311
 Infligge danni al nemico con artigli acuminati, duri e affilati.
-Infligge danni al nemico con artigli acuminati, duri e affilati.
+Hard, pointed, and sharp claws rake the target to inflict damage.
 312
 Mossa che può essere usata solo mentre si dorme. Il chiasso assordante può anche far tentennare il bersaglio.
-Mossa che può essere usata solo mentre si dorme. Il chiasso assordante può anche far tentennare il bersaglio.
+An attack that can be used only if the user is asleep. The harsh noise may make the target flinch.
 313
 Chi la usa colpisce il bersaglio due volte di fila con la coda, una liana o simili.
-Chi la usa colpisce il bersaglio due volte di fila con la coda, una liana o simili.
+The user slams the target with a long tail, vines, or tentacle. The target is hit twice in a row.
 314
 Colpisce anche un bersaglio che ha usato mosse come Protezione e Individua, annullandone gli effetti.
-Colpisce anche un bersaglio che ha usato mosse come Protezione e Individua, annullandone gli effetti.
+An attack that hits a target using Protect or Detect. It also lifts the effects of those moves.
 315
 Chi la usa colpisce il bersaglio con la sua coda dura da due a cinque volte di fila.
-Chi la usa colpisce il bersaglio con la sua coda dura da due a cinque volte di fila.
+The user attacks by striking the target with its hard tail. It hits the Pokémon two to five times in a row.
 316
 Mossa che aumenta la statistica Attacco ogni volta che chi la usa viene colpito durante una lotta.
-Mossa che aumenta la statistica Attacco ogni volta che chi la usa viene colpito durante una lotta.
+As long as this move is in use, the power of rage raises the Attack stat each time the user is hit in battle.
 317
 Attacco rotante che elimina gli effetti di mosse come Legatutto, Avvolgibotta e Parassiseme.
-Attacco rotante che elimina gli effetti di mosse come Legatutto, Avvolgibotta e Parassiseme.
+A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.
 318
 Il bersaglio viene colpito da due a cinque volte in rapida successione con delle spine.
-Il bersaglio viene colpito da due a cinque volte in rapida successione con delle spine.
+Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.
 319
 Colpisce il bersaglio con una scarica di pugni da due a cinque volte di fila.
-Colpisce il bersaglio con una scarica di pugni da due a cinque volte di fila.
+The target is hit with a flurry of punches that strike two to five times in a row.
 320
 Colpisce il bersaglio con artigli o falci affilate da due a cinque volte in rapida successione.
-Colpisce il bersaglio con artigli o falci affilate da due a cinque volte in rapida successione.
+The target is raked with sharp claws or scythes for two to five times in quick succession.
 321
 Piovono enormi sfere sulla testa del bersaglio da due a cinque volte di fila.
-Piovono enormi sfere sulla testa del bersaglio da due a cinque volte di fila.
+Round objects are hurled at the target to strike two to five times in a row.
 322
 Il lungo corpo o i tentacoli di chi la usa legano e stritolano il bersaglio per quattro o cinque turni.
-Il lungo corpo o i tentacoli di chi la usa legano e stritolano il bersaglio per quattro o cinque turni.
+Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns.
 323
 Schiaffeggia il bersaglio da due a cinque volte di fila.
-Schiaffeggia il bersaglio da due a cinque volte di fila.
+The target is slapped repeatedly, back and forth, two to five times in a row.
 324
 Infilza il bersaglio con corna affilate o con il becco da due a cinque volte di fila.
-Infilza il bersaglio con corna affilate o con il becco da due a cinque volte di fila.
+The target is jabbed repeatedly with a horn or beak two to five times in a row.
 325
 Il lungo corpo o le liane di chi la usa avvolgono e stritolano il bersaglio per quattro o cinque turni.
-Il lungo corpo o le liane di chi la usa avvolgono e stritolano il bersaglio per quattro o cinque turni.
+A long body or vines are used to wrap and squeeze the target for four to five turns.
 326
 Colpisce il bersaglio con lunghi tentacoli o piante rampicanti. Può anche ridurne la Velocità.
-Colpisce il bersaglio con lunghi tentacoli o piante rampicanti. Può anche ridurne la Velocità.
+The target is attacked with long, creeping tentacles or vines. It may also lower the target's Speed stat.
 327
 Chi la usa subisce attacchi per due turni e poi restituisce il danno moltiplicato per due.
-Chi la usa subisce attacchi per due turni e poi restituisce il danno moltiplicato per due.
+The user endures attacks for two turns, then strikes back to cause double the damage taken.
 328
 Colpisce il bersaglio con grande forza. Più PS ha il Pokémon colpito, maggiore è la potenza della mossa.
-Colpisce il bersaglio con grande forza. Più PS ha il Pokémon colpito, maggiore è la potenza della mossa.
+The target is crushed with great force. The attack is more powerful the more HP the target has left.
 329
 Attacco che riduce i PS del bersaglio a una quantità pari ai PS di chi lo usa.
-Attacco che riduce i PS del bersaglio a una quantità pari ai PS di chi lo usa.
+An attack move that cuts down the target's HP to equal the user's HP.
 330
 Chi la usa si dimena per attaccare. È più efficace se i suoi PS sono bassi.
-Chi la usa si dimena per attaccare. È più efficace se i suoi PS sono bassi.
+The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.
 331
 Mossa che diventa tanto più potente quanto minore è il grado di affezione del Pokémon per il proprio Allenatore.
-Mossa che diventa tanto più potente quanto minore è il grado di affezione del Pokémon per il proprio Allenatore.
+A full-power attack that grows more powerful the less the user likes its Trainer.
 332
 Attacca il bersaglio con pericolose tenaglie. Se l'attacco va a segno, il Pokémon colpito va subito KO.
-Attacca il bersaglio con pericolose tenaglie. Se l'attacco va a segno, il Pokémon colpito va subito KO.
+A vicious, tearing attack with big pincers. The target will faint instantly if this attack hits.
 333
 Mossa singolare che cambia tipo a seconda del Pokémon che la usa.
-Mossa singolare che cambia tipo a seconda del Pokémon che la usa.
+A unique attack that varies in type and intensity depending on the Pokémon using it.
 334
 Colpisce il bersaglio con un corno perforante come un trapano. Se il colpo va a segno, il Pokémon colpito va KO.
-Colpisce il bersaglio con un corno perforante come un trapano. Se il colpo va a segno, il Pokémon colpito va KO.
+The user stabs the target with a horn that rotates like a drill. If it hits, the target faints instantly.
 335
 Chi la usa trae forza dalla Bacca che ha. Da questa dipendono il tipo e la potenza dell'attacco.
-Chi la usa trae forza dalla Bacca che ha. Da questa dipendono il tipo e la potenza dell'attacco.
+The user draws power to attack by using its held Berry. The Berry determines its type and power.
 336
 Chi la usa dà un regalo bomba al bersaglio. A volte, però, può fargli recuperare PS.
-Chi la usa dà un regalo bomba al bersaglio. A volte, però, può fargli recuperare PS.
+The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.
 337
 Mossa che diventa tanto più potente quanto maggiore è il grado di affezione del Pokémon per il proprio Allenatore.
-Mossa che diventa tanto più potente quanto maggiore è il grado di affezione del Pokémon per il proprio Allenatore.
+A full-power attack that grows more powerful the more the user likes its Trainer.
 338
 Il bersaglio viene colpito da onde acustiche devastanti che gli provocano un danno pari a 20 PS.
-Il bersaglio viene colpito da onde acustiche devastanti che gli provocano un danno pari a 20 PS.
+The target is hit with a destructive shock wave that always inflicts 20 HP damage.
 339
 Tutta l'energia accumulata in precedenza con Accumulo è rilasciata nell'attacco. Maggiore è l'energia, più danni si arrecano.
-Tutta l'energia accumulata in precedenza con Accumulo è rilasciata nell'attacco. Maggiore è l'energia, più danni si arrecano.
+The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the damage.
 340
 Chi la usa salta sul bersaglio azzannandolo con i suoi incisivi affilati e facendogli perdere metà dei PS.
-Chi la usa salta sul bersaglio azzannandolo con i suoi incisivi affilati e facendogli perdere metà dei PS.
+The user chomps hard on the target with its sharp front fangs. It cuts the target's HP to half.
 341
 La potenza di questa mossa aumenta man mano che i suoi PP diminuiscono.
-La potenza di questa mossa aumenta man mano che i suoi PP diminuiscono.
+The fewer PP this move has, the greater its attack power.
 342
 Chi la usa stritola con forza il bersaglio. Più PS ha, maggiore è la potenza della mossa.
-Chi la usa stritola con forza il bersaglio. Più PS ha, maggiore è la potenza della mossa.
+The user powerfully wrings the target. The more HP the target has, the greater this attack's power.
 343
 Chi la usa esercita pressione su alcuni punti nevralgici e aumenta di molto una statistica a caso.
-Chi la usa esercita pressione su alcuni punti nevralgici e aumenta di molto una statistica a caso.
+The user applies pressure to stress points, sharply boosting one of its stats.
 344
 Chi la usa aiuta un bersaglio più lento permettendogli di agire subito dopo.
-Chi la usa aiuta un bersaglio più lento permettendogli di agire subito dopo.
+The user helps the target and makes it use its move right after the user.
 345
 Chi la usa utilizza in fretta e a caso una delle mosse degli altri Pokémon della squadra.
-Chi la usa utilizza in fretta e a caso una delle mosse degli altri Pokémon della squadra.
+The user hurriedly and randomly uses a move among those known by other Pokémon in the party.
 346
 Se il nemico è del sesso opposto, s'infatua e attacca con meno probabilità.
-Se il nemico è del sesso opposto, s'infatua e attacca con meno probabilità.
+If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.
 347
 Chi la usa è sostituito da un Pokémon della squadra, che eredita anche ogni modifica alle statistiche.
-Chi la usa è sostituito da un Pokémon della squadra, che eredita anche ogni modifica alle statistiche.
+The user switches places with a party Pokémon in waiting, passing along any stat changes.
 348
 Chi la usa massimizza l'Attacco in cambio di metà dei PS massimi.
-Chi la usa massimizza l'Attacco in cambio di metà dei PS massimi.
+The user maximizes its Attack stat in exchange for HP equal to half its max HP.
 349
 Chi la usa consegna il proprio strumento al bersaglio, se questi ne è sprovvisto.
-Chi la usa consegna il proprio strumento al bersaglio, se questi ne è sprovvisto.
+The user passes its held item to the target when the target isn't holding an item.
 350
 Chi la usa sbarra la strada al bersaglio impedendone la fuga o la sostituzione.
-Chi la usa sbarra la strada al bersaglio impedendone la fuga o la sostituzione.
+The user blocks the target's way with arms spread wide to prevent escape.
 351
 Modifica il tipo di chi la usa a seconda del luogo, ad esempio sull'acqua, nell'erba o in una grotta.
-Modifica il tipo di chi la usa a seconda del luogo, ad esempio sull'acqua, nell'erba o in una grotta.
+The user's type is changed depending on its environment, such as at water's edge, in grass, or in a cave.
 352
 Se il bersaglio è del sesso opposto di chi la usa, sarà ammaliato e il suo Attacco Speciale diminuirà di molto.
-Se il bersaglio è del sesso opposto di chi la usa, sarà ammaliato e il suo Attacco Speciale diminuirà di molto.
+If it is the opposite gender of the user, the target is charmed into harshly lowering its Sp. Atk stat.
 353
 Ammalia il nemico con lo sguardo, riducendone di molto l'Attacco.
-Ammalia il nemico con lo sguardo, riducendone di molto l'Attacco.
+The user gazes at the target rather charmingly, making it less wary. The target's Attack is harshly lowered.
 354
 Il tipo di chi la usa muta in quello della prima mossa nella lista delle sue mosse.
-Il tipo di chi la usa muta in quello della prima mossa nella lista delle sue mosse.
+The user changes its type to become the same type as one of its moves.
 355
 Chi la usa cambia tipo per rendersi resistente al tipo dell'ultima mossa usata dal bersaglio.
-Chi la usa cambia tipo per rendersi resistente al tipo dell'ultima mossa usata dal bersaglio.
+The user changes its type to make itself resistant to the type of the attack the opponent used last.
 356
 Chi la usa mima l'ultima mossa eseguita. Fallisce se non è stata ancora usata alcuna mossa.
-Chi la usa mima l'ultima mossa eseguita. Fallisce se non è stata ancora usata alcuna mossa.
+The user mimics the move used immediately before it. The move fails if no other move has been used yet.
 357
 Chi la usa si raggomitola per nascondere i punti deboli e aumentare la propria Difesa.
-Chi la usa si raggomitola per nascondere i punti deboli e aumentare la propria Difesa.
+The user curls up to conceal weak spots and raise its Defense stat.
 358
 Per quattro turni impedisce al bersaglio di riutilizzare l'ultima mossa usata.
-Per quattro turni impedisce al bersaglio di riutilizzare l'ultima mossa usata.
+For four turns, this move prevents the target from using the move it last used.
 359
 Chi la usa si muove in fretta e crea copie illusorie di se stesso che aumentano la capacità di elusione.
-Chi la usa si muove in fretta e crea copie illusorie di se stesso che aumentano la capacità di elusione.
+By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.
 360
 Chi la usa obbliga il bersaglio a ripetere per tre turni l'ultima mossa eseguita.
-Chi la usa obbliga il bersaglio a ripetere per tre turni l'ultima mossa eseguita.
+The user compels the target to keep using only the move it last used for three turns.
 361
 Chi la usa resta con un PS anche se subisce un colpo da KO in quel turno. Usata in successione può fallire.
-Chi la usa resta con un PS anche se subisce un colpo da KO in quel turno. Usata in successione può fallire.
+The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.
 362
 Chi la usa saltella con un buffo ritmo, inducendo il bersaglio a imitarlo e rendendo la sua abilità identica alla propria.
-Chi la usa saltella con un buffo ritmo, inducendo il bersaglio a imitarlo e rendendo la sua abilità identica alla propria.
+The user dances with an odd rhythm that compels the target to mimic it, making the target's Ability the same as the user's.
 363
 Investe il bersaglio con una luce abbagliante che ne riduce la precisione.
-Investe il bersaglio con una luce abbagliante che ne riduce la precisione.
+The user flashes a bright light that cuts the target's accuracy.
 364
 Chi la usa fa un respiro profondo e si concentra per rendere più probabili i brutti colpi.
-Chi la usa fa un respiro profondo e si concentra per rendere più probabili i brutti colpi.
+The user takes a deep breath and focuses so that critical hits land more easily.
 365
 Chi la usa attira l'attenzione su di sé, costringendo i nemici a sceglierlo sempre come bersaglio.
-Chi la usa attira l'attenzione su di sé, costringendo i nemici a sceglierlo sempre come bersaglio.
+The user draws attention to itself, making all targets take aim only at the user.
 366
 Chi la usa rende i Pokémon di tipo Spettro vulnerabili a qualsiasi tipo di mossa e può, inoltre, colpire i nemici sfuggenti.
-Chi la usa rende i Pokémon di tipo Spettro vulnerabili a qualsiasi tipo di mossa e può, inoltre, colpire i nemici sfuggenti.
+Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. It also enables an evasive target to be hit.
 367
 Chi la usa spaventa il bersaglio con uno sguardo terrificante e ne causa la paralisi.
-Chi la usa spaventa il bersaglio con uno sguardo terrificante e ne causa la paralisi.
+The user intimidates the target with the pattern on its belly to cause paralysis.
 368
 Distrae i nemici intorno con un feroce ruggito e ne riduce l'Attacco.
-Distrae i nemici intorno con un feroce ruggito e ne riduce l'Attacco.
+The user growls in an endearing way, making the opposing team less wary. The foes' Attack stats are lowered.
 369
 Provoca la crescita immediata del corpo e l'aumento dell'Attacco e dell'Attacco Speciale di chi la usa.
-Provoca la crescita immediata del corpo e l'aumento dell'Attacco e dell'Attacco Speciale di chi la usa.
+The user's body grows all at once, raising the Attack and Sp. Atk stats.
 370
 Tutti i muscoli del corpo si tonificano per aumentare la Difesa.
-Tutti i muscoli del corpo si tonificano per aumentare la Difesa.
+The user stiffens all the muscles in its body to raise its Defense stat.
 371
 Chi la usa produce uno scampanellio che cura i problemi di stato suoi e dei Pokémon alleati.
-Chi la usa produce uno scampanellio che cura i problemi di stato suoi e dei Pokémon alleati.
+The user makes a soothing bell chime to heal the status problems of all the party Pokémon.
 372
 Mossa che aumenta la potenza dell'attacco di un alleato.
-Mossa che aumenta la potenza dell'attacco di un alleato.
+The user assists an ally by boosting the power of its attack.
 373
 Chi la usa emette un forte verso per darsi coraggio e aumentare l'Attacco.
-Chi la usa emette un forte verso per darsi coraggio e aumentare l'Attacco.
+The user howls loudly to raise its spirit, boosting its Attack stat.
 374
 Fulmina i nemici intorno con uno sguardo intimidatorio, riducendone la Difesa.
-Fulmina i nemici intorno con uno sguardo intimidatorio, riducendone la Difesa.
+The opposing team gains an intimidating leer with sharp eyes. The opposing team's Defense stats are reduced.
 375
 Chi la usa punta il bersaglio con precisione. La mossa successiva andrà a segno.
-Chi la usa punta il bersaglio con precisione. La mossa successiva andrà a segno.
+The user takes sure aim at the target. It ensures the next attack does not fail to hit the target.
 376
 Chi la usa intimidisce il bersaglio con una faccia paurosa e gli schiocca un bacio che lo fa addormentare.
-Chi la usa intimidisce il bersaglio con una faccia paurosa e gli schiocca un bacio che lo fa addormentare.
+With a scary face, the user tries to force a kiss on the target. If it succeeds, the target falls asleep.
 377
 Chi la usa rivolge un incantesimo al cielo, impedendo al nemico di sferrare brutti colpi alla squadra per cinque turni.
-Chi la usa rivolge un incantesimo al cielo, impedendo al nemico di sferrare brutti colpi alla squadra per cinque turni.
+The user chants an incantation toward the sky, preventing opposing Pokémon from landing critical hits.
 378
 Se chi la usa è più veloce del nemico, gli ruba la mossa e gliela ritorce contro con potenza persino maggiore.
-Se chi la usa è più veloce del nemico, gli ruba la mossa e gliela ritorce contro con potenza persino maggiore.
+The user tries to cut ahead of the target to steal and use the target's intended move with greater power.
 379
 Chi la usa blocca il bersaglio con uno sguardo oscuro e ammaliante, impedendogli la fuga.
-Chi la usa blocca il bersaglio con uno sguardo oscuro e ammaliante, impedendogli la fuga.
+The user pins the target with a dark, arresting look. The target becomes unable to flee.
 380
 Chi la usa agita il dito e stimola il cervello a usare una mossa a caso.
-Chi la usa agita il dito e stimola il cervello a usare una mossa a caso.
+The user waggles a finger and stimulates its brain into randomly using nearly any move.
 381
 Chi la usa recupera metà dei propri PS massimi.
-Chi la usa recupera metà dei propri PS massimi.
+The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.
 382
 Chi la usa copia l'ultima mossa usata dal bersaglio e la conserva finché rimane in campo.
-Chi la usa copia l'ultima mossa usata dal bersaglio e la conserva finché rimane in campo.
+The user copies the target's last move. The move can be used during battle until the Pokémon is switched out.
 383
 Chi la usa prevede i movimenti del bersaglio per mandare a segno l'attacco successivo.
-Chi la usa prevede i movimenti del bersaglio per mandare a segno l'attacco successivo.
+The user senses the target's movements with its mind to ensure its next attack does not miss the target.
 384
 Il corpo di chi la usa si comprime e diventa più piccolo. La sua capacità di elusione aumenta di molto.
-Il corpo di chi la usa si comprime e diventa più piccolo. La sua capacità di elusione aumenta di molto.
+The user compresses its body to make itself look smaller, which sharply raises its evasiveness.
 385
 Chi la usa recupera PS. Il numero di PS recuperati dipende dalle condizioni atmosferiche.
-Chi la usa recupera PS. Il numero di PS recuperati dipende dalle condizioni atmosferiche.
+The user restores its own HP. The amount of HP regained varies with the weather.
 386
 Chi la usa recupera PS. Il numero di PS recuperati dipende dalle condizioni atmosferiche.
-Chi la usa recupera PS. Il numero di PS recuperati dipende dalle condizioni atmosferiche.
+The user restores its own HP. The amount of HP regained varies with the weather.
 387
 Mossa che fa uso della forza della natura. Il suo effetto varia in base all'ambiente.
-Mossa che fa uso della forza della natura. Il suo effetto varia in base all'ambiente.
+An attack that makes use of nature's power. Its effects vary depending on the user's environment.
 388
 Chi la usa rende i Pokémon di tipo Spettro vulnerabili a qualsiasi tipo di mossa e può, inoltre, colpire i nemici sfuggenti.
-Chi la usa rende i Pokémon di tipo Spettro vulnerabili a qualsiasi tipo di mossa e può, inoltre, colpire i nemici sfuggenti.
+Enables a Ghost-type target to be hit with Normal- and Fighting-type attacks. It also enables an evasive target to be hit.
 389
 Chi la usa somma i propri PS a quelli di un altro Pokémon per poi dividerli in parti uguali.
-Chi la usa somma i propri PS a quelli di un altro Pokémon per poi dividerli in parti uguali.
+The user adds its HP to the target's HP, then equally shares the combined HP with the target.
 390
 Qualunque Pokémon che senta questo canto va KO in tre turni, se non lo si sostituisce.
-Qualunque Pokémon che senta questo canto va KO in tre turni, se non lo si sostituisce.
+Any Pokémon that hears this song faints in three turns, unless it switches out of battle.
 391
 Permette di eludere tutti gli attacchi. Se usata in successione può fallire.
-Permette di eludere tutti gli attacchi. Se usata in successione può fallire.
+It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
 392
 Chi la usa s'ipnotizza per copiare ogni modifica alle statistiche del bersaglio.
-Chi la usa s'ipnotizza per copiare ogni modifica alle statistiche del bersaglio.
+The user hypnotizes itself into copying any stat change made by the target.
 393
 Mossa autocurativa. Chi la usa recupera metà dei PS massimi.
-Mossa autocurativa. Chi la usa recupera metà dei PS massimi.
+Restoring its own cells, the user restores its own HP by half of its max HP.
 394
 Chi la usa ricicla uno strumento che ha usato nella lotta e può riutilizzarlo.
-Chi la usa ricicla uno strumento che ha usato nella lotta e può riutilizzarlo.
+The user recycles a held item that has been used in battle so it can be used again.
 395
 Chi la usa cambia il proprio tipo in quello del bersaglio.
-Chi la usa cambia il proprio tipo in quello del bersaglio.
+The user reflects the target's type, making it the same type as the target.
 396
 Chi la usa riposa per guarire da avvelenamento, paralisi e scottatura.
-Chi la usa riposa per guarire da avvelenamento, paralisi e scottatura.
+The user rests to cure itself of a poisoning, burn, or paralysis.
 397
 Il bersaglio lascia il campo e viene sostituito. Mette fine alle lotte contro singoli Pokémon selvatici.
-Il bersaglio lascia il campo e viene sostituito. Mette fine alle lotte contro singoli Pokémon selvatici.
+The target is scared off and replaced by another Pokémon in its party. In the wild, the battle ends.
 398
 Chi la usa crea un campo protettivo che evita problemi di stato per sé e gli alleati per cinque turni.
-Chi la usa crea un campo protettivo che evita problemi di stato per sé e gli alleati per cinque turni.
+The user creates a protective field that prevents status problems for five turns.
 399
 Chi la usa spaventa il bersaglio con una faccia terribile e ne riduce di molto la Velocità.
-Chi la usa spaventa il bersaglio con una faccia terribile e ne riduce di molto la Velocità.
+The user frightens the target with a scary face to harshly reduce its Speed stat.
 400
 Stridio assordante che riduce di molto la Difesa del bersaglio.
 An earsplitting screech harshly reduces the target's Defense stat.
