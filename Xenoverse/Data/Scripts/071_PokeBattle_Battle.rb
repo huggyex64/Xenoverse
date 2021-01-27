@@ -2796,7 +2796,11 @@ class PokeBattle_Battle
 		end
 		if switched.length>0
 			for i in priority
-				i.pbAbilitiesOnSwitchIn(true) if switched.include?(i.index)
+				echoln "Checking for #{i.index}"
+				if switched.include?(i.index)
+					echoln "TRIGGERED for #{i.index}, by #{i.pbThis}"
+					i.pbAbilitiesOnSwitchIn(true)					
+				end
 			end
 		end
 		@switching=false

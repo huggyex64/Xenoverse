@@ -885,28 +885,28 @@ class PokeBattle_Battler
 		end
 		# Weather
 		if onactive
-			if self.hasWorkingAbility(:DRIZZLE) && battle.weather!=PBWeather::RAINDANCE && @battle.weatherduration!=-1
+			if self.hasWorkingAbility(:DRIZZLE) && battle.weather!=PBWeather::RAINDANCE #&& @battle.weatherduration!=-1
 				@battle.weather=PBWeather::RAINDANCE
 				@battle.weatherduration=-1
 				@battle.pbCommonAnimation("Rain",nil,nil)
 				@battle.pbDisplay(_INTL("{1}'s Drizzle made it rain!",pbThis))
 				PBDebug.log("[#{pbThis}: Drizzle made it rain]")
 			end
-			if self.hasWorkingAbility(:SANDSTREAM) && @battle.weather!=PBWeather::SANDSTORM && @battle.weatherduration!=-1
+			if self.hasWorkingAbility(:SANDSTREAM) && @battle.weather!=PBWeather::SANDSTORM #&& @battle.weatherduration!=-1
 				@battle.weather=PBWeather::SANDSTORM
 				@battle.weatherduration=-1
 				@battle.pbCommonAnimation("Sandstorm",nil,nil)
 				@battle.pbDisplay(_INTL("{1}'s Sand Stream whipped up a sandstorm!",pbThis))
 				PBDebug.log("[#{pbThis}: Sand Stream made it sandstorm]")
 			end
-			if self.hasWorkingAbility(:DROUGHT) && @battle.weather!=PBWeather::SUNNYDAY && @battle.weatherduration!=-1
+			if self.hasWorkingAbility(:DROUGHT) && @battle.weather!=PBWeather::SUNNYDAY #&& @battle.weatherduration!=-1
 				@battle.weather=PBWeather::SUNNYDAY
 				@battle.weatherduration=-1
 				@battle.pbCommonAnimation("Sunny",nil,nil)
 				@battle.pbDisplay(_INTL("{1}'s Drought intensified the sun's rays!",pbThis))
 				PBDebug.log("[#{pbThis}: Drought made it sunny]")
 			end
-			if self.hasWorkingAbility(:SNOWWARNING) && @battle.weather!=PBWeather::HAIL && @battle.weatherduration!=-1
+			if self.hasWorkingAbility(:SNOWWARNING) && @battle.weather!=PBWeather::HAIL #&& @battle.weatherduration!=-1
 				@battle.weather=PBWeather::HAIL
 				@battle.weatherduration=-1
 				@battle.pbCommonAnimation("Hail",nil,nil)
