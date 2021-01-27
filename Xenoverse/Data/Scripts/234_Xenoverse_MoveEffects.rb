@@ -896,7 +896,6 @@ class PokeBattle_Move_180 < PokeBattle_Move
 	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
 		ex = super(attacker,opponent,hitnum,alltargets,showanimation) if @basedamage>0
 		return -1 if !opponent.pbCanReduceStatStage?(PBStats::ATTACK,true)
-		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
 		ret=opponent.pbReduceStat(PBStats::ATTACK,1,false)
 		return ret ? 0 : -1
 	end
