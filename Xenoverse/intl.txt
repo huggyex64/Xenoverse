@@ -396,7 +396,7 @@ I was having a snowball fight with my <b>Hikiloo</b><<n>>in the <b>Zero Cave</b>
 AJ
 AJ
 Adoro alla follia i Pokémon Terra, in particolare <b>Sandshrew</b>... è così adorabile!!
-I really love Ground-type Pokémon, especially <b>Sandshrew</b>... It's so cute!!
+I really love Ground-type Pokémon, especially <b>Sandshrew</b>... It's so cool!!
 La mia ragazza ha voluto regalarmene uno al nostro anniversario, ma che non era quello che cercavo... Era di tipo Ghiaccio!
 My girlfriend wanted to get me one on our anniversary,<<n>>but that wasn't what I was looking for...<<n>>It was an Ice-type!
 Per caso tu ne hai uno di tipo Terra da scambiare con questo qui?
@@ -2264,8 +2264,6 @@ Che bello vederti, \PN! Allora, vuoi che valuti il tuo Pokédex?
 Good to see you, \PN!<<n>>So, you want me to evaluate your Pokédex?
 Mh, vediamo un po’...
 Hmm, let's see...
-Hai visto #{pbSCELDIW} Pokémon della regione di Eldiw e ne hai catturati #{pbSCELDIW(false)}.
-You've seen #{pbSCELDIW} Pokémon and you've caught #{pbSCELDIW(false)} Pokémon.
 Sei riuscito|a imbatterti in tutti i Pokémon che popolano la nostra incredibile regione!
 Wow! You've come across all the Pokémon that inhabit<<n>>this incredible region!
 Davvero un’impresa coi fiocchi, \PN! Meriti proprio un regalo per questo.
@@ -2290,8 +2288,6 @@ Continua così, \PN! Stai andando alla grande!
 Keep it up, \PN! You're doing great!
 Se riuscirai a portare entrambe le sezioni a termine, ti farò una bella sorpresa!
 If you complete both Pokédex categories, I will give you<<n>>a good surprise!
-Hai visto #{pbSCXENO} Pokémon dello Xenoverse e ne hai catturati #{pbSCXENO(false)}.
-You've seen #{pbSCXENO} X Pokémon and you've caught #{pbSCXENO(false)} X Pokémon.
 Eccezionale!! Sei riuscito|a a catturare tutti i Pokémon di specie X che hanno invaso la regione!
 Excellent!! You've caught all the X-species Pokémon<<n>>that had invaded our region!
 Grazie al tuo duro lavoro, la nostra ricerca potrà fare luce su queste misteriose creature.
@@ -2304,8 +2300,6 @@ Andresti a tenerlo d’occhio per me, come quella volta?
 Would you kindly keep an eye on it, just like that time?
 Vuoi che valuti entrambe le sezioni del Pokédex?
 You want me to evaluate both of your Pokédex categories?
-Hai catturato #{pbSCELDIW(false)} Pokémon della regione di Eldiw e #{pbSCXENO(false)} dello Xenoverse.
-You've caught #{pbSCELDIW(false)} Pokémon and #{pbSCXENO(false)} X Pokémon.
 Non credo ai miei occhi! Ce l’hai fatta davvero, \PN!
 I cannot believe what I'm seeing! You really did it, \PN!
 Sei riuscito|a nell’impresa di catturare tutti i Pokémon della regione, esemplari di specie X compresi!!
@@ -2342,8 +2336,6 @@ Vuoi che valuti i progressi del tuo Retròdex?
 You want me to evaluate your Vintagedex?
 Molto bene, vediamo un po'...
 Well, let's see...
-Hai visto #{pbSCRETRO} Pokémon Retrò e ne hai catturati #{pbSCRETRO(false)}.
-You've seen #{pbSCRETRO} Vintage Pokémon, and you've caught #{pbSCRETRO(false)} Vintage Pokémon.
 No-Non è possibile... Pensavo che ci sarebbero voluti anni per completare questa ricerca...!
 I-It can't be...I thought it would take you decades to<<n>>complete this research...!
 Ma tu ce l’hai fatta, \PN!! Sei riuscito|a a catturare tutti i Pokémon Retrò... sei davvero incredibile!!
@@ -2351,7 +2343,7 @@ But you did it, \PN! You managed to catch all Vintage<<n>>Pokémon...you're real
 La tua grandiosa impresa inciderà il tuo nome nella lunga storia di questo laboratorio! A nome mio e di tutto lo staff, ti consegno questo diploma che certifica il tuo duro lavoro.
 This is your greatest accomplishment and it will etch<<n>>your name to the pillars of history!<<n>>So on behalf of myself and the whole staff, I award you<<n>>with this certificate that proves your hard work.
 <<[>>old<<]>>Complimenti, hai completato il gioco al 100%! È un traguardo incredibile, tutto lo staff ti ringrazia di cuore!
-<<[>>old<<]>>Congratulations for having 100% completed the game!\nIt is an incredible accomplishment...\nThe whole staff thanks you for your passion and your support!
+<<[>>old<<]>>Congratulations for having 100% completed the game! It is an incredible accomplishment...\nThe whole staff thanks you for your passion and your support!
 Io non ho nient’altro da insegnarti, \PN. Grazie di tutto il tempo che hai dedicato alla ricerca!
 I have nothing more to teach you, \PN.<<n>>Thank you for all the time you devoted to research!
 Alice
@@ -6440,13 +6432,13 @@ Well, you got what it takes to venture into the arid<<n>><b>Sunflare Canyon</b>!
 Con questo potere nelle tue mani, gli avversari che ti si pareranno dinanzi saranno sempre più temibili! Buon viaggio e sappi che, se ne avrai bisogno, sarò sempre pronta a dare una mano!
 Now you have that new power in your hands, the enemies<<n>>on your path will be more and more terrible.<<n>>I wish you safe travels...just know that I'll be ready to<<n>>lend a helping hand whenever you need!
 Ciao, \PN! Il nonno mi ha detto che sei riuscito|a a sconfiggerlo e a scalare la vetta del Monte Zodiaco. I miei complimenti!
-Ciao, \PN! Il nonno mi ha detto che sei riuscito|a a sconfiggerlo e a scalare la vetta del Monte Zodiaco. I miei complimenti!
+Oh, \PN! Gramps told me you climbed Mt. Zodiac's peak<<n>>and that you defeated him. My congratulations!
 Sono ancora tanti i misteri da svelare in questa regione, perciò continua a vivere la tua avventura con la grinta che ti contraddistingue, mi raccomando!
-Sono ancora tanti i misteri da svelare in questa regione, perciò continua a vivere la tua avventura con la grinta che ti contraddistingue, mi raccomando!
+There are still many mysteries to be revealed in this<<n>>region, thus remember to continue your adventure<<n>>with your trademark determination!
 Anche in questa Palestra si nasconde un segreto, sai? Per scovarlo, però, ti serve un Pokémon di tipo Acqua!
-Anche in questa Palestra si nasconde un segreto, sai? Per scovarlo, però, ti serve un Pokémon di tipo Acqua!
+Deep inside this Gym lies a secret too, did you know?<<n>>But you need a Water-type Pokémon to find it!
 Sono certa che con il tuo spirito d’osservazione riuscirai a trovarlo in un batter d’occhio! Buona ricerca.
-Sono certa che con il tuo spirito d’osservazione riuscirai a trovarlo in un batter d’occhio!  Buona ricerca.
+I'm sure that, with such a spirit of observation of yours,<<n>>you will be able to find it in a jiffy!<<n>>Have a good time with your research.
 <<[>>old<<]>>Questo Exeggutor sembra avere un'indole amichevole. Alzando la zampa, mostra un passaggio segreto.
 <<[>>old<<]>>This Exeggutor looks friendly. It lifted its leg showing a hidden entrance. 
 La regina non si offenderà se faccio il tifo per te. Coraggio, \PN!
@@ -11301,33 +11293,33 @@ Booolt...!
 <<[>>old<<]>>La corrente è tornata.
 <<[>>old<<]>>The power's on.
 <<[>>old<<]>>Torre di controllo del Vulcano Pulsar attiva. A quali dati vuoi accedere?
-<<[>>old<<]>>Torre di controllo del Vulcano Pulsar attiva. A quali dati vuoi accedere?
+<<[>>old<<]>>Mt. Starburst control center is working.\nWhat data do you want to access?
 <<[>>old<<]>>''Dopo il fallimento, la sperimentazione sul Gene X è stata riavviata, con lo scopo di stabilizzarlo e renderlo utilizzabile senza alcuna controindicazione.''
-<<[>>old<<]>>''Dopo il fallimento, la sperimentazione sul Gene X è stata riavviata, con lo scopo di stabilizzarlo e renderlo utilizzabile senza alcuna controindicazione.''
+<<[>>old<<]>>''After the failure, the experimentation on X Gene was restarted, with the intention of making it more stable and ready to use without adverse reactions.''
 <<[>>old<<]>>''Somministrando il Gene X al Pokémon Genetico, quest’ultimo sembra essere riuscito a completare le catene mancanti che ne causavano l’instabilità, incrementando i già incredibili poteri psichici del Pokémon. Il Gene X è finalmente stato ultimato.''
-<<[>>old<<]>>''Somministrando il Gene X al Pokémon Genetico, quest’ultimo sembra essere riuscito a completare le catene mancanti che ne causavano l’instabilità, incrementando i già incredibili poteri psichici del Pokémon. Il Gene X è finalmente stato ultimato.''
+<<[>>old<<]>>''Administering the X Gene to the Genetic Pokemon, it apparently completed the missing chains that once made the Gene unstable, increasing the already tremendous psychic powers of the Pokemon.\nThe X Gene was finally completed.''
 <<[>>old<<]>>''Un ferito di guerra è stato soccorso assieme al suo Pokémon. Le condizioni dell’uomo non risultano gravi, ma quelle del suo compagno sono tragiche. Il Gene X potrebbe rivelarsi l’unico modo per riportarlo alla vita.''
-<<[>>old<<]>>''Un ferito di guerra è stato soccorso assieme al suo Pokémon. Le condizioni dell’uomo non risultano gravi, ma quelle del suo compagno sono tragiche. Il Gene X potrebbe rivelarsi l’unico modo per riportarlo alla vita.''
+<<[>>old<<]>>''An injured soldier has been recovered along with its Pokémon.\nThe man's condition isn't critical, but the same can't be said for his partner Pokémon.\nThe X Gene could be the only way to bring it back to life.''
 <<[>>old<<]>>''La prima effettiva somministrazione del Gene X, al contrario di ogni ipotesi, si è rivelata un fallimento. Il Pokémon sottoposto ad esso è ritornato alla vita, ma i suoi organi interni non hanno risentito di alcuna rigenerazione. I bioscienziati provvederanno a installargliene di artificiali.''
-<<[>>old<<]>>''La prima effettiva somministrazione del Gene X, al contrario di ogni ipotesi, si è rivelata un fallimento. Il Pokémon sottoposto ad esso è ritornato alla vita, ma i suoi organi interni non hanno risentito di alcuna rigenerazione. I bioscienziati provvederanno a installargliene di artificiali.''
+<<[>>old<<]>>''The first actual administration of X Gene, contrary to all hypotheses, has been a failure.\nThe Pokémon under treatment came back to life, but its inner organs weren't subject to any kind of regeneration.\nOur bioscientists will replace them with artificial versions.''
 <<[>>old<<]>>Ho proprio perso la testa! <i>Bzz!</i>
-<<[>>old<<]>>Ho proprio perso la testa! <i>Bzz!</i>
+<<[>>old<<]>>I lose my mind! <i>Bzz!</i>
 L4L4L4ND
 L4L4L4ND
 Ancora non me le hanno installate, ma me la dai una mano per uscire? <i>Bzz!</i>
-Ancora non me le hanno installate, ma me la dai una mano per uscire? <i>Bzz!</i>
+Can you gimme a hand to get out? They forgot to install them... <i>Bzz!</i>
 Sì
 Yes
 No
 No
 Gene X-3
-Gene X-3
+X Gene-3
 Gene X-4
-Gene X-4
+X Gene-4
 Gene X-1
-Gene X-1
+X Gene-1
 Gene X-2
-Gene X-2
+X Gene-2
 [Map257]
 Victor
 Victor
@@ -12914,35 +12906,41 @@ Could it be fortune...? Or even divine will...?
 Tarassaco
 Taraxo
 \PN? Come ci sei finito|a tra questi monti innevati?
-\PN? Come ci sei finito|a tra questi monti innevati?
+\PN? How'd you end up in these snowy mountains?
 Capisco, così ti stai recando a Tauronordia.
-Capisco, così ti stai recando a Tauronordia.
+Oh, I see. So you're going to Borealis Town.
+La traversata è tutt’altro che facile, ma so per certo che per uno|a come te sarà poco più di una passeggiata!
+The crossing is far from easy, but I know for sure that<<n>>it's gonna be a cakewalk for someone like you!
 Beh, per quanto mi riguarda, sto raccogliendo dei dati sui Pokémon che popolano questa terra innevata. In confronto quelli della Grotta Zerokelvin sono dei veri agnellini, non è così? Ah ah ah!
-Beh, per quanto mi riguarda, sto raccogliendo dei dati sui Pokémon che popolano questa terra innevata. In confronto quelli della Grotta Zerokelvin sono dei veri agnellini, non è così? Ah ah ah!
+Well, speaking of me, I'm collecting data on Pokémon<<n>>that live in this snowy land.<<n>>Compared to them, those in the Zero Cave are but innocent lambs, don't you think? Ha ha ha!
 Se sei arrivato|a fino a qui vuol dire che sei riuscito|a a destreggiarti molto bene tra queste belve.
-Se sei arrivato|a fino a qui vuol dire che sei riuscito|a a destreggiarti molto bene tra queste belve.
+If you've come this far, it means that you were able to<<n>>find your way among all these wild beasts.
 Niente da fare, il mio spirito da Ricercatore riesce sempre a farmela...
-Niente da fare, il mio spirito da Ricercatore riesce sempre a farmela...
+What can I say, my Researcher's spirit always succeeds...
 Sono davvero curioso di vedere coi miei occhi di cosa sia capace un Allenatore del tuo calibro! Battiti con me, forza!
-Sono davvero curioso di vedere coi miei occhi di cosa sia capace un Allenatore del tuo calibro! Battiti con me, forza!
+I want to see with my own eyes what a Trainer of your<<n>>stature is capable of! C'mon, battle with me!
 Ero certo che non ti saresti tirato|a indietro. E ora fammi vedere di cosa sei capace!
-Ero certo che non ti saresti tirato|a indietro. E ora fammi vedere di cosa sei capace!
+I knew you weren't going to back down.<<n>>And now, show me what you got!
 Il futuro si prospetta davvero roseo!
-Il futuro si prospetta davvero roseo!
+The future's looking bright!
 Capisco, i tuoi Pokémon devono essere ben stanchi, eh?
-Capisco, i tuoi Pokémon devono essere ben stanchi, eh?
+Gotcha, your Pokémon must be exhausted, huh?
+Qui da qualche parte dovrebbe esserci un rifugio dove potrete riposare.
+Somewhere here there should be a shelter where you can rest.
 Era da tanto che non mi divertivo così a lottare, sai?
-Era da tanto che non mi divertivo così a lottare, sai?
+It's been a while since I had such fun fighting, you know?
+Dopo averti visto|a all’opera, posso dire di nutrire ancor più speranza nelle future generazioni di Allenatori, \PN!
+Now that I've seen you at work, I've got even more faith<<n>>in future generations of Trainers, \PN!
 Di recente ho sviluppato questo nuovo <b>Update</b>, che apre nuove frontiere tecnologiche a <b>Porygon2</b>. Tieni, voglio regalartelo!
-Di recente ho sviluppato questo nuovo <b>Update</b>, che apre nuove frontiere tecnologiche a <b>Porygon2</b>. Tieni, voglio regalartelo!
+I've recently developed this new <b>Update</b>, which opens up new technological opportunities to <b>Porygon2</b>.<<n>>Here, take it!
 Bene, qui la mia ricerca è finita. Direi che è il momento di tornare a Vetta Polare per trarre le mie conclusioni.
-Bene, qui la mia ricerca è finita. Direi che è il momento di tornare a Vetta Polare per trarre le mie conclusioni.
+Well, my search here is over. Time to go back to<<n>>Polaris Town to draw my own conclusions.
 Ah, \PN... Ci sarebbe una piccola faccenda da sbrigare che secondo me farebbe proprio al caso tuo. Se ti interessa saperne di più, sai dove trovarmi!
-Ah, \PN... Ci sarebbe una piccola faccenda da sbrigare che secondo me farebbe proprio al caso tuo. Se ti interessa saperne di più, sai dove trovarmi!
+Oh, \PN...there's a little business to take care of,<<n>>and I think you'd be perfect for it.<<n>>If you'd like to learn more, you know where to find me!
 Bye-bye!
-Bye-bye!
+Bye!
 Alakazam, andiamo.
-Alakazam, andiamo.
+Alakazam, Teleport.
 Alakazam
 Alakazam
 Kazam!
@@ -15421,37 +15419,37 @@ No
 Huang
 Huang
 Chiedo venia, ma le stanze della Pagoda sono inaccessibili senza il permesso del Cardinale.
-Chiedo venia, ma le stanze della Pagoda sono inaccessibili senza il permesso del Cardinale.
+I apologize, but the Pagoda rooms are inaccessible without the Cardinal's permission.
 Aurora
 Aurora
 Scusami, ma sono un po’ giù di morale... Mi manca tanto il mio ragazzo che vive a Vetta Polare...
-Scusami, ma sono un po’ giù di morale... Mi manca tanto il mio ragazzo che vive a Vetta Polare...
+Oh, sorry. I'm a bit down in the dumps...I miss my boyfriend who lives in Polaris Town so much...
 AJ
 AJ
 Scusami, ma sono un po’ giù di morale... Mi manca tanto la mia ragazza che vive a Vetta Polare...
-Scusami, ma sono un po’ giù di morale... Mi manca tanto la mia ragazza che vive a Vetta Polare...
+Oh, sorry. I'm a bit down in the dumps...I miss my girlfriend who lives in Polaris Town so much...
 Come dici? Lo hai incontrato e ha scambiato con te il Sandshrew che gli ho regalato con tanto amore? Ma come si permette!!
-Come dici? Lo hai incontrato e ha scambiato con te il Sandshrew che gli ho regalato con tanto amore? Ma come si permette!!
+What? You met him and he traded you the Sandshrew that I got him with so much love?<<n>>How dare he!!
 Vorrà dire che anch’io scambierò con te il <b>Vulpix di Alola</b> che mi ha regalato lui! Hmph! Portami un grazioso Vulpix e sarà tutto tuo. Ci stai?
-Vorrà dire che anch’io scambierò con te il <b>Vulpix di Alola</b> che mi ha regalato lui! Hmph! Portami un grazioso Vulpix e sarà tutto tuo. Ci stai?
+Then I'll trade you the <b>Alolan Vulpix</b> he got me, too! Hmph!<<n>>Bring me a cute Vulpix and it'll be all yours. Deal?
 Portami un grazioso Vulpix e questo Vulpix di Alola sarà tutto tuo!
-Portami un grazioso Vulpix e questo Vulpix di Alola sarà tutto tuo!
+Bring me a cute Vulpix and this Alolan Vulpix<<n>>will be all yours!
 Diamo inizio alla vende... ahem, allo scambio!!
-Diamo inizio alla vende... ahem, allo scambio!!
+Let's start the reven...ahem, the trade!!
 Come dici? L'hai incontrata e ha scambiato con te il Vulpix che le ho regalato con tanto amore? Ma come si permette!!
-Come dici? L'hai incontrata e ha scambiato con te il Vulpix che le ho regalato con tanto amore? Ma come si permette!!
+What? You met her and she traded you the Vulpix that I got her with so much love?<<n>>How dare she!!
 Vorrà dire che anch’io scambierò con te il <b>Sandshrew di Alola</b> che mi ha regalato lei! Hmph! Portami un bel Sandshrew e sarà tutto tuo. Ci stai?
-Vorrà dire che anch’io scambierò con te il <b>Sandshrew di Alola</b> che mi ha regalato lei! Hmph! Portami un bel Sandshrew e sarà tutto tuo. Ci stai?
+Then I'll trade you the <b>Alolan Sandshrew</b> she got me, too! Hmph!<<n>>Bring me a cool Sandshrew and it'll be all yours. Deal?
 Portami un bel Sandshrew e questo Sandshrew di Alola sarà tutto tuo!
-Portami un bel Sandshrew e questo Sandshrew di Alola sarà tutto tuo!
+Bring me a cool Sandshrew and this Alolan Sandshrew<<n>>will be all yours!
 Ora sì che mi sento meglio! La prossima volta quel ragazzaccio si pentirà di aver dato via il mio regalo!
-Ora sì che mi sento meglio! La prossima volta quel ragazzaccio si pentirà di aver dato via il mio regalo!
+Now I feel better! Next time that bad boy will regret giving my present away!
 Ora sì che mi sento meglio! La prossima volta quella ragazzaccia si pentirà di aver dato via il mio regalo!
-Ora sì che mi sento meglio! La prossima volta quella ragazzaccia si pentirà di aver dato via il mio regalo!
+Now I feel better! Next time that bad girl will regret giving my present away!
 Ning
 Ning
 È sempre un’emozione unica vedere qualche faccia nuova al villaggio! Non sono in tanti a venire fin qui...
-È sempre un’emozione unica vedere qualche faccia nuova al villaggio! Non sono in tanti a venire fin qui...
+Seeing some new faces in the village is a thrill unlike<<n>>any other! Not many people come here...
 <<[>>old<<]>>Pagoda del Cardinale
 <<[>>old<<]>>Cardinal's Pagoda
 Shui
@@ -15465,7 +15463,7 @@ There are those who just can't stand the cold<<n>>and those, like me, who couldn
 Feng
 Feng
 Ho chiesto al Cardinale il permesso di provare il suo spadone... quel coso peserà almeno 40 chili!! Come farà a sollevarlo con una tale facilità lei che è così minuta?
-Ho chiesto al Cardinale il permesso di provare il suo spadone... quel coso peserà almeno 40 chili!!  Come farà a sollevarlo con una tale facilità lei che è così minuta?
+I asked the Cardinal for permission to try her long sword...that thing weighs at least 90 pounds!!<<n>>How can she lift it with such ease being so tiny?
 Guo
 Guo
 Quest'anno ho fatto il bravo. Mi merito proprio un bel premio dal vecchio dei Reindear!
@@ -17585,12 +17583,12 @@ No
 <<[>>old<<]>>L'aura argentea di Lugia sblocca il passaggio.
 <<[>>old<<]>>Lugia's silver aura took the wall down.
 <<[>>old<<]>>Una spessa parete intralcia il passaggio. Forse l'aura di un Pokémon argenteo potrebbe sbloccarlo...
-<<[>>old<<]>>A thick wall is blocking the way. Maybe the aura from a silver Pokémon could take it down
+<<[>>old<<]>>A thick wall is blocking the way. Maybe the aura from a silver Pokémon could take it down.
 [Map407]
 ???
 ???
 ... ... ... ... ... ... ... ... ...
-... ... ... ... ... ... ... ... ...
+... ... ... ... ...<<n>>... ... ... ...
 Non avrai mica creduto sul serio che fossi rimasto congelato?! Ah ah ah! Avresti dovuto vedere la tua faccia... che spasso!
 You didn't really think I was frozen, did you?!<<n>>Ha ha ha!<<n>>You should have seen your face...how funny!
 Sarò anche stato un suo allievo, ma il mio umorismo non lo devo certo a quel taciturno di <b>Rosso</b>...
@@ -17618,7 +17616,7 @@ So, what d'ya say? You up for a good fight?
 Qui ad Eldiw siete tutti così forti? Qualcosa mi dice che mi tratterrò ancora per un po'. Ah ah ah!
 Is everyone this strong here in Eldiw? Something tells me<<n>>I'll be staying a while longer. Ha ha ha!
 Non farti problemi a tornare se vorrai lottare ancora... Sarò sempre pronto ad accettare la tua sfida!
-Don't hesitate to come back if you wanna fight again...I'll always be ready to accept your challenge!
+Don't hesitate to come back if you wanna fight again...<<n>>I'll always be ready to accept your challenge!
 Stavolta non la spunterai tanto facilmente!
 It's not gonna be that easy this time!
 Sì
@@ -17849,7 +17847,7 @@ I once fought a Beartic with my own hands, you know?<<n>>...<<n>>Nah, just kiddi
 Lee
 Lee
 Una leggenda narra che <b>Qing Lóng</b>, il drago azzurro, riposi nei meandri più reconditi del Nido Boreale.
-Una leggenda narra che <b>Qing Lóng</b>, il drago azzurro, riposi nei meandri più reconditi del Nido Boreale.
+A legend tells that <b>Qing Lóng</b>, the azure dragon,<<n>>rests in the depths of the Aurora Den.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
 Sì
@@ -17882,7 +17880,7 @@ Winning or losing has no meaning--earning the respect, that's what really matter
 Lee
 Lee
 Sto ancora imparando perché l’apprendimento non ha limite, ma vedrò di essere un degno avversario!
-I'm still learning, for learning is boundless, but I'll try to be<<n>>a worthy opponent for you!
+I'm still learning, for learning is boundless, but I'll try<<n>>to be a worthy opponent for you!
 La sconfitta non è nient’altro che educazione.
 Defeat is nothing but education.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
@@ -17927,7 +17925,7 @@ Which move should \v[3] remember?
 Song
 Song
 A Tauronordia fa un freddo che si gela. Sarà per questo che noi abitanti siamo tutti così calorosi e accoglienti?
-A Tauronordia fa un freddo che si gela. Sarà per questo che noi abitanti siamo tutti così calorosi e accoglienti?
+It's freezing cold in Borealis Town. Maybe that's why<<n>>we're all so warm and welcoming here.
 Natale
 Claus
 Ciao, sono qui per farti un regalo a nome di tutto lo staff. Prendi e buon Natale! Oh oh oh!
@@ -17937,7 +17935,7 @@ Merry Christmas from the whole staff!
 Yi
 Yi
 Chissà quanti tesori dell’antichità sono stati conservati in perfette condizioni dal ghiaccio di questa terra!
-Chissà quanti tesori dell’antichità sono stati conservati in perfette condizioni dal ghiaccio di questa terra!
+I can't even imagine how many ancient treasures have been preserved in mint condition by the ice of this land!
 Kolly
 Kolly
 Questo è il Pokémon-Market di Tauronordia!
@@ -17945,9 +17943,9 @@ This is the Poké Mart in Borealis Town!
 Linlin
 Linlin
 Qualche sprovveduto che si è smarrito tra questi monti deve aver perso questa. Prendila tu.
-Qualche sprovveduto che si è smarrito tra questi monti deve aver perso questa. Prendila tu.
+Some unwary who got lost in these mountains must have<<n>>dropped this. You can keep it.
 Forza, Hikiloo! Raggiungiamo gli altri Ranger e troviamo quell’uomo!
-Forza, Hikiloo! Raggiungiamo gli altri Ranger e troviamo quell’uomo!
+Come on, Hikiloo! Let's join the other Rangers and find<<n>>that man!
 Hikiloo
 Hikiloo
 Kiloo...!
@@ -17962,26 +17960,26 @@ Yes
 Qiao
 Qiao
 Quell'uomo col lungo cappotto rosso che ha preso la via del Nido Boreale non ha ancora fatto ritorno... Che sia rimasto intrappolato tra i ghiacci?
-Quell'uomo col lungo cappotto rosso che ha preso la via del Nido Boreale non ha ancora fatto ritorno... Che sia rimasto intrappolato tra i ghiacci?
+That man with a long red coat that took the way<<n>>to the Aurora Den hasn't returned yet...<<n>>I'm afraid he got trapped in the ice!
 <<[>>old<<]>>È vuota.
 <<[>>old<<]>>It's empty.
 Cheng
 Cheng
 Vorrei tanto uno <b>Squirtle</b>, ma i Pokémon selvatici del <b>Nido Boreale</b> sono troppo forti per me...
-Vorrei tanto uno <b>Squirtle</b>, ma i Pokémon selvatici del <b>Nido Boreale</b> sono troppo forti per me...
+I want a <b>Squirtle</b> so bad, but the wild Pokémon of<<n>>the <b>Aurora Den</b> are way too strong for me...
 Xue
 Xue
 Hai intenzione di visitare il Nido Boreale? Bene, allora questo ti farà senz’altro comodo.
-Hai intenzione di visitare il Nido Boreale? Bene, allora questo ti farà senz’altro comodo.
+Are you planning to visit the Aurora Den? Well, then I'm sure this will come in handy.
 Ricorda che il Repellente tiene alla larga solo i Pokémon più deboli di quello che hai in testa alla squadra.
-Ricorda che il Repellente tiene alla larga solo i Pokémon più deboli di quello che hai in testa alla squadra.
+Remember that Repels only keep out wild Pokémon that<<n>>are weaker than the first member of your party.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
 [Map418]
 Nuo
 Nuo
 Il precedente Cardinale ci ha lasciati quando sua figlia Castalia era poco più che una neonata. Quella bambina è dovuta entrare presto nel mondo dei grandi, ereditando la carica di suo padre.
-The previous Cardinal has left us when his daughter Niva<<n>>was little more than a baby.<<n>>That little girl had to enter soon the adult world, inheriting<<n>>the charge from her father.
+The previous Cardinal has left us when his daughter<<n>><b>Niva</b> was little more than a baby.<<n>>That little girl had to enter soon the adult world,<<n>>inheriting the charge from her father.
 Xiu
 Xiu
 Il Cardinale spesso si diletta a fendere il ghiaccio con la sua alabarda per scolpire figure magnifiche.
@@ -17996,13 +17994,13 @@ Jie
 Mei
 Mei
 Quella del vecchio dei Reindear è una storiella come un’altra per educare i nostri bambini: se fanno i buoni, vengono premiati; se si comportano male, Reindigo li rapisce e li porta con sé sui monti.
-Quella del vecchio dei Reindear è una storiella come un’altra per educare i nostri bambini: se fanno i buoni, vengono premiati; se si comportano male, Reindigo li rapisce e li porta con sé sui monti.
+The story of the Old Man of Reindear is as good a means<<n>>as any to educate our children--<<n>>If they're nice, they will be rewarded; if they misbehave,<<n>>Reindigo will carry them on the mountains.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
 Ping
 Ping
 Una volta l'anno, un vecchio barbuto scende dai monti coi suoi Reindear per premiare i bimbi buoni.
-Once a year, a old longbeard comes down the mountains with his Reindear to present all the good children.
+Once a year, an old longbeard comes down the mountains<<n>>with his Reindear to present all the good children.
 <<[>>old<<]>>È vuota.
 <<[>>old<<]>>It's empty.
 [Map420]
@@ -18421,35 +18419,35 @@ Sabolt
 Booolt...!
 Booolt...!
 <<[>>old<<]>>Torre di controllo della Radura Paludosa attiva. A quali dati vuoi accedere?
-<<[>>old<<]>>Torre di controllo della Radura Paludosa attiva. A quali dati vuoi accedere?
+<<[>>old<<]>>Murky Swamp control center is working.\nWhat data do you want to access?
 <<[>>old<<]>>''Il DNA della creatura è stato estratto per essere sottoposto a processi di sintesi biologica avanzata. L’intenzione è sfruttarlo per conferire ai Pokémon sotto il nostro controllo la potenza distruttiva dello Xenoverse.''
-<<[>>old<<]>>''Il DNA della creatura è stato estratto per essere sottoposto a processi di sintesi biologica avanzata. L’intenzione è sfruttarlo per conferire ai Pokémon sotto il nostro controllo la potenza distruttiva dello Xenoverse.''
+<<[>>old<<]>>''The creature's DNA has been extracted to be subjected to advanced biological synthesis processes.\nThe intention is to exploit it and give the Pokémon under control the destructive power of the Xenoverse.''
 <<[>>old<<]>>''Il materiale genetico processato sembra essersi stabilizzato in buona percentuale. L'esperimento può considerarsi un successo: gli è stato conferito il nome in codice di <b>Gene X</b>. Ulteriori informazioni sul progetto saranno pertanto inserite sotto questa nuova voce.''
-<<[>>old<<]>>''Il materiale genetico processato sembra essersi stabilizzato in buona percentuale. L'esperimento può considerarsi un successo: gli è stato conferito il nome in codice di <b>Gene X</b>. Ulteriori informazioni sul progetto saranno pertanto inserite sotto questa nuova voce.''
+<<[>>old<<]>>''The processed genetic material has apparently reached good levels of stability.\nThe experiment can be considered a success--it was given the code name of <b>X Gene</b>.\nFurther information about the project shall therefore be added under this section.''
 <<[>>old<<]>>La corrente è tornata.
 <<[>>old<<]>>The power's on.
 <<[>>old<<]>>''Il Team Dimension ha messo le mani su una creatura che ha aperto frontiere assolutamente inaspettate. Tale creatura, proveniente dallo Xenoverse, sembrerebbe dotata di un codice genetico altamente reattivo.''
-<<[>>old<<]>>''Il Team Dimension ha messo le mani su una creatura che ha aperto frontiere assolutamente inaspettate. Tale creatura, proveniente dallo Xenoverse, sembrerebbe dotata di un codice genetico altamente reattivo.''
+<<[>>old<<]>>''Team Dimension got their hands on a creature that brought us to unexpected frontiers.\nThat creature, coming from the Xenoverse, appears to bear a highly reactive genetic makeup.''
 <<[>>old<<]>>''Le sperimentazioni sulla creatura dello Xenoverse restituiscono risultati impressionanti. Il materiale genetico sembra adattarsi a quello di qualsiasi creatura vivente, con combinazioni sempre differenti.''
-<<[>>old<<]>>''Le sperimentazioni sulla creatura dello Xenoverse restituiscono risultati impressionanti. Il materiale genetico sembra adattarsi a quello di qualsiasi creatura vivente, con combinazioni sempre differenti.''
+<<[>>old<<]>>''The experiments on the creature from the Xenoverse returned impressive results.\nApparently, its genetic material can adapt to that of any other living being, with ever new combinations.''
 <<[>>old<<]>>Mi sento la testa per aria... <i>Bzz!</i>
-<<[>>old<<]>>Mi sento la testa per aria... <i>Bzz!</i>
+<<[>>old<<]>>My head's just not in the game today... <i>Bzz!</i>
 M4R10
-M4R10
+W4RD
 M4R10 a rapporto! Qua la mano, uma... Ah, no! <i>Bzz!</i>
-M4R10 a rapporto! Qua la mano, uma... Ah, no! <i>Bzz!</i>
+W4RD reporting for futy! Let's shake, hum- oh, I can't!<<n>><i>Bzz!</i>
 Sì
 Yes
 No
 No
 Progetto DNA-3
-Progetto DNA-3
+DNA Project-3
 Progetto DNA-4
-Progetto DNA-4
+DNA Project-4
 Progetto DNA-1
-Progetto DNA-1
+DNA Project-1
 Progetto DNA-2
-Progetto DNA-2
+DNA Project-2
 [Map463]
 Ferdinando
 Fernand
@@ -57193,5 +57191,16 @@ Go check your Pokémon boxes!
 Go check your Pokémon Boxes!
 You got {1} from the Mystery Gift!
 You got {1} from the Mystery Gift!
+Hai visto {1} Pokémon della regione di Eldiw e ne hai catturati {2}.
+You've seen {1} Pokémon and you've caught {2} Pokémon.
+Hai visto {1} Pokémon dello Xenoverse e ne hai catturati {2}.
+You've seen {1} X Pokémon and you've caught {2} X Pokémon.
+Hai catturato {1} Pokémon della regione di Eldiw e {2} dello Xenoverse.
+You've caught {1} Pokémon and {2} X Pokémon.
+Hai visto {1} Pokémon Retrò e ne hai catturati {2}.
+You've seen {1} Vintage Pokémon, and you've caught {2} Vintage Pokémon.
+
+
+
 
 
