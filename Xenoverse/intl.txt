@@ -2197,7 +2197,7 @@ Olivia
 Qui non faccio altro che compilare scartoffie su scartoffie!
 Here I do nothing but fill in paperwork over paperwork!
 <<[>>old<<]>>Ci sono tantissimi libri complicati qui.
-<<[>>old<<]>>Ci sono tantissimi libri complicati qui.
+<<[>>old<<]>>It is full of books about Pokémon here.
 Altea
 Althea
 Sono piena di pratiche da svolgere.
@@ -2251,149 +2251,109 @@ And this is all I wanted you to know. All I can do now is<<n>>wish you the very 
 Che bello vederti, \PN! Come procede l'avventura?
 Glad to see you, \PN!<<n>>How's your journey going?
 Allora, \PN... Come procede con la caccia a Dielebi?
-Allora, \PN... Come procede con la caccia a Dielebi?
+Oh, \PN...how's the Dielebi hunt going?
 Sei riuscito|a a catturarlo?! Sei davvero un portento! Ottimo lavoro!
-Sei riuscito|a a catturarlo?! Sei davvero un portento! Ottimo lavoro!
+Wha- you caught it?! You're so amazing! Excellent work!
 Hai già provato a fare visita ad uno dei tempietti di cui parlava Bellocchio? Chissà cosa succederebbe portandoci Dielebi...
-Hai già provato a fare visita ad uno dei tempietti di cui parlava Bellocchio? Chissà cosa succederebbe portandoci Dielebi...
+Have you tried to visit one of those little shrines Looker mentioned, yet?<<n>>I wonder what would happen if you bring Dielebi there...
 Oh! A proposito!
-Oh! A proposito!
+Oh! right!
 Ora sono un Professore a tutti gli effetti, perciò vieni pure da me per una valutazione sul tuo Pokédex, eh!
-Ora sono un Professore a tutti gli effetti, perciò vieni pure da me per una valutazione sul tuo Pokédex, eh!
+Now I'm a full-fledged Professor, so don't hesitate to come here if you want my evaluation on your Pokédex!
 Che bello vederti, \PN! Allora, vuoi che valuti il tuo Pokédex?
-Che bello vederti, \PN! Allora, vuoi che valuti il tuo Pokédex?
+Good to see you, \PN!<<n>>So, you want me to evaluate your Pokédex?
 Mh, vediamo un po’...
-Mh, vediamo un po’...
+Hmm, let's see...
 Hai visto #{pbSCELDIW} Pokémon della regione di Eldiw e ne hai catturati #{pbSCELDIW(false)}.
-Hai visto #{pbSCELDIW} Pokémon della regione di Eldiw e ne hai catturati #{pbSCELDIW(false)}.
+You've seen #{pbSCELDIW} Pokémon and you've caught #{pbSCELDIW(false)} Pokémon.
 Sei riuscito|a imbatterti in tutti i Pokémon che popolano la nostra incredibile regione!
-Sei riuscito|a imbatterti in tutti i Pokémon che popolano la nostra incredibile regione!
+Wow! You've come across all the Pokémon that inhabit<<n>>this incredible region!
 Davvero un’impresa coi fiocchi, \PN! Meriti proprio un regalo per questo.
-Davvero un’impresa coi fiocchi, \PN! Meriti proprio un regalo per questo.
+You've done a great job, \PN! You really deserve<<n>>a reward.
 Grazie a quell’<b>Ovamuleto</b> ti sarà possibile schiudere con più rapidità le Uova Pokémon! Alcuni mostriciattoli si possono ottenere solo schiudendoli dalle Uova, lo sai?
-Grazie a quell’<b>Ovamuleto</b> ti sarà possibile schiudere con più rapidità le Uova Pokémon! Alcuni mostriciattoli si possono ottenere solo schiudendoli dalle Uova, lo sai?
+Thanks to the <b>Oval Charm</b> your chance of finding Eggs at the Day Care will increase!<<n>>Certain pocket monsters can only be obtained by hatching<<n>>Pokémon Eggs, did you know?
 Sono certo che questo amuleto ti tornerà utile per il tuo prossimo obiettivo... acchiapparli tutti!
-Sono certo che questo amuleto ti tornerà utile per il tuo prossimo obiettivo... acchiapparli tutti!
+I'm sure this charm will come in handy for your next<<n>>goal…catching 'em all!
 Buona fortuna!
-Buona fortuna!
+Good luck!
 Davvero impressionante! Sei riuscito|a a catturare tutti i Pokémon che popolano la nostra regione!
-Davvero impressionante! Sei riuscito|a a catturare tutti i Pokémon che popolano la nostra regione!
+Really impressive! You've caught all the Pokémon that inhabit our region!
 Sei stato|a eccezionale, \PN! Meriti proprio un bel regalo per il tuo lavoro!
-Sei stato|a eccezionale, \PN! Meriti proprio un bel regalo per il tuo lavoro!
+You've done an amazing job, \PN! You really deserve<<n>>a good present!
 Grazie a quel <b>Cromamuleto</b> ti sarà possibile imbatterti con più facilità nei rari Pokémon cromatici!
-Grazie a quel <b>Cromamuleto</b> ti sarà possibile imbatterti con più facilità nei rari Pokémon cromatici!
+Thanks to the <b>Shiny Charm</b> your chance of finding<<n>>shiny Pokémon will increase!
 Ma i tuoi prossimi obiettivi sono ben più rari... dovrai scovare tutti i Pokémon dello Xenoverse!
-Ma i tuoi prossimi obiettivi sono ben più rari... dovrai scovare tutti i Pokémon dello Xenoverse!
+But your next targets are going to be even rarer...you will have to spot all the Pokémon from the Xenoverse!
 La ricerca non sarà per niente semplice, perciò armati di pazienza e buona fortuna!
-La ricerca non sarà per niente semplice, perciò armati di pazienza e buona fortuna!
+The search will be really not smooth, so you will have to pack your patience. Good luck!
 Continua così, \PN! Stai andando alla grande!
-Continua così, \PN! Stai andando alla grande!
+Keep it up, \PN! You're doing great!
+Se riuscirai a portare entrambe le sezioni a termine, ti farò una bella sorpresa!
+If you complete both Pokédex categories, I will give you<<n>>a good surprise!
 Hai visto #{pbSCXENO} Pokémon dello Xenoverse e ne hai catturati #{pbSCXENO(false)}.
-Hai visto #{pbSCXENO} Pokémon dello Xenoverse e ne hai catturati #{pbSCXENO(false)}.
+You've seen #{pbSCXENO} X Pokémon and you've caught #{pbSCXENO(false)} X Pokémon.
 Eccezionale!! Sei riuscito|a a catturare tutti i Pokémon di specie X che hanno invaso la regione!
-Eccezionale!! Sei riuscito|a a catturare tutti i Pokémon di specie X che hanno invaso la regione!
+Excellent!! You've caught all the X-species Pokémon<<n>>that had invaded our region!
 Grazie al tuo duro lavoro, la nostra ricerca potrà fare luce su queste misteriose creature.
-Grazie al tuo duro lavoro, la nostra ricerca potrà fare luce su queste misteriose creature.
+Thanks to your hard work, our research on those<<n>>mysterious creatures will make great strides.
 A tal proposito, avrei un piccolo favore da chiederti!
-A tal proposito, avrei un piccolo favore da chiederti!
+Speaking of this, I have a small favor to ask you!
 Un altro Elekid di specie X è apparso in città per combinare le solite marachelle! Per fortuna, sono riuscito a respingerlo, ma è scappato sulla <b>Spiaggia Polvostella</b>...
-Un altro Elekid di specie X è apparso in città per combinare le solite marachelle! Per fortuna, sono riuscito a respingerlo, ma è scappato sulla <b>Spiaggia Polvostella</b>...
+Another X-species Elekid has appeared and started making<<n>>its usual trouble around the city!<<n>>Fortunately, I was able to fight it off, but it escaped<<n>>and went to the <b>Stardust Beach</b>...
 Andresti a tenerlo d’occhio per me, come quella volta?
-Andresti a tenerlo d’occhio per me, come quella volta?
+Would you kindly keep an eye on it, just like that time?
 Vuoi che valuti entrambe le sezioni del Pokédex?
-Vuoi che valuti entrambe le sezioni del Pokédex?
+You want me to evaluate both of your Pokédex categories?
 Hai catturato #{pbSCELDIW(false)} Pokémon della regione di Eldiw e #{pbSCXENO(false)} dello Xenoverse.
-Hai catturato #{pbSCELDIW(false)} Pokémon della regione di Eldiw e #{pbSCXENO(false)} dello Xenoverse.
+You've caught #{pbSCELDIW(false)} Pokémon and #{pbSCXENO(false)} X Pokémon.
 Non credo ai miei occhi! Ce l’hai fatta davvero, \PN!
-Non credo ai miei occhi! Ce l’hai fatta davvero, \PN!
+I cannot believe what I'm seeing! You really did it, \PN!
+Sei riuscito|a nell’impresa di catturare tutti i Pokémon della regione, esemplari di specie X compresi!!
+You've succeeded in catching all the Pokémon inhabiting<<n>>the Eldiw region, X-specimens included!!
 Questo è senza dubbio il più grande traguardo che il nostro laboratorio potesse conseguire! Per ringraziarti, lascia che ti premi per il tuo splendido lavoro!
-Questo è senza dubbio il più grande traguardo che il nostro laboratorio potesse conseguire! Per ringraziarti, lascia che ti premi per il tuo splendido lavoro!
+This is without doubt the most prestigious goal our lab<<n>>could ever achieve!<<n>>Let me thank you properly for your outstanding job!
 Gentilmente, mi daresti il tuo PokéWES per un istante?
-Gentilmente, mi daresti il tuo PokéWES per un istante?
+Could you please give me your PokéWES for a second?
 <<[>>old<<]>>Porgi il tuo PokéWES ad Aster.
-<<[>>old<<]>>Porgi il tuo PokéWES ad Aster.
+<<[>>old<<]>>You gave Aster your PokéWES.
 Ecco fatto! Rieccoti il tuo PokéWES.
-Ecco fatto! Rieccoti il tuo PokéWES.
+Here you go! Here's your PokéWES back.
 Caro|a \PN, ora hai accesso ad una nuova app... l’ho battezzata <b>Retròdex</b>!
-Caro|a \PN, ora hai accesso ad una nuova app... l’ho battezzata <b>Retròdex</b>!
+My dear \PN, you now have access to a new app...<<n>>I named it <b>Vintagedex</b>!
 <<[>>old<<]>>Hai una nuova app sul tuo PokéWES!
-<<[>>old<<]>>Hai una nuova app sul tuo PokéWES!
+<<[>>old<<]>>You have a new app available on your PokéWES!
 Presi com’eravamo dalla ricerca sulle faglie dello Xenoverse, non ci eravamo accorti di una cosa... Anche dalle numerose dimensioni alternative accessibili dai tempietti di Dielebi sono sfuggiti dei Pokémon...!
-Presi com’eravamo dalla ricerca sulle faglie dello Xenoverse, non ci eravamo accorti di una cosa... Anche dalle numerose dimensioni alternative accessibili dai tempietti di Dielebi sono sfuggiti dei Pokémon...!
+We've been pretty much focusing on our research on the Xenoverse that we haven't noticed there was more...<<n>>Some Pokémon were escaping out of the alternate<<n>>dimensions accessible via Dielebi's shrines, too...!
 Ora che la ricerca sui Pokémon X è finalmente conclusa potremo finalmente dedicarci a queste creature... Il loro nome è <b>Pokémon Retrò</b>!
-Ora che la ricerca sui Pokémon X è finalmente conclusa potremo finalmente dedicarci a queste creature... Il loro nome è <b>Pokémon Retrò</b>!
+Now the studies on X-species are completed, we'll finally be able to focus our attention on these creatures...<<n>>They're called <b>Vintage Pokémon</b>!
 Quella nuova app che ho installato sul tuo PokéWES servirà proprio a raccogliere dati su di loro!
-Quella nuova app che ho installato sul tuo PokéWES servirà proprio a raccogliere dati su di loro!
+That's why I've installed that new app on your PokéWES--to register their data!
 Veniamo però al punto critico.
-Veniamo però al punto critico.
+Let's get straight to the critical point, though.
+I Retrò sembrerebbero davvero rari, molto di più degli X o dei cromatici... quasi introvabili, oserei dire! Sconfiggendo numerosi Pokémon originari di <b>Kanto</b> o <b>Johto</b>, però, pare aumentino le chance. Chissà come mai...
+Vintage Pokémon appear to be very rare, even more than<<n>>X or shiny ones...almost impossible to find, I'll say!<<n>>Apparently, though, when you defeat several wild Pokémon from Kanto or Johto, the chance to find one increases.<<n>>I wonder why...
 Perciò, nel tuo Pokédex ho anche inserito una nuova funzione che conteggerà per te gli avversari affrontati!
-Perciò, nel tuo Pokédex ho anche inserito una nuova funzione che conteggerà per te gli avversari affrontati!
+That's why I've included a new function in your Pokédex<<n>>that will calculate for you the Pokémon you defeat!
 Questa volta sarà una vera impresa riuscire a completare la ricerca, ma con questi strumenti potresti farcela!
-Questa volta sarà una vera impresa riuscire a completare la ricerca, ma con questi strumenti potresti farcela!
+This research is going to be a real challenge, but I'm sure you can do it with these tools!
 La mia mano te l’ho data, ora tocca a te metterci l’impegno e la pazienza, \PN!
-La mia mano te l’ho data, ora tocca a te metterci l’impegno e la pazienza, \PN!
+I gave you all the support I could give, now it's your turn<<n>>to put in your effort and your patience, \PN!<<n>>C'mon, you can do this!
 Vuoi che valuti i progressi del tuo Retròdex?
-Vuoi che valuti i progressi del tuo Retròdex?
+You want me to evaluate your Vintagedex?
+Molto bene, vediamo un po'...
+Well, let's see...
 Hai visto #{pbSCRETRO} Pokémon Retrò e ne hai catturati #{pbSCRETRO(false)}.
-Hai visto #{pbSCRETRO} Pokémon Retrò e ne hai catturati #{pbSCRETRO(false)}.
+You've seen #{pbSCRETRO} Vintage Pokémon, and you've caught #{pbSCRETRO(false)} Vintage Pokémon.
 No-Non è possibile... Pensavo che ci sarebbero voluti anni per completare questa ricerca...!
-No-Non è possibile... Pensavo che ci sarebbero voluti anni per completare questa ricerca...!
+I-It can't be...I thought it would take you decades to<<n>>complete this research...!
 Ma tu ce l’hai fatta, \PN!! Sei riuscito|a a catturare tutti i Pokémon Retrò... sei davvero incredibile!!
-Ma tu ce l’hai fatta, \PN!! Sei riuscito|a a catturare tutti i Pokémon Retrò... sei davvero incredibile!!
+But you did it, \PN! You managed to catch all Vintage<<n>>Pokémon...you're really incredible!!
 La tua grandiosa impresa inciderà il tuo nome nella lunga storia di questo laboratorio! A nome mio e di tutto lo staff, ti consegno questo diploma che certifica il tuo duro lavoro.
-La tua grandiosa impresa inciderà il tuo nome nella lunga storia di questo laboratorio! A nome mio e di tutto lo staff, ti consegno questo diploma che certifica il tuo duro lavoro.
+This is your greatest accomplishment and it will etch<<n>>your name to the pillars of history!<<n>>So on behalf of myself and the whole staff, I award you<<n>>with this certificate that proves your hard work.
 <<[>>old<<]>>Complimenti, hai completato il gioco al 100%! È un traguardo incredibile, tutto lo staff ti ringrazia di cuore!
-<<[>>old<<]>>Complimenti, hai completato il gioco al 100%!  È un traguardo incredibile, tutto lo staff ti ringrazia di cuore!
+<<[>>old<<]>>Congratulations for having 100% completed the game!\nIt is an incredible accomplishment...\nThe whole staff thanks you for your passion and your support!
 Io non ho nient’altro da insegnarti, \PN. Grazie di tutto il tempo che hai dedicato alla ricerca!
-Io non ho nient’altro da insegnarti, \PN. Grazie di tutto il tempo che hai dedicato alla ricerca!
-Che bello vederti, \PN! Vuoi che valuti il tuo Pokédex?
-Che bello vederti, \PN! Vuoi che valuti il tuo Pokédex?
-Molto bene, dammi due secondi per valutare.
-Molto bene, dammi due secondi per valutare.
-Vedo che ne hai visti #{pbSCELDIW} e catturati #{pbSCELDIW(false)}
-Vedo che ne hai visti #{pbSCELDIW} e catturati #{pbSCELDIW(false)}
-Non posso crederci! Sei riuscito|a a vedere tutti i Pokémon della regione di Eldiw!
-Non posso crederci!  Sei riuscito|a a vedere tutti i Pokémon della regione di Eldiw!
-Complimenti \PN, per ringraziarti dell'impresa, accetta questo regalo.
-Complimenti \PN, per ringraziarti dell'impresa, accetta questo regalo.
-Con l'Ovamuleto potrai schiudere più velocemente le uova, credo sia un regalo perfetto per questo traguardo... Ancora complimenti!
-Con l'Ovamuleto potrai schiudere più velocemente le uova, credo sia un regalo perfetto per questo traguardo... Ancora complimenti!
-Ora però ti aspetta una sfida ancora più impegnativa... Catturarli tutti!
-Ora però ti aspetta una sfida ancora più impegnativa... Catturarli tutti!
-Torna da me quando li avrai presi tutti!
-Torna da me quando li avrai presi tutti!
-Non posso crederci! Sei riuscito|a a catturare tutti i Pokémon della regione di Eldiw!
-Non posso crederci!  Sei riuscito|a a catturare tutti i Pokémon della regione di Eldiw!
-Con il Cromamuleto potrai avere chance più alte nell'incontrare un Pokémon cromatico, credo sia un regalo perfetto per questo traguardo... Ancora complimenti!
-Con il Cromamuleto potrai avere chance più alte nell'incontrare un Pokémon cromatico, credo sia un regalo perfetto per questo traguardo... Ancora complimenti!
-Ora però ti aspetta una sfida ancora più impegnativa... Completare anche lo Xenodex!
-Ora però ti aspetta una sfida ancora più impegnativa... Completare anche lo Xenodex!
-Torna da me quando sarai riuscito|a nell'impresa!
-Torna da me quando sarai riuscito|a nell'impresa!
-Molto bene, continua così!
-Molto bene, continua così!
-Vedo che ne hai visti #{pbSCXENO} e catturati #{pbSCXENO(false)}
-Vedo che ne hai visti #{pbSCXENO} e catturati #{pbSCXENO(false)}
-Non posso crederci! Sei riuscito|a a completare tutto lo Xenodex!
-Non posso crederci!  Sei riuscito|a a completare tutto lo Xenodex!
-Complimenti \PN, le tue ricerche saranno indispensabili per il laboratorio.
-Complimenti \PN, le tue ricerche saranno indispensabili per il laboratorio.
-Ora che ci penso, c'è un ultima cosa che potresti fare per me!
-Ora che ci penso, c'è un ultima cosa che potresti fare per me!
-A quanto pare, è apparso uno strano Elekid X nella <b>Spiaggia Polvostella</b>. Ho un po' di nostalgia solo a pensarci, visto che è stato proprio come ci siamo conosciuto noi due...
-A quanto pare, è apparso uno strano Elekid X nella <b>Spiaggia Polvostella</b>. Ho un po' di nostalgia solo a pensarci, visto che è stato proprio come ci siamo conosciuto noi due...
-Perchè non vai a darci un'occhiata?
-Perchè non vai a darci un'occhiata?
-Oh, vuoi che ti valuti il Retrodex?
-Oh, vuoi che ti valuti il Retrodex?
-Vedo che ne hai visti #{pbSCRETRO} e catturati #{pbSCRETRO(false)}
-Vedo che ne hai visti #{pbSCRETRO} e catturati #{pbSCRETRO(false)}
-Questo è il più grande traguardo che il laboratorio di Balansopoli potesse ottenere. A nome mio, dei ricercatori di tutta Balansopoli ma soprattutto... A nome di tutti gli sviluppatori di questo gioco, meriti questo diploma!
-Questo è il più grande traguardo che il laboratorio di Balansopoli potesse ottenere. A nome mio, dei ricercatori di tutta Balansopoli ma soprattutto... A nome di tutti gli sviluppatori di questo gioco, meriti questo diploma!
-<<[>>old<<]>>Hai completato il gioco al 100%. Complimenti da tutto lo staff.
-<<[>>old<<]>>Hai completato il gioco al 100%. Complimenti da tutto lo staff.
-Io non ho nient’altro da insegnarti, \PN. Grazie di tutto il tempo che hai dedicato alla ricerca!
-Io non ho nient’altro da insegnarti, \PN. Grazie di tutto il tempo che hai dedicato alla ricerca!
+I have nothing more to teach you, \PN.<<n>>Thank you for all the time you devoted to research!
 Alice
 Alice
 Che bello vederti, \PN! Aster ti dà sempre un gran da fare, eh? Non mollare, so che puoi riuscire in qualsiasi impresa, tu! Vero, Pikachu?
@@ -14346,7 +14306,7 @@ Henna
 Ma chi si vede, \PN! Allora, che mi dici?
 Look who's here, \PN! How is it going?
 Tranquillo|a, so già tutto. Il nonno mi aveva detto che t’avrebbe mandato da quel vecchio Capopalestra. Piuttosto, volevo chiederti un piccolo favore.
-Cut the chatter, I already know. Grandpa said that<<n>>he'd send you to that old Gym Leader.<<n>>Actually, I have a small favour to ask.
+Cut the chatter, I already know everything. Grandpa said that<<n>>he'd send you to that old Gym Leader.<<n>>Actually, I have a small favour to ask.
 Ho trovato quest’Uovo nelle quinte del mio Circo Sirio.
 I found this Egg behind the stage of Sunshine Circus.
 Me ne prenderei cura per fare del nascituro una fiera feroce, ma purtroppo proprio non ne ho modo...
@@ -18624,7 +18584,7 @@ I see...
 Oh, per tutti gli astri del cielo!
 Oh, for star's sake!
 Nella mia sfera di cristallo leggo che una maledizione la tormenterà per il resto dei suoi giorni... ... ma si salverà acquistando da me dei rarissimi Bijou!
-In this crystal ball of mine, I'm reading that a terrible curse will torment you for the rest of your days...<<n>>...but there's a way out of this-my rare Gems!
+In this crystal ball of mine, I'm reading that a terrible curse will torment you for the rest of your days...<<n>>...but there's a way out of this--my rare Gems!
 Sfugga al suo infausto destino e si serva pure.
 Come on, escape your ominous fate then!
 Capisco, deve far paura conoscere il proprio destino con anticipo.
@@ -35568,7 +35528,7 @@ Chi la usa utilizza il suo corpo per montare con grande forza il nemico.
 Using its tough and impressive horn, the user rams into the foe with no letup.
 2
 Chi la usa raduna i suoi sgherri per colpire il nemico. Probabile brutto colpo.
-The user calls out its underlings to pummel the target. Critical hits land more easily..
+The user calls out its underlings to pummel the target. Critical hits land more easily.
 3
 Chi la usa vibra le proprie ali per creare un suono che danneggia il nemico. Può anche ridurne la Difesa Speciale.
 The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.

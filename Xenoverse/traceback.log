@@ -1,21 +1,40 @@
-Argument 0: Expected string
+Script error within event 17, map 41 (Hadwarf City's Lab):
+Exception: Errno::ENOENT
+Message: File 191_Advanced_Fullbox.rb:1491:in `initialize': Graphics/Mugshots/ludopoli/ezio-sorpreso not found.
+***Full script:
+fbNewMugshot("Aster","ludopoli/ezio","sorpreso",:left)
+fbEnable(true)
+fbText("No-Non è possibile... Pensavo che ci sarebbero voluti anni per completare questa ricerca...!")
+fbEnable(false)
+fbDispose
+fbNewMugshot("Aster","ludopoli/ezio","smile",:left)
+fbEnable(true)
+fbText("Ma tu ce l’hai fatta, \PN!! Sei riuscito|a a catturare
+tutti i Pokémon Retrò... sei davvero incredibile!!")
+fbEnable(false)
+fbDispose
+
+034_Interpreter.rb:243:in `pbExecuteScript'
+191_Advanced_Fullbox.rb:1491:in `new'
+191_Advanced_Fullbox.rb:1491:in `setMugshot'
+191_Advanced_Fullbox.rb:1427:in `initialize'
+191_Advanced_Fullbox.rb:825:in `new'
+191_Advanced_Fullbox.rb:825:in `initialize'
+191_Advanced_Fullbox.rb:584:in `new'
+191_Advanced_Fullbox.rb:584:in `fbNewMugshot'
+(eval):1:in `pbExecuteScript'
+034_Interpreter.rb:1606:in `eval'
 
-043_SpriteWindow.rb:1499:in `text_size'
-043_SpriteWindow.rb:1499:in `pbDrawTextPositions'
-043_SpriteWindow.rb:1498:in `each'
-043_SpriteWindow.rb:1498:in `pbDrawTextPositions'
-130_PScreen_Achievements.rb:50:in `update'
-043_SpriteWindow.rb:1442:in `pbUpdateSpriteHash'
-043_SpriteWindow.rb:1438:in `each'
-043_SpriteWindow.rb:1438:in `pbUpdateSpriteHash'
-130_PScreen_Achievements.rb:150:in `processInput'
-130_PScreen_Achievements.rb:189:in `mainLoop'
-130_PScreen_Achievements.rb:137:in `openScene'
-130_PScreen_Achievements.rb:129:in `initialize'
-048_Scene_Map.rb:220:in `new'
-048_Scene_Map.rb:220:in `zer0_choice_window_upd'
-043_SpriteWindow.rb:1577:in `pbFadeOutIn'
-048_Scene_Map.rb:219:in `zer0_choice_window_upd'
+
+034_Interpreter.rb:276:in `pbExecuteScript'
+034_Interpreter.rb:1606:in `command_355'
+034_Interpreter.rb:494:in `execute_command'
+034_Interpreter.rb:193:in `update'
+034_Interpreter.rb:106:in `loop'
+034_Interpreter.rb:106:in `update'
+048_Scene_Map.rb:108:in `zer0_choice_window_upd'
+048_Scene_Map.rb:106:in `loop'
+048_Scene_Map.rb:106:in `zer0_choice_window_upd'
 159_Choice.rb:35:in `update'
 173_MovimentiPermessi.rb:276:in `main'
 173_MovimentiPermessi.rb:264:in `loop'
