@@ -16803,7 +16803,7 @@ Orribile stridio, simile a quello prodotto dal metallo, che riduce di molto la D
 Orribile stridio, simile a quello prodotto dal metallo, che riduce di molto la Difesa Speciale del bersaglio.
 533
 Cool,Facendo ruotare gli ingranaggi, chi la usa aumenta non solo il proprio Attacco, ma anche di molto la propria Velocità.
-Cool,Facendo ruotare gli ingranaggi, chi la usa aumenta non solo il proprio Attacco, ma anche di molto la propria Velocità.
+Facendo ruotare gli ingranaggi, chi la usa aumenta non solo il proprio Attacco, ma anche di molto la propria Velocità.
 534
 Colpisce il bersaglio con un potente getto d'acqua. Chi la usa salta il turno successivo.
 Colpisce il bersaglio con un potente getto d'acqua. Chi la usa salta il turno successivo.
@@ -17061,7 +17061,7 @@ Chi la usa invoca la maledizione del bosco sul bersaglio, che acquisisce così a
 Chi la usa invoca la maledizione del bosco sul bersaglio, che acquisisce così anche il tipo Erba.
 642
 Chi la usa assorbe energia nel primo turno, per aumentare poi notevolmente l'Attacco Speciale, la Difesa Speciale e la Velocità in quella seguente.
-Chi la usa assorbe energia nel primo turno, per aumentare poi notevolmente l'Attacco Speciale, la Difesa Speciale e la Velocità in quella seguente.
+Chi la usa assorbe energia, per aumentare poi notevolmente l'Att. Sp., la Dif. Sp. e la Velocità nel turno seguente.
 643
 Un bacio fatato che assorbe le energie al nemico.
 Un bacio fatato che assorbe le energie al nemico.

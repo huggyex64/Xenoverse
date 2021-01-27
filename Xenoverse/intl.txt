@@ -20460,7 +20460,7 @@ That time \PN really helped me save my people...<<n>>I owe him||er big time, S!
 Se però ci tieni anche tu a mettere le mani su quel Pokémon, vieni qui e lotta insieme a me, my boy!
 If you really wanna get yer hands on that Pokémon, tho,<<n>>come here and fight on my side, mah boy!
 Ora sì che ragioniamo! <i>Bzah bzah!</i>
-Now you're speaking my language! <i>Bzah bzah!</i>
+Now you're speaking my language! <i>Bza ha ha!</i>
 Ti strapperò la vittoria dalle mani e ti farò pagare tutte le tue bravate, dannato|a moccioso|a!
 I'll steal the victory from your hands and make you pay<<n>>for everything you've done, you damned brat!
 Ho detto dannato|a moccioso|a...? Volevo dire sconosciuto|a-che-non-ho-mai-visto-prima!
@@ -35889,7 +35889,7 @@ Chi la usa tira un pugno a una velocità impressionante. Questa mossa ha priorit
 Chi la usa tira un pugno a una velocità impressionante. Questa mossa ha priorità alta.
 109
 Chi la usa colpisce il bersaglio con un pugno che può anche ridurne la Difesa.
-Chi la usa colpisce il bersaglio con un pugno che può anche ridurne la Difesa.
+The user attacks with a punch. This may also lower the target's Defense stat.
 110
 Chi la usa sferra un colpo micidiale al bersaglio. Brutto colpo assicurato.
 Chi la usa sferra un colpo micidiale al bersaglio. Brutto colpo assicurato.
@@ -35994,7 +35994,7 @@ Chi la usa si copre di fuoco e carica il bersaglio. Può anche scottarlo.
 Chi la usa si copre di fuoco e carica il bersaglio. Può anche scottarlo.
 144
 Attacca il bersaglio con una colonna di fuoco.
-Attacca il bersaglio con una colonna di fuoco.
+A column of fire hits opposing Pokémon.
 145
 Chi la usa si copre di fuoco e attacca il bersaglio. Concentrandosi aumenta, inoltre, la propria Velocità.
 Chi la usa si copre di fuoco e attacca il bersaglio. Concentrandosi aumenta, inoltre, la propria Velocità.
@@ -36069,7 +36069,7 @@ Colpisce il bersaglio con il becco appuntito o con un corno.
 Colpisce il bersaglio con il becco appuntito o con un corno.
 169
 Chi la usa spazza via barriere come Riflesso e Schermoluce con un forte vento e riduce la capacità d'elusione del bersaglio.
-Chi la usa spazza via barriere come Riflesso e Schermoluce con un forte vento e riduce la capacità d'elusione del bersaglio.
+A strong wind blows away the target's obstacles such as Reflect or Light Screen. It also lowers the target's evasiveness.
 170
 Chi la usa circonda il bersaglio con un turbinio di piume riducendo di molto il suo Attacco.
 Chi la usa circonda il bersaglio con un turbinio di piume riducendo di molto il suo Attacco.
@@ -36180,7 +36180,7 @@ Foglie taglienti sferzano i nemici intorno. Probabile brutto colpo.
 Foglie taglienti sferzano i nemici intorno. Probabile brutto colpo.
 206
 Attacca il bersaglio con una colonna d'erba.
-Attacca il bersaglio con una colonna d'erba.
+A column of grass hits opposing Pokémon.
 207
 Mossa che assorbe PS. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.
 Mossa che assorbe PS. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.
@@ -36411,7 +36411,7 @@ Infligge danni al bersaglio con la coda, con una liana o con qualcosa di simile.
 Infligge danni al bersaglio con la coda, con una liana o con qualcosa di simile.
 283
 Colpisce il bersaglio con un'enorme energia.
-Colpisce il bersaglio con un'enorme energia.
+The target is slugged with a punch thrown at maximum power.
 284
 Colpisce il bersaglio con tre raggi di luce che possono paralizzarlo, scottarlo o congelarlo.
 Colpisce il bersaglio con tre raggi di luce che possono paralizzarlo, scottarlo o congelarlo.
@@ -36465,7 +36465,7 @@ Stringe il bersaglio in una morsa.
 Stringe il bersaglio in una morsa.
 301
 Attacca il bersaglio con artigli o falci affilate.
-Attacca il bersaglio con artigli o falci affilate.
+The target is cut with a scythe or claw.
 302
 Mossa da usare solo in caso estremo, quando non si hanno più PP. Danneggia anche chi la usa.
 Mossa da usare solo in caso estremo, quando non si hanno più PP. Danneggia anche chi la usa.
@@ -37065,283 +37065,283 @@ Chi la usa crea una dimensione in cui Difesa e Difesa Speciale di tutti i Pokém
 The user creates a bizarre area in which Pokémon's Defense and Sp. Def stats are swapped for five turns.
 501
 Chi la usa attacca con tutta la potenza di cui dispone, ma subisce danni considerevoli.
-Chi la usa attacca con tutta la potenza di cui dispone, ma subisce danni considerevoli.
+The user attacks the target with a hazardous, full-power headbutt. This also damages the user terribly.
 502
 Chi la usa attacca il bersaglio con un enorme masso, ma si deve riposare al turno successivo.
-Chi la usa attacca il bersaglio con un enorme masso, ma si deve riposare al turno successivo.
+The user launches a huge boulder at the target to attack. It must rest on the next turn, however.
 503
 Chi la usa colpisce il bersaglio dal basso con pietre affilate. Probabile brutto colpo.
-Chi la usa colpisce il bersaglio dal basso con pietre affilate. Probabile brutto colpo.
+The user stabs the target from below with sharpened stones. Critical hits land more easily.
 504
 I nemici vengono colpiti con violenza da grandi massi che possono anche farli tentennare.
-I nemici vengono colpiti con violenza da grandi massi che possono anche farli tentennare.
+Large boulders are hurled at the opposing team to inflict damage. They may also make the targets flinch.
 505
 Chi la usa attacca con un raggio di luce che brilla come se fosse fatto di pietre preziose.
-Chi la usa attacca con un raggio di luce che brilla come se fosse fatto di pietre preziose.
+The user attacks with a ray of light that sparkles as if it were made of gemstones.
 506
 Colpisce il bersaglio con una forza primordiale. Può aumentare tutte le statistiche.
-Colpisce il bersaglio con una forza primordiale. Può aumentare tutte le statistiche.
+The user attacks with a prehistoric power. It may also raise all the user's stats at once.
 507
 Chi la usa raccoglie una pietra e la lancia contro il bersaglio.
-Chi la usa raccoglie una pietra e la lancia contro il bersaglio.
+The user picks up and throws a small rock at the target to attack.
 508
 Colpisce il bersaglio con rocce. Inoltre, lo rallenta riducendone la Velocità.
-Colpisce il bersaglio con rocce. Inoltre, lo rallenta riducendone la Velocità.
+Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.
 509
 Chi la usa lancia una pietra o un proiettile. Può colpire anche un bersaglio in volo e farlo cadere.
-Chi la usa lancia una pietra o un proiettile. Può colpire anche un bersaglio in volo e farlo cadere.
+The user throws a stone or projectile to attack an opponent. A flying Pokémon will fall to the ground when it's hit.
 510
 Colpisce il bersaglio rotolando per cinque turni. La potenza aumenta progressivamente ogni volta che va a segno.
-Colpisce il bersaglio rotolando per cinque turni. La potenza aumenta progressivamente ogni volta che va a segno.
+The user continually rolls into the target over five turns. It becomes stronger each time it hits.
 511
 Colpisce il bersaglio con dei massi pesanti lanciati in rapida successione. Il numero di massi varia da due a cinque.
-Colpisce il bersaglio con dei massi pesanti lanciati in rapida successione. Il numero di massi varia da due a cinque.
+The user hurls hard rocks at the target. Two to five rocks are launched in a row.
 512
 Chi la usa leviga il proprio corpo per ridurne l'attrito. Aumenta di molto la Velocità.
-Chi la usa leviga il proprio corpo per ridurne l'attrito. Aumenta di molto la Velocità.
+The user polishes its body to reduce drag. It sharply raises the Speed stat.
 513
 Causa una tempesta di sabbia per cinque turni che danneggia tutti i tipi in campo esclusi Terra, Roccia e Acciaio.
-Causa una tempesta di sabbia per cinque turni che danneggia tutti i tipi in campo esclusi Terra, Roccia e Acciaio.
+A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types.
 514
 Chi la usa piazza una trappola di rocce sospese che danneggia i nemici che entrano in campo.
-Chi la usa piazza una trappola di rocce sospese che danneggia i nemici che entrano in campo.
+The user lays a trap of levitating stones around the opponent's team. The trap hurts opponents that switch into battle.
 515
 Chi la usa protegge sé e gli alleati da colpi ad ampio raggio per un turno.
-Chi la usa protegge sé e gli alleati da colpi ad ampio raggio per un turno.
+The user and its allies are protected from wide-ranging attacks for one turn.
 516
 Intenso fascio di luce che colpisce il bersaglio dopo due turni dall'uso della mossa.
-Intenso fascio di luce che colpisce il bersaglio dopo due turni dall'uso della mossa.
+Two turns after this move is used, a concentrated bundle of light blasts the target.
 517
 Il bersaglio viene colpito da una robusta coda d'acciaio. Può anche ridurne la Difesa.
-Il bersaglio viene colpito da una robusta coda d'acciaio. Può anche ridurne la Difesa.
+The target is slammed with a steel-hard tail. It may also lower the target's Defense stat.
 518
 Colpisce il bersaglio con un pugno veloce come una meteora. Può far salire l'Attacco di chi la usa.
-Colpisce il bersaglio con un pugno veloce come una meteora. Può far salire l'Attacco di chi la usa.
+The target is hit with a hard punch fired like a meteor. It may also raise the user's Attack.
 519
 Chi la usa attacca raccogliendo e rilasciando energia luminosa. Può ridurre la Difesa Speciale del bersaglio.
-Chi la usa attacca raccogliendo e rilasciando energia luminosa. Può ridurre la Difesa Speciale del bersaglio.
+The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.
 520
 Chi la usa colpisce il bersaglio con la sua testa dura come l'acciaio. Può anche farlo tentennare.
-Chi la usa colpisce il bersaglio con la sua testa dura come l'acciaio. Può anche farlo tentennare.
+The user slams the target with its steel-hard head. It may also make the target flinch.
 521
 Colpisce il bersaglio con ali d'acciaio. Può anche aumentare la Difesa di chi la usa.
-Colpisce il bersaglio con ali d'acciaio. Può anche aumentare la Difesa di chi la usa.
+The target is hit with wings of steel. It may also raise the user's Defense stat.
 522
 Chi la usa rilascia fasci d'energia dal corpo levigato. Può anche ridurre la precisione del bersaglio.
-Chi la usa rilascia fasci d'energia dal corpo levigato. Può anche ridurre la precisione del bersaglio.
+The user looses a flash of energy at the target from its polished body. It may also lower the target's accuracy.
 523
 Chi la usa lancia bombe d'acciaio che si attaccano al bersaglio. Una mossa infallibile.
-Chi la usa lancia bombe d'acciaio che si attaccano al bersaglio. Una mossa infallibile.
+The user launches steel bombs that stick to the target. This attack will not miss.
 524
 Chi la usa colpisce il bersaglio due volte di fila lanciandogli contro degli ingranaggi d'acciaio.
-Chi la usa colpisce il bersaglio due volte di fila lanciandogli contro degli ingranaggi d'acciaio.
+The user attacks by throwing steel gears at its target twice.
 525
 Colpisce il bersaglio con artigli d'acciaio. Può anche aumentare l'Attacco di chi la usa.
-Colpisce il bersaglio con artigli d'acciaio. Può anche aumentare l'Attacco di chi la usa.
+The target is raked with steel claws. It may also raise the user's Attack stat.
 526
 Chi la usa attacca con una scarica di pugni veloci come proiettili. Questa mossa ha priorità alta.
-Chi la usa attacca con una scarica di pugni veloci come proiettili. Questa mossa ha priorità alta.
+The user strikes the target with tough punches as fast as bullets. This move always goes first.
 527
 Chi la usa si scaglia sul bersaglio facendo ruotare vorticosamente il proprio corpo. Più lento è chi la usa, maggiore è il danno.
-Chi la usa si scaglia sul bersaglio facendo ruotare vorticosamente il proprio corpo. Più lento è chi la usa, maggiore è il danno.
+The user tackles the target with a high-speed spin. The slower the user, the greater the damage.
 528
 Chi la usa si lancia contro il bersaglio con tutto il proprio peso. Più è pesante rispetto ad esso, più danni causa.
-Chi la usa si lancia contro il bersaglio con tutto il proprio peso. Più è pesante rispetto ad esso, più danni causa.
+The user slams into the target with its heavy body. The more the user outweighs the target, the greater its damage.
 529
 Chi la usa si vendica sul nemico che l'ha appena ferito con una mossa anche più potente.
-Chi la usa si vendica sul nemico che l'ha appena ferito con una mossa anche più potente.
+The user retaliates with much greater power against the target that last inflicted damage on it.
 530
 Chi la usa si libera di tutti i pesi in eccesso, alleggerendosi e aumentando di molto la propria Velocità.
-Chi la usa si libera di tutti i pesi in eccesso, alleggerendosi e aumentando di molto la propria Velocità.
+The user sheds part of its body to make itself lighter and sharply raise its Speed stat.
 531
 Il corpo di chi la usa si indurisce come il ferro, facendone salire di molto la Difesa.
-Il corpo di chi la usa si indurisce come il ferro, facendone salire di molto la Difesa.
+The user hardens its body's surface like iron, sharply raising its Defense stat.
 532
 Orribile stridio, simile a quello prodotto dal metallo, che riduce di molto la Difesa Speciale del bersaglio.
-Orribile stridio, simile a quello prodotto dal metallo, che riduce di molto la Difesa Speciale del bersaglio.
+A horrible sound like scraping metal harshly lowers the target's Sp. Def stat.
 533
 Cool,Facendo ruotare gli ingranaggi, chi la usa aumenta non solo il proprio Attacco, ma anche di molto la propria Velocità.
-Cool,Facendo ruotare gli ingranaggi, chi la usa aumenta non solo il proprio Attacco, ma anche di molto la propria Velocità.
+The user rotates its gears, raising its Attack stat and sharply raising its Speed stat.
 534
 Colpisce il bersaglio con un potente getto d'acqua. Chi la usa salta il turno successivo.
-Colpisce il bersaglio con un potente getto d'acqua. Chi la usa salta il turno successivo.
+The target is hit with a watery blast. The user must rest on the next turn, however.
 535
 Lancia un getto d'acqua sui nemici. La potenza è proporzionale al numero di PS di chi la usa.
-Lancia un getto d'acqua sui nemici. La potenza è proporzionale al numero di PS di chi la usa.
+The user spouts water to damage opposing Pokémon. The lower the user's HP, the lower the move's power.
 536
 Il bersaglio è travolto da un potente getto d'acqua spruzzato ad altissima pressione.
-Il bersaglio è travolto da un potente getto d'acqua spruzzato ad altissima pressione.
+The target is blasted by a huge volume of water launched under great pressure.
 537
 Chi la usa attacca i nemici che ha intorno con un getto di fango che può anche ridurne la precisione.
-Chi la usa attacca i nemici che ha intorno con un getto di fango che può anche ridurne la precisione.
+The user attacks by shooting muddy water at the opposing team. It may also lower the targets' accuracy.
 538
 Un'onda enorme sommerge il campo di lotta, colpendo tutti i Pokémon intorno.
-Un'onda enorme sommerge il campo di lotta, colpendo tutti i Pokémon intorno.
+The user attacks everything around it by swamping its surroundings with a giant wave.
 539
 Chi la usa attacca agitando la coda come se fosse una violenta ondata in una tempesta furiosa.
-Chi la usa attacca agitando la coda come se fosse una violenta ondata in una tempesta furiosa.
+The user attacks by swinging its tail as if it were a vicious wave in a raging storm.
 540
 Danneggia il bersaglio servendosi di una grande tenaglia. Probabile brutto colpo.
-Danneggia il bersaglio servendosi di una grande tenaglia. Probabile brutto colpo.
+The target is hammered with a large pincer. Critical hits land more easily.
 541
 Chi la usa si tuffa in acqua per emergere e attaccare al turno successivo.
-Chi la usa si tuffa in acqua per emergere e attaccare al turno successivo.
+Diving on the first turn, the user floats up and attacks on the next turn.
 542
 Chi la usa attacca il bersaglio con un getto d'acqua bollente che può anche scottarlo.
-Chi la usa attacca il bersaglio con un getto d'acqua bollente che può anche scottarlo.
+The user shoots boiling hot water at its target. It may also leave the target with a burn.
 543
 Carica il bersaglio a grande velocità e può farlo tentennare.
-Carica il bersaglio a grande velocità e può farlo tentennare.
+The user charges at the target and may make it flinch.
 544
 Chi la usa colpisce il bersaglio con il suo guscio affilato. Il colpo può anche ridurre la Difesa del bersaglio.
-Chi la usa colpisce il bersaglio con il suo guscio affilato. Il colpo può anche ridurre la Difesa del bersaglio.
+The user cuts its target with sharp shells. This attack may also lower the target's Defense stat.
 545
 Se i PS del bersaglio sono scesi a metà o meno, questa mossa colpirà con il doppio della potenza.
-Se i PS del bersaglio sono scesi a metà o meno, questa mossa colpirà con il doppio della potenza.
+If the target's HP is half or less, this attack will hit with double the power.
 546
 Colpisce il bersaglio con una forte scarica di bolle. Può anche ridurne la Velocità.
-Colpisce il bersaglio con una forte scarica di bolle. Può anche ridurne la Velocità.
+A spray of bubbles is forcefully ejected at the target. It may also lower its Speed stat.
 547
 Chi la usa spruzza inchiostro in faccia al bersaglio. Può anche ridurne la precisione.
-Chi la usa spruzza inchiostro in faccia al bersaglio. Può anche ridurne la precisione.
+The user attacks by spraying ink in the target's face or eyes. It may also lower the target's accuracy.
 548
 Il bersaglio viene colpito da un getto d'acqua potentissimo che può anche confonderlo.
-Il bersaglio viene colpito da un getto d'acqua potentissimo che può anche confonderlo.
+The user attacks the target with a pulsing blast of water. It may also confuse the target.
 549
 Attacca il nemico con una colonna d'acqua.
-Attacca il nemico con una colonna d'acqua.
+A column of water strikes the target.
 550
 Chi la usa colpisce a una tale velocità da rendersi quasi invisibile. Questa mossa ha priorità alta.
-Chi la usa colpisce a una tale velocità da rendersi quasi invisibile. Questa mossa ha priorità alta.
+The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.
 551
 Il bersaglio è colpito da un potente getto d'acqua.
-Il bersaglio è colpito da un potente getto d'acqua.
+The target is blasted with a forceful shot of water.
 552
 Chi la usa intrappola e stritola il bersaglio con la sua corazza spessa e forte per quattro o cinque turni.
-Chi la usa intrappola e stritola il bersaglio con la sua corazza spessa e forte per quattro o cinque turni.
+The target is clamped and squeezed by the user's very thick and sturdy shell for four to five turns.
 553
 Intrappola il bersaglio in un turbine d'acqua per quattro o cinque turni infliggendo danni a ogni turno.
-Intrappola il bersaglio in un turbine d'acqua per quattro o cinque turni infliggendo danni a ogni turno.
+The user traps the target in a violent swirling whirlpool for four to five turns.
 554
 Una pioggia di bolle investe i nemici intorno e può anche ridurne la Velocità.
-Una pioggia di bolle investe i nemici intorno e può anche ridurne la Velocità.
+A spray of countless bubbles is jetted at the opposing team. It may also lower the targets' Speed stats.
 555
 Chi la usa si avvolge in un velo d'acqua. Recupera alcuni PS a ogni turno.
-Chi la usa si avvolge in un velo d'acqua. Recupera alcuni PS a ogni turno.
+The user envelops itself in a veil made of water. It regains some HP every turn.
 556
 Chi la usa provoca un acquazzone per cinque turni, potenziando le mosse di tipo Acqua e riducendo la potenza di quelle di tipo Fuoco.
-Chi la usa provoca un acquazzone per cinque turni, potenziando le mosse di tipo Acqua e riducendo la potenza di quelle di tipo Fuoco.
+The user summons a heavy rain that falls for five turns, powering up Water-type moves.
 557
 Chi la usa proietta un lungo getto d'acqua contro il bersaglio e lo rende di tipo Acqua.
-Chi la usa proietta un lungo getto d'acqua contro il bersaglio e lo rende di tipo Acqua.
+The user shoots a torrent of water at the target and changes the target's type to Water.
 558
 Chi la usa sparge acqua sul campo di lotta indebolendo per cinque turni le mosse di tipo Fuoco.
-Chi la usa sparge acqua sul campo di lotta indebolendo per cinque turni le mosse di tipo Fuoco.
+The user soaks the battlefield with water. This weakens Fire-type moves for five turns.
 559
 Il corpo si ritira nel suo duro guscio per aumentare la Difesa.
-Il corpo si ritira nel suo duro guscio per aumentare la Difesa.
+The user withdraws its body into its hard shell, raising its Defense stat.
 560
 Chi la usa emette delle urla che danneggiano l'avversario.
 The user attacks the target by shouting at it.
 561
 Chi la usa rivolge i propri occhioni languidi al bersaglio, riducendone l'Attacco. Questa mossa ha priorità alta.
-Chi la usa rivolge i propri occhioni languidi al bersaglio, riducendone l'Attacco. Questa mossa ha priorità alta.
+The user stares at the target with its baby-doll eyes, which lowers its Attack stat. This move always goes first.
 562
 Chi la usa emette una luce potentissima che infligge danni ai nemici intorno.
-Chi la usa emette una luce potentissima che infligge danni ai nemici intorno.
+The user damages opposing Pokémon by emitting a powerful flash.
 563
 Infligge danni ai nemici attorno con una voce suadente. Questo attacco è infallibile.
-Infligge danni ai nemici attorno con una voce suadente. Questo attacco è infallibile.
+Letting out a charming cry, the user does emotional damage to opposing Pokémon. This attack never misses.
 564
 Chi la usa solleva un vento fatato che investe il bersaglio.
-Chi la usa solleva un vento fatato che investe il bersaglio.
+The user stirs up a fairy wind and strikes the target with it.
 565
 Chi la usa sfrutta il potere della luna per attaccare il bersaglio. Può anche ridurne l'Attacco Speciale.
-Chi la usa sfrutta il potere della luna per attaccare il bersaglio. Può anche ridurne l'Attacco Speciale.
+Borrowing the power of the moon, the user attacks the target. It may also lower the target's Sp. Atk stat.
 566
 Chi la usa attacca il bersaglio con delle carinerie. Può anche ridurne l'Attacco.
-Chi la usa attacca il bersaglio con delle carinerie. Può anche ridurne l'Attacco.
+The user plays rough with the target and attacks it. It may also lower the target's Attack stat.
 589
 Il Pokémon ti fa gli auguri nel tuo giorno speciale!
-Il Pokémon ti fa gli auguri nel tuo giorno speciale!
+The Pokémon congratulates you on your special day!
 590
 Aumenta la Difesa Speciale di un alleato tramite un misterioso aroma.
-Aumenta la Difesa Speciale di un alleato tramite un misterioso aroma.
+The user raises the Sp. Def stat of an ally Pokémon with a mysterious aroma.
 591
 Chi la usa emette un urlo potente che intimidisce il bersaglio, riducendone l'Attacco e l'Attacco Speciale.
-Chi la usa emette un urlo potente che intimidisce il bersaglio, riducendone l'Attacco e l'Attacco Speciale.
+Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats.
 592
 Chi la usa attacca il bersaglio, modulando il colpo in modo da lasciargli almeno un PS.
-Chi la usa attacca il bersaglio, modulando il colpo in modo da lasciargli almeno un PS.
+The user holds back when it attacks, and the target is left with at least 1 HP.
 593
 Chi la usa raccoglie energia tellurica e ne concentra il potere sui nemici che ha intorno danneggiandoli.
-Chi la usa raccoglie energia tellurica e ne concentra il potere sui nemici che ha intorno danneggiandoli.
+The user gathers the energy of the land and focuses that power on opposing Pokémon to damage them.
 594
 Chi la usa assorbe energia dal bersaglio recuperando una quantità di PS pari a più della metà del danno inferto.
-Chi la usa assorbe energia dal bersaglio recuperando una quantità di PS pari a più della metà del danno inferto.
+The user absorbs its target's HP. The user's HP is restored by over half of the damage taken by the target.
 595
 Nonostante il tenero nome è una mossa piuttosto pericolosa.
-Nonostante il tenero nome è una mossa piuttosto pericolosa.
+The user attacks by nuzzling its electrified cheeks against the target. It also leaves the target with paralysis.
 596
 Chi la usa attacca sempre per primo, colpendo il bersaglio con uno shuriken di muco da due a cinque volte di fila.
-Chi la usa attacca sempre per primo, colpendo il bersaglio con uno shuriken di muco da due a cinque volte di fila.
+The user hits the target with throwing stars two to five times in a row. This move always goes first.
 597
 Colpisce i Pokémon che ha intorno con la forza di un boato distruttivo.
-Colpisce i Pokémon che ha intorno con la forza di un boato distruttivo.
+The user attacks everything around it with the destructive power of a terrible, explosive sound.
 598
 Chi la usa scompare improvvisamente per attaccare nel turno seguente, neutralizzando le difese del bersaglio.
-Chi la usa scompare improvvisamente per attaccare nel turno seguente, neutralizzando le difese del bersaglio.
+The user vanishes somewhere, then strikes the target on the next turn. It hits even if the target protects itself.
 599
 Chi la usa diventa amico del bersaglio, rabbonendolo e riducendone così l'Attacco.
-Chi la usa diventa amico del bersaglio, rabbonendolo e riducendone così l'Attacco.
+The user and the target become friends, and the target loses its will to fight. It lowers the target's Attack stat.
 600
 Chi la usa attacca il bersaglio con delle carinerie. Può anche ridurne l'attacco.
-Chi la usa attacca il bersaglio con delle carinerie. Può anche ridurne l'attacco.
+The user plays rough with the target and attacks it. It may also lower the target's Attack stat.
 601
 Il bersaglio viene coperto da un pulviscolo che esplode, danneggiandolo, se questi utilizza una mossa di tipo Fuoco nello stesso turno.
-Il bersaglio viene coperto da un pulviscolo che esplode, danneggiandolo, se questi utilizza una mossa di tipo Fuoco nello stesso turno.
+The user covers the target in a powder that explodes and damages the target if it uses a Fire-type move.
 602
 Rende i pugni più duri a ogni colpo inferto. Se i pugni vanno a segno, aumenta l'Attacco.
-Rende i pugni più duri a ogni colpo inferto. Se i pugni vanno a segno, aumenta l'Attacco.
+Striking opponents over and over makes the user's fists harder. Hitting a target raises the Attack stat.
 604
 Protegge dagli attacchi, riducendo inoltre i PS dei Pokémon che entrano in contatto con chi la usa.
-Protegge dagli attacchi, riducendo inoltre i PS dei Pokémon che entrano in contatto con chi la usa.
+In addition to protecting the user from attacks, this move also damages any attacker who makes direct contact.
 605
 Intreccia una rete appiccicosa attorno alla squadra avversaria, diminuendo la Velocità di chi entra in campo.
-Intreccia una rete appiccicosa attorno alla squadra avversaria, diminuendo la Velocità di chi entra in campo.
+The user weaves a sticky net around the opposing team, which lowers their Speed stat upon switching into battle.
 606
 Inverte tutte le modifiche alle statistiche del Pokémon bersaglio.
-Inverte tutte le modifiche alle statistiche del Pokémon bersaglio.
+All stat changes affecting the target turn topsy-turvy and become the opposite of what they were.
 607
 Il bersaglio viene invitato a festeggiare Halloween e aggiunge così al proprio tipo anche il tipo Spettro.
-Il bersaglio viene invitato a festeggiare Halloween e aggiunge così al proprio tipo anche il tipo Spettro.
+The user takes the target trick-or-treating. This adds Ghost type to the target's type.
 608
 Emette un liquido particolare che riduce l'Attacco, l'Attacco Speciale e la Velocità dei nemici avvelenati intorno a chi la usa.
-Emette un liquido particolare che riduce l'Attacco, l'Attacco Speciale e la Velocità dei nemici avvelenati intorno a chi la usa.
+Opposing Pokémon are drenched in an odd poisonous liquid. It lowers the Attack, Sp. Atk, and Speed stats of a poisoned target.
 609
 Chi la usa attacca sempre per primo, colpendo il bersaglio con uno shuriken di muco da due a cinque volte di fila.
-Chi la usa attacca sempre per primo, colpendo il bersaglio con uno shuriken di muco da due a cinque volte di fila.
+The user hits the target with throwing stars two to five times in a row. This move always goes first.
 610
 Colpisce i nemici che ha intorno con una tempesta di diamanti. Può anche aumentare la Difesa di chi la usa.
-Colpisce i nemici che ha intorno con una tempesta di diamanti. Può anche aumentare la Difesa di chi la usa.
+The user whips up a storm of diamonds to damage opposing Pokémon. It may also raise the user's Defense stat.
 611
 Chi la usa, sfrutta un passaggio interdimensionale per comparire affianco al bersaglio e colpirlo, eludendo mosse come Protezione e Individua.
-Chi la usa, sfrutta un passaggio interdimensionale per comparire affianco al bersaglio e colpirlo, eludendo mosse come Protezione e Individua.
+Using a hyperspace hole, the user appears right next to the target and strikes. It also hits a target using Protect or Detect.
 612
 Travolge il bersaglio con un'ondata di vapore rovente che può anche scottarlo.
-Travolge il bersaglio con un'ondata di vapore rovente che può anche scottarlo.
+The user immerses the target in superheated steam. It may also leave the target with a burn.
 613
 Colpisce anche i Pokémon che fluttuano in aria. I nemici nei paraggi vengono scaraventati a terra.
-Colpisce anche i Pokémon che fluttuano in aria. I nemici nei paraggi vengono scaraventati a terra.
+This move also hits opposing Pokémon that are in the air. Those Pokémon are knocked down to the ground.
 614
 Un’onda strisciante investe i nemici intorno impedendo loro di fuggire.
-Un’onda strisciante investe i nemici intorno impedendo loro di fuggire.
+The user attacks with a wave that crawls along the ground. Those it hits can't flee from battle.
 615
 Concentra il potere del Fiore Eterno in un raggio di luce potentissimo. Il contraccolpo danneggia molto anche l'utilizzatore.
-Concentra il potere del Fiore Eterno in un raggio di luce potentissimo. Il contraccolpo danneggia molto anche l'utilizzatore.
+Drawing power from the Eternal Flower, the user fires a powerful beam of light. It also damages the user quite a lot.
 616
 Permette di proiettarsi in aria e fiondarsi sul bersaglio attaccando ad altissima velocità. Riduce la Difesa e la Difesa Speciale di chi la usa.
-Permette di proiettarsi in aria e fiondarsi sul bersaglio attaccando ad altissima velocità. Riduce la Difesa e la Difesa Speciale di chi la usa.
+After soaring upward, the user attacks its target by dropping out of the sky at high speeds. But it lowers its own Defense and Sp. Def stats in the process.
 617
 Attacca i nemici intorno colpendoli con miriadi di raggi di luce blu.
 Attacca i nemici intorno colpendoli con miriadi di raggi di luce blu.
@@ -37359,22 +37359,22 @@ Attacca il nemico con artigli, falci o altro. Probabile brutto colpo.
 Attacca il nemico con artigli, falci o altro. Probabile brutto colpo.
 622
 Colpisce il bersaglio soffiandogli contro delle fiammate incredibilmente roventi, riducendone l'Attacco Speciale.
-Colpisce il bersaglio soffiandogli contro delle fiammate incredibilmente roventi, riducendone l'Attacco Speciale.
+The user attacks by breathing a special, hot fire. It also lowers the target's Sp. Atk stat.
 623
 Chi la usa protegge se stesso e i propri alleati dai danni di mosse nemiche, adoperando un tappetino come scudo. Non è efficace contro mosse di stato.
-Chi la usa protegge se stesso e i propri alleati dai danni di mosse nemiche, adoperando un tappetino come scudo. Non è efficace contro mosse di stato.
+Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves.
 624
 Chi la usa si avvicina al nemico facendo finta di niente, per poi scagliare un pugno infallibile a tradimento.
-Chi la usa si avvicina al nemico facendo finta di niente, per poi scagliare un pugno infallibile a tradimento.
+The user approaches the target disarmingly, then throws a sucker punch. It hits without fail.
 625
 Un bacio fatato che assorbe le energie al nemico.
-Un bacio fatato che assorbe le energie al nemico.
+The user steals the target's HP with a kiss. The user's HP is restored by over half of the damage taken by the target.
 626
 Per cinque turni trasforma il terreno di lotta in un campo erboso, facendo recuperare PS ai Pokémon a terra in ogni turno.
 Per cinque turni trasforma il terreno di lotta in un campo erboso, facendo recuperare PS ai Pokémon a terra in ogni turno.
 627
 Infligge danni ai Pokémon che ha intorno attaccandoli con una tempesta di fiori.
-Infligge danni ai Pokémon che ha intorno attaccandoli con una tempesta di fiori.
+The user stirs up a violent petal blizzard and attacks everything around it.
 628
 Per cinque turni trasforma il terreno di lotta in un campo nebbioso, impedendo ai Pokémon a terra di essere colpiti da problemi di stato.
 Per cinque turni trasforma il terreno di lotta in un campo nebbioso, impedendo ai Pokémon a terra di essere colpiti da problemi di stato.
@@ -37383,31 +37383,31 @@ Grazie a un misterioso potere, aumenta la Difesa di tutti i Pokémon di tipo Erb
 Grazie a un misterioso potere, aumenta la Difesa di tutti i Pokémon di tipo Erba presenti in campo.
 630
 Chi la usa lancia un'occhiataccia che riduce l'Attacco e l'Attacco Speciale del bersaglio. Poi viene sostituito da un compagno.
-Chi la usa lancia un'occhiataccia che riduce l'Attacco e l'Attacco Speciale del bersaglio. Poi viene sostituito da un compagno.
+With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches with a party Pokémon.
 631
 Chi la usa assume una posizione difensiva, riducendo inoltre l'Attacco di chiunque entri in contatto con esso.
-Chi la usa assume una posizione difensiva, riducendo inoltre l'Attacco di chiunque entri in contatto con esso.
+The user protects itself from damage. It also harshly lowers the Attack of any attacker who makes direct contact.
 632
 Chi la usa attacca tutto ciò che lo circonda e recupera PS pari alla metà del danno inflitto.
-Chi la usa attacca tutto ciò che lo circonda e recupera PS pari alla metà del danno inflitto.
+The user attacks everything around it. The user's HP is restored by half the damage taken by those hit.
 633
 Se si contagia il bersaglio prima che usi la sua mossa, per quel turno le sue mosse saranno di tipo Elettro.
-Se si contagia il bersaglio prima che usi la sua mossa, per quel turno le sue mosse saranno di tipo Elettro.
+If the target is electrified before it uses a move during that turn, the target's move becomes Electric-type.
 634
 Per cinque turni trasforma il terreno di lotta in un campo elettrico, impedendo ai Pokémon a terra di addormentarsi.
 Per cinque turni trasforma il terreno di lotta in un campo elettrico, impedendo ai Pokémon a terra di addormentarsi.
 635
 L'utilizzatore genera un impulso misterioso. Esponendovi il bersaglio, ne riduce di molto l'Attacco Speciale.
-L'utilizzatore genera un impulso misterioso. Esponendovi il bersaglio, ne riduce di molto l'Attacco Speciale.
+The user's body generates an eerie impulse. Exposing the target to it harshly lowers the target's Sp. Atk stat.
 636
 Chi la usa raffredda rapidamente il bersaglio. Può anche congelarlo. Questa mossa è superefficace contro i Pokémon Acqua.
-Chi la usa raffredda rapidamente il bersaglio. Può anche congelarlo. Questa mossa è superefficace contro i Pokémon Acqua.
+The user rapidly cools the target. It may also leave the target frozen. This move is super effective on Water-types.
 637
 Chi la usa si tuffa sul bersaglio dall'alto. È una mossa di tipo Lotta e Volante allo stesso tempo.
-Chi la usa si tuffa sul bersaglio dall'alto. È una mossa di tipo Lotta e Volante allo stesso tempo.
+The user dives down onto the target from the sky. This move is Fighting- and Flying-type simultaneously.
 638
 Chi la usa colpisce il nemico con una ginocchiata in volo: se fallisce, subisce danni.
-Chi la usa colpisce il nemico con una ginocchiata in volo: se fallisce, subisce danni.
+The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.
 639
 Bloccando il campo di battaglia, chi la usa impedisce a tutti i Pokémon di fuggire durante il prossimo turno.
 Bloccando il campo di battaglia, chi la usa impedisce a tutti i Pokémon di fuggire durante il prossimo turno.
@@ -37416,61 +37416,61 @@ Chi la usa protegge sé stesso e i suoi alleati usando un potere misterioso. Non
 Chi la usa protegge sé stesso e i suoi alleati usando un potere misterioso. Non blocca le mosse che infliggono danno.
 641
 Chi la usa invoca la maledizione del bosco sul bersaglio, che acquisisce così anche il tipo Erba.
-Chi la usa invoca la maledizione del bosco sul bersaglio, che acquisisce così anche il tipo Erba.
+The user puts a forest curse on the target. Afflicted targets are now Grass-type as well.
 642
 Chi la usa assorbe energia nel primo turno, per aumentare poi notevolmente l'Attacco Speciale, la Difesa Speciale e la Velocità in quella seguente.
-Chi la usa assorbe energia nel primo turno, per aumentare poi notevolmente l'Attacco Speciale, la Difesa Speciale e la Velocità in quella seguente.
+The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.
 643
 Un bacio fatato che assorbe le energie al nemico.
-Un bacio fatato che assorbe le energie al nemico.
+The user steals the target's HP with a kiss. The user's HP is restored by over half of the damage taken by the target.
 644
 L'Attacco di chi la usa aumenta notevolmente se grazie alla mossa il bersaglio va KO.
-L'Attacco di chi la usa aumenta notevolmente se grazie alla mossa il bersaglio va KO.
+When the user knocks out a target with this move, the user's Attack stat rises sharply.
 645
 Chi la usa attacca con delle affilatissime lame di carta. La potenza aumenta ogni volta che mette a segno un colpo.
-Chi la usa attacca con delle affilatissime lame di carta. La potenza aumenta ogni volta che mette a segno un colpo.
+The target is slashed with razor-sharp paper blades. Its power increases if it hits in succession.
 646
 Chi la usa lancia addosso al nemico dei semi piccanti che possono anche scottarlo.
-Chi la usa lancia addosso al nemico dei semi piccanti che possono anche scottarlo.
+The user throws spicy seeds at its target. It may also leave the target with a burn.
 647
 Chi la usa chiama a raccolta i Bremand della squadra: più ce ne sono, più la mossa è potente.
 Chi la usa chiama a raccolta i Bremand della squadra: più ce ne sono, più la mossa è potente.
 648
 Chi la usa svela dei segreti al bersaglio, distraendolo e riducendone l'Attacco Speciale.
-Chi la usa svela dei segreti al bersaglio, distraendolo e riducendone l'Attacco Speciale.
+The user tells the target a secret and lowers the target's Sp. Atk.
 649
 Chi la usa lancia un attacco che tormenta il bersaglio per quattro o cinque turni, durante i quali gli impedisce di fuggire.
-Chi la usa lancia un attacco che tormenta il bersaglio per quattro o cinque turni, durante i quali gli impedisce di fuggire.
+The target is infested and attacked for four to five turns. The target can't flee during this time.
 650
 Chi la usa attacca il bersaglio colpendolo a tutta velocità. Questa mossa ha priorità alta.
-Chi la usa attacca il bersaglio colpendolo a tutta velocità. Questa mossa ha priorità alta.
+The user smashes into the target at high speed. This move always goes first.
 651
 Chi la usa arroventa il proprio becco e poi attacca. Se un Pokémon lo colpisce con un attacco diretto mentre sta accumulando calore, resta scottato.
-Chi la usa arroventa il proprio becco e poi attacca. Se un Pokémon lo colpisce con un attacco diretto mentre sta accumulando calore, resta scottato.
+The user first heats up its beak, and then it attacks the target. Making direct contact with the Pokémon while it's heating up its beak results in a burn.
 652
 Chi la usa infligge danni intorno a sé facendo ruotare una parte del suo corpo.
-Chi la usa infligge danni intorno a sé facendo ruotare una parte del suo corpo.
+The user swings its body around violently to inflict damage on everything in its vicinity.
 653
 Chi la usa attacca sfruttando tutta la sua potenza incendiaria, ma come conseguenza perde il tipo Fuoco.
-Chi la usa attacca sfruttando tutta la sua potenza incendiaria, ma come conseguenza perde il tipo Fuoco.
+To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire-type.
 654
 Chi la usa attacca il bersaglio con un suono fortissimo che genera sfregando le scaglie del corpo. Dopo aver attaccato, la sua Difesa diminuisce.
-Chi la usa attacca il bersaglio con un suono fortissimo che genera sfregando le scaglie del corpo. Dopo aver attaccato, la sua Difesa diminuisce.
+The user rubs the scales on its body and makes a huge noise to attack opposing Pokémon. The user's Defense goes down after the attack.
 655
 Il bersaglio subisce dei danni e, se ha già agito nel turno, perde la sua abilità.
 Il bersaglio subisce dei danni e, se ha già agito nel turno, perde la sua abilità.
 656
 Chi la usa attacca il bersaglio mulinando gli arti. Il danno inflitto ignora le modifiche alle statistiche del bersaglio.
-Chi la usa attacca il bersaglio mulinando gli arti. Il danno inflitto ignora le modifiche alle statistiche del bersaglio.
+The user swings both arms and hits the target. The target's stat changes don't affect this attack's damage.
 657
 Chi la usa infligge danni al bersaglio usando il proprio corpo come se fosse un martello.
-Chi la usa infligge danni al bersaglio usando il proprio corpo come se fosse un martello.
+The user uses its body like a hammer to attack the target and inflict damage.
 658
 Colpisce il bersaglio con una frusta infuocata e ne riduce la Difesa.
-Colpisce il bersaglio con una frusta infuocata e ne riduce la Difesa.
+The user strikes the target with a burning lash. It also lowers the target's Defense stat.
 659
 È una mossa molto potente, ma funziona solo appena scesi in campo.
-È una mossa molto potente, ma funziona solo appena scesi in campo.
+Although this move has great power, it only works the first turn the user is in battle.
 660
 Colpisce il bersaglio con un potente raggio, ma riduce di molto l'Attacco Speciale di chi la usa.
 Colpisce il bersaglio con un potente raggio, ma riduce di molto l'Attacco Speciale di chi la usa.
@@ -37479,28 +37479,28 @@ Fa recuperare metà dei PS massimi al bersaglio. È più efficace quando il terr
 Fa recuperare metà dei PS massimi al bersaglio. È più efficace quando il terreno di lotta è nello stato di Campo Erboso.
 662
 Dà una marcia in più agli alleati con le abilità Meno o Più aumentandone l’Attacco e l’Attacco Speciale.
-Dà una marcia in più agli alleati con le abilità Meno o Più aumentandone l’Attacco e l’Attacco Speciale.
+The user engages its gears to raise the Attack and Sp. Atk of ally Pokémon with Plus or Minus.
 663
 Chi la usa travolge il bersaglio con un attacco possente.
-Chi la usa travolge il bersaglio con un attacco possente.
+The user fiercely attacks the target using its entire body.
 664
 Infligge danni al bersaglio colpendolo con un pugno molto potente. Riduce la velocità di chi la usa.
-Infligge danni al bersaglio colpendolo con un pugno molto potente. Riduce la velocità di chi la usa.
+The user swings and hits with its strong, heavy fist. It lowers the user's Speed, however.
 665
 Costringe il bersaglio a ripetere immediatamente l'ultima mossa che ha sferrato.
 Costringe il bersaglio a ripetere immediatamente l'ultima mossa che ha sferrato.
 666
 Chi la usa si concentra e nel turno successivo metterà sicuramente a segno un brutto colpo.
-Chi la usa si concentra e nel turno successivo metterà sicuramente a segno un brutto colpo.
+The user concentrates intensely. The attack on the next turn always results in a critical hit.
 667
 Attacca il bersaglio con delle foglie.
-Attacca il bersaglio con delle foglie.
+The user attacks by pelting the target with leaves.
 668
 Chi la usa colpisce il bersaglio con la forza dell’acqua. Può anche ridurne la Difesa.
-Chi la usa colpisce il bersaglio con la forza dell’acqua. Può anche ridurne la Difesa.
+The user slams into the target using a full-force blast of water. It may also lower the target's Defense.
 669
 Chi la usa si lancia con tutte le sue forze sul bersaglio e ne riduce l'Attacco.
-Chi la usa si lancia con tutte le sue forze sul bersaglio e ne riduce l'Attacco.
+The user makes a lunge at the target, attacking with full force. It also lowers the target's Attack.
 670
 Chi la usa proietta sul bersaglio un misterioso raggio di luce. Questo attacco ignora l'abilità del bersaglio.
 Chi la usa proietta sul bersaglio un misterioso raggio di luce. Questo attacco ignora l'abilità del bersaglio.
@@ -37521,46 +37521,46 @@ Chi la usa proietta dei potenti raggi di luce grazie alla potenza del suo prisma
 Chi la usa proietta dei potenti raggi di luce grazie alla potenza del suo prisma, ma non può agire nel turno successivo.
 676
 L'utilizzatore morde il bersaglio, rompendo barriere come Schermoluce e Riflesso.
-L'utilizzatore morde il bersaglio, rompendo barriere come Schermoluce e Riflesso.
+The user bites the target with its psychic capabilities. This can also destroy Light Screen and Reflect.
 677
 Per cinque turni i Pokémon a contatto con il terreno di lotta non subiscono danni dalle mosse con priorità alta. La potenza delle mosse di tipo Psico aumenta.
 Per cinque turni i Pokémon a contatto con il terreno di lotta non subiscono danni dalle mosse con priorità alta. La potenza delle mosse di tipo Psico aumenta.
 678
 Il bersaglio viene curato dalle alterazioni di stato. Se la mossa va a segno, chi la usa ripristina i propri PS.
-Il bersaglio viene curato dalle alterazioni di stato. Se la mossa va a segno, chi la usa ripristina i propri PS.
+The user heals the target's status condition. If the move succeeds, it also restores the user's own HP.
 679
 Chi la usa si lancia in una danza e attacca il nemico con tutte le sue forze. Il tipo della mossa corrisponde al tipo del Pokémon che la usa.
 Chi la usa si lancia in una danza e attacca il nemico con tutte le sue forze. Il tipo della mossa corrisponde al tipo del Pokémon che la usa.
 680
 Chi la usa colpisce il bersaglio con un osso in cui alberga uno spirito. Può anche ridurne la Difesa.
-Chi la usa colpisce il bersaglio con un osso in cui alberga uno spirito. Può anche ridurne la Difesa.
+The user attacks by beating the target with a bone that contains a spirit. It may also lower the target's Defense stat.
 681
 Se un nemico colpisce chi la usa con una mossa fisica, dal guscio s'innesca un’esplosione che infligge ingenti danni.
-Se un nemico colpisce chi la usa con una mossa fisica, dal guscio s'innesca un’esplosione che infligge ingenti danni.
+The user sets a shell trap. If the user is hit by a physical move, the trap will explode and inflict damage on the opponent.
 682
 Chi la usa recupera metà dei propri PS massimi. Durante le tempeste di sabbia ne recupera di più.
-Chi la usa recupera metà dei propri PS massimi. Durante le tempeste di sabbia ne recupera di più.
+The user regains up to half of its max HP. It restores more HP in a sandstorm.
 683
 Chi la usa colpisce il bersaglio con un corno appuntito. Questa mossa va sempre a segno.
-Chi la usa colpisce il bersaglio con un corno appuntito. Questa mossa va sempre a segno.
+The user stabs the target with a sharp horn. This attack never misses.
 684
 Chi la usa assorbe la luce condensandola in una lama al primo turno per poi attaccare al turno successivo.
-Chi la usa assorbe la luce condensandola in una lama al primo turno per poi attaccare al turno successivo.
+The user gathers light and fills a blade with the light's energy, attacking the target on the next turn.
 685
 Chi la usa si mette a cantare emettendo tanti palloncini d'acqua, curando dalle scottature i Pokémon colpiti.
-Chi la usa si mette a cantare emettendo tanti palloncini d'acqua, curando dalle scottature i Pokémon colpiti.
+The user bursts into song, emitting many bubbles, and healing any Pokémon suffering from a burn.
 686
 Chi la usa ruba gli aumenti delle statistiche del bersaglio, poi si nasconde nella sua ombra e lo attacca.
-Chi la usa ruba gli aumenti delle statistiche del bersaglio, poi si nasconde nella sua ombra e lo attacca.
+The user hides in the target's shadow, steals the target's stat boosts, and then attacks.
 687
 Chi la usa scambia la propria Velocità con quella del bersaglio.
 Chi la usa scambia la propria Velocità con quella del bersaglio.
 688
 Chi la usa attacca il bersaglio e fissa la sua ombra a terra impedendogli di fuggire.
-Chi la usa attacca il bersaglio e fissa la sua ombra a terra impedendogli di fuggire.
+The user attacks while stitching the target's shadow to the ground to prevent it from escaping.
 689
 Chi la usa accende un riflettore sopra il bersaglio deviando su di lui per quel turno tutti gli attacchi dei suoi nemici.
-Chi la usa accende un riflettore sopra il bersaglio deviando su di lui per quel turno tutti gli attacchi dei suoi nemici.
+The user shines a spotlight on the target so that only the target will be attacked during the turn.
 690
 Fa recuperare una quantità di PS pari all’Attacco del bersaglio, che vedrà diminuire questa statistica.
 Fa recuperare una quantità di PS pari all’Attacco del bersaglio, che vedrà diminuire questa statistica.
@@ -37572,28 +37572,28 @@ Chi la usa guarda il bersaglio con gli occhi pieni di lacrime e gli fa perdere l
 Chi la usa guarda il bersaglio con gli occhi pieni di lacrime e gli fa perdere lo spirito combattivo, riducendone l'Attacco e l'Attacco Speciale.
 693
 Chi viene colpito da questa mossa prova un dolore lancinante e non può più usare mosse di tipo Suono per due turni.
-Chi viene colpito da questa mossa prova un dolore lancinante e non può più usare mosse di tipo Suono per due turni.
+The user attacks the target's throat, preventing it from using moves that emit sound for two turns.
 694
 Avvelena il bersaglio avvolgendolo con filamenti tossici e ne riduce la Velocità.
-Avvelena il bersaglio avvolgendolo con filamenti tossici e ne riduce la Velocità.
+The user shoots poisonous threads to poison the target and lower the target's Speed stat.
 695
 Chi la usa colpisce il bersaglio con una potente tecnica di calcio dei paesi tropicali e ne riduce l’Attacco.
-Chi la usa colpisce il bersaglio con una potente tecnica di calcio dei paesi tropicali e ne riduce l’Attacco.
+The user lands an intense kick of tropical origins on the target. This also lowers the target's Attack stat.
 696
 Chi la usa colpisce il bersaglio investendolo con una potente scarica elettrica che può anche farlo tentennare.
 Chi la usa colpisce il bersaglio investendolo con una potente scarica elettrica che può anche farlo tentennare.
 697
 L'utilizzatore si protegge e se l'avversario attacca con una mossa da contatto viene avvelenato.
-L'utilizzatore si protegge e se l'avversario attacca con una mossa da contatto viene avvelenato.
+In addition to protecting the user from attacks, this move also poisons any attacker that makes direct contact.
 698
 Chi la usa batte i piedi dalla rabbia. Se la mossa usata al turno precedente non è andata a segno, la potenza raddoppia.
-Chi la usa batte i piedi dalla rabbia. Se la mossa usata al turno precedente non è andata a segno, la potenza raddoppia.
+Driven by frustration, the user attacks the target. If the user's previous move has failed, the power of this move doubles.
 699
 Chi la usa colpisce il nemico con un'ancora e lo intrappola nella catena impedendogli di fuggire.
-Chi la usa colpisce il nemico con un'ancora e lo intrappola nella catena impedendogli di fuggire.
+The user lets out a damaging belch on the target. The user must eat a Berry to use this move.
 700
 Riduce i danni provocati dalle mosse fisiche e speciali per cinque turni. Può essere usata solo mentre grandina.
-Riduce i danni provocati dalle mosse fisiche e speciali per cinque turni. Può essere usata solo mentre grandina.
+This move reduces damage from physical and special moves for five turns. It can be used only in a hailstorm.
 701
 Chi la usa attacca il bersaglio con un rutto potente, ma per farlo deve mangiare la Bacca che possiede.
 Chi la usa attacca il bersaglio con un rutto potente, ma per farlo deve mangiare la Bacca che possiede.
@@ -37671,7 +37671,7 @@ Chi la usa disperde delle particelle elettrizzate che trasformano le mosse di ti
 The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves.
 726
 Attacca il nemico con pericolose tenaglie. Se l'attacco va a segno, il nemico va subito KO.
-Attacca il nemico con pericolose tenaglie. Se l'attacco va a segno, il nemico va subito KO.
+A vicious, tearing attack with big pincers. The target faints instantly if this attack hits.
 727
 Chi la usa divora l'energia del bersaglio, recuperando PS pari alla metà del danno inferto.
 The user devours the energy of its target and restore its HP by half the damage taken.
