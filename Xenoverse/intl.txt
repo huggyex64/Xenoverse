@@ -3668,13 +3668,13 @@ Non so quanti fossili si celino in questa melma, ma so che saranno tutti miei!
 Forse potrei anche dividerli con te...
 Forse potrei anche dividerli con te...
 <<[>>old<<]>>Non si muove. Sarà guasto?
-<<[>>old<<]>>Non si muove. Sarà guasto?
+<<[>>old<<]>>It doesn't move. Maybe it is out of order...
 T3M
-T3M
+T1
 Per quanto sono rimasto in standby? È ora di carburare con una lotta! <i>Bzz!</i>
 Per quanto sono rimasto in standby? È ora di carburare con una lotta! <i>Bzz!</i>
 P0
-P0
+M3
 Lo stesso vale per me! <i>Bzz!</i>
 Lo stesso vale per me! <i>Bzz!</i>
 E-Errore.
@@ -5311,7 +5311,7 @@ Puff! It's roasting in here!
 Lottare è stata una pessima idea...
 This battle was a terrible idea...
 <<[>>old<<]>>Non si muove. Sarà guasto?
-<<[>>old<<]>>It doesn’t move. Maybe it is out of order...
+<<[>>old<<]>>It doesn't move. Maybe it is out of order...
 A0A0
 A0A0
 Per quanto sono rimasto in standby? È ora di carburare con una lotta! <i>Bzz!</i>
@@ -5891,7 +5891,7 @@ Only Hudson's got what you're looking for!<<n>>C'mon, have a look!
 Sandman
 Sandman
 Smettetela di insozzare coi vostri passi il canyon! Questa è la terra del popolo di <b>Capricornia</b>!
-Stop fouling the canyon with your footsteps!<<n>>This land belongs to us, the people of <b>Equinox</b>!
+Stop fouling the canyon with thy footsteps!<<n>>This land belongs to us, the people of <b>Equinox</b>!
 Jackson
 Jackson
 Taci! Questo canyon è mio e della mia banda, capito?!
@@ -5913,7 +5913,7 @@ What?! You want us to work together?<<n>>Who do you think you can lecture, huh?!
 Ti meriti proprio una bella lezione!
 You need a lesson, kid!
 Vi siete immischiato|a in questioni delicate, forestiero|a! Non avreste dovuto...!
-You should have kept your distance from issues you can't understand, foreigner...!
+Thou should have kept thy distance from issues<<n>>thou can't understand, foreigner...!
 Una volta tanto siamo d’accordo. Facciamo la pelle a ‘sto|a moccioso|a!!
 We all agree for once. Let's get rid of this nosey lil' brat!
 ...!
@@ -5931,7 +5931,7 @@ That's a really good idea. Each of us would get his cut!
 Potremmo persino correrci in aiuto in caso di pericolo...
 We could even help each other in dangerous situations...
 Perdonatemi se sono stato brusco con voi, volevate solo riappacificarci... e ci siete riusciti! Vi prego, accettate questa come ringraziamento.
-Please, forgive me if I was rough on you there...you only wanted to mend our fences and you did it!<<n>>Please, accept this as a sign of my gratitude.
+Please, forgive me if I was rough on thou there...<<b>>Thou only wanted to mend our fences and thou did it!<<n>>Please, accept this as a sign of my gratitude.
 Ora però fuori dai piedi! Abbiamo tanto di cui discutere.
 Yeah, yeah, outta my way now! We gotta get down<<n>>to business.
 55G
@@ -10446,7 +10446,7 @@ Golden Studio
 Poloma
 Poloma
 Prima di diventare Cardinale, Peyote ha girato il mondo, traendo il meglio da qualsiasi cultura incontrasse. Nessuno dovrebbe mai degnarsi di scavalcare le altre!
-Prima di diventare Cardinale, Peyote ha girato il mondo, traendo il meglio da qualsiasi cultura incontrasse. Nessuno dovrebbe mai degnarsi di scavalcare le altre! 
+Before becoming Cardinal, Peyote traveled the world,<<n>>taking the best of every culture he met.<<n>>Nobody should think of imposing themselves on others!
 Rapidash
 Rapidash
 Ra...!
@@ -10456,15 +10456,15 @@ Ra...!
 Salali
 Salali
 Voi che siete ancora un pulcino, ricordate di non privare mai altrui della gioia e anzi, procuratene quando potete.
-Voi che siete ancora un pulcino, ricordate di non privare mai altrui della gioia e anzi, procuratene quando potete.
+Thou who are still a young chick, thou shall deprive no one<<n>>of their joy--rather, bestow thine upon them.
 <<[>>old<<]>><b>Capricornia</b> <i>''Terra infuocata come il tramonto.''</i>
-<<[>>old<<]>><b>Capricornia</b> <i>''Terra infuocata come il tramonto.''</i>
+<<[>>old<<]>><b>Equinox Village</b>\n<i>''The land burning like sunset.''</i>
 Pahana
 Pahana
 Voi non appartenete alla tribù di Capricornia... Tenete, voglio darvi questo in segno di benvenuto.
-Voi non appartenete alla tribù di Capricornia... Tenete, voglio darvi questo in segno di benvenuto.
+Thou do not belong to Equinox's tribe...<<n>>Thou shall be given this, as my welcoming token.
 Spero voi vogliate fare vostre le sacre tradizioni del nostro popolo.
-Spero voi vogliate fare vostre le sacre tradizioni del nostro popolo.
+Newcomer, I long for thou to hallow our sacred heritage.
 Bouffalant
 Bouffalant
 Bouff...!
@@ -10472,25 +10472,25 @@ Bouff...!
 Kele
 Kele
 I grandi ci insegnano a rispettare la terra, con l’augurio che noi un giorno faremo lo stesso coi nostri figli.
-I grandi ci insegnano a rispettare la terra, con l’augurio che noi un giorno faremo lo stesso coi nostri figli.
+Our elders taught us to treat the Earth well, wishing that<<b>>one day the same will be done with our children.
 Giordana
-Giordana
+Kiowa
 Niente da fare, le mie piante non ne vogliono proprio sapere. Se solo avessi dell'<b>Acqua Mistica</b>...
-Niente da fare, le mie piante non ne vogliono proprio sapere. Se solo avessi dell'<b>Acqua Mistica</b>...
+It is pointless, my plants will not grow, not even a bit.<<n>>If only I had some <b>Miracle Water</b>...
 Oh, avete dell'Acqua Mistica per me? Accetto volentieri il vostro dono!
-Oh, avete dell'Acqua Mistica per me? Accetto volentieri il vostro dono!
+Oh, thou have some Miracle Water for me?<<n>>I will be pleased to accept thy gift!
 Vi prego almeno di accettare questo in cambio.
-Vi prego almeno di accettare questo in cambio.
+Please, at least accept this in return.
 Lo <b>Scacciasogni</b> vi proteggerà dagli spiriti maligni.
-Lo <b>Scacciasogni</b> vi proteggerà dagli spiriti maligni.
+The <b>Dreamcatcher</b> will protect thee from evil spirits.
 Ahiga
 Ahiga
 Voi siete il||la baldo|a giovane che ha scongiurato la burrasca nel canyon! Avete trovato il giusto impiego della MT che vi consegnai tempo addietro?
-Voi siete il||la baldo|a giovane che ha scongiurato la burrasca nel canyon! Avete trovato il giusto impiego della MT che vi consegnai tempo addietro?
+Thou are the valiant Trainer who quelled the storm<<n>>in the canyon!<<n>>Did thou find the proper use of the TM I entrusted thee<<n>>some time ago?
 Ashkii
 Ashkii
 Quello che portate è davvero un curioso copricapo, sapete?
-Quello che portate è davvero un curioso copricapo, sapete?
+Thy headgear is surely odd indeed, thou know?
 [Map224]
 <<[>>old<<]>>C'è solo spazzatura...
 <<[>>old<<]>>Just garbage...
@@ -11447,15 +11447,15 @@ Grandi sono le ricchezze che ci offre il cielo sotto cui muoviamo i passi.
 Melody
 Melody
 I vostri Pokémon hanno bisogno di cure? Coi rimedi che la terra ci ha fornito potrei guarirli in un baleno.
-I vostri Pokémon hanno bisogno di cure? Coi rimedi che la terra ci ha fornito potrei guarirli in un baleno.
+Do thy Pokémon need care? With the remedies mother<<n>>Earth gave us, I could restore them in a flash.
 <<[>>old<<]>>Ora va molto meglio.
 <<[>>old<<]>>So much better now!
 Tornate a trovarmi. Sarò lieta di fornirvi il mio aiuto.
-Tornate a trovarmi. Sarò lieta di fornirvi il mio aiuto.
+Come back to see me. I will be glad to offer my aid.
 Kohana
 Kohana
 I Pokémon feriti sono al sicuro nelle mani sapienti della sorellona.
-I Pokémon feriti sono al sicuro nelle mani sapienti della sorellona.
+Injured Pokémon are safe in the wise hands of my big sister.
 Sì
 Yes
 No
@@ -12363,9 +12363,9 @@ Ahiga
 Sono giunto sino a qui dalla mia <b>Capricornia</b> per poter ammirare la bellezza di quest’oasi, ma quelle impetuose raffiche di vento nel canyon mi impediscono di fare ritorno nella mia terra... Se qualcuno riuscisse a placarle, meriterebbe davvero una lauta ricompensa.
 I came here from distant <b>Equinox Village</b> just to enjoy the beauty of this oasis,<<n>>but those fiery winds prevent me from going back to<<n>>my homeland...<<n>>If someone could stop those, they would deserve<<n>>a generous reward.
 Siete riuscito|a a placare la burrasca nel canyon! Prendete, ve la siete meritata.
-You managed to appease the gale in the canyon!<<n>>Here you go, you deserve it.
+Thou managed to appease the gale in the canyon!<<n>>Here thou go, thee deserve it.
 Ora potrò finalmente fare ritorno nel mio villaggio!
-I'm going back to my village now!
+Finally now I can return to my beloved village!
 Lina
 Lillie
 Un, due, tre... Starmie!!
@@ -45185,7 +45185,7 @@ GF5
 510 & 179
 510 & 179
 T3M & P0
-T3M & P0
+T1 & M3
 DX3 & DX4
 DX3 & DX4
 T3S
@@ -57199,7 +57199,8 @@ Hai catturato {1} Pokémon della regione di Eldiw e {2} dello Xenoverse.
 You've caught {1} Pokémon and {2} X Pokémon.
 Hai visto {1} Pokémon Retrò e ne hai catturati {2}.
 You've seen {1} Vintage Pokémon, and you've caught {2} Vintage Pokémon.
-
+Gennaro
+Joey
 
 
 
