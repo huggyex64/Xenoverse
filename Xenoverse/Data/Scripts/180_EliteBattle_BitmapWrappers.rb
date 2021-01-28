@@ -153,7 +153,7 @@ class AnimatedBitmapWrapper
     
     if @frame >=@frames
       # processes animation speed
-      @currentIndex+=@direction
+      @currentIndex+=@direction if Graphics.frame_count % (Graphics.frame_rate) == 1
       @currentIndex=@loop_points[0] if @currentIndex >=@loop_points[1]
       @currentIndex=@loop_points[1]-1 if @currentIndex < @loop_points[0]
       @frame=0

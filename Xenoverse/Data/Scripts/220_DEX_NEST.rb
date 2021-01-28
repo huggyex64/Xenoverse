@@ -20,7 +20,7 @@ class DexNest
 		@sprites["daytime"] = Sprite.new(@viewport)
 		@sprites["daytime"].z = 50
 		@sprites["daytime"].x = 12
-		@sprites["daytime"].y = 12
+		@sprites["daytime"].y = Graphics.height - 35 - 12
 
 		@points = {}
 		for y in 0..@ysize
@@ -144,7 +144,7 @@ end
 def pbFindEncounterNight(encounter,species)
 	return false if !encounter
 	for i in 0...encounter.length
-		next if !encounter[i] || i!=11
+		next if !encounter[i] || (i!=11 && i!=0)
 		for j in 0...encounter[i].length
 			return true if encounter[i][j][0]==species
 		end

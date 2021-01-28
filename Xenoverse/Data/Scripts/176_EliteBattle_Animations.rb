@@ -83,7 +83,7 @@ class PokeBattle_Scene
           when PBStatuses::SLEEP
             @sprites["pokemon#{i}"].actualBitmap.setSpeed(3)
           when PBStatuses::PARALYSIS
-            @sprites["pokemon#{i}"].actualBitmap.setSpeed(2)
+            @sprites["pokemon#{i}"].actualBitmap.setSpeed(3)
             @sprites["pokemon#{i}"].status=2
           when PBStatuses::FROZEN
             @sprites["pokemon#{i}"].actualBitmap.setSpeed(0)
@@ -93,7 +93,7 @@ class PokeBattle_Scene
           when PBStatuses::BURN
             @sprites["pokemon#{i}"].status=4
           else
-            @sprites["pokemon#{i}"].actualBitmap.setSpeed(1)
+            @sprites["pokemon#{i}"].actualBitmap.setSpeed(4)
             @sprites["pokemon#{i}"].status=0
           end
         end

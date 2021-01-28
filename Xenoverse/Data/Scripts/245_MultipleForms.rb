@@ -220,26 +220,32 @@ end
 def drawSpot(bitmap,spotpattern,x,y,red,green,blue)
 	height=spotpattern.length
 	width=spotpattern[0].length
+	@oldf = Graphics.frame_rate
+	Graphics.frame_rate = 40
 	for yy in 0...height
-		spot=spotpattern[yy]
+		echoln "YY: #{yy}"
 		for xx in 0...width
-			if spot[xx]==1
+			echoln "XX: #{xx}"
+			if spotpattern[yy][xx]==1
 				xOrg=(x+xx)<<1
 				yOrg=(y+yy)<<1
 				color=bitmap.get_pixel(xOrg,yOrg)
 				r=color.red+red
 				g=color.green+green
 				b=color.blue+blue
+				
 				color.red=[[r,0].max,255].min
 				color.green=[[g,0].max,255].min
 				color.blue=[[b,0].max,255].min
+				echoln "Drawing spot at #{xOrg} #{yOrg}"
 				bitmap.set_pixel(xOrg,yOrg,color)
 				bitmap.set_pixel(xOrg+1,yOrg,color)
 				bitmap.set_pixel(xOrg,yOrg+1,color)
 				bitmap.set_pixel(xOrg+1,yOrg+1,color)
-			end   
+			end
 		end
 	end
+	Graphics.frame_rate = @oldf
 end
 
 def pbSpindaSpots(pokemon,bitmap)
@@ -295,23 +301,33 @@ def pbSpindaSpots(pokemon,bitmap)
 		[0,0,0,0,1,1,1,1,1,0,0,0]
 	]
 	id=pokemon.personalID
-	h=(id>>28)&15
-	g=(id>>24)&15
-	f=(id>>20)&15
-	e=(id>>16)&15
-	d=(id>>12)&15
-	c=(id>>8)&15
-	b=(id>>4)&15
-	a=(id)&15
+	echoln id
+	h = (id>>28)&15
+  	g = (id>>24)&15
+  	f = (id>>20)&15
+  	e = (id>>16)&15
+  	d = (id>>12)&15
+  	c = (id>>8)&15
+  	b = (id>>4)&15
+  	a = (id)&15
+	echoln id
 	if pokemon.isShiny?
+		echoln "drawing s spots 1"
 		drawSpot(bitmap,spot1,b+33,a+25,-75,-10,-150)
+		echoln "drawing s spots 2"
 		drawSpot(bitmap,spot2,d+21,c+24,-75,-10,-150)
+		echoln "drawing s spots 3"
 		drawSpot(bitmap,spot3,f+39,e+7,-75,-10,-150)
+		echoln "drawing s spots 4"
 		drawSpot(bitmap,spot4,h+15,g+6,-75,-10,-150)
 	else
+		echoln "drawing spots 1"
 		drawSpot(bitmap,spot1,b+33,a+25,0,-115,-75)
+		echoln "drawing spots 2"
 		drawSpot(bitmap,spot2,d+21,c+24,0,-115,-75)
+		echoln "drawing spots 3"
 		drawSpot(bitmap,spot3,f+39,e+7,0,-115,-75)
+		echoln "drawing spots 4"
 		drawSpot(bitmap,spot4,h+15,g+6,0,-115,-75)
 	end
 end

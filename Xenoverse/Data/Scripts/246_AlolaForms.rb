@@ -1029,6 +1029,8 @@ class AnimatedBitmapWrapper
       @frames=4
     when 3
       @frames=5
+    when 4 
+      @frames=3
     end
     @frame+=1
 

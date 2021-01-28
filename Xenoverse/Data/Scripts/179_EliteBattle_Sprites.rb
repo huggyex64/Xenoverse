@@ -173,6 +173,7 @@ class DynamicPokemonSprite
   def setBitmap(file,shadow=false)
     @showshadow = shadow
     @bitmap = AnimatedBitmapWrapper.new(file)
+    @bitmap.setSpeed(3) 
     @sprite.bitmap = @bitmap.bitmap.clone
     @shadow.bitmap = @bitmap.bitmap.clone    
     @loaded = true
@@ -192,6 +193,7 @@ class DynamicPokemonSprite
 		@yposition = pbFormMetricsOverride(pokemon,pokemon.form,@yposition)
     scale = back ? BACKSPRITESCALE : POKEMONSPRITESCALE
     @bitmap = pbLoadPokemonBitmap(pokemon,back,scale)
+    @bitmap.setSpeed(3) 
     @sprite.bitmap = @bitmap.bitmap.clone
     @shadow.bitmap = @bitmap.bitmap.clone
     @sprite.ox = @bitmap.width/2
@@ -303,7 +305,8 @@ class DynamicPokemonSprite
     end
     @anim = false
     # Pokémon sprite blinking when targeted or damaged
-    @frame += 1
+    #echoln Graphics.frame_count%3
+    #@frame += 1 if ![1,2].include?(Graphics.frame_count%3)
     if @selected==2 # When targeted or damaged
       @sprite.visible = (@frame%10<7) && !@hidden
     end
