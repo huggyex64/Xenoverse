@@ -39,7 +39,6 @@ end
 
 def pbCallTitle #:nodoc:
   $DEBUG=false
-  Graphics.frame_rate=60
   if $MKXP
     System.set_window_title("Xenoverse - Per Aspera Ad Astra")
   end
