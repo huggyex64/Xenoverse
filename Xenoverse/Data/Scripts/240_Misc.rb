@@ -13,12 +13,14 @@ def pbBattleAltForm(species,level,form=0,variable=nil,canescape=true,canlose=fal
       end
     end
   end
+  pkmn.calcStats
   skipanim = true if species == PBSpecies::TOKAKLE
   pbWildPokemonBattle(pkmn,variable,canescape,canlose,skipanim)
 end
 
 def pbBattleAltPokemonForm(pkmn,form=0,variable=nil,canescape=true,canlose=false,skipanim=false)
   pkmn.forcedForm=form
+  pkmn.calcStats
   pbWildPokemonBattle(pkmn,variable,canescape,canlose,skipanim) 
 end
 
@@ -726,12 +728,11 @@ def pbGetIncense(baby)
   return 0
 end
 
-
-
 # Faster method for drawing outlines in MKXP.
 
 if $MKXP
 
+  
   class Sprite
     attr_accessor :cachedOutlined
 

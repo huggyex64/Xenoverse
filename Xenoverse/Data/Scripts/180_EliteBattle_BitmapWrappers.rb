@@ -50,7 +50,8 @@ class AnimatedBitmapWrapper
       # 2 - medium speed
       # 3 - slow speed
     bmp = BitmapCache.load_bitmap(file)
-		echoln("file: #{file} - width: #{bmp.width} - height: #{bmp.height}")
+    echoln("file: #{file} - width: #{bmp.width} - height: #{bmp.height}")
+    @file = file
     #bmp = Bitmap.new(file)
     @bitmapFile=Bitmap.new(bmp.width,bmp.height); @bitmapFile.blt(0,0,bmp,Rect.new(0,0,bmp.width,bmp.height))
     # initializes full Pokemon bitmap

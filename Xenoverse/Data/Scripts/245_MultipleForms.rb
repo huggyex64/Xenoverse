@@ -220,12 +220,12 @@ end
 def drawSpot(bitmap,spotpattern,x,y,red,green,blue)
 	height=spotpattern.length
 	width=spotpattern[0].length
-	@oldf = Graphics.frame_rate
-	Graphics.frame_rate = 40
+	finalspots=[]
 	for yy in 0...height
 		echoln "YY: #{yy}"
 		for xx in 0...width
 			echoln "XX: #{xx}"
+			echoln "spot #{spotpattern[yy][xx]}"
 			if spotpattern[yy][xx]==1
 				xOrg=(x+xx)<<1
 				yOrg=(y+yy)<<1
@@ -237,18 +237,24 @@ def drawSpot(bitmap,spotpattern,x,y,red,green,blue)
 				color.red=[[r,0].max,255].min
 				color.green=[[g,0].max,255].min
 				color.blue=[[b,0].max,255].min
-				echoln "Drawing spot at #{xOrg} #{yOrg}"
-				bitmap.set_pixel(xOrg,yOrg,color)
-				bitmap.set_pixel(xOrg+1,yOrg,color)
-				bitmap.set_pixel(xOrg,yOrg+1,color)
-				bitmap.set_pixel(xOrg+1,yOrg+1,color)
-			end
+				echoln "Drawing spot at X: #{xx} #{xOrg} Y: #{yy} #{yOrg}"
+				finalspots.push([xOrg,yOrg,color])
+				finalspots.push([xOrg+1,yOrg,color])
+				finalspots.push([xOrg,yOrg+1,color])
+				finalspots.push([xOrg+1,yOrg+1,color])
+				#bitmap.set_pixel(xOrg,yOrg,color)
+				#bitmap.set_pixel(xOrg+1,yOrg,color)
+				#bitmap.set_pixel(xOrg,yOrg+1,color)
+				#bitmap.set_pixel(xOrg+1,yOrg+1,color)
+				
+			end   
 		end
 	end
-	Graphics.frame_rate = @oldf
+	return finalspots
 end
 
 def pbSpindaSpots(pokemon,bitmap)
+	echoln "loading spots"
 	spot1=[
 		[0,0,1,1,1,1,0,0],
 		[0,1,1,1,1,1,1,0],
@@ -300,6 +306,8 @@ def pbSpindaSpots(pokemon,bitmap)
 		[0,0,1,1,1,1,1,1,1,1,0,0],
 		[0,0,0,0,1,1,1,1,1,0,0,0]
 	]
+	echoln "loaded spots"
+	echoln "checking id"
 	id=pokemon.personalID
 	echoln id
 	h = (id>>28)&15
@@ -310,25 +318,56 @@ def pbSpindaSpots(pokemon,bitmap)
   	c = (id>>8)&15
   	b = (id>>4)&15
   	a = (id)&15
+	echoln "checked id"
 	echoln id
+	finalspots = []
 	if pokemon.isShiny?
+		
 		echoln "drawing s spots 1"
-		drawSpot(bitmap,spot1,b+33,a+25,-75,-10,-150)
+		#finalspots.concat(drawSpot(bitmap,spot1,b+33,a+25,-75,-10,-150))
+		for spot in drawSpot(bitmap,spot1,b+33,a+25,-75,-10,-150)
+			bitmap.set_pixel(spot[0],spot[1],spot[2])
+		end
 		echoln "drawing s spots 2"
-		drawSpot(bitmap,spot2,d+21,c+24,-75,-10,-150)
+		#finalspots.concat(drawSpot(bitmap,spot2,d+21,c+24,-75,-10,-150))
+		for spot in drawSpot(bitmap,spot2,d+21,c+24,-75,-10,-150)
+			bitmap.set_pixel(spot[0],spot[1],spot[2])
+		end
 		echoln "drawing s spots 3"
-		drawSpot(bitmap,spot3,f+39,e+7,-75,-10,-150)
+		#finalspots.concat(drawSpot(bitmap,spot3,f+39,e+7,-75,-10,-150))
+		for spot in drawSpot(bitmap,spot3,f+39,e+7,-75,-10,-150)
+			bitmap.set_pixel(spot[0],spot[1],spot[2])
+		end
 		echoln "drawing s spots 4"
-		drawSpot(bitmap,spot4,h+15,g+6,-75,-10,-150)
+		#finalspots.concat(drawSpot(bitmap,spot4,h+15,g+6,-75,-10,-150))
+		for spot in drawSpot(bitmap,spot4,h+15,g+6,-75,-10,-150)
+			bitmap.set_pixel(spot[0],spot[1],spot[2])
+		end
 	else
 		echoln "drawing spots 1"
-		drawSpot(bitmap,spot1,b+33,a+25,0,-115,-75)
+		#finalspots.concat(drawSpot(bitmap,spot1,b+33,a+25,0,-115,-75))
+		for spot in drawSpot(bitmap,spot1,b+33,a+25,0,-115,-75)
+			bitmap.set_pixel(spot[0],spot[1],spot[2])
+		end
 		echoln "drawing spots 2"
-		drawSpot(bitmap,spot2,d+21,c+24,0,-115,-75)
+		#finalspots.concat(drawSpot(bitmap,spot2,d+21,c+24,0,-115,-75))
+		for spot in drawSpot(bitmap,spot2,d+21,c+24,0,-115,-75)
+			bitmap.set_pixel(spot[0],spot[1],spot[2])
+		end
 		echoln "drawing spots 3"
-		drawSpot(bitmap,spot3,f+39,e+7,0,-115,-75)
+		#finalspots.concat(drawSpot(bitmap,spot3,f+39,e+7,0,-115,-75))
+		for spot in drawSpot(bitmap,spot3,f+39,e+7,0,-115,-75)
+			bitmap.set_pixel(spot[0],spot[1],spot[2])
+		end
 		echoln "drawing spots 4"
-		drawSpot(bitmap,spot4,h+15,g+6,0,-115,-75)
+		#finalspots.concat(drawSpot(bitmap,spot4,h+15,g+6,0,-115,-75))
+		for spot in drawSpot(bitmap,spot4,h+15,g+6,0,-115,-75)
+			bitmap.set_pixel(spot[0],spot[1],spot[2])
+		end
+	end
+	echoln "Number of spots is #{finalspots.length}"
+	for spot in finalspots
+		bitmap.set_pixel(spot[0],spot[1],spot[2])
 	end
 end
 
@@ -338,11 +377,11 @@ MultipleForms.register(:UNOWN,{
 		}
 	})
 
-MultipleForms.register(:SPINDA,{
-		"alterBitmap"=>proc{|pokemon,bitmap|
-			pbSpindaSpots(pokemon,bitmap)
-		}
-	})
+#MultipleForms.register(:SPINDA,{
+#		"alterBitmap"=>proc{|pokemon,bitmap|
+#			#pbSpindaSpots(pokemon,bitmap)
+#		}
+#	})
 
 MultipleForms.register(:CASTFORM,{
 		"type1"=>proc{|pokemon|

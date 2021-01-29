@@ -240,7 +240,7 @@ class Game_Character
     else
       update_stop
     end
-    if @anime_count > 18 - @move_speed * 3
+    if @anime_count > (18 - (@move_speed*Graphics.frame_scale) * 3)
       if not @step_anime and @stop_count > 0
         @pattern = @original_pattern
       else
@@ -281,7 +281,7 @@ class Game_Character
   end
 
   def update_move
-    distance = 2 ** @move_speed
+    distance = (2 ** (@move_speed* Graphics.frame_scale)) * Graphics.frame_duration
     realResX=Game_Map.realResX
     realResY=Game_Map.realResY
     if @y * realResY > @real_y
