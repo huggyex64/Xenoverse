@@ -281,7 +281,7 @@ You know yourself that, since its launch, PokéWES has sold thousands of units i
 Finché si limitavano ad un paio, era sufficiente effettuare il ripristino e non avevo di che preoccuparmi.... ... ma quando hanno cominciato a diventare centinaia e centinaia, la faccenda ha iniziato a puzzarmi.
 As long as they were just a few, they just needed to be reset, hence I had nothing to worry about...<<n>>...but when they became hundreds upon hundreds,<<n>>I started thinking there was something bad behind it.
 Ero certo ci fosse l’attacco hacker di qualche furbetto dietro a tutto, e infatti è proprio così!
-I was sure it was some wasel's hacking attack,<<n>>and it is indeed!
+I was sure it was some weasel's hacking attack,<<n>>and it is indeed!
 Per quanto sia perfettamente identico al definitivo, quello che possiedi tu è pur sempre un prototipo, manchevole, peraltro, della funzione <b>Chiamata</b> aggiunta al dispositivo in corsa... Ed è proprio questa ad essere stata manomessa dall’hacker!
 Although it is perfectly identical to the definitive,<<n>>what you have is still a prototype model,<<n>>and it lacks, however, the <b>Call Service</b> added to the device half-way...<<n>>And this is exactly what has been compromised by<<n>>the hacker!
 Ci ho messo un po’, ma sono riuscito finalmente a individuare la fonte madre...
@@ -14308,7 +14308,7 @@ Henna
 Ma chi si vede, \PN! Allora, che mi dici?
 Look who's here, \PN! How is it going?
 Tranquillo|a, so già tutto. Il nonno mi aveva detto che t’avrebbe mandato da quel vecchio Capopalestra. Piuttosto, volevo chiederti un piccolo favore.
-Cut the chatter, I already know everything. Grandpa said that<<n>>he'd send you to that old Gym Leader.<<n>>Actually, I have a small favour to ask.
+Cut the chatter, I already know everything. Grandpa said<<n>>that he'd send you to that old Gym Leader.<<n>>Actually, I have a small favour to ask.
 Ho trovato quest’Uovo nelle quinte del mio Circo Sirio.
 I found this Egg behind the stage of Sunshine Circus.
 Me ne prenderei cura per fare del nascituro una fiera feroce, ma purtroppo proprio non ne ho modo...
@@ -14318,7 +14318,7 @@ You wanna take it?
 Circo Sirio
 Sunshine Circus
 Non ho proprio idea di cosa spunterà fuori, lascerò a te il piacere di scoprirlo!
-I have no idea what will hatch, but I'll leave you<<n>>the pleasure to find out!
+I have no idea what will hatch, but I'll leave you<<n>>the pleasure to find it out!
 La tua squadra è al completo! Libera un posto se proprio ci tieni ad avere quest’Uovo.
 Your party is full! Make some space, if you really want<<n>>this Egg.
 Capisco, anche tu hai il tuo gran da fare. Fammi sapere se cambi idea, però!
@@ -16723,37 +16723,37 @@ No
 <<[>>old<<]>>It's time to reunite with daddy. You cannot go back!
 [Map380]
 <<[>>old<<]>>Dossier di ricerca - 1 ''Giorno 1. Studiando le leggende della regione di Eldiw, siamo venuti al corrente dell'esistenza di altri tre Pokémon, un tempo facenti parte dell'essere primordiale. Potrebbero tornarci utili, perciò sarà presto avviata una spedizione con lo scopo di catturarli.''
-<<[>>old<<]>>Dossier di ricerca - 1 ''Giorno 1. Studiando le leggende della regione di Eldiw, siamo venuti al corrente dell'esistenza di altri tre Pokémon, un tempo facenti parte dell'essere primordiale. Potrebbero tornarci utili, perciò sarà presto avviata una spedizione con lo scopo di catturarli.''
+<<[>>old<<]>>Research file - 1\n''Day 1.\nBy studying the legends of Eldiw region, we came across the existance of three other Pokémon that once were parts of the primeval creature.\nThey might turn out to be useful, therefore an expedition will soon be organized in order to catch them.''
 <<[>>old<<]>>C'è dell'altro. Vuoi continuare a leggere?
-<<[>>old<<]>>C'è dell'altro. Vuoi continuare a leggere?
+<<[>>old<<]>>There's more. Do you want to continue reading?
 <<[>>old<<]>>''Giorno 3.\nVarie squadre di cattura sono partite alla volta del Vulcano Pulsar, del Nido Boreale e del Tempio Shyleon, luoghi designati come tane dei tre Pokémon iniziali.''
-<<[>>old<<]>>''Giorno 3.\nVarie squadre di cattura sono partite alla volta del Vulcano Pulsar, del Nido Boreale e del Tempio Shyleon, luoghi designati come tane dei tre Pokémon iniziali.''
+<<[>>old<<]>>''Day 3.\nNumerous research squads were sent to\nMt. Starburst, Aurora Den, and the Shyleon Temple, places designated as dens for the three starter Pokémon.''
 <<[>>old<<]>>''Giorno 7.\nSiamo finalmente riusciti a mettere le mani sui tre Pokémon iniziali. La sperimentazione può avere inizio.''
-<<[>>old<<]>>''Giorno 7.\nSiamo finalmente riusciti a mettere le mani sui tre Pokémon iniziali. La sperimentazione può avere inizio.''
+<<[>>old<<]>>''Day 7.\nWe finally managed to get our hands on the three starter Pokémon.\nExperiments can now finally begin.''
 <<[>>old<<]>>''Giorno 14.\nNessuna nuova informazione ricavata dai tre Pokémon. Inoltre, dato l'imminente parto di mia moglie, la sperimentazione procederà più a rilento del previsto, per poter passare più tempo con lei.''
-<<[>>old<<]>>''Giorno 14.\nNessuna nuova informazione ricavata dai tre Pokémon. Inoltre, dato l'imminente parto di mia moglie, la sperimentazione procederà più a rilento del previsto, per poter passare più tempo con lei.''
+<<[>>old<<]>>''Day 14.\nNo new data gathered from the three Pokémon.\nMoreover, since my wife is about to give birth,\nthe experiments will proceed at a slower pace,\nso that I can spend more time with her.''
 <<[>>old<<]>>''Giorno 20.\nÈ finalmente nato mio figlio ed è in perfetta salute. Mi terrò ancora lontano dai laboratori per qualche anno, tuttavia la sperimentazione continuerà ancora, sotto la guida di Victor.''
-<<[>>old<<]>>''Giorno 20.\nÈ finalmente nato mio figlio ed è in perfetta salute. Mi terrò ancora lontano dai laboratori per qualche anno, tuttavia la sperimentazione continuerà ancora, sotto la guida di Victor.''
+<<[>>old<<]>>''Day 20.\nMy son is finally born and healthy.\nI'll still keep myself away from the labs for a few years, but the experiments will still continue,\nunder Victor's guidance.''
 <<[>>old<<]>>Non sembrerebbe esserci altro qui...
-<<[>>old<<]>>Non sembrerebbe esserci altro qui...
+<<[>>old<<]>>There seems to be nothing more here...
 <<[>>old<<]>>''Giorno 20.\nÈ finalmente nata mia figlia ed è in perfetta salute. Mi terrò ancora lontano dai laboratori per qualche anno, tuttavia la sperimentazione continuerà ancora, sotto la guida di Victor.''
-<<[>>old<<]>>''Giorno 20.\nÈ finalmente nata mia figlia ed è in perfetta salute. Mi terrò ancora lontano dai laboratori per qualche anno, tuttavia la sperimentazione continuerà ancora, sotto la guida di Victor.''
+<<[>>old<<]>>''Day 20.\nMy daughter is finally born and healthy.\nI'll still keep myself away from the labs for a few years, but the experiments will still continue,\nunder Victor's guidance.''
 <<[>>old<<]>>Dossier di ricerca - 3\n''Giorno 1.\nDannazione! È avvenuto un inconveniente per niente prevedibile. Durante le sperimentazioni sul DNA precedentemente estratto dai tre Pokémon iniziali è avvenuto un black-out che ha scatenato un'esplosione. Il figlio di una delle scienziate è rimasto coinvolto nell'esplosione, rimanendo in fin di vita. Provvederemo ad installargli componenti meccaniche per far sì che continui a vivere.''
-<<[>>old<<]>>Dossier di ricerca - 3\n''Giorno 1.\nDannazione! È avvenuto un inconveniente per niente prevedibile. Durante le sperimentazioni sul DNA precedentemente estratto dai tre Pokémon iniziali è avvenuto un black-out che ha scatenato un'esplosione. Il figlio di una delle scienziate è rimasto coinvolto nell'esplosione, rimanendo in fin di vita. Provvederemo ad installargli componenti meccaniche per far sì che continui a vivere.''
+<<[>>old<<]>>Research file - 3\n''Day 1.\nDarn it! An unpredictable inconvenience happened. During experimentation on the DNA previously extracted from the three starter Pokémon,\na black-out occured, causing an explosion.\nThe son of one of the scientists has been hit\nby the explosion, and is now barely alive.\nWe'll make sure to install mechanical parts to his body so that his life can continue.''
 <<[>>old<<]>>''Giorno 2.\nUno scienziato ha rivelato di aver visto un Pokémon a seguito dell'esplosione. Lo stiamo ancora cercando nei laboratori.''
-<<[>>old<<]>>''Giorno 2.\nUno scienziato ha rivelato di aver visto un Pokémon a seguito dell'esplosione. Lo stiamo ancora cercando nei laboratori.''
+<<[>>old<<]>>''Day 2.\nA scientist confessed seeing a Pokémon after the explosion. We're still searching for it in the labs.''
 <<[>>old<<]>>''Giorno 3.\nAbbiamo trovato il Pokémon. Non abbiamo alcun dato relativo ad esso, ma pare sia stato generato dal black-out stesso. Lo abbiamo rinominato <b>Sabolt</b>.''
-<<[>>old<<]>>''Giorno 3.\nAbbiamo trovato il Pokémon. Non abbiamo alcun dato relativo ad esso, ma pare sia stato generato dal black-out stesso. Lo abbiamo rinominato <b>Sabolt</b>.''
+<<[>>old<<]>>''Day 3.\nWe found the Pokémon. We have no data pertaining it, but it seems it has been generated by the blackout itself. We named it <b>Sabolt</b>.''
 <<[>>old<<]>>''Giorno 6.\n<b>Trey</b>, il ragazzino rimasto ferito durante l'incidente, si è ristabilito dall'operazione. Seppur un po' ribelle, ora è un cyborg ai nostri ordini. Inoltre, Sabolt sembra provare interesse nei suoi confronti.''
-<<[>>old<<]>>''Giorno 6.\n<b>Trey</b>, il ragazzino rimasto ferito durante l'incidente, si è ristabilito dall'operazione. Seppur un po' ribelle, ora è un cyborg ai nostri ordini. Inoltre, Sabolt sembra provare interesse nei suoi confronti.''
+<<[>>old<<]>>''Day 6.\n<b>Trey</b>, the kid involved in the incident, has now recovered from the intervention.\nHe might be a handful, but he's now a cyborg\nin our command.\nMoreover, Sabolt seems to be intrigued by him.''
 <<[>>old<<]>>''Giorno 7.\nDa un esame sul misterioso Sabolt è emerso che contenga il DNA di tutti e tre i Pokémon iniziali! Ciò vuol dire che non sarà più mio figlio ad aprire il Gran Xenovarco, ma Trey, ormai suo Allenatore.''
-<<[>>old<<]>>''Giorno 7.\nDa un esame sul misterioso Sabolt è emerso che contenga il DNA di tutti e tre i Pokémon iniziali! Ciò vuol dire che non sarà più mio figlio ad aprire il Gran Xenovarco, ma Trey, ormai suo Allenatore.''
+<<[>>old<<]>>''Day 7.\nThrough an exam run on the mysterious Sabolt,\nwe found out that it contains the DNA from all three starter Pokémon!\nIt means that my son won't be the one opening the Great Xeno Gate, but Trey, who is now its Trainer.''
 <<[>>old<<]>>''Giorno 12.\nTrey è sparito dai laboratori assieme a Sabolt, ma non c'è da preoccuparsi. I nostri radar lo localizzeranno e lo ricondurranno qui.''
-<<[>>old<<]>>''Giorno 12.\nTrey è sparito dai laboratori assieme a Sabolt, ma non c'è da preoccuparsi. I nostri radar lo localizzeranno e lo ricondurranno qui.''
+<<[>>old<<]>>''Day 12.\nTrey escaped from the labs with Sabolt, but that's nothing worth worrying about.\nOur radars will locate him and bring him back here.''
 <<[>>old<<]>>Non sembrerebbe esserci altro...
-<<[>>old<<]>>Non sembrerebbe esserci altro...
+<<[>>old<<]>>There seems to be nothing more...
 <<[>>old<<]>>''Giorno 7.\nDa un esame sul misterioso Sabolt è emerso che contenga il DNA di tutti e tre i Pokémon iniziali! Ciò vuol dire che non sarà più mia figlia ad aprire il Gran Xenovarco, ma Trey, ormai suo Allenatore.''
-<<[>>old<<]>>''Giorno 7.\nDa un esame sul misterioso Sabolt è emerso che contenga il DNA di tutti e tre i Pokémon iniziali! Ciò vuol dire che non sarà più mia figlia ad aprire il Gran Xenovarco, ma Trey, ormai suo Allenatore.''
+<<[>>old<<]>>''Day 7.\nThrough an exam run on the mysterious Sabolt,\nwe found out that it contains the DNA from all three starter Pokémon!\nIt means that my daughter won't be the one opening the Great Xeno Gate, but Trey, who is now its Trainer.''
 Aster
 Aster
 Ehi, \PN! Dove vai? Se vogliamo fermare Versil, devi affrontare quel Pokémon!
@@ -16817,19 +16817,19 @@ This <b>file</b> is full of rubbish!
 \PN, salveremo tuo padre! Te l'ho promesso!!
 \PN, we're gonna save your father!<<n>>I promised you that!!
 <<[>>old<<]>>Dossier di ricerca - 2 ''Giorno 1. Mio figlio tra poco compirà 5 anni e penso sia giunto il momento di introdurlo al mondo dei Pokémon. Ancora nessuna novità relativa ai Pokémon iniziali.''
-<<[>>old<<]>>Dossier di ricerca - 2 ''Giorno 1. Mio figlio tra poco compirà 5 anni e penso sia giunto il momento di introdurlo al mondo dei Pokémon. Ancora nessuna novità relativa ai Pokémon iniziali.''
+<<[>>old<<]>>Research file - 2\n''Day 1.\nMy son will soon be 5 years old and I think\nit's time I introduce him to the world of Pokémon.\nStill no news regarding the starter Pokémon.''
 <<[>>old<<]>>''Giorno 3.\nLa ricerca ha finalmente dato i suoi risultati! Il DNA dei tre Pokémon iniziali, se amplificato dall'Energia della Lastra Terrestre, reagisce parzialmente nei luoghi saturi di energia dello Xenoverse. Siamo attualmente alla ricerca di un metodo per amplificarlo ulteriormente.''
-<<[>>old<<]>>''Giorno 3.\nLa ricerca ha finalmente dato i suoi risultati! Il DNA dei tre Pokémon iniziali, se amplificato dall'Energia della Lastra Terrestre, reagisce parzialmente nei luoghi saturi di energia dello Xenoverse. Siamo attualmente alla ricerca di un metodo per amplificarlo ulteriormente.''
+<<[>>old<<]>>''Day 3.\nResearch has finally bore its fruits!\nThe DNA of the three starter Pokémon,\nwhen amplified by the Energy of the Terrestrial Plate, is partially able to react in places chock full of energy coming from the Xenoverse.\nWe're currently trying to come up with a method\nto furtherly amplify it.''
 <<[>>old<<]>>''Giorno 5.\nL'energia dello Xenoverse, unita a quella della Terra, sembra reagire coi tre Pokémon. Siamo riusciti ad aprire un minuscolo portale, ma se riuscissimo ad ottenere più energia e sfruttare il punto di scissione tra Luxflon e Dragalisk, il varco sarebbe ben più grande.''
-<<[>>old<<]>>''Giorno 5.\nL'energia dello Xenoverse, unita a quella della Terra, sembra reagire coi tre Pokémon. Siamo riusciti ad aprire un minuscolo portale, ma se riuscissimo ad ottenere più energia e sfruttare il punto di scissione tra Luxflon e Dragalisk, il varco sarebbe ben più grande.''
+<<[>>old<<]>>''Day 5.\nThe energy coming from the Xenoverse,\nwhen fused with the one from Earth,\nseems to react with the three Pokémon.\nWe managed to open a very small portal, but if\nwe could obtain more energy and harness\nthe breakpoint between Luxflon and Dragalisk,\nthe portal would have been far more spacious.''
 <<[>>old<<]>>''Giorno 7.\nIl suolo lunare incontrerà il punto di scissione di Vakuum tra una decina d'anni a partire da ora. È l'Eclissi Xenoverse il momento in cui agiremo!''
-<<[>>old<<]>>''Giorno 7.\nIl suolo lunare incontrerà il punto di scissione di Vakuum tra una decina d'anni a partire da ora. È l'Eclissi Xenoverse il momento in cui agiremo!''
+<<[>>old<<]>>''Day 7.\nThe Moon's soil will meet Vakum's breakpoint\nin ten years from now.\nThe Xenoverse Eclipse will be our chance to act!''
 <<[>>old<<]>>''Giorno 12.\nHo preso una decisione sofferta. Affiderò a mio figlio uno dei Pokémon iniziali e poi farò sparire le mie tracce per proseguire indisturbato col piano. Sarà lui la chiave per il Gran Xenovarco!''
-<<[>>old<<]>>''Giorno 12.\nHo preso una decisione sofferta. Affiderò a mio figlio uno dei Pokémon iniziali e poi farò sparire le mie tracce per proseguire indisturbato col piano. Sarà lui la chiave per il Gran Xenovarco!''
+<<[>>old<<]>>''Day 12.\nI took a bitter decision. I'll entrust my son with one of the starter Pokémon and then I'll make myself scarce to be able to proceed with my plan undisturbed.\nHe will be the key for the Great Xeno Gate!''
 <<[>>old<<]>>Dossier di ricerca - 2 ''Giorno 1. Mia figlia tra poco compirà 5 anni e penso sia giunto il momento di introdurla al mondo dei Pokémon. Ancora nessuna novità relativa ai Pokémon iniziali.''
-<<[>>old<<]>>Dossier di ricerca - 2 ''Giorno 1. Mia figlia tra poco compirà 5 anni e penso sia giunto il momento di introdurla al mondo dei Pokémon. Ancora nessuna novità relativa ai Pokémon iniziali.''
+<<[>>old<<]>>Research file - 2\n''Day 1.\nMy daughter will soon be 5 years old and I think\nit's time I introduce her to the world of Pokémon.\nStill no news regarding the starter Pokémon.''
 <<[>>old<<]>>''Giorno 12.\nHo preso una decisione sofferta. Affiderò a mia figlia uno dei Pokémon iniziali e poi farò sparire le mie tracce per proseguire indisturbato col piano. Sarà lei la chiave per il Gran Xenovarco!''
-<<[>>old<<]>>''Giorno 12.\nHo preso una decisione sofferta. Affiderò a mia figlia uno dei Pokémon iniziali e poi farò sparire le mie tracce per proseguire indisturbato col piano. Sarà lei la chiave per il Gran Xenovarco!''
+<<[>>old<<]>>''Day 12.\nI took a bitter decision. I'll entrust my daughter with one of the starter Pokémon and then I'll make myself scarce to be able to proceed with my plan undisturbed.\nShe will be the key for the Great Xeno Gate!''
 Versil
 Versil
 Benvenuti, ragazzi.
@@ -18619,62 +18619,70 @@ Yes
 No
 No
 [Map467]
+Ciro
+Gordon
+Piro
+Jason
 Avrai pure scoperto il nostro quartier generale, ma ora dovrai vedertela col nostro capo! Muah ah ah!
-Avrai pure scoperto il nostro quartier generale, ma ora dovrai vedertela col nostro capo! Muah ah ah!
+You may have found our headquarters, but our boss will<<n>>make you regret this now! Mwa ha ha!
 Hai sconfitto il nostro capo... Non avrei nessuna chance contro un mostro come te.
-Hai sconfitto il nostro capo... Non avrei nessuna chance contro un mostro come te.
+Y-You defeated our boss...I have no chance against<<n>>a monster like you.
 ???
 ???
 E tu che diavolo ci fai qui?! Come hai fatto a scovare il mio quartier generale?!
-E tu che diavolo ci fai qui?! Come hai fatto a scovare il mio quartier generale?!
+What the heck are you doin' here?!<<n>>How'd you find my headquarters?!
 E così saresti venuto a fermare il mio attacco hacker? Ma non farmi ridere!
-E così saresti venuto a fermare il mio attacco hacker? Ma non farmi ridere!
+Oh, so you've come here to stop my hacking attack?<<n>>You must be kiddin'!
+Nessuno potrebbe mai fermare il Bullo <b>Gennaro</b> e il suo invincibile <b>Rattata</b>! Geh eh eh!
+No one could ever defeat Youngster <b>Joey</b> and his super cool <b>Rattata</b>! Ge he he!
 Gennaro
 Joey
 Vuoi sapere perché sto facendo tutto questo?
-Vuoi sapere perché sto facendo tutto questo?
+You wanna know why I'm doin' all this?
+Quando ero ancora nel fiore degli anni, sono sempre stato lo zimbello di tutti dalle mie parti! All’epoca tutti gli Allenatori si scambiavano il numero di Pokégear per farsi quattro chiacchiere... Ma nessuno ha mai voluto il mio, neanche per sbaglio!
+Since I was a young'un, I've always been a laughing stock where I'm from!<<n>>Back then, all the Trainers used to exchange their<<n>>Pokégear's phone numbers to catch up...<<n>>But no one has ever wanted mine or even thought about it!
 Per colpa loro sono arrivato a cambiare regione pur di farmi una vita nuova e dignitosa!!
-Per colpa loro sono arrivato a cambiare regione pur di farmi una vita nuova e dignitosa!!
+Because of them, I had to leave the region just to start<<n>>a new decent life!!
 Ma per tutto questo tempo, non ho mai smesso un attimo di programmare la mia vendetta. Ho buttato all’aria la mia gioventù, le ore di sonno... addirittura i miei capelli! Tutto questo per diventare un asso del computer e restituire alla gente il torto subito!!
-Ma per tutto questo tempo, non ho mai smesso un attimo di programmare la mia vendetta. Ho buttato all’aria la mia gioventù, le ore di sonno... addirittura i miei capelli!  Tutto questo per diventare un asso del computer e restituire alla gente il torto subito!!
+During all these years, though, I’ve never stopped plotting<<n>>for my revenge plan.<<n>>I've blown up my youthness, my hours' sleep...<<n>>even my hair!<<n>>I did everything to become a real computer mastermind<<n>>and finally get my payback on people!!
 Tutti quelli che non hanno voluto ascoltare le eroiche imprese mie e del mio Rattata si sono trovati tartassati di telefonate, foto e meme geniali su di noi!
-Tutti quelli che non hanno voluto ascoltare le eroiche imprese mie e del mio Rattata si sono trovati tartassati di telefonate, foto e meme geniali su di noi!
+All those who have never wanted to hear about me<<n>>and my Rattata's heroic deeds has been hounded<<n>>with phone calls, pics and brilliant memes about us! 
 Ora, però, tu sai troppe cose... dovrai soccombere alla potenza del grandioso Gennaro! Geh eh eh!
-Ora, però, tu sai troppe cose... dovrai soccombere alla potenza del grandioso Gennaro! Geh eh eh!
+But you know way too much now...you're gonna lose to<<n>>the power of the great Joey! Ge he he! 
 No!! Il mio piano perfetto...!
-No!! Il mio piano perfetto...!
+Doggone it!! My plan was perfect...!
 U-U-Una r-ra-ragazza qui?! Come hai fatto a scovare il mio quartier generale?!
-U-U-Una r-ra-ragazza qui?! Come hai fatto a scovare il mio quartier generale?!
+Wh-What's a gi-gi-girl doin' here?!<<n>>How'd you find my headquarters?!
 E così saresti venuta a fermare il mio attacco hacker? Ma non farmi ridere!
-E così saresti venuta a fermare il mio attacco hacker? Ma non farmi ridere!
+Oh, so you've come here to stop my hacking attack?<<n>>You must be kiddin'!
 No-Non è possibile... il mio piano geniale è andato in fumo, così...? Tutti i sacrifici che ho fatto per dimostrare alla gente la potenza del mio Rattata non sono serviti a niente...
-No-Non è possibile... il mio piano geniale è andato in fumo, così...? Tutti i sacrifici che ho fatto per dimostrare alla gente la potenza del mio Rattata non sono serviti a niente...
+It-It can't be...my brilliant plan just went up in smoke,<<n>>like that...?<<n>>All the efforts that I've made in order to show people<<n>>the incredible power of my Rattata gone for naught...
 Co-Come? Pensi sul serio che il mio Rattata sia fortissimo...?
-Co-Come? Pensi sul serio che il mio Rattata sia fortissimo...?
+Wh-What? D'ya really think my Rattata is the top<<n>>percentage of all Rattata...?
 Tu
-Tu
+You
 ...!
 ...!
 Nessuno prima d’ora si era degnato di dirmi una cosa del genere, dal vivo per di più...
-Nessuno prima d’ora si era degnato di dirmi una cosa del genere, dal vivo per di più...
+One never really said something like this before,<<n>>face-to-face, to boot...
 Sì! Hai proprio ragione, ragazzino! Non ho bisogno che gli altri Allenatori ammettano la mia potenza... L’importante è che lo sappia io!
-Sì! Hai proprio ragione, ragazzino! Non ho bisogno che gli altri Allenatori ammettano la mia potenza... L’importante è che lo sappia io!
+Yeah! You're right, young'un! I don't need other Trainers<<n>>to acknowledge my power...<<n>>All that matters is that I know it! 
 Ecco fatto, ho eliminato il malware da tutti i PokéWES. Ora nessuno riceverà più chiamate da me.
-Ecco fatto, ho eliminato il malware da tutti i PokéWES. Ora nessuno riceverà più chiamate da me.
+There you go. I deleted the malware from all the PokéWES.<<n>>No one's getting any calls from me now.
 Pischello, prima che te ne vada, voglio dirti una cosa. Io sono un vero amante dei Rattata...
-Pischello, prima che te ne vada, voglio dirti una cosa. Io sono un vero amante dei Rattata...
+Young'un, before you go, I'll have you know this.<<n>>I'm a real fan of Rattata...
 Portamene uno e avrai una bella ricompensa, parola di Gennaro!
-Portamene uno e avrai una bella ricompensa, parola di Gennaro!
+Bring me one and you'll have a good reward--Joey's honor!
 Sì! Ha-Ha-Hai proprio ragione! Non ho bisogno che gli altri Allenatori ammettano la mia potenza... L’importante è che lo sappia io!
-Sì! Ha-Ha-Hai proprio ragione! Non ho bisogno che gli altri Allenatori ammettano la mia potenza... L’importante è che lo sappia io!
+Yeah! Yo-Yo-You're right! I don't need other Trainers<<n>>to acknowledge my power...<<n>>All that matters is that I know it! 
 P-P-Pri-Prima che te ne vada, voglio dirti una cosa. Io sono un vero amante dei Rattata...
-P-P-Pri-Prima che te ne vada, voglio dirti una cosa. Io sono un vero amante dei Rattata...
+Be-Be-Before you go, I'll have you know this.<<n>>I'm a real fan of Rattata...
 Allora, m’hai portato un Rattata?
-Allora, m’hai portato un Rattata?
+So, d'ya bring me a Rattata?
 E allora preparati allo scambio se vuoi la mia ricompensa!
-E allora preparati allo scambio se vuoi la mia ricompensa!
+Then get ready for a trade if you want my reward!
 Devi sapere che ho catturato questo <b>Rattata di Alola</b> nella vacanza con mia mamma. Io, però, sono un amante dei Pokémon Topo vecchio stile, e ho sempre cercato un degno rivale a cui rifilarlo. Con te starà alla grande, pischello|a!
-Devi sapere che ho catturato questo <b>Rattata di Alola</b> nella vacanza con mia mamma. Io, però, sono un amante dei Pokémon Topo vecchio stile, e ho sempre cercato un degno rivale a cui rifilarlo. Con te starà alla grande, pischello|a!
+You gotta know that I've caught that <b>Alolan Rattata</b> while I was on holiday with my momma.<<n>>However, I'm a big fan of old-school Mouse Pokémon, so<<n>>I've always been lookin' for a worthy rival to give it to.<<n>>I'm sure it's gonna be fine with you, young'un!
 Sì
 Yes
 No
