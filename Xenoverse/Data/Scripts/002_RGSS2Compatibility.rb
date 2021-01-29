@@ -604,3 +604,14 @@ module RPG
     #end
   end
 end
+
+
+module Graphics
+  def self.frame_scale
+    return 40.0/(Graphics.frame_rate)
+  end
+
+  def self.frame_duration
+    return (Graphics.frame_rate)/40.0
+  end
+end

@@ -108,6 +108,7 @@ class PokemonSummaryScene
 		#pokemon sprite
 		@sprites["pokemon"]=DynamicPokemonSprite.new(false,0,@viewport,false)
     @sprites["pokemon"].setPokemonBitmap(@pokemon)
+    @sprites["pokemon"].actualBitmap.setSpeed(1)
 		@sprites["pokemon"].oy = pbGetSpriteBase(@sprites["pokemon"].sprite.bitmap)
 		@sprites["pokemon"].x = 157
 		@sprites["pokemon"].y = 247
