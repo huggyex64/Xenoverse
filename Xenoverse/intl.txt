@@ -328,41 +328,43 @@ Now I really have to get away.<<n>>Have fun with that little gadget!
 Mimmo
 Wolfey
 Grazie ancora per aver salvato il mio Hikiloo.
-Grazie ancora per aver salvato il mio Hikiloo.
+Thanks again for saving my Hikiloo.
 \PN, menomale che sei qui...!
-\PN, menomale che sei qui...!
+\PN, thank the heavens you're here...!
 Ti ricordi di <b>Min & Mun</b>, quei due teppistelli che avevano rapito il mio Hikiloo, vero?
-Ti ricordi di <b>Min & Mun</b>, quei due teppistelli che avevano rapito il mio Hikiloo, vero?
+You remember <b>Min & Mun</b>, those rascals who kidnapped<<n>>my Hikiloo, right?
 Stavo giocando col mio Pokémon nella Grotta Zerokelvin, quando li ho visti arrivare... Stavolta, però, avevano delle spaventose maschere addosso e stavano ridacchiando tra di loro!
-Stavo giocando col mio Pokémon nella Grotta Zerokelvin, quando li ho visti arrivare... Stavolta, però, avevano delle spaventose maschere addosso e stavano ridacchiando tra di loro!
+I was playing with my Pokémon in the Zero Cave, when<<n>>I saw them coming again...<<n>>This time, though, they had scary masks on them and<<n>>were giggling about something between them!
 Subito, io e Hikiloo, ci siamo nascosti e li abbiamo osservati da lontano... Stavano malmenando un povero Pokémon, un Mimikyu per la precisione!
-Subito, io e Hikiloo, ci siamo nascosti e li abbiamo osservati da lontano... Stavano malmenando un povero Pokémon, un Mimikyu per la precisione!
+Hikiloo and me hid immediately and then we observed<<n>>them from afar...<<n>>They were beating up a poor Pokémon--a <b>Mimikyu</b><<n>>to be specific!
 Quel poverino ha addirittura perso il suo adorato manto da Pikachu... guarda come l’hanno ridotto!
-Quel poverino ha addirittura perso il suo adorato manto da Pikachu... guarda come l’hanno ridotto!
+The poor thing even lost its beloved Pikachu rag...<<n>>they turned it into shreds, look!
 \PN, ti prego! Devi trovare qualcuno che possa riparare questo costume! Sono sicuro che senza quello, Mimikyu non si senta a proprio agio...
-\PN, ti prego! Devi trovare qualcuno che possa riparare questo costume! Sono sicuro che senza quello, Mimikyu non si senta a proprio agio...
+\PN, I beg of you! You have to find someone who can<<n>>repair this costume!<<n>>I'm sure that without it, Mimikyu is suffering a lot...
 La mia mamma dice che a Scorpiopoli c’è un abile sarto che ha cucito il suo abito nuziale. Se chiedi a lui, sono certo che sarebbe felice di darti una mano per aiutare quel piccolo Pokémon!
-La mia mamma dice che a Scorpiopoli c’è un abile sarto che ha cucito il suo abito nuziale. Se chiedi a lui, sono certo che sarebbe felice di darti una mano per aiutare quel piccolo Pokémon!
+My mom says that in Westar City lives a skilled tailor<<n>>who made her wedding dress.<<n>>If you ask him, I'm sure he'll gladly give you a hand<<n>>in helping that little Pokémon!
 Quando sarai riuscito|a a rattoppare quel manto, torna qui. Decideremo insieme come aiutare quel Mimikyu!
-Quando sarai riuscito|a a rattoppare quel manto, torna qui. Decideremo insieme come aiutare quel Mimikyu!
+After the rag is patched, come back here. We'll decide together how we're going to help that Mimikyu!
 Coraggio, \PN! Raggiungi il sarto della mamma a Scorpiopoli prima che sia troppo tardi!
-Coraggio, \PN! Raggiungi il sarto della mamma a Scorpiopoli prima che sia troppo tardi!
+C'mon, \PN! Go to mom's tailor in Westar City<<n>>before it's too late!
 Sapevo che il sarto ti avrebbe aiutato! E guarda che bello il costume che ti ha cucito!
-Sapevo che il sarto ti avrebbe aiutato! E guarda che bello il costume che ti ha cucito!
+I knew that the tailor would have helped you!<<n>>Look how cool the costume he made is!
 Ora devi solo stanare quei due teppistelli di Min & Mun!
-Ora devi solo stanare quei due teppistelli di Min & Mun!
+Now the only thing you have to do is find those rascals<<n>>of Min & Mun!
+Da quello che ho potuto origliare nella Grotta Zerokelvin, si stavano dirigendo in un luogo lugubre... ... un’isola, forse?
+From what I could overhear in the Zero Cave, they were<<n>>going to a spooky place...<<n>>...an island, maybe?
 Fai attenzione, \PN! Quei due sono proprio dei cattivoni!
-Fai attenzione, \PN! Quei due sono proprio dei cattivoni!
+Be careful, \PN! Those two are real meanies!
 Bravo|a, \PN! Sei riuscito|a a salvare Mimikyu da quei due brutti ceffi!
-Bravo|a, \PN! Sei riuscito|a a salvare Mimikyu da quei due brutti ceffi!
+Good job, \PN! You managed to save Mimikyu from<<n>>those rascals!
 Come faccio a saperlo? Sono stati proprio Min & Mun a dirmelo!
-Come faccio a saperlo? Sono stati proprio Min & Mun a dirmelo!
+How do I know that? Min & Mun themselves told me!
 Si sono resi conto delle loro brutte azioni e si sono scusati con me per aver trattato male Hikiloo.
-Si sono resi conto delle loro brutte azioni e si sono scusati con me per aver trattato male Hikiloo.
+They realized that their actions were wrong and apologized<<n>>to me for how badly they treated Hikiloo.
 Hanno anche detto che avrebbero aperto una volta per tutte un loro negozio di dolciumi... ... e mi hanno regalato questa Caramella Rara! Forse finalmente hanno smesso di combinare guai!
-Hanno anche detto che avrebbero aperto una volta per tutte un loro negozio di dolciumi... ... e mi hanno regalato questa Caramella Rara! Forse finalmente hanno smesso di combinare guai!
+They also said they would have opened their candy shop<<n>>once and for all...<<n>>...and they gave me this Rare Candy!<<n>>Maybe they finally stopped making trouble!
 \PN, grazie di aver aiutato quel Mimikyu. Da grande vorrei tanto diventare in gamba come te!
-\PN, grazie di aver aiutato quel Mimikyu. Da grande vorrei tanto diventare in gamba come te!
+\PN, thanks for helping that Mimikyu. When I grow up<<n>>I really wanna be a great Trainer just like you!
 Bobo
 Bobby
 Ho rivoltato come un calzino la Grotta Zerokelvin, ma ho beccato solo un bel raffreddore... etciù!!
@@ -3642,17 +3644,17 @@ Face it, Pokégears of the past were way more reliable!
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Sibilla
-Sibilla
+Reagan
 Questa palude non è il massimo per sfrecciare in Pokéboard, ma magari è l’ideale per le lotte!
-Questa palude non è il massimo per sfrecciare in Pokéboard, ma magari è l’ideale per le lotte!
+This swamp ain't the best place to dart around with<<n>>a Pokéboard, but maybe it's perfect for battles!
 Qualcuno mi ricorda perché cavolo sono venuta qui?
-Qualcuno mi ricorda perché cavolo sono venuta qui?
+Can someone tell me why the heck I came here?
 Antonio
-Antonio
+James
 Questi fanghi puzzano un po’, ma sono perfetti per le maschere di bellezza!
-Questi fanghi puzzano un po’, ma sono perfetti per le maschere di bellezza!
+This mud smells a bit, but it's perfect as a face mask!
 Guarda che pelle liscia e senza imperfezioni che abbiamo io e i miei Pokémon.
-Guarda che pelle liscia e senza imperfezioni che abbiamo io e i miei Pokémon.
+Look at me and my Pokémon...we have such a smooth flawless skin!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Sabolt dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Sabolt to take a look inside?
 Sabolt
@@ -3666,31 +3668,31 @@ Booolt...!
 <<[>>old<<]>>Bzz!
 <<[>>old<<]>>Bzz!
 Alessandro
-Alessandro
+Axel
 Non so quanti fossili si celino in questa melma, ma so che saranno tutti miei!
-Non so quanti fossili si celino in questa melma, ma so che saranno tutti miei!
+I don't know how many hidden fossils there are<<n>>in this sludge, but I know they're all mine!
 Forse potrei anche dividerli con te...
-Forse potrei anche dividerli con te...
+But maybe I could share them with you...
 <<[>>old<<]>>Non si muove. Sarà guasto?
 <<[>>old<<]>>It doesn't move. Maybe it is out of order...
 T3M
 T1
 Per quanto sono rimasto in standby? È ora di carburare con una lotta! <i>Bzz!</i>
-Per quanto sono rimasto in standby? È ora di carburare con una lotta! <i>Bzz!</i>
+How long have I been on stand-by? It's time to stretch<<n>>my gears with a battle! <i>Bzz!</i>
 P0
 M3
 Lo stesso vale per me! <i>Bzz!</i>
-Lo stesso vale per me! <i>Bzz!</i>
+And the same goes for me! <i>Bzz!</i>
 E-Errore.
 E-Error.
 <i>Batteria scarica. Bzz!</i> <i>Carica nel covo necessaria. Bzz!</i>
-<i>Batteria scarica. Bzz!</i> <i>Carica nel covo necessaria. Bzz!</i>
+<i>The battery is low. Bzz!</i><<n>><i>Recharging station requested. Bzz!</i>
 Nicolò
-Nicolò
+Norbert
 Qu-Questo bosco mi fa ta-tanta paura... voglio la mamma!!
-Qu-Questo bosco mi fa ta-tanta paura... voglio la mamma!!
+Th-This wood's re-really scary...I want my mommy!!
 Se solo avessi una Fune di Fuga...
-Se solo avessi una Fune di Fuga...
+If I only had an Escape Rope...
 Sì
 Yes
 No
@@ -5319,7 +5321,7 @@ This battle was a terrible idea...
 A0A0
 A0A0
 Per quanto sono rimasto in standby? È ora di carburare con una lotta! <i>Bzz!</i>
-How long have I been on stand-by? It's time to stretch my gears with a battle!
+How long have I been on stand-by? It's time to stretch<<n>>my gears with a battle! <i>Bzz!</i>
 E-Errore.
 E-Error.
 <i>Batteria scarica. Bzz!</i> <i>Carica nel covo necessaria. Bzz!</i>
@@ -6552,7 +6554,7 @@ Dressing up as Miltanks wasn't enough!!
 Che tu sia dannato|a!!
 Curse you!!
 <<[>>old<<]>>Le detenute Maria e Serafina sono ritornate alle loro rispettive celle.
-<<[>>old<<]>>Prisoners Maria and Serafina have returned to their respective cells.
+<<[>>old<<]>>Prisoners Maria and Seraphina have returned to their respective cells.
 Stanislao
 Bradley
 Non vorrei mai finire in quella catorbia laggiù... Mi mette i brividi!
@@ -6642,7 +6644,7 @@ Why don't you wake up, Meowth...?
 <<[>>old<<]>>Sartoria di Kupa...
 <<[>>old<<]>>Kupa's Tailoring...
 <<[>>old<<]>>... e dolcetti da Min & Mun!
-<<[>>old<<]>>...and Min & Mun' treats!
+<<[>>old<<]>>...and Min & Mun's candy shop!
 Blast...!
 Blast...!
 Nieves
@@ -7725,49 +7727,55 @@ My house is empty, but not my pockets. I've got all sorts of Plates to sell you!
 Min
 Min
 Guarda chi si vede! Benvenuto|a nel nostro negozio di dolciumi!
-Guarda chi si vede! Benvenuto|a nel nostro negozio di dolciumi!
+Look who it is! Welcome to our candy shop!
 Mun
 Mun
 Al momento abbiamo pochi prodotti, ma abbiamo messo in piedi un vero negozio alla fine!
-Al momento abbiamo pochi prodotti, ma abbiamo messo in piedi un vero negozio alla fine!
+Our stock is pretty limited for now, but we have<<n>>a real shop now!
 Kupa
 Kupa
 A differenza dei miei colleghi Mercanti, io mi sono dedicato alla umile arte della sartoria. Se hai bisogni di un taglia e cuci, che sia una toppa o un costume strappato, torna a trovarmi!
-A differenza dei miei colleghi Mercanti, io mi sono dedicato alla umile arte della sartoria. Se hai bisogni di un taglia e cuci, che sia una toppa o un costume strappato, torna a trovarmi!
+Unlike my Merchant colleagues, I dedicate my life to<<n>>the humble art of tailoring.<<n>>For any of your clothing needs, may it be a patch or<<n>>a torn costume, come see me again!
 Capisco... Vorresti dare una sistematina a questo costume?
-Capisco... Vorresti dare una sistematina a questo costume?
+I see...you'd like to freshen up this costume?
 No problem, sei venuto|a dall’uomo giusto! Hyah ah!
-No problem, sei venuto|a dall’uomo giusto! Hyah ah!
+No problema, you've come to the right man! Hya ha!
 Vediamo allora, per questo costume da Pikachu posso farti un prezzo di favore... un milioncino dovrebbe bastare!
-Vediamo allora, per questo costume da Pikachu posso farti  un prezzo di favore... un milioncino dovrebbe bastare!
+Let's see, for this Pikachu costume I can make you<<n>>a reasonable price...a million should be enough!
 Come? Non hai tutti questi soldi? E io che pensavo che qui ad Eldiw foste tutti dei ricconi! Hyah ah!
-Come? Non hai tutti questi soldi? E io che pensavo che qui ad Eldiw foste tutti dei ricconi! Hyah ah!
+What? You don't have all that money? And here I thought<<n>>that Eldiw was full of fat-cats! Hya ha!
 Oh, idea! Se mi sconfiggerai in una lotta, ti sistemerò questo vecchio straccio gratis! Che ne dici?
-Oh, idea! Se mi sconfiggerai in una lotta, ti sistemerò questo vecchio straccio gratis! Che ne dici?
+Oh, I've got an idea! If you defeat me in battle, I'll fix<<n>>this lil' thing for free! How about it?
 Fatti sotto! Hyah ah!
-Fatti sotto! Hyah ah!
+Come at me! Hya ha!
 Oh... ma hai vinto per davvero!
-Oh... ma hai vinto per davvero!
+Oh...you really won, after all!
 E allora torna quando avrai i soldi richiesti. Sono l’unico che può ricucirti alla perfezione quel costume!
-E allora torna quando avrai i soldi richiesti. Sono l’unico che può ricucirti alla perfezione quel costume!
+Then come back when you have the money. I'm the only one<<n>>who can sew that costume back to life!
 Non pensavo avresti vinto sul serio... ma una promessa è una promessa! Da’ qui, ora il maestro si mette all’opera!
-Non pensavo avresti vinto sul serio... ma una promessa è una promessa! Da’ qui, ora il maestro si mette all’opera!
+I didn't think you'd really win...but a promise is a promise!<<n>>Now, leave it to the master!
 Hyah ah! Un taglio qui...
-Hyah ah! Un taglio qui...
+Hya ha! A cut here...
 Un taglio là...
-Un taglio là...
+A cut there...
 Et voilà!
 Et voilà!
 Finito! Ammira la mia opera d’arte!
-Finito! Ammira la mia opera d’arte!
+Finished! Behold my work of art!
+Il vecchio costume era ormai ridotto a uno straccio, perciò mi sono ispirato a quel tuo Pokémon rosso. Spero ti piaccia! Hyah ah!
+The old costume was in a really bad shape, so I took<<n>>inspiration from that red Pokémon of yours.<<n>>Hope you like it! Hya ha!
+Il vecchio costume era ormai ridotto a uno straccio, perciò mi sono ispirato a quel tuo Pokémon verde. Spero ti piaccia! Hyah ah!
+The old costume was in a really bad shape, so I took<<n>>inspiration from that green Pokémon of yours.<<n>>Hope you like it! Hya ha!
+Il vecchio costume era ormai ridotto a uno straccio, perciò mi sono ispirato a quel tuo Pokémon blu. Spero ti piaccia! Hyah ah!
+The old costume was in a really bad shape, so I took<<n>>inspiration from that blue Pokémon of yours.<<n>>Hope you like it! Hya ha!
 Stai ancora ammirando il vestito che ho tessuto per te, vero? Hyah ah!
-Stai ancora ammirando il vestito che ho tessuto per te, vero? Hyah ah!
+You still admiring the dress I made for you, huh? Hya ha!
 Ho preso due apprendisti, visto? A tutti piace la sartoria e a tutti piacciono i dolci! Hyah ah!
-Ho preso due apprendisti, visto? A tutti piace la sartoria e a tutti piacciono i dolci! Hyah ah!
+I have two apprentices, now, see? Everyone likes<<n>>fancy clothes and everyone likes candy! Hya ha!
 Gli affari andranno a gonfie vele ed è anche merito tuo! Prendi questo, forza! Hyah ah!
-Gli affari andranno a gonfie vele ed è anche merito tuo! Prendi questo, forza! Hyah ah!
+Business is going to boom and it's thanks to you too!<<n>>Take this, my treat! Hya ha!
 Diventerò ricco! Ricco sfondato! Hyah ah!
-Diventerò ricco! Ricco sfondato! Hyah ah!
+I'll become rich! Filthy rich! Hya ha!
 Sì
 Yes
 No
@@ -10891,7 +10899,7 @@ Would you like to play a little with me?
 <<[>>old<<]>>Hai dato la Pozione Segreta a Lapras.
 <<[>>old<<]>>You gave Lapras the Secret Potion.
 <<[>>old<<]>>Non la lascerei in queste condizioni...
-<<[>>old<<]>>You should not leave it in this state...
+<<[>>old<<]>>You should not leave it like that...
 <<[>>old<<]>>Laaa...!
 <<[>>old<<]>>Laaa...!
 <<[>>old<<]>>Lapras è tornata nel pieno delle forze!
@@ -10917,45 +10925,49 @@ The water is patient...drop by drop it corrodes<<n>>even the rock.
 Mun
 Mun
 Min, questa volta abbiamo veramente fatto il colpaccio! Eh eh!
-Min, questa volta abbiamo veramente fatto il colpaccio! Eh eh!
+This time we really hit the score, Min! Heh heh!
 Min
 Min
 Puoi dirlo forte, Mun!
-Puoi dirlo forte, Mun!
+You betcha, Mun!
+Ci basterà mostrare in giro la faccia di questo Pokémon per far scappare gli impiccioni a gambe levate! E, facendo lo stesso in un negozio di dolciumi, ce ne impadroniremo senza muovere un dito! Eh eh!
+We just need to show around this Pokémon's face to make everyone run away with their tail between their legs!<<n>>And, if we do that in a candy shop, it will become ours without even breaking a sweat! Heh heh!
 Mimikyu
 Mimikyu
 Mimi...!
 Mimi...!
 Dannazione, Min! Quello|a è l’impiastro che ci ha rovinato la festa con quell’Hikiloo mesi fa!
-Dannazione, Min! Quello|a è l’impiastro che ci ha rovinato la festa con quell’Hikiloo mesi fa!
+Dammit, Min! That's the punk who spoiled our fun<<n>>with that Hikiloo a few months ago!
 Già, è proprio lui||ei, Min!
-Già, è proprio lui||ei, Min!
+Yeah, it's him||er, Mun!
+Ehi, ficcanaso! Quella volta hai solo avuto fortuna, ma ora siamo proprio su un altro livello! Ti conviene alzare i tacchi alla svelta se non vuoi prenderle con gli interessi!
+Hey, nosy head! That time you were just lucky, but now<<n>>we're on a whole different level!<<n>>You'd better scram quickly if you don't want us to give<<n>>you the beating of your life!
 Davvero credi che anche stavolta la fortuna verrà in tuo aiuto? Povero|a illuso|a! Ti pentirai di aver messo ancora i bastoni tra le ruote ai nostri affari!
-Davvero credi che anche stavolta la fortuna verrà in tuo aiuto? Povero|a illuso|a! Ti pentirai di aver messo ancora i bastoni tra le ruote ai nostri affari!
+You really think luck will be on your side this time too?<<n>>Think again!<<n>>You're gonna regret the moment you decided to meddle<<n>>in our business again!
 Nessuno scampa per due volte di seguito a Min & Mun!
-Nessuno scampa per due volte di seguito a Min & Mun!
+No one escapes Min & Mun twice!
 Ma quale fortuna e fortuna...!!
-Ma quale fortuna e fortuna...!!
+You weren't just lucky at all...!!
 E ora togliti dai piedi!!
-E ora togliti dai piedi!!
+Now scram!!
 Min, non abbiamo speranze con questo|a qui...
-Min, non abbiamo speranze con questo|a qui...
+Min, we don't stand a chance against this dude||||girl...
 ... ... ... ...
-... ... ... ...
+... ...<<n>>... ...
 Ti prego, perdonaci!!
-Ti prego, perdonaci!!
+Please, forgive us!!
 Abbiamo imparato la lezione, lo giuro!
-Abbiamo imparato la lezione, lo giuro!
+We learned our lesson, I swear!
 Min...?
 Min...?
 Ormai io e Mun non siamo più dei bambini, è ora di smetterla con le nostre birbonerie... Dobbiamo piantarla di cercare scorciatoie per coronare il sogno di avere un negozio di dolciumi tutto nostro! Non credi anche tu, Mun?
-Ormai io e Mun non siamo più dei bambini, è ora di smetterla con le nostre birbonerie... Dobbiamo piantarla di cercare scorciatoie per coronare il sogno di avere un negozio di dolciumi tutto nostro! Non credi anche tu, Mun?
+We aren't kids anymore, it's time to put our shenanigans<<n>>to rest...<<n>>We have to stop looking for shortcuts to our dream of<<n>>having a candy shop for ourselves!<<n>>Don't you think, Mun?
 S-Sì, hai ragione, Min!
-S-Sì, hai ragione, Min!
+Y-Yes, you're right, Min!
 D’ora in poi ci impegneremo per mettere in piedi un bel negozietto e tu sarai il||la nostro|a primo|a cliente!
-D’ora in poi ci impegneremo per mettere in piedi un bel negozietto e tu sarai il||la nostro|a primo|a cliente!
+From now on we're gonna dedicate ourselves into putting up<<n>>a nice shop and you're gonna be our first customer!
 Abbiamo davvero trattato male questo Pokémon... Lo lasciamo a te, fanne ciò che vuoi. Noi ci togliamo dai piedi, non ne vogliamo sapere più nulla!
-Abbiamo davvero trattato male questo Pokémon... Lo lasciamo a te, fanne ciò che vuoi. Noi ci togliamo dai piedi, non ne vogliamo sapere più nulla!
+We really made a number on this Pokémon...<<n>>Better leave it to you, do what you want with it.<<n>>We're getting outta your hair and don't wanna know<<n>>anything about this!
 ???
 ???
 Scusami, mammina... L'acqua... mi chiamava...!
@@ -10965,15 +10977,15 @@ Sorry, mommy...the water...was calling me...!
 <<[>>old<<]>>Vuoi dare a Mimikyu il Manto Trishout cucito dal sarto Kupa?
 <<[>>old<<]>>Would you give Mimikyu the Trishout Disguise the tailor Kupa made?
 <<[>>old<<]>>Mimikyu accetta volentieri il tuo dono.
-<<[>>old<<]>>Mimikyu accetta volentieri il tuo dono.
+<<[>>old<<]>>Mimikyu gladly accepted your gift.
 <<[>>old<<]>>Non lo lascerei in queste condizioni...
-<<[>>old<<]>>You shouldn't leave it in this state...
+<<[>>old<<]>>You shouldn't leave it like that...
 <<[>>old<<]>>Vuoi dare a Mimikyu il Manto Shyleon cucito dal sarto Kupa?
 <<[>>old<<]>>Would you give Mimikyu the Shyleon Disguise the tailor Kupa made?
 <<[>>old<<]>>Vuoi dare a Mimikyu il Manto Shulong cucito dal sarto Kupa?
 <<[>>old<<]>>Would you give Mimikyu the Shulong Disguise the tailor Kupa made?
 <<[>>old<<]>>Mimikyu vuole dimostrarti la sua riconoscenza con una lotta!
-<<[>>old<<]>>Mimikyu wants to show its gratitude with a battle! 
+<<[>>old<<]>>Mimikyu wants to show you its gratitude with a battle! 
 Sì
 Yes
 No
@@ -12831,7 +12843,7 @@ I am a globe-trotting elite of the <b>International</b> <b>Police</b>.<<n>>My co
 Ma veniamo al dunque.
 But let's come to the point.
 Da anni sono sulle tracce di un Pokémon misterioso con la capacità di viaggiare nello spazio e nel tempo... In quanto agente della Polizia Internazionale, non posso permettere che un cattivone ci metta le mani su!
-For years I've been on the trail of a mythical Pokémon<<n>>that has the power to travel across spacetime...<<n>>As a detective of the International Police, I cannot let<<n>>bad guys put their hands on it!
+For years I've been on the trail of a mythical Pokémon<<n>>that has the power to travel across spacetime...<<n>>As an officer of the International Police, I cannot let<<n>>bad guys put their hands on it!
 Gli sono stato alle calcagna in epoche e dimensioni differenti e la ricerca mi ha condotto fin qui!
 I've been dashing on its pursuit across several different ages and dimensions, and that's how I got here!
 <b>Dielebi</b>, il Pokémon Spaziotempo!
@@ -15501,27 +15513,29 @@ Ah, the scent of the sea!
 Castalia
 Niva
 \PN! Infine, hai mantenuto fede alla promessa di venire a farmi visita!
-\PN! Infine, hai mantenuto fede alla promessa di venire a farmi visita!
+\PN, finally! You kept your promise and came visiting me!
 Allora, che te ne pare della mia Tauronordia?
-Allora, che te ne pare della mia Tauronordia?
+So, what do you think about my Borealis Town?
 Immagino sia stata dura spingersi sin qui, ma i più abili sanno sempre farsi strada nel gelo di questi monti.
-Immagino sia stata dura spingersi sin qui, ma i più abili sanno sempre farsi strada nel gelo di questi monti.
+I guess it wasn't easy to come here, but the most skilled<<n>>ones always make their way through these mountains.
 E dopotutto tu sei il prescelto, era indubbio che ci riuscissi! Ah ah ah!
-E dopotutto tu sei il prescelto, era indubbio che ci riuscissi! Ah ah ah!
+And you're the chosen one after all--it is beyond any doubt that you were able to come! Ha ha ha!
 Ah, certo! Quest’enorme palazzo alle mie spalle, vero?
-Ah, certo! Quest’enorme palazzo alle mie spalle, vero?
+Oh, sure! This huge palace behind me, right?
 Come gli altri Cardinale della regione, anch’io possiedo una personale dimora...
-Come gli altri Cardinale della regione, anch’io possiedo una personale dimora...
+Like the other Cardinals of Eldiw, I have my own abode, too...
+La mia è proprio questa <b>Pagoda del Cardinale</b>!
+Mine is this <b>Cardinal's Pagoda</b>!
 Quando giungerà il momento, potrai visitarla anche tu, ma ora ho da fare ritorno al Monte Zodiaco.
-Quando giungerà il momento, potrai visitarla anche tu, ma ora ho da fare ritorno al Monte Zodiaco.
+When the time comes, you'll be able to visit it, but now<<n>>I have to go back to Mt. Zodiac.
 La mia presenza qui è stata anche sin troppo lunga e non posso permettermi più di restare... Ho un incarico da svolgere!
-La mia presenza qui è stata anche sin troppo lunga e non posso permettermi più di restare... Ho un incarico da svolgere!
+My presence here was already too time-consuming,<<n>>I cannot afford to stay any longer...<<n>>I have my own duties to fulfil!
 Prima di ritirarmi, però, voglio darti un’indicazione, come tu facesti quella volta nella Via Vittoria...
-Prima di ritirarmi, però, voglio darti un’indicazione, come tu facesti quella volta nella Via Vittoria...
+But before leaving, I want to give you advice, like<<n>>you did that time in the Victory Road...
 Al di là del <b>Percorso 14</b>, il cammino sulla sinistra, si estende la gelida grotta del Nido Boreale... Ebbene, perché non ti trattieni ancora un po’ da queste parti e provi a superarlo? La vista dalla Vetta Boreale è davvero uno spettacolo impareggiabile... sono certa che ne varrà la pena!
-Al di là del <b>Percorso 14</b>, il cammino sulla sinistra, si estende la gelida grotta del Nido Boreale... Ebbene, perché non ti trattieni ancora un po’ da queste parti e provi a superarlo? La vista dalla Vetta Boreale è davvero uno spettacolo impareggiabile... sono certa che ne varrà la pena!
+Beyond <b>Route 14</b>, the path on the left, lays the freezing cave of Aurora Den...<<n>>Then, why don't you stay here for a while and try to get through it?<<n>>The view from the top of Aurora Den is breathtaking...<<n>>I'm sure it will be worth it!
 Ora, col tuo permesso, mi congedo.
-Ora, col tuo permesso, mi congedo.
+Now, with your permission, I take my leave.
 Zài jiàn, \PN!
 Zài jiàn, \PN!
 <<[>>old<<]>>Dojo Lotta
@@ -20855,35 +20869,35 @@ No
 <<[>>old<<]>>The door is locked.
 [Map558]
 <<[>>old<<]>>Cos’è stato?
-<<[>>old<<]>>Cos’è stato?
+<<[>>old<<]>>What was that?
 <<[>>old<<]>>Bellocchio: Vedo che siete riuscito a scovare il mio ufficio segreto, giovane! Questa è l’umile dimora che mi è stata concessa dalla Polizia Internazionale per il caso Dielebi.
-<<[>>old<<]>>Bellocchio: Vedo che siete riuscito a scovare il mio ufficio segreto, giovane! Questa è l’umile dimora che mi è stata concessa dalla Polizia Internazionale per il caso Dielebi.
+<<[>>old<<]>>Looker: So you managed to find my secret office, my young friend!\nThis is the humble abode the International Police gave me for the Dielebi case.
 <<[>>old<<]>>A proposito, ditemi... come procede la ricerca?
-<<[>>old<<]>>A proposito, ditemi... come procede la ricerca?
+<<[>>old<<]>>By the way, tell me...how is the hunt going?
 <<[>>old<<]>>Cosaaa?! Mi state dicendo che siete riuscito nell’impresa di acchiappare quel Pokémon sfuggente? Aster lo diceva che eravate eccezionale!
-<<[>>old<<]>>Cosaaa?! Mi state dicendo che siete riuscito nell’impresa di acchiappare quel Pokémon sfuggente? Aster lo diceva che eravate eccezionale!
+<<[>>old<<]>>Whaaat?! You're telling me that you were able to catch that elusive Pokémon?\nAster told me you were a Trainer of amazing skill!
 <<[>>old<<]>>Ora potrete avventurarvi attraverso i portali di quei tempietti di cui vi parlai, per vivere l’esperienza di epoche e dimensioni alternative!
-<<[>>old<<]>>Ora potrete avventurarvi attraverso i portali di quei tempietti di cui vi parlai, per vivere l’esperienza di epoche e dimensioni alternative!
+<<[>>old<<]>>Now you can venture through the little shrines' portals I told you about to experience alternate ages and dimensions!
 <<[>>old<<]>>Probabilmente vi imbatterete in Pokémon speciali dall’aspetto alquanto differente rispetto a quello cui siete abituato, ma non scoraggiatevi!
-<<[>>old<<]>>Probabilmente vi imbatterete in Pokémon speciali dall’aspetto alquanto differente rispetto a quello cui siete abituato, ma non scoraggiatevi!
+<<[>>old<<]>>You'll probably encounter special Pokémon with\na quite different look from the usual,\nbut don't let that stop you!
 <<[>>old<<]>>Se me ne porterete uno, userò i miei speciali gadget della Polizia Internazionale per variarne l’aspetto e renderlo più vicino alle vostre corde.
-<<[>>old<<]>>Se me ne porterete uno, userò i miei speciali gadget della Polizia Internazionale per variarne l’aspetto e renderlo più vicino alle vostre corde.
+<<[>>old<<]>>If you bring me one of them, I'll use my special International Police Equipment to change its look and make it similar to what you're used to seeing.
 <<[>>old<<]>>Bellocchio: Vedo che siete riuscita a scovare il mio ufficio segreto, giovane! Questa è l’umile dimora che mi è stata concessa dalla Polizia Internazionale per il caso Dielebi.
-<<[>>old<<]>>Bellocchio: Vedo che siete riuscita a scovare il mio ufficio segreto, giovane! Questa è l’umile dimora che mi è stata concessa dalla Polizia Internazionale per il caso Dielebi.
+<<[>>old<<]>>Looker: So you managed to find my secret office, my young friend!\nThis is the humble abode the International Police gave me for the Dielebi case.
 <<[>>old<<]>>Cosaaa?! Mi state dicendo che siete riuscita nell’impresa di acchiappare quel Pokémon sfuggente? Aster lo diceva che eravate eccezionale!
-<<[>>old<<]>>Cosaaa?! Mi state dicendo che siete riuscita nell’impresa di acchiappare quel Pokémon sfuggente? Aster lo diceva che eravate eccezionale!
+<<[>>old<<]>>Whaaat?! You're telling me that you were able to catch that elusive Pokémon?\nAster told me you were a Trainer of amazing skill!
 <<[>>old<<]>>Bellocchio: Ah, siete voi! Allora, mi avete portato un Pokémon speciale cui cambiare l’aspetto?
-<<[>>old<<]>>Bellocchio: Ah, siete voi! Allora, mi avete portato un Pokémon speciale cui cambiare l’aspetto?
+<<[>>old<<]>>Looker: Ah, it is you! So, did you bring me a special Pokémon you want to change look to?
 <<[>>old<<]>>Tornate pure a trovarmi quando avrete fra le mani un Pokémon speciale su cui usare i miei gadget.
-<<[>>old<<]>>Tornate pure a trovarmi quando avrete fra le mani un Pokémon speciale su cui usare i miei gadget.
+<<[>>old<<]>>Come back when you have a Pokémon on which I can use my special gadgets.
 <<[>>old<<]>>Ah, bene. Volete dunque cambiare l’aspetto di \v<<[>>3<<]>>?
-<<[>>old<<]>>Ah, bene. Volete dunque cambiare l’aspetto di \v<<[>>3<<]>>?
+<<[>>old<<]>>Ah, well. Do you want to change \v<<[>>3<<]>>'s look?
 <<[>>old<<]>>Ecco a voi, ora il vostro Pokémon ha cambiato aspetto!
-<<[>>old<<]>>Ecco a voi, ora il vostro Pokémon ha cambiato aspetto! 
+<<[>>old<<]>>Here you go, now your Pokémon has changed its look!
 <<[>>old<<]>>Tornate pure a trovarmi se vorrete cambiarla nuovamente.
-<<[>>old<<]>>Tornate pure a trovarmi se vorrete cambiarla nuovamente.
+<<[>>old<<]>>Come back anytime you want to change it again.
 <<[>>old<<]>>Volete cambiare l’aspetto di un altro Pokémon?
-<<[>>old<<]>>Volete cambiare l’aspetto di un altro Pokémon?
+<<[>>old<<]>>Do you want to change another Pokémon's look?
 Sì
 Yes
 No
@@ -42104,7 +42118,7 @@ Update contenente i dati del Pokémon Porygon. Permette al Pokémon di evolversi
 An update containing Porygon2's data. It makes the Pokémon evolve via Pokémon Transfer.
 778
 Strumento creato da Tarassaco per far evolvere determinate specie di Pokémon senza l'ausilio di scambi.
-A device designer by Taraxo to make certain species of Pokémon to evolve without trades.
+A device designed by Taraxo to make certain species of Pokémon to evolve without trades.
 779
 Una strana pietra che emana energia Xenoverse. Serve ad evolvere alcuni Pokémon X.
 A mysterious stone imbued with the energy from Xenoverse. It makes certain X Pokémon to evolve.
@@ -44597,7 +44611,7 @@ Gray
 Ben
 Ben
 Dino
-Dino
+Quentin
 Rohan
 Rohan
 Claus
@@ -44661,7 +44675,7 @@ George
 Pier
 Pierre
 Edera
-Colver
+Clover
 Saul
 Salem
 Golia
@@ -44793,7 +44807,7 @@ Pete
 Pedro
 Pedro
 Nicolò
-Nicolò
+Norbert
 Fr3ny01
 Fr3ny01
 Marshall
@@ -45023,7 +45037,7 @@ Minta
 Madalina
 Madelyne
 Sibilla
-Sibilla
+Reagan
 Alessia
 Hailey
 Wolly
@@ -45059,7 +45073,7 @@ Vanessa
 Patricia
 Patricia
 Gasparre
-Gasparre
+Damon
 Ferry
 Wyatt
 Maurizio

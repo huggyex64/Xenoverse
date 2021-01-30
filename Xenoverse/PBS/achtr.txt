@@ -55,7 +55,7 @@ Deadly melody
 Sconfiggi o cattura il boss Roserade X.
 Catch or defeat the boss Roserade X.
 Guerre astrali
-Star Wars
+Astral Wars
 Porta a termine uno scontro leggenda.
 Complete a legend battle.
 Emergente
@@ -105,7 +105,7 @@ Catch 200 Pokémon.
 Ultra Ball? Nah!
 I don't need Ultra Balls!
 Cattura con una Poké Ball un Pokémon di LV. 50 o più.
-Catch a Lv. 50 or more Pokémon using a Poké Ball. 
+Catch a Lv. 50 (or more) Pokémon using a Poké Ball. 
 Vittoria alata
 Winged Victory
 Sconfiggi il Cardinale Peyote.
@@ -125,21 +125,21 @@ Meet and battle the mysterious Trey.
 Old Fashion
 Old Fashion
 Visita la dimensione Retrò e ottieni Pichu Retrò.
-Visit the Vintage dimension and get the Vintage Pichu.
+Visit the Vintage dimension and get Vintage Pichu.
 Ohana
 Ohana
 Sfida e sconfiggi tuo padre Versil.
 Battle and defeat your father Versil.
 Il futuro è qui!
 Future is now!
-Sfida e sconfiggi il Mago dei Computer Tarassaco.
+Sfida e sconfiggi il Ricercatore Tarassaco.
 Battle and defeat the Researcher Taraxo.
 Primi passi
 First step
 Cattura il tuo primo Pokémon.
 Catch your first Pokémon.
 Incubo dei Mercanti
-Merchants' worst nightmare
+Merchants' nightmare
 Sconfiggi tutti i Mercanti in giro per Eldiw.
 Defeat all the Merchants around Eldiw.
 Il riflesso nello specchio
