@@ -3642,17 +3642,17 @@ Face it, Pokégears of the past were way more reliable!
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 Sibilla
-Sibilla
+Reagan
 Questa palude non è il massimo per sfrecciare in Pokéboard, ma magari è l’ideale per le lotte!
-Questa palude non è il massimo per sfrecciare in Pokéboard, ma magari è l’ideale per le lotte!
+This swamp ain't the best place to dart around with<<n>>a Pokéboard, but maybe it's perfect for battles!
 Qualcuno mi ricorda perché cavolo sono venuta qui?
-Qualcuno mi ricorda perché cavolo sono venuta qui?
+Can someone tell me why the heck I came here?
 Antonio
-Antonio
+James
 Questi fanghi puzzano un po’, ma sono perfetti per le maschere di bellezza!
-Questi fanghi puzzano un po’, ma sono perfetti per le maschere di bellezza!
+This mud smells a bit, but it's perfect as a face mask!
 Guarda che pelle liscia e senza imperfezioni che abbiamo io e i miei Pokémon.
-Guarda che pelle liscia e senza imperfezioni che abbiamo io e i miei Pokémon.
+Look at me and my Pokémon...we have such a smooth flawless skin!
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Sabolt dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Sabolt to take a look inside?
 Sabolt
@@ -3666,31 +3666,31 @@ Booolt...!
 <<[>>old<<]>>Bzz!
 <<[>>old<<]>>Bzz!
 Alessandro
-Alessandro
+Axel
 Non so quanti fossili si celino in questa melma, ma so che saranno tutti miei!
-Non so quanti fossili si celino in questa melma, ma so che saranno tutti miei!
+I don't know how many hidden fossils there are<<n>>in this sludge, but I know they're all mine!
 Forse potrei anche dividerli con te...
-Forse potrei anche dividerli con te...
+But maybe I could share them with you...
 <<[>>old<<]>>Non si muove. Sarà guasto?
 <<[>>old<<]>>It doesn't move. Maybe it is out of order...
 T3M
 T1
 Per quanto sono rimasto in standby? È ora di carburare con una lotta! <i>Bzz!</i>
-Per quanto sono rimasto in standby? È ora di carburare con una lotta! <i>Bzz!</i>
+How long have I been on stand-by? It's time to stretch<<n>>my gears with a battle! <i>Bzz!</i>
 P0
 M3
 Lo stesso vale per me! <i>Bzz!</i>
-Lo stesso vale per me! <i>Bzz!</i>
+And the same goes for me! <i>Bzz!</i>
 E-Errore.
 E-Error.
 <i>Batteria scarica. Bzz!</i> <i>Carica nel covo necessaria. Bzz!</i>
-<i>Batteria scarica. Bzz!</i> <i>Carica nel covo necessaria. Bzz!</i>
+<i>The battery is low. Bzz!</i><<n>><i>Recharging station requested. Bzz!</i>
 Nicolò
-Nicolò
+Norbert
 Qu-Questo bosco mi fa ta-tanta paura... voglio la mamma!!
-Qu-Questo bosco mi fa ta-tanta paura... voglio la mamma!!
+Th-This wood's re-really scary...I want my mommy!!
 Se solo avessi una Fune di Fuga...
-Se solo avessi una Fune di Fuga...
+If I only had an Escape Rope...
 Sì
 Yes
 No
@@ -5319,7 +5319,7 @@ This battle was a terrible idea...
 A0A0
 A0A0
 Per quanto sono rimasto in standby? È ora di carburare con una lotta! <i>Bzz!</i>
-How long have I been on stand-by? It's time to stretch my gears with a battle!
+How long have I been on stand-by? It's time to stretch<<n>>my gears with a battle! <i>Bzz!</i>
 E-Errore.
 E-Error.
 <i>Batteria scarica. Bzz!</i> <i>Carica nel covo necessaria. Bzz!</i>
@@ -12831,7 +12831,7 @@ I am a globe-trotting elite of the <b>International</b> <b>Police</b>.<<n>>My co
 Ma veniamo al dunque.
 But let's come to the point.
 Da anni sono sulle tracce di un Pokémon misterioso con la capacità di viaggiare nello spazio e nel tempo... In quanto agente della Polizia Internazionale, non posso permettere che un cattivone ci metta le mani su!
-For years I've been on the trail of a mythical Pokémon<<n>>that has the power to travel across spacetime...<<n>>As a detective of the International Police, I cannot let<<n>>bad guys put their hands on it!
+For years I've been on the trail of a mythical Pokémon<<n>>that has the power to travel across spacetime...<<n>>As an officer of the International Police, I cannot let<<n>>bad guys put their hands on it!
 Gli sono stato alle calcagna in epoche e dimensioni differenti e la ricerca mi ha condotto fin qui!
 I've been dashing on its pursuit across several different ages and dimensions, and that's how I got here!
 <b>Dielebi</b>, il Pokémon Spaziotempo!
@@ -15501,27 +15501,29 @@ Ah, the scent of the sea!
 Castalia
 Niva
 \PN! Infine, hai mantenuto fede alla promessa di venire a farmi visita!
-\PN! Infine, hai mantenuto fede alla promessa di venire a farmi visita!
+\PN, finally! You kept your promise and came visiting me!
 Allora, che te ne pare della mia Tauronordia?
-Allora, che te ne pare della mia Tauronordia?
+So, what do you think about my Borealis Town?
 Immagino sia stata dura spingersi sin qui, ma i più abili sanno sempre farsi strada nel gelo di questi monti.
-Immagino sia stata dura spingersi sin qui, ma i più abili sanno sempre farsi strada nel gelo di questi monti.
+I guess it wasn't easy to come here, but the most skilled<<n>>ones always make their way through these mountains.
 E dopotutto tu sei il prescelto, era indubbio che ci riuscissi! Ah ah ah!
-E dopotutto tu sei il prescelto, era indubbio che ci riuscissi! Ah ah ah!
+And you're the chosen one after all--it is beyond any doubt that you were able to come! Ha ha ha!
 Ah, certo! Quest’enorme palazzo alle mie spalle, vero?
-Ah, certo! Quest’enorme palazzo alle mie spalle, vero?
+Oh, sure! This huge palace behind me, right?
 Come gli altri Cardinale della regione, anch’io possiedo una personale dimora...
-Come gli altri Cardinale della regione, anch’io possiedo una personale dimora...
+Like the other Cardinals of Eldiw, I have my own abode, too...
+La mia è proprio questa <b>Pagoda del Cardinale</b>!
+Mine is this <b>Cardinal's Pagoda</b>!
 Quando giungerà il momento, potrai visitarla anche tu, ma ora ho da fare ritorno al Monte Zodiaco.
-Quando giungerà il momento, potrai visitarla anche tu, ma ora ho da fare ritorno al Monte Zodiaco.
+When the time comes, you'll be able to visit it, but now<<n>>I have to go back to Mt. Zodiac.
 La mia presenza qui è stata anche sin troppo lunga e non posso permettermi più di restare... Ho un incarico da svolgere!
-La mia presenza qui è stata anche sin troppo lunga e non posso permettermi più di restare... Ho un incarico da svolgere!
+My presence here was already too time-consuming,<<n>>I cannot afford to stay any longer...<<n>>I have my own duties to fulfil!
 Prima di ritirarmi, però, voglio darti un’indicazione, come tu facesti quella volta nella Via Vittoria...
-Prima di ritirarmi, però, voglio darti un’indicazione, come tu facesti quella volta nella Via Vittoria...
+But before leaving, I want to give you advice, like<<n>>you did that time in the Victory Road...
 Al di là del <b>Percorso 14</b>, il cammino sulla sinistra, si estende la gelida grotta del Nido Boreale... Ebbene, perché non ti trattieni ancora un po’ da queste parti e provi a superarlo? La vista dalla Vetta Boreale è davvero uno spettacolo impareggiabile... sono certa che ne varrà la pena!
-Al di là del <b>Percorso 14</b>, il cammino sulla sinistra, si estende la gelida grotta del Nido Boreale... Ebbene, perché non ti trattieni ancora un po’ da queste parti e provi a superarlo? La vista dalla Vetta Boreale è davvero uno spettacolo impareggiabile... sono certa che ne varrà la pena!
+Beyond <b>Route 14</b>, the path on the left, lays the freezing cave of Aurora Den...<<n>>Then, why don't you stay here for a while and try to get through it?<<n>>The view from the top of Aurora Den is breathtaking...<<n>>I'm sure it will be worth it!
 Ora, col tuo permesso, mi congedo.
-Ora, col tuo permesso, mi congedo.
+Now, with your permission, I take my leave.
 Zài jiàn, \PN!
 Zài jiàn, \PN!
 <<[>>old<<]>>Dojo Lotta
@@ -20855,35 +20857,35 @@ No
 <<[>>old<<]>>The door is locked.
 [Map558]
 <<[>>old<<]>>Cos’è stato?
-<<[>>old<<]>>Cos’è stato?
+<<[>>old<<]>>What was that?
 <<[>>old<<]>>Bellocchio: Vedo che siete riuscito a scovare il mio ufficio segreto, giovane! Questa è l’umile dimora che mi è stata concessa dalla Polizia Internazionale per il caso Dielebi.
-<<[>>old<<]>>Bellocchio: Vedo che siete riuscito a scovare il mio ufficio segreto, giovane! Questa è l’umile dimora che mi è stata concessa dalla Polizia Internazionale per il caso Dielebi.
+<<[>>old<<]>>Looker: So you managed to find my secret office, my young friend!\nThis is the humble abode the International Police gave me for the Dielebi case.
 <<[>>old<<]>>A proposito, ditemi... come procede la ricerca?
-<<[>>old<<]>>A proposito, ditemi... come procede la ricerca?
+<<[>>old<<]>>By the way, tell me...how is the hunt going?
 <<[>>old<<]>>Cosaaa?! Mi state dicendo che siete riuscito nell’impresa di acchiappare quel Pokémon sfuggente? Aster lo diceva che eravate eccezionale!
-<<[>>old<<]>>Cosaaa?! Mi state dicendo che siete riuscito nell’impresa di acchiappare quel Pokémon sfuggente? Aster lo diceva che eravate eccezionale!
+<<[>>old<<]>>Whaaat?! You're telling me that you were able to catch that elusive Pokémon?\nAster told me you were a Trainer of amazing skill!
 <<[>>old<<]>>Ora potrete avventurarvi attraverso i portali di quei tempietti di cui vi parlai, per vivere l’esperienza di epoche e dimensioni alternative!
-<<[>>old<<]>>Ora potrete avventurarvi attraverso i portali di quei tempietti di cui vi parlai, per vivere l’esperienza di epoche e dimensioni alternative!
+<<[>>old<<]>>Now you can venture through the little shrines' portals I told you about to experience alternate ages and dimensions!
 <<[>>old<<]>>Probabilmente vi imbatterete in Pokémon speciali dall’aspetto alquanto differente rispetto a quello cui siete abituato, ma non scoraggiatevi!
-<<[>>old<<]>>Probabilmente vi imbatterete in Pokémon speciali dall’aspetto alquanto differente rispetto a quello cui siete abituato, ma non scoraggiatevi!
+<<[>>old<<]>>You'll probably encounter special Pokémon with\na quite different look from the usual,\nbut don't let that stop you!
 <<[>>old<<]>>Se me ne porterete uno, userò i miei speciali gadget della Polizia Internazionale per variarne l’aspetto e renderlo più vicino alle vostre corde.
-<<[>>old<<]>>Se me ne porterete uno, userò i miei speciali gadget della Polizia Internazionale per variarne l’aspetto e renderlo più vicino alle vostre corde.
+<<[>>old<<]>>If you bring me one of them, I'll use my special International Police Equipment to change its look and make it similar to what you're used to seeing.
 <<[>>old<<]>>Bellocchio: Vedo che siete riuscita a scovare il mio ufficio segreto, giovane! Questa è l’umile dimora che mi è stata concessa dalla Polizia Internazionale per il caso Dielebi.
-<<[>>old<<]>>Bellocchio: Vedo che siete riuscita a scovare il mio ufficio segreto, giovane! Questa è l’umile dimora che mi è stata concessa dalla Polizia Internazionale per il caso Dielebi.
+<<[>>old<<]>>Looker: So you managed to find my secret office, my young friend!\nThis is the humble abode the International Police gave me for the Dielebi case.
 <<[>>old<<]>>Cosaaa?! Mi state dicendo che siete riuscita nell’impresa di acchiappare quel Pokémon sfuggente? Aster lo diceva che eravate eccezionale!
-<<[>>old<<]>>Cosaaa?! Mi state dicendo che siete riuscita nell’impresa di acchiappare quel Pokémon sfuggente? Aster lo diceva che eravate eccezionale!
+<<[>>old<<]>>Whaaat?! You're telling me that you were able to catch that elusive Pokémon?\nAster told me you were a Trainer of amazing skill!
 <<[>>old<<]>>Bellocchio: Ah, siete voi! Allora, mi avete portato un Pokémon speciale cui cambiare l’aspetto?
-<<[>>old<<]>>Bellocchio: Ah, siete voi! Allora, mi avete portato un Pokémon speciale cui cambiare l’aspetto?
+<<[>>old<<]>>Looker: Ah, it is you! So, did you bring me a special Pokémon you want to change look to?
 <<[>>old<<]>>Tornate pure a trovarmi quando avrete fra le mani un Pokémon speciale su cui usare i miei gadget.
-<<[>>old<<]>>Tornate pure a trovarmi quando avrete fra le mani un Pokémon speciale su cui usare i miei gadget.
+<<[>>old<<]>>Come back when you have a Pokémon on which I can use my special gadgets.
 <<[>>old<<]>>Ah, bene. Volete dunque cambiare l’aspetto di \v<<[>>3<<]>>?
-<<[>>old<<]>>Ah, bene. Volete dunque cambiare l’aspetto di \v<<[>>3<<]>>?
+<<[>>old<<]>>Ah, well. Do you want to change \v<<[>>3<<]>>'s look?
 <<[>>old<<]>>Ecco a voi, ora il vostro Pokémon ha cambiato aspetto!
-<<[>>old<<]>>Ecco a voi, ora il vostro Pokémon ha cambiato aspetto! 
+<<[>>old<<]>>Here you go, now your Pokémon has changed its look!
 <<[>>old<<]>>Tornate pure a trovarmi se vorrete cambiarla nuovamente.
-<<[>>old<<]>>Tornate pure a trovarmi se vorrete cambiarla nuovamente.
+<<[>>old<<]>>Come back anytime you want to change it again.
 <<[>>old<<]>>Volete cambiare l’aspetto di un altro Pokémon?
-<<[>>old<<]>>Volete cambiare l’aspetto di un altro Pokémon?
+<<[>>old<<]>>Do you want to change another Pokémon's look?
 Sì
 Yes
 No
@@ -44597,7 +44599,7 @@ Gray
 Ben
 Ben
 Dino
-Dino
+Quentin
 Rohan
 Rohan
 Claus
@@ -44661,7 +44663,7 @@ George
 Pier
 Pierre
 Edera
-Colver
+Clover
 Saul
 Salem
 Golia
@@ -44793,7 +44795,7 @@ Pete
 Pedro
 Pedro
 Nicolò
-Nicolò
+Norbert
 Fr3ny01
 Fr3ny01
 Marshall
@@ -45023,7 +45025,7 @@ Minta
 Madalina
 Madelyne
 Sibilla
-Sibilla
+Reagan
 Alessia
 Hailey
 Wolly
@@ -45059,7 +45061,7 @@ Vanessa
 Patricia
 Patricia
 Gasparre
-Gasparre
+Damon
 Ferry
 Wyatt
 Maurizio
