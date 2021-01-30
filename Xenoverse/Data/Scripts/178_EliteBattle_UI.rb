@@ -2434,7 +2434,7 @@ class NextGenDataBox  <  SpriteWrapper
     # clears the current bitmap containing text and adjusts its font
     @sprites["text"].bitmap.clear
     #pbSetSystemFont(@sprites["text"].bitmap)
-    pbSetFont(@sprites["text"].bitmap,FONT_NAME,20)
+    pbSetFont(@sprites["text"].bitmap,FONT_NAME,$MKXP ? 18 : 20)
     # used to calculate the potential offset of elements should they exceed the
     # width of the HP bar
     str = ""
@@ -2470,7 +2470,7 @@ class NextGenDataBox  <  SpriteWrapper
     color = (getBattler(@battler).gender==0) ? Color.new(53,107,208) : Color.new(180,37,77)
     #pbDrawOutlineText(@sprites["text"].bitmap,x-o,-20,@sprites["text"].bitmap.width,@sprites["text"].bitmap.height,str,color,Color.new(42,42,42,200),0)
     # writes the Pokemon's level
-    pbSetFont(@sprites["text"].bitmap,FONT_NAME,18)  # ADJUSTING FONT FOR LEVEL AND HP
+    pbSetFont(@sprites["text"].bitmap,FONT_NAME,$MKXP ? 16 : 18)  # ADJUSTING FONT FOR LEVEL AND HP
     str = "#{getBattler(@battler).level}"
     x = @playerpoke ? -510 : -510
     pbDrawOutlineText(@sprites["text"].bitmap,x+o,-20,@sprites["text"].bitmap.width,@sprites["text"].bitmap.height,str,Color.new(255,255,255),Color.new(42,42,42,200),2)
@@ -2480,9 +2480,9 @@ class NextGenDataBox  <  SpriteWrapper
     pbDrawOutlineText(@sprites["text"].bitmap,x+o+2-6,-19,@sprites["text"].bitmap.width,@sprites["text"].bitmap.height,str,Color.new(222,197,95),Color.new(42,42,42,200),2)    
     # writes the number of the Pokemon's current/total HP
     str = "#{self.hp}/#{@battler.totalhp}"
-    pbSetFont(@sprites["text"].bitmap,FONT_NAME,12)
+    pbSetFont(@sprites["text"].bitmap,FONT_NAME,$MKXP ? 10 : 12)
     pbDrawOutlineText(@sprites["text"].bitmap,-40-120,5,@sprites["text"].bitmap.width,@sprites["text"].bitmap.height,str,Color.new(255,255,255),Color.new(42,42,42,200),1) if @showhp
-    pbSetFont(@sprites["text"].bitmap,FONT_NAME,18)
+    pbSetFont(@sprites["text"].bitmap,FONT_NAME,$MKXP ? 16 : 18)
     # draws Pokeball if Pokemon is caught
     @sprites["text"].bitmap.blt(16,232,pbBitmap(@path+"catch.png"),Rect.new(0,0,14,14)) if !@playerpoke && @battler.owned && !@scene.battle.opponent
     # draws the status conditions
