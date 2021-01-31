@@ -620,7 +620,7 @@
 642,GEOMANCY,Geocontrollo,14E,0,FAIRY,Status,0,10,0,10,0,,"Chi la usa assorbe energia nel primo turno, per aumentare poi notevolmente l'Attacco Speciale, la Difesa Speciale e la Velocità in quella seguente."
 643,DRAININGKISS,Assorbibacio,0DD,50,FAIRY,Special,100,10,0,00,0,abef,"Un bacio fatato che assorbe le energie al nemico."
 644,FELLSTINGER,Pungiglione,150,50,BUG,Physical,100,25,100,00,0,abef,"L'Attacco di chi la usa aumenta notevolmente se grazie alla mossa il bersaglio va KO."
-645,PAPERCUT,Cartaforbice,091,30,STEEL,Physical,100,20,0,00,0,abef,"Chi la usa attacca con delle affilatissime lame di carta. La potenza aumenta ogni volta che mette a segno un colpo."
+645,PAPERCUT,Cartaforbice,091,30,STEEL,Physical,90,20,0,00,0,abef,"Chi la usa attacca con delle affilatissime lame di carta. La potenza aumenta ogni volta che mette a segno un colpo."
 646,HOTCHILIPEPPER,Piccantiro,00A,80,GRASS,Physical,100,15,30,00,0,bef,"Chi la usa lancia addosso al nemico dei semi piccanti che possono anche scottarlo."
 647,BREMANDRHAPSODY,Concertotem,000,35,SUONO,Special,100,10,0,04,0,befk,"Chi la usa chiama a raccolta i Bremand della squadra: più ce ne sono, più la mossa è potente."
 648,CONFIDE,Confidenza,13C,0,NORMAL,Status,100,25,0,00,0,ek,"Chi la usa svela dei segreti al bersaglio, distraendolo e riducendone l'Attacco Speciale."

@@ -76,7 +76,7 @@ Taraxo
 <<[>>old<<]>>Racconti a Tarassaco dell'accaduto.
 <<[>>old<<]>>You told Taraxo what happened.
 Oh, ecco spiegato il Lapras all'entrata! Questa faccenda mi puzzava di <b>Pokémon X</b>... Ero venuto qui per far luce sul mistero, ma a quanto pare ci hai già pensato tu. I marinai raccontano che questi Pokémon attacchino le navi per farne il proprio covo.
-Aah, that explains the Lapras at the entrance! To be honest, I was expecting an <b>X Pokémon</b> behind all this.<<n>>So I came here to see this through, but it seems<<n>>you already solved it.<<n>>Seamen tell these Pokémon are used to assault ships<<n>>to make them their dens.
+Aah, that explains the Lapras at the entrance! To be honest, I was expecting an <b>X Pokémon</b> behind all this.<<n>>So I came here to see this through, but it seems<<n>>you already solved it.<<n>>Sailors tell these Pokémon are used to assault ships<<n>>to make them their dens.
 Come dici? Dovrei essere sul fondo del mare? Beh, in effetti ero anch'io sulla nave... Sarei mangime per pesci, se <b>Alakazam</b> non avesse teletrasportato tutto l’equipaggio per tempo.
 What'd you say? Shouldn't I be under the sea?<<n>>Well, um, I was on that ship too...<<n>>If <b>Alakazam</b> didn't teleport all the crew in time,<<n>>we would be feeding fishes now.
 Ma basta parlare, usciamo da qui! Alakazam, Teletrasporto!
@@ -303,7 +303,7 @@ Alakazam, come back!
 Sarai sfinito|a dopo la lotta contro <b>Sharpedo</b>, vero? Lascia che curi i tuoi Pokémon, su.
 You must be tired after the battle against that <b>Sharpedo</b>. Let me heal your Pokémon, come on!
 \PN, benvenuto|a nella mia dimora a <b>Vetta Polare</b>. Qui conduco studi di ogni sorta, ma ho una certa predilezione per la tecnologia. Conosci il Sistema Memoria Pokémon e i <b>Centri</b> <b>Porygon</b>, vero? Sono entrambi di mia invenzione!
-\PN, welcome to my house<<n>>in <b>Polaris Town</b>.<<n>>I conduct all sorts of studies here, but I’ve got a certain predilection for technology.<<n>>Do you know the Storage System and <b>Porygon</b> <b>Centers</b>, don't you? They're both my invections!
+\PN, welcome to my house<<n>>in <b>Polaris Town</b>.<<n>>I conduct all sorts of studies here, but I’ve got a certain predilection for technology.<<n>>Do you know the Storage System and <b>Porygon</b> <b>Centers</b>, don't you? They're both my inventions!
 Il Teletrasporto di Alakazam ti ha un po’ scombussolato|a, non è vero? Sentiti pure libero|a di fare un giro qui intorno se ti può far stare meglio. Io purtroppo ho delle faccende da sbrigare e non posso trattenermi... Tu fa' pure come fossi a casa tua. Bye-bye!
 Alakazam's Teleport has upset you,<<n>>hasn't it?<<n>>Feel free to take a stroll around here if it makes<<n>>you feel better.<<n>>I have some business to attend to, and I can't stay any longer...<<n>>You make yourself at home. Bye-bye!
 Uhm! Prendi al volo, forza!
@@ -2836,7 +2836,7 @@ Maybe if I learn some tricks with the Pokéboard,<<n>>Ginger will accept me in h
 Lucio
 Luke
 Grazie ancora per aver salvato noi uomini di mare da quello strano Sharpedo. D’ora in poi sarò a tua completa disposizione per la tratta Campus Ariepoli-Balansopoli!
-Thanks again for saving us seamen from that weird<<n>>Sharpedo.<<n>>From now on I'll be totally at your service for<<n>>the Newtron-Hadwarf City route!
+Thanks again for saving us sailors from that weird<<n>>Sharpedo.<<n>>From now on I'll be totally at your service for<<n>>the Newtron-Hadwarf City route!
 Vuoi tornare a Balansopoli?
 Do you want to travel back to Hadwarf?
 Si salpa allora!
@@ -12954,7 +12954,7 @@ Well, my search here is over. Time to go back to<<n>>Polaris Town to draw my own
 Ah, \PN... Ci sarebbe una piccola faccenda da sbrigare che secondo me farebbe proprio al caso tuo. Se ti interessa saperne di più, sai dove trovarmi!
 Oh, \PN...there's a little business to take care of,<<n>>and I think you'd be perfect for it.<<n>>If you'd like to learn more, you know where to find me!
 Bye-bye!
-Bye!
+Bye-bye!
 Alakazam, andiamo.
 Alakazam, Teleport.
 Alakazam
@@ -32636,7 +32636,7 @@ Galleggia a pelo d'acqua, standosene perennemente a testa in giù. Pare che non 
 It perpetually floats upside down on the surface of the water. Apparently, it doesn't feed on anything to survive.
 1205
 Potrebbe aver fatto la sua comparsa molto tempo fa. Antichissimi racconti di mare, infatti, già descrivono un Pokémon che divora le navi per farne la propria dimora.
-This Pokémon may have appeared long time ago, since very ancient seamen tales already told of a creature used to devour ships to make them its den.
+This Pokémon may have appeared long time ago, since very ancient sailors' tales already told of a creature used to devour ships to make them its den.
 1206
 Ben più grosso del Pyukumuku a noi noto. Espellendo gli organi interni, si dà lo slancio per scaraventarsi sull'avversario.
 It is way bigger than the actual Pyukumuku. Expelling its internal organs, it propels itself to strike its opponent.
