@@ -158,7 +158,7 @@ SCOVILE,36
 BIKER
 Opie
 2
-PEPEQUENO,33
+ELEKID,33
 PEPEQUENO,33
 #==============================
 BIKER
@@ -401,8 +401,8 @@ URSARING,52
 CAMPEGGIATRICE
 Giorgina
 2
-MURKROW,25
-SHAWKBIRD,26
+MURKROW,24
+GRANBULL,25
 #==============================
 CAMPEGGIATRICE
 Ginevra
@@ -437,7 +437,7 @@ ONIX,24
 CAMPEGGIATRICE
 Umberta
 1
-FLAAFFY,15
+ELEKID,15
 #==============================
 CAMPEGGIATRICE
 Sonia
@@ -967,7 +967,7 @@ ROSELIA,25
 FIGLIA_DEI_FIORI
 Elizabeth
 2
-CHIGAMI,27
+MANTICOEUR,27
 DRATINI,27
 #==============================
 FIGLIA_DEI_FIORI
@@ -1973,7 +1973,7 @@ GENGAR,38
 REDNECKF
 Matilda
 2
-ELEKID,36
+DUSMEE,36
 WHISTERACT,39
 #==============================
 REDNECKM
