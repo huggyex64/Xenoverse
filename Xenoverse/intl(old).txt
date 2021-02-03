@@ -13430,7 +13430,7 @@ Contropiede
 Contropiede
 119
 Movimento Sismico
-Movimento Sismico
+Mov. Sismico
 120
 Granfisico
 Granfisico

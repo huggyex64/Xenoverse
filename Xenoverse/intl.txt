@@ -9835,13 +9835,13 @@ Ma sono state proprio le batoste a rendermi più forte e a farmi diventare quell
 But is this kinda beatings that made me strong, turning me into who I am now...<<n>>If I hadn't smacked my head on that wall so much,<<n>>I don't know where I'd be now!
 \PN, se anche tu hai un sogno da raggiungere, rendilo il tuo sole, la tua ragione di vita. Anche quando tutto sembra crollare, vai avanti e afferralo stretto come 'sta Medaglia!
 \PN, if you have a dream, make it your sun,<<n>>your purpose in life.<<n>>Even when everything seems to fall apart, keep going<<n>>and seize the day like you're seizing this Badge!
-Visto che bling-bling? La mia <b>Medaglia Ritmo</b> è proprio un bel pezzo d’oro ed è tutto tuo ora! Wah ah ah!
+Visto che bling-bling? La mia <b>Medaglia Ritmo</b> è proprio un bel pezzo d’oro ed è tutta tua ora! Wah ah ah!
 See the ice? My <b>Beat Badge</b> is a nice piece of gold and it's all yours now! Wa ha ha!
 Ti avevo anche promesso un autografo, ma, dopo quello che hai fatto per la mia città, sarebbe troppo poco... Voglio darti questa!
 I promised you an autograph as well, but after what you did for my town, it wouldn't be enough...<<n>>I want you to have this!
 Quella MT contiene la mia mossa preferita, <b>Trematutto</b>!
 That TM contains my favorite move--<b>Subwoofer</b>!
-Ai Pokémon che la usano basterà urlare per far capire ai nemici chi comanda e farli tentennare! Che forza, huh? Sono sicuro che stia proprio a pennello per un Allenatore tosto come te, \PN!
+Ai Pokémon che la usano basterà urlare per far capire ai nemici chi comanda e farli tentennare! Che forza, huh? Sono sicuro che stia proprio a pennello su un Allenatore tosto come te, \PN!
 Any Pokémon who uses this move will scream, showin' the foes who's the boss and makin' them flinch! Cool, huh?<<n>>I'm sure a tough Trainer like you will make the best<<n>>of it, \PN!
 Giuro che ora ho finito con tutte ‘ste chiacchiere, eh! Ci si becca alla prossima, amico|a! Chissà che non ci scappi un invito speciale per il release party del prossimo album! Wah ah ah!
 I swear I'm done with the chit-chat, heh!<<n>>See ya next time, buddy!<<n>>I may have a special invite for the release party<<n>>of my next record! Wa ha ha!
@@ -10396,7 +10396,7 @@ Jade
 Jade
 Ehi, ragazzino|a!
 Hey, kid!
-Sei stato formidabile! Raggiungimi in console, su!
+Sei stato|a formidabile! Raggiungimi in console, su!
 You were terrific! Come here at the deejay booth, c'mon!
 <<[>>old<<]>>Sta chiacchierando col barista.
 <<[>>old<<]>>They are chatting.
