@@ -369,6 +369,11 @@ class NewPokemonStorage
 					@heldmon = nil
 					@heldmonsprite = nil
 				elsif @sprites["box"].currentbox[@selIndex] != nil && @sprites["box"].currentbox[@selIndex] != @heldmon #switch
+					echoln "#{!@heldog[0]} #{!checkSwitchedParty(@heldmon,@sprites["box"].currentbox[@selIndex])} #{@heldmon.hp<=0}"
+					if !@heldog[0] && !checkSwitchedParty(@heldmon,@sprites["box"].currentbox[@selIndex]) && @heldmon.hp<=0
+						Kernel.pbMessage(_INTL("You can't leave your Pokémon here!"))
+						return
+					end
 					tmp = @heldmonsprite
 					tmpmon = @heldmon
 					oldid = @sprites["box"].currentbox.pokemon.index(tmpmon)
@@ -432,6 +437,11 @@ class NewPokemonStorage
 					@heldmonsprite = nil
 					@heldog = []
 				elsif @sprites["partybox"].party[@selIndex-16] != nil && @sprites["partybox"].party[@selIndex-16] != @heldmon #switch
+					echoln "#{!@heldog[0]} #{!checkSwitchedParty(@heldmon,@sprites["partybox"].party[@selIndex-16])} #{@heldmon.hp<=0}"
+					if !@heldog[0] && !checkSwitchedParty(@heldmon,@sprites["partybox"].party[@selIndex-16]) && @heldmon.hp<=0
+						Kernel.pbMessage(_INTL("You can't leave your Pokémon here!"))
+						return
+					end
 					#storing the currently held pokemon and sprite
 					tmp = @heldmonsprite
 					tmpmon = @heldmon
@@ -519,6 +529,24 @@ class NewPokemonStorage
 			if i.hp>0 #this implies that there's at least one more with >0 hp
 				ret = true
 			end
+		end
+		return ret
+	end
+
+	#checks if the party with the given Pokémon is still eligible (not all fainted, not 0 pokèmon)
+	def checkSwitchedParty(pkmn,ignore)
+		ret = false
+		for i in @sprites["partybox"].party
+			next if i==ignore
+			next if i==nil
+			next if i.isEgg?
+			if i.hp>0 #this implies that there's at least one more with >0 hp
+				ret = true
+			end
+		end
+		echoln "Ret is #{ret}"
+		if pkmn.hp>0
+			ret=true
 		end
 		return ret
 	end
