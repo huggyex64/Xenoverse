@@ -1102,7 +1102,7 @@ So today we're going to take a tour of the <b>Nova Ranch</b>.[dispose]
 Edera
 Clover
 \PN! Ti vedo un po' stanco|a... Forse dovresti riposare...
-\PN! You look a bit tired... You should rest...
+\PN! You look a bit tired...you should rest...
 Non esitare a tornare dalla mamma quando ne hai bisogno!
 Don't hesitate to come back home whenever you need it!
 Finalmente ti sei svegliato, dormiglione!
@@ -1126,7 +1126,7 @@ However, that day, no one came back...
 Solo dopo qualche giorno, <b>Nonna Lea</b> bussò alla porta nel cuore della notte... Che sollievo trovare te sull'uscio di casa! Eri svenuto e avevi una Ball con te.
 Days after, <b>Nana Flora</b> knocked on the door, in the middle of the night...<<n>>What a relief finding you at the front door!<<n>>You were unconscious and had a Ball with you.
 Di tuo padre, però, nemmeno l'ombra... Da quel giorno non lo vidi più...
-But your father was not there... I haven't seen him since that day...
+But your father was not there...I haven't seen him since that day...
 Mi dispiace di avertene parlato solo adesso, dopo anni di menzogne su menzogne...
 I'm sorry I waited so long to tell you about this, after years of lies...
 Tu
@@ -1138,7 +1138,7 @@ Darling! Wha- are you out of your mind?<<n>>How can you think of such a thing?!
 Non sei pronto per metterti sulle tracce di papà. Sei ancora un ragazzino!
 You're not ready to go look for your father yet.<<n>>You're still a child!
 Ce ne stiamo già occupando io e <b>Aster</b>... Non è semplice neanche per noi adulti!
-We are working on it, I and <b>Aster</b>... It's not that easy for us adults either!
+We are working on it, I and <b>Aster</b>...it's not that easy for us adults either!
 Insistere non servirà a niente, \PN! Non cambierò idea per nulla al mondo! Se dopo papà dovessi perdere anche te, il mio unico figlio, io...
 Don't insist, \PN! There is no way in the world<<n>>I'm changing my mind!<<n>>If I were to lose you too, my only child, I- sigh!
 Sigh!
@@ -1646,7 +1646,7 @@ This is a precious object I've been keeping since<<n>>I was a little girl, but I
 Ehi, \PN! Dove corri?
 Hey, \PN! Where are you running?
 Oh oh! Ma guarda un po'... La mamma si è decisa a lasciarti andare! Si sarà resa conto di essere stata fin troppo protettiva con te...? Ih ih!
-Ho-ho! Look at that... Your mommy finally<<n>>let you go, huh?<<n>>She probably realized she was shielding you too much... Hee-hee!
+Ho-ho! Look at that...your mommy finally<<n>>let you go, huh?<<n>>She probably realized she was shielding you too much... Hee-hee!
 Beh, stai per affrontare un viaggio che ti porterà ad incontrare tanti nuovi Pokémon! Lascia che ti mostri una cosuccia allora!
 Well, you are about to start a journey that will make<<n>>you run into a bunch of new Pokémon!<<n>>Let me show you something then!
 Come puoi ben vedere, quest'erba è più alta di quella normale... È qui che si annidano i Pokémon selvatici! Ma non temere, puoi catturarli con dei particolari aggeggi chiamati Poké Ball. Ecco, prendine un po'.
@@ -1902,15 +1902,15 @@ Man, there's no way to get in there...
 UARGH! Mi hai fatto prendere un colpo! Pensavo fosse un Pokémon selvatico pronto ad attaccarmi...!
 UARGH!<<n>>You made my heart skip a beat!<<n>>I thought it was a wild Pokémon ready to<<n>>attack me...!
 Tu... Hai tutta l'aria di essere un Allenatore, ho forse indovinato?
-You... You really look like a Pokémon Trainer,<<n>>am I right?
+Hmm...you really look like a Pokémon Trainer,<<n>>am I right?
 Eh eh! Non ne sbaglio una! Sì.
 Heh heh! I never miss one! Yeah.
 Adi
 Adi
 Il mio nome è <b>Adi</b> e mi sono da poco trasferito in questa regione... Sì. Sono un vero appassionato di Pokémon e di tutto ciò che li riguarda, ma data la mia età, mi limito ad osservarne i comportamenti e a cercare tesori nascosti nei <b>Nidi Pokémon</b>, dei veri e propri dungeon!
-My name is <b>Adi</b> and I just moved<<n>>to this region... Yeah.<<n>>I'm a big Pokémon enthusiast and I know everything<<n>>about them, but due to my age,<<n>>I just observe their behavior and seek hidden treasures inside these dungeons called <b>Pokémon Dens</b>!
+My name is <b>Adi</b> and I just moved<<n>>to this region...yeah.<<n>>I'm a big Pokémon enthusiast and I know everything<<n>>about them, but due to my age,<<n>>I just observe their behavior and seek hidden treasures inside these dungeons called <b>Pokémon Dens</b>!
 Ma vedrai... Un giorno li acchiapperò tutti quanti!
-You'll see... One day I'll catch 'em all!
+You'll see...one day I'll catch 'em all!
 Come dici, scusa? Non conosci i <b>Nidi Pokémon</b>?! Non preoccuparti, ci sono qui io per questo! Sì.
 What did you say?<<n>>Never heard of <b>Pokémon Dens</b>?!<<n>>Don't worry, that's why I'm here! Yeah.
 Vedi, non sono altro che tane in cui i Pokémon nascondono i preziosi oggetti in cui s'imbattono.
@@ -1922,7 +1922,7 @@ But you have to consider the risk factor too...!
 Infatti, se il Pokémon di quel Nido dovesse accorgersi della presenza del tuo amico, non esiterebbe a scacciarlo seduta stante!
 In fact, if the Pokémon inside the Den realized<<n>>your buddy was there too, it wouldn't hesitate to immediately cast it out!
 Vedo che hai un Pokémon lì con te... Perché non provi a intrufolarti in questo Nido? Sì.
-I see you have a Pokémon with you… Why don't you<<n>>try to infiltrate this Den? Yeah.
+I see you have a Pokémon with you...why don't you<<n>>try to infiltrate this Den? Yeah.
 Beh, giovane Allenatore... È stato un piacere fare la tua conoscenza! Ti auguro una prosperosa carriera! Sayonara!
 Well, young Trainer...<<n>>It was nice meeting you!<<n>>I wish you a prosperous career! Sayonara!
 Non prendermi in giro, suvvia!
@@ -2122,7 +2122,7 @@ I cornered it!
 Ora però voglio che sia tu a lottare contro di lui, così da dimostrarmi quanto vali. Presta attenzione però.
 But I want you to fight it, to prove to me<<n>>how much you are worth.<<n>>Now pay attention.
 Come ti ho già accennato, questo mascalzone proviene da un altro mondo... È praticamente impossibile rinchiuderlo in delle comuni Poké Ball! Perciò, ho sviluppato una Ball capace di imprigionare la furia dirompente della specie X. A te il frutto dei miei anni di studio!
-As I told you, this crook comes from another world... So it's impossible to catch it with common Poké Balls!<<n>>Therefore, I developed a Ball capable of imprisoning<<n>>the explosive fury of X-species Pokémon.<<n>>Here, the results of years of research!
+As I told you, this crook comes from another world...so it's impossible to catch it with common Poké Balls!<<n>>Therefore, I developed a Ball capable of imprisoning<<n>>the explosive fury of X-species Pokémon.<<n>>Here, the results of years of research!
 Apri bene le orecchie!
 Let me tell you something.
 La ricerca su questi Pokémon ha rivelato che possiedono più barre dei PS. Nonostante i guai, questo <b>Elekid</b> non è dotato di particolare forza, quindi avrà a dir tanto due barre.
@@ -2174,7 +2174,7 @@ Axel
 Io e il mio Pokémon ti suoneremo come un tamburo!
 My Pokémon and I will beat you like a drum!
 Sigh... Nemmeno lo so suonare il tamburo...
-Sigh... I can't even play the drum...
+Sigh...I can't even play the drum...
 Oh, qual buon vento, \PN! Come stai?
 Oh, how nice to see you, \PN! How are you?
 Nonostante tutto, ho deciso che riprenderò il mare con la mia nuovissima <b>Motonave Cometa II</b>! Un uomo di mare che si rispetti non si lascia intimorire da uno Sharpedo arrogante!
@@ -2375,7 +2375,7 @@ Scram, I'm on my lunch break!
 Devo ammettere che hai fatto un lavoro davvero egregio! Ancora i miei complimenti! Ero certo che non sarei dovuto intervenire per salvarti la pelle. Ah ah ah!
 I have to say that you made an awesome work out there! Congratulations!<<n>>I was sure you'd be able to handle this all on your own.<<n>>Ha ha ha! 
 Benvenuto|a nel mio laboratorio! Qui è dove conduco studi sui misteriosi <b>Pokémon X</b>. È proprio qui che, grazie al rispetto reciproco, è stata concepita la <b>Xeno Ball</b>, l'unico dispositivo in grado di arginare i poteri di queste mistiche creature...
-Anyway, welcome to my lab! This is where I run my research<<n>>on <b>X Pokémon</b>.<<n>>It's in here where we conceived the <b>Xeno Ball</b>,<<n>>only thanks to mutual respect,<<n>>the only device capable of containing the power of<<n>>these mysterious creatures...
+Anyway, welcome to my lab! This is where I run my research<<n>>on <b>X Pokémon</b>.<<n>>It's in here where we conceived the <b>Xeno Ball</b>,<<n>>only thanks to mutual respect,<<n>>the only device capable of containing the power of<<n>>those mysterious creatures...
 Non si sa quanti altri esemplari di specie X si annidino ancora per Eldiw, ma una cosa è certa... Rappresentano un pericolo per il suo equilibrio! Dovrai essere pronto|a a tutto!
 We don't know how many other X-specimens are still lurking<<n>>in the Eldiw region, but one thing is sure...<<n>>They are a serious threat to its balance!<<n>>You have to be ready for anything!
 Se vuoi maturare come Allenatore, ti consiglio di sfidare i <b>Capipalestra</b> della regione. Sai, anche Balansopoli ospita una <b>Palestra</b>... Potresti partire proprio da quella, che ne dici?
@@ -4423,7 +4423,7 @@ Welcome to Hadwarf City's Gym, young Trainer!
 Come dici? Vuoi sapere chi io sia? A quale scopo? Ti basti sapere che faccio il tifo per te!
 What? You want to know who I am? And why?<<n>>All you have to know is that I'm cheering for you!
 <b>Alisso</b>, il Capopalestra, è un amante dei Pokémon di tipo Erba... l'avresti mai detto? Eh eh! Prova a contrastarli con la passione ardente dei Pokémon di tipo Fuoco!
-<b>Basil</b>, the Gym Leader, specializes in Grass-type<<n>>Pokémon... could you tell? Heh heh!<<n>>Try to turn them to ash with the burning passion<<n>>of Fire-type Pokémon!
+<b>Basil</b>, the Gym Leader, specializes in Grass-type<<n>>Pokémon...could you tell? Heh heh!<<n>>Try to turn them to ash with the burning passion<<n>>of Fire-type Pokémon!
 Sei stato|a formidabile contro Alisso! Sei un portento per essere solo un Allenatore in erba.
 You were terrific against Basil!<<n>>You're so strong for a green Trainer!
 Come dici? Vuoi sapere chi io sia? A quale scopo? Ti basti sapere che faccio il tifo per te!
@@ -34045,7 +34045,7 @@ Semitraglia
 Bullet Seed 
 210
 Assorbimento
-Assorb
+Absorb
 211
 Laccioerboso
 Grass Knot
@@ -51050,7 +51050,7 @@ It doesn't affect {1}...
 {1} is hurt by its burn!
 {1} is hurt by its burn!
 {1} is paralyzed! It can't move!
-{1} is paralyzed!  It can't move!
+{1} is paralyzed! It can't move!
 {1} is frozen solid!
 {1} is frozen solid!
 {1} woke up!
@@ -51970,7 +51970,7 @@ evasiveness
 {1} blacked out!
 {1} blacked out!
 {1} raccoglie {2} da {3}!
-{1} pick up {2} from {3}!
+{1} picked up {2} from {3}!
 Graphics/Pictures/battleCommandButtons
 Graphics/Pictures/battleCommandButtons
 {1:s}PP: ---<br>TYPE/{2:s}
