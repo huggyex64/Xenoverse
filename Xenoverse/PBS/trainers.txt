@@ -216,7 +216,7 @@ Federico
 3
 LEDYBA,3
 SPARKOWL,3
-RATTATA,3
+YEMIN,3
 #==============================
 BULLO
 Milo

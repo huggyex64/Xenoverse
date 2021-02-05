@@ -752,7 +752,7 @@ Hey, you! Stay out of our business!
 Non divideremo mai i nostri soldi con te!
 We're not gonna share the money with you!
 Potevi dirlo subito che eri così forte!
-You could have said you were so strong!
+You could have said you were this strong!
 Min, ritirataaa!!
 Min, retreaaat!!
 Kiloo...!
@@ -1232,7 +1232,7 @@ Wiggly...!
 Tommaso
 Thompson
 Il freddo ha mandato in tilt il mio portatile... Per fortuna c’è quel genio di Tarassaco!
-The cold broke my laptop... Luckily there is Taraxo!<<n>>He's a genius!
+The cold broke my laptop...luckily there's Taraxo here!<<n>>He's such a genius!
 Evaristo
 Evolt
 Avrei tanto voluto far evolvere il mio <b>Hikiloo</b>, ma ahimè, non ho mai trovato una <b>Pietragelo</b>.
@@ -2178,7 +2178,7 @@ Sigh...I can't even play the drum...
 Oh, qual buon vento, \PN! Come stai?
 Oh, how nice to see you, \PN! How are you?
 Nonostante tutto, ho deciso che riprenderò il mare con la mia nuovissima <b>Motonave Cometa II</b>! Un uomo di mare che si rispetti non si lascia intimorire da uno Sharpedo arrogante!
-I decided to take to the sea again with my brand new<<n>><b>S.S. Comet II</b> after all!<<n>>A respectable seaman is never cowed by a smug Sharpedo!
+I decided to take to the sea again with my brand new<<n>><b>S.S. Comet II</b> after all!<<n>>A respectable sailor is never cowed by a smug Sharpedo!
 <<[>>old<<]>>Questa cassa sembrerebbe protetta da un codice. Vuoi provare ad inserirlo?
 <<[>>old<<]>>This chest seems to be locked with a code.\nWould you like to enter one?
 <<[>>old<<]>>Grazie per il supporto. -Vostro Starkey
@@ -2543,7 +2543,7 @@ What? Embarking with a bike?<<n>>Can't you see it's a <b>Vroombug</b>?!
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>The trash is empty.
 La Motonave Cometa attraccherà direttamente al <b>Campus Ariepoli</b>. Nel mentre, sentiti pure libero|a di fare un giro.
-The S.S. Comet will dock directly at <b>Newtron City</b>.<<n>>Meanwhile, feel free to look around.
+The S.S. Comet will dock in <b>Newtron City</b>.<<n>>Meanwhile, feel free to look around.
 <<[>>old<<]>>La porta sembra chiusa a chiave.
 <<[>>old<<]>>The door is locked.
 <<[>>old<<]>>Vuoi usare la chiave per aprire questa porta?
@@ -2608,7 +2608,7 @@ I broke a plate and hid its leftover shards under<<n>>the table. Mum's the word!
 Gina
 Jane
 Lo sapevi che con l'inchiostro di Octillery si prepara un ottimo risotto? Il mare è davvero pieno di risorse!
-Did you know that Octillery ink makes an awesome risotto?<<n>>The sea is really full of resources!
+Did you know that Octillery ink makes an awesome risotto?<<n>>The sea is so resourceful!
 Umberto
 Robert
 Il <b>Risoctillery</b> è delizioso, non trovi?
@@ -3079,6 +3079,8 @@ You can find everything you need here!
 <<[>>old<<]>>The locker is open... and there's something inside!
 <<[>>old<<]>>L'etichetta sulla chiave recita ''Aula di Scienze".
 <<[>>old<<]>>The tag on the key says ''Science Class''.
+<<[>>old<<]>>Questo armadietto è aperto... ma non c'è niente al suo interno...
+<<[>>old<<]>>The locker is open... but there is nothing inside...
 <<[>>old<<]>>Questo armadietto è vuoto.
 <<[>>old<<]>>The locker is empty.
 <<[>>old<<]>>Vuoi aprire la porta del cortile utilizzando l'apposita chiave?
@@ -3098,7 +3100,7 @@ What? You want to know who I am? And why?<<n>>You just need to know I'm cheering
 <b>Claudio</b>, il Capopalestra, è un esperto dei Pokémon di tipo Lotta. Diciamoci la verità, è un po' il classico sportivo di ogni college che si rispetti! Ricorda che la mente prevale sulla forza bruta, quindi i Pokémon Psico fanno al caso tuo! Ah, dimenticavo.
 <b>Ginger</b>, the Gym Leader, specializes in Fighting-type<<n>>Pokémon.<<n>>Let's be honest, he's exactly the sporty type<<n>>each respectable college has!<<n>>Remember mind prevails over brute force, so Psychic-type Pokémon are what you need!<<n>>Ah, I forgot.
 Per farti strada in questa Palestra dovrai cercare negli armadietti le chiavi delle apposite aule. Tutto chiaro?
-For this Gym challenge, you have to find the keys to<<n>>the right rooms in the school lockers. Is that clear?
+For this Gym challenge, you have to find a key to<<n>>the right class in these lockers first. Is that clear?
 Che scontro memorabile quello tra te e Claudio!
 What a memorable battle between you and Ginger!
 Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
@@ -3459,7 +3461,7 @@ Henry
 Sciò! Non vedi che ci stiamo baciando?!
 Shoo! Can't you see we're making out?!
 <<[>>old<<]>><b>Isola Pigliapesci</b> <i>''Pesca ricca e pace dei sensi.''</i>
-<<[>>old<<]>><b>Proxim Island</b> <i>''The place of rich fishery and peace of mind.''</i>
+<<[>>old<<]>><b>Proxim Island</b>\n<i>''The place of rich fishery and peace of mind.''</i>
 <<[>>old<<]>>Casa di Rem
 <<[>>old<<]>>Rem's House
 Antonio
@@ -3483,7 +3485,7 @@ You know where to find me if you change your mind.
 Swami
 Swami
 Quando bacio il mio ragazzo penso a quel gran fusto di <b>Daddy</b>... tu non dirglielo però!
-While kissing my boyfriend I think about <b>Daddy</b>,<<n>>he's such a stud... Don't tell him, I beg!
+While kissing my boyfriend I think about <b>Daddy</b>,<<n>>he's such a stud...don't tell him, I beg!
 <<[>>new,Marino,ludopoli/marino,default,left,true<<]>>
 <<[>>new,Briney,ludopoli/marino,default,left,true<<]>>
 Eccoci qui. Torna pure da me quando vorrai ripartire.
@@ -3519,7 +3521,7 @@ Studying this rock I found something very interesting.<<n>>Here you go!
 Chissà, magari arriva dallo spazio...
 Who knows, it could be from space...
 <<[>>old<<]>>Star...\n... key!
-<<[>>old<<]>>Star...\n... key!
+<<[>>old<<]>>Star...\n...key!
 Enza
 Cynthia
 Il lavoro da ricercatore è gratificante, ma con tutto quello studio si finisce per impazzire!
@@ -3597,9 +3599,9 @@ Who dares disturb the one and only genius Rem?
 Come dici? Aster vuole sapere a che punto sia col mio lavoro? Ehm, ecco... P-P-Prendi questa e smamma!
 E-Excuse me? Aster wants news on my work?<<n>>It's, um...T-T-Take this and go away!
 G-G-Guarda che non era un compito facile! N-Non mi sono preso delle ferie di troppo!
-T-T-That wasn't an easy task! I-I didn't take too many holidays... I swear!
+T-T-That wasn't an easy task! I-I didn't take too many holidays...I swear!
 Dannazione... Posso dire addio al mio posto fisso, vero?
-Darn it...I can say goodbye to my permanence, do I?
+Darn it...I'll say goodbye to my permanence...!
 Pensavo che Aster sarebbe venuto a darmi una strigliata e invece non s'è più fatto vi...
 I thought Aster would have come to tell me off, but I haven't seen hi-
 Oh...
@@ -4405,7 +4407,7 @@ Watch out for wild Pokémon, honey!
 Ivan
 Nathan
 Alisso è il mio guru.
-Basil is my guru.
+Basil is my master.
 Più pungente di un acuto.
 Forgive me, master.
 Mi perdoni, maestro.
@@ -4433,7 +4435,7 @@ Basil
 ...
 ...
 E tu chi saresti? ... ... ... Un Allenatore, forse? Io sono <b>Alisso</b>, Capopalestra di Balansopoli. Come una quercia secolare, sono solito mantenere la calma in qualsiasi situazione... Una, però, mi manda su tutte le furie: essere interrotto nel pieno della meditazione! Consiglio sempre di non sfidarmi quando accade, ma ormai quel che è fatto, è fatto! Fatti avanti, Allenatore!
-Pray tell, who might you be?<<n>>...<<n>>...<<n>>...<<n>>A Trainer, possibly? I am <b>Basil</b>, Hadwarf City's <<n>>Gym Leader.<<n>>As a secular oak tree, my mind is peaceful and calm<<n>>in every situation...<<n>>Only one thing makes my rage erupt: getting interrupted while meditating!<<n>>It would be wise not to defy me when this happens,<<n>>but what's done is done! Bring it on, Trainer!
+Pray tell, who might you be?<<n>>...<<n>>...<<n>>...<<n>>A Trainer, possibly? I am <b>Basil</b>, Hadwarf City's <<n>>Gym Leader.<<n>>As a secular oak tree, my mind is peaceful and calm<<n>>in every situation...<<n>>Only one thing makes my rage erupt--getting interrupted while meditating!<<n>>It would be wise not to defy me when this happens,<<n>>but what's done is done! Bring it on, Trainer!
 Mi hai spezzato come un fuscello...
 You snapped me like a twig...
 Il mio animo era corrotto dalla collera e perciò hai avuto la meglio. Il tuo spirito puro è degno del mio perdono, la tua abilità meritevole della <b>Medaglia Radice</b>. Prendi, è tua adesso.
@@ -11088,7 +11090,7 @@ No
 Katia
 Kate
 Da giovane, ero una promettente Allenatrice di Pokémon Ghiaccio, sai?
-When I was young I was a promising Ice Pokémon<<n>>Trainer, you know?
+When I was young I was a promising Ice-type Pokémon<<n>>Trainer, you know?
 Giulio
 Jules
 In tutte queste fotografie la nonna lotta al fianco di quest’uomo... chissà chi è.
@@ -32420,7 +32422,7 @@ Thanks to the strong experience it has acquired in countless battles, it teaches
 (Vocalist)\n It is said this Pokémon represents the soul of music. It has full control over its voice so that it can adapt to any kind of song.
 1031
 Prende il controllo di altri Pokémon per compiere azioni che vorrebbe fare lui. Non lo fa con cattive intenzioni, ma solo per timidezza.
-It takes control of others Pokémon to do whatever it wants. However, it does this not with malevolence, but just because it is bashful.
+It takes control of other Pokémon to do whatever it wants. However, it does this not with malevolence, but just because it is bashful.
 1032
 Controlla umani e Pokémon tramite i suoi filamenti e, assorbendone l'energia vitale, li lascia come gusci vuoti senz'anima.
 It controls Pokémon and human beings\n as puppets using its strings. Feeding on their life energy, it turns their bodies in soul-less empty shells.  
