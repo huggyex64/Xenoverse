@@ -482,7 +482,7 @@ class PokemonOptionScene
 end
 
 OPT_OPTFONT = Font.new
-OPT_OPTFONT.name = $MKXP ? "Barlow Condensed" : "Barlow Condensed Extrabold"
+OPT_OPTFONT.name = $MKXP ? "Barlow Condensed" : "Barlow Condensed ExtraBold"
 OPT_OPTFONT.size = $MKXP ? 22 : 24
 #OPT_OPTFONT.bold = true
 
@@ -545,7 +545,7 @@ class NewSingleOption<EAMSprite
 	def updateOptions(id)
 		return if id>@optionsSprites.length
 		@optionsSprites[id].bitmap.clear
-    @optionsSprites[id].bitmap.font.name = id==@selIndex && !$MKXP ? "Barlow Condensed Bold" :  "Barlow Condensed"
+    @optionsSprites[id].bitmap.font.name = id==@selIndex && !$MKXP ? "Barlow Condensed ExtraBold" :  "Barlow Condensed"
     @optionsSprites[id].bitmap.font.bold = id==@selIndex && $MKXP ? true : false
 		pbDrawTextPositions(@optionsSprites[id].bitmap,[[@options[id],@optionsSprites[id].bitmap.width/2,9,2,(id==@selIndex ? OPT_SELCOLOR : OPT_NORMALCOLOR)]])
 	end
