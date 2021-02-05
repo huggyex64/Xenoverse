@@ -318,7 +318,7 @@ Pino
 3
 YEMIN,2
 ZIGZAGOON,2
-KRICKETOT,2
+KRICKETOT,3
 #==============================
 CAMPEGGIATORE
 Alessandro
@@ -335,7 +335,7 @@ BULBASAUR,10
 CAMPEGGIATORE
 Lucio
 2
-BIDOOF,2
+BIDOOF,3
 ZIGZAGOON,3
 #==============================
 CAMPEGGIATORE
