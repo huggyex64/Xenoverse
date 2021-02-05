@@ -1011,7 +1011,7 @@ No
 Umberta
 Bertha
 È stata dura, ma finalmente si riesce a intravedere il campus!
-It was hard but I'm glimpsing the campus!
+It was hard but I'm finally glimpsing the campus!
 Guarda, è proprio laggiù!
 Look, it's over there!
 Melodias
@@ -1484,7 +1484,7 @@ Did you already listen to ''King of the Jungle''?
 Antonella
 Angel
 Questo campus è decisamente troppo grande... Mi sono persa!
-This campus is too big... I definitely got lost!
+This campus is too big...I definitely got lost!
 Maria
 Mary
 Ogni momento è buono per tenersi in forma!
@@ -2795,7 +2795,7 @@ Do you want to disappoint your superiors,<<n>>you hunk of junk?! <i>Bzz!</i><<n>
 Abbiamo fallito, ma ci penseranno i <b>Sergenti</b> a farti la pelle! <i>Bzz!</i>
 We failed, but our <b>Sergeants</b> will make you pay! <i>Bzz!</i>
 <<[>>old<<]>><b>Biblioteca di Ariepoli</b> <i>''Tempio del sapere della regione.''</i>
-<<[>>old<<]>><b>Newtron Library</b> <i>''Temple of erudition of the region.''</i>
+<<[>>old<<]>><b>Newtron Library</b>\n<i>''Temple of erudition of the region.''</i>
 Noi Reclute siamo niente in confronto ai <b>Sergenti</b>. <i>Bzz!</i>
 We Grunts are nothing compared to <b>Sergeants</b>.<<n>><i>Bzz!</i>
 Non puoi aprire la porta senza lo starter in squadra.
