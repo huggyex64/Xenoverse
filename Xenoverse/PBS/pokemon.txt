@@ -22546,7 +22546,7 @@ Habitat=Grassland
 RegionalNumbers=0,25,0
 Kind=Acustico
 Pokedex=Intensifica la potenza della sua voce con gli organi auricolari posti sulle braccia. Alla massima intensità sgretola persino le rocce.
-WildItemUncommon=SITRUSBERRY
+WildItemUncommon=XENOLITE
 BattlerPlayerY=21
 BattlerEnemyY=5
 Evolutions=ROSERADEX,Item,XENOLITE
@@ -22573,7 +22573,7 @@ Habitat=Grassland
 RegionalNumbers=0,26,0
 Kind=Acustico
 Pokedex=Agitando i suoi spilli, può modificare a piacimento qualsivoglia onda acustica. Se interferisce col battito cardiaco, causa danni irreparabili al fisico.
-WildItemUncommon=SITRUSBERRY
+WildItemUncommon=XENOLITE
 BattlerPlayerY=21
 BattlerEnemyY=5
 [1225]
