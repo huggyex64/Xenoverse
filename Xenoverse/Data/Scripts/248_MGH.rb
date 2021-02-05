@@ -41,6 +41,10 @@ class MysteryGiftHandler
         poke.setAbility(params[10])
         poke.name = params[11] if params[11] != "NIL"
         poke.setGender(params[12]) if poke.gender!=2
+        if params[13]!=0
+            poke.form=params[13]
+            poke.resetMoves
+        end
         return poke
     end
 
@@ -68,6 +72,7 @@ class MysteryGiftHandler
         ret[10]=params[10].to_i
         ret[11]=params[11]
         ret[12]=params[12].to_i
+        ret[13]=params[13].to_i
         return ret
     end
 
