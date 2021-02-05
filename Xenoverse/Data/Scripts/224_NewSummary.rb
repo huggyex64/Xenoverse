@@ -227,6 +227,11 @@ class PokemonSummaryScene
 			textpos=[]
 			textpos.push([PBItems.getName(@pokemon.item),55,310,0,Color.new(24,24,24)])
 			pbDrawTextPositions(@sprites["overlay"].bitmap,textpos)
+    end
+    @sprites["status"].bitmap.clear
+    if @pokemon.status != 0 && @pokemon.hp>0
+			statusindex = @pokemon.status-1
+			@sprites["status"].bitmap.blt(0,0,pbBitmap("Graphics/Pictures/EBS/Xenoverse/STATUS"),Rect.new(19*statusindex,0,19,19))	
 		end
 	end
 	
