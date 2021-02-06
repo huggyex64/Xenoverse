@@ -2852,7 +2852,7 @@ I'm sure she'll only have eyes for me now!
 Pesca
 Peach
 Quello strambo professore di Filosofia l'altro giorno mi ha regalato un sasso... Ho apprezzato il gesto, ma lo sanno tutti che oggigiorno le donne si conquistano coi Fossili!
-The other day this freaky philosophy teacher gave me<<n>>a rock...<<n>>I appreciated it, but everyone knows that Fossils<<n>>are a way to women's hearts nowadays!
+The other day that freaky Philosophy teacher gave me<<n>>a rock...<<n>>I appreciated it, but everyone knows that Fossils<<n>>are a way to women's hearts nowadays!
 Sì
 Yes
 No
@@ -2862,8 +2862,8 @@ Evangelina
 Evangeline
 ''Brillando al chiaro di luna, un <b>Manticoeur</b> allenato col dovuto affetto potrà evolversi.'' O almeno così c'è scritto in questo libro...
 ''Shining in the moonlight, a <b>Manticoeur</b><<n>>trained with love will evolve.''<<n>>At least that's what this book says...
-<<[>>old<<]>>Lastra Terrestre: ''’Lastra dal colore purpureo che si dice rappresenti il cuore del Pokémon protettore della Terra.''
-<<[>>old<<]>>Terrestrial Plate: ''Reddish plate. It seems to represent the Earth guardian Pokémon's heart.''
+<<[>>old<<]>><b>Lastra Terrestre</b> ''Lastra dal colore purpureo che si dice rappresenti il cuore del Pokémon protettore della Terra.''
+<<[>>old<<]>><b>Terrestrial Plate</b> ''Reddish plate. It seems to represent the Earth guardian Pokémon's heart.''
 ???
 ???
 Guarda là, <b>B</b>! È proprio quello che cercavamo. <i>Roger!</i>
@@ -2917,7 +2917,7 @@ Eric
 GO-GO, GRANBULLS! Il nostro Claudio è il più tosto!
 GO-GO, GRANBULLS! Ginger's the coolest!
 E tu, bei capelli, c'entri qualcosa in questa storia? Non ti ho mai visto|a qui al campus... Bah, non importa.
-What 'bout you, haircut? Are you with them?<<n>>I've never seen you here on campus... Bah, whatevs.
+What 'bout you, haircut? Are you with them?<<n>>I've never seen you here on campus...bah, whatevs.
 Voi chi sareste, pagliacci? Se non filate con le buone, lo farete con le cattive!
 Who are you, clowns? If you are not gonna beat it,<<n>>we're gonna beat you!
 Guarda, fratellone! Un altro umano che non ci conosce... <i>Roger!</i>
@@ -2953,9 +2953,9 @@ Ginger's <b>Hawlucha</b> has been defeated...?
 Se dovesse usare l'altro Pokémon, finirebbe per danneggiare anche la biblioteca...
 If he used his other Pokémon, he would have damaged<<n>>the library as well...
 Tranquilli, ragazzi... Io e Hawlucha siamo tutti interi.
-Calm down, guys... Hawlucha and I are fine.
+Calm down, guys...Hawlucha and I are fine.
 (Cavolo... Questo|a ragazzo|a mi ha proprio salvato la pelle... Se non fosse stato per lui||ei, quei Pawniard mi avrebbero sconfitto in un istante...)
-(That was close… This dude||||girl really saved<<n>>my skin...<<n>>If it wasn't for him||er, those Pawniard would have<<n>>beaten me in a while...) 
+(That was close...this dude||||girl really saved<<n>>my skin...<<n>>If it wasn't for him||er, those Pawniard would have<<n>>beaten me in a while...) 
 Ancora non chiudete quella bocca, eh?! Tranquilli, ci pensiamo noi! Pawniard, fateli fuori!! <i>Roger!!</i>
 You still don't shut your mouth, huh?!<<n>>Don't worry, now we do it for you!<<n>>Pawniard, take 'em out!! <i>Roger!!</i>
 Fareste bene a ricordarvi di noi. <i>Roger!</i>
@@ -3043,7 +3043,7 @@ Nowadays no one uses the <b>Exp. Share</b> anymore...
 Vorrei sdebitarmi a nome di tutto il campus per averci liberato dal Team Dimension. Non ripagherà di certo il favore, ma prendi.
 I'm so thankful you freed us from<<n>>Team Dimension.<<n>>It may not be a lot but take this, it's from the whole campus.
 È un <b>Condividi Esperienza</b>, uno strumento che permette di far ottenere Punti Esperienza anche a Pokémon che non prendono parte alla lotta. Spero vivamente ti possa tornare utile!
-It's an <b>Exp. Share</b>! With this tool, a Pokémon can get<<n>>Exp. Points even if it doesn't take part in the battle.<<n>>I hope it'll help you!
+It's an <b>Exp. Share</b>! With that tool, a Pokémon can get<<n>>Exp. Points even if it doesn't take part in the battle.<<n>>I hope it'll help you!
 Gigi
 Louis
 Lavoro qui da anni e potrei giurare che quella lastra fosse rossa prima...
@@ -3055,11 +3055,11 @@ Where are you running?! <i>Bzz!</i>
 Mariano
 Logan
 Ieri gambe e domani petto... Oggi invece si allena il cervello in biblioteca!
-Yesterday the legs, tomorrow the chest... And today<<n>>we exercise the brain in the library instead!
+Yesterday the legs, tomorrow the chest...and today<<n>>we exercise the brain in the library instead!
 Nadia
 Natalie
 In questa biblioteca c'è veramente di tutto!
-You can find everything you need here!
+You can find every book you need here!
 [Map56]
 <<[>>old<<]>>Sgabuzzino
 <<[>>old<<]>>Janitor's closet
@@ -4330,7 +4330,7 @@ By the end of this year I'll organise the biggest party<<n>>this campus has ever
 Il Campus Ariepoli è come una grande Scuola per Allenatori.
 Newtron City's campus is like a big Trainer School.
 Mi sto liberando di tutte le Sveglie che ho, così potrò dormire in tutta tranquillità... Prendine una anche tu!
-I'm getting rid of all the Awakenings I have to sleep<<n>>in peace... have yourself one, too!
+I'm getting rid of all the Awakenings I have to sleep<<n>>in peace...have yourself one, too!
 Quanto amo dormire!
 I love sleeping so much!
 [Map89]
