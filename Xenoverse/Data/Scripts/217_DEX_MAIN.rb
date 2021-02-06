@@ -26,11 +26,11 @@ class DexMain
   def initialize(dexlist=0)
 		Console::setup_console if $DEBUG
 		pbLoadFormDescTranslation
-    @viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
-    @viewport.z = 999999
+    	@viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
+    	@viewport.z = 999999
 		#$Trainer.seen[244] = false
 		#for i in 0...$Trainer.seen.length
-	  #	 $Trainer.seen[i] = false
+	  	#	 $Trainer.seen[i] = false
 		#end
 		$Trainer.xenodex = true if $DEBUG
 		@nationaldex = false
@@ -38,9 +38,9 @@ class DexMain
 		@dexlist = dexlist == 0 ? (@nationaldex ? NATIONALDEX : ELDIWDEX) : (dexlist == 1 ? RETRODEX : XENODEX)
 		@dex = @dexlist
 		
-    @path = "Graphics/Pictures/DexNew/"
+    	@path = "Graphics/Pictures/DexNew/"
 		
-    @sprites = {}
+    	@sprites = {}
     
 		@savedCriteria = [nil,nil,nil,nil,nil,nil,nil]
 		
@@ -48,8 +48,8 @@ class DexMain
 		
 		dexvalue = @dexlist == ELDIWDEX ? "PokeDex" : (@dexlist == RETRODEX ? "RetroDex" : "XenoDex")
 		
-    @sprites["bg"] = Sprite.new(@viewport)
-    @sprites["bg"].bitmap = pbBitmap(Dex::PATH + dexvalue + "_bg")
+    	@sprites["bg"] = Sprite.new(@viewport)
+    	@sprites["bg"].bitmap = pbBitmap(Dex::PATH + dexvalue + "_bg")
 		@sprites["abg"] = AnimatedPlane.new(@viewport)
 		@sprites["abg"].bitmap = pbBitmap(Dex::PATH + "animbg")
 		@sprites["overbg"] = Sprite.new(@viewport)
@@ -77,11 +77,11 @@ class DexMain
 		
 		texts = []
 		#Dexname
-		dexname = @dexlist == ELDIWDEX ? "Pokédex" : (@dexlist == XENODEX ? "Xenodex" : "Retrodex")
+		dexname = @dexlist == ELDIWDEX ? _INTL("Pokédex") : (@dexlist == XENODEX ? _INTL("Xenodex") : _INTL("Retrodex"))
 		dexname = _INTL("Progress")
 		texts.push([dexname,20,9,false,Dex::MAINCOLOR])
 		#Dexdesc
-		dexdesc = @dexlist == ELDIWDEX ? "Pokédex di Eldiw" : (@dexlist == XENODEX ? "Pokédex dello Xenoverse" : "Pokédex Retrò")
+		dexdesc = @dexlist == ELDIWDEX ? _INTL("Pokédex di Eldiw") : (@dexlist == XENODEX ? _INTL("Pokédex dello Xenoverse") : _INTL("Pokédex Retrò"))
 		texts.push([_INTL("{1}",dexdesc),266,9,false,Dex::MAINCOLOR])
 		#Chiudi
 		texts.push([_INTL("Close"),460,346,true,Dex::MAINCOLOR])
