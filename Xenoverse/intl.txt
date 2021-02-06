@@ -3175,7 +3175,7 @@ Arthur
 Ehi, hai per caso visto la mia amica? Stiamo giocando a nascondino.
 Hey, have you seen my friend?<<n>>We are playing hide-and-seek.
 Certo che sei proprio una spia...
-You truly are a snitch...
+You must be a real snitch...
 Va bene, grazie comunque.
 Ok, thanks anyway.
 ???
@@ -32464,7 +32464,7 @@ Pieno di vitalità, scorrazza qua e là lanciandosi alla carica di Pokémon ben 
 It runs around full of vitality and charges into bigger and stronger Pokémon. Its external shell hardens over time.
 1045
 Se ne sta appeso agli alberi, lasciandosi colpire dai Beefle per accumulare l'energia necessaria all'evoluzione.
-They hangs on tree branches, letting Beefle punching them to accumulate the energy required to evolve.
+They hang on tree branches, letting Beefle punching them to store the energy required to evolve.
 1046
 Si impone sull'avversario con la sua enorme stazza. Rifiuta categoricamente la sfida con Pokémon che ritiene più deboli.
 It overcomes opponents with its huge body. It categorically refuses to battle against a Pokémon it doesn't deem worthy.
@@ -52132,9 +52132,9 @@ Landed a Pokémon!
 \w[]\wm\c[8]\l[3]After the unfortunate defeat, {1} scurried to a Pokémon Center.
 \w[]\wm\c[8]\l[3]After the unfortunate defeat, {1} scurried to a safe place.
 \w[]\wm\c[8]\l[3]{1} scurried to a Pokémon Center, protecting the exhausted and fainted Pokémon from further harm.
-\w[]\wm\c[8]\l[3]{1} scurried to a safe, protecting the exhausted and fainted Pokémon from further harm.
+\w[]\wm\c[8]\l[3]{1} scurried to a safe place, protecting the exhausted and fainted Pokémon from further harm.
 Can't find the map 'Map{1:03d}' in the Data folder. The game will resume at the player's position.
-Can't find the map 'Map{1:03d}' in the Data folder.  The game will resume at the player's position.
+Can't find the map 'Map{1:03d}' in the Data folder. The game will resume at the player's position.
 \w[]\wm\c[8]\l[3]After the unfortunate defeat, {1} scurried home.
 \w[]\wm\c[8]\l[3]After the unfortunate defeat, {1} scurried home.
 \w[]\wm\c[8]\l[3]{1} scurried home, protecting the exhausted and fainted Pokémon from further harm.
@@ -56008,7 +56008,7 @@ You obtained {1}.
 Hai trovato {1}, ma non hai abbastanza spazio...
 You found {1}, but you have no room for it...
 Il gancio e' inutilizzabile
-The Rod is unusable...
+The Rod bumped into something...
 Recupero fallito
 You failed!
 Un Pokémon ha abboccato!
