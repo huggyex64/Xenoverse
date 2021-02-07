@@ -4004,7 +4004,7 @@ Sabrina
 Cammino da ore e ancora non ho ritrovato l’uscita!
 I've been walking for hours, but I still haven't found<<n>>the exit!
 Mi sono proprio persa...
-I've lost my way... as well as this battle...
+I've lost my way...as well as this battle...
 Spero solo di non essere attaccata da uno Zubat!
 I just hope no Zubat will attack me!
 Benny
@@ -4835,7 +4835,7 @@ Yes
 Fataldo
 Fae
 Insegnerò la mia mossa speciale solo a chi avrà ottenuto la <b>Medaglia Zucchero</b>.
-I'll be teaching my very special move only those<<n>>holding the <b>Sugar Badge.</b>.
+I'll be teaching my very special move only to those<<n>>holding the <b>Sugar Badge.</b>.
 Ma quella è proprio la Medaglia Zucchero!
 Hey, that's the Sugar Badge!
 Allora, vuoi che insegni <b>Fatapatto</b> ad uno dei tuoi Pokémon?
@@ -4860,7 +4860,7 @@ No
 Ermal
 Elmer
 Volevo insegnare questa MT al mio Hikiloo, ma pare non possa impararla. Prendila pure tu.
-I wanted to teach this TM to my Hikiloo, but it looks like<<n>>it can learn it. You should take it.
+I wanted to teach this TM to my Hikiloo, but it looks like<<n>>it can't learn it. You should take it.
 Il mio Pokémon non fa che dormire...
 My Pokémon is only good at sleeping...
 Hikiloo
@@ -11226,7 +11226,7 @@ Get redy to fighten and may fate ben alongside the best of us!
 Mimosa
 Vanilla
 Quindi avresti superato tutte le prove... Non credere di riuscire a battere me, la principessa!
-So you passed all the trials... But don't you think you can beat me, I'm the Princess!
+So you passed all the trials...but don't think you can<<n>>beat me, I'm the Princess!
 Prima di iniziare però, consegnami la Coppa d’oro e il Cucchiaio d'oro... Gnam, ora posso finalmente papparmi il mio bel gelato!
 Before we get started, hand me over the Golden Cup<<n>>and the Golden Spoon...<<n>>Yum! I can finally gobble up my ice cream now!
 Deliziosooo!! Con la pancia piena di dolci si combatte meglio, sai? I miei Pokémon dolci e carini ti daranno una bella scarica da zuccheri! Preparati a perdere con Mimosa, la principessa del Regno di Virgopoli!
@@ -32632,7 +32632,7 @@ L'eccessiva energia sprigionata con l'evoluzione gli ha scomposto il corpo. Comb
 The excessive energy unleashed\n during evolution split up its body. It combines thunders and flares to set off terrible explosions all around.
 1203
 Alcune teorie sostengono che sia questo il reale aspetto di Spiritomb; sarebbe quello già noto, infatti, a provenire dallo Xenoverse.
-Some theories assert that this is Spiritomb's real appearance-it's the one we already know who comes from\n the Xenoverse.
+Some theories assert that this is Spiritomb's real appearance--it's the one we already know who comes from\n the Xenoverse.
 1204
 Galleggia a pelo d'acqua, standosene perennemente a testa in giù. Pare che non si nutra di nulla per vivere.
 It perpetually floats upside down on the surface of the water. Apparently, it doesn't feed on anything to survive.
@@ -48830,7 +48830,7 @@ Regno di Virgopoli
 Milkiway City
 86
 Cunicolo Gravità
-Milkiway City
+Gravity Tunnel
 87
 Campus Ariepoli
 Newtron City

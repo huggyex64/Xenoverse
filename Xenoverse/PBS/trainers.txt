@@ -73,7 +73,7 @@ DIGLETT,25
 ARCHEOLOGO
 Bruno
 1
-KOINKOIN,28
+KOINKOIN,27
 #==============================
 ARCHEOLOGO
 Peppe
@@ -124,7 +124,7 @@ BASEBALL
 Gioele
 2
 SNEASEL,26
-GLACEON,27
+GLACEON,26
 #==============================
 BASSISTA
 Tina
@@ -255,8 +255,8 @@ GARBODOR,46
 BULLO
 Sandro
 2
-BLITZLE,22
-DROWZEE,22
+BLITZLE,21
+DROWZEE,21
 #==============================
 CAMPEGGIATORE
 Melodias
@@ -388,7 +388,7 @@ LEDIAN,39
 CAMPEGGIATRICE
 Serena
 2
-PEPEQUENO,27
+PEPEQUENO,26
 WHIMSICOTT,27
 #==============================
 CAMPEGGIATRICE
@@ -657,7 +657,7 @@ KUNGFUR,30
 CINTURANERA
 Raitu
 2
-CROAGUNK,26
+CROAGUNK,25
 HERACROSS,26
 #==============================
 CINTURANERA
@@ -684,7 +684,7 @@ DRUDDIGON,25
 CINTURANERA
 Benny
 1
-KUNGFUR,28
+KUNGFUR,27
 #==============================
 CINTURANERA
 Marco
@@ -1154,7 +1154,7 @@ ARBOK,44
 HIPSTERF
 Brianna
 2
-FLAREON,22
+FLAREON,21
 VAPOREON,22
 #==============================
 HIPSTERF
@@ -1166,7 +1166,7 @@ SANDSLASH,41
 HIPSTERF
 Veronica
 1
-RAICHU,27
+RAICHU,25
 #==============================
 HIPSTERF
 Rossella
@@ -1188,7 +1188,7 @@ BEEDRILL,21
 HIPSTERM
 Massimiliano
 1
-WARTORTLE,28
+WARTORTLE,27
 #==============================
 HIPSTERM
 Antonio
@@ -1210,7 +1210,7 @@ ONIX,19
 HIPSTERM
 Jacob
 1
-PORYGON,24
+PORYGON,23
 #==============================
 HIPSTERM
 Giovanni
@@ -1414,7 +1414,7 @@ MERCANTEELDIW
 Luciano
 2
 MEOWTHELDIW,28
-KECLEON,31
+KECLEON,30
 #==============================
 MERCANTEELDIW
 Fabiano
@@ -1678,7 +1678,7 @@ CORPHISH,12
 PESCATORE
 Meleno
 1
-GYARADOS,26
+GYARADOS,25
 #==============================
 PESCATORE
 Michelangelo
@@ -1715,7 +1715,7 @@ REMORAID,18
 PESCATORE
 Rory
 1
-Honchen,27
+Honchen,26
 #==============================
 PESCATORE
 Tino
@@ -1850,7 +1850,7 @@ VESPIQUEN,53
 POKEFAN
 Cristoforo
 1
-BEEDRILL,28
+BEEDRILL,27
 #==============================
 POKeMANIAC
 Andrew
@@ -2575,8 +2575,9 @@ SKRAVROOM,51
 #==============================
 TEAMDIMENSION
 4K
-1
-SNEASEL,28
+2
+SNEASEL,25
+ONIX,26
 #==============================
 TEAMDIMENSION
 4XXX
@@ -2631,7 +2632,7 @@ TEAMDIMENSION
 3
 ZUBAT,24
 ZUBAT,24
-GOLBAT,26
+GOLBAT,25
 #==============================
 TEAMDIMENSION
 RUN89
@@ -2679,7 +2680,7 @@ TEAMDIMENSION
 P08
 2
 GASTLY,25
-GOLBAT,28
+GOLBAT,26
 #==============================
 TEAMDIMENSION
 T5H
@@ -2691,7 +2692,7 @@ TEAMDIMENSION
 2GH
 2
 HOUNDOUR,26
-KOFFING,27
+KOFFING,26
 #==============================
 TEAMDIMENSION
 M1K3
@@ -2823,8 +2824,9 @@ SNEASEL,14
 #==============================
 TEAMDIMENSION
 58X
-1
-GOLBAT,28
+2
+NUNVIL,25
+GOLBAT,26
 #==============================
 TEAMDIMENSION
 53HJ
@@ -2920,8 +2922,8 @@ TEAMDIMENSION_COPPIA
 4
 PUPPILLON,25
 KLINK,25
-ARON,27
-BLINGRIMM,27
+ARON,26
+BLINGRIMM,26
 #==============================
 TEAMDIMENSION_COPPIA
 063 & 547

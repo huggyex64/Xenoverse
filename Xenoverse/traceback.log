@@ -1,51 +1,40 @@
-Script error within event 17, map 41 (Hadwarf City's Lab):
-Exception: Errno::ENOENT
-Message: File 191_Advanced_Fullbox.rb:1491:in `initialize': Graphics/Mugshots/ludopoli/ezio-sorpreso not found.
+Script error within event 24, map 86 (Gravity Tunnel):
+Exception: RuntimeError
+Message: 197_BossBattle.rb:326:in `pbStartBattleCore'Player trainer must be only one person in single battles
 ***Full script:
-fbNewMugshot("Aster","ludopoli/ezio","sorpreso",:left)
-fbEnable(true)
-fbText("No-Non è possibile... Pensavo che ci sarebbero voluti anni per completare questa ricerca...!")
-fbEnable(false)
-fbDispose
-fbNewMugshot("Aster","ludopoli/ezio","smile",:left)
-fbEnable(true)
-fbText("Ma tu ce l’hai fatta, \PN!! Sei riuscito|a a catturare
-tutti i Pokémon Retrò... sei davvero incredibile!!")
-fbEnable(false)
-fbDispose
-
+pbTrainerBattle(PBTrainers::TEAMDIMENSION,"58X",_I("E-Errore."),true,0,true)
 034_Interpreter.rb:243:in `pbExecuteScript'
-191_Advanced_Fullbox.rb:1491:in `new'
-191_Advanced_Fullbox.rb:1491:in `setMugshot'
-191_Advanced_Fullbox.rb:1427:in `initialize'
-191_Advanced_Fullbox.rb:825:in `new'
-191_Advanced_Fullbox.rb:825:in `initialize'
-191_Advanced_Fullbox.rb:584:in `new'
-191_Advanced_Fullbox.rb:584:in `fbNewMugshot'
+071_PokeBattle_Battle.rb:2365:in `pbStartBattle'
+097_PTrainer_NPCTrainers.rb:346:in `pbTrainerBattle'
+097_PTrainer_NPCTrainers.rb:345:in `pbSceneStandby'
+097_PTrainer_NPCTrainers.rb:347:in `pbTrainerBattle'
+097_PTrainer_NPCTrainers.rb:344:in `pbBattleAnimation'
+097_PTrainer_NPCTrainers.rb:344:in `pbTrainerBattle'
 (eval):1:in `pbExecuteScript'
-034_Interpreter.rb:1606:in `eval'
+034_Interpreter.rb:794:in `eval'
+034_Interpreter.rb:243:in `pbExecuteScript'
 
 
 034_Interpreter.rb:276:in `pbExecuteScript'
-034_Interpreter.rb:1606:in `command_355'
-034_Interpreter.rb:494:in `execute_command'
+034_Interpreter.rb:794:in `command_111'
+034_Interpreter.rb:320:in `execute_command'
 034_Interpreter.rb:193:in `update'
 034_Interpreter.rb:106:in `loop'
-034_Interpreter.rb:106:in `update'
+034_Interpreter.rb:198:in `update'
 048_Scene_Map.rb:108:in `zer0_choice_window_upd'
 048_Scene_Map.rb:106:in `loop'
-048_Scene_Map.rb:106:in `zer0_choice_window_upd'
+048_Scene_Map.rb:119:in `zer0_choice_window_upd'
 159_Choice.rb:35:in `update'
 173_MovimentiPermessi.rb:276:in `main'
 173_MovimentiPermessi.rb:264:in `loop'
-173_MovimentiPermessi.rb:264:in `main'
+173_MovimentiPermessi.rb:297:in `main'
 999_Main.rb:99:in `mainFunctionDebug'
 999_Main.rb:79:in `mainFunction'
 999_Main.rb:109:in `load_scripts_from_folder'
 999_Main.rb:108:in `loop'
-999_Main.rb:108:in `load_scripts_from_folder'
-000:Main:28:in `eval'
-000:Main:31:in `load_scripts_from_folder'
-000:Main:28:in `each'
-000:Main:28:in `load_scripts_from_folder'
-000:Main:45
+999_Main.rb:117:in `load_scripts_from_folder'
+Section000:28:in `eval'
+Section000:31:in `load_scripts_from_folder'
+Section000:28:in `each'
+Section000:28:in `load_scripts_from_folder'
+Section000:45
