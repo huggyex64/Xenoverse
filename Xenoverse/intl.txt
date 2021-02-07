@@ -4194,7 +4194,7 @@ Help me! This freak wants to rob me!
 Mi hai salvato la vita! Ti prego, lascia che ti ringrazi a dovere.
 You saved my life! Please, let me thank you properly!
 Non so cos’avrei fatto se mi avessero rubato i miei preziosi Fossili!
-I don't know what I'd have done if those people stole<<n>>my precious Fossils!
+I don't know what I'd have done if those weirdos stole<<n>>my precious Fossils!
 Matteo
 Matthew
 Senti qui che falsetto! Jodelayuhuu!
@@ -4226,7 +4226,7 @@ Ooah!
 Sconfitta!
 Failure!
 Il karate è come l'acqua calda, occorre riscaldarla costantemente o si raffredda.
-Karate is like boiling water: without heat, it returns to its tepid state.
+Karate is like boiling water--without heat, it returns to its tepid state.
 Achille
 Adam
 Ci dovrà pur essere qualcosa in questa pozzanghera!
@@ -5109,7 +5109,7 @@ What am I doing, you say? Well, when science calls,<<n>>the scientist answers!<<
 Anzi, si prodigano per essere d'aiuto agli Allenatori intenzionati ad attraversare il vulcano! Sai, per raggiungere la vetta, è necessario attraversare numerose pozze laviche... è proprio qui che intervengono i Turtonator!
 Actually, they strive to help Trainers who intend<<n>>to cross the volcano!<<n>>You see, to reach the top, it's necessary to cross over several lava pools...<<n>>That's where Turtonator come in!
 Saltando sul loro guscio, potrai oltrepassare le zone ricolme di lava e proseguire l'avventura. Per la cronaca, una volta messo piede nel Vulcano Pulsar non c'è modo di scappare, né con Funi di Fuga, né con altri mezzucci... sii prudente!
-Hop on their shells to go beyond the lava-full areas<<n>>and continue your climb.<<n>>Oh, for the record, once you set foot on Mt. Starburst<<n>>there's no way to escape--<<n>>neither using Escape Ropes or other items... be careful!
+Hop on their shells to go beyond the lava-full areas<<n>>and continue your climb.<<n>>Oh, for the record, once you set foot on Mt. Starburst<<n>>there's no way to escape--<<n>>neither using Escape Ropes or other items...be careful!
 Mi ha fatto davvero piacere rivederti. Bye-bye!
 It was nice to see you again. Bye-bye!
 Alakazam
@@ -5225,7 +5225,7 @@ Sawyer
 Preparati allo strike-out!
 Get ready for the strike out!
 Più vergognoso di una loss...
-Strike three... for me!
+Strike three...for me!
 Trucco svelato! Non sono un Asso del Baseball, ma mi piacerebbe tanto...
 I was bluffing! I'm not a Baseball Ace, but I'd really like to...
 <<[>>old<<]>>Bisogna portare il cibo al padrone.
@@ -5576,7 +5576,7 @@ I told you to leave! Me and my <b>Scaleon</b><<n>>are in the midst of our traini
 <b>Verbena</b> dici? Devi essere in gamba se sei giunto sino a qui solo per consegnarmi quest'acqua.
 <b>Nuphar</b>, you said? You must be quite tough if you managed to make it here only to deliver me this water.
 Non dev'essere stato facile... Lascia che ne offra un po' a te e ai tuoi Pokémon, vi rimetterà in sesto.
-I reckon it was hard... Let me give you and your Pokémon some, it will give your strength back. 
+I reckon it was hard...let me give you and your Pokémon some, it will give your strength back. 
 Perdonami, non mi sono presentato.
 Bless me, I didn't introduce myself.
 Il mio nome è <b>Oleandro</b>.
@@ -5584,7 +5584,7 @@ My name is <b>Abraham</b>.
 Tra i quattro <b>Cardinali</b> di Eldiw sono colui che protegge il suolo su cui ora muovi i passi. Il Vulcano Pulsar è il cuore pulsante della regione e, senza il giusto equilibrio, rischierebbe di mandare in malora il suo stesso ecosistema. Io sono qui per scongiurare ciò, ma al tempo stesso ne approfitto per temprare lo spirito. Hai visto, Scaleon? Qualcuno si è recato a farci visita.
 Amongst the <b>Four Cardinals</b> of Eldiw, I am the one<<n>>who protects the ground you're walking on.<<n>>Mt. Starburst's the heartbeat of our region and, without<<n>>a proper balance, it'd risk destroying its own ecosystem.<<n>>I'm here to ward it off, and at the same time,<<n>>I take the opportunity to forge my spirit.<<n>>Did you see that, Scaleon? Someone came here for a visit.
 Mio|a giovane amico|a, allora dimmi... Sei qui per auscultare le antiche leggende? Sai, le conosco tutte a menadito.
-Then tell me, my young friend... Do you want to listen to<<n>>the old legends? You see, I know them all inside out.
+Then tell me, my young friend...do you want to listen to<<n>>the old legends? You see, I know them all inside out.
 Chi crede che abbia 500 anni non è poi così lontano dal vero. Wah ah ah!
 Whoever believes I'm more than 500 years old is not<<n>>that far from the truth. Wa ha ha!
 Però... se l'intuito non m'inganna, tu sei qui per altro, vero? ... Sai, mi rammenti una persona...
@@ -5596,7 +5596,7 @@ Your father was a great man and a real asset<<n>>to our region...<<n>>The terrib
 Ah, perdona il mio comportamento poco cortese. Come hai detto di chiamarti?
 Oh, forgive my rude demeanor. What did you say<<n>>your name was?
 \PN... Immagino tu sia qui per cercare risposte, vero ragazzo|a? Or bene, ti dirò tutto ciò che so al riguardo, ma sii forte perché questa storia non ha un lieto fine.
-\PN... I assume you came here seeking answers,<<n>>don't you, kid?<<n>>Well then, I'll tell you everything I know about it, but stay strong because this story doesn't end well.
+\PN...I assume you came here seeking answers,<<n>>don't you, kid?<<n>>Well then, I'll tell you everything I know about it, but stay strong because this story doesn't end well.
 Devi sapere che tuo padre è sempre stato affascinato dalla scienza e dal progresso... Decise infatti, assieme al suo migliore amico, <b>Victor</b>, di istituire un laboratorio a Balansopoli, con lo scopo di renderlo il più grande della regione.
 You should know that your father has always been<<n>>fascinated with science and its progress...<<n>>That's why he decided, along with his best friend, <b>Victor</b>, to set up a laboratory in Hadwarf City,<<n>>with the purpose of making it the biggest one in the region.
 Victor non era un abile Allenatore, ma al contrario il suo intelletto era sopraffino... In parole povere, era la spalla perfetta per tuo padre.
@@ -12085,7 +12085,7 @@ How does it work?
 Modalità di gioco
 Game modes
 [Map273]
-<<[>>old<<]>>L'oasi di Acquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
+<<[>>old<<]>>L'oasi di Aquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
 <<[>>old<<]>>The oasis of Ishtar City is renowned for its miraculous springs. Their water is traded all over the region with the name of ''Fresh Water''.
 <<[>>old<<]>>Bisogna portare il cibo al padrone.
 <<[>>old<<]>>I must bring food to the master.
@@ -12205,7 +12205,7 @@ Come at me, Birigiri!
 Ghazi
 Ghazi
 La regina Verbena in persona richiedeva la tua presenza in Palestra.
-Queen Verbena herself requests your presence at the Gym.
+Queen Nuphar herself requests your presence at the Gym.
 Giuliano
 Weston
 Solo da Giuliano, articoli mai visti a prezzi stracciati!!
@@ -12269,7 +12269,7 @@ Ah, there you are, \PN.
 Ho voluto che venissi qui, lontano|a dai soldati, per parlare liberamente degli eventi di oggi. So per certo che sei al corrente dello <b>Xenoverse</b> e del fatto che quel Gengar provenga da lì. <b>Aster</b> ha fatto davvero centro ingaggiando un Allenatore abile come te. Ho ancora bisogno del tuo aiuto, \PN.
 I wanted you to come here, away from the soldiers,<<n>>to talk freely about today's events.<<n>>I know for a fact that you're aware of the existence of<<n>>the <b>Xenoverse</b> and that Gengar's coming from there.<<n>><b>Aster</b> really hit the nail on the head when he hired<<n>>a talented Trainer like you.<<n>>But I still need your help, \PN.
 Vedi, i Pokémon X hanno causato disagi non solo in città, famosa per le sue miracolose sorgenti, ma anche nel <b>Canyon Asteroide</b>, tappa essenziale per il commercio di quest'acqua al di fuori dell'oasi.
-You see, the X Pokémon have not only caused troubles<<n>>in the city, famous for its miraculous springs,<<n>>but also in the <b>Sunflare Canyon</b>--a vital step<<n>>in the water trade outside this oasis.
+You see, X Pokémon have not only caused troubles<<n>>in the city, famous for its miraculous springs,<<n>>but also in the <b>Sunflare Canyon</b>--a vital step<<n>>in the water trade outside this oasis.
 Pare che negli ultimi giorni, la furia di un esemplare di specie X si sia abbattuta proprio sul canyon, bloccando il passaggio a visitatori e non. Neanch’io sono stata in grado di contrastarlo... Quell'essere, quando sembrava ad un passo dalla sconfitta, è rinato di nuova vita! È per questo che vorrei tu mi dessi una mano, \PN.
 Apparently, in the last few days, the fury of an X-specimen has struck right on the canyon,<<n>>blocking the way to both visitors and locals.<<n>>Even I couldn't counter it...<<n>>When it seemed on the brink of defeat, that creature reborned to new life!<<n>>That's why I am asking for your help, \PN.
 Il commercio di acqua miracolosa non deve placarsi, ne va del benessere della regione! Allora, sei d'accordo?
@@ -32413,7 +32413,7 @@ Si sottopone ad un costante allenamento meditativo grazie al quale riesce ad ess
 It constantly undertakes an intense meditation training. As a result of this, it is always super focused in battles.
 1028
 Sfrutta l'esperienza acquisita in innumerevoli battaglie per istruire alla lotta i Pokémon più deboli e indifesi. È un insegnante molto severo.
-Thanks to the strong experience it has acquired in countless battles, it teaches weak and harmless Pokémon\n to fight. It is very strict as an instructor.
+Thanks to the strong experience it has acquired in countless battles, it teaches weak Pokémon to fight.\n It is very strict as an instructor.
 1029
 (Fiammoveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
 (Fire Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
@@ -32533,7 +32533,7 @@ Al contrario di quanto si pensi, ha un animo gentile. Il volto perennemente imbr
 Contrary to popular belief, it is a gentle soul. Actually, the cause for its constantly sullen face seems to lie in the excessive weight of its antlers.
 1068
 Si sposta sulle nevi con uno stile tutto suo. In seguito a una slavina soccorre chi è rimasto travolto fornendogli calore.
-It wanders around on snowy mountains with its own original style. It assists whoever's stranded by avalanches and keeps them warm.
+It wanders around on snowy mountains with its own original style. It assists whoever's been stranded by avalanches and keeps them warm.
 1069
 Dall'equilibrio eccezionale, si sposta sfrecciando su uno pneumatico. Quando questo si usura troppo, ne cerca uno nuovo.
 It has an excellent balance and drives around running on a tire. Once that is over worn, it looks for another new one.
@@ -35445,7 +35445,7 @@ Fortino
 Baneful Bunker
 698
 Battipiedi
-Stimping Tantrum
+Stomping Tantrum
 699
 Colpo d'Ancora
 Anchor Shot

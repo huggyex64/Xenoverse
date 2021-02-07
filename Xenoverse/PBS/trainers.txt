@@ -152,8 +152,8 @@ BLINGRIMM,26
 BIKER
 Tig
 2
-VROOMBUG,34
-SCOVILE,36
+VROOMBUG,33
+SCOVILE,35
 #==============================
 BIKER
 Opie
@@ -164,8 +164,8 @@ PEPEQUENO,33
 BIKER
 Half
 3
-PEPEQUENO,32
-VROOMBUG,32
+PEPEQUENO,31
+VROOMBUG,31
 SANDSLASH,33
 #==============================
 BIKER
@@ -299,7 +299,7 @@ CAMERUPT,44
 CAMPEGGIATORE
 Ana
 1
-VILEPLUME,29
+VILEPLUME,28
 #==============================
 CAMPEGGIATORE
 Paolo
@@ -561,7 +561,7 @@ TAPUFINIX,74,,,,,,,,,,,,24
 CINTURANERA
 Maleo
 1
-TOXICROAK,30
+TOXICROAK,29
 #==============================
 CINTURANERA
 Ryu
@@ -605,7 +605,7 @@ ONIX,22
 CINTURANERA
 Karua
 1
-HERCURCULES,29
+HERCURCULES,28
 #==============================
 CINTURANERA
 Pepe
@@ -652,7 +652,7 @@ YEMIN,11
 CINTURANERA
 Pakuro
 1
-KUNGFUR,30
+KUNGFUR,29
 #==============================
 CINTURANERA
 Raitu
@@ -763,8 +763,8 @@ BOUFFALANT,37
 COWBOY
 Nando
 2
-RHYHORN,33
-TAUROS,33
+RHYHORN,32
+TAUROS,32
 #==============================
 COWBOY
 Gray
@@ -794,8 +794,8 @@ BAYLEEF,38
 COWGIRL
 Miranda
 2
-FLAAFFY,33
-MILTANK,33
+FLAAFFY,32
+MILTANK,32
 #==============================
 COWGIRL
 Coco
@@ -967,8 +967,8 @@ ROSELIA,25
 FIGLIA_DEI_FIORI
 Elizabeth
 2
-MANTICOEUR,27
-DRATINI,27
+MANTICOEUR,26
+DRATINI,26
 #==============================
 FIGLIA_DEI_FIORI
 Verena
@@ -1246,7 +1246,7 @@ INDIANA
 Lisa
 2
 VULLABY,32
-XATU,34
+XATU,33
 #==============================
 INDIANO
 Efisio
@@ -1257,20 +1257,20 @@ PECKABONE,34
 INDIANO
 Agul
 1
-SKARMORY,36
+SKARMORY,35
 #==============================
 INDIANOKID
 Raico
 3
-REINDAR,34
-CHIKABOO,34
-CUBONE,34
+REINDAR,33
+CHIKABOO,33
+CUBONE,33
 #==============================
 INDIANOKID
 Pico
 2
-RUFFLET,32
-NATU,32
+RUFFLET,30
+NATU,30
 #==============================
 INTERVIEWERS
 Kris & Red
@@ -1487,8 +1487,8 @@ GRAVELER,25
 MONTANARO
 Pete
 2
-EXCADRILL,34
-GOOMBEAR,34
+EXCADRILL,33
+GOOMBEAR,33
 #==============================
 MONTANARO
 Pedro
@@ -1523,7 +1523,7 @@ REINDIGO,53
 MONTANARO
 Alessio
 1
-MADIEVAL,30
+MADIEVAL,29
 #==============================
 MONTANARO
 Matteo
@@ -1629,7 +1629,7 @@ GYARADOS,43
 PESCATORE
 Roberto
 1
-TURTONATOR,30
+TURTONATOR,29
 #==============================
 PESCATORE
 Faso
@@ -1793,7 +1793,7 @@ HERACROSS,22
 PIGLIAMOSCHE
 Deny
 1
-PUNCHBUG,29
+PUNCHBUG,28
 #==============================
 PIGLIAMOSCHE
 Holly
@@ -1902,7 +1902,7 @@ RANGERF
 Sofia
 2
 DUSMEE,26
-TORKOAL,28
+TORKOAL,27
 #==============================
 RANGERF
 Pamela
@@ -1968,7 +1968,7 @@ BAYLEEF,22
 REDNECKF
 Assunta
 1
-GENGAR,38
+GENGAR,37
 #==============================
 REDNECKF
 Matilda
@@ -1980,7 +1980,7 @@ REDNECKM
 Alisio
 2
 SCARACLUO,36
-CACTURNE,38
+CACTURNE,36
 #==============================
 REDNECKM
 Fonco
@@ -2175,7 +2175,7 @@ YEMIN,18
 SCAGNOZZO1
 Pier
 1
-DITTO,29
+DITTO,28
 #==============================
 SCAGNOZZO1
 Marcello
