@@ -199,7 +199,7 @@ class Scene_Map
       pbCommonEvent(10)
     end
     #PokeWES shortcuts
-    if !$game_switches[802] && !$game_switches[997]
+    if !$game_switches[802] && !$game_switches[997] && !(pbInSafari? || pbInBugContest?)
       #MN
       if Input.trigger?(Input::R)
         unless pbMapInterpreterRunning? or $game_system.menu_disabled or $game_player.moving? or $Trainer.pokewes==false
