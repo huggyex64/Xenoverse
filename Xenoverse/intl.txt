@@ -5522,7 +5522,7 @@ Abraham
 Fortunatamente tutto si è concluso per il meglio.
 Fortunately, everything turned out well in the end.
 L'amicizia tra compagni d'avventura sovrasta ogni sortilegio... Dico bene, Scaleon?
-Friendship between fellow adventurers overwhelms<<n>>every spell... Am I right, Scaleon?
+Friendship between fellow adventurers overwhelms<<n>>every spell...am I right, Scaleon?
 Scaleon
 Scaleon
 Scaaa...!
@@ -5626,7 +5626,7 @@ Oh, look who's back! \PN! Have you already<<n>>challenged my nephew in her Gym?
 \PN, per di qua!
 \PN, this way!
 Scaleon è riuscito a stargli alle calcagna... il tuo Pokémon non ha più scampo! Adesso però tocca a te placare la sua ira... sei l'unico|a che possa farlo!
-Scaleon has been right on its tail... your Pokémon<<n>>can't escape now!<<n>>But now, it's your duty to appease its rage...<<n>>you're the only one who can do it!
+Scaleon has been right on its tail...your Pokémon<<n>>can't escape now!<<n>>But now, it's your duty to appease its rage...<<n>>you're the only one who can do it!
 <<[>>old<<]>>\PN prova a calmare Trishout.
 <<[>>old<<]>>\PN tried to calm Trishout down.
 Qualcuno qui è nei pasticci, eh?
@@ -6243,7 +6243,7 @@ Ghost
 <<[>>old<<]>>C'è qualcosa all'interno di questo antico artefatto.
 <<[>>old<<]>>There's something inside this ancient jar.
 <<[>>old<<]>>Sembrerebbe scritto in una lingua molto antica...
-<<[>>old<<]>>Sembrerebbe scritto in una lingua molto antica...
+<<[>>old<<]>>It seems an ancient writing...
 <<[>>old<<]>>It seems an ancient alphabet...
 <<[>>old<<]>>It seems an ancient writing...
 Baada
@@ -31297,7 +31297,7 @@ Sbarra il corso dei fiumi con corteccia e fango per farsi la tana. È noto come 
 It makes its nest by damming streams with bark and mud. It is known as an industrious worker.
 401
 Muove la testa avanti e indietro e le antenne, scontrandosi, producono un suono simile allo xilofono.
-It makes its nest by damming streams with bark and mud. It is known as an industrious worker.
+It shakes its head back to front, causing its antennae to hit each other and sound like a xylophone.
 402
 Canta delle belle melodie, provocando interessanti risonanze nelle cavità del proprio corpo.
 By allowing its cry to resonate in the hollow of its belly, it produces a captivating sound.
@@ -32428,7 +32428,7 @@ Controlla umani e Pokémon tramite i suoi filamenti e, assorbendone l'energia vi
 It controls Pokémon and human beings\n as puppets using its strings. Feeding on their life energy, it turns their bodies in soul-less empty shells.  
 1033
 Dietro l'aspetto tenero e grazioso si cela in realtà un Pokémon molto dispettoso. Terrorizza i suoi avversari per il solo gusto di farlo.
-Behind its lovely graceful appearance lies a spiteful side. It will its terrify enemies just for fun. 
+Behind its lovely graceful appearance lies a spiteful side. It will terrify\n its enemies just for fun. 
 1034
 Infesta vecchie stamberghe, custodendo gelosamente tutto ciò che vi è all'interno. È molto vendicativo con chi sottrae qualcosa dalla sua dimora.
 Whisteract haunts abandoned mansions, jealously guarding everything inside. It's said to be very vengeful towards raiders. 
