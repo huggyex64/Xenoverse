@@ -678,10 +678,10 @@ module FontInstaller
       if safeExists?(dest + f) && !Font.exist?(Names[i])
         File.delete(dest + f) rescue nil
       end
-      Kernel.pbMessage("Checking if \"#{dest+f}\" is already installed...")
+      #Kernel.pbMessage("Checking if \"#{dest+f}\" is already installed...")
       # check if already installed...
       if not safeExists?(dest + f)
-        Kernel.pbMessage("Checking if \"#{dest+f}\" source exists...")
+        #Kernel.pbMessage("Checking if \"#{dest+f}\" source exists...")
         # check to ensure font is in specified location...
         if RTP.exists?(Source + f)
           # copy file to fonts folder
@@ -693,7 +693,7 @@ module FontInstaller
             # add entry to win.ini/registry
             WPS.call('Fonts', Names[i] + ' (TrueType)', f)
             succeeded=safeExists?(dest + f)
-            Kernel.pbMessage("Outcome for \"#{dest+f}\" is #{succeeded.to_s}...")
+            #Kernel.pbMessage("Outcome for \"#{dest+f}\" is #{succeeded.to_s}...")
           rescue SystemCallError
 						
             # failed
@@ -704,13 +704,13 @@ module FontInstaller
 						rescue
 							succeeded=false
             end
-            Kernel.pbMessage("Outcome for \"#{dest+f}\" is #{succeeded.to_s}...")
+            #Kernel.pbMessage("Outcome for \"#{dest+f}\" is #{succeeded.to_s}...")
           end
           if succeeded
             success.push(Names[i])
           else
             echoln "failed " +Names[i]
-            Kernel.pbMessage("Failed \"#{Names[i]}\"...")
+            #Kernel.pbMessage("Failed \"#{Names[i]}\"...")
             failed=true
           end
         end
