@@ -517,10 +517,12 @@ class NextGenDataBox  <  SpriteWrapper
     @sprites["expbg"] = Sprite.new(@viewport)
     @sprites["expbg"].bitmap = pbBitmap(@path+"EXPBAR_EMPTY")
     @sprites["expbg"].src_rect.y = @sprites["expbg"].bitmap.height*-1 if !@showexp
+    @sprites["expbg"].src_rect.width = 0 if @boss
     
     @sprites["exp"] = Sprite.new(@viewport)
     @sprites["exp"].bitmap = pbBitmap(@path+"EXPBAR_FULL")
     @sprites["exp"].src_rect.y = @sprites["exp"].bitmap.height*-1 if !@showexp
+    @sprites["exp"].src_rect.width = 0 if @boss
     
     @sprites["text"] = Sprite.new(@viewport)
     @sprites["text"].bitmap = Bitmap.new(@sprites["layer1"].bitmap.width+500,@sprites["layer1"].bitmap.height+500)
