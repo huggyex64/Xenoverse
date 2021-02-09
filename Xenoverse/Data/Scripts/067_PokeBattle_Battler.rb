@@ -1094,12 +1094,13 @@ class PokeBattle_Battler
 				blacklist.include?(PBMoveData.new(choice.effects[PBEffects::TwoTurnAttack]).function)
 				# Can't transform into chosen Pokémon, so forget it
 			else
-				@battle.pbAnimation(getConst(PBMoves,:TRANSFORM),self,choice)
+				#@battle.pbAnimation(getConst(PBMoves,:TRANSFORM),self,choice)
+				@battle.scene.pbMoveAnimationSpecific422(self.index,choice.index,0,false,false)
 				@effects[PBEffects::Transform]=true
 				@species=choice.species
 				@type1=choice.type1
 				@type2=choice.type2
-				#        @ability=choice.ability
+				# @ability=choice.ability
 				@attack=choice.attack
 				@defense=choice.defense
 				@speed=choice.speed
