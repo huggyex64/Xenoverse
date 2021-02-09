@@ -686,6 +686,7 @@ class PokemonSummaryScene
         if @partyindex!=oldindex
           @pokemon=@party[@partyindex]
           @sprites["pokemon"].setPokemonBitmap(@pokemon)
+          @sprites["pokemon"].actualBitmap.setSpeed(1)
           @sprites["pokemon"].oy = pbGetSpriteBase(@sprites["pokemon"].sprite.bitmap)
           if @pokemon.isEgg?
             @sprites["pokemon"].zoom_x = 0.5
@@ -704,6 +705,7 @@ class PokemonSummaryScene
         if @partyindex!=oldindex
           @pokemon=@party[@partyindex]
           @sprites["pokemon"].setPokemonBitmap(@pokemon)
+          @sprites["pokemon"].actualBitmap.setSpeed(1)
           @sprites["pokemon"].oy = pbGetSpriteBase(@sprites["pokemon"].sprite.bitmap)
           if @pokemon.isEgg?
             @sprites["pokemon"].zoom_x = 0.5
