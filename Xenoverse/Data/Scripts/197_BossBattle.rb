@@ -292,13 +292,13 @@ class PokeBattle_Battle
         if @party2[sendout1].species == getID(PBSpecies,:PAWNIARDAB)
           @party2[sendout1].totalHp=9999999
           @party2[sendout1].hp=9999999
-					@party2[sendout1].attack=900000
+					@party2[sendout1].attack=90000
         end
         
         if @party2[sendout2].species == getID(PBSpecies,:PAWNIARDAB)
           @party2[sendout2].totalHp=9999999 
           @party2[sendout2].hp=9999999
-					@party2[sendout2].attack=900000
+					@party2[sendout2].attack=90000
         end
         
         if sendout1 < 0 || sendout2 < 0
