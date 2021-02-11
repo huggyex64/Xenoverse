@@ -196,6 +196,8 @@ if !Object.const_defined?(:Socket) # for compatibility
 # Version   1.8.1
 #===============================================================================
 class Socket
+  attr_accessor(:errorCode)
+
   #-----------------------------------------------------------------------------
   # * Constants
   #-----------------------------------------------------------------------------
@@ -372,53 +374,54 @@ class Socket
   # * Creates a new socket.
   #--------------------------------------------------------------------------
   def initialize(domain, type, protocol)
-    SocketError.check if (@fd = Winsock.socket(domain, type, protocol)) == -1
-    @fd
+    @errorCode = -1
+    @errorCode = SocketError.check if (@fd = Winsock.socket(domain, type, protocol)) == -1
+    @fd if @errorCode == nil
   end
   #--------------------------------------------------------------------------
   # * Accepts incoming connections.
   #--------------------------------------------------------------------------
   def accept(flags = 0)
     buf = "\0" * 16
-    SocketError.check if Winsock.accept(@fd, buf, flags) == -1
-    buf
+    @errorCode = SocketError.check if Winsock.accept(@fd, buf, flags) == -1
+    buf if @errorCode == nil
   end
   #--------------------------------------------------------------------------
   # * Binds a socket to the given sockaddr.
   #--------------------------------------------------------------------------
   def bind(sockaddr)
-    SocketError.check if (ret = Winsock.bind(@fd, sockaddr, sockaddr.size)) == -1
-    ret
+    @errorCode = SocketError.check if (ret = Winsock.bind(@fd, sockaddr, sockaddr.size)) == -1
+    ret if @errorCode == nil
   end
   #--------------------------------------------------------------------------
   # * Closes a socket.
   #--------------------------------------------------------------------------
   def close
-    SocketError.check if (ret = Winsock.closesocket(@fd)) == -1
-    ret
+    @errorCode = SocketError.check if (ret = Winsock.closesocket(@fd)) == -1
+    ret if @errorCode == nil
   end
   #--------------------------------------------------------------------------
   # * Connects a socket to the given sockaddr.
   #--------------------------------------------------------------------------
   def connect(sockaddr)
     #return if Network.testing? == 2
-    SocketError.check if (ret = Winsock.connect(@fd, sockaddr, sockaddr.size)) == -1
-    ret
+    @errorCode = SocketError.check if (ret = Winsock.connect(@fd, sockaddr, sockaddr.size)) == -1
+    ret if @errorCode == nil
   end
   #--------------------------------------------------------------------------
   # * Listens for incoming connections.
   #--------------------------------------------------------------------------
   def listen(backlog)
-    SocketError.check if (ret = Winsock.listen(@fd, backlog)) == -1
-    ret
+    @errorCode = SocketError.check if (ret = Winsock.listen(@fd, backlog)) == -1
+    ret if @errorCode == nil
   end
   #--------------------------------------------------------------------------
   # * Checks waiting data's status.
   #--------------------------------------------------------------------------
   def select(timeout) # timeout in seconds
-    SocketError.check if (ret = Winsock.select(1, [1, @fd].pack("ll"), 0, 0, [timeout.to_i,
+    @errorCode = SocketError.check if (ret = Winsock.select(1, [1, @fd].pack("ll"), 0, 0, [timeout.to_i,
          (timeout * 1000000).to_i].pack("ll"))) == -1
-    ret
+    ret if @errorCode == nil
   end
   #--------------------------------------------------------------------------
   # * Checks if data is waiting.
@@ -454,8 +457,8 @@ class Socket
   # * Sends data to a host.
   #--------------------------------------------------------------------------
   def send(data, flags = 0)
-    SocketError.check if (ret = Winsock.send(@fd, data, data.size, flags)) == -1
-    ret
+    @errorCode = SocketError.check if (ret = Winsock.send(@fd, data, data.size, flags)) == -1
+    ret if @errorCode == nil
   end
   #--------------------------------------------------------------------------
   # * Recieves file from a socket
@@ -494,7 +497,7 @@ class Socket
       if x==0
         count+=1
         Graphics.update if count%10==0
-        raise Errno::ETIMEOUT if count>200
+        raise Errno::ETIMEDOUT if count>200
         next
       end
       ch = recv(1)
@@ -559,9 +562,25 @@ class SocketError < StandardError
   ENOASSOCHOST = "getaddrinfo: no address associated with hostname."
 
   def self.check
-    errno = Winsock.WSAGetLastError
+    errnumber = Winsock.WSAGetLastError
+    echoln "ERROR:"
+    echoln errnumber
     #if not Network.testing? == 1
-      raise Errno.const_get(Errno.constants.detect { |c| Errno.const_get(c).new.errno == errno })
+    begin
+    err = Errno.constants.detect { |c|
+          echoln c
+          echoln Errno.const_get(c).new
+          echoln Errno.const_get(c).new.errno
+          echoln defined?(Errno.const_get(c).new.errno)
+          Errno.const_get(c).new.errno == errnumber
+    }
+    
+    raise Errno.const_get(err) if err!=nil
+
+    rescue => e
+      puts e
+    end
+    #rescue _INTL("Can't connect or connection timed out. Please try again later.")
     #else
     #  errno != 0 ? (Network.testresult(true)) : (Network.testresult(false))
     #end
@@ -732,74 +751,78 @@ def pbHttpRequest(host, request, filename=nil, depth=0)
   socket = ::TCPSocket.new(host, 80)
   time = Time.now.to_i
   begin
-    socket.send(request)
-    result = socket.gets
-    data = ""
-    echoln request
-    # Get the HTTP result
-    if result[/^HTTP\/1\.[01] (\d+).*/]
-      echoln result
-      errorcode = $1.to_i
-      raise "HTTP Error #{errorcode}" if errorcode>=400 && errorcode<500
-      headers = {}
-      # Get the response headers
-      while true
-        result = socket.gets.sub(/\r$/,"")
-        break if result==""
-        if result[/^([^:]+):\s*(.*)/]
-          headers[$1] = $2
-        end
-      end
-      length = -1
-      chunked = false
-      if headers["Content-Length"]
-        length = headers["Content-Length"].to_i
-      end
-      if headers["Transfer-Encoding"]=="chunked"
-        chunked = true
-      end
-      if headers["Location"] && errorcode>=300 && errorcode<400
-        socket.close rescue socket = nil
-        return pbDownloadData(headers["Location"],filename,depth+1)
-      end
-      if chunked
-        # Chunked content
+    if (socket.errorCode == -1)
+      socket.send(request)
+      result = socket.gets
+      data = ""
+      echoln request
+      # Get the HTTP result
+      if result[/^HTTP\/1\.[01] (\d+).*/]
+        echoln result
+        errorcode = $1.to_i
+        raise "HTTP Error #{errorcode}" if errorcode>=400 && errorcode<500
+        headers = {}
+        # Get the response headers
         while true
-          lengthline = socket.gets.sub(/\r$/,"")
-          length = lengthline.to_i(16)
-          break if length==0
-          while Time.now.to_i-time>=5 || socket.select(10)==0
-            time = Time.now.to_i
-            Graphics.update
+          result = socket.gets.sub(/\r$/,"")
+          break if result==""
+          if result[/^([^:]+):\s*(.*)/]
+            headers[$1] = $2
           end
-          data += socket.recv(length)
-          socket.gets
         end
-      elsif length==-1
-        # No content length specified
-        while true
-          break if socket.select(500)==0
-          while Time.now.to_i-time>=5 || socket.select(10)==0
-            time = Time.now.to_i
-            Graphics.update
-          end
-          data += socket.recv(1)
+        length = -1
+        chunked = false
+        if headers["Content-Length"]
+          length = headers["Content-Length"].to_i
         end
-      else
-        # Content length specified
-        while length>0
-          chunk = [length,4096].min
-          while Time.now.to_i-time>=5 || socket.select(10)==0
-            time = Time.now.to_i
-            Graphics.update
+        if headers["Transfer-Encoding"]=="chunked"
+          chunked = true
+        end
+        if headers["Location"] && errorcode>=300 && errorcode<400
+          socket.close rescue socket = nil
+          return pbDownloadData(headers["Location"],filename,depth+1)
+        end
+        if chunked
+          # Chunked content
+          while true
+            lengthline = socket.gets.sub(/\r$/,"")
+            length = lengthline.to_i(16)
+            break if length==0
+            while Time.now.to_i-time>=5 || socket.select(10)==0
+              time = Time.now.to_i
+              Graphics.update
+            end
+            data += socket.recv(length)
+            socket.gets
           end
-          data += socket.recv(chunk)
-          length -= chunk
+        elsif length==-1
+          # No content length specified
+          while true
+            break if socket.select(500)==0
+            while Time.now.to_i-time>=5 || socket.select(10)==0
+              time = Time.now.to_i
+              Graphics.update
+            end
+            data += socket.recv(1)
+          end
+        else
+          # Content length specified
+          while length>0
+            chunk = [length,4096].min
+            while Time.now.to_i-time>=5 || socket.select(10)==0
+              time = Time.now.to_i
+              Graphics.update
+            end
+            data += socket.recv(chunk)
+            length -= chunk
+          end
         end
       end
+      return data if !filename
+      File.open(filename,"wb") { |f| f.write(data) }
+    else
+      return socket.errorCode
     end
-    return data if !filename
-    File.open(filename,"wb") { |f| f.write(data) }
   ensure
     socket.close rescue socket = nil
   end

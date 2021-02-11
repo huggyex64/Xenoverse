@@ -250,8 +250,8 @@ class DexInfo
 			if @forms.length>0 && (femalecond ? false : anyformcond) && @formDescriptions["#{@species}_#{@forms[@formIndex]}"] && @formDescriptions["#{@species}_#{@forms[@formIndex]}"].description != ""
 				dexentry = @formDescriptions["#{@species}_#{@forms[@formIndex]}"].description
 			end
-			inches=(height/0.254).round
-			pounds=(weight/0.45359).round
+			inches=((height)*0.393701).round
+			pounds=((weight)*0.22046).round
 			@sprites["overlay"].bitmap.clear
 			@sprites["overlay"].bitmap.font.name = Dex::NUMBERFONTNAME
 			@sprites["overlay"].bitmap.font.size = Dex::TEXTFONTSIZE-4

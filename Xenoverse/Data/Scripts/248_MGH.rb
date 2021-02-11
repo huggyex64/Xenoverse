@@ -78,6 +78,7 @@ class MysteryGiftHandler
 
     def retrieve(key)
         res = Database.exists("checkCode",key)
+        echo "res: "
         echoln res
         if (res == "true")
             if ($Trainer.giftstaken.include?(key))
@@ -95,7 +96,11 @@ class MysteryGiftHandler
                 @scene.closeBoxScreen
             end
         else
-            Kernel.pbMessage(_INTL("Given code is not valid."))
+            if res=="false"
+                Kernel.pbMessage(_INTL("Given code is not valid."))
+            else
+                Kernel.pbMessage(_INTL("Connection error: please try again later."))
+            end
         end
     end
 end
