@@ -36765,5 +36765,5 @@ You got {1} from the Mystery Gift!
 Hai ottenuto {1} in dono!
 {1} can't use {2} because of Throat Chop!
 {1} non può usare {2} a causa di Colpo Infernale!
-
-
+Connection error: please try again later.
+Errore di connessione. Riprova più tardi.
