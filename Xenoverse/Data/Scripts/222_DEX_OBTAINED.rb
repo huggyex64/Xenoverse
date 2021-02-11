@@ -191,8 +191,8 @@ class DexObtained
 		dexdata.close
 		kind=(@pkmn.form>0 && formInfos["#{@pkmn.species}_#{@pkmn.form}"] != nil && formInfos["#{@pkmn.species}_#{@pkmn.form}"].kind != nil) ? formInfos["#{@pkmn.species}_#{@pkmn.form}"].kind : pbGetMessage(MessageTypes::Kinds,@species)
 		dexentry=(@pkmn.form>0 && formInfos["#{@pkmn.species}_#{@pkmn.form}"] != nil && formInfos["#{@pkmn.species}_#{@pkmn.form}"].description != nil) ? formInfos["#{@pkmn.species}_#{@pkmn.form}"].description : pbGetMessage(MessageTypes::Entries,@species)
-		inches=(height/0.254).round
-		pounds=(weight/0.45359).round
+		inches=(height*0.393701).round
+		pounds=(weight*0.22046).round
 		@sprites["overlay"].bitmap.clear
 		@sprites["overlay"].bitmap.font.name = Dex::NUMBERFONTNAME
 		@sprites["overlay"].bitmap.font.size = Dex::TEXTFONTSIZE-4
