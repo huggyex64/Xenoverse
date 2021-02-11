@@ -1184,9 +1184,9 @@ What are you waiting for? C'mon, read it!
 Dall’alto ci è dunque giunto il dovere di saggiare un’ultima volta le vostre abilità, per valutare se siate degni di affrontare la prova ultima della Terra.
 From up above, it came to us, the duty to test your skills<<n>>for one last time, to state once and for all whether<<n>>you're worthy of facing the ultimate trial of Earth.
 Siete pertanto ufficialmente invitato|a a raggiungerci sulle alte vette del <b>Monte Zodiaco</b>, terra immacolata soggetta a null’altro che gli sconfinati poteri del sacro <b>Luxflon</b>.
-You are therefore formally invited to join us in the highest<<b>>peaks of <b>Mt. Zodiac</b>,<<n>>an immaculate land subject to nothing but the sacred<<n>><b>Luxflon</b>'s limitless power.
+You are therefore formally invited to join us in the highest<<n>>peaks of <b>Mt. Zodiac</b>,<<n>>an immaculate land subject to nothing but the sacred<<n>><b>Luxflon</b>'s limitless power.
 Con pazienza attenderemo il vostro arrivo, i <b>Quattro Cardinali</b>.''
-We will patiently wait for your arrival.<<b>>-the <b>Four Cardinals</b>''
+We will patiently wait for your arrival.<<n>>-the <b>Four Cardinals</b>''
 Wow! Un invito in pompa magna!
 Whoo! That's really an invitation in great style!
 I <b>Quattro Cardinali</b> in persona richiedono la tua presenza...! È davvero fantastico, \PN!
@@ -2053,7 +2053,7 @@ Whatever, I'm a little busy right now. Just keep you away from troubles, okay?
 Ma tu sei \PN! Accipicchia, quanto sei cresciuto|a! Sono io, <b>Aster</b>! Non mi riconosci? Beh, in effetti eri ancora in fasce quando ti ho conosciuto|a. Tuo padre era come un maestro per me...
 Wait- you are \PN! Look how you've grown!<<n>>It's me, <b>Aster</b>! Don't you recognize me?<<n>>Well, you still were an infant when I met you.<<n>>Your father was my mentor...
 Ma vedo che hai delle Poké Ball lì con te! Edera si è decisa a vuotare il sacco, eh?
-Are Poké Balls those you have there? So, Clover finally decided to spill the bean, huh?
+Are those Poké Balls you have there? So, Clover finally decided to spill the bean, huh?
 Perché non vieni con me ad acciuffare il furfante che ha quasi messo a fuoco la città? Vedi, quello non è un Pokémon qualsiasi... È uno dei fantomatici ''<b>Pokémon X</b>''! Da qualche tempo hanno iniziato a spuntare come funghi in giro per la regione. Le informazioni su di loro ancora scarseggiano... sappiamo solo che arrivano da un altro mondo, lo <b>Xenoverse</b>!
 Why don't you come with me to get that punk that almost<<n>>put the city on fire?<<n>>That's not a normal Pokémon, you see...it's one of those mysterious ''<b>X Pokémon</b>''!<<n>>For some time now, they started popping up all over<<n>>the region.<<n>>Information about them is still lacking...all we know is they come from another world--the <b>Xenoverse</b>!
 Ma non perdiamoci in chiacchiere, ne parleremo più tardi sul luogo. Conoscendo quel piccolo furfante, sarà sicuramente andato alla <b>Spiaggia Polvostella</b>. Ci si arriva proseguendo lungo il <b>Percorso 2</b>, il sentiero alla tua destra. Ti aspetto laggiù!
@@ -5939,7 +5939,7 @@ That's a really good idea. Each of us would get his cut!
 Potremmo persino correrci in aiuto in caso di pericolo...
 We could even help each other in dangerous situations...
 Perdonatemi se sono stato brusco con voi, volevate solo riappacificarci... e ci siete riusciti! Vi prego, accettate questa come ringraziamento.
-Please, forgive me if I was rough on thou there...<<b>>Thou only wanted to mend our fences and thou did it!<<n>>Please, accept this as a sign of my gratitude.
+Please, forgive me if I was rough on thou there...<<n>>Thou only wanted to mend our fences and thou did it!<<n>>Please, accept this as a sign of my gratitude.
 Ora però fuori dai piedi! Abbiamo tanto di cui discutere.
 Yeah, yeah, outta my way now! We gotta get down<<n>>to business.
 55G
