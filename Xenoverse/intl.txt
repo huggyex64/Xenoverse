@@ -1698,7 +1698,7 @@ Did you really want to run away without saying a word?!<<n>>What a childish beha
 Lo so benissimo che ti manca papà! Pensi che io non provi lo stesso, \PN? Non è affatto facile crescere un figlio da sola!
 I know you miss your dad! Don't you think I feel the same, \PN?<<n>>It's not easy to raise a child on your own!
 Credi sul serio che un novizio come te possa fare più di due adulti? Non ti rendi conto di quanto sia pericoloso il mondo là fuori!
-Do you really think a newbie like you could do more than<<n>>two adults?!<<n>>You don't even imagine how dangerous the world<<n>>out there is!
+Do you really think a newbie like you could do more than<<n>>two adults?!<<n>>You don't even imagine how dangerous is the world<<n>>out there!
 Tu
 You
 ...!
@@ -1722,7 +1722,7 @@ Where do you think you're going?!
 Lo so benissimo che ti manca papà! Pensi che io non provi lo stesso, \PN? Non è affatto facile crescere una figlia da sola!
 I know you miss your dad! Don't you think I feel the same, \PN?<<n>>It's not easy to raise a child on your own!
 Credi sul serio che una novizia come te possa fare più di due adulti? Non ti rendi conto di quanto sia pericoloso il mondo là fuori!
-Do you really think a newbie like you could do more than<<n>>two adults?!<<n>>You don't even imagine how dangerous the world<<n>>out there is!
+Do you really think a newbie like you could do more than<<n>>two adults?!<<n>>You don't even imagine how dangerous is the world<<n>>out there!
 ... Ma a chi voglio darla a bere? Non riesco a far cambiare idea a mio figlio, figuriamoci a ritrovare un uomo scomparso...
 ...<<n>>Who am I kidding?<<n>>I cannot even change my son's mind, how am I supposed to find a missing man...?
 \PN, nei tuoi occhi ho visto la determinazione... È davvero questo ciò che desideri più d'ogni altra cosa?
@@ -6528,7 +6528,7 @@ What brings you to Westar City, gringo|a? This isn't exactly the right city for 
 Norberto
 Norbert
 Il lavoro nei campi è tosto... ma cosa ne vuole sapere un cittadino come te?!
-Working in the fields is hard...nuthin' ya'll city folks<<n>>can ever get!
+Working in the fields is hard...nuthin' y'all city folks<<n>>can ever get!
 <<[>>old<<]>>Lavori in corso. -Kupa
 <<[>>old<<]>>Work in progress. -Kupa
 <<[>>old<<]>> Lavori in corso. Tornate presto! -Kupa.
@@ -11514,7 +11514,7 @@ Land doesn't belong to man, it's the man that belongs to her!
 Cletus
 Cletus
 Che diavolo ci fanno tutti questi tizi conciati da pennuti nella mia tenuta?! Dovete sloggiare!
-What are these dang bird-like people doin' in my estate?!<<n>>Ya'll gotta scram!
+What are these dang bird-like people doin' in my estate?!<<n>>Y'all gotta scram!
 Come sarebbe a dire che non è la mia tenuta...?
 Whaddya mean dis ain't my estate...?!
 Saprei riconoscere la mia tenuta fra mille!
@@ -12527,7 +12527,7 @@ I hate to disappoint you, but this time it won't end up<<n>>like that time on ca
 Puoi dirlo forte, A!
 You got that right, A!
 ''A'' di autorità...
-''A'' as bravery...
+''A'' as authority...
 ''B'' come baldanza...
 ''B'' as bravery...
 A & B, dal Team Dimension con eleganza!! <i>Roger!!</i>
@@ -12540,6 +12540,8 @@ And the same goes for you, miss-NewtronLibrary.png!
 <i>BR0TH3R...error.exe</i><<n>><i>THEY_4RE_T00_STR0N6.mp4</i>
 <i>D4NN4T1... 01000010</i> <i>M3GL10 R1T1R4R51... P3R 1L M0M_3NT0_</i>
 <i>D4MM1T...01000010</i><<n>><i>B3TT3R R3TR34T...F0R TH3 M0M_3NT_</i>
+<i>#include (A)</i> <i>#include (B)</i> <i>std::exit(EXIT_SUCCESS);</i>
+<i>#include (A)</i><<n>><i>#include (B)</i><<n>><i>std::exit(EXIT_SUCCESS);</i>
 Tsk! Finalmente hanno girato i tacchi... Basta una sconfitta a farli crashare, che ridicoli! Ptù!
 Tch! They finally get the hell out of here... Ridiculous,<<n>>just a defeat and they crash! Ptui!
 Rapidash
