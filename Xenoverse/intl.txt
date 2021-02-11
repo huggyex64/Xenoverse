@@ -303,7 +303,7 @@ Alakazam, come back!
 Sarai sfinito|a dopo la lotta contro <b>Sharpedo</b>, vero? Lascia che curi i tuoi Pokémon, su.
 You must be tired after the battle against that <b>Sharpedo</b>. Let me heal your Pokémon, come on!
 \PN, benvenuto|a nella mia dimora a <b>Vetta Polare</b>. Qui conduco studi di ogni sorta, ma ho una certa predilezione per la tecnologia. Conosci il Sistema Memoria Pokémon e i <b>Centri</b> <b>Porygon</b>, vero? Sono entrambi di mia invenzione!
-\PN, welcome to my house<<n>>in <b>Polaris Town</b>.<<n>>I conduct all sorts of studies here, but I’ve got a certain predilection for technology.<<n>>Do you know the Storage System and <b>Porygon</b> <b>Centers</b>, don't you? They're both my inventions!
+\PN, welcome to my house<<n>>in <b>Polaris Town</b>.<<n>>I conduct all sorts of studies here, but I've got a certain predilection for technology.<<n>>Do you know the Storage System and <b>Porygon</b> <b>Centers</b>, don't you? They're both my inventions!
 Il Teletrasporto di Alakazam ti ha un po’ scombussolato|a, non è vero? Sentiti pure libero|a di fare un giro qui intorno se ti può far stare meglio. Io purtroppo ho delle faccende da sbrigare e non posso trattenermi... Tu fa' pure come fossi a casa tua. Bye-bye!
 Alakazam's Teleport has upset you,<<n>>hasn't it?<<n>>Feel free to take a stroll around here if it makes<<n>>you feel better.<<n>>I have some business to attend to, and I can't stay any longer...<<n>>You make yourself at home. Bye-bye!
 Uhm! Prendi al volo, forza!
@@ -1772,7 +1772,7 @@ Be careful, and don't make me worry.<<n>>Shulong, keep an eye on this brat, okay
 Versil
 Versil
 Ma guarda un po' che bella giornata! Quest’aria fresca mi mette sempre di buonumore.
-Look what a beautiful day! This fresh air always<<n>>cheers me up.
+Look what a beautiful day it is!<<n>>This fresh air always cheers me up.
 Forza, andiamo \PN. Ti faccio un po' vedere il nostro ranch.
 C'mon, let's go \PN. I'm gonna show you around<<n>>our ranch.
 Per di qua. La nostra prima tappa sarà la fattoria.
@@ -6548,7 +6548,7 @@ D'ya knee high do the laundry all by yerself?
 Maria
 Maria
 Argh! Come hai fatto a smascherarci?! E va bene, ora te la vedrai con le sorelle Maria e Serafina!
-Argh! How did you get us? Alright, you'll have to deal with<<n>>the sisters Maria and Serafina!
+Argh! How did you get us? Alright, you'll have to deal with<<n>>the sisters Maria and Seraphina!
 Ah ah ah! Come speri di metterci alle strette con un solo misero Pokémon? Torna quando avrai imparato che per una Lotta in Doppio ne servono almeno due!
 Ha ha ha! D'ya think you can stop us with just<<n>>a Pokémon?<<n>>Come back when you've learned that Double Battles require two Pokémon at least!
 Non è bastato nemmeno vestirsi da Miltank!!
@@ -6578,7 +6578,7 @@ If I had studied, I coulda gotten some of all those writings.
 Miltank, vedi di non perdere anche questa!
 Ya better not losin' this one too, Miltank!
 Serafina
-Seraphine
+Seraphina
 M17
 M17
 Favel
@@ -8127,6 +8127,8 @@ E di che! È il minimo, Alice.
 Don't mention it! It was the least I could do, Alice.
 \PN... Come ti senti?
 \PN...how are you feeling now?
+(Sembrerebbe ancora influenzato da quell'oscuro potere...)
+(It looks like he's still being influenced by that<<n>>dark power...)
 Mh? Che fine ha fatto quel tipo... Victor? Sarà riuscito a darsela a gambe prima dell'esplosione?
 Hm? Where did that Victor go?<<n>>Has he managed to flee before the explosion?
 Tu
@@ -8762,7 +8764,7 @@ Litwick
 Lit...!
 Lit...!
 <<[>>old<<]>>Sembra che questo Litwick abbia qualcosa per te.
-<<[>>old<<]>>Looks like this Litwich has something for you.
+<<[>>old<<]>>Looks like this Litwick has something for you.
 TEMPO ESAURITO.\nNon sei riuscito a risolvere tutti gli enigmi. Sarai riportato all'entrata della palestra.
 TEMPO ESAURITO.\nNon sei riuscito a risolvere tutti gli enigmi. Sarai riportato all'entrata della palestra.
 [Map196]
@@ -38431,7 +38433,7 @@ PP Max
 PP Max
 251
 PS-Su
-PS-Su
+HP Up
 252
 Proteina
 Protein
