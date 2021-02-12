@@ -457,25 +457,7 @@ class Database
 end
 
 def pbMGH
-    #if $MKXP
-    #    $DEBUG=true
-    #    Console::setup_console
-    #    echoln "Ruby version #{VERSION}"
-    #    echoln defined?(Net::HTTP)
-    #    res = Database.requestGift("getGifts","hITaKwoippTRHIWqWH4TVMgn3ecRtEwL")
-    #    echoln res
-    #else
-        pbFadeOutIn(99999){
-            MysteryGiftScene.new
-        }
-    #end
-    #Console::setup_console
-    #mgh = MysteryGiftHandler.new
-    #mgh.retrieve("Z2lnaWRhbGVzc2lvbWlvZXJvZWFzc29s")
-    #mgh.retrieve("gigidalessioeroe")
-    #mgh.retrieve("hITaKwoippTRHIWqWH4TVMgn3ecRtEwL")
-    #mgh.retrieve("lMvKh4HwLJeeRltm0r4jaPlac3lciIR1")
-    #mgh.retrieve("oNCWiHGuWMIOWy8ujTz0J4M4uFp9qj79")
-    #mgh.retrieve("dsPZcTbg09jQOZUFrerinPJWABt3Fpw5")
-    
+    pbFadeOutIn(99999){
+        MysteryGiftScene.new
+    }
 end

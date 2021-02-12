@@ -144,7 +144,7 @@ end
 def pbFindEncounterNight(encounter,species)
 	return false if !encounter
 	for i in 0...encounter.length
-		next if !encounter[i] || (i!=11 && i!=0)
+		next if !encounter[i] || ![0,1,2,3,4,5,6,11].include?(i)#(i!=11 && i!=0)
 		for j in 0...encounter[i].length
 			return true if encounter[i][j][0]==species
 		end
