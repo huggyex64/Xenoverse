@@ -26618,7 +26618,8 @@ BattlerEnemyY=20
 [2001]
 Name=Rapidash
 InternalName=RAPIDASHXBOSS2
-Type1=ELECTRIC
+Type1=FLYING
+Type2=ELECTRIC
 BaseStats=65,100,60,125,100,60
 GenderRate=AlwaysFemale
 GrowthRate=Medium
