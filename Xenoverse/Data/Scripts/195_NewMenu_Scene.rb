@@ -186,7 +186,7 @@ class NewMenu
 	@sprites["text"] = NewMenu_Text.new
 	@sprites["text"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
 	@sprites["text"].updateText(@items[@index].displayedName) if @items[@index] != nil
-	if !(pbInSafari? || pbInBugContest?)
+	if !(pbInSafari? || pbInBugContest?) && $Trainer.party.length>0
 		@sprites["mg"] = EAMSprite.new(viewport)
 		@sprites["mg"].bitmap = pbBitmap("Graphics/Pictures/newMenu/MysteryGift")
 		@sprites["mg"].x = 10
@@ -367,7 +367,7 @@ class NewMenu
 		elsif Input.trigger?(Input::C)
 			@items[@index].select
 			pbSEPlay("Select")
-		elsif Input.trigger?(Input::Y) && !(pbInSafari? || pbInBugContest?)
+		elsif Input.trigger?(Input::Y) && !(pbInSafari? || pbInBugContest?) && $Trainer.party.length>0
 			pbSEPlay("Select")
 			pbMGH
 		elsif Input.trigger?(Input::B)
