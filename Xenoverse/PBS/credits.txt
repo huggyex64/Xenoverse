@@ -461,6 +461,7 @@ iametrine
 diegotoon20
 snivy101
 Smogon XY/SM Sprite Project
+falgaia
 
 Pokemon Sprites:
 http://www.pkparaiso.com/
@@ -477,10 +478,6 @@ Takyon!<s>Pokegod7020
 Research:
 Drakath569<s>Florio
 MrDeepDarkMind<s>snooper117
-
-Scene_Credits script was created by:
-Unknown<s>MiDas Mike
-AvatarMonkeyKirby<s>Maruno
 
 UltimateTitleScreen and many other scripts by:
 Luka S.J.
