@@ -268,7 +268,7 @@ Sconfiggi il Capopalestra Surge.
 Defeat Vega City's Gym Leader Surge.
 Mega Mania
 Mega Mania
-Ottieni tutte le Mega Pietre.
+Ottieni tutte le Megapietre.
 Collect all the Mega Stones.
 Medaglia Marea
 Tidal Badge
@@ -280,7 +280,7 @@ Completa la sezione Xenoverse del Pokédex.
 Complete the Xenoverse category of the Pokédex.
 Allenatore brillante
 Bright Trainer
-Cattura un Pokémon Cromatico.
+Cattura un Pokémon cromatico.
 Catch a shiny Pokémon.
 Tana!
 Into Lion's Den
