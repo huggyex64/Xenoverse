@@ -230,7 +230,7 @@ Ginger
 Sapevo che saresti venuto|a...
 I knew you'd come...
 Hai provato il tuo valore contro quei damerini e io sono curioso di mettermi alla prova con te. Io, Claudio, Capopalestra del Campus Ariepoli, ti sfido ufficialmente in una lotta! Libera tutto il potere che ti ha donato la Lastra Terrestre! GO-GO, GRANBULLS!
-You proved your worth against those two fops and now<<n>>I'm curious to test myself with you.<<n>>I, Ginger, Newtron City's Gym Leader, formally challenge<<n>>you to a battle!<<n>>Unleash all the power the Terrestrial Plate has given you!<<n>>GO-GO, GRANBULLS!
+You proved your worth against those two fops and now<<n>>I'm curious to challenge you.<<n>>I, Ginger, Newtron City's Gym Leader, formally challenge<<n>>you to a battle!<<n>>Unleash all the power the Terrestrial Plate has given you!<<n>>GO-GO, GRANBULLS!
 Non per nulla sei il messia della leggenda...
 Not for nothing if you're the chosen one of the legends...
 Davvero impressionante. Non avevo mai perso una lotta qui al campus... Questa nuova sensazione, però, non mi butta giù, anzi.
@@ -303,7 +303,7 @@ Alakazam, come back!
 Sarai sfinito|a dopo la lotta contro <b>Sharpedo</b>, vero? Lascia che curi i tuoi Pokémon, su.
 You must be tired after the battle against that <b>Sharpedo</b>. Let me heal your Pokémon, come on!
 \PN, benvenuto|a nella mia dimora a <b>Vetta Polare</b>. Qui conduco studi di ogni sorta, ma ho una certa predilezione per la tecnologia. Conosci il Sistema Memoria Pokémon e i <b>Centri</b> <b>Porygon</b>, vero? Sono entrambi di mia invenzione!
-\PN, welcome to my house<<n>>in <b>Polaris Town</b>.<<n>>I conduct all sorts of studies here, but I've got a certain predilection for technology.<<n>>Do you know the Storage System and <b>Porygon</b> <b>Centers</b>, don't you? They're both my inventions!
+\PN, welcome to my house<<n>>in <b>Polaris Town</b>.<<n>>I conduct all sorts of studies here, but I've got a certain fondness for technology.<<n>>Do you know the Storage System and <b>Porygon</b> <b>Centers</b>, don't you? They're both my inventions!
 Il Teletrasporto di Alakazam ti ha un po’ scombussolato|a, non è vero? Sentiti pure libero|a di fare un giro qui intorno se ti può far stare meglio. Io purtroppo ho delle faccende da sbrigare e non posso trattenermi... Tu fa' pure come fossi a casa tua. Bye-bye!
 Alakazam's Teleport has upset you,<<n>>hasn't it?<<n>>Feel free to take a stroll around here if it makes<<n>>you feel better.<<n>>I have some business to attend to, and I can't stay any longer...<<n>>You make yourself at home. Bye-bye!
 Uhm! Prendi al volo, forza!
@@ -8938,7 +8938,7 @@ Well, anyway, welcome to <b>Hypelion City</b>,<<n>>music's heaven!<<n>>If my hun
 Eh eh! Ti conosco come le mie tasche ormai!
 Heh heh! I know you like the back of my hand!
 Però, vedi... Non potevi scegliere giorno peggiore per arrivare fin qui. Devi sapere che tutte le attività della città, sfide in Palestra incluse, saranno sospese in vista del grosso evento che <b>Wallace</b> <b>Daddy</b> terrà qui proprio domani.
-But, you see..you couldn't have chosen a worse day<<n>>to come here.<<n>>I'll have you know that all activities in town,<<n>>Gym challenges included,<<n>>will be suspended due to the big event that<<n>><b>Wallace Daddy</b> is going to hold here tomorrow.
+But, you see...you couldn't have chosen a worse day<<n>>to come here.<<n>>I'll have you know that all activities in town,<<n>>Gym challenges included,<<n>>will be suspended due to the big event that<<n>><b>Wallace Daddy</b> is going to hold here tomorrow.
 Ma come? Non ne sai niente? Non si parla d'altro ultimamente... ma vivi nello Xenoverse, per caso?
 Really? You know nothing about it? It's been on everyone's mouths lately...do you live in the Xenoverse, maybe?
 Domani <b>Wallace Daddy</b>, il cantante più acclamato di Eldiw, si esibirà per presentare un nuovo singolo! Cosa c'entra tutto ciò con la Palestra chiusa agli sfidanti?
