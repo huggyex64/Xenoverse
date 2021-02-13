@@ -2277,7 +2277,7 @@ You've done a great job, \PN! You really deserve<<n>>a reward.
 Grazie a quell’<b>Ovamuleto</b> ti sarà possibile schiudere con più rapidità le Uova Pokémon! Alcuni mostriciattoli si possono ottenere solo schiudendoli dalle Uova, lo sai?
 Thanks to the <b>Oval Charm</b> your chance of finding Eggs at the Day Care will increase!<<n>>Certain pocket monsters can only be obtained by hatching<<n>>Pokémon Eggs, did you know?
 Sono certo che questo amuleto ti tornerà utile per il tuo prossimo obiettivo... acchiapparli tutti!
-I'm sure this charm will come in handy for your next<<n>>goal…catching 'em all!
+I'm sure this charm will come in handy for your next<<n>>goal...catching 'em all!
 Buona fortuna!
 Good luck!
 Davvero impressionante! Sei riuscito|a a catturare tutti i Pokémon che popolano la nostra regione!
@@ -3576,7 +3576,7 @@ My grandson made me listen to the music<<n>>he likes...<<n>>...and it really got
 Ah, come vorrei andare ad un concerto di quel giovanotto e chiedergli un autografo tutto per me...!
 I'd love to go to that lad's concert and get his autograph...!
 Quello è proprio l’autografo di quel <b>Wallus Dandy</b> che ascolto sempre alla radio! Sei davvero venuto|a qui per darlo a me? Oh, che gioia!
-You have <b>Wallus Dandy</b>'s autograph, I always listen to him on the radio!<<n>>Are you really giving it to me? What a joy!
+You have that <b>Walrus Dandy</b>'s autograph, I always listen to him on the radio!<<n>>Are you really giving it to me? What a joy!
 Oh, come sono felice! Voglio sdebitarmi dandoti questa!
 I'm so happy! Here you go, take this!
 Ai tempi, quando questa era ancora un’isola di pescatori, usavamo quella per tirar su dei gran bei pesci! Al giorno d’oggi però non è che un souvenir...
@@ -3605,7 +3605,7 @@ Darn it...I'll say goodbye to my permanence...!
 Pensavo che Aster sarebbe venuto a darmi una strigliata e invece non s'è più fatto vi...
 I thought Aster would have come to tell me off, but I haven't seen hi-
 Oh...
-Oh...
+Aw...
 [Map74]
 [Map75]
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
@@ -3721,7 +3721,7 @@ Galvantula
 <<[>>old<<]>>È ghiacciata... non si apre!
 <<[>>old<<]>>It's frozen... there's no way to open it!
 <<[>>old<<]>>A... aiuto...
-<<[>>old<<]>>He... Help...
+<<[>>old<<]>>He...Help...
 <<[>>old<<]>> ...
 <<[>>old<<]>> ...
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
@@ -4344,7 +4344,7 @@ Some spineless dudes dared to challenge me in<<n>>a Vroombug race. Tsk!
 Ripetilo ancora, Ryan! ''La scottatura riduce l’Attacco di un Pokémon e la paralisi la Velocità.''
 Say it again, Ryan! ''Burn lowers a Pokémon's Attack and paralysis lowers its Speed.''
 ... zzz... zzz... Oh! Stavo solo riposando gli occhi, mica dormivo!
-...zzz...zzz... Oh! I was just resting my eyes!<<n>>I wasn't sleeping!
+...zzz...zzz...oh! I was just resting my eyes!<<n>>I wasn't sleeping!
 A quanto pare Claudio è uno specialista del tipo Lotta. Vedi, è scritto qui, sul sito della confraternita.
 Seems like Ginger is a Fighting-type specialist.<<n>>Look, it says here, on the corporation website.
 Aaah! Non passerò mai quest’esame!
@@ -4707,7 +4707,7 @@ I have no idea of what will hatch... You'll know only<<n>>by taking care of it!
 La tua squadra è al completo! Se proprio ci tieni ad averlo, fai posto.
 Your party is full! If you really want it, you'll need<<n>>to make room for it.
 Va bene... Troverò qualcun altro che possa prendersene cura.
-Fine... I'll find someone else then.
+Fine...I'll find someone else then.
 Oh, eccoti! Ti stava cercando mio marito.
 Oh, here you are! My husband was looking for you.
 Benvenuto|a nella nostra <b>Pensione Pokémon</b>. Allora, vuoi affidarci un Pokémon?
@@ -5200,7 +5200,7 @@ I'm gonna cook a tasty rice with Pepequeno's seeds for<<n>>my pal. I hope he lik
 Enrique
 Clint
 Il mondo si divide in due categorie: chi ha la pistola carica e chi scava. Con questa sarai tu a scavare.
-There are two kinds of people in the world: those with<<n>>loaded guns, and those who dig.<<n>>With this, you'll be the one digging.
+There are two kinds of people in the world--those with<<n>>loaded guns, and those who dig.<<n>>With this, you'll be the one digging.
 Occhio a non scavarti la fossa da solo|a però.
 Just don't dig your own grave, though.
 [Map117]
@@ -5464,7 +5464,7 @@ My fighting spirit's burning inside of me<<n>>like a volcano!
 Dobbiamo cercare di contenere i nostri istinti.
 We must refrain from hot blooded behavior.
 Quinta regola del dojo: dobbiamo cercare di contenere i nostri istinti.
-Fifth dojo rule: each person must refrain from<<n>>hot blooded behavior.
+Fifth dojo rule--each person must refrain from<<n>>hot blooded behavior.
 <<[>>old<<]>>Sembrerebbe esserci un Nido... Vuoi che Trishout dia un'occhiata al suo interno?
 <<[>>old<<]>>It's a Pokémon Den...\nDo you want Trishout to take a look inside?
 <<[>>old<<]>>Forse un Pokémon di tipo Fuoco potrebbe addentrarvisi...
@@ -5753,7 +5753,7 @@ Hey! \PN, can you he-r me?! You ha-e to com--ack!<<n>>The gat- is cl-sing!
 <<[>>old<<]>>La proiezione negativa del tuo Pokémon si è tramutata in un anello... È l'Anello Xenoverse!
 <<[>>old<<]>>The negative projection of your Pokémon turned into a ring... It's the Xenoversal Ring!
 Continui a restarmi vicina nonostante tutto... Qu-Questa cosa mi rende... mi rende... felice...
-You keep staying with me despite all this...<<n>>Th-This makes me... makes me... happy...
+You keep staying with me despite all this...<<n>>Th-This makes me...makes me...happy...
 D'ora in poi ti starò dietro come un'ombra e, quando verrai sopraffatta dall'odio, verrò allo scoperto e mi prenderò tutto, \PN! Muah ah ah ah!
 From now on, I'll follow you like a shadow and,<<n>>when your hatred will overwhelm you,<<n>>I will come out and take it all, \PN!<<n>>Mwa ha ha ha!
 Muah ah ah ah!
@@ -6991,13 +6991,13 @@ Chrysler, you're a genius! It worked!
 Grazie, capitano.
 Thank you, captain.
 Maurice... Credi che, con qualche modifica qua e là, questo robot possa tornarci utile?
-Chrysler... Do you think that, with a few tweaks here and<<n>>there, that robot might actually be useful to us?
+Chrysler...do you think that, with a few tweaks here and<<n>>there, that robot might actually be useful to us?
 Affermativo. Mettere mano su un sistema così ben progettato sarebbe davvero un piacere.
 Affirmative. Being able to interact with such<<n>>a well-designed system will be a pleasure.
 Forse dovremmo trovarti un nome...
 We should give you a name...
 Mmh... Quella sigla sul collo... <b>R3V0</b>? Che ne dite di <b>Revolver</b>, ragazzi? Suena bien... non credi, \PN?
-Hmm... That code on its neck... <b>R3V0</b>? How about <b>Revolver</b>, guys? Suena bien...don't you think? 
+Hmm...that code on its neck...<b>R3V0</b>? How about <b>Revolver</b>, guys? Suena bien...don't you think? 
 Revolver sia.
 Revolver it is.
 Maurice, non vedo l'ora di vedere cosa tirerai fuori modificandolo!
@@ -7038,7 +7038,7 @@ Oh, look. It's <b>Will</b>!
 Ehi, tutto bene? Sembra tu abbia visto un fantasma...
 Hey, is everything ok? You look like you've seen a ghost...
 Oh... C-Ciao, Silvia...
-Oh... H-Hi, Minta..
+Oh...H-Hi, Minta..
 Che succede?
 What's wrong?
 N-Niente, ho solo fatto un brutto sogno... Ah! Sorellona, chi è lui||ei?
@@ -7166,7 +7166,7 @@ No offense, Salem...but you're hopeless.<<n>>C'mon, \PN. Let's leave this idiot 
 Guarda un po' chi si vede!
 Look who it is!
 Il Camion S.P.E.T.T.R.I. aveva bisogno di qualche messa a punto e mi sono messo all'opera... Questo è un lavoro da veri uomini!
-The G.E.I.S.T. Truck needed some tune up so I'm working<<n>>on it... This is a job for a real man!
+The G.E.I.S.T. Truck needed some tune up so I'm working<<n>>on it...this is a job for a real man!
 Quel cantante da strapazzo ci ha fatto solo perdere tempo... Col cavolo che Leopoli vedrà più questo bel muso!
 That two-bit singer just wasted our precious time...<<n>>Hell if Hypelion is gonna see this pretty face again!
 Allora, com’è allenare quel tappetto?
@@ -7233,7 +7233,7 @@ Poor Chrysler saved you by letting himself be taken<<n>>by the Pokémon that pos
 Eh? Cosa?! Allora adesso ho l'opportunità di ricambiare il favore... Grassone, ci penso io a salvarti la pellaccia!
 Uh? What?! Then I have the chance to redeem myself...<<n>>Don't worry, tubbo, I'll save your fat behind!
 Tsk... Però non posso attaccare il buon Maurice... come si fa?
-Tch... I can't attack ol' Chrysler though...<<n>>What to do?
+Tch...I can't attack ol' Chrysler though...<<n>>What to do?
 Tu
 You
 ...
@@ -7241,7 +7241,7 @@ You
 Saul, fatti da parte! Pare proprio che voglia occuparsene \PN!
 Out of the way, Salem! It looks like \PN wants to<<n>>handle this!
 Ehi, Maurice... Todo bien?
-Hey, Chrysler... Todo bien?
+Hey, Chrysler...todo bien?
 Rooonf...
 Rooonf...
 Eh eh! La lotta deve averlo sfiancato...
@@ -7353,7 +7353,7 @@ And now it's time to test you to see how far I can push<<n>>this blondie's body!
 Ay! Che botta... Tappetto, sei tu?
 Ay! Qué dolor... Squirt, is that you? 
 Fammi indovinare... Mi hai di nuovo salvato la ghirba, vero?
-Lemme guess... You saved my bacon again, haven't you?
+Lemme guess...you saved my bacon again, haven't you?
 Assurdo, sono riuscito a prenderle da un ragazzino...
 This is absurd, I managed to get myself beaten<<n>>by a lil' kid...
 L'orgoglio mi ha annebbiato e ho agito senza riflettere... È colpa mia se ora ci troviamo in questa situazione!
@@ -7528,7 +7528,7 @@ You have nothing to grab onto anymore,<<n>>Whisteract...get out of my body!!
 <<[>>old<<]>><b>Negarg</b>, un politico corrotto dalla malavita di Eldiw, causa della crisi turistica della città di Scorpiopoli... perché era lì?
 <<[>>old<<]>><b>Gunther</b>, a corrupt politician of Eldiw's underworld--the man behind the tourist crisis of Westar City...why was he there?
 <<[>>old<<]>>Quell’uomo mi spiegò subito il suo intento: voleva vendicarsi dell'accaduto di qualche mese fa e fare suo quel Pokémon che spesso veniva qui al saloon! Non appena finì di parlare, lo Scarphasmo di uno dei teppisti mi assalì, mentre gli altri Pokémon distrussero quel che rimaneva del locale...
-<<[>>old<<]>>He made it clear immediately: he had come to take his revenge for what happened a few months earlier and catch the Pokémon of the saloon!\nHe was done talking and one of the outlaws' Scarphasmo attacked me, while the other Pokémon started destroying what remained of my inn...
+<<[>>old<<]>>He made it clear immediately--he had come to take his revenge for what happened a few months earlier and catch the Pokémon of the saloon!\nHe was done talking and one of the outlaws' Scarphasmo attacked me, while the other Pokémon started destroying what remained of my inn...
 <<[>>old<<]>>La Lacerazione mi aveva colpito in pieno, ma il mio dolore fisico era nulla in confronto alle piaghe del mio animo... Tutto ciò che avevo creato, tutti i ricordi felici, tutto era andato in fumo... Ero sul punto di svenire, quando... Tutti i Pokémon vennero lanciati via da un potentissimo attacco... Non poteva che essere lui, il mio amico!
 <<[>>old<<]>>Slash hit me hard, but my physical pain was nothing compared to my inner wound...\nEverything I built, every happy memory, everything went up to smoke...\nI was about to pass out when...\nAll the Pokémon were thrown away by a powerful attack... It could be only it, my friend!
 <<[>>old<<]>>Negarg ordinò ai teppisti di lanciarsi all'attacco del piccolo Pokémon che, nonostante la stazza ridotta, era dotato di un'enorme forza. Era tornato per proteggermi, proprio come aveva fatto quella volta con quella bambina! Il sindaco, non avendo più scagnozzi, si ritirò e lui, ormai sfinito, cadde al suolo.
@@ -8600,7 +8600,7 @@ No
 <<[>>old<<]>>La foto ritrae Isabelle Nostenfer. Sul retro c'è scritto qualcosa...
 <<[>>old<<]>>The picture portrays Isabelle Nostenfer. There is something written on the back...
 <<[>>old<<]>>''Dopo anni di ricerca, penso di aver trovato finalmente la mia casa: la tenebrosa Scorpiopoli! -Isabelle''
-<<[>>old<<]>>''After years of wandering, I think I've finally found my place-the gloomy Westar City!\n-Isabelle''
+<<[>>old<<]>>''After years of wandering, I think I've finally found my place--the gloomy Westar City!\n-Isabelle''
 <<[>>old<<]>>Sembrerebbe il vecchio manifesto di un criminale di Scorpiopoli...
 <<[>>old<<]>>It looks like an old wanted poster...
 <<[>>old<<]>>La foto è bruciacchiata, ma sul retro si riesce ancora a leggere qualcosa.
@@ -8664,7 +8664,7 @@ You!
 <<[>>old<<]>><b>Isabelle Nostenfer</b> nasce a Romantopoli, una calda e raffinata città nella regione di Kalos. Il suo incommensurabile fascino per l’occulto le vale sin da subito il soprannome di ''strega''.
 <<[>>old<<]>><b>Isabelle Nostenfer</b> was born in Laverre City,\na warm and charming city in Kalos.\nHer immeasurable fascination for the occult immediately gave her the nickname of ''witch''.
 <<[>>old<<]>>Allontanandosi da tutto e tutti, comincia a maturare una sola ossessione: la sua bellezza. Desiderosa di essere la più bella, comincia a far sparire nel nulla numerose ragazze...
-<<[>>old<<]>>Isolated and away from everybody, she started to grow only one obsession: her appearance.\nShe desired to be the most beautiful, and so began to make more and more girls disappear...
+<<[>>old<<]>>Isolated and away from everybody, she started to grow only one obsession--her appearance.\nShe desired to be the most beautiful, and so began to make more and more girls disappear...
 <<[>>old<<]>>Nel mentre, le sue indagini sul paranormale la portano a Scorpiopoli dove viene infine arrestata, non prima di aver tolto dalla piazza altre innumerevoli fanciulle...
 <<[>>old<<]>>Meanwhile, her investigation into the paranormal brought her to Westar City, where she was finally arrested--not before she got rid of countless other girls...
 <<[>>old<<]>>La foto ritrae l'arresto di Charles Fire. C'è una scritta sul retro.
@@ -8672,7 +8672,7 @@ You!
 <<[>>old<<]>><b>Charles Fire</b>, pseudonimo di uno dei criminali più famosi della storia di Eldiw, ha origine ad Unima. Della sua vera identità, nonché della sua intera vita, si sa poco e nulla...
 <<[>>old<<]>><b>Charles Fire</b>, pseudonym of one of Eldiw's most famous criminals, was born in Unova.\nLittle is known about his true identity, as well as about his entire life...
 <<[>>old<<]>>Fu uno spietato criminale che, assieme al suo <b>Pokémon nero e rosso</b>, fece piazza pulita di numerosi Allenatori. Una caratteristica contraddistingueva tutte le sue vittime: una ferita da Rogodenti marchiata a fuoco su di essi.
-<<[>>old<<]>>He was a ruthless criminal and made a clean sweep of many Trainers with his <b>black and red Pokémon</b>.\nAll his victims were marked with a mutual sign-\na Fire Fang wound seared on their bodies.
+<<[>>old<<]>>He was a ruthless criminal and made a clean sweep of many Trainers with his <b>black and red Pokémon</b>.\nAll his victims were marked with a mutual sign--\na Fire Fang wound seared on their bodies.
 <<[>>old<<]>>Non si hanno altre informazioni a riguardo.
 <<[>>old<<]>>There is no further information about him.
 <<[>>old<<]>>A chi appartiene il Pokémon Houndoom?
@@ -8805,7 +8805,7 @@ Alice
 Oh, \PN! Eccoti qui!
 Oh, \PN! There you are!
 Ehi, ma... \PN, anche tu qui?!
-Hey, wait...\PN, are you here too?!
+Hey, wait... \PN, are you here too?!
 Oh, capisco! Quindi anche tu sei al corrente delle ultime malefatte del Team Dimension... Chissà cosa staranno escogitando...
 Oh, I see! So you're aware of Team Dimension's latest<<n>>scheme too...<<n>>I wonder what they're up to...
 Beh, direi che stavolta gli è andata male! Se la dovranno vedere con noi tre!
@@ -8958,7 +8958,7 @@ If you like compulsive shopping, this is the perfect place<<n>>for you!<<n>>Keep
 Ma basta chiacchiere! Proseguiamo col nostro tour.
 Enough with the chit-chat! Let's proceed with our tour.
 Eccoci, \PN. Qui ci troviamo nel cuore di Leopoli: la zona concerti! Dalla gente accalcata qui attorno, capisci bene che è qui che il grande Wallace Daddy si esibirà! Detto sinceramente, anch'io sono un suo grande fan. Non sto più nella pelle per questo spettacolo!
-Here we are, \PN. We have now arrived in Hypelion<<n>>City's heart: the concert square!<<n>>As you can see by the crowd, you can guess this is where<<n>>the great Wallace Daddy is going to perform!<<n>>If I'm being honest, I'm also a big fan of his.<<n>>I can't wait for the show to begin!
+Here we are, \PN. We have now arrived in Hypelion<<n>>City's heart--the concert square!<<n>>As you can see by the crowd, you can guess this is where<<n>>the great Wallace Daddy is going to perform!<<n>>If I'm being honest, I'm also a big fan of his.<<n>>I can't wait for the show to begin!
 Perdonami, mi sono fatto trascinare dall'emozione... Continuiamo la camminata, c’è ancora molto da vedere.
 Forgive me, I'm so excited that I got carried away...<<n>>Let's keep up with our walk, there's still much to see.
 Questa è la <b>Stazione Ferroviaria di Leopoli</b>. Da qui parte il <b>Quasar Express</b> per Scorpiopoli, dove si può ammirare l'impareggiabile tramonto sulle alture rocciose del Canyon Asteroide. Eh eh! Come vedi, è coperta di murales, ma niente panico!
@@ -9692,7 +9692,7 @@ Please forgive us for the inconvenience.
 Uff... Quei pasticcini sembravano deliziosi...
 Boohoo...those sweets looked delicious...
 Vabbé, \PN... È il momento di andare!
-Whatever, \PN... It's time to go!
+Whatever, \PN...it's time to go!
 Ah, quanto vorrei tornare all’epoca degli 8-bit... Quella sì che era musica!
 I'd really love to go back to the era of 8-bit OSTs...<<n>>Dude||||Girl, that was music!
 Siamo spiacenti, ma al momento non è possibile accedere all'ascensore.
@@ -11246,7 +11246,7 @@ So, in conclusion, it is my duty as a Gym Leader to award you the <b>Sugar Badge
 Con questa potrai proseguire la tua avventura da Allenatore nella regione di Eldiw! Mi raccomando, se dovessi trovare qualche dolcetto delizioso sul tuo cammino, sarei felice di provarlo. Ci conto!
 This will allow you to continue your Trainer adventure<<n>>in the Eldiw region!<<n>>Be sure to come and let me taste all the sweet delicacies you will find along the way. Okay?
 D'ora in poi darò il massimo per diventare una brava Capopalestra... costi quel che costi!
-I will do my best to mature as a Gym Leader from now on... whatever it takes!
+I will do my best to mature as a Gym Leader from now on...whatever it takes!
 <<[>>old<<]>>Vuoi davvero abbandonare la prova?
 <<[>>old<<]>>Would you like to quit the trial? 
 Si
@@ -11595,7 +11595,7 @@ Well, incidentally, I have a friend here, and I think it might<<n>>help you...
 ... ma sai com'è, detesta i pappamolle e non li aiuterebbe mai. Ih ih!
 ...but, y'know, it hates wimps and will never help them.<<n>>Tee-hee!
 Se mi dimostrerai di non esserlo con una bella lotta, foooorse potrebbe decidere di darti una mano... Che ne dici?
-If you prove me not to be one with a battle, maaaaybe<<n>>it will help you out... How 'bout that?
+If you prove me not to be one with a battle, maaaaybe<<n>>it will help you out...how 'bout that?
 Evvai! Forza, <b>Decidueye</b>! Facciamo mangiare la polvere a questo|a! Ih ih!
 Booyah! C'mon, <b>Decidueye</b>! Let's make this one bite<<n>>the dust! Tee-hee!
 Decidueye
@@ -11861,7 +11861,7 @@ Laka
 Da queste parti dovrebbe aver messo il Nido colui che porta un fiore in groppa.
 Around here, the one carrying a flower on its back<<n>>should have made its Den.
 Sta' alla larga dal tempio, è un avvertimento!
-This is a warning-get away from the Temple!
+This is a warning--get away from the Temple!
 Avresti potuto avvertirmi anche tu della tua forza...
 You could've warned me about your strength, too...
 <<[>>old<<]>>Ha perso conoscenza...
@@ -12037,7 +12037,7 @@ Here is your reward! You deserve it!
 Don
 Don
 Dimmi, straniero... Vuoi sottoporre le tue abilità al Cammino dell’Eroe per la modica cifra di 500$?
-Tell me, foreigner... Do you want to test your ability<<n>>in the Heroes Path for the mere price of $500?
+Tell me, foreigner...do you want to test your ability<<n>>in the Heroes Path for the mere price of $500?
 Prego, scegli pure la modalità che preferisci.
 Please, choose the mode you're going to face.
 Facile, eh? Bene, buon divertimento!
@@ -12047,7 +12047,7 @@ Hard, huh? You must be really brave!<<n>>Let the real hunt begin, then!
 Comprendo perfettamente, non è una prova adatta a chiunque.
 I fully understand. This challenge isn't for anyone.
 Dimmi, straniera... Vuoi sottoporre le tue abilità al Cammino dell’Eroe per la modica cifra di 500$?
-Tell me, foreigner... Do you want to test your ability<<n>>in the Heroes Path for the mere price of $500?
+Tell me, foreigner...do you want to test your ability<<n>>in the Heroes Path for the mere price of $500?
 Difficile, eh? Devi essere davvero coraggiosa! Che la caccia abbia inizio, dunque!
 Hard, huh? You must be really brave!<<n>>Let the real hunt begin, then!
 <<[>>old<<]>>Sembrano dei modelli di Poké Ball molto obsoleti.
@@ -12059,7 +12059,7 @@ The Heroes Path is an arduous skill trial we Dorado's<<n>>people have taken sinc
 Chi si sottopone alla prova dovrà sopravvivere alla giungla utilizzando un solo Pokémon... <b>Donanas</b>! Inoltre, lo sfidante potrà fare affidamento solo sugli strumenti che troverà nel corso della prova, e gli saranno consegnate 50 <b>Old Ball</b> che potrà usare quando meglio crede per la cattura dei Pokémon. Lo scopo della prova è quello di recuperare i pezzi di un <b>totem</b> sparpagliati nelle varie zone, ma attenzione! Se Donanas dovesse venire sconfitto, la prova si concluderebbe all’istante!
 Whoever takes the trial has to survive the jungle<<n>>with only one Pokémon...<b>Donanas</b>!<<n>>Moreover, the challenger can use only the items<<n>>found during the trial,<<n>>and is given 50 <b>Old Ball</b> to catch wild Pokémon<<n>>when desired.<<n>>The purpose of the trial is to gather three parts of a <b>totem</b> from the various areas, but be careful!<<n>>If Donanas faints, the trial ends immediately!
 La prova si suddivide in due modalità: facile e difficile.
-The trial consists of two different modes: easy and hard.
+The trial consists of two different modes--easy and hard.
 Nella <b>modalità facile</b>, sta allo sfidante decidere se scontrarsi o meno coi Pokémon che incontra. Al contrario, nella <b>modalità difficile</b>, che richiede una maggior dimostrazione di abilità, non ci sarà modo di sfuggire ai Pokémon selvatici!
 In <b>easy mode</b>, the challenger can choose whether<<n>>to fight wild Pokémon or not.<<n>>But instead, in <b>hard mode</b>, every wild Pokémon has to be defeated in order to prove a greater ability!
 Se hai bisogno di informazioni, sarò ben lieto di dartele.
@@ -14607,7 +14607,7 @@ Darnitan, that was tough...!
 Oh-ooh! E chi se l'aspettava che lo|a sfidante riuscisse a sbaragliare il suo enorme avversario?!
 Ho-hoo! Who would expect that the challenger was able<<n>>to take down his||er huge opponent?!
 Molto bene, allora... Dulcis in fundo un vero e proprio veterano del Circo Sirio...!
-Well, then... Last but not least, we have a real veteran<<n>>here at Sunshine Circus...!
+Well, then...last but not least, we have a real veteran<<n>>here at Sunshine Circus...!
 Sin da bambino, non aspettava mai che il suo pasto si freddasse per poterlo addentare... anzi, azzannava il suo boccone ancora fumante!
 Since he was a kid, he never left his food to cool off<<n>>before biting it...<<n>>...in fact, he used to chomp the morsel while still steaming!
 Da allora, ha osato sempre di più, facendo delle stesse fiamme la sua alimentazione quotidiana!
@@ -15051,7 +15051,7 @@ Kenna
 L’attesa del piacere non fa che accrescere il piacere stesso, non credi anche tu?
 I think awaiting a pleasure is itself a pleasure,<<n>>don't you agree?
 Lo stesso vale per quella Ball: più durerà lo scontro, più sarà efficace sui Pokémon selvatici!
-The same goes for that Ball: the longer the battle is,<<n>>the more it is likely to succeed on wild Pokémon!
+The same goes for that Ball--the longer the battle is,<<n>>the more it is likely to succeed on wild Pokémon!
 Girolamo
 Richard
 Di nuovo?! Devo proprio avere un talento naturale nello scegliere gli aerei in ritardo!
@@ -15074,7 +15074,7 @@ Don't you have anything better to do than to come<<n>>here looking for an old ge
 In realtà, you see...
 Actually, you see...
 I know exactly il motivo per cui sei qui... Vuoi la mia Medaglia, don't you?
-I know exactly why you're here... You want my Badge,<<n>>don't you?
+I know exactly why you're here...you want my Badge,<<n>>don't you?
 Da quando mi sono ritirato a vita privata, sono pochi i giovani tanto volenterosi da spingersi fin qui...
 Since my retirement, I've seen only a few kids willing enough to come this far...
 Nonostante abbia scelto di abbandonare everything, non ho lasciato la mia occupazione ad Eldiw, come ho fatto a long time ago qui a Kanto...
@@ -15084,7 +15084,7 @@ Not for some reason, but I didn't want to leave vacancies...that's all.
 La mia determination di un tempo si è ormai spenta e ora sono solo un vecchio che vive di ricordi... Il mio aspetto ne è la prova, come anche il fatto che mi ritrovi qui.
 The determination I used to have, by now, has burned out and just made me an old man living in his memories...<<n>>My appearance, as well as my being here, tell the whole story.
 Look at me... Guarda come mi ha reso l'inesorabile scorrere del tempo!
-Look at me... Look how the inexorable passage of time<<n>>has made me!
+Look at me...look how the inexorable passage of time<<n>>has made me!
 Fosse per me, ti consegnerei la Medaglia prima di subito, ma le procedure mi impongono di sfidarti...
 If it were up to me, I'd hand you over the Badge like lightning, but procedures impose me to challenge you...
 Non che ne abbia voglia, ma...
@@ -15609,11 +15609,11 @@ I gotta be patient and calm--for no one can catch fish<<n>>in anger.
 Maurizio
 Maurice
 Il bello del surf è che bastano solo tre cose per farlo: il corpo, una tavola e le onde!
-What's good 'bout surfing is that you just need<<n>>three things: a body, a board, and waves!
+What's good 'bout surfing is that you just need<<n>>three things--a body, a board, and waves!
 Quattro... ci vuole anche l’equilibrio!
 Four...you need balance too!
 Il bello del surf è che bastano solo quattro cose per farlo: il corpo, una tavola, le onde e l’equilibrio!
-What's good 'bout surfing is that you just need<<n>>four things: a body, a board, waves, and balance!
+What's good 'bout surfing is that you just need<<n>>four things--a body, a board, waves, and balance!
 <<[>>old<<]>>Percorso 15
 <<[>>old<<]>>Route 15
 Ciro
@@ -16899,7 +16899,7 @@ You see, the name you know me with, Versil, is nothing<<n>>but a pseudonym.
 Pazzesco, persino il nome era una balla...!
 Unbelievable, even your name was a lie...!
 Sulle mie spalle ho sempre portato un gigantesco fardello, il nome di mio padre: <b>Giovanni</b>.
-I've always brought with me an enormous burden,<<n>>my father's name: <b>Giovanni</b>.
+I've always brought with me an enormous burden,<<n>>my father's name--<b>Giovanni</b>.
 In quanto capo dell'organizzazione a delinquere più importante di Kanto e Johto, la sua fama nel mondo della criminalità era smisurata.
 As the leader of the most infamous criminal organization<<n>>in Kanto and Johto,<<n>>his fame in the world of crime was immense.
 Erano tantissimi i clan che desideravano ardentemente unirsi sotto la sua ala, perciò in breve tempo costruì un enorme impero della malavita.
@@ -18255,9 +18255,9 @@ No
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>...\n...
 <<[>>old<<]>>I macchinari si sono accesi!
-<<[>>old<<]>>I macchinari si sono accesi!
+<<[>>old<<]>>The machines turned on!
 <<[>>old<<]>>Il macchinario è spento.
-<<[>>old<<]>>Il macchinario è spento.
+<<[>>old<<]>>The machine is off.
 [Map433]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
 <<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
@@ -20291,7 +20291,7 @@ Oh, what a surprise!
 Freddie
 Freddie
 Sono proprio io, Leopoli! Il vostro cantante preferito... <b>Freddie</b>!
-It's me, Hypelion City! Your favorite singer... <b>Freddie</b>!
+It's me, Hypelion City! Your favorite singer...<b>Freddie</b>!
 Il terzo talento è una vera e propria guest star... Freddie, l’ex Frontman dei ''The Roggenrola''!
 Our third talent is a bona-fide guest star...<<n>>Freddie, the former Frontman of ''The Roggenrola''!
 Quando ho lasciato la band per percorrere la strada da solista ho preso la scelta migliore che potessi fare!
