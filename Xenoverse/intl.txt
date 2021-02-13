@@ -404,7 +404,7 @@ AJ
 Adoro alla follia i Pokémon Terra, in particolare <b>Sandshrew</b>... è così adorabile!!
 I really love Ground-type Pokémon, especially <b>Sandshrew</b>... It's so cool!!
 La mia ragazza ha voluto regalarmene uno al nostro anniversario, ma che non era quello che cercavo... Era di tipo Ghiaccio!
-My girlfriend wanted to get me one on our anniversary,<<n>>but that wasn't what I was looking for...<<n>>It was an Ice-type!
+My girlfriend wanted to get me one on our anniversary,<<n>>but that wasn't what I was looking for...<<n>>It was an Ice-type one!
 Per caso tu ne hai uno di tipo Terra da scambiare con questo qui?
 Is there a chance you have a Ground-type one to trade<<n>>with this one?
 Se dovessi trovarne uno, sai dove trovarmi!
@@ -416,7 +416,7 @@ Aurora
 Amo da impazzire i Pokémon Fuoco, in particolare <b>Vulpix</b>... è così adorabile!!
 I really love Fire-type Pokémon, especially <b>Vulpix</b>... It's so cute!!
 Il mio ragazzo ha voluto regalarmene uno al nostro anniversario, ma non era quello che cercavo... Era di tipo Ghiaccio!
-My boyfriend wanted to get me one on our anniversary,<<n>>but that wasn't what I was looking for...<<n>>It was an Ice-type!
+My boyfriend wanted to get me one on our anniversary,<<n>>but that wasn't what I was looking for...<<n>>It was an Ice-type one!
 Per caso tu ne hai uno di tipo Fuoco da scambiare con questo qui?
 Is there a chance you have a Fire-type one to trade<<n>>with this one?
 Acqua in bocca con la mia ragazza, mi raccomando. Eh eh!
@@ -2213,13 +2213,13 @@ I have a ton of practices to do.
 Tiffany
 Tiffany
 Sai già tutto sui Pokémon di <b>tipo Suono</b>?
-Do you get how <b>Sound-type</b> works?
+Do you get how <b>Sound type</b> works?
 Wow! Devi aver studiato bene tutte le interazioni tra i tipi!
 Wow! You must have studied very well all types interactions!
 Tranquillo|a, ci penso io a spiegartelo!
 Don't worry, I'll explain it for you!
 I Pokémon di tipo Suono sono forti su quelli di tipo <b>Acqua</b>, <b>Volante</b> e <b>Folletto</b>, ma temono quelli di tipo <b>Drago</b> ed <b>Elettro</b>!
-Sound-type Pokémon are strong against<<n>><b>Water</b>, <b>Flying</b> and <b>Fairy</b>-types,<<n>>however they are weak against <b>Dragon</b> and<<n>><b>Electric</b> Pokémon!
+Sound-type Pokémon are strong against<<n>><b>Water</b>, <b>Flying</b> and <b>Fairy</b> types,<<n>>however they are weak against <b>Dragon</b> and<<n>><b>Electric</b> Pokémon!
 Aster
 Aster
 \PN, ti aspettavo! Il mio ricercatore ti ha dato quello che cercavo? Fa' vedere.
@@ -2385,7 +2385,7 @@ Oh, man! I was so into this conversation that I lost<<n>>all sense of time.<<n>>
 Ilaria
 Hilary
 Pare che nelle altre regioni, il tipo Suono non venga studiato così approfonditamente come ad Eldiw.
-It seems that in the other regions they don't study Sound-type as closely as we do here in Eldiw.
+It seems that in the other regions they don't study Sound type as closely as we do here in Eldiw.
 Xenone
 Xenon
 Perdonami, ma ora sono proprio indaffarato. Torna più tardi se ti va.
@@ -3367,7 +3367,7 @@ No
 <<[>>old<<]>>Lista dei Pokémon riclassificati al tipo Suono: Ekans e Arbok\n Igglybuff, Jigglypuff e Wigglytuff\n Drowzee e Hypno\n Whismur, Loudred ed Exploud\n Kricketot e Kricketune Chatot\n Audino\n Litleo e Pyroar\n Noibat e Noivern
 <<[>>old<<]>>List of Pokémon reclassified as Sound-type:\n Ekans and Arbok\n Igglybuff, Jigglypuff and Wigglytuff\n Drowzee and Hypno\n Whismur, Loudred and Exploud\n Kricketot and Kricketune\n Chatot\n Audino\n Litleo and Pyroar\n Noibat and Noivern
 Da quando è stato scoperto il tipo Suono, molti Pokémon sono stati riclassificati.
-A lot of Pokémon have been reclassified since<<n>>the Sound-type was discovered.
+A lot of Pokémon have been reclassified since<<n>>the Sound type was discovered.
 <<[>>old<<]>>Il cestino contiene qualcosa.
 <<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
@@ -8564,7 +8564,7 @@ Your goal is solving a series of riddles, so you can escape<<n>>and challenge th
 Bienvenido|a de nuevo en El Purgatorio... Allora, pronto|a a sfidare il Capopalestra?
 Bienvenido|a de nuevo en El Purgatorio... So, are you ready to challenge the Gym Leader?
 Crisante ha una completa padronanza dei Pokémon di tipo Spettro... Ricorda che, essendo intangibili, questi sono deboli solo al Buio e a Pokémon del loro stesso tipo! Tienilo bene a mente se vuoi avere la meglio. Come al solito, io faccio il tifo per te!
-Caspar's skills with Ghost-type Pokémon are<<n>>top-notch...<<n>>Remember, since they are intangible, they are weak only<<n>>to Dark-type and their same type!<<n>>Keep that in mind if you wanna win.<<n>>As usual, I'll be cheering for you!
+Caspar's skills with Ghost-type Pokémon are<<n>>top-notch...<<n>>Remember, since they are intangible, they are weak only<<n>>to Dark type and their same type!<<n>>Keep that in mind if you wanna win.<<n>>As usual, I'll be cheering for you!
 Neanche il cupo Crisante è riuscito ad arrestare la tua avanzata! Con questa, fanno cinque Medaglie in saccoccia!
 Not even the gloomy Caspar has managed to stop you!<<n>>With this, five Badges are out of the way!
 Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
@@ -9654,7 +9654,7 @@ This buffet has been arranged on mr. Daddy's kind behalf,<<n>>to promote his new
 Ma guarda che bella tavolata! Se non ti dispiace io mi butto sul cibo, \PN!
 Look at all these delicacies! If you don't mind<<n>>I'm gonna dig in, \PN!
 Come avrai capito, Wallace Daddy è un vero esperto dei Pokémon di tipo Suono. Se vuoi metterlo alle strette, folgora l’impianto stereo con i Pokémon di tipo Elettro o distruggilo con quelli di tipo Drago!
-As you may have guessed, Wallace Daddy is an expert<<n>>when it comes to Sound-type Pokémon.<<n>>If you want to give him a hard time, fry the stereo set with Electric-type or destroy it with Dragon-types!
+As you may have guessed, Wallace Daddy is an expert<<n>>when it comes to Sound-type Pokémon.<<n>>If you want to give him a hard time, fry the stereo set with Electric-types or destroy it with Dragon-types!
 Wallace Daddy è un esperto del Suono, è vero... ma tu l’hai proprio suonato! Eh eh! Ora solo due Medaglie ti separano dal traguardo!
 Wallace Daddy may be an expert on Sound alright...<<n>>but you really played him like a fiddle! Heh heh!<<n>>Now there are only two Badges left!
 Come dici? Vuoi sapere chi io sia? Ma a che scopo? Ti basti sapere che faccio il tifo per te!
@@ -11916,7 +11916,7 @@ Xolotl
 Se ti armi di pazienza, in questa selva potresti addirittura trovare un <b>Totodile</b>.
 With patience and good will, you could even find<<n>>a <b>Totodile</b> in this jungle.
 Cosa dice la legge della giungla? Prima colpisci, poi parla!
-Now this is the law of the jungle-hit first,<<n>>ask question later!
+Now this is the law of the jungle--hit first,<<n>>ask question later!
 C’è chi è predatore e chi preda...
 Some of us are predators, some others prey...
 <<[>>old<<]>>Ha perso conoscenza...
