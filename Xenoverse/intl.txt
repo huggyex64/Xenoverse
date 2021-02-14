@@ -1363,13 +1363,15 @@ Non capita tutti i giorni di imbattersi in un Allenatore così carino. Ah ah!
 It's not every day you run into such a pretty Trainer.<<n>>Ha ha ha!
 Kay
 Kay
+Piacere, io sono <b>Alice</b> e lei la mia cara amica <b>Pikachu</b>!
+I'm <b>Kay</b> and this is my dear friend <b>Pikachu</b>!<<n>>Nice to meet you!
 Come puoi notare non è un Pikachu di quelli che siamo abituati a vedere... Studiosi sostengono che provenga da un altro mondo... incredibile, vero? Si dice che sia impossibile instaurare un rapporto d'amicizia con questi Pokémon, ma il discorso non vale per me e il mio fidato Pikachu... Noi siamo come fratelli!
 As you can see, it's not like the Pikachu we are used to knowing...<<n>>Scholars hold that it comes from another world...<<n>>that's incredible, don't you think?<<n>>They say it is impossible to establish a friendly relationship with these Pokémon,<<n>>but this doesn't apply to me and my trusty Pikachu... We're like brothers!
 Vedi, ero venuto fin qui per visitare l'immensa biblioteca che ospita il <b>Campus Ariepoli</b>, ma sembra che il <b>Team Dimension</b> lo abbia assediato da capo a piedi. Numerosi studenti del campus sono tenuti prigionieri da quei tali...
 You see, I came this far to visit the immense library<<n>>here in <b>Newtron City</b>,<<n>>but I heard that <b>Team Dimension</b> has seized<<n>>everything up.<<n>>Lots of campus students are prisoners of those criminals... 
 Che vigliacchi! Mi viene una rabbia a pensarci! Dobbiamo assolutamente fare qualcosa! Io starò alle costole di quei due, tu occupati degli altri qui al campus!
 Cowards! Just to think about them makes me mad!<<n>>We absolutely need to do something!<<n>>I'm gonna chase those two thugs, you deal with<<n>>the others here on campus!
-Non capita tutti i giorni di imbattersi in un Allenatore così carino. Ah ah!
+Non capita tutti i giorni di imbattersi in una Allenatrice così carina. Ah ah!
 It's not every day you run into such a pretty Trainer.<<n>>Ha ha ha!
 I <b>Sergenti</b> stanno cercando qualcosa di grosso in questo Campus. Non ce ne andremo finché non l'avremo ottenuto! <i>Bzz!</i>
 Our <b>Sergeants</b> are looking for something big<<n>>in this campus.<<n>>We're not leaving until we get it! <i>Bzz!</i>
