@@ -15676,7 +15676,7 @@ If you're able to defeat me, I'll give you a precious<<n>>treasure my Pokémon f
 Cavoli, ho perso il mio surf-control...
 Jeez, I've lost my surf-control...
 Mi hai stracciato, quindi questo è per te!
-You creamed me, dude|||girl! This is for you, then.
+You creamed me, dude||||girl! This is for you, then.
 Il miglior Surfista è quello che cavalca le onde col sorriso stampato sulla faccia!
 The best Surfer out there is the one havin' more fun!
 Marina
