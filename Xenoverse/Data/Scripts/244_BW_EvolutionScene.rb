@@ -72,6 +72,8 @@ class PokemonEvolutionScene
 		@viewport=Viewport.new(0,0,Graphics.width,Graphics.height)
 		@viewport.z=99999
 		
+		@canCancel = true
+
 		@viewports=Viewport.new(0,0,Graphics.width,Graphics.height)
 		@viewports.z=999999
 		
