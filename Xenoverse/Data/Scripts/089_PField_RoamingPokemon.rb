@@ -92,8 +92,9 @@ end
 Events.onMapChange+=proc {|sender,e|
    return if !$PokemonGlobal
    mapinfos=$RPGVX ? load_data("Data/MapInfos.rvdata") : load_data("Data/MapInfos.rxdata")
+   echoln "MAPNAME CHECKS #{e[0]} #{pbGetMessage(MessageTypes::MapNames,e[0])} #{$game_map.name} #{$game_map.map_id == e[0]}"
    return if $game_map && mapinfos && e[0]>0 && mapinfos[e[0]] &&
-             mapinfos[e[0]].name && $game_map.name==mapinfos[e[0]].name
+             mapinfos[e[0]].name && $game_map.name==pbGetMessage(MessageTypes::MapNames,e[0])
    pbRoamPokemon
    if $PokemonGlobal.roamHistory.length>=2
      $PokemonGlobal.roamHistory.shift
@@ -194,8 +195,9 @@ EncounterModifier.register(proc {|encounter|
       mapinfos=$RPGVX ? load_data("Data/MapInfos.rvdata") : load_data("Data/MapInfos.rxdata")
       for j in 1...mapinfos.length
         jmeta=pbGetMetadata(j,MetadataMapPosition)
-        if mapinfos[j] && mapinfos[j].name==$game_map.name &&
-           roamermeta && jmeta && roamermeta[0]==jmeta[0]
+        echoln "MAPNAME CHECKS #{pbGetMessage(MessageTypes::MapNames,j)} #{$game_map.name} #{$game_map.map_id == j}"
+        if mapinfos[j] && pbGetMessage(MessageTypes::MapNames,j)==$game_map.name &&
+           roamermeta && jmeta && roamermeta[0]==jmeta[0] && $game_map.map_id == j
           possiblemaps.push(j)   # Any map with same name as roamer's current map
         end
       end
