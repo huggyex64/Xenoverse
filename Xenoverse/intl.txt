@@ -95,7 +95,7 @@ Claire
 Il Palazzo del Cardinale è al di là del ponte, ma pare che un Soldato blocchi l’accesso.
 Cardinal's Palace is on the other side of the bridge,<<n>>but a Soldier is guarding the entrance.
 <<[>>old<<]>>Il Vulcano Pulsar è un insidioso dungeon pieno zeppo di Pokémon selvatici. Fai scorta di Repellenti prima di avventurarti al suo interno!
-<<[>>old<<]>>Mt. Pulsar is a treacherous dungeon crawling with ferocious wild Pokémon. Check your supply of medicine and Repels before venturing in!
+<<[>>old<<]>>Mt. Starburst is a treacherous dungeon crawling with ferocious wild Pokémon. Check your supply of medicine and Repels before venturing in!
 Gerardo
 Gerald
 Il Vulcano Pulsar è davvero imponente visto da quaggiù!
@@ -5173,7 +5173,7 @@ Credo che a mia madre serva proprio un animaletto da compagnia. Forse, se andass
 I think my mum really needs a pet as a companion. I'll go on <b>Route 13</b> and get her a cuddly <b>Litten</b>!
 [Map115]
 Ho saputo che ti sei fatto|a valere sul Vulcano Pulsar, perciò ho intenzione di ricompensarti.
-I heard you stood up for yourself on Mt. Pulsar, so I'm going to reward you.
+I heard you stood up for yourself on Mt. Starburst, so I'm going to reward you.
 Insegnerò ai tuoi Pokémon una sorprendente mossa di tipo Drago, tramandata da generazioni qui a Cansiria!
 I'll teach your Pokémon a powerful Dragon-type move,<<n>>passed down through generations here in Fortbelt.
 Allora, vuoi che insegni <b>Dragopatto</b> a uno dei tuoi Pokémon?
@@ -5185,7 +5185,7 @@ Come back if any of your Pokémon needs to learn<<n>>this move.
 Dario
 Shawn
 Devo dimostrare il mio valore sul Vulcano Pulsar, se voglio che <b>Eevee</b> diventi un maestoso <b>Scaleon</b>!
-I first need to prove my worth on Mt. Pulsar, if I want<<n>>my <b>Eevee</b> to become a mighty <b>Scaleon</b>!
+I first need to prove my worth on Mt. Starburst, if I want<<n>>my <b>Eevee</b> to become a mighty <b>Scaleon</b>!
 Eevee di Dario
 Shawn's Eevee
 Vee!
@@ -56856,7 +56856,7 @@ Retrodex Completed.
 Defeated: {1}
 Defeated: {1}
 Press Z to open the Retrodex
-Press Z to open the Vintagedex
+Press Z to open Vintagedex
 Free
 Free
 Actions
