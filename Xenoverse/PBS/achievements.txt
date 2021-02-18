@@ -295,7 +295,7 @@ amount = 389
 image = 59_acchiappali
 [Ultraball]
 title = Ultra Ball? Nah!
-description = Cattura con una Poké Ball un Pokémon di LV. 50 o più.
+description = Cattura con una Poké Ball un Pokémon di Lv. 50 o più.
 amount = 1
 image = 60_ultraball
 [Ball]
