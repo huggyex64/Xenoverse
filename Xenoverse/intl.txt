@@ -12383,7 +12383,7 @@ I must bring food to the master.<<n>>...<<n>>Hee hee! Just kidding!
 Ahiga
 Ahiga
 Sono giunto sino a qui dalla mia <b>Capricornia</b> per poter ammirare la bellezza di quest’oasi, ma quelle impetuose raffiche di vento nel canyon mi impediscono di fare ritorno nella mia terra... Se qualcuno riuscisse a placarle, meriterebbe davvero una lauta ricompensa.
-I came here from distant <b>Equinox Village</b> just to enjoy the beauty of this oasis,<<n>>but those fiery winds prevent me from going back to<<n>>my homeland...<<n>>If someone could stop those, they would deserve<<n>>a generous reward.
+I came here from distant <b>Equinox Village</b> just to enjoy the beauty of this oasis,<<n>>but those fierce winds prevent me from going back to<<n>>my homeland...<<n>>If someone could stop those, they would deserve<<n>>a generous reward.
 Siete riuscito|a a placare la burrasca nel canyon! Prendete, ve la siete meritata.
 Thou managed to appease the gale in the canyon!<<n>>Here thou go, thee deserve it.
 Ora potrò finalmente fare ritorno nel mio villaggio!
@@ -36016,7 +36016,7 @@ Chi la usa ripiega le ali e carica da bassa quota. Tuttavia, subisce considerevo
 The user tucks in its wings and charges from a low altitude. The user also takes serious damage.
 154
 Chi la usa attacca il bersaglio avvolgendolo con un vento fortissimo. Può anche confonderlo.
-The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. It may also confuse the target.
+The user attacks by wrapping its opponent in a fierce wind. It may also confuse the target.
 155
 Colpisce il bersaglio con un vortice d'aria per danneggiarlo. Probabile brutto colpo.
 A vortex of air is shot at the target to inflict damage. Critical hits land more easily.
