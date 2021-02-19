@@ -16262,7 +16262,7 @@ W-W-What's happening?! I-I c-can't mo-move...!!
 <i>Bzah bzah!</i> Te lo spiego io, mio caro cyborg difettoso.
 <i>Bza ha ha!</i> I'll tell you, my dear defective cyborg.
 Il mio nuovo potere mi consente di manovrare tutte le truppe robotiche nei paraggi e, se te lo fossi dimenticato, anche tu ne fai parte! <i>Bzah bzah!</i>
-This new power of mine allows me to pull at my will<<n>>all the robo-troops within range,<<n>>and--in case you forgot--you're one of them too!<<n>><i>Bza ha ha!</i>
+This new power of mine allows me to pull at my will<<n>>all the robo-troops within range,<<n>>and you're one of them too--in case you forgot!<<n>><i>Bza ha ha!</i>
 Una volta tanto seguirai gli ordini di un tuo superiore e te ne starai al tuo posto!
 You'll respect the chain of command and learn<<n>>your place, for once!
 Inoltre, il Generale sapeva che non ce l'avresti fatta a fermare \PN, perciò ha incaricato me di farlo. Sarà molto più facile con un fastidioso bug in meno a zonzo! <i>Bzah bzah!</i>
@@ -16311,7 +16311,7 @@ E-Error.
 DW33
 DW33
 Niente di personale, umano|a, ma se non ti faccio fuori, finirò sugli scaffali come lattina di Sidrostelle! <i>Bzz!</i>
-It’s nothing personal, human, but if I don't take you out,<<n>>they'll turn me in a Star Sider can! <i>Bzz!</i>
+It's nothing personal, human, but if I don't take you out,<<n>>they'll turn me in a Star Sider can! <i>Bzz!</i>
 QX11
 QX11
 E se mi avessero mandato indietro nel tempo per sbarazzarmi di chi, come te, vuole mettere i bastoni tra le ruote a noi robot?! <i>Bzz!</i>
