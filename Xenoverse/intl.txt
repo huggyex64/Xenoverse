@@ -1223,6 +1223,10 @@ Jiggly
 Jiggly
 Wiggly...!
 Wiggly...!
+...
+...
+Oh, \PN... Sempre all'avventura, eh?
+Oh, \PN...you're always ready for adventure, huh?
 [Map29]
 <<[>>old<<]>>Il tempo passava e \PN cresceva, trascorrendo le giornate in una famiglia gioiosa...
 <<[>>old<<]>>Time passed and \PN grew, spending days in a joyful family...
@@ -16845,7 +16849,7 @@ This <b>file</b> is full of rubbish!
 <<[>>old<<]>>''Giorno 5.\nL'energia dello Xenoverse, unita a quella della Terra, sembra reagire coi tre Pokémon. Siamo riusciti ad aprire un minuscolo portale, ma se riuscissimo ad ottenere più energia e sfruttare il punto di scissione tra Luxflon e Dragalisk, il varco sarebbe ben più grande.''
 <<[>>old<<]>>''Day 5.\nThe energy coming from the Xenoverse,\nwhen fused with the one from Earth,\nseems to react with the three Pokémon.\nWe managed to open a very small portal, but if\nwe could obtain more energy and harness\nthe breakpoint between Luxflon and Dragalisk,\nthe portal would have been far more spacious.''
 <<[>>old<<]>>''Giorno 7.\nIl suolo lunare incontrerà il punto di scissione di Vakuum tra una decina d'anni a partire da ora. È l'Eclissi Xenoverse il momento in cui agiremo!''
-<<[>>old<<]>>''Day 7.\nThe Moon's soil will meet Vakum's breakpoint\nin ten years from now.\nThe Xenoverse Eclipse will be our chance to act!''
+<<[>>old<<]>>''Day 7.\nThe Moon's soil will meet Vakuum's breakpoint\nin ten years from now.\nThe Xenoverse Eclipse will be our chance to act!''
 <<[>>old<<]>>''Giorno 12.\nHo preso una decisione sofferta. Affiderò a mio figlio uno dei Pokémon iniziali e poi farò sparire le mie tracce per proseguire indisturbato col piano. Sarà lui la chiave per il Gran Xenovarco!''
 <<[>>old<<]>>''Day 12.\nI took a bitter decision. I'll entrust my son with one of the starter Pokémon and then I'll make myself scarce to be able to proceed with my plan undisturbed.\nHe will be the key for the Great Xeno Gate!''
 <<[>>old<<]>>Dossier di ricerca - 2 ''Giorno 1. Mia figlia tra poco compirà 5 anni e penso sia giunto il momento di introdurla al mondo dei Pokémon. Ancora nessuna novità relativa ai Pokémon iniziali.''
@@ -19933,7 +19937,7 @@ Guardate, lassù!
 Look, up there!
 Pa-Padrone... No-Non pensavo che sarebbe arrivato a tanto... È-È troppo, anche per lei...!
 M-Master...I-I didn't think you would go that far...<<n>>I-It's too much, even for you...!
-Gengar, spiegati meglio! Quell’energia lassù sarebbe Dragalisk?!
+Gengar, spiegati meglio! Quell'energia lassù sarebbe Dragalisk?!
 Gengar, explain yourself! That energy up there is supposed to be Dragalisk?!
 Vorrei tanto lo fosse... Sarebbe meglio per tutti!
 I wish it was...it would be better for everyone!
