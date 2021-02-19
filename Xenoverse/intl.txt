@@ -1350,7 +1350,7 @@ Pika!
 Alice
 Alice
 Come puoi notare non è un Pikachu di quelli che siamo abituati a vedere... Studiosi sostengono che provenga da un altro mondo... incredibile, vero? Si dice che sia impossibile instaurare un rapporto d'amicizia con questi Pokémon, ma il discorso non vale per me e la mia amata Pikachu... Noi siamo come sorelle!
-As you can see, it's not like the Pikachu we are used to knowing...<<n>>Scholars hold that it comes from another world...<<n>>that's incredible, don't you think?<<n>>They say it is impossible to establish a friendly relationship with these Pokémon,<<n>>but this doesn't apply to me and my lovely Pikachu... We're like sisters!
+As you can see, it's not like the Pikachu we are used to knowing...<<n>>Scholars say that it comes from another world...<<n>>that's incredible, don't you think?<<n>>They say it is impossible to establish a friendly relationship with these Pokémon,<<n>>but this doesn't apply to me and my lovely Pikachu... We're like sisters!
 Oh, perdona le mie manie di protagonismo... Tu come ti chiami invece?
 Ow, me and my grandstanding again...<<n>>And what's your name?
 \PN? Piacere di conoscerti!
@@ -1358,7 +1358,7 @@ Ow, me and my grandstanding again...<<n>>And what's your name?
 Come dici? Chi erano quei tizi strambi?
 What? Who were those strange guys, you say?
 Vedi, ero venuta fin qui per visitare l'immensa biblioteca che ospita il <b>Campus Ariepoli</b>, ma sembra che il <b>Team Dimension</b> lo abbia assediato da capo a piedi. Numerosi studenti del campus sono tenuti prigionieri da quei tali...
-You see, I came this far to visit the immense library<<n>>here in <b>Newtron City</b>,<<n>>but I heard that <b>Team Dimension</b> has seized<<n>>everything up.<<n>>Lots of campus students are prisoners of those criminals... 
+You see, I've come this far to visit the immense library<<n>>here in <b>Newtron City</b>,<<n>>but I heard that <b>Team Dimension</b> has seized<<n>>everything up.<<n>>Lots of campus students are prisoners of those criminals... 
 È terribile! Mi vengono i brividi a pensarci! Dobbiamo assolutamente fare qualcosa! Io starò alle costole di quei due, tu occupati degli altri qui al campus!
 That's awful! Just to think about it gives me the chills!<<n>>We absolutely need to do something!<<n>>I'm gonna chase those two thugs, you deal with<<n>>the others here on campus!
 Comunque mi ha fatto piacere lottare al tuo fianco!
@@ -1367,12 +1367,12 @@ Non capita tutti i giorni di imbattersi in un Allenatore così carino. Ah ah!
 It's not every day you run into such a pretty Trainer.<<n>>Ha ha ha!
 Kay
 Kay
-Piacere, io sono <b>Alice</b> e lei la mia cara amica <b>Pikachu</b>!
+Piacere, io sono <b>Kay</b> e lui il mio caro amico <b>Pikachu</b>!
 I'm <b>Kay</b> and this is my dear friend <b>Pikachu</b>!<<n>>Nice to meet you!
 Come puoi notare non è un Pikachu di quelli che siamo abituati a vedere... Studiosi sostengono che provenga da un altro mondo... incredibile, vero? Si dice che sia impossibile instaurare un rapporto d'amicizia con questi Pokémon, ma il discorso non vale per me e il mio fidato Pikachu... Noi siamo come fratelli!
 As you can see, it's not like the Pikachu we are used to knowing...<<n>>Scholars hold that it comes from another world...<<n>>that's incredible, don't you think?<<n>>They say it is impossible to establish a friendly relationship with these Pokémon,<<n>>but this doesn't apply to me and my trusty Pikachu... We're like brothers!
 Vedi, ero venuto fin qui per visitare l'immensa biblioteca che ospita il <b>Campus Ariepoli</b>, ma sembra che il <b>Team Dimension</b> lo abbia assediato da capo a piedi. Numerosi studenti del campus sono tenuti prigionieri da quei tali...
-You see, I came this far to visit the immense library<<n>>here in <b>Newtron City</b>,<<n>>but I heard that <b>Team Dimension</b> has seized<<n>>everything up.<<n>>Lots of campus students are prisoners of those criminals... 
+You see, I've come this far to visit the immense library<<n>>here in <b>Newtron City</b>,<<n>>but I heard that <b>Team Dimension</b> has seized<<n>>everything up.<<n>>Lots of campus students are prisoners of those criminals... 
 Che vigliacchi! Mi viene una rabbia a pensarci! Dobbiamo assolutamente fare qualcosa! Io starò alle costole di quei due, tu occupati degli altri qui al campus!
 Cowards! Just to think about them makes me mad!<<n>>We absolutely need to do something!<<n>>I'm gonna chase those two thugs, you deal with<<n>>the others here on campus!
 Non capita tutti i giorni di imbattersi in una Allenatrice così carina. Ah ah!
@@ -2793,7 +2793,7 @@ Access denied to humans. <i>Bzz!</i>
 76G
 76G
 Dove credi di andare, umano|a?! I Sergenti non vogliono guastafeste tra i piedi. <i>Bzz!</i>
-Where are you going, human?! Sergeants don't want buzzkills on their way! <i>Bzz!</i>
+Where are you going, human?! Sergeants don't want buzzkills in their way! <i>Bzz!</i>
 E-Errore.
 E-Error.
 Ammasso di rottami, non vorrai deludere i tuoi superiori?! <i>Bzz!</i> Ci penso io a tenere alto l'onore delle <b>Reclute</b> <b>Dimension</b>! <i>Bzz!</i>
@@ -2804,8 +2804,8 @@ We failed, but our <b>Sergeants</b> will make you pay! <i>Bzz!</i>
 <<[>>old<<]>><b>Newtron Library</b>\n<i>''Temple of erudition of the region.''</i>
 Noi Reclute siamo niente in confronto ai <b>Sergenti</b>. <i>Bzz!</i>
 We Grunts are nothing compared to <b>Sergeants</b>.<<n>><i>Bzz!</i>
-Non puoi aprire la porta senza lo starter in squadra.
-You cannot get in there without your starter Pokémon.
+<<[>>old<<]>>Senti di avere bisogno del tuo Pokémon iniziale per entrare qui dentro.
+<<[>>old<<]>>You feel like you need your starter Pokémon to get in here.
 Sì
 Yes
 No
@@ -3039,7 +3039,7 @@ Due to those weird people I wasted the time I could have spent studying!
 56E
 56E
 Gli intrusi saranno puniti! Preparati a sfidare il pupillo dei Sergenti! <i>Bzz!</i>
-Intruders will be punished! Get ready to face Sergeants' golden boy! <i>Bzz!</i>
+Intruders will be punished! Get ready to face Sergeants' pupil! <i>Bzz!</i>
 <i>E-ERRORE. E-ERRORE. BZZ.</i> <i>RI-RITIRATA. BZZ.</i>
 <i>E-ERROR. E-ERROR. BZZ.</i><<n>><i>RE-RETREAT. BZZ.</i>
 Matilde
@@ -12797,13 +12797,13 @@ I'm feeling like the pied piper of that famous legend!
 Adelia
 Candace
 Non bastava dare a tutti dei nomi di fiori... ora me li devo anche trovare tra i piedi mentre passeggio!
-Giving everyone flowers' names wasn't enough?!<<n>>Now I find them in my way while taking a walk too!
+Giving everyone flowers for names wasn't enough?!<<n>>Now they're in my way while taking a walk too!
 Bah, proprio non capisco questa improvvisa passione per i fiori.
 Yuck, I just really don't get it...where is this sudden passion for flowers coming from?!
 Frank
 Frank
 Argh! Non ci capisco niente con tutte queste stradine segnate sulla mappa...!
-Ugh! I can't get any of these paths on the nav...!
+Ugh! All these paths on the nav will make me crazy...!
 Mi chiedo come ci si possa perdere con tanto di Mappa Città sotto al naso...
 How could I have got lost with this Town Map under my nose?! 
 Sonia
@@ -13100,7 +13100,7 @@ We owe you for life, foreigner.
 Kars
 Kars
 Dovrai passare su questa mia forza se vorrai strapparmi dalle mani la chiave!
-You fool are getting this mask over my superhuman strength!
+I'm not gonna let you put your filthy hands<<n>>on this sacred mask!
 No! La mia forza sovrumana...!
 This cannot be! I'm the ultimate-!
 <<[>>old<<]>>Ha perso conoscenza...
@@ -13323,6 +13323,8 @@ Yes
 No
 No
 [Map293]
+<<[>>old<<]>>Hai completato il Nido Pokémon!
+<<[>>old<<]>>You completed the Pokémon Den!
 <<[>>old<<]>>Un aroma intenso stordisce il tuo Pokémon! È il Nido di Venusaur!
 <<[>>old<<]>>A sweet scent stunned your Pokémon! It's Venusaur's Den!
 <<[>>old<<]>>Vuoi uscire dal Nido?
@@ -13418,7 +13420,7 @@ Right now he is inside the portal, looking for that<<n>>dark Energy for our beha
 Secondo la tabella di marcia, tra non molto dovrebbe uscirne vittorioso e, in tal modo, il Team Dimension avrebbe dalla sua entrambe le Energie!
 According to the schedule, he'll soon come out and thus<<n>>Team Dimension will have both Energies at its disposal!
 Due prescelti sono indubbiamente meglio di uno solo... Non sei d'accordo, \PN?
-Two chosen are undoubtedly better than one...<<n>>Don't you agree, \PN?
+Two chosen ones are undoubtedly better than one...<<n>>Don't you agree, \PN?
 Ad ogni modo, non c'è molto che tu possa fare qui.
 Anyway, there isn't much you can do here.
 Pur liberando questi selvaggi dal sortilegio, il nostro piano andrebbe comunque in porto...
@@ -14025,7 +14027,7 @@ It says here that with <b>Compound Eyes</b>, you have more chances of finding a 
 Litio
 Leith
 Sei tu \PN, non è vero?
-You're \PN, aren't?
+You're \PN, aren't you?
 Ti ho cercato|a dappertutto, sai? Mi manda Aster in persona!
 I've been looking for you everywhere! I've come on behalf<<n>>of Aster himself!
 Mi ha chiesto il favore di consegnarti questo regalino da parte sua. Prendi!
@@ -14324,7 +14326,7 @@ I hate the circus, but it's always a great pleasure<<n>>seeing Trainers of your 
 Stai viaggiando per Eldiw a caccia delle Medaglie delle Palestre, vero? Beh, in tal caso, ho qui qualcosa che potrà tornarti utile... ma dartelo così sarebbe troppo semplice!
 You're traveling around Eldiw hunting for the Gym<<n>>Badges, am I right?<<n>>Well, in that case, here I have something that may come<<n>>in handy...but just giving it to you would be too easy!
 Sarà tuo solo se farai fuoco e fiamme nella lotta contro la mia nipotina Henné!
-It's yours only if you bring fire and brimstone down<<n>>in the battle against my lil' niece Henna!
+It's yours only if you bring fire and brimstone down<<n>>in the battle against my lil' grandchild Henna!
 Se e solo se riuscirai a metterla alle strette, mi troverai davanti alla vecchia Palestra abbandonata.
 Only if you get to corner them, you will find me in front<<n>>of the old abandoned Gym.
 Henné
@@ -14713,7 +14715,7 @@ Oh! Who's there?
 Quindi è così che è andata...
 So that's what happened...
 Beh, quantomeno ha intrattenuto il mio pubblico con un gran spettacolo...
-So that's what happened... Well, at least it put on a good show for my audience...
+Well, at least it put on a good show for my audience...
 ... però che bruci all'inferno, poteva degnarsi di ripulire questo putiferio prima di svignarsela!
 ...but it has to burn in hell! It could have cleaned this mess before sneaking out my circus!
 Poche lagne, tocca a me rimboccarmi le maniche e sistemare tutto prima del prossimo show.
@@ -14761,7 +14763,7 @@ You quenched the flames of my spirit!
 In te arde vivida la vera essenza di un Allenatore Pokémon, \PN.
 The very essence of a Trainer burns brightly within you,<<n>>\PN.
 Non sono in tanti a mettere così alle strette i miei feroci Pokémon di tipo Fuoco, temprati da scontri efferati, ma tu sei stato|a in grado di ammansirli come nemmeno una domatrice come me abbia mai fatto.
-Not many people put on the spot like that my beastly<<n>>Fire-type Pokémon, tempered by vicious battles,<<n>>but you were able to put them in their places like neither<<n>>a tamer like me has ever done.
+Not very many people manage to put on the spot my beastly<<n>>Fire-type Pokémon, tempered by vicious battles,<<n>>but you were able to put them in their places like not even<<n>>a tamer like me has ever done.
 La <b>Medaglia Marchiatura</b> merita di essere stretta da mani tanto sapienti!
 The <b>Brand Badge</b> deserves to be held tightly by your skilful hands!
 Come vuole la tradizione del Circo Sirio, inoltre, vado a consegnarti questa MT.
@@ -37592,7 +37594,7 @@ Riduce i danni provocati dalle mosse fisiche e speciali per cinque turni. Può e
 This move reduces damage from physical and special moves for five turns. It can be used only in a hailstorm.
 701
 Chi la usa attacca il bersaglio con un rutto potente, ma per farlo deve mangiare la Bacca che possiede.
-Chi la usa attacca il bersaglio con un rutto potente, ma per farlo deve mangiare la Bacca che possiede.
+The user lets out a damaging belch on the target, but it must eat a Berry to use this move.
 702
 Chi la usa carica l'avversario alla velocità del suono. Colpisce sempre per primo.
 The user lunges at the target at sound speed. It is sure to strike first.
@@ -42133,7 +42135,7 @@ Strumento creato da Tarassaco per far evolvere determinate specie di Pokémon se
 A device designed by Taraxo to make certain species of Pokémon to evolve without trades.
 779
 Una strana pietra che emana energia Xenoverse. Serve ad evolvere alcuni Pokémon X.
-A mysterious stone imbued with the energy from Xenoverse. It makes certain X Pokémon to evolve.
+A mysterious stone imbued with the energy from Xenoverse. It makes certain X Pokémon evolve.
 780
 Oggetto sinistro proveniente dal Saloon Torobrado. Piace a due Pokémon in particolare.
 An ominous item coming from the Wild Bull Saloon. It is loved by two certain Pokémon.
