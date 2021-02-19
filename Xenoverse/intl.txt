@@ -9306,7 +9306,7 @@ Revolver
 <i>Hola...!</i>
 <i>Hola...!</i>
 Revolver è un'arma supertecnologica creata modificando ciberneticamente l’impianto di quel meraviglioso capolavoro di ingegneria del Team Dimension.
-Revolver is a supertecnologic weapon created<<n>>by cybernetically modifying the system<<n>>of Team Dimension's masterpiece of engineering.
+Revolver is a high-tech weapon created by<<n>>cybernetically modifying the system<<n>>of that Team Dimension's masterpiece of engineering.
 Debbo dire che hackerare il sistema non è stato facile neanche per me, ma non impossibile. Dopo aver alterato il codice madre, il lavoro ha dato i suoi frutti...
 I have to say that hacking the system was all but easy<<n>>even for me, but it wasn't impossible.<<n>>After altering the mother code, the work was more<<n>>than worth it-
 Va bene, Maurice! Devi sempre farla lunga tu...
@@ -9929,7 +9929,7 @@ Wa ha ha! Can't blame ya! But then why-
 Sluuuuuur...!
 Sluuuuuur...!
 Ehi, ma che diavolo fai?!
-Hey, whatta hell are ya doin'?!
+Hey, whadda hell are ya doin'?!
 Tranquillo, Daddy. Sta usando la sua mossa Pulifumo... Sembra voglia rimediare al guaio che ha combinato.
 Don't worry. It's using its Clear Smog move...seems like<<n>>it wants to make amends for what it has done.
 Oh, davvero? Grandioso! Quindi non l'hai fatto con cattive intenzioni!
@@ -12666,7 +12666,7 @@ But I'm going to give it to you only if you will rock<<n>>this Pokémon battle!!
 Che spettacolo entusiasmante!
 What an exciting show!
 Stile ed eleganza si sono intrecciati a doppio filo in questo spettacolo! Ecco a te il Pass che tanto cercavi!
-Style and elegance intertwined in an authentic show!<<n>>Here the Ticket you've been looking for!
+Style and elegance intertwined in an authentic show!<<n>>Here's the Ticket you've been looking for!
 Ora giù dal palco, però! Lo spettacolo deve continuare!
 Get off the stage now! The show must go on!
 Leopoli, fammi sentire che ci sei!
