@@ -3382,13 +3382,13 @@ Lawrence
 Guarda come si sfreccia sul Pokéboard!
 Wanna see how fast I can go on this Pokéboard?
 Che botta...
-What a blown...
+Gee, whatta blow...
 Certo che sei forte, amico|a!
-You're really cool, mate!
+You're really cool, dude||||girl!
 Ermia
 Erina
 Io e i miei Pokémon pianteremo le tende qui!
-My Pokémon and I are pitching out tents here!
+My Pokémon and I are pitching our tents here!
 Ho capito, le pianteremo altrove.
 Got it, we're pitching them somewhere else.
 Una lotta Pokémon? Mi ci butto a pesce!
@@ -3485,7 +3485,7 @@ You know where to find me if you change your mind.
 Swami
 Swami
 Quando bacio il mio ragazzo penso a quel gran fusto di <b>Daddy</b>... tu non dirglielo però!
-While kissing my boy I think about <b>Wallace Daddy</b>,<<n>>he's such a stud...don't tell him, I beg!
+While kissing my boy I think about <b>Wallace Daddy</b>,<<n>>he's such a stud...but don't tell him, I beg!
 <<[>>new,Marino,ludopoli/marino,default,left,true<<]>>
 <<[>>new,Briney,ludopoli/marino,default,left,true<<]>>
 Eccoci qui. Torna pure da me quando vorrai ripartire.
