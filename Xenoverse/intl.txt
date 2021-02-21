@@ -12791,7 +12791,7 @@ I'm feeling like the pied piper of that famous legend!
 Adelia
 Candace
 Non bastava dare a tutti dei nomi di fiori... ora me li devo anche trovare tra i piedi mentre passeggio!
-Giving everyone flowers for names wasn't enough?!<<n>>Now they're in my way while taking a walk too!
+Giving everyone flowers for names wasn't enough?!<<n>>They're in my way even when I go for a walk, now!
 Bah, proprio non capisco questa improvvisa passione per i fiori.
 Yuck, I just really don't get it...where is this sudden passion for flowers coming from?!
 Frank
@@ -13974,7 +13974,7 @@ They put up a huge skyscraper in no time over there!
 <<[>>old<<]>><b>Sagittopoli</b> <i>''Dove lo svago è all'ordine del giorno!''</i>
 <<[>>old<<]>><b>Vega City</b>\n<i>''Where entertainment is the order of the day!''</i>
 Sergia
-Sergia
+Sheila
 È sempre bene tenere gli occhi aperti in città. Fossimo Pokémon, direi che converrebbe alzare la Difesa!
 While visiting a city, you should always keep an eye out.<<n>>If we were Pokémon, I'd say we should raise the Defense!
 Con quello sei in una botte di Ferro! Ah ah ah!
@@ -53484,15 +53484,15 @@ INFO
 Oggetto
 Item
 Dex Num.
-Dex N°
+Dex No.
 Specie
-Specie
+Name
 Tipo
 Type
 OT
 OT
 ID Num.
-ID N°
+ID No.
 Heart Gauge
 Heart Gauge
 The door to its heart is open! Undo the final lock!
