@@ -52770,7 +52770,7 @@ Huh?<<n>>The {1}'s responding!<<1>>
 There's an item buried around here!
 There's an item buried around here!
 Il Pokémon non resiste al forte aroma e sviene!
-Il Pokémon non resiste al forte aroma e sviene!
+The Pokémon could not resist the strong flavor and fainted!
 {1} got over its infatuation.
 {1} got over its infatuation.
 {1} snapped out of confusion.
