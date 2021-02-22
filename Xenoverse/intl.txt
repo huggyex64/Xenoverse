@@ -14935,7 +14935,7 @@ Finally I'm done with the boxes! The tough part will be<<n>>getting rid of every
 Claudia
 Judith
 Il mio ragazzo è un vero accumulatore seriale, non riesce a separarsi nemmeno dall’oggetto più inutile! Tieni, aiutami a nascondere un po’ di roba.
-My boyfriend really is a bad hoarder-he can't even<<n>>get enough of the most useless item!<<n>>Here, help me get rid of some of this stuff.
+My boyfriend really is a bad hoarder--he can't even<<n>>get enough of the most useless item!<<n>>Here, help me get rid of some of this stuff.
 Sono sicura che non se ne accorgerà nemmeno.
 I'm sure he won't even notice it.
 [Map335]
@@ -32709,7 +32709,7 @@ Oltre a essere in grado di percepire l'aura, ha anche la capacite' di controllar
 Oltre a essere in grado di percepire l'aura, ha anche la capacite' di controllarla. Sfrutta questa sua abilita' anche nelle lotte.
 1228
 Quando si accumula elettricita' nel suo corpo, si fa irascibile. Al buio brilla di luce propria.
-Gym Leader Surge's faithful companion, it has been bring back to life after a terrible accident. It is as fast as fragile.
+Gym Leader Surge's faithful companion, it has been brought back to life after a terrible accident. It is as fast as fragile.
 1229
 È il Bisharp in possesso di S del Team Dimension. In lui convivono le coscienze dei due Bisharp di A & B.
 The Bisharp owned by Dimension Sergeant S. The consciences of both A & B's Bisharp coexist in this Pokémon.
