@@ -150,7 +150,7 @@ Only Marlon's got what you're looking for!<<n>>C'mon, have a look!
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Would you like to open this chest?
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't mess around with a Merchant!
 Ho sbagliato ad accusarti, scusa!
 I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
@@ -2816,7 +2816,7 @@ I-I-It's not what it looks like! I'm not spying on anyone!
 Damiano
 Damon
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't mess around with a Merchant!
 Ho sbagliato ad accusarti, scusa!
 I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
@@ -3896,7 +3896,7 @@ You've been blessed with a gift from yours truly!
 Luciano
 Jameson
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't mess around with a Merchant!
 Ho sbagliato ad accusarti, scusa!
 I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
@@ -5340,7 +5340,7 @@ No
 Fabiano
 Cameron
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't mess around with a Merchant!
 Ho sbagliato ad accusarti, scusa!
 I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
@@ -5883,7 +5883,7 @@ Those majestic wings are just a burden on the ground, though.
 Piliano
 Hudson
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't mess around with a Merchant!
 Ho sbagliato ad accusarti, scusa!
 I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
@@ -5917,7 +5917,7 @@ You beat me to the punch!
 Si sarà solo smarrito|a...
 Maybe he is|||||she's just lost...
 Come come?! Vuoi farci collaborare? A chi pensi di fare la paternale, eh?!
-What?! You want us to work together?<<n>>Who do you think you can lecture, huh?!
+What?! You want us to work together?<<n>>Are ya tryna preach to me, huh?!
 Ti meriti proprio una bella lezione!
 You need a lesson, kid!
 Vi siete immischiato|a in questioni delicate, forestiero|a! Non avreste dovuto...!
@@ -10291,7 +10291,7 @@ Shu...!
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Would you like to open this chest?
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't mess around with a Merchant!
 Ho sbagliato ad accusarti, scusa!
 I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
@@ -10849,7 +10849,7 @@ Only Marlon's got what you're looking for!<<n>>C'mon, have a look!
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Would you like to open this chest?
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't mess around with a Merchant!
 Ho sbagliato ad accusarti, scusa!
 I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
@@ -11814,7 +11814,7 @@ Canyons form when rivers carve into the land with their rushing waters, wearing 
 Laborano
 Harrison
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't mess around with a Merchant!
 Ho sbagliato ad accusarti, scusa!
 I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
@@ -12319,7 +12319,7 @@ We have the vastest assortment of herbal medicines<<n>>in the Eldiw region!
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Would you like to open this chest?
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't mess around with a Merchant!
 Ho sbagliato ad accusarti, scusa!
 I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
@@ -12743,7 +12743,7 @@ I'll never have it on net again...
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Would you like to open this chest?
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't mess around with a Merchant!
 Ho sbagliato ad accusarti, scusa!
 I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
@@ -12994,7 +12994,7 @@ Kazam...!
 <<[>>old<<]>>Vuoi provare ad aprire la cassa?
 <<[>>old<<]>>Would you like to open this chest?
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't mess around with a Merchant!
 Ho sbagliato ad accusarti, scusa!
 I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
@@ -18752,7 +18752,7 @@ No
 Xiliano
 Braxton
 Ehi, tieni a freno le mani! Questo è un furto bello e buono! Mai rubare in casa del Mercante!
-Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't kid a Merchant!
+Hey, keep your hands off!<<n>>That's thievery, plain and simple!<<n>>Don't mess around with a Merchant!
 Ho sbagliato ad accusarti, scusa!
 I was wrong to accuse you, I'm sorry!
 In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
