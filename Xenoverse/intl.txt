@@ -7455,7 +7455,7 @@ Oh, there you are! Do you want to play hide-and-seek<<n>>with me?
 <<[>>old<<]>>''Ogni giorno quel piccoletto faceva ritorno al saloon, dove aveva un pasto assicurato. Finalmente avevo trovato un nuovo amico. Ma poi...
 <<[>>old<<]>>''Everyday, the little one came to the saloon where\nit had an assured meal.\nFinally, I had found a new friend. But then...
 <<[>>old<<]>>Una sera, un gruppo di banditi accompagnato da tre Houndoom fece irruzione nel locale, facendo razzia degli averi miei e della clientela spaventatissima. Scorpiopoli è una città povera di Allenatori e non sapevo a chi chiedere aiuto, soprattutto per proteggere ad ogni costo quel Pokémon.
-<<[>>old<<]>>One night, a gang of outlaws alongside three Houndooms broke into the inn, raiding all my and my customers' money.\nWestar has never been the city of Trainers,\nso I didn't know who to ask for help, especially to protect at all costs that Pokémon.
+<<[>>old<<]>>One night, a gang of outlaws alongside three Houndoom broke into the inn, raiding all my and my customers' money.\nWestar has never been the city of Trainers,\nso I didn't know who to ask for help, especially to protect at all costs that Pokémon.
 <<[>>old<<]>>Tra la gente, una bambina, poco più che neonata, scoppiò in lacrime e uno degli Houndoom, stanco delle sue urla, si lanciò all'attacco della piccola. Non volevo assistere ad una scena così brutale, perciò chiusi gli occhi... Una volta riaperti però, vidi il Pokémon Buio gemente per terra...
 <<[>>old<<]>>Among the people, a newborn infant broke down in tears and one of the Houndoom, sick of that whining, attacked her.\nI didn't want to witness such a brutal scene,\nso I shut my eyes...\nOnce I opened them again, I saw the Dark Pokémon groaning on the floor...
 <<[>>old<<]>>Era stato il mio amico! Quel Pokémon dal buon cuore si era lanciato in difesa del saloon e della bambina! I tre banditi subito ordinarono un attacco simultaneo agli Houndoom che, però, vennero scaraventati via dalla piccola ombra in un batter d'occhio.
@@ -7475,9 +7475,9 @@ Peek-a-boo!
 Sai, sono sempre stato un fifone, sin da piccolo...
 You know, I've always been a scaredy-cat, ever since<<n>>I was a little kid...
 Per aiutarmi a combattere le mie paure, papà mi portava spesso in stamberghe del genere. Il solo averlo a fianco faceva sì che la mia inquietudine sparisse... Vedi questo Tauros meccanico?
-To help me overcome my fears, dad used to bring me<<n>>into hovels like this one.<<n>>Just standing by his side vanquished all the uneasiness<<n>>I could feel...<<n>>Do you see this mechanic Tauros?
+To help me overcome my fears, dad used to bring me<<n>>into hovels like this one.<<n>>Just standing by his side vanquished all the uneasiness<<n>>I could feel...<<n>>Do you see this mechanical Tauros?
 Ogni volta che venivamo qui, papà mi posizionava sopra questo Tauros per farmi distogliere i pensieri dalla paura dei Pokémon Spettro...
-Everytime we came here, dad put me aboard it to make me forget about my fear of Ghost-type Pokémon...
+Everytime we came here, dad put me aboard it to make me forget about my fear for Ghost-type Pokémon...
 Ogni volta che ripenso a quei momenti, capisco perché ho deciso di seguire le orme del papà...
 Everytime I think about those days, I see why I decided<<n>>to follow in daddy's footsteps...
 Ma ora papà se n'è andato... Mi ha lasciato da solo... e io sono rimasto un fifone...!
@@ -11429,7 +11429,7 @@ Don't worry, I have no intention of challenging you.
 Pur prendendo possesso del tuo corpo, non avrei speranze di farcela contro quel Victor.
 Even if I were to take control of your body, I wouldn't stand<<n>>a chance against that Victor.
 Se sei così intenzionato a batterti con lui, perché non ti alleni con tutto te stesso? Così facendo, giunti nuovamente al faccia a faccia, il tuo ribollente odio mi riporterà a piede libero e potrò sfruttare il tuo nuovo potenziale! Ah ah ah!
-If you really are that adamant on challenging him,<<n>>why don't you train yourself to do that?<<n>>Done that, the next time you meet him, your sizzling hatred will free me once again<<n>>and I'll be able to freely use your new potential!<<n>>Ha ha ha!
+If you really are that adamant on challenging him,<<n>>why don't you train yourself to do that?<<n>>By doing so, the next time you meet him, your sizzling hatred will free me once again<<n>>and I'll be able to freely use your new potential!<<n>>Ha ha ha!
 Su, non fare quella faccia! \PN, dovresti sapere benissimo che, a questo mondo, i deboli vengono spazzati via e restano indietro, mentre chi è privo di scrupoli diventa imbattibile!
 C'mon, don't give me that look! \PN, you should know<<n>>by now that, in this world,<<n>>weaklings are destined to stay behind, while those who show no mercy are destined to become invincible!
 Bene, direi che il nostro tempo qui è scaduto.
@@ -11443,7 +11443,7 @@ Don't worry, that man would never be able to enter<<n>>this dimension,<<n>>even 
 Tranquilla, non ho alcuna intenzione di sfidarti.
 Don't worry, I have no intention of challenging you.
 Se sei così intenzionata a batterti con lui, perché non ti alleni con tutta te stessa? Così facendo, giunti nuovamente al faccia a faccia, il tuo ribollente odio mi riporterà a piede libero e potrò sfruttare il tuo nuovo potenziale! Ah ah ah!
-If you really are that adamant on challenging him,<<n>>why don't you train yourself to do that?<<n>>Done that, the next time you meet him, your sizzling hatred will free me once again<<n>>and I'll be able to freely use your new potential!<<n>>Ha ha ha!
+If you really are that adamant on challenging him,<<n>>why don't you train yourself to do that?<<n>>By doing so, the next time you meet him, your sizzling hatred will free me once again<<n>>and I'll be able to freely use your new potential!<<n>>Ha ha ha!
 [Map259]
 Yahto
 Yahto
@@ -44367,7 +44367,7 @@ Evan
 (Researcher)
 229
 (Mamma)
-(Mon)
+(Mom)
 230
 (Cardinale)
 (Cardinal)
