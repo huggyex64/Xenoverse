@@ -3397,3 +3397,9 @@ Outdoor=false
 Bicycle=false
 MapPosition=0,21,15
 Outdoor=false
+[564]
+# Shinobi
+BattleBack=Bosco
+Bicycle=false
+Outdoor=true
+WildBattleBGM=Wild Battle Jungle.mp3

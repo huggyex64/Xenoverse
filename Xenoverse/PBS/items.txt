@@ -742,3 +742,5 @@
 783,LETTERALEGA,Lettera d'invito,8,0,"Una speciale lettera inviata dai Quattro Cardinali.",0,0,6,
 784,OLDBALL,Old Ball,3,0,Vecchio modello di Poké Ball utilizzato durante la Prova dell'eroe.,0,2,4,
 785,SPECIALROD,Amo Speciale,8,0,"Speciale canna da pesca che permette di pescare Pokémon selvatici e recuperare tesori dal fondale.",2,0,6,
+786,BOTINFERNO,Update Inferno,1,0,"Update contenente i dati del Pokémon Magmar. Permette al Pokémon di evolversi tramite Trasferitore.",1,0,0,
+787,BOTDRAGO,Update Drago,1,0,"Update contenente i dati del Pokémon Seadra. Permette al Pokémon di evolversi tramite Trasferitore.",1,0,0,
