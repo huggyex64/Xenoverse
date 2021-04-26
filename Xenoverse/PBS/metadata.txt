@@ -3398,8 +3398,14 @@ Bicycle=false
 MapPosition=0,21,15
 Outdoor=false
 [564]
-# Shinobi
+# Isola Shinobi
 BattleBack=Bosco
 Bicycle=false
 Outdoor=true
 WildBattleBGM=Wild Battle Jungle.mp3
+[566]
+# Isola Shinobi
+Weather=Rain,100
+Bicycle=false
+Outdoor=false
+ShowArea=true
