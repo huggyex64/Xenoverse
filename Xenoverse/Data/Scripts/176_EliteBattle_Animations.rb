@@ -62,6 +62,7 @@ class PokeBattle_Scene
   def animateBattleSprites(align=false,smanim=false)
     vsSequenceSM_update if $smAnim && !smanim && !@smTrainerSequence
     @smTrainerSequence.update if @smTrainerSequence
+    @newBossSequence.update if @newBossSequence
     @vector.update
     alignBattleScene
     if !$smAnim && !@safaribattle && (@animweather.nil? || @battle.weather!=@animweather) && EBUISTYLE > 0

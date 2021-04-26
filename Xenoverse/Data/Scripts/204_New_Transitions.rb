@@ -1229,7 +1229,12 @@ def pbBattleAnimation(bgm=nil,trainerid=-1,trainername="",skip = false)
     if !$wildSpecies.nil? && queuedIsRegi?
       ebWildAnimationRegi(viewport)
     elsif !$wildSpecies.nil? && isBoss?
-      vsXSpecies(viewport,$wildSpecies)
+      if !NEWBOSSES.include?($wildSpecies)
+        echoln "STARTING OLD TRANSITION"
+        vsXSpecies(viewport,$wildSpecies)
+      else
+        ebWildAnimationMinor(viewport,true) 
+      end
     elsif !$wildSpecies.nil? && special
       ebWildAnimationMinor(viewport,true) 
       $specialSpecies = true

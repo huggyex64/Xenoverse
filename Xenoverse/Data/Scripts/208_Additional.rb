@@ -14,9 +14,13 @@ class Sprite
     self.bitmap.fill_rect(0,0,width,height,color)
   end
   
-  def center
+  def center(snap=false)
     self.ox = self.src_rect.width/2
     self.oy = self.src_rect.height/2
+    if snap && self.viewport
+      self.x = self.viewport.rect.width/2
+      self.y = self.viewport.rect.height/2
+    end
   end
   
   def snapScreen

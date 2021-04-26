@@ -128,7 +128,8 @@ def isXSpecies?(species)
     isConst?(species,PBSpecies,:GENGARX) ||
     isConst?(species,PBSpecies,:DRAGALISK) ||
 	  isConst?(species,PBSpecies,:VERSILDRAGALISK) ||
-		isConst?(species,PBSpecies,:VAKUM)
+		isConst?(species,PBSpecies,:VAKUM) ||
+    isConst?(species,PBSpecies,:GRENINJAX)
 end
   
 SPECIEX = [
@@ -150,7 +151,8 @@ SPECIEX = [
   PBSpecies::DRAGALISK,
   PBSpecies::VERSILDRAGALISK,
   PBSpecies::LUXFLON,
-	PBSpecies::VAKUM
+	PBSpecies::VAKUM,
+  PBSpecies::GRENINJAX
 ]
 
 def hasSpeciesX?(poke)
@@ -230,8 +232,14 @@ class PokeBattle_Battle
 				###
 				if wildpoke.boss
 					pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} wants to battle!",wildpoke.name))
-          @scene.vsBossSequence2_end
-          @scene.vsBossSequence2_sendout
+          # GRENINJAX END SENDOUT
+          if NEWBOSSES.include?($wildSpecies)
+            @scene.newBossSequence.finish if @scene.newBossSequence
+            @scene.newBossSequence.sendout if @scene.newBossSequence
+          else
+            @scene.vsBossSequence2_end
+            @scene.vsBossSequence2_sendout
+          end
         else
 					pbDisplayPaused(_INTL("Wild {1} appeared!",wildpoke.name))
 				end
@@ -1250,8 +1258,11 @@ BOSS_LIST = [
   :DRAGALISK,
   :VERSILDRAGALISK,
   :LUXFLON,
-	:VAKUM
+	:VAKUM,
+  :GRENINJAX
 ]
+
+NEWBOSSES = [PBSpecies::GRENINJAX]
 
 def isBoss?
   ret = false

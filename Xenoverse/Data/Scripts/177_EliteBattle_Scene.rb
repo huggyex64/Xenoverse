@@ -22,6 +22,7 @@ class PokeBattle_Scene
   attr_accessor :lowHPBGM
   attr_accessor :briefmessage
   attr_reader :smTrainerSequence
+  attr_reader :newBossSequence
   attr_reader :battle
   alias initialize_ebs initialize unless self.method_defined?(:initialize_ebs)
   def initialize
@@ -345,7 +346,15 @@ class PokeBattle_Scene
     checkIfSunMoonTrainer(@battle.opponent.trainertype) if @battle.opponent
 		if $smAnim
       if $game_switches[85]
-        vsBossSequence2_start(@viewport2,$wildSpecies)
+        #GRENINJAX START
+        if NEWBOSSES.include?($wildSpecies)
+          vp = Viewport.new(0,0,Graphics.width,Graphics.height)
+          vp.z = @viewport.z+1
+          @newBossSequence = NewBossBattleTransition.new(vp,@msgview,self,0)
+          @newBossSequence.start if @newBossSequence
+        else
+          vsBossSequence2_start(@viewport2,$wildSpecies)
+        end
       else
         if checkIfNewTransition(@battle.opponent.trainertype)
           echoln "I wanna start"
