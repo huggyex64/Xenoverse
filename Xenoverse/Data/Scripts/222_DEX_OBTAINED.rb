@@ -4,7 +4,7 @@ class DexObtained
 		#0 is italian, 1 is english
 		@language = pbGetLanguage() == 4 ? 0 : 1
 		@wtd = wtd
-    @pkmn = pkmn
+    	@pkmn = pkmn
     
 		@species = species = pkmn.species
 		
@@ -12,7 +12,7 @@ class DexObtained
 		
 		@descriptionPage = 0
 		
-		@refdex = ELDIWDEX.include?(@species) ? ELDIWDEX : (XENODEX.include?(species) ? XENODEX : (RETRODEX.include?(species) ? RETRODEX : pbGetAllRegionalSpecies(-1)))
+		@refdex = ELDIWDEX.include?(@species) ? ELDIWDEX : (XENODEX.include?(species) ? XENODEX : (RETRODEX.include?(species) ? RETRODEX : pbAllRegionalSpecies(-1)))
 		
 		dextype = "XenoDex" if @refdex==XENODEX
 		dextype = "RetroDex" if @refdex==RETRODEX
