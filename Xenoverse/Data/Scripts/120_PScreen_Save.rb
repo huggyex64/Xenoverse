@@ -35,7 +35,7 @@ class PokemonSaveScene
     
     if $Trainer.pokewes
       textpos.push([_INTL("Pokédex"),17,124,0,Color.new(248,248,248)])
-      textpos.push([pbSCELDIW(false).to_s,210,124,1,Color.new(248,248,248)])
+      textpos.push([pbSCELDIW(false,false).to_s,210,124,1,Color.new(248,248,248)])
     end
     
     pbDrawTextPositions(@sprites["savebg"].bitmap,textpos)

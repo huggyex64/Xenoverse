@@ -32,14 +32,35 @@ class PokeBattle_Scene
   end
 end
 
-def pbSCELDIW(seen=true)
+IGNORESHINOBI=[:GROWLITHE,:ARCANINE,:SEEDOT,:NUZLEAF,:SHIFTRY,:MIENFOO,
+:MIENSHAO,:MAGBY,:MAGMAR,:MAGMORTAR,:TURTWIG,:GROTLE,:TORTERRA,:CHIMCHAR,:MONFERNO,:INFERNAPE,
+:PIPLUP,:PRINPLUP,:EMPOLEON,:SURSKIT,:MASQUERAIN,:LOTAD,:LOMBRE,:LUDICOLO,:HORSEA,:SEADRA,
+:KINGDRA,:PSYDUCK,:GOLDUCK,:WOOPER,:QUAGSIRE,:CHEWTLE,:DREDNAW]
+
+IGNOREX = [:GRENINJAX]
+
+def shouldIgnore?(species)
+  ignore = []
+  ignore = ((ignore-(ignore&IGNORESHINOBI))+IGNORESHINOBI) #this ensures there are no duplicates
+  for i in ignore
+    return true if isConst?(species,PBSpecies,i)
+  end
+end
+
+def shouldIgnoreX?(species)
+  return true if isConst?(species,PBSpecies,IGNOREX[0])
+end
+
+def pbSCELDIW(seen=true,ignore=true)  
   ret = 0
   if seen
     for i in ELDIWDEX
+      next if shouldIgnore?(i) && ignore
       ret+=1 if $Trainer.seen[i]
     end
   else
     for i in ELDIWDEX
+      next if shouldIgnore?(i) && ignore
       ret+=1 if $Trainer.owned[i]
     end
   end
@@ -50,10 +71,12 @@ def pbSCXENO(seen=true)
   ret = 0
   if seen
     for i in XENODEX
+      next if shouldIgnoreX?
       ret+=1 if $Trainer.seen[i]
     end
   else
     for i in XENODEX
+      next if shouldIgnoreX?
       ret+=1 if $Trainer.owned[i]
     end
   end

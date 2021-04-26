@@ -823,7 +823,7 @@ class MNScene
 					end
 				elsif @index==1
 					if $game_switches[187]==true
-						if !([335].include?($game_map.map_id))
+						if !([335,564,566].include?($game_map.map_id))
 							if !val
 								Kernel.pbMessage(_INTL("Non puoi usare volo in ambienti chiusi!"))
 							else
