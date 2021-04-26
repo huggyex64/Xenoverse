@@ -415,6 +415,7 @@ Vincenzo Carpignano
 EnderWalker_
 
 Special Supporter:
+aDrive
 Alessandro Laborano
 Chiara Rocco
 Daniel Hale (Dlarzz)
@@ -426,12 +427,12 @@ Francesco Cilurzo (Cydonia)
 Francesco Pepe (Boostaph)
 Francesco Pino (Frake)
 Salvo Miranda (Frobby)
-Le Fave
-All staff of Pokemon Millennium
 Martina Pasqui (Kenoia)
 Mattia Vastarella
+Poketonx
 Rosa La Brocca
 Thomas Squall
+
 
 "Pokémon Essentials" was created by:
 Flameguru
@@ -452,7 +453,7 @@ KitsuneKouta<s>xLeD
 Lisa Anthony<s>
 and everyone else who helped out
 
-Credit for Gen 6/7 Project:
+Credit for Gen 6/7/8 Project:
 Project Organization:
 WorldSlayer
 OmegalingYT
@@ -460,8 +461,9 @@ hyperactiveflummi
 iametrine
 diegotoon20
 snivy101
-Smogon XY/SM Sprite Project
+Smogon XY/SM/SWOSHI Sprite Project
 falgaia
+leParagon
 
 Pokemon Sprites:
 http://www.pkparaiso.com/
