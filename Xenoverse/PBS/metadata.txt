@@ -3403,6 +3403,10 @@ BattleBack=Bosco
 Bicycle=false
 Outdoor=true
 WildBattleBGM=Wild Battle Jungle.mp3
+[565]
+# Isola Shinobi
+BattleBack=Bosco
+WildBattleBGM=VS. Battle Fury.mp3
 [566]
 # Isola Shinobi
 Weather=Rain,100
