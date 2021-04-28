@@ -7820,28 +7820,28 @@ Fogliolina
 Fogliolina
 388
 Grove
-Grove
+Boschetto
 389
 Continent
-Continent
+Continente
 390
 Chimp
-Chimp
+Scimpanzé
 391
 Playful
-Playful
+Briccone
 392
 Flame
-Flame
+Fiamma
 393
 Penguin
-Penguin
+Pinguino
 394
 Penguin
-Penguin
+Pinguino
 395
 Emperor
-Emperor
+Imperatore
 396
 Starling
 Starling
@@ -8513,10 +8513,10 @@ Trap
 Trap
 619
 Martial Arts
-Martial Arts
+Marziale
 620
 Martial Arts
-Martial Arts
+Marziale
 621
 Grotta
 Grotta
@@ -9750,6 +9750,48 @@ Urlocertola
 2011
 Dragoblu
 Dragoblu
+2012
+Seme
+Mordace
+2013
+Seme
+Morso
+2014
+Cagnolino
+Cagnolino
+2015
+Leggendario
+Leggendario
+2016
+Carbonvivo
+Carbonvivo
+2017
+Sputafuoco
+Sputafuoco
+2018
+Drago
+Drago
+2019
+Drago
+Drago
+2020
+Drago
+Drago
+2021
+Papero
+Papero
+2022
+Papero
+Papero
+2023
+Acquapesce
+Acquapesce
+2024
+Acquapesce
+Acquapesce
+2025
+Ninja
+Ninja
 [3]
 1
 Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
@@ -10332,7 +10374,7 @@ I suoi grandi occhi vedono a 360 gradi, cercando in ogni direzione insetti da ca
 I suoi grandi occhi vedono a 360 gradi, cercando in ogni direzione insetti da catturare.
 194
 Il suo corpo e' ricoperto da una mucosa. Se la si tocca con le mani nude causa un acuto dolore.
-Il suo corpo e' ricoperto da una mucosa. Se la si tocca con le mani nude causa un acuto dolore.
+Il suo corpo è ricoperto da una mucosa. Se la si tocca con le mani nude causa un acuto dolore.
 195
 Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli scafi delle barche.
 Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli scafi delle barche.
@@ -10440,7 +10482,7 @@ Mette KO il nemico sputando fiamme che contengono una tossina. Divide\n equament
 Mette KO il nemico sputando fiamme che contengono una tossina. Divide\n equamente le prede con il resto del branco.
 230
 Dorme sul fondo delle'oceano per ricaricarsi di energia. Si dice che causi uragani quando si sveglia.
-Dorme sul fondo delle'oceano per ricaricarsi di energia. Si dice che causi uragani quando si sveglia.
+Dorme sul fondo dell'oceano per ricaricarsi di energia. Si dice che causi uragani quando si sveglia.
 231
 Agita la proboscide per gioco, ma e' cosi' forte che puo' essere pericoloso.
 Agita la proboscide per gioco, ma e' cosi' forte che puo' essere pericoloso.
@@ -10572,10 +10614,10 @@ Si attacca ai rami degli alberi usando il picciolo che ha sul capo. Talvolta il 
 Si attacca ai rami degli alberi usando il picciolo che ha sul capo. Talvolta il vento lo fa cadere.
 274
 Il fischio del suo flauto di foglia mette a disagio chi lo sente. Vive nelle foreste piu' fitte.
-Il fischio del suo flauto di foglia mette a disagio chi lo sente. Vive nelle foreste piu' fitte.
+Il fischio del suo flauto di foglia mette a disagio chi lo sente. Vive nelle foreste più fitte.
 275
 Shiftry e' un misterioso Pokemon che vive sulla cima degli alberi piu' alti, di solito plurisecolari. Usa le foglie degli arti superiori come ventole per generare terribili raffiche di vento.
-Shiftry e' un misterioso Pokemon che vive sulla cima degli alberi piu' alti, di solito plurisecolari. Usa le foglie degli arti superiori come ventole per generare terribili raffiche di vento.
+Vive nella calma delle foreste. A quanto pare, crea raffiche di vento gelido con le sue grandi ventole.
 276
 Non ama il freddo. In inverno emigra verso regioni calde, viaggiando a una velocità di 300 km al giorno.
 Non ama il freddo. In inverno emigra verso regioni calde, viaggiando a una velocità di 300 km al giorno.
@@ -10602,7 +10644,7 @@ Cammina a pelo d'acqua. Dall'aculeo sulla testa emana un dolce aroma con cui att
 Cammina a pelo d'acqua. Dall'aculeo sulla testa emana un dolce aroma con cui attira le prede.
 284
 Masquerain intimorisce i nemici con il motivo a forma d'occhio sulle antenne. Agita le quattro ali per volare libero in ogni direzione, anche lateralmente e posteriormente, come fosse un elicottero.
-Masquerain intimorisce i nemici con il motivo a forma d'occhio sulle antenne. Agita le quattro ali per volare libero in ogni direzione, anche lateralmente e posteriormente, come fosse un elicottero.
+Le sue antenne presentano un motivo ad occhi. Con le quattro ali riesce a volare in ogni direzione.
 285
 Shroomish vive nel suolo umido nel cuore della foresta buia. Spesso si nasconde sotto le foglie cadute. Si ciba dell'humus creato dal letto di foglie decomposte sul terreno.
 Shroomish vive nel suolo umido nel cuore della foresta buia. Spesso si nasconde sotto le foglie cadute. Si ciba dell'humus creato dal letto di foglie decomposte sul terreno.
@@ -10911,31 +10953,31 @@ Ha le'abilite' di realizzare ogni desiderio, ma soltanto per una settimana ogni 
 È il risultato della mutazione genetica di un virus alieno, giunto sulla Terra con un meteorite.
 387
 Il guscio sulla sua schiena e' fatto di terra. Se un Turtwig e' in forma, il suo guscio e' umido.
-Il guscio sulla sua schiena e' fatto di terra. Se un Turtwig e' in forma, il suo guscio e' umido.
+Il suo guscio, che è fatto di terra, s'indurisce quando il Pokémon beve. Vive sulle rive dei laghi.
 388
 It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.
-It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.
+Vive nelle foreste vicino all'acqua, ma esce di giorno per far prendere sole alle piante sul guscio.
 389
 Small Pokemon occasionally gather on its unmoving back to begin building their nests.
-Small Pokemon occasionally gather on its unmoving back to begin building their nests.
+Piccoli Pokémon si radunano talvolta sul suo dorso immobile per costruirvi la loro tana.
 390
 It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.
-It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.
+Scala agilmente le rocce scoscese e vive in cima ai monti. Prima di dormire spegne le fiamme.
 391
 To intimidate attackers, it stretches the fire on its tail to make itself appear bigger.
-To intimidate attackers, it stretches the fire on its tail to make itself appear bigger.
+Per intimorire i nemici che attaccano, intensifica le fiamme sulla coda per apparire più grande.
 392
 It uses a special kind of martial arts involving all its limbs. Its fire never goes out.
-It uses a special kind of martial arts involving all its limbs. Its fire never goes out.
+Usa un tipo speciale di arte marziale che coinvolge tutti gli arti. Le sue fiamme non si estinguono mai.
 393
 Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.
-Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.
+È molto orgoglioso e odia accettare cibo dalla gente. Le fitte piume lo proteggono dal freddo.
 394
 It lives alone, away from others. Apparently, every one of them believes it is the most important.
-It lives alone, away from others. Apparently, every one of them believes it is the most important.
+Vive da solo lontano dagli altri. Apparentemente ogni esemplare crede di essere il più importante.
 395
 The three horns that extend from its beak attest to its power. The leader has the biggest horns.
-The three horns that extend from its beak attest to its power. The leader has the biggest horns.
+I tre corni che si allungano dal suo becco attestano la sua forza. Il capogruppo ha i corni più grossi.
 396
 They flock in great numbers. Though small, they flap their wings with great power.
 They flock in great numbers. Though small, they flap their wings with great power.
@@ -11151,7 +11193,7 @@ Tocca il nemico con la punta delle code e rilascia una scarica elettrica ad alto
 Tocca il nemico con la punta delle code e rilascia una scarica elettrica ad alto voltaggio che lo carbonizza all'istante.
 467
 Spara palle di fuoco di oltre 2000e'C dagli arti superiori. L'aria che espira e' incandescente.
-Spara palle di fuoco di oltre 2000e'C dagli arti superiori. L'aria che espira e' incandescente.
+Spara palle di fuoco di oltre 2000°C dagli arti superiori. Vive nei crateri dei vulcani.
 468
 Pare che Togekiss ami visitare le regioni pacifiche, senza conflitti, donando bonta' e dolcezza.
 Pare che Togekiss ami visitare le regioni pacifiche, senza conflitti, donando bonta' e dolcezza.
@@ -11606,11 +11648,11 @@ Having removed its heavy shell, it becomes very light and can fight with ninja-l
 It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of energy.
 It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of energy.
 619
-They have mastered elegant combos. As they concentrate, their battle moves become swifter and more precise.
-They have mastered elegant combos. As they concentrate, their battle moves become swifter and more precise.
+Va fiero della rapidità delle sue mosse. Sopperisce a una eventuale mancanza di potenza con il numero di colpi.
+Va fiero della rapidità delle sue mosse. Sopperisce a una eventuale mancanza di potenza con il numero di colpi.
 620
-They use the long fur on their arms as a whip to strike their opponents.
-They use the long fur on their arms as a whip to strike their opponents.
+Usa i peli degli arti anteriori a mo' di frusta e se inizia un attacco a catena non c'è nessuno che lo possa fermare.
+Usa i peli degli arti anteriori a mo' di frusta e se inizia un attacco a catena non c'è nessuno che lo possa fermare.
 621
 Percorre le grotte anguste catturando le prede con gli artigli affilati. La pelle del muso è più dura della roccia.
 Percorre le grotte anguste catturando le prede con gli artigli affilati. La pelle del muso è più dura della roccia.
@@ -12844,6 +12886,48 @@ A dispetto della stazza minuta, è in grado di lanciare potenti urla. Se esagera
 2011
 La pelle che lo riveste è tanto elastica da fargli rimbalzare gli attacchi addosso. Tuttavia, è particolarmente sensibile al freddo.
 La pelle che lo riveste è tanto elastica da fargli rimbalzare gli attacchi addosso. Tuttavia, è particolarmente sensibile al freddo.
+2012
+Per attaccare usa il corno sulla testa, che è duro come la pietra. Quando il nemico è indebolito, lo morde e non molla più la presa.
+Attacca col corno sulla testa, duro come la pietra. Quando il nemico è indebolito, lo morde e non molla più la presa.
+2013
+Ha un collo retrattile. Tenendosi a distanza dal nemico, lo estende all'improvviso per dare il colpo di grazia con i denti aguzzi.
+Tenendosi a distanza dal nemico, estende all'improvviso il collo retrattile per azzannarlo con forza.
+2014
+Strenuo difensore del suo territorio, abbaia e morde per respingere gli intrusi.
+Strenuo difensore del suo territorio, abbaia e morde per respingere gli intrusi.
+2015
+Da sempre ammirato per la sua bellezza, corre veloce come se avesse le ali.
+Da sempre ammirato per la sua bellezza, corre veloce come se avesse le ali.
+2016
+Ogni volta che inspira ed espira, brace ardente gli esce dalla bocca e dalle narici.
+Ogni volta che inspira ed espira, brace ardente gli esce dalla bocca e dalle narici.
+2017
+Il suo corpo arde con bagliori arancio che gli consentono una mimesi perfetta tra le fiamme.
+Il suo corpo arde con bagliori arancio che gli consentono una mimesi perfetta tra le fiamme.
+2018
+Se minacciato sputa dalla bocca un inchiostro speciale o potenti getti d'acqua per difendersi.
+Se minacciato sputa dalla bocca un inchiostro speciale o potenti getti d'acqua per difendersi.
+2019
+Il contatto con la sua pinna posteriore causa stordimento. Dorme attaccato a qualche corallo.
+Il contatto con la sua pinna posteriore causa stordimento. Dorme attaccato a qualche corallo.
+2020
+Dorme sul fondo delle'oceano per ricaricarsi di energia. Si dice che causi uragani quando si sveglia.
+Dorme sul fondo dell'oceano per ricaricarsi di energia. Si dice che causi uragani quando si sveglia.
+2021
+Soffre sempre di forti mal di testa. Usa i suoi poteri psichici di rado e senza volerlo.
+Soffre sempre di forti mal di testa. Usa i suoi poteri psichici di rado e senza volerlo.
+2022
+Visto spesso nuotare nei laghi elegantemente, è a volte confuso con Kappa, mostro giapponese.
+Visto spesso nuotare nei laghi elegantemente, è a volte confuso con Kappa, mostro giapponese.
+2024
+Il suo corpo e' ricoperto da una mucosa. Se la si tocca con le mani nude causa un acuto dolore.
+Il suo corpo è ricoperto da una mucosa. Se la si tocca con le mani nude causa un acuto dolore.
+2025
+Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli scafi delle barche.
+Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli scafi delle barche.
+2026
+Agile e sfugente come un ninja, si fa beffe dei nemici grazie alla sua velocita' e li bersaglia dei shuriken d'acqua
+Agile e sfuggente come un ninja, brucia vivi i suoi avversari lanciando loro pugnali di fiamme infernali.
 [4]
 19
 Kanto,Alola

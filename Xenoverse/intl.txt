@@ -1638,7 +1638,9 @@ As a Trainer, I must admit you're a formidable opponent,<<n>>but as a mother I c
 Prima che tu parta per chissà quale nuova avventura, voglio farti un dono, tesoro.
 Before you move on to some new adventure,<<n>>I have a gift for you, honey.
 Aster mi ha regalato questo piccolo per non farmi sentire la tua mancanza, ma non è qui che deve stare...
-Aster gave me this little one to make me feel less lonely<<n>>without you, but this is not its place...<<n>>It needs to fly, soar even!
+Aster gave me this little one to make me feel less lonely<<n>>without you, but this is not its place...
+Ha bisogno di spiccare il volo anche lui!
+It needs to fly, soar even!
 E adesso va' dove ti porta il tuo spirito da Allenatore, \PN!
 Now go wherever your Trainer spirit leads you, \PN!
 Però torna ogni tanto a trovare la tua mamma, eh!
@@ -27164,10 +27166,10 @@ Nobilgatto
 Classy Cat
 54
 Papero
-Papero
+Duck
 55
 Papero
-Papero
+Duck
 56
 Suinpanze'
 Suinpanze'
@@ -27350,10 +27352,10 @@ Genitore
 Genitore
 116
 Drago
-Drago
+Dragon
 117
 Drago
-Drago
+Dragon
 118
 Pescerosso
 Pescerosso
@@ -27380,7 +27382,7 @@ Elettrico
 Elettric
 126
 Sputafuoco
-Sputafuoco
+Spitfire
 127
 Cervolante
 Cervolante
@@ -27584,10 +27586,10 @@ Alachiara
 Clear Wing
 194
 Acquapesce
-Acquapesce
+Water Fish
 195
 Acquapesce
-Acquapesce
+Water Fish
 196
 Sole
 Sun
@@ -27692,7 +27694,7 @@ Buio
 Dark
 230
 Drago
-Drago
+Dragon
 231
 Nasone
 Nasone
@@ -27722,7 +27724,7 @@ Elettrico
 Electric
 240
 Carbonvivo
-Carbonvivo
+Live Coal
 241
 Bovino
 Milk Cow
@@ -27821,13 +27823,13 @@ Spensierato
 Spensierato
 273
 Ghianda
-Ghianda
+Acorn
 274
 Scaltro
-Scaltro
+Wily
 275
 Burbero
-Burbero
+Wicked
 276
 Rondine
 Tiny Swallow
@@ -27851,10 +27853,10 @@ Abbraccio
 Abbraccio
 283
 Sfiorapozze
-Sfiorapozze
+Pond Skater
 284
 Occhi
-Occhi
+Eyeball
 285
 Fungo
 Fungo
@@ -28163,7 +28165,7 @@ DNA
 DNA
 387
 Fogliolina
-Fogliolina
+Tiny Leaf
 388
 Grove
 Grove
@@ -28403,7 +28405,7 @@ Saetta
 Thunderbolt
 467
 Esplosivo
-Esplosivo
+Blast
 468
 Festa
 Festa
@@ -30096,6 +30098,48 @@ Shout Lizard
 2011
 Dragoblu
 Sea Dragon
+2012
+Seme
+Snapping
+2013
+Seme
+Bite
+2014
+Cagnolino
+Puppy
+2015
+Leggendario
+Legendary
+2016
+Carbonvivo
+Live Coal
+2017
+Sputafuoco
+Spitfire
+2018
+Drago
+Dragon
+2019
+Drago
+Dragon
+2020
+Drago
+Dragon
+2021
+Papero
+Duck
+2022
+Papero
+Duck
+2023
+Acquapesce
+Water Fish
+2024
+Acquapesce
+Water Fish
+2025
+Ninja
+Ninja
 [3]
 1
 Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
@@ -30258,10 +30302,10 @@ I muscoli flessibili gli consentono di camminare senza fare alcun rumore. Attacc
 Its lithe muscles allow it to walk without making a sound. It attacks in an instant.
 54
 Soffre sempre di forti mal di testa. Usa i suoi poteri psichici di rado e senza volerlo.
-Soffre sempre di forti mal di testa. Usa i suoi poteri psichici di rado e senza volerlo.
+Always tormented by headaches. It uses psychic powers, but it is not known if it intends to do so.
 55
 Visto spesso nuotare nei laghi elegantemente, è a volte confuso con Kappa, mostro giapponese.
-Visto spesso nuotare nei laghi elegantemente, è a volte confuso con Kappa, mostro giapponese.
+Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.
 56
 Molto iracondo, puo' passare dalla docilita' all'ira nell'arco di un solo istante.
 Molto iracondo, puo' passare dalla docilita' all'ira nell'arco di un solo istante.
@@ -30270,10 +30314,10 @@ Questo Pokemon e' costantemente furioso e si calma solo nella solitudine piu' as
 Questo Pokemon e' costantemente furioso e si calma solo nella solitudine piu' assoluta.
 58
 Strenuo difensore del suo territorio, abbaia e morde per respingere gli intrusi.
-Strenuo difensore del suo territorio, abbaia e morde per respingere gli intrusi.
+It controls a big territory. If it detects an unknown smell, it roars loudly to force out the intruder.
 59
 Da sempre ammirato per la sua bellezza, corre veloce come se avesse le ali.
-Da sempre ammirato per la sua bellezza, corre veloce come se avesse le ali.
+A Pokémon that has been admired since the past for its beauty. It runs agilely as if on wings.
 60
 La spirale che ha sulla pancia varia da zona a zona. E' molto piu' bravo nel nuoto che nella corsa.
 La spirale che ha sulla pancia varia da zona a zona. E' molto piu' bravo nel nuoto che nella corsa.
@@ -30444,10 +30488,10 @@ Il suo cucciolo cresce dentro al marsupio. È pronto a qualsiasi lotta pur di pr
 Il suo cucciolo cresce dentro al marsupio. È pronto a qualsiasi lotta pur di proteggerlo.
 116
 Se minacciato sputa dalla bocca un inchiostro speciale o potenti getti d'acqua per difendersi.
-Se minacciato sputa dalla bocca un inchiostro speciale o potenti getti d'acqua per difendersi.
+If it senses any danger, it will vigorously spray water or a special type of ink from its mouth.
 117
 Il contatto con la sua pinna posteriore causa stordimento. Dorme attaccato a qualche corallo.
-Il contatto con la sua pinna posteriore causa stordimento. Dorme attaccato a qualche corallo.
+Touching the back fin causes numbness. It hooks its tail to coral to stay in place while sleeping.
 118
 La pinna sulla coda si gonfia come un elegante vestito da ballo, da cui il nome Regina d'Acqua.
 La pinna sulla coda si gonfia come un elegante vestito da ballo, da cui il nome Regina d'Acqua.
@@ -30474,7 +30518,7 @@ Tutto il suo corpo è pervaso di elettricità. Fa roteare vorticosamente le brac
 Electricity permeates its body. It swings its arms round and round to charge up electricity before unleashing a punch.
 126
 Il suo corpo arde con bagliori arancio che gli consentono una mimesi perfetta tra le fiamme.
-Il suo corpo arde con bagliori arancio che gli consentono una mimesi perfetta tra le fiamme.
+Its body always burns with an orange glow that enables it to hide perfectly among flames.
 127
 Se non riesce a stritolare la vittima con le chele, la sbatte e la scaglia via con violenza.
 If it fails to crush the victim in its pincers, it will swing it around and toss it hard.
@@ -30678,10 +30722,10 @@ I suoi grandi occhi vedono a 360 gradi, cercando in ogni direzione insetti da ca
 Its large eyes can scan 360 degrees.\n It looks in all directions to seek out insects as its prey.
 194
 Il suo corpo e' ricoperto da una mucosa. Se la si tocca con le mani nude causa un acuto dolore.
-Il suo corpo e' ricoperto da una mucosa. Se la si tocca con le mani nude causa un acuto dolore.
+A mucous membrane covers its body. Touching it barehanded will cause a shooting pain.
 195
 Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli scafi delle barche.
-Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli scafi delle barche.
+Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims.
 196
 Riesce a prevedere in un istante le mosse dei nemici analizzando le correnti d'aria grazie al suo pelo corto e fine.
 It uses the fine hair that covers its body to sense air currents and predict its enemy's actions.
@@ -30786,7 +30830,7 @@ Mette KO il nemico sputando fiamme che contengono una tossina. Divide \nequament
 They spew flames mixed with poison to finish off their opponents. They divvy up their prey evenly among the members of their pack.
 230
 Dorme sul fondo delle'oceano per ricaricarsi di energia. Si dice che causi uragani quando si sveglia.
-Dorme sul fondo delle'oceano per ricaricarsi di energia. Si dice che causi uragani quando si sveglia.
+It sleeps deep on the ocean floor to build its energy. It is said to cause tornadoes as it wakes.
 231
 Agita la proboscide per gioco, ma e' cosi' forte che puo' essere pericoloso.
 Agita la proboscide per gioco, ma e' cosi' forte che puo' essere pericoloso.
@@ -30816,7 +30860,7 @@ Una debole corrente elettrica scorre tra le sue corna. Chi vi passa una mano rim
 A weak electric current flows between its horns. Sticking a hand there shocks the unwary.
 240
 Ogni volta che inspira ed espira, brace ardente gli esce dalla bocca e dalle narici.
-Ogni volta che inspira ed espira, brace ardente gli esce dalla bocca e dalle narici.
+Each and every time it inhales and exhales, hot embers dribble out of its mouth and nostrils.
 241
 Il suo latte è ricco di sostanze nutrienti, che ne fanno il miglior rimedio per chi è stanco o malato.
 Its milk is packed with nutrition, making it the ultimate beverage for the sick or weary.
@@ -30915,13 +30959,13 @@ Ludicolo inizia a ballare appena sente una musica allegra e festosa. Pare che qu
 Ludicolo inizia a ballare appena sente una musica allegra e festosa. Pare che questo Pokemon appaia quando sente il canto gioioso dei bambini durante le escursioni.
 273
 Si attacca ai rami degli alberi usando il picciolo che ha sul capo. Talvolta il vento lo fa cadere.
-Si attacca ai rami degli alberi usando il picciolo che ha sul capo. Talvolta il vento lo fa cadere.
+It attaches itself to a tree branch using the top of its head. Strong winds can sometimes make it fall.
 274
 Il fischio del suo flauto di foglia mette a disagio chi lo sente. Vive nelle foreste piu' fitte.
-Il fischio del suo flauto di foglia mette a disagio chi lo sente. Vive nelle foreste piu' fitte.
+The sound of its grass flute makes its listeners uneasy. It lives deep in forests.
 275
 Shiftry e' un misterioso Pokemon che vive sulla cima degli alberi piu' alti, di solito plurisecolari. Usa le foglie degli arti superiori come ventole per generare terribili raffiche di vento.
-Shiftry e' un misterioso Pokemon che vive sulla cima degli alberi piu' alti, di solito plurisecolari. Usa le foglie degli arti superiori come ventole per generare terribili raffiche di vento.
+It lives quietly in the deep forest. It is said to create chilly winter winds with the fans it holds.
 276
 Non ama il freddo. In inverno emigra verso regioni calde, viaggiando a una velocità di 300 km al giorno.
 It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day.
@@ -30945,10 +30989,10 @@ Gardevoir ha il potere psicocinetico di distorcere le dimensioni creando un picc
 Gardevoir ha il potere psicocinetico di distorcere le dimensioni creando un piccolo buco nero. Questo Pokemon cerca di proteggere il proprio allenatore anche a rischio della sua stessa vita.
 283
 Cammina a pelo d'acqua. Dall'aculeo sulla testa emana un dolce aroma con cui attira le prede.
-Cammina a pelo d'acqua. Dall'aculeo sulla testa emana un dolce aroma con cui attira le prede.
+It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.
 284
 Masquerain intimorisce i nemici con il motivo a forma d'occhio sulle antenne. Agita le quattro ali per volare libero in ogni direzione, anche lateralmente e posteriormente, come fosse un elicottero.
-Masquerain intimorisce i nemici con il motivo a forma d'occhio sulle antenne. Agita le quattro ali per volare libero in ogni direzione, anche lateralmente e posteriormente, come fosse un elicottero.
+Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.
 285
 Shroomish vive nel suolo umido nel cuore della foresta buia. Spesso si nasconde sotto le foglie cadute. Si ciba dell'humus creato dal letto di foglie decomposte sul terreno.
 Shroomish vive nel suolo umido nel cuore della foresta buia. Spesso si nasconde sotto le foglie cadute. Si ciba dell'humus creato dal letto di foglie decomposte sul terreno.
@@ -31257,7 +31301,7 @@ Ha le'abilite' di realizzare ogni desiderio, ma soltanto per una settimana ogni 
 An alien virus that fell to Earth on a meteor underwent a DNA mutation to become this Pokémon.
 387
 Il guscio sulla sua schiena e' fatto di terra. Se un Turtwig e' in forma, il suo guscio e' umido.
-Il guscio sulla sua schiena e' fatto di terra. Se un Turtwig e' in forma, il suo guscio e' umido.
+The shell on its back is made of soil. On a very healthy Turtwig, the shell should feel moist.
 388
 It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.
 It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.
@@ -31497,7 +31541,7 @@ Tocca il nemico con la punta delle code e rilascia una scarica elettrica ad alto
 It pushes the tips of its tails against its foes and then lets loose a high-voltage current. Its foes are burned to a crisp in an instant.
 467
 Spara palle di fuoco di oltre 2000e'C dagli arti superiori. L'aria che espira e' incandescente.
-Spara palle di fuoco di oltre 2000e'C dagli arti superiori. L'aria che espira e' incandescente.
+It blasts fireballs of over 3,600 degrees F from the ends of its arms. It lives in volcanic craters.
 468
 Pare che Togekiss ami visitare le regioni pacifiche, senza conflitti, donando bonta' e dolcezza.
 Pare che Togekiss ami visitare le regioni pacifiche, senza conflitti, donando bonta' e dolcezza.
@@ -31952,10 +31996,10 @@ Having removed its heavy shell, it becomes very light and can fight with ninja-l
 It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of energy.
 It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of energy.
 619
-They have mastered elegant combos. As they concentrate, their battle moves become swifter and more precise.
+Va fiero della rapidità delle sue mosse. Sopperisce a una eventuale mancanza di potenza con il numero di colpi.
 They have mastered elegant combos. As they concentrate, their battle moves become swifter and more precise.
 620
-They use the long fur on their arms as a whip to strike their opponents.
+Usa i peli degli arti anteriori a mo' di frusta e se inizia un attacco a catena non c'è nessuno che lo possa fermare.
 They use the long fur on their arms as a whip to strike their opponents.
 621
 Percorre le grotte anguste catturando le prede con gli artigli affilati. La pelle del muso è più dura della roccia.
@@ -33190,6 +33234,48 @@ A dispetto della stazza minuta, è in grado di lanciare potenti urla. Se esagera
 2011
 La pelle che lo riveste è tanto elastica da fargli rimbalzare gli attacchi addosso. Tuttavia, è particolarmente sensibile al freddo.
 La pelle che lo riveste è tanto elastica da fargli rimbalzare gli attacchi addosso. Tuttavia, è particolarmente sensibile al freddo.
+2012
+Per attaccare usa il corno sulla testa, che è duro come la pietra. Quando il nemico è indebolito, lo morde e non molla più la presa.
+Apparently the itch of its teething impels it to snap its jaws at anything in front of it.
+2013
+Ha un collo retrattile. Tenendosi a distanza dal nemico, lo estende all'improvviso per dare il colpo di grazia con i denti aguzzi.
+It rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down.
+2014
+Strenuo difensore del suo territorio, abbaia e morde per respingere gli intrusi.
+Very protective of its territory. It will bark and bite to repel intruders from its space.
+2015
+Da sempre ammirato per la sua bellezza, corre veloce come se avesse le ali.
+A Pokémon that has been admired since the past for its beauty. It runs agilely as if on wings.
+2016
+Ogni volta che inspira ed espira, brace ardente gli esce dalla bocca e dalle narici.
+Each and every time it inhales and exhales, hot embers dribble out of its mouth and nostrils.
+2017
+Il suo corpo arde con bagliori arancio che gli consentono una mimesi perfetta tra le fiamme.
+Its body always burns with an orange glow that enables it to hide perfectly among flames.
+2018
+Se minacciato sputa dalla bocca un inchiostro speciale o potenti getti d'acqua per difendersi.
+If it senses any danger, it will vigorously spray water or a special type of ink from its mouth.
+2019
+Il contatto con la sua pinna posteriore causa stordimento. Dorme attaccato a qualche corallo.
+Touching the back fin causes numbness. It hooks its tail to coral to stay in place while sleeping.
+2020
+Dorme sul fondo delle'oceano per ricaricarsi di energia. Si dice che causi uragani quando si sveglia.
+It sleeps deep on the ocean floor to build its energy. It is said to cause tornadoes as it wakes.
+2021
+Soffre sempre di forti mal di testa. Usa i suoi poteri psichici di rado e senza volerlo.
+Always tormented by headaches. It uses psychic powers, but it is not known if it intends to do so.
+2022
+Visto spesso nuotare nei laghi elegantemente, è a volte confuso con Kappa, mostro giapponese.
+Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.
+2024
+Il suo corpo e' ricoperto da una mucosa. Se la si tocca con le mani nude causa un acuto dolore.
+A mucous membrane covers its body. Touching it barehanded will cause a shooting pain.
+2025
+Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli scafi delle barche.
+Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims.
+2026
+Agile e sfugente come un ninja, si fa beffe dei nemici grazie alla sua velocita' e li bersaglia dei shuriken d'acqua
+It appears and vanishes with a ninja's grace. It burn down its enemies with throwing them stars of hell fire.
 [4]
 19
 Kanto,Alola
