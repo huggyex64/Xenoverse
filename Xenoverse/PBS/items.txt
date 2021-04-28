@@ -744,3 +744,5 @@
 785,SPECIALROD,Amo Speciale,8,0,"Speciale canna da pesca che permette di pescare Pokémon selvatici e recuperare tesori dal fondale.",2,0,6,
 786,BOTINFERNO,Update Inferno,1,0,"Update contenente i dati del Pokémon Magmar. Permette al Pokémon di evolversi tramite Trasferitore.",1,0,0,
 787,BOTDRAGO,Update Drago,1,0,"Update contenente i dati del Pokémon Seadra. Permette al Pokémon di evolversi tramite Trasferitore.",1,0,0,
+788,PASSSHINOBI,Biglietto Shinobi,8,0,"Un biglietto aereo per visitare l'Isola Shinobi.",1,0,0,
+789,SIGILLONINJA,Sigillo Furia,8,0,"Un sigillo regalato da Tarassaco che emana un'energia misteriosa.",1,0,0,

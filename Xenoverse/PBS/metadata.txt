@@ -3406,6 +3406,7 @@ WildBattleBGM=Wild Battle Jungle.mp3
 [565]
 # Isola Shinobi
 BattleBack=Bosco
+Weather=Sunny,100
 WildBattleBGM=VS. Battle Fury.mp3
 [566]
 # Isola Shinobi
