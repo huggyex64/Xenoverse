@@ -59,9 +59,10 @@ class NewBossBattleTransition
       # retreives additional parameters
       self.getParameters(@trainerid)
       # plays the animation before the main sequence
+      @teamskull = true
       @evilteam ? self.evilTeam : self.rainbowIntro
-      @teamskull = @variant == "skull"
-      @teamskull=true
+      #@teamskull = @variant == "skull"
+      
       self.teamSkull if @teamskull
       # initializes the backdrop
       case @variant
@@ -258,7 +259,7 @@ class NewBossBattleTransition
       # final transition
       viewport = @viewport
       zoom = 4.0
-      obmp = pbBitmap("Graphics/Transitions/SunMoon/Common/ballTransition")
+      obmp = pbBitmap("Graphics/Transitions/SunMoon/Common/ballTransition#{@teamskull ? "Skull" : ""}")
       @sprites["background"].speed = 24
       echo "\n I got here SOMEHOW \n"
       # zooms in ball graphic overlay
@@ -351,7 +352,7 @@ class NewBossBattleTransition
       for i in 1..2
         z = [0.35,0.1]
         @sprites["glow#{i}"] = Sprite.new(@viewport)
-        @sprites["glow#{i}"].bitmap = pbBitmap("Graphics/Transitions/SunMoon/Common/glow")
+        @sprites["glow#{i}"].bitmap = pbBitmap("Graphics/Transitions/SunMoon/Common/glow#{@teamskull ? "Skull" : ""}")
         @sprites["glow#{i}"].ox = @sprites["glow#{i}"].bitmap.width/2
         @sprites["glow#{i}"].oy = @sprites["glow#{i}"].bitmap.height/2
         @sprites["glow#{i}"].x = @viewport.rect.width/2
