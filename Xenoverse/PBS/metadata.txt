@@ -3399,14 +3399,15 @@ MapPosition=0,21,15
 Outdoor=false
 [564]
 # Isola Shinobi
-BattleBack=Bosco
+BattleBack=Shinobi
 Bicycle=false
 Outdoor=true
 WildBattleBGM=Wild Battle Jungle.mp3
 [565]
 # Isola Shinobi
-BattleBack=Bosco
+BattleBack=Shinobi
 Weather=Sunny,100
+Bicycle=false
 WildBattleBGM=VS. Battle Fury.mp3
 [566]
 # Isola Shinobi
