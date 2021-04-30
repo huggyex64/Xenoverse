@@ -473,7 +473,7 @@ class PokeSelectionSprite < SpriteWrapper
 			end
 		end
 		if @refreshBitmap
-			@item.visible = (@pokemon.item>0)
+			@item.visible = (@pokemon.item > 0)
 			base=Color.new(248,248,248)
 			@refreshBitmap=false
 			if self.selected

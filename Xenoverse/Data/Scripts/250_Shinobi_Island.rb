@@ -1,16 +1,82 @@
+class ::Array
+  def any(predicate)
+    for i in 0...self.length
+      return true if predicate.call(self[i])
+    end
+    return false
+  end
+
+  def select(predicate)
+    ret=[]
+    for i in 0...self.length
+      ret.push(self[i]) if predicate.call(self[i])
+    end
+    return ret
+  end
+end
+
 class PokeBattle_Trainer
     attr_accessor(:realBag)
     attr_accessor(:realParty)
+    attr_accessor(:inShinobiIsland)
+    attr_accessor(:storedLevels)
 
+    def inShinobiIsland?
+      return @inShinobiIsland
+    end
+
+    def storePartyLevels
+      @storedLevels = {}
+      for i in $Trainer.party
+        @storedLevels[i] = i.level
+      end
+    end
+
+    def restorePartyLevels
+      for i in $Trainer.party
+        i.level = @storedLevels[i]
+        i.calcStats
+      end
+    end
 
     def enterShinobiIsland
-        @realBag = $PokemonBag
-        $PokemonBag = PokemonBag.new
-        @realParty = $Trainer.party
+        Kernel.pbMessage(_INTL("Devi scegliere 3 Pokémon da portare con te."))
 
-        for item in @realBag.pockets[pbGetPocket(267)]
-            $PokemonBag.pbStoreItem(item[0],item[1])
-        end
+        banlist = [PBSpecies::LUXFLON,PBSpecies::DIELEBI,PBSpecies::MEW,
+        PBSpecies::HOOH,PBSpecies::LUGIA,PBSpecies::ENTEI,PBSpecies::SUICUNE,PBSpecies::RAIKOU,
+        PBSpecies::CELEBI,PBSpecies::DEOXYS,PBSpecies::HEATRAN,PBSpecies::DARKRAI,
+        PBSpecies::CRESSELIA,PBSpecies::GENESECT,
+        PBSpecies::MELOETTA,PBSpecies::MARSHADOW,PBSpecies::MEWTWOX,
+        PBSpecies::TRISHOUT,PBSpecies::SHYLEON,PBSpecies::SHULONG]
+        pbFadeOutIn(99999){
+          scene=PokemonScreen_Scene.new
+          screen=PokemonScreen.new(scene,$Trainer.party)
+          ret=screen.pbChooseMultiplePokemon(3,proc{|p| 
+          return !banlist.include?(p.species)})
+          if ret == nil || ret == -1
+            return false 
+          else
+            @inShinobiIsland = true
+            @realBag = $PokemonBag
+            $PokemonBag = PokemonBag.new
+            @realParty = $Trainer.party
+            
+            for item in @realBag.pockets[pbGetPocket(267)]
+                $PokemonBag.pbStoreItem(item[0],item[1])
+            end
+            $Trainer.party = Marshal.load(Marshal.dump(ret))
+
+            #Removing healing items
+            for i in $Trainer.party
+              if pbGetPocket(i.item) == 2
+                i.item = 0
+              end
+            end
+
+            return true
+          end
+        }
+
     end
 
 
@@ -30,7 +96,16 @@ class PokeBattle_Trainer
             end
             index+=1
         end
-        
+        tempPt = $Trainer.party
+        $Trainer.party = []
+        app = @realParty.select(proc{|p|
+          for i in tempPt
+            return true if i.personalID == p.personalID
+          end
+        return false})
+        $Trainer.party = tempPt + (@realParty-app)
+
+        @inShinobiIsland = false
 
     end
 end

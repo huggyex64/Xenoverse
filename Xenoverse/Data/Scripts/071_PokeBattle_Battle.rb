@@ -98,10 +98,10 @@ module PokeBattle_BattleCommon
 		end
 		oldcurbox=@peer.pbCurrentBox()
 		if !pbSafariState.inProgress?
-      storedbox=@peer.pbStorePokemon(self.pbPlayer,pokemon)
-    else
-      storedbox = $PokemonStorage.pbStoreCaught(pokemon)
-    end
+			storedbox=@peer.pbStorePokemon(self.pbPlayer,pokemon)
+		else
+			storedbox = $PokemonStorage.pbStoreCaught(pokemon)
+		end
 		creator=@peer.pbGetStorageCreator()
 		return if storedbox<0
 		curboxname=@peer.pbBoxName(oldcurbox)
@@ -251,9 +251,9 @@ module PokeBattle_BattleCommon
 				pokemon.ballused=pbGetBallType(ball)
 				pokemon.pbRecordFirstMoves
 				if $Trainer.expmoderna
-				battler.captured=true
-				pbGainEXP
-				battler.captured=false
+					battler.captured=true
+					pbGainEXP
+					battler.captured=false
 				end
 				if !self.pbPlayer.owned[species]
 					self.pbPlayer.owned[species]=true
@@ -3843,12 +3843,16 @@ class PokeBattle_Battle
 		for i in @battlers
 			i.pbResetForm
 		end
-    if !luxflonbattle
-      for i in $Trainer.party
-        i.setItem(i.itemInitial)
-        i.itemInitial=i.itemRecycle=0
-      end
-    end
+		if !luxflonbattle
+			for i in $Trainer.party
+				i.setItem(i.itemInitial)
+				i.itemInitial=i.itemRecycle=0
+			end
+		end
+		#Shinobi Island - takes care if player loses
+		if $Trainer.inShinobiIsland? && @decision==2
+			$Trainer.exitShinobiIsland
+		end
 		$poison_pause = false if inMud?
     Graphics.frame_rate = 40
 		return @decision

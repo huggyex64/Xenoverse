@@ -87,7 +87,7 @@ class DexObtained
 		
 		@commands = []
 		@commands.push("pc")
-		if !pbSafariState.inProgress?
+		if !pbSafariState.inProgress? && !$Trainer.inShinobiIsland?
 			@commands.push("party")
 		end
 		@commands.push("nick")
