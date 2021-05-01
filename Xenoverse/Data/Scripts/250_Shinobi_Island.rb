@@ -28,14 +28,20 @@ class PokeBattle_Trainer
     def storePartyLevels
       @storedLevels = {}
       for i in $Trainer.party
-        @storedLevels[i] = i.level
+        echoln "#{i.name} #{i.personalID}"
+        @storedLevels[i.personalID] = i.level
       end
+      echoln @storedLevels
     end
 
     def restorePartyLevels
+      echoln @storedLevels
       for i in $Trainer.party
-        i.level = @storedLevels[i]
-        i.calcStats
+        if @storedLevels[i.personalID] != nil
+          echoln "#{i.name} #{i.personalID}"
+          i.level = @storedLevels[i.personalID]
+          i.calcStats
+        end
       end
     end
 
