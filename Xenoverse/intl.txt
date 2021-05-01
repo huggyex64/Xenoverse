@@ -30139,7 +30139,7 @@ Acquapesce
 Water Fish
 2025
 Ninja
-Ninja
+Will-o-Wisp
 [3]
 1
 Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
@@ -33275,7 +33275,7 @@ Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli 
 Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims.
 2026
 Agile e sfugente come un ninja, si fa beffe dei nemici grazie alla sua velocita' e li bersaglia dei shuriken d'acqua
-It appears and vanishes with a ninja's grace. It burn down its enemies with throwing them stars of hell fire.
+It moves under cover of darkness. It throws knives of hell fire at its opponents, piercing their flesh and leaving them with atrocious burns.
 [4]
 19
 Kanto,Alola
@@ -39997,6 +39997,18 @@ Old Ball
 785
 Amo Speciale
 Special Rod
+786
+Update Inferno
+Blast Update
+787
+Update Drago
+Dragon Update
+788
+Biglietto Shinobi
+Shinobi Ticket
+789
+Sigillo Furia
+Fury Seal
 [8]
 1
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
@@ -42230,6 +42242,18 @@ An old model of Poké Ball that is used during the trial of Heroes Path.
 785
 Speciale canna da pesca che permette di pescare Pokémon selvatici e recuperare tesori dal fondale.
 A special fishing rod to fish for wild aquatic Pokémon or to drag treasures up from the deep.
+786
+Update contenente i dati del Pokémon Magmar. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Magmar's data. It makes the Pokémon evolve via Pokémon Transfer.
+787
+Update contenente i dati del Pokémon Seadra. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Seadra's data. It makes the Pokémon evolve via Pokémon Transfer.
+788
+Un biglietto aereo per visitare l'Isola Shinobi.
+An air ticket to visit Shinobi Island.
+789
+Un sigillo regalato da Tarassaco che emana un'energia misteriosa.
+A seal received from Taraxo. It exudes a mysterious energy. 
 [9]
 1
 Tanfo

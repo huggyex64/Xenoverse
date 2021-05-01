@@ -9791,7 +9791,7 @@ Acquapesce
 Acquapesce
 2025
 Ninja
-Ninja
+Fuocofatuo
 [3]
 1
 Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
@@ -12927,7 +12927,7 @@ Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli 
 Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli scafi delle barche.
 2026
 Agile e sfugente come un ninja, si fa beffe dei nemici grazie alla sua velocita' e li bersaglia dei shuriken d'acqua
-Agile e sfuggente come un ninja, brucia vivi i suoi avversari lanciando loro pugnali di fiamme infernali.
+Si muove col favore delle tenebre. I pugnali di fuoco che crea lacerano le carni dei nemici, infliggendo loro scottature terribili.
 [4]
 19
 Kanto,Alola
