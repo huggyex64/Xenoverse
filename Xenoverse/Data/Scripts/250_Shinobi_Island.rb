@@ -138,9 +138,10 @@ class NewBossBattleTransition
       @speed = 1
       @sprites = {}
       # retreives additional parameters
+      @teamskull = true
       self.getParameters(@trainerid)
       # plays the animation before the main sequence
-      @teamskull = true
+      
       @evilteam ? self.evilTeam : self.rainbowIntro
       #@teamskull = @variant == "skull"
       
@@ -340,9 +341,10 @@ class NewBossBattleTransition
       # final transition
       viewport = @viewport
       zoom = 4.0
+      echoln "Graphics/Transitions/SunMoon/Common/ballTransition#{@teamskull ? "Skull" : ""}  NEWTRANSITION 1"
       obmp = pbBitmap("Graphics/Transitions/SunMoon/Common/ballTransition#{@teamskull ? "Skull" : ""}")
       @sprites["background"].speed = 24
-      echo "\n I got here SOMEHOW \n"
+      echo "\n I got here SOMEHOW NEW\n"
       # zooms in ball graphic overlay
       for i in 0..20
         #@scene.commandWindow.hideArrows if i < 10 if EBUISTYLE == 2
@@ -900,6 +902,6 @@ class NewBossBattleTransition
         @variant = ext[i] if pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",ext[i],trainerid))
       end
       # sets up the rest of the variables
-      @obmp = pbBitmap("Graphics/Transitions/SunMoon/Common/ballTransition")
+      @obmp = pbBitmap("Graphics/Transitions/SunMoon/Common/ballTransition#{@teamskull ? "Skull" : ""}")
     end
   end
