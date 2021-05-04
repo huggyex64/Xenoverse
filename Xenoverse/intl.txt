@@ -29613,8 +29613,8 @@ Fire Shooting
 Fluotossina
 Glowing
 1227
-Aura
-Aura
+Ninja
+Will-o-wisp
 1228
 Topo
 Mouse
@@ -32749,8 +32749,8 @@ When frightened, it shoots fire and sparks from the top of its head. It appears 
 Secerne una particolare tossina che, se riscaldata, risplende intensamente. Attira le prede e le cattura, usando il corpo come gabbia.
 The special toxin it secretes, when heated, shines brightly. It lures preys and trap them, using its body as a cage.
 1227
-Oltre a essere in grado di percepire l'aura, ha anche la capacite' di controllarla. Sfrutta questa sua abilita' anche nelle lotte.
-Oltre a essere in grado di percepire l'aura, ha anche la capacite' di controllarla. Sfrutta questa sua abilita' anche nelle lotte.
+Agile e sfugente come un ninja, si fa beffe dei nemici grazie alla sua velocita' e li bersaglia dei shuriken d'acqua
+It moves under cover of darkness. It throws knives of hell fire at its opponents, piercing their flesh and leaving them with atrocious burns.
 1228
 Quando si accumula elettricita' nel suo corpo, si fa irascibile. Al buio brilla di luce propria.
 Gym Leader Surge's faithful companion, it has been brought back to life after a terrible accident. It is as fast as fragile.
@@ -35636,6 +35636,9 @@ Star Burst
 732
 Controllo Polare
 Magnetic Flux
+733
+Pirosquarcio
+Fire Kunai
 [6]
 1
 Chi la usa utilizza il suo corpo per montare con grande forza il nemico.
@@ -37764,6 +37767,9 @@ The user attacks with a stellar explosion using its higher attack stat, even if 
 732
 Controllando i campi magnetici, aumentano Difesa e Difesa Speciale degli alleati con abilità Più o Meno.
 The user manipulates magnetic fields which raises the Def. and Sp. Def stats of ally Pokémon with Plus or Minus.
+733
+Chi la usa attacca sempre per primo, colpendo il bersaglio con un kunai di fuoco. Brutto colpo assicurato.
+The user always goes first and hits the target with throwing fire kunais. This move always results in a critical hit.
 [7]
 1
 Repellente
