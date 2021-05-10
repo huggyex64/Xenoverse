@@ -302,3 +302,7 @@ Note dell'epilogo
 Requiem of the End
 Sconfiggi il Generale Dimension.
 Defeat Team Dimension's General.
+Furia di Sangue
+Bloody Fury
+Sconfiggi la Furia Greninja X.
+Defeat the Fury Pokémon Greninja X.

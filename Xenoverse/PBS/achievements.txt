@@ -379,7 +379,7 @@ description = Sconfiggi almeno 100 Allenatori.
 amount = 100
 image = 76_capopalestra
 [Ninja]
-title = La furia Tsukuyomi
-description = Sconfiggi Greninja X.
+title = Furia di Sangue
+description = Sconfiggi la Furia Greninja X.
 amount = 1
 image = 77_ninja

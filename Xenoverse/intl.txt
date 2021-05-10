@@ -501,6 +501,20 @@ No
 Sì
 Yes
 [Map14]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \\PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
 Eva
 Eve
 <b>Reindear</b> è così carino! Ma non fare mai l’errore di insegnargli <b>Frustrazione</b>, mi raccomando! Perderebbe tutta la sua grazia!
@@ -761,6 +775,20 @@ Kiloo...!
 <<[>>old<<]>>Better get it back to its rightful owner.
 [Map21]
 [Map22]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \\PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
 Molly
 Molly
 Questo è il Pokémon-Market di Virgopoli!
@@ -1231,6 +1259,20 @@ Oh, \PN...you're always ready for adventure, huh?
 <<[>>old<<]>>Cinque anni dopo...
 <<[>>old<<]>>Five years later...
 [Map30]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \\PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
 Tommaso
 Thompson
 Il freddo ha mandato in tilt il mio portatile... Per fortuna c’è quel genio di Tarassaco!
@@ -4763,6 +4805,20 @@ Talvolta in queste zone è possibile rinvenire una particolare roccia, denominat
 In these areas, sometimes you can find a particular stone, called the <b>Xenolith</b>.<<n>>Research reveals that some X Pokémon react to the energy surge from this stone, and evolve.<<n>>Who knows, you might get one too...
 [Map97]
 [Map98]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \\PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
 Mr. Bug
 Mr. Bug
 Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
@@ -6777,6 +6833,20 @@ No
 <<[>>old<<]>>Sembrerebbero delle pagine strappate da un quaderno... La calligrafia è chiara e pulita.
 <<[>>old<<]>>It looks like a bunch of pages ripped out of a notebook... The calligraphy is really clear.
 [Map160]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \\PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
 Mr. Bug
 Mr. Bug
 Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
@@ -9376,6 +9446,20 @@ Heal Pokémon
 Usa Box
 Use Box
 [Map210]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \\PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
 Evoluto
 Evolkner
 Proprio non trovo la <b>Neropietra</b> che mi serve per far evolvere il mio <b>Peckabone</b>!
@@ -10552,6 +10636,8 @@ Hostess
 Hostess
 Le diamo il benvenuto all’Aeroporto Samuel Oak.
 Welcome to Samuel Oak Airport.
+Le diamo il benvenuto all'Aeroporto Samuel Oak. Per quale meta ha intenzione di imbarcarsi?
+Welcome to Samuel Oak Airport.<<n>>Could you tell me where do you like to board, please?
 Carlotta
 Charlotte
 Ho fatto un po’ di acquisti e mi hanno dato questa in omaggio, ma non mi sta granché... Prendila tu!
@@ -10728,6 +10814,20 @@ Blair
 Certo che, se mettono un Pokémon-Market nell’aeroporto, mi sento quasi in dovere di fare compere!
 I sure wanna shop if there's a Poké Mart right inside<<n>>the airport!
 [Map228]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \\PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
 Tala
 Carmen
 Ahi ahi! A una certa età diventa difficile anche starsene seduti...
@@ -14012,6 +14112,20 @@ Marcel
 A seconda del tipo di Amo che si usa, i Pokémon che abboccano potrebbero essere del tutto diversi!
 You can fish completely different Pokémon...<<n>>It all depends on the version of Rod you use!
 [Map308]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \\PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
 Folly
 Folly
 Questo è il Pokémon-Market di Sagittopoli!
@@ -15191,6 +15305,20 @@ Why has nobody ever thought about merging Poké Marts<<n>>and Pokémon Centers t
 Ciao! Questo è il Pokémon-Market di Aranciopoli!
 Hello! This is the Poké Mart in Vermilion City!
 [Map341]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \\PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
 Ash
 Ash
 Vedrai, collezionerò in men che non si dica tutte e otto le Medaglie e raggiungerò l’<b>Altopiano Blu</b>!
@@ -17261,6 +17389,20 @@ Yes
 No
 No
 [Map389]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \\PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
 Mnemonio
 Memo
 Allora, vuoi che frughi nelle memorie dei tuoi Pokémon?
@@ -17768,6 +17910,20 @@ This Victory Road is nothing more than a walk in<<n>>the park for a Hiker like m
 Sei un Montanaro anche tu, per caso?
 Are you a Hiker too, maybe?
 [Map410]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \\PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
 Noy
 Noy
 Questo è il Pokémon-Market della Via Vittoria!
@@ -17910,6 +18066,20 @@ Defeat is nothing but education.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
 [Map416]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \\PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
 Mr. Bug
 Mr. Bug
 Vedo che non hai la Heraclium N. Ma non preoccuparti! Mr. Bug è qui per aiutarti.
@@ -18028,6 +18198,20 @@ Once a year, an old longbeard comes down the mountains<<n>>with his Reindear to 
 <<[>>old<<]>>È vuota.
 <<[>>old<<]>>It's empty.
 [Map420]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \\PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
 Foy
 Foy
 Questo è il Pokémon-Market di Cansiria!
@@ -20945,7 +21129,7 @@ Guardalo, è una gioia mentre dorme.
 Look at my kin baby, he's such a 'nana puddin' when sleepin'.
 [Map560]
 <<[>>old<<]>>Per Cascate Firmamento
-<<[>>old<<]>>Per Cascate Firmamento
+<<[>>old<<]>>To Welkin Falls
 [Map561]
 [Map562]
 <<[>>old<<]>>A quale piano vuoi andare?
@@ -20963,6 +21147,101 @@ Golden Studio
 <<[>>old<<]>>The fossil of an ancient Pokémon that came from outer space. It appears to be solidified ink...\nDo you want to take it?
 <<[>>old<<]>>È il fossile di un antico Pokémon che abitava sulla terraferma. Ricorda l'impronta di una mano... Vuoi prenderlo?
 <<[>>old<<]>>The fossil of an ancient Pokémon that lived on land. It appears to be a handprint...\nDo you want to take it?
+Sì
+Yes
+No
+No
+[Map564]
+<<[>>old<<]>>L'aria è densa e pesante...
+<<[>>old<<]>>The air is thick...
+<<[>>old<<]>>È del tutto illeggibile...
+<<[>>old<<]>>It's completely unreadable...
+<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
+<<[>>old<<]>>Would you like to go back to your dimension?
+<<[>>old<<]>>Il Sigillo reagisce.
+<<[>>old<<]>>The Seal is reacting.
+<<[>>old<<]>>Hai completato una Battaglia Furiosa, ottenendo il Pokémon Furia!
+<<[>>old<<]>>You completed a Furious Battle and you got the Fury Pokémon!
+<<[>>old<<]>>Non dimenticare di controllare nei Box del PC!
+<<[>>old<<]>>Go check your Pokémon Boxes!
+Sì
+Yes
+No
+No
+[Map565]
+<<[>>old<<]>>...!
+<<[>>old<<]>>...!
+<<[>>old<<]>>Hai attivato il Sigillo Furia!
+<<[>>old<<]>>You triggered the Fury Seal!
+[Map566]
+Tarassaco
+Taraxo
+Bellocchio
+Looker
+Accidentaccio, che situazione...! E io che pensavo avessimo chiuso con questa faccenda!
+Man, what a situation...! I thought we were done with that whole thing!
+Oh, \PN! Allora ti è stato recapitato il mio biglietto! Menomale, abbiamo davvero bisogno del tuo aiuto...
+Oi, \PN! So you received my ticket, huh?!<<n>>It's a good thing, 'cause we really need your help...
+Immagino stessi trascorrendo un po' del tempo in tranquillità... Mi dispiace averti contattato con così tanta urgenza, ma vedi... devo assolutamente metterti al corrente della situazione.
+I guess you were spending some quiet time...I'm sorry to put a damper on your day in such a way, but...<<n>>I really need to give you the heads up abot this situation. 
+Anzi, sarei grato se lo facessi tu per me, Bellocchio.
+Well, I'd like you to do this for me, Looker. 
+Certamente, compare.
+Indeed, partner.
+\PN, come avrete avuto modo di constatare nel corso di quest'avventura, i portali attraverso cui Dielebi può accedere ad altre dimensioni sono davvero numerosi nella regione...
+\PN, as you will have noticed during this adventure<<n>>of yours, in the region, there are plenty of portals<<n>>through which Dielebi can traver across dimensions...
+Ebbene, c'è un piccolo particolare che era sfuggito anche alla stessa Polizia Internazionale...
+However, there's one little thing that the International Police itself, it had overlooked...
+Tali portali, in quanto fatti di pura energia, rischiano di subire delle alterazioni in presenza di <b>determinate fonti energetiche</b>...
+Such portals, since they are made of energy,<<n>>are likely to undergo changes in the presence<<n>>of <b>particular energy sources</b>...
+A seguito degli avvenimenti dello Xenoverse, accaduti qualche mese fa, schedati nel cosiddetto "caso Eclissi", sul pianeta sembrerebbe essersi riversata energia in grandi, anzi, grandissime quantità...
+As a consequence of the "Eclipse case", the events<<n>>that happened a few months ago in the Xenoverse,<<n>>very large amounts of energy came spilling to our planet...
+Avete capito dove voglio andare a parare, vero?
+You know where I'm going with this, aren't you?
+Osservate questo tempietto... non notate nulla di diverso?
+Look at this shrine...nothing strange with it?
+Esatto, ha un colore diverso... un rosso sanguigno!
+Indeed, it has a different color...a blood red!
+Questa è una vera e propria anomalia dimensionale dovuta all'influsso dell'energia di cui pocanzi parlavo. È assai probabile che all'interno di questi portali si siano annidati potenti Pokémon dagli intenti belligeranti! È assai probabile, se non certo, che all'interno di questi portali si siano annidati potenti Pokémon dagli intenti belligeranti!
+This is an actual dimensional anomaly caused by the influence of this energy I mentioned a moment ago.<<n>>It is very likely that lots of powerful Pokémon with belligerent intents are lurking within these portals!
+Da uomini di scienza, ci siamo arrogati il diritto di dar loro un nome che ne descrivesse la pericolosità...
+As men of science, we believed that we had a duty to give them a name to describe the danger they represent...
+I <b>Pokémon Furia</b>, creature di questi o altri mondi che, colme di energia, hanno perso il controllo di sé!
+They're the ''<b>Fury Pokémon</b>'', creatures from<<n>>this or other worlds that, addicted to that energy,<<n>>had completely lost their control!
+Ed è per questo che la Polizia Internazionale, in quanto garante della quiete dimensionale, ha chiesto a me il compito di trovare qualcuno che sedasse sul nascere questo tipo di minaccia...
+That is why the International Police, as the guarantor<<n>>of the dimensional peace,<<n>>put me in charge of finding someone that could stop<<n>>this threat in the bud... 
+...ed è così che mi siete venuto|a in mente voi, giovane \PN!
+...and that's how I thought about you, young \PN!
+Al momento, questo è l'unico portale corrotto di cui siamo riusciti a localizzare la posizione. I ricercatori stanno lavorando sodo per identificarne altri, ma purtroppo è un lavoro che richiede tempo...
+At the moment, this is the only corrupted portal that<<n>>we have been able to localize.<<n>>Researchers are working hard to identify more of them,<<n>>but unfortunately this task takes a lot of time...
+\PN, sono certo che se riuscissi ad ottenere più informazioni tramite questa prima Furia, la ricerca ne gioverebbe.
+\PN, if you could get more information about<<n>>this first Fury, I'm sure the research would benefit.
+Tuttavia, a causa dell'energia assorbita, nessuna Ball è in grado di imprigionarli... ma non temere!
+However, because of the energy they absorbed, there's<<n>>no Ball that could catch them...but don't panic!
+Grazie alle conoscenze tramandate dai Cardinali, siamo riusciti a ricreare un oggetto che potrebbe farcela. Prendi.
+Thanks to the ancient wisdom of the Cardinals, we've<<n>>succeeded in recreating an item that could make it.<<n>>Here it is.
+Quello è un <b>Sigillo Furia</b>, un antico artefatto che in un passato remoto veniva utilizzato per esorcizzare i cosiddetti "demoni" e contenerne i poteri, dopo averli privati delle loro energie.
+That's a <b>Fury Seal</b>, an ancient artifact formerly used to exorcize creatures known as "demons"<<n>>and hold their incredible power, after having consumed their energy in ferocious battles.
+\PN, sappi che questa potrebbe essere una sfida più impegnativa di quanto sembri... Mi raccomando, fai attenzione!
+Know this, \PN...this could be a lot harder<<n>>than you could even imagine...<<n>>Be careful!
+Ancora una volta abbiamo affidato le sorti di questo mondo al giovane \PN...
+Once again, we have entrusted the destiny of this world<<n>>to the hands of the young \PN...
+Tarassaco, è tempo per noi di tornare ad Eldiw e redigere un rapporto per la Polizia Internazionale. Andiamo, forza!
+Taraxo, it is time for us to get back to Eldiw and<<n>>write a report for the International Police.<<n>>Come on, partner!
+In bocca al lupo, \PN!
+Best of luck, \PN!
+<<[>>old<<]>><b>ATTENZIONE!</b>
+<<[>>old<<]>><b>WARNING!</b>
+<<[>>old<<]>>Stai per affrontare una Battaglia Furiosa. Non potrai utilizzare alcun Rimedio e potrai portare con te solo 3 Pokémon. Vuoi proseguire?
+<<[>>old<<]>>You are going to face a <b>Furious Battle</b>. You won't be able to use any Medicine and you could take only 3 Pokémon with you.\nDo you wish to proceed?
+<<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
+<<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
+Dielebi
+Dielebi
+Lebi...!
+Lebi...!
+<<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
+<<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 Sì
 Yes
 No
