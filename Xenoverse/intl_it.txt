@@ -10605,10 +10605,10 @@ Pare che viva a galla in acqua a causa della foglia che ha in testa, diventata t
 Pare che viva a galla in acqua a causa della foglia che ha in testa, diventata troppo grande e pesante.
 271
 E' un po' dispettoso. Se vede un pescatore, gli tira la lenza solo per dargli fastidio.
-E' un po' dispettoso. Se vede un pescatore, gli tira la lenza solo per dargli fastidio.
+È un po' dispettoso. Se vede un pescatore, gli tira la lenza solo per dargli fastidio.
 272
 Ludicolo inizia a ballare appena sente una musica allegra e festosa. Pare che questo Pokemon appaia quando sente il canto gioioso dei bambini durante le escursioni.
-Ludicolo inizia a ballare appena sente una musica allegra e festosa. Pare che questo Pokemon appaia quando sente il canto gioioso dei bambini durante le escursioni.
+Se ascolta musica allegra, tutto il suo corpo si rivitalizza e non riesce ad evitare di ballare.
 273
 Si attacca ai rami degli alberi usando il picciolo che ha sul capo. Talvolta il vento lo fa cadere.
 Si attacca ai rami degli alberi usando il picciolo che ha sul capo. Talvolta il vento lo fa cadere.

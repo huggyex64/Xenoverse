@@ -10698,6 +10698,12 @@ Sì
 Yes
 No
 No
+Kanto
+Kanto region
+Isola Shinobi
+Shinobi Island
+Ho cambiato idea
+Never mind!
 [Map225]
 Joseph
 Joseph
@@ -28093,13 +28099,13 @@ Velentarma
 Velentarma
 270
 Alga
-Alga
+Water Weed
 271
 Giocoso
-Giocoso
+Jolly
 272
 Spensierato
-Spensierato
+Carefree
 273
 Ghianda
 Acorn
@@ -31229,13 +31235,13 @@ Pokemon notturno. Attirato dalla luce dei lampioni, divora le foglie degli alber
 Pokemon notturno. Attirato dalla luce dei lampioni, divora le foglie degli alberi lungo i viali.
 270
 Pare che viva a galla in acqua a causa della foglia che ha in testa, diventata troppo grande e pesante.
-Pare che viva a galla in acqua a causa della foglia che ha in testa, diventata troppo grande e pesante.
+Its leaf grew too large for it to live on land. That is how it began to live floating in the water.
 271
 E' un po' dispettoso. Se vede un pescatore, gli tira la lenza solo per dargli fastidio.
-E' un po' dispettoso. Se vede un pescatore, gli tira la lenza solo per dargli fastidio.
+It has a mischievous spirit. If it spots an angler, it will tug on the fishing line to interfere.
 272
 Ludicolo inizia a ballare appena sente una musica allegra e festosa. Pare che questo Pokemon appaia quando sente il canto gioioso dei bambini durante le escursioni.
-Ludicolo inizia a ballare appena sente una musica allegra e festosa. Pare che questo Pokemon appaia quando sente il canto gioioso dei bambini durante le escursioni.
+If it hears festive music, all its muscles fill with energy. It can't help breaking out into a dance.
 273
 Si attacca ai rami degli alberi usando il picciolo che ha sul capo. Talvolta il vento lo fa cadere.
 It attaches itself to a tree branch using the top of its head. Strong winds can sometimes make it fall.
@@ -50656,6 +50662,15 @@ Hypelion Gym
 563
 Tempio Shyleon
 Shyleon Temple
+564
+Isola Shinobi
+Shinobi Island
+565
+Isola Shinobi
+Shinobi Island
+566
+Isola Shinobi
+Shinobi Island
 [21]
 How are your Pokemon doing?\mMy \TP's really energetic. It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
 How are your Pokemon doing?\mMy \TP's really energetic.  It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
