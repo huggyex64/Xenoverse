@@ -104,12 +104,35 @@ class PokeBattle_Trainer
         end
         tempPt = $Trainer.party
         $Trainer.party = []
-        app = @realParty.select(proc{|p|
+        echoln @realParty
+        echoln tempPt
+        if $MKXP
+          temp = []
           for i in tempPt
-            return true if i.personalID == p.personalID
+            temp.push(i.personalID)
           end
-        return false})
-        $Trainer.party = tempPt + (@realParty-app)
+          rp = @realParty.clone
+          del = []
+          for i in rp
+            if temp.include?(i.personalID)
+              temp.delete(i.personalID)
+              del.push(i)
+            end
+          end
+          rp = rp-del
+          $Trainer.party = (tempPt+rp).uniq
+        else
+          app = @realParty.select(proc{|p|
+            for i in tempPt
+              echoln "#{i.personalID} #{p.personalID}"
+              return true if i.personalID == p.personalID
+            end
+          return false})
+          echoln "APP"
+          echoln app
+          $Trainer.party = tempPt + (@realParty-app)
+        end
+        
 
         @inShinobiIsland = false
 
