@@ -45,10 +45,12 @@ def shouldIgnore?(species)
   for i in ignore
     return true if isConst?(species,PBSpecies,i)
   end
+  return false
 end
 
 def shouldIgnoreX?(species)
   return true if isConst?(species,PBSpecies,IGNOREX[0])
+  return false
 end
 
 def pbSCELDIW(seen=true,ignore=true)  
@@ -71,12 +73,12 @@ def pbSCXENO(seen=true)
   ret = 0
   if seen
     for i in XENODEX
-      next if shouldIgnoreX?
+      next if shouldIgnoreX?(i)
       ret+=1 if $Trainer.seen[i]
     end
   else
     for i in XENODEX
-      next if shouldIgnoreX?
+      next if shouldIgnoreX?(i)
       ret+=1 if $Trainer.owned[i]
     end
   end
