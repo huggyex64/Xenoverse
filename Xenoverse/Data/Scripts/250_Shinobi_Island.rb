@@ -70,6 +70,10 @@ class PokeBattle_Trainer
             for item in @realBag.pockets[pbGetPocket(267)]
                 $PokemonBag.pbStoreItem(item[0],item[1])
             end
+            $PokemonBag.pbStoreItem(PBItems::OLDROD,@realBag.pbQuantity(PBItems::OLDROD)) if @realBag.pbQuantity(PBItems::OLDROD)>0
+            $PokemonBag.pbStoreItem(PBItems::GOODROD,@realBag.pbQuantity(PBItems::GOODROD)) if @realBag.pbQuantity(PBItems::GOODROD)>0
+            $PokemonBag.pbStoreItem(PBItems::SUPERROD,@realBag.pbQuantity(PBItems::SUPERROD)) if @realBag.pbQuantity(PBItems::SUPERROD)>0
+            $PokemonBag.pbStoreItem(PBItems::SPECIALROD,@realBag.pbQuantity(PBItems::SPECIALROD)) if @realBag.pbQuantity(PBItems::SPECIALROD)>0
             $Trainer.party = Marshal.load(Marshal.dump(ret))
 
             #Removing healing items
@@ -97,7 +101,11 @@ class PokeBattle_Trainer
             if index != pbGetPocket(267)
                 echoln(pocket)
                 for item in pocket
-                    $PokemonBag.pbStoreItem(item[0],item[1])
+                  next if item[0]==PBItems::OLDROD
+                  next if item[0]==PBItems::GOODROD
+                  next if item[0]==PBItems::SUPERROD
+                  next if item[0]==PBItems::SPECIALROD
+                  $PokemonBag.pbStoreItem(item[0],item[1])
                 end
             end
             index+=1
