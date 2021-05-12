@@ -57641,6 +57641,8 @@ Hai visto {1} Pokémon Retrò e ne hai catturati {2}.
 You've seen {1} Vintage Pokémon, and you've caught {2} Vintage Pokémon.
 Gennaro
 Joey
+Devi scegliere 3 Pokémon da portare con te!
+Choose 3 Pokémon to take with you!
 
 
 
