@@ -1248,6 +1248,10 @@ def pbGenerateWildPokemon(species,level)
     genwildpoke.givePokerus
   end
   Events.onWildPokemonCreate.trigger(nil,genwildpoke)
+  if SAVESHINYFLAG.include?(genwildpoke.species)
+    pbSet(200,genwildpoke.isShiny? ? 1:0)
+  end
+
   return genwildpoke
 end
 

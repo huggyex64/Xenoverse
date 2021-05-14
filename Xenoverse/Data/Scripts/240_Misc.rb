@@ -24,6 +24,8 @@ def pbBattleAltPokemonForm(pkmn,form=0,variable=nil,canescape=true,canlose=false
   pbWildPokemonBattle(pkmn,variable,canescape,canlose,skipanim) 
 end
 
+SAVESHINYFLAG=[PBSpecies::GRENINJAX]
+
 #===============================================================================
 # Start a single wild Pokemon battle
 #===============================================================================
