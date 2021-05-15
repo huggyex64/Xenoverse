@@ -3197,7 +3197,7 @@ class PokeBattle_Battle
 		for i in priority
 			next if i.isFainted?
 			# Poison/Bad poison
-			if i.status==PBStatuses::POISON
+			if i.status==PBStatuses::POISON && !i.hasWorkingAbility(:MAGICGUARD)
 				if i.hasWorkingAbility(:POISONHEAL)
 					PBDebug.log("[#{i.pbThis}'s Poison Heal triggered]")
 					if i.effects[PBEffects::HealBlock]==0
@@ -3224,7 +3224,7 @@ class PokeBattle_Battle
 				end
 			end
 			# Burn
-			if i.status==PBStatuses::BURN
+			if i.status==PBStatuses::BURN && !i.hasWorkingAbility(:MAGICGUARD)
 				PBDebug.log("[#{i.pbThis} took damage from burn]")
 				if i.hasWorkingAbility(:HEATPROOF)
 					PBDebug.log("[#{i.pbThis}'s Heatproof triggered]")
