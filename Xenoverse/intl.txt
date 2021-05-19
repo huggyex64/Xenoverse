@@ -503,7 +503,7 @@ Yes
 [Map14]
 Fugen
 Fugen
-Ciao! Sei tu il||la famoso|a \\PN, vero?
+Ciao! Sei tu il||la famoso|a \PN, vero?
 Hi there! You're the famous \PN, aren't you?
 Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
 Mr. Taraxo left me a message to give you this ticket.
@@ -777,7 +777,7 @@ Kiloo...!
 [Map22]
 Fugen
 Fugen
-Ciao! Sei tu il||la famoso|a \\PN, vero?
+Ciao! Sei tu il||la famoso|a \PN, vero?
 Hi there! You're the famous \PN, aren't you?
 Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
 Mr. Taraxo left me a message to give you this ticket.
@@ -1261,7 +1261,7 @@ Oh, \PN...you're always ready for adventure, huh?
 [Map30]
 Fugen
 Fugen
-Ciao! Sei tu il||la famoso|a \\PN, vero?
+Ciao! Sei tu il||la famoso|a \PN, vero?
 Hi there! You're the famous \PN, aren't you?
 Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
 Mr. Taraxo left me a message to give you this ticket.
@@ -4807,7 +4807,7 @@ In these areas, sometimes you can find a particular stone, called the <b>Xenolit
 [Map98]
 Fugen
 Fugen
-Ciao! Sei tu il||la famoso|a \\PN, vero?
+Ciao! Sei tu il||la famoso|a \PN, vero?
 Hi there! You're the famous \PN, aren't you?
 Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
 Mr. Taraxo left me a message to give you this ticket.
@@ -6835,7 +6835,7 @@ No
 [Map160]
 Fugen
 Fugen
-Ciao! Sei tu il||la famoso|a \\PN, vero?
+Ciao! Sei tu il||la famoso|a \PN, vero?
 Hi there! You're the famous \PN, aren't you?
 Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
 Mr. Taraxo left me a message to give you this ticket.
@@ -9448,7 +9448,7 @@ Use Box
 [Map210]
 Fugen
 Fugen
-Ciao! Sei tu il||la famoso|a \\PN, vero?
+Ciao! Sei tu il||la famoso|a \PN, vero?
 Hi there! You're the famous \PN, aren't you?
 Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
 Mr. Taraxo left me a message to give you this ticket.
@@ -10822,7 +10822,7 @@ I sure wanna shop if there's a Poké Mart right inside<<n>>the airport!
 [Map228]
 Fugen
 Fugen
-Ciao! Sei tu il||la famoso|a \\PN, vero?
+Ciao! Sei tu il||la famoso|a \PN, vero?
 Hi there! You're the famous \PN, aren't you?
 Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
 Mr. Taraxo left me a message to give you this ticket.
@@ -14120,7 +14120,7 @@ You can fish completely different Pokémon...<<n>>It all depends on the version 
 [Map308]
 Fugen
 Fugen
-Ciao! Sei tu il||la famoso|a \\PN, vero?
+Ciao! Sei tu il||la famoso|a \PN, vero?
 Hi there! You're the famous \PN, aren't you?
 Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
 Mr. Taraxo left me a message to give you this ticket.
@@ -15313,7 +15313,7 @@ Hello! This is the Poké Mart in Vermilion City!
 [Map341]
 Fugen
 Fugen
-Ciao! Sei tu il||la famoso|a \\PN, vero?
+Ciao! Sei tu il||la famoso|a \PN, vero?
 Hi there! You're the famous \PN, aren't you?
 Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
 Mr. Taraxo left me a message to give you this ticket.
@@ -17397,7 +17397,7 @@ No
 [Map389]
 Fugen
 Fugen
-Ciao! Sei tu il||la famoso|a \\PN, vero?
+Ciao! Sei tu il||la famoso|a \PN, vero?
 Hi there! You're the famous \PN, aren't you?
 Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
 Mr. Taraxo left me a message to give you this ticket.
@@ -17918,7 +17918,7 @@ Are you a Hiker too, maybe?
 [Map410]
 Fugen
 Fugen
-Ciao! Sei tu il||la famoso|a \\PN, vero?
+Ciao! Sei tu il||la famoso|a \PN, vero?
 Hi there! You're the famous \PN, aren't you?
 Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
 Mr. Taraxo left me a message to give you this ticket.
@@ -18074,7 +18074,7 @@ Defeat is nothing but education.
 [Map416]
 Fugen
 Fugen
-Ciao! Sei tu il||la famoso|a \\PN, vero?
+Ciao! Sei tu il||la famoso|a \PN, vero?
 Hi there! You're the famous \PN, aren't you?
 Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
 Mr. Taraxo left me a message to give you this ticket.
@@ -18206,7 +18206,7 @@ Once a year, an old longbeard comes down the mountains<<n>>with his Reindear to 
 [Map420]
 Fugen
 Fugen
-Ciao! Sei tu il||la famoso|a \\PN, vero?
+Ciao! Sei tu il||la famoso|a \PN, vero?
 Hi there! You're the famous \PN, aren't you?
 Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
 Mr. Taraxo left me a message to give you this ticket.
@@ -21208,7 +21208,7 @@ Osservate questo tempietto... non notate nulla di diverso?
 Look at this shrine...nothing strange with it?
 Esatto, ha un colore diverso... un rosso sanguigno!
 Indeed, it has a different color...a blood red!
-Questa è una vera e propria anomalia dimensionale dovuta all'influsso dell'energia di cui pocanzi parlavo. È assai probabile che all'interno di questi portali si siano annidati potenti Pokémon dagli intenti belligeranti! È assai probabile, se non certo, che all'interno di questi portali si siano annidati potenti Pokémon dagli intenti belligeranti!
+Questa è una vera e propria anomalia dimensionale dovuta all'influsso dell'energia di cui pocanzi parlavo. È assai probabile che all'interno di questi portali si siano annidati potenti Pokémon dagli intenti belligeranti!
 This is an actual dimensional anomaly caused by the influence of this energy I mentioned a moment ago.<<n>>It is very likely that lots of powerful Pokémon with belligerent intents are lurking within these portals!
 Da uomini di scienza, ci siamo arrogati il diritto di dar loro un nome che ne descrivesse la pericolosità...
 As men of science, we believed that we had a duty to give them a name to describe the danger they represent...
@@ -21248,6 +21248,8 @@ Lebi...!
 Lebi...!
 <<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
 <<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
+<<[>>old<<]>>Vuoi tornare ad Eldiw?
+<<[>>old<<]>>Will you go back to Eldiw?
 Sì
 Yes
 No
@@ -57641,9 +57643,7 @@ Hai visto {1} Pokémon Retrò e ne hai catturati {2}.
 You've seen {1} Vintage Pokémon, and you've caught {2} Vintage Pokémon.
 Gennaro
 Joey
-Devi scegliere 3 Pokémon da portare con te!
-Choose 3 Pokémon to take with you!
-
-
+Devi scegliere 3 Pokémon da portare con te.
+Choose three Pokémon to take with you!
 
 
