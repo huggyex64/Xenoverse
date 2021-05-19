@@ -94,19 +94,29 @@ class PokeBattle_Trainer
 
         # Bring back acquired items
         tempBag = $PokemonBag
-        $PokemonBag = @realBag if @realBag != nil
+        $PokemonBag = PokemonBag.new#@realBag if @realBag != nil
         
         index = 0
         for pocket in tempBag.pockets
+            #if index != pbGetPocket(267)
+            #    echoln(pocket)
+            for item in pocket
+              next if item[0]==PBItems::OLDROD
+              next if item[0]==PBItems::GOODROD
+              next if item[0]==PBItems::SUPERROD
+              next if item[0]==PBItems::SPECIALROD
+              $PokemonBag.pbStoreItem(item[0],item[1])
+            end
+            #end
+            index+=1
+        end
+        index = 0
+        for pocket in @realBag.pockets
             if index != pbGetPocket(267)
-                echoln(pocket)
-                for item in pocket
-                  next if item[0]==PBItems::OLDROD
-                  next if item[0]==PBItems::GOODROD
-                  next if item[0]==PBItems::SUPERROD
-                  next if item[0]==PBItems::SPECIALROD
-                  $PokemonBag.pbStoreItem(item[0],item[1])
-                end
+            #    echoln(pocket)
+              for item in pocket
+                $PokemonBag.pbStoreItem(item[0],item[1])
+              end
             end
             index+=1
         end
