@@ -1296,11 +1296,6 @@ def pbWildBattle(species,level,variable=nil,canescape=true,canlose=false,modifie
     genwildpoke.spDef = modifiers[4]
     genwildpoke.speed = modifiers[5]    
   end
-  if $game_switches[85]==true
-    if species == PBSpecies::GRENINJAX
-      genwildpoke.setAbility(2)
-    end
-  end
   scene=pbNewBattleScene
   battle=PokeBattle_Battle.new(scene,$Trainer.party,[genwildpoke],$Trainer,nil)
   battle.internalbattle=true

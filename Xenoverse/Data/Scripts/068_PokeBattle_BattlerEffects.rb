@@ -4,6 +4,10 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanSleep?(showMessages,selfsleep=false,ignorestatus=false)
     return false if isFainted?
+    if IMMUNESHINOBI.include?(species) && isBoss?
+      @battle.pbDisplay(_INTL("But it failed!")) if showMessages
+      return false
+    end
     if !ignorestatus && status==PBStatuses::SLEEP
       @battle.pbDisplay(_INTL("{1} is already asleep!",pbThis)) if showMessages
       return false
@@ -83,6 +87,10 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanPoison?(showMessages)
     return false if isFainted?
+    if IMMUNESHINOBI.include?(species) && isBoss?
+      @battle.pbDisplay(_INTL("But it failed!")) if showMessages
+      return false
+    end
     if status==PBStatuses::POISON
       @battle.pbDisplay(_INTL("{1} is already poisoned.",pbThis)) if showMessages
       return false
@@ -109,6 +117,10 @@ class PokeBattle_Battler
 
   def pbCanPoisonSynchronize?(opponent)
     return false if isFainted?
+    if IMMUNESHINOBI.include?(species) && isBoss?
+      @battle.pbDisplay(_INTL("But it failed!")) if showMessages
+      return false
+    end
     if (pbHasType?(:POISON) || pbHasType?(:STEEL)) && !hasWorkingItem(:RINGTARGET)
       @battle.pbDisplay(_INTL("{1}'s {2} had no effect on {3}!",
          opponent.pbThis,PBAbilities.getName(opponent.ability),pbThis(true)))
@@ -127,6 +139,7 @@ class PokeBattle_Battler
 
   def pbCanPoisonSpikes?
     return false if isFainted?
+    return false if IMMUNESHINOBI.include?(species) && isBoss?    
     return false if self.status!=0
     return false if pbHasType?(:POISON) || pbHasType?(:STEEL)
     return false if hasWorkingAbility(:IMMUNITY)
@@ -161,6 +174,10 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanBurn?(showMessages)
     return false if isFainted?
+    if IMMUNESHINOBI.include?(species) && isBoss?
+      @battle.pbDisplay(_INTL("But it failed!")) if showMessages
+      return false
+    end
     if self.status==PBStatuses::BURN
       @battle.pbDisplay(_INTL("{1} already has a burn.",pbThis)) if showMessages
       return false
@@ -187,6 +204,10 @@ class PokeBattle_Battler
 
   def pbCanBurnFromFireMove?(move,showMessages) # Use for status moves only
     return false if isFainted?
+    if IMMUNESHINOBI.include?(species) && isBoss?
+      @battle.pbDisplay(_INTL("But it failed!")) if showMessages
+      return false
+    end
     if self.status==PBStatuses::BURN
       @battle.pbDisplay(_INTL("{1} already has a burn.",pbThis)) if showMessages
       return false
@@ -222,6 +243,10 @@ class PokeBattle_Battler
 
   def pbCanBurnSynchronize?(opponent)
     return false if isFainted?
+    if IMMUNESHINOBI.include?(species) && isBoss?
+      @battle.pbDisplay(_INTL("But it failed!")) if showMessages
+      return false
+    end
     return false if self.status!=0
     if pbHasType?(:FIRE) && !hasWorkingItem(:RINGTARGET)
        @battle.pbDisplay(_INTL("{1}'s {2} had no effect on {3}!",
@@ -255,6 +280,10 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanParalyze?(showMessages)
     return false if isFainted?
+    if IMMUNESHINOBI.include?(species) && isBoss?
+      @battle.pbDisplay(_INTL("But it failed!")) if showMessages
+      return false
+    end
     if status==PBStatuses::PARALYSIS
       @battle.pbDisplay(_INTL("{1} is already paralyzed!",pbThis)) if showMessages
       return false
@@ -277,6 +306,10 @@ class PokeBattle_Battler
 
   def pbCanParalyzeSynchronize?(opponent)
     return false if self.status!=0
+    if IMMUNESHINOBI.include?(species) && isBoss?
+      @battle.pbDisplay(_INTL("But it failed!")) if showMessages
+      return false
+    end
     if hasWorkingAbility(:LIMBER) ||
        (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY)
       @battle.pbDisplay(_INTL("{1}'s {2} prevents {3}'s {4} from working!",
@@ -304,6 +337,10 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanFreeze?(showMessages)
     return false if isFainted?
+    if IMMUNESHINOBI.include?(species) && isBoss?
+      @battle.pbDisplay(_INTL("But it failed!")) if showMessages
+      return false
+    end
     if @battle.pbWeather==PBWeather::SUNNYDAY || self.status!=0 ||
        hasWorkingAbility(:MAGMAARMOR) ||
        pbOwnSide.effects[PBEffects::Safeguard]>0 ||
@@ -429,6 +466,10 @@ class PokeBattle_Battler
   def pbCanAttract?(attacker,showMessages=true)
     return false if isFainted?
     return false if !attacker
+    if IMMUNESHINOBI.include?(species) && isBoss?
+      @battle.pbDisplay(_INTL("But it failed!")) if showMessages
+      return false
+    end
     if @effects[PBEffects::Attract]>=0
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false

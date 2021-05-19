@@ -147,6 +147,7 @@ class PokeBattle_Trainer
     end
 end
 
+IMMUNESHINOBI = [PBSpecies::GRENINJAX]
 
 #NEW BOSS TRANSITION
 class NewBossBattleTransition
