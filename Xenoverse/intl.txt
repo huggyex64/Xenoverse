@@ -512,7 +512,7 @@ He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervo
 Che sia il biglietto aereo per raggiungerlo laggiù?
 May that one be the air ticket to go and join him there?
 In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
-If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+If that's the case, show it to the right person<<n>>in <b>Samuel Oak Airport</b>.
 Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
 Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
 Eva
@@ -21250,6 +21250,16 @@ Lebi...!
 <<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 <<[>>old<<]>>Vuoi tornare ad Eldiw?
 <<[>>old<<]>>Will you go back to Eldiw?
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
+Cura Pokémon
+Heal Pokémon
+Usa Box
+Use Box
 Sì
 Yes
 No
