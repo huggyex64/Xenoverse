@@ -96,6 +96,9 @@ class PokeBattle_Trainer
         tempBag = $PokemonBag
         $PokemonBag = PokemonBag.new#@realBag if @realBag != nil
         
+        if $game_switches[997]==true
+          $game_switches[997]=false
+
         index = 0
         for pocket in tempBag.pockets
             #if index != pbGetPocket(267)
