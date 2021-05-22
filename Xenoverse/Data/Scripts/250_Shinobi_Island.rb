@@ -98,6 +98,7 @@ class PokeBattle_Trainer
         
         if $game_switches[997]==true
           $game_switches[997]=false
+        end
 
         index = 0
         for pocket in tempBag.pockets
