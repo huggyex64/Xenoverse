@@ -6,7 +6,7 @@ class ::Array
     return false
   end
 
-  def select(predicate)
+  def pick(predicate)
     ret=[]
     for i in 0...self.length
       ret.push(self[i]) if predicate.call(self[i])
@@ -144,7 +144,7 @@ class PokeBattle_Trainer
           rp = rp-del
           $Trainer.party = (tempPt+rp).uniq
         else
-          app = @realParty.select(proc{|p|
+          app = @realParty.pick(proc{|p|
             for i in tempPt
               echoln "#{i.personalID} #{p.personalID}"
               return true if i.personalID == p.personalID
