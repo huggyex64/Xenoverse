@@ -53,6 +53,24 @@ def shouldIgnoreX?(species)
   return false
 end
 
+def getEldiwDexChecks
+  ret =[]
+  for i in ELDIWDEX
+    next if shouldIgnore?(i)
+    ret.push(i)
+  end
+  return ret
+end
+
+def getXenoDexChecks
+  ret =[]
+  for i in XENODEX
+    next if shouldIgnoreX?(i)
+    ret.push(i)
+  end
+  return ret
+end
+
 def pbSCELDIW(seen=true,ignore=true)  
   ret = 0
   if seen
