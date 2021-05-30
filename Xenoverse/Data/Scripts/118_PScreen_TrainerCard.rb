@@ -40,7 +40,7 @@ class PokemonTrainerCardScene
     echo "\n"
     echo pbAllRegionalSpecies(0).length
     echo $Trainer.pokedexOwned(0) >= pbAllRegionalSpecies(0).length
-    if $game_switches[576] && pbSCELDIW(false) >= ELDIWDEX.length
+    if $game_switches[576] && pbSCELDIW(false) >=  getEldiwDexChecks(true).length
       card = "pokedex"
     elsif $game_switches[576]
       card = "lega"

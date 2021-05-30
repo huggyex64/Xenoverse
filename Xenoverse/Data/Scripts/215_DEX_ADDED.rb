@@ -39,6 +39,8 @@ IGNORESHINOBI=[:GROWLITHE,:ARCANINE,:SEEDOT,:NUZLEAF,:SHIFTRY,:MIENFOO,
 
 IGNOREX = [:GRENINJAX]
 
+MYTHDOGS = [PBSpecies::ENTEI,PBSpecies::RAIKOU,PBSpecies::SUICUNE]
+
 def shouldIgnore?(species)
   ignore = []
   ignore = ((ignore-(ignore&IGNORESHINOBI))+IGNORESHINOBI) #this ensures there are no duplicates
@@ -53,10 +55,11 @@ def shouldIgnoreX?(species)
   return false
 end
 
-def getEldiwDexChecks
+def getEldiwDexChecks(ignoreDogs = false)
   ret =[]
   for i in ELDIWDEX
     next if shouldIgnore?(i)
+    next if ignoreDogs && MYTHDOGS.include?(i)
     ret.push(i)
   end
   return ret
