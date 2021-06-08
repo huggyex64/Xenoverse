@@ -2833,9 +2833,11 @@ Outdoor=false
 WildBattleBGM=VS. Lugiahooh.mp3
 [446]
 # Ofiuchia
+BattleBack=tempioshyleon
 Bicycle=false
 MapPosition=0,18,17
 Outdoor=false
+WildBattleBGM=Wild Battle Jungle.mp3
 [447]
 # Ofiuchia
 BattleBack=Bosco

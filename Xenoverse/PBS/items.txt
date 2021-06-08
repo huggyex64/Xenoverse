@@ -746,3 +746,4 @@
 787,BOTDRAGO,Update Drago,1,0,"Update contenente i dati del Pokémon Seadra. Permette al Pokémon di evolversi tramite Trasferitore.",1,0,0,
 788,PASSSHINOBI,Biglietto Shinobi,8,0,"Un biglietto aereo per visitare l'Isola Shinobi.",1,0,6,
 789,SIGILLONINJA,Sigillo Furia,8,0,"Un sigillo regalato da Tarassaco che emana un'energia misteriosa.",1,0,6,
+790,POISONSTONE,Pietrafiele,1,2100,"Pietra particolare che fa evolvere determinate specie di Pokémon. È di un color viola intenso.",1,0,0,
