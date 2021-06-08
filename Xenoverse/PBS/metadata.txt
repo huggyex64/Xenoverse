@@ -2820,11 +2820,11 @@ Outdoor=true
 WildBattleBGM=VS. Lugiahooh.mp3
 [444]
 # Cansiria
-BattleBack=Old
+BattleBack=Aula2
 Bicycle=false
 MapPosition=0,23,3
 Outdoor=false
-WildBattleBGM=VS. Cani Leggendari.mp3
+WildBattleBGM=Wild Battle.mp3
 [445]
 # Cansiria
 BattleBack=Old
