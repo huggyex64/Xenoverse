@@ -2820,7 +2820,7 @@ Outdoor=true
 WildBattleBGM=VS. Lugiahooh.mp3
 [444]
 # Cansiria
-BattleBack=Aula2
+BattleBack=Entei
 Bicycle=false
 MapPosition=0,23,3
 Outdoor=false
@@ -3417,3 +3417,31 @@ Weather=Rain,100
 Bicycle=false
 Outdoor=false
 ShowArea=true
+[567]
+# Cansiria
+BattleBack=Entei
+Bicycle=false
+[568]
+# Cansiria
+Bicycle=false
+[569]
+# Cansiria
+BattleBack=Entei
+Bicycle=false
+WildBattleBGM=Wild Battle.mp3
+[570]
+# Cansiria
+Bicycle=false
+[571]
+# Cansiria
+BattleBack=Entei
+Bicycle=false
+WildBattleBGM=Wild Battle.mp3
+[572]
+# Cansiria
+Bicycle=false
+[573]
+# Cansiria
+BattleBack=Entei
+Bicycle=false
+WildBattleBGM=Wild Battle.mp3
