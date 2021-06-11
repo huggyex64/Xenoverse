@@ -3445,3 +3445,38 @@ Bicycle=false
 BattleBack=Entei
 Bicycle=false
 WildBattleBGM=Wild Battle.mp3
+[574]
+# Ofiuchia
+Bicycle=false
+[575]
+# Ofiuchia
+BattleBack=tempioshyleon
+Bicycle=false
+WildBattleBGM=Wild Battle Jungle.mp3
+[576]
+# Ofiuchia
+Bicycle=false
+[577]
+# Ofiuchia
+BattleBack=tempioshyleon
+Bicycle=false
+WildBattleBGM=Wild Battle Jungle.mp3
+[578]
+# Ofiuchia
+Bicycle=false
+[579]
+# Ofiuchia
+BattleBack=tempioshyleon
+Bicycle=false
+WildBattleBGM=Wild Battle Jungle.mp3
+[580]
+# Ofiuchia
+Bicycle=false
+[581]
+# Ofiuchia
+BattleBack=tempioshyleon
+Bicycle=false
+WildBattleBGM=Wild Battle Jungle.mp3
+[582]
+# Ofiuchia
+Bicycle=false
