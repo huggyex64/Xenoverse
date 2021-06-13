@@ -2912,9 +2912,11 @@ Outdoor=false
 ShowArea=true
 [457]
 # Tauronordia
+BattleBack=Suicune
 Bicycle=false
 MapPosition=0,12,1
 Outdoor=false
+WildBattleBGM=Wild Battle Snow.mp3
 [458]
 # Tauronordia
 Bicycle=false
