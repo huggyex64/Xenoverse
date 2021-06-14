@@ -2919,14 +2919,18 @@ Outdoor=false
 WildBattleBGM=Wild Battle Snow.mp3
 [458]
 # Tauronordia
+BattleBack=Suicune
 Bicycle=false
 MapPosition=0,12,1
 Outdoor=false
+WildBattleBGM=Wild Battle Snow.mp3
 [459]
 # Tauronordia
+BattleBack=Suicune
 Bicycle=false
 MapPosition=0,12,1
 Outdoor=false
+WildBattleBGM=Wild Battle Snow.mp3
 [460]
 # Tauronordia
 BattleBack=Old
@@ -3482,3 +3486,25 @@ WildBattleBGM=Wild Battle Jungle.mp3
 [582]
 # Ofiuchia
 Bicycle=false
+[583]
+# Tauronordia
+Bicycle=false
+[584]
+# Tauronordia
+Bicycle=false
+[585]
+# Tauronordia
+BattleBack=Suicune
+Bicycle=false
+WildBattleBGM=Wild Battle Snow.mp3
+[586]
+# Tauronordia
+Bicycle=false
+[587]
+# Tauronordia
+Bicycle=false
+[588]
+# Tauronordia
+BattleBack=Suicune
+Bicycle=false
+WildBattleBGM=Wild Battle Snow.mp3
