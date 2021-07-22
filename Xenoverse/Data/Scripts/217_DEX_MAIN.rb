@@ -7,7 +7,7 @@ ELDIWDEX = pbAllRegionalSpecies(0)#[1021,1022,1023,1024,1025,1026,1027,1028,1029
 ELDIWDEX.delete(0) if ELDIWDEX.include?(0)
 NATIONALDEX = []
 RETRODEX = []
-for i in 1300..1449
+for i in 1300..1461
 	RETRODEX.push(i)
 end
 XENODEX = pbAllRegionalSpecies(1) #[]
@@ -16,7 +16,7 @@ XENODEX.delete(0) if XENODEX.include?(0)
 
 
 class DexMain
-  attr_accessor(:sprites)
+  	attr_accessor(:sprites)
 	attr_accessor(:viewport)
 	attr_accessor(:dex)
 	attr_accessor(:savedCriteria)

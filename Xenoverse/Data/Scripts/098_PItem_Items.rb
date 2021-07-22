@@ -81,7 +81,8 @@ def pbIsEvolutionStone?(item)
                  isConst?(item,PBItems,:DUSKSTONE) ||
                  isConst?(item,PBItems,:DAWNSTONE) ||
 							   isConst?(item,PBItems,:SHINYSTONE) ||
-								 isConst?(item,PBItems,:XENOLITE)
+								 isConst?(item,PBItems,:XENOLITE) ||
+                 isConst?(item,PBItems,:POISONSTONE)
   return false
 end
 

@@ -58,7 +58,10 @@ end
 def getEldiwDexChecks(ignoreDogs = false)
   ret =[]
   for i in ELDIWDEX
-    next if shouldIgnore?(i)
+    if shouldIgnore?(i)
+      echoln "#{i} ignored!"
+      next 
+    end
     next if ignoreDogs && MYTHDOGS.include?(i)
     ret.push(i)
   end

@@ -158,28 +158,28 @@ def pbBattleOnStepTaken
             if $Trainer.retrochain[encounter[1]]==nil
               $Trainer.retrochain[encounter[1]]=0
             end
-						ch = 1 + $Trainer.retrochain[encounter[0]]/63
-						e1 = (($game_switches[RETROMONSWITCH] && rand(4000)<ch) || $allRetro) ? RETROMON[encounter[0]] : encounter[0]
-						ch = 1 + $Trainer.retrochain[encounter[0]]/63
-            e2 = (($game_switches[RETROMONSWITCH] && rand(4000)<ch) || $allRetro) ? RETROMON[encounter2[0]] : encounter[0]
-            if RETROMON[encounter[0]] != nil
-							pbDoubleWildBattle(e1,encounter[1],e2,encounter2[1])
-						else
-							pbDoubleWildBattle(encounter[0],encounter[1],encounter2[0],encounter2[1])
-						end
+			ch = 1 + $Trainer.retrochain[encounter[0]]/63
+			e1 = (($game_switches[RETROMONSWITCH] && rand(4000)<ch) || $allRetro) ? RETROMON[encounter[0]] : encounter[0]
+			ch = 1 + $Trainer.retrochain[encounter[0]]/63
+			e2 = (($game_switches[RETROMONSWITCH] && rand(4000)<ch) || $allRetro) ? RETROMON[encounter2[0]] : encounter[0]
+			if RETROMON[encounter[0]] != nil
+				pbDoubleWildBattle(e1,encounter[1],e2,encounter2[1])
+			else
+				pbDoubleWildBattle(encounter[0],encounter[1],encounter2[0],encounter2[1])
+			end
           else
             if $Trainer.retrochain[encounter[0]]==nil
               $Trainer.retrochain[encounter[0]]=0
             end
             ch = 1 + $Trainer.retrochain[encounter[0]]/63
-						echoln "encounter #{encounter[0]}"
-						echoln "retro encounter #{RETROMON[encounter[0]]}"
-						if RETROMON[encounter[0]] != nil && (($game_switches[RETROMONSWITCH] && rand(4000)<ch) || $allRetro)
-							echoln "triggered retro"
-							pbWildBattle(RETROMON[encounter[0]],encounter[1])
-						else
-							pbWildBattle(encounter[0],encounter[1])
-						end
+			echoln "encounter #{encounter[0]}"
+			echoln "retro encounter #{RETROMON[encounter[0]]}"
+			if RETROMON[encounter[0]] != nil && (($game_switches[RETROMONSWITCH] && rand(4000)<ch) || $allRetro)
+				echoln "triggered retro"
+				pbWildBattle(RETROMON[encounter[0]],encounter[1])
+			else
+				pbWildBattle(encounter[0],encounter[1])
+			end
           end
         end
         EncounterModifier.triggerEncounterEnd()

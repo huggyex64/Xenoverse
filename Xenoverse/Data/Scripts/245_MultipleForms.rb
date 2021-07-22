@@ -2342,8 +2342,19 @@ MultipleForms.register(:MASGOT,{
 			dragonite_maps = [42]
 			granbull_maps = [79]
 			
-			if $game_map && heracross_maps.include?($game_map.map_id)
+			#dlc
+			gengar_maps = [444,569,571,573]
+			venusaur_maps = [446,575,577,579,581]
+			weavile_maps = [457,458,459,585,588]
+
+			if $game_map && gengar_maps.include?($game_map.map_id)
+				next 1 #GENGAR FORM
+			elsif $game_map && gengar_maps.include?($game_map.map_id)
+				next 2 #WEAVILE FORM
+			elsif $game_map && heracross_maps.include?($game_map.map_id)
 				next 6 #HERACROSS FORM
+			elsif $game_map && venusaur_maps.include?($game_map.map_id)
+				next 8 #VENUSAUR FORM
 			elsif $game_map && houndoom_maps.include?($game_map.map_id)
 				next 4 #HOUNDOOM FORM
 			elsif $game_map && ampharos_maps.include?($game_map.map_id)
