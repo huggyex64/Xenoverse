@@ -159,7 +159,7 @@ def pbEncounter(enctype)
 	ch = 1 + $Trainer.retrochain[encounter[0]]/63
 	echoln encounter[0]
 	echoln RETROMON[getConst(PBSpecies,encounter[0])]
-	if (($game_switches[RETROMONSWITCH] && rand(4000)<ch) || $allRetro)
+	if (($game_switches[RETROMONSWITCH] && rand(1000)<ch) || $allRetro)
 		echoln "triggered retro"
 		if RETROMON[encounter[0]] != nil
 			#if i'm in a special area, i want a 50/50 chance of encountering a special retromon if i would encounter a retromon
@@ -202,9 +202,9 @@ def pbBattleOnStepTaken
               $Trainer.retrochain[encounter[1]]=0
             end
 			ch = 1 + $Trainer.retrochain[encounter[0]]/63
-			e1 = (($game_switches[RETROMONSWITCH] && rand(4000)<ch) || $allRetro) ? RETROMON[encounter[0]] : encounter[0]
+			e1 = (($game_switches[RETROMONSWITCH] && rand(1000)<ch) || $allRetro) ? RETROMON[encounter[0]] : encounter[0]
 			ch = 1 + $Trainer.retrochain[encounter[0]]/63
-			e2 = (($game_switches[RETROMONSWITCH] && rand(4000)<ch) || $allRetro) ? RETROMON[encounter2[0]] : encounter[0]
+			e2 = (($game_switches[RETROMONSWITCH] && rand(1000)<ch) || $allRetro) ? RETROMON[encounter2[0]] : encounter[0]
 			if RETROMON[encounter[0]] != nil
 				pbDoubleWildBattle(e1,encounter[1],e2,encounter2[1])
 			else
@@ -217,7 +217,7 @@ def pbBattleOnStepTaken
             ch = 1 + $Trainer.retrochain[encounter[0]]/63
 			echoln "encounter #{encounter[0]}"
 			echoln "retro encounter #{RETROMON[encounter[0]]}"
-			if (($game_switches[RETROMONSWITCH] && rand(4000)<ch) || $allRetro)
+			if (($game_switches[RETROMONSWITCH] && rand(1000)<ch) || $allRetro)
 				echoln "triggered retro"
 				if RETROMON[encounter[0]] != nil
 					#if i'm in a special area, i want a 50/50 chance of encountering a special retromon if i would encounter a retromon
@@ -259,8 +259,8 @@ end
 def pbTestRetroChances
 	ch = 1 + $Trainer.retrochain[PBSpecies::AIPOM]/63
 	for i in 0...500
-		echoln "Found [#{rand(4000)<ch}]"
-		echo " Found [#{rand(4000)<ch}]"
-		echo " Found [#{rand(4000)<ch}]"
+		echoln "Found [#{rand(1000)<ch}]"
+		echo " Found [#{rand(1000)<ch}]"
+		echo " Found [#{rand(1000)<ch}]"
 	end
 end
