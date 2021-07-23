@@ -5001,20 +5001,20 @@ Piloswine
 Misdreavus
 Misdreavus
 1460
-Pangshi
-Pangshi
+Kurstraw
+Kurstraw
 1461
-????????
-????????
+Pangshi
+Pangshi
 1462
-????????
-????????
+Weedle
+Weedle
 1463
-????????
-????????
+Kakuna
+Kakuna
 1464
-????????
-????????
+Kasanagy
+Kasanagy
 1465
 ????????
 ????????
@@ -6656,6 +6656,18 @@ Trishout
 2011
 Shulong
 Shulong
+2012
+Chewtle
+Chewtle
+2013
+Drednaw
+Drednaw
+2026
+Unown
+Unown
+2027
+Duraludon
+Duraludon
 [2]
 1
 Seme
@@ -7943,7 +7955,7 @@ Coniglio
 Coniglio
 429
 Magical
-Magical
+Stregone
 430
 Grancapo
 Grancapo
@@ -8051,7 +8063,7 @@ Trapano
 Trapano
 465
 Vine
-Vine
+Liana
 466
 Saetta
 Saetta
@@ -8075,7 +8087,7 @@ Scorpidente
 Scorpidente
 473
 Twin Tusk
-Twin Tusk
+Duezanne
 474
 Virtuale
 Virtuale
@@ -8141,31 +8153,31 @@ Victory
 Victory
 495
 Grass Snake
-Grass Snake
+Serperba
 496
 Grass Snake
-Grass Snake
+Serperba
 497
 Regal
-Regal
+Regale
 498
 Fire Pig
-Fire Pig
+Suinfuoco
 499
 Fire Pig
-Fire Pig
+Suinfuoco
 500
 Mega Fire Pig
-Mega Fire Pig
+Suincendio
 501
 Sea Otter
-Sea Otter
+Lontra
 502
 Discipline
-Discipline
+Apprendista
 503
 Formidable
-Formidable
+Dignità
 504
 Esplorante
 Esplorante
@@ -8207,10 +8219,10 @@ Geyser
 Geyser
 517
 Dream Eater
-Dream Eater
+Divorasogni
 518
 Drowsing
-Drowsing
+Dormiveglia
 519
 Tiny Pigeon
 Tiny Pigeon
@@ -8447,10 +8459,10 @@ Elettroragno
 Elettroragno
 597
 Thorn Seed
-Thorn Seed
+Spinaseme
 598
 Thorn Pod
-Thorn Pod
+Spinasfere
 599
 Ingranaggio
 Ingranaggio
@@ -8504,7 +8516,7 @@ Crystallizing
 Crystallizing
 616
 Snail
-Snail
+Cristallo
 617
 Shell Out
 Shell Out
@@ -8555,19 +8567,19 @@ Ferformica
 Ferformica
 633
 Irate
-Irate
+Impeto
 634
 Hostile
-Hostile
+Irruenza
 635
 Brutal
-Brutal
+Brutale
 636
 Torch
-Torch
+Torcia
 637
 Sun
-Sun
+Sole
 638
 Iron Will
 Iron Will
@@ -9714,6 +9726,84 @@ Pelliccia
 1438
 Otaria
 Pelliccia
+1439
+Cagnolino
+Cagnolino
+1440
+Leggenda
+Leggenda
+1441
+Carbonvivo
+Carbonvivo
+1442
+Sputafuoco
+Sputafuoco
+1443
+Drago
+Drago
+1444
+Drago
+Drago
+1445
+Drago
+Drago
+1446
+Papero
+Papero
+1447
+Papero
+Papero
+1448
+Acquapesce
+Acquapesce
+1449
+Acquapesce
+Acquapesce
+1450
+Gemelli
+Gemelli
+1451
+Fiore
+Fiore
+1452
+Moschivoro
+Moschivoro
+1453
+Moschivoro
+Moschivoro
+1454
+Moscheducente
+Moscheducente
+1455
+Aliscorpio
+Aliscorpio
+1456
+Liana
+Liana
+1457
+Maiale
+Maiale
+1458
+Suino
+Suino
+1459
+Strido
+Strido
+1460
+Malpupazzo
+Malpupazzo
+1461
+Panda
+Panda
+1462
+Millepiedi
+Millepiedi
+1463
+Bozzolo
+Bozzolo
+1464
+Scarabeo
+Scarabeo
 2000
 Cavallonembo
 Cavallonembo
@@ -9792,6 +9882,12 @@ Acquapesce
 2025
 Ninja
 Fuocofatuo
+2026
+Simbolo
+Simbolo
+2027
+Metallolega
+Metallolega
 [3]
 1
 Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.

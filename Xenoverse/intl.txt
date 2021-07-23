@@ -25646,20 +25646,20 @@ Piloswine
 Misdreavus
 Misdreavus
 1460
-Pangshi
-Pangshi
+Kurstraw
+Kurstraw
 1461
-????????
-????????
+Pangshi
+Pangshi
 1462
-????????
-????????
+Weedle
+Weedle
 1463
-????????
-????????
+Kakuna
+Kakuna
 1464
-????????
-????????
+Kasanagy
+Kasanagy
 1465
 ????????
 ????????
@@ -27301,6 +27301,18 @@ Trishout
 2011
 Shulong
 Shulong
+2012
+Chewtle
+Chewtle
+2013
+Drednaw
+Drednaw
+2026
+Unown
+Unown
+2027
+Duraludon
+Duraludon
 [2]
 1
 Seme
@@ -27508,13 +27520,13 @@ Megaforza
 Megaforza
 69
 Fiore
-Fiore
+Flower
 70
 Moschivoro
-Moschivoro
+Flycatcher
 71
 Moschivoro
-Moschivoro
+Flycatcher
 72
 Medusa
 Medusa
@@ -27643,7 +27655,7 @@ Uovo
 Egg
 114
 Liana
-Liana
+Vine
 115
 Genitore
 Genitore
@@ -27922,7 +27934,7 @@ Terraserpe
 Terraserpe
 207
 Aliscorpio
-Aliscorpio
+Fly Scorpion
 208
 Ferroserpe
 Iron Snake
@@ -27961,10 +27973,10 @@ Lava
 Lava
 220
 Maiale
-Maiale
+Pig
 221
 Suino
-Suino
+Swine
 222
 Corallo
 Coral
@@ -28084,10 +28096,10 @@ Fangopesce
 Fangopesce
 261
 Morso
-Morso
+Bite
 262
 Morso
-Morso
+Bite
 263
 Procione
 Tiny Raccoon
@@ -28384,10 +28396,10 @@ Brillante
 Brillante
 361
 Cappelneve
-Cappelneve
+Snow Hat
 362
 Tuttomuso
-Tuttomuso
+Face
 363
 Rotolante
 Clap
@@ -28717,7 +28729,7 @@ Nevefresca
 Fresh Snow
 472
 Scorpidente
-Scorpidente
+Fang Scorpion
 473
 Twin Tusk
 Twin Tusk
@@ -28735,7 +28747,7 @@ Gripper
 Gripper
 478
 Suolnevoso
-Suolnevoso
+Snow Land
 479
 Plasma
 Plasma
@@ -30359,6 +30371,84 @@ Fur Coat
 1438
 Otaria
 Fur Coat
+1439
+Cagnolino
+Puppy
+1440
+Leggenda
+Legendary
+1441
+Carbonvivo
+Live Coal
+1442
+Sputafuoco
+Splitfire
+1443
+Drago
+Dragon
+1444
+Drago
+Dragon
+1445
+Drago
+Dragon
+1446
+Papero
+Duck
+1447
+Papero
+Duck
+1448
+Acquapesce
+Water Fish
+1449
+Acquapesce
+Water Fish
+1450
+Gemelli
+Twins
+1451
+Fiore
+Flower
+1452
+Moschivoro
+Flycatcher
+1453
+Moschivoro
+Flycatcher
+1454
+Moscheducente
+Flyductive
+1455
+Aliscorpio
+Fly Scorpion
+1456
+Liana
+Vine
+1457
+Maiale
+Pig
+1458
+Suino
+Swine
+1459
+Strido
+Screech
+1460
+Malpupazzo
+Evil Puppet
+1461
+Panda
+Panda
+1462
+Millepiedi
+Hairy
+1463
+Bozzolo
+Cocoon
+1464
+Scarabeo
+Beetle
 2000
 Cavallonembo
 Nimbus Steed
@@ -30437,6 +30527,12 @@ Water Fish
 2025
 Ninja
 Will-o-Wisp
+2026
+Simbolo
+Symbol
+2027
+Metallolega
+Alloy
 [3]
 1
 Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
