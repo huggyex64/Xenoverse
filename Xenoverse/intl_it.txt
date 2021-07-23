@@ -10391,8 +10391,8 @@ Va in cerca di oggetti luccicanti per il suo capo. Molti lo temono e lo detestan
 Quando la testa di Slowpoke fu morsa, vi penetrarono delle tossine che produssero un enorme potere.
 Quando la testa di Slowpoke fu morsa, vi penetrarono delle tossine che produssero un enorme potere.
 200
-Misdreavus terrorizza le persone con un singhiozzo raccapricciante. Pare usi le sue sfere rosse per assorbire la paura dei nemici e cibarsene.
-Misdreavus terrorizza le persone con un singhiozzo raccapricciante. Pare usi le sue sfere rosse per assorbire la paura dei nemici e cibarsene.
+Si diverte a fare brutti scherzi, come gridare e lamentarsi in piena notte spaventando la gente.
+Si diverte a fare brutti scherzi, come gridare e lamentarsi in piena notte spaventando la gente.
 201
 Questo Pokemon pare una lettera di un alfabeto antico. A tutt'oggi rimane un mistero chi sia comparso prima, se l'alfabeto o Unown. Sono in corso ricerche in merito ma non si sa ancora praticamente nulla..
 Questo Pokemon pare una lettera di un alfabeto antico. A tutt'oggi rimane un mistero chi sia comparso prima, se l'alfabeto o Unown. Sono in corso ricerche in merito ma non si sa ancora praticamente nulla..
@@ -10577,8 +10577,8 @@ Swampert prevede le tempeste poiche' grazie alle pinne percepisce le sottili dif
 Pokemon molto tenace. L'olfatto sviluppatissimo gli permette di seguire una preda senza mai perderne le tracce.
 Pokemon molto tenace. L'olfatto sviluppatissimo gli permette di seguire una preda senza mai perderne le tracce.
 262
-Allo stato brado Mightyena si sposta e agisce soltanto assieme al suo branco. A causa della sua natura selvatica obbedisce solo a quegli Allenatori che considera possedere abilita' superiori.
-Allo stato brado Mightyena si sposta e agisce soltanto assieme al suo branco. A causa della sua natura selvatica obbedisce solo a quegli Allenatori che considera possedere abilita' superiori.
+Caccia le prede in branco. Non disobbedisce mai agli ordini di un Allenatore abile.
+Caccia le prede in branco. Non disobbedisce mai agli ordini di un Allenatore abile.
 263
 Va zigzagando a destra e a manca, attirato da questo e quello. La sua specialità è trovare le cose.
 Va zigzagando a destra e a manca, attirato da questo e quello. La sua specialità è trovare le cose.
@@ -11079,7 +11079,7 @@ Le sue orecchie sono sempre arrotolate. Può estenderle con forza per distrugger
 È cauto e rifugge la lotta, ma può sferrare potenti calci con le sue gambe aggraziate.
 429
 Its cries sound like incantations. Those hearing it are tormented by headaches and hallucinations.
-Its cries sound like incantations. Those hearing it are tormented by headaches and hallucinations.
+I suoi versi sembrano incantesimi. Chi li sente è tormentato da emicranie e allucinazioni.
 430
 Lascia che siano i suoi seguaci a lottare contro il nemico e si scomoda solo per assestare il colpo di grazia.
 Lascia che siano i suoi seguaci a lottare contro il nemico e si scomoda solo per assestare il colpo di grazia.
@@ -11187,7 +11187,7 @@ Può gettare una roccia che tiene in mano come un missile contraendo ed estenden
 Può gettare una roccia che tiene in mano come un missile contraendo ed estendendo velocemente i muscoli.
 465
 It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.
-It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.
+Intrappola le prede con gli arti, che sono costituiti da liane. Se ne perde uno, non si turba affatto.
 466
 Tocca il nemico con la punta delle code e rilascia una scarica elettrica ad alto voltaggio che lo carbonizza all'istante.
 Tocca il nemico con la punta delle code e rilascia una scarica elettrica ad alto voltaggio che lo carbonizza all'istante.
@@ -11211,7 +11211,7 @@ Vola senza far rumore. Afferra le prede con la lunga coda e perfora il loro punt
 Vola senza far rumore. Afferra le prede con la lunga coda e perfora il loro punto vitale con i canini.
 473
 Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.
-Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.
+Ha enormi zanne di ghiaccio. La popolazione di questo Pokémon è diminuita alla fine dell'era glaciale.
 474
 Mostra un comportamento instabile, da attribuire probabilmente alla scarsa competenza di chi ha aggiornato il suo software.
 Mostra un comportamento instabile, da attribuire probabilmente alla scarsa competenza di chi ha aggiornato il suo software.
@@ -11277,31 +11277,31 @@ This Pokemon brings victory. It is said that Trainers with Victini always win, r
 This Pokemon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.
 495
 They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.
-They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.
+Assorbe i raggi solari dalla coda, per operare la fotosintesi. Quando non sta bene, la sua coda si affloscia.
 496
 They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.
-They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.
+Evita gli attacchi sgusciando tra la folta vegetazione. Contrattacca poi con abili colpi di frusta.
 497
 They raise their heads to intimidate opponents, but only give it their all when fighting a powerful opponent.
-They raise their heads to intimidate opponents, but only give it their all when fighting a powerful opponent.
+Intimidisce i nemici alzando la testa. Dà il meglio di sé quando combatte contro un avversario molto forte.
 498
 It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.
-It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.
+Esala fuoco dalle narici. Quando ha il raffreddore, al posto del fuoco emette un fumo nerissimo.
 499
 Whatever it eats becomes fuel for the flame in its stomach. When it is angered, the intensity of the flame increases.
-Whatever it eats becomes fuel for the flame in its stomach. When it is angered, the intensity of the flame increases.
+Usa ciò che divora come combustibile per produrre fiamme nello stomaco. Quando si arrabbia, le fiamme aumentano.
 500
 It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.
-It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.
+La sua barba è avvolta dalle fiamme. Padroneggia mosse di lotta che combinano potenza e rapidità.
 501
 The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.
-The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.
+La conchiglia sul suo ventre ha la stessa composizione delle unghie. La estrae dal ventre, usandola per trafiggere.
 502
 Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.
-Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.
+Ogni Dewott ha mosse diverse in base alla tecnica con cui usa le affilate conchiglie di cui si prende costantemente cura.
 503
 Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.
-Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.
+Usa parte dell'armatura degli arti anteriori come fosse una grande spada. Intimidisce il nemico col solo ruggito.
 504
 Immagazzina cibo nelle guance e monta la guardia per molti giorni di seguito. Usa la coda per fare segnali ai compagni.
 Immagazzina cibo nelle guance e monta la guardia per molti giorni di seguito. Usa la coda per fare segnali ai compagni.
@@ -11343,10 +11343,10 @@ The high-pressure water expelled from its tail is so powerful, it can destroy a 
 The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.
 517
 It eats the dreams of people and Pokemon. When it eats a pleasant dreams, it expels pink-colored mist.
-It eats the dreams of people and Pokemon. When it eats a pleasant dreams, it expels pink-colored mist.
+Si nutre dei sogni di uomini e Pokémon. Se mangia sogni piacevoli, esala un fumo di colore rosa.
 518
 With the mist from its forehead, it can create shapes of things from dreams it has eaten.
-With the mist from its forehead, it can create shapes of things from dreams it has eaten.
+Il fumo che esce dalla sua fronte cambia colore a seconda del contenuto del sogno che ha mangiato.
 519
 These Pokemon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.
 These Pokemon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.
@@ -11583,10 +11583,10 @@ Tende trappole con fili elettrificati. Consuma poi con comodo le prede immobiliz
 Tende trappole con fili elettrificati. Consuma poi con comodo le prede immobilizzate dalla scarica elettrica.
 597
 They stick their spikes into cave walls and ABSORB the minerals they find in the rock.
-They stick their spikes into cave walls and ABSORB the minerals they find in the rock.
+Si attacca alle pareti delle grotte conficcando gli aculei. Assorbe i minerali all'interno delle rocce.
 598
 They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them.
-They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them.
+Si appende al soffitto delle grotte e attacca le prede che passano al di sotto lanciando i suoi aculei di ferro.
 599
 Le due parti che lo compongono possono combinarsi solo in un determinato modo. Produce energia facendole ruotare.
 Le due parti che lo compongono possono combinarsi solo in un determinato modo. Produce energia facendole ruotare.
@@ -11637,7 +11637,7 @@ Lotta usando zanne o artigli creati congelando il suo stesso respiro. Vive nelle
 Lotta usando zanne o artigli creati congelando il suo stesso respiro. Vive nelle fredde regioni del nord.
 615
 They are born in snow clouds. They use chains made of ice crystals to capture prey.
-They are born in snow clouds. They use chains made of ice crystals to capture prey.
+È nato nelle nuvole cariche di neve. Cattura le prede con una catena fatta di cristalli di ghiaccio.
 616
 It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.
 It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.
@@ -11691,19 +11691,19 @@ Si fa il nido scavando nelle montagne. I complicati intrecci di tunnel creati da
 Si fa il nido scavando nelle montagne. I complicati intrecci di tunnel creati da Durant sono dei veri e propri labirinti.
 633
 They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.
-They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.
+Dal momento che non ci vede, esamina ciò che lo circonda mordendo o lanciandosi di peso. Ha ammaccature su tutto il corpo.
 634
 Since their two heads do not get along and compete with each other for food, they always eat too much.
-Since their two heads do not get along and compete with each other for food, they always eat too much.
+Poiché le due teste non vanno d'accordo e fanno quasi a gara per mangiare, va sempre a finire che mangia troppo.
 635
 The heads on their arms do not have brains. They use all three heads to consume and destroy everything.
-The heads on their arms do not have brains. They use all three heads to consume and destroy everything.
+Le teste che ha sugli arti non hanno cervello. Distrugge e divora qualsiasi cosa usando tutte e tre le teste.
 636
 The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.
-The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.
+Vive ai piedi dei vulcani. Se attaccato, mette in fuga il nemico lanciando fiamme dai suoi cinque corni.
 637
 A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.
-A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.
+Quando lotta, sparge scaglie infuocate dalle sue sei ali, creando tutto intorno un mare di fuoco.
 638
 It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokemon obey it.
 It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokemon obey it.
@@ -12850,6 +12850,72 @@ Vive in ambienti gelidi. Per sopravvivere alle basse temperature, si copre con u
 1438
 Accumula energia termica nel suo corpo. Nuota a 8 nodi costanti anche in acqua molto fredda.
 Grande e cattivo, allontana dalla sua montagna chi osa avvicinarsi. Probabilmente ha ispirato le leggende sullo yeti.
+1439
+Strenuo difensore del suo territorio, abbaia e morde per respingere gli intrusi.
+Strenuo difensore del suo territorio, abbaia e morde per respingere gli intrusi.
+1440
+Da sempre ammirato per la sua bellezza, corre veloce come se avesse le ali.
+Da sempre ammirato per la sua bellezza, corre veloce come se avesse le ali.
+1441
+Ogni volta che inspira ed espira, brace ardente gli esce dalla bocca e dalle narici.
+Ogni volta che inspira ed espira, brace ardente gli esce dalla bocca e dalle narici.
+1442
+Il suo corpo arde con bagliori arancio che gli consentono una mimesi perfetta tra le fiamme.
+Il suo corpo arde con bagliori arancio che gli consentono una mimesi perfetta tra le fiamme.
+1443
+Se minacciato sputa dalla bocca un inchiostro speciale o potenti getti d'acqua per difendersi.
+Se minacciato sputa dalla bocca un inchiostro speciale o potenti getti d'acqua per difendersi.
+1444
+Il contatto con la sua pinna posteriore causa stordimento. Dorme attaccato a qualche corallo.
+Il contatto con la sua pinna posteriore causa stordimento. Dorme attaccato a qualche corallo.
+1445
+Dorme sul fondo delle'oceano per ricaricarsi di energia. Si dice che causi uragani quando si sveglia.
+Dorme sul fondo delle'oceano per ricaricarsi di energia. Si dice che causi uragani quando si sveglia.
+1446
+Soffre sempre di forti mal di testa. Usa i suoi poteri psichici di rado e senza volerlo.
+Soffre sempre di forti mal di testa. Usa i suoi poteri psichici di rado e senza volerlo.
+1447
+Visto spesso nuotare nei laghi elegantemente, è a volte confuso con Kappa, mostro giapponese.
+Visto spesso nuotare nei laghi elegantemente, è a volte confuso con Kappa, mostro giapponese.
+1448
+Il suo corpo e' ricoperto da una mucosa. Se la si tocca con le mani nude causa un acuto dolore.
+Il suo corpo e' ricoperto da una mucosa. Se la si tocca con le mani nude causa un acuto dolore.
+1449
+Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli scafi delle barche.
+Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli scafi delle barche.
+1451
+Ama i luoghi caldi e umidi. Cattura minuscoli insetti con le sue liane e poi li divora.
+Ama i luoghi caldi e umidi. Cattura minuscoli insetti con le sue liane e poi li divora.
+1452
+Quando è affamato divora qualsiasi cosa gli capiti a tiro. La preda è poi disciolta da potenti acidi.
+Quando è affamato divora qualsiasi cosa gli capiti a tiro. La preda è poi disciolta da potenti acidi.
+1453
+Attira le prede con il dolce aroma del miele, le inghiotte intere e le digerisce in un giorno.
+Attira le prede con il dolce aroma del miele, le inghiotte intere e le digerisce in un giorno.
+1455
+Vola planando nell'aria. Sorprende i nemici aggrappandosi al loro volto, poi inietta il suo veleno.
+Vola planando nell'aria. Sorprende i nemici aggrappandosi al loro volto, poi inietta il suo veleno.
+1456
+Il suo aspetto è nascosto sotto una massa di fitte liane blu che non smettono mai di crescere.
+Il suo aspetto è nascosto sotto una massa di fitte liane blu che non smettono mai di crescere.
+1457
+Grazie al suo olfatto sviluppato trova funghi, bacche e persino sorgenti termali sotto al ghiaccio.
+Grazie al suo olfatto sviluppato trova funghi, bacche e persino sorgenti termali sotto al ghiaccio.
+1458
+Poiche il lungo pelo sul suo corpo gli impedisce di vedere, non fa che caricare il nemico senza tregua.
+Poiche il lungo pelo sul suo corpo gli impedisce di vedere, non fa che caricare il nemico senza tregua.
+1459
+Si diverte a fare brutti scherzi, come gridare e lamentarsi in piena notte spaventando la gente.
+Si diverte a fare brutti scherzi, come gridare e lamentarsi in piena notte spaventando la gente.
+1462
+Ha un cappello in testa che lo rende molto buffo agli occhi dei suoi avversari.
+Ha un cappello in testa che lo rende molto buffo agli occhi dei suoi avversari.
+1463
+Quasi incapace di muoversi, questo Pokémon può solo indurire la sua corazza per proteggersi.
+Quasi incapace di muoversi, questo Pokémon può solo indurire la sua corazza per proteggersi.
+1464
+Vola velocemente e attacca usando la sua robusta corazza.
+Vola velocemente e attacca usando la sua robusta corazza.
 2000
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
@@ -12928,6 +12994,9 @@ Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli 
 2026
 Agile e sfugente come un ninja, si fa beffe dei nemici grazie alla sua velocita' e li bersaglia dei shuriken d'acqua
 Si muove col favore delle tenebre. I pugnali di fuoco che crea lacerano le carni dei nemici, infliggendo loro scottature terribili.
+2027
+Il suo corpo simile a metallo lucidato è leggero e resistente, ma ha il difetto di arrugginire facilmente.
+Il suo corpo simile a metallo lucidato è leggero e resistente, ma ha il difetto di arrugginire facilmente.
 [4]
 19
 Kanto,Alola

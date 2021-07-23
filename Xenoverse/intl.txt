@@ -30644,13 +30644,13 @@ Con i suoi muscoli poderosi, sferra pugni tali da poter lanciare la vittima oltr
 Con i suoi muscoli poderosi, sferra pugni tali da poter lanciare la vittima oltre l'orizzonte.
 69
 Ama i luoghi caldi e umidi. Cattura minuscoli insetti con le sue liane e poi li divora.
-Ama i luoghi caldi e umidi. Cattura minuscoli insetti con le sue liane e poi li divora.
+Prefers hot and humid places. It ensnares tiny insects with its vines and devours them.
 70
 Quando è affamato divora qualsiasi cosa gli capiti a tiro. La preda è poi disciolta da potenti acidi.
-Quando è affamato divora qualsiasi cosa gli capiti a tiro. La preda è poi disciolta da potenti acidi.
+When hungry, it swallows anything that moves. Its hapless prey is melted inside by strong acids.
 71
 Attira le prede con il dolce aroma del miele, le inghiotte intere e le digerisce in un giorno.
-Attira le prede con il dolce aroma del miele, le inghiotte intere e le digerisce in un giorno.
+Lures prey with the sweet aroma of honey. Swallowed whole, the prey is melted in a day, bones and all.
 72
 Va alla deriva in acqua poco profonde. Se pescato per sbaglio, colpisce con un acido pungente.
 Va alla deriva in acqua poco profonde. Se pescato per sbaglio, colpisce con un acido pungente.
@@ -30779,7 +30779,7 @@ Un Pokémon altruista che depone uova molto nutrienti. Le condivide con persone 
 A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people.
 114
 Il suo aspetto è nascosto sotto una massa di fitte liane blu che non smettono mai di crescere.
-Il suo aspetto è nascosto sotto una massa di fitte liane blu che non smettono mai di crescere.
+Its identity is obscured by masses of thick, blue vines. The vines are said to never stop growing.
 115
 Il suo cucciolo cresce dentro al marsupio. È pronto a qualsiasi lotta pur di proteggerlo.
 Il suo cucciolo cresce dentro al marsupio. È pronto a qualsiasi lotta pur di proteggerlo.
@@ -31036,8 +31036,8 @@ It searches for shiny things for its boss. Murkrow's presence is said to be unlu
 Quando la testa di Slowpoke fu morsa, vi penetrarono delle tossine che produssero un enorme potere.
 Quando la testa di Slowpoke fu morsa, vi penetrarono delle tossine che produssero un enorme potere.
 200
-Misdreavus terrorizza le persone con un singhiozzo raccapricciante. Pare usi le sue sfere rosse per assorbire la paura dei nemici e cibarsene.
-Misdreavus terrorizza le persone con un singhiozzo raccapricciante. Pare usi le sue sfere rosse per assorbire la paura dei nemici e cibarsene.
+Si diverte a fare brutti scherzi, come gridare e lamentarsi in piena notte spaventando la gente.
+It likes playing mischievous tricks such as screaming and wailing to startle people at night.
 201
 Questo Pokemon pare una lettera di un alfabeto antico. A tutt'oggi rimane un mistero chi sia comparso prima, se l'alfabeto o Unown. Sono in corso ricerche in merito ma non si sa ancora praticamente nulla..
 Questo Pokemon pare una lettera di un alfabeto antico. A tutt'oggi rimane un mistero chi sia comparso prima, se l'alfabeto o Unown. Sono in corso ricerche in merito ma non si sa ancora praticamente nulla..
@@ -31058,10 +31058,10 @@ Scava nel terreno con la coda creando una tana simile a un labirinto. Sa spiccar
 Scava nel terreno con la coda creando una tana simile a un labirinto. Sa spiccare brevissimi voli.
 207
 Vola planando nell'aria. Sorprende i nemici aggrappandosi al loro volto, poi inietta il suo veleno.
-Vola planando nell'aria. Sorprende i nemici aggrappandosi al loro volto, poi inietta il suo veleno.
+It glides as if sliding. It startles foes by clamping on their faces, then jabs with its poison stinger.
 208
 Il ferro contenuto nella terra di cui si nutre ha trasformato il suo corpo rendendolo più duro del diamante.
-The iron it ingested with the soil it swallowed transformed its body and made it harder than diamonds.
+The iron it ingested with the soil it swallowed- transformed its body and made it harder than diamonds.
 209
 Nonostante la faccia torva, è molto timido. Si sforza di apparire minaccioso, ma proprio per questo motivo molti lo trovano carino.
 Despite its intimidating face, it's quite cowardly. Its desperate attempts to appear threatening make it popular with people.
@@ -31097,10 +31097,10 @@ La corazza di Magcargo e' formata dalla sua pelle induritasi per effetto del raf
 La corazza di Magcargo e' formata dalla sua pelle induritasi per effetto del raffreddamento. la corazza e' fragile e friabile: cade a pezzi al minimo contatto. Riacquista le sue dimensioni normali immergendosi nel magma.
 220
 Grazie al suo olfatto sviluppato trova funghi, bacche e persino sorgenti termali sotto al ghiaccio.
-Grazie al suo olfatto sviluppato trova funghi, bacche e persino sorgenti termali sotto al ghiaccio.
+It has a very sensitive nose. It can locate mushrooms, berries, and even hot springs buried under ice.
 221
 Poiche il lungo pelo sul suo corpo gli impedisce di vedere, non fa che caricare il nemico senza tregua.
-Poiche il lungo pelo sul suo corpo gli impedisce di vedere, non fa che caricare il nemico senza tregua.
+Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.
 222
 Sul suo capo crescono dei coralli molto fragili. Se un ramo si spezza e cade, viene rigenerato nell’arco di tre giorni.
 Coral branches grow from its head. They break off quite easily, but they grow back in about three days.
@@ -31220,10 +31220,10 @@ Swampert prevede le tempeste poiche' grazie alle pinne percepisce le sottili dif
 Swampert prevede le tempeste poiche' grazie alle pinne percepisce le sottili differenze nel suono delle onde e dei venti dovuti alle maree. In caso di burrasca imminente, crea delle pile di massi per proteggere la tana.
 261
 Pokemon molto tenace. L'olfatto sviluppatissimo gli permette di seguire una preda senza mai perderne le tracce.
-Pokemon molto tenace. L'olfatto sviluppatissimo gli permette di seguire una preda senza mai perderne le tracce.
+A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.
 262
-Allo stato brado Mightyena si sposta e agisce soltanto assieme al suo branco. A causa della sua natura selvatica obbedisce solo a quegli Allenatori che considera possedere abilita' superiori.
-Allo stato brado Mightyena si sposta e agisce soltanto assieme al suo branco. A causa della sua natura selvatica obbedisce solo a quegli Allenatori che considera possedere abilita' superiori.
+Caccia le prede in branco. Non disobbedisce mai agli ordini di un Allenatore abile.
+It chases down prey in a pack. It will never disobey the commands of a skilled Trainer.
 263
 Va zigzagando a destra e a manca, attirato da questo e quello. La sua specialità è trovare le cose.
 It gets interested in everything, which is why it zigs and zags. It is good at finding items.
@@ -31520,10 +31520,10 @@ Wynaut ha sempre un sorriso grande e genuino stampato sul volto. La coda e' indi
 Wynaut ha sempre un sorriso grande e genuino stampato sul volto. La coda e' indice del suo vero stato d'animo. Se la sbatte a terra, significa che e' infuriato.
 361
 Appare a mezzanotte e pare che sia capace di far nevicare. Si nutre di neve e ghiaccio.
-Appare a mezzanotte e pare che sia capace di far nevicare. Si nutre di neve e ghiaccio.
+It's said that if they are seen at midnight, they'll cause heavy snow. They eat snow and ice to survive.
 362
 Per difendersi, riveste il suo corpo con un'armatura di ghiaccio, fatta congelando l'umidita' dell'aria.
-Per difendersi, riveste il suo corpo con un'armatura di ghiaccio, fatta congelando l'umidita' dell'aria.
+To protect itself, it clads its body in an armor of ice, made by freezing moisture in the air.
 363
 Ha il corpo ricoperto di una morbida pelliccia, che gli permette di rotolare sul ghiaccio senza avvertire il freddo.
 Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice.
@@ -31853,7 +31853,7 @@ In un istante congela l'umidità circostante e crea granelli di ghiaccio che sca
 It can instantaneously freeze any moisture that's around it, creating ice pellets to shoot at its prey.
 472
 Vola senza far rumore. Afferra le prede con la lunga coda e perfora il loro punto vitale con i canini.
-Vola senza far rumore. Afferra le prede con la lunga coda e perfora il loro punto vitale con i canini.
+Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.
 473
 Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.
 Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.
@@ -31871,7 +31871,7 @@ The antenna on its head captures radio waves from the world of spirits that comm
 The antenna on its head captures radio waves from the world of spirits that command it to take people there.
 478
 Congela con il suo alito glaciale gli esseri umani e i Pokemon che gli piacciono e li usa per decorare la sua tana.
-Congela con il suo alito glaciale gli esseri umani e i Pokemon che gli piacciono e li usa per decorare la sua tana.
+When it finds humans or Pokémon it likes, it freezes them and takes them to its chilly den, where they become decorations.
 479
 Il suo corpo elettrico pue' introdursi in alcuni strumenti, prendendone il controllo e creando caos.
 Il suo corpo elettrico pue' introdursi in alcuni strumenti, prendendone il controllo e creando caos.
@@ -33495,6 +33495,72 @@ A Pokémon that lives in freezing-cold conditions. A thick fur coat keeps it pro
 1438
 Accumula energia termica nel suo corpo. Nuota a 8 nodi costanti anche in acqua molto fredda.
 Big and vicious, it keeps intruders away from its mountain. It could have inspired the legends about the yeti.
+1439
+Strenuo difensore del suo territorio, abbaia e morde per respingere gli intrusi.
+Very protective of its territory. It will bark and bite to repel intruders from its space.
+1440
+Da sempre ammirato per la sua bellezza, corre veloce come se avesse le ali.
+A Pokémon that has been admired since the past for its beauty. It runs agilely as if on wings.
+1441
+Ogni volta che inspira ed espira, brace ardente gli esce dalla bocca e dalle narici.
+Each and every time it inhales and exhales, hot embers dribble out of its mouth and nostrils.
+1442
+Il suo corpo arde con bagliori arancio che gli consentono una mimesi perfetta tra le fiamme.
+Its body always burns with an orange glow that enables it to hide perfectly among flames.
+1443
+Se minacciato sputa dalla bocca un inchiostro speciale o potenti getti d'acqua per difendersi.
+If it senses any danger, it will vigorously spray water or a special type of ink from its mouth.
+1444
+Il contatto con la sua pinna posteriore causa stordimento. Dorme attaccato a qualche corallo.
+Touching the back fin causes numbness. It hooks its tail to coral to stay in place while sleeping.
+1445
+Dorme sul fondo delle'oceano per ricaricarsi di energia. Si dice che causi uragani quando si sveglia.
+It sleeps deep on the ocean floor to build its energy. It is said to cause tornadoes as it wakes.
+1446
+Soffre sempre di forti mal di testa. Usa i suoi poteri psichici di rado e senza volerlo.
+Always tormented by headaches. It uses psychic powers, but it is not known if it intends to do so.
+1447
+Visto spesso nuotare nei laghi elegantemente, è a volte confuso con Kappa, mostro giapponese.
+Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.
+1448
+Il suo corpo e' ricoperto da una mucosa. Se la si tocca con le mani nude causa un acuto dolore.
+A mucous membrane covers its body. Touching it barehanded will cause a shooting pain.
+1449
+Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli scafi delle barche.
+Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims.
+1451
+Ama i luoghi caldi e umidi. Cattura minuscoli insetti con le sue liane e poi li divora.
+Prefers hot and humid places. It ensnares tiny insects with its vines and devours them.
+1452
+Quando è affamato divora qualsiasi cosa gli capiti a tiro. La preda è poi disciolta da potenti acidi.
+When hungry, it swallows anything that moves. Its hapless prey is melted inside by strong acids.
+1453
+Attira le prede con il dolce aroma del miele, le inghiotte intere e le digerisce in un giorno.
+Lures prey with the sweet aroma of honey. Swallowed whole, the prey is melted in a day, bones and all.
+1455
+Vola planando nell'aria. Sorprende i nemici aggrappandosi al loro volto, poi inietta il suo veleno.
+It flies straight at its target's face then clamps down on the startled victim to inject poison.
+1456
+Il suo aspetto è nascosto sotto una massa di fitte liane blu che non smettono mai di crescere.
+Its identity is obscured by masses of thick, blue vines. The vines are said to never stop growing.
+1457
+Grazie al suo olfatto sviluppato trova funghi, bacche e persino sorgenti termali sotto al ghiaccio.
+It has a very sensitive nose. It can locate mushrooms, berries, and even hot springs buried under ice.
+1458
+Poiche il lungo pelo sul suo corpo gli impedisce di vedere, non fa che caricare il nemico senza tregua.
+Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.
+1459
+Si diverte a fare brutti scherzi, come gridare e lamentarsi in piena notte spaventando la gente.
+It likes playing mischievous tricks such as screaming and wailing to startle people at night.
+1462
+Ha un cappello in testa che lo rende molto buffo agli occhi dei suoi avversari.
+He has a hat on his head which makes him very funny in the eyes of his opponents.
+1463
+Quasi incapace di muoversi, questo Pokémon può solo indurire la sua corazza per proteggersi.
+Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators.
+1464
+Vola velocemente e attacca usando la sua robusta corazza.
+Fly fast and attack using its sturdy armor.
 2000
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
@@ -33573,6 +33639,9 @@ Due to its relaxed and carefree attitude, it often bumps its head on boulders an
 2026
 Agile e sfugente come un ninja, si fa beffe dei nemici grazie alla sua velocita' e li bersaglia dei shuriken d'acqua
 It moves under cover of darkness. It throws knives of hell fire at its opponents, piercing their flesh and leaving them with atrocious burns.
+2027
+Il suo corpo simile a metallo lucidato è leggero e resistente, ma ha il difetto di arrugginire facilmente.
+Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily.
 [4]
 19
 Kanto,Alola
