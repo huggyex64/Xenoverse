@@ -234,3 +234,19 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Idroveste)\n Si difende dai predatori camuffandosi da Pokémon più grosso. È molto popolare tra i collezionisti di Coleotteri.
 (Water Style)\n It defends from predators assuming the form of a bigger Pokémon. It is very popular among Bug Maniacs.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(MegaEvoluzione)\n Le zampe si sono irrobustite per sostenere il fiore sul dorso, diventato ancora più grande per via della megaevoluzione.
+(MegaEvolution)\n In order to support its flower, which has grown larger due to Mega Evolution, its back and legs have become stronger.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(MegaEvoluzione)\n Il legame con il suo Allenatore è la fonte del suo potere. Vanta una velocità di volo superiore a quella di un aereo a reazione.
+(MegaEvolution)\n Its bond with its Trainer is the source of its power. It boasts speed and maneuverability greater than that of a jet fighter.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(MegaEvoluzione)\n La straordinaria potenza che pervade il suo corpo lo rende ancora più scuro e genera roventi fiamme che si colorano di blu.
+(MegaEvolution)\n The overwhelming power that fills its entire body causes it to turn black and creates intense blue flames.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(MegaEvoluzione)\n Grazie alle sue possenti zampe può sostenere i contraccolpi del cannone sul guscio, che ha una potenza simile a quella di un carrarmato.
+(MegaEvolution)\n The cannon on its back is as powerful as a tank gun. Its tough legs and back enable it to withstand the recoil from firing the cannon.

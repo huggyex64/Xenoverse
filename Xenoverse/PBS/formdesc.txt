@@ -268,3 +268,20 @@ HEIGHT=1.1
 WEIGHT=33
 TYPE1=17
 TYPE2=17
+[3_1]
+DESCRIPTION=(MegaEvoluzione)\n Le zampe si sono irrobustite per sostenere il fiore sul dorso, diventato ancora più grande per via della megaevoluzione.
+HEIGHT=2.4
+WEIGHT=155.5
+[6_1]
+DESCRIPTION=(MegaEvoluzione)\n Il legame con il suo Allenatore è la fonte del suo potere. Vanta una velocità di volo superiore a quella di un aereo a reazione.
+HEIGHT=1.7
+WEIGHT=100.5
+[6_2]
+DESCRIPTION=(MegaEvoluzione)\n La straordinaria potenza che pervade il suo corpo lo rende ancora più scuro e genera roventi fiamme che si colorano di blu.
+HEIGHT=1.7
+WEIGHT=110.5
+TYPE1=10
+TYPE2=16
+[9_1]
+DESCRIPTION=(MegaEvoluzione)\n Grazie alle sue possenti zampe può sostenere i contraccolpi del cannone sul guscio, che ha una potenza simile a quella di un carrarmato.
+WEIGHT=101.1
