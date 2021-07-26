@@ -285,3 +285,5 @@ TYPE2=16
 [9_1]
 DESCRIPTION=(MegaEvoluzione)\n Grazie alle sue possenti zampe può sostenere i contraccolpi del cannone sul guscio, che ha una potenza simile a quella di un carrarmato.
 WEIGHT=101.1
+[2026_1]
+DESCRIPTION=(Simbolo Xenoverse)\n Questo Pokemon pare una lettera di un alfabeto antico. A tutt'oggi rimane un mistero chi sia comparso prima, se l'alfabeto o Unown. Sono in corso ricerche in merito ma non si sa ancora praticamente nulla..

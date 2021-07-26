@@ -250,3 +250,7 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (MegaEvoluzione)\n Grazie alle sue possenti zampe può sostenere i contraccolpi del cannone sul guscio, che ha una potenza simile a quella di un carrarmato.
 (MegaEvolution)\n The cannon on its back is as powerful as a tank gun. Its tough legs and back enable it to withstand the recoil from firing the cannon.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Simbolo Xenoverse)\n Questo Pokemon pare una lettera di un alfabeto antico. A tutt'oggi rimane un mistero chi sia comparso prima, se l'alfabeto o Unown. Sono in corso ricerche in merito ma non si sa ancora praticamente nulla..
+(Xenoverse Symbol)\n The cannon on its back is as powerful as a tank gun. Its tough legs and back enable it to withstand the recoil from firing the cannon.
