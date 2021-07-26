@@ -39833,8 +39833,8 @@ Pinsirite
 Garchompite
 Garchompite
 534
-Blastoisite T
-Blastoisinite T
+Blastoisite 
+Blastoisinite 
 535
 Kangaskhanite
 Kangaskhanite
@@ -39899,8 +39899,8 @@ Pidgeotite
 Alakazamite
 Alakazite
 556
-Venusaurite T
-Venusaurite T
+Venusaurite 
+Venusaurite 
 557
 Aerodactylite
 Aerodactylite
@@ -39953,8 +39953,8 @@ Latiosite
 Charizardite X
 Charizardite X
 574
-Charizardite T
-Charizardite T
+Charizardite 
+Charizardite 
 575
 Lucarite
 Lucarionite
