@@ -27781,7 +27781,6 @@ Weight=4000
 Color=Gray
 RegionalNumbers=432,0,0
 Habitat=Cave
-RegionalNumbers=81,0,0
 Kind=Metallolega
 Pokedex=Il suo corpo simile a metallo lucidato è leggero e resistente, ma ha il difetto di arrugginire facilmente.
 WildItemUncommon=METALCOAT

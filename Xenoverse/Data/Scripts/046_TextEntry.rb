@@ -838,26 +838,26 @@ class Window_TextEntry_Keyboard < Window_TextEntry
         kbcount=0
         for i in 3...256
           if Input.triggerex?(i)
-            echoln "VK #{i.to_s(16)}"
+            #echoln "VK #{i.to_s(16)}"
             vsc=@mapVirtualKey.call(i,0)
-            echoln "VSC CHAR #{@mapVirtualKey.call(i,2)}"
+            #echoln "VSC CHAR #{@mapVirtualKey.call(i,2)}"
             buf="\0"*8
-            echoln "Vsc #{vsc}"
+            #echoln "Vsc #{vsc}"
             #vk = @getKeyState.call(i)
             #echoln "KeyState func #{vk}"
             ret=@toUnicode.call(i,vsc,kbs,buf,4,0)
-            echoln "Ret #{ret}"
-            echoln "BUF return #{buf[0]}"
+            #echoln "Ret #{ret}"
+            #echoln "BUF return #{buf[0]}"
             if ret>0
-              echoln buf
+              #echoln buf
               b=buf.unpack("V*")
               for j in 0...ret
                 
                 if buf[j]<=0x7F
-                  echoln "Inserted #{buf[j]}, could've been #{i.chr} or #{vsc.chr} or #{b[0].chr} => FIRST IF"
+                  #echoln "Inserted #{buf[j]}, could've been #{i.chr} or #{vsc.chr} or #{b[0].chr} => FIRST IF"
                   insert(buf[j].chr)
                 elsif buf[j]<=0x7FF
-                  echoln "Inserted #{(0xC0|((buf[j]>>6)&0x1F))} + #{(0x80|(buf[j]&0x3F))}, could've been #{i.chr} or #{vsc.chr} or #{b[0].chr} => SECOND IF"
+                  #echoln "Inserted #{(0xC0|((buf[j]>>6)&0x1F))} + #{(0x80|(buf[j]&0x3F))}, could've been #{i.chr} or #{vsc.chr} or #{b[0].chr} => SECOND IF"
                   insert((0xC0|((buf[j]>>6)&0x1F)).chr+(0x80|(buf[j]&0x3F)).chr)
                 else
                   str=(0xE0|((buf[j]>>12)&0x0F)).chr

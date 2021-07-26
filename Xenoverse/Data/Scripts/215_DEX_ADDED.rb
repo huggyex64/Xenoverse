@@ -32,14 +32,26 @@ class PokeBattle_Scene
   end
 end
 
-IGNORESHINOBI=[:GROWLITHE,:ARCANINE,:SEEDOT,:NUZLEAF,:SHIFTRY,:MIENFOO,
-:MIENSHAO,:MAGBY,:MAGMAR,:MAGMORTAR,:TURTWIG,:GROTLE,:TORTERRA,:CHIMCHAR,:MONFERNO,:INFERNAPE,
-:PIPLUP,:PRINPLUP,:EMPOLEON,:SURSKIT,:MASQUERAIN,:LOTAD,:LOMBRE,:LUDICOLO,:HORSEA,:SEADRA,
-:KINGDRA,:PSYDUCK,:GOLDUCK,:WOOPER,:QUAGSIRE,:CHEWTLE,:DREDNAW]
+IGNORESHINOBI=[
+  # Pass 1
+  :GROWLITHE,:ARCANINE,:SEEDOT,:NUZLEAF,:SHIFTRY,:MIENFOO,
+  :MIENSHAO,:MAGBY,:MAGMAR,:MAGMORTAR,:TURTWIG,:GROTLE,:TORTERRA,:CHIMCHAR,:MONFERNO,:INFERNAPE,
+  :PIPLUP,:PRINPLUP,:EMPOLEON,:SURSKIT,:MASQUERAIN,:LOTAD,:LOMBRE,:LUDICOLO,:HORSEA,:SEADRA,
+  :KINGDRA,:PSYDUCK,:GOLDUCK,:WOOPER,:QUAGSIRE,:CHEWTLE,:DREDNAW,
+  # Pass 2
+  :BELLSPROUT, :WEEPINBELL, :VICTREEBEL, :TANGELA, :TANGROWTH,
+  :FERROSEED, :FERROTHORN, :MUNNA, :MUSHARNA, :UNOWNELDIW, 
+  :SNIVY, :SERVINE, :SERPERIOR,:SWINUB, :PILOSWINE,:MAMOSWINE, :MISDREAVUS, :MISMAGIUS,
+  :SNORUNT, :GLALIE, :FROSLASS, :CRYOGONAL, :OSHAWOTT, :DEWOTT, :SAMUROTT, :LARVESTA,
+  :VOLCARONA, :GLIGAR, :GLISCOR, :POOCHYENA, :MIGHTYENA, :DEINO, :ZWEILOUS, :HYDREIGON,
+  :DURALUDON, :TEPIG, :PIGNITE, :EMBOAR,
+]
 
 IGNOREX = [:GRENINJAX]
 
 MYTHDOGS = [PBSpecies::ENTEI,PBSpecies::RAIKOU,PBSpecies::SUICUNE]
+
+BIGX = [:BISHARPX, :RAICHUX, :SCOVILEX, :TYRANITARX, :TAPUKOKOX, :TAPULELEX, :TAPUFINIX, :TAPUBULUX, :DITTOX]
 
 def shouldIgnore?(species)
   ignore = []
@@ -50,8 +62,13 @@ def shouldIgnore?(species)
   return false
 end
 
-def shouldIgnoreX?(species)
+def shouldIgnoreX?(species,ignoreBigX = true)
   return true if isConst?(species,PBSpecies,IGNOREX[0])
+  if (ignoreBigX)
+    for v in BIGX
+      return true if isConst?(species,PBSpecies,v)
+    end
+  end
   return false
 end
 
@@ -59,7 +76,7 @@ def getEldiwDexChecks(ignoreDogs = false)
   ret =[]
   for i in ELDIWDEX
     if shouldIgnore?(i)
-      echoln "#{i} ignored!"
+      echoln "#{PBSpecies.getName(i)} ignored!"
       next 
     end
     next if ignoreDogs && MYTHDOGS.include?(i)
@@ -68,25 +85,50 @@ def getEldiwDexChecks(ignoreDogs = false)
   return ret
 end
 
-def getXenoDexChecks
-  ret =[]
+def getMonArray(species)
+  return if species == nil || species.length==0
+  ret = []
+  for i in species
+    ret.push("#{PBSpecies.getName(i)}:(#{i})")
+  end
+  echoln ret.join("\n")
+end
+
+def getXenoDexChecks(ignoreBigX = true)
+  ret = []
   for i in XENODEX
-    next if shouldIgnoreX?(i)
+    next if shouldIgnoreX?(i,ignoreBigX)
     ret.push(i)
   end
   return ret
 end
 
+def pbCheckCompletion(fullList,checkList)
+  #Checking for every entry in the fullList
+  for i in fullList
+    if (checkList.length <= i || checkList[i] == false)
+      echoln "#{PBSpecies.getName(i)} is missing!"
+      return false 
+    end
+  end
+  return true
+end
+
+def eDexFull?(seen = false)
+  return pbCheckCompletion(getEldiwDexChecks(true),seen ? $Trainer.seen : $Trainer.owned)
+end
+
 def pbSCELDIW(seen=true,ignore=true)  
   ret = 0
   if seen
-    for i in ELDIWDEX
-      next if shouldIgnore?(i) && ignore
+    #better check eldiwDexChecks, which already makes all the needed checks
+    for i in getEldiwDexChecks(ignore)#ELDIWDEX
+      #next if shouldIgnore?(i) && ignore
       ret+=1 if $Trainer.seen[i]
     end
   else
-    for i in ELDIWDEX
-      next if shouldIgnore?(i) && ignore
+    for i in getEldiwDexChecks(ignore)
+      #next if shouldIgnore?(i) && ignore
       ret+=1 if $Trainer.owned[i]
     end
   end
