@@ -233,9 +233,9 @@ def pbBattleOnStepTaken
 				elsif !RETROMON.has_key?(encounter[0]) && EXCLUSIVERETROMON.has_key?($game_map.map_id)
 					#if i wouldn't find a retromon, i still check if i could encounter any exclusive
 					pbWildBattle(EXCLUSIVERETROMON[$game_map.map_id][0],encounter[1])
-				else
-					pbWildBattle(encounter[0],encounter[1])
 				end
+			else
+				pbWildBattle(encounter[0],encounter[1])
 			end
           end
         end

@@ -41,11 +41,17 @@ def pbWildPokemonBattle(pkmn,variable=nil,canescape=true,canlose=false,skipanim=
     return true
   end
   genwildpoke=pkmn
+  $wildSpecies = pkmn.species
+  
 
   handled=[nil]
   Events.onWildBattleOverride.trigger(nil,pkmn.species,pkmn.level,handled)
   if handled[0]!=nil
     return handled[0]
+  end
+  currentlevels=[]
+  for i in $Trainer.party
+    currentlevels.push(i.level)
   end
   Events.onStartBattle.trigger(nil,genwildpoke)
   scene=pbNewBattleScene
@@ -67,6 +73,15 @@ def pbWildPokemonBattle(pkmn,variable=nil,canescape=true,canlose=false,skipanim=
 				i.busted=false if i.busted
        end
      end
+     if decision==1 && RETROMON[species]#$game_switches[RETROMONSWITCH] &&
+        echoln "WIN BATTLE"
+        if $Trainer.retrochain[species]
+          $Trainer.retrochain[species]+=1 if $Trainer.retrochain[species]<500
+        else
+          $Trainer.retrochain[species]=1
+        end
+        echoln $Trainer.retrochain[species]
+      end
      if decision==2 || decision==5 # if loss or draw
        if canlose
          for i in $Trainer.party; i.heal; end
@@ -92,7 +107,86 @@ def pbWildPokemonBattle(pkmn,variable=nil,canescape=true,canlose=false,skipanim=
   Input.update
   pbSet(variable,decision)
   Events.onWildBattleEnd.trigger(nil,pkmn.species,pkmn.level,decision)
+  $wildSpecies = nil
   return (decision!=2)
+end
+#===============================================================================
+# Start a double wild Pokemon battle
+#===============================================================================
+def pbDoubleWildPokemonBattle(poke1,poke2,variable=nil,canescape=true,canlose=false)
+  if (Input.press?(Input::CTRL) && $DEBUG) || $Trainer.pokemonCount==0
+    if $Trainer.pokemonCount>0
+      Kernel.pbMessage(_INTL("SKIPPING BATTLE..."))
+    end
+    pbSet(variable,1)
+    $PokemonGlobal.nextBattleBGM=nil
+    $PokemonGlobal.nextBattleME=nil
+    $PokemonGlobal.nextBattleBack=nil
+    return true
+  end
+  currentlevels=[]
+  for i in $Trainer.party
+    currentlevels.push(i.level)
+  end
+  genwildpoke=poke1
+  $wildSpecies = poke1.species
+  genwildpoke2=poke2
+  Events.onStartBattle.trigger(nil,genwildpoke)
+  scene=pbNewBattleScene
+  if $PokemonGlobal.partner
+    othertrainer=PokeBattle_Trainer.new(
+       $PokemonGlobal.partner[1],$PokemonGlobal.partner[0])
+    othertrainer.id=$PokemonGlobal.partner[2]
+    othertrainer.party=$PokemonGlobal.partner[3]
+    combinedParty=[]
+    for i in 0...$Trainer.party.length
+      combinedParty[i]=$Trainer.party[i]
+    end
+    for i in 0...othertrainer.party.length
+      combinedParty[6+i]=othertrainer.party[i]
+    end
+    battle=PokeBattle_Battle.new(scene,combinedParty,[genwildpoke,genwildpoke2],
+       [$Trainer,othertrainer],nil)
+    battle.fullparty1=true
+  else
+    battle=PokeBattle_Battle.new(scene,$Trainer.party,[genwildpoke,genwildpoke2],
+       $Trainer,nil)
+  end
+  battle.internalbattle=true
+  battle.doublebattle=battle.pbDoubleBattleAllowed?()
+  battle.cantescape=!canescape
+  pbPrepareBattle(battle)
+  decision=0
+  pbBattleAnimation(pbGetWildBattleBGM(poke1.species)) { 
+     pbSceneStandby {
+        decision=battle.pbStartBattle(canlose)
+     }
+     for i in $Trainer.party; (i.makeUnmega rescue nil);i.busted=false if i.busted; end
+     if $PokemonGlobal.partner
+       pbHealAll
+       for i in $PokemonGlobal.partner[3]
+				i.heal
+				i.busted=false if i.busted
+         i.makeUnmega rescue nil
+       end
+     end
+     if decision==2 || decision==5
+       if canlose
+         for i in $Trainer.party; i.heal; end
+         for i in 0...10
+           Graphics.update
+         end
+       else
+         $game_system.bgm_unpause
+         $game_system.bgs_unpause
+         Kernel.pbStartOver
+       end
+     end
+     Events.onEndBattle.trigger(nil,decision)
+  }
+  Input.update
+  pbSet(variable,decision)
+  return (decision!=2 && decision!=5)
 end
 
 ################################################################################

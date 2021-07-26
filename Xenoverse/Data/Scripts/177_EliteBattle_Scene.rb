@@ -344,6 +344,7 @@ class PokeBattle_Scene
       @sprites["player"].y+=120
     end
     checkIfSunMoonTrainer(@battle.opponent.trainertype) if @battle.opponent
+    echoln "Should play new boss sequence? #{$smAnim}"
 		if $smAnim
       if $game_switches[85]
         #GRENINJAX START

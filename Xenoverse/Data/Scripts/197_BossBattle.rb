@@ -211,7 +211,7 @@ class PokeBattle_Battle
       raise ArgumentError.new(_INTL("Party 2 has more than {1} Pokémon.",MAXPARTYSIZE))
     end
     #$smAnim = false if ($smAnim && @doublebattle) || EBUISTYLE!=2
-    $smAnim = true if $game_switches[85] && !@doublebattle
+    $smAnim = true if $game_switches[85] && (containsNewBosses?(@party2) ? true : !@doublebattle)
     if !@opponent
     #========================
     # Initialize wild Pokémon
@@ -255,8 +255,21 @@ class PokeBattle_Battle
         pbSetSeen(@party2[0])
         pbSetSeen(@party2[1])
         @scene.pbStartBattle(self)
-        pbDisplayPaused(_INTL("Wild {1} and\r\n{2} appeared!",
-           @party2[0].name,@party2[1].name))
+        wildpoke=@party2[0]
+        if wildpoke.boss
+					pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} and {2} wants to battle!",wildpoke.name,@party2[1].name))
+          # GRENINJAX END SENDOUT
+          if NEWBOSSES.include?($wildSpecies)
+            @scene.newBossSequence.finish if @scene.newBossSequence
+            @scene.newBossSequence.sendout if @scene.newBossSequence
+          else
+            @scene.vsBossSequence2_end
+            @scene.vsBossSequence2_sendout
+          end
+        else
+          pbDisplayPaused(_INTL("Wild {1} and\r\n{2} appeared!",
+            @party2[0].name,@party2[1].name))
+        end
       else
         raise _INTL("Only one or two wild Pokémon are allowed")
       end
@@ -1259,10 +1272,12 @@ BOSS_LIST = [
   :VERSILDRAGALISK,
   :LUXFLON,
 	:VAKUM,
-  :GRENINJAX
+  :GRENINJAX,
+  :SUICUNE
 ]
 
-NEWBOSSES = [PBSpecies::GRENINJAX]
+NEWBOSSES = [PBSpecies::GRENINJAX,
+             PBSpecies::SUICUNE]
 
 def isBoss?
   ret = false
@@ -1315,12 +1330,47 @@ def pbStartBossBattle(species, level, lives, bgs=nil, item = nil,canescape = tru
   return result
 end
 
+def pbStartBossBattleMon(pokemon, bgs = nil, item = nil, canescape = true)
+	result = pbWildPokemonBattle(pokemon, nil, false, true)
+  return result
+end
+
+def pbDoubleBossBattle(pokemon1,pokemon2,canescape=true)
+  result = pbDoubleWildPokemonBattle(pokemon1,pokemon2,nil,canescape)
+  return result
+end
+
+def containsNewBosses?(party)
+  species = []
+  for i in party
+    species.push(i.species)
+  end
+  for v in NEWBOSSES
+    return true if species.include?(v)
+  end
+  return false
+end
+
+def testSuicune
+  pbRegisterPartner(PBTrainers::EVAN,"Claudio")
+  $game_switches[85] = true
+  $mods.set(3, nil, nil)
+  $wildSpecies = PBSpecies::SUICUNE
+  pkmn = pbGenerateWildPokemon(PBSpecies::SUICUNE,10)
+  pkmn.forcedForm = 2
+  pkmn2 = pbGenerateWildPokemon(PBSpecies::VAPOREON,5)
+  pbDoubleBossBattle(pkmn,pkmn2)
+  $game_switches[85] = false
+  pbDeregisterPartner()
+end
+
 Events.onWildPokemonCreate+=proc {|sender,e|
   pokemon=e[0]
   if $mods.item != nil
     pokemon.item = $mods.item
     $mods.item = nil
   end
+  echoln "boss:#{isBoss?} 85:#{$game_switches[85]}"
   if isBoss? && $game_switches[85]
     pokemon.setBoss($mods.lives,$bgs != nil ? $mods.bgs : "test2")
   end

@@ -1315,15 +1315,15 @@ def pbWildBattle(species,level,variable=nil,canescape=true,canlose=false,modifie
          i.makeUnmega rescue nil
        end
      end
-     if decision==1 &&  RETROMON[species]#$game_switches[RETROMONSWITCH] &&
-			echoln "WIN BATTLE"
-			if $Trainer.retrochain[species]
-				$Trainer.retrochain[species]+=1 if $Trainer.retrochain[species]<500
-			else
-				$Trainer.retrochain[species]=1
-			end
-			echoln $Trainer.retrochain[species]
-		end
+     if decision==1 && RETROMON[species]#$game_switches[RETROMONSWITCH] &&
+        echoln "WIN BATTLE"
+        if $Trainer.retrochain[species]
+          $Trainer.retrochain[species]+=1 if $Trainer.retrochain[species]<500
+        else
+          $Trainer.retrochain[species]=1
+        end
+        echoln $Trainer.retrochain[species]
+      end
      if decision==2 || decision==5 # if loss or draw
        if canlose
          for i in $Trainer.party; i.heal; end
