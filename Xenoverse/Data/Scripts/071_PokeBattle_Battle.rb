@@ -1753,6 +1753,7 @@ class PokeBattle_Battle
 		if !meganame || meganame==""
 			meganame=_INTL("Mega {1}",PBSpecies.getName(@battlers[index].pokemon.species))
 		end
+		pbSeenForm(@battlers[index].pokemon)
 		pbDisplay(_INTL("{1} has Mega Evolved into {2}!",@battlers[index].pbThis,meganame))
 		PBDebug.log("[#{@battlers[index].pbThis} Mega Evolved]")
 		side=(pbIsOpposing?(index)) ? 1 : 0
