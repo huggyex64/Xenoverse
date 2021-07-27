@@ -9793,8 +9793,8 @@ Strido
 Malpupazzo
 Malpupazzo
 1461
-Panda
-Panda
+Pandanormale
+Pandanormale
 1462
 Millepiedi
 Millepiedi
@@ -12979,6 +12979,9 @@ Il suo corpo e' ricoperto da una mucosa. Se la si tocca con le mani nude causa u
 1449
 Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli scafi delle barche.
 Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli scafi delle barche.
+1450
+Le due entità che compongono questo Pokémon hanno due personalità distinte. Tuttavia è impossibile distinguere quale dei due sia quella malvagia e quale quella pacata.
+Le due entità che compongono questo Pokémon hanno due personalità distinte. Tuttavia è impossibile distinguere quale dei due sia quella malvagia e quale quella pacata.
 1451
 Ama i luoghi caldi e umidi. Cattura minuscoli insetti con le sue liane e poi li divora.
 Ama i luoghi caldi e umidi. Cattura minuscoli insetti con le sue liane e poi li divora.
@@ -12988,6 +12991,9 @@ Quando è affamato divora qualsiasi cosa gli capiti a tiro. La preda è poi disc
 1453
 Attira le prede con il dolce aroma del miele, le inghiotte intere e le digerisce in un giorno.
 Attira le prede con il dolce aroma del miele, le inghiotte intere e le digerisce in un giorno.
+1454
+I liquidi corrosivi che secerne dalla bocca, sono diventati ancora più pericolosi con l'evoluzione. Le sue foglie hanno bisogno di molta umidità per non appassire..
+I liquidi corrosivi che secerne dalla bocca, sono diventati ancora più pericolosi con l'evoluzione. Le sue foglie hanno bisogno di molta umidità per non appassire..
 1455
 Vola planando nell'aria. Sorprende i nemici aggrappandosi al loro volto, poi inietta il suo veleno.
 Vola planando nell'aria. Sorprende i nemici aggrappandosi al loro volto, poi inietta il suo veleno.
@@ -13003,6 +13009,12 @@ Poiche il lungo pelo sul suo corpo gli impedisce di vedere, non fa che caricare 
 1459
 Si diverte a fare brutti scherzi, come gridare e lamentarsi in piena notte spaventando la gente.
 Si diverte a fare brutti scherzi, come gridare e lamentarsi in piena notte spaventando la gente.
+1460
+Il chiodo che ha conficcato nel corpo è la fonte dei suoi poteri paranormali. Più terribile ed atroce è il sortilegio che scaglia, più ride sguaiatamente.
+Il chiodo che ha conficcato nel corpo è la fonte dei suoi poteri paranormali. Più terribile ed atroce è il sortilegio che scaglia, più ride sguaiatamente.
+1461
+Saltellando qua e là, caccia urli agghiaccianti e strilla anatemi che causano intensa attività poltergeist. Chiunque gli sottragga la targa si trasformerà in un Pangshi a sua volta.
+Saltellando qua e là, caccia urli agghiaccianti e strilla anatemi che causano intensa attività poltergeist. Chiunque gli sottragga la targa si trasformerà in un Pangshi a sua volta.
 1462
 Ha un cappello in testa che lo rende molto buffo agli occhi dei suoi avversari.
 Ha un cappello in testa che lo rende molto buffo agli occhi dei suoi avversari.
@@ -13088,8 +13100,8 @@ Il suo corpo è ricoperto da una mucosa. Se la si tocca con le mani nude causa u
 Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli scafi delle barche.
 Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli scafi delle barche.
 2026
-Agile e sfugente come un ninja, si fa beffe dei nemici grazie alla sua velocita' e li bersaglia dei shuriken d'acqua
-Si muove col favore delle tenebre. I pugnali di fuoco che crea lacerano le carni dei nemici, infliggendo loro scottature terribili.
+Si raccolgono in massa in prossimità degli Xenovarchi. Poiché il loro aspetto ricorda il simbolo sulla gemma di Luxflon, i Cardinali considerano il loro aspetto come sacro da tempi immemori. Si muove col favore delle tenebre. I pugnali di fuoco che crea lacerano le carni dei nemici, infliggendo loro scottature terribili.
+Si raccolgono in massa in prossimità degli Xenovarchi. Poiché il loro aspetto ricorda il simbolo sulla gemma di Luxflon, i Cardinali considerano il loro aspetto come sacro da tempi immemori. 
 2027
 Il suo corpo simile a metallo lucidato è leggero e resistente, ma ha il difetto di arrugginire facilmente.
 Il suo corpo simile a metallo lucidato è leggero e resistente, ma ha il difetto di arrugginire facilmente.
