@@ -43,6 +43,20 @@ class PokeWES
 		@sprites["animbg"]=AnimatedPlane.new(@viewport)
 		@sprites["animbg"].bitmap=pbBitmap("Graphics/Pictures/PokeWES/animbg")
 		@sprites["animbg"].z=-7
+
+		@sprites["megabg"]=AnimatedPlane.new(@viewport)
+		@sprites["megabg"].bitmap=pbBitmap("Graphics/Pictures/PokeWES/megabg")
+		@sprites["megabg"].z=-8
+		@sprites["megabg"].visible = $PokemonGlobal.megaRing
+		@sprites["megabg"].opacity = 150
+
+		@sprites["megatoggle"] = Sprite.new(@viewport)
+		@sprites["megatoggle"].bitmap = pbBitmap("Graphics/Pictures/PokeWES/megatoggle")
+		@sprites["megatoggle"].zoom_x = 0.3
+		@sprites["megatoggle"].zoom_y = 0.3
+		@sprites["megatoggle"].x = Graphics.width-70
+		@sprites["megatoggle"].y = Graphics.height-70
+		@sprites["megatoggle"].visible = $PokemonGlobal.megaRing
 		
 		@sprites["interface"]=Sprite.new(@viewport)
 		@sprites["interface"].bitmap=pbBitmap("Graphics/Pictures/PokeWES/interface")
@@ -465,6 +479,8 @@ class PokeWES
 	def update
 		@sprites["animbg"].oy+=1.5
 		
+		@sprites["megabg"].oy+=1.5
+
 		if @index==0
 			@sprites["overlay"].visible=true
 			@sprites["overlay1"].visible=false
