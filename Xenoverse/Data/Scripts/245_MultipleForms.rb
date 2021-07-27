@@ -2349,7 +2349,7 @@ MultipleForms.register(:MASGOT,{
 
 			if $game_map && gengar_maps.include?($game_map.map_id)
 				next 1 #GENGAR FORM
-			elsif $game_map && gengar_maps.include?($game_map.map_id)
+			elsif $game_map && weavile_maps.include?($game_map.map_id)
 				next 2 #WEAVILE FORM
 			elsif $game_map && heracross_maps.include?($game_map.map_id)
 				next 6 #HERACROSS FORM
