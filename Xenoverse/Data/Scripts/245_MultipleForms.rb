@@ -1418,16 +1418,6 @@ MultipleForms.register(:HOOH, {
 		}
 	})
 
-MultipleForms.register(:RAIKOU, {
-		"getFormOnCreation"=>proc{|pokemon|
-			next 1 if $game_map.map_id == 448
-			next 
-		},
-		"onSetForm"=>proc{|pokemon, form|
-			pbSeenForm(pokemon)
-		}
-	})
-
 MultipleForms.register(:CELEBI, {
 		"getFormOnCreation"=>proc{|pokemon|
 			next 1 if $game_map.map_id == 443
@@ -1438,10 +1428,60 @@ MultipleForms.register(:CELEBI, {
 		}
 	})
 
+MultipleForms.register(:RAIKOU, {
+		"getMegaForm"=>proc{|pokemon|
+			next 2 if isConst?(pokemon.item,PBItems,:RAIKOUITE)
+			next
+		},
+		"getUnmegaForm"=>proc{|pokemon|
+			next 
+		},
+		"getMegaName"=>proc{|pokemon|
+			next _INTL("Mega Raikou") if pokemon.form==2
+			next
+		},
+		"getBaseStats"=>proc{|pokemon|
+			next [90,105,95,135,135,120] if pokemon.form==2
+			next
+		},
+		"getFormOnCreation"=>proc{|pokemon|
+			next 1 if $game_map.map_id == 448
+			next 
+		},
+		"ability"=>proc{|pokemon|
+			next getID(PBAbilities,:TERAVOLT) if pokemon.form==2
+			next
+		},
+		"onSetForm"=>proc{|pokemon, form|
+			pbSeenForm(pokemon)
+		}
+	})
+
+
+
 MultipleForms.register(:ENTEI, {
+		"getMegaForm"=>proc{|pokemon|
+			next 2 if isConst?(pokemon.item,PBItems,:ENTEITE)
+			next
+		},
+		"getUnmegaForm"=>proc{|pokemon|
+			next 
+		},
+		"getMegaName"=>proc{|pokemon|
+			next _INTL("Mega Entei") if pokemon.form==2
+			next
+		},
+		"getBaseStats"=>proc{|pokemon|
+			next [115,135,105,120,110,95] if pokemon.form==2
+			next
+		},
 		"getFormOnCreation"=>proc{|pokemon|
 			next 1 if $game_map.map_id == 445
 			next 
+		},
+		"ability"=>proc{|pokemon|
+			next getID(PBAbilities,:SHEERFORCE) if pokemon.form==2
+			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
 			pbSeenForm(pokemon)
@@ -1461,7 +1501,7 @@ MultipleForms.register(:SUICUNE, {
 			next
 		},
 		"getBaseStats"=>proc{|pokemon|
-			next [100,95,135,95,120,135] if pokemon.form==2
+			next [100,95,135,105,120,135] if pokemon.form==2
 			next
 		},
 		"getFormOnCreation"=>proc{|pokemon|
@@ -1469,7 +1509,7 @@ MultipleForms.register(:SUICUNE, {
 			next 
 		},
 		"ability"=>proc{|pokemon|
-			next getID(PBAbilities,:WATERABSORB) if pokemon.form==2
+			next getID(PBAbilities,:ICEBODY) if pokemon.form==2
 			next
 		},
 		"onSetForm"=>proc{|pokemon,form|
