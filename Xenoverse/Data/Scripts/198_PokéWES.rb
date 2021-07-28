@@ -52,10 +52,10 @@ class PokeWES
 
 		@sprites["megatoggle"] = Sprite.new(@viewport)
 		@sprites["megatoggle"].bitmap = pbBitmap("Graphics/Pictures/PokeWES/megatoggle")
-		@sprites["megatoggle"].zoom_x = 0.3
-		@sprites["megatoggle"].zoom_y = 0.3
-		@sprites["megatoggle"].x = Graphics.width-70
-		@sprites["megatoggle"].y = Graphics.height-70
+		@sprites["megatoggle"].zoom_x = 0.24
+		@sprites["megatoggle"].zoom_y = 0.24
+		@sprites["megatoggle"].x = Graphics.width-60
+		@sprites["megatoggle"].y = Graphics.height-60
 		@sprites["megatoggle"].visible = $PokemonGlobal.megaRing
 		
 		@sprites["interface"]=Sprite.new(@viewport)
