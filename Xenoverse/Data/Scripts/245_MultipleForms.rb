@@ -1573,36 +1573,30 @@ MultipleForms.register(:GENESECT, {
 # VENUSAUR
 MultipleForms.register(:VENUSAUR,{
 		"getMegaForm"=>proc{|pokemon|
-			next 1 if isConst?(pokemon.item,PBItems,:VENUSAURITET)
-			next 2 if isConst?(pokemon.item,PBItems,:VENUSAURITEX)
+			next 1 if isConst?(pokemon.item,PBItems,:VENUSAURITE)
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
 			next 0
 		},
 		"getMegaName"=>proc{|pokemon|
-			next _INTL("Mega Venusaur T") if pokemon.form==1
-			next _INTL("Mega Venusaur X") if pokemon.form==2
+			next _INTL("Mega Venusaur") if pokemon.form==1
 			next
 		},
 		"getBaseStats"=>proc{|pokemon|
 			next [80,100,123,80,122,120] if pokemon.form==1
-			next [80,100,123,80,122,120] if pokemon.form==2
 			next
 		},
 		"ability"=>proc{|pokemon|
 			next getID(PBAbilities,:THICKFAT) if pokemon.form==1
-			next getID(PBAbilities,:THICKFAT) if pokemon.form==2
 			next
 		},
 		"height"=>proc{|pokemon|
 			next 24 if pokemon.form==1
-			next 24 if pokemon.form==2
 			next
 		},
 		"weight"=>proc{|pokemon|
 			next 1555 if pokemon.form==1
-			next 1555 if pokemon.form==2
 			next
 		},
 		"onSetForm"=>proc{|pokemon,form|
@@ -1621,13 +1615,13 @@ MultipleForms.register(:CHARIZARD,{
 			next 0
 		},
 		"getMegaName"=>proc{|pokemon|
-			next _INTL("Mega Charizard T") if pokemon.form==1
+			next _INTL("Mega Charizard Y") if pokemon.form==1
 			next _INTL("Mega Charizard X") if pokemon.form==2
 			next
 		},
 		"getBaseStats"=>proc{|pokemon|
-			next [78,130,111,100,130,85] if pokemon.form==1
-			next [78,104,78,100,159,115] if pokemon.form==2
+			next [78,104,78,100,159,115] if pokemon.form==1
+			next [78,130,111,100,130,85] if pokemon.form==2
 			next
 		},
 		"type2"=>proc{|pokemon|
@@ -1635,8 +1629,8 @@ MultipleForms.register(:CHARIZARD,{
 			next
 		},
 		"ability"=>proc{|pokemon|
-			next getID(PBAbilities,:TOUGHCLAWS) if pokemon.form==1
-			next getID(PBAbilities,:DROUGHT) if pokemon.form==2
+			next getID(PBAbilities,:DROUGHT) if pokemon.form==1
+			next getID(PBAbilities,:TOUGHCLAWS) if pokemon.form==2
 			next
 		},
 		"weight"=>proc{|pokemon|
@@ -1652,31 +1646,26 @@ MultipleForms.register(:CHARIZARD,{
 # BLASTOISE
 MultipleForms.register(:BLASTOISE,{
 		"getMegaForm"=>proc{|pokemon|
-			next 1 if isConst?(pokemon.item,PBItems,:BLASTOISINITET)
-			next 2 if isConst?(pokemon.item,PBItems,:BLASTOISINITEX)
+			next 1 if isConst?(pokemon.item,PBItems,:BLASTOISINITE)
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
 			next 0
 		},
 		"getMegaName"=>proc{|pokemon|
-			next _INTL("Mega Blastoise T") if pokemon.form==1
-			next _INTL("Mega Blastoise X") if pokemon.form==2
+			next _INTL("Mega Blastoise") if pokemon.form==1
 			next
 		},
 		"getBaseStats"=>proc{|pokemon|
 			next [79,103,120,78,135,115] if pokemon.form==1
-			next [79,103,120,78,135,115] if pokemon.form==2
 			next
 		},
 		"ability"=>proc{|pokemon|
 			next getID(PBAbilities,:MEGALAUNCHER) if pokemon.form==1
-			next getID(PBAbilities,:MEGALAUNCHER) if pokemon.form==2
 			next
 		},
 		"weight"=>proc{|pokemon|
 			next 1011 if pokemon.form==1
-			next 1011 if pokemon.form==2
 			next
 		},
 		"onSetForm"=>proc{|pokemon,form|
