@@ -1172,7 +1172,9 @@ def pbBattleAnimation(bgm=nil,trainerid=-1,trainername="",skip = false)
       pbUpdateSceneMap
     end
   end
-    
+  
+  echoln "TRANSITION: checking handled cases"
+
   if trainerid >= 0 && !handled
     # checks if the Sun & Moon styled VS sequence is to be played
     handled = checkIfNewTransition(trainerid)
@@ -1226,6 +1228,7 @@ def pbBattleAnimation(bgm=nil,trainerid=-1,trainername="",skip = false)
       end
       special = pbResolveBitmap("Graphics/Transitions/species#{$wildSpecies}")
     end
+    echoln "TRANSITION: checking which animation to play"
     if !$wildSpecies.nil? && queuedIsRegi?
       ebWildAnimationRegi(viewport)
     elsif !$wildSpecies.nil? && isBoss?
@@ -1233,6 +1236,7 @@ def pbBattleAnimation(bgm=nil,trainerid=-1,trainername="",skip = false)
         echoln "STARTING OLD TRANSITION"
         vsXSpecies(viewport,$wildSpecies)
       else
+        echoln "TRANSITION: playing ebWildAnimationMinor"
         ebWildAnimationMinor(viewport,true) 
       end
     elsif !$wildSpecies.nil? && special

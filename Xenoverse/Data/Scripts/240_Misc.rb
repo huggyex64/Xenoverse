@@ -60,7 +60,7 @@ def pbWildPokemonBattle(pkmn,variable=nil,canescape=true,canlose=false,skipanim=
   battle.cantescape=!canescape
   pbPrepareBattle(battle)
   decision=0
-  pbBattleAnimation(pbGetWildBattleBGM(pkmn.species),$Trainer.id,"",skipanim) {
+  pbBattleAnimation(pbGetWildBattleBGM(pkmn.species),-1,"",skipanim) {
      pbSceneStandby {
         decision=battle.pbStartBattle(canlose)
      }

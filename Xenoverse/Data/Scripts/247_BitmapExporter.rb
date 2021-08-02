@@ -142,6 +142,7 @@ module Graphics
     DeleteObject           = Win32API.new('gdi32' , 'DeleteObject'          , 'i'        , 'i')
     GetDIBits              = Win32API.new('gdi32' , 'GetDIBits'             , 'iiiiipi'  , 'i')
     SelectObject           = Win32API.new('gdi32' , 'SelectObject'          , 'ii'       , 'i')
+=begin
     def self.snap_to_bitmap
       bitmap  = Bitmap.new(width, height)
       info    = [40,width,height,1,32,0,0,0,0,0,0].pack('LllSSLLllLL')
@@ -157,6 +158,7 @@ module Graphics
       ReleaseDC.call(hwnd, hDC)
       bitmap
     end
+=end
   end
   class << self
     def hwnd() @hwnd ||= FindWindow.call('RGSS Player', nil) end
