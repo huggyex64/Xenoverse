@@ -690,7 +690,7 @@
 731,BIGLIETTOAEREO,Biglietto Aereo,8,0,"Biglietto aereo donato dal nonno di Henné con destinazione Kanto.",0,0,6,
 732,MASTERAMO,Master Amo,8,0,Amo vecchio e rovinato. Si usa per pescare Pokémon selvatici in qualsiasi specchio d'acqua.,2,0,6,
 733,BLASTOISINITEX,Blastoisite X,1,0,"Un esemplare delle misteriose Megapietre. Data a Blastoise, gli permette di megaevolversi durante la lotta.",0,0,0,
-734,VENUSAURITET,Venusaurite,1,0,"Un esemplare delle misteriose Megapietre. Data a Venusaur, gli permette di megaevolversi durante la lotta.",0,0,0,
+734,VENUSAURITE,Venusaurite,1,0,"Un esemplare delle misteriose Megapietre. Data a Venusaur, gli permette di megaevolversi durante la lotta.",0,0,0,
 735,GRANBULLITE,Granbullite,1,0,"Un esemplare delle misteriose Megapietre. Data a Granbull, gli permette di megaevolversi durante la lotta.",0,0,0,
 736,BRAVIARITE,Braviarite,1,0,"Un esemplare delle misteriose Megapietre. Data a Braviary, gli permette di megaevolversi durante la lotta.",0,0,0,
 737,DRAGONITEITE,Dragonitite,1,0,"Un esemplare delle misteriose Megapietre. Data a Dragonite, gli permette di megaevolversi durante la lotta.",0,0,0,
