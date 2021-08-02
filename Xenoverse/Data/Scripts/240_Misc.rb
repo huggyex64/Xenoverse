@@ -7,7 +7,7 @@ def pbBattleAltForm(species,level,form=0,variable=nil,canescape=true,canlose=fal
       pbSet(shinyflag,pkmn.isShiny? ? 1 : 0)
     else
       if pbGet(shinyflag)==1
-        pkmn.makeShiny 
+        pkmn.makeShiny
       else
         pkmn.makeNotShiny
       end
@@ -21,7 +21,7 @@ end
 def pbBattleAltPokemonForm(pkmn,form=0,variable=nil,canescape=true,canlose=false,skipanim=false)
   pkmn.forcedForm=form
   pkmn.calcStats
-  pbWildPokemonBattle(pkmn,variable,canescape,canlose,skipanim) 
+  pbWildPokemonBattle(pkmn,variable,canescape,canlose,skipanim)
 end
 
 SAVESHINYFLAG=[PBSpecies::GRENINJAX]
@@ -42,7 +42,7 @@ def pbWildPokemonBattle(pkmn,variable=nil,canescape=true,canlose=false,skipanim=
   end
   genwildpoke=pkmn
   $wildSpecies = pkmn.species
-  
+
 
   handled=[nil]
   Events.onWildBattleOverride.trigger(nil,pkmn.species,pkmn.level,handled)
@@ -60,7 +60,7 @@ def pbWildPokemonBattle(pkmn,variable=nil,canescape=true,canlose=false,skipanim=
   battle.cantescape=!canescape
   pbPrepareBattle(battle)
   decision=0
-  pbBattleAnimation(pbGetWildBattleBGM(pkmn.species),$Trainer.id,"",skipanim) { 
+  pbBattleAnimation(pbGetWildBattleBGM(pkmn.species),$Trainer.id,"",skipanim) {
      pbSceneStandby {
         decision=battle.pbStartBattle(canlose)
      }
@@ -73,14 +73,14 @@ def pbWildPokemonBattle(pkmn,variable=nil,canescape=true,canlose=false,skipanim=
 				i.busted=false if i.busted
        end
      end
-     if decision==1 && RETROMON[species]#$game_switches[RETROMONSWITCH] &&
+     if decision==1 && RETROMON[pkmn.species]#$game_switches[RETROMONSWITCH] &&
         echoln "WIN BATTLE"
-        if $Trainer.retrochain[species]
-          $Trainer.retrochain[species]+=1 if $Trainer.retrochain[species]<500
+        if $Trainer.retrochain[pkmn.species]
+          $Trainer.retrochain[pkmn.species]+=1 if $Trainer.retrochain[pkmn.species]<500
         else
-          $Trainer.retrochain[species]=1
+          $Trainer.retrochain[pkmn.species]=1
         end
-        echoln $Trainer.retrochain[species]
+        echoln $Trainer.retrochain[pkmn.species]
       end
      if decision==2 || decision==5 # if loss or draw
        if canlose
@@ -97,7 +97,7 @@ def pbWildPokemonBattle(pkmn,variable=nil,canescape=true,canlose=false,skipanim=
      if decision==4
        if [PBSpecies::TRISHOUT,
            PBSpecies::SHYLEON,PBSpecies::SHULONG].include?(pkmn.species) && pkmn.forcedForm != nil
-           
+
           pkmn.forcedForm=nil
           pkmn.setAbility(2)
        end
@@ -157,7 +157,7 @@ def pbDoubleWildPokemonBattle(poke1,poke2,variable=nil,canescape=true,canlose=fa
   battle.cantescape=!canescape
   pbPrepareBattle(battle)
   decision=0
-  pbBattleAnimation(pbGetWildBattleBGM(poke1.species)) { 
+  pbBattleAnimation(pbGetWildBattleBGM(poke1.species)) {
      pbSceneStandby {
         decision=battle.pbStartBattle(canlose)
      }
@@ -258,7 +258,7 @@ def pbChooseCFLegendaries()
   for x in CF_LEGENDARIES
     lege.push(getID(PBSpecies,x))
   end
-  Kernel.pbChoosePokemon(1,3,Proc.new {|pkmn| 
+  Kernel.pbChoosePokemon(1,3,Proc.new {|pkmn|
     lege.include?(pkmn.species)
   },false)
 end
@@ -283,14 +283,14 @@ class LocationWindow
     @sprites["overlay"].bitmap=Bitmap.new(Graphics.width,Graphics.height)
     @sprites["overlay"].z=99999
     @sprites["overlay"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
-    #Dimensione standard 20, oltre i 
+    #Dimensione standard 20, oltre i
     fontsize = ($MKXP ? 18 : 20) - ($game_map.name.length>13 ? ($game_map.name.length-13)*0.5 : 0)
     @sprites["overlay"].bitmap.font.size = fontsize
-    
+
     @overlay = @sprites["overlay"].bitmap
     @overlay.clear
     @baseColor=Color.new(248,248,248)
-    
+
     #Map id delle città in cui viene mostrata la targhetta
     @cities = ["Ranch Spigadoro", "Balansopoli","Vetta Polare", "Campus Ariepoli",
     "Biblioteca Acero","Borgo Gemini", "Regno di Virgopoli", "Aquariopoli",
@@ -305,15 +305,15 @@ class LocationWindow
     "Zona DNA","Percorso 8","Gola Steelix", "Tempio Shyleon", "Fogne di Sagittopoli",
     "Monte Zodiaco", "Nido Boreale", "Vetta Boreale", "Grotta dell'Epilogo"]
     @xenoverse = ["Mondo Xenoverse"]
-    
+
     city = "Graphics/Maps/City_loc"
     route = "Graphics/Maps/Route_loc" # this will be relied on if nothing else matches
     cave = "Graphics/Maps/Cave_loc"
     waterRoute = "Graphics/Maps/WaterRoute_loc"
     xenoverse = "Graphics/Maps/Xenoverse_loc"
-    
-    
-    
+
+
+
     if @cities.include?($game_map.name)
       @sprites["Image"].bitmap = pbBitmap(city)
       @shadowColor=Color.new(32,39,39)
@@ -326,7 +326,7 @@ class LocationWindow
     elsif @caves.include?($game_map.name)
       @sprites["Image"].bitmap = pbBitmap(cave)
       @shadowColor=Color.new(52,30,17)
-    else 
+    else
       @sprites["Image"].bitmap = pbBitmap(route)
       @shadowColor=Color.new(17,52,43)
     end
@@ -335,7 +335,7 @@ class LocationWindow
     @sprites["Image"].x = Graphics.width/2 - @sprites["Image"].bitmap.width/2 * 0.25
     @sprites["overlay"].x = @sprites["Image"].x
     @sprites["Image"].y = 0 - @sprites["Image"].bitmap.height/4
-    
+
     @window=Window_AdvancedTextPokemon.new(name)
     @window.resizeToFit(name,Graphics.width)
     @window.x=0
@@ -343,12 +343,12 @@ class LocationWindow
     @window.z=99999
     @currentmap=$game_map.map_id
     @frames=0
-    
+
     @overlay.clear
     textPositions=[]
     textPositions.push([_INTL("{1}", $game_map.name),@sprites["Image"].bitmap.width/2 * 0.25 + 14,0,2,@baseColor,@shadowColor])
     pbDrawOutlineText(@sprites["overlay"].bitmap,14,-4,@sprites["Image"].bitmap.width/4,@sprites["Image"].bitmap.height/4,_INTL("{1}", $game_map.name),@baseColor,@shadowColor,1)
-    
+
   end
 
   def disposed?
@@ -360,7 +360,7 @@ class LocationWindow
     @sprites["Image"].dispose
     @overlay.dispose
   end
-  
+
   def update
     return if @window.disposed?
     @window.update
@@ -384,16 +384,16 @@ class LocationWindow
       @frames+=1
     end
   end
-  
+
 end
 ################################################################################
 # Condominio lotta
 ################################################################################
 def pbCreateCondTrainer
-  
+
   $oldTrainer = $Trainer
   $oldBag = $PokemonBag
-  
+
   banlist = [PBSpecies::LUXFLON,PBSpecies::DIELEBI,PBSpecies::MEW,
   PBSpecies::HOOH,PBSpecies::LUGIA,PBSpecies::ENTEI,PBSpecies::SUICUNE,PBSpecies::RAIKOU,
   PBSpecies::CELEBI,PBSpecies::DEOXYS,PBSpecies::HEATRAN,PBSpecies::DARKRAI,
@@ -402,9 +402,9 @@ def pbCreateCondTrainer
   pbFadeOutIn(99999){
      scene=PokemonScreen_Scene.new
      screen=PokemonScreen.new(scene,$Trainer.party)
-     ret=screen.pbChooseMultiplePokemon(3,proc{|p| 
+     ret=screen.pbChooseMultiplePokemon(3,proc{|p|
      return !banlist.include?(p.species)})
-     
+
      return false if ret == nil || ret == -1
      $Trainer = PokeBattle_Trainer.new($oldTrainer.name,$oldTrainer.trainertype)
      $Trainer.party = Marshal.load(Marshal.dump(ret))
@@ -450,7 +450,7 @@ class PokemonScreen
         statuses[i]=1
       else
         statuses[i]=2
-      end  
+      end
     end
     for i in 0...@party.length
       annot[i]=ordinals[statuses[i]]
@@ -623,7 +623,7 @@ end
 def pbTSTPlatinum
 	for a in PLATS
 		if a!="Leggendaria"
-			$achievements[a].silentProgress($achievements[a].amount) 
+			$achievements[a].silentProgress($achievements[a].amount)
 		else
 			$achievements[a].progress=($achievements[a].amount)
 		end
@@ -656,7 +656,7 @@ def pbCheckCaughtPokemon
   #return if ret==false
   #$achievements["Acchiappali"].progress = 1 if ret == true && !$achievements["Acchiappali"].completed
 end
-	
+
 def pbCheckCaughtPokemonX
   return if $achievements["Mondo"].completed
   regionlist=XENODEX#pbAllRegionalSpecies(0)
@@ -828,7 +828,7 @@ end
 
 if $MKXP
 
-  
+
   class Sprite
     attr_accessor :cachedOutlined
 
@@ -897,7 +897,7 @@ if $MKXP
         end
         break if found
       end
-      
+
       nextfound = true
       pass = 0
       while nextfound
@@ -918,7 +918,7 @@ if $MKXP
         end
         if self.bitmap.get_pixel(x0+1,y0-1).alpha>0 && self.bitmap.get_pixel(x0+1,y0-1).alpha<255
           nextfound = true
-          tmpx0,tmpy0 = x0+1,y0-1 
+          tmpx0,tmpy0 = x0+1,y0-1
           echoln "Found at x+1,y-1"
         end
         if self.bitmap.get_pixel(x0+1,y0).alpha>0 && self.bitmap.get_pixel(x0+1,y0).alpha<255
@@ -949,7 +949,7 @@ if $MKXP
         x0,y0 = tmpx0,tmpy0
         self.bitmap.set_pixel(x0,y0,c1) if nextfound == true
       end
-      
+
 =end
     end
   end

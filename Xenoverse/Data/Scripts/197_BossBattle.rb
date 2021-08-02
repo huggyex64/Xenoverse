@@ -1273,11 +1273,17 @@ BOSS_LIST = [
   :LUXFLON,
 	:VAKUM,
   :GRENINJAX,
-  :SUICUNE
+  :SUICUNE,
+  :VENUSAUR,
+  :CHARIZARD,
+  :BLASTOISE
 ]
 
 NEWBOSSES = [PBSpecies::GRENINJAX,
-             PBSpecies::SUICUNE]
+             PBSpecies::SUICUNE,
+             PBSpecies::VENUSAUR,
+             PBSpecies::CHARIZARD,
+             PBSpecies::BLASTOISE]
 
 def isBoss?
   ret = false
@@ -1331,7 +1337,7 @@ def pbStartBossBattle(species, level, lives, bgs=nil, item = nil,canescape = tru
 end
 
 def pbStartBossBattleMon(pokemon, bgs = nil, item = nil, canescape = true)
-	result = pbWildPokemonBattle(pokemon, nil, false, true)
+	result = pbWildPokemonBattle(pokemon, nil, canescape, true)
   return result
 end
 
@@ -1351,6 +1357,41 @@ def containsNewBosses?(party)
   return false
 end
 
+def pbVenusaurBossBattle
+  $game_switches[85] = true
+  $mods.set(3, nil, nil)
+  $wildSpecies = PBSpecies::VENUSAUR
+  pkmn = pbGenerateWildPokemon(PBSpecies::VENUSAUR,10)
+  pkmn.forcedForm = 1
+  result = pbStartBossBattleMon(pkmn,nil,nil,false)
+  $game_switches[85] = false
+  return result
+end
+
+def pbCharizardBossBattle
+  $game_switches[85] = true
+  $mods.set(3, nil, nil)
+  $wildSpecies = PBSpecies::CHARIZARD
+  pkmn = pbGenerateWildPokemon(PBSpecies::CHARIZARD,10)
+  pkmn.forcedForm = 1
+  pkmn2 = pbGenerateWildPokemon(PBSpecies::CHARIZARD,10)
+  pkmn2.forcedForm = 2
+  result = pbDoubleBossBattle(pkmn,pkmn2,false)
+  $game_switches[85] = false
+  return result
+end
+
+def pbBlastoiseBossBattle
+  $game_switches[85] = true
+  $mods.set(3, nil, nil)
+  $wildSpecies = PBSpecies::BLASTOISE
+  pkmn = pbGenerateWildPokemon(PBSpecies::BLASTOISE,10)
+  pkmn.forcedForm = 1
+  result = pbStartBossBattleMon(pkmn,nil,nil,false)
+  $game_switches[85] = false
+  return result
+end
+
 def testSuicune
   pbRegisterPartner(PBTrainers::EVAN,"Claudio")
   $game_switches[85] = true
@@ -1359,9 +1400,10 @@ def testSuicune
   pkmn = pbGenerateWildPokemon(PBSpecies::SUICUNE,10)
   pkmn.forcedForm = 2
   pkmn2 = pbGenerateWildPokemon(PBSpecies::VAPOREON,5)
-  pbDoubleBossBattle(pkmn,pkmn2)
+  result = pbDoubleBossBattle(pkmn,pkmn2,false)
   $game_switches[85] = false
   pbDeregisterPartner()
+  return result
 end
 
 Events.onWildPokemonCreate+=proc {|sender,e|
