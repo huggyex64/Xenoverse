@@ -1359,10 +1359,23 @@ end
 
 def pbVenusaurBossBattle
   $game_switches[85] = true
-  $mods.set(3, nil, nil)
+  $mods.set(2, nil, nil)
   $wildSpecies = PBSpecies::VENUSAUR
-  pkmn = pbGenerateWildPokemon(PBSpecies::VENUSAUR,10)
+  pkmn = pbGenerateWildPokemon(PBSpecies::VENUSAUR,100)
   pkmn.forcedForm = 1
+  pkmn.pbDeleteAllMoves
+  moves = [:LEECHSEED, :SLEEPPOWDER, :GIGADRAIN, :SLUDGEBOMB]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+  pkmn.totalHp=364*2
+  pkmn.hp=pkmn.totalhp
+  pkmn.attack=212
+  pkmn.defense=282
+  pkmn.spAtk=377
+  pkmn.spDef=277
+  pkmn.speed=196
+
   result = pbStartBossBattleMon(pkmn,nil,nil,false)
   $game_switches[85] = false
   return result
@@ -1370,12 +1383,40 @@ end
 
 def pbCharizardBossBattle
   $game_switches[85] = true
-  $mods.set(3, nil, nil)
+  $mods.set(2, nil, nil)
   $wildSpecies = PBSpecies::CHARIZARD
-  pkmn = pbGenerateWildPokemon(PBSpecies::CHARIZARD,10)
+  #Charizard Y
+  pkmn = pbGenerateWildPokemon(PBSpecies::CHARIZARD,100)
   pkmn.forcedForm = 1
-  pkmn2 = pbGenerateWildPokemon(PBSpecies::CHARIZARD,10)
+  pkmn.pbDeleteAllMoves
+  moves = [:SOLARBEAM, :HEATWAVE, :AIRSLASH, :ANCIENTPOWER]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+  pkmn.totalHp=297*2
+  pkmn.hp=pkmn.totalhp
+  pkmn.attack=191
+  pkmn.defense=192
+  pkmn.spAtk=417
+  pkmn.spDef=267
+  pkmn.speed=328
+
+  #Charizard X
+  pkmn2 = pbGenerateWildPokemon(PBSpecies::CHARIZARD,100)
   pkmn2.forcedForm = 2
+  pkmn2.pbDeleteAllMoves
+  moves = [:FIREPUNCH, :DRAGONCLAW, :THUNDERPUNCH, :ROCKSLIDE]
+  for m in moves
+    pkmn2.pbLearnMove(m)
+  end
+  pkmn2.totalHp=297*2
+  pkmn2.hp=pkmn2.totalhp
+  pkmn2.attack=359
+  pkmn2.defense=258
+  pkmn2.spAtk=266
+  pkmn2.spDef=207
+  pkmn2.speed=328
+
   result = pbDoubleBossBattle(pkmn,pkmn2,false)
   $game_switches[85] = false
   return result
@@ -1383,10 +1424,23 @@ end
 
 def pbBlastoiseBossBattle
   $game_switches[85] = true
-  $mods.set(3, nil, nil)
+  $mods.set(2, nil, nil)
   $wildSpecies = PBSpecies::BLASTOISE
-  pkmn = pbGenerateWildPokemon(PBSpecies::BLASTOISE,10)
+  pkmn = pbGenerateWildPokemon(PBSpecies::BLASTOISE,100)
   pkmn.forcedForm = 1
+  pkmn.pbDeleteAllMoves
+  moves = [:ICEBEAM, :AURASPHERE, :SCALD, :FLASHCANNON]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+  pkmn.totalHp=362*2
+  pkmn.hp=pkmn.totalhp
+  pkmn.attack=189
+  pkmn.defense=277
+  pkmn.spAtk=405
+  pkmn.spDef=266
+  pkmn.speed=192
+
   result = pbStartBossBattleMon(pkmn,nil,nil,false)
   $game_switches[85] = false
   return result
