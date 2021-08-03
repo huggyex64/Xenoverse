@@ -19194,8 +19194,8 @@ Pinsirite
 Garchompite
 Garchompite
 534
-Blastoisite T
-Blastoisite T
+Cancelled
+Cancelled
 535
 Kangaskhanite
 Kangaskhanite
@@ -19260,8 +19260,8 @@ Pidgeotite
 Alakazamite
 Alakazamite
 556
-Venusaurite 
-Venusaurite 
+Nullite
+Nullite
 557
 Aerodactylite
 Aerodactylite
@@ -19425,8 +19425,8 @@ Strano orecchino
 Anello Terrestre
 Anello Terrestre
 611
-Venusaurite X
-Venusaurite X
+Nullx
+Nullx
 612
 Sidrostelle
 Sidrostelle
@@ -19668,11 +19668,11 @@ Biglietto Aereo
 Master Amo
 Master Amo
 733
-Blastoisite X
-Blastoisite X
+Blastoisite
+Blastoisite
 734
-Venusaurite X
-Venusaurite X
+Venusaurite 
+Venusaurite 
 735
 Granbullite
 Granbullite
