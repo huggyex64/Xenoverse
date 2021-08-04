@@ -37,7 +37,7 @@ class PokeWES
 		
 		#Creazione Sprite
 		@sprites["BG"]=Sprite.new(@viewport)
-		@sprites["BG"].bitmap=pbBitmap("Graphics/Pictures/PokeWES/Bg")
+		@sprites["BG"].bitmap=pbBitmap($PokemonGlobal.megaRing ? "Graphics/Pictures/PokeWES/bgMega" : "Graphics/Pictures/PokeWES/Bg")
 		@sprites["BG"].z=-10
 		
 		@sprites["animbg"]=AnimatedPlane.new(@viewport)
