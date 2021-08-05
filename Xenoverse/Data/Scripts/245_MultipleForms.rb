@@ -1625,7 +1625,7 @@ MultipleForms.register(:CHARIZARD,{
 			next
 		},
 		"type2"=>proc{|pokemon|
-			next getID(PBTypes,:DRAGON) if pokemon.form==1
+			next getID(PBTypes,:DRAGON) if pokemon.form==2
 			next
 		},
 		"ability"=>proc{|pokemon|
