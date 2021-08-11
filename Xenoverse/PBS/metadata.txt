@@ -3540,3 +3540,8 @@ Bicycle=false
 MapPosition=0,12,1
 Outdoor=false
 WildBattleBGM=Wild Battle Japan.mp3
+[589]
+# Circo Sirio
+BattleBack=Circo
+Bicycle=false
+Outdoor=false
