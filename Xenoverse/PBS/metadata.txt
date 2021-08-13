@@ -3426,6 +3426,7 @@ ShowArea=true
 [567]
 # Cansiria
 BattleBack=Entei
+Weather=Sunny,100
 Bicycle=false
 MapPosition=0,23,3
 Outdoor=false
@@ -3543,5 +3544,9 @@ WildBattleBGM=Wild Battle Japan.mp3
 [589]
 # Circo Sirio
 BattleBack=Circo
+Bicycle=false
+Outdoor=false
+[590]
+# Cansiria
 Bicycle=false
 Outdoor=false
