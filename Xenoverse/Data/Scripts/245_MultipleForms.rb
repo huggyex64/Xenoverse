@@ -377,6 +377,16 @@ MultipleForms.register(:UNOWN,{
 		}
 	})
 
+MultipleForms.register(:UNOWNELDIW,{
+		"getFormOnCreation"=>proc{|pokemon|
+			xeno_maps = [457,458,459,460,585,588]
+
+			if $game_map && xeno_maps.include?($game_map.map_id)
+				next 1 #XENO FORM
+			end
+		}
+	})
+
 #MultipleForms.register(:SPINDA,{
 #		"alterBitmap"=>proc{|pokemon,bitmap|
 #			#pbSpindaSpots(pokemon,bitmap)

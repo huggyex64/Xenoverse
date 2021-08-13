@@ -980,7 +980,7 @@ end
 
 
 def Kernel.pbFreeText(msgwindow,currenttext,passwordbox,maxlength,width=240)
-  window=Window_TextEntry_Keyboard.new(currenttext,0,0,width,64)
+  window=Window_TextEntry_KeyboardMEW.new(currenttext,0,0,width,64)
   ret=""
   window.maxlength=maxlength
   window.visible=true
