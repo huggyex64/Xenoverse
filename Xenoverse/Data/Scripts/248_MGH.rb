@@ -1,5 +1,3 @@
-
-
 class MysteryGiftHandler
 
     def initialize(scene)
