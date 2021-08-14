@@ -1444,7 +1444,7 @@ MultipleForms.register(:RAIKOU, {
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
-			next 
+			next 0
 		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Raikou") if pokemon.form==2
@@ -1475,7 +1475,7 @@ MultipleForms.register(:ENTEI, {
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
-			next 
+			next 0
 		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Entei") if pokemon.form==2
@@ -1504,7 +1504,7 @@ MultipleForms.register(:SUICUNE, {
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
-			next 
+			next 0
 		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Suicune") if pokemon.form==2
