@@ -176,6 +176,12 @@ module Winsock
     Win32API.new(DLL, "socket", "lll", "l").call(*args)
   end
   #-----------------------------------------------------------------------------
+  # * IO Control Socket
+  #-----------------------------------------------------------------------------
+  def self.ioctlsocket(*args)
+    Win32API.new(DLL, "ioctlsocket", "pll", "l").call(*args)
+  end
+  #-----------------------------------------------------------------------------
   # * Get Last Error
   #-----------------------------------------------------------------------------
   def self.WSAGetLastError(*args)
@@ -373,55 +379,92 @@ class Socket
   #--------------------------------------------------------------------------
   # * Creates a new socket.
   #--------------------------------------------------------------------------
-  def initialize(domain, type, protocol)
-    @errorCode = -1
-    @errorCode = SocketError.check if (@fd = Winsock.socket(domain, type, protocol)) == -1
-    @fd if @errorCode == nil
+  def initialize(domain, type, protocol, blocking=false)
+    @blocking = blocking
+    if @blocking
+      @errorCode = -1
+      @errorCode = SocketError.checkBlocking if (@fd = Winsock.socket(domain, type, protocol)) == -1
+      @fd if @errorCode == nil
+    else
+      SocketError.check if (@fd = Winsock.socket(domain, type, protocol)) == -1
+      @fd
+    end
   end
   #--------------------------------------------------------------------------
   # * Accepts incoming connections.
   #--------------------------------------------------------------------------
   def accept(flags = 0)
     buf = "\0" * 16
-    @errorCode = SocketError.check if Winsock.accept(@fd, buf, flags) == -1
-    buf if @errorCode == nil
+    if @blocking
+      @errorCode = SocketError.checkBlocking if Winsock.accept(@fd, buf, flags) == -1
+      buf if @errorCode == nil
+    else
+      SocketError.check if Winsock.accept(@fd, buf, flags) == -1
+      buf
+    end
   end
   #--------------------------------------------------------------------------
   # * Binds a socket to the given sockaddr.
   #--------------------------------------------------------------------------
   def bind(sockaddr)
-    @errorCode = SocketError.check if (ret = Winsock.bind(@fd, sockaddr, sockaddr.size)) == -1
-    ret if @errorCode == nil
+    if @blocking
+      @errorCode = SocketError.checkBlocking if (ret = Winsock.bind(@fd, sockaddr, sockaddr.size)) == -1
+      ret if @errorCode == nil
+    else
+      SocketError.check if (ret = Winsock.bind(@fd, sockaddr, sockaddr.size)) == -1
+      ret
+    end
   end
   #--------------------------------------------------------------------------
   # * Closes a socket.
   #--------------------------------------------------------------------------
   def close
-    @errorCode = SocketError.check if (ret = Winsock.closesocket(@fd)) == -1
-    ret if @errorCode == nil
+    if @blocking
+      @errorCode = SocketError.checkBlocking if (ret = Winsock.closesocket(@fd)) == -1
+      ret if @errorCode == nil
+    else
+      SocketError.check if (ret = Winsock.closesocket(@fd)) == -1
+      ret
+    end
   end
   #--------------------------------------------------------------------------
   # * Connects a socket to the given sockaddr.
   #--------------------------------------------------------------------------
   def connect(sockaddr)
     #return if Network.testing? == 2
-    @errorCode = SocketError.check if (ret = Winsock.connect(@fd, sockaddr, sockaddr.size)) == -1
-    ret if @errorCode == nil
+    if @blocking
+      @errorCode = SocketError.checkBlocking if (ret = Winsock.connect(@fd, sockaddr, sockaddr.size)) == -1
+      ret if @errorCode == nil
+    else
+      SocketError.check if (ret = Winsock.connect(@fd, sockaddr, sockaddr.size)) == -1
+      ret
+    end
   end
   #--------------------------------------------------------------------------
   # * Listens for incoming connections.
   #--------------------------------------------------------------------------
   def listen(backlog)
-    @errorCode = SocketError.check if (ret = Winsock.listen(@fd, backlog)) == -1
-    ret if @errorCode == nil
+    if @blocking
+      @errorCode = SocketError.checkBlocking if (ret = Winsock.listen(@fd, backlog)) == -1
+      ret if @errorCode == nil
+    else
+      SocketError.check if (ret = Winsock.listen(@fd, backlog)) == -1
+      ret    
+    end
   end
   #--------------------------------------------------------------------------
   # * Checks waiting data's status.
   #--------------------------------------------------------------------------
   def select(timeout) # timeout in seconds
-    @errorCode = SocketError.check if (ret = Winsock.select(1, [1, @fd].pack("ll"), 0, 0, [timeout.to_i,
+    if @blocking
+      @errorCode = SocketError.check if (ret = Winsock.select(1, [1, @fd].pack("ll"), 0, 0, [timeout.to_i,
          (timeout * 1000000).to_i].pack("ll"))) == -1
-    ret if @errorCode == nil
+      ret if @errorCode == nil
+    else
+      SocketError.check if (ret = Winsock.select(1, [1, @fd].pack("ll"), 0, 0, [timeout.to_i,
+         (timeout * 1000000).to_i].pack("ll"))) == -1
+      ret
+    end
   end
   #--------------------------------------------------------------------------
   # * Checks if data is waiting.
@@ -545,8 +588,8 @@ class TCPSocket < Socket
   #--------------------------------------------------------------------------
   # * Creates a new socket and connects it to the given host and port.
   #--------------------------------------------------------------------------
-  def initialize(host, port)
-    super(AF_INET, SOCK_STREAM, IPPROTO_TCP)
+  def initialize(host, port,blocking = false)
+    super(AF_INET, SOCK_STREAM, IPPROTO_TCP,blocking)
     connect(Socket.sockaddr_in(port, host))
   end
 end
@@ -562,9 +605,19 @@ class SocketError < StandardError
   ENOASSOCHOST = "getaddrinfo: no address associated with hostname."
 
   def self.check
+    errno = Winsock.WSAGetLastError
+    #if not Network.testing? == 1
+      raise Errno.const_get(Errno.constants.detect { |c| Errno.const_get(c).new.errno == errno })
+    #else
+    #  errno != 0 ? (Network.testresult(true)) : (Network.testresult(false))
+    #end
+  end
+
+  def self.checkBlocking
     errnumber = Winsock.WSAGetLastError
     echoln "ERROR:"
     echoln errnumber
+    errno = Winsock.WSAGetLastError
     #if not Network.testing? == 1
     begin
     err = Errno.constants.detect { |c|
@@ -581,9 +634,6 @@ class SocketError < StandardError
       puts e
     end
     #rescue _INTL("Can't connect or connection timed out. Please try again later.")
-    #else
-    #  errno != 0 ? (Network.testresult(true)) : (Network.testresult(false))
-    #end
   end
 end
 
@@ -748,7 +798,7 @@ end
 
 def pbHttpRequest(host, request, filename=nil, depth=0)
   raise "Redirection level too deep" if depth>10
-  socket = ::TCPSocket.new(host, 80)
+  socket = ::TCPSocket.new(host, 80, true)
   time = Time.now.to_i
   begin
     if (socket.errorCode == -1)
