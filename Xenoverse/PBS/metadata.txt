@@ -2933,7 +2933,8 @@ Outdoor=false
 WildBattleBGM=Wild Battle Japan.mp3
 [460]
 # Tauronordia
-BattleBack=Old
+BattleBack=Suicune
+Weather=Snow,100
 Bicycle=false
 MapPosition=0,12,1
 Outdoor=false
@@ -3550,3 +3551,8 @@ Outdoor=false
 # Cansiria
 Bicycle=false
 Outdoor=false
+[591]
+# Tauronordia
+Bicycle=false
+Outdoor=false
+ShowArea=false
