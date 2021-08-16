@@ -383,3 +383,8 @@ title = Furia di Sangue
 description = Sconfiggi la Furia Greninja X.
 amount = 1
 image = 77_ninja
+[Bestie]
+title = Furia Bestiale
+description = Sconfiggi i Tre Cani Leggendari.
+amount = 1
+image = 78_bestie
