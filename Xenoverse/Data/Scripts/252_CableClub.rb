@@ -19,7 +19,10 @@ end
 # Returns false if an error occurred.
 def pbCableClub
   echoln srand(1234)
-  echoln rand(3**9)
+  echoln rand(3**6)
+  echoln rand(3**6)
+  echoln rand(3**6)
+  echoln rand(3**6)
   if $Trainer.party.length == 0
     Kernel.pbMessage(_INTL("I'm sorry, you must have a Pokémon to enter the Cable Club."))
     return
