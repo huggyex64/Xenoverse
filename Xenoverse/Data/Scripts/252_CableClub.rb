@@ -10,7 +10,7 @@ begin
   end
   
   module CableClub
-    HOST = "localhost"#"176.223.139.241"
+    HOST = "176.223.139.241"
     PORT = 9999
   end
   
