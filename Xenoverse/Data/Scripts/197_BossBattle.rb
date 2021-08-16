@@ -1274,6 +1274,8 @@ BOSS_LIST = [
 	:VAKUM,
   :GRENINJAX,
   :SUICUNE,
+  :ENTEI,
+  :RAIKOU,
   :VENUSAUR,
   :CHARIZARD,
   :BLASTOISE
@@ -1281,6 +1283,8 @@ BOSS_LIST = [
 
 NEWBOSSES = [PBSpecies::GRENINJAX,
              PBSpecies::SUICUNE,
+             PBSpecies::ENTEI,
+             PBSpecies::RAIKOU,
              PBSpecies::VENUSAUR,
              PBSpecies::CHARIZARD,
              PBSpecies::BLASTOISE]
@@ -1454,6 +1458,86 @@ def testSuicune
   pkmn = pbGenerateWildPokemon(PBSpecies::SUICUNE,10)
   pkmn.forcedForm = 2
   pkmn2 = pbGenerateWildPokemon(PBSpecies::VAPOREON,5)
+  result = pbDoubleBossBattle(pkmn,pkmn2,false)
+  $game_switches[85] = false
+  pbDeregisterPartner()
+  return result
+end
+
+def pbEnteiBossBattle
+  pbRegisterPartner(PBTrainers::HENNEENTEI,"Henné")
+  $game_switches[85] = true
+  $mods.set(2, nil, nil)
+  $wildSpecies = PBSpecies::ENTEI
+  pkmn = pbGenerateWildPokemon(PBSpecies::ENTEI,100) 
+  pkmn.forcedForm = 2
+  pkmn.totalHp=868
+  pkmn.hp=pkmn.totalhp
+  pkmn.attack=810
+  pkmn.defense=678
+  pkmn.spAtk=230
+  pkmn.spDef=475
+  pkmn.speed=930
+  pkmn.pbDeleteAllMoves
+  moves = [:SACREDFIRE, :HOWL, :EXTREMESPEED, :STONEEDGE]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+
+  pkmn2 = pbGenerateWildPokemon(PBSpecies::FLAREON,100)
+  pkmn2.setItem(:HEATROCK)
+  pkmn2.totalHp=668
+  pkmn2.hp=pkmn2.totalhp
+  pkmn2.attack=359
+  pkmn2.defense=219
+  pkmn2.spAtk=203
+  pkmn2.spDef=350
+  pkmn2.speed=572
+  pkmn2.pbDeleteAllMoves
+  moves = [:SUNNYDAY, :FIREFANG, :HELPINGHAND, :SOUNDPLEDGE]
+  for m in moves
+    pkmn2.pbLearnMove(m)
+  end
+  result = pbDoubleBossBattle(pkmn,pkmn2,false)
+  $game_switches[85] = false
+  pbDeregisterPartner()
+  return result
+end
+
+def pbRaikouBossBattle
+  pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
+  $game_switches[85] = true
+  $mods.set(2, nil, nil)
+  $wildSpecies = PBSpecies::RAIKOU
+  pkmn = pbGenerateWildPokemon(PBSpecies::RAIKOU,100) 
+  pkmn.forcedForm = 2
+  pkmn.totalHp=768
+  pkmn.hp=pkmn.totalhp
+  pkmn.attack=246
+  pkmn.defense=634
+  pkmn.spAtk=810
+  pkmn.spDef=339
+  pkmn.speed=999
+  pkmn.pbDeleteAllMoves
+  moves = [:DISCHARGE, :CALMMIND, :SCALD, :AURASPHERE]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+
+  pkmn2 = pbGenerateWildPokemon(PBSpecies::JOLTEON,100)
+  pkmn2.setItem(:DAMPROCK)
+  pkmn2.totalHp=668
+  pkmn2.hp=pkmn2.totalhp
+  pkmn2.attack=149
+  pkmn2.defense=219
+  pkmn2.spAtk=319
+  pkmn2.spDef=289
+  pkmn2.speed=985
+  pkmn2.pbDeleteAllMoves
+  moves = [:RAINDANCE, :DISCHARGE, :HELPINGHAND, :SHADOWBALL]
+  for m in moves
+    pkmn2.pbLearnMove(m)
+  end
   result = pbDoubleBossBattle(pkmn,pkmn2,false)
   $game_switches[85] = false
   pbDeregisterPartner()
