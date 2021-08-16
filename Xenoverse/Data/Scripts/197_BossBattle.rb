@@ -1467,7 +1467,7 @@ end
 def pbEnteiBossBattle
   pbRegisterPartner(PBTrainers::HENNEENTEI,"Henné")
   $game_switches[85] = true
-  $mods.set(2, nil, nil)
+  $mods.set(5, nil, nil)
   $wildSpecies = PBSpecies::ENTEI
   pkmn = pbGenerateWildPokemon(PBSpecies::ENTEI,100) 
   pkmn.forcedForm = 2
@@ -1484,6 +1484,7 @@ def pbEnteiBossBattle
     pkmn.pbLearnMove(m)
   end
 
+  $mods.set(2, nil, nil)
   pkmn2 = pbGenerateWildPokemon(PBSpecies::FLAREON,100)
   pkmn2.setItem(:HEATROCK)
   pkmn2.totalHp=668
@@ -1507,7 +1508,7 @@ end
 def pbRaikouBossBattle
   pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
   $game_switches[85] = true
-  $mods.set(2, nil, nil)
+  $mods.set(5, nil, nil)
   $wildSpecies = PBSpecies::RAIKOU
   pkmn = pbGenerateWildPokemon(PBSpecies::RAIKOU,100) 
   pkmn.forcedForm = 2
@@ -1524,6 +1525,7 @@ def pbRaikouBossBattle
     pkmn.pbLearnMove(m)
   end
 
+  $mods.set(2, nil, nil)
   pkmn2 = pbGenerateWildPokemon(PBSpecies::JOLTEON,100)
   pkmn2.setItem(:DAMPROCK)
   pkmn2.totalHp=668
