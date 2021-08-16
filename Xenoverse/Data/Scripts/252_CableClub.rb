@@ -73,8 +73,10 @@ begin
   end
   
   def pbOnlineLobby
+    lobby = OnlineLobby.new
     if $Trainer.party.length == 0
       Kernel.pbMessage(_INTL("I'm sorry, you must have a Pokémon to enter the Cable Club."))
+      lobby.dispose
       return
     end
     msgwindow = Kernel.pbCreateMessageWindow()
@@ -94,7 +96,7 @@ begin
         res = Win32API.new("ws2_32", "WSAStartup", "IP", "I").call(0x0202, wsadata)
         case res
           #Actual connection
-        when 0; CableClub::enlist(msgwindow)
+        when 0; CableClub::enlist(msgwindow,lobby)
         else; raise Connection::Disconnected.new("winsock error")
         end
       ensure
@@ -103,6 +105,7 @@ begin
       raise Connection::Disconnected.new("disconnected")
     rescue Connection::Disconnected => e
       msgwindow.visible = true
+      lobby.dispose
       case e.message
       when "disconnected"
         Kernel.pbMessageDisplay(msgwindow, _INTL("Thank you for using the Cable Club. We hope to see you again soon."))
@@ -126,6 +129,7 @@ begin
       return false
     ensure
       Kernel.pbDisposeMessageWindow(msgwindow)
+      lobby.dispose
     end
   end
 
@@ -501,7 +505,7 @@ begin
       end
     end
   
-    def self.enlist(msgwindow)
+    def self.enlist(msgwindow,ui)
       pbMessageDisplayDots(msgwindow, _INTL("Connecting"), 0)
       Connection.open(HOST, PORT) do |connection|
         state = :await_server
@@ -516,7 +520,7 @@ begin
         chosen = nil
         partner_chosen = nil
         partner_confirm = false
-  
+
         loop do
           if state != last_state
             last_state = state
@@ -538,15 +542,38 @@ begin
           end
 
           if Input.trigger?(Input::A)
-            message = case state
-            when :await_server; _INTL("Abort connection?\\^")
-            when :enlisted; _INTL("Suck dicks?\\^")
-            when :await_partner; _INTL("Abort search?\\^")
-            else; _INTL("Disconnect?\\^")
+            case state
+            when :enlisted
+              Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start a connection?"))
+              if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+                # Requesting the list of connected players
+                options = []
+                optionsDict = {}
+                for player in ui.playerList
+                  if player[3]=="WAITING" && player[0].to_i != $Trainer.publicID($Trainer.id) #CHECKING IF IT'S WAITING AND IT'S NOT SELF
+                    
+                    options.push("#{player[0]} - #{player[1]}")
+                    optionsDict["#{player[0]} - #{player[1]}"]=player[0].to_i
+                  end
+                end
+                ret = Kernel.pbShowCommands(msgwindow,options,-1)
+                if ret>0
+                  if connection.can_send?
+                    connection.send do |writer|
+                      writer.sym(:askinteraction)
+                      writer.str($Trainer.name)
+                      writer.int($Trainer.id)
+                      writer.int(optionsDict[options[ret]]) #Here i'm sending the request to the one i wanna connect to
+                    end
+                    state = :await_interaction_accept
+                  end
+                else
+                  Kernel.pbMessageDisplay(msgwindow, _INTL("Skipped connection."))
+                end
+              end
             end
-          Kernel.pbMessageDisplay(msgwindow, message)
           end
-  
+
           case state
           # Waiting to be connected to the server.
           # Note: does nothing without a non-blocking connection.
@@ -564,6 +591,77 @@ begin
             end
           when :enlisted
             pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nEnlisted, waiting to join lobby",$Trainer.publicID($Trainer.id)), frame)
+            if (frame%60 == 0) #Requesting player list every X seconds
+              ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
+            end
+            connection.update do |record|
+              case (type = record.sym)
+              when :found
+                client_id = record.int
+                partner_name = record.str
+                partner_party = parse_party(record)
+                Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", partner_name))
+                if client_id == 0
+                  state = :choose_activity
+                else
+                  state = :await_choose_activity
+                end
+              when :askAcceptInteraction
+                Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start the connection?.\\^"))
+                command = Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2)
+                # Accepted
+                if command == 0
+                  if connection.can_send?
+                    connection.send do |writer|
+                      writer.sym(:acceptInteraction)
+                      writer.int(record.int)
+                    end
+                  end
+                else
+                  Kernel.pbMessageDisplay(msgwindow, _INTL("Connection refused.\\^"))
+                end
+              else
+                raise "Unknown message: #{type}"
+              end
+            end
+          # The leader is awaiting 
+          when :await_interaction_accept
+            pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nAsked X for interaction",$Trainer.publicID($Trainer.id)), frame)
+            if (frame%60 == 0) #Requesting player list every X seconds
+              ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
+            end
+            connection.update do |record|
+              case (type = record.sym)
+              when :found
+                client_id = record.int
+                partner_name = record.str
+                partner_party = parse_party(record)
+                Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", partner_name))
+                if client_id == 0
+                  state = :choose_activity
+                else
+                  state = :await_choose_activity
+                end
+              when :ok
+                client_id = record.int
+                partner_name = record.str
+                partner_party = parse_party(record)
+                Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", partner_name))
+                if client_id == 0
+                  state = :choose_activity
+                else
+                  state = :await_choose_activity
+                end
+  
+              when :cancel
+                Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to interact.", partner_name))
+                state = :enlisted
+  
+              else
+                raise "Unknown message: #{type}"
+              end
+            end
+          
           # Waiting to be connected to the partner.
           when :await_partner
             pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nSearching",$Trainer.publicID($Trainer.id)), frame)
@@ -1336,13 +1434,15 @@ begin
     def initialize(connection, client_id, scene, opponent_party, opponent)
       @connection = connection
       @client_id = client_id
+      @randomCounter = 0
       player = PokeBattle_Trainer.new($Trainer.name, $Trainer.trainertype)
       super(scene, $Trainer.party, opponent_party, player, opponent)
       @battleAI  = PokeBattle_CableClub_AI.new(self) if defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
     end
     
     def pbRandom(x)
-      echoln "Called the fucking NET random!"
+      @randomCounter += 1 
+      echoln "Called the fucking NET random! Counter at #{@randomCounter}"
       return rand(x)
     end
 
@@ -1818,6 +1918,8 @@ begin
   end
   
   class RecordParser
+    attr_accessor(:fields)
+
     def initialize(data)
       @fields = []
       field = ""
