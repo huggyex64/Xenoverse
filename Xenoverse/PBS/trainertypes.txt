@@ -229,3 +229,6 @@
 232,PEYOTEFINAL,(Cardinale),100,VS.Cardinali,Victory Cardinale,,Male,255
 233,OLEANDROFINAL,(Cardinale),100,VS.Cardinali,Victory Cardinale,,Male,255
 234,VERSILCHAMPION,(Campione),100,VS.Champion,victory champion,,Male,255
+235,RUTARAIKOU,(Selvaggio),200,,,,Male,
+236,HENNEENTEI,(Capopalestra),200,,,,Male,
+237,EVANSUICUNE,(Capopalestra),200,,,,Male,
