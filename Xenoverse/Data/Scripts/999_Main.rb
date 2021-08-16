@@ -1,7 +1,7 @@
 
 class Scene_DebugIntro
   def main
-		$DEBUG=false
+		$DEBUG=true
     Graphics.transition(0)
     if File.exists?("Data/LastSave.dat")
       lastsave=pbGetLastPlayed
@@ -38,7 +38,7 @@ end
 
 
 def pbCallTitle #:nodoc:
-  $DEBUG=false
+  $DEBUG=true
   if $MKXP
     System.set_window_title("Xenoverse - Per Aspera Ad Astra")
   end
