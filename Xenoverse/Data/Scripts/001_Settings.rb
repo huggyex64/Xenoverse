@@ -431,6 +431,9 @@ CF_LEGENDARIES = [:MEW,
                   :DEOXYS,
                   :CRESSELIA,
                   :HEATRAN,
-                  :DARKRAI] #TODO to be updated
+                  :DARKRAI,
+                  :ENTEI,
+                  :SUICUNE,
+                  :RAIKOU] #TODO to be updated
 
 
