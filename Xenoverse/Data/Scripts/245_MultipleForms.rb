@@ -1440,11 +1440,11 @@ MultipleForms.register(:CELEBI, {
 
 MultipleForms.register(:RAIKOU, {
 		"getMegaForm"=>proc{|pokemon|
-			next 2 if isConst?(pokemon.item,PBItems,:RAIKOUITE)
+			next 2 if isConst?(pokemon.item,PBItems,:RAIKOUITE) && pokemon.form == 0
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
-			next 0
+			next 0 if pokemon.form == 2
 		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Raikou") if pokemon.form==2
@@ -1471,11 +1471,11 @@ MultipleForms.register(:RAIKOU, {
 
 MultipleForms.register(:ENTEI, {
 		"getMegaForm"=>proc{|pokemon|
-			next 2 if isConst?(pokemon.item,PBItems,:ENTEITE)
+			next 2 if isConst?(pokemon.item,PBItems,:ENTEITE) && pokemon.form == 0
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
-			next 0
+			next 0 if pokemon.form == 2
 		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Entei") if pokemon.form==2
@@ -1500,11 +1500,11 @@ MultipleForms.register(:ENTEI, {
 
 MultipleForms.register(:SUICUNE, {
 		"getMegaForm"=>proc{|pokemon|
-			next 2 if isConst?(pokemon.item,PBItems,:SUICUNITE)
+			next 2 if isConst?(pokemon.item,PBItems,:SUICUNITE) && pokemon.form == 0
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
-			next 0
+			next 0 if pokemon.form == 2
 		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Suicune") if pokemon.form==2

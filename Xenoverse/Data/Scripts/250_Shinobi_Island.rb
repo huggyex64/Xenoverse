@@ -53,8 +53,7 @@ class PokeBattle_Trainer
         PBSpecies::CELEBI,PBSpecies::DEOXYS,PBSpecies::HEATRAN,PBSpecies::DARKRAI,
         PBSpecies::CRESSELIA,PBSpecies::GENESECT,
         PBSpecies::MELOETTA,PBSpecies::MARSHADOW,PBSpecies::MEWTWOX,
-        PBSpecies::TRISHOUT,PBSpecies::SHYLEON,PBSpecies::SHULONG,
-        PBSpecies::SUICUNE,PBSpecies::RAIKOU,PBSpecies::ENTEI]
+        PBSpecies::TRISHOUT,PBSpecies::SHYLEON,PBSpecies::SHULONG]
         pbFadeOutIn(99999){
           scene=PokemonScreen_Scene.new
           screen=PokemonScreen.new(scene,$Trainer.party)
