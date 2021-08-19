@@ -1450,14 +1450,41 @@ def pbBlastoiseBossBattle
   return result
 end
 
-def testSuicune
-  pbRegisterPartner(PBTrainers::EVAN,"Claudio")
+def pbSuicuneBossBattle
+  pbRegisterPartner(PBTrainers::EVANSUICUNE,"Claudio")
   $game_switches[85] = true
-  $mods.set(3, nil, nil)
+  $mods.set(5, nil, nil)
   $wildSpecies = PBSpecies::SUICUNE
-  pkmn = pbGenerateWildPokemon(PBSpecies::SUICUNE,10)
+  pkmn = pbGenerateWildPokemon(PBSpecies::SUICUNE,100) 
   pkmn.forcedForm = 2
-  pkmn2 = pbGenerateWildPokemon(PBSpecies::VAPOREON,5)
+  pkmn.totalHp=808
+  pkmn.hp=pkmn.totalhp
+  pkmn.attack=203
+  pkmn.defense=810
+  pkmn.spAtk=525
+  pkmn.spDef=810
+  pkmn.speed=847
+  pkmn.pbDeleteAllMoves
+  moves = [:SURF, :BLIZZARD, :AQUARING, :PROTECT]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+
+  $mods.set(2, nil, nil)
+  pkmn2 = pbGenerateWildPokemon(PBSpecies::VAPOREON,100)
+  pkmn2.setItem(:HEATROCK)
+  pkmn2.totalHp=928
+  pkmn2.hp=pkmn2.totalhp
+  pkmn2.attack=149
+  pkmn2.defense=240
+  pkmn2.spAtk=319
+  pkmn2.spDef=289
+  pkmn2.speed=801
+  pkmn2.pbDeleteAllMoves
+  moves = [:HAIL, :SCALD, :HELPINGHAND, :ICEBEAM]
+  for m in moves
+    pkmn2.pbLearnMove(m)
+  end
   result = pbDoubleBossBattle(pkmn,pkmn2,false)
   $game_switches[85] = false
   pbDeregisterPartner()
