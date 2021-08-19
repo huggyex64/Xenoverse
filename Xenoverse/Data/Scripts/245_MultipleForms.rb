@@ -1459,7 +1459,7 @@ MultipleForms.register(:RAIKOU, {
 			next 
 		},
 		"ability"=>proc{|pokemon|
-			next getID(PBAbilities,:LIGHTINGROD) if pokemon.form==2
+			next getID(PBAbilities,:TERAVOLT) if pokemon.form==2
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|

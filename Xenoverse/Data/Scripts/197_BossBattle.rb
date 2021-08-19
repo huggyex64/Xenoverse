@@ -1460,15 +1460,23 @@ def pbSuicuneBossBattle
   pkmn.totalHp=808
   pkmn.hp=pkmn.totalhp
   pkmn.attack=203
-  pkmn.defense=810
+  pkmn.defense=369
   pkmn.spAtk=525
-  pkmn.spDef=810
-  pkmn.speed=847
+  pkmn.spDef=405
+  pkmn.speed=927
   pkmn.pbDeleteAllMoves
   moves = [:SURF, :BLIZZARD, :AQUARING, :PROTECT]
   for m in moves
     pkmn.pbLearnMove(m)
   end
+
+  Suicune PBS
+  808/203/369/927/525/405 Calm
+  Surf, Blizzard, Aqua Ring, Protect
+
+  Vapreon Rocciafredda
+  928/149/240/801/319/289 bold
+  Hail, Scald , Helping Hand, Ice Beam
 
   $mods.set(2, nil, nil)
   pkmn2 = pbGenerateWildPokemon(PBSpecies::VAPOREON,100)
@@ -1500,10 +1508,10 @@ def pbEnteiBossBattle
   pkmn.forcedForm = 2
   pkmn.totalHp=868
   pkmn.hp=pkmn.totalhp
-  pkmn.attack=810
-  pkmn.defense=678
+  pkmn.attack=394
+  pkmn.defense=219
   pkmn.spAtk=230
-  pkmn.spDef=475
+  pkmn.spDef=289
   pkmn.speed=930
   pkmn.pbDeleteAllMoves
   moves = [:SACREDFIRE, :HOWL, :EXTREMESPEED, :STONEEDGE]
@@ -1516,10 +1524,10 @@ def pbEnteiBossBattle
   pkmn2.setItem(:HEATROCK)
   pkmn2.totalHp=668
   pkmn2.hp=pkmn2.totalhp
-  pkmn2.attack=359
+  pkmn2.attack=394
   pkmn2.defense=219
   pkmn2.spAtk=203
-  pkmn2.spDef=350
+  pkmn2.spDef=319
   pkmn2.speed=572
   pkmn2.pbDeleteAllMoves
   moves = [:SUNNYDAY, :FIREFANG, :HELPINGHAND, :SOUNDPLEDGE]
@@ -1542,12 +1550,12 @@ def pbRaikouBossBattle
   pkmn.totalHp=768
   pkmn.hp=pkmn.totalhp
   pkmn.attack=246
-  pkmn.defense=634
-  pkmn.spAtk=810
+  pkmn.defense=289
+  pkmn.spAtk=369
   pkmn.spDef=339
   pkmn.speed=999
   pkmn.pbDeleteAllMoves
-  moves = [:DISCHARGE, :CALMMIND, :SCALD, :AURASPHERE]
+  moves = [:THUNDERBOLT, :CALMMIND, :SCALD, :AURASPHERE]
   for m in moves
     pkmn.pbLearnMove(m)
   end
@@ -1563,7 +1571,7 @@ def pbRaikouBossBattle
   pkmn2.spDef=289
   pkmn2.speed=985
   pkmn2.pbDeleteAllMoves
-  moves = [:RAINDANCE, :DISCHARGE, :HELPINGHAND, :SHADOWBALL]
+  moves = [:RAINDANCE, :THUNDERBOLT, :HELPINGHAND, :SHADOWBALL]
   for m in moves
     pkmn2.pbLearnMove(m)
   end
