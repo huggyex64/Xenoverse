@@ -1470,14 +1470,6 @@ def pbSuicuneBossBattle
     pkmn.pbLearnMove(m)
   end
 
-  Suicune PBS
-  808/203/369/927/525/405 Calm
-  Surf, Blizzard, Aqua Ring, Protect
-
-  Vapreon Rocciafredda
-  928/149/240/801/319/289 bold
-  Hail, Scald , Helping Hand, Ice Beam
-
   $mods.set(2, nil, nil)
   pkmn2 = pbGenerateWildPokemon(PBSpecies::VAPOREON,100)
   pkmn2.setItem(:HEATROCK)
