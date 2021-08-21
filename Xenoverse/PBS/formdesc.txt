@@ -286,7 +286,7 @@ TYPE2=16
 DESCRIPTION=(MegaEvoluzione)\n Grazie alle sue possenti zampe può sostenere i contraccolpi del cannone sul guscio, che ha una potenza simile a quella di un carrarmato.
 WEIGHT=101.1
 [2026_1]
-DESCRIPTION=(Simbolo Xenoverse)\n Si raccolgono in massa in prossimità degli Xenovarchi. Poiché il loro aspetto ricorda il simbolo nella bocca di Dragalisk, i Cardinali considerano il loro aspetto come profano da tempi immemori.
+DESCRIPTION=(Simbolo Xenoverse)\n Il loro aspetto ricorda il simbolo nella bocca di Dragalisk, per questo i Cardinali li considerano profani da tempi immemori.
 [243_2]
 DESCRIPTION=(MegaEvoluzione)\n Il potere della MegaEvoluzione ha reso Raikou ancora più solenne. La sua criniera squarcia l'aria come un fulmine.
 HEIGHT=25
