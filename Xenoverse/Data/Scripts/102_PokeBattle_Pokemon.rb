@@ -719,6 +719,11 @@ class PokeBattle_Pokemon
     healPP
   end
 
+# Returns whether the pokemon is fainted or not
+  def isFainted?
+    return @hp<=0
+  end
+
 # Changes the happiness of this Pokémon depending on what happened to change it.
   def changeHappiness(method)
     gain=0; luxury=false

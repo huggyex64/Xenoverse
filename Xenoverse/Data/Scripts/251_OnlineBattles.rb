@@ -173,12 +173,92 @@ def pbCableClub
   end
 end
 
+def testRandom
+  echoln "Ruby version: #{RUBY_VERSION}"
+  if $MKXP
+    seed = srand
+    srand(1818181818)
+    echoln "old seed #{seed}"
+    echoln "new seed #{1818181818}"
+    t = Thread.new {
+      h = []
+      echo "\n"
+      for i in [4,3,2,2,2,2,4,3,2,2,2,2,16,16,100,16,100]
+        echo random30(seed,h,i)
+        echo " against "
+        echoln rand(i)
+        h.push(i)
+      end
+=begin
+      echoln random30(1234,[12,14,16,18],15)
+      echoln random30(1234,[12,14,16,18,15],32)
+      echoln random30(1234,[12,14,16,18,15,32],17)
+      echoln random30(1234,[12,14,16,18,15,32,17],28)
+      echoln random30(1234,[12,14,16,18,15,32,17,28],44)
+      echoln random30(1234,[12,14,16,18,15,32,17,28,44],15)
+=end
+    }
+  else
+    seed = srand
+    echoln seed
+    srand(seed)
+    echoln rand(4)
+    echoln rand(3)
+    echoln rand(2)
+    echoln rand(2)
+    echoln rand(2)
+    echoln rand(2)
+    echoln "next"
+    echoln rand(4)
+    echoln rand(3)
+    echoln rand(2)
+    echoln rand(2)
+    echoln rand(2)
+    echoln rand(2)
+=begin
+    echoln srand(1234)
+    rand(12);rand(14);rand(16);rand(18)
+    echoln rand(15)
+    echoln rand(32)
+    echoln rand(17)
+    echoln rand(28)
+    echoln rand(44)
+    echoln rand(15)
+=end
+  end
+
+end
+
+def random30(seed,h,max)
+  t = h
+  history = "["
+  for v in t
+    history+=v.to_s
+    if t.index(v)<t.length-1
+      history+=","
+    end
+  end
+  #echoln ".\\random2.exe -s #{seed} -h #{history} -m #{max}"
+  IO.popen(".\\random2.exe -s #{seed} -h #{history} -m #{max}") { |f|
+    return f.read.to_i
+  }
+end
+
+
 def pbOnlineLobby
   echoln srand(1234)
   echoln rand(3**6)
   echoln rand(3**6)
   echoln rand(3**6)
   echoln rand(3**6)
+  echoln srand(1234)
+  echoln rand(3**6)
+  echoln rand(3**6)
+  echoln rand(3**6)
+  echoln rand(3**6)
+
+  srand
+
   lobby = OnlineLobby.new
   if $Trainer.party.length == 0
     Kernel.pbMessage(_INTL("I'm sorry, you must have a Pokémon to enter the Cable Club."))
@@ -331,6 +411,7 @@ module CableClub
 
         # Choosing an activity (leader only).
         when :choose_activity
+          echoln "#{state}: choosing activity"
           Kernel.pbMessageDisplay(msgwindow, _INTL("Choose an activity.\\^"))
           command = Kernel.pbShowCommands(msgwindow, [_INTL("Single Battle"), _INTL("Double Battle"), _INTL("Trade")], -1)
           case command
@@ -342,7 +423,7 @@ module CableClub
             else
               connection.send do |writer|
                 writer.sym(:battle)
-                seed = rand(2**31)
+                seed = srand
                 writer.int(seed)
                 battle_type = case command
                   when 0; :single
@@ -382,7 +463,7 @@ module CableClub
                 (partner.partyID=0) rescue nil # EBDX compat
                 do_battle(connection, client_id, seed, battle_type, partner, partner_party)
                 state = :choose_activity
-
+                msgwindow.visible = true
               when :trade
                 chosen = choose_pokemon
                 if chosen >= 0
@@ -414,6 +495,7 @@ module CableClub
 
         # Waiting for the partner to select an activity (follower only).
         when :await_choose_activity
+          echoln "#{state}: awaiting leader to choose activity"
           pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to pick an activity", partner_name), frame)
           connection.update do |record|
             case (type = record.sym)
@@ -713,14 +795,15 @@ module CableClub
                 state = :await_choose_activity
               end
             when :askAcceptInteraction
-              Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start the connection?.\\^"))
+              req = record.int
+              Kernel.pbMessageDisplay(msgwindow, _INTL("{1} asked for connection. Do you want to start the connection?\\^",req))
               command = Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2)
               # Accepted
               if command == 0
                 if connection.can_send?
                   connection.send do |writer|
                     writer.sym(:acceptInteraction)
-                    writer.int(record.int)
+                    writer.int(req)
                   end
                 end
               else
@@ -830,17 +913,20 @@ module CableClub
 
         # Waiting for the partner to accept our activity (leader only).
         when :await_accept_activity
+          echoln "#{state}: awaiting leader to choose activity"
           pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to accept", partner_name), frame)
           connection.update do |record|
             case (type = record.sym)
             when :ok
-              msgwindow.visible = false #Kernel.pbDisposeMessageWindow(msgwindow)
+               #Kernel.pbDisposeMessageWindow(msgwindow)
               case activity
               when :battle
+                msgwindow.visible = false
                 trainertype = record.int
                 partner = PokeBattle_Trainer.new(partner_name, trainertype)
                 (partner.partyID=0) rescue nil # EBDX compat
                 do_battle(connection, client_id, seed, battle_type, partner, partner_party)
+                msgwindow.visible = true
                 state = :choose_activity
 
               when :trade
@@ -898,6 +984,7 @@ module CableClub
                     writer.int($Trainer.trainertype)
                   end
                   do_battle(connection, client_id, seed, battle_type, partner, partner_party)
+                  msgwindow.visible = true
                 else
                   connection.send do |writer|
                     writer.sym(:cancel)
@@ -909,7 +996,7 @@ module CableClub
             when :trade
               Kernel.pbMessageDisplay(msgwindow, _INTL("{1} wants to trade!\\^", partner_name))
               if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-                msgwindow.visible = false #Kernel.pbDisposeMessageWindow(msgwindow)
+                msgwindow.visible = true #Kernel.pbDisposeMessageWindow(msgwindow)
                 connection.send do |writer|
                   writer.sym(:ok)
                 end
@@ -1540,20 +1627,62 @@ class PokeBattle_CableClub < PokeBattle_Battle
   def initialize(connection, client_id, scene, opponent_party, opponent)
     @connection = connection
     @client_id = client_id
+    @seedset = false
     @randomCounter = 0
+    @randomHistory = []
     player = PokeBattle_Trainer.new($Trainer.name, $Trainer.trainertype)
     super(scene, $Trainer.party, opponent_party, player, opponent)
     @battleAI  = PokeBattle_CableClub_AI.new(self) if defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
   end
   
+  def pbAbort
+    @connection.send do |writer|
+      writer.sym(:clearRandom) #Request type
+    end
+		raise BattleAbortedException.new("Battle aborted")
+	end
+
   def pbRandom(x)
-    @randomCounter += 1 
-    # Debugging Seed
-    cur_seed=srand
-    srand(cur_seed)
-    ret = rand(x)
-    echoln "Called the fucking NET random! Counter at #{@randomCounter}, Seed is #{cur_seed} and Rand is #{ret}"
+    @connection.send do |writer|
+      writer.sym(:random) #Request type
+      writer.int(x) #Max range for random
+      writer.int(@randomCounter) #Random counter
+    end
+    @randomCounter += 1
+    ret = nil
+    while (ret==nil)
+      Graphics.update
+      Input.update
+      raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
+      @connection.update do |record|
+        case (type = record.sym)
+        when :random
+          ret = record.int
+        else
+          raise "Unknown message: #{type}"
+        end
+      end
+    end
+    echoln "Called the fucking NET random! Counter at #{@randomCounter}, Rand is #{ret}"
     return ret
+=begin
+    echoln "History"
+    echoln @randomHistory
+    #Getting the current seed
+    cur_seed = srand
+    srand(cur_seed)
+    if $MKXP
+      ret = rand(x)
+      @randomHistory.push(x)
+      echoln "Called the fucking NET random! Counter at #{@randomCounter}, Seed is #{cur_seed} and Rand is #{ret}"
+      return ret
+    else
+      ret = random30(cur_seed, @randomHistory, x)
+      @randomHistory.push(x)
+      echoln "Called the fucking NET random! Counter at #{@randomCounter}, Seed is #{cur_seed} and Rand is #{ret}"
+      return ret
+    end
+=end
   end
 
   # Added optional args to not make v18 break.
@@ -1752,15 +1881,28 @@ seems to work when commented. for some reason...
     end
     
     def pbDefaultChooseEnemyCommand(index)
+      #Before i start sending all this i check if opponent already forfeited
+      @connection.update do |record|
+        case (type = record.sym)
+        when :forfeit
+          pbSEPlay("Battle flee")
+          pbDisplay(_INTL("{1} forfeited the match!", opponent.fullname))
+          @decision = 1
+          pbAbort
+        end
+      end
       our_indices = @doublebattle ? [0, 2] : [0]
       their_indices = @doublebattle ? [1, 3] : [1]
       # Sends our choices after they have all been locked in.
       if index == their_indices.last
-        @connection.send do |writer|
-          cur_seed=srand
-          srand(cur_seed)
-          writer.sym(:seed)
-          writer.int(cur_seed)
+        if !@seedset
+          @connection.send do |writer|
+            cur_seed=srand
+            srand(cur_seed)
+            writer.sym(:seed)
+            writer.int(cur_seed)
+            @seedset = true
+          end 
         end
         target_order = CableClub::pokemon_target_order(@client_id)
         for our_index in our_indices
@@ -1808,6 +1950,7 @@ seems to work when commented. for some reason...
               when :seed
                 seed=record.int()
                 srand(seed) if @client_id==1
+                @seedset = true
 
               when :choice
                 their_index = their_indices.shift
