@@ -392,13 +392,12 @@ class PokemonLoad
                 #this should remove all the mon that go over the 16th
                   
 								#newb = []
-								for k in 0...30
-									if k>15
+								#for k in 0...16
+								#	if k>15
                     #echoln "INFO i: #{i} om: #{om} k:#{k}"
-										
-                    $PokemonStorage.boxes[i][k]=nil
-									end
-								end
+                #    $PokemonStorage.boxes[i][k]=nil
+								#	end
+								#end
 							else
 								ip1=i+1
 								$PokemonStorage.boxes[i]=PokemonBox.new(_ISPRINTF("Box {1:d}",ip1),16)

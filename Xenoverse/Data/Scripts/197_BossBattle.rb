@@ -1351,8 +1351,8 @@ def pbStartBossBattleMon(pokemon, bgs = nil, item = nil, canescape = true)
   return result
 end
 
-def pbDoubleBossBattle(pokemon1,pokemon2,canescape=true)
-  result = pbDoubleWildPokemonBattle(pokemon1,pokemon2,nil,canescape)
+def pbDoubleBossBattle(pokemon1,pokemon2,canescape=true,canlose = true)
+  result = pbDoubleWildPokemonBattle(pokemon1,pokemon2,nil,canescape,canlose)
   return result
 end
 
@@ -1427,7 +1427,7 @@ def pbCharizardBossBattle
   pkmn2.spDef=207
   pkmn2.speed=328
 
-  result = pbDoubleBossBattle(pkmn,pkmn2,false)
+  result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
   return result
 end
@@ -1491,7 +1491,7 @@ def pbSuicuneBossBattle
   for m in moves
     pkmn2.pbLearnMove(m)
   end
-  result = pbDoubleBossBattle(pkmn,pkmn2,false)
+  result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
   pbDeregisterPartner()
   return result
@@ -1532,7 +1532,7 @@ def pbEnteiBossBattle
   for m in moves
     pkmn2.pbLearnMove(m)
   end
-  result = pbDoubleBossBattle(pkmn,pkmn2,false)
+  result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
   pbDeregisterPartner()
   return result
@@ -1573,7 +1573,7 @@ def pbRaikouBossBattle
   for m in moves
     pkmn2.pbLearnMove(m)
   end
-  result = pbDoubleBossBattle(pkmn,pkmn2,false)
+  result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
   pbDeregisterPartner()
   return result
