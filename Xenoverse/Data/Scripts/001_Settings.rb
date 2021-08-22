@@ -167,7 +167,7 @@ BERRYPOCKET    = 5
 def pbStorageCreator
   return _INTL("Esteban")
 end
-STORAGEBOXES = 70#24
+STORAGEBOXES = 120#70#24
 
 #===============================================================================
 # * Whether the Pokédex list shown is the one for the player's current region

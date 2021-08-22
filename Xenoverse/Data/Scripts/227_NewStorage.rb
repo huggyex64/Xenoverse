@@ -38,7 +38,7 @@ class NewPokemonStorage
 		@sprites["bg"].bitmap = pbBitmap(@path + "bg")
 		@sprites["bg"].z = -10
 		
-    @sprites["abg"] = AnimatedPlane.new(@viewport)
+    	@sprites["abg"] = AnimatedPlane.new(@viewport)
 		@sprites["abg"].bitmap = pbBitmap(@path + "animbg")
     
 		@sprites["box"] = NewBox.new(@viewport,@storage,@storage.currentBox)
@@ -292,7 +292,7 @@ class NewPokemonStorage
 			end
 			
 			if Input.trigger?(Input::X) #jump to box
-				fb = chooseNumber(_INTL("Where to jump?"),70,1,1)
+				fb = chooseNumber(_INTL("Where to jump?"),STORAGEBOXES,1,1)
 				jump(fb-1)
 			end
 			

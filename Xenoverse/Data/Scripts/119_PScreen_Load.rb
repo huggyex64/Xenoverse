@@ -382,14 +382,21 @@ class PokemonLoad
            metadata             = Marshal.load(f)
            $PokemonBag          = Marshal.load(f)
            $PokemonStorage      = Marshal.load(f)
-           if $PokemonStorage.maxBoxes != 70
+
+           # Box size modification
+           if $PokemonStorage.maxBoxes != 120
 						om = $PokemonStorage.maxBoxes
-						for i in 0...70
+						for i in 0...STORAGEBOXES
 							if i < om
-								newb = []
+                echoln $PokemonStorage.boxes[i].pokemon
+                #this should remove all the mon that go over the 16th
+                  
+								#newb = []
 								for k in 0...30
 									if k>15
-										$PokemonStorage.boxes[i].pokemon.pop
+                    #echoln "INFO i: #{i} om: #{om} k:#{k}"
+										
+                    $PokemonStorage.boxes[i][k]=nil
 									end
 								end
 							else
@@ -400,6 +407,7 @@ class PokemonLoad
 							end
 						end
 					 end
+
            magicNumberMatches=false
            if $data_system.respond_to?("magic_number")
              magicNumberMatches=($game_system.magic_number==$data_system.magic_number)
