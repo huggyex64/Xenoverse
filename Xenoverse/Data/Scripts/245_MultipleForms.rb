@@ -1440,7 +1440,7 @@ MultipleForms.register(:CELEBI, {
 
 MultipleForms.register(:RAIKOU, {
 		"getMegaForm"=>proc{|pokemon|
-			next 2 if isConst?(pokemon.item,PBItems,:RAIKOUITE) && pokemon.form == 0
+			next 2 if isConst?(pokemon.item,PBItems,:RAIKOUITE) && (pokemon.form == 0 || pokemon.form==2)
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
@@ -1471,7 +1471,7 @@ MultipleForms.register(:RAIKOU, {
 
 MultipleForms.register(:ENTEI, {
 		"getMegaForm"=>proc{|pokemon|
-			next 2 if isConst?(pokemon.item,PBItems,:ENTEITE) && pokemon.form == 0
+			next 2 if isConst?(pokemon.item,PBItems,:ENTEITE) && (pokemon.form == 0 || pokemon.form==2)
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
@@ -1500,7 +1500,7 @@ MultipleForms.register(:ENTEI, {
 
 MultipleForms.register(:SUICUNE, {
 		"getMegaForm"=>proc{|pokemon|
-			next 2 if isConst?(pokemon.item,PBItems,:SUICUNITE) && pokemon.form == 0
+			next 2 if isConst?(pokemon.item,PBItems,:SUICUNITE) && (pokemon.form == 0 || pokemon.form==2)
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
