@@ -508,7 +508,7 @@ class NextGenDataBox  <  SpriteWrapper
 			@hpBars = Array.new
 			echoln("#{@bossMultiplier-1}")
 			for i in 0...@bossMultiplier
-				@hpBars[i] = pbBitmap(@path+"HPBAR_FULL")
+				@hpBars[i]=pbBitmap(@path+"HPBAR_FULL")
 			end
 			@sprites["hp2"] = Sprite.new(@viewport)
 			@hpBarBmp = pbBitmap(@path+"HPBAR_FULL")
@@ -519,7 +519,7 @@ class NextGenDataBox  <  SpriteWrapper
 			@sprites["hp"] = Sprite.new(@viewport)
 			@sprites["hp"].bitmap = Bitmap.new(@hpBarBmp.width,@hpBarBmp.height)
 			@sprites["hp"].mirror = !@playerpoke
-			
+
 			@sprites["hp_point"] = BossArray.new
 			@pointsBitmap = Array.new
 			@noPointBitmap = Bitmap.new(24,4)#pbBitmap(@path+"BOSSHPBAR_EXPIRED")
@@ -555,15 +555,20 @@ class NextGenDataBox  <  SpriteWrapper
 	
 	def updateHpBar
 		if (@boss)
+
 			# updates the current state of the HP bar
 			# the bar's colour hue gets dynamically adjusted (i.e. not through sprites)
 			# HP bar is mirrored for opposing Pokemon
 			#hpbar = @battler.totalhp==0 ? 0 : (1.0*(self.hp % (@bossMultiplier-1)-1)*@sprites["hp"].bitmap.width/(@battler.totalhp / @bossMultiplier)).ceil
 			normalHp = (1.0 * @battler.totalhp / @bossMultiplier)
-      currHp = self.hp%normalHp==0 ? self.hp / @bossMultiplier : self.hp%normalHp
-			hpbar = @battler.totalhp==0 ? 0 : (1.0*currHp*@sprites["hp"].bitmap.width/normalHp).ceil
-			remainingPoints = (self.hp / normalHp).ceil.to_i - 1
-			#echoln("#{remainingPoints.to_s} - #{self.hp.to_s}/#{normalHp.to_s}")
+      currHp = self.hp % normalHp.to_i == 0 ? self.hp / @bossMultiplier : self.hp % normalHp.ceil.to_i
+      #echoln "#{@battler.name} ::: CurrHP info :: currHp:#{currHp} "
+      #echoln "cond:#{self.hp % normalHp == 0} - r1: #{self.hp} / #{@bossMultiplier} = #{self.hp / @bossMultiplier} - r2: #{self.hp} % #{normalHp} = #{self.hp % normalHp}"
+      hpbar = @battler.totalhp == 0 ? 0 : (1.0*currHp*@sprites["hp"].bitmap.width/normalHp).ceil
+      remainingPoints = (self.hp / normalHp).ceil.to_i - 1
+      #echoln "#{@battler.name} ::: Remaining Points:#{remainingPoints}(#{self.hp % (@battler.totalhp/@bossMultiplier)}) Hp:#{self.hp} TotalHp:#{@battler.totalhp} Multiplier:#{@bossMultiplier}"
+			#echoln "#{@battler.name} ::: Graphics info: hpbar:#{hpbar} - currHp:#{currHp} - width:#{@sprites["hp"].bitmap.width} - normalHp:#{normalHp}"
+      #echoln("#{remainingPoints.to_s} - #{self.hp.to_s}/#{normalHp.to_s}")
 			
 			@sprites["hp_point"].each_index do |i|
 				@sprites["hp_point"][i].bitmap.clear
@@ -575,6 +580,7 @@ class NextGenDataBox  <  SpriteWrapper
 					@sprites["hp_point"][i].bitmap.blt(0,0,@noPointBitmap,Rect.new(0,0,@noPointBitmap.width,@noPointBitmap.height))
 				end
 			end
+
 			@sprites["hp"].src_rect.x = @sprites["hp"].bitmap.width - hpbar if !@playerpoke
 			@sprites["hp"].src_rect.width = hpbar
 			hue = (0-120)*(1-(self.hp.to_f/@battler.totalhp))
@@ -584,7 +590,7 @@ class NextGenDataBox  <  SpriteWrapper
 
 			# Set the bar bg (brutto)
 			if remainingPoints > 0
-				@sprites["hp2"].src_rect.x = 0#@sprites["hp"].bitmap.width - 188 if !@playerpoke
+				@sprites["hp2"].src_rect.x = 0 #@sprites["hp"].bitmap.width - 188 if !@playerpoke
 				@sprites["hp2"].src_rect.width = 171
 				@sprites["hp2"].bitmap.clear
 				@sprites["hp2"].bitmap.blt(0,0,@hpBars[remainingPoints-1],Rect.new(0,0,@hpBarBmp.width,@hpBarBmp.height))
@@ -1498,7 +1504,7 @@ def pbEnteiBossBattle
   $wildSpecies = PBSpecies::ENTEI
   pkmn = pbGenerateWildPokemon(PBSpecies::ENTEI,100) 
   pkmn.forcedForm = 2
-  pkmn.totalHp=868
+  pkmn.totalHp=869
   pkmn.hp=pkmn.totalhp
   pkmn.attack=394
   pkmn.defense=219

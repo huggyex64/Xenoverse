@@ -49,7 +49,7 @@ class PokeBattle_Trainer
         Kernel.pbMessage(_INTL("Devi scegliere 3 Pokémon da portare con te."))
 
         banlist = [PBSpecies::LUXFLON,PBSpecies::DIELEBI,PBSpecies::MEW,
-        PBSpecies::HOOH,PBSpecies::LUGIA,PBSpecies::ENTEI,PBSpecies::SUICUNE,PBSpecies::RAIKOU,
+        PBSpecies::HOOH,PBSpecies::LUGIA,
         PBSpecies::CELEBI,PBSpecies::DEOXYS,PBSpecies::HEATRAN,PBSpecies::DARKRAI,
         PBSpecies::CRESSELIA,PBSpecies::GENESECT,
         PBSpecies::MELOETTA,PBSpecies::MARSHADOW,PBSpecies::MEWTWOX,
