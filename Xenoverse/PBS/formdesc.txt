@@ -289,11 +289,13 @@ WEIGHT=101.1
 DESCRIPTION=(Simbolo Xenoverse)\n Il loro aspetto ricorda il simbolo nella bocca di Dragalisk, per questo i Cardinali li considerano profani da tempi immemori.
 [243_2]
 DESCRIPTION=(MegaEvoluzione)\n Il potere della MegaEvoluzione ha reso Raikou ancora più solenne. La sua criniera squarcia l'aria come un fulmine.
-HEIGHT=25
-WEIGHT=2530
+HEIGHT=2.5
+WEIGHT=253
 [244_2]
 DESCRIPTION=(MegaEvoluzione)\n Il potere della MegaEvoluzione ha reso Entei ancora più possente. La sua criniera arde come un vulcano attivo.
-HEIGHT=24
-WEIGHT=2100
+HEIGHT=2.4
+WEIGHT=210
 [245_2]
 DESCRIPTION=(MegaEvoluzione)\n Il potere della MegaEvoluzione ha reso Suicune ancora più maestoso. La sua criniera risplende dei colori dell'aurora boreale.
+HEIGHT=2
+WEIGHT=200
