@@ -257,7 +257,7 @@ class PokeBattle_Battle
         @scene.pbStartBattle(self)
         wildpoke=@party2[0]
         if wildpoke.boss
-					pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} and {2} wants to battle!",wildpoke.name,@party2[1].name))
+					pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} wants to battle!",wildpoke.name))
           # GRENINJAX END SENDOUT
           if NEWBOSSES.include?($wildSpecies)
             @scene.newBossSequence.finish if @scene.newBossSequence
