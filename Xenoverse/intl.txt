@@ -501,6 +501,12 @@ No
 Sì
 Yes
 [Map14]
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
 Fugen
 Fugen
 Ciao! Sei tu il||la famoso|a \PN, vero?
@@ -775,6 +781,12 @@ Kiloo...!
 <<[>>old<<]>>Better get it back to its rightful owner.
 [Map21]
 [Map22]
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
 Fugen
 Fugen
 Ciao! Sei tu il||la famoso|a \PN, vero?
@@ -1259,6 +1271,12 @@ Oh, \PN...you're always ready for adventure, huh?
 <<[>>old<<]>>Cinque anni dopo...
 <<[>>old<<]>>Five years later...
 [Map30]
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
 Fugen
 Fugen
 Ciao! Sei tu il||la famoso|a \PN, vero?
@@ -1373,6 +1391,26 @@ Yes
 No
 No
 [Map34]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
 <<[>>old<<]>><b>Campus Ariepoli</b> <i>''Dove studio e lotta si danno appuntamento!''</i>
 <<[>>old<<]>><b>Newtron City</b>\n<i>''Where study and battle come together!''</i>
 ???
@@ -2022,6 +2060,56 @@ No
 Sì
 Yes
 [Map39]
+\\PN, raggiungi la <b>Palestra Radice</b> appena ti senti pronto|a! Noi ti aspetteremo all'interno.
+\PN, go to the <b>Hadwarf Gym</b> as soon as you’re feeling ready!<<n>>We’ll be waiting for you inside.
+Molto bene, andiamo verso la palestra in fretta e furia! E poi oggi siamo fortunati, con noi c'è anche il Prescelto!
+Okay, let’s go towards the gym quickly!<<n>>We’re lucky today, the Chosen one is with us too!
+Parli del diavolo...
+Speak of the devil...
+Alisso è in difficoltà... La prego, ci dia una mano!
+Basil’s in trouble... Please, help us!
+Ivan
+Nathan
+Uno dei pokémon del <b>Capopalestra Alisso</b> ha perso il controllo.E noi aiutanti non siamo riusciti a fermarlo!
+One of <b>Gym Leader Basil’s</b> Pokémons lost control,<<n>>and we assistants can’t manage to stop him!
+Professor Aster, abbiamo urgentemente bisogno di lei!
+Professor Aster, we need you urgently!
+<<[>>old<<]>>Che qualcuno ci aiuti!
+<<[>>old<<]>>Someone help us!
+Vorrei che tu lo raggiungess-
+I’d like for you to join h-
+Mentre tu eri impegnato con Tarassaco e Bellocchio, ho chiesto ad un mio nuovo <b>Tirocinante</b> di darti una mano. E' già partito verso nord per indagare su una possibile pista riguardo una nuova furia.
+While you were busy helping Taraxo and Looker,<<n>>I asked a new Trainee of mine if he was willing to give a hand.<<n>>He’s already gone up north to investigate a possible clue about a new Fury.
+Scusami per la lunga chiacchierata!
+Sorry for the long chat!
+Credo che ci sia una correlazione tra questo fenomeno e le evoluzioni Terrestre e Xenoverse del tuo Starter.E poi guarda i tuoi orecchini,sono stati sicuramente plasmati da questa energia cristallizzata.
+I believe there’s some sort of correlation between this phenomenon and the Terrestrial and Xenoverse evolutions of your Starter.<<n>>Moreover, look at your earrings.<<n>>They’ve surely been molded by this crystallized energy.
+Esatto, quello straordinario potere che hai già visto dal mio Suicune, o contro il Weavile di tuo padre Versil. Questo potere nascosto si è manifestato durante i nostri studi ed esperimenti sullo Xenoverse.
+Correct, that extraordinary power you’ve already had the chance to see when battling my Suicune,<<n>>or against your father Versil’s Weavile.<<n>>This hidden power manifested during our studies and experiments on the Xenoverse.
+Questo fenomeno è chiamato <b>Megaevoluzione</b>.
+This phenomenon is called <b>Mega Evolution</b>.
+Questa energia cristallizzata, ha impatti estremi su alcuni Pokémon, che subiscono una trasformazione così radicale da renderli tanto potenti quanto pericolosi.
+This energy has extreme impacts on some Pokémons,<<n>>that are subject to a transformation so radical<<n>>that makes them as powerful as dangerous.
+Esattamente come è stato per la fusione avvenuta tra Luxflon e Dragalisk.
+Exactly how it’s been for the fusion between Luxflon and Dragalisk.
+Questo ha portato le due energie, entrate in conflitto, a fondersi e cristallizzarsi.
+This brought the two Energies,<<n>>which came in conflict,<<n>>to merge and crystallize.
+Durante gli avvenimenti nello Xenoverse, sia l'energia Terrestre che quella Xenoverse sono state rilasciate in grande quantità sulla terra.
+During what happened in the Xenoverse<<n>>both the Terrestrial and Xenoverse Energy were spilled in great quantities over the Earth.
+E a quanto pare, non soltanto i Pokémon X ne risultano affetti, ma anche alcuni Pokémon Terrestri.
+And as it seems, it doesn’t affect just X Pokémons,<<n>>but also some Terrestrial Pokémons.
+L'energia Furiosa si è diffusa rapidamente in tutta la regione.
+The Fury Energy is spreading rapidly across the whole region.
+Purtroppo ti porto solo spiacevoli notizie.
+However, I bring bad news.
+Tarassaco e Bellocchio sono venuti nel mio laboratorio per aggiornarmi sugli ultimi eventi dei <b>Pokémon Furia</b>.
+Taraxo and Looker came a while ago to update me on the latest <b>Fury Pokémons’</b> happenings.
+Oh, \\PN, eccoti qui! Vedo che hai ricevuto la mia lettera. Fantastico!
+Oh, \PN, you’re here!<<n>>I see you got my letter. Wonderful!
+<<[>>old<<]>>Meglio parlare prima con Aster.
+<<[>>old<<]>>Better talk with Aster first.
+<<[>>old<<]>>Meglio non entrare.
+<<[>>old<<]>>Better not to enter.
 <<[>>old<<]>>Palestra Radice\nCapopalestra: <b>Alisso</b> <i>''Un tutt'uno con la natura!''</i> Allenatori Certificati: 0
 <<[>>old<<]>>Hadwarf Gym\nGym Leader: <b>Basil</b>\n<i>''The man at one with nature!''</i>\nCertified Trainers: 0
 <<[>>old<<]>>Palestra Radice\nCapopalestra: <b>Alisso</b> <i>''Un tutt'uno con la natura!''</i> Allenatori Certificati: \PN
@@ -4805,6 +4893,12 @@ Talvolta in queste zone è possibile rinvenire una particolare roccia, denominat
 In these areas, sometimes you can find a particular stone, called the <b>Xenolith</b>.<<n>>Research reveals that some X Pokémon react to the energy surge from this stone, and evolve.<<n>>Who knows, you might get one too...
 [Map97]
 [Map98]
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
 Fugen
 Fugen
 Ciao! Sei tu il||la famoso|a \PN, vero?
@@ -5074,6 +5168,26 @@ Scaleon
 Scaaa...!
 Scaaa...!
 [Map105]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
 <b>Birigiri</b> non fa che tormentare <b>Chubiburny</b>, ma questi diventa più forte solo in sua compagnia.
 <b>Birigiri</b> keeps harassing <b>Chubiburny</b>, but it's only with the first one that the second strengthens.
 Mnemonio
@@ -6833,6 +6947,12 @@ No
 <<[>>old<<]>>Sembrerebbero delle pagine strappate da un quaderno... La calligrafia è chiara e pulita.
 <<[>>old<<]>>It looks like a bunch of pages ripped out of a notebook... The calligraphy is really clear.
 [Map160]
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
 Fugen
 Fugen
 Ciao! Sei tu il||la famoso|a \PN, vero?
@@ -6927,7 +7047,7 @@ He is|||||She's \PN, a Pokémon Trainer you met<<n>>in <b>Wild Bull Saloon</b>'s
 Maurice! Mi stavi per caso pedinando?
 Chrysler! Were you spying on me or something?
 Negativo, capitano! Semplicemente, il suo ricetrasmettitore era in funzione a sua insaputa...
-Negative, captain! Simply, you weren't aware your transceiver was in function…
+Negative, captain! Simply, you weren't aware your transceiver was in function...
 Ops! Mi culpa! Ma presentarsi di persona è tutt'altra cosa, dai.
 Whoops! Mi culpa! Still, introducing each other face to face is better.
 Non c'è tempo! La città corre un grave rischio!
@@ -8765,7 +8885,7 @@ Rod Aruka
 Maria
 Maria
 Due passi avanti, tre a sinistra... Due passi avanti, due a sinistra... Uno verso il basso, tre a sinistra... Dritto verso l'alto...
-Two steps forward, three to the left...<<n>>Two steps forward, two to the left...<<n>>One downwards, three to the left...<<n>>Straight upwards…
+Two steps forward, three to the left...<<n>>Two steps forward, two to the left...<<n>>One downwards, three to the left...<<n>>Straight upwards...
 Fuori dai piedi! Hai rovinato il sogno di gloria delle sorelle Maria e Serafina!
 Get outta my way! You wrecked the dreams of glory of<<n>>the two sisters Maria and Seraphina!
 <<[>>old<<]>>È una statua del leggendario Pokémon Entei.
@@ -9446,6 +9566,14 @@ Heal Pokémon
 Usa Box
 Use Box
 [Map210]
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
+<b>Birigiri</b> non fa che tormentare <b>Chubiburny</b>, ma questi diventa più forte solo in sua compagnia.
+<b>Birigiri</b> keeps harassing <b>Chubiburny</b>, but it's only with the first one that the second strengthens.
 Fugen
 Fugen
 Ciao! Sei tu il||la famoso|a \PN, vero?
@@ -10820,6 +10948,14 @@ Blair
 Certo che, se mettono un Pokémon-Market nell’aeroporto, mi sento quasi in dovere di fare compere!
 I sure wanna shop if there's a Poké Mart right inside<<n>>the airport!
 [Map228]
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
+<b>Birigiri</b> non fa che tormentare <b>Chubiburny</b>, ma questi diventa più forte solo in sua compagnia.
+<b>Birigiri</b> keeps harassing <b>Chubiburny</b>, but it's only with the first one that the second strengthens.
 Fugen
 Fugen
 Ciao! Sei tu il||la famoso|a \PN, vero?
@@ -13771,6 +13907,28 @@ The fire which seems extinguished often slumbers<<n>>beneath the ashes.
 Come le fiamme, anche i tuoi Pokémon rinasceranno se utilizzerai su di essi quella Ceneremagica.
 Just as the flames, your Pokémon will be born again<<n>>if you use that Sacred Ash on them.
 [Map301]
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
+<b>Birigiri</b> non fa che tormentare <b>Chubiburny</b>, ma questi diventa più forte solo in sua compagnia.
+<b>Birigiri</b> keeps harassing <b>Chubiburny</b>, but it's only with the first one that the second strengthens.
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
@@ -14118,6 +14276,12 @@ Marcel
 A seconda del tipo di Amo che si usa, i Pokémon che abboccano potrebbero essere del tutto diversi!
 You can fish completely different Pokémon...<<n>>It all depends on the version of Rod you use!
 [Map308]
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
 Fugen
 Fugen
 Ciao! Sei tu il||la famoso|a \PN, vero?
@@ -14373,6 +14537,10 @@ Advisy
 Non so se quel mostro esista davvero o meno, ma io mi terrei comunque alla larga dalle fogne!
 I don't know whether or not that monster exists,<<n>>I'd stay away from sewers anyway!
 [Map317]
+Aria
+Skyler
+Mi spiace, ma in questo momento non è possibile entrare nel Circo Sirio.
+I’m sorry, but currently it’s not possible to enter Sunshine Circus.
 Wendy
 Wendy
 Faccio un bel giro per il parco mentre la mammina mi compera le caramelle.
@@ -15311,6 +15479,12 @@ Why has nobody ever thought about merging Poké Marts<<n>>and Pokémon Centers t
 Ciao! Questo è il Pokémon-Market di Aranciopoli!
 Hello! This is the Poké Mart in Vermilion City!
 [Map341]
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
 Fugen
 Fugen
 Ciao! Sei tu il||la famoso|a \PN, vero?
@@ -17916,6 +18090,12 @@ This Victory Road is nothing more than a walk in<<n>>the park for a Hiker like m
 Sei un Montanaro anche tu, per caso?
 Are you a Hiker too, maybe?
 [Map410]
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
 Fugen
 Fugen
 Ciao! Sei tu il||la famoso|a \PN, vero?
@@ -18072,6 +18252,12 @@ Defeat is nothing but education.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
 [Map416]
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
 Fugen
 Fugen
 Ciao! Sei tu il||la famoso|a \PN, vero?
@@ -18204,6 +18390,12 @@ Once a year, an old longbeard comes down the mountains<<n>>with his Reindear to 
 <<[>>old<<]>>È vuota.
 <<[>>old<<]>>It's empty.
 [Map420]
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
 Fugen
 Fugen
 Ciao! Sei tu il||la famoso|a \PN, vero?
