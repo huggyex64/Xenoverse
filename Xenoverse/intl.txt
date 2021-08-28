@@ -2060,7 +2060,25 @@ No
 Sì
 Yes
 [Map39]
-\\PN, raggiungi la <b>Palestra Radice</b> appena ti senti pronto|a! Noi ti aspetteremo all'interno.
+\PN raggiungi <b>Ofiuchia</b>. Con il potere della Megaevoluzione sarai sicuramente più pronto per affrontare i Pokémon Furia. In bocca a lupo.
+\PN, you should go to <b>Dorado Village</b> now.<<n>>With the power of Mega Evolution aiding you, you're ready to face the Fury Pokémons. Good luck.
+Con il potere della Megaevoluzione sarai sicuramente più pronto per affrontare i Pokémon Furia. In bocca a lupo.
+With the help of Mega Evolution you’ll be ready to face the Fury Pokémon for sure. I bid you good luck. 
+Grazie ancora per avermi aiutato nella Palestra Radice. Alisso aveva detto che ad <b>Ofiuchia</b> stava succedendo qualcosa di terribile e bisogna intervenire tempestivamente.
+Thanks again for helping me in Hadwarf Gym. Basil said that something terrible was going on in <b>Dorado Village</b> and we must intervene promptly.
+Ora potrai usufruire del potere della <b>Megaevoluzione</b> attraverso il PokéWes, è fantastico, vero?
+Now you’ll be able to use the power of <b>Mega Evolution</b><<n>>through the PokéWES,it’s fantastic, isn’t it?
+<<[>>old<<]>>Il PokéWes è stato aggiornato con la Funzione Megaevoluzione.
+<<[>>old<<]>>The PokéWES was updated with the Mega Evolution function.
+Scusa l'attesa, ecco a te.
+Sorry for the wait, here.
+E' un ardua impresa controllare i Pokémon Megaevoluti, è necessario un fortissimo legame tra allenatore e Pokémon... Ma credo che tu ti sia dimostrato più che in grado di gestirla. Dammi un attimo il PokéWES.
+Even so, it’s a difficult undertaking to control Mega Evolved Pokémon,<<n>>having a very strong bond between Trainer and Pokémon is necessary...<<n>>But I believe that you’ve shown us that you can handle it. Give me your PokéWES for a second.
+Ma non dobbiamo perderci d'animo! Conosco già la Megaevoluzione, tuo padre e io abbiamo avuto modo di documentarci con gli antichi scritti di Kalos, e siamo riusciti a sviluppare un dispositivo che permette di controllare un Pokémon Megaevoluto in battaglia.
+But we mustn’t lose heart! I have an understanding of how Mega Evolution works,<<n>>your father and I had the chance to research it with the help of ancient scriptures from Kalos,<<n>>and we managed to develop a device that allows us to control a Mega Evolved Pokémon in battle.
+Hai sentito quello che ha detto Alisso? A quanto pare questo fenomeno si sta espandendo in altre città. Si sta diffondendo troppo rapidamente, e le cause sono ancora ignote. Sono davvero molto preoccupato.
+Did you hear what Basil said? It seems that this phenomenon is expanding to other cities.<<n>>It’s spreading too quickly, and the cause is still unknown. I’m really worried.
+\PN, raggiungi la <b>Palestra Radice</b> appena ti senti pronto|a! Noi ti aspetteremo all'interno.
 \PN, go to the <b>Hadwarf Gym</b> as soon as you’re feeling ready!<<n>>We’ll be waiting for you inside.
 Molto bene, andiamo verso la palestra in fretta e furia! E poi oggi siamo fortunati, con noi c'è anche il Prescelto!
 Okay, let’s go towards the gym quickly!<<n>>We’re lucky today, the Chosen one is with us too!
@@ -2070,7 +2088,7 @@ Alisso è in difficoltà... La prego, ci dia una mano!
 Basil’s in trouble... Please, help us!
 Ivan
 Nathan
-Uno dei pokémon del <b>Capopalestra Alisso</b> ha perso il controllo.E noi aiutanti non siamo riusciti a fermarlo!
+Uno dei pokémon del <b>Capopalestra Alisso</b> ha perso il controllo. E noi aiutanti non siamo riusciti a fermarlo!
 One of <b>Gym Leader Basil’s</b> Pokémons lost control,<<n>>and we assistants can’t manage to stop him!
 Professor Aster, abbiamo urgentemente bisogno di lei!
 Professor Aster, we need you urgently!
@@ -2079,13 +2097,13 @@ Professor Aster, we need you urgently!
 Vorrei che tu lo raggiungess-
 I’d like for you to join h-
 Mentre tu eri impegnato con Tarassaco e Bellocchio, ho chiesto ad un mio nuovo <b>Tirocinante</b> di darti una mano. E' già partito verso nord per indagare su una possibile pista riguardo una nuova furia.
-While you were busy helping Taraxo and Looker,<<n>>I asked a new Trainee of mine if he was willing to give a hand.<<n>>He’s already gone up north to investigate a possible clue about a new Fury.
+While you were busy helping Taraxo and Looker,I asked a new Trainee of mine<<n>>if he was willing to give a hand.<<n>>He’s already gone up north to investigate<<n>>a possible clue about a new Fury.
 Scusami per la lunga chiacchierata!
 Sorry for the long chat!
-Credo che ci sia una correlazione tra questo fenomeno e le evoluzioni Terrestre e Xenoverse del tuo Starter.E poi guarda i tuoi orecchini,sono stati sicuramente plasmati da questa energia cristallizzata.
-I believe there’s some sort of correlation between this phenomenon and the Terrestrial and Xenoverse evolutions of your Starter.<<n>>Moreover, look at your earrings.<<n>>They’ve surely been molded by this crystallized energy.
+Credo che ci sia una correlazione tra questo fenomeno e le evoluzioni Terrestre e Xenoverse del tuo Starter. E poi guarda i tuoi orecchini, sono stati sicuramente plasmati da questa energia cristallizzata.
+I believe there’s some sort of correlation between<<n>>this phenomenon and the Terrestrial and Xenoverse evolutions of your Starter.<<n>>Moreover, look at your earrings.<<n>>They’ve surely been molded by this crystallized energy.
 Esatto, quello straordinario potere che hai già visto dal mio Suicune, o contro il Weavile di tuo padre Versil. Questo potere nascosto si è manifestato durante i nostri studi ed esperimenti sullo Xenoverse.
-Correct, that extraordinary power you’ve already had the chance to see when battling my Suicune,<<n>>or against your father Versil’s Weavile.<<n>>This hidden power manifested during our studies and experiments on the Xenoverse.
+Correct, that extraordinary power you’ve already had the chance to see when battling my Suicune,<<n>>or against your father Versil’s Weavile. This hidden power manifested during our studies<<n>>and experiments on the Xenoverse.
 Questo fenomeno è chiamato <b>Megaevoluzione</b>.
 This phenomenon is called <b>Mega Evolution</b>.
 Questa energia cristallizzata, ha impatti estremi su alcuni Pokémon, che subiscono una trasformazione così radicale da renderli tanto potenti quanto pericolosi.
@@ -2095,7 +2113,7 @@ Exactly how it’s been for the fusion between Luxflon and Dragalisk.
 Questo ha portato le due energie, entrate in conflitto, a fondersi e cristallizzarsi.
 This brought the two Energies,<<n>>which came in conflict,<<n>>to merge and crystallize.
 Durante gli avvenimenti nello Xenoverse, sia l'energia Terrestre che quella Xenoverse sono state rilasciate in grande quantità sulla terra.
-During what happened in the Xenoverse<<n>>both the Terrestrial and Xenoverse Energy were spilled in great quantities over the Earth.
+During what happened in the Xenoverse<<n>>both the Terrestrial and Xenoverse Energy<<n>>were spilled in great quantities over the Earth.
 E a quanto pare, non soltanto i Pokémon X ne risultano affetti, ma anche alcuni Pokémon Terrestri.
 And as it seems, it doesn’t affect just X Pokémons,<<n>>but also some Terrestrial Pokémons.
 L'energia Furiosa si è diffusa rapidamente in tutta la regione.
@@ -2104,7 +2122,7 @@ Purtroppo ti porto solo spiacevoli notizie.
 However, I bring bad news.
 Tarassaco e Bellocchio sono venuti nel mio laboratorio per aggiornarmi sugli ultimi eventi dei <b>Pokémon Furia</b>.
 Taraxo and Looker came a while ago to update me on the latest <b>Fury Pokémons’</b> happenings.
-Oh, \\PN, eccoti qui! Vedo che hai ricevuto la mia lettera. Fantastico!
+Oh, \PN, eccoti qui! Vedo che hai ricevuto la mia lettera. Fantastico!
 Oh, \PN, you’re here!<<n>>I see you got my letter. Wonderful!
 <<[>>old<<]>>Meglio parlare prima con Aster.
 <<[>>old<<]>>Better talk with Aster first.
@@ -4536,6 +4554,52 @@ Watch out for wild Pokémon, honey!
 <<[>>old<<]>>Non sai come far evolvere un Pokémon? Non preoccuparti! In giro per la regione troverai tanti cittadini che aspettano solo di condividere le loro preziose informazioni con te!
 <<[>>old<<]>>Don't know how to evolve a certain Pokémon?\nDon't worry!\nAll around the region, you may find bunch of citizens just waiting to share their precious informations with you!
 [Map93]
+No
+No
+Sì
+Yes
+\PN, ti aspetto di nuovo all'ingresso del Laboratorio. Appena sei pronto|a, raggiungimi lì.
+\PN, I’ll be waiting for you at the entrance of the Laboratory. As soon as you’re ready, come there.
+Ma siamo sotto una buona stella! Il Sommo Luxflon ci ha benedetti con dei giovani coraggiosi. Non ti preoccupare Alisso, risolveremo questa faccenda.
+But we’re under a lucky star! The Supreme Luxflon has blessed us with brave young people.<<n>>Don’t worry, Basil. We will resolve this matter.
+La furia si sta espandendo a macchia d'olio...
+The Fury is spreading like wildfire...
+La bestia del tempio di <b>Ofiuchia</b> è adirata e il Cardinale Chua è assente. Se essa non verrà domata, la regione verrà scossa da un cataclisma!
+<b>Dorado Village’s beast</b> is ireful and Cardinal Chua is absent.<<n>>If it won't be tamed, the whole region will be shaken by a cataclysm!
+Mio nonno me ne ha parlato nelle sue missive, ma non immaginavo fosse così temibile.
+My grandfather told me about this in his missives,<<n>>but I couldn’t imagine it was so frightening. 
+Allora è questo il misterioso potere che sta facendo infuriare i Pokémon...
+So this is the mysterious power that’s making Pokémon go mad...
+Molto bene \PN. Torniamo in Laboratorio!
+Very good \PN. Let’s head back to the laboratory!
+Prendi questa, \PN. So che con te sarà in mani sicure.
+Take this \PN. I’m sure it will be safe with you.
+Non ho mai visto un potere così terribile e brutale... Non voglio più averci niente a che fare. Anche il mio animo di quercia vacilla davanti a un fenomeno così tremendo.
+I’ve never seen a power so brutal and terrible… I never wanna have anything to do with it again.<<n>>Even my oak’s spirit falters before a phenomenon as tremendous as this.
+Oh \PN, non so davvero come ringraziarti! La natura stava piangendo dinanzi a questo triste spettacolo e alla sofferenza del mio Pokémon... Hai tutta la mia riconoscenza!
+Oh \PN, I really don’t know how to thank you!Nature was crying<<n>>before such a sad spectacle and the suffering of my Pokémon…<<n>>you have my gratitude! 
+<<[>>old<<]>>Hai attivato il Sigillo Furia!
+<<[>>old<<]>>You triggered the Fury Seal!
+<<[>>old<<]>>Venusaur sta per attaccare!
+<<[>>old<<]>>Venusaur is about to attack!
+Non c'è più tempo! Forza \PN, sconfiggi questo Pokémon!
+There’s no more time! Come on \PN, defeat this Pokémon!
+Purtroppo non c'è molto da fare. Per placare la sua <b>Furia</b>, dobbiamo necessariamente sconfiggerlo in battaglia.
+Unfortunately there’s not much we can do. To appease his <b>Fury</b>, we necessarily must defeat him in battle.
+\PN, quello è uno dei Pokémon Megaevoluti di cui ti ho parlato.
+\PN, that’s one of the Mega Evolved Pokémons i was talking about.
+\PN! Grazie per essere arrivato... Vi supplico, aiutatemi a far tornare il mio Venusaur com'era prima...
+\PN! Thanks for coming... I beg you, help me make my Venusaur turn back to normal...
+L'aria si fa pesante. Sei pronto|a?
+Air became thick… Are you ready?
+Che la natura ti riservi tanta fortuna!
+May nature gift you with much fortune!
+Il Pokémon di Alisso ha perso il controllo... Se solo qualcuno ci potesse aiutare...
+Basil’s Pokémon has lost control... If only someone could help us...
+Sei riuscito a calmare il Pokémon di Alisso? Grazie per l'aiuto!
+Were you able to calm down Basil’s Pokémon? Thanks for the help!
+Il professor Aster si trova più avanti, raggiungilo in fretta!
+Professor Aster is ahead, join him quickly!
 Ivan
 Nathan
 Alisso è il mio guru.
@@ -11889,6 +11953,40 @@ Yes
 Percorso 9
 Route 9
 [Map265]
+Vieni quando sei pronto|a.
+Come when you’re ready!
+Io e Decidueye ti aspetteremo nella <b>Dimora del Cardinale</b>.
+Decidueye and I<<n>>will be waiting inside the <b>Cardinal’s Sanctuary</b>. 
+Sapevo di poter contare su di te, \PN!
+I knew I could count on you, \PN! 
+Ah... Mi inventerò qualcosa da solo allora...
+Ah... I’ll think of something by myself then...
+Sì
+Yes
+No
+No
+<<[>>old<<]>>Vuoi aiutare Ruta?
+<<[>>old<<]>>Do you want to help Ruta?
+Per questo \PN, mi daresti una mano a calmare la bestia? Ho bisogno dell'aiuto tuo e di Decidueye se voglio conquistare la fiducia di Papà.
+So \PN, do you mind giving me a hand? I need your and Decidueye’s help if I wanna win Dad’s trust.
+Papà si è fidato di me, e voglio dimostrargli quello che so fare...
+Daddy trusted me and I wanna show him what I can do…
+Ah, sì! E' l'ira della sacra bestia della Dimora del Cardinale, il <b>Pokémon Tuono Raikou</b>!
+Oh right! The ire of the sacred beast of the Cardinal’s sanctuary,<<n>>the <b>Thunder Pokémon Raikou!</b> Tee-hee!
+Quando papà mi raccontava storie, mi disse che secondo le antiche leggende di Ofiuchia, se avvengono forti piogge e tempeste che si abbattono sul villaggio, è un segno di sfortuna e cattivi presagi. Se ricordo bene erano causati da...
+When daddy was telling me old stories,<<n>>he said that according to Dorado Village’s legends<<n>>if heavy rains and storms befall the village it’s a sign of misfortune and bad omens.<<n>>If I remember correctly they were caused by...
+Però questo mal tempo mi preoccupa.
+This weather is bugging me though. 
+Finalmente gli dimostrerò quanto valgo! Ih ih!
+Finally I’ll show him how good I am! Tee-hee!
+Mi ha detto che tocca a me proteggere Ofiuchia durante la sua assenza.
+He said it’s on me to protect Dorado Village while he’s not here.
+Mi dispiace \PN, ma se stai cercando Papà, purtroppo è impegnato con le sue cose da grande.
+I’m sorry \PN, but if you’re looking for daddy he’s too busy taking care of his grown-up stuff.
+Ehi, ma guarda chi si rivede! Ih ih!
+Hey, lookie who’s there! Hee-hee!
+<<[>>old<<]>>La pioggia è troppo forte. Meglio non usare Volo ad Ofiuchia.
+<<[>>old<<]>>The rain is too strong. It’s better to not use Fly in Dorado Village.
 Atlua
 Atlua
 Quel maledetto birbante ne ha combinata un'altra delle sue!
@@ -13369,6 +13467,10 @@ Arrogance's taken root in my heart...
 <<[>>old<<]>>Ha perso conoscenza...
 <<[>>old<<]>>He fainted...
 [Map289]
+Silda
+Silda
+Mi spiace ma Ruta, il figlio del Cardinale, ha vietato l'accesso all'ultima stanza del Tempio Shyleon.
+I’m sorry, but the Cardinal’s son Ruta forbade access to the last room of Shyleon Temple.
 Naana
 Naana
 Non uscirai vivo|a da queste sacre mura!
@@ -18754,28 +18856,86 @@ Yes
 No
 No
 [Map446]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+<<[>>old<<]>>Ruta e Decidueye si sono uniti alla squadra.
+<<[>>old<<]>>Ruta and Decidueye joined the team.
+Molto bene allora! Procediamo insieme in queste stanze, e arriviamo da Raikou!
+Then it’s good! Let’s go on and get to Raikou!
+Come!? Credi di avere un Pokémon che può darci una mano?
+Oh!? You think you have a Pokémon that can help us?
+Non so cosa voglia dire esattamente... Ma potrebbe essere una pista!
+I dunno what that means... But it could be a clue!
+''Le tre bestie proteggono i più antichi villaggi della regione di Eldiw, ma per evitare pericoli, si nascondono e vivono liberamente in più dimensioni''.
+''The three beasts protect the most ancient villages in the Eldiw region,<<n>>but to avoid dangers, they hide and live more freely in multiple dimensions''.
+Quando ero piccolo, Papà mi raccontava delle storie per farmi addormentare. E tra queste mi è tornata in mente una vecchia frase:
+When I was little, daddy would tell me stories to get me to sleep.<<n>>Between those stories, this sentence came back to mind: 
+Lo vedi questo piccolo monumento? A quanto pare è un <b>Portale Dimensionale</b>.
+Do you see this small shrine? Apparently it’s a <b>Dimensional Portal</b>. 
+Anche se ora ci sei entrato anche te, ih ih!
+Although I guess you’re also inside now, tee-hee!
+Queste sono le stanze segrete della Dimora del Cardinale, e io e Papà siamo gli unici a poter entrare in questo luogo!
+These are the secret rooms of the Cardinal’s sanctuary, daddy and I are the only ones that can enter here. 
+Ruta
+Ruta
+Ehi \PN, vieni qui!
+Hey, \PN, come here!
 [Map447]
-<<[>>old<<]>>Il potere scatenato da Raikou vi ha riportati nella dimensione iniziale.
-<<[>>old<<]>>Il potere scatenato da Raikou vi ha riportati nella dimensione iniziale.
+Torniamo all'ingresso della Dimora, speriamo che la furia di Raikou si sia calmata.
+We should go back to the entrance, hoping Raikou’s fury calmed down. Let’s go!
+Papà sarà molto orgoglioso di me...
+Daddy will be really proud of me...
+\PN, non ci credo... ce l'abbiamo fatta! Ce l'abbiamo fatta insieme!Ih ih!
+\PN, I can’t believe it... we did it! We did it together! Tee-hee!
+<<[>>old<<]>>Il Sigillo reagisce.
+<<[>>old<<]>>The Seal is reacting.
+<<[>>old<<]>>Hai completato una Battaglia Furiosa, ottenendo il Pokémon Furia!
+<<[>>old<<]>>You completed a Furious Battle and you got the Fury Pokémon!
+<<[>>old<<]>>Non dimenticare di controllare nei Box del PC!
+<<[>>old<<]>>Go check your Pokémon Boxes!
+<<[>>old<<]>>Hai attivato il Sigillo Furia!
+<<[>>old<<]>>You triggered the Fury Seal!
+<<[>>old<<]>>Raikou chiama in soccorso un Pokémon aiutante.
+<<[>>old<<]>>Raikou calls for an adjutant Pokémon to help
+Forza \PN, sconfiggiamo insieme Raikou! E facciamolo tornare alla normalità!
+Come on, \PN, let’s defeat Raikou and turn him back to normal!
+Ho promesso a Papà di proteggere Ofiuchia e così farò!
+I promised daddy to protect Dorado Village and that’s what I’ll do!
+Ho deciso, questa volta non scapperò come le altre volte.
+I’ve decided, I won’t run like I usually do.
+Ecco perchè l'aspetto è così diverso!
+So that’s why it’s so different!
+C-cosa!? Raikou è stato influenzato da un'energia malvagia chiamata Furia?
+W-what? Raikou is being influenced by an evil energy called Fury?
+Invece adesso... adesso mi fa davvero molta paura...
+But now... now it’s really scary...
+Da quello che mi raccontava Papà, aveva un aspetto solenne.
+From what daddy said he looked solemn.
+M-ma quello non sembrerebbe essere Raikou...
+Uh-oh... That doesn’t look like Raikou at all...
+Ci siamo \PN, Raikou è qui. Ti aspettiamo più avanti.
+Here we are \PN, Raikou is here. I’ll wait for you ahead.
+Ruta
+Ruta
+Raikou
+Raikou
+Decidueye
+Decidueye
+<<[>>old<<]>>Vuoi ritornare?
+<<[>>old<<]>>Would you like to go back?
+[Map448]
+<<[>>old<<]>><b>ATTENZIONE!</b>
+<<[>>old<<]>><b>WARNING!</b>
+<<[>>old<<]>>Stai per affrontare una Battaglia Furiosa. Non potrai utilizzare alcun Rimedio e potrai portare con te solo 3 Pokémon. Vuoi proseguire?
+<<[>>old<<]>>You are going to face a <b>Furious Battle</b>. You won't be able to use any Medicine and you could take only 3 Pokémon with you.\nDo you wish to proceed?
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
 <<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
 Lebi...!
-Sì
-Yes
-No
-No
-[Map448]
-<<[>>old<<]>>...\n...
-<<[>>old<<]>>...\n...
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you like to go back to your dimension?
-Dielebi
-Dielebi
-Lebi...!
-Lebi...!
+<<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
+<<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 Sì
 Yes
 No
@@ -21456,6 +21616,51 @@ Sì
 Yes
 No
 No
+[Map574]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map575]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
+<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
+[Map576]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map577]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map578]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map579]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map580]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map581]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
+<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Sembra esserci un passaggio segreto. Vuoi entrare?
+<<[>>old<<]>>Looks like there’s a secret passage. Do you want to enter?
+Sì	
+Yes	
+No
+No
+Cura Pokémon
+Heal Pokémon
+Usa Box
+Use Box
+[Map582]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
 [1]
 0
 ????????
