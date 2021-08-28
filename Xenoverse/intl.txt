@@ -11953,6 +11953,84 @@ Yes
 Percorso 9
 Route 9
 [Map265]
+Tu
+You
+Ciao \PN!
+Bye!
+Grazie ancora per l'aiuto qui ad Ofiuchia. Non vedo l'ora di sfidarti di nuovo.
+Thanks again for helping out here at Dorado Village.<<n>>I can’t wait to fight you again! 
+Bene, credo che sia ora di tornare nella Giungla Nebulosa!!
+Well, I think it’s time for me<<n>>to go back to Cluster Jungle!!
+Hai davvero amici strani, \PN.
+You’ve really got strange friends, \PN.
+Sayonara, sciocchi umani!
+Sayonara, stupid humans!
+Molto bene, raggiungimi al <b>Circo Sirio</b> ad ovest di Sagittopoli. E fai presto.
+Very good, come with me to <b>Sunshine Circus</b>, west of Vega City. And be quick!
+Sapevo che potevo contare su di te, \PN. Gengah ah ah!
+I knew I could count on you, \PN. Gengah ha ha!
+Agli ordini signorino...!
+At your orders, sir...!
+Guardie! Vi ordino di liberare il Pokémon!
+Guards! I order you to unhand him!
+Sei sicuro|a, \PN?
+Are you sure, \PN?
+Alla fine sei riuscito|a a fermare Dragalisk e l'abominio, no? Sarà sicuramente un gioco da ragazzi per te fermare anche questi due Pokémon. Gengah ah ah!
+You even managed to stop Dragalisk<<n>>and the abomination, no?<<n>>It will surely be a child’s play for you to stop these two Pokémon.<<n>>Gengah ha ha!
+So che abbiamo avuto alti e bassi, però adesso ho davvero bisogno di te \PN...
+I know we’ve had highs and lows, but please, I really need your help now, \PN...
+Ma questi sciocchi esseri umani non vogliono liberarmi!
+But these stupid humans don’t want to free me!
+Ho sentito la tua presenza grazie all'Energia X che possiedi e mi sono subito fiondato qui.
+I felt your presence thanks to the X Energy that you possess and I rushed here.
+Il problema è che durante uno degli spettacoli due Pokémon del Capopalestra hanno perso il controllo. Io sono riuscito a far evacuare gli spettatori... Ma tutta la mia troupe è rimasta bloccata all'interno del Circo!
+The problem is that during one of the performances two of the Gym Leader’s Pokémon lost control.<<n>>I managed to evacuate the audience... but my whole troupe is still stuck in there! 
+Il capopalestra Henné mi ha addirittura dato una seconda chance, e ora che è in viaggio per Cansiria mi ha permesso di gestire alcuni eventi dei suoi spettacoli al circo.
+The Gym leader Henna even gave me a second chance,<<n>>and now that they’re traveling to Fortbelt,<<n>>they’ve asked me to handle some events of their circus shows.
+Sono stato accolto e salvato dal <b>Circo Sirio</b>, Nonostante i miei errori passati. E devo dire che oltre innamorarmi del cibo di questo pianeta, mi sono innamorato anche del mondo dell'intrattenimento! Gengah ah ah!
+I was welcomed and saved by the Sunshine Circus, despite my past mistakes.<<n>>And I have to say that beside falling in love with the food on this planet,<<n>>I fell in love with the world of entertainment too!<<n>>Gengah ha ha!
+Dopo quel che è successo nello Xenoverse sono riuscito ad entrare insieme a voi nel varco di Luxflon. Il caso ha voluto che io finissi a <b>Sagittopoli</b>.
+Right after what happened in the Xenoverse I managed to enter Luxflon’s portal.<<n>>It so happened that I ended up in <b>Vega City</b>.
+Mmh? Cosa sarebbe questa energia Furia? Mi spiace ma non so di che parli.
+Mmh? What is this Fury Energy supposed to be?<<n>>Sorry but I don’t know what you’re talking about.
+In realtà... Sono venuto proprio per chiederti aiuto, \PN.
+Actually... I’m here to ask for your help, \PN.
+Beh, potrei controllarvi in un millesimo secondo per procurarmi del cibo, ma non sono venuto qui per questo. Gengah ah ah!
+Well, I could always control you instantly to get some food,<<n>>but I’m not here for that. Gengah ha ha!
+Tranquilli, stupidi essere umani. Sono venuto qui in pace.
+Quiet, stupid humans. I’m here in peace.
+Oh! Allora i miei sensi sono ancora funzionanti! Sentivo nei dintorni un potere molto simile al tuo, \PN! E io che pensavo di essermi arrugginito. Gengah ah ah!
+Oh! It seems my senses are still on point!<<n>>I felt a power like yours around here, \PN!<<n>>And here I thought I was getting rusty. Gengah ha ha!
+Gengah ah ah! Gli umani mi fanno sempre sbellicare!
+Gengah ha ha! Humans are always so funny!
+Gengar
+Gengar
+Arrenditi! Non puoi sfuggire alle sentinelle di Ofiuchia!
+Surrender! You can’t escape Dorado Village sentinels.
+Frehio
+Frehio
+Andiamo a vedere, Decidueye!
+We should check it out, Decidueye!
+Ma cosa sta succedendo laggiù?
+What’s happening down there?
+Hey, tu! Sei circondato! Arrenditi!
+Hey, you! You’re surrounded! Surrender!
+Sei d'accordo anche tu Decidueye, vero?
+You agree too, right, Decidueye?
+E non solo Ofiuchia, ma tutta la regione di Eldiw, sarà protetta da una persona, ovvero te.
+And mind that not just Dorado Village, but the whole Eldiw region will be protected by one person, you.
+Papà una volta mi disse che prima o poi le tre bestie avrebbero seguito il prescelto...
+Daddy once said that sooner or later the three beasts would have followed the chosen one...
+E' vero, per il nostro popolo questo Pokémon rappresenta un simbolo importante. Ma grazie a te, sono riuscito a crescere e credere di più in me stesso.
+It’s true, for our people this Pokémon represents an important symbol...<<n>>But it’s thanks to you if I managed to grow and believe in myself more. 
+Mi spiace \PN, ma devo rifiutare.
+I’m sorry \PN, but I must refuse.
+C-Cosa?! Vuoi darmi Raikou?
+W-what!? You wanna give Raikou to me?
+<<[>>old<<]>>Porgi la Poké Ball di Raikou a Ruta.
+<<[>>old<<]>>You hand Raikou’s Poké Ball to Ruta.
+Guarda \PN, il tempo è tornato sereno! Questo è un segno positivo per il nostro villaggio!
+Look, \PN, the weather is back to normal! This is a positive sign for our village!
 Vieni quando sei pronto|a.
 Come when you’re ready!
 Io e Decidueye ti aspetteremo nella <b>Dimora del Cardinale</b>.
@@ -13046,6 +13124,14 @@ If you get caught in the crowd, security will come and<<n>>help you. Just hit th
 <<[>>old<<]>>A mysterious energy blocked the way.
 [Map279]
 [Map280]
+Laaxi
+Laaxi
+Kaaxi
+Kaaxi
+Saaxi
+Saaxi
+Abbiamo catturato un intruso ad Ofuchia. Mi dispiace ma da qui non si passa.
+We’ve caught an intruder in Dorado Village. I’m sorry, but you can’t go through here.
 Ginevra
 Kendall
 Non riesco più a trovare la strada... forse una lotta mi farà ragionare a mentre fredda!
@@ -18881,8 +18967,12 @@ Ruta
 Ehi \PN, vieni qui!
 Hey, \PN, come here!
 [Map447]
+Tu
+You
+Andiamo!
+Let’s go!
 Torniamo all'ingresso della Dimora, speriamo che la furia di Raikou si sia calmata.
-We should go back to the entrance, hoping Raikou’s fury calmed down. Let’s go!
+We should go back to the entrance, hoping Raikou’s fury calmed down.
 Papà sarà molto orgoglioso di me...
 Daddy will be really proud of me...
 \PN, non ci credo... ce l'abbiamo fatta! Ce l'abbiamo fatta insieme!Ih ih!
