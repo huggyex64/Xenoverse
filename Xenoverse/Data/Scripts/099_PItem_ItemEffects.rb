@@ -1729,20 +1729,20 @@ ItemHandlers::BattleUseOnBattler.add(:GUARDSPEC,proc{|item,battler,scene|
    end
 })
 
-ItemHandlers::BattleUseOnBattler.add(:POKEDOLL,proc{|item,battler,scene|
-   battle=battler.battle
-   if battle.opponent
-     scene.pbDisplay(_INTL("Can't use that here."))
-     return false
-   else
-     playername=battle.pbPlayer.name
-     itemname=PBItems.getName(item)
-     scene.pbDisplay(_INTL("{1} used the {2}.",playername,itemname))
-     return true
-   end
-})
+#ItemHandlers::BattleUseOnBattler.add(:POKEDOLL,proc{|item,battler,scene|
+#   battle=battler.battle
+#   if battle.opponent
+#     scene.pbDisplay(_INTL("Can't use that here."))
+#     return false
+#   else
+#     playername=battle.pbPlayer.name
+#     itemname=PBItems.getName(item)
+#     scene.pbDisplay(_INTL("{1} used the {2}.",playername,itemname))
+#     return true
+#   end
+#})
 
-ItemHandlers::BattleUseOnBattler.copy(:POKEDOLL,:FLUFFYTAIL,:POKETOY)
+#ItemHandlers::BattleUseOnBattler.copy(:POKEDOLL,:FLUFFYTAIL,:POKETOY)
 
 ItemHandlers::BattleUseOnBattler.addIf(proc{|item|
                 pbIsPokeBall?(item)},proc{|item,battler,scene|  # Any Poké Ball
@@ -1764,12 +1764,12 @@ ItemHandlers::BattleUseOnBattler.addIf(proc{|item|
 # UseInBattle handlers
 #===============================================================================
 
-ItemHandlers::UseInBattle.add(:POKEDOLL,proc{|item,battler,battle|
-   battle.decision=3
-   battle.pbDisplayPaused(_INTL("Got away safely!"))
-})
+#ItemHandlers::UseInBattle.add(:POKEDOLL,proc{|item,battler,battle|
+#   battle.decision=3
+#   battle.pbDisplayPaused(_INTL("Got away safely!"))
+#})
 
-ItemHandlers::UseInBattle.copy(:POKEDOLL,:FLUFFYTAIL,:POKETOY)
+#ItemHandlers::UseInBattle.copy(:POKEDOLL,:FLUFFYTAIL,:POKETOY)
 
 ItemHandlers::UseInBattle.addIf(proc{|item|
   pbIsPokeBall?(item)},proc{|item,battler,battle|  # Any Poké Ball
