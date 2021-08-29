@@ -86,6 +86,130 @@ Alakazam
 Kazam!
 Kazam!
 [Map3]
+Spegnermo tutti gli incendi a Cansiria in men che non si dica!
+We’ll put out all the fires in Fortbelt Town<<n>>in no time at all!
+Quando Silvia urla così forte mi spavento un sacco...
+I always get scared when Minta shouts like that...
+Perfetto. Andiamo!
+Perfect. Let’s go!
+E' giusto prepararsi al meglio prima di una tale battaglia. Ti aspetto.
+Preparing properly before such a fight is right.<<n>>I’ll be waiting.
+Si
+Y-Yes...!
+Sì
+Yes
+No
+No
+Ti senti pronto|a?
+Are you feeling ready?
+Appena ti senti pronto|a, vieni qui da me. Preparati bene. La battaglia non sarà affatto semplice.
+As soon as you’re feeling ready, come here to me.<<n>>You really ought to prepare,<<n>>it won’t be an easy battle..
+\PN, il leggendario Entei si trova nella <b>Dimora del Cardinale</b>. Ma io non riuscirei mai a sconfiggerlo da solo. Per questo chiedo il tuo aiuto.
+\PN, Entei is inside the <b>Cardinal's Palace</b>.<<n>>But I would never be able to defeat it alone.<<n>>This is why I ask you to help me.
+Sto parlando del Pokémon Leggendario <b>Entei</b>. Probabilmente a causa dell'Energia Furia, la bestia è adirata e ha perso il controllo, proprio come il Buster di Silvia.
+I’m talking about the Legendary Pokémon <b>Entei</b>.<<n>>Probably, due to the Fury Energy,<<n>>the beast is ireful and has lost control,<<n>>just like Minta’s Buster. 
+Da quel che ho sentito dai cittadini del villaggio, potrebbe essere opera della Bestia che protegge tutta Cansiria.
+From what,<<n>>I’ve heard from the villagers,<<n>>it could be the work of the Beast<<n>>that protects all of Fortbelt Town.
+Siamo stremati ormai...
+We’re exhausted…
+Gli incendi,seppur siano gestiti dal sottoscritto o dalla S.P.E.T.T.R.I, non accennano a diminuire.
+The fires,<<n>>even if being handled by me or the G.E.I.S.T.,<<n>>are not decreasing in the least.
+Si \PN. Oleandro mi ha già raccontato qualcosa al riguardo, ma non l'avevo mai vista in azione prima d'ora. E ora la situazione qui a Cansiria è estremamente preoccupante.
+Yes, \PN. Abraham had already told me something about it,<<n>>but this is the first time I see it in action.<<n>>And now the situation here in Fortbelt Town<<n>>is extremely worrying. 
+E quindi questa sarebbe l'energia Furia di cui mi parlava Oleandro...
+So this is the Fury Energy Abraham was talking about…
+A-agli ordini, Silvia.
+Y-yes, Minta! 
+Hey chico! Torniamo immediatamente al lavoro! Dobbiamo spegnere questi incendi!
+Hey chico! Let’s go back to work!<<n>>We need to put out these fires!
+Credo proprio che al mio Pokémon non serva un potere così pericoloso, è meglio se la tieni tu, \PN! Un piccolo omaggio per aver salvato il mio amigo!
+I really think my Pokémon<<n>>doesn’t need a power so dangerous,<<n>>it’s better if you take it, \PN!<<n>>A small gift for saving my amigo!
+Ah! Quindi è causa di questa gemma se il mio Buster si è trasformato?
+Ah! So this gem is the cause for Buster’s transformation?
+Hm!? E questa gemma luccicante che sarebbe?
+Hm!? What’s this twinkling gem? 
+Per un attimo ho temuto il peggio... Ma come al solito la tua potenza siempre me asombra.
+I panicked for a second...<<n>>But as usual your prowess siempre me asombra.
+Muchas gracias \PN! Non so davvero come ringraziarti per aver salvato il mio Buster!
+Muchas gracias, \PN!<<n>>I can’t find the words to thank you for saving Buster!
+Sei stato formidabile, \PN!
+You were amazing, \PN!
+Ottimo lavoro, \PN.
+Good work,\PN.
+Scampato pericolo.
+Danger avoided. 
+<<[>>old<<]>>Hai attivato il Sigillo Furia!
+<<[>>old<<]>>You triggered the Fury Seal!
+Salva il mio povero Buster!
+Save my poor Buster!
+Ti prego \PN, aiutami!
+I beg you \PN, help me!
+Attenta, Silvia! Se Buster non è in sé potrebbe essere pericoloso! Spostati da lì!
+Beware, Minta!<<n>>If Buster’s out of it it might be dangerous! Get away!
+Il tuo aspetto è cambiato... Dove sono finiti i tuoi cannoni prostetici?
+You’ve changed...<<n>>Where are your prosthetic cannons?
+Buster! Que te pasa?
+Buster! Que te pasa?
+Hey amigo! Todo bien? Hai davvero una brutta cera...
+Hey amigo! Todo bien? You’re not looking too well...
+Non so esattamente cosa stia succedendo, ma non abbiamo mai visto così tanti fenomeni paranormali nel giro di poche settimane!
+I’m not really sure<<n>>about what’s going on,<<n>>but we’ve never seen so many paranormal phenomenons<<n>>in so few weeks!
+Como puedes ver, \PN, oggi siamo solo io, Will e Buster. Sono arrivate richieste da tutta la regione e le persone hanno bisogno di noi.
+Como puedes ver, \PN,<<n>>today it’s just me, Will and Buster.<<n>>Many requests came in from the whole region<<n>>and people needed us.
+Si sono verificati grossi incendi in tutto il villaggio. Per questo ho deciso di chiamare la S.P.E.T.T.R.I, che è venuta subito in mio soccorso.
+Large fires occurred throughout the village.<<n>>This is why I decided to call the G.E.I.S.T. for help,<<n>>which came to my rescue immediately.
+Come puoi vedere, anche qui a Cansiria la situazione non è delle migliori.
+As you can see,<<n>>it’s not much better here in Fortbelt Town.
+Siete riusciti a calmare i miei due Pokémon, ma il Circo Sirio è andato distrutto...
+You managed to calm down my two Pokémons,<<n>>but Sunshine Circus was destroyed...
+Capisco...
+I see...
+<<[>>old<<]>>Spieghi ciò che è accaduto a Sagittopoli...
+<<[>>old<<]>>You explain what happened in Vega City...
+Che ci fai da queste parti?
+What’re you doing ‘round here?
+\PN, sei qui anche tu! Da quanto tempo!
+\PN, you’re here too! It’s been too long!
+Andiamo! Dobbiamo continuare a domare le fiamme!
+Let’s go! We must keep taming these flames!
+Beh,l'unione fa la forza, dico bene?
+Well, there’s strength in numbers, right?
+Anche il mio Buster è molto più stanco del solito...
+Even my Buster is more tired than usual...
+Henné, dobbiamo ringraziare anche te. La tua padronanza del Fuoco ci è di grande aiuto in questa situazione critica!
+Henna,<<n>>we’ve got to thank you too.<<n>>Your ability in handling Fire<<n>>is of great help in this critical situation!
+Da quando hai preso coraggio non ti ferma più nessuno!
+Since you got brave no one’s stopping you anymore!
+Certo! Nonostante la squadra non sia al completo, ce la stiamo mettendo tutta!
+Sure!<<n>>Even if the team is not complete,<<n>>we’re doing our best!
+O no, Will?
+Am I right, Will?
+No hay problema! La S.P.E.T.T.R.I è sempre pronta ad aiutare il prossimo!
+No hay problema!<<n>>G.E.I.S.T. is always ready to help others!
+Grazie, ragazzi. Ci state davvero aiutando a domare questo incendio!
+Thanks, guys.<<n>>You’re really helping us out here with this fire!
+Henné
+Henna
+Will
+Will
+Buster
+Buster
+Silvia
+Minta
+La mia casa va a fuoco! Aiuto!
+My house is on fire! Help!
+Questo caldo è straziante! Menomale che è arrivata la S.P.E.T.T.R.I a spegnere questo incendio.
+This heat is harrowing!<<n>>Thankfully the G.E.I.S.T. came to put out the fire.
+Aiuto! La città va in fiamme...!
+Help! The village’s up in flames...!
+Che caldo...
+Hot...
+Mi dispiace, ma per ordini dall'alto, non è possibile entrare.
+I’m sorry, but due to orders from above it is not possible to enter.
+Sto dando una mano anche io a spegnere questi incendi.
+I’m trying to lend a hand too to stop these fires.
+<<[>>old<<]>>Il tempo è cambiato a Cansiria. Il calore è così elevato che non ti permette più di utilizzare Volo.
+<<[>>old<<]>>The weather changed in Fortbelt Town. The heat is so high that you can’t use Fly anymore.
 <<[>>old<<]>>Palazzo del Cardinale
 <<[>>old<<]>>Cardinal's Palace
 <<[>>old<<]>>Casa dell'Insegnamosse
@@ -4577,7 +4701,7 @@ Take this \PN. I’m sure it will be safe with you.
 Non ho mai visto un potere così terribile e brutale... Non voglio più averci niente a che fare. Anche il mio animo di quercia vacilla davanti a un fenomeno così tremendo.
 I’ve never seen a power so brutal and terrible… I never wanna have anything to do with it again.<<n>>Even my oak’s spirit falters before a phenomenon as tremendous as this.
 Oh \PN, non so davvero come ringraziarti! La natura stava piangendo dinanzi a questo triste spettacolo e alla sofferenza del mio Pokémon... Hai tutta la mia riconoscenza!
-Oh \PN, I really don’t know how to thank you!Nature was crying<<n>>before such a sad spectacle and the suffering of my Pokémon…<<n>>you have my gratitude! 
+Oh \PN, I really don’t know how to thank you!<<n>> Nature was crying before such a sad spectacle <<n>>and the suffering of my Pokémon...<<n>>you have my gratitude!
 <<[>>old<<]>>Hai attivato il Sigillo Furia!
 <<[>>old<<]>>You triggered the Fury Seal!
 <<[>>old<<]>>Venusaur sta per attaccare!
@@ -5223,6 +5347,14 @@ Yes
 No
 No
 [Map104]
+<<[>>old<<]>>Henné si è unito alla squadra.
+<<[>>old<<]>>Henna joined the team.
+\PN, più avanti incontreremo il Pokémon Leggendario. Diamoci una mossa e salviamo Cansiria da questo inferno.
+\PN, ahead we’ll find the Legendary Pokémon.<<n>>Let’s move and save Fortbelt Town from this hell. 
+Ed è anche la dimora di Entei.
+And it’s also the dwelling of Entei.
+Questo è il <b>Palazzo del Cardinale</b>. Questo luogo di culto di Cansiria è protetto dal Cardinale Oleandro.
+This is the <b>Cardinal's Palace</b>.<<n>>This place of worship is protected by Cardinal Abraham.
 Oleandro
 Abraham
 ...
@@ -6723,6 +6855,8 @@ Yes
 No
 No
 [Map150]
+Maurice
+Chrysler
 Miltank
 Miltank
 Muuu...!
@@ -18954,27 +19088,21 @@ Yes
 No
 No
 [Map444]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map445]
+<<[>>old<<]>><b>ATTENZIONE!</b>
+<<[>>old<<]>><b>WARNING!</b>
+<<[>>old<<]>>Stai per affrontare una Battaglia Furiosa. Non potrai utilizzare alcun Rimedio e potrai portare con te solo 3 Pokémon. Vuoi proseguire?
+<<[>>old<<]>>You are going to face a <b>Furious Battle</b>. You won't be able to use any Medicine and you could take only 3 Pokémon with you.\nDo you wish to proceed?
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
 <<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
 Lebi...!
-<<[>>old<<]>>Il potere scatenato da Entei vi ha riportati nella dimensione iniziale.
-<<[>>old<<]>>Il potere scatenato da Entei vi ha riportati nella dimensione iniziale.
-Sì
-Yes
-No
-No
-[Map445]
-<<[>>old<<]>>...\n...
-<<[>>old<<]>>...\n...
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you like to go back to your dimension?
-Dielebi
-Dielebi
-Lebi...!
-Lebi...!
+<<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
+<<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 Sì
 Yes
 No
@@ -21744,6 +21872,79 @@ Sì
 Yes
 No
 No
+[Map567]
+Anf...Anf...\PN.
+Anf...Anf...\PN.
+Ce l'abbiamo fatta!
+We made it!
+Tu
+You
+La temperatura sta scendendo rapidamente.
+The heat’s decreasing rapidly.
+Direi di uscire subito e vedere se la situazione è migliorata.
+I’d say we should get out<<n>>and see if the situation is any better.
+Andiamo!
+Let’s go!
+<<[>>old<<]>>Il Sigillo reagisce.
+<<[>>old<<]>>The Seal is reacting.
+<<[>>old<<]>>Hai completato una Battaglia Furiosa, ottenendo il Pokémon Furia!
+<<[>>old<<]>>You completed a Furious Battle and you got the Fury Pokémon!
+<<[>>old<<]>>Non dimenticare di controllare nei Box del PC!
+<<[>>old<<]>>Go check your Pokémon Boxes!
+<<[>>old<<]>>Hai attivato il Sigillo Furia!
+<<[>>old<<]>>You triggered the Fury Seal!
+<<[>>old<<]>>Entei chiama in soccorso un Pokémon aiutante.
+<<[>>old<<]>>Entei calls for an adjutant Pokémon to help.
+Non c'è più tempo da perdere. Forza \PN, fermiamo Entei e salviamolo dall'Energia Furia!
+There’s no time to lose.<<n>>Come on, \PN, let’s stop Entei<<n>>and save him from the Fury Energy!
+Dannazione! La temperatura continua a salire, e non abbiamo più via di fuga.
+Damn it! The temperature<<n>>keeps rising and we don’t have any way out.
+Non ho mai visto fiamme di tale intensità in tutta la mia vita.
+I’ve never seen such flames in my whole life...
+Come immaginavo...Anche lui sembra sotto il pieno controllo dell'Energia Furia.
+Just as I thought...<<n>>It looks like<<n>>he’s under the Fury Energy’s control too.
+Entei dovrebbe trovarsi più avanti. Andiamo!
+Entei should be further ahead.<<n>>Let’s go!
+La temperatura è altissima, è come essere all'inferno stesso.
+The heat is excruciating,<<n>>it’s like being in hell itself.
+Questa dovrebbe essere l'ultima stanza del Palazzo.
+This should be the last room of the Palace.
+<<[>>old<<]>>Vuoi ritornare?
+<<[>>old<<]>>Would you like to go back?
+Henné
+Henna
+[Map568]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map569]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map570]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map571]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map572]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map573]
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
+Cura Pokémon
+Heal Pokémon
+Usa Box
+Use Box
+Sì
+Yes
+No
+No
+<<[>>old<<]>>Questo masso si può spostare. Vuoi usare Forza?
+<<[>>old<<]>>It seems you can push this boulder aside. Would you like to use the power of Herculeum H?
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
 [Map574]
 <<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
 <<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
@@ -21826,6 +22027,9 @@ Hmpf, ce n'è di lavoro da fare...
 Hmpf, there’s a lot of work to do...
 \PN! Usciamo un attimo fuori, devo parlarti.
 \PN! Come outside for a second,<<n>>I need to talk to you.
+[Map590]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
 [1]
 0
 ????????
