@@ -14725,6 +14725,44 @@ Advisy
 Non so se quel mostro esista davvero o meno, ma io mi terrei comunque alla larga dalle fogne!
 I don't know whether or not that monster exists,<<n>>I'd stay away from sewers anyway!
 [Map317]
+Mi sento davvero un essere infimo a chiedertelo... Ma ho bisogno ancora del tuo aiuto.
+I’m feeling really bad about it,<<n>>but I have to ask for your help again. 
+Non vorrei dare una notizia così negativa alla Troupe, ma i danni dei Charizard sono stati ingenti.
+I’m not willing to give such bad news to the Troupe,<<n>>but the Charzard have done a lot of damage.
+Credo proprio che ci vorrà tanto tempo per ricostruire il Circo Sirio, e questo contando anche i miei poteri psichici.
+I think it will take some time<<n>>to get the Sunshine Circus back on its feet,<<n>>and this is counting my psychic powers.
+Però ho davvero bisogno di qualcuno che vada da Henné a dirgli ciò che è successo.  
+However I really need someone to go<<n>>and tell Henna what happened.
+E anche a rassicurarlo sul fatto che ora i suoi Pokémon stanno bene.
+And also to reassure them about their Pokémon. 
+A quanto pare, si è diretto tempestivamente a <b>Cansiria</b>, ma non so per quale motivo in particolare.
+Apparently, they headed to <b>Fortbelt Town</b> in a hurry,<<n>>but I don’t know why exactly.
+Ho davvero un brutto presentimento.
+I have a really bad feeling. 
+Nel dubbio,
+I suggest,
+ti consiglio di sfruttare le Megapietre che ti ho regalato, magari ti saranno utili nel viaggio. Gengah ah ah!
+you make use of those Mega Stones I gave you,<<n>>they might come in handy. Gengah ha ha!
+Buona fortuna, moccioso|a.
+Good luck, brat.
+Henné è andato a <b>Cansiria</b>. Raggiungilo il prima possibile e avvisalo della situazione del Circo Sirio.
+Henna headed for Fortbelt Town.<<n>>Get to them as soon as possible<<n>>and tell him about what happened here.
+Buona fortuna, moccioso|a.
+Good luck, brat.
+Tsk. Sbrigati.
+Tsk. Hurry up.
+Perfetto. Andiamo!
+Good. Let’s go!
+Sì
+Yes
+No
+No
+Allora, sei pronto|a ad entrare?
+So, you ready to enter?
+Oh, eccoti \PN.
+Oh, here you are \PN. 
+Gengar
+Gengar
 Aria
 Skyler
 Mi spiace, ma in questo momento non è possibile entrare nel Circo Sirio.
@@ -21751,6 +21789,43 @@ Use Box
 [Map582]
 <<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
 <<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map589]
+<<[>>old<<]>>Aiutateci, vi prego!
+<<[>>old<<]>>I beg you, help us!
+Tsk. La situazione si è fatta più scottante di quanto pensassi.
+Tsk. The situation has become more heated than I thought. 
+Stanno arrivando.
+They’re coming.
+Questi sono i Charizard del Capopalestra Henné. Come vedi, oltre ad esser diventati molto piu' potenti, hanno anche cambiato la loro fisionomia. Che Pokémon strani!
+These are the Gym Leader Henna’s Charzard...<<n>>As you can see, aside from getting much more powerful,<<n>>they’re look has changed too,<<n>>what strange Pokémons!
+Ah? quindi questa sarebbe l'energia Furia di cui mi hai anticipato a Ofiuchia?
+Ah? So this is supposed to be the Fury Energy<<n>>you told me about in Dorado Village?
+Che potere davvero interessante...
+Very interesting...
+\PN, preparati. Stanno per attaccarti!
+\PN, get ready. They’re about to attack you! 
+<<[>>old<<]>>Hai attivato il Sigillo Furia!
+<<[>>old<<]>>You triggered the Fury Seal!
+C'era da aspettarselo. Gengah ah ah!
+This was to be expected. Gengah ha ha!
+Abbiamo immediatamente ricatturato i Charizard per impedire che facciano altri danni.
+We immediately recaptured the Charizard<<n>>to prevent them from doing any further damage.
+Purtroppo però... Hanno ridotto il Circo Sirio a uno straccio. Ci sarà molto lavoro da fare.
+However...<<n>>The Sunshine Circus was reduced to a rag.<<n>>There’s a lot of work to do.
+Mmh? Cosa sono queste gemme scintillanti sul pavimento?
+Mmh? What are these gems on the floor? 
+Sembrano proprio adatte a un Re come il sottoscritto! Gengah ah ah!
+They look like they’d fit a King like myself!<<n>>Gengah ha ha!
+Ah? Quindi queste sarebbero delle Megapietre?
+Ah? So these are the so-called Mega Stones?
+Tsk. Visto che ci hai aiutato, te le regalo.
+Tsk. Seeing as you helped us, you can take them.
+Acchiappa al volo!
+Catch!
+Hmpf, ce n'è di lavoro da fare...
+Hmpf, there’s a lot of work to do...
+\PN! Usciamo un attimo fuori, devo parlarti.
+\PN! Come outside for a second,<<n>>I need to talk to you.
 [1]
 0
 ????????
