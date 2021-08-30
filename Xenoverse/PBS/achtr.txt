@@ -306,3 +306,7 @@ Furia di Sangue
 Bloody Fury
 Sconfiggi la Furia Greninja X.
 Defeat the Fury Pokémon Greninja X.
+Furia Bestiale
+Bestial Fury
+Sconfiggi i Tre Cani Leggendari.
+Defeat the Three Legendary Dogs.

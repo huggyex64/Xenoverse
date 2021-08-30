@@ -2532,6 +2532,64 @@ Yes
 No
 No
 [Map41]
+Gold
+Gold
+Claudio
+Ginger
+Versil
+Versil
+Tu
+You
+Non so se sia testardaggine o determinazione, ma sicuramente non ti abbandona mai, vecchio mio.
+I don’t know if it’s stubbornness or determination,<<n>>but it doesn’t ever leave you, old friend.
+Oh! Ben arrivato, \PN.
+Oh! Welcome, \PN.
+\PN, Aster e Gold mi hanno raccontato tutto ciò che è successo... 
+\PN, Aster and Gold<<n>>told me everything that happened...
+Mi spiace che per colpa mia questo potere sia arrivato sulla Terra...
+I’m sorry that this power<<n>>came to Earth because of me...
+Versil...
+Versil...
+In realtà io avrei una teoria più sensata sul principio della Furia.
+To be honest,<<n>>I have a more sensible theory on the Fury principle.
+Credo che sia nato con l'arrivo delle Specie X nella regione. Pensateci... Elekid X con l'incendio a Balansopoli,
+I have reason to believe that<<n>>it came to be when X Species started coming to the region.<<n>>Think about it...<<n>>Elekid X and the fire in Hadwarf City,
+o Sharpedo X con l'attacco sulla Motonave Cometa, come mi ha raccontato Tarassaco.
+or Sharpedo X and the attack on the ship,<<n>>as Taraxo told me.
+O addirittura, Versil, la furia del tuo Mewtwo X.
+Or even, Versil,<<n>>the Fury of your Mewtwo X.
+Insomma, è un potere che esiste già da tempo, e che con la lotta nello Xenoverse non ha fatto altro che intensificarsi di più.
+In conclusion,<<n>>it’s a power that has existed for some time now,<<n>>and that with the fight in the Xenoverse<<n>>it just intensified.
+Il mio dubbio è... Potrebbe prendere il sopravvento anche sugli esseri umani?
+My doubt is...<<n>>Could it take over humans too?
+Proprio com'è successo con te, Versil... Questo rimane ancora un mistero...
+Just like what happened to you, Versil...<<n>>This remains a mystery.
+...
+...
+Forse stiamo giocando con il fuoco, e rischiamo di bruciarci. Ci stiamo esponendo fin troppo a questo potere. Se non stiamo attenti, potremmo diventare un pericolo non solo per la nostra regione, ma anche per il mondo intero.
+Maybe we’re playing with fire,<<n>>and we’re risking a burn.<<n>>We’re exposing ourselves a lot to this power.<<n>>If we’re not careful,<<n>>we might become dangerous not only for our region,<<n>>but for the whole world.
+<<[>>old<<]>>Ti fissano tutti con aria preoccupata.
+<<[>>old<<]>>Everyone looks at you with a worried face.
+Beh, è inutile fasciarci la testa! Sicuramente adesso abbiamo molte più informazioni che ci potranno essere utili.
+Well, it’s useless to worry<<n>>about something that hasn't happened yet!<<n>>Surely now we have a whole lot of informations<<n>>that will be useful to us. 
+Bisogna rimboccarsi le maniche e continuare a lottare per arginare questo fenomeno!
+We gotta roll up our sleeves<<n>>and continue to fight to stop this phenomenon!
+Concordo con te, Aster. Da oggi anche io vi darò una mano, costi quel che costi.
+I agree, Aster. From now on I too<<n>>will help you with all myself.
+Molto bene! Ora torniamo al lavoro!
+Very good!<<n>>Now, let’s get back to work!
+\PN, ora che possiedi il potere della Megaevoluzione e il sacro potere delle tre bestie, hai sicuramente ottenuto un potere essenziale per salvaguardare tutta la regione.
+\PN, now that you hold the power of Mega Evolution<<n>>and the three sacred beasts,<<n>>you surely have more power to look over the region.
+Sii prudente, però. La Furia è sempre vicina e si evolve in fretta. Non sottovalutarla mai.
+But be careful.<<n>>The Fury is always near and it keeps evolving.<<n>>Never underestimate it.
+Per Aspera Ad Astra!
+Per Aspera Ad Astra!
+<<[>>old<<]>>Hai concluso il Pass numero 2 delle Battaglie Furiose. Congratulazioni!
+<<[>>old<<]>>You finished Pass 2. Congratulations!
+Hey, \PN, come te la passi?
+Hey, \PN, how are you doing?
+Qui c'è tanto lavoro da fare... Ma nel frattempo, io e Aster ci alleniamo anche con i nostri Pokémon!
+Here there’s always<<n>>a lot of work to do...<<n>>But sometimes Aster and I<<n>>take some time to train with our Pokémons!
 Camilla
 Katie
 Questo laboratorio è immenso! Se solo avessi la mia Pokébambola con me...
@@ -12190,7 +12248,7 @@ I felt your presence thanks to the X Energy that you possess and I rushed here.
 Il problema è che durante uno degli spettacoli due Pokémon del Capopalestra hanno perso il controllo. Io sono riuscito a far evacuare gli spettatori... Ma tutta la mia troupe è rimasta bloccata all'interno del Circo!
 The problem is that during one of the performances two of the Gym Leader’s Pokémon lost control.<<n>>I managed to evacuate the audience... but my whole troupe is still stuck in there! 
 Il capopalestra Henné mi ha addirittura dato una seconda chance, e ora che è in viaggio per Cansiria mi ha permesso di gestire alcuni eventi dei suoi spettacoli al circo.
-The Gym leader Henna even gave me a second chance,<<n>>and now that they’re traveling to Fortbelt,<<n>>they’ve asked me to handle some events of their circus shows.
+The Gym leader Henna even gave me a second chance,<<n>>and now that they’re traveling to Fortbelt Town,<<n>>they’ve asked me to handle some events of their circus shows.
 Sono stato accolto e salvato dal <b>Circo Sirio</b>, Nonostante i miei errori passati. E devo dire che oltre innamorarmi del cibo di questo pianeta, mi sono innamorato anche del mondo dell'intrattenimento! Gengah ah ah!
 I was welcomed and saved by the Sunshine Circus, despite my past mistakes.<<n>>And I have to say that beside falling in love with the food on this planet,<<n>>I fell in love with the world of entertainment too!<<n>>Gengah ha ha!
 Dopo quel che è successo nello Xenoverse sono riuscito ad entrare insieme a voi nel varco di Luxflon. Il caso ha voluto che io finissi a <b>Sagittopoli</b>.
@@ -14929,6 +14987,8 @@ Advisy
 Non so se quel mostro esista davvero o meno, ma io mi terrei comunque alla larga dalle fogne!
 I don't know whether or not that monster exists,<<n>>I'd stay away from sewers anyway!
 [Map317]
+<<[>>old<<]>>ATTENZIONE!\nIl Circo Sirio è attualmente chiuso a causa di danni interni. La riapertura è prevista a breve. Ci scusiamo per il disagio.
+<<[>>old<<]>>ATTENTION!\nThe Sunshine Circus is currently closed due to internal damage.<<n>>The reopening is expected shortly.<<n>>We’re sorry for the discomfort.
 Mi sento davvero un essere infimo a chiedertelo... Ma ho bisogno ancora del tuo aiuto.
 I’m feeling really bad about it,<<n>>but I have to ask for your help again. 
 Non vorrei dare una notizia così negativa alla Troupe, ma i danni dei Charizard sono stati ingenti.
@@ -16176,6 +16236,52 @@ Yes
 No
 No
 [Map346]
+Aster
+Aster
+Gold
+Gold
+Oh, eccoti, \PN!
+There you are, \PN!
+Questa struttura che vedi è <b>La Pagoda del Cardinale</b>. Luogo di culto di Tauronordia, protetta dal Cardinale Castalia.
+This structure in front of you<<n>>is the <b>Cardinal’s Pagoda</b>.<<n>>This place of worship in Borealis City<<n>>is protected by the Cardinal Niva.
+Ma soprattutto... Dimora della <b>Bestia Leggendaria Suicune</b>.
+But moreover...<<n>>It's the dwelling of the <b>Legendary Beast Suicune</b>.
+Devi sapere, \PN, che i cani leggendari non vengono dalla regione di Eldiw. Vengono dalla regione nativa mia e di tuo padre...<b>Johto</b>.
+You have to know, \PN, that the legendary dogs<<n>>do not come from the Eldiw region.<<n>>They’re from your father’s<<n>>and my native region...<b>Johto</b>.
+Però la creazione dei varchi dimensionali, causata dell'energia terrestre e xenoverse, ha permesso l'arrivo di tre nuove bestie provenienti da dimensioni a noi sconosciute.
+However the creation of dimensional portals<<n>>caused by the Xenoverse and Terrestrial energy<<n>>has allowed three new beasts<<n>>to come here from different dimensions.
+Nel corso del tempo hanno protetto i tre villaggi sacri di Eldiw, divenendone i patroni: Ofiuchia, Cansiria e, per finire, Tauronordia.
+With time,<<n>>they protected the three sacred villages in Eldiw,<<n>>becoming their patrons:<<n>>Dorado Village, Fortbelt Town and Borealis City.
+La forza di queste bestie è leggendaria. Per questo, solo allenatori di un certo calibro come me, tuo padre e Aster, possono contenere questi Pokémon.
+The strength of these three beasts is legendary.<<n>>Because of this,<<n>>only skilled Trainers such as myself,<<n>>your father and Aster can contain these Pokémon.
+Ma questa cosidetta ''Energia Furia'', li manda fuori controllo, permettendo alle bestie di ottenere un potere inimmaginabile, tale da causare cataclismi e disastri ambientali.
+But this so-called ''Fury Energy''<<n>>sends them out of control,<<n>>allowing the beasts to obtain<<n>>an immeasurable power,<<n>>so much that it can cause<<n>>cataclysms and environmental disasters. 
+E <b>Suicune</b>, la Bestia leggendaria protettrice di Tauronordia, è la più pericolosa tra i tre. E ora che è fuori controllo è così forte che neanche io sono in grado di contrastarlo.
+And <b>Suicune</b>,<<n>>the Legendary Beast protecting Borealis City,<<n>>is the most perilous out of the three.<<n>>And now that it’s out of control<<n>>it’s so strong that not even<<n>>I am able to put a stop to it. 
+\PN, solo tu poi sconfiggere la sacra bestia e far tornare Eldiw alla normalità.
+\PN, you’re the only one<<n>>who can defeat the sacred beast<<n>>and make Eldiw go back to normal.
+Suicune ha già attaccato Tauronordia, impedendo il passaggio all'interno della Pagoda del Cardinale.
+Suicune has already<<n>>attacked Borealis City,<<n>>blocking the passage<<n>>to the entrance of the Cardinal’s Pagoda.
+Sono sicuro che il mio tirocinante si trovi lì dentro. Dobbiamo assolutamente sciogliere questo masso di ghiaccio e salvarlo.
+I’m sure that my trainee<<n>>is inside there.<<n>>We must absolutely melt this ice boulder<<n>>and save him.
+Credo che serva un Pokémon abbastanza forte da contrastare la forza di Suicune. Forse solo così sarà possibile sciogliere questo enorme masso di ghiaccio.
+I think we’ll need a Pokémon strong<<n>>enough to put up a fight with Suicune.<<n>>Maybe then it will be possible<<n>>to melt this enormous ice boulder. 
+\PN, sicuramente troverai il modo per sciogliere questi massi di ghiaccio.
+\PN, I’m sure you’ll find a way<<n>>to melt this boulder.
+Nel frattempo, io e Gold andremo a dare una mano ai cittadini di Tauronordia per cercare di diminuire i danni.
+In the meantime, me and Gold<<n>>will lend a hand to the people of Borealis City<<n>>to try and decrease the damage.
+Occhi aperti!
+Keep your eyes open!
+<<[>>old<<]>>Il potere della Megaevoluzione di Entei reagisce con i blocchi di ghiaccio. Vuoi utilizzare la potenza delle sue fiamme?
+<<[>>old<<]>>The power of Entei’s Mega Evolution is reacting with the ice boulders. Would you like to use the potency of its flames? 
+Sì
+Yes
+No
+No
+<<[>>old<<]>>Le parole di Gold rimbombano: Probabilmente serve un Pokémon abbastanza forte da contrastare Suicune. Forse così sarà possibile sciogliere questo enorme masso di ghiaccio.
+<<[>>old<<]>>Gold’s words are echoing:<<n>>''We’ll need a Pokémon strong enough<<n>>to put up a fight with Suicune.<<n>>Maybe then it will be possible<<n>>to melt this enormous ice boulder''.
+<<[>>old<<]>>La bufera di neve è fortissima. Non è possibile utilizzare Volo.
+<<[>>old<<]>>The snow storm is too strong. It’s not possible to use Fly.
 Huang
 Huang
 Chiedo venia, ma le stanze della Pagoda sono inaccessibili senza il permesso del Cardinale.
@@ -18361,6 +18467,8 @@ No
 <<[>>old<<]>>Una spessa parete intralcia il passaggio. Forse l'aura di un Pokémon argenteo potrebbe sbloccarlo...
 <<[>>old<<]>>A thick wall is blocking the way. Maybe the aura from a silver Pokémon could take it down.
 [Map407]
+<<[>>old<<]>>Forse non è il momento...
+<<[>>old<<]>>Maybe it’s not the right time...
 ???
 ???
 ... ... ... ... ... ... ... ... ...
@@ -18682,6 +18790,48 @@ Defeat is nothing but education.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
 [Map416]
+Aster
+Aster
+Tu
+You
+Claudio
+Ginger
+Hey, ma... Dove ci troviamo?
+Uh... Where are we?
+Ben svegliati, dormiglioni... Tranquilli, siete al sicuro adesso!
+Good morning,<<n>>you sleepyheads.<<n>>Don’t worry, you’re safe now!
+Vi ho trovato svenuti ed esausti fuori dalla Pagoda del Cardinale. Penso proprio che Dielebi vi abbia salvato la pelle!
+I found you exhausted<<n>>outside the Cardinal’s Pagoda.<<n>>I think Dielebi saved your skin!
+M-Ma quindi...
+D-does this mean...
+Sì...Claudio. Ce l'avete fatta, avete sconfitto la furia e salvato la regione!
+Yes...Ginger. You made it,<<n>>you defeated the Fury and saved the region.
+Tauronordia è salva, compreso i cittadini. Grazie a voi che vi siete occupati di Suicune, io e Gold siamo riusciti a prenderci cura di tutti quanti.
+Borealis City is saved,<<n>>citizens included.<<n>>Thanks to you guys handling Suicune,<<n>>Gold and I were able to take care of everyone. 
+\PN... Siamo davvero un duo formidabile! Evvai!
+\PN...<<n>>We’re a wonderful duo! Yes! 
+Senza il tuo aiuto, non ce l'avremmo mai fatta... Dico davvero!
+Without your help,<<n>>I would’ve never made it... I’m serious!
+Ero in pena per voi... Però pensandoci, chi avrebbe avuto più chance del prescelto e del mio tirocinante!
+I was worried for you...<<n>>but thinking back on it,<<n>>who would’ve had more chances<<n>>than the chosen one and my trainee!
+Ah, vuoi sapere perchè è il mio tirocinante? Effettivamente non abbiamo avuto tempo di parlare di buone notizie...
+Ah,<<n>>you wanna know why he’s my trainee?<<n>>Well, we didn’t really have time<<n>>to talk about good news...
+Ma da quando Claudio ha terminato gli studi con voti eccellenti, ho deciso di prenderlo sotto la mia ala. E mi sembra di aver fatto la scelta giusta! 
+But since Ginger graduated with the top score,<<n>>I decided to take him under my wing.<<n>>And looks like my decision was spot on!
+Mi ricorda la mia gioventù, quando anche io studiavo al Campus di Ariepoli.
+He reminds me of my youth,<<n>>when I was studying at Newtron’s campus.
+Devo dire che con il Professor Aster, s'impara ogni giorno qualcosa, e-...!
+And I have to say that with Professor Aster<<n>>you learn something everyday,and-...!
+Anf...Anf...!
+Anf...Anf...!
+Claudio, ti vedo ancora un po' provato... Perchè non torni a Balansopoli con me? Così potrai riposarti ancora un po'.
+Ginger,<<n>>I see you’re not fully recovered yet.<<n>>Why don’t you come back to Hadwarf City with me?<<n>>This way you can rest some more.
+Direi che è la scelta migliore.
+I think it’s the wisest choice.
+\PN, sono sicuro che anche tu hai bisogno di riposarti! Io ti aspetto nel Laboratorio di Balansopoli.
+\PN, I’m sure you need some rest too!<<n>>I’ll be waiting at the Laboratory in Hadwarf City.
+A presto!
+See you!
 Eusen
 Eusen
 Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
@@ -19274,35 +19424,161 @@ No
 [Map454]
 [Map455]
 [Map456]
+Aster
+Aster
+Claudio
+Ginger
+\PN, sapevo che potevo contare su di te. Finalmente siamo riusciti a entrare nella Pagoda del Cardinale.
+\PN, I knew I could count on you.<<n>>Finally we managed to enter the Cardinal’s Pagoda. 
+Gold è rimasto all'esterno per salvaguardare gli abitanti.
+Gold stayed outside to help the citizens.
+Il mio tirocinante dovrebbe essere più avanti. Forza, andiamo a vedere se sta bene!
+My trainee should be further ahead.<<n>>Come on, let’s go check on him!
+Tsk…
+Tsk…
+Claudio... che sollievo! Stai bene?
+Ginger...<<n>>What a relief! Are you alright?
+Cosa!? Professore e... \PN! Cosa ci fate qui!?
+What!? Professor and... \PN!<<n>>What are you two doing here!?
+Ero in pensiero per te...
+I was worried about you...
+Purtroppo le comunicazioni si sono interrotte per via di questa tempesta di neve, quindi mi sono subito diretto qui a Tauronordia.
+Unfortunately the communications<<n>>were interrupted due to this snow storm,<<n>>so I immediately rushed here to Borealis Town.
+Gold e soprattutto \PN mi hanno dato una mano a ritrovarti.  
+Gold and especially \PN<<n>>lent me a hand to find you.
+...
+...
+Grazie per il pensiero... Sto bene.
+Thanks for the thought...<<n>>I’m fine.
+Ma a malincuore. Mi sono ritrovato faccia a faccia contro la Bestia Leggendaria di Tauronordia. E sono stato annientato...
+But reluctantly. I found myself face to face<<n>>against the Legendary Beast of Borealis City.<<n>>And I was annihilated...
+Ha congelato gran parte del villaggio ed è tornato in cima al palazzo, bloccando qualsiasi mia possibile via di fuga...
+He froze most of the village<<n>>and went back to the top of the Palace,<<n>>blocking whatever possible escape route...
+Il suo potere va oltre ogni immaginazione, Professore... Sono spiacente di non aver prodotto risultati...
+His power goes over any possible imagination,<<n>>Professor...<<n>>I’m sorry for not producing any results...
+Non preoccuparti Claudio... L'importante è che tu sia sano e salvo.
+Don’t worry, Ginger...<<n>>What’s important is that you’re safe and sound.
+Sono stato io a essere frettoloso. Forse dovremmo ritirarci tutti a Balansopoli per-
+It was me who was too hasty.<<n>>Maybe we should all withdraw to Hadwarf City and-
+Non se ne parla, Professore!
+I won’t accept that, Professor!
+Lei stesso mi ha detto di arrivare in fondo a questa faccenda. E così farò.
+You yourself told me<<n>>to get to the end of this matter.<<n>>And that’s what I will do.
+Non m'importa quante volte cadrò e perderò contro questa Furia... Mi rialzerò sempre, per salvare Tauronordia e tutta la regione di Eldiw!
+I don’t care how many times<<n>>I’ll fall and lose against this Fury...<<n>>I’ll stand back up,<<n>>to save Borealis City and the whole Eldiw region!
+Claudio...
+Ginger...
+Mi dispiace... Ma io resterò qui. Anche a costo di morire.
+I’m sorry, but I’ll stay here.<<n>>Even if I have to die.
+Tu
+You
+Come!? Ti rendi conto di quel che dici, \PN? E' pericolosissimo...
+What!?<<n>>Do you realize what you’re saying,\PN?<<n>>It’s very dangerous…
+Ma in effetti non è una cattiva idea. Forse noi due insieme possiamo farcela!
+But you know what? It’s not a bad idea.<<n>>Maybe we two can manage!
+Ragazzi...
+Guys...
+...E va bene.
+...Fine.
+Vi affido il compito di sconfiggere Suicune e salvarlo dall'Energia Furia!
+I entrust you with the task of defeating Suicune<<n>>and saving him from the Fury Energy!
+...!
+...!
+Mentre io tornerò fuori a dar man forte a Gold... Ma mi raccomando. Per qualsiasi problema non esitate a contattarmi. Arriverò il prima possibile da voi per soccorrervi.
+In the meantime,<<n>>I’ll go back outside to help Gold...<<n>>but please. For any problem,<<n>>don’t hesitate in contacting me.<<n>>I’ll come as fast as possible to your rescue. 
+Detto questo...Ragazzi, Per Aspera Ad Astra.
+This being said... Guys,<<n>>Per Aspera Ad Astra.
+Molto bene, \PN.
+Very good, \PN. 
+Il leggendario Suicune si trova in cima alla Pagoda del Cardinale, direi di sbrigarci.
+The legendary Suicune<<n>>is on the last floor of the Cardinal’s Pagoda,<<n>>we should move.
+GO-GO Granbulls!
+GO-GO Granbulls!
+<<[>>old<<]>>Claudio si è unito alla squadra.
+<<[>>old<<]>>Ginger joined the team.
 [Map457]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
 [Map458]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
 [Map459]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
 [Map460]
-<<[>>old<<]>>Il potere scatenato da Suicune vi ha riportati nella dimensione iniziale.
-<<[>>old<<]>>Il potere scatenato da Suicune vi ha riportati nella dimensione iniziale.
+\PN, ci siamo.
+Here we are, \PN.
+Questa è l'ultima stanza della Pagoda del Cardinale.
+This is the last room<<n>>of the Cardinal’s Pagoda.
+Suicune dovrebbe essere molto vicino. Forza, andiamo!
+Suicune should be nearby.<<n>>Come on, let’s go!
+Sento la sua presenza... E' qui.
+I can feel its presence...<<n>>It’s here.
+Eccolo. Tanto maestoso, quanto pericoloso... di nuovo faccia a faccia! 
+Here it is. As majestic as dangerous...<<n>>again face to face!
+Brrr...Anf... La temperatura sta diminuendo velocemente, e ha bloccato tutte le vie di fuga...
+Brrr...Anf...<<n>>The temperature is decreasing rapidly,<<n>>and he’s blocked<<n>>all our escape routes...
+Anf...Anf... \PN. Non abbiamo tempo da perdere...
+Anf...Anf...\PN.<<n>>There’s no time to lose...
+Dobbiamo sconfiggerlo o questa sarà la nostra tomba.
+We must defeat it,<<n>>or else this will be our grave.
+Ci sono tante persone che hanno combattutto e sofferto, e ora fanno il tifo per noi! Quindi non deludiamoli, \PN!
+Many people fought and suffered,<<n>>and now they’re cheering for us!<<n>>So let’s don't let them down, \PN!
+E' passato un bel po' da quando abbiamo combattuto insieme l'ultima volta. Dico bene? Sei sicuro di riuscire a stare al passo?
+It’s been a long while<<n>>since we last fought together, am I right?<<n>>Are you sure you can keep up the pace?
+...
+...
+Puoi dirlo forte.
+You can say that for sure.
+Per Aspera Ad Astra!
+Per Aspera Ad Astra!
+Questa è la battaglia finale!
+This is the final battle!
+<<[>>old<<]>>Suicune chiama in soccorso un Pokémon aiutante.
+<<[>>old<<]>>Suicune calls for an adjutant Pokémon to help.
+<<[>>old<<]>>Il Sigillo reagisce.
+<<[>>old<<]>>The Seal is reacting.
+<<[>>old<<]>>Hai completato una Battaglia Furiosa, ottenendo il Pokémon Furia!
+<<[>>old<<]>>You completed a Furious Battle and you got the Fury Pokémon!
+<<[>>old<<]>>Non dimenticare di controllare nei Box del PC!
+<<[>>old<<]>>Go check your Pokémon Boxes!
+<<[>>old<<]>>Hai attivato il Sigillo Furia!
+<<[>>old<<]>>You triggered the Fury Seal!
+\PN... Ce l'abbiamo fatta!
+\PN... We made it!
+Anf...Anf... E' meglio tornar-
+Anf...Anf...It’s best if we go ba-
+Dielebi
+Dielebi
+Lebi...!
+Lebi...!
+<<[>>old<<]>>Vuoi ritornare?
+<<[>>old<<]>>Would you like to go back?
+Sì
+Yes
+No
+No
+Claudio
+Ginger
+Tu
+You
+[Map461]
+Sì
+Yes
+No
+No
+<<[>>old<<]>><b>ATTENZIONE!</b>
+<<[>>old<<]>><b>WARNING!</b>
+<<[>>old<<]>>Stai per affrontare una Battaglia Furiosa. Non potrai utilizzare alcun Rimedio e potrai portare con te solo 3 Pokémon. Vuoi proseguire?
+<<[>>old<<]>>You are going to face a <b>Furious Battle</b>. You won't be able to use any Medicine and you could take only 3 Pokémon with you.\nDo you wish to proceed?
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
 <<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
 Dielebi
 Dielebi
 Lebi...!
 Lebi...!
-Sì
-Yes
-No
-No
-[Map461]
-<<[>>old<<]>>...\n...
-<<[>>old<<]>>...\n...
-<<[>>old<<]>>Vuoi ritornare nella tua dimensione?
-<<[>>old<<]>>Would you like to go back to your dimension?
-Dielebi
-Dielebi
-Lebi...!
-Lebi...!
-Sì
-Yes
-No
-No
+<<[>>old<<]>>Dev'essere uno dei tempietti di Dielebi di cui parlava Bellocchio...
+<<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 [Map462]
 <<[>>old<<]>>Vuoi uscire dal Nido?
 <<[>>old<<]>>Will you get out of the Den?
@@ -21928,12 +22204,10 @@ Lebi...!
 <<[>>old<<]>>This must be one of those Dielebi's shrines Looker was talking about...
 <<[>>old<<]>>Vuoi tornare ad Eldiw?
 <<[>>old<<]>>Will you go back to Eldiw?
-<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
-<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
 <<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
-<<[>>old<<]>>Non hai abbastanza soldi.
-<<[>>old<<]>>You don't have enough money.
 Cura Pokémon
 Heal Pokémon
 Usa Box
@@ -21999,6 +22273,8 @@ Henna
 <<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
 <<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
 [Map573]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
@@ -22060,6 +22336,36 @@ Use Box
 [Map582]
 <<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
 <<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map583]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map584]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map585]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map586]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map587]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map588]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
+Sì	
+Yes	
+No
+No
+Cura Pokémon
+Heal Pokémon
+Usa Box
+Use Box
 [Map589]
 <<[>>old<<]>>Aiutateci, vi prego!
 <<[>>old<<]>>I beg you, help us!
@@ -22098,6 +22404,9 @@ Hmpf, there’s a lot of work to do...
 \PN! Usciamo un attimo fuori, devo parlarti.
 \PN! Come outside for a second,<<n>>I need to talk to you.
 [Map590]
+<<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
+<<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map591]
 <<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
 <<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
 [1]
