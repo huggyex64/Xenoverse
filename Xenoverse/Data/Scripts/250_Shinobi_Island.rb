@@ -20,6 +20,7 @@ class PokeBattle_Trainer
     attr_accessor(:realParty)
     attr_accessor(:inShinobiIsland)
     attr_accessor(:storedLevels)
+    attr_accessor(:registeredItem)
 
     def inShinobiIsland?
       return @inShinobiIsland
@@ -64,6 +65,7 @@ class PokeBattle_Trainer
           else
             @inShinobiIsland = true
             @realBag = $PokemonBag
+            @registeredItem = $PokemonBag.registeredItem
             $PokemonBag = PokemonBag.new
             @realParty = $Trainer.party
             
@@ -124,6 +126,9 @@ class PokeBattle_Trainer
             end
             index+=1
         end
+        #Restore registered item
+        $PokemonBag.pbRegisterKeyItem(@registeredItem)
+
         tempPt = $Trainer.party
         $Trainer.party = []
         echoln @realParty
