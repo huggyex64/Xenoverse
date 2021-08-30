@@ -86,6 +86,76 @@ Alakazam
 Kazam!
 Kazam!
 [Map3]
+<<[>>old<<]>>Eccoti finalmente!
+<<[>>old<<]>>There you are!
+\PN! Ti ho trovato|a finalmente.
+\PN! Finally,<<n>>I found you.
+Sono corso ad Ofiuchia per ricevere aggiornamenti sulla situazione. Grazie all'aiuto di Ruta e alla Troupe del Circo Sirio, sono al corrente di tutto ciò che è successo da quando ci siamo visti. Gengar mi ha detto dove potevo trovarti!
+I went to Dorado Village<<n>>to get updated on the situation.<<n>>Thanks to Ruta and the Troupe of Sunshine Circus’ help,<<n>>I know everything that happened.<<n>>Gengar told me where I could find you! 
+A quanto pare sei riuscito|a a salvare le due bestie leggendarie <b>Raikou</b> ed <b>Entei</b>. Complimenti, \PN.
+As it seems,you managed to save<<n>>the two legendary beasts <b>Raikou</b> and <b>Entei</b>.<<n>>Well done, \PN.
+Purtroppo però, l'energia furia non si è placata affatto, anzi. Una fonte ancor più potente è stata individuata a <b>Tauronordia</b>.
+Unfortunately, however,the Fury Energy<<n>>has not subsided at all, quite the contrary.<<n>>An even bigger source<<n>>has been detected in <b>Borealis Town</b>.
+Fortunatamente, sono stato informato per tempo della situazione.
+Fortunately<<n>>I was informed in time of the situation.
+Ciao, molto piacere, il mio nome è Gold, sono un vecchio amico dei tuoi genitori!
+Hey there,<<n>>pleased to meet you.<<n>>My name is Gold,<<n>>I’m an old friend of your parents! 
+Ciao, \PN. Ne è passato di tempo dall'ultima volta che ci siamo visti!
+Hey there, \PN.<<n>>It’s been some time since we last saw each other!
+Come ha detto Aster, la situazione a Tauronordia è molto preoccupante. Nulla in confronto a ciò che abbiamo riscontrato nelle ultime settimane.
+Just as Aster said,<<n>>the situation in Borealis Town is really worrying.<<n>>Nothing compared to what we’ve been used to so far. 
+Le temperature glaciali stanno causando devastazione nel villaggio. Se non si agisce in fretta, tale potere potrebbe espandersi a macchia d'olio e la regione si troverebbe in una nuova Era Glaciale.
+The freezing temperatures<<n>>are causing devastation in the village.<<n>>If we don’t do anything,<<n>>it might spread all over the place<<n>>and the region would find itself in a new Glacial Era.
+Dannazione!
+Damn it! 
+Sta andando tutto fuori controllo... E l'Energia Furia aumenta ogni giorno di più. Il mio tirocinante è a Tauronordia e le nostre comunicazioni si sono interrotte.
+Everything’s getting out of control...<<n>>And the Fury Energy keeps increasing every day.<<n>>My trainee is in Borealis City<<n>>and our communications were interrupted.
+\PN, ho bisogno ancora una volta di te. Aiutami a salvare quel ragazzo. E' in gioco la sua vita e quella degli abitanti di Eldiw...
+\PN, I need you again.<<n>>Help me save that boy.<<n>>His life and that of all the people in Eldiw are at stake...
+Non riesco a non pensare di aver mandato un giovane a morire. Sarei dovuto andare io a Tauronordia, non lui!
+I can’t believe<<n>>I’ve sent a young man to his death.<<n>>I should’ve gone to Borealis City,<<n>>not him!
+...!
+...!
+Grazie di cuore, \PN... davvero.
+Thanks, \PN... Really. 
+Forza ragazzi! Non perdiamo tempo! Raggiungiamo immediatamente la città!
+Come on, guys!<<n>>There’s no time to lose!<<n>>Let’s go immediately to the city!
+\PN ti aspetto a <b>Tauronordia</b>. Preparati al meglio, ci servirà.
+\PN, I’ll wait for you in <b>Borealis City</b>.<<n>>Get ready as best as you can,<<n>>we’ll need it. 
+Gold
+Gold
+Aster
+Aster
+A presto!
+See you! 
+E' stato davvero bello lottare al tuo fianco,\PN. Chissà, magari un giorno ci ritroveremo ancora sul campo di battaglia, ma non come alleati, come avversari!
+It was a pleasure<<n>>fighting by your side, \PN.<<n>>Who knows,maybe one day<<n>>we’ll find ourselves on the fighting stage again,<<n>>but maybe as opponents! 
+Avranno bisogno anche del mio aiuto per ricostruire il Circo Sirio!
+They’re gonna need my help<<n>>to rebuild Sunshine Circus! 
+Credo che sia giunto anche il momento per me di tornare a Sagittopoli. Dopotutto, la mia troupe e Gengar mi stanno aspettando.
+I think it’s time for me<<n>>to go back to Vega City.<<n>>After all,<<n>>Gengar and my troupe are waiting for me. 
+Adiòs!
+Adiòs!
+\PN, grazie ancora per tutto. Ti aspetto alla Caserma della S.P.E.T.T.R.I per una grande fiesta! Offro io ovviamente!
+\PN,<<n>>thanks again for everything.<<n>>I’ll be waiting for you at the G.E.I.S.T.’s firehouse<<n>>to throw a big party!<<n>>Of course, it’s on me!
+Agli ordini!
+Yes, ma’am!
+Direi di tornare a fare rapporto, e a comunicare a Scorpiopoli la nostra vittoria!
+I’d say we go back to report,<<n>>and tell Westar City about our victory!
+Will, Maurice mi ha contattato dicendo che anche la situazione in altre città è migliorata...
+Will, Chrysler contacted me saying<<n>>that the situation’s better in the other cities too...
+Muy bien!
+Muy bien!
+Gli incendi sono stati tutti spenti, direi che qui abbiamo finito!
+The fires have all been extinguished,<<n>>I’d say we’re done here!
+E' tutto merito di \PN, da solo non ce l'avrei mai fatta. E' stata davvero una battaglia difficile, ma la fortuna è stata dalla nostra parte.
+It’s all thanks to \PN,<<n>>alone I would’ve never made it.<<n>>It really was an arduous battle,<<n>>but luck was on our side.
+Ce l'avete fatta! Finalmente Cansiria non è più in fiamme!
+You made it!<<n>>Finally Fortbelt Town is no more up in flames!
+<<[>>old<<]>>Eccovi qui!
+<<[>>old<<]>>There you are!
+Sembra che la situazione si sia stabilizzata. La temperatura è tornata come prima, per fortuna...
+It looks like it settled down.<<n>>The temperature is back like it was, luckily...
 Spegnermo tutti gli incendi a Cansiria in men che non si dica!
 We’ll put out all the fires in Fortbelt Town<<n>>in no time at all!
 Quando Silvia urla così forte mi spavento un sacco...
