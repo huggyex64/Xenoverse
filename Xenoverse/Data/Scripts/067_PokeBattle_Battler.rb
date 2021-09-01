@@ -642,6 +642,8 @@ class PokeBattle_Battler
 		if @pokemon && @battle.internalbattle
 			@pokemon.changeHappiness("faint")
 		end
+		# reset mega
+		@pokemon.makeUnmega
 		@fainted=true
 		# reset choice
 		@battle.choices[@index]=[0,0,nil,-1]

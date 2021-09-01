@@ -34,6 +34,11 @@ class PokeBattle_Battler
     end
     @pokemon.makeUnprimal if self.isPrimal?
     @fainted=true
+    # reset mega
+    if @pokemon.isMega?
+      @pokemon.makeUnmega
+    end
+
     # reset choice
     @battle.choices[@index]=[0,0,nil,-1]
     @battle.pbDisplayPaused(_INTL("{1} è esausto!",pbThis)) if showMessage

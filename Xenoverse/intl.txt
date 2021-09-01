@@ -93,35 +93,35 @@ Kazam!
 Sono corso ad Ofiuchia per ricevere aggiornamenti sulla situazione. Grazie all'aiuto di Ruta e alla Troupe del Circo Sirio, sono al corrente di tutto ciò che è successo da quando ci siamo visti. Gengar mi ha detto dove potevo trovarti!
 I went to Dorado Village<<n>>to get updated on the situation.<<n>>Thanks to Ruta and the Troupe of Sunshine Circus’ help,<<n>>I know everything that happened.<<n>>Gengar told me where I could find you! 
 A quanto pare sei riuscito|a a salvare le due bestie leggendarie <b>Raikou</b> ed <b>Entei</b>. Complimenti, \PN.
-As it seems,you managed to save<<n>>the two legendary beasts <b>Raikou</b> and <b>Entei</b>.<<n>>Well done, \PN.
+As it seems, you managed to save<<n>>the two legendary beasts <b>Raikou</b> and <b>Entei</b>.<<n>>Well done, \PN.
 Purtroppo però, l'energia furia non si è placata affatto, anzi. Una fonte ancor più potente è stata individuata a <b>Tauronordia</b>.
-Unfortunately, however,the Fury Energy<<n>>has not subsided at all, quite the contrary.<<n>>An even bigger source<<n>>has been detected in <b>Borealis Town</b>.
+Unfortunately, however, the Fury Energy<<n>>has not subsided at all, quite the contrary.<<n>>An even bigger source<<n>>has been detected in <b>Borealis Town</b>.
 Fortunatamente, sono stato informato per tempo della situazione.
-Fortunately<<n>>I was informed in time of the situation.
+Fortunately, I was informed in time of the situation.
 Ciao, molto piacere, il mio nome è Gold, sono un vecchio amico dei tuoi genitori!
-Hey there,<<n>>pleased to meet you.<<n>>My name is Gold,<<n>>I’m an old friend of your parents! 
+Hey there, pleased to meet you.<<n>>My name is Gold, I’m an old friend of your parents! 
 Ciao, \PN. Ne è passato di tempo dall'ultima volta che ci siamo visti!
 Hey there, \PN.<<n>>It’s been some time since we last saw each other!
 Come ha detto Aster, la situazione a Tauronordia è molto preoccupante. Nulla in confronto a ciò che abbiamo riscontrato nelle ultime settimane.
 Just as Aster said,<<n>>the situation in Borealis Town is really worrying.<<n>>Nothing compared to what we’ve been used to so far. 
 Le temperature glaciali stanno causando devastazione nel villaggio. Se non si agisce in fretta, tale potere potrebbe espandersi a macchia d'olio e la regione si troverebbe in una nuova Era Glaciale.
-The freezing temperatures<<n>>are causing devastation in the village.<<n>>If we don’t do anything,<<n>>it might spread all over the place<<n>>and the region would find itself in a new Glacial Era.
+The freezing temperatures<<n>>are causing devastation in the village.<<n>>If we don’t do anything,<<n>>it might spread all over the place<<n>>and the whole region would find itself <<n>>in a new Glacial Era.
 Dannazione!
 Damn it! 
 Sta andando tutto fuori controllo... E l'Energia Furia aumenta ogni giorno di più. Il mio tirocinante è a Tauronordia e le nostre comunicazioni si sono interrotte.
-Everything’s getting out of control...<<n>>And the Fury Energy keeps increasing every day.<<n>>My trainee is in Borealis City<<n>>and our communications were interrupted.
+Everything’s getting out of control...<<n>>And the Fury Energy keeps increasing day by day.<<n>>My trainee is in Borealis City<<n>>and our communications were interrupted.
 \PN, ho bisogno ancora una volta di te. Aiutami a salvare quel ragazzo. E' in gioco la sua vita e quella degli abitanti di Eldiw...
 \PN, I need you again.<<n>>Help me save that boy.<<n>>His life and that of all the people in Eldiw are at stake...
 Non riesco a non pensare di aver mandato un giovane a morire. Sarei dovuto andare io a Tauronordia, non lui!
-I can’t believe<<n>>I’ve sent a young man to his death.<<n>>I should’ve gone to Borealis City,<<n>>not him!
+I can’t believe I’ve sent such a young man to his death.<<n>>I should’ve gone to Borealis Town, not him!
 ...!
 ...!
 Grazie di cuore, \PN... davvero.
 Thanks, \PN... Really. 
 Forza ragazzi! Non perdiamo tempo! Raggiungiamo immediatamente la città!
-Come on, guys!<<n>>There’s no time to lose!<<n>>Let’s go immediately to the city!
+Come on, guys!<<n>>There’s no time to lose!<<n>>Let’s head there immediately!
 \PN ti aspetto a <b>Tauronordia</b>. Preparati al meglio, ci servirà.
-\PN, I’ll wait for you in <b>Borealis City</b>.<<n>>Get ready as best as you can,<<n>>we’ll need it. 
+\PN, I’ll wait for you in <b>Borealis Town</b>.<<n>>Get ready as best as you can,<<n>>we’ll need it. 
 Gold
 Gold
 Aster
@@ -129,7 +129,7 @@ Aster
 A presto!
 See you! 
 E' stato davvero bello lottare al tuo fianco,\PN. Chissà, magari un giorno ci ritroveremo ancora sul campo di battaglia, ma non come alleati, come avversari!
-It was a pleasure<<n>>fighting by your side, \PN.<<n>>Who knows,maybe one day<<n>>we’ll find ourselves on the fighting stage again,<<n>>but maybe as opponents! 
+It was a pleasure<<n>>fighting by your side, \PN.<<n>>Who knows, maybe one day<<n>>we’ll find ourselves on the fighting stage again,<<n>>but as opponents! 
 Avranno bisogno anche del mio aiuto per ricostruire il Circo Sirio!
 They’re gonna need my help<<n>>to rebuild Sunshine Circus! 
 Credo che sia giunto anche il momento per me di tornare a Sagittopoli. Dopotutto, la mia troupe e Gengar mi stanno aspettando.
@@ -141,17 +141,17 @@ Adiòs!
 Agli ordini!
 Yes, ma’am!
 Direi di tornare a fare rapporto, e a comunicare a Scorpiopoli la nostra vittoria!
-I’d say we go back to report,<<n>>and tell Westar City about our victory!
+We should go back to report,<<n>>and tell Westar City about our victory!
 Will, Maurice mi ha contattato dicendo che anche la situazione in altre città è migliorata...
 Will, Chrysler contacted me saying<<n>>that the situation’s better in the other cities too...
 Muy bien!
 Muy bien!
 Gli incendi sono stati tutti spenti, direi che qui abbiamo finito!
-The fires have all been extinguished,<<n>>I’d say we’re done here!
+The fires have all been extinguished,<<n>>so I’d say we’re done here!
 E' tutto merito di \PN, da solo non ce l'avrei mai fatta. E' stata davvero una battaglia difficile, ma la fortuna è stata dalla nostra parte.
-It’s all thanks to \PN,<<n>>alone I would’ve never made it.<<n>>It really was an arduous battle,<<n>>but luck was on our side.
+It’s all thanks to \PN,<<n>>I would’ve never made it alone.<<n>>It really was an arduous battle,<<n>>but luck was on our side.
 Ce l'avete fatta! Finalmente Cansiria non è più in fiamme!
-You made it!<<n>>Finally Fortbelt Town is no more up in flames!
+You made it!<<n>>Fortbelt Town is not up in flames anymore!
 <<[>>old<<]>>Eccovi qui!
 <<[>>old<<]>>There you are!
 Sembra che la situazione si sia stabilizzata. La temperatura è tornata come prima, per fortuna...
@@ -179,7 +179,7 @@ As soon as you’re feeling ready, come here to me.<<n>>You really ought to prep
 Sto parlando del Pokémon Leggendario <b>Entei</b>. Probabilmente a causa dell'Energia Furia, la bestia è adirata e ha perso il controllo, proprio come il Buster di Silvia.
 I’m talking about the Legendary Pokémon <b>Entei</b>.<<n>>Probably, due to the Fury Energy,<<n>>the beast is ireful and has lost control,<<n>>just like Minta’s Buster. 
 Da quel che ho sentito dai cittadini del villaggio, potrebbe essere opera della Bestia che protegge tutta Cansiria.
-From what,<<n>>I’ve heard from the villagers,<<n>>it could be the work of the Beast<<n>>that protects all of Fortbelt Town.
+From what I’ve heard from the villagers,<<n>>it could be the work of the Beast<<n>>that protects all of Fortbelt Town.
 Siamo stremati ormai...
 We’re exhausted…
 Gli incendi,seppur siano gestiti dal sottoscritto o dalla S.P.E.T.T.R.I, non accennano a diminuire.
@@ -205,7 +205,7 @@ Muchas gracias, \PN!<<n>>I can’t find the words to thank you for saving Buster
 Sei stato formidabile, \PN!
 You were amazing, \PN!
 Ottimo lavoro, \PN.
-Good work,\PN.
+Good work, \PN.
 Scampato pericolo.
 Danger avoided. 
 <<[>>old<<]>>Hai attivato il Sigillo Furia!
@@ -247,11 +247,11 @@ Well, there’s strength in numbers, right?
 Anche il mio Buster è molto più stanco del solito...
 Even my Buster is more tired than usual...
 Henné, dobbiamo ringraziare anche te. La tua padronanza del Fuoco ci è di grande aiuto in questa situazione critica!
-Henna,<<n>>we’ve got to thank you too.<<n>>Your ability in handling Fire<<n>>is of great help in this critical situation!
+Henna, we’ve got to thank you too.<<n>>Your ability in handling Fire<<n>>is of great help in this critical situation!
 Da quando hai preso coraggio non ti ferma più nessuno!
-Since you got brave no one’s stopping you anymore!
+Oh-ho! Since you got that bravery <<n>>no one’s stopping you anymore!
 Certo! Nonostante la squadra non sia al completo, ce la stiamo mettendo tutta!
-Sure!<<n>>Even if the team is not complete,<<n>>we’re doing our best!
+Sure! Even if the team is not complete,<<n>>we’re doing our best!
 O no, Will?
 Am I right, Will?
 No hay problema! La S.P.E.T.T.R.I è sempre pronta ad aiutare il prossimo!
@@ -5478,7 +5478,7 @@ No
 <<[>>old<<]>>Henné si è unito alla squadra.
 <<[>>old<<]>>Henna joined the team.
 \PN, più avanti incontreremo il Pokémon Leggendario. Diamoci una mossa e salviamo Cansiria da questo inferno.
-\PN, ahead we’ll find the Legendary Pokémon.<<n>>Let’s move and save Fortbelt Town from this hell. 
+\PN, we’ll find the Legendary Pokémon ahead.<<n>>Let’s move and save Fortbelt Town from this hell. 
 Ed è anche la dimora di Entei.
 And it’s also the dwelling of Entei.
 Questo è il <b>Palazzo del Cardinale</b>. Questo luogo di culto di Cansiria è protetto dal Cardinale Oleandro.
@@ -15004,13 +15004,13 @@ Apparently, they headed to <b>Fortbelt Town</b> in a hurry,<<n>>but I don’t kn
 Ho davvero un brutto presentimento.
 I have a really bad feeling. 
 Nel dubbio,
-I suggest,
+That being said...
 ti consiglio di sfruttare le Megapietre che ti ho regalato, magari ti saranno utili nel viaggio. Gengah ah ah!
-you make use of those Mega Stones I gave you,<<n>>they might come in handy. Gengah ha ha!
+I suggest you make use of those Mega Stones I gave you,<<n>>they might come in handy. Gengah ha ha!
 Buona fortuna, moccioso|a.
 Good luck, brat.
 Henné è andato a <b>Cansiria</b>. Raggiungilo il prima possibile e avvisalo della situazione del Circo Sirio.
-Henna headed for Fortbelt Town.<<n>>Get to them as soon as possible<<n>>and tell him about what happened here.
+Henna headed for Fortbelt Town.<<n>>Get to them as soon as possible<<n>>and tell them about what happened here.
 Buona fortuna, moccioso|a.
 Good luck, brat.
 Tsk. Sbrigati.
@@ -22226,7 +22226,7 @@ You
 La temperatura sta scendendo rapidamente.
 The heat’s decreasing rapidly.
 Direi di uscire subito e vedere se la situazione è migliorata.
-I’d say we should get out<<n>>and see if the situation is any better.
+We should get out<<n>>and see if the situation is any better.
 Andiamo!
 Let’s go!
 <<[>>old<<]>>Il Sigillo reagisce.
@@ -22242,15 +22242,15 @@ Let’s go!
 Non c'è più tempo da perdere. Forza \PN, fermiamo Entei e salviamolo dall'Energia Furia!
 There’s no time to lose.<<n>>Come on, \PN, let’s stop Entei<<n>>and save him from the Fury Energy!
 Dannazione! La temperatura continua a salire, e non abbiamo più via di fuga.
-Damn it! The temperature<<n>>keeps rising and we don’t have any way out.
+Damn it! The temperature<<n>>keeps rising and now we don’t have any way out.
 Non ho mai visto fiamme di tale intensità in tutta la mia vita.
-I’ve never seen such flames in my whole life...
+I’ve never seen such fierce flames in my whole life...
 Come immaginavo...Anche lui sembra sotto il pieno controllo dell'Energia Furia.
-Just as I thought...<<n>>It looks like<<n>>he’s under the Fury Energy’s control too.
+Just as I thought... It looks like<<n>>he’s under the Fury Energy’s control too.
 Entei dovrebbe trovarsi più avanti. Andiamo!
 Entei should be further ahead.<<n>>Let’s go!
 La temperatura è altissima, è come essere all'inferno stesso.
-The heat is excruciating,<<n>>it’s like being in hell itself.
+This heat is excruciating,<<n>>it’s like being in hell itself.
 Questa dovrebbe essere l'ultima stanza del Palazzo.
 This should be the last room of the Palace.
 <<[>>old<<]>>Vuoi ritornare?
@@ -22374,13 +22374,13 @@ Tsk. The situation has become more heated than I thought.
 Stanno arrivando.
 They’re coming.
 Questi sono i Charizard del Capopalestra Henné. Come vedi, oltre ad esser diventati molto piu' potenti, hanno anche cambiato la loro fisionomia. Che Pokémon strani!
-These are the Gym Leader Henna’s Charzard...<<n>>As you can see, aside from getting much more powerful,<<n>>they’re look has changed too,<<n>>what strange Pokémons!
+These are the Gym Leader Henna’s Charzard...<<n>>As you can see, aside from getting much more powerful,<<n>>their look has changed too,<<n>>what strange Pokémons!
 Ah? quindi questa sarebbe l'energia Furia di cui mi hai anticipato a Ofiuchia?
 Ah? So this is supposed to be the Fury Energy<<n>>you told me about in Dorado Village?
 Che potere davvero interessante...
 Very interesting...
 \PN, preparati. Stanno per attaccarti!
-\PN, get ready. They’re about to attack you! 
+\PN, get ready. They’re about to attack! 
 <<[>>old<<]>>Hai attivato il Sigillo Furia!
 <<[>>old<<]>>You triggered the Fury Seal!
 C'era da aspettarselo. Gengah ah ah!
