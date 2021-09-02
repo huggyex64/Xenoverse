@@ -127,7 +127,9 @@ class PokeBattle_Trainer
             index+=1
         end
         #Restore registered item
-        $PokemonBag.pbRegisterKeyItem(@registeredItem)
+        if (@registeredItem>0)
+          $PokemonBag.pbRegisterKeyItem(@registeredItem)
+        end
 
         tempPt = $Trainer.party
         $Trainer.party = []
