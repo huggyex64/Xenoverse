@@ -27311,7 +27311,7 @@ Kind=Millepiedi
 Pokedex=Ha un cappello in testa che lo rende molto buffo agli occhi dei suoi avversari.
 BattlerPlayerY=10
 BattlerEnemyY=16
-Evolutions=KAKUNAVINTAGE,Level,7
+Evolutions=KAKUNASTARKEY,Level,7
 [1463]
 Name=Kakuna
 InternalName=KAKUNASTARKEY
@@ -27338,7 +27338,7 @@ Pokedex=Quasi incapace di muoversi, questo Pokémon può solo indurire la sua co
 BattlerPlayerY=10
 BattlerEnemyY=24
 BattlerAltitude=11
-Evolutions=BEEDRILLVINTAGE,Level,10
+Evolutions=KASANGYVINTAGE,Level,10
 [1464]
 Name=Kasanagy
 InternalName=KASANGYVINTAGE
