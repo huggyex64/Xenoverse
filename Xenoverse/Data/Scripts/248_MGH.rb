@@ -411,6 +411,12 @@ class MysteryGiftScene
         @sprites["lid"].oy = 186
         @sprites["lid"].x = 322
         @sprites["lid"].y = 186-384
+        @sprites["lid"].rotate(0,1,:ease_in_cubic)
+        
+        Graphics.update
+        update
+        @sprites["lid"].update
+        @sprites["flash"].update
 
         @sprites["flash"].opacity = 0
         @sprites["flash"].z = 20

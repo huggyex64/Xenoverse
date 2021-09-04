@@ -90,6 +90,16 @@ class PokeBattle_Move_136 < PokeBattle_Move
 	end
 end
 ################################################################################
+# Celebrate
+################################################################################
+class PokeBattle_Move_138 < PokeBattle_Move	
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		pbShowAnimation(@id,attacker,nil,hitnum,alltargets,showanimation)
+		@battle.pbDisplay(_INTL("Congratulations, {1}!",$Trainer.name))
+		return 0
+	end
+end
+##########################################################################
 # Decreases the target's Attack and Special Attack by 1 stage each. (Noble Roar)
 ################################################################################
 class PokeBattle_Move_13A < PokeBattle_Move

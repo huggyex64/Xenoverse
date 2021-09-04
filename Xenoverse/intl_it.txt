@@ -37028,3 +37028,5 @@ Hai ottenuto {1} in dono!
 {1} non può usare {2} a causa di Colpo Infernale!
 Connection error: please try again later.
 Errore di connessione. Riprova più tardi.
+Congratulations, {1}!
+Congratulazioni, {1}!
