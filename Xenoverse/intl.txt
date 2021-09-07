@@ -109,7 +109,7 @@ The freezing temperatures<<n>>are causing devastation in the village.<<n>>If we 
 Dannazione!
 Damn it! 
 Sta andando tutto fuori controllo... E l'Energia Furia aumenta ogni giorno di più. Il mio tirocinante è a Tauronordia e le nostre comunicazioni si sono interrotte.
-Everything’s getting out of control...<<n>>And the Fury Energy keeps increasing day by day.<<n>>My trainee is in Borealis City<<n>>and our communications were interrupted.
+Everything’s getting out of control...<<n>>And the Fury Energy keeps increasing day by day.<<n>>My trainee is in Borealis Town<<n>>and our communications were interrupted.
 \PN, ho bisogno ancora una volta di te. Aiutami a salvare quel ragazzo. E' in gioco la sua vita e quella degli abitanti di Eldiw...
 \PN, I need you again.<<n>>Help me save that boy.<<n>>His life and that of all the people in Eldiw are at stake...
 Non riesco a non pensare di aver mandato un giovane a morire. Sarei dovuto andare io a Tauronordia, non lui!
@@ -2553,7 +2553,7 @@ Versil...
 In realtà io avrei una teoria più sensata sul principio della Furia.
 To be honest,<<n>>I have a more sensible theory on the Fury principle.
 Credo che sia nato con l'arrivo delle Specie X nella regione. Pensateci... Elekid X con l'incendio a Balansopoli,
-I have reason to believe that<<n>>it came to be when X Species started coming to the region.<<n>>Think about it...<<n>>Elekid X and the fire in Hadwarf City,
+I have reason to believe that it came to be <<n>>when X Species started coming to the region.<<n>>Think about it...<<n>>Elekid X and the fire in Hadwarf City,
 o Sharpedo X con l'attacco sulla Motonave Cometa, come mi ha raccontato Tarassaco.
 or Sharpedo X and the attack on the ship,<<n>>as Taraxo told me.
 O addirittura, Versil, la furia del tuo Mewtwo X.
@@ -2575,7 +2575,7 @@ Well, it’s useless to worry<<n>>about something that hasn't happened yet!<<n>>
 Bisogna rimboccarsi le maniche e continuare a lottare per arginare questo fenomeno!
 We gotta roll up our sleeves<<n>>and continue to fight to stop this phenomenon!
 Concordo con te, Aster. Da oggi anche io vi darò una mano, costi quel che costi.
-I agree, Aster. From now on I too<<n>>will help you with all myself.
+I agree, Aster. From now on I too<<n>>will help you with all of myself.
 Molto bene! Ora torniamo al lavoro!
 Very good!<<n>>Now, let’s get back to work!
 \PN, ora che possiedi il potere della Megaevoluzione e il sacro potere delle tre bestie, hai sicuramente ottenuto un potere essenziale per salvaguardare tutta la regione.
@@ -16243,25 +16243,25 @@ Gold
 Oh, eccoti, \PN!
 There you are, \PN!
 Questa struttura che vedi è <b>La Pagoda del Cardinale</b>. Luogo di culto di Tauronordia, protetta dal Cardinale Castalia.
-This structure in front of you<<n>>is the <b>Cardinal’s Pagoda</b>.<<n>>This place of worship in Borealis City<<n>>is protected by the Cardinal Niva.
+This structure in front of you<<n>>is the <b>Cardinal’s Pagoda</b>.<<n>>This place of worship in Borealis Town<<n>>is protected by the Cardinal Niva.
 Ma soprattutto... Dimora della <b>Bestia Leggendaria Suicune</b>.
 But moreover...<<n>>It's the dwelling of the <b>Legendary Beast Suicune</b>.
 Devi sapere, \PN, che i cani leggendari non vengono dalla regione di Eldiw. Vengono dalla regione nativa mia e di tuo padre...<b>Johto</b>.
-You have to know, \PN, that the legendary dogs<<n>>do not come from the Eldiw region.<<n>>They’re from your father’s<<n>>and my native region...<b>Johto</b>.
+You have to know, \PN, that the legendary dogs<<n>>are not from the Eldiw region.<<n>>They’re from your father’s<<n>>and my native region... <b>Johto</b>.
 Però la creazione dei varchi dimensionali, causata dell'energia terrestre e xenoverse, ha permesso l'arrivo di tre nuove bestie provenienti da dimensioni a noi sconosciute.
 However the creation of dimensional portals<<n>>caused by the Xenoverse and Terrestrial energy<<n>>has allowed three new beasts<<n>>to come here from different dimensions.
 Nel corso del tempo hanno protetto i tre villaggi sacri di Eldiw, divenendone i patroni: Ofiuchia, Cansiria e, per finire, Tauronordia.
-With time,<<n>>they protected the three sacred villages in Eldiw,<<n>>becoming their patrons:<<n>>Dorado Village, Fortbelt Town and Borealis City.
+With time,<<n>>they protected the three sacred villages in Eldiw,<<n>>becoming their patrons:<<n>>Dorado Village, Fortbelt Town and Borealis Town.
 La forza di queste bestie è leggendaria. Per questo, solo allenatori di un certo calibro come me, tuo padre e Aster, possono contenere questi Pokémon.
 The strength of these three beasts is legendary.<<n>>Because of this,<<n>>only skilled Trainers such as myself,<<n>>your father and Aster can contain these Pokémon.
 Ma questa cosidetta ''Energia Furia'', li manda fuori controllo, permettendo alle bestie di ottenere un potere inimmaginabile, tale da causare cataclismi e disastri ambientali.
 But this so-called ''Fury Energy''<<n>>sends them out of control,<<n>>allowing the beasts to obtain<<n>>an immeasurable power,<<n>>so much that it can cause<<n>>cataclysms and environmental disasters. 
 E <b>Suicune</b>, la Bestia leggendaria protettrice di Tauronordia, è la più pericolosa tra i tre. E ora che è fuori controllo è così forte che neanche io sono in grado di contrastarlo.
-And <b>Suicune</b>,<<n>>the Legendary Beast protecting Borealis City,<<n>>is the most perilous out of the three.<<n>>And now that it’s out of control<<n>>it’s so strong that not even<<n>>I am able to put a stop to it. 
+And <b>Suicune</b>,<<n>>the Legendary Beast protecting Borealis Town,<<n>>is the most dangerous out of the three.<<n>>And now that it’s out of control<<n>>it’s so strong that not even<<n>>I am able to put a stop to it. 
 \PN, solo tu poi sconfiggere la sacra bestia e far tornare Eldiw alla normalità.
 \PN, you’re the only one<<n>>who can defeat the sacred beast<<n>>and make Eldiw go back to normal.
 Suicune ha già attaccato Tauronordia, impedendo il passaggio all'interno della Pagoda del Cardinale.
-Suicune has already<<n>>attacked Borealis City,<<n>>blocking the passage<<n>>to the entrance of the Cardinal’s Pagoda.
+Suicune has already<<n>>attacked Borealis Town,<<n>>blocking the passage<<n>>to the entrance of the Cardinal’s Pagoda.
 Sono sicuro che il mio tirocinante si trovi lì dentro. Dobbiamo assolutamente sciogliere questo masso di ghiaccio e salvarlo.
 I’m sure that my trainee<<n>>is inside there.<<n>>We must absolutely melt this ice boulder<<n>>and save him.
 Credo che serva un Pokémon abbastanza forte da contrastare la forza di Suicune. Forse solo così sarà possibile sciogliere questo enorme masso di ghiaccio.
@@ -16269,7 +16269,7 @@ I think we’ll need a Pokémon strong<<n>>enough to put up a fight with Suicune
 \PN, sicuramente troverai il modo per sciogliere questi massi di ghiaccio.
 \PN, I’m sure you’ll find a way<<n>>to melt this boulder.
 Nel frattempo, io e Gold andremo a dare una mano ai cittadini di Tauronordia per cercare di diminuire i danni.
-In the meantime, me and Gold<<n>>will lend a hand to the people of Borealis City<<n>>to try and decrease the damage.
+In the meantime, Gold and I<<n>>will lend a hand to the people of Borealis Town<<n>>to try and decrease the damage.
 Occhi aperti!
 Keep your eyes open!
 <<[>>old<<]>>Il potere della Megaevoluzione di Entei reagisce con i blocchi di ghiaccio. Vuoi utilizzare la potenza delle sue fiamme?
@@ -18807,7 +18807,7 @@ D-does this mean...
 Sì...Claudio. Ce l'avete fatta, avete sconfitto la furia e salvato la regione!
 Yes...Ginger. You made it,<<n>>you defeated the Fury and saved the region.
 Tauronordia è salva, compreso i cittadini. Grazie a voi che vi siete occupati di Suicune, io e Gold siamo riusciti a prenderci cura di tutti quanti.
-Borealis City is saved,<<n>>citizens included.<<n>>Thanks to you guys handling Suicune,<<n>>Gold and I were able to take care of everyone. 
+Borealis Town is saved,<<n>>citizens included.<<n>>Thanks to you guys handling Suicune,<<n>>Gold and I were able to take care of everyone. 
 \PN... Siamo davvero un duo formidabile! Evvai!
 \PN...<<n>>We’re a wonderful duo! Yes! 
 Senza il tuo aiuto, non ce l'avremmo mai fatta... Dico davvero!
@@ -18815,17 +18815,17 @@ Without your help,<<n>>I would’ve never made it... I’m serious!
 Ero in pena per voi... Però pensandoci, chi avrebbe avuto più chance del prescelto e del mio tirocinante!
 I was worried for you...<<n>>but thinking back on it,<<n>>who would’ve had more chances<<n>>than the chosen one and my trainee!
 Ah, vuoi sapere perchè è il mio tirocinante? Effettivamente non abbiamo avuto tempo di parlare di buone notizie...
-Ah,<<n>>you wanna know why he’s my trainee?<<n>>Well, we didn’t really have time<<n>>to talk about good news...
+Ah, you wanna know why he’s my trainee?<<n>>Well, we didn’t really have time<<n>>to talk about good news...
 Ma da quando Claudio ha terminato gli studi con voti eccellenti, ho deciso di prenderlo sotto la mia ala. E mi sembra di aver fatto la scelta giusta! 
 But since Ginger graduated with the top score,<<n>>I decided to take him under my wing.<<n>>And looks like my decision was spot on!
 Mi ricorda la mia gioventù, quando anche io studiavo al Campus di Ariepoli.
 He reminds me of my youth,<<n>>when I was studying at Newtron’s campus.
 Devo dire che con il Professor Aster, s'impara ogni giorno qualcosa, e-...!
-And I have to say that with Professor Aster<<n>>you learn something everyday,and-...!
+And I have to say that with Professor Aster<<n>>you learn something everyday, and-...!
 Anf...Anf...!
-Anf...Anf...!
+Anf... Anf...!
 Claudio, ti vedo ancora un po' provato... Perchè non torni a Balansopoli con me? Così potrai riposarti ancora un po'.
-Ginger,<<n>>I see you’re not fully recovered yet.<<n>>Why don’t you come back to Hadwarf City with me?<<n>>This way you can rest some more.
+Ginger, I see you’re not fully recovered yet.<<n>>Why don’t you come back to Hadwarf City with me?<<n>>This way you can rest some more.
 Direi che è la scelta migliore.
 I think it’s the wisest choice.
 \PN, sono sicuro che anche tu hai bisogno di riposarti! Io ti aspetto nel Laboratorio di Balansopoli.
@@ -19451,7 +19451,7 @@ Gold and especially \PN<<n>>lent me a hand to find you.
 Grazie per il pensiero... Sto bene.
 Thanks for the thought...<<n>>I’m fine.
 Ma a malincuore. Mi sono ritrovato faccia a faccia contro la Bestia Leggendaria di Tauronordia. E sono stato annientato...
-But reluctantly. I found myself face to face<<n>>against the Legendary Beast of Borealis City.<<n>>And I was annihilated...
+But reluctantly. I found myself face to face<<n>>against the Legendary Beast of Borealis Town.<<n>>And I was annihilated...
 Ha congelato gran parte del villaggio ed è tornato in cima al palazzo, bloccando qualsiasi mia possibile via di fuga...
 He froze most of the village<<n>>and went back to the top of the Palace,<<n>>blocking whatever possible escape route...
 Il suo potere va oltre ogni immaginazione, Professore... Sono spiacente di non aver prodotto risultati...
@@ -19465,7 +19465,7 @@ I won’t accept that, Professor!
 Lei stesso mi ha detto di arrivare in fondo a questa faccenda. E così farò.
 You yourself told me<<n>>to get to the end of this matter.<<n>>And that’s what I will do.
 Non m'importa quante volte cadrò e perderò contro questa Furia... Mi rialzerò sempre, per salvare Tauronordia e tutta la regione di Eldiw!
-I don’t care how many times<<n>>I’ll fall and lose against this Fury...<<n>>I’ll stand back up,<<n>>to save Borealis City and the whole Eldiw region!
+I don’t care how many times<<n>>I’ll fall and lose against this Fury...<<n>>I’ll stand back up,<<n>>to save Borealis Town and the whole Eldiw region!
 Claudio...
 Ginger...
 Mi dispiace... Ma io resterò qui. Anche a costo di morire.
@@ -19485,7 +19485,7 @@ I entrust you with the task of defeating Suicune<<n>>and saving him from the Fur
 ...!
 ...!
 Mentre io tornerò fuori a dar man forte a Gold... Ma mi raccomando. Per qualsiasi problema non esitate a contattarmi. Arriverò il prima possibile da voi per soccorrervi.
-In the meantime,<<n>>I’ll go back outside to help Gold...<<n>>but please. For any problem,<<n>>don’t hesitate in contacting me.<<n>>I’ll come as fast as possible to your rescue. 
+In the meantime,<<n>>I’ll go back outside to help Gold...<<n>>but please. For any problem,<<n>>don’t hesitate to contact me.<<n>>I’ll come as fast as possible to your rescue. 
 Detto questo...Ragazzi, Per Aspera Ad Astra.
 This being said... Guys,<<n>>Per Aspera Ad Astra.
 Molto bene, \PN.
