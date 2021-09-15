@@ -338,6 +338,13 @@ class PokemonLoad
         end
       end
       if showContinue
+        if (!trainer.lastGameVersion.null? && trainer.lastGameVersion>GAME_VERSION)
+          err="Stai provando a caricare un file di salvataggio da una versione più recente di quella installata. Siccome questo potrebbe generare bug, per favore assicurati di stare utilizzando l'ultima versione disponibile del gioco.
+          
+You're trying to load a save file from a newer version of the game. As this may cause bugs, please make sure you're using the latest available version of the game."
+          print(err)
+          exit()
+        end
         if !haveBackup
           begin; File.delete(savefile+".bak"); rescue; end
         end

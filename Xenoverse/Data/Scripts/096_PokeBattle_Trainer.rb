@@ -18,6 +18,7 @@ class PokeBattle_Trainer
   attr_accessor(:language)
   attr_accessor(:expmoderna)
   attr_accessor(:safariZone)
+  attr_accessor(:lastGameVersion)
   
   def trainerTypeName   # Name of this trainer type (localized)
     return PBTrainers.getName(@trainertype) rescue _INTL("PkMn Trainer")
@@ -290,6 +291,10 @@ class PokeBattle_Trainer
   def safariZone
     return @safariZone
   end
+
+  def lastGameVersion 
+    return @lastGameVersion
+  end
   
   def initialize(name,trainertype)
     @name=name
@@ -308,7 +313,7 @@ class PokeBattle_Trainer
     @storedStarters = nil
     @expmoderna = $difficulty
     @safariZone = false
-    
+    @lastGameVersion=GAME_VERSION
     clearPokedex
     @shadowcaught=[]
     for i in 1..PBSpecies.maxValue

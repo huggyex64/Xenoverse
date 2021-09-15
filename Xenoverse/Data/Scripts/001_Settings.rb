@@ -437,3 +437,30 @@ CF_LEGENDARIES = [:MEW,
                   :RAIKOU] #TODO to be updated
 
 
+class Version < Array
+   def initialize(ver)
+      super(ver.split('.').map{|e| e.to_i})
+   end
+
+   def < x
+      (self <=> x) < 0
+   end
+   def > x
+      (self <=> x) > 0
+   end
+   def == x
+      (self <=> x) == 0
+   end
+
+   def null?
+      return self.equal? nil
+   end
+end
+
+GAME_VERSION = Version.new("1.2.5")
+
+def pbTestVersions
+   echoln Version.new('1.2') < Version.new('1.2.1')
+   echoln Version.new('1.2') < Version.new('1.10.1')
+   echoln Version.new('1.2') < Version.new('1.1.9')
+end

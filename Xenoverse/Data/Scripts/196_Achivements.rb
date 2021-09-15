@@ -576,6 +576,9 @@ end
 # Overwrite saving method
 def pbSave(safesave=false)
   $Trainer.metaID=$PokemonGlobal.playerID
+  if $Trainer.lastGameVersion.null? || $Trainer.lastGameVersion < GAME_VERSION
+    $Trainer.lastGameVersion = GAME_VERSION
+  end
   begin
     File.open(RTP.getSaveFileName("Game.rxdata"),"wb"){|f|
        Marshal.dump($Trainer,f)
