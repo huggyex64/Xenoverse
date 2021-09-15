@@ -30302,7 +30302,7 @@ Chill
 Glaciale
 Freezing
 615
-Crystallizing
+Cristallo
 Crystallizing
 616
 Snail
