@@ -82,19 +82,19 @@ class PokeBattle_Scene
           status=@battle.battlers[i].status
           case status
           when PBStatuses::SLEEP
-            @sprites["pokemon#{i}"].actualBitmap.setSpeed(3)
+            @sprites["pokemon#{i}"].actualBitmap.setSpeed(3) if (@sprites["pokemon#{i}"].actualBitmap!=nil)
           when PBStatuses::PARALYSIS
-            @sprites["pokemon#{i}"].actualBitmap.setSpeed(3)
+            @sprites["pokemon#{i}"].actualBitmap.setSpeed(3) if (@sprites["pokemon#{i}"].actualBitmap!=nil)
             @sprites["pokemon#{i}"].status=2
           when PBStatuses::FROZEN
-            @sprites["pokemon#{i}"].actualBitmap.setSpeed(0)
+            @sprites["pokemon#{i}"].actualBitmap.setSpeed(0) if (@sprites["pokemon#{i}"].actualBitmap!=nil)
             @sprites["pokemon#{i}"].status=3
           when PBStatuses::POISON
             @sprites["pokemon#{i}"].status=1
           when PBStatuses::BURN
             @sprites["pokemon#{i}"].status=4
           else
-            @sprites["pokemon#{i}"].actualBitmap.setSpeed(4)
+            @sprites["pokemon#{i}"].actualBitmap.setSpeed(4) if (@sprites["pokemon#{i}"].actualBitmap!=nil)
             @sprites["pokemon#{i}"].status=0
           end
         end
