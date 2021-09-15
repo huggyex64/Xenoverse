@@ -127,7 +127,7 @@ class PokeBattle_Trainer
             index+=1
         end
         #Restore registered item
-        if (@registeredItem>0)
+        if (@registeredItem != nil && @registeredItem>0)
           $PokemonBag.pbRegisterKeyItem(@registeredItem)
         end
 
