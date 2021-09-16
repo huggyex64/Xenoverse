@@ -159,6 +159,8 @@ def pbEncounter(enctype)
 	ch = 1 + $Trainer.retrochain[encounter[0]]/63
 	echoln encounter[0]
 	echoln RETROMON[getConst(PBSpecies,encounter[0])]
+	echoln ($game_switches[RETROMONSWITCH] && rand(1000)<ch) || $allRetro
+	echoln "(#{$game_switches[RETROMONSWITCH]} && #{rand(1000)<ch}) #{$allRetro}"
 	if (($game_switches[RETROMONSWITCH] && rand(1000)<ch) || $allRetro)
 		echoln "triggered retro"
 		if RETROMON[encounter[0]] != nil
@@ -178,6 +180,10 @@ def pbEncounter(enctype)
 		else
 			pbWildBattle(encounter[0],encounter[1])
 		end
+	else
+		echoln "triggered standard encounter"
+		$PokemonTemp.encounterType=enctype
+		pbWildBattle(encounter[0],encounter[1])
 	end
 	$PokemonTemp.encounterType=-1
     $fishing = false if enctype == EncounterTypes::OldRod || enctype ==EncounterTypes::GoodRod || enctype == EncounterTypes::SuperRod
