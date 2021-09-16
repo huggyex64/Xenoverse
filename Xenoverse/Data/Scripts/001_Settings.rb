@@ -448,12 +448,9 @@ class Version < Array
    def > x
       (self <=> x) > 0
    end
-   def == x
-      (self <=> x) == 0
-   end
 
-   def null?
-      return self.equal? nil
+   def is x
+      (self <=> x) == 0
    end
 end
 

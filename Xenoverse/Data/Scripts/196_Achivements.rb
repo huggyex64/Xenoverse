@@ -576,7 +576,7 @@ end
 # Overwrite saving method
 def pbSave(safesave=false)
   $Trainer.metaID=$PokemonGlobal.playerID
-  if $Trainer.lastGameVersion.null? || $Trainer.lastGameVersion < GAME_VERSION
+  if $Trainer.lastGameVersion == nil || $Trainer.lastGameVersion < GAME_VERSION
     $Trainer.lastGameVersion = GAME_VERSION
   end
   begin
