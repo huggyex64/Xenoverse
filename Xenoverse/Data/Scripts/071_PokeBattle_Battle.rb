@@ -1759,6 +1759,7 @@ class PokeBattle_Battle
 		side=(pbIsOpposing?(index)) ? 1 : 0
 		owner=pbGetOwnerIndex(index)
 		@megaEvolution[side][owner]=-2
+		@battlers[index].pbAbilitiesOnSwitchIn(true)
 	end
 	
 	################################################################################
