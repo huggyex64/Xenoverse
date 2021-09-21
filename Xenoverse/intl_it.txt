@@ -5016,32 +5016,32 @@ Kakuna
 Kasanagy
 Kasanagy
 1465
-????????
-????????
+Pineco
+Pineco
 1466
-????????
-????????
+Forretress
+Forretress
 1467
-????????
-????????
+Kangaskhan
+Kangaskhan
 1468
-????????
-????????
+Trifox
+Trifox
 1469
-????????
-????????
+Sudowoodo
+Sudowoodo
 1470
-????????
-????????
+Para
+Para
 1471
-????????
-????????
+Paras
+Paras
 1472
-????????
-????????
+Parasect
+Parasect
 1473
-????????
-????????
+Mr. Mime
+Mr. Mime
 1474
 ????????
 ????????
@@ -6668,6 +6668,15 @@ Unown
 2027
 Duraludon
 Duraludon
+2028
+Salandit
+Salandit
+2029
+Salazzle
+Salazzle
+2030
+Cramorant
+Cramorant
 [2]
 1
 Seme
@@ -7984,8 +7993,8 @@ Bronze Bell
 Bonsai
 Bonsai
 439
-Mime
-Mime
+Mimo
+Mimo
 440
 Ovettino
 Ovettino
@@ -8098,8 +8107,8 @@ Blade
 Bussola
 Bussola
 477
-Gripper
-Gripper
+Pinza
+Pinza
 478
 Suolnevoso
 Suolnevoso
@@ -9804,6 +9813,33 @@ Bozzolo
 1464
 Scarabeo
 Scarabeo
+1465
+Larva
+Larva
+1466
+Larva
+Larva
+1467
+Genitore
+Genitore
+1468
+Volpe
+Volpe
+1469
+Imitazione
+Imitazione
+1470
+Fungo
+Fungo
+1471
+Fungo
+Fungo
+1472
+Fungo
+Fungo
+1473
+Barriera
+Barriera
 2000
 Cavallonembo
 Cavallonembo
@@ -9888,6 +9924,15 @@ Simbolo
 2027
 Metallolega
 Metallolega
+2028
+Lucertossina
+Lucertossina
+2029
+Lucertossina
+Lucertossina
+2030
+Inghiottone
+Inghiottone
 [3]
 1
 Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
@@ -10253,8 +10298,8 @@ Anche se il corpo è lacerato, continua a rigenerarsi finché il nucleo ardente 
 Nuota ruotando il suo corpo geometrico. Sembra che emetta costantemente dei misteriosi segnali radio.
 Nuota ruotando il suo corpo geometrico. Sembra che emetta costantemente dei misteriosi segnali radio.
 122
-Mr. Mime e' un esperto di mimica. La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
-Mr. Mime e' un esperto di mimica. La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
+La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
+La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
 123
 Fa a pezzi le prede con gli artigli spaventosamente affilati. Solo raramente spiega le ali per alzarsi in volo.
 Fa a pezzi le prede con gli artigli spaventosamente affilati. Solo raramente spiega le ali per alzarsi in volo.
@@ -10646,8 +10691,8 @@ Ha il potere di viaggiare attraverso il tempo, ma si dice che appaia solo in per
 Treecko e' dotato di piccoli uncini sulla pianta delle zampe, che gli consentono di camminare su pareti verticali. Attacca frustando i suoi nemici con la coda grossa e forte.
 Treecko e' dotato di piccoli uncini sulla pianta delle zampe, che gli consentono di camminare su pareti verticali. Attacca frustando i suoi nemici con la coda grossa e forte.
 253
-Le foglie che crescono sul corpo di Grovyle sono utili per mimetizzarsi contro i nemici nella foresta. Questo Pokemon sa arrampicarsi sugli alberi della giungla con una maestria senza pari.
-Le foglie che crescono sul corpo di Grovyle sono utili per mimetizzarsi contro i nemici nella foresta. Questo Pokemon sa arrampicarsi sugli alberi della giungla con una maestria senza pari.
+Le foglie che crescono sul corpo di Grovyle sono utili per mimetizzarsi contro i nemici nella foresta. 
+Le foglie che crescono sul corpo di Grovyle sono utili per mimetizzarsi contro i nemici nella foresta. 
 254
 Sulla schiena di Sceptile crescono alcuni semi che si dice siano ricchi di nutrienti per gli alberi. Questo Pokemon coltiva amorevolmente le sue piante nella foresta.
 Sulla schiena di Sceptile crescono alcuni semi che si dice siano ricchi di nutrienti per gli alberi. Questo Pokemon coltiva amorevolmente le sue piante nella foresta.
@@ -10664,11 +10709,11 @@ Blaziken si dedica alle arti marziali che usano pugni e calci. A cicli di molti 
 La pinna sulla testa di Mudkip agisce come un radar sensibilissimo. Usando questa pinna come sensore in acqua e in aria, riesce a determinare cosa succede intorno a lui senza bisogno di guardare.
 La pinna sulla testa di Mudkip agisce come un radar sensibilissimo. Usando questa pinna come sensore in acqua e in aria, riesce a determinare cosa succede intorno a lui senza bisogno di guardare.
 259
-La superficie corporea di Marshtomp e' avvolta da una spessa pellicola appiccicosa che gli consente di vivere sulla terraferma. Questo Pokemon gioca con la fanghiglia sul fondo del mare nei momenti di bassa marea.
-La superficie corporea di Marshtomp e' avvolta da una spessa pellicola appiccicosa che gli consente di vivere sulla terraferma. Questo Pokemon gioca con la fanghiglia sul fondo del mare nei momenti di bassa marea.
+La superficie corporea di Marshtomp e' avvolta da una spessa pellicola appiccicosa che gli consente di vivere sulla terraferma.
+La superficie corporea di Marshtomp e' avvolta da una spessa pellicola appiccicosa che gli consente di vivere sulla terraferma.
 260
-Swampert prevede le tempeste poiche' grazie alle pinne percepisce le sottili differenze nel suono delle onde e dei venti dovuti alle maree. In caso di burrasca imminente, crea delle pile di massi per proteggere la tana.
-Swampert prevede le tempeste poiche' grazie alle pinne percepisce le sottili differenze nel suono delle onde e dei venti dovuti alle maree. In caso di burrasca imminente, crea delle pile di massi per proteggere la tana.
+Swampert prevede le tempeste poiche' grazie alle pinne percepisce le sottili differenze nel suono delle onde e dei venti dovuti alle maree. 
+Swampert prevede le tempeste poiche' grazie alle pinne percepisce le sottili differenze nel suono delle onde e dei venti dovuti alle maree.
 261
 Pokemon molto tenace. L'olfatto sviluppatissimo gli permette di seguire una preda senza mai perderne le tracce.
 Pokemon molto tenace. L'olfatto sviluppatissimo gli permette di seguire una preda senza mai perderne le tracce.
@@ -11204,8 +11249,8 @@ One caused a news sensation when it was dug up at a construction site after a 2,
 Sembra che pianga tutto il tempo. In realta' regola il livello dei fluidi del corpo eliminando gli eccessi.
 Sembra che pianga tutto il tempo. In realta' regola il livello dei fluidi del corpo eliminando gli eccessi.
 439
-It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokemon.
-It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokemon.
+Imita i movimenti dei nemici. Quando un nemico viene imitato, non riesce più a distogliere lo sguardo da lui.
+Imita i movimenti dei nemici. Quando un nemico viene imitato, non riesce più a distogliere lo sguardo da lui.
 440
 Dato che è ancora piccolo e non può deporre uova, cerca pietre bianche e tonde da usare in sostituzione.
 Dato che è ancora piccolo e non può deporre uova, cerca pietre bianche e tonde da usare in sostituzione.
@@ -11318,8 +11363,8 @@ A master of courtesy and swordsmanship, it fights using extending swords on its 
 È in grado di controllare tre piccole unità dette Mininasi per catturare le sue prede senza doversi spostare.
 È in grado di controllare tre piccole unità dette Mininasi per catturare le sue prede senza doversi spostare.
 477
-The antenna on its head captures radio waves from the world of spirits that command it to take people there.
-The antenna on its head captures radio waves from the world of spirits that command it to take people there.
+Capta con l'antenna onde che arrivano dal mondo degli spiriti, che gli ordinano di portare lì le persone.
+Capta con l'antenna onde che arrivano dal mondo degli spiriti, che gli ordinano di portare lì le persone.
 478
 Congela con il suo alito glaciale gli esseri umani e i Pokemon che gli piacciono e li usa per decorare la sua tana.
 Congela con il suo alito glaciale gli esseri umani e i Pokemon che gli piacciono e li usa per decorare la sua tana.
@@ -13024,6 +13069,33 @@ Quasi incapace di muoversi, questo Pokémon può solo indurire la sua corazza pe
 1464
 Vola velocemente e attacca usando la sua robusta corazza.
 Vola velocemente e attacca usando la sua robusta corazza.
+1465
+Inspessisce il guscio aggiungendo strati di corteccia. Non lo impensierisce le'aumento di peso.
+Inspessisce il guscio aggiungendo strati di corteccia. Non lo impensierisce le'aumento di peso.
+1466
+L'intero corpo e' protetto da un guscio duro come acciaio. Nessuno sa cosa si trovi sotto le'armatura.
+L'intero corpo e' protetto da un guscio duro come acciaio. Nessuno sa cosa si trovi sotto le'armatura.
+1467
+Il suo cucciolo cresce dentro al marsupio. È pronto a qualsiasi lotta pur di proteggerlo.
+Il suo cucciolo cresce dentro al marsupio. È pronto a qualsiasi lotta pur di proteggerlo.
+1468
+Pokémon di indole pacifica. Si vocifera che le sue tre code possano moltiplicarsi se ha un forte legame con il suo allenatore.
+Pokémon di indole pacifica. Si vocifera che le sue tre code possano moltiplicarsi se ha un forte legame con il suo allenatore.
+1469
+Si traveste da albero per evitare gli attacchi. Odiando l'acqua, scompare appena inizia a piovere.
+Si traveste da albero per evitare gli attacchi. Odiando l'acqua, scompare appena inizia a piovere.
+1470
+Scava piccole buche per procurarsi del cibo. Si mimetizza in un piccolo fungo nascondendosi dai predatori.
+Scava piccole buche per procurarsi del cibo. Si mimetizza in un piccolo fungo nascondendosi dai predatori.
+1471
+Scava per bere dalle radici degli alberi. I funghi sulla sua schiena sono parassiti.
+Scava per bere dalle radici degli alberi. I funghi sulla sua schiena sono parassiti.
+1472
+Il fungo sulla schiena assorbe l'energia dall'insetto ospitante su cui ha anche pieno controllo.
+Il fungo sulla schiena assorbe l'energia dall'insetto ospitante su cui ha anche pieno controllo.
+1473
+La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
+La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
 2000
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
@@ -13105,6 +13177,12 @@ Con il suo atteggiamento rilassato e disinvolto, nuota scontrando i massi e gli 
 2027
 Il suo corpo simile a metallo lucidato è leggero e resistente, ma ha il difetto di arrugginire facilmente.
 Il suo corpo simile a metallo lucidato è leggero e resistente, ma ha il difetto di arrugginire facilmente.
+2028
+Con la fiamma della coda brucia i fluidi corporei generati dalle sue sacche di veleno, producendo un gas velenoso.
+Con la fiamma della coda brucia i fluidi corporei generati dalle sue sacche di veleno, producendo un gas velenoso.
+2029
+Esistono solo esemplari femmina. Produce un gas ricco di feromoni con cui ammalia i Salandit maschi.
+Esistono solo esemplari femmina. Produce un gas ricco di feromoni con cui ammalia i Salandit maschi.
 [4]
 19
 Kanto,Alola
@@ -19826,6 +19904,27 @@ Old Ball
 785
 Amo Speciale
 Amo Speciale
+786
+Update Inferno
+Update Inferno
+787
+Update Drago
+Update Drago
+788
+Biglietto Shinobi
+Biglietto Shinobi
+789
+Sigillo Furia
+Sigillo Furia
+790
+Pietrafiele
+Pietrafiele
+791
+Lettera di Aster
+Lettera di Aster
+729 
+Update Pinza
+Update Pinza
 [8]
 1
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
@@ -22059,6 +22158,27 @@ Vecchio modello di Poké Ball utilizzato nella prova del Cammino dell'Eroe.
 785
 Speciale canna da pesca che permette di pescare Pokémon selvatici e recuperare tesori dal fondale.
 Speciale canna da pesca che permette di pescare Pokémon selvatici e recuperare tesori dal fondale.
+786
+Update contenente i dati del Pokémon Magmar. Permette al Pokémon di evolversi tramite Trasferitore.
+Update contenente i dati del Pokémon Magmar. Permette al Pokémon di evolversi tramite Trasferitore.
+787
+Update contenente i dati del Pokémon Seadra. Permette al Pokémon di evolversi tramite Trasferitore.
+Update contenente i dati del Pokémon Seadra. Permette al Pokémon di evolversi tramite Trasferitore.
+788
+Un biglietto aereo per visitare l'Isola Shinobi.
+Un biglietto aereo per visitare l'Isola Shinobi.
+789
+Un sigillo regalato da Tarassaco che emana un'energia misteriosa.
+Un sigillo regalato da Tarassaco che emana un'energia misteriosa.
+790
+Pietra particolare che fa evolvere determinate specie di Pokémon. È di un color viola intenso.
+Pietra particolare che fa evolvere determinate specie di Pokémon. È di un color viola intenso.
+791
+Una speciale lettera inviata da Aster.
+Una speciale lettera inviata da Aster.
+792
+Update contenente i dati del Pokémon Dusclops. Permette al Pokémon di evolversi tramite Trasferitore.
+Update contenente i dati del Pokémon Dusclops. Permette al Pokémon di evolversi tramite Trasferitore.
 [9]
 1
 Tanfo

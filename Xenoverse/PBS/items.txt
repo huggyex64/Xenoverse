@@ -748,3 +748,4 @@
 789,SIGILLONINJA,Sigillo Furia,8,0,"Un sigillo regalato da Tarassaco che emana un'energia misteriosa.",1,0,6,
 790,POISONSTONE,Pietrafiele,1,2100,"Pietra particolare che fa evolvere determinate specie di Pokémon. È di un color viola intenso.",1,0,0,
 791,ASTERLETTERA,Lettera di Aster,8,0,"Una speciale lettera inviata da Aster.",1,0,6,
+792,BOTPINZA,Update Pinza,1,0,"Update contenente i dati del Pokémon Dusclops. Permette al Pokémon di evolversi tramite Trasferitore.",1,0,0,

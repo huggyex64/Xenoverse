@@ -26806,32 +26806,32 @@ Kakuna
 Kasanagy
 Kasanagy
 1465
-????????
-????????
+Pineco
+Pineco
 1466
-????????
-????????
+Forretress
+Forretress
 1467
-????????
-????????
+Kangaskhan
+Kangaskhan
 1468
-????????
-????????
+Trifox
+Trifox
 1469
-????????
-????????
+Sudowoodo
+Sudowoodo
 1470
-????????
-????????
+Para
+Para
 1471
-????????
-????????
+Paras
+Paras
 1472
-????????
-????????
+Parasect
+Parasect
 1473
-????????
-????????
+Mr. Mime
+Mr. Mime
 1474
 ????????
 ????????
@@ -28458,6 +28458,15 @@ Unown
 2027
 Duraludon
 Duraludon
+2028
+Salandit
+Salandit
+2029
+Salazzle
+Salazzle
+2030
+Cramorant
+Cramorant
 [2]
 1
 Seme
@@ -28596,10 +28605,10 @@ Fiore
 Flower
 46
 Fungo
-Fungo
+Mushroom
 47
 Fungo
-Fungo
+Mushroom
 48
 Insetto
 Insetto
@@ -28803,7 +28812,7 @@ Liana
 Vine
 115
 Genitore
-Genitore
+Parent
 116
 Drago
 Dragon
@@ -29013,7 +29022,7 @@ Acquaniglio
 Acquaniglio
 185
 Imitazione
-Imitazione
+Imitation
 186
 Rana
 Rana
@@ -29070,10 +29079,10 @@ Lungocollo
 Long Neck
 204
 Larva
-Larva
+Bagworm
 205
 Larva
-Larva
+Bagworm
 206
 Terraserpe
 Terraserpe
@@ -29214,31 +29223,31 @@ Tempovia
 Time Travel
 252
 Legnogeco
-Legnogeco
+Wood Gecko
 253
 Legnogeco
-Legnogeco
+Wood Gecko
 254
 Foresta
-Foresta
+Forest
 255
 Pulcino
-Pulcino
+Chick
 256
 Rampollo
-Rampollo
+Young Fowl
 257
 Vampe
-Vampe
+Blaze
 258
 Fangopesce
-Fangopesce
+Mud Fish
 259
 Fangopesce
-Fangopesce
+Mud Fish
 260
 Fangopesce
-Fangopesce
+Mud Fish
 261
 Morso
 Bite
@@ -29367,7 +29376,7 @@ Oscurita'
 Oscurita'
 303
 Inganno
-Inganno
+Deceiver
 304
 Corazza
 Iron Armor
@@ -29526,7 +29535,7 @@ Requiem
 Requiem
 356
 Ipnosguardo
-Ipnosguardo
+Beckon
 357
 Frutto
 Fruit
@@ -29774,7 +29783,7 @@ Bronze Bell
 Bonsai
 Bonsai
 439
-Mime
+Mimo
 Mime
 440
 Ovettino
@@ -29888,7 +29897,7 @@ Blade
 Bussola
 Compass
 477
-Gripper
+Pinza
 Gripper
 478
 Suolnevoso
@@ -31594,6 +31603,33 @@ Cocoon
 1464
 Scarabeo
 Beetle
+1465
+Larva
+Bagworm
+1466
+Larva
+Bagworm
+1467
+Genitore
+Parent
+1468
+Volpe
+Fox
+1469
+Imitazione
+Imitation
+1470
+Fungo
+Mushroom
+1471
+Fungo
+Mushroom
+1472
+Fungo
+Mushroom
+1473
+Barriera
+Barrier
 2000
 Cavallonembo
 Nimbus Steed
@@ -31678,6 +31714,15 @@ Symbol
 2027
 Metallolega
 Alloy
+2028
+Lucertossina
+Toxic Lizard
+2029
+Lucertossina
+Toxic Lizard
+2030
+Inghiottone
+Gulp
 [3]
 1
 Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
@@ -31816,10 +31861,10 @@ Più grandi sono i petali, maggiore è la quantità di polline tossico che conte
 The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.
 46
 Scava per bere dalle radici degli alberi. I funghi sulla sua schiena sono parassiti.
-Scava per bere dalle radici degli alberi. I funghi sulla sua schiena sono parassiti.
+Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.
 47
 Il fungo sulla schiena assorbe l'energia dall'insetto ospitante su cui ha anche pieno controllo.
-Il fungo sulla schiena assorbe l'energia dall'insetto ospitante su cui ha anche pieno controllo.
+A mushroom grown larger than the host's body controls Parasect. It scatters poisonous spores.
 48
 Gli occhi enormi fungono da radar. Alla luce si puo' notare che sono formati da molti occhi minori.
 Gli occhi enormi fungono da radar. Alla luce si puo' notare che sono formati da molti occhi minori.
@@ -32023,7 +32068,7 @@ Il suo aspetto è nascosto sotto una massa di fitte liane blu che non smettono m
 Its identity is obscured by masses of thick, blue vines. The vines are said to never stop growing.
 115
 Il suo cucciolo cresce dentro al marsupio. È pronto a qualsiasi lotta pur di proteggerlo.
-Il suo cucciolo cresce dentro al marsupio. È pronto a qualsiasi lotta pur di proteggerlo.
+Raises its young in its belly pouch. Won't run from any fight to keep its young protected.
 116
 Se minacciato sputa dalla bocca un inchiostro speciale o potenti getti d'acqua per difendersi.
 If it senses any danger, it will vigorously spray water or a special type of ink from its mouth.
@@ -32043,8 +32088,8 @@ Even if its body is torn, it can regenerate as long as the glowing central core 
 Nuota ruotando il suo corpo geometrico. Sembra che emetta costantemente dei misteriosi segnali radio.
 It rotates its geometrically shaped body to swim through the water. It always seems to be sending out mysterious radio waves.
 122
-Mr. Mime e' un esperto di mimica. La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
-Mr. Mime e' un esperto di mimica. La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
+La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
+Its gestures and motions convince watchers that something unseeable actually exists. Once it is believed, it will exist as if it were a real thing.
 123
 Fa a pezzi le prede con gli artigli spaventosamente affilati. Solo raramente spiega le ali per alzarsi in volo.
 It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly.
@@ -32233,7 +32278,7 @@ Quando gioca in acqua arrotola le lunghe orecchie perche' non si bagnino all'int
 Quando gioca in acqua arrotola le lunghe orecchie perche' non si bagnino all'interno.
 185
 Si traveste da albero per evitare gli attacchi. Odiando l'acqua, scompare appena inizia a piovere.
-Si traveste da albero per evitare gli attacchi. Odiando l'acqua, scompare appena inizia a piovere.
+To avoid being attacked, it does nothing but mimic a tree. It hates water and flees from rain.
 186
 Il pennacchio arricciato sul capo di Politoed simboleggia il suo stato di re. Si dice che piu' lungo e piu' arricciato e' il pennacchio, maggiore sia il rispetto che questo Pokemon riceve dai suoi pari.
 Il pennacchio arricciato sul capo di Politoed simboleggia il suo stato di re. Si dice che piu' lungo e piu' arricciato e' il pennacchio, maggiore sia il rispetto che questo Pokemon riceve dai suoi pari.
@@ -32290,10 +32335,10 @@ La coda, provvista di un piccolo cervello, morde di propria volontà se avverte 
 Its tail, which also contains a small brain, may bite on its own if it notices an alluring smell.
 204
 Inspessisce il guscio aggiungendo strati di corteccia. Non lo impensierisce le'aumento di peso.
-Inspessisce il guscio aggiungendo strati di corteccia. Non lo impensierisce le'aumento di peso.
+It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.
 205
 L'intero corpo e' protetto da un guscio duro come acciaio. Nessuno sa cosa si trovi sotto le'armatura.
-L'intero corpo e' protetto da un guscio duro come acciaio. Nessuno sa cosa si trovi sotto le'armatura.
+Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.
 206
 Scava nel terreno con la coda creando una tana simile a un labirinto. Sa spiccare brevissimi voli.
 Scava nel terreno con la coda creando una tana simile a un labirinto. Sa spiccare brevissimi voli.
@@ -32434,31 +32479,31 @@ Ha il potere di viaggiare attraverso il tempo, ma si dice che appaia solo in per
 It has the power to travel across time, but it is said to appear only in peaceful times.
 252
 Treecko e' dotato di piccoli uncini sulla pianta delle zampe, che gli consentono di camminare su pareti verticali. Attacca frustando i suoi nemici con la coda grossa e forte.
-Treecko e' dotato di piccoli uncini sulla pianta delle zampe, che gli consentono di camminare su pareti verticali. Attacca frustando i suoi nemici con la coda grossa e forte.
+Treecko has small hooks on the bottom of its feet that enable it to scale vertical walls. This Pokémon attacks by slamming foes with its thick tail.
 253
-Le foglie che crescono sul corpo di Grovyle sono utili per mimetizzarsi contro i nemici nella foresta. Questo Pokemon sa arrampicarsi sugli alberi della giungla con una maestria senza pari.
-Le foglie che crescono sul corpo di Grovyle sono utili per mimetizzarsi contro i nemici nella foresta. Questo Pokemon sa arrampicarsi sugli alberi della giungla con una maestria senza pari.
+Le foglie che crescono sul corpo di Grovyle sono utili per mimetizzarsi contro i nemici nella foresta. 
+Leaves grow out of this Pokémon's body. They help obscure a Grovyle from the eyes of its enemies while it is in a thickly overgrown forest.
 254
 Sulla schiena di Sceptile crescono alcuni semi che si dice siano ricchi di nutrienti per gli alberi. Questo Pokemon coltiva amorevolmente le sue piante nella foresta.
-Sulla schiena di Sceptile crescono alcuni semi che si dice siano ricchi di nutrienti per gli alberi. Questo Pokemon coltiva amorevolmente le sue piante nella foresta.
+Sceptile has seeds growing on its back. They are said to be bursting with nutrients that revitalize trees. This Pokémon raises the trees in a forest with loving care.
 255
 Nel ventre ha una sacca di fuoco. Se lo si abbraccia, emana calore come una borsa dell'acqua calda.
-Nel ventre ha una sacca di fuoco. Se lo si abbraccia, emana calore come una borsa dell'acqua calda.
+Inside its body is a place where it keeps a small flame. Hug it! It will be as warm as a hot-water bottle.
 256
 Possiede l'abilita' di sferrare anche 10 calci al secondo. Emette urla strazianti per intimorire i nemici.
-Possiede l'abilita' di sferrare anche 10 calci al secondo. Emette urla strazianti per intimorire i nemici.
+Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes.
 257
 Blaziken si dedica alle arti marziali che usano pugni e calci. A cicli di molti anni, le sue piume bruciano, lasciando il posto a un nuovo morbido piumaggio.
-Blaziken si dedica alle arti marziali che usano pugni e calci. A cicli di molti anni, le sue piume bruciano, lasciando il posto a un nuovo morbido piumaggio.
+It learns martial arts that use punches and kicks. Every several years, its old feathers burn off, and new, supple feathers grow back in their place.
 258
 La pinna sulla testa di Mudkip agisce come un radar sensibilissimo. Usando questa pinna come sensore in acqua e in aria, riesce a determinare cosa succede intorno a lui senza bisogno di guardare.
-La pinna sulla testa di Mudkip agisce come un radar sensibilissimo. Usando questa pinna come sensore in acqua e in aria, riesce a determinare cosa succede intorno a lui senza bisogno di guardare.
+The fin on Mudkip's head acts as highly sensitive radar. Using this fin to sense movements of water and air, this Pokémon can determine what is taking place around it without using its eyes.
 259
-La superficie corporea di Marshtomp e' avvolta da una spessa pellicola appiccicosa che gli consente di vivere sulla terraferma. Questo Pokemon gioca con la fanghiglia sul fondo del mare nei momenti di bassa marea.
-La superficie corporea di Marshtomp e' avvolta da una spessa pellicola appiccicosa che gli consente di vivere sulla terraferma. Questo Pokemon gioca con la fanghiglia sul fondo del mare nei momenti di bassa marea.
+La superficie corporea di Marshtomp e' avvolta da una spessa pellicola appiccicosa che gli consente di vivere sulla terraferma.
+The surface of Marshtomp's body is enveloped by a thin, sticky film that enables it to live on land.
 260
-Swampert prevede le tempeste poiche' grazie alle pinne percepisce le sottili differenze nel suono delle onde e dei venti dovuti alle maree. In caso di burrasca imminente, crea delle pile di massi per proteggere la tana.
-Swampert prevede le tempeste poiche' grazie alle pinne percepisce le sottili differenze nel suono delle onde e dei venti dovuti alle maree. In caso di burrasca imminente, crea delle pile di massi per proteggere la tana.
+Swampert prevede le tempeste poiche' grazie alle pinne percepisce le sottili differenze nel suono delle onde e dei venti dovuti alle maree.
+Swampert predicts storms by sensing subtle differences in the sounds of waves and tidal winds with its fins.
 261
 Pokemon molto tenace. L'olfatto sviluppatissimo gli permette di seguire una preda senza mai perderne le tracce.
 A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.
@@ -32587,7 +32632,7 @@ Si cela nell'oscurita' delle caverne. Si nutre di gemme e per questo i suoi occh
 Si cela nell'oscurita' delle caverne. Si nutre di gemme e per questo i suoi occhi sono pietre preziose.
 303
 Le sue due enormi mandibole sono corna trasformate. Con esse puo' masticare persino travi di ferro.
-Le sue due enormi mandibole sono corna trasformate. Con esse puo' masticare persino travi di ferro.
+Attached to its head is a huge set of jaws formed by horns. It can chew through iron beams.
 304
 Il suo corpo è costituito d'acciaio. Per mantenerne la consistenza, si ciba di pepite di ferro rinvenute scavando in montagna.
 This Pokémon has a body of steel. To make its body, Aron feeds on iron ore that it digs from mountains. 
@@ -32743,10 +32788,10 @@ Un peluche divenuto Pokemon per la rabbia di essere stato buttato via da un bimb
 Un peluche divenuto Pokemon per la rabbia di essere stato buttato via da un bimbo, di cui e' alla ricerca.
 355
 Adora il pianto dei bambini. Spaventa i bimbi cattivi passando attraverso le pareti.
-Adora il pianto dei bambini. Spaventa i bimbi cattivi passando attraverso le pareti.
+It loves the crying of children. It startles bad kids by passing through walls and making them cry.
 356
 Il suo corpo e' vuoto. Pare che chiunque si avvicini per guardare dentro venga risucchiato.
-Il suo corpo e' vuoto. Pare che chiunque si avvicini per guardare dentro venga risucchiato.
+Its body is hollow. It is said that those who look into its body are sucked into the void.
 357
 Poiché era solito mangiare frutti deliziosi, questi hanno cominciato a crescergli attorno al collo.
 Because it continually ate only its favorite fruit, the fruit started growing around its neck.
@@ -32992,9 +33037,9 @@ One caused a news sensation when it was dug up at a construction site after a 2,
 One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.
 438
 Sembra che pianga tutto il tempo. In realta' regola il livello dei fluidi del corpo eliminando gli eccessi.
-Sembra che pianga tutto il tempo. In realta' regola il livello dei fluidi del corpo eliminando gli eccessi.
+It looks as if it is always crying. It is actually adjusting its body's fluid levels by eliminating excess.
 439
-It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokemon.
+Imita i movimenti dei nemici. Quando un nemico viene imitato, non riesce più a distogliere lo sguardo da lui.
 It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokemon.
 440
 Dato che è ancora piccolo e non può deporre uova, cerca pietre bianche e tonde da usare in sostituzione.
@@ -33108,7 +33153,7 @@ A master of courtesy and swordsmanship, it fights using extending swords on its 
 È in grado di controllare tre piccole unità dette Mininasi per catturare le sue prede senza doversi spostare.
 The main body controls three mobile units called Mini-Noses, which it maneuvers to catch prey.
 477
-The antenna on its head captures radio waves from the world of spirits that command it to take people there.
+Capta con l'antenna onde che arrivano dal mondo degli spiriti, che gli ordinano di portare lì le persone.
 The antenna on its head captures radio waves from the world of spirits that command it to take people there.
 478
 Congela con il suo alito glaciale gli esseri umani e i Pokemon che gli piacciono e li usa per decorare la sua tana.
@@ -34814,6 +34859,33 @@ Almost incapable of moving, this Pokémon can only harden its shell to protect i
 1464
 Vola velocemente e attacca usando la sua robusta corazza.
 Fly fast and attack using its sturdy armor.
+1465
+Inspessisce il guscio aggiungendo strati di corteccia. Non lo impensierisce le'aumento di peso.
+It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.
+1466
+L'intero corpo e' protetto da un guscio duro come acciaio. Nessuno sa cosa si trovi sotto le'armatura.
+Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.
+1467
+Il suo cucciolo cresce dentro al marsupio. È pronto a qualsiasi lotta pur di proteggerlo.
+Raises its young in its belly pouch. Won't run from any fight to keep its young protected.
+1468
+Pokémon di indole pacifica. Si vocifera che le sue tre code possano moltiplicarsi se ha un forte legame con il suo allenatore.
+Pokémon of peaceful nature. It is said that its three tails can multiply if it has a strong bond with its trainer.
+1469
+Si traveste da albero per evitare gli attacchi. Odiando l'acqua, scompare appena inizia a piovere.
+To avoid being attacked, it does nothing but mimic a tree. It hates water and flees from rain.
+1470
+Scava piccole buche per procurarsi del cibo. Si mimetizza in un piccolo fungo nascondendosi dai predatori.
+Digs small holes to get food. It camouflages in a small mushroom hiding from predators.
+1471
+Scava per bere dalle radici degli alberi. I funghi sulla sua schiena sono parassiti.
+Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.
+1472
+Il fungo sulla schiena assorbe l'energia dall'insetto ospitante su cui ha anche pieno controllo.
+A mushroom grown larger than the host's body controls Parasect. It scatters poisonous spores.
+1473
+La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
+Its gestures and motions convince watchers that something unseeable actually exists. Once it is believed, it will exist as if it were a real thing.
 2000
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
@@ -34895,6 +34967,12 @@ Due to its relaxed and carefree attitude, it often bumps its head on boulders an
 2027
 Il suo corpo simile a metallo lucidato è leggero e resistente, ma ha il difetto di arrugginire facilmente.
 Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily.
+2028
+Con la fiamma della coda brucia i fluidi corporei generati dalle sue sacche di veleno, producendo un gas velenoso.
+Its venom sacs produce a fluid that this Pokémon then heats up with the flame in its tail. 
+2029
+Esistono solo esemplari femmina. Produce un gas ricco di feromoni con cui ammalia i Salandit maschi.
+Only female Salazzle exist. They emit a gas laden with pheromones to captivate male Salandit.
 [4]
 19
 Kanto,Alola
@@ -41640,6 +41718,9 @@ Poison Stone
 791
 Lettera di Aster
 Aster's Letter
+729 
+Update Pinza
+Gripper Update
 [8]
 1
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
@@ -43891,6 +43972,9 @@ A peculiar stone that makes certain species of Pokémon evolve. It is colored pu
 791
 Una speciale lettera inviata da Aster.
 A special letter sent by Aster.
+792
+Update contenente i dati del Pokémon Dusclops. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Dusclops's data. It makes the Pokémon evolve via Pokémon Transfer.
 [9]
 1
 Tanfo
