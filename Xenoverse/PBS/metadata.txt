@@ -3560,7 +3560,6 @@ ShowArea=false
 # Bunker Abbandonato
 BattleBack=Aula
 Bicycle=false
-DarkMap=true
 Outdoor=false
 BicycleAlways=false
 ShowArea=true
@@ -3568,7 +3567,6 @@ ShowArea=true
 # Bunker Abbandonato
 BattleBack=Aula
 Bicycle=false
-DarkMap=true
 Outdoor=false
 BicycleAlways=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
@@ -3576,7 +3574,6 @@ WildBattleBGM=VS. Versil Dragalisk.mp3
 # Bunker Abbandonato
 BattleBack=Aula
 Bicycle=false
-DarkMap=true
 Outdoor=false
 BicycleAlways=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
@@ -3590,7 +3587,20 @@ ShowArea=false
 BattleBack=Aula
 Bicycle=false
 Dungeon=false
-DarkMap=true
+Outdoor=false
+BicycleAlways=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
+ShowArea=false
+[597]
+# Bunker Abbandonato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[598]
+# Bunker Abbandonato
+BattleBack=Aula
+Bicycle=false
+Dungeon=false
 Outdoor=false
 BicycleAlways=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
