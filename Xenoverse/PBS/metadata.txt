@@ -3605,3 +3605,11 @@ Outdoor=false
 BicycleAlways=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
 ShowArea=false
+[599]
+# Bunker Abbandonato
+BattleBack=Aula
+Bicycle=false
+Outdoor=false
+BicycleAlways=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
+ShowArea=false
