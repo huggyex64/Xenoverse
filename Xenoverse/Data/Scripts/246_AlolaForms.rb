@@ -1095,6 +1095,12 @@ def pbGetEvolvedFormData(species,delta=false)
 end
 
 def pbCheckEvolutionEx(pokemon)
+
+  rushnoevo=[:BLINGRIMM, :PEPEQUENO, :SCOVILE, :EXCALIBOULD, :PECKABONE]
+
+  for species in rushnoevo
+    return -1 if isConst?(pokemon.species,PBSpecies,species) && pokemon.form>0
+  end
   return -1 if pokemon.species<=0 || pokemon.isEgg?
   return -1 if isConst?(pokemon.species,PBSpecies,:PICHU) && pokemon.form==1
   return -1 if isConst?(pokemon.item,PBItems,:EVERSTONE) &&

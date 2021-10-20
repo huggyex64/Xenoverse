@@ -137,6 +137,8 @@ HEIGHT=1.9
 WEIGHT=99.7
 TYPE1=17
 TYPE2=9
+[1035_1]
+DESCRIPTION=(Forma Rush)\n È il tormento dei minatori. Essere colpiti dal suo Ferrartigli equivale a intossicazione certa.
 [1049_1]
 DESCRIPTION=(Forma Terrestre)\n L'esposizione all'Energia Terrestre sembra aver sortito degli effetti. Scarica i suoi fulmini all'improvviso, avvolto tra le tenebre del suo mantello.
 HEIGHT=0.8
@@ -145,6 +147,16 @@ WEIGHT=21.7
 DESCRIPTION=(Forma Xenoverse)\n Sembra risentire anche dell'influsso dell'Energia Blu, divenendo più truce e selvaggio. Lancia terribili tuoni neri dalla criniera irta di elettricità.
 HEIGHT=1.7
 WEIGHT=111
+[1053_1]
+DESCRIPTION=(Forma Rush)\n È ricoperto da una sostanza oleosa piccante. Si mimetizza in mezzo alle Bacche aspettando di essere addentato, poi se la ride di gusto.
+[1054_1]
+DESCRIPTION=(Forma Rush)\n La coda è indice della sua temperatura corporea, nonché del suo umore. Quando è infuriato, incendia ogni cosa.
+[1055_1]
+DESCRIPTION=(Forma Rush)\n Questa pila di ciottoli ha preso vita grazie allo spirito combattivo dei paladini del passato che alberga nella spada in essa incastonata.
+[1061_1]
+DESCRIPTION=(Forma Rush)\n Si muove grazie all'energia condivisa dall'intero banco. Pare che, dato l'elevato apporto calorico, i Chubiburny siano la sua preda favorita.
+[1072_1]
+DESCRIPTION=(Forma Rush)\n Si nutre solo di ciò che sottrae ai predatori. Dopo averli scoraggiati col motivo sul piumaggio, si avventa avidamente sul bottino.
 [1077_1]
 DESCRIPTION=(Tinta Rossa)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
 [1077_2]
@@ -153,6 +165,18 @@ DESCRIPTION=(Tinta Gialla)\n Quello che sembra un graffito è in realtà un Pok�
 DESCRIPTION=(Tinta Blu)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
 [1077_4]
 DESCRIPTION=(Tinta Viola)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle città, schernisce con sonore risate chi gli capita a tiro.
+[1077_5]
+DESCRIPTION=(Tinta Rush)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle giungle, schernisce con sonore risate chi gli capita a tiro.
+[1078_1]
+DESCRIPTION=(Forma Corallo)\n È timidissimo e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Sono rari i casi in cui passa al contrattacco.
+[1078_2]
+DESCRIPTION=(Forma Bronzo)\n È timidissimo e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Ha un vago senso di orgoglio.
+[1078_3]
+DESCRIPTION=(Forma Argento)\n È timidissimo e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Sente di aver ottenuto dei buoni risultati.
+[1078_4]
+DESCRIPTION=(Forma Oro)\n È timidissimo e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Si copre della sua gloria e ne va fiero.
+[1078_5]
+DESCRIPTION=(Forma Super)\n Emana un'aura potentissima e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Non è nemmeno la sua forma finale.
 [1079_1]
 DESCRIPTION=(Forma Agglomeratto)\n Le zone più inquinate delle città brulicano di Chimaooze. Quando è in pericolo, chiama a raccolta tutti i suoi simili per debellare la minaccia.
 HEIGHT=7.8
