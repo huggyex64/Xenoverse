@@ -437,8 +437,8 @@ class NewPokemonStorage
 					@heldmonsprite = nil
 					@heldog = []
 				elsif @sprites["partybox"].party[@selIndex-16] != nil && @sprites["partybox"].party[@selIndex-16] != @heldmon #switch
-					echoln "#{!@heldog[0]} #{!checkSwitchedParty(@heldmon,@sprites["partybox"].party[@selIndex-16])} #{@heldmon.hp<=0}"
-					if !@heldog[0] && !checkSwitchedParty(@heldmon,@sprites["partybox"].party[@selIndex-16]) && @heldmon.hp<=0
+					echoln "#{!@heldog[0]} #{!checkSwitchedParty(@heldmon,@sprites["partybox"].party[@selIndex-16])} #{(@heldmon.hp<=0 || @heldmon.isEgg?)}"
+					if !checkSwitchedParty(@heldmon,@sprites["partybox"].party[@selIndex-16]) && (@heldmon.hp<=0 || @heldmon.isEgg?)
 						Kernel.pbMessage(_INTL("You can't leave your Pokémon here!"))
 						return
 					end
@@ -545,7 +545,7 @@ class NewPokemonStorage
 			end
 		end
 		echoln "Ret is #{ret}"
-		if pkmn.hp>0
+		if pkmn.hp>0 && !pkmn.isEgg?
 			ret=true
 		end
 		return ret
@@ -698,11 +698,11 @@ class NewPokemonStorage
 					oldsprites=pbFadeOutAndHide(merged)
 					scene=PokemonSummaryScene.new
 					screen=PokemonSummary.new(scene)
-          if @selIndex<=15
-            @selection=screen.pbStartScreen(@storage.boxes[@storage.currentBox],@selIndex)
+         			if @selIndex<=15
+            			@selection=screen.pbStartScreen(@storage.boxes[@storage.currentBox],@selIndex)
 					else
-            @selection=screen.pbStartScreen($Trainer.party,@selIndex-16)
-          end
+						@selection=screen.pbStartScreen($Trainer.party,@selIndex-16)
+					end
           #pbSetArrow(@sprites["arrow"],@selection)
 					#pbUpdateOverlay(@selection)
 					pbFadeInAndShow(merged,oldsprites)
