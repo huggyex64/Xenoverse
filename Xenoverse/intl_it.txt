@@ -6675,8 +6675,11 @@ Salandit
 Salazzle
 Salazzle
 2030
-Cramorant
-Cramorant
+Toxel
+Toxel
+2031
+Toxtricity
+Toxtricity
 [2]
 1
 Seme
