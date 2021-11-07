@@ -467,6 +467,7 @@ snivy101
 Smogon XY/SM/SWOSHI Sprite Project
 falgaia
 leParagon
+zerudez
 
 Pokemon Sprites:
 http://www.pkparaiso.com/
