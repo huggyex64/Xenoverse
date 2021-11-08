@@ -295,7 +295,11 @@ WEIGHT=253
 DESCRIPTION=(MegaEvoluzione)\n Il potere della MegaEvoluzione ha reso Entei ancora più possente. La sua criniera arde come un vulcano attivo.
 HEIGHT=2.4
 WEIGHT=210
-[245_2]
-DESCRIPTION=(MegaEvoluzione)\n Il potere della MegaEvoluzione ha reso Suicune ancora più maestoso. La sua criniera risplende dei colori dell'aurora boreale.
-HEIGHT=2
-WEIGHT=200
+[531_1]
+DESCRIPTION=(MegaEvoluzione)\n Questo Pokémon dal cuore tenero è in grado di percepire le condizioni fisiche e mentali di chi tocca con le antenne.
+Height=15
+Weight=320
+[254_1]
+DESCRIPTION=(MegaEvoluzione)\n Le foglie che crescono sulle sue braccia tagliano anche grandi alberi. Nel suo habitat, è imbattibile.
+Height=19
+Weight=552
