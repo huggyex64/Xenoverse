@@ -28138,8 +28138,8 @@ BattlerEnemyY=24
 [2030]
 Name=Toxel
 InternalName=TOXEL
-Type1=ELECTRIC
-Type2=SUONO
+Type1=SUONO
+Type2=POISON
 BaseStats=40,38,35,40,54,35
 GenderRate=Female50Percent
 GrowthRate=Medium
@@ -28164,8 +28164,8 @@ BattlerEnemyY=24
 [2031]
 Name=Toxtricity
 InternalName=TOXTRICITY
-Type1=ELECTRIC
-Type2=SUONO
+Type1=SUONO
+Type2=POISON
 BaseStats=75,98,70,75,114,70
 GenderRate=Female50Percent
 GrowthRate=Medium

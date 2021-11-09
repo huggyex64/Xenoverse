@@ -752,3 +752,4 @@
 793,LUDICOLOITE,Ludicoloite,1,0,"Un esemplare delle misteriose Megapietre. Data a Ludicolo, gli permette di megaevolversi durante la lotta.",0,0,0,
 794,SHIFTRYITE,Shiftryite,1,0,"Un esemplare delle misteriose Megapietre. Data a Shiftry, gli permette di megaevolversi durante la lotta.",0,0,0,
 795,FUNEDIFUGAPLUS,Fune di Fuga +,8,0,"Una speciale opera di Maurice. Questo apparecchio ti consente di ritornare all'entrata dal Bunker Abbandonato.",0,0,6,
+796,GENEX,Gene X,8,0,Uno strano anello creato da Victor, intriso di una forte energia oscura che permette di far cambiare forma ad alcuni Pokémon.,1,0,0,
