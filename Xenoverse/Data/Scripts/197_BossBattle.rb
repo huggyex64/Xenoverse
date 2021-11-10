@@ -1585,7 +1585,7 @@ Events.onWildPokemonCreate+=proc {|sender,e|
     pokemon.item = $mods.item
     $mods.item = nil
   end
-  echoln "boss:#{isBoss?} 85:#{$game_switches[85]}"
+  #echoln "boss:#{isBoss?} 85:#{$game_switches[85]}"
   if isBoss? && $game_switches[85]
     pokemon.setBoss($mods.lives,$bgs != nil ? $mods.bgs : "test2")
   end

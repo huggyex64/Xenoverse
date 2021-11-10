@@ -246,3 +246,4 @@
 246,SYNTHESIZER,Fonosintesi,"Ridà PS se si subisce una mossa di tipo Suono."
 247,SCALATE,Pelledraco,"Le mosse di tipo Normale diventano di tipo Drago."
 248,EQUALIZE,Pellegrido,"Le mosse di tipo Normale diventano di tipo Suono."
+249,PUNKROCK,Punk Rock,"Aumenta la potenza delle mosse basate sul suono. Ne dimezza i danni se viene colpito da tali mosse."

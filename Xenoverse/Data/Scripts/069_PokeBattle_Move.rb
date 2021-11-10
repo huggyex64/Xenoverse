@@ -737,6 +737,15 @@ class PokeBattle_Move
 		if attacker.effects[PBEffects::HelpingHand] && (options&SELFCONFUSE)==0
 			damagemult=(damagemult*1.5).round
 		end
+
+		# PUNK ROCK
+		if attacker.hasWorkingAbility(:PUNKROCK) && isSoundBased?
+			damagemult=(damagemult*1.2).round
+		end
+		if opponent.hasWorkingAbility(:PUNKROCK) && isSoundBased?
+			damagemult=(damagemult*0.5).round
+		end
+
 		if isConst?(type,PBTypes,:FIRE)
 			for i in 0...4
 				if @battle.battlers[i].effects[PBEffects::WaterSport] && !@battle.battlers[i].isFainted?
