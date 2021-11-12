@@ -9934,8 +9934,11 @@ Lucertossina
 Lucertossina
 Lucertossina
 2030
-Inghiottone
-Inghiottone
+Bebè
+Bebè
+2031
+Punk
+Punk
 [3]
 1
 Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
@@ -13186,6 +13189,12 @@ Con la fiamma della coda brucia i fluidi corporei generati dalle sue sacche di v
 2029
 Esistono solo esemplari femmina. Produce un gas ricco di feromoni con cui ammalia i Salandit maschi.
 Esistono solo esemplari femmina. Produce un gas ricco di feromoni con cui ammalia i Salandit maschi.
+2030
+Produce elettricità grazie a una reazione chimica delle sue tossine. Il voltaggio è debole, ma può intorpidire il nemico.
+Produce elettricità grazie a una reazione chimica delle sue tossine. Il voltaggio è debole, ma può intorpidire il nemico.
+2031
+È litigioso e irascibile. Ingurgita acqua stagnante in grandi quantità per assorbire le tossine in essa contenute.
+È litigioso e irascibile. Ingurgita acqua stagnante in grandi quantità per assorbire le tossine in essa contenute.
 [4]
 19
 Kanto,Alola
@@ -22182,6 +22191,18 @@ Una speciale lettera inviata da Aster.
 792
 Update contenente i dati del Pokémon Dusclops. Permette al Pokémon di evolversi tramite Trasferitore.
 Update contenente i dati del Pokémon Dusclops. Permette al Pokémon di evolversi tramite Trasferitore.
+793
+Un esemplare delle misteriose Megapietre. Data a Bellossom, gli permette di megaevolversi durante la lotta.
+Un esemplare delle misteriose Megapietre. Data a Bellossom, gli permette di megaevolversi durante la lotta.
+794
+Un esemplare delle misteriose Megapietre. Data a Shiftry, gli permette di megaevolversi durante la lotta.
+Un esemplare delle misteriose Megapietre. Data a Shiftry, gli permette di megaevolversi durante la lotta.
+795
+Una speciale opera di Maurice. Questo apparecchio ti consente di uscire dal Bunker Abbandonato.
+Una speciale opera di Maurice. Questo apparecchio ti consente di uscire dal Bunker Abbandonato.
+796
+Un anello creato da Victor intriso di energia X. Permette di trasformare geneticamente alcuni Pokémon.
+Un anello creato da Victor intriso di energia X. Permette di trasformare geneticamente alcuni Pokémon.
 [9]
 1
 Tanfo
