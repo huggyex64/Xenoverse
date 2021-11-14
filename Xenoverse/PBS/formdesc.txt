@@ -323,3 +323,7 @@ WEIGHT=210
 DESCRIPTION=(MegaEvoluzione)\n Il potere della MegaEvoluzione ha reso Suicune ancora più maestoso. La sua criniera risplende dei colori dell'aurora boreale.
 HEIGHT=2
 WEIGHT=200
+[470_1]
+DESCRIPTION=(Stile Lucente)\n Le sue cellule hanno caratteristiche molto simili a quelle dei vegetali. Può ricavare energia vitale tramite fotosintesi.
+[471_1]
+DESCRIPTION=(Stile Splendente)\n In un istante congela l'umidità circostante e crea granelli di ghiaccio che scaglia sulla preda.
