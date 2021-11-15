@@ -12502,6 +12502,7 @@ Kind=Rigoglioso
 Pokedex=Le sue cellule hanno caratteristiche molto simili a quelle dei vegetali. Può ricavare energia vitale tramite fotosintesi.
 BattlerPlayerY=24
 BattlerEnemyY=17
+FormNames=Normal,Brilliant
 [471]
 Name=Glaceon
 InternalName=GLACEON
@@ -12526,6 +12527,7 @@ Kind=Nevefresca
 Pokedex=In un istante congela l'umidità circostante e crea granelli di ghiaccio che scaglia sulla preda.
 BattlerPlayerY=22
 BattlerEnemyY=35
+FormNames=Normal,Shining
 [472]
 Name=Gliscor
 InternalName=GLISCOR

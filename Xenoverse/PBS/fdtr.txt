@@ -314,3 +314,11 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma Super)\n Emana un'aura potentissima e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Non è nemmeno la sua forma finale.
 (Rush Form)\n This Pokémon emanates a real powerful aura. When in danger, it withdraws in its shell as hard as steel. It's not even its final form.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Lucente)\n Le sue cellule hanno caratteristiche molto simili a quelle dei vegetali. Può ricavare energia vitale tramite fotosintesi.
+(Brilliant Style)\n Its cellular composition is closer to that of a plant than an animal. It uses photosynthesis to produce its energy supply without eating food.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Splendente)\n In un istante congela l'umidità circostante e crea granelli di ghiaccio che scaglia sulla preda.
+(Shining Style)\n It can control its body temperature at will. This enables it to freeze the moisture in the atmosphere, creating flurries of diamond dust.
