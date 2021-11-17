@@ -3557,7 +3557,12 @@ Bicycle=false
 Outdoor=false
 ShowArea=false
 [592]
-# Cammino dell'Eroe
+# Bunker Abbandonato
 Bicycle=false
 Outdoor=false
 ShowArea=false
+[614]
+# Paradiso Sakura
+Bicycle=true
+Outdoor=true
+ShowArea=true
