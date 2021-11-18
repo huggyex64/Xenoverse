@@ -749,6 +749,34 @@ class Game_Character
     end
   end
 
+  def jumpPeak(x_plus, y_plus, peak)
+    if x_plus != 0 or y_plus != 0
+      if x_plus.abs > y_plus.abs
+        x_plus < 0 ? turn_left : turn_right
+      else
+        y_plus < 0 ? turn_up : turn_down
+      end
+    end
+    new_x = @x + x_plus
+    new_y = @y + y_plus
+    oldX=@x
+    oldY=@y
+    if (x_plus == 0 and y_plus == 0) or passable?(new_x, new_y, 0)
+      straighten
+      @x = new_x
+      @y = new_y
+      distance = [4, x_plus * x_plus + y_plus * y_plus].max
+      @jump_peak = peak #6 + distance - @move_speed
+      @jump_peak = @jump_peak.floor
+      @jump_count = @jump_peak * 2
+      @stop_count = 0
+      if self.is_a?(Game_Player)
+        $PokemonTemp.dependentEvents.pbMoveDependentEvents
+      end
+      triggerLeaveTile()
+    end
+  end
+
   def jumpForward
     case self.direction
     when 2 # down

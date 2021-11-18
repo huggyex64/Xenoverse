@@ -61,6 +61,7 @@ def pbEmergencySave
   $scene=nil
   Kernel.pbMessage(_INTL("The script is taking too long. The game will restart."))
   return if !$Trainer
+=begin
   if safeExists?(RTP.getSaveFileName("Game.rxdata"))
     File.open(RTP.getSaveFileName("Game.rxdata"),  'rb') {|r|
        File.open(RTP.getSaveFileName("Game.rxdata.bak"), 'wb') {|w|
@@ -75,6 +76,7 @@ def pbEmergencySave
   else
     Kernel.pbMessage(_INTL("\\se[]Save failed.\\wtnp[30]"))
   end
+=end
   $scene=oldscene
 end
 

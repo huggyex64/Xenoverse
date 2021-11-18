@@ -1817,6 +1817,7 @@ class PokeBattle_Battle
 	################################################################################
 	def pbGainEXP
 		return if !@internalbattle
+		return if defined?($ISINTOURNAMENT) && $ISINTOURNAMENT #Skip exp while in tournament
 		successbegin=true
 		for i in 0...4 # Not ordered by priority
 			if !@doublebattle && pbIsDoubleBattler?(i)
