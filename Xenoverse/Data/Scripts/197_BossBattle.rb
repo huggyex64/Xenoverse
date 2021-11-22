@@ -233,7 +233,7 @@ class PokeBattle_Battle
 				if wildpoke.boss
 					pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} wants to battle!",wildpoke.name))
           # GRENINJAX END SENDOUT
-          if NEWBOSSES.include?($wildSpecies)
+          if NEWBOSSES.include?($wildSpecies) && (isBoss?() ? (defined?($furiousBattle) && $furiousBattle) : false) #NEWBOSSES.include?($wildSpecies)
             @scene.newBossSequence.finish if @scene.newBossSequence
             @scene.newBossSequence.sendout if @scene.newBossSequence
           else
@@ -259,7 +259,7 @@ class PokeBattle_Battle
         if wildpoke.boss
 					pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} wants to battle!",wildpoke.name))
           # GRENINJAX END SENDOUT
-          if NEWBOSSES.include?($wildSpecies)
+          if NEWBOSSES.include?($wildSpecies) && (isBoss?() ? (defined?($furiousBattle) && $furiousBattle) : false) #NEWBOSSES.include?($wildSpecies)
             @scene.newBossSequence.finish if @scene.newBossSequence
             @scene.newBossSequence.sendout if @scene.newBossSequence
           else
@@ -1293,7 +1293,8 @@ NEWBOSSES = [PBSpecies::GRENINJAX,
              PBSpecies::RAIKOU,
              PBSpecies::VENUSAUR,
              PBSpecies::CHARIZARD,
-             PBSpecies::BLASTOISE]
+             PBSpecies::BLASTOISE,
+             PBSpecies::ELEKIDX]
 
 def isBoss?
   ret = false
@@ -1368,6 +1369,7 @@ def containsNewBosses?(party)
 end
 
 def pbVenusaurBossBattle
+  $furiousBattle = true
   $game_switches[85] = true
   $mods.set(2, nil, nil)
   $wildSpecies = PBSpecies::VENUSAUR
@@ -1388,10 +1390,12 @@ def pbVenusaurBossBattle
 
   result = pbStartBossBattleMon(pkmn,nil,nil,false)
   $game_switches[85] = false
+  $furiousBattle = false
   return result
 end
 
 def pbCharizardBossBattle
+  $furiousBattle = true
   $game_switches[85] = true
   $mods.set(2, nil, nil)
   $wildSpecies = PBSpecies::CHARIZARD
@@ -1429,10 +1433,12 @@ def pbCharizardBossBattle
 
   result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
+  $furiousBattle = false
   return result
 end
 
 def pbBlastoiseBossBattle
+  $furiousBattle = true
   $game_switches[85] = true
   $mods.set(2, nil, nil)
   $wildSpecies = PBSpecies::BLASTOISE
@@ -1453,10 +1459,12 @@ def pbBlastoiseBossBattle
 
   result = pbStartBossBattleMon(pkmn,nil,nil,false)
   $game_switches[85] = false
+  $furiousBattle = false
   return result
 end
 
 def pbSuicuneBossBattle
+  $furiousBattle = true
   pbRegisterPartner(PBTrainers::EVANSUICUNE,"Claudio")
   $game_switches[85] = true
   $mods.set(5, nil, nil)
@@ -1494,10 +1502,12 @@ def pbSuicuneBossBattle
   result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
   pbDeregisterPartner()
+  $furiousBattle = false
   return result
 end
 
 def pbEnteiBossBattle
+  $furiousBattle = true
   pbRegisterPartner(PBTrainers::HENNEENTEI,"Henné")
   $game_switches[85] = true
   $mods.set(5, nil, nil)
@@ -1535,10 +1545,12 @@ def pbEnteiBossBattle
   result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
   pbDeregisterPartner()
+  $furiousBattle = false
   return result
 end
 
 def pbRaikouBossBattle
+  $furiousBattle = true
   pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
   $game_switches[85] = true
   $mods.set(5, nil, nil)
@@ -1576,15 +1588,18 @@ def pbRaikouBossBattle
   result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
   pbDeregisterPartner()
+  $furiousBattle = false
   return result
 end
 
 def pbEleSharpBossBattle
+  $furiousBattle = true
   pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
   $game_switches[85] = true
   $mods.set(2, nil, nil)
-  $wildSpecies = PBSpecies::CHARIZARD
-  #Charizard Y
+  $wildSpecies = PBSpecies::ELEKIDX
+
+  #Elekid X
   pkmn = pbGenerateWildPokemon(PBSpecies::ELEKIDX,100)
   pkmn.forcedForm = 1
   pkmn.pbDeleteAllMoves
@@ -1600,7 +1615,7 @@ def pbEleSharpBossBattle
   pkmn.spDef=267
   pkmn.speed=328
 
-  #Charizard X
+  #Sharpedo X
   pkmn2 = pbGenerateWildPokemon(PBSpecies::SHARPEDOX,100)
   pkmn2.forcedForm = 2
   pkmn2.pbDeleteAllMoves
@@ -1619,14 +1634,16 @@ def pbEleSharpBossBattle
   result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
   pbDeregisterPartner()
+  $furiousBattle = false
   return result
 end
 
 def pbGalvGeBossBattle
+  $furiousBattle = true
   pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
   $game_switches[85] = true
   $mods.set(2, nil, nil)
-  $wildSpecies = PBSpecies::CHARIZARD
+  $wildSpecies = PBSpecies::GALVANTULAX
   #Charizard Y
   pkmn = pbGenerateWildPokemon(PBSpecies::GALVANTULAX,100)
   pkmn.forcedForm = 1
@@ -1662,15 +1679,17 @@ def pbGalvGeBossBattle
   result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
   pbDeregisterPartner()
+  $furiousBattle = false
   return result
 end
 
 def pbRapiPuffBossBattle
+  $furiousBattle = true
   pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
   $game_switches[85] = true
   $mods.set(2, nil, nil)
-  $wildSpecies = PBSpecies::CHARIZARD
-  
+  $wildSpecies = PBSpecies::RAPIDASHX
+
   #Charizard Y
   pkmn = pbGenerateWildPokemon(PBSpecies::RAPIDASHX,100)
   pkmn.forcedForm = 1
@@ -1706,14 +1725,16 @@ def pbRapiPuffBossBattle
   result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
   pbDeregisterPartner()
+  $furiousBattle = false
   return result
 end
 
 def pbRoseTwoBossBattle
+  $furiousBattle = true
   pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
   $game_switches[85] = true
   $mods.set(2, nil, nil)
-  $wildSpecies = PBSpecies::CHARIZARD
+  $wildSpecies = PBSpecies::ROSERADEX
 
   #Charizard Y
   pkmn = pbGenerateWildPokemon(PBSpecies::ROSERADEX,100)
@@ -1750,6 +1771,7 @@ def pbRoseTwoBossBattle
   result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
   pbDeregisterPartner()
+  $furiousBattle = false
   return result
 end
 

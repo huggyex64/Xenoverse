@@ -99,6 +99,24 @@ class PokeBattle_Move_138 < PokeBattle_Move
 		return 0
 	end
 end
+################################################################################
+# Nuzzle
+################################################################################
+class PokeBattle_Move_139 < PokeBattle_Move	
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		ex = super(attacker,opponent,hitnum,alltargets,showanimation) if @basedamage>0
+		return -1 if !opponent.pbCanParalyze?(true)
+		typemod=pbTypeModifier(@type,attacker,opponent)
+		if typemod==0
+			@battle.pbDisplay(_INTL("It doesn't affect {1}...",opponent.pbThis(true)))
+			return -1
+		end
+		# pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+		opponent.pbParalyze(attacker)
+		@battle.pbDisplay(_INTL("{1} is paralyzed!  It may be unable to move!",opponent.pbThis))
+		return 0
+	end
+end
 ##########################################################################
 # Decreases the target's Attack and Special Attack by 1 stage each. (Noble Roar)
 ################################################################################
@@ -908,5 +926,24 @@ class PokeBattle_Move_180 < PokeBattle_Move
 		return -1 if !opponent.pbCanReduceStatStage?(PBStats::ATTACK,true)
 		ret=opponent.pbReduceStat(PBStats::ATTACK,1,false)
 		return ret ? 0 : -1
+	end
+end
+################################################################################
+# Inflicts damage and lowers the target special attack by one stage. (Snarl)
+###############################################################################
+class PokeBattle_Move_181 < PokeBattle_Move
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		ex = super(attacker,opponent,hitnum,alltargets,showanimation) if @basedamage>0
+		return -1 if !opponent.pbCanReduceStatStage?(PBStats::SPATK,true)
+		# pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+		ret=opponent.pbReduceStat(PBStats::SPATK,1,false)
+		return ret ? 0 : -1
+	end
+	
+	def pbAdditionalEffect(attacker,opponent)
+		if opponent.pbCanReduceStatStage?(PBStats::SPATK,false)
+			opponent.pbReduceStat(PBStats::SPATK,1,false)
+		end
+		return true
 	end
 end

@@ -348,7 +348,10 @@ class PokeBattle_Scene
 		if $smAnim
       if $game_switches[85]
         #GRENINJAX START
-        if NEWBOSSES.include?($wildSpecies)
+        sp = getConst(PBSpecies,$wildSpecies)
+        echoln "NEWBOSSES:#{NEWBOSSES.include?($wildSpecies)} BOSS_LIST:#{isBoss?()} Defined:#{defined?($furiousBattle)} Furious:#{defined?($furiousBattle) ? $furiousBattle : false}"
+        if NEWBOSSES.include?($wildSpecies) && (isBoss?() ? (defined?($furiousBattle) && $furiousBattle) : false)
+          echoln "NEW BOSS BATTLE START"
           vp = Viewport.new(0,0,Graphics.width,Graphics.height)
           vp.z = @viewport.z+1
           @newBossSequence = NewBossBattleTransition.new(vp,@msgview,self,0)

@@ -27,7 +27,7 @@
 27,NIGHTSLASH,Nottesferza,000,70,DARK,Physical,100,15,0,00,0,abefh,"Chi la usa lacera il bersaglio appena se ne presenta l'occasione. Probabile brutto colpo."
 28,BITE,Morso,00F,60,DARK,Physical,100,25,30,00,0,abe,"Il bersaglio viene morso da denti affilatissimi che possono farlo tentennare."
 29,FAINTATTACK,Finta,0A5,60,DARK,Physical,0,20,0,00,0,abef,"Chi la usa si avvicina amichevolmente al bersaglio, per poi colpirlo infallibilmente a tradimento."
-30,SNARL,Urlorabbia,045,55,DARK,Physical,95,15,0,04,0,befk,"Chi la usa si mette a urlare per un po', riducendo l'Attacco Speciale dei nemici."
+30,SNARL,Urlorabbia,181,55,DARK,Physical,95,15,0,04,0,befk,"Chi la usa si mette a urlare per un po', riducendo l'Attacco Speciale dei nemici."
 31,ASSURANCE,Garanzia,082,50,DARK,Physical,100,10,0,00,0,abef,"Se il bersaglio ha già subito dei danni nello stesso turno, la potenza di questa mossa raddoppia."
 32,PAYBACK,Rivincita,084,50,DARK,Physical,100,10,0,00,0,abef,"Chi la usa accumula forza, poi attacca. La potenza raddoppia se il Pokémon agisce dopo il bersaglio."
 33,PURSUIT,Inseguimento,088,40,DARK,Physical,100,20,0,00,0,abe,"Attacco che infligge un danno doppio se il bersaglio è in fase di sostituzione."

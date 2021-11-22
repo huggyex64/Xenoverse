@@ -241,7 +241,7 @@ def pbBattleAnimation(bgm=nil,trainerid=-1,trainername="",skip=false)
     if !$wildSpecies.nil? && queuedIsRegi?
       ebWildAnimationRegi(viewport)
     elsif !$wildSpecies.nil? && isBoss?
-      if !NEWBOSSES.include?($wildSpecies)
+      if !(NEWBOSSES.include?($wildSpecies) && (isBoss?() ? (defined?($furiousBattle) && $furiousBattle) : false))
         echoln "STARTING OLD TRANSITION"
         vsXSpecies(viewport,$wildSpecies)
       end
