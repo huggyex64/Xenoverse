@@ -174,6 +174,28 @@ class Sprite
     self.bitmap.fill_rect(0,0,width,height,color)
   end
   
+  #-----------------------------------------------------------------------------
+  #  gets zoom
+  #-----------------------------------------------------------------------------
+  def zoom
+    return self.zoom_x
+  end
+  #-----------------------------------------------------------------------------
+  #  sets all zoom values
+  #-----------------------------------------------------------------------------
+  def zoom=(val)
+    self.zoom_x = val
+    self.zoom_y = val
+  end
+
+  def width
+    return self.src_rect.width
+  end
+  
+  def height
+    return self.src_rect.height
+  end
+
   def center(snap=false)
     self.ox = self.src_rect.width/2
     self.oy = self.src_rect.height/2
@@ -182,6 +204,14 @@ class Sprite
       self.y = self.viewport.rect.height/2
     end
   end
+  
+  #-----------------------------------------------------------------------------
+  #  applies screenshot as sprite bitmap
+  #-----------------------------------------------------------------------------
+  def snap_screen
+    return self.snapScreen;
+  end
+  def screenshot; self.snap_screen; end
   
   def snapScreen
     bmp = Graphics.snap_to_bitmap
@@ -193,6 +223,16 @@ class Sprite
     self.bitmap.blt(0,0,bmp,Rect.new(x,y,width,height))    
   end
   
+  def center!(snap = false)
+    self.ox = self.width/2
+    self.oy = self.height/2
+    # aligns with the center of the sprite's viewport
+    if snap && self.viewport
+      self.x = self.viewport.rect.width/2
+      self.y = self.viewport.rect.height/2
+    end
+  end
+
   def skew(angle=90)
     return false if !self.bitmap
     angle=angle*(Math::PI/180)

@@ -361,6 +361,8 @@ BAN_LIST=[:LUXFLON]
 REWARDPOOL=[:POTION,:GREATBALL,:POKEBALL,:ESCAPEROPE]
 REWARDLOSINGPOOL=[:POTION,:ANTIDOTE]
 
+TOURNAMENT_OPPONENT_EVENT_ID = 19
+TOURNAMENT_EVENT_ID = 18
 
 
 ################################################################################
@@ -384,10 +386,8 @@ def moveStars(leftStar,rightStar)
   leftStar.borderY=100
 end
 
-def pbTestMask
-  #v=Viewport.new(0,0,Graphics.width,Graphics.height)
-  #v.z=99999
-  #@sprites={}
+def pbTestMas
+  
   #Initializing graphics element as well as starting animation
   v=Viewport.new(0,0,Graphics.width,Graphics.height)
   v.z=99999
@@ -1176,9 +1176,9 @@ class PWT
 
     $game_switches[1201]=true
 
-    $game_map.events[19].character_name = @opponent[0]
-    $game_map.events[19].turn_left
-    $game_map.events[18].start
+    $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].character_name = @opponent[0]
+    $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].turn_left
+    $game_map.events[TOURNAMENT_EVENT_ID].start
 
   end
   
@@ -1747,7 +1747,7 @@ def pbTournamentBattle(trainerid,trainername,endspeech,
 end
 
 def pbTT
-    $pwt = PWT.new($Trainer,0)
+    $pwt = PWT.new($Trainer,0,nil,true)
 end
 
 def pbt
@@ -1764,4 +1764,8 @@ def pbt
     newPool.push(tempPool[j][rand(2)])
   end
   echoln newPool
+end
+
+def pbTrans(method)
+  pbTransferWithTransition(10,10,10,method)
 end

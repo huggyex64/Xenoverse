@@ -1579,6 +1579,181 @@ def pbRaikouBossBattle
   return result
 end
 
+def pbEleSharpBossBattle
+  pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
+  $game_switches[85] = true
+  $mods.set(2, nil, nil)
+  $wildSpecies = PBSpecies::CHARIZARD
+  #Charizard Y
+  pkmn = pbGenerateWildPokemon(PBSpecies::ELEKIDX,100)
+  pkmn.forcedForm = 1
+  pkmn.pbDeleteAllMoves
+  moves = [:SOLARBEAM, :HEATWAVE, :AIRSLASH, :ANCIENTPOWER]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+  pkmn.totalHp=297*2
+  pkmn.hp=pkmn.totalhp
+  pkmn.attack=191
+  pkmn.defense=192
+  pkmn.spAtk=417
+  pkmn.spDef=267
+  pkmn.speed=328
+
+  #Charizard X
+  pkmn2 = pbGenerateWildPokemon(PBSpecies::SHARPEDOX,100)
+  pkmn2.forcedForm = 2
+  pkmn2.pbDeleteAllMoves
+  moves = [:FIREPUNCH, :DRAGONCLAW, :THUNDERPUNCH, :ROCKSLIDE]
+  for m in moves
+    pkmn2.pbLearnMove(m)
+  end
+  pkmn2.totalHp=297*2
+  pkmn2.hp=pkmn2.totalhp
+  pkmn2.attack=359
+  pkmn2.defense=258
+  pkmn2.spAtk=266
+  pkmn2.spDef=207
+  pkmn2.speed=328
+
+  result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
+  $game_switches[85] = false
+  pbDeregisterPartner()
+  return result
+end
+
+def pbGalvGeBossBattle
+  pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
+  $game_switches[85] = true
+  $mods.set(2, nil, nil)
+  $wildSpecies = PBSpecies::CHARIZARD
+  #Charizard Y
+  pkmn = pbGenerateWildPokemon(PBSpecies::GALVANTULAX,100)
+  pkmn.forcedForm = 1
+  pkmn.pbDeleteAllMoves
+  moves = [:SOLARBEAM, :HEATWAVE, :AIRSLASH, :ANCIENTPOWER]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+  pkmn.totalHp=297*2
+  pkmn.hp=pkmn.totalhp
+  pkmn.attack=191
+  pkmn.defense=192
+  pkmn.spAtk=417
+  pkmn.spDef=267
+  pkmn.speed=328
+
+  #Charizard X
+  pkmn2 = pbGenerateWildPokemon(PBSpecies::GENGARX,100)
+  pkmn2.forcedForm = 2
+  pkmn2.pbDeleteAllMoves
+  moves = [:FIREPUNCH, :DRAGONCLAW, :THUNDERPUNCH, :ROCKSLIDE]
+  for m in moves
+    pkmn2.pbLearnMove(m)
+  end
+  pkmn2.totalHp=297*2
+  pkmn2.hp=pkmn2.totalhp
+  pkmn2.attack=359
+  pkmn2.defense=258
+  pkmn2.spAtk=266
+  pkmn2.spDef=207
+  pkmn2.speed=328
+
+  result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
+  $game_switches[85] = false
+  pbDeregisterPartner()
+  return result
+end
+
+def pbRapiPuffBossBattle
+  pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
+  $game_switches[85] = true
+  $mods.set(2, nil, nil)
+  $wildSpecies = PBSpecies::CHARIZARD
+  
+  #Charizard Y
+  pkmn = pbGenerateWildPokemon(PBSpecies::RAPIDASHX,100)
+  pkmn.forcedForm = 1
+  pkmn.pbDeleteAllMoves
+  moves = [:SOLARBEAM, :HEATWAVE, :AIRSLASH, :ANCIENTPOWER]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+  pkmn.totalHp=297*2
+  pkmn.hp=pkmn.totalhp
+  pkmn.attack=191
+  pkmn.defense=192
+  pkmn.spAtk=417
+  pkmn.spDef=267
+  pkmn.speed=328
+
+  #Charizard X
+  pkmn2 = pbGenerateWildPokemon(PBSpecies::SLURPUFFX,100)
+  pkmn2.forcedForm = 2
+  pkmn2.pbDeleteAllMoves
+  moves = [:FIREPUNCH, :DRAGONCLAW, :THUNDERPUNCH, :ROCKSLIDE]
+  for m in moves
+    pkmn2.pbLearnMove(m)
+  end
+  pkmn2.totalHp=297*2
+  pkmn2.hp=pkmn2.totalhp
+  pkmn2.attack=359
+  pkmn2.defense=258
+  pkmn2.spAtk=266
+  pkmn2.spDef=207
+  pkmn2.speed=328
+
+  result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
+  $game_switches[85] = false
+  pbDeregisterPartner()
+  return result
+end
+
+def pbRoseTwoBossBattle
+  pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
+  $game_switches[85] = true
+  $mods.set(2, nil, nil)
+  $wildSpecies = PBSpecies::CHARIZARD
+
+  #Charizard Y
+  pkmn = pbGenerateWildPokemon(PBSpecies::ROSERADEX,100)
+  pkmn.forcedForm = 1
+  pkmn.pbDeleteAllMoves
+  moves = [:SOLARBEAM, :HEATWAVE, :AIRSLASH, :ANCIENTPOWER]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+  pkmn.totalHp=297*2
+  pkmn.hp=pkmn.totalhp
+  pkmn.attack=191
+  pkmn.defense=192
+  pkmn.spAtk=417
+  pkmn.spDef=267
+  pkmn.speed=328
+
+  #Charizard X
+  pkmn2 = pbGenerateWildPokemon(PBSpecies::MEWTWOX,100)
+  pkmn2.forcedForm = 2
+  pkmn2.pbDeleteAllMoves
+  moves = [:FIREPUNCH, :DRAGONCLAW, :THUNDERPUNCH, :ROCKSLIDE]
+  for m in moves
+    pkmn2.pbLearnMove(m)
+  end
+  pkmn2.totalHp=297*2
+  pkmn2.hp=pkmn2.totalhp
+  pkmn2.attack=359
+  pkmn2.defense=258
+  pkmn2.spAtk=266
+  pkmn2.spDef=207
+  pkmn2.speed=328
+
+  result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
+  $game_switches[85] = false
+  pbDeregisterPartner()
+  return result
+end
+
+
 Events.onWildPokemonCreate+=proc {|sender,e|
   pokemon=e[0]
   if $mods.item != nil
