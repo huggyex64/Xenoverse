@@ -157,7 +157,7 @@ SPECIEX = [
 
 def pbCheckMakeX(pokemon)
   return -1 if pokemon.species <= 0 || pokemon.isEgg?
-  makex = {:RAICHU=>:RAICHUX, :BISHARP=>:BISHARPX, :SCOVILE=>:SCOVILEX, :TYRANITAR=>:TYRANITARX}
+  makex = {:BISHARP=>:BISHARPX, :SCOVILE=>:SCOVILEX, :TYRANITAR=>:TYRANITARX}
   for i in makex.keys
     return getConst(PBSpecies,makex[i]) if pokemon.species == getConst(PBSpecies,i)
   end
@@ -165,7 +165,7 @@ def pbCheckMakeX(pokemon)
 end
 
 def pbTransformToX(pokemon)
-  makex = {:RAICHU=>:RAICHUX, :BISHARP=>:BISHARPX, :SCOVILE=>:SCOVILEX, :TYRANITAR=>:TYRANITARX}
+  makex = {:BISHARP=>:BISHARPX, :SCOVILE=>:SCOVILEX, :TYRANITAR=>:TYRANITARX}
   return if !makex.keys.any?{|species| getConst(PBSpecies,species) == pokemon.species}
   newSp = 0
   for i in makex.keys
@@ -1325,7 +1325,10 @@ NEWBOSSES = [PBSpecies::GRENINJAX,
              PBSpecies::VENUSAUR,
              PBSpecies::CHARIZARD,
              PBSpecies::BLASTOISE,
-             PBSpecies::ELEKIDX]
+             PBSpecies::ELEKIDX,
+             PBSpecies::GALVANTULAX,
+             PBSpecies::RAPIDASHXBOSS2,
+             PBSpecies::ROSERADEX]
 
 def isBoss?
   ret = false
@@ -1719,10 +1722,10 @@ def pbRapiPuffBossBattle
   pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
   $game_switches[85] = true
   $mods.set(2, nil, nil)
-  $wildSpecies = PBSpecies::RAPIDASHX
+  $wildSpecies = PBSpecies::RAPIDASHXBOSS2
 
   #Charizard Y
-  pkmn = pbGenerateWildPokemon(PBSpecies::RAPIDASHX,100)
+  pkmn = pbGenerateWildPokemon(PBSpecies::RAPIDASHXBOSS2,100)
   pkmn.forcedForm = 1
   pkmn.pbDeleteAllMoves
   moves = [:SOLARBEAM, :HEATWAVE, :AIRSLASH, :ANCIENTPOWER]

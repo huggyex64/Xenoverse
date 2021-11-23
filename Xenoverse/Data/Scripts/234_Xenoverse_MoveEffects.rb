@@ -958,6 +958,7 @@ class PokeBattle_Move_205 < PokeBattle_Move
 			return -1
 		end
 		pool = XENODEX.clone
+		pool.delete(PBSpecies::MEWTWOX)
 		pool.delete(PBSpecies::BISHARPX)
 		pool.delete(PBSpecies::RAICHUX)
 		pool.delete(PBSpecies::TYRANITARX)
