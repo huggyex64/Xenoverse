@@ -2375,16 +2375,20 @@ MultipleForms.register(:MASGOT,{
 			houndoom_maps = [165,166,167,169,170,171]
 			ampharos_maps = [181,182,559]
 			bouffalant_maps = [219,224,225,226,227,228,229,230]
-			camerupt_maps = [78,80,86,435,436,437,438,439]
-			steelix_maps = [276]
+			camerupt_maps = [78,80,86,435,436,437,438,439,596]
+			steelix_maps = [276,593]
 			alakazam_maps = [286,287,288,289,290,292,294]
 			dragonite_maps = [42]
 			granbull_maps = [79]
-			
+
 			#dlc
 			gengar_maps = [444,569,571,573]
 			venusaur_maps = [446,575,577,579,581]
 			weavile_maps = [457,458,459,585,588]
+
+			hypno_maps = [602]
+			beedrill_maps = [599]
+
 
 			if $game_map && gengar_maps.include?($game_map.map_id)
 				next 1 #GENGAR FORM
@@ -2400,10 +2404,14 @@ MultipleForms.register(:MASGOT,{
 				next 5 #AMPHAROS FORM
 			elsif $game_map && bouffalant_maps.include?($game_map.map_id)
 				next 10 #BOUFFALANT FORM
+			elsif $game_map && beedrill_maps.include?($game_map.map_id)
+				next 11 #BEEDRILl MAPS
 			elsif $game_map && camerupt_maps.include?($game_map.map_id)
 				next 12 #CAMERUPT FORM
 			elsif $game_map && steelix_maps.include?($game_map.map_id)
 				next 13 #STEELIX FORM
+			elsif $game_map && hypno_maps.include?($game_map.map_id)
+				next 15 #HYPNO FORM
 			elsif $game_map && alakazam_maps.include?($game_map.map_id)
 				next 16 #ALAKAZAM FORM
 			elsif $game_map && dragonite_maps.include?($game_map.map_id)

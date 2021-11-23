@@ -1335,6 +1335,11 @@ def pbWildBattle(species,level,variable=nil,canescape=true,canlose=false,modifie
          $game_system.bgs_unpause
          Kernel.pbStartOver
        end
+
+       if $game_switches[1093] && $game_map.map_id==596
+        $game_switches[1093] = false
+       end
+
      end
      Events.onEndBattle.trigger(nil,decision)
   }

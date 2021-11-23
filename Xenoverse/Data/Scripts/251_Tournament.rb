@@ -356,6 +356,10 @@ TRAINERPOOL_basic=[  #ALMENO 8 ALLENATORI
 TRAINERPOOL_hard=[]  #ALMENO 16 ALLENATORI
 TRAINERPOOL_expert=[]  #ALMENO 32 ALLENATORI
 
+SKILL_LEVELS={
+  PBTrainers::ALTERTREY=>100,
+}
+
 BAN_LIST=[:LUXFLON]
 
 REWARDPOOL=[:POTION,:GREATBALL,:POKEBALL,:ESCAPEROPE]
@@ -387,7 +391,7 @@ def moveStars(leftStar,rightStar)
 end
 
 def pbTestMas
-  
+
   #Initializing graphics element as well as starting animation
   v=Viewport.new(0,0,Graphics.width,Graphics.height)
   v.z=99999

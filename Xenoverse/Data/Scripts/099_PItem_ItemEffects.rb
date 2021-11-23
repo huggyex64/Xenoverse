@@ -193,6 +193,68 @@ ItemHandlers::UseFromBag.add(:PERGAMENA4,proc{|item|
     show_MLG_Item("pergamena4", string=nil)
  })
 
+# X GENE AND ESCAPEROPE +
+ItemHandlers::UseOnPokemon.add(:GENEX,proc{|item,pokemon,scene|
+  newspecies=pbCheckMakeX(pokemon)
+  if newspecies<=0
+    scene.pbDisplay(_INTL("It won't have any effect."))
+    next false
+  end
+  if Kernel.pbConfirmMessage(_INTL("Attention! Using the X Gene on a Pokémon will alter its species permanently. Do you want to proceed anyway?"))
+    if Kernel.pbConfirmMessage(_INTL("Are you really sure you want to proceed anyway?"))
+      scene.makeX(pokemon)
+    end
+    next true
+  else
+    next false
+  end
+})
+
+AVAILABLE_MAPS = {
+  150=>[135,33,13,2], #SCORPIOPOLI, TEST
+}
+
+ItemHandlers::UseFromBag.add(:FUNEDIFUGAPLUS,proc{|item|
+  if !AVAILABLE_MAPS.keys.include?($game_map.map_id)
+    Kernel.pbMessage(_INTL("It can't be used here."))
+    echoln "POGGERS"
+    next 0
+  else
+    next 4
+  end
+})
+
+ItemHandlers::UseInField.add(:FUNEDIFUGAPLUS,proc{|item|
+  
+  echoln "Map ID: #{$game_map.map_id} "
+  #135, 98, 48, 2
+  if !AVAILABLE_MAPS.keys.include?($game_map.map_id)
+    Kernel.pbMessage(_INTL("It can't be used here."))
+    next
+  end
+  escape=AVAILABLE_MAPS[$game_map.map_id]#($PokemonGlobal.escapePoint rescue nil)
+  if !escape || escape==[]
+    Kernel.pbMessage(_INTL("Can't use that here."))
+    next
+  end
+  if $game_player.pbHasDependentEvents?
+    Kernel.pbMessage(_INTL("It can't be used when you have someone with you."))
+    next
+  end
+  Kernel.pbMessage(_INTL("{1} used the Escape Rope +.",$Trainer.name))
+  pbFadeOutIn(99999){
+     Kernel.pbCancelVehicles
+     $game_temp.player_new_map_id=escape[0]
+     $game_temp.player_new_x=escape[1]
+     $game_temp.player_new_y=escape[2]
+     $game_temp.player_new_direction=escape[3]
+     $scene.transfer_player
+     $game_map.autoplay
+     $game_map.refresh
+  }
+  #pbEraseEscapePoint
+})
+
 #===============================================================================
 # UseOnPokemon handlers
 #===============================================================================
@@ -226,7 +288,7 @@ ItemHandlers::UseOnPokemon.copy(:FIRESTONE,
    :BOTFERRO,:BOTCHELE,:BOTVIRTUALE,:BOTABISSO,:BOTMARINO,
    :BOTTRAPANO,:BOTSAETTA,:BOTPRESSIONE,:BOTFORZA,:BOTPANNA,
    :BOTANTICO,:BOTTENEREZZA,:BOTERRORE,:BOTWES,:XENOLITE,
-   :ICESTONE,:EVOPUPPILLON,:PEZZIDIRICAMBIO,:BOTINFERNO,:BOTDRAGO,:POISONSTONE)
+   :ICESTONE,:EVOPUPPILLON,:PEZZIDIRICAMBIO,:BOTINFERNO,:BOTDRAGO,:POISONSTONE,:BOTPINZA)
 
 ItemHandlers::UseOnPokemon.add(:POTION,proc{|item,pokemon,scene|
    next pbHPItem(pokemon,20,scene)

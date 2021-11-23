@@ -155,6 +155,36 @@ SPECIEX = [
   PBSpecies::GRENINJAX
 ]
 
+def pbCheckMakeX(pokemon)
+  return -1 if pokemon.species <= 0 || pokemon.isEgg?
+  makex = {:RAICHU=>:RAICHUX, :BISHARP=>:BISHARPX, :SCOVILE=>:SCOVILEX, :TYRANITAR=>:TYRANITARX}
+  for i in makex.keys
+    return getConst(PBSpecies,makex[i]) if pokemon.species == getConst(PBSpecies,i)
+  end
+  return -1
+end
+
+def pbTransformToX(pokemon)
+  makex = {:RAICHU=>:RAICHUX, :BISHARP=>:BISHARPX, :SCOVILE=>:SCOVILEX, :TYRANITAR=>:TYRANITARX}
+  return if !makex.keys.any?{|species| getConst(PBSpecies,species) == pokemon.species}
+  newSp = 0
+  for i in makex.keys
+    if getConst(PBSpecies,i) == pokemon.species
+      newSp = makex[i]
+      break
+    end
+  end
+  p = pokemon.clone
+  p.species = getConst(PBSpecies,newSp)
+  p.calcStats
+
+  return p
+end
+
+def pbTestX
+  $Trainer.party[5]=pbTransformToX($Trainer.party[0])
+end
+
 def hasSpeciesX?(poke)
   ret = false
   for i in 0...SPECIEX.length

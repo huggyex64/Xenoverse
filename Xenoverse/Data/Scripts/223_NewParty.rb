@@ -176,12 +176,10 @@ class PokeSelectionSprite < SpriteWrapper
 		refresh
 	end
 	
-	def changeForm(form = 1)
-		@fcIcon.bitmap = pbBitmap("Graphics/Pictures/PartyNew/tform") if form == 1
-		@fcIcon.bitmap = pbBitmap("Graphics/Pictures/PartyNew/xform") if form == 2
-		@fcIcon.bitmap = Bitmap.new(1,1) if pokemon.form == 0
+	def makeX
+		@fcIcon.bitmap = pbBitmap("Graphics/Pictures/PartyNew/xform")
 		hideInfo
-    pbSEPlay("party1",100)
+    	pbSEPlay("party1",100)
 		zoom(0,1,10)
 		10.times do
 			update
@@ -194,7 +192,51 @@ class PokeSelectionSprite < SpriteWrapper
 		end
 		@fcIcon.zoom(1,1,40,:ease_in_cubic)
 		@fcIcon.fade(255,10)
-    pbSEPlay("party2",100)
+    	pbSEPlay("party2",100)
+		i = 0
+		30.times do
+			@blackScreen.fade(175,5) if i == 25
+			@blackScreen.update
+			@fcIcon.update
+			Graphics.update
+			i+=1
+		end
+		@fcIcon.zoom(1.4,1.4,4)
+		4.times do
+			@fcIcon.update
+			Graphics.update
+		end
+		@fcIcon.zoom(1,1,10)
+		10.times do
+			@fcIcon.update
+			Graphics.update
+		end
+		@blackScreen.fade(0,4)
+		4.times do
+			@blackScreen.update
+			Graphics.update
+		end
+	end
+
+	def changeForm(form = 1)
+		@fcIcon.bitmap = pbBitmap("Graphics/Pictures/PartyNew/tform") if form == 1
+		@fcIcon.bitmap = pbBitmap("Graphics/Pictures/PartyNew/xform") if form == 2
+		@fcIcon.bitmap = Bitmap.new(1,1) if pokemon.form == 0
+		hideInfo
+    	pbSEPlay("party1",100)
+		zoom(0,1,10)
+		10.times do
+			update
+			Graphics.update
+		end
+		@blank.zoom(1,1,10)
+		10.times do
+			@blank.update
+			Graphics.update
+		end
+		@fcIcon.zoom(1,1,40,:ease_in_cubic)
+		@fcIcon.fade(255,10)
+    	pbSEPlay("party2",100)
 		i = 0
 		30.times do
 			@blackScreen.fade(175,5) if i == 25
@@ -222,7 +264,7 @@ class PokeSelectionSprite < SpriteWrapper
 	
 	def restoreSlot
 		@fcIcon.zoom(0,1,10)
-    pbSEPlay("party1",100)
+   		pbSEPlay("party1",100)
 		@blank.zoom(0,1,10)
 		10.times do
 			@fcIcon.update
@@ -232,7 +274,7 @@ class PokeSelectionSprite < SpriteWrapper
 		self.bitmap.clear
 		#self.bitmap.zoom_x = oldzx if self.bitmap.zoom_x != oldzx
 		self.bitmap.blt(0,0,@slotbg,Rect.new(0,0,@slotbg.width,@slotbg.height))
-		evaluateIconPath
+		evaluateIconPath()
 		self.bitmap.blt(53,113,pbBitmap(@path+"healthbar_bg"),Rect.new(0,0,86,11))
 		self.bitmap.blt(33,10,pbBitmap(@iconpath),Rect.new(0,0,75,74))
 		zoom(1,1,10)
@@ -274,15 +316,15 @@ class PokeSelectionSprite < SpriteWrapper
 	end
 	
 	def evaluateIconPath
-    if @pokemon.isEgg?
+		if @pokemon.isEgg?
 			@iconpath = "Graphics/Pictures/DexNew/Icon/Egg"
 			return
 		end
 		@iconpath = "Graphics/Pictures/DexNew/Icon/" + "#{@pokemon.species}"#+ sprintf("%03d",@pokemon.species)
 		@iconpath = @iconpath+(@pokemon.form>0 && pbResolveBitmap(@iconpath + "_#{@pokemon.form}") ? "_#{@pokemon.form}" : "")
-    @iconpath = @iconpath+(@pokemon.isDelta? && pbResolveBitmap(@iconpath + "d") ? "d" : "" )
-    @iconpath = @iconpath+(@pokemon.gender==1 && pbResolveBitmap(@iconpath + "f") ? "f" : "" )
-  end
+		@iconpath = @iconpath+(@pokemon.isDelta? && pbResolveBitmap(@iconpath + "d") ? "d" : "" )
+		@iconpath = @iconpath+(@pokemon.gender==1 && pbResolveBitmap(@iconpath + "f") ? "f" : "" )
+	end
 	
 	def dispose
 		@healthbar.dispose
@@ -314,6 +356,13 @@ class PokeSelectionSprite < SpriteWrapper
 		end
 		@refreshBitmap=true
 		refresh
+	end
+
+	def pokemonNoRef=(value)
+		@pokemon=value
+		if @pkmnsprite && !@pkmnsprite.disposed?
+			@pkmnsprite.bitmap = Bitmap.new(1,1)#pokemon=value
+		end
 	end
 	
 	def preselected=(value)
@@ -990,6 +1039,7 @@ class PokemonScreen_Scene
 end
 
 class PokemonScreen_Scene
+	attr_accessor(:sprites)
 	alias pbStartFormChange_old pbStartFormChange unless self.method_defined?(:pbStartFormChange_old)
 	def pbStartFormChange(i)
 		if [PBSpecies::TRISHOUT,PBSpecies::SHYLEON,PBSpecies::SHULONG,PBSpecies::SABOLT].include?($Trainer.party[i].species)
@@ -1006,11 +1056,27 @@ class PokemonScreen_Scene
 			pbStartFormChange_old(i)
 		end
 	end
+
+	def makeX(pokemon)
+		i = $Trainer.party.index(pokemon)
+		if (i<0 || !i)
+			viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
+			viewport.z = 100010
+			@sprites["pokemon#{i}"].makeX
+			time = 40
+			
+			#pbSEPlay("anello",80)
+			pbWait(20)
+			@sprites["pokemon#{i}"].restoreSlot { pbRefreshSingle(i) }
+			Input.update
+			pbDisplay(_INTL("{1} ha cambiato forma!", @party[i].name))
+		end
+	end
 end
 
 class PokemonScreen
   
-  def pbChooseMove(pokemon,helptext)
+    def pbChooseMove(pokemon,helptext)
     movenames=[]
     for i in pokemon.moves
       break if i.id==0
@@ -1021,7 +1087,7 @@ class PokemonScreen
       end
     end
     return @scene.pbShowCommands(helptext,movenames,nil,0,pokemon,24)
-  end
+    end
   
 	def pbPokemonScreen
 		oldframerate = Graphics.frame_rate
@@ -1802,8 +1868,6 @@ class PokemonScreen
 		end
 	end
 	
-	
-	
 	def pbChooseMultiplePokemon(number,validProc)
 		annot=[]
 		statuses=[]
@@ -1901,6 +1965,23 @@ class PokemonScreen
 		return ret
 	end
 	
+	def makeX(pokemon)
+		i = $Trainer.party.index(pokemon)
+		echoln "pokemon index = #{i} "
+		if (!(i<0 || !i))
+			viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
+			viewport.z = 100010
+			@scene.sprites["pokemon#{i}"].makeX
+			
+			#pbSEPlay("anello",80)
+			$Trainer.party[i]=pbTransformToX(pokemon)
+			@scene.sprites["pokemon#{i}"].pokemonNoRef=$Trainer.party[i]
+
+			@scene.sprites["pokemon#{i}"].restoreSlot { @scene.pbRefreshSingle(i) }
+			Input.update
+			@scene.pbDisplay(_INTL("{1} became X!", @party[i].name))
+		end
+	end
 end
 
 

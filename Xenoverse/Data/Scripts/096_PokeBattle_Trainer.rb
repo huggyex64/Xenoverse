@@ -84,6 +84,10 @@ class PokeBattle_Trainer
 
   def skill   # Skill level (for AI)
     ret=0
+    if defined?($ISINTOURNAMENT) && $ISINTOURNAMENT
+      return 80 if !SKILL_LEVELS[@trainertype]
+      return SKILL_LEVELS[@trainertype]
+    end
     pbRgssOpen("Data/trainertypes.dat","rb"){|f|
        trainertypes=Marshal.load(f)
        return 30 if !trainertypes[@trainertype]
