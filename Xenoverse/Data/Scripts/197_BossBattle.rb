@@ -182,7 +182,8 @@ def pbTransformToX(pokemon)
 end
 
 def pbTestX
-  $Trainer.party[5]=pbTransformToX($Trainer.party[0])
+  $Trainer.party[0].moves[0]=PBMove.new(734)
+  pbWildBattle(:ABSOL,25)
 end
 
 def hasSpeciesX?(poke)

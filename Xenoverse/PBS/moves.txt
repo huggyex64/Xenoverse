@@ -709,3 +709,4 @@
 731,STARBURSTSHU,Ipernova,134,130,DRAGON,Special,90,5,0,00,0,efn,"Un'esplosione stellare infligge danni in base all'attacco più alto, ignorando qualsiasi Protezione."
 732,CONTROLLOPOLARE,Controllo Polare,136,0,ELECTRIC,Status,0,20,0,20,0,d,"Controllando i campi magnetici, aumentano Difesa e Difesa Speciale degli alleati con abilità Più o Meno."
 733,FIREKUNAI,Pirosquarcio,0A0,50,FIRE,Physical,95,10,0,00,1,abefgh,"Chi la usa attacca sempre per primo, colpendo il bersaglio con un kunai di fuoco. Brutto colpo assicurato."
+734,XTRANSFORM,Trasformazione X,205,0,NORMAL,Status,0,10,0,00,0,,"Chi la usa si trasforma in una copia esatta di una specie X casuale."

@@ -930,7 +930,7 @@ class PokeBattle_Move_180 < PokeBattle_Move
 end
 ################################################################################
 # Inflicts damage and lowers the target special attack by one stage. (Snarl)
-###############################################################################
+################################################################################
 class PokeBattle_Move_181 < PokeBattle_Move
 	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
 		ex = super(attacker,opponent,hitnum,alltargets,showanimation) if @basedamage>0
@@ -945,5 +945,58 @@ class PokeBattle_Move_181 < PokeBattle_Move
 			opponent.pbReduceStat(PBStats::SPATK,1,false)
 		end
 		return true
+	end
+end
+################################################################################
+# Randomly transforms into an X Pokemon. (X Transform)
+################################################################################
+class PokeBattle_Move_205 < PokeBattle_Move
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		blacklist=[]
+		if attacker.effects[PBEffects::Transform]
+			@battle.pbDisplay(_INTL("But it failed!"))
+			return -1
+		end
+		pool = XENODEX.clone
+		pool.delete(PBSpecies::BISHARPX)
+		pool.delete(PBSpecies::RAICHUX)
+		pool.delete(PBSpecies::TYRANITARX)
+		pool.delete(PBSpecies::SCOVILEX)
+		pool.delete(PBSpecies::TAPULELEX)
+		pool.delete(PBSpecies::TAPUFINIX)
+		pool.delete(PBSpecies::TAPUKOKOX)
+		pool.delete(PBSpecies::TAPUBULUX)
+
+		#remove self
+		pool.delete(PBSpecies::DITTOX)
+		x = PokeBattle_Pokemon.new(pool[rand(pool.length)],attacker.level,$Trainer)
+		#x = PokeBattle_Battler.new(attacker.battle,attacker.index)
+		#x.pbInitialize(xp,attacker.index,false)
+		pbShowAnimation(@id,attacker,attacker,hitnum,alltargets,true)
+		@battle.scene.pbChangePokemon(attacker,x)
+		attacker.effects[PBEffects::Transform]=true
+		attacker.species=x.species
+		attacker.type1=x.type1
+		attacker.type2=x.type2
+		#    attacker.ability=opponent.ability
+		attacker.attack=x.attack
+		attacker.defense=x.defense
+		attacker.speed=x.speed
+		attacker.spatk=x.spatk
+		attacker.spdef=x.spdef
+		#for i in [PBStats::ATTACK,PBStats::DEFENSE,PBStats::SPEED,
+		#		PBStats::SPATK,PBStats::SPDEF,PBStats::EVASION,PBStats::ACCURACY]
+		#	attacker.stages[i]=x.stages[i]
+		#end
+		for i in 0...4
+			attacker.moves[i]=PokeBattle_Move.pbFromPBMove(
+				@battle,PBMove.new(x.moves[i].id))
+			attacker.moves[i].pp=5 if attacker.moves[i].pp>5
+			attacker.moves[i].totalpp=5 if attacker.moves[i].totalpp>5
+		end
+		attacker.effects[PBEffects::Disable]=0
+		attacker.effects[PBEffects::DisableMove]=0
+		@battle.pbDisplay(_INTL("{1} transformed into {2}!",attacker.pbThis,x.name))
+		return 0
 	end
 end
