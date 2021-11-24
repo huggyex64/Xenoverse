@@ -3579,7 +3579,7 @@ BicycleAlways=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
 [595]
 # Bunker Abbandonato
-BattleBack=Cavern
+BattleBack=Miniera
 Bicycle=false
 Outdoor=false
 ShowArea=false
@@ -3594,7 +3594,7 @@ WildBattleBGM=VS. Versil Dragalisk.mp3
 ShowArea=false
 [597]
 # Bunker Abbandonato
-BattleBack=Cavern
+BattleBack=Miniera
 Bicycle=false
 Outdoor=false
 ShowArea=false
@@ -3624,7 +3624,7 @@ WildBattleBGM=VS. Versil Dragalisk.mp3
 ShowArea=false
 [601]
 # Bunker Abbandonato
-BattleBack=Cavern
+BattleBack=Miniera
 Bicycle=false
 Outdoor=false
 ShowArea=false
@@ -3642,8 +3642,10 @@ Outdoor=false
 ShowArea=false
 [604]
 # Bunker Abbandonato
+BattleBack=Bunker
 Bicycle=false
 Outdoor=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
 ShowArea=false
 [605]
 # Bunker Abbandonato
