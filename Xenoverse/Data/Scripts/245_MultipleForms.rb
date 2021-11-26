@@ -1683,6 +1683,56 @@ MultipleForms.register(:BLASTOISE,{
 		}
 	})
 
+MultipleForms.register(:SCEPTILE, {
+	"getMegaForm"=>proc{|pokemon|
+		next 1 if isConst?(pokemon.item,PBItems,:SCEPTILITE)
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 0 if pokemon.form == 1
+	},
+	"getMegaName"=>proc{|pokemon|
+		next _INTL("Mega Sceptile") if pokemon.form==1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [70,110,75,145,145,85] if pokemon.form==1
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities,:LIGHTNINGROD) if pokemon.form==1
+		next
+	},
+	"onSetForm"=>proc{|pokemon, form|
+		pbSeenForm(pokemon)
+	}
+})
+
+MultipleForms.register(:AUDINO, {
+	"getMegaForm"=>proc{|pokemon|
+		next 1 if isConst?(pokemon.item,PBItems,:AUDINITE)
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 0 if pokemon.form == 1
+	},
+	"getMegaName"=>proc{|pokemon|
+		next _INTL("Mega Audino") if pokemon.form==1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [103,60,126,50,80,126] if pokemon.form==1
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities,:HEALER) if pokemon.form==1
+		next
+	},
+	"onSetForm"=>proc{|pokemon, form|
+		pbSeenForm(pokemon)
+	}
+})
+
 # BEEDRILL
 MultipleForms.register(:BEEDRILL, {
 		"getMegaForm"=>proc{|pokemon|
@@ -2386,7 +2436,7 @@ MultipleForms.register(:MASGOT,{
 			venusaur_maps = [446,575,577,579,581]
 			weavile_maps = [457,458,459,585,588]
 
-			hypno_maps = [602]
+			hypno_maps = [602,604]
 			beedrill_maps = [599]
 
 
