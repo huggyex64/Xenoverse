@@ -3682,3 +3682,10 @@ ShowArea=false
 Bicycle=false
 Outdoor=false
 ShowArea=false
+[613]
+# Bunker Abbandonato
+BattleBack=Residence
+Bicycle=false
+TrainerBattleBGM=vs. TamaraFuria.mp3
+Outdoor=false
+ShowArea=false

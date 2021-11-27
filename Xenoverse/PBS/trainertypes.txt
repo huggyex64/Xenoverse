@@ -232,3 +232,4 @@
 235,RUTARAIKOU,(Selvaggio),200,,,,Male,
 236,HENNEENTEI,(Capopalestra),200,,,,Male,
 237,EVANSUICUNE,(Capopalestra),200,,,,Male,
+238,TAMARAFURIA,(Colonnello Dimension),255,vs. TamaraFuria,Team Dimension Victory,,Female,
