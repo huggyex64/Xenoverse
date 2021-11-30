@@ -3686,6 +3686,7 @@ ShowArea=false
 # Bunker Abbandonato
 BattleBack=Residence
 Bicycle=false
+TrainerVictoryME=Vittoria Victor Dimension.mp3
 TrainerBattleBGM=vs. TamaraFuria.mp3
 Outdoor=false
 ShowArea=false
