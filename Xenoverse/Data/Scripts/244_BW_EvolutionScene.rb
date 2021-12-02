@@ -100,6 +100,7 @@ class PokemonEvolutionScene
 		pk=PokeBattle_Pokemon.new(newspecies,1,$Trainer)
 		pk.setGender(@pokemon.gender)
 		pk.form = @pokemon.form
+		pk.setNature(@pokemon.nature)
 		pk.makeShiny if @pokemon.isShiny?
 		pk.makeDelta if @pokemon.isDelta?
 		
