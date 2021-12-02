@@ -9543,9 +9543,10 @@ Habitat=Forest
 Kind=Ipnosguardo
 Pokedex=Il suo corpo e' vuoto. Pare che chiunque si avvicini per guardare dentro venga risucchiato.
 WildItemUncommon=KASIBBERRY
+WildItemRare=BOTPINZA
 BattlerPlayerY=18
 BattlerEnemyY=30
-Evolutions=DUSKNOIR,TradeItem,REAPERCLOTH
+Evolutions=DUSKNOIR,Item,BOTPINZA   
 [357]
 Name=Tropius
 InternalName=TROPIUS
