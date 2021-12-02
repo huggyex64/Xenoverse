@@ -3690,3 +3690,12 @@ TrainerVictoryME=Vittoria Victor Dimension.mp3
 TrainerBattleBGM=vs. TamaraFuria.mp3
 Outdoor=false
 ShowArea=false
+[620]
+# Sagittopoli
+BattleBack=Beach
+Bicycle=true
+TrainerBattleBGM=VS.Trainer.mp3
+MapPosition=0,11,18
+Outdoor=true
+WildBattleBGM=Wild Battle.mp3
+ShowArea=true
