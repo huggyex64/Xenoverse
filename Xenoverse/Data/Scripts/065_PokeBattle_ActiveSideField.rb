@@ -14,6 +14,7 @@ begin
 			@effects[PBEffects::StickyWeb]   = false
       @effects[PBEffects::Tailwind]    = 0
       @effects[PBEffects::ToxicSpikes] = 0
+      @effects[PBEffects::VelvetScales] = false
     end
   end
 
@@ -28,7 +29,8 @@ begin
       @effects[PBEffects::MagicRoom]   = 0
 			@effects[PBEffects::IonDeluge]   = false
       @effects[PBEffects::TrickRoom]   = 0
-#      @effects[PBEffects::WonderRoom]  = 0
+      @effects[PBEffects::AcidRain]   = false
+#     @effects[PBEffects::WonderRoom]  = 0
     end
   end
 

@@ -753,3 +753,4 @@
 794,SHIFTRYITE,Shiftryite,1,0,"Un esemplare delle misteriose Megapietre. Data a Shiftry, gli permette di megaevolversi durante la lotta.",0,0,0,
 795,FUNEDIFUGAPLUS,Fune di Fuga +,8,0,"Una speciale opera di Maurice. Questo apparecchio ti consentirà di uscire dal Bunker Abbandonato.",2,0,6,
 796,GENEX,Gene X,8,0,"Un anello creato da Victor intriso di energia X. Permette di trasformare geneticamente alcuni Pokémon.",5,0,6,
+797,DIARIOTAMARA,Vecchio Diario,8,0,"Un diario contenente tutte le esperienze del proprietario.",2,0,6,

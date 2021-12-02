@@ -233,3 +233,6 @@
 236,HENNEENTEI,(Capopalestra),200,,,,Male,
 237,EVANSUICUNE,(Capopalestra),200,,,,Male,
 238,TAMARAFURIA,(Colonnello Dimension),255,vs. TamaraFuria,Team Dimension Victory,,Female,
+239,REVOLVER,(Cyborg),200,,,,Male,
+240,ALICEULTRA,(Allenatrice),127,vs.Rivale.mp3,Trainer Victory,Female,Female,
+241,MAURICEBUNKER,(S.P.E.T.T.R.I.),200,,,,Male,

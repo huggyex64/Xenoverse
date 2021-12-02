@@ -28,11 +28,24 @@ class PokeBattle_Pokemon
 	
 	alias :calcStats_old :calcStats
 	def calcStats
+    oldHp = @hp
 		calcStats_old
-		if @boss
-      @normalhp = @totalhp
-			@totalhp *= @hpMoltiplier
-			@hp = @totalhp
+		if @boss && @hp>0
+      echoln "=======> HP: #{@hp} : #{oldHp} TOTALHP: #{@totalhp} NORMALHP: #{@normalhp}"
+      #handles the normalhp in case there were stats overrides
+      @normalhp = @statsOverride==nil ? @totalhp : @totalhp / @hpMoltiplier
+      diff= @totalhp-oldHp
+      #handles the totalhp in case there were stats overrides
+			@totalhp *= @hpMoltiplier if @statsOverride==nil
+
+      if (diff == 0)
+        @hp = @totalhp
+      else
+        diff= @totalhp-oldHp
+        
+        @hp = @totalhp-diff
+      end
+      echoln "=======> HP: #{@hp} : #{oldHp} TOTALHP: #{@totalhp} NORMALHP: #{@normalhp}"
 		end
 	end
   
@@ -154,7 +167,6 @@ SPECIEX = [
 	PBSpecies::VAKUM,
   PBSpecies::GRENINJAX
 ]
-
 def pbCheckMakeX(pokemon)
   return -1 if pokemon.species <= 0 || pokemon.isEgg?
   makex = {:BISHARP=>:BISHARPX, :SCOVILE=>:SCOVILEX, :TYRANITAR=>:TYRANITARX}
@@ -177,6 +189,10 @@ def pbTransformToX(pokemon)
   p = pokemon.clone
   p.species = getConst(PBSpecies,newSp)
   p.calcStats
+
+  $Trainer.seen[p.species]=true
+  $Trainer.owned[p.species]=true
+  pbSeenForm(p)
 
   return p
 end
@@ -1628,42 +1644,41 @@ end
 
 def pbEleSharpBossBattle
   $furiousBattle = true
-  pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
+  pbRegisterPartner(PBTrainers::REVOLVER,"Revolver")
   $game_switches[85] = true
-  $mods.set(2, nil, nil)
+  $mods.set(3, nil, nil)
   $wildSpecies = PBSpecies::ELEKIDX
 
   #Elekid X
   pkmn = pbGenerateWildPokemon(PBSpecies::ELEKIDX,100)
-  pkmn.forcedForm = 1
   pkmn.pbDeleteAllMoves
-  moves = [:SOLARBEAM, :HEATWAVE, :AIRSLASH, :ANCIENTPOWER]
+  moves = [:TOXIC, :HEATWAVE, :TORMENT, :LIGHTSCREEN]
   for m in moves
     pkmn.pbLearnMove(m)
   end
-  pkmn.totalHp=297*2
+  pkmn.totalHp=454*2
   pkmn.hp=pkmn.totalhp
-  pkmn.attack=191
-  pkmn.defense=192
-  pkmn.spAtk=417
-  pkmn.spDef=267
-  pkmn.speed=328
+  pkmn.attack=357
+  pkmn.defense=200
+  pkmn.spAtk=401
+  pkmn.spDef=329
+  pkmn.speed=417
 
-  #Sharpedo X
+  #Sharpedo X  
+  $mods.set(4, nil, nil)
   pkmn2 = pbGenerateWildPokemon(PBSpecies::SHARPEDOX,100)
-  pkmn2.forcedForm = 2
   pkmn2.pbDeleteAllMoves
-  moves = [:FIREPUNCH, :DRAGONCLAW, :THUNDERPUNCH, :ROCKSLIDE]
+  moves = [:PHANTOMFORCE, :LIQUIDATION, :POISONJAB, :HEADSMASH]
   for m in moves
     pkmn2.pbLearnMove(m)
   end
-  pkmn2.totalHp=297*2
+  pkmn2.totalHp=597*2
   pkmn2.hp=pkmn2.totalhp
-  pkmn2.attack=359
-  pkmn2.defense=258
-  pkmn2.spAtk=266
-  pkmn2.spDef=207
-  pkmn2.speed=328
+  pkmn2.attack=520
+  pkmn2.defense=269
+  pkmn2.spAtk=10000000
+  pkmn2.spDef=269
+  pkmn2.speed=550
 
   result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
@@ -1674,41 +1689,39 @@ end
 
 def pbGalvGeBossBattle
   $furiousBattle = true
-  pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
+  pbRegisterPartner(PBTrainers::MAURICEBUNKER,"Maurice")
   $game_switches[85] = true
-  $mods.set(2, nil, nil)
+  $mods.set(4, nil, nil)
   $wildSpecies = PBSpecies::GALVANTULAX
-  #Charizard Y
+  #Galvantula
   pkmn = pbGenerateWildPokemon(PBSpecies::GALVANTULAX,100)
-  pkmn.forcedForm = 1
   pkmn.pbDeleteAllMoves
-  moves = [:SOLARBEAM, :HEATWAVE, :AIRSLASH, :ANCIENTPOWER]
+  moves = [:RAINDANCE, :STEALTHROCK, :ICYWIND, :ROUND]
   for m in moves
     pkmn.pbLearnMove(m)
   end
-  pkmn.totalHp=297*2
+  pkmn.totalHp=894
   pkmn.hp=pkmn.totalhp
-  pkmn.attack=191
-  pkmn.defense=192
-  pkmn.spAtk=417
-  pkmn.spDef=267
-  pkmn.speed=328
+  pkmn.attack=352#299
+  pkmn.defense=273#243
+  pkmn.spAtk=426#394
+  pkmn.spDef=273#243
+  pkmn.speed=527#523
 
-  #Charizard X
+  #Gengar
   pkmn2 = pbGenerateWildPokemon(PBSpecies::GENGARX,100)
-  pkmn2.forcedForm = 2
   pkmn2.pbDeleteAllMoves
-  moves = [:FIREPUNCH, :DRAGONCLAW, :THUNDERPUNCH, :ROCKSLIDE]
+  moves = [:DRAGONPULSE, :PSYSHOCK, :SHADOWBALL, :DRAGONENDURANCE]
   for m in moves
     pkmn2.pbLearnMove(m)
   end
-  pkmn2.totalHp=297*2
-  pkmn2.hp=pkmn2.totalhp
-  pkmn2.attack=359
-  pkmn2.defense=258
-  pkmn2.spAtk=266
-  pkmn2.spDef=207
-  pkmn2.speed=328
+  pkmn2.totalHp=946#1030   #Multiply by 2.6
+  pkmn2.hp=pkmn2.totalhp   #everything else by 1.3
+  pkmn2.attack=340#280
+  pkmn2.defense=359#334
+  pkmn2.spAtk=527#512
+  pkmn2.spDef=373#349
+  pkmn2.speed=297#267
 
   result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
@@ -1809,6 +1822,175 @@ def pbRoseTwoBossBattle
   return result
 end
 
+def pbTamaraBossBattle
+  
+  trainer=PokeBattle_Trainer.new(_INTL("Tamara"),PBTrainers::TAMARAFURIA)
+  trainer.setForeignID($Trainer) if $Trainer
+  party = []
+  $trainerbossbattle = true
+  $game_switches[85]=true
+  species = [PBSpecies::ELEKIDX,PBSpecies::SCOVILEX,PBSpecies::TYRANITARX,PBSpecies::LUXFLON]
+  for i in 0...4
+    #$mods.set(4, nil, nil)
+    #Elekid X
+    pkmn = pbGenerateWildPokemon(species[i],85)
+    pkmn.pbDeleteAllMoves
+    moves = [:TACKLE, :HEATWAVE, :TORMENT, :LIGHTSCREEN]
+    for m in moves
+      pkmn.pbLearnMove(m)
+    end
+    pkmn.totalHp=454*2
+    pkmn.hp=pkmn.totalhp
+    pkmn.attack=357
+    pkmn.defense=200
+    pkmn.spAtk=401
+    pkmn.spDef=329
+    pkmn.speed=417
+    pkmn.statsOverride = [454*2,357,200,417,401,329]
+    pkmn.setBoss(4)
+    party.push(pkmn)
+  end
+  trainer.party = party
+  result = pbBossTrainerBattle([trainer,[],trainer.party],_INTL("This can't be..."))
+  $game_switches[85]=false
+  $trainerbossbattle = false
+  return result
+end
+
+def pbBossTrainerBattle(trainer,endspeech)
+  #trainer=pbLoadTrainerTournament(trainerid,trainername,trainerparty)
+  #def pbTrainerBattle(trainerid,trainername,endspeech,
+  #  doublebattle=false,trainerparty=0,canlose=false,variable=nil)
+  doublebattle=false
+  trainerparty=0
+  canlose=false
+  variable=nil
+  Events.onTrainerPartyLoad.trigger(nil,trainer)
+  if !trainer
+    pbMissingTrainer(trainerid,trainername,trainerparty)
+    return false
+  end
+  if $PokemonGlobal.partner && ($PokemonTemp.waitingTrainer || doublebattle)
+    othertrainer=PokeBattle_Trainer.new(
+       $PokemonGlobal.partner[1],$PokemonGlobal.partner[0])
+    othertrainer.id=$PokemonGlobal.partner[2]
+    othertrainer.party=$PokemonGlobal.partner[3]
+    playerparty=[]
+    for i in 0...$Trainer.party.length
+      playerparty[i]=$Trainer.party[i]
+    end
+    for i in 0...othertrainer.party.length
+      playerparty[6+i]=othertrainer.party[i]
+    end
+    fullparty1=true
+    playertrainer=[$Trainer,othertrainer]
+    doublebattle=true
+  else
+    playerparty=$Trainer.party
+    playertrainer=$Trainer
+    fullparty1=false
+  end
+  if $PokemonTemp.waitingTrainer
+    combinedParty=[]
+    fullparty2=false
+    if false
+      if $PokemonTemp.waitingTrainer[0][2].length>3
+        raise _INTL("Opponent 1's party has more than three Pokémon, which is not allowed")
+      end
+      if trainer[2].length>3
+        raise _INTL("Opponent 2's party has more than three Pokémon, which is not allowed")
+      end
+    elsif $PokemonTemp.waitingTrainer[0][2].length>3 || trainer[2].length>3
+      for i in 0...$PokemonTemp.waitingTrainer[0][2].length
+        combinedParty[i]=$PokemonTemp.waitingTrainer[0][2][i]
+      end
+      for i in 0...trainer[2].length
+        combinedParty[6+i]=trainer[2][i]
+      end
+      fullparty2=true
+    else
+      for i in 0...$PokemonTemp.waitingTrainer[0][2].length
+        combinedParty[i]=$PokemonTemp.waitingTrainer[0][2][i]
+      end
+      for i in 0...trainer[2].length
+        combinedParty[3+i]=trainer[2][i]
+      end
+      fullparty2=false
+    end
+    scene=pbNewBattleScene
+    battle=PokeBattle_Battle.new(scene,playerparty,combinedParty,playertrainer,
+       [$PokemonTemp.waitingTrainer[0][0],trainer[0]])
+    trainerbgm=pbGetTrainerBattleBGM(
+       [$PokemonTemp.waitingTrainer[0][0],trainer[0]])
+    battle.fullparty1=fullparty1
+    battle.fullparty2=fullparty2
+    battle.doublebattle=battle.pbDoubleBattleAllowed?()
+    battle.endspeech=$PokemonTemp.waitingTrainer[2]
+    battle.endspeech2=endspeech
+    battle.items=[$PokemonTemp.waitingTrainer[0][1],trainer[1]]
+  else
+    scene=pbNewBattleScene
+    battle=PokeBattle_Battle.new(scene,playerparty,trainer[2],playertrainer,trainer[0])
+    battle.fullparty1=fullparty1
+    battle.doublebattle=doublebattle ? battle.pbDoubleBattleAllowed?() : false
+    battle.endspeech=endspeech
+    battle.items=trainer[1]
+    trainerbgm=pbGetTrainerBattleBGM(trainer[0])
+  end
+  if Input.press?(Input::CTRL) && $DEBUG
+    Kernel.pbMessage(_INTL("SKIPPING BATTLE..."))
+    Kernel.pbMessage(_INTL("AFTER LOSING..."))
+    Kernel.pbMessage(battle.endspeech)
+    Kernel.pbMessage(battle.endspeech2) if battle.endspeech2
+    if $PokemonTemp.waitingTrainer
+      pbMapInterpreter.pbSetSelfSwitch($PokemonTemp.waitingTrainer[1],"A",true)
+      $PokemonTemp.waitingTrainer=nil
+    end
+    return true
+  end
+  Events.onStartBattle.trigger(nil,nil)
+  battle.internalbattle=true
+  pbPrepareBattle(battle)
+  restorebgm=true
+  decision=0
+  Audio.me_stop
+  pbBattleAnimation(trainerbgm,trainer[0].trainertype,trainer[0].name) { 
+     pbSceneStandby {
+        decision=battle.pbStartBattle(canlose)
+     }
+     for i in $Trainer.party; (i.makeUnmega rescue nil); end
+     if $PokemonGlobal.partner
+       pbHealAll
+       for i in $PokemonGlobal.partner[3]
+         i.heal
+         i.makeUnmega rescue nil
+       end
+     end
+     if decision==2 || decision==5
+       if canlose
+         for i in $Trainer.party; i.heal; end
+         for i in 0...10
+           Graphics.update
+         end
+       else
+         $game_system.bgm_unpause
+         $game_system.bgs_unpause
+         Kernel.pbStartOver
+       end
+     else
+       Events.onEndBattle.trigger(nil,decision)
+       if decision==1
+         if $PokemonTemp.waitingTrainer
+           pbMapInterpreter.pbSetSelfSwitch($PokemonTemp.waitingTrainer[1],"A",true)
+         end
+       end
+     end
+  }
+  Input.update
+  pbSet(variable,decision)
+  $PokemonTemp.waitingTrainer=nil
+  return (decision==1)
+end
 
 Events.onWildPokemonCreate+=proc {|sender,e|
   pokemon=e[0]

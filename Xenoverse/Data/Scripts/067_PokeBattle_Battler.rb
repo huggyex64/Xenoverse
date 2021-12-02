@@ -386,6 +386,9 @@ class PokeBattle_Battler
 		@effects[PBEffects::LaserFocus]   		= false
 	  @effects[PBEffects::ShellTrap]     		= -1
 	  @effects[PBEffects::ThroatChop]			= 0
+
+	  #New effects
+	  @effects[PBEffects::DragonEndurance]    = 0
 	end
 	
 	def pbUpdate(fullchange=false)
@@ -626,6 +629,7 @@ class PokeBattle_Battler
 	end
 	
 	def pbFaint(showMessage=true)
+		PBDebug.log("#{pbThis} HAS FAINTED! IS IT FOR REAL?")
 		if !self.isFainted?
 			PBDebug.log("!!!***Can't faint with HP greater than 0")
 			return true
@@ -2971,6 +2975,7 @@ class PokeBattle_Battler
 		# Faint if 0 HP
 		target.pbFaint if target.isFainted? # no return
 		user.pbFaint if user.isFainted? # no return
+		
 		thismove.pbEffectAfterHit(user,target,turneffects)
 		# Faint if 0 HP
 		target.pbFaint if target.isFainted? # no return
@@ -3370,7 +3375,7 @@ class PokeBattle_Battler
 		end
 		# Use the move
 		#   @battle.pbDisplayPaused("Before: [#{@lastMoveUsedSketch},#{@lastMoveUsed}]")
-		PBDebug.log("[#{pbThis}: used choice[2].name]")
+		PBDebug.log("[#{pbThis}: used #{choice[2].name}]")
 		PBDebug.logonerr{
 			pbUseMove(choice,choice[2]==@battle.struggle)
 		}

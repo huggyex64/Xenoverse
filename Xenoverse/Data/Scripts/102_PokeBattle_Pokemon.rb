@@ -50,6 +50,7 @@ class PokeBattle_Pokemon
   attr_accessor(:shinyflag)   # Forces the shininess (true/false)
   attr_accessor(:ribbons)     # Array of ribbons
   attr_accessor :cool,:beauty,:cute,:smart,:tough,:sheen # Contest stats
+  attr_accessor :statsOverride#Alters the stats of the pokemon preventing further calcStats
 
   EVLIMIT     = 510   # Max total EVs
   EVSTATLIMIT = 252   # Max EVs that a single stat can have
@@ -857,12 +858,13 @@ end
     end
     level=self.level
     bs=self.baseStats
+    override=@statsOverride != nil && @statsOverride.length>=0
     for i in 0..5
       base=bs[i]
       if i==PBStats::HP
-        stats[i]=calcHP(base,level,@iv[i],@ev[i])
+        stats[i]=override ? @statsOverride[i] : calcHP(base,level,@iv[i],@ev[i])
       else
-        stats[i]=calcStat(base,level,@iv[i],@ev[i],pvalues[i-1])
+        stats[i]=override ? @statsOverride[i] : calcStat(base,level,@iv[i],@ev[i],pvalues[i-1])
       end
     end
     diff=@totalhp-@hp

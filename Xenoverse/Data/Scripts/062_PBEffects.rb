@@ -103,6 +103,7 @@ begin
 		BanefulBunker			= 99
     ShellTrap         = 100
     ThroatChop        = 101
+    DragonEndurance   = 200
     # These effects apply to a side
     LightScreen = 0
     LuckyChant  = 1
@@ -114,12 +115,14 @@ begin
     Tailwind    = 7
     ToxicSpikes = 8
 		StickyWeb   = 9
+    VelvetScales = 20
     # These effects apply to the battle (i.e. both sides)
     Gravity    = 0
     MagicRoom  = 1
 		IonDeluge  = 2
     TrickRoom  = 3
     #WonderRoom = 3
+    AcidRain   = 8
     # These effects apply to the usage of a move
     SpecialUsage = 0
     PassedTrying = 1

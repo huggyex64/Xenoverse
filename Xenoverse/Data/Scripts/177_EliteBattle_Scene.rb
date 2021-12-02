@@ -346,7 +346,7 @@ class PokeBattle_Scene
     checkIfSunMoonTrainer(@battle.opponent.trainertype) if @battle.opponent
     echoln "Should play new boss sequence? #{$smAnim}"
 		if $smAnim
-      if $game_switches[85]
+      if $game_switches[85] && !(defined?($trainerbossbattle) && $trainerbossbattle)
         #GRENINJAX START
         sp = getConst(PBSpecies,$wildSpecies)
         echoln "NEWBOSSES:#{NEWBOSSES.include?($wildSpecies)} BOSS_LIST:#{isBoss?()} Defined:#{defined?($furiousBattle)} Furious:#{defined?($furiousBattle) ? $furiousBattle : false}"

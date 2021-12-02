@@ -762,6 +762,18 @@ class PokeBattle_Move
 				end
 			end
 		end
+
+		#Dragon Endurance
+		if isConst?(type,PBTypes,:ELECTRIC) || isConst?(type,PBTypes,:FIRE) ||
+			isConst?(type,PBTypes,:GRASS) || isConst?(type,PBTypes,:WATER)
+			for i in 0...4
+				if @battle.battlers[i].effects[PBEffects::DragonEndurance]>0 && !@battle.battlers[i].isFainted?
+					damagemult=(damagemult*0.5).round
+					break
+				end
+			end
+		end
+		
 		#if (options&SELFCONFUSE)==0 && opponent.boss==true  #reduce damage if target is a boss and it's a confusion move
 		#		damagemult=(damagemult/opponent.hpMoltiplier).round
 		#end	

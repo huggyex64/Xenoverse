@@ -1928,6 +1928,9 @@ class PokeBattle_Move_049 < PokeBattle_Move
 		opponent.pbOwnSide.effects[PBEffects::Safeguard]   = 0
 		opponent.pbOwnSide.effects[PBEffects::Spikes]      = 0
 		opponent.pbOwnSide.effects[PBEffects::StealthRock] = false
+		
+		opponent.pbOwnSide.effects[PBEffects::AcidRain] = false
+		opponent.pbOwnSide.effects[PBEffects::VelvetScales] = false
 		opponent.pbOwnSide.effects[PBEffects::StickyWeb]   = false
 		opponent.pbOwnSide.effects[PBEffects::ToxicSpikes] = 0
 		return 0
@@ -1943,6 +1946,9 @@ class PokeBattle_Move_049 < PokeBattle_Move
 		opponent.pbOwnSide.effects[PBEffects::Safeguard]   = 0
 		opponent.pbOwnSide.effects[PBEffects::Spikes]      = 0
 		opponent.pbOwnSide.effects[PBEffects::StealthRock] = false
+		
+		opponent.pbOwnSide.effects[PBEffects::AcidRain] = false
+		opponent.pbOwnSide.effects[PBEffects::VelvetScales] = false
 		opponent.pbOwnSide.effects[PBEffects::StickyWeb]   = false
 		opponent.pbOwnSide.effects[PBEffects::ToxicSpikes] = 0
 		return true
@@ -6868,6 +6874,10 @@ class PokeBattle_Move_110 < PokeBattle_Move
 			if attacker.pbOwnSide.effects[PBEffects::StealthRock]
 				attacker.pbOwnSide.effects[PBEffects::StealthRock]=false
 				@battle.pbDisplay(_INTL("{1} blew away stealth rocks!",attacker.pbThis))     
+			end
+			if attacker.pbOwnSide.effects[PBEffects::VelvetScales]
+				attacker.pbOwnSide.effects[PBEffects::VelvetScales]=false
+				@battle.pbDisplay(_INTL("{1} blew away the velvet scales!",attacker.pbThis))     
 			end
 			if attacker.pbOwnSide.effects[PBEffects::StickyWeb]
 				attacker.pbOwnSide.effects[PBEffects::StickyWeb]=false

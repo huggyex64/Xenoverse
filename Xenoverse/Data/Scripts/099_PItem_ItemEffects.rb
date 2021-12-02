@@ -214,10 +214,14 @@ AVAILABLE_MAPS = {
   150=>[135,33,13,2], #SCORPIOPOLI, TEST
 }
 
+ItemHandlers::UseFromBag.add(:DIARIOTAMARA,proc{|item|
+  SecretReportScreen.new(SecretReports.get(:TamaraReports))
+  next 0
+})
+
 ItemHandlers::UseFromBag.add(:FUNEDIFUGAPLUS,proc{|item|
   if !AVAILABLE_MAPS.keys.include?($game_map.map_id)
     Kernel.pbMessage(_INTL("It can't be used here."))
-    echoln "POGGERS"
     next 0
   else
     next 4
@@ -254,7 +258,6 @@ ItemHandlers::UseInField.add(:FUNEDIFUGAPLUS,proc{|item|
   }
   #pbEraseEscapePoint
 })
-
 #===============================================================================
 # UseOnPokemon handlers
 #===============================================================================

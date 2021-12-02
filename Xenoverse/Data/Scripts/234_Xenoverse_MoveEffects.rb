@@ -1001,3 +1001,55 @@ class PokeBattle_Move_205 < PokeBattle_Move
 		return 0
 	end
 end
+################################################################################
+# After being set, it deals 1/10th hp damage to all non-water or poison Pokémon
+# on the field. Can be cleared using Defog. (Acid Rain)
+################################################################################
+class PokeBattle_Move_300 < PokeBattle_Move
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		if @battle.field.effects[PBEffects::AcidRain]
+			@battle.pbDisplay(_INTL("But it failed!"))
+			return -1
+		end
+		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+		@battle.field.effects[PBEffects::AcidRain]=true
+		@battle.pbDisplay(_INTL("Acid rain is falling all over the field!"))
+		return 0
+	end
+end
+################################################################################
+# Weakens Electric, Grass, Fire and Water attacks. (Dragon Endurance)
+################################################################################
+class PokeBattle_Move_301 < PokeBattle_Move
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+		for i in 0...4
+			#To all non-opposing allies
+			if !attacker.pbIsOpposing?(i)
+				attacker.effects[PBEffects::DragonEndurance]=5
+			end
+		end
+		attacker.effects[PBEffects::DragonEndurance]=5
+		@battle.pbDisplay(_INTL("Your team is strengthened by the Dragon Endurance!"))
+		return 0
+	end
+end
+################################################################################
+# Weakens Electric, Grass, Fire and Water attacks. (Dragon Endurance)
+################################################################################
+class PokeBattle_Move_302 < PokeBattle_Move
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		if attacker.pbOpposingSide.effects[PBEffects::VelvetScales]
+			@battle.pbDisplay(_INTL("But it failed!"))
+			return -1
+		end
+		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+		attacker.pbOpposingSide.effects[PBEffects::VelvetScales]=true
+		if !@battle.pbIsOpposing?(attacker.index)
+			@battle.pbDisplay(_INTL("Velvet Scales are all over your foe's field!"))
+		else
+			@battle.pbDisplay(_INTL("Velvet Scales are all over your field!"))
+		end
+		return 0
+	end
+end

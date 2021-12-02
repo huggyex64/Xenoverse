@@ -338,7 +338,8 @@ end
 #===============================================================================
 $rivalBattleID=0
 TRAINERPOOL_basic=[  #ALMENO 8 ALLENATORI
-["trey",PBTrainers::ALTERTREY,"Trey",_INTL("Come ho potuto perdere così?"),2],
+=begin
+  ["trey",PBTrainers::ALTERTREY,"Trey",_INTL("Come ho potuto perdere così?"),2],
 ["Alice (with Pikachu XF)",PBTrainers::ALICEFINAL,"Alice",_INTL("Ho fatto la scelta sbagliata?"),1],
 ["Aster",PBTrainers::ASTER,"Aster",_INTL("Cavoli, sono veramente esauto!"),2],
 ["motociclista",PBTrainers::BIKER,"Gale",_INTL("Che errore!"),0],
@@ -352,6 +353,7 @@ TRAINERPOOL_basic=[  #ALMENO 8 ALLENATORI
 ["Mamma",PBTrainers::FINALMAMMA,"Edera",_INTL("Che errore!"),1],
 ["goldtrainer",PBTrainers::GOLD,"Gold",_INTL("Che errore!"),2],
 ["IndianoKid",PBTrainers::INDIANOKID,"Raico",_INTL("Che errore!"),0]
+=end
 ]
 TRAINERPOOL_hard=[]  #ALMENO 16 ALLENATORI
 TRAINERPOOL_expert=[]  #ALMENO 32 ALLENATORI
@@ -1552,7 +1554,7 @@ class PWT
   # Sets all Pokemon to lv 50
   def setLevel
     for poke in $Trainer.party
-      poke.level = 100
+      poke.level = 50
       poke.calcStats
       poke.heal
     end
@@ -1751,7 +1753,7 @@ def pbTournamentBattle(trainerid,trainername,endspeech,
 end
 
 def pbTT
-    $pwt = PWT.new($Trainer,0,nil,true)
+    $pwt = PWT.new($Trainer,0)
 end
 
 def pbt

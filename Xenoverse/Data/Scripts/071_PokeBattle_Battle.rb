@@ -1406,7 +1406,9 @@ class PokeBattle_Battle
 	end
 	
 	def pbRecallAndReplace(index,newpoke,batonpass=false)
+		PBDebug.log("[#{@battlers[index].pbThis} is fainted? #{@battlers[index].isFainted?}]")
 		@battlers[index].pbResetForm
+		PBDebug.log("[#{@battlers[index].pbThis} is fainted? #{@battlers[index].isFainted?}]")
 		if !@battlers[index].isFainted?
 			@scene.pbRecall(index)
 		end
@@ -2199,6 +2201,15 @@ class PokeBattle_Battle
 					end
 				end
 			end
+			# Stealth Rock
+			if pkmn.pbOwnSide.effects[PBEffects::VelvetScales]
+				if !pkmn.hasWorkingAbility(:MAGICGUARD)
+					#@scene.pbDamageAnimation(pkmn,0)
+					pkmn.pbReduceStat(PBStats::DEFENSE,1,false,true,false)
+					pkmn.pbReduceStat(PBStats::SPDEF,1,false,true,false)
+					pbDisplayPaused(_INTL("{1} was weakened by the scales!",pkmn.pbThis))
+				end
+			end
 			pkmn.pbFaint if pkmn.isFainted?
 			# Toxic Spikes
 			if pkmn.pbOwnSide.effects[PBEffects::ToxicSpikes]>0
@@ -2879,7 +2890,7 @@ class PokeBattle_Battle
 					if i.hasWorkingAbility(:SOLARPOWER)
 						PBDebug.log("[#{i.pbThis}'s Solar Power triggered]")
 						@scene.pbDamageAnimation(i,0)
-						i.pbReduceHP((i.totalhp/8).floor)
+						i.pbReduceHP((i.boss ? (i.totalhp/8)/i.hpMoltiplier : i.totalhp/8).floor)
 						pbDisplay(_INTL("{1} was hurt by the sunlight!",i.pbThis))
 						if i.isFainted?
 							return if !i.pbFaint
@@ -2918,7 +2929,7 @@ class PokeBattle_Battle
 							!i.hasWorkingAbility(:OVERCOAT) &&
 							![0xCA,0xCB].include?(PBMoveData.new(i.effects[PBEffects::TwoTurnAttack]).function) # Dig, Dive
 							@scene.pbDamageAnimation(i,0)
-							i.pbReduceHP((i.totalhp/16).floor)
+							i.pbReduceHP((i.boss ? (i.totalhp/16)/i.hpMoltiplier : i.totalhp/16).floor)
 							pbDisplay(_INTL("{1} is buffeted by the sandstorm!",i.pbThis))
 							if i.isFainted?
 								return if !i.pbFaint
@@ -2948,7 +2959,7 @@ class PokeBattle_Battle
 							!i.hasWorkingAbility(:OVERCOAT) &&
 							![0xCA,0xCB].include?(PBMoveData.new(i.effects[PBEffects::TwoTurnAttack]).function) # Dig, Dive
 							@scene.pbDamageAnimation(i,0)
-							i.pbReduceHP((i.totalhp/16).floor)
+							i.pbReduceHP((i.boss ? (i.totalhp/16)/i.hpMoltiplier : i.totalhp/16).floor)
 							pbDisplay(_INTL("{1} is buffeted by the hail!",i.pbThis))
 							if i.isFainted?
 								return if !i.pbFaint
@@ -2974,7 +2985,7 @@ class PokeBattle_Battle
 						next if i.isFainted?
 						if !i.isShadow?
 							@scene.pbDamageAnimation(i,0)
-							i.pbReduceHP((i.totalhp/16).floor)
+							i.pbReduceHP((i.boss ? (i.totalhp/16)/i.hpMoltiplier : i.totalhp/16).floor)
 							pbDisplay(_INTL("{1} was hurt by the shadow sky!",i.pbThis))
 							if i.isFainted?
 								return if !i.pbFaint
@@ -3030,7 +3041,7 @@ class PokeBattle_Battle
 					pbDisplay(_INTL("{1}'s Dry Skin was healed by the rain!",i.pbThis)) if hpgain>0
 				elsif pbWeather==PBWeather::SUNNYDAY
 					@scene.pbDamageAnimation(i,0)
-					hploss=i.pbReduceHP((i.totalhp/8).floor)
+					hploss=i.pbReduceHP((i.boss ? (i.totalhp/8)/i.hpMoltiplier : i.totalhp/8).floor)
 					pbDisplay(_INTL("{1}'s Dry Skin was hurt by the sunlight!",i.pbThis)) if hploss>0
 				end
 			end
@@ -3251,6 +3262,24 @@ class PokeBattle_Battle
 				next
 			end
 		end
+		#
+		if @field.effects[PBEffects::AcidRain]
+			PBDebug.log("[Acid Rain inflicted damage]")
+			pbCommonAnimation("Rain",nil,nil)
+			for i in priority
+				next if i.isFainted?
+				if !i.pbHasType?(:WATER) && !i.pbHasType?(:POISON)
+					![0xCA,0xCB].include?(PBMoveData.new(i.effects[PBEffects::TwoTurnAttack]).function) # Dig, Dive
+					@scene.pbDamageAnimation(i,0)
+					i.pbReduceHP((i.boss ? (i.totalhp/10)/i.hpMoltiplier : i.totalhp/10).floor)
+					pbDisplay(_INTL("{1} is hurt by the Acid Rain!",i.pbThis))
+					if i.isFainted?
+						return if !i.pbFaint
+					end
+				end
+			end
+		end
+
 		# Curse
 		for i in priority
 			next if i.isFainted?
@@ -3398,6 +3427,18 @@ class PokeBattle_Battle
 				end
 			end
 		end
+		# Dragon Endurance (decrease duration)
+		for i in priority
+			next if i.isFainted?
+			if i.effects[PBEffects::DragonEndurance]>0
+				i.effects[PBEffects::DragonEndurance]-=1
+				if i.effects[PBEffects::DragonEndurance]==0
+					PBDebug.log("[#{i.pbThis}'s Dragon Endurance wore off!]")
+					pbDisplay(_INTL("{1} lost the Dragon Endurance!",i.pbThis))
+				end
+			end
+		end
+
 		# Perish Song
 		perishSongUsers=[]
 		for i in priority
