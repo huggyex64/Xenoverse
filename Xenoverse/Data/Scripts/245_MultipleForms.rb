@@ -1108,9 +1108,9 @@ MultipleForms.register(:SHULONG,{
 		},
 		"getBaseStats"=>proc{|pokemon|
 			next if pokemon.form==0 
-			next [88,45,93,56,75,93] if pokemon.form==1						# Forma Terrestre
-			next [118,55,108,61,100,108] if pokemon.form==2				# Forma Xenoverse
-			next [143,70,141,76,130,140] if pokemon.form == 3      # Forma Astro
+			next [88,45,93,56,75,93] if pokemon.form == 1						# Forma Terrestre
+			next [118,55,108,61,100,108] if pokemon.form == 2				# Forma Xenoverse
+			next [143,100,141,76,100,140] if pokemon.form == 3      # Forma Astro
 		},
 		"getForm"=>proc{|pokemon|
 			if $game_switches[AUTOASTRO_SWITCH]==false
@@ -1135,12 +1135,12 @@ MultipleForms.register(:SHULONG,{
 			case pokemon.form
 			when 1; movelist=[[1,:IRONDEFENSE],[1,:SLASH],[1,:AQUARING],[1,:WATERGUN],
 					[1,:TACKLE],[8,:TWISTER],[13,:HARDEN],[17,:BIDE],[21,:BUBBLEBEAM],
-					[25,:DRAGONBREATH],[28,:PROTECT],[32,:MUDDYWATER],[36,:DRAGONTAIL],[40,:RECOVER],
-					[45,:DRAGONPULSE],[51,:AQUARING],[56,:RAINDANCE],[61,:HYDROPUMP]]
+					[25,:DRAGONBREATH],[28,:PROTECT],[32,:MUDDYWATER],[36,:DRAGONTAIL],[38,:DRAGONENDURANCE],[40,:RECOVER],
+					[45,:DRAGONPULSE],[48,:VELVETSCALES],[51,:AQUARING],[54,:ACIDRAIN],[56,:RAINDANCE],[61,:HYDROPUMP]]
 			when 2; movelist=[[1,:TIDALDRAGOON],[1,:DRAGONTAIL],[1,:RAZORSHELL],[1,:CRUSHCLAW],[1,:WATERGUN],
 					[1,:TACKLE],[8,:TWISTER],[13,:HARDEN],[17,:BIDE],[21,:BUBBLEBEAM],
-					[25,:DRAGONBREATH],[28,:PROTECT],[32,:MUDDYWATER],[36,:TIDALDRAGOON],[40,:RECOVER],
-					[45,:DRAGONPULSE],[51,:CRUSHCLAW],[56,:RAINDANCE],[61,:HYDROPUMP]]	
+					[25,:DRAGONBREATH],[28,:PROTECT],[32,:MUDDYWATER],[36,:TIDALDRAGOON],[38,:DRAGONENDURANCE],[40,:RECOVER],
+					[45,:DRAGONPULSE],[48,:VELVETSCALES],[51,:CRUSHCLAW],[54,:ACIDRAIN],[56,:RAINDANCE],[61,:HYDROPUMP]]	
 			when 3; movelist = [[1,:TACKLE],[1,:LEER],[6,:WATERGUN],[8,:DUALCHOP],[10,:PROTECT],
 					[12,:BIDE],[16,:BUBBLEBEAM],[20,:RAINDANCE],[25,:RECOVER],
 					[30,:AQUATAIL],[36,:MUDDYWATER],[41,:TAKEDOWN],[51,:ACIDARMOR],
@@ -2596,3 +2596,35 @@ MultipleForms.register(:PIKACHUX,{
 		#   next
 		#}
 	})
+#===============================================================================
+# PIKACHU
+#===============================================================================
+MultipleForms.register(:TOXTRICITY,{
+	"getFormOnCreation"=>proc{|pokemon|
+		#Schiva, Sicura, Placida, Timida, Seria, Modesta, Mite, Quieta, Ritrosa, Calma, Gentile o Cauta = BASSO
+		next 1 if [PBNatures::LONELY, PBNatures::BOLD, PBNatures::RELAXED, PBNatures::TIMID, PBNatures::SERIOUS, PBNatures::MODEST, PBNatures::MILD, PBNatures::QUIET,
+				   PBNatures::BASHFUL, PBNatures::CALM, PBNatures::GENTLE, PBNatures::CAREFUL].include?(pokemon.nature)
+		next 0
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities,:MINUS) if pokemon.form==1 && pokemon.abilityIndex==1 #BASS form
+		next 
+	},
+	"onSetForm"=>proc{|pokemon,form|
+		pbSeenForm(pokemon)
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 # skips if it's melody
+		movelist = [[1,:SPARK],[1,:EERIEIMPULSE],[1,:BELCH],[1,:TEARFULLOOK],[1,:NUZZLE],[1,:GROWL],[1,:FLAIL],[1,:ACID],[1,:THUNDERSHOCK],[1,:ACIDSPRAY],
+		[1,:LEER],[1,:ACIDSPRAY],[4,:CHARGE],[8,:ACIDSPRAY],[12,:ACIDSPRAY],[16,:TAUNT],[20,:VENOSHOCK],[24,:SCREECH],[28,:SWAGGER],[32,:TOXIC],
+		[36,:DISCHARGE],[40,:POISONJAB],[44,:OVERDRIVE],[48,:BOOMBURST],[52,:CONTROLLOPOLARE]]		
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	}
+	#"getBaseStats"=>proc{|pokemon|
+	#   next [86,68,72,106,109,66] if pokemon.gender==1
+	#   next
+	#}
+})
