@@ -1958,7 +1958,7 @@ def pbTamaraBossBattle
     echoln "MOLTIPLIER #{party[i].hpMoltiplier}"
   end
   trainer.party = party
-  result = pbBossTrainerBattle([trainer,[],trainer.party],_INTL("This can't be..."))
+  result = pbBossTrainerBattle([trainer,[],trainer.party],_INTL("..."))
   $game_switches[85]=false
   $trainerbossbattle = false
   return result
@@ -1970,7 +1970,7 @@ def pbBossTrainerBattle(trainer,endspeech)
   #  doublebattle=false,trainerparty=0,canlose=false,variable=nil)
   doublebattle=false
   trainerparty=0
-  canlose=false
+  canlose=true
   variable=nil
   Events.onTrainerPartyLoad.trigger(nil,trainer)
   if !trainer
