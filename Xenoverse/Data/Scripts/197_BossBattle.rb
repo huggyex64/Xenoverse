@@ -1770,7 +1770,7 @@ end
 
 def pbRapiPuffBossBattle
   $furiousBattle = true
-  pbRegisterPartner(PBTrainers::CRISANTEBUNKER,"Crisante",0,{
+  pbRegisterPartnerWithPartyEV(PBTrainers::CRISANTEBUNKER,"Crisante",0,{
     :CACTURNEX=>{
       :hp=>4,
       :attack=>128,
