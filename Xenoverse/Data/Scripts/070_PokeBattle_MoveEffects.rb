@@ -1914,8 +1914,8 @@ end
 
 
 ################################################################################
-# Decreases the target's evasion by 1 stage.  Ends all barriers and entry
-# hazards for the target's side.
+# Decreases the target's evasion by 1 stage.  Ends all barriers on target side and entry
+# hazards for both sides.
 ################################################################################
 class PokeBattle_Move_049 < PokeBattle_Move
 	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
@@ -1928,7 +1928,12 @@ class PokeBattle_Move_049 < PokeBattle_Move
 		opponent.pbOwnSide.effects[PBEffects::Safeguard]   = 0
 		opponent.pbOwnSide.effects[PBEffects::Spikes]      = 0
 		opponent.pbOwnSide.effects[PBEffects::StealthRock] = false
-		
+
+		attacker.pbOwnSide.effects[PBEffects::AcidRain] = false
+		attacker.pbOwnSide.effects[PBEffects::VelvetScales] = false
+		attacker.pbOwnSide.effects[PBEffects::StickyWeb]   = false
+		attacker.pbOwnSide.effects[PBEffects::ToxicSpikes] = 0
+
 		opponent.pbOwnSide.effects[PBEffects::AcidRain] = false
 		opponent.pbOwnSide.effects[PBEffects::VelvetScales] = false
 		opponent.pbOwnSide.effects[PBEffects::StickyWeb]   = false
@@ -1947,6 +1952,11 @@ class PokeBattle_Move_049 < PokeBattle_Move
 		opponent.pbOwnSide.effects[PBEffects::Spikes]      = 0
 		opponent.pbOwnSide.effects[PBEffects::StealthRock] = false
 		
+		attacker.pbOwnSide.effects[PBEffects::AcidRain] = false
+		attacker.pbOwnSide.effects[PBEffects::VelvetScales] = false
+		attacker.pbOwnSide.effects[PBEffects::StickyWeb]   = false
+		attacker.pbOwnSide.effects[PBEffects::ToxicSpikes] = 0
+
 		opponent.pbOwnSide.effects[PBEffects::AcidRain] = false
 		opponent.pbOwnSide.effects[PBEffects::VelvetScales] = false
 		opponent.pbOwnSide.effects[PBEffects::StickyWeb]   = false
@@ -2319,7 +2329,7 @@ end
 ################################################################################
 class PokeBattle_Move_05A < PokeBattle_Move
 	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
-		if opponent.effects[PBEffects::Substitute]>0
+		if opponent.effects[PBEffects::Substitute]>0 || opponent.boss
 			@battle.pbDisplay(_INTL("But it failed!"))  
 			return -1
 		end
@@ -2327,8 +2337,10 @@ class PokeBattle_Move_05A < PokeBattle_Move
 		olda=attacker.hp
 		oldo=opponent.hp
 		avhp=((attacker.hp+opponent.hp)/2).floor
-		attacker.hp=[avhp,attacker.totalhp].min
-		opponent.hp=[avhp,opponent.totalhp].min
+		newhpa=[avhp,attacker.totalhp].min
+		newhpo=[avhp,opponent.totalhp].min
+		attacker.hp=newhpa
+		opponent.hp=newhpo
 		@battle.scene.pbHPChanged(attacker,olda)
 		@battle.scene.pbHPChanged(opponent,oldo)
 		@battle.pbDisplay(_INTL("The battlers shared their pain!"))

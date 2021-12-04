@@ -777,7 +777,7 @@ class PokeBattle_Move
 		#if (options&SELFCONFUSE)==0 && opponent.boss==true  #reduce damage if target is a boss and it's a confusion move
 		#		damagemult=(damagemult/opponent.hpMoltiplier).round
 		#end	
-		damagemult=(damagemult/opponent.hpMoltiplier).round if opponent.boss==true
+		damagemult=(damagemult/opponent.hpMoltiplier).round if opponent.boss==true && !$trainerbossbattle
 		basedmg=(basedmg*damagemult*1.0/0x1000).round
 		##### Calculate attacker's attack stat #####
 		atk=attacker.attack

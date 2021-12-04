@@ -2677,6 +2677,11 @@ class SunMoonBattleTransitions
     when "cardinal"
       echoln "starting cardinal sequence"
       @sprites["background"] = SunMoonCardinalBackground.new(@viewport,@trainerid,@evilteam)
+    when "fury"
+      echoln "starting fury sequence"
+      @teamskull = true
+      self.teamSkull if @teamskull
+      @sprites["background"] = SunMoonDefaultBackground.new(@viewport,@trainerid,@evilteam,@teamskull)
     else
       @sprites["background"] = SunMoonDefaultBackground.new(@viewport,@trainerid,@evilteam,@teamskull)
     end
@@ -2697,11 +2702,11 @@ class SunMoonBattleTransitions
     @sprites["trainer"].bitmap = Bitmap.new(@viewport.rect.width,@viewport.rect.height)
     @sprites["trainer"].ox = @sprites["trainer"].bitmap.width/2
     @sprites["trainer"].oy = @sprites["trainer"].bitmap.height/2
-    @sprites["trainer"].x = @sprites["trainer"].ox if @variant != "plasma" && @variant != "cardinal" 
+    @sprites["trainer"].x = @sprites["trainer"].ox if @variant != "plasma" && @variant != "cardinal" && @variant != "fury" 
     @sprites["trainer"].y = @sprites["trainer"].oy
     @sprites["trainer"].tone = Tone.new(255,255,255)
-    @sprites["trainer"].zoom_x = 1.32 if @variant != "plasma" && @variant != "cardinal" 
-    @sprites["trainer"].zoom_y = 1.32 if @variant != "plasma" && @variant != "cardinal" 
+    @sprites["trainer"].zoom_x = 1.32 if @variant != "plasma" && @variant != "cardinal" && @variant != "fury" 
+    @sprites["trainer"].zoom_y = 1.32 if @variant != "plasma" && @variant != "cardinal" && @variant != "fury" 
     @sprites["trainer"].opacity = 0
     # sets a bitmap for the trainer
     bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",@variant,@trainerid))
@@ -2715,10 +2720,10 @@ class SunMoonBattleTransitions
     @sprites["shade"].color = Color.new(150,115,255,204) if @variant == "elite"
     @sprites["shade"].color = Color.new(115,216,145,204) if @variant == "digital"
     @sprites["shade"].opacity = 0
-    @sprites["shade"].visible = false if @variant == "crazy" || @variant == "plasma" ||@variant == "cardinal" 
+    @sprites["shade"].visible = false if @variant == "crazy" || @variant == "plasma" ||@variant == "cardinal" && @variant != "fury" 
     # creates and colours an outer glow for the trainer
     c = Color.new(0,0,0)
-    c = Color.new(255,255,255) if @variant == "crazy" || @variant == "digital" || @variant == "plasma" ||@variant == "cardinal" 
+    c = Color.new(255,255,255) if @variant == "crazy" || @variant == "digital" || @variant == "plasma" ||@variant == "cardinal" && @variant != "fury" 
     @sprites["glow"].bitmap = bmp.clone
     @sprites["glow"].glow(c,35,false)
     @sprites["glow"].src_rect.set(0,@viewport.rect.height,@viewport.rect.width/2,0)
@@ -2736,7 +2741,7 @@ class SunMoonBattleTransitions
     # fades in viewport
     16.times do
       @viewport.color.alpha -= 16 if @viewport.color.alpha > 0
-      if @variant == "plasma" || @variant == "cardinal" 
+      if @variant == "plasma" || @variant == "cardinal" || @variant == "fury" 
         @sprites["trainer"].x += (@viewport.rect.width/3)/8
         self.update
       else
@@ -3408,7 +3413,7 @@ class SunMoonBattleTransitions
       @evilteam = true if !id.nil? && trainerid == id
     end
     # methods used to determine special variants
-    ext = ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal"]
+    ext = ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury"]
     #ext.push("trainer")
     @variant = "trainer"
     for i in 0...ext.length
@@ -3421,7 +3426,7 @@ end
 # returns true if game is supposed to load a Sun & Moon styled VS sequence
 def checkIfSunMoonTransition(trainerid)
   ret = false
-  for ext in ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal"]
+  for ext in ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury"]
     ret = true if pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",ext,trainerid))
   end
   $smAnim = ret
@@ -3430,7 +3435,7 @@ end
 
 def checkIfSunMoonTrainer(trainerid)
   ret = false
-  for ext in ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal"]
+  for ext in ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury"]
     ret = true if pbResolveBitmap(sprintf("Graphics/Transitions/sm%s%d",ext.capitalize,trainerid))
     ret = true if pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",ext,trainerid))
   end
@@ -3440,7 +3445,7 @@ end
 def checkIfNewTransition(trainerid)
   ret = false
   echo sprintf("Graphics/Transitions/SunMoon/%s%d","cardinal",trainerid)
-  for ext in ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal"]
+  for ext in ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury"]
     ret = true if pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",ext,trainerid))
   end
   return ret

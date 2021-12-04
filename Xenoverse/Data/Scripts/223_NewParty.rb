@@ -1592,6 +1592,7 @@ class PokemonScreen
 							for i in 0...stats.length
 								ivcommands.push(stats[i]+" (#{pkmn.iv[i]})")
 							end
+							ivcommands.push(_INTL("Make 31 all"))
 							ivcommands.push(_INTL("Randomise all"))
 							cmd2=@scene.pbShowCommands_old(msg,ivcommands,cmd2)
 							if cmd2==-1
@@ -1604,6 +1605,15 @@ class PokemonScreen
 								f=Kernel.pbMessageChooseNumber(
 									_INTL("Set the IV for {1} (max. 31).",stats[cmd2]),params) { @scene.update }
 								pkmn.iv[cmd2]=f
+								pkmn.calcStats
+								pbRefreshSingle(pkmnid)
+							elsif cmd2==ivcommands.length-2
+								pkmn.iv[0]=31
+								pkmn.iv[1]=31
+								pkmn.iv[2]=31
+								pkmn.iv[3]=31
+								pkmn.iv[4]=31
+								pkmn.iv[5]=31
 								pkmn.calcStats
 								pbRefreshSingle(pkmnid)
 							elsif cmd2==ivcommands.length-1

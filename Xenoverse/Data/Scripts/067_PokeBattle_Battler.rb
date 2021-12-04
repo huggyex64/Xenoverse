@@ -1914,7 +1914,7 @@ class PokeBattle_Battler
 			@effects[PBEffects::HealBlock]==0
 			PBDebug.log("[Item triggered] #{pbThis}'s Leftovers")
 			@battle.pbCommonAnimation("UseItem",self,nil)
-			pbRecoverHP((self.totalhp/16).floor,true)
+			pbRecoverHP((self.boss ? (self.totalhp/16)/self.hpMoltiplier : self.totalhp/16).floor,true)
 			@battle.pbDisplay(_INTL("{1} restored a little HP using its {2}!",pbThis,itemname))
 		end
 		if hpcure && self.hasWorkingItem(:BLACKSLUDGE)
@@ -1922,13 +1922,13 @@ class PokeBattle_Battler
 				if self.hp!=self.totalhp && @effects[PBEffects::HealBlock]==0
 					PBDebug.log("[Item triggered] #{pbThis}'s Black Sludge (heal)")
 					@battle.pbCommonAnimation("UseItem",self,nil)
-					pbRecoverHP((self.totalhp/16).floor,true)
+					pbRecoverHP((self.boss ? (self.totalhp/16)/self.hpMoltiplier : self.totalhp/16).floor,true)
 					@battle.pbDisplay(_INTL("{1} restored a little HP using its {2}!",pbThis,itemname))
 				end
 			elsif !self.hasWorkingAbility(:MAGICGUARD)
 				PBDebug.log("[Item triggered] #{pbThis}'s Black Sludge (damage)")
 				@battle.pbCommonAnimation("UseItem",self,nil)
-				pbReduceHP((self.totalhp/8).floor,true)
+				pbReduceHP((self.boss ? (self.totalhp/8)/self.hpMoltiplier : self.totalhp/8).floor,true)
 				@battle.pbDisplay(_INTL("{1} was hurt by its {2}!",pbThis,itemname))
 			end
 			pbFaint if fainted?

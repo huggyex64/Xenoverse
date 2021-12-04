@@ -74,6 +74,7 @@ class PokeBattle_Battler
 		@boss = pkmn.boss
 		@hpMoltiplier = pkmn.hpMoltiplier
 		@bossBg = pkmn.bossBg
+    echoln "INITIALIZING NEW BOSS!"
 	end
 	
 	def pbThis(lowercase=false)
@@ -304,7 +305,11 @@ class PokeBattle_Battle
         @scene.pbStartBattle(self)
         wildpoke=@party2[0]
         if wildpoke.boss
-					pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} wants to battle!",wildpoke.name))
+          if defined?($dittoxbattle) && $dittoxbattle
+            pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} wants to battle!","Ditto X"))
+					else
+            pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} wants to battle!",wildpoke.name))
+          end
           # GRENINJAX END SENDOUT
           if NEWBOSSES.include?($wildSpecies) && (isBoss?() ? (defined?($furiousBattle) && $furiousBattle) : false) #NEWBOSSES.include?($wildSpecies)
             @scene.newBossSequence.finish if @scene.newBossSequence
@@ -550,10 +555,13 @@ class NextGenDataBox  <  SpriteWrapper
     @hpBarBmp = pbBitmap(@path+"HPBAR_KO")
     @sprites["hpbg"].bitmap = @hpBarBmp#Bitmap.new(@hpBarBmp.width,@hpBarBmp.height)
     #@sprites["hpbg"].mirror = !@playerpoke
-    
+    #renew boss status
+    @boss = @battler.boss
 		if @boss
+      #Renew multiplier
+      @bossMultiplier = @battler.hpMoltiplier
 			@hpBars = Array.new
-			echoln("#{@bossMultiplier-1}")
+			echoln("BARS ARE #{@bossMultiplier-1}")
 			for i in 0...@bossMultiplier
 				@hpBars[i]=pbBitmap(@path+"HPBAR_FULL")
 			end
@@ -1644,11 +1652,22 @@ end
 
 def pbEleSharpBossBattle
   $furiousBattle = true
-  pbRegisterPartner(PBTrainers::REVOLVER,"Revolver")
+  pbRegisterPartnerWithPartyEV(PBTrainers::REVOLVER,"Revolver",0,{
+    :TOXICROAK=>{
+      :attack=>252,
+      :hp =>4,
+      :speed =>252
+    },
+    :UMBREON=>{
+      :hp=>252,
+      :defense=>252,
+      :spdef=>4
+    }
+  })
   $game_switches[85] = true
   $mods.set(3, nil, nil)
   $wildSpecies = PBSpecies::ELEKIDX
-
+  $dittoxbattle = true
   #Elekid X
   pkmn = pbGenerateWildPokemon(PBSpecies::ELEKIDX,100)
   pkmn.pbDeleteAllMoves
@@ -1656,13 +1675,14 @@ def pbEleSharpBossBattle
   for m in moves
     pkmn.pbLearnMove(m)
   end
-  pkmn.totalHp=454*2
+  pkmn.totalHp=324*2
   pkmn.hp=pkmn.totalhp
-  pkmn.attack=357
+  pkmn.attack=257
   pkmn.defense=200
-  pkmn.spAtk=401
-  pkmn.spDef=329
+  pkmn.spAtk=341
+  pkmn.spDef=259
   pkmn.speed=417
+  pkmn.item=0
 
   #Sharpedo X  
   $mods.set(4, nil, nil)
@@ -1672,16 +1692,18 @@ def pbEleSharpBossBattle
   for m in moves
     pkmn2.pbLearnMove(m)
   end
-  pkmn2.totalHp=597*2
+  pkmn2.totalHp=397*2
   pkmn2.hp=pkmn2.totalhp
-  pkmn2.attack=520
-  pkmn2.defense=269
-  pkmn2.spAtk=10000000
-  pkmn2.spDef=269
-  pkmn2.speed=550
+  pkmn2.attack=420
+  pkmn2.defense=239
+  pkmn2.spAtk=240
+  pkmn2.spDef=239
+  pkmn2.speed=450
+  pkmn2.item=0
 
   result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
+  $dittoxbattle = false
   pbDeregisterPartner()
   $furiousBattle = false
   return result
@@ -1689,10 +1711,23 @@ end
 
 def pbGalvGeBossBattle
   $furiousBattle = true
-  pbRegisterPartner(PBTrainers::MAURICEBUNKER,"Maurice")
+  pbRegisterPartner(PBTrainers::MAURICEBUNKER,"Maurice",0,{
+    :RAICHU=>{
+      :spatk=>252,
+      :defense=>4,
+      :speed=>252
+    },
+    :METAGROSS=>{
+      :hp=>252,
+      :attack=>96,
+      :spdef=>160
+    }
+  })
   $game_switches[85] = true
   $mods.set(4, nil, nil)
   $wildSpecies = PBSpecies::GALVANTULAX
+  $dittoxbattle = true
+  
   #Galvantula
   pkmn = pbGenerateWildPokemon(PBSpecies::GALVANTULAX,100)
   pkmn.pbDeleteAllMoves
@@ -1700,13 +1735,14 @@ def pbGalvGeBossBattle
   for m in moves
     pkmn.pbLearnMove(m)
   end
-  pkmn.totalHp=894
+  pkmn.totalHp=794
   pkmn.hp=pkmn.totalhp
   pkmn.attack=352#299
   pkmn.defense=273#243
   pkmn.spAtk=426#394
   pkmn.spDef=273#243
   pkmn.speed=527#523
+  pkmn.item=0
 
   #Gengar
   pkmn2 = pbGenerateWildPokemon(PBSpecies::GENGARX,100)
@@ -1715,16 +1751,18 @@ def pbGalvGeBossBattle
   for m in moves
     pkmn2.pbLearnMove(m)
   end
-  pkmn2.totalHp=946#1030   #Multiply by 2.6
+  pkmn2.totalHp=846#1030   #Multiply by 2.6
   pkmn2.hp=pkmn2.totalhp   #everything else by 1.3
   pkmn2.attack=340#280
-  pkmn2.defense=359#334
-  pkmn2.spAtk=527#512
-  pkmn2.spDef=373#349
+  pkmn2.defense=229#334
+  pkmn2.spAtk=427#512
+  pkmn2.spDef=233#349
   pkmn2.speed=297#267
+  pkmn2.item=0
 
   result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
+  $dittoxbattle = false
   pbDeregisterPartner()
   $furiousBattle = false
   return result
@@ -1732,45 +1770,61 @@ end
 
 def pbRapiPuffBossBattle
   $furiousBattle = true
-  pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
+  pbRegisterPartner(PBTrainers::CRISANTEBUNKER,"Crisante",0,{
+    :CACTURNEX=>{
+      :hp=>4,
+      :attack=>128,
+      :spatk=>124,
+      :defense=>128,
+      :spdef=>124
+    },
+    :SCARPHASMO=>{
+      :spdef=>252,
+      :spatk=>252,
+      :hp=>4
+    }
+  })
   $game_switches[85] = true
-  $mods.set(2, nil, nil)
+  $mods.set(4, nil, nil)
   $wildSpecies = PBSpecies::RAPIDASHXBOSS2
+  $dittoxbattle = true
 
-  #Charizard Y
+  #Rapidash X
   pkmn = pbGenerateWildPokemon(PBSpecies::RAPIDASHXBOSS2,100)
-  pkmn.forcedForm = 1
   pkmn.pbDeleteAllMoves
-  moves = [:SOLARBEAM, :HEATWAVE, :AIRSLASH, :ANCIENTPOWER]
+  moves = [:COTTONGUARD, :AIRCUTTER, :ICEBEAM, :THUNDER]
   for m in moves
     pkmn.pbLearnMove(m)
   end
-  pkmn.totalHp=297*2
+  pkmn.totalHp=800
   pkmn.hp=pkmn.totalhp
-  pkmn.attack=191
-  pkmn.defense=192
-  pkmn.spAtk=417
-  pkmn.spDef=267
-  pkmn.speed=328
+  pkmn.attack=387
+  pkmn.defense=264
+  pkmn.spAtk=390
+  pkmn.spDef=222
+  pkmn.speed=424
+  pkmn.item=0
 
-  #Charizard X
+  #Slurpuff X
+  $mods.set(5, nil, nil)
   pkmn2 = pbGenerateWildPokemon(PBSpecies::SLURPUFFX,100)
-  pkmn2.forcedForm = 2
   pkmn2.pbDeleteAllMoves
-  moves = [:FIREPUNCH, :DRAGONCLAW, :THUNDERPUNCH, :ROCKSLIDE]
+  moves = [:RAINDANCE, :VENOMDRENCH, :SUBWOOFER, :LIGHTSCREEN]
   for m in moves
     pkmn2.pbLearnMove(m)
   end
-  pkmn2.totalHp=297*2
+  pkmn2.totalHp=1270
   pkmn2.hp=pkmn2.totalhp
-  pkmn2.attack=359
-  pkmn2.defense=258
-  pkmn2.spAtk=266
-  pkmn2.spDef=207
-  pkmn2.speed=328
+  pkmn2.attack=195
+  pkmn2.defense=288
+  pkmn2.spAtk=207
+  pkmn2.spDef=288
+  pkmn2.speed=203
+  pkmn2.item=0
 
   result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
+  $dittoxbattle = false
   pbDeregisterPartner()
   $furiousBattle = false
   return result
@@ -1778,45 +1832,74 @@ end
 
 def pbRoseTwoBossBattle
   $furiousBattle = true
-  pbRegisterPartner(PBTrainers::RUTARAIKOU,"Ruta")
-  $game_switches[85] = true
-  $mods.set(2, nil, nil)
-  $wildSpecies = PBSpecies::ROSERADEX
+  pbRegisterPartnerWithPartyEV(PBTrainers::VERSILBUNKER,"Versil",0,{
+    :CROBAT=>{
+      :attack=>252,
+      :defense =>4,
+      :speed =>252
+    },
+    :REXQUIEM=>{
+      :hp=>252,
+      :attack=>252,
+      :defense=>4
+    },
+    :FERALIGATR=>{
+      :attack=>252,
+      :speed=>252,
+      :hp=>4
+    },
+    :WEAVILE=>{
+      :attack=>252,
+      :speed=>252,
+      :defense=>4
+    },
+    :ENTEI=>{
+      :attack=>252,
+      :defense=>4,
+      :speed=>252
+    }
+  })
 
-  #Charizard Y
+  $game_switches[85] = true
+  $mods.set(5, nil, nil)
+  $wildSpecies = PBSpecies::ROSERADEX
+  $dittoxbattle = true
+
+  #Roserade X
   pkmn = pbGenerateWildPokemon(PBSpecies::ROSERADEX,100)
-  pkmn.forcedForm = 1
   pkmn.pbDeleteAllMoves
-  moves = [:SOLARBEAM, :HEATWAVE, :AIRSLASH, :ANCIENTPOWER]
+  moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
   for m in moves
     pkmn.pbLearnMove(m)
   end
-  pkmn.totalHp=297*2
+  pkmn.totalHp=838
   pkmn.hp=pkmn.totalhp
-  pkmn.attack=191
-  pkmn.defense=192
-  pkmn.spAtk=417
-  pkmn.spDef=267
-  pkmn.speed=328
+  pkmn.attack=293
+  pkmn.defense=261
+  pkmn.spAtk=396
+  pkmn.spDef=254
+  pkmn.speed=512
+  pkmn.item=0
 
-  #Charizard X
+  #Mewtwo X
   pkmn2 = pbGenerateWildPokemon(PBSpecies::MEWTWOX,100)
-  pkmn2.forcedForm = 2
   pkmn2.pbDeleteAllMoves
-  moves = [:FIREPUNCH, :DRAGONCLAW, :THUNDERPUNCH, :ROCKSLIDE]
+  moves = [:LEECHLIFE, :DRAGONCLAW, :POWERUPPUNCH, :ROCKSLIDE]
   for m in moves
     pkmn2.pbLearnMove(m)
   end
-  pkmn2.totalHp=297*2
+  pkmn2.totalHp=1072
   pkmn2.hp=pkmn2.totalhp
-  pkmn2.attack=359
-  pkmn2.defense=258
-  pkmn2.spAtk=266
-  pkmn2.spDef=207
-  pkmn2.speed=328
+  pkmn2.attack=394
+  pkmn2.defense=313
+  pkmn2.spAtk=394
+  pkmn2.spDef=313
+  pkmn2.speed=427
+  pkmn2.item=0
 
   result = pbDoubleBossBattle(pkmn,pkmn2,false,true)
   $game_switches[85] = false
+  $dittoxbattle = false
   pbDeregisterPartner()
   $furiousBattle = false
   return result
@@ -1829,26 +1912,50 @@ def pbTamaraBossBattle
   party = []
   $trainerbossbattle = true
   $game_switches[85]=true
-  species = [PBSpecies::ELEKIDX,PBSpecies::SCOVILEX,PBSpecies::TYRANITARX,PBSpecies::LUXFLON]
-  for i in 0...4
-    #$mods.set(4, nil, nil)
-    #Elekid X
-    pkmn = pbGenerateWildPokemon(species[i],85)
+  species = [PBSpecies::TOXAPEX, PBSpecies::SCIZOR, PBSpecies::WYSTEARIA, PBSpecies::VESPIQUEN, PBSpecies::SCOVILEX, PBSpecies::SCEPTILE]
+  items = [PBItems::LEFTOVERS, PBItems::SHELLBELL, PBItems::BIGROOT, 0, PBItems::ASSAULTVEST, PBItems::SCEPTILITE]
+  healthbars = [3,3,3,4,4,5]
+  partyMoves = [
+    [:ACIDRAIN, :TOXICSPIKES, :BANEFULBUNKER, :RAINDANCE], #TOXAPEX - REGENERATOR
+    [:SWORDSDANCE, :BRUTALSWING, :XSCISSOR, :IRONHEAD], #SCIZOR - TECHNICIAN
+    [:GIGADRAIN,:FAKETEARS,:BOOMBURST,:TOXIC], #WYSTEARIA - SYNTHESIZER
+    [:ACROBATICS, :DEFENDORDER, :SWAGGER, :BATONPASS], #VESPIQUEN - PRESSURE
+    [:TUONO, :ENERGYBALL, :FLAMETHROWER, :SLUDGEBOMB], #SCOVILEX - EFFECTSPORE
+    [:SUBSTITUTE, :LEECHSEED, :DRAGONPULSE, :GIGADRAIN]  #SCEPTILE MEGA - LIGHTINGROD
+  ]
+  stats = [
+    #HP, atk, def, spe, spa, spd
+    [1067,370,495,243,334,477], #TOXAPEX - REGENERATOR
+    [933,544,416,326,304,347], #SCIZOR - TECHNICIAN
+    [838,293,383,192,445,444], #WYSTEARIA - SYNTHESIZER
+    [927,369,428,256,369,428], #VESPIQUEN - PRESSURE
+    [1042,379,369,485,450,384], #SCOVILEX - EFFECTSPORE
+    [1152,448,388,555,555,423]  #SCEPTILE MEGA - LIGHTINGROD
+  ]
+  for i in 0...6
+    #$mods.set(healthbars[i], nil, nil)
+    # Setting up the Pokemon
+    pkmn = pbGenerateWildPokemon(species[i],100)
+    pkmn.item = items[i]
     pkmn.pbDeleteAllMoves
-    moves = [:TACKLE, :HEATWAVE, :TORMENT, :LIGHTSCREEN]
+    moves = partyMoves[i]
     for m in moves
       pkmn.pbLearnMove(m)
     end
-    pkmn.totalHp=454*2
+    pkmn.totalHp=stats[i][0]
     pkmn.hp=pkmn.totalhp
-    pkmn.attack=357
-    pkmn.defense=200
-    pkmn.spAtk=401
-    pkmn.spDef=329
-    pkmn.speed=417
-    pkmn.statsOverride = [454*2,357,200,417,401,329]
-    pkmn.setBoss(4)
+    pkmn.attack=stats[i][1]
+    pkmn.defense=stats[i][2]
+    pkmn.spAtk=stats[i][4]
+    pkmn.spDef=stats[i][5]
+    pkmn.speed=stats[i][3]
+    pkmn.statsOverride = stats[i]
+    echoln "Healthbars #{healthbars[i]}"
+    pkmn.setBoss(healthbars[i])
     party.push(pkmn)
+  end
+  for i in 0...6 
+    echoln "MOLTIPLIER #{party[i].hpMoltiplier}"
   end
   trainer.party = party
   result = pbBossTrainerBattle([trainer,[],trainer.party],_INTL("This can't be..."))

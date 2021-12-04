@@ -955,3 +955,88 @@ if $MKXP
   end
 
 end
+
+
+###############################################################################################
+#
+###############################################################################################
+def pbRegisterPartnerWithPartyEV(trainerid,trainername,partyid=0,evhash = nil)
+  Kernel.pbCancelVehicles
+  trainer=pbLoadTrainer(trainerid,trainername,partyid)
+  Events.onTrainerPartyLoad.trigger(nil,trainer)
+  trainerobject=PokeBattle_Trainer.new(_INTL(trainer[0].name),trainerid)
+  trainerobject.setForeignID($Trainer)
+  
+  #party here
+  if evhash!=nil && evhash.is_a?(Hash)
+    echoln "Setting up EVS #{trainer[2]}"
+    #looping over party
+    for p in trainer[2]
+      spfound=nil
+      found = false
+      evhash.keys.each {|species| if isConst?(p.species,PBSpecies,species);spfound=species;found=true;end;}
+      echoln "Handling #{p.name}"
+      if found
+        echoln "Detected Species EV!"
+        evs = evhash[spfound]
+        for stat in evs.keys
+          if [:hp,:attack,:defense,:spatk,:spdef,:speed].include?(stat)
+            case stat
+            when :hp
+              p.ev[0]=evs[:hp]
+            when :attack
+              p.ev[1]=evs[:attack]
+            when :defense
+              p.ev[2]=evs[:defense]
+            when :spatk
+              p.ev[4]=evs[:spatk]
+            when :spdef
+              p.ev[5]=evs[:spdef]
+            when :speed
+              p.ev[3]=evs[:speed]
+            end
+          end
+        end
+      end
+    end
+
+    echoln "handled party"
+  end
+
+  for i in trainer[2]
+    i.trainerID=trainerobject.id
+    i.ot=trainerobject.name
+    i.calcStats
+  end
+  $PokemonGlobal.partner=[trainerid,trainerobject.name,trainerobject.id,trainer[2]]
+end
+
+def testEV
+  pbRegisterPartnerWithPartyEV(PBTrainers::VERSILBUNKER,"Versil",0,{
+    :CROBAT=>{
+      :attack=>252,
+      :defense =>4,
+      :speed =>252
+    },
+    :REXQUIEM=>{
+      :hp=>252,
+      :attack=>252,
+      :defense=>4
+    },
+    :FERALIGATR=>{
+      :attack=>252,
+      :speed=>252,
+      :hp=>4
+    },
+    :WEAVILE=>{
+      :attack=>252,
+      :speed=>252,
+      :defense=>4
+    },
+    :ENTEI=>{
+      :attack=>252,
+      :defense=>4,
+      :speed=>252
+    }
+  })
+end

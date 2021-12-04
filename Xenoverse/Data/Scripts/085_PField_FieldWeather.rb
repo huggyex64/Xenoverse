@@ -7,8 +7,8 @@ module RPG
 
     def prepareSandstormBitmaps
       if !@sandstormBitmap1
-        bmwidth=200
-        bmheight=200
+        bmwidth=400
+        bmheight=400
         @sandstormBitmap1=Bitmap.new(bmwidth,bmheight)
         @sandstormBitmap2=Bitmap.new(bmwidth,bmheight)
         sandstormColors=[

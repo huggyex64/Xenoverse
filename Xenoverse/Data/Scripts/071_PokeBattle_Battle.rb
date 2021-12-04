@@ -1761,6 +1761,7 @@ class PokeBattle_Battle
 		side=(pbIsOpposing?(index)) ? 1 : 0
 		owner=pbGetOwnerIndex(index)
 		@megaEvolution[side][owner]=-2
+		@battlers[index].pbAbilitiesOnSwitchIn(true)
 	end
 	
 	################################################################################
@@ -2659,6 +2660,8 @@ class PokeBattle_Battle
 								if pbOwnedByPlayer?(i)
 									pbDisplay(_INTL("Items can't be used here."))
 								end
+							elsif $trainerbossbattle
+								pbDisplay(_INTL("The pressure prevents you from using items!"))
 							else
 								item=pbItemMenu(i, @battlers[1])
 								if pbIsPokeBall?(item[0]) && !@opponent

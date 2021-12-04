@@ -89,7 +89,8 @@ EVIL_TEAM_LIST = [
   :SERGENTEDONNA,
   :ALTERTREY,
   :SERGENTESIGMA,
-  :VERSIL
+  :VERSIL,
+  #:TAMARAFURIA
 ]
 
 # Lista delle specie X che attivano la transizione

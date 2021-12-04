@@ -1688,6 +1688,10 @@ MultipleForms.register(:SCEPTILE, {
 		next 1 if isConst?(pokemon.item,PBItems,:SCEPTILITE)
 		next
 	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:DRAGON) if pokemon.form==1
+		next
+	},
 	"getUnmegaForm"=>proc{|pokemon|
 		next 0 if pokemon.form == 1
 	},

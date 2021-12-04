@@ -35,7 +35,7 @@ SecretReports.register({
     :id => :TamaraReports,
     :id_number => 0,
     :title => "Diario di ???",
-    :pageno => 12,
+    :pageno => 11,
     :bg => "Graphics/Pictures/reportsbg",
     :pages =>[
         "???: Ho deciso di tenere un diario per ricordare le numerose esperienze che farò! "+

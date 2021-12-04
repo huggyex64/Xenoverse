@@ -236,3 +236,5 @@
 239,REVOLVER,(Cyborg),200,,,,Male,
 240,ALICEULTRA,(Allenatrice),127,vs.Rivale.mp3,Trainer Victory,Female,Female,
 241,MAURICEBUNKER,(S.P.E.T.T.R.I.),200,,,,Male,
+242,CRISANTEBUNKER,(Capopalestra),200,,,,Male,
+243,VERSILBUNKER,(Ex Comandante Dimension),200,,,,Male,
