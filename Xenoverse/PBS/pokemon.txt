@@ -23002,7 +23002,7 @@ BattlerPlayerY=4
 BattlerEnemyY=17
 [1238]
 Name=Ditto
-InternalName=DITTO
+InternalName=DITTOX
 Type1=DARK
 BaseStats=48,48,48,48,48,48
 GenderRate=Genderless
@@ -28012,7 +28012,7 @@ BattlerPlayerY=8
 BattlerEnemyY=10
 [2025]
 Name=Greninja
-InternalName=DITTOX
+InternalName=DISPLACEMENTX
 Type1=FIRE
 Type2=DARK
 BaseStats=72,120,67,127,128,71
