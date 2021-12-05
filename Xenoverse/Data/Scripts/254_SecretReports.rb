@@ -38,19 +38,76 @@ SecretReports.register({
     :pageno => 11,
     :bg => "Graphics/Pictures/reportsbg",
     :pages =>[
+        #0
         "???: Ho deciso di tenere un diario per ricordare le numerose esperienze che farò! "+
         "Proprio oggi mi sono unita al Team Dimension, e nonostante io sia solo una recluta, "+
         "mi sento già legata alla causa! Spero di poter aiutare il più possibile.",
-
+        #1
         "???: C’è molto lavoro da fare qui! Sembra stiano progettando dei robot da utilizzare insieme alle altre reclute, "+ 
         "per smaltire più in fretta il lavoro. Nel frattempo, sono stata promossa a Sergente! "+
         "A quanto pare la mia motivazione ha fatto colpo sui ranghi alti e hanno deciso di promuovermi. Buon per me!",
-
+        #2
         "???: Ormai è passato tantissimo tempo da quando mi sono unita al Team Dimension. 
         Sono stata addirittura promossa a Colonnello! Durante la promozione ho conosciuto il Generale, 
         che uomo affascinante! Credo di essermi innamorata! Mi è stata assegnata una missione 
-        riguardante la cattura di una specie X nel Canyon Asteroide. Spero di non dover fargli del male, ma se fosse necessario..."
-    ]
+        riguardante la cattura di una specie X nel Canyon Asteroide. Spero di non dover fargli del male, ma se fosse necessario...",
+        #3
+        "???: Anche se ho fallito nell’ultima missione, il Generale ha chiesto nuovamente di me! "+
+        "Questa volta sono stata incaricata di rubare un treno, e farò in modo che la missione "+
+        "abbia successo! Spero solo che non torni quella spina nel fianco...",
+        #4
+        "???: Alla fine la missione sul treno è andata a buon fine, ma non grazie a me... "+
+        "ho perso contro quella sottospecie di Trubbish..."+
+        "Il Generale ha preso le redini della situazione e ha portato a termine "+
+        "la missione senza problemi. È proprio magnifico! Devo migliorare per poter" +
+        "essere alla sua altezza, non posso assolutamente deluderlo!",
+        #5
+        "???: A quanto pare stiamo per partire per la luna, sono davvero nervosa... "+
+        "Io e il mio Scovile X ci siamo allenati per essere ancora più forti! "+
+        "Il Generale dice che lo scontro finale si avvicina, e quindi dobbiamo "+
+        "prepararci al meglio! Mi assicurerò di essergli utile questa volta!",
+        #6
+        "???: Dopo intere settimane che vagavamo senza meta il mio Generale "+
+        "decise all’improvviso di ricominciare con le ricerche. Parlava di "+
+        "come fosse possibile interagire con altre dimensioni usando un certo "+
+        "tipo di Energia. Io ero così emozionata! Finalmente vedevo tornare nel"+
+        " mio adorato un po’ di forze, che non ero più nella pelle!",
+        #7
+        "???: Ero contenta di sentire il mio Generale pieno di energie," +
+        "ma ormai non fa altro che parlare di una certa Nives... Pare fosse una ricercatrice "+
+        "del Team Dimension, quando erano ancora in corso gli esperimenti sullo Xenoverse. "+
+        "Adesso ci stiamo dirigendo verso un nascondiglio situato nel Canyon Asteroide. "+
+        "E io sento un senso di oppressione al petto.",
+        #8
+        "???: Ero certa che il Generale volesse venire qui per nascondersi, "+
+        "invece pare che in questo posto ci siano i macchinari di cui ha bisogno per le sue ricerche!"+
+        " È così pieno di energie ultimamente! Voglio supportarlo con tutta me stessa. "+
+        "Diventerò la sua Tamara! Peccato che lui continui a parlare di questa Nives. "+
+        "Il senso di oppressione si fa peggiore.",
+        #9
+        "???: Sembra che le ricerche non stiano portando ai risultati sperati. "+
+        "Il mio adorato ora sembra disperato, come se dovesse riuscire a tutti i costi. "+
+        "Quando gli ho detto di riposare, mi ha spinta via e mi ha detto di sparire, "+
+        "visto che sono inutile. Mi fa male il petto.",
+        #10
+        "???: Ho scoperto che questo posto in realtà è dove il mio Generale "+
+        "e quella Nives si sono conosciuti. Perchè continua a parlare di lei? "+
+        "Perchè continuo ad essere ignorata? Mio Generale… quella è già morta da un pezzo! "+
+        "Io invece posso ancora renderla felice... La prego, non mi ignori... Il dolore al petto è insopportabile..."
+    ],
+    :pagegraphics =>{
+        0=>"Graphics/Pictures/Pages/page0",
+        1=>"Graphics/Pictures/Pages/page1",
+        2=>"Graphics/Pictures/Pages/page2",
+        3=>"Graphics/Pictures/Pages/page3",
+        4=>"Graphics/Pictures/Pages/page4",
+        5=>"Graphics/Pictures/Pages/page5",
+        6=>"Graphics/Pictures/Pages/page6",
+        7=>"Graphics/Pictures/Pages/page7",
+        8=>"Graphics/Pictures/Pages/page8",
+        9=>"Graphics/Pictures/Pages/page9",
+        10=>"Graphics/Pictures/Pages/page10",
+    }
 })
 
 def pbTestReport
@@ -64,6 +121,8 @@ class SecretReportScreen
         @reports = reports
         @viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
         @viewport.z = 99999
+        @viewport2 = Viewport.new(0,0,Graphics.width,Graphics.height)
+        @viewport2.z = @viewport.z + 1
         @sprites={}
 
         setUpScreen()
@@ -109,7 +168,14 @@ class SecretReportScreen
 
         pbDrawTextPositions(@sprites["rightOverlay"].bitmap,textpos)
 
+        @sprites["page"] = Sprite.new(@viewport2)
+        @sprites["page"].visible = false
+        @sprites["page"].z = 9
 
+        @sprites["fadeout"] = BitmapSprite.new(Graphics.width,Graphics.height,@viewport2)
+        @sprites["fadeout"].bitmap.fill_rect(0,0,Graphics.width,Graphics.height,Color.new(0,0,0))
+        @sprites["fadeout"].z = 10
+        @sprites["fadeout"].opacity = 0
     end
 
 
@@ -133,11 +199,43 @@ class SecretReportScreen
     end
 
     def readPage(id)
+        14.times do
+            Graphics.update
+            Input.update
+            @sprites["fadeout"].opacity += 255/14
+        end
+
+        if @reports[:pagegraphics][id]
+            @sprites["page"].bitmap = pbBitmap(@reports[:pagegraphics][id])
+            @sprites["page"].visible = true
+        end
+
+        14.times do
+            Graphics.update
+            Input.update
+            @sprites["fadeout"].opacity -= 255/14
+        end
         Kernel.pbMessage(@reports[:pages][id])
+
+        14.times do
+            Graphics.update
+            Input.update
+            @sprites["fadeout"].opacity += 255/14
+        end
+        
+        @sprites["page"].visible = false
+
+        14.times do
+            Graphics.update
+            Input.update
+            @sprites["fadeout"].opacity -= 255/14
+        end
     end
 
     def endScreen()
         pbFadeOutAndHide(@sprites)
         pbDisposeSpriteHash(@sprites)
+        @viewport2.dispose
+        @viewport.dispose
     end
 end

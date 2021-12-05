@@ -143,7 +143,8 @@ def isXSpecies?(species)
     isConst?(species,PBSpecies,:DRAGALISK) ||
 	  isConst?(species,PBSpecies,:VERSILDRAGALISK) ||
 		isConst?(species,PBSpecies,:VAKUM) ||
-    isConst?(species,PBSpecies,:GRENINJAX)
+    isConst?(species,PBSpecies,:GRENINJAX)||
+    isConst?(species,PBSpecies,:DITTOX)
 end
   
 SPECIEX = [

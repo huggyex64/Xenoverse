@@ -951,7 +951,7 @@ class NewBossBattleTransition
         @evilteam = true if !id.nil? && trainerid == id
       end
       # methods used to determine special variants
-      ext = ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal"]
+      ext = ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury"]
       #ext.push("trainer")
       @variant = "trainer"
       for i in 0...ext.length

@@ -1325,6 +1325,15 @@ def pbWildBattle(species,level,variable=nil,canescape=true,canlose=false,modifie
         echoln $Trainer.retrochain[species]
       end
      if decision==2 || decision==5 # if loss or draw
+       if $game_map.map_id == 593
+        $game_switches[1089] = false
+        $game_switches[1090] = false
+       elsif $game_map.map_id == 599
+        for i in 1096..1118
+          $game_switches[i] = false
+        end
+       end
+
        if canlose
          for i in $Trainer.party; i.heal; end
          for i in 0...10

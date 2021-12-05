@@ -1043,6 +1043,113 @@ class SunMoonCardinalBackground
   end
 end
 #-------------------------------------------------------------------------------
+#
+#-------------------------------------------------------------------------------
+class SunMoonFuryBackground
+  attr_accessor :speed
+  # main method to create the background
+  def initialize(viewport,trainerid,evilteam=false)
+    @viewport = viewport
+    @trainerid = trainerid
+    @evilteam = evilteam
+    @disposed = false
+    @speed = 1
+    @sprites = {}
+    # draws a black backdrop
+    @sprites["bg"] = Sprite.new(@viewport)
+    @sprites["bg"].drawRect(@viewport.rect.width,@viewport.rect.height,Color.new(0,0,0))
+    @sprites["bg"].z = 200
+    @sprites["bg"].color = Color.new(0,0,0)
+    # draws the 3 circular patterns that change hue
+    for j in 0...3
+      @sprites["b#{j}"] = RainbowSprite.new(@viewport)
+      @sprites["b#{j}"].setBitmap("Graphics/Transitions/SunMoon/Fury/ring#{j}",8)
+      @sprites["b#{j}"].ox = @sprites["b#{j}"].bitmap.width/2
+      @sprites["b#{j}"].oy = @sprites["b#{j}"].bitmap.height/2
+      @sprites["b#{j}"].x = @viewport.rect.width/2
+      @sprites["b#{j}"].y = @viewport.rect.height/2
+      @sprites["b#{j}"].zoom_x = 0.6 + 0.6*j
+      @sprites["b#{j}"].zoom_y = 0.6 + 0.6*j
+      @sprites["b#{j}"].opacity = 64 + 64*(1+j)
+      @sprites["b#{j}"].z = 250
+      @sprites["b#{j}"].color = Color.new(0,0,0)
+    end
+    # draws all the particles
+    for j in 0...64
+      @sprites["p#{j}"] = Sprite.new(@viewport)
+      @sprites["p#{j}"].z = 300
+      width = 16 + rand(48)
+      height = 16 + rand(16)
+      @sprites["p#{j}"].bitmap = Bitmap.new(width,height)
+      bmp = pbBitmap("Graphics/Transitions/SunMoon/Fury/particle")
+      @sprites["p#{j}"].bitmap.stretch_blt(Rect.new(0,0,width,height),bmp,Rect.new(0,0,bmp.width,bmp.height))
+      #@sprites["p#{j}"].bitmap.hue_change(rand(360))
+      @sprites["p#{j}"].ox = width/2
+      @sprites["p#{j}"].oy = height + 192 + rand(32)
+      @sprites["p#{j}"].angle = rand(360)
+      @sprites["p#{j}"].speed = 1 + rand(4)
+      @sprites["p#{j}"].x = @viewport.rect.width/2
+      @sprites["p#{j}"].y = @viewport.rect.height/2
+      @sprites["p#{j}"].zoom_x = (@sprites["p#{j}"].oy/192.0)*1.5
+      @sprites["p#{j}"].zoom_y = (@sprites["p#{j}"].oy/192.0)*1.5
+      #@sprites["p#{j}"].color = Color.new(0,0,0)
+    end
+    @frame = 0
+  end
+  # sets the speed of the sprites
+  def speed=(val); end
+  # updates the background
+  def update
+    return if self.disposed?
+    # updates the 3 circular patterns changing their hue
+    for j in 0...3
+      @sprites["b#{j}"].zoom_x -= 0.025
+      @sprites["b#{j}"].zoom_y -= 0.025
+      @sprites["b#{j}"].opacity -= 4
+      if @sprites["b#{j}"].zoom_x <= 0 || @sprites["b#{j}"].opacity <= 0
+        @sprites["b#{j}"].zoom_x = 2.25
+        @sprites["b#{j}"].zoom_y = 2.25
+        @sprites["b#{j}"].opacity = 255
+      end
+      #@sprites["b#{j}"].update if @frame%8==0
+    end
+    # animates all the particles
+    for j in 0...64
+      @sprites["p#{j}"].angle -= @sprites["p#{j}"].speed
+      @sprites["p#{j}"].opacity -= @sprites["p#{j}"].speed
+      @sprites["p#{j}"].oy -= @sprites["p#{j}"].speed/2 if @sprites["p#{j}"].oy > @sprites["p#{j}"].bitmap.height
+      @sprites["p#{j}"].zoom_x = (@sprites["p#{j}"].oy/192.0)*1.5
+      @sprites["p#{j}"].zoom_y = (@sprites["p#{j}"].oy/192.0)*1.5
+      if @sprites["p#{j}"].zoom_x <= 0 || @sprites["p#{j}"].oy <= 0 || @sprites["p#{j}"].opacity <= 0
+        @sprites["p#{j}"].angle = rand(360)
+        @sprites["p#{j}"].oy = @sprites["p#{j}"].bitmap.height + 192 + rand(32)
+        @sprites["p#{j}"].zoom_x = (@sprites["p#{j}"].oy/192.0)*1.5
+        @sprites["p#{j}"].zoom_y = (@sprites["p#{j}"].oy/192.0)*1.5
+        @sprites["p#{j}"].opacity = 255
+        @sprites["p#{j}"].speed = 1 + rand(4)
+      end
+    end
+    @frame += 1
+    @frame = 0 if @frame > 128
+  end
+  # used to fade in from black
+  def reduceAlpha(factor)
+    for key in @sprites.keys
+      @sprites[key].color.alpha -= factor
+    end
+  end
+  # disposes of everything
+  def dispose
+    @disposed = true
+    pbDisposeSpriteHash(@sprites)
+  end
+  # checks if disposed
+  def disposed?; return @disposed; end
+  # used to show other elements
+  def show; end
+  
+end
+#-------------------------------------------------------------------------------
 #  Utilities used for move animations
 #-------------------------------------------------------------------------------
 class PokeBattle_Scene  
@@ -2681,7 +2788,7 @@ class SunMoonBattleTransitions
       echoln "starting fury sequence"
       @teamskull = true
       self.teamSkull if @teamskull
-      @sprites["background"] = SunMoonDefaultBackground.new(@viewport,@trainerid,@evilteam,@teamskull)
+      @sprites["background"] = SunMoonFuryBackground.new(@viewport,@trainerid,@evilteam)
     else
       @sprites["background"] = SunMoonDefaultBackground.new(@viewport,@trainerid,@evilteam,@teamskull)
     end
@@ -2699,14 +2806,28 @@ class SunMoonBattleTransitions
     # trainer graphic
     @sprites["trainer"] = Sprite.new(@viewport)
     @sprites["trainer"].z = 350
-    @sprites["trainer"].bitmap = Bitmap.new(@viewport.rect.width,@viewport.rect.height)
-    @sprites["trainer"].ox = @sprites["trainer"].bitmap.width/2
-    @sprites["trainer"].oy = @sprites["trainer"].bitmap.height/2
-    @sprites["trainer"].x = @sprites["trainer"].ox if @variant != "plasma" && @variant != "cardinal" && @variant != "fury" 
-    @sprites["trainer"].y = @sprites["trainer"].oy
+
+    if @variant == "fury"
+      @sprites["trainer"].bitmap = Bitmap.new(@viewport.rect.width,@viewport.rect.height*1.5)
+      
+      @sprites["trainer"].ox = @sprites["trainer"].bitmap.width/2
+      @sprites["trainer"].oy = @sprites["trainer"].bitmap.height/2.5
+      @sprites["trainer"].x = Graphics.width/2#@sprites["trainer"].ox if @variant != "plasma" && @variant != "cardinal"
+      @sprites["trainer"].y = Graphics.height/2#@sprites["trainer"].oy
+    else
+      @sprites["trainer"].bitmap = Bitmap.new(@viewport.rect.width,@viewport.rect.height)
+      
+      @sprites["trainer"].ox = @sprites["trainer"].bitmap.width/2
+      @sprites["trainer"].oy = @sprites["trainer"].bitmap.height/2
+      @sprites["trainer"].x = @sprites["trainer"].ox if @variant != "plasma" && @variant != "cardinal"
+      @sprites["trainer"].y = @sprites["trainer"].oy
+    end
+
     @sprites["trainer"].tone = Tone.new(255,255,255)
-    @sprites["trainer"].zoom_x = 1.32 if @variant != "plasma" && @variant != "cardinal" && @variant != "fury" 
-    @sprites["trainer"].zoom_y = 1.32 if @variant != "plasma" && @variant != "cardinal" && @variant != "fury" 
+    @sprites["trainer"].zoom_x = 1.32 if @variant != "plasma" && @variant != "cardinal" 
+    @sprites["trainer"].zoom_y = 1.32 if @variant != "plasma" && @variant != "cardinal"
+    #@sprites["trainer"].zoom_x = 0.66 if @variant == "fury" 
+    #@sprites["trainer"].zoom_y = 0.66 if @variant == "fury" 
     @sprites["trainer"].opacity = 0
     # sets a bitmap for the trainer
     bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",@variant,@trainerid))
@@ -2720,28 +2841,82 @@ class SunMoonBattleTransitions
     @sprites["shade"].color = Color.new(150,115,255,204) if @variant == "elite"
     @sprites["shade"].color = Color.new(115,216,145,204) if @variant == "digital"
     @sprites["shade"].opacity = 0
-    @sprites["shade"].visible = false if @variant == "crazy" || @variant == "plasma" ||@variant == "cardinal" && @variant != "fury" 
+    @sprites["shade"].visible = false if @variant == "crazy" || @variant == "plasma" ||@variant == "cardinal" || @variant == "fury" 
     # creates and colours an outer glow for the trainer
     c = Color.new(0,0,0)
-    c = Color.new(255,255,255) if @variant == "crazy" || @variant == "digital" || @variant == "plasma" ||@variant == "cardinal" && @variant != "fury" 
-    @sprites["glow"].bitmap = bmp.clone
-    @sprites["glow"].glow(c,35,false)
-    @sprites["glow"].src_rect.set(0,@viewport.rect.height,@viewport.rect.width/2,0)
-    @sprites["glow2"].bitmap = @sprites["glow"].bitmap.clone
-    @sprites["glow2"].src_rect.set(@viewport.rect.width/2,0,@viewport.rect.width/2,0)
+    c = Color.new(255,255,255) if @variant == "crazy" || @variant == "digital" || @variant == "plasma" ||@variant == "cardinal" || @variant == "fury" 
+    if @variant == "fury"
+      @sprites["glow"].bitmap = bmp.clone
+      @sprites["glow"].glow(c,35,false)
+      @sprites["glow"].src_rect.set(0,@viewport.rect.height+36,bmp.width/2,0)
+      @sprites["glow2"].bitmap = @sprites["glow"].bitmap.clone
+      @sprites["glow2"].src_rect.set(bmp.width/2,36,bmp.width/2,0)
+    else
+      @sprites["glow"].bitmap = bmp.clone
+      @sprites["glow"].glow(c,35,false)
+      @sprites["glow"].src_rect.set(0,@viewport.rect.height,@viewport.rect.width/2,0)
+      @sprites["glow2"].bitmap = @sprites["glow"].bitmap.clone
+      @sprites["glow2"].src_rect.set(@viewport.rect.width/2,0,@viewport.rect.width/2,0)
+    end
     # creates the fade-out ball graphic overlay
     @sprites["overlay"] = Sprite.new(@viewport)
     @sprites["overlay"].z = 999
     @sprites["overlay"].bitmap = Bitmap.new(@viewport.rect.width,@viewport.rect.height)
     @sprites["overlay"].opacity = 0
   end
+  
+
+  def trainerPreview
+    pvvp = Viewport.new(0,0,Graphics.width,Graphics.height)
+    pvvp.z = @viewport.z + 1
+
+    @sprites["trainerpv"] = Sprite.new(pvvp)
+    @sprites["trainerpv"].bitmap = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",@variant,@trainerid))
+    @sprites["trainerpv"].opacity = 0
+    @sprites["trainerpv"].zoom_x = 2
+    @sprites["trainerpv"].zoom_y = 2
+    @sprites["trainerpv"].oy = @sprites["trainerpv"].bitmap.height
+    @sprites["trainerpv"].ox = @sprites["trainerpv"].bitmap.width/2
+    @sprites["trainerpv"].y = Graphics.height
+    @sprites["trainerpv"].x = 0
+    @sprites["trainerpv"].tone = Tone.new(0,0,0,255)
+    i = 0
+    60.times do
+      Graphics.update
+      Input.update
+      @sprites["trainerpv"].opacity += 185/10 if i < 10
+      @sprites["trainerpv"].x+=1
+      @sprites["trainerpv"].opacity -= 185/10 if i >= 50
+      i+=1
+    end
+
+    @sprites["trainerpv"].oy = @sprites["trainerpv"].bitmap.height/3
+    @sprites["trainerpv"].y = Graphics.height
+    @sprites["trainerpv"].x = Graphics.width 
+    pbWait(30)
+    i=0
+    60.times do
+      Graphics.update
+      Input.update
+      @sprites["trainerpv"].opacity += 185/10 if i < 10
+      @sprites["trainerpv"].x-=1
+      @sprites["trainerpv"].opacity -= 185/10 if i >= 50
+      i+=1
+    end
+
+
+  end
+
+
   # starts the animation
   def start
+    self.trainerPreview if @variant == "fury"
+
     return if self.disposed?
     # fades in viewport
     16.times do
       @viewport.color.alpha -= 16 if @viewport.color.alpha > 0
-      if @variant == "plasma" || @variant == "cardinal" || @variant == "fury" 
+      if @variant == "plasma" || @variant == "cardinal" 
         @sprites["trainer"].x += (@viewport.rect.width/3)/8
         self.update
       else
@@ -2860,7 +3035,8 @@ class SunMoonBattleTransitions
     # final transition
     viewport = @viewport
     zoom = 4.0
-    obmp = pbBitmap("Graphics/Transitions/SunMoon/Common/ballTransition")
+    echoln "Graphics/Transitions/SunMoon/Common/ballTransition#{@teamskull ? "Skull" : ""}  NEWTRANSITION 1"
+    obmp = pbBitmap("Graphics/Transitions/SunMoon/Common/ballTransition#{@teamskull ? "Skull" : ""}")
     @sprites["background"].speed = 24
     echo "\n I got here SOMEHOW \n"
     # zooms in ball graphic overlay
@@ -2897,6 +3073,8 @@ class SunMoonBattleTransitions
     $smAnim = false
     # transitions from VS sequence to the battle scene
     zoom = 0
+    obmp = pbBitmap("Graphics/Transitions/SunMoon/Common/ballTransition#{@teamskull ? "Skull" : ""}")
+    
     # zooms out ball graphic overlay
     21.times do
       @sprites["overlay"].bitmap.clear
@@ -2908,7 +3086,7 @@ class SunMoonBattleTransitions
       @sprites["overlay"].bitmap.fill_rect(@msgview.rect.width-width,0,width,@msgview.rect.height,Color.new(0,0,0))
       @sprites["overlay"].bitmap.fill_rect(0,0,@msgview.rect.width,height,Color.new(0,0,0))
       @sprites["overlay"].bitmap.fill_rect(0,@msgview.rect.height-height,@msgview.rect.width,height,Color.new(0,0,0))
-      @sprites["overlay"].bitmap.stretch_blt(Rect.new(ox,oy,(@obmp.width*zoom).ceil,(@obmp.height*zoom).ceil),@obmp,@obmp.rect)
+      @sprites["overlay"].bitmap.stretch_blt(Rect.new(ox,oy,(obmp.width*zoom).ceil,(obmp.height*zoom).ceil),obmp,obmp.rect)
       @sprites["overlay"].opacity -= 12.8
       zoom += 4.0/20
       @scene.wait(1,true)
@@ -3420,7 +3598,7 @@ class SunMoonBattleTransitions
       @variant = ext[i] if pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",ext[i],trainerid))
     end
     # sets up the rest of the variables
-    @obmp = pbBitmap("Graphics/Transitions/SunMoon/Common/ballTransition")
+    @obmp = pbBitmap("Graphics/Transitions/SunMoon/Common/ballTransition#{@teamskull ? "Skull" : ""}")
   end
 end
 # returns true if game is supposed to load a Sun & Moon styled VS sequence

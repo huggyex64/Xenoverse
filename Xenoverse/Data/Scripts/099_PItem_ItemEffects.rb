@@ -262,6 +262,9 @@ ItemHandlers::UseInField.add(:FUNEDIFUGAPLUS,proc{|item|
     $game_switches[1089] = false
     $game_switches[1090] = false
     $game_switches[1093] = false
+    for i in 1096..1118
+      $game_switches[i] = false
+    end
   end
   if !escape || escape==[]
     Kernel.pbMessage(_INTL("Can't use that here."))
