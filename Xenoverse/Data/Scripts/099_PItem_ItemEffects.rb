@@ -245,7 +245,7 @@ ItemHandlers::UseFromBag.add(:FUNEDIFUGAPLUS,proc{|item|
     Kernel.pbMessage(_INTL("It can't be used here."))
     next 0
   else
-    next 4
+    next 2
   end
 })
 
