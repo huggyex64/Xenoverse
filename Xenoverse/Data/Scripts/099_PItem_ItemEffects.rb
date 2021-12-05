@@ -258,6 +258,11 @@ ItemHandlers::UseInField.add(:FUNEDIFUGAPLUS,proc{|item|
     next
   end
   escape=AVAILABLE_MAPS[$game_map.map_id]#($PokemonGlobal.escapePoint rescue nil)
+  if escape == [135,33,13,2]
+    $game_switches[1089] = false
+    $game_switches[1090] = false
+    $game_switches[1093] = false
+  end
   if !escape || escape==[]
     Kernel.pbMessage(_INTL("Can't use that here."))
     next

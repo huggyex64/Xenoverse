@@ -1711,7 +1711,7 @@ end
 
 def pbGalvGeBossBattle
   $furiousBattle = true
-  pbRegisterPartner(PBTrainers::MAURICEBUNKER,"Maurice",0,{
+  pbRegisterPartnerWithPartyEV(PBTrainers::MAURICEBUNKER,"Maurice",0,{
     :RAICHU=>{
       :spatk=>252,
       :defense=>4,
