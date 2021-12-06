@@ -188,8 +188,8 @@ def pbDayCareGenerateEgg
   mother=nil
   father=nil
   babyspecies=0
-  ditto0=pbIsDitto?(pokemon0)
-  ditto1=pbIsDitto?(pokemon1)
+  ditto0=pbIsDitto?(pokemon0) || pbIsDittoX?(pokemon0)
+  ditto1=pbIsDitto?(pokemon1) || pbIsDittoX?(pokemon1)
   if (pokemon0.isFemale? || ditto0)
     babyspecies=(ditto0) ? pokemon1.species : pokemon0.species
     mother=pokemon0

@@ -58,13 +58,22 @@ def pbIsDitto?(pokemon)
   return (compat10==13 || compat11==13)
 end
 
+def pbIsDittoX?(pokemon)
+  dexdata=pbOpenDexData
+  pbDexDataOffset(dexdata,pokemon.species,31)
+  compat10=dexdata.fgetb
+  compat11=dexdata.fgetb
+  dexdata.close
+  return (compat10==27 || compat11==27)
+end
+
 def pbDayCareCompatibleGender(pokemon1,pokemon2)
   if (pokemon1.isFemale? && pokemon2.isMale?) ||
      (pokemon1.isMale? && pokemon2.isFemale?)
     return true
   end
-  ditto1=pbIsDitto?(pokemon1)
-  ditto2=pbIsDitto?(pokemon2)
+  ditto1=pbIsDitto?(pokemon1) || pbIsDittoX?(pokemon1)
+  ditto2=pbIsDitto?(pokemon2) || pbIsDittoX?(pokemon2)
   return true if ditto1 && !ditto2
   return true if ditto2 && !ditto1
   return false
@@ -87,7 +96,10 @@ def pbDayCareGetCompat
     if (compat10==compat20 || compat11==compat20 ||
        compat10==compat21 || compat11==compat21 ||
        compat10==13 || compat11==13 || compat20==13 || compat21==13) &&
-       compat10!=15 && compat11!=15 && compat20!=15 && compat21!=15
+       compat10!=15 && compat11!=15 && compat20!=15 && compat21!=15 &&
+       !(compat10>=16 || compat11>=16 || compat20>=16 || compat21>=16) #no x species allowed
+      
+       echoln "Two standard Species! Checking Gender"
       if pbDayCareCompatibleGender(pokemon1,pokemon2)
         if pokemon1.species==pokemon2.species
           return (pokemon1.trainerID==pokemon2.trainerID) ? 2 : 3
@@ -95,6 +107,22 @@ def pbDayCareGetCompat
           return (pokemon1.trainerID==pokemon2.trainerID) ? 1 : 2
         end
       end
+    elsif (compat10==compat20 || compat11==compat20 || #Xenomon breeding
+      compat10==compat21 || compat11==compat21 ||
+      compat10=27 || compat11==27 || compat20==27 || compat21==27) &&
+      compat10!=15 && compat11!=15 && compat20!=15 && compat21!=15 &&
+      (compat10>=16 && compat11>=16 && compat20>=16 && compat21>=16) #only x species allowed
+      echoln "Two X Species! Checking Gender"
+      if pbDayCareCompatibleGender(pokemon1,pokemon2)
+        if pokemon1.species==pokemon2.species
+          compat = (pokemon1.trainerID==pokemon2.trainerID) ? 2 : 3
+          return compat
+        else
+          compat = (pokemon1.trainerID==pokemon2.trainerID) ? 1 : 2
+          return compat
+        end
+      end
+
     end
   end
   return 0
@@ -177,8 +205,8 @@ def pbDayCareGenerateEgg
   mother=nil
   father=nil
   babyspecies=0
-  ditto0=pbIsDitto?(pokemon0)
-  ditto1=pbIsDitto?(pokemon1)
+  ditto0=pbIsDitto?(pokemon0) || pbIsDittoX?(pokemon0)
+  ditto1=pbIsDitto?(pokemon1) || pbIsDittoX?(pokemon1)
   if (pokemon0.isFemale? || ditto0)
     babyspecies=(ditto0) ? pokemon1.species : pokemon0.species
     mother=pokemon0
