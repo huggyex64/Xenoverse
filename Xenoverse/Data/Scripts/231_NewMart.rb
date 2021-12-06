@@ -80,9 +80,10 @@ class PokemonMartScene
     window.letterbyletter=false
   end
 
-  def pbStartBuyOrSellScene(buying,stock,adapter)
+  def pbStartBuyOrSellScene(buying,stock,adapter,bpmode=false)
     # Scroll right before showing screen
     pbScrollMap(6,5,5)
+    @bpmode = bpmode
     @viewport=Viewport.new(0,0,Graphics.width,Graphics.height)
     @viewport.z=99999
 		@view=Viewport.new(0,0,Graphics.width,Graphics.height)
@@ -113,7 +114,7 @@ class PokemonMartScene
 		@sprites["icon"].visible = false
     winAdapter=buying ? BuyAdapter.new(adapter) : SellAdapter.new(adapter)
     @sprites["itemwindow"]=Window_PokemonMart.new(stock,winAdapter,
-       Graphics.width-316-16,12,330+16,Graphics.height-126)
+       Graphics.width-316-16,12,330+16,Graphics.height-126,nil,bpmode)
     @sprites["itemwindow"].viewport=@viewport
     @sprites["itemwindow"].index=0
 		@sprites["itemwindow"].visible=false
@@ -165,8 +166,8 @@ class PokemonMartScene
 			@sprites["it#{item}"].bitmap.blt(0,0,pbBitmap(filename),Rect.new(0,0,48,48))
 			bmp = Bitmap.new(48,48)
 			bmp.font = BAGITEMFONT
-			price = @adapter.getPrice(item,false)
-			qty=_ISPRINTF("${1:2d}",price)
+			price = @adapter.getBattlePrice(item)
+			qty= @bpmode == false ? _ISPRINTF("${1:2d}",price) : _ISPRINTF("{1:2d}P",price)
 			pbDrawTextPositions(bmp,[[qty,48-2,48-bmp.font.size-2,1,Color.new(248,248,248),Color.new(24,24,24),true]])
 			@sprites["it#{item}"].bitmap.blt(0,0,bmp,Rect.new(0,0,48,48))
 			@sprites["it#{item}"].x = 0 + 54*(i%4)
@@ -197,8 +198,8 @@ class PokemonMartScene
 		end
 	end
 	
-  def pbStartBuyScene(stock,adapter)
-    pbStartBuyOrSellScene(true,stock,adapter)
+  def pbStartBuyScene(stock,adapter,bpmode=false)
+    pbStartBuyOrSellScene(true,stock,adapter,bpmode)
   end
   
   def pbStartSellScene(bag,adapter)
@@ -267,8 +268,8 @@ class PokemonMartScene
 	def drawMoney
 		@sprites["overlay"].bitmap.clear
 		textpos=[]
-		textpos.push([_INTL("Money"),24,16,0,Color.new(48,48,48)])
-		textpos.push(["$"+$Trainer.money.to_s,225,16,1,Color.new(48,48,48)])
+		textpos.push([(@bpmode ? _INTL("Points") : _INTL("Money")),24,16,0,Color.new(48,48,48)])
+		textpos.push([(@bpmode ? $Trainer.battle_points.to_s : "$"+$Trainer.money.to_s),225,16,1,Color.new(48,48,48)])
 		pbDrawTextPositions(@sprites["overlay"].bitmap,textpos)
 	end
 	
@@ -406,7 +407,7 @@ class PokemonMartScene
       itemwindow.refresh
     end
     @subscene.pbRefresh if @subscene != nil
-    @sprites["moneywindow"].text=_INTL("Money:\n<r>${1}",@adapter.getMoney())
+    @sprites["moneywindow"].text=@bpmode ? _INTL("Points:\n<r>${1}",$Trainer.battle_points) : _INTL("Money:\n<r>${1}",@adapter.getMoney())
   end
 
   def pbChooseBuyItem
@@ -481,73 +482,140 @@ class PokemonMartScreen
       Kernel.pbMessage(_INTL("Siamo spiacenti, non abbiamo più scorte in magazzino."))
       return
     end
-    @scene.pbStartBuyScene(@stock,@adapter)
+    @scene.pbStartBuyScene(@stock,@adapter,@bpmode)
     item=0
     loop do
       item=@scene.pbChooseBuyItem
       quantity=0
       break if item==0
       itemname=@adapter.getDisplayName(item)
-      price=@adapter.getPrice(item)
-      if @adapter.getMoney()<price
-        pbDisplayPaused(_INTL("You don't have enough money."))
-        next
-      end
-      if pbIsImportantItem?(item)
-        if !pbConfirm(_INTL("Certainly.  You want {1}.\r\nThat will be ${2}.  OK?",itemname,price))
+      if (!@bpmode)
+        price=@adapter.getPrice(item)
+        if @adapter.getMoney()<price
+          pbDisplayPaused(_INTL("You don't have enough money."))
           next
         end
-        quantity=1
-      else
-        maxafford=(price<=0) ? BAGMAXPERSLOT : @adapter.getMoney()/price
-        maxafford=BAGMAXPERSLOT if maxafford>BAGMAXPERSLOT
-        quantity=@scene.pbChooseNumber(
-           _INTL("{1}?  Certainly.\r\nHow many would you like?",itemname),item,maxafford)
-        if quantity==0
-          next
-        end
-        price*=quantity
-        if !pbConfirm(_INTL("{1}, and you want {2}.\r\nThat will be ${3}.  OK?",itemname,quantity,price))
-          next
-        end
-      end
-      if @adapter.getMoney()<price
-        pbDisplayPaused(_INTL("You don't have enough money."))
-        next
-      end
-      added=0
-      quantity.times do
-        if !@adapter.addItem(item)
-          break
-        end
-        added+=1
-      end
-      if added!=quantity
-        added.times do
-          if !@adapter.removeItem(item)
-            raise _INTL("Failed to delete stored items")
+        if pbIsImportantItem?(item)
+          if !pbConfirm(_INTL("Certainly.  You want {1}.\r\nThat will be ${2}.  OK?",itemname,price))
+            next
+          end
+          quantity=1
+        else
+          maxafford=(price<=0) ? BAGMAXPERSLOT : @adapter.getMoney()/price
+          maxafford=BAGMAXPERSLOT if maxafford>BAGMAXPERSLOT
+          quantity=@scene.pbChooseNumber(
+            _INTL("{1}?  Certainly.\r\nHow many would you like?",itemname),item,maxafford)
+          if quantity==0
+            next
+          end
+          price*=quantity
+          if !pbConfirm(_INTL("{1}, and you want {2}.\r\nThat will be ${3}.  OK?",itemname,quantity,price))
+            next
           end
         end
-        pbDisplayPaused(_INTL("You have no more room in the Bag."))  
-      else
-        @adapter.setMoney(@adapter.getMoney()-price)
-        for i in 0...@stock.length
-          if pbIsImportantItem?(@stock[i]) && $PokemonBag.pbQuantity(@stock[i])>0
-            @stock[i]=nil
+        if @adapter.getMoney()<price
+          pbDisplayPaused(_INTL("You don't have enough money."))
+          next
+        end
+        added=0
+        quantity.times do
+          if !@adapter.addItem(item)
+            break
+          end
+          added+=1
+        end
+        if added!=quantity
+          added.times do
+            if !@adapter.removeItem(item)
+              raise _INTL("Failed to delete stored items")
+            end
+          end
+          pbDisplayPaused(_INTL("You have no more room in the Bag."))  
+        else
+          @adapter.setMoney(@adapter.getMoney()-price)
+          for i in 0...@stock.length
+            if pbIsImportantItem?(@stock[i]) && $PokemonBag.pbQuantity(@stock[i])>0
+              @stock[i]=nil
+            end
+          end
+          @stock.compact!
+          pbDisplayPaused(_INTL("Here you are!\r\nThank you!"))
+          if @stock.length==0 
+            break
+          end
+          #update scene with new stock
+          @scene.pbDrawItems
+          if $PokemonBag
+            if quantity>=10 && isConst?(item,PBItems,:POKEBALL) && 
+              hasConst?(PBItems,:PREMIERBALL)
+              if @adapter.addItem(getConst(PBItems,:PREMIERBALL))
+                pbDisplayPaused(_INTL("I'll throw in a Premier Ball, too.")) 
+              end
+            end
           end
         end
-        @stock.compact!
-        pbDisplayPaused(_INTL("Here you are!\r\nThank you!"))
-        if @stock.length==0 
-          break
+      else # Buying with Battle Points
+        price=@adapter.getBattlePrice(item)
+        if $Trainer.battle_points<price
+          pbDisplayPaused(_INTL("You don't have enough points."))
+          next
         end
-        #update scene with new stock
-        @scene.pbDrawItems
-        if $PokemonBag
-          if quantity>=10 && isConst?(item,PBItems,:POKEBALL) && 
-             hasConst?(PBItems,:PREMIERBALL)
-            if @adapter.addItem(getConst(PBItems,:PREMIERBALL))
-              pbDisplayPaused(_INTL("I'll throw in a Premier Ball, too.")) 
+        if pbIsImportantItem?(item)
+          if !pbConfirm(_INTL("Certainly.  You want {1}.\r\nThat will be ${2}.  OK?",itemname,price))
+            next
+          end
+          quantity=1
+        else
+          maxafford=(price<=0) ? BAGMAXPERSLOT : $Trainer.battle_points/price
+          maxafford=BAGMAXPERSLOT if maxafford>BAGMAXPERSLOT
+          quantity=@scene.pbChooseNumber(
+            _INTL("{1}?  Certainly.\r\nHow many would you like?",itemname),item,maxafford)
+          if quantity==0
+            next
+          end
+          price*=quantity
+          if !pbConfirm(_INTL("{1}, and you want {2}.\r\nThat will be ${3}.  OK?",itemname,quantity,price))
+            next
+          end
+        end
+        if $Trainer.battle_points<price
+          pbDisplayPaused(_INTL("You don't have enough points."))
+          next
+        end
+        added=0
+        quantity.times do
+          if !@adapter.addItem(item)
+            break
+          end
+          added+=1
+        end
+        if added!=quantity
+          added.times do
+            if !@adapter.removeItem(item)
+              raise _INTL("Failed to delete stored items")
+            end
+          end
+          pbDisplayPaused(_INTL("You have no more room in the Bag."))  
+        else
+          $Trainer.battle_points-=price
+          for i in 0...@stock.length
+            if pbIsImportantItem?(@stock[i]) && $PokemonBag.pbQuantity(@stock[i])>0
+              @stock[i]=nil
+            end
+          end
+          @stock.compact!
+          pbDisplayPaused(_INTL("Here you are!\r\nThank you!"))
+          if @stock.length==0 
+            break
+          end
+          #update scene with new stock
+          @scene.pbDrawItems
+          if $PokemonBag
+            if quantity>=10 && isConst?(item,PBItems,:POKEBALL) && 
+              hasConst?(PBItems,:PREMIERBALL)
+              if @adapter.addItem(getConst(PBItems,:PREMIERBALL))
+                pbDisplayPaused(_INTL("I'll throw in a Premier Ball, too.")) 
+              end
             end
           end
         end

@@ -21,7 +21,7 @@
 
 LOG_LEVEL = 0
 
-AUTOSTART_CONSOLE = false
+AUTOSTART_CONSOLE = true
 
 #===============================================================================
 # => Do not touch from here

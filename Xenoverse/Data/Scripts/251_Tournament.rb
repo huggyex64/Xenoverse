@@ -325,9 +325,183 @@ end
 # Extra functionality added to the Trainer class
 #-------------------------------------------------------------------------------
 class PokeBattle_Trainer
-  attr_accessor :battle_points
-  attr_accessor :pwt_wins
   attr_accessor :lobby_trainer
+
+  def battle_points
+    @battle_points = 0 if @battle_points.nil?
+    return @battle_points
+  end
+
+end
+
+BATTLE_POINT_PRICES = {
+  #effects in battle
+  PBItems::CHOICEBAND => 20,
+  PBItems::CHOICESPECS => 20,
+  PBItems::CHOICESCARF => 20,
+  PBItems::HEATROCK => 30,
+  PBItems::DAMPROCK => 30,
+  PBItems::SMOOTHROCK => 30,
+  PBItems::ICYROCK => 30,
+  PBItems::LIGHTCLAY => 30,
+  PBItems::GRIPCLAW => 30,
+  PBItems::WHITEHERB => 30,
+  PBItems::POWERHERB => 30,
+  PBItems::MENTALHERB => 30,
+  PBItems::LEFTOVERS => 30,
+  PBItems::SHELLBELL => 30,
+  PBItems::BLACKSLUDGE => 30,
+  PBItems::BIGROOT => 30,
+  PBItems::EXPERTBELT => 30,
+  PBItems::LIFEORB => 30,
+  PBItems::ABSORBBULB => 30,
+  PBItems::ASSAULTVEST => 30,
+  PBItems::BLUNDERPOLICY => 30,
+  PBItems::WEAKNESSPOLICY => 30,
+  PBItems::METRONOME => 30,
+  PBItems::MUSCLEBAND => 30,
+  PBItems::WISEGLASSES => 30,
+  PBItems::RAZORCLAW => 30,
+  PBItems::SCOPELENS => 30,
+  PBItems::WIDELENS => 30,
+  PBItems::ZOOMLENS => 30,
+  PBItems::RAZORFANG => 30,
+  PBItems::LAGGINGTAIL => 30,
+  PBItems::QUICKCLAW => 30,
+  PBItems::FOCUSBAND => 30,
+  PBItems::FOCUSSASH => 30,
+  PBItems::FLAMEORB => 30,
+  PBItems::TOXICORB => 30,
+  PBItems::STICKYBARB => 30,
+  PBItems::IRONBALL => 30,
+  PBItems::RINGTARGET => 30,
+  PBItems::CHARCOAL => 30,
+  PBItems::MYSTICWATER => 30,
+  PBItems::MAGNET => 30,
+  PBItems::REDCARD => 30,
+  PBItems::FLOATSTONE => 30,
+  PBItems::EJECTBUTTON => 30,
+  PBItems::SHEDSHELL => 30,
+  PBItems::BRIGHTPOWDER => 30,
+  PBItems::DESTINYKNOT => 30,
+  PBItems::SNOWBALL => 30,
+  PBItems::LUMINOUSMOSS => 30,
+  PBItems::THROATSPRAY => 30,
+  PBItems::ROOMSERVICE => 30,
+
+  #Pokemon modification items
+  PBItems::ABILITYCAPSULE=>50,
+  PBItems::ABILITYPATCH=>80,
+  PBItems::BOTTLECAP=>20,
+  PBItems::GOLDBOTTLECAP=>100,
+  PBItems::RARECANDY=>5,
+  PBItems::SUPERRARECANDY=>20,
+  PBItems::ULTRARARECANDY=>35,
+  PBItems::ADAMANTMINT=>15,
+  PBItems::BOLDMINT=>15,
+  PBItems::BRAVEMINT=>15,
+  PBItems::CALMMINT=>15,
+  PBItems::CAREFULMINT=>15,
+  PBItems::GENTLEMINT=>15,
+  PBItems::HASTYMINT=>15,
+  PBItems::IMPISHMINT=>15,
+  PBItems::JOLLYMINT=>15,
+  PBItems::LAXMINT=>15,
+  PBItems::LONELYMINT=>15,
+  PBItems::MILDMINT=>15,
+  PBItems::MODESTMINT=>15,
+  PBItems::NAIVEMINT=>15,
+  PBItems::NAUGHTYMINT=>15,
+  PBItems::QUIETMINT=>15,
+  PBItems::RASHMINT=>15,
+  PBItems::RELAXEDMINT=>15,
+  PBItems::SASSYMINT=>15,
+  PBItems::SERIOUSMINT=>15,
+  PBItems::TIMIDMINT=>15,
+}
+
+def pbBottleCapChoice()
+  commands = {}
+  commands[_INTL("Tappi d'oro: {1}",$PokemonBag.pbQuantity(:GOLDBOTTLECAP))]=827 if $PokemonBag.pbQuantity(:GOLDBOTTLECAP)>0
+  commands[_INTL("Tappi d'argento: {1}",$PokemonBag.pbQuantity(:BOTTLECAP))]=826 if $PokemonBag.pbQuantity(:BOTTLECAP)>0
+  return false if commands.size<=0
+
+  cmd = commands.keys
+  rt = pbNewChoice(Fullbox_Option.createFromArray(cmd),-1)#Kernel.pbShowCommands(nil,cmd,-1)
+
+  echoln "#{rt} #{rt <= -1} #{commands[cmd[rt]]}"
+  pbSet(40,commands[cmd[rt]]) if !(rt <= -1)
+  return rt > -1
+end
+
+def pbChooseIVTrainingStat(poke)
+  commands = {}
+  cmd = []
+  if poke.iv[0]<31
+    cmd.push(_INTL("HP"))
+    commands[_INTL("HP")] = 0
+  end
+  if poke.iv[1]<31
+    cmd.push(_INTL("Attack"))
+    commands[_INTL("Attack")] = 1 
+  end
+  if poke.iv[2]<31
+    cmd.push(_INTL("Defense"))
+    commands[_INTL("Defense")] = 2 
+  end
+  if poke.iv[4]<31
+    cmd.push(_INTL("Special Attack"))
+    commands[_INTL("Special Attack")] = 4 
+  end
+  if poke.iv[5]<31
+    cmd.push(_INTL("Special Defense"))
+    commands[_INTL("Special Defense")] = 5 
+  end
+  if poke.iv[3]<31
+    cmd.push(_INTL("Speed"))
+    commands[_INTL("Speed")] = 3 
+  end
+
+  ret = pbNewChoice(Fullbox_Option.createFromArray(cmd),-1) 
+  #Setting the appropriate IV
+  if ret>=0
+    poke.iv[commands[cmd[ret]]] = 31
+    poke.calcStats
+  end
+  return ret>=0
+end
+
+def pbPokemonTournamentMart(stock,speech=nil,cantsell=false)
+  for i in 0...stock.length
+    stock[i]=getID(PBItems,stock[i]) if !stock[i].is_a?(Integer)
+    if !stock[i] || stock[i]==0 ||
+       (pbIsImportantItem?(stock[i]) && $PokemonBag.pbQuantity(stock[i])>0)
+      stock[i]=nil
+    end
+  end
+  stock.compact!
+  commands=[]
+  cmdBuy=-1
+  cmdSell=-1
+  cmdQuit=-1
+  commands[cmdBuy=commands.length]=_INTL("Buy")
+  commands[cmdQuit=commands.length]=_INTL("Quit")
+  cmd=Kernel.pbMessage(
+     speech ? speech : _INTL("Welcome!\r\nHow may I serve you?"),
+     commands,cmdQuit+1)
+  loop do
+    if cmdBuy>=0 && cmd==cmdBuy
+      scene=PokemonMartScene.new
+      screen=PokemonMartScreen.new(scene,stock,true)
+      screen.pbBuyScreen
+    else
+      Kernel.pbMessage(_INTL("Please come again!"))
+      break
+    end
+    cmd=Kernel.pbMessage(
+       _INTL("Is there anything else I can help you with?"),commands,cmdQuit+1)
+  end
+  $game_temp.clear_mart_prices
 end
 
 #===============================================================================
@@ -375,7 +549,7 @@ TOURNAMENT_EVENT_ID = 18
 # Extra function to Trainer class
 ################################################################################
 class PokeBattle_Trainer
-  attr_accessor :battle_points
+  #attr_accessor :battle_points
   attr_accessor :lobby_trainer
   attr_accessor :pw
 end
@@ -1590,7 +1764,6 @@ end
 #===============================================================================
 #Modification to Pokebattle_trainer module to add won tournaments counter
 class PokeBattle_Trainer
-  attr_accessor :battle_points
   attr_accessor :tournament_wins
 end
 

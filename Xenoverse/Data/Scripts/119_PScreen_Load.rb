@@ -664,7 +664,7 @@ module FontInstaller
     filesExist=true
     fontsExist=true
     dest=self.getFontFolder()
-    Console::setup_console
+    #Console::setup_console
     for i in 0...Names.size
       if !safeExists?(dest + Filenames[i])
         filesExist=false
@@ -683,7 +683,7 @@ module FontInstaller
       end
     end
     return if !exist # Exit if not all source fonts exist
-		Console::setup_console
+		#Console::setup_console
     Kernel.pbMessage(_INTL("One or more fonts used in this game do not exist on the system.\1"))
     Kernel.pbMessage(_INTL("The game can be played, but the look of the game's text will not be optimal.\1"))
     failed=false

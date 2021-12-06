@@ -261,7 +261,7 @@ class Fullbox_Choice
 	end
 	
 	def default?
-		if @default > 0
+		if @default != 0
 			return true
 		else
 			return false
@@ -364,7 +364,7 @@ end
 #===============================================================================
 # => **
 #===============================================================================
-def pbNewChoice(options,default)
+def pbNewChoice(options,default=0)
 	choice = Fullbox_Choice.new(options,default)
 	ret = choice.loop
 	pbSEPlay("Select")
@@ -391,6 +391,8 @@ end
 def fbcDebug
 	Log.d(FBC_TAG,"Debuggin Fullbox Multi-choice")
 	options = [Fullbox_Option.new("Emh, ciao?..."),Fullbox_Option.new("Ma chi sei!?"),Fullbox_Option.new("Ryuu Ga Waga Teki Wo Kurau!!!","red")]
-	pbNewChoice(options)
+	o = pbNewChoice(options)
+	Input.update
+	echoln o
 	#choice.loop
 end

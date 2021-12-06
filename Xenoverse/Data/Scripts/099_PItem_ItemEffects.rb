@@ -193,6 +193,243 @@ ItemHandlers::UseFromBag.add(:PERGAMENA4,proc{|item|
     show_MLG_Item("pergamena4", string=nil)
  })
 
+# NATURE CHANGING MINTS
+ItemHandlers::UseOnPokemon.add(:ADAMANTMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:ADAMANT)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:ADAMANT)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Adamant Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:BOLDMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:BOLD)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:BOLD)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Bold Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:BRAVEMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:BRAVE)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:BRAVE)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Brave Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:CALMMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:CALM)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:CALM)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Calm Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:CAREFULMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:CAREFUL)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:CAREFUL)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Careful Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:GENTLEMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:GENTLE)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:GENTLE)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Gentle Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:HASTYMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:HASTY)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:HASTY)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Hasty Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:IMPISHMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:IMPISH)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:IMPISH)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Impish Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:JOLLYMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:JOLLY)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:JOLLY)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Jolly Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:LAXMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:LAX)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:LAX)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Lax Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:LONELYMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:LONELY)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:LONELY)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Lonely Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:MILDMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:MILD)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:MILD)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Mild Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:MODESTMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:MODEST)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:MODEST)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Modest Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:NAIVEMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:NAIVE)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:NAIVE)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Naive Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:NAUGHTYMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:NAUGHTY)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:NAUGHTY)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Naughty Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:QUITEMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:QUITE)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:QUITE)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Quite Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:RASHMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:RASH)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:RASH)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the RASH Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:RELAXEDMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:RELAXED)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:RELAXED)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Relaxed Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:SASSYMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:SASSY)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:SASSY)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Sassy Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:SERIOUSMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:SERIOUS)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:SERIOUS)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Serious Mint.",pokemon.name))
+ end
+})
+
+ItemHandlers::UseOnPokemon.add(:TIMIDMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:TIMID)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+  else
+    pokemon.setNature(:TIMID)
+    pokemon.calcStats
+    scene.pbDisplay(_INTL("{1} ate the Timid Mint.",pokemon.name))
+ end
+})
+
+# Rare candies
+ItemHandlers::UseOnPokemon.add(:SUPERRARECANDY,proc{|item,pokemon,scene|
+  if pokemon.level>=PBExperience::MAXLEVEL || (pokemon.isShadow? rescue false)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+    next false
+  else
+    tl = pokemon.level+5
+    tl = PBExperience::MAXLEVEL if tl > PBExperience::MAXLEVEL
+    pbChangeLevel(pokemon,tl,scene)
+    scene.pbHardRefresh
+    next true
+  end
+})
+ItemHandlers::UseOnPokemon.add(:ULTRARARECANDY,proc{|item,pokemon,scene|
+  if pokemon.level>=PBExperience::MAXLEVEL || (pokemon.isShadow? rescue false)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+    next false
+  else
+    tl = pokemon.level+10
+    tl = PBExperience::MAXLEVEL if tl > PBExperience::MAXLEVEL
+    pbChangeLevel(pokemon,tl,scene)
+    scene.pbHardRefresh
+    next true
+  end
+})
+
 # X GENE AND ESCAPEROPE +
 ItemHandlers::UseOnPokemon.add(:GENEX,proc{|item,pokemon,scene|
   newspecies=pbCheckMakeX(pokemon)

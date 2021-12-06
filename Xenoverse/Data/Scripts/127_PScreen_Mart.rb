@@ -23,6 +23,13 @@ class PokemonMartAdapter
     return $ItemData[item][ITEMPRICE]
   end
 
+  def getBattlePrice(item)
+    if !BATTLE_POINT_PRICES[item] == nil
+      return 0
+    end
+    return BATTLE_POINT_PRICES[item]
+  end
+
   def getItemIcon(item)
     return nil if !item
     return pbItemIconFile(item)
@@ -215,7 +222,7 @@ end
 
 
 class Window_PokemonMart < Window_DrawableCommand
-  def initialize(stock,adapter,x,y,width,height,viewport=nil)
+  def initialize(stock,adapter,x,y,width,height,viewport=nil,bpmode=false)
     @stock=stock
     @adapter=adapter
     super(x,y,width,height,viewport)
@@ -659,9 +666,12 @@ end
 
 
 class PokemonMartScreen
-  def initialize(scene,stock)
+  attr_accessor(:bpmode)
+
+  def initialize(scene,stock,bpmode=false)
     @scene=scene
     @stock=stock
+    @bpmode = bpmode
     @adapter=$PokemonBag ? PokemonMartAdapter.new : RpgxpMartAdapter.new
   end
 
