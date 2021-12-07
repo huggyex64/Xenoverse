@@ -289,7 +289,7 @@ def pbChangeLevel(pokemon,newlevel,scene)
        pokemon.totalhp,pokemon.attack,pokemon.defense,pokemon.spatk,pokemon.spdef,pokemon.speed))
     movelist=pokemon.getMoveList
     for i in movelist
-      if i[0]==pokemon.level          # Learned a new move
+      if i[0]>oldlevel && i[0]<=pokemon.level#i[0]==pokemon.level          # Learned a new move
         pbLearnMove(pokemon,i[1],true)
       end
     end

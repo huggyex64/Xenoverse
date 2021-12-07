@@ -410,9 +410,7 @@ ItemHandlers::UseOnPokemon.add(:SUPERRARECANDY,proc{|item,pokemon,scene|
     scene.pbDisplay(_INTL("It won't have any effect."))
     next false
   else
-    tl = pokemon.level+5
-    tl = PBExperience::MAXLEVEL if tl > PBExperience::MAXLEVEL
-    pbChangeLevel(pokemon,tl,scene)
+    pbChangeLevel(pokemon,pokemon.level+5,scene)
     scene.pbHardRefresh
     next true
   end
@@ -422,9 +420,7 @@ ItemHandlers::UseOnPokemon.add(:ULTRARARECANDY,proc{|item,pokemon,scene|
     scene.pbDisplay(_INTL("It won't have any effect."))
     next false
   else
-    tl = pokemon.level+10
-    tl = PBExperience::MAXLEVEL if tl > PBExperience::MAXLEVEL
-    pbChangeLevel(pokemon,tl,scene)
+    pbChangeLevel(pokemon,pokemon.level+10,scene)
     scene.pbHardRefresh
     next true
   end

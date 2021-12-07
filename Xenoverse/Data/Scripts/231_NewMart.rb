@@ -8,7 +8,7 @@ class PokemonMartScene
     curnumber=1
     ret=0
     helpwindow=@sprites["helpwindow"]
-    itemprice=@adapter.getPrice(item,!@buying)
+    itemprice=@bpmode ? @adapter.getBattlePrice(item) : @adapter.getPrice(item,!@buying)
     itemprice/=2 if !@buying
     pbDisplay(helptext,true)
     using(numwindow=Window_AdvancedTextPokemon.new("")){ # Showing number of items
@@ -28,7 +28,11 @@ class PokemonMartScene
           inbagwindow.baseColor=Color.new(88,88,80)
           inbagwindow.shadowColor=Color.new(168,184,184)
           inbagwindow.text=_ISPRINTF("In Bag:<r>{1:d}  ",qty)
-          numwindow.text=_ISPRINTF("x{1:d}<r>$ {2:d}",curnumber,curnumber*itemprice)
+          if @bpmode
+            numwindow.text=_ISPRINTF("x{1:d}<r> {2:d}P",curnumber,curnumber*itemprice)
+          else
+            numwindow.text=_ISPRINTF("x{1:d}<r>$ {2:d}",curnumber,curnumber*itemprice)
+          end
           pbBottomRight(numwindow)
           numwindow.y-=helpwindow.height
           pbBottomLeft(inbagwindow)
@@ -43,22 +47,38 @@ class PokemonMartScene
               pbPlayCursorSE()
               curnumber-=10
               curnumber=1 if curnumber<1
-              numwindow.text=_ISPRINTF("x{1:d}<r>$ {2:d}",curnumber,curnumber*itemprice)
+              if @bpmode
+                numwindow.text=_ISPRINTF("x{1:d}<r> {2:d}P",curnumber,curnumber*itemprice)
+              else
+                numwindow.text=_ISPRINTF("x{1:d}<r>$ {2:d}",curnumber,curnumber*itemprice)
+              end
             elsif Input.repeat?(Input::RIGHT)
               pbPlayCursorSE()
               curnumber+=10
               curnumber=maximum if curnumber>maximum
-              numwindow.text=_ISPRINTF("x{1:d}<r>$ {2:d}",curnumber,curnumber*itemprice)
+              if @bpmode
+                numwindow.text=_ISPRINTF("x{1:d}<r> {2:d}P",curnumber,curnumber*itemprice)
+              else
+                numwindow.text=_ISPRINTF("x{1:d}<r>$ {2:d}",curnumber,curnumber*itemprice)
+              end
             elsif Input.repeat?(Input::UP)
               pbPlayCursorSE()
               curnumber+=1
               curnumber=1 if curnumber>maximum
-              numwindow.text=_ISPRINTF("x{1:d}<r>$ {2:d}",curnumber,curnumber*itemprice)
+              if @bpmode
+                numwindow.text=_ISPRINTF("x{1:d}<r> {2:d}P",curnumber,curnumber*itemprice)
+              else
+                numwindow.text=_ISPRINTF("x{1:d}<r>$ {2:d}",curnumber,curnumber*itemprice)
+              end
             elsif Input.repeat?(Input::DOWN)
               pbPlayCursorSE()
               curnumber-=1
               curnumber=maximum if curnumber<1
-              numwindow.text=_ISPRINTF("x{1:d}<r>$ {2:d}",curnumber,curnumber*itemprice)
+              if @bpmode
+                numwindow.text=_ISPRINTF("x{1:d}<r> {2:d}P",curnumber,curnumber*itemprice)
+              else
+                numwindow.text=_ISPRINTF("x{1:d}<r>$ {2:d}",curnumber,curnumber*itemprice)
+              end
             elsif Input.trigger?(Input::C)
               pbPlayDecisionSE()
               ret=curnumber
@@ -166,7 +186,7 @@ class PokemonMartScene
 			@sprites["it#{item}"].bitmap.blt(0,0,pbBitmap(filename),Rect.new(0,0,48,48))
 			bmp = Bitmap.new(48,48)
 			bmp.font = BAGITEMFONT
-			price = @adapter.getBattlePrice(item)
+			price = @bpmode ? @adapter.getBattlePrice(item) : @adapter.getPrice(item)
 			qty= @bpmode == false ? _ISPRINTF("${1:2d}",price) : _ISPRINTF("{1:2d}P",price)
 			pbDrawTextPositions(bmp,[[qty,48-2,48-bmp.font.size-2,1,Color.new(248,248,248),Color.new(24,24,24),true]])
 			@sprites["it#{item}"].bitmap.blt(0,0,bmp,Rect.new(0,0,48,48))

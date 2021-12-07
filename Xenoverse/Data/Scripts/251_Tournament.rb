@@ -331,7 +331,10 @@ class PokeBattle_Trainer
     @battle_points = 0 if @battle_points.nil?
     return @battle_points
   end
-
+  def battle_points=(value)
+    @battle_points = value
+    return @battle_points
+  end
 end
 
 BATTLE_POINT_PRICES = {
@@ -390,34 +393,34 @@ BATTLE_POINT_PRICES = {
   PBItems::ROOMSERVICE => 30,
 
   #Pokemon modification items
-  PBItems::ABILITYCAPSULE=>50,
-  PBItems::ABILITYPATCH=>80,
-  PBItems::BOTTLECAP=>20,
-  PBItems::GOLDBOTTLECAP=>100,
-  PBItems::RARECANDY=>5,
-  PBItems::SUPERRARECANDY=>20,
-  PBItems::ULTRARARECANDY=>35,
-  PBItems::ADAMANTMINT=>15,
-  PBItems::BOLDMINT=>15,
-  PBItems::BRAVEMINT=>15,
-  PBItems::CALMMINT=>15,
-  PBItems::CAREFULMINT=>15,
-  PBItems::GENTLEMINT=>15,
-  PBItems::HASTYMINT=>15,
-  PBItems::IMPISHMINT=>15,
-  PBItems::JOLLYMINT=>15,
-  PBItems::LAXMINT=>15,
-  PBItems::LONELYMINT=>15,
-  PBItems::MILDMINT=>15,
-  PBItems::MODESTMINT=>15,
-  PBItems::NAIVEMINT=>15,
-  PBItems::NAUGHTYMINT=>15,
-  PBItems::QUIETMINT=>15,
-  PBItems::RASHMINT=>15,
-  PBItems::RELAXEDMINT=>15,
-  PBItems::SASSYMINT=>15,
-  PBItems::SERIOUSMINT=>15,
-  PBItems::TIMIDMINT=>15,
+  PBItems::ABILITYCAPSULE => 50,
+  PBItems::ABILITYPATCH => 80,
+  PBItems::BOTTLECAP => 20,
+  PBItems::GOLDBOTTLECAP => 100,
+  PBItems::RARECANDY => 5,
+  PBItems::SUPERRARECANDY => 20,
+  PBItems::ULTRARARECANDY => 35,
+  PBItems::ADAMANTMINT => 15,
+  PBItems::BOLDMINT => 15,
+  PBItems::BRAVEMINT => 15,
+  PBItems::CALMMINT => 15,
+  PBItems::CAREFULMINT => 15,
+  PBItems::GENTLEMINT => 15,
+  PBItems::HASTYMINT => 15,
+  PBItems::IMPISHMINT => 15,
+  PBItems::JOLLYMINT => 15,
+  PBItems::LAXMINT => 15,
+  PBItems::LONELYMINT => 15,
+  PBItems::MILDMINT => 15,
+  PBItems::MODESTMINT => 15,
+  PBItems::NAIVEMINT => 15,
+  PBItems::NAUGHTYMINT => 15,
+  PBItems::QUIETMINT => 15,
+  PBItems::RASHMINT => 15,
+  PBItems::RELAXEDMINT => 15,
+  PBItems::SASSYMINT => 15,
+  PBItems::SERIOUSMINT => 15,
+  PBItems::TIMIDMINT => 15,
 }
 
 def pbBottleCapChoice()
