@@ -3560,157 +3560,157 @@ ShowArea=false
 # Bunker Abbandonato
 BattleBack=Bunker
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 BicycleAlways=false
 ShowArea=true
-MapPosition=0,29,9
 [593]
 # Bunker Abbandonato
 BattleBack=Bunker
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 BicycleAlways=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
-MapPosition=0,29,9
 [594]
 # Bunker Abbandonato
 BattleBack=Bunker
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 BicycleAlways=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
-MapPosition=0,29,9
 [595]
 # Bunker Abbandonato
 BattleBack=Miniera
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 ShowArea=false
-MapPosition=0,29,9
 [596]
 # Bunker Abbandonato
 BattleBack=Bunker
 Bicycle=false
 Dungeon=false
+MapPosition=0,29,9
 Outdoor=false
 BicycleAlways=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
 ShowArea=false
-MapPosition=0,29,9
 [597]
 # Bunker Abbandonato
 BattleBack=Miniera
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 ShowArea=false
-MapPosition=0,29,9
 [598]
 # Bunker Abbandonato
 BattleBack=Bunker
 Bicycle=false
 Dungeon=false
+MapPosition=0,29,9
 Outdoor=false
 BicycleAlways=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
 ShowArea=false
-MapPosition=0,29,9
 [599]
 # Bunker Abbandonato
 BattleBack=Bunker
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 BicycleAlways=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
 ShowArea=false
-MapPosition=0,29,9
 [600]
 # Bunker Abbandonato
 BattleBack=Bunker
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
 ShowArea=false
-MapPosition=0,29,9
 [601]
 # Bunker Abbandonato
 BattleBack=Miniera
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 ShowArea=false
-MapPosition=0,29,9
 [602]
 # Bunker Abbandonato
 BattleBack=Bunker
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
 ShowArea=false
-MapPosition=0,29,9
 [603]
 # Bunker Abbandonato
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 ShowArea=false
-MapPosition=0,29,9
 [604]
 # Bunker Abbandonato
 BattleBack=Bunker
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
 ShowArea=false
-MapPosition=0,29,9
 [605]
 # Bunker Abbandonato
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 ShowArea=false
-MapPosition=0,29,9
 [606]
 # Bunker Abbandonato
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 ShowArea=false
-MapPosition=0,29,9
 [607]
 # Bunker Abbandonato
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 ShowArea=false
-MapPosition=0,29,9
 [608]
 # Bunker Abbandonato
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 ShowArea=false
-MapPosition=0,29,9
 [609]
 # Bunker Abbandonato
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 ShowArea=false
-MapPosition=0,29,9
 [610]
 # Bunker Abbandonato
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 ShowArea=false
-MapPosition=0,29,9
 [611]
 # Bunker Abbandonato
 Bicycle=false
+MapPosition=0,29,9
 Outdoor=false
 ShowArea=false
-MapPosition=0,29,9
 [613]
 # Bunker Abbandonato
 BattleBack=Residence
 Bicycle=false
 TrainerVictoryME=Vittoria Victor Dimension.mp3
 TrainerBattleBGM=vs. TamaraFuria.mp3
+MapPosition=0,29,9
 Outdoor=false
 ShowArea=false
-MapPosition=0,29,9
 [620]
 # Sagittopoli
 BattleBack=Beach
@@ -3726,6 +3726,16 @@ Bicycle=false
 Outdoor=false
 ShowArea=true
 [622]
+# Torneo Apollo
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[623]
+# Torneo Apollo
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[624]
 # Torneo Apollo
 Bicycle=false
 Outdoor=false
