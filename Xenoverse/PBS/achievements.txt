@@ -393,3 +393,23 @@ title = Passione Oscura
 description = Sconfiggi Tamara Furia.
 amount = 1
 image = 79_passione
+[Domadraghi]
+title = Domadraghi
+description = Sconfiggi Lance nel Torneo Apollo.
+amount = 1
+image = 80_domadraghi
+[Eterna]
+title = Eterna Bellezza
+description = Sconfiggi Erika.
+amount = 1
+image = 81_eterna
+[Nostalgia]
+title = Nostalgia di un Miltank
+description = Sconfiggi Leo nel Torneo Apollo.
+amount = 1
+image = 82_nostalgia
+[Gang]
+title = Danzare nel buio
+description = Sconfiggi Dante nel Torneo Apollo.
+amount = 1
+image = 83_gang
