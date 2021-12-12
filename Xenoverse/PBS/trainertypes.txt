@@ -235,6 +235,10 @@
 238,TAMARAFURIA,(Colonnello Dimension),255,vs. TamaraFuria,Team Dimension Victory,,Female,
 239,REVOLVER,(S.P.E.T.T.R.I.),200,,,,Male,
 240,ALICEULTRA,(Allenatrice),127,vs.Rivale.mp3,Trainer Victory,Female,Female,
-241,MAURICEBUNKER,(S.P.E.T.T.R.I.),200,,,,Male,
-242,CRISANTEBUNKER,(Capopalestra),200,,,,Male,
-243,VERSILBUNKER,(Ex Comandante Dimension),200,,,,Male,
+241,MAURICEBUNKER,(S.P.E.T.T.R.I.),200,,,,Male,200
+242,CRISANTEBUNKER,(Capopalestra),200,,,,Male,200
+243,VERSILBUNKER,(Ex Comandante Dimension),200,,,,Male,200
+244,LANCETOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Male,127
+245,ERIKATOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Female,127
+246,LEOTOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Male,127
+247,DANTETOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Male,127

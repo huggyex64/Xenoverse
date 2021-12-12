@@ -286,9 +286,13 @@ class NewMenu
 		else
 			save = NewMenu_Item.new("save", _INTL("Salva"))
 			save.function = lambda {
-				scene=PokemonSaveScene.new
-				screen=PokemonSave.new(scene)
-				screen.pbSaveScreen
+				if $ISINTOURNAMENT
+					Kernel.pbMessage(_INTL("You can't while a tournament is ongoing."))
+				else
+					scene=PokemonSaveScene.new
+					screen=PokemonSave.new(scene)
+					screen.pbSaveScreen
+				end
 			}
 		end
 		

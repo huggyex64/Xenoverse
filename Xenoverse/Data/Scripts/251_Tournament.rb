@@ -51,6 +51,277 @@ class TournamentPlane < AnimatedPlane
 
 end
 
+class BracketSlot < Sprite
+  attr_accessor (:trainer)
+
+  def initialize(viewport)
+    super(viewport)
+    @trainerx = 0
+    @trainery = 0
+    @trainer = RainbowSprite.new(viewport)
+  end
+
+  def setTrainer(rightfacing = false,charid = "trey",hidden = false)
+    bmp = pbBitmap("Graphics/Characters/#{charid}")
+    @trainer.bitmap = Bitmap.new(bmp.width/4+2,bmp.height/4+2) #adding a 1 to show properly the outline
+    @trainer.bitmap.blt(1,1,bmp,Rect.new(0,bmp.height/4*(rightfacing ? 1:2),bmp.width/4,bmp.height/4))
+    
+    @trainer.colorize(Color.new(0,0,0)) if hidden
+    if $MKXP
+      @trainer.add_outline(Color.new(255,255,255,150))
+    else
+      @trainer.bitmap.add_outline(Color.new(255,255,255,150),1)
+    end
+    @trainer.ox = @trainer.bitmap.width/2
+    @trainer.oy = @trainer.bitmap.height/2
+  end
+
+  def positionTrainer(x,y)
+    @trainerx = x
+    @trainery = y
+    @trainer.x = self.x + @trainerx
+    @trainer.y = self.y + @trainery
+  end
+
+  def zoom_x=(value)
+    super(value)
+    @trainer.zoom_x=value
+  end
+
+  def zoom_y=(value)
+    super(value)
+    @trainer.zoom_y=value
+  end
+
+  def x=(value)
+    super(value)
+    @trainer.x = value + @trainerx
+  end
+
+  def y=(value)
+    super(value)
+    @trainer.y = value + @trainery
+  end
+end
+
+class Bracket < Sprite
+  attr_accessor(:firstPool)
+  attr_accessor(:curPool)
+
+  SMALLRECTW = 70
+  SMALLRECTH = 47
+
+  def initialize(viewport,fp,cp)
+    super(viewport)
+    @firstPool = fp
+    @curPool = cp
+  end
+
+  def actualize
+
+    bmp = self.bitmap.clone
+    #go by couples
+    
+    pool=@curPool
+    tempPool = []
+    for i in 0...pool.length
+      tempPool.push([i,i+1]) if i%2==0
+    end
+
+    couple = -1
+    included = []
+    branch = -1
+    branchIncluded = []
+    #main cycle
+    for i in 0...@firstPool.length
+      rc = Color.new(rand(255),rand(255),rand(255))
+      if i%2 == 0
+        couple +=1 
+        included = []
+      end
+
+      if branch == 3
+        echoln "Branch reaced 3!"
+        branch = -1
+        branchIncluded = []
+      end
+
+      branch += 1
+
+      
+
+      #SINGLE CHECK
+      if !@curPool.include?(@firstPool[i])
+        x = i<@firstPool.length/2 ? 0 : bmp.width-70
+        y = (i%2) * (5+46) + (couple % (@firstPool.length/4)) * 183 #- ((i%8)/4)*2 # TODO: Add next branch offset
+
+        rect = Rect.new(x,y,SMALLRECTW,SMALLRECTH)
+
+        for z in 0...rect.width
+          for w in 0...rect.height
+            p = bmp.get_pixel(rect.x+z,rect.y+w)
+            bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.5,p.green/1.5,p.blue/1.5,p.alpha/2))
+            #bmp.set_pixel(rect.x+z,rect.y+w,rc)
+          end
+        end
+      else
+        included.push(1)
+        branchIncluded.push(1)
+      end
+
+      # COUPLE CHECK
+      if i%2 == 1 #this is the last handled member of the couple
+
+        if (included.length==0) #if no member was spared i need to remove this couple branching
+          # small quad
+          x = i < @firstPool.length/2 ? 64 : bmp.width-(64+6)
+          y = 46 + (couple % (@firstPool.length/4)) * 183
+          rect = Rect.new(x,y+1,6,4)
+          for z in 0...rect.width
+            for w in 0...rect.height
+              p = bmp.get_pixel(rect.x+z,rect.y+w)
+              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.5,p.green/1.5,p.blue/1.5,p.alpha/2))
+              #bmp.set_pixel(rect.x+z,rect.y+w,rc)
+            end
+          end
+
+          # horizontal rect
+          x = i < @firstPool.length/2 ? 70 : bmp.width-(64+82)
+          rect = Rect.new(x,y,76,6)
+          for z in 0...rect.width
+            for w in 0...rect.height
+              p = bmp.get_pixel(rect.x+z,rect.y+w)
+              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.5,p.green/1.5,p.blue/1.5,p.alpha/2))
+              #bmp.set_pixel(rect.x+z,rect.y+w,rc)
+            end
+          end
+
+          #vertical rect
+          x = i < @firstPool.length/2 ? 133 : bmp.width-(133+8)
+          y = 52 + (couple % (@firstPool.length/(@firstPool.length/2))) * 92 + (@firstPool.length>8 ? ((i%8)/4) * 366 : 0)
+          rect = Rect.new(x,y,8,(couple % (@firstPool.length/(@firstPool.length/2))) > 0 ? 85 : 88)
+          for z in 0...rect.width
+            for w in 0...rect.height
+              p = bmp.get_pixel(rect.x+z,rect.y+w)
+              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.5,p.green/1.5,p.blue/1.5,p.alpha/2))
+              #bmp.set_pixel(rect.x+z,rect.y+w,rc)
+            end
+          end
+        end
+      end
+
+      # Branch check
+      if branch == 3 && @firstPool.length > 8
+        if branchIncluded.length == 0
+          echoln "Handling branch dimming"
+
+          # small quad
+          x = i < @firstPool.length/2 ? 135 : bmp.width-(135+6)
+          y = 139 + ((i%8)/4) * 366#(couple % (@firstPool.length/(@firstPool.length/2))) * 366
+          rect = Rect.new(x,y+1,6,4)
+          for z in 0...rect.width
+            for w in 0...rect.height
+              p = bmp.get_pixel(rect.x+z,rect.y+w)
+              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.5,p.green/1.5,p.blue/1.5,p.alpha/2))
+              #bmp.set_pixel(rect.x+z,rect.y+w,rc)
+            end
+          end
+
+          echoln "Branch SmallQuad X: #{x} Y: #{y}"
+
+          # horizontal rect
+          x = i < @firstPool.length/2 ? 141 : bmp.width-(141+62)
+          rect = Rect.new(x,y,62,6)
+          for z in 0...rect.width
+            for w in 0...rect.height
+              p = bmp.get_pixel(rect.x+z,rect.y+w)
+              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.5,p.green/1.5,p.blue/1.5,p.alpha/2))
+              #bmp.set_pixel(rect.x+z,rect.y+w,rc)
+            end
+          end
+
+          #vertical rect
+          x = i < @firstPool.length/2 ? 194 : bmp.width-(194+8)
+          y = 145 + (@firstPool.length>8 ? ((i%8)/4) * 180 : 0) #(couple % (@firstPool.length/(@firstPool.length/2))) * 92 + (@firstPool.length>8 ? ((i%8)/4) * 366 : 0)
+          rect = Rect.new(x,y,8,(((i%8)/4)) > 0 ? 180 : 176)
+          for z in 0...rect.width
+            for w in 0...rect.height
+              p = bmp.get_pixel(rect.x+z,rect.y+w)
+              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.5,p.green/1.5,p.blue/1.5,p.alpha/2))
+              #bmp.set_pixel(rect.x+z,rect.y+w,rc)
+            end
+          end
+
+        end
+      end
+    end
+
+    
+
+    self.bitmap = bmp
+  end
+
+end
+
+CUSTOMIV = {
+  [PBTrainers::LANCETOURNAMENT,"Lance"]=>{
+    :iv=>{
+      :DRAGONITE =>{
+        :hp => 31,
+        :attack => 31,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      },
+      :EGORGEON =>{
+        :hp => 31,
+        :attack => 31,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      },
+      :CHARIZARD =>{
+        :hp => 31,
+        :attack => 31,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      }
+    },
+    :ev=>{
+      :DRAGONITE =>{
+        :hp => 4,
+        :attack => 0,
+        :defense => 0,
+        :spatk => 252,
+        :spdef => 0,
+        :speed => 252
+      },
+      :EGORGEON =>{
+        :hp => 4,
+        :attack => 0,
+        :defense => 0,
+        :spatk => 252,
+        :spdef => 0,
+        :speed => 252
+      },
+      :CHARIZARD =>{
+        :hp => 4,
+        :attack => 0,
+        :defense => 0,
+        :spatk => 252,
+        :spdef => 0,
+        :speed => 252
+      }
+    }
+  }
+}
+
+
+
 ################################################################################
 #   PWT Trainer method
 ################################################################################
@@ -103,10 +374,74 @@ def pbLoadTrainerTournament(trainerid,trainername,partyid=0)
         pokemon.makeNotShiny
       end
       pokemon.setNature(poke[TPNATURE])
-      iv=poke[TPIV]
-      for i in 0...6
-        pokemon.iv[i]=iv&0x1F
-        pokemon.ev[i]=[85,level*3/2].min
+
+      # CUSTOM IV AND EV HANDLING HANDLING
+      if CUSTOMIV.keys.include?([trainerid,trainername]) && CUSTOMIV[[trainerid,trainername]] != nil
+          ivhash = CUSTOMIV[[trainerid,trainername]][:iv]
+          if (ivhash != nil)
+            spfound = nil
+            found = false
+            ivhash.keys.each {|species| if isConst?(pokemon.species,PBSpecies,species);spfound=species;found=true;end;}
+            echoln "Handling #{pokemon.name}"
+            if found
+              echoln "Detected Species IV!"
+              ivs = ivhash[spfound]
+              for stat in ivs.keys
+                if [:hp,:attack,:defense,:spatk,:spdef,:speed].include?(stat)
+                  case stat
+                  when :hp
+                    pokemon.iv[0]=ivs[:hp]
+                  when :attack
+                    pokemon.iv[1]=ivs[:attack]
+                  when :defense
+                    pokemon.iv[2]=ivs[:defense]
+                  when :spatk
+                    pokemon.iv[4]=ivs[:spatk]
+                  when :spdef
+                    pokemon.iv[5]=ivs[:spdef]
+                  when :speed
+                    pokemon.iv[3]=ivs[:speed]
+                  end
+                end
+              end
+            end
+          end
+
+          evhash = CUSTOMIV[[trainerid,trainername]][:ev]
+          if (evhash != nil)
+            spfound = nil
+            found = false
+            evhash.keys.each {|species| if isConst?(pokemon.species,PBSpecies,species);spfound=species;found=true;end;}
+            echoln "Handling #{pokemon.name}"
+            if found
+              echoln "Detected Species EV!"
+              evs = evhash[spfound]
+              for stat in evs.keys
+                if [:hp,:attack,:defense,:spatk,:spdef,:speed].include?(stat)
+                  case stat
+                  when :hp
+                    pokemon.ev[0]=evs[:hp]
+                  when :attack
+                    pokemon.ev[1]=evs[:attack]
+                  when :defense
+                    pokemon.ev[2]=evs[:defense]
+                  when :spatk
+                    pokemon.ev[4]=evs[:spatk]
+                  when :spdef
+                    pokemon.ev[5]=evs[:spdef]
+                  when :speed
+                    pokemon.ev[3]=evs[:speed]
+                  end
+                end
+              end
+            end
+          end
+      else
+        iv=poke[TPIV]
+        for i in 0...6
+          pokemon.iv[i]=iv&0x1F
+          pokemon.ev[i]=[85,level*3/2].min
+        end
       end
       pokemon.happiness=poke[TPHAPPINESS]
       pokemon.name=poke[TPNAME] if poke[TPNAME] && poke[TPNAME]!=""
@@ -335,6 +670,14 @@ class PokeBattle_Trainer
     @battle_points = value
     return @battle_points
   end
+
+
+  #beaten vips
+  def vips
+    @beaten_vips = [] if @beaten_vips == nil
+    return @beaten_vips
+  end
+
 end
 
 BATTLE_POINT_PRICES = {
@@ -393,34 +736,36 @@ BATTLE_POINT_PRICES = {
   PBItems::ROOMSERVICE => 30,
 
   #Pokemon modification items
-  PBItems::ABILITYCAPSULE => 50,
-  PBItems::ABILITYPATCH => 80,
-  PBItems::BOTTLECAP => 20,
-  PBItems::GOLDBOTTLECAP => 100,
-  PBItems::RARECANDY => 5,
-  PBItems::SUPERRARECANDY => 20,
-  PBItems::ULTRARARECANDY => 35,
-  PBItems::ADAMANTMINT => 15,
-  PBItems::BOLDMINT => 15,
-  PBItems::BRAVEMINT => 15,
-  PBItems::CALMMINT => 15,
-  PBItems::CAREFULMINT => 15,
-  PBItems::GENTLEMINT => 15,
-  PBItems::HASTYMINT => 15,
-  PBItems::IMPISHMINT => 15,
-  PBItems::JOLLYMINT => 15,
-  PBItems::LAXMINT => 15,
-  PBItems::LONELYMINT => 15,
-  PBItems::MILDMINT => 15,
-  PBItems::MODESTMINT => 15,
-  PBItems::NAIVEMINT => 15,
-  PBItems::NAUGHTYMINT => 15,
-  PBItems::QUIETMINT => 15,
-  PBItems::RASHMINT => 15,
-  PBItems::RELAXEDMINT => 15,
-  PBItems::SASSYMINT => 15,
-  PBItems::SERIOUSMINT => 15,
-  PBItems::TIMIDMINT => 15,
+  PBItems::ABILITYCAPSULE => 30,
+  PBItems::ABILITYPATCH => 60,
+  PBItems::BOTTLECAP => 10,
+  PBItems::GOLDBOTTLECAP => 50,
+  PBItems::RARECANDY => 4,
+  PBItems::SUPERRARECANDY => 16,
+  PBItems::ULTRARARECANDY => 24,
+  PBItems::ADAMANTMINT => 8,
+  PBItems::BOLDMINT => 8,
+  PBItems::BRAVEMINT => 8,
+  PBItems::CALMMINT => 8,
+  PBItems::CAREFULMINT => 8,
+  PBItems::GENTLEMINT => 8,
+  PBItems::HASTYMINT => 8,
+  PBItems::IMPISHMINT => 8,
+  PBItems::JOLLYMINT => 8,
+  PBItems::LAXMINT => 8,
+  PBItems::LONELYMINT => 8,
+  PBItems::MILDMINT => 8,
+  PBItems::MODESTMINT => 8,
+  PBItems::NAIVEMINT => 8,
+  PBItems::NAUGHTYMINT => 8,
+  PBItems::QUIETMINT => 8,
+  PBItems::RASHMINT => 8,
+  PBItems::RELAXEDMINT => 8,
+  PBItems::SASSYMINT => 8,
+  PBItems::SERIOUSMINT => 8,
+  PBItems::TIMIDMINT => 8,
+
+  # 3 tornei 1 mega
 }
 
 def pbBottleCapChoice()
@@ -515,25 +860,59 @@ end
 #===============================================================================
 $rivalBattleID=0
 TRAINERPOOL_basic=[  #ALMENO 8 ALLENATORI
-=begin
   ["trey",PBTrainers::ALTERTREY,"Trey",_INTL("Come ho potuto perdere così?"),2],
-["Alice (with Pikachu XF)",PBTrainers::ALICEFINAL,"Alice",_INTL("Ho fatto la scelta sbagliata?"),1],
-["Aster",PBTrainers::ASTER,"Aster",_INTL("Cavoli, sono veramente esauto!"),2],
-["motociclista",PBTrainers::BIKER,"Gale",_INTL("Che errore!"),0],
-["breaker",PBTrainers::BREAKER,"Seiya",_INTL("Che errore!"),0],
-["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Fausto",_INTL("Che errore!"),0],
-["allenatore-campeggiatrice",PBTrainers::CAMPEGGIATRICE,"Tata",_INTL("Che errore!"),0],
-["allenatore-campeggiatrice",PBTrainers::CAMPEGGIATRICE,"Ginevra",_INTL("Che errore!"),0],
-["allenatore-campeggiatrice",PBTrainers::CAMPEGGIATRICE,"Ermia",_INTL("Che errore!"),6],
-["Karateka",PBTrainers::CINTURANERA,"Ryu",_INTL("Che errore!"),0],
-["CowGirl-default",PBTrainers::COWGIRL,"Sandy",_INTL("Che errore!"),0],
-["Mamma",PBTrainers::FINALMAMMA,"Edera",_INTL("Che errore!"),1],
-["goldtrainer",PBTrainers::GOLD,"Gold",_INTL("Che errore!"),2],
-["IndianoKid",PBTrainers::INDIANOKID,"Raico",_INTL("Che errore!"),0]
-=end
+  ["Alice (with Pikachu XF)",PBTrainers::ALICEFINAL,"Alice",_INTL("Ho fatto la scelta sbagliata?"),1],
+  ["Aster",PBTrainers::ASTER,"Aster",_INTL("Cavoli, sono veramente esauto!"),2],
+  ["motociclista",PBTrainers::BIKER,"Gale",_INTL("Che errore!"),0],
+  ["breaker",PBTrainers::BREAKER,"Seiya",_INTL("Che errore!"),0],
+  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Fausto",_INTL("Che errore!"),0],
+  ["allenatore-campeggiatrice",PBTrainers::CAMPEGGIATRICE,"Tata",_INTL("Che errore!"),0],
+  ["allenatore-campeggiatrice",PBTrainers::CAMPEGGIATRICE,"Ginevra",_INTL("Che errore!"),0],
+  ["allenatore-campeggiatrice",PBTrainers::CAMPEGGIATRICE,"Ermia",_INTL("Che errore!"),6],
+  ["Karateka",PBTrainers::CINTURANERA,"Ryu",_INTL("Che errore!"),0],
+  ["CowGirl-default",PBTrainers::COWGIRL,"Sandy",_INTL("Che errore!"),0],
+  ["Mamma",PBTrainers::FINALMAMMA,"Edera",_INTL("Che errore!"),1],
+  ["goldtrainer",PBTrainers::GOLD,"Gold",_INTL("Che errore!"),2],
+  ["IndianoKid",PBTrainers::INDIANOKID,"Raico",_INTL("Che errore!"),0]
 ]
 TRAINERPOOL_hard=[]  #ALMENO 16 ALLENATORI
 TRAINERPOOL_expert=[]  #ALMENO 32 ALLENATORI
+
+LANCEPOOL=[
+  ["trey",PBTrainers::LANCETOURNAMENT,"Lance",_INTL("Pare che il mio allenamento non sia bastato..."),10],
+  ["Ranger femmina 1",PBTrainers::RANGERF,"Solana",_INTL("Per poco!"),0],
+  ["montanaro",PBTrainers::MONTANARO,"Alfio",_INTL("Peccato! Avrei dovuto passare meno tempo a passeggiare..."),0],
+  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Girolamo",_INTL("A quanto pare non ho viaggiato abbastanza!"),0],
+  ["hipster",PBTrainers::HIPSTERM,"Kevin",_INTL("Che hai detto? Avevo le cuffie!"),0],
+  ["hipsterf",PBTrainers::HIPSTERF,"Lara",_INTL("Che botta..."),0],
+  ["indianokid",PBTrainers::INDIANOKID,"Hakan",_INTL("Owch... Non è sono ancora abbastanza forte..."),0],
+  ["pescatore",PBTrainers::PESCATORE,"Ernesto",_INTL("C'ero quasi!"),0],
+
+  ["Karateka",PBTrainers::CINTURANERA,"Ryu",_INTL("Che errore!"),0],
+  ["Alice (with Pikachu XF)",PBTrainers::ALICEFINAL,"Alice",_INTL("Ho fatto la scelta sbagliata?"),1],
+  ["Aster",PBTrainers::ASTER,"Aster",_INTL("Cavoli, sono veramente esauto!"),2],
+  ["motociclista",PBTrainers::BIKER,"Gale",_INTL("Che errore!"),0],
+  ["breaker",PBTrainers::BREAKER,"Seiya",_INTL("Che errore!"),0],
+  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Fausto",_INTL("Che errore!"),0],
+  ["allenatore-campeggiatrice",PBTrainers::CAMPEGGIATRICE,"Tata",_INTL("Che errore!"),0],
+  ["allenatore-campeggiatrice",PBTrainers::CAMPEGGIATRICE,"Ginevra",_INTL("Che errore!"),0],
+  ["allenatore-campeggiatrice",PBTrainers::CAMPEGGIATRICE,"Ermia",_INTL("Che errore!"),6],
+  ["Karateka",PBTrainers::CINTURANERA,"Ryu",_INTL("Che errore!"),0],
+  ["CowGirl-default",PBTrainers::COWGIRL,"Sandy",_INTL("Che errore!"),0],
+  ["Mamma",PBTrainers::FINALMAMMA,"Edera",_INTL("Che errore!"),1],
+  ["goldtrainer",PBTrainers::GOLD,"Gold",_INTL("Che errore!"),2],
+]
+
+VIPLIST =[
+  [PBTrainers::LANCETOURNAMENT,"Lance"],
+  [PBTrainers::ERIKATOURNAMENT,"Erika"],
+  [PBTrainers::DANTETOURNAMENT,"Dante"],
+  [PBTrainers::LEOTOURNAMENT,"Leo"]
+]
+
+MUSTINCLUDE = {
+  LANCEPOOL => [PBTrainers::LANCETOURNAMENT,"Lance"],
+}
 
 SKILL_LEVELS={
   PBTrainers::ALTERTREY=>100,
@@ -544,8 +923,16 @@ BAN_LIST=[:LUXFLON]
 REWARDPOOL=[:POTION,:GREATBALL,:POKEBALL,:ESCAPEROPE]
 REWARDLOSINGPOOL=[:POTION,:ANTIDOTE]
 
-TOURNAMENT_OPPONENT_EVENT_ID = 19
-TOURNAMENT_EVENT_ID = 18
+TOURNAMENT_OPPONENT_EVENT_ID = 54
+TOURNAMENT_EVENT_ID = 56
+
+TOURNAMENT_LOCKER_MAP_ID = 622
+TOURNAMENT_STADIUM_MAP_ID = 623
+
+def pbGetPlayerWalkingChar
+  meta=pbGetMetadata(0,MetadataPlayerA+$PokemonGlobal.playerID)
+  return pbGetPlayerCharset(meta,1)
+end
 
 
 ################################################################################
@@ -809,13 +1196,21 @@ class PWT
   
   def initialize(player,difficulty,trainerpool=nil,testpool=false)
     
+    @difficulty = difficulty
+    @player = player
+    @trainerpool = trainerpool
+
     if testpool
-      pool = defineChart(player, difficulty)
+      @pool = defineChart(player, difficulty, trainerpool)
+      @firstPool = @pool
       loop do
         Graphics.update
         Input.update
         if Input.trigger?(Input::C)
-          pool = redefineChart(pool)
+          @pool = redefineChart(@pool)
+        end
+        if (Input.trigger?(Input::A))
+          showChart()
         end
       end
       return
@@ -843,16 +1238,18 @@ class PWT
         #Initializing the viewport
         @v=Viewport.new(0,0,Graphics.width,Graphics.height)
         @v.z=99990
-
-        # Tournament Intro
-        pbIntroTournament
-        self.startTournament(player,difficulty,trainerpool)
       else
         Kernel.pbMessage(_INTL("I'm sorry, will be for next time!"))
       end
     else
       Kernel.pbMessage(_INTL("I'm sorry, will be for next time!"))
     end
+  end
+
+  def start
+    # Tournament Intro
+    pbIntroTournament()
+    self.startTournament(@player,@difficulty,@trainerpool)
   end
   
   def pbIntroTournament
@@ -925,13 +1322,15 @@ class PWT
       @opponent = @pool[@oppIndex]
       betRounds(@pool)
       
-      pbTransferWithTransition(324,9,15,:DIRECTED,6) {
+      
+
+      pbTransferWithTransition(TOURNAMENT_LOCKER_MAP_ID,26,18,:DIRECTED,2) {
         pbDisposeSpriteHash(@sprites)
       }
       #play the event
-      $game_map.events[19].character_name = @opponent[0]
-      $game_map.events[19].turn_left
-      $game_map.events[18].start
+      #$game_map.events[19].character_name = @opponent[0]
+      #$game_map.events[19].turn_left
+      #$game_map.events[18].start
     else
       # End the tournament
       endTournament(@playerwon)
@@ -1218,6 +1617,7 @@ class PWT
   #Logical Methods start from here
   def defineChart(player,difficulty,trainerpool=nil) #Calculate the chart inside a pool of trainers
     
+
     if trainerpool==nil
        case difficulty
        when 0
@@ -1246,6 +1646,28 @@ class PWT
     
     pool=[]
     added=[]
+    
+    miAdded = nil
+
+
+    if trainerpool != nil && MUSTINCLUDE.keys.include?(trainerpool)
+      tr = MUSTINCLUDE[trainerpool]
+      found = nil
+      trainerpool.each do |trainer|
+        if trainer[1]==tr[0] && trainer[2]==tr[1]
+          found = trainer
+          break
+        end
+      end
+      if found != nil
+        echoln "DETECTED MUSTINCLUDE! MUST INCLUDE #{tr[1]}"
+        added.push(found)
+        #pool.push(found)
+        branches-=1
+        miAdded = found
+      end
+    end
+
     for i in 0...branches
       randTrainer = trainerpool[rand(trainerpool.length)]
       #This ensures diversity between trainers
@@ -1258,7 +1680,18 @@ class PWT
     
     m = rand(pool.length-1)    
     pool.insert(m,$Trainer)
+    i = 0
+    if m > branches/2
+      i = rand(branches/2+1)
+    else
+      i = rand(branches/2+1) + branches/2
+    end
     
+    if miAdded != nil
+      pool.insert(i,miAdded)
+    end
+
+
     pool.each do |entry|
       id = pool.index(entry)
       echoln "Contestant #{id+1}: #{entry == $Trainer ? $Trainer.name : entry[2]}"
@@ -1286,8 +1719,9 @@ class PWT
     
     #Global variable for checking the exp giving if the player is in a tournament
     $ISINTOURNAMENT=true
-    
+
     @pool = defineChart(player,difficulty,trainerpool)
+    @firstPool = @pool
     pool = @pool
 
     @opponent = pool[@oppIndex]
@@ -1353,17 +1787,176 @@ class PWT
     
     #Teleport to Circo Sirio (324,9,15)
 
-    pbTransferWithTransition(324,9,15,:DIRECTED,6) {
+    pbTransferWithTransition(TOURNAMENT_LOCKER_MAP_ID,26,18,:DIRECTED,2) {
       pbDisposeSpriteHash(@sprites)
     }
+  end
 
-    $game_switches[1201]=true
+  def showChart
+    echoln "Showing the tournament chart"
+    chart = @firstPool
+    curPool = @pool
 
-    $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].character_name = @opponent[0]
-    $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].turn_left
-    $game_map.events[TOURNAMENT_EVENT_ID].start
+    viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
+    viewport.z = 99999
+
+    @s = {}
+
+    @s["bg"] = AnimatedPlane.new(viewport)
+    @s["bg"].bitmap = pbBitmap("Graphics/Pictures/STour/BracketBG")
+
+    @s["bgmask"] = AnimatedPlane.new(viewport)
+    @s["bgmask"].bitmap = pbBitmap("Graphics/Pictures/STour/BracketBGMask")
+
+    append = ""
+    if @difficulty > 0
+      if @difficulty == 1
+        append = "XL"
+      else
+        append = "XXL"
+      end
+    end
+
+    # draw the bracket
+    @s["bracket"] = Bracket.new(viewport,chart,curPool)
+    @s["bracket"].bitmap = pbBitmap("Graphics/Pictures/STour/Bracket"+append)
+    #@s["bracket"].ox = @s["bracket"].bitmap.width/2
+    #@s["bracket"].oy = @s["bracket"].bitmap.height/2
+    @s["bracket"].x = 71#viewport.rect.width/2
+    @s["bracket"].y = 52#viewport.rect.height/2
+    @s["bracket"].actualize
+
+
+    @s["crown"] = Sprite.new(viewport)
+    @s["crown"].bitmap = pbBitmap("Graphics/Pictures/STour/crown")
+    @s["crown"].ox = @s["crown"].bitmap.width/2
+    @s["crown"].oy = @s["crown"].bitmap.height/2
+    @s["crown"].x = @s["bracket"].x + @s["bracket"].bitmap.width/2
+    @s["crown"].y = @s["bracket"].y + @s["bracket"].bitmap.height/2
+
+    # draw the slots
+    for i in 0...@firstPool.length
+      cur = @firstPool[i]
+      @s["bracketSlot#{i}"] = BracketSlot.new(viewport)
+      @s["bracketSlot#{i}"].bitmap = pbBitmap("Graphics/Pictures/STour/BracketSlot"+(i>@firstPool.length/2-1 ? "r" : ""))
+      if cur != $Trainer
+        hiddenvip = VIPLIST.rassoc(cur[2]) != nil && !$Trainer.vips.include?(VIPLIST.rassoc(cur[2]))
+      else
+        hiddenvip = false
+      end
+      @s["bracketSlot#{i}"].setTrainer(i>@firstPool.length/2-1,cur == $Trainer ? pbGetPlayerWalkingChar() : cur[0], hiddenvip)
+      @s["bracketSlot#{i}"].positionTrainer(34+(i>@firstPool.length/2-1 ? 8 : 0),36)
+      @s["bracketSlot#{i}"].y = 14 + (i % (@firstPool.length/2)) * (9+@s["bracketSlot#{i}"].bitmap.height)
+      if i>@firstPool.length/2-1
+        @s["bracketSlot#{i}"].x=@s["bracket"].x + @s["bracket"].bitmap.width - 6#-@s["bracketSlot#{i}"].bitmap.width
+      end
+    end 
+
+    
+    maxMoveX = (@s["bracket"].bitmap.width + @s["bracketSlot0"].bitmap.width*2 - 12) - viewport.rect.width
+    maxMoveX = 0 if maxMoveX<0
+    maxMoveY = 14*2+37*2+@s["bracket"].bitmap.height - viewport.rect.height 
+    curMoveX = 0
+    curMoveY = 0
+
+    movSpeed = 2
+
+    pbFadeInAndShow(@s)
+    loop do 
+      Graphics.update
+      Input.update
+      @s["bg"].ox-=2.5
+      @s["bg"].oy-=2.5
+
+      if Input.press?(Input::UP) && curMoveY-movSpeed>=0
+        curMoveY -=movSpeed
+        @s["bracket"].y +=movSpeed
+        @s["crown"].y +=movSpeed
+
+        for i in 0...@firstPool.length
+          @s["bracketSlot#{i}"].y += movSpeed
+        end
+      end
+
+      if Input.press?(Input::DOWN) && curMoveY+movSpeed<maxMoveY
+        curMoveY +=movSpeed
+        @s["bracket"].y -=movSpeed
+        @s["crown"].y -=movSpeed
+
+        for i in 0...@firstPool.length
+          @s["bracketSlot#{i}"].y -= movSpeed
+        end
+      end
+
+      if Input.press?(Input::LEFT) && curMoveX-movSpeed>=0
+        curMoveX -=movSpeed
+        @s["bracket"].x +=movSpeed
+        @s["crown"].x +=movSpeed
+
+        for i in 0...@firstPool.length
+          @s["bracketSlot#{i}"].x += movSpeed
+        end
+      end
+
+      if Input.press?(Input::RIGHT) && curMoveX+movSpeed<=maxMoveX
+        curMoveX +=movSpeed
+        @s["bracket"].x -=movSpeed
+        @s["crown"].x -=movSpeed
+
+        for i in 0...@firstPool.length
+          @s["bracketSlot#{i}"].x -= movSpeed
+        end
+      end
+
+
+      break if (Input.trigger?(Input::B))
+
+
+    end
+    pbFadeOutAndHide(@s)
+    pbDisposeSpriteHash(@s)
+    viewport.dispose
 
   end
+
+  def goLeft?
+    return false if !@pool
+    i = 0
+
+    @pool.each_index do |t|
+      if @pool[t] == $Trainer
+        i = t
+      end
+    end
+    return i%2 == 0
+  end
+
+  def final? 
+    return false if !@pool
+    return @pool.length<=2
+  end
+
+  def startRound
+    if goLeft?() #player goes left, enemy is right
+    
+      $game_switches[1201]=true
+      $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].moveto(39,43)
+      $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].character_name = @opponent[0]
+      $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].turn_left
+      $game_map.events[TOURNAMENT_EVENT_ID].start
+
+    else #player goes right, enemy is left
+
+      $game_switches[1201]=true
+      $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].moveto(33,43)
+      $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].character_name = @opponent[0]
+      $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].turn_right
+      $game_map.events[TOURNAMENT_EVENT_ID].start
+
+    end
+
+  end
+
   
   def nextRound
     @trainerIndex=nil
@@ -1486,19 +2079,19 @@ class PWT
     Kernel.pbMessage(_INTL("What an amazing battle! The win goes to {1}! Congrats!", $Trainer.name)) {tGraphicsUpdate()}
     #self.exitParticipants
     #self.drawInfoBoxes($Trainer,pool,@oppIndex)
-    Kernel.pbMessage(_INTL("And now, let's see who got to the next round!")) {tGraphicsUpdate()}
-    for c in 0...pool.length
-      if pool[c]==$Trainer
-         Kernel.pbMessage(_INTL("Contestant N°{1}, {2}!",@trainerIndex+1,$Trainer.name)) {tGraphicsUpdate()}
-      else
-         Kernel.pbMessage(_INTL("Contestant N°{1}, {2}!",c+1,pool[c][2])) {tGraphicsUpdate()}
-      end
-    end
-    Kernel.pbMessage(_INTL("They were the winners from the last round!")) {tGraphicsUpdate()}
+    #Kernel.pbMessage(_INTL("And now, let's see who got to the next round!")) {tGraphicsUpdate()}
+    #for c in 0...pool.length
+    #  if pool[c]==$Trainer
+    #     Kernel.pbMessage(_INTL("Contestant N°{1}, {2}!",@trainerIndex+1,$Trainer.name)) {tGraphicsUpdate()}
+    #  else
+    #     Kernel.pbMessage(_INTL("Contestant N°{1}, {2}!",c+1,pool[c][2])) {tGraphicsUpdate()}
+    #  end
+    #end
+    #Kernel.pbMessage(_INTL("They were the winners from the last round!")) {tGraphicsUpdate()}
     
     Kernel.pbMessage(_INTL("Now, time to go on with the next one!")) {tGraphicsUpdate()}
     #self.enterParticipants
-    Kernel.pbMessage(_INTL("Contestant N°{1}, {2}! Contestant N°{3}, {4}! Time to show what's your value!",@trainerIndex+1,$Trainer.name,@oppIndex+1,pool[@oppIndex][2])) {tGraphicsUpdate()}
+    #Kernel.pbMessage(_INTL("Contestant N°{1}, {2}! Contestant N°{3}, {4}! Time to show what's your value!",@trainerIndex+1,$Trainer.name,@oppIndex+1,pool[@oppIndex][2])) {tGraphicsUpdate()}
   end
   
   
@@ -1599,6 +2192,7 @@ class PWT
   
   def startBattle(pool)
     if pool.length>3
+      $PokemonGlobal.nextBattleBack = "Apollo"
       #Kernel.pbMessage(_INTL("You were matched against trainer n°{1}",@oppIndex))
       if pbTournamentBattle(pool[@oppIndex][1],pool[@oppIndex][2],pool[@oppIndex][3],false,0,true)
         @win=true
@@ -1640,7 +2234,7 @@ class PWT
       end
       
       Kernel.pbMessage(_INTL("Here is your reward for winning."))
-      @player.battle_points+=5
+      @player.battle_points+=12 + @firstPool.length/16*2 #12 base points for winning + 2 for each bigger stage
       reward = REWARDPOOL[rand(REWARDPOOL.length)]
       rewardname = getID(PBItems,reward)
      # pbCallBubStart(0)
@@ -1657,7 +2251,7 @@ class PWT
      # pbCallBubStart(3)
       Kernel.pbMessage(_INTL("I'm so sorry you lost! But you stood your ground, I'm sure you can win it next time!"))
       Kernel.pbMessage(_INTL("You lost, but you still got some rewards."))
-      @player.battle_points+=1
+      @player.battle_points+=2 + (@firstPool.length/@pool.length * 0.65).to_i
       reward = REWARDLOSINGPOOL[rand(REWARDLOSINGPOOL.length)]
       rewardname = getID(PBItems,reward)
      # pbCallBubStart(0)
@@ -1929,7 +2523,7 @@ def pbTournamentBattle(trainerid,trainername,endspeech,
 end
 
 def pbTT
-    $pwt = PWT.new($Trainer,0)
+    $pwt = PWT.new($Trainer,0,LANCEPOOL,true)
 end
 
 def pbt

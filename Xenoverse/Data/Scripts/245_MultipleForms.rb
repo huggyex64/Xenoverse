@@ -2478,7 +2478,7 @@ MultipleForms.register(:MASGOT,{
 		},
 		"type2"=>proc{|pokemon|
 			next getID(PBTypes,:GHOST) if pokemon.form == 1   # Gengar Form
-			next getID(PBTypes,:ICE) if pokemon.form == 2     # Glalie Form
+			next getID(PBTypes,:ICE) if pokemon.form == 2     # Weavile Form
 			next getID(PBTypes,:DARK) if pokemon.form == 4     # Heracross Form
 			next getID(PBTypes,:ELECTRIC) if pokemon.form == 5    # Houndoom Form
 			next getID(PBTypes,:FIGHTING) if pokemon.form == 6

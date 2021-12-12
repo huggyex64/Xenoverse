@@ -10,6 +10,7 @@ Irene (Stygian)
 Scripting:
 Alvise Gorinati (Dr. Aghs)
 Federico Rapetti (Fuji)
+Luca Todesca (Huggye)
 Paolo Lella (xZekro51)
 
 Mapping:
@@ -37,6 +38,8 @@ Gianluca Barbera (Barbie)
 Massimiliano Bruni (Makly)
 Matteo Facchinelli (Fachinhell)
 Michele Schirinzi (Mike)
+Luca Todesca (Huggye)
+Paolo Lella (xZekro51)
 
 Item Collocation:
 Admir Hyka (Adi)
