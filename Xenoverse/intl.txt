@@ -20277,7 +20277,7 @@ Abra
 Abra
 Bra...!
 Bra...!
-<<[>>old<<]>>Oh, no! Abra si è accorto della tua presenza!
+<<[>>old<<]>> Oh, no! Abra si è accorto della tua presenza!
 <<[>>old<<]>>Oh, no! Abra caught you!
 <<[>>old<<]>>Abra usa Teletrasporto!
 <<[>>old<<]>>Abra used Teleport!
@@ -22143,7 +22143,7 @@ Man, what a situation...! I thought we were done with that whole thing!
 Oh, \PN! Allora ti è stato recapitato il mio biglietto! Menomale, abbiamo davvero bisogno del tuo aiuto...
 Oi, \PN! So you received my ticket, huh?!<<n>>It's a good thing, 'cause we really need your help...
 Immagino stessi trascorrendo un po' del tempo in tranquillità... Mi dispiace averti contattato con così tanta urgenza, ma vedi... devo assolutamente metterti al corrente della situazione.
-I guess you were spending some quiet time...I'm sorry to put a damper on your day in such a way, but...<<n>>I really need to give you the heads up abot this situation. 
+I guess you were spending some quiet time...I'm sorry to put a damper on your day in such a way, but...<<n>>I really need to give you the heads up about this situation. 
 Anzi, sarei grato se lo facessi tu per me, Bellocchio.
 Well, I'd like you to do this for me, Looker. 
 Certamente, compare.
@@ -34201,7 +34201,7 @@ According to several tales, a mad scientist created this creature by combining p
 This very shy Pokémon rarely counterattacks. When in danger, it withdraws in its shell as hard as steel.
 1079
 (Forma Unità)\n Le zone più inquinate delle città brulicano di Chimaooze. Quando è in pericolo, chiama a raccolta tutti i suoi simili per debellare la minaccia.
-(Solo Form)\n The most polluted aeras of cities are infested by Chimaooze. When they senses danger, they team up together to eliminate the threat.
+(Solo Form)\n The most polluted areas of cities are infested by Chimaooze. When they senses danger, they team up together to eliminate the threat.
 1080
 Agitando la coda, e' in grado di riprodurre il suono di qualsiasi strumento musicale. Una volta che ha ascoltato una melodia, non la scorda piu'.
 It can perfectly replicate the sound of any musical instrument. Once it learns a melody, this Pokémon will never forget it. 

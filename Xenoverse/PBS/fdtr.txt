@@ -266,3 +266,59 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (MegaEvoluzione)\n Il potere della MegaEvoluzione ha reso Suicune ancora più maestoso. La sua criniera risplende dei colori dell'aurora boreale.
 (MegaEvolution)\n The power of Mega Evolution has made Suicune more majestic. Its mane glows with the colors of the Aurora Borealis.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Forma Rush)\n È il tormento dei minatori. Essere colpiti dal suo Ferrartigli equivale a intossicazione certa.
+(Rush Form)\n It is a real miners' nightmare. A single touch of its metal claws and you will be badly intoxicated.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Forma Rush)\n È ricoperto da una sostanza oleosa piccante. Si mimetizza in mezzo alle Bacche aspettando di essere addentato, poi se la ride di gusto.
+(Rush Form)\n It is coated with a oily, spicy substance. Pretending to be a Berry, it waits for someone to bite it. Then it laughs out loud on its own joke.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Forma Rush)\n La coda è indice della sua temperatura corporea, nonché del suo umore. Quando è infuriato, incendia ogni cosa.
+(Rush Form)\n The color of its tail is indicative of its body temperature and its actual mood. If it rampages, it will burn everything down.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Forma Rush)\n Questa pila di ciottoli ha preso vita grazie allo spirito combattivo dei paladini del passato che alberga nella spada in essa incastonata.
+(Rush Form)\n This rock pile came to life thanks to the combative spirit of past paladins that inhabited the sword wedged in it.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Forma Rush)\n Si muove grazie all'energia condivisa dall'intero banco. Pare che, dato l'elevato apporto calorico, i Chubiburny siano la sua preda favorita.
+(Rush Form)\n They swim around thanks to the energy\n they share with the whole shoal. Due to its high calorie value, Chubiburny is known to be their favorite prey.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Forma Rush)\n Si nutre solo di ciò che sottrae ai predatori. Dopo averli scoraggiati col motivo sul piumaggio, si avventa avidamente sul bottino.
+(Rush Form)\n It feeds merely on what it steals from predators. First it deters them with the skull-like pattern, then digs into its target.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Tinta Rush)\n Quello che sembra un graffito è in realtà un Pokémon. Mimetizzato sui muri delle giungle, schernisce con sonore risate chi gli capita a tiro.
+(Rush Paint)\n It's not graffiti...that's a Pokémon! It mixes up on jungle walls and mocks on anyone else who comes its way.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Forma Corallo)\n È timidissimo e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Sono rari i casi in cui passa al contrattacco.
+(Coral Form)\n This very shy Pokémon rarely counterattacks. When in danger, it withdraws in its shell as hard as steel.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Forma Bronzo)\n È timidissimo e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Ha un vago senso di orgoglio.
+(Bronze Form)\n This Pokémon has a vague sense of pride. When in danger, it withdraws in its shell as hard as steel.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Forma Argento)\n È timidissimo e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Sente di aver ottenuto dei buoni risultati.
+(Rush Form)\n This Pokémon feels he's obtained good results. When in danger, it withdraws in its shell as hard as steel.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Forma Oro)\n È timidissimo e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Si copre della sua gloria e ne va fiero.
+(Rush Form)\n This Pokémon bathes in its glory and it's proud of it. When in danger, it withdraws in its shell as hard as steel.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Forma Super)\n Emana un'aura potentissima e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Non è nemmeno la sua forma finale.
+(Rush Form)\n This Pokémon emanates a real powerful aura. When in danger, it withdraws in its shell as hard as steel. It's not even its final form.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Lucente)\n Le sue cellule hanno caratteristiche molto simili a quelle dei vegetali. Può ricavare energia vitale tramite fotosintesi.
+(Brilliant Style)\n Its cellular composition is closer to that of a plant than an animal. It uses photosynthesis to produce its energy supply without eating food.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Splendente)\n In un istante congela l'umidità circostante e crea granelli di ghiaccio che scaglia sulla preda.
+(Shining Style)\n It can control its body temperature at will. This enables it to freeze the moisture in the atmosphere, creating flurries of diamond dust.
