@@ -3711,6 +3711,21 @@ TrainerBattleBGM=vs. TamaraFuria.mp3
 MapPosition=0,29,9
 Outdoor=false
 ShowArea=false
+[614]
+# Paradiso Sakura
+Bicycle=true
+Outdoor=true
+ShowArea=false
+[615]
+# Paradiso Sakura
+Outdoor=true
+ShowArea=false
+[619]
+# Mostra Maratona
+Bicycle=false
+Outdoor=false
+BicycleAlways=false
+ShowArea=true
 [620]
 # Sagittopoli
 BattleBack=Beach
