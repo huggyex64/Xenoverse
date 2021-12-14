@@ -133,9 +133,7 @@ class Sprite_Character < RPG::Sprite
         self.oy=(bob>=2) ? @ch-16-2 : @ch-16
       end
 			if $PokemonGlobal.bicycle
-				
 				bob=((Graphics.frame_count%40)/8).floor
-				
 				
 				if bob==0 && @flch==false
 					@fldir*=-1

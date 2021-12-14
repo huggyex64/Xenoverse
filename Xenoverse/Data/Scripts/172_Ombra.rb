@@ -59,7 +59,7 @@ class ShadowSprite
     end
     return false
   end
-  
+
   def update 
     return if @disposed
     if @rsprite.disposed?
@@ -95,7 +95,7 @@ class ShadowSprite
     @sprite.opacity = @event.opacity / 5
   end 
 end
-
+=begin
 class Spriteset_Map
   alias klein_shadow_initialize initialize
   def initialize(map=nil)
@@ -143,6 +143,218 @@ class Spriteset_Map
     end
   end 
 end
+=end
+# Whether or not the event names below need to match in capitals as well.
+Case_Sensitive = false
+
+No_Shadow_If_Event_Name_Has = [
+    # I like to use "extensions" like these. Up to you though.
+    ".shadowless",
+    ".noshadow",
+    ".sl",
+    "Door",
+    "Stairs",
+    "noShadow",
+    "NoShadow",
+    "BerryPlant",
+    "OutdoorLight",
+    "Light",
+    "HeadbuttTree"
+]
+
+# Events that have this in their event name will always receive a shadow.
+# Does take "Case_Sensitive" into account.
+Always_Give_Shadow_If_Event_Name_Has = [
+    #"Trainer"
+]
+
+# Determines whether or not an event should be given a shadow.
+def pbShouldGetShadow?(event)
+  return true if event.is_a?(Game_Player) # The player will always have a shadow
+  page = pbGetActiveEventPage(event)
+  return false unless page
+  comments = page.list.select { |e| e.code == 108 || e.code == 408 }.map do |e|
+    e.parameters.join
+  end
+  Always_Give_Shadow_If_Event_Name_Has.each do |e|
+    name = event.name.clone
+    unless Case_Sensitive
+      e.downcase!
+      name.downcase!
+    end
+    return true if name.include?(e) || comments.any? { |c| c.include?(e) }
+  end
+  No_Shadow_If_Event_Name_Has.each do |e|
+    name = event.name.clone
+    unless Case_Sensitive
+      e.downcase!
+      name.downcase!
+    end
+    return false if name.include?(e) || comments.any? { |c| c.include?(e) }
+  end
+  return true
+end
+
+# Extending so we can access some private instance variables.
+class Game_Character
+  attr_reader :jump_count
+end
+
+
+unless defined?(pbGetActiveEventPage)
+  def pbGetActiveEventPage(event, mapid = nil)
+    mapid ||= event.map.map_id if event.respond_to?(:map)
+    pages = (event.is_a?(RPG::Event) ? event.pages : event.instance_eval { @event.pages })
+    for i in 0...pages.size
+      c = pages[pages.size - 1 - i].condition
+      ss = !(c.self_switch_valid && !$game_self_switches[[mapid,
+          event.id,c.self_switch_ch]])
+      sw1 = !(c.switch1_valid && !$game_switches[c.switch1_id])
+      sw2 = !(c.switch2_valid && !$game_switches[c.switch2_id])
+      var = true
+      if c.variable_valid
+        if !c.variable_value || !$game_variables[c.variable_id].is_a?(Numeric) ||
+           $game_variables[c.variable_id] < c.variable_value
+          var = false
+        end
+      end
+      if ss && sw1 && sw2 && var # All conditions are met
+        return pages[pages.size - 1 - i]
+      end
+    end
+    return nil
+  end
+end
+
+class Spriteset_Map
+  attr_accessor :usersprites
+end
+
+class Sprite_Character
+  attr_accessor :shadow
+  
+  alias ow_shadow_init initialize
+  def initialize(viewport, character = nil, is_follower = false)
+    @viewport = viewport
+    @is_follower = is_follower
+    ow_shadow_init(@viewport, character)
+    return unless pbShouldGetShadow?(character)
+    return if @is_follower && defined?(Toggle_Following_Switch) &&
+              !$game_switches[Toggle_Following_Switch]
+    return if @is_follower && defined?(Following_Activated_Switch) &&
+              !$game_switches[Following_Activated_Switch]
+    @character = character
+    if @character.is_a?(Game_Event)
+      page = pbGetActiveEventPage(@character)
+      return if !page || !page.graphic || page.graphic.character_name == ""
+    end
+    make_shadow
+  end
+  
+  def make_shadow
+    @shadow.dispose if @shadow
+    @shadow = nil
+    @shadow = Sprite.new(@viewport)
+    @shadow.bitmap = BitmapCache.load_bitmap(Shadow_Bitmap)#(Shadow_Path)
+    @shadow.opacity = @character.opacity / 5
+    # Center the shadow by halving the origin points
+    @shadow.ox = @shadow.bitmap.width / 2.0
+    @shadow.oy = @shadow.bitmap.height / 2.0
+    # Positioning the shadow
+    position_shadow
+  end
+  
+  def position_shadow
+    return unless @shadow
+    x = @character.screen_x
+    y = @character.screen_y
+
+    if @character.jumping?
+      @totaljump = @character.jump_count if !@totaljump
+
+      case @character.jump_count
+      when 1..(@totaljump / 3)
+        @shadow.zoom_x += 0.1
+        @shadow.zoom_y += 0.1
+      when (@totaljump / 3 + 1)..(@totaljump / 3 + 2)
+        @shadow.zoom_x += 0.05
+        @shadow.zoom_y += 0.05
+      when (@totaljump / 3 * 2 - 1)..(@totaljump / 3 * 2)
+        @shadow.zoom_x -= 0.05
+        @shadow.zoom_y -= 0.05
+      when (@totaljump / 3 * 2 + 1)..(@totaljump)
+        @shadow.zoom_x -= 0.1
+        @shadow.zoom_y -= 0.1
+      end
+
+      if @character.jump_count == 1
+        @shadow.zoom_x = 1.0
+        @shadow.zoom_y = 1.0
+        @totaljump = nil
+      end
+    end
+
+    @shadow.x = x
+    @shadow.y = @character.screen_y_ground - 3
+    @shadow.z = self.z - 1
+    if @shadow
+      if !@charbitmap || @charbitmap.disposed? || @character.instance_eval { @erased }
+        @shadow.dispose
+        @shadow = nil
+      end
+    end
+  end
+  
+  alias ow_shadow_visible visible=
+  def visible=(value)
+    ow_shadow_visible(value)
+    @shadow.visible = value if @shadow
+  end
+
+  alias ow_shadow_dispose dispose
+  def dispose
+    ow_shadow_dispose
+    @shadow.dispose if @shadow
+    @shadow = nil
+  end
+
+  alias ow_shadow_update update
+  def update
+    ow_shadow_update
+    position_shadow
+    
+    if @character.is_a?(Game_Event)
+      page = pbGetActiveEventPage(@character)
+      if @old_page != page
+        @shadow.dispose if @shadow
+        @shadow = nil
+        if page && page.graphic && page.graphic.character_name != "" &&
+           pbShouldGetShadow?(@character)
+          unless @is_follower && defined?(Toggle_Following_Switch) &&
+                 !$game_switches[Toggle_Following_Switch]
+            unless @is_follower && defined?(Following_Activated_Switch) &&
+                   !$game_switches[Following_Activated_Switch]
+              make_shadow
+            end
+          end
+        end
+      end
+    end
+    
+    @old_page = (@character.is_a?(Game_Event) ? pbGetActiveEventPage(@character) : nil)
+    
+    bushdepth = @character.bush_depth
+    if @shadow
+      @shadow.opacity = self.opacity / 5
+      @shadow.visible = (bushdepth == 0)
+      if !self.visible || (@is_follower || @character == $game_player) &&
+         ($PokemonGlobal.surfing || $PokemonGlobal.diving)
+        @shadow.visible = false
+      end
+    end
+  end
+end
+
 
 class DependentEvents
   attr_accessor :realEvents

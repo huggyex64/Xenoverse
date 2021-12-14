@@ -879,7 +879,7 @@ TRAINERPOOL_hard=[]  #ALMENO 16 ALLENATORI
 TRAINERPOOL_expert=[]  #ALMENO 32 ALLENATORI
 
 LANCEPOOL=[
-  ["trey",PBTrainers::LANCETOURNAMENT,"Lance",_INTL("Pare che il mio allenamento non sia bastato..."),10],
+  ["lance",PBTrainers::LANCETOURNAMENT,"Lance",_INTL("Pare che il mio allenamento non sia bastato..."),10],
   ["Ranger femmina 1",PBTrainers::RANGERF,"Solana",_INTL("Per poco!"),0],
   ["montanaro",PBTrainers::MONTANARO,"Alfio",_INTL("Peccato! Avrei dovuto passare meno tempo a passeggiare..."),0],
   ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Girolamo",_INTL("A quanto pare non ho viaggiato abbastanza!"),0],
@@ -887,7 +887,7 @@ LANCEPOOL=[
   ["hipsterf",PBTrainers::HIPSTERF,"Lara",_INTL("Che botta..."),0],
   ["indianokid",PBTrainers::INDIANOKID,"Hakan",_INTL("Owch... Non è sono ancora abbastanza forte..."),0],
   ["pescatore",PBTrainers::PESCATORE,"Ernesto",_INTL("C'ero quasi!"),0],
-
+=begin
   ["Karateka",PBTrainers::CINTURANERA,"Ryu",_INTL("Che errore!"),0],
   ["Alice (with Pikachu XF)",PBTrainers::ALICEFINAL,"Alice",_INTL("Ho fatto la scelta sbagliata?"),1],
   ["Aster",PBTrainers::ASTER,"Aster",_INTL("Cavoli, sono veramente esauto!"),2],
@@ -901,6 +901,7 @@ LANCEPOOL=[
   ["CowGirl-default",PBTrainers::COWGIRL,"Sandy",_INTL("Che errore!"),0],
   ["Mamma",PBTrainers::FINALMAMMA,"Edera",_INTL("Che errore!"),1],
   ["goldtrainer",PBTrainers::GOLD,"Gold",_INTL("Che errore!"),2],
+=end
 ]
 
 VIPLIST =[
@@ -909,6 +910,15 @@ VIPLIST =[
   [PBTrainers::DANTETOURNAMENT,"Dante"],
   [PBTrainers::LEOTOURNAMENT,"Leo"]
 ]
+
+VIPSPEECH={
+  [PBTrainers::LANCETOURNAMENT,"Lance"] => {
+    :mugshot => "beatville/bassista",#"apollo/lance",
+    :name => "Lance",
+    :speech => "Mi sono allenato per anni nella Tana del Drago, e ora sono finalmente pronto per rimettermi in gioco. Fammi vedere di che pasta sei fatto|a!",
+    :description => ["Dopo aver perso il titolo di Campione, ha deciso di ritirarsi per affinare ancora di più le sue abilità!","Ora è proprio qui con noi al Torneo Apollo...","L'unico e inimitabile, Lance!"]
+  },
+}
 
 MUSTINCLUDE = {
   LANCEPOOL => [PBTrainers::LANCETOURNAMENT,"Lance"],
@@ -1027,15 +1037,15 @@ def pbTestMas
   @sprites["sep"].zoom_y = 2
   @sprites["sep"].opacity = 0
 
-  @sprites["vs"]=EAMSprite.new(v)
-  @sprites["vs"].bitmap=pbBitmap("Graphics/VS/vs")
-  @sprites["vs"].ox = @sprites["vs"].bitmap.width/2
-  @sprites["vs"].oy = @sprites["vs"].bitmap.height/2
-  @sprites["vs"].x = 512/2
-  @sprites["vs"].y = 384/2
-  @sprites["vs"].zoom_x = 2
-  @sprites["vs"].zoom_y = 2
-  @sprites["vs"].opacity = 0
+  @sprites["versus"]=EAMSprite.new(v)
+  @sprites["versus"].bitmap=pbBitmap("Graphics/VS/vs")
+  @sprites["versus"].ox = @sprites["versus"].bitmap.width/2
+  @sprites["versus"].oy = @sprites["versus"].bitmap.height/2
+  @sprites["versus"].x = 512/2
+  @sprites["versus"].y = 384/2
+  @sprites["versus"].zoom_x = 2
+  @sprites["versus"].zoom_y = 2
+  @sprites["versus"].opacity = 0
 
   for i in 0...2
     @sprites["bar#{i}"] = EAMSprite.new(v)
@@ -1140,12 +1150,12 @@ def pbTestMas
 
   Kernel.pbMessage("Well, who cares! Now, duke it out!")
 
-  @sprites["vs"].fade(255,20,:ease_in_cubic)
-  @sprites["vs"].zoom(1,1,20,:ease_in_cubic)
+  @sprites["versus"].fade(255,20,:ease_in_cubic)
+  @sprites["versus"].zoom(1,1,20,:ease_in_cubic)
   20.times do
     Graphics.update
     Input.update
-    @sprites["vs"].update
+    @sprites["versus"].update
     @sprites["leftStar"].sprite.opacity+=120/20
     @sprites["rightStar"].sprite.opacity+=120/20
     moveStars(@sprites["leftStar"],@sprites["rightStar"])
@@ -1171,10 +1181,10 @@ def pbTestMas
 
     moveStars(@sprites["leftStar"],@sprites["rightStar"])
 
-    @sprites["vs"].x+=val
-    @sprites["vs"].y-=val
-    val=1 if @sprites["vs"].x<=(v.rect.width/2)-1
-    val=-1 if @sprites["vs"].x>=(v.rect.width/2)+1
+    @sprites["versus"].x+=val
+    @sprites["versus"].y-=val
+    val=1 if @sprites["versus"].x<=(v.rect.width/2)-1
+    val=-1 if @sprites["versus"].x>=(v.rect.width/2)+1
 
     if (Input.press?(Input::RIGHT))
       @sprites["left"].x+=2
@@ -1302,6 +1312,20 @@ class PWT
 
   end
   
+  def gengarVipDescription()
+    if isOpponentVip?()
+      key = [@opponent[1],@opponent[2]]
+      for text in VIPSPEECH[key][:description]
+        Kernel.pbMessage(_INTL(text))
+      end
+    end
+  end
+
+  def isOpponentVip?
+    return false if !@opponent
+    return true if VIPLIST.include?([@opponent[1],@opponent[2]])
+  end
+
   def playOpponentIntro
     if $DEBUG==true && Input.press?(Input::CTRL)
       if Kernel.pbConfirmMessage("Skip tournament?")
@@ -1310,6 +1334,16 @@ class PWT
         return
       end
     end
+    if isOpponentVip?()
+      key = [@opponent[1],@opponent[2]]
+      fbNewMugshot(VIPSPEECH[key][:name],VIPSPEECH[key][:mugshot],"default",goLeft?() ? :right : :left)
+      fbEnable(true)
+      fbText(VIPSPEECH[key][:speech])
+      fbEnable(false)
+      fbDispose()
+    end
+
+
     opponentIntro(@opponent)
     #Starting the battle
     startBattle(@pool)
@@ -1325,6 +1359,9 @@ class PWT
       
 
       pbTransferWithTransition(TOURNAMENT_LOCKER_MAP_ID,26,18,:DIRECTED,2) {
+        pbFadeOutAndHide(@transition)
+        pbDisposeSpriteHash(@transition)
+        pbFadeOutAndHide(@sprites)
         pbDisposeSpriteHash(@sprites)
       }
       #play the event
@@ -1353,169 +1390,169 @@ class PWT
     v.z=99995
   
     @v=v
-    @sprites={}
+    @transition={}
   
     Graphics.frame_rate=60
   
-    @sprites["darken"] = EAMSprite.new(v)
-    @sprites["darken"].bitmap = Bitmap.new(512,384)
-    @sprites["darken"].bitmap.fill_rect(0,0,512,384,Color.new(0,0,0))
-    @sprites["darken"].opacity = 0
+    @transition["darken"] = EAMSprite.new(v)
+    @transition["darken"].bitmap = Bitmap.new(512,384)
+    @transition["darken"].bitmap.fill_rect(0,0,512,384,Color.new(0,0,0))
+    @transition["darken"].opacity = 0
   
   
-    @sprites["leftbg"]=EAMSprite.new(v)
-    @sprites["leftbg"].bitmap=pbBitmap("Graphics/Pictures/STour/leftGradient")
-    @sprites["leftbg"].x=-512#512/4
+    @transition["leftbg"]=EAMSprite.new(v)
+    @transition["leftbg"].bitmap=pbBitmap("Graphics/Pictures/STour/leftGradient")
+    @transition["leftbg"].x=-512#512/4
   
-    @sprites["leftStar"]=TournamentPlane.new(v)
-    @sprites["leftStar"].bitmap = pbBitmap("Graphics/Pictures/STour/StarAnimBG")
-    @sprites["leftStar"].sprite.angle=-17
-    @sprites["leftStar"].sprite.y=-210
+    @transition["leftStar"]=TournamentPlane.new(v)
+    @transition["leftStar"].bitmap = pbBitmap("Graphics/Pictures/STour/StarAnimBG")
+    @transition["leftStar"].sprite.angle=-17
+    @transition["leftStar"].sprite.y=-210
     
-    @sprites["leftStar"].sprite.x=20
-    @sprites["leftStar"].borderY=200
-    @sprites["leftStar"].sprite.opacity = 0
+    @transition["leftStar"].sprite.x=20
+    @transition["leftStar"].borderY=200
+    @transition["leftStar"].sprite.opacity = 0
     
-    @sprites["left"]=EAMSprite.new(v)
-    @sprites["left"].bitmap=pbBitmap("Graphics/Transitions/smSpecial153")
-    @sprites["left"].mask("Graphics/Pictures/STour/leftGradient", -40)
-    @sprites["left"].x=-512
+    @transition["left"]=EAMSprite.new(v)
+    @transition["left"].bitmap=pbBitmap("Graphics/Transitions/smSpecial153")
+    @transition["left"].mask("Graphics/Pictures/STour/leftGradient", -40)
+    @transition["left"].x=-512
   
-    @sprites["rightbg"]=EAMSprite.new(v)
-    @sprites["rightbg"].bitmap=pbBitmap("Graphics/Pictures/STour/rightGradient")
-    @sprites["rightbg"].x=512+512
-    @sprites["rightbg"].ox = @sprites["rightbg"].bitmap.width
+    @transition["rightbg"]=EAMSprite.new(v)
+    @transition["rightbg"].bitmap=pbBitmap("Graphics/Pictures/STour/rightGradient")
+    @transition["rightbg"].x=512+512
+    @transition["rightbg"].ox = @transition["rightbg"].bitmap.width
   
-    @sprites["rightStar"]=TournamentPlane.new(v)
-    @sprites["rightStar"].bitmap = pbBitmap("Graphics/Pictures/STour/StarAnimBG")
-    @sprites["rightStar"].sprite.angle=-17
-    @sprites["rightStar"].sprite.y=-170
+    @transition["rightStar"]=TournamentPlane.new(v)
+    @transition["rightStar"].bitmap = pbBitmap("Graphics/Pictures/STour/StarAnimBG")
+    @transition["rightStar"].sprite.angle=-17
+    @transition["rightStar"].sprite.y=-170
   
-    @sprites["rightStar"].sprite.x=370
-    @sprites["rightStar"].borderY=200
-    @sprites["rightStar"].sprite.opacity = 0
+    @transition["rightStar"].sprite.x=370
+    @transition["rightStar"].borderY=200
+    @transition["rightStar"].sprite.opacity = 0
   
-    @sprites["right"]=EAMSprite.new(v)
-    @sprites["right"].bitmap=bmp#pbBitmap("Graphics/Transitions/smSpecial169")
-    @sprites["right"].x=512
-    @sprites["right"].x=512+512
-    @sprites["right"].mask("Graphics/Pictures/STour/rightGradient",40)
-    @sprites["right"].ox = @sprites["right"].bitmap.width
+    @transition["right"]=EAMSprite.new(v)
+    @transition["right"].bitmap=bmp#pbBitmap("Graphics/Transitions/smSpecial169")
+    @transition["right"].x=512
+    @transition["right"].x=512+512
+    @transition["right"].mask("Graphics/Pictures/STour/rightGradient",40)
+    @transition["right"].ox = @transition["right"].bitmap.width
     
-    @sprites["sep"]=EAMSprite.new(v)
-    @sprites["sep"].bitmap=pbBitmap("Graphics/Pictures/STour/Sep")
-    @sprites["sep"].ox = @sprites["sep"].bitmap.width/2
-    @sprites["sep"].oy = @sprites["sep"].bitmap.height/2
-    @sprites["sep"].x = 512/2
-    @sprites["sep"].y = 384/2
-    @sprites["sep"].zoom_x = 2
-    @sprites["sep"].zoom_y = 2
-    @sprites["sep"].opacity = 0
+    @transition["sep"]=EAMSprite.new(v)
+    @transition["sep"].bitmap=pbBitmap("Graphics/Pictures/STour/Sep")
+    @transition["sep"].ox = @transition["sep"].bitmap.width/2
+    @transition["sep"].oy = @transition["sep"].bitmap.height/2
+    @transition["sep"].x = 512/2
+    @transition["sep"].y = 384/2
+    @transition["sep"].zoom_x = 2
+    @transition["sep"].zoom_y = 2
+    @transition["sep"].opacity = 0
   
-    @sprites["vs"]=EAMSprite.new(v)
-    @sprites["vs"].bitmap=pbBitmap("Graphics/VS/vs")
-    @sprites["vs"].ox = @sprites["vs"].bitmap.width/2
-    @sprites["vs"].oy = @sprites["vs"].bitmap.height/2
-    @sprites["vs"].x = 512/2
-    @sprites["vs"].y = 384/2
-    @sprites["vs"].zoom_x = 2
-    @sprites["vs"].zoom_y = 2
-    @sprites["vs"].opacity = 0
+    @transition["versus"]=EAMSprite.new(v)
+    @transition["versus"].bitmap=pbBitmap("Graphics/VS/vs_gym")
+    @transition["versus"].ox = @transition["versus"].bitmap.width/2
+    @transition["versus"].oy = @transition["versus"].bitmap.height/2
+    @transition["versus"].x = 512/2
+    @transition["versus"].y = 384/2
+    @transition["versus"].zoom_x = 2
+    @transition["versus"].zoom_y = 2
+    @transition["versus"].opacity = 0
   
     for i in 0...2
-      @sprites["bar#{i}"] = EAMSprite.new(v)
-      @sprites["bar#{i}"].bitmap=pbBitmap("Graphics/Pictures/STour/blackBar")
-      @sprites["bar#{i}"].oy = i % 2 == 0 ? 0 : @sprites["bar#{i}"].bitmap.height
-      @sprites["bar#{i}"].y = i % 2 == 0 ? -@sprites["bar#{i}"].bitmap.height : 384 + @sprites["bar#{i}"].bitmap.height
+      @transition["bar#{i}"] = EAMSprite.new(v)
+      @transition["bar#{i}"].bitmap=pbBitmap("Graphics/Pictures/STour/blackBar")
+      @transition["bar#{i}"].oy = i % 2 == 0 ? 0 : @transition["bar#{i}"].bitmap.height
+      @transition["bar#{i}"].y = i % 2 == 0 ? -@transition["bar#{i}"].bitmap.height : 384 + @transition["bar#{i}"].bitmap.height
     end
   
     val=1
 
     #HERE STARTS THE ANIMATION
   
-    @sprites["darken"].fade(150,30,:ease_in_cubic)
+    @transition["darken"].fade(150,30,:ease_in_cubic)
     20.times do 
       Graphics.update
       Input.update
-      @sprites["darken"].update
+      @transition["darken"].update
       
     end
   
-    @sprites["bar0"].move(0,0,20,:ease_in_cubic)
-    @sprites["bar1"].move(0,384,20,:ease_in_cubic)
+    @transition["bar0"].move(0,0,20,:ease_in_cubic)
+    @transition["bar1"].move(0,384,20,:ease_in_cubic)
     20.times do
       Graphics.update
       Input.update
-      @sprites["darken"].update
-      @sprites["bar0"].update
-      @sprites["bar1"].update
+      @transition["darken"].update
+      @transition["bar0"].update
+      @transition["bar1"].update
   
     end
   
-    @sprites["sep"].fade(255,30,:ease_in_cubic)
-    @sprites["sep"].zoom(1,1,30,:ease_in_cubic)
+    @transition["sep"].fade(255,30,:ease_in_cubic)
+    @transition["sep"].zoom(1,1,30,:ease_in_cubic)
   
     Kernel.pbMessage("Let's take a look at our contestants!")
     
-    @sprites["sep"].fade(255,30,:ease_in_cubic)
-    @sprites["sep"].zoom(1,1,30,:ease_in_cubic)
+    @transition["sep"].fade(255,30,:ease_in_cubic)
+    @transition["sep"].zoom(1,1,30,:ease_in_cubic)
   
-    @sprites["right"].move(512,0,20,:ease_in_cubic)
-    @sprites["rightbg"].move(512,0,20,:ease_in_cubic)
+    @transition["right"].move(512,0,20,:ease_in_cubic)
+    @transition["rightbg"].move(512,0,20,:ease_in_cubic)
     30.times do
       Graphics.update
       Input.update
-      @sprites["right"].update
-      @sprites["rightbg"].update
+      @transition["right"].update
+      @transition["rightbg"].update
   
-      @sprites["sep"].update
+      @transition["sep"].update
     end
   
-    @sprites["right"].move(512+10,0,2)
-    @sprites["rightbg"].move(512+10,0,2)
+    @transition["right"].move(512+10,0,2)
+    @transition["rightbg"].move(512+10,0,2)
     2.times do
       Graphics.update
       Input.update
-      @sprites["right"].update
-      @sprites["rightbg"].update
+      @transition["right"].update
+      @transition["rightbg"].update
     end
     
-    @sprites["right"].move(512,0,2)
-    @sprites["rightbg"].move(512,0,2)
+    @transition["right"].move(512,0,2)
+    @transition["rightbg"].move(512,0,2)
     2.times do
       Graphics.update
       Input.update
-      @sprites["right"].update
-      @sprites["rightbg"].update
+      @transition["right"].update
+      @transition["rightbg"].update
     end      
   
     Kernel.pbMessage(_INTL("On the right! {1}, {2}!", trainerTypeName(opponent[1]), opponent[2]))
   
-    @sprites["left"].move(0,0,20,:ease_in_cubic)
-    @sprites["leftbg"].move(0,0,20,:ease_in_cubic)
+    @transition["left"].move(0,0,20,:ease_in_cubic)
+    @transition["leftbg"].move(0,0,20,:ease_in_cubic)
     20.times do
       Graphics.update
       Input.update
-      @sprites["left"].update
-      @sprites["leftbg"].update
+      @transition["left"].update
+      @transition["leftbg"].update
     end
   
-    @sprites["left"].move(0-10,0,2)
-    @sprites["leftbg"].move(0-10,0,2)
+    @transition["left"].move(0-10,0,2)
+    @transition["leftbg"].move(0-10,0,2)
     2.times do
       Graphics.update
       Input.update
-      @sprites["left"].update
-      @sprites["leftbg"].update
+      @transition["left"].update
+      @transition["leftbg"].update
     end
     
-    @sprites["left"].move(0,0,2)
-    @sprites["leftbg"].move(0,0,2)
+    @transition["left"].move(0,0,2)
+    @transition["leftbg"].move(0,0,2)
     2.times do
       Graphics.update
       Input.update
-      @sprites["left"].update
-      @sprites["leftbg"].update
+      @transition["left"].update
+      @transition["leftbg"].update
     end
     
   
@@ -1523,21 +1560,21 @@ class PWT
   
     Kernel.pbMessage("Well, who cares! Now, duke it out!")
   
-    @sprites["vs"].fade(255,20,:ease_in_cubic)
-    @sprites["vs"].zoom(1,1,20,:ease_in_cubic)
+    @transition["versus"].fade(255,20,:ease_in_cubic)
+    @transition["versus"].zoom(1,1,20,:ease_in_cubic)
     20.times do
       Graphics.update
       Input.update
-      @sprites["vs"].update
-      @sprites["leftStar"].sprite.opacity+=120/20
-      @sprites["rightStar"].sprite.opacity+=120/20
-      moveStars(@sprites["leftStar"],@sprites["rightStar"])
+      @transition["versus"].update
+      @transition["leftStar"].sprite.opacity+=120/20
+      @transition["rightStar"].sprite.opacity+=120/20
+      moveStars(@transition["leftStar"],@transition["rightStar"])
     end
     
     60.times do 
       Graphics.update
       Input.update
-      moveStars(@sprites["leftStar"],@sprites["rightStar"])
+      moveStars(@transition["leftStar"],@transition["rightStar"])
     end
   end
   
@@ -1931,28 +1968,50 @@ class PWT
     return i%2 == 0
   end
 
-  def final? 
+  def final?
+    @opponent = LANCEPOOL[0]
+    return true
     return false if !@pool
     return @pool.length<=2
   end
 
   def startRound
-    if goLeft?() #player goes left, enemy is right
-    
-      $game_switches[1201]=true
-      $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].moveto(39,43)
-      $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].character_name = @opponent[0]
-      $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].turn_left
-      $game_map.events[TOURNAMENT_EVENT_ID].start
+    if $pwt.final?
+      if goLeft?() #player goes left, enemy is right
+      
+        $game_switches[1201]=true
+        $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].moveto(62,22)
+        $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].character_name = @opponent[0]
+        $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].turn_left
+        $game_map.events[TOURNAMENT_EVENT_ID].start
 
-    else #player goes right, enemy is left
+      else #player goes right, enemy is left
 
-      $game_switches[1201]=true
-      $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].moveto(33,43)
-      $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].character_name = @opponent[0]
-      $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].turn_right
-      $game_map.events[TOURNAMENT_EVENT_ID].start
+        $game_switches[1201]=true
+        $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].moveto(10,22)
+        $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].character_name = @opponent[0]
+        $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].turn_right
+        $game_map.events[TOURNAMENT_EVENT_ID].start
 
+      end
+    else
+      if goLeft?() #player goes left, enemy is right
+      
+        $game_switches[1201]=true
+        $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].moveto(39,43)
+        $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].character_name = @opponent[0]
+        $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].turn_left
+        $game_map.events[TOURNAMENT_EVENT_ID].start
+
+      else #player goes right, enemy is left
+
+        $game_switches[1201]=true
+        $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].moveto(33,43)
+        $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].character_name = @opponent[0]
+        $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].turn_right
+        $game_map.events[TOURNAMENT_EVENT_ID].start
+
+      end
     end
 
   end

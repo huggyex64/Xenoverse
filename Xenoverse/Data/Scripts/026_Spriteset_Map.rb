@@ -220,13 +220,13 @@ class Spriteset_Map
 	def in_range?(object)
 		return true if $PokemonSystem.tilemap==2
 		screne_x = @map.display_x
-		screne_x -= 128*4 # 128 pixels = 4 tile border
+		screne_x -= 128*6 # 128 pixels = 4 tile border
 		screne_y = @map.display_y
-		screne_y -= 128*4
+		screne_y -= 128*6
 		screne_width = @map.display_x
-		screne_width += Graphics.width*4+128*4
+		screne_width += Graphics.width*4+128*6
 		screne_height = @map.display_y
-		screne_height += Graphics.height*4+128*4
+		screne_height += Graphics.height*4+128*6
 		return false if object.real_x <= screne_x
 		return false if object.real_x >= screne_width
 		return false if object.real_y <= screne_y
