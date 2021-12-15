@@ -3720,6 +3720,15 @@ ShowArea=false
 # Paradiso Sakura
 Outdoor=true
 ShowArea=false
+[616]
+# Paradiso Sakura
+Bicycle=true
+Outdoor=true
+[617]
+# Paradiso Sakura
+Bicycle=false
+Outdoor=false
+ShowArea=true
 [619]
 # Mostra Maratona
 Bicycle=false
@@ -3752,6 +3761,11 @@ Outdoor=false
 ShowArea=false
 [624]
 # Torneo Apollo
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[625]
+# Paradiso Sakura
 Bicycle=false
 Outdoor=false
 ShowArea=false
