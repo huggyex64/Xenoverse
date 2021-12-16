@@ -771,7 +771,81 @@ BATTLE_POINT_PRICES = {
   PBItems::TIMIDMINT => 8,
 
   # 3 tornei 1 mega
+  PBItems::VENUSAURITE => 10,
+  PBItems::BLASTOISINITE => 10,
+  PBItems::CHARIZARDITET => 10,
+  PBItems::CHARIZARDITEX => 10,
+  PBItems::WEAVILITE => 10,
+  PBItems::SCEPTILITE => 10,
+  PBItems::AUDINITE => 10,
+  PBItems::BELLOSSOMITE => 10,
+  PBItems::SHIFTRYITE => 10,
 }
+
+def pbGetMegaShopList()
+  list = [:VENUSAURITE,:BLASTOISINITE,:CHARIZARDITET,:CHARIZARDITEX,:WEAVILITE]
+  list.push(:SCEPTILITE) if $game_switches[1176]==true
+  list.push(:BELLOSSOMITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::ERIKATOURNAMENT,"Erika"]]]==true
+  list.push(:AUDINITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::LEOTOURNAMENT,"Leo"]]]==true
+  list.push(:SHIFTRYITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::DANTETOURNAMENT,"Dante"]]]==true
+  return list
+end
+
+def pbGetFightShopList()
+  return [
+    PBItems::CHOICEBAND,
+    PBItems::CHOICESPECS,
+    PBItems::CHOICESCARF,
+    PBItems::HEATROCK,
+    PBItems::DAMPROCK,
+    PBItems::SMOOTHROCK,
+    PBItems::ICYROCK,
+    PBItems::LIGHTCLAY,
+    PBItems::GRIPCLAW,
+    PBItems::WHITEHERB,
+    PBItems::POWERHERB,
+    PBItems::MENTALHERB,
+    PBItems::LEFTOVERS,
+    PBItems::SHELLBELL,
+    PBItems::BLACKSLUDGE,
+    PBItems::BIGROOT,
+    PBItems::EXPERTBELT,
+    PBItems::LIFEORB,
+    PBItems::ABSORBBULB,
+    PBItems::ASSAULTVEST,
+    PBItems::BLUNDERPOLICY,
+    PBItems::WEAKNESSPOLICY,
+    PBItems::METRONOME,
+    PBItems::MUSCLEBAND,
+    PBItems::WISEGLASSES,
+    PBItems::RAZORCLAW,
+    PBItems::SCOPELENS,
+    PBItems::WIDELENS,
+    PBItems::ZOOMLENS,
+    PBItems::RAZORFANG,
+    PBItems::LAGGINGTAIL,
+    PBItems::QUICKCLAW,
+    PBItems::FOCUSBAND,
+    PBItems::FOCUSSASH,
+    PBItems::FLAMEORB,
+    PBItems::TOXICORB,
+    PBItems::STICKYBARB,
+    PBItems::IRONBALL,
+    PBItems::RINGTARGET,
+    PBItems::CHARCOAL,
+    PBItems::MYSTICWATER,
+    PBItems::MAGNET,
+    PBItems::REDCARD,
+    PBItems::FLOATSTONE,
+    PBItems::EJECTBUTTON,
+    PBItems::SHEDSHELL,
+    PBItems::BRIGHTPOWDER,
+    PBItems::DESTINYKNOT,
+    PBItems::SNOWBALL,
+    PBItems::LUMINOUSMOSS,
+    PBItems::THROATSPRAY,
+    PBItems::ROOMSERVICE]
+end
 
 def pbBottleCapChoice()
   commands = {}
@@ -990,6 +1064,13 @@ VIPLIST =[
   [PBTrainers::DANTETOURNAMENT,"Dante"],
   [PBTrainers::LEOTOURNAMENT,"Leo"]
 ]
+
+VIPCUPSWITCH = {
+  [PBTrainers::LANCETOURNAMENT,"Lance"] => 1182,
+  [PBTrainers::ERIKATOURNAMENT,"Erika"] => 1181,
+  [PBTrainers::DANTETOURNAMENT,"Dante"] => 1183,
+  [PBTrainers::LEOTOURNAMENT,"Leo"] => 1184
+}
 
 VIPSPEECH={
   [PBTrainers::LANCETOURNAMENT,"Lance"] => {
