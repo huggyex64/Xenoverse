@@ -3715,7 +3715,7 @@ ShowArea=false
 # Paradiso Sakura
 Bicycle=true
 Outdoor=true
-ShowArea=false
+ShowArea=true
 [615]
 # Sentiero Rosa
 BattleBack=Bosco
@@ -3731,7 +3731,7 @@ Outdoor=true
 # Paradiso Sakura
 Bicycle=false
 Outdoor=false
-ShowArea=true
+ShowArea=false
 [619]
 # Mostra Maratona
 Bicycle=false
