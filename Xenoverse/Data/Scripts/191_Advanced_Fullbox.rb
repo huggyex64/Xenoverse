@@ -806,7 +806,7 @@ end
 def fbDispose
 	Log.d(FB_LOG,"fbDispose")
 	fbEnable(false) if $fullbox_enabled
-	$fullbox_window.dispose
+	$fullbox_window.dispose if !$fullbox_window.nil?
 	$fullbox_bg = nil
 	$fullbox_mugshots = {"left" => nil, "centre" => nil, "right" => nil, "out_left" => [], "out_right" => []}
 	$fullbox_enabled = false

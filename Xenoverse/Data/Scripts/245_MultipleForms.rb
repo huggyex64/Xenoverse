@@ -2640,3 +2640,29 @@ MultipleForms.register(:TOXTRICITY,{
 	#   next
 	#}
 })
+
+# MEGA SHIFTRY
+MultipleForms.register(:SHIFTRY,{
+	"getMegaForm"=>proc{|pokemon|
+		next 1 if isConst?(pokemon.item,PBItems,:SHIFTRYITE)
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 
+	},
+	"getMegaName"=>proc{|pokemon|
+		next _INTL("Mega Shiftry") if pokemon.form==1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [120,100,80,40,160,80] if pokemon.form==1
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities,:GALEWINGS) if pokemon.form==1
+		next
+	},
+	"onSetForm"=>proc{|pokemon,form|
+		pbSeenForm(pokemon)
+	}
+})

@@ -860,22 +860,37 @@ end
 #===============================================================================
 $rivalBattleID=0
 TRAINERPOOL_basic=[  #ALMENO 8 ALLENATORI
-  ["trey",PBTrainers::ALTERTREY,"Trey",_INTL("Come ho potuto perdere così?"),2],
-  ["Alice (with Pikachu XF)",PBTrainers::ALICEFINAL,"Alice",_INTL("Ho fatto la scelta sbagliata?"),1],
-  ["Aster",PBTrainers::ASTER,"Aster",_INTL("Cavoli, sono veramente esauto!"),2],
-  ["motociclista",PBTrainers::BIKER,"Gale",_INTL("Che errore!"),0],
-  ["breaker",PBTrainers::BREAKER,"Seiya",_INTL("Che errore!"),0],
-  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Fausto",_INTL("Che errore!"),0],
-  ["allenatore-campeggiatrice",PBTrainers::CAMPEGGIATRICE,"Tata",_INTL("Che errore!"),0],
-  ["allenatore-campeggiatrice",PBTrainers::CAMPEGGIATRICE,"Ginevra",_INTL("Che errore!"),0],
-  ["allenatore-campeggiatrice",PBTrainers::CAMPEGGIATRICE,"Ermia",_INTL("Che errore!"),6],
-  ["Karateka",PBTrainers::CINTURANERA,"Ryu",_INTL("Che errore!"),0],
-  ["CowGirl-default",PBTrainers::COWGIRL,"Sandy",_INTL("Che errore!"),0],
-  ["Mamma",PBTrainers::FINALMAMMA,"Edera",_INTL("Che errore!"),1],
-  ["goldtrainer",PBTrainers::GOLD,"Gold",_INTL("Che errore!"),2],
-  ["IndianoKid",PBTrainers::INDIANOKID,"Raico",_INTL("Che errore!"),0]
+  #SPECIALI
+  ["will",PBTrainers::WILLTOURNAMENT,"Will",_INTL("Devo allenarmi di più!"),3],
+  ["alexandra",PBTrainers::VERBENATOURNAMENT,"Verbena",_INTL("Pare che la corrente mi abbia trascinato via!"),4],
+  ["wallace",PBTrainers::WALLACETOURNAMENT,"Wallace Daddy",_INTL("Sono stato annientato dal tuo beat!"),4],
+  ["wallace",PBTrainers::TEAMDIMENSIONF,"T3S",_INTL("Screanzato!"),1],
+  ["minhalloween",PBTrainers::MINTOURNAMENT,"Min",_INTL("Mun, ho fallito!"),2],
+  ["Gennaro Bullo",PBTrainers::GENNARO,"Gennaro",_INTL("Non di nuovo!"),5],
+
+  #NORMALI
+  ["Ranger femmina 1",PBTrainers::RANGERF,"Solana",_INTL("Per poco!"),0],
+  ["montanaro",PBTrainers::MONTANARO,"Alfio",_INTL("Peccato! Avrei dovuto passare meno tempo a passeggiare..."),0],
+  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Girolamo",_INTL("A quanto pare non ho viaggiato abbastanza!"),0],
+  ["arturo bidello",PBTrainers::BIDELLO,"Natale",_INTL("Che hai detto? Non ci sento molto!"),0],
+  ["scagnozzo evan 1",PBTrainers::SCAGNOZZO1,"Tommaso",_INTL("Che botta..."),0],
+  ["indianokid",PBTrainers::INDIANOKID,"Hakan",_INTL("Owch... Non è sono ancora abbastanza forte..."),0],
+  ["pescatore",PBTrainers::PESCATORE,"Ernesto",_INTL("C'ero quasi!"),0],
+  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Marco",_INTL("C'ero quasi!"),0],
+  ["redneckm",PBTrainers::REDNECKM,"Fulvio",_INTL("C'ero quasi!"),0],
+  ["pescatore-rugbista",PBTrainers::RUGBY,"Otto",_INTL("C'ero quasi!"),0],
+  ["mascheragym",PBTrainers::CONSIGLIERE,"Oris",_INTL("C'ero quasi!"),0],
+  ["karateka",PBTrainers::CINTURANERA,"Kenji",_INTL("C'ero quasi!"),0],
+  ["montanaro",PBTrainers::MONTANARO,"Giuseppe",_INTL("C'ero quasi!"),0],
+  ["archeologo",PBTrainers::ARCHEOLOGO,"Gustavo",_INTL("C'ero quasi!"),0],
+  ["pokéfanatico",PBTrainers::POKEFAN,"Tullio",_INTL("C'ero quasi!"),0],
+  ["pellerossaf",PBTrainers::INDIANA,"Awentia",_INTL("C'ero quasi!"),0],
+  ["pescatore",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
+  
 ]
-TRAINERPOOL_hard=[]  #ALMENO 16 ALLENATORI
+TRAINERPOOL_hard=[
+  
+]  #ALMENO 16 ALLENATORI
 TRAINERPOOL_expert=[]  #ALMENO 32 ALLENATORI
 
 LANCEPOOL=[
@@ -883,25 +898,41 @@ LANCEPOOL=[
   ["Ranger femmina 1",PBTrainers::RANGERF,"Solana",_INTL("Per poco!"),0],
   ["montanaro",PBTrainers::MONTANARO,"Alfio",_INTL("Peccato! Avrei dovuto passare meno tempo a passeggiare..."),0],
   ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Girolamo",_INTL("A quanto pare non ho viaggiato abbastanza!"),0],
-  ["hipster",PBTrainers::HIPSTERM,"Kevin",_INTL("Che hai detto? Avevo le cuffie!"),0],
-  ["hipsterf",PBTrainers::HIPSTERF,"Lara",_INTL("Che botta..."),0],
+  ["arturo bidello",PBTrainers::BIDELLO,"Natale",_INTL("Che hai detto? Non ci sento molto!"),0],
+  ["scagnozzo evan 1",PBTrainers::SCAGNOZZO1,"Tommaso",_INTL("Che botta..."),0],
   ["indianokid",PBTrainers::INDIANOKID,"Hakan",_INTL("Owch... Non è sono ancora abbastanza forte..."),0],
   ["pescatore",PBTrainers::PESCATORE,"Ernesto",_INTL("C'ero quasi!"),0],
-=begin
-  ["Karateka",PBTrainers::CINTURANERA,"Ryu",_INTL("Che errore!"),0],
-  ["Alice (with Pikachu XF)",PBTrainers::ALICEFINAL,"Alice",_INTL("Ho fatto la scelta sbagliata?"),1],
-  ["Aster",PBTrainers::ASTER,"Aster",_INTL("Cavoli, sono veramente esauto!"),2],
-  ["motociclista",PBTrainers::BIKER,"Gale",_INTL("Che errore!"),0],
-  ["breaker",PBTrainers::BREAKER,"Seiya",_INTL("Che errore!"),0],
-  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Fausto",_INTL("Che errore!"),0],
-  ["allenatore-campeggiatrice",PBTrainers::CAMPEGGIATRICE,"Tata",_INTL("Che errore!"),0],
-  ["allenatore-campeggiatrice",PBTrainers::CAMPEGGIATRICE,"Ginevra",_INTL("Che errore!"),0],
-  ["allenatore-campeggiatrice",PBTrainers::CAMPEGGIATRICE,"Ermia",_INTL("Che errore!"),6],
-  ["Karateka",PBTrainers::CINTURANERA,"Ryu",_INTL("Che errore!"),0],
-  ["CowGirl-default",PBTrainers::COWGIRL,"Sandy",_INTL("Che errore!"),0],
-  ["Mamma",PBTrainers::FINALMAMMA,"Edera",_INTL("Che errore!"),1],
-  ["goldtrainer",PBTrainers::GOLD,"Gold",_INTL("Che errore!"),2],
-=end
+  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Marco",_INTL("C'ero quasi!"),0],
+  ["redneckm",PBTrainers::REDNECKM,"Fulvio",_INTL("C'ero quasi!"),0],
+  ["pescatore-rugbista",PBTrainers::RUGBY,"Otto",_INTL("C'ero quasi!"),0],
+  ["mascheragym",PBTrainers::CONSIGLIERE,"Oris",_INTL("C'ero quasi!"),0],
+  ["karateka",PBTrainers::CINTURANERA,"Kenji",_INTL("C'ero quasi!"),0],
+  ["montanaro",PBTrainers::MONTANARO,"Giuseppe",_INTL("C'ero quasi!"),0],
+  ["archeologo",PBTrainers::ARCHEOLOGO,"Gustavo",_INTL("C'ero quasi!"),0],
+  ["pokéfanatico",PBTrainers::POKEFAN,"Tullio",_INTL("C'ero quasi!"),0],
+  ["pellerossaf",PBTrainers::INDIANA,"Awentia",_INTL("C'ero quasi!"),0],
+  ["pescatore",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
+]
+
+DANTEPOOL=[
+  ["Dante",PBTrainers::DANTETOURNAMENT,"Dante",_INTL("La prossima volta non andrà così!"),10],
+  ["Ranger femmina 1",PBTrainers::RANGERF,"Solana",_INTL("Per poco!"),0],
+  ["montanaro",PBTrainers::MONTANARO,"Alfio",_INTL("Peccato! Avrei dovuto passare meno tempo a passeggiare..."),0],
+  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Girolamo",_INTL("A quanto pare non ho viaggiato abbastanza!"),0],
+  ["arturo bidello",PBTrainers::BIDELLO,"Natale",_INTL("Che hai detto? Non ci sento molto!"),0],
+  ["scagnozzo evan 1",PBTrainers::SCAGNOZZO1,"Tommaso",_INTL("Che botta..."),0],
+  ["indianokid",PBTrainers::INDIANOKID,"Hakan",_INTL("Owch... Non è sono ancora abbastanza forte..."),0],
+  ["pescatore",PBTrainers::PESCATORE,"Ernesto",_INTL("C'ero quasi!"),0],
+  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Marco",_INTL("C'ero quasi!"),0],
+  ["redneckm",PBTrainers::REDNECKM,"Fulvio",_INTL("C'ero quasi!"),0],
+  ["pescatore-rugbista",PBTrainers::RUGBY,"Otto",_INTL("C'ero quasi!"),0],
+  ["mascheragym",PBTrainers::CONSIGLIERE,"Oris",_INTL("C'ero quasi!"),0],
+  ["karateka",PBTrainers::CINTURANERA,"Kenji",_INTL("C'ero quasi!"),0],
+  ["montanaro",PBTrainers::MONTANARO,"Giuseppe",_INTL("C'ero quasi!"),0],
+  ["archeologo",PBTrainers::ARCHEOLOGO,"Gustavo",_INTL("C'ero quasi!"),0],
+  ["pokéfanatico",PBTrainers::POKEFAN,"Tullio",_INTL("C'ero quasi!"),0],
+  ["pellerossaf",PBTrainers::INDIANA,"Awentia",_INTL("C'ero quasi!"),0],
+  ["pescatore",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
 ]
 
 VIPLIST =[
@@ -913,15 +944,22 @@ VIPLIST =[
 
 VIPSPEECH={
   [PBTrainers::LANCETOURNAMENT,"Lance"] => {
-    :mugshot => "beatville/bassista",#"apollo/lance",
+    :mugshot => "apollo/lance",
     :name => "Lance",
     :speech => "Mi sono allenato per anni nella Tana del Drago, e ora sono finalmente pronto per rimettermi in gioco. Fammi vedere di che pasta sei fatto|a!",
+    :description => ["Dopo aver perso il titolo di Campione, ha deciso di ritirarsi per affinare ancora di più le sue abilità!","Ora è proprio qui con noi al Torneo Apollo...","L'unico e inimitabile, Lance!"]
+  },
+  [PBTrainers::DANTETOURNAMENT,"Dante"] => {
+    :mugshot => "apollo/dante",
+    :name => "Dante",
+    :speech => "Ho saputo che sei amico|a di quel sapientone che è Claudio! Se sei suo amico, vuol dire che sei un mio nemico|a, fatti sotto!",
     :description => ["Dopo aver perso il titolo di Campione, ha deciso di ritirarsi per affinare ancora di più le sue abilità!","Ora è proprio qui con noi al Torneo Apollo...","L'unico e inimitabile, Lance!"]
   },
 }
 
 MUSTINCLUDE = {
   LANCEPOOL => [PBTrainers::LANCETOURNAMENT,"Lance"],
+  DANTEPOOL => [PBTrainers::DANTETOURNAMENT,"Dante"],
 }
 
 SKILL_LEVELS={
@@ -1721,7 +1759,7 @@ class PWT
     if m > branches/2
       i = rand(branches/2+1)
     else
-      i = rand(branches/2+1) + branches/2
+      i = pool.length-rand(branches/2)
     end
     
     if miAdded != nil
@@ -1969,8 +2007,6 @@ class PWT
   end
 
   def final?
-    @opponent = LANCEPOOL[0]
-    return true
     return false if !@pool
     return @pool.length<=2
   end
@@ -2261,7 +2297,8 @@ class PWT
       end
       healParty
     else
-      Kernel.pbMessage(_INTL("Congrats to the costentants which reached the finals! {2} and {1}! Now it's time for you to show everyone you're the best!",pool[@oppIndex][1],$Trainer.name))
+      $PokemonGlobal.nextBattleBack = "ApolloFinal"
+      Kernel.pbMessage(_INTL("Congrats to the costentants which reached the finals! {2} and {1}! Now it's time for you to show everyone how you got here!",pool[@oppIndex][1],$Trainer.name))
       if pbTournamentBattle(pool[@oppIndex][1],pool[@oppIndex][2],pool[@oppIndex][3],false,0,true)
         Kernel.pbMessage(_INTL("CONGRATS TO {1} FOR SHOWING OFF THIS AMAZING PERFORMANCE!",$Trainer.name))
         Kernel.pbMessage(_INTL("Remember to go to the reception to collect your winnings!"))

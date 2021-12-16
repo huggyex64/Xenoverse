@@ -752,7 +752,7 @@
 793,BELLOSSOMITE,Bellossomite,1,0,"Un esemplare delle misteriose Megapietre. Data a Bellossom, gli permette di megaevolversi durante la lotta.",0,0,0,
 794,SHIFTRYITE,Shiftryite,1,0,"Un esemplare delle misteriose Megapietre. Data a Shiftry, gli permette di megaevolversi durante la lotta.",0,0,0,
 795,FUNEDIFUGAPLUS,Fune di Fuga +,8,0,"Una speciale opera di Maurice. Questo apparecchio ti consentirà di uscire dal Bunker Abbandonato.",2,0,6,
-796,GENEX,Gene X,8,0,"Un anello creato da Victor intriso di energia X. Permette di trasformare geneticamente alcuni Pokémon.",5,0,6,
+796,INDUCTIVERING,Anello Induttivo,8,0,"Un anello creato da Victor intriso di energia X. Permette di trasformare geneticamente alcuni Pokémon.",5,0,6,
 797,DIARIOTAMARA,Vecchio Diario,8,0,"Un diario contenente tutte le esperienze del proprietario.",2,0,6,
 798,BLUNDERPOLICY,Fiascopolizza,1,1000,"Se una mossa non va a segno a causa della scarsa precisione, la Velocità aumenta considerevolmente.",0,0,0,
 799,THROATSPRAY,Spray gola,1,1000,"Aumenta l'Attacco Speciale quando il Pokémon usa una mossa basata sul suono.",0,0,0,

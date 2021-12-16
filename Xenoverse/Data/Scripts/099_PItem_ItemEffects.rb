@@ -427,7 +427,7 @@ ItemHandlers::UseOnPokemon.add(:ULTRARARECANDY,proc{|item,pokemon,scene|
 })
 
 # X GENE AND ESCAPEROPE +
-ItemHandlers::UseOnPokemon.add(:GENEX,proc{|item,pokemon,scene|
+ItemHandlers::UseOnPokemon.add(:INDUCTIVERING,proc{|item,pokemon,scene|
   newspecies=pbCheckMakeX(pokemon)
   if newspecies<=0
     scene.pbDisplay(_INTL("It won't have any effect."))

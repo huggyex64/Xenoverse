@@ -234,19 +234,20 @@ class Sprite_Character
   attr_accessor :shadow
   
   alias ow_shadow_init initialize
-  def initialize(viewport, character = nil, is_follower = false)
+  def initialize(viewport, character = nil, is_follower = false, is_pokemon = false)
     @viewport = viewport
     @is_follower = is_follower
     ow_shadow_init(@viewport, character)
+    
     return unless pbShouldGetShadow?(character)
-    return if @is_follower && defined?(Toggle_Following_Switch) &&
+    return if is_pokemon && @is_follower && defined?(Toggle_Following_Switch) &&
               !$game_switches[Toggle_Following_Switch]
-    return if @is_follower && defined?(Following_Activated_Switch) &&
+    return if is_pokemon && @is_follower && defined?(Following_Activated_Switch) &&
               !$game_switches[Following_Activated_Switch]
     @character = character
-    if @character.is_a?(Game_Event)
+    if @character.is_a?(Game_Event) && !@is_follower
       page = pbGetActiveEventPage(@character)
-      return if !page || !page.graphic || page.graphic.character_name == ""
+      return if (!page || !page.graphic || page.graphic.character_name == "")
     end
     make_shadow
   end
@@ -329,10 +330,10 @@ class Sprite_Character
         @shadow.dispose if @shadow
         @shadow = nil
         if page && page.graphic && page.graphic.character_name != "" &&
-           pbShouldGetShadow?(@character)
+          pbShouldGetShadow?(@character)
           unless @is_follower && defined?(Toggle_Following_Switch) &&
                  !$game_switches[Toggle_Following_Switch]
-            unless @is_follower && defined?(Following_Activated_Switch) &&
+          unless @is_follower && defined?(Following_Activated_Switch) &&
                    !$game_switches[Following_Activated_Switch]
               make_shadow
             end
@@ -355,6 +356,7 @@ class Sprite_Character
   end
 end
 
+=begin
 
 class DependentEvents
   attr_accessor :realEvents
@@ -368,7 +370,26 @@ class DependentEvents
     klein_shadows_addevent(event,eventName,commonEvent)
   end
 end
+=end
 
+class DependentEventSprites
+  def refresh
+    for sprite in @sprites
+      sprite.dispose
+    end
+    @sprites.clear
+    $PokemonTemp.dependentEvents.eachEvent do |event, data|
+       if data[2] == @map.map_id # Check current map
+          echoln "CREATING FOLLOWER SPRITE"
+         spr = Sprite_Character.new(@viewport,event,true)
+         @sprites.push(spr)
+       end
+    end
+  end
+end
+
+=begin
 class DependentEventSprites
   attr_accessor :sprites
 end
+=end

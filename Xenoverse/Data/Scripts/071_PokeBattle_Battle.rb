@@ -1114,8 +1114,8 @@ class PokeBattle_Battle
 			pri=0
 			if @choices[i][0]==1 # Is a move
 				pri=@choices[i][2].priority
-				pri+=1 if @battlers[i].hasWorkingAbility(:PRANKSTER) &&
-				@choices[i][2].basedamage==0 # Is status move
+				pri+=1 if @battlers[i].hasWorkingAbility(:PRANKSTER) && @choices[i][2].basedamage==0 # Is status move
+				pri+=1 if isConst?(@battlers[i].ability,PBAbilities,:GALEWINGS) && @choices[i][2].type==2
 			end
 			priorities[i]=pri
 			if i==0

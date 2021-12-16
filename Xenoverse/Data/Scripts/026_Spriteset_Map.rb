@@ -291,6 +291,7 @@ class Spriteset_Map
 		@panorama.update
 		@fog.update
 		for sprite in @character_sprites
+=begin
 			if sprite.character.is_a?(Game_Event)
 				if sprite.character.trigger == 3 || sprite.character.trigger == 4 ||
 					in_range?(sprite.character) 
@@ -299,6 +300,8 @@ class Spriteset_Map
 			else
 				sprite.update
 			end
+=end
+			sprite.update
 		end
 		for sprite in @reflectedSprites
 			sprite.visible=true
