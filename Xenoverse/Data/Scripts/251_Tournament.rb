@@ -869,9 +869,9 @@ TRAINERPOOL_basic=[  #ALMENO 8 ALLENATORI
   ["will",PBTrainers::WILLTOURNAMENT,"Will",_INTL("Devo allenarmi di più!"),3],
   ["alexandra",PBTrainers::VERBENATOURNAMENT,"Verbena",_INTL("Pare che la corrente mi abbia trascinato via!"),4],
   ["wallace",PBTrainers::WALLACETOURNAMENT,"Wallace Daddy",_INTL("Sono stato annientato dal tuo beat!"),4],
-  ["wallace",PBTrainers::TEAMDIMENSIONF,"T3S",_INTL("Screanzato!"),1],
-  ["minhalloween",PBTrainers::MINTOURNAMENT,"Min",_INTL("Mun, ho fallito!"),2],
-  ["Gennaro Bullo",PBTrainers::GENNARO,"Gennaro",_INTL("Non di nuovo!"),5],
+  ["reclutafside",PBTrainers::TEAMDIMENSIONF,"T3S",_INTL("Screanzato!"),1],
+  ["minside",PBTrainers::MINTOURNAMENT,"Min",_INTL("Mun, ho fallito!"),2],
+  ["Gennaro Bullo",PBTrainers::GENNAROTOURNAMENT,"Gennaro",_INTL("Non di nuovo!"),5],
 
   #NORMALI
   ["Ranger femmina 1",PBTrainers::RANGERF,"Solana",_INTL("Per poco!"),0],
@@ -1745,7 +1745,7 @@ class PWT
     @sprites["light"].opacity = 0
 
     @sprites["gengar"]=EAMSprite.new(v)
-    @sprites["gengar"].bitmap = pbBitmap(pwt+"GSketch")
+    @sprites["gengar"].bitmap = pbBitmap(pwt+"GPresenter")
     @sprites["gengar"].opacity = 0
     @sprites["gengar"].y = 384
 
@@ -2408,6 +2408,11 @@ class PWT
         Kernel.pbMessage(_INTL("Congratulations to {1} for winning! Truly a stunning performance, Gengah ha ha!",$Trainer.name))
         Kernel.pbMessage(_INTL("Remember to go to the reception to collect your winnings!"))
         @playerwon=true
+        key = [pool[@oppIndex][1],pool[@oppIndex][2]]
+        if VIPLIST.include?(key)
+          $game_switches[VIPCUPSWITCH[key]]=true
+          $Trainer.vips.push(key) if !$Trainer.vips.include?(key)
+        end
         @win=true
       else
         Kernel.pbMessage(_INTL("Contestant {1} has lost! Too bad!",$Trainer.name))

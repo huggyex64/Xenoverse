@@ -93,26 +93,43 @@ def pbDayCareGetCompat
     compat20=dexdata.fgetb
     compat21=dexdata.fgetb
     dexdata.close
-    if (compat10==compat20 || compat11==compat20 ||
-       compat10==compat21 || compat11==compat21 ||
-       compat10==13 || compat11==13 || compat20==13 || compat21==13) &&
-       compat10!=15 && compat11!=15 && compat20!=15 && compat21!=15 &&
-       !(compat10>=16 || compat11>=16 || compat20>=16 || compat21>=16) #no x species allowed
-      
-       echoln "Two standard Species! Checking Gender"
-      if pbDayCareCompatibleGender(pokemon1,pokemon2)
-        if pokemon1.species==pokemon2.species
-          return (pokemon1.trainerID==pokemon2.trainerID) ? 2 : 3
-        else
-          return (pokemon1.trainerID==pokemon2.trainerID) ? 1 : 2
+    if !((compat10==27 && compat20==29) || (compat20==27 && compat10==29) ||
+         (compat11==27 && compat20==29) || (compat20==27 && compat11==29) ||
+         (compat10==27 && compat21==29) || (compat21==27 && compat10==29) ||
+         (compat11==27 && compat21==29) || (compat21==27 && compat11==29)) #any case where X + Ditto X 
+      if (compat10==compat20 || compat11==compat20 ||
+        compat10==compat21 || compat11==compat21 ||
+        compat10==13 || compat11==13 || compat20==13 || compat21==13) &&
+        compat10!=15 && compat11!=15 && compat20!=15 && compat21!=15 &&
+        !(compat10>=16 || compat11>=16 || compat20>=16 || compat21>=16) #no x species allowed
+        
+        echoln "Two standard Species! Checking Gender"
+        if pbDayCareCompatibleGender(pokemon1,pokemon2)
+          if pokemon1.species==pokemon2.species
+            return (pokemon1.trainerID==pokemon2.trainerID) ? 2 : 3
+          else
+            return (pokemon1.trainerID==pokemon2.trainerID) ? 1 : 2
+          end
         end
+=begin
+      elsif (compat10==compat20 || compat11==compat20 || #Xenomon breeding
+        compat10==compat21 || compat11==compat21 ||
+        compat10=27 || compat11==27 || compat20==27 || compat21==27) &&
+        compat10!=15 && compat11!=15 && compat20!=15 && compat21!=15 &&
+        (compat10>=16 && compat11>=16 && compat20>=16 && compat21>=16) #only x species allowed
+        echoln "Two X Species! Checking Gender"
+        if pbDayCareCompatibleGender(pokemon1,pokemon2)
+          if pokemon1.species==pokemon2.species
+            compat = (pokemon1.trainerID==pokemon2.trainerID) ? 2 : 3
+            return compat
+          else
+            compat = (pokemon1.trainerID==pokemon2.trainerID) ? 1 : 2
+            return compat
+          end
+        end
+=end
       end
-    elsif (compat10==compat20 || compat11==compat20 || #Xenomon breeding
-      compat10==compat21 || compat11==compat21 ||
-      compat10=27 || compat11==27 || compat20==27 || compat21==27) &&
-      compat10!=15 && compat11!=15 && compat20!=15 && compat21!=15 &&
-      (compat10>=16 && compat11>=16 && compat20>=16 && compat21>=16) #only x species allowed
-      echoln "Two X Species! Checking Gender"
+    else
       if pbDayCareCompatibleGender(pokemon1,pokemon2)
         if pokemon1.species==pokemon2.species
           compat = (pokemon1.trainerID==pokemon2.trainerID) ? 2 : 3
@@ -122,7 +139,6 @@ def pbDayCareGetCompat
           return compat
         end
       end
-
     end
   end
   return 0

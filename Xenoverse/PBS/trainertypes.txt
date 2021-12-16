@@ -247,3 +247,4 @@
 250,MINTOURNAMENT,(Birbante),,,,,Male,127
 251,WILLTOURNAMENT,(Birbante),,,,,Male,127
 252,WALLACETOURNAMENT,(Capopalestra),,VS. Gym Apollo,victory gym,,Male,127
+253,GENNAROTOURNAMENT,(Bullo),100,Gennaro bullo ost,Trainer Victory,,Male,
