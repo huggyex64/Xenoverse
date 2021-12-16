@@ -102,6 +102,11 @@ class BracketSlot < Sprite
     super(value)
     @trainer.y = value + @trainery
   end
+
+  def opacity=(value)
+    super(value)
+    @trainer.opacity = value
+  end
 end
 
 class Bracket < Sprite
@@ -878,19 +883,21 @@ TRAINERPOOL_basic=[  #ALMENO 8 ALLENATORI
   ["pescatore",PBTrainers::PESCATORE,"Ernesto",_INTL("C'ero quasi!"),0],
   ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Marco",_INTL("C'ero quasi!"),0],
   ["redneckm",PBTrainers::REDNECKM,"Fulvio",_INTL("C'ero quasi!"),0],
-  ["pescatore-rugbista",PBTrainers::RUGBY,"Otto",_INTL("C'ero quasi!"),0],
+  ["allenatore-rugbista",PBTrainers::RUGBY,"Otto",_INTL("C'ero quasi!"),0],
   ["mascheragym",PBTrainers::CONSIGLIERE,"Oris",_INTL("C'ero quasi!"),0],
   ["karateka",PBTrainers::CINTURANERA,"Kenji",_INTL("C'ero quasi!"),0],
   ["montanaro",PBTrainers::MONTANARO,"Giuseppe",_INTL("C'ero quasi!"),0],
   ["archeologo",PBTrainers::ARCHEOLOGO,"Gustavo",_INTL("C'ero quasi!"),0],
   ["pokéfanatico",PBTrainers::POKEFAN,"Tullio",_INTL("C'ero quasi!"),0],
   ["pellerossaf",PBTrainers::INDIANA,"Awentia",_INTL("C'ero quasi!"),0],
-  ["pescatore",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
+  ["fashionbloggerm",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
   
 ]
+
 TRAINERPOOL_hard=[
   
 ]  #ALMENO 16 ALLENATORI
+
 TRAINERPOOL_expert=[]  #ALMENO 32 ALLENATORI
 
 LANCEPOOL=[
@@ -904,14 +911,14 @@ LANCEPOOL=[
   ["pescatore",PBTrainers::PESCATORE,"Ernesto",_INTL("C'ero quasi!"),0],
   ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Marco",_INTL("C'ero quasi!"),0],
   ["redneckm",PBTrainers::REDNECKM,"Fulvio",_INTL("C'ero quasi!"),0],
-  ["pescatore-rugbista",PBTrainers::RUGBY,"Otto",_INTL("C'ero quasi!"),0],
+  ["allenatore-rugbista",PBTrainers::RUGBY,"Otto",_INTL("C'ero quasi!"),0],
   ["mascheragym",PBTrainers::CONSIGLIERE,"Oris",_INTL("C'ero quasi!"),0],
   ["karateka",PBTrainers::CINTURANERA,"Kenji",_INTL("C'ero quasi!"),0],
   ["montanaro",PBTrainers::MONTANARO,"Giuseppe",_INTL("C'ero quasi!"),0],
   ["archeologo",PBTrainers::ARCHEOLOGO,"Gustavo",_INTL("C'ero quasi!"),0],
   ["pokéfanatico",PBTrainers::POKEFAN,"Tullio",_INTL("C'ero quasi!"),0],
   ["pellerossaf",PBTrainers::INDIANA,"Awentia",_INTL("C'ero quasi!"),0],
-  ["pescatore",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
+  ["fashionbloggerm",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
 ]
 
 DANTEPOOL=[
@@ -925,14 +932,56 @@ DANTEPOOL=[
   ["pescatore",PBTrainers::PESCATORE,"Ernesto",_INTL("C'ero quasi!"),0],
   ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Marco",_INTL("C'ero quasi!"),0],
   ["redneckm",PBTrainers::REDNECKM,"Fulvio",_INTL("C'ero quasi!"),0],
-  ["pescatore-rugbista",PBTrainers::RUGBY,"Otto",_INTL("C'ero quasi!"),0],
+  ["allenatore-rugbista",PBTrainers::RUGBY,"Otto",_INTL("C'ero quasi!"),0],
   ["mascheragym",PBTrainers::CONSIGLIERE,"Oris",_INTL("C'ero quasi!"),0],
   ["karateka",PBTrainers::CINTURANERA,"Kenji",_INTL("C'ero quasi!"),0],
   ["montanaro",PBTrainers::MONTANARO,"Giuseppe",_INTL("C'ero quasi!"),0],
   ["archeologo",PBTrainers::ARCHEOLOGO,"Gustavo",_INTL("C'ero quasi!"),0],
   ["pokéfanatico",PBTrainers::POKEFAN,"Tullio",_INTL("C'ero quasi!"),0],
   ["pellerossaf",PBTrainers::INDIANA,"Awentia",_INTL("C'ero quasi!"),0],
-  ["pescatore",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
+  ["fashionbloggerm",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
+]
+
+LEOPOOL=[
+  ["Leo",PBTrainers::LEOTOURNAMENT,"Leo",_INTL("Cavoli!"),10],
+  ["Ranger femmina 1",PBTrainers::RANGERF,"Solana",_INTL("Per poco!"),0],
+  ["montanaro",PBTrainers::MONTANARO,"Alfio",_INTL("Peccato! Avrei dovuto passare meno tempo a passeggiare..."),0],
+  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Girolamo",_INTL("A quanto pare non ho viaggiato abbastanza!"),0],
+  ["arturo bidello",PBTrainers::BIDELLO,"Natale",_INTL("Che hai detto? Non ci sento molto!"),0],
+  ["scagnozzo evan 1",PBTrainers::SCAGNOZZO1,"Tommaso",_INTL("Che botta..."),0],
+  ["indianokid",PBTrainers::INDIANOKID,"Hakan",_INTL("Owch... Non è sono ancora abbastanza forte..."),0],
+  ["pescatore",PBTrainers::PESCATORE,"Ernesto",_INTL("C'ero quasi!"),0],
+  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Marco",_INTL("C'ero quasi!"),0],
+  ["redneckm",PBTrainers::REDNECKM,"Fulvio",_INTL("C'ero quasi!"),0],
+  ["allenatore-rugbista",PBTrainers::RUGBY,"Otto",_INTL("C'ero quasi!"),0],
+  ["mascheragym",PBTrainers::CONSIGLIERE,"Oris",_INTL("C'ero quasi!"),0],
+  ["karateka",PBTrainers::CINTURANERA,"Kenji",_INTL("C'ero quasi!"),0],
+  ["montanaro",PBTrainers::MONTANARO,"Giuseppe",_INTL("C'ero quasi!"),0],
+  ["archeologo",PBTrainers::ARCHEOLOGO,"Gustavo",_INTL("C'ero quasi!"),0],
+  ["pokéfanatico",PBTrainers::POKEFAN,"Tullio",_INTL("C'ero quasi!"),0],
+  ["pellerossaf",PBTrainers::INDIANA,"Awentia",_INTL("C'ero quasi!"),0],
+  ["fashionbloggerm",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
+]
+
+ERIKAPOOL=[
+  ["Erika",PBTrainers::ERIKATOURNAMENT,"Erika",_INTL("Perbacco, chi l'avrebbe mai detto?"),10],
+  ["Ranger femmina 1",PBTrainers::RANGERF,"Solana",_INTL("Per poco!"),0],
+  ["montanaro",PBTrainers::MONTANARO,"Alfio",_INTL("Peccato! Avrei dovuto passare meno tempo a passeggiare..."),0],
+  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Girolamo",_INTL("A quanto pare non ho viaggiato abbastanza!"),0],
+  ["arturo bidello",PBTrainers::BIDELLO,"Natale",_INTL("Che hai detto? Non ci sento molto!"),0],
+  ["scagnozzo evan 1",PBTrainers::SCAGNOZZO1,"Tommaso",_INTL("Che botta..."),0],
+  ["indianokid",PBTrainers::INDIANOKID,"Hakan",_INTL("Owch... Non è sono ancora abbastanza forte..."),0],
+  ["pescatore",PBTrainers::PESCATORE,"Ernesto",_INTL("C'ero quasi!"),0],
+  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Marco",_INTL("C'ero quasi!"),0],
+  ["redneckm",PBTrainers::REDNECKM,"Fulvio",_INTL("C'ero quasi!"),0],
+  ["allenatore-rugbista",PBTrainers::RUGBY,"Otto",_INTL("C'ero quasi!"),0],
+  ["mascheragym",PBTrainers::CONSIGLIERE,"Oris",_INTL("C'ero quasi!"),0],
+  ["karateka",PBTrainers::CINTURANERA,"Kenji",_INTL("C'ero quasi!"),0],
+  ["montanaro",PBTrainers::MONTANARO,"Giuseppe",_INTL("C'ero quasi!"),0],
+  ["archeologo",PBTrainers::ARCHEOLOGO,"Gustavo",_INTL("C'ero quasi!"),0],
+  ["pokéfanatico",PBTrainers::POKEFAN,"Tullio",_INTL("C'ero quasi!"),0],
+  ["pellerossaf",PBTrainers::INDIANA,"Awentia",_INTL("C'ero quasi!"),0],
+  ["fashionbloggerm",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
 ]
 
 VIPLIST =[
@@ -952,24 +1001,69 @@ VIPSPEECH={
   [PBTrainers::DANTETOURNAMENT,"Dante"] => {
     :mugshot => "apollo/dante",
     :name => "Dante",
-    :speech => "Ho saputo che sei amico|a di quel sapientone che è Claudio! Se sei suo amico, vuol dire che sei un mio nemico|a, fatti sotto!",
-    :description => ["Dopo aver perso il titolo di Campione, ha deciso di ritirarsi per affinare ancora di più le sue abilità!","Ora è proprio qui con noi al Torneo Apollo...","L'unico e inimitabile, Lance!"]
+    :speech => "Ho saputo che sei amico|a di quel sapientone di Claudio! Se sei suo amico, vuol dire che sei un mio nemico|a, fatti sotto!",
+    :description => ["È stato espulso dal Campus Ariepoli per la sua indole scontrosa!","Da quel giorno ha formato la sua gang, e ha dominato sui bassifondi di Eldiw!","Il fortissimo e inarrestabile, Dante!"]
+  },
+  [PBTrainers::ERIKATOURNAMENT,"Erika"] => {
+    :mugshot => "apollo/erika",
+    :name => "Erika",
+    :speech => "Che tempo splendido! È il clima perfetto per una battaglia, preparati!",
+    :description => ["La sua leggendaria sbadataggine va oltre i confini di Kanto!","È la maestra del tipo Erba, ma sa come gestire il fuoco!","La calma prima della tempesta, Erika!"]
+  },
+  [PBTrainers::LEOTOURNAMENT,"Leo"] => {
+    :mugshot => "apollo/leo",
+    :name => "Leo",
+    :speech => "Voglio mettermi alla prova! Sembri anche tu un |'ottimo|a concorrente, quindi facciamoci valere! Che vinca il migliore!",
+    :description => ["Porta sulle spalle l'eredità di un nome importante, ma il suo sogno è far capire quanto vale!","Proprio come la madre Chiara, è anche lui un maestro del tipo Normale!","Il fiero e valoroso, Leo!"]
   },
 }
 
 MUSTINCLUDE = {
   LANCEPOOL => [PBTrainers::LANCETOURNAMENT,"Lance"],
   DANTEPOOL => [PBTrainers::DANTETOURNAMENT,"Dante"],
+  ERIKAPOOL => [PBTrainers::ERIKATOURNAMENT,"Erika"],
+  LEOPOOL =>   [PBTrainers::LEOTOURNAMENT,"Leo"]
 }
 
 SKILL_LEVELS={
-  PBTrainers::ALTERTREY=>100,
+  #VIP
+  PBTrainers::LANCETOURNAMENT=>127,
+  PBTrainers::DANTETOURNAMENT=>127,
+  PBTrainers::ERIKATOURNAMENT=>127,
+  PBTrainers::LEOTOURNAMENT=>127,
+
+  #SPECIAL
+  PBTrainers::WILLTOURNAMENT=>127,
+  PBTrainers::VERBENATOURNAMENT=>127,
+  PBTrainers::WALLACETOURNAMENT=>127,
+  PBTrainers::TEAMDIMENSIONF=>127,
+  PBTrainers::MINTOURNAMENT=>127,
+  PBTrainers::GENNARO=>127,
+
+
+  #NORMAL
+
+  PBTrainers::RANGERF=>100,
+  PBTrainers::MONTANARO=>100,
+  PBTrainers::CAMPEGGIATORE=>100,
+  PBTrainers::BIDELLO=>100,
+  PBTrainers::SCAGNOZZO1=>100,
+  PBTrainers::INDIANOKID=>100,
+  PBTrainers::PESCATORE=>100,
+  PBTrainers::REDNECKM=>100,
+  PBTrainers::RUGBY=>100,
+  PBTrainers::CONSIGLIERE=>100,
+  PBTrainers::CINTURANERA=>100,
+  PBTrainers::ARCHEOLOGO=>100,
+  PBTrainers::POKEFAN=>100,
+  PBTrainers::INDIANA=>100,
+  PBTrainers::MANAGER=>100,
 }
 
-BAN_LIST=[:LUXFLON]
+BAN_LIST=[:LUXFLON,:GENESECT,:MEW,:MEWTWOX,:LUGIA,:HOOH,:DEOXYS]
 
-REWARDPOOL=[:POTION,:GREATBALL,:POKEBALL,:ESCAPEROPE]
-REWARDLOSINGPOOL=[:POTION,:ANTIDOTE]
+REWARDPOOL=[:BOTTLECAP,:RARECANDY,]
+REWARDLOSINGPOOL=[:FULLHEAL,:FULLRESTORE]
 
 TOURNAMENT_OPPONENT_EVENT_ID = 54
 TOURNAMENT_EVENT_ID = 56
@@ -1263,7 +1357,7 @@ class PWT
       end
       return
     end
-
+    @ended = false
     @levels = []
     @party_bak = []
     @battle_type = 0
@@ -1288,10 +1382,17 @@ class PWT
         @v.z=99990
       else
         Kernel.pbMessage(_INTL("I'm sorry, will be for next time!"))
+        @ended = true
       end
     else
       Kernel.pbMessage(_INTL("I'm sorry, will be for next time!"))
+      @ended = true
     end
+  end
+
+  def ended?
+    echoln "ended? #{@ended}"
+    return @ended
   end
 
   def start
@@ -1530,7 +1631,11 @@ class PWT
     @transition["sep"].fade(255,30,:ease_in_cubic)
     @transition["sep"].zoom(1,1,30,:ease_in_cubic)
   
-    Kernel.pbMessage("Let's take a look at our contestants!")
+    if @pool.length<3
+      Kernel.pbMessage(_INTL("Congrats to the costentants which reached the finals! You did well! Genga ha ha!",opponent[1],$Trainer.name))
+    end
+
+    Kernel.pbMessage(_INTL("Diamo un'occhiata agli sfidanti!"))
     
     @transition["sep"].fade(255,30,:ease_in_cubic)
     @transition["sep"].zoom(1,1,30,:ease_in_cubic)
@@ -1594,9 +1699,9 @@ class PWT
     end
     
   
-    Kernel.pbMessage("On the left! Who the hell is he?")
+    Kernel.pbMessage(_INTL("On the left, the one and only chosen one!"))
   
-    Kernel.pbMessage("Well, who cares! Now, duke it out!")
+    Kernel.pbMessage(_INTL("Now it's time to duke it out! Gengah ha ha!"))
   
     @transition["versus"].fade(255,20,:ease_in_cubic)
     @transition["versus"].zoom(1,1,20,:ease_in_cubic)
@@ -1692,7 +1797,6 @@ class PWT
   #Logical Methods start from here
   def defineChart(player,difficulty,trainerpool=nil) #Calculate the chart inside a pool of trainers
     
-
     if trainerpool==nil
        case difficulty
        when 0
@@ -2019,7 +2123,6 @@ class PWT
         $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].moveto(62,22)
         $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].character_name = @opponent[0]
         $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].turn_left
-        $game_map.events[TOURNAMENT_EVENT_ID].start
 
       else #player goes right, enemy is left
 
@@ -2027,7 +2130,6 @@ class PWT
         $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].moveto(10,22)
         $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].character_name = @opponent[0]
         $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].turn_right
-        $game_map.events[TOURNAMENT_EVENT_ID].start
 
       end
     else
@@ -2037,7 +2139,6 @@ class PWT
         $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].moveto(39,43)
         $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].character_name = @opponent[0]
         $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].turn_left
-        $game_map.events[TOURNAMENT_EVENT_ID].start
 
       else #player goes right, enemy is left
 
@@ -2045,11 +2146,11 @@ class PWT
         $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].moveto(33,43)
         $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].character_name = @opponent[0]
         $game_map.events[TOURNAMENT_OPPONENT_EVENT_ID].turn_right
-        $game_map.events[TOURNAMENT_EVENT_ID].start
 
       end
     end
 
+    $game_map.events[TOURNAMENT_EVENT_ID].start
   end
 
   
@@ -2290,6 +2391,11 @@ class PWT
       $PokemonGlobal.nextBattleBack = "Apollo"
       #Kernel.pbMessage(_INTL("You were matched against trainer n°{1}",@oppIndex))
       if pbTournamentBattle(pool[@oppIndex][1],pool[@oppIndex][2],pool[@oppIndex][3],false,0,true)
+        key = [pool[@oppIndex][1],pool[@oppIndex][2]]
+        if VIPLIST.include?(key)
+          $game_switches[VIPCUPSWITCH[key]]=true
+          $Trainer.vips.push(key) if !$Trainer.vips.include?(key)
+        end
         @win=true
       else
         @win=false
@@ -2298,9 +2404,8 @@ class PWT
       healParty
     else
       $PokemonGlobal.nextBattleBack = "ApolloFinal"
-      Kernel.pbMessage(_INTL("Congrats to the costentants which reached the finals! {2} and {1}! Now it's time for you to show everyone how you got here!",pool[@oppIndex][1],$Trainer.name))
       if pbTournamentBattle(pool[@oppIndex][1],pool[@oppIndex][2],pool[@oppIndex][3],false,0,true)
-        Kernel.pbMessage(_INTL("CONGRATS TO {1} FOR SHOWING OFF THIS AMAZING PERFORMANCE!",$Trainer.name))
+        Kernel.pbMessage(_INTL("Congratulations to {1} for winning! Truly a stunning performance, Gengah ha ha!",$Trainer.name))
         Kernel.pbMessage(_INTL("Remember to go to the reception to collect your winnings!"))
         @playerwon=true
         @win=true
@@ -2319,6 +2424,10 @@ class PWT
     restoreParty
     $game_system.message_position = 2
     $ISINTOURNAMENT=false
+    pbTransferWithTransition(621,17,22,:DIRECTED,8) {
+      pbFadeOutAndHide(@transition)
+      pbDisposeSpriteHash(@transition)
+    }
     if win==true
       @player.tournament_wins+=1
       #pbTransferWithTransition(4,6,15,:DIRECTED,8)
@@ -2640,4 +2749,15 @@ end
 
 def pbTrans(method)
   pbTransferWithTransition(10,10,10,method)
+end
+
+def pbLeo
+  @opponent = LEOPOOL[0]
+  key = [@opponent[1],@opponent[2]]
+  fbNewMugshot(VIPSPEECH[key][:name],VIPSPEECH[key][:mugshot],"default",:left)
+  fbEnable(true)
+  fbText(VIPSPEECH[key][:speech])
+  fbEnable(false)
+  fbDispose()
+  pbTournamentBattle(LEOPOOL[0][1],LEOPOOL[0][2],LEOPOOL[0][3])
 end

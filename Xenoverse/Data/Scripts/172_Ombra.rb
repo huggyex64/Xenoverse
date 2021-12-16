@@ -165,7 +165,7 @@ No_Shadow_If_Event_Name_Has = [
 # Events that have this in their event name will always receive a shadow.
 # Does take "Case_Sensitive" into account.
 Always_Give_Shadow_If_Event_Name_Has = [
-    #"Trainer"
+    "EnemyRight"
 ]
 
 # Determines whether or not an event should be given a shadow.
@@ -270,22 +270,22 @@ class Sprite_Character
     x = @character.screen_x
     y = @character.screen_y
 
-    if @character.jumping?
+    if @character.jumping? 
       @totaljump = @character.jump_count if !@totaljump
 
       case @character.jump_count
       when 1..(@totaljump / 3)
-        @shadow.zoom_x += 0.1
-        @shadow.zoom_y += 0.1
+        @shadow.zoom_x += 0.1 if @shadow.zoom_x < 1
+        @shadow.zoom_y += 0.1 if @shadow.zoom_y < 1
       when (@totaljump / 3 + 1)..(@totaljump / 3 + 2)
-        @shadow.zoom_x += 0.05
-        @shadow.zoom_y += 0.05
+        @shadow.zoom_x += 0.05 if @shadow.zoom_x < 1
+        @shadow.zoom_y += 0.05 if @shadow.zoom_y < 1
       when (@totaljump / 3 * 2 - 1)..(@totaljump / 3 * 2)
-        @shadow.zoom_x -= 0.05
-        @shadow.zoom_y -= 0.05
+        @shadow.zoom_x -= 0.05 if @shadow.zoom_x > 0
+        @shadow.zoom_y -= 0.05 if @shadow.zoom_y > 0
       when (@totaljump / 3 * 2 + 1)..(@totaljump)
-        @shadow.zoom_x -= 0.1
-        @shadow.zoom_y -= 0.1
+        @shadow.zoom_x -= 0.1 if @shadow.zoom_x > 0
+        @shadow.zoom_y -= 0.1 if @shadow.zoom_y > 0
       end
 
       if @character.jump_count == 1
