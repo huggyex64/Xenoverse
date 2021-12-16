@@ -152,6 +152,10 @@ RETROMONSWITCH = 950
 
 def pbEncounter(enctype)
 	echoln "triggered encounter"
+
+	#IF map is paradiso sakura
+	#then ottieni incontro dal server
+
   if $PokemonGlobal.partner
     encounter1=$PokemonEncounters.pbEncounteredPokemon(enctype)
     return false if !encounter1

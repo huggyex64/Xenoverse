@@ -208,7 +208,7 @@ class PokeBattle_Move
 	end
 	
 	def isSoundBased?
-		return (@flags&0x400)!=0 # flag k: Is sound-based move
+		return (@flags&0x400)!=0 || @type == 9 # flag k: Is sound-based move or sound-type move
 	end
 	
 	def unusableInGravity?

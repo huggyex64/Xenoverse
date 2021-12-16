@@ -273,7 +273,7 @@ CUSTOMIV = {
     :iv=>{
       :DRAGONITE =>{
         :hp => 31,
-        :attack => 31,
+        :attack => 0,
         :defense => 31,
         :spatk => 31,
         :spdef => 31,
@@ -281,7 +281,7 @@ CUSTOMIV = {
       },
       :EGORGEON =>{
         :hp => 31,
-        :attack => 31,
+        :attack => 0,
         :defense => 31,
         :spatk => 31,
         :spdef => 31,
@@ -289,7 +289,7 @@ CUSTOMIV = {
       },
       :CHARIZARD =>{
         :hp => 31,
-        :attack => 31,
+        :attack => 0,
         :defense => 31,
         :spatk => 31,
         :spdef => 31,
@@ -320,6 +320,168 @@ CUSTOMIV = {
         :spatk => 252,
         :spdef => 0,
         :speed => 252
+      }
+    }
+  },
+  [PBTrainers::ERIKATOURNAMENT,"Erika"]=>{
+    :iv=>{
+      :TANGROWTH =>{
+        :hp => 31,
+        :attack => 31,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      },
+      :ERBA3 =>{
+        :hp => 31,
+        :attack => 0,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      },
+      :BELLOSSOM =>{
+        :hp => 31,
+        :attack => 0,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      }
+    },
+    :ev=>{
+      :TANGROWTH =>{
+        :hp => 252,
+        :attack => 252,
+        :defense => 0,
+        :spatk => 0,
+        :spdef => 4,
+        :speed => 0
+      },
+      :ERBA3 =>{
+        :hp => 4,
+        :attack => 0,
+        :defense => 0,
+        :spatk => 252,
+        :spdef => 0,
+        :speed => 252
+      },
+      :BELLOSSOM =>{
+        :hp => 128,
+        :attack => 0,
+        :defense => 124,
+        :spatk => 252,
+        :spdef => 4,
+        :speed => 0
+      }
+    }
+  },
+  [PBTrainers::DANTETOURNAMENT,"Dante"]=>{
+    :iv=>{
+      :SKRAVROOM =>{
+        :hp => 31,
+        :attack => 31,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      },
+      :HYDREIGON =>{
+        :hp => 31,
+        :attack => 0,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      },
+      :SHIFTRY =>{
+        :hp => 31,
+        :attack => 0,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      }
+    },
+    :ev=>{
+      :SKRAVROOM =>{
+        :hp => 4,
+        :attack => 252,
+        :defense => 0,
+        :spatk => 0,
+        :spdef => 0,
+        :speed => 252
+      },
+      :HYDREIGON =>{
+        :hp => 4,
+        :attack => 0,
+        :defense => 0,
+        :spatk => 252,
+        :spdef => 0,
+        :speed => 252
+      },
+      :SHIFTRY =>{
+        :hp => 164,
+        :attack => 0,
+        :defense => 44,
+        :spatk => 252,
+        :spdef => 48,
+        :speed => 0
+      }
+    }
+  },
+  [PBTrainers::LEOTOURNAMENT,"Leo"]=>{
+    :iv=>{
+      :AUDINO =>{
+        :hp => 31,
+        :attack => 31,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 0
+      },
+      :URSARING =>{
+        :hp => 31,
+        :attack => 31,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 0
+      },
+      :TROGLOLITH =>{
+        :hp => 31,
+        :attack => 31,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 0
+      }
+    },
+    :ev=>{
+      :AUDINO =>{
+        :hp => 252,
+        :attack => 0,
+        :defense => 148,
+        :spatk => 0,
+        :spdef => 108,
+        :speed => 0
+      },
+      :URSARING =>{
+        :hp => 228,
+        :attack => 252,
+        :defense => 16,
+        :spatk => 0,
+        :spdef => 12,
+        :speed => 0
+      },
+      :TROGLOLITH =>{
+        :hp => 220,
+        :attack => 252,
+        :defense => 0,
+        :spatk => 0,
+        :spdef => 36,
+        :speed => 0
       }
     }
   }
@@ -2845,5 +3007,9 @@ def pbLeo
   fbText(VIPSPEECH[key][:speech])
   fbEnable(false)
   fbDispose()
+  for i in $Trainer.party
+    i.level = 50
+    i.calcStats
+  end
   pbTournamentBattle(LEOPOOL[0][1],LEOPOOL[0][2],LEOPOOL[0][3])
 end

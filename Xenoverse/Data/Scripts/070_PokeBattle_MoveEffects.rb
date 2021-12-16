@@ -7262,7 +7262,7 @@ end
 # For 5 rounds, for each priority bracket, slow Pokémon move before fast ones. 
 # (Trick Room)
 ################################################################################
-class PokeBattle_Move_11F < PokeBattle_UnimplementedMove
+class PokeBattle_Move_11F < PokeBattle_Move
 	# Not implemented yet.
 	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
 		if @battle.field.effects[PBEffects::TrickRoom]>0

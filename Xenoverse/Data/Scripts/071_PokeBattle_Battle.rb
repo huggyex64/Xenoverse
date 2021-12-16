@@ -1069,7 +1069,7 @@ class PokeBattle_Battle
 
 		# Calculate each Pokémon's speed
 		for i in 0...4
-			speeds[i]=@battlers[i].pbSpeed
+			speeds[i]=@battlers[i].pbSpeed * (@priorityTrickRoom ? -1 : 1)
 =begin
 			quickclaw[i]=@battlers[i].hasWorkingItem(:QUICKCLAW)
 			quickclaw[i]=false if @choices[i][0]!=1
@@ -1184,11 +1184,11 @@ class PokeBattle_Battle
     print("#{speeds.inspect} #{prioind.inspect}")
 =end
 		#Quick rearranging for Trick room
-		if @priorityTrickRoom
-			@priority.sort!{ |a,b|
-				(a.pbSpeed==b.pbSpeed) ? randomOrder[b.index]<=>randomOrder[a.index] : a.pbSpeed<=>b.pbSpeed
-			}
-		end
+		#if @priorityTrickRoom
+		#	@priority.sort!{ |a,b|
+		#		(a.pbSpeed==b.pbSpeed) ? randomOrder[b.index]<=>randomOrder[a.index] : a.pbSpeed<=>b.pbSpeed
+		#	}
+		#end
 
 		@usepriority=true
 		d="   Priority: #{@priority[0].index}"
@@ -3323,7 +3323,8 @@ class PokeBattle_Battle
 						pbCommonAnimation("Wrap",i,nil)
 					end
 					@scene.pbDamageAnimation(i,0)
-					i.pbReduceHP((i.boss ? (i.totalhp/16)/i.hpMoltiplier : i.totalhp/16).floor)
+					dmg = isConst?(@battlers[i.effects[PBEffects::MultiTurnUser]].item, PBItems, :BINDINGBAND) ? i.totalhp/8 : i.totalhp/16
+					i.pbReduceHP((i.boss ? (dmg)/i.hpMoltiplier : dmg).floor)
 					pbDisplay(_INTL("{1} is hurt by {2}!",i.pbThis,movename))
 				end
 			end  

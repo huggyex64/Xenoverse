@@ -7403,6 +7403,7 @@ Kind=Burbero
 Pokedex=Shiftry e' un misterioso Pokemon che vive sulla cima degli alberi piu' alti, di solito plurisecolari. Usa le foglie degli arti superiori come ventole per generare terribili raffiche di vento.
 BattlerPlayerY=52
 BattlerEnemyY=59
+FormNames=,Mega Shiftry
 [276]
 Name=Taillow
 InternalName=TAILLOW
@@ -23677,6 +23678,7 @@ Kind=Fiore
 Pokedex=A volte gruppi di Bellossom sembrano danzare. Si dice che sia un rito per invocare il sole.
 BattlerPlayerY=8
 BattlerEnemyY=13
+FormNames=,Mega Bellossom
 [1324]
 Name=Zubat
 InternalName=ZUBATVINTAGE

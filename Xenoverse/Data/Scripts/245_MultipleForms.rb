@@ -2649,6 +2649,10 @@ MultipleForms.register(:SHIFTRY,{
 	},
 	"getUnmegaForm"=>proc{|pokemon|
 		next 
+	},	
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:FLYING) if pokemon.form==1
+		next 
 	},
 	"getMegaName"=>proc{|pokemon|
 		next _INTL("Mega Shiftry") if pokemon.form==1
@@ -2660,6 +2664,36 @@ MultipleForms.register(:SHIFTRY,{
 	},
 	"ability"=>proc{|pokemon|
 		next getID(PBAbilities,:GALEWINGS) if pokemon.form==1
+		next
+	},
+	"onSetForm"=>proc{|pokemon,form|
+		pbSeenForm(pokemon)
+	}
+})
+
+# MEGA BELLOSSOM
+MultipleForms.register(:BELLOSSOM,{
+	"getMegaForm"=>proc{|pokemon|
+		next 1 if isConst?(pokemon.item,PBItems,:BELLOSSOMITE)
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 
+	},	
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:FIRE) if pokemon.form==1
+		next
+	},
+	"getMegaName"=>proc{|pokemon|
+		next _INTL("Mega Bellossom") if pokemon.form==1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [155,80,85,50,110,100] if pokemon.form==1
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities,:FLASHFIRE) if pokemon.form==1
 		next
 	},
 	"onSetForm"=>proc{|pokemon,form|
