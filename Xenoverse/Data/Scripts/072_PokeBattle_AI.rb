@@ -3665,7 +3665,7 @@ class PokeBattle_Battle
       maxscore=scores[i] if scores[i] && scores[i]>maxscore
     end
     # Minmax choices depending on AI
-    if !wildbattle && skill>=PBTrainerAI.mediumSkill
+    if !wildbattle && skill>=PBTrainerAI.mediumSkill && skill<PBTrainerAI.ultraSkill
       threshold=(skill>=PBTrainerAI.bestSkill) ? 1.5 : (skill>=PBTrainerAI.highSkill) ? 2 : 3
       newscore=(skill>=PBTrainerAI.bestSkill) ? 5 : (skill>=PBTrainerAI.highSkill) ? 10 : 15
       for i in 0...scores.length
@@ -3703,7 +3703,7 @@ class PokeBattle_Battle
             preferredMoves.push(i) if scores[i]==maxscore # Doubly prefer the best move
           end
         end
-        if preferredMoves.length>0 && skill < PBTrainerAI.ultraSkill
+        if preferredMoves.length>0 && (skill < PBTrainerAI.ultraSkill || maxscore >=100) #to adjust
           i=preferredMoves[pbAIRandom(preferredMoves.length)]
           PBDebug.log("[AI] Prefer "+PBMoves.getName(attacker.moves[i].id))
           pbRegisterMove(index,i,false)
@@ -3713,8 +3713,9 @@ class PokeBattle_Battle
           end
           return
         else
-          if (pbOpponent(index).speed > pbAttacker(index).speed)
+          if pbSpeedCheck(pbOpponent(index).speed, pbAttacker(index).speed) == 0 
             if pbEnemyShouldWithdrawEx?(index,true)
+              
               if $INTERNAL
                 PBDebug.log("[AI] Switching due to terrible moves")
                 PBDebug.log([index,@choices[index][0],@choices[index][1],
@@ -3902,7 +3903,7 @@ class PokeBattle_Battle
     # ultraswitch
     if skill >= PBTrainerAI.ultraSkill
       if pbCanOneshot(pbOpponent(index), pbAttacker(index), skill)
-        if pbOpponent(index).speed > pbAttacker(index).speed
+        if pbSpeedCheck(pbOpponent(index).speed, pbAttacker(index).speed) == 0
           shouldswitch = true
         else
           if pbCanOneshot(pbAttacker(index), pbOpponent(index), skill)
@@ -3912,7 +3913,6 @@ class PokeBattle_Battle
           end
         end
       end
-
       if @field.effects[PBEffects::TrickRoom]>0
         curMaxDmgMove = pbHighestDamageMove(pbAttacker(index),pbOpponent(index),skill)
         curMaxDmg = pbDamageTest(pbAttacker(index),pbOpponent(index).pokemon, curMaxDmgMove, skill) 
@@ -3949,9 +3949,7 @@ class PokeBattle_Battle
           shouldswitch = true
         end
       end
-
     end
-
     if @opponent && !shouldswitch && @battlers[index].turncount>0
       if skill>=PBTrainerAI.highSkill
         opponent=@battlers[index].pbOppositeOpposing
@@ -4029,7 +4027,6 @@ class PokeBattle_Battle
         end
       end
     end
-    
     if @rules["suddendeath"]
       if @battlers[index].hp<=(@battlers[index].totalhp/4) && pbAIRandom(10)<3 && 
          @battlers[index].turncount>0
@@ -4304,5 +4301,20 @@ class PokeBattle_Battle
     return basedamage
   end
 
+  def pbSpeedCheck(spe1, spe2, subturns = 0)
+    multiplier = 1
+    if (@field.effects[PBEffects::TrickRoom] - subturns > 0)
+      multiplier = -1
+    end
+    speed1 = spe1 * multiplier
+    speed2 = spe2 * multiplier
+    if (speed1 > speed2)
+      return 0
+    end
+    if (speed2 > speed1)
+      return 1
+    end
+    return 2
+  end
 
 end
