@@ -1133,7 +1133,7 @@ class PokeBattle_Battler
 		thismove=move
 		turneffects=[]
 		turneffects[PBEffects::TotalDamage]=damage
-		if damage>0 && move.isContactMove? && !target.hasWorkingItem(:PROTECTIVEPADS)
+		if damage>0 && move.isContactMove? && !user.hasWorkingItem(:PROTECTIVEPADS)
 			if !target.damagestate.substitute
 				if target.hasWorkingItem(:STICKYBARB,true) && user.item==0 && !user.isFainted?
 					user.item=target.item
@@ -2528,7 +2528,7 @@ class PokeBattle_Battler
       @battle.pbDisplay(_INTL("{1} protected itself!",target.pbThis))
       @battle.successStates[user.index].protected=true
       PBDebug.log("[Move failed] #{target.pbThis}'s King's Shield stopped the attack")
-      if thismove.isContactMove? && !target.hasWorkingItem(:PROTECTIVEPADS)
+      if thismove.isContactMove? && !user.hasWorkingItem(:PROTECTIVEPADS)
         user.pbReduceStat(PBStats::ATTACK,2,nil,true)
       end
       return false
@@ -2539,7 +2539,7 @@ class PokeBattle_Battler
       @battle.pbDisplay(_INTL("{1} protected itself!",target.pbThis))
       @battle.successStates[user.index].protected=true
       PBDebug.log("[Move failed] #{user.pbThis}'s Spiky Shield stopped the attack")
-      if thismove.isContactMove? && !user.fainted? && !target.hasWorkingItem(:PROTECTIVEPADS)
+      if thismove.isContactMove? && !user.fainted? && !user.hasWorkingItem(:PROTECTIVEPADS)
         @battle.scene.pbDamageAnimation(user,0)
         amt=user.pbReduceHP((user.boss ? (user.totalhp/8)/user.hpMoltiplier : user.totalhp/8).floor)
         @battle.pbDisplay(_INTL("{1} was hurt!",user.pbThis)) if amt>0
@@ -2552,7 +2552,7 @@ class PokeBattle_Battler
       @battle.pbDisplay(_INTL("{1} protected itself!",target.pbThis))
       @battle.successStates[user.index].protected=true
       PBDebug.log("[Move failed] #{user.pbThis}'s Baneful Bunker stopped the attack!")
-      if thismove.isContactMove? && !user.isFainted? && user.pbCanPoison?(false) && !target.hasWorkingItem(:PROTECTIVEPADS)
+      if thismove.isContactMove? && !user.isFainted? && user.pbCanPoison?(false) && !user.hasWorkingItem(:PROTECTIVEPADS)
         PBDebug.log("#{target.pbThis} poisoned by Baneful Bunker")
         user.pbPoison(target,_INTL("{1} was poisoned!",target.pbThis))
       end
@@ -3309,6 +3309,18 @@ class PokeBattle_Battler
 					end
 				end
 				user.pbFaint if user.isFainted? # no return
+			end
+			if user.hasWorkingItem(:THROATSPRAY) && thismove.isSoundBased?
+				PBDebug.log("[#{user.pbThis}'s Throat Spray triggered]")
+				if user.pbCanIncreaseStatStage?(PBStats::SPATK)
+					user.pbIncreaseStatBasic(PBStats::SPATK,1)
+					@battle.pbCommonAnimation("StatUp",user,nil)
+					@battle.pbDisplay(_INTL("{1}'s {2} raised its Sp. Atk!",
+							user.pbThis,PBItems.getName(user.item)))
+							user.pokemon.itemRecycle=user.item
+							user.pokemon.itemInitial=0 if user.pokemon.itemInitial==user.item
+							user.item=0
+				end
 			end
 		end
 		@battle.pbGainEXP
