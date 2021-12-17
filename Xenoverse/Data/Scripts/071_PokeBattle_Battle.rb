@@ -2879,6 +2879,9 @@ class PokeBattle_Battle
 		end
 		@usepriority=false  # recalculate priority
 		priority=pbPriority(true) # Ignoring Quick Claw here
+		@sides.each do |side|
+			side.effects[PBEffects::Switch]=false
+		end
 		# Weather
 		case @weather
 		when PBWeather::SUNNYDAY
@@ -3599,9 +3602,11 @@ class PokeBattle_Battle
 			if i.turncount>0 && i.hasWorkingAbility(:SPEEDBOOST)
 				PBDebug.log("[#{i.pbThis}'s Speed Boost triggered]")
 				if !i.pbTooHigh?(PBStats::SPEED)
-					i.pbIncreaseStatBasic(PBStats::SPEED,1)
-					pbCommonAnimation("StatUp",i,nil)
-					pbDisplay(_INTL("{1}'s Speed Boost raised its Speed!",i.pbThis))
+					
+					pbIncreaseStatWithCause(PBStats::SPEED,1,i,PBAbilities.getName(i.ability))
+					#i.pbIncreaseStatBasic(PBStats::SPEED,1)
+					#pbCommonAnimation("StatUp",i,nil)
+					#pbDisplay(_INTL("{1}'s Speed Boost raised its Speed!",i.pbThis))
 				end 
 			end
 			# Bad Dreams
@@ -3631,15 +3636,17 @@ class PokeBattle_Battle
 					_INTL("Special Defense"),_INTL("accuracy"),_INTL("evasiveness")]
 				if randomup.length>0
 					r=self.pbRandom(randomup.length)
-					i.pbIncreaseStatBasic(randomup[r],2)
-					pbCommonAnimation("StatUp",i,nil)
-					pbDisplay(_INTL("{1}'s Moody sharply raised its {2}!",i.pbThis,statnames[randomup[r]-1]))
+					i.pbIncreaseStatWithCause(randomdown[r],2,i,PBAbilities.getName(i.ability))
+					#i.pbIncreaseStatBasic(randomup[r],2)
+					#pbCommonAnimation("StatUp",i,nil)
+					#pbDisplay(_INTL("{1}'s Moody sharply raised its {2}!",i.pbThis,statnames[randomup[r]-1]))
 				end
 				if randomdown.length>0
 					r=self.pbRandom(randomdown.length)
-					i.pbReduceStatBasic(randomdown[r],1)
-					pbCommonAnimation("StatDown",i,nil)
-					pbDisplay(_INTL("{1}'s Moody lowered its {2}!",i.pbThis,statnames[randomdown[r]-1]))
+					i.pbReduceStatWithCause(randomdown[r],1,i,PBAbilities.getName(i.ability))
+					#i.pbReduceStatBasic(randomdown[r],1)
+					#pbCommonAnimation("StatDown",i,nil)
+					#pbDisplay(_INTL("{1}'s Moody lowered its {2}!",i.pbThis,statnames[randomdown[r]-1]))
 				end
 			end
 		end
@@ -3919,10 +3926,12 @@ def pbApplyRoomService(b)
 	if b.hasWorkingItem(:ROOMSERVICE) && b.battle.field.effects[PBEffects::TrickRoom]>0
 		PBDebug.log("[#{b.pbThis}'s Room Service triggered]")
 		if b.pbCanReduceStatStage?(PBStats::SPEED)
-			b.pbReduceStatBasic(PBStats::SPEED,1)
-			b.battle.pbCommonAnimation("StatDown",b,nil)
-			b.battle.pbDisplay(_INTL("{1}'s {2} lowered its Speed!",
-					b.pbThis,PBItems.getName(b.item)))
+			#b.pbReduceStatBasic(PBStats::SPEED,1)
+			#b.battle.pbCommonAnimation("StatDown",b,nil)
+			#b.battle.pbDisplay(_INTL("{1}'s {2} lowered its Speed!",
+			#			b.pbThis,PBItems.getName(b.item)))
+			
+			b.pbReduceStatWithCause(PBStats::SPEED,1,b,PBItems.getName(b.item))
 			b.pokemon.itemRecycle=b.item
 			b.pokemon.itemInitial=0 if b.pokemon.itemInitial==b.item
 			b.item=0

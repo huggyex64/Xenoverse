@@ -994,15 +994,17 @@ class PokeBattle_Battler
 			end
 			if ospdef>odef
 				if !pbTooHigh?(PBStats::ATTACK)
-					pbIncreaseStatBasic(PBStats::ATTACK,1)
-					@battle.scene.pbDisplay(_INTL("{1}'s {2} boosted its Attack!",
-							pbThis,PBAbilities.getName(ability)))
+					pbIncreaseStatWithCause(PBStats::ATTACK,1,self,PBAbilities.getName(ability))
+					#pbIncreaseStatBasic(PBStats::ATTACK,1)
+					#@battle.scene.pbDisplay(_INTL("{1}'s {2} boosted its Attack!",
+					#		pbThis,PBAbilities.getName(ability)))
 				end
 			else
 				if !pbTooHigh?(PBStats::SPATK)
-					pbIncreaseStatBasic(PBStats::SPATK,1)
-					@battle.scene.pbDisplay(_INTL("{1}'s {2} boosted its Special Attack!",
-							pbThis,PBAbilities.getName(ability)))
+					pbIncreaseStatWithCause(PBStats::SPATK,1,self,PBAbilities.getName(ability))
+					#pbIncreaseStatBasic(PBStats::SPATK,1)
+					#@battle.scene.pbDisplay(_INTL("{1}'s {2} boosted its Special Attack!",
+					#		pbThis,PBAbilities.getName(ability)))
 				end
 			end
 		end
@@ -1307,12 +1309,14 @@ class PokeBattle_Battler
 				if target.hasWorkingAbility(:JUSTIFIED) &&
 					isConst?(movetype,PBTypes,:DARK)
 					PBDebug.log("[#{target.pbThis}'s Justified triggered]")
-					if target.pbCanIncreaseStatStage?(PBStats::ATTACK)
-						target.pbIncreaseStatBasic(PBStats::ATTACK,1)
-						@battle.pbCommonAnimation("StatUp",target,nil)
-						@battle.pbDisplay(_INTL("{1}'s {2} raised its Attack!",
-								target.pbThis,PBAbilities.getName(target.ability)))
-					end
+					
+					pbIncreaseStatWithCause(PBStats::ATTACK,1,target,PBAbilities.getName(target.ability))
+					#if target.pbCanIncreaseStatStage?(PBStats::ATTACK)
+					#	target.pbIncreaseStatBasic(PBStats::ATTACK,1)
+					#	@battle.pbCommonAnimation("StatUp",target,nil)
+					#	@battle.pbDisplay(_INTL("{1}'s {2} raised its Attack!",
+					#			target.pbThis,PBAbilities.getName(target.ability)))
+					#end
 				end
 				# Berserk
 				if target.hasWorkingAbility(:BERSERK) &&
@@ -1328,12 +1332,13 @@ class PokeBattle_Battler
 						isConst?(movetype,PBTypes,:DARK) ||
 						isConst?(movetype,PBTypes,:GHOST))
 					PBDebug.log("[#{target.pbThis}'s Rattled triggered]")
-					if target.pbCanIncreaseStatStage?(PBStats::SPEED)
-						target.pbIncreaseStatBasic(PBStats::SPEED,1)
-						@battle.pbCommonAnimation("StatUp",target,nil)
-						@battle.pbDisplay(_INTL("{1}'s {2} raised its speed!",
-								target.pbThis,PBAbilities.getName(target.ability)))
-					end
+					pbIncreaseStatWithCause(PBStats::SPEED,1,target,PBAbilities.getName(target.ability))
+					#if target.pbCanIncreaseStatStage?(PBStats::SPEED)
+					#	target.pbIncreaseStatBasic(PBStats::SPEED,1)
+					#	@battle.pbCommonAnimation("StatUp",target,nil)
+					#	@battle.pbDisplay(_INTL("{1}'s {2} raised its speed!",
+					#			target.pbThis,PBAbilities.getName(target.ability)))
+					#end
 				end
 				if target.hasWorkingItem(:WEAKNESSPOLICY) && (target.pbCanIncreaseStatStage?(PBStats::ATTACK) || target.pbCanIncreaseStatStage?(PBStats::SPATK))
 					PBDebug.log("[#{target.pbThis}'s Weakness Policy triggered]")
@@ -1341,34 +1346,54 @@ class PokeBattle_Battler
 					target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
 					target.item=0
 					
-					if target.pbCanIncreaseStatStage?(PBStats::ATTACK,false,false)
-						target.pbIncreaseStatBasic(PBStats::ATTACK,2)
-						@battle.pbCommonAnimation("StatUp",target,nil)
-						@battle.pbDisplay(_INTL("The {1} sharply raised {2}'s Attack!",
-						PBItems.getName(target.pokemon.itemRecycle), target.pbThis))
-					end
-					if target.pbCanIncreaseStatStage?(PBStats::SPATK,false,false)
-						target.pbIncreaseStatBasic(PBStats::SPATK,2)
-						@battle.pbCommonAnimation("StatUp",target,nil)
-						@battle.pbDisplay(_INTL("The {1} sharply raised {2}'s Sp. Atk!",
-						PBItems.getName(target.pokemon.itemRecycle), target.pbThis))
-					end
+					pbIncreaseStatWithCause(PBStats::ATTACK,2,target,PBAbilities.getName(target.ability))
+					#if target.pbCanIncreaseStatStage?(PBStats::ATTACK,false,false)
+					#	target.pbIncreaseStatBasic(PBStats::ATTACK,2)
+					#	@battle.pbCommonAnimation("StatUp",target,nil)
+					#	@battle.pbDisplay(_INTL("The {1} sharply raised {2}'s Attack!",
+					#	PBItems.getName(target.pokemon.itemRecycle), target.pbThis))
+					#end
+					pbIncreaseStatWithCause(PBStats::SPATK,2,target,PBAbilities.getName(target.ability))
+					#if target.pbCanIncreaseStatStage?(PBStats::SPATK,false,false)
+					#	target.pbIncreaseStatBasic(PBStats::SPATK,2)
+					#	@battle.pbCommonAnimation("StatUp",target,nil)
+					#	@battle.pbDisplay(_INTL("The {1} sharply raised {2}'s Sp. Atk!",
+					#	PBItems.getName(target.pokemon.itemRecycle), target.pbThis))
+					#end
 				end
 				if target.hasWorkingAbility(:WEAKARMOR) && move.pbIsPhysical?(movetype)
 					PBDebug.log("[#{target.pbThis}'s Weak Armor triggered]")
-					if target.pbCanReduceStatStage?(PBStats::DEFENSE,false,true)
-						target.pbReduceStatBasic(PBStats::DEFENSE,1)
-						@battle.pbCommonAnimation("StatDown",target,nil)
-						@battle.pbDisplay(_INTL("{1}'s {2} lowered its Defense!",
-								target.pbThis,PBAbilities.getName(target.ability)))
-					end
-					if target.pbCanIncreaseStatStage?(PBStats::SPEED)
-						target.pbIncreaseStatBasic(PBStats::SPEED,1)
-						@battle.pbCommonAnimation("StatUp",target,nil)
-						@battle.pbDisplay(_INTL("{1}'s {2} raised its Speed!",
-								target.pbThis,PBAbilities.getName(target.ability)))
-					end
+					target.pbReduceStatWithCause(PBStats::DEFENSE,1,attacker,PBAbilities.getName(target.ability))
+					#if target.pbCanReduceStatStage?(PBStats::DEFENSE,false,true)
+					#	target.pbReduceStatBasic(PBStats::DEFENSE,1)
+					#	@battle.pbCommonAnimation("StatDown",target,nil)
+					#	@battle.pbDisplay(_INTL("{1}'s {2} lowered its Defense!",
+					#			target.pbThis,PBAbilities.getName(target.ability)))
+					#end
+					target.pbIncreaseStatWithCause(PBStats::SPEED,1,attacker,PBAbilities.getName(target.ability))
+					#if target.pbCanIncreaseStatStage?(PBStats::SPEED)
+					#	target.pbIncreaseStatBasic(PBStats::SPEED,1)
+					#	@battle.pbCommonAnimation("StatUp",target,nil)
+					#	@battle.pbDisplay(_INTL("{1}'s {2} raised its Speed!",
+					#			target.pbThis,PBAbilities.getName(target.ability)))
+					#end
 				end
+			end
+			if target.hasWorkingItem(:EJECTBUTTON) && target.pbOwnSide.effects[PBEffects::Switch][user]==nil
+				PBDebug.log("[#{target.pbThis}'s Eject Button triggered]")
+				
+				target.pokemon.itemRecycle=target.item
+				target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
+				target.item=0
+				target.pbOwnSide.effects[PBEffects::Switch][user]=target
+				@battle.pbDisplay(_INTL("{1} went back to {2}!",target.pbThis,@battle.pbGetOwner(@index).name))
+				newpoke=0
+				newpoke=@battle.pbSwitchInBetween(@index,true,false)
+				@battle.pbMessagesOnReplace(@index,newpoke)
+				target.pbResetForm
+				@battle.pbReplace(@index,newpoke,true)
+				@battle.pbOnActiveOne(target)
+				target.pbAbilitiesOnSwitchIn(true)
 			end
 			if target.hasWorkingItem(:AIRBALLOON,true)
 				target.pokemon.itemRecycle=target.item
@@ -1379,39 +1404,42 @@ class PokeBattle_Battler
 			end
 			if target.hasWorkingItem(:ABSORBBULB) && isConst?(movetype,PBTypes,:WATER)
 				PBDebug.log("[#{target.pbThis}'s Absorb Bulb triggered]")
-				if target.pbCanIncreaseStatStage?(PBStats::SPATK)
-					target.pbIncreaseStatBasic(PBStats::SPATK,1)
-					@battle.pbCommonAnimation("StatUp",target,nil)
-					@battle.pbDisplay(_INTL("{1}'s {2} raised its Special Attack!",
-							target.pbThis,PBItems.getName(target.item)))
-					target.pokemon.itemRecycle=target.item
-					target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
-					target.item=0
-				end
+				pbIncreaseStatWithCause(PBStats::SPATK,1,target,PBItems.getName(target.item))
+				#if target.pbCanIncreaseStatStage?(PBStats::SPATK)
+				#	target.pbIncreaseStatBasic(PBStats::SPATK,1)
+				#	@battle.pbCommonAnimation("StatUp",target,nil)
+				#	@battle.pbDisplay(_INTL("{1}'s {2} raised its Special Attack!",
+				#			target.pbThis,PBItems.getName(target.item)))
+				#	target.pokemon.itemRecycle=target.item
+				#	target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
+				#	target.item=0
+				#end
 			end
 			if target.hasWorkingItem(:CELLBATTERY) && isConst?(movetype,PBTypes,:ELECTRIC)
 				PBDebug.log("[#{target.pbThis}'s Cell Battery triggered]")
-				if target.pbCanIncreaseStatStage?(PBStats::ATTACK)
-					target.pbIncreaseStatBasic(PBStats::ATTACK,1)
-					@battle.pbCommonAnimation("StatUp",target,nil)
-					@battle.pbDisplay(_INTL("{1}'s {2} raised its Attack!",
-							target.pbThis,PBItems.getName(target.item)))
-					target.pokemon.itemRecycle=target.item
-					target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
-					target.item=0
-				end
+				pbIncreaseStatWithCause(PBStats::ATTACK,1,target,PBItems.getName(target.item))
+				#if target.pbCanIncreaseStatStage?(PBStats::ATTACK)
+				#	target.pbIncreaseStatBasic(PBStats::ATTACK,1)
+				#	@battle.pbCommonAnimation("StatUp",target,nil)
+				#	@battle.pbDisplay(_INTL("{1}'s {2} raised its Attack!",
+				#			target.pbThis,PBItems.getName(target.item)))
+				#	target.pokemon.itemRecycle=target.item
+				#	target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
+				#	target.item=0
+				#end
 			end
 			if target.hasWorkingItem(:LUMINOUSMOSS) && isConst?(movetype,PBTypes,:WATER)
 				PBDebug.log("[#{target.pbThis}'s Luminous Moss triggered]")
-				if target.pbCanIncreaseStatStage?(PBStats::SPDEF)
-					target.pbIncreaseStatBasic(PBStats::SPDEF,1)
-					@battle.pbCommonAnimation("StatUp",target,nil)
-					@battle.pbDisplay(_INTL("{1}'s {2} raised its Sp. Def!",
-							target.pbThis,PBItems.getName(target.item)))
-					target.pokemon.itemRecycle=target.item
-					target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
-					target.item=0
-				end
+				pbIncreaseStatWithCause(PBStats::SPDEF,1,target,PBItems.getName(target.item))
+				#if target.pbCanIncreaseStatStage?(PBStats::SPDEF)
+				#	target.pbIncreaseStatBasic(PBStats::SPDEF,1)
+				#	@battle.pbCommonAnimation("StatUp",target,nil)
+				#	@battle.pbDisplay(_INTL("{1}'s {2} raised its Sp. Def!",
+				#			target.pbThis,PBItems.getName(target.item)))
+				#	target.pokemon.itemRecycle=target.item
+				#	target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
+				#	target.item=0
+				#end
 			end
 			if target.hasWorkingAbility(:ANGERPOINT)
 				PBDebug.log("[#{target.pbThis}'s Anger Point triggered]")
@@ -2657,12 +2685,14 @@ class PokeBattle_Battler
 					user.pokemon.itemRecycle=user.item
 					user.pokemon.itemInitial=0 if user.pokemon.itemInitial==user.item
 					user.item=0
-					if user.pbCanIncreaseStatStage?(PBStats::SPEED,false,false)
-						user.pbIncreaseStatBasic(PBStats::SPEED,2)
-						@battle.pbCommonAnimation("StatUp",user,nil)
-						@battle.pbDisplay(_INTL("The {1} sharply raised {2}'s Speed!",
-						PBItems.getName(user.pokemon.itemRecycle), user.pbThis))
-					end
+					
+					pbIncreaseStatWithCause(PBStats::SPEED,2,user,PBItems.getName(user.item))
+					#if user.pbCanIncreaseStatStage?(PBStats::SPEED,false,false)
+					#	user.pbIncreaseStatBasic(PBStats::SPEED,2)
+					#	@battle.pbCommonAnimation("StatUp",user,nil)
+					#	@battle.pbDisplay(_INTL("The {1} sharply raised {2}'s Speed!",
+					#	PBItems.getName(user.pokemon.itemRecycle), user.pbThis))
+					#end
 				end
 				return false
 			end
@@ -2979,11 +3009,12 @@ class PokeBattle_Battler
 				if target.effects[PBEffects::Rage] && target.pbIsOpposing?(user.index)
 					# TODO: Apparently triggers if opposing Pokémon uses Future Sight after a Future Sight attack
 					PBDebug.log("[#{target.pbThis}'s Rage was triggered]")
-					if target.pbCanIncreaseStatStage?(PBStats::ATTACK)
-						target.pbIncreaseStatBasic(PBStats::ATTACK,1)
-						@battle.pbCommonAnimation("StatUp",target,nil)
-						@battle.pbDisplay(_INTL("{1}'s rage is building!",target.pbThis))
-					end
+					pbIncreaseStatWithCause(PBStats::ATTACK,1,target,PBItems.getName(target.item))
+					#if target.pbCanIncreaseStatStage?(PBStats::ATTACK)
+					#	target.pbIncreaseStatBasic(PBStats::ATTACK,1)
+					#	@battle.pbCommonAnimation("StatUp",target,nil)
+					#	@battle.pbDisplay(_INTL("{1}'s rage is building!",target.pbThis))
+					#end
 				end
 			end
 			target.pbFaint if target.isFainted? # no return
@@ -3312,15 +3343,17 @@ class PokeBattle_Battler
 			end
 			if user.hasWorkingItem(:THROATSPRAY) && thismove.isSoundBased?
 				PBDebug.log("[#{user.pbThis}'s Throat Spray triggered]")
-				if user.pbCanIncreaseStatStage?(PBStats::SPATK)
-					user.pbIncreaseStatBasic(PBStats::SPATK,1)
-					@battle.pbCommonAnimation("StatUp",user,nil)
-					@battle.pbDisplay(_INTL("{1}'s {2} raised its Sp. Atk!",
-							user.pbThis,PBItems.getName(user.item)))
-							user.pokemon.itemRecycle=user.item
-							user.pokemon.itemInitial=0 if user.pokemon.itemInitial==user.item
-							user.item=0
-				end
+				
+				pbIncreaseStatWithCause(PBStats::SPATK,1,target,PBItems.getName(target.item))
+				user.pokemon.itemRecycle=user.item
+				user.pokemon.itemInitial=0 if user.pokemon.itemInitial==user.item
+				user.item=0
+				#if user.pbCanIncreaseStatStage?(PBStats::SPATK)
+				#	user.pbIncreaseStatBasic(PBStats::SPATK,1)
+				#	@battle.pbCommonAnimation("StatUp",user,nil)
+				#	@battle.pbDisplay(_INTL("{1}'s {2} raised its Sp. Atk!",
+				#			user.pbThis,PBItems.getName(user.item)))
+				#end
 			end
 		end
 		@battle.pbGainEXP

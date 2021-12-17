@@ -528,8 +528,7 @@ class PokeBattle_Battler
     return true
   end
 
-  def pbIncreaseStatBasic(stat,increment,attacker=nil,ignoreContrary=false)
-		moldbreaker=false
+  def pbIncreaseStatBasic(stat,increment,attacker=nil,ignoreContrary=false, moldbreaker = false)
 		if !moldbreaker
       if !attacker || attacker.index==self.index || !attacker.hasMoldBreaker
         if hasWorkingAbility(:CONTRARY) && !ignoreContrary
@@ -625,7 +624,7 @@ class PokeBattle_Battler
                     stat!=PBStats::SPEED && stat!=PBStats::EVASION &&
                     stat!=PBStats::ACCURACY
     if pbCanIncreaseStatStage?(stat,false)
-      increment=pbIncreaseStatBasic(stat,increment,attacker,ignoreContrary)#,attacker,moldbreaker,ignoreContrary)
+      increment=pbIncreaseStatBasic(stat,increment,attacker,ignoreContrary,moldbreaker)#,attacker,moldbreaker,ignoreContrary)
       if increment>0
         if ignoreContrary
           @battle.pbDisplay(_INTL("{1}'s {2} activated!",pbThis,PBAbilities.getName(self.ability))) if showmessage
@@ -710,8 +709,7 @@ class PokeBattle_Battler
     return true
   end
 
-  def pbReduceStatBasic(stat,increment,attacker=nil,ignoreContrary=false)
-		moldbreaker=false
+  def pbReduceStatBasic(stat,increment,attacker=nil,ignoreContrary=false, moldbreaker = false)
 		if !moldbreaker
 			if hasWorkingAbility(:CONTRARY) && !ignoreContrary
 				return pbIncreaseStatBasic(stat,increment,attacker,true)
@@ -719,8 +717,10 @@ class PokeBattle_Battler
 			increment*=2 if hasWorkingAbility(:SIMPLE)
     end
     PBDebug.log("[#{pbThis}: stat #{getConstantName(PBStats,stat)} fell by #{increment} stage(s) (was #{@stages[stat]}, now #{[@stages[stat]-increment,-6].max}]")
+    
     @stages[stat]-=increment
     @stages[stat]=-6 if @stages[stat]<-6
+		return increment
   end
 
   def pbReduceStat(stat,increment,showMessages,downanim=true,selfreduce=false,ignoreContrary=false)
@@ -773,6 +773,24 @@ class PokeBattle_Battler
 			if hasWorkingAbility(:COMPETITIVE) && !selfreduce#&& (!attacker || attacker.pbIsOpposing?(self.index))
 				pbIncreaseStatWithCause(PBStats::SPATK,2,self,PBAbilities.getName(self.ability))
 			end
+=begin
+      if self.hasWorkingItem(:EJECTPACK) && self.pbOwnSide.effects[PBEffects::Switch][attacker]==nil  
+        self.pokemon.itemRecycle=self.item
+        self.pokemon.itemInitial=0 if self.pokemon.itemInitial==self.item
+        self.item=0
+        self.pbOwnSide.effects[PBEffects::Switch] = self
+
+        @battle.pokemon.item = 0
+        @battle.pbDisplay(_INTL("{1} went back to {2}!",self.pbThis,@battle.pbGetOwner(@index).name))
+        newpoke=0
+        newpoke=@battle.pbSwitchInBetween(@index,true,false)
+        @battle.pbMessagesOnReplace(@index,newpoke)
+        self.pbResetForm
+        @battle.pbReplace(@index,newpoke,true)
+        @battle.pbOnActiveOne(self)
+        self.pbAbilitiesOnSwitchIn(true)
+      end
+=end
       return true
     end
     return false
@@ -792,7 +810,7 @@ class PokeBattle_Battler
                     stat!=PBStats::SPEED && stat!=PBStats::EVASION &&
                     stat!=PBStats::ACCURACY
     if pbCanReduceStatStage?(stat,false)
-      increment=pbReduceStatBasic(stat,increment,attacker,moldbreaker,ignoreContrary)
+      increment=pbReduceStatBasic(stat,increment,attacker,ignoreContrary,moldbreaker)
       if increment>0
         if ignoreContrary
           @battle.pbDisplay(_INTL("{1}'s {2} activated!",pbThis,PBAbilities.getName(self.ability))) if showmessage
@@ -816,6 +834,23 @@ class PokeBattle_Battler
         if hasWorkingAbility(:COMPETITIVE) && (!attacker || attacker.pbIsOpposing?(self.index))
           pbIncreaseStatWithCause(PBStats::SPATK,2,self,PBAbilities.getName(self.ability))
         end
+
+=begin
+        if self.hasWorkingItem(:EJECTPACK) && self.pbOwnSide.effects[PBEffects::Switch][attacker]==nil
+					self.pokemon.itemRecycle=self.item
+					self.pokemon.itemInitial=0 if self.pokemon.itemInitial==self.item
+					self.item=0
+          self.pbOwnSide.effects[PBEffects::Switch][attacker]=self
+          @battle.pbDisplay(_INTL("{1} went back to {2}!",self.pbThis,@battle.pbGetOwner(@index).name))
+          newpoke=0
+          newpoke=@battle.pbSwitchInBetween(@index,true,false)
+          @battle.pbMessagesOnReplace(@index,newpoke)
+          self.pbResetForm
+          @battle.pbReplace(@index,newpoke,true)
+          @battle.pbOnActiveOne(self)
+          self.pbAbilitiesOnSwitchIn(true)
+        end
+=end
         return true
       end
     end
@@ -837,14 +872,15 @@ class PokeBattle_Battler
       @battle.pbDisplay(_INTL("{1} is protected by Mist!",pbThis))
       return false
     end
-    if pbCanReduceStatStage?(PBStats::ATTACK,false)
-      pbReduceStatBasic(PBStats::ATTACK,1)
-      oppabilityname=PBAbilities.getName(opponent.ability)
-      @battle.pbCommonAnimation("StatDown",self,nil)
-      @battle.pbDisplay(_INTL("{1}'s {2} cuts {3}'s Attack!",opponent.pbThis,
-         oppabilityname,pbThis(true)))
-      return true
-    end
-    return false
+    #if pbCanReduceStatStage?(PBStats::ATTACK,false)
+    #  pbReduceStatBasic(PBStats::ATTACK,1)
+    #  oppabilityname=PBAbilities.getName(opponent.ability)
+    #  @battle.pbCommonAnimation("StatDown",self,nil)
+    #  @battle.pbDisplay(_INTL("{1}'s {2} cuts {3}'s Attack!",opponent.pbThis,
+    #     oppabilityname,pbThis(true)))
+    #  return true
+    #end
+    #return false
+    return pbReduceStatWithCause(PBStats::ATTACK,1,opponent,PBAbilities.getName(opponent.ability))
   end
 end

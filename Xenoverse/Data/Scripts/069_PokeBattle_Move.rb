@@ -1319,16 +1319,18 @@ class PokeBattle_Move
       return true
     end
 		if (opponent.hasWorkingAbility(:WATERCOMPACTION) && isConst?(type,PBTypes,:WATER))
-			if opponent.pbCanIncreaseStatStage?(PBStats::DEFENSE)
-				opponent.pbIncreaseStatBasic(PBStats::DEFENSE,1)
-				@battle.pbCommonAnimation("StatUp",opponent,nil)
-				@battle.scene.pbDisplay(_INTL("{1}'s {2} raised its Defense!",
-						opponent.pbThis,PBAbilities.getName(opponent.ability)))
-				return true
+			
+			return pbIncreaseStatWithCause(PBStats::DEFENSE,1,opponent,PBAbilities.getName(opponent.ability))
+			#if opponent.pbCanIncreaseStatStage?(PBStats::DEFENSE)
+			#	opponent.pbIncreaseStatBasic(PBStats::DEFENSE,1)
+			#	@battle.pbCommonAnimation("StatUp",opponent,nil)
+			#	@battle.scene.pbDisplay(_INTL("{1}'s {2} raised its Defense!",
+			#			opponent.pbThis,PBAbilities.getName(opponent.ability)))
+			#	return true
 			#else
 			#	@battle.scene.pbDisplay(_INTL("{1}'s {2} made {3} ineffective!",
 			#			opponent.pbThis,PBAbilities.getName(opponent.ability),self.name))
-			end
+			#end
 			#return 0
 		end
 		echoln "Checking for immunity for #{(opponent.hasWorkingAbility(:SYNTHESIZER) && isConst?(type,PBTypes,:SUONO))}"

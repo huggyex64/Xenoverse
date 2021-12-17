@@ -116,6 +116,7 @@ begin
     ToxicSpikes = 8
 		StickyWeb   = 9
     VelvetScales = 20
+    Switch      = 90
     # These effects apply to the battle (i.e. both sides)
     Gravity    = 0
     MagicRoom  = 1

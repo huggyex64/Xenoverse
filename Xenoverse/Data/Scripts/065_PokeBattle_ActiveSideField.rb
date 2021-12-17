@@ -4,6 +4,7 @@ begin
 
     def initialize
       @effects = []
+      @effects[PBEffects::Switch]      = {}
       @effects[PBEffects::LightScreen] = 0
       @effects[PBEffects::LuckyChant]  = 0
       @effects[PBEffects::Mist]        = 0

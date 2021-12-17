@@ -3933,7 +3933,7 @@ class PokeBattle_Battle
             incomingDamage = pbDamageTest(pbOpponent(index), ib, incomingMove, skill) 
             incDmgPercentage = incomingDamage * 100 / (party[id].hp+1)
             PBDebug.log(" --------------------------------------------- " + incomingDamage.to_s + " #{incDmgPercentage}%")
-            if maxDmg>curMaxDmg && incDmgPercentage < 40
+            if maxDmg>curMaxDmg && incDmgPercentage < 48
               curMaxDmg = maxDmg
               shouldswitchwith = id
             end
@@ -4054,7 +4054,7 @@ class PokeBattle_Battle
             incomingDamage = pbDamageTest(pbOpponent(index), party[i], incomingMove, skill) 
             incDmgPercentage = incomingDamage * 100 / (party[i].hp+1)
             PBDebug.log(" --------------------------------------------- " + incomingDamage.to_s)
-            if incDmgPercentage > 40
+            if incDmgPercentage > 48
               next
             end
           end
