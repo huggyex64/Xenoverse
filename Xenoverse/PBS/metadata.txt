@@ -3752,23 +3752,28 @@ ShowArea=true
 Bicycle=false
 Outdoor=false
 ShowArea=true
+MapPosition=0,10,19
 [622]
 # Torneo Apollo
 Bicycle=false
 Outdoor=false
 ShowArea=false
+MapPosition=0,10,19
 [623]
 # Torneo Apollo
 Bicycle=false
 Outdoor=false
 ShowArea=false
+MapPosition=0,10,19
 [624]
 # Torneo Apollo
 Bicycle=false
 Outdoor=false
 ShowArea=false
+MapPosition=0,10,19
 [625]
 # Paradiso Sakura
 Bicycle=false
 Outdoor=false
 ShowArea=false
+MapPosition=0,10,19
