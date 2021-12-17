@@ -551,10 +551,10 @@ class PokeBattle_Battler
 		if self.pbOwnSide.effects[PBEffects::Tailwind]>0
 			speed=speed*2
 		end
-		if self.hasWorkingAbility(:SWIFTSWIM) && @battle.pbWeather==PBWeather::RAINDANCE
+		if self.hasWorkingAbility(:SWIFTSWIM) && @battle.pbWeather==PBWeather::RAINDANCE && !hasWorkingItem(:UTILITYUMBRELLA)
 			speed=speed*2
 		end
-		if self.hasWorkingAbility(:CHLOROPHYLL) && @battle.pbWeather==PBWeather::SUNNYDAY
+		if self.hasWorkingAbility(:CHLOROPHYLL) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA)
 			speed=speed*2
 		end
 		if self.hasWorkingAbility(:SANDRUSH) && @battle.pbWeather==PBWeather::SANDSTORM
@@ -720,12 +720,12 @@ class PokeBattle_Battler
 		if self.hasWorkingAbility(:FORECAST) && isConst?(self.species,PBSpecies,:CASTFORM)
 			case @battle.pbWeather
 			when PBWeather::SUNNYDAY
-				if self.form!=1
+				if self.form!=1 && !hasWorkingItem(:UTILITYUMBRELLA)
 					self.form=1
 					transformed=true
 				end
 			when PBWeather::RAINDANCE
-				if self.form!=2
+				if self.form!=2 && !hasWorkingItem(:UTILITYUMBRELLA)
 					self.form=2
 					transformed=true
 				end
@@ -746,7 +746,7 @@ class PokeBattle_Battler
 		if isConst?(self.species,PBSpecies,:CHERRIM) && !self.isFainted?
 			case @battle.pbWeather
 			when PBWeather::SUNNYDAY
-				if self.form!=1
+				if self.form!=1 && !hasWorkingItem(:UTILITYUMBRELLA)
 					self.form=1
 					transformed=true
 				end

@@ -3030,13 +3030,13 @@ class PokeBattle_Battle
 		for i in priority
 			next if i.isFainted?
 			# Rain Dish
-			if pbWeather==PBWeather::RAINDANCE && i.hasWorkingAbility(:RAINDISH)
+			if pbWeather==PBWeather::RAINDANCE && i.hasWorkingAbility(:RAINDISH) && !i.hasWorkingItem(:UTILITYUMBRELLA)
 				PBDebug.log("[#{i.pbThis}'s Rain Dish triggered]")
 				hpgain=i.pbRecoverHP((i.totalhp/16).floor,true)
 				pbDisplay(_INTL("{1}'s Rain Dish restored its HP a little!",i.pbThis)) if hpgain>0
 			end
 			# Dry Skin
-			if i.hasWorkingAbility(:DRYSKIN)
+			if i.hasWorkingAbility(:DRYSKIN) && !i.hasWorkingItem(:UTILITYUMBRELLA)
 				PBDebug.log("[#{i.pbThis}'s Dry Skin triggered]")
 				if pbWeather==PBWeather::RAINDANCE
 					hpgain=i.pbRecoverHP((i.totalhp/8).floor,true)
@@ -3101,7 +3101,7 @@ class PokeBattle_Battle
 				end
 			end
 			# Hydration
-			if i.hasWorkingAbility(:HYDRATION) && pbWeather==PBWeather::RAINDANCE
+			if i.hasWorkingAbility(:HYDRATION) && pbWeather==PBWeather::RAINDANCE && !i.hasWorkingItem(:UTILITYUMBRELLA)
 				if i.status>0
 					case i.status
 					when PBStatuses::SLEEP

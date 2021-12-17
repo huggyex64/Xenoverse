@@ -27,7 +27,7 @@ class PokeBattle_Battler
     if hasWorkingAbility(:VITALSPIRIT) ||
 			hasWorkingAbility(:INSOMNIA) ||
 			hasWorkingAbility(:SWEETVEIL) ||
-       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY)
+       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA))
       abilityname=PBAbilities.getName(self.ability)
       @battle.pbDisplay(_INTL("{1} stayed awake using its {2}!",pbThis,abilityname)) if showMessages
       return false
@@ -55,7 +55,7 @@ class PokeBattle_Battler
     if hasWorkingAbility(:VITALSPIRIT) ||
 			hasWorkingAbility(:INSOMNIA) ||
 			hasWorkingAbility(:SWEETVEIL) ||
-       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY)
+       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA))
       return false
     end
 		return false if pbPartner.hasWorkingAbility(:SWEETVEIL)
@@ -104,7 +104,7 @@ class PokeBattle_Battler
       return false
     end   
     if hasWorkingAbility(:IMMUNITY) ||
-       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY)
+       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA))
       @battle.pbDisplay(_INTL("{1}'s {2} prevents poisoning!",pbThis,PBAbilities.getName(self.ability))) if showMessages
       return false
     end
@@ -128,7 +128,7 @@ class PokeBattle_Battler
     end   
     return false if self.status!=0
     if hasWorkingAbility(:IMMUNITY) ||
-       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY)
+       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA))
       @battle.pbDisplay(_INTL("{1}'s {2} prevents {3}'s {4} from working!",
          pbThis,PBAbilities.getName(self.ability),
          opponent.pbThis(true),PBAbilities.getName(opponent.ability)))
@@ -143,7 +143,7 @@ class PokeBattle_Battler
     return false if self.status!=0
     return false if pbHasType?(:POISON) || pbHasType?(:STEEL)
     return false if hasWorkingAbility(:IMMUNITY)
-    return false if hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY
+    return false if hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA)
     return false if pbOwnSide.effects[PBEffects::Safeguard]>0
     return true
   end
@@ -191,7 +191,7 @@ class PokeBattle_Battler
        return false
     end
     if hasWorkingAbility(:WATERVEIL) ||
-       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY)
+       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA))
       @battle.pbDisplay(_INTL("{1}'s {2} prevents burns!",pbThis,PBAbilities.getName(self.ability))) if showMessages
       return false
     end
@@ -230,7 +230,7 @@ class PokeBattle_Battler
       return false
     end
     if hasWorkingAbility(:WATERVEIL) ||
-       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY)
+       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA))
       @battle.pbDisplay(_INTL("{1}'s {2} prevents burns!",pbThis,PBAbilities.getName(self.ability))) if showMessages
       return false
     end
@@ -254,7 +254,7 @@ class PokeBattle_Battler
        return false
     end   
     if hasWorkingAbility(:WATERVEIL) ||
-       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY)
+       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA))
       @battle.pbDisplay(_INTL("{1}'s {2} prevents {3}'s {4} from working!",
          pbThis,PBAbilities.getName(self.ability),
          opponent.pbThis(true),PBAbilities.getName(opponent.ability)))
@@ -293,7 +293,7 @@ class PokeBattle_Battler
       return false
     end
     if hasWorkingAbility(:LIMBER) ||
-       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY)
+       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA))
       @battle.pbDisplay(_INTL("{1}'s {2} prevents paralysis!",pbThis,PBAbilities.getName(self.ability))) if showMessages
       return false
     end
@@ -311,7 +311,7 @@ class PokeBattle_Battler
       return false
     end
     if hasWorkingAbility(:LIMBER) ||
-       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY)
+       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA))
       @battle.pbDisplay(_INTL("{1}'s {2} prevents {3}'s {4} from working!",
          pbThis,PBAbilities.getName(self.ability),
          opponent.pbThis(true),PBAbilities.getName(opponent.ability)))
@@ -341,7 +341,7 @@ class PokeBattle_Battler
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
     end
-    if @battle.pbWeather==PBWeather::SUNNYDAY || self.status!=0 ||
+    if (@battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA)) || self.status!=0 ||
        hasWorkingAbility(:MAGMAARMOR) ||
        pbOwnSide.effects[PBEffects::Safeguard]>0 ||
        effects[PBEffects::Substitute]>0 ||

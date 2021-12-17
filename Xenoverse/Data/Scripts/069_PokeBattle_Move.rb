@@ -421,10 +421,10 @@ class PokeBattle_Move
 		return true if opponent.effects[PBEffects::Telekinesis]>0
 		return true if @function==0x0D && @battle.pbWeather==PBWeather::HAIL # Blizzard
 		return true if (@function==0x08 || @function==0x15) && # Thunder, Hurricane
-		@battle.pbWeather==PBWeather::RAINDANCE
+		@battle.pbWeather==PBWeather::RAINDANCE && !opponent.hasWorkingItem(:UTILITYUMBRELLA)
 		# One-hit KO accuracy handled elsewhere
 		if @function==0x08 || @function==0x15 # Thunder, Hurricane
-			baseaccuracy=50 if @battle.pbWeather==PBWeather::SUNNYDAY
+			baseaccuracy=50 if @battle.pbWeather==PBWeather::SUNNYDAY && !opponent.hasWorkingItem(:UTILITYUMBRELLA)
 		end
 		accstage=attacker.stages[PBStats::ACCURACY]
 		accstage=0 if opponent.hasWorkingAbility(:UNAWARE)
@@ -844,7 +844,7 @@ class PokeBattle_Move
 			atkmult=(atkmult*2.0).round
 		end
 		if attacker.hasWorkingAbility(:SOLARPOWER) &&
-			@battle.pbWeather==PBWeather::SUNNYDAY && pbIsSpecial?(type)
+			@battle.pbWeather==PBWeather::SUNNYDAY && pbIsSpecial?(type) && !attacker.hasWorkingItem(:UTILITYUMBRELLA)
 			atkmult=(atkmult*1.5).round
 		end
 		if attacker.hasWorkingAbility(:FLASHFIRE) &&
@@ -857,7 +857,7 @@ class PokeBattle_Move
 		end
 		if @battle.pbWeather==PBWeather::SUNNYDAY && pbIsPhysical?(type)
 			if attacker.hasWorkingAbility(:FLOWERGIFT) &&
-				isConst?(attacker.species,PBSpecies,:CHERRIM)
+				isConst?(attacker.species,PBSpecies,:CHERRIM) && !attacker.hasWorkingItem(:UTILITYUMBRELLA)
 				atkmult=(atkmult*1.5).round
 			end
 			if attacker.pbPartner.hasWorkingAbility(:FLOWERGIFT) &&
@@ -927,7 +927,7 @@ class PokeBattle_Move
 		end
 		if @battle.pbWeather==PBWeather::SUNNYDAY && pbIsSpecial?(type)
 			if opponent.hasWorkingAbility(:FLOWERGIFT) &&
-				isConst?(opponent.species,PBSpecies,:CHERRIM)
+				isConst?(opponent.species,PBSpecies,:CHERRIM) && !opponent.hasWorkingItem(:UTILITYUMBRELLA)
 				defmult=(defmult*1.5).round
 			end
 			if opponent.pbPartner.hasWorkingAbility(:FLOWERGIFT) &&
@@ -966,16 +966,20 @@ class PokeBattle_Move
 		# Weather
 		case @battle.pbWeather
 		when PBWeather::SUNNYDAY
-			if isConst?(type,PBTypes,:FIRE)
-				damage=(damage*1.5).round
-			elsif isConst?(type,PBTypes,:WATER)
-				damage=(damage*0.5).round
+			if (!opponent.hasWorkingItem(:UTILITYUMBRELLA))
+				if isConst?(type,PBTypes,:FIRE)
+					damage=(damage*1.5).round
+				elsif isConst?(type,PBTypes,:WATER)
+					damage=(damage*0.5).round
+				end
 			end
 		when PBWeather::RAINDANCE
-			if isConst?(type,PBTypes,:FIRE)
-				damage=(damage*0.5).round
-			elsif isConst?(type,PBTypes,:WATER)
-				damage=(damage*1.5).round
+			if (!opponent.hasWorkingItem(:UTILITYUMBRELLA))
+				if isConst?(type,PBTypes,:FIRE)
+					damage=(damage*0.5).round
+				elsif isConst?(type,PBTypes,:WATER)
+					damage=(damage*1.5).round
+				end
 			end
 		end
 		# Critical hits

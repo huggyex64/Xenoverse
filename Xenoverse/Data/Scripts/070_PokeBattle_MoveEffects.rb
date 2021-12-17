@@ -1129,7 +1129,7 @@ class PokeBattle_Move_028 < PokeBattle_Move
 		end
 		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
 		showanim=true
-		increment=(@battle.weather==PBWeather::SUNNYDAY) ? 2 : 1
+		increment=(@battle.weather==PBWeather::SUNNYDAY && !attacker.hasWorkingItem(:UTILITYUMBRELLA)) ? 2 : 1
 		if attacker.pbCanIncreaseStatStage?(PBStats::ATTACK,false)
 			attacker.pbIncreaseStat(PBStats::ATTACK,increment,false,showanim)
 			showanim=false
@@ -3311,8 +3311,8 @@ class PokeBattle_Move_087 < PokeBattle_Move
 	def pbType(type,attacker,opponent)
 		weather=@battle.pbWeather
 		type=getConst(PBTypes,:NORMAL) || 0
-		type=(getConst(PBTypes,:FIRE) || type) if weather==PBWeather::SUNNYDAY
-		type=(getConst(PBTypes,:WATER) || type) if weather==PBWeather::RAINDANCE
+		type=(getConst(PBTypes,:FIRE) || type) if weather==PBWeather::SUNNYDAY && !attacker.hasWorkingItem(:UTILITYUMBRELLA)
+		type=(getConst(PBTypes,:WATER) || type) if weather==PBWeather::RAINDANCE && !attacker.hasWorkingItem(:UTILITYUMBRELLA)
 		type=(getConst(PBTypes,:ROCK) || type) if weather==PBWeather::SANDSTORM
 		type=(getConst(PBTypes,:ICE)  || type) if weather==PBWeather::HAIL
 		return type
@@ -4701,7 +4701,7 @@ class PokeBattle_Move_0C4 < PokeBattle_Move
 	def pbTwoTurnAttack(attacker,checking=false)
 		@immediate=false
 		if attacker.effects[PBEffects::TwoTurnAttack]==0
-			@immediate=true if @battle.pbWeather==PBWeather::SUNNYDAY
+			@immediate=true if @battle.pbWeather==PBWeather::SUNNYDAY && !attacker.hasWorkingItem(:UTILITYUMBRELLA)
 		end
 		if !@immediate && attacker.hasWorkingItem(:POWERHERB)
 			@immediate=true
@@ -4719,7 +4719,7 @@ class PokeBattle_Move_0C4 < PokeBattle_Move
 	
 	def pbBaseDamageMultiplier(damagemult,attacker,opponent)
 		if @battle.pbWeather!=0 &&
-			@battle.pbWeather!=PBWeather::SUNNYDAY
+			@battle.pbWeather!=PBWeather::SUNNYDAY && !attacker.hasWorkingItem(:UTILITYUMBRELLA)
 			return (damagemult*0.5).round
 		end
 		return damagemult
@@ -5356,8 +5356,10 @@ class PokeBattle_Move_0D8 < PokeBattle_Move
 			return -1
 		end
 		hpgain=0
-		if @battle.pbWeather==PBWeather::SUNNYDAY
+		if @battle.pbWeather==PBWeather::SUNNYDAY && !attacker.hasWorkingItem(:UTILITYUMBRELLA)
 			hpgain=(attacker.totalhp*2/3).floor
+		elsif @battle.pbWeather==PBWeather::RAINDANCE && !attacker.hasWorkingItem(:UTILITYUMBRELLA)
+			hpgain=(attacker.totalhp/4).floor
 		elsif @battle.pbWeather!=0
 			hpgain=(attacker.totalhp/4).floor
 		else
