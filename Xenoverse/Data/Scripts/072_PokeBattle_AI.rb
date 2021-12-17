@@ -2582,7 +2582,7 @@ class PokeBattle_Battle
         basedamage*=accuracy/100.0
         # Two-turn attacks waste 2 turns to deal one lot of damage
         if move.pbTwoTurnAttack(attacker,true) || move.function==0xC2 # Hyper Beam
-          basedamage*=2/3   # Not halved because semi-invulnerable during use or hits first turn
+          basedamage*=2.0/3   # Not halved because semi-invulnerable during use or hits first turn
         end
         # Prefer flinching effects
         if !opponent.hasWorkingAbility(:INNERFOCUS) &&

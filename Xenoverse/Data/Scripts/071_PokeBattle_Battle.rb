@@ -2179,7 +2179,7 @@ class PokeBattle_Battle
 			# Spikes
 			if pkmn.pbOwnSide.effects[PBEffects::Spikes]>0
 				if !pkmn.isAirborne?
-					if !pkmn.hasWorkingAbility(:MAGICGUARD)
+					if !pkmn.hasWorkingAbility(:MAGICGUARD) && !pkmn.hasWorkingItem(:HEAVYDUTYBOOTS)
 						PBDebug.log("[#{pkmn.pbThis} took damage from Spikes]")
 						spikesdiv=[8,8,6,4][pkmn.pbOwnSide.effects[PBEffects::Spikes]]
 						@scene.pbDamageAnimation(pkmn,0)
@@ -2191,7 +2191,7 @@ class PokeBattle_Battle
 			pkmn.pbFaint if pkmn.isFainted?
 			# Stealth Rock
 			if pkmn.pbOwnSide.effects[PBEffects::StealthRock]
-				if !pkmn.hasWorkingAbility(:MAGICGUARD)
+				if !pkmn.hasWorkingAbility(:MAGICGUARD) && !pkmn.hasWorkingItem(:HEAVYDUTYBOOTS)
 					atype=getConst(PBTypes,:ROCK) || 0
 					eff=PBTypes.getCombinedEffectiveness(atype,pkmn.type1,pkmn.type2)
 					if eff>0
@@ -2202,9 +2202,9 @@ class PokeBattle_Battle
 					end
 				end
 			end
-			# Stealth Rock
+			# Velvet Scales
 			if pkmn.pbOwnSide.effects[PBEffects::VelvetScales]
-				if !pkmn.hasWorkingAbility(:MAGICGUARD)
+				if !pkmn.hasWorkingAbility(:MAGICGUARD) && !pkmn.hasWorkingItem(:HEAVYDUTYBOOTS)
 					#@scene.pbDamageAnimation(pkmn,0)
 					pkmn.pbReduceStat(PBStats::DEFENSE,1,false,true,false)
 					pkmn.pbReduceStat(PBStats::SPDEF,1,false,true,false)
@@ -2219,7 +2219,7 @@ class PokeBattle_Battle
 						PBDebug.log("[#{pkmn.pbThis} absorbed Toxic Spikes]")
 						pkmn.pbOwnSide.effects[PBEffects::ToxicSpikes]=0
 						pbDisplayPaused(_INTL("{1} absorbed the poison spikes!",pkmn.pbThis))
-					elsif pkmn.pbCanPoisonSpikes?
+					elsif pkmn.pbCanPoisonSpikes? && !pkmn.hasWorkingItem(:HEAVYDUTYBOOTS)
 						PBDebug.log("[#{pkmn.pbThis} was affected by Toxic Spikes]")
 						if pkmn.pbOwnSide.effects[PBEffects::ToxicSpikes]==2
 							pkmn.pbPoison(pkmn,true)
@@ -2232,8 +2232,7 @@ class PokeBattle_Battle
 				end
 			end
 			# Sticky Web
-      if pkmn.pbOwnSide.effects[PBEffects::StickyWeb] && !pkmn.fainted? &&
-         !pkmn.isAirborne?#(moldbreaker)
+      if pkmn.pbOwnSide.effects[PBEffects::StickyWeb] && !pkmn.fainted? && !pkmn.isAirborne? && !pkmn.hasWorkingItem(:HEAVYDUTYBOOTS)#(moldbreaker)
         if pkmn.pbCanReduceStatStage?(PBStats::SPEED,false)#nil,false,nil,moldbreaker)
           PBDebug.log("[Entry hazard] #{pkmn.pbThis} triggered Sticky Web")
           pkmn.pbReduceStat(PBStats::SPEED,1,false)#nil,false,nil,true,moldbreaker)

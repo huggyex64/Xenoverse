@@ -1133,7 +1133,7 @@ class PokeBattle_Battler
 		thismove=move
 		turneffects=[]
 		turneffects[PBEffects::TotalDamage]=damage
-		if damage>0 && move.isContactMove?
+		if damage>0 && move.isContactMove? && !target.hasWorkingItem(:PROTECTIVEPADS)
 			if !target.damagestate.substitute
 				if target.hasWorkingItem(:STICKYBARB,true) && user.item==0 && !user.isFainted?
 					user.item=target.item
@@ -1335,6 +1335,25 @@ class PokeBattle_Battler
 								target.pbThis,PBAbilities.getName(target.ability)))
 					end
 				end
+				if target.hasWorkingItem(:WEAKNESSPOLICY) && (target.pbCanIncreaseStatStage?(PBStats::ATTACK) || target.pbCanIncreaseStatStage?(PBStats::SPATK))
+					PBDebug.log("[#{target.pbThis}'s Weakness Policy triggered]")
+					target.pokemon.itemRecycle=target.item
+					target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
+					target.item=0
+					
+					if target.pbCanIncreaseStatStage?(PBStats::ATTACK,false,false)
+						target.pbIncreaseStatBasic(PBStats::ATTACK,2)
+						@battle.pbCommonAnimation("StatUp",target,nil)
+						@battle.pbDisplay(_INTL("The {1} sharply raised {2}'s Attack!",
+						PBItems.getName(target.pokemon.itemRecycle), target.pbThis))
+					end
+					if target.pbCanIncreaseStatStage?(PBStats::SPATK,false,false)
+						target.pbIncreaseStatBasic(PBStats::SPATK,2)
+						@battle.pbCommonAnimation("StatUp",target,nil)
+						@battle.pbDisplay(_INTL("The {1} sharply raised {2}'s Sp. Atk!",
+						PBItems.getName(target.pokemon.itemRecycle), target.pbThis))
+					end
+				end
 				if target.hasWorkingAbility(:WEAKARMOR) && move.pbIsPhysical?(movetype)
 					PBDebug.log("[#{target.pbThis}'s Weak Armor triggered]")
 					if target.pbCanReduceStatStage?(PBStats::DEFENSE,false,true)
@@ -1376,6 +1395,18 @@ class PokeBattle_Battler
 					target.pbIncreaseStatBasic(PBStats::ATTACK,1)
 					@battle.pbCommonAnimation("StatUp",target,nil)
 					@battle.pbDisplay(_INTL("{1}'s {2} raised its Attack!",
+							target.pbThis,PBItems.getName(target.item)))
+					target.pokemon.itemRecycle=target.item
+					target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
+					target.item=0
+				end
+			end
+			if target.hasWorkingItem(:LUMINOUSMOSS) && isConst?(movetype,PBTypes,:WATER)
+				PBDebug.log("[#{target.pbThis}'s Luminous Moss triggered]")
+				if target.pbCanIncreaseStatStage?(PBStats::SPDEF)
+					target.pbIncreaseStatBasic(PBStats::SPDEF,1)
+					@battle.pbCommonAnimation("StatUp",target,nil)
+					@battle.pbDisplay(_INTL("{1}'s {2} raised its Sp. Def!",
 							target.pbThis,PBItems.getName(target.item)))
 					target.pokemon.itemRecycle=target.item
 					target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
@@ -2497,7 +2528,7 @@ class PokeBattle_Battler
       @battle.pbDisplay(_INTL("{1} protected itself!",target.pbThis))
       @battle.successStates[user.index].protected=true
       PBDebug.log("[Move failed] #{target.pbThis}'s King's Shield stopped the attack")
-      if thismove.isContactMove?
+      if thismove.isContactMove? && !target.hasWorkingItem(:PROTECTIVEPADS)
         user.pbReduceStat(PBStats::ATTACK,2,nil,true)
       end
       return false
@@ -2508,7 +2539,7 @@ class PokeBattle_Battler
       @battle.pbDisplay(_INTL("{1} protected itself!",target.pbThis))
       @battle.successStates[user.index].protected=true
       PBDebug.log("[Move failed] #{user.pbThis}'s Spiky Shield stopped the attack")
-      if thismove.isContactMove? && !user.fainted?
+      if thismove.isContactMove? && !user.fainted? && !target.hasWorkingItem(:PROTECTIVEPADS)
         @battle.scene.pbDamageAnimation(user,0)
         amt=user.pbReduceHP((user.boss ? (user.totalhp/8)/user.hpMoltiplier : user.totalhp/8).floor)
         @battle.pbDisplay(_INTL("{1} was hurt!",user.pbThis)) if amt>0
@@ -2521,7 +2552,7 @@ class PokeBattle_Battler
       @battle.pbDisplay(_INTL("{1} protected itself!",target.pbThis))
       @battle.successStates[user.index].protected=true
       PBDebug.log("[Move failed] #{user.pbThis}'s Baneful Bunker stopped the attack!")
-      if thismove.isContactMove? && !user.isFainted? && user.pbCanPoison?(false)
+      if thismove.isContactMove? && !user.isFainted? && user.pbCanPoison?(false) && !target.hasWorkingItem(:PROTECTIVEPADS)
         PBDebug.log("#{target.pbThis} poisoned by Baneful Bunker")
         user.pbPoison(target,_INTL("{1} was poisoned!",target.pbThis))
       end
@@ -2620,6 +2651,18 @@ class PokeBattle_Battler
 					@battle.pbDisplay(_INTL("{1} evaded the attack!",target.pbThis))
 				else
 					@battle.pbDisplay(_INTL("{1}'s attack missed!",user.pbThis))
+				end
+				if user.hasWorkingItem(:BLUNDERPOLICY)
+					PBDebug.log("[#{user.pbThis}'s Blunder Policy triggered]")
+					user.pokemon.itemRecycle=user.item
+					user.pokemon.itemInitial=0 if user.pokemon.itemInitial==user.item
+					user.item=0
+					if user.pbCanIncreaseStatStage?(PBStats::SPEED,false,false)
+						user.pbIncreaseStatBasic(PBStats::SPEED,2)
+						@battle.pbCommonAnimation("StatUp",user,nil)
+						@battle.pbDisplay(_INTL("The {1} sharply raised {2}'s Speed!",
+						PBItems.getName(user.pokemon.itemRecycle), user.pbThis))
+					end
 				end
 				return false
 			end
