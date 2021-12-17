@@ -7273,6 +7273,9 @@ class PokeBattle_Move_11F < PokeBattle_Move
 		else
 			@battle.field.effects[PBEffects::TrickRoom] = 5
 			@battle.pbDisplay(_INTL("{1} twisted the dimensions!",attacker.pbThis))
+			for batt in @battle.battlers
+				@battle.pbApplyRoomService(batt)
+			end
 		end
 	end
 

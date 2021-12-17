@@ -2749,15 +2749,6 @@ class PokeBattle_Battle
 		# Calculate priority at this time
 		@usepriority=false
 		priority=pbPriority
-		# Mega Evolution
-		for i in priority
-			next if @choices[i.index][0]!=1
-			side=(pbIsOpposing?(i.index)) ? 1 : 0
-			owner=pbGetOwnerIndex(i.index)
-			if @megaEvolution[side][owner]==i.index
-				pbMegaEvolve(i.index)
-			end
-		end
 		# Call at Pokémon
 		for i in priority
 			if @choices[i.index][0]==4
@@ -2814,7 +2805,9 @@ class PokeBattle_Battle
 				echoln "Checking for #{i.index}"
 				if switched.include?(i.index)
 					echoln "TRIGGERED for #{i.index}, by #{i.pbThis}"
-					i.pbAbilitiesOnSwitchIn(true)					
+					i.pbAbilitiesOnSwitchIn(true)	
+					#roomservicecheck
+					pbApplyRoomService(i)				
 				end
 			end
 		end
@@ -2838,6 +2831,15 @@ class PokeBattle_Battle
 						end
 					end
 				end
+			end
+		end
+		# Mega Evolution
+		for i in priority
+			next if @choices[i.index][0]!=1
+			side=(pbIsOpposing?(i.index)) ? 1 : 0
+			owner=pbGetOwnerIndex(i.index)
+			if @megaEvolution[side][owner]==i.index
+				pbMegaEvolve(i.index)
 			end
 		end
 		# Use attacks
@@ -3913,3 +3915,18 @@ def pbDropItem(i)
 		pbDisplayPaused(_INTL("{1} raccoglie {2} da {3}!",$Trainer.name,PBItems.getName(@battlers[i].item),@battlers[i].name))
 	end
 end   
+def pbApplyRoomService(b)
+	if b.hasWorkingItem(:ROOMSERVICE) && b.battle.field.effects[PBEffects::TrickRoom]>0
+		PBDebug.log("[#{b.pbThis}'s Room Service triggered]")
+		if b.pbCanReduceStatStage?(PBStats::SPEED)
+			b.pbReduceStatBasic(PBStats::SPEED,1)
+			b.battle.pbCommonAnimation("StatDown",b,nil)
+			b.battle.pbDisplay(_INTL("{1}'s {2} lowered its Speed!",
+					b.pbThis,PBItems.getName(b.item)))
+			b.pokemon.itemRecycle=b.item
+			b.pokemon.itemInitial=0 if b.pokemon.itemInitial==b.item
+			b.item=0
+		end
+	end
+end
+
