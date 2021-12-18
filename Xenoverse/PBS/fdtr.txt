@@ -334,3 +334,7 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (MegaEvoluzione)\n La megaevoluzione ha tramutato le sue braccia in ali. Le agita furiosamente non essendo più in grado di muoverle come vuole.
 (MegaEvolution)\n The power of Mega Evolution has transformed its arms in wings. It shakes them furiously as it's not able to move them as it wishes.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+È in grado di produrre scariche elettriche fino a 15.000 volt. Tende a sottovalutare qualunque nemico si trovi davanti.
+Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it.

@@ -341,3 +341,5 @@ DESCRIPTION=(Stile Platino)\n Riesce a leggere i pensieri e i movimenti del nemi
 DESCRIPTION=(MegaEvoluzione)\n Danza in continuazione davanti ad allenatori ammaliati dalla sua bravura, mentre cerca di far diminuire il dolore delle fiamme.
 [275_1]
 DESCRIPTION=(MegaEvoluzione)\n La megaevoluzione ha tramutato le sue braccia in ali. Le agita furiosamente non essendo più in grado di muoverle come vuole.
+[2031_1]
+DESCRIPTION=È in grado di produrre scariche elettriche fino a 15.000 volt. Tende a sottovalutare qualunque nemico si trovi davanti.
