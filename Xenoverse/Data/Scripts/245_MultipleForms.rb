@@ -2409,7 +2409,7 @@ MultipleForms.register(:WEAVILE,{
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
-			next 
+			next 0
 		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Weavile") if pokemon.form==2
@@ -2655,7 +2655,7 @@ MultipleForms.register(:SHIFTRY,{
 		next
 	},
 	"getUnmegaForm"=>proc{|pokemon|
-		next 
+		next 0
 	},
 	"getAltitude"=>proc{|pokemon|
 		next 24 if pokemon.form==1
@@ -2689,7 +2689,7 @@ MultipleForms.register(:BELLOSSOM,{
 		next
 	},
 	"getUnmegaForm"=>proc{|pokemon|
-		next 
+		next 0
 	},	
 	"type2"=>proc{|pokemon|
 		next getID(PBTypes,:FIRE) if pokemon.form==1
