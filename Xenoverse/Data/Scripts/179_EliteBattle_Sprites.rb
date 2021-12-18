@@ -184,6 +184,7 @@ class DynamicPokemonSprite
     return if !pokemon || pokemon.nil?
     @pokemon = pokemon
     @altitude = @metrics[2][pokemon.species]
+    @altitude = pokemon.is_a?(PokeBattle_Pokemon) ? pokemon.altitude(@altitude) : pokemon.pokemon.altitude(@altitude) 
     if back
       @yposition = @metrics[0][pokemon.species]
       @altitude *= 0.5

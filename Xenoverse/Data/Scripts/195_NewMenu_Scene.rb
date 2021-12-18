@@ -371,7 +371,7 @@ class NewMenu
 		elsif Input.trigger?(Input::C)
 			@items[@index].select
 			pbSEPlay("Select")
-		elsif Input.trigger?(Input::Y) && !(pbInSafari? || pbInBugContest?) && $Trainer.party.length>0
+		elsif Input.trigger?(Input::Y) && !(pbInSafari? || pbInBugContest?) && $Trainer.party.length>0 && $game_switches[UNLOCKMGSWITCH]
 			pbSEPlay("Select")
 			pbMGH
 		elsif Input.trigger?(Input::B)

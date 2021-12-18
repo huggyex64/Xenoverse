@@ -21,6 +21,13 @@ class PokeBattle_Pokemon
 		self.calcStats
 		MultipleForms.call("onSetForm",self,value)
 	end
+
+	def altitude(original)
+		v = MultipleForms.call("getAltitude",self)
+		Log.i("SPRITE INFO","Altitude is #{v}. Original was #{original}")
+		return v if v!=nil
+		return original
+	end
 	
 	def formNoCall=(value)
 		@form=value
@@ -2649,7 +2656,11 @@ MultipleForms.register(:SHIFTRY,{
 	},
 	"getUnmegaForm"=>proc{|pokemon|
 		next 
-	},	
+	},
+	"getAltitude"=>proc{|pokemon|
+		next 24 if pokemon.form==1
+		next
+	},
 	"type1"=>proc{|pokemon|
 		next getID(PBTypes,:FLYING) if pokemon.form==1
 		next 

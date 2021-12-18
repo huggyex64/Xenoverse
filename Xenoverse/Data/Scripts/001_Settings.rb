@@ -32,7 +32,7 @@ STAFF_NAMES=["Starkey",
              "Zeppho",
              "Paco"
              ]
-
+UNLOCKMGSWITCH = 108
 #===============================================================================
 # * The default screen width (at a zoom of 1.0; size is half this at zoom 0.5).
 # * The default screen height (at a zoom of 1.0).
