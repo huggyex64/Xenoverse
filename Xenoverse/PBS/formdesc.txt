@@ -337,3 +337,7 @@ DESCRIPTION=(Stile Lucente)\n Le sue cellule hanno caratteristiche molto simili 
 DESCRIPTION=(Stile Splendente)\n In un istante congela l'umidità circostante e crea granelli di ghiaccio che scaglia sulla preda.
 [448_1]
 DESCRIPTION=(Stile Platino)\n Riesce a leggere i pensieri e i movimenti del nemico decifrando l’aura che questo emette.
+[182_1]
+DESCRIPTION=(MegaEvoluzione)\n Danza in continuazione davanti ad allenatori ammaliati dalla sua bravura, mentre cerca di far diminuire il dolore delle fiamme.
+[275_1]
+DESCRIPTION=(MegaEvoluzione)\n La megaevoluzione ha tramutato le sue braccia in ali. Le agita furiosamente non essendo più in grado di muoverle come vuole.

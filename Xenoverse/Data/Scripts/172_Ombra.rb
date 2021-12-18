@@ -72,7 +72,7 @@ class ShadowSprite
       @sprite.visible=!(@event.character_name=="" or @event.character_name=="nil" or 
         @event.bush_depth>0 or checkNoShadowNames(eventname) or !@rsprite.visible)
     else
-      @sprite.visible=!(@event.bush_depth>0 or !(@map.id==$game_map.id) or $PokemonGlobal.surfing or $PokemonGlobal.bicycle)
+      @sprite.visible=!(@event.bush_depth>0 or !(@map.id==$game_map.map_id) or $PokemonGlobal.surfing or $PokemonGlobal.bicycle)
     end
 		
     if @event!=$game_player

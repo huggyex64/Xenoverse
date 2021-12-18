@@ -186,9 +186,9 @@ if $DEBUG
 		if Input.trigger? (Input::F6)
 			#begin
 				cmd = pbEnterBoxName("Type a command", 0, 200, initialText="")
-				ret = eval cmd
 				begin
-					Log.i("COMMAND","=> " + ret.to_s)
+				ret = eval cmd
+					Log.i("COMMAND","=> " + cmd.to_s)
 				rescue
 					Log.i("COMMAND","=> nil")
 				end

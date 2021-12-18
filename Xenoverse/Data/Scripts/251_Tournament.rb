@@ -165,7 +165,7 @@ class Bracket < Sprite
         for z in 0...rect.width
           for w in 0...rect.height
             p = bmp.get_pixel(rect.x+z,rect.y+w)
-            bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.5,p.green/1.5,p.blue/1.5,p.alpha/2))
+            bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.9,p.green/1.9,p.blue/1.9,p.alpha/2.5))
             #bmp.set_pixel(rect.x+z,rect.y+w,rc)
           end
         end
@@ -185,7 +185,7 @@ class Bracket < Sprite
           for z in 0...rect.width
             for w in 0...rect.height
               p = bmp.get_pixel(rect.x+z,rect.y+w)
-              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.5,p.green/1.5,p.blue/1.5,p.alpha/2))
+              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.9,p.green/1.9,p.blue/1.9,p.alpha/2.5))
               #bmp.set_pixel(rect.x+z,rect.y+w,rc)
             end
           end
@@ -196,7 +196,7 @@ class Bracket < Sprite
           for z in 0...rect.width
             for w in 0...rect.height
               p = bmp.get_pixel(rect.x+z,rect.y+w)
-              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.5,p.green/1.5,p.blue/1.5,p.alpha/2))
+              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.9,p.green/1.9,p.blue/1.9,p.alpha/2.5))
               #bmp.set_pixel(rect.x+z,rect.y+w,rc)
             end
           end
@@ -208,7 +208,7 @@ class Bracket < Sprite
           for z in 0...rect.width
             for w in 0...rect.height
               p = bmp.get_pixel(rect.x+z,rect.y+w)
-              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.5,p.green/1.5,p.blue/1.5,p.alpha/2))
+              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.9,p.green/1.9,p.blue/1.9,p.alpha/2.5))
               #bmp.set_pixel(rect.x+z,rect.y+w,rc)
             end
           end
@@ -227,7 +227,7 @@ class Bracket < Sprite
           for z in 0...rect.width
             for w in 0...rect.height
               p = bmp.get_pixel(rect.x+z,rect.y+w)
-              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.5,p.green/1.5,p.blue/1.5,p.alpha/2))
+              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.9,p.green/1.9,p.blue/1.9,p.alpha/2.5))
               #bmp.set_pixel(rect.x+z,rect.y+w,rc)
             end
           end
@@ -240,7 +240,7 @@ class Bracket < Sprite
           for z in 0...rect.width
             for w in 0...rect.height
               p = bmp.get_pixel(rect.x+z,rect.y+w)
-              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.5,p.green/1.5,p.blue/1.5,p.alpha/2))
+              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.9,p.green/1.9,p.blue/1.9,p.alpha/2.5))
               #bmp.set_pixel(rect.x+z,rect.y+w,rc)
             end
           end
@@ -252,7 +252,7 @@ class Bracket < Sprite
           for z in 0...rect.width
             for w in 0...rect.height
               p = bmp.get_pixel(rect.x+z,rect.y+w)
-              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.5,p.green/1.5,p.blue/1.5,p.alpha/2))
+              bmp.set_pixel(rect.x+z,rect.y+w,Color.new(p.red/1.9,p.green/1.9,p.blue/1.9,p.alpha/2.5))
               #bmp.set_pixel(rect.x+z,rect.y+w,rc)
             end
           end
@@ -1134,6 +1134,10 @@ TRAINERPOOL_hard=[
   
 ]  #ALMENO 16 ALLENATORI
 
+for i in TRAINERPOOL_basic
+  TRAINERPOOL_hard.push(i) if !TRAINERPOOL_hard.include?(i)
+end
+
 TRAINERPOOL_expert=[]  #ALMENO 32 ALLENATORI
 
 LANCEPOOL=[
@@ -1305,8 +1309,10 @@ SKILL_LEVELS={
 
 BAN_LIST=[:LUXFLON,:GENESECT,:MEW,:MEWTWOX,:LUGIA,:HOOH,:DEOXYS]
 
-REWARDPOOL=[:BOTTLECAP,:RARECANDY,]
-REWARDLOSINGPOOL=[:FULLHEAL,:FULLRESTORE]
+REWARDPOOL=[:BOTTLECAP,:RARECANDY,:ADAMANTMINT,:BOLDMINT,:BRAVEMINT,:CALMMINT,:CAREFULMINT,:GENTLEMINT,
+  :HASTYMINT,:IMPISHMINT,:JOLLYMINT,:LAXMINT,:LONELYMINT,:MILDMINT,:MODESTMINT,:NAIVEMINT,:NAUGHTYMINT,
+  :QUIETMINT,:RASHMINT,:RELAXEDMINT,:SASSYMINT,:SERIOUSMINT,:TIMIDMINT]
+REWARDLOSINGPOOL=[:FULLHEAL,:FULLRESTORE,:POMEGBERRY,:KELPSBERRY,:QUALOTBERRY,:HONDEWBERRY,:GREPABARRY,:TOMATOBERRY]
 
 TOURNAMENT_OPPONENT_EVENT_ID = 54
 TOURNAMENT_EVENT_ID = 56
@@ -2637,7 +2643,10 @@ class PWT
         key = [pool[@oppIndex][1],pool[@oppIndex][2]]
         if VIPLIST.include?(key)
           $game_switches[VIPCUPSWITCH[key]]=true
-          $Trainer.vips.push(key) if !$Trainer.vips.include?(key)
+          if !$Trainer.vips.include?(key)
+            $Trainer.vips.push(key)
+            $achievements[key[1]].progress=1
+          end
         end
         @win=true
       else
@@ -2648,13 +2657,18 @@ class PWT
     else
       $PokemonGlobal.nextBattleBack = "ApolloFinal"
       if pbTournamentBattle(pool[@oppIndex][1],pool[@oppIndex][2],pool[@oppIndex][3],false,0,true)
-        Kernel.pbMessage(_INTL("Congratulations to {1} for winning! Truly a stunning performance, Gengah ha ha!",$Trainer.name))
+        pbFadeOutAndHide(@transition)
+        Kernel.pbMessage(_INTL("Congratulations to {1} for winning! Truly a stunning performance, Gengah ha ha!", $Trainer.name))
         Kernel.pbMessage(_INTL("Remember to go to the reception to collect your winnings!"))
         @playerwon=true
         key = [pool[@oppIndex][1],pool[@oppIndex][2]]
         if VIPLIST.include?(key)
+          pbSEPlay("Victory VIP")
           $game_switches[VIPCUPSWITCH[key]]=true
-          $Trainer.vips.push(key) if !$Trainer.vips.include?(key)
+          if !$Trainer.vips.include?(key)
+            $Trainer.vips.push(key) 
+            $achievements[key[1]].progress=1
+          end
         end
         @win=true
       else
@@ -2668,13 +2682,13 @@ class PWT
   #End tournament section
   def endTournament(win)
     #What to do if player won    
-    closeGraphics
+    closeGraphics if @sprites
     restoreParty
     $game_system.message_position = 2
     $ISINTOURNAMENT=false
     pbTransferWithTransition(621,17,22,:DIRECTED,8) {
-      pbFadeOutAndHide(@transition)
-      pbDisposeSpriteHash(@transition)
+      pbFadeOutAndHide(@transition) if @transition
+      pbDisposeSpriteHash(@transition) if @transition
     }
     if win==true
       @player.tournament_wins+=1
@@ -2687,11 +2701,12 @@ class PWT
       end
       
       Kernel.pbMessage(_INTL("Here is your reward for winning."))
-      @player.battle_points+=12 + @firstPool.length/16*2 #12 base points for winning + 2 for each bigger stage
+      qt = 12 + @firstPool.length/16*3
+      @player.battle_points+=qt #12 base points for winning + 2 for each bigger stage
       reward = REWARDPOOL[rand(REWARDPOOL.length)]
       rewardname = getID(PBItems,reward)
      # pbCallBubStart(0)
-      Kernel.pbMessage(_INTL("{1} obtained 5 Battle Points!",@player.name))
+      Kernel.pbMessage(_INTL("{1} obtained {2} Battle Points!",@player.name,qt))
       Kernel.pbMessage(_INTL("Also..."))
       Kernel.pbMessage(_INTL("For showing an amazing performance..."))
       Kernel.pbMessage(_INTL("...{1} obtains {2}!",@player.name,PBItems.getName(rewardname)))
@@ -2704,11 +2719,12 @@ class PWT
      # pbCallBubStart(3)
       Kernel.pbMessage(_INTL("I'm so sorry you lost! But you stood your ground, I'm sure you can win it next time!"))
       Kernel.pbMessage(_INTL("You lost, but you still got some rewards."))
-      @player.battle_points+=2 + (@firstPool.length/@pool.length * 0.65).to_i
+      qt = 3 + (@firstPool.length/@pool.length * 0.65).to_i
+      @player.battle_points+=qt
       reward = REWARDLOSINGPOOL[rand(REWARDLOSINGPOOL.length)]
       rewardname = getID(PBItems,reward)
      # pbCallBubStart(0)
-      Kernel.pbMessage(_INTL("{1} obtained 1 Battle Points and {2}.",@player.name,PBItems.getName(rewardname)))
+      Kernel.pbMessage(_INTL("{1} obtained {3} Battle Points and {2}.",@player.name,PBItems.getName(rewardname),qt))
       Kernel.pbReceiveItem(reward)
      # pbCallBubStart(3)
       Kernel.pbMessage(_INTL("See you next time!"))

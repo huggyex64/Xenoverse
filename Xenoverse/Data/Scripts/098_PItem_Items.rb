@@ -55,7 +55,6 @@ def pbIsSnagBall?(item)
 end
 
 def pbIsPokeBall?(item)
-	echoln $ItemData[item] && ($ItemData[item][ITEMTYPE]==3 || $ItemData[item][ITEMTYPE]==4)
   return $ItemData[item] && ($ItemData[item][ITEMTYPE]==3 || $ItemData[item][ITEMTYPE]==4)
 end
 

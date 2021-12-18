@@ -148,6 +148,8 @@ end
 
 $allRetro=false
 
+
+$overrideEncounters={}
 RETROMONSWITCH = 950
 
 def pbEncounter(enctype)
@@ -155,6 +157,81 @@ def pbEncounter(enctype)
 
 	#IF map is paradiso sakura
 	#then ottieni incontro dal server
+	if $game_map.map_id == 615 #works only in pink path
+		list = nil
+		Log.i("INFO","In Pink Path! Checking for encounters...")
+
+		# first i check whether i have an encounter list stored
+		if $overrideEncounters.length>0
+			for key in $overrideEncounters.keys
+				if Time.now - key < 7200
+					#evaluate encounter by list with key
+					list = $overrideEncounters[key]
+					
+				end
+			end
+
+			if list.nil? #no suitable list was found, so i should request a list
+				list = pbRequestEncounterList()
+				$overrideEncounters[Time.now]=list
+			end
+
+		else # i need to make a web request right away to retrieve the list
+			if list.nil? #no suitable list was found, so i should request a list
+				list = pbRequestEncounterList()
+				$overrideEncounters[Time.now]=list
+			end
+		end
+
+		if !list.nil? && list.length>0
+			
+			Log.i("INFO","SPECIAL ENCOUNTER LIST HAD")
+			if rand(100)<50
+				Log.i("INFO","SPECIAL ENCOUNTER POOL TRIGGERED")
+				total = 0
+				chances = []
+				#getting only the valid encounters
+				pool = []
+				list.each do |e|
+					if e[:daymod]==0
+						pool.push(e)
+					elsif e[:daymod]==1 && PBDayNight.isDay?(pbGetTimeNow())
+						pool.push(e)
+					elsif e[:daymod]==2 && PBDayNight.isNight?(pbGetTimeNow())
+						pool.push(e)
+					end
+				end
+
+
+				pool.each do |enc| 
+					chances.push(enc[:chance])
+					total+=enc[:chance]
+				end
+				rnd = 0
+				r=rand(total)
+				rnd=r if rnd<r
+
+				chosen = 0
+				chance = 0
+				for i in 0...chances.length
+					chance+=chances[i]
+					if rnd<chance
+						chosen=i
+						break
+					end
+				end
+
+				encountered = pool[chosen]
+				if encountered != nil
+					level=encountered[:minlevel]+rand(1+encountered[:maxlevel]-encountered[:minlevel])
+					poke = pbGenerateWildPokemon(encountered[:species],level)
+					poke.forcedForm = encountered[:form]
+					pbWildPokemonBattle(poke)
+					return true
+				end
+			end
+		end
+	end
 
   if $PokemonGlobal.partner
     encounter1=$PokemonEncounters.pbEncounteredPokemon(enctype)
@@ -212,10 +289,87 @@ def pbBattleOnStepTaken
   if $Trainer.party.length>0
     encounterType=$PokemonEncounters.pbEncounterType
     if encounterType>=0
-      if $PokemonEncounters.isEncounterPossibleHere?()
+      if $PokemonEncounters.isEncounterPossibleHere?()	
         encounter=$PokemonEncounters.pbGenerateEncounter(encounterType)
         encounter=EncounterModifier.trigger(encounter)
         if $PokemonEncounters.pbCanEncounter?(encounter)
+			if $game_map.map_id == 615 #works only in pink path
+				list = nil
+				Log.i("INFO","In Pink Path! Checking for encounters...")
+		
+				# first i check whether i have an encounter list stored
+				if $overrideEncounters.length>0
+					for key in $overrideEncounters.keys
+						if Time.now - key < 7200
+							#evaluate encounter by list with key
+							list = $overrideEncounters[key]
+							
+						end
+					end
+		
+					if list.nil? #no suitable list was found, so i should request a list
+						list = pbRequestEncounterList()
+						$overrideEncounters[Time.now]=list
+					end
+		
+				else # i need to make a web request right away to retrieve the list
+					if list.nil? #no suitable list was found, so i should request a list
+						list = pbRequestEncounterList()
+						$overrideEncounters[Time.now]=list
+					end
+				end
+		
+				if !list.nil? && list.length>0
+					
+					Log.i("INFO","SPECIAL ENCOUNTER LIST HAD")
+					if rand(100)<50
+						Log.i("INFO","SPECIAL ENCOUNTER POOL TRIGGERED")
+						total = 0
+						chances = []
+						#getting only the valid encounters
+						pool = []
+						list.each do |e|
+							if e[:daymod]==0
+								pool.push(e)
+							elsif e[:daymod]==1 && PBDayNight.isDay?(pbGetTimeNow())
+								pool.push(e)
+							elsif e[:daymod]==2 && PBDayNight.isNight?(pbGetTimeNow())
+								pool.push(e)
+							end
+						end
+		
+		
+						pool.each do |enc| 
+							chances.push(enc[:chance])
+							total+=enc[:chance]
+						end
+						rnd = 0
+						r=rand(total)
+						rnd=r if rnd<r
+		
+						chosen = 0
+						chance = 0
+						for i in 0...chances.length
+							chance+=chances[i]
+							if rnd<chance
+								chosen=i
+								break
+							end
+						end
+		
+						encountered = pool[chosen]
+						if encountered != nil
+							level=encountered[:minlevel]+rand(1+encountered[:maxlevel]-encountered[:minlevel])
+							poke = pbGenerateWildPokemon(encountered[:species],level)
+							poke.forcedForm = encountered[:form]
+							pbWildPokemonBattle(poke)
+							return true
+						end
+					end
+				end
+			end
+
+
           if $PokemonGlobal.partner
             encounter2=$PokemonEncounters.pbEncounteredPokemon(encounterType)
             if $Trainer.retrochain[encounter[0]]==nil
@@ -285,5 +439,55 @@ def pbTestRetroChances
 		echoln "Found [#{rand(1000)<ch}]"
 		echo " Found [#{rand(1000)<ch}]"
 		echo " Found [#{rand(1000)<ch}]"
+	end
+end
+
+def pbTimeTest
+	time = Time.now
+	180.times do
+		Graphics.update
+		Input.update
+	end
+	time2 = Time.now
+	dt = time2 - time
+	echoln "time:#{time} time2:#{time2} dt:#{dt}"
+end
+
+def pbRequestEncounterList()
+	#Getting the response from the server
+	Log.i("DEBUG","Starting web request")
+	res = ""
+	begin
+		res = Database.makeRequest("encounterList") rescue ""
+		if res != ""
+			result = res.split("\r\n")
+			result.each_index do |encId|
+				result[encId] = result[encId].split("</s>")
+			end
+
+			list = []
+
+			#Handling all the parsing needed
+			result.each do |enc|
+				parsed = {
+					:species => enc[0].to_sym,
+					:minlevel => enc[1].to_i,
+					:maxlevel => enc[2].to_i,
+					:form => enc[3].to_i,
+					:daymod => enc[4].to_i,
+					:chance => enc[5].to_i
+				}
+				list.push(parsed)
+			end
+
+			#sorting by decreasing chances
+			list = list.sort {|x,y| y[:chance]<=>x[:chance]}
+
+			Log.i("DEBUG",list)
+			return list
+		else
+			Log.i("INFO","Failed to retrieve encounter list or was empty.")
+			return []
+		end
 	end
 end

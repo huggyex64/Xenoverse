@@ -19,7 +19,7 @@
 # 5 => ALL (WTF, Error, Warnign, Debug, Verbose)
 #===============================================================================
 
-LOG_LEVEL = 0
+LOG_LEVEL = 3
 
 AUTOSTART_CONSOLE = true
 

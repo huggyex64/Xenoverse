@@ -2655,7 +2655,7 @@ class PokeBattle_Battle
 								commandDone=true
 							end
 						elsif cmd==1 # Bag
-							if !@internalbattle
+							if !@internalbattle || $ISINTOURNAMENT
 								if pbOwnedByPlayer?(i)
 									pbDisplay(_INTL("Items can't be used here."))
 								end
@@ -3787,7 +3787,7 @@ class PokeBattle_Battle
 					pbDisplayPaused(@endspeech2.gsub(/\\[Pp][Nn]/,self.pbPlayer.name))
 				end
 				# Calculate money gained for winning
-				if @internalbattle
+				if @internalbattle && !$ISINTOURNAMENT
 					tmoney=0
 					if @opponent.is_a?(Array)   # Double battles
 						maxlevel1=0; maxlevel2=0; limit=pbSecondPartyBegin(1)

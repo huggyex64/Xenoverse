@@ -798,6 +798,7 @@ end
 
 def pbHttpRequest(host, request, filename=nil, depth=0)
   raise "Redirection level too deep" if depth>10
+  Log.i("INFO","Creating the socket")
   socket = ::TCPSocket.new(host, 80, true)
   time = Time.now.to_i
   begin

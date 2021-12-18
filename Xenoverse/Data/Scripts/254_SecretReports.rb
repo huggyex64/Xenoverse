@@ -47,10 +47,10 @@ SecretReports.register({
         "per smaltire più in fretta il lavoro. Nel frattempo, sono stata promossa a Sergente! "+
         "A quanto pare la mia motivazione ha fatto colpo sui ranghi alti e hanno deciso di promuovermi. Buon per me!",
         #2
-        "???: Ormai è passato tantissimo tempo da quando mi sono unita al Team Dimension. 
-        Sono stata addirittura promossa a Colonnello! Durante la promozione ho conosciuto il Generale, 
-        che uomo affascinante! Credo di essermi innamorata! Mi è stata assegnata una missione 
-        riguardante la cattura di una specie X nel Canyon Asteroide. Spero di non dover fargli del male, ma se fosse necessario...",
+        "???: Ormai è passato tantissimo tempo da quando mi sono unita al Team Dimension. " +
+        "Sono stata addirittura promossa a Colonnello! Durante la promozione ho conosciuto il Generale, "+
+        "che uomo affascinante! Credo di essermi innamorata! Mi è stata assegnata una missione "+
+        "riguardante la cattura di una specie X nel Canyon Asteroide. Spero di non dover fargli del male, ma se fosse necessario...",
         #3
         "???: Anche se ho fallito nell’ultima missione, il Generale ha chiesto nuovamente di me! "+
         "Questa volta sono stata incaricata di rubare un treno, e farò in modo che la missione "+
@@ -59,7 +59,7 @@ SecretReports.register({
         "???: Alla fine la missione sul treno è andata a buon fine, ma non grazie a me... "+
         "ho perso contro quella sottospecie di Trubbish..."+
         "Il Generale ha preso le redini della situazione e ha portato a termine "+
-        "la missione senza problemi. È proprio magnifico! Devo migliorare per poter" +
+        "la missione senza problemi. È proprio magnifico! Devo migliorare per poter " +
         "essere alla sua altezza, non posso assolutamente deluderlo!",
         #5
         "???: A quanto pare stiamo per partire per la luna, sono davvero nervosa... "+
@@ -111,7 +111,7 @@ SecretReports.register({
 })
 
 def pbTestReport
-    $Trainer.obtainPage(:TamaraReports,1)
+    $Trainer.obtainPage(:TamaraReports,3)
     SecretReportScreen.new(SecretReports.get(:TamaraReports))
 end
 
@@ -215,7 +215,7 @@ class SecretReportScreen
             Input.update
             @sprites["fadeout"].opacity -= 255/14
         end
-        Kernel.pbMessage(@reports[:pages][id])
+        Kernel.pbMessage(_INTL(@reports[:pages][id]))
 
         14.times do
             Graphics.update
