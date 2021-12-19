@@ -454,6 +454,64 @@ Yes
 No
 No
 [Map9]
+Dimmi tutto.
+Tell me everything.
+Vai al punto.
+Go on.
+Bellocchio
+Looker
+Subito dopo la nostra separazione all’Isola Shinobi, la prima cosa che abbiamo fatto
+Right after we parted on Shinobi Island, the first thing we did
+è stata redigere un rapporto per la Polizia Internazionale.
+was write down a report for the International Police.
+Chiaramente, sono stato aggiornato da Aster riguardo la calamità che stava per abbattersi su Eldiw.
+Clearly, I myself was updated by Aster about the calamity that was about to befall Eldiw.
+Mi ha raccontato anche di come hai gestito la situazione con le tre bestie sacre e di come sei riuscito a placarle...che storia!
+He also told me of how you managed to handle the situation with the three sacred beasts and how you managed to calm them down...what a story!
+Beh, per farla breve, io e Tarassaco ci siamo coordinati per le indagini.
+Well, long story short, Taraxo and I coordinated for the investigation.
+Tarassaco ha ricevuto una chiamata da un suo vecchio amico, un tale <b>Maurice</b>,
+Taraxo got a call from an old friend of his, a certain <b>Chrysler</b>,
+che gli ha detto di aver rivelato delle strane onde durante la messa a punto di un robot o qualcosa del genere.
+that told him about some strange waves he detected while he was fine-tuning a robot or something like that.
+Sicuramente Tarassaco saprà spiegarsi meglio di me.
+Surely Taraxo will explain better than me.
+\PN, ricordi Revolver, la recluta del Team Dimension che Maurice ha abilmente rimesso in funzione?
+\PN, do you remember Revolver, the grunt from Team Dimension that Chrysler has skillfully put back together?
+È stato danneggiato durante delle operazioni di soccorso, e mentre stavano effettuando la manutenzione,
+It was damaged during the rescue operations, and while he was fixing it,
+Maurice ha captato alcune particolari onde provenienti dal <b>Canyon Asteroide</b>.
+Chrysler detected some strange waves coming from the <b>Sunflare Canyon</b>.
+Mi ha contattato per avere la mia opinione,
+He called me to have my opinion on that,
+e ho motivo di credere che queste onde siano legate al fenomeno della furia.
+and I have reasons to believe that those waves are related to the Fury phenomenon.
+\PN, vorrei che te ne occupassi tu.
+\PN, I’d like you to take care of it.
+Vedi, io e Tarassaco abbiamo trovato una pista e vorremmo sapere dove ci può condurre. Sperando che non sia un abbaglio!
+You see, Taraxo and I are on to something and we’d like to see where we get with this. Hoping it is not a mistake!
+Non sarai da solo|a questa volta. Maurice sa già tutto.
+Inoltre abbiamo informato anche il <b>Capopalestra Crisante</b>.
+Moreover, we also informed the <b>Gym Leader Caspar</b>.
+Essendo lo sceriffo di Scorpiopoli conosce a menadito la conformazione del territorio e sarà in grado di aiutarvi.
+Being the Sheriff of Westar City he knows by heart the territory conformation and surely will be able to help you.
+Ora dovresti andare, \\PN. La strada per il Canyon Asteroide è lunga
+Now you oughta go, \PN. The road to the Sunflare Canyon is harsh
+e gli altri ti stanno già aspettando in città!
+and the others are already awaiting you in the city!
+Io e Bellocchio resteremo qui a indagare sulla nostra pista.
+Looker and I will stay here and follow the hints we found.
+Spero proprio che questa pista sia quella giusta... \PN, sei ancora qui? Dovresti andare ad indagare a Scorpiopoli!
+I really hope we got it right this time... \PN, are you still here? You should head to Westar City and investigate!
+\PN, non dovresti andare a Scorpiopoli? Gli altri ti stanno aspettando!
+\PN, shouldn’t you head to Westar City? The others are waiting for you!
+You won’t be alone this time around, as Chrysler already knows everything.
+Sei curioso di sapere cos’è successo da allora?
+Are you curious to know what went on since then?
+Sai, ci siamo dati molto da fare da quando hai battuto quel Greninja!
+We have been very busy since you defeated that Greninja, you know?
+Ah! Eccolo|a qui! Ti stavamo aspettando, \PN.
+Ha! There you are! We were waiting for you, \PN.
 <<[>>old<<]>>Sembra un aggeggio piuttosto complicato. Meglio non toccarlo.
 <<[>>old<<]>>That's a complicated device. Maybe you should not touch it.
 Tarassaco
@@ -695,6 +753,28 @@ No
 Sì
 Yes
 [Map14]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
 Eusen
 Eusen
 Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
@@ -975,6 +1055,28 @@ Kiloo...!
 <<[>>old<<]>>Better get it back to its rightful owner.
 [Map21]
 [Map22]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
 Eusen
 Eusen
 Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
@@ -1317,6 +1419,60 @@ Heal Pokémon
 Usa Box
 Use Box
 [Map28]
+Bellocchio
+Looker
+Oh, sei sveglio|a \PN?
+Oh, \PN! You’re awake?
+Stavo discutendo con Bellocchio di ciò che è accaduto nel Bunker... 
+I was discussing with Looker what happened in the Bunker...
+Chiamare paranormale l’esperienza che avete vissuto è dir poco...
+Just calling what you lived paranormal is an understatement...
+In ogni caso, stavo parlando con tuo padre di una certa frase su cui mi ha chiesto di indagare.
+Anyway, I was speaking with your father of a certain sentence he asked me to look into.
+Purtroppo porto cattive notizie.
+Sadly, I have bad news.
+Quella frase, <b>Chaos omnia impera</b>, non appare in alcun testo.
+That sentence, <b>Chaos omnia impera<b>, can’t be found in any text.
+Ho fatto controllare anche da alcuni colleghi nelle altre regioni, ma nulla. Non abbiamo la minima idea di cosa possa voler dire.
+I made some of my colleagues search in the other region libraries too, but to no avail. We have no idea of what that might mean.
+Quindi un altro buco nell’acqua...
+Yet another miss... 
+Non è detto. Grazie a questo, siamo riusciti a restringere il cerchio delle indagini nettamente.
+I wouldn’t say that. Thanks to that sentence, we managed to close up the investigation area significantly.
+Ora come ora, è rimasto solo un gruppo di persone che potrebbe darci una risposta, ma purtroppo non abbiamo ancora avuto modo di parlare con loro.
+Right now there’s just one more group of people that might give us an answer, but unfortunately we haven't managed to speak with them yet.
+A quanto pare sono impegnati con una sorta di rituale sul Monte Zodiaco.
+It seems they’re busy with some king of ritual on Mt. Zodiac.
+Ti riferisci ai Cardinali?
+You’re talking about the Cardinals? 
+Loro sono le persone che in assoluto hanno la maggior conoscenza sulle leggende di Eldiw.
+They’re the ones that have the most amount of knowledge on Eldiw’s legends. 
+Probabilmente sanno qualcosa.
+They might know something.
+\PN, la prossima meta è il Monte Zodiaco, dovrai prepararti al meglio!
+\PN, your next destination will be Mt. Zodiac, you should prepare carefully!
+Per me è ora di andare, ho ancora dei rapporti da mandare al QG.
+As for me, it’s time to go and hand over the reports to the HQ. See you! 
+\PN... So che avevo detto che sarei stato più presente,
+\PN... I know that I said I’d be more available,
+ma credo che non potrò più aiutarti molto sul campo.
+but I think that I won’t be able to help much on the field.
+Devo aiutare per l’interrogatorio di Victor, e vorrei passare a trovarlo più spesso ora che Tamara...
+I need to help with Victor’s interrogation, and I’d like to see him more now that Dahlia...
+Ma dobbiamo guardare avanti! \PN,
+But we must look forward! \PN,
+sono più che certo che riuscirai a risolvere il mistero della Furia.
+I’m more than sure you’ll be able to solve the mystery of the Fury. 
+Oh! stavo quasi per dimenticarmene.
+Oh, I was about to forget. 
+Poichè adesso hai l'accesso al potere della <b>Mega Evoluzione</b>, ti meriti un regalo.
+Seeing as you possess the power of <b>Mega Evolution</b> now, you deserve a gift.
+Non fare complimenti!
+Go ahead!
+Credo in te! Per Aspera Ad Astra!
+I believe in you! Per Aspera Ad Astra!
+<<[>>old<<]>>Hai concluso il Pass numero 3 delle Battaglie Furiose. Congratulazioni!
+<<[>>old<<]>>You finished Pass 3. Congratulations!
 <<[>>old<<]>>Il cestino è pieno di carta straccia.
 <<[>>old<<]>>The trash is full of wastepaper.
 <<[>>old<<]>>È pieno zeppo di libri riguardo i Pokémon e i loro habitat.
@@ -1465,6 +1621,28 @@ Oh, \PN...you're always ready for adventure, huh?
 <<[>>old<<]>>Cinque anni dopo...
 <<[>>old<<]>>Five years later...
 [Map30]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
 Eusen
 Eusen
 Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
@@ -1585,6 +1763,28 @@ Yes
 No
 No
 [Map34]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
 Fugen
 Fugen
 Ciao! Sei tu il||la famoso|a \PN, vero?
@@ -5209,6 +5409,28 @@ Talvolta in queste zone è possibile rinvenire una particolare roccia, denominat
 In these areas, sometimes you can find a particular stone, called the <b>Xenolith</b>.<<n>>Research reveals that some X Pokémon react to the energy surge from this stone, and evolve.<<n>>Who knows, you might get one too...
 [Map97]
 [Map98]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
 Eusen
 Eusen
 Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
@@ -5492,6 +5714,28 @@ Scaleon
 Scaaa...!
 Scaaa...!
 [Map105]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
 Fugen
 Fugen
 Ciao! Sei tu il||la famoso|a \PN, vero?
@@ -6352,6 +6596,10 @@ Nora
 Ho sempre vissuto da sola, ma i miei Hippopotas mi hanno aiutato a patire meno la solitudine. I Pokémon sono davvero delle creature straordinarie!
 I've always lived alone, but my Hippopotas have helped me cope with the loneliness.<<n>>Pokémon really are wonderful creatures!
 [Map135]
+Revolver
+Revolver
+I miei sensori non sono abbastanza potenti per individuare con precisione l’origine delle onde. Bzz!
+My sensors are not powerful enough to pick up the waves’ origin. Bzz!
 Tig
 Tig
 Ehi, ma guarda dove vai! Per poco non ti mettevo sotto!!
@@ -6983,6 +7231,87 @@ Yes
 No
 No
 [Map150]
+
+...Eppure sono certo che queste onde non possono venire da un’altura!
+...Yet I’m quite sure that these waves can’t be coming from a high location!
+Ragazzo, ti ripeto che è l’unica opzione possibile! Il Canyon Asteroide è totalmente inospitale per-
+Boy, as I keep saying, this is the only possibility! The Sunflare Canyon is too harsh to even think of-
+Adesso siamo quasi al completo. Sceriffo, vuole spiegare lei la situazione?
+Almost everyone’s here now. Sheriff, would you like to clarify for him|||her?
+Urf... Lascio a te l'onore, ragazzo.
+Urf... I’ll let you have the honor, boy.
+Affermativo. \PN, fino a poco fa stavamo discutendo delle onde che ho captato.
+Affirmative. \PN, we were arguing over the source of the waves I detected.
+Usando l'angolo di incidenza dell'onda, l'indice di rifrazione del territorio e altri fattori
+Using the incidence angle, the refraction index of the territory and other factors,
+sono riuscito a tracciarne l'origine. Sembra proprio che queste onde provegano dal sottosuolo.
+I managed to locate the origin. From my calculations looks like these waves are coming from underground.
+Lo sceriffo però sostiene che questo non sia possibile.
+The Sheriff, although, keeps saying how this is not possible.
+Mi trovo ancora una volta costretto a dissentire.
+Again, I find myself in the need of dissent.
+Il Canyon Asteroide è interamente costituito di roccia!
+The Sunflare Canyon is completely made of rock!
+Durante la mia ronda di ricognizione avvenuta ier l’altro, neppure un granello di polvere mi è parso di trovare fuor di loco.
+Never during my reconnaissance patrols, the last one being the day before yesterday, have I found a grain of dust out of place.
+L’unica circostanza che potrebbe essere fuggita al mio vigile sguardo, è qualore fosse stato allestito una qualche sorta di accampamento negli antri,tra le alture e al di fuori della mia portata.
+The only way something might’ve eluded my gaze is by setting up some kind of encampment in the caverns, among the heights beyond my reach. 
+Non so cosa sia questo angolo degli incidenti o cosa,
+I’m not sure what this incident angle is, 
+ma è impossibile che le onde di cui parli vengano dal sottoterra!
+but it is absolutely impossible that these waves are coming from underground!
+Negativo!
+Negative!
+I dati sono corretti e le macchine che ho usato per raccoglierli non hanno mostrato
+The data is flawless, the parts I used to collect it didn’t show
+alcun tipo di malfunzionamento. Ergo è impossibile che le onde provengano da posti in alto. Io dico che-
+any kind of malfunction. As such, it’s impossible for this waves to be coming from high places. I say that-
+Va bene va bene, smettiamola. Ho già chiamato qualcuno che può risolvere questo dilemma per noi.
+Fine, fine, let’s hush. I already called someone who surely can unravel this dilemma for us.
+Dovrebbe arrivare a momenti...
+He should be here by now...
+<<[>>old<<]>>Perdonate il ritardo...!
+<<[>>old<<]>>Forgive the delay...!
+Oh, \PN! Anche tu qui?
+Oh, \PN! You’re here too?
+Le onde captate erano anomale poiché venivano rilevate solo da Revolver, e non da altri dispositivi. Per questo abbiamo pensato che c’entrasse una tua vecchia conoscenza...
+The waves I detected were abnormal because they were being detected by Revolver, and not from other devices. This is why we thought that an old acquaintance of yours was involved...
+Ho convocato io Versil. Ha militato nel Team Dimension più di chiunque altro, potremo chiedere lume a lui per far luce sulla situazione.
+I called Versil here. He’s been in the Team Dimension more than anyone has, he’s bound to know something that might help us.
+Capisco perfettamente. Di cosa avete bisogno? 
+Understood. What do you need?
+Mi segua in Caserma...
+Please, come into the firehouse...
+Sarò sincero con te, \PN. Non mi fido ancora completamente di tuo padre.
+I’m gonna be honest with you, \PN. I don’t trust your father.
+Può dire di aver cambiato vita, ma ciò che ha fatto non può essere depennato così facilmente. Lo ho chiamato qui principalmente per tenerlo d’occhio.
+He might say he’s changed his ways, but what he did can’t be crossed out so easily. I called him here to keep an eye on him.
+Capisco, quindi avete un dubbio sulla provenienza di queste onde... Beh, sono quasi sicuro che vengano da sotto terra, come sostiene Maurice.
+I see, so you have some doubts on the origin of these waves... Well, I’m almost sure that these are coming from underground, just as Chrysler says.
+...Hmpf!
+...Hmpf!
+Il Team Dimension era versato in moltissimi tipi di tecnologie, e quella di occultamento era una di esse.
+Team Dimension was well versed in multiple types of technologies, and cloaking devices were among them.
+La regione è disseminata di centri di ricerca nascosti grazie a queste tecnologie.
+The region is full of research centers hidden thanks to these technologies.
+Sfortunatamente, non conosco la posizione di ognuno di essi,
+Unfortunately, I don’t know the location of each of them,
+ma credo di poter essere d’aiuto.
+but I think I can be of help.
+Se questo è il caso, dobbiamo immediatamente iniziare le operazioni di ricerca.
+If this is the case, we must start the search operations hastily. 
+Dirigiamoci al <b>Canyon Asteroide</b>! 
+Let’s head to <b>Sunflare Canyon</b>! 
+Hey \PN, come va? Sono spiacente, ma se cerchi il capopalestra Crisante non è presente adesso.
+Hey \PN, how’re you doing? I’m sorry, but if you’re looking for Caspar he’s not here right now.
+Puoi trovarlo nei dintorni della Caserma S.P.E.T.T.R.I.
+You can find him around the G.E.I.S.T.’s firehouse.
+Versil
+Versil
+Crisante
+Caspar
+Revolver
+Revolver
 Maurice
 Chrysler
 Miltank
@@ -7273,6 +7602,28 @@ No
 <<[>>old<<]>>Sembrerebbero delle pagine strappate da un quaderno... La calligrafia è chiara e pulita.
 <<[>>old<<]>>It looks like a bunch of pages ripped out of a notebook... The calligraphy is really clear.
 [Map160]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
 Eusen
 Eusen
 Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
@@ -9025,6 +9376,8 @@ Cardinal
 Capopalestra
 Gym Leader
 [Map191]
+Abbiamo provveduto a consegnare Victor alla Polizia Internazionale. Speriamo che l’interrogatorio ci dia qualche indizio su ciò che è accaduto...
+We made sure to hand Victor over to the International Police. We hope the interrogation will give us some hints on what happened...
 Crisante
 Caspar
 Allora... com'è andata col recupero dei fuggiaschi?
@@ -9892,6 +10245,28 @@ Heal Pokémon
 Usa Box
 Use Box
 [Map210]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
 Eusen
 Eusen
 Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
@@ -11274,6 +11649,28 @@ Blair
 Certo che, se mettono un Pokémon-Market nell’aeroporto, mi sento quasi in dovere di fare compere!
 I sure wanna shop if there's a Poké Mart right inside<<n>>the airport!
 [Map228]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
 Eusen
 Eusen
 Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
@@ -12051,6 +12448,12 @@ Yes
 No
 No
 [Map263]
+Crisante
+Caspar
+Questo panorama è l’ideale per avere l’ispirazione per un romanzo.
+This landscape is just what I’d need to get the inspiration for a novel.
+Peccato che debba lavorare in questo momento...
+Sadly, it’s not the time to think about that...
 Opie
 Opie
 Solo in sella al mio Vroombug mi sento veramente libero!
@@ -12468,6 +12871,22 @@ Yes
 No
 No
 [Map266]
+Versil
+Versil
+I nascondigli del Team Dimension rispettavano sempre dei criteri per quanto riguarda la posizione.
+Team Dimension’s hideouts always had to meet multiple criteria regarding their location.
+Ad esempio, si trovano sempre in posti difficilmente raggiungibili.
+For example, they had to be in places hard to reach.
+<<[>>old<<]>>L’interruttore è su ''spento''. Vuoi accenderlo?
+<<[>>old<<]>>The switch is ''off''. Do you want to turn it on?
+<<[>>old<<]>>Dev'essersi attivato qualcosa. Meglio dare un'occhiata nei dintorni.
+<<[>>old<<]>>Something must've activated. Better take a look around.
+<<[>>old<<]>>Chissà a cosa serve...
+<<[>>old<<]>>I wonder what it does...
+Sì
+Yes
+No
+No
 Jessie
 Jessie
 Questo è senz’altro il mio grande momento!
@@ -13099,6 +13518,10 @@ Use Box
 Si
 Yes
 [Map275]
+Maurice
+Chrysler
+E’ difficile localizzare con esattezza l’origine delle onde. Credo che non ci resti altro che cercare in lungo e in largo.
+It’s hard to pinpoint exactly the origin of the waves. I think we can only look around for something.
 Mirto
 Otis
 La mia bella mi aspetta a casa, ma mica posso dire di no a una lotta!
@@ -14357,6 +14780,28 @@ The fire which seems extinguished often slumbers<<n>>beneath the ashes.
 Come le fiamme, anche i tuoi Pokémon rinasceranno se utilizzerai su di essi quella Ceneremagica.
 Just as the flames, your Pokémon will be born again<<n>>if you use that Sacred Ash on them.
 [Map301]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
 Fugen
 Fugen
 Ciao! Sei tu il||la famoso|a \PN, vero?
@@ -14726,6 +15171,28 @@ Marcel
 A seconda del tipo di Amo che si usa, i Pokémon che abboccano potrebbero essere del tutto diversi!
 You can fish completely different Pokémon...<<n>>It all depends on the version of Rod you use!
 [Map308]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
 Eusen
 Eusen
 Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
@@ -15841,6 +16308,14 @@ Yes
 No
 No
 [Map337]
+Sì
+Yes
+No
+No
+<<[>>old<<]>>C'è anche una lettera. Vuoi leggerla?
+<<[>>old<<]>>There's a letter too. Do you want to read it?
+<<[>>old<<]>>Sono troppo vecchio e stanco per lottare, ma il mio fidato compagno arde ancora dalla voglia di farsi valere. Credo che tu sia l’erede perfetto per questo Pokémon. Fanne buon uso. Firmato, Surge.
+<<[>>old<<]>>I'm too old and tired to fight, but my trusted companion still burns with the desire to prove himself. I think you'd be the perfect heir for this Pokémon. Use it well. Signed, Surge.
 Surge
 Surge
 Tale padre, tale figlio... eh, <b>Silver</b>?
@@ -15969,6 +16444,28 @@ Why has nobody ever thought about merging Poké Marts<<n>>and Pokémon Centers t
 Ciao! Questo è il Pokémon-Market di Aranciopoli!
 Hello! This is the Poké Mart in Vermilion City!
 [Map341]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
 Eusen
 Eusen
 Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
@@ -18628,6 +19125,28 @@ This Victory Road is nothing more than a walk in<<n>>the park for a Hiker like m
 Sei un Montanaro anche tu, per caso?
 Are you a Hiker too, maybe?
 [Map410]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
 Eusen
 Eusen
 Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
@@ -18790,6 +19309,28 @@ Defeat is nothing but education.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
 [Map416]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
 Aster
 Aster
 Tu
@@ -18970,6 +19511,28 @@ Once a year, an old longbeard comes down the mountains<<n>>with his Reindear to 
 <<[>>old<<]>>È vuota.
 <<[>>old<<]>>It's empty.
 [Map420]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
 Eusen
 Eusen
 Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
@@ -22409,6 +22972,642 @@ Hmpf, there’s a lot of work to do...
 [Map591]
 <<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
 <<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi’s power.
+[Map592]
+Maurice
+Chrysler
+Revolver
+Revolver
+Crisante
+Caspar
+Versil
+Versil
+Affermativo. Sembra proprio che questo sia il posto giusto.
+Affirmative. Looks like this is the right place.
+Per quel che questa vista sporca e cupa mi suggerisce, mi par proprio che questo posto sia abbandonato.
+For what this dirty and gloomy sight suggests, this place ought to be abandoned.
+Sembra che l’impianto di ventilazione funzioni ancora.
+The ventilation is still working fine.
+E lo stesso vale per l’impianto idraulico. Non so se questo posto fosse abbandonato o meno, ma è certo che è stato rimesso in funzione.
+Same goes for the water system. I’m not sure if this place is abandoned or not, but what’s sure is that it was put back up.
+Non sono d’accordo.
+I do not agree.
+Nel Team Dimension avevamo dei regolamenti severissimi riguardo agli standard qualitativi dei nostri nascondigli.
+Team Dimension had strict regulations over the quality standards of our hideouts.
+Questo posto, invece, è pieno di polvere da cima a fondo...
+This place, instead, is filled with dust from top to bottom...
+Or come ora l’unica via rimasta a nostra disposizione è quella dell’esplorazione. Dovremmo condurre indagini sul posto e cercare altri indizi sulle onde anomale.
+Right now our only option is to keep going on with the exploration. We ought to conduct more investigations and look for more hints on the abnormal waves here.
+\PN prima che me ne dimentichi, ho creato un dispositivo molto utile per situazioni come queste.
+\PN, before I forget, I made a really helpful device for situations like these. 
+Ecco, prendi.
+Here, take it.
+Fune di Fuga plus è un oggetto di sopravvivenza, e ti consentirà di uscire dal Bunker quando vuoi.
+Escape Rope plus is a tool for survival, it’ll let you get outside the Bunker when you wish. 
+Utilizzalo solo se ne avrai davvero bisogno.
+Use it only when you really need it.
+Forza \PN, andiamo!
+Come on, \PN, let’s go!
+<<[>>old<<]>>Crisante,Maurice,Revolver e Versil si sono uniti alla squadra.
+<<[>>old<<]>>Caspar, Chrysler, Revolver and Versil joined the team.
+<<[>>old<<]>>Sembra un vecchio diario... Vuoi raccoglierlo?
+<<[>>old<<]>>Looks like an old diary... Do you want to pick it up?
+Sì
+Yes
+No
+No
+[Map593]
+<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp[30]
+<<[>>old<<]>>You found a diary page! \wtnp[30]
+<<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
+<<[>>old<<]>>You add the page to the Old Diary.
+<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
+<<[>>old<<]>>Sala Acciaio.
+<<[>>old<<]>>Steel Room.
+[Map595]
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
+Sì	
+Yes	
+No
+No
+Cura Pokémon
+Heal Pokémon
+Usa Box
+Use Box
+Maurice
+Chrysler
+Revolver
+Revolver
+Crisante
+Caspar
+Versil
+Versil
+<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp[30]
+<<[>>old<<]>>You found a diary page! \wtnp[30]
+<<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
+<<[>>old<<]>>You add the page to the Old Diary.
+<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
+Questo posto è proprio deserto...
+This place really is deserted...
+Non è detto. Le onde venivano da un posto ancora più in basso, quindi dobbiamo continuare a scendere.
+We can’t be sure yet. The waves are coming from further below, so we should keep going down.
+Bzz! Attenzione! Attenzione! Creature ostili in avvicinamento!
+Bzz! Careful! Careful! Hostile creatures incoming!
+Oh no...non loro...
+Oh no... Not them...
+Durante le nostre ricerche sulle specie X abbiamo effettuato esperimenti di ogni tipo anche su altre specie terrestri...
+While we were researching the X species, we carried out all sorts of experiments on terrestrial species too... 
+In particolare la capacità metamorfica dei <b>Ditto</b> ha attirato la nostra attenzione.
+in particular, the metamorphic ability the <b>Dittos</b> have piqued our interest.
+Abbiamo scoperto anche che bombardando i Ditto con dei geni X gli esemplari che sopravvivono ottengono tutt’altro livello di capacità metamorfica. Al punto che sono in grado di trasformarsi...
+We discovered that by bombarding the Dittos with X genes the specimens that survive obtain a whole other level of mutational capacity. To the point that they’re capable of transforming...
+...pur non avendo il soggetto di fronte.
+...even without their target in front of them.
+Ciò che è peggio, è che gli studi hanno mostrato che questi Ditto diventano più forti degli originali che vogliono copiare!
+What’s worse, is that the studies have shown that these Dittos get stronger than the originals they’re trying to copy!
+Argh!
+Argh!
+Fate attenzione! Sono molto aggressivi!
+Be careful! They’re really aggressive!
+\PN, pensaci tu! Revolver ti darà una mano!
+\PN, take care of them! Revolver will lend an hand!
+Modalità di combattimento: attivata! Ingaggio! Bzz!
+Fighting mode: activated! Engaging! Bzz!
+<<[>>old<<]>>Hai attivato il Sigillo Furia!
+<<[>>old<<]>>You triggered the Fury Seal!
+<<[>>old<<]>>I Ditto sono fuggiti via...
+<<[>>old<<]>>The Dittos escaped...
+Sono ossi duri! Ma non possiamo rimanere qui a perder tempo...
+They’re tough nuts to crack! But we can’t stay here...
+Capacità dei nemici: analizzate. Percentuale di successo nel combattimento singolo: 100%.
+Enemy capabilities: analyzed. Success in single combat percentage: 100%.
+Cosa dice questo pezzo di ferro parlante?
+What is this talking piece of steel saying?
+Credo ci stia dicendo che è in grado di farcela da solo...
+I think it’s saying that it can handle them by itself... 
+Revolver! Attiva protocollo TB-404! Noi andiamo avanti.
+Revolver! Activate protocol TB-404! We’re gonna keep going.
+Roger!
+Roger!
+<<[>>old<<]>>Il gruppo avanza, lasciando Revolver a controllare la situazione.
+<<[>>old<<]>>The group advances, leaving Revolver to control the situation.
+Modalità TB-404 attivata.
+Mode TB-404 activated.
+[Map596]
+<<[>>old<<]>>Sala Fuoco.
+<<[>>old<<]>>Fire Room.
+<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp[30]
+<<[>>old<<]>>You found a diary page! \wtnp[30]
+<<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
+<<[>>old<<]>>You add the page to the Old Diary.
+<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
+<<[>>old<<]>>L’interruttore è su ''spento''. Vuoi accenderlo?
+<<[>>old<<]>>The switch is turned off. Do you want to turn it on?
+<<[>>old<<]>>Chissà a cosa serve...
+<<[>>old<<]>>I wonder what it is for...
+Sì
+Yes
+No
+No
+[Map597]
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
+Sì	
+Yes	
+No
+No
+Maurice
+Chrysler
+Revolver
+Revolver
+Crisante
+Caspar
+Versil
+Versil
+Err?!
+Err?!
+Diamine, sembra che la situazione si farà tediosa...
+Damn them, looks like things are going to get tedious...
+Questa volta sono diversi, fate attenzione!
+This time they’re different, be careful!
+\PN! Dammi una mano!
+\PN! Lend me an hand!
+<<[>>old<<]>>Hai attivato il Sigillo Furia!
+<<[>>old<<]>>You triggered the Fury Seal!
+<<[>>old<<]>>I Ditto sono fuggiti via...
+<<[>>old<<]>>The Dittos escaped...
+Che faticaccia...
+What a pain...
+Raichu sembra essere in grado di gestirli autonomamente.
+Looks like Raichu can handle them alone. 
+Voi proseguite, io resto a controllare la situazione qui.
+You guys go on, I’ll stay and control the situation here.
+Così sia, ma presta attenzione.
+So be it, but be careful.
+Proseguiamo!
+Let’s proceed!
+<<[>>old<<]>>Il gruppo avanza, lasciando Maurice a controllare la situazione.
+<<[>>old<<]>>The group advances, leaving Chrysler to control the situation.
+Non preoccupatevi. Posso gestire la situazione anche da solo!
+Don’t worry, I can keep the situation under control by myself!
+[Map599]
+<<[>>old<<]>>Sala Erba.
+<<[>>old<<]>>Grass Room.
+<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp[30]
+<<[>>old<<]>>You found a diary page! \wtnp[30]
+<<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
+<<[>>old<<]>>You add the page to the Old Diary.
+<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
+[Map601]
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
+Sì	
+Yes	
+No
+No
+Maurice
+Chrysler
+Revolver
+Revolver
+Crisante
+Caspar
+Versil
+Versil
+<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp[30]
+<<[>>old<<]>>You found a diary page! \wtnp[30]
+<<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
+<<[>>old<<]>>You add the page to the Old Diary.
+<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
+Attenzione!
+Careful!
+C'è mancato poco!
+That was close!
+\PN, ti senti bene? Allora dammi una mano con questi due mascalzoni!
+\PN, are you ok? Then lend me a hand with these two rascals!
+Pare che sarà un'ardua sfida!
+Looks like this won’t be an easy battle!
+<<[>>old<<]>>Hai attivato il Sigillo Furia!
+<<[>>old<<]>>You triggered the Fury Seal!
+<<[>>old<<]>>I Ditto sono fuggiti via...
+<<[>>old<<]>>The Dittos escaped...
+La questione si sta facendo veramente gravosa...
+The matter is getting really tedious...
+Non può mancare molto, dobbiamo continuare a scendere!
+We can’t be much far from the origin, we have to keep going!
+Voi due proseguite.
+You should head further down.
+Io resterò a controllare che questi due Ditto non vi inseguano.
+I’ll stay here and make sure these two Dittos don’t follow you.
+Capisco...
+I see...
+\PN, andiamo.
+\PN, let’s go.
+\PN...
+\PN...
+Tieni d'occhio tuo padre per me. Mi fido del tuo giudizio.
+Keep an eye on your father in my stead. I trust your judgement.
+<<[>>old<<]>>Il gruppo avanza, lasciando Crisante a controllare la situazione.
+<<[>>old<<]>>The group advances, leaving Caspar to control the situation.
+\PN, resterò qui di vedetta per salvaguardare il successo delle indagini. Orsù, è il momento di congedarvi.
+\PN, I’ll stay here as a lookout to ensure the success of the investigation. Come on, it’s time for you to go.
+[Map602]
+<<[>>old<<]>>Sala Suono.
+<<[>>old<<]>>Sound Room.
+<<[>>old<<]>>L’interruttore è su ''spento''. Vuoi accenderlo?
+<<[>>old<<]>>The switch is turned off. Do you want to turn it on?
+<<[>>old<<]>>Chissà a cosa serve...
+<<[>>old<<]>>I wonder what it is for...
+Sì
+Yes
+No
+No
+Questa stanza è sospetta. Vuoi proseguire?
+This room looks suspicious. Do you want to go in?
+Sei davvero sicuro|a?
+Are you sure?
+[Map603]
+<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp[30]
+<<[>>old<<]>>You found a diary page! \wtnp[30]
+<<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
+<<[>>old<<]>>You add the page to the Old Diary.
+<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
+[Map604]
+Versil
+Versil
+Tu
+You
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
+Sì	
+Yes	
+No
+No
+Sembra che ci siamo, \PN...
+Looks like we’re there, \PN...
+Sai, ho accettato di aiutare in questa ricerca perchè avevo dei presentimenti al riguardo. Forse anche un po’ per senso di colpa, chissà...
+You know, I agreed to help with this because I had a feeling. Maybe some guilt too, who knows...
+Ancora?! Sono davvero insistenti!
+Again?! They’re really persistent!
+Heh...finalmente posso fare squadra con mio|a figlio|a...
+Heh...finally I can fight together with my own child...
+...!
+...!
+\PN, liberiamocene!
+\PN, let’s take care of them!
+<<[>>old<<]>>Hai attivato il Sigillo Furia!
+<<[>>old<<]>>You triggered the Fury Seal!
+<<[>>old<<]>>I Ditto sono fuggiti via...
+<<[>>old<<]>>The Dittos escaped...
+Uff...anche questa è andata.
+Uff...this is done, too.
+Non può mancare ancora molto, dobbiamo continuare a scendere.
+It can’t be much further ahead, we need to keep going.
+Coraggio, figliolo|a!
+All right, let’s go!
+[Map605]
+Versil
+Versil
+Tu
+You
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
+Sì	
+Yes	
+No
+No
+<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp[30]
+<<[>>old<<]>>You found a diary page! \wtnp[30]
+<<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
+<<[>>old<<]>>You add the page to the Old Diary.
+<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
+Credo che questa sia l’ultima stanza. Se c’è qualcosa qui sotto, lo troveremo lì. Prepariamoci bene prima di andare.
+I think this is the last room. If something’s down here, we’ll find it there. Let’s prepare carefully before going in.
+Ti senti pronto|a?
+Are you feeling ready?
+Perfetto, andiamo!
+Perfect, let’s go!
+E' giusto prepararsi adeguatamente, capisco che non ti senti ancora pronto|a.
+Prepare carefully, it’s alright to have doubts.
+<<[>>old<<]>>Cosa vuoi fare?
+<<[>>old<<]>>What do you want to do?
+Rivivi tutto l'evento.
+Relive the event.
+Ritorna alla battaglia finale.
+Return to the final battle.
+Non sono pronto.
+I'm not ready yet.
+[Map613]
+<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp[30]
+<<[>>old<<]>>You found a diary page! \wtnp[30]
+<<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
+<<[>>old<<]>>You add the page to the Old Diary.
+<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
+Questo posto... se ricordo bene, è la zona residenziale del laboratorio.
+This place... if I recall correctly, it’s the residential area of the laboratory.
+Per garantire sicurezza e dei luoghi per riposare agli scienziati, abbiamo costruito zone del genere all’interno dei nostri nascondigli.
+It was used to guarantee safety and resting places for the scientists. We built many of these inside our hideouts.
+Più avanti dovrebbe esserci un centro di controllo, forse dovremmo andare a cercare lì...
+Further in should be the control center, maybe we should search there...
+Vedendo questo posto, tornano alla mente solo brutti ricordi. Se solo potessi tornare indietro...!
+Looking at this place, only bad memories come up. If only I could go back...!
+Ma non è il momento di star qui a tergiversare.
+It’s not time to stay here and prevaricate.
+\PN, andiamo.
+\PN, let’s go.
+<<[>>old<<]>>Non è il momento di uscire.
+<<[>>old<<]>>It's not the time to go out.
+<<[>>old<<]>>La porta sembra essere bloccata dall'interno.
+<<[>>old<<]>>The door seems locked from the inside.
+Versil
+Versil
+Tamara
+Dahlia
+Victor
+Victor
+Crisante
+Caspar
+Diamine! Diamine! DIAMINE!!!
+Damn! Damn! DAMN!!!
+Mi rifiuto di credere che non ci sia una soluzione! Devo trovare assolutamente il modo di riportarlo nella nostra dimensione!
+I refuse to believe that there’s no solution! I absolutely must find a way to bring him back to our dimension!
+Io SO che è ancora vivo! Deve esserlo per forza!
+I KNOW he’s still alive! He has to be!
+Mio Generale... la prego, deve riposare! É da giorni che non dorme! Se continua così collasserà...
+My General... please, you have to rest! It’s been days since you last slept! If you keep going, you will collapse...
+Silence! Cosa fai tu ancora qui?
+Silence! What are you still doing here?
+Non vali niente, proprio come quel maledetto Versil! Quel dannato traditore...
+You’re worthless, just like that cursed Versil! That damned traitor...
+Ora crede di poter fare la bella vita alle mie spalle! Dopo tutto quello che mi ha fatto passare!
+Now he thinks he can live a good life behind my back! After all he’s done to me!
+É solo colpa sua se Nives è morta! Sua e dei suoi maledetti esperimenti!
+It’s his fault if Nives is dead! His and his cursed experiments’!
+Trey... Non posso perdere anche lui! Devo trovare un modo di riportarlo indietro!
+Trey... I can’t lose him too! I have to find a way to bring him back!
+Generale, la prego... mi ascolti!
+General, please... hear me out!
+Anche se il ragazzo fosse vivo, non esiste un modo per riportarlo qui! Deve assolutamente ripo-
+Even if the boy was still alive, there’s no way to bring him here! You absolutely need to res-
+TACI!
+BE QUIET!
+...V-Victor?
+...V-Victor?
+Ahh... guarda chi si rivede! Il traditore,
+Ahh... look who’s here! The traitor,
+che dopo tutti i peccati che ha commesso, vuole anche rifarsi una vita!
+that after all the sins he’s committed, wants to have a fresh start too!
+Cosa sei venuto a fare qui, maledetto? Sei qui per deridermi?
+What have you come here for, you wretch? Are you here to mock me?
+Non ti è bastato ridurmi in questo stato...?
+Non ti è bastato ridurmi in questo stato...?
+Victor, ma... cosa stai dicendo...
+Victor, but... what are you talking about...
+Sei completamente fuori di te!
+You’re completely out of your mind!
+Ah, sarei fuori di me, adesso?
+Oh, so i’m out of my mind?
+Sto semplicemente iniziando ORA a reagire a tutte le ingiustizie che mi hai costretto a subire!
+I’m simply starting to react NOW to all the injustices you forced me to undergo!
+Nives... la mia amata Nives... lei sarebbe ancora qui tra noi se non fosse per il tuo stramaledetto ego!
+Nives... my beloved Nives... she’d still be here if it wasn’t for your accursed ego!
+E ora Trey... devo assolutamente riportarlo da noi.
+And now Trey... I absolutely have to bring him back to us.
+Come ho fatto a non accorgermene...
+How didn’t I notice...
+Era tutto ciò che mi restava di Nives, l’unica cosa che poteva ancora tenermi legato a lei...
+He was all I still had that could keep me connected to Nives...
+Ma tu...! TU!
+But you...! YOU!
+Lo hai fatto combattere contro Dragalisk, a quel ragazzino!
+You made him fight Dragalisk, that kid!
+Come può esserti passato anche minimamente per la testa che un ragazzo così giovane potesse qualcosa contro quel mostro!
+How could you even think that a boy that young could do something against that monster!
+E ora è bloccato in un’altra dimensione per colpa tua!
+And now he’s blocked in another dimension because of you!
+Victor... hai completamente ragione.
+Victor... you’re completely right.
+Sono stato un fallimento, sia come padre che come amico.
+I was a failure, both as a father and a friend.
+Ma devi guardare in faccia la realtà...
+But you need to face reality...
+Trey purtroppo non è più tra di noi. Si è fatto esplodere per provare a mettere fine a quell’essere tremendo.
+Trey isn’t with us anymore. He blew himself up to try and put an end to that terrible being.
+Gh- TACI! HO DETTO TACI!
+Gh- SHUT UP! I SAID SHUT UP!
+Vi prego, dovete fare qualcosa! Il Generale non è più in sé, è come se qualcosa lo stesse controllando!
+Please, you have to do something! The General is not himself anymore, it’s like something took control of him!
+Generale... la supplico!
+General... I beg you!
+Deve provare a tornare in sé! La prego, non può ridursi così!
+You must go back to your senses! Please, you can’t be reduced to this!
+Starò io al suo fianco...
+I’ll stay with you...
+Farò di tutto per farle dimenticare questi tristi ricordi!
+I’ll do anything to make you forget these sorrowful memories!
+Ma la prego, torni in sé!
+But please, you have to get back to your senses!
+\PN dammi una mano! Victor ormai è fuori di senno!
+\PN, help me out! Victor is out of his mind!
+Rrgh...!
+Rrgh...!
+Adesso basta! Sono veramente stufa di tutto questo!
+Enough! I’m sick of this!
+Io la DETESTO!
+I HATE you!
+Ho provato a concedermi a lei con tutta me stessa... Per tutto questo tempo!
+I tried to give all of myself to you... For all this time!
+Tutto l’amore che le ho dimostrato...
+All the love I’ve shown...
+Tutti gli sforzi che ho fatto per compiacerla...
+All the hardships I went through to please you...
+ignorati!
+ignored! 
+Tutto per colpa di una sgualdrina già morta!
+All because of a dead wench!
+Sono STUFA di essere ignorata!
+I’m TIRED of being ignored!
+Sa quanto è doloroso? Sa quante notti insonni ho passato a piangere?
+Do you know how much it hurts? How many sleepless nights I spent crying?
+Metterò la parola fine a tutto questo!
+I’ll put an end to all this!
+<<[>>old<<]>>Agh...!
+<<[>>old<<]>>Agh...!
+<<[>>old<<]>>Ah. Ah...
+<<[>>old<<]>>Ah. Ah...
+<<[>>old<<]>>Che strano.
+<<[>>old<<]>>Weird.
+<<[>>old<<]>>Un posto del genere non dovrebbe trovarsi in superficie?
+<<[>>old<<]>>Shouldn’t a place like this be above ground?
+<<[>>old<<]>>Oh, non ha importanza.
+<<[>>old<<]>>Oh, doesn’t matter. 
+Dopotutto, sono qui solo per comunicare con il prescelto.
+After all, I’m just here to speak with the chosen one. 
+Cosa...?
+What...? 
+Silenzio, umano.
+Silence, human.
+Sono stato costretto ad incarnarmi in questa vile donna,
+I was obliged to incarnate in this vile woman,
+non intendo passare un secondo più del previsto in questa forma.
+and I don’t mean to spend a second more in this form.
+Sono qui, oggi, come consigliere.
+I’m here, today, as a counselor.
+Il mio suggerimento è quello di abbandonare le armi e arrendersi.
+My advice is to drop the weapon and surrender.
+Ciò che voi chiamate ''Furia'' non è una semplice forma di energia,
+What you call ''Fury'' is not simply a form of energy,
+in quanto la sua esistenza è più vicina ad un concetto.
+as its existence is closer to a concept.
+Allo stesso modo in cui la gravità vi tiene saldi al vostro pianeta, la Furia si diffonde e permea tutto, instillando il caos nel mondo.
+Just like gravity grounds you to your planet, the Fury spreads and permeates everything, thereby instilling chaos in the world. 
+Potrebbe essere difficile da afferrare così all’improvviso,
+It might be hard to understand promptly,
+ma ciò che sto cercando di dirvi è che voi,
+but what I’m trying to say is that you,
+come il resto degli umani,
+just like all of humanity,
+siete essenzialmente inermi dinanzi a tale potere.
+are essentially powerless in front of such a power.
+Attento|a, \PN! Sta arrivando!
+Careful, \PN! It’s coming! 
+Lasciate che vi dimostri di cosa sto parlando.
+Let me demonstrate what I mean. 
+<<[>>old<<]>>Hai attivato il Sigillo Furia!
+<<[>>old<<]>>You triggered the Fury Seal!
+<<[>>old<<]>>Il sigillo non riesce a contenere questa energia. Il sigillo si distrugge in mille pezzi.
+<<[>>old<<]>>The sigil can’t contain this energy. The sigil breaks in pieces.
+Pare che il prescelto sia vagamente migliore rispetto al resto della sua specie...
+Looks like the chosen one might be a little better than the rest of his|her species...
+Ma non pensate neanche di poter combattere questo fenomeno.
+But don’t think you stand any chances in fighting this phenomenon.
+Il solo fatto che siate ancora vivi è già un grande segno di misericordia,
+Just the fact that you’re still alive is already a great sign of mercy,
+ma sono anche venuto a portare questo messaggio.
+and I even went the length of delivering this message.
+Dopotutto, questa specie inferiore non è in grado di comunicare se non tramite onde sonore.
+After all, this inferior species isn’t able to communicate if not through sound waves.
+Chaos omnia impera.
+Chaos omnia impera.
+Cosa... Dove mi trovo?
+What... Where am I?
+Versil! Cosa ci fai tu qui?
+Versil! What are you doing here?
+Victor...? Veramente non ricordi nulla?
+Victor...? You really don’t remember anything?
+Eri così arrabbiato con me che urlavi come un forsennato...
+You were so angry at me that you were shouting like a madman...
+Cosa siete venuti a fare in questo posto abbandonato?
+Why did you come to a deserted place like this?
+Rrgh...! Ho la mente annebbiata...
+Rrgh...! My mind’s clouded... 
+Ricordo vagamente di essere venuto qui per cercare informazioni sulle altre dimensioni...
+I vaguely remember that I came here to look for informations on other dimensions...
+mi pare che c’entrasse qualcosa anche l’utilizzo dell’Energia Furia...
+I think it was pertaining the use of the Fury Energy... 
+Colonnello, può ricordarmi cosa è successo?
+Colonel, might you remind me of what happened? 
+<<[>>old<<]>>Tamara...?
+<<[>>old<<]>>Dahlia...?
+Tamara? Suvvia, non è il momento di fare scherzi...
+Dahlia? Come on, it’s not time to joke... 
+Tamara...?
+Dahlia...?
+<<[>>old<<]>>Passano alcuni giorni...
+<<[>>old<<]>>Some days later...
+<<[>>old<<]>>Sembra che Victor abbia fatto cadere questo oggetto. Sembra molto pericoloso.
+<<[>>old<<]>>Looks like Victor dropped this item. It looks dangerous.
+<<[>>old<<]>>Vuoi raccoglierlo?
+<<[>>old<<]>>Do you want to pick it up?
+Sì
+Yes
+No
+No
+[Map606]
+<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp[30]
+<<[>>old<<]>>You found a diary page! \wtnp[30]
+<<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
+<<[>>old<<]>>You add the page to the Old Diary.
+<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
+[Map607]
+[Map608]
+<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp[30]
+<<[>>old<<]>>You found a diary page! \wtnp[30]
+<<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
+<<[>>old<<]>>You add the page to the Old Diary.
+<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
+[Map609]
+<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp[30]
+<<[>>old<<]>>You found a diary page! \wtnp[30]
+<<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
+<<[>>old<<]>>You add the page to the Old Diary.
+<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
+[Map610]
+<<[>>old<<]>>SCAPPA.
+<<[>>old<<]>>RUN.
+[Map625]
+Stella
+Stella
+Hey hey! Sei \PN, ho ragione?
+Hey there! You’re \PN, right?
+Un certo Tarassaco mi ha incaricato di darti un messaggio:
+A certain Taraxo asked me to give you this message:
+vuole che tu vada quanto prima a casa sua a <b>Vetta Polare</b>.
+he wants you to go as soon as possible to his house in <b>Polaris Town</b>.
+Dice che ha informazioni importanti in merito a una qualche energia, ma non so di cosa si tratti.
+He says that he’s got some important information on some kind of energy, but I’m not sure what that is.
+Avrà problemi con le bollette? In ogni caso, dovresti fargli visita!
+Maybe he forgot to pay the bills? Anyway, you should go to him!
+Sai che sembri proprio uno in gamba?
+You know, you look like a really good Trainer?
+Forse dovresti provare a partecipare al <b>Torneo Apollo</b>!
+Maybe you should try and enter the <b>Apollo Tournament</b>!
+Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico!
+I saw the advertisement in television a while ago, that Gengar is really charismatic!
+Se sei interessato|a, potresti passare da <b>Sagittopoli</b>.
+If you’re interested, you should head to <b>Vega City</b>. 
+Bene, e qui il mio l’ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I’ve done my time here! Good luck, Trainer! Sayonara!
+Eusen
+Eusen
+Il prof. Aster mi ha incaricato di lasciarti questa lettera. Ecco, prendi!
+Prof. Aster asked me to give you this letter.<<n>>Here, take it!
+Mi raccomando, raggiungilo il prima possibile a <b>Balansopoli</b>. Mi ha detto che è davvero urgente!
+Please, go see him as soon as possible in <b>Hadwarf City</b>.<<n>>He told me it’s really urgent!
+Fugen
+Fugen
+Ciao! Sei tu il||la famoso|a \PN, vero?
+Hi there! You're the famous \PN, aren't you?
+Il signor Tarassaco mi ha lasciato detto di consegnarti questo biglietto.
+Mr. Taraxo left me a message to give you this ticket.
+Non ha fatto in tempo a spiegarmi di cosa si trattasse, ma mi è sembrato parecchio agitato... Se non ricordo male, ha menzionato una certa isola... mi pare si chiamasse <b>Isola Shinobi</b>, sì!
+He couldn't tell me about the situation,<<n>>but I felt like he was pretty nervous...<<n>>If my memory serves, he mentioned a particular island...<<n>>I think it was called <b>Shinobi Island</b>, yeah!
+Che sia il biglietto aereo per raggiungerlo laggiù?
+May that one be the air ticket to go and join him there?
+In tal caso, ti basterà mostrarlo a chi di dovere all'<b>Aeroporto Samuel Oak</b>.
+If that's the case, show it to the right person in <b>Samuel Oak Airport</b>.
+Bene, e qui il mio l'ho fatto! Ti auguro in bocca al lupo, Allenatore! Sayonara!
+Well, I've done my time here! Good luck, Trainer!<<n>>Sayonara!
 [1]
 0
 ????????
@@ -52125,6 +53324,21 @@ Shinobi Island
 566
 Isola Shinobi
 Shinobi Island
+592
+Bunker Abbandonato
+Abandoned Bunker
+614
+Paradiso Sakura
+Sakura Paradise
+615
+Sentiero Rosa
+Pink Pathway
+619
+Mostra Maratona
+Marathon Museum
+621
+Torneo Apollo
+Apollo Tournament
 [21]
 How are your Pokemon doing?\mMy \TP's really energetic. It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
 How are your Pokemon doing?\mMy \TP's really energetic.  It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
