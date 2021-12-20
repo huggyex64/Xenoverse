@@ -23565,6 +23565,352 @@ No
 [Map610]
 <<[>>old<<]>>SCAPPA.
 <<[>>old<<]>>RUN.
+[Map620]
+Lavinia
+Terry
+Gaetano
+Paul
+Valerio
+Gael
+Sono venuta qualche giorno fa a visitare Sagittopoli, ero rimasta affascinata dall'estetica del Circo Sirio!
+I came here some days ago to tour Vega City, I was charmed by the aesthetic of the Sunshine Circus!
+Oggi mi sono svegliata ed è apparsa improvvisamente questo edificio! Che magia!
+When I woke up today, this building had suddenly appeared! It’s a real work of magic!
+Questo posto è pazzesco!
+This place is amazing!
+Ho sentito dire dai residenti di Sagittopoli che arriveranno un sacco di Allenatori famosi da tutto il mondo! Per inaugurare il nuovo Circo Sirio.
+I heard from the residents in Vega City that apparently a lot of trainers from all over the world will be coming to inaugurate the new Sunshine Circus!
+Sto sfilando su questo Red Carpet. Mi sento davvero un VIP.
+I’m walking on this Red Carpet. I really do feel like a VIP.
+<<[>>old<<]>>Torneo Apollo.
+<<[>>old<<]>>Apollo Tournament.
+<<[>>old<<]>>ATTENZIONE!\nIl Circo Sirio è attualmente chiuso a causa di danni interni. La riapertura è prevista a breve. Ci scusiamo per il disagio.
+<<[>>old<<]>>ATTENTION!\nThe Sunshine Circus is currently closed due to internal damage.<<n>>The reopening is expected shortly.<<n>>We’re sorry for the discomfort.
+Mi sento davvero un essere infimo a chiedertelo... Ma ho bisogno ancora del tuo aiuto.
+I’m feeling really bad about it,<<n>>but I have to ask for your help again. 
+Non vorrei dare una notizia così negativa alla Troupe, ma i danni dei Charizard sono stati ingenti.
+I’m not willing to give such bad news to the Troupe,<<n>>but the Charzard have done a lot of damage.
+Credo proprio che ci vorrà tanto tempo per ricostruire il Circo Sirio, e questo contando anche i miei poteri psichici.
+I think it will take some time<<n>>to get the Sunshine Circus back on its feet,<<n>>and this is counting my psychic powers.
+Però ho davvero bisogno di qualcuno che vada da Henné a dirgli ciò che è successo.  
+However I really need someone to go<<n>>and tell Henna what happened.
+E anche a rassicurarlo sul fatto che ora i suoi Pokémon stanno bene.
+And also to reassure them about their Pokémon. 
+A quanto pare, si è diretto tempestivamente a <b>Cansiria</b>, ma non so per quale motivo in particolare.
+Apparently, they headed to <b>Fortbelt Town</b> in a hurry,<<n>>but I don’t know why exactly.
+Ho davvero un brutto presentimento.
+I have a really bad feeling. 
+Nel dubbio,
+That being said...
+ti consiglio di sfruttare le Megapietre che ti ho regalato, magari ti saranno utili nel viaggio. Gengah ah ah!
+I suggest you make use of those Mega Stones I gave you,<<n>>they might come in handy. Gengah ha ha!
+Buona fortuna, moccioso|a.
+Good luck, brat.
+Henné è andato a <b>Cansiria</b>. Raggiungilo il prima possibile e avvisalo della situazione del Circo Sirio.
+Henna headed for Fortbelt Town.<<n>>Get to them as soon as possible<<n>>and tell them about what happened here.
+Buona fortuna, moccioso|a.
+Good luck, brat.
+Tsk. Sbrigati.
+Tsk. Hurry up.
+Perfetto. Andiamo!
+Good. Let’s go!
+Sì
+Yes
+No
+No
+Allora, sei pronto|a ad entrare?
+So, you ready to enter?
+Oh, eccoti \PN.
+Oh, here you are \PN. 
+Gengar
+Gengar
+Aria
+Skyler
+Mi spiace, ma in questo momento non è possibile entrare nel Circo Sirio.
+I’m sorry, but currently it’s not possible to enter Sunshine Circus.
+Wendy
+Wendy
+Faccio un bel giro per il parco mentre la mammina mi compera le caramelle.
+I'm taking a stroll around the park while mumsy buys me<<n>>some candy.
+Sino
+Simon
+Quest'anno il <b>Circo Sirio</b> ha deciso di piantare le tende qui a Sagittopoli. Con tutta la gente che c'è qui in città, ogni spettacolo farà il pienone!
+This year, the <b>Sunshine Circus</b> decide to put the tents up here in Vega.<<n>>With all these people in the city, every show is gonna be<<n>>a sold-out!
+<<[>>old<<]>>Questa Recluta sta schiacciando un pisolino in mare... L'acqua salata non finirà per arrugginirla?
+<<[>>old<<]>>This Grunt is taking a nap in the sea... Won't the saltwater rust it?
+Radia
+Myra
+Chiedo scusa, ma potresti cortesemente rispettare la fila?
+Could you please respect the queue?!
+Marianna
+Meg
+Wendy, dai andiamo! Ti ho comprato i Bastoncini Chubiburny che volevi!
+Wendy, let's go home! I got you the Chubiburny Sticks<<n>>you were asking for! 
+Marina
+Undine
+Oh, cara Lapras, fortuna che sei sana e salva... Sono stata così in pena per te!
+Oh, my dear Lapras, thank goodness you came back safe<<n>>and sound...I was so worried about you!
+Lapras
+Lapras
+Laaa!
+Laaa!
+Cosa c’è, giovane?
+What is it, kid?
+Lapras, non dirmi che lui||ei è l’Allenatore che ti ha prestato soccorso...!
+Lapras, don't tell me this young boy|||gal is the Trainer<<n>>who rescued you...!
+Laaa! Laaa!
+Laaa! Laaa!
+La mia Lapras è ancora giovane e piena di curiosità, ma data l’età, mi è difficile tenerla d’occhio. Quando è scomparsa, temevo fosse finita tra le grinfie di qualche Sharpedo... ma grazie a te così non è stato!
+My Lapras is still young and full of curiosity, but because<<n>>of my age, it's not easy for me to take care of it.<<n>>When it went missing, I thought it had fallen into the fangs of some Sharpedo...but it's not, thanks to you!
+Un così gentile animo non può non essere premiato! Prendi questa.
+Such a gentle spirit can only be rewarded! Take this.
+Quella è l’<b>Odysseum N</b>, una preziosa roccia marina che i Pokémon di tipo Acqua adorano. Utilizzandola, Lapras verrà subito in tuo aiuto e ti traghetterà per tutti i mari di Eldiw!
+That's the <b>Odysseum H</b>, a precious sea mineral that Water-type Pokémon love.<<n>>Using it, Lapras will instantly come to your aid and<<n>>will ferry you across the seas of Eldiw!
+Mi si riempie il cuore di gioia a vedere la mia adorata così felice all’idea.
+My heart fills with joy to see my beloved so excited<<n>>at the prospect.
+Allora, va’ Lapras! Sono certa che con questo|a giovane troverai la felicità.
+Then go, Lapras! I'm sure that you will find all the happiness you deserve with this boy|||gal.
+Pelipper
+Pelipper
+Lipper...!
+Lipper...!
+Diego
+Fred
+Per me una maxi-porzione di popcorn alla paprika Pepequeno, per piacere.
+Can I have an extra-large Pepequeno's paprika<<n>>popcorn, please?
+Norengo
+Sullivan
+Certo che in questi mari si tirano su dei gran bei pescioni!
+You can catch such big fish in these seas!
+Asher
+Asher
+Voglio andare dove mi va e non fermarmi qua...!
+I wanna be the very best<<n>>like no one ever was...!
+Sirio
+Sun
+Ehi, giovane!
+Hey, kid!
+Ti ho visto|a lottare lì dentro, sei stato|a davvero eccezionale!
+I saw you battle in there, you know?<<n>>You were amazing!
+Per quanto detesti il circo, è sempre un gran piacere vedere Allenatori del tuo calibro all'opera.
+I hate the circus, but it's always a great pleasure<<n>>seeing Trainers of your level at work.
+Stai viaggiando per Eldiw a caccia delle Medaglie delle Palestre, vero? Beh, in tal caso, ho qui qualcosa che potrà tornarti utile... ma dartelo così sarebbe troppo semplice!
+You're traveling around Eldiw hunting for the Gym<<n>>Badges, am I right?<<n>>Well, in that case, here I have something that may come<<n>>in handy...but just giving it to you would be too easy!
+Sarà tuo solo se farai fuoco e fiamme nella lotta contro la mia nipotina Henné!
+It's yours only if you bring fire and brimstone down<<n>>in the battle against my lil' grandchild Henna!
+Se e solo se riuscirai a metterla alle strette, mi troverai davanti alla vecchia Palestra abbandonata.
+Only if you get to corner them, you will find me in front<<n>>of the old abandoned Gym.
+Henné
+Henna
+Ma chi si vede, \PN! Allora, che mi dici?
+Look who's here, \PN! How is it going?
+Tranquillo|a, so già tutto. Il nonno mi aveva detto che t’avrebbe mandato da quel vecchio Capopalestra. Piuttosto, volevo chiederti un piccolo favore.
+Cut the chatter, I already know everything. Grandpa said<<n>>that he'd send you to that old Gym Leader.<<n>>Actually, I have a small favour to ask.
+Ho trovato quest’Uovo nelle quinte del mio Circo Sirio.
+I found this Egg behind the stage of Sunshine Circus.
+Me ne prenderei cura per fare del nascituro una fiera feroce, ma purtroppo proprio non ne ho modo...
+I'd take care of it so it grows up to be a wild member on stage, but unfortunately I don't have the time for it...
+Vuoi accudirlo tu?
+You wanna take it?
+Circo Sirio
+Sunshine Circus
+Non ho proprio idea di cosa spunterà fuori, lascerò a te il piacere di scoprirlo!
+I have no idea what will hatch, but I'll leave you<<n>>the pleasure to find it out!
+La tua squadra è al completo! Libera un posto se proprio ci tieni ad avere quest’Uovo.
+Your party is full! Make some space, if you really want<<n>>this Egg.
+Capisco, anche tu hai il tuo gran da fare. Fammi sapere se cambi idea, però!
+I see, you're very busy too. Let me know if you change<<n>>your mind!
+\PN, prima o poi daremo spettacolo di nuovo. Faresti bene a prepararti!
+\PN, we'll put on a show again, one day.<<n>>You better be ready!
+Gigio
+Louie
+Con tutto il baccano che fa, quella baracca lassù mi farà scappare tutti i pesci...
+All the uproar that tent over there makes is gonna scare<<n>>all fish away...
+T1X
+T1X
+Fuori dagli ingranaggi, umano|a! <i>Bzz!</i>
+Buzz off, human! <i>Bzz!</i>
+Ti aspettavo, sai?
+I was waiting for you.
+Non ho assistito fino in fondo allo scontro, ma quello che ho potuto vedere mi è bastato.
+I didn't watch the entire battle, but I've seen enough<<n>>to convince me.
+Tu hai tutte le carte in regola per conquistare l’ultima Medaglia che ti spetta!
+You certainly have all what it takes to conquer<<n>>the last Gym Badge!
+Ma vedi... Il Capopalestra che un tempo gestiva questa Palestra se n’è andato, senza lasciar tracce...
+But you see...the Gym Leader that used to run Vega Gym<<n>>has left without a trace...
+Così facendo, i già pochi Allenatori a quota sette Medaglie si sono scoraggiati all’idea di doverlo cercare.
+And so, the few Trainers up to seven Gym Badges gave up<<n>>at the thought of looking for him.
+Ma io so dove si trova e sento di poterlo condividere con un giovane talentuoso come te! Con questo, potrai finalmente tagliare il tuo ambito traguardo! Prendi.
+But I know where he is and I want to share my secret<<n>>with a young talent like you!<<n>>With this, you can finally reach your sought-after goal! Here you have.
+Il Capopalestra di Sagittopoli s’è ritirato in un’altra regione, perciò ti servirà l’aereo per raggiungerlo. Mostrando quello a chi di dovere all’<b>Aeroporto</b> <b>S. Oak</b> potrai imbarcarti per quella terra lontana.
+The Gym Leader of Vega City retired to another region,<<n>>hence you will need the plane to reach him.<<n>>Showing that ticket to the right person in <b>S. Oak</b> <b>Airport</b> you'll get on the plane to that far land.
+Spero che con la tua genuina forza, almeno tu riesca a riaccendere lo spirito guerriero di quell'uomo...
+I hope that with your genuine power, you can revive<<n>>that warrior spirit of his...
+<<[>>old<<]>>Casinò Eldiw
+<<[>>old<<]>>Eldiw Casino
+Kevin
+Kevin
+Chi non vede cos’ha davanti ai propri occhi è come un faro che punta la luce lontano, ma è buio alla base.
+Actuality is when the lighthouse is dark between flashes:<<n>>it's a void interval slipping forever through time.
+Pippo
+Hank
+Ho dato da mangiare a questo Pelipper un paio di volte e ora non vuole più mollarmi!
+I fed this Pelliper a few times and it doesn't give me<<n>>peace now! 
+Hansel
+Hansel
+Questa città ha un mucchio di scorci interessanti. Scatterò delle splendide foto acchiappa-like!
+This city offers a bunch of interesting glimpses.<<n>>I'm gonna take some splendid like-catching pics!
+<<[>>old<<]>>Qui c'è solo spazzatura.
+<<[>>old<<]>>Just garbage here.
+<<[>>old<<]>>Il testo è ormai illeggibile...
+<<[>>old<<]>>It's unreadable...
+<<[>>old<<]>>Palestra itinerante Circo Sirio Capopalestra: <b>Hennè</b> <i>''Pieno controllo delle fiamme in un colpo di frusta!''</i> Allenatori Certificati: 0
+<<[>>old<<]>>Traveling Gym - Sunshine Circus\nGym Leader: <b>Henna</b>\n<i>''Taming the flames in a single whiplash!''</i>\nCertified Trainers: 0
+<<[>>old<<]>>Palestra itinerante Circo Sirio Capopalestra: <b>Hennè</b> <i>''Pieno controllo delle fiamme in un colpo di frusta!''</i> Allenatori Certificati: \PN
+<<[>>old<<]>>Traveling Gym - Sunshine Circus\nGym Leader: <b>Henna</b>\n<i>''Taming the flames in a single whiplash!''</i>\nCertified Trainers: \PN
+Aster
+Aster
+Oh, ehi \PN! Da questa parte!
+Oh, hey \PN! This way!
+Alice
+Alice
+Che bello rivederti! Allora com'è andata col Capopalestra?
+So nice to see you again! So, how was your battle against<<n>>the Gym Leader?
+Wow, e così hai tutte le Medaglie?! Che bella notizia!
+Yowza, so you got all the Badges?! That's great!
+\PN, ti faccio le mie congratulazioni, ma non siamo qui per questo...
+\PN, you have my congratulations, but we're not<<n>>here for this now...
+Alice, non perdiamo di vista l'obiettivo.
+Alice, let's focus on our goal!
+Stando al mio informatore, il covo del Team Dimension dovrebbe trovarsi nei sotterranei della città. Ci dev'essere per forza un passaggio per raggiungerli!
+According to my informer, Team Dimension's hideout<<n>>must be in the city's underground.<<n>>There's got to be a passageway to get down there!
+Sì, Aster! Ha ragione! Rimbocchiamoci le maniche e troviamolo!
+Aye, Aster! You're right! Sleeves up and let's find it!
+Kay
+Kay
+Kay, non perdiamo di vista l'obiettivo.
+Kay, let's focus on our goal!
+Ilaria
+Aisha
+Vorrei tanto farmi una corsetta, ma mi sento le gambe così pesanti...
+I'm trying to get a run in, but I feel like my legs are<<n>>so heavy...
+Oh, ecco perché! Avevo questa in tasca!
+Oh, that's why! I forgot this was in my pocket!
+Tienila tu, te la regalo.
+You can keep it, it's a gift.
+Una bella corsetta è quello che ci vuole per mantenere la linea!
+A brisk little run is what you need to be in good shape!
+Luther
+Luther
+Ehi, ma tu la segui la pagina <b>Weedle</b>, vero?
+Hey, d'ya follow <b>Weedle</b> Instagram page, don't ya?
+Loro sanno tutto di noi!
+They know everything about us!
+Capitano
+Captain
+Onda dopo onda, ho solcato ogni mare stringendo questa MT come un talismano. Ma ora che sono finalmente capitano, non me ne faccio più nulla, per cui prendila tu.
+Wave after wave, I sailed the seas holding this TM<<n>>as a lucky charm.<<n>>But now that I'm finally a captain, I don't need it<<n>>anymore, so you can take it. 
+Speri ti porti la stessa fortuna che ha portato a me, giovane marinaio|a.
+I hope it will bring you the same luck it brought me,<<n>>young sailor.
+Kanye
+Kanye
+La musica è la mia passione, ma non c’è niente al mondo che batta il rumore delle onde del mare.
+Music is my passion, but there's not a thing on this earth like the sound of the waves crashin' on the beach.
+Ennai
+Derrick
+Abbiamo deciso di attraccare qui a Sagittopoli perché è la città del capitano... Una bella giocatina al <b>Casinò Eldiw</b> non me la toglie nessuno!
+We docked here in Vega City 'cause it's the hometown<<n>>of our Captain...<<n>>I think I'm gonna go play at the <b>Eldiw Casino</b> now!
+Eleonora
+Rose
+Aromi di ogni tipo, per avere sempre un buon profumo anche con questo caldo infernale!
+Get yourself some good Incense to smell nice even<<n>>in this blazing heat! 
+PPN7
+PPN7
+Prima di decollare, voglio godermi un'ultima volta questo splendido mare... <i>Bzz!</i>
+Before taking off, I wanted to enjoy this wonderful sea<<n>>one last time... <i>Bzz!</i>
+<<[>>old<<]>>Percorso 11 a sud
+<<[>>old<<]>>South: Route 11
+Rupert
+Rockart
+Io lo so che gli appassionati di rocce si nascondono anche in spiaggia!
+I know that rock enthusiasts are hiding onto the beach, too!
+Sì
+Yes
+No
+No
+[Map621]
+Uoh oh oh! Qui c'è della merce che scotta!
+Wo oh oh! There's some hot goods here!
+Sono un appassionato di tappi! Se ne hai qualcuno, posso allenare uno dei tuoi Pokémon.
+I'm a bottle cap enthusiast! If you have some, I can train some of your Pokémon.
+Quale Pokémon vuoi farmi allenare?
+Which one do you want me to train?
+Se hai dei tappi, sai dove trovarmi!
+If you have bottle caps, you know where to find me!
+Quale tappo vuoi darmi?
+Which bottle cap do you want to give me?
+Questo tappo è fenomenale!
+This bottle cap is great!
+In quale statistica vuoi che alleni il tuo Pokémon?
+In which stat do you want me to train your Pokémon?
+Andata! Se hai altri tappi, sai dove trovarmi!
+Done! If you have any more bottle caps, you know where to find me!
+Se hai dei tappi, sai dove trovarmi!
+If you have bottle caps, you know where to find me!
+Questo tappo è pazzesco! Allenerò il tuo Pokémon al meglio delle mie possibilità!
+This bottle cap is amazing! I'll train your Pokémon to the best of my capabilities!
+È un peccato, sembra che tu non abbia tappi da darmi...
+It's a shame, it looks like you have no bottle cap to give me...
+Bienvenue! Qui c'è merce fantastique!
+Bienvenue! Here there's fantastique merchandise!
+Ahr ahr ahr! Qui puoi comprare quello che serve per combattere battaglie accese!
+Gra ha ha! Here you can buy anything you need for lit battles!
+Golia
+Goliath
+Stromboli
+Rainier
+Aria
+Skyler
+Francy
+Franz
+Sono venuto da molto lontano per partecipare al Torneo Apollo! Non vedo l'ora di combattere.
+I came from far away to take part in the Apollo Tournament! I can't wait to fight.
+Carolina
+Karen
+Tommasina
+Nancy
+Nino
+Oliver
+Nunzia
+Vanessa
+Annalisa
+Ann
+Da giovane ero una fortissima allenatrice, ma ormai i tempi d'oro sono finiti... Io e il mio Hikiloo ci goderemo le battaglie direttamente dal parterre.
+When I was younger I was an extremely strong trainer, but now my times are over... My Hikiloo and I will enjoy the battles directly from the audience.
+Io e il mio Scaracno ci siamo allenati duramente per questo Torneo. Spero che non mi troverai contro,se no per te saranno guai!
+Me and my Scaracno trained a lot for this Tournament. I hope that you won't have to fight me, otherwise it'll be bad news for you!
+Ho portato mio figlio qui al Torneo Apollo solo per guardarlo... Il problema è che pensa di poter partecipare...
+I brought my son here at the Apollo Tournament just to spectate... The issue is that he thinks he's allowed to compete...
+Ieri ero venuto per un colloquio al Circo Sirio per partecipare come clown nei loro spettacoli.
+Yesterday I came here for a job interview at Sunshine Circus to take part in their spectacles as a clown.
+Oggi avevo il secondo colloquio e il Circo si è trasformato in un edificio dedicato a delle Battaglie Pokémon!
+Today I had the second interview and the Sunshine Circus transformed in a building fully dedicated to Pokémon battles!
+Che stregoneria è questa?
+What kind of witchcraft is this?
+I VIP sono arrivati ad Eldiw... Sono stati scelti dallo staff del Torneo Apollo proprio per la loro forza estrema. Ho anche sentito dire che parteciperanno molti altri nella prossima stagione.
+The VIPs came to Eldiw... They were chosen by the staff of the Apollo Tournament because of their incredible strength. I also heard that many others will be participating in the next season.
+Non vedo l'ora di assistere alle lotte del mio amato Leo. Sono una sua super fan!
+I can't wait to see the fight of my beloved Leo. I'm a big fan of him!
+Mi spiace, ma il mio amato Dante vincerà il Torneo Apollo. Il suo fascino oscuro mi conquista.
+I'm sorry, but my beloved Dante will win the Apollo Tournament. His dark charm already conquered me.
+Sto facendo provviste per aumentare il potere del mio team. Questo Torneo presenta davvero allenatori formidabilissimi. Spero di non perdere nuovamente...
+I'm getting supplies to increase the strength of my team. This Tournament hosts really formidable trainers. I hope I won't lose again...
+<<[>>old<<]>>Vuoi entrare nella Sala d'onore?
+<<[>>old<<]>>Do you want to enter the Hall of fame?
+Sì
+Yes
+No
+No
 [Map625]
 Stella
 Stella
