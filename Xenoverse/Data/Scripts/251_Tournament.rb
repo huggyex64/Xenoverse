@@ -1030,7 +1030,7 @@ def pbMTShopList()
     mt = "TM#{"%02d" % i}".to_sym
     #echoln "#{mt} #{getConst(PBItems,mt)}"
     mts.push(mt) if $PokemonBag.pbQuantity(mt)==0
-    
+
   end
   echoln mts
 end
@@ -1039,28 +1039,28 @@ def pbChooseIVTrainingStat(poke)
   commands = {}
   cmd = []
   if poke.iv[0]<31
-    cmd.push(_INTL("HP"))
-    commands[_INTL("HP")] = 0
+    cmd.push(_INTL("PS"))
+    commands[_INTL("PS")] = 0
   end
   if poke.iv[1]<31
-    cmd.push(_INTL("Attack"))
-    commands[_INTL("Attack")] = 1 
+    cmd.push(_INTL("Attacco"))
+    commands[_INTL("Attacco")] = 1 
   end
   if poke.iv[2]<31
-    cmd.push(_INTL("Defense"))
-    commands[_INTL("Defense")] = 2 
+    cmd.push(_INTL("Difesa"))
+    commands[_INTL("Difesa")] = 2 
   end
   if poke.iv[4]<31
-    cmd.push(_INTL("Special Attack"))
-    commands[_INTL("Special Attack")] = 4 
+    cmd.push(_INTL("Attacco Speciale"))
+    commands[_INTL("Attacco Speciale")] = 4 
   end
   if poke.iv[5]<31
-    cmd.push(_INTL("Special Defense"))
-    commands[_INTL("Special Defense")] = 5 
+    cmd.push(_INTL("Difesa Speciale"))
+    commands[_INTL("Difesa Speciale")] = 5 
   end
   if poke.iv[3]<31
-    cmd.push(_INTL("Speed"))
-    commands[_INTL("Speed")] = 3 
+    cmd.push(_INTL("Velocità"))
+    commands[_INTL("Velocità")] = 3 
   end
 
   ret = pbNewChoice(Fullbox_Option.createFromArray(cmd),-1) 
@@ -1127,7 +1127,7 @@ TRAINERPOOL_basic=[  #ALMENO 8 ALLENATORI
   ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Girolamo",_INTL("A quanto pare non ho viaggiato abbastanza!"),0],
   ["arturo bidello",PBTrainers::BIDELLO,"Natale",_INTL("Che hai detto? Non ci sento molto!"),0],
   ["scagnozzo evan 1",PBTrainers::SCAGNOZZO1,"Tommaso",_INTL("Che botta..."),0],
-  ["indianokid",PBTrainers::INDIANOKID,"Hakan",_INTL("Owch... Non è sono ancora abbastanza forte..."),0],
+  ["indianokid",PBTrainers::INDIANOKID,"Hakan",_INTL("Owch... Non sono ancora abbastanza forte..."),0],
   ["pescatore",PBTrainers::PESCATORE,"Ernesto",_INTL("C'ero quasi!"),0],
   ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Marco",_INTL("C'ero quasi!"),0],
   ["redneckm",PBTrainers::REDNECKM,"Fulvio",_INTL("C'ero quasi!"),0],
@@ -1153,7 +1153,7 @@ end
 TRAINERPOOL_expert=[]  #ALMENO 32 ALLENATORI
 
 LANCEPOOL=[
-  ["lance",PBTrainers::LANCETOURNAMENT,"Lance",_INTL("Pare che il mio allenamento non sia bastato..."),10],
+  ["lance",PBTrainers::LANCETOURNAMENT,"Lance",_INTL("Pare che il mio lungo allenamento non sia bastato..."),10],
   ["Ranger femmina 1",PBTrainers::RANGERF,"Solana",_INTL("Per poco!"),0],
   ["montanaro",PBTrainers::MONTANARO,"Alfio",_INTL("Peccato! Avrei dovuto passare meno tempo a passeggiare..."),0],
   ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Girolamo",_INTL("A quanto pare non ho viaggiato abbastanza!"),0],
@@ -1642,11 +1642,11 @@ class PWT
         @v=Viewport.new(0,0,Graphics.width,Graphics.height)
         @v.z=99990
       else
-        Kernel.pbMessage(_INTL("I'm sorry, will be for next time!"))
+        Kernel.pbMessage(_INTL("Mi spiace, sarà per la prossima volta!"))
         @ended = true
       end
     else
-      Kernel.pbMessage(_INTL("I'm sorry, will be for next time!"))
+      Kernel.pbMessage(_INTL("Mi spiace, sarà per la prossima volta!"))
       @ended = true
     end
   end
@@ -3028,6 +3028,7 @@ def pbTrans(method)
 end
 
 def pbLeo
+  $ISINTOURNAMENT = true
   @opponent = LEOPOOL[0]
   key = [@opponent[1],@opponent[2]]
   fbNewMugshot(VIPSPEECH[key][:name],VIPSPEECH[key][:mugshot],"default",:left)
@@ -3040,4 +3041,5 @@ def pbLeo
     i.calcStats
   end
   pbTournamentBattle(LEOPOOL[0][1],LEOPOOL[0][2],LEOPOOL[0][3])
+  $ISINTOURNAMENT = false
 end

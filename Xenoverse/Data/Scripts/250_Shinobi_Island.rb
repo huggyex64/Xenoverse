@@ -219,6 +219,8 @@ class NewBossBattleTransition
       when "fury"
         echoln "starting fury sequence"
         @sprites["background"] = SunMoonFuryBackground.new(@viewport,@trainerid,@evilteam)
+      when "vip"
+        @sprites["background"] = SunMoonVipBackground.new(@viewport,@trainerid,@evilteam)
       else
         @sprites["background"] = SunMoonDefaultBackground.new(@viewport,@trainerid,@evilteam,@teamskull)
       end

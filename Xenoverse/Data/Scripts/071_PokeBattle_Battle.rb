@@ -3838,7 +3838,7 @@ class PokeBattle_Battle
 		when 2, 5
 			PBDebug.log("***Player lost***") if @decision==2
 			PBDebug.log("***Player drew with opponent***") if @decision==5
-			if @internalbattle
+			if @internalbattle && !$ISINTOURNAMENT
 				pbDisplayPaused(_INTL("{1} is out of usable Pokémon!",self.pbPlayer.name))
 				moneylost=pbMaxLevelFromIndex(0)   # Player's Pokémon only, not partner's
 				multiplier=[8,16,24,36,48,60,80,100,120]

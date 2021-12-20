@@ -1150,6 +1150,157 @@ class SunMoonFuryBackground
   
 end
 #-------------------------------------------------------------------------------
+#  VIP Transition
+#-------------------------------------------------------------------------------
+class SunMoonVipBackground
+  attr_reader :speed
+  # main method to create the background
+  def initialize(viewport,trainerid,evilteam=false)
+    @viewport = viewport
+    @trainerid = trainerid
+    @evilteam = evilteam
+    @disposed = false
+    @speed = 1
+    @sprites = {}
+    # creates the background
+    @sprites["background"] = RainbowSprite.new(@viewport)
+    @sprites["background"].setBitmap("Graphics/Transitions/SunMoon/Vip/background")
+    @sprites["background"].color = Color.new(0,0,0)
+    @sprites["background"].z = 200
+
+    @sprites["logo"] = RainbowSprite.new(@viewport)
+    @sprites["logo"].setBitmap("Graphics/Transitions/SunMoon/Vip/logoTournament")
+    #@sprites["logo"].color = Color.new(0,0,0)
+    @sprites["logo"].z = 200
+
+    # handles the particles for the animation
+    @vsFp = {}
+    @fpDx = []
+    @fpDy = []
+    @fpIndex = 0
+    # loads ring effect
+    @sprites["ring"] = Sprite.new(@viewport)
+    @sprites["ring"].bitmap = pbBitmap("Graphics/Transitions/SunMoon/Vip/ring")
+    @sprites["ring"].ox = @sprites["ring"].bitmap.width/2
+    @sprites["ring"].oy = @sprites["ring"].bitmap.height/2
+    @sprites["ring"].x = @viewport.rect.width/2
+    @sprites["ring"].y = @viewport.rect.height
+    @sprites["ring"].zoom_x = 0
+    @sprites["ring"].zoom_y = 0
+    @sprites["ring"].z = 500
+    @sprites["ring"].visible = false
+    @sprites["ring"].color = Color.new(0,0,0)
+    # loads sparkle particles
+    for j in 0...32
+      @sprites["s#{j}"] = Sprite.new(@viewport)
+      @sprites["s#{j}"].bitmap = pbBitmap("Graphics/Transitions/SunMoon/Vip/particle")
+      @sprites["s#{j}"].ox = @sprites["s#{j}"].bitmap.width/2
+      @sprites["s#{j}"].oy = @sprites["s#{j}"].bitmap.height/2
+      @sprites["s#{j}"].opacity = 0
+      @sprites["s#{j}"].z = 220
+      @sprites["s#{j}"].color = Color.new(0,0,0)
+      @fpDx.push(0)
+      @fpDy.push(0)
+    end
+    @fpSpeed = []
+    @fpOpac = []
+    # loads scrolling particles
+    for j in 0...3
+      k = j+1
+      speed = 2 + rand(5)
+      @sprites["p#{j}"] = ScrollingSprite.new(@viewport)
+      @sprites["p#{j}"].setBitmap("Graphics/Transitions/SunMoon/Vip/newglow#{j}")
+      @sprites["p#{j}"].speed = speed*4
+      @sprites["p#{j}"].direction = j%2==0 ? 1 : -1
+      @sprites["p#{j}"].opacity = 0
+      @sprites["p#{j}"].z = 220
+      @sprites["p#{j}"].zoom_y = 1 + rand(10)*0.005
+      @sprites["p#{j}"].color = Color.new(0,0,0)
+      @fpSpeed.push(speed)
+      @fpOpac.push(4) if j > 0
+    end
+  end
+  # sets the speed of the sprites
+  def speed=(val)
+    val = 16 if val > 16
+    for j in 0...3
+      @sprites["p#{j}"].speed = val*2
+    end
+  end
+  # updates the background
+  def update
+    return if self.disposed?
+    # updates background
+    #@sprites["background"].update
+    # updates ring
+    if @sprites["ring"].visible && @sprites["ring"].opacity > 0
+      @sprites["ring"].zoom_x += 0.2
+      @sprites["ring"].zoom_y += 0.2
+      @sprites["ring"].opacity -= 16
+    end
+    # updates sparkle particles
+    for j in 0...32
+      next if !@sprites["ring"].visible
+      next if !@sprites["s#{j}"] || @sprites["s#{j}"].disposed?
+      next if j > @fpIndex/4
+      if @sprites["s#{j}"].opacity <= 1
+        width = @viewport.rect.width
+        height = @viewport.rect.height
+        x = rand(width*0.75) + width*0.125
+        y = rand(height*0.50) + height*0.25
+        @fpDx[j] = x + rand(width*0.125)*(x < width/2 ? -1 : 1)
+        @fpDy[j] = y - rand(height*0.25)
+        z = [1,0.75,0.5,0.25][rand(4)]
+        @sprites["s#{j}"].zoom_x = z
+        @sprites["s#{j}"].zoom_y = z
+        @sprites["s#{j}"].x = x
+        @sprites["s#{j}"].y = y
+        @sprites["s#{j}"].opacity = 255
+        @sprites["s#{j}"].angle = rand(360)
+      end
+      @sprites["s#{j}"].x -= (@sprites["s#{j}"].x - @fpDx[j])*0.05
+      @sprites["s#{j}"].y -= (@sprites["s#{j}"].y - @fpDy[j])*0.05
+      @sprites["s#{j}"].opacity -= @sprites["s#{j}"].opacity*0.05
+      @sprites["s#{j}"].zoom_x -= @sprites["s#{j}"].zoom_x*0.05
+      @sprites["s#{j}"].zoom_y -= @sprites["s#{j}"].zoom_y*0.05
+    end
+    # updates scrolling particles
+    for j in 0...3
+      next if !@sprites["p#{j}"] || @sprites["p#{j}"].disposed?
+      @sprites["p#{j}"].update
+      if j == 0
+        @sprites["p#{j}"].opacity += 5 if @sprites["p#{j}"].opacity < 155
+      else
+        @sprites["p#{j}"].opacity += @fpOpac[j-1]*(@fpSpeed[j]/2)
+      end
+      next if @fpIndex < 24
+      @fpOpac[j-1] *= -1 if (@sprites["p#{j}"].opacity >= 255 || @sprites["p#{j}"].opacity < 65)
+    end
+    @fpIndex += 1 if @fpIndex < 150
+  end
+  # used to fade in from black
+  def reduceAlpha(factor)
+    for key in @sprites.keys
+      @sprites[key].color.alpha -= factor
+    end
+  end
+  # disposes of everything
+  def dispose
+    @disposed = true
+    pbDisposeSpriteHash(@sprites)
+  end
+  # checks if disposed
+  def disposed?; return @disposed; end
+  # used to show other elements
+  def show
+    for j in 0...3
+      @sprites["p#{j}"].visible = true
+    end
+    @sprites["ring"].visible = true
+    @fpIndex = 0
+  end
+end
+#-------------------------------------------------------------------------------
 #  Utilities used for move animations
 #-------------------------------------------------------------------------------
 class PokeBattle_Scene  
@@ -2789,6 +2940,8 @@ class SunMoonBattleTransitions
       @teamskull = true
       self.teamSkull if @teamskull
       @sprites["background"] = SunMoonFuryBackground.new(@viewport,@trainerid,@evilteam)
+    when "vip"
+      @sprites["background"] = SunMoonVipBackground.new(@viewport,@trainerid,@evilteam)
     else
       @sprites["background"] = SunMoonDefaultBackground.new(@viewport,@trainerid,@evilteam,@teamskull)
     end
@@ -3036,7 +3189,7 @@ class SunMoonBattleTransitions
     viewport = @viewport
     zoom = 4.0
     echoln "Graphics/Transitions/SunMoon/Common/ballTransition#{@teamskull ? "Skull" : ""}  NEWTRANSITION 1"
-    obmp = pbBitmap("Graphics/Transitions/SunMoon/Common/ballTransition#{@teamskull ? "Skull" : ""}")
+    obmp = pbBitmap("Graphics/Transitions/SunMoon/Common/ballTransition#{@teamskull ? "Skull" : ""}#{$ISINTOURNAMENT ? "Vip" : ""}")
     @sprites["background"].speed = 24
     echo "\n I got here SOMEHOW \n"
     # zooms in ball graphic overlay
@@ -3073,7 +3226,7 @@ class SunMoonBattleTransitions
     $smAnim = false
     # transitions from VS sequence to the battle scene
     zoom = 0
-    obmp = pbBitmap("Graphics/Transitions/SunMoon/Common/ballTransition#{@teamskull ? "Skull" : ""}")
+    obmp = pbBitmap("Graphics/Transitions/SunMoon/Common/ballTransition#{@teamskull ? "Skull" : ""}#{$ISINTOURNAMENT ? "Vip" : ""}")
     
     # zooms out ball graphic overlay
     21.times do
@@ -3591,7 +3744,7 @@ class SunMoonBattleTransitions
       @evilteam = true if !id.nil? && trainerid == id
     end
     # methods used to determine special variants
-    ext = ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury"]
+    ext = ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury","vip"]
     #ext.push("trainer")
     @variant = "trainer"
     for i in 0...ext.length
@@ -3604,7 +3757,7 @@ end
 # returns true if game is supposed to load a Sun & Moon styled VS sequence
 def checkIfSunMoonTransition(trainerid)
   ret = false
-  for ext in ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury"]
+  for ext in ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury","vip"]
     ret = true if pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",ext,trainerid))
   end
   $smAnim = ret
@@ -3613,7 +3766,7 @@ end
 
 def checkIfSunMoonTrainer(trainerid)
   ret = false
-  for ext in ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury"]
+  for ext in ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury","vip"]
     ret = true if pbResolveBitmap(sprintf("Graphics/Transitions/sm%s%d",ext.capitalize,trainerid))
     ret = true if pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",ext,trainerid))
   end
@@ -3623,7 +3776,7 @@ end
 def checkIfNewTransition(trainerid)
   ret = false
   echo sprintf("Graphics/Transitions/SunMoon/%s%d","cardinal",trainerid)
-  for ext in ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury"]
+  for ext in ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury","vip"]
     ret = true if pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",ext,trainerid))
   end
   return ret
