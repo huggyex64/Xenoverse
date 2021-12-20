@@ -23750,8 +23750,8 @@ Noi moriremo qui, e affideremo il nostro significato a coloro che resteranno in 
 We'll die here, and will leave our significance to those who will be left alive. It's the only way we have to oppose and fight against this cruel world.
 Hey tu! sei alla ricerca di affari? Allora sei nel posto giusto!
 Hey you! Are you looking for business? Then you're in the right place!
-Solo per oggi! Posso venderti un Magikarp cromatico a soli 1.000000!
-Just for today! I can sell you a shiny Magikarp just for 1.000.000!
+Solo per oggi! Posso venderti un Magikarp cromatico a soli 999999!
+Just for today! I can sell you a shiny Magikarp just for 999999!
 Allora che ne pensi? Vuoi acquistarlo?
 So, what do you think? Would you like to buy it?
 Chi vuoi prendere in giro? Non vedi che non hai una lira in tasca? Torna da me quando avrai la cifra richiesta.
@@ -46082,6 +46082,108 @@ A special item made by Maurice. This device lets you leave the Abandoned Bunker.
 796
 Un anello creato da Victor intriso di energia X. Permette di trasformare geneticamente alcuni Pokémon.
 A ring made by Victor soaked of X Energy. Allows the genetic transformation of a Pokémon.
+797
+Un diario contenente tutte le esperienze del proprietario.
+A diary containing all the experiences of the owner.
+798
+Se una mossa non va a segno a causa della scarsa precisione, la Velocità aumenta considerevolmente.
+Raises Speed sharply when a Pokémon misses with a move because of accuracy.
+799
+Aumenta l'Attacco Speciale quando il Pokémon usa una mossa basata sul suono.
+Raises Sp. Atk when a Pokémon uses a sound-based move.
+800
+Se un Pokémon ha questo strumento quando il campo di lotta è sotto l'effetto di Distortozona, la sua Velocità diminuisce.
+An item to be held by a Pokémon. Lowers Speed when Trick Room takes effect.
+801
+Protegge il Pokémon che ce l'ha dagli effetti di trappole e di altri ostacoli piazzati ai suoi piedi.
+An item to be held by a Pokémon. These boots prevent the effects of traps set on the battlefield.
+802
+Protegge dagli effetti causati dal contatto diretto con altri Pokémon.
+An item to be held by a Pokémon. These pads protect the holder from effects caused by making direct contact with the target.
+803
+Strumento da dare a un Pokémon. Protegge dagli effetti causati da qualunque condizione atmosferica.
+An item to be held by a Pokémon. This sturdy umbrella protects the holder from the effects of rain and harsh sunlight.
+804
+Strumento da dare a un Pokémon. Se le sue statistiche diminuiscono, viene sostituito da un altro Pokémon della squadra.
+An item to be held by a Pokémon. When the holder's stats are lowered, it will be switched out of battle.
+805
+Quando un Pokémon ne sente il profumo, il suo Attacco aumenta più facilmente a scapito dell'Attacco Speciale.
+When a Pokémon smells this mint, its Attack will grow more easily, but its Sp. Atk will grow more slowly.
+806
+Quando un Pokémon ne sente il profumo, la sua Difesa aumenta più facilmente a scapito dell'Attacco.
+When a Pokémon smells this mint, its Defense will grow more easily, but its Attack will grow more slowly.
+807
+Quando un Pokémon ne sente il profumo, il suo Attacco aumenta più facilmente a scapito della Velocità.
+When a Pokémon smells this mint, its Attack will grow more easily, but its Speed will grow more slowly.
+808
+Quando un Pokémon ne sente il profumo, la sua Difesa Speciale aumenta più facilmente a scapito dell'Attacco.
+When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Attack will grow more slowly.
+809
+Quando un Pokémon ne sente il profumo, la sua Difesa Speciale aumenta più facilmente a scapito dell'Attacco Speciale.
+When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Sp. Atk will grow more slowly.
+810
+Quando un Pokémon ne sente il profumo, la sua Difesa Speciale aumenta più facilmente a scapito della Difesa.
+When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Defense will grow more slowly.
+811
+Quando un Pokémon ne sente il profumo, la sua Velocità aumenta più facilmente a scapito della Difesa.
+When a Pokémon smells this mint, its Speed will grow more easily, but its Defense will grow more slowly.
+812
+Quando un Pokémon ne sente il profumo, la sua Difesa aumenta più facilmente a scapito dell'Attacco Speciale.
+When a Pokémon smells this mint, its Defense will grow more easily, but its Sp. Atk will grow more slowly.
+813
+Quando un Pokémon ne sente il profumo, la sua Velocità aumenta più facilmente a scapito dell'Attacco Speciale.
+When a Pokémon smells this mint, its Speed will grow more easily, but its Sp. Atk will grow more slowly.
+814
+Quando un Pokémon ne sente il profumo, la sua Difesa aumenta più facilmente a scapito della Difesa Speciale.
+When a Pokémon smells this mint, its Defense will grow more easily, but its Sp. Def will grow more slowly.
+815
+Quando un Pokémon ne sente il profumo, il suo Attacco aumenta più facilmente a scapito della Difesa.
+When a Pokémon smells this mint, its Attack will grow more easily, but its Defense will grow more slowly.
+816
+Quando un Pokémon ne sente il profumo, il suo Attacco Speciale aumenta più facilmente a scapito della Difesa.
+When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Defense will grow more slowly.
+817
+Quando un Pokémon ne sente il profumo, il suo Attacco Speciale aumenta più facilmente a scapito dell'Attacco.
+When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Attack will grow more slowly.
+818
+Quando un Pokémon ne sente il profumo, la sua Velocità aumenta più facilmente a scapito della Difesa Speciale.
+When a Pokémon smells this mint, its Speed will grow more easily, but its Sp. Def will grow more slowly.
+819
+Quando un Pokémon ne sente il profumo, il suo Attacco aumenta più facilmente a scapito della Difesa Speciale.
+When a Pokémon smells this mint, its Attack will grow more easily, but its Sp. Def will grow more slowly.
+820
+Quando un Pokémon ne sente il profumo, il suo Attacco Speciale aumenta più facilmente a scapito della Velocità.
+When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Speed will grow more slowly.
+821
+Quando un Pokémon ne sente il profumo, il suo Attacco Speciale aumenta più facilmente a scapito della Difesa Speciale.
+When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Sp. Def will grow more slowly.
+822
+Quando un Pokémon ne sente il profumo, la sua Difesa aumenta più facilmente a scapito della Velocità.
+When a Pokémon smells this mint, its Defense will grow more easily, but its Speed will grow more slowly.
+823
+Quando un Pokémon ne sente il profumo, la sua Velocità aumenta più facilmente a scapito dell'Attacco.
+When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Speed will grow more slowly.
+824
+Quando un Pokémon ne sente il profumo, tutte le sue statistiche aumentano uniformemente.
+When a Pokémon smells this mint, all of its stats will grow at an equal rate.
+825
+Quando un Pokémon ne sente il profumo, la sua Velocità aumenta più facilmente a scapito dell'Attacco.
+When a Pokémon smells this mint, its Speed will grow more easily, but its Attack will grow more slowly.
+826
+Un bel tappo a corona color argento, molto apprezzato da alcuni.
+A beautiful bottle cap that gives off a silver gleam. Some people are happy to receive one.
+827
+Un bel tappo a corona color oro, più raro del Tappo d'argento. Alcuni lo apprezzano molto.
+A beautiful bottle cap that gives off a golden gleam. Some people are happy to receive one.
+828
+Caramella fortemente energetica. Fa salire un Pokémon di cinque livelli.
+A candy that is strongly packed with energy. It raises the level of a single Pokémon by five.
+829
+Caramella incredibilmente energetica. Fa salire un Pokémon di dieci livelli.
+A candy that is incredibly packed with energy. It raises the level of a single Pokémon by ten.
+830
+Cerotto che permette a un Pokémon dotato di un'abilità comune di cambiarla in una più rara.
+A patch that allows a Pokémon with a regular Ability to have a rare Ability.
 [9]
 1
 Tanfo

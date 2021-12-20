@@ -780,7 +780,7 @@
 821,RASHMINT,Menta Ardente,2,10,"Quando un Pokémon ne sente il profumo, il suo Attacco Speciale aumenta più facilmente a scapito della Difesa Speciale.",1,0,0,
 822,RELAXEDMINT,Menta Placida,2,10,"Quando un Pokémon ne sente il profumo, la sua Difesa aumenta più facilmente a scapito della Velocità.",1,0,0,
 823,SASSYMINT,Menta Vivace,2,10,"Quando un Pokémon ne sente il profumo, la sua Velocità aumenta più facilmente a scapito dell'Attacco.",1,0,0,
-824,SERIOUSMINT,Menta Seria,2,10,"Quando un Pokémon ne sente il profumo, le sue statistiche di Attacco, Difesa, Velocità, Difesa Speciale e Attacco Speciale aumentano uniformemente.",1,0,0,
+824,SERIOUSMINT,Menta Seria,2,10,"Quando un Pokémon ne sente il profumo, tutte le sue statistiche aumentano uniformemente.",1,0,0,
 825,TIMIDMINT,Menta Timida,2,10,"Quando un Pokémon ne sente il profumo, la sua Velocità aumenta più facilmente a scapito dell'Attacco.",1,0,0,
 826,BOTTLECAP,Tappo d'argento,1,2500,"Un bel tappo a corona color argento, molto apprezzato da alcuni.",1,1,0,
 827,GOLDBOTTLECAP,Tappo d'oro,1,5000,"Un bel tappo a corona color oro, più raro del Tappo d'argento. Alcuni lo apprezzano molto.",1,1,0,
