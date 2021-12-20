@@ -34,7 +34,7 @@ end
 SecretReports.register({
     :id => :TamaraReports,
     :id_number => 0,
-    :title => "Diario di ???",
+    :title => _INTL("Diario di ???"),
     :pageno => 11,
     :bg => "Graphics/Pictures/reportsbg",
     :pages =>[
@@ -57,7 +57,7 @@ SecretReports.register({
         "abbia successo! Spero solo che non torni quella spina nel fianco...",
         #4
         "???: Alla fine la missione sul treno è andata a buon fine, ma non grazie a me... "+
-        "ho perso contro quella sottospecie di Trubbish..."+
+        "ho perso contro quella sottospecie di Trubbish... "+
         "Il Generale ha preso le redini della situazione e ha portato a termine "+
         "la missione senza problemi. È proprio magnifico! Devo migliorare per poter " +
         "essere alla sua altezza, non posso assolutamente deluderlo!",
@@ -73,7 +73,7 @@ SecretReports.register({
         "tipo di Energia. Io ero così emozionata! Finalmente vedevo tornare nel"+
         " mio adorato un po’ di forze, che non ero più nella pelle!",
         #7
-        "???: Ero contenta di sentire il mio Generale pieno di energie," +
+        "???: Ero contenta di sentire il mio Generale pieno di energie, " +
         "ma ormai non fa altro che parlare di una certa Nives... Pare fosse una ricercatrice "+
         "del Team Dimension, quando erano ancora in corso gli esperimenti sullo Xenoverse. "+
         "Adesso ci stiamo dirigendo verso un nascondiglio situato nel Canyon Asteroide. "+
@@ -141,7 +141,7 @@ class SecretReportScreen
         commands=CommandList.new
         for i in 0...@reports[:pageno]
             pageno = "%03d" % (i+1)
-            commands.add("page#{i}", $Trainer.pages.has_key?(id) && $Trainer.pages[id].has_key?(i) ? _INTL("#{pageno}: Page Number #{i+1}") : "#{pageno}: ???")
+            commands.add("page#{i}", $Trainer.pages.has_key?(id) && $Trainer.pages[id].has_key?(i) ? _INTL("{1}: Pagina Numero {2}",pageno, i+1) : "#{pageno}: ???")
         end
 
         @sprites["cmdwindow"]=Window_CommandPokemonEx.new(commands.list)
@@ -163,8 +163,8 @@ class SecretReportScreen
         pbSetFont(@sprites["rightOverlay"].bitmap,"Barlow Condensed",27)
 
         textpos = [[_INTL(@reports[:title]),128,80,2,Color.new(48,48,48)],
-                   [_INTL("Collected Pages: {1}",$Trainer.pages.has_key?(id) ? "#{$Trainer.pages[id].keys.length}" : "0"),128,110,2,Color.new(48,48,48)],
-                   [_INTL("Total Pages: {1}", @reports[:pageno]),128,140,2,Color.new(48,48,48)]]
+                   [_INTL("Pagine Raccolte: {1}",$Trainer.pages.has_key?(id) ? "#{$Trainer.pages[id].keys.length}" : "0"),128,110,2,Color.new(48,48,48)],
+                   [_INTL("Pagine Totali: {1}", @reports[:pageno]),128,140,2,Color.new(48,48,48)]]
 
         pbDrawTextPositions(@sprites["rightOverlay"].bitmap,textpos)
 

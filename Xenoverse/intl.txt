@@ -24239,6 +24239,38 @@ No
 <<[>>old<<]>>It looks like this will be an amazing round!
 <<[>>old<<]>>Siete tutti pronti per questa battaglia?
 <<[>>old<<]>>Are you all ready for this battle?
+Dopo aver perso il titolo di Campione, ha deciso di ritirarsi per affinare ancora di più le sue abilità!
+After losing the title of Champion, he decided to retire to hone his skills to the limit!
+Ora è proprio qui con noi al Torneo Apollo...
+Now he's right here with us at the Apollo Tournament...
+L'unico e inimitabile, Lance!
+The only and inimitable, Lance!
+Mi sono allenato per anni nella Tana del Drago, e ora sono finalmente pronto per rimettermi in gioco. Fammi vedere di che pasta sei fatto|a!
+I trained for years inside the Dragon's Den, and now I'm finally ready to get back in the game. Let me see what you're made of!
+È stato espulso dal Campus Ariepoli per la sua indole scontrosa!
+He was expelled from Newtron City due to his bad-temperament!
+Da quel giorno ha formato la sua gang, e ha dominato sui bassifondi di Eldiw!
+Since that day he formed his own gang, and ruled over Eldiw's underground!
+Il fortissimo e inarrestabile, Dante!
+The strong and unstoppable, Dante!
+Ho saputo che sei amico|a di quel sapientone di Claudio! Se sei suo amico, vuol dire che sei un mio nemico|a, fatti sotto!
+I heard you're friend with that know-it-all Ginger! If you're his friend, that means you're my enemy, get ready!
+La sua leggendaria sbadataggine va oltre i confini di Kanto!
+Her legendary carelessness goes over the Kanto boundaries!
+È la maestra del tipo Erba, ma sa come gestire il fuoco!
+She's the master of the Grass type, but she knows how to handle the heat!
+La calma prima della tempesta, Erika!
+The calm before the storm, Erika!
+Che tempo splendido! È il clima perfetto per una battaglia, preparati!
+What a nice weather! It's the perfect time for a battle, get ready!
+Porta sulle spalle l'eredità di un nome importante, ma il suo sogno è far capire quanto vale!
+He bears on his shoulders the weight of an important name, but his dream is to make everyone understand how much he's worth!
+Proprio come la madre Chiara, è anche lui un maestro del tipo Normale!
+Just like his mother Whitney, he too is a master of the Normal type!
+Il fiero e valoroso, Leo!
+The fierce and valiant, Leo!
+Voglio mettermi alla prova! Sembri anche tu un |'ottimo|a concorrente, quindi facciamoci valere! Che vinca il migliore!
+I want to test myself! Looks like you're a great contestant too, so let's fight proudly! May the best win!
 [Map624]
 <<[>>old<<]>>Trofeo Fiamma\nV.I.P: <b>Lance</b> Allenatori Certificati: \PN
 <<[>>old<<]>>Flame Trophy\nV.I.P: <b>Lance</b> Certified Trainers: \PN
@@ -61260,6 +61292,7 @@ C'ero quasi!
 That was close!
 Devo allenarmi di più!
 I need to train more!
+Pare che la corrente mi abbia trascinato via!
 Looks like I was pulled down by the current!
 Sono stato annientato dal tuo beat!
 I was annihilated by your beat!
@@ -61289,3 +61322,83 @@ Cavoli!
 Damn!
 Perbacco, chi l'avrebbe mai detto?
 Gosh, who would have thought?
+Salve a tutti e benvenuti al Torneo Apollo! Gengah ah ah!
+Greetings and welcome to the Apollo Tournament! Genga ha ha!
+Oggi ne vedremo delle belle! I contendenti sono pronti a far scintille!
+Today we're in for a great spectacle! The contestants are ready to shine!
+Spero che siate pronti anche voi! Gengah ah ah!
+I hope you're ready, too! Genga ha ha!
+Adesso, iniziamo!
+Now, let's begin!
+Che battaglia incredibile! La vittoria va a {1}! Congratulazioni!
+What an amazing battle! The win goes to {1}! Congrats!
+Ora, è il momento di passare alla prossima!
+Now, time to go on with the next one!
+Congratulazioni agli allenatori che hanno raggiunto la finale! Siete stati bravi! Gengah ah ah!
+Congrats to the trainers whom reached the finals! You did well! Genga ha ha!
+Diamo un'occhiata agli sfidanti!
+Let's give a quick look at the contestants!
+Sulla destra! {1}, {2}!
+On the right! {1}, {2}!
+Sulla sinistra, il solo e unico prescelto!
+On the left, the one and only chosen one!
+È ora di lottare! Gengah ah ah!
+Now it's time to duke it out! Gengah ha ha!
+{1} ha perso! Che peccato!
+Contestant {1} has lost! Too bad!
+Congratulazione a {1} per la vittoria! Veramente una performance eccezionale, Gengah ah ah!
+Congratulations to {1} for winning! Truly a stunning performance, Gengah ha ha!
+Ricorda di passare alla reception per riscattare i tuoi premi!
+Remember to go to the reception to collect your winnings!
+Congratulazioni per la vittoria! Ora come ora, hai vinto ben {1} tornei!
+Congrats on your win! As of now, you've won {1} tournaments!
+Congratulazioni per la vittoria! Ora come ora, hai vinto {1} torneo!
+Congrats on your win! As of now, you've won {1} tournament!
+Ecco la ricompensa per la tua vittoria.
+Here is your reward for winning.
+{1} ha ottenuto {2} Punti Lotta!
+{1} obtained {2} Battle Points!
+Inoltre...
+Moreover...
+Per aver mostrato una performance incredibile...
+For showing an amazing performance...
+...{1} riceve {2}!
+...{1} obtains {2}!
+Ci vediamo!
+See you next time!
+Mi dispiace per la tua sconfitta! Ma hai combattuto bene, sono certa che vincerai la prossima volta!
+I'm so sorry you lost! But you stood your ground, I'm sure you can win it next time!
+Hai perso, ma hai comunque ottenuto delle ricompense.
+You lost, but you still got some rewards.
+{1} ottiene {3} Punti Lotta e {2}.
+{1} obtained {3} Battle Points and {2}.
+???: Ho deciso di tenere un diario per ricordare le numerose esperienze che farò! Proprio oggi mi sono unita al Team Dimension, e nonostante io sia solo una recluta, mi sento già legata alla causa! Spero di poter aiutare il più possibile.
+???: I decided to keep a diary to remember the countless experiences I'll make! Just today I joined Team Dimension, and despite the fact that I'm just a recruit, I already feel connected to our cause! I hope I'll be able to help.
+???: C’è molto lavoro da fare qui! Sembra stiano progettando dei robot da utilizzare insieme alle altre reclute, per smaltire più in fretta il lavoro. Nel frattempo, sono stata promossa a Sergente! A quanto pare la mia motivazione ha fatto colpo sui ranghi alti e hanno deciso di promuovermi. Buon per me!
+???: There’s a lot of work to do here! It looks like they’re designing some robots to use together with the other recruits, to finish the work earlier. Meanwhile, I was promoted to Sergeant! It looks like my motivation impressed the upper echelons and they decided to promote me. Good for me!
+???: Ormai è passato tantissimo tempo da quando mi sono unita al Team Dimension. Sono stata addirittura promossa a Colonnello! Durante la promozione ho conosciuto il Generale, che uomo affascinante! Credo di essermi innamorata! Mi è stata assegnata una missione riguardante la cattura di una specie X nel Canyon Asteroide. Spero di non dover fargli del male, ma se fosse necessario...
+???: A lot of time has passed since i joined Team Dimension. I even got promoted to Colonel! During the promotion I met the General, what a charming man! I think I fell in love! I was assigned a mission regarding an X Species in the Sunflare Canyon. I hope I won’t need to hurt it, but if it was needed...
+???: Anche se ho fallito nell’ultima missione, il Generale ha chiesto nuovamente di me! Questa volta sono stata incaricata di rubare un treno, e farò in modo che la missione abbia successo! Spero solo che non torni quella spina nel fianco...
+???: Even though I failed in my last mission, the General asked for me again! This time I was asked to steal a train, and I’ll make sure the mission will succeed! I just hope that that thorn in my side won’t come again...
+???: Alla fine la missione sul treno è andata a buon fine, ma non grazie a me... ho perso contro quella sottospecie di Trubbish... Il Generale ha preso le redini della situazione e ha portato a termine la missione senza problemi. È proprio magnifico! Devo migliorare per poter essere alla sua altezza, non posso assolutamente deluderlo!
+???: In the end the mission on the train was a success, but not thanks to me... I lost against that Trubbish... The General took the reins of the situations and handled the mission without an hitch. He really is magnificent! I need to improve myself to be at least on his level, I absolutely can’t let him down!
+???: A quanto pare stiamo per partire per la luna, sono davvero nervosa... Io e il mio Scovile X ci siamo allenati per essere ancora più forti! Il Generale dice che lo scontro finale si avvicina, e quindi dobbiamo prepararci al meglio! Mi assicurerò di essergli utile questa volta!
+???: It looks like we’re about to leave for the moon, I’m really nervous... My Scovile X and I have trained to be even stronger! The General said that the final fight is coming, and so we need to prepare the best we can! I’ll make sure I can be of help this time!
+???: Dopo intere settimane che vagavamo senza meta il mio Generale decise all’improvviso di ricominciare con le ricerche. Parlava di come fosse possibile interagire con altre dimensioni usando un certo tipo di Energia. Io ero così emozionata! Finalmente vedevo tornare nel mio adorato un po’ di forze, che non ero più nella pelle!
+???: After weeks that we were journeying without a destination, my General suddenly decided to start researching again. He spoke about how it was possible to interact with other dimensions using some kind of Energy. I was so excited! Finally I was seeing my beloved gaining back some strength, I was so happy!
+???: Ero contenta di sentire il mio Generale pieno di energie, ma ormai non fa altro che parlare di una certa Nives... Pare fosse una ricercatrice del Team Dimension, quando erano ancora in corso gli esperimenti sullo Xenoverse. Adesso ci stiamo dirigendo verso un nascondiglio situato nel Canyon Asteroide. E io sento un senso di oppressione al petto.
+???: I was happy, hearing my General so full of energy, but now he just keeps talking about a certain Nives... Looks like she was a researcher of the Team Dimension, when the experiments on the Xenoverse were still being made. Now we’re heading to an hideout in the Sundlare Canyon. And I feel a sense of oppression in my chest.
+???: Ero certa che il Generale volesse venire qui per nascondersi, invece pare che in questo posto ci siano i macchinari di cui ha bisogno per le sue ricerche! È così pieno di energie ultimamente! Voglio supportarlo con tutta me stessa. Diventerò la sua Tamara! Peccato che lui continui a parlare di questa Nives. Il senso di oppressione si fa peggiore.
+???: I was sure that my General was coming here to hide, but instead it looks like in this place are the machines he needs for his research! He’s so full of energy lately! I want to support him with all of myself. I’ll be his Dahlia! It’s just a pity that he keeps talking about this Nives. The feeling of oppression is stronger.
+???: Sembra che le ricerche non stiano portando ai risultati sperati. Il mio adorato ora sembra disperato, come se dovesse riuscire a tutti i costi. Quando gli ho detto di riposare, mi ha spinta via e mi ha detto di sparire, visto che sono inutile. Mi fa male il petto.
+???: Looks like the research is not having the desired results. My adored now is desperate, as if he has to success at any cost. When I said he should rest, he pushed me away and said I should go away, since I’m useless. My chest hurts.
+???: Ho scoperto che questo posto in realtà è dove il mio Generale e quella Nives si sono conosciuti. Perchè continua a parlare di lei? Perchè continuo ad essere ignorata? Mio Generale… quella è già morta da un pezzo! Io invece posso ancora renderla felice... La prego, non mi ignori... Il dolore al petto è insopportabile...
+???: I discovered that in reality this place is where my General and that Nives met. Why does he keep talking about her? Why does he keep ignoring me? My General... She died a long time ago! I can still make you happy... Please, don’t ignore me... The pain in my chest is unbearable...
+Pagine Raccolte: {1}
+Collected Pages: {1}
+Pagine Totali: {1}
+Total Pages: {1}
+Diario di ???
+???'s Diary
+{1}: Pagina Numero {2}
+{1}: Page Number {2}

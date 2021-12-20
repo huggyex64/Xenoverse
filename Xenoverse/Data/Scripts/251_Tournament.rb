@@ -1893,7 +1893,7 @@ class PWT
     @transition["sep"].zoom(1,1,30,:ease_in_cubic)
   
     if @pool.length<3
-      Kernel.pbMessage(_INTL("Congrats to the costentants which reached the finals! You did well! Genga ha ha!",opponent[1],$Trainer.name))
+      Kernel.pbMessage(_INTL("Congratulazioni agli sfidanti che hanno raggiunto la finale! Siete stati bravi! Genga ah ah!"))
     end
 
     Kernel.pbMessage(_INTL("Diamo un'occhiata agli sfidanti!"))
@@ -1930,7 +1930,7 @@ class PWT
       @transition["rightbg"].update
     end      
   
-    Kernel.pbMessage(_INTL("On the right! {1}, {2}!", trainerTypeName(opponent[1]), opponent[2]))
+    Kernel.pbMessage(_INTL("Sulla destra! {1}, {2}!", trainerTypeName(opponent[1]), opponent[2]))
   
     @transition["left"].move(0,0,20,:ease_in_cubic)
     @transition["leftbg"].move(0,0,20,:ease_in_cubic)
@@ -1960,9 +1960,9 @@ class PWT
     end
     
   
-    Kernel.pbMessage(_INTL("On the left, the one and only chosen one!"))
+    Kernel.pbMessage(_INTL("Sulla sinistra, il solo e unico prescelto!"))
   
-    Kernel.pbMessage(_INTL("Now it's time to duke it out! Gengah ha ha!"))
+    Kernel.pbMessage(_INTL("È ora di lottare! Gengah ah ah!"))
   
     @transition["versus"].fade(255,20,:ease_in_cubic)
     @transition["versus"].zoom(1,1,20,:ease_in_cubic)
@@ -2205,7 +2205,7 @@ class PWT
       @sprites["gengar"].update
     end
     
-    Kernel.pbMessage(_INTL("Salve a tutti e benvenuti al Torneo Apollo! Gengah-ah-ah!")) {tGraphicsUpdate()}
+    Kernel.pbMessage(_INTL("Salve a tutti e benvenuti al Torneo Apollo! Gengah ah ah!")) {tGraphicsUpdate()}
     
     pbSEPlay("Applause")
     pbSEPlay("CrowdSound")
@@ -2221,7 +2221,7 @@ class PWT
     #Kernel.pbMessage(_INTL("A huge thanks goes to our sponsor! The Pokémon Center Co.!")) {tGraphicsUpdate()}
     Kernel.pbMessage(_INTL("Oggi ne vedremo delle belle! I contendenti sono pronti a far scintille!")) {tGraphicsUpdate()}
     
-    Kernel.pbMessage(_INTL("Spero che siate pronti anche voi! Gengah-ah-ah!")) {tGraphicsUpdate()}
+    Kernel.pbMessage(_INTL("Spero che siate pronti anche voi! Gengah ah ah!")) {tGraphicsUpdate()}
     
     Kernel.pbMessage(_INTL("Adesso, iniziamo!")) {tGraphicsUpdate()}
     
@@ -2533,7 +2533,7 @@ class PWT
       @sprites["gengar"].update
     end
 
-    Kernel.pbMessage(_INTL("What an amazing battle! The win goes to {1}! Congrats!", $Trainer.name)) {tGraphicsUpdate()}
+    Kernel.pbMessage(_INTL("Che battaglia incredibile! La vittoria va a {1}! Congratulazioni!", $Trainer.name)) {tGraphicsUpdate()}
     #self.exitParticipants
     #self.drawInfoBoxes($Trainer,pool,@oppIndex)
     #Kernel.pbMessage(_INTL("And now, let's see who got to the next round!")) {tGraphicsUpdate()}
@@ -2663,15 +2663,15 @@ class PWT
         @win=true
       else
         @win=false
-        Kernel.pbMessage(_INTL("Contestant {1} has lost! Too bad!",$Trainer.name))
+        Kernel.pbMessage(_INTL("{1} ha perso! Che peccato!",$Trainer.name))
       end
       healParty
     else
       $PokemonGlobal.nextBattleBack = "ApolloFinal"
       if pbTournamentBattle(pool[@oppIndex][1],pool[@oppIndex][2],pool[@oppIndex][3],false,0,true)
         pbFadeOutAndHide(@transition)
-        Kernel.pbMessage(_INTL("Congratulations to {1} for winning! Truly a stunning performance, Gengah ha ha!", $Trainer.name))
-        Kernel.pbMessage(_INTL("Remember to go to the reception to collect your winnings!"))
+        Kernel.pbMessage(_INTL("Congratulazione a {1} per la vittoria! Veramente una performance eccezionale, Gengah ah ah!", $Trainer.name))
+        Kernel.pbMessage(_INTL("Ricorda di passare alla reception per riscattare i tuoi premi!"))
         @playerwon=true
         key = [pool[@oppIndex][1],pool[@oppIndex][2]]
         if VIPLIST.include?(key)
@@ -2684,7 +2684,7 @@ class PWT
         end
         @win=true
       else
-        Kernel.pbMessage(_INTL("Contestant {1} has lost! Too bad!",$Trainer.name))
+        Kernel.pbMessage(_INTL("{1} ha perso! Che peccato!",$Trainer.name))
         @win=false
       end
       healParty
@@ -2707,39 +2707,39 @@ class PWT
       #pbTransferWithTransition(4,6,15,:DIRECTED,8)
       #pbCallBubStart(3)
       if @player.tournament_wins > 1
-        Kernel.pbMessage(_INTL("Congrats on your win! As of now, you've won {1} tournaments!",@player.tournament_wins))
+        Kernel.pbMessage(_INTL("Congratulazioni per la vittoria! Ora come ora, hai vinto ben {1} tornei!",@player.tournament_wins))
       else
-        Kernel.pbMessage(_INTL("Congrats on your win! As of now, you've won {1} tournament!",@player.tournament_wins))
+        Kernel.pbMessage(_INTL("Congratulazioni per la vittoria! Ora come ora, hai vinto {1} torneo!",@player.tournament_wins))
       end
       
-      Kernel.pbMessage(_INTL("Here is your reward for winning."))
+      Kernel.pbMessage(_INTL("Ecco la ricompensa per la tua vittoria."))
       qt = 12 + @firstPool.length/16*3
       @player.battle_points+=qt #12 base points for winning + 2 for each bigger stage
       reward = REWARDPOOL[rand(REWARDPOOL.length)]
       rewardname = getID(PBItems,reward)
      # pbCallBubStart(0)
-      Kernel.pbMessage(_INTL("{1} obtained {2} Battle Points!",@player.name,qt))
-      Kernel.pbMessage(_INTL("Also..."))
-      Kernel.pbMessage(_INTL("For showing an amazing performance..."))
-      Kernel.pbMessage(_INTL("...{1} obtains {2}!",@player.name,PBItems.getName(rewardname)))
+      Kernel.pbMessage(_INTL("{1} ha ottenuto {2} Punti Lotta!",@player.name,qt))
+      Kernel.pbMessage(_INTL("Inoltre..."))
+      Kernel.pbMessage(_INTL("Per aver mostrato una performance incredibile..."))
+      Kernel.pbMessage(_INTL("...{1} riceve {2}!",@player.name,PBItems.getName(rewardname)))
       Kernel.pbReceiveItem(reward)
      # pbCallBubStart(3)
-      Kernel.pbMessage(_INTL("See you next time!"))
+      Kernel.pbMessage(_INTL("Ci vediamo!"))
     else #what to do if player lose
       
      # pbTransferWithTransition(4,6,15,:DIRECTED,8)
      # pbCallBubStart(3)
-      Kernel.pbMessage(_INTL("I'm so sorry you lost! But you stood your ground, I'm sure you can win it next time!"))
-      Kernel.pbMessage(_INTL("You lost, but you still got some rewards."))
+      Kernel.pbMessage(_INTL("Mi dispiace per la tua sconfitta! Ma hai combattuto bene, sono certa che vincerai la prossima volta!"))
+      Kernel.pbMessage(_INTL("Hai perso, ma hai comunque ottenuto delle ricompense."))
       qt = 3 + (@firstPool.length/@pool.length * 0.65).to_i
       @player.battle_points+=qt
       reward = REWARDLOSINGPOOL[rand(REWARDLOSINGPOOL.length)]
       rewardname = getID(PBItems,reward)
      # pbCallBubStart(0)
-      Kernel.pbMessage(_INTL("{1} obtained {3} Battle Points and {2}.",@player.name,PBItems.getName(rewardname),qt))
+      Kernel.pbMessage(_INTL("{1} ottiene {3} Punti Lotta e {2}.",@player.name,PBItems.getName(rewardname),qt))
       Kernel.pbReceiveItem(reward)
      # pbCallBubStart(3)
-      Kernel.pbMessage(_INTL("See you next time!"))
+      Kernel.pbMessage(_INTL("Ci vediamo!"))
     end
     
     
