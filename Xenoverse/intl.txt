@@ -23020,7 +23020,7 @@ No
 <<[>>old<<]>>You found a diary page! \wtnp[30]
 <<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
 <<[>>old<<]>>You add the page to the Old Diary.
-<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
 <<[>>old<<]>>Sala Acciaio.
 <<[>>old<<]>>Steel Room.
@@ -23049,7 +23049,7 @@ Versil
 <<[>>old<<]>>You found a diary page! \wtnp[30]
 <<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
 <<[>>old<<]>>You add the page to the Old Diary.
-<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
 Questo posto è proprio deserto...
 This place really is deserted...
@@ -23104,7 +23104,7 @@ Mode TB-404 activated.
 <<[>>old<<]>>You found a diary page! \wtnp[30]
 <<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
 <<[>>old<<]>>You add the page to the Old Diary.
-<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
 <<[>>old<<]>>L’interruttore è su ''spento''. Vuoi accenderlo?
 <<[>>old<<]>>The switch is turned off. Do you want to turn it on?
@@ -23164,7 +23164,7 @@ Don’t worry, I can keep the situation under control by myself!
 <<[>>old<<]>>You found a diary page! \wtnp[30]
 <<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
 <<[>>old<<]>>You add the page to the Old Diary.
-<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
 [Map601]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
@@ -23187,7 +23187,7 @@ Versil
 <<[>>old<<]>>You found a diary page! \wtnp[30]
 <<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
 <<[>>old<<]>>You add the page to the Old Diary.
-<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
 Attenzione!
 Careful!
@@ -23241,7 +23241,7 @@ Are you sure?
 <<[>>old<<]>>You found a diary page! \wtnp[30]
 <<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
 <<[>>old<<]>>You add the page to the Old Diary.
-<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
 [Map604]
 Versil
@@ -23295,7 +23295,7 @@ No
 <<[>>old<<]>>You found a diary page! \wtnp[30]
 <<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
 <<[>>old<<]>>You add the page to the Old Diary.
-<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
 Credo che questa sia l’ultima stanza. Se c’è qualcosa qui sotto, lo troveremo lì. Prepariamoci bene prima di andare.
 I think this is the last room. If something’s down here, we’ll find it there. Let’s prepare carefully before going in.
@@ -23318,7 +23318,7 @@ I'm not ready yet.
 <<[>>old<<]>>You found a diary page! \wtnp[30]
 <<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
 <<[>>old<<]>>You add the page to the Old Diary.
-<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
 Questo posto... se ricordo bene, è la zona residenziale del laboratorio.
 This place... if I recall correctly, it’s the residential area of the laboratory.
@@ -23545,7 +23545,7 @@ No
 <<[>>old<<]>>You found a diary page! \wtnp[30]
 <<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
 <<[>>old<<]>>You add the page to the Old Diary.
-<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
 [Map607]
 [Map608]
@@ -23553,14 +23553,14 @@ No
 <<[>>old<<]>>You found a diary page! \wtnp[30]
 <<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
 <<[>>old<<]>>You add the page to the Old Diary.
-<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
 [Map609]
 <<[>>old<<]>>Hai trovato una pagina di diario! \wtnp[30]
 <<[>>old<<]>>You found a diary page! \wtnp[30]
 <<[>>old<<]>>Inserisci la pagina nel Vecchio Diario.
 <<[>>old<<]>>You add the page to the Old Diary.
-<<[>>old<<]>>È una vecchia pagina di diario strappata... Forse potrebbe appartenere ad un diario?
+<<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
 [Map610]
 <<[>>old<<]>>SCAPPA.
