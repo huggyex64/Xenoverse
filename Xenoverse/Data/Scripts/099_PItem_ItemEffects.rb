@@ -430,11 +430,11 @@ ItemHandlers::UseOnPokemon.add(:ULTRARARECANDY,proc{|item,pokemon,scene|
 ItemHandlers::UseOnPokemon.add(:INDUCTIVERING,proc{|item,pokemon,scene|
   newspecies=pbCheckMakeX(pokemon)
   if newspecies<=0
-    scene.pbDisplay(_INTL("It won't have any effect."))
+    scene.pbDisplay(_INTL("Non avrebbe alcun effetto."))
     next false
   end
-  if Kernel.pbConfirmMessage(_INTL("Attention! Using the X Gene on a Pokémon will alter its species permanently. Do you want to proceed anyway?"))
-    if Kernel.pbConfirmMessage(_INTL("Are you really sure you want to proceed anyway?"))
+  if Kernel.pbConfirmMessage(_INTL("Attenzione! Usare l'Anello Induttivo su un Pokémon cambierà la sua specie permanentemente. Vuoi procedere comunque?"))
+    if Kernel.pbConfirmMessage(_INTL("Sei veramente sicuro di voler procedere comunque?"))
       scene.makeX(pokemon)
     end
     next true
@@ -475,7 +475,7 @@ ItemHandlers::UseFromBag.add(:DIARIOTAMARA,proc{|item|
 
 ItemHandlers::UseFromBag.add(:FUNEDIFUGAPLUS,proc{|item|
   if !AVAILABLE_MAPS.keys.include?($game_map.map_id)
-    Kernel.pbMessage(_INTL("It can't be used here."))
+    Kernel.pbMessage(_INTL("Non può essere usato qui."))
     next 0
   else
     next 2
@@ -487,7 +487,7 @@ ItemHandlers::UseInField.add(:FUNEDIFUGAPLUS,proc{|item|
   echoln "Map ID: #{$game_map.map_id} "
   #135, 98, 48, 2
   if !AVAILABLE_MAPS.keys.include?($game_map.map_id)
-    Kernel.pbMessage(_INTL("It can't be used here."))
+    Kernel.pbMessage(_INTL("Non può essere usato qui."))
     next
   end
   escape=AVAILABLE_MAPS[$game_map.map_id]#($PokemonGlobal.escapePoint rescue nil)
@@ -500,14 +500,14 @@ ItemHandlers::UseInField.add(:FUNEDIFUGAPLUS,proc{|item|
     end
   end
   if !escape || escape==[]
-    Kernel.pbMessage(_INTL("Can't use that here."))
+    Kernel.pbMessage(_INTL("Non può essere usato qui."))
     next
   end
   if $game_player.pbHasDependentEvents?
-    Kernel.pbMessage(_INTL("It can't be used when you have someone with you."))
+    Kernel.pbMessage(_INTL("Non può essere usato quando hai qualcuno con te."))
     next
   end
-  Kernel.pbMessage(_INTL("{1} used the Escape Rope +.",$Trainer.name))
+  Kernel.pbMessage(_INTL("{1} usa la Fune di fuga +.",$Trainer.name))
   pbFadeOutIn(99999){
      Kernel.pbCancelVehicles
      $game_temp.player_new_map_id=escape[0]

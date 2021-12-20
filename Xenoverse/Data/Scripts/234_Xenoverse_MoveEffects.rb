@@ -1012,7 +1012,7 @@ class PokeBattle_Move_300 < PokeBattle_Move
 		end
 		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
 		@battle.field.effects[PBEffects::AcidRain]=true
-		@battle.pbDisplay(_INTL("Acid rain is falling all over the field!"))
+		@battle.pbDisplay(_INTL("La Pioggia Acida cade su tutto il campo!"))
 		return 0
 	end
 end
@@ -1029,7 +1029,7 @@ class PokeBattle_Move_301 < PokeBattle_Move
 			end
 		end
 		attacker.effects[PBEffects::DragonEndurance]=5
-		@battle.pbDisplay(_INTL("Your team is strengthened by the Dragon Endurance!"))
+		@battle.pbDisplay(_INTL("Il tuo team è rafforzato dal Dragoscudo!"))
 		return 0
 	end
 end
@@ -1045,9 +1045,9 @@ class PokeBattle_Move_302 < PokeBattle_Move
 		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
 		attacker.pbOpposingSide.effects[PBEffects::VelvetScales]=true
 		if !@battle.pbIsOpposing?(attacker.index)
-			@battle.pbDisplay(_INTL("Velvet Scales are all over your foe's field!"))
+			@battle.pbDisplay(_INTL("Delle Squame Velliche coprono il campo del tuo avversario!"))
 		else
-			@battle.pbDisplay(_INTL("Velvet Scales are all over your field!"))
+			@battle.pbDisplay(_INTL("Delle Squame Velliche coprono il tuo campo!"))
 		end
 		return 0
 	end

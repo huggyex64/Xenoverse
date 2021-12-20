@@ -39305,6 +39305,18 @@ Magnetic Flux
 733
 Pirosquarcio
 Fire Kunai
+734
+Trasformazione X
+X Transform
+735
+Pioggia Acida
+Acid Rain
+736
+Dragoscudo
+Dragon Endurance
+737
+Squame Velliche
+Velvet Scales
 [6]
 1
 Chi la usa utilizza il suo corpo per montare con grande forza il nemico.
@@ -61402,3 +61414,27 @@ Diario di ???
 ???'s Diary
 {1}: Pagina Numero {2}
 {1}: Page Number {2}
+Attenzione! Usare l'Anello Induttivo su un Pokémon cambierà la sua specie permanentemente. Vuoi procedere comunque?
+Attention! Using the Inductive Ring on a Pokémon will alter its species permanently. Do you want to proceed anyway?
+Sei veramente sicuro di voler procedere comunque?
+Are you really sure you want to proceed anyway?
+Non avrebbe alcun effetto.
+It won't have any effect.
+Non può essere usato qui.
+It can't be used here.
+Non può essere usato quando hai qualcuno con te.
+It can't be used when you have someone with you.
+{1} usa la Fune di fuga +.
+{1} used the Escape Rope +.
+{1} ha perso il Dragoscudo!
+{1} lost the Dragon Endurance!
+Il tuo team è rafforzato dal Dragoscudo!
+Your team is strengthened by the Dragon Endurance!
+{1} è ferito dalla Pioggia Acida!
+{1} is hurt by the Acid Rain!
+La Pioggia Acida cade su tutto il campo!
+Acid rain is falling all over the field!
+Delle Squame Velliche coprono il campo del tuo avversario!
+Velvet Scales are all over your foe's field!
+Delle Squame Velliche coprono il tuo campo!
+Velvet Scales are all over your field!

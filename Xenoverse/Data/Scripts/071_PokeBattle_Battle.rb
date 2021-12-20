@@ -3279,7 +3279,7 @@ class PokeBattle_Battle
 					![0xCA,0xCB].include?(PBMoveData.new(i.effects[PBEffects::TwoTurnAttack]).function) # Dig, Dive
 					@scene.pbDamageAnimation(i,0)
 					i.pbReduceHP((i.boss ? (i.totalhp/10)/i.hpMoltiplier : i.totalhp/10).floor)
-					pbDisplay(_INTL("{1} is hurt by the Acid Rain!",i.pbThis))
+					pbDisplay(_INTL("{1} è ferito dalla Pioggia Acida!",i.pbThis))
 					if i.isFainted?
 						return if !i.pbFaint
 					end
@@ -3442,7 +3442,7 @@ class PokeBattle_Battle
 				i.effects[PBEffects::DragonEndurance]-=1
 				if i.effects[PBEffects::DragonEndurance]==0
 					PBDebug.log("[#{i.pbThis}'s Dragon Endurance wore off!]")
-					pbDisplay(_INTL("{1} lost the Dragon Endurance!",i.pbThis))
+					pbDisplay(_INTL("{1} ha perso il Dragoscudo!",i.pbThis))
 				end
 			end
 		end
