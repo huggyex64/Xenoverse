@@ -43129,7 +43129,7 @@ Lucarite
 Lucarionite
 576
 Capsula Abilità
-Capsula Abilità
+Ability Capsule
 577
 MT96
 TM96
@@ -43652,9 +43652,123 @@ Poison Stone
 791
 Lettera di Aster
 Aster's Letter
-729 
+792
 Update Pinza
 Gripper Update
+793
+Bellossomite
+Bellossomite
+794
+Shiftryite
+Shiftryite
+795
+Fune di Fuga +
+Escape Road +
+796
+Anello Induttivo
+Inductive Ring
+797
+Vecchio Diario
+Old Diary
+798
+Fiascopolizza
+Blunder Policy
+799
+Spray gola
+Throat Spray
+800
+Distorservizio
+Room Service
+801
+Scarponi robusti
+Heavy-Duty Boots
+802
+Smorzaurti
+Protective Pads
+803
+Superombrello
+Utility Umbrella
+804
+Zainofuga
+Eject Pack 
+805
+Menta Decisa
+Adamant Mint
+806
+Menta Sicura
+Bold Mint
+807
+Menta Audace
+Brave Mint
+808
+Menta Calma
+Calm Mint
+809
+Menta Cauta
+Careful Mint
+810
+Menta Gentile
+Gentle Mint
+811
+Menta Lesta
+Hasty Mint
+812
+Menta Scaltra
+Impish Mint
+813
+Menta Allegra
+Jolly Mint
+814
+Menta Fiacca
+Lax Mint
+815
+Menta Schiva
+Lonely Mint
+816
+Menta Mite
+Mild Mint
+817
+Menta Modesta
+Modest Mint
+818
+Menta Ingenua
+Naive Mint
+819
+Menta Birbona
+Naughty Mint
+820
+Menta Quiete
+Quiet Mint
+821
+Menta Ardente
+Rash Mint
+822
+Menta Placida
+Relaxed Mint
+823
+Menta Vivace
+Sassy Mint
+824
+Menta Seria
+Serious Mint
+825
+Menta Timida
+Timid Mint
+826
+Tappo d'argento
+Silver Bottle Cap
+827
+Tappo d'oro
+Gold Bottle Cap
+828
+Caramella Super Rara
+Super Rare Candy
+829
+Caramella Ultra Rara
+Ultra Rare Candy
+830
+Cerotto Abilità
+Ability Patch
 [8]
 1
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
