@@ -23671,95 +23671,95 @@ No
 No
 [Map614]
 Sono uno degli autori di questi quadri!
-
+I'm one of the authors of these paintings!
 In famiglia mi chiamano tutti ''Tore'', invece gli amici spesso amano unire entrambi i nomi.
-
+In my family everyone calls me ''Tore'', whilst my friend like to join both the names.
 In questa isola ci sono così tanti negozi che è difficile scegliere cosa comprare. Hmm, forse posso prendere una maschera...
-
+In this island there are so many shops that it's hard to choose what to buy. Hmm, maybe I can buy a mask...
 Non posso ne scendere ne salire, ne scendere ne salire, rimango qua...
-
+I can't go down or up, nor down nor up, I'll stay here...
 Benvenuto|a nel <b>Paradiso Sakura</b>! Vuoi sapere perchè vi è una statua dorata così particolare? Storia lunga...
-
+Welcome to the <b>Sakura Paradise</b>! Would you like to know why a golden statue is so particular? Long story...
 <<[>>old<<]>><b>Paradiso Sakura</b> <i>''Il villaggio dedicato a tutta la Community.''</i>
-<<[>>old<<]>>
+<<[>>old<<]>><b>Sakura Paradise</b> <i>''The village dedicated to the Community.''</i>
 Devi sapere che io sono qui grazie ai miei amici del gruppo, credi sempre, fatti tanti amici leali, e potrai essere migliore di ciò che pensi di essere.
-
+You have to know that I'm here thanks to my friend in the group, always believe, make loyal friends, and you'll be better than you think you are.
 Ricorda sempre di amare i Pokémon tutti i giorni, loro non ti deluderanno mai!
-
-I nostri dolci sono un omaggio dal <b>Regno Caramello</b>!
-
+Always remember to love the Pokémons everyday, they'll never let you down!
+I nostri dolci sono un omaggio dal <b>Regno di Virgopoli</b>!
+Our sweets are a gift from <b>Milkiway City's Kingdom</b>!
 Io e il mio Dragapult siamo stati in ogni regione alla ricerca dei sofubi più rari di sempre. Purtroppo non li vendo, ma puoi ammirare la mia collezione!
-
+Me and my Dragapult have been in every region looking for the rarest sofubis ever. Sadly I don't sell them, but you can look at my collection!
 Questi palloncini colorati sono molto speciali, acquistane tanti e riuscirai a volare nei cieli del Paradiso Sakura.
-
+These colored balloons are really special, buy a lot and you'll be able to fly in the skies of Sakura Paradise.
 La coscienza è soltanto una spina nel fianco per chi vive d'istinto.
-
+The coscience is only a thorn in my side for who lives by instinct.
 Eh eh non troverai maschere migliori in tutta la regione, che aspetti a comprarle?
-
+He he, you won't find better masks anywhere in the region, what are you waiting for?
 Tutti mi prendono in giro perché il mio Pokémon preferito è Weezing...
-
+Everyone mocks me because my favourite Pokémon is a Weezing...
 E' sempre bello fare regali. Ma attento a non spendere troppo!
-
+It's always fun to make gifts. Be careful to not spend too much though!
 Ciao amico|a! Vengo da Leopoli e volevo dirti: ''Never gonna give you up Never gonna let you down.''
-
+Hello friend! I fare from Hypelion and I wanted to say: ''Never gonna giv you up Never gonna let you down.''
 Yo! Sai che sono un produttore? Spero un giorno di lavorare con Wallace Daddy!
-
+Yo! Do you know that I'm a producer? I hope one day I'll be able to work with Wallace Daddy!
 Intanto puoi trovare una raccolta di MT. Acquista quella che preferisci di più!
-
+In the meantime, you can find a collection of MTs. Buy the one you prefer!
 Sono giunto qui dal Wano Kuni portando con me le mie ricette speciali!
-
+I came here from the far Wano Kuni and brought with me my special recipes!
 Sono un professore di Telecomunicazioni e vengo dalla regione di Sinnoh, prediligo lo studio della grandezza sinusoidale.
-
+I'm a Telecomunication teacher and I come from Sinnoh, I prefer the study of the sinusoidal magnitude.
 Da Ryuga in vendita solo pietre preziosissime!
-
+Ryuga sells only the most precious stones!
 Senza lilleri 'un si lallera. o almeno così diceva mio nonno...
-
+''Senza lilleri 'un si lallera''. Or at least this was what my grandpa used to say...
 Il trucco nel diventare un buon chef è incontrare una donna alla quale vuoi dedicare tutta la tua cucina.
-
+The trick to become a good chef is to meet a woman to whom you want to dedicate your whole cuisine.
 Ciao avventuriero|a, vuoi un po' di Takotama rinforzanti?
-
+Hello adventurer, would you like some strengthening Takotamas?
 Torna presto!
-
+Come back soon!
 Eheheh... qual buon vento ti porta qui giovanotto|a? Vuoi comprare qualcosa? Eheheh...!
-
+Hehehe... what good wind brings you here, young'un? Would you like to buy something? Hehehe...!
 Io ne ho passate tante come allenatrice... ma Eldiw è sicuramente quella che mi ha messo più difficoltà!
-
+I've been through a lot as a trainer... but Eldiw is for sure the hardest challenge I faced!
 Mi spiace ma non si può ancora passare. Torna più avanti!
-
+I'm sorry, but you can't go through here yet. Come again later!
 Ho nascosto un tesoro, cercatelo, chissà se qualcuno di voi lo troverà.
-
+I hid a treasure, look for it, who knows if any of you'll find it.
 Hai un momento per parlare del nostro signore e salvatore Gennaro Bullo?
-
+Do you have a moment to speak about our lord and saviour Youngster Joey?
 Percepisco in te un grande potere, ma non sei ancora in grado di affrontarmi. Torna da me quando avrai una squadra di Pokémon con statistiche perfette. Potresti trovare degli strumenti utili qui in giro.
-
+I can feel a great power in you, but you're not ready to fight me yet. Come back to me when you'll have a team of Pokémon with perfect stats. You might find useful items around here.
 Questo spettacolo è meraviglioso!
-
+This show is majestic!
 Ho invitato molti compagni della Community a visitare questa Isola! Sono davvero soddisfatto del lavoro svolto!
-
+I invited a lot of friends from the Community to visit this Island! I'm really proud of what I did!
 A te piace la pesca? A me no.
-
+Do you like fishing? I don't.
 Salve! Vengo dalla lontana regione di Unima e sono qui per venderle i miei tesori a prezzi scontatissimi!
-
+Greetings! I fare from the far Unima region, and I'm here to sell you my treasures at grounded prices!
 I lavori per il mio stand sono quasi pronti! Torna presto per acquistare tanti prodotti utili per i tuoi Pokémon!
-
+The works for my stand are almost ready! Come back to buy a lot of products useful for your Pokémon!
 Necessiti di Update di ultima generazione? Sei arrivato|a nel posto giusto!
-
+Do you need the latest Updates? You came to the right place!
 Ho passato più di 20 anni a cercare i retrò più rari della regione, non scoraggiarti giovane allenatore.
-
+I spent more than 20 years trying to find the rarest vintages of the region, don't give up young trainer.
 Noi moriremo qui, e affideremo il nostro significato a coloro che resteranno in vita. È l' unico modo che abbiamo per opporci e lottare contro questo mondo crudele.
-
+We'll die here, and will leave our significance to those who will be left alive. It's the only way we have to oppose and fight against this cruel world.
 Hey tu! sei alla ricerca di affari? Allora sei nel posto giusto!
-
+Hey you! Are you looking for business? Then you're in the right place!
 Solo per oggi! Posso venderti un Magikarp cromatico a soli 1.000000!
-
+Just for today! I can sell you a shiny Magikarp just for 1.000.000!
 Allora che ne pensi? Vuoi acquistarlo?
-
+So, what do you think? Would you like to buy it?
 Chi vuoi prendere in giro? Non vedi che non hai una lira in tasca? Torna da me quando avrai la cifra richiesta.
-
+Who are you kidding? Don't you see you haven't enough money? Come back to me when you'll have enough.
 Stai perdendo il più grande affare della tua vita...
-
+You're losing the greatest deal of your life...
 Hai fatto l'affare migliore della tua vita! Parola di Sergio!
-
+You did the best deal of you life! Word of Sergei!
 Sergio
 Sergei
 <<[>>old<<]>>Scatta una foto con questo cartonato di Donanas e postala su Instagram... e non scordare di taggarci!
@@ -23778,9 +23778,9 @@ Please, come this way. The plane is ready to roll!
 Certo, non si preoccupi. Si prenda il tempo che le serve e torni qui quando vorrà partire.
 Of course, don't worry. Take as much time as you need<<n>>and come back when you want to leave.
 ''Da un grande potere derivano grandi responsabilità''. È stato il mio talento, ed è stata la mia maledizione.
-
+''With great power comes great reponsibility. It was my talent, and it was my curse.
 Finalmente ho avuto il tempo di esplorare questa suggestiva Isola. Ti piacerà sicuramente!
-
+Finally I found the time to visit this suggestive Island. I'm sure you'll like it!
 [Map620]
 Lavinia
 Terry
@@ -24253,10 +24253,10 @@ Sunshine
 Siamo spiacenti, ma non è possibile accedere al piano di sopra. Ci scusiamo per il disagio.
 I'm sorry, currently the next floor is unavailable. I'm sorry for the discomfort.
 [Map625]
-Io e il mio Charmaleon vogliamo visitare il <b>Sentiero Rosa</b>! Hanno detto che emigrano ogni mese un sacco di Pokémon mai visti.
-
+Io e il mio Charmeleon vogliamo visitare il <b>Sentiero Rosa</b>! Hanno detto che emigrano ogni mese un sacco di Pokémon mai visti.
+Me and my Charmeleon want to visit the <b>Pink Path</b>! Someone said that a lot of never seen Pokémon go there every month.
 Guarda che bello il mio Luxray!
-
+Look, my Luxray is beautyful!
 Questo è il Pokémon-Market del Paradiso Sakura!
 This is the Poké Mart in Sakura Paradise!
 Infermiera Joy
@@ -36292,6 +36292,9 @@ One of the four beast from Xenoverse, Dragalisk's elite soldiers. It is held by 
 1237
 Secerne panna freschissima dalla coda. Se la qualità non soddisfa a pieno le sue elevate esigenze, la lancia via.
 It secretes ice-fresh cream from its tail. If the quality doesn't match its high requirements, it throws that away.
+1238
+A seguito di numerosi esperimenti è diventato estremamente instabile, ma ha sviluppato la capacità di Trasformarsi anche senza vedere il bersaglio.
+Following a great number of experiments, it became extremely unstable, but it developed the ability to Transform even without seeing its target.
 1300
 Spesso presente nei boschi, si nutre di foglie. Ha un velenoso pungiglione sulla testa.
 Often found in forests, eating leaves. It has a sharp venomous stinger on its head.
@@ -61235,5 +61238,54 @@ Gennaro
 Joey
 Devi scegliere 3 Pokémon da portare con te.
 Choose three Pokémon to take with you!
-
-
+Mi spiace, sarà per la prossima volta!
+I'm sorry, it will be for next time!
+Tappi d'oro: {1}
+Gold Bottle Caps: {1}
+Tappi d'argento: {1}
+Silver Bottle Caps: {1}
+PS
+HP
+Attacco
+Attack
+Difesa
+Defense
+Attacco Speciale
+Special Attack
+Difesa Speciale
+Special Defense
+Velocità
+Speed
+C'ero quasi!
+That was close!
+Devo allenarmi di più!
+I need to train more!
+Looks like I was pulled down by the current!
+Sono stato annientato dal tuo beat!
+I was annihilated by your beat!
+Screanzato!
+You're rude!
+Mun, ho fallito!
+Mun, I failed!
+Non di nuovo!
+Not again!
+Per poco!
+I almost did it!
+Peccato! Avrei dovuto passare meno tempo a passeggiare...
+What a bummer! I should've spent less time strolling...
+A quanto pare non ho viaggiato abbastanza!
+Looks like I didn't journey long enough!
+Che hai detto? Non ci sento molto!
+What did you say? I can't hear well!
+Che botta...
+That hurt...
+Owch... Non sono ancora abbastanza forte...
+Owch... I'm still not strong enough...
+Pare che il mio lungo allenamento non sia bastato...
+Looks like my long training still wasn't enough...
+La prossima volta non andrà così!
+The next time won't go like this!
+Cavoli!
+Damn!
+Perbacco, chi l'avrebbe mai detto?
+Gosh, who would have thought?
