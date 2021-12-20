@@ -208,7 +208,7 @@ DEXINDEXOFFSETS    = []
 # * The maximum number of Game Corner coins the player can have.
 #===============================================================================
 INITIALMONEY = 3000
-MAXMONEY     = 999999
+MAXMONEY     = 9999999
 MAXCOINS     = 99999
 
 #===============================================================================
