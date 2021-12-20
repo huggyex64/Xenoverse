@@ -23575,7 +23575,7 @@ Gael
 Sono venuta qualche giorno fa a visitare Sagittopoli, ero rimasta affascinata dall'estetica del Circo Sirio!
 I came here some days ago to tour Vega City, I was charmed by the aesthetic of the Sunshine Circus!
 Oggi mi sono svegliata ed è apparsa improvvisamente questo edificio! Che magia!
-When I woke up today, this building had suddenly appeared! It’s a real work of magic!
+When I woke up today, this building had suddenly appeared! It's a real work of magic!
 Questo posto è pazzesco!
 This place is amazing!
 Ho sentito dire dai residenti di Sagittopoli che arriveranno un sacco di Allenatori famosi da tutto il mondo! Per inaugurare il nuovo Circo Sirio.
@@ -23839,6 +23839,90 @@ Yes
 No
 No
 [Map621]
+A quale torneo vuoi iscriverti?
+Which Tournament would you like to take part in?
+Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
+Hello!<<n>>Welcome to the Pokémon Center!<<n>>In this building, we restore your tired Pokémon to full health.<<n>>Would you like to rest your Pokémon?
+Ok, prenderò in consegna la tua squadra di Pokémon per qualche secondo.
+OK, I'll take your Pokémon for a few second, then.
+Pare che uno dei tuoi Pokémon sia stato infettato dal Pokérus. Si sa poco sul questo virus, eccetto che si tratti di una minuscola forma di vita che attacca i Pokémon, facendoli crescere molto più velocemente rispetto al normale.
+Oh... It looks like your Pokémon may be infected with the Pokérus.<<n>>Little is known about the Pokérus, except that it is a microscopic life-form that attaches to Pokémon.<<n>>While infected, Pokémon are said to grow exceptionally well.
+Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
+Thank you for waiting.<<n>>We've restored your Pokémon to full health!
+Torna pure quando vuoi.
+We hope to see you again!
+Salve, questo è il punto informazioni del Torneo Apollo. Come posso esserle utile?
+Welcome, this is the info point of the Apollo Tournament. How can I help you?
+Regole Torneo.
+Tournament Rules.
+Coppe Vip.
+Vip Cups.
+Premi.
+Prizes.
+Esci.
+Exit.
+Puoi prendere parte al Torneo Apollo in due modalità: <b>Facile</b> e <b>Normale</b>.
+You can take part in the Apollo Tournament in two modes: <b>Easy</b> and <b>Normal</b>.
+A seconda della modalità scelta, affronterai un numero diverso di incontri. Se riuscirai a vincere, otterrai un lauto premio! In caso contrario ti aspetta il premio di consolazione.
+Depending on the mode chosen, you’ll fight a different number of battles. If you manage to win, you’ll be awarded an abundant prize! Otherwise you’ll get the consolation prize.
+Oltre alle due modalità normali, potrai prendere parte al Torneo Apollo anche iscrivendoti a delle <b>Coppe particolari</b>.
+In addition to the two standard modes, you’ll be able to take part to Apollo Tournament by signing up for <b>particular cups</b>.
+Queste coppe ospitano dei <b>VIP</b> molto capaci. Vincendo verrai inoltre ricompensato con delle Coppe che puoi vedere nella <b>Sala d’Onore</b>! Ottienile tutte per dimostrare che sei davvero il migliore!
+These cups host very skilled <b>VIPs</b>. By winning you’ll be awarded with Trophies that you’ll be able to check out in the <b>Hall of Fame</b>! Obtain them all to demonstrate that you really are the best!
+Vincendo nel Torneo Apollo otterrai dei <b>Punti Lotta</b>.
+By winning in the Apollo Tournament you’ll be awarded <b>Battle Points</b>.
+Potrai spendere questi punti all’interno della struttura per ottenere oggetti di vario tipo, sia utili in battaglia sia utili fuori.
+You’ll be able to spend these points inside this building to buy various kinds of items, both useful in battle and outside of battle.
+<<[>>old<<]>>Salve, ti do il benvenuto al Torneo Apollo! Vuole partecipare al torneo?
+<<[>>old<<]>>Welcome to the Apollo Tournament! Would you like to participate?
+A quale categoria vuoi partecipare?
+Which category would you like to take on?
+Facile
+Easy
+Normale
+Normal
+Ci ho ripensato
+I don’t want anymore
+Sì
+Yes
+No
+No
+<<[>>old<<]>>Prego, può andare in sala d'attesa.
+<<[>>old<<]>>Please, you can head to the waiting room.
+<<[>>old<<]>>Arrivederci.
+<<[>>old<<]>>Goodbye.
+<<[>>old<<]>>A quale torneo vuoi iscriverti?
+<<[>>old<<]>>Which Tournament would you like to take part in?
+Torneo Fiore
+Flower Tournament
+Torneo Fiamma
+Flame Tournament
+Torneo Burbero
+Wicked Tournament
+Torneo Ascolto
+Hearing Tournament
+Ah! Guarda chi si rivede!
+Ah! Looks who’s here! 
+Gengah ah ah!
+Gengah ah ah!
+Hai visto che rinnovo coi fiocchi?
+Did you see what a grand renovation?
+Cambiare l'aspetto esteriore del Circo ci è costato una fortuna, ma ne è valsa la pena! Gengah ah ah!
+Changing the outside appearance of the Sunshine Circus cost us a fortune, but it was worth every penny! Gengah ha ha!
+Dalle ceneri del Circo Sirio...
+From Sunshine Circus ashes...
+Ti do il benvenuto al Torneo Apollo!
+Welcome to Apollo Tournament!
+Grazie ai miei poteri psichici sono in grado di controllare l'aspetto interiore del palazzo, quindi abbiamo speso tutto sull'esterno!
+Thanks to my psychic powers I’m able to control the interior of this building, so we spent everything on the outside!
+Ora ho delle faccende da sbrigare, ti saluto, moccioso|a!
+Now I have some errands to run, see ya, brat!
+Ah sì, già che ci sei...
+Oh right, since you’re here...
+perchè non partecipi ad un Torneo?
+and all why don’t you take part in a Tournament?
+Un nome grosso come il tuo sicuramente mi porterà altro pubblico! Gengah ah ah!
+A big shot like you will surely bring some more audience! Gengah ha ha!
 Uoh oh oh! Qui c'è della merce che scotta!
 Wo oh oh! There's some hot goods here!
 Sono un appassionato di tappi! Se ne hai qualcuno, posso allenare uno dei tuoi Pokémon.
@@ -23911,6 +23995,47 @@ Sì
 Yes
 No
 No
+Benvenuto|a. Vuoi che presti cure ai tuoi Pokémon?
+Welcome. Do you want me to take care of your Pokémons?
+[Map622]
+Sì
+Yes
+No
+No
+<<[>>old<<]>>Vuoi dare un'occhiata al tabellone?
+<<[>>old<<]>>Do you want to take a look at the board?
+<<[>>old<<]>>Salve, stanno aspettando lei per cominciare. È pronto ad entrare in scena?
+<<[>>old<<]>>Greetings, they're about to begin. Are you ready to go on stage?
+<<[>>old<<]>>Le auguro buona fortuna!
+<<[>>old<<]>>I wish you good luck!
+<<[>>old<<]>>Prenda il suo tempo.
+<<[>>old<<]>>Take your time.
+[Map623]
+<<[>>old<<]>>Eeeeeeeeeeeeccoci qui! La finale è arrivata!
+<<[>>old<<]>>Theeeeeere we are! The final round is here!
+<<[>>old<<]>>La questione si sta facendo ACCESA!
+<<[>>old<<]>>Things are getting HOT here!
+<<[>>old<<]>>Siete pronti ad assistere a questo scontro? Entrerà nella storia!
+<<[>>old<<]>>Are you all ready for this clash? This will go down in history!
+<<[>>old<<]>>Gengah ah ah! I nostri sfidanti stanno entrando!
+<<[>>old<<]>>Gengah-ah-ah! Our contestants are coming in!
+<<[>>old<<]>>Pare proprio che questo sarà un round fenomenale!
+<<[>>old<<]>>It looks like this will be an amazing round!
+<<[>>old<<]>>Siete tutti pronti per questa battaglia?
+<<[>>old<<]>>Are you all ready for this battle?
+[Map624]
+<<[>>old<<]>>Trofeo Fiamma\nV.I.P: <b>Lance</b> Allenatori Certificati: \PN
+<<[>>old<<]>>Flame Trophy\nV.I.P: <b>Lance</b> Certified Trainers: \PN
+<<[>>old<<]>>Trofeo Fiore\nV.I.P: <b>Erika</b> Allenatori Certificati: \PN
+<<[>>old<<]>>Flower Trophy\nV.I.P: <b>Erika</b> Certified Trainers: \PN
+<<[>>old<<]>>Trofeo Burbero\nV.I.P: <b>Dante</b> Allenatori Certificati: \PN
+<<[>>old<<]>>Wicked Trophy\nV.I.P: <b>Dante</b> Certified Trainers: \PN
+<<[>>old<<]>>Trofeo Ascolto\nV.I.P: <b>Leo</b> Allenatori Certificati: \PN
+<<[>>old<<]>>Hearing Trophy\nV.I.P: <b>Leo</b> Certified Trainers: \PN
+Mariasole
+Sunshine
+Siamo spiacenti, ma non è possibile accedere al piano di sopra. Ci scusiamo per il disagio.
+I'm sorry, currently the next floor is unavailable. I'm sorry for the discomfort.
 [Map625]
 Stella
 Stella
@@ -53673,18 +53798,105 @@ Shinobi Island
 592
 Bunker Abbandonato
 Abandoned Bunker
+593
+Bunker Abbandonato
+Abandoned Bunker
+594
+Bunker Abbandonato
+Abandoned Bunker
+595
+Bunker Abbandonato
+Abandoned Bunker
+596
+Bunker Abbandonato
+Abandoned Bunker
+597
+Bunker Abbandonato
+Abandoned Bunker
+598
+Bunker Abbandonato
+Abandoned Bunker
+599
+Bunker Abbandonato
+Abandoned Bunker
+600
+Bunker Abbandonato
+Abandoned Bunker
+601
+Bunker Abbandonato
+Abandoned Bunker
+602
+Bunker Abbandonato
+Abandoned Bunker
+603
+Bunker Abbandonato
+Abandoned Bunker
+604
+Bunker Abbandonato
+Abandoned Bunker
+605
+Bunker Abbandonato
+Abandoned Bunker
+606
+Bunker Abbandonato
+Abandoned Bunker
+607
+Bunker Abbandonato
+Abandoned Bunker
+608
+Bunker Abbandonato
+Abandoned Bunker
+609
+Bunker Abbandonato
+Abandoned Bunker
+610
+Bunker Abbandonato
+Abandoned Bunker
+611
+Bunker Abbandonato
+Abandoned Bunker
+612
+Bunker Abbandonato
+Abandoned Bunker
+613
+Bunker Abbandonato
+Abandoned Bunker
 614
 Paradiso Sakura
 Sakura Paradise
 615
 Sentiero Rosa
 Pink Pathway
+616
+Paradiso Sakura
+Sakura Paradise
+617
+Paradiso Sakura
+Sakura Paradise
+618
+Paradiso Sakura
+Sakura Paradise
 619
 Mostra Maratona
 Marathon Museum
+620
+Sagittopoli
+Vega City
 621
 Torneo Apollo
 Apollo Tournament
+622
+Torneo Apollo
+Apollo Tournament
+623
+Torneo Apollo
+Apollo Tournament
+624
+Torneo Apollo
+Apollo Tournament
+625
+Paradiso Sakura
+Sakura Paradise
 [21]
 How are your Pokemon doing?\mMy \TP's really energetic. It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
 How are your Pokemon doing?\mMy \TP's really energetic.  It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
