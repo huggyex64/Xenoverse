@@ -13520,7 +13520,7 @@ Yes
 [Map275]
 Maurice
 Chrysler
-E’ difficile localizzare con esattezza l’origine delle onde. Credo che non ci resti altro che cercare in lungo e in largo.
+È difficile localizzare con esattezza l’origine delle onde. Credo che non ci resti altro che cercare in lungo e in largo.
 It’s hard to pinpoint exactly the origin of the waves. I think we can only look around for something.
 Mirto
 Otis
@@ -23303,7 +23303,7 @@ Ti senti pronto|a?
 Are you feeling ready?
 Perfetto, andiamo!
 Perfect, let’s go!
-E' giusto prepararsi adeguatamente, capisco che non ti senti ancora pronto|a.
+È giusto prepararsi adeguatamente, capisco che non ti senti ancora pronto|a.
 Prepare carefully, it’s alright to have doubts.
 <<[>>old<<]>>Cosa vuoi fare?
 <<[>>old<<]>>What do you want to do?
