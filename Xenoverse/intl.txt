@@ -24239,36 +24239,12 @@ No
 <<[>>old<<]>>It looks like this will be an amazing round!
 <<[>>old<<]>>Siete tutti pronti per questa battaglia?
 <<[>>old<<]>>Are you all ready for this battle?
-Dopo aver perso il titolo di Campione, ha deciso di ritirarsi per affinare ancora di più le sue abilità!
-After losing the title of Champion, he decided to retire to hone his skills to the limit!
-Ora è proprio qui con noi al Torneo Apollo...
-Now he's right here with us at the Apollo Tournament...
-L'unico e inimitabile, Lance!
-The only and inimitable, Lance!
 Mi sono allenato per anni nella Tana del Drago, e ora sono finalmente pronto per rimettermi in gioco. Fammi vedere di che pasta sei fatto|a!
 I trained for years inside the Dragon's Den, and now I'm finally ready to get back in the game. Let me see what you're made of!
-È stato espulso dal Campus Ariepoli per la sua indole scontrosa!
-He was expelled from Newtron City due to his bad-temperament!
-Da quel giorno ha formato la sua gang, e ha dominato sui bassifondi di Eldiw!
-Since that day he formed his own gang, and ruled over Eldiw's underground!
-Il fortissimo e inarrestabile, Dante!
-The strong and unstoppable, Dante!
 Ho saputo che sei amico|a di quel sapientone di Claudio! Se sei suo amico, vuol dire che sei un mio nemico|a, fatti sotto!
 I heard you're friend with that know-it-all Ginger! If you're his friend, that means you're my enemy, get ready!
-La sua leggendaria sbadataggine va oltre i confini di Kanto!
-Her legendary carelessness goes over the Kanto boundaries!
-È la maestra del tipo Erba, ma sa come gestire il fuoco!
-She's the master of the Grass type, but she knows how to handle the heat!
-La calma prima della tempesta, Erika!
-The calm before the storm, Erika!
 Che tempo splendido! È il clima perfetto per una battaglia, preparati!
 What a nice weather! It's the perfect time for a battle, get ready!
-Porta sulle spalle l'eredità di un nome importante, ma il suo sogno è far capire quanto vale!
-He bears on his shoulders the weight of an important name, but his dream is to make everyone understand how much he's worth!
-Proprio come la madre Chiara, è anche lui un maestro del tipo Normale!
-Just like his mother Whitney, he too is a master of the Normal type!
-Il fiero e valoroso, Leo!
-The fierce and valiant, Leo!
 Voglio mettermi alla prova! Sembri anche tu un |'ottimo|a concorrente, quindi facciamoci valere! Che vinca il migliore!
 I want to test myself! Looks like you're a great contestant too, so let's fight proudly! May the best win!
 [Map624]
@@ -61438,3 +61414,27 @@ Delle Squame Velliche coprono il campo del tuo avversario!
 Velvet Scales are all over your foe's field!
 Delle Squame Velliche coprono il tuo campo!
 Velvet Scales are all over your field!
+Dopo aver perso il titolo di Campione, ha deciso di ritirarsi per affinare ancora di più le sue abilità!
+After losing the title of Champion, he decided to retire to hone his skills to the limit!
+Ora è proprio qui con noi al Torneo Apollo...
+Now he's right here with us at the Apollo Tournament...
+L'unico e inimitabile, Lance!
+The only and inimitable, Lance!
+Porta sulle spalle l'eredità di un nome importante, ma il suo sogno è far capire quanto vale!
+He bears on his shoulders the weight of an important name, but his dream is to make everyone understand how much he's worth!
+Proprio come la madre Chiara, è anche lui un maestro del tipo Normale!
+Just like his mother Whitney, he too is a master of the Normal type!
+Il fiero e valoroso, Leo!
+The fierce and valiant, Leo!
+La sua leggendaria sbadataggine va oltre i confini di Kanto!
+Her legendary carelessness goes over the Kanto boundaries!
+È la maestra del tipo Erba, ma sa come gestire il fuoco!
+She's the master of the Grass type, but she knows how to handle the heat!
+La calma prima della tempesta, Erika!
+The calm before the storm, Erika!
+È stato espulso dal Campus Ariepoli per la sua indole scontrosa!
+He was expelled from Newtron City due to his bad-temperament!
+Da quel giorno ha formato la sua gang, e ha dominato sui bassifondi di Eldiw!
+Since that day he formed his own gang, and ruled over Eldiw's underground!
+Il fortissimo e inarrestabile, Dante!
+The strong and unstoppable, Dante!
