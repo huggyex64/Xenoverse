@@ -4909,6 +4909,7 @@ Kind=Fiore
 Pokedex=Quando finisce la stagione delle piogge, lo si vede danzare sotto i caldi raggi del sole.
 BattlerPlayerY=8
 BattlerEnemyY=13
+FormNames=,Mega Bellossom
 [183]
 Name=Marill
 InternalName=MARILL
@@ -6846,6 +6847,7 @@ Kind=Foresta
 Pokedex=Sulla schiena di Sceptile crescono alcuni semi che si dice siano ricchi di nutrienti per gli alberi. Questo Pokemon coltiva amorevolmente le sue piante nella foresta.
 BattlerPlayerY=32
 BattlerEnemyY=22
+FormNames=,Mega Sceptile
 [255]
 Name=Torchic
 InternalName=TORCHIC
@@ -14055,6 +14057,7 @@ WildItemCommon=ORANBERRY
 WildItemUncommon=SITRUSBERRY
 BattlerPlayerY=6
 BattlerEnemyY=12
+FormNames=,Mega Audino
 [532]
 Name=Timburr
 InternalName=TIMBURR

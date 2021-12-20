@@ -1023,6 +1023,17 @@ def pbBottleCapChoice()
   return rt > -1
 end
 
+def pbMTShopList()
+  mts=[]
+  for i in 1..99
+    
+    mt = "TM#{"%02d" % i}".to_sym
+    #echoln "#{mt} #{getConst(PBItems,mt)}"
+    mts.push(mt) if $PokemonBag.pbQuantity(mt)==0
+  end
+  echoln mts
+end
+
 def pbChooseIVTrainingStat(poke)
   commands = {}
   cmd = []
