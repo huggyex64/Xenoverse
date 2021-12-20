@@ -1032,7 +1032,7 @@ def pbMTShopList()
     mts.push(mt) if $PokemonBag.pbQuantity(mt)==0
 
   end
-  echoln mts
+  return mts
 end
 
 def pbChooseIVTrainingStat(poke)

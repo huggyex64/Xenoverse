@@ -581,7 +581,7 @@ class PokemonMartScreen
           next
         end
         if pbIsImportantItem?(item)
-          if !pbConfirm(_INTL("Certainly.  You want {1}.\r\nThat will be ${2}.  OK?",itemname,price))
+          if !pbConfirm(_INTL("Certainly.  You want {1}.\r\nThat will be {2}BP.  OK?",itemname,price))
             next
           end
           quantity=1
@@ -594,7 +594,7 @@ class PokemonMartScreen
             next
           end
           price*=quantity
-          if !pbConfirm(_INTL("{1}, and you want {2}.\r\nThat will be ${3}.  OK?",itemname,quantity,price))
+          if !pbConfirm(_INTL("{1}, and you want {2}.\r\nThat will be {3}BP.  OK?",itemname,quantity,price))
             next
           end
         end

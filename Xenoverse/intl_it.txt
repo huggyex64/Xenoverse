@@ -37174,3 +37174,13 @@ Connection error: please try again later.
 Errore di connessione. Riprova più tardi.
 Congratulations, {1}!
 Congratulazioni, {1}!
+What do you want to buy?
+Cosa vuoi comprare?
+Points
+Punti
+You don't have enough points.
+Non hai abbastanza punti.
+Certainly. You want {1}.<<n>>That will be {2}BP. OK?
+Certamente. Vuoi {1}. Costerà {2}PL, OK?
+{1}, and you want {2}.<<n>>That will be {3}BP. OK?
+{1}, e ne vuoi {2}.<<n>>Costerà {3}PL. OK?
