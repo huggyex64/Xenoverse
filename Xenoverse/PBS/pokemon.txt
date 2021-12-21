@@ -8147,6 +8147,7 @@ Pokedex=Le sue due enormi mandibole sono corna trasformate. Con esse puo' mastic
 WildItemUncommon=OCCABERRY
 BattlerPlayerY=44
 BattlerEnemyY=45
+FormNames=,Mega Mawile
 [304]
 Name=Aron
 InternalName=ARON
@@ -9648,6 +9649,7 @@ RegionalNumbers=227,0,0
 Kind=Catastrofe
 Pokedex=Appare quando avverte un imminente disastro naturale. Ciò ha fatto credere che portasse sfortuna.
 BattlerEnemyY=22
+FormNames=,Mega Absol
 [360]
 Name=Wynaut
 InternalName=WYNAUT

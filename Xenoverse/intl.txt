@@ -461,12 +461,12 @@ Go on.
 Bellocchio
 Looker
 Subito dopo la nostra separazione all'Isola Shinobi, la prima cosa che abbiamo fatto
-Right after we parted on Shinobi Island, the first thing we did
+Right after we parted on Shinobi Island, <<n>>the first thing we did
 è stata redigere un rapporto per la Polizia Internazionale.
 was write down a report for the International Police.
 Chiaramente, sono stato aggiornato da Aster riguardo la calamità che stava per abbattersi su Eldiw.
 Clearly, I myself was updated by Aster about the calamity that was about to befall Eldiw.
-Mi ha raccontato anche di come hai gestito la situazione con le tre bestie sacre e di come sei riuscito a placarle...che storia!
+Mi ha raccontato anche di come hai gestito la situazione con le tre bestie sacre e di come sei riuscito a placarle ...che storia!
 He also told me of how you managed to handle the situation with the three sacred beasts and how you managed to calm them down...what a story!
 Beh, per farla breve, io e Tarassaco ci siamo coordinati per le indagini.
 Well, long story short, Taraxo and I coordinated for the investigation.
@@ -479,23 +479,24 @@ Surely Taraxo will explain better than me.
 \PN, ricordi Revolver, la recluta del Team Dimension che Maurice ha abilmente rimesso in funzione?
 \PN, do you remember Revolver, the grunt from Team Dimension that Chrysler has skillfully put back together?
 È stato danneggiato durante delle operazioni di soccorso, e mentre stavano effettuando la manutenzione,
-It was damaged during the rescue operations, and while he was fixing it,
+It was damaged during the rescue operations, <<n>>and while he was fixing it,
 Maurice ha captato alcune particolari onde provenienti dal <b>Canyon Asteroide</b>.
 Chrysler detected some strange waves coming from the <b>Sunflare Canyon</b>.
 Mi ha contattato per avere la mia opinione,
 He called me to have my opinion on that,
 e ho motivo di credere che queste onde siano legate al fenomeno della furia.
-and I have reasons to believe that those waves are related to the Fury phenomenon.
+and I have reasons to believe that those waves <<n>>are related to the Fury phenomenon.
 \PN, vorrei che te ne occupassi tu.
 \PN, I'd like you to take care of it.
 Vedi, io e Tarassaco abbiamo trovato una pista e vorremmo sapere dove ci può condurre. Sperando che non sia un abbaglio!
 You see, Taraxo and I are on to something and we'd like to see where we get with this. Hoping it is not a mistake!
 Non sarai da solo|a questa volta. Maurice sa già tutto.
+You won't be alone this time around, as Chrysler already knows everything.
 Inoltre abbiamo informato anche il <b>Capopalestra Crisante</b>.
 Moreover, we also informed the <b>Gym Leader Caspar</b>.
 Essendo lo sceriffo di Scorpiopoli conosce a menadito la conformazione del territorio e sarà in grado di aiutarvi.
 Being the Sheriff of Westar City he knows by heart the territory conformation and surely will be able to help you.
-Ora dovresti andare, \\PN. La strada per il Canyon Asteroide è lunga
+Ora dovresti andare, \PN. La strada per il Canyon Asteroide è lunga
 Now you oughta go, \PN. The road to the Sunflare Canyon is harsh
 e gli altri ti stanno già aspettando in città!
 and the others are already awaiting you in the city!
@@ -505,7 +506,6 @@ Spero proprio che questa pista sia quella giusta... \PN, sei ancora qui? Dovrest
 I really hope we got it right this time... \PN, are you still here? You should head to Westar City and investigate!
 \PN, non dovresti andare a Scorpiopoli? Gli altri ti stanno aspettando!
 \PN, shouldn't you head to Westar City? The others are waiting for you!
-You won't be alone this time around, as Chrysler already knows everything.
 Sei curioso di sapere cos'è successo da allora?
 Are you curious to know what went on since then?
 Sai, ci siamo dati molto da fare da quando hai battuto quel Greninja!

@@ -9953,8 +9953,8 @@ Si riempie di energia grazie ai grandi petali del fiore, che spalanca catturando
 La fiamma sulla punta della coda indica la sua vitalità. Se sta bene, la fiamma è più ardente.
 La fiamma sulla punta della coda indica la sua vitalità. Se sta bene, la fiamma è più ardente.
 5
-Ha un’indole spietata. Durante la lotta frusta con la forte coda e taglia con artigli affilati.
-Ha un’indole spietata. Durante la lotta frusta con la forte coda e taglia con artigli affilati.
+Ha un'indole spietata. Durante la lotta frusta con la forte coda e taglia con artigli affilati.
+Ha un'indole spietata. Durante la lotta frusta con la forte coda e taglia con artigli affilati.
 6
 Quando emette le sue lingue di fuoco, la fiamma rossa sulla punta della coda brucia più intensamente.
 Quando emette le sue lingue di fuoco, la fiamma rossa sulla punta della coda brucia più intensamente.
@@ -9962,8 +9962,8 @@ Quando emette le sue lingue di fuoco, la fiamma rossa sulla punta della coda bru
 Si ritira nel suo guscio e, alla prima occasione, contrattacca colpendo il nemico con spruzzi d'acqua.
 Si ritira nel suo guscio e, alla prima occasione, contrattacca colpendo il nemico con spruzzi d'acqua.
 8
-Controlla abilmente le orecchie e la coda coperte di pelo, mantenendo l’equilibrio mentre nuota.
-Controlla abilmente le orecchie e la coda coperte di pelo, mantenendo l’equilibrio mentre nuota.
+Controlla abilmente le orecchie e la coda coperte di pelo, mantenendo l'equilibrio mentre nuota.
+Controlla abilmente le orecchie e la coda coperte di pelo, mantenendo l'equilibrio mentre nuota.
 9
 I getti d'acqua lanciati dai cannoni sul suo guscio riescono a perforare persino l'acciaio.
 I getti d'acqua lanciati dai cannoni sul suo guscio riescono a perforare persino l'acciaio.
@@ -10016,8 +10016,8 @@ Spiazza l'avversario con il disegno sul ventre, poi gli si avvinghia rapidamente
 Accumula naturalmente elettricità. Se ogni tanto non si sfoga emettendo scariche elettriche, rischia di essere sopraffatto dallo stress.
 Accumula naturalmente elettricità. Se ogni tanto non si sfoga emettendo scariche elettriche, rischia di essere sopraffatto dallo stress.
 26
-Diventa aggressivo se accumula in sé troppa carica elettrica. Scarica l’elettricità dalla coda.
-Diventa aggressivo se accumula in sé troppa carica elettrica. Scarica l’elettricità dalla coda.
+Diventa aggressivo se accumula in sé troppa carica elettrica. Scarica l'elettricità dalla coda.
+Diventa aggressivo se accumula in sé troppa carica elettrica. Scarica l'elettricità dalla coda.
 27
 Vive in zone con scarse precipitazioni. Quando è minacciato da un pericolo, si raggomitola per proteggere il ventre molle.
 Vive in zone con scarse precipitazioni. Quando è minacciato da un pericolo, si raggomitola per proteggere il ventre molle.
@@ -10202,8 +10202,8 @@ Sotto la pelliccia azzurra ha una pelle spessa e dura. Può resistere a una temp
 Il suo corpo affusolato ha poco attrito nell'acqua. Le basse temperature lo rendono vivace.
 Il suo corpo affusolato ha poco attrito nell'acqua. Le basse temperature lo rendono vivace.
 88
-È nato da fango esposto ai raggi X provenienti dalla luna. Per sopravvivere, deve conservare un’elevata popolazione batterica.
-È nato da fango esposto ai raggi X provenienti dalla luna. Per sopravvivere, deve conservare un’elevata popolazione batterica.
+È nato da fango esposto ai raggi X provenienti dalla luna. Per sopravvivere, deve conservare un'elevata popolazione batterica.
+È nato da fango esposto ai raggi X provenienti dalla luna. Per sopravvivere, deve conservare un'elevata popolazione batterica.
 89
 Ha un odore sgradevole e il suo corpo è un concentrato di veleni. Non c'è pianta che rimanga in vita dopo il suo passaggio.
 Ha un odore sgradevole e il suo corpo è un concentrato di veleni. Non c'è pianta che rimanga in vita dopo il suo passaggio.
@@ -10250,8 +10250,8 @@ Nonostante sia formato da uova, si è scoperto che la sua struttura è più simi
 Le tre teste ragionano autonomamente e comunicano tramite telepatia per prendere decisioni in comune.
 Le tre teste ragionano autonomamente e comunicano tramite telepatia per prendere decisioni in comune.
 104
-Indossa sempre il teschio della mamma scomparsa: nessuno l’ha mai potuto vedere in faccia.
-Indossa sempre il teschio della mamma scomparsa: nessuno l’ha mai potuto vedere in faccia.
+Indossa sempre il teschio della mamma scomparsa: nessuno l'ha mai potuto vedere in faccia.
+Indossa sempre il teschio della mamma scomparsa: nessuno l'ha mai potuto vedere in faccia.
 105
 L'osso che impugna è la sua arma. Lo scaglia come un boomerang per mettere \n KO i suoi avversari.
 L'osso che impugna è la sua arma. Lo scaglia come un boomerang per mettere \n KO i suoi avversari.
@@ -10508,8 +10508,8 @@ Spalanca i petali per assorbire la luce solare. Fluttua nell'aria per essere piu
 Sospinto dai venti stagionali, gira intorno al globo sparpagliando i suoi semi simili al cotone.
 Sospinto dai venti stagionali, gira intorno al globo sparpagliando i suoi semi simili al cotone.
 190
-Vive in cima agli alberi più alti. Usando abilmente la coda, mantiene l’equilibrio quando salta di ramo in ramo.
-Vive in cima agli alberi più alti. Usando abilmente la coda, mantiene l’equilibrio quando salta di ramo in ramo.
+Vive in cima agli alberi più alti. Usando abilmente la coda, mantiene l'equilibrio quando salta di ramo in ramo.
+Vive in cima agli alberi più alti. Usando abilmente la coda, mantiene l'equilibrio quando salta di ramo in ramo.
 191
 Vive nutrendosi delle gocce di rugiada che cadono dalle foglie delle piante. Pare che non mangi altro.
 Vive nutrendosi delle gocce di rugiada che cadono dalle foglie delle piante. Pare che non mangi altro.
@@ -10574,8 +10574,8 @@ Attacca i nemici con la grossa mascella inferiore, dotata di zanne massicce. Mor
 Qwilfish si gonfia assorbendo acqua. Poi usa la pressione dell'acqua ingerita per sparare i suoi aculei velenosi tutti insieme in un colpo solo. Non si puo' certo dire che sia un grande nuotatore.
 Qwilfish si gonfia assorbendo acqua. Poi usa la pressione dell'acqua ingerita per sparare i suoi aculei velenosi tutti insieme in un colpo solo. Non si puo' certo dire che sia un grande nuotatore.
 212
-Dopo aver stabilito che qualcuno è suo nemico, lo colpisce con le chele dure come l’acciaio fino a ridurlo in polvere.
-Dopo aver stabilito che qualcuno è suo nemico, lo colpisce con le chele dure come l’acciaio fino a ridurlo in polvere.
+Dopo aver stabilito che qualcuno è suo nemico, lo colpisce con le chele dure come l'acciaio fino a ridurlo in polvere.
+Dopo aver stabilito che qualcuno è suo nemico, lo colpisce con le chele dure come l'acciaio fino a ridurlo in polvere.
 213
 Conserva nel guscio delle bacche che, quando fermentano, si trasformano in un succo delizioso.
 Conserva nel guscio delle bacche che, quando fermentano, si trasformano in un succo delizioso.
@@ -10604,14 +10604,14 @@ Grazie al suo olfatto sviluppato trova funghi, bacche e persino sorgenti termali
 Poiche il lungo pelo sul suo corpo gli impedisce di vedere, non fa che caricare il nemico senza tregua.
 Poiche il lungo pelo sul suo corpo gli impedisce di vedere, non fa che caricare il nemico senza tregua.
 222
-Sul suo capo crescono dei coralli molto fragili. Se un ramo si spezza e cade, viene rigenerato nell’arco di tre giorni.
-Sul suo capo crescono dei coralli molto fragili. Se un ramo si spezza e cade, viene rigenerato nell’arco di tre giorni.
+Sul suo capo crescono dei coralli molto fragili. Se un ramo si spezza e cade, viene rigenerato nell'arco di tre giorni.
+Sul suo capo crescono dei coralli molto fragili. Se un ramo si spezza e cade, viene rigenerato nell'arco di tre giorni.
 223
 Usando la pinna dorsale come una ventosa, s'attacca alla pancia di un Mantine cibandosi dei suoi avanzi.
 Usando la pinna dorsale come una ventosa, s'attacca alla pancia di un Mantine cibandosi dei suoi avanzi.
 224
-Mentre fugge dai nemici sputa un inchiostro che inibisce le funzioni olfattive persino dei Pokémon con l’odorato più sviluppato.
-Mentre fugge dai nemici sputa un inchiostro che inibisce le funzioni olfattive persino dei Pokémon con l’odorato più sviluppato.
+Mentre fugge dai nemici sputa un inchiostro che inibisce le funzioni olfattive persino dei Pokémon con l'odorato più sviluppato.
+Mentre fugge dai nemici sputa un inchiostro che inibisce le funzioni olfattive persino dei Pokémon con l'odorato più sviluppato.
 225
 Delibird trasporta il cibo avvolgendolo nella coda. Si narra di un esploratore che riusci' a raggiungere la vetta del monte Everest grazie alla riserva di cibo di questo Pokemon.
 Delibird trasporta il cibo avvolgendolo nella coda. Si narra di un esploratore che riusci' a raggiungere la vetta del monte Everest grazie alla riserva di cibo di questo Pokemon.
@@ -10853,8 +10853,8 @@ Le sue due enormi mandibole sono corna trasformate. Con esse puo' masticare pers
 Il suo corpo è costituito d'acciaio. Per mantenerne la consistenza, si ciba di pepite di ferro rinvenute scavando in montagna.
 Il suo corpo è costituito d'acciaio. Per mantenerne la consistenza, si ciba di pepite di ferro rinvenute scavando in montagna.
 305
-Adora i minerali di ferro. Scaglia il suo corpo d’acciaio contro gli altri nella lotta per il territorio.
-Adora i minerali di ferro. Scaglia il suo corpo d’acciaio contro gli altri nella lotta per il territorio.
+Adora i minerali di ferro. Scaglia il suo corpo d'acciaio contro gli altri nella lotta per il territorio.
+Adora i minerali di ferro. Scaglia il suo corpo d'acciaio contro gli altri nella lotta per il territorio.
 306
 È solito delimitare un'intera montagna come suo territorio esclusivo ed è spietato con coloro che osano violare tale confine.
 È solito delimitare un'intera montagna come suo territorio esclusivo ed è spietato con coloro che osano violare tale confine.
@@ -11159,8 +11159,8 @@ Se i suoi occhi sono dorati, pue' individuare le prede, anche quelle che si nasc
 La sua gemma, sensibile agli sbalzi di temperatura, si schiude quando avverte i caldi raggi del sole.
 La sua gemma, sensibile agli sbalzi di temperatura, si schiude quando avverte i caldi raggi del sole.
 407
-Attira la preda con un dolce aroma, poi l’abbatte con le fruste spinose celate fra i bouquet delle braccia.
-Attira la preda con un dolce aroma, poi l’abbatte con le fruste spinose celate fra i bouquet delle braccia.
+Attira la preda con un dolce aroma, poi l'abbatte con le fruste spinose celate fra i bouquet delle braccia.
+Attira la preda con un dolce aroma, poi l'abbatte con le fruste spinose celate fra i bouquet delle braccia.
 408
 It lived in jungles around 100 million years ago. Its skull is as hard as iron.
 It lived in jungles around 100 million years ago. Its skull is as hard as iron.
@@ -11243,8 +11243,8 @@ It emits cries by agitating an orb at the back of its throat. It moves with flou
 Si protegge spruzzando un fluido puzzolente dal posteriore. Il tanfo permane per 24 ore.
 Si protegge spruzzando un fluido puzzolente dal posteriore. Il tanfo permane per 24 ore.
 435
-Attacca spruzzando un liquido mefitico dalla coda. Se attacca a ripetizione, l’odore si affievolisce.
-Attacca spruzzando un liquido mefitico dalla coda. Se attacca a ripetizione, l’odore si affievolisce.
+Attacca spruzzando un liquido mefitico dalla coda. Se attacca a ripetizione, l'odore si affievolisce.
+Attacca spruzzando un liquido mefitico dalla coda. Se attacca a ripetizione, l'odore si affievolisce.
 436
 Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.
 Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.
@@ -11282,8 +11282,8 @@ Nasconde il cibo sotto i lunghi peli del suo corpo. Tuttavia, finisce spesso per
 È in grado di percepire la natura e le emozioni di Pokémon ed essere umani sotto forma di onde.
 È in grado di percepire la natura e le emozioni di Pokémon ed essere umani sotto forma di onde.
 448
-Riesce a leggere i pensieri e i movimenti del nemico decifrando l’aura che questo emette.
-Riesce a leggere i pensieri e i movimenti del nemico decifrando l’aura che questo emette.
+Riesce a leggere i pensieri e i movimenti del nemico decifrando l'aura che questo emette.
+Riesce a leggere i pensieri e i movimenti del nemico decifrando l'aura che questo emette.
 449
 Vive in territori aridi. Invece del sudore, espelle dal corpo sabbia granulosa.
 Vive in territori aridi. Invece del sudore, espelle dal corpo sabbia granulosa.
@@ -11513,8 +11513,8 @@ Ha un temperamento sanguigno. Quando\n si arrabbia dalla criniera lancia saette 
 Ha un solo orecchio di forma esagonale. Essendo stato compresso sotto terra, il suo corpo è duro quasi come l'acciaio.
 Ha un solo orecchio di forma esagonale. Essendo stato compresso sotto terra, il suo corpo è duro quasi come l'acciaio.
 525
-L’energia sovrabbondante cerca sfogo all'esterno del corpo e si solidifica formando cristalli di colore arancione.
-L’energia sovrabbondante cerca sfogo all'esterno del corpo e si solidifica formando cristalli di colore arancione.
+L'energia sovrabbondante cerca sfogo all'esterno del corpo e si solidifica formando cristalli di colore arancione.
+L'energia sovrabbondante cerca sfogo all'esterno del corpo e si solidifica formando cristalli di colore arancione.
 526
 Comprime l'energia nel suo nucleo interno per poi spararla con una potenza che può spazzare via anche le montagne.
 Comprime l'energia nel suo nucleo interno per poi spararla con una potenza che può spazzare via anche le montagne.
@@ -12191,11 +12191,11 @@ Quando si mette a sputare fuoco, il sonaglio infuocato che tiene al collo emette
 Ha un carattere aggressivo ed egoista. Se ha la luna storta, non si fa problemi a ignorare gli ordini del proprio Allenatore.
 Ha un carattere aggressivo ed egoista. Se ha la luna storta, non si fa problemi a ignorare gli ordini del proprio Allenatore.
 1006
-È conosciuto per la sua forza di volontà. Lancia sul nemico dei palloncini pieni d’acqua che gonfia con il naso.
-È conosciuto per la sua forza di volontà. Lancia sul nemico dei palloncini pieni d’acqua che gonfia con il naso.
+È conosciuto per la sua forza di volontà. Lancia sul nemico dei palloncini pieni d'acqua che gonfia con il naso.
+È conosciuto per la sua forza di volontà. Lancia sul nemico dei palloncini pieni d'acqua che gonfia con il naso.
 1007
-È un provetto ballerino e scaglia contro il nemico una serie di palloncini d’acqua, che crea a ritmo di danza.
-È un provetto ballerino e scaglia contro il nemico una serie di palloncini d’acqua, che crea a ritmo di danza.
+È un provetto ballerino e scaglia contro il nemico una serie di palloncini d'acqua, che crea a ritmo di danza.
+È un provetto ballerino e scaglia contro il nemico una serie di palloncini d'acqua, che crea a ritmo di danza.
 1008
 Lotta sfruttando le proprie doti canore. Chi lo allena deve dedicarsi con la massima cura alla salute delle sue corde vocali.
 Lotta sfruttando le proprie doti canore. Chi lo allena deve dedicarsi con la massima cura alla salute delle sue corde vocali.
@@ -12218,8 +12218,8 @@ Si muove in gruppi di circa 20 esemplari che, uniti da un fortissimo legame, son
 È affezionato alla paletta che ha nel capo. Se arriva un bambino per riprendersela, si scatena una vera e propria zuffa.
 È affezionato alla paletta che ha nel capo. Se arriva un bambino per riprendersela, si scatena una vera e propria zuffa.
 1015
-Ognuno dei suoi granelli ha una volontà propria. Inghiotte vivi i Pokémon più piccoli e ne ruba l’energia vitale.
-Ognuno dei suoi granelli ha una volontà propria. Inghiotte vivi i Pokémon più piccoli e ne ruba l’energia vitale.
+Ognuno dei suoi granelli ha una volontà propria. Inghiotte vivi i Pokémon più piccoli e ne ruba l'energia vitale.
+Ognuno dei suoi granelli ha una volontà propria. Inghiotte vivi i Pokémon più piccoli e ne ruba l'energia vitale.
 1016
 Vive nei pressi delle spiagge e in acque poco profonde. Espelle gli organi interni per catturare le prede e attaccare i nemici.
 Vive nei pressi delle spiagge e in acque poco profonde. Espelle gli organi interni per catturare le prede e attaccare i nemici.
@@ -12230,8 +12230,8 @@ Vive nei vulcani e si nutre di zolfo e minerali, che rendono il suo carapace esp
 Soffre molto la solitudine e per poter avvicinare gli esseri umani e gli altri Pokémon, cela il suo tremendo aspetto sotto a un panno.
 Soffre molto la solitudine e per poter avvicinare gli esseri umani e gli altri Pokémon, cela il suo tremendo aspetto sotto a un panno.
 1019
-Ha un’indole gentile, ma se si arrabbia distrugge tutto quello che ha intorno con un soffio devastante.
-Ha un’indole gentile, ma se si arrabbia distrugge tutto quello che ha intorno con un soffio devastante.
+Ha un'indole gentile, ma se si arrabbia distrugge tutto quello che ha intorno con un soffio devastante.
+Ha un'indole gentile, ma se si arrabbia distrugge tutto quello che ha intorno con un soffio devastante.
 1020
 Si nasconde nelle ombre per sfuggire alla vista degli esseri viventi, e per questo si è dubitato per molto tempo della sua esistenza.
 Si nasconde nelle ombre per sfuggire alla vista degli esseri viventi, e per questo si è dubitato per molto tempo della sua esistenza.
@@ -17327,8 +17327,8 @@ Travolge il bersaglio con un'ondata di vapore rovente che può anche scottarlo.
 Colpisce anche i Pokémon che fluttuano in aria. I nemici nei paraggi vengono scaraventati a terra.
 Colpisce anche i Pokémon che fluttuano in aria. I nemici nei paraggi vengono scaraventati a terra.
 614
-Un’onda strisciante investe i nemici intorno impedendo loro di fuggire.
-Un’onda strisciante investe i nemici intorno impedendo loro di fuggire.
+Un'onda strisciante investe i nemici intorno impedendo loro di fuggire.
+Un'onda strisciante investe i nemici intorno impedendo loro di fuggire.
 615
 Concentra il potere del Fiore Eterno in un raggio di luce potentissimo. Il contraccolpo danneggia molto anche l'utilizzatore.
 Concentra il potere del Fiore Eterno in un raggio di luce potentissimo. Il contraccolpo danneggia molto anche l'utilizzatore.
@@ -17471,8 +17471,8 @@ Colpisce il bersaglio con un potente raggio, ma riduce di molto l'Attacco Specia
 Fa recuperare metà dei PS massimi al bersaglio. È più efficace quando il terreno di lotta è nello stato di Campo Erboso.
 Fa recuperare metà dei PS massimi al bersaglio. È più efficace quando il terreno di lotta è nello stato di Campo Erboso.
 662
-Dà una marcia in più agli alleati con le abilità Meno o Più aumentandone l’Attacco e l’Attacco Speciale.
-Dà una marcia in più agli alleati con le abilità Meno o Più aumentandone l’Attacco e l’Attacco Speciale.
+Dà una marcia in più agli alleati con le abilità Meno o Più aumentandone l'Attacco e l'Attacco Speciale.
+Dà una marcia in più agli alleati con le abilità Meno o Più aumentandone l'Attacco e l'Attacco Speciale.
 663
 Chi la usa travolge il bersaglio con un attacco possente.
 Chi la usa travolge il bersaglio con un attacco possente.
@@ -17489,8 +17489,8 @@ Chi la usa si concentra e nel turno successivo metterà sicuramente a segno un b
 Attacca il bersaglio con delle foglie.
 Attacca il bersaglio con delle foglie.
 668
-Chi la usa colpisce il bersaglio con la forza dell’acqua. Può anche ridurne la Difesa.
-Chi la usa colpisce il bersaglio con la forza dell’acqua. Può anche ridurne la Difesa.
+Chi la usa colpisce il bersaglio con la forza dell'acqua. Può anche ridurne la Difesa.
+Chi la usa colpisce il bersaglio con la forza dell'acqua. Può anche ridurne la Difesa.
 669
 Chi la usa si lancia con tutte le sue forze sul bersaglio e ne riduce l'Attacco.
 Chi la usa si lancia con tutte le sue forze sul bersaglio e ne riduce l'Attacco.
@@ -17528,8 +17528,8 @@ Chi la usa si lancia in una danza e attacca il nemico con tutte le sue forze. Il
 Chi la usa colpisce il bersaglio con un osso in cui alberga uno spirito. Può anche ridurne la Difesa.
 Chi la usa colpisce il bersaglio con un osso in cui alberga uno spirito. Può anche ridurne la Difesa.
 681
-Se un nemico colpisce chi la usa con una mossa fisica, dal guscio s'innesca un’esplosione che infligge ingenti danni.
-Se un nemico colpisce chi la usa con una mossa fisica, dal guscio s'innesca un’esplosione che infligge ingenti danni.
+Se un nemico colpisce chi la usa con una mossa fisica, dal guscio s'innesca un'esplosione che infligge ingenti danni.
+Se un nemico colpisce chi la usa con una mossa fisica, dal guscio s'innesca un'esplosione che infligge ingenti danni.
 682
 Chi la usa recupera metà dei propri PS massimi. Durante le tempeste di sabbia ne recupera di più.
 Chi la usa recupera metà dei propri PS massimi. Durante le tempeste di sabbia ne recupera di più.
@@ -17555,8 +17555,8 @@ Chi la usa attacca il bersaglio e fissa la sua ombra a terra impedendogli di fug
 Chi la usa accende un riflettore sopra il bersaglio deviando su di lui per quel turno tutti gli attacchi dei suoi nemici.
 Chi la usa accende un riflettore sopra il bersaglio deviando su di lui per quel turno tutti gli attacchi dei suoi nemici.
 690
-Fa recuperare una quantità di PS pari all’Attacco del bersaglio, che vedrà diminuire questa statistica.
-Fa recuperare una quantità di PS pari all’Attacco del bersaglio, che vedrà diminuire questa statistica.
+Fa recuperare una quantità di PS pari all'Attacco del bersaglio, che vedrà diminuire questa statistica.
+Fa recuperare una quantità di PS pari all'Attacco del bersaglio, che vedrà diminuire questa statistica.
 691
 Chi la usa travolge il bersaglio con la potenza di una meteora. Questo attacco ignora l'Abilità del bersaglio.
 Chi la usa travolge il bersaglio con la potenza di una meteora. Questo attacco ignora l'Abilità del bersaglio.
@@ -17570,8 +17570,8 @@ Chi viene colpito da questa mossa prova un dolore lancinante e non può più usa
 Avvelena il bersaglio avvolgendolo con filamenti tossici e ne riduce la Velocità.
 Avvelena il bersaglio avvolgendolo con filamenti tossici e ne riduce la Velocità.
 695
-Chi la usa colpisce il bersaglio con una potente tecnica di calcio dei paesi tropicali e ne riduce l’Attacco.
-Chi la usa colpisce il bersaglio con una potente tecnica di calcio dei paesi tropicali e ne riduce l’Attacco.
+Chi la usa colpisce il bersaglio con una potente tecnica di calcio dei paesi tropicali e ne riduce l'Attacco.
+Chi la usa colpisce il bersaglio con una potente tecnica di calcio dei paesi tropicali e ne riduce l'Attacco.
 696
 Chi la usa colpisce il bersaglio investendolo con una potente scarica elettrica che può anche farlo tentennare.
 Chi la usa colpisce il bersaglio investendolo con una potente scarica elettrica che può anche farlo tentennare.
@@ -21463,8 +21463,8 @@ Strumento usato per cercare oggetti nascosti. Se ne trova uno nelle vicinanze, e
 Strumento che serve per cercare oggetti nascosti. Emette luci e suoni se trova qualcosa
 Strumento che serve per cercare oggetti nascosti. Emette luci e suoni se trova qualcosa.
 509
-Strumento con cui individuare i Pokémon nascosti nell’erba. La batteria si ricarica mentre cammini.
-Strumento con cui individuare i Pokémon nascosti nell’erba. La batteria si ricarica mentre cammini.
+Strumento con cui individuare i Pokémon nascosti nell'erba. La batteria si ricarica mentre cammini.
+Strumento con cui individuare i Pokémon nascosti nell'erba. La batteria si ricarica mentre cammini.
 510
 Utilissima mappa, consultabile in ogni situazione. Mostra anche la propria posizione in tempo reale.
 Utilissima mappa, consultabile in ogni situazione. Mostra anche la propria posizione in tempo reale.
@@ -21835,20 +21835,20 @@ Un premio per aver superato la Prova dell'Acqua del Regno di Virgopoli.
 Uno strano anello intriso di una forte energia oscura.
 Un misterioso anello intriso di un'oscura energia di colore blu.
 671
-Un misterioso orecchino contenente un’energia pura dal colore rosso intenso.
-Un misterioso orecchino contenente un’energia pura dal colore rosso intenso.
+Un misterioso orecchino contenente un'energia pura dal colore rosso intenso.
+Un misterioso orecchino contenente un'energia pura dal colore rosso intenso.
 672
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
 673
-Una chiave che potrebbe aprire la porta dell’aula di Scienze.
-Una chiave che potrebbe aprire la porta dell’aula di Scienze.
+Una chiave che potrebbe aprire la porta dell'aula di Scienze.
+Una chiave che potrebbe aprire la porta dell'aula di Scienze.
 674
-Una chiave che potrebbe aprire la porta dell’anfiteatro.
-Una chiave che potrebbe aprire la porta dell’anfiteatro.
+Una chiave che potrebbe aprire la porta dell'anfiteatro.
+Una chiave che potrebbe aprire la porta dell'anfiteatro.
 675
-Una chiave che potrebbe aprire la porta dell’aula di Matematica.
-Una chiave che potrebbe aprire la porta dell’aula di Matematica.
+Una chiave che potrebbe aprire la porta dell'aula di Matematica.
+Una chiave che potrebbe aprire la porta dell'aula di Matematica.
 676
 Una chiave che potrebbe aprire la porta dello sgabuzzino.
 Una chiave che potrebbe aprire la porta dello sgabuzzino.
@@ -21880,8 +21880,8 @@ Una Gemma N compatibile col PokéWES. Vi è inciso uno Scyther stilizzato.
 Una Gemma N compatibile col PokéWES. Vi è inciso un Lapras stilizzato.
 Una Gemma N compatibile col PokéWES. Vi è inciso un Lapras stilizzato.
 686
-Contenitore d’acqua miracolosa da consegnare al vecchio Oleandro.
-Contenitore d’acqua miracolosa da consegnare al vecchio Oleandro.
+Contenitore d'acqua miracolosa da consegnare al vecchio Oleandro.
+Contenitore d'acqua miracolosa da consegnare al vecchio Oleandro.
 687
 Una veste che ricorda il Pokémon Pikachu. È in condizioni pessime.
 Una veste che ricorda il Pokémon Pikachu. È in condizioni pessime.
@@ -23232,8 +23232,8 @@ Cura i problemi di stato se piove.
 Se c'è il sole aumenta l'Att. Sp. ma riduce i PS.
 Se c'è il sole aumenta l'Att. Sp. ma riduce i PS.
 95
-Aumenta la Velocità se c’è un problema di stato.
-Aumenta la Velocità se c’è un problema di stato.
+Aumenta la Velocità se c'è un problema di stato.
+Aumenta la Velocità se c'è un problema di stato.
 96
 Le mosse del Pokémon diventano di tipo Normale.
 Le mosse del Pokémon diventano di tipo Normale.
@@ -23304,8 +23304,8 @@ Il Pokémon provoca una grandinata in lotta.
 Il Pokémon può raccogliere Miele.
 Il Pokémon può raccogliere Miele.
 119
-Il Pokémon scopre lo strumento dell’avversario.
-Il Pokémon scopre lo strumento dell’avversario.
+Il Pokémon scopre lo strumento dell'avversario.
+Il Pokémon scopre lo strumento dell'avversario.
 120
 Potenzia le mosse che provocano contraccolpi.
 Potenzia le mosse che provocano contraccolpi.
@@ -23508,7 +23508,7 @@ Potenzia le mosse basate sui morsi.
 Impedisce che gli alleati dell'utilizzatore si addormentino.
 Impedisce che gli alleati dell'utilizzatore si addormentino.
 187
-Cede il suo strumento a un suo alleato dopo l’uso
+Cede il suo strumento a un suo alleato dopo l'uso
 Cede il suo strumento a un suo alleato dopo l'uso.
 188
 Potenzia le mosse che causano un contatto fisico.
@@ -36360,10 +36360,10 @@ You need to choose at least one Pokémon to confirm.
 Scegli un Pokémon per confermare.
 Thanks for playing!
 Grazie di aver giocato!
-La modalità moderna permette di avere un’esperienza più leggera,<<n>> con un sistema di esperienza più simile alle ultime generazioni.
-La Modern Mode permette un’esperienza più leggera,<<n>>con distribuzione dei Punti Esperienza come nelle ultime generazioni.
-La modalità classica permette di avere un’esperienza simile ai giochi delle vecchie generazioni, senza esperienza a tutta la squadra.
-La Classic Mode permette un’esperienza simile ai giochi di vecchia generazione, senza distribuire Punti Esperienza a tutta la squadra.
+La modalità moderna permette di avere un'esperienza più leggera,<<n>> con un sistema di esperienza più simile alle ultime generazioni.
+La Modern Mode permette un'esperienza più leggera,<<n>>con distribuzione dei Punti Esperienza come nelle ultime generazioni.
+La modalità classica permette di avere un'esperienza simile ai giochi delle vecchie generazioni, senza esperienza a tutta la squadra.
+La Classic Mode permette un'esperienza simile ai giochi di vecchia generazione, senza distribuire Punti Esperienza a tutta la squadra.
 Classic Mode
 Classic Mode
 Modern Mode
