@@ -986,7 +986,7 @@ def fbText(message,commands=nil,cmdIfCancel=0,defaultCmd=0,&block)
   echoln("Checking for translation")
 	if $PokemonSystem.language != 0 #0 italian, 1 english
 		begin
-			message=MessageTypes.getFromMapHash($game_map.map_id,message.gsub(/\n/,' '))#MessageTypes.getFromMapHash(0,message)
+			message=MessageTypes.getFromMapHash($game_map.map_id,message.gsub(/\n/,' ').gsub(/’/,"'"))#MessageTypes.getFromMapHash(0,message)
 			echoln(message)
 		rescue
 			message=message	
