@@ -7263,8 +7263,8 @@ but it is absolutely impossible that these waves are coming from underground!
 Negativo!
 Negative!
 I dati sono corretti e le macchine che ho usato per raccoglierli non hanno mostrato
-The data is flawless, the parts I used to collect it didn't show
-alcun tipo di malfunzionamento. Ergo è impossibile che le onde provengano da posti in alto. Io dico che-
+The data is flawless, as the parts I used to collect it didn't show
+alcun tipo di malfunzionamento. Io dico che-
 any kind of malfunction. As such, it's impossible for this waves to be coming from high places. I say that-
 Va bene va bene, smettiamola. Ho già chiamato qualcuno che può risolvere questo dilemma per noi.
 Fine, fine, let's hush. I already called someone who surely can unravel this dilemma for us.
@@ -24120,7 +24120,7 @@ Wicked Tournament
 Torneo Ascolto
 Hearing Tournament
 Ah! Guarda chi si rivede!
-Ah! Looks who's here! 
+Ah! Look who's here! 
 Gengah ah ah!
 Gengah ah ah!
 Hai visto che rinnovo coi fiocchi?
@@ -43698,7 +43698,7 @@ Shiftryite
 Shiftryite
 795
 Fune di Fuga +
-Escape Road +
+Escape Rope +
 796
 Anello Induttivo
 Inductive Ring
