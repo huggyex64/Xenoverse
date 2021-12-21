@@ -1938,7 +1938,7 @@ class PWT
     @transition["sep"].zoom(1,1,30,:ease_in_cubic)
   
     if @pool.length<3
-      Kernel.pbMessage(_INTL("Congratulazioni agli sfidanti che hanno raggiunto la finale! Siete stati bravi! Genga ah ah!"))
+      Kernel.pbMessage(_INTL("Congratulazioni agli allenatori che hanno raggiunto la finale! Siete stati bravi! Genga ah ah!"))
     end
 
     Kernel.pbMessage(_INTL("Diamo un'occhiata agli sfidanti!"))
