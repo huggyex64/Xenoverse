@@ -60322,6 +60322,8 @@ Bring it on! The boss Pokémon {1} wants to battle!
 {1} sent out<<r>><<n>>{2}! {3} sent out<<r>><<n>>{4}!
 {1}<<n>>vuole combattere!
 You are challenged by<<r>><<n>>{1}!
+{1}<<r>><<n>>vuole combattere!
+You are challenged by<<r>><<n>>{1}!
 Le statistiche del Pokémon nemico sono più elevate!
 The foe Pokémon's stats are higher!
 It is raining heavily.
