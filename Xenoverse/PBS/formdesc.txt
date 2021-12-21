@@ -343,3 +343,11 @@ DESCRIPTION=(MegaEvoluzione)\n Danza in continuazione davanti ad allenatori amma
 DESCRIPTION=(MegaEvoluzione)\n La megaevoluzione ha tramutato le sue braccia in ali. Le agita furiosamente non essendo più in grado di muoverle come vuole.
 [2031_1]
 DESCRIPTION=È in grado di produrre scariche elettriche fino a 15.000 volt. Tende a sottovalutare qualunque nemico si trovi davanti.
+[303_1]
+DESCRIPTION=(MegaEvoluzione)\n Le due bocche si agitano furiosamente come se avessero volontà propria. Possono sbriciolare una roccia con un solo morso.
+HEIGHT=10
+WEIGHT=235
+[359_1]
+DESCRIPTION=(MegaEvoluzione)\n L’indole pacifica di questo Pokémon lo porta a detestare questa sua forma, che è perfetta per la lotta.
+HEIGHT=12
+WEIGHT=490
