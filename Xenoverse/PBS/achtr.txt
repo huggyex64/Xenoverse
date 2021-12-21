@@ -310,3 +310,23 @@ Furia Bestiale
 Bestial Fury
 Sconfiggi i Tre Cani Leggendari.
 Defeat the Three Legendary Dogs.
+Passione Oscura
+Dark Passion
+Sconfiggi Tamara Furia.
+Defeat Fury Tamara.
+Domadraghi
+Dragon Tamer
+Sconfiggi Lance nel Torneo Apollo.
+Defeat Lance in the Apollo Tournament.
+Eterna Bellezza
+Eternal Beauty
+Sconfiggi Erika nel Torneo Apollo.
+Defeat Erika in the Apollo Tournament.
+Nostalgia di un Miltank
+Longing for a Miltank
+Sconfiggi Whitney nel Torneo Apollo.
+Defeat Whitney in the Apollo Tournament.
+Danzare nel buio
+Dancing in the dark
+Sconfiggi Dante nel Torneo Apollo.
+Defeat Dante in the Apollo Tournament.
