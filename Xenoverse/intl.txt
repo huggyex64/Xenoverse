@@ -23766,6 +23766,8 @@ Sergei
 <<[>>old<<]>>Take a pic with this Donanas cutout and post it on Instagram...and don't forget to tag us!
 <<[>>old<<]>>Nord: Sentiero Rosa.
 <<[>>old<<]>>Nord: Pink Pathway
+Yo! Torna presto a trovarmi che venderò tante preziose MT!
+Yo! Come back soon, I'll be selling a lot of precious TMs!
 [Map617]
 Sì
 Yes
@@ -24213,6 +24215,16 @@ No
 No
 Benvenuto|a. Vuoi che presti cure ai tuoi Pokémon?
 Welcome. Do you want me to take care of your Pokémons?
+Io e i miei fratelli cerchiamo sempre di affinare le nostre abilità. Se sei disposto a mostrarci i tuoi Pokémon, insegneremo loro una mossa.
+My brothers and I are always trying to hone our skills. If you're willing to show us your Pokémon, we'll teach them a move.
+Se vuoi che i tuoi Pokémon imparino qualche mossa, sai dove trovarci.
+If you want us to teach your Pokémon a move, you know where to find us.
+A quale Pokémon vuoi che insegni questa mossa?
+To which Pokémon should I teach this move?
+Se vuoi che insegni qualche altra mossa ad un tuo Pokémon, sai dove trovarmi.
+If you want me to teach a move to one of your Pokémon, you know where to find me.
+È un peccato. Torna se vuoi che insegni qualche mossa ad un tuo Pokémon.
+It's a shame. Come again if you want me to teach a move to one of your Pokémon.
 [Map622]
 Sì
 Yes

@@ -943,6 +943,50 @@ BATTLE_POINT_PRICES = {
   PBItems::BELLOSSOMITE => 10,
   PBItems::SHIFTRYITE => 10,
 }
+#Tutors:
+#Tutor 1: :DRAGONENDURANCE,:VELVETSCALES,:ACIDRAIN,:TAILWIND,:OUTRAGE,:AIRCUTTER,:HURRICANE
+#Tutor 2: :ZENHEADBUTT,:FIREPUNCH,:ICEPUNCH,:THUNDERPUNCH,:FOCUSPUNCH,:DRAGONPULSE,:IRONTAIL
+#Tutor 3: :SNORE,:STEALTHROCK,:SUPERFANG,:SUPERPOWER,:WATERPULSE,:UPROAR,:SKYATTACK
+def pbMoveTutor(movepool=[],name="") #remember to use max 7
+  moves=movepool
+  movecmd = []
+  for m in moves
+    echoln getConst(PBMoves,m)
+    echoln PBMoves.getName(getConst(PBMoves,m))
+    movecmd.push(PBMoves.getName(getConst(PBMoves,m)))
+  end
+  #Kernel.pbMessage(_INTL("Che mossa vuoi che insegni ai tuoi Pokémon?"))
+  #Kernel.pbShowCommands(nil,movecmd,-1,0)
+  rt = pbNewChoice(Fullbox_Option.createFromArray(movecmd),-1)
+
+  if rt>0
+    fbNewMugshot(name,"allenatori/karateka","default",:left)
+    fbEnable(true)
+    fbText("A quale Pokémon vuoi che insegni questa mossa?")
+    fbEnable(false)
+    fbDispose()
+    if pbMoveTutorChoose(getConst(PBMoves,moves[rt]))
+      fbNewMugshot(name,"allenatori/karateka","default",:left)
+      fbEnable(true)
+      fbText("Se vuoi che insegni qualche altra mossa ad un tuo Pokémon, sai dove trovarmi.")
+      fbEnable(false)
+      fbDispose()
+    else
+      fbNewMugshot(name,"allenatori/karateka","default",:left)
+      fbEnable(true)
+      fbText("È un peccato. Torna se vuoi che insegni qualche mossa ad un tuo Pokémon.")
+      fbEnable(false)
+      fbDispose()
+    end
+  else
+    fbNewMugshot(name,"allenatori/karateka","default",:left)
+    fbEnable(true)
+    fbText("È un peccato. Torna se vuoi che insegni qualche mossa ad un tuo Pokémon.")
+    fbEnable(false)
+    fbDispose()
+  end
+
+end
 
 def pbGetMegaShopList()
   list = [:VENUSAURITE,:BLASTOISINITE,:CHARIZARDITET,:CHARIZARDITEX,:WEAVILITE]
@@ -1032,6 +1076,7 @@ def pbMTShopList()
     mts.push(mt) if $PokemonBag.pbQuantity(mt)==0
 
   end
+  echoln mts
   return mts
 end
 
