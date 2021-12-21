@@ -733,7 +733,7 @@ def _INTL(*arg)
 	#	echoln Messages.stringToKey(arg[0])==MessageTypes.messages.messages.last.keys.last
 	#end
 	begin
-    mx = arg[0].gsub?(/’/,"'")
+    mx = arg[0].gsub(/’/,"'")
     string=MessageTypes.getFromHash(MessageTypes::ScriptTexts,mx)
 		#echoln "Found translation"
   rescue

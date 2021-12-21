@@ -1453,6 +1453,8 @@ They might know something.
 \PN, your next destination will be Mt. Zodiac, you should prepare carefully!
 Per me è ora di andare, ho ancora dei rapporti da mandare al QG.
 As for me, it's time to go and hand over the reports to the HQ. See you! 
+A presto!
+See you!
 \PN... So che avevo detto che sarei stato più presente,
 \PN... I know that I said I'd be more available,
 ma credo che non potrò più aiutarti molto sul campo.
@@ -23325,20 +23327,20 @@ No
 <<[>>old<<]>>-Risultati delle ricerche sul soggetto 48- Rapporto no. 2
 <<[>>old<<]>>-Research results on subject 48- Report no. 2
 <<[>>old<<]>>Il soggetto 48 è il primo che presenta segni di compatibilità dopo 47 fallimenti. Per evitare che lo shock da Energia X fosse troppo forte, abbiamo pensato di aumentare la quantità di materiale genetico che deve assorbire le radiazioni. Abbiamo quindi attuato la procedura di fusione cellulare tra i due campioni, che potrebbe essere stato il punto di svolta.
-<<[>>old<<]>>The subject 48 is the first to show signs of compatibility after 47 failures. In order to avoid the shock from X Energy being too strong, we thought of increasing the quantity of genetic material that had to absorb the radiation. This is why we actuated the procedure of cellular fusion between two specimens, and this might’ve been the turning point.
+<<[>>old<<]>>The subject 48 is the first to show signs of compatibility after 47 failures. In order to avoid the shock from X Energy being too strong, we thought of increasing the quantity of genetic material that had to absorb the radiation. This is why we actuated the procedure of cellular fusion between two specimens, and this might've been the turning point.
 <<[>>old<<]>>Vuoi continuare a leggere?
 <<[>>old<<]>>Do you want to continue reading?
 <<[>>old<<]>>-Risultati delle ricerche sul soggetto 48- Rapporto no. 5
 <<[>>old<<]>>-Research results on subject 48- Report no. 5
-<<[>>old<<]>>Il soggetto 48 ha finalmente ripreso coscienza. I corpi dei due campioni sono ormai quasi completamente fusi, l’unica parte che resta separata è la testa. Sembra che uno dei due campioni abbia assunto il comando dell’altra.
+<<[>>old<<]>>Il soggetto 48 ha finalmente ripreso coscienza. I corpi dei due campioni sono ormai quasi completamente fusi, l'unica parte che resta separata è la testa. Sembra che uno dei due campioni abbia assunto il comando dell'altra.
 <<[>>old<<]>>The subject 48 finally has regained consciousness. The bodies of the two specimens are now almost completely fused, with the only part still separated being the head. Looks like one of the two specimens has taken control over the other one.
 <<[>>old<<]>>-Risultati delle ricerche sul soggetto 48- Rapporto no. 6
 <<[>>old<<]>>-Research results on subject 48- Report no. 6
-<<[>>old<<]>>Il soggetto 48 è tornato in coma. A quanto pare, la fusione cellulare era instabile ed i primi segni di rigetto sono stati talmente dolorosi da causare uno shock neurogeno. Nonostante sia doloroso per il soggetto, proseguiremo con l’amministrazione di Energia X.
-<<[>>old<<]>>The subject 48 is back in a coma. It looks like the cellular fusion was unstable and the first signs of rejection were painful enough to cause a neurogenic shock. Despite the fact that it's painful for the subject, we’ll carry on with the administration of X Energy.
+<<[>>old<<]>>Il soggetto 48 è tornato in coma. A quanto pare, la fusione cellulare era instabile ed i primi segni di rigetto sono stati talmente dolorosi da causare uno shock neurogeno. Nonostante sia doloroso per il soggetto, proseguiremo con l'amministrazione di Energia X.
+<<[>>old<<]>>The subject 48 is back in a coma. It looks like the cellular fusion was unstable and the first signs of rejection were painful enough to cause a neurogenic shock. Despite the fact that it's painful for the subject, we'll carry on with the administration of X Energy.
 <<[>>old<<]>>-Risultati delle ricerche sul soggetto 48- Rapporto no. 9
 <<[>>old<<]>>-Research results on subject 48- Report no. 9
-<<[>>old<<]>>Il soggetto 48 si può considerare un successo. Ora si presenta come un unico Pokémon, e le due teste si sono completamente fuse. Nonostante presenti forti sintomi di personalità multipla, si può considerare stabile. Verrà ora assegnato per l’impiego su campo e denominato ''Bisharp X''.
+<<[>>old<<]>>Il soggetto 48 si può considerare un successo. Ora si presenta come un unico Pokémon, e le due teste si sono completamente fuse. Nonostante presenti forti sintomi di personalità multipla, si può considerare stabile. Verrà ora assegnato per l'impiego su campo e denominato ''Bisharp X''.
 <<[>>old<<]>>The subject 48 can be considered a success. Now it is a single Pokémon, and the two heads are completely fused together. Despite it displaying symptoms of multiple personalities, it can be considered stable. It will now be assigned for field operations and called ''Bisharp X''.
 <<[>>old<<]>>Hai trovato una pagina di diario! \wtnp[30]
 <<[>>old<<]>>You found a diary page! \wtnp[30]
@@ -23366,10 +23368,10 @@ No
 <<[>>old<<]>>-Risultati delle ricerche sul soggetto 0- Rapporto no. 5
 <<[>>old<<]>>-Research results on subject 0- Report no. 5
 <<[>>old<<]>>Grazie ad un'intuizione del Vice Comandante Victor, hanno avuto inizio le operazioni di modifica genetica del soggetto 0. Pare che stia soffrendo molto, ma è inevitabile. L'esperimento prevede la somministrazione costante di Energia X al soggetto, al fine di innescare un mutamento genetico e cambiarne la natura intrinseca.
-<<[>>old<<]>>Thanks to an intuition from the Deputy Commander Victor, the operations for the genetic modifications of subject 0 have started. It looks like it's hurting a lot, but it’s inevitable. The experiment includes the constant administration of X Energy to the subject, in order to trigger a genetic mutation and change its inherent nature. 
+<<[>>old<<]>>Thanks to an intuition from the Deputy Commander Victor, the operations for the genetic modifications of subject 0 have started. It looks like it's hurting a lot, but it's inevitable. The experiment includes the constant administration of X Energy to the subject, in order to trigger a genetic mutation and change its inherent nature. 
 <<[>>old<<]>>-Risultati delle ricerche sul soggetto 0- Rapporto no. 8
 <<[>>old<<]>>-Research results on subject 0- Report no. 8
-<<[>>old<<]>>L'esperimento è andato a buon fine. Il soggetto 0, ora denominato ''Raichu X'', è riuscito a sopportare il dolore e sopravvivere al mutamento genetico.  Adesso è affine agli impianti metallici installati. Però sembra che mantenga ancora delle caratteristiche dei geni originari, in quanto è dotato di un forte campo magnetico attorno a sè.
+<<[>>old<<]>>L'esperimento è andato a buon fine. Il soggetto 0, ora denominato ''Raichu X'', è riuscito a sopportare il dolore e sopravvivere al mutamento genetico. Adesso è affine agli impianti metallici installati. Però sembra che mantenga ancora delle caratteristiche dei geni originari, in quanto è dotato di un forte campo magnetico attorno a sè.
 <<[>>old<<]>>The experiment was successful. The subject 0, now called ''Raichu X'', was able to endure the pain and survive the genetic mutation. It's now akin to the metallic implants we gave it. It looks like it still has some characteristics from its original genes, as it has a strong magnetic field around itself.
 [Map608]
 Sì
@@ -23382,25 +23384,25 @@ No
 <<[>>old<<]>>Some parts of the text are blurred, want to try and read them?
 <<[>>old<<]>>-Risultati delle ricerche sul soggetto 74- Rapporto no. 1
 <<[>>old<<]>>-Research results on subject 74- Report no. 1
-<<[>>old<<]>>A seguito di 25 esperimenti fallimentari sulla guida dell’esperienza con il soggetto 48, è stata presa la decisione di fermarci ad analizzare nel dettaglio le differenze genetiche tra una specie X ed una terrestre ed agire di conseguenza. Il soggetto di riferimento è il 74.
+<<[>>old<<]>>A seguito di 25 esperimenti fallimentari sulla guida dell'esperienza con il soggetto 48, è stata presa la decisione di fermarci ad analizzare nel dettaglio le differenze genetiche tra una specie X ed una terrestre ed agire di conseguenza. Il soggetto di riferimento è il 74.
 <<[>>old<<]>>Following the 25 unsuccessful experiments on the lead subject 48 gave us, we took the decision to stop to take a look at the genetic differences between an X species and a terrestrial species, and act consequently. The reference subject is 74.
 <<[>>old<<]>>-Risultati delle ricerche sul soggetto 74- Rapporto no. 3
 <<[>>old<<]>>-Research results on subject 74- Report no. 3
-<<[>>old<<]>>Dopo svariate analisi sui campioni ''Roserade'' e ''Roserade X'', siamo pronti ad iniziare gli esperimenti sul soggetto 74. Dai risultati di queste, abbiamo deciso di provare a somministrare una dose crescente di Energia X, invece di mantenerla costante. Nel frattempo, partiranno anche gli esperimenti su un soggetto 75, per determinare l’influenza di Energia X su esseri provenienti da altre dimensioni.
-<<[>>old<<]>>After various analyses run on specimens ''Roserade'' and ''Roserade X'', we’re ready to start with the experiments on subject 74. From the results of these, we decided to try administering an increasing amount of X Energy, instead of keeping it constant. In the meantime, the experiments on subject 75 will start too, to determine the influence of X Energy on beings from other dimensions.
+<<[>>old<<]>>Dopo svariate analisi sui campioni ''Roserade'' e ''Roserade X'', siamo pronti ad iniziare gli esperimenti sul soggetto 74. Dai risultati di queste, abbiamo deciso di provare a somministrare una dose crescente di Energia X, invece di mantenerla costante. Nel frattempo, partiranno anche gli esperimenti su un soggetto 75, per determinare l'influenza di Energia X su esseri provenienti da altre dimensioni.
+<<[>>old<<]>>After various analyses run on specimens ''Roserade'' and ''Roserade X'', we're ready to start with the experiments on subject 74. From the results of these, we decided to try administering an increasing amount of X Energy, instead of keeping it constant. In the meantime, the experiments on subject 75 will start too, to determine the influence of X Energy on beings from other dimensions.
 <<[>>old<<]>>-Risultati delle ricerche sul soggetto 74- Rapporto no. 5
 <<[>>old<<]>>-Research results on subject 74- Report no. 5
-<<[>>old<<]>>Gli esperimenti procedono come previsto. Fino ad ora, il soggetto 74 non ha presentato alcun segno di rigetto o malessere nonostante l’esposizione all’Energia X. 
-<<[>>old<<]>>The experiments are proceeding like expected. Up until now, the subject 74 still hasn’t shown any sign of rejection or discomfort even though its exposition to X Energy.
+<<[>>old<<]>>Gli esperimenti procedono come previsto. Fino ad ora, il soggetto 74 non ha presentato alcun segno di rigetto o malessere nonostante l'esposizione all'Energia X. 
+<<[>>old<<]>>The experiments are proceeding like expected. Up until now, the subject 74 still hasn't shown any sign of rejection or discomfort even though its exposition to X Energy.
 <<[>>old<<]>>Pare che la mutazione genetica non sia abbastanza aggressiva da alterarne completamente la natura, come nel soggetto 0, ma comunque abbastanza da modificarla nettamente. Notiamo piccoli cambiamenti caratteriali del soggetto, ma sono da considerare trascurabili e dovuti alla durata degli esperimenti.
-<<[>>old<<]>>It looks like the genetic mutation isn’t aggressive enough to change its nature completely, like with subject 0, but still enough to modify it significantly. We’re noticing small behavioural changes in the subject, but they can be considered as negligible and due to the duration of the experiments.
+<<[>>old<<]>>It looks like the genetic mutation isn't aggressive enough to change its nature completely, like with subject 0, but still enough to modify it significantly. We're noticing small behavioural changes in the subject, but they can be considered as negligible and due to the duration of the experiments.
 <<[>>old<<]>>-Risultati delle ricerche sul soggetto 74- Rapporto no. 11
 <<[>>old<<]>>-Research results on subject 74- Report no. 11
 <<[>>old<<]>>Gli esperimenti sul soggetto 74 procedono ancora. Già da molto non presenta più le caratteristiche originali della sua specie, ma adesso i cambiamenti caratteriali sembrano più radicati. Oltre ad essere molto più irascibile e agitato, ha perso anche la capacità di camminare su due zampe, tornando ad avere una postura da quadrupede. Gli esperimenti sul soggetto 75 verranno invece fermati indefinitamente, a causa di un incidente avvenuto durante uno di essi.
-<<[>>old<<]>>The experiments on subject 74 are still going on. For a long time it’s not been displaying the typical characteristics of its species, but now the behavioural changes are getting more ingrained. Besides being a lot more short-tempered and agitated, it lost the capacity to move on its legs, going back to a quadrupedal posture. The experiments on subject 75 will instead be halted indefinitely, due to an incident that happened during one of those.
+<<[>>old<<]>>The experiments on subject 74 are still going on. For a long time it's not been displaying the typical characteristics of its species, but now the behavioural changes are getting more ingrained. Besides being a lot more short-tempered and agitated, it lost the capacity to move on its legs, going back to a quadrupedal posture. The experiments on subject 75 will instead be halted indefinitely, due to an incident that happened during one of those.
 <<[>>old<<]>>-Risultati delle ricerche sul soggetto 74- Rapporto no. 14
 <<[>>old<<]>>-Research results on subject 74- Report no. 14
-<<[>>old<<]>>Il soggetto 74 è ora da considerarsi stabile e quindi un successo. Nonostante l’alterazione di personalità presentatasi durante gli esperimenti, pare sia comunque utilizzabile. Verrà impiegato sul campo da un Colonnello, e identificato come ''Scovile X''.
+<<[>>old<<]>>Il soggetto 74 è ora da considerarsi stabile e quindi un successo. Nonostante l'alterazione di personalità presentatasi durante gli esperimenti, pare sia comunque utilizzabile. Verrà impiegato sul campo da un Colonnello, e identificato come ''Scovile X''.
 <<[>>old<<]>>The subject 74 is now to be considered stable and as such, a success. Despite the alteration in personality displayed through the experiments, it looks like it will still be usable. It will be assigned to field operations with a Colonel, and called ''Scovile X''.
 <<[>>old<<]>>Hai trovato una pagina di diario! \wtnp[30]
 <<[>>old<<]>>You found a diary page! \wtnp[30]
@@ -23417,7 +23419,7 @@ No
 No
 <<[>>old<<]>>-Risultati delle ricerche sul soggetto 155- Rapporto no. 1
 <<[>>old<<]>>-Research results on subject 155- Report no. 1
-<<[>>old<<]>>Nonostante i precedenti successi grazie alle scoperte fatte con il soggetto 74, sembra che gli pseudo-leggendari abbiano una qualche sorta di resistenza alla mutazione genetica indotta dall’Energia X. Proveremo ad effettuare l’esperimento su uno pseudo-leggendario non di tipo Drago. Il soggetto di riferimento è il 155.
+<<[>>old<<]>>Nonostante i precedenti successi grazie alle scoperte fatte con il soggetto 74, sembra che gli pseudo-leggendari abbiano una qualche sorta di resistenza alla mutazione genetica indotta dall'Energia X. Proveremo ad effettuare l'esperimento su uno pseudo-leggendario non di tipo Drago. Il soggetto di riferimento è il 155.
 <<[>>old<<]>>Despite the previous success thanks to the findings made with subject 74, it looks like pseudo-legendaries have some kind of resistance to genetic mutation when caused by X Energy. We'll try to perform the experiment on a non-Dragon type pseudo-legendary. The reference subject is 155.
 <<[>>old<<]>>-Risultati delle ricerche sul soggetto 155- Rapporto no. 4
 <<[>>old<<]>>-Research results on subject 155- Report no. 4
@@ -23504,15 +23506,15 @@ Ahh... look who's here! The traitor,
 che dopo tutti i peccati che ha commesso, vuole anche rifarsi una vita!
 that after all the sins he's committed, wants to have a fresh start too!
 Cosa sei venuto a fare qui, maledetto? Sei qui per deridermi?
-What have you come here for, you wretch? Are you here to mock me?
+What have you come here for, you wretch? <<n>>Are you here to mock me?
 Non ti è bastato ridurmi in questo stato...?
-Non ti è bastato ridurmi in questo stato...?
+Wasn’t it enough, leaving me in shambles...?
 Victor, ma... cosa stai dicendo...
 Victor, but... what are you talking about...
 Sei completamente fuori di te!
 You're completely out of your mind!
 Ah, sarei fuori di me, adesso?
-Oh, so i'm out of my mind?
+Oh, so I'm out of my mind?
 Sto semplicemente iniziando ORA a reagire a tutte le ingiustizie che mi hai costretto a subire!
 I'm simply starting to react NOW to all the injustices you forced me to undergo!
 Nives... la mia amata Nives... lei sarebbe ancora qui tra noi se non fosse per il tuo stramaledetto ego!
@@ -23596,11 +23598,11 @@ Silence, human.
 Sono stato costretto ad incarnarmi in questa vile donna,
 I was obliged to incarnate in this vile woman,
 non intendo passare un secondo più del previsto in questa forma.
-and I don't mean to spend a second more in this form.
+and I don't mean to spend a one more second in this form.
 Sono qui, oggi, come consigliere.
 I'm here, today, as a counselor.
 Il mio suggerimento è quello di abbandonare le armi e arrendersi.
-My advice is to drop the weapon and surrender.
+My advice is to drop the weapons and surrender.
 Ciò che voi chiamate ''Furia'' non è una semplice forma di energia,
 What you call ''Fury'' is not simply a form of energy,
 in quanto la sua esistenza è più vicina ad un concetto.
@@ -23653,8 +23655,8 @@ mi pare che c'entrasse qualcosa anche l'utilizzo dell'Energia Furia...
 I think it was pertaining the use of the Fury Energy... 
 Colonnello, può ricordarmi cosa è successo?
 Colonel, might you remind me of what happened? 
-<<[>>old<<]>>Tamara...?
-<<[>>old<<]>>Dahlia...?
+<<[>>old<<]>>...Tamara?
+<<[>>old<<]>>...Dahlia?
 Tamara? Suvvia, non è il momento di fare scherzi...
 Dahlia? Come on, it's not time to joke... 
 Tamara...?
@@ -45415,7 +45417,7 @@ Un esemplare delle misteriose Megapietre. Data a Gyarados, gli permette di megae
 One variety of the mysterious Mega Stones. Have Gyarados hold it, and this stone will enable it to Mega Evolve during battle.
 537
 Un esemplare delle misteriose Megapietre. Data a Mawile, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Mawile, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Mawile hold it, and this stone will enable it to Mega Evolve during battle.
 538
 Un esemplare delle misteriose Megapietre. Data a Gengar, gli permette di megaevolversi durante la lotta.
 One variety of the mysterious Mega Stones. Have Gengar hold it, and this stone will enable it to Mega Evolve during battle.
@@ -61512,26 +61514,26 @@ You lost, but you still got some rewards.
 {1} obtained {3} Battle Points and {2}.
 ???: Ho deciso di tenere un diario per ricordare le numerose esperienze che farò! Proprio oggi mi sono unita al Team Dimension, e nonostante io sia solo una recluta, mi sento già legata alla causa! Spero di poter aiutare il più possibile.
 ???: I decided to keep a diary to remember the countless experiences I'll make! Just today I joined Team Dimension, and despite the fact that I'm just a recruit, I already feel connected to our cause! I hope I'll be able to help.
-???: C’è molto lavoro da fare qui! Sembra stiano progettando dei robot da utilizzare insieme alle altre reclute, per smaltire più in fretta il lavoro. Nel frattempo, sono stata promossa a Sergente! A quanto pare la mia motivazione ha fatto colpo sui ranghi alti e hanno deciso di promuovermi. Buon per me!
-???: There’s a lot of work to do here! It looks like they’re designing some robots to use together with the other recruits, to finish the work earlier. Meanwhile, I was promoted to Sergeant! It looks like my motivation impressed the upper echelons and they decided to promote me. Good for me!
+???: C'è molto lavoro da fare qui! Sembra stiano progettando dei robot da utilizzare insieme alle altre reclute, per smaltire più in fretta il lavoro. Nel frattempo, sono stata promossa a Sergente! A quanto pare la mia motivazione ha fatto colpo sui ranghi alti e hanno deciso di promuovermi. Buon per me!
+???: There's a lot of work to do here! It looks like they're designing some robots to use together with the other recruits, to finish the work earlier. Meanwhile, I was promoted to Sergeant! It looks like my motivation impressed the upper echelons and they decided to promote me. Good for me!
 ???: Ormai è passato tantissimo tempo da quando mi sono unita al Team Dimension. Sono stata addirittura promossa a Colonnello! Durante la promozione ho conosciuto il Generale, che uomo affascinante! Credo di essermi innamorata! Mi è stata assegnata una missione riguardante la cattura di una specie X nel Canyon Asteroide. Spero di non dover fargli del male, ma se fosse necessario...
-???: A lot of time has passed since i joined Team Dimension. I even got promoted to Colonel! During the promotion I met the General, what a charming man! I think I fell in love! I was assigned a mission regarding an X Species in the Sunflare Canyon. I hope I won’t need to hurt it, but if it was needed...
-???: Anche se ho fallito nell’ultima missione, il Generale ha chiesto nuovamente di me! Questa volta sono stata incaricata di rubare un treno, e farò in modo che la missione abbia successo! Spero solo che non torni quella spina nel fianco...
-???: Even though I failed in my last mission, the General asked for me again! This time I was asked to steal a train, and I’ll make sure the mission will succeed! I just hope that that thorn in my side won’t come again...
+???: A lot of time has passed since I joined Team Dimension. I even got promoted to Colonel! During the promotion I met the General, what a charming man! I think I fell in love! I was assigned a mission regarding an X Species in the Sunflare Canyon. I hope I won't need to hurt it, but if it was needed...
+???: Anche se ho fallito nell'ultima missione, il Generale ha chiesto nuovamente di me! Questa volta sono stata incaricata di rubare un treno, e farò in modo che la missione abbia successo! Spero solo che non torni quella spina nel fianco...
+???: Even though I failed in my last mission, the General asked for me again! This time I was asked to steal a train, and I'll make sure the mission will succeed! I just hope that that thorn in my side won't come again...
 ???: Alla fine la missione sul treno è andata a buon fine, ma non grazie a me... ho perso contro quella sottospecie di Trubbish... Il Generale ha preso le redini della situazione e ha portato a termine la missione senza problemi. È proprio magnifico! Devo migliorare per poter essere alla sua altezza, non posso assolutamente deluderlo!
-???: In the end the mission on the train was a success, but not thanks to me... I lost against that Trubbish... The General took the reins of the situations and handled the mission without an hitch. He really is magnificent! I need to improve myself to be at least on his level, I absolutely can’t let him down!
+???: In the end the mission on the train was a success, but not thanks to me... I lost against that Trubbish... The General took the reins of the situations and handled the mission without an hitch. He really is magnificent! I need to improve myself to be at least on his level, I absolutely can't let him down!
 ???: A quanto pare stiamo per partire per la luna, sono davvero nervosa... Io e il mio Scovile X ci siamo allenati per essere ancora più forti! Il Generale dice che lo scontro finale si avvicina, e quindi dobbiamo prepararci al meglio! Mi assicurerò di essergli utile questa volta!
-???: It looks like we’re about to leave for the moon, I’m really nervous... My Scovile X and I have trained to be even stronger! The General said that the final fight is coming, and so we need to prepare the best we can! I’ll make sure I can be of help this time!
-???: Dopo intere settimane che vagavamo senza meta il mio Generale decise all’improvviso di ricominciare con le ricerche. Parlava di come fosse possibile interagire con altre dimensioni usando un certo tipo di Energia. Io ero così emozionata! Finalmente vedevo tornare nel mio adorato un po’ di forze, che non ero più nella pelle!
+???: It looks like we're about to leave for the moon, I'm really nervous... My Scovile X and I have trained to be even stronger! The General said that the final fight is coming, and so we need to prepare the best we can! I'll make sure I can be of help this time!
+???: Dopo intere settimane che vagavamo senza meta il mio Generale decise all'improvviso di ricominciare con le ricerche. Parlava di come fosse possibile interagire con altre dimensioni usando un certo tipo di Energia. Io ero così emozionata! Finalmente vedevo tornare nel mio adorato un po' di forze, che non ero più nella pelle!
 ???: After weeks that we were journeying without a destination, my General suddenly decided to start researching again. He spoke about how it was possible to interact with other dimensions using some kind of Energy. I was so excited! Finally I was seeing my beloved gaining back some strength, I was so happy!
 ???: Ero contenta di sentire il mio Generale pieno di energie, ma ormai non fa altro che parlare di una certa Nives... Pare fosse una ricercatrice del Team Dimension, quando erano ancora in corso gli esperimenti sullo Xenoverse. Adesso ci stiamo dirigendo verso un nascondiglio situato nel Canyon Asteroide. E io sento un senso di oppressione al petto.
-???: I was happy, hearing my General so full of energy, but now he just keeps talking about a certain Nives... Looks like she was a researcher of the Team Dimension, when the experiments on the Xenoverse were still being made. Now we’re heading to an hideout in the Sundlare Canyon. And I feel a sense of oppression in my chest.
+???: I was happy, hearing my General so full of energy, but now he just keeps talking about a certain Nives... Looks like she was a researcher of the Team Dimension, when the experiments on the Xenoverse were still being made. Now we're heading to an hideout in the Sundlare Canyon. And I feel a sense of oppression in my chest.
 ???: Ero certa che il Generale volesse venire qui per nascondersi, invece pare che in questo posto ci siano i macchinari di cui ha bisogno per le sue ricerche! È così pieno di energie ultimamente! Voglio supportarlo con tutta me stessa. Diventerò la sua Tamara! Peccato che lui continui a parlare di questa Nives. Il senso di oppressione si fa peggiore.
-???: I was sure that my General was coming here to hide, but instead it looks like in this place are the machines he needs for his research! He’s so full of energy lately! I want to support him with all of myself. I’ll be his Dahlia! It’s just a pity that he keeps talking about this Nives. The feeling of oppression is stronger.
+???: I was sure that my General was coming here to hide, but instead it looks like in this place are the machines he needs for his research! He's so full of energy lately! I want to support him with all of myself. I'll be his Dahlia! It's just a pity that he keeps talking about this Nives. The feeling of oppression is stronger.
 ???: Sembra che le ricerche non stiano portando ai risultati sperati. Il mio adorato ora sembra disperato, come se dovesse riuscire a tutti i costi. Quando gli ho detto di riposare, mi ha spinta via e mi ha detto di sparire, visto che sono inutile. Mi fa male il petto.
-???: Looks like the research is not having the desired results. My adored now is desperate, as if he has to success at any cost. When I said he should rest, he pushed me away and said I should go away, since I’m useless. My chest hurts.
+???: Looks like the research is not having the desired results. My adored now is desperate, as if he has to success at any cost. When I said he should rest, he pushed me away and said I should go away, since I'm useless. My chest hurts.
 ???: Ho scoperto che questo posto in realtà è dove il mio Generale e quella Nives si sono conosciuti. Perchè continua a parlare di lei? Perchè continuo ad essere ignorata? Mio Generale… quella è già morta da un pezzo! Io invece posso ancora renderla felice... La prego, non mi ignori... Il dolore al petto è insopportabile...
-???: I discovered that in reality this place is where my General and that Nives met. Why does he keep talking about her? Why does he keep ignoring me? My General... She died a long time ago! I can still make you happy... Please, don’t ignore me... The pain in my chest is unbearable...
+???: I discovered that in reality this place is where my General and that Nives met. Why does he keep talking about her? Why does he keep ignoring me? My General... She died a long time ago! I can still make you happy... Please, don't ignore me... The pain in my chest is unbearable...
 Pagine Raccolte: {1}
 Collected Pages: {1}
 Pagine Totali: {1}

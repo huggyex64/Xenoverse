@@ -677,7 +677,7 @@ class Interpreter   # Used by RMXP
     echoln("Checking for " + message)
     if $PokemonSystem.language != 0 #0 italian, 1 english
       begin
-        message=MessageTypes.getFromMapHash($game_map.map_id,message.gsub(/\n/,' '))#MessageTypes.getFromMapHash(0,message)
+        message=MessageTypes.getFromMapHash($game_map.map_id,message.gsub(/\n/,' ').gsub(/’/,"'"))#MessageTypes.getFromMapHash(0,message)
         message = message.gsub(/] /,"]\n")
         echoln("Translation found " + message)
       rescue

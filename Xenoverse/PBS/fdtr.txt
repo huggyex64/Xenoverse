@@ -338,3 +338,11 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 È in grado di produrre scariche elettriche fino a 15.000 volt. Tende a sottovalutare qualunque nemico si trovi davanti.
 Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(MegaEvoluzione)\n Le due bocche si agitano furiosamente come se avessero volontà propria. Possono sbriciolare una roccia con un solo morso.
+(MegaEvolution)\n Its two sets of jaws thrash about violently as if they each had a will of their own. One gnash from them can turn a boulder to dust.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(MegaEvoluzione)\n L’indole pacifica di questo Pokémon lo porta a detestare questa sua forma, che è perfetta per la lotta.
+(MegaEvolution)\n Normally, it dislikes fighting, so it really hates changing to this form for battles.
