@@ -1930,7 +1930,9 @@ class PWT
       @transition["rightbg"].update
     end      
   
-    Kernel.pbMessage(_INTL("Sulla destra! {1}, {2}!", trainerTypeName(opponent[1]), opponent[2]))
+    oppname = pbGetMessageFromHash(MessageTypes::TrainerNames,opponent[2])
+
+    Kernel.pbMessage(_INTL("Sulla destra! {1}, {2}!", trainerTypeName(opponent[1]), oppname))
   
     @transition["left"].move(0,0,20,:ease_in_cubic)
     @transition["leftbg"].move(0,0,20,:ease_in_cubic)
