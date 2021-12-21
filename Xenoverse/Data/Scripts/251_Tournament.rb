@@ -1069,7 +1069,7 @@ end
 
 def pbMTShopList()
   mts=[]
-  for i in 1..100
+  for i in 1..95
     
     mt = "TM#{"%02d" % i}".to_sym
     #echoln "#{mt} #{getConst(PBItems,mt)}"
