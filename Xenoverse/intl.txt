@@ -23780,7 +23780,7 @@ Please, come this way. The plane is ready to roll!
 Certo, non si preoccupi. Si prenda il tempo che le serve e torni qui quando vorrà partire.
 Of course, don't worry. Take as much time as you need<<n>>and come back when you want to leave.
 ''Da un grande potere derivano grandi responsabilità''. È stato il mio talento, ed è stata la mia maledizione.
-''With great power comes great reponsibility. It was my talent, and it was my curse.
+''With great power comes great reponsibility''. It was my talent, and it was my curse.
 Finalmente ho avuto il tempo di esplorare questa suggestiva Isola. Ti piacerà sicuramente!
 Finally I found the time to visit this suggestive Island. I'm sure you'll like it!
 [Map620]
@@ -24276,7 +24276,7 @@ I'm sorry, currently the next floor is unavailable. I'm sorry for the discomfort
 Io e il mio Charmeleon vogliamo visitare il <b>Sentiero Rosa</b>! Hanno detto che emigrano ogni mese un sacco di Pokémon mai visti.
 Me and my Charmeleon want to visit the <b>Pink Path</b>! Someone said that a lot of never seen Pokémon go there every month.
 Guarda che bello il mio Luxray!
-Look, my Luxray is beautyful!
+Look, my Luxray is beautiful!
 Questo è il Pokémon-Market del Paradiso Sakura!
 This is the Poké Mart in Sakura Paradise!
 Infermiera Joy
