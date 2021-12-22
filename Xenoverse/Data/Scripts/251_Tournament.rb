@@ -1372,7 +1372,7 @@ BAN_LIST=[:LUXFLON,:GENESECT,:MEW,:MEWTWOX,:LUGIA,:HOOH,:DEOXYS,
 REWARDPOOL=[:BOTTLECAP,:RARECANDY,:ADAMANTMINT,:BOLDMINT,:BRAVEMINT,:CALMMINT,:CAREFULMINT,:GENTLEMINT,
   :HASTYMINT,:IMPISHMINT,:JOLLYMINT,:LAXMINT,:LONELYMINT,:MILDMINT,:MODESTMINT,:NAIVEMINT,:NAUGHTYMINT,
   :QUIETMINT,:RASHMINT,:RELAXEDMINT,:SASSYMINT,:SERIOUSMINT,:TIMIDMINT]
-REWARDLOSINGPOOL=[:FULLHEAL,:FULLRESTORE,:POMEGBERRY,:KELPSBERRY,:QUALOTBERRY,:HONDEWBERRY,:GREPABARRY,:TOMATOBERRY]
+REWARDLOSINGPOOL=[:FULLHEAL,:FULLRESTORE,:POMEGBERRY,:KELPSYBERRY,:QUALOTBERRY,:HONDEWBERRY,:GREPABARRY,:TAMATOBERRY]
 
 TOURNAMENT_OPPONENT_EVENT_ID = 54
 TOURNAMENT_EVENT_ID = 56
@@ -2596,7 +2596,7 @@ class PWT
     #end
     #Kernel.pbMessage(_INTL("They were the winners from the last round!")) {tGraphicsUpdate()}
     
-    Kernel.pbMessage(_INTL("Now, time to go on with the next one!")) {tGraphicsUpdate()}
+    Kernel.pbMessage(_INTL("Ora, è il momento di passare alla prossima!")) {tGraphicsUpdate()}
     #self.enterParticipants
     #Kernel.pbMessage(_INTL("Contestant N°{1}, {2}! Contestant N°{3}, {4}! Time to show what's your value!",@trainerIndex+1,$Trainer.name,@oppIndex+1,pool[@oppIndex][2])) {tGraphicsUpdate()}
   end
@@ -2806,7 +2806,7 @@ class PWT
     ret = false
     return "notEligible" if !self.partyEligible?
     length = [3,4,6,1][@battle_type]
-    Kernel.pbMessage(_INTL("Please choose the Pokemon you would like to participate."))
+    Kernel.pbMessage(_INTL("Per favore, scegli i Pokémon che vuoi far partecipare."))#Please choose the Pokemon you would like to participate.
     banlist = BAN_LIST
     banlist = BAN_LIST[@tournament_type] if BAN_LIST.is_a?(Hash)
     ruleset = PokemonRuleSet.new
