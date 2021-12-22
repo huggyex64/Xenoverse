@@ -38,7 +38,7 @@ end
 
 
 def pbCallTitle #:nodoc:
-  $DEBUG=true
+  $DEBUG=false
   if $MKXP
     System.set_window_title("Xenoverse - Per Aspera Ad Astra")
   end
