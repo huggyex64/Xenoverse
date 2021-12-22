@@ -388,7 +388,7 @@ title = Furia Bestiale
 description = Sconfiggi i Tre Cani Leggendari.
 amount = 1
 image = 78_bestie
-[Passione]
+[PassioneOscura]
 title = Passione Oscura
 description = Sconfiggi Tamara Furia.
 amount = 1
