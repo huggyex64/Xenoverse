@@ -309,7 +309,15 @@ class Sprite_Character
   alias ow_shadow_visible visible=
   def visible=(value)
     ow_shadow_visible(value)
-    @shadow.visible = value if @shadow
+    bushdepth = @character.bush_depth
+    
+    if @shadow
+      @shadow.visible = value && (bushdepth == 0)
+      #echoln "#{bushdepth} #{@shadow.visible}" if @character == $game_player
+      if !self.visible || (@is_follower || @character == $game_player) && ($PokemonGlobal.surfing || $PokemonGlobal.diving)
+        @shadow.visible = false
+      end
+    end
   end
 
   alias ow_shadow_dispose dispose
@@ -345,11 +353,12 @@ class Sprite_Character
     @old_page = (@character.is_a?(Game_Event) ? pbGetActiveEventPage(@character) : nil)
     
     bushdepth = @character.bush_depth
+    
     if @shadow
       @shadow.opacity = self.opacity / 5
       @shadow.visible = (bushdepth == 0)
-      if !self.visible || (@is_follower || @character == $game_player) &&
-         ($PokemonGlobal.surfing || $PokemonGlobal.diving)
+      #echoln "#{bushdepth} #{@shadow.visible}" if @character == $game_player
+      if !self.visible || (@is_follower || @character == $game_player) && ($PokemonGlobal.surfing || $PokemonGlobal.diving)
         @shadow.visible = false
       end
     end
