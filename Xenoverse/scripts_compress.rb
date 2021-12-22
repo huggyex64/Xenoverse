@@ -88,11 +88,12 @@ module Scripts
       file = File.new(rxdata,File::CREAT|File::RDWR)
       file.write("NewScriptFile")
       file.close
-    end
-    scripts = File.open(rxdata, 'rb') { |f| Marshal.load(f) }
-    if scripts.length > 10
-      p "Scripts.rxdata already has a bunch of scripts in it. Won't consolidate script files."
-      return
+    else
+      scripts = File.open(rxdata, 'rb') { |f| Marshal.load(f) }
+      if scripts.length > 10
+        p "Scripts.rxdata already has a bunch of scripts in it. Won't consolidate script files."
+        return
+      end
     end
 
     scripts = []
