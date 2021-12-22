@@ -325,7 +325,7 @@ def pbBattleOnStepTaken
 				if !list.nil? && list.length>0
 					
 					Log.i("INFO","SPECIAL ENCOUNTER LIST HAD")
-					if rand(100)<50
+					#if rand(100)<50
 						Log.i("INFO","SPECIAL ENCOUNTER POOL TRIGGERED")
 						total = 0
 						chances = []
@@ -368,7 +368,7 @@ def pbBattleOnStepTaken
 							pbWildPokemonBattle(poke)
 							return true
 						end
-					end
+					#end
 				end
 			end
 
