@@ -48413,6 +48413,27 @@ Evan
 234
 (Campione)
 (Lumen)
+238
+(Colonnello Dimension)
+(Dimension Colonel)
+248
+(Capopalestra)
+(Gym Leader)
+249
+(Capopalestra)
+(Gym Leader)
+250
+(Birbante)
+(Naughty Boy)
+251
+(S.P.E.T.T.R.I.)
+(G.E.I.S.T.)
+252
+(Capopalestra)
+(Gym Leader)
+253
+(Bullo)
+(Youngster)
 [13]
 Aria
 Skyler
