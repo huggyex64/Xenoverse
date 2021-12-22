@@ -189,50 +189,50 @@ def pbEncounter(enctype)
 		if !list.nil? && list.length>0
 			
 			Log.i("INFO","SPECIAL ENCOUNTER LIST HAD")
-			if rand(100)<50
-				Log.i("INFO","SPECIAL ENCOUNTER POOL TRIGGERED")
-				total = 0
-				chances = []
-				#getting only the valid encounters
-				pool = []
-				list.each do |e|
-					if e[:daymod]==0
-						pool.push(e)
-					elsif e[:daymod]==1 && PBDayNight.isDay?(pbGetTimeNow())
-						pool.push(e)
-					elsif e[:daymod]==2 && PBDayNight.isNight?(pbGetTimeNow())
-						pool.push(e)
-					end
-				end
-
-
-				pool.each do |enc| 
-					chances.push(enc[:chance])
-					total+=enc[:chance]
-				end
-				rnd = 0
-				r=rand(total)
-				rnd=r if rnd<r
-
-				chosen = 0
-				chance = 0
-				for i in 0...chances.length
-					chance+=chances[i]
-					if rnd<chance
-						chosen=i
-						break
-					end
-				end
-
-				encountered = pool[chosen]
-				if encountered != nil
-					level=encountered[:minlevel]+rand(1+encountered[:maxlevel]-encountered[:minlevel])
-					poke = pbGenerateWildPokemon(encountered[:species],level)
-					poke.forcedForm = encountered[:form]
-					pbWildPokemonBattle(poke)
-					return true
+			#if rand(100)<50
+			Log.i("INFO","SPECIAL ENCOUNTER POOL TRIGGERED")
+			total = 0
+			chances = []
+			#getting only the valid encounters
+			pool = []
+			list.each do |e|
+				if e[:daymod]==0
+					pool.push(e)
+				elsif e[:daymod]==1 && PBDayNight.isDay?(pbGetTimeNow())
+					pool.push(e)
+				elsif e[:daymod]==2 && PBDayNight.isNight?(pbGetTimeNow())
+					pool.push(e)
 				end
 			end
+
+
+			pool.each do |enc| 
+				chances.push(enc[:chance])
+				total+=enc[:chance]
+			end
+			rnd = 0
+			r=rand(total)
+			rnd=r if rnd<r
+
+			chosen = 0
+			chance = 0
+			for i in 0...chances.length
+				chance+=chances[i]
+				if rnd<chance
+					chosen=i
+					break
+				end
+			end
+
+			encountered = pool[chosen]
+			if encountered != nil
+				level=encountered[:minlevel]+rand(1+encountered[:maxlevel]-encountered[:minlevel])
+				poke = pbGenerateWildPokemon(encountered[:species],level)
+				poke.forcedForm = encountered[:form]
+				pbWildPokemonBattle(poke)
+				return true
+			end
+			#end
 		end
 	end
 

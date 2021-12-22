@@ -380,28 +380,28 @@ CUSTOMIV = {
   [PBTrainers::DANTETOURNAMENT,"Dante"]=>{
     :iv=>{
       :SKRAVROOM =>{
-        :hp => 31,
-        :attack => 31,
-        :defense => 31,
-        :spatk => 31,
-        :spdef => 31,
-        :speed => 31
+        :hp => 61,
+        :attack => 61,
+        :defense => 61,
+        :spatk => 61,
+        :spdef => 61,
+        :speed => 61
       },
       :HYDREIGON =>{
-        :hp => 31,
+        :hp => 61,
         :attack => 0,
-        :defense => 31,
-        :spatk => 31,
-        :spdef => 31,
-        :speed => 31
+        :defense => 61,
+        :spatk => 61,
+        :spdef => 61,
+        :speed => 61
       },
       :SHIFTRY =>{
-        :hp => 31,
+        :hp => 61,
         :attack => 0,
-        :defense => 31,
-        :spatk => 31,
-        :spdef => 31,
-        :speed => 31
+        :defense => 61,
+        :spatk => 61,
+        :spdef => 61,
+        :speed => 61
       }
     },
     :ev=>{
@@ -933,15 +933,15 @@ BATTLE_POINT_PRICES = {
   PBItems::TIMIDMINT => 8,
 
   # 3 tornei 1 mega
-  PBItems::VENUSAURITE => 10,
-  PBItems::BLASTOISINITE => 10,
-  PBItems::CHARIZARDITET => 10,
-  PBItems::CHARIZARDITEX => 10,
-  PBItems::WEAVILITE => 10,
-  PBItems::SCEPTILITE => 10,
-  PBItems::AUDINITE => 10,
-  PBItems::BELLOSSOMITE => 10,
-  PBItems::SHIFTRYITE => 10,
+  PBItems::VENUSAURITE => 50,
+  PBItems::BLASTOISINITE => 50,
+  PBItems::CHARIZARDITET => 50,
+  PBItems::CHARIZARDITEX => 50,
+  PBItems::WEAVILITE => 50,
+  PBItems::SCEPTILITE => 50,
+  PBItems::AUDINITE => 50,
+  PBItems::BELLOSSOMITE => 50,
+  PBItems::SHIFTRYITE => 50,
 }
 #Tutors:
 #Tutor 1: :DRAGONENDURANCE,:VELVETSCALES,:ACIDRAIN,:TAILWIND,:OUTRAGE,:AIRCUTTER,:HURRICANE
@@ -989,7 +989,7 @@ def pbMoveTutor(movepool=[],name="") #remember to use max 7
 end
 
 def pbGetMegaShopList()
-  list = [:VENUSAURITE,:BLASTOISINITE,:CHARIZARDITET,:CHARIZARDITEX,:WEAVILITE]
+  list = [:VENUSAURITE,:BLASTOISINITE,:CHARIZARDITET,:CHARIZARDITEX,:WEAVILITE,:ABSOLITE,:MAWILITE]
   list.push(:SCEPTILITE) if $game_switches[1176]==true
   list.push(:BELLOSSOMITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::ERIKATOURNAMENT,"Erika"]]]==true
   list.push(:AUDINITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::LEOTOURNAMENT,"Leo"]]]==true
@@ -3071,13 +3071,9 @@ def pbt
   echoln newPool
 end
 
-def pbTrans(method)
-  pbTransferWithTransition(10,10,10,method)
-end
-
 def pbLeo
   $ISINTOURNAMENT = true
-  @opponent = LEOPOOL[0]
+  @opponent = DANTEPOOL[0]
   key = [@opponent[1],@opponent[2]]
   fbNewMugshot(VIPSPEECH[key][:name],VIPSPEECH[key][:mugshot],"default",:left)
   fbEnable(true)
@@ -3088,6 +3084,6 @@ def pbLeo
     i.level = 50
     i.calcStats
   end
-  pbTournamentBattle(LEOPOOL[0][1],LEOPOOL[0][2],LEOPOOL[0][3])
+  pbTournamentBattle(@opponent[1],@opponent[2],@opponent[3])
   $ISINTOURNAMENT = false
 end
