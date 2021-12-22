@@ -2337,26 +2337,26 @@ MultipleForms.register(:ABSOL,{
 # LUCARIO
 MultipleForms.register(:LUCARIO,{
 		"getMegaForm"=>proc{|pokemon|
-			next 1 if isConst?(pokemon.item,PBItems,:LUCARITE)
+			next 2 if isConst?(pokemon.item,PBItems,:LUCARITE) && pokemon.form == 0
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
 			next 0
 		},
 		"getMegaName"=>proc{|pokemon|
-			next _INTL("Mega Lucario") if pokemon.form==1
+			next _INTL("Mega Lucario") if pokemon.form==2
 			next
 		},
 		"getBaseStats"=>proc{|pokemon|
-			next [79,103,120,78,135,115] if pokemon.form==1
+			next [79,103,120,78,135,115] if pokemon.form==2
 			next
 		},
 		"ability"=>proc{|pokemon|
-			next getID(PBAbilities,:MEGALAUNCHER) if pokemon.form==1
+			next getID(PBAbilities,:MEGALAUNCHER) if pokemon.form==2
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 1011 if pokemon.form==1
+			next 1011 if pokemon.form==2
 			next
 		},
 		"onSetForm"=>proc{|pokemon,form|
