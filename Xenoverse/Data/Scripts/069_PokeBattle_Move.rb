@@ -1320,7 +1320,7 @@ class PokeBattle_Move
     end
 		if (opponent.hasWorkingAbility(:WATERCOMPACTION) && isConst?(type,PBTypes,:WATER))
 			
-			return pbIncreaseStatWithCause(PBStats::DEFENSE,1,opponent,PBAbilities.getName(opponent.ability))
+			return opponent.pbIncreaseStatWithCause(PBStats::DEFENSE,1,opponent,PBAbilities.getName(opponent.ability))
 			#if opponent.pbCanIncreaseStatStage?(PBStats::DEFENSE)
 			#	opponent.pbIncreaseStatBasic(PBStats::DEFENSE,1)
 			#	@battle.pbCommonAnimation("StatUp",opponent,nil)

@@ -523,12 +523,26 @@ class PokeBattle_Move_153 < PokeBattle_Move
 			@battle.pbDisplay(_INTL("But it failed!"))
 			return -1
 		end
-		pbShowAnimation(@id,attacker,nil,hitnum,alltargets,showanimation)
-		attacker.pbOpposingSide.effects[PBEffects::StickyWeb]=true
-		if !@battle.pbIsOpposing?(attacker.index)
-			@battle.pbDisplay(_INTL("A sticky web has been laid out beneath the opposing team's feet!"))
+		magicbounced = false
+		for i in 0...@battle.battlers.length
+			magicbounced = true if attacker.pbIsOpposing?(@battle.battlers[i].index) && @battle.battlers[i].hasWorkingAbility(:MAGICBOUNCE)
+		end
+		if magicbounced  #magic bounce
+			pbShowAnimation(@id,attacker,attacker,hitnum,alltargets,showanimation)
+			attacker.pbOpposingSide.effects[PBEffects::StickyWeb]=true
+			if !@battle.pbIsOpposing?(attacker.index)
+				@battle.pbDisplay(_INTL("A sticky web has been laid out beneath your team's feet!"))
+			else
+				@battle.pbDisplay(_INTL("A sticky web has been laid out beneath the opposing team's feet!"))
+			end
 		else
-			@battle.pbDisplay(_INTL("A sticky web has been laid out beneath your team's feet!"))
+			pbShowAnimation(@id,attacker,nil,hitnum,alltargets,showanimation)
+			attacker.pbOpposingSide.effects[PBEffects::StickyWeb]=true
+			if !@battle.pbIsOpposing?(attacker.index)
+				@battle.pbDisplay(_INTL("A sticky web has been laid out beneath the opposing team's feet!"))
+			else
+				@battle.pbDisplay(_INTL("A sticky web has been laid out beneath your team's feet!"))
+			end
 		end
 		return 0
 	end

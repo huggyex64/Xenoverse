@@ -1862,7 +1862,7 @@ class PWT
     @transition["leftStar"].sprite.opacity = 0
     
     @transition["left"]=EAMSprite.new(v)
-    @transition["left"].bitmap=pbBitmap("Graphics/Transitions/smSpecial153")
+    @transition["left"].bitmap=pbBitmap($Trainer.gender == 0 ? "Graphics/Transitions/smSpecial153" : "Graphics/Transitions/smSpecial154")
     @transition["left"].mask("Graphics/Pictures/STour/leftGradient", -40)
     @transition["left"].x=-512
   

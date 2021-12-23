@@ -3603,7 +3603,7 @@ class PokeBattle_Battle
 				PBDebug.log("[#{i.pbThis}'s Speed Boost triggered]")
 				if !i.pbTooHigh?(PBStats::SPEED)
 					
-					pbIncreaseStatWithCause(PBStats::SPEED,1,i,PBAbilities.getName(i.ability))
+					i.pbIncreaseStatWithCause(PBStats::SPEED,1,i,PBAbilities.getName(i.ability))
 					#i.pbIncreaseStatBasic(PBStats::SPEED,1)
 					#pbCommonAnimation("StatUp",i,nil)
 					#pbDisplay(_INTL("{1}'s Speed Boost raised its Speed!",i.pbThis))

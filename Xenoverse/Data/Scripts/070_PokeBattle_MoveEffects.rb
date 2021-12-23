@@ -6602,12 +6602,26 @@ class PokeBattle_Move_103 < PokeBattle_Move
 			@battle.pbDisplay(_INTL("But it failed!"))
 			return -1
 		end
-		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
-		attacker.pbOpposingSide.effects[PBEffects::Spikes]+=1
-		if !@battle.pbIsOpposing?(attacker.index)
-			@battle.pbDisplay(_INTL("Spikes were scattered all around the feet of the foe's team!"))
+		magicbounced = false
+		for i in 0...@battle.battlers.length
+			magicbounced = true if attacker.pbIsOpposing?(@battle.battlers[i].index) && @battle.battlers[i].hasWorkingAbility(:MAGICBOUNCE)
+		end
+		if magicbounced  #magic bounce
+			pbShowAnimation(@id,attacker,attacker,hitnum,alltargets,showanimation)
+			attacker.pbOpposingSide.effects[PBEffects::Spikes]+=1
+			if !@battle.pbIsOpposing?(attacker.index)
+				@battle.pbDisplay(_INTL("Spikes were scattered all around the feet of your team!"))
+			else
+				@battle.pbDisplay(_INTL("Spikes were scattered all around the feet of the foe's team!"))
+			end
 		else
-			@battle.pbDisplay(_INTL("Spikes were scattered all around the feet of your team!"))
+			pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+			attacker.pbOpposingSide.effects[PBEffects::Spikes]+=1
+			if !@battle.pbIsOpposing?(attacker.index)
+				@battle.pbDisplay(_INTL("Spikes were scattered all around the feet of the foe's team!"))
+			else
+				@battle.pbDisplay(_INTL("Spikes were scattered all around the feet of your team!"))
+			end
 		end
 		return 0
 	end
@@ -6624,12 +6638,26 @@ class PokeBattle_Move_104 < PokeBattle_Move
 			@battle.pbDisplay(_INTL("But it failed!"))
 			return -1
 		end
-		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
-		attacker.pbOpposingSide.effects[PBEffects::ToxicSpikes]+=1
-		if !@battle.pbIsOpposing?(attacker.index)
-			@battle.pbDisplay(_INTL("Poison spikes were scattered all around the foe's team's feet!"))
+		magicbounced = false
+		for i in 0...@battle.battlers.length
+			magicbounced = true if attacker.pbIsOpposing?(@battle.battlers[i].index) && @battle.battlers[i].hasWorkingAbility(:MAGICBOUNCE)
+		end
+		if magicbounced  #magic bounce
+			pbShowAnimation(@id,attacker,attacker,hitnum,alltargets,showanimation)
+			attacker.pbOwnSide.effects[PBEffects::ToxicSpikes]+=1
+			if !@battle.pbIsOpposing?(attacker.index)
+				@battle.pbDisplay(_INTL("Poison spikes were scattered all around your team's feet!"))
+			else
+				@battle.pbDisplay(_INTL("Poison spikes were scattered all around the foe's team's feet!"))
+			end
 		else
-			@battle.pbDisplay(_INTL("Poison spikes were scattered all around your team's feet!"))
+			pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+			attacker.pbOpposingSide.effects[PBEffects::ToxicSpikes]+=1
+			if !@battle.pbIsOpposing?(attacker.index)
+				@battle.pbDisplay(_INTL("Poison spikes were scattered all around the foe's team's feet!"))
+			else
+				@battle.pbDisplay(_INTL("Poison spikes were scattered all around your team's feet!"))
+			end
 		end
 		return 0
 	end
@@ -6646,12 +6674,26 @@ class PokeBattle_Move_105 < PokeBattle_Move
 			@battle.pbDisplay(_INTL("But it failed!"))
 			return -1
 		end
-		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
-		attacker.pbOpposingSide.effects[PBEffects::StealthRock]=true
-		if !@battle.pbIsOpposing?(attacker.index)
-			@battle.pbDisplay(_INTL("Pointed stones float in the air around your foe's team!"))
+		magicbounced = false
+		for i in 0...@battle.battlers.length
+			magicbounced = true if attacker.pbIsOpposing?(@battle.battlers[i].index) && @battle.battlers[i].hasWorkingAbility(:MAGICBOUNCE)
+		end
+		if magicbounced  #magic bounce
+			pbShowAnimation(@id,attacker,attacker,hitnum,alltargets,showanimation)
+			attacker.pbOpposingSide.effects[PBEffects::StealthRock]=true
+			if !@battle.pbIsOpposing?(attacker.index)
+				@battle.pbDisplay(_INTL("Pointed stones float in the air around your team!"))
+			else
+				@battle.pbDisplay(_INTL("Pointed stones float in the air around your foe's team!"))
+			end
 		else
-			@battle.pbDisplay(_INTL("Pointed stones float in the air around your team!"))
+			pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+			attacker.pbOpposingSide.effects[PBEffects::StealthRock]=true
+			if !@battle.pbIsOpposing?(attacker.index)
+				@battle.pbDisplay(_INTL("Pointed stones float in the air around your foe's team!"))
+			else
+				@battle.pbDisplay(_INTL("Pointed stones float in the air around your team!"))
+			end
 		end
 		return 0
 	end
