@@ -2638,8 +2638,15 @@ class PokeBattle_Battle
 ################################################################################
 # Get type effectiveness and approximate stats.
 ################################################################################
-  def pbTypeModifier(type,attacker,opponent)
+  def pbTypeModifier(type,attacker,opp)
     return 4 if type<0
+    opponent = opp
+    if opponent.is_a?(PokeBattle_Pokemon)
+      for i in 0...4
+        opponent = @battlers[i] if @battlers[i].pokemon == opp
+      end
+    end
+
     if opponent.respond_to?(:pbHasType=)
       return 4 if isConst?(type,PBTypes,:GROUND) && opponent.pbHasType?(:FLYING) &&
                   opponent.hasWorkingItem(:IRONBALL)
@@ -2647,7 +2654,7 @@ class PokeBattle_Battle
     atype=type
     otype1=opponent.type1
     otype2=opponent.type2
-    if isConst?(otype1,PBTypes,:FLYING) && opponent.effects[PBEffects::Roost]
+    if isConst?(otype1,PBTypes,:FLYING) && opponent.is_a?(PokeBattle_Battler) && opponent.effects[PBEffects::Roost]
       if isConst?(otype2,PBTypes,:FLYING)
         otype1=getConst(PBTypes,:NORMAL) || 0
       else
