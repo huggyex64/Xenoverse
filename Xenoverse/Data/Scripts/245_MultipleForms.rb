@@ -2412,15 +2412,15 @@ MultipleForms.register(:WEAVILE,{
 			next 0
 		},
 		"getMegaName"=>proc{|pokemon|
-			next _INTL("Mega Weavile") if pokemon.form==2
+			next _INTL("Mega Weavile") if pokemon.form==1
 			next
 		},
 		"getBaseStats"=>proc{|pokemon|
-			next [70,165,90,135,55,95] if pokemon.form==2
+			next [70,165,90,135,55,95] if pokemon.form==1
 			next
 		},
 		"ability"=>proc{|pokemon|
-			next getID(PBAbilities,:TECHNICIAN) if pokemon.form==2
+			next getID(PBAbilities,:TECHNICIAN) if pokemon.form==1
 			next
 		},
 		"onSetForm"=>proc{|pokemon,form|

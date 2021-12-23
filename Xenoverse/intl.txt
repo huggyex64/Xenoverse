@@ -50689,6 +50689,8 @@ Awentia
 Awentia
 Josh
 Liam
+Tamara
+Dahlia
 [14]
 I AM NEVER GOING TO LOSE !
 I AM NEVER GOING TO LOSE !
@@ -61525,6 +61527,8 @@ Per aver mostrato una performance incredibile...
 For showing an amazing performance...
 ...{1} riceve {2}!
 ...{1} obtains {2}!
+Tamara
+Dahlia
 Ci vediamo!
 See you next time!
 Mi dispiace per la tua sconfitta! Ma hai combattuto bene, sono certa che vincerai la prossima volta!

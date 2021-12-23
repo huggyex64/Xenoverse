@@ -2,6 +2,9 @@
 # Achievements Screen                                                         #
 # by AGSoldier                                                                #
 ###############################################################################
+$orderedAchievements=[]
+
+
 class Item < Sprite
 
   attr_accessor :name
@@ -172,13 +175,13 @@ class AchievementsScreen
       end
       value = 0 if i==7
       @sprites["item#{i}"].visible = (i<4 ? @index >= -value : @index < @amount - value) if i != 7 
-      if $achievements.values[@index + value] != nil && i != 7 || i==7
-        @sprites["item#{i}"].completed = $achievements.values[@index + value].completed
-        @sprites["item#{i}"].unlocked = $achievements.values[@index + value].locked ? false : !$achievements.values[@index + value].hidden
-        @sprites["item#{i}"].name = $achievements.values[@index].name if i==7
-        @sprites["item#{i}"].title = $achievements.values[@index + value].title
-        @sprites["item#{i}"].icon = $achievements.values[@index + value].image
-        @sprites["item#{i}"].description = $achievements.values[@index + value].description
+      if $achievements[$orderedAchievements[@index+value]] != nil && i != 7 || i==7#$achievements.values[@index + value] != nil && i != 7 || i==7
+        @sprites["item#{i}"].completed = $achievements[$orderedAchievements[@index+value]].completed
+        @sprites["item#{i}"].unlocked = $achievements[$orderedAchievements[@index+value]].locked ? false : !$achievements[$orderedAchievements[@index+value]].hidden
+        @sprites["item#{i}"].name = $achievements[$orderedAchievements[@index+value]].name if i==7
+        @sprites["item#{i}"].title = $achievements[$orderedAchievements[@index+value]].title
+        @sprites["item#{i}"].icon = $achievements[$orderedAchievements[@index+value]].image
+        @sprites["item#{i}"].description = $achievements[$orderedAchievements[@index+value]].description
       end
     end
   end

@@ -176,6 +176,7 @@ class Achievement
 				$achievements = {}
 			end
 			achievementsPBS = pbReadPBS("achievements")
+			$orderedAchievements=Array.new(achievementsPBS.values.length)
 			achievementsPBS.each do |key,value|
 				if !$achievements.has_key?(key)
 					$achievements[key] = Achievement.new(key)
@@ -189,6 +190,8 @@ class Achievement
 						when "description"
 							achieve.description = iValue
 						when "image"
+							id = iValue.scan(/\d+/)[0].to_i
+							$orderedAchievements[id] = key
 							achieve.image = "Graphics/Achievements/" + iValue + ".png"
 						when "amount"
 							achieve.amount = iValue.to_i || 1
@@ -267,12 +270,17 @@ class Achievement
 		
 		def createObjects(pbs,load=nil)
 			pbLoadAchievementTranslation
+			$orderedAchievements=Array.new(pbs.values.length)
 			pbs.each do |key,value|
 				$achievements[key] = Achievement.new(key)
 				value.each do |iKey,iValue|
 					achieve_echoln(iKey + " => " + iValue)
 						# Import value to the object
 						$achievements[key].assign(iKey,iValue)
+					if iKey=="image"	
+						id = iValue.scan(/\d+/)[0].to_i
+						$orderedAchievements[id] = key
+					end
 				end
 				if load != nil
 					load.each do |iKey,iValue|
@@ -281,6 +289,7 @@ class Achievement
 					end
 				end
 			end
+			$orderedAchievements.compact!
 		end
 		
 		

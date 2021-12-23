@@ -19934,7 +19934,7 @@ Pietrafiele
 791
 Lettera di Aster
 Lettera di Aster
-729 
+792
 Update Pinza
 Update Pinza
 [8]
@@ -37184,3 +37184,13 @@ Certainly. You want {1}.<<n>>That will be {2}BP. OK?
 Certamente. Vuoi {1}. Costerà {2}PL, OK?
 {1}, and you want {2}.<<n>>That will be {3}BP. OK?
 {1}, e ne vuoi {2}.<<n>>Costerà {3}PL. OK?
+Would you like to change {1}'s Ability to {2}?
+Vuoi cambiare l'abilità di {1} in {2}?
+{1}'s Ability changed to {2}!
+L'abilità di {1} è diventata {2}!
+Would you like to change {1}'s Ability?
+Vuoi cambiaare l'abilità di {1}?
+{1}'s Ability changed to its Hidden Ability!
+L'abilità di {1} è cambiata nella sua Abilità speciale!
+{1}'s Ability changed to its normal Ability!
+L'abilità di {1} è cambiata nella sua Abilità normale!

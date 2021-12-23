@@ -426,6 +426,57 @@ ItemHandlers::UseOnPokemon.add(:ULTRARARECANDY,proc{|item,pokemon,scene|
   end
 })
 
+
+ItemHandlers::UseOnPokemon.add(:ABILITYCAPSULE,proc{|item,pokemon,scene|
+  abils=pokemon.getAbilityList
+  abil1=0; abil2=0
+  for i in abils
+    abil1=i[0] if i[1]==0
+    abil2=i[0] if i[1]==1
+  end
+  if abil1<=0 || abil2<=0 || pokemon.hasHiddenAbility?
+    scene.pbDisplay(_INTL("It won't have any effect."))
+    next false
+  end
+  newabil=(pokemon.abilityIndex+1)%2
+  newabilname=PBAbilities.getName((newabil==0) ? abil1 : abil2)
+  if scene.pbConfirm(_INTL("Would you like to change {1}'s Ability to {2}?",
+    pokemon.name,newabilname))
+    pokemon.setAbility(newabil)
+    scene.pbRefresh
+    scene.pbDisplay(_INTL("{1}'s Ability changed to {2}!",pokemon.name,
+    PBAbilities.getName(pokemon.ability)))
+    next true
+  end
+  next false
+})
+
+ItemHandlers::UseOnPokemon.add(:ABILITYPATCH,proc{|item,pkmn,scene|
+  current_abil = pkmn.abilityIndex
+  normal_abil = pkmn.personalID&1
+  dexdata=pkmn.ability.pbOpenDexData
+  pkmn.ability.pbDexDataOffset(dexdata,pkmn.species,40)
+  hidden_abil=dexdata.fgetb
+  dexdata.close
+  if hidden_abil > 0 && current_abil<2
+    if scene.pbConfirm(_INTL("Would you like to change {1}'s Ability?",pkmn.name))
+      pkmn.setAbility(2)
+      scene.pbDisplay(_INTL("{1}'s Ability changed to its Hidden Ability!", pkmn.name))
+      next true
+    end
+  elsif hidden_abil > 0 && current_abil == 2
+    if scene.pbConfirm(_INTL("Would you like to change {1}'s Ability?",pkmn.name))
+      pkmn.setAbility(normal_abil)
+      scene.pbDisplay(_INTL("{1}'s Ability changed to its normal Ability!", pkmn.name))
+      next true
+    end
+  elsif hidden_abil == 0 ||  pkmn.species == 718
+    scene.pbDisplay(_INTL("It won't have any effect."))
+    next false
+  end
+  next false
+})
+
 # X GENE AND ESCAPEROPE +
 ItemHandlers::UseOnPokemon.add(:INDUCTIVERING,proc{|item,pokemon,scene|
   newspecies=pbCheckMakeX(pokemon)
