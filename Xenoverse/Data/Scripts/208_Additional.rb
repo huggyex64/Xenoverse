@@ -272,7 +272,7 @@ end
 #-------------------------------------------------------------------------------
 if defined?(SOFTRESETFIX) && SOFTRESETFIX
 unless $f12_fix.nil?
-  game_name = "Game"
+  game_name = defined?($MKXP) ? "Game_n" : "Game"
   if $DEBUG
     Thread.new{system(game_name+" debug")}
   else

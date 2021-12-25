@@ -18,7 +18,7 @@
 #  Global Settings
 #===============================================================================
 # fixes the issues caused by F12 soft-resetting
-SOFTRESETFIX = false
+SOFTRESETFIX = true
 #===============================================================================                           
 #  Ultimate Title Screen Resource (settings)
 #===============================================================================                           

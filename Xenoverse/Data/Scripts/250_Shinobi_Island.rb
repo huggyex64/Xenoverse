@@ -23,7 +23,7 @@ class PokeBattle_Trainer
     attr_accessor(:registeredItem)
 
     def inShinobiIsland?
-      return @inShinobiIsland
+      return @inShinobiIsland == true
     end
 
     def storePartyLevels
@@ -46,7 +46,9 @@ class PokeBattle_Trainer
       end
     end
 
+
     def enterShinobiIsland
+        return if self.inShinobiIsland?() == true #Needed for bug fix
         Kernel.pbMessage(_INTL("Devi scegliere 3 Pokémon da portare con te."))
 
         banlist = [PBSpecies::LUXFLON,PBSpecies::DIELEBI,PBSpecies::MEW,
@@ -93,7 +95,7 @@ class PokeBattle_Trainer
 
 
     def exitShinobiIsland
-
+        return if !inShinobiIsland?() 
         # Bring back acquired items
         tempBag = $PokemonBag
         $PokemonBag = PokemonBag.new#@realBag if @realBag != nil
@@ -162,6 +164,7 @@ class PokeBattle_Trainer
           $Trainer.party = tempPt + (@realParty-app)
         end
         
+        echoln "EXITING FROM SHINOBI ISLAND"
 
         @inShinobiIsland = false
 
