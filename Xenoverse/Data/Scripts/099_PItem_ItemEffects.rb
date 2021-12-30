@@ -200,7 +200,7 @@ ItemHandlers::UseOnPokemon.add(:ADAMANTMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:ADAMANT)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Adamant Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -210,7 +210,7 @@ ItemHandlers::UseOnPokemon.add(:BOLDMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:BOLD)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Bold Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -220,7 +220,7 @@ ItemHandlers::UseOnPokemon.add(:BRAVEMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:BRAVE)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Brave Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -230,7 +230,7 @@ ItemHandlers::UseOnPokemon.add(:CALMMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:CALM)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Calm Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -240,7 +240,7 @@ ItemHandlers::UseOnPokemon.add(:CAREFULMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:CAREFUL)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Careful Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -250,7 +250,7 @@ ItemHandlers::UseOnPokemon.add(:GENTLEMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:GENTLE)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Gentle Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -260,7 +260,7 @@ ItemHandlers::UseOnPokemon.add(:HASTYMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:HASTY)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Hasty Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -270,7 +270,7 @@ ItemHandlers::UseOnPokemon.add(:IMPISHMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:IMPISH)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Impish Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -280,7 +280,7 @@ ItemHandlers::UseOnPokemon.add(:JOLLYMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:JOLLY)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Jolly Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -290,7 +290,7 @@ ItemHandlers::UseOnPokemon.add(:LAXMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:LAX)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Lax Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -300,7 +300,7 @@ ItemHandlers::UseOnPokemon.add(:LONELYMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:LONELY)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Lonely Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -310,7 +310,7 @@ ItemHandlers::UseOnPokemon.add(:MILDMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:MILD)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Mild Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -320,7 +320,7 @@ ItemHandlers::UseOnPokemon.add(:MODESTMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:MODEST)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Modest Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -330,7 +330,7 @@ ItemHandlers::UseOnPokemon.add(:NAIVEMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:NAIVE)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Naive Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -340,17 +340,17 @@ ItemHandlers::UseOnPokemon.add(:NAUGHTYMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:NAUGHTY)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Naughty Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
-ItemHandlers::UseOnPokemon.add(:QUITEMINT,proc{|item,pokemon,scene|
-  if pokemon.nature==(:QUITE)
+ItemHandlers::UseOnPokemon.add(:QUIETMINT,proc{|item,pokemon,scene|
+  if pokemon.nature==(:QUIET)
     scene.pbDisplay(_INTL("It won't have any effect."))
   else
-    pokemon.setNature(:QUITE)
+    pokemon.setNature(:QUIET)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Quite Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -360,7 +360,7 @@ ItemHandlers::UseOnPokemon.add(:RASHMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:RASH)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the RASH Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -370,7 +370,7 @@ ItemHandlers::UseOnPokemon.add(:RELAXEDMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:RELAXED)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Relaxed Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -380,7 +380,7 @@ ItemHandlers::UseOnPokemon.add(:SASSYMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:SASSY)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Sassy Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -390,7 +390,7 @@ ItemHandlers::UseOnPokemon.add(:SERIOUSMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:SERIOUS)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Serious Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 
@@ -400,7 +400,7 @@ ItemHandlers::UseOnPokemon.add(:TIMIDMINT,proc{|item,pokemon,scene|
   else
     pokemon.setNature(:TIMID)
     pokemon.calcStats
-    scene.pbDisplay(_INTL("{1} ate the Timid Mint.",pokemon.name))
+    scene.pbDisplay(_INTL("{1} mangia la {2}.",pokemon.name,PBItems.getName(item)))
  end
 })
 

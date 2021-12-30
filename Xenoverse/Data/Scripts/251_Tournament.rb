@@ -961,7 +961,7 @@ def pbMoveTutor(movepool=[],name="") #remember to use max 7
   #Kernel.pbShowCommands(nil,movecmd,-1,0)
   rt = pbNewChoice(Fullbox_Option.createFromArray(movecmd),-1)
 
-  if rt>0
+  if rt>-1
     fbNewMugshot(name,"allenatori/karateka","default",:left)
     fbEnable(true)
     fbText("A quale Pokémon vuoi che insegni questa mossa?")
@@ -2859,6 +2859,7 @@ class PWT
       poke.level = 50
       poke.calcStats
       poke.heal
+      poke.item = @partyItems[poke] if @partyItems != nil && @partyItems.keys.include?(poke)
     end
   end
   
@@ -2866,9 +2867,11 @@ class PWT
   def backupParty
     @party_bak.clear
     @levels.clear
+    @partyItems = {}
     for poke in $Trainer.party
       @party_bak.push(poke)
       @levels.push(poke.level)
+      @partyItems[poke]=poke.item
     end
   end
   
@@ -2880,6 +2883,7 @@ class PWT
       poke.level = @levels[i]
       poke.calcStats
       poke.heal
+      poke.item = @partyItems[poke]
       $Trainer.party.push(poke)
     end
   end

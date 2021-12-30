@@ -586,7 +586,7 @@ end
 def pbSave(safesave=false)
   $Trainer.metaID=$PokemonGlobal.playerID
   if $Trainer.lastGameVersion == nil || $Trainer.lastGameVersion < GAME_VERSION
-    $Trainer.lastGameVersion = GAME_VERSION
+    $Trainer.lastGameVersion = GAME_VERSION unless $DEBUG == true
   end
   begin
     File.open(RTP.getSaveFileName("Game.rxdata"),"wb"){|f|

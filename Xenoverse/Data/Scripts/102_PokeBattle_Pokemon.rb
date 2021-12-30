@@ -218,7 +218,9 @@ class PokeBattle_Pokemon
 
 # Returns the ID of this Pokemon's ability.
   def ability
-    abil=abilityIndex
+    abil=abilityIndex()
+    
+=begin
     dexdata=pbOpenDexData
     pbDexDataOffset(dexdata,@species,29)
     ret1=dexdata.fgetb
@@ -247,6 +249,15 @@ class PokeBattle_Pokemon
       ret=ret2
       ret=ret1 if ret2==0
     end
+    echoln "ABILITY: #{ret} with index #{abil}"
+
+=end
+    abilities = getAbilityList()
+    ret = hasHiddenAbility?() ? abilities[-1][0] : abilities[0][0] #has standard ability unless an override is found
+    for i in abilities
+      ret = i[0] if abil == i[1]
+    end
+    echoln "ABILITY: #{ret} with index #{abil}"
     return ret
   end
 
@@ -262,7 +273,8 @@ class PokeBattle_Pokemon
   
 # Returns the list of abilities this Pokémon can have.
   def getAbilityList
-    abils=[]; ret=[[],[]]
+    abils=[]; #ret=[[],[]]
+    ret = []
     dexdata=pbOpenDexData
     pbDexDataOffset(dexdata,@species,29)
     abils.push(dexdata.fgetb)
@@ -275,7 +287,7 @@ class PokeBattle_Pokemon
     dexdata.close
     for i in 0...abils.length
       next if !abils[i] || abils[i]<=0
-      ret[0].push(abils[i]); ret[1].push(i)
+      ret.push([abils[i],i]);# ret[1].push(i)
     end
     return ret
   end

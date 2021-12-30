@@ -1127,7 +1127,7 @@ class PokemonScreen
 			#	end
 			#end
 			commands[cmdSwitch=commands.length]=_INTL("Ordina") if @party.length>1
-			if !pkmn.isEgg?
+			if !pkmn.isEgg? && !$ISINTOURNAMENT
 				if pkmn.mail
 					commands[cmdMail=commands.length]=_INTL("Mail")
 				else
@@ -1447,8 +1447,8 @@ class PokemonScreen
 					abils=pkmn.getAbilityList
 					oldabil=PBAbilities.getName(pkmn.ability)
 					commands=[]
-					for i in 0...abils[0].length
-						commands.push((abils[1][i]<2 ? "" : "(H) ")+PBAbilities.getName(abils[0][i]))
+					for i in 0...abils.length
+						commands.push((abils[i][1]<2 ? "" : "(H) ")+PBAbilities.getName(abils[i][0]))
 					end
 					commands.push(_INTL("Remove override"))
 					msg=[_INTL("Ability {1} is natural.",oldabil),

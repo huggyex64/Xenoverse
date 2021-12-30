@@ -338,7 +338,7 @@ class PokemonLoad
         end
       end
       if showContinue
-        if (trainer.lastGameVersion != nil && trainer.lastGameVersion>GAME_VERSION)
+        if (trainer.lastGameVersion != nil && trainer.lastGameVersion>GAME_VERSION) && !$DEBUG
           err="Stai provando a caricare un file di salvataggio da una versione più recente di quella installata. Siccome questo potrebbe generare bug, per favore assicurati di stare utilizzando l'ultima versione disponibile del gioco.
           
 You're trying to load a save file from a newer version of the game. As this may cause bugs, please make sure you're using the latest available version of the game."
@@ -391,7 +391,7 @@ You're trying to load a save file from a newer version of the game. As this may 
            $PokemonStorage      = Marshal.load(f)
 
            # Box size modification
-           if $PokemonStorage.maxBoxes != 120
+           if $PokemonStorage.is_a?(PokemonStorage) && $PokemonStorage.maxBoxes != 120
 						om = $PokemonStorage.maxBoxes
 						for i in 0...STORAGEBOXES
 							if i < om
@@ -412,6 +412,12 @@ You're trying to load a save file from a newer version of the game. As this may 
 								$PokemonStorage.boxes[i].background="box#{backid}"
 							end
 						end
+          else
+            #Corruption happened
+            $PokemonStorage = PokemonStorage.new
+            echoln $PokemonStorage.type
+            echoln $PokemonBag.type
+            echoln $PokemonGlobal.type
 					 end
 
            magicNumberMatches=false
@@ -488,6 +494,10 @@ You're trying to load a save file from a newer version of the game. As this may 
 					end
 =end
         }
+        
+        # Patch fixes
+        Patcher.apply
+        
         if !$game_map.events # Map wasn't set up
           $game_map=nil
           $scene=nil
@@ -503,6 +513,7 @@ You're trying to load a save file from a newer version of the game. As this may 
         $game_map.update
         $PokemonMap.updateMap
         $scene = Scene_Map.new
+        
         return
       elsif cmdNewGame>=0 && command==cmdNewGame
         @scene.pbEndScene

@@ -112,6 +112,7 @@ class PokeBattle_Pokemon
   
   def makeDelta
     @deltaflag=true
+    calcStats()
   end
 
   # provides a fix for forms crashing game
@@ -1572,6 +1573,7 @@ MultipleForms.register(:NINETALES,{
 "getAbilityList"=>proc{|pokemon|
   if pokemon.isDelta?
     next [[getID(PBAbilities,:SNOWCLOAK),0],
+          [getID(PBAbilities,:SNOWCLOAK),1],
           [getID(PBAbilities,:SNOWWARNING),2]]
   end
   next

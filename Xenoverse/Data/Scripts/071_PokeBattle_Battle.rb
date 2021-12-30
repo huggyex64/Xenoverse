@@ -1648,7 +1648,7 @@ class PokeBattle_Battle
 					@decision=2
 					return 1
 				end
-			elsif @internalbattle
+			elsif @internalbattle && !$ISINTOURNAMENT
 				pbDisplayPaused(_INTL("No!  There's no running from a Trainer battle!"))
 			elsif pbDisplayConfirm(_INTL("Would you like to forfeit the match and quit now?"))
 				pbDisplay(_INTL("{1} forfeited the match!",self.pbPlayer.name))
@@ -2660,7 +2660,7 @@ class PokeBattle_Battle
 									pbDisplay(_INTL("Items can't be used here."))
 								end
 							elsif $trainerbossbattle
-								pbDisplay(_INTL("The pressure prevents you from using items!"))
+								pbDisplay(_INTL("La forte pressione non ti permette di usare strumenti!"))
 							else
 								item=pbItemMenu(i, @battlers[1])
 								if pbIsPokeBall?(item[0]) && !@opponent

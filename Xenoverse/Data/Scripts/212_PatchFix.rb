@@ -105,3 +105,37 @@ end
 SWITCH_FIXED = {"1.0.1" => PatchFix.new(257, PatchFix.method("v101")),
 	"1.0.2" => PatchFix.new(258, PatchFix.method("v102")),
 	"1.0.3" => PatchFix.new(259, PatchFix.method("v103"))}
+
+PATCHFIXES = {
+	"1.3.11" => proc{
+		 #apply 1.3.11 patchfix
+		 Log.i("Patch Fix","Applying patch fixes for version 1.3.11")
+			for p in $Trainer.party
+				if (p != nil)
+					if p.species == PBSpecies::SHULONG
+						p.pbDeleteMove(PBMoves::SWORDSDANCE)
+					end
+					p.calcStats
+				end
+			end
+			for b in $PokemonStorage.boxes
+				for poke in b.pokemon
+					if poke != nil
+						poke.pbDeleteMove(PBMoves::SWORDSDANCE) if poke.species == PBSpecies::SHULONG
+						poke.calcStats
+					end
+				end
+			end
+		}
+}
+
+
+class Patcher 
+	def self.apply()
+		for key in PATCHFIXES.keys
+			if $Trainer.lastGameVersion < Version.new(key)
+				PATCHFIXES[key].call
+			end
+		end
+	end
+end

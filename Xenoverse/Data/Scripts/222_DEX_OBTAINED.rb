@@ -164,10 +164,12 @@ class DexObtained
 		#updating icon info
 		@sprites["icon"].bitmap = pbBitmap(Dex::PATH+"Icon/"+@species.to_s+last)
 		@sprites["type"].bitmap.clear if @sprites["type"].bitmap
-		
-		index = @refdex.index(@species)+1
-		
-    formInfos = pbLoadFormInfos
+		if @refdex.index(@species)!=nil
+			index = @refdex.index(@species)+1
+		else
+			index = -1
+		end
+   		formInfos = pbLoadFormInfos
     
 		monotype = false
 		dexdata = pbOpenDexData
@@ -217,7 +219,7 @@ class DexObtained
 		@sprites["overlay"].bitmap.font.size = Dex::TEXTFONTSIZE
 		@texts = []
 		@texts.push([PBSpecies.getName(@species),303,28,0,Dex::MAINCOLOR])
-		@texts.push([sprintf("%03d",index),268,28,true,Dex::MAINCOLOR])
+		@texts.push([index > -1 ? sprintf("%03d",index) : "???",268,28,true,Dex::MAINCOLOR])
 		pbDrawTextPositions(@sprites["overlay"].bitmap,@texts)
 		
 	end

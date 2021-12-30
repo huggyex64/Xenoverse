@@ -783,7 +783,7 @@ class PokemonBagScreen
 			# Generate command list
 			commands[cmdRead=commands.length]=_INTL("Read") if pbIsMail?(item)
 			commands[cmdUse=commands.length]=_INTL("Use") if ItemHandlers.hasOutHandler(item) || (pbIsMachine?(item) && $Trainer.party.length>0)
-			commands[cmdGive=commands.length]=_INTL("Give") if $Trainer.party.length>0 && !pbIsImportantItem?(item)
+			commands[cmdGive=commands.length]=_INTL("Give") if ($Trainer.party.length>0 && !pbIsImportantItem?(item)) && !$ISINTOURNAMENT
 			commands[cmdToss=commands.length]=_INTL("Toss") if (!pbIsImportantItem?(item) && !isConst?(item,PBItems,:ANELLOT) && !isConst?(item,PBItems,:ANELLOX)) || $DEBUG
 			if @bag.registeredItem==item
 				commands[cmdRegister=commands.length]=_INTL("Deselect")

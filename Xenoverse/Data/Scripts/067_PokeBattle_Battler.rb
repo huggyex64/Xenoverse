@@ -1351,14 +1351,14 @@ class PokeBattle_Battler
 					target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
 					target.item=0
 					
-					target.pbIncreaseStatWithCause(PBStats::ATTACK,2,target,PBAbilities.getName(target.ability))
+					target.pbIncreaseStatWithCause(PBStats::ATTACK,2,target,PBItems.getName(target.item))
 					#if target.pbCanIncreaseStatStage?(PBStats::ATTACK,false,false)
 					#	target.pbIncreaseStatBasic(PBStats::ATTACK,2)
 					#	@battle.pbCommonAnimation("StatUp",target,nil)
 					#	@battle.pbDisplay(_INTL("The {1} sharply raised {2}'s Attack!",
 					#	PBItems.getName(target.pokemon.itemRecycle), target.pbThis))
 					#end
-					target.pbIncreaseStatWithCause(PBStats::SPATK,2,target,PBAbilities.getName(target.ability))
+					target.pbIncreaseStatWithCause(PBStats::SPATK,2,target,PBItems.getName(target.item))
 					#if target.pbCanIncreaseStatStage?(PBStats::SPATK,false,false)
 					#	target.pbIncreaseStatBasic(PBStats::SPATK,2)
 					#	@battle.pbCommonAnimation("StatUp",target,nil)

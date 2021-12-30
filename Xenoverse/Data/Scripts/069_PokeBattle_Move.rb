@@ -1067,12 +1067,16 @@ class PokeBattle_Move
 			finaldamagemult=(finaldamagemult*0.75).round
 		end
 		if attacker.hasWorkingItem(:METRONOME)
-			if attacker.effects[PBEffects::Metronome]>4
+			if attacker.lastMoveUsed != thismove.id
+				attacker.effects[PBEffects::Metronome]=0
+			end
+			if attacker.effects[PBEffects::Metronome]>=6
 				finaldamagemult=(finaldamagemult*2.0).round
 			else
 				met=1.0+attacker.effects[PBEffects::Metronome]*0.2
 				finaldamagemult=(finaldamagemult*met).round
 			end
+			attacker.effects[PBEffects::Metronome]+=1 if attacker.lastMoveUsed == thismove.id
 		end
 		if attacker.hasWorkingItem(:EXPERTBELT) &&
 			opponent.damagestate.typemod>8

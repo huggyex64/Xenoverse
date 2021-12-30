@@ -3426,7 +3426,7 @@ class PokeBattle_Battle
     end
     # Final damage-altering items
     if attacker.hasWorkingItem(:METRONOME)
-      if attacker.effects[PBEffects::Metronome]>4
+      if attacker.effects[PBEffects::Metronome]>=6
         damage=(damage*2.0).round
       else
         met=1.0+attacker.effects[PBEffects::Metronome]*0.2
