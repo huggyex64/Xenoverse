@@ -413,11 +413,7 @@ You're trying to load a save file from a newer version of the game. As this may 
 							end
 						end
           else
-            #Corruption happened
-            $PokemonStorage = PokemonStorage.new
-            echoln $PokemonStorage.type
-            echoln $PokemonBag.type
-            echoln $PokemonGlobal.type
+            
 					 end
 
            magicNumberMatches=false
