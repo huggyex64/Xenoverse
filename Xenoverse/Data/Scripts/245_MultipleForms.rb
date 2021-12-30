@@ -972,7 +972,7 @@ MultipleForms.register(:TRISHOUT,{
 			next if pokemon.form==0 || pokemon.form == 4
 			next [88,105,55,78,80,44] if pokemon.form==1  # Terrestre
 			next [118,125,65,83,100,59] if pokemon.form==2  # Xenoverse
-			next [143,160,90,63,150,94] if pokemon.form == 3 #Astro
+			next [143,150,90,93,130,94] if pokemon.form == 3 #Astro
 		},
 		"getForm"=>proc{|pokemon|
 			if $game_switches[AUTOASTRO_SWITCH]==false
@@ -1043,7 +1043,7 @@ MultipleForms.register(:SHYLEON,{
 			next if pokemon.form == 0
 			next [88,49,63,104,78,68] if pokemon.form == 1						# Terrestre
 			next [118,54,73,124,108,74] if pokemon.form == 2					# Xenoverse
-			next [143,104,78,154,143,78] if pokemon.form == 3          # Astro
+			next [143,74,98,154,133,98] if pokemon.form == 3          # Astro
 		},
 		"getForm"=>proc{|pokemon|
 			if $game_switches[AUTOASTRO_SWITCH]==false
@@ -1071,17 +1071,17 @@ MultipleForms.register(:SHYLEON,{
 			when 1; movelist=[[1,:TEETERDANCE],[1,:PSYCHUP],[1,:LUNARDANCE],[1,:ABSORB],
 					[1,:POUND],[8,:DISARMINGVOICE],[13,:GROWTH],[17,:CAMOUFLAGE],
 					[21,:LEAFTORNADO],[25,:MAGICALLEAF],[28,:AGILITY],[32,:GIGADRAIN],
-					[36,:DAZZLINGGLEAM],[40,:SYNTHESIS],[45,:MOONBLAST],[51,:LUNARDANCE],
+					[36,:DAZZLINGGLEAM],[40,:SYNTHESIS],[45,:MOONBLAST],[48,:EARTHPOWER],[51,:LUNARDANCE],
 					[56,:GRASSWHISTLE],[61,:LEAFSTORM]]
 				# Forma Xenoverse
 			when 2; movelist=[[1,:FERALCLUTCH],[1,:DAZZLINGGLEAM],[1,:HISS],[1,:EXTRASENSORY],
 					[1,:ABSORB],[1,:POUND],[8,:DISARMINGVOICE],[13,:GROWTH],[17,:CAMOUFLAGE],
 					[21,:LEAFTORNADO],[25,:MAGICALLEAF],[28,:AGILITY],[32,:GIGADRAIN],
-					[36,:FERALCLUTCH],[40,:SYNTHESIS],[45,:MOONBLAST],[51,:EXTRASENSORY],
+					[36,:FERALCLUTCH],[40,:SYNTHESIS],[45,:MOONBLAST],[48,:EARTHPOWER],[51,:EXTRASENSORY],
 					[56,:GRASSWHISTLE],[61,:LEAFSTORM]]
 			when 3; movelist = [[1,:POUND],[1,:LEER],[6,:DISARMINGVOICE],[8,:ABSORB],
 					[10,:GROWTH],[12,:DRAININGKISS],[16,:AGILITY],[20,:PURSUIT],
-					[25,:CURSE],[30,:GIGADRAIN],[36,:TAKEDOWN],[41,:DETECT],[51,:WORRYSEED],
+					[25,:CURSE],[30,:GIGADRAIN],[36,:TAKEDOWN],[41,:DETECT],[48,:EARTHPOWER],[51,:WORRYSEED],
 					[56,:FUTURESIGHT],[61,:LEAFSTORM]]
 			end
 			for i in movelist
@@ -1117,7 +1117,7 @@ MultipleForms.register(:SHULONG,{
 			next if pokemon.form==0 
 			next [88,45,93,56,75,93] if pokemon.form == 1						# Forma Terrestre
 			next [118,55,108,61,100,108] if pokemon.form == 2				# Forma Xenoverse
-			next [143,75,156,96,75,155] if pokemon.form == 3      # Forma Astro
+			next [143,80,156,86,80,155] if pokemon.form == 3      # Forma Astro
 		},
 		"getForm"=>proc{|pokemon|
 			if $game_switches[AUTOASTRO_SWITCH]==false

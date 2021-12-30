@@ -586,7 +586,20 @@ end
 def pbSave(safesave=false)
   $Trainer.metaID=$PokemonGlobal.playerID
   if $Trainer.lastGameVersion == nil || $Trainer.lastGameVersion < GAME_VERSION
+	#Makes a backup any times there's a new version
+	File.open(RTP.getSaveFileName("Game.rxdata"),  'rb') {|r|
+		File.open(RTP.getSaveFileName("Game-#{$Trainer.lastGameVersion[0]}-#{$Trainer.lastGameVersion[1]}-#{$Trainer.lastGameVersion[2]}.rxdata.bak"), 'wb') {|w|
+		   while s = r.read(4096)
+			 w.write s
+		   end
+		}
+	 }
+
     $Trainer.lastGameVersion = GAME_VERSION unless $DEBUG == true
+
+
+	
+
   end
   begin
     File.open(RTP.getSaveFileName("Game.rxdata"),"wb"){|f|

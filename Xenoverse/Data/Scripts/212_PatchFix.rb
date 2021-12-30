@@ -107,9 +107,9 @@ SWITCH_FIXED = {"1.0.1" => PatchFix.new(257, PatchFix.method("v101")),
 	"1.0.3" => PatchFix.new(259, PatchFix.method("v103"))}
 
 PATCHFIXES = {
-	"1.3.11" => proc{
+	"1.3.13" => proc{
 		 #apply 1.3.11 patchfix
-		 Log.i("Patch Fix","Applying patch fixes for version 1.3.11")
+		 Log.i("Patch Fix","Applying patch fixes for version 1.3.13")
 			for p in $Trainer.party
 				if (p != nil)
 					if p.species == PBSpecies::SHULONG
@@ -133,7 +133,7 @@ PATCHFIXES = {
 class Patcher 
 	def self.apply()
 		for key in PATCHFIXES.keys
-			if $Trainer.lastGameVersion < Version.new(key)
+			if $Trainer.lastGameVersion && $Trainer.lastGameVersion < Version.new(key)
 				PATCHFIXES[key].call
 			end
 		end
