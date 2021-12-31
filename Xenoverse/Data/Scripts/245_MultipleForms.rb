@@ -2436,8 +2436,8 @@ MultipleForms.register(:MASGOT,{
 			houndoom_maps = [165,166,167,169,170,171]
 			ampharos_maps = [181,182,559]
 			bouffalant_maps = [219,224,225,226,227,228,229,230]
-			camerupt_maps = [78,80,86,435,436,437,438,439,596]
-			steelix_maps = [276,593]
+			camerupt_maps = [78,80,86,435,436,437,438,439,596,598]
+			steelix_maps = [276,593,594]
 			alakazam_maps = [286,287,288,289,290,292,294]
 			dragonite_maps = [42]
 			granbull_maps = [79]
@@ -2448,7 +2448,7 @@ MultipleForms.register(:MASGOT,{
 			weavile_maps = [457,458,459,585,588]
 
 			hypno_maps = [602,604]
-			beedrill_maps = [599]
+			beedrill_maps = [599,600]
 
 
 			if $game_map && gengar_maps.include?($game_map.map_id)
