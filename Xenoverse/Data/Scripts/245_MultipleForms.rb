@@ -164,6 +164,13 @@ class PokeBattle_Pokemon
 		return v if v!=nil
 		return self.__mf_evYield
 	end
+
+	def checkEvolutionForm
+		f=MultipleForms.call("getFormOnEvolution",self)
+		if f != nil
+			self.form=f
+		end
+	end
 	
 	def initialize(*args)
 		__mf_initialize(*args)
@@ -2618,12 +2625,17 @@ MultipleForms.register(:TOXTRICITY,{
 				   PBNatures::BASHFUL, PBNatures::CALM, PBNatures::GENTLE, PBNatures::CAREFUL].include?(pokemon.nature)
 		next 0
 	},
-	"getForm"=>proc{|pokemon|
+	"getFormOnEvolution"=>proc{|pokemon|
 		#Schiva, Sicura, Placida, Timida, Seria, Modesta, Mite, Quieta, Ritrosa, Calma, Gentile o Cauta = BASSO
 		echoln "TOXTRICITY NATURE IS #{pokemon.nature}"
 		next 1 if [PBNatures::LONELY, PBNatures::BOLD, PBNatures::RELAXED, PBNatures::TIMID, PBNatures::SERIOUS, PBNatures::MODEST, PBNatures::MILD, PBNatures::QUIET,
 				   PBNatures::BASHFUL, PBNatures::CALM, PBNatures::GENTLE, PBNatures::CAREFUL].include?(pokemon.nature)
 		next 0
+	},
+	"getForm"=>proc{|pokemon|
+		#Schiva, Sicura, Placida, Timida, Seria, Modesta, Mite, Quieta, Ritrosa, Calma, Gentile o Cauta = BASSO
+		echoln "TOXTRICITY NATURE IS #{pokemon.nature}"
+		next
 	},
 	"ability"=>proc{|pokemon|
 		next getID(PBAbilities,:MINUS) if pokemon.form==1 && pokemon.abilityIndex==1 #BASS form

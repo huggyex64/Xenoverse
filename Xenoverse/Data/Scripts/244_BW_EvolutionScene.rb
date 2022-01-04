@@ -103,6 +103,7 @@ class PokemonEvolutionScene
 		pk.setNature(@pokemon.nature)
 		pk.makeShiny if @pokemon.isShiny?
 		pk.makeDelta if @pokemon.isDelta?
+		pk.checkEvolutionForm
 		
 		@sprites["pokemon1"]=PokemonSpriteBW.new(@viewport)
 		@sprites["pokemon1"].setPokemonBitmap(@pokemon,false)
@@ -532,6 +533,8 @@ class PokemonEvolutionScene
 				}
 				@pokemon.setItem(0) if removeItem
 				@pokemon.species=@newspecies
+				@pokemon.checkEvolutionForm
+				puts "I CHECKED THE CORRECT FORM"
 				$Trainer.seen[@newspecies]=true
 				$Trainer.owned[@newspecies]=true
 				pbSeenForm(@pokemon)

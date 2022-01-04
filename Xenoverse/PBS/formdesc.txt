@@ -325,6 +325,8 @@ Height=15
 Weight=320
 [254_1]
 DESCRIPTION=(MegaEvoluzione)\n Le foglie che crescono sulle sue braccia tagliano anche grandi alberi. Nel suo habitat, è imbattibile.
+TYPE1=12
+TYPE2=16
 Height=19
 Weight=552
 [245_2]
