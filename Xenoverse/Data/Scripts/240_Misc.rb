@@ -632,7 +632,7 @@ end
 
 def pbCheckCaughtPokemon
   return if $achievements["Acchiappali"].completed
-  regionlist=ELDIWDEX#pbAllRegionalSpecies(0)
+  regionlist=ELDIWDEX.clone#pbAllRegionalSpecies(0)
   echoln regionlist if $DEBUG
   regionlist.delete(243)
   regionlist.delete(244)
@@ -659,7 +659,7 @@ end
 
 def pbCheckCaughtPokemonX
   return if $achievements["Mondo"].completed
-  regionlist=XENODEX#pbAllRegionalSpecies(0)
+  regionlist=XENODEX.clone#pbAllRegionalSpecies(0)
   echoln regionlist if $DEBUG
   regionlist.delete(PBSpecies::DITTOX)
   regionlist.delete(PBSpecies::RAICHUX)

@@ -179,7 +179,7 @@ module PokeBattle_BattleCommon
 					shakes=4
 				else
 					x=1 if x==0
-					y = 0x000FFFF0 / (Math.sqrt(Math.sqrt( 0x00FF0000/x ) ) )
+					y = 0x000FFFF0/(Math.sqrt(Math.sqrt( 0x00FF0000/x ) ) )
 					shakes+=1 if pbRandom(65536)<y
 					shakes+=1 if pbRandom(65536)<y
 					shakes+=1 if pbRandom(65536)<y

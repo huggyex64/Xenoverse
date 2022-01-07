@@ -1325,12 +1325,12 @@ class PokeBattle_Battler
 				end
 				# Berserk
 				if target.hasWorkingAbility(:BERSERK) &&
-            target.hp+damage>target.totalhp/2 &&
-            target.hp<=target.totalhp/2
-          if target.pbIncreaseStatWithCause(PBStats::SPATK,1,target,PBAbilities.getName(target.ability))
-            PBDebug.log("[Ability triggered] #{target.pbThis}'s Stamina")
-          end
-        end
+					target.hp+damage>target.totalhp/2 &&
+					target.hp<=target.totalhp/2
+					if target.pbIncreaseStatWithCause(PBStats::SPATK,1,target,PBAbilities.getName(target.ability))
+						PBDebug.log("[Ability triggered] #{target.pbThis}'s Stamina")
+					end
+				end
 				# Magician goes here
 				if target.hasWorkingAbility(:RATTLED) &&
 					(isConst?(movetype,PBTypes,:BUG) ||
@@ -1345,20 +1345,21 @@ class PokeBattle_Battler
 					#			target.pbThis,PBAbilities.getName(target.ability)))
 					#end
 				end
-				if target.hasWorkingItem(:WEAKNESSPOLICY) && (target.pbCanIncreaseStatStage?(PBStats::ATTACK) || target.pbCanIncreaseStatStage?(PBStats::SPATK))
-					PBDebug.log("[#{target.pbThis}'s Weakness Policy triggered]")
+				if target.hasWorkingItem(:WEAKNESSPOLICY) && (target.pbCanIncreaseStatStage?(PBStats::ATTACK) || target.pbCanIncreaseStatStage?(PBStats::SPATK)) && target.damagestate.typemod > 8
+					PBDebug.log("[#{target.pbThis}'s Weakness Policy triggered! Effectiveness: #{target.damagestate.typemod}]")
+					itemname = PBItems.getName(target.item)
 					target.pokemon.itemRecycle=target.item
 					target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
 					target.item=0
 					
-					target.pbIncreaseStatWithCause(PBStats::ATTACK,2,target,PBItems.getName(target.item))
+					target.pbIncreaseStatWithCause(PBStats::ATTACK,2,target,itemname)
 					#if target.pbCanIncreaseStatStage?(PBStats::ATTACK,false,false)
 					#	target.pbIncreaseStatBasic(PBStats::ATTACK,2)
 					#	@battle.pbCommonAnimation("StatUp",target,nil)
 					#	@battle.pbDisplay(_INTL("The {1} sharply raised {2}'s Attack!",
 					#	PBItems.getName(target.pokemon.itemRecycle), target.pbThis))
 					#end
-					target.pbIncreaseStatWithCause(PBStats::SPATK,2,target,PBItems.getName(target.item))
+					target.pbIncreaseStatWithCause(PBStats::SPATK,2,target,itemname)
 					#if target.pbCanIncreaseStatStage?(PBStats::SPATK,false,false)
 					#	target.pbIncreaseStatBasic(PBStats::SPATK,2)
 					#	@battle.pbCommonAnimation("StatUp",target,nil)
@@ -1368,14 +1369,14 @@ class PokeBattle_Battler
 				end
 				if target.hasWorkingAbility(:WEAKARMOR) && move.pbIsPhysical?(movetype)
 					PBDebug.log("[#{target.pbThis}'s Weak Armor triggered]")
-					target.pbReduceStatWithCause(PBStats::DEFENSE,1,attacker,PBAbilities.getName(target.ability))
+					target.pbReduceStatWithCause(PBStats::DEFENSE,1,user,PBAbilities.getName(target.ability))
 					#if target.pbCanReduceStatStage?(PBStats::DEFENSE,false,true)
 					#	target.pbReduceStatBasic(PBStats::DEFENSE,1)
 					#	@battle.pbCommonAnimation("StatDown",target,nil)
 					#	@battle.pbDisplay(_INTL("{1}'s {2} lowered its Defense!",
 					#			target.pbThis,PBAbilities.getName(target.ability)))
 					#end
-					target.pbIncreaseStatWithCause(PBStats::SPEED,1,attacker,PBAbilities.getName(target.ability))
+					target.pbIncreaseStatWithCause(PBStats::SPEED,1,user,PBAbilities.getName(target.ability))
 					#if target.pbCanIncreaseStatStage?(PBStats::SPEED)
 					#	target.pbIncreaseStatBasic(PBStats::SPEED,1)
 					#	@battle.pbCommonAnimation("StatUp",target,nil)
@@ -3339,7 +3340,7 @@ class PokeBattle_Battler
 				# Life Orb
 				if user.hasWorkingItem(:LIFEORB) && turneffects[PBEffects::TotalDamage]>0 &&
 					!user.hasWorkingAbility(:MAGICGUARD)
-					PBDebug.log("[#{user.pbThis}'s Life Orb triggered]")
+					PBDebug.log("[#{user.pbThis}'s Life Orb triggered] #{PBMoves.getName(user.lastMoveUsed.id)}")
 					hploss=user.pbReduceHP([(user.totalhp/10).floor,1].max,true)
 					if hploss>0
 						@battle.pbDisplay(_INTL("{1} lost some of its HP!",user.pbThis))

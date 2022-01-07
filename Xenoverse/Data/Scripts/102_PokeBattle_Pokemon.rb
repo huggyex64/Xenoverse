@@ -752,6 +752,7 @@ class PokeBattle_Pokemon
     when "groom"
       gain = 4
       gain = 10 if @happiness<200
+    when "EV berry"
     when "evberry"
       gain = 2
       gain = 5 if @happiness<200
