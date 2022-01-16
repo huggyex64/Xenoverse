@@ -31,6 +31,10 @@ class PokeBattle_Battle
 
     #ultraoneshot
     if skill >= PBTrainerAI.ultraSkill
+
+      if opponent.hp > 0
+        score += pbDamageFix(attacker, opponent, move, skill)*50/opponent.hp
+      end
       priorityCheck = pbPriorityCheck(move, pbHighestDamageMove(opponent, attacker, skill))
       canOneshot = pbCanMoveOneshot(attacker, opponent, move, skill)
       if canOneshot
@@ -188,7 +192,7 @@ class PokeBattle_Battle
         end
       end
     when 0x0F
-      score+=30
+      #score+=30
       if skill>=PBTrainerAI.highSkill
         score+=30 if !opponent.hasWorkingAbility(:INNERFOCUS) &&
                      opponent.effects[PBEffects::Substitute]==0
