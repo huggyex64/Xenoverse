@@ -1764,6 +1764,12 @@ class PokeBattle_Battle
         end
         score+=50 if attacker.turncount==0
         score+=30 if opponent.effects[PBEffects::TwoTurnAttack]!=0
+        if skill>=PBTrainerAI.ultraSkill 
+          if attacker.effects[PBEffects::ProtectRate] == 1
+            score+=80 if opponent.status==PBStatuses::POISON
+            score+=70 if opponent.status==PBStatuses::BURN
+          end
+        end
       end
     when 0xAB
     when 0xAC
