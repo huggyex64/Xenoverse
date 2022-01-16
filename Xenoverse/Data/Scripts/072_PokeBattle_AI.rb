@@ -31,17 +31,13 @@ class PokeBattle_Battle
 
     #ultraoneshot
     if skill >= PBTrainerAI.ultraSkill
-      realBaseDamage=move.basedamage
-      realBaseDamage=60 if move.basedamage==1
-      realBaseDamage=pbBetterBaseDamage(move,attacker,opponent,skill,realBaseDamage)
-      basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
-      PBDebug.log("[UltraAI] #{move.name} deals #{basedamage}/#{opponent.hp}")
-      canOneshot = (opponent.hp - basedamage) <= 0
+      priorityCheck = pbPriorityCheck(move, pbHighestDamageMove(opponent, attacker, skill))
+      canOneshot = pbCanMoveOneshot(attacker, opponent, move, skill)
       if canOneshot
         if !pbCanOneshot(opponent, attacker, skill)
           score += 2000
         end
-        if pbSpeedCheck(attacker.speed, opponent.speed) == 0 || move.priority > 0
+        if (priorityCheck == 2 && pbSpeedCheck(attacker.speed, opponent.speed) == 0) || priorityCheck == 0
           score += 2000
         end
         if score > 2000
@@ -3961,8 +3957,9 @@ class PokeBattle_Battle
 
     # ultraswitch
     if skill >= PBTrainerAI.ultraSkill
+      priorityCheck = pbBattlerPriorityPrediction(pbAttacker(index), pbOpponent(index))
       if pbCanOneshot(pbOpponent(index), pbAttacker(index), skill)
-        if pbSpeedCheck(pbOpponent(index).speed, pbAttacker(index).speed) == 0
+        if (pbSpeedCheck(pbOpponent(index).speed, pbAttacker(index).speed) == 0 || priorityCheck == 1) && priorityCheck != 0
           shouldswitch = true
         else
           if pbCanOneshot(pbAttacker(index), pbOpponent(index), skill)
@@ -4151,7 +4148,8 @@ class PokeBattle_Battle
                   goodforswitch = false
                   next
                 end
-                if (pbSpeedCheck(ib.speed, pbOpponent(index).speed) == 1)
+                priorityCheck = pbBattlerPriorityPrediction(ib, pbOpponent(index))
+                if (pbSpeedCheck(ib.speed, pbOpponent(index).speed) == 1 && priorityCheck == 2) || priorityCheck == 1
                   PBDebug.log("[UltraAI] can oneshot")
                   PBDebug.log("[UltraAI] can't outspeed oneshot")
                   goodforswitch = false
@@ -4446,6 +4444,14 @@ class PokeBattle_Battle
       return 1
     end
     return 2
+  end
+
+  def pbBattlerPriorityPrediction(battler1, battler2)
+    return pbPriorityCheck(pbHighestDamageMove(battler1, battler2, PBTrainerAI.ultraSkill), pbHighestDamageMove(battler2, battler1, PBTrainerAI.ultraSkill))
+  end
+
+  def pbPriorityCheck(move1, move2)
+    return pbSpeedCheck(move1.priority, move2.priority, 100)
   end
 
 end
