@@ -412,13 +412,15 @@ class PokeBattle_Battler
 		end
 	end
 	
-	def pbInitialize(pkmn,index,batonpass)
+	def pbInitialize(pkmn,index,batonpass, procAdditionalEffects = true)
 		# Cure status of previous Pokemon with Natural Cure
-		if self.hasWorkingAbility(:NATURALCURE) && @pokemon
-			self.status=0
-		end
-		if self.hasWorkingAbility(:REGENERATOR) && @pokemon
-			self.pbRecoverHP((totalhp/3).floor,true)
+		if (procAdditionalEffects)
+			if self.hasWorkingAbility(:NATURALCURE) && @pokemon
+				self.status=0
+			end
+			if self.hasWorkingAbility(:REGENERATOR) && @pokemon
+				self.pbRecoverHP((totalhp/3).floor,true)
+			end
 		end
 		pbInitPokemon(pkmn,index)
 		pbInitEffects(batonpass)

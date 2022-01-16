@@ -49,7 +49,7 @@ class PokeBattle_Battle
 
           for oppo in party
             ib = opponent.clone
-            ib.pbInitialize(oppo,party.index(oppo),false)
+            ib.pbInitialize(oppo,party.index(oppo),false,false)
             if (ib.hp < 1)
               next
             end
@@ -3984,7 +3984,7 @@ class PokeBattle_Battle
           id = party.index(i)
           
           ib = pbAttacker(index).clone
-          ib.pbInitialize(i,id,false)
+          ib.pbInitialize(i,id,false,false)
           maxDmgMove = pbHighestDamageMove(ib,pbOpponent(index),skill)
           maxDmg = pbDamageTest(ib,pbOpponent(index).pokemon, maxDmgMove, skill) 
           echoln "[UltraAI] ------------------------------------------------- #{maxDmg} for #{maxDmgMove.name}"
@@ -4124,7 +4124,7 @@ class PokeBattle_Battle
           if (skill >= PBTrainerAI.ultraSkill)
             id = party.index(i)
             ib = pbAttacker(index).clone
-            ib.pbInitialize(party[i],id,false)
+            ib.pbInitialize(party[i],id,false,false)
             incomingMove = pbHighestDamageMove(pbOpponent(index), pbAttacker(index), skill)
             PBDebug.log("[UltraAI] --------------------------------------------- " + incomingMove.name + " on " + ib.name)
             incomingDamage = pbDamageTest(pbOpponent(index), ib, incomingMove, skill) 
