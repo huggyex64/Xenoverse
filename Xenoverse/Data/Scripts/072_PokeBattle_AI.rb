@@ -28,6 +28,48 @@ class PokeBattle_Battle
     score=100
     opponent=attacker.pbOppositeOpposing if !opponent
     opponent=opponent.pbPartner if opponent && opponent.isFainted?
+
+    #ultraoneshot
+    if skill >= PBTrainerAI.ultraSkill
+      realBaseDamage=move.basedamage
+      realBaseDamage=60 if move.basedamage==1
+      realBaseDamage=pbBetterBaseDamage(move,attacker,opponent,skill,realBaseDamage)
+      basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
+      PBDebug.log("[UltraAI] #{move.name} deals #{basedamage}/#{opponent.hp}")
+      canOneshot = (opponent.hp - basedamage) <= 0
+      if canOneshot
+        if !pbCanOneshot(opponent, attacker, skill)
+          score += 2000
+        end
+        if pbSpeedCheck(attacker.speed, opponent.speed) == 0 || move.priority > 0
+          score += 2000
+        end
+        if score > 2000
+          party=pbParty(opponent.index)
+          expectedmove = pbHighestDamageMove(attacker, opponent, skill)
+
+          lesserdamage = 100
+          expectedswitch = opponent
+
+          for oppo in party
+            ib = opponent.clone
+            ib.pbInitialize(oppo,party.index(oppo),false)
+            if (ib.hp < 1)
+              next
+            end
+            damageOnOppo = pbDamageFix(attacker, ib, expectedmove, skill)*100/ib.hp
+            if damageOnOppo < lesserdamage
+              lesserdamage = damageOnOppo
+              expectedswitch = ib
+            end
+          end
+          score += 100*pbDamageFix(attacker,expectedswitch,move,skill)
+          PBDebug.log("[UltraAI] expected switch: #{expectedswitch.name}")
+          PBDebug.log("[UltraAI] #{move.name}'s damage on #{expectedswitch.name}: #{pbDamageFix(attacker,expectedswitch,move,skill)}%")
+        end
+      end
+    end
+
 ##### Alter score depending on the move's function code ########################
     case move.function
     when 0x00 # No extra effect
@@ -3710,6 +3752,16 @@ class PokeBattle_Battle
             preferredMoves.push(i) if scores[i]==maxscore # Doubly prefer the best move
           end
         end
+        if skill >= PBTrainerAI.ultraSkill
+          i= pbHighestScore(scores)
+          PBDebug.log("[UltraAI] Prefer "+PBMoves.getName(attacker.moves[i].id))
+          pbRegisterMove(index,i,false)
+          target=targets[i] if targets
+          if @doublebattle && target>=0
+            pbRegisterTarget(index,target)
+          end
+          return
+        end
         if preferredMoves.length>0 && (skill < PBTrainerAI.ultraSkill || maxscore >=100) #to adjust
           i=preferredMoves[pbAIRandom(preferredMoves.length)]
           PBDebug.log("[AI] Prefer "+PBMoves.getName(attacker.moves[i].id))
@@ -3925,24 +3977,44 @@ class PokeBattle_Battle
         curMaxDmg = pbDamageTest(pbAttacker(index),pbOpponent(index).pokemon, curMaxDmgMove, skill) 
         startMaxDmg = curMaxDmg
         party = pbParty(index)
+        found = false
         for i in party
           #switcheroo
+          if found
+            break
+          end
+          
           id = party.index(i)
+          
           ib = pbAttacker(index).clone
-          ib.pbInitialize(i,party.index(i),false)
+          ib.pbInitialize(i,id,false)
           maxDmgMove = pbHighestDamageMove(ib,pbOpponent(index),skill)
           maxDmg = pbDamageTest(ib,pbOpponent(index).pokemon, maxDmgMove, skill) 
-          echoln "------------------------------------------------- #{maxDmg} for #{maxDmgMove.name}"
-          if (true && skill >= PBTrainerAI.ultraSkill)
+          echoln "[UltraAI] ------------------------------------------------- #{maxDmg} for #{maxDmgMove.name}"
+          if (skill >= PBTrainerAI.ultraSkill)
             incomingMove = pbHighestDamageMove(pbOpponent(index), pbAttacker(index), skill)
             
-            PBDebug.log(" --------------------------------------------- " + incomingMove.name + " on " + party[id].name)
+            PBDebug.log("[UltraAI] --------------------------------------------- " + incomingMove.name + " on " + party[id].name)
             incomingDamage = pbDamageTest(pbOpponent(index), ib, incomingMove, skill) 
             incDmgPercentage = incomingDamage * 100 / (party[id].hp+1)
-            PBDebug.log(" --------------------------------------------- " + incomingDamage.to_s + " #{incDmgPercentage}%")
-            if maxDmg>curMaxDmg && incDmgPercentage < 48
-              curMaxDmg = maxDmg
-              shouldswitchwith = id
+            PBDebug.log("[UltraAI] --------------------------------------------- " + incomingDamage.to_s + " #{incDmgPercentage}%")
+            if incDmgPercentage < 30
+              for j in 0...pbOpponent(index).moves.length
+                incomingDamage = pbDamageTest(pbOpponent(index), ib, pbOpponent(index).moves[j], skill) 
+                incDmgPercentage = incomingDamage * 100 / (ib.hp+1)
+                if incDmgPercentage > 60
+                  if pbCanOneshot(ib, pbOpponent(index), skill)
+                    if (ib.speed < pbOpponent(index).speed)
+                      shouldswitchwith = id
+                      found = true
+                      break
+                    end
+                  end
+                end
+                if incDmgPercentage < 35
+                  shouldswitchwith = id
+                end
+              end
             end
           else
             if maxDmg>curMaxDmg 
@@ -4052,13 +4124,42 @@ class PokeBattle_Battle
       #ultraswitch
       for i in 0...party.length
         if shouldswitchwith.nil?
-          if (true && skill >= PBTrainerAI.ultraSkill)
+          if (skill >= PBTrainerAI.ultraSkill)
+            id = party.index(i)
+            ib = pbAttacker(index).clone
+            ib.pbInitialize(party[i],id,false)
             incomingMove = pbHighestDamageMove(pbOpponent(index), pbAttacker(index), skill)
-            PBDebug.log(" --------------------------------------------- " + incomingMove.name + " on " + party[i].name)
-            incomingDamage = pbDamageTest(pbOpponent(index), party[i], incomingMove, skill) 
-            incDmgPercentage = incomingDamage * 100 / (party[i].hp+1)
-            PBDebug.log(" --------------------------------------------- " + incomingDamage.to_s)
-            if incDmgPercentage > 48
+            PBDebug.log("[UltraAI] --------------------------------------------- " + incomingMove.name + " on " + ib.name)
+            incomingDamage = pbDamageTest(pbOpponent(index), ib, incomingMove, skill) 
+            incDmgPercentage = incomingDamage * 100 / (ib.hp+1)
+            PBDebug.log("[UltraAI] --------------------------------------------- " + incomingDamage.to_s)
+            if incDmgPercentage > 30
+              next
+            end
+            goodforswitch = true
+            for j in 0...pbOpponent(index).moves.length
+              if (!goodforswitch)
+                next
+              end
+              incomingDamage = pbDamageTest(pbOpponent(index), ib, pbOpponent(index).moves[j], skill) 
+              incDmgPercentage = incomingDamage * 100 / (ib.hp+1)
+              PBDebug.log("[UltraAI] #{pbOpponent(index).moves[j].name} deals #{incDmgPercentage}% on #{ib.name}")
+              if incDmgPercentage > 60
+                PBDebug.log("[UltraAI] can oneshot? #{pbCanOneshot(ib, pbOpponent(index), skill)}")
+                if !pbCanOneshot(ib, pbOpponent(index), skill)
+                  PBDebug.log("[UltraAI] can't oneshot")
+                  goodforswitch = false
+                  next
+                end
+                if (pbSpeedCheck(ib.speed, pbOpponent(index).speed) == 1)
+                  PBDebug.log("[UltraAI] can oneshot")
+                  PBDebug.log("[UltraAI] can't outspeed oneshot")
+                  goodforswitch = false
+                  nextnext
+                end
+              end
+            end
+            if !goodforswitch
               next
             end
           end
@@ -4264,12 +4365,27 @@ class PokeBattle_Battle
 
     for move in attacker.moves
       break if canOneshot
-      realBaseDamage=move.basedamage
-      realBaseDamage=60 if move.basedamage==1
-      realBaseDamage=pbBetterBaseDamage(move,attacker,opponent,skill,realBaseDamage)
-      basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
-      canOneshot = (opponent.hp - basedamage) <= 0
+      canOneshot = pbCanMoveOneshot(attacker, opponent, move, skill)
     end
+
+    return canOneshot
+
+  end
+
+  def pbCanMoveOneshot(attacker, opponent, move, skill)
+    
+    if opponent.hasWorkingItem(:FOCUSSASH) && opponent.hp == opponent.totalhp
+      return false
+    end
+
+    canOneshot = false;
+
+    realBaseDamage=move.basedamage
+    realBaseDamage=60 if move.basedamage==1
+    realBaseDamage=pbBetterBaseDamage(move,attacker,opponent,skill,realBaseDamage)
+    basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
+    PBDebug.log("#{move.name} deals #{basedamage}/#{opponent.hp}")
+    canOneshot = (opponent.hp - basedamage) <= 0
 
     return canOneshot
 
@@ -4304,6 +4420,14 @@ class PokeBattle_Battle
     realBaseDamage=move.basedamage
     realBaseDamage=60 if move.basedamage==1
     #realBaseDamage=pbBetterBaseDamage(move,attacker,opponent,skill,realBaseDamage)
+    basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
+    return basedamage
+  end
+
+  def pbDamageFix(attacker, opponent, move, skill)
+    realBaseDamage=move.basedamage
+    realBaseDamage=60 if move.basedamage==1
+    realBaseDamage=pbBetterBaseDamage(move,attacker,opponent,skill,realBaseDamage)
     basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
     return basedamage
   end
