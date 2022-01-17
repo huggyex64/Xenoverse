@@ -1224,7 +1224,7 @@ class PokeBattle_Move
 	end
 	
 	def pbEffectAfterHit(attacker,opponent,turneffects)
-  end
+  	end
 	
 	def pbEffectFixedDamage(damage,attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
 		type=@type

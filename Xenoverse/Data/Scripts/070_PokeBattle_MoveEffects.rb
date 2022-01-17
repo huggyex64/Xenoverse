@@ -2813,7 +2813,7 @@ class PokeBattle_Move_069 < PokeBattle_Move
 		attacker.species=opponent.species
 		attacker.type1=opponent.type1
 		attacker.type2=opponent.type2
-		#    attacker.ability=opponent.ability
+		attacker.ability=opponent.ability
 		attacker.attack=opponent.attack
 		attacker.defense=opponent.defense
 		attacker.speed=opponent.speed
@@ -5907,6 +5907,21 @@ end
 class PokeBattle_Move_0EE < PokeBattle_Move
 	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
 		ret=super(attacker,opponent,hitnum,alltargets,showanimation)
+		PBDebug.log("[INFO] #{attacker.hasWorkingItem(:LIFEORB)} #{ret>0} #{!attacker.hasWorkingAbility(:MAGICGUARD)}")
+		attacker.pbEffectsOnDealingDamage(self,attacker,opponent,ret)
+		if attacker.hasWorkingItem(:LIFEORB) && ret>0 &&
+			!attacker.hasWorkingAbility(:MAGICGUARD) && !attacker.isFainted?
+			PBDebug.log("[INFO] #{attacker.pbThis} turneffects for UTurn is #{attacker.turneffects[PBEffects::UTurn]}")
+			if attacker.turneffects[PBEffects::UTurn]==false
+				PBDebug.log("[#{attacker.pbThis}'s Life Orb triggered] #{PBMoves.getName(attacker.lastMoveUsed.id)}")
+				hploss=attacker.pbReduceHP([(attacker.totalhp/10).floor,1].max,true)
+				if hploss>0
+					@battle.pbDisplay(_INTL("{1} lost some of its HP!",attacker.pbThis))
+				end
+			end
+		end
+		
+		attacker.pbFaint if attacker.isFainted? # no return
 		if !attacker.isFainted? && @battle.pbCanChooseNonActive?(attacker.index) &&
 			!@battle.pbAllFainted?(@battle.pbParty(opponent.index)) && (self.type == PBTypes::ELECTRIC ? !opponent.hasWorkingAbility(:VOLTABSORB) : true)
 			# TODO: Pursuit should go here, and negate this effect if it KO's attacker
@@ -5916,6 +5931,8 @@ class PokeBattle_Move_0EE < PokeBattle_Move
 			@battle.pbMessagesOnReplace(attacker.index,newpoke)
 			attacker.pbResetForm
 			@battle.pbReplace(attacker.index,newpoke,true)
+			PBDebug.log("[INFO] Setting #{attacker.pbThis} UTurn turneffects to true")
+			attacker.turneffects[PBEffects::UTurn] = true
 			@battle.pbOnActiveOne(attacker)
 			attacker.pbAbilitiesOnSwitchIn(true)
 		end

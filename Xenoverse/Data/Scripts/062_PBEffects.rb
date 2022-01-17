@@ -128,6 +128,7 @@ begin
     SpecialUsage = 0
     PassedTrying = 1
     TotalDamage  = 2
+    UTurn        = 3
   end
 	
 rescue Exception

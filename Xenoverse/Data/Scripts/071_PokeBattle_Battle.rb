@@ -892,7 +892,7 @@ class PokeBattle_Battle
 		echoln "Soundbased? #{thismove.isSoundBased?}"
 		if thispkmn.effects[PBEffects::ThroatChop]>0 && thismove.isSoundBased?
 			if showMessages
-				msg = _INTL("{1} can't use {2} because of Throat Chop!",pbThis,move.name)
+				msg = _INTL("{1} can't use {2} because of Throat Chop!",thispkmn.pbThis,move.name)
 				(commandPhase) ? @battle.pbDisplayPaused(msg) : @battle.pbDisplay(msg)
 			end
 			return false

@@ -4,7 +4,7 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanSleep?(showMessages,selfsleep=false,ignorestatus=false)
     return false if isFainted?
-    if IMMUNESHINOBI.include?(species) && isBoss?
+    if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
     end
@@ -87,7 +87,7 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanPoison?(showMessages)
     return false if isFainted?
-    if IMMUNESHINOBI.include?(species) && isBoss?
+    if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
     end
@@ -117,7 +117,7 @@ class PokeBattle_Battler
 
   def pbCanPoisonSynchronize?(opponent)
     return false if isFainted?
-    if IMMUNESHINOBI.include?(species) && isBoss?
+    if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
     end
@@ -139,7 +139,7 @@ class PokeBattle_Battler
 
   def pbCanPoisonSpikes?
     return false if isFainted?
-    return false if IMMUNESHINOBI.include?(species) && isBoss?    
+    return false if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true 
     return false if self.status!=0
     return false if pbHasType?(:POISON) || pbHasType?(:STEEL)
     return false if hasWorkingAbility(:IMMUNITY)
@@ -174,7 +174,7 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanBurn?(showMessages)
     return false if isFainted?
-    if IMMUNESHINOBI.include?(species) && isBoss?
+    if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
     end
@@ -204,7 +204,7 @@ class PokeBattle_Battler
 
   def pbCanBurnFromFireMove?(move,showMessages) # Use for status moves only
     return false if isFainted?
-    if IMMUNESHINOBI.include?(species) && isBoss?
+    if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
     end
@@ -243,7 +243,7 @@ class PokeBattle_Battler
 
   def pbCanBurnSynchronize?(opponent)
     return false if isFainted?
-    if IMMUNESHINOBI.include?(species) && isBoss?
+    if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
     end
@@ -280,7 +280,7 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanParalyze?(showMessages)
     return false if isFainted?
-    if IMMUNESHINOBI.include?(species) && isBoss?
+    if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
     end
@@ -306,7 +306,7 @@ class PokeBattle_Battler
 
   def pbCanParalyzeSynchronize?(opponent)
     return false if self.status!=0
-    if IMMUNESHINOBI.include?(species) && isBoss?
+    if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
     end
@@ -337,7 +337,7 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanFreeze?(showMessages)
     return false if isFainted?
-    if IMMUNESHINOBI.include?(species) && isBoss?
+    if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
     end
@@ -466,7 +466,7 @@ class PokeBattle_Battler
   def pbCanAttract?(attacker,showMessages=true)
     return false if isFainted?
     return false if !attacker
-    if IMMUNESHINOBI.include?(species) && isBoss?
+    if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
     end

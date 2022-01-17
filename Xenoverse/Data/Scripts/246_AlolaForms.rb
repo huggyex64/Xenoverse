@@ -1792,7 +1792,7 @@ MultipleForms.register(:MEOWTHELDIW,{
 }
 })
 
-MultipleForms.register(:PERSIAN,{
+MultipleForms.register(:PERSIANELDIW,{
 "getFormName"=>proc{|pokemon|
   next _INTL("Alola Form") if pokemon.isDelta?
   next

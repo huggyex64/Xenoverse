@@ -610,6 +610,7 @@ def vsXSpecies(viewport,species=nil)
     pbWait(1)
   end
   fp["bg"] = Sprite.new(viewport)
+  fp["bg"].bitmap = pbBitmap(directory[0]+"evilTeamBg") if $DEBUG
   for bg in 0...X_SPECIES.length
     if num[bg] == species
       fp["bg"].bitmap = pbBitmap(directory[bg] + "evilTeamBg")
@@ -618,6 +619,7 @@ def vsXSpecies(viewport,species=nil)
   fp["bg"].color = Color.new(0,0,0)
   
   fp["bg2"] = Sprite.new(viewport)
+  fp["bg2"].bitmap = pbBitmap(directory[0] + "evilTeamEff5") if $DEBUG
   for eff5 in 0...X_SPECIES.length
     if num[eff5] == species 
       fp["bg2"].bitmap = pbBitmap(directory[eff5] + "evilTeamEff5")
@@ -632,6 +634,7 @@ def vsXSpecies(viewport,species=nil)
   speed = []
   for j in 0...16
     fp["e1_#{j}"] = Sprite.new(viewport)
+    bmp = pbBitmap(directory[0] + "evilTeamEff1") if $DEBUG
     for eff1 in 0...X_SPECIES.length
       if num[eff1] == species 
         bmp = pbBitmap(directory[eff1] + "evilTeamEff1")
@@ -649,6 +652,7 @@ def vsXSpecies(viewport,species=nil)
   end
   
   fp["logo"] = Sprite.new(viewport)
+  fp["logo"].bitmap = pbBitmap(directory[0] + "evilTeamLogo") if $DEBUG
   for logo in 0...X_SPECIES.length
     if num[logo] == species 
       fp["logo"].bitmap = pbBitmap(directory[logo] + "evilTeamLogo")
@@ -659,6 +663,7 @@ def vsXSpecies(viewport,species=nil)
   fp["logo"].x = viewport.rect.width/2
   fp["logo"].y = viewport.rect.height/2
   fp["logo"].memorize_bitmap
+  fp["logo"].bitmap = pbBitmap(directory[0] + "evilTeamLogo2") if $DEBUG
   for logo in 0...X_SPECIES.length
     if num[logo] == species 
       fp["logo"].bitmap = pbBitmap(directory[logo] + "evilTeamLogo2")
@@ -669,6 +674,7 @@ def vsXSpecies(viewport,species=nil)
   fp["logo"].z = 50
   
   fp["ring"] = Sprite.new(viewport)
+  fp["ring"].bitmap = pbBitmap(directory[0] + "evilTeamEff2") if $DEBUG
   for eff2 in 0...X_SPECIES.length
     if num[eff2] == species 
       fp["ring"].bitmap = pbBitmap(directory[eff2] + "evilTeamEff2")
@@ -700,6 +706,7 @@ def vsXSpecies(viewport,species=nil)
   end
   
   fp["ring2"] = Sprite.new(viewport)
+  fp["ring2"].bitmap = pbBitmap(directory[0] + "evilTeamEff3") if $DEBUG
   for eff3 in 0...X_SPECIES.length
     if num[eff3] == species 
       fp["ring2"].bitmap = pbBitmap(directory[eff3] + "evilTeamEff3")
@@ -726,6 +733,7 @@ def vsXSpecies(viewport,species=nil)
         fp["e1_#{j}"].opacity = 0
         fp["e1_#{j}"].ox = 0
         fp["e1_#{j}"].angle = rand(360)
+        bmp = pbBitmap(directory[0] + "evilTeamEff1") if $DEBUG
         for eff1 in 0...X_SPECIES.length
           if num[eff1] == species 
             bmp = pbBitmap(directory[eff1] + "evilTeamEff1")
@@ -759,6 +767,7 @@ def vsXSpecies(viewport,species=nil)
         fp["e1_#{j}"].opacity = 0
         fp["e1_#{j}"].ox = 0
         fp["e1_#{j}"].angle = rand(360)
+        bmp = pbBitmap(directory[0] + "evilTeamEff1") if $DEBUG
         for eff1 in 0...X_SPECIES.length
           if num[eff1] == species 
             bmp = pbBitmap(directory[eff1] + "evilTeamEff1")

@@ -33,7 +33,9 @@ class PokeBattle_Battler
 	attr_accessor :currentMove
 	attr_accessor :damagestate
 	attr_accessor :captured
-	
+	attr_accessor :turneffects
+
+
 	def inHyperMode?; return false; end
 	def isShadow?; return false; end
 	
@@ -1140,8 +1142,12 @@ class PokeBattle_Battler
 	def pbEffectsOnDealingDamage(move,user,target,damage)
 		movetype=move.pbType(move.type,user,target)
 		thismove=move
-		turneffects=[]
-		turneffects[PBEffects::TotalDamage]=damage
+		@turneffects=[]
+		@turneffects[PBEffects::TotalDamage]=damage
+		PBDebug.log("[INFO] #{move.id} => UTurn : #{PBMoves::UTURN}");
+		PBDebug.log("[INFO] #{move.id} => UTurn : #{PBMoves::VOLTSWITCH}");
+		@turneffects[PBEffects::UTurn]=false if ![PBMoves::UTURN,PBMoves::VOLTSWITCH].include?(move.id)
+		
 		if damage>0 && move.isContactMove? && !user.hasWorkingItem(:PROTECTIVEPADS)
 			if !target.damagestate.substitute
 				if target.hasWorkingItem(:STICKYBARB,true) && user.item==0 && !user.isFainted?
@@ -1185,7 +1191,7 @@ class PokeBattle_Battler
 					PBDebug.log("[Ability triggered] #{target.pbThis}'s Innards Out")
 					@battle.pbDisplay(_INTL("{1} was hurt by {2}'s {3}!",user.pbThis,
 					target.pbThis,PBAbilities.getName(target.ability)))
-					user.pbReduceHP(turneffects[PBEffects::TotalDamage])
+					user.pbReduceHP(@turneffects[PBEffects::TotalDamage])
 				end
 				if target.hasWorkingAbility(:CUTECHARM) && @battle.pbRandom(10)<3
 					if !user.hasWorkingAbility(:OBLIVIOUS) &&
@@ -2710,7 +2716,7 @@ class PokeBattle_Battler
 	end
 	
 	def pbTryUseMove(choice,thismove,turneffects)
-		return true if turneffects[PBEffects::PassedTrying]
+		return true if @turneffects[PBEffects::PassedTrying]
 		# TODO: Return true if attack has been Mirror Coated once already
 		return false if !pbObedienceCheck?(choice)
 		# TODO: If being Sky Dropped, return false
@@ -2857,7 +2863,7 @@ class PokeBattle_Battler
 				return false
 			end
 		end
-		turneffects[PBEffects::PassedTrying]=true
+		@turneffects[PBEffects::PassedTrying]=true
 		return true
 	end
 	
@@ -3037,7 +3043,7 @@ class PokeBattle_Battler
 			target.pbUpdateTargetedMove(thismove,user)
 			break if target.damagestate.calcdamage<=0
 		end
-		turneffects[PBEffects::TotalDamage]+=totaldamage if totaldamage>0
+		@turneffects[PBEffects::TotalDamage]+=totaldamage if totaldamage>0
 		# Battle Arena only - attack is successful
 		@battle.successStates[user.index].useState=2
 		@battle.successStates[user.index].typemod=target.damagestate.typemod
@@ -3054,12 +3060,12 @@ class PokeBattle_Battler
 				@battle.pbDisplay(_INTL("Hit {1} times!",realnumhits))
 			end
 		end
-		PBDebug.log("[#{numhits} hit(s), total damage=#{turneffects[PBEffects::TotalDamage]}]")
+		PBDebug.log("[#{numhits} hit(s), total damage=#{@turneffects[PBEffects::TotalDamage]}]")
 		# Faint if 0 HP
 		target.pbFaint if target.isFainted? # no return
 		user.pbFaint if user.isFainted? # no return
 		
-		thismove.pbEffectAfterHit(user,target,turneffects)
+		thismove.pbEffectAfterHit(user,target,@turneffects)
 		# Faint if 0 HP
 		target.pbFaint if target.isFainted? # no return
 		user.pbFaint if user.isFainted? # no return
@@ -3109,13 +3115,17 @@ class PokeBattle_Battler
 		@usingsubmove=false
 		return
 	end
-	
+
 	def pbUseMove(choice,specialusage=false)
 		# TODO: lastMoveUsed is not to be updated on nested calls
-		turneffects=[]
-		turneffects[PBEffects::SpecialUsage]=specialusage
-		turneffects[PBEffects::PassedTrying]=false
-		turneffects[PBEffects::TotalDamage]=0
+		@turneffects=[]
+		@turneffects[PBEffects::SpecialUsage]=specialusage
+		@turneffects[PBEffects::PassedTrying]=false
+		@turneffects[PBEffects::TotalDamage]=0
+		@turneffects[PBEffects::UTurn]=false
+		
+		PBDebug.log("[INFO] #{pbThis()} turneffects for UTurn is #{@turneffects[PBEffects::UTurn]}")
+					
 		# Start using the move
 		pbBeginTurn(choice)
 		# Force the use of certain moves if they're already being used
@@ -3126,7 +3136,7 @@ class PokeBattle_Battler
 			@effects[PBEffects::Uproar]>0 ||
 			@effects[PBEffects::Bide]>0
 			choice[2]=PokeBattle_Move.pbFromPBMove(@battle,PBMove.new(@currentMove))
-			turneffects[PBEffects::SpecialUsage]=true
+			@turneffects[PBEffects::SpecialUsage]=true
 			PBDebug.log("[Continuing multi-turn move #{choice[2].name}]")
 		elsif @effects[PBEffects::Encore]>0
 			if @battle.pbCanShowCommands?(@index) &&
@@ -3141,15 +3151,15 @@ class PokeBattle_Battler
 		end
 		thismove=choice[2]
 		return if !thismove || thismove.id==0 # if move was not chosen
-		if !turneffects[PBEffects::SpecialUsage]
+		if !@turneffects[PBEffects::SpecialUsage]
 			# TODO: Quick Claw message
 		end
 		# TODO: Record that self has moved this round (for Payback, etc.)
 		# Stance Change goes here
 		# Try to use the move
-		if !pbTryUseMove(choice,thismove,turneffects)
+		if !pbTryUseMove(choice,thismove,@turneffects)
 			self.lastMoveUsed=-1
-			if !turneffects[PBEffects::SpecialUsage]
+			if !@turneffects[PBEffects::SpecialUsage]
 				self.lastMoveUsedSketch=-1 if self.effects[PBEffects::TwoTurnAttack]==0
 				self.lastRegularMoveUsed=-1
 				self.lastRoundMoved=@battle.turncount
@@ -3160,12 +3170,12 @@ class PokeBattle_Battler
 			@battle.pbJudge #      @battle.pbSwitch
 			return
 		end
-		if !turneffects[PBEffects::SpecialUsage]
+		if !@turneffects[PBEffects::SpecialUsage]
 			if !pbReducePP(thismove)
 				@battle.pbDisplay(_INTL("{1} used\r\n{2}!",pbThis,thismove.name))
 				@battle.pbDisplay(_INTL("But there was no PP left for the move!"))
 				self.lastMoveUsed=-1
-				if !turneffects[PBEffects::SpecialUsage]
+				if !@turneffects[PBEffects::SpecialUsage]
 					self.lastMoveUsedSketch=-1 if self.effects[PBEffects::TwoTurnAttack]==0
 					self.lastRegularMoveUsed=-1
 					self.lastRoundMoved=@battle.turncount
@@ -3187,14 +3197,14 @@ class PokeBattle_Battler
 		# "X used Y!" message
 		case thismove.pbDisplayUseMessage(self)
 		when 2   # Continuing Bide
-			if !turneffects[PBEffects::SpecialUsage]
+			if !@turneffects[PBEffects::SpecialUsage]
 				self.lastRoundMoved=@battle.turncount
 			end
 			PBDebug.log("[Continuing using Bide]")
 			return
 		when 1   # Starting Bide
 			self.lastMoveUsed=thismove.id
-			if !turneffects[PBEffects::SpecialUsage]
+			if !@turneffects[PBEffects::SpecialUsage]
 				self.lastMoveUsedSketch=thismove.id if self.effects[PBEffects::TwoTurnAttack]==0
 				self.lastRegularMoveUsed=thismove.id
 				self.lastRoundMoved=@battle.turncount
@@ -3207,7 +3217,7 @@ class PokeBattle_Battler
 			return
 		when -1   # Was hurt while readying Focus Punch, fails use
 			self.lastMoveUsed=thismove.id
-			if !turneffects[PBEffects::SpecialUsage]
+			if !@turneffects[PBEffects::SpecialUsage]
 				self.lastMoveUsedSketch=thismove.id if self.effects[PBEffects::TwoTurnAttack]==0
 				self.lastRegularMoveUsed=thismove.id
 				self.lastRoundMoved=@battle.turncount
@@ -3230,7 +3240,7 @@ class PokeBattle_Battler
 		if !thismove.pbOnStartUse(user) # Only Selfdestruct can return false here
 			PBDebug.log(sprintf("[Failed pbOnStartUse for function code %02X]",thismove.function))
 			user.lastMoveUsed=thismove.id
-			if !turneffects[PBEffects::SpecialUsage]
+			if !@turneffects[PBEffects::SpecialUsage]
 				user.lastMoveUsedSketch=thismove.id if user.effects[PBEffects::TwoTurnAttack]==0
 				user.lastRegularMoveUsed=thismove.id
 				user.lastRoundMoved=@battle.turncount
@@ -3246,7 +3256,7 @@ class PokeBattle_Battler
 		end
 		# Record move as having been used
 		user.lastMoveUsed=thismove.id
-		if !turneffects[PBEffects::SpecialUsage]
+		if !@turneffects[PBEffects::SpecialUsage]
 			user.lastMoveUsedSketch=thismove.id if user.effects[PBEffects::TwoTurnAttack]==0
 			user.lastRegularMoveUsed=thismove.id
 			user.movesUsed.push(thismove.id) if !user.movesUsed.include?(thismove.id) # For Last Resort
@@ -3324,7 +3334,7 @@ class PokeBattle_Battler
 					target.damagestate.focussash=true
 				end
 				# Use move against the current target
-				pbProcessMoveAgainstTarget(thismove,user,target,numhits,turneffects,false,alltargets,showanimation)
+				pbProcessMoveAgainstTarget(thismove,user,target,numhits,@turneffects,false,alltargets,showanimation)
 				showanimation=false
 				i+=1
 			end
@@ -3332,20 +3342,23 @@ class PokeBattle_Battler
 			#       trigger here - which ones?
 			if !(user.hasWorkingAbility(:SHEERFORCE) && thismove.addlEffect>0)
 				# Shell Bell
-				if user.hasWorkingItem(:SHELLBELL) && turneffects[PBEffects::TotalDamage]>0
-					PBDebug.log("[#{user.pbThis}'s Shell Bell triggered (total damage=#{turneffects[PBEffects::TotalDamage]})]")
-					hpgain=user.pbRecoverHP([(turneffects[PBEffects::TotalDamage]/8).floor,1].max,true)
+				if user.hasWorkingItem(:SHELLBELL) && @turneffects[PBEffects::TotalDamage]>0
+					PBDebug.log("[#{user.pbThis}'s Shell Bell triggered (total damage=#{@turneffects[PBEffects::TotalDamage]})]")
+					hpgain=user.pbRecoverHP([(@turneffects[PBEffects::TotalDamage]/8).floor,1].max,true)
 					if hpgain>0
 						@battle.pbDisplay(_INTL("{1} restored a little HP using its Shell Bell!",user.pbThis))
 					end
 				end
 				# Life Orb
-				if user.hasWorkingItem(:LIFEORB) && turneffects[PBEffects::TotalDamage]>0 &&
+				if user.hasWorkingItem(:LIFEORB) && @turneffects[PBEffects::TotalDamage]>0 &&
 					!user.hasWorkingAbility(:MAGICGUARD)
-					PBDebug.log("[#{user.pbThis}'s Life Orb triggered] #{PBMoves.getName(user.lastMoveUsed.id)}")
-					hploss=user.pbReduceHP([(user.totalhp/10).floor,1].max,true)
-					if hploss>0
-						@battle.pbDisplay(_INTL("{1} lost some of its HP!",user.pbThis))
+					PBDebug.log("[INFO] #{user.pbThis} turneffects for UTurn is #{@turneffects[PBEffects::UTurn]}")
+					if @turneffects[PBEffects::UTurn]==false
+						PBDebug.log("[#{user.pbThis}'s Life Orb triggered] #{PBMoves.getName(user.lastMoveUsed.id)}")
+						hploss=user.pbReduceHP([(user.totalhp/10).floor,1].max,true)
+						if hploss>0
+							@battle.pbDisplay(_INTL("{1} lost some of its HP!",user.pbThis))
+						end
 					end
 				end
 				user.pbFaint if user.isFainted? # no return
