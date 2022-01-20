@@ -2721,6 +2721,10 @@ MultipleForms.register(:GROWLITHE,{
 		next getID(PBTypes,:ROCK) if pokemon.form == 1
 		next
 	},
+	"getBaseStats"=>proc{|pokemon|
+		next [60,75,45,55,65,50] if pokemon.form==1
+		next
+	},
 })
 
 # MEGA SHIFTRY
