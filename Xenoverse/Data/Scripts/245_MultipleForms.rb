@@ -2660,6 +2660,69 @@ MultipleForms.register(:TOXTRICITY,{
 	#}
 })
 
+#===============================================================================
+# GOD BIDOOF
+#===============================================================================
+MultipleForms.register(:BIDOOF,{
+	"type1"=>proc{|pokemon|
+		next if pokemon.form == 0
+		types=[:NORMAL,:FIGHTING,:FLYING,:POISON,:GROUND,
+			:ROCK,:BUG,:GHOST,:STEEL,:QMARKS,
+			:FIRE,:WATER,:GRASS,:ELECTRIC,:PSYCHIC,
+			:ICE,:DRAGON,:DARK,:FAIRY]
+		next getID(PBTypes,types[pokemon.form-1])
+	},
+	"type2"=>proc{|pokemon|
+		next if pokemon.form == 0
+		types=[:NORMAL,:FIGHTING,:FLYING,:POISON,:GROUND,
+			:ROCK,:BUG,:GHOST,:STEEL,:QMARKS,
+			:FIRE,:WATER,:GRASS,:ELECTRIC,:PSYCHIC,
+			:ICE,:DRAGON,:DARK,:FAIRY]
+		next getID(PBTypes,types[pokemon.form-1])
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities,:MULTITYPE) if pokemon.form>=1 #God form
+		next 
+	},
+	"getForm"=>proc{|pokemon|
+		echoln "FORM NO CALL #{pokemon.formNoCall}"
+		next 0  if pokemon.formNoCall == 0
+		next 2  if isConst?(pokemon.item,PBItems,:FISTPLATE)
+		next 3  if isConst?(pokemon.item,PBItems,:SKYPLATE)
+		next 4  if isConst?(pokemon.item,PBItems,:TOXICPLATE)
+		next 5  if isConst?(pokemon.item,PBItems,:EARTHPLATE)
+		next 6  if isConst?(pokemon.item,PBItems,:STONEPLATE)
+		next 7  if isConst?(pokemon.item,PBItems,:INSECTPLATE)
+		next 8  if isConst?(pokemon.item,PBItems,:SPOOKYPLATE)
+		next 9  if isConst?(pokemon.item,PBItems,:IRONPLATE)
+		next 10 if isConst?(pokemon.item,PBItems,:FLAMEPLATE)
+		next 11 if isConst?(pokemon.item,PBItems,:SPLASHPLATE)
+		next 12 if isConst?(pokemon.item,PBItems,:MEADOWPLATE)
+		next 13 if isConst?(pokemon.item,PBItems,:ZAPPLATE)
+		next 14 if isConst?(pokemon.item,PBItems,:MINDPLATE)
+		next 15 if isConst?(pokemon.item,PBItems,:ICICLEPLATE)
+		next 16 if isConst?(pokemon.item,PBItems,:DRACOPLATE)
+		next 17 if isConst?(pokemon.item,PBItems,:DREADPLATE)
+		next 18 if isConst?(pokemon.item,PBItems,:PIXIEPLATE)
+		#next 19 if isConst?(pokemon.item,PBItems,:DREADPLATE) #SOUND
+		next 1  if pokemon.formNoCall != nil && pokemon.formNoCall >= 1
+		next
+	},
+	"onSetForm"=>proc{|pokemon,form|
+		pbSeenForm(pokemon)
+	}
+})
+
+#===============================================================================
+# HISUI GROWLITHE
+#===============================================================================
+MultipleForms.register(:GROWLITHE,{
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:ROCK) if pokemon.form == 1
+		next
+	},
+})
+
 # MEGA SHIFTRY
 MultipleForms.register(:SHIFTRY,{
 	"getMegaForm"=>proc{|pokemon|
@@ -2670,7 +2733,7 @@ MultipleForms.register(:SHIFTRY,{
 		next 0
 	},
 	"getAltitude"=>proc{|pokemon|
-		next 24 if pokemon.form==1
+		next 24 if pokemon.form == 1
 		next
 	},
 	"type1"=>proc{|pokemon|

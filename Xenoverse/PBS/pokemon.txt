@@ -1571,6 +1571,7 @@ WildItemRare=FIRESTONE
 BattlerPlayerY=10
 BattlerEnemyY=23
 Evolutions=ARCANINE,Item,FIRESTONE
+FormNames=Hisuian
 [59]
 Name=Arcanine
 InternalName=ARCANINE
@@ -10692,6 +10693,7 @@ Pokedex=Rosicchia continuamente legno e rocce per affilare i denti anteriori. Ni
 BattlerPlayerY=20
 BattlerEnemyY=22
 Evolutions=BIBAREL,Level,15
+FormNames=God
 [400]
 Name=Bibarel
 InternalName=BIBAREL

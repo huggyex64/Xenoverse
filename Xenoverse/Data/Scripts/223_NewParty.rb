@@ -1053,7 +1053,8 @@ class PokemonScreen_Scene
 			Input.update
 			pbDisplay(_INTL("{1} ha cambiato forma!", @party[i].name))
 		else
-			pbStartFormChange_old(i)
+			#pbStartFormChange_old(i)
+			pbRefreshSingle(i)
 		end
 	end
 

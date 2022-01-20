@@ -357,3 +357,9 @@ WEIGHT=235
 DESCRIPTION=(MegaEvoluzione)\n L’indole pacifica di questo Pokémon lo porta a detestare questa sua forma, che è perfetta per la lotta.
 HEIGHT=12
 WEIGHT=490
+[399_1]
+DESCRIPTION=(Stile Leggende)\n Rosicchia continuamente legno e rocce per affilare i denti anteriori. Nidifica vicino all'acqua.
+[58_1]
+DESCRIPTION=(Forma di Hisui)\n Strenuo difensore del suo territorio, abbaia e morde per respingere gli intrusi.
+TYPE1=10
+TYPE2=5
