@@ -787,3 +787,4 @@
 828,SUPERRARECANDY,Caramella Super Rara,2,9999,Caramella fortemente energetica. Fa salire un Pokémon di cinque livelli.,1,0,0,
 829,ULTRARARECANDY,Caramella Ultra Rara,2,9999,Caramella incredibilmente energetica. Fa salire un Pokémon di dieci livelli.,1,0,0,
 830,ABILITYPATCH,Cerotto Abilità,1,2000,"Cerotto che permette a un Pokémon dotato di un'abilità comune di cambiarla in una più rara.",1,0,0,
+831,ANCIENTSTONE,Pietrantica,1,2100,Pietra particolare che fa evolvere determinate specie di Pokémon. Non si sa da dove provenga.,1,0,0,
