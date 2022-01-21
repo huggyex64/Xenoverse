@@ -449,16 +449,24 @@ class Version < Array
       (self <=> x) > 0
    end
 
+   def <= x
+      (self <=> x) <= 0
+   end
+
+   def >= x
+      (self <=> x) >= 0
+   end
+
    def is x
       (self <=> x) == 0
    end
 end
 
-GAME_VERSION = Version.new("1.3.15")
+GAME_VERSION = Version.new("1.3.16")
 
 
 def pbTestVersions
-   echoln Version.new('1.2') < Version.new('1.2.1')
+   echoln Version.new('1.2') >= Version.new('1.2.1')
    echoln Version.new('1.2') < Version.new('1.10.1')
    echoln Version.new('1.2') < Version.new('1.1.9')
    echoln Version.new('1.3.10') < Version.new('1.3.9')

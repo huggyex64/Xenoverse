@@ -1041,17 +1041,28 @@ def testEV
   })
 end
 
+EXPLICIT_FORM_EVOLUTIONS={
+  [PBSpecies::GROWLITHE,1]=>[PBEvolution::Item,PBItems::ANCIENTSTONE,PBSpecies::ARCANINE],
+}
+
+def pbCheckFormEvolution(pokemon)
+  if EXPLICIT_FORM_EVOLUTIONS.has_key?([pokemon.species,pokemon.form])
+    rt = yield pokemon,EXPLICIT_FORM_EVOLUTIONS[[pokemon.species,pokemon.form]][0],EXPLICIT_FORM_EVOLUTIONS[[pokemon.species,pokemon.form]][1],EXPLICIT_FORM_EVOLUTIONS[[pokemon.species,pokemon.form]][2]
+    return [rt,0]
+  end
+  return [-1,-1]
+end
 
 def testGrowlithe
-  encountered={
-    :minlevel=>28,
-    :maxlevel=>33,
-    :species=>PBSpecies::BIDOOF,
-    :form=>1
+  encountered = {
+    :minlevel => 28,
+    :maxlevel => 33,
+    :species  => PBSpecies::BIDOOF,
+    :form     => 1
   }
-  level=encountered[:minlevel]+rand(1+encountered[:maxlevel]-encountered[:minlevel])
-  poke = pbGenerateWildPokemon(encountered[:species],level)
-  if (encountered[:form]>0)
+  level = encountered[:minlevel]+rand(1+encountered[:maxlevel]-encountered[:minlevel])
+  poke  = pbGenerateWildPokemon(encountered[:species],level)
+  if (encountered[:form] > 0)
     if poke.form != encountered[:form]
       poke.forcedForm = encountered[:form]
     else

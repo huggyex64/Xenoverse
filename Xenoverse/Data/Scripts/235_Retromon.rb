@@ -196,12 +196,14 @@ def pbEncounter(enctype)
 			#getting only the valid encounters
 			pool = []
 			list.each do |e|
-				if e[:daymod]==0
-					pool.push(e)
-				elsif e[:daymod]==1 && PBDayNight.isDay?(pbGetTimeNow())
-					pool.push(e)
-				elsif e[:daymod]==2 && PBDayNight.isNight?(pbGetTimeNow())
-					pool.push(e)
+				if GAME_VERSION >= e[:minver]
+					if e[:daymod]==0
+						pool.push(e)
+					elsif e[:daymod]==1 && PBDayNight.isDay?(pbGetTimeNow())
+						pool.push(e)
+					elsif e[:daymod]==2 && PBDayNight.isNight?(pbGetTimeNow())
+						pool.push(e)
+					end
 				end
 			end
 
@@ -339,12 +341,14 @@ def pbBattleOnStepTaken
 						#getting only the valid encounters
 						pool = []
 						list.each do |e|
-							if e[:daymod]==0
-								pool.push(e)
-							elsif e[:daymod]==1 && PBDayNight.isDay?(pbGetTimeNow())
-								pool.push(e)
-							elsif e[:daymod]==2 && PBDayNight.isNight?(pbGetTimeNow())
-								pool.push(e)
+							if GAME_VERSION >= e[:minver]
+								if e[:daymod]==0
+									pool.push(e)
+								elsif e[:daymod]==1 && PBDayNight.isDay?(pbGetTimeNow())
+									pool.push(e)
+								elsif e[:daymod]==2 && PBDayNight.isNight?(pbGetTimeNow())
+									pool.push(e)
+								end
 							end
 						end
 		
@@ -371,7 +375,14 @@ def pbBattleOnStepTaken
 						if encountered != nil
 							level=encountered[:minlevel]+rand(1+encountered[:maxlevel]-encountered[:minlevel])
 							poke = pbGenerateWildPokemon(encountered[:species],level)
-							poke.forcedForm = encountered[:form]
+							if (encountered[:form]>0)
+								if poke.form != encountered[:form]
+									poke.forcedForm = encountered[:form]
+								else
+									poke.form = encountered[:form]
+								end
+								poke.resetMoves
+							end
 							pbWildPokemonBattle(poke)
 							return true
 						end
@@ -474,7 +485,7 @@ def pbRequestEncounterList()
 			result.each_index do |encId|
 				result[encId] = result[encId].split("</s>")
 			end
-
+			Log.i("DEBUG","#{result}")
 			list = []
 
 			#Handling all the parsing needed
@@ -485,7 +496,8 @@ def pbRequestEncounterList()
 					:maxlevel => enc[2].to_i,
 					:form => enc[3].to_i,
 					:daymod => enc[4].to_i,
-					:chance => enc[5].to_i
+					:chance => enc[5].to_i,
+					:minver => enc[6] == "" ? Version.new("1.0.0") : Version.new(enc[6])
 				}
 				list.push(parsed)
 			end

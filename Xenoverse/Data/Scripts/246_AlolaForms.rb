@@ -1096,9 +1096,7 @@ def pbGetEvolvedFormData(species,delta=false)
 end
 
 def pbCheckEvolutionEx(pokemon)
-
   rushnoevo=[:BLINGRIMM, :PEPEQUENO, :SCOVILE, :EXCALIBOULD, :PECKABONE]
-
   for species in rushnoevo
     return -1 if isConst?(pokemon.species,PBSpecies,species) && pokemon.form>0
   end
@@ -1106,11 +1104,18 @@ def pbCheckEvolutionEx(pokemon)
   return -1 if isConst?(pokemon.species,PBSpecies,:PICHU) && pokemon.form==1
   return -1 if isConst?(pokemon.item,PBItems,:EVERSTONE) &&
                !isConst?(pokemon.species,PBSpecies,:KADABRA)
-  ret=-1
+  
+  ret = -1
+  echoln pbGetEvolvedFormData(pokemon.species)
+  if pokemon.form > 0 && EXPLICIT_FORM_EVOLUTIONS.has_key?([pokemon.species,pokemon.form])
+    res = pbCheckFormEvolution(pokemon) {|pokemon,form1,form2,form3| yield pokemon,form1,form2,form3} 
+    ret = res[0]
+    return ret if res[1] != -1
+  end
+
   for form in pbGetEvolvedFormData(pokemon.species,pokemon.isDelta?)
 		echoln "check #{form}"
-		
-    ret=yield pokemon,form[0],form[1],form[2]
+    ret = yield pokemon,form[0],form[1],form[2]
 		echoln "check #{ret}"
     break if ret>0
   end
