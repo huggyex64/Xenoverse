@@ -2667,7 +2667,7 @@ MultipleForms.register(:BIDOOF,{
 	"type1"=>proc{|pokemon|
 		next if pokemon.form == 0
 		types=[:NORMAL,:FIGHTING,:FLYING,:POISON,:GROUND,
-			:ROCK,:BUG,:GHOST,:STEEL,:QMARKS,
+			:ROCK,:BUG,:GHOST,:STEEL,
 			:FIRE,:WATER,:GRASS,:ELECTRIC,:PSYCHIC,
 			:ICE,:DRAGON,:DARK,:FAIRY]
 		next getID(PBTypes,types[pokemon.form-1])
@@ -2675,7 +2675,7 @@ MultipleForms.register(:BIDOOF,{
 	"type2"=>proc{|pokemon|
 		next if pokemon.form == 0
 		types=[:NORMAL,:FIGHTING,:FLYING,:POISON,:GROUND,
-			:ROCK,:BUG,:GHOST,:STEEL,:QMARKS,
+			:ROCK,:BUG,:GHOST,:STEEL,
 			:FIRE,:WATER,:GRASS,:ELECTRIC,:PSYCHIC,
 			:ICE,:DRAGON,:DARK,:FAIRY]
 		next getID(PBTypes,types[pokemon.form-1])
