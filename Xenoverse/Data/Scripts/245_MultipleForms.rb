@@ -2713,20 +2713,6 @@ MultipleForms.register(:BIDOOF,{
 	}
 })
 
-#===============================================================================
-# HISUI GROWLITHE
-#===============================================================================
-MultipleForms.register(:GROWLITHE,{
-	"type2"=>proc{|pokemon|
-		next getID(PBTypes,:ROCK) if pokemon.form == 1
-		next
-	},
-	"getBaseStats"=>proc{|pokemon|
-		next [60,75,45,55,65,50] if pokemon.form==1
-		next
-	},
-})
-
 # MEGA SHIFTRY
 MultipleForms.register(:SHIFTRY,{
 	"getMegaForm"=>proc{|pokemon|

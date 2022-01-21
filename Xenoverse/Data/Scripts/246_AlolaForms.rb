@@ -2329,3 +2329,34 @@ MultipleForms.register(:MAROWAK,{
   pbSeenForm(pokemon)
 }
 })
+
+#===============================================================================
+# HISUIAN GROWLITHE
+#===============================================================================
+MultipleForms.register(:GROWLITHE,{
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:ROCK) if pokemon.form == 1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [60,75,45,55,65,50] if pokemon.form==1
+		next
+	},
+	"height"=>proc{|pokemon|
+		next 0.8 if pokemon.form == 1
+		next
+	},
+	"weight"=>proc{|pokemon|
+		next 22.7 if pokemon.form == 1
+		next
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 # skips if standard growlithe
+		movelist = [[1,:EMBER],[1,:LEER],[4,:HOWL],[8,:BITE],[12,:FLAMEWHEEL],[16,:ROCKTHROW],[20,:HELPINGHAND],[24,:FIREFANG],[28,:ROCKTOMB],[32,:CRUNCH],
+		[36,:LEER],[40,:TAKEDOWN],[40,:FLAMETHROWER],[44,:ROAR],[48,:PLAYROUGH],[52,:HEADSMASH],[56,:FLAREBLITZ]]		
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist if pokemon.form == 1
+	}
+})

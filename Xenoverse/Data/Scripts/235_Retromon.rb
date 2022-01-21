@@ -228,7 +228,14 @@ def pbEncounter(enctype)
 			if encountered != nil
 				level=encountered[:minlevel]+rand(1+encountered[:maxlevel]-encountered[:minlevel])
 				poke = pbGenerateWildPokemon(encountered[:species],level)
-				poke.forcedForm = encountered[:form]
+				if (encountered[:form]>0)
+					if poke.form != encountered[:form]
+						poke.forcedForm = encountered[:form]
+					else
+						poke.form = encountered[:form]
+					end
+					poke.resetMoves
+				end
 				pbWildPokemonBattle(poke)
 				return true
 			end
