@@ -1096,7 +1096,7 @@ def pbGetEvolvedFormData(species,delta=false)
 end
 
 def pbCheckEvolutionEx(pokemon)
-  rushnoevo=[:BLINGRIMM, :PEPEQUENO, :SCOVILE, :EXCALIBOULD, :PECKABONE]
+  rushnoevo=[:BLINGRIMM, :PEPEQUENO, :SCOVILE, :EXCALIBOULD, :PECKABONE,:BIDOOF]
   for species in rushnoevo
     return -1 if isConst?(pokemon.species,PBSpecies,species) && pokemon.form>0
   end

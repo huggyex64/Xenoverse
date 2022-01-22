@@ -2264,6 +2264,10 @@ MultipleForms.register(:AUDINO, {
 			next getID(PBAbilities, :HEALER) if pokemon.form == 1
 			next
 		},
+		"type1"=>proc{|pokemon|
+			next getID(PBTypes,:SOUND) if pokemon.form == 1
+			next
+		},
 		"type2"=>proc{|pokemon|
 			next getID(PBTypes,:FAIRY) if pokemon.form == 1
 			next
