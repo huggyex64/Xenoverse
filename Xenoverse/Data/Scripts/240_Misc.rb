@@ -1052,23 +1052,3 @@ def pbCheckFormEvolution(pokemon)
   end
   return [-1,-1]
 end
-
-def testGrowlithe
-  encountered = {
-    :minlevel => 28,
-    :maxlevel => 33,
-    :species  => PBSpecies::BIDOOF,
-    :form     => 1
-  }
-  level = encountered[:minlevel]+rand(1+encountered[:maxlevel]-encountered[:minlevel])
-  poke  = pbGenerateWildPokemon(encountered[:species],level)
-  if (encountered[:form] > 0)
-    if poke.form != encountered[:form]
-      poke.forcedForm = encountered[:form]
-    else
-      poke.form = encountered[:form]
-    end
-    poke.resetMoves
-  end
-  pbWildPokemonBattle(poke)
-end
