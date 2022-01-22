@@ -126,7 +126,30 @@ PATCHFIXES = {
 					end
 				end
 			end
-		}
+		},
+		"1.3.18" => proc{
+			#apply 1.3.11 patchfix
+			Log.i("Patch Fix","Applying patch fixes for version 1.3.18")
+			   for p in $Trainer.party
+				   if (p != nil)
+					   if p.species == PBSpecies::BIDOOF && p.forcedForm == 1
+						   p.forcedForm = nil
+						   p.form = 1
+					   end
+					   p.calcStats
+				   end
+			   end
+			   for b in $PokemonStorage.boxes
+				   for poke in b.pokemon
+					   if poke != nil
+							if poke.species == PBSpecies::BIDOOF && poke.forcedForm == 1
+								poke.forcedForm = nil
+								poke.form = 1
+							end
+					   end
+				   end
+			   end
+		   },	
 }
 
 
