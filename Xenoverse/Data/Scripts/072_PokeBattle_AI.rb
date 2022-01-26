@@ -52,6 +52,7 @@ class PokeBattle_Battle
           expectedswitch = opponent
 
           for oppo in party
+            next if oppo == nil
             ib = opponent.clone
             ib.pbInitialize(oppo,party.index(oppo),false,false)
             if (ib.hp < 1)
@@ -4163,7 +4164,7 @@ class PokeBattle_Battle
                   PBDebug.log("[UltraAI] can oneshot")
                   PBDebug.log("[UltraAI] can't outspeed oneshot")
                   goodforswitch = false
-                  nextnext
+                  next
                 end
               end
             end
