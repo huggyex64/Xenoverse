@@ -1592,6 +1592,118 @@ MultipleForms.register(:GENESECT, {
 		}
 	})
 
+# BULBASAUR
+MultipleForms.register(:BULBASAUR,{
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:FIRE) if pokemon.form==10
+		next			
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 
+		movelist = [[1,:SCRATCH],[1,:GROWL],[4,:EMBER],[8,:SMOKESCREEN],
+		[12,:DRAGONBREATH],[17,:FIREFANG],[20,:SLASH],[24,:FLAMETHROWER],
+		[28,:SCARYFACE],[32,:FIRESPIN],[36,:INFERNO],[40,:FLAREBLITZ]]	if pokemon.form == 10
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	},
+})
+
+# IVYSAUR
+MultipleForms.register(:BULBASAUR,{
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:FIRE) if pokemon.form==10
+		next			
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 
+		movelist = [[1,:SCRATCH],[1,:GROWL],[1,:EMBER],[1,:SMOKESCREEN],
+		[12,:DRAGONBREATH],[19,:FIREFANG],[24,:SLASH],[30,:FLAMETHROWER],
+		[37,:SCARYFACE],[42,:FIRESPIN],[48,:INFERNO],[54,:FLAREBLITZ] if pokemon.form == 10
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	},
+})
+
+# CHARMANDER
+MultipleForms.register(:CHARMANDER,{
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:WATER) if pokemon.form==10
+		next			
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 
+		movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
+		[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[18,:PROTECT],
+		[21,:RAINDANCE],[24,:AQUATAIL],[27,:SHELLSMASH],
+		[30,:IRONDEFENSE],[33,:HYDROPUMP],[36,:SKULLBASH]]	if pokemon.form == 10
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	},
+})
+
+# CHARMELEON
+MultipleForms.register(:CHARMELEON,{
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:WATER) if pokemon.form==10
+		next			
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 
+		movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
+		[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[20,:PROTECT],
+		[25,:RAINDANCE],[30,:AQUATAIL],[35,:SHELLSMASH],[40,:IRONDEFENSE],
+		[45,:HYDROPUMP],[50,:SKULLBASH]] if pokemon.form == 10
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	},
+})
+
+# SQUIRTLE
+MultipleForms.register(:SQUIRTLE,{
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:GRASS) if pokemon.form==10
+		next			
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 
+		movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
+		[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[18,:PROTECT],
+		[21,:RAINDANCE],[24,:AQUATAIL],[27,:SHELLSMASH],[30,:IRONDEFENSE],
+		[33,:HYDROPUMP],[36,:SKULLBASH]]	if pokemon.form == 10
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	},
+})
+
+# WARTORTLE
+MultipleForms.register(:WARTORTLE,{
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:GRASS) if pokemon.form==10
+		next			
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 
+		movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
+		[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[20,:PROTECT],
+		[25,:RAINDANCE],[30,:AQUATAIL],[35,:SHELLSMASH],
+		[40,:IRONDEFENSE],[45,:HYDROPUMP],[50,:SKULLBASH]] if pokemon.form == 10
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	},
+})
+
 ##### Mega Evolution forms #####################################################
 
 # VENUSAUR
@@ -1602,6 +1714,10 @@ MultipleForms.register(:VENUSAUR,{
 		},
 		"getUnmegaForm"=>proc{|pokemon|
 			next 0 if pokemon.form == 1
+		},
+		"type1"=>proc{|pokemon|
+			next getID(PBTypes,:FIRE) if pokemon.form==10
+			next			
 		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Venusaur") if pokemon.form==1
@@ -1614,6 +1730,17 @@ MultipleForms.register(:VENUSAUR,{
 		"ability"=>proc{|pokemon|
 			next getID(PBAbilities,:THICKFAT) if pokemon.form==1
 			next
+		},
+		"getMoveList"=>proc{|pokemon|
+			next if pokemon.form==0 
+			movelist = [[1,:DRAGONCLAW],[1,:AIRSLASH],[1,:HEATWAVE],[1,:SCRATCH],
+			[1,:GROWL],[1,:EMBER],[1,:SMOKESCREEN],[12,:DRAGONBREATH],[19,:FIREFANG],
+			[24,:SLASH],[30,:FLAMETHROWER],[39,:SCARYFACE],[46,:FIRESPIN],
+			[54,:INFERNO],[62,:FLAREBLITZ]]		if pokemon.form == 10
+			for i in movelist
+				i[1]=getConst(PBMoves,i[1])
+			end
+			next movelist
 		},
 		"height"=>proc{|pokemon|
 			next 24 if pokemon.form==1
@@ -1638,6 +1765,10 @@ MultipleForms.register(:CHARIZARD,{
 		"getUnmegaForm"=>proc{|pokemon|
 			next 0 if pokemon.form == 1 || pokemon.form == 2
 		},
+		"type1"=>proc{|pokemon|
+			next getID(PBTypes,:WATER) if pokemon.form==10
+			next			
+		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Charizard Y") if pokemon.form==1
 			next _INTL("Mega Charizard X") if pokemon.form==2
@@ -1651,6 +1782,17 @@ MultipleForms.register(:CHARIZARD,{
 		"type2"=>proc{|pokemon|
 			next getID(PBTypes,:DRAGON) if pokemon.form==2
 			next
+		},
+		"getMoveList"=>proc{|pokemon|
+			next if pokemon.form==0 
+			movelist = [[1,:FLASHCANNON],[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],
+			[1,:WITHDRAW],[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[20,:PROTECT],
+			[25,:RAINDANCE],[30,:AQUATAIL],[35,:SHELLSMASH],[42,:IRONDEFENSE],
+			[49,:HYDROPUMP],[56,:SKULLBASH]]	if pokemon.form == 10
+			for i in movelist
+				i[1]=getConst(PBMoves,i[1])
+			end
+			next movelist
 		},
 		"ability"=>proc{|pokemon|
 			next getID(PBAbilities,:DROUGHT) if pokemon.form==1
@@ -1676,6 +1818,10 @@ MultipleForms.register(:BLASTOISE,{
 		"getUnmegaForm"=>proc{|pokemon|
 			next 0 if pokemon.form == 1
 		},
+		"type1"=>proc{|pokemon|
+			next getID(PBTypes,:GRASS) if pokemon.form==10
+			next			
+		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Blastoise") if pokemon.form==1
 			next
@@ -1687,6 +1833,17 @@ MultipleForms.register(:BLASTOISE,{
 		"ability"=>proc{|pokemon|
 			next getID(PBAbilities,:MEGALAUNCHER) if pokemon.form==1
 			next
+		},
+		"getMoveList"=>proc{|pokemon|
+			next if pokemon.form==0 
+			movelist = [[1,:PETALBLIZZARD],[1,:TACKLE],[1,:GROWL],[1,:VINEWHIP],[1,:PETALDANCE],
+			[1,:GROWTH],[9,:LEECHSEED],[12,:RAZORLEAF],[15,:SLEEPPOWDER],
+			[15,:POISONPOWDER],[20,:SEEDBOMB],[25,:TAKEDOWN],[30,:SWEETSCENT],
+			[37,:SYNTHESIS],[44,:WORRYSEED],[51,:DOUBLEEDGE],[58,:SOLARBEAM]]	if pokemon.form == 10
+			for i in movelist
+				i[1]=getConst(PBMoves,i[1])
+			end
+			next movelist
 		},
 		"weight"=>proc{|pokemon|
 			next 1011 if pokemon.form==1
@@ -2619,7 +2776,7 @@ MultipleForms.register(:PIKACHUX,{
 		#}
 	})
 #===============================================================================
-# PIKACHU
+# TOXTRICITY
 #===============================================================================
 MultipleForms.register(:TOXTRICITY,{
 	"getFormOnCreation"=>proc{|pokemon|
@@ -2690,7 +2847,7 @@ MultipleForms.register(:PIKACHU,{
 			i[1]=getConst(PBMoves,i[1])
 		end
 		next movelist
-	}
+	},
 	"onSetForm"=>proc{|pokemon,form|
 		pbSeenForm(pokemon)
 	}
