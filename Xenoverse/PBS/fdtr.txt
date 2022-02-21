@@ -384,7 +384,7 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Swap Style)\n It shelters itself in its shell, then strikes back with spouts of water at every opportunity.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
-(Stile Swap\n Controlla abilmente le orecchie e la coda coperte di pelo, mantenendo l’equilibrio mentre nuota.
+(Stile Swap)\n Controlla abilmente le orecchie e la coda coperte di pelo, mantenendo l’equilibrio mentre nuota.
 (Swap Style)\n It cleverly controls its furry ears and tail to maintain its balance while swimming.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
