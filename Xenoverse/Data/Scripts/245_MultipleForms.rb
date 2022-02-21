@@ -1620,7 +1620,7 @@ MultipleForms.register(:BULBASAUR,{
 		next if pokemon.form==0 
 		movelist = [[1,:SCRATCH],[1,:GROWL],[1,:EMBER],[1,:SMOKESCREEN],
 		[12,:DRAGONBREATH],[19,:FIREFANG],[24,:SLASH],[30,:FLAMETHROWER],
-		[37,:SCARYFACE],[42,:FIRESPIN],[48,:INFERNO],[54,:FLAREBLITZ] if pokemon.form == 10
+		[37,:SCARYFACE],[42,:FIRESPIN],[48,:INFERNO],[54,:FLAREBLITZ]] if pokemon.form == 10
 		for i in movelist
 			i[1]=getConst(PBMoves,i[1])
 		end
