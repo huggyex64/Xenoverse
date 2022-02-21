@@ -1599,7 +1599,7 @@ MultipleForms.register(:BULBASAUR,{
 		next			
 	},
 	"type2"=>proc{|pokemon|
-		next getID(PBTypes,:FIRE) if pokemon.form==10
+		next getID(PBTypes,:POISON) if pokemon.form==10
 		next			
 	},
 	"getMoveList"=>proc{|pokemon|
@@ -1615,13 +1615,13 @@ MultipleForms.register(:BULBASAUR,{
 })
 
 # IVYSAUR
-MultipleForms.register(:BULBASAUR,{
+MultipleForms.register(:IVYSAUR,{
 	"type1"=>proc{|pokemon|
 		next getID(PBTypes,:FIRE) if pokemon.form==10
 		next			
 	},
 	"type2"=>proc{|pokemon|
-		next getID(PBTypes,:FIRE) if pokemon.form==10
+		next getID(PBTypes,:POISON) if pokemon.form==10
 		next			
 	},
 	"getMoveList"=>proc{|pokemon|
