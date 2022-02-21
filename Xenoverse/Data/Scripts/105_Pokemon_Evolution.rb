@@ -69,7 +69,7 @@ module PBEvolution
      2,2,2,2,3,   # ItemMale, ItemFemale, DayHoldItem, NightHoldItem, HasMove
      4,1,1,1,4,   # HasInParty, LevelMale, LevelFemale, Location, TradeSpecies
      1,1,1,1,5,   # LevelDay, LevelNight, LevelDarkInParty, LevelRain, HappinessMoveType
-     1,1,1,1,1    # Custom 1-5
+     1,1,1,1,1,1,1    # Custom 1-5
   ]
 end
 

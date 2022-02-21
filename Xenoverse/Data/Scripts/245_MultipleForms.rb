@@ -1597,11 +1597,11 @@ MultipleForms.register(:GENESECT, {
 # VENUSAUR
 MultipleForms.register(:VENUSAUR,{
 		"getMegaForm"=>proc{|pokemon|
-			next 1 if isConst?(pokemon.item,PBItems,:VENUSAURITE)
+			next 1 if isConst?(pokemon.item,PBItems,:VENUSAURITE) && pokemon.form == 0
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
-			next 0
+			next 0 if pokemon.form == 1
 		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Venusaur") if pokemon.form==1
@@ -1631,12 +1631,12 @@ MultipleForms.register(:VENUSAUR,{
 # CHARIZARD
 MultipleForms.register(:CHARIZARD,{
 		"getMegaForm"=>proc{|pokemon|
-			next 1 if isConst?(pokemon.item,PBItems,:CHARIZARDITET)
-			next 2 if isConst?(pokemon.item,PBItems,:CHARIZARDITEX)
+			next 1 if isConst?(pokemon.item,PBItems,:CHARIZARDITET) && pokemon.form == 0
+			next 2 if isConst?(pokemon.item,PBItems,:CHARIZARDITEX) && pokemon.form == 0
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
-			next 0
+			next 0 if pokemon.form == 1 || pokemon.form == 2
 		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Charizard Y") if pokemon.form==1
@@ -1670,11 +1670,11 @@ MultipleForms.register(:CHARIZARD,{
 # BLASTOISE
 MultipleForms.register(:BLASTOISE,{
 		"getMegaForm"=>proc{|pokemon|
-			next 1 if isConst?(pokemon.item,PBItems,:BLASTOISINITE)
+			next 1 if isConst?(pokemon.item,PBItems,:BLASTOISINITE) && pokemon.form == 0
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
-			next 0
+			next 0 if pokemon.form == 1
 		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Blastoise") if pokemon.form==1
@@ -2662,6 +2662,38 @@ MultipleForms.register(:TOXTRICITY,{
 	#   next [86,68,72,106,109,66] if pokemon.gender==1
 	#   next
 	#}
+})
+#===============================================================================
+# PIKACHU
+#===============================================================================
+MultipleForms.register(:PIKACHU,{
+	"getAltitude"=>proc{|pokemon|
+		next 24 if pokemon.form == 1
+		next
+	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:FLYING) if pokemon.form==1
+		next getID(PBTypes,:WATER) if pokemon.form==2
+		next 
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 # skips if it's melody
+		movelist = [[1,:QUICKATTACK],[1,:TAILWHIP],[1,:NASTYPLOT],[1,:SWEETKISS],[1,:NUZZLE],
+		[1,:CHARM],[1,:GROWL],[1,:PLAYNICE],[1,:THUNDERSHOCK],[1,:THUNDERWAVE],[8,:DOUBLETEAM],
+		[12,:ELECTROBALL],[16,:FEINT],[20,:SPARK],[24,:AGILITY],[28,:SLAM],[32,:DISCHARGE],
+		[36,:THUNDERBOLT],[38,:FLY],[40,:LIGHTSCREEN],[44,:THUNDER]]		if pokemon.form == 1
+		movelist = [[1,:QUICKATTACK],[1,:TAILWHIP],[1,:NASTYPLOT],[1,:SWEETKISS],[1,:NUZZLE],
+		[1,:CHARM],[1,:GROWL],[1,:PLAYNICE],[1,:THUNDERSHOCK],[1,:THUNDERWAVE],[8,:DOUBLETEAM],
+		[12,:ELECTROBALL],[16,:FEINT],[20,:SPARK],[24,:AGILITY],[28,:SLAM],[32,:DISCHARGE],
+		[36,:THUNDERBOLT],[38,:SURF],[40,:LIGHTSCREEN],[44,:THUNDER]]		if pokemon.form == 2
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	}
+	"onSetForm"=>proc{|pokemon,form|
+		pbSeenForm(pokemon)
+	}
 })
 
 #===============================================================================
