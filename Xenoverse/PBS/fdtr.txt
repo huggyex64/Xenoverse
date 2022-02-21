@@ -372,7 +372,7 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Swap Style)\n The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
-(Stile Swap\n Ha un'indole spietata. Durante la lotta frusta con la forte coda e taglia con artigli affilati.
+(Stile Swap)\n Ha un’indole spietata. Durante la lotta frusta con la forte coda e taglia con artigli affilati.
 (Swap Style)\n It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
