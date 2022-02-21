@@ -400,12 +400,15 @@ TYPE2=5
 [1_10]
 DESCRIPTION=(Stile Swap)\n Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
 TYPE1=10
+TYPE2=3
 [2_10]
 DESCRIPTION=(Stile Swap)\n Quando il bocciolo che ha sul dorso si gonfia, emana un dolce profumo. È indice dell'imminente fioritura.
 TYPE1=10
+TYPE2=3
 [3_10]
 DESCRIPTION=(Stile Swap)\n Si riempie di energia grazie ai grandi petali del fiore, che spalanca catturando i raggi solari.
 TYPE1=10
+TYPE2=3
 [4_10]
 DESCRIPTION=(Stile Swap)\n La fiamma sulla punta della coda indica la sua vitalità. Se sta bene, la fiamma è più ardente.
 TYPE1=11
@@ -415,6 +418,7 @@ TYPE1=11
 [6_10]
 DESCRIPTION=(Stile Swap)\n Quando emette le sue lingue di fuoco, la fiamma rossa sulla punta della coda brucia più intensamente.
 TYPE1=11
+TYPE2=2
 [7_10]
 DESCRIPTION=(Stile Swap)\n Si ritira nel suo guscio e, alla prima occasione, contrattacca colpendo il nemico con spruzzi d'acqua.
 TYPE1=12
