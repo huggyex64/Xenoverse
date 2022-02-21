@@ -1846,6 +1846,10 @@ MultipleForms.register(:BLASTOISE,{
 			next getID(PBTypes,:GRASS) if pokemon.form==10
 			next			
 		},
+		"type2"=>proc{|pokemon|
+			next getID(PBTypes,:GRASS) if pokemon.form==10
+			next			
+		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Blastoise") if pokemon.form==1
 			next
