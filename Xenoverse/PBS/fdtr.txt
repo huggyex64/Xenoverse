@@ -354,3 +354,39 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Hisui)\n Strenuo difensore del suo territorio, abbaia e morde per respingere gli intrusi.
 (Hisui Form)\n It is very protective of its territory. It will bark and bite to repel intruders from its space.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
+(Swap Style)\n A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n Quando il bocciolo che ha sul dorso si gonfia, emana un dolce profumo. È indice dell'imminente fioritura.
+(Swap Style)\n When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower's coming bloom.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n Si riempie di energia grazie ai grandi petali del fiore, che spalanca catturando i raggi solari.
+(Swap Style)\n By spreading the broad petals of its flower and catching the sun's rays,\n it fills its body with power.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n La fiamma sulla punta della coda indica la sua vitalità. Se sta bene, la fiamma è più ardente.
+(Swap Style)\n The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap\n Ha un'indole spietata. Durante la lotta frusta con la forte coda e taglia con artigli affilati.
+(Swap Style)\n It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n Quando emette le sue lingue di fuoco, la fiamma rossa sulla punta della coda brucia più intensamente.
+(Swap Style)\n By When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n Si ritira nel suo guscio e, alla prima occasione, contrattacca colpendo il nemico con spruzzi d'acqua.
+(Swap Style)\n It shelters itself in its shell, then strikes back with spouts of water at every opportunity.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap\n Controlla abilmente le orecchie e la coda coperte di pelo, mantenendo l’equilibrio mentre nuota.
+(Swap Style)\n It cleverly controls its furry ears and tail to maintain its balance while swimming.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n I getti d'acqua lanciati dai cannoni sul suo guscio riescono a perforare persino l'acciaio.
+(Swap Style)\n By The jets of water it spouts from the rocket cannons on its shell can punch through thick steel.

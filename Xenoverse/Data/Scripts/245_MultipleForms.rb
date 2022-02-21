@@ -1598,6 +1598,10 @@ MultipleForms.register(:BULBASAUR,{
 		next getID(PBTypes,:FIRE) if pokemon.form==10
 		next			
 	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:FIRE) if pokemon.form==10
+		next			
+	},
 	"getMoveList"=>proc{|pokemon|
 		next if pokemon.form==0 
 		movelist = [[1,:SCRATCH],[1,:GROWL],[4,:EMBER],[8,:SMOKESCREEN],
@@ -1616,6 +1620,10 @@ MultipleForms.register(:BULBASAUR,{
 		next getID(PBTypes,:FIRE) if pokemon.form==10
 		next			
 	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:FIRE) if pokemon.form==10
+		next			
+	},
 	"getMoveList"=>proc{|pokemon|
 		next if pokemon.form==0 
 		movelist = [[1,:SCRATCH],[1,:GROWL],[1,:EMBER],[1,:SMOKESCREEN],
@@ -1631,6 +1639,10 @@ MultipleForms.register(:BULBASAUR,{
 # CHARMANDER
 MultipleForms.register(:CHARMANDER,{
 	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:WATER) if pokemon.form==10
+		next			
+	},
+	"type2"=>proc{|pokemon|
 		next getID(PBTypes,:WATER) if pokemon.form==10
 		next			
 	},
@@ -1653,6 +1665,10 @@ MultipleForms.register(:CHARMELEON,{
 		next getID(PBTypes,:WATER) if pokemon.form==10
 		next			
 	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:WATER) if pokemon.form==10
+		next			
+	},
 	"getMoveList"=>proc{|pokemon|
 		next if pokemon.form==0 
 		movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
@@ -1672,12 +1688,16 @@ MultipleForms.register(:SQUIRTLE,{
 		next getID(PBTypes,:GRASS) if pokemon.form==10
 		next			
 	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:GRASS) if pokemon.form==10
+		next			
+	},
 	"getMoveList"=>proc{|pokemon|
 		next if pokemon.form==0 
-		movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
-		[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[18,:PROTECT],
-		[21,:RAINDANCE],[24,:AQUATAIL],[27,:SHELLSMASH],[30,:IRONDEFENSE],
-		[33,:HYDROPUMP],[36,:SKULLBASH]]	if pokemon.form == 10
+		movelist = [[1,:TACKLE],[1,:GROWL],[3,:VINEWHIP],[6,:GROWTH],
+		[9,:LEECHSEED],[12,:RAZORLEAF],[15,:SLEEPPOWDER],[15,:POISONPOWDER],
+		[18,:SEEDBOMB],[21,:TAKEDOWN],[24,:SWEETSCENT],[27,:SYNTHESIS],
+		[30,:WORRYSEED],[33,:DOUBLEEDGE],[36,:SOLARBEAM]]	if pokemon.form == 10
 		for i in movelist
 			i[1]=getConst(PBMoves,i[1])
 		end
@@ -1691,12 +1711,16 @@ MultipleForms.register(:WARTORTLE,{
 		next getID(PBTypes,:GRASS) if pokemon.form==10
 		next			
 	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:GRASS) if pokemon.form==10
+		next			
+	},
 	"getMoveList"=>proc{|pokemon|
 		next if pokemon.form==0 
-		movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
-		[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[20,:PROTECT],
-		[25,:RAINDANCE],[30,:AQUATAIL],[35,:SHELLSMASH],
-		[40,:IRONDEFENSE],[45,:HYDROPUMP],[50,:SKULLBASH]] if pokemon.form == 10
+		movelist = [[1,:TACKLE],[1,:GROWL],[1,:VINEWHIP],[1,:GROWTH],
+		[9,:LEECHSEED],[12,:RAZORLEAF],[15,:SLEEPPOWDER],[15,:POISONPOWDER],
+		[20,:SEEDBOMB],[25,:TAKEDOWN],[30,:SWEETSCENT],[35,:SYNTHESIS],
+		[40,:WORRYSEED],[45,:DOUBLEEDGE],[58,:SOLARBEAM]] if pokemon.form == 10
 		for i in movelist
 			i[1]=getConst(PBMoves,i[1])
 		end

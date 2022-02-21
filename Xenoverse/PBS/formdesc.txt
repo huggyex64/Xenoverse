@@ -397,3 +397,34 @@ DESCRIPTION=(Stile Leggende)\n Rosicchia continuamente legno e rocce per affilar
 DESCRIPTION=(Forma di Hisui)\n Strenuo difensore del suo territorio, abbaia e morde per respingere gli intrusi.
 TYPE1=10
 TYPE2=5
+[1_10]
+DESCRIPTION=(Stile Swap)\n Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
+TYPE1=10
+[2_10]
+DESCRIPTION=(Stile Swap)\n Quando il bocciolo che ha sul dorso si gonfia, emana un dolce profumo. È indice dell'imminente fioritura.
+TYPE1=10
+[3_10]
+DESCRIPTION=(Stile Swap)\n Si riempie di energia grazie ai grandi petali del fiore, che spalanca catturando i raggi solari.
+TYPE1=10
+[4_10]
+DESCRIPTION=(Stile Swap)\n La fiamma sulla punta della coda indica la sua vitalità. Se sta bene, la fiamma è più ardente.
+TYPE1=11
+[5_10]
+DESCRIPTION=(Stile Swap)\n Ha un’indole spietata. Durante la lotta frusta con la forte coda e taglia con artigli affilati.
+TYPE1=11
+[6_10]
+DESCRIPTION=(Stile Swap)\n Quando emette le sue lingue di fuoco, la fiamma rossa sulla punta della coda brucia più intensamente.
+TYPE1=11
+[7_10]
+DESCRIPTION=(Stile Swap)\n Si ritira nel suo guscio e, alla prima occasione, contrattacca colpendo il nemico con spruzzi d'acqua.
+TYPE1=12
+[8_10]
+DESCRIPTION=(Stile Swap)\n Controlla abilmente le orecchie e la coda coperte di pelo, mantenendo l’equilibrio mentre nuota.
+TYPE1=12
+[9_10]
+DESCRIPTION=(Stile Swap)\n I getti d'acqua lanciati dai cannoni sul suo guscio riescono a perforare persino l'acciaio.
+TYPE1=12
+[25_1]
+TYPE2=2
+[25_2]
+TYPE2=11
