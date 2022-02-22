@@ -153,7 +153,7 @@ def pbOnlineLobby
     return
   end
   
-  oldParty = $Trainer.party
+  #oldParty = $Trainer.party
   $Trainer.party.each do |pkmn|
     pkmn.level=50
     pkmn.calcStats
@@ -1120,293 +1120,81 @@ module CableClub
     Kernel.pbMessageDisplay(msgwindow, message + "...".slice(0..(frame/8) % 3) + "\\^", false)
   end
 
+# NO !defined?(ESSENTIALSVERSION) && !defined?(ESSENTIALS_VERSION)
+# NO defined?(ESSENTIALSVERSION) && ESSENTIALSVERSION =~ /^17/
+# NO defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
+
   # Renamed constants, yay...
-  if !defined?(ESSENTIALSVERSION) && !defined?(ESSENTIALS_VERSION)
-    def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party)
-      pbHealAll # Avoids having to transmit damaged state.
-      partner_party.each {|pkmn| pkmn.heal}
-      scene = pbNewBattleScene
-      battle = PokeBattle_CableClub.new(connection, client_id, scene, partner_party, partner)
-      battle.fullparty1 = battle.fullparty2 = true
-      battle.endspeech = ""
-      battle.items = []
-      battle.internalbattle = false
-      case battle_type
-      when :single
-        battle.doublebattle = false
-      when :double
-        battle.doublebattle = true
-      else
-        raise "Unknown battle type: #{battle_type}"
-      end
-      trainerbgm = pbGetTrainerBattleBGM(partner)
-      Events.onStartBattle.trigger(nil, nil)
-      pbPrepareBattle(battle)
-      exc = nil
-      pbBattleAnimation(trainerbgm, partner.trainertype, partner.name) {
-        pbSceneStandby {
-          # XXX: Hope we call rand in the same order in both clients...
-          srand(seed)
-          begin
-            battle.pbStartBattle(true)
-          rescue Connection::Disconnected
-            scene.pbEndBattle(0)
-            exc = $!
-          end
-        }
-      }
-      raise exc if exc
+  def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party)
+    echoln "AOOOOOOOOOOO SO PARTITO IO"
+    pbHealAll # Avoids having to transmit damaged state.
+    partner_party.each {|pkmn| pkmn.heal}
+    scene = pbNewBattleScene
+    battle = PokeBattle_CableClub.new(connection, client_id, scene, partner_party, partner)
+    battle.fullparty1 = battle.fullparty2 = true
+    battle.endspeech = ""
+    battle.items = []
+    battle.internalbattle = false
+    case battle_type
+    when :single
+      battle.doublebattle = false
+    when :double
+      battle.doublebattle = true
+    else
+      raise "Unknown battle type: #{battle_type}"
     end
+    trainerbgm = pbGetTrainerBattleBGM(partner)
+    Events.onStartBattle.trigger(nil, nil)
+    pbPrepareBattle(battle)
+    exc = nil
+    pbBattleAnimation(trainerbgm, partner.trainertype, partner.name) {
+      pbSceneStandby {
+        # XXX: Hope we call rand in the same order in both clients...
+        srand(seed)
+        begin
+          battle.pbStartBattle(true)
+        rescue Connection::Disconnected
+          scene.pbEndBattle(0)
+          exc = $!
+        end
+      }
+    }
+    raise exc if exc
+  end
 
-    def self.do_trade(index, you, your_pkmn)
-      my_pkmn = $Trainer.party[index]
-      your_pkmn.obtainMode = 2 # traded
-      $Trainer.seen[your_pkmn.species] = true
-      $Trainer.owned[your_pkmn.species] = true
-      pbSeenForm(your_pkmn)
-      pbFadeOutInWithMusic(99999) {
-        scene = PokemonTradeScene.new
-        scene.pbStartScreen(my_pkmn, your_pkmn, $Trainer.name, you.name)
-        scene.pbTrade
-        scene.pbEndScreen
-      }
-      $Trainer.party[index] = your_pkmn
-    end
+  def self.do_trade(index, you, your_pkmn)
+    my_pkmn = $Trainer.party[index]
+    your_pkmn.obtainMode = 2 # traded
+    $Trainer.seen[your_pkmn.species] = true
+    $Trainer.owned[your_pkmn.species] = true
+    pbSeenForm(your_pkmn)
+    pbFadeOutInWithMusic(99999) {
+      scene = PokemonTradeScene.new
+      scene.pbStartScreen(my_pkmn, your_pkmn, $Trainer.name, you.name)
+      scene.pbTrade
+      scene.pbEndScreen
+    }
+    $Trainer.party[index] = your_pkmn
+  end
 
-    def self.choose_pokemon
-      chosen = -1
-      pbFadeOutIn(99999) {
-        scene = PokemonScreen_Scene.new
-        screen = PokemonScreen.new(scene, $Trainer.party)
-        screen.pbStartScene(_INTL("Choose a Pokémon."), false)
-        chosen = screen.pbChoosePokemon
-        screen.pbEndScene
-      }
-      return chosen
-    end
-    
-    def self.check_pokemon(pkmn)
-      pbFadeOutIn(99999) {
-        scene = PokemonSummaryScene.new
-        screen = PokemonSummary.new(scene)
-        screen.pbStartScreen([pkmn],0)
-      }
-    end
-  elsif defined?(ESSENTIALSVERSION) && ESSENTIALSVERSION =~ /^17/
-    def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party)
-      pbHealAll # Avoids having to transmit damaged state.
-      partner_party.each {|pkmn| pkmn.heal}
-      scene = pbNewBattleScene
-      battle = PokeBattle_CableClub.new(connection, client_id, scene, partner_party, partner)
-      battle.fullparty1 = battle.fullparty2 = true
-      battle.endspeech = ""
-      battle.items = []
-      battle.internalbattle = false
-      case battle_type
-      when :single
-        battle.doublebattle = false
-      when :double
-        battle.doublebattle = true
-      else
-        raise "Unknown battle type: #{battle_type}"
-      end
-      trainerbgm = pbGetTrainerBattleBGM(partner)
-      Events.onStartBattle.trigger(nil, nil)
-      # XXX: Hope both battles take place in the same area for things like Nature Power.
-      pbPrepareBattle(battle)
-      exc = nil
-      pbBattleAnimation(trainerbgm, battle.doublebattle ? 3 : 1, [partner]) {
-        pbSceneStandby {
-          # XXX: Hope we call rand in the same order in both clients...
-          srand(seed)
-          begin
-            battle.pbStartBattle(true)
-          rescue Connection::Disconnected
-            scene.pbEndBattle(0)
-            exc = $!
-          end
-        }
-      }
-      raise exc if exc
-    end
-
-    def self.do_trade(index, you, your_pkmn)
-      my_pkmn = $Trainer.party[index]
-      your_pkmn.obtainMode = 2 # traded
-      $Trainer.seen[your_pkmn.species] = true
-      $Trainer.owned[your_pkmn.species] = true
-      pbSeenForm(your_pkmn)
-      pbFadeOutInWithMusic(99999) {
-        scene = PokemonTrade_Scene.new
-        scene.pbStartScreen(my_pkmn, your_pkmn, $Trainer.name, you.name)
-        scene.pbTrade
-        scene.pbEndScreen
-      }
-      $Trainer.party[index] = your_pkmn
-    end
-
-    def self.choose_pokemon
-      chosen = -1
-      pbFadeOutIn(99999) {
-        scene = PokemonParty_Scene.new
-        screen = PokemonPartyScreen.new(scene, $Trainer.party)
-        screen.pbStartScene(_INTL("Choose a Pokémon."), false)
-        chosen = screen.pbChoosePokemon
-        screen.pbEndScene
-      }
-      return chosen
-    end
-    
-    def self.check_pokemon(pkmn)
-      pbFadeOutIn(99999) {
-        scene = PokemonSummary_Scene.new
-        screen = PokemonSummaryScreen.new(scene)
-        screen.pbStartScreen([pkmn],0)
-      }
-    end
-  elsif defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
-    def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party)
-      pbHealAll # Avoids having to transmit damaged state.
-      partner_party.each {|pkmn| pkmn.heal} # back to back battles desync without it.
-      scene = pbNewBattleScene
-      battle = PokeBattle_CableClub.new(connection, client_id, scene, partner_party, partner)
-      battle.endSpeeches = [""]
-      battle.items = []
-      battle.internalBattle = false
-      case battle_type
-      when :single
-        setBattleRule("single")
-      when :double
-        setBattleRule("double")
-      else
-        raise "Unknown battle type: #{battle_type}"
-      end
-      trainerbgm = pbGetTrainerBattleBGM(partner)
-      Events.onStartBattle.trigger(nil, nil)
-      # XXX: Hope both battles take place in the same area for things like Nature Power.
-      pbPrepareBattle(battle)
-      $PokemonTemp.clearBattleRules
-      exc = nil
-      pbBattleAnimation(trainerbgm, (battle.singleBattle?) ? 1 : 3, [partner]) {
-        pbSceneStandby {
-          # XXX: Hope we call rand in the same order in both clients...
-          srand(seed)
-          begin
-            battle.pbStartBattle
-          rescue Connection::Disconnected
-            scene.pbEndBattle(0)
-            exc = $!
-          end
-        }
-      }
-      raise exc if exc
-    end
-
-    def self.do_trade(index, you, your_pkmn)
-      my_pkmn = $Trainer.party[index]
-      your_pkmn.obtainMode = 2 # traded
-      $Trainer.seen[your_pkmn.species] = true
-      $Trainer.owned[your_pkmn.species] = true
-      pbSeenForm(your_pkmn)
-      pbFadeOutInWithMusic(99999) {
-        scene = PokemonTrade_Scene.new
-        scene.pbStartScreen(my_pkmn, your_pkmn, $Trainer.name, you.name)
-        scene.pbTrade
-        scene.pbEndScreen
-      }
-      $Trainer.party[index] = your_pkmn
-    end
-
-    def self.choose_pokemon
-      chosen = -1
-      pbFadeOutIn(99999) {
-        scene = PokemonParty_Scene.new
-        screen = PokemonPartyScreen.new(scene, $Trainer.party)
-        screen.pbStartScene(_INTL("Choose a Pokémon."), false)
-        chosen = screen.pbChoosePokemon
-        screen.pbEndScene
-      }
-      return chosen
-    end
-    
-    def self.check_pokemon(pkmn)
-      pbFadeOutIn(99999) {
-        scene = PokemonSummary_Scene.new
-        screen = PokemonSummaryScreen.new(scene)
-        screen.pbStartScreen([pkmn],0)
-      }
-    end
-  else
-    def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party)
-      pbHealAll # Avoids having to transmit damaged state.
-      partner_party.each {|pkmn| pkmn.heal}
-      scene = pbNewBattleScene
-      battle = PokeBattle_CableClub.new(connection, client_id, scene, partner_party, partner)
-      battle.fullparty1 = battle.fullparty2 = true
-      battle.endspeech = ""
-      battle.items = []
-      battle.internalbattle = false
-      case battle_type
-      when :single
-        battle.doublebattle = false
-      when :double
-        battle.doublebattle = true
-      else
-        raise "Unknown battle type: #{battle_type}"
-      end
-      trainerbgm = pbGetTrainerBattleBGM(partner)
-      Events.onStartBattle.trigger(nil, nil)
-      pbPrepareBattle(battle)
-      exc = nil
-      pbBattleAnimation(trainerbgm, partner.trainertype, partner.name) {
-        pbSceneStandby {
-          # XXX: Hope we call rand in the same order in both clients...
-          srand(seed)
-          begin
-            battle.pbStartBattle(true)
-          rescue Connection::Disconnected
-            scene.pbEndBattle(0)
-            exc = $!
-          end
-        }
-      }
-      raise exc if exc
-    end
-
-    def self.do_trade(index, you, your_pkmn)
-      my_pkmn = $Trainer.party[index]
-      your_pkmn.obtainMode = 2 # traded
-      $Trainer.seen[your_pkmn.species] = true
-      $Trainer.owned[your_pkmn.species] = true
-      pbSeenForm(your_pkmn)
-      pbFadeOutInWithMusic(99999) {
-        scene = PokemonTradeScene.new
-        scene.pbStartScreen(my_pkmn, your_pkmn, $Trainer.name, you.name)
-        scene.pbTrade
-        scene.pbEndScreen
-      }
-      $Trainer.party[index] = your_pkmn
-    end
-
-    def self.choose_pokemon
-      chosen = -1
-      pbFadeOutIn(99999) {
-        scene = PokemonScreen_Scene.new
-        screen = PokemonScreen.new(scene, $Trainer.party)
-        screen.pbStartScene(_INTL("Choose a Pokémon."), false)
-        chosen = screen.pbChoosePokemon
-        screen.pbEndScene
-      }
-      return chosen
-    end
-    
-    def self.check_pokemon(pkmn)
-      pbFadeOutIn(99999) {
-        scene = PokemonSummaryScene.new
-        screen = PokemonSummary.new(scene)
-        screen.pbStartScreen([pkmn],0)
-      }
-    end
+  def self.choose_pokemon
+    chosen = -1
+    pbFadeOutIn(99999) {
+      scene = PokemonScreen_Scene.new
+      screen = PokemonScreen.new(scene, $Trainer.party)
+      screen.pbStartScene(_INTL("Choose a Pokémon."), false)
+      chosen = screen.pbChoosePokemon
+      screen.pbEndScene
+    }
+    return chosen
+  end
+  
+  def self.check_pokemon(pkmn)
+    pbFadeOutIn(99999) {
+      scene = PokemonSummaryScene.new
+      screen = PokemonSummary.new(scene)
+      screen.pbStartScreen([pkmn],0)
+    }
   end
 
   def self.write_party(writer)
@@ -1757,108 +1545,47 @@ class PokeBattle_CableClub < PokeBattle_Battle
     return ret
   end
 
-  # Rearrange the battlers into a consistent order, do the function, then restore the order.
-  if defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
-    def pbCalculatePriority(*args)
-      begin
-        battlers = @battlers.dup
-        order = CableClub::pokemon_order(@client_id)
-        for i in 0..3
-          @battlers[i] = battlers[order[i]]
-        end
-        return super(*args)
-      ensure
-        @battlers = battlers
-      end
-    end
-    
-    def pbCanShowCommands?(idxBattler)
-      last_index = pbGetOpposingIndicesInOrder(0).reverse.last
-      return true if last_index==idxBattler
-      return super(idxBattler)
-    end
-    
-    # avoid unnecessary checks and check in same order
-    def pbEORSwitch(favorDraws=false)
-      return if @decision>0 && !favorDraws
-      return if @decision==5 && favorDraws
-      pbJudge
+  def pbSwitch(favorDraws=false)
+    if !favorDraws
       return if @decision>0
-      # Check through each fainted battler to see if that spot can be filled.
-      switched = []
-      loop do
-        switched.clear
-        # check in same order
-        battlers = []
-        order = CableClub::pokemon_order(@client_id)
-        for i in 0..3
-          battlers[i] = battlers[order[i]]
-        end
-        battlers.each do |b|
-          next if !b || !b.fainted?
-          idxBattler = b.index
-          next if !pbCanChooseNonActive?(idxBattler)
-          if !pbOwnedByPlayer?(idxBattler)   # Opponent/ally is switching in
-            next if wildBattle? && opposes?(idxBattler)   # Wild Pokémon can't switch
-            idxPartyNew = pbSwitchInBetween(idxBattler)
-            opponent = pbGetOwnerFromBattlerIndex(idxBattler)
-            pbRecallAndReplace(idxBattler,idxPartyNew)
-            switched.push(idxBattler)
-          else
-            idxPlayerPartyNew = pbGetReplacementPokemonIndex(idxBattler)   # Owner chooses
-            pbRecallAndReplace(idxBattler,idxPlayerPartyNew)
-            switched.push(idxBattler)
-          end
-        end
-        break if switched.length==0
-        pbPriority(true).each do |b|
-          b.pbEffectsOnSwitchIn(true) if switched.include?(b.index)
-        end
-      end
+    else
+      return if @decision==5
     end
-    
-  else
-    def pbSwitch(favorDraws=false)
-      if !favorDraws
-        return if @decision>0
-      else
-        return if @decision==5
-      end
-      pbJudge()
-      return if @decision>0
-      switched=[]
-      for index in CableClub::pokemon_order(@client_id)
-        next if !@doublebattle && pbIsDoubleBattler?(index)
-        next if @battlers[index] && !@battlers[index].isFainted?
-        next if !pbCanChooseNonActive?(index)
-        if !pbOwnedByPlayer?(index)
-          if !pbIsOpposing?(index) || (@opponent && pbIsOpposing?(index))
-            newenemy=pbSwitchInBetween(index,false,false)
-            newenemyname=newenemy
-            if newenemy>=0 && isConst?(pbParty(index)[newenemy].ability,PBAbilities,:ILLUSION)
-              newenemyname=pbGetLastPokeInTeam(index)
-            end
-            opponent=pbGetOwner(index)
-            pbRecallAndReplace(index,newenemy)
-            switched.push(index)
+    pbJudge()
+    return if @decision>0
+    switched=[]
+    for index in CableClub::pokemon_order(@client_id)
+      next if !@doublebattle && pbIsDoubleBattler?(index)
+      next if @battlers[index] && !@battlers[index].isFainted?
+      next if !pbCanChooseNonActive?(index)
+      if !pbOwnedByPlayer?(index)
+        if !pbIsOpposing?(index) || (@opponent && pbIsOpposing?(index))
+          newenemy=pbSwitchInBetween(index,false,false)
+          newenemyname=newenemy
+          if newenemy>=0 && isConst?(pbParty(index)[newenemy].ability,PBAbilities,:ILLUSION)
+            newenemyname=pbGetLastPokeInTeam(index)
           end
-        else
-          newpoke=pbSwitchInBetween(index,true,false)
-          newpokename=newpoke
-          if isConst?(@party1[newpoke].ability,PBAbilities,:ILLUSION)
-            newpokename=pbGetLastPokeInTeam(index)
-          end
-          pbRecallAndReplace(index,newpoke,newpokename)
+          opponent=pbGetOwner(index)
+          pbRecallAndReplace(index,newenemy)
           switched.push(index)
         end
-      end
-      if switched.length>0
-        priority=pbPriority
-        for i in priority
-          i.pbAbilitiesOnSwitchIn(true) if switched.include?(i.index)
+      else
+        newpoke=pbSwitchInBetween(index,true,false)
+        newpokename=newpoke
+        if isConst?(@party1[newpoke].ability,PBAbilities,:ILLUSION)
+          newpokename=pbGetLastPokeInTeam(index)
         end
+        pbRecallAndReplace(index,newpoke,newpokename)
+        switched.push(index)
       end
     end
+    if switched.length>0
+      priority=pbPriority
+      for i in priority
+        i.pbAbilitiesOnSwitchIn(true) if switched.include?(i.index)
+      end
+    end
+  end
     
 =begin
 doesn't seem to work in tests, so commented it out.
@@ -1877,191 +1604,109 @@ seems to work when commented. for some reason...
     end
 =end
     
-    # This is horrific. Basically, we need to force Essentials to look for
-    # the RHS foe's move in all circumstances, otherwise we won't transmit
-    # any moves for this turn and the battle will hang.
-    def pbCanShowCommands?(index)
-      super(index) || (index == 3 && Kernel.caller(1) =~ /pbCanShowCommands/)
-    end
-    
-    def pbDefaultChooseEnemyCommand(index)
-      our_indices = @doublebattle ? [0, 2] : [0]
-      their_indices = @doublebattle ? [1, 3] : [1]
-      # Sends our choices after they have all been locked in.
-      if index == their_indices.last
+  # This is horrific. Basically, we need to force Essentials to look for
+  # the RHS foe's move in all circumstances, otherwise we won't transmit
+  # any moves for this turn and the battle will hang.
+  def pbCanShowCommands?(index)
+    super(index) || (index == 3 && Kernel.caller(1) =~ /pbCanShowCommands/)
+  end
+  
+  def pbDefaultChooseEnemyCommand(index)
+    our_indices = @doublebattle ? [0, 2] : [0]
+    their_indices = @doublebattle ? [1, 3] : [1]
+    # Sends our choices after they have all been locked in.
+    if index == their_indices.last
+      @connection.send do |writer|
+        cur_seed=srand
+        srand(cur_seed)
+        writer.sym(:seed)
+        writer.int(cur_seed)
+      end
+      target_order = CableClub::pokemon_target_order(@client_id)
+      for our_index in our_indices
         @connection.send do |writer|
-          cur_seed=srand
-          srand(cur_seed)
-          writer.sym(:seed)
-          writer.int(cur_seed)
-        end
-        target_order = CableClub::pokemon_target_order(@client_id)
-        for our_index in our_indices
-          @connection.send do |writer|
-            pkmn = @battlers[our_index]
-            writer.sym(:choice)
-            writer.int(@choices[our_index][0])
-            writer.int(@choices[our_index][1])
-            move = @choices[our_index][2] && pkmn.moves.index(@choices[our_index][2])
-            writer.nil_or(:int, move)
-            # -1 invokes the RNG, out of order (somehow?!) which causes desync.
-            # But this is a single battle, so the only possible choice is the foe.
-            if !@doublebattle && @choices[our_index][3] == -1
-              @choices[our_index][3] = their_indices[0]
-            end
-            # Target from their POV.
-            our_target = @choices[our_index][3]
-            their_target = target_order[our_target] rescue our_target
-            writer.int(their_target)
-            mega=@megaEvolution[0][0]
-            mega^=1 if mega>=0
-            writer.int(mega) # mega fix?
+          pkmn = @battlers[our_index]
+          writer.sym(:choice)
+          writer.int(@choices[our_index][0])
+          writer.int(@choices[our_index][1])
+          move = @choices[our_index][2] && pkmn.moves.index(@choices[our_index][2])
+          writer.nil_or(:int, move)
+          # -1 invokes the RNG, out of order (somehow?!) which causes desync.
+          # But this is a single battle, so the only possible choice is the foe.
+          if !@doublebattle && @choices[our_index][3] == -1
+            @choices[our_index][3] = their_indices[0]
           end
-        end
-        frame = 0
-        @scene.pbShowWindow(PokeBattle_Scene::MESSAGEBOX)
-        cw = @scene.sprites["messagewindow"]
-        cw.letterbyletter = false
-        begin
-          loop do
-            frame += 1
-            cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
-            @scene.pbFrameUpdate(cw)
-            Graphics.update
-            Input.update
-            raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
-            @connection.update do |record|
-              case (type = record.sym)
-              when :forfeit
-                pbSEPlay("Battle flee")
-                pbDisplay(_INTL("{1} forfeited the match!", @opponent.fullname))
-                @decision = 1
-                pbAbort
-                
-              when :seed
-                seed=record.int()
-                srand(seed) if @client_id==1
-
-              when :choice
-                their_index = their_indices.shift
-                partner_pkmn = @battlers[their_index]
-                @choices[their_index][0] = record.int
-                @choices[their_index][1] = record.int
-                move = record.nil_or(:int)
-                @choices[their_index][2] = move && partner_pkmn.moves[move]
-                @choices[their_index][3] = record.int
-                @megaEvolution[1][0] = record.int # mega fix?
-                return if their_indices.empty?
-
-              else
-                raise "Unknown message: #{type}"
-              end
-            end
-          end
-        ensure
-          cw.letterbyletter = true
+          # Target from their POV.
+          our_target = @choices[our_index][3]
+          their_target = target_order[our_target] rescue our_target
+          writer.int(their_target)
+          mega=@megaEvolution[0][0]
+          mega^=1 if mega>=0
+          writer.int(mega) # mega fix?
         end
       end
-    end
+      frame = 0
+      @scene.pbShowWindow(PokeBattle_Scene::MESSAGEBOX)
+      cw = @scene.sprites["messagewindow"]
+      cw.letterbyletter = false
+      begin
+        loop do
+          frame += 1
+          cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
+          @scene.pbFrameUpdate(cw)
+          Graphics.update
+          Input.update
+          raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
+          @connection.update do |record|
+            case (type = record.sym)
+            when :forfeit
+              pbSEPlay("Battle flee")
+              pbDisplay(_INTL("{1} forfeited the match!", @opponent.fullname))
+              @decision = 1
+              pbAbort
+              
+            when :seed
+              seed=record.int()
+              srand(seed) if @client_id==1
 
-    def pbDefaultChooseNewEnemy(index, party)
-      raise "Expected this to be unused."
+            when :choice
+              their_index = their_indices.shift
+              partner_pkmn = @battlers[their_index]
+              @choices[their_index][0] = record.int
+              @choices[their_index][1] = record.int
+              move = record.nil_or(:int)
+              @choices[their_index][2] = move && partner_pkmn.moves[move]
+              @choices[their_index][3] = record.int
+              @megaEvolution[1][0] = record.int # mega fix?
+              return if their_indices.empty?
+
+            else
+              raise "Unknown message: #{type}"
+            end
+          end
+        end
+      ensure
+        cw.letterbyletter = true
+      end
     end
   end
+
+  def pbDefaultChooseNewEnemy(index, party)
+    raise "Expected this to be unused."
+  end
 end
-if defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
-  class PokeBattle_CableClub_AI < PokeBattle_AI
-    def pbDefaultChooseEnemyCommand(index)
-      # Hurray for default methods. have to reverse it to show the expected order.
-      our_indices = @battle.pbGetOpposingIndicesInOrder(1).reverse
-      their_indices = @battle.pbGetOpposingIndicesInOrder(0).reverse
-      # Sends our choices after they have all been locked in.
-      if index == their_indices.last
-        # TODO: patch this up to be index agnostic.
-        # Would work fine if restricted to single/double battles
-        target_order = CableClub::pokemon_target_order(@battle.client_id)
-        for our_index in our_indices
-          @battle.connection.send do |writer|
-            pkmn = @battle.battlers[our_index]
-            writer.sym(:choice)
-            # choice picked was changed to be a symbol now.
-            writer.sym(@battle.choices[our_index][0])
-            writer.int(@battle.choices[our_index][1])
-            move = @battle.choices[our_index][2] && pkmn.moves.index(@battle.choices[our_index][2])
-            writer.nil_or(:int, move)
-            # -1 invokes the RNG, out of order (somehow?!) which causes desync.
-            # But this is a single battle, so the only possible choice is the foe.
-            if @battle.singleBattle? && @battle.choices[our_index][3] == -1
-              @battle.choices[our_index][3] = their_indices[0]
-            end
-            # Target from their POV.
-            our_target = @battle.choices[our_index][3]
-            their_target = target_order[our_target] rescue our_target
-            writer.int(their_target)
-            mega=@battle.megaEvolution[0][0]
-            mega^=1 if mega>=0
-            writer.int(mega) # mega fix?
-          end
-        end
-        frame = 0
-        @battle.scene.pbShowWindow(PokeBattle_Scene::MESSAGE_BOX)
-        cw = @battle.scene.sprites["messageWindow"]
-        cw.letterbyletter = false
-        begin
-          loop do
-            frame += 1
-            cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
-            @battle.scene.pbFrameUpdate(cw)
-            Graphics.update
-            Input.update
-            raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
-            @battle.connection.update do |record|
-              case (type = record.sym)
-              when :forfeit
-                pbSEPlay("Battle flee")
-                @battle.pbDisplay(_INTL("{1} forfeited the match!", @battle.opponent[0].fullname))
-                @battle.decision = 1
-                @battle.pbAbort
 
-              when :choice
-                their_index = their_indices.shift
-                partner_pkmn = @battle.battlers[their_index]
-                @battle.choices[their_index][0] = record.sym
-                @battle.choices[their_index][1] = record.int
-                move = record.nil_or(:int)
-                @battle.choices[their_index][2] = move && partner_pkmn.moves[move]
-                @battle.choices[their_index][3] = record.int
-                @battle.megaEvolution[1][0] = record.int # mega fix?
-                return if their_indices.empty?
+class PokeBattle_Battler
+  alias old_pbFindUser pbFindUser if !defined?(old_pbFindUser)
 
-              else
-                raise "Unknown message: #{type}"
-              end
-            end
-          end
-        ensure
-          cw.letterbyletter = true
-        end
-      end
+  # This ensures the targets are processed in the same order.
+  def pbFindUser(choice, targets)
+    ret = old_pbFindUser(choice, targets)
+    if !@battle.client_id.nil?
+      order = CableClub::pokemon_order(@battle.client_id)
+      targets.sort! {|a, b| order[a.index] <=> order[b.index]}
     end
-
-    def pbDefaultChooseNewEnemy(index, party)
-      raise "Expected this to be unused."
-    end
-  end  
-else
-  class PokeBattle_Battler
-    alias old_pbFindUser pbFindUser if !defined?(old_pbFindUser)
-
-    # This ensures the targets are processed in the same order.
-    def pbFindUser(choice, targets)
-      ret = old_pbFindUser(choice, targets)
-      if !@battle.client_id.nil?
-        order = CableClub::pokemon_order(@battle.client_id)
-        targets.sort! {|a, b| order[a.index] <=> order[b.index]}
-      end
-      return ret
-    end
+    return ret
   end
 end
 
