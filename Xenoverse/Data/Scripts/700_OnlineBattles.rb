@@ -1773,10 +1773,11 @@ class Connection
   def updateExp(expected)
     clone = nil
     while (clone == nil || !expected.include?(clone.sym))
-    self.update do |record|
-      clone = record.clone
-      if (expected.include?(record.clone.sym))
-        yield record
+      self.update do |record|
+        clone = record.clone
+        if (expected.include?(record.clone.sym))
+          yield record
+        end
       end
     end
   end
