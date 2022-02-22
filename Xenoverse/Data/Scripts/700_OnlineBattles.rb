@@ -186,7 +186,7 @@ def pbOnlineLobby
     msgwindow.visible = true
     lobby.dispose
     
-    $Trainer.party = oldParty
+    #$Trainer.party = oldParty
     case e.message
     when "disconnected"
       Kernel.pbMessageDisplay(msgwindow, _INTL("Thank you for using the Cable Club. We hope to see you again soon."))
