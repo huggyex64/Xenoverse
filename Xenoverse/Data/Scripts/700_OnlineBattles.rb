@@ -1789,6 +1789,7 @@ class Connection
           
           if (!expected.include?(record.fields[0].to_sym))
             ignored = true
+            Log.i("INFO-IGNORED","Ignored message with sym field #{record.fields[0].to_sym}")
           else 
             yield record
           end
