@@ -1786,8 +1786,8 @@ class Connection
       if @discard_records == 0
         ignored = false;
         begin
-          clone = record.clone
-          if (!expected.include?(clone.sym))
+          
+          if (!expected.include?(record.fields[0].to_sym))
             ignored = true
           else 
             yield record
@@ -1841,6 +1841,8 @@ class Parser
 end
 
 class RecordParser
+  attr_accessor :fields
+
   def initialize(data)
     @fields = []
     field = ""
