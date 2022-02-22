@@ -903,7 +903,7 @@ module CableClub
                 end
 
               else
-                raise "Unknown activity: #{activity}"
+                print "Unknown activity: #{activity}"
               end
 
             when :cancel
@@ -911,7 +911,7 @@ module CableClub
               state = :choose_activity
 
             else
-              raise "Unknown message: #{type}"
+              print "Unknown message: #{type}"
             end
           end
 
@@ -1762,7 +1762,7 @@ class Connection
         begin
           yield record
         else
-          raise ProtocolError.new("Unconsumed input: #{record}") if !record.empty?
+          print ProtocolError.new("Unconsumed input: #{record}") if !record.empty?
         end
       else
         @discard_records -= 1
