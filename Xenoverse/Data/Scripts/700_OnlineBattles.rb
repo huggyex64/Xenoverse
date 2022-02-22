@@ -739,7 +739,7 @@ module CableClub
           if (frame%60 == 0) #Requesting player list every X seconds
             ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
           end
-          connection.updateExp([:found,:askAcceptInteraction]) do |record|
+          connection.update do |record|
             case (type = record.sym)
             when :found
               client_id = record.int
