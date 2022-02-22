@@ -739,7 +739,7 @@ module CableClub
           if (frame%60 == 0) #Requesting player list every X seconds
             ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
           end
-          connection.update do |record|
+          connection.updateExp([:found,:askAcceptInteraction]) do |record|
             case (type = record.sym)
             when :found
               client_id = record.int
@@ -1778,6 +1778,8 @@ class Connection
     end
     # Process at most one record so that any control flow in the block doesn't cause us to lose records.
     if !@recv_records.empty?
+      recv_clone = @recv_records.clone
+      recv_clone = recv_clone.shift
       record = @recv_records.shift
       if record.disconnect?
         reason = record.str() rescue "unknown error"
@@ -1786,8 +1788,7 @@ class Connection
       if @discard_records == 0
         ignored = false;
         begin
-          
-          if (!expected.include?(record.fields[0].to_sym))
+          if (!expected.include?(recv_clone.sym))
             ignored = true
             Log.i("INFO-IGNORED","Ignored message with sym field #{record.fields[0].to_sym}")
           else 
