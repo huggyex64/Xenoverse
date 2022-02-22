@@ -739,7 +739,7 @@ module CableClub
           if (frame%60 == 0) #Requesting player list every X seconds
             ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
           end
-          connection.update([:found,:askAcceptInteraction]) do |record|
+          connection.updateExp([:found,:askAcceptInteraction]) do |record|
             case (type = record.sym)
             when :found
               client_id = record.int
@@ -1770,7 +1770,7 @@ class Connection
     end
   end
 
-  def update(expected)
+  def updateExp(expected)
     if @socket.ready?
       recvd = @socket.recv_up_to(4096, 0)
       raise Disconnected.new("server disconnected") if recvd.empty?
