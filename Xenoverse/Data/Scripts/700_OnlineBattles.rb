@@ -739,7 +739,7 @@ module CableClub
           if (frame%60 == 0) #Requesting player list every X seconds
             ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
           end
-          connection.update do |record|
+          connection.update([:found,:askAcceptInteraction]) do |record|
             case (type = record.sym)
             when :found
               client_id = record.int
@@ -1745,7 +1745,7 @@ class Connection
     @discard_records = 0
   end
 
-  def update
+  def update(expected)
     if @socket.ready?
       recvd = @socket.recv_up_to(4096, 0)
       raise Disconnected.new("server disconnected") if recvd.empty?
@@ -1760,6 +1760,15 @@ class Connection
       end
       if @discard_records == 0
         begin
+          broken = false
+          while (!expected.include?(record.sym))
+            if @recv_records.empty?
+              broken = true
+              break
+            end
+            record = @recv_records.shift
+          end
+          print "Bro that was BROKEN" if broken
           yield record
         else
           print ProtocolError.new("Unconsumed input: #{record}") if !record.empty?
