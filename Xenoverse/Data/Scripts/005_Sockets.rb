@@ -607,7 +607,7 @@ class SocketError < StandardError
   def self.check
     errno = Winsock.WSAGetLastError
     #if not Network.testing? == 1
-      raise Errno.const_get(Errno.constants.detect { |c| Errno.const_get(c).new.errno == errno })
+    Log.e("ERROR",Errno.const_get(Errno.constants.detect { |c| Errno.const_get(c).new.errno == errno }))
     #else
     #  errno != 0 ? (Network.testresult(true)) : (Network.testresult(false))
     #end
