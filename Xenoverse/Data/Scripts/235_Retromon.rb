@@ -375,7 +375,31 @@ def pbBattleOnStepTaken
 								poke.form = encountered[:form]
 								poke.resetMoves
 							end
-							pbWildPokemonBattle(poke)
+							if $Trainer.retrochain[encountered[:species]]==nil
+								$Trainer.retrochain[encountered[:species]]=0
+							end
+							#Retromon chance
+							ch = 1 + $Trainer.retrochain[encountered[:species]]/63
+							if (($game_switches[RETROMONSWITCH] && rand(1000)<ch) || $allRetro)
+								echoln "triggered retro"
+								if RETROMON[encountered[:species]] != nil
+									#if i'm in a special area, i want a 50/50 chance of encountering a special retromon if i would encounter a retromon
+									if (EXCLUSIVERETROMON.has_key?($game_map.map_id))
+										if (rand(100)>50)
+											pbWildBattle(RETROMON[encountered[:species]],level)
+										else
+											pbWildBattle(EXCLUSIVERETROMON[$game_map.map_id][0],level)
+										end
+									else
+										pbWildBattle(RETROMON[encountered[:species]],level)
+									end
+								elsif !RETROMON.has_key?(encountered[:species]) && EXCLUSIVERETROMON.has_key?($game_map.map_id)
+									#if i wouldn't find a retromon, i still check if i could encounter any exclusive
+									pbWildPokemonBattle(poke)
+								end
+							else
+								pbWildPokemonBattle(poke)
+							end
 							return true
 						end
 					#end
