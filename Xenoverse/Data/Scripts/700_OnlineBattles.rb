@@ -1780,6 +1780,7 @@ class Connection
     if !@recv_records.empty?
       recv_clone = @recv_records.clone
       recv_clone = recv_clone.shift
+      echoln @recv_records
       record = @recv_records.shift
       if record.disconnect?
         reason = record.str() rescue "unknown error"
