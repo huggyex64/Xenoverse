@@ -1771,13 +1771,31 @@ class Connection
   end
 
   def updateExp(expected)
-    clone = nil
-    while (clone == nil || !expected.include?(clone.sym))
-      self.update do |record|
-        clone = record.clone
-        if (expected.include?(record.clone.sym))
-          yield record
+    if @socket.ready?
+      recvd = @socket.recv_up_to(4096, 0)
+      raise Disconnected.new("server disconnected") if recvd.empty?
+      @recv_parser.parse(recvd) {|record| @recv_records << record}
+    end
+    # Process at most one record so that any control flow in the block doesn't cause us to lose records.
+    if !@recv_records.empty?
+      record = @recv_records.shift
+      if record.disconnect?
+        reason = record.str() rescue "unknown error"
+        raise Disconnected.new(reason)
+      end
+      if @discard_records == 0
+        ignored = false;
+        begin
+          if (!expected.include?(record.clone.sym))
+            ignored = true
+          else 
+            yield record
+          end
+        else
+          print ProtocolError.new("Unconsumed input: #{record}") if !record.empty? && ignored == false
         end
+      else
+        @discard_records -= 1
       end
     end
   end
