@@ -1786,7 +1786,8 @@ class Connection
       if @discard_records == 0
         ignored = false;
         begin
-          if (!expected.include?(record.clone.sym))
+          clone = record.clone
+          if (!expected.include?(clone.sym))
             ignored = true
           else 
             yield record
