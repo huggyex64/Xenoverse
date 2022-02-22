@@ -185,6 +185,9 @@ class Scene_Map
       end
     end
     
+    if (Input.trigger?(Input::ALT))
+      pbOnlineLobby
+    end
     
     if Input.trigger?(Input::B)
       unless pbMapInterpreterRunning? or $game_system.menu_disabled or $game_player.moving? or $game_switches[802]
