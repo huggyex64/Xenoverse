@@ -739,7 +739,7 @@ module CableClub
           if (frame%60 == 0) #Requesting player list every X seconds
             ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
           end
-          connection.updateExp([:found,:askAcceptInteraction]) do |record|
+          connection.update do |record|
             case (type = record.sym)
             when :found
               client_id = record.int
@@ -1753,6 +1753,7 @@ class Connection
     end
     # Process at most one record so that any control flow in the block doesn't cause us to lose records.
     if !@recv_records.empty?
+      echoln @recv_records
       record = @recv_records.shift
       if record.disconnect?
         reason = record.str() rescue "unknown error"
