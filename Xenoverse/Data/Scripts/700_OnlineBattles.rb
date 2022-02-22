@@ -1781,10 +1781,7 @@ class Connection
     if !@recv_records.empty?
       recv_clone = @recv_records.clone
       recv_clone = recv_clone.shift
-      echoln @recv_records
       record = @recv_records.shift
-      echoln recv_clone
-      echoln record
       if record.disconnect?
         reason = record.str() rescue "unknown error"
         raise Disconnected.new(reason)
@@ -1792,9 +1789,9 @@ class Connection
       if @discard_records == 0
         ignored = false;
         begin
-          if (!expected.include?(recv_clone.sym))
+          if (!expected.include?(recv_clone.fields.last.to_sym))
             ignored = true
-            Log.i("INFO-IGNORED","Ignored message with sym field #{record.fields[0].to_sym}")
+            Log.i("INFO-IGNORED","Ignored message with sym field #{record.fields.last.to_sym}")
           else 
             yield record
           end
