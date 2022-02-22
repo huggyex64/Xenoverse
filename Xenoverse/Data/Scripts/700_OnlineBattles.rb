@@ -1780,7 +1780,11 @@ class Connection
     # for the send buffer so that we can delay starting the battle.
     writer = RecordWriter.new
     yield writer
-    @socket.send(writer.line!)
+    begin 
+      @socket.send(writer.line!)
+    rescue Errno::ECONNABORTED
+      print "FUCK YOU BITCH"
+    end
   end
 
   def discard(n)
