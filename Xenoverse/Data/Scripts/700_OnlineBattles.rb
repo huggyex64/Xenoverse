@@ -1469,7 +1469,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
         when :random
           ret = record.int
         else
-          raise "Unknown message: #{type}"
+          print "Unknown message: #{type}"
         end
       end
     end
