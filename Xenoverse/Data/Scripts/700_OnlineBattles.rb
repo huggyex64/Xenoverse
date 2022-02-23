@@ -222,6 +222,21 @@ end
 module CableClub
   HOST = "94.176.239.231"
   PORT = 9999
+
+  
+  ONLINE_TRAINER_TYPE_LIST = [
+    [:POKEMONTRAINER_Red,:POKEMONTRAINER_Leaf],
+    [:PSYCHIC_M,:PSYCHIC_F],
+    [:BLACKBELT,:CRUSHGIRL],
+    [:COOLTRAINER_M,:COOLTRAINER_F]
+  ]
+end
+
+class PokeBattle_Trainer
+  attr_writer :online_trainer_type
+  def online_trainer_type
+    return @online_trainer_type || self.trainertype
+  end
 end
 
 # TODO: Automatically timeout.
@@ -708,6 +723,7 @@ module CableClub
                     writer.sym(:askinteraction)
                     writer.str($Trainer.name)
                     writer.int($Trainer.id)
+                    #writer.int($Trainer.online_trainer_type)
                     writer.int(optionsDict[options[ret]]) #Here i'm sending the request to the one i wanna connect to
                   end
                   state = :await_interaction_accept
@@ -728,6 +744,7 @@ module CableClub
               writer.sym(:enlist)
               writer.str($Trainer.name)
               writer.int($Trainer.id)
+              #writer.int($Trainer.online_trainer_type)
               write_party(writer)
             end
             state = :enlisted
@@ -850,7 +867,7 @@ module CableClub
                   else; raise "Unknown battle type"
                   end
                 writer.sym(battle_type)
-                writer.int($Trainer.trainertype)
+                writer.int($Trainer.online_trainer_type)
               end
               activity = :battle
               state = :await_accept_activity
@@ -938,7 +955,7 @@ module CableClub
                   msgwindow.visible = false #Kernel.pbDisposeMessageWindow(msgwindow)
                   connection.send do |writer|
                     writer.sym(:ok)
-                    writer.int($Trainer.trainertype)
+                    writer.int($Trainer.online_trainer_type)
                   end
                   do_battle(connection, client_id, seed, battle_type, partner, partner_party)
                   msgwindow.visible = true
