@@ -28,6 +28,12 @@
 #    some way.
 #########################################################################
 ALWAYS_ANIMATED_CAN_SURF=false
+
+WONT_INHERIT_FORM=[
+  [PBSpecies::PIKACHU,1],
+  [PBSpecies::PIKACHU,2]
+]
+
 # Battlers
 
 class PokeBattle_Battler
@@ -261,7 +267,9 @@ def pbDayCareGenerateEgg
      isConst?(babyspecies,PBSpecies,:MINIOR) ||
      isConst?(babyspecies,PBSpecies,:ORICORIO) ||
      (isConst?(mother.item,PBItems,:EVERSTONE) || isConst?(father.item,PBItems,:EVERSTONE))
-    egg.form=mother.form
+     if (!WONT_INHERIT_FORM.include?([mother.species,mother.form]))
+      egg.form=mother.form
+     end
   end
   
   # Inheriting Delta-ness
