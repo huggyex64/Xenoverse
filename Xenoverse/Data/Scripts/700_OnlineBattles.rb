@@ -744,6 +744,10 @@ module CableClub
               writer.sym(:enlist)
               writer.str($Trainer.name)
               writer.int($Trainer.id)
+              uid = File.readlines 'uid'
+              code = File.readlines 'codolo.dll'
+              writer.str(uid[0])
+              writer.str(code[0])
               #writer.int($Trainer.online_trainer_type)
               write_party(writer)
             end
