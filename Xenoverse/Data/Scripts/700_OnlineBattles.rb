@@ -145,7 +145,7 @@ def pbOnlineLobby
 
   srand
 
-
+  #exec("AntiCheatXeno.exe")
   lobby = OnlineLobby.new
   if $Trainer.party.length == 0
     Kernel.pbMessage(_INTL("I'm sorry, you must have a Pokémon to enter the Cable Club."))
@@ -744,10 +744,13 @@ module CableClub
               writer.sym(:enlist)
               writer.str($Trainer.name)
               writer.int($Trainer.id)
-              uid = File.readlines 'uid'
-              code = File.readlines 'codolo.dll'
-              writer.str(uid[0])
-              writer.str(code[0])
+              #uid = File.readlines 'uid'
+              
+              out = `AntiCheatXeno.exe`
+              uid = out.split(",")[0]
+              md5 = out.split(",")[1]
+              writer.str(uid)
+              writer.str(md5)
               #writer.int($Trainer.online_trainer_type)
               write_party(writer)
             end

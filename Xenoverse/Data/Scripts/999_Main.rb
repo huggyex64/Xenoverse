@@ -60,8 +60,10 @@ def pbCallTitle #:nodoc:
   weedleLogo.dispose
   Graphics.transition(20)
   pbWait(18)
+  print ARGV
   Graphics.play_movie("Graphics/Movies/intro.avi") unless defined?($MKXP)#for joiplay compatibility
 	if $DEBUG
+    echoln ARGV
     return Scene_DebugIntro.new
   else
     # First parameter is an array of images in the Titles
