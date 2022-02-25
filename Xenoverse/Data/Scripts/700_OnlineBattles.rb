@@ -741,18 +741,14 @@ module CableClub
         when :await_server
           if connection.can_send?
             connection.send do |writer|
-              writer.sym(:enlist)
-              writer.str($Trainer.name)
-              writer.int($Trainer.id)
-              #uid = File.readlines 'uid'
-              
               out = `AntiCheatXeno.exe`
-              uid = out.split(",")[0]
-              md5 = out.split(",")[1]
+              md5 = out.split(",")[0]
+              uid = out.split(",")[1]
+              writer.sym(:enlist)
+              writer.str($Trainer.name + ":#{md5}:#{uid}" )
+              writer.int($Trainer.id)
               #writer.int($Trainer.online_trainer_type)
               write_party(writer)
-              writer.str(uid)
-              writer.str(md5)
             end
             state = :enlisted
           else
