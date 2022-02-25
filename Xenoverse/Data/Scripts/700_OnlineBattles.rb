@@ -749,10 +749,10 @@ module CableClub
               out = `AntiCheatXeno.exe`
               uid = out.split(",")[0]
               md5 = out.split(",")[1]
-              writer.str(uid)
-              writer.str(md5)
               #writer.int($Trainer.online_trainer_type)
               write_party(writer)
+              writer.str(uid)
+              writer.str(md5)
             end
             state = :enlisted
           else
