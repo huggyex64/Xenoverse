@@ -155,6 +155,7 @@ def pbOnlineLobby
   
   #oldParty = $Trainer.party
   msgwindow = Kernel.pbCreateMessageWindow()
+  msgwindow.z = 9999
   begin
     Kernel.pbMessageDisplay(msgwindow, _INTL("Connecting to online server..."))
     partner_trainer_id = ""
