@@ -154,10 +154,6 @@ def pbOnlineLobby
   end
   
   #oldParty = $Trainer.party
-  $Trainer.party.each do |pkmn|
-    pkmn.level=50
-    pkmn.calcStats
-  end
   msgwindow = Kernel.pbCreateMessageWindow()
   begin
     Kernel.pbMessageDisplay(msgwindow, _INTL("Connecting to online server..."))
@@ -1149,7 +1145,7 @@ module CableClub
   # Renamed constants, yay...
   def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party)
     echoln "AOOOOOOOOOOO SO PARTITO IO"
-    $Trainer.backupParty = $Trainer.party
+    $Trainer.backupParty = $Trainer.party.clone
     $Trainer.party.each do |pike|
       pike.level = 50
       pike.calcStats
