@@ -1145,7 +1145,8 @@ module CableClub
   # Renamed constants, yay...
   def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party)
     echoln "AOOOOOOOOOOO SO PARTITO IO"
-    $Trainer.backupParty = $Trainer.party.clone
+    #$Trainer.backupParty = $Trainer.party.dup
+    $Trainer.backupParty  = $Trainer.party.map {|x| x.clone}
     $Trainer.party.each do |pike|
       pike.level = 50
       pike.calcStats
