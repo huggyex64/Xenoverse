@@ -1152,13 +1152,14 @@ module CableClub
       pike.calcStats
     end
     pbHealAll # Avoids having to transmit damaged state.
-    partner_party.each {|pkmn| 
+    partner_party_clone = partner_party.map {|y| y.clone}
+    partner_party_clone.each {|pkmn| 
       pkmn.heal
       pkmn.level = 50
       pkmn.calcStats
     }
     scene = pbNewBattleScene
-    battle = PokeBattle_CableClub.new(connection, client_id, scene, partner_party, partner)
+    battle = PokeBattle_CableClub.new(connection, client_id, scene, partner_party_clone, partner)
     battle.fullparty1 = battle.fullparty2 = true
     battle.endspeech = ""
     battle.items = []
