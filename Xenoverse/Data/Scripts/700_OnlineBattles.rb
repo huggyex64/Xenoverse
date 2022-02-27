@@ -1157,8 +1157,8 @@ module CableClub
     pbHealAll # Avoids having to transmit damaged state.
     partner_party.each {|pkmn| 
       pkmn.heal
-      pike.level = 50
-      pike.calcStats
+      pkmn.level = 50
+      pkmn.calcStats
     }
     scene = pbNewBattleScene
     battle = PokeBattle_CableClub.new(connection, client_id, scene, partner_party, partner)
