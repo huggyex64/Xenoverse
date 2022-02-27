@@ -237,6 +237,8 @@ class PokeBattle_Trainer
   def online_trainer_type
     return @online_trainer_type || self.trainertype
   end
+
+  attr_accessor :backupParty
 end
 
 # TODO: Automatically timeout.
@@ -1147,8 +1149,17 @@ module CableClub
   # Renamed constants, yay...
   def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party)
     echoln "AOOOOOOOOOOO SO PARTITO IO"
+    $Trainer.backupParty = $Trainer.party
+    $Trainer.party.each do |pike|
+      pike.level = 50
+      pike.calcStats
+    end
     pbHealAll # Avoids having to transmit damaged state.
-    partner_party.each {|pkmn| pkmn.heal}
+    partner_party.each {|pkmn| 
+      pkmn.heal
+      pike.level = 50
+      pike.calcStats
+    }
     scene = pbNewBattleScene
     battle = PokeBattle_CableClub.new(connection, client_id, scene, partner_party, partner)
     battle.fullparty1 = battle.fullparty2 = true
@@ -1179,6 +1190,7 @@ module CableClub
         end
       }
     }
+    $Trainer.party = $Trainer.backupParty
     raise exc if exc
   end
 
