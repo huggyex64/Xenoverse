@@ -940,7 +940,7 @@ module CableClub
         # Waiting for the partner to select an activity (follower only).
         when :await_choose_activity
           pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to pick an activity", partner_name), frame)
-          connection.update do |record|
+          connection.updateExp([:battle,:trade]) do |record|
             case (type = record.sym)
             when :battle
               seed = record.int
