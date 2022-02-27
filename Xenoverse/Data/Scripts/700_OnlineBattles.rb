@@ -890,7 +890,7 @@ module CableClub
         when :await_accept_activity
           echoln "#{state}: awaiting leader to choose activity"
           pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to accept", partner_name), frame)
-          connection.update do |record|
+          connection.updateExp([:ok,:cancel]) do |record|
             case (type = record.sym)
             when :ok
                #Kernel.pbDisposeMessageWindow(msgwindow)
