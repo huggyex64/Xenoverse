@@ -4145,37 +4145,40 @@ if $DEBUG
     pbSaveAllData()
     mustcompile=true
   end
-  for i in 0...datafiles.length
-    begin
-      File.open("Data/#{datafiles[i]}"){|file|
-         latestdatatime=[latestdatatime,file.mtime.to_i].max
-      }
-    rescue SystemCallError
-      mustcompile=true
-    end
-  end
-  for i in 0...textfiles.length
-    begin
-      File.open("PBS/#{textfiles[i]}"){|file|
-         latesttexttime=[latesttexttime,file.mtime.to_i].max
-      }
-    rescue SystemCallError
-    end
-  end
-  mustcompile=mustcompile || (latesttexttime>=latestdatatime)
   Input.update
-  if Input.press?(Input::CTRL)
-    mustcompile=true
-  end
-  if mustcompile
+  if Input.press?(Input::ALT) && $MKXP
     for i in 0...datafiles.length
       begin
-        File.delete("Data/#{datafiles[i]}")
+        File.open("Data/#{datafiles[i]}"){|file|
+          latestdatatime=[latestdatatime,file.mtime.to_i].max
+        }
+      rescue SystemCallError
+        mustcompile=true
+      end
+    end
+    for i in 0...textfiles.length
+      begin
+        File.open("PBS/#{textfiles[i]}"){|file|
+          latesttexttime=[latesttexttime,file.mtime.to_i].max
+        }
       rescue SystemCallError
       end
     end
+    mustcompile=mustcompile || (latesttexttime>=latestdatatime)
+    Input.update
+    if Input.press?(Input::CTRL)
+      mustcompile=true
+    end
+    if mustcompile
+      for i in 0...datafiles.length
+        begin
+          File.delete("Data/#{datafiles[i]}")
+        rescue SystemCallError
+        end
+      end
+    end
+    pbCompileAllData(mustcompile){|msg| Win32API.SetWindowText(msg) } unless Input.pressex?($MKXP ? :CTRL : Input::CTRL)
   end
-  pbCompileAllData(mustcompile){|msg| Win32API.SetWindowText(msg) } unless Input.pressex?($MKXP ? :CTRL : Input::CTRL)
 end
 
 
