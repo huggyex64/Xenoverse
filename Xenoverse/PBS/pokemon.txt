@@ -28549,7 +28549,7 @@ BattlerPlayerY=21
 BattlerEnemyY=24
 [2033]
 Name=Zorua
-InternalName=ZORUA
+InternalName=ZORUAHISUI
 Type1=NORMAL
 Type2=GHOST
 BaseStats=40,65,40,65,80,40
@@ -28572,10 +28572,10 @@ Pokedex=Spaventa gli altri cambiando aspetto. Spesso appare in veste di bambino 
 RegionalNumbers=507,0,0
 BattlerPlayerY=10
 BattlerEnemyY=17
-Evolutions=ZOROARK,Level,30
+Evolutions=ZOROARKHISUI,Item,ANCIENTSTONE
 [2034]
 Name=Zoroark
-InternalName=ZOROARK
+InternalName=ZOROARKHISUI
 Type1=NORMAL
 Type2=GHOST
 BaseStats=60,105,60,120,60,105
