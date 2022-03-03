@@ -741,6 +741,7 @@ module CableClub
           if connection.can_send?
             connection.send do |writer|
               out = `AntiCheatXeno.exe`
+              return if (out == "BANNED")
               md5 = out.split(",")[0]
               uid = out.split(",")[1]
               writer.sym(:enlist)
