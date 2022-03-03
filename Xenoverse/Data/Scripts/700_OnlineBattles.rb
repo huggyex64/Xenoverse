@@ -145,7 +145,6 @@ def pbOnlineLobby
 
   srand
 
-  #exec("AntiCheatXeno.exe")
   lobby = OnlineLobby.new
   if $Trainer.party.length == 0
     Kernel.pbMessage(_INTL("I'm sorry, you must have a Pokémon to enter the Cable Club."))
@@ -740,7 +739,7 @@ module CableClub
         when :await_server
           if connection.can_send?
             connection.send do |writer|
-              out = `AntiCheatXeno.exe`
+              out = `Antochit.exe`
               return if (out == "BANNED")
               md5 = out.split(",")[0]
               uid = out.split(",")[1]
