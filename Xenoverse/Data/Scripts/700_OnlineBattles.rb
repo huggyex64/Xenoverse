@@ -216,7 +216,7 @@ end
 ########################################################################
   
 module CableClub
-  HOST = "94.176.239.231"
+  HOST = "95.173.136.70" # for fun and profit
   PORT = 9999
 
   
@@ -665,7 +665,14 @@ module CableClub
 
   def self.enlist(msgwindow,ui)
     pbMessageDisplayDots(msgwindow, _INTL("Connecting"), 0)
-    Connection.open(HOST, PORT) do |connection|
+    
+    out = `Antochit.exe`
+    return if (out == "BANNED")
+    md5 = out.split(",")[0]
+    uid = out.split(",")[1]
+    host = out.split(",")[2]
+
+    Connection.open(host, PORT) do |connection|
       state = :await_server
       last_state = nil
       client_id = 0
@@ -739,10 +746,6 @@ module CableClub
         when :await_server
           if connection.can_send?
             connection.send do |writer|
-              out = `Antochit.exe`
-              return if (out == "BANNED")
-              md5 = out.split(",")[0]
-              uid = out.split(",")[1]
               writer.sym(:enlist)
               writer.str($Trainer.name + ":#{md5}:#{uid}" )
               writer.int($Trainer.id)
