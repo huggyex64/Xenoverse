@@ -666,11 +666,27 @@ module CableClub
   def self.enlist(msgwindow,ui)
     pbMessageDisplayDots(msgwindow, _INTL("Connecting"), 0)
     
-    out = `Antochit.exe`
-    return if (out == "BANNED")
-    md5 = out.split(",")[0]
-    uid = out.split(",")[1]
-    host = out.split(",")[2]
+    out = nil
+    md5 = nil
+    uid = nil
+    host = nil
+    t = Thread.new {
+      out = `Antochit.exe`
+      return if (out == "BANNED")
+      md5 = out.split(",")[0]
+      uid = out.split(",")[1]
+      host = out.split(",")[2]
+    }
+    
+    t.join
+    while (out == nil)
+      Graphics.update
+      Input.update
+
+      echoln "Zio guarda che vado"
+    end
+
+    return if host == nil || out == "BANNED"
 
     Connection.open(host, PORT) do |connection|
       state = :await_server
