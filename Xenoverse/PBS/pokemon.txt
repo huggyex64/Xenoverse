@@ -28522,8 +28522,8 @@ FormNames=Forma Melodia, Forma Basso
 BattlerPlayerY=21
 BattlerEnemyY=24
 [2032]
-Name=Arctzolt
-InternalName=ARCTZOLT
+Name=Arctozolt
+InternalName=ARCTOZOLT
 Type1=ELECTRIC
 Type2=ICE
 BaseStats=75,98,70,75,114,70
