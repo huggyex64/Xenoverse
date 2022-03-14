@@ -790,3 +790,4 @@
 831,ANCIENTSTONE,Pietra Antica,1,2100,"Pietra millenaria che fa evolvere determinate specie di Pokémon. Non si sa da dove provenga.",1,0,0,
 832,BOTREGALE,Update Regale,1,9999,"Update contenente i dati di un Pokémon di tipo Acqua. Permette al Pokémon di evolversi tramite Trasferitore.",1,0,0,
 833,PINKSTONE,Pietra Rosa,1,2100,"Pietra di un rosa brillante che trasforma determenitare specie di Pokémon. Non si sa da dove provenga.",1,0,0,
+834,FURIABALL,Furia Ball,8,0,"Una speciale Ball progettata da Tarassaco. Unisce le caratteristiche principali di una Pokéball all'efficacia mistica dei sigilli Furia.",1,0,6,
