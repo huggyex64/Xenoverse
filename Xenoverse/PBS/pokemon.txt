@@ -27916,7 +27916,7 @@ Color=Purple
 Habitat=Mountain
 Kind=Fossile
 Pokedex=Aerodactyl risale all'epoca dei dinosauri. E' stato rigenerato da materiale genetico estratto dall'ambra. Si suppone che in tempi antichi fosse considerato il signore dei cieli.
-RegionalNumbers=0,0,177
+RegionalNumbers=0,0,179
 BattlerPlayerY=36
 BattlerEnemyY=60
 BattlerAltitude=29
@@ -27944,7 +27944,7 @@ Color=Red
 Habitat=Mountain
 Kind=Consegna
 Pokedex=Ghift trasporta il cibo avvolgendolo nella coda. Si narra di un esploratore che riusci' a raggiungere la vetta del monte Everest grazie alla riserva di cibo di questo Pokemon.
-RegionalNumbers=0,0,179
+RegionalNumbers=0,0,177
 BattlerPlayerY=10
 BattlerEnemyY=12
 [1482]
