@@ -7945,11 +7945,11 @@ Cherry
 Blossom
 Blossom
 422
-Sea Slug
-Sea Slug
+Lumacomare
+Lumacomare
 423
-Sea Slug
-Sea Slug
+Lumacomare
+Lumacomare
 424
 Lungacoda
 Lungacoda
@@ -7987,11 +7987,11 @@ Moffetta
 Moffetta
 Moffetta
 436
-Bronze
-Bronze
+Bronzo
+Bronzo
 437
-Bronze Bell
-Bronze Bell
+Squibronzo
+Squibronzo
 438
 Bonsai
 Bonsai
@@ -8008,11 +8008,11 @@ Musicale
 Proibito
 Proibito
 443
-Land Shark
-Land Shark
+Squaloterra
+Squaloterra
 444
-Cave
-Cave
+Grotta
+Grotta
 445
 Mach
 Mach
@@ -8104,8 +8104,8 @@ Duezanne
 Virtuale
 Virtuale
 475
-Blade
-Blade
+Lama
+Lama
 476
 Bussola
 Bussola
@@ -8377,11 +8377,11 @@ Prototurtle
 Prototurtle
 Prototurtle
 566
-First Bird
-First Bird
+Paleouccello
+Paleouccello
 567
-First Bird
-First Bird
+Paleouccello
+Paleouccello
 568
 Spazzatura
 Spazzatura
@@ -8440,8 +8440,8 @@ Season
 Season
 Season
 587
-Sky Squirrel
-Sky Squirrel
+Petauro
+Petauro
 588
 Clamping
 Clamping
@@ -8449,11 +8449,11 @@ Clamping
 Cavalry
 Cavalry
 590
-Mushroom
-Mushroom
+Fungo
+Fungo
 591
-Mushroom
-Mushroom
+Fungo
+Fungo
 592
 Floating
 Floating
@@ -8602,11 +8602,11 @@ Cavern
 Grassland
 Grassland
 641
-Cyclone
-Cyclone
+Turbinio
+Turbinio
 642
-Bolt Strike
-Bolt Strike
+Fulminante
+Fulminante
 643
 Vast White
 Vast White
@@ -8614,8 +8614,8 @@ Vast White
 Deep Black
 Deep Black
 645
-Abundance
-Abundance
+Fertilità
+Fertilità
 646
 Boundary
 Boundary
@@ -9939,6 +9939,18 @@ Bebè
 2031
 Punk
 Punk
+2032
+Fossile
+Fossile
+2033
+Rancorvolpe
+Rancorvolpe
+2034
+Maledivolpe
+Maledivolpe
+2035
+Amoreodio
+Amoreodio
 [3]
 1
 Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
@@ -10778,8 +10790,8 @@ Grazie alle ali lunghe e strette, vola in alto lasciandosi trasportare dalle cor
 Si libra a pelo dell'acqua del mare pescando il suo cibo e trasportandolo via con il suo grande becco.
 Si libra a pelo dell'acqua del mare pescando il suo cibo e trasportandolo via con il suo grande becco.
 280
-Ralts ha la capacita' di percepire le emozioni delle persone. Se il suo Allenatore e' di buon umore, questo influisce positivamente sul carattere di Ralts, che crescera' cosi' allegro e gioioso.
-Ralts ha la capacita' di percepire le emozioni delle persone. Se il suo Allenatore e' di buon umore, questo influisce positivamente sul carattere di Ralts, che crescera' cosi' allegro e gioioso.
+Se con le corna avverte emozioni positive di persone o Pokémon, il suo corpo si scalda leggermente.
+Se con le corna avverte emozioni positive di persone o Pokémon, il suo corpo si scalda leggermente.
 281
 Quando il suo Allenatore si sente felice, trabocca di energia e inizia a ballare girando su se stesso.
 Quando il suo Allenatore si sente felice, trabocca di energia e inizia a ballare girando su se stesso.
@@ -10991,8 +11003,8 @@ Non è molto popolare per via del suo misero aspetto, ma è molto resistente e i
 È considerato il Pokémon più bello del mondo ed è fonte d'ispirazione per tantissimi artisti.
 È considerato il Pokémon più bello del mondo ed è fonte d'ispirazione per tantissimi artisti.
 351
-Il suo aspetto varia con l'umidite' e la temperatura, che influenzano la sua struttura molecolare.
-Il suo aspetto varia con l'umidite' e la temperatura, che influenzano la sua struttura molecolare.
+Il suo aspetto varia con l'umidita' e la temperatura, che influenzano la sua struttura molecolare.
+Il suo aspetto varia con l'umidita' e la temperatura, che influenzano la sua struttura molecolare.
 352
 Cambia colore per mimetizzarsi e sorprendere la preda. Il disegno sulla pancia rimane sempre visibile.
 Cambia colore per mimetizzarsi e sorprendere la preda. Il disegno sulla pancia rimane sempre visibile.
@@ -11147,14 +11159,14 @@ Muove la testa avanti e indietro e le antenne, scontrandosi, producono un suono 
 Canta delle belle melodie, provocando interessanti risonanze nelle cavità del proprio corpo.
 Canta delle belle melodie, provocando interessanti risonanze nelle cavità del proprio corpo.
 403
-Produce elettricite' contraendo e rilassando i muscoli. Quando si sente minacciato si illumina.
-Produce elettricite' contraendo e rilassando i muscoli. Quando si sente minacciato si illumina.
+Produce elettricita' contraendo e rilassando i muscoli. Quando si sente minacciato si illumina.
+Produce elettricita' contraendo e rilassando i muscoli. Quando si sente minacciato si illumina.
 404
 Comunica mediante gli impulsi elettrici ritmici emessi dagli artigli anteriori, che posa sui suoi simili.
 Comunica mediante gli impulsi elettrici ritmici emessi dagli artigli anteriori, che posa sui suoi simili.
 405
-Se i suoi occhi sono dorati, pue' individuare le prede, anche quelle che si nascondono dietro i muri.
-Se i suoi occhi sono dorati, pue' individuare le prede, anche quelle che si nascondono dietro i muri.
+Se i suoi occhi sono dorati, puo' individuare le prede, anche quelle che si nascondono dietro i muri.
+Se i suoi occhi sono dorati, puo' individuare le prede, anche quelle che si nascondono dietro i muri.
 406
 La sua gemma, sensibile agli sbalzi di temperatura, si schiude quando avverte i caldi raggi del sole.
 La sua gemma, sensibile agli sbalzi di temperatura, si schiude quando avverte i caldi raggi del sole.
@@ -11204,11 +11216,11 @@ The small ball holds the nutrients needed for evolution. Apparently, it is very 
 It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud.
 It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud.
 422
-Its colors and shapes differ from region to region. In the Sinnoh region, two types are confirmed.
-Its colors and shapes differ from region to region. In the Sinnoh region, two types are confirmed.
+Cambia facilmente aspetto e colore secondo il luogo di provenienza.
+Cambia facilmente aspetto e colore secondo il luogo di provenienza.
 423
-It has a pliable body without any bones. If any part of its body is torn off, it grows right back.
-It has a pliable body without any bones. If any part of its body is torn off, it grows right back.
+In passato portava sulla schiena un robusto carapace. Ne rimangono tracce nelle sue cellule.
+In passato portava sulla schiena un robusto carapace. Ne rimangono tracce nelle sue cellule.
 424
 È talmente abile nel maneggiare gli oggetti con le sue due code che solo raramente usa le mani.
 È talmente abile nel maneggiare gli oggetti con le sue due code che solo raramente usa le mani.
@@ -11246,11 +11258,11 @@ Si protegge spruzzando un fluido puzzolente dal posteriore. Il tanfo permane per
 Attacca spruzzando un liquido mefitico dalla coda. Se attacca a ripetizione, l'odore si affievolisce.
 Attacca spruzzando un liquido mefitico dalla coda. Se attacca a ripetizione, l'odore si affievolisce.
 436
-Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.
-Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.
+Si trova in vecchie tombe. Si dice che nel disegno sulla sua schiena risieda una forza misteriosa.
+Si trova in vecchie tombe. Si dice che nel disegno sulla sua schiena risieda una forza misteriosa.
 437
-One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.
-One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.
+Il suo ritrovamento in un cantiere dopo un sonno di 2000 anni fece a suo tempo molto scalpore.
+Il suo ritrovamento in un cantiere dopo un sonno di 2000 anni fece a suo tempo molto scalpore.
 438
 Sembra che pianga tutto il tempo. In realta' regola il livello dei fluidi del corpo eliminando gli eccessi.
 Sembra che pianga tutto il tempo. In realta' regola il livello dei fluidi del corpo eliminando gli eccessi.
@@ -11267,14 +11279,14 @@ La sua lingua è uguale a quella degli uomini. Gli riesce quindi facile imitare 
 A causa del suo comportamento molesto\n è stato imprigionato in una Roccianima\n con un incantesimo.
 A causa del suo comportamento molesto\n è stato imprigionato in una Roccianima\n con un incantesimo.
 443
-It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.
-It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.
+Attacca con la sua enorme bocca. È forte, ma molto maldestro e spesso si danneggia da solo.
+Attacca con la sua enorme bocca. È forte, ma molto maldestro e spesso si danneggia da solo.
 444
-There is a long-held belief that medicine made from its scales will heal even incurable illnesses.
-There is a long-held belief that medicine made from its scales will heal even incurable illnesses.
+Adora gli oggetti luccicanti. Va a caccia di tesori nelle grotte e li trasporta nel suo nido.
+Adora gli oggetti luccicanti. Va a caccia di tesori nelle grotte e li trasporta nel suo nido.
 445
-When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.
-When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.
+Si dice che quando vola, le sue ali creino raffiche di vento in grado di abbattere gli alberi vicini.
+Si dice che quando vola, le sue ali creino raffiche di vento in grado di abbattere gli alberi vicini.
 446
 Nasconde il cibo sotto i lunghi peli del suo corpo. Tuttavia, finisce spesso per dimenticarlo.
 Nasconde il cibo sotto i lunghi peli del suo corpo. Tuttavia, finisce spesso per dimenticarlo.
@@ -11363,8 +11375,8 @@ Ha enormi zanne di ghiaccio. La popolazione di questo Pokémon è diminuita alla
 Mostra un comportamento instabile, da attribuire probabilmente alla scarsa competenza di chi ha aggiornato il suo software.
 Mostra un comportamento instabile, da attribuire probabilmente alla scarsa competenza di chi ha aggiornato il suo software.
 475
-A master of courtesy and swordsmanship, it fights using extending swords on its elbows.
-A master of courtesy and swordsmanship, it fights using extending swords on its elbows.
+Quando protegge qualcuno estende i gomiti come se fossero spade e combatte furiosamente.
+Quando protegge qualcuno estende i gomiti come se fossero spade e combatte furiosamente.
 476
 È in grado di controllare tre piccole unità dette Mininasi per catturare le sue prede senza doversi spostare.
 È in grado di controllare tre piccole unità dette Mininasi per catturare le sue prede senza doversi spostare.
@@ -11636,11 +11648,11 @@ About 100 million years ago, these Pokemon swam in oceans. It is thought they al
 Incredible jaw strength enables them to chew up steel beams and rocks along with their prey.
 Incredible jaw strength enables them to chew up steel beams and rocks along with their prey.
 566
-Revived from a fossil, this Pokemon is thought to be the ancestor of all bird Pokemon.
-Revived from a fossil, this Pokemon is thought to be the ancestor of all bird Pokemon.
+Sembra che, non essendo in grado di volare, catturasse le prede planando da alti rami.
+Sembra che, non essendo in grado di volare, catturasse le prede planando da alti rami.
 567
-It runs better than it flies. It catches prey by running at speeds comparable to those of an automobile.
-It runs better than it flies. It catches prey by running at speeds comparable to those of an automobile.
+È più versato nella corsa che nel volo. Cattura le prede correndo a una velocità pari a quella di un'automobile.
+È più versato nella corsa che nel volo. Cattura le prede correndo a una velocità pari a quella di un'automobile.
 568
 Predilige luoghi insalubri. Esala gas dalle fauci in grado di addormentare per una settimana.
 Predilige luoghi insalubri. Esala gas dalle fauci in grado di addormentare per una settimana.
@@ -11699,8 +11711,8 @@ The turning of the seasons changes the color and scent of this Pokemon's fur. Pe
 The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.
 The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.
 587
-They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.
-They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.
+Vola nei cieli come danzando mentre sprigiona elettricità. È molto grazioso, ma può creare dei fastidi.
+Vola nei cieli come danzando mentre sprigiona elettricità. È molto grazioso, ma può creare dei fastidi.
 588
 When they feel threatened, they spit an acidic liquid to drive attackers away. This Pokemon targets Shelmet.
 When they feel threatened, they spit an acidic liquid to drive attackers away. This Pokemon targets Shelmet.
@@ -11708,11 +11720,11 @@ When they feel threatened, they spit an acidic liquid to drive attackers away. T
 These Pokemon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.
 These Pokemon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.
 590
-For some reason, this Pokemon resembles a Poke Ball. They release poison spores to repel those who try to catch them.
-For some reason, this Pokemon resembles a Poke Ball. They release poison spores to repel those who try to catch them.
+Per un qualche motivo assomiglia a una Poké Ball. Soffia spore velenose contro il nemico per sfuggire alla cattura.
+Per un qualche motivo assomiglia a una Poké Ball. Soffia spore velenose contro il nemico per sfuggire alla cattura.
 591
-They show off their Poke Ball caps to lure prey, but very few Pokemon are fooled by this.
-They show off their Poke Ball caps to lure prey, but very few Pokemon are fooled by this.
+Cerca di attirare le prede esibendo un cappello a forma di Poké Ball, ma sono pochi i Pokémon che si fanno ingannare.
+Cerca di attirare le prede esibendo un cappello a forma di Poké Ball, ma sono pochi i Pokémon che si fanno ingannare.
 592
 They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.
 They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.
@@ -11861,11 +11873,11 @@ Its charge is strong enough to break through a giant castle wall in one blow. Th
 Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.
 Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.
 641
-Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.
-Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.
+L'energia sprigionata dalla coda di Tornadus provoca una violenta tempesta in grado di spazzare via le case.
+L'energia sprigionata dalla coda di Tornadus provoca una violenta tempesta in grado di spazzare via le case.
 642
-The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.
-The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.
+Dove passa Thundurus, rimane una scia lunghissima di bruciature nere provocate dai fulmini che scaglia.
+Dove passa Thundurus, rimane una scia lunghissima di bruciature nere provocate dai fulmini che scaglia.
 643
 When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather.
 When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather.
@@ -11873,8 +11885,8 @@ When Reshiram's tail flares, the heat energy moves the atmosphere and changes th
 This Pokemon appears in legends. In its tail, it has a giant generator that creates electricity.
 This Pokemon appears in legends. In its tail, it has a giant generator that creates electricity.
 645
-The energy that comes pouring from its tail increases the nutrition in the soil, making crops grow to great size.
-The energy that comes pouring from its tail increases the nutrition in the soil, making crops grow to great size.
+Rende fertile la terra trasformando l'energia del vento e dei fulmini in nutrimento per il suolo.
+Rende fertile la terra trasformando l'energia del vento e dei fulmini in nutrimento per il suolo.
 646
 It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.
 It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.
@@ -13195,6 +13207,18 @@ Produce elettricità grazie a una reazione chimica delle sue tossine. Il voltagg
 2031
 È litigioso e irascibile. Ingurgita acqua stagnante in grandi quantità per assorbire le tossine in essa contenute.
 È litigioso e irascibile. Ingurgita acqua stagnante in grandi quantità per assorbire le tossine in essa contenute.
+2032
+La parte superiore del suo corpo è ghiacciata e quando trema produce elettricità. Cammina con estrema difficoltà.
+La parte superiore del suo corpo è ghiacciata e quando trema produce elettricità. Cammina con estrema difficoltà.
+2033
+Uno spirito defunto. Il suo sdegno si fa energia e promana dal capo, tramutandosi nell'avversario per esigere vendetta.
+Uno spirito defunto. Il suo sdegno si fa energia e promana dal capo, tramutandosi nell'avversario per esigere vendetta.
+2034
+Il vello candido e scarmigliato lo fa somigliare a una divinità mortifera. Il profondo astio ne dilania le membra, portandolo ad abbattersi sull'inimico pronto a condividerne l'amara sorte.
+Il vello candido e scarmigliato lo fa somigliare a una divinità mortifera. Il profondo astio ne dilania le membra, portandolo ad abbattersi sull'inimico pronto a condividerne l'amara sorte.
+2035
+La sua venuta dai cieli al di là del mare annunzia la fine del rigido inverno. Si narra che il suo amore faccia germogliare nuova vita.
+La sua venuta dai cieli al di là del mare annunzia la fine del rigido inverno. Si narra che il suo amore faccia germogliare nuova vita.
 [4]
 19
 Kanto,Alola
