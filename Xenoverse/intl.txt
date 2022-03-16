@@ -28777,35 +28777,35 @@ Parasect
 Mr. Mime
 Mr. Mime
 1474
-????????
-????????
+Slowpoke
+Slowpoke
 1475
-????????
-????????
+Slowbro
+Slowbro
 1476
-????????
-????????
+Slowking
+Slowking
 1477
-????????
-????????
+Marill
+Marill
 1478
-????????
-????????
+Azumarill
+Azumarill
 1479
-????????
-????????
+Snorlax
+Snorlax
 1480
-????????
-????????
+Aerodactyl
+Aerodactyl
 1481
-????????
-????????
+Ghift
+Ghift
 1482
-????????
-????????
+Sunnee
+Sunnee
 1483
-????????
-????????
+Puddi
+Puddi
 1484
 ????????
 ????????
@@ -30414,6 +30414,18 @@ Toxel
 2031
 Toxtricity
 Toxtricity
+2032
+Arctozolt
+Arctozolt
+2033
+Zorua
+Zorua
+2034
+Zoroark
+Zoroark
+2035
+Enamorus
+Enamorus
 [2]
 1
 Seme
@@ -33577,6 +33589,36 @@ Mushroom
 1473
 Barriera
 Barrier
+1474
+Ronfone
+Dopey
+1475
+Paguro
+Hermit Crab
+1476
+Reale
+Royal
+1477
+Acquatopo
+Aqua Mouse
+1478
+Acquaniglio
+Aqua Rabbit
+1479
+Sonno
+Sleeping
+1480
+Fossile
+Fossil
+1481
+Consegna
+Delivery
+1482
+Sole
+Sun
+1483
+Cagnolino
+Puppy
 2000
 Cavallonembo
 Nimbus Steed
@@ -36851,6 +36893,36 @@ A mushroom grown larger than the host's body controls Parasect. It scatters pois
 1473
 La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
 Its gestures and motions convince watchers that something unseeable actually exists. Once it is believed, it will exist as if it were a real thing.
+1474
+Incredibilmente lento e tonto, ci mette 5 secondi a percepire il dolore dopo l'attacco.
+Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.
+1475
+E' lento e pigro e vive in riva al mare. Diventa Slowpoke se gli si stacca lo Shellder dalla coda.
+The Shellder that latches onto Slowpoke's tail is said to feed on the host's leftover scraps.
+1476
+Quando la testa di Slowpoke fu morsa, vi penetrarono delle tossine che produssero un enorme potere.
+When its head was bitten, toxins entered Slowpoke's head and unlocked an extraordinary power.
+1477
+La punta della coda, contenendo un olio piu' leggero dell'acqua, lo fa nuotare senza affogare.
+The tip of its tail, which contains oil that is lighter than water, lets it swim without drowning.
+1478
+Quando gioca in acqua arrotola le lunghe orecchie perche' non si bagnino all'interno.
+When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet.
+1479
+Molto pigro, non fa che mangiare e dormire. Con l'aumento della sua mole diventa sempre piu' indolente.
+Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.
+1480
+Aerodactyl risale all'epoca dei dinosauri. E' stato rigenerato da materiale genetico estratto dall'ambra. Si suppone che in tempi antichi fosse considerato il signore dei cieli.
+Aerodactyl is a Pokémon from the age of dinosaurs. It was regenerated from genetic material extracted from amber. It is imagined to have been the king of the skies in ancient times.
+1481
+Trasporta cibo per tutto il giorno. Si racconta che molti dispersi si siano salvati con il suo cibo.
+It carries food all day long. There are tales about lost people who were saved by the food it had.
+1482
+Di giorno si muove freneticamente, ma quando cala il sole si ferma e interrompe ogni attivita'.
+It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still.
+1483
+I Puddi sono molto fedeli. Durante gli inverni freddi, il loro calore può riscaldare un'intera abitazione.
+The Puddis are very loyal. During cold winters, their heat can warm an entire home.
 2000
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
@@ -43031,7 +43103,7 @@ Cuneo DNA
 Cuneo DNA
 523
 Verispecchio
-Verispecchio
+Reveal Glass
 524
 Ovamuleto
 Oval Charm
@@ -43830,6 +43902,24 @@ Ultra Rare Candy
 830
 Cerotto Abilità
 Ability Patch
+831
+Pietrantica
+Ancient Stone
+832
+Update Regale
+Royal Update
+833
+Pietrarosa
+Pink Stone
+834
+Furia Ball
+Fury Ball
+835
+Luxrayite
+Luxrayite
+836
+Mienshaoite
+Mienshaoite
 [8]
 1
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
@@ -45399,7 +45489,7 @@ Cuneo che permette di fondere Kyurem con il Pokémon al quale era unito in origi
 Cuneo che permette di fondere Kyurem con il Pokémon al quale era unito in origine.
 523
 Specchio misterioso che, riflettendo la verità, fa riacquistare ai Pokémon la loro vera forma.
-Specchio misterioso che, riflettendo la verità, fa riacquistare ai Pokémon la loro vera forma.
+A glass that reveals the truth. It is a mysterious glass that returns a Pokémon back to its original shape.
 524
 Misterioso amuleto di forma sferica che aumenta la probabilità di trovare Uova nella Pensione Pokémon.
 An oval charm said to increase the chance of Eggs being found at the Day Care.
@@ -46198,6 +46288,24 @@ A candy that is incredibly packed with energy. It raises the level of a single P
 830
 Cerotto che permette a un Pokémon dotato di un'abilità comune di cambiarla in una più rara.
 A patch that allows a Pokémon with a regular Ability to have a rare Ability.
+831
+Pietra millenaria che fa evolvere determinate specie di Pokémon. Non si sa da dove provenga.
+Millennial stone that allows specific species of Pokémon to evolve. It's unknown where it's from.
+832
+Update contenente i dati di un Pokémon di tipo Acqua. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing Water Type Pokémon's data. It makes the Pokémon evolve via Pokémon Transfer.
+833
+Pietra di un rosa brillante che trasforma determenitare specie di Pokémon. Non si sa da dove provenga.
+Stone of a shining pink color that allows specific species of Pokémon to evolve. It's unknown where it's from.
+834
+Una speciale Ball progettata da Tarassaco. Unisce le caratteristiche principali di una Pokéball all'efficacia mistica dei sigilli Furia.
+A special Ball engineered by Tarassaco. It combines the main characteristics of a Poké ball with the mystical power of Fury Seals.
+835
+Un esemplare delle misteriose Megapietre. Data a Luxray, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Luxray hold it, and this stone will enable it to Mega Evolve during battle.
+836
+Un esemplare delle misteriose Megapietre. Data a Mienshao, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Mienshao hold it, and this stone will enable it to Mega Evolve during battle.
 [9]
 1
 Tanfo

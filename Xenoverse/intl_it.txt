@@ -5043,35 +5043,35 @@ Parasect
 Mr. Mime
 Mr. Mime
 1474
-????????
-????????
+Slowpoke
+Slowpoke
 1475
-????????
-????????
+Slowbro
+Slowbro
 1476
-????????
-????????
+Slowking
+Slowking
 1477
-????????
-????????
+Marill
+Marill
 1478
-????????
-????????
+Azumarill
+Azumarill
 1479
-????????
-????????
+Snorlax
+Snorlax
 1480
-????????
-????????
+Aerodactyl
+Aerodactyl
 1481
-????????
-????????
+Ghift
+Ghift
 1482
-????????
-????????
+Sunnee
+Sunnee
 1483
-????????
-????????
+Puddi
+Puddi
 1484
 ????????
 ????????
@@ -6680,6 +6680,18 @@ Toxel
 2031
 Toxtricity
 Toxtricity
+2032
+Arctozolt
+Arctozolt
+2033
+Zorua
+Zorua
+2034
+Zoroark
+Zoroark
+2035
+Enamorus
+Enamorus
 [2]
 1
 Seme
@@ -9843,6 +9855,36 @@ Fungo
 1473
 Barriera
 Barriera
+1474
+Ronfone
+Ronfone
+1475
+Paguro
+Paguro
+1476
+Reale
+Reale
+1477
+Acquatopo
+Acquatopo
+1478
+Acquaniglio
+Acquaniglio
+1479
+Sonno
+Sonno
+1480
+Fossile
+Fossile
+1481
+Consegna
+Consegna
+1482
+Sole
+Sole
+1483
+Cagnolino
+Cagnolino
 2000
 Cavallonembo
 Cavallonembo
@@ -13114,6 +13156,36 @@ Il fungo sulla schiena assorbe l'energia dall'insetto ospitante su cui ha anche 
 1473
 La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
 La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
+1474
+Incredibilmente lento e tonto, ci mette 5 secondi a percepire il dolore dopo l'attacco.
+Incredibilmente lento e tonto, ci mette 5 secondi a percepire il dolore dopo l'attacco.
+1475
+E' lento e pigro e vive in riva al mare. Diventa Slowpoke se gli si stacca lo Shellder dalla coda.
+E' lento e pigro e vive in riva al mare. Diventa Slowpoke se gli si stacca lo Shellder dalla coda.
+1476
+Quando la testa di Slowpoke fu morsa, vi penetrarono delle tossine che produssero un enorme potere.
+Quando la testa di Slowpoke fu morsa, vi penetrarono delle tossine che produssero un enorme potere.
+1477
+La punta della coda, contenendo un olio piu' leggero dell'acqua, lo fa nuotare senza affogare.
+La punta della coda, contenendo un olio piu' leggero dell'acqua, lo fa nuotare senza affogare.
+1478
+Quando gioca in acqua arrotola le lunghe orecchie perche' non si bagnino all'interno.
+Quando gioca in acqua arrotola le lunghe orecchie perche' non si bagnino all'interno.
+1479
+Molto pigro, non fa che mangiare e dormire. Con l'aumento della sua mole diventa sempre piu' indolente.
+Molto pigro, non fa che mangiare e dormire. Con l'aumento della sua mole diventa sempre piu' indolente.
+1480
+Aerodactyl risale all'epoca dei dinosauri. E' stato rigenerato da materiale genetico estratto dall'ambra. Si suppone che in tempi antichi fosse considerato il signore dei cieli.
+Aerodactyl risale all'epoca dei dinosauri. E' stato rigenerato da materiale genetico estratto dall'ambra. Si suppone che in tempi antichi fosse considerato il signore dei cieli.
+1481
+Trasporta cibo per tutto il giorno. Si racconta che molti dispersi si siano salvati con il suo cibo.
+Trasporta cibo per tutto il giorno. Si racconta che molti dispersi si siano salvati con il suo cibo.
+1482
+Di giorno si muove freneticamente, ma quando cala il sole si ferma e interrompe ogni attivita'.
+Di giorno si muove freneticamente, ma quando cala il sole si ferma e interrompe ogni attivita'.
+1483
+I Puddi sono molto fedeli. Durante gli inverni freddi, il loro calore può riscaldare un'intera abitazione.
+I Puddi sono molto fedeli. Durante gli inverni freddi, il loro calore può riscaldare un'intera abitazione.
 2000
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
@@ -19960,7 +20032,139 @@ Lettera di Aster
 Lettera di Aster
 792
 Update Pinza
-Update Pinza
+Gripper Update
+793
+Bellossomite
+Bellossomite
+794
+Shiftryite
+Shiftryite
+795
+Fune di Fuga +
+Escape Rope +
+796
+Anello Induttivo
+Inductive Ring
+797
+Vecchio Diario
+Old Diary
+798
+Fiascopolizza
+Blunder Policy
+799
+Spray gola
+Throat Spray
+800
+Distorservizio
+Room Service
+801
+Scarponi robusti
+Heavy-Duty Boots
+802
+Smorzaurti
+Protective Pads
+803
+Superombrello
+Utility Umbrella
+804
+Zainofuga
+Eject Pack 
+805
+Menta Decisa
+Adamant Mint
+806
+Menta Sicura
+Bold Mint
+807
+Menta Audace
+Brave Mint
+808
+Menta Calma
+Calm Mint
+809
+Menta Cauta
+Careful Mint
+810
+Menta Gentile
+Gentle Mint
+811
+Menta Lesta
+Hasty Mint
+812
+Menta Scaltra
+Impish Mint
+813
+Menta Allegra
+Jolly Mint
+814
+Menta Fiacca
+Lax Mint
+815
+Menta Schiva
+Lonely Mint
+816
+Menta Mite
+Mild Mint
+817
+Menta Modesta
+Modest Mint
+818
+Menta Ingenua
+Naive Mint
+819
+Menta Birbona
+Naughty Mint
+820
+Menta Quiete
+Quiet Mint
+821
+Menta Ardente
+Rash Mint
+822
+Menta Placida
+Relaxed Mint
+823
+Menta Vivace
+Sassy Mint
+824
+Menta Seria
+Serious Mint
+825
+Menta Timida
+Timid Mint
+826
+Tappo d'argento
+Silver Bottle Cap
+827
+Tappo d'oro
+Gold Bottle Cap
+828
+Caramella Super Rara
+Super Rare Candy
+829
+Caramella Ultra Rara
+Ultra Rare Candy
+830
+Cerotto Abilità
+Ability Patch
+831
+Pietrantica
+Ancient Stone
+832
+Update Regale
+Royal Update
+833
+Pietrarosa
+Pink Stone
+834
+Furia Ball
+Fury Ball
+835
+Luxrayite
+Luxrayite
+836
+Mienshaoite
+Mienshaoite
 [8]
 1
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
@@ -22227,6 +22431,126 @@ Una speciale opera di Maurice. Questo apparecchio ti consente di uscire dal Bunk
 796
 Un anello creato da Victor intriso di energia X. Permette di trasformare geneticamente alcuni Pokémon.
 Un anello creato da Victor intriso di energia X. Permette di trasformare geneticamente alcuni Pokémon.
+797
+Un diario contenente tutte le esperienze del proprietario.
+Un diario contenente tutte le esperienze del proprietario.
+798
+Se una mossa non va a segno a causa della scarsa precisione, la Velocità aumenta considerevolmente.
+Se una mossa non va a segno a causa della scarsa precisione, la Velocità aumenta considerevolmente.
+799
+Aumenta l'Attacco Speciale quando il Pokémon usa una mossa basata sul suono.
+Aumenta l'Attacco Speciale quando il Pokémon usa una mossa basata sul suono.
+800
+Se un Pokémon ha questo strumento quando il campo di lotta è sotto l'effetto di Distortozona, la sua Velocità diminuisce.
+Se un Pokémon ha questo strumento quando il campo di lotta è sotto l'effetto di Distortozona, la sua Velocità diminuisce.
+801
+Protegge il Pokémon che ce l'ha dagli effetti di trappole e di altri ostacoli piazzati ai suoi piedi.
+Protegge il Pokémon che ce l'ha dagli effetti di trappole e di altri ostacoli piazzati ai suoi piedi.
+802
+Protegge dagli effetti causati dal contatto diretto con altri Pokémon.
+Protegge dagli effetti causati dal contatto diretto con altri Pokémon.
+803
+Strumento da dare a un Pokémon. Protegge dagli effetti causati da qualunque condizione atmosferica.
+Strumento da dare a un Pokémon. Protegge dagli effetti causati da qualunque condizione atmosferica.
+804
+Strumento da dare a un Pokémon. Se le sue statistiche diminuiscono, viene sostituito da un altro Pokémon della squadra.
+Strumento da dare a un Pokémon. Se le sue statistiche diminuiscono, viene sostituito da un altro Pokémon della squadra.
+805
+Quando un Pokémon ne sente il profumo, il suo Attacco aumenta più facilmente a scapito dell'Attacco Speciale.
+Quando un Pokémon ne sente il profumo, il suo Attacco aumenta più facilmente a scapito dell'Attacco Speciale.
+806
+Quando un Pokémon ne sente il profumo, la sua Difesa aumenta più facilmente a scapito dell'Attacco.
+Quando un Pokémon ne sente il profumo, la sua Difesa aumenta più facilmente a scapito dell'Attacco.
+807
+Quando un Pokémon ne sente il profumo, il suo Attacco aumenta più facilmente a scapito della Velocità.
+Quando un Pokémon ne sente il profumo, il suo Attacco aumenta più facilmente a scapito della Velocità.
+808
+Quando un Pokémon ne sente il profumo, la sua Difesa Speciale aumenta più facilmente a scapito dell'Attacco.
+Quando un Pokémon ne sente il profumo, la sua Difesa Speciale aumenta più facilmente a scapito dell'Attacco.
+809
+Quando un Pokémon ne sente il profumo, la sua Difesa Speciale aumenta più facilmente a scapito dell'Attacco Speciale.
+Quando un Pokémon ne sente il profumo, la sua Difesa Speciale aumenta più facilmente a scapito dell'Attacco Speciale.
+810
+Quando un Pokémon ne sente il profumo, la sua Difesa Speciale aumenta più facilmente a scapito della Difesa.
+Quando un Pokémon ne sente il profumo, la sua Difesa Speciale aumenta più facilmente a scapito della Difesa.
+811
+Quando un Pokémon ne sente il profumo, la sua Velocità aumenta più facilmente a scapito della Difesa.
+Quando un Pokémon ne sente il profumo, la sua Velocità aumenta più facilmente a scapito della Difesa.
+812
+Quando un Pokémon ne sente il profumo, la sua Difesa aumenta più facilmente a scapito dell'Attacco Speciale.
+Quando un Pokémon ne sente il profumo, la sua Difesa aumenta più facilmente a scapito dell'Attacco Speciale.
+813
+Quando un Pokémon ne sente il profumo, la sua Velocità aumenta più facilmente a scapito dell'Attacco Speciale.
+Quando un Pokémon ne sente il profumo, la sua Velocità aumenta più facilmente a scapito dell'Attacco Speciale.
+814
+Quando un Pokémon ne sente il profumo, la sua Difesa aumenta più facilmente a scapito della Difesa Speciale.
+Quando un Pokémon ne sente il profumo, la sua Difesa aumenta più facilmente a scapito della Difesa Speciale.
+815
+Quando un Pokémon ne sente il profumo, il suo Attacco aumenta più facilmente a scapito della Difesa.
+Quando un Pokémon ne sente il profumo, il suo Attacco aumenta più facilmente a scapito della Difesa.
+816
+Quando un Pokémon ne sente il profumo, il suo Attacco Speciale aumenta più facilmente a scapito della Difesa.
+Quando un Pokémon ne sente il profumo, il suo Attacco Speciale aumenta più facilmente a scapito della Difesa.
+817
+Quando un Pokémon ne sente il profumo, il suo Attacco Speciale aumenta più facilmente a scapito dell'Attacco.
+Quando un Pokémon ne sente il profumo, il suo Attacco Speciale aumenta più facilmente a scapito dell'Attacco.
+818
+Quando un Pokémon ne sente il profumo, la sua Velocità aumenta più facilmente a scapito della Difesa Speciale.
+Quando un Pokémon ne sente il profumo, la sua Velocità aumenta più facilmente a scapito della Difesa Speciale.
+819
+Quando un Pokémon ne sente il profumo, il suo Attacco aumenta più facilmente a scapito della Difesa Speciale.
+Quando un Pokémon ne sente il profumo, il suo Attacco aumenta più facilmente a scapito della Difesa Speciale.
+820
+Quando un Pokémon ne sente il profumo, il suo Attacco Speciale aumenta più facilmente a scapito della Velocità.
+Quando un Pokémon ne sente il profumo, il suo Attacco Speciale aumenta più facilmente a scapito della Velocità.
+821
+Quando un Pokémon ne sente il profumo, il suo Attacco Speciale aumenta più facilmente a scapito della Difesa Speciale.
+Quando un Pokémon ne sente il profumo, il suo Attacco Speciale aumenta più facilmente a scapito della Difesa Speciale.
+822
+Quando un Pokémon ne sente il profumo, la sua Difesa aumenta più facilmente a scapito della Velocità.
+Quando un Pokémon ne sente il profumo, la sua Difesa aumenta più facilmente a scapito della Velocità.
+823
+Quando un Pokémon ne sente il profumo, la sua Difesa Speciale aumenta più facilmente a scapito della Velocità.
+Quando un Pokémon ne sente il profumo, la sua Difesa Speciale aumenta più facilmente a scapito della Velocità.
+824
+Quando un Pokémon ne sente il profumo, tutte le sue statistiche aumentano uniformemente.
+Quando un Pokémon ne sente il profumo, tutte le sue statistiche aumentano uniformemente.
+825
+Quando un Pokémon ne sente il profumo, la sua Velocità aumenta più facilmente a scapito dell'Attacco.
+Quando un Pokémon ne sente il profumo, la sua Velocità aumenta più facilmente a scapito dell'Attacco.
+826
+Un bel tappo a corona color argento, molto apprezzato da alcuni.
+Un bel tappo a corona color argento, molto apprezzato da alcuni.
+827
+Un bel tappo a corona color oro, più raro del Tappo d'argento. Alcuni lo apprezzano molto.
+Un bel tappo a corona color oro, più raro del Tappo d'argento. Alcuni lo apprezzano molto.
+828
+Caramella fortemente energetica. Fa salire un Pokémon di cinque livelli.
+Caramella fortemente energetica. Fa salire un Pokémon di cinque livelli.
+829
+Caramella incredibilmente energetica. Fa salire un Pokémon di dieci livelli.
+Caramella incredibilmente energetica. Fa salire un Pokémon di dieci livelli.
+830
+Cerotto che permette a un Pokémon dotato di un'abilità comune di cambiarla in una più rara.
+Cerotto che permette a un Pokémon dotato di un'abilità comune di cambiarla in una più rara.
+831
+Pietra millenaria che fa evolvere determinate specie di Pokémon. Non si sa da dove provenga.
+Pietra millenaria che fa evolvere determinate specie di Pokémon. Non si sa da dove provenga.
+832
+Update contenente i dati di un Pokémon di tipo Acqua. Permette al Pokémon di evolversi tramite Trasferitore.
+Update contenente i dati di un Pokémon di tipo Acqua. Permette al Pokémon di evolversi tramite Trasferitore.
+833
+Pietra di un rosa brillante che trasforma determenitare specie di Pokémon. Non si sa da dove provenga.
+Pietra di un rosa brillante che trasforma determenitare specie di Pokémon. Non si sa da dove provenga.
+834
+Una speciale Ball progettata da Tarassaco. Unisce le caratteristiche principali di una Pokéball all'efficacia mistica dei sigilli Furia.
+Una speciale Ball progettata da Tarassaco. Unisce le caratteristiche principali di una Pokéball all'efficacia mistica dei sigilli Furia.
+835
+Un esemplare delle misteriose Megapietre. Data a Luxray, gli permette di megaevolversi durante la lotta.
+Un esemplare delle misteriose Megapietre. Data a Luxray, gli permette di megaevolversi durante la lotta.
+836
+Un esemplare delle misteriose Megapietre. Data a Mienshao, gli permette di megaevolversi durante la lotta.
+Un esemplare delle misteriose Megapietre. Data a Mienshao, gli permette di megaevolversi durante la lotta.
 [9]
 1
 Tanfo
