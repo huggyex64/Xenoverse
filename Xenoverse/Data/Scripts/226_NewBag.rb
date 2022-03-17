@@ -285,6 +285,12 @@ class NewBagScreen
 		drawItemInfo 
 	end
 	
+	def setPocket(p, pocket)
+		@bag.pockets[@pocketOrder[p]+1] = pocket
+		updatePocket(@curPocketIndex)
+		updateIconPosition if @curPocket.length>0
+	end
+
 	def pbChangeSelection
 		oldi = @index
 		return if @curPocket.length<=1
@@ -357,6 +363,13 @@ class NewBagScreen
 				end
 			end
 			
+			if Input.trigger?(Input::ALT) && @curPocket.length>1 && !@switching
+				echoln @curPocket
+				echoln @curPocket[@index]
+				setPocket(@curPocketIndex, @curPocket.sort {|x,y| PBItems.getName(x[0])<=>PBItems.getName(y[0])})
+				
+			end
+
 			if Input.trigger?(Input::C) && @curPocket.length>0
 				if @switching
 					@switching = false

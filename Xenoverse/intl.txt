@@ -41534,6 +41534,18 @@ The user manipulates magnetic fields which raises the Def. and Sp. Def stats of 
 733
 Chi la usa attacca sempre per primo, colpendo il bersaglio con un kunai di fuoco. Brutto colpo assicurato.
 The user always goes first and hits the target with throwing fire kunais. This move always results in a critical hit.
+734
+Chi la usa si trasforma in una copia esatta di una specie X casuale.
+The user transforms into an exact copy of a casual X Species.
+735
+Chi la usa genera una pioggia acida che danneggia tutti i Pokémon non di tipo Veleno o Acqua in campo.
+The user generates an  acid rain that damages all the Pokémons except for the Water and Poison Types.
+736
+Chi la usa crea uno scudo che indebolisce per cinque turni le mosse di tipo Elettro, Fuoco, Erba e Acqua.
+The user creates a shield that weakens the moves of Electric, Fire, Grass and Water Type for five turns.
+737
+Chi la usa piazza una trappola con le sue squame che indebolisce i nemici scesi in campo.
+The user places a trap with their scales. The trap weakens opponents that switch into battle.
 [7]
 1
 Repellente
@@ -61167,6 +61179,8 @@ KEY ITEMS
 KEY ITEMS
 Order
 Move
+Sort
+Sort
 x{1:2d}
 x{1:2d}
 Complete Pokedex Real
