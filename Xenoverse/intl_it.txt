@@ -37238,8 +37238,6 @@ KEY ITEMS
 STRUMENTI BASE
 Order
 Sposta
-Sort
-Ordina
 x{1:2d}
 x{1:2d}
 Complete Pokedex Real
