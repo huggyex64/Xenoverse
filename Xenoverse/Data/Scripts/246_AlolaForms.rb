@@ -2373,3 +2373,31 @@ MultipleForms.register(:GROWLITHE,{
 		next movelist if pokemon.form == 1
 	}
 })
+
+MultipleForms.register(:ARCANINE,{
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:ROCK) if pokemon.form == 1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [90,115,80,90,95,80] if pokemon.form==1
+		next
+	},
+	"height"=>proc{|pokemon|
+		next 2.0 if pokemon.form == 1
+		next
+	},
+	"weight"=>proc{|pokemon|
+		next 168.0 if pokemon.form == 1
+		next
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 # skips if standard growlithe
+		movelist = [[1,:TACKLE],[5,:EMBER],[9,:BITE],[15,:FIREFANG],[21,:ROCKSLIDE],[29,:HEATCRASH],
+                [33,:CRUNCH],[37,:DOUBLEEDGE],[47,:FLAREBLITZ]]
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist if pokemon.form == 1
+	}
+})
