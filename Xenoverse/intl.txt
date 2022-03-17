@@ -45519,7 +45519,7 @@ Un esemplare delle misteriose Megapietre. Data a Pinsir, gli permette di megaevo
 Un esemplare delle misteriose Megapietre. Data a Pinsir, gli permette di megaevolversi durante la lotta.
 533
 Un esemplare delle misteriose Megapietre. Data a Garchomp, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Garchomp, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Garchomp hold it, and this stone will enable it to Mega Evolve during battle.
 534
 Un esemplare delle misteriose Megapietre. Data a Blastoise, gli permette di megaevolversi durante la lotta.
 One variety of the mysterious Mega Stones. Have Blastoise hold it, and this stone will enable it to Mega Evolve during battle.
@@ -45573,7 +45573,7 @@ Un esemplare delle misteriose Megapietre. Data a Camerupt, gli permette di megae
 One variety of the mysterious Mega Stones. Have Camerupt hold it, and this stone will enable it to Mega Evolve during battle.
 551
 Un esemplare delle misteriose Megapietre. Data a Blaziken, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Blaziken, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Blaziken hold it, and this stone will enable it to Mega Evolve during battle.
 552
 Un esemplare delle misteriose Megapietre. Data a Scizor, gli permette di megaevolversi durante la lotta.
 One variety of the mysterious Mega Stones. Have Scizor hold it, and this stone will enable it to Mega Evolve during battle.
@@ -45630,7 +45630,7 @@ Un esemplare delle misteriose Megapietre. Data a Manectric, gli permette di mega
 Un esemplare delle misteriose Megapietre. Data a Manectric, gli permette di megaevolversi durante la lotta.
 570
 Un esemplare delle misteriose Megapietre. Data a Swampert, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Swampert, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Swampert hold it, and this stone will enable it to Mega Evolve during battle.
 571
 Un esemplare delle misteriose Megapietre. Data a Latias, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Latias, gli permette di megaevolversi durante la lotta.
@@ -46293,13 +46293,13 @@ Pietra millenaria che fa evolvere determinate specie di Pokémon. Non si sa da d
 Millennial stone that allows specific species of Pokémon to evolve. It's unknown where it's from.
 832
 Update contenente i dati di un Pokémon di tipo Acqua. Permette al Pokémon di evolversi tramite Trasferitore.
-An update containing Water Type Pokémon's data. It makes the Pokémon evolve via Pokémon Transfer.
+An update containing a Water Type Pokémon's data. It makes the Pokémon evolve via Pokémon Transfer.
 833
-Pietra di un rosa brillante che trasforma determenitare specie di Pokémon. Non si sa da dove provenga.
+Pietra di un rosa brillante che trasforma determenitate specie di Pokémon. Non si sa da dove provenga.
 Stone of a shining pink color that allows specific species of Pokémon to evolve. It's unknown where it's from.
 834
 Una speciale Ball progettata da Tarassaco. Unisce le caratteristiche principali di una Pokéball all'efficacia mistica dei sigilli Furia.
-A special Ball engineered by Tarassaco. It combines the main characteristics of a Poké ball with the mystical power of Fury Seals.
+A special Ball engineered by Taraxo. It combines the main characteristics of a Poké ball with the mystical power of Fury Seals.
 835
 Un esemplare delle misteriose Megapietre. Data a Luxray, gli permette di megaevolversi durante la lotta.
 One variety of the mysterious Mega Stones. Have Luxray hold it, and this stone will enable it to Mega Evolve during battle.

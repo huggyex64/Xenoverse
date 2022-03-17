@@ -20032,7 +20032,7 @@ Lettera di Aster
 Lettera di Aster
 792
 Update Pinza
-Gripper Update
+Update Pinza
 793
 Bellossomite
 Bellossomite
@@ -20041,124 +20041,124 @@ Shiftryite
 Shiftryite
 795
 Fune di Fuga +
-Escape Rope +
+Fune di Fuga +
 796
 Anello Induttivo
-Inductive Ring
+Anello Induttivo
 797
 Vecchio Diario
-Old Diary
+Vecchio Diario
 798
 Fiascopolizza
-Blunder Policy
+Fiascopolizza
 799
 Spray gola
-Throat Spray
+Spray gola
 800
 Distorservizio
-Room Service
+Distorservizio
 801
 Scarponi robusti
-Heavy-Duty Boots
+Scarponi robusti
 802
 Smorzaurti
-Protective Pads
+Smorzaurti
 803
 Superombrello
-Utility Umbrella
+Superombrello
 804
 Zainofuga
-Eject Pack 
+Zainofuga
 805
 Menta Decisa
-Adamant Mint
+Menta Decisa
 806
 Menta Sicura
-Bold Mint
+Menta Sicura
 807
 Menta Audace
-Brave Mint
+Menta Audace
 808
 Menta Calma
-Calm Mint
+Menta Calma
 809
 Menta Cauta
-Careful Mint
+Menta Cauta
 810
 Menta Gentile
-Gentle Mint
+Menta Gentile
 811
 Menta Lesta
-Hasty Mint
+Menta Lesta
 812
 Menta Scaltra
-Impish Mint
+Menta Scaltra
 813
 Menta Allegra
-Jolly Mint
+Menta Allegra
 814
 Menta Fiacca
-Lax Mint
+Menta Fiacca
 815
 Menta Schiva
-Lonely Mint
+Menta Schiva
 816
 Menta Mite
-Mild Mint
+Menta Mite
 817
 Menta Modesta
-Modest Mint
+Menta Modesta
 818
 Menta Ingenua
-Naive Mint
+Menta Ingenua
 819
 Menta Birbona
-Naughty Mint
+Menta Birbona
 820
 Menta Quiete
-Quiet Mint
+Menta Quiete
 821
 Menta Ardente
-Rash Mint
+Menta Ardente
 822
 Menta Placida
-Relaxed Mint
+Menta Placida
 823
 Menta Vivace
-Sassy Mint
+Menta Vivace
 824
 Menta Seria
-Serious Mint
+Menta Seria
 825
 Menta Timida
-Timid Mint
+Menta Timida
 826
 Tappo d'argento
-Silver Bottle Cap
+Tappo d'argento
 827
 Tappo d'oro
-Gold Bottle Cap
+Tappo d'oro
 828
 Caramella Super Rara
-Super Rare Candy
+Caramella Super Rara
 829
 Caramella Ultra Rara
-Ultra Rare Candy
+Caramella Ultra Rara
 830
 Cerotto Abilità
-Ability Patch
+Cerotto Abilità
 831
 Pietrantica
-Ancient Stone
+Pietrantica
 832
 Update Regale
-Royal Update
+Update Regale
 833
 Pietrarosa
-Pink Stone
+Pietrarosa
 834
 Furia Ball
-Fury Ball
+Furia Ball
 835
 Luxrayite
 Luxrayite
@@ -22540,8 +22540,8 @@ Pietra millenaria che fa evolvere determinate specie di Pokémon. Non si sa da d
 Update contenente i dati di un Pokémon di tipo Acqua. Permette al Pokémon di evolversi tramite Trasferitore.
 Update contenente i dati di un Pokémon di tipo Acqua. Permette al Pokémon di evolversi tramite Trasferitore.
 833
-Pietra di un rosa brillante che trasforma determenitare specie di Pokémon. Non si sa da dove provenga.
-Pietra di un rosa brillante che trasforma determenitare specie di Pokémon. Non si sa da dove provenga.
+Pietra di un rosa brillante che trasforma determenitate specie di Pokémon. Non si sa da dove provenga.
+Pietra di un rosa brillante che trasforma determenitate specie di Pokémon. Non si sa da dove provenga.
 834
 Una speciale Ball progettata da Tarassaco. Unisce le caratteristiche principali di una Pokéball all'efficacia mistica dei sigilli Furia.
 Una speciale Ball progettata da Tarassaco. Unisce le caratteristiche principali di una Pokéball all'efficacia mistica dei sigilli Furia.
