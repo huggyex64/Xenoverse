@@ -105,6 +105,7 @@ class PokeBattle_Pokemon
 	alias __mf_type1 type1
 	alias __mf_type2 type2
 	alias __mf_weight weight
+	alias __mf_height weight
 	alias __mf_getMoveList getMoveList
 	alias __mf_wildHoldItems wildHoldItems
 	alias __mf_baseExp baseExp
@@ -134,6 +135,12 @@ class PokeBattle_Pokemon
 		return v if v!=nil
 		return self.__mf_type2
 	end
+
+	def height
+		v=MultipleForms.call("height",self)
+		return v if v!=nil
+		return self.__mf_height
+	end
 	
 	def weight
 		v=MultipleForms.call("weight",self)
@@ -142,7 +149,12 @@ class PokeBattle_Pokemon
 	end
 	
 	def getMoveList
-		v=MultipleForms.call("getMoveList",self)
+		begin
+			v=MultipleForms.call("getMoveList",self)
+		rescue
+			echoln "MOVES ERROR! FORM #{self.form} IN #{self.species}"
+			v=nil
+		end
 		return v if v!=nil
 		return self.__mf_getMoveList
 	end
@@ -198,6 +210,10 @@ end
 module MultipleForms
 	@@formSpecies=HandlerHash.new(:PBSpecies)
 	
+	def self.get()
+		return @@formSpecies
+	end
+
 	def self.copy(sym,*syms)
 		@@formSpecies.copy(sym,*syms)
 	end
@@ -1186,10 +1202,9 @@ MultipleForms.register(:SABOLT,{
 			next 111.0 if pokemon.form==2  # Xenoverse
 		},
 		"getBaseStats"=>proc{|pokemon|
-			next if pokemon.form==0 || pokemon.form == 4
+			next if pokemon.form==0
 			next [88,66,70,80,78,68] if pokemon.form==1  # Terrestre
 			next [118,78,82,89,103,80] if pokemon.form==2  # Xenoverse
-			next [143,150,90,93,130,94] if pokemon.form == 3 #Astro
 		},
 		"getForm"=>proc{|pokemon|
 			if $game_switches[AUTOASTRO_SWITCH]==false
@@ -1220,10 +1235,6 @@ MultipleForms.register(:SABOLT,{
 					[8,:EMBARGO],[13,:ASSURANCE],[18,:SHOCKWAVE],[23,:SUCKERPUNCH],
 					[28,:SCARYFACE],[32,:THUNDERBOLT],[36,:DARKENINGBOLT],[40,:NASTYPLOT],
 					[45,:NIGHTDAZE],[51,:GLARE],[56,:THROATCHOP],[61,:VOLTTACKLE]]
-			when 3; movelist=[[1,:SCRATCH],[1,:GROWL],[6,:BABBLE],[8,:EMBER],[10,:HEADBUTT],
-					[12,:BITE],[16,:SONICBOOM],[20,:FLAMEBURST],[25,:REVENGE],
-					[30,:FIREFANG],[36,:FLAMETHROWER],[41,:TAKEDOWN],[51,:INFERNO],
-					[56,:CRUNCH],[61,:FLAREBLITZ]]
 			end
 			for i in movelist
 				i[1]=getConst(PBMoves,i[1])
@@ -2887,22 +2898,68 @@ MultipleForms.register(:PIKACHU,{
 MultipleForms.register(:BIDOOF,{
 	"type1"=>proc{|pokemon|
 		next if pokemon.form == 0
-		types=[:NORMAL,:FIGHTING,:FLYING,:POISON,:GROUND,
-			:ROCK,:BUG,:GHOST,:STEEL,
-			:FIRE,:WATER,:GRASS,:ELECTRIC,:PSYCHIC,
-			:ICE,:DRAGON,:DARK,:FAIRY]
-		next getID(PBTypes,types[pokemon.form-1])
+		case pokemon.form
+			when 2; next getID(PBTypes,:FIGHTING)
+			when 3; next getID(PBTypes,:FLYING)		
+			when 4; next getID(PBTypes,:POISON)
+			when 5; next getID(PBTypes,:GROUND)
+			when 6; next getID(PBTypes,:ROCK)
+			when 7; next getID(PBTypes,:BUG)
+			when 8; next getID(PBTypes,:GHOST)
+			when 9; next getID(PBTypes,:STEEL)
+			when 10; next getID(PBTypes,:FIRE)
+			when 11; next getID(PBTypes,:WATER)
+			when 12; next getID(PBTypes,:GRASS)
+			when 13; next getID(PBTypes,:ELECTRIC)
+			when 14; next getID(PBTypes,:PSYCHIC)
+			when 15; next getID(PBTypes,:ICE)
+			when 16; next getID(PBTypes,:DRAGON)
+			when 17; next getID(PBTypes,:DARK)
+			when 18; next getID(PBTypes,:FAIRY)
+		end
 	},
 	"type2"=>proc{|pokemon|
 		next if pokemon.form == 0
-		types=[:NORMAL,:FIGHTING,:FLYING,:POISON,:GROUND,
-			:ROCK,:BUG,:GHOST,:STEEL,
-			:FIRE,:WATER,:GRASS,:ELECTRIC,:PSYCHIC,
-			:ICE,:DRAGON,:DARK,:FAIRY]
-		next getID(PBTypes,types[pokemon.form-1])
+		case pokemon.form
+			when 2; next getID(PBTypes,:FIGHTING)
+			when 3; next getID(PBTypes,:FLYING)		
+			when 4; next getID(PBTypes,:POISON)
+			when 5; next getID(PBTypes,:GROUND)
+			when 6; next getID(PBTypes,:ROCK)
+			when 7; next getID(PBTypes,:BUG)
+			when 8; next getID(PBTypes,:GHOST)
+			when 9; next getID(PBTypes,:STEEL)
+			when 10; next getID(PBTypes,:FIRE)
+			when 11; next getID(PBTypes,:WATER)
+			when 12; next getID(PBTypes,:GRASS)
+			when 13; next getID(PBTypes,:ELECTRIC)
+			when 14; next getID(PBTypes,:PSYCHIC)
+			when 15; next getID(PBTypes,:ICE)
+			when 16; next getID(PBTypes,:DRAGON)
+			when 17; next getID(PBTypes,:DARK)
+			when 18; next getID(PBTypes,:FAIRY)
+		end
 	},
 	"ability"=>proc{|pokemon|
 		next getID(PBAbilities,:MULTITYPE) if pokemon.form>=1 #God form
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		#next getID(PBAbilities,:MULTITYPE)
+		
 		next 
 	},
 	"getForm"=>proc{|pokemon|
@@ -3049,3 +3106,45 @@ MultipleForms.register(:MAWILE,{
 		pbSeenForm(pokemon)
 	}
 })
+
+# MEGA LINOONE
+MultipleForms.register(:LINOONE,{
+	"getMegaForm"=>proc{|pokemon|
+		next 1 if isConst?(pokemon.item,PBItems,:LINOONITE)
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 0
+	},
+	"getMegaName"=>proc{|pokemon|
+		next _INTL("Mega Linoone") if pokemon.form==1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [50,195,125,50,55,105] if pokemon.form==1
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities,:HUGEPOWER) if pokemon.form==1
+		next
+	},
+	"onSetForm"=>proc{|pokemon,form|
+		pbSeenForm(pokemon)
+	}
+})
+
+
+
+
+def pbExtractFormsData
+	code = File.open("formExtractor.rb", "r") { |file| file.read }
+    begin
+      eval(code, nil, "formExtractor.rb")
+    rescue ScriptError
+      echoln "AN ERROR OCCURRED! #{$!.message}"
+		#raise ScriptError.new($!.message)
+    rescue
+      $!.message.sub!($!.message, traceback_report)
+      raise_traceback_error
+    end
+end

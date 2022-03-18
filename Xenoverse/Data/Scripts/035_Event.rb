@@ -69,6 +69,8 @@ end
 
 
 class HandlerHash
+  attr_reader :hash
+
   def initialize(mod)
     @mod=mod
     @hash={}
