@@ -675,6 +675,15 @@ class PokeBattle_Pokemon
     return weight
   end
 
+# Returns the weight of this Pokémon.
+  def height
+    dexdata=pbOpenDexData
+    pbDexDataOffset(dexdata,@species,33)
+    weight=dexdata.fgetw
+    dexdata.close
+    return weight
+  end
+
 # Returns the EV yield of this Pokémon.
   def evYield
     ret=[]

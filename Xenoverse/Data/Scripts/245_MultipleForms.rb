@@ -105,7 +105,7 @@ class PokeBattle_Pokemon
 	alias __mf_type1 type1
 	alias __mf_type2 type2
 	alias __mf_weight weight
-	alias __mf_height weight
+	alias __mf_height height
 	alias __mf_getMoveList getMoveList
 	alias __mf_wildHoldItems wildHoldItems
 	alias __mf_baseExp baseExp
@@ -138,13 +138,14 @@ class PokeBattle_Pokemon
 
 	def height
 		v=MultipleForms.call("height",self)
-		return v if v!=nil
+		echoln v
+		return v*100.0 if v!=nil
 		return self.__mf_height
 	end
 	
 	def weight
 		v=MultipleForms.call("weight",self)
-		return v if v!=nil
+		return v*100.0 if v!=nil
 		return self.__mf_weight
 	end
 	
@@ -657,7 +658,7 @@ MultipleForms.register(:GIRATINA,{
 		},
 		"weight"=>proc{|pokemon|
 			next if pokemon.form==0 # Altered Forme
-			next 6500               # Origin Forme
+			next 650.0               # Origin Forme
 		},
 		"getBaseStats"=>proc{|pokemon|
 			next if pokemon.form==0       # Altered Forme
@@ -687,7 +688,7 @@ MultipleForms.register(:SHAYMIN,{
 		},
 		"weight"=>proc{|pokemon|
 			next if pokemon.form==0 # Land Forme
-			next 52                 # Sky Forme
+			next 5.2                 # Sky Forme
 		},
 		"getBaseStats"=>proc{|pokemon|
 			next if pokemon.form==0      # Land Forme
@@ -987,9 +988,17 @@ MultipleForms.register(:TRISHOUT,{
 			next getID(PBAbilities,:GUTS) if pokemon.form==1 	# Terrestre
 			next getID(PBAbilities,:SOLARPOWER) if pokemon.form==2 		# Xenoverse
 		},
+		"height"=>proc{|pokemon|
+			next if pokemon.form==0 # Altered Forme
+			next 0.9 if pokemon.form==1 #T
+			next 1.6 if pokemon.form==2 #X
+			next 3.1 if pokemon.form==3 #A
+		},
 		"weight"=>proc{|pokemon|
 			next if pokemon.form==0 # Altered Forme
-			next 50.3             # Origin Forme
+			next 20.0 if pokemon.form==1 #T
+			next 99.0 if pokemon.form==2 #X
+			next 79.0 if pokemon.form==3 #A
 		},
 		"getBaseStats"=>proc{|pokemon|
 			next if pokemon.form==0 || pokemon.form == 4
@@ -1058,9 +1067,17 @@ MultipleForms.register(:SHYLEON,{
 			next getID(PBAbilities,:QUICKFEET) if pokemon.form == 1				# Terrestre
 			next getID(PBAbilities,:CHLOROPHYLL) if pokemon.form==2		    # Xenoverse
 		},
+		"height"=>proc{|pokemon|
+			next if pokemon.form==0 # Altered Forme
+			next 0.8 if pokemon.form==1 #T
+			next 2.7 if pokemon.form==2 #X
+			next 2.9 if pokemon.form==3 #A
+		},
 		"weight"=>proc{|pokemon|
 			next if pokemon.form==0 # Altered Forme
-			next 19.7          # Origin Forme
+			next 22.5 if pokemon.form==1 #T
+			next 77.0 if pokemon.form==2 #X
+			next 80.0 if pokemon.form==3 #A
 		},
 		"getBaseStats"=>proc{|pokemon|
 			next if pokemon.form == 0
@@ -1132,9 +1149,17 @@ MultipleForms.register(:SHULONG,{
 			next getID(PBAbilities,:MARVELSCALE) if pokemon.form==1		# Forma Terrestre
 			next getID(PBAbilities,:SWIFTSWIM) if pokemon.form==2	# Forma Xenoverse
 		},
+		"height"=>proc{|pokemon|
+			next if pokemon.form==0 # Altered Forme
+			next 0.8 if pokemon.form==1 #T
+			next 2.2 if pokemon.form==2 #X
+			next 3.1 if pokemon.form==3 #A
+		},
 		"weight"=>proc{|pokemon|
 			next if pokemon.form==0 # Altered Forme
-			next 19.7          # Origin Forme
+			next 29.0 if pokemon.form==1 #T
+			next 88.0 if pokemon.form==2 #X
+			next 130.0 if pokemon.form==3 #A
 		},
 		"getBaseStats"=>proc{|pokemon|
 			next if pokemon.form==0 
@@ -1196,10 +1221,15 @@ MultipleForms.register(:SABOLT,{
 			next getID(PBAbilities,:INTIMIDATE) if pokemon.form==1 	# Terrestre
 			next getID(PBAbilities,:INTIMIDATE) if pokemon.form==2 		# Xenoverse
 		},
+		"height"=>proc{|pokemon|
+			next if pokemon.form==0 # Altered Forme
+			next 0.8 if pokemon.form==1 #T
+			next 1.7 if pokemon.form==2 #X
+		},
 		"weight"=>proc{|pokemon|
 			next if pokemon.form==0 # Altered Forme
-			next 21.7 if pokemon.form==1  # Terrestre
-			next 111.0 if pokemon.form==2  # Xenoverse
+			next 21.7 if pokemon.form==1 #T
+			next 111.0 if pokemon.form==2 #X
 		},
 		"getBaseStats"=>proc{|pokemon|
 			next if pokemon.form==0
@@ -1778,11 +1808,11 @@ MultipleForms.register(:VENUSAUR,{
 			next movelist
 		},
 		"height"=>proc{|pokemon|
-			next 24 if pokemon.form==1
+			next 2.4 if pokemon.form==1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 1555 if pokemon.form==1
+			next 155.5 if pokemon.form==1
 			next
 		},
 		"onSetForm"=>proc{|pokemon,form|
@@ -1835,8 +1865,8 @@ MultipleForms.register(:CHARIZARD,{
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 1105 if pokemon.form==1
-			next 1005 if pokemon.form==2
+			next 110.5 if pokemon.form==1
+			next 100.5 if pokemon.form==2
 			next
 		},
 		"onSetForm"=>proc{|pokemon,form|
@@ -1885,7 +1915,7 @@ MultipleForms.register(:BLASTOISE,{
 			next movelist
 		},
 		"weight"=>proc{|pokemon|
-			next 1011 if pokemon.form==1
+			next 101.1 if pokemon.form==1
 			next
 		},
 		"onSetForm"=>proc{|pokemon,form|
@@ -1969,11 +1999,11 @@ MultipleForms.register(:BEEDRILL, {
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 14 if pokemon.form == 1
+			next 1.4 if pokemon.form == 1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 405 if pokemon.form == 1
+			next 40.5 if pokemon.form == 1
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
@@ -2003,11 +2033,11 @@ MultipleForms.register(:ALAKAZAM, {
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 12 if pokemon.form == 1
+			next 1.2 if pokemon.form == 1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 48 if pokemon.form == 1
+			next 48.0 if pokemon.form == 1
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
@@ -2037,11 +2067,11 @@ MultipleForms.register(:GENGAR, {
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 14 if pokemon.form == 1
+			next 1.4 if pokemon.form == 1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 405 if pokemon.form == 1
+			next 40.5 if pokemon.form == 1
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
@@ -2075,11 +2105,11 @@ MultipleForms.register(:GYARADOS, {
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 65 if pokemon.form == 1
+			next 6.5 if pokemon.form == 1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 305 if pokemon.form == 1
+			next 305.0 if pokemon.form == 1
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
@@ -2109,11 +2139,11 @@ MultipleForms.register(:STEELIX, {
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 105 if pokemon.form == 1
+			next 10.5 if pokemon.form == 1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 740 if pokemon.form == 1
+			next 740.0 if pokemon.form == 1
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
@@ -2143,11 +2173,11 @@ MultipleForms.register(:SCIZOR, {
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 2 if pokemon.form == 1
+			next 2.0 if pokemon.form == 1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 125 if pokemon.form == 1
+			next 125.0 if pokemon.form == 1
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
@@ -2181,11 +2211,11 @@ MultipleForms.register(:HERACROSS, {
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 17 if pokemon.form == 1
+			next 1.7 if pokemon.form == 1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 625 if pokemon.form == 1
+			next 62.5 if pokemon.form == 1
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
@@ -2215,11 +2245,11 @@ MultipleForms.register(:HOUNDOOM, {
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 19 if pokemon.form == 1
+			next 1.9 if pokemon.form == 1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 495 if pokemon.form == 1
+			next 49.5 if pokemon.form == 1
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
@@ -2249,11 +2279,11 @@ MultipleForms.register(:TYRANITAR, {
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 25 if pokemon.form == 1
+			next 2.5 if pokemon.form == 1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 255 if pokemon.form == 1
+			next 255.0 if pokemon.form == 1
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
@@ -2287,11 +2317,11 @@ MultipleForms.register(:AGGRON, {
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 2 if pokemon.form == 1
+			next 2.2 if pokemon.form == 1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 125 if pokemon.form == 1
+			next 395.0 if pokemon.form == 1
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
@@ -2321,11 +2351,11 @@ MultipleForms.register(:SHARPEDO, {
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 25 if pokemon.form == 1
+			next 2.5 if pokemon.form == 1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 1303 if pokemon.form == 1
+			next 130.3 if pokemon.form == 1
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
@@ -2355,11 +2385,11 @@ MultipleForms.register(:CAMERUPT, {
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 25 if pokemon.form == 1
+			next 2.5 if pokemon.form == 1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 3205 if pokemon.form == 1
+			next 320.5 if pokemon.form == 1
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
@@ -2389,11 +2419,11 @@ MultipleForms.register(:METAGROSS, {
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 25 if pokemon.form == 1
+			next 2.5 if pokemon.form == 1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 9429 if pokemon.form == 1
+			next 942.9 if pokemon.form == 1
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
@@ -2427,11 +2457,11 @@ MultipleForms.register(:LOPUNNY, {
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 2 if pokemon.form == 1
+			next 1.3 if pokemon.form == 1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 125 if pokemon.form == 1
+			next 28.3 if pokemon.form == 1
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
@@ -2469,11 +2499,11 @@ MultipleForms.register(:AUDINO, {
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 15 if pokemon.form == 1
+			next 1.5 if pokemon.form == 1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 32 if pokemon.form == 1
+			next 32.0 if pokemon.form == 1
 			next
 		},
 		"onSetForm"=>proc{|pokemon, form|
@@ -2503,7 +2533,7 @@ MultipleForms.register(:AMPHAROS,{
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 1011 if pokemon.form==1
+			next 61.5 if pokemon.form==1
 			next
 		},
 		"onSetForm"=>proc{|pokemon,form|
@@ -2533,7 +2563,7 @@ MultipleForms.register(:ABSOL,{
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 1011 if pokemon.form==1
+			next 49.0 if pokemon.form==1
 			next
 		},
 		"onSetForm"=>proc{|pokemon,form|
@@ -2562,8 +2592,12 @@ MultipleForms.register(:LUCARIO,{
 			next getID(PBAbilities,:MEGALAUNCHER) if pokemon.form==2
 			next
 		},
+		"height"=>proc{|pokemon|
+			next 1.3 if pokemon.form==2
+			next
+		},
 		"weight"=>proc{|pokemon|
-			next 1011 if pokemon.form==2
+			next 57.5 if pokemon.form==2
 			next
 		},
 		"onSetForm"=>proc{|pokemon,form|
@@ -2597,11 +2631,11 @@ MultipleForms.register(:HYPNO,{
 			next
 		},
 		"height"=>proc{|pokemon|
-			next 24 if pokemon.form==1
+			next 2.4 if pokemon.form==1
 			next
 		},
 		"weight"=>proc{|pokemon|
-			next 1555 if pokemon.form==1
+			next 155.5 if pokemon.form==1
 			next
 		},
 		"onSetForm"=>proc{|pokemon,form|
@@ -3133,7 +3167,31 @@ MultipleForms.register(:LINOONE,{
 	}
 })
 
-
+# MEGA LINOONE
+MultipleForms.register(:LINOONE,{
+	"getMegaForm"=>proc{|pokemon|
+		next 1 if isConst?(pokemon.item,PBItems,:LINOONITE)
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 0
+	},
+	"getMegaName"=>proc{|pokemon|
+		next _INTL("Mega Linoone") if pokemon.form==1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [65,250,60,115,115,160] if pokemon.form==1
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities,:MAGICBOUNCE) if pokemon.form==1
+		next
+	},
+	"onSetForm"=>proc{|pokemon,form|
+		pbSeenForm(pokemon)
+	}
+})
 
 
 def pbExtractFormsData
