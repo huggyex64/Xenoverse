@@ -3750,30 +3750,43 @@ ShowArea=true
 [621]
 # Torneo Apollo
 Bicycle=false
+MapPosition=0,10,19
 Outdoor=false
 ShowArea=true
-MapPosition=0,10,19
 [622]
 # Torneo Apollo
 Bicycle=false
+MapPosition=0,10,19
 Outdoor=false
 ShowArea=false
-MapPosition=0,10,19
 [623]
 # Torneo Apollo
 Bicycle=false
+MapPosition=0,10,19
 Outdoor=false
 ShowArea=false
-MapPosition=0,10,19
 [624]
 # Torneo Apollo
 Bicycle=false
+MapPosition=0,10,19
 Outdoor=false
 ShowArea=false
-MapPosition=0,10,19
 [625]
 # Paradiso Sakura
 Bicycle=false
+MapPosition=0,10,19
 Outdoor=false
 ShowArea=false
-MapPosition=0,10,19
+[626]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=true
+[627]
+# Monte Zodiaco Alterato
+BattleBack=Zodiacoalterato
+Weather=Rain,100
+Bicycle=false
+Outdoor=false
+WildBattleBGM=Wild Battle.mp3
+ShowArea=false
