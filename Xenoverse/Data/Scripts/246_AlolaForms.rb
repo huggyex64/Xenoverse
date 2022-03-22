@@ -2136,7 +2136,7 @@ MultipleForms.register(:GRIMER,{
 },
 "possibleEggMoves"=>proc{|pokemon|
    next if !pokemon.isDelta?
-   movelist=[:ASSURANCE,:CLEARSMOG,:CURSE,:IMPRISION,:MEANLOOK,:PURSUIT,
+   movelist=[:ASSURANCE,:CLEARSMOG,:CURSE,:IMPRISON,:MEANLOOK,:PURSUIT,
              :SCARYFACE,:SHADOWSNEAK,:SPITE,:STOCKPILE,:SPITUP,:SWALLOW]
    for i in 0...movelist.length
      movelist[i]=getConst(PBMoves,movelist[i]) if getConst(PBMoves,movelist[i])!=nil
@@ -2270,7 +2270,7 @@ MultipleForms.register(:EXEGGUTOR,{
              :THIEF,:ROUND,:ENERGYBALL,:BRUTALSWING,:EXPLOSION,
              :GIGAIMPACT,:SWORDSDANCE,:PSYCHUP,:BULLDOZE,:DRAGONTAIL,
              :INFESTATION,:DREAMEATER,:GRASSKNOT,:SWAGGER,:SLEEPTALK,
-             :SUBSTITUTE,:TRICKEROOM,:NATUREPOWER,:CONFIDE,:DRACOMETEOR]
+             :SUBSTITUTE,:TRICKROOM,:NATUREPOWER,:CONFIDE,:DRACOMETEOR]
    for i in 0...movelist.length
      movelist[i]=getConst(PBMoves,movelist[i]) if getConst(PBMoves,movelist[i])!=nil
    end
