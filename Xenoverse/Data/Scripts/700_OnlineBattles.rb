@@ -666,25 +666,12 @@ module CableClub
   def self.enlist(msgwindow,ui)
     pbMessageDisplayDots(msgwindow, _INTL("Connecting"), 0)
     
-    out = nil
-    md5 = nil
-    uid = nil
-    host = nil
-    t = Thread.new {
+
       out = `Antochit.exe`
       return if (out == "BANNED")
       md5 = out.split(",")[0]
       uid = out.split(",")[1]
       host = out.split(",")[2]
-    }
-    
-    t.join
-    while (out == nil)
-      Graphics.update
-      Input.update
-
-      echoln "Zio guarda che vado"
-    end
 
     return if host == nil || out == "BANNED"
 
@@ -1286,6 +1273,11 @@ module CableClub
       writer.nil_or(:bool, pkmn.ivMaxed[i]) if is_v18
       writer.int(pkmn.ev[i])
     end
+    if (pkmn.isDelta?)
+      writer.bool(true)
+    else
+      writer.bool(false)
+    end
     writer.int(pkmn.happiness)
     writer.str(pkmn.name)
     writer.int(pkmn.ballused)
@@ -1401,6 +1393,9 @@ module CableClub
       pkmn.iv[i] = record.int
       pkmn.ivMaxed[i] = record.nil_or(:bool) if is_v18
       pkmn.ev[i] = record.int
+    end
+    if record.nil_or(:bool) == true
+      pkmn.makeDelta
     end
     pkmn.happiness = record.int
     pkmn.name = record.str

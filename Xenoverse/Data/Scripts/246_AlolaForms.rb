@@ -1609,7 +1609,7 @@ MultipleForms.register(:DIGLETT,{
             [getID(PBAbilities,:SANDFORCE),2]]
     end
     next [[getID(PBAbilities,:SANDVEIL),0],
-          [getID(PBAbilities,:TANGLEDHAIR),1],
+          [getID(PBAbilities,:TANGLINGHAIR),1],
           [getID(PBAbilities,:SANDFORCE),2]]
   end
   next
