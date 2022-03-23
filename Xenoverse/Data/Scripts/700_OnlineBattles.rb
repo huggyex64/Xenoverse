@@ -1533,7 +1533,10 @@ class PokeBattle_CableClub < PokeBattle_Battle
       @connection.updateExp([:ready]) do |record|
         case (type = record.sym)
         when :ready
-          awaiting = false
+          awaiting = false          
+          @connection.send do |writer|
+            writer.sym(:ready) #Request type
+          end
         end
       end
       if (((frame / 60) % 3) == 0)
