@@ -1984,11 +1984,20 @@ seems to work when commented. for some reason...
   end
   
   def pbDefaultChooseEnemyCommand(index)
-    our_indices = @doublebattle ? [0, 2] : [0]
-    their_indices = @doublebattle ? [1, 3] : [1]
-    Log.i("FAINT INFORMATION", "#{@battlers[0].isFainted?} #{@battlers[1].isFainted?} #{@battlers[2].isFainted?} #{@battlers[3].isFainted?}")
+    #our_indices = @doublebattle ? [0, 2] : [0]
+    #their_indices = @doublebattle ? [1, 3] : [1]
+    our_indices = []
+    their_indices = []
+    for i in 0..(@doublebattle ? 3 : 1)
+      if i % 2 == 0 #player side
+        our_indices.push(i) if !@battlers[i].isFainted?
+      else
+        their_indices.push(i) if !@battlers[i].isFainted?
+      end
+    end
+    Log.i("FAINT INFORMATION", "0:#{@battlers[0].isFainted?} 1:#{@battlers[1].isFainted?} 2:#{@battlers[2].isFainted?} 3:#{@battlers[3].isFainted?}")
     # Sends our choices after they have all been locked in.
-    if index == @battlers[their_indices.last].isFainted? ? our_indices.last : their_indices.last
+    if index == their_indices.last
       @connection.send do |writer|
         cur_seed=srand
         srand(cur_seed)
