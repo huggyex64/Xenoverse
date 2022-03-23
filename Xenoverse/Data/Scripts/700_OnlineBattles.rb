@@ -1523,12 +1523,13 @@ class PokeBattle_CableClub < PokeBattle_Battle
     #Here i should await for readiness
     sent = false
     awaiting = true
+    sent = 0
     while(awaiting)
       Graphics.update
       Input.update
       frame+=1
       cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
-      echoln "AWAITING READINESS"
+      echoln "AWAITING READINESS #{sent}"
       @connection.updateExp([:ready]) do |record|
         case (type = record.sym)
         when :ready
@@ -1539,6 +1540,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
         @connection.send do |writer|
           writer.sym(:ready) #Request type
         end
+        sent+=1
       end
     end
   end
