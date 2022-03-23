@@ -1761,7 +1761,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       Input.update
       frame+=1
       cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
-
+      echoln "AWAITING READINESS"
       @connection.updateExp([:ready]) do |record|
         case (type = record.sym)
         when :ready
