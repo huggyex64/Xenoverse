@@ -1524,23 +1524,24 @@ class PokeBattle_CableClub < PokeBattle_Battle
     sent = false
     awaiting = true
     sent = 0
+    echoln "AWAITING READINESS #{sent}"
     while(awaiting)
       Graphics.update
       Input.update
       frame+=1.0
       cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
-      echoln "AWAITING READINESS #{sent}"
       @connection.updateExp([:ready]) do |record|
         case (type = record.sym)
         when :ready
           awaiting = false
         end
       end
-      if (((frame / 60) % 20) == 0)
+      if (((frame / 60) % 3) == 0)
         @connection.send do |writer|
           writer.sym(:ready) #Request type
         end
         sent += 1
+        echoln "AWAITING READINESS #{sent}"
       end
     end
   end
