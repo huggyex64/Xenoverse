@@ -1768,7 +1768,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
           awaiting = false
         end
       end
-      if (!sent)
+      if (!sent && @connection.can_send?)
         @connection.send do |writer|
           writer.sym(:ready) #Request type
         end
