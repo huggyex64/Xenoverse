@@ -41,7 +41,12 @@ class PokeBattle_Battler
 
     # reset choice
     @battle.choices[@index]=[0,0,nil,-1]
-    @battle.pbDisplayPaused(_INTL("{1} è esausto!",pbThis)) if showMessage
+    
+		if (!@battle.is_a?(PokeBattle_CableClub))
+			@battle.pbDisplayPaused(_INTL("{1} è esausto!",pbThis)) if showMessage
+		else
+			@battle.pbDisplayBrief(_INTL("{1} è esausto!",pbThis)) if showMessage
+		end
     PBDebug.log("[#{pbThis} fainted]")
     PBDebug.log("[#{pbThis} real hp is #{@pokemon.hp} : #{@hp}. Is it fainted? #{isFainted?()}]")
     return true
