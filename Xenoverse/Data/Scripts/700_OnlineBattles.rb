@@ -2015,6 +2015,7 @@ seems to work when commented. for some reason...
           mega=@megaEvolution[0][0]
           mega^=1 if mega>=0
           writer.int(mega) # mega fix?
+          Log.i("SENT CHOICES")
         end
       end
       frame = 0
