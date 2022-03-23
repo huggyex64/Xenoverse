@@ -1515,6 +1515,34 @@ class PokeBattle_CableClub < PokeBattle_Battle
     @battleAI  = PokeBattle_CableClub_AI.new(self) if defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
   end
   
+  def pbAwaitReadiness
+    frame = 0
+    @scene.pbShowWindow(PokeBattle_Scene::MESSAGEBOX)
+    cw = @scene.sprites["messagewindow"]
+    cw.letterbyletter = false
+    #Here i should await for readiness
+    sent = false
+    awaiting = true
+    while(awaiting)
+      Graphics.update
+      Input.update
+      frame+=1
+      cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
+      echoln "AWAITING READINESS"
+      @connection.updateExp([:ready]) do |record|
+        case (type = record.sym)
+        when :ready
+          awaiting = false
+        end
+      end
+      if ((frame / 60) % 3 == 0)
+        @connection.send do |writer|
+          writer.sym(:ready) #Request type
+        end
+      end
+    end
+  end
+
   #Redefining pbStartBattleCore(canlose)
   #This one will await the readiness of each player
   
@@ -1746,37 +1774,9 @@ class PokeBattle_CableClub < PokeBattle_Battle
     elsif PBWeather.const_defined?(:STRONGWINDS) && @weather==PBWeather::STRONGWINDS
       pbDisplay(_INTL("The wind is strong."))
     end
+    pbAwaitReadiness
     pbOnActiveAll   # Abilities
     @turncount=0
-
-    frame = 0
-    @scene.pbShowWindow(PokeBattle_Scene::MESSAGEBOX)
-    cw = @scene.sprites["messagewindow"]
-    cw.letterbyletter = false
-    #Here i should await for readiness
-    sent = false
-    awaiting = true
-    while(awaiting)
-      Graphics.update
-      Input.update
-      frame+=1
-      cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
-      echoln "AWAITING READINESS"
-      @connection.updateExp([:ready]) do |record|
-        case (type = record.sym)
-        when :ready
-          awaiting = false
-        end
-      end
-      if ((frame / 60) % 3 == 0)
-        @connection.send do |writer|
-          writer.sym(:ready) #Request type
-        end
-      end
-    end
-
-
-
 
     loop do   # Now begin the battle loop
       PBDebug.log("***Round #{@turncount+1}***") if $INTERNAL
