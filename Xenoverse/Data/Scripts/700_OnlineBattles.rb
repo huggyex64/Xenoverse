@@ -725,7 +725,7 @@ module CableClub
                 end
               end
               ret = Kernel.pbShowCommands(msgwindow,options,-1)
-              if ret>0
+              if ret!=-1
                 if connection.can_send?
                   connection.send do |writer|
                     writer.sym(:askinteraction)
