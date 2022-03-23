@@ -1754,9 +1754,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
     cw = @scene.sprites["messagewindow"]
     cw.letterbyletter = false
     #Here i should await for readiness
-    @connection.send do |writer|
-      writer.sym(:ready) #Request type
-    end
+    sent = false
     awaiting = true
     while(awaiting)
       Graphics.update
@@ -1769,6 +1767,12 @@ class PokeBattle_CableClub < PokeBattle_Battle
         when :ready
           awaiting = false
         end
+      end
+      if (!sent)
+        @connection.send do |writer|
+          writer.sym(:ready) #Request type
+        end
+        sent = true
       end
     end
 
