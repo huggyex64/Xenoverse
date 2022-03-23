@@ -1536,7 +1536,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
           awaiting = false
         end
       end
-      if ((frame / 60) % 60 == 0)
+      if ((frame / 60) % 180 == 0)
         @connection.send do |writer|
           writer.sym(:ready) #Request type
         end
@@ -1777,6 +1777,8 @@ class PokeBattle_CableClub < PokeBattle_Battle
       pbDisplay(_INTL("The wind is strong."))
     end
     pbAwaitReadiness
+
+    #Qui viene chiamato random
     pbOnActiveAll   # Abilities
     @turncount=0
 
