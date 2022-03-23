@@ -132,19 +132,6 @@ def pbRandom(x)
 end
 =end
 def pbOnlineLobby
-  echoln srand(1234)
-  echoln rand(3**6)
-  echoln rand(3**6)
-  echoln rand(3**6)
-  echoln rand(3**6)
-  echoln srand(1234)
-  echoln rand(3**6)
-  echoln rand(3**6)
-  echoln rand(3**6)
-  echoln rand(3**6)
-
-  srand
-
   lobby = OnlineLobby.new
   if $Trainer.party.length == 0
     Kernel.pbMessage(_INTL("I'm sorry, you must have a Pokémon to enter the Cable Club."))
@@ -763,6 +750,37 @@ module CableClub
           pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nEnlisted, waiting to join lobby",$Trainer.publicID($Trainer.id)), frame)
           if (frame%60 == 0) #Requesting player list every X seconds
             ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
+          end
+          connection.updateExp([:found,:askAcceptInteraction]) do |record|
+            case (type = record.sym)
+            when :found
+              client_id = record.int
+              partner_name = record.str
+              partner_party = parse_party(record)
+              Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", partner_name))
+              if client_id == 0
+                state = :choose_activity
+              else
+                state = :await_choose_activity
+              end
+            when :askAcceptInteraction
+              req = record.int
+              Kernel.pbMessageDisplay(msgwindow, _INTL("{1} asked for connection. Do you want to start the connection?\\^",req))
+              command = Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2)
+              # Accepted
+              if command == 0
+                if connection.can_send?
+                  connection.send do |writer|
+                    writer.sym(:acceptInteraction)
+                    writer.int(req)
+                  end
+                end
+              else
+                Kernel.pbMessageDisplay(msgwindow, _INTL("Connection refused.\\^"))
+              end
+            else
+              raise "Unknown message: #{type}"
+            end
           end
           connection.updateExp([:found,:askAcceptInteraction]) do |record|
             case (type = record.sym)
@@ -1760,13 +1778,13 @@ class Socket
     retString=""
     buf = "\0" * maxlen
     retval=Winsock.recv(@fd, buf, buf.size, flags)
-    SocketError.check if retval == -1
+    SocketError.checkBlocking if retval == -1
     retString+=buf[0,retval]
     return retString
   end
 
   def write_ready?
-    SocketError.check if (ret = Winsock.select(1, 0, [1, @fd].pack("ll"), 0, [0, 0].pack("ll"))) == -1
+    SocketError.checkBlocking if (ret = Winsock.select(1, 0, [1, @fd].pack("ll"), 0, [0, 0].pack("ll"))) == -1
     return ret != 0
   end
 end

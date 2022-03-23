@@ -93,6 +93,7 @@ def mainFunctionDebug #:nodoc:
     $game_system        = Game_System.new
     setScreenBorderName("border") # Sets image file for the border
     Graphics.update
+    Win32API.new('NoDeactivate.dll', 'BeginMonitor', '', '').call
     Graphics.freeze
     $scene = pbCallTitle
     while $scene != nil
@@ -102,6 +103,8 @@ def mainFunctionDebug #:nodoc:
   rescue Hangup
     pbEmergencySave
     raise
+  ensure 
+    Win32API.new('NoDeactivate.dll', 'EndMonitor', '', '').call
   end
 end
 

@@ -6,7 +6,7 @@
 #===============================================================================
 MAXIMUMLEVEL       = 100
 EGGINITIALLEVEL    = 1
-SHINYPOKEMONCHANCE = 26
+SHINYPOKEMONCHANCE = 26000
 POKERUSCHANCE      = 3
 BOARDSPEED         = 6.0    
 UNCATCHABLE_POKEMON= 230
