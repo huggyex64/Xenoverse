@@ -1515,6 +1515,302 @@ class PokeBattle_CableClub < PokeBattle_Battle
     @battleAI  = PokeBattle_CableClub_AI.new(self) if defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
   end
   
+  #Redefining pbStartBattleCore(canlose)
+  #This one will await the readiness of each player
+  
+  def pbStartBattleCore(canlose)
+    Graphics.frame_rate = 60
+    if !@fullparty1 && @party1.length > MAXPARTYSIZE
+      raise ArgumentError.new(_INTL("Party 1 has more than {1} Pokémon.",MAXPARTYSIZE))
+    end
+    if !@fullparty2 && @party2.length > MAXPARTYSIZE
+      raise ArgumentError.new(_INTL("Party 2 has more than {1} Pokémon.",MAXPARTYSIZE))
+    end
+    #$smAnim = false if ($smAnim && @doublebattle) || EBUISTYLE!=2
+    $smAnim = true if $game_switches[85] && (containsNewBosses?(@party2) ? true : !@doublebattle)
+    if !@opponent
+    #========================
+    # Initialize wild Pokémon
+    #========================
+      if @party2.length==1
+        if @doublebattle
+          raise _INTL("Only two wild Pokémon are allowed in double battles")
+        end
+        wildpoke=@party2[0]
+        @battlers[1].pbInitialize(wildpoke,0,false)
+        @peer.pbOnEnteringBattle(self,wildpoke)
+        if $game_switches[DRAGALISK_UNBEATABLE]==true
+          @battlers[1].stages[PBStats::EVASION] = 500
+        end
+        pbSetSeen(wildpoke)
+        @scene.pbStartBattle(self)
+        @scene.sendingOut=true
+				###
+				if wildpoke.boss
+					pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} wants to battle!",wildpoke.name))
+          # GRENINJAX END SENDOUT
+          if NEWBOSSES.include?($wildSpecies) && (isBoss?() ? (defined?($furiousBattle) && $furiousBattle) : false) #NEWBOSSES.include?($wildSpecies)
+            @scene.newBossSequence.finish if @scene.newBossSequence
+            @scene.newBossSequence.sendout if @scene.newBossSequence
+          else
+            @scene.vsBossSequence2_end
+            @scene.vsBossSequence2_sendout
+          end
+        else
+					pbDisplayPaused(_INTL("Wild {1} appeared!",wildpoke.name))
+				end
+				###
+      elsif @party2.length==2
+        if !@doublebattle
+          raise _INTL("Only one wild Pokémon is allowed in single battles")
+        end
+        @battlers[1].pbInitialize(@party2[0],0,false)
+        @battlers[3].pbInitialize(@party2[1],0,false)
+        @peer.pbOnEnteringBattle(self,@party2[0])
+        @peer.pbOnEnteringBattle(self,@party2[1])
+        pbSetSeen(@party2[0])
+        pbSetSeen(@party2[1])
+        @scene.pbStartBattle(self)
+        wildpoke=@party2[0]
+        if wildpoke.boss
+          if defined?($dittoxbattle) && $dittoxbattle
+            pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} wants to battle!","Ditto X"))
+					else
+            pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} wants to battle!",wildpoke.name))
+          end
+          # GRENINJAX END SENDOUT
+          if NEWBOSSES.include?($wildSpecies) && (isBoss?() ? (defined?($furiousBattle) && $furiousBattle) : false) #NEWBOSSES.include?($wildSpecies)
+            @scene.newBossSequence.finish if @scene.newBossSequence
+            @scene.newBossSequence.sendout if @scene.newBossSequence
+          else
+            @scene.vsBossSequence2_end
+            @scene.vsBossSequence2_sendout
+          end
+        else
+          pbDisplayPaused(_INTL("Wild {1} and\r\n{2} appeared!",
+            @party2[0].name,@party2[1].name))
+        end
+      else
+        raise _INTL("Only one or two wild Pokémon are allowed")
+      end
+    elsif @doublebattle
+    #=======================================
+    # Initialize opponents in double battles
+    #=======================================
+      if @opponent.is_a?(Array)
+        if @opponent.length==1
+          @opponent=@opponent[0]
+        elsif @opponent.length!=2
+          raise _INTL("Opponents with zero or more than two people are not allowed")
+        end
+      end
+      if @player.is_a?(Array)
+        if @player.length==1
+          @player=@player[0]
+        elsif @player.length!=2
+          raise _INTL("Player trainers with zero or more than two people are not allowed")
+        end
+      end
+      @scene.pbStartBattle(self)
+      @scene.sendingOut=true
+      if @opponent.is_a?(Array)
+        pbDisplayPaused(_INTL("{1} and {2} want to battle!",@opponent[0].fullname,@opponent[1].fullname))
+        sendout1=pbFindNextUnfainted(@party2,0,pbSecondPartyBegin(1))
+        raise _INTL("Opponent 1 has no unfainted Pokémon") if sendout1 < 0
+        sendout2=pbFindNextUnfainted(@party2,pbSecondPartyBegin(1))
+        raise _INTL("Opponent 2 has no unfainted Pokémon") if sendout2 < 0
+        @scene.vsSequenceSM_end if $smAnim && !@scene.smTrainerSequence
+        @battlers[1].pbInitialize(@party2[sendout1],sendout1,false)
+        @battlers[3].pbInitialize(@party2[sendout2],sendout2,false)
+        @scene.smTrainerSequence.finish if @scene.smTrainerSequence
+        pbDisplayBrief(_INTL("{1} sent\r out {2}! {3} sent\r out {4}!",@opponent[0].fullname,getBattlerPokemon(@battlers[1]).name,@opponent[1].fullname,getBattlerPokemon(@battlers[3]).name))
+        pbSendOutInitial(@doublebattle,1,@party2[sendout1],3,@party2[sendout2])
+      else
+        if (!self.is_a?(PokeBattle_CableClub))
+          pbDisplayPaused(_INTL("{1}\r\nvuole combattere!",@opponent.fullname))
+        else
+          pbDisplayBrief(_INTL("{1}\r\nvuole combattere!",@opponent.fullname))
+        end
+        sendout1=pbFindNextUnfainted(@party2,0)
+        sendout2=pbFindNextUnfainted(@party2,sendout1+1)
+        
+        if @party2[sendout1].species == getID(PBSpecies,:PAWNIARDAB)
+          @party2[sendout1].totalHp=9999999
+          @party2[sendout1].hp=9999999
+					@party2[sendout1].attack=90000
+        end
+        
+        if @party2[sendout2].species == getID(PBSpecies,:PAWNIARDAB)
+          @party2[sendout2].totalHp=9999999 
+          @party2[sendout2].hp=9999999
+					@party2[sendout2].attack=90000
+        end
+        
+        if sendout1 < 0 || sendout2 < 0
+          raise _INTL("Opponent doesn't have two unfainted Pokémon")
+        end
+        @scene.vsSequenceSM_end if $smAnim && !@scene.smTrainerSequence
+        @battlers[1].pbInitialize(@party2[sendout1],sendout1,false)
+        @battlers[3].pbInitialize(@party2[sendout2],sendout2,false)
+        @scene.smTrainerSequence.finish if @scene.smTrainerSequence
+        pbDisplayBrief(_INTL("{1} sent\r out {2} and {3}!",
+           @opponent.fullname,getBattlerPokemon(@battlers[1]).name,getBattlerPokemon(@battlers[3]).name))
+        pbSendOutInitial(@doublebattle,1,@party2[sendout1],3,@party2[sendout2])
+      end
+    else
+    #======================================
+    # Initialize opponent in single battles
+    #======================================
+      sendout=pbFindNextUnfainted(@party2,0)
+      raise _INTL("Trainer has no unfainted Pokémon") if sendout < 0
+      if @opponent.is_a?(Array)
+        raise _INTL("Opponent trainer must be only one person in single battles") if @opponent.length!=1
+        @opponent=@opponent[0]
+      end
+      if @player.is_a?(Array)
+        raise _INTL("Player trainer must be only one person in single battles") if @player.length!=1
+        @player=@player[0]
+      end
+      trainerpoke=@party2[0]
+      @battlers[1].pbInitialize(trainerpoke,sendout,false)
+      @scene.pbStartBattle(self)
+      @scene.sendingOut=true
+      pbDisplayPaused(_INTL("{1}\r\nvuole combattere!",@opponent.fullname))
+      @scene.vsSequenceSM_end if $smAnim && !@scene.smTrainerSequence
+      @scene.smTrainerSequence.finish if @scene.smTrainerSequence
+      pbDisplayBrief(_INTL("{1} sent\r out {2}!",@opponent.fullname,getBattlerPokemon(@battlers[1]).name))
+      pbSendOutInitial(@doublebattle,1,trainerpoke)
+    end
+    #=====================================
+    # Initialize players in double battles
+    #=====================================
+    if @doublebattle
+      @scene.sendingOut=true
+      if @player.is_a?(Array)
+        sendout1=pbFindNextUnfainted(@party1,0,pbSecondPartyBegin(0))
+        raise _INTL("Player 1 has no unfainted Pokémon") if sendout1 < 0
+        sendout2=pbFindNextUnfainted(@party1,pbSecondPartyBegin(0))
+        raise _INTL("Player 2 has no unfainted Pokémon") if sendout2 < 0
+        @battlers[0].pbInitialize(@party1[sendout1],sendout1,false)
+        @battlers[2].pbInitialize(@party1[sendout2],sendout2,false)
+        pbDisplayBrief(_INTL("{1} sent\r\nout {2}!  Go! {3}!",
+           @player[1].fullname,getBattlerPokemon(@battlers[2]).name,getBattlerPokemon(@battlers[0]).name))
+        pbSetSeen(@party1[sendout1])
+        pbSetSeen(@party1[sendout2])
+      else
+        sendout1=pbFindNextUnfainted(@party1,0)
+        sendout2=pbFindNextUnfainted(@party1,sendout1+1)
+        if sendout1 < 0 || sendout2 < 0
+          raise _INTL("Player doesn't have two unfainted Pokémon")
+        end
+        @battlers[0].pbInitialize(@party1[sendout1],sendout1,false)
+        @battlers[2].pbInitialize(@party1[sendout2],sendout2,false)
+        pbDisplayBrief(_INTL("Go! {1} and {2}!",getBattlerPokemon(@battlers[0]).name,getBattlerPokemon(@battlers[2]).name))
+      end
+      pbSendOutInitial(@doublebattle,0,@party1[sendout1],2,@party1[sendout2])
+    else
+    #====================================
+    # Initialize player in single battles
+    #====================================
+      @scene.sendingOut=true
+      sendout=pbFindNextUnfainted(@party1,0)
+      if sendout < 0
+        raise _INTL("Player has no unfainted Pokémon")
+      end
+      playerpoke=@party1[sendout]
+      @battlers[0].pbInitialize(playerpoke,sendout,false)
+      pbDisplayBrief(_INTL("Go! {1}!",getBattlerPokemon(@battlers[0]).name))
+      pbSendOutInitial(@doublebattle,0,playerpoke)
+    end
+    #====================================
+    # Displays a message for notifying stat increase
+    #====================================
+    if wildpoke != nil && wildpoke.boss
+      pbDisplay(_INTL("Le statistiche del Pokémon nemico sono più elevate!"))
+    end
+    #==================
+    # Initialize battle
+    #==================
+    if @weather==PBWeather::SUNNYDAY
+      pbDisplay(_INTL("The sunlight is strong."))
+    elsif @weather==PBWeather::RAINDANCE
+      pbDisplay(_INTL("It is raining."))
+    elsif @weather==PBWeather::SANDSTORM
+      pbDisplay(_INTL("A sandstorm is raging."))
+    elsif @weather==PBWeather::HAIL
+      pbDisplay(_INTL("Hail is falling."))
+    elsif PBWeather.const_defined?(:HEAVYRAIN) && @weather==PBWeather::HEAVYRAIN
+      pbDisplay(_INTL("It is raining heavily."))
+    elsif PBWeather.const_defined?(:HARSHSUN) && @weather==PBWeather::HARSHSUN
+      pbDisplay(_INTL("The sunlight is extremely harsh."))
+    elsif PBWeather.const_defined?(:STRONGWINDS) && @weather==PBWeather::STRONGWINDS
+      pbDisplay(_INTL("The wind is strong."))
+    end
+    pbOnActiveAll   # Abilities
+    @turncount=0
+
+    frame = 0
+    cw = @scene.sprites["messagewindow"]
+    cw.letterbyletter = false
+    #Here i should await for readiness
+    @connection.send do |writer|
+      writer.sym(:ready) #Request type
+    end
+    awaiting = true
+    while(awaiting)
+      Graphics.update
+      Input.update
+      frame+=1
+      cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
+
+      @connection.updateExp([:ready]) do |record|
+        case (type = record.sym)
+        when :ready
+        end
+      end
+    end
+
+
+
+
+    loop do   # Now begin the battle loop
+      PBDebug.log("***Round #{@turncount+1}***") if $INTERNAL
+			for i in 0...@battlers.length
+				if @battlers[i]!=nil
+					echoln "#{i} type 1 is #{@battlers[i].type1}"
+					echoln "#{i} type 2 is #{@battlers[i].type2}"
+					echoln "#{i} has fire type? #{@battlers[i].pbHasType?(:FIRE)}"
+					echoln "#{i} has laser focus? #{@battlers[i].effects[PBEffects::LaserFocus]}"
+				end
+			end
+      if @debug && @turncount >=100
+        @decision=pbDecisionOnTime()
+        PBDebug.log("***[Undecided after 100 rounds]")
+        pbAbort
+        break
+      end
+      PBDebug.logonerr{
+         pbCommandPhase
+      }
+      break if @decision > 0
+      PBDebug.logonerr{
+         pbAttackPhase
+      }
+      break if @decision > 0
+      @scene.clearMessageWindow
+      PBDebug.logonerr{
+         pbEndOfRoundPhase
+      }
+      break if @decision > 0
+      @turncount+=1
+			
+			break if @turncount == DRAGALISK_BATTLE_MAXTURNS && $game_switches[DRAGALISK_UNBEATABLE]==true
+    end
+    return pbEndOfBattle(canlose)
+  end
+
+
+
   def pbRandom(x)
     @connection.send do |writer|
       writer.sym(:random) #Request type
