@@ -1768,8 +1768,10 @@ class PokeBattle_CableClub < PokeBattle_Battle
           awaiting = false
         end
       end
-      @connection.send do |writer|
-        writer.sym(:ready) #Request type
+      if ((frame / 8) % 3) == 0)
+        @connection.send do |writer|
+          writer.sym(:ready) #Request type
+        end
       end
     end
 
@@ -1826,7 +1828,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       Graphics.update
       Input.update
       raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
-      @connection.update do |record|
+      @connection.updateExp([:random]) do |record|
         case (type = record.sym)
         when :random
           ret = record.int
