@@ -1986,8 +1986,9 @@ seems to work when commented. for some reason...
   def pbDefaultChooseEnemyCommand(index)
     our_indices = @doublebattle ? [0, 2] : [0]
     their_indices = @doublebattle ? [1, 3] : [1]
+    Log.i("FAINT INFORMATION", "#{@battlers[0].isFainted?} #{@battlers[1].isFainted?} #{@battlers[2].isFainted?} #{@battlers[3].isFainted?}")
     # Sends our choices after they have all been locked in.
-    if index == their_indices.last
+    if index == @battlers[their_indices.last].isFainted? ? our_indices.last : their_indices.last
       @connection.send do |writer|
         cur_seed=srand
         srand(cur_seed)
