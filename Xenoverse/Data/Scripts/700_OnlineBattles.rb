@@ -1750,6 +1750,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
     @turncount=0
 
     frame = 0
+    @scene.pbShowWindow(PokeBattle_Scene::MESSAGEBOX)
     cw = @scene.sprites["messagewindow"]
     cw.letterbyletter = false
     #Here i should await for readiness
@@ -1766,6 +1767,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       @connection.updateExp([:ready]) do |record|
         case (type = record.sym)
         when :ready
+          awaiting = false
         end
       end
     end
