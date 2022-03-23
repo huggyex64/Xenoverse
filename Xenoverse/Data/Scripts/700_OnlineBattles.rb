@@ -1778,13 +1778,13 @@ class Socket
     retString=""
     buf = "\0" * maxlen
     retval=Winsock.recv(@fd, buf, buf.size, flags)
-    SocketError.checkBlocking if retval == -1
+    SocketError.check if retval == -1
     retString+=buf[0,retval]
     return retString
   end
 
   def write_ready?
-    SocketError.checkBlocking if (ret = Winsock.select(1, 0, [1, @fd].pack("ll"), 0, [0, 0].pack("ll"))) == -1
+    SocketError.check if (ret = Winsock.select(1, 0, [1, @fd].pack("ll"), 0, [0, 0].pack("ll"))) == -1
     return ret != 0
   end
 end
