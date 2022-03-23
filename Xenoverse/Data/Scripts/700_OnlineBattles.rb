@@ -1516,7 +1516,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
   end
   
   def pbAwaitReadiness
-    frame = 0
+    frame = 0.0
     @scene.pbShowWindow(PokeBattle_Scene::MESSAGEBOX)
     cw = @scene.sprites["messagewindow"]
     cw.letterbyletter = false
@@ -1527,7 +1527,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
     while(awaiting)
       Graphics.update
       Input.update
-      frame+=1
+      frame+=1.0
       cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
       echoln "AWAITING READINESS #{sent}"
       @connection.updateExp([:ready]) do |record|
@@ -1536,7 +1536,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
           awaiting = false
         end
       end
-      if (((frame / 60) % 180) == 0)
+      if (((frame / 60) % 20) == 0)
         @connection.send do |writer|
           writer.sym(:ready) #Request type
         end
