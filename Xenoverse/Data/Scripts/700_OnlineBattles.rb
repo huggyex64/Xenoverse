@@ -1768,7 +1768,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
           awaiting = false
         end
       end
-      if ((frame / 8) % 3 == 0)
+      if ((frame / 20) % 3 == 0)
         @connection.send do |writer|
           writer.sym(:ready) #Request type
         end
