@@ -2019,14 +2019,16 @@ seems to work when commented. for some reason...
           Graphics.update
           Input.update
           raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
-          @connection.update do |record|
+          @connection.updateExp([:forfeit,:sneed,:seed,:choice]) do |record|
             case (type = record.sym)
             when :forfeit
               pbSEPlay("Battle flee")
               pbDisplay(_INTL("{1} forfeited the match!", @opponent.fullname))
               @decision = 1
               pbAbort
-              
+            when :sneed
+              print("MA CHE OOOOOOOO")
+            
             when :seed
               seed=record.int()
               srand(seed) if @client_id==1
