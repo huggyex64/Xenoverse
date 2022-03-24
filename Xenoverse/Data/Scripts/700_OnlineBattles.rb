@@ -3,13 +3,26 @@
 #####################################################################
 class OnlineLobby
   attr_accessor(:playerList)
+  attr_accessor(:selectionIndex)
 
   def initialize()
     @viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
     @viewport.z = 99999
     @sprites={}
+    @selectionIndex = 0
     #ID - Name - Debug - Status
     @playerList=[]
+    @frame = 0
+    self.createUI
+  end
+
+  def createUI()
+    @sprites["selection"] = Sprite.new(@viewport)
+    @sprites["selection"].bitmap = Bitmap.new(256,30)
+    @sprites["selection"].bitmap.fill_rect(0,0,256,30,Color.new(255,255,255,75))
+    @sprites["selection"].x = 0
+    @sprites["selection"].y = 30*@selectionIndex
+    @sprites["selection"].z = 4 #this has to be shown on top of others
   end
 
   def pbDisplayAvaiblePlayerList(list)
@@ -28,6 +41,26 @@ class OnlineLobby
       @sprites["list"].bitmap.draw_text(6,6+30*list.index(entry),250,30,"#{"%05d" % entry[0]}:#{entry[1]}-#{entry[3]}")
     end
   end
+
+  def moveSelector(amount)
+    @selectionIndex+=amount
+    if (@selectionIndex>=@playerList.length)
+      @selectionIndex = 0
+    elsif (@selectionIndex < 0)
+      @selectionIndex = @playerList.length - 1
+    end
+
+    echoln "MOVED SELECTION TO #{@selectionIndex}"
+  end
+
+
+  # This is supposed to be called with Input.update and Graphics.update inside a loop,
+  # so no need to add those here
+  def update
+    #updating the selection bar position
+    @sprites["selection"].y = 6+30*@selectionIndex
+  end
+
 
   def dispose
     @viewport.dispose
@@ -665,42 +698,68 @@ module CableClub
     end
   end
 
+  def self.canRefreshPlayerList?()
+    return @frame % 180 == 0
+  end
+
   def self.handle_enlist(connection,msgwindow)
-    pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nEnlisted, waiting to join lobby",$Trainer.publicID($Trainer.id)), @frame)
-    if (@frame%60 == 0) #Requesting player list every X seconds
+
+    ####### Input handling for enlisted state
+    # In this kind of state we want to be able to go up and down the player list, and be able to refresh it.
+
+    #echoln "Handling enlist! Can refresh player list? #{canRefreshPlayerList?()}"
+    #Input.update
+    if Input.press?(Input::F5) && canRefreshPlayerList?()
+      Kernel.pbMessage("Refreshing player list...")
       @ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
+      @frame = 0
     end
-    connection.updateExp([:found,:askAcceptInteraction]) do |record|
-      case (type = record.sym)
-      when :found
-        @client_id = record.int
-        @partner_name = record.str
-        @partner_party = parse_party(record)
-        Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", @partner_name))
-        if @client_id == 0
-          @state = :choose_activity
-        else
-          @state = :await_choose_activity
+
+    if Input.repeat?(Input::UP)
+      @ui.moveSelector(1)
+    end
+    if Input.repeat?(Input::DOWN)
+      @ui.moveSelector(-1)
+    end
+    
+    if Input.press?(Input::A)
+      Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start a connection?"))
+      if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+        # Requesting the list of connected players
+        options = []
+        optionsDict = {}
+        for player in ui.playerList
+          if player[3]=="WAITING" && player[0].to_i != $Trainer.publicID($Trainer.id) #CHECKING IF IT'S WAITING AND IT'S NOT SELF
+            options.push("#{player[0]} - #{player[1]}")
+            optionsDict["#{player[0]} - #{player[1]}"]=player[0].to_i
+          end
         end
-      when :askAcceptInteraction
-        req = record.int
-        Kernel.pbMessageDisplay(msgwindow, _INTL("{1} asked for connection. Do you want to start the connection?\\^",req))
-        command = Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2)
-        # Accepted
-        if command == 0
+        ret = Kernel.pbShowCommands(msgwindow,options,-1)
+        if ret!=-1
           if connection.can_send?
             connection.send do |writer|
-              writer.sym(:acceptInteraction)
-              writer.int(req)
+              writer.sym(:askinteraction)
+              writer.str($Trainer.name)
+              writer.int($Trainer.id)
+              #writer.int($Trainer.online_trainer_type)
+              writer.int(optionsDict[options[ret]]) #Here i'm sending the request to the one i wanna connect to
             end
+            @state = :await_interaction_accept
           end
         else
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Connection refused.\\^"))
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Skipped connection."))
         end
-      else
-        raise "Unknown message: #{type}"
       end
     end
+
+    ##################################################
+    ## Standard handling for the remainder
+    ##################################################
+
+    pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nEnlisted, waiting to join lobby",$Trainer.publicID($Trainer.id)), @frame)
+    #if (@frame%60 == 0) #Requesting player list every X seconds
+      #@ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
+    #end
     connection.updateExp([:found,:askAcceptInteraction]) do |record|
       case (type = record.sym)
       when :found
@@ -1086,7 +1145,7 @@ module CableClub
 
     return if host == nil || out == "BANNED"
     @ui = ui
-
+    @ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
     Connection.open(host, PORT) do |connection|
       @state = :await_server
       @last_state = nil
@@ -1106,11 +1165,15 @@ module CableClub
           @last_state = @state
           @frame = 0
         else
-          @frame += 1
+          @frame += 1 if @frame < 180
         end
 
         Graphics.update
         Input.update
+        @ui.update
+
+
+
         if Input.trigger?(Input::B)
           message = case @state
             when :await_server; _INTL("Abort connection?\\^")
@@ -1119,40 +1182,6 @@ module CableClub
             end
           Kernel.pbMessageDisplay(msgwindow, message)
           return if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-        end
-
-        if Input.trigger?(Input::A)
-          case @state
-          when :enlisted
-            Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start a connection?"))
-            if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-              # Requesting the list of connected players
-              options = []
-              optionsDict = {}
-              for player in ui.playerList
-                if player[3]=="WAITING" && player[0].to_i != $Trainer.publicID($Trainer.id) #CHECKING IF IT'S WAITING AND IT'S NOT SELF
-                  
-                  options.push("#{player[0]} - #{player[1]}")
-                  optionsDict["#{player[0]} - #{player[1]}"]=player[0].to_i
-                end
-              end
-              ret = Kernel.pbShowCommands(msgwindow,options,-1)
-              if ret!=-1
-                if connection.can_send?
-                  connection.send do |writer|
-                    writer.sym(:askinteraction)
-                    writer.str($Trainer.name)
-                    writer.int($Trainer.id)
-                    #writer.int($Trainer.online_trainer_type)
-                    writer.int(optionsDict[options[ret]]) #Here i'm sending the request to the one i wanna connect to
-                  end
-                  @state = :await_interaction_accept
-                end
-              else
-                Kernel.pbMessageDisplay(msgwindow, _INTL("Skipped connection."))
-              end
-            end
-          end
         end
 
         case @state

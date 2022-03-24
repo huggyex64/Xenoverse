@@ -71,11 +71,15 @@ if !$MKXP
         @keystate=[]
         @triggerstate=[]
         @releasestate=[]
+        @pressOncePressed=[]
+        @pressOnceReleased=[]
         for i in 0...256
           @stateUpdated[i]=true
           @keystate[i]=self.getstate(i) ? 1 : 0
           @triggerstate[i]=false
           @releasestate[i]=false
+          @pressOncePressed[i]=false
+          @pressOnceReleased[i]=true
         end
       end
     end
