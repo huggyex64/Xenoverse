@@ -863,6 +863,25 @@ module CableClub
           @state = :await_choose_activity
         end
       when :acceptInteraction
+        #@client_id = record.int
+        @partner_name = record.str
+        @partner_party = parse_party(record)
+        
+        if connection.can_send?
+          connection.send do |writer|
+            writer.sym(:fwd)
+            writer.sym(@partner_uid)
+            writer.sym(:found)
+            writer.str($Trainer.name)
+            write_party(writer)
+          end
+        end
+        Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", @partner_name))
+        if @client_id == 0
+          @state = :choose_activity
+        else
+          @state = :await_choose_activity
+        end
       when :ok
         #@client_id = record.int
         @partner_name = record.str
