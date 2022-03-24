@@ -1141,6 +1141,8 @@ module CableClub
         @partner_party[@partner_chosen] = $Trainer.party[@chosen]
         do_trade(@chosen, partner, pkmn)
         connection.send do |writer|
+          writer.sym(:fwd)
+          writer.str(@partner_uid)
           writer.sym(:update)
           write_pkmn(writer, $Trainer.party[@chosen])
         end
@@ -1207,12 +1209,16 @@ module CableClub
                   your_pkmn.name,your_speciesname))
               if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
                 connection.send do |writer|
+                  writer.sym(:fwd)
+                  writer.str(@partner_uid)
                   writer.sym(:ok)
                 end
                 @state = :await_trade_pokemon
                 break
               else
                 connection.send do |writer|
+                  writer.sym(:fwd)
+                  writer.str(@partner_uid)
                   writer.sym(:cancel)
                 end
                 @partner_chosen = nil
