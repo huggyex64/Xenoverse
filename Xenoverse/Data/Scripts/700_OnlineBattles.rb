@@ -715,6 +715,16 @@ module CableClub
       @frame = 0
     end
 
+    if Input.press?(Input::C)
+      connection.send do |writer|
+        writer.sym(:fwd)
+        writer.str(@ui.playerList[@ui.selectionIndex][2])
+        writer.sym(:message)
+        writer.str(pbEnterText("Daje",0,50))
+      end
+      Kernel.pbMessage("Wow")
+    end
+
     if Input.press?(Input::UP)
       @ui.moveSelector(-1)
       Graphics.update
@@ -764,7 +774,7 @@ module CableClub
     #if (@frame%60 == 0) #Requesting player list every X seconds
       #@ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
     #end
-    connection.updateExp([:found,:askAcceptInteraction]) do |record|
+    connection.updateExp([:found,:askAcceptInteraction,:message]) do |record|
       case (type = record.sym)
       when :found
         @client_id = record.int
@@ -791,6 +801,8 @@ module CableClub
         else
           Kernel.pbMessageDisplay(msgwindow, _INTL("Connection refused.\\^"))
         end
+      when :message
+        Kernel.pbMessage(record.str)
       else
         raise "Unknown message: #{type}"
       end
