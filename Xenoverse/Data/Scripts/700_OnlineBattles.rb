@@ -1700,7 +1700,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
           @connection.send do |writer|
             writer.sym(:ready) #Request type
             writer.str(@partner_uid)
-            writer.str(@client_id == 0 ? @uid + @partner_uid : @partner_uid + @uid)
+            writer.str(@uid)
           end
         end
       end
