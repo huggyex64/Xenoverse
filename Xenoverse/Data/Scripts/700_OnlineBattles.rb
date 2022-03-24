@@ -991,8 +991,10 @@ module CableClub
           (partner.partyID=0) rescue nil # EBDX compat
           connection.send do |writer|
             writer.sym(:resetReady)
+            writer.str(@partner_uid)
+            writer.str(@uid)
           end
-          do_battle(connection, @client_id, @seed, @battle_type, partner, @partner_party)
+          do_battle(connection, @client_id, @seed, @battle_type, partner, @partner_party,[@uid,@partner_uid])
           msgwindow.visible = true
           @state = :choose_activity
 
@@ -1057,7 +1059,7 @@ module CableClub
             connection.send do |writer|
               writer.sym(:resetReady)
             end
-            do_battle(connection, @client_id, @seed, @battle_type, partner, @partner_party)
+            do_battle(connection, @client_id, @seed, @battle_type, partner, @partner_party,[@uid,@partner_uid])
             msgwindow.visible = true
           else
             connection.send do |writer|
@@ -1325,7 +1327,7 @@ module CableClub
 # NO defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
 
   # Renamed constants, yay...
-  def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party)
+  def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party, uids)
     echoln "AOOOOOOOOOOO SO PARTITO IO"
     #$Trainer.backupParty = $Trainer.party.dup
     $Trainer.backupParty  = $Trainer.party.map {|x| x.clone}
@@ -1341,7 +1343,7 @@ module CableClub
       pkmn.calcStats
     }
     scene = pbNewBattleScene
-    battle = PokeBattle_CableClub.new(connection, @client_id, scene, partner_party_clone, partner)
+    battle = PokeBattle_CableClub.new(connection, @client_id, scene, partner_party_clone, partner, uids)
     battle.fullparty1 = battle.fullparty2 = true
     battle.endspeech = ""
     battle.items = []
@@ -1661,9 +1663,11 @@ end
 
 class PokeBattle_CableClub < PokeBattle_Battle
   attr_reader :connection
-  def initialize(connection, client_id, scene, opponent_party, opponent)
+  def initialize(connection, client_id, scene, opponent_party, opponent, uids)
     @connection = connection
     @client_id = client_id
+    @uid = uids[0]
+    @partner_uid = uids[1]
     @seedset=false
     @randomCounter = 0
     @randomHistory = []
@@ -1693,12 +1697,16 @@ class PokeBattle_CableClub < PokeBattle_Battle
           awaiting = false          
           @connection.send do |writer|
             writer.sym(:ready) #Request type
+            writer.str(@partner_uid)
+            writer.str(@client_id == 0 ? @uid + @partner_uid : @partner_uid + @uid)
           end
         end
       end
       if (((frame / 60) % 3) == 0)
         @connection.send do |writer|
           writer.sym(:ready) #Request type
+          writer.str(@partner_uid)
+          writer.str(@uid)
         end
         sent += 1
         echoln "AWAITING READINESS #{sent}"
@@ -1986,6 +1994,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       writer.sym(:random) #Request type
       writer.int(x) #Max range for random
       writer.int(@randomCounter) #Random counter
+      writer.int(@client_id == 0 ? @uid + @partner_uid : @partner_uid + @uid)
     end
     @randomCounter += 1
     ret = nil
