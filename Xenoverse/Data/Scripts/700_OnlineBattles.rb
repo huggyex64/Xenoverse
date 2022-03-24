@@ -2065,7 +2065,7 @@ seems to work when commented. for some reason...
     end
     Log.i("FAINT INFORMATION", "0:#{@battlers[0].isFainted?} 1:#{@battlers[1].isFainted?} 2:#{@battlers[2].isFainted?} 3:#{@battlers[3].isFainted?}")
     # Sends our choices after they have all been locked in.
-    if index == their_indices.last
+    if index == their_indices.last > our_indices.last ? their_indices.last : our_indices.last
       @connection.send do |writer|
         cur_seed=srand
         srand(cur_seed)
