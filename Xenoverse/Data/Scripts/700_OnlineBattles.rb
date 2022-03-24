@@ -752,6 +752,7 @@ module CableClub
           writer.sym(:askAcceptInteraction)
           writer.int($Trainer.id)
           writer.str($Trainer.name)
+          writer.str(@uid)
         end
         @state = :await_interaction_accept
       else
@@ -810,16 +811,23 @@ module CableClub
           @state = :await_choose_activity
         end
       when :askAcceptInteraction
-        req = record.int
-        reqName = record.str
+        id = record.int
+        name = record.str
+        uid = record.str
         Kernel.pbMessageDisplay(msgwindow, _INTL("{1} asked for connection. Do you want to start the connection?\\^",reqName))
         command = Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2)
         # Accepted
         if command == 0
+          @partner_name = name
+          @partner_id = id
+          @partner_uid = uid
+
+
           if connection.can_send?
             connection.send do |writer|
+              writer.sym(:fwd)
+              writer.sym(@partner_uid)
               writer.sym(:acceptInteraction)
-              writer.int(req)
             end
           end
         else
@@ -1197,6 +1205,8 @@ module CableClub
       @state = :await_server
       @last_state = nil
       @client_id = 0
+      @partner_uid = ""
+      @partner_id = -1
       @partner_name = nil
       @partner_party = nil
       @frame = 0
