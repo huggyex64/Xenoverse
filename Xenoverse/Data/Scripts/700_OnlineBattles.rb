@@ -715,7 +715,7 @@ module CableClub
       @frame = 0
     end
 
-    if Input.press?(Input::C)
+    if Input.press?(Input::R)
       connection.send do |writer|
         writer.sym(:fwd)
         writer.str(@ui.playerList[@ui.selectionIndex][2])
