@@ -1952,7 +1952,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
           Graphics.update
           Input.update
           raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
-          @connection.update do |record|
+          @connection.updateExp([:forfeit,:switch]) do |record|
             case (type = record.sym)
             when :forfeit
               pbSEPlay("Battle flee")
