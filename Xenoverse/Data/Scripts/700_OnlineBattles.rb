@@ -732,7 +732,7 @@ module CableClub
         # Requesting the list of connected players
         options = []
         optionsDict = {}
-        for player in ui.playerList
+        for player in @ui.playerList
           if player[3]=="WAITING" && player[0].to_i != $Trainer.publicID($Trainer.id) #CHECKING IF IT'S WAITING AND IT'S NOT SELF
             options.push("#{player[0]} - #{player[1]}")
             optionsDict["#{player[0]} - #{player[1]}"]=player[0].to_i
@@ -800,7 +800,7 @@ module CableClub
   def self.handle_await_interaction_accept(connection,msgwindow)
     pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nAsked X for interaction",$Trainer.publicID($Trainer.id)), @frame)
     if (@frame%60 == 0) #Requesting player list every X seconds
-      ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
+      @ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
     end
     connection.update do |record|
       case (type = record.sym)
@@ -1919,6 +1919,8 @@ class PokeBattle_CableClub < PokeBattle_Battle
       choice = super(index, lax, cancancel)
       # bug fix for the unknown type :switch. cause: going into the pokemon menu then backing out and attacking, which sends the switch symbol regardless.
       if !cancancel # forced switches do not allow canceling, and both sides would expect a response.
+        pbAwaitReadiness
+        
         @connection.send do |writer|
           writer.sym(:switch)
           writer.int(choice)
@@ -1941,6 +1943,8 @@ class PokeBattle_CableClub < PokeBattle_Battle
       cw = @scene.sprites[hbox]
       cw.letterbyletter = false
       begin
+        pbAwaitReadiness
+        
         loop do
           frame += 1
           cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
