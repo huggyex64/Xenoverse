@@ -454,6 +454,9 @@ module CableClub
                 trainertype = record.int
                 partner = PokeBattle_Trainer.new(@partner_name, trainertype)
                 (partner.partyID=0) rescue nil # EBDX compat
+                connection.send do |writer|
+                  writer.sym(:resetReady)
+                end
                 do_battle(connection, @client_id, seed, battle_type, partner, @partner_party)
                 @state = :choose_activity
 
