@@ -2030,6 +2030,8 @@ class PokeBattle_CableClub < PokeBattle_Battle
         pbAwaitReadiness
         
         @connection.send do |writer|
+          writer.sym(:fwd)
+          writer.str(@partner_uid)
           writer.sym(:switch)
           writer.int(choice)
         end
@@ -2086,6 +2088,8 @@ class PokeBattle_CableClub < PokeBattle_Battle
     ret = super(idxPokemon, duringBattle)
     if ret == 1
       @connection.send do |writer|
+        writer.sym(:fwd)
+        writer.str(@partner_uid)
         writer.sym(:forfeit)
       end
       @connection.discard(1)
@@ -2332,6 +2336,8 @@ seems to work when commented. for some reason...
       for our_index in our_indices
         @connection.send do |writer|
           pkmn = @battlers[our_index]
+          writer.sym(:fwd)
+          writer.str(@partner_uid)
           writer.sym(:choice)
           writer.int(@choices[our_index][0])
           writer.int(@choices[our_index][1])
