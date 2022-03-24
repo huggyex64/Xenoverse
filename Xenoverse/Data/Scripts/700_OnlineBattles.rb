@@ -454,9 +454,6 @@ module CableClub
                 trainertype = record.int
                 partner = PokeBattle_Trainer.new(@partner_name, trainertype)
                 (partner.partyID=0) rescue nil # EBDX compat
-                connection.send do |writer|
-                  writer.sym(:resetReady)
-                end
                 do_battle(connection, @client_id, seed, battle_type, partner, @partner_party)
                 @state = :choose_activity
 
@@ -911,6 +908,9 @@ module CableClub
           trainertype = record.int
           partner = PokeBattle_Trainer.new(@partner_name, trainertype)
           (partner.partyID=0) rescue nil # EBDX compat
+          connection.send do |writer|
+            writer.sym(:resetReady)
+          end
           do_battle(connection, @client_id, @seed, @battle_type, partner, @partner_party)
           msgwindow.visible = true
           @state = :choose_activity
@@ -968,6 +968,9 @@ module CableClub
             connection.send do |writer|
               writer.sym(:ok)
               writer.int($Trainer.online_trainer_type)
+            end
+            connection.send do |writer|
+              writer.sym(:resetReady)
             end
             do_battle(connection, @client_id, @seed, @battle_type, partner, @partner_party)
             msgwindow.visible = true
