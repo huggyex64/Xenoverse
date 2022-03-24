@@ -814,7 +814,7 @@ module CableClub
         id = record.int
         name = record.str
         uid = record.str
-        Kernel.pbMessageDisplay(msgwindow, _INTL("{1} asked for connection. Do you want to start the connection?\\^",reqName))
+        Kernel.pbMessageDisplay(msgwindow, _INTL("{1} asked for connection. Do you want to start the connection?\\^",name))
         command = Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2)
         # Accepted
         if command == 0
