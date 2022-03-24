@@ -754,6 +754,8 @@ module CableClub
           writer.str($Trainer.name)
           writer.str(@uid)
         end
+        @client_id = 0
+        @partner_uid = @ui.playerList[@ui.selectionIndex][2]
         @state = :await_interaction_accept
       else
         pbWait(2)
@@ -821,15 +823,17 @@ module CableClub
           @partner_name = name
           @partner_id = id
           @partner_uid = uid
-
-
           if connection.can_send?
             connection.send do |writer|
               writer.sym(:fwd)
               writer.sym(@partner_uid)
               writer.sym(:acceptInteraction)
+              writer.str($Trainer.name)
+              write_party(writer)
             end
           end
+          @client_id = 1
+          @state = :await_partner
         else
           Kernel.pbMessageDisplay(msgwindow, _INTL("Connection refused.\\^"))
         end
@@ -858,10 +862,21 @@ module CableClub
         else
           @state = :await_choose_activity
         end
+      when :acceptInteraction
       when :ok
-        @client_id = record.int
+        #@client_id = record.int
         @partner_name = record.str
         @partner_party = parse_party(record)
+        
+        if connection.can_send?
+          connection.send do |writer|
+            writer.sym(:fwd)
+            writer.sym(@partner_uid)
+            writer.sym(:found)
+            writer.str($Trainer.name)
+            write_party(writer)
+          end
+        end
         Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", @partner_name))
         if @client_id == 0
           @state = :choose_activity
@@ -884,7 +899,7 @@ module CableClub
     connection.update do |record|
       case (type = record.sym)
       when :found
-        @client_id = record.int
+        #@client_id = record.int
         @partner_name = record.str
         @partner_party = parse_party(record)
         Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", @partner_name))
@@ -1204,7 +1219,7 @@ module CableClub
     Connection.open(host, PORT) do |connection|
       @state = :await_server
       @last_state = nil
-      @client_id = 0
+      @client_id = 0               # 0 = SENDER, 1 = RECEIVER
       @partner_uid = ""
       @partner_id = -1
       @partner_name = nil
