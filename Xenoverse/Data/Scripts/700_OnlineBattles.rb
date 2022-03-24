@@ -716,11 +716,11 @@ module CableClub
     end
 
     if Input.press?(Input::UP)
-      @ui.moveSelector(1)
+      @ui.moveSelector(-1)
       pbWait(5)
     end
     if Input.press?(Input::DOWN)
-      @ui.moveSelector(-1)
+      @ui.moveSelector(1)
       pbWait(5)
     end
     
