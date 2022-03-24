@@ -964,6 +964,8 @@ module CableClub
 
       when 2 # Trade
         connection.send do |writer|
+          writer.sym(:fwd)
+          writer.str(@partner_uid)
           writer.sym(:trade)
         end
         @activity = :trade
@@ -1002,12 +1004,16 @@ module CableClub
           @chosen = choose_pokemon
           if @chosen >= 0
             connection.send do |writer|
+              writer.sym(:fwd)
+              writer.str(@partner_uid)
               writer.sym(:ok)
               writer.int(@chosen)
             end
             @state = :await_trade_confirm
           else
             connection.send do |writer|
+              writer.sym(:fwd)
+              writer.str(@partner_uid)
               writer.sym(:cancel)
             end
             connection.discard(1)
@@ -1080,17 +1086,23 @@ module CableClub
         if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
           msgwindow.visible = true #Kernel.pbDisposeMessageWindow(msgwindow)
           connection.send do |writer|
+            writer.sym(:fwd)
+            writer.str(@partner_uid)
             writer.sym(:ok)
           end
           @chosen = choose_pokemon
           if @chosen >= 0
             connection.send do |writer|
+              writer.sym(:fwd)
+              writer.str(@partner_uid)
               writer.sym(:ok)
               writer.int(@chosen)
             end
             @state = :await_trade_confirm
           else
             connection.send do |writer|
+              writer.sym(:fwd)
+              writer.str(@partner_uid)
               writer.sym(:cancel)
             end
             connection.discard(1)
@@ -1098,6 +1110,8 @@ module CableClub
           end
         else
           connection.send do |writer|
+            writer.sym(:fwd)
+            writer.str(@partner_uid)
             writer.sym(:cancel)
           end
           @state = :await_choose_activity
