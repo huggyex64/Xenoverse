@@ -945,6 +945,8 @@ module CableClub
         Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, your partner must have at least two Pokémon to engage in a double battle."))
       else
         connection.send do |writer|
+          writer.sym(:fwd)
+          writer.str(@partner_uid)
           writer.sym(:battle)
           @seed = rand(2**31)
           writer.int(@seed)
@@ -1037,6 +1039,8 @@ module CableClub
         # Auto-reject double battles that we cannot participate in.
         if @battle_type == :double && $Trainer.party.length < 2
           connection.send do |writer|
+            writer.sym(:fwd)
+            writer.str(@partner_uid)
             writer.sym(:cancel)
           end
           @state = :await_choose_activity
@@ -1045,6 +1049,8 @@ module CableClub
           if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
             msgwindow.visible = false #Kernel.pbDisposeMessageWindow(msgwindow)
             connection.send do |writer|
+              writer.sym(:fwd)
+              writer.str(@partner_uid)
               writer.sym(:ok)
               writer.int($Trainer.online_trainer_type)
             end
