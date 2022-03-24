@@ -1058,6 +1058,8 @@ module CableClub
             end
             connection.send do |writer|
               writer.sym(:resetReady)
+              writer.str(@partner_uid)
+              writer.str(@uid)
             end
             do_battle(connection, @client_id, @seed, @battle_type, partner, @partner_party,[@uid,@partner_uid])
             msgwindow.visible = true
