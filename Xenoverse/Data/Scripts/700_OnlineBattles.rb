@@ -715,11 +715,13 @@ module CableClub
       @frame = 0
     end
 
-    if Input.repeat?(Input::UP)
+    if Input.press?(Input::UP)
       @ui.moveSelector(1)
+      pbWait(5)
     end
-    if Input.repeat?(Input::DOWN)
+    if Input.press?(Input::DOWN)
       @ui.moveSelector(-1)
+      pbWait(5)
     end
     
     if Input.press?(Input::A)
