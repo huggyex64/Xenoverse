@@ -2051,9 +2051,156 @@ seems to work when commented. for some reason...
     super(index) || (index == 3 && Kernel.caller(1) =~ /pbCanShowCommands/)
   end
   
+  def pbCommandPhase
+		@scene.pbBeginCommandPhase
+		@scene.pbResetCommandIndices
+		for i in 0...4   # Reset choices if commands can be shown
+			if pbCanShowCommands?(i) || @battlers[i].isFainted?
+				@choices[i][0]=0
+				@choices[i][1]=0
+				@choices[i][2]=nil
+				@choices[i][3]=-1
+			else
+				battler=@battlers[i]
+				unless !@doublebattle && pbIsDoubleBattler?(i)
+					PBDebug.log("[Reusing commands for #{battler.pbThis(true)}]")
+				end
+			end
+		end
+		# Reset choices to perform Mega Evolution if it wasn't done somehow
+		for i in 0..1
+			for j in 0...@megaEvolution[i].length
+				@megaEvolution[i][j]=-1 if @megaEvolution[i][j]>=0
+			end
+		end
+		for i in 0...4
+			break if @decision!=0
+			next if @choices[i][0]!=0
+			if !pbOwnedByPlayer?(i) || @controlPlayer
+				#if !@battlers[i].isFainted? && pbCanShowCommands?(i)
+				@scene.pbChooseEnemyCommand(i)
+				#end
+			else
+				commandDone=false
+				commandEnd=false
+				if pbCanShowCommands?(i)
+					loop do
+						cmd=pbCommandMenu(i)
+						if cmd==0 # Fight
+							if pbCanShowFightMenu?(i)
+								commandDone=true if pbAutoFightMenu(i)
+								until commandDone
+									index=@scene.pbFightMenu(i)
+									if index<0
+										side=(pbIsOpposing?(i)) ? 1 : 0
+										owner=pbGetOwnerIndex(i)
+										if @megaEvolution[side][owner]==i
+											@megaEvolution[side][owner]=-1
+										end
+										break
+									end
+									next if !pbRegisterMove(i,index)
+									if @doublebattle
+										thismove=@battlers[i].moves[index]
+										target=@battlers[i].pbTarget(thismove)
+										if target==PBTargets::SingleNonUser # single non-user
+											target=@scene.pbChooseTarget(i)
+											next if target<0
+											pbRegisterTarget(i,target)
+										elsif target==PBTargets::UserOrPartner # Acupressure
+											target=@scene.pbChooseTarget(i)
+											next if target<0 || (target&1)==1
+											pbRegisterTarget(i,target)
+										end
+									end
+									commandDone=true
+								end
+							else
+								pbAutoChooseMove(i)
+								commandDone=true
+							end
+						elsif cmd==1 # Bag
+							if !@internalbattle || $ISINTOURNAMENT
+								if pbOwnedByPlayer?(i)
+									pbDisplay(_INTL("Items can't be used here."))
+								end
+							elsif $trainerbossbattle
+								pbDisplay(_INTL("La forte pressione non ti permette di usare strumenti!"))
+							else
+								item=pbItemMenu(i, @battlers[1])
+								if pbIsPokeBall?(item[0]) && !@opponent
+									if item[0] == PBItems::XENOBALL && isXSpecies?(@battlers[1].species)
+										pbConsumeItemInBattle($PokemonBag, item[0])
+									elsif item[0] == PBItems::XENOBALL && !isXSpecies?(@battlers[1].species) ||
+										item[0] != PBItems::XENOBALL && isXSpecies?(@battlers[1].species)
+										pbDisplay(_INTL("Non puoi usare questa ball per catturare il\nPokémon!"))
+										item[0]=-1
+										#return
+									elsif item[0] != PBItems::XENOBALL && !isXSpecies?(@battlers[1].species)
+										pbConsumeItemInBattle($PokemonBag, item[0])
+									elsif item[0] == PBItems::XENOBALL && isXSpecies?(@battlers[1].species) ||
+										item[0] != PBItems::XENOBALL && isXSpecies?(@battlers[1].species)
+										pbDisplay(_INTL("Non puoi usare questa ball per catturare il\nPokémon!"))
+										item[0]=-1
+										#return
+									end
+								end
+								if item[0]>0
+									if pbRegisterItem(i,item[0],item[1])
+										commandDone=true
+									end
+								end
+							end
+						elsif cmd==2 # Pokémon
+							pkmn=pbSwitchPlayer(i,false,true)
+							if pkmn>=0
+								commandDone=true if pbRegisterSwitch(i,pkmn)
+							end
+						elsif cmd==3   # Run
+							run=pbRun(i) 
+							if run>0
+								commandDone=true
+								return
+							elsif run<0
+								commandDone=true
+								side=(pbIsOpposing?(i)) ? 1 : 0
+								owner=pbGetOwnerIndex(i)
+								if @megaEvolution[side][owner]==i
+									@megaEvolution[side][owner]=-1
+								end
+							end
+						elsif cmd==4   # Call
+							thispkmn=@battlers[i]
+							@choices[i][0]=4   # "Call Pokémon"
+							@choices[i][1]=0
+							@choices[i][2]=nil
+							side=(pbIsOpposing?(i)) ? 1 : 0
+							owner=pbGetOwnerIndex(i)
+							if @megaEvolution[side][owner]==i
+								@megaEvolution[side][owner]=-1
+							end
+							commandDone=true
+						elsif cmd==-1   # Go back to first battler's choice
+							@megaEvolution[0][0]=-1 if @megaEvolution[0][0]>=0
+							@megaEvolution[1][0]=-1 if @megaEvolution[1][0]>=0
+							# Restore the item the player's first Pokémon was due to use
+							if @choices[0][0]==3 && $PokemonBag && $PokemonBag.pbCanStore?(@choices[0][1])
+								$PokemonBag.pbStoreItem(@choices[0][1])
+							end
+							pbCommandPhase
+							return
+						end
+						break if commandDone
+					end
+				end
+			end
+		end
+	end
+
   def pbDefaultChooseEnemyCommand(index)
-    #our_indices = @doublebattle ? [0, 2] : [0]
-    #their_indices = @doublebattle ? [1, 3] : [1]
+    our_indices = @doublebattle ? [0, 2] : [0]
+    their_indices = @doublebattle ? [1, 3] : [1]
+=begin
     our_indices = []
     their_indices = []
     for i in 0..(@doublebattle ? 3 : 1)
@@ -2063,9 +2210,10 @@ seems to work when commented. for some reason...
         their_indices.push(i) if !@battlers[i].isFainted?
       end
     end
+=end
     Log.i("FAINT INFORMATION", "0:#{@battlers[0].isFainted?} 1:#{@battlers[1].isFainted?} 2:#{@battlers[2].isFainted?} 3:#{@battlers[3].isFainted?}")
     # Sends our choices after they have all been locked in.
-    if index == their_indices.last > our_indices.last ? their_indices.last : our_indices.last
+    if index == their_indices.last
       @connection.send do |writer|
         cur_seed=srand
         srand(cur_seed)
