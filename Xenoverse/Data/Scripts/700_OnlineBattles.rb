@@ -1057,6 +1057,10 @@ module CableClub
               writer.int($Trainer.online_trainer_type)
             end
             connection.send do |writer|
+              writer.sym(:clearRandom)
+              writer.str(@client_id == 0 ? @uid + @partner_uid : @partner_uid + @uid)
+            end
+            connection.send do |writer|
               writer.sym(:resetReady)
               writer.str(@partner_uid)
               writer.str(@uid)
