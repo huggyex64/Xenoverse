@@ -743,15 +743,18 @@ module CableClub
       Kernel.pbMessage("Wow")
     end
 
-    if Input.press?(Input::L)
-      connection.send do |writer|
-        writer.sym(:fwd)
-        writer.str(@ui.playerList[@ui.selectionIndex][2])
-        writer.sym(:askAcceptInteraction)
-        writer.int($Trainer.id)
-        writer.str($Trainer.name)
+    if Input.press?(Input::C)
+      Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start a connection with {1}?",@ui.playerList[@ui.selectionIndex][1]))
+      if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+        connection.send do |writer|
+          writer.sym(:fwd)
+          writer.str(@ui.playerList[@ui.selectionIndex][2])
+          writer.sym(:askAcceptInteraction)
+          writer.int($Trainer.id)
+          writer.str($Trainer.name)
+        end
+        @state = :await_interaction_accept
       end
-      @state = :await_interaction_accept
     end
     
     if Input.press?(Input::A)
