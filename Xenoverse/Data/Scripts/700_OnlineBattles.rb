@@ -754,6 +754,8 @@ module CableClub
           writer.str($Trainer.name)
         end
         @state = :await_interaction_accept
+      else
+        pbWait(2)
       end
     end
     
@@ -809,7 +811,8 @@ module CableClub
         end
       when :askAcceptInteraction
         req = record.int
-        Kernel.pbMessageDisplay(msgwindow, _INTL("{1} asked for connection. Do you want to start the connection?\\^",req))
+        reqName = record.str
+        Kernel.pbMessageDisplay(msgwindow, _INTL("{1} asked for connection. Do you want to start the connection?\\^",reqName))
         command = Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2)
         # Accepted
         if command == 0
