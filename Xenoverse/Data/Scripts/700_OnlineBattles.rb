@@ -59,6 +59,7 @@ class OnlineLobby
   def update
     #updating the selection bar position
     @sprites["selection"].y = 6+30*@selectionIndex
+
   end
 
 
@@ -715,6 +716,23 @@ module CableClub
       @frame = 0
     end
 
+    if Input.trigger?(Input::CTRL)
+      echoln "GNE"
+    end
+
+    if $MKXP ? Input.press?(Input::UP) : Input.trigger?(Input::UP)
+      @ui.moveSelector(-1)
+      @ui.update
+      Graphics.update if $MKXP
+      pbWait(4) if $MKXP
+    end
+    if $MKXP ? Input.press?(Input::DOWN) : Input.trigger?(Input::DOWN)
+      @ui.moveSelector(1)
+      @ui.update
+      Graphics.update if $MKXP
+      pbWait(4) if $MKXP
+    end
+
     if Input.press?(Input::R)
       connection.send do |writer|
         writer.sym(:fwd)
@@ -725,15 +743,15 @@ module CableClub
       Kernel.pbMessage("Wow")
     end
 
-    if Input.press?(Input::UP)
-      @ui.moveSelector(-1)
-      Graphics.update
-      pbWait(5)
-    end
-    if Input.press?(Input::DOWN)
-      @ui.moveSelector(1)
-      Graphics.update
-      pbWait(5)
+    if Input.press?(Input::L)
+      connection.send do |writer|
+        writer.sym(:fwd)
+        writer.str(@ui.playerList[@ui.selectionIndex][2])
+        writer.sym(:askAcceptInteraction)
+        writer.int($Trainer.id)
+        writer.str($Trainer.name)
+      end
+      @state = :await_interaction_accept
     end
     
     if Input.press?(Input::A)
@@ -903,6 +921,7 @@ module CableClub
 
       else # Cancel
         # TODO: Confirmation box?
+        @state = :enlisted
         return
       end
   end
