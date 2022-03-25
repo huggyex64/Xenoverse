@@ -1158,6 +1158,13 @@ module CableClub
         @partner_party.each {|pkmn| pkmn.heal}
         pkmn = @partner_party[@partner_chosen]
         @partner_party[@partner_chosen] = $Trainer.party[@chosen]
+        connection.send do |writer|
+          writer.sym(:logTrade)
+          writer.str(@partner_uid)
+          write_pkmn(writer, $Trainer.party[@chosen])
+          writer.str("@p2")
+          write_pkmn(writer, pkmn)
+        end
         do_trade(@chosen, partner, pkmn) #trade scene
         connection.send do |writer|
           writer.sym(:fwd)
