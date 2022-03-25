@@ -734,20 +734,16 @@ module CableClub
       echoln "GNE"
     end
 
-    if $MKXP ? Input.press?(Input::UP) : Input.trigger?(Input::UP)
+    if Input.trigger?(Input::UP)
       @ui.moveSelector(-1)
       @ui.update
-      Graphics.update if $MKXP
-      pbWait(4) if $MKXP
     end
-    if $MKXP ? Input.press?(Input::DOWN) : Input.trigger?(Input::DOWN)
+    if Input.trigger?(Input::DOWN)
       @ui.moveSelector(1)
       @ui.update
-      Graphics.update if $MKXP
-      pbWait(4) if $MKXP
     end
 
-    if Input.press?(Input::R)
+    if Input.trigger?(Input::R)
       connection.send do |writer|
         writer.sym(:fwd)
         writer.str(@ui.playerList[@ui.selectionIndex][2])
@@ -757,7 +753,7 @@ module CableClub
       Kernel.pbMessage("Wow")
     end
 
-    if Input.press?(Input::C)
+    if Input.trigger?(Input::C)
       Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start a connection with {1}?",@ui.playerList[@ui.selectionIndex][1]))
       if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
         connection.send do |writer|
