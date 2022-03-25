@@ -1240,7 +1240,7 @@ module CableClub
                   writer.sym(:fwd)
                   writer.str(@partner_uid)
                   writer.sym(:acceptChosenPokemon)
-                  write_pkmn(writer, $Trainer.party[@chosen])
+                  #write_pkmn(writer, $Trainer.party[@chosen])
                 end
                 @state = :await_trade_pokemon
                 break
