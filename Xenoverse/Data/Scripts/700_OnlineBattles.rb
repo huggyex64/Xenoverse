@@ -23,6 +23,18 @@ class OnlineLobby
     @sprites["selection"].x = 0
     @sprites["selection"].y = 30*@selectionIndex
     @sprites["selection"].z = 4 #this has to be shown on top of others
+
+    @sprites["status"] = Sprite.new(@viewport)
+    @sprites["status"].bitmap = Bitmap.new(300,30)
+    #@sprites["status"].bitmap.fill_rect(0,0,300,30,Color.new(0,0,0,75))
+    @sprites["status"].y = Graphics.height-30
+    
+  end
+
+  def updateStatus(text)
+    @sprites["status"].bitmap.clear()
+    @sprites["status"].bitmap.fill_rect(0,0,300,30,Color.new(0,0,0,75))
+    @sprites["status"].bitmap.draw_text(6,0,300,30,text)
   end
 
   def pbDisplayAvaiblePlayerList(list)
@@ -57,6 +69,7 @@ class OnlineLobby
   # This is supposed to be called with Input.update and Graphics.update inside a loop,
   # so no need to add those here
   def update
+
     #updating the selection bar position
     @sprites["selection"].y = 6+30*@selectionIndex
 
@@ -704,7 +717,6 @@ module CableClub
   end
 
   def self.handle_enlist(connection,msgwindow)
-
     ####### Input handling for enlisted state
     # In this kind of state we want to be able to go up and down the player list, and be able to refresh it.
 
@@ -716,7 +728,9 @@ module CableClub
       @frame = 0
     end
 
-    if Input.trigger?(Input::CTRL)
+    #echoln Input.getstate(Input::CTRL)
+
+    if Input.triggerex?(:LCTRL)
       echoln "GNE"
     end
 
@@ -758,7 +772,7 @@ module CableClub
         @partner_uid = @ui.playerList[@ui.selectionIndex][2]
         @state = :await_interaction_accept
       else
-        pbWait(2)
+        pbWait(8)
       end
     end
     
@@ -796,10 +810,17 @@ module CableClub
     ## Standard handling for the remainder
     ##################################################
 
-    pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nEnlisted, waiting to join lobby",$Trainer.publicID($Trainer.id)), @frame)
+
+    #QUESTO È IL PROBLEMA
+    #pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nEnlisted, waiting to join lobby",$Trainer.publicID($Trainer.id)), @frame)
+
+    @ui.updateStatus(_ISPRINTF("Your ID: {1:05d}\\nEnlisted, waiting to join lobby",$Trainer.publicID($Trainer.id)))
+    
+
     #if (@frame%60 == 0) #Requesting player list every X seconds
       #@ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
     #end
+
     connection.updateExp([:found,:askAcceptInteraction,:message]) do |record|
       case (type = record.sym)
       when :found
@@ -1269,6 +1290,16 @@ module CableClub
     return if host == nil || out == "BANNED"
     @ui = ui
     @ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
+    @handlers = {}
+    @handlers[:await_server] = Proc.new {|connection, msgwindow| handle_await_server(connection,msgwindow)}
+    @handlers[:enlisted] = Proc.new {|connection, msgwindow| handle_enlist(connection,msgwindow)}
+    @handlers[:await_interaction_accept] = Proc.new {|connection, msgwindow| handle_await_interaction_accept(connection,msgwindow)}
+    @handlers[:await_partner] = Proc.new {|connection, msgwindow| handle_await_partner(connection,msgwindow)}
+    @handlers[:choose_activity] = Proc.new {|connection, msgwindow| handle_choose_activity(connection,msgwindow)}
+    @handlers[:await_accept_activity] = Proc.new {|connection, msgwindow| handle_await_accept_activity(connection,msgwindow)}
+    @handlers[:await_choose_activity] = Proc.new {|connection, msgwindow| handle_await_choose_activity(connection,msgwindow)}
+    @handlers[:await_trade_pokemon] = Proc.new {|connection, msgwindow| handle_await_trade_pokemon(connection,msgwindow)}
+    @handlers[:await_trade_confirm] = Proc.new {|connection, msgwindow| handle_await_trade_confirm(connection,msgwindow)}
     Connection.open(host, PORT) do |connection|
       @state = :await_server
       @last_state = nil
@@ -1290,15 +1321,12 @@ module CableClub
           @last_state = @state
           @frame = 0
         else
-          @frame += 1 if @frame < 180
+          @frame += 1# if @frame < 180
         end
 
-        Graphics.update
         Input.update
+        Graphics.update
         @ui.update
-
-
-
         if Input.trigger?(Input::B)
           message = case @state
             when :await_server; _INTL("Abort connection?\\^")
@@ -1309,6 +1337,40 @@ module CableClub
           return if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
         end
 
+        #if Input.triggerex?(:LCTRL)
+        #  echoln "GNE"
+        #end
+        
+        if @handlers.keys.include?(@state)
+          @handlers[@state].call(connection,msgwindow)
+        else
+          raise "Unknown state: #{@state}"
+        end
+
+=begin
+        if (@state == :await_server)
+          handle_await_server(connection,msgwindow)
+        elsif (@state == :enlisted)
+          handle_enlist(connection,msgwindow)
+        elsif (@state == :await_interaction_accept)
+          handle_await_interaction_accept(connection,msgwindow)
+        elsif (@state == :await_partner)
+          handle_await_partner(connection,msgwindow)
+        elsif (@state == :choose_activity)
+          handle_choose_activity(connection,msgwindow)
+        elsif (@state == :await_accept_activity)
+          handle_await_accept_activity(connection,msgwindow)
+        elsif (@state == :await_choose_activity)
+          handle_await_choose_activity(connection,msgwindow)
+        elsif (@state == :await_trade_pokemon)
+          handle_await_trade_pokemon(connection,msgwindow)
+        elsif (@state == :await_trade_confirm)
+          handle_await_trade_confirm(connection,msgwindow)
+        else
+          raise "Unknown state: #{@state}"
+        end
+=end
+=begin
         case @state
         # Waiting to be connected to the server.
         # Note: does nothing without a non-blocking connection.
@@ -1339,13 +1401,16 @@ module CableClub
         else
           raise "Unknown state: #{@state}"
         end
+=end
+
       end
     end
   end
 
 
   def self.pbMessageDisplayDots(msgwindow, message, frame)
-    Kernel.pbMessageDisplay(msgwindow, message + "...".slice(0..(frame/8) % 3) + "\\^", false)
+    msgwindow.text = message + "...".slice(0..(frame/8) % 3)
+    #Kernel.pbMessageDisplay(msgwindow, message + "...".slice(0..(frame/8) % 3) + "\\^", false)
   end
 
 # NO !defined?(ESSENTIALSVERSION) && !defined?(ESSENTIALS_VERSION)
