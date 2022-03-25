@@ -713,16 +713,16 @@ module CableClub
   end
 
   def self.canRefreshPlayerList?()
-    return @frame % 180 == 0
+    return @frame / 180 > 0
   end
 
   def self.handle_enlist(connection,msgwindow)
     ####### Input handling for enlisted state
     # In this kind of state we want to be able to go up and down the player list, and be able to refresh it.
 
-    #echoln "Handling enlist! Can refresh player list? #{canRefreshPlayerList?()}"
+    echoln "Handling enlist! Can refresh player list? #{canRefreshPlayerList?()}"
     #Input.update
-    if Input.press?(Input::F5) && canRefreshPlayerList?()
+    if Input.trigger?(Input::F5) && canRefreshPlayerList?()
       Kernel.pbMessage("Refreshing player list...")
       @ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
       @frame = 0
@@ -1236,6 +1236,7 @@ module CableClub
                 connection.send do |writer|
                   writer.sym(:fwd)
                   writer.str(@partner_uid)
+                  write_pkmn(writer, $Trainer.party[@chosen])
                   writer.sym(:acceptChosenPokemon)
                 end
                 @state = :await_trade_pokemon
