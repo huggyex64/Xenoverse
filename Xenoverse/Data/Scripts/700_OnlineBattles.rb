@@ -25,7 +25,7 @@ class OnlineLobby
     @sprites["selection"].z = 4 #this has to be shown on top of others
 
     @sprites["status"] = Sprite.new(@viewport)
-    @sprites["status"].bitmap = Bitmap.new(300,30)
+    @sprites["status"].bitmap = Bitmap.new(400,30)
     #@sprites["status"].bitmap.fill_rect(0,0,300,30,Color.new(0,0,0,75))
     @sprites["status"].y = Graphics.height-30
     
@@ -33,8 +33,8 @@ class OnlineLobby
 
   def updateStatus(text)
     @sprites["status"].bitmap.clear()
-    @sprites["status"].bitmap.fill_rect(0,0,300,30,Color.new(0,0,0,75))
-    @sprites["status"].bitmap.draw_text(6,0,300,30,text)
+    @sprites["status"].bitmap.fill_rect(0,0,400,30,Color.new(0,0,0,75))
+    @sprites["status"].bitmap.draw_text(6,0,400,30,text)
   end
 
   def pbDisplayAvaiblePlayerList(list)
@@ -1002,9 +1002,9 @@ module CableClub
   def self.handle_await_accept_activity(connection,msgwindow)
     echoln "#{@state}: awaiting leader to choose activity"
     pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to accept", @partner_name), @frame)
-    connection.updateExp([:ok,:cancel]) do |record|
+    connection.updateExp([:ok,:acceptTrade,:cancel]) do |record|
       case (type = record.sym)
-      when :ok
+      when :ok #BATTLE ONLY
           #Kernel.pbDisposeMessageWindow(msgwindow)
         case @activity
         when :battle
@@ -1020,14 +1020,18 @@ module CableClub
           do_battle(connection, @client_id, @seed, @battle_type, partner, @partner_party,[@uid,@partner_uid])
           msgwindow.visible = true
           @state = :choose_activity
-
+        else
+          print "Unknown activity: #{@activity}"
+        end
+      when :acceptTrade #TRADE ONLY
+        case @activity
         when :trade
           @chosen = choose_pokemon
           if @chosen >= 0
             connection.send do |writer|
               writer.sym(:fwd)
               writer.str(@partner_uid)
-              writer.sym(:ok)
+              writer.sym(:chosenPokemon)
               writer.int(@chosen)
             end
             @state = :await_trade_confirm
@@ -1040,11 +1044,9 @@ module CableClub
             connection.discard(1)
             @state = :choose_activity
           end
-
         else
           print "Unknown activity: #{@activity}"
         end
-
       when :cancel
         Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to #{@activity.to_s}.", @partner_name))
         @state = :choose_activity
@@ -1109,14 +1111,14 @@ module CableClub
           connection.send do |writer|
             writer.sym(:fwd)
             writer.str(@partner_uid)
-            writer.sym(:ok)
+            writer.sym(:acceptTrade)
           end
           @chosen = choose_pokemon
           if @chosen >= 0
             connection.send do |writer|
               writer.sym(:fwd)
               writer.str(@partner_uid)
-              writer.sym(:ok)
+              writer.sym(:chosenPokemon)
               writer.int(@chosen)
             end
             @state = :await_trade_confirm
@@ -1152,15 +1154,15 @@ module CableClub
       pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to confirm the trade", @partner_name), @frame)
     end
 
-    connection.update do |record|
+    connection.updateExp([:acceptChosenPokemon,:update,:cancel]) do |record|
       case (type = record.sym)
-      when :ok
+      when :acceptChosenPokemon
         partner = PokeBattle_Trainer.new(@partner_name, $Trainer.trainertype)
         pbHealAll
         @partner_party.each {|pkmn| pkmn.heal}
         pkmn = @partner_party[@partner_chosen]
         @partner_party[@partner_chosen] = $Trainer.party[@chosen]
-        do_trade(@chosen, partner, pkmn)
+        do_trade(@chosen, partner, pkmn) #trade scene
         connection.send do |writer|
           writer.sym(:fwd)
           writer.str(@partner_uid)
@@ -1202,9 +1204,9 @@ module CableClub
       pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to confirm the trade", @partner_name), @frame)
     end
 
-    connection.update do |record|
+    connection.updateExp([:chosenPokemon,:cancel]) do |record|
       case (type = record.sym)
-      when :ok
+      when :chosenPokemon
         @partner_chosen = record.int
         pbHealAll
         @partner_party.each {|pkmn| pkmn.heal}
@@ -1216,6 +1218,8 @@ module CableClub
         unless abort
           partner_speciesname = (partner_pkmn.isEgg?) ? _INTL("Egg") : PBSpecies.getName(getID(PBSpecies,partner_pkmn.species))
           your_speciesname = (your_pkmn.isEgg?) ? _INTL("Egg") : PBSpecies.getName(getID(PBSpecies,your_pkmn.species))
+          
+          # HERE THE ACTUAL TRADE IS BEING HANDLED          
           loop do
             Kernel.pbMessageDisplay(msgwindow, _INTL("{1} has offered {2} ({3}) for your {4} ({5}).\\^",@partner_name,
                 partner_pkmn.name,partner_speciesname,your_pkmn.name,your_speciesname))
@@ -1232,7 +1236,7 @@ module CableClub
                 connection.send do |writer|
                   writer.sym(:fwd)
                   writer.str(@partner_uid)
-                  writer.sym(:ok)
+                  writer.sym(:acceptChosenPokemon)
                 end
                 @state = :await_trade_pokemon
                 break
@@ -1291,15 +1295,24 @@ module CableClub
     @ui = ui
     @ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
     @handlers = {}
+    # Waiting to be connected to the server.
+    # Note: does nothing without a non-blocking connection.
     @handlers[:await_server] = Proc.new {|connection, msgwindow| handle_await_server(connection,msgwindow)}
     @handlers[:enlisted] = Proc.new {|connection, msgwindow| handle_enlist(connection,msgwindow)}
+    # The leader is awaiting 
     @handlers[:await_interaction_accept] = Proc.new {|connection, msgwindow| handle_await_interaction_accept(connection,msgwindow)}
+    # Waiting to be connected to the partner.
     @handlers[:await_partner] = Proc.new {|connection, msgwindow| handle_await_partner(connection,msgwindow)}
+    # Choosing an activity (leader only).
     @handlers[:choose_activity] = Proc.new {|connection, msgwindow| handle_choose_activity(connection,msgwindow)}
+    # Waiting for the partner to accept our activity (leader only).
     @handlers[:await_accept_activity] = Proc.new {|connection, msgwindow| handle_await_accept_activity(connection,msgwindow)}
+    # Waiting for the partner to select an activity (follower only).
     @handlers[:await_choose_activity] = Proc.new {|connection, msgwindow| handle_await_choose_activity(connection,msgwindow)}
+    # Waiting for the partner to select a Pokémon to trade.
     @handlers[:await_trade_pokemon] = Proc.new {|connection, msgwindow| handle_await_trade_pokemon(connection,msgwindow)}
     @handlers[:await_trade_confirm] = Proc.new {|connection, msgwindow| handle_await_trade_confirm(connection,msgwindow)}
+
     Connection.open(host, PORT) do |connection|
       @state = :await_server
       @last_state = nil
@@ -1346,62 +1359,6 @@ module CableClub
         else
           raise "Unknown state: #{@state}"
         end
-
-=begin
-        if (@state == :await_server)
-          handle_await_server(connection,msgwindow)
-        elsif (@state == :enlisted)
-          handle_enlist(connection,msgwindow)
-        elsif (@state == :await_interaction_accept)
-          handle_await_interaction_accept(connection,msgwindow)
-        elsif (@state == :await_partner)
-          handle_await_partner(connection,msgwindow)
-        elsif (@state == :choose_activity)
-          handle_choose_activity(connection,msgwindow)
-        elsif (@state == :await_accept_activity)
-          handle_await_accept_activity(connection,msgwindow)
-        elsif (@state == :await_choose_activity)
-          handle_await_choose_activity(connection,msgwindow)
-        elsif (@state == :await_trade_pokemon)
-          handle_await_trade_pokemon(connection,msgwindow)
-        elsif (@state == :await_trade_confirm)
-          handle_await_trade_confirm(connection,msgwindow)
-        else
-          raise "Unknown state: #{@state}"
-        end
-=end
-=begin
-        case @state
-        # Waiting to be connected to the server.
-        # Note: does nothing without a non-blocking connection.
-        when :await_server
-          handle_await_server(connection,msgwindow)
-        when :enlisted
-          handle_enlist(connection,msgwindow)
-        # The leader is awaiting 
-        when :await_interaction_accept
-          handle_await_interaction_accept(connection,msgwindow)        
-        # Waiting to be connected to the partner.
-        when :await_partner
-          handle_await_partner(connection,msgwindow)
-        # Choosing an activity (leader only).
-        when :choose_activity
-          handle_choose_activity(connection,msgwindow)
-        # Waiting for the partner to accept our activity (leader only).
-        when :await_accept_activity
-          handle_await_accept_activity(connection,msgwindow)
-        # Waiting for the partner to select an activity (follower only).
-        when :await_choose_activity
-          handle_await_choose_activity(connection,msgwindow)
-        # Waiting for the partner to select a Pokémon to trade.
-        when :await_trade_pokemon
-          handle_await_trade_pokemon(connection,msgwindow)
-        when :await_trade_confirm
-          handle_await_trade_confirm(connection,msgwindow)
-        else
-          raise "Unknown state: #{@state}"
-        end
-=end
 
       end
     end
