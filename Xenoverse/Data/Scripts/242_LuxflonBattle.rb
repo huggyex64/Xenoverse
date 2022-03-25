@@ -131,9 +131,8 @@ class PokeBattle_Battle
 			if index==4
 				pbDisplayPaused(_INTL("Dragalisk non ha scalfito Luxflon..!"))
 			end
-      echoln $Trainer.party[1].item
+
 			break if index == 5
-      
 		end
 		return pbEndOfBattle(canlose,true)
 	end
