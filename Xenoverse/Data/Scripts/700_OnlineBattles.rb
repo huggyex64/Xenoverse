@@ -1079,7 +1079,7 @@ module CableClub
         @chosenTier = chooseTier(msgwindow,@battle_type,@partner_party)
 
         if (@chosenTier == nil)
-          next
+          return
         end
         @battleTeam = nil
         #Send battle request data
