@@ -848,6 +848,7 @@ module CableClub
         end
         @client_id = 0
         @partner_uid = @ui.playerList[@ui.selectionIndex][2]
+        @partner_name = @ui.playerList[@ui.selectionIndex][1]
         @state = :await_interaction_accept
       else
         pbWait(8)
@@ -931,7 +932,7 @@ module CableClub
           if connection.can_send?
             connection.send do |writer|
               writer.sym(:fwd)
-              writer.sym(@partner_uid)
+              writer.str(@partner_uid)
               writer.sym(:acceptInteraction)
               writer.str($Trainer.name)
               write_party(writer)
@@ -941,6 +942,13 @@ module CableClub
           @state = :await_partner
         else
           Kernel.pbMessageDisplay(msgwindow, _INTL("Connection refused.\\^"))
+          if connection.can_send?
+            connection.send do |writer|
+              writer.sym(:fwd)
+              writer.str(uid)
+              writer.sym(:cancel)
+            end
+          end
         end
       when :message
         Kernel.pbMessage(record.str)
@@ -1011,7 +1019,6 @@ module CableClub
       when :cancel
         Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to interact.", @partner_name))
         @state = :enlisted
-
       else
         raise "Unknown message: #{type}"
       end
