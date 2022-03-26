@@ -237,8 +237,8 @@ module CableClub
   ]
 
   BATTLE_TIERS={
-    _INTL("Anything Goes") => Proc.new {|x| true},
-    _INTL("Retro Only") => Proc.new {|x| RETRODEX.include?(x.species)},
+    :anythinggoes => Proc.new {|x| true},
+    :retroonly => Proc.new {|x| RETRODEX.include?(x.species)},
   }
 
   BATTLE_TIERS_NAMES={
@@ -341,10 +341,10 @@ end
 
 def pbGetTiersNames()
   ret = []
-  for t in CableClub::BATTLE_TIERS
+  for t in CableClub::BATTLE_TIERS.keys
     ret.push([CableClub::BATTLE_TIERS_NAMES[t],t])
   end
-  return ret + [_INTL("Cancel"),-1]
+  return ret + [[_INTL("Cancel"),-1]]
 end
 
 
@@ -1555,6 +1555,8 @@ module CableClub
     for t in tiers
       tierNames.push(t[0])
     end
+    echoln tierNames
+    echoln tiers
     validCommand = false
     while !validCommand
       command = Kernel.pbShowCommands(msgwindow, tierNames, -1)
