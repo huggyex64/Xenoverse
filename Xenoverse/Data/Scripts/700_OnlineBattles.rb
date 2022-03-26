@@ -1292,7 +1292,7 @@ module CableClub
         writer.str(@partner_uid)
         writer.sym(:party)
         writer.int($Trainer.online_trainer_type)
-        write_custom_party(battleTeam,writer)
+        write_custom_party(@battleTeam,writer)
       end
 
     end
