@@ -4184,6 +4184,7 @@ class PokeBattle_Battle
                 if !party[i].hasType?(:FLYING) &&
                   !party[i].hasWorkingAbility(:LEVITATE)
                   # Don't switch to this if too little HP
+                  # Ora butta un errore qui, boh
                   next
                 end
               end
@@ -4224,6 +4225,7 @@ class PokeBattle_Battle
                   if !party[i].hasType?(:FLYING) &&
                     !party[i].hasWorkingAbility(:LEVITATE)
                     # Don't switch to this if too little HP
+                    # A questo punto ne darà uno pure qui?
                     next
                   end
                 end

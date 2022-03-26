@@ -255,11 +255,65 @@ module CableClub
 
   
   ONLINE_TRAINER_TYPE_LIST = [
-    [:POKEMONTRAINER_Red,:POKEMONTRAINER_Leaf],
-    [:PSYCHIC_M,:PSYCHIC_F],
-    [:BLACKBELT,:CRUSHGIRL],
-    [:COOLTRAINER_M,:COOLTRAINER_F]
+    [:KAYAEROPORTO,:ALICEAEROPORTO],
+   # [:POKEMONTRAINER_Red,:POKEMONTRAINER_Leaf],
+   # [:PSYCHIC_M,:PSYCHIC_F],
+   # [:BLACKBELT,:CRUSHGIRL],
+   # [:COOLTRAINER_M,:COOLTRAINER_F]
   ]
+end
+
+def pbChangeOnlineTrainerType
+  if $Trainer.online_trainer_type==$Trainer.trainertype
+    Kernel.pbMessage(_INTL("Hmmm...!\\1"))
+    Kernel.pbMessage(_INTL("What is your favorite kind of Trainer?\\nCan you tell me?\\1"))
+  else
+    trainername=PBTrainers.getName($Trainer.online_trainer_type)
+    if ['a','e','i','o','u'].include?(trainername[0,1].downcase)
+      msg=_INTL("Hello! You've been mistaken for an {1}, haven't you?\\1",trainername)
+    else
+      msg=_INTL("Hello! You've been mistaken for a {1}, haven't you?\\1",trainername)
+    end
+    Kernel.pbMessage(msg)
+    Kernel.pbMessage(_INTL("But I think you can also pass for a different kind of Trainer.\\1"))
+    Kernel.pbMessage(_INTL("So, how about telling me what kind of Trainer that you like?\\1"))
+  end
+  commands=[]
+  trainer_types=[]
+  CableClub::ONLINE_TRAINER_TYPE_LIST.each do |type|
+    t=type
+    t=type[$Trainer.gender] if type.is_a?(Array)
+    echoln hasConst?(PBTrainers,t)
+    echoln getConst(PBTrainers,t)
+    commands.push(PBTrainers.getName(getConst(PBTrainers,t)))
+    trainer_types.push(getConst(PBTrainers,t))
+  end
+  commands.push(_INTL("Cancel"))
+  loop do
+    cmd=Kernel.pbMessage(_INTL("Which kind of Trainer would you like to be?"),commands,-1)
+    if cmd>=0 && cmd<commands.length-1
+      trainername=commands[cmd]
+      if ['a','e','i','o','u'].include?(trainername[0,1].downcase)
+        msg=_INTL("An {1} is the kind of Trainer you want to be?",trainername)
+      else
+        msg=_INTL("A {1} is the kind of Trainer you want to be?",trainername)
+      end
+      if Kernel.pbConfirmMessage(msg)
+        if ['a','e','i','o','u'].include?(trainername[0,1].downcase)
+          msg=_INTL("I see! So an {1} is the kind of Trainer you like.\\1",trainername)
+        else
+          msg=_INTL("I see! So a {1} is the kind of Trainer you like.\\1",trainername)
+        end
+        Kernel.pbMessage(msg)
+        Kernel.pbMessage(_INTL("If that's the case, others may come to see you in the same way.\\1"))
+        $Trainer.online_trainer_type=trainer_types[cmd]
+        break
+      end
+    else
+      break
+    end
+  end
+  Kernel.pbMessage(_INTL("OK, then I'll just talk to you later!"))
 end
 
 class PokeBattle_Trainer
@@ -720,8 +774,7 @@ module CableClub
     ####### Input handling for enlisted state
     # In this kind of state we want to be able to go up and down the player list, and be able to refresh it.
 
-    echoln "Handling enlist! Can refresh player list? #{canRefreshPlayerList?()}"
-    #Input.update
+    #echoln "Handling enlist! Can refresh player list? #{canRefreshPlayerList?()}"
     if Input.trigger?(Input::F5) && canRefreshPlayerList?()
       Kernel.pbMessage("Refreshing player list...")
       @ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
@@ -1287,6 +1340,7 @@ module CableClub
   end
 
   def self.enlist(msgwindow,ui)
+    pbChangeOnlineTrainerType()
     pbMessageDisplayDots(msgwindow, _INTL("Connecting"), 0)
 
     out = `Antochit.exe`
