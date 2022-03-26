@@ -914,7 +914,7 @@ module CableClub
     return @frame / 180 > 0
   end
 
-  def getPlayerList()
+  def self.getPlayerList()
     ret = BattleRequest.getPlayerList()
     toremove = nil
     for entry in ret
