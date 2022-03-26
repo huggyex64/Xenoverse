@@ -29,6 +29,36 @@ class OnlineLobby
     #@sprites["status"].bitmap.fill_rect(0,0,300,30,Color.new(0,0,0,75))
     @sprites["status"].y = Graphics.height-30
     
+    @sprites["partyBar"] = Sprite.new(@viewport)
+    @sprites["partyBar"].bitmap = Bitmap.new(Graphics.width,74)
+    @sprites["partyBar"].bitmap.fill_rect(0,0,256,30,Color.new(255,255,255,75))
+    @sprites["partyBar"].z = 5
+
+    for i in 0...6
+      @sprites["party#{i}"] = Sprite.new(@viewport)
+      @sprites["party#{i}"].x = 85*I
+      @sprites["party#{i}"].z = 6
+      @sprites["party#{i}"].visible = false
+    end
+
+  end
+
+  def displayParty(party)
+    for i in 0...6
+      @sprites["party#{i}"].visible =false
+    end
+    for i in 0...party.length
+      poke = party[i]
+      
+      @sprites["party#{i}"].bitmap = evaluateIcon(poke)
+      @sprites["party#{i}"].visible = true
+    end
+  end
+
+  def hideParty
+    for i in 0...6
+      @sprites["party#{i}"].visible =false
+    end
   end
 
   def updateStatus(text)
@@ -65,6 +95,35 @@ class OnlineLobby
     echoln "MOVED SELECTION TO #{@selectionIndex}"
   end
 
+  
+	def evaluateIcon(pokemon)
+		bitmap = Bitmap.new(75,74)
+    	if pokemon.isEgg?
+			bmp = "Graphics/Pictures/DexNew/Icon/Egg"
+			bitmap = pbBitmap(bmp).clone
+			return bitmap
+		end
+		bmp =""
+		bmp += "Graphics/Pictures/DexNew/Icon/#{pokemon.species}"
+		if pokemon.gender==1 && pbResolveBitmap(bmp+"f")
+			bmp+="f"
+		end
+		if pokemon.form>0
+			if pokemon.isDelta?
+				bmp+="d"
+			else
+				bmp+="_#{pokemon.form}"
+			end
+		end
+    if pokemon.isDelta?
+      bmp+="d"
+    end
+		bitmap = pbBitmap(bmp).clone
+		if pokemon.isShiny?#item>0
+			bitmap.blt(0,0,pbBitmap(BOX_PATH + "shiny"),Rect.new(0,0,31,29))
+		end
+		return bitmap
+	end
 
   # This is supposed to be called with Input.update and Graphics.update inside a loop,
   # so no need to add those here
@@ -835,6 +894,8 @@ module CableClub
     ####### Input handling for enlisted state
     # In this kind of state we want to be able to go up and down the player list, and be able to refresh it.
 
+    @ui.hideParty
+
     #echoln "Handling enlist! Can refresh player list? #{canRefreshPlayerList?()}"
     if Input.trigger?(Input::F5) && canRefreshPlayerList?()
       Kernel.pbMessage("Refreshing player list...")
@@ -1009,7 +1070,7 @@ module CableClub
         #@client_id = record.int
         @partner_name = record.str
         @partner_party = parse_party(record)
-        
+        @ui.displayParty(@partner_party)
         if connection.can_send?
           connection.send do |writer|
             writer.sym(:fwd)
@@ -1048,6 +1109,7 @@ module CableClub
         #@client_id = record.int
         @partner_name = record.str
         @partner_party = parse_party(record)
+        @ui.displayParty(@partner_party)
         Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", @partner_name))
         if @client_id == 0
           @state = :choose_activity
