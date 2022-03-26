@@ -1390,7 +1390,9 @@ module CableClub
     return if (out == "BANNED")
     @md5 = out.split(",")[0]
     @uid = out.split(",")[1]
-    host = out.split(",")[2]
+    hostandport = out.split(",")[2]
+    host = hostandport.split(":")[0]
+    port = hostandport.split(":")[1]
 
     return if host == nil || out == "BANNED"
     @ui = ui
@@ -1415,9 +1417,9 @@ module CableClub
     @handlers[:await_trade_confirm] = Proc.new {|connection, msgwindow| handle_await_trade_confirm(connection,msgwindow)}
 
     @timeoutCounter = 0
-    @maxTimeOut = 60 * 300
+    @maxTimeOut = 60 * 30
 
-    Connection.open(host, PORT) do |connection|
+    Connection.open(host, port) do |connection|
       @state = :await_server
       @last_state = nil
       @client_id = 0               # 0 = SENDER, 1 = RECEIVER
@@ -2651,7 +2653,7 @@ class Connection
     if timeoutCheck
       CableClub.timeoutCounter += 1
       if (CableClub.timeoutCounter % 300 == 0)
-        echoln "Increasing timeout timer... #{CableClub.timeoutCounter}"
+        echoln "Increasing timeout timer... #{CableClub.timeoutCounter / 300}"
       end
     end
     if @socket.ready?
