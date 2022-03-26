@@ -8,6 +8,8 @@ class OnlineLobby
   def initialize()
     @viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
     @viewport.z = 99999
+    @viewport2 = Viewport.new(0,0,Graphics.width,Graphics.height)
+    @viewport2.z = 999999
     @sprites={}
     @selectionIndex = 0
     #ID - Name - Debug - Status
@@ -29,16 +31,18 @@ class OnlineLobby
     #@sprites["status"].bitmap.fill_rect(0,0,300,30,Color.new(0,0,0,75))
     @sprites["status"].y = Graphics.height-30
     
-    @sprites["partyBar"] = Sprite.new(@viewport)
+    @sprites["partyBar"] = Sprite.new(@viewport2)
     @sprites["partyBar"].bitmap = Bitmap.new(Graphics.width,74)
-    @sprites["partyBar"].bitmap.fill_rect(0,0,256,30,Color.new(255,255,255,75))
+    @sprites["partyBar"].bitmap.fill_rect(0,0,Graphics.width,74,Color.new(0,0,0,75))
     @sprites["partyBar"].z = 5
 
     for i in 0...6
-      @sprites["party#{i}"] = Sprite.new(@viewport)
+      @sprites["party#{i}"] = Sprite.new(@viewport2)
       @sprites["party#{i}"].x = 85*i
       @sprites["party#{i}"].z = 6
       @sprites["party#{i}"].visible = false
+      @sprites["party#{i}"].zoom_x = 0.5
+      @sprites["party#{i}"].zoom_y = 0.5
     end
 
   end
