@@ -15,7 +15,24 @@ class OnlineLobby
     #ID - Name - Debug - Status
     @playerList=[]
     @frame = 0
+    @toggleParty = false
     self.createUI
+  end
+
+  def toggleOpponentParty
+    if !@toggleParty
+      @toggleParty=true
+      @sprites["partyBar"].visible = true
+      for i in 0...6
+        @sprites["party#{i}"].visible =true
+      end
+    else
+      @toggleParty=false
+      @sprites["partyBar"].visible = false
+      for i in 0...6
+        @sprites["party#{i}"].visible =false
+      end
+    end
   end
 
   def createUI()
@@ -35,14 +52,13 @@ class OnlineLobby
     @sprites["partyBar"].bitmap = Bitmap.new(Graphics.width,74)
     @sprites["partyBar"].bitmap.fill_rect(0,0,Graphics.width,74,Color.new(0,0,0,75))
     @sprites["partyBar"].z = 5
+    @sprites["partyBar"].visible = false
 
     for i in 0...6
       @sprites["party#{i}"] = Sprite.new(@viewport2)
       @sprites["party#{i}"].x = 85*i
       @sprites["party#{i}"].z = 6
       @sprites["party#{i}"].visible = false
-      @sprites["party#{i}"].zoom_x = 0.5
-      @sprites["party#{i}"].zoom_y = 0.5
     end
 
   end
@@ -51,6 +67,7 @@ class OnlineLobby
     for i in 0...6
       @sprites["party#{i}"].visible =false
     end
+    @sprites["partyBar"].visible = true
     for i in 0...party.length
       poke = party[i]
       
@@ -1335,7 +1352,12 @@ module CableClub
       pbFadeOutIn(99999){
         scene=PokemonScreen_Scene.new
         screen=PokemonScreen.new(scene,$Trainer.party)
-        ret=screen.pbChooseMultiplePokemon(BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type], proc{|p| BATTLE_TIERS[@chosenTier].call(p)},@battle_type==:single ? 1 : 2)
+        ret=screen.pbChooseMultiplePokemon(BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type],
+           proc{|p| BATTLE_TIERS[@chosenTier].call(p)}, @battle_type==:single ? 1 : 2) {
+             if Input.trigger?(Input::F5)
+                @ui.toggleOpponentParty()
+             end
+           }
    
         if !(ret == nil || ret == -1)
           @battleTeam = ret

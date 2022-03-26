@@ -476,7 +476,9 @@ class PokemonScreen
         @scene.pbSelect(6)
       end
       @scene.pbSetHelpText(_INTL(""))
-      pkmnid=@scene.pbChoosePokemon(false,true)
+      pkmnid=@scene.pbChoosePokemon(false,true){
+        yield if block_given?
+      }
       addedEntry=false
       if pkmnid==6 && realorder.length>=minlength# Confirm was chosen
         ret=[]

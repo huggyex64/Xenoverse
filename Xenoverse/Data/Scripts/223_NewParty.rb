@@ -720,6 +720,9 @@ class PokemonScreen_Scene
 			if key>=0
 				@activecmd=pbChangeSelection(key,@activecmd)
 			end
+
+			yield if block_given?
+
 			if @activecmd!=oldsel # Changing selection
 				pbPlayCursorSE()
 				numsprites=(@multiselect) ? 8 : 7
