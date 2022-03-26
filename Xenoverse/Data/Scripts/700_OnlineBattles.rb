@@ -21,17 +21,9 @@ class OnlineLobby
 
   def toggleOpponentParty
     if !@toggleParty
-      @toggleParty=true
-      @sprites["partyBar"].visible = true
-      for i in 0...6
-        @sprites["party#{i}"].visible =true
-      end
+      showParty
     else
-      @toggleParty=false
-      @sprites["partyBar"].visible = false
-      for i in 0...6
-        @sprites["party#{i}"].visible =false
-      end
+      hideParty
     end
   end
 
@@ -76,10 +68,20 @@ class OnlineLobby
     end
   end
 
-  def hideParty
+  def hideParty    
+    @sprites["partyBar"].visible = false
     for i in 0...6
-      @sprites["party#{i}"].visible =false
+      @sprites["party#{i}"].visible = false
     end
+    @toggleParty = false
+  end
+
+  def showParty
+    @sprites["partyBar"].visible = true
+    for i in 0...6
+      @sprites["party#{i}"].visible = true
+    end
+    @toggleParty = true
   end
 
   def updateStatus(text)
@@ -1109,6 +1111,7 @@ module CableClub
         end
       when :cancel
         Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to interact.", @partner_name))
+        @ui.hideParty
         @state = :enlisted
         resetPartner()
       else
@@ -1117,6 +1120,7 @@ module CableClub
     end
     if @timeoutCounter > @maxTimeOut
       Kernel.pbMessageDisplay(msgwindow, _INTL("The connection timed out."))
+      @ui.hideParty
       @state = :enlisted
       resetPartner()
     end
@@ -1191,6 +1195,7 @@ module CableClub
 
       else # Cancel
         # TODO: Confirmation box?
+        @ui.hideParty
         @state = :enlisted
         return
       end
@@ -1371,6 +1376,8 @@ module CableClub
           writer.str(@partner_uid)
           writer.sym(:cancel)
         end
+        msgwindow.visible = true
+        @ui.showParty
         @state = :await_choose_activity
         return
       end
@@ -1392,7 +1399,9 @@ module CableClub
         partner = PokeBattle_Trainer.new(@partner_name, trainertype)
         (partner.partyID=0) rescue nil # EBDX compat
         opp_party = parse_party(record)
+        @ui.hideParty
         do_battle(connection, @client_id, @seed, @battle_type, partner, opp_party,@battleTeam,[@uid,@partner_uid])
+        @ui.showParty
         msgwindow.visible = true
         @state = @client_id == 0 ? :choose_activity : :await_choose_activity
       when :cancel
