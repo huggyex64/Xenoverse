@@ -1401,6 +1401,7 @@ module CableClub
       end
 
     end
+    msgwindow.visible = true
     pbMessageDisplayDots(msgwindow,_INTL("Awaiting Partner Party..."),@frame)
     connection.updateExp([:party,:cancel]) do |record|
       case (type = record.sym)
@@ -1415,6 +1416,7 @@ module CableClub
         msgwindow.visible = true
         @state = @client_id == 0 ? :choose_activity : :await_choose_activity
       when :cancel
+        msgwindow.visible = true
         Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} canceled the selection.",@partner_name))
         @state = @client_id == 0 ? :choose_activity : :await_choose_activity
       end
