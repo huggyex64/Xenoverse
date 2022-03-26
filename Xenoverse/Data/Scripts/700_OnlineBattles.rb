@@ -1392,7 +1392,7 @@ module CableClub
     @uid = out.split(",")[1]
     hostandport = out.split(",")[2]
     host = hostandport.split(":")[0]
-    port = hostandport.split(":")[1]
+    port = hostandport.split(":")[1].to_i
 
     return if host == nil || out == "BANNED"
     @ui = ui
