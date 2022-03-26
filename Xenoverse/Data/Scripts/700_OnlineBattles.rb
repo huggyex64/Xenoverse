@@ -1091,7 +1091,7 @@ module CableClub
           writer.int(@seed)
           writer.sym(@battle_type)
           writer.int($Trainer.online_trainer_type)
-          writer.sym(tier)
+          writer.sym(@chosenTier)
         end
         @activity = :battle
         @state = :await_accept_activity
@@ -1197,7 +1197,6 @@ module CableClub
               writer.sym(:fwd)
               writer.str(@partner_uid)
               writer.sym(:ok)
-              writer.int($Trainer.online_trainer_type)
             end
             # QUESTI VANNO AL SERVER
             connection.send do |writer|
@@ -1278,7 +1277,7 @@ module CableClub
       }      
             
       # if I didn't choose any pokemon it's just like if i canceled
-      if battleTeam == nil
+      if @battleTeam == nil
         connection.send do |writer|
           writer.sym(:fwd)
           writer.str(@partner_uid)
