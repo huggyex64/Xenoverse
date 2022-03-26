@@ -1384,7 +1384,7 @@ module CableClub
         connection.send do |writer|
           writer.sym(:fwd)
           writer.str(@partner_uid)
-          writer.sym(:cancel)
+          writer.sym(:cancelSelection)
         end
         msgwindow.visible = true
         @ui.showParty
@@ -1403,7 +1403,7 @@ module CableClub
     end
     msgwindow.visible = true
     pbMessageDisplayDots(msgwindow,_INTL("Awaiting Partner Party..."),@frame)
-    connection.updateExp([:party,:cancel]) do |record|
+    connection.updateExp([:party,:cancelSelection]) do |record|
       case (type = record.sym)
       when :party
         trainertype = record.int
@@ -1415,7 +1415,7 @@ module CableClub
         @ui.showParty
         msgwindow.visible = true
         @state = @client_id == 0 ? :choose_activity : :await_choose_activity
-      when :cancel
+      when :cancelSelection
         msgwindow.visible = true
         Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} canceled the selection.",@partner_name))
         @state = @client_id == 0 ? :choose_activity : :await_choose_activity
