@@ -3050,6 +3050,8 @@ class SunMoonBattleTransitions
 
     if $onlinebattle
       @sprites["background"] = SunMoonOnlineBackground.new(@viewport,@trainerid,@evilteam)
+      @oldVariant = @variant
+      @variant = "default"
     else
       case @variant
       when "special"
@@ -3123,7 +3125,7 @@ class SunMoonBattleTransitions
       elsif pbResolveBitmap(sprintf("Graphics/Transitions/smSpecial%d",@trainerid)) != nil
         bmp = pbBitmap(sprintf("Graphics/Transitions/smSpecial%d",@trainerid))
       elsif pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",@variant,@trainerid)) != nil
-        bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",@variant,@trainerid))
+        bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",@oldVariant,@trainerid))
       end
     else
       bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",@variant,@trainerid))
