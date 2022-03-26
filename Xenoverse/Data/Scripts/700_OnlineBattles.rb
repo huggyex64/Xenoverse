@@ -410,6 +410,19 @@ def pbCableClub
 end
 
 module CableClub
+
+  attr_accessor :timeoutCounter
+
+  def self.timeoutCounter
+    @timeoutCounter = 0 if @timeoutCounter == nil
+    return @timeoutCounter
+  end
+
+  def self.timeoutCounter=(value)
+    @timeoutCounter = value
+    return @timeoutCounter
+  end
+
   def self.pokemon_order(client_id)
     case client_id
     when 0; [0, 1, 2, 3]
@@ -423,6 +436,13 @@ module CableClub
     when 0..1; [1, 0, 3, 2]
     else; raise "Unknown client_id: #{client_id}"
     end
+  end
+
+  def self.resetPartner()
+    @partner_uid = ""
+    @partner_id = -1
+    @partner_name = nil
+    @partner_party = nil
   end
 
   def self.connect_to(msgwindow, partner_trainer_id)
@@ -836,7 +856,12 @@ module CableClub
     if Input.trigger?(Input::C)
       Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start a connection with {1}?",@ui.playerList[@ui.selectionIndex][1]))
       if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-        sendMessage = pbEnterText("Messaggio da inviare?", 0, 50, _INTL("Ciao! Vuoi connetterti?"))
+        Kernel.pbMessageDisplay(msgwindow, _INTL("Vuoi inviare un messaggio a {1}?",@ui.playerList[@ui.selectionIndex][1]))
+        if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+          sendMessage = pbEnterText("Messaggio da inviare?", 0, 50, _INTL("Ciao! Vuoi connetterti?"))
+        else
+          sendMessage = ""
+
         connection.send do |writer|
           writer.sym(:fwd)
           writer.str(@ui.playerList[@ui.selectionIndex][2])
@@ -850,6 +875,7 @@ module CableClub
         @partner_uid = @ui.playerList[@ui.selectionIndex][2]
         @partner_name = @ui.playerList[@ui.selectionIndex][1]
         @state = :await_interaction_accept
+        @timeoutCounter = 0
       else
         pbWait(8)
       end
@@ -960,21 +986,11 @@ module CableClub
 
   def self.handle_await_interaction_accept(connection,msgwindow)
     pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nAsked X for interaction",$Trainer.publicID($Trainer.id)), @frame)
-    if (@frame%60 == 0) #Requesting player list every X seconds
+    if (@frame%180 == 0) #Requesting player list every X seconds
       @ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
     end
-    connection.update do |record|
+    connection.updateExp([:acceptInteraction,:cancel],true) do |record|
       case (type = record.sym)
-      when :found
-        @client_id = record.int
-        @partner_name = record.str
-        @partner_party = parse_party(record)
-        Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", @partner_name))
-        if @client_id == 0
-          @state = :choose_activity
-        else
-          @state = :await_choose_activity
-        end
       when :acceptInteraction
         #@client_id = record.int
         @partner_name = record.str
@@ -995,33 +1011,18 @@ module CableClub
         else
           @state = :await_choose_activity
         end
-      when :ok
-        #@client_id = record.int
-        @partner_name = record.str
-        @partner_party = parse_party(record)
-        
-        if connection.can_send?
-          connection.send do |writer|
-            writer.sym(:fwd)
-            writer.sym(@partner_uid)
-            writer.sym(:found)
-            writer.str($Trainer.name)
-            write_party(writer)
-          end
-        end
-        Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", @partner_name))
-        if @client_id == 0
-          @state = :choose_activity
-        else
-          @state = :await_choose_activity
-        end
-
       when :cancel
         Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to interact.", @partner_name))
         @state = :enlisted
+        resetPartner()
       else
         raise "Unknown message: #{type}"
       end
+    end
+    if @timeoutCounter > @maxTimeOut
+      Kernel.pbMessageDisplay(msgwindow, _INTL("The connection timed out."))
+      @state = :enlisted
+      resetPartner()
     end
   end
 
@@ -1412,6 +1413,9 @@ module CableClub
     # Waiting for the partner to select a Pokémon to trade.
     @handlers[:await_trade_pokemon] = Proc.new {|connection, msgwindow| handle_await_trade_pokemon(connection,msgwindow)}
     @handlers[:await_trade_confirm] = Proc.new {|connection, msgwindow| handle_await_trade_confirm(connection,msgwindow)}
+
+    @timeoutCounter = 0
+    @maxTimeOut = 60 * 300
 
     Connection.open(host, PORT) do |connection|
       @state = :await_server
@@ -2643,7 +2647,13 @@ class Connection
     end
   end
 
-  def updateExp(expected)
+  def updateExp(expected, timeoutCheck = false)
+    if timeoutCheck
+      CableClub.timeoutCounter += 1
+      if (CableClub.timeoutCounter % 300 == 0)
+        echoln "Increasing timeout timer... #{CableClub.timeoutCounter}"
+      end
+    end
     if @socket.ready?
       recvd = @socket.recv_up_to(4096, 0)
       raise Disconnected.new("server disconnected") if recvd.empty?
