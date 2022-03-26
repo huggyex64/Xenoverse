@@ -1388,7 +1388,7 @@ module CableClub
         end
         msgwindow.visible = true
         @ui.showParty
-        @state = :await_choose_activity
+        @state = @client_id == 0 ? :choose_activity : :await_choose_activity
         return
       end
 
@@ -1415,6 +1415,8 @@ module CableClub
         msgwindow.visible = true
         @state = @client_id == 0 ? :choose_activity : :await_choose_activity
       when :cancel
+        Kernel.pbMessageDisplay(_INTL("Sorry, {1} canceled the selection.",@partner_name))
+        @state = @client_id == 0 ? :choose_activity : :await_choose_activity
       end
     end
   end
