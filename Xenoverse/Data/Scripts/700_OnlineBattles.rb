@@ -1095,7 +1095,7 @@ module CableClub
   def self.handle_await_interaction_accept(connection,msgwindow)
     pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nAsked X for interaction",$Trainer.publicID($Trainer.id)), @frame)
     if (@frame%180 == 0) #Requesting player list every X seconds
-      @ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
+      @ui.pbDisplayAvaiblePlayerList(self.getPlayerList())
     end
     connection.updateExp([:acceptInteraction,:cancel],true) do |record|
       case (type = record.sym)
