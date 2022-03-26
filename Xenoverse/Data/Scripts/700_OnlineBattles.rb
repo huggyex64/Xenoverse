@@ -1296,7 +1296,7 @@ module CableClub
       end
 
     end
-    pbMessageDisplayDots(msgwindow,_INTL("Awaiting Partner Party..."))
+    pbMessageDisplayDots(msgwindow,_INTL("Awaiting Partner Party..."),@frame)
     connection.updateExp([:party,:cancel]) do |record|
       case (type = record.sym)
       when :party
