@@ -914,13 +914,13 @@ module CableClub
         id = record.int
         name = record.str
         uid = record.str
-        message = record.str
-        if message == ""
-          message = _INTL("{1} asked for connection. Do you want to start the connection?\\^"
+        greetmessage = record.str
+        if greetmessage == ""
+          greetmessage = _INTL("{1} asked for connection. Do you want to start the connection?\\^")
         else
-          message = "#{name}:#{message}"
+          greetmessage = "#{name}:#{greetmessage}"
         end  
-        Kernel.pbMessageDisplay(msgwindow, message,name))
+        Kernel.pbMessageDisplay(msgwindow, greetmessage, name))
         command = Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2)
         # Accepted
         if command == 0
