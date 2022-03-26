@@ -59,6 +59,7 @@ class OnlineLobby
     for i in 0...6
       @sprites["party#{i}"].visible =false
     end
+    @toggleParty = true
     @sprites["partyBar"].visible = true
     for i in 0...party.length
       poke = party[i]
