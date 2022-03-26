@@ -1284,7 +1284,7 @@ module CableClub
           writer.sym(:cancel)
         end
         @state = :await_choose_activity
-        next
+        return
       end
 
       connection.send do |writer|
