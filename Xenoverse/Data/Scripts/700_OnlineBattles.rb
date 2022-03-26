@@ -1851,9 +1851,17 @@ class PokeBattle_CableClub < PokeBattle_Battle
     end
   end
 
+  def pbBattleWait(frames)
+    frames.times do
+      Graphics.update
+      Input.update
+      yield if block_given?
+    end
+  end
+
   #Redefining pbStartBattleCore(canlose)
   #This one will await the readiness of each player
-  
+
   def pbStartBattleCore(canlose)
     Graphics.frame_rate = 60
     if !@fullparty1 && @party1.length > MAXPARTYSIZE
@@ -1966,7 +1974,9 @@ class PokeBattle_CableClub < PokeBattle_Battle
           pbDisplayPaused(_INTL("{1}\r\nvuole combattere!",@opponent.fullname))
         else
           pbDisplayBrief(_INTL("{1}\r\nvuole combattere!",@opponent.fullname))
-          pbWait(20)
+          pbBattleWait(80) {
+            @scene.smTrainerSequence.update if @scene.smTrainerSequence
+          }
         end
         sendout1=pbFindNextUnfainted(@party2,0)
         sendout2=pbFindNextUnfainted(@party2,sendout1+1)
