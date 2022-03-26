@@ -1301,6 +1301,133 @@ class SunMoonVipBackground
   end
 end
 #-------------------------------------------------------------------------------
+#  New class used to render the ultra squad Sun & Moon styled VS background
+#-------------------------------------------------------------------------------
+class SunMoonOnlineBackground
+  attr_reader :speed
+  # main method to create the background
+  def initialize(viewport,trainerid,evilteam=false)
+    @viewport = viewport
+    @trainerid = trainerid
+    @evilteam = evilteam
+    @disposed = false
+    @speed = 1
+    @fpIndex = 0
+    @sprites = {}
+    # creates the background layer
+    @sprites["background"] = RainbowSprite.new(@viewport)
+    @sprites["background"].setBitmap("Graphics/Transitions/SunMoon/Online/background",2)
+    @sprites["background"].color = Color.new(0,0,0)
+    @sprites["background"].z = 200
+    @sprites["paths"] = RainbowSprite.new(@viewport)
+    @sprites["paths"].setBitmap("Graphics/Transitions/SunMoon/Online/overlay",2)
+    @sprites["paths"].center
+    @sprites["paths"].x = @viewport.rect.width/2
+    @sprites["paths"].y = @viewport.rect.height/2
+    @sprites["paths"].color = Color.new(0,0,0)
+    @sprites["paths"].z = 200
+    @sprites["paths"].opacity = 215
+    @sprites["paths"].toggle = 1
+    @sprites["paths"].visible = false
+    # creates the shine effect
+    @sprites["shine"] = Sprite.new(@viewport)
+    @sprites["shine"].bitmap = pbBitmap("Graphics/Transitions/SunMoon/Online/shine")
+    @sprites["shine"].center
+    @sprites["shine"].x = @viewport.rect.width/2
+    @sprites["shine"].y = @viewport.rect.height/2
+    @sprites["shine"].color = Color.new(0,0,0)
+    @sprites["shine"].z = 200
+    # creates the hexagonal zoom patterns
+    for i in 0...12
+      @sprites["h#{i}"] = Sprite.new(@viewport)
+      @sprites["h#{i}"].bitmap = pbBitmap("Graphics/Transitions/SunMoon/Ultra/ring")
+      @sprites["h#{i}"].center
+      @sprites["h#{i}"].x = @viewport.rect.width/2
+      @sprites["h#{i}"].y = @viewport.rect.height/2
+      @sprites["h#{i}"].color = Color.new(0,0,0)
+      @sprites["h#{i}"].z = 220
+      z = 1
+      @sprites["h#{i}"].zoom_x = z
+      @sprites["h#{i}"].zoom_y = z
+      @sprites["h#{i}"].opacity = 255
+    end
+    for i in 0...16
+      @sprites["p#{i}"] = Sprite.new(@viewport)
+      @sprites["p#{i}"].bitmap = pbBitmap("Graphics/Transitions/SunMoon/Ultra/particle")
+      @sprites["p#{i}"].oy = @sprites["p#{i}"].bitmap.height/2
+      @sprites["p#{i}"].x = @viewport.rect.width/2
+      @sprites["p#{i}"].y = @viewport.rect.height/2
+      @sprites["p#{i}"].angle = rand(360)
+      @sprites["p#{i}"].color = Color.new(0,0,0)
+      @sprites["p#{i}"].z = 210
+      @sprites["p#{i}"].visible = false
+    end
+    160.times do
+      self.update(true)
+    end
+  end
+  # sets the speed of the sprites
+  def speed=(val)
+  end
+  # updates the background
+  def update(skip=false)
+    return if self.disposed?
+    if !skip
+      @sprites["background"].update
+      @sprites["shine"].angle -= 1 if $PokemonSystem.screensize < 2
+      @sprites["paths"].update
+      @sprites["paths"].opacity -= @sprites["paths"].toggle*2
+      @sprites["paths"].toggle *= -1 if @sprites["paths"].opacity <= 85 || @sprites["paths"].opacity >= 215
+    end
+    for i in 0...12
+      next if i > @fpIndex/32
+      if @sprites["h#{i}"].opacity <= 0
+        @sprites["h#{i}"].zoom_x = 1
+        @sprites["h#{i}"].zoom_y = 1
+        @sprites["h#{i}"].opacity = 255
+      end
+      @sprites["h#{i}"].zoom_x += 0.003*(@sprites["h#{i}"].zoom_x**2)
+      @sprites["h#{i}"].zoom_y += 0.003*(@sprites["h#{i}"].zoom_y**2)
+      @sprites["h#{i}"].opacity -= 1
+    end
+    for i in 0...16
+      next if i > @fpIndex/8
+      if @sprites["p#{i}"].opacity <= 0
+        @sprites["p#{i}"].ox = 0
+        @sprites["p#{i}"].angle = rand(360)
+        @sprites["p#{i}"].zoom_x = 1
+        @sprites["p#{i}"].zoom_y = 1
+        @sprites["p#{i}"].opacity = 255
+      end
+      @sprites["p#{i}"].opacity -= 2
+      @sprites["p#{i}"].ox -= 4
+      @sprites["p#{i}"].zoom_x += 0.001
+      @sprites["p#{i}"].zoom_y += 0.001
+    end
+    @fpIndex += 1 if @fpIndex < 512
+  end
+  # used to fade in from black
+  def reduceAlpha(factor)
+    for key in @sprites.keys
+      @sprites[key].color.alpha -= factor
+    end
+  end
+  # disposes of everything
+  def dispose
+    @disposed = true
+    pbDisposeSpriteHash(@sprites)
+  end
+  # checks if disposed
+  def disposed?; return @disposed; end
+  # used to show other elements
+  def show
+    for i in 0...16
+      @sprites["p#{i}"].visible = true
+    end
+    @sprites["paths"].visible = true
+  end
+end
+#-------------------------------------------------------------------------------
 #  Utilities used for move animations
 #-------------------------------------------------------------------------------
 class PokeBattle_Scene  
@@ -2922,7 +3049,7 @@ class SunMoonBattleTransitions
     
 
     if $onlinebattle
-      @sprites["background"] = SunMoonDigitalBackground.new(@viewport,@trainerid,@evilteam)
+      @sprites["background"] = SunMoonOnlineBackground.new(@viewport,@trainerid,@evilteam)
     else
       case @variant
       when "special"
@@ -2990,7 +3117,17 @@ class SunMoonBattleTransitions
     #@sprites["trainer"].zoom_y = 0.66 if @variant == "fury" 
     @sprites["trainer"].opacity = 0
     # sets a bitmap for the trainer
-    bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",@variant,@trainerid))
+    if $onlinebattle
+      if pbResolveBitmap(sprintf("Graphics/Transitions/smTrainer%d",@trainerid)) != nil
+        bmp = pbBitmap(sprintf("Graphics/Transitions/smTrainer%d",@trainerid))
+      elsif pbResolveBitmap(sprintf("Graphics/Transitions/smSpecial%d",@trainerid)) != nil
+        bmp = pbBitmap(sprintf("Graphics/Transitions/smSpecial%d",@trainerid))
+      elsif pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",@variant,@trainerid)) != nil
+        bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",@variant,@trainerid))
+      end
+    else
+      bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",@variant,@trainerid))
+    end
     ox = (@sprites["trainer"].bitmap.width - bmp.width)/2
     oy = (@sprites["trainer"].bitmap.height - bmp.height)/2
     @sprites["trainer"].bitmap.blt(ox,oy,bmp,Rect.new(0,0,bmp.width,bmp.height))
@@ -3782,6 +3919,7 @@ end
 
 def checkIfNewTransition(trainerid)
   ret = false
+  return true if $onlinebattle
   echo sprintf("Graphics/Transitions/SunMoon/%s%d","cardinal",trainerid)
   for ext in ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury","vip"]
     ret = true if pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",ext,trainerid))
