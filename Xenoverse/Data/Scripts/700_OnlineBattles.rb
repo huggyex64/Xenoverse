@@ -861,7 +861,7 @@ module CableClub
           sendMessage = pbEnterText("Messaggio da inviare?", 0, 50, _INTL("Ciao! Vuoi connetterti?"))
         else
           sendMessage = ""
-
+        end
         connection.send do |writer|
           writer.sym(:fwd)
           writer.str(@ui.playerList[@ui.selectionIndex][2])
