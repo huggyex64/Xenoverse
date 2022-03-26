@@ -152,32 +152,6 @@ def pbTO(roomno)
     end
   end
 end
-=begin
-def pbRandom(x)
-  @connection.send do |writer|
-    writer.sym(:random) #Request type
-    writer.int(x) #Max range for random
-    writer.int(@randomCounter) #Random counter
-  end
-  @randomCounter += 1
-  ret = nil
-  while (ret==nil)
-    Graphics.update
-    Input.update
-    raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
-    @connection.update do |record|
-      case (type = record.sym)
-      when :random
-        ret = record.int
-      else
-        raise "Unknown message: #{type}"
-      end
-    end
-  end
-  echoln "Called the fucking NET random! Counter at #{@randomCounter}, Rand is #{ret}"
-  return ret
-end
-=end
 def pbOnlineLobby
   lobby = OnlineLobby.new
   if $Trainer.party.length == 0
@@ -261,6 +235,16 @@ module CableClub
    # [:BLACKBELT,:CRUSHGIRL],
    # [:COOLTRAINER_M,:COOLTRAINER_F]
   ]
+
+  BATTLE_TIERS={
+    _INTL("Anything Goes") => Proc.new {|x| true},
+    _INTL("Retro Only") => Proc.new {|x| RETRODEX.include?(x.species)},
+  }
+
+  BATTLE_TIERS_NAMES={
+    :anythinggoes => _INTL("Anything Goes"),
+    :retroonly => _INTL("Retro Only")
+  }
 
   def self.getOnlineTrainerTypeList()
     ret = []
@@ -353,6 +337,17 @@ class PokeBattle_Trainer
 end
 
 # TODO: Automatically timeout.
+
+
+def pbGetTiersNames()
+  ret = []
+  for t in CableClub::BATTLE_TIERS
+    ret.push([CableClub::BATTLE_TIERS_NAMES[t],t])
+  end
+  return ret + [_INTL("Cancel"),-1]
+end
+
+
 
 # Returns false if an error occurred.
 def pbCableClub
@@ -1057,17 +1052,21 @@ module CableClub
       elsif command == 1 && @partner_party.length < 2
         Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, your partner must have at least two Pokémon to engage in a double battle."))
       else
+        @battle_type = case command
+        when 0; :single
+        when 1; :double
+        else; raise "Unknown battle type"
+        end
+        @chosenTier = chooseTier(msgwindow,@battle_type,@partner_party)
+
+        #Send battle request data
         connection.send do |writer|
           writer.sym(:fwd)
           writer.str(@partner_uid)
           writer.sym(:battle)
           @seed = rand(2**31)
           writer.int(@seed)
-          @battle_type = case command
-            when 0; :single
-            when 1; :double
-            else; raise "Unknown battle type"
-            end
+          
           writer.sym(@battle_type)
           writer.int($Trainer.online_trainer_type)
         end
@@ -1547,6 +1546,65 @@ module CableClub
       scene.pbEndScreen
     }
     $Trainer.party[index] = your_pkmn
+  end
+
+  def self.chooseTier(msgwindow, battleType, opp_party)
+    Kernel.pbMessageDisplay(msgwindow, _INTL("Choose a tier."))
+    tiers = pbGetTiersNames()
+    tierNames = []
+    for t in tiers
+      tierNames.push(t[0])
+    end
+    validCommand = false
+    while !validCommand
+      command = Kernel.pbShowCommands(msgwindow, tierNames, -1)
+      if command = -1 || tierNames.length-1
+        command = -1
+        break
+      end
+      vp = 0 #valid pokemons
+      vopp = 0 #valid opp pokemons
+      for p in $Trainer.party
+        if (BATTLE_TIERS[tiers[command][1]].call(p))
+          vp +=1
+        end
+      end
+
+      if battleType == :single
+        if vp < 1
+          Kernel.pbDisplayMessage(msgwindow, _INTL("Sorry, looks like you can't enter this Tier with your current team."))
+          next
+        end
+      elsif battleType == :double 
+        if vp < 2
+          Kernel.pbDisplayMessage(msgwindow, _INTL("Sorry, looks like you can't enter this Tier with your current team."))
+          next
+        end
+      end
+
+      for p in opp_party
+        if (BATTLE_TIERS[tiers[command][1]].call(p))
+          vopp +=1
+        end
+      end
+      
+      if battleType == :single
+        if vopp < 1
+          Kernel.pbDisplayMessage(msgwindow, _INTL("Sorry, looks like you can't enter this Tier with your current team."))
+          next
+        end
+      elsif battleType == :double 
+        if vopp < 2
+          Kernel.pbDisplayMessage(msgwindow, _INTL("Sorry, looks like you can't enter this Tier with your current team."))
+          next
+        end
+      end
+
+      validCommand = true
+    end
+    #command ora mi punta al simbolo che identifica il tier, POG
+    return command
+
   end
 
   def self.choose_pokemon
