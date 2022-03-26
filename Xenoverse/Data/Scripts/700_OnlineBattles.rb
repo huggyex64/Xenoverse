@@ -246,6 +246,17 @@ module CableClub
     :retroonly => _INTL("Retro Only")
   }
 
+  BATTLE_TIERS_NUMBERS={
+    :anythinggoes =>{
+      :single => 3,
+      :double => 4
+    },
+    :retroonly =>{
+      :single => 3,
+      :double => 4
+    },
+  }
+
   def self.getOnlineTrainerTypeList()
     ret = []
     # Standard
@@ -402,6 +413,14 @@ def pbCableClub
   ensure
     Kernel.pbDisposeMessageWindow(msgwindow)
   end
+end
+
+def pbTestTier
+  msg = Kernel.pbCreateMessageWindow()
+  msg.z = 9999
+  CableClub.chooseTier(msg,:single,$Trainer.party)
+  
+  Kernel.pbDisposeMessageWindow(msg)
 end
 
 module CableClub
@@ -1059,6 +1078,10 @@ module CableClub
         end
         @chosenTier = chooseTier(msgwindow,@battle_type,@partner_party)
 
+        if (@chosenTier == nil)
+          next
+        end
+        @battleTeam = nil
         #Send battle request data
         connection.send do |writer|
           writer.sym(:fwd)
@@ -1066,9 +1089,9 @@ module CableClub
           writer.sym(:battle)
           @seed = rand(2**31)
           writer.int(@seed)
-          
           writer.sym(@battle_type)
           writer.int($Trainer.online_trainer_type)
+          writer.sym(tier)
         end
         @activity = :battle
         @state = :await_accept_activity
@@ -1100,17 +1123,15 @@ module CableClub
         case @activity
         when :battle
           msgwindow.visible = false
-          trainertype = record.int
-          partner = PokeBattle_Trainer.new(@partner_name, trainertype)
-          (partner.partyID=0) rescue nil # EBDX compat
+          
           connection.send do |writer|
             writer.sym(:resetReady)
             writer.str(@partner_uid)
             writer.str(@uid)
           end
-          do_battle(connection, @client_id, @seed, @battle_type, partner, @partner_party,[@uid,@partner_uid])
-          msgwindow.visible = true
-          @state = :choose_activity
+          #do_battle(connection, @client_id, @seed, @battle_type, partner, @partner_party,[@uid,@partner_uid])
+          #msgwindow.visible = true
+          @state = :await_party_selection
         else
           print "Unknown activity: #{@activity}"
         end
@@ -1156,6 +1177,7 @@ module CableClub
         @seed = record.int
         @battle_type = record.sym
         trainertype = record.int
+        @chosenTier = record.sym
         partner = PokeBattle_Trainer.new(@partner_name, trainertype)
         (partner.partyID=0) rescue nil # EBDX compat
         # Auto-reject double battles that we cannot participate in.
@@ -1167,15 +1189,17 @@ module CableClub
           end
           @state = :await_choose_activity
         else
-          Kernel.pbMessageDisplay(msgwindow, _INTL("{1} wants to battle!\\^", @partner_name))
+          Kernel.pbMessageDisplay(msgwindow, _INTL("{1} wants to battle at {2}! ", @partner_name, BATTLE_TIERS_NAMES[@chosenTier]))
           if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
             msgwindow.visible = false #Kernel.pbDisposeMessageWindow(msgwindow)
+            @battleTeam = nil
             connection.send do |writer|
               writer.sym(:fwd)
               writer.str(@partner_uid)
               writer.sym(:ok)
               writer.int($Trainer.online_trainer_type)
             end
+            # QUESTI VANNO AL SERVER
             connection.send do |writer|
               writer.sym(:clearRandom)
               writer.str(@client_id == 0 ? @uid + @partner_uid : @partner_uid + @uid)
@@ -1185,10 +1209,13 @@ module CableClub
               writer.str(@partner_uid)
               writer.str(@uid)
             end
-            do_battle(connection, @client_id, @seed, @battle_type, partner, @partner_party,[@uid,@partner_uid])
-            msgwindow.visible = true
+            @state = :await_party_selection
+            #do_battle(connection, @client_id, @seed, @battle_type, partner, @partner_party,battleTeam,[@uid,@partner_uid])
+            #msgwindow.visible = true
           else
             connection.send do |writer|
+              writer.sym(:fwd)
+              writer.str(@partner_uid)
               writer.sym(:cancel)
             end
             @state = :await_choose_activity
@@ -1235,7 +1262,55 @@ module CableClub
         raise "Unknown message: #{type}"
       end
     end
+  end
 
+  def self.handle_await_party_selection(connection,msgwindow)
+    if @battleTeam == nil
+      
+      pbFadeOutIn(99999){
+        scene=PokemonScreen_Scene.new
+        screen=PokemonScreen.new(scene,$Trainer.party)
+        ret=screen.pbChooseMultiplePokemon(BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type], proc{|p| BATTLE_TIERS[@chosenTier].call(p)})
+   
+        if !(ret == nil || ret == -1)
+          @battleTeam = ret
+        end
+      }      
+            
+      # if I didn't choose any pokemon it's just like if i canceled
+      if battleTeam == nil
+        connection.send do |writer|
+          writer.sym(:fwd)
+          writer.str(@partner_uid)
+          writer.sym(:cancel)
+        end
+        @state = :await_choose_activity
+        next
+      end
+
+      connection.send do |writer|
+        writer.sym(:fwd)
+        writer.str(@partner_uid)
+        writer.sym(:party)
+        writer.int($Trainer.online_trainer_type)
+        write_custom_party(battleTeam,writer)
+      end
+
+    end
+    pbMessageDisplayDots(msgwindow,_INTL("Awaiting Partner Party..."))
+    connection.updateExp([:party,:cancel]) do |record|
+      case (type = record.sym)
+      when :party
+        trainertype = record.int
+        partner = PokeBattle_Trainer.new(@partner_name, trainertype)
+        (partner.partyID=0) rescue nil # EBDX compat
+        opp_party = parse_party(record)
+        do_battle(connection, @client_id, @seed, @battle_type, partner, opp_party,@battleTeam,[@uid,@partner_uid])
+        msgwindow.visible = true
+        @state = @client_id == 0 ? :choose_activity : :await_choose_activity
+      when :cancel
+      end
+    end
   end
 
   def self.handle_await_trade_pokemon(connection,msgwindow)
@@ -1411,10 +1486,11 @@ module CableClub
     @handlers[:await_accept_activity] = Proc.new {|connection, msgwindow| handle_await_accept_activity(connection,msgwindow)}
     # Waiting for the partner to select an activity (follower only).
     @handlers[:await_choose_activity] = Proc.new {|connection, msgwindow| handle_await_choose_activity(connection,msgwindow)}
+    # Waiting for the partner to select their party.
+    @handlers[:await_party_selection] = Proc.new{|connection,msgwindow| handle_await_party_selection(connection,msgwindow)}
     # Waiting for the partner to select a Pokémon to trade.
     @handlers[:await_trade_pokemon] = Proc.new {|connection, msgwindow| handle_await_trade_pokemon(connection,msgwindow)}
     @handlers[:await_trade_confirm] = Proc.new {|connection, msgwindow| handle_await_trade_confirm(connection,msgwindow)}
-
     @timeoutCounter = 0
     @maxTimeOut = 60 * 30
 
@@ -1426,6 +1502,7 @@ module CableClub
       @partner_id = -1
       @partner_name = nil
       @partner_party = nil
+      @battleTeam = nil
       @frame = 0
       @activity = nil
       @seed = nil
@@ -1433,6 +1510,7 @@ module CableClub
       @chosen = nil
       @partner_chosen = nil
       @partner_confirm = false
+      @chosenTier = nil
 
       loop do
         if @state != @last_state
@@ -1480,10 +1558,11 @@ module CableClub
 # NO defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
 
   # Renamed constants, yay...
-  def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party, uids)
+  def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party,own_party, uids)
     echoln "AOOOOOOOOOOO SO PARTITO IO"
     #$Trainer.backupParty = $Trainer.party.dup
     $Trainer.backupParty  = $Trainer.party.map {|x| x.clone}
+    $Trainer.party = own_party
     $Trainer.party.each do |pike|
       pike.level = 50
       pike.calcStats
@@ -1560,7 +1639,7 @@ module CableClub
     validCommand = false
     while !validCommand
       command = Kernel.pbShowCommands(msgwindow, tierNames, -1)
-      if command = -1 || tierNames.length-1
+      if command == -1 || command == tierNames.length-1
         command = -1
         break
       end
@@ -1574,12 +1653,12 @@ module CableClub
 
       if battleType == :single
         if vp < 1
-          Kernel.pbDisplayMessage(msgwindow, _INTL("Sorry, looks like you can't enter this Tier with your current team."))
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like you can't enter this Tier with your current team."))
           next
         end
       elsif battleType == :double 
         if vp < 2
-          Kernel.pbDisplayMessage(msgwindow, _INTL("Sorry, looks like you can't enter this Tier with your current team."))
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like you can't enter this Tier with your current team."))
           next
         end
       end
@@ -1605,8 +1684,11 @@ module CableClub
       validCommand = true
     end
     #command ora mi punta al simbolo che identifica il tier, POG
-    return command
-
+    if command != -1
+      return tiers[command][1]
+    else
+      return nil
+    end
   end
 
   def self.choose_pokemon
@@ -1632,6 +1714,13 @@ module CableClub
   def self.write_party(writer)
     writer.int($Trainer.party.length)
     $Trainer.party.each do |pkmn|
+      write_pkmn(writer, pkmn)
+    end
+  end
+
+  def self.write_custom_party(party, writer)
+    writer.int(party.length)
+    party.each do |pkmn|
       write_pkmn(writer, pkmn)
     end
   end
