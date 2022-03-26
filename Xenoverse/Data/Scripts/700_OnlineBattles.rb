@@ -1466,6 +1466,7 @@ module CableClub
     Events.onStartBattle.trigger(nil, nil)
     pbPrepareBattle(battle)
     exc = nil
+    $onlinebattle = true
     pbBattleAnimation(trainerbgm, partner.trainertype, partner.name) {
       pbSceneStandby {
         # XXX: Hope we call rand in the same order in both clients...
@@ -1475,9 +1476,12 @@ module CableClub
         rescue Connection::Disconnected
           scene.pbEndBattle(0)
           exc = $!
+        ensure
+          $onlinebattle = false
         end
       }
     }
+    $onlinebattle = false
     $Trainer.party = $Trainer.backupParty
     raise exc if exc
   end

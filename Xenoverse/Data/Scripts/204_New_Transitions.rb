@@ -2919,32 +2919,39 @@ class SunMoonBattleTransitions
     @teamskull = @variant == "skull"
     self.teamSkull if @teamskull
     # initializes the backdrop
-    case @variant
-    when "special"
-      @sprites["background"] = SunMoonSpecialBackground.new(@viewport,@trainerid,@evilteam)
-    when "elite"
-      @sprites["background"] = SunMoonEliteBackground.new(@viewport,@trainerid,@evilteam)
-    when "crazy"
-      @sprites["background"] = SunMoonCrazyBackground.new(@viewport,@trainerid,@evilteam)
-    when "ultra"
-      @sprites["background"] = SunMoonUltraBackground.new(@viewport,@trainerid,@evilteam)
-    when "digital"
+    
+
+    if $onlinebattle
       @sprites["background"] = SunMoonDigitalBackground.new(@viewport,@trainerid,@evilteam)
-    when "plasma"
-      @sprites["background"] = SunMoonPlasmaBackground.new(@viewport,@trainerid,@evilteam)
-    when "cardinal"
-      echoln "starting cardinal sequence"
-      @sprites["background"] = SunMoonCardinalBackground.new(@viewport,@trainerid,@evilteam)
-    when "fury"
-      echoln "starting fury sequence"
-      @teamskull = true
-      self.teamSkull if @teamskull
-      @sprites["background"] = SunMoonFuryBackground.new(@viewport,@trainerid,@evilteam)
-    when "vip"
-      @sprites["background"] = SunMoonVipBackground.new(@viewport,@trainerid,@evilteam)
     else
-      @sprites["background"] = SunMoonDefaultBackground.new(@viewport,@trainerid,@evilteam,@teamskull)
+      case @variant
+      when "special"
+        @sprites["background"] = SunMoonSpecialBackground.new(@viewport,@trainerid,@evilteam)
+      when "elite"
+        @sprites["background"] = SunMoonEliteBackground.new(@viewport,@trainerid,@evilteam)
+      when "crazy"
+        @sprites["background"] = SunMoonCrazyBackground.new(@viewport,@trainerid,@evilteam)
+      when "ultra"
+        @sprites["background"] = SunMoonUltraBackground.new(@viewport,@trainerid,@evilteam)
+      when "digital"
+        @sprites["background"] = SunMoonDigitalBackground.new(@viewport,@trainerid,@evilteam)
+      when "plasma"
+        @sprites["background"] = SunMoonPlasmaBackground.new(@viewport,@trainerid,@evilteam)
+      when "cardinal"
+        echoln "starting cardinal sequence"
+        @sprites["background"] = SunMoonCardinalBackground.new(@viewport,@trainerid,@evilteam)
+      when "fury"
+        echoln "starting fury sequence"
+        @teamskull = true
+        self.teamSkull if @teamskull
+        @sprites["background"] = SunMoonFuryBackground.new(@viewport,@trainerid,@evilteam)
+      when "vip"
+        @sprites["background"] = SunMoonVipBackground.new(@viewport,@trainerid,@evilteam)
+      else
+        @sprites["background"] = SunMoonDefaultBackground.new(@viewport,@trainerid,@evilteam,@teamskull)
+      end
     end
+
     @sprites["background"].speed = 24
     # trainer shadow
     @sprites["shade"] = Sprite.new(@viewport)
