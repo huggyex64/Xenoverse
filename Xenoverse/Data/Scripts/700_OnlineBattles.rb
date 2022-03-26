@@ -261,6 +261,33 @@ module CableClub
    # [:BLACKBELT,:CRUSHGIRL],
    # [:COOLTRAINER_M,:COOLTRAINER_F]
   ]
+
+  def self.getOnlineTrainerTypeList()
+    ret = []
+    # Standard
+    ret.push([:KAYAEROPORTO,:ALICEAEROPORTO])
+    # Alter
+    ret.push([:DARKKAYTRISHOUT,:DARKALICETRISHOUT]) 
+    ret.push([:PROFESSORE,:PROFESSORESSA])
+    ret.push(:GENERALEVICTOR)
+    ret.push(:GOLD)
+    # Cardinals
+    ret.push(:CHUA)
+    ret.push(:CASTALIA)
+    ret.push(:PEYOTE)
+    ret.push(:OLEANDRO)
+    # Champ
+    ret.push(:ASTER)
+    ret.push(:VERSIL)
+    # Tamara R34 <3
+    ret.push(:TAMARAFURIA)
+    # VIPs
+    ret.push(:LANCETOURNAMENT)
+    ret.push(:ERIKATOURNAMENT)
+    ret.push(:LEOTOURNAMENT)
+    ret.push(:DANTETOURNAMENT)
+    return ret
+  end
 end
 
 def pbChangeOnlineTrainerType
@@ -280,7 +307,7 @@ def pbChangeOnlineTrainerType
   end
   commands=[]
   trainer_types=[]
-  CableClub::ONLINE_TRAINER_TYPE_LIST.each do |type|
+  CableClub.getOnlineTrainerTypeList().each do |type|
     t=type
     t=type[$Trainer.gender] if type.is_a?(Array)
     echoln hasConst?(PBTrainers,t)
