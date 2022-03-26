@@ -36,7 +36,7 @@ class OnlineLobby
 
     for i in 0...6
       @sprites["party#{i}"] = Sprite.new(@viewport)
-      @sprites["party#{i}"].x = 85*I
+      @sprites["party#{i}"].x = 85*i
       @sprites["party#{i}"].z = 6
       @sprites["party#{i}"].visible = false
     end
