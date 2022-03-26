@@ -914,16 +914,25 @@ module CableClub
     return @frame / 180 > 0
   end
 
+  def getPlayerList()
+    ret = BattleRequest.getPlayerList()
+    toremove = nil
+    for entry in ret
+      toremove = entry if entry[2]==@uid
+    end
+    ret.remove(toremove)
+    return ret
+  end
+
   def self.handle_enlist(connection,msgwindow)
     ####### Input handling for enlisted state
     # In this kind of state we want to be able to go up and down the player list, and be able to refresh it.
-
     @ui.hideParty
 
     #echoln "Handling enlist! Can refresh player list? #{canRefreshPlayerList?()}"
     if Input.trigger?(Input::F5) && canRefreshPlayerList?()
       Kernel.pbMessage("Refreshing player list...")
-      @ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
+      @ui.pbDisplayAvaiblePlayerList(getPlayerList())
       @frame = 0
     end
 
@@ -1129,7 +1138,7 @@ module CableClub
 
   def self.handle_await_partner(connection,msgwindow)
     pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nSearching",$Trainer.publicID($Trainer.id)), @frame)
-    connection.update do |record|
+    connection.updateExp([:found],true) do |record|
       case (type = record.sym)
       when :found
         #@client_id = record.int
@@ -1567,7 +1576,7 @@ module CableClub
 
     return if host == nil || out == "BANNED"
     @ui = ui
-    @ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
+    @ui.pbDisplayAvaiblePlayerList(getPlayerList)
     @handlers = {}
     # Waiting to be connected to the server.
     # Note: does nothing without a non-blocking connection.
