@@ -836,6 +836,7 @@ module CableClub
     if Input.trigger?(Input::C)
       Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start a connection with {1}?",@ui.playerList[@ui.selectionIndex][1]))
       if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+        sendMessage = pbEnterText("Messaggio da inviare?", 0, 50, _INTL("Ciao! Vuoi connetterti?"))
         connection.send do |writer|
           writer.sym(:fwd)
           writer.str(@ui.playerList[@ui.selectionIndex][2])
@@ -843,7 +844,7 @@ module CableClub
           writer.int($Trainer.id)
           writer.str($Trainer.name)
           writer.str(@uid)
-          writer.str(pbEnterText("Messaggio da inviare?", 0, 50, _INTL("Ciao! Vuoi connetterti?")))
+          writer.str(sendMessage)
         end
         @client_id = 0
         @partner_uid = @ui.playerList[@ui.selectionIndex][2]
@@ -916,11 +917,11 @@ module CableClub
         uid = record.str
         greetmessage = record.str
         if greetmessage == ""
-          greetmessage = _INTL("{1} asked for connection. Do you want to start the connection?\\^")
+          greetmessage = _INTL("{1} asked for connection. Do you want to start the connection?\\^",name)
         else
           greetmessage = "#{name}:#{greetmessage}"
         end  
-        Kernel.pbMessageDisplay(msgwindow, greetmessage, name))
+        Kernel.pbMessageDisplay(msgwindow, greetmessage)
         command = Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2)
         # Accepted
         if command == 0
