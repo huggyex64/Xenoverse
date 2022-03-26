@@ -1269,7 +1269,7 @@ module CableClub
       pbFadeOutIn(99999){
         scene=PokemonScreen_Scene.new
         screen=PokemonScreen.new(scene,$Trainer.party)
-        ret=screen.pbChooseMultiplePokemon(BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type], proc{|p| BATTLE_TIERS[@chosenTier].call(p)})
+        ret=screen.pbChooseMultiplePokemon(BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type], proc{|p| BATTLE_TIERS[@chosenTier].call(p)},@battle_type==:single ? 1 : 2)
    
         if !(ret == nil || ret == -1)
           @battleTeam = ret

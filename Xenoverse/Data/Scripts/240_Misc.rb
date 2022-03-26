@@ -428,8 +428,7 @@ def pbRestoreOldTrainer
 end
 
 class PokemonScreen
-  def pbChooseMultiplePokemon(number,validProc)
-		minlength=3
+  def pbChooseMultiplePokemon(number,validProc,minlength = 3)
     annot=[]
     statuses=[]
     ordinals=[
