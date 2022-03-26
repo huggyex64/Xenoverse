@@ -920,7 +920,7 @@ module CableClub
     for entry in ret
       toremove = entry if entry[2]==@uid
     end
-    ret.remove(toremove)
+    ret.delete(toremove)
     return ret
   end
 
