@@ -1572,7 +1572,7 @@ module CableClub
       Input.update
       echoln "PRIO #{Thread.current.priority}"
       out = %x{Antochit.exe}#`Antochit.exe`
-      return if (out == "BANNED")
+      return if (out == nil || out == "BANNED")
       @md5 = out.split(",")[0]
       @uid = out.split(",")[1]
       hostandport = out.split(",")[2]
