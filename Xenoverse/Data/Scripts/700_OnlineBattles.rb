@@ -424,7 +424,7 @@ end
 class PokeBattle_Trainer
   attr_writer :online_trainer_type
   def online_trainer_type
-    return @online_trainer_type || self.trainertype
+    return @online_trainer_type || CableClub.getOnlineTrainerTypeList()[0][$Trainer.gender]#self.trainertype
   end
 
   attr_accessor :backupParty
@@ -2832,7 +2832,6 @@ seems to work when commented. for some reason...
               @choices[their_index][3] = record.int
               @megaEvolution[1][0] = record.int # mega fix?
               return if their_indices.empty?
-
             else
               raise "Unknown message: #{type}"
             end
