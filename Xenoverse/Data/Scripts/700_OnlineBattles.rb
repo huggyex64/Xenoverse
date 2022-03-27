@@ -906,7 +906,7 @@ module CableClub
       end
       @state = :enlisted
     else
-      pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nConnecting",$Trainer.publicID($Trainer.id)), frame)
+      pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nConnecting",$Trainer.publicID($Trainer.id)), @frame)
     end
   end
 
@@ -934,12 +934,6 @@ module CableClub
       Kernel.pbMessage("Refreshing player list...")
       @ui.pbDisplayAvaiblePlayerList(getPlayerList())
       @frame = 0
-    end
-
-    #echoln Input.getstate(Input::CTRL)
-
-    if Input.triggerex?(:LCTRL)
-      echoln "GNE"
     end
 
     if Input.trigger?(Input::UP)
@@ -1567,16 +1561,32 @@ module CableClub
   end
 
   def self.enlist(msgwindow,ui)
-    pbChangeOnlineTrainerType()
-    pbMessageDisplayDots(msgwindow, _INTL("Connecting"), 0)
+    #pbChangeOnlineTrainerType()
+    #pbMessageDisplayDots(msgwindow, _INTL("Connecting"), 0)
+    out = nil
+    host = nil
+    port = nil
+    echoln "PRIO #{Thread.current.priority}"
+    t = Thread.new {
+      Graphics.update
+      Input.update
+      echoln "PRIO #{Thread.current.priority}"
+      out = %x{Antochit.exe}#`Antochit.exe`
+      return if (out == "BANNED")
+      @md5 = out.split(",")[0]
+      @uid = out.split(",")[1]
+      hostandport = out.split(",")[2]
+      host = hostandport.split(":")[0]
+      port = hostandport.split(":")[1].to_i
+    }
 
-    out = `Antochit.exe`
-    return if (out == "BANNED")
-    @md5 = out.split(",")[0]
-    @uid = out.split(",")[1]
-    hostandport = out.split(",")[2]
-    host = hostandport.split(":")[0]
-    port = hostandport.split(":")[1].to_i
+    frames = 0
+    while(out == nil)
+      Graphics.update
+      Input.update
+      frames+=1
+      pbMessageDisplayDots(msgwindow,_INTL("Loading, this may take a while"),frames)
+    end
 
     return if host == nil || out == "BANNED"
     @ui = ui
@@ -1659,8 +1669,8 @@ module CableClub
 
 
   def self.pbMessageDisplayDots(msgwindow, message, frame)
-    msgwindow.text = message + "...".slice(0..(frame/8) % 3)
-    #Kernel.pbMessageDisplay(msgwindow, message + "...".slice(0..(frame/8) % 3) + "\\^", false)
+    #msgwindow.text = message + "...".slice(0..(frame/8) % 3)
+    Kernel.pbMessageDisplay(msgwindow, message + "...".slice(0..(frame/8) % 3) + "\\^", false)
   end
 
 # NO !defined?(ESSENTIALSVERSION) && !defined?(ESSENTIALS_VERSION)
@@ -1833,6 +1843,12 @@ module CableClub
     party.each do |pkmn|
       write_pkmn(writer, pkmn)
     end
+  end
+
+  def self.write_pkmn_toc(pkmn)
+    writer = RecordWriter.new
+    write_pkmn(writer,pkmn)
+    echoln writer.line!
   end
 
   def self.write_pkmn(writer, pkmn)
