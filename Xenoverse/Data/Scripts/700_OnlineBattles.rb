@@ -2620,10 +2620,16 @@ class PokeBattle_CableClub < PokeBattle_Battle
       Graphics.update
       Input.update
       raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
-      @connection.updateExp([:random]) do |record|
+      @connection.updateExp([:random,:partnerDisconnected]) do |record|
         case (type = record.sym)
         when :random
           ret = record.int
+          
+        when :partnerDisconnected
+          pbSEPlay("Battle flee")
+          pbDisplay(_INTL("{1} disconnected!", opponent.fullname))
+          @decision = 1
+          pbAbort
         else
           print "Unknown message: #{type}"
         end
@@ -2674,14 +2680,18 @@ class PokeBattle_CableClub < PokeBattle_Battle
           Graphics.update
           Input.update
           raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
-          @connection.updateExp([:forfeit,:switch]) do |record|
+          @connection.updateExp([:forfeit,:switch,:partnerDisconnected]) do |record|
             case (type = record.sym)
             when :forfeit
               pbSEPlay("Battle flee")
               pbDisplay(_INTL("{1} forfeited the match!", opponent.fullname))
               @decision = 1
               pbAbort
-
+            when :partnerDisconnected
+              pbSEPlay("Battle flee")
+              pbDisplay(_INTL("{1} disconnected!", opponent.fullname))
+              @decision = 1
+              pbAbort
             when :switch
               return record.int
 
@@ -2924,17 +2934,6 @@ seems to work when commented. for some reason...
   def pbDefaultChooseEnemyCommand(index)
     our_indices = @doublebattle ? [0, 2] : [0]
     their_indices = @doublebattle ? [1, 3] : [1]
-=begin
-    our_indices = []
-    their_indices = []
-    for i in 0..(@doublebattle ? 3 : 1)
-      if i % 2 == 0 #player side
-        our_indices.push(i) if !@battlers[i].isFainted?
-      else
-        their_indices.push(i) if !@battlers[i].isFainted?
-      end
-    end
-=end
     Log.i("FAINT INFORMATION", "0:#{@battlers[0].isFainted?} 1:#{@battlers[1].isFainted?} 2:#{@battlers[2].isFainted?} 3:#{@battlers[3].isFainted?}")
     # Sends our choices after they have all been locked in.
     if index == their_indices.last
@@ -2982,7 +2981,7 @@ seems to work when commented. for some reason...
           Graphics.update
           Input.update
           raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
-          @connection.updateExp([:forfeit,:sneed,:seed,:choice]) do |record|
+          @connection.updateExp([:forfeit,:sneed,:seed,:choice,:partnerDisconnected]) do |record|
             case (type = record.sym)
             when :forfeit
               pbSEPlay("Battle flee")
@@ -3006,6 +3005,12 @@ seems to work when commented. for some reason...
               @choices[their_index][3] = record.int
               @megaEvolution[1][0] = record.int # mega fix?
               return if their_indices.empty?
+            
+            when :partnerDisconnected
+              pbSEPlay("Battle flee")
+              pbDisplay(_INTL("{1} disconnected!", opponent.fullname))
+              @decision = 1
+              pbAbort
             else
               raise "Unknown message: #{type}"
             end
