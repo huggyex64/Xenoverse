@@ -1561,7 +1561,7 @@ module CableClub
         do_battle(connection, @client_id, @seed, @battle_type, partner, opp_party,@battleTeam,[@uid,@partner_uid])
         @ui.showParty
         msgwindow.visible = true
-        @state = @client_id == 0 ? :choose_activity : :await_choose_activity
+        @state = @client_id == 0 ? :choose_activity : :await_choose_activity if @state != :enlisted
       when :cancelSelection
         msgwindow.visible = true
         Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} canceled the selection.",@partner_name))
@@ -1902,6 +1902,7 @@ module CableClub
       }
     }
     $onlinebattle = false
+    @state = :enlisted if battle.disconnected
     $Trainer.party = $Trainer.backupParty
     raise exc if exc
   end
@@ -2275,6 +2276,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
     @client_id = client_id
     @uid = uids[0]
     @partner_uid = uids[1]
+    @disconnected = false
     @seedset=false
     @randomCounter = 0
     @randomHistory = []
@@ -2283,6 +2285,10 @@ class PokeBattle_CableClub < PokeBattle_Battle
     @battleAI  = PokeBattle_CableClub_AI.new(self) if defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
   end
   
+  def disconnected
+    return @disconnected
+  end
+
   def pbAwaitReadiness
     frame = 0.0
     @scene.pbShowWindow(PokeBattle_Scene::MESSAGEBOX)
@@ -2312,6 +2318,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
           pbSEPlay("Battle flee")
           pbDisplay(_INTL("{1} disconnected!", opponent.fullname))
           @decision = 1
+          @disconnected = true
           pbAbort
         end
       end
