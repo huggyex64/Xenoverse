@@ -1807,7 +1807,7 @@ module CableClub
       loop do
         if @state != @last_state
           if @state == :enlisted
-            Kernel.pbMessageDisplay(msgwindow,_INTL("Choose a partner."))
+            Kernel.pbMessageDisplay(msgwindow,_INTL("Choose a partner."),false)
             @partner_uid = nil
           end
           @last_state = @state
