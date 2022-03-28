@@ -47,8 +47,7 @@ class OnlineLobby
     @counter["bg"].opacity = 120
     pbSetSmallFont(@counter["bg"].bitmap)
 
-    @sprites["bg"].bitmap.draw_text(6,6,200,24,text)
-
+    @counter["bg"].bitmap.draw_text(6,6,200,24,text)
   end
 
   def deleteBattleTimer
