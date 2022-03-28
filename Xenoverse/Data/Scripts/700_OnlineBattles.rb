@@ -1114,6 +1114,7 @@ module CableClub
         @partner_name = @ui.playerList[@ui.selectionIndex][1]
         @state = :await_interaction_accept
         @timeoutCounter = 0
+        return
       else
         pbWait(8)
       end
@@ -2642,6 +2643,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
           pbSEPlay("Battle flee")
           pbDisplay(_INTL("{1} disconnected!", opponent.fullname))
           @decision = 1
+          @disconnected = true
           pbAbort
         else
           print "Unknown message: #{type}"
@@ -2773,23 +2775,6 @@ class PokeBattle_CableClub < PokeBattle_Battle
       end
     end
   end
-    
-=begin
-doesn't seem to work in tests, so commented it out.
-seems to work when commented. for some reason...
-    def pbPriority(*args)
-      begin
-        battlers = @battlers.dup
-        order = CableClub::pokemon_order(@client_id)
-        for i in 0..3
-          @battlers[i] = battlers[order[i]]
-        end
-        return super(*args)
-      ensure
-        @battlers = battlers
-      end
-    end
-=end
     
   # This is horrific. Basically, we need to force Essentials to look for
   # the RHS foe's move in all circumstances, otherwise we won't transmit
@@ -3023,6 +3008,7 @@ seems to work when commented. for some reason...
               pbSEPlay("Battle flee")
               pbDisplay(_INTL("{1} disconnected!", opponent.fullname))
               @decision = 1
+              @disconnected = true
               pbAbort
             else
               raise "Unknown message: #{type}"
