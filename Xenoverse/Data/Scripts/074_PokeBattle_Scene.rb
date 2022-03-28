@@ -2358,7 +2358,7 @@ class PokeBattle_Scene
        _INTL("Zaino"),
        _INTL("Pokémon"),
        shadowTrainer ? _INTL("Call") : _INTL("Fuga")
-    ],(shadowTrainer ? 1 : 0))
+    ],(shadowTrainer ? 1 : 0)) {yield if block_given?}
     ret=4 if ret==3 && shadowTrainer   # Convert "Run" to "Call"
     return ret
   end

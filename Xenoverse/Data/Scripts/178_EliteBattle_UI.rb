@@ -765,7 +765,7 @@ class PokeBattle_Scene
   def pbCommandMenu(index)
     @orgPos=[@vector.x,@vector.y,@vector.angle,@vector.scale,@vector.zoom1] if @orgPos.nil?
     @idleTimer=0 if @idleTimer < 0
-    return pbCommandMenu_ebs(index)
+    return pbCommandMenu_ebs(index) {yield if block_given?}
   end  
     
   alias pbCommandMenuEx_ebs pbCommandMenuEx unless self.method_defined?(:pbCommandMenuEx_ebs)
