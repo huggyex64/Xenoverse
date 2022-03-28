@@ -1130,6 +1130,38 @@ module CableClub
       end
     end
 
+    # tasto Q
+    if Input.press?(Input::L)
+      Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to enter unranked matchmaking?"),false)
+      if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+        # Send unranked matchmaking info
+        Kernel.pbMessageDisplay(msgwindow, _INTL("What kind of battle would you like to take part in?"))
+        command = Kernel.pbShowCommands(msgwindow, [_INTL("Single Battle"), _INTL("Double Battle") _INTL("No")], 2)
+        if command != 2
+          @battle_type = case command
+          when 0; :single
+          when 1; :double
+          else; raise "Unknown battle type"
+          end
+
+          @chosenTier = chooseTier(msgwindow,@battle_type,nil)
+
+          if (@chosenTier == nil)
+            return
+          end
+
+          connection.send do |writer|
+            writer.sym(:searchUnranked)
+            writer.sym(@battle_type)
+            writer.sym(@chosenTier)
+          end
+          @state=:unrankedMatchmaking
+        end
+      else
+        Kernel.pbMessageDisplay(msgwindow, _INTL("Skipped connection."))
+      end
+    end
+
     ##################################################
     ## Standard handling for the remainder
     ##################################################
@@ -1202,6 +1234,31 @@ module CableClub
       end
     end
   end
+
+  def self.handle_unranked_matchmaking(connection,msgwindow)
+    
+    if Input.trigger?(Input::B)
+      Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to exit matchmaking?"),false)
+      if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+        connection.send do |writer|
+          writer.sym(:forfeitMatchmaking)
+        end
+        @state = :enlisted
+        return
+      end
+    end
+
+    connection.updateExp([:foundOpponent]) do |record|
+      case(type = record.sym)
+      when :foundOpponent
+        echoln "GOOOOOOOOOOOOOOO nenenenene"
+      else
+        raise "Unknown message: #{type}"
+      end
+    end
+
+  end
+
 
   def self.handle_await_interaction_accept(connection,msgwindow)
     pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nAsked X for interaction",$Trainer.publicID($Trainer.id)), @frame)
@@ -1784,6 +1841,9 @@ module CableClub
     # Waiting for the partner to select a Pokémon to trade.
     @handlers[:await_trade_pokemon] = Proc.new {|connection, msgwindow| handle_await_trade_pokemon(connection,msgwindow)}
     @handlers[:await_trade_confirm] = Proc.new {|connection, msgwindow| handle_await_trade_confirm(connection,msgwindow)}
+    
+    @handlers[:unrankedMatchmaking] = Proc.new {|connection, msgwindow| handle_unranked_matchmaking(connection,msgwindows)}
+
     @timeoutCounter = 0
     @maxTimeOut = 60 * 30
 
@@ -1804,6 +1864,9 @@ module CableClub
       @partner_chosen = nil
       @partner_confirm = false
       @chosenTier = nil
+      # 0 Type 1 Tier
+      @unrankedMatchmakingParameters = []
+
 
       loop do
         if @state != @last_state
@@ -1930,8 +1993,6 @@ module CableClub
     for t in tiers
       tierNames.push(t[0])
     end
-    echoln tierNames
-    echoln tiers
     validCommand = false
     while !validCommand
       command = Kernel.pbShowCommands(msgwindow, tierNames, -1)
@@ -1959,24 +2020,25 @@ module CableClub
         end
       end
 
-      for p in opp_party
-        if (BATTLE_TIERS[tiers[command][1]].call(p))
-          vopp +=1
+      if opp_party != nil
+        for p in opp_party
+          if (BATTLE_TIERS[tiers[command][1]].call(p))
+            vopp +=1
+          end
+        end
+        
+        if battleType == :single
+          if vopp < 1
+            Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like your opponent can't enter this Tier with the current team."))
+            next
+          end
+        elsif battleType == :double 
+          if vopp < 2
+            Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like your opponent can't enter this Tier with the current team."))
+            next
+          end
         end
       end
-      
-      if battleType == :single
-        if vopp < 1
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like your opponent can't enter this Tier with the current team."))
-          next
-        end
-      elsif battleType == :double 
-        if vopp < 2
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like your opponent can't enter this Tier with the current team."))
-          next
-        end
-      end
-
       validCommand = true
     end
     #command ora mi punta al simbolo che identifica il tier, POG
