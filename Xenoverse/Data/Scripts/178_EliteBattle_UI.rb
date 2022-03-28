@@ -1240,6 +1240,7 @@ class PokeBattle_Scene
       pbInputUpdate
       animateBattleSprites(true)
       cw.update
+      yield if block_given?
       # Update selected command
       if (defined?($mouse) && $mouse.active? && cw.mouseOver?)
       elsif (Input.trigger?(Input::LEFT) || Input.trigger?(Input::RIGHT)) && (DS_STYLE || EBUISTYLE==2)

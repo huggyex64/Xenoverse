@@ -36,18 +36,16 @@ class OnlineLobby
     @counter = {}
     @counter["bg"] = Sprite.new(@viewport3)
     @counter["bg"].bitmap = Bitmap.new(200,24)
-    @counter["bg"].bitmap.fill_rect(0,0,200,24,Color.new(0,0,0))
-    @counter["bg"].opacity = 120
+    @counter["bg"].bitmap.fill_rect(0,0,200,24,Color.new(0,0,0,120))
     pbSetSmallFont(@counter["bg"].bitmap)
   end
 
   def updateTime(text)
     @counter["bg"].bitmap = Bitmap.new(200,24)
-    @counter["bg"].bitmap.fill_rect(0,0,200,24,Color.new(0,0,0))
-    @counter["bg"].opacity = 120
+    @counter["bg"].bitmap.fill_rect(0,0,200,24,Color.new(0,0,0,120))
     pbSetSmallFont(@counter["bg"].bitmap)
 
-    @counter["bg"].bitmap.draw_text(6,6,200,24,text)
+    @counter["bg"].bitmap.draw_text(6,2,200,24,text)
   end
 
   def deleteBattleTimer
@@ -670,14 +668,6 @@ def pbCableClub
   ensure
     Kernel.pbDisposeMessageWindow(msgwindow)
   end
-end
-
-def pbTestTier
-  msg = Kernel.pbCreateMessageWindow()
-  msg.z = 9999
-  CableClub.chooseTier(msg,:single,$Trainer.party)
-  
-  Kernel.pbDisposeMessageWindow(msg)
 end
 
 module CableClub
@@ -2435,6 +2425,10 @@ class PokeBattle_CableClub < PokeBattle_Battle
     @ui = ui
     @randomCounter = 0
     @randomHistory = []
+
+    @timer = 0
+    @timerMax = 60*300
+
     player = PokeBattle_Trainer.new($Trainer.name, $Trainer.trainertype)
     super(scene, $Trainer.party, opponent_party, player, opponent)
     @battleAI  = PokeBattle_CableClub_AI.new(self) if defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
@@ -2739,14 +2733,6 @@ class PokeBattle_CableClub < PokeBattle_Battle
 
     loop do   # Now begin the battle loop
       PBDebug.log("***Round #{@turncount+1}***") if $INTERNAL
-			for i in 0...@battlers.length
-				if @battlers[i]!=nil
-					echoln "#{i} type 1 is #{@battlers[i].type1}"
-					echoln "#{i} type 2 is #{@battlers[i].type2}"
-					echoln "#{i} has fire type? #{@battlers[i].pbHasType?(:FIRE)}"
-					echoln "#{i} has laser focus? #{@battlers[i].effects[PBEffects::LaserFocus]}"
-				end
-			end
       if @debug && @turncount >=100
         @decision=pbDecisionOnTime()
         PBDebug.log("***[Undecided after 100 rounds]")
@@ -2937,6 +2923,11 @@ class PokeBattle_CableClub < PokeBattle_Battle
     super(index) || (index == 3 && Kernel.caller(1) =~ /pbCanShowCommands/)
   end
   
+  def pbUpdateTurnTimer()
+    @timer+=1
+    @ui.updateTime("Time: #{(@timerMax-@timer)/60}")
+  end
+
   def pbCommandPhase
 		@scene.pbBeginCommandPhase
 		@scene.pbResetCommandIndices
@@ -2976,7 +2967,9 @@ class PokeBattle_CableClub < PokeBattle_Battle
 							if pbCanShowFightMenu?(i)
 								commandDone=true if pbAutoFightMenu(i)
 								until commandDone
-									index=@scene.pbFightMenu(i)
+									index=@scene.pbFightMenu(i) {
+                    pbUpdateTurnTimer()
+                  }
 									if index<0
 										side=(pbIsOpposing?(i)) ? 1 : 0
 										owner=pbGetOwnerIndex(i)
