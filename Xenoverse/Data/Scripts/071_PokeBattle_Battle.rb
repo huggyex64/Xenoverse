@@ -1458,7 +1458,9 @@ class PokeBattle_Battle
 		if !pbOwnedByPlayer?(index)
 			return @scene.pbChooseNewEnemy(index,pbParty(index))
 		else
-			return pbSwitchPlayer(index,lax,cancancel)
+			return pbSwitchPlayer(index,lax,cancancel) {
+				yield if block_given?
+			}
 		end
 	end
 	
@@ -1466,7 +1468,9 @@ class PokeBattle_Battle
 		if @debug
 			return @scene.pbChooseNewEnemy(index,pbParty(index))
 		else
-			return @scene.pbSwitch(index,lax,cancancel)
+			return @scene.pbSwitch(index,lax,cancancel){
+				yield if block_given?
+			}
 		end
 	end
 	

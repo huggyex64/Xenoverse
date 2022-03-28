@@ -35,6 +35,7 @@ class OnlineLobby
     @viewport3.z = 1000000
     @counter = {}
     @counter["bg"] = Sprite.new(@viewport3)
+    @counter["bg"].y = 160
     @counter["bg"].bitmap = Bitmap.new(200,24)
     @counter["bg"].bitmap.fill_rect(0,0,200,24,Color.new(0,0,0,120))
     pbSetSmallFont(@counter["bg"].bitmap)
@@ -2899,7 +2900,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
           switched.push(index)
         end
       else
-        newpoke=pbSwitchInBetween(index,true,false)
+        newpoke=pbSwitchInBetween(index,true,false){yield if block_given?}
         newpokename=newpoke
         if isConst?(@party1[newpoke].ability,PBAbilities,:ILLUSION)
           newpokename=pbGetLastPokeInTeam(index)
@@ -2951,6 +2952,9 @@ class PokeBattle_CableClub < PokeBattle_Battle
 			end
 		end
 		for i in 0...4
+      
+      @timer=0
+      @ui.updateTime("Time: #{(@timerMax-@timer)/60}")
 			break if @decision!=0
 			next if @choices[i][0]!=0
 			if !pbOwnedByPlayer?(i) || @controlPlayer
@@ -2962,7 +2966,9 @@ class PokeBattle_CableClub < PokeBattle_Battle
 				commandEnd=false
 				if pbCanShowCommands?(i)
 					loop do
-						cmd=pbCommandMenu(i)
+						cmd=pbCommandMenu(i) {
+              pbUpdateTurnTimer()
+            }
 						if cmd==0 # Fight
 							if pbCanShowFightMenu?(i)
 								commandDone=true if pbAutoFightMenu(i)
@@ -3006,7 +3012,9 @@ class PokeBattle_CableClub < PokeBattle_Battle
 							elsif $trainerbossbattle
 								pbDisplay(_INTL("La forte pressione non ti permette di usare strumenti!"))
 							else
-								item=pbItemMenu(i, @battlers[1])
+								item=pbItemMenu(i, @battlers[1]) {
+                  pbUpdateTurnTimer()
+                }
 								if pbIsPokeBall?(item[0]) && !@opponent
 									if item[0] == PBItems::XENOBALL && isXSpecies?(@battlers[1].species)
 										pbConsumeItemInBattle($PokemonBag, item[0])
@@ -3031,7 +3039,9 @@ class PokeBattle_CableClub < PokeBattle_Battle
 								end
 							end
 						elsif cmd==2 # Pokémon
-							pkmn=pbSwitchPlayer(i,false,true)
+							pkmn=pbSwitchPlayer(i,false,true) {
+                pbUpdateTurnTimer()
+              }
 							if pkmn>=0
 								commandDone=true if pbRegisterSwitch(i,pkmn)
 							end

@@ -2637,7 +2637,7 @@ class PokeBattle_Scene
        @battle.doublebattle && !@battle.fullparty1)
     loop do
       scene.pbSetHelpText(_INTL("Choose a Pokémon."))
-      activecmd=@switchscreen.pbChoosePokemon
+      activecmd=@switchscreen.pbChoosePokemon {yield if block_given?}
       if cancancel && activecmd==-1
         ret=-1
         break

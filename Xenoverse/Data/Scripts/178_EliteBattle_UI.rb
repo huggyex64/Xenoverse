@@ -835,6 +835,7 @@ class PokeBattle_Scene
       pbInputUpdate
       animateBattleSprites(true)
       cw.update
+      yield if block_given?
       # Update selected command
       if (defined?($mouse) && $mouse.active? && cw.mouseOver?)
       elsif Input.trigger?(Input::LEFT) && cw.coolDown <= 0
@@ -2118,6 +2119,7 @@ class PokeBattle_Scene
     loop do
       break if @bagWindow.finish
       Input.update
+      yield if block_given?
       @bagWindow.update
       if !@bagWindow.ret.nil? && @bagWindow.useItem?
         item=@bagWindow.ret
