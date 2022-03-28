@@ -2298,7 +2298,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       Input.update
       frame+=1.0
       cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
-      @connection.updateExp([:ready]) do |record|
+      @connection.updateExp([:ready,:partnerDisconnected]) do |record|
         case (type = record.sym)
         when :ready
           awaiting = false          
@@ -2307,6 +2307,12 @@ class PokeBattle_CableClub < PokeBattle_Battle
             writer.str(@partner_uid)
             writer.str(@uid)
           end
+        when :partnerDisconnected
+          awaiting = false
+          pbSEPlay("Battle flee")
+          pbDisplay(_INTL("{1} disconnected!", opponent.fullname))
+          @decision = 1
+          pbAbort
         end
       end
       if (((frame / 60) % 3) == 0)
