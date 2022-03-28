@@ -1621,8 +1621,12 @@ module CableClub
           writer.sym(:cancelSelection)
         end
         msgwindow.visible = true
-        @ui.showParty
-        @state = @client_id == 0 ? :choose_activity : :await_choose_activity
+        if !@matckmaking
+          @ui.showParty
+          @state = @client_id == 0 ? :choose_activity : :await_choose_activity if @state != :enlisted
+        else
+          @state = :enlisted
+        end
         return
       end
 
