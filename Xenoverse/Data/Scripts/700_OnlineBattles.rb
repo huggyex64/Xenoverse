@@ -302,7 +302,7 @@ class OnlineLobby
     @sprites["selection"].y = 6+30*@selectionIndex
 
     @sprites["animbg"].oy += 1
-    @sprites["animbg"].ox -= 1
+    @sprites["animbg"].ox += 1
   end
 
 
@@ -1272,12 +1272,15 @@ module CableClub
             writer.sym(@partner_uid)
             writer.sym(:trainerData)
             writer.str($Trainer.name)
+            @seed = rand(2**31)
+            writer.int(@seed)
             write_party(writer)
           end
         end
       when :trainerData
         @matchmaking = true
         @partner_name = record.str
+        @seed = record.int
         @partner_party = parse_party(record)
         @ui.displayParty(@partner_party)
         msgwindow.visible = false          
