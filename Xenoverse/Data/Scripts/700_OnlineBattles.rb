@@ -340,6 +340,34 @@ class OnlineLobby
   end
 end
 
+def pbCheckOpenProcess(processname)
+  status = `tasklist | find "#{processname}"`
+  if status.empty?
+    #echoln "Process #{processname} is not running"
+    return false
+  else
+    echoln "Process #{processname} is running"
+    return true
+  end
+end
+
+def pbCheckForCE(connection)
+=begin
+  t = Thread.new {
+    ret = pbCheckOpenProcess("cheatengine-i386")
+    ret = pbCheckOpenProcess("cheatengine-x86_64") if !ret
+    ret = pbCheckOpenProcess("cheatengine-x86_64-SSE4-AVX2") if !ret
+    if ret == true
+      connection.send do |writer|
+        writer.sym(:mestupid)
+      end
+      exit()
+    end
+  }
+=end
+end
+
+
 class BattleRequest
   #weedleteam
   #@@url = "https://www.weedleteam.com/request.php"
@@ -1950,6 +1978,9 @@ module CableClub
 
 
       loop do
+        if (@frame%20==0)
+          pbCheckForCE(connection)
+        end
         if @state != @last_state
           if @state == :enlisted
             @matchmaking = false
@@ -2455,6 +2486,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       Input.update
       frame+=1.0
       cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
+      pbCheckForCE(@connection)
       @connection.updateExp([:ready,:partnerDisconnected]) do |record|
         case (type = record.sym)
         when :ready
@@ -2799,7 +2831,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
   # Added optional args to not make v18 break.
   def pbSwitchInBetween(index, lax=false, cancancel=false)
     if pbOwnedByPlayer?(index)
-      choice = super(index, lax, cancancel)
+      choice = super(index, lax, cancancel) {yield if block_given?}
       # bug fix for the unknown type :switch. cause: going into the pokemon menu then backing out and attacking, which sends the switch symbol regardless.
       if !cancancel # forced switches do not allow canceling, and both sides would expect a response.
         pbAwaitReadiness
@@ -2891,7 +2923,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       next if !pbCanChooseNonActive?(index)
       if !pbOwnedByPlayer?(index)
         if !pbIsOpposing?(index) || (@opponent && pbIsOpposing?(index))
-          newenemy=pbSwitchInBetween(index,false,false)
+          newenemy=pbSwitchInBetween(index,false,false) {yield if block_given?}
           newenemyname=newenemy
           if newenemy>=0 && isConst?(pbParty(index)[newenemy].ability,PBAbilities,:ILLUSION)
             newenemyname=pbGetLastPokeInTeam(index)
@@ -2901,7 +2933,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
           switched.push(index)
         end
       else
-        newpoke=pbSwitchInBetween(index,true,false){yield if block_given?}
+        newpoke=pbSwitchInBetween(index,true,false) {yield if block_given?}
         newpokename=newpoke
         if isConst?(@party1[newpoke].ability,PBAbilities,:ILLUSION)
           newpokename=pbGetLastPokeInTeam(index)

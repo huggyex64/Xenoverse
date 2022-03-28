@@ -2579,7 +2579,7 @@ class PokeBattle_Battle
 	# Command phase.
 	################################################################################
 	def pbCommandMenu(i)
-		return @scene.pbCommandMenu(i)
+		return @scene.pbCommandMenu(i) {yield if block_given?}
 	end
 	
 	def pbItemMenu(i, battler = nil)
