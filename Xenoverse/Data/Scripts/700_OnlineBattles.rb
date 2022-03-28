@@ -1265,21 +1265,19 @@ module CableClub
       case(type = record.sym)
       when :foundOpponent
         @partner_uid = record.str
+        @seed = record.int
         echoln "FOUND OPPONENT"
         if connection.can_send?
           connection.send do |writer|
             writer.sym(:fwd)
             writer.sym(@partner_uid)
             writer.sym(:trainerData)
-            @seed = rand(2**31)
-            writer.int(@seed)
             writer.str($Trainer.name)
             write_party(writer)
           end
         end
       when :trainerData
         @matchmaking = true
-        @seed = record.int
         @partner_name = record.str
         @partner_party = parse_party(record)
         @ui.displayParty(@partner_party)
