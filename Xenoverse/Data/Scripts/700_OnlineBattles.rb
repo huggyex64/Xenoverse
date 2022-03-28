@@ -1156,6 +1156,8 @@ module CableClub
             writer.sym(@chosenTier)
           end
           @state=:unrankedMatchmaking
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Matchmaking..."),false)
+          return
         end
       else
         Kernel.pbMessageDisplay(msgwindow, _INTL("Skipped connection."))
@@ -1248,10 +1250,30 @@ module CableClub
       end
     end
 
-    connection.updateExp([:foundOpponent]) do |record|
+    connection.updateExp([:foundOpponent,:trainerData]) do |record|
       case(type = record.sym)
       when :foundOpponent
-        echoln "GOOOOOOOOOOOOOOO nenenenene"
+        @partner_uid = record.str
+        if connection.can_send?
+          connection.send do |writer|
+            writer.sym(:fwd)
+            writer.sym(@partner_uid)
+            writer.sym(:trainerData)
+            writer.str($Trainer.name)
+            write_party(writer)
+          end
+        end
+      when :trainerData
+        @partner_name = record.str
+        @partner_party = parse_party(record)
+        @ui.displayParty(@partner_party)
+        msgwindow.visible = false          
+        connection.send do |writer|
+          writer.sym(:resetReady)
+          writer.str(@partner_uid)
+          writer.str(@uid)
+        end
+        @state = :await_party_selection
       else
         raise "Unknown message: #{type}"
       end
