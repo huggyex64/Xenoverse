@@ -1254,6 +1254,7 @@ module CableClub
       case(type = record.sym)
       when :foundOpponent
         @partner_uid = record.str
+        echoln "FOUND OPPONENT"
         if connection.can_send?
           connection.send do |writer|
             writer.sym(:fwd)
@@ -1264,6 +1265,7 @@ module CableClub
           end
         end
       when :trainerData
+        @matchmaking = true
         @partner_name = record.str
         @partner_party = parse_party(record)
         @ui.displayParty(@partner_party)
@@ -1273,6 +1275,11 @@ module CableClub
           writer.str(@partner_uid)
           writer.str(@uid)
         end
+        connection.send do |writer|
+          writer.sym(:clearRandom)
+          writer.str(@client_id == 0 ? @uid + @partner_uid : @partner_uid + @uid)
+        end
+        Kernel.pbMessageDisplay(msgwindow,_INTL("Matched with {1}!",@partner_name))
         @state = :await_party_selection
       else
         raise "Unknown message: #{type}"
@@ -1641,11 +1648,19 @@ module CableClub
         do_battle(connection, @client_id, @seed, @battle_type, partner, opp_party,@battleTeam,[@uid,@partner_uid])
         @ui.showParty
         msgwindow.visible = true
-        @state = @client_id == 0 ? :choose_activity : :await_choose_activity if @state != :enlisted
+        if !@matckmaking
+          @state = @client_id == 0 ? :choose_activity : :await_choose_activity if @state != :enlisted
+        else
+          @state = :enlisted
+        end
       when :cancelSelection
         msgwindow.visible = true
         Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} canceled the selection.",@partner_name))
-        @state = @client_id == 0 ? :choose_activity : :await_choose_activity
+        if !@matckmaking
+          @state = @client_id == 0 ? :choose_activity : :await_choose_activity if @state != :enlisted
+        else
+          @state = :enlisted
+        end
       when :partnerDisconnected
         # disconnect only if the partner who sent the disconnection is your current partner
         if @partner_uid == record.str
@@ -1886,6 +1901,7 @@ module CableClub
       @partner_chosen = nil
       @partner_confirm = false
       @chosenTier = nil
+      @matchmaking = false
       # 0 Type 1 Tier
       @unrankedMatchmakingParameters = []
 
@@ -1893,6 +1909,7 @@ module CableClub
       loop do
         if @state != @last_state
           if @state == :enlisted
+            @matchmaking = false
             Kernel.pbMessageDisplay(msgwindow,_INTL("Choose a partner."),false)
             @partner_uid = nil
           end
