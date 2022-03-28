@@ -301,8 +301,8 @@ class OnlineLobby
     #updating the selection bar position
     @sprites["selection"].y = 6+30*@selectionIndex
 
-    @sprites["animbg"].oy -= 2
-    @sprites["animbg"].ox -= 2
+    @sprites["animbg"].oy += 1
+    @sprites["animbg"].ox -= 1
   end
 
 
@@ -1290,6 +1290,8 @@ module CableClub
           writer.sym(:clearRandom)
           writer.str(@client_id == 0 ? @uid + @partner_uid : @partner_uid + @uid)
         end
+        
+        msgwindow.visible = true
         Kernel.pbMessageDisplay(msgwindow,_INTL("Matched with {1}!",@partner_name))
         @state = :await_party_selection
       else
