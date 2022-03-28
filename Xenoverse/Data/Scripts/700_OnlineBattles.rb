@@ -30,6 +30,34 @@ class OnlineLobby
     self.createUI
   end
 
+  def createBattleTimer 
+    @viewport3 = Viewport.new(0,0,Graphics.width,Graphics.height)
+    @viewport3.z = 1000000
+    @counter = {}
+    @counter["bg"] = Sprite.new(@viewport3)
+    @counter["bg"].bitmap = Bitmap.new(200,24)
+    @counter["bg"].bitmap.fill_rect(0,0,200,24,Color.new(0,0,0))
+    @counter["bg"].opacity = 120
+    pbSetSmallFont(@counter["bg"].bitmap)
+  end
+
+  def updateTime(text)
+    @counter["bg"].bitmap = Bitmap.new(200,24)
+    @counter["bg"].bitmap.fill_rect(0,0,200,24,Color.new(0,0,0))
+    @counter["bg"].opacity = 120
+    pbSetSmallFont(@counter["bg"].bitmap)
+
+    @sprites["bg"].bitmap.draw_text(6,6,200,24,text)
+
+  end
+
+  def deleteBattleTimer
+    @viewport3.dispose
+    for sprite in @counter.values
+      sprite.dispose if sprite.is_a?(Sprite)
+    end
+  end
+
   def toggleOpponentParty
     if !@toggleParty
       showParty
@@ -309,7 +337,7 @@ class OnlineLobby
   def dispose
     @viewport.dispose
     for sprite in @sprites.values
-      sprite.dispose
+      sprite.dispose if sprite.is_a?(Sprite)
     end
   end
 end
@@ -656,6 +684,7 @@ end
 module CableClub
 
   attr_accessor :timeoutCounter
+  attr_reader   :maxTimeOut
 
   def self.timeoutCounter
     @timeoutCounter = 0 if @timeoutCounter == nil
@@ -665,6 +694,11 @@ module CableClub
   def self.timeoutCounter=(value)
     @timeoutCounter = value
     return @timeoutCounter
+  end
+
+  def self.maxTimeOut
+    return 300 if @maxTimeOut == nil
+    return @maxTimeOut
   end
 
   def self.pokemon_order(client_id)
@@ -1663,7 +1697,7 @@ module CableClub
         (partner.partyID=0) rescue nil # EBDX compat
         opp_party = parse_party(record)
         @ui.hideParty
-        do_battle(connection, @client_id, @seed, @battle_type, partner, opp_party,@battleTeam,[@uid,@partner_uid])
+        do_battle(connection, @client_id, @seed, @battle_type, partner, opp_party,@battleTeam,[@uid,@partner_uid],@ui)
         @ui.showParty
         msgwindow.visible = true
         if !@matchmaking
@@ -1973,7 +2007,7 @@ module CableClub
 # NO defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
 
   # Renamed constants, yay...
-  def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party,own_party, uids)
+  def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party,own_party, uids,ui)
     #echoln "AOOOOOOOOOOO SO PARTITO IO"
     #$Trainer.backupParty = $Trainer.party.dup
     $Trainer.backupParty  = $Trainer.party.map {|x| x.clone}
@@ -1990,7 +2024,7 @@ module CableClub
       pkmn.calcStats
     }
     scene = pbNewBattleScene
-    battle = PokeBattle_CableClub.new(connection, @client_id, scene, partner_party_clone, partner, uids)
+    battle = PokeBattle_CableClub.new(connection, @client_id, scene, partner_party_clone, partner, uids, ui)
     battle.fullparty1 = battle.fullparty2 = true
     battle.endspeech = ""
     battle.items = []
@@ -2008,6 +2042,7 @@ module CableClub
     pbPrepareBattle(battle)
     exc = nil
     $onlinebattle = true
+    ui.createBattleTimer
     pbBattleAnimation(trainerbgm, partner.trainertype, partner.name) {
       pbSceneStandby {
         # XXX: Hope we call rand in the same order in both clients...
@@ -2021,6 +2056,7 @@ module CableClub
         end
       }
     }
+    ui.deleteBattleTimer
     $onlinebattle = false
     @state = :enlisted if battle.disconnected
     $Trainer.party = $Trainer.backupParty
@@ -2390,13 +2426,14 @@ end
 
 class PokeBattle_CableClub < PokeBattle_Battle
   attr_reader :connection
-  def initialize(connection, client_id, scene, opponent_party, opponent, uids)
+  def initialize(connection, client_id, scene, opponent_party, opponent, uids, ui)
     @connection = connection
     @client_id = client_id
     @uid = uids[0]
     @partner_uid = uids[1]
     @disconnected = false
     @seedset=false
+    @ui = ui
     @randomCounter = 0
     @randomHistory = []
     player = PokeBattle_Trainer.new($Trainer.name, $Trainer.trainertype)
@@ -3053,12 +3090,6 @@ class PokeBattle_CableClub < PokeBattle_Battle
     Log.i("FAINT INFORMATION", "0:#{@battlers[0].isFainted?} 1:#{@battlers[1].isFainted?} 2:#{@battlers[2].isFainted?} 3:#{@battlers[3].isFainted?}")
     # Sends our choices after they have all been locked in.
     if index == their_indices.last
-      @connection.send do |writer|
-        cur_seed=srand
-        srand(cur_seed)
-        writer.sym(:seed)
-        writer.int(cur_seed)
-      end
       target_order = CableClub::pokemon_target_order(@client_id)
       for our_index in our_indices
         @connection.send do |writer|
@@ -3097,7 +3128,8 @@ class PokeBattle_CableClub < PokeBattle_Battle
           Graphics.update
           Input.update
           raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
-          @connection.updateExp([:forfeit,:sneed,:seed,:choice,:partnerDisconnected]) do |record|
+          @connection.updateExp([:forfeit,:sneed,:seed,:choice,:partnerDisconnected],true,
+            Proc.new {|time, max| @ui.updateTime("#{max - time}")}) do |record|
             case (type = record.sym)
             when :forfeit
               pbSEPlay("Battle flee")
@@ -3219,11 +3251,14 @@ class Connection
     end
   end
 
-  def updateExp(expected, timeoutCheck = false)
+  def updateExp(expected, timeoutCheck = false, counterProc = nil)
     if timeoutCheck
       CableClub.timeoutCounter += 1
       if (CableClub.timeoutCounter % 300 == 0)
         echoln "Increasing timeout timer... #{CableClub.timeoutCounter / 300}"
+      end
+      if counterProc != nil
+        counterProc.call(CableClub.timeoutCounter,CableClub.maxTimeOut)
       end
     end
     if @socket.ready?
