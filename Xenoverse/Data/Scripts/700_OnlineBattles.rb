@@ -9,7 +9,7 @@ class OnlineLobby
 
   def initialize()
     @viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
-    @viewport.z = 99999
+    @viewport.z = 9999
     @viewport2 = Viewport.new(0,0,Graphics.width,Graphics.height)
     @viewport2.z = 999999
     @sprites={}
@@ -392,7 +392,7 @@ def pbOnlineLobby
   
   #oldParty = $Trainer.party
   msgwindow = Kernel.pbCreateMessageWindow()
-  msgwindow.z = 9999
+  msgwindow.z = 10000
   begin
     Kernel.pbMessageDisplay(msgwindow, _INTL("Connecting to online server..."))
     partner_trainer_id = ""
