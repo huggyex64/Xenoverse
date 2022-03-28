@@ -1265,7 +1265,7 @@ module CableClub
       case(type = record.sym)
       when :foundOpponent
         @partner_uid = record.str
-        @seed = record.int
+        @client_id = record.int
         echoln "FOUND OPPONENT"
         if connection.can_send?
           connection.send do |writer|
