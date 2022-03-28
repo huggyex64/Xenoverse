@@ -13,6 +13,15 @@ class OnlineLobby
     @viewport2 = Viewport.new(0,0,Graphics.width,Graphics.height)
     @viewport2.z = 999999
     @sprites={}
+
+    @path = "Graphics/Pictures/Online/"
+
+    @sprites["bg"] = Sprite.new(@viewport)
+    @sprites["bg"].bitmap = pbBitmap(@path + "BG")
+
+    @sprites["animbg"]=AnimatedPlane.new(@viewport)
+		@sprites["animbg"].bitmap=pbBitmap(@path + "repeatbg")
+
     @selectionIndex = 0
     #ID - Name - Debug - Status
     @playerList=[]
@@ -292,6 +301,8 @@ class OnlineLobby
     #updating the selection bar position
     @sprites["selection"].y = 6+30*@selectionIndex
 
+    @sprites["animbg"].oy -= 2
+    @sprites["animbg"].ox -= 2
   end
 
 
@@ -1621,7 +1632,7 @@ module CableClub
           writer.sym(:cancelSelection)
         end
         msgwindow.visible = true
-        if !@matckmaking
+        if !@matchmaking
           @ui.showParty
           @state = @client_id == 0 ? :choose_activity : :await_choose_activity if @state != :enlisted
         else
@@ -1652,7 +1663,7 @@ module CableClub
         do_battle(connection, @client_id, @seed, @battle_type, partner, opp_party,@battleTeam,[@uid,@partner_uid])
         @ui.showParty
         msgwindow.visible = true
-        if !@matckmaking
+        if !@matchmaking
           @state = @client_id == 0 ? :choose_activity : :await_choose_activity if @state != :enlisted
         else
           @state = :enlisted
@@ -1660,7 +1671,7 @@ module CableClub
       when :cancelSelection
         msgwindow.visible = true
         Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} canceled the selection.",@partner_name))
-        if !@matckmaking
+        if !@matchmaking
           @state = @client_id == 0 ? :choose_activity : :await_choose_activity if @state != :enlisted
         else
           @state = :enlisted
