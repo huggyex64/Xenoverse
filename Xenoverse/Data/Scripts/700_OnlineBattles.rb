@@ -2011,7 +2011,6 @@ module CableClub
     pbBattleAnimation(trainerbgm, partner.trainertype, partner.name) {
       pbSceneStandby {
         # XXX: Hope we call rand in the same order in both clients...
-        srand(seed)
         begin
           battle.pbStartBattle(true)
         rescue Connection::Disconnected
