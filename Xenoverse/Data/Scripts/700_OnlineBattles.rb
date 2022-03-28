@@ -1136,7 +1136,7 @@ module CableClub
       if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
         # Send unranked matchmaking info
         Kernel.pbMessageDisplay(msgwindow, _INTL("What kind of battle would you like to take part in?"))
-        command = Kernel.pbShowCommands(msgwindow, [_INTL("Single Battle"), _INTL("Double Battle") _INTL("No")], 2)
+        command = Kernel.pbShowCommands(msgwindow, [_INTL("Single Battle"), _INTL("Double Battle"), _INTL("No")], 2)
         if command != 2
           @battle_type = case command
           when 0; :single
