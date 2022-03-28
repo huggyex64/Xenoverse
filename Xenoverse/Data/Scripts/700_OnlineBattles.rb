@@ -1237,7 +1237,7 @@ module CableClub
       when :partnerDisconnected
         # disconnect only if the partner who sent the disconnection is your current partner
         if @partner_uid == record.str
-          Kernel.pbMessageDisplay(msgwindow,_INLT("Sorry, {1} disconnected.",@partner_name))
+          Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} disconnected.",@partner_name))
           @state = :enlisted
           return
         end
@@ -1271,7 +1271,7 @@ module CableClub
       when :partnerDisconnected
         # disconnect only if the partner who sent the disconnection is your current partner
         if @partner_uid == record.str
-          Kernel.pbMessageDisplay(msgwindow,_INLT("Sorry, {1} disconnected.",@partner_name))
+          Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} disconnected.",@partner_name))
           @state = :enlisted
           return
         end
@@ -1328,8 +1328,16 @@ module CableClub
 
       else # Cancel
         # TODO: Confirmation box?
-        @ui.hideParty
-        @state = :enlisted
+        Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to disconnect?"))
+        if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+          connection.send do |writer|
+            writer.sym(:fwd)
+            writer.str(@partner_uid)
+            writer.sym(:cancelInteraction)
+          end
+          @ui.hideParty
+          @state = :enlisted
+        end
         return
       end
   end
@@ -1386,7 +1394,7 @@ module CableClub
       when :partnerDisconnected
         # disconnect only if the partner who sent the disconnection is your current partner
         if @partner_uid == record.str
-          Kernel.pbMessageDisplay(msgwindow,_INLT("Sorry, {1} disconnected.",@partner_name))
+          Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} disconnected.",@partner_name))
           @state = :enlisted
           return
         end
@@ -1398,7 +1406,7 @@ module CableClub
 
   def self.handle_await_choose_activity(connection,msgwindow)
     pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to pick an activity", @partner_name), @frame)
-    connection.updateExp([:battle,:trade,:partnerDisconnected]) do |record|
+    connection.updateExp([:battle,:trade,:cancelInteraction,:partnerDisconnected]) do |record|
       case (type = record.sym)
       when :battle
         @seed = record.int
@@ -1483,11 +1491,15 @@ module CableClub
           end
           @state = :await_choose_activity
         end
-
+      when :cancelInteraction
+        # disconnect only if the partner who sent the disconnection is your current partner
+        Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} didn't want to interact after all.",@partner_name))
+        @state = :enlisted
+        return
       when :partnerDisconnected
         # disconnect only if the partner who sent the disconnection is your current partner
         if @partner_uid == record.str
-          Kernel.pbMessageDisplay(msgwindow,_INLT("Sorry, {1} disconnected.",@partner_name))
+          Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} disconnected.",@partner_name))
           @state = :enlisted
           return
         end
@@ -1557,7 +1569,7 @@ module CableClub
       when :partnerDisconnected
         # disconnect only if the partner who sent the disconnection is your current partner
         if @partner_uid == record.str
-          Kernel.pbMessageDisplay(msgwindow,_INLT("Sorry, {1} disconnected.",@partner_name))
+          Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} disconnected.",@partner_name))
           @state = :enlisted
           return
         end
@@ -1618,7 +1630,7 @@ module CableClub
       when :partnerDisconnected
         # disconnect only if the partner who sent the disconnection is your current partner
         if @partner_uid == record.str
-          Kernel.pbMessageDisplay(msgwindow,_INLT("Sorry, {1} disconnected.",@partner_name))
+          Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} disconnected.",@partner_name))
           @state = :enlisted
           return
         end
@@ -1710,7 +1722,7 @@ module CableClub
       when :partnerDisconnected
         # disconnect only if the partner who sent the disconnection is your current partner
         if @partner_uid == record.str
-          Kernel.pbMessageDisplay(msgwindow,_INLT("Sorry, {1} disconnected.",@partner_name))
+          Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} disconnected.",@partner_name))
           @state = :enlisted
           return
         end
@@ -1794,8 +1806,14 @@ module CableClub
 
       loop do
         if @state != @last_state
+          if @state == :enlisted
+            Kernel.pbMessageDisplay(msgwindow,_INTL("Choose a partner."))
+            @partner_uid = nil
+          end
           @last_state = @state
           @frame = 0
+          
+
         else
           @frame += 1# if @frame < 180
         end
