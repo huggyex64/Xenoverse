@@ -1207,7 +1207,7 @@ module CableClub
     if (@frame%180 == 0) #Requesting player list every X seconds
       @ui.pbDisplayAvaiblePlayerList(self.getPlayerList())
     end
-    connection.updateExp([:acceptInteraction,:cancel],true) do |record|
+    connection.updateExp([:acceptInteraction,:cancel,:partnerDisconnected],true) do |record|
       case (type = record.sym)
       when :acceptInteraction
         #@client_id = record.int
@@ -1234,6 +1234,13 @@ module CableClub
         @ui.hideParty
         @state = :enlisted
         resetPartner()
+      when :partnerDisconnected
+        # disconnect only if the partner who sent the disconnection is your current partner
+        if @partner_uid == record.str
+          Kernel.pbMessageDisplay(msgwindow,_INLT("Sorry, {1} disconnected.",@partner_name))
+          @state = :enlisted
+          return
+        end
       else
         raise "Unknown message: #{type}"
       end
@@ -1248,7 +1255,7 @@ module CableClub
 
   def self.handle_await_partner(connection,msgwindow)
     pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nSearching",$Trainer.publicID($Trainer.id)), @frame)
-    connection.updateExp([:found],true) do |record|
+    connection.updateExp([:found,:partnerDisconnected],true) do |record|
       case (type = record.sym)
       when :found
         #@client_id = record.int
@@ -1261,7 +1268,13 @@ module CableClub
         else
           @state = :await_choose_activity
         end
-
+      when :partnerDisconnected
+        # disconnect only if the partner who sent the disconnection is your current partner
+        if @partner_uid == record.str
+          Kernel.pbMessageDisplay(msgwindow,_INLT("Sorry, {1} disconnected.",@partner_name))
+          @state = :enlisted
+          return
+        end
       else
         raise "Unknown message: #{type}"
       end
@@ -1324,7 +1337,7 @@ module CableClub
   def self.handle_await_accept_activity(connection,msgwindow)
     echoln "#{@state}: awaiting leader to choose activity"
     pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to accept", @partner_name), @frame)
-    connection.updateExp([:ok,:acceptTrade,:cancel]) do |record|
+    connection.updateExp([:ok,:acceptTrade,:cancel,:partnerDisconnected]) do |record|
       case (type = record.sym)
       when :ok #BATTLE ONLY
           #Kernel.pbDisposeMessageWindow(msgwindow)
@@ -1370,7 +1383,13 @@ module CableClub
       when :cancel
         Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to #{@activity.to_s}.", @partner_name))
         @state = :choose_activity
-
+      when :partnerDisconnected
+        # disconnect only if the partner who sent the disconnection is your current partner
+        if @partner_uid == record.str
+          Kernel.pbMessageDisplay(msgwindow,_INLT("Sorry, {1} disconnected.",@partner_name))
+          @state = :enlisted
+          return
+        end
       else
         print "Unknown message: #{type}"
       end
@@ -1379,7 +1398,7 @@ module CableClub
 
   def self.handle_await_choose_activity(connection,msgwindow)
     pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to pick an activity", @partner_name), @frame)
-    connection.updateExp([:battle,:trade]) do |record|
+    connection.updateExp([:battle,:trade,:partnerDisconnected]) do |record|
       case (type = record.sym)
       when :battle
         @seed = record.int
@@ -1465,6 +1484,13 @@ module CableClub
           @state = :await_choose_activity
         end
 
+      when :partnerDisconnected
+        # disconnect only if the partner who sent the disconnection is your current partner
+        if @partner_uid == record.str
+          Kernel.pbMessageDisplay(msgwindow,_INLT("Sorry, {1} disconnected.",@partner_name))
+          @state = :enlisted
+          return
+        end
       else
         raise "Unknown message: #{type}"
       end
@@ -1473,7 +1499,6 @@ module CableClub
 
   def self.handle_await_party_selection(connection,msgwindow)
     if @battleTeam == nil
-      
       pbFadeOutIn(99999){
         scene=PokemonScreen_Scene.new
         screen=PokemonScreen.new(scene,$Trainer.party)
@@ -1513,7 +1538,7 @@ module CableClub
     end
     msgwindow.visible = true
     pbMessageDisplayDots(msgwindow,_INTL("Awaiting Partner Party..."),@frame)
-    connection.updateExp([:party,:cancelSelection]) do |record|
+    connection.updateExp([:party,:cancelSelection,:partnerDisconnected]) do |record|
       case (type = record.sym)
       when :party
         trainertype = record.int
@@ -1529,6 +1554,13 @@ module CableClub
         msgwindow.visible = true
         Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} canceled the selection.",@partner_name))
         @state = @client_id == 0 ? :choose_activity : :await_choose_activity
+      when :partnerDisconnected
+        # disconnect only if the partner who sent the disconnection is your current partner
+        if @partner_uid == record.str
+          Kernel.pbMessageDisplay(msgwindow,_INLT("Sorry, {1} disconnected.",@partner_name))
+          @state = :enlisted
+          return
+        end
       end
     end
   end
@@ -1540,7 +1572,7 @@ module CableClub
       pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to confirm the trade", @partner_name), @frame)
     end
 
-    connection.updateExp([:acceptChosenPokemon,:update,:cancel]) do |record|
+    connection.updateExp([:acceptChosenPokemon,:update,:cancel,:partnerDisconnected]) do |record|
       case (type = record.sym)
       when :acceptChosenPokemon
         partner = PokeBattle_Trainer.new(@partner_name, $Trainer.trainertype)
@@ -1583,7 +1615,13 @@ module CableClub
         else
           @state = :await_choose_activity
         end
-
+      when :partnerDisconnected
+        # disconnect only if the partner who sent the disconnection is your current partner
+        if @partner_uid == record.str
+          Kernel.pbMessageDisplay(msgwindow,_INLT("Sorry, {1} disconnected.",@partner_name))
+          @state = :enlisted
+          return
+        end
       else
         raise "Unknown message: #{type}"
       end
@@ -1597,7 +1635,7 @@ module CableClub
       pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to confirm the trade", @partner_name), @frame)
     end
 
-    connection.updateExp([:chosenPokemon,:cancel]) do |record|
+    connection.updateExp([:chosenPokemon,:cancel,:partnerDisconnected]) do |record|
       case (type = record.sym)
       when :chosenPokemon
         @partner_chosen = record.int
@@ -1669,7 +1707,13 @@ module CableClub
         else
           @state = :await_choose_activity
         end
-
+      when :partnerDisconnected
+        # disconnect only if the partner who sent the disconnection is your current partner
+        if @partner_uid == record.str
+          Kernel.pbMessageDisplay(msgwindow,_INLT("Sorry, {1} disconnected.",@partner_name))
+          @state = :enlisted
+          return
+        end
       else
         raise "Unknown message: #{type}"
       end
@@ -1682,7 +1726,7 @@ module CableClub
     out = nil
     host = nil
     port = nil
-    echoln "PRIO #{Thread.current.priority}"
+
     t = Thread.new {
       Graphics.update
       Input.update
