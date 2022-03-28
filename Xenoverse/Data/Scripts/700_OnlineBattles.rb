@@ -1271,16 +1271,16 @@ module CableClub
             writer.sym(:fwd)
             writer.sym(@partner_uid)
             writer.sym(:trainerData)
-            writer.str($Trainer.name)
             @seed = rand(2**31)
             writer.int(@seed)
+            writer.str($Trainer.name)
             write_party(writer)
           end
         end
       when :trainerData
         @matchmaking = true
-        @partner_name = record.str
         @seed = record.int
+        @partner_name = record.str
         @partner_party = parse_party(record)
         @ui.displayParty(@partner_party)
         msgwindow.visible = false          
