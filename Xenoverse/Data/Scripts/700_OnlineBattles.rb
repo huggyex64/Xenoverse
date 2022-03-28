@@ -5,6 +5,8 @@ class OnlineLobby
   attr_accessor(:playerList)
   attr_accessor(:selectionIndex)
 
+  LIGHTBLUE = Color.new(131,218,230)
+
   def initialize()
     @viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
     @viewport.z = 99999
@@ -119,7 +121,140 @@ class OnlineLobby
     echoln "MOVED SELECTION TO #{@selectionIndex}"
   end
 
+  def pbAvatarSelectionScreen(msgwindow)
+    sprites = {}
+    sprites['bg'] = Sprite.new(@viewport)
+    sprites['bg'].bitmap = Bitmap.new(Graphics.width,Graphics.height)
+    sprites['bg'].bitmap.fill_rect(0,0,Graphics.width,Graphics.height,LIGHTBLUE)
+    sprites['bg'].z = 20
+    sprites['bg'].visible = false
+    oldz = msgwindow.z
+    msgwindow.z = 999999
+
+    
+    currentSelectedAvatar = 0
+    selectedAvatar = 0
+    availableAvatars = CableClub.getOnlineTrainerTypeList()
+
+    id = getConst(PBTrainers,availableAvatars[selectedAvatar].is_a?(Array) ? availableAvatars[selectedAvatar][$Trainer.gender] : availableAvatars[selectedAvatar])
+
+    bmp = nil
+    if pbResolveBitmap(sprintf("Graphics/Transitions/smTrainer%d",id)) != nil
+      bmp = pbBitmap(sprintf("Graphics/Transitions/smTrainer%d",id))
+    elsif pbResolveBitmap(sprintf("Graphics/Transitions/smSpecial%d",id)) != nil
+      bmp = pbBitmap(sprintf("Graphics/Transitions/smSpecial%d",id))
+    elsif checkIfNewTransition(id,true)#pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",variant,id)) != nil
+      variant = getNewTransitionVariant(id)
+      bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",variant,id))
+    end
+
+    sprites['avatar'] = Sprite.new(@viewport)
+    sprites['avatar'].z = 21
+    sprites['avatar'].visible = false
+    sprites['avatar'].bitmap = bmp if bmp != nil
+    sprites['avatar'].ox = sprites['avatar'].bitmap.width/2 if bmp != nil
+    sprites['avatar'].x = Graphics.width/2
+
+    currentSelectedAvatar = 0
+    selectedAvatar = 0
+    availableAvatars = CableClub.getOnlineTrainerTypeList()
+    pbFadeOutIn(999999){
+      sprites['bg'].visible = true
+      sprites['avatar'].visible = true
+    }
+
+    loop do
+      Graphics.update
+      Input.update
+
+      if selectedAvatar != currentSelectedAvatar
+        
+        selectedAvatar = currentSelectedAvatar
+        id = getConst(PBTrainers,availableAvatars[selectedAvatar].is_a?(Array) ? availableAvatars[selectedAvatar][$Trainer.gender] : availableAvatars[selectedAvatar])
+
+        bmp = nil
+        if pbResolveBitmap(sprintf("Graphics/Transitions/smTrainer%d",id)) != nil
+          bmp = pbBitmap(sprintf("Graphics/Transitions/smTrainer%d",id))
+        elsif pbResolveBitmap(sprintf("Graphics/Transitions/smSpecial%d",id)) != nil
+          bmp = pbBitmap(sprintf("Graphics/Transitions/smSpecial%d",id))
+        elsif checkIfNewTransition(id,true)#pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",variant,id)) != nil
+          variant = getNewTransitionVariant(id)
+          bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",variant,id))
+        end
+
+        sprites['avatar'].bitmap = bmp if bmp != nil
+        echoln "Updated to selectedAvatar #{selectedAvatar}"
+      end
+
+
+      if Input.trigger?(Input::RIGHT)
+        currentSelectedAvatar+=1
+        echoln "Updated currentSelectedAvatar #{currentSelectedAvatar}"
+        if (currentSelectedAvatar>=availableAvatars.length)
+          currentSelectedAvatar=0
+        end
+      end
+
+      if Input.trigger?(Input::LEFT)
+        currentSelectedAvatar-=1
+        echoln "Updated currentSelectedAvatar #{currentSelectedAvatar}"
+        if (currentSelectedAvatar<0)
+          currentSelectedAvatar=availableAvatars.length-1
+        end
+      end
+
+      if Input.trigger?(Input::C)
+        if selectedAvatar != currentSelectedAvatar
+        
+          selectedAvatar = currentSelectedAvatar
+          id = getConst(PBTrainers,availableAvatars[selectedAvatar].is_a?(Array) ? availableAvatars[selectedAvatar][$Trainer.gender] : availableAvatars[selectedAvatar])
   
+          bmp = nil
+          if pbResolveBitmap(sprintf("Graphics/Transitions/smTrainer%d",id)) != nil
+            bmp = pbBitmap(sprintf("Graphics/Transitions/smTrainer%d",id))
+          elsif pbResolveBitmap(sprintf("Graphics/Transitions/smSpecial%d",id)) != nil
+            bmp = pbBitmap(sprintf("Graphics/Transitions/smSpecial%d",id))
+          elsif checkIfNewTransition(id,true)#pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",variant,id)) != nil
+            variant = getNewTransitionVariant(id)
+            bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",variant,id))
+          end
+  
+          sprites['avatar'].bitmap = bmp if bmp != nil
+          echoln "Updated to selectedAvatar #{selectedAvatar}"
+        end
+        trainername=PBTrainers.getName(id)
+        if ['a','e','i','o','u'].include?(trainername[0,1].downcase)
+          msg=_INTL("Would you like to look like an {1}?",trainername)
+        else
+          msg=_INTL("Would you like to look like a {1}?",trainername)
+        end
+        Kernel.pbMessageDisplay(msgwindow,msg)
+        if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+          #accept, thus change the avatar
+          $Trainer.online_trainer_type=id
+        end
+      end
+
+      if Input.trigger?(Input::B)
+        Kernel.pbMessageDisplay(msgwindow,_INTL("Would you like to go back?"))
+        if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+          break
+        end
+      end
+    end
+
+    msgwindow.z = oldz
+    pbFadeOutIn(999999) { 
+      Graphics.update;
+      Input.update;
+      sprites['bg'].visible = false
+      sprites['avatar'].visible = false
+     }
+    
+    pbDisposeSpriteHash(sprites)
+  end
+
+
 	def evaluateIcon(pokemon)
 		bitmap = Bitmap.new(75,74)
     	if pokemon.isEgg?
@@ -984,32 +1119,12 @@ module CableClub
     end
     
     if Input.press?(Input::A)
-      Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start a connection?"))
+      Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to change your avatar?"))
       if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-        # Requesting the list of connected players
-        options = []
-        optionsDict = {}
-        for player in @ui.playerList
-          if player[3]=="WAITING" && player[0].to_i != $Trainer.publicID($Trainer.id) #CHECKING IF IT'S WAITING AND IT'S NOT SELF
-            options.push("#{player[0]} - #{player[1]}")
-            optionsDict["#{player[0]} - #{player[1]}"]=player[0].to_i
-          end
-        end
-        ret = Kernel.pbShowCommands(msgwindow,options,-1)
-        if ret!=-1
-          if connection.can_send?
-            connection.send do |writer|
-              writer.sym(:askinteraction)
-              writer.str($Trainer.name)
-              writer.int($Trainer.id)
-              #writer.int($Trainer.online_trainer_type)
-              writer.int(optionsDict[options[ret]]) #Here i'm sending the request to the one i wanna connect to
-            end
-            @state = :await_interaction_accept
-          end
-        else
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Skipped connection."))
-        end
+        # Requesting the list of available avatars
+        @ui.pbAvatarSelectionScreen(msgwindow)
+      else
+        Kernel.pbMessageDisplay(msgwindow, _INTL("Skipped connection."))
       end
     end
 
@@ -1652,10 +1767,6 @@ module CableClub
           Kernel.pbMessageDisplay(msgwindow, message)
           return if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
         end
-
-        #if Input.triggerex?(:LCTRL)
-        #  echoln "GNE"
-        #end
         
         if @handlers.keys.include?(@state)
           @handlers[@state].call(connection,msgwindow)
@@ -1679,7 +1790,7 @@ module CableClub
 
   # Renamed constants, yay...
   def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party,own_party, uids)
-    echoln "AOOOOOOOOOOO SO PARTITO IO"
+    #echoln "AOOOOOOOOOOO SO PARTITO IO"
     #$Trainer.backupParty = $Trainer.party.dup
     $Trainer.backupParty  = $Trainer.party.map {|x| x.clone}
     $Trainer.party = own_party

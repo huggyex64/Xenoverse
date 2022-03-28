@@ -3124,7 +3124,7 @@ class SunMoonBattleTransitions
         bmp = pbBitmap(sprintf("Graphics/Transitions/smTrainer%d",@trainerid))
       elsif pbResolveBitmap(sprintf("Graphics/Transitions/smSpecial%d",@trainerid)) != nil
         bmp = pbBitmap(sprintf("Graphics/Transitions/smSpecial%d",@trainerid))
-      elsif pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",@variant,@trainerid)) != nil
+      elsif pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",@oldVariant,@trainerid)) != nil
         bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",@oldVariant,@trainerid))
       end
     else
@@ -3919,12 +3919,21 @@ def checkIfSunMoonTrainer(trainerid)
   $smAnim = ret
 end
 
-def checkIfNewTransition(trainerid)
+def checkIfNewTransition(trainerid,ignoreonline = false)
   ret = false
-  return true if $onlinebattle
+  return true if $onlinebattle && !ignoreonline
   echo sprintf("Graphics/Transitions/SunMoon/%s%d","cardinal",trainerid)
   for ext in ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury","vip"]
     ret = true if pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",ext,trainerid))
+  end
+  return ret
+end
+
+def getNewTransitionVariant(trainerid)
+  echo sprintf("Graphics/Transitions/SunMoon/%s%d","cardinal",trainerid)
+  ret = nil
+  for ext in ["trainer","special","elite","crazy","ultra","digital","plasma","skull","cardinal","fury","vip"]
+    ret = ext if pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",ext,trainerid))
   end
   return ret
 end
