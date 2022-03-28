@@ -232,6 +232,7 @@ class OnlineLobby
         if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
           #accept, thus change the avatar
           $Trainer.online_trainer_type=id
+          break
         end
       end
 
