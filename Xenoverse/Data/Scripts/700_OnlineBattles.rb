@@ -1688,6 +1688,7 @@ module CableClub
         opp_party = parse_party(record)
         @ui.hideParty
         do_battle(connection, @client_id, @seed, @battle_type, partner, opp_party,@battleTeam,[@uid,@partner_uid],@ui)
+        @battleTeam = nil
         @ui.showParty
         msgwindow.visible = true
         if !@matchmaking
@@ -2967,6 +2968,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
 				if pbCanShowCommands?(i)
 					loop do
 						cmd=pbCommandMenu(i) {
+              echoln "YEAAAAAAAAAAHH I'M EXECUTING F*** YES"
               pbUpdateTurnTimer()
             }
 						if cmd==0 # Fight
