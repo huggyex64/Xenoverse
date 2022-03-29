@@ -4,15 +4,24 @@
 class OnlineLobby
   attr_accessor(:playerList)
   attr_accessor(:selectionIndex)
+  attr_accessor(:canRefresh)
+
 
   LIGHTBLUE = Color.new(131,218,230)
 
+  MAX_VISIBLE_PLAYERS = 11
+
+  YES = _INTL("Yes")
+
   def initialize()
+    @canRefresh = false
     @viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
     @viewport.z = 9999
     @viewport2 = Viewport.new(0,0,Graphics.width,Graphics.height)
     @viewport2.z = 999999
     @sprites={}
+
+    @listOffset = 0
 
     @path = "Graphics/Pictures/Online/"
 
@@ -22,11 +31,73 @@ class OnlineLobby
     @sprites["animbg"]=AnimatedPlane.new(@viewport)
 		@sprites["animbg"].bitmap=pbBitmap(@path + "repeatbg")
 
+    @sprites["refresh"] = Sprite.new(@viewport)
+    @sprites["refresh"].bitmap = pbBitmap(@path + "refresh")
+    @sprites["refresh"].x = 242
+    @sprites["refresh"].y = 304
+
+    @sprites["list"] = Sprite.new(@viewport)
+    @sprites["list"].bitmap = pbBitmap(@path + "playerlist")
+    @sprites["list"].x = 14
+    @sprites["list"].y = 44
+
+    @sprites["avatarbox"] = Sprite.new(@viewport)
+    @sprites["avatarbox"].bitmap = pbBitmap(@path + "avatarbox")
+    @sprites["avatarbox"].x = 348
+    @sprites["avatarbox"].y = 64
+
+    id = $Trainer.online_trainer_type
+    echoln id
+    bmp = nil
+    if pbResolveBitmap(sprintf("Graphics/Transitions/smTrainer%d",id)) != nil
+      bmp = pbBitmap(sprintf("Graphics/Transitions/smTrainer%d",id))
+    elsif pbResolveBitmap(sprintf("Graphics/Transitions/smSpecial%d",id)) != nil
+      bmp = pbBitmap(sprintf("Graphics/Transitions/smSpecial%d",id))
+    elsif checkIfNewTransition(id,true)#pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",variant,id)) != nil
+      variant = getNewTransitionVariant(id)
+      bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",variant,id))
+    end
+    @sprites["avatar"] = Sprite.new(@viewport)
+    if bmp != nil
+      resbmp = Bitmap.new(bmp.width/2,bmp.height/2)
+      resbmp.stretch_blt(Rect.new(0,0,bmp.width/2,bmp.height/2),bmp,Rect.new(0,0,bmp.width,bmp.height))
+      @sprites["avatar"].bitmap = resbmp
+      @sprites["avatar"].bitmap = @sprites["avatar"].bitmap.mask!(@path+"avatarbox",0,@sprites["avatar"].bitmap.height/6)
+    end
+    @sprites["avatar"].x = 348
+    @sprites["avatar"].y = 64
+
     @selectionIndex = 0
     #ID - Name - Debug - Status
     @playerList=[]
     @frame = 0
     @toggleParty = false
+
+    status=[:blocked,:matchmaking,:waiting,:matched]
+=begin
+    @playerList = [
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
+    ]
+=end
     self.createUI
   end
 
@@ -66,14 +137,14 @@ class OnlineLobby
 
   def createUI()
     @sprites["selection"] = Sprite.new(@viewport)
-    @sprites["selection"].bitmap = Bitmap.new(256,30)
-    @sprites["selection"].bitmap.fill_rect(0,0,256,30,Color.new(255,255,255,75))
-    @sprites["selection"].x = 0
-    @sprites["selection"].y = 30*@selectionIndex
+    @sprites["selection"].bitmap = Bitmap.new(298,23)
+    @sprites["selection"].bitmap.fill_rect(0,0,298,23,Color.new(24,24,24,75))
+    @sprites["selection"].x = 4 + @sprites["list"].x
+    @sprites["selection"].y = 27+23*@selectionIndex + @sprites["list"].y
     @sprites["selection"].z = 4 #this has to be shown on top of others
 
     @sprites["status"] = Sprite.new(@viewport)
-    @sprites["status"].bitmap = Bitmap.new(400,30)
+    @sprites["status"].bitmap = Bitmap.new(Graphics.width,30)
     #@sprites["status"].bitmap.fill_rect(0,0,300,30,Color.new(0,0,0,75))
     @sprites["status"].y = Graphics.height-30
     
@@ -89,6 +160,16 @@ class OnlineLobby
       @sprites["party#{i}"].z = 6
       @sprites["party#{i}"].visible = false
     end
+
+    @sprites["battleButton"] = Sprite.new(@viewport)
+    @sprites["battleButton"].bitmap = pbBitmap(@path + "battle")
+    @sprites["battleButton"].x = 334
+    @sprites["battleButton"].y = 206
+
+    @sprites["tradeButton"] = Sprite.new(@viewport)
+    @sprites["tradeButton"].bitmap = pbBitmap(@path + "trade")
+    @sprites["tradeButton"].x = 334
+    @sprites["tradeButton"].y = 248
 
   end
 
@@ -124,43 +205,94 @@ class OnlineLobby
 
   def updateStatus(text)
     @sprites["status"].bitmap.clear()
-    @sprites["status"].bitmap.fill_rect(0,0,400,30,Color.new(0,0,0,75))
-    @sprites["status"].bitmap.draw_text(6,0,400,30,text)
+    @sprites["status"].bitmap.fill_rect(0,0,Graphics.width,30,Color.new(0,0,0,75))
+    pbSetFont(@sprites["status"].bitmap, "Barlow Condensed", 24)
+    @sprites["status"].bitmap.draw_text(6,0,Graphics.width,30,text)
   end
 
-  def pbDisplayAvaiblePlayerList(list)
+  def pbDisplayAvaiblePlayerList(list,moveselector = false)
     # Updating the list every time it gets updated on screen
     if list != @playerlist
       @playerList = list
     end
+
+    
+    moveSelector(0) if moveselector
     # Disposing of old sprites
-    if @sprites["list"] != nil
-      @sprites["list"].dispose
+    @sprites["list"].bitmap = pbBitmap(@path + "playerlist").clone
+    pbSetFont(@sprites["list"].bitmap,"Barlow Condensed",22)
+    textpos = [
+      ["ID",12,4,0,Color.new(232,232,232)],
+      [_INTL("Name"),102,4,0,Color.new(232,232,232)],
+      [_INTL("Status"),244,4,0,Color.new(232,232,232)],
+    ]
+    imagepos = []
+    for entry in @playerList
+      if @playerList.index(entry) < @listOffset
+        next
+      end
+      if @playerList.index(entry)+1-@listOffset > MAX_VISIBLE_PLAYERS
+        break
+      end
+      y = 4+23*(@playerList.index(entry)+1-@listOffset)
+      icony = 28+23*(@playerList.index(entry)-@listOffset)
+      textpos.push(["#{"%05d" % entry[0]}",70,y,1,Color.new(22,22,22)])
+      textpos.push(["#{entry[1]}",102,y,0,Color.new(22,22,22)])
+
+      ballimage=@path + entry[3].to_s
+      imagepos.push([ballimage,256,icony,0,0,-1,-1])
+      #@sprites["list"].bitmap.draw_text(6,6+30*list.index(entry),250,30,"#{"%05d" % entry[0]}:#{entry[1]}-#{entry[3]}")
     end
-    @sprites["list"] = Sprite.new(@viewport)
-    @sprites["list"].bitmap = Bitmap.new(256,300)
-    @sprites["list"].bitmap.fill_rect(0,0,256,200,Color.new(30,30,30,200))
-    for entry in list
-      @sprites["list"].bitmap.draw_text(6,6+30*list.index(entry),250,30,"#{"%05d" % entry[0]}:#{entry[1]}-#{entry[3]}")
-    end
+    pbDrawTextPositions(@sprites["list"].bitmap,textpos)
+    pbDrawImagePositions(@sprites["list"].bitmap,imagepos)
+  end
+
+  def disableSelector
+    @sprites["selection"].visible = false
+  end
+
+  def enableSelector
+    @sprites["selection"].visible = true
   end
 
   def moveSelector(amount)
     @selectionIndex+=amount
+    if @selectionIndex-@listOffset>=MAX_VISIBLE_PLAYERS && amount > 0
+      @listOffset+=amount
+      pbDisplayAvaiblePlayerList(@playerList)
+    elsif @selectionIndex < @listOffset
+      @listOffset+=amount
+      pbDisplayAvaiblePlayerList(@playerList)
+    end
+
+
     if (@selectionIndex>=@playerList.length)
+      if @selectionIndex>=MAX_VISIBLE_PLAYERS && amount > 0
+        echoln "WENT OVERBOARD!"
+        @listOffset=0
+        pbDisplayAvaiblePlayerList(@playerList)
+      end
       @selectionIndex = 0
     elsif (@selectionIndex < 0)
       @selectionIndex = @playerList.length - 1
+      if @selectionIndex>=MAX_VISIBLE_PLAYERS
+        @listOffset=@playerList.length - MAX_VISIBLE_PLAYERS
+        pbDisplayAvaiblePlayerList(@playerList)
+      end
     end
 
-    echoln "MOVED SELECTION TO #{@selectionIndex}"
+    #@listOffset = 0 if @listOffset < 0
+      
+
+    echoln "MOVED SELECTION TO #{@selectionIndex} => OFFSET #{@listOffset}"
   end
 
   def pbAvatarSelectionScreen(msgwindow)
     sprites = {}
     sprites['bg'] = Sprite.new(@viewport)
-    sprites['bg'].bitmap = Bitmap.new(Graphics.width,Graphics.height)
-    sprites['bg'].bitmap.fill_rect(0,0,Graphics.width,Graphics.height,LIGHTBLUE)
+    sprites['bg'] = pbBitmap(@path + "BG")
+    #sprites['bg'].bitmap = Bitmap.new(Graphics.width,Graphics.height)
+    #sprites['bg'].bitmap.fill_rect(0,0,Graphics.width,Graphics.height,LIGHTBLUE)
     sprites['bg'].z = 20
     sprites['bg'].visible = false
     oldz = msgwindow.z
@@ -267,6 +399,12 @@ class OnlineLobby
         if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
           #accept, thus change the avatar
           $Trainer.online_trainer_type=id
+          if bmp != nil
+            resbmp = Bitmap.new(bmp.width/2,bmp.height/2)
+            resbmp.stretch_blt(Rect.new(0,0,bmp.width/2,bmp.height/2),bmp,Rect.new(0,0,bmp.width,bmp.height))
+            @sprites["avatar"].bitmap = resbmp
+            @sprites["avatar"].bitmap = @sprites["avatar"].bitmap.mask!(@path+"avatarbox",0,@sprites["avatar"].bitmap.height/6)
+          end
           break
         end
       end
@@ -323,9 +461,11 @@ class OnlineLobby
   # This is supposed to be called with Input.update and Graphics.update inside a loop,
   # so no need to add those here
   def update
-
     #updating the selection bar position
-    @sprites["selection"].y = 6+30*@selectionIndex
+    @sprites["selection"].y = 27+23*(@selectionIndex-@listOffset) + @sprites["list"].y
+
+
+    @sprites["refresh"].opacity = @canRefresh ? 255 : 128
 
     @sprites["animbg"].oy += 1
     @sprites["animbg"].ox += 1
@@ -1136,13 +1276,30 @@ module CableClub
     end
 
     if Input.trigger?(Input::UP)
-      @ui.moveSelector(-1)
+      if @navigatingPlayerList
+        @ui.moveSelector(-1)
+      else
+      end
       @ui.update
     end
     if Input.trigger?(Input::DOWN)
-      @ui.moveSelector(1)
+      if @navigatingPlayerList
+        @ui.moveSelector(1)
+      else
+      end
       @ui.update
     end
+
+    if Input.trigger?(Input::RIGHT) && @navigatingPlayerList
+      @navigatingPlayerList = false
+      @ui.disableSelector
+    end
+
+    if Input.trigger?(Input::LEFT) && !@navigatingPlayerList
+      @navigatingPlayerList = true
+      @ui.enableSelector
+    end
+
 
     if Input.trigger?(Input::R)
       connection.send do |writer|
@@ -1233,10 +1390,7 @@ module CableClub
 
 
     #QUESTO È IL PROBLEMA
-    #pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nEnlisted, waiting to join lobby",$Trainer.publicID($Trainer.id)), @frame)
-
-    @ui.updateStatus(_ISPRINTF("Your ID: {1:05d}\\nEnlisted, waiting to join lobby",$Trainer.publicID($Trainer.id)))
-    
+    #pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nEnlisted, waiting to join lobby",$Trainer.publicID($Trainer.id)), @frame)    
 
     #if (@frame%60 == 0) #Requesting player list every X seconds
       #@ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
@@ -1976,6 +2130,7 @@ module CableClub
       # 0 Type 1 Tier
       @unrankedMatchmakingParameters = []
 
+      @navigatingPlayerList = true
 
       loop do
         if (@frame%20==0)
@@ -1984,7 +2139,9 @@ module CableClub
         if @state != @last_state
           if @state == :enlisted
             @matchmaking = false
-            Kernel.pbMessageDisplay(msgwindow,_INTL("Choose a partner."),false)
+            msgwindow.visible = false
+            @ui.updateStatus(_INTL("Choose a partner or start matchmaking."))
+            #Kernel.pbMessageDisplay(msgwindow,_INTL("Choose a partner."),false)
             @partner_uid = nil
           end
           @last_state = @state
@@ -1997,7 +2154,9 @@ module CableClub
 
         Input.update
         Graphics.update
+        @ui.canRefresh = canRefreshPlayerList?()
         @ui.update
+        
         if Input.trigger?(Input::B)
           message = case @state
             when :await_server; _INTL("Abort connection?\\^")
