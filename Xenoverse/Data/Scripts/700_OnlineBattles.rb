@@ -2168,7 +2168,9 @@ module CableClub
     @timeoutCounter = 0
     @maxTimeOut = 60 * 30
 
-    Connection.open(host, port) do |connection|
+    connport = port+1+rand(9)
+
+    Connection.open(host, connport) do |connection|
       @state = :await_server
       @last_state = nil
       @client_id = 0               # 0 = SENDER, 1 = RECEIVER
