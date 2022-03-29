@@ -844,7 +844,6 @@ def pbCableClub
 end
 
 module CableClub
-
   attr_accessor :timeoutCounter
   attr_reader   :maxTimeOut
 
@@ -1305,7 +1304,8 @@ module CableClub
     end
 
 
-    if Input.trigger?(Input::R)
+
+    if Input.triggerex?(0x24)
       connection.send do |writer|
         writer.sym(:fwd)
         writer.str(@ui.playerList[@ui.selectionIndex][2])
@@ -1356,6 +1356,40 @@ module CableClub
       else
         Kernel.pbMessageDisplay(msgwindow, _INTL("Skipped connection."))
       end
+    end
+
+    if Input.trigger?(Input::R)
+      msgwindow.visible = true
+      if $Trainer.party.length < 2
+        Kernel.pbMessageDisplay(msgwindow, _INTL("Can't enter wonder trade with less than 2 Pokémon."),false)
+      else
+        Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to start the WONDER trade?"),false)
+        if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+          valid = false
+          while !valid
+            @wtchosen = choose_pokemon
+            if $Trainer.party[@wtchosen].isEgg?
+              if $Trainer.party.any? { |p| 
+                p != $Trainer.party[@wtchosen] && p.hp > 0 && !p.isEgg?}
+                valid = true
+              end
+            end
+            if $Trainer.party[@wtchosen].hp > 0 && ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG].include?($Trainer.party[@wtchosen].species)
+              valid = true
+            end
+          end
+          if @chosen >= 0
+            connection.send do |writer|
+              writer.sym(:wonderTrade)
+              write_pkmn($Trainer.party[@wtchosen])
+            end
+            @state = :wonderTrading
+            return
+          end
+        else
+        end
+      end
+      msgwindow.visible = false
     end
 
     # tasto Q
@@ -1468,19 +1502,29 @@ module CableClub
     end
   end
 
-  def self.handle_unranked_matchmaking(connection,msgwindow)
-    
-    if Input.trigger?(Input::B)
-      Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to exit matchmaking?"),false)
-      if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-        connection.send do |writer|
-          writer.sym(:forfeitMatchmaking)
-        end
+  def self.handle_wonder_trading(connection,msgwindow)
+    pbMessageDisplayDots(msgwindow,_INTL("Wonder trading"),@frame)
+    connection.updateExp([:wtFound]) do |record|
+      case(type=record.sym)
+      when :wtFound
+        partner_name = record.str
+        partner_pkmn = parse_pkmn(record)
+        your_pkmn = $Trainer.party[@chosen]
+        partner_speciesname = (partner_pkmn.isEgg?) ? _INTL("Egg") : PBSpecies.getName(getID(PBSpecies,partner_pkmn.species))
+        your_speciesname = (your_pkmn.isEgg?) ? _INTL("Egg") : PBSpecies.getName(getID(PBSpecies,your_pkmn.species))
+        # HERE THE ACTUAL TRADE IS BEING HANDLED          
+        partner = PokeBattle_Trainer.new(partner_name, $Trainer.trainertype)
+        do_trade(@wtchosen, partner, partner_pkmn) #trade scene
+        
+        @wtchosen=-1
         @state = :enlisted
-        return
+      else
+        raise "Unknown message: #{type}"
       end
     end
+  end
 
+  def self.handle_unranked_matchmaking(connection,msgwindow)
     connection.updateExp([:foundOpponent,:trainerData]) do |record|
       case(type = record.sym)
       when :foundOpponent
@@ -1521,7 +1565,6 @@ module CableClub
     end
 
   end
-
 
   def self.handle_await_interaction_accept(connection,msgwindow)
     pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nAsked X for interaction",$Trainer.publicID($Trainer.id)), @frame)
@@ -2078,7 +2121,6 @@ module CableClub
     t = Thread.new {
       Graphics.update
       Input.update
-      echoln "PRIO #{Thread.current.priority}"
       out = %x{Antochit.exe}#`Antochit.exe`
       return if (out == nil || out == "BANNED")
       @md5 = out.split(",")[0]
@@ -2174,13 +2216,26 @@ module CableClub
         @ui.update
         
         if Input.trigger?(Input::B)
-          message = case @state
-            when :await_server; _INTL("Abort connection?\\^")
-            when :await_partner; _INTL("Abort search?\\^")
-            else; _INTL("Disconnect?\\^")
+          case @state
+          when :unrankedMatchmaking
+            msgwindow.visible = true          
+            Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to exit matchmaking?"),false)
+            if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+              connection.send do |writer|
+                writer.sym(:forfeitMatchmaking)
+              end
+              @state = :enlisted
             end
-          Kernel.pbMessageDisplay(msgwindow, message)
-          return if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+            msgwindow.visible = false
+          else
+            message = case @state
+              when :await_server; _INTL("Abort connection?\\^")
+              when :await_partner; _INTL("Abort search?\\^")
+              else; _INTL("Disconnect?\\^")
+              end
+            Kernel.pbMessageDisplay(msgwindow, message)
+            return if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+          end
         end
         
         if @handlers.keys.include?(@state)
