@@ -1312,6 +1312,8 @@ module CableClub
     end
 
     if Input.trigger?(Input::C)
+      
+      msgwindow.visible = true
       Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start a connection with {1}?",@ui.playerList[@ui.selectionIndex][1]))
       if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
         Kernel.pbMessageDisplay(msgwindow, _INTL("Vuoi inviare un messaggio a {1}?",@ui.playerList[@ui.selectionIndex][1]))
@@ -1336,6 +1338,8 @@ module CableClub
         @timeoutCounter = 0
         return
       else
+        
+        msgwindow.visible = false
         pbWait(8)
       end
     end
@@ -1413,6 +1417,7 @@ module CableClub
         name = record.str
         uid = record.str
         greetmessage = record.str
+        msgwindow.visible = true
         if greetmessage == ""
           greetmessage = _INTL("{1} asked for connection. Do you want to start the connection?\\^",name)
         else
@@ -1437,6 +1442,7 @@ module CableClub
           @client_id = 1
           @state = :await_partner
         else
+
           Kernel.pbMessageDisplay(msgwindow, _INTL("Connection refused.\\^"))
           if connection.can_send?
             connection.send do |writer|
@@ -1445,6 +1451,7 @@ module CableClub
               writer.sym(:cancel)
             end
           end
+          msgwindow.visible = false
         end
       when :message
         Kernel.pbMessage(record.str)
@@ -2143,11 +2150,11 @@ module CableClub
             @ui.updateStatus(_INTL("Choose a partner or start matchmaking."))
             #Kernel.pbMessageDisplay(msgwindow,_INTL("Choose a partner."),false)
             @partner_uid = nil
+          else
+            msgwindow.visible = true
           end
           @last_state = @state
           @frame = 0
-          
-
         else
           @frame += 1# if @frame < 180
         end
