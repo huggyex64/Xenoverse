@@ -700,7 +700,7 @@ class PokemonScreen_Scene
     end
   end
   
-	def pbChoosePokemon(switching=false,multiple =false)
+	def pbChoosePokemon(switching = false, multiple = false, cancancel = true)
 		for i in 0...6
 			@sprites["pokemon#{i}"].preselected=(switching&&i==@activecmd)
 			@sprites["pokemon#{i}"].switching=switching
@@ -731,7 +731,7 @@ class PokemonScreen_Scene
 					@sprites["pokemon#{i}"].selected=(i==@activecmd)
 				end
 			end
-			if Input.trigger?(Input::B)
+			if Input.trigger?(Input::B) && cancancel
 				return -1
 			end
 			if Input.trigger?(Input::C)
