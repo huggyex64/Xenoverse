@@ -1509,7 +1509,7 @@ module CableClub
       when :wtFound
         partner_name = record.str
         partner_pkmn = parse_pkmn(record)
-        your_pkmn = $Trainer.party[@chosen]
+        your_pkmn = $Trainer.party[@wtchosen]
         partner_speciesname = (partner_pkmn.isEgg?) ? _INTL("Egg") : PBSpecies.getName(getID(PBSpecies,partner_pkmn.species))
         your_speciesname = (your_pkmn.isEgg?) ? _INTL("Egg") : PBSpecies.getName(getID(PBSpecies,your_pkmn.species))
         # HERE THE ACTUAL TRADE IS BEING HANDLED          
