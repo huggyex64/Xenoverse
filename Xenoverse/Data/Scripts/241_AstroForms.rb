@@ -48,7 +48,7 @@ class PokeBattle_Battler
 			@battle.pbDisplayBrief(_INTL("{1} è esausto!",pbThis)) if showMessage
 		end
     PBDebug.log("[#{pbThis} fainted]")
-    PBDebug.log("[#{pbThis} real hp is #{@pokemon.hp} : #{@hp}. Is it fainted? #{isFainted?()}]")
+    PBDebug.log("[#{pbThis} real hp is #{@pokemon.hp} : #{self.hp}. Is it fainted? #{isFainted?()}]")
     return true
   end
   

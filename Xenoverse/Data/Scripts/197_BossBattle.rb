@@ -28,10 +28,10 @@ class PokeBattle_Pokemon
 	
 	alias :calcStats_old :calcStats
 	def calcStats
-    oldHp = @hp
+    oldHp = self.hp
 		calcStats_old
-		if @boss && @hp>0
-      echoln "=======> HP: #{@hp} : #{oldHp} TOTALHP: #{@totalhp} NORMALHP: #{@normalhp}"
+		if @boss && self.hp>0
+      echoln "=======> HP: #{self.hp} : #{oldHp} TOTALHP: #{@totalhp} NORMALHP: #{@normalhp}"
       #handles the normalhp in case there were stats overrides
       @normalhp = @statsOverride==nil ? @totalhp : @totalhp / @hpMoltiplier
       diff= @totalhp-oldHp
@@ -39,27 +39,27 @@ class PokeBattle_Pokemon
 			@totalhp *= @hpMoltiplier if @statsOverride==nil
 
       if (diff == 0)
-        @hp = @totalhp
+        self.hp = @totalhp
       else
         diff= @totalhp-oldHp
         
-        @hp = @totalhp-diff
+        self.hp = @totalhp-diff
       end
-      echoln "=======> HP: #{@hp} : #{oldHp} TOTALHP: #{@totalhp} NORMALHP: #{@normalhp}"
+      echoln "=======> HP: #{self.hp} : #{oldHp} TOTALHP: #{@totalhp} NORMALHP: #{@normalhp}"
 		end
 	end
   
   def denyBoss
-    currHp = @hp
+    currHp = self.hp
     @boss = false
     @hpMoltiplier = 0
     @bossBg = nil
     calcStats
-    @hp = currHp
+    self.hp = currHp
   end
   
   def canBeCaptured?
-    return @hp <= @normalhp/@hpMoltiplier if @boss
+    return self.hp <= @normalhp/@hpMoltiplier if @boss
   end
 end
 

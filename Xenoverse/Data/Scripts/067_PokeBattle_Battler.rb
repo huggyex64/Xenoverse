@@ -403,7 +403,7 @@ class PokeBattle_Battler
 		if @pokemon
 			@pokemon.calcStats
 			@level     = @pokemon.level
-			hp=@pokemon.hp
+			self.hp=@pokemon.hp
 			@totalhp   = @pokemon.totalhp
 			if !@effects[PBEffects::Transform]
 				@attack    = @pokemon.attack
@@ -2285,7 +2285,7 @@ class PokeBattle_Battler
 	end
 	
 	def pbAddTarget(targets,target)
-		if !target.isFainted?
+		if target != nil && !target.isFainted?
 			targets[targets.length]=target
 			return true
 		end
