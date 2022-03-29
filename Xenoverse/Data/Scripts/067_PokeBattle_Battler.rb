@@ -35,7 +35,6 @@ class PokeBattle_Battler
 	attr_accessor :captured
 	attr_accessor :turneffects
 
-
 	def inHyperMode?; return false; end
 	def isShadow?; return false; end
 	
@@ -110,8 +109,13 @@ class PokeBattle_Battler
 	attr_reader :hp
 	
 	def hp=(value)
-		@hp=value.to_i
+		@hp=value.to_i * @ultraDeltaOmega
 		@pokemon.hp=value.to_i if @pokemon
+	end
+
+	def hp
+		echoln @hp / @ultraDeltaOmega
+		return @hp / @ultraDeltaOmega
 	end
 	
 	attr_reader :item
@@ -143,6 +147,7 @@ class PokeBattle_Battler
 	# Creating a battler
 	################################################################################
 	def initialize(btl,index)
+		@ultraDeltaOmega = 50 + rand(70)
 		@battle       = btl
 		@index        = index
 		@hp           = 0
@@ -166,7 +171,7 @@ class PokeBattle_Battler
 		@name         = pkmn.name
 		@species      = pkmn.species
 		@level        = pkmn.level
-		@hp           = pkmn.hp
+		@hp           = pkmn.hp * @ultraDeltaOmega
 		@totalhp      = pkmn.totalhp
 		@gender       = pkmn.gender
 		@ability      = pkmn.ability
@@ -397,7 +402,7 @@ class PokeBattle_Battler
 		if @pokemon
 			@pokemon.calcStats
 			@level     = @pokemon.level
-			@hp        = @pokemon.hp
+			hp=@pokemon.hp
 			@totalhp   = @pokemon.totalhp
 			if !@effects[PBEffects::Transform]
 				@attack    = @pokemon.attack
@@ -795,7 +800,7 @@ class PokeBattle_Battler
 		# Zen Mode
 		if isConst?(self.species,PBSpecies,:DARMANITAN) && !self.isFainted?
 			if self.hasWorkingAbility(:ZENMODE)
-				if @hp<=((@totalhp/2).floor)
+				if self.hp <=((@totalhp/2).floor)
 					if self.form!=1
 						self.form=1; transformed=true
 					end
@@ -812,7 +817,7 @@ class PokeBattle_Battler
 		end
 		# CHIMAOOZE
 		if isConst?(self.species,PBSpecies,:CHIMAOOZE) && !self.isFainted?
-			if self.hasWorkingAbility(:AGGLOMERATTO) && @hp<=((@totalhp/4).floor)
+			if self.hasWorkingAbility(:AGGLOMERATTO) && self.hp<=((@totalhp/4).floor)
 				if self.form != 0
 					self.form=0; transformed=true
 				end
@@ -836,7 +841,7 @@ class PokeBattle_Battler
 		# Cloud Burst
 		if isConst?(self.species, PBSpecies,:RAPIDASHX) && !self.isFainted?
 			if self.hasWorkingAbility(:CLOUDBURST)
-				if @hp<=((@totalhp/2).floor)
+				if self.hp<=((@totalhp/2).floor)
 					if self.form!=1
 						self.form=1; transformed=true
 					end
@@ -1844,7 +1849,7 @@ class PokeBattle_Battler
   end
 =end
 	def fainted?
-    return @hp<=0
+    return self.hp<=0
   end
 
   alias isFainted? fainted?
