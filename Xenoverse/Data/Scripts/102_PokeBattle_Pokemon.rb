@@ -52,6 +52,13 @@ class PokeBattle_Pokemon
   attr_accessor :cool,:beauty,:cute,:smart,:tough,:sheen # Contest stats
   attr_accessor :statsOverride#Alters the stats of the pokemon preventing further calcStats
 
+  attr_accessor :ultraDeltaOmega #Kek
+
+  def ultraDeltaOmega #kekpt2
+    @ultraDeltaOmega = 50+rand(70) if @ultraDeltaOmega == 0 || @ultraDeltaOmega == nil
+    return @ultraDeltaOmega
+  end
+
   EVLIMIT     = 510   # Max total EVs
   EVSTATLIMIT = 252   # Max EVs that a single stat can have
 
@@ -692,17 +699,21 @@ class PokeBattle_Pokemon
 # Sets this Pokémon's HP.
   def hp=(value)
     value=0 if value<0
-    @hp=value
-    if @hp==0
+    @hp=value * self.ultraDeltaOmega
+    if self.hp==0
       @status=0
       @statusCount=0
     end
   end
 
+  def hp
+    return @hp / self.ultraDeltaOmega #gigakek
+  end
+
 # Heals all HP of this Pokémon.
   def healHP
     return if egg?
-    @hp=@totalhp
+    self.hp=@totalhp
   end
 
 # Heals the status problem of this Pokémon.
@@ -882,10 +893,10 @@ end
     end
     diff=@totalhp-@hp
     @totalhp=stats[0]
-    if @hp>0
-      @hp=@totalhp-diff
-      @hp=1 if @hp<=0
-      @hp=@totalhp if @hp>@totalhp
+    if self.hp>0
+      hp=@totalhp-diff
+      self.hp=1 if @hp<=0
+      self.hp=@totalhp if @hp>@totalhp
     end
     @attack=stats[1]
     @defense=stats[2]
@@ -909,6 +920,7 @@ end
          species,PBSpecies.maxValue))
       return nil
     end
+    @ultraDeltaOmega = 50+rand(70)
     time=pbGetTimeNow
     @timeReceived=time.getgm.to_i # Use GMT
     @species=species
@@ -917,7 +929,7 @@ end
     @personalID|=rand(256)<<8
     @personalID|=rand(256)<<16
     @personalID|=rand(256)<<24
-    @hp=1
+    self.hp=1
     @totalhp=1
     @ev=[0,0,0,0,0,0]
     @iv=[]
@@ -953,7 +965,7 @@ end
     self.ballused=0
     self.level=level
     calcStats
-    @hp=@totalhp
+    self.hp=@totalhp
     if $game_map
       @obtainMap=$game_map.map_id
       @obtainText=nil
