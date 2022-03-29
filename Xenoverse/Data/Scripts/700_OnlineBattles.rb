@@ -74,6 +74,7 @@ class OnlineLobby
     @toggleParty = false
 
     status=[:blocked,:matchmaking,:waiting,:matched]
+  
 =begin
     @playerList = [
       [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
@@ -277,6 +278,9 @@ class OnlineLobby
       @selectionIndex = @playerList.length - 1
       if @selectionIndex>=MAX_VISIBLE_PLAYERS
         @listOffset=@playerList.length - MAX_VISIBLE_PLAYERS
+        pbDisplayAvaiblePlayerList(@playerList)
+      else
+        @listOffset=0
         pbDisplayAvaiblePlayerList(@playerList)
       end
     end
