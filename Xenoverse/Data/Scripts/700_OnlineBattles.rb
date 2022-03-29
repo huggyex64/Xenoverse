@@ -1381,7 +1381,7 @@ module CableClub
           if @wtchosen >= 0
             connection.send do |writer|
               writer.sym(:wonderTrade)
-              write_pkmn($Trainer.party[@wtchosen])
+              write_pkmn(writer,$Trainer.party[@wtchosen])
             end
             @state = :wonderTrading
             return
