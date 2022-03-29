@@ -2163,6 +2163,7 @@ module CableClub
     @handlers[:await_trade_confirm] = Proc.new {|connection, msgwindow| handle_await_trade_confirm(connection,msgwindow)}
     
     @handlers[:unrankedMatchmaking] = Proc.new {|connection, msgwindow| handle_unranked_matchmaking(connection,msgwindow)}
+    @handlers[:wonderTrading] = Proc.new {|connection, msgwindow| handle_wonder_trading(connection,msgwindow)}
 
     @timeoutCounter = 0
     @maxTimeOut = 60 * 30
