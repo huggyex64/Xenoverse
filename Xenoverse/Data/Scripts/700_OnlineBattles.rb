@@ -290,7 +290,7 @@ class OnlineLobby
   def pbAvatarSelectionScreen(msgwindow)
     sprites = {}
     sprites['bg'] = Sprite.new(@viewport)
-    sprites['bg'] = pbBitmap(@path + "BG")
+    sprites['bg'].bitmap = pbBitmap(@path + "BG")
     #sprites['bg'].bitmap = Bitmap.new(Graphics.width,Graphics.height)
     #sprites['bg'].bitmap.fill_rect(0,0,Graphics.width,Graphics.height,LIGHTBLUE)
     sprites['bg'].z = 20
@@ -1356,6 +1356,7 @@ module CableClub
 
     # tasto Q
     if Input.press?(Input::L)
+      msgwindow.visible = true
       Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to enter unranked matchmaking?"),false)
       if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
         # Send unranked matchmaking info
@@ -1379,6 +1380,7 @@ module CableClub
             writer.sym(@battle_type)
             writer.sym(@chosenTier)
           end
+          @cancancelSelection = false
           @state=:unrankedMatchmaking
           Kernel.pbMessageDisplay(msgwindow, _INTL("Matchmaking..."),false)
           return
@@ -1386,6 +1388,7 @@ module CableClub
       else
         Kernel.pbMessageDisplay(msgwindow, _INTL("Skipped connection."))
       end
+      msgwindow.visible = false
     end
 
     ##################################################
@@ -1537,6 +1540,7 @@ module CableClub
             write_party(writer)
           end
         end
+        @cancancelSelection = false
         Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", @partner_name))
         if @client_id == 0
           @state = :choose_activity
@@ -1577,6 +1581,7 @@ module CableClub
         @partner_party = parse_party(record)
         @ui.displayParty(@partner_party)
         Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", @partner_name))
+        @cancancelSelection = false
         if @client_id == 0
           @state = :choose_activity
         else
@@ -1829,7 +1834,7 @@ module CableClub
         scene=PokemonScreen_Scene.new
         screen=PokemonScreen.new(scene,$Trainer.party)
         ret=screen.pbChooseMultiplePokemon(BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type],
-           proc{|p| BATTLE_TIERS[@chosenTier].call(p)}, @battle_type==:single ? 1 : 2) {
+           proc{|p| BATTLE_TIERS[@chosenTier].call(p)}, @battle_type==:single ? 1 : 2,@cancancelSelection) {
              if Input.trigger?(Input::F5)
                 @ui.toggleOpponentParty()
              end
@@ -2134,10 +2139,10 @@ module CableClub
       @partner_confirm = false
       @chosenTier = nil
       @matchmaking = false
-      # 0 Type 1 Tier
-      @unrankedMatchmakingParameters = []
-
       @navigatingPlayerList = true
+
+      @cancancelSelection = true
+
 
       loop do
         if (@frame%20==0)
@@ -2691,11 +2696,20 @@ class PokeBattle_CableClub < PokeBattle_Battle
     end
   end
 
+  def pbDisplayPaused(message)
+    pbDisplayBrief(message)
+    pbBattleWait(80) {
+      yield if block_given?
+    }
+  end
+
   #Redefining pbStartBattleCore(canlose)
   #This one will await the readiness of each player
 
   def pbStartBattleCore(canlose)
     Graphics.frame_rate = 60
+    
+    echoln "SIIIIIIIIIIIIIIIIIIIIIIIIAA #{@opponent}"
     if !@fullparty1 && @party1.length > MAXPARTYSIZE
       raise ArgumentError.new(_INTL("Party 1 has more than {1} Pokémon.",MAXPARTYSIZE))
     end
@@ -2789,6 +2803,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       end
       @scene.pbStartBattle(self)
       @scene.sendingOut=true
+      echoln "SIIIIIIIIIIIIIIIIIIIIIIIIAA"
       if @opponent.is_a?(Array)
         pbDisplayPaused(_INTL("{1} and {2} want to battle!",@opponent[0].fullname,@opponent[1].fullname))
         sendout1=pbFindNextUnfainted(@party2,0,pbSecondPartyBegin(1))
@@ -2802,14 +2817,10 @@ class PokeBattle_CableClub < PokeBattle_Battle
         pbDisplayBrief(_INTL("{1} sent\r out {2}! {3} sent\r out {4}!",@opponent[0].fullname,getBattlerPokemon(@battlers[1]).name,@opponent[1].fullname,getBattlerPokemon(@battlers[3]).name))
         pbSendOutInitial(@doublebattle,1,@party2[sendout1],3,@party2[sendout2])
       else
-        if (!self.is_a?(PokeBattle_CableClub))
-          pbDisplayPaused(_INTL("{1}\r\nvuole combattere!",@opponent.fullname))
-        else
-          pbDisplayBrief(_INTL("{1}\r\nvuole combattere!",@opponent.fullname))
-          pbBattleWait(80) {
-            @scene.smTrainerSequence.update if @scene.smTrainerSequence
-          }
-        end
+        echoln "NOOOOOOOOOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        pbDisplayPaused(_INTL("{1}\r\nvuole combattere!",@opponent.fullname)){
+          @scene.smTrainerSequence.update if @scene.smTrainerSequence
+        }
         sendout1=pbFindNextUnfainted(@party2,0)
         sendout2=pbFindNextUnfainted(@party2,sendout1+1)
         
@@ -2854,7 +2865,9 @@ class PokeBattle_CableClub < PokeBattle_Battle
       @battlers[1].pbInitialize(trainerpoke,sendout,false)
       @scene.pbStartBattle(self)
       @scene.sendingOut=true
-      pbDisplayPaused(_INTL("{1}\r\nvuole combattere!",@opponent.fullname))
+      pbDisplayPaused(_INTL("{1}\r\nvuole combattere!",@opponent.fullname)){
+        @scene.smTrainerSequence.update if @scene.smTrainerSequence
+      }
       @scene.vsSequenceSM_end if $smAnim && !@scene.smTrainerSequence
       @scene.smTrainerSequence.finish if @scene.smTrainerSequence
       pbDisplayBrief(_INTL("{1} sent\r out {2}!",@opponent.fullname,getBattlerPokemon(@battlers[1]).name))

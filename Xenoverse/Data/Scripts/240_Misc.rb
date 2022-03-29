@@ -428,7 +428,7 @@ def pbRestoreOldTrainer
 end
 
 class PokemonScreen
-  def pbChooseMultiplePokemon(number,validProc,minlength = 3)
+  def pbChooseMultiplePokemon(number,validProc,minlength = 3,cancancel = true)
     annot=[]
     statuses=[]
     ordinals=[
@@ -476,7 +476,7 @@ class PokemonScreen
         @scene.pbSelect(6)
       end
       @scene.pbSetHelpText(_INTL(""))
-      pkmnid=@scene.pbChoosePokemon(false,true){
+      pkmnid=@scene.pbChoosePokemon(false,true,cancancel){
         yield if block_given?
       }
       addedEntry=false
