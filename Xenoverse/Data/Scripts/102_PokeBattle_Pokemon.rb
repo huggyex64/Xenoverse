@@ -55,7 +55,10 @@ class PokeBattle_Pokemon
   attr_accessor :ultraDeltaOmega #Kek
 
   def ultraDeltaOmega #kekpt2
-    @ultraDeltaOmega = 50+rand(70) if @ultraDeltaOmega == 0 || @ultraDeltaOmega == nil
+    if @ultraDeltaOmega == 0 || @ultraDeltaOmega == nil
+      @ultraDeltaOmega = 50+rand(70) 
+      @hp *= @ultraDeltaOmega
+    end
     return @ultraDeltaOmega
   end
 
