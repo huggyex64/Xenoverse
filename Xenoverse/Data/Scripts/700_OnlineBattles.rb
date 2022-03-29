@@ -1419,6 +1419,7 @@ module CableClub
             writer.sym(@chosenTier)
           end
           @cancancelSelection = false
+          @battleTeam = nil
           @state=:unrankedMatchmaking
           Kernel.pbMessageDisplay(msgwindow, _INTL("Matchmaking..."),false)
           return
