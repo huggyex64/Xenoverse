@@ -3087,7 +3087,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
             mega=@megaEvolution[0][0]
             mega^=1 if mega>=0
             writer.int(mega) # mega fix?
-            Log.i("INFO","SENT BATTLE CHOICES for MONSTER AT INDEX #{index}")
+            Log.i("INFO","SENT BATTLE CHOICES for MONSTER AT INDEX #{i}")
           end
         end
       end
