@@ -60,6 +60,7 @@ class Game_Player < Game_Character
   end
 
   def move_down(turn_enabled = true)
+    $lastPlayerMovement = "0,-1"
     if turn_enabled
       turn_down
     end
@@ -80,6 +81,7 @@ class Game_Player < Game_Character
   end
 
   def move_left(turn_enabled = true)
+    $lastPlayerMovement = "-1,0"
     if turn_enabled
       turn_left
     end
@@ -100,6 +102,7 @@ class Game_Player < Game_Character
   end
 
   def move_right(turn_enabled = true)
+    $lastPlayerMovement = "1,0"
     if turn_enabled
       turn_right
     end
@@ -120,6 +123,7 @@ class Game_Player < Game_Character
   end
 
   def move_up(turn_enabled = true)
+    $lastPlayerMovement = "0,1"
     if turn_enabled
       turn_up
     end
