@@ -3785,8 +3785,30 @@ ShowArea=true
 [627]
 # Monte Zodiaco Alterato
 BattleBack=Zodiacoalterato
-Weather=Rain,100
 Bicycle=false
 Outdoor=false
-WildBattleBGM=Wild Battle.mp3
+WildBattleBGM=Wild Battle Monte Alterato.mp3
+ShowArea=false
+[628]
+# Monte Zodiaco Alterato
+BattleBack=Fini
+Weather=HeavyRain,100
+Bicycle=false
+Outdoor=false
+WildBattleBGM=Wild Battle Monte Alterato.mp3
+ShowArea=false
+[629]
+# Monte Zodiaco Alterato
+BattleBack=	Zodiacoalterato
+Bicycle=false
+Outdoor=false
+WildBattleBGM=Wild Battle Monte Alterato.mp3
+ShowArea=false
+[630]
+# Monte Zodiaco Alterato
+BattleBack=Lele
+Weather=Snow,100
+Bicycle=false
+Outdoor=false
+WildBattleBGM=Wild Battle Monte Alterato.mp3
 ShowArea=false
