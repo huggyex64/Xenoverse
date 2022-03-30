@@ -1408,12 +1408,10 @@ module CableClub
         @state = :choose_activity
       when :leaveParty
         # disconnect only if the partner who sent the disconnection is your current partner
-        if @partner_uid == record.str
-          Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} disconnected.",@partner_name))
-          @state = :enlisted
-          resetPartner()
-          return
-        end
+        Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} disconnected.",@partner_name))
+        @state = :enlisted
+        resetPartner()
+        return
       when :partnerDisconnected
         # disconnect only if the partner who sent the disconnection is your current partner
         if @partner_uid == record.str
@@ -1899,7 +1897,7 @@ module CableClub
               resetPartner()
               @state = :enlisted
               msgwindow.visible = false
-              return
+              next
             end
           else
             msgwindow.visible = true
