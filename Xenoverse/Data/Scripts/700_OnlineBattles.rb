@@ -884,359 +884,6 @@ module CableClub
     @partner_party = nil
   end
 
-  def self.connect_to(msgwindow, partner_trainer_id)
-    pbMessageDisplayDots(msgwindow, _INTL("Connecting"), 0)
-    Connection.open(HOST, PORT) do |connection|
-      @state = :await_server
-      @last_state = nil
-      @client_id = 0
-      @partner_name = nil
-      @partner_party = nil
-      frame = 0
-      @activity = nil
-      seed = nil
-      battle_type = nil
-      chosen = nil
-      partner_chosen = nil
-      partner_confirm = false
-
-      loop do
-        if @state != @last_state
-          @last_state = @state
-          frame = 0
-        else
-          frame += 1
-        end
-
-        Graphics.update
-        Input.update
-        if Input.trigger?(Input::B)
-          message = case @state
-            when :await_server; _INTL("Abort connection?\\^")
-            when :await_partner; _INTL("Abort search?\\^")
-            else; _INTL("Disconnect?\\^")
-            end
-          Kernel.pbMessageDisplay(msgwindow, message)
-          return if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-        end
-
-        case @state
-        # Waiting to be connected to the server.
-        # Note: does nothing without a non-blocking connection.
-        when :await_server
-          if connection.can_send?
-            connection.send do |writer|
-              writer.sym(:find)
-              writer.int(partner_trainer_id)
-              writer.str($Trainer.name)
-              writer.int($Trainer.id)
-              write_party(writer)
-            end
-            @state = :await_partner
-          else
-            pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nConnecting",$Trainer.publicID($Trainer.id)), frame)
-          end
-
-        # Waiting to be connected to the partner.
-        when :await_partner
-          pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nSearching",$Trainer.publicID($Trainer.id)), frame)
-          connection.update do |record|
-            case (type = record.sym)
-            when :found
-              @client_id = record.int
-              @partner_name = record.str
-              @partner_party = parse_party(record)
-              Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", @partner_name))
-              if @client_id == 0
-                @state = :choose_activity
-              else
-                @state = :await_choose_activity
-              end
-
-            else
-              raise "Unknown message: #{type}"
-            end
-          end
-
-        # Choosing an @activity (leader only).
-        when :choose_activity
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Choose an @activity.\\^"))
-          command = Kernel.pbShowCommands(msgwindow, [_INTL("Single Battle"), _INTL("Double Battle"), _INTL("Trade")], -1)
-          case command
-          when 0..1 # Battle
-            if command == 1 && $Trainer.party.length < 2
-              Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, you must have at least two Pokémon to engage in a double battle."))
-            elsif command == 1 && @partner_party.length < 2
-              Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, your partner must have at least two Pokémon to engage in a double battle."))
-            else
-              connection.send do |writer|
-                writer.sym(:battle)
-                seed = rand(2**31)
-                writer.int(seed)
-                battle_type = case command
-                  when 0; :single
-                  when 1; :double
-                  else; raise "Unknown battle type"
-                  end
-                writer.sym(battle_type)
-                writer.int($Trainer.trainertype)
-              end
-              @activity = :battle
-              @state = :await_accept_activity
-            end
-
-            when 2 # Trade
-              connection.send do |writer|
-                writer.sym(:trade)
-              end
-              @activity = :trade
-              @state = :await_accept_activity
-
-            else # Cancel
-              # TODO: Confirmation box?
-              return
-            end
-
-        # Waiting for the partner to accept our @activity (leader only).
-        when :await_accept_activity
-          pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to accept", @partner_name), frame)
-          connection.update do |record|
-            case (type = record.sym)
-            when :ok
-              case @activity
-              when :battle
-                trainertype = record.int
-                partner = PokeBattle_Trainer.new(@partner_name, trainertype)
-                (partner.partyID=0) rescue nil # EBDX compat
-                do_battle(connection, @client_id, seed, battle_type, partner, @partner_party)
-                @state = :choose_activity
-
-              when :trade
-                chosen = choose_pokemon
-                if chosen >= 0
-                  connection.send do |writer|
-                    writer.sym(:ok)
-                    writer.int(chosen)
-                  end
-                  @state = :await_trade_confirm
-                else
-                  connection.send do |writer|
-                    writer.sym(:cancel)
-                  end
-                  connection.discard(1)
-                  @state = :choose_activity
-                end
-
-              else
-                raise "Unknown @activity: #{@activity}"
-              end
-
-            when :cancel
-              Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to #{@activity.to_s}.", @partner_name))
-              @state = :choose_activity
-
-            else
-              raise "Unknown message: #{type}"
-            end
-          end
-
-        # Waiting for the partner to select an @activity (follower only).
-        when :await_choose_activity
-          pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to pick an @activity", @partner_name), frame)
-          connection.update do |record|
-            case (type = record.sym)
-            when :battle
-              seed = record.int
-              battle_type = record.sym
-              trainertype = record.int
-              partner = PokeBattle_Trainer.new(@partner_name, trainertype)
-              (partner.partyID=0) rescue nil # EBDX compat
-              # Auto-reject double battles that we cannot participate in.
-              if battle_type == :double && $Trainer.party.length < 2
-                connection.send do |writer|
-                  writer.sym(:cancel)
-                end
-                @state = :await_choose_activity
-              else
-                Kernel.pbMessageDisplay(msgwindow, _INTL("{1} wants to battle!\\^", @partner_name))
-                if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-                  connection.send do |writer|
-                    writer.sym(:ok)
-                    writer.int($Trainer.trainertype)
-                  end
-                  do_battle(connection, @client_id, seed, battle_type, partner, @partner_party)
-                else
-                  connection.send do |writer|
-                    writer.sym(:cancel)
-                  end
-                  @state = :await_choose_activity
-                end
-              end
-
-            when :trade
-              Kernel.pbMessageDisplay(msgwindow, _INTL("{1} wants to trade!\\^", @partner_name))
-              if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-                connection.send do |writer|
-                  writer.sym(:ok)
-                end
-                chosen = choose_pokemon
-                if chosen >= 0
-                  connection.send do |writer|
-                    writer.sym(:ok)
-                    writer.int(chosen)
-                  end
-                  @state = :await_trade_confirm
-                else
-                  connection.send do |writer|
-                    writer.sym(:cancel)
-                  end
-                  connection.discard(1)
-                  @state = :await_choose_activity
-                end
-              else
-                connection.send do |writer|
-                  writer.sym(:cancel)
-                end
-                @state = :await_choose_activity
-              end
-
-            else
-              raise "Unknown message: #{type}"
-            end
-          end
-
-        # Waiting for the partner to select a Pokémon to trade.
-        when :await_trade_pokemon
-          if partner_confirm
-            pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to resynchronize", @partner_name), frame)
-          else
-            pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to confirm the trade", @partner_name), frame)
-          end
-
-          connection.update do |record|
-            case (type = record.sym)
-            when :ok
-              partner = PokeBattle_Trainer.new(@partner_name, $Trainer.trainertype)
-              pbHealAll
-              @partner_party.each {|pkmn| pkmn.heal}
-              pkmn = @partner_party[partner_chosen]
-              @partner_party[partner_chosen] = $Trainer.party[chosen]
-              do_trade(chosen, partner, pkmn)
-              connection.send do |writer|
-                writer.sym(:update)
-                write_pkmn(writer, $Trainer.party[chosen])
-              end
-              partner_confirm = true
-
-            when :update
-              @partner_party[partner_chosen] = parse_pkmn(record)
-              partner_chosen = nil
-              partner_confirm = false
-              if @client_id == 0
-                @state = :choose_activity
-              else
-                @state = :await_choose_activity
-              end
-
-            when :cancel
-              Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to trade after all.", @partner_name))
-              partner_chosen = nil
-              partner_confirm = false
-              if @client_id == 0
-                @state = :choose_activity
-              else
-                @state = :await_choose_activity
-              end
-
-            else
-              raise "Unknown message: #{type}"
-            end
-          end
-
-        when :await_trade_confirm
-          if partner_chosen.nil?
-            pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to pick a Pokémon", @partner_name), frame)
-          else
-            pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to confirm the trade", @partner_name), frame)
-          end
-
-          connection.update do |record|
-            case (type = record.sym)
-            when :ok
-              partner_chosen = record.int
-              pbHealAll
-              @partner_party.each {|pkmn| pkmn.heal}
-              partner_pkmn = @partner_party[partner_chosen]
-              your_pkmn = $Trainer.party[chosen]
-              abort=$Trainer.ablePokemonCount==1 && your_pkmn==$Trainer.ablePokemonParty[0] && partner_pkmn.isEgg?
-              able_party=@partner_party.find_all { |p| p && !p.isEgg? && !p.isFainted? }
-              abort|=able_party.length==1 && partner_pkmn==able_party[0] && your_pkmn.isEgg?
-              unless abort
-                partner_speciesname = (partner_pkmn.isEgg?) ? _INTL("Egg") : PBSpecies.getName(getID(PBSpecies,partner_pkmn.species))
-                your_speciesname = (your_pkmn.isEgg?) ? _INTL("Egg") : PBSpecies.getName(getID(PBSpecies,your_pkmn.species))
-                loop do
-                  Kernel.pbMessageDisplay(msgwindow, _INTL("{1} has offered {2} ({3}) for your {4} ({5}).\\^",@partner_name,
-                      partner_pkmn.name,partner_speciesname,your_pkmn.name,your_speciesname))
-                  command = Kernel.pbShowCommands(msgwindow, [_INTL("Check {1}'s offer",@partner_name), _INTL("Check My Offer"), _INTL("Accept/Deny Trade")], -1)
-                  case command
-                  when 0
-                    check_pokemon(partner_pkmn)
-                  when 1
-                    check_pokemon(your_pkmn)
-                  when 2
-                    Kernel.pbMessageDisplay(msgwindow, _INTL("Confirm the trade of {1} ({2}) for your {3} ({4}).\\^",partner_pkmn.name,partner_speciesname,
-                        your_pkmn.name,your_speciesname))
-                    if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-                      connection.send do |writer|
-                        writer.sym(:ok)
-                      end
-                      @state = :await_trade_pokemon
-                      break
-                    else
-                      connection.send do |writer|
-                        writer.sym(:cancel)
-                      end
-                      partner_chosen = nil
-                      connection.discard(1)
-                      if @client_id == 0
-                        @state = :choose_activity
-                      else
-                        @state = :await_choose_activity
-                      end
-                      break
-                    end
-                  end
-                end
-              else
-                Kernel.pbMessageDisplay(msgwindow, _INTL("The trade was unable to be completed."))
-                partner_chosen = nil
-                if @client_id == 0
-                  @state = :choose_activity
-                else
-                  @state = :await_choose_activity
-                end
-              end
-              
-            when :cancel
-              Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to trade after all.", @partner_name))
-              partner_chosen = nil
-              if @client_id == 0
-                @state = :choose_activity
-              else
-                @state = :await_choose_activity
-              end
-
-            else
-              raise "Unknown message: #{type}"
-            end
-          end  
-        else
-          raise "Unknown @state: #{@state}"
-        end
-      end
-    end
-  end
-
   def self.handle_await_server(connection,msgwindow)
     if connection.can_send?
       connection.send do |writer|
@@ -1463,7 +1110,7 @@ module CableClub
         if greetmessage == ""
           greetmessage = _INTL("{1} asked for connection. Do you want to start the connection?\\^",name)
         else
-          greetmessage = "#{name}:#{greetmessage}"
+          greetmessage = "#{name}: #{greetmessage}"
         end  
         Kernel.pbMessageDisplay(msgwindow, greetmessage)
         command = Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2)
@@ -1633,6 +1280,7 @@ module CableClub
         if @client_id == 0
           @state = :choose_activity
         else
+          Kernel.pbMessageDisplay(msgwindow,_INTL("Waiting for {1} to pick an activity...",@partner_name),false)
           @state = :await_choose_activity
         end
       when :partnerDisconnected
@@ -1712,7 +1360,7 @@ module CableClub
   def self.handle_await_accept_activity(connection,msgwindow)
     echoln "#{@state}: awaiting leader to choose activity"
     pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to accept", @partner_name), @frame)
-    connection.updateExp([:ok,:acceptTrade,:cancel,:partnerDisconnected]) do |record|
+    connection.updateExp([:ok,:acceptTrade,:cancel,:leaveParty,:partnerDisconnected]) do |record|
       case (type = record.sym)
       when :ok #BATTLE ONLY
           #Kernel.pbDisposeMessageWindow(msgwindow)
@@ -1758,6 +1406,14 @@ module CableClub
       when :cancel
         Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to #{@activity.to_s}.", @partner_name))
         @state = :choose_activity
+      when :leaveParty
+        # disconnect only if the partner who sent the disconnection is your current partner
+        if @partner_uid == record.str
+          Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, {1} disconnected.",@partner_name))
+          @state = :enlisted
+          resetPartner()
+          return
+        end
       when :partnerDisconnected
         # disconnect only if the partner who sent the disconnection is your current partner
         if @partner_uid == record.str
@@ -1772,7 +1428,7 @@ module CableClub
   end
 
   def self.handle_await_choose_activity(connection,msgwindow)
-    pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to pick an activity", @partner_name), @frame)
+    #pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to pick an activity", @partner_name), @frame)
     connection.updateExp([:battle,:trade,:cancelInteraction,:partnerDisconnected]) do |record|
       case (type = record.sym)
       when :battle
@@ -2231,7 +1887,22 @@ module CableClub
               @state = :enlisted
             end
             msgwindow.visible = false
+          when :await_choose_activity
+            msgwindow.visible = true
+            Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to stop the connection with your partner?"),false)
+            if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+              connection.send do |writer|
+                writer.sym(:fwd)
+                writer.str(@partner_uid)
+                writer.sym(:leaveParty)
+              end
+              resetPartner()
+              @state = :enlisted
+              msgwindow.visible = false
+              return
+            end
           else
+            msgwindow.visible = true
             message = case @state
               when :await_server; _INTL("Abort connection?\\^")
               when :await_partner; _INTL("Abort search?\\^")
@@ -2239,6 +1910,7 @@ module CableClub
               end
             Kernel.pbMessageDisplay(msgwindow, message)
             return if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+            msgwindow.visible = false
           end
         end
         
