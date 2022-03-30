@@ -3046,11 +3046,6 @@ class PokeBattle_CableClub < PokeBattle_Battle
 				battler=@battlers[i]
 				unless !@doublebattle && pbIsDoubleBattler?(i)
 					PBDebug.log("[Reusing commands for #{battler.pbThis(true)}]")
-          @connection.send do |writer|
-            writer.sym(:ready) #Request type
-            writer.str(@partner_uid)
-            writer.str(@uid)
-          end
 				end
 			end
 		end
@@ -3059,14 +3054,43 @@ class PokeBattle_CableClub < PokeBattle_Battle
 			for j in 0...@megaEvolution[i].length
 				@megaEvolution[i][j]=-1 if @megaEvolution[i][j]>=0
 			end
-		end
+		end    
+    our_indices = @doublebattle ? [0, 2] : [0]
+    their_indices = @doublebattle ? [1, 3] : [1]
 		for i in 0...4
       
       @timer=0
       @ui.updateTime("Time: #{(@timerMax-@timer)/60}")
 			break if @decision!=0
       echoln "Battler #{i}:#{pbOwnedByPlayer?(i)}:#{PBSpecies.getName(@battlers[i].species)}:#{@choices[i][0]}"
-
+      if i == their_indices.last && @choices[i][0]!=0
+        for our_index in our_indices
+          echoln "SENT CHOICE #{@choices[our_index][0]}:#{@choices[our_index][1]}"
+          @connection.send do |writer|
+            pkmn = @battlers[our_index]
+            writer.sym(:fwd)
+            writer.str(@partner_uid)
+            writer.sym(:choice)
+            writer.int(@choices[our_index][0])
+            writer.int(@choices[our_index][1])
+            move = @choices[our_index][2] && pkmn.moves.index(@choices[our_index][2])
+            writer.nil_or(:int, move)
+            # -1 invokes the RNG, out of order (somehow?!) which causes desync.
+            # But this is a single battle, so the only possible choice is the foe.
+            if !@doublebattle && @choices[our_index][3] == -1
+              @choices[our_index][3] = their_indices[0]
+            end
+            # Target from their POV.
+            our_target = @choices[our_index][3]
+            their_target = target_order[our_target] rescue our_target
+            writer.int(their_target)
+            mega=@megaEvolution[0][0]
+            mega^=1 if mega>=0
+            writer.int(mega) # mega fix?
+            Log.i("INFO","SENT BATTLE CHOICES for MONSTER AT INDEX #{index}")
+          end
+        end
+      end
 			next if @choices[i][0]!=0
       echoln "Evaluating action for #{PBSpecies.getName(@battlers[i].species)}"
 			if !pbOwnedByPlayer?(i) || @controlPlayer
