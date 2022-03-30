@@ -4,6 +4,7 @@
 class OnlineLobby
   attr_accessor(:playerList)
   attr_accessor(:selectionIndex)
+  attr_accessor(:buttonSelectionIndex)
   attr_accessor(:canRefresh)
 
 
@@ -12,6 +13,8 @@ class OnlineLobby
   MAX_VISIBLE_PLAYERS = 11
 
   YES = _INTL("Yes")
+
+  FADE_TIME = 12
 
   def initialize()
     @canRefresh = false
@@ -194,6 +197,7 @@ class OnlineLobby
     @sprites["leaveButton"].x = Graphics.width-@sprites["leaveButton"].bitmap.width
     @sprites["leaveButton"].y = 318
     pbSetFont(@sprites["leaveButton"].bitmap, "Barlow Condensed", 22)
+    @sprites["leaveButton"].bitmap.font.bold = true
     @sprites["leaveButton"].bitmap.font.color=Color.new(244,244,244)
     @sprites["leaveButton"].bitmap.draw_text(0,0,@sprites["leaveButton"].bitmap.width,@sprites["leaveButton"].bitmap.height,_INTL("Leave"),1)
 
@@ -201,7 +205,7 @@ class OnlineLobby
     @buttons = [@sprites["avatarbox"],@sprites["battleButton"],@sprites["tradeButton"],@sprites["settingsButton"],@sprites["leaveButton"]]
 
     for b in @buttons
-      b.fade(200,20,:ease_out_cubic)
+      b.fade(200,FADE_TIME,:ease_out_cubic)
     end
 
   end
@@ -212,14 +216,14 @@ class OnlineLobby
       @buttonSelectionIndex = 1
       for i in 0...@buttons.length
         if i != @buttonSelectionIndex
-          @buttons[i].fade(128,20,:ease_out_cubic) 
+          @buttons[i].fade(128,FADE_TIME,:ease_out_cubic) 
         else
-          @buttons[i].fade(255,20,:ease_out_cubic) 
+          @buttons[i].fade(255,FADE_TIME,:ease_out_cubic) 
         end
       end
     else
       for b in @buttons
-        b.fade(200,20,:ease_out_cubic)
+        b.fade(200,FADE_TIME,:ease_out_cubic)
       end
     end
   end
@@ -235,8 +239,8 @@ class OnlineLobby
       @buttonSelectionIndex = @buttons.length-1
     end
 
-    @buttons[old_id].fade(128,20,:ease_out_cubic) if old_id < @buttons.length
-    @buttons[@buttonSelectionIndex].fade(255,20,:ease_out_cubic) if @buttonSelectionIndex < @buttons.length
+    @buttons[old_id].fade(128,FADE_TIME,:ease_out_cubic) if old_id < @buttons.length
+    @buttons[@buttonSelectionIndex].fade(255,FADE_TIME,:ease_out_cubic) if @buttonSelectionIndex < @buttons.length
 
   end
 
@@ -1033,39 +1037,123 @@ module CableClub
     end
 
     if Input.trigger?(Input::C)
-      
-      msgwindow.visible = true
-      Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start a connection with {1}?",@ui.playerList[@ui.selectionIndex][1]))
-      if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-        Kernel.pbMessageDisplay(msgwindow, _INTL("Vuoi inviare un messaggio a {1}?",@ui.playerList[@ui.selectionIndex][1]))
+      if @navigatingPlayerList
+        msgwindow.visible = true
+        Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start a connection with {1}?",@ui.playerList[@ui.selectionIndex][1]))
         if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-          sendMessage = pbEnterText("Messaggio da inviare?", 0, 50, _INTL("Ciao! Vuoi connetterti?"))
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Vuoi inviare un messaggio a {1}?",@ui.playerList[@ui.selectionIndex][1]))
+          if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+            sendMessage = pbEnterText("Messaggio da inviare?", 0, 50, _INTL("Ciao! Vuoi connetterti?"))
+          else
+            sendMessage = ""
+          end
+          connection.send do |writer|
+            writer.sym(:fwd)
+            writer.str(@ui.playerList[@ui.selectionIndex][2])
+            writer.sym(:askAcceptInteraction)
+            writer.int($Trainer.id)
+            writer.str($Trainer.name)
+            writer.str(@uid)
+            writer.str(sendMessage)
+          end
+          @client_id = 0
+          @partner_uid = @ui.playerList[@ui.selectionIndex][2]
+          @partner_name = @ui.playerList[@ui.selectionIndex][1]
+          @state = :await_interaction_accept
+          @timeoutCounter = 0
+          return
         else
-          sendMessage = ""
+          msgwindow.visible = false
+          pbWait(8)
         end
-        connection.send do |writer|
-          writer.sym(:fwd)
-          writer.str(@ui.playerList[@ui.selectionIndex][2])
-          writer.sym(:askAcceptInteraction)
-          writer.int($Trainer.id)
-          writer.str($Trainer.name)
-          writer.str(@uid)
-          writer.str(sendMessage)
-        end
-        @client_id = 0
-        @partner_uid = @ui.playerList[@ui.selectionIndex][2]
-        @partner_name = @ui.playerList[@ui.selectionIndex][1]
-        @state = :await_interaction_accept
-        @timeoutCounter = 0
-        return
       else
-        
-        msgwindow.visible = false
-        pbWait(8)
+        case @ui.buttonSelectionIndex
+        when 0 #Avatar
+          msgwindow.visible = true
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to change your avatar?"))
+          if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+            # Requesting the list of available avatars
+            @ui.pbAvatarSelectionScreen(msgwindow)
+          else
+            Kernel.pbMessageDisplay(msgwindow, _INTL("Skipped connection."))
+          end
+          msgwindow.visible = false
+        when 1 #Battle matchmaking
+          msgwindow.visible = true
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to enter unranked matchmaking?"),false)
+          if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+            # Send unranked matchmaking info
+            Kernel.pbMessageDisplay(msgwindow, _INTL("What kind of battle would you like to take part in?"))
+            command = Kernel.pbShowCommands(msgwindow, [_INTL("Single Battle"), _INTL("Double Battle"), _INTL("No")], 2)
+            if command != 2
+              @battle_type = case command
+              when 0; :single
+              when 1; :double
+              else; raise "Unknown battle type"
+              end
+
+              @chosenTier = chooseTier(msgwindow,@battle_type,nil)
+
+              if (@chosenTier == nil)
+                return
+              end
+
+              connection.send do |writer|
+                writer.sym(:searchUnranked)
+                writer.sym(@battle_type)
+                writer.sym(@chosenTier)
+              end
+              @cancancelSelection = false
+              @battleTeam = nil
+              @state=:unrankedMatchmaking
+              Kernel.pbMessageDisplay(msgwindow, _INTL("Matchmaking..."),false)
+              return
+            end
+          else
+            Kernel.pbMessageDisplay(msgwindow, _INTL("Skipped connection."))
+          end
+          msgwindow.visible = false
+        when 2 #wonder trade matchmaking
+          msgwindow.visible = true
+          if $Trainer.party.length < 2
+            Kernel.pbMessageDisplay(msgwindow, _INTL("Can't enter wonder trade with less than 2 Pokémon."),false)
+          else
+            Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to start the WONDER trade?"),false)
+            if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+              valid = false
+              while !valid
+                @wtchosen = choose_pokemon
+                if $Trainer.party[@wtchosen].isEgg?
+                  if $Trainer.party.any? { |p| 
+                    p != $Trainer.party[@wtchosen] && p.hp > 0 && !p.isEgg?}
+                    valid = true
+                  end
+                end
+                if $Trainer.party[@wtchosen].hp > 0 && ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG].include?($Trainer.party[@wtchosen].species)
+                  valid = true
+                end
+              end
+              if @wtchosen >= 0
+                connection.send do |writer|
+                  writer.sym(:wonderTrade)
+                  write_pkmn(writer,$Trainer.party[@wtchosen])
+                end
+                @state = :wonderTrading
+                return
+              end
+            else
+            end
+          end
+          msgwindow.visible = false
+        when 3 # settings
+          return
+        when 4 # leave
+          return
+        end
       end
     end
     
-    if Input.press?(Input::A)
+    if Input.press?(Input::A) && false
       Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to change your avatar?"))
       if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
         # Requesting the list of available avatars
@@ -1075,7 +1163,7 @@ module CableClub
       end
     end
 
-    if Input.trigger?(Input::R)
+    if Input.trigger?(Input::R) && false
       msgwindow.visible = true
       if $Trainer.party.length < 2
         Kernel.pbMessageDisplay(msgwindow, _INTL("Can't enter wonder trade with less than 2 Pokémon."),false)
@@ -1110,7 +1198,7 @@ module CableClub
     end
 
     # tasto Q
-    if Input.press?(Input::L)
+    if Input.press?(Input::L) && false
       msgwindow.visible = true
       Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to enter unranked matchmaking?"),false)
       if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
