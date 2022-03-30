@@ -3064,6 +3064,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
 			break if @decision!=0
       echoln "Battler #{i}:#{pbOwnedByPlayer?(i)}:#{PBSpecies.getName(@battlers[i].species)}:#{@choices[i][0]}"
       if i == their_indices.last && @choices[i][0]!=0
+        target_order = CableClub::pokemon_target_order(@client_id)
         for our_index in our_indices
           echoln "SENT CHOICE #{@choices[our_index][0]}:#{@choices[our_index][1]}"
           @connection.send do |writer|
