@@ -114,7 +114,6 @@ class PokeBattle_Battler
 	end
 
 	def hp
-		echoln @hp / @ultraDeltaOmega
 		@pokemon.hp = @hp / @ultraDeltaOmega if @pokemon
 		return @hp / @ultraDeltaOmega
 	end

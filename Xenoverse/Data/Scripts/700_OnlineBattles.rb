@@ -3060,7 +3060,10 @@ class PokeBattle_CableClub < PokeBattle_Battle
       @timer=0
       @ui.updateTime("Time: #{(@timerMax-@timer)/60}")
 			break if @decision!=0
+      echoln "Battler #{i}:#{pbOwnedByPlayer?(i)}:#{PBSpecies.getName(@battlers[i].species)}:#{@choices[i][0]}"
+
 			next if @choices[i][0]!=0
+      echoln "Evaluating action for #{PBSpecies.getName(@battlers[i].species)}"
 			if !pbOwnedByPlayer?(i) || @controlPlayer
 				#if !@battlers[i].isFainted? && pbCanShowCommands?(i)
 				@scene.pbChooseEnemyCommand(i)
@@ -3071,7 +3074,6 @@ class PokeBattle_CableClub < PokeBattle_Battle
 				if pbCanShowCommands?(i)
 					loop do
 						cmd=pbCommandMenu(i) {
-              echoln "YEAAAAAAAAAAHH I'M EXECUTING F*** YES"
               pbUpdateTurnTimer()
             }
 						if cmd==0 # Fight
@@ -3199,6 +3201,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
     if index == their_indices.last
       target_order = CableClub::pokemon_target_order(@client_id)
       for our_index in our_indices
+        echoln "SENT CHOICE #{@choices[our_index][0]}:#{@choices[our_index][1]}"
         @connection.send do |writer|
           pkmn = @battlers[our_index]
           writer.sym(:fwd)
