@@ -41,10 +41,10 @@ class OnlineLobby
     @sprites["list"].x = 14
     @sprites["list"].y = 44
 
-    @sprites["avatarbox"] = Sprite.new(@viewport)
+    @sprites["avatarbox"] = EAMSprite.new(@viewport)
     @sprites["avatarbox"].bitmap = pbBitmap(@path + "avatarbox")
     @sprites["avatarbox"].x = 348
-    @sprites["avatarbox"].y = 64
+    @sprites["avatarbox"].y = 54
 
     id = $Trainer.online_trainer_type
     echoln id
@@ -65,11 +65,11 @@ class OnlineLobby
       @sprites["avatar"].bitmap = @sprites["avatar"].bitmap.mask!(@path+"avatarbox",0,@sprites["avatar"].bitmap.height/6)
     end
     @sprites["avatar"].x = 348
-    @sprites["avatar"].y = 64
+    @sprites["avatar"].y = 54
 
     @selectionIndex = 0
 
-    @buttonSelectionIndex = 0
+    @buttonSelectionIndex = 1
     @buttonSelectionEnabled = false
     #ID - Name - Debug - Status
     @playerList=[]
@@ -168,7 +168,7 @@ class OnlineLobby
     @sprites["battleButton"] = EAMSprite.new(@viewport)
     @sprites["battleButton"].bitmap = pbBitmap(@path + "battle")
     @sprites["battleButton"].x = 334
-    @sprites["battleButton"].y = 206
+    @sprites["battleButton"].y = 196
     pbSetFont(@sprites["battleButton"].bitmap, "Barlow Condensed", 26)
     @sprites["battleButton"].bitmap.font.color=Color.new(24,24,24)
     @sprites["battleButton"].bitmap.draw_text(0,0,@sprites["battleButton"].bitmap.width,@sprites["battleButton"].bitmap.height,_INTL("Battle"),1)
@@ -176,34 +176,63 @@ class OnlineLobby
     @sprites["tradeButton"] = EAMSprite.new(@viewport)
     @sprites["tradeButton"].bitmap = pbBitmap(@path + "trade")
     @sprites["tradeButton"].x = 334
-    @sprites["tradeButton"].y = 248
+    @sprites["tradeButton"].y = 238
     pbSetFont(@sprites["tradeButton"].bitmap, "Barlow Condensed", 26)
     @sprites["tradeButton"].bitmap.font.color=Color.new(24,24,24)
     @sprites["tradeButton"].bitmap.draw_text(0,0,@sprites["tradeButton"].bitmap.width,@sprites["tradeButton"].bitmap.height,_INTL("Trade"),1)
 
+    @sprites["settingsButton"] = EAMSprite.new(@viewport)
+    @sprites["settingsButton"].bitmap = pbBitmap(@path + "settings")
+    @sprites["settingsButton"].x = Graphics.width-@sprites["settingsButton"].bitmap.width
+    @sprites["settingsButton"].y = 284
+    pbSetFont(@sprites["settingsButton"].bitmap, "Barlow Condensed", 22)
+    @sprites["settingsButton"].bitmap.font.color=Color.new(24,24,24)
+    @sprites["settingsButton"].bitmap.draw_text(0,0,@sprites["settingsButton"].bitmap.width,@sprites["settingsButton"].bitmap.height,_INTL("Settings"),1)
+
+    @sprites["leaveButton"] = EAMSprite.new(@viewport)
+    @sprites["leaveButton"].bitmap = pbBitmap(@path + "leave")
+    @sprites["leaveButton"].x = Graphics.width-@sprites["leaveButton"].bitmap.width
+    @sprites["leaveButton"].y = 318
+    pbSetFont(@sprites["leaveButton"].bitmap, "Barlow Condensed", 22)
+    @sprites["leaveButton"].bitmap.font.color=Color.new(244,244,244)
+    @sprites["leaveButton"].bitmap.draw_text(0,0,@sprites["leaveButton"].bitmap.width,@sprites["leaveButton"].bitmap.height,_INTL("Leave"),1)
 
 
-    
-    @buttons = [@sprites["battleButton"],@sprites["tradeButton"]]
+    @buttons = [@sprites["avatarbox"],@sprites["battleButton"],@sprites["tradeButton"],@sprites["settingsButton"],@sprites["leaveButton"]]
+
+    for b in @buttons
+      b.fade(200,20,:ease_out_cubic)
+    end
 
   end
 
   def setButtonSelection(state)
     @buttonSelectionEnabled = state
-    for i in 0...@buttons
-      @buttons[i].fade(128,20,:ease_out_cubic) if i != @buttonSelectionIndex
+    if state
+      @buttonSelectionIndex = 1
+      for i in 0...@buttons.length
+        if i != @buttonSelectionIndex
+          @buttons[i].fade(128,20,:ease_out_cubic) 
+        else
+          @buttons[i].fade(255,20,:ease_out_cubic) 
+        end
+      end
+    else
+      for b in @buttons
+        b.fade(200,20,:ease_out_cubic)
+      end
     end
   end
 
   def buttonSelection(amount)
     #0: Battle 1: Trade 2: Settings 3: Leave
-    old_id = @buttonSelection
+    old_id = @buttonSelectionIndex
     @buttonSelectionIndex+=amount
-    if @buttonSelectionIndex >= 4
+    if @buttonSelectionIndex >= @buttons.length
       @buttonSelectionIndex = 0
     end
     if @buttonSelectionIndex < 0
-      @buttonSelectionIndex = 3
+      @buttonSelectionIndex = @buttons.length-1
     end
 
     @buttons[old_id].fade(128,20,:ease_out_cubic) if old_id < @buttons.length
@@ -513,12 +542,6 @@ class OnlineLobby
     #updating the selection bar position
     @sprites["selection"].y = 27+23*(@selectionIndex-@listOffset) + @sprites["list"].y
 
-    
-    if !@buttonSelectionEnabled
-      for b in @buttons
-        b.opacity = 255
-      end
-    end
 
     for button in @buttons
       button.update
@@ -972,6 +995,7 @@ module CableClub
       if @navigatingPlayerList
         @ui.moveSelector(-1)
       else
+        @ui.buttonSelection(-1)
       end
       @ui.update
     end
@@ -979,6 +1003,7 @@ module CableClub
       if @navigatingPlayerList
         @ui.moveSelector(1)
       else
+        @ui.buttonSelection(1)
       end
       @ui.update
     end
