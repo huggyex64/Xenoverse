@@ -2166,7 +2166,6 @@ module CableClub
   def self.chooseTier(msgwindow, battleType, opp_party)
     Kernel.pbMessageDisplay(msgwindow, _INTL("Choose a tier."))
     tiers = pbGetTiersNames()
-    tiers.sort! {|x| x[0][0]}
     tierNames = []
     for t in tiers
       tierNames.push(t[0])
