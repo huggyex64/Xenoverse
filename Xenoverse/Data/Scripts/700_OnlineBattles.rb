@@ -2170,6 +2170,7 @@ module CableClub
     for t in tiers
       tierNames.push(t[0])
     end
+    tierNames.
     validCommand = false
     while !validCommand
       command = Kernel.pbShowCommands(msgwindow, tierNames, -1)
@@ -3046,6 +3047,11 @@ class PokeBattle_CableClub < PokeBattle_Battle
 				battler=@battlers[i]
 				unless !@doublebattle && pbIsDoubleBattler?(i)
 					PBDebug.log("[Reusing commands for #{battler.pbThis(true)}]")
+          @connection.send do |writer|
+            writer.sym(:ready) #Request type
+            writer.str(@partner_uid)
+            writer.str(@uid)
+          end
 				end
 			end
 		end
