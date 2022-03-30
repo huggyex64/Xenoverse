@@ -68,6 +68,9 @@ class OnlineLobby
     @sprites["avatar"].y = 64
 
     @selectionIndex = 0
+
+    @buttonSelectionIndex = 0
+    @buttonSelectionEnabled = false
     #ID - Name - Debug - Status
     @playerList=[]
     @frame = 0
@@ -162,16 +165,58 @@ class OnlineLobby
       @sprites["party#{i}"].visible = false
     end
 
-    @sprites["battleButton"] = Sprite.new(@viewport)
+    @sprites["battleButton"] = EAMSprite.new(@viewport)
     @sprites["battleButton"].bitmap = pbBitmap(@path + "battle")
     @sprites["battleButton"].x = 334
     @sprites["battleButton"].y = 206
+    pbSetFont(@sprites["battleButton"].bitmap, "Barlow Condensed", 26)
+    @sprites["battleButton"].bitmap.font.color=Color.new(24,24,24)
+    @sprites["battleButton"].bitmap.draw_text(0,0,@sprites["battleButton"].bitmap.width,@sprites["battleButton"].bitmap.height,_INTL("Battle"),1)
 
-    @sprites["tradeButton"] = Sprite.new(@viewport)
+    @sprites["tradeButton"] = EAMSprite.new(@viewport)
     @sprites["tradeButton"].bitmap = pbBitmap(@path + "trade")
     @sprites["tradeButton"].x = 334
     @sprites["tradeButton"].y = 248
+    pbSetFont(@sprites["tradeButton"].bitmap, "Barlow Condensed", 26)
+    @sprites["tradeButton"].bitmap.font.color=Color.new(24,24,24)
+    @sprites["tradeButton"].bitmap.draw_text(0,0,@sprites["tradeButton"].bitmap.width,@sprites["tradeButton"].bitmap.height,_INTL("Trade"),1)
 
+
+
+    
+    @buttons = [@sprites["battleButton"],@sprites["tradeButton"]]
+
+  end
+
+  def setButtonSelection(state)
+    @buttonSelectionEnabled = state
+    for i in 0...@buttons
+      @buttons[i].fade(128,20,:ease_out_cubic) if i != @buttonSelectionIndex
+    end
+  end
+
+  def buttonSelection(amount)
+    #0: Battle 1: Trade 2: Settings 3: Leave
+    old_id = @buttonSelection
+    @buttonSelectionIndex+=amount
+    if @buttonSelectionIndex >= 4
+      @buttonSelectionIndex = 0
+    end
+    if @buttonSelectionIndex < 0
+      @buttonSelectionIndex = 3
+    end
+
+    @buttons[old_id].fade(128,20,:ease_out_cubic) if old_id < @buttons.length
+    @buttons[@buttonSelectionIndex].fade(255,20,:ease_out_cubic) if @buttonSelectionIndex < @buttons.length
+
+  end
+
+  # don't care about showing or not
+  def updateParty(party)
+    for i in 0...party.length
+      poke = party[i]
+      @sprites["party#{i}"].bitmap = evaluateIcon(poke)
+    end
   end
 
   def displayParty(party)
@@ -468,6 +513,17 @@ class OnlineLobby
     #updating the selection bar position
     @sprites["selection"].y = 27+23*(@selectionIndex-@listOffset) + @sprites["list"].y
 
+    
+    if !@buttonSelectionEnabled
+      for b in @buttons
+        b.opacity = 255
+      end
+    end
+
+    for button in @buttons
+      button.update
+    end
+
 
     @sprites["refresh"].opacity = @canRefresh ? 255 : 128
 
@@ -496,19 +552,6 @@ def pbCheckOpenProcess(processname)
 end
 
 def pbCheckForCE(connection)
-=begin
-  t = Thread.new {
-    ret = pbCheckOpenProcess("cheatengine-i386")
-    ret = pbCheckOpenProcess("cheatengine-x86_64") if !ret
-    ret = pbCheckOpenProcess("cheatengine-x86_64-SSE4-AVX2") if !ret
-    if ret == true
-      connection.send do |writer|
-        writer.sym(:mestupid)
-      end
-      exit()
-    end
-  }
-=end
 end
 
 
@@ -943,11 +986,13 @@ module CableClub
     if Input.trigger?(Input::RIGHT) && @navigatingPlayerList
       @navigatingPlayerList = false
       @ui.disableSelector
+      @ui.setButtonSelection(true)
     end
 
     if Input.trigger?(Input::LEFT) && !@navigatingPlayerList
       @navigatingPlayerList = true
       @ui.enableSelector
+      @ui.setButtonSelection(false)
     end
 
 
@@ -1651,7 +1696,7 @@ module CableClub
         else
           @state = :await_choose_activity
         end
-
+        @ui.updateParty(@partner_party)
       when :cancel
         Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to trade after all.", @partner_name))
         @partner_chosen = nil
@@ -1979,6 +2024,7 @@ module CableClub
           exc = $!
         ensure
           $onlinebattle = false
+          $Trainer.party = $Trainer.backupParty
         end
       }
     }
