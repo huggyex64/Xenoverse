@@ -3098,7 +3098,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
 
             moveindex = pkmn.moves.select {|v| v.id == @choices[our_index][2].id}
             echoln ">>>>>>>>>>>>>>>>>>>>>>>MOVE INFO #{moveindex} - #{@choices[our_index][2]}"
-            move = @choices[our_index][2] && pkmn.moves.index(moveindex)#pkmn.moves.index(@choices[our_index][2])
+            move = @choices[our_index][2] && pkmn.moves.index(moveindex[0])#pkmn.moves.index(@choices[our_index][2])
             #echoln "#{pkmn.moves} #{@choices[our_index][2].name} #{@choices[our_index][2].id}"
             #echoln "FORCE MOVE SEND INFO: #{move}  #{@choices[our_index][2]} #{pkmn.moves.index(@choices[our_index][2])}  #{@choices[our_index][2] && pkmn.moves.index(@choices[our_index][2])}"
             writer.nil_or(:int, move)
@@ -3267,7 +3267,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
           writer.int(@choices[our_index][1])
           moveindex = pkmn.moves.select {|v| v.id == @choices[our_index][2].id}
           echoln ">>>>>>>>>>>>>>>>>>>>>>>MOVE INFO #{moveindex} - #{@choices[our_index][2]}"
-          move = @choices[our_index][2] && pkmn.moves.index(moveindex)#pkmn.moves.index(@choices[our_index][2])
+          move = @choices[our_index][2] && pkmn.moves.index(moveindex[0])#pkmn.moves.index(@choices[our_index][2])
           #echoln "#{pkmn.moves} #{@choices[our_index][2].name} #{@choices[our_index][2].id}"
           #echoln "MOVE SEND INFO: #{move}  #{@choices[our_index][2]} #{pkmn.moves.index(@choices[our_index][2])}  #{@choices[our_index][2] && pkmn.moves.index(@choices[our_index][2])}"
           writer.nil_or(:int, move)
