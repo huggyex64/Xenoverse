@@ -2797,15 +2797,17 @@ class PokeBattle_Battle
 					end
 					break if i.isFainted?
 				end
-				if !pbRecallAndReplace(i.index,index) && !i.isFainted?
-					# If a forced switch somehow occurs here in single battles
-					# the attack phase now ends
-					if !@doublebattle
-						@switching=false
-						return
+				if !i.isFainted?
+					if !pbRecallAndReplace(i.index,index)
+						# If a forced switch somehow occurs here in single battles
+						# the attack phase now ends
+						if !@doublebattle
+							@switching=false
+							return
+						end
+					else
+						switched.push(i.index)
 					end
-				else
-					switched.push(i.index)
 				end
 			end
 		end
