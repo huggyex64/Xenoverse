@@ -3319,7 +3319,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
               @choices[their_index][0] = record.int
               @choices[their_index][1] = record.int
               move = record.nil_or(:int)
-              echoln ">>>>>>>>>>>>>>>>>>>MOVE RECEIVE INFO: #{move}  #{partner_pkmn.moves[move]}  #{move && partner_pkmn.moves[move]}"
+              echoln ">>>>>>>>>>>>>>>>>>>MOVE RECEIVE INFO: #{move}  #{move==nil ? nil : partner_pkmn.moves[move]}  #{move==nil ? nil : move && partner_pkmn.moves[move]}"
               @choices[their_index][2] = move && partner_pkmn.moves[move]
               @choices[their_index][3] = record.int
               @megaEvolution[1][0] = record.int # mega fix?
