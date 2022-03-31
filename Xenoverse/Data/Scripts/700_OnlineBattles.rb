@@ -3058,6 +3058,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
 		@scene.pbResetCommandIndices
 		for i in 0...4   # Reset choices if commands can be shown
 			if pbCanShowCommands?(i) || @battlers[i].isFainted?
+        echoln "Resetting choice for #{@battlers[i].species} #{i}"
 				@choices[i][0]=0
 				@choices[i][1]=0
 				@choices[i][2]=nil
@@ -3309,6 +3310,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
               @choices[their_index][0] = record.int
               @choices[their_index][1] = record.int
               move = record.nil_or(:int)
+              echoln "#{move}  #{partner_pkmn.moves[move]}  #{move && partner_pkmn.moves[move]}"
               @choices[their_index][2] = move && partner_pkmn.moves[move]
               @choices[their_index][3] = record.int
               @megaEvolution[1][0] = record.int # mega fix?

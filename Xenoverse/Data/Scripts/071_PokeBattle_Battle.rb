@@ -1113,6 +1113,11 @@ class PokeBattle_Battle
 			# is the same as using a move with a priority of 0
 			pri=0
 			if @choices[i][0]==1 # Is a move
+				printable = ""
+				for t in @choices[i]
+					printable+=t.to_s + ","
+				end
+				echoln "PRIORITY ON #{i} -> #{printable}:#{@choices[i][2]}"
 				pri=@choices[i][2].priority
 				pri+=1 if @battlers[i].hasWorkingAbility(:PRANKSTER) && @choices[i][2].basedamage==0 # Is status move
 				pri+=1 if isConst?(@battlers[i].ability,PBAbilities,:GALEWINGS) && @choices[i][2].type==2
