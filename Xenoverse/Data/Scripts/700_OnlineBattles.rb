@@ -3095,9 +3095,10 @@ class PokeBattle_CableClub < PokeBattle_Battle
             writer.sym(:choice)
             writer.int(@choices[our_index][0])
             writer.int(@choices[our_index][1])
-            move = @choices[our_index][2] && pkmn.moves.index(@choices[our_index][2])
-            echoln "#{pkmn.moves} #{@choices[our_index][2].name} #{@choices[our_index][2].id}"
-            echoln "FORCE MOVE SEND INFO: #{move}  #{@choices[our_index][2]} #{pkmn.moves.index(@choices[our_index][2])}  #{@choices[our_index][2] && pkmn.moves.index(@choices[our_index][2])}"
+            moveindex = pkmn.moves.select {|v| v.id == @choices[our_index][2].id}
+            move = @choices[our_index][2] && pkmn.moves.index(moveindex)#pkmn.moves.index(@choices[our_index][2])
+            #echoln "#{pkmn.moves} #{@choices[our_index][2].name} #{@choices[our_index][2].id}"
+            #echoln "FORCE MOVE SEND INFO: #{move}  #{@choices[our_index][2]} #{pkmn.moves.index(@choices[our_index][2])}  #{@choices[our_index][2] && pkmn.moves.index(@choices[our_index][2])}"
             writer.nil_or(:int, move)
             # -1 invokes the RNG, out of order (somehow?!) which causes desync.
             # But this is a single battle, so the only possible choice is the foe.
@@ -3262,9 +3263,10 @@ class PokeBattle_CableClub < PokeBattle_Battle
           writer.sym(:choice)
           writer.int(@choices[our_index][0])
           writer.int(@choices[our_index][1])
-          move = @choices[our_index][2] && pkmn.moves.index(@choices[our_index][2])
-          echoln "#{pkmn.moves} #{@choices[our_index][2].name} #{@choices[our_index][2].id}"
-          echoln "MOVE SEND INFO: #{move}  #{@choices[our_index][2]} #{pkmn.moves.index(@choices[our_index][2])}  #{@choices[our_index][2] && pkmn.moves.index(@choices[our_index][2])}"
+          moveindex = pkmn.moves.select {|v| v.id == @choices[our_index][2].id}
+          move = @choices[our_index][2] && pkmn.moves.index(moveindex)#pkmn.moves.index(@choices[our_index][2])
+          #echoln "#{pkmn.moves} #{@choices[our_index][2].name} #{@choices[our_index][2].id}"
+          #echoln "MOVE SEND INFO: #{move}  #{@choices[our_index][2]} #{pkmn.moves.index(@choices[our_index][2])}  #{@choices[our_index][2] && pkmn.moves.index(@choices[our_index][2])}"
           writer.nil_or(:int, move)
           # -1 invokes the RNG, out of order (somehow?!) which causes desync.
           # But this is a single battle, so the only possible choice is the foe.
