@@ -3095,7 +3095,9 @@ class PokeBattle_CableClub < PokeBattle_Battle
             writer.sym(:choice)
             writer.int(@choices[our_index][0])
             writer.int(@choices[our_index][1])
+
             moveindex = pkmn.moves.select {|v| v.id == @choices[our_index][2].id}
+            echoln ">>>>>>>>>>>>>>>>>>>>>>>MOVE INFO #{moveindex} - #{@choices[our_index][2]}"
             move = @choices[our_index][2] && pkmn.moves.index(moveindex)#pkmn.moves.index(@choices[our_index][2])
             #echoln "#{pkmn.moves} #{@choices[our_index][2].name} #{@choices[our_index][2].id}"
             #echoln "FORCE MOVE SEND INFO: #{move}  #{@choices[our_index][2]} #{pkmn.moves.index(@choices[our_index][2])}  #{@choices[our_index][2] && pkmn.moves.index(@choices[our_index][2])}"
@@ -3264,6 +3266,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
           writer.int(@choices[our_index][0])
           writer.int(@choices[our_index][1])
           moveindex = pkmn.moves.select {|v| v.id == @choices[our_index][2].id}
+          echoln ">>>>>>>>>>>>>>>>>>>>>>>MOVE INFO #{moveindex} - #{@choices[our_index][2]}"
           move = @choices[our_index][2] && pkmn.moves.index(moveindex)#pkmn.moves.index(@choices[our_index][2])
           #echoln "#{pkmn.moves} #{@choices[our_index][2].name} #{@choices[our_index][2].id}"
           #echoln "MOVE SEND INFO: #{move}  #{@choices[our_index][2]} #{pkmn.moves.index(@choices[our_index][2])}  #{@choices[our_index][2] && pkmn.moves.index(@choices[our_index][2])}"
@@ -3316,7 +3319,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
               @choices[their_index][0] = record.int
               @choices[their_index][1] = record.int
               move = record.nil_or(:int)
-              echoln "MOVE RECEIVE INFO: #{move}  #{partner_pkmn.moves[move]}  #{move && partner_pkmn.moves[move]}"
+              echoln ">>>>>>>>>>>>>>>>>>>MOVE RECEIVE INFO: #{move}  #{partner_pkmn.moves[move]}  #{move && partner_pkmn.moves[move]}"
               @choices[their_index][2] = move && partner_pkmn.moves[move]
               @choices[their_index][3] = record.int
               @megaEvolution[1][0] = record.int # mega fix?
