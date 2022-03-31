@@ -44,30 +44,7 @@ class OnlineLobby
 
     status=[:blocked,:matchmaking,:trading,:waiting,:matched]
   
-=begin
-    @playerList = [
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-      [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
-    ]
-=end
+
   
     pbFadeOutIn(999999){
       @sprites["bg"] = Sprite.new(@viewport)
@@ -877,6 +854,7 @@ def pbGetTiersNames()
   for t in CableClub::BATTLE_TIERS.keys
     ret.push([CableClub::BATTLE_TIERS_NAMES[t],t])
   end
+  ret.sort! {|x,y| x[0]<=>y[0]}
   return ret + [[_INTL("Cancel"),-1]]
 end
 
@@ -1140,6 +1118,8 @@ module CableClub
               @state=:unrankedMatchmaking
               Kernel.pbMessageDisplay(msgwindow, _INTL("Matchmaking..."),false)
               return
+            else
+              msgwindow.visible = false
             end
           else
             Kernel.pbMessageDisplay(msgwindow, _INTL("Skipped connection."))
