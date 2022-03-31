@@ -510,8 +510,22 @@ class Game_Character
     end
     if passable?(@x, @y, 2)
       turn_down
-      @y += 1
-      increase_steps
+      if $game_switches[1203] == false
+        @y += 1
+        increase_steps
+      else
+        ledge = false
+        for j in [2,1,0]
+          facing_tile_id=$game_map.data[@x, @y+1, j]
+          ledge = true if $game_map.terrain_tags[facing_tile_id] == PBTerrain::Ledge || ledge==true
+        end
+        if ledge == true
+          jump(0,2)
+        else
+          @y += 1
+          increase_steps
+        end
+      end
     else
       check_event_trigger_touch(@x, @y+1)
     end
@@ -523,8 +537,22 @@ class Game_Character
     end
     if passable?(@x, @y, 4)
       turn_left
-      @x -= 1
-      increase_steps
+      if $game_switches[1203] == false
+        @x -= 1
+        increase_steps
+      else
+        ledge = false
+        for j in [2,1,0]
+          facing_tile_id=$game_map.data[@x-1, @y, j]
+          ledge = true if $game_map.terrain_tags[facing_tile_id] == PBTerrain::Ledge || ledge==true
+        end
+        if ledge == true
+          jump(-2,0)
+        else
+          @x -= 1
+          increase_steps
+        end
+      end
     else
       check_event_trigger_touch(@x-1, @y)
     end
@@ -536,8 +564,22 @@ class Game_Character
     end
     if passable?(@x, @y, 6)
       turn_right
-      @x += 1
-      increase_steps
+      if $game_switches[1203] == false
+        @x += 1
+        increase_steps
+      else
+        ledge = false
+        for j in [2,1,0]
+          facing_tile_id=$game_map.data[@x+1, @y, j]
+          ledge = true if $game_map.terrain_tags[facing_tile_id] == PBTerrain::Ledge || ledge==true
+        end
+        if ledge == true
+          jump(2,0)
+        else
+          @x += 1
+          increase_steps
+        end
+      end
     else
       check_event_trigger_touch(@x+1, @y)
     end
@@ -549,8 +591,22 @@ class Game_Character
     end
     if passable?(@x, @y, 8)
       turn_up
-      @y -= 1
-      increase_steps
+      if $game_switches[1203] == false
+        @y -= 1
+        increase_steps
+      else
+        ledge = false
+        for j in [2,1,0]
+          facing_tile_id=$game_map.data[@x, @y-1, j]
+          ledge = true if $game_map.terrain_tags[facing_tile_id] == PBTerrain::Ledge || ledge==true
+        end
+        if ledge == true
+          jump(0,-2)
+        else
+          @y -= 1
+          increase_steps
+        end
+      end
       check_event_trigger_touch(@x, @y-1)
     else
       check_event_trigger_touch(@x, @y-1)
