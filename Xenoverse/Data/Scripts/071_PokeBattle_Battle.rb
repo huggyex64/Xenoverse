@@ -2797,7 +2797,7 @@ class PokeBattle_Battle
 					end
 					break if i.isFainted?
 				end
-				if !pbRecallAndReplace(i.index,index)
+				if !pbRecallAndReplace(i.index,index) && !i.isFainted?
 					# If a forced switch somehow occurs here in single battles
 					# the attack phase now ends
 					if !@doublebattle
@@ -2857,10 +2857,10 @@ class PokeBattle_Battle
 				pbCommonAnimation("FocusPunch",i,nil)
 				pbDisplay(_INTL("{1} is tightening its focus!",i.pbThis))
 			elsif pbChoseMoveFunctionCode?(i.index,0x1BC) # Beak Blast
-        pbCommonAnimation("Burn",i,nil)
-        pbDisplay(_INTL("{1} started heating up its beak!",i.pbThis))
+        		pbCommonAnimation("Burn",i,nil)
+        		pbDisplay(_INTL("{1} started heating up its beak!",i.pbThis))
 			elsif pbChoseMoveFunctionCode?(i.index,0x176) # Shell Trap
-        pbDisplay(_INTL("{1} set up a Shell-Trap!",i.pbThis))
+        		pbDisplay(_INTL("{1} set up a Shell-Trap!",i.pbThis))
 			end
 			
 		end
