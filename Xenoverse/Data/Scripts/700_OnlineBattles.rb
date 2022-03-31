@@ -42,7 +42,7 @@ class OnlineLobby
 
     @lastServerMessage = ""
 
-    status=[:blocked,:matchmaking,:waiting,:matched]
+    status=[:blocked,:matchmaking,:trading,:waiting,:matched]
   
 =begin
     @playerList = [
@@ -401,6 +401,7 @@ class OnlineLobby
   end
 
   def moveSelector(amount)
+    return if @playerList.length == 0 #No player online
     @selectionIndex+=amount
     if @selectionIndex-@listOffset>=MAX_VISIBLE_PLAYERS && amount > 0
       @listOffset+=amount
@@ -413,7 +414,6 @@ class OnlineLobby
 
     if (@selectionIndex>=@playerList.length)
       if @selectionIndex>=MAX_VISIBLE_PLAYERS && amount > 0
-        echoln "WENT OVERBOARD!"
         @listOffset=0
         pbDisplayAvaiblePlayerList(@playerList)
       end
@@ -428,9 +428,6 @@ class OnlineLobby
         pbDisplayAvaiblePlayerList(@playerList)
       end
     end
-
-    #@listOffset = 0 if @listOffset < 0
-      
 
     echoln "MOVED SELECTION TO #{@selectionIndex} => OFFSET #{@listOffset}"
   end
@@ -690,7 +687,9 @@ class BattleRequest
     res = pbPostData(@@url,data)
     playerlist = []
     for entry in res.split("\r\n")
-      playerlist.push(entry.split("</s>"))
+      player = entry.split("</s>")
+      player[-1] = player[-1].to_sym
+      playerlist.push(player)
     end
     return playerlist
   end
@@ -1067,33 +1066,37 @@ module CableClub
 
     if Input.trigger?(Input::C)
       if @navigatingPlayerList
-        msgwindow.visible = true
-        Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start a connection with {1}?",@ui.playerList[@ui.selectionIndex][1]))
-        if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Vuoi inviare un messaggio a {1}?",@ui.playerList[@ui.selectionIndex][1]))
+        if @ui.playerList.length>0
+          msgwindow.visible = true
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start a connection with {1}?",@ui.playerList[@ui.selectionIndex][1]))
           if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-            sendMessage = pbEnterText("Messaggio da inviare?", 0, 50, _INTL("Ciao! Vuoi connetterti?"))
+            Kernel.pbMessageDisplay(msgwindow, _INTL("Vuoi inviare un messaggio a {1}?",@ui.playerList[@ui.selectionIndex][1]))
+            if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+              sendMessage = pbEnterText("Messaggio da inviare?", 0, 50, _INTL("Ciao! Vuoi connetterti?"))
+            else
+              sendMessage = ""
+            end
+            connection.send do |writer|
+              writer.sym(:fwd)
+              writer.str(@ui.playerList[@ui.selectionIndex][2])
+              writer.sym(:askAcceptInteraction)
+              writer.int($Trainer.id)
+              writer.str($Trainer.name)
+              writer.str(@uid)
+              writer.str(sendMessage)
+            end
+            @client_id = 0
+            @partner_uid = @ui.playerList[@ui.selectionIndex][2]
+            @partner_name = @ui.playerList[@ui.selectionIndex][1]
+            @state = :await_interaction_accept
+            @timeoutCounter = 0
+            return
           else
-            sendMessage = ""
+            msgwindow.visible = false
+            pbWait(8)
           end
-          connection.send do |writer|
-            writer.sym(:fwd)
-            writer.str(@ui.playerList[@ui.selectionIndex][2])
-            writer.sym(:askAcceptInteraction)
-            writer.int($Trainer.id)
-            writer.str($Trainer.name)
-            writer.str(@uid)
-            writer.str(sendMessage)
-          end
-          @client_id = 0
-          @partner_uid = @ui.playerList[@ui.selectionIndex][2]
-          @partner_name = @ui.playerList[@ui.selectionIndex][1]
-          @state = :await_interaction_accept
-          @timeoutCounter = 0
-          return
         else
-          msgwindow.visible = false
-          pbWait(8)
+          pbPlayBuzzerSE()
         end
       else
         case @ui.buttonSelectionIndex
