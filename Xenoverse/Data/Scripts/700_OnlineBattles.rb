@@ -3096,7 +3096,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
             writer.int(@choices[our_index][0])
             writer.int(@choices[our_index][1])
             move = @choices[our_index][2] && pkmn.moves.index(@choices[our_index][2])
-            echoln "MOVE RECEIVE INFO: #{move}  #{partner_pkmn.moves[move]}  #{move && partner_pkmn.moves[move]}"
+            echoln "MOVE SEND INFO: #{move}  #{partner_pkmn.moves[move]}  #{move && partner_pkmn.moves[move]}"
             writer.nil_or(:int, move)
             # -1 invokes the RNG, out of order (somehow?!) which causes desync.
             # But this is a single battle, so the only possible choice is the foe.
@@ -3262,7 +3262,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
           writer.int(@choices[our_index][0])
           writer.int(@choices[our_index][1])
           move = @choices[our_index][2] && pkmn.moves.index(@choices[our_index][2])
-          echoln "MOVE RECEIVE INFO: #{move}  #{partner_pkmn.moves[move]}  #{move && partner_pkmn.moves[move]}"
+          echoln "MOVE SEND INFO: #{move}  #{partner_pkmn.moves[move]}  #{move && partner_pkmn.moves[move]}"
           writer.nil_or(:int, move)
           # -1 invokes the RNG, out of order (somehow?!) which causes desync.
           # But this is a single battle, so the only possible choice is the foe.
