@@ -15,6 +15,7 @@ class OnlineLobby
   YES = _INTL("Yes")
 
   FADE_TIME = 12
+  HEADER_TEXT_SPEED = 20 #Higher, slower
 
   def initialize()
     @canRefresh = false
@@ -24,51 +25,11 @@ class OnlineLobby
     @viewport2.z = 999999
     @sprites={}
 
+    @shownUI = false
+
     @listOffset = 0
 
     @path = "Graphics/Pictures/Online/"
-
-    @sprites["bg"] = Sprite.new(@viewport)
-    @sprites["bg"].bitmap = pbBitmap(@path + "BG")
-
-    @sprites["animbg"]=AnimatedPlane.new(@viewport)
-		@sprites["animbg"].bitmap=pbBitmap(@path + "repeatbg")
-
-    @sprites["refresh"] = Sprite.new(@viewport)
-    @sprites["refresh"].bitmap = pbBitmap(@path + "refresh")
-    @sprites["refresh"].x = 242
-    @sprites["refresh"].y = 304
-
-    @sprites["list"] = Sprite.new(@viewport)
-    @sprites["list"].bitmap = pbBitmap(@path + "playerlist")
-    @sprites["list"].x = 14
-    @sprites["list"].y = 44
-
-    @sprites["avatarbox"] = EAMSprite.new(@viewport)
-    @sprites["avatarbox"].bitmap = pbBitmap(@path + "avatarbox")
-    @sprites["avatarbox"].x = 348
-    @sprites["avatarbox"].y = 54
-
-    id = $Trainer.online_trainer_type
-    echoln id
-    bmp = nil
-    if pbResolveBitmap(sprintf("Graphics/Transitions/smTrainer%d",id)) != nil
-      bmp = pbBitmap(sprintf("Graphics/Transitions/smTrainer%d",id))
-    elsif pbResolveBitmap(sprintf("Graphics/Transitions/smSpecial%d",id)) != nil
-      bmp = pbBitmap(sprintf("Graphics/Transitions/smSpecial%d",id))
-    elsif checkIfNewTransition(id,true)#pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",variant,id)) != nil
-      variant = getNewTransitionVariant(id)
-      bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",variant,id))
-    end
-    @sprites["avatar"] = Sprite.new(@viewport)
-    if bmp != nil
-      resbmp = Bitmap.new(bmp.width/2,bmp.height/2)
-      resbmp.stretch_blt(Rect.new(0,0,bmp.width/2,bmp.height/2),bmp,Rect.new(0,0,bmp.width,bmp.height))
-      @sprites["avatar"].bitmap = resbmp
-      @sprites["avatar"].bitmap = @sprites["avatar"].bitmap.mask!(@path+"avatarbox",0,@sprites["avatar"].bitmap.height/6)
-    end
-    @sprites["avatar"].x = 348
-    @sprites["avatar"].y = 54
 
     @selectionIndex = 0
 
@@ -78,6 +39,8 @@ class OnlineLobby
     @playerList=[]
     @frame = 0
     @toggleParty = false
+
+    @lastServerMessage = ""
 
     status=[:blocked,:matchmaking,:waiting,:matched]
   
@@ -105,7 +68,67 @@ class OnlineLobby
       [rand(99999),"giuseppe","UID QUI",status[rand(status.length)],"RANK"],
     ]
 =end
-    self.createUI
+  
+    pbFadeOutIn(999999){
+      @sprites["bg"] = Sprite.new(@viewport)
+      @sprites["bg"].bitmap = pbBitmap(@path + "BG")
+
+      @sprites["animbg"]=AnimatedPlane.new(@viewport)
+      @sprites["animbg"].bitmap=pbBitmap(@path + "repeatbg")
+
+      @sprites["refresh"] = Sprite.new(@viewport)
+      @sprites["refresh"].bitmap = pbBitmap(@path + "refresh")
+      @sprites["refresh"].x = 242
+      @sprites["refresh"].y = 304
+      @sprites["refresh"].visible = false
+
+      @sprites["list"] = Sprite.new(@viewport)
+      @sprites["list"].bitmap = pbBitmap(@path + "playerlist")
+      @sprites["list"].x = 14
+      @sprites["list"].y = 44
+      @sprites["list"].visible = false
+
+      @sprites["avatarbox"] = EAMSprite.new(@viewport)
+      @sprites["avatarbox"].bitmap = pbBitmap(@path + "avatarbox")
+      @sprites["avatarbox"].x = 348
+      @sprites["avatarbox"].y = 54
+      @sprites["avatarbox"].visible = false
+
+      id = $Trainer.online_trainer_type
+      echoln id
+      bmp = nil
+      if pbResolveBitmap(sprintf("Graphics/Transitions/smTrainer%d",id)) != nil
+        bmp = pbBitmap(sprintf("Graphics/Transitions/smTrainer%d",id))
+      elsif pbResolveBitmap(sprintf("Graphics/Transitions/smSpecial%d",id)) != nil
+        bmp = pbBitmap(sprintf("Graphics/Transitions/smSpecial%d",id))
+      elsif checkIfNewTransition(id,true)#pbResolveBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",variant,id)) != nil
+        variant = getNewTransitionVariant(id)
+        bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",variant,id))
+      end
+      @sprites["avatar"] = Sprite.new(@viewport)
+      if bmp != nil
+        resbmp = Bitmap.new(bmp.width/2,bmp.height/2)
+        resbmp.stretch_blt(Rect.new(0,0,bmp.width/2,bmp.height/2),bmp,Rect.new(0,0,bmp.width,bmp.height))
+        @sprites["avatar"].bitmap = resbmp
+        @sprites["avatar"].bitmap = @sprites["avatar"].bitmap.mask!(@path+"avatarbox",0,@sprites["avatar"].bitmap.height/6)
+      end
+      @sprites["avatar"].x = 348
+      @sprites["avatar"].y = 54
+      @sprites["avatar"].visible = false
+
+      #self.createUI
+    }
+  end
+
+  def displayUI(state)
+    @shownUI = state
+    @sprites["refresh"].visible = state
+    @sprites["list"].visible = state
+    @sprites["avatarbox"].visible = state
+    @sprites["avatar"].visible = state
+    if (state && @sprites["selection"]==nil)
+      self.createUI
+    end
   end
 
   def createBattleTimer 
@@ -169,7 +192,7 @@ class OnlineLobby
     end
 
     @sprites["battleButton"] = EAMSprite.new(@viewport)
-    @sprites["battleButton"].bitmap = pbBitmap(@path + "battle")
+    @sprites["battleButton"].bitmap = pbBitmap(@path + "battle").clone
     @sprites["battleButton"].x = 334
     @sprites["battleButton"].y = 196
     pbSetFont(@sprites["battleButton"].bitmap, "Barlow Condensed", 26)
@@ -177,7 +200,7 @@ class OnlineLobby
     @sprites["battleButton"].bitmap.draw_text(0,0,@sprites["battleButton"].bitmap.width,@sprites["battleButton"].bitmap.height,_INTL("Battle"),1)
 
     @sprites["tradeButton"] = EAMSprite.new(@viewport)
-    @sprites["tradeButton"].bitmap = pbBitmap(@path + "trade")
+    @sprites["tradeButton"].bitmap = pbBitmap(@path + "trade").clone
     @sprites["tradeButton"].x = 334
     @sprites["tradeButton"].y = 238
     pbSetFont(@sprites["tradeButton"].bitmap, "Barlow Condensed", 26)
@@ -185,7 +208,7 @@ class OnlineLobby
     @sprites["tradeButton"].bitmap.draw_text(0,0,@sprites["tradeButton"].bitmap.width,@sprites["tradeButton"].bitmap.height,_INTL("Trade"),1)
 
     @sprites["settingsButton"] = EAMSprite.new(@viewport)
-    @sprites["settingsButton"].bitmap = pbBitmap(@path + "settings")
+    @sprites["settingsButton"].bitmap = pbBitmap(@path + "settings").clone
     @sprites["settingsButton"].x = Graphics.width-@sprites["settingsButton"].bitmap.width
     @sprites["settingsButton"].y = 284
     pbSetFont(@sprites["settingsButton"].bitmap, "Barlow Condensed", 22)
@@ -193,7 +216,7 @@ class OnlineLobby
     @sprites["settingsButton"].bitmap.draw_text(0,0,@sprites["settingsButton"].bitmap.width,@sprites["settingsButton"].bitmap.height,_INTL("Settings"),1)
 
     @sprites["leaveButton"] = EAMSprite.new(@viewport)
-    @sprites["leaveButton"].bitmap = pbBitmap(@path + "leave")
+    @sprites["leaveButton"].bitmap = pbBitmap(@path + "leave").clone
     @sprites["leaveButton"].x = Graphics.width-@sprites["leaveButton"].bitmap.width
     @sprites["leaveButton"].y = 318
     pbSetFont(@sprites["leaveButton"].bitmap, "Barlow Condensed", 22)
@@ -208,6 +231,49 @@ class OnlineLobby
       b.fade(200,FADE_TIME,:ease_out_cubic)
     end
 
+    @sprites["header"] = EAMSprite.new(@viewport)
+    @sprites["header"].bitmap = pbBitmap(@path+"Header")
+    @sprites["header"].z = 20
+    @sprites["header"].y = -70
+    @sprites["headerText"] = EAMSprite.new(@viewport)
+    @sprites["headerText"].bitmap = Bitmap.new(Graphics.width,30)
+    @sprites["headerText"].z = 21
+    @sprites["headerText"].y = -70+14
+    pbSetFont(@sprites["headerText"].bitmap, "Power Clear", 28)
+
+    @sprites["headerLines"] = EAMSprite.new(@viewport)
+    @sprites["headerLines"].bitmap = pbBitmap(@path + "HeaderLines")
+    @sprites["headerLines"].opacity = 128
+    @sprites["headerLines"].y = -70+12
+    @sprites["headerLines"].z = 22
+
+  end
+
+  def updateServerMessage(text)
+    echoln "Server message: #{text}"    
+    if @lastServerMessage == "" && text != "" #appear
+      echoln "The server message should slide down"
+      @sprites["header"].move(0,0,40,:ease_out_cubic)
+      #@sprites["headerText"].moveY(14,40,:ease_out_cubic)
+      #@sprites["headerLines"].move(0,12,40,:ease_out_cubic)
+    elsif @lastServerMessage != "" && text == "" #disappear
+      echoln "The server message should slide up"
+      @sprites["header"].move(0,-70,40,:ease_in_cubic)
+      #@sprites["headerText"].moveY(-70+14,40,:ease_in_cubic)
+      #@sprites["headerLines"].move(0,-70+12,40,:ease_in_cubic)
+    end
+    if @lastServerMessage != text
+      echoln "Updating message!"
+
+      @sprites["headerText"].bitmap = Bitmap.new(11*text.length,30)
+      pbSetFont(@sprites["headerText"].bitmap, "Power Clear", $MKXP ? 23 : 25) #should be 31 to be pixel perfect but too bad
+      @sprites["headerText"].bitmap.font.color=Color.new(235, 134, 33)
+      @sprites["headerText"].bitmap.draw_text(0,0,@sprites["headerText"].bitmap.width,@sprites["headerText"].bitmap.height,text,0)
+      #place it out of sight
+      @sprites["headerText"].x = Graphics.width
+      @sprites["headerText"].moveX(-@sprites["headerText"].bitmap.width,HEADER_TEXT_SPEED*text.length)
+      @lastServerMessage = text
+    end
   end
 
   def setButtonSelection(state)
@@ -543,6 +609,8 @@ class OnlineLobby
   # This is supposed to be called with Input.update and Graphics.update inside a loop,
   # so no need to add those here
   def update
+    return if !@shownUI
+
     #updating the selection bar position
     @sprites["selection"].y = 27+23*(@selectionIndex-@listOffset) + @sprites["list"].y
 
@@ -551,6 +619,15 @@ class OnlineLobby
       button.update
     end
 
+    @sprites["header"].update
+    @sprites["headerText"].update
+    @sprites["headerText"].y = @sprites["header"].y + 8
+    @sprites["headerLines"].y = @sprites["header"].y + 12
+
+    if @sprites["headerText"].x == -@sprites["headerText"].bitmap.width
+      @sprites["headerText"].x = Graphics.width
+      @sprites["headerText"].moveX(-@sprites["headerText"].bitmap.width,HEADER_TEXT_SPEED)
+    end
 
     @sprites["refresh"].opacity = @canRefresh ? 255 : 128
 
@@ -662,7 +739,8 @@ def pbOnlineLobby
   msgwindow = Kernel.pbCreateMessageWindow()
   msgwindow.z = 10000
   begin
-    Kernel.pbMessageDisplay(msgwindow, _INTL("Connecting to online server..."))
+    Kernel.pbMessageDisplay(msgwindow, _INTL("Starting connection..."),false)
+    pbWait(5)
     partner_trainer_id = ""
     #loop do
     #  partner_trainer_id = Kernel.pbFreeText(msgwindow, partner_trainer_id, false, 5)
@@ -781,59 +859,6 @@ module CableClub
     ret.push(:DANTETOURNAMENT)
     return ret
   end
-end
-
-def pbChangeOnlineTrainerType
-  if $Trainer.online_trainer_type==$Trainer.trainertype
-    Kernel.pbMessage(_INTL("Hmmm...!\\1"))
-    Kernel.pbMessage(_INTL("What is your favorite kind of Trainer?\\nCan you tell me?\\1"))
-  else
-    trainername=PBTrainers.getName($Trainer.online_trainer_type)
-    if ['a','e','i','o','u'].include?(trainername[0,1].downcase)
-      msg=_INTL("Hello! You've been mistaken for an {1}, haven't you?\\1",trainername)
-    else
-      msg=_INTL("Hello! You've been mistaken for a {1}, haven't you?\\1",trainername)
-    end
-    Kernel.pbMessage(msg)
-    Kernel.pbMessage(_INTL("But I think you can also pass for a different kind of Trainer.\\1"))
-    Kernel.pbMessage(_INTL("So, how about telling me what kind of Trainer that you like?\\1"))
-  end
-  commands=[]
-  trainer_types=[]
-  CableClub.getOnlineTrainerTypeList().each do |type|
-    t=type
-    t=type[$Trainer.gender] if type.is_a?(Array)
-    echoln hasConst?(PBTrainers,t)
-    echoln getConst(PBTrainers,t)
-    commands.push(PBTrainers.getName(getConst(PBTrainers,t)))
-    trainer_types.push(getConst(PBTrainers,t))
-  end
-  commands.push(_INTL("Cancel"))
-  loop do
-    cmd=Kernel.pbMessage(_INTL("Which kind of Trainer would you like to be?"),commands,-1)
-    if cmd>=0 && cmd<commands.length-1
-      trainername=commands[cmd]
-      if ['a','e','i','o','u'].include?(trainername[0,1].downcase)
-        msg=_INTL("An {1} is the kind of Trainer you want to be?",trainername)
-      else
-        msg=_INTL("A {1} is the kind of Trainer you want to be?",trainername)
-      end
-      if Kernel.pbConfirmMessage(msg)
-        if ['a','e','i','o','u'].include?(trainername[0,1].downcase)
-          msg=_INTL("I see! So an {1} is the kind of Trainer you like.\\1",trainername)
-        else
-          msg=_INTL("I see! So a {1} is the kind of Trainer you like.\\1",trainername)
-        end
-        Kernel.pbMessage(msg)
-        Kernel.pbMessage(_INTL("If that's the case, others may come to see you in the same way.\\1"))
-        $Trainer.online_trainer_type=trainer_types[cmd]
-        break
-      end
-    else
-      break
-    end
-  end
-  Kernel.pbMessage(_INTL("OK, then I'll just talk to you later!"))
 end
 
 class PokeBattle_Trainer
@@ -962,10 +987,14 @@ module CableClub
         writer.int($Trainer.id)
         #writer.int($Trainer.online_trainer_type)
         write_party(writer)
-      end
+      end   
+      pbFadeOutIn(999999){
+        @ui.displayUI(true)
+        @ui.pbDisplayAvaiblePlayerList(getPlayerList)
+      }
       @state = :enlisted
     else
-      pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nConnecting",$Trainer.publicID($Trainer.id)), @frame)
+      pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nConnecting to online server",$Trainer.publicID($Trainer.id)), @frame)
     end
   end
 
@@ -1247,7 +1276,7 @@ module CableClub
       #@ui.pbDisplayAvaiblePlayerList(BattleRequest.getPlayerList())
     #end
 
-    connection.updateExp([:found,:askAcceptInteraction,:message]) do |record|
+    connection.updateExp([:found,:askAcceptInteraction,:message,:serverMessage]) do |record|
       case (type = record.sym)
       when :found
         @client_id = record.int
@@ -1300,6 +1329,8 @@ module CableClub
           end
           msgwindow.visible = false
         end
+      when :serverMessage      
+        @ui.updateServerMessage(record.str)
       when :message
         Kernel.pbMessage(record.str)
       else
@@ -1953,7 +1984,6 @@ module CableClub
 
     return if host == nil || out == "BANNED"
     @ui = ui
-    @ui.pbDisplayAvaiblePlayerList(getPlayerList)
     @handlers = {}
     # Waiting to be connected to the server.
     # Note: does nothing without a non-blocking connection.
@@ -2017,6 +2047,13 @@ module CableClub
             @ui.updateStatus(_INTL("Choose a partner or start matchmaking."))
             #Kernel.pbMessageDisplay(msgwindow,_INTL("Choose a partner."),false)
             @partner_uid = nil
+
+            #Ask for new server message if there's any
+            if connection.can_send?
+              connection.send do |writer|
+                writer.sym(:getServerMessage)
+              end
+            end
           else
             msgwindow.visible = true
           end

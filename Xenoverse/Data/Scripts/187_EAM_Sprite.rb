@@ -157,7 +157,33 @@ module EAM_Sprite
 		@transition["active"] = true
 		@transition["type"] = "linear"
 	end
+
+	def moveX(x,frame,ease=:linear_tween,callback=nil)
+		@transition["stX"] = self.x
+		@transition["edX"] = x
+		@transition["frame"] = 0
+		@transition["totFrame"] = frame
+		@transition["ease"] = Ease.method(ease)
+		#@transition["XValue"] = self.x
+		#@transition["YValue"] = self.y
+		@transition["callback"] = callback
+		@transition["active"] = true
+		@transition["type"] = "linear"
+	end
 	
+	def moveY(y,frame,ease=:linear_tween,callback=nil)
+		@transition["stY"] = self.y
+		@transition["edY"] = y
+		@transition["frame"] = 0
+		@transition["totFrame"] = frame
+		@transition["ease"] = Ease.method(ease)
+		#@transition["XValue"] = self.x
+		#@transition["YValue"] = self.y
+		@transition["callback"] = callback
+		@transition["active"] = true
+		@transition["type"] = "linear"
+	end
+
 	# Animate position (curve)
 	def curveMove(angle,frame,ease=:linear_tween,callback=nil)
 		calculateAngle
@@ -277,15 +303,15 @@ module EAM_Sprite
 		if @transition["active"]
 			@transition["frame"] += 1
 			if @transition["type"] == "linear"
-				xx = @transition["ease"].call(@transition["frame"], @transition["stX"], @transition["edX"]-@transition["stX"], @transition["totFrame"])
-				yy = @transition["ease"].call(@transition["frame"], @transition["stY"], @transition["edY"]-@transition["stY"], @transition["totFrame"])
+				xx = @transition["ease"].call(@transition["frame"], @transition["stX"], @transition["edX"]-@transition["stX"], @transition["totFrame"]) if @transition["edX"] != nil
+				yy = @transition["ease"].call(@transition["frame"], @transition["stY"], @transition["edY"]-@transition["stY"], @transition["totFrame"]) if @transition["edY"] != nil
 				
-				self.x = xx.round
-				self.y = yy.round
+				self.x = xx.round if xx != nil
+				self.y = yy.round if yy != nil
 				if @transition["frame"] >= @transition["totFrame"]
 					@transition["active"] = false
-					self.x = @transition["edX"]
-					self.y = @transition["edY"]
+					self.x = @transition["edX"] if @transition["edX"]!=nil
+					self.y = @transition["edY"] if @transition["edY"]!=nil
 					@transition["callback"].call(self,:move) if @transition["callback"]
 				end
 			elsif @transition["type"] == "curve"
