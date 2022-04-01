@@ -829,10 +829,12 @@ class PokeBattle_Battler
 		end
 		if transformed
 			pbUpdate(true)
-			if self.form == 0
-				@battle.pbDisplay(_INTL("L'agglomerato si è dileguato..."))
-			else
-				@battle.pbDisplay(_INTL("{1} chiama in soccorso i suoi simili!",pbThis))
+			if isConst?(self.species,PBSpecies,:CHIMAOOZE)
+				if self.form == 0
+					@battle.pbDisplay(_INTL("L'agglomerato si è dileguato..."))
+				else
+					@battle.pbDisplay(_INTL("{1} chiama in soccorso i suoi simili!",pbThis))
+				end
 			end
 			@battle.scene.pbChangePokemon(self,@pokemon)
 			

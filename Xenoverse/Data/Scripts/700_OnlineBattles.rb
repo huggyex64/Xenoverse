@@ -15,7 +15,8 @@ class OnlineLobby
   YES = _INTL("Yes")
 
   FADE_TIME = 12
-  HEADER_TEXT_SPEED = 20 #Higher, slower
+  HEADER_SPEED = 400
+  HEADER_TEXT_SPEED = 10 #Higher, slower
 
   def initialize()
     @canRefresh = false
@@ -248,7 +249,7 @@ class OnlineLobby
       @sprites["headerText"].bitmap.draw_text(0,0,@sprites["headerText"].bitmap.width,@sprites["headerText"].bitmap.height,text,0)
       #place it out of sight
       @sprites["headerText"].x = Graphics.width
-      @sprites["headerText"].moveX(-@sprites["headerText"].bitmap.width,HEADER_TEXT_SPEED*text.length)
+      @sprites["headerText"].moveX(-@sprites["headerText"].bitmap.width,HEADER_SPEED + HEADER_TEXT_SPEED*text.length)
       @lastServerMessage = text
     end
   end
@@ -588,7 +589,6 @@ class OnlineLobby
     #updating the selection bar position
     @sprites["selection"].y = 27+23*(@selectionIndex-@listOffset) + @sprites["list"].y
 
-
     for button in @buttons
       button.update
     end
@@ -600,7 +600,7 @@ class OnlineLobby
 
     if @sprites["headerText"].x == -@sprites["headerText"].bitmap.width
       @sprites["headerText"].x = Graphics.width
-      @sprites["headerText"].moveX(-@sprites["headerText"].bitmap.width,HEADER_TEXT_SPEED)
+      @sprites["headerText"].moveX(-@sprites["headerText"].bitmap.width,HEADER_SPEED + HEADER_TEXT_SPEED*@lastServerMessage.length)
     end
 
     @sprites["refresh"].opacity = @canRefresh ? 255 : 128
