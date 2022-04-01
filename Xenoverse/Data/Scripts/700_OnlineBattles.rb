@@ -98,6 +98,123 @@ class OnlineLobby
     }
   end
 
+  def openSettings(msgwindow)
+    sett = ["bgButton","bgmButton"]
+
+    settDetails = {
+      "bgButton"=>{
+        :t => _INTL("Battle Background"),
+        :info => _INTL("Pick a battle background for your battles.")
+      },
+      "bgmButton"=>{
+        :t => _INTL("Battle Music"),
+        :info => _INTL("Pick a battle BGM for your battles.")
+      }
+    }
+
+    selIndex = 0
+    oldId = 0
+
+    settsprites={}
+    #create sprites for settings interface
+    for st in sett
+      settsprites[st] = EAMSprite.new(@viewport)
+      settsprites[st].bitmap = pbBitmap(@path + "SettingsButton").clone
+      settsprites[st].ox = settsprites[st].bitmap.width/2
+      settsprites[st].x = Graphics.width/2
+      settsprites[st].y = 90 + 90*sett.index(st)
+      settsprites[st].opacity = 0
+      pbSetFont(settsprites[st].bitmap, "Barlow Condensed", 24)
+      settsprites[st].bitmap.font.color=Color.new(24,24,24)
+      settsprites[st].bitmap.draw_text(0,0,settsprites[st].bitmap.width,settsprites[st].bitmap.height,settDetails[st][:t],1)
+      settsprites[st].fade(sett.index(st) == selIndex ? 255 : 128,20,:ease_out_cubic)
+    end
+
+    sprites = ["refresh","list","avatarbox","avatar","selection","status","battleButton","tradeButton","settingsButton","leaveButton"]
+    opacities = []
+    for s in sprites
+      opacities << @sprites[s].opacity
+    end
+
+    Kernel.pbMessageDisplay(msgwindow,settDetails[sett[selIndex]][:info],false)
+    20.times do
+      for s in sprites
+        @sprites[s].opacity-=opacities[sprites.index(s)]/20 + 1
+      end
+      Graphics.update
+      Input.update
+      self.update(false)
+    end
+
+    20.times do 
+      for st in sett
+        settsprites[st].update
+      end
+      Graphics.update
+      Input.update
+      self.update(false)
+    end
+
+    loop do 
+      Graphics.update
+      Input.update
+      self.update(false)
+      for st in sett
+        settsprites[st].update
+      end
+
+      if oldId != selIndex
+        for st in sett
+          settsprites[st].fade(128,15) if sett.index(st) == oldId
+          settsprites[st].fade(255,15) if sett.index(st) == selIndex
+        end
+        Kernel.pbMessageDisplay(msgwindow,settDetails[sett[selIndex]][:info],false)
+        oldId = selIndex
+      end
+
+      if Input.trigger?(Input::DOWN)
+        selIndex+=1
+        if selIndex >= sett.length
+          selIndex = 0
+        end
+      end
+
+      if Input.trigger?(Input::UP)
+        selIndex-=1
+        if selIndex < 0
+          selIndex = sett.length-1
+        end
+      end
+
+
+      if Input.trigger?(Input::B)
+        break
+      end
+    end
+    
+    for st in sett
+      settsprites[st].fade(0,20,:ease_in_cubic)
+    end
+
+    20.times do 
+      for st in sett
+        settsprites[st].update
+      end
+      Graphics.update
+      Input.update
+      self.update(false)
+    end
+
+    20.times do
+      for s in sprites
+        @sprites[s].opacity+=opacities[sprites.index(s)]/20 + 1
+      end
+      Graphics.update
+      Input.update
+      self.update(false)
+    end
+  end
+
   def displayUI(state)
     @shownUI = state
     @sprites["refresh"].visible = state
@@ -358,7 +475,7 @@ class OnlineLobby
         break
       end
       y = 4+23*(@playerList.index(entry)+1-@listOffset)
-      icony = 28+23*(@playerList.index(entry)-@listOffset)
+      icony = 31+23*(@playerList.index(entry)-@listOffset)
       textpos.push(["#{"%05d" % entry[0]}",70,y,1,Color.new(22,22,22)])
       textpos.push(["#{entry[1]}",102,y,0,Color.new(22,22,22)])
 
@@ -583,7 +700,7 @@ class OnlineLobby
 
   # This is supposed to be called with Input.update and Graphics.update inside a loop,
   # so no need to add those here
-  def update
+  def update(refresh = true)
     return if !@shownUI
 
     #updating the selection bar position
@@ -603,7 +720,7 @@ class OnlineLobby
       @sprites["headerText"].moveX(-@sprites["headerText"].bitmap.width,HEADER_SPEED + HEADER_TEXT_SPEED*@lastServerMessage.length)
     end
 
-    @sprites["refresh"].opacity = @canRefresh ? 255 : 128
+    @sprites["refresh"].opacity = @canRefresh ? 255 : 128 if refresh
 
     @sprites["animbg"].oy += 1
     @sprites["animbg"].ox += 1
@@ -835,6 +952,45 @@ module CableClub
     ret.push(:DANTETOURNAMENT)
     return ret
   end
+
+  def self.getOnlineBattleBackList()
+    ret=[]
+    ret << "Field" << "FieldEvening" << "FieldNight"
+    ret << "Bosco" << "BoscoEv" << "BoscoNight"
+    ret << "Beach" << "BeachEv" << "BeachNight"
+    ret << "Campus"<<"CampusEvening"<<"CampusNight"
+    ret << "Canyon"<<"CanyonEvening"<<"CanyonNight"
+    ret << "Cavern" 
+    ret << "IsolaVoodoo"
+    ret << "Circo"
+    ret << "City" << "CityEvening" << "CityNight"
+    ret << "Desert" << "DesertEvening" << "DesertNight"
+    ret << "Druddigon" << "DruddigonEvening" << "DruddigonNight"
+    ret << "Elite" << "Elite2" << "Elite3" << "Elite4"
+    ret << "MondoXenoverse"
+    ret << "Neve" << "NeveEvening" << "NeveNight"
+    ret << "rocca"
+    ret << "Miniera"
+    ret << "Gola"
+    ret << "Saloon"
+    ret << "Saloon2"
+    ret << "Saloon3" << "Saloon3Evening" << "Saloon3Night"
+    ret << "Train" << "TrainEvening" << "TrainNight"
+    ret << "TopTrain" << "TopTrainEvening" << "TopTrainNight"
+
+    ret << "Raikou" << "Entei" << "Suicune"
+    ret << "Vulcano" << "VulcanoEvening" << "VulcanoNight" << "VulcanoDecibell"
+    ret << "Westopoli" << "WestopoliEvening" << "WestopoliNight"
+    ret << "Fogna"
+    ret << "Evan" << "EvanEvening" << "EvanNight"
+    ret << "Michela" << "MichelaEvening" << "MichelaNight"
+    ret << "palestraoasi"
+    ret << "goldenstudio"
+    ret << "Gold" << "GoldEvening" << "GoldNight"
+    ret << "Surge"
+    ret << "Residence"
+    return ret
+  end
 end
 
 class PokeBattle_Trainer
@@ -843,11 +999,20 @@ class PokeBattle_Trainer
     return @online_trainer_type || getConst(PBTrainers,CableClub.getOnlineTrainerTypeList()[0][$Trainer.gender])#self.trainertype
   end
 
+  attr_accessor :online_battle_bg
+  def online_battle_bg
+    return @online_battle_bg || "Online"
+  end
+
+  attr_accessor :online_battle_bgm
+  def online_battle_bgm
+    return @online_battle_bgm || "OnlineVS"
+  end
+
   attr_accessor :backupParty
 end
 
 # TODO: Automatically timeout.
-
 
 def pbGetTiersNames()
   ret = []
@@ -857,8 +1022,6 @@ def pbGetTiersNames()
   ret.sort! {|x,y| x[0]<=>y[0]}
   return ret + [[_INTL("Cancel"),-1]]
 end
-
-
 
 # Returns false if an error occurred.
 def pbCableClub
@@ -1159,6 +1322,9 @@ module CableClub
           end
           msgwindow.visible = false
         when 3 # settings
+          msgwindow.visible = true
+          @ui.openSettings(msgwindow)
+          msgwindow.visible = false
           return
         when 4 # leave
           return
@@ -1758,9 +1924,9 @@ module CableClub
         @ui.hideParty
         do_battle(connection, @client_id, @seed, @battle_type, partner, opp_party,@battleTeam,[@uid,@partner_uid],@ui)
         @battleTeam = nil
-        @ui.showParty
-        msgwindow.visible = true
         if !@matchmaking
+          @ui.showParty
+          msgwindow.visible = true
           @state = @client_id == 0 ? :choose_activity : :await_choose_activity if @state != :enlisted
         else
           @state = :enlisted
@@ -2119,9 +2285,9 @@ module CableClub
     Kernel.pbMessageDisplay(msgwindow, message + "...".slice(0..(frame/8) % 3) + "\\^", false)
   end
 
-# NO !defined?(ESSENTIALSVERSION) && !defined?(ESSENTIALS_VERSION)
-# NO defined?(ESSENTIALSVERSION) && ESSENTIALSVERSION =~ /^17/
-# NO defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
+  # NO !defined?(ESSENTIALSVERSION) && !defined?(ESSENTIALS_VERSION)
+  # NO defined?(ESSENTIALSVERSION) && ESSENTIALSVERSION =~ /^17/
+  # NO defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
 
   # Renamed constants, yay...
   def self.do_battle(connection, client_id, seed, battle_type, partner, partner_party,own_party, uids,ui)
@@ -2140,6 +2306,10 @@ module CableClub
       pkmn.level = 50
       pkmn.calcStats
     }
+
+    $PokemonGlobal.nextBattleBack = $Trainer.online_battle_bg
+    $PokemonGlobal.nextBattleBGM = $Trainer.online_battle_bgm
+
     scene = pbNewBattleScene
     battle = PokeBattle_CableClub.new(connection, @client_id, scene, partner_party_clone, partner, uids, ui)
     battle.fullparty1 = battle.fullparty2 = true
