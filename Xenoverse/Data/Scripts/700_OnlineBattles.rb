@@ -2077,6 +2077,18 @@ module CableClub
               msgwindow.visible = false
               next
             end
+          when :wonderTrading
+            msgwindow.visible = true
+            Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to cancel the Wonder Trade?"),false)
+            if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+              connection.send do |writer|
+                writer.sym(:cancelWT)
+              end
+              @wtchosen = -1
+              @state = :enlisted
+              msgwindow.visible = false
+              next
+            end
           else
             msgwindow.visible = true
             message = case @state
