@@ -1151,6 +1151,7 @@ module CableClub
                   write_pkmn(writer,$Trainer.party[@wtchosen])
                 end
                 @state = :wonderTrading
+                Kernel.pbMessageDisplay(msgwindow,_INTL("Wonder trading..."),false)
                 return
               end
             else
@@ -1323,7 +1324,7 @@ module CableClub
   end
 
   def self.handle_wonder_trading(connection,msgwindow)
-    pbMessageDisplayDots(msgwindow,_INTL("Wonder trading"),@frame)
+    #pbMessageDisplayDots(msgwindow,_INTL("Wonder trading"),@frame)
     connection.updateExp([:wtFound]) do |record|
       case(type=record.sym)
       when :wtFound
