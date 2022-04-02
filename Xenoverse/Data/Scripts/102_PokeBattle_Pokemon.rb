@@ -268,7 +268,7 @@ class PokeBattle_Pokemon
     for i in abilities
       ret = i[0] if abil == i[1]
     end
-    echoln "ABILITY: #{ret} with index #{abil}"
+    #echoln "ABILITY: #{ret} with index #{abil}"
     return ret
   end
 
@@ -870,8 +870,9 @@ end
   end
 
 # Recalculates this Pokémon's stats.
-  def calcStats
+  def calcStats(formchange = false)
     nature=self.nature
+    oldPerc = self.hp*100/@totalhp
     stats=[]
     pvalues=[100,100,100,100,100]
     for i in 0...6
@@ -897,10 +898,16 @@ end
         stats[i]=override ? @statsOverride[i] : calcStat(base,level,@iv[i],@ev[i],pvalues[i-1])
       end
     end
-    diff=@totalhp-@hp
+    diff=@totalhp-self.hp
+
     @totalhp=stats[0]
     if self.hp>0
-      hp=@totalhp-diff
+      if formchange==true && [PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::SABOLT].include?(species)
+        echoln ">>>>>>>>>>>>Formchange HP #{oldPerc} #{oldPerc * @totalhp/100}/#{@totalhp}"
+        self.hp=oldPerc * @totalhp/100
+      else
+        self.hp=@totalhp-diff
+      end
       self.hp=1 if self.hp<=0
       self.hp=@totalhp if self.hp>@totalhp
     end

@@ -2256,6 +2256,17 @@ module CableClub
               msgwindow.visible = false
               next
             end
+          when :await_interaction_accept
+            msgwindow.visible = true
+            Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to cancel the Interaction?"),false)
+            if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+              connection.send do |writer|
+                writer.sym(:cancelAskInteraction)
+              end
+              @state = :enlisted
+              msgwindow.visible = false
+              next
+            end
           else
             msgwindow.visible = true
             message = case @state

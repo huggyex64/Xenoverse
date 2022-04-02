@@ -27,9 +27,9 @@ class PokeBattle_Pokemon
 	end
 	
 	alias :calcStats_old :calcStats
-	def calcStats
+	def calcStats(formchange = false)
     oldHp = self.hp
-		calcStats_old
+		calcStats_old(formchange)
 		if @boss && self.hp>0
       echoln "=======> HP: #{self.hp} : #{oldHp} TOTALHP: #{@totalhp} NORMALHP: #{@normalhp}"
       #handles the normalhp in case there were stats overrides

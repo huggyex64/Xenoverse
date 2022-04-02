@@ -18,7 +18,7 @@ class PokeBattle_Pokemon
 	
 	def form=(value)
 		@form=value
-		self.calcStats
+		self.calcStats(true)
 		MultipleForms.call("onSetForm",self,value)
 	end
 
@@ -31,7 +31,7 @@ class PokeBattle_Pokemon
 	
 	def formNoCall=(value)
 		@form=value
-		self.calcStats
+		self.calcStats(true)
 	end
 	
 	def hasMegaForm?
