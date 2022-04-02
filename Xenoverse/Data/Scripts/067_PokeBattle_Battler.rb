@@ -109,6 +109,7 @@ class PokeBattle_Battler
 	attr_reader :hp
 	
 	def hp=(value)
+		#echoln "[BATTLER] Setting #{@name}'s HP to #{value}. Current UDO #{@ultraDeltaOmega}"
 		@hp=value.to_i * @ultraDeltaOmega
 		@pokemon.hp=value.to_i if @pokemon
 	end
@@ -521,7 +522,7 @@ class PokeBattle_Battler
 	end
 	
 	def isFainted?
-		return @hp<=0
+		return self.hp<=0
 	end
 	
 	def hasWorkingAbility(ability,ignorefainted=false)

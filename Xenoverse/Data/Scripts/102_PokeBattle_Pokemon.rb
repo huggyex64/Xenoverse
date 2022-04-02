@@ -58,6 +58,7 @@ class PokeBattle_Pokemon
     if @ultraDeltaOmega == 0 || @ultraDeltaOmega == nil
       @ultraDeltaOmega = 50+rand(70) 
       @hp *= @ultraDeltaOmega
+      echoln "Resetting #{@name}'s UDO."
     end
     return @ultraDeltaOmega
   end
@@ -702,6 +703,7 @@ class PokeBattle_Pokemon
 # Sets this Pokémon's HP.
   def hp=(value)
     value=0 if value<0
+    #echoln "Setting #{@name}'s HP to #{value}. Current UDO #{self.ultraDeltaOmega}"
     @hp=value * self.ultraDeltaOmega
     if self.hp==0
       @status=0
@@ -710,6 +712,7 @@ class PokeBattle_Pokemon
   end
 
   def hp
+    #echoln "Getting #{@name}'s HP: #{@hp / self.ultraDeltaOmega}. Current UDO #{self.ultraDeltaOmega}"
     return @hp / self.ultraDeltaOmega #gigakek
   end
 
@@ -898,8 +901,8 @@ end
     @totalhp=stats[0]
     if self.hp>0
       hp=@totalhp-diff
-      self.hp=1 if @hp<=0
-      self.hp=@totalhp if @hp>@totalhp
+      self.hp=1 if self.hp<=0
+      self.hp=@totalhp if self.hp>@totalhp
     end
     @attack=stats[1]
     @defense=stats[2]
