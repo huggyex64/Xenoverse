@@ -1329,6 +1329,15 @@ module CableClub
           msgwindow.visible = false
           return
         when 4 # leave
+          msgwindow.visible = true
+          message = case @state
+            when :await_server; _INTL("Abort connection?\\^")
+            when :await_partner; _INTL("Abort search?\\^")
+            else; _INTL("Disconnect?\\^")
+            end
+          Kernel.pbMessageDisplay(msgwindow, message)
+          return if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+          msgwindow.visible = false
           return
         end
       end
