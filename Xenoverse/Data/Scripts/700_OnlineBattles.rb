@@ -1229,6 +1229,8 @@ module CableClub
             @client_id = 0
             @partner_uid = @ui.playerList[@ui.selectionIndex][2]
             @partner_name = @ui.playerList[@ui.selectionIndex][1]
+            
+            Kernel.pbMessageDisplay(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nAsked {1} for interaction...",$Trainer.publicID($Trainer.id),@partner_name),false)
             @state = :await_interaction_accept
             @timeoutCounter = 0
             return
@@ -1554,7 +1556,7 @@ module CableClub
   end
 
   def self.handle_await_interaction_accept(connection,msgwindow)
-    pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nAsked X for interaction",$Trainer.publicID($Trainer.id)), @frame)
+    #pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nAsked X for interaction",$Trainer.publicID($Trainer.id)), @frame)
     if (@frame%180 == 0) #Requesting player list every X seconds
       @ui.pbDisplayAvaiblePlayerList(self.getPlayerList())
     end
