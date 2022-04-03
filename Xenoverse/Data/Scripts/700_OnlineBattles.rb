@@ -2376,16 +2376,18 @@ module CableClub
   def self.do_trade(index, you, your_pkmn)
     my_pkmn = $Trainer.party[index]
     your_pkmn.obtainMode = 2 # traded
+    $Trainer.party[index] = your_pkmn
     $Trainer.seen[your_pkmn.species] = true
     $Trainer.owned[your_pkmn.species] = true
     pbSeenForm(your_pkmn)
+    pbSave()
     pbFadeOutInWithMusic(99999) {
       scene = PokemonTradeScene.new
       scene.pbStartScreen(my_pkmn, your_pkmn, $Trainer.name, you.name)
       scene.pbTrade
       scene.pbEndScreen
     }
-    $Trainer.party[index] = your_pkmn
+    #$Trainer.party[index] = your_pkmn
   end
 
   def self.chooseTier(msgwindow, battleType, opp_party)
