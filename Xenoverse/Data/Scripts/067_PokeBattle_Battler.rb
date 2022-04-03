@@ -1036,7 +1036,7 @@ class PokeBattle_Battler
 			items.push(pbOpposing1.item) if pbOpposing1.item>0 && !pbOpposing1.isFainted?
 			items.push(pbOpposing2.item) if pbOpposing2.item>0 && !pbOpposing2.isFainted?
 			if items.length>0
-				item=items[@battle.pbRandom(items.length)]
+				item=items[rand(items.length)]
 				itemname=PBItems.getName(item)
 				@battle.pbDisplay(_INTL("{1} frisked the foe and found one {2}!",pbThis,itemname))
 			end
@@ -1100,7 +1100,7 @@ class PokeBattle_Battler
 				end
 			end
 			if moves.length>0
-				move=moves[@battle.pbRandom(moves.length)]
+				move=moves[rand(moves.length)]
 				movename=PBMoves.getName(move)
 				@battle.pbDisplay(_INTL("{1}'s Forewarn alerted it to {2}!",pbThis,movename))
 			end

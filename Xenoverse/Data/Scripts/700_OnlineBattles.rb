@@ -777,6 +777,7 @@ class BattleRequest
   ### SHORTHANDS
   def self.getPlayerList()
     data={}
+    #data["beta"] = "CBT"
     data["type"] = "getPlayerList"
     res = pbPostData(@@url,data)
     playerlist = []
@@ -1336,7 +1337,10 @@ module CableClub
             else; _INTL("Disconnect?\\^")
             end
           Kernel.pbMessageDisplay(msgwindow, message)
-          return if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+          if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0 
+            @closeOnline = true
+            return
+          end
           msgwindow.visible = false
           return
         end
@@ -2198,6 +2202,7 @@ module CableClub
 
 
       loop do
+        break if @closeOnline
         if (@frame%20==0)
           pbCheckForCE(connection)
         end
@@ -2298,6 +2303,7 @@ module CableClub
         end
 
       end
+      @closeOnline = false
     end
   end
 
