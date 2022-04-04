@@ -68,7 +68,9 @@ class NewBagScreen
 		
 		drawItemInfo if @curPocket.length>0
 		
-		pbDrawTextPositions(@sprites["lowerbar"].bitmap,[[_INTL("Order"),102,3,1,Color.new(248,248,248)],
+		pbDrawTextPositions(@sprites["lowerbar"].bitmap,[
+				[_INTL("Order"),102,3,1,Color.new(248,248,248)],
+				[_INTL("Sort"),252,3,1,Color.new(248,248,248)],
 				[_INTL("Close"),465,3,1,Color.new(248,248,248)]])
 		drawItems
 	end
