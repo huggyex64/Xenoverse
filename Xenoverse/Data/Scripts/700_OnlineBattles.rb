@@ -2981,6 +2981,16 @@ class PokeBattle_CableClub < PokeBattle_Battle
 					temp[temp.length]=j
 				end
 			end
+
+      if (@client_id == 0)
+        stupspeed = []
+        stupspeed[0] = speeds[1]
+        stupspeed[1] = speeds[0]
+        stupspeed[2] = speeds[3]
+        stupspeed[3] = speeds[2]
+        speeds = stupspeed
+      end
+     
 			# Sort by speed
 			if temp.length==1
 				@priority[@priority.length]=@battlers[temp[0]]
@@ -3014,6 +3024,21 @@ class PokeBattle_CableClub < PokeBattle_Battle
 						end
 					end
 				end
+
+        if (@client_id == 0)
+          for i in 0..3
+            if temp[i] == 0
+              temp[i] = 1
+            elsif temp[i] == 1
+              temp[i] = 0
+            elsif temp[i] == 2
+              temp[i] = 3
+            elsif temp[i] == 3
+              temp[i] = 2
+            end
+          end
+        end
+
 				#Now add the temp array to priority
 				for i in temp
 					@priority[@priority.length]=@battlers[i]
