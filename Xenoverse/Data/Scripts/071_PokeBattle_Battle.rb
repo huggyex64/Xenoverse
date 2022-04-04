@@ -567,8 +567,8 @@ class PokeBattle_Battle
 				isConst?(item,PBItems,:MINDPLATE) ||
 				isConst?(item,PBItems,:ICICLEPLATE) ||
 				isConst?(item,PBItems,:DRACOPLATE) ||
-				isConst?(item,PBItems,:DREADPLATE)) ||
-				isConst?(item,PBItems,:PIXIEPLATE)) ||
+				isConst?(item,PBItems,:DREADPLATE) ||
+				isConst?(item,PBItems,:PIXIEPLATE) ||
 				isConst?(item,PBItems,:SOUNDPLATE))
 			return true
 		end
