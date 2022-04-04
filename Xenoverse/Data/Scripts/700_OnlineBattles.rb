@@ -2893,6 +2893,145 @@ class PokeBattle_CableClub < PokeBattle_Battle
     @battleAI  = PokeBattle_CableClub_AI.new(self) if defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
   end
   
+  def pbPriority(ignorequickclaw=false)
+		if @usepriority
+			# use stored priority if round isn't over yet
+			return @priority
+		end
+		@priorityTrickRoom = (@field.effects[PBEffects::TrickRoom]>0)
+		speeds=[]
+		quickclaw=[];lagging=[];
+		priorities=[]
+		temp=[]
+		@priority.clear
+		maxpri=0
+		minpri=0
+		# Random order used for ties
+		randomOrder = Array.new(@battlers.length) { |i| i }
+		(randomOrder.length-1).times do |i|   # Can't use shuffle! here
+			r = i+pbRandom(randomOrder.length-i)
+			randomOrder[i], randomOrder[r] = randomOrder[r], randomOrder[i]
+		end
+
+		# Calculate each Pokémon's speed
+		for i in 0...4
+			speeds[i]=@battlers[i].pbSpeed * (@priorityTrickRoom ? -1 : 1)
+			quickclaw[i]=false
+			lagging[i]=false
+			if !ignorequickclaw && @choices[i][0]==1 # Chose to use a move
+				if !quickclaw[i] && @battlers[i].hasWorkingItem(:CUSTAPBERRY) &&
+					!@battlers[i].pbOpposing1.hasWorkingAbility(:UNNERVE) &&
+					!@battlers[i].pbOpposing2.hasWorkingAbility(:UNNERVE)
+					if (@battlers[i].hasWorkingAbility(:GLUTTONY) && @battlers[i].hp<=(@battlers[i].totalhp/2).floor) ||
+						@battlers[i].hp<=(@battlers[i].totalhp/4).floor
+						pbCommonAnimation("UseItem",@battlers[i],nil)
+						quickclaw[i]=true
+						pbDisplayBrief(_INTL("{1}'s {2} let it move first!",
+						@battlers[i].pbThis,PBItems.getName(@battlers[i].item)))
+						@battlers[i].pbConsumeItem
+					end
+				end
+				if !quickclaw[i] && @battlers[i].hasWorkingItem(:QUICKCLAW)
+					if pbRandom(10)<2
+						pbCommonAnimation("UseItem",@battlers[i],nil)
+						quickclaw[i]=true
+						pbDisplayBrief(_INTL("{1}'s {2} let it move first!",
+						@battlers[i].pbThis,PBItems.getName(@battlers[i].item)))
+					end
+				end
+				if !quickclaw[i] &&
+					(@battlers[i].hasWorkingAbility(:STALL) ||
+					@battlers[i].hasWorkingItem(:LAGGINGTAIL) ||
+					@battlers[i].hasWorkingItem(:FULLINCENSE))
+					lagging[i]=true
+				end
+			end
+		end
+		# Find the maximum and minimum priority
+		for i in 0...4
+			# For this function, switching and using items
+			# is the same as using a move with a priority of 0
+			pri=0
+			if @choices[i][0]==1 # Is a move
+				printable = ""
+				for t in @choices[i]
+					printable+=t.to_s + ","
+				end
+				echoln "PRIORITY ON #{i} -> #{printable}:#{@choices[i][2]}"
+				pri=@choices[i][2].priority
+				pri+=1 if @battlers[i].hasWorkingAbility(:PRANKSTER) && @choices[i][2].basedamage==0 # Is status move
+				pri+=1 if isConst?(@battlers[i].ability,PBAbilities,:GALEWINGS) && @choices[i][2].type==2
+			end
+			priorities[i]=pri
+			if i==0
+				maxpri=pri
+				minpri=pri
+			else
+				maxpri=pri if maxpri<pri
+				minpri=pri if minpri>pri
+			end
+		end
+		
+		# Find and order all moves with the same priority
+		curpri=maxpri
+		loop do
+			temp.clear
+			for j in 0...4
+				if priorities[j]==curpri
+					temp[temp.length]=j
+				end
+			end
+			# Sort by speed
+			if temp.length==1
+				@priority[@priority.length]=@battlers[temp[0]]
+			else
+				n=temp.length
+				for m in 0..n-2
+					for i in 1..n-1
+						if quickclaw[temp[i]]
+							cmp=(quickclaw[temp[i-1]]) ? 0 : -1 #Rank higher if without Quick Claw, or equal if with it
+						elsif quickclaw[temp[i-1]]
+							cmp=1 # Rank lower
+						elsif speeds[temp[i]]!=speeds[temp[i-1]]
+							cmp=(speeds[temp[i]]>speeds[temp[i-1]]) ? -1 : 1 #Rank higher to higher-speed battler
+						else
+							cmp=0
+						end
+						if cmp<0
+							# put higher-speed Pokémon first
+							swaptmp=temp[i]
+							temp[i]=temp[i-1]
+							temp[i-1]=swaptmp
+						elsif cmp==0
+							# swap at random if speeds are equal
+							rnd = pbRandom(2)
+							echoln "RANDOM VALUE FOR EQUAL SPEEDS: #{rnd}"
+							if rnd==@client_id
+								swaptmp=temp[i]
+								temp[i]=temp[i-1]
+								temp[i-1]=swaptmp
+							end
+						end
+					end
+				end
+				#Now add the temp array to priority
+				for i in temp
+					@priority[@priority.length]=@battlers[i]
+				end
+			end
+			curpri-=1
+			break unless curpri>=minpri
+		end
+
+		@usepriority=true
+		d="   Priority: #{@priority[0].index}"
+		d+=", #{@priority[1].index}" if @priority[1]
+		d+=", #{@priority[2].index}" if @priority[2]
+		d+=", #{@priority[3].index}" if @priority[3]
+		PBDebug.log(d)
+		return @priority
+	end
+
   def disconnected
     return @disconnected
   end
