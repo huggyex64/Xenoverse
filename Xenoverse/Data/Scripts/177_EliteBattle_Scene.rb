@@ -294,31 +294,15 @@ class PokeBattle_Scene
         @sprites["trainer"].tone=Tone.new(-255,-255,-255,-255)
       end
     end
-    if @battle.is_a?(PokeBattle_CableClub)
-      @sprites["pokemon0"]=DynamicPokemonSprite.new(battle.doublebattle,0,@viewport)
-      @sprites["pokemon0"].z=21 
-      @sprites["pokemon1"]=DynamicPokemonSprite.new(battle.doublebattle,1,@viewport)
-      @sprites["pokemon1"].z=11
-      if battle.doublebattle
-        
-        @sprites["pokemon1"]=DynamicPokemonSprite.new(battle.doublebattle,3,@viewport)
-        @sprites["pokemon1"].z=11
-        @sprites["pokemon2"]=DynamicPokemonSprite.new(battle.doublebattle,2,@viewport)
-        @sprites["pokemon2"].z=26
-        @sprites["pokemon3"]=DynamicPokemonSprite.new(battle.doublebattle,1,@viewport)
-        @sprites["pokemon3"].z=16
-      end
-    else
-      @sprites["pokemon0"]=DynamicPokemonSprite.new(battle.doublebattle,0,@viewport)
-      @sprites["pokemon0"].z=21 
-      @sprites["pokemon1"]=DynamicPokemonSprite.new(battle.doublebattle,1,@viewport)
-      @sprites["pokemon1"].z=11
-      if battle.doublebattle
-        @sprites["pokemon2"]=DynamicPokemonSprite.new(battle.doublebattle,2,@viewport)
-        @sprites["pokemon2"].z=26
-        @sprites["pokemon3"]=DynamicPokemonSprite.new(battle.doublebattle,3,@viewport)
-        @sprites["pokemon3"].z=16
-      end
+    @sprites["pokemon0"]=DynamicPokemonSprite.new(battle.doublebattle,0,@viewport)
+    @sprites["pokemon0"].z=21 
+    @sprites["pokemon1"]=DynamicPokemonSprite.new(battle.doublebattle,1,@viewport)
+    @sprites["pokemon1"].z=11
+    if battle.doublebattle
+      @sprites["pokemon2"]=DynamicPokemonSprite.new(battle.doublebattle,2,@viewport)
+      @sprites["pokemon2"].z=26
+      @sprites["pokemon3"]=DynamicPokemonSprite.new(battle.doublebattle,3,@viewport)
+      @sprites["pokemon3"].z=16
     end
     pbLoadUIElements(battle)
     
