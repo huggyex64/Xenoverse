@@ -3006,7 +3006,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
 							# swap at random if speeds are equal
 							rnd = pbRandom(2)
 							echoln "RANDOM VALUE FOR EQUAL SPEEDS: #{rnd}"
-							if rnd==@client_id
+							if rnd==0 && @client_id==0
 								swaptmp=temp[i]
 								temp[i]=temp[i-1]
 								temp[i-1]=swaptmp
