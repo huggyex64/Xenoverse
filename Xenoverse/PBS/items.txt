@@ -793,3 +793,4 @@
 834,FURIABALL,Furia Ball,8,0,"Una speciale Ball progettata da Tarassaco. Unisce le caratteristiche principali di una Pokéball all'efficacia mistica dei sigilli Furia.",1,0,6,
 835,LUXRAYITE,Luxrayite,1,0,"Un esemplare delle misteriose Megapietre. Data a Luxray, gli permette di megaevolversi durante la lotta.",0,0,0,
 836,MIENSHAOITE,Mienshaoite,1,0,"Un esemplare delle misteriose Megapietre. Data a Mienshao, gli permette di megaevolversi durante la lotta.",0,0,0,
+837,SOUNDPLATE,Lastraboato,1,1000,Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Suono.,0,0,0,
