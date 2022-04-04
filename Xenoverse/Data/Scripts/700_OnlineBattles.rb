@@ -18,6 +18,8 @@ class OnlineLobby
   HEADER_SPEED = 400
   HEADER_TEXT_SPEED = 10 #Higher, slower
 
+  LOBBY_BGM = "Online Lobby"
+
   def initialize()
     @canRefresh = false
     @viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
@@ -130,13 +132,31 @@ class OnlineLobby
       settsprites[st].fade(sett.index(st) == selIndex ? 255 : 128,20,:ease_out_cubic)
     end
 
+    @bbpath = "Graphics/Battlebacks/Battlebg"
+
+    bgs = CableClub.getOnlineBattleBackList()
+
+    currentBgIndex = bgs.index($Trainer.online_battle_bg)
+
+    bgms = CableClub.getOnlineBGMList()
+
+    currentBgmIndex = bgms.index($Trainer.online_battle_bgm)
+
+    settsprites["background"] = EAMSprite.new(@viewport)
+    settsprites["background"].bitmap = pbBitmap(@bbpath + bgs[currentBgIndex])
+    settsprites["background"].ox = settsprites["background"].bitmap.width/2
+    settsprites["background"].oy = settsprites["background"].bitmap.height/2
+    settsprites["background"].x = Graphics.width/2
+    settsprites["background"].y = Graphics.height/2
+    settsprites["background"].zoom_x*=0.6
+    settsprites["background"].zoom_y*=0.6
+    settsprites["background"].opacity = 0
+
     sprites = ["refresh","list","avatarbox","avatar","selection","status","battleButton","tradeButton","settingsButton","leaveButton"]
     opacities = []
     for s in sprites
       opacities << @sprites[s].opacity
     end
-
-    Kernel.pbMessageDisplay(msgwindow,settDetails[sett[selIndex]][:info],false)
     20.times do
       for s in sprites
         @sprites[s].opacity-=opacities[sprites.index(s)]/20 + 1
@@ -154,6 +174,9 @@ class OnlineLobby
       Input.update
       self.update(false)
     end
+
+    msgwindow.visible = true
+    Kernel.pbMessageDisplay(msgwindow,settDetails[sett[selIndex]][:info],false)
 
     loop do 
       Graphics.update
@@ -186,24 +209,122 @@ class OnlineLobby
         end
       end
 
+      if Input.trigger?(Input::C)
+        case selIndex
+        when 0 # BATTLE BACKGROUND SELECTION
+          settsprites["background"].fade(255,10,:ease_in_cubic)
+          10.times do 
+            settsprites["background"].update
+            Graphics.update
+            Input.update
+            self.update(false)
+          end
+          loop do 
+            Graphics.update
+            Input.update
+            self.update(false)
+            for st in sett
+              settsprites[st].update
+            end
+
+            if Input.trigger?(Input::RIGHT)
+              currentBgIndex += 1
+              currentBgIndex  = 0 if currentBgIndex >= bgs.length
+              settsprites["background"].bitmap = pbBitmap(@bbpath + bgs[currentBgIndex])
+              settsprites["background"].ox = settsprites["background"].bitmap.width/2
+              settsprites["background"].oy = settsprites["background"].bitmap.height/2
+            end
+
+            if Input.trigger?(Input::LEFT)
+              currentBgIndex -= 1
+              currentBgIndex  = bgs.length-1 if currentBgIndex < 0
+              settsprites["background"].bitmap = pbBitmap(@bbpath + bgs[currentBgIndex])
+              settsprites["background"].ox = settsprites["background"].bitmap.width/2
+              settsprites["background"].oy = settsprites["background"].bitmap.height/2
+            end
+
+            if Input.trigger?(Input::C)
+              Kernel.pbMessageDisplay(msgwindow,_INTL("Do you want to use this battle background?"))
+              if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+                $Trainer.online_battle_bg = bgs[currentBgIndex]
+                echoln "Set battle background #{$Trainer.online_battle_bg}"
+                break
+              end
+            end
+
+            if Input.trigger?(Input::B)
+              break
+            end
+          end
+          settsprites["background"].fade(0,10,:ease_in_cubic)
+          10.times do 
+            settsprites["background"].update
+            Graphics.update
+            Input.update
+            self.update(false)
+          end
+        when 1 # BATTLE BGM SELECTION
+          pbBGMPlay(bgms[currentBgmIndex])
+          Kernel.pbMessageDisplay(msgwindow,_INTL("Pick the BGM you would like to hear in Online Battles. Press < and > to change BGM."),false)
+          loop do
+            Graphics.update
+            Input.update
+            self.update(false)
+            for st in sett
+              settsprites[st].update
+            end
+            if Input.trigger?(Input::RIGHT)
+              currentBgmIndex+= 1
+              currentBgmIndex = 0 if currentBgmIndex >= bgms.length
+              pbBGMPlay(bgms[currentBgmIndex])
+            end
+            if Input.trigger?(Input::LEFT)
+              currentBgmIndex-= 1
+              currentBgmIndex = bgms.length-1 if currentBgmIndex < 0
+              pbBGMPlay(bgms[currentBgmIndex])
+            end
+            if Input.trigger?(Input::C)
+              Kernel.pbMessageDisplay(msgwindow,_INTL("Do you want to use this BGM?"))
+              if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+                $Trainer.online_battle_bgm = bgms[currentBgmIndex]
+                echoln "Set battle bgm #{$Trainer.online_battle_bgm}"
+                break
+              else
+                Kernel.pbMessageDisplay(msgwindow,_INTL("Pick the BGM you would like to hear in Online Battles. Press < and > to change BGM."),false)
+              end
+            end
+
+            if Input.trigger?(Input::B)
+              break
+            end
+          end
+          pbBGMPlay(LOBBY_BGM)
+          Kernel.pbMessageDisplay(msgwindow,settDetails[sett[selIndex]][:info],false)
+        else
+        end
+      end
+
 
       if Input.trigger?(Input::B)
         break
       end
     end
     
-    for st in sett
+    for st in settsprites.keys
       settsprites[st].fade(0,20,:ease_in_cubic)
     end
 
     20.times do 
-      for st in sett
+      for st in settsprites.keys
         settsprites[st].update
       end
       Graphics.update
       Input.update
       self.update(false)
     end
+
+    #Dispose unused sprites
+    pbDisposeSpriteHash(settsprites)
 
     20.times do
       for s in sprites
@@ -328,11 +449,11 @@ class OnlineLobby
 
     @sprites["header"] = EAMSprite.new(@viewport)
     @sprites["header"].bitmap = pbBitmap(@path+"Header")
-    @sprites["header"].z = 20
+    @sprites["header"].z = 22
     @sprites["header"].y = -70
     @sprites["headerText"] = EAMSprite.new(@viewport)
     @sprites["headerText"].bitmap = Bitmap.new(Graphics.width,30)
-    @sprites["headerText"].z = 21
+    @sprites["headerText"].z = 23
     @sprites["headerText"].y = -70+14
     pbSetFont(@sprites["headerText"].bitmap, "Power Clear", 28)
 
@@ -340,8 +461,8 @@ class OnlineLobby
     @sprites["headerLines"].bitmap = pbBitmap(@path + "HeaderLines")
     @sprites["headerLines"].opacity = 128
     @sprites["headerLines"].y = -70+12
-    @sprites["headerLines"].z = 22
-
+    @sprites["headerLines"].z = 24
+    pbBGMPlay(LOBBY_BGM)
   end
 
   def updateServerMessage(text)
@@ -562,9 +683,6 @@ class OnlineLobby
     sprites['avatar'].ox = sprites['avatar'].bitmap.width/2 if bmp != nil
     sprites['avatar'].x = Graphics.width/2
 
-    currentSelectedAvatar = 0
-    selectedAvatar = 0
-    availableAvatars = CableClub.getOnlineTrainerTypeList()
     pbFadeOutIn(999999){
       sprites['bg'].visible = true
       sprites['avatar'].visible = true
@@ -573,7 +691,7 @@ class OnlineLobby
     loop do
       Graphics.update
       Input.update
-
+      self.update(false)
       if selectedAvatar != currentSelectedAvatar
         
         selectedAvatar = currentSelectedAvatar
@@ -667,7 +785,6 @@ class OnlineLobby
     
     pbDisposeSpriteHash(sprites)
   end
-
 
 	def evaluateIcon(pokemon)
 		bitmap = Bitmap.new(75,74)
@@ -821,6 +938,7 @@ def pbTO(roomno)
     end
   end
 end
+
 def pbOnlineLobby
   lobby = OnlineLobby.new
   if $Trainer.party.length == 0
@@ -956,40 +1074,53 @@ module CableClub
 
   def self.getOnlineBattleBackList()
     ret=[]
-    ret << "Field" << "FieldEvening" << "FieldNight"
-    ret << "Bosco" << "BoscoEv" << "BoscoNight"
-    ret << "Beach" << "BeachEv" << "BeachNight"
-    ret << "Campus"<<"CampusEvening"<<"CampusNight"
-    ret << "Canyon"<<"CanyonEvening"<<"CanyonNight"
+    ret << "Online"
+    ret << "Field"
+    ret << "Bosco"
+    ret << "Beach"
+    ret << "Campus"
+    ret << "Canyon"
     ret << "Cavern" 
     ret << "IsolaVoodoo"
     ret << "Circo"
-    ret << "City" << "CityEvening" << "CityNight"
-    ret << "Desert" << "DesertEvening" << "DesertNight"
-    ret << "Druddigon" << "DruddigonEvening" << "DruddigonNight"
-    ret << "Elite" << "Elite2" << "Elite3" << "Elite4"
+    ret << "City"
+    ret << "Desert"
+    ret << "Druddigon"
+    ret << "Elite"
     ret << "MondoXenoverse"
-    ret << "Neve" << "NeveEvening" << "NeveNight"
+    ret << "Neve"
     ret << "rocca"
     ret << "Miniera"
     ret << "Gola"
     ret << "Saloon"
     ret << "Saloon2"
-    ret << "Saloon3" << "Saloon3Evening" << "Saloon3Night"
-    ret << "Train" << "TrainEvening" << "TrainNight"
-    ret << "TopTrain" << "TopTrainEvening" << "TopTrainNight"
-
-    ret << "Raikou" << "Entei" << "Suicune"
-    ret << "Vulcano" << "VulcanoEvening" << "VulcanoNight" << "VulcanoDecibell"
-    ret << "Westopoli" << "WestopoliEvening" << "WestopoliNight"
+    ret << "Saloon3"
+    ret << "Train"
+    ret << "TopTrain"
+    ret << "Raikou"
+    ret << "Vulcano"
+    ret << "Westopoli"
     ret << "Fogna"
-    ret << "Evan" << "EvanEvening" << "EvanNight"
-    ret << "Michela" << "MichelaEvening" << "MichelaNight"
+    ret << "Evan"
+    ret << "Michela"
     ret << "palestraoasi"
     ret << "goldenstudio"
-    ret << "Gold" << "GoldEvening" << "GoldNight"
+    ret << "Gold"
     ret << "Surge"
     ret << "Residence"
+    return ret
+  end
+
+  def self.getOnlineBGMList()
+    ret=[]
+    ret << "OnlineVS"
+    ret << "VS.Trainer"
+    ret << "vs. TamaraFuria"
+    ret << "VS. Gym Apollo"
+    ret << "VS. VIP"
+    ret << "VS. Cani Leggendari"
+    ret << "VS. Battle Fury"
+    ret << "VS.Vakum"
     return ret
   end
 end
@@ -1231,7 +1362,7 @@ module CableClub
             @partner_uid = @ui.playerList[@ui.selectionIndex][2]
             @partner_name = @ui.playerList[@ui.selectionIndex][1]
             
-            Kernel.pbMessageDisplay(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nAsked {1} for interaction...",$Trainer.publicID($Trainer.id),@partner_name),false)
+            Kernel.pbMessageDisplay(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nAsked {1} for interaction...", $Trainer.publicID($Trainer.id),@partner_name),false)
             @state = :await_interaction_accept
             @timeoutCounter = 0
             return
@@ -1325,7 +1456,6 @@ module CableClub
           end
           msgwindow.visible = false
         when 3 # settings
-          msgwindow.visible = true
           @ui.openSettings(msgwindow)
           msgwindow.visible = false
           return
