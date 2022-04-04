@@ -1054,3 +1054,36 @@ def pbCheckFormEvolution(pokemon)
   end
   return [-1,-1]
 end
+
+SWAPSTYLES = {
+  PBSpecies::LUCARIO => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::GLACEON => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::LEAFEON => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::BIDOOF => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::PIKACHU => [proc {|x| x.form == 0 && [615,616].include?($game_map.map_id)},
+                         proc {|x| x.form = 1 + [615,616].index($game_map.map_id)}],
+  PBSpecies::CHARMANDER => [proc {|x| x.form == 0},proc {|x| x.form = 10}],
+  PBSpecies::CHARMELEON => [proc {|x| x.form == 0},proc {|x| x.form = 10}],
+  PBSpecies::CHARIZARD => [proc {|x| x.form == 0},proc {|x| x.form = 10}],
+  
+  PBSpecies::BULBASAUR => [proc {|x| x.form == 0},proc {|x| x.form = 10}],
+  PBSpecies::IVYSAUR => [proc {|x| x.form == 0},proc {|x| x.form = 10}],
+  PBSpecies::VENUSAUR => [proc {|x| x.form == 0},proc {|x| x.form = 10}],
+  
+  PBSpecies::SQUIRTLE => [proc {|x| x.form == 0},proc {|x| x.form = 10}],
+  PBSpecies::WARTORTLE => [proc {|x| x.form == 0},proc {|x| x.form = 10}],
+  PBSpecies::BLASTOISE => [proc {|x| x.form == 0},proc {|x| x.form = 10}],
+}
+
+def pbMakeSwap(pokemon)
+  return if !pbCheckSwapStyle(pokemon) #???? How the fuck did you make it here?
+  SWAPSTYLES[pokemon.species][1].call(pokemon)
+  return pokemon
+end
+
+def pbCheckSwapStyle(pokemon)
+  if SWAPSTYLES.keys.include?(pokemon.species)
+    return SWAPSTYLES[pokemon.species][0].call(pokemon)
+  end
+  return false
+end

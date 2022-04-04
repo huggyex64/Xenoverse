@@ -607,6 +607,24 @@ ItemHandlers::UseOnPokemon.copy(:FIRESTONE,
    :ICESTONE,:EVOPUPPILLON,:PEZZIDIRICAMBIO,:BOTINFERNO,
    :BOTDRAGO,:POISONSTONE,:BOTPINZA,:ANCIENTSTONE)
 
+ItemHandlers::UseOnPokemon.add(:PINKSTONE,proc{|item,pokemon,scene|
+  if (pokemon.isShadow? rescue false)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+    next false
+  end
+  canChange = pbCheckSwapStyle(pokemon)
+  if !canChange
+    scene.pbDisplay(_INTL("Non avrebbe alcun effetto."))
+    next false
+  end
+  if Kernel.pbConfirmMessage(_INTL("Do you want to use the Pink Stone on {1}?",pokemon.name))
+    scene.swapStyle(pokemon)
+    next true
+  else
+    next false
+  end
+})
+
 ItemHandlers::UseOnPokemon.add(:POTION,proc{|item,pokemon,scene|
    next pbHPItem(pokemon,20,scene)
 })
