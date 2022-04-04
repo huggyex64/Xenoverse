@@ -2959,7 +2959,7 @@ MultipleForms.register(:BIDOOF,{
 			when 16; next getID(PBTypes,:DRAGON)
 			when 17; next getID(PBTypes,:DARK)
 			when 18; next getID(PBTypes,:FAIRY)
-			when 19; next getID(PBTypes,:SOUND)
+			when 19; next getID(PBTypes,:SUONO)
 		end
 	},
 	"type2"=>proc{|pokemon|
@@ -2982,7 +2982,7 @@ MultipleForms.register(:BIDOOF,{
 			when 16; next getID(PBTypes,:DRAGON)
 			when 17; next getID(PBTypes,:DARK)
 			when 18; next getID(PBTypes,:FAIRY)
-			when 19; next getID(PBTypes,:SOUND)
+			when 19; next getID(PBTypes,:SUONO)
 		end
 	},
 	"ability"=>proc{|pokemon|
