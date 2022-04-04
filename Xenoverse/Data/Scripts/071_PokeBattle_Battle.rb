@@ -1169,7 +1169,9 @@ class PokeBattle_Battle
 							temp[i-1]=swaptmp
 						elsif cmp==0
 							# swap at random if speeds are equal
-							if pbRandom(2)==0
+							rnd = pbRandom(2)
+							echoln "RANDOM VALUE FOR EQUAL SPEEDS: #{rnd}"
+							if rnd==0
 								swaptmp=temp[i]
 								temp[i]=temp[i-1]
 								temp[i-1]=swaptmp
