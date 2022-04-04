@@ -2083,7 +2083,7 @@ class PokeBattle_Battler
         end
       end
       if found.length>0
-        choice=(consume) ? found[0] : found[@battle.pbRandom(found.length)]
+        choice=found[0]
         pokemove=@pokemon.moves[choice]
         pokemove.pp+=10
         pokemove.pp=pokemove.totalpp if pokemove.pp>pokemove.totalpp 
