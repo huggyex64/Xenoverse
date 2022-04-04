@@ -2347,6 +2347,13 @@ MultipleForms.register(:MAROWAK,{
 # HISUIAN GROWLITHE
 #===============================================================================
 MultipleForms.register(:GROWLITHE,{
+  "getFormOnCreation"=>proc{|pokemon|
+    if $game_map && [633,634].include?($game_map.map_id)
+      next 1 #HISUI FORM
+    else
+      next
+    end
+  },
 	"type2"=>proc{|pokemon|
 		next getID(PBTypes,:ROCK) if pokemon.form == 1
 		next
@@ -2371,10 +2378,21 @@ MultipleForms.register(:GROWLITHE,{
 			i[1]=getConst(PBMoves,i[1])
 		end
 		next movelist if pokemon.form == 1
-	}
+	},
+  "wildHoldItems"=>proc{|pokemon|
+    next if pokemon.form==0                 # Standard
+    next [0,getID(PBItems,:ANCIENTSTONE),0] # Hisui
+  }
 })
 
 MultipleForms.register(:ARCANINE,{
+  "getFormOnCreation"=>proc{|pokemon|
+    if $game_map && [633,634].include?($game_map.map_id)
+      next 1 #HISUI FORM
+    else
+      next
+    end
+  },
 	"type2"=>proc{|pokemon|
 		next getID(PBTypes,:ROCK) if pokemon.form == 1
 		next
@@ -2399,5 +2417,9 @@ MultipleForms.register(:ARCANINE,{
 			i[1]=getConst(PBMoves,i[1])
 		end
 		next movelist if pokemon.form == 1
-	}
+	},
+  "wildHoldItems"=>proc{|pokemon|
+    next if pokemon.form==0                 # Standard
+    next [0,getID(PBItems,:ANCIENTSTONE),0] # Hisui
+  }
 })

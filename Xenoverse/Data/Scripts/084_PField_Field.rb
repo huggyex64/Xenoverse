@@ -1236,7 +1236,11 @@ def pbGenerateWildPokemon(species,level)
     genwildpoke.setItem(items[2])
   end
   if $treasureHook
-    genwildpoke.makeShiny if (rand(50)==1)
+    #genwildpoke.makeShiny if (rand(50)==1)
+    for i in 0...164 #=> Basically 1/50 chance
+      break if genwildpoke.isShiny?
+      genwildpoke.personalID=rand(65536)|(rand(65536)<<16)
+    end
   end  
   if hasConst?(PBItems,:SHINYCHARM) && $PokemonBag.pbQuantity(PBItems::SHINYCHARM)>0
     for i in 0...1   # 2 times as likely
