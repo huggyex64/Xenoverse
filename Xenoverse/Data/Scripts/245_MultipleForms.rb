@@ -2679,7 +2679,7 @@ MultipleForms.register(:MASGOT,{
 			bouffalant_maps = [219,224,225,226,227,228,229,230]
 			camerupt_maps = [78,80,86,435,436,437,438,439,596,598]
 			steelix_maps = [276,593,594]
-			alakazam_maps = [286,287,288,289,290,292,294]
+			alakazam_maps = [286,287,288,289,290,292,294,627,628]
 			dragonite_maps = [42]
 			granbull_maps = [79]
 
@@ -2691,6 +2691,9 @@ MultipleForms.register(:MASGOT,{
 			hypno_maps = [602,604]
 			beedrill_maps = [599,600]
 
+			blastoise_maps = [629,630]
+			braviary_maps = [631,632]
+			tyranitar_maps = [633,634]
 
 			if $game_map && gengar_maps.include?($game_map.map_id)
 				next 1 #GENGAR FORM
@@ -2704,6 +2707,10 @@ MultipleForms.register(:MASGOT,{
 				next 4 #HOUNDOOM FORM
 			elsif $game_map && ampharos_maps.include?($game_map.map_id)
 				next 5 #AMPHAROS FORM
+			elsif $game_map && tyranitar_maps.include?($game_map.map_id)
+				next 7 #BRAVIARY FORM
+			elsif $game_map && braviary_maps.include?($game_map.map_id)
+				next 9 #BRAVIARY FORM
 			elsif $game_map && bouffalant_maps.include?($game_map.map_id)
 				next 10 #BOUFFALANT FORM
 			elsif $game_map && beedrill_maps.include?($game_map.map_id)
@@ -2712,6 +2719,8 @@ MultipleForms.register(:MASGOT,{
 				next 12 #CAMERUPT FORM
 			elsif $game_map && steelix_maps.include?($game_map.map_id)
 				next 13 #STEELIX FORM
+			elsif $game_map && blastoise_maps.include?($game_map.map_id)
+				next 14 #BLASTOISE FORM
 			elsif $game_map && hypno_maps.include?($game_map.map_id)
 				next 15 #HYPNO FORM
 			elsif $game_map && alakazam_maps.include?($game_map.map_id)
@@ -2950,6 +2959,7 @@ MultipleForms.register(:BIDOOF,{
 			when 16; next getID(PBTypes,:DRAGON)
 			when 17; next getID(PBTypes,:DARK)
 			when 18; next getID(PBTypes,:FAIRY)
+			when 19; next getID(PBTypes,:SOUND)
 		end
 	},
 	"type2"=>proc{|pokemon|
@@ -2972,6 +2982,7 @@ MultipleForms.register(:BIDOOF,{
 			when 16; next getID(PBTypes,:DRAGON)
 			when 17; next getID(PBTypes,:DARK)
 			when 18; next getID(PBTypes,:FAIRY)
+			when 19; next getID(PBTypes,:SOUND)
 		end
 	},
 	"ability"=>proc{|pokemon|
@@ -3016,7 +3027,7 @@ MultipleForms.register(:BIDOOF,{
 		next 16 if isConst?(pokemon.item,PBItems,:DRACOPLATE)
 		next 17 if isConst?(pokemon.item,PBItems,:DREADPLATE)
 		next 18 if isConst?(pokemon.item,PBItems,:PIXIEPLATE)
-		#next 19 if isConst?(pokemon.item,PBItems,:DREADPLATE) #SOUND
+		next 19 if isConst?(pokemon.item,PBItems,:SOUNDPLATE) #SOUND
 		next 1  if pokemon.formNoCall != nil && pokemon.formNoCall >= 1
 		next
 	},

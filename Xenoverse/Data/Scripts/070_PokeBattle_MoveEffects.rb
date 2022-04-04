@@ -3828,6 +3828,8 @@ class PokeBattle_Move_09F < PokeBattle_Move
 			return getConst(PBTypes,:ICE)      if attacker.hasWorkingItem(:ICICLEPLATE)
 			return getConst(PBTypes,:DRAGON)   if attacker.hasWorkingItem(:DRACOPLATE)
 			return getConst(PBTypes,:DARK)     if attacker.hasWorkingItem(:DREADPLATE)
+			return getConst(PBTypes,:FAIRY) if attacker.hasWorkingItem(:PIXIEPLATE)
+			return getConst(PBTypes,:SOUND)     if attacker.hasWorkingItem(:SOUNDPLATE)
 		elsif isConst?(@id,PBMoves,:TECHNOBLAST)
 			return getConst(PBTypes,:ELECTRIC) if attacker.hasWorkingItem(:SHOCKDRIVE)
 			return getConst(PBTypes,:FIRE)     if attacker.hasWorkingItem(:BURNDRIVE)
@@ -6227,7 +6229,7 @@ class PokeBattle_Move_0F7 < PokeBattle_Move
 			90 => [:DEEPSEATOOTH,:DRACOPLATE,:DREADPLATE,:EARTHPLATE,:FISTPLATE,
 				:FLAMEPLATE,:GRIPCLAW,:ICICLEPLATE,:INSECTPLATE,:IRONPLATE,
 				:MEADOWPLATE,:MINDPLATE,:SKYPLATE,:SPLASHPLATE,:SPOOKYPLATE,
-				:STONEPLATE,:THICKCLUB,:TOXICPLATE,:ZAPPLATE],
+				:STONEPLATE,:THICKCLUB,:TOXICPLATE,:ZAPPLATE,:SOUNDPLATE,:PIXIEPLATE],
 			80 => [:DAWNSTONE,:DUSKSTONE,:ELECTIRIZER,:MAGMARIZER,:ODDKEYSTONE,
 				:OVALSTONE,:PROTECTOR,:QUICKCLAW,:RAZORCLAW,:SHINYSTONE,
 				:STICKYBARB],
