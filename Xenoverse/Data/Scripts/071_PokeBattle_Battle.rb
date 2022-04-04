@@ -1132,11 +1132,6 @@ class PokeBattle_Battle
 			end
 		end
 		
-		d="   Priority: #{@priority[0].index}"
-		d+=", #{@priority[1].index}" if @priority[1]
-		d+=", #{@priority[2].index}" if @priority[2]
-		d+=", #{@priority[3].index}" if @priority[3]
-		PBDebug.log(d)
 		# Find and order all moves with the same priority
 		curpri=maxpri
 		loop do
