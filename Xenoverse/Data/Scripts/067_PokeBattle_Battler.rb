@@ -995,7 +995,7 @@ class PokeBattle_Battler
 		if self.hasWorkingAbility(:HOLYGUARD) && onactive
 			@battle.scene.pbDisplay(_INTL("{1} senses the opponents strengths!",pbThis))
 			PBDebug.log("[#{pbThis}: has Holy Guard]")
-			target = pbOwnedByPlayer?(@index) ? @index + 1 : @index-1
+			target = @battle.pbOwnedByPlayer?(@index) ? @index + 1 : @index-1
 			if pbIsOpposing?(target) && !@battle.battlers[target].isFainted?
 				if @battle.battlers[target].attack>@battle.battlers[target].spatk
 					self.pbIncreaseStat(PBStats::DEFENSE,1,true)
