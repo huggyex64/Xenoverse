@@ -3818,3 +3818,11 @@ Bicycle=false
 Outdoor=false
 WildBattleBGM=Wild Battle Monte Alterato.mp3
 ShowArea=false
+[632]
+# Monte Zodiaco Alterato
+BattleBack=Koko
+Weather=HeavyRain,100
+Bicycle=false
+Outdoor=false
+WildBattleBGM=Wild Battle Monte Alterato.mp3
+ShowArea=false
