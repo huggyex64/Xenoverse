@@ -105,6 +105,7 @@ class PokeBattle_Pokemon
 	alias __mf_type1 type1
 	alias __mf_type2 type2
 	alias __mf_weight weight
+	alias __mf_height height
 	alias __mf_getMoveList getMoveList
 	alias __mf_wildHoldItems wildHoldItems
 	alias __mf_baseExp baseExp
@@ -134,10 +135,17 @@ class PokeBattle_Pokemon
 		return v if v!=nil
 		return self.__mf_type2
 	end
+
+	def height
+		v=MultipleForms.call("height",self)
+		echoln v
+		return v*100.0 if v!=nil
+		return self.__mf_height
+	end
 	
 	def weight
 		v=MultipleForms.call("weight",self)
-		return v if v!=nil
+		return v*100.0 if v!=nil
 		return self.__mf_weight
 	end
 	
@@ -197,6 +205,10 @@ end
 
 module MultipleForms
 	@@formSpecies=HandlerHash.new(:PBSpecies)
+	
+	def self.get()
+		return @@formSpecies
+	end
 	
 	def self.copy(sym,*syms)
 		@@formSpecies.copy(sym,*syms)
@@ -3046,3 +3058,96 @@ MultipleForms.register(:MAWILE,{
 		pbSeenForm(pokemon)
 	}
 })
+
+
+
+# MEGA LINOONE
+MultipleForms.register(:LINOONE,{
+	"getMegaForm"=>proc{|pokemon|
+		next 1 if isConst?(pokemon.item,PBItems,:LINOONITE)
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 0
+	},
+	"getMegaName"=>proc{|pokemon|
+		next _INTL("Mega Linoone") if pokemon.form==1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [50,195,125,50,55,105] if pokemon.form==1
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities,:HUGEPOWER) if pokemon.form==1
+		next
+	},
+	"onSetForm"=>proc{|pokemon,form|
+		pbSeenForm(pokemon)
+	}
+})
+
+#LUXRAY
+MultipleForms.register(:LUXRAY,{
+	"getMegaForm"=>proc{|pokemon|
+		next 1 if isConst?(pokemon.item,PBItems,:LUXRAYITE)
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 0
+	},
+	"getMegaName"=>proc{|pokemon|
+		next _INTL("Mega Luxray") if pokemon.form==1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [80,175,85,123,75,85] if pokemon.form==1
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities,:LEVITATE) if pokemon.form==1
+		next
+	},
+	"onSetForm"=>proc{|pokemon,form|
+		pbSeenForm(pokemon)
+	}
+})
+
+#MIENSHAO
+MultipleForms.register(:MIENSHAO,{
+	"getMegaForm"=>proc{|pokemon|
+		next 1 if isConst?(pokemon.item,PBItems,:MIENSHAOITE)
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 0
+	},
+	"getMegaName"=>proc{|pokemon|
+		next _INTL("Mega Mienshao") if pokemon.form==1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [65,155,90,115,95,90] if pokemon.form==1
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities,:LEVITATE) if pokemon.form==1
+		next
+	},
+	"onSetForm"=>proc{|pokemon,form|
+		pbSeenForm(pokemon)
+	}
+})
+
+def pbExtractFormsData
+	code = File.open("formExtractor.rb", "r") { |file| file.read }
+    begin
+      eval(code, nil, "formExtractor.rb")
+    rescue ScriptError
+      echoln "AN ERROR OCCURRED! #{$!.message}"
+		#raise ScriptError.new($!.message)
+    rescue
+      $!.message.sub!($!.message, traceback_report)
+      raise_traceback_error
+    end
+end
