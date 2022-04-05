@@ -3004,6 +3004,15 @@ class PokeBattle_CableClub < PokeBattle_Battle
         stupspeed[3] = speeds[2]
         speeds = stupspeed
       end
+
+      if (@client_id == 0)
+        qcltmp = []
+        qcltmp[0] = quickclaw[1]
+        qcltmp[1] = quickclaw[0]
+        qcltmp[2] = quickclaw[3]
+        qcltmp[3] = quickclaw[2]
+        quickclaw = qcltmp
+      end
      
 			# Sort by speed
 			if temp.length==1
