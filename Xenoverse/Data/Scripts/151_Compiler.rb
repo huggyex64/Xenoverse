@@ -4146,7 +4146,7 @@ if $DEBUG
     mustcompile=true
   end
   Input.update
-  if Input.press?(Input::ALT) && $MKXP
+  if Input.press?(Input::ALT) && ($MKXP != nil ? $MKXP : true)
     for i in 0...datafiles.length
       begin
         File.open("Data/#{datafiles[i]}"){|file|
@@ -4166,7 +4166,7 @@ if $DEBUG
     end
     mustcompile=mustcompile || (latesttexttime>=latestdatatime)
     Input.update
-    if Input.press?(Input::CTRL)
+    if Input.press?(Input::CTRL) || Input.pressex?(0x11)
       mustcompile=true
     end
     if mustcompile

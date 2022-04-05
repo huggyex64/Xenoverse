@@ -1047,6 +1047,9 @@ class PokeBattle_Move
 				end
 			end
 		end
+		if opponent.effects[PBEffects::Protect] && [729,730,731].include?(self.id) #starburst
+			finaldamagemult=(finaldamagemult*0.5).round
+		end
 		if opponent.hasWorkingAbility(:MULTISCALE) &&
 			opponent.hp==opponent.totalhp
 			finaldamagemult=(finaldamagemult*0.5).round

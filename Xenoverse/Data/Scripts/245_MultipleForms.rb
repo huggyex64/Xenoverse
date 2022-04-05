@@ -1188,8 +1188,7 @@ MultipleForms.register(:SABOLT,{
 		"getBaseStats"=>proc{|pokemon|
 			next if pokemon.form==0 || pokemon.form == 4
 			next [88,66,70,80,78,68] if pokemon.form==1  # Terrestre
-			next [118,78,82,89,103,80] if pokemon.form==2  # Xenoverse
-			next [143,150,90,93,130,94] if pokemon.form == 3 #Astro
+			next [118,67,123,60,142,90] if pokemon.form==2  # Xenoverse
 		},
 		"getForm"=>proc{|pokemon|
 			if $game_switches[AUTOASTRO_SWITCH]==false
@@ -1216,14 +1215,12 @@ MultipleForms.register(:SABOLT,{
 					[23,:SUCKERPUNCH],[28,:SCARYFACE],[32,:THUNDERBOLT],[36,:DISCHARGE],
 					[40,:NASTYPLOT],[45,:NIGHTDAZE],[51,:GLARE],[56,:PHANTOMFORCE],[61,:VOLTTACKLE]]
 			when 2; movelist=[[1,:DARKENINGBOLT],[1,:METALBURST],[1,:CRUNCH],
-					[1,:MEANLOOK],[1,:THUNDERSHOCK],[1,:TACKLE],[6,:PURSUIT],
+					[1,:MEANLOOK],[1,:THUNDERSHOCK],[1,:FLAMETHROWER],[1,:SCALD],
+					[1,:DRAGONPULSE],[1,:DAZZLINGGLEAM],[1,:ENERGYBALL],[1,:HYPERVOICE],
+					[1,:FLASHCANNON],[1,:TACKLE],[6,:PURSUIT],
 					[8,:EMBARGO],[13,:ASSURANCE],[18,:SHOCKWAVE],[23,:SUCKERPUNCH],
 					[28,:SCARYFACE],[32,:THUNDERBOLT],[36,:DARKENINGBOLT],[40,:NASTYPLOT],
 					[45,:NIGHTDAZE],[51,:GLARE],[56,:THROATCHOP],[61,:VOLTTACKLE]]
-			when 3; movelist=[[1,:SCRATCH],[1,:GROWL],[6,:BABBLE],[8,:EMBER],[10,:HEADBUTT],
-					[12,:BITE],[16,:SONICBOOM],[20,:FLAMEBURST],[25,:REVENGE],
-					[30,:FIREFANG],[36,:FLAMETHROWER],[41,:TAKEDOWN],[51,:INFERNO],
-					[56,:CRUNCH],[61,:FLAREBLITZ]]
 			end
 			for i in movelist
 				i[1]=getConst(PBMoves,i[1])

@@ -692,7 +692,7 @@
 714,FROSTBITE,Pungifreddo,007,60,ICE,Physical,100,15,30,00,0,abef,"Chi la usa lancia sul bersaglio aculei di freddo pungente che possono paralizzarlo."
 715,FERALCLUTCH,Strettabruta,0CF,70,FAIRY,Physical,100,15,0,00,0,abef,"Stritola il bersaglio in una forte stretta per quattro o cinque turni."
 716,TIDALDRAGOON,Flussodrago,0C0,25,DRAGON,Special,100,30,0,00,0,befm,"Chi la usa colpisce con una raffica di energia da due a cinque volte."
-717,DARKENINGBOLT,Nerafolgore,046,80,DARK,Special,100,15,30,00,0,bef,"Scaraventa sull'avversario un tuono sinistro che può anche ridurne la Difesa."
+717,DARKENINGBOLT,Nerafolgore,046,90,DARK,Special,100,15,30,00,0,bef,"Scaraventa sull'avversario un tuono sinistro che può anche ridurne la Difesa."
 718,HISS,Sibilo,04F,0,SUONO,Status,100,30,0,04,0,bcek,"Intimorisce l'avversario emettendo un sibilo che ne riduce la Difesa."
 719,DISCOFEVER,Febbrefiesta,013,0,SUONO,Status,100,10,0,04,0,bcek,"Chi la usa performa un'esibizione vocale festosa e dinamica che confonde il bersaglio."
 720,ELECTROSWING,Elettroswing,007,0,SUONO,Status,100,10,0,04,0,bcek,"Chi la usa pizzica una chitarra a ritmo sfrenato, lanciando saette che paralizzano il bersaglio."
