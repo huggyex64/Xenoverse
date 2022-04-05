@@ -2370,6 +2370,20 @@ MultipleForms.register(:GROWLITHE,{
 		next 22.7 if pokemon.form == 1
 		next
 	},
+  "getMoveCompatibility"=>proc{|pokemon|
+    next if pokemon.form == 0
+    movelist=[# TMs
+              :ROAR,:TOXIC,:HIDDENPOWER,:SUNNYDAY,
+              :PROTECT,:SAFEGUARD,:RETURN,:DIG,
+              :DOUBLETEAM,:FLAMETHROWER,:FIREBLAST,:ROCKTOMB,:FACADE,
+              :FLAMECHARGE,:REST,:ATTRACT,:THIEF,:ROUND,
+              :OVERHEAT,:WILLOWISP,:SWAGGER,:SUBSTITUTE,:WILDCHARGE,
+              :SMACKDOWN,:STRENGTH,:ROCKSMASH,:ROCKSLIDE,:STEALTHROCK]
+    for i in 0...movelist.length
+      movelist[i]=getConst(PBMoves,movelist[i]) if getConst(PBMoves,movelist[i])!=nil
+    end
+    next movelist if pokemon.form == 1
+  },
 	"getMoveList"=>proc{|pokemon|
 		next if pokemon.form==0 # skips if standard growlithe
 		movelist = [[1,:EMBER],[1,:LEER],[4,:HOWL],[8,:BITE],[12,:FLAMEWHEEL],[16,:ROCKTHROW],[20,:HELPINGHAND],[24,:FIREFANG],[28,:ROCKTOMB],[32,:CRUNCH],
@@ -2409,6 +2423,20 @@ MultipleForms.register(:ARCANINE,{
 		next 168.0 if pokemon.form == 1
 		next
 	},
+  "getMoveCompatibility"=>proc{|pokemon|
+    next if pokemon.form == 0
+    movelist=[# TMs
+              :ROAR,:TOXIC,:HIDDENPOWER,:SUNNYDAY,:HYPERBEAM,
+              :PROTECT,:SAFEGUARD,:RETURN,:DIG,
+              :DOUBLETEAM,:FLAMETHROWER,:FIREBLAST,:ROCKTOMB,:FACADE,
+              :FLAMECHARGE,:REST,:ATTRACT,:THIEF,:ROUND,
+              :OVERHEAT,:WILLOWISP,:GIGAIMPACT,:BULLDOZE,:SWAGGER,:SUBSTITUTE,:WILDCHARGE,
+              :SMACKDOWN,:STRENGTH,:ROCKSMASH,:STONEEDGE,:ROCKSLIDE,:STEALTHROCK]
+    for i in 0...movelist.length
+      movelist[i]=getConst(PBMoves,movelist[i]) if getConst(PBMoves,movelist[i])!=nil
+    end
+    next movelist if pokemon.form == 1
+  },
 	"getMoveList"=>proc{|pokemon|
 		next if pokemon.form==0 # skips if standard growlithe
 		movelist = [[1,:TACKLE],[5,:EMBER],[9,:BITE],[15,:FIREFANG],[21,:ROCKSLIDE],[29,:HEATCRASH],
