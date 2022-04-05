@@ -2899,13 +2899,19 @@ class PokeBattle_CableClub < PokeBattle_Battle
 			return @priority
 		end
     battlers = []
+    choices = []
     if @client_id == 1
       battlers[0] = @battlers[1]
       battlers[1] = @battlers[0]
       battlers[2] = @battlers[3]
       battlers[3] = @battlers[2]
+      choices[0] = @choices[1]
+      choices[1] = @choices[0]
+      choices[2] = @choices[3]
+      choices[3] = @choices[2]
     else
       battlers = @battlers
+      choices = @choices
     end
 
 
@@ -2930,7 +2936,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
 			speeds[i]=battlers[i].pbSpeed * (@priorityTrickRoom ? -1 : 1)
 			quickclaw[i]=false
 			lagging[i]=false
-			if !ignorequickclaw && @choices[i][0]==1 # Chose to use a move
+			if !ignorequickclaw && choices[i][0]==1 # Chose to use a move
 				if !quickclaw[i] && battlers[i].hasWorkingItem(:CUSTAPBERRY) &&
 					!battlers[i].pbOpposing1.hasWorkingAbility(:UNNERVE) &&
 					!battlers[i].pbOpposing2.hasWorkingAbility(:UNNERVE)
@@ -2964,15 +2970,15 @@ class PokeBattle_CableClub < PokeBattle_Battle
 			# For this function, switching and using items
 			# is the same as using a move with a priority of 0
 			pri=0
-			if @choices[i][0]==1 # Is a move
+			if choices[i][0]==1 # Is a move
 				printable = ""
-				for t in @choices[i]
+				for t in choices[i]
 					printable+=t.to_s + ","
 				end
-				echoln "PRIORITY ON #{i} -> #{printable}:#{@choices[i][2]}"
-				pri=@choices[i][2].priority
-				pri+=1 if battlers[i].hasWorkingAbility(:PRANKSTER) && @choices[i][2].basedamage==0 # Is status move
-				pri+=1 if isConst?(battlers[i].ability,PBAbilities,:GALEWINGS) && @choices[i][2].type==2
+				echoln "PRIORITY ON #{i} -> #{printable}:#{choices[i][2]}"
+				pri=choices[i][2].priority
+				pri+=1 if battlers[i].hasWorkingAbility(:PRANKSTER) && choices[i][2].basedamage==0 # Is status move
+				pri+=1 if isConst?(battlers[i].ability,PBAbilities,:GALEWINGS) && choices[i][2].type==2
 			end
 			priorities[i]=pri
 			if i==0
