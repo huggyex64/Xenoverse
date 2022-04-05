@@ -2983,6 +2983,20 @@ class PokeBattle_CableClub < PokeBattle_Battle
 			end
 
       if (@client_id == 0)
+        for i in 0..3
+          if temp[i] == 0
+            temp[i] = 1
+          elsif temp[i] == 1
+            temp[i] = 0
+          elsif temp[i] == 2
+            temp[i] = 3
+          elsif temp[i] == 3
+            temp[i] = 2
+          end
+        end
+      end
+
+      if (@client_id == 0)
         stupspeed = []
         stupspeed[0] = speeds[1]
         stupspeed[1] = speeds[0]
