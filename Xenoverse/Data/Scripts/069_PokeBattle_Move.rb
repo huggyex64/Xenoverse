@@ -399,15 +399,15 @@ class PokeBattle_Move
 	end
 =end
 	def pbTypeModMessages(type,attacker,opponent)
-    return 8 if type<0
-    typemod=pbTypeModifier(type,attacker,opponent)
-    if typemod==0
-      @battle.pbDisplay(_INTL("It doesn't affect {1}...",opponent.pbThis(true)))
-    else
-      return 0 if pbTypeImmunityByAbility(type,attacker,opponent)
-    end
-    return typemod
-  end	
+		return 8 if type<0
+		typemod=pbTypeModifier(type,attacker,opponent)
+		if typemod==0
+		@battle.pbDisplay(_INTL("It doesn't affect {1}...",opponent.pbThis(true)))
+		else
+		return 0 if pbTypeImmunityByAbility(type,attacker,opponent)
+		end
+		return typemod
+	end	
 
 	################################################################################
 	# This move's accuracy check
