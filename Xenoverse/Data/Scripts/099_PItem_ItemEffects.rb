@@ -1160,7 +1160,8 @@ ItemHandlers::UseOnPokemon.add(:GRACIDEA,proc{|item,pokemon,scene|
 ItemHandlers::UseOnPokemon.add(:REVEALGLASS,proc{|item,pokemon,scene|
    if (isConst?(pokemon.species,PBSpecies,:TORNADUS) ||
       isConst?(pokemon.species,PBSpecies,:THUNDURUS) ||
-      isConst?(pokemon.species,PBSpecies,:LANDORUS)) && pokemon.hp>=0
+      isConst?(pokemon.species,PBSpecies,:LANDORUS) ||
+      isConst?(pokemon.species,PBSpecies,:ENAMORUS)) && pokemon.hp>=0
      pokemon.form=(pokemon.form==0) ? 1 : 0
      scene.pbRefresh
      scene.pbDisplay(_INTL("{1} changed Forme!",pokemon.name))
