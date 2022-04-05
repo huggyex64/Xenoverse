@@ -2898,6 +2898,18 @@ class PokeBattle_CableClub < PokeBattle_Battle
 			# use stored priority if round isn't over yet
 			return @priority
 		end
+    battlers = []
+    if @client_id == 1
+      battlers[0] = @battlers[1]
+      battlers[1] = @battlers[0]
+      battlers[2] = @battlers[3]
+      battlers[3] = @battlers[2]
+    else
+      battlers = @battlers
+    end
+
+
+
 		@priorityTrickRoom = (@field.effects[PBEffects::TrickRoom]>0)
 		speeds=[]
 		quickclaw=[];lagging=[];
@@ -2907,7 +2919,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
 		maxpri=0
 		minpri=0
 		# Random order used for ties
-		randomOrder = Array.new(@battlers.length) { |i| i }
+		randomOrder = Array.new(battlers.length) { |i| i }
 		(randomOrder.length-1).times do |i|   # Can't use shuffle! here
 			r = i+pbRandom(randomOrder.length-i)
 			randomOrder[i], randomOrder[r] = randomOrder[r], randomOrder[i]
@@ -2915,34 +2927,34 @@ class PokeBattle_CableClub < PokeBattle_Battle
 
 		# Calculate each Pokémon's speed
 		for i in 0...4
-			speeds[i]=@battlers[i].pbSpeed * (@priorityTrickRoom ? -1 : 1)
+			speeds[i]=battlers[i].pbSpeed * (@priorityTrickRoom ? -1 : 1)
 			quickclaw[i]=false
 			lagging[i]=false
 			if !ignorequickclaw && @choices[i][0]==1 # Chose to use a move
-				if !quickclaw[i] && @battlers[i].hasWorkingItem(:CUSTAPBERRY) &&
-					!@battlers[i].pbOpposing1.hasWorkingAbility(:UNNERVE) &&
-					!@battlers[i].pbOpposing2.hasWorkingAbility(:UNNERVE)
-					if (@battlers[i].hasWorkingAbility(:GLUTTONY) && @battlers[i].hp<=(@battlers[i].totalhp/2).floor) ||
-						@battlers[i].hp<=(@battlers[i].totalhp/4).floor
-						pbCommonAnimation("UseItem",@battlers[i],nil)
+				if !quickclaw[i] && battlers[i].hasWorkingItem(:CUSTAPBERRY) &&
+					!battlers[i].pbOpposing1.hasWorkingAbility(:UNNERVE) &&
+					!battlers[i].pbOpposing2.hasWorkingAbility(:UNNERVE)
+					if (battlers[i].hasWorkingAbility(:GLUTTONY) && battlers[i].hp<=(battlers[i].totalhp/2).floor) ||
+						battlers[i].hp<=(battlers[i].totalhp/4).floor
+						pbCommonAnimation("UseItem",battlers[i],nil)
 						quickclaw[i]=true
 						pbDisplayBrief(_INTL("{1}'s {2} let it move first!",
-						@battlers[i].pbThis,PBItems.getName(@battlers[i].item)))
-						@battlers[i].pbConsumeItem
+						battlers[i].pbThis,PBItems.getName(battlers[i].item)))
+						battlers[i].pbConsumeItem
 					end
 				end
-				if !quickclaw[i] && @battlers[i].hasWorkingItem(:QUICKCLAW)
+				if !quickclaw[i] && battlers[i].hasWorkingItem(:QUICKCLAW)
 					if pbRandom(10)<2
-						pbCommonAnimation("UseItem",@battlers[i],nil)
+						pbCommonAnimation("UseItem",battlers[i],nil)
 						quickclaw[i]=true
 						pbDisplayBrief(_INTL("{1}'s {2} let it move first!",
-						@battlers[i].pbThis,PBItems.getName(@battlers[i].item)))
+						battlers[i].pbThis,PBItems.getName(battlers[i].item)))
 					end
 				end
 				if !quickclaw[i] &&
-					(@battlers[i].hasWorkingAbility(:STALL) ||
-					@battlers[i].hasWorkingItem(:LAGGINGTAIL) ||
-					@battlers[i].hasWorkingItem(:FULLINCENSE))
+					(battlers[i].hasWorkingAbility(:STALL) ||
+					battlers[i].hasWorkingItem(:LAGGINGTAIL) ||
+					battlers[i].hasWorkingItem(:FULLINCENSE))
 					lagging[i]=true
 				end
 			end
@@ -2959,8 +2971,8 @@ class PokeBattle_CableClub < PokeBattle_Battle
 				end
 				echoln "PRIORITY ON #{i} -> #{printable}:#{@choices[i][2]}"
 				pri=@choices[i][2].priority
-				pri+=1 if @battlers[i].hasWorkingAbility(:PRANKSTER) && @choices[i][2].basedamage==0 # Is status move
-				pri+=1 if isConst?(@battlers[i].ability,PBAbilities,:GALEWINGS) && @choices[i][2].type==2
+				pri+=1 if battlers[i].hasWorkingAbility(:PRANKSTER) && @choices[i][2].basedamage==0 # Is status move
+				pri+=1 if isConst?(battlers[i].ability,PBAbilities,:GALEWINGS) && @choices[i][2].type==2
 			end
 			priorities[i]=pri
 			if i==0
@@ -2981,38 +2993,10 @@ class PokeBattle_CableClub < PokeBattle_Battle
 					temp[temp.length]=j
 				end
 			end
-
-      
-     
 			# Sort by speed
 			if temp.length==1
-				@priority[@priority.length]=@battlers[temp[0]]
+				@priority[@priority.length]=battlers[temp[0]]
 			else
-        if (@client_id == 0)
-          for i in 0..3
-            if temp[i] == 0
-              temp[i] = 1
-            elsif temp[i] == 1
-              temp[i] = 0
-            elsif temp[i] == 2
-              temp[i] = 3
-            elsif temp[i] == 3
-              temp[i] = 2
-            end
-          end
-          stupspeed = []
-          stupspeed[0] = speeds[1]
-          stupspeed[1] = speeds[0]
-          stupspeed[2] = speeds[3]
-          stupspeed[3] = speeds[2]
-          speeds = stupspeed
-          qcltmp = []
-          qcltmp[0] = quickclaw[1]
-          qcltmp[1] = quickclaw[0]
-          qcltmp[2] = quickclaw[3]
-          qcltmp[3] = quickclaw[2]
-          quickclaw = qcltmp
-        end
 				n=temp.length
 				for m in 0..n-2
 					for i in 1..n-1
@@ -3035,32 +3019,16 @@ class PokeBattle_CableClub < PokeBattle_Battle
 							rnd = pbRandom(2)
 							echoln "RANDOM VALUE FOR EQUAL SPEEDS: #{rnd}"
 							if rnd==0
-                swaptmp=temp[i]
-                temp[i]=temp[i-1]
-                temp[i-1]=swaptmp
+								swaptmp=temp[i]
+								temp[i]=temp[i-1]
+								temp[i-1]=swaptmp
 							end
 						end
 					end
-          if (@client_id == 0)
-            for i in 0..3
-              if temp[i] == 0
-                temp[i] = 1
-              elsif temp[i] == 1
-                temp[i] = 0
-              elsif temp[i] == 2
-                temp[i] = 3
-              elsif temp[i] == 3
-                temp[i] = 2
-              end
-            end
-          end
 				end
-
-        
-
 				#Now add the temp array to priority
 				for i in temp
-					@priority[@priority.length]=@battlers[i]
+					@priority[@priority.length]=battlers[i]
 				end
 			end
 			curpri-=1
