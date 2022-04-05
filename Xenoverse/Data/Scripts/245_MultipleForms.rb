@@ -576,7 +576,7 @@ MultipleForms.register(:WORMADAM,{
 
 MultipleForms.register(:SHELLOS,{
 		"getFormOnCreation"=>proc{|pokemon|
-			maps=[2,5,39,41,44,69]   # Map IDs for second form
+			maps=[2,5,39,41,44,69,629,630]   # Map IDs for second form
 			if $game_map && maps.include?($game_map.map_id)
 				next 1
 			else
@@ -1388,9 +1388,9 @@ MultipleForms.register(:TRANPILLE, {
 
 MultipleForms.register(:BREMAND,{
 		"getFormOnCreation"=>proc{|pokemon|
-			guitar_maps=[40]   
-			drum_maps=[280]  
-			bass_maps=[135,241,263,266,275] 
+			guitar_maps=[40,631,632]   
+			drum_maps=[280,627,628]  
+			bass_maps=[135,241,263,266,275,629,630] 
 			if $game_map && guitar_maps.include?($game_map.map_id)
 				next 1 # GUITAR FORM
 			elsif $game_map && drum_maps.include?($game_map.map_id)
@@ -2025,7 +2025,7 @@ MultipleForms.register(:ALAKAZAM, {
 			next
 		},
 		"getBaseStats"=>proc{|pokemon|
-			next [55, 50, 65, 150, 175, 95] if pokemon.form == 1
+			next [55, 50, 65, 150, 175, 105] if pokemon.form == 1
 			next
 		},
 		"ability"=>proc{|pokemon|
@@ -2329,6 +2329,64 @@ MultipleForms.register(:AGGRON, {
 		}
 	})
 
+MultipleForms.register(:BLAZIKEN, {
+		"getMegaForm"=>proc{|pokemon|
+			next 1 if isConst?(pokemon.item,PBItems,:BLAZIKENITE)
+			next
+		},
+		"getUnmegaForm"=>proc{|pokemon|
+			next 0
+		},
+		"getMegaName"=>proc{|pokemon|
+			next _INTL("Mega Blaziken") if pokemon.form == 1
+			next
+		},
+		"getBaseStats"=>proc{|pokemon|
+			next [80, 160, 80, 100, 130, 80] if pokemon.form == 1
+			next
+		},
+		"ability"=>proc{|pokemon|
+			next getID(PBAbilities, :SPEEDBOOST) if pokemon.form == 1
+			next
+		},
+		"onSetForm"=>proc{|pokemon, form|
+			pbSeenForm(pokemon)
+		}
+	})
+
+MultipleForms.register(:SWAMPERT, {
+		"getMegaForm"=>proc{|pokemon|
+			next 1 if isConst?(pokemon.item,PBItems,:SWAMPERTITE)
+			next
+		},
+		"getUnmegaForm"=>proc{|pokemon|
+			next 0
+		},
+		"getMegaName"=>proc{|pokemon|
+			next _INTL("Mega Swampert") if pokemon.form == 1
+			next
+		},
+		"getBaseStats"=>proc{|pokemon|
+			next [100,150,110,70,95,110] if pokemon.form == 1
+			next
+		},
+		"height"=>proc{|pokemon|
+			next 1.9 if pokemon.form == 1
+			next
+		},
+		"weight"=>proc{|pokemon|
+			next 102.0 if pokemon.form == 1
+			next
+		},
+		"ability"=>proc{|pokemon|
+			next getID(PBAbilities, :SWIFTSWIM) if pokemon.form == 1
+			next
+		},
+		"onSetForm"=>proc{|pokemon, form|
+			pbSeenForm(pokemon)
+		}
+	})
+
 # SHARPEDO
 MultipleForms.register(:SHARPEDO, {
 		"getMegaForm"=>proc{|pokemon|
@@ -2585,11 +2643,11 @@ MultipleForms.register(:LUCARIO,{
 			next
 		},
 		"getBaseStats"=>proc{|pokemon|
-			next [79,103,120,78,135,115] if pokemon.form==2
+			next [70,145,88,112,140,70] if pokemon.form==2
 			next
 		},
 		"ability"=>proc{|pokemon|
-			next getID(PBAbilities,:MEGALAUNCHER) if pokemon.form==2
+			next getID(PBAbilities,:ADAPTABILITY) if pokemon.form==2
 			next
 		},
 		"height"=>proc{|pokemon|
@@ -2668,6 +2726,32 @@ MultipleForms.register(:WEAVILE,{
 			pbSeenForm(pokemon)
 		}
 	})
+
+# WEAVILE
+MultipleForms.register(:GARCHOMP,{
+	"getMegaForm"=>proc{|pokemon|
+		next 1 if isConst?(pokemon.item,PBItems,:GARCHOMPITE)
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 0
+	},
+	"getMegaName"=>proc{|pokemon|
+		next _INTL("Mega Garchomp") if pokemon.form==1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [108,170,115,92,120,95] if pokemon.form==1
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities,:SANDFORCE) if pokemon.form==1
+		next
+	},
+	"onSetForm"=>proc{|pokemon,form|
+		pbSeenForm(pokemon)
+	}
+})
 #===============================================================================
 # MASGOT HANDLING
 #===============================================================================
@@ -3178,25 +3262,25 @@ MultipleForms.register(:LINOONE,{
 	}
 })
 
-# MEGA LINOONE
-MultipleForms.register(:LINOONE,{
+#LUXRAY
+MultipleForms.register(:LUXRAY,{
 	"getMegaForm"=>proc{|pokemon|
-		next 1 if isConst?(pokemon.item,PBItems,:LINOONITE)
+		next 1 if isConst?(pokemon.item,PBItems,:LUXRAYITE)
 		next
 	},
 	"getUnmegaForm"=>proc{|pokemon|
 		next 0
 	},
 	"getMegaName"=>proc{|pokemon|
-		next _INTL("Mega Linoone") if pokemon.form==1
+		next _INTL("Mega Luxray") if pokemon.form==1
 		next
 	},
 	"getBaseStats"=>proc{|pokemon|
-		next [65,250,60,115,115,160] if pokemon.form==1
+		next [80,175,85,123,75,85] if pokemon.form==1
 		next
 	},
 	"ability"=>proc{|pokemon|
-		next getID(PBAbilities,:MAGICBOUNCE) if pokemon.form==1
+		next getID(PBAbilities,:LEVITATE) if pokemon.form==1
 		next
 	},
 	"onSetForm"=>proc{|pokemon,form|
@@ -3204,6 +3288,31 @@ MultipleForms.register(:LINOONE,{
 	}
 })
 
+#MIENSHAO
+MultipleForms.register(:MIENSHAO,{
+	"getMegaForm"=>proc{|pokemon|
+		next 1 if isConst?(pokemon.item,PBItems,:MIENSHAOITE)
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 0
+	},
+	"getMegaName"=>proc{|pokemon|
+		next _INTL("Mega Mienshao") if pokemon.form==1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [65,155,90,115,95,90] if pokemon.form==1
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities,:LEVITATE) if pokemon.form==1
+		next
+	},
+	"onSetForm"=>proc{|pokemon,form|
+		pbSeenForm(pokemon)
+	}
+})
 
 def pbExtractFormsData
 	code = File.open("formExtractor.rb", "r") { |file| file.read }
