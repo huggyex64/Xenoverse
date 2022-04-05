@@ -3792,7 +3792,6 @@ ShowArea=false
 [628]
 # Monte Zodiaco Alterato
 BattleBack=Fini
-Weather=HeavyRain,100
 Bicycle=false
 Outdoor=false
 WildBattleBGM=Wild Battle Monte Alterato.mp3
