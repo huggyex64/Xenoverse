@@ -16,7 +16,7 @@ class OnlineLobby
 
   FADE_TIME = 12
   HEADER_SPEED = 400
-  HEADER_TEXT_SPEED = 10 #Higher, slower
+  HEADER_TEXT_SPEED = 20 #Higher, slower
 
   LOBBY_BGM = "Online Lobby"
 
@@ -47,6 +47,7 @@ class OnlineLobby
 
     status=[:blocked,:matchmaking,:trading,:waiting,:matched]
   
+    Graphics.frame_rate = 60
 
   
     pbFadeOutIn(999999){
@@ -649,15 +650,45 @@ class OnlineLobby
   end
 
   def pbAvatarSelectionScreen(msgwindow)
+
+    special = {
+      :KAYAEROPORTO => "Kay",
+      :ALICEAEROPORTO => "Alice",
+      :DARKKAYTRISHOUT => "Alter",
+      :DARKALICETRISHOUT => "Alter",
+      :GENERALEVICTOR => "Victor",
+      :GOLD => "Gold",
+      :CHUA => "Chua",
+      :CASTALIA => "Castalia",
+      :PEYOTE => "Peyote",
+      :OLEANDRO => "Oleandro",
+      :ASTER => "Aster",
+      :VERSIL => "Versil",
+      :TAMARAFURIA => "Tamara",
+      :LANCETOURNAMENT => "Lance",
+      :LEOTOURNAMENT => "Leo",
+      :ERIKATOURNAMENT => "Erika",
+      :DANTETOURNAMENT => "Dante"
+    }
+
+
     sprites = {}
     sprites['bg'] = Sprite.new(@viewport)
     sprites['bg'].bitmap = pbBitmap(@path + "BG")
     #sprites['bg'].bitmap = Bitmap.new(Graphics.width,Graphics.height)
     #sprites['bg'].bitmap.fill_rect(0,0,Graphics.width,Graphics.height,LIGHTBLUE)
-    sprites['bg'].z = 20
+    sprites['bg'].z = 120
     sprites['bg'].visible = false
+    
+
+    sprites["animbg"]=AnimatedPlane.new(@viewport)
+    sprites["animbg"].bitmap=pbBitmap(@path + "repeatbg")
+    sprites["animbg"].z = 120
+    sprites["animbg"].visible = false
+
     oldz = msgwindow.z
     msgwindow.z = 999999
+    msgwindow.visible = false
 
     
     currentSelectedAvatar = 0
@@ -666,6 +697,9 @@ class OnlineLobby
 
     id = getConst(PBTrainers,availableAvatars[selectedAvatar].is_a?(Array) ? availableAvatars[selectedAvatar][$Trainer.gender] : availableAvatars[selectedAvatar])
 
+    if special.keys.include?(availableAvatars[selectedAvatar])
+      name = pbGetMessageFromHash(MessageTypes::TrainerNames,special[availableAvatars[selectedAvatar]])
+    end
     bmp = nil
     if pbResolveBitmap(sprintf("Graphics/Transitions/smTrainer%d",id)) != nil
       bmp = pbBitmap(sprintf("Graphics/Transitions/smTrainer%d",id))
@@ -677,26 +711,127 @@ class OnlineLobby
     end
 
     sprites['avatar'] = Sprite.new(@viewport)
-    sprites['avatar'].z = 21
+    sprites['avatar'].z = 121
     sprites['avatar'].visible = false
     sprites['avatar'].bitmap = bmp if bmp != nil
     sprites['avatar'].ox = sprites['avatar'].bitmap.width/2 if bmp != nil
     sprites['avatar'].x = Graphics.width/2
 
+    sprites['name'] = Sprite.new(@viewport)
+    sprites['name'].z = 121
+    sprites['name'].visible = false
+    sprites['name'].bitmap = Bitmap.new(Graphics.width,Graphics.height)
+    sprites['name'].bitmap.clear
+    pbSetFont(sprites['name'].bitmap,$MKXP ? "Kimberley" : "Kimberley Bl",40)
+    if special.keys.include?(availableAvatars[selectedAvatar])
+      textpos = [
+        [name,495,30,1,Color.new(232,232,232),Color.new(24, 24, 24, 20),true],
+      ]
+      pbDrawTextPositions(sprites['name'].bitmap,textpos)
+      tt=PBTrainers.getName(id)
+      pbSetFont(sprites['name'].bitmap,$MKXP ? "Kimberley" : "Kimberley Bl",20)
+      textpos = [
+        [tt,495,75,1,Color.new(232,232,232),Color.new(24, 24, 24, 20),true]
+      ]
+      pbDrawTextPositions(sprites['name'].bitmap,textpos)
+    else
+      
+      tt=PBTrainers.getName(id)
+      textpos = [
+        [tt,495,30,1,Color.new(232,232,232),Color.new(24, 24, 24, 20),true],
+      ]
+      pbDrawTextPositions(sprites['name'].bitmap,textpos)
+    end
+
+
+    sprites['avatareffect'] = EAMSprite.new(@viewport)
+    sprites['avatareffect'].z = 120
+    sprites['avatareffect'].visible = false
+    sprites['avatareffect'].bitmap = bmp if bmp != nil
+    sprites['avatareffect'].ox = sprites['avatareffect'].bitmap.width/2 if bmp != nil
+    sprites['avatareffect'].x = Graphics.width/3
+    sprites['avatareffect'].y = -100
+    sprites['avatareffect'].zoom_x = 2
+    sprites['avatareffect'].zoom_y = 2
+    sprites['avatareffect'].tone = Tone.new(-255,108,128,255)
+    sprites['avatareffect'].opacity = 180
+    sprites['avatareffect'].fade(0,40)
+    sprites['avatareffect'].moveX(Graphics.width/4,80,:ease_out_cubic)
+
+
+    sprites['pick'] = Sprite.new(@viewport)
+    sprites['pick'].z = 122
+    sprites['pick'].visible = false
+    sprites['pick'].bitmap = pbBitmap(@path + "pickavatar").clone
+    pbSetFont(sprites['pick'].bitmap,"Barlow Condensed",20)
+    sprites['pick'].bitmap.draw_text(0,-2,sprites['pick'].bitmap.width,sprites['pick'].bitmap.height,_INTL("Pick your avatar"),1)
+
+    sprites["avatarbar"] = Sprite.new(@viewport)
+    sprites["avatarbar"].z = 122
+    sprites["avatarbar"].visible = false
+    sprites["avatarbar"].bitmap=pbBitmap(@path + "avatar_lower_bar")
+    sprites["avatarbar"].ox = sprites["avatarbar"].bitmap.width/2
+    sprites["avatarbar"].oy = sprites["avatarbar"].bitmap.height
+    sprites["avatarbar"].x = Graphics.width/2
+    sprites["avatarbar"].y = Graphics.height
+
+    sprites["redarrow"] = Sprite.new(@viewport)
+    sprites["redarrow"].z = 123
+    sprites["redarrow"].bitmap=pbBitmap(@path + "avatar_red_arrow")
+    sprites["redarrow"].visible = false
+    sprites["redarrow"].ox = sprites["redarrow"].bitmap.width/2
+    sprites["redarrow"].oy = sprites["redarrow"].bitmap.height
+    sprites["redarrow"].x = Graphics.width/2
+    sprites["redarrow"].y = Graphics.height
+
+    sprites["sidearrows"] = Sprite.new(@viewport)
+    sprites["sidearrows"].z = 123
+    sprites["sidearrows"].bitmap=pbBitmap(@path + "side_arrows")
+    sprites["sidearrows"].ox = sprites["sidearrows"].bitmap.width/2
+    sprites["sidearrows"].x = Graphics.width/2
+    sprites["sidearrows"].y = 327
+
+    for i in 0...5
+      sprites["trainerIcon#{i}"] = Sprite.new(@viewport)
+      sprites["trainerIcon#{i}"].z = 122
+      sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/lance").clone #TODO: Change with actual avatar
+      sprites["trainerIcon#{i}"].ox = sprites["trainerIcon#{i}"].bitmap.width/2
+      sprites["trainerIcon#{i}"].oy = sprites["trainerIcon#{i}"].bitmap.height/2
+      sprites["trainerIcon#{i}"].x = 118 + 69*i
+      sprites["trainerIcon#{i}"].y = 344
+      sprites["trainerIcon#{i}"].visible = false
+    end
+
     pbFadeOutIn(999999){
       sprites['bg'].visible = true
       sprites['avatar'].visible = true
+      sprites['avatareffect'].visible = true
+      sprites["animbg"].visible = true
+      sprites["avatarbar"].visible = true
+      sprites["redarrow"].visible = true
+      for i in 0...5
+        sprites["trainerIcon#{i}"].visible = true
+      end
+      sprites['name'].visible = true
+      sprites['pick'].visible = true
+
     }
 
     loop do
       Graphics.update
       Input.update
       self.update(false)
+      sprites["animbg"].oy += 0.5
+      sprites["animbg"].ox += 0.5
+      sprites['avatareffect'].update
       if selectedAvatar != currentSelectedAvatar
         
         selectedAvatar = currentSelectedAvatar
         id = getConst(PBTrainers,availableAvatars[selectedAvatar].is_a?(Array) ? availableAvatars[selectedAvatar][$Trainer.gender] : availableAvatars[selectedAvatar])
 
+        if special.keys.include?(availableAvatars[selectedAvatar])
+          name = pbGetMessageFromHash(MessageTypes::TrainerNames,special[availableAvatars[selectedAvatar]])
+        end
         bmp = nil
         if pbResolveBitmap(sprintf("Graphics/Transitions/smTrainer%d",id)) != nil
           bmp = pbBitmap(sprintf("Graphics/Transitions/smTrainer%d",id))
@@ -707,7 +842,36 @@ class OnlineLobby
           bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",variant,id))
         end
 
+        
+        sprites['name'].bitmap.clear
+        if special.keys.include?(availableAvatars[selectedAvatar])
+          pbSetFont(sprites['name'].bitmap,$MKXP ? "Kimberley" : "Kimberley Bl",40)
+          textpos = [
+            [name,495,30,1,Color.new(232,232,232),Color.new(24, 24, 24, 20),true],
+          ]
+          pbDrawTextPositions(sprites['name'].bitmap,textpos)
+          tt=PBTrainers.getName(id)
+          pbSetFont(sprites['name'].bitmap,$MKXP ? "Kimberley" : "Kimberley Bl",20)
+          textpos = [
+            [tt,495,75,1,Color.new(232,232,232),Color.new(24, 24, 24, 20),true]
+          ]
+          pbDrawTextPositions(sprites['name'].bitmap,textpos)
+        else
+          pbSetFont(sprites['name'].bitmap,$MKXP ? "Kimberley" : "Kimberley Bl",30)
+          tt=PBTrainers.getName(id)
+          textpos = [
+            [tt,495,30,1,Color.new(232,232,232),Color.new(24, 24, 24, 20),true],
+          ]
+          pbDrawTextPositions(sprites['name'].bitmap,textpos)
+        end
+
         sprites['avatar'].bitmap = bmp if bmp != nil
+        sprites['avatareffect'].bitmap = bmp if bmp != nil
+        sprites['avatareffect'].x = Graphics.width/3
+        
+        sprites['avatareffect'].opacity = 180
+        sprites['avatareffect'].fade(0,40)
+        sprites['avatareffect'].moveX(Graphics.width/4,80,:ease_out_cubic)
         echoln "Updated to selectedAvatar #{selectedAvatar}"
       end
 
@@ -745,14 +909,21 @@ class OnlineLobby
           end
   
           sprites['avatar'].bitmap = bmp if bmp != nil
+          sprites['avatareffect'].bitmap = bmp if bmp != nil
           echoln "Updated to selectedAvatar #{selectedAvatar}"
         end
-        trainername=PBTrainers.getName(id)
-        if ['a','e','i','o','u'].include?(trainername[0,1].downcase)
-          msg=_INTL("Would you like to look like an {1}?",trainername)
+        if special.keys.include?(availableAvatars[selectedAvatar])
+          trainername = pbGetMessageFromHash(MessageTypes::TrainerNames,special[availableAvatars[selectedAvatar]])
+          msg = _INTL("Would you like to look like {1}?",trainername)
         else
-          msg=_INTL("Would you like to look like a {1}?",trainername)
+          trainername = PBTrainers.getName(id)
+          if ['a','e','i','o','u'].include?(trainername[0,1].downcase)
+            msg=_INTL("Would you like to look like an {1}?",trainername)
+          else
+            msg=_INTL("Would you like to look like a {1}?",trainername)
+          end
         end
+        msgwindow.visible = true
         Kernel.pbMessageDisplay(msgwindow,msg)
         if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
           #accept, thus change the avatar
@@ -765,13 +936,18 @@ class OnlineLobby
           end
           break
         end
+        
+        msgwindow.visible = false
       end
 
       if Input.trigger?(Input::B)
+        msgwindow.visible = true
         Kernel.pbMessageDisplay(msgwindow,_INTL("Would you like to go back?"))
         if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
           break
         end
+        
+        msgwindow.visible = false
       end
     end
 
@@ -781,6 +957,15 @@ class OnlineLobby
       Input.update;
       sprites['bg'].visible = false
       sprites['avatar'].visible = false
+      sprites['avatareffect'].visible = false
+      sprites["animbg"].visible = false
+      sprites["avatarbar"].visible = false
+      sprites["redarrow"].visible = false
+      for i in 0...5
+        sprites["trainerIcon#{i}"].visible = false
+      end
+      sprites['name'].visible = false
+      sprites['pick'].visible = false
      }
     
     pbDisposeSpriteHash(sprites)
@@ -839,8 +1024,8 @@ class OnlineLobby
 
     @sprites["refresh"].opacity = @canRefresh ? 255 : 128 if refresh
 
-    @sprites["animbg"].oy += 1
-    @sprites["animbg"].ox += 1
+    @sprites["animbg"].oy += 0.5
+    @sprites["animbg"].ox += 0.5
   end
 
 
@@ -849,6 +1034,7 @@ class OnlineLobby
     for sprite in @sprites.values
       sprite.dispose if sprite.is_a?(Sprite)
     end
+    Graphics.frame_rate = 40
   end
 end
 
@@ -894,7 +1080,7 @@ class BattleRequest
   ### SHORTHANDS
   def self.getPlayerList()
     data={}
-    #data["beta"] = "CBT"
+    data["beta"] = "CBT"
     data["type"] = "getPlayerList"
     res = pbPostData(@@url,data)
     playerlist = []
@@ -1048,10 +1234,13 @@ module CableClub
   def self.getOnlineTrainerTypeList()
     ret = []
     # Standard
-    ret.push([:KAYAEROPORTO,:ALICEAEROPORTO])
+    ret.push(:KAYAEROPORTO)
+    ret.push(:ALICEAEROPORTO)
     # Alter
-    ret.push([:DARKKAYTRISHOUT,:DARKALICETRISHOUT]) 
-    ret.push([:PROFESSORE,:PROFESSORESSA])
+    ret.push(:DARKKAYTRISHOUT)
+    ret.push(:DARKALICETRISHOUT) 
+    ret.push(:PROFESSORE)
+    ret.push(:PROFESSORESSA)
     ret.push(:GENERALEVICTOR)
     ret.push(:GOLD)
     # Cardinals
