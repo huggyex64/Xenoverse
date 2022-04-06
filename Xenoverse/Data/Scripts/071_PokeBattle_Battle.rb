@@ -2878,9 +2878,11 @@ class PokeBattle_Battle
 				# already processed it's own turn
 				i.pbProcessTurn(@choices[i.index])
 				processed << i
+				echoln "#{i.pokemon.name} activated Tailwind? #{pbChoseMoveFunctionCode?(i.index,0x05B) && i.pbOwnSide().effects[PBEffects::Tailwind]==4}"
 				if pbChoseMoveFunctionCode?(i.index,0x05B) && i.pbOwnSide().effects[PBEffects::Tailwind]==4
 					restartForTailwind = true
 					priority = pbPriority
+					@usepriority = false
 					break
 				end
 				return if @decision>0
