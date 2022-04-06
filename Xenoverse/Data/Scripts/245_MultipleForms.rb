@@ -2791,9 +2791,9 @@ MultipleForms.register(:MASGOT,{
 				next 4 #HOUNDOOM FORM
 			elsif $game_map && ampharos_maps.include?($game_map.map_id)
 				next 5 #AMPHAROS FORM
-			elsif $game_map && tyranitar_maps.include?($game_map.map_id)
-				next 7 #BRAVIARY FORM
 			elsif $game_map && braviary_maps.include?($game_map.map_id)
+				next 7 #BRAVIARY FORM
+			elsif $game_map && tyranitar_maps.include?($game_map.map_id)
 				next 9 #BRAVIARY FORM
 			elsif $game_map && bouffalant_maps.include?($game_map.map_id)
 				next 10 #BOUFFALANT FORM
