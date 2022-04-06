@@ -2867,11 +2867,26 @@ class PokeBattle_Battle
 			elsif pbChoseMoveFunctionCode?(i.index,0x176) # Shell Trap
         		pbDisplay(_INTL("{1} set up a Shell-Trap!",i.pbThis))
 			end
-			
 		end
-		for i in priority
-			i.pbProcessTurn(@choices[i.index])
-			return if @decision>0
+
+		processed = []
+		loop do 
+			restartForTailwind = false
+			for i in priority
+				next if processed.include?(i)
+				# Skips current turn processing and restarts it eliminating any one who has
+				# already processed it's own turn
+				i.pbProcessTurn(@choices[i.index])
+				processed << i
+				if pbChoseMoveFunctionCode?(i.index,0x05B) && i.pbOwnSide().effects[PBEffects::Tailwind]==4
+					restartForTailwind = true
+					priority = pbPriority
+					break
+				end
+				return if @decision>0
+			end
+			next if restartForTailwind
+			break
 		end
 		pbWait(20)
 	end

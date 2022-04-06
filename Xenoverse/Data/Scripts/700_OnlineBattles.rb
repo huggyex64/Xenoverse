@@ -1080,7 +1080,7 @@ class BattleRequest
   ### SHORTHANDS
   def self.getPlayerList()
     data={}
-    data["beta"] = "CBT"
+    #data["beta"] = "CBT"
     data["type"] = "getPlayerList"
     res = pbPostData(@@url,data)
     playerlist = []
