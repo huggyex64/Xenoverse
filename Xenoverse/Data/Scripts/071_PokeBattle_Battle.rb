@@ -2881,8 +2881,8 @@ class PokeBattle_Battle
 				echoln "#{i.pokemon.name} activated Tailwind? #{pbChoseMoveFunctionCode?(i.index,0x05B) && i.pbOwnSide().effects[PBEffects::Tailwind]==4}"
 				if pbChoseMoveFunctionCode?(i.index,0x05B) && i.pbOwnSide().effects[PBEffects::Tailwind]==4
 					restartForTailwind = true
-					priority = pbPriority
 					@usepriority = false
+					priority = pbPriority
 					break
 				end
 				return if @decision>0
