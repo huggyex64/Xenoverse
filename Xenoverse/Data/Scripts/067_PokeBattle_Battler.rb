@@ -532,7 +532,7 @@ class PokeBattle_Battler
 	end
 	
 
-	def hasWorkingAbility?(ability,ingnorefainded=false)
+	def hasWorkingAbility?(ability,ignorefainted=false)
 		return hasWorkingAbility(ability,ignorefainted)
 	end
 
