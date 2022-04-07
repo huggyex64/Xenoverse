@@ -1317,7 +1317,7 @@ end
 class PokeBattle_Trainer
   attr_writer :online_trainer_type
   def online_trainer_type
-    return @online_trainer_type || getConst(PBTrainers,CableClub.getOnlineTrainerTypeList()[0][$Trainer.gender])#self.trainertype
+    return @online_trainer_type || getConst(PBTrainers,CableClub.getOnlineTrainerTypeList()[$Trainer.gender])#self.trainertype
   end
 
   attr_accessor :online_battle_bg
