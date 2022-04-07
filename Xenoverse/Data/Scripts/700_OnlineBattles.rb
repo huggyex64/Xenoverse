@@ -3643,7 +3643,8 @@ class PokeBattle_CableClub < PokeBattle_Battle
       @scene.pbShowWindow(cbox)
       cw = @scene.sprites[hbox]
       cw.letterbyletter = false
-      begin        
+      begin
+        pbAwaitReadiness
         loop do
           frame += 1
           cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
