@@ -3556,6 +3556,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
         pbAbort
         break
       end
+      pbAwaitReadiness
       PBDebug.logonerr{
          pbCommandPhase
       }
@@ -3642,9 +3643,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       @scene.pbShowWindow(cbox)
       cw = @scene.sprites[hbox]
       cw.letterbyletter = false
-      begin
-        pbAwaitReadiness
-        
+      begin        
         loop do
           frame += 1
           cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
