@@ -3830,6 +3830,7 @@ ShowArea=false
 # Monte Zodiaco Alterato
 BattleBack=Zodiacoalterato
 Bicycle=false
+TrainerBattleBGM=VS.RivaleAlt.mp3
 Outdoor=false
 WildBattleBGM=Wild Battle Monte Alterato.mp3
 ShowArea=false
