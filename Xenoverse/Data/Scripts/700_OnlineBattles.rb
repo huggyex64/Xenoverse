@@ -3168,6 +3168,8 @@ class PokeBattle_CableClub < PokeBattle_Battle
 				pri=choices[i][2].priority
 				pri+=1 if battlers[i].hasWorkingAbility(:PRANKSTER) && choices[i][2].basedamage==0 # Is status move
 				pri+=1 if isConst?(battlers[i].ability,PBAbilities,:GALEWINGS) && choices[i][2].type==2
+        echoln "RAPTOR? #{battlers[i].hasWorkingAbility(:RAPTOR) && battlers[choices[i][3]].hp <= battlers[choices[i][3]].totalhp/4}"
+        pri+=1 if battlers[i].hasWorkingAbility(:RAPTOR) && battlers[choices[i][3]].hp <= battlers[choices[i][3]].totalhp/4 #I need to use my ow
 			end
 			priorities[i]=pri
 			if i==0

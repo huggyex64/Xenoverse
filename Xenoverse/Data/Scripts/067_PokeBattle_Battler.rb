@@ -1161,7 +1161,7 @@ class PokeBattle_Battler
 		PBDebug.log("[INFO] #{move.id} => UTurn : #{PBMoves::VOLTSWITCH}");
 		@turneffects[PBEffects::UTurn]=false if ![PBMoves::UTURN,PBMoves::VOLTSWITCH].include?(move.id)
 		
-		if damage>0 && move.isContactMove? && !user.hasWorkingItem(:PROTECTIVEPADS)
+		if damage>0 && move.isContactMove? && !user.hasWorkingItem(:PROTECTIVEPADS) && !user.hasWorkingAbility?(:LONGREACH)
 			if !target.damagestate.substitute
 				if target.hasWorkingItem(:STICKYBARB,true) && user.item==0 && !user.isFainted?
 					user.item=target.item
@@ -1190,7 +1190,7 @@ class PokeBattle_Battler
 						target.effects[PBEffects::ShellTrap]=true
 					end
 				end
-				if target.hasWorkingAbility(:AFTERMATH,true) && target.fainted? && move.isContactMove? && !user.isFainted?
+				if target.hasWorkingAbility(:AFTERMATH,true) && target.fainted? && move.isContactMove? && !user.isFainted? && !user.hasWorkingAbility?(:LONGREACH)
 					if !@battle.pbCheckGlobalAbility(:DAMP)
 						PBDebug.log("[#{user.pbThis} hurt by Aftermath]")
 						@battle.scene.pbDamageAnimation(user,0)
@@ -2584,7 +2584,7 @@ class PokeBattle_Battler
       @battle.pbDisplay(_INTL("{1} protected itself!",target.pbThis))
       @battle.successStates[user.index].protected=true
       PBDebug.log("[Move failed] #{target.pbThis}'s King's Shield stopped the attack")
-      if thismove.isContactMove? && !user.hasWorkingItem(:PROTECTIVEPADS)
+      if thismove.isContactMove? && !user.hasWorkingItem(:PROTECTIVEPADS) && !user.hasWorkingAbility?(:LONGREACH)
         user.pbReduceStat(PBStats::ATTACK,2,nil,true)
       end
       return false
@@ -2595,7 +2595,7 @@ class PokeBattle_Battler
       @battle.pbDisplay(_INTL("{1} protected itself!",target.pbThis))
       @battle.successStates[user.index].protected=true
       PBDebug.log("[Move failed] #{user.pbThis}'s Spiky Shield stopped the attack")
-      if thismove.isContactMove? && !user.fainted? && !user.hasWorkingItem(:PROTECTIVEPADS)
+      if thismove.isContactMove? && !user.fainted? && !user.hasWorkingItem(:PROTECTIVEPADS) && !user.hasWorkingAbility?(:LONGREACH)
         @battle.scene.pbDamageAnimation(user,0)
         amt=user.pbReduceHP((user.boss ? (user.totalhp/8)/user.hpMoltiplier : user.totalhp/8).floor)
         @battle.pbDisplay(_INTL("{1} was hurt!",user.pbThis)) if amt>0
@@ -2608,7 +2608,7 @@ class PokeBattle_Battler
       @battle.pbDisplay(_INTL("{1} protected itself!",target.pbThis))
       @battle.successStates[user.index].protected=true
       PBDebug.log("[Move failed] #{user.pbThis}'s Baneful Bunker stopped the attack!")
-      if thismove.isContactMove? && !user.isFainted? && user.pbCanPoison?(false) && !user.hasWorkingItem(:PROTECTIVEPADS)
+      if thismove.isContactMove? && !user.isFainted? && user.pbCanPoison?(false) && !user.hasWorkingItem(:PROTECTIVEPADS) && !user.hasWorkingAbility?(:LONGREACH)
         PBDebug.log("#{target.pbThis} poisoned by Baneful Bunker")
         user.pbPoison(target,_INTL("{1} was poisoned!",target.pbThis))
       end

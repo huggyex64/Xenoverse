@@ -1003,8 +1003,8 @@ MultipleForms.register(:TRISHOUT,{
 		"getBaseStats"=>proc{|pokemon|
 			next if pokemon.form==0 || pokemon.form == 4
 			next [88,105,55,78,80,44] if pokemon.form==1  # Terrestre
-			next [118,125,65,83,100,59] if pokemon.form==2  # Xenoverse
-			next [143,150,90,93,130,94] if pokemon.form == 3 #Astro
+			next [118,95,65,93,120,59] if pokemon.form==2  # Xenoverse
+			next [143,140,90,93,140,94] if pokemon.form == 3 #Astro
 		},
 		"getForm"=>proc{|pokemon|
 			if $game_switches[AUTOASTRO_SWITCH]==false
@@ -1082,7 +1082,7 @@ MultipleForms.register(:SHYLEON,{
 		"getBaseStats"=>proc{|pokemon|
 			next if pokemon.form == 0
 			next [88,49,63,104,78,68] if pokemon.form == 1						# Terrestre
-			next [118,54,73,124,108,74] if pokemon.form == 2					# Xenoverse
+			next [118,54,73,124,108,73] if pokemon.form == 2					# Xenoverse
 			next [143,74,98,154,133,98] if pokemon.form == 3          # Astro
 		},
 		"getForm"=>proc{|pokemon|
@@ -1164,7 +1164,7 @@ MultipleForms.register(:SHULONG,{
 		"getBaseStats"=>proc{|pokemon|
 			next if pokemon.form==0 
 			next [88,45,93,56,75,93] if pokemon.form == 1						# Forma Terrestre
-			next [118,55,108,61,100,108] if pokemon.form == 2				# Forma Xenoverse
+			next [118,55,110,72,85,110] if pokemon.form == 2				# Forma Xenoverse
 			next [143,80,156,86,80,155] if pokemon.form == 3      # Forma Astro
 		},
 		"getForm"=>proc{|pokemon|
