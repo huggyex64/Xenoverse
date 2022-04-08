@@ -983,7 +983,7 @@ class PokeBattle_Move_205 < PokeBattle_Move
 
 		#remove self
 		pool.delete(PBSpecies::DITTOX)
-		x = PokeBattle_Pokemon.new(pool[rand(pool.length)],attacker.level,$Trainer)
+		x = PokeBattle_Pokemon.new(pool[@battle.pbRandom(pool.length)],attacker.level,$Trainer)
 		#x = PokeBattle_Battler.new(attacker.battle,attacker.index)
 		#x.pbInitialize(xp,attacker.index,false)
 		pbShowAnimation(@id,attacker,attacker,hitnum,alltargets,true)
