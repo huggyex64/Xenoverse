@@ -572,7 +572,7 @@
 594,OBLIVIONWING,Ali del Fato,135,80,FLYING,Special,100,10,0,00,0,bf,"Chi la usa assorbe energia dal bersaglio recuperando una quantità di PS pari a più della metà del danno inferto."
 595,NUZZLE,Elettrococcola,139,20,ELECTRIC,Physical,100,20,0,00,0,abef,"Nonostante il tenero nome è una mossa piuttosto pericolosa."
 596,WATERSHURIKEN,Acqualame,0C0,15,WATER,Physical,100,20,0,00,1,bef,"Chi la usa attacca sempre per primo, colpendo il bersaglio con uno shuriken di muco da due a cinque volte di fila."
-597,BOOMBURST,Ondaboato,075,120,SUONO,Special,100,10,0,08,0,befk,"Colpisce i Pokémon che ha intorno con la forza di un boato distruttivo."
+597,BOOMBURST,Ondaboato,075,100,SUONO,Special,100,10,0,08,0,befk,"Colpisce i Pokémon che ha intorno con la forza di un boato distruttivo."
 598,PHANTOMFORCE,Spettrotuffo,0CD,90,GHOST,Physical,100,10,0,00,0,aef,"Chi la usa scompare improvvisamente per attaccare nel turno seguente, neutralizzando le difese del bersaglio."
 599,PLAYNICE,Simpatia,042,0,NORMAL,Status,0,20,0,00,0,de,"Chi la usa diventa amico del bersaglio, rabbonendolo e riducendone così l'Attacco."
 600,PLAYROUGH,Carineria,042,90,FAIRY,Physical,90,10,10,00,0,abef,"Chi la usa attacca il bersaglio con delle carinerie. Può anche ridurne l'attacco."

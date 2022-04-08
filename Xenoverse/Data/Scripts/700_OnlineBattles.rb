@@ -1317,7 +1317,7 @@ end
 class PokeBattle_Trainer
   attr_writer :online_trainer_type
   def online_trainer_type
-    return @online_trainer_type || getConst(PBTrainers,CableClub.getOnlineTrainerTypeList()[0][$Trainer.gender])#self.trainertype
+    return @online_trainer_type || getConst(PBTrainers,CableClub.getOnlineTrainerTypeList()[$Trainer.gender])#self.trainertype
   end
 
   attr_accessor :online_battle_bg
@@ -3168,6 +3168,9 @@ class PokeBattle_CableClub < PokeBattle_Battle
 				pri=choices[i][2].priority
 				pri+=1 if battlers[i].hasWorkingAbility(:PRANKSTER) && choices[i][2].basedamage==0 # Is status move
 				pri+=1 if isConst?(battlers[i].ability,PBAbilities,:GALEWINGS) && choices[i][2].type==2
+        # I need to use my own client perspective for this
+        echoln "RAPTOR? #{battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[choices[i][3]].hp <= @battlers[choices[i][3]].totalhp/4}"
+        pri+=1 if battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[choices[i][3]].hp <= @battlers[choices[i][3]].totalhp/4 #I need to use my ow
 			end
 			priorities[i]=pri
 			if i==0
@@ -3553,6 +3556,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
         pbAbort
         break
       end
+      pbAwaitReadiness
       PBDebug.logonerr{
          pbCommandPhase
       }
@@ -3641,7 +3645,6 @@ class PokeBattle_CableClub < PokeBattle_Battle
       cw.letterbyletter = false
       begin
         pbAwaitReadiness
-        
         loop do
           frame += 1
           cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
