@@ -1441,7 +1441,14 @@ module CableClub
   end
 
   def self.handle_await_server(connection,msgwindow)
-    if connection.can_send?
+    connection.updateExp([:connectionInfo]) do |record|
+      case (type = record.sym)
+      when :connectionInfo
+        @uid = record.str
+        @md5 = record.str
+      end
+    end
+    if connection.can_send? && (@uid != nil && @md5 != nil)
       connection.send do |writer|
         writer.sym(:enlist)
         writer.str($Trainer.name + ":#{@md5}:#{@uid}" )
@@ -2445,7 +2452,7 @@ module CableClub
     out = nil
     host = nil
     port = nil
-
+=begin
     t = Thread.new {
       Graphics.update
       Input.update
@@ -2467,6 +2474,7 @@ module CableClub
     end
 
     return if host == nil || out == "BANNED"
+=end
     @ui = ui
     @handlers = {}
     # Waiting to be connected to the server.
@@ -2495,9 +2503,9 @@ module CableClub
     @timeoutCounter = 0
     @maxTimeOut = 60 * 30
 
-    connport = port+1+rand(9)
+    #connport = port+1+rand(9)
 
-    Connection.open(host, connport) do |connection|
+    Connection.open("127.0.0.1", 11000) do |connection|#(host, connport) do |connection|
       @state = :await_server
       @last_state = nil
       @client_id = 0               # 0 = SENDER, 1 = RECEIVER
