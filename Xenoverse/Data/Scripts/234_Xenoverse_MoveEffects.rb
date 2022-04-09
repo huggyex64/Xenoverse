@@ -1113,7 +1113,7 @@ end
 ################################################################################
 class PokeBattle_Move_305 < PokeBattle_Move
 	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
-		if attacker.pbOwnSide.effects[PBEffects::Benevolence]
+		if attacker.pbOwnSide.effects[PBEffects::Benevolence] > 0
 			@battle.pbDisplay(_INTL("But it failed!"))
 			return -1
 		end
