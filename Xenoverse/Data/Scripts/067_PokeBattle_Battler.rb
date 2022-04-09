@@ -398,6 +398,8 @@ class PokeBattle_Battler
 
 	  #New effects
 	  @effects[PBEffects::DragonEndurance]    = 0
+	  @effects[PBEffects::MagicWall]    	  = 0
+	  @effects[PBEffects::SoundBarrier]    	  = 0
 	end
 	
 	def pbUpdate(fullchange=false)

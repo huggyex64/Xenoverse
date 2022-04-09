@@ -105,6 +105,8 @@ begin
     ThroatChop        = 101
     Cheering          = 140
     DragonEndurance   = 200
+    MagicWall         = 201
+    SoundBarrier      = 202
     # These effects apply to a side
     LightScreen = 0
     LuckyChant  = 1

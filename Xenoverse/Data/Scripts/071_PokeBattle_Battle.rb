@@ -3509,6 +3509,30 @@ class PokeBattle_Battle
 				end
 			end
 		end
+		
+		# Magic Wall (decrease duration)
+		for i in priority
+			next if i.isFainted?
+			if i.effects[PBEffects::MagicWall]>0
+				i.effects[PBEffects::MagicWall]-=1
+				if i.effects[PBEffects::MagicWall]==0
+					PBDebug.log("[#{i.pbThis}'s Magic Wall wore off!]")
+					pbDisplay(_INTL("{1} ha perso il Magiscudo!",i.pbThis))
+				end
+			end
+		end
+		
+		# Sound Barrier (decrease duration)
+		for i in priority
+			next if i.isFainted?
+			if i.effects[PBEffects::SoundBarrier]>0
+				i.effects[PBEffects::SoundBarrier]-=1
+				if i.effects[PBEffects::SoundBarrier]==0
+					PBDebug.log("[#{i.pbThis}'s Sound Barrier wore off!]")
+					pbDisplay(_INTL("{1} ha perso il Fonoscudo!",i.pbThis))
+				end
+			end
+		end
 
 		# Perish Song
 		perishSongUsers=[]

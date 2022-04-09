@@ -1145,6 +1145,43 @@ class PokeBattle_Move_306 < PokeBattle_Move
 		return 0
 	end
 end
+
+################################################################################
+# Weakens Dragon, Fighting, Bug and Dark attacks. 
+# (Magic Wall)
+################################################################################
+class PokeBattle_Move_307 < PokeBattle_Move
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+		for i in 0...4
+			#To all non-opposing allies
+			if !attacker.pbIsOpposing?(i)
+				attacker.effects[PBEffects::MagicWall]=5
+			end
+		end
+		attacker.effects[PBEffects::MagicWall]=5
+		@battle.pbDisplay(_INTL("Il tuo team è rafforzato dal Dragoscudo!"))
+		return 0
+	end
+end
+################################################################################
+# Weakens Water, Flying and Fairy attacks.
+# (Sound Barrier)
+################################################################################
+class PokeBattle_Move_308 < PokeBattle_Move
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+		for i in 0...4
+			#To all non-opposing allies
+			if !attacker.pbIsOpposing?(i)
+				attacker.effects[PBEffects::SoundBarrier]=5
+			end
+		end
+		attacker.effects[PBEffects::SoundBarrier]=5
+		@battle.pbDisplay(_INTL("Il tuo team è rafforzato dal Dragoscudo!"))
+		return 0
+	end
+end
 ################################################################################
 # Fails if the target doesn't have an item. (Poltergeist)
 ################################################################################

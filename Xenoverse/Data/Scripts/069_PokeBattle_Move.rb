@@ -773,6 +773,29 @@ class PokeBattle_Move
 				end
 			end
 		end
+
+		
+		#Magic Wall
+		if isConst?(type,PBTypes,:DRAGON) || isConst?(type,PBTypes,:FIGHTING) ||
+			isConst?(type,PBTypes,:DARK) || isConst?(type,PBTypes,:BUG)
+			for i in 0...4
+				if @battle.battlers[i].effects[PBEffects::MagicWall]>0 && !@battle.battlers[i].isFainted?
+					damagemult=(damagemult*0.5).round
+					break
+				end
+			end
+		end
+		
+		#Sound Barrier
+		if isConst?(type,PBTypes,:FLYING) || isConst?(type,PBTypes,:FAIRY) ||
+			isConst?(type,PBTypes,:WATER) 
+			for i in 0...4
+				if @battle.battlers[i].effects[PBEffects::SoundBarrier]>0 && !@battle.battlers[i].isFainted?
+					damagemult=(damagemult*0.5).round
+					break
+				end
+			end
+		end
 		
 		#if (options&SELFCONFUSE)==0 && opponent.boss==true  #reduce damage if target is a boss and it's a confusion move
 		#		damagemult=(damagemult/opponent.hpMoltiplier).round
