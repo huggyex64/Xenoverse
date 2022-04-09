@@ -2885,7 +2885,7 @@ class PokeBattle_Battle
 
 		processed = []
 		loop do 
-			restartForTailwind = false
+			recalculate = false
 			for i in priority
 				next if processed.include?(i)
 				# Skips current turn processing and restarts it eliminating any one who has
@@ -2896,14 +2896,20 @@ class PokeBattle_Battle
 					echoln "#{i.pokemon.name} activated Tailwind? #{pbChoseMoveFunctionCode?(i.index,0x05B) && i.pbOwnSide().effects[PBEffects::Tailwind]==4}"
 				end
 				if pbChoseMoveFunctionCode?(i.index,0x05B) && i.pbOwnSide().effects[PBEffects::Tailwind]==4
-					restartForTailwind = true
+					recalculate = true
+					@usepriority = false
+					priority = pbPriority
+					break
+				end
+				if pbChoseMoveFunctionCode?(i.index,0x306) && i.pbPartner.effects[PBEffects::Cheering]
+					recalculate = true
 					@usepriority = false
 					priority = pbPriority
 					break
 				end
 				return if @decision>0
 			end
-			next if restartForTailwind
+			next if recalculate
 			break
 		end
 		pbWait(20)
