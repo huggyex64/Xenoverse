@@ -632,7 +632,7 @@ class PokeBattle_Battler
 	
 	def pbRecoverHP(amt,anim=false)
 		if pbOwnSide.effects[PBEffects::Benevolence] > 0
-			PBDebug.log("#{pbThis} is influenced by Benevolence! Healing from #{amt} to #{(amt*1.5).floo}")
+			PBDebug.log("#{pbThis} is influenced by Benevolence! Healing from #{amt} to #{(amt*1.5).floor}")
 			amt = (amt*1.5).floor
 		end
 
