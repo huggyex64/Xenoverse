@@ -1446,9 +1446,11 @@ module CableClub
       when :connectionInfo
         @uid = record.str
         @md5 = record.str
+        echoln ">>>>>>>>>>weeeeeeeeeee>>>>>>>>>>>>>>>> #{@uid} #{@md5}"
       end
     end
     if connection.can_send? && (@uid != nil && @md5 != nil)
+      echoln "#{@uid} #{@md5}"
       connection.send do |writer|
         writer.sym(:enlist)
         writer.str($Trainer.name + ":#{@md5}:#{@uid}" )
@@ -2475,6 +2477,8 @@ module CableClub
 
     return if host == nil || out == "BANNED"
 =end
+    @uid = nil
+    @md5 = nil
     @ui = ui
     @handlers = {}
     # Waiting to be connected to the server.
@@ -2631,6 +2635,8 @@ module CableClub
 
       end
       @closeOnline = false
+      
+      echoln "ORA VI NILLO BASTARDI"
     end
   end
 
