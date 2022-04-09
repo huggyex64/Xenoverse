@@ -631,7 +631,10 @@ class PokeBattle_Battler
 	end
 	
 	def pbRecoverHP(amt,anim=false)
-		amt = (amt*1.5).floor if pbOwnSide.effects[PBEffects::Benevolence] > 0
+		if pbOwnSide.effects[PBEffects::Benevolence] > 0
+			PBDebug.log("#{pbThis} is influenced by Benevolence! Healing from #{amt} to #{(amt*1.5).floo}")
+			amt = (amt*1.5).floor
+		end
 
 		if self.hp+amt>@totalhp
 			amt=@totalhp-self.hp
