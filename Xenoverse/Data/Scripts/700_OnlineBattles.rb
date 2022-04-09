@@ -1446,7 +1446,6 @@ module CableClub
       when :connectionInfo
         @uid = record.str
         @md5 = record.str
-        echoln ">>>>>>>>>>weeeeeeeeeee>>>>>>>>>>>>>>>> #{@uid} #{@md5}"
       end
     end
     if connection.can_send? && (@uid != nil && @md5 != nil)
@@ -2635,8 +2634,6 @@ module CableClub
 
       end
       @closeOnline = false
-      
-      echoln "ORA VI NILLO BASTARDI"
     end
   end
 
