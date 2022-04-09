@@ -3834,3 +3834,15 @@ TrainerBattleBGM=VS.RivaleAlt.mp3
 Outdoor=false
 WildBattleBGM=Wild Battle Monte Alterato.mp3
 ShowArea=false
+[634]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[635]
+# Monte Zodiaco Alterato
+BattleBack=Bosco
+Bicycle=false
+Outdoor=false
+WildBattleBGM=Wild Battle Monte Alterato.mp3
+ShowArea=false
