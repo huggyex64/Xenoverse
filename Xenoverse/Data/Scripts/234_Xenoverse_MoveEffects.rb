@@ -1048,7 +1048,7 @@ class PokeBattle_Move_301 < PokeBattle_Move
 	end
 end
 ################################################################################
-# Weakens Electric, Grass, Fire and Water attacks. (Dragon Endurance)
+# Creates an hazard that lowers the defences of the opponents. (Velvet Scales)
 ################################################################################
 class PokeBattle_Move_302 < PokeBattle_Move
 	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
@@ -1064,5 +1064,93 @@ class PokeBattle_Move_302 < PokeBattle_Move
 			@battle.pbDisplay(_INTL("Delle Squame Velliche coprono il tuo campo!"))
 		end
 		return 0
+	end
+end
+################################################################################
+# Creates an hazard on your side of the field that heals your team over time.
+# (Hawthorns)
+################################################################################
+class PokeBattle_Move_303 < PokeBattle_Move
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		if attacker.pbOwnSide.effects[PBEffects::Hawthorns]
+			@battle.pbDisplay(_INTL("But it failed!"))
+			return -1
+		end
+		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+		attacker.pbOwnSide.effects[PBEffects::Hawthorns]=true
+		if !@battle.pbIsOpposing?(attacker.index)
+			@battle.pbDisplay(_INTL("Delle piante di Biancospino coprono il tuo campo!"))
+		else
+			@battle.pbDisplay(_INTL("Delle piante di Biancospino coprono il campo del tuo avversario!"))
+		end
+		return 0
+	end
+end
+################################################################################
+# Creates an hazard on your opponent's field that increases the enemy speed but 
+# lowers their accuracy.
+# (Scorched Ashes)
+################################################################################
+class PokeBattle_Move_304 < PokeBattle_Move
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		if attacker.pbOwnSide.effects[PBEffects::ScorchedAshes]
+			@battle.pbDisplay(_INTL("But it failed!"))
+			return -1
+		end
+		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+		attacker.pbOwnSide.effects[PBEffects::ScorchedAshes]=true
+		if !@battle.pbIsOpposing?(attacker.index)
+			@battle.pbDisplay(_INTL("Delle ceneri arse ricoprono il tuo campo!"))
+		else
+			@battle.pbDisplay(_INTL("Delle ceneri arse ricoprono il campo del tuo avversario!"))
+		end
+		return 0
+	end
+end
+################################################################################
+# Creates an aura that boosts ANY kind of healing on your side of the field.
+# (Benevolence)
+################################################################################
+class PokeBattle_Move_305 < PokeBattle_Move
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		if attacker.pbOwnSide.effects[PBEffects::Benevolence]
+			@battle.pbDisplay(_INTL("But it failed!"))
+			return -1
+		end
+		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+		attacker.pbOwnSide.effects[PBEffects::Benevolence] = 3 + @battle.pbRandom(3)
+		if !@battle.pbIsOpposing?(attacker.index)
+			@battle.pbDisplay(_INTL("Un'aura rinvigorente rincuora i tuoi Pokémon!"))
+		else
+			@battle.pbDisplay(_INTL("Un'aura rinvigorente rincuora i Pokémon del tuo avversario!"))
+		end
+		return 0
+	end
+end
+
+################################################################################
+# Gives priority to the move your ally will do.
+# (Cheering)
+################################################################################
+class PokeBattle_Move_306 < PokeBattle_Move
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		if attacker.pbPartner.isFainted? ||
+			attacker.pbPartner.effects[PBEffects::Cheering]
+			@battle.pbDisplay(_INTL("But it failed!"))  
+			return -1
+		end
+		pbShowAnimation(@id,attacker,attacker.pbPartner,hitnum,alltargets,showanimation)
+		attacker.pbPartner.effects[PBEffects::Cheering]=true
+		@battle.pbDisplay(_INTL("{1} is cheering for {2}!",attacker.pbThis,attacker.pbPartner.pbThis(true)))
+		return 0
+	end
+end
+################################################################################
+# Fails if the target doesn't have an item. (Poltergeist)
+################################################################################
+class PokeBattle_Move_320 < PokeBattle_Move#PokeBattle_UnimplementedMove
+	def pbMoveFailed(attacker,opponent)
+		return false if opponent.item != 0
+		return true
 	end
 end

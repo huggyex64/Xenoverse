@@ -1451,7 +1451,7 @@ MultipleForms.register(:RAPIDASHX,{
 			next
 		},
 		"getBaseStats"=>proc{|pokemon|
-			next [65, 80, 70, 115, 110, 60] if pokemon.form == 1
+			next [65, 80, 70, 145, 140, 60] if pokemon.form == 1
 			next 
 		}
 	})

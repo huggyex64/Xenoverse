@@ -103,6 +103,7 @@ begin
 		BanefulBunker			= 99
     ShellTrap         = 100
     ThroatChop        = 101
+    Cheering          = 140
     DragonEndurance   = 200
     # These effects apply to a side
     LightScreen = 0
@@ -116,6 +117,9 @@ begin
     ToxicSpikes = 8
 		StickyWeb   = 9
     VelvetScales = 20
+    Hawthorns    = 21
+    ScorchedAshes= 22
+    Benevolence  = 50
     Switch      = 90
     # These effects apply to the battle (i.e. both sides)
     Gravity    = 0

@@ -1931,11 +1931,13 @@ class PokeBattle_Move_049 < PokeBattle_Move
 
 		attacker.pbOwnSide.effects[PBEffects::AcidRain] = false
 		attacker.pbOwnSide.effects[PBEffects::VelvetScales] = false
+		attacker.pbOwnSide.effects[PBEffects::ScorchedAshes] = false
 		attacker.pbOwnSide.effects[PBEffects::StickyWeb]   = false
 		attacker.pbOwnSide.effects[PBEffects::ToxicSpikes] = 0
 
 		opponent.pbOwnSide.effects[PBEffects::AcidRain] = false
 		opponent.pbOwnSide.effects[PBEffects::VelvetScales] = false
+		opponent.pbOwnSide.effects[PBEffects::ScorchedAshes] = false
 		opponent.pbOwnSide.effects[PBEffects::StickyWeb]   = false
 		opponent.pbOwnSide.effects[PBEffects::ToxicSpikes] = 0
 		return 0
@@ -1954,11 +1956,13 @@ class PokeBattle_Move_049 < PokeBattle_Move
 		
 		attacker.pbOwnSide.effects[PBEffects::AcidRain] = false
 		attacker.pbOwnSide.effects[PBEffects::VelvetScales] = false
+		attacker.pbOwnSide.effects[PBEffects::ScorchedAshes] = false
 		attacker.pbOwnSide.effects[PBEffects::StickyWeb]   = false
 		attacker.pbOwnSide.effects[PBEffects::ToxicSpikes] = 0
 
 		opponent.pbOwnSide.effects[PBEffects::AcidRain] = false
 		opponent.pbOwnSide.effects[PBEffects::VelvetScales] = false
+		opponent.pbOwnSide.effects[PBEffects::ScorchedAshes] = false
 		opponent.pbOwnSide.effects[PBEffects::StickyWeb]   = false
 		opponent.pbOwnSide.effects[PBEffects::ToxicSpikes] = 0
 		return true
@@ -4268,6 +4272,7 @@ class PokeBattle_Move_0B5 < PokeBattle_Move
 			0x71,    # Counter
 			0x72,    # Mirror Coat
 			0x9C,    # Helping Hand
+		   0x306,    # Cheering
 			0xAA,    # Detect, Protect
 			0xAD,    # Feint
 			0xAE,    # Mirror Move
@@ -6951,6 +6956,10 @@ class PokeBattle_Move_110 < PokeBattle_Move
 			if attacker.pbOwnSide.effects[PBEffects::VelvetScales]
 				attacker.pbOwnSide.effects[PBEffects::VelvetScales]=false
 				@battle.pbDisplay(_INTL("{1} blew away the velvet scales!",attacker.pbThis))     
+			end
+			if attacker.pbOwnSide.effects[PBEffects::ScorchedAshes]
+				attacker.pbOwnSide.effects[PBEffects::ScorchedAshes]=false
+				@battle.pbDisplay(_INTL("{1} blew away the scorched ashes!",attacker.pbThis))     
 			end
 			if attacker.pbOwnSide.effects[PBEffects::StickyWeb]
 				attacker.pbOwnSide.effects[PBEffects::StickyWeb]=false

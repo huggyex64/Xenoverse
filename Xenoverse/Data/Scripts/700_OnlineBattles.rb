@@ -3182,7 +3182,8 @@ class PokeBattle_CableClub < PokeBattle_Battle
         # I need to use my own client perspective for this
         echoln "RAPTOR? #{battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[choices[i][3]].hp <= @battlers[choices[i][3]].totalhp/4}"
         pri+=1 if battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[choices[i][3]].hp <= @battlers[choices[i][3]].totalhp/4 #I need to use my ow
-			end
+        pri+=3 if battlers[i].effects[PBEffects::Cheering]
+      end
 			priorities[i]=pri
 			if i==0
 				maxpri=pri

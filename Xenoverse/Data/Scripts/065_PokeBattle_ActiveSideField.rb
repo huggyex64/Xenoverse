@@ -16,6 +16,9 @@ begin
       @effects[PBEffects::Tailwind]    = 0
       @effects[PBEffects::ToxicSpikes] = 0
       @effects[PBEffects::VelvetScales] = false
+      @effects[PBEffects::Hawthorns] = false
+      @effects[PBEffects::ScorchedAshes] = false
+      @effects[PBEffects::Benevolence] = 0
     end
   end
 

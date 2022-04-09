@@ -1112,17 +1112,19 @@ class PokeBattle_Battle
 			# For this function, switching and using items
 			# is the same as using a move with a priority of 0
 			pri=0
-			if @choices[i][0]==1 # Is a move
+			if choices[i][0]==1 # Is a move
 				printable = ""
-				for t in @choices[i]
+				for t in choices[i]
 					printable+=t.to_s + ","
 				end
-				echoln "PRIORITY ON #{i} -> #{printable}:#{@choices[i][2]}"
-				pri=@choices[i][2].priority
-				pri+=1 if @battlers[i].hasWorkingAbility(:PRANKSTER) && @choices[i][2].basedamage==0 # Is status move
-				pri+=1 if isConst?(@battlers[i].ability,PBAbilities,:GALEWINGS) && @choices[i][2].type==2
-				echoln "RAPTOR? #{@battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[choices[i][3]].hp <= @battlers[choices[i][3]].totalhp/4}"
-				pri+=1 if @battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[choices[i][3]].hp <= @battlers[choices[i][3]].totalhp/4 #I need to use my ow		
+				echoln "PRIORITY ON #{i} -> #{printable}:#{choices[i][2]}"
+				pri=choices[i][2].priority
+				pri+=1 if battlers[i].hasWorkingAbility(:PRANKSTER) && choices[i][2].basedamage==0 # Is status move
+				pri+=1 if isConst?(battlers[i].ability,PBAbilities,:GALEWINGS) && choices[i][2].type==2
+				# I need to use my own client perspective for this
+				echoln "RAPTOR? #{battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[choices[i][3]].hp <= @battlers[choices[i][3]].totalhp/4}"
+				pri+=1 if battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[choices[i][3]].hp <= @battlers[choices[i][3]].totalhp/4 #I need to use my ow
+				pri+=3 if battlers[i].effects[PBEffects::Cheering]
 			end
 			priorities[i]=pri
 			if i==0
@@ -2225,6 +2227,16 @@ class PokeBattle_Battle
 					pbDisplayPaused(_INTL("{1} was weakened by the scales!",pkmn.pbThis))
 				end
 			end
+			
+			# Scorched Ashes
+			if pkmn.pbOwnSide.effects[PBEffects::ScorchedAshes]
+				if !pkmn.hasWorkingAbility(:MAGICGUARD) && !pkmn.hasWorkingItem(:HEAVYDUTYBOOTS)
+					#@scene.pbDamageAnimation(pkmn,0)
+					pkmn.pbReduceStat(PBStats::ACCURACY,2,false,true,false)
+					pkmn.pbIncreaseStat(PBStats::SPEED,1,false,true,false)
+					pbDisplayPaused(_INTL("{1} was scorched by the ashes!",pkmn.pbThis))
+				end
+			end
 			pkmn.pbFaint if pkmn.isFainted?
 			# Toxic Spikes
 			if pkmn.pbOwnSide.effects[PBEffects::ToxicSpikes]>0
@@ -3212,6 +3224,16 @@ class PokeBattle_Battle
 				pbDisplay(_INTL("{1}'s Aqua Ring restored its HP a little!",i.pbThis)) if hpgain>0
 			end
 		end
+		# Hawthorns
+		for i in priority
+			if i.pbOwnSide.effects[PBEffects::Hawthorns]
+				#@scene.pbDamageAnimation(pkmn,0)
+				hpgain=(i.boss ? (i.totalhp/10)/i.hpMoltiplier : i.totalhp/10).floor
+				hpgain=(hpgain*1.3).floor if i.hasWorkingItem(:BIGROOT)
+				hpgain=i.pbRecoverHP(hpgain,true)
+				pbDisplay(_INTL("Le piante di Biancospino rinvigoriscono {1}!",i.pbThis)) if hpgain>0
+			end
+		end
 		# Ingrain
 		for i in priority
 			next if i.isFainted?
@@ -3570,6 +3592,18 @@ class PokeBattle_Battle
 				end
 			end
 		end
+		# Benevolence
+		for i in 0...2
+			if sides[i].effects[PBEffects::Benevolence]>0
+				sides[i].effects[PBEffects::Benevolence]-=1
+				if sides[i].effects[PBEffects::Benevolence]==0
+					pbDisplay(_INTL("Your team's Benevolence is dissipating!")) if i==0
+					pbDisplay(_INTL("The opposing team's Benevolence is dissipating!")) if i==1
+					PBDebug.log("[Benevolence ended on the player's side]") if i==0
+					PBDebug.log("[Benevolence ended on the opponent's side]") if i==1
+				end
+			end
+		end
 		# Lucky Chant
 		for i in 0...2
 			if sides[i].effects[PBEffects::LuckyChant]>0
@@ -3744,6 +3778,7 @@ class PokeBattle_Battle
 			@battlers[i].effects[PBEffects::Flinch]=false
 			@battlers[i].effects[PBEffects::FollowMe]=false
 			@battlers[i].effects[PBEffects::HelpingHand]=false
+			@battlers[i].effects[PBEffects::Cheering]=false
 			@battlers[i].effects[PBEffects::MagicCoat]=false
 			@battlers[i].effects[PBEffects::Snatch]=false
 			@battlers[i].effects[PBEffects::Charge]-=1 if @battlers[i].effects[PBEffects::Charge]>0

@@ -331,6 +331,7 @@ class PokeBattle_Battler
 		@effects[PBEffects::FuryCutter]       = 0
 		@effects[PBEffects::Grudge]           = false
 		@effects[PBEffects::HelpingHand]      = false
+		@effects[PBEffects::Cheering]         = false
 		@effects[PBEffects::HyperBeam]        = 0
 		@effects[PBEffects::Imprison]         = false
 		@effects[PBEffects::MagicCoat]        = false
@@ -630,6 +631,8 @@ class PokeBattle_Battler
 	end
 	
 	def pbRecoverHP(amt,anim=false)
+		amt = (amt*1.5).floor if pbOwnSide.effects[PBEffects::Benevolence] > 0
+
 		if self.hp+amt>@totalhp
 			amt=@totalhp-self.hp
 		elsif amt<=0 && self.hp!=@totalhp
