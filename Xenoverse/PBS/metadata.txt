@@ -3846,3 +3846,16 @@ Bicycle=false
 Outdoor=false
 WildBattleBGM=Wild Battle Monte Alterato.mp3
 ShowArea=false
+[636]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[637]
+# Monte Zodiaco Alterato
+BattleBack=Bulu
+Weather=Sunny,100
+Bicycle=false
+Outdoor=false
+WildBattleBGM=Wild Battle Monte Alterato.mp3
+ShowArea=false
