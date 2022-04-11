@@ -2633,6 +2633,11 @@ module CableClub
         end
 
       end
+
+      connection.send do |writer|
+        writer.sym(:closeConnection)
+      end
+
       @closeOnline = false
     end
   end

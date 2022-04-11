@@ -99,7 +99,7 @@ end
 ################################################################################
 class Sprite
   attr_accessor :kleinPatternBitmap
-  
+
   def set_pattern(pattern, alpha, everyframe = false)
     # Get the id from the pattern bitmap
     pattern_id = pattern.__id__
