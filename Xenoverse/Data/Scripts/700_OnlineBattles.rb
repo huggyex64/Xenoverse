@@ -3273,7 +3273,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
     awaiting = true
     sent = 0
     echoln "AWAITING READINESS #{sent}"
-    @connection.flush
+    #@connection.flush
     while(awaiting)
       Graphics.update
       Input.update
@@ -3560,11 +3560,11 @@ class PokeBattle_CableClub < PokeBattle_Battle
     elsif PBWeather.const_defined?(:STRONGWINDS) && @weather==PBWeather::STRONGWINDS
       pbDisplay(_INTL("The wind is strong."))
     end
-    pbAwaitReadiness
 
     #Qui viene chiamato random
     pbOnActiveAll   # Abilities
     @turncount=0
+    pbAwaitReadiness
 
     loop do   # Now begin the battle loop
       PBDebug.log("***Round #{@turncount+1}***") if $INTERNAL
