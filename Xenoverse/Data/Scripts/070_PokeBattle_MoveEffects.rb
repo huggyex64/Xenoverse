@@ -5935,7 +5935,7 @@ class PokeBattle_Move_0EE < PokeBattle_Move
 			newpoke=@battle.pbSwitchInBetween(attacker.index,true,false)
 			@battle.pbMessagesOnReplace(attacker.index,newpoke)
 			attacker.pbResetForm
-			@battle.pbReplace(attacker.index,newpoke,true)
+			@battle.pbReplace(attacker.index,newpoke,false)
 			PBDebug.log("[INFO] Setting #{attacker.pbThis} UTurn turneffects to true")
 			attacker.turneffects[PBEffects::UTurn] = true
 			@battle.pbOnActiveOne(attacker)
