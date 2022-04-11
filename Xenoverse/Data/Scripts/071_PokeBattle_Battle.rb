@@ -3232,6 +3232,7 @@ class PokeBattle_Battle
 		end
 		# Hawthorns
 		for i in priority
+			next if i.isFainted?
 			if i.pbOwnSide.effects[PBEffects::Hawthorns]
 				#@scene.pbDamageAnimation(pkmn,0)
 				hpgain=(i.boss ? (i.totalhp/10)/i.hpMoltiplier : i.totalhp/10).floor
