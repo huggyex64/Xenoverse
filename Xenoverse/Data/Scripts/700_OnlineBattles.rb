@@ -3273,6 +3273,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
     awaiting = true
     sent = 0
     echoln "AWAITING READINESS #{sent}"
+    @connection.flush
     while(awaiting)
       Graphics.update
       Input.update
@@ -4103,6 +4104,10 @@ class Connection
     @recv_parser = Parser.new
     @recv_records = []
     @discard_records = 0
+  end
+
+  def flush
+    @recv_records = []
   end
 
   def update
