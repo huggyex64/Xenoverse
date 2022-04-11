@@ -1119,12 +1119,12 @@ class PokeBattle_Battle
 				end
 				echoln "PRIORITY ON #{i} -> #{printable}:#{choices[i][2]}"
 				pri=choices[i][2].priority
-				pri+=1 if battlers[i].hasWorkingAbility(:PRANKSTER) && choices[i][2].basedamage==0 # Is status move
+				pri+=2 if battlers[i].hasWorkingAbility(:PRANKSTER) && choices[i][2].basedamage==0 # Is status move
 				pri+=1 if isConst?(battlers[i].ability,PBAbilities,:GALEWINGS) && choices[i][2].type==2
 				# I need to use my own client perspective for this
 				echoln "RAPTOR? #{battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[choices[i][3]].hp <= @battlers[choices[i][3]].totalhp/4}"
 				pri+=1 if battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[choices[i][3]].hp <= @battlers[choices[i][3]].totalhp/4 #I need to use my ow
-				pri+=3 if battlers[i].effects[PBEffects::Cheering]
+				pri+=2 if battlers[i].effects[PBEffects::Cheering]
 			end
 			priorities[i]=pri
 			if i==0
