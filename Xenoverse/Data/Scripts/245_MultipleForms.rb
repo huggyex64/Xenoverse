@@ -1026,15 +1026,15 @@ MultipleForms.register(:TRISHOUT,{
 			next if pokemon.form==0
 			movelist=[]
 			case pokemon.form
-			when 1; movelist=[[1,:FIREPUNCH],[1,:JETSTRIKE],[1,:ROAR],[1,:EMBER],
+			when 1; movelist=[[1,:FIREPUNCH],[1,:JETSTRIKE],[1,:CHEERING],[1,:ROAR],[1,:EMBER],
 					[1,:TACKLE],[8,:BABBLE],[13,:HOWL],[17,:TAKEDOWN],
 					[21,:FIREFANG],[25,:UPROAR],[28,:SCREECH],[32,:FLAMETHROWER],
-					[36,:HYPERVOICE],[40,:SWAGGER],[45,:BOOMBURST],
+					[36,:HYPERVOICE],[38,:SOUNDBARRIER],[40,:SWAGGER],[45,:BOOMBURST],
 					[51,:ROAR],[56,:SCARYFACE],[61,:FLAREBLITZ]]
-			when 2; movelist=[[1,:PRIMALSCREAM],[1,:HYPERVOICE],[1,:LAVAPLUME],
+			when 2; movelist=[[1,:PRIMALSCREAM],[1,:CHEERING],[1,:SCORCHEDASHES],[1,:HYPERVOICE],[1,:LAVAPLUME],
 					[1,:NOBLEROAR],[1,:EMBER],[1,:TACKLE],[8,:BABBLE],
 					[13,:HOWL],[17,:TAKEDOWN],[21,:FIREFANG],[25,:UPROAR],
-					[28,:SCREECH],[32,:FLAMETHROWER],[36,:PRIMALSCREAM],
+					[28,:SCREECH],[32,:FLAMETHROWER],[36,:PRIMALSCREAM],[38,:SOUNDBARRIER],
 					[40,:SWAGGER],[45,:BOOMBURST],[51,:NOBLEROAR],[56,:SCARYFACE],[61,:FLAREBLITZ]]
 			when 3; movelist=[[1,:SCRATCH],[1,:GROWL],[6,:BABBLE],[8,:EMBER],[10,:HEADBUTT],
 					[12,:BITE],[16,:SONICBOOM],[20,:FLAMEBURST],[25,:REVENGE],
@@ -1108,16 +1108,16 @@ MultipleForms.register(:SHYLEON,{
 			movelist=[]
 			case pokemon.form
 				# Forma Terrestre
-			when 1; movelist=[[1,:TEETERDANCE],[1,:PSYCHUP],[1,:LUNARDANCE],[1,:ABSORB],
+			when 1; movelist=[[1,:TEETERDANCE],[1,:PSYCHUP],[1,:BENEVOLENCE],[1,:LUNARDANCE],[1,:ABSORB],
 					[1,:POUND],[8,:DISARMINGVOICE],[13,:GROWTH],[17,:CAMOUFLAGE],
 					[21,:LEAFTORNADO],[25,:MAGICALLEAF],[28,:AGILITY],[32,:GIGADRAIN],
-					[36,:DAZZLINGGLEAM],[40,:SYNTHESIS],[45,:MOONBLAST],[48,:EARTHPOWER],[51,:LUNARDANCE],
+					[36,:DAZZLINGGLEAM],[38,:MAGICWALL],[40,:SYNTHESIS],[45,:MOONBLAST],[48,:EARTHPOWER],[51,:LUNARDANCE],
 					[56,:GRASSWHISTLE],[61,:LEAFSTORM]]
 				# Forma Xenoverse
-			when 2; movelist=[[1,:FERALCLUTCH],[1,:DAZZLINGGLEAM],[1,:HISS],[1,:EXTRASENSORY],
+			when 2; movelist=[[1,:FERALCLUTCH],[1,:HAWTHORNS],[1,:BENEVOLENCE],[1,:DAZZLINGGLEAM],[1,:HISS],[1,:EXTRASENSORY],
 					[1,:ABSORB],[1,:POUND],[8,:DISARMINGVOICE],[13,:GROWTH],[17,:CAMOUFLAGE],
 					[21,:LEAFTORNADO],[25,:MAGICALLEAF],[28,:AGILITY],[32,:GIGADRAIN],
-					[36,:FERALCLUTCH],[40,:SYNTHESIS],[45,:MOONBLAST],[48,:EARTHPOWER],[51,:EXTRASENSORY],
+					[36,:FERALCLUTCH],[38,:MAGICWALL],[40,:SYNTHESIS],[45,:MOONBLAST],[48,:EARTHPOWER],[51,:EXTRASENSORY],
 					[56,:GRASSWHISTLE],[61,:LEAFSTORM]]
 			when 3; movelist = [[1,:POUND],[1,:LEER],[6,:DISARMINGVOICE],[8,:ABSORB],
 					[10,:GROWTH],[12,:DRAININGKISS],[16,:AGILITY],[20,:PURSUIT],
@@ -2937,7 +2937,20 @@ MultipleForms.register(:PIKACHUX,{
 				i[1]=getConst(PBMoves,i[1])
 			end
 			next movelist
-		}
+		},
+		"getMoveCompatibility"=>proc{|pokemon|
+			next if pokemon.gender==0 
+			movelist=[# TMs
+					  :TOXIC,:HIDDENPOWER,:LIGHTSCREEN,:PROTECT,:RETURN,
+					  :DIG,:BRICKBREAK,:DOUBLETEAM,:REFLECT,:FACADE,
+					  :REST,:BENEVOLENCE,:MAGICWALL,:FLING,:GRASSKNOT,
+					  :SWAGGER,:SUBSTITUTE,:AFTERYOU,:COVET,:HELPINGHAND,
+					  :IRONTAIL,:KNOCKOFF,:DAZZLINGGLEAM]
+			for i in 0...movelist.length
+			  movelist[i]=getConst(PBMoves,movelist[i]) if getConst(PBMoves,movelist[i])!=nil
+			end
+			next movelist
+		 },
 		#"getBaseStats"=>proc{|pokemon|
 		#   next [86,68,72,106,109,66] if pokemon.gender==1
 		#   next
