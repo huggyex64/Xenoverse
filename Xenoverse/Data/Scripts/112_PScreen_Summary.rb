@@ -1003,7 +1003,7 @@ class PokemonSummary
   end
 
   def pbStartScreen(party,partyindex,viewportz = 100000)
-    @scene.pbStartScene(party,partyindex,viewportz = 100000)
+    @scene.pbStartScene(party,partyindex,viewportz)
     ret=@scene.pbScene
     @scene.pbEndScene
     return ret
