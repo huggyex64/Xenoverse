@@ -2851,22 +2851,24 @@ class PokeBattle_Battler
 		end
 		if @effects[PBEffects::Flinch]
 			@effects[PBEffects::Flinch]=false
-			if self.hasWorkingAbility(:INNERFOCUS)
-				@battle.pbDisplay(_INTL("{1} won't flinch because of its {2}!",
-						self.pbThis,PBAbilities.getName(self.ability)))
-				PBDebug.log("[#{pbThis} didn't flinch because of Inner Focus]")
-			else
-				@battle.pbDisplay(_INTL("{1} flinched and couldn't move!",self.pbThis))
-				PBDebug.log("[#{pbThis} flinched and couldn't move]")
-				if self.hasWorkingAbility(:STEADFAST)
-					PBDebug.log("[#{pbThis}'s Steadfast triggered]")
-					if pbCanIncreaseStatStage?(PBStats::SPEED)
-						pbIncreaseStat(PBStats::SPEED,1,false)
-						@battle.pbDisplay(_INTL("{1}'s {2} raised its speed!",
-								self.pbThis,PBAbilities.getName(self.ability)))
+			if !@damagestate.substitute
+				if self.hasWorkingAbility(:INNERFOCUS)
+					@battle.pbDisplay(_INTL("{1} won't flinch because of its {2}!",
+							self.pbThis,PBAbilities.getName(self.ability)))
+					PBDebug.log("[#{pbThis} didn't flinch because of Inner Focus]")
+				else
+					@battle.pbDisplay(_INTL("{1} flinched and couldn't move!",self.pbThis))
+					PBDebug.log("[#{pbThis} flinched and couldn't move]")
+					if self.hasWorkingAbility(:STEADFAST)
+						PBDebug.log("[#{pbThis}'s Steadfast triggered]")
+						if pbCanIncreaseStatStage?(PBStats::SPEED)
+							pbIncreaseStat(PBStats::SPEED,1,false)
+							@battle.pbDisplay(_INTL("{1}'s {2} raised its speed!",
+									self.pbThis,PBAbilities.getName(self.ability)))
+						end
 					end
+					return false
 				end
-				return false
 			end
 		end
 		if @effects[PBEffects::Attract]>=0
