@@ -248,3 +248,5 @@
 251,WILLTOURNAMENT,(S.P.E.T.T.R.I),,,,,Male,127
 252,WALLACETOURNAMENT,(Capopalestra),,VS. Gym Apollo,victory gym,,Male,127
 253,GENNAROTOURNAMENT,(Bullo),100,Gennaro bullo ost,Trainer Victory,,Male,
+254,DOUBLEALICE,(Allenatrici),30,,Trainer Victory,,Female,100
+255,DOUBLEKAY,(Allenatori),30,,Trainer Victory,,Male,100
