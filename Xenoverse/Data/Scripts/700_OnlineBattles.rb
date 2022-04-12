@@ -2848,7 +2848,7 @@ module CableClub
         #  @battleTeam = ret
         #end
         ret = OnlinePartySelection.new($Trainer,$Trainer.party,@partner_name,@partner_party,BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type],@cancancelSelection,proc{|x|
-          return BATTLE_TIERS[@chosenTier].call(p)
+          return BATTLE_TIERS[@chosenTier].call(x)
         })
         @battleTeam = ret.result
       }      
