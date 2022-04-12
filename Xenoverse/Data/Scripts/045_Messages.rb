@@ -1035,7 +1035,7 @@ def Kernel.pbShowCommands(msgwindow,commands=nil,cmdIfCancel=0,defaultCmd=0)
   ret=0
   if commands
     cmdwindow=Window_CommandPokemonEx.new(commands)
-    cmdwindow.z=99999
+    cmdwindow.z=msgwindow.z
     cmdwindow.visible=true
     cmdwindow.resizeToFit(cmdwindow.commands)
     pbPositionNearMsgWindow(cmdwindow,msgwindow,:right)

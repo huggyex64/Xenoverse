@@ -1063,13 +1063,13 @@ class OnlinePartySelection
     return @selected
   end
 
-  def initialize(player, party, opponent_name, opp_party, max_selectable,cancancel = true,validProc = nil)
+  def initialize(player, party, opponent_name, opp_party, max_selectable,min_selectable,cancancel = true,validProc = nil)
     @playername = player.name
     @party = party
     @enemyname = opponent_name
     @enemyparty = opp_party
     @max_select = max_selectable
-
+    @min_select = min_selectable
     @cancancel = cancancel
 
     @selectionIndex = 0
@@ -1608,9 +1608,14 @@ class OnlinePartySelection
       end
 
       if Input.trigger?(Input::A)
+        if @selected.length < @min_select
+          pbDisplay(_INTL("Devi scegliere almeno {1} Pokémon.",@min_select))
+          next
+        end
         msgwindow = Kernel.pbCreateMessageWindow()
-        msgwindow.z = 1010020
-        Kernel.pbMessageDisplay(msgwindow,_INTL("Te sta bene?"))
+        msgwindow.z = 1000000
+
+        Kernel.pbMessageDisplay(msgwindow,_INTL("Are you sure?"),false)
         if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
           msgwindow.visible = false
           Kernel.pbDisposeMessageWindow(msgwindow)
@@ -1628,6 +1633,15 @@ class OnlinePartySelection
     end
     pbFadeOutAndHide(@sprites)
     pbDisposeSpriteHash(@sprites)
+  end
+
+  def pbDisplay(message)    
+    msgwindow = Kernel.pbCreateMessageWindow()
+    msgwindow.z = 1000000
+
+    Kernel.pbMessageDisplay(msgwindow,message)
+    msgwindow.visible = false
+    Kernel.pbDisposeMessageWindow(msgwindow)
   end
 
   def updateStatuses()
@@ -1668,7 +1682,7 @@ class OnlinePartySelection
 end
 
 def pbTSC
-  scos = OnlinePartySelection.new($Trainer,$Trainer.party,"Emanueleg",$Trainer.party,6,true,proc{|x|
+  scos = OnlinePartySelection.new($Trainer,$Trainer.party,"Emanueleg",$Trainer.party,3,1,true,proc{|x|
     return x.species > 1050
   })
   echoln scos.result
@@ -2847,7 +2861,7 @@ module CableClub
         #if !(ret == nil || ret == -1)
         #  @battleTeam = ret
         #end
-        ret = OnlinePartySelection.new($Trainer,$Trainer.party,@partner_name,@partner_party,BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type],@cancancelSelection,proc{|x|
+        ret = OnlinePartySelection.new($Trainer,$Trainer.party,@partner_name,@partner_party,BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type],@battle_type==:single ? 1 : 2,@cancancelSelection,proc{|x|
           return BATTLE_TIERS[@chosenTier].call(x)
         })
         @battleTeam = ret.result
