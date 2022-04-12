@@ -1431,7 +1431,7 @@ class OnlinePartySelection
       @sprites["enemyparty#{i}"] = EAMSprite.new(@viewport)
       @sprites["enemyparty#{i}"].z = 53
       @sprites["enemyparty#{i}"].bitmap = pbBitmap(@selpath + "enemySlot").clone
-      icon = evaluateIcon(party[i])
+      icon = evaluateIcon(enemyparty[i])
       @sprites["enemyparty#{i}"].bitmap.blt(0,1,icon,Rect.new(0,0,72,73))
       @sprites["enemyparty#{i}"].x = 363 + (i%2 == 1 ? 70 : 0)
       @sprites["enemyparty#{i}"].y = 55 + 42*i%2 + 86 * i/2
@@ -1609,7 +1609,7 @@ class OnlinePartySelection
 
       if Input.trigger?(Input::A)
         msgwindow = Kernel.pbCreateMessageWindow()
-        msgwindow.z = 1000020
+        msgwindow.z = 1010020
         Kernel.pbMessageDisplay(msgwindow,_INTL("Te sta bene?"))
         if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
           msgwindow.visible = false
