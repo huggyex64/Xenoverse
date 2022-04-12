@@ -79,9 +79,9 @@ class PokemonSummaryScene
 		end	
   end
 	
-	def pbStartScene(party,partyindex)
+	def pbStartScene(party,partyindex,viewportz = 100000)
 		@viewport=Viewport.new(0,0,Graphics.width,Graphics.height)
-    @viewport.z=100000
+    @viewport.z=viewportz 
     @party=party
     @partyindex=partyindex
     @pokemon=@party[@partyindex]
