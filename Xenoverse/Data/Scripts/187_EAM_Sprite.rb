@@ -17,6 +17,7 @@ module EAM_Sprite
 	attr_accessor	:circY
 	attr_reader		:cAngle
 	attr_reader		:radius
+	attr_accessor   :children
 	
 	alias :initialize_old :initialize
 	def initialize(viewport=nil)
@@ -40,6 +41,7 @@ module EAM_Sprite
 		@rotate ={}
 		@coloring ={}
 		@toning={}
+		@children = []
 		# Initializing position variables
 		#@transition["stX"] = 0
 		#@transition["stY"] = 0
@@ -102,6 +104,14 @@ module EAM_Sprite
 		@transitionCirc["active"] = false
 	end
 	
+	def addChild(child)
+		if child.is_a?(EAMSprite)
+			@children << child
+		else
+			Log.e("[EAM_SPRITE_MODULE]","Tried to add a child Sprite but it wasn't an EAMSprite.")
+		end
+	end
+
 	def setRotationPoint(x,y)
 		@rx = x
 		@ry = y
@@ -169,6 +179,10 @@ module EAM_Sprite
 		@transition["callback"] = callback
 		@transition["active"] = true
 		@transition["type"] = "linear"
+		for child in @children
+			#moving child by same difference
+			child.moveX(child.x + x-self.x,frame,ease,callback)
+		end
 	end
 	
 	def moveY(y,frame,ease=:linear_tween,callback=nil)

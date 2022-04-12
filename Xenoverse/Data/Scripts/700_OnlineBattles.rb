@@ -527,6 +527,10 @@ class OnlineLobby
 
   end
 
+  def selectPartyOnline(party,opp_party)
+    partySelector = OnlinePartySelection.new(party,opp_party)
+  end
+
   # don't care about showing or not
   def updateParty(party)
     for i in 0...party.length
@@ -1052,6 +1056,623 @@ end
 def pbCheckForCE(connection)
 end
 
+class OnlinePartySelection
+  attr_accessor(:selected)
+
+  def result
+    return @selected
+  end
+
+  def initialize(player, party, opponent_name, opp_party, max_selectable,cancancel = true,validProc = nil)
+    @playername = player.name
+    @party = party
+    @enemyname = opponent_name
+    @enemyparty = opp_party
+    @max_select = max_selectable
+
+    @cancancel = cancancel
+
+    @selectionIndex = 0
+
+    @annot=[]
+    @statuses=[]
+    ordinals=[
+       _INTL("INELIGIBLE"),
+       _INTL("NOT ENTERED"),
+       _INTL("BANNED"),
+       _INTL("FIRST"),
+       _INTL("SECOND"),
+       _INTL("THIRD"),
+       _INTL("FOURTH"),
+       _INTL("FIFTH"),
+       _INTL("SIXTH")
+    ]
+
+    @selected = []
+
+    addedEntry=false
+    
+    for i in 0...@party.length
+      if validProc != nil && validProc.call(@party[i])
+        @statuses[i]=1
+      else
+        @statuses[i]=2
+      end
+    end
+    for i in 0...@party.length
+      @annot[i]=ordinals[@statuses[i]]
+    end
+
+
+
+    oldfr = Graphics.frame_rate
+    Graphics.frame_rate = 60
+    @viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
+    @viewport.z = 1000000
+    @sprites = {}
+    @path = "Graphics/Pictures/Online/"
+    @selpath = @path + "Selection/"
+    @sprites["bg"] = Sprite.new(@viewport)
+    @sprites["bg"].z = 50
+    @sprites["bg"].bitmap = pbBitmap(@path + "BG")
+
+    @sprites["anibg"] = AnimatedPlane.new(@viewport)
+    @sprites["anibg"].z = 51
+    @sprites["anibg"].bitmap=pbBitmap(@path + "repeatbg")
+
+    #end -110, start 0
+    @sprites["playerbox"] = EAMSprite.new(@viewport)
+    @sprites["playerbox"].z = 52
+    @sprites["playerbox"].bitmap = pbBitmap(@selpath + "playerBox").clone
+    @sprites["playerbox"].x = -110
+    @sprites["playerbox"].y = 21
+    pbSetFont(@sprites["playerbox"].bitmap,"Barlow Condensed",18)
+    @sprites["playerbox"].bitmap.font.color = Color.new(10,10,10)
+    pbDrawTextPositions(@sprites["playerbox"].bitmap,[[@playername,396,1,1,Color.new(10,10,10)]])
+
+    #end Graphhics.width, start 110
+    @sprites["enemybox"] = EAMSprite.new(@viewport)
+    @sprites["enemybox"].z = 52
+    @sprites["enemybox"].bitmap = pbBitmap(@selpath + "enemyBox").clone
+    @sprites["enemybox"].ox = @sprites["enemybox"].bitmap.width
+    @sprites["enemybox"].x = Graphics.width
+    @sprites["enemybox"].y = 6
+
+    @sprites["enemyname"] = EAMSprite.new(@viewport)
+    @sprites["enemyname"].z = 57
+    @sprites["enemyname"].bitmap = Bitmap.new(166,30)
+    @sprites["enemyname"].x = @sprites["enemybox"].x - 200
+    @sprites["enemyname"].y = @sprites["enemybox"].y + 11
+    pbSetFont(@sprites["enemyname"].bitmap,"Barlow Condensed",18)
+    @sprites["enemyname"].bitmap.font.color = Color.new(10,10,10)
+    pbDrawTextPositions(@sprites["enemyname"].bitmap,[[@enemyname,108,6,2,Color.new(10,10,10)]])
+
+    @sprites["enemybox"].addChild(@sprites["enemyname"])
+
+    @sprites["enemyball"] = EAMSprite.new(@viewport)
+    @sprites["enemyball"].z = 53
+    @sprites["enemyball"].bitmap = pbBitmap(@selpath + "ball")
+    @sprites["enemyball"].ox = @sprites["enemyball"].bitmap.width/2
+    @sprites["enemyball"].oy = @sprites["enemyball"].bitmap.height/2
+    @sprites["enemyball"].x = 486
+    @sprites["enemyball"].y = 41
+
+    @sprites["enemybox"].addChild(@sprites["enemyball"])
+
+    @sprites["selector"]= EAMSprite.new(@viewport)
+    @sprites["selector"].z = 52
+    @sprites["selector"].bitmap = pbBitmap(@selpath + "Selector")
+
+
+    buildParties(@party,@enemyparty)
+
+    @toggleEnemyparty = false;
+
+
+
+    self.run()
+    #Close selection and return the results
+    
+    Graphics.frame_rate = oldfr
+  end
+
+  def commandsUpdate
+		@frameskip +=1
+		@frame+=1 if @frameskip ==1
+		@frameskip = 0 if @frameskip == 2
+		@frame = 0 if @frame>=@framecount
+		for i in 0...@size
+			@cmds["cmd#{i}"].update if defined?(@cmds["cmd#{i}"].update)
+		end
+		
+		@actualBitmap.clear# = Bitmap.new(@pokemonBitmap.height,@pokemonBitmap.height)
+		#@actualBitmap.fill_rect(0,0,30,30,Color.new(255,0,0))#debug
+		@actualBitmap.blt(0,0,@pokemonBitmap,Rect.new(@pokemonBitmap.height*@frame,0,@pokemonBitmap.height,@pokemonBitmap.height))
+		#@actualBitmap = @actualBitmap.clone
+		@actualBitmap.add_outline(Color.new(248,248,248),1) if !$MKXP
+		@cmds["sprite"].bitmap = @actualBitmap if @cmds["sprite"] && @actualBitmap
+		if $MKXP 
+			@cmds["sprite"].add_outline(Color.new(248,248,248),@frame)
+			#@cmds["sprite"].create_outline(Color.new(248,248,248),1)
+		end
+	end
+	
+	def updateCmds
+		for i in 0...@size
+			@cmds["cmd#{i}"].fade(175,10) if @index != i
+			@cmds["cmd#{i}"].fade(255,10) if @index == i
+		end
+	end
+
+  def fadeOut(hash,frames=20)
+		r= 255
+		frames.times do
+			Graphics.update
+      update
+			commandsUpdate
+			r-=255/(frames-1)
+			for value in hash.values
+				value.opacity = r
+			end
+		end
+	end
+	
+	def fadeIn(hash,frames=20)
+		r=0
+		frames.times do
+			Graphics.update
+			commandsUpdate
+			r+=255/(frames-1)
+			for value in hash.values
+				value.opacity = r if !value.is_a?(EAMSprite)
+				
+			end
+		end
+	end
+
+  def pbShowCommands(helptext,commands,y=nil,index=0,pkmn=nil,x=0)
+		ret=-1
+		return ret if pkmn==nil
+		@cmds={}
+    @frameskip = 0
+    @frame = 0
+		@cmds["bg"]=Sprite.new(@viewport)
+		@cmds["bg"].bitmap = pbBitmap("Graphics/Pictures/PartyNew/gradient")
+		@cmds["bg"].y = 384-292
+		@cmds["bg"].z = 140
+		if !pkmn.isEgg?
+			last = ""
+			if pkmn.isDelta?
+				last = "d"
+			else
+				last = (pkmn.form>0 ? "_#{pkmn.form}" : "")
+			end
+			add=""
+			add = "Female/" if pkmn.gender==1 && pbResolveBitmap("Graphics/Battlers/Front/Female/"+sprintf("%03d",pkmn.species)+last)
+			@pokemonBitmap = pbBitmap((pkmn.isShiny? ? "Graphics/Battlers/FrontShiny/" : "Graphics/Battlers/Front/")+add+sprintf("%03d",pkmn.species) + last )
+			@frameskip = 0
+			@frame = 0
+			@framecount = @pokemonBitmap.width/@pokemonBitmap.height
+			echoln (pkmn.isShiny? ? "Graphics/Battlers/FrontShiny/" : "Graphics/Battlers/Front/")+add+sprintf("%03d",pkmn.species) + last 
+			@actualBitmap = Bitmap.new(@pokemonBitmap.height,@pokemonBitmap.height)
+			@actualBitmap.blt(0,0,@pokemonBitmap,Rect.new(0,@pokemonBitmap.height*@frame,@pokemonBitmap.height,@pokemonBitmap.height+2))
+			#@actualBitmap = @actualBitmap.clone
+			#@actualBitmap.fill_rect(0,0,30,30,Color.new(255,0,0))
+			if !$MKXP
+				@actualBitmap.add_outline(Color.new(248,248,248),1)
+			end
+		else
+			@frameskip = 0
+			@frame = 0
+			@framecount = 1
+			@pokemonBitmap = pbBitmap("Graphics/Battlers/egg")
+			@actualBitmap = Bitmap.new(@pokemonBitmap.height,@pokemonBitmap.height)
+			@actualBitmap.blt(0,0,@pokemonBitmap,Rect.new(0,0,@pokemonBitmap.height,@pokemonBitmap.height+2))
+			@actualBitmap.add_outline(Color.new(248,248,248),1) if !$MKXP
+		end
+		@cmds["sprite"]=Sprite.new(@viewport)
+		@cmds["sprite"].bitmap = @actualBitmap# @pokemonBitmap.clone
+		if $MKXP 
+			@cmds["sprite"].add_outline(Color.new(248,248,248),@frame)
+			#@cmds["sprite"].create_outline(Color.new(248,248,248),1)
+		end
+    	#@cmds["sprite"].create_outline(Color.new(248,248,248),1)
+		#@cmds["sprite"].bitmap.add_outline(Color.new(248,248,248),1)
+		@cmds["sprite"].ox = @pokemonBitmap.height/2
+		@cmds["sprite"].z = 141
+		@cmds["sprite"].oy = pbGetSpriteBase(@pokemonBitmap)+1
+		#@cmds["sprite"].src_rect = Rect.new(0,@pokemonBitmap.height*@frame,@pokemonBitmap.height,@pokemonBitmap.height+2)
+		@cmds["sprite"].zoom_x = 2
+		@cmds["sprite"].zoom_y = 2
+		if pkmn.isEgg?
+			@cmds["sprite"].zoom_x = 1
+			@cmds["sprite"].zoom_y = 1
+		end
+		@cmds["sprite"].x = 111
+		@cmds["sprite"].y = 331#331
+		
+		@buttonBitmap = pbBitmap("Graphics/Pictures/PartyNew/Button")
+		
+		@cmds["overlay"] = Sprite.new(@viewport)
+		@cmds["overlay"].z = 142
+		@cmds["overlay"].bitmap = Bitmap.new(512,384)
+		@cmds["overlay"].bitmap.font.name = "Barlow Condensed"
+		@cmds["overlay"].bitmap.font.bold = true
+		@cmds["overlay"].bitmap.font.size = $MKXP ? 23 : 25
+		
+		pbDrawTextPositions(@cmds["overlay"].bitmap,[[helptext,30,348,0,Color.new(248,248,248)]])
+		@startY = 374-34*commands.length
+		@index = 0
+		@size = commands.length
+		for i in 0...@size
+			@cmds["cmd#{i}"] = EAMSprite.new(@viewport)
+			if x==0
+				@cmds["cmd#{i}"].bitmap = @buttonBitmap.clone
+			else
+				@cmds["cmd#{i}"].bitmap = Bitmap.new(@buttonBitmap.width+x*3,@buttonBitmap.height)
+				@cmds["cmd#{i}"].bitmap.blt(0,0,@buttonBitmap,Rect.new(0,0,30,34))
+				@cmds["cmd#{i}"].bitmap.blt(@cmds["cmd#{i}"].bitmap.width-30,0,@buttonBitmap,Rect.new(@cmds["cmd#{i}"].bitmap.width-30,0,30,34))
+				@cmds["cmd#{i}"].bitmap.blt(30,0,@buttonBitmap,Rect.new(30,0,86,34))
+				@cmds["cmd#{i}"].bitmap.blt(30+86,0,@buttonBitmap,Rect.new(30,0,x*3,34))
+			end
+			@cmds["cmd#{i}"].z = 142
+			@cmds["cmd#{i}"].y = @startY+34*i
+			@cmds["cmd#{i}"].x = 357  - (x>0 ? x*3 : 0)
+			@cmds["cmd#{i}"].fade(175,10) if @index != i
+			@cmds["cmd#{i}"].bitmap.font.name = "Barlow Condensed"
+			@cmds["cmd#{i}"].bitmap.font.size = $MKXP ? 19 : 21
+			@cmds["cmd#{i}"].bitmap.font.bold = true
+			pbDrawTextPositions(@cmds["cmd#{i}"].bitmap,[[commands[i],@cmds["cmd#{i}"].bitmap.width/2,7,2,Color.new(18,54,83)]])
+		end
+		for s in @cmds.values
+			s.opacity = 0
+		end
+		updateCmds
+		fadeIn(@cmds,10)
+		loop do
+			Graphics.update
+			Input.update
+      update
+			commandsUpdate
+			
+			if Input.trigger?(Input::DOWN)
+				@index+=1
+				if @index>=commands.length
+					@index = 0
+				end
+				updateCmds
+			elsif Input.trigger?(Input::UP)
+				@index-=1
+				if @index<0
+					@index = commands.length-1
+				end
+				updateCmds
+			end
+			
+			if Input.trigger?(Input::C)
+				ret = @index
+				fadeOut(@cmds,10)
+				pbDisposeSpriteHash(@cmds)
+				break
+			end
+			
+			if Input.trigger?(Input::B)
+				fadeOut(@cmds,10)
+				pbDisposeSpriteHash(@cmds)
+				break
+			end
+		end
+		return ret
+	end
+
+  def buildParties(party,enemyparty)
+    # Player Party first
+    for i in 0...6
+      next if i >= party.length || party[i]==nil
+      @sprites["party#{i}"] = EAMSprite.new(@viewport)
+      @sprites["party#{i}"].z = 53
+      @sprites["party#{i}"].bitmap = pbBitmap(@selpath + "playerSlot").clone
+      #now on to build the slot
+      icon = evaluateIcon(party[i])
+      @sprites["party#{i}"].x = i%2 == 0 ? 4 : 172
+      @sprites["party#{i}"].y = 52 + 100*(i/2)
+
+      @sprites["party#{i}"].bitmap.blt(0,0,icon,Rect.new(4,3,72,73))
+      if party[i].hasItem?
+        itemslot = pbBitmap(@selpath + "itemLabel").clone
+        pbSetFont(itemslot,"Barlow Condensed",16)
+        itemslot.draw_text(22,3,itemslot.width-24,itemslot.height-8,PBItems.getName(party[i].item),0)
+        @sprites["party#{i}"].bitmap.blt(50,50,itemslot,Rect.new(0,0,itemslot.width,itemslot.height))
+      end
+    
+      pbSetFont(@sprites["party#{i}"].bitmap,$MKXP ? "Kimberley" : "Kimberley Bl",16)
+      textpos=[[party[i].name,70,18,0,Color.new(43,82,113)]]
+      pbDrawTextPositions(@sprites["party#{i}"].bitmap,textpos)
+      
+      pbSetFont(@sprites["party#{i}"].bitmap,$MKXP ? "Kimberley" : "Kimberley Bl",13)
+      textpos=[["Lv. #{party[i].level}",70,34,0,Color.new(43,82,113)]]
+      #write hp here too
+      pbDrawTextPositions(@sprites["party#{i}"].bitmap,textpos)
+
+      if party[i].gender != 2
+        gender = pbBitmap("Graphics/Pictures/PartyNew/#{party[i].gender == 0 ? "MALE" : "FEMALE"}").clone
+        @sprites["party#{i}"].bitmap.stretch_blt(Rect.new(100 + "#{party[i].level}".length*4,36,gender.width/1.5,gender.height/1.5),gender,Rect.new(0,0,gender.width,gender.height))
+      end
+
+      if @statuses[i] != 2
+        pbSetFont(@sprites["party#{i}"].bitmap,$MKXP ? "Kimberley" : "Kimberley Bl",10)
+        textpos = [["#{party[i].hp}/#{party[i].totalhp}",34,76,2,Color.new(243,243,243)]]
+        pbDrawTextPositions(@sprites["party#{i}"].bitmap,textpos)
+
+        hpbarbg = pbBitmap(@selpath + "hpbarBg").clone
+        @sprites["party#{i}"].bitmap.blt(55,77,hpbarbg, Rect.new(0,0,hpbarbg.width,hpbarbg.height))
+
+        hpbar = pbBitmap(@selpath + "hpbar").clone
+        hpwidth = party[i].hp.to_f/party[i].totalhp.to_f * hpbar.width
+        @sprites["party#{i}"].bitmap.blt(57,79,hpbar, Rect.new(0,0,hpwidth.to_i,hpbar.height))
+      else
+        pbSetFont(@sprites["party#{i}"].bitmap,$MKXP ? "Kimberley" : "Kimberley Bl",14)
+        textpos = [[@annot[i],84,74,2,Color.new(243,243,243)]]
+        pbDrawTextPositions(@sprites["party#{i}"].bitmap,textpos)
+      end
+
+      @sprites["status#{i}"] = EAMSprite.new(@viewport)
+      @sprites["status#{i}"].z = 54
+      @sprites["status#{i}"].x = 18 + 166 * (i%2)
+      @sprites["status#{i}"].y = 60 + 102 * (i/2)
+      @sprites["status#{i}"].ox = 13
+      @sprites["status#{i}"].oy = 13 
+      @sprites["status#{i}"].visible = false
+      @sprites["party#{i}"].addChild(@sprites["status#{i}"])
+    end
+
+    for i in 0...6
+      next if i >= enemyparty.length || enemyparty[i]==nil
+      @sprites["enemyparty#{i}"] = EAMSprite.new(@viewport)
+      @sprites["enemyparty#{i}"].z = 53
+      @sprites["enemyparty#{i}"].bitmap = pbBitmap(@selpath + "enemySlot").clone
+      icon = evaluateIcon(party[i])
+      @sprites["enemyparty#{i}"].bitmap.blt(0,1,icon,Rect.new(0,0,72,73))
+      @sprites["enemyparty#{i}"].x = 363 + (i%2 == 1 ? 70 : 0)
+      @sprites["enemyparty#{i}"].y = 55 + 42*i%2 + 86 * i/2
+      @sprites["enemybox"].addChild(@sprites["enemyparty#{i}"])
+    end
+
+  end
+
+  def moveParties(togglestate)
+    for i in 0...6
+      next if i >= @party.length || @party[i]==nil
+      if !togglestate
+        @sprites["party#{i}"].moveX(i%2==0 ? 34 : 242,20,:ease_out_cubic)
+        @sprites["enemyparty#{i}"].fade(0,16)
+      else
+        @sprites["party#{i}"].moveX(i%2==0 ? 4 : 172,20,:ease_out_cubic)
+        @sprites["enemyparty#{i}"].fade(255,16)
+      end
+    end
+    if !togglestate
+      @sprites["selector"].moveX(33 + (@selectionIndex % 2 == 1 ? 208 : 0),20,:ease_out_cubic)
+    else
+      @sprites["selector"].moveX(3 + (@selectionIndex % 2 == 1 ? 168 : 0),20,:ease_out_cubic)
+    end
+  end
+
+  def evaluateIcon(pokemon)
+		bitmap = Bitmap.new(75,74)
+    	if pokemon.isEgg?
+			bmp = "Graphics/Pictures/DexNew/Icon/Egg"
+			bitmap = pbBitmap(bmp).clone
+			return bitmap
+		end
+		bmp =""
+		bmp += "Graphics/Pictures/DexNew/Icon/#{pokemon.species}"
+		if pokemon.gender==1 && pbResolveBitmap(bmp+"f")
+			bmp+="f"
+		end
+		if pokemon.form>0
+			if pokemon.isDelta?
+				bmp+="d"
+			else
+				bmp+="_#{pokemon.form}"
+			end
+		end
+    if pokemon.isDelta?
+      bmp+="d"
+    end
+		bitmap = pbBitmap(bmp).clone
+		#if pokemon.isShiny?#item>0
+	  #	 bitmap.blt(40,0,pbBitmap(BOX_PATH + "shiny"),Rect.new(0,0,31,29))
+		#end
+		return bitmap
+	end
+
+  def run()
+    loop do
+      Graphics.update
+      Input.update
+      self.update
+
+      if Input.trigger?(Input::F5)
+        if @toggleEnemyparty
+          @sprites["enemybox"].moveX(Graphics.width,20,:ease_out_cubic)
+          @sprites["playerbox"].moveX(-110,20,:ease_out_cubic)
+          @sprites["enemyball"].rotate(720,20,:ease_out_cubic)
+        else
+          @sprites["enemybox"].moveX(Graphics.width+110,20,:ease_out_cubic)
+          @sprites["playerbox"].moveX(0,20,:ease_out_cubic)
+          @sprites["enemyball"].rotate(0,20,:ease_out_cubic)
+        end
+        moveParties(@toggleEnemyparty)
+        @toggleEnemyparty = !@toggleEnemyparty
+      end
+
+      if Input.trigger?(Input::C)
+        cmdEntry=-1
+        cmdNoEntry=-1
+        cmdSummary=-1
+        commands=[]
+        if (@statuses[@selectionIndex] || 0) == 1
+          commands[cmdEntry=commands.length]=_INTL("Entry")
+        elsif (@statuses[@selectionIndex] || 0) > 2
+          commands[cmdNoEntry=commands.length]=_INTL("No Entry")
+        end
+        pkmn=@party[@selectionIndex]
+        commands[cmdSummary=commands.length]=_INTL("Info")
+        commands[commands.length]=_INTL("Chiudi")
+        ret = pbShowCommands(_INTL("Che fare con {1}?",pkmn.name),commands,0,@selectionIndex,pkmn)
+        next if ret == -1 #canceled
+        if cmdEntry>=0 && ret==cmdEntry
+          if @selected.length>=@max_select && @max_select>0
+            pbDisplay(_INTL("No more than {1} Pokémon may enter.",@max_select))
+          else
+            #@statuses[pkmnid]=realorder.length+3
+            @selected << pkmn
+            addedEntry=true
+          end
+        elsif cmdNoEntry>=0 && ret==cmdNoEntry
+          #@statuses[pkmnid]=1
+          @selected.delete(pkmn)
+        elsif cmdSummary>=0 && ret==cmdSummary
+          oldsprites=pbFadeOutAndHide(@sprites)
+          scene=PokemonSummaryScene.new
+          screen=PokemonSummary.new(scene)
+          screen.pbStartScreen(@party,@selectionIndex)
+          pbFadeInAndShow(@sprites,oldsprites)
+        end
+
+        updateStatuses()
+      end
+
+      if Input.trigger?(Input::RIGHT)
+        baseid = @selectionIndex/2
+        if @selectionIndex % 2 == 0 #even
+          @selectionIndex+=1
+          @selectionIndex-=1 if @selectionIndex >= @party.length
+        else
+          @selectionIndex-=1
+        end
+      end
+
+      if Input.trigger?(Input::DOWN)
+        startid = @selectionIndex
+        @selectionIndex += 2
+        echoln "#{@selectionIndex}"
+        echoln "#{@selectionIndex >= @party.length && startid != @party.length-1 && @party.length % 2 == 1}"
+        echoln "#{@selectionIndex >= @party.length} && #{startid != @party.length-1} && #{@party.length % 2 == 1}"
+        if @selectionIndex >= @party.length
+          if startid != @party.length-1 && @party.length % 2 == 1
+            @selectionIndex = @party.length-1
+          else
+            @selectionIndex = 0 + startid % 2
+          end
+        end
+      end
+
+      if Input.trigger?(Input::UP)
+        startid = @selectionIndex
+        @selectionIndex -= 2
+        if @selectionIndex < 0
+          if startid == 0 
+            pos = [4,2,0]
+            while pos.length > 1
+              if pos.max<@party.length
+                break
+              else
+                pos.delete(pos.max)
+              end
+            end
+            @selectionIndex = pos.first
+          else
+            pos = [5,3,1]
+            while pos.length > 1
+              if pos.max<@party.length
+                break
+              else
+                pos.delete(pos.max)
+              end
+            end
+            @selectionIndex = pos.first
+          end
+        end
+      end
+
+      if Input.trigger?(Input::LEFT)
+        baseid = @selectionIndex/2
+        if @selectionIndex % 2 == 0 #even
+          @selectionIndex+=1
+          @selectionIndex-=1 if @selectionIndex >= @party.length
+        else
+          @selectionIndex-=1
+        end
+      end
+
+      if Input.trigger?(Input::A)
+        msgwindow = Kernel.pbCreateMessageWindow()
+        msgwindow.z = 1000020
+        Kernel.pbMessageDisplay(msgwindow,_INTL("Te sta bene?"))
+        if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+          msgwindow.visible = false
+          Kernel.pbDisposeMessageWindow(msgwindow)
+          break
+        end
+        msgwindow.visible = false
+        Kernel.pbDisposeMessageWindow(msgwindow)
+      end
+
+
+      if Input.trigger?(Input::B) && @cancancel
+        @selected = -1
+        break
+      end
+    end
+    pbFadeOutAndHide(@sprites)
+    pbDisposeSpriteHash(@sprites)
+  end
+
+  def updateStatuses()
+    for i in 0...6
+      if @selected.include?(@party[i])
+        @statuses[i] = 3 #selected
+      else
+        @statuses[i] = @statuses[i] == 3 ? 1 : @statuses[i]
+      end
+    end
+    #after statuses update
+    for i in 0...6 
+      if @selected.include?(@party[i])
+        echoln "#{@party[i].name} #{@selpath}#{@selected.index(@party[i])}"
+        @sprites["status#{i}"].bitmap = pbBitmap(@selpath + "#{@selected.index(@party[i])+1}")
+        @sprites["status#{i}"].visible = true
+      else
+        @sprites["status#{i}"].visible = false
+      end
+    end
+  end
+
+  def update
+    
+    @sprites["selector"].x = @toggleEnemyparty ? 33 + (@selectionIndex % 2 == 1 ? 208 : 0) : 3 + (@selectionIndex % 2 == 1 ? 168 : 0)
+    @sprites["selector"].y = 60 + 100*(@selectionIndex/2)
+
+    @sprites["anibg"].oy += 0.5
+    @sprites["anibg"].ox += 0.5
+
+
+
+    for s in @sprites.values
+      s.update
+    end
+  end
+
+end
+
+def pbTSC
+  scos = OnlinePartySelection.new($Trainer,$Trainer.party,"Emanueleg",$Trainer.party,6,true,proc{|x|
+    return x.species > 1050
+  })
+  echoln scos.result
+end
 
 class BattleRequest
   #weedleteam
@@ -2214,22 +2835,26 @@ module CableClub
   def self.handle_await_party_selection(connection,msgwindow)
     if @battleTeam == nil
       pbFadeOutIn(99999){
-        scene=PokemonScreen_Scene.new
-        screen=PokemonScreen.new(scene,$Trainer.party)
-        ret=screen.pbChooseMultiplePokemon(BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type],
-           proc{|p| BATTLE_TIERS[@chosenTier].call(p)}, @battle_type==:single ? 1 : 2,@cancancelSelection) {
-             if Input.trigger?(Input::F5)
-                @ui.toggleOpponentParty()
-             end
-           }
+        #scene=PokemonScreen_Scene.new
+        #screen=PokemonScreen.new(scene,$Trainer.party)
+        #ret=screen.pbChooseMultiplePokemon(BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type],
+        #   proc{|p| BATTLE_TIERS[@chosenTier].call(p)}, @battle_type==:single ? 1 : 2,@cancancelSelection) {
+        #     if Input.trigger?(Input::F5)
+        #        @ui.toggleOpponentParty()
+        #     end
+        #   }
    
-        if !(ret == nil || ret == -1)
-          @battleTeam = ret
-        end
+        #if !(ret == nil || ret == -1)
+        #  @battleTeam = ret
+        #end
+        ret = OnlinePartySelection.new($Trainer,$Trainer.party,@partner_name,@partner_party,BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type],@cancancelSelection,proc{|x|
+          return BATTLE_TIERS[@chosenTier].call(p)
+        })
+        @battleTeam = ret.result
       }      
             
       # if I didn't choose any pokemon it's just like if i canceled
-      if @battleTeam == nil
+      if @battleTeam == nil || @battleTeam == -1
         connection.send do |writer|
           writer.sym(:fwd)
           writer.str(@partner_uid)
