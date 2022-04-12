@@ -197,12 +197,16 @@ class DynamicPokemonSprite
     @bitmap.setSpeed(3) 
     @sprite.bitmap = @bitmap.bitmap.clone
     @shadow.bitmap = @bitmap.bitmap.clone
+    
     @sprite.ox = @bitmap.width/2
     @sprite.oy = @bitmap.height
     @sprite.oy += @altitude
     @sprite.oy -= @yposition
     @sprite.oy -= pokemon.formOffsetY if pokemon.respond_to?(:formOffsetY)
-    
+    if @isSub
+      setSubstitute
+    end
+
     @fainted = false
     @loaded = true
     @pulse = 8
