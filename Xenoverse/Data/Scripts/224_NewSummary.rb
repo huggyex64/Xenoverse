@@ -81,6 +81,7 @@ class PokemonSummaryScene
 	
 	def pbStartScene(party,partyindex,viewportz = 100000)
 		@viewport=Viewport.new(0,0,Graphics.width,Graphics.height)
+    echoln viewportz
     @viewport.z=viewportz 
     @party=party
     @partyindex=partyindex
