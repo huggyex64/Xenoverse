@@ -91,12 +91,17 @@ class DexObtained
 			@commands.push("party")
 		end
 		@commands.push("nick")
+		@commands.push("info")
 		
 		for i in 0..@commands.length-1
 			@sprites["button#{i}"] = EAMSprite.new(@viewport)
 			@sprites["button#{i}"].bitmap = pbBitmap(Dex::PATH + "CatchButton").clone
-			@sprites["button#{i}"].ox = @sprites["button#{i}"].bitmap.width/2
-			@sprites["button#{i}"].x = 512/4 + 512/4 * i -(i==1 ? 0 : (i==0 ? 20 : -20))
+			@sprites["button#{i}"].ox = @sprites["button#{i}"].bitmap.width/5
+			#@sprites["button#{i}"].x = 512/4 + 512/4 * i -(i==1 ? 0 : (i==0 ? 20 : -20))
+			additionalx = 10
+			additionalx = 50 if (i == 0)
+			additionalx = -30 if (i == 3)
+			@sprites["button#{i}"].x = @sprites["button#{i}"].bitmap.width*i + additionalx
 			@sprites["button#{i}"].y = Graphics.height
 			@sprites["button#{i}"].opacity = 0
 			@sprites["button#{i}"].bitmap.font = Dex::STANDARDFONT
@@ -107,6 +112,8 @@ class DexObtained
 				pbDrawTextPositions(@sprites["button#{i}"].bitmap,[[_INTL("Add to Party"),68,12,2,Color.new(48,48,48)]])
 			elsif @commands[i] == "nick" # Nickname
 				pbDrawTextPositions(@sprites["button#{i}"].bitmap,[[_INTL("Nickname"),68,12,2,Color.new(48,48,48)]])
+			elsif @commands[i] == "info" # Info
+				pbDrawTextPositions(@sprites["button#{i}"].bitmap,[[_INTL("Info"),68,12,2,Color.new(48,48,48)]])
 			end
 		end
 		
@@ -388,7 +395,9 @@ class DexObtained
 			@buttons["b#{i}"] = @sprites["button#{commands.index(i)}"]
 		end
 		for i in 0..@commands.length-1
-			@sprites["button#{i}"].move(@sprites["button#{i}"].x,Graphics.height-90,20,:ease_out_quad)
+			targetHeight = Graphics.height-110
+			targetHeight = Graphics.height-60 if (i == 1 || i == 2)
+			@sprites["button#{i}"].move(@sprites["button#{i}"].x,targetHeight,20,:ease_out_quad)
 			@sprites["button#{i}"].fade(255,20,:ease_out_quad) if i == @index
 			@sprites["button#{i}"].fade(175,20,:ease_out_quad) if i != @index
 		end
@@ -406,8 +415,10 @@ class DexObtained
 			Input.update
 			update
 			for i in 0..@commands.length-1
+				targetHeight = Graphics.height-110
+				targetHeight = Graphics.height-60 if (i == 1 || i == 2)
 				@sprites["button#{i}"].update
-				@sprites["button#{i}"].move(@sprites["button#{i}"].x,Graphics.height-90,20,:ease_out_quad) if @sprites["button#{i}"].y<=Graphics.height-105
+				@sprites["button#{i}"].move(@sprites["button#{i}"].x,targetHeight,20,:ease_out_quad) if @sprites["button#{i}"].y<=targetHeight-15
 			end
 			
 			if Input.trigger?(Input::LEFT)
@@ -418,7 +429,9 @@ class DexObtained
 					@buttons["b#{i}"].fade(255,20,:ease_out_quad) if i == commands[@index]
 					@buttons["b#{i}"].fade(175,20,:ease_out_quad) if i != commands[@index]
 				end
-				@buttons["b#{commands[@index]}"].move(@sprites["button#{@index}"].x,Graphics.height-105,5,:ease_out_cubic)
+				targetHeight = Graphics.height-110-15
+				targetHeight = Graphics.height-60-15 if (@index == 1 || @index == 2)
+				@buttons["b#{commands[@index]}"].move(@sprites["button#{@index}"].x,targetHeight,5,:ease_out_cubic)
 			elsif Input.trigger?(Input::RIGHT)
 				@index = @index+1 > maxindex ? 0 : @index+1
 				for i in commands
@@ -426,7 +439,9 @@ class DexObtained
 					@buttons["b#{i}"].fade(255,20,:ease_out_quad) if i == commands[@index]
 					@buttons["b#{i}"].fade(175,20,:ease_out_quad) if i != commands[@index]
 				end
-				@buttons["b#{commands[@index]}"].move(@sprites["button#{@index}"].x,Graphics.height-105,5,:ease_out_cubic)
+				targetHeight = Graphics.height-110-15
+				targetHeight = Graphics.height-60-15 if (@index == 1 || @index == 2)
+				@buttons["b#{commands[@index]}"].move(@sprites["button#{@index}"].x,targetHeight,5,:ease_out_cubic)
 			end
 			
 			if commands.length==0 #to avoid bugs
@@ -457,6 +472,12 @@ class DexObtained
 						$Trainer.party[$Trainer.party.length]=@pkmn
 						break
 					end
+				elsif commands[@index] == "info" #kleeee
+					pbFadeOutIn(999999) {
+						scenex = PokemonSummaryScene.new
+						screenx = PokemonSummary.new(scenex)
+						screenx.pbStartScreen([@pkmn],0,1000000)
+					}
 				elsif commands[@index] == "nick" #NICKNAME
 					commands.delete("nick")
 					nicknamed = true
@@ -507,6 +528,16 @@ class DexObtained
 		Kernel.pbMessageDisplay(msgwindow,message,&block)
 		Kernel.pbDisposeMessageWindow(msgwindow)
 	end
+
+	def pbSummary(poke)
+		oldsprites=pbFadeOutAndHide(@sprites)
+		scene=PokemonSummaryScene.new
+		screen=PokemonSummary.new(scene)
+		if poke
+		  screen.pbStartScreen([poke],0)
+		end
+		pbFadeInAndShow(@sprites,oldsprites)
+	  end
 	
 end
 
