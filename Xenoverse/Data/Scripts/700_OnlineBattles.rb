@@ -1103,8 +1103,6 @@ class OnlinePartySelection
       @annot[i]=ordinals[@statuses[i]]
     end
 
-
-
     oldfr = Graphics.frame_rate
     Graphics.frame_rate = 60
     @viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
@@ -1120,6 +1118,24 @@ class OnlinePartySelection
     @sprites["anibg"].z = 51
     @sprites["anibg"].bitmap=pbBitmap(@path + "repeatbg")
 
+    @sprites["todo"] = EAMSprite.new(@viewport)
+    @sprites["todo"].z = 52
+    @sprites["todo"].bitmap = pbBitmap(@selpath + "pickLabel")    
+    pbSetFont(@sprites["todo"].bitmap,"Barlow Condensed",18)
+    pbDrawTextPositions(@sprites["todo"].bitmap,[[_INTL("Pick your Pokémons."),4,0,0,Color.new(243,243,243)]])
+
+    @sprites["lowerbar"] = EAMSprite.new(@viewport)
+    @sprites["lowerbar"].z = 55
+    @sprites["lowerbar"].bitmap = pbBitmap("Graphics/Pictures/PartyNew/LowerBanner").clone
+		@sprites["lowerbar"].y = Graphics.height-(@sprites["lowerbar"].bitmap.height-2)
+    pbSetFont(@sprites["lowerbar"].bitmap,"Barlow Condensed",$MKXP ? 23 : 25)
+    @sprites["lowerbar"].bitmap.blt(200-34,0,pbBitmap("Graphics/Pictures/PartyNew/ConfirmButton"),Rect.new(0,0,34,34))
+
+    @sprites["lowerbar"].bitmap.font.bold = true
+		pbDrawTextPositions(@sprites["lowerbar"].bitmap,[[_INTL("Confirm"),200-38,2,1,Color.new(248,248,248)],
+        [_INTL("Close"),464,2,1,Color.new(248,248,248)],
+				[_INTL("Select"),332,2,1,Color.new(248,248,248)]])
+        
     #end -110, start 0
     @sprites["playerbox"] = EAMSprite.new(@viewport)
     @sprites["playerbox"].z = 52
@@ -1130,6 +1146,15 @@ class OnlinePartySelection
     @sprites["playerbox"].bitmap.font.color = Color.new(10,10,10)
     pbDrawTextPositions(@sprites["playerbox"].bitmap,[[@playername,396,1,1,Color.new(10,10,10)]])
 
+    @sprites["selectionCount"] = EAMSprite.new(@viewport)
+    @sprites["selectionCount"].z = 53
+    @sprites["selectionCount"].x = @sprites["playerbox"].x + 144
+    @sprites["selectionCount"].y = @sprites["playerbox"].y + 16
+    @sprites["selectionCount"].bitmap = Bitmap.new(300,50)
+    pbSetFont(@sprites["selectionCount"].bitmap,$MKXP ? "Kimberley" : "Kimberley Bl",20)
+    pbDrawTextPositions(@sprites["selectionCount"].bitmap,[["0/#{@max_select}",300,1,1,Color.new(44,180,247)]])
+    @sprites["playerbox"].addChild(@sprites["selectionCount"])
+
     #end Graphhics.width, start 110
     @sprites["enemybox"] = EAMSprite.new(@viewport)
     @sprites["enemybox"].z = 52
@@ -1137,6 +1162,14 @@ class OnlinePartySelection
     @sprites["enemybox"].ox = @sprites["enemybox"].bitmap.width
     @sprites["enemybox"].x = Graphics.width
     @sprites["enemybox"].y = 6
+
+    @sprites["f5b"] = EAMSprite.new(@viewport)
+    @sprites["f5b"].z = 53
+    @sprites["f5b"].bitmap = pbBitmap(@selpath + "f5open").clone
+    @sprites["f5b"].x = 366
+    @sprites["f5b"].y = 333
+    @sprites["enemybox"].addChild(@sprites["f5b"])
+
 
     @sprites["enemyname"] = EAMSprite.new(@viewport)
     @sprites["enemyname"].z = 57
@@ -1167,7 +1200,23 @@ class OnlinePartySelection
     buildParties(@party,@enemyparty)
 
     @toggleEnemyparty = false;
-
+    
+    if @toggleEnemyparty
+      @sprites["enemybox"].moveX(Graphics.width,1,:ease_out_cubic)
+      @sprites["playerbox"].moveX(-110,1,:ease_out_cubic)
+      @sprites["enemyball"].rotate(720,1,:ease_out_cubic)
+    else
+      @sprites["enemybox"].moveX(Graphics.width+110,1,:ease_out_cubic)
+      @sprites["playerbox"].moveX(0,1,:ease_out_cubic)
+      @sprites["enemyball"].rotate(0,1,:ease_out_cubic)
+    end
+    @sprites["f5b"].bitmap = pbBitmap(@selpath + "f5close").clone
+    moveParties(@toggleEnemyparty,1)
+    @toggleEnemyparty = !@toggleEnemyparty
+    1.times do 
+      Graphics.update
+      update()
+    end
 
 
     self.run()
@@ -1440,21 +1489,23 @@ class OnlinePartySelection
 
   end
 
-  def moveParties(togglestate)
+  def moveParties(togglestate,frames = 20)
     for i in 0...6
       next if i >= @party.length || @party[i]==nil
       if !togglestate
-        @sprites["party#{i}"].moveX(i%2==0 ? 34 : 242,20,:ease_out_cubic)
-        @sprites["enemyparty#{i}"].fade(0,16)
+        @sprites["party#{i}"].moveX(i%2==0 ? 34 : 242,frames,:ease_out_cubic)
+        @sprites["enemyparty#{i}"].fade(0,frames-4 < 1? 1 : frames-4)
       else
         @sprites["party#{i}"].moveX(i%2==0 ? 4 : 172,20,:ease_out_cubic)
-        @sprites["enemyparty#{i}"].fade(255,16)
+        @sprites["enemyparty#{i}"].fade(255,frames-4 < 1? 1 : frames-4)
       end
     end
     if !togglestate
-      @sprites["selector"].moveX(33 + (@selectionIndex % 2 == 1 ? 208 : 0),20,:ease_out_cubic)
-    else
-      @sprites["selector"].moveX(3 + (@selectionIndex % 2 == 1 ? 168 : 0),20,:ease_out_cubic)
+      @sprites["f5b"].bitmap = pbBitmap(@selpath + "f5close").clone
+      @sprites["selector"].moveX(33 + (@selectionIndex % 2 == 1 ? 208 : 0),frames,:ease_out_cubic)
+    else      
+      @sprites["f5b"].bitmap = pbBitmap(@selpath + "f5open").clone
+      @sprites["selector"].moveX(3 + (@selectionIndex % 2 == 1 ? 168 : 0),frames,:ease_out_cubic)
     end
   end
 
@@ -1662,6 +1713,9 @@ class OnlinePartySelection
         @sprites["status#{i}"].visible = false
       end
     end
+
+    @sprites["selectionCount"].bitmap.clear
+    pbDrawTextPositions(@sprites["selectionCount"].bitmap,[["#{@selected.length}/#{@max_select}",300,1,1,Color.new(44,180,247)]])
   end
 
   def update
