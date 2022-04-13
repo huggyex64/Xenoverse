@@ -3987,7 +3987,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       pbCheckForCE(@connection)
       @connection.updateExp([:checkProceed,:true,:false,:partnerDisconnected]) do |record|
         case (type = record.sym)
-        when :checkProceeed
+        when :checkProceed
           readycheck = record.int
           if @ready <= readycheck
             awaiting = false 
