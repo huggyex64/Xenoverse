@@ -4009,7 +4009,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
           pbAbort
         end
       end
-      if (((frame / 60) % 3) == 0)
+      if (((frame / 60) % 2) == 0)
         @connection.send do |writer|
           writer.sym(:canProceed) #Request type
         end
