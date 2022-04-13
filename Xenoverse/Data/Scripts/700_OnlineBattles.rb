@@ -4345,7 +4345,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       choice = super(index, lax, cancancel) {yield if block_given?}
       # bug fix for the unknown type :switch. cause: going into the pokemon menu then backing out and attacking, which sends the switch symbol regardless.
       if !cancancel # forced switches do not allow canceling, and both sides would expect a response.
-        pbAwaitReadiness
+        #pbAwaitReadiness
         
         @connection.send do |writer|
           writer.sym(:fwd)
@@ -4371,7 +4371,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       cw = @scene.sprites[hbox]
       cw.letterbyletter = false
       begin
-        pbAwaitReadiness
+        #pbAwaitReadiness
         loop do
           frame += 1
           cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
