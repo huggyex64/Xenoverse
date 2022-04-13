@@ -3969,6 +3969,11 @@ class PokeBattle_CableClub < PokeBattle_Battle
     awaiting = true
     sent = 0
     echoln "AWAITING READINESS #{sent}"
+    @connection.send do |writer|
+      writer.sym(:ready) #Request type
+      writer.str(@partner_uid)
+      writer.str(@uid)
+    end
     #@connection.flush
     while(awaiting && !gotready)
       Graphics.update
@@ -3976,20 +3981,13 @@ class PokeBattle_CableClub < PokeBattle_Battle
       frame+=1.0
       cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
       pbCheckForCE(@connection)
-      @connection.updateExp([:aknowledgeReady,:ready,:partnerDisconnected]) do |record|
+      @connection.updateExp([:true,:false,:partnerDisconnected]) do |record|
         case (type = record.sym)
-        when :ready
-          #awaiting = false          
-          gotready = true
-          @connection.send do |writer|
-            writer.sym(:fwd)
-            writer.str(@partner_uid)
-            writer.sym(:aknowledgeReady) #Request type
-          end
-        when :aknowledgeReady
-          if (gotready)
-            awaiting = false
-          end
+        when :true
+          awaiting = false
+          echoln "READY! GO ON"
+        when :false
+          echoln "NOT READY YET!"
         when :partnerDisconnected
           awaiting = false
           pbSEPlay("Battle flee")
@@ -4001,9 +3999,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       end
       if (((frame / 60) % 3) == 0)
         @connection.send do |writer|
-          writer.sym(:ready) #Request type
-          writer.str(@partner_uid)
-          writer.str(@uid)
+          writer.sym(:canProceed) #Request type
         end
         sent += 1
         echoln "AWAITING READINESS #{sent}"
