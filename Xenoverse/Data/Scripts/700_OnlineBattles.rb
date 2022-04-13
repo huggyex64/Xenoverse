@@ -3960,6 +3960,9 @@ class PokeBattle_CableClub < PokeBattle_Battle
 
   def pbAwaitReadiness
     frame = 0.0
+    if @ready == nil
+      @ready = 0
+    end
     @scene.pbShowWindow(PokeBattle_Scene::MESSAGEBOX)
     cw = @scene.sprites["messagewindow"]
     cw.letterbyletter = false
@@ -3973,6 +3976,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       writer.sym(:ready) #Request type
       writer.str(@partner_uid)
       writer.str(@uid)
+      @ready+=1
     end
     #@connection.flush
     while(awaiting && !gotready)
@@ -3981,8 +3985,16 @@ class PokeBattle_CableClub < PokeBattle_Battle
       frame+=1.0
       cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
       pbCheckForCE(@connection)
-      @connection.updateExp([:true,:false,:partnerDisconnected]) do |record|
+      @connection.updateExp([:checkProceeed,:true,:false,:partnerDisconnected]) do |record|
         case (type = record.sym)
+        when :checkProceeed
+          readycheck = record.int
+          if @ready <= readycheck
+            awaiting = false 
+            echoln "READY! GO ON"
+          else
+            echoln "NOT READY YET!"
+          end
         when :true
           awaiting = false
           echoln "READY! GO ON"
