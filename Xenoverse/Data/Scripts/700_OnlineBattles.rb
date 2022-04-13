@@ -1491,13 +1491,13 @@ class OnlinePartySelection
 
   def moveParties(togglestate,frames = 20)
     for i in 0...6
-      next if i >= @party.length || @party[i]==nil
       if !togglestate
-        @sprites["party#{i}"].moveX(i%2==0 ? 34 : 242,frames,:ease_out_cubic)
-        @sprites["enemyparty#{i}"].fade(0,frames-4 < 1? 1 : frames-4)
+        
+        @sprites["party#{i}"].moveX(i%2==0 ? 34 : 242,frames,:ease_out_cubic) if @sprites.keys.include?("party#{i}")
+        @sprites["enemyparty#{i}"].fade(0,frames-4 < 1? 1 : frames-4) if @sprites.keys.include?("enemyparty#{i}")
       else
-        @sprites["party#{i}"].moveX(i%2==0 ? 4 : 172,20,:ease_out_cubic)
-        @sprites["enemyparty#{i}"].fade(255,frames-4 < 1? 1 : frames-4)
+        @sprites["party#{i}"].moveX(i%2==0 ? 4 : 172,20,:ease_out_cubic) if @sprites.keys.include?("party#{i}")
+        @sprites["enemyparty#{i}"].fade(255,frames-4 < 1? 1 : frames-4) if @sprites.keys.include?("enemyparty#{i}")
       end
     end
     if !togglestate
@@ -1705,12 +1705,14 @@ class OnlinePartySelection
     end
     #after statuses update
     for i in 0...6 
-      if @selected.include?(@party[i])
-        echoln "#{@party[i].name} #{@selpath}#{@selected.index(@party[i])}"
-        @sprites["status#{i}"].bitmap = pbBitmap(@selpath + "#{@selected.index(@party[i])+1}")
-        @sprites["status#{i}"].visible = true
-      else
-        @sprites["status#{i}"].visible = false
+      if @sprites.keys.include?("status#{i}")
+        if @selected.include?(@party[i])
+          echoln "#{@party[i].name} #{@selpath}#{@selected.index(@party[i])}"
+          @sprites["status#{i}"].bitmap = pbBitmap(@selpath + "#{@selected.index(@party[i])+1}")
+          @sprites["status#{i}"].visible = true
+        else
+          @sprites["status#{i}"].visible = false
+        end
       end
     end
 
@@ -3963,24 +3965,30 @@ class PokeBattle_CableClub < PokeBattle_Battle
     cw.letterbyletter = false
     #Here i should await for readiness
     sent = false
+    gotready = false
     awaiting = true
     sent = 0
     echoln "AWAITING READINESS #{sent}"
     #@connection.flush
-    while(awaiting)
+    while(awaiting && !gotready)
       Graphics.update
       Input.update
       frame+=1.0
       cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
       pbCheckForCE(@connection)
-      @connection.updateExp([:ready,:partnerDisconnected]) do |record|
+      @connection.updateExp([:aknowledgeReady,:ready,:partnerDisconnected]) do |record|
         case (type = record.sym)
         when :ready
-          awaiting = false          
+          #awaiting = false          
+          gotready = true
           @connection.send do |writer|
-            writer.sym(:ready) #Request type
+            writer.sym(:fwd)
             writer.str(@partner_uid)
-            writer.str(@uid)
+            writer.sym(:aknowledgeReady) #Request type
+          end
+        when :aknowledgeReady
+          if (gotready)
+            awaiting = false
           end
         when :partnerDisconnected
           awaiting = false
