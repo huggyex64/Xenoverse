@@ -20,6 +20,8 @@ class OnlineLobby
 
   LOBBY_BGM = "Online Lobby"
 
+  ENABLE_BATTLE_TIMER = false
+
   def initialize()
     @canRefresh = false
     @viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
@@ -356,6 +358,7 @@ class OnlineLobby
     @counter["bg"].y = 160
     @counter["bg"].bitmap = Bitmap.new(200,24)
     @counter["bg"].bitmap.fill_rect(0,0,200,24,Color.new(0,0,0,120))
+    @counter["bg"].visible = ENABLE_BATTLE_TIMER
     pbSetSmallFont(@counter["bg"].bitmap)
   end
 
@@ -2290,6 +2293,7 @@ module CableClub
               @chosenTier = chooseTier(msgwindow,@battle_type,nil)
 
               if (@chosenTier == nil)
+                msgwindow.visible = false
                 return
               end
 
