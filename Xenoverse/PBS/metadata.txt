@@ -3859,3 +3859,100 @@ Bicycle=false
 Outdoor=false
 WildBattleBGM=Wild Battle Monte Alterato.mp3
 ShowArea=false
+[638]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[639]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[640]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[641]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[642]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[643]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[644]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[645]
+# Monte Zodiaco Alterato
+BattleBack=Vakum
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[646]
+# Vetta Polare
+Bicycle=false
+Outdoor=false
+[647]
+# Borgo Gemini
+Bicycle=false
+Outdoor=false
+[648]
+# Balansopoli
+Bicycle=false
+Outdoor=false
+[649]
+# Leopoli
+Bicycle=false
+Outdoor=false
+[650]
+# Aeroporto Samuel Oak
+Bicycle=false
+Outdoor=false
+[651]
+# Sagittopoli
+Bicycle=false
+Outdoor=false
+[652]
+# Aranciopoli
+Bicycle=false
+Outdoor=false
+[653]
+# Via Vittoria
+Bicycle=false
+Outdoor=false
+[654]
+# Regno di Virgopoli
+Bicycle=false
+Outdoor=false
+[655]
+# Cansiria
+Bicycle=false
+Outdoor=false
+[656]
+# Aquariopoli
+Bicycle=false
+Outdoor=false
+[657]
+# Scorpiopoli
+Bicycle=false
+Outdoor=false
+[658]
+# Tauronordia
+Bicycle=false
+Outdoor=false
+[659]
+# Paradiso Sakura
+Bicycle=false
+Outdoor=false
