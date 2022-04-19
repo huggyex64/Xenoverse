@@ -99,6 +99,8 @@ class PokeBattle_Move
 					type=getConst(PBTypes,:ELECTRIC)
 					@powerboost=true
 				end
+			elsif attacker.hasWorkingAbility(:LIQUIDVOICE) && isSoundBased?()
+				type=getConst(PBTypes,:WATER)
 			end
 		end
 		return type
