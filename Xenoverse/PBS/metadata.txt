@@ -3899,7 +3899,7 @@ ShowArea=false
 BattleBack=Vakum
 Bicycle=false
 Outdoor=false
-ShowArea=false
+ShowArea=true
 [646]
 # Vetta Polare
 Bicycle=false
