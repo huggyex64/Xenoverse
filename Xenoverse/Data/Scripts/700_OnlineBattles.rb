@@ -675,7 +675,8 @@ class OnlineLobby
       :LANCETOURNAMENT => "Lance",
       :LEOTOURNAMENT => "Leo",
       :ERIKATOURNAMENT => "Erika",
-      :DANTETOURNAMENT => "Dante"
+      :DANTETOURNAMENT => "Dante",
+      :SERGENTESIGMA => "S"
     }
 
 
@@ -1957,6 +1958,26 @@ module CableClub
     ret.push(:ERIKATOURNAMENT)
     ret.push(:LEOTOURNAMENT)
     ret.push(:DANTETOURNAMENT)
+
+    specialTrainers = CableClub.getSpecialTrainers($Trainer.uniqueSaveID)
+    if specialTrainers.length > 0
+      for s in specialTrainers
+        ret << s
+      end
+    end
+    return ret
+  end
+
+  def self.getSpecialTrainers(saveID)
+    ret = []
+    types = BattleRequest.makeRequest("getSpecialSkins",{"UID"=>saveID}).split("</s>")
+    if types.length > 0
+      for i in 0...types.length
+        types[i] = types[i].to_sym
+        ret << types[i]
+      end
+    end
+    echoln types
     return ret
   end
 
@@ -2185,7 +2206,10 @@ module CableClub
       }
 
       $Trainer.generateSaveID(connection) if $Trainer.uniqueSaveID == nil
-      
+      connection.send do |writer|
+        writer.sym(:setSaveID)
+        writer.str($Trainer.uniqueSaveID)
+      end
       @state = :enlisted
     else
       pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nConnecting to online server",$Trainer.publicID($Trainer.id)), @frame)
