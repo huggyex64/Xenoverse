@@ -2507,7 +2507,7 @@ module CableClub
         if $Trainer.party.length < 2
           Kernel.pbMessageDisplay(msgwindow, _INTL("Can't enter wonder trade with less than 2 Pokémon."),false)
         else
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to start the WONDER trade?"),false)
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to start the WONDER trade?"),true)
           if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
             valid = false
             while !valid
@@ -2531,7 +2531,7 @@ module CableClub
               oldfriendwhodied = $Trainer.party[@wtchosen].name
               pbRemovePokemonAt(@wtchosen)
               #pbSave()
-              Kernel.pbMessageDisplay(msgwindow,_INTL("Bye, {1}!",oldfriendwhodied),false)
+              Kernel.pbMessageDisplay(msgwindow,_INTL("Bye, {1}!",oldfriendwhodied),true)
               @state = :enlisted
               return
             end
