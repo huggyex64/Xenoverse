@@ -2498,7 +2498,7 @@ module CableClub
           @state = :enlisted
         elsif traded == "0" #not traded
           #scemo chi legge
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Your Pokémon wasn't traded yet.\\^"))
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Your Pokémon wasn't traded yet.\\^"),false)
           @state = :enlisted
         else
           #casino incredibile assurdo
@@ -2531,7 +2531,8 @@ module CableClub
               oldfriendwhodied = $Trainer.party[@wtchosen].name
               pbRemovePokemonAt(@wtchosen)
               #pbSave()
-              Kernel.pbMessageDisplay(msgwindow,_INTL("Bye, {1}!",oldfriendwhodied))
+              Kernel.pbMessageDisplay(msgwindow,_INTL("Bye, {1}!",oldfriendwhodied),false)
+              @state = :enlisted
               return
             end
           else
