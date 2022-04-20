@@ -2498,16 +2498,16 @@ module CableClub
           @state = :enlisted
         elsif traded == "0" #not traded
           #scemo chi legge
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Your Pokémon wasn't traded yet.\\^"),false)
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Your Pokémon wasn't traded yet.\\^"))
           @state = :enlisted
         else
           #casino incredibile assurdo
         end
       when :empty
         if $Trainer.party.length < 2
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Can't enter wonder trade with less than 2 Pokémon."),false)
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Can't enter wonder trade with less than 2 Pokémon."))
         else
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to start the WONDER trade?"),true)
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to start the WONDER trade?"))
           if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
             valid = false
             while !valid
