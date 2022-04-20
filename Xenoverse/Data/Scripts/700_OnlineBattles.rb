@@ -2521,6 +2521,7 @@ module CableClub
               if $Trainer.party[@wtchosen].hp > 0 && ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI].include?($Trainer.party[@wtchosen].species)
                 valid = true
               end
+              break if @wtchosen < 0
             end
             if @wtchosen >= 0
               connection.send do |writer|
