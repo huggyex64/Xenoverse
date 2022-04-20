@@ -2371,36 +2371,13 @@ module CableClub
           msgwindow.visible = false
         when 2 #wonder trade matchmaking
           msgwindow.visible = true
-          if $Trainer.party.length < 2
-            Kernel.pbMessageDisplay(msgwindow, _INTL("Can't enter wonder trade with less than 2 Pokémon."),false)
-          else
-            Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to start the WONDER trade?"),false)
-            if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-              valid = false
-              while !valid
-                @wtchosen = choose_pokemon
-                if $Trainer.party[@wtchosen].isEgg?
-                  if $Trainer.party.any? { |p| 
-                    p != $Trainer.party[@wtchosen] && p.hp > 0 && !p.isEgg?}
-                    valid = true
-                  end
-                end
-                if $Trainer.party[@wtchosen].hp > 0 && ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG].include?($Trainer.party[@wtchosen].species)
-                  valid = true
-                end
-              end
-              if @wtchosen >= 0
-                connection.send do |writer|
-                  writer.sym(:wonderTrade)
-                  write_pkmn(writer,$Trainer.party[@wtchosen])
-                end
-                @state = :wonderTrading
-                Kernel.pbMessageDisplay(msgwindow,_INTL("Wonder trading..."),false)
-                return
-              end
-            else
-            end
+
+          connection.send do |writer|
+            writer.sym(:wtStatus) #empty|fill
           end
+
+          @state = :await_wt_info
+
           msgwindow.visible = false
         when 3 # settings
           @ui.openSettings(msgwindow)
@@ -2493,6 +2470,71 @@ module CableClub
         @ui.updateServerMessage(record.str)
       when :message
         Kernel.pbMessage(record.str)
+      else
+        raise "Unknown message: #{type}"
+      end
+    end
+  end
+
+  def self.handle_await_wt_info(connection,msgwindow)
+    #empty|fill
+    connection.updateExp([:empty,:fill]) do |record|
+      case(type=record.sym)
+      when :fill
+        traded = record.str
+        if traded == "1" #traded
+          partner_name = record.str
+          partner_pkmn = parse_pkmn(record)
+          your_pkmn = parse_pkmn(record)#$Trainer.party[@wtchosen]
+          partner_speciesname = (partner_pkmn.isEgg?) ? _INTL("Egg") : PBSpecies.getName(getID(PBSpecies,partner_pkmn.species))
+          your_speciesname = (your_pkmn.isEgg?) ? _INTL("Egg") : PBSpecies.getName(getID(PBSpecies,your_pkmn.species))
+          # HERE THE ACTUAL TRADE IS BEING HANDLED          
+          partner = PokeBattle_Trainer.new(partner_name, $Trainer.trainertype)
+          do_wtrade(your_pkmn, partner, partner_pkmn) #trade scene
+          
+          @wtchosen=-1
+          @state = :enlisted
+        elsif traded == "0" #not traded
+          #scemo chi legge
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Your Pokémon wasn't traded yet.\\^"))
+          @state = :enlisted
+        else
+          #casino incredibile assurdo
+        end
+      when :empty
+        if $Trainer.party.length < 2
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Can't enter wonder trade with less than 2 Pokémon."),false)
+        else
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to start the WONDER trade?"),false)
+          if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
+            valid = false
+            while !valid
+              @wtchosen = choose_pokemon
+              if $Trainer.party[@wtchosen].isEgg?
+                if $Trainer.party.any? { |p| 
+                  p != $Trainer.party[@wtchosen] && p.hp > 0 && !p.isEgg?}
+                  valid = true
+                end
+              end
+              if $Trainer.party[@wtchosen].hp > 0 && ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI].include?($Trainer.party[@wtchosen].species)
+                valid = true
+              end
+            end
+            if @wtchosen >= 0
+              connection.send do |writer|
+                writer.sym(:wonderTrade)
+                write_pkmn(writer,$Trainer.party[@wtchosen])
+              end
+              oldfriendwhodied = $Trainer.party[@wtchosen].name
+              pbRemovePokemonAt(@wtchosen)
+              #pbSave()
+              Kernel.pbMessageDisplay(msgwindow,_INTL("Bye, {1}!",oldfriendwhodied))
+              return
+            end
+          else
+          end
+        end
+        @state = :enlisted
       else
         raise "Unknown message: #{type}"
       end
@@ -3175,6 +3217,8 @@ module CableClub
     @handlers[:unrankedMatchmaking] = Proc.new {|connection, msgwindow| handle_unranked_matchmaking(connection,msgwindow)}
     @handlers[:wonderTrading] = Proc.new {|connection, msgwindow| handle_wonder_trading(connection,msgwindow)}
 
+    @handlers[:await_wt_info] = Proc.new {|connection, msgwindow| handle_await_wt_info(connection,msgwindow)}
+
     @timeoutCounter = 0
     @maxTimeOut = 60 * 30
 
@@ -3392,6 +3436,20 @@ module CableClub
     $Trainer.party[index] = your_pkmn
     $Trainer.seen[your_pkmn.species] = true
     $Trainer.owned[your_pkmn.species] = true
+    pbSeenForm(your_pkmn)
+    pbSave()
+    pbFadeOutInWithMusic(99999) {
+      scene = PokemonTradeScene.new
+      scene.pbStartScreen(my_pkmn, your_pkmn, $Trainer.name, you.name)
+      scene.pbTrade
+      scene.pbEndScreen
+    }
+    #$Trainer.party[index] = your_pkmn
+  end
+
+  def self.do_wtrade(my_pkmn, you, your_pkmn)
+    your_pkmn.obtainMode = 2 # traded
+    pbAddPokemonSilent(your_pkmn)
     pbSeenForm(your_pkmn)
     pbSave()
     pbFadeOutInWithMusic(99999) {
