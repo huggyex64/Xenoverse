@@ -1741,8 +1741,13 @@ class OnlinePartySelection
 end
 
 def pbTSC
-  scos = OnlinePartySelection.new($Trainer,$Trainer.party,"Emanueleg",$Trainer.party,3,1,true,proc{|x|
-    return x.species > 1050
+  randparty = []
+  randMons = [:LUCARIO,:SHIFTRY,:BLAZIKEN,:MAWILE,:LUXRAY,:ALAKAZAM]
+  for i in 0...6
+    randparty << pbGenerateWildPokemon(randMons[i],50)
+  end
+  scos = OnlinePartySelection.new($Trainer,$Trainer.party,"Red",randparty,3,1,true,proc{|x|
+    return !([PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::SHYLEON].include?(x.species) && x.form == 0 && x.abilityIndex == 2)#x.species > 1050
   })
   echoln scos.result
 end
