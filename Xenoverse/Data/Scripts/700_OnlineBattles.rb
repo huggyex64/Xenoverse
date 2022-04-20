@@ -2048,14 +2048,17 @@ class PokeBattle_Trainer
           writer.sym(:getSaveID)
         end
       end
-
+      obtained = false
       loop do 
         Graphics.update
         Input.update
+        break if obtained
         connection.updateExp([:saveID]) do |record|
           case (type = record.sym)
           when :saveID
             @uniqueSaveID = record.str
+            obtained = true
+            pbSave()
           end
         end
       end
