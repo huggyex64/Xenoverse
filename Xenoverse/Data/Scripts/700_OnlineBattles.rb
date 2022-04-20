@@ -2530,7 +2530,7 @@ module CableClub
               end
               oldfriendwhodied = $Trainer.party[@wtchosen].name
               pbRemovePokemonAt(@wtchosen)
-              #pbSave()
+              pbSave()
               Kernel.pbMessageDisplay(msgwindow,_INTL("Bye, {1}!",oldfriendwhodied),true)
               @state = :enlisted
               return
