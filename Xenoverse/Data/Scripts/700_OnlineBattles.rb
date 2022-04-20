@@ -2379,9 +2379,8 @@ module CableClub
             writer.sym(:wtStatus) #empty|fill
           end
 
-          @state = :await_wt_info
-
           msgwindow.visible = false
+          @state = :await_wt_info
         when 3 # settings
           @ui.openSettings(msgwindow)
           msgwindow.visible = false
