@@ -2019,6 +2019,29 @@ class PokeBattle_Trainer
     return @online_trainer_type || getConst(PBTrainers,CableClub.getOnlineTrainerTypeList()[$Trainer.gender])#self.trainertype
   end
 
+  attr_reader :uniqueSaveID
+  def generateSaveID(connection)
+    if @uniqueSaveID == nil
+      if connection.can_send?
+        connection.send do |writer|
+          writer.sym(:getSaveID)
+        end
+      end
+
+      loop do 
+        Graphics.update
+        Input.update
+        connection.updateExp([:saveID]) do |record|
+          case (type = record.sym)
+          when :saveID
+            @uniqueSaveID = record.str
+          end
+        end
+      end
+
+    end
+  end
+
   attr_accessor :online_battle_bg
   def online_battle_bg
     return @online_battle_bg || "Online"
@@ -2160,6 +2183,9 @@ module CableClub
         @ui.displayUI(true)
         @ui.pbDisplayAvaiblePlayerList(getPlayerList)
       }
+
+      $Trainer.generateSaveID(connection) if $Trainer.uniqueSaveID == nil
+      
       @state = :enlisted
     else
       pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nConnecting to online server",$Trainer.publicID($Trainer.id)), @frame)
