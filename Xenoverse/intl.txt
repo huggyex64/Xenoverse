@@ -43932,6 +43932,12 @@ Luxrayite
 836
 Mienshaoite
 Mienshaoite
+837
+Lastraboato
+Sound Plate
+838
+Morfopalla
+Alterball
 [8]
 1
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
@@ -46318,6 +46324,12 @@ One variety of the mysterious Mega Stones. Have Luxray hold it, and this stone w
 836
 Un esemplare delle misteriose Megapietre. Data a Mienshao, gli permette di megaevolversi durante la lotta.
 One variety of the mysterious Mega Stones. Have Mienshao hold it, and this stone will enable it to Mega Evolve during battle.
+837
+Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Suono.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Sound-type moves.
+838
+Strumento da dare a Pikachu X. Sfera insolita che aumenta l'Attacco e l'Attacco Speciale.
+An item to be held by Pikachu X. It is a puzzling orb that raises the Attack and Sp. Atk stat.
 [9]
 1
 Tanfo

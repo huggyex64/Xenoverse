@@ -20165,6 +20165,12 @@ Luxrayite
 836
 Mienshaoite
 Mienshaoite
+837
+Lastraboato
+Lastraboato
+838
+Morfopalla
+Morfopalla
 [8]
 1
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
@@ -22551,6 +22557,12 @@ Un esemplare delle misteriose Megapietre. Data a Luxray, gli permette di megaevo
 836
 Un esemplare delle misteriose Megapietre. Data a Mienshao, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Mienshao, gli permette di megaevolversi durante la lotta.
+837
+Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Suono.
+Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Suono.
+838
+Strumento da dare a Pikachu X. Sfera insolita che aumenta l'Attacco e l'Attacco Speciale.
+Strumento da dare a Pikachu X. Sfera insolita che aumenta l'Attacco e l'Attacco Speciale.
 [9]
 1
 Tanfo

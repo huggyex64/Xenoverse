@@ -22276,6 +22276,7 @@ RegionalNumbers=0,8,0
 Kind=Amico
 Pokedex=Rappresenta una vera e propria anomalia tra i Pokémon X. La sua indole, infatti, lo rende amichevole persino con l'uomo.
 FormNames=Pikachu X male, Pikachu X female
+WildItemUncommon=ALTERBALL
 BattlerPlayerY=4
 BattlerEnemyY=17
 [1208]
