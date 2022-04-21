@@ -3312,6 +3312,10 @@ MultipleForms.register(:MIENSHAO,{
 	"getUnmegaForm"=>proc{|pokemon|
 		next 0
 	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:WATER) if pokemon.form==1
+		next
+	},
 	"getMegaName"=>proc{|pokemon|
 		next _INTL("Mega Mienshao") if pokemon.form==1
 		next

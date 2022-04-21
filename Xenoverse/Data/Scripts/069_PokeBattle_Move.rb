@@ -750,12 +750,13 @@ class PokeBattle_Move
 			damagemult=(damagemult*0.5).round
 		end
 
-		if opponent.hasWorkingAbility(:WATERSTREAM) && opponent.speed > attacker.speed
-			opp_perc = attacker.speed.to_f/opponent.speed.to_f * 100
+		if opponent.hasWorkingAbility(:WATERSTREAM) && opponent.pbSpeed() > attacker.pbSpeed()
+			opp_perc = attacker.pbSpeed().to_f/opponent.pbSpeed().to_f * 100
 			finalres = (opp_perc).floor
 			finalres = 30 if finalres <= 30
 			finalres = 100 if finalres >= 100
 			damagemult = (damagemult * finalres/100.0).floor
+			echoln "DAMAGE MODIFIED BY #{finalres/100.0}"
 		end
 
 		if isConst?(type,PBTypes,:FIRE)
