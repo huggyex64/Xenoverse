@@ -1065,7 +1065,7 @@ MultipleForms.register(:SHYLEON,{
 		"ability"=>proc{|pokemon|
 			next if pokemon.form == 0
 			next getID(PBAbilities,:QUICKFEET) if pokemon.form == 1				# Terrestre
-			next getID(PBAbilities,:CHLOROPHYLL) if pokemon.form==2		    # Xenoverse
+			next getID(PBAbilities,:MAJESTICAURA) if pokemon.form==2		    # Xenoverse
 		},
 		"height"=>proc{|pokemon|
 			next if pokemon.form==0 # Altered Forme

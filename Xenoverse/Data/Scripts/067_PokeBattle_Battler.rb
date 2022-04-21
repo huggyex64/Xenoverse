@@ -2579,6 +2579,13 @@ class PokeBattle_Battler
 			PBDebug.log("[#{user.pbThis}: Protect stopped the attack]")
 			return false
 		end
+		if (target.hasWorkingAbility?(:MAJESTICAURA) || target.pbPartner.hasWorkingAbility?(:MAJESTICAURA)) &&
+			!user.hasMoldBreaker()
+			auraowner = target.hasWorkingAbility?(:MAJESTICAURA) ? target : target.pbPartner
+			@battle.pbDisplay(_INTL("{1}'s Majestic Aura made {2} stop itself!",auraowner.pbThis,target.pbThis))
+			PBDebug.log("[#{user.pbThis}: #{auraowner.pbThis}'s Majestic Aura stopped the attack]")
+			return false
+		end
 		# TODO: Mind Reader/Lock-On
 		# --Sketch/FutureSight/PsychUp work even on Fly/Bounce/Dive/Dig
 		if thismove.pbMoveFailed(user,target) # TODO: Applies to Snore/Fake Out

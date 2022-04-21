@@ -754,7 +754,7 @@ class PokeBattle_Move
 			opp_perc = attacker.speed.to_f/opponent.speed.to_f * 100
 			finalres = (opp_perc).floor
 			finalres = 30 if finalres <= 30
-			finalres = 100 if finalres => 100
+			finalres = 100 if finalres >= 100
 			damagemult = (damagemult * finalres/100.0).floor
 		end
 

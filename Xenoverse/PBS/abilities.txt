@@ -250,3 +250,4 @@
 250,LONGREACH,Distacco,"Il Pokémon è in grado di attaccare senza entrare in contatto con il bersaglio."
 251,RAPTOR,Rapacità,"Il Pokémon guadagna priorità se sta attaccando un Pokémon debole."
 252,WATERSTREAM,Flusso Difensivo,"Il Pokémon devia i colpi dai Pokémon più lenti di lui, subendo meno danni."
+253,MAJESTICAURA,Aura Maestosa,"L'aura maestosa del Pokémon impedisce al nemico di attaccarlo con mosse che hanno priorità alta."
