@@ -3321,7 +3321,7 @@ MultipleForms.register(:MIENSHAO,{
 		next
 	},
 	"ability"=>proc{|pokemon|
-		next getID(PBAbilities,:LEVITATE) if pokemon.form==1
+		next getID(PBAbilities,:WATERSTREAM) if pokemon.form==1
 		next
 	},
 	"onSetForm"=>proc{|pokemon,form|
