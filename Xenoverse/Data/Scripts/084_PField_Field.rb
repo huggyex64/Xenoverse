@@ -1898,7 +1898,12 @@ def Kernel.pbSetPokemonCenter
   $PokemonGlobal.pokecenterDirection=$game_player.direction
 end
 
-
+def Kernel.pbSetPokemonCenterSpecific(map_id,x,y,direction)
+  $PokemonGlobal.pokecenterMapId=map_id
+  $PokemonGlobal.pokecenterX=x
+  $PokemonGlobal.pokecenterY=y
+  $PokemonGlobal.pokecenterDirection=direction
+end
 
 ################################################################################
 # Fishing
@@ -2240,6 +2245,10 @@ def Kernel.pbStartOver(gameover=false)
     end
     Kernel.pbCancelVehicles
     pbRemoveDependencies()
+    if $game_switches[1500] == true #alter switch is on
+      $game_switches[1500] = false
+      $Trainer.outfit = 51 # become normal again
+    end
     $game_switches[STARTING_OVER_SWITCH]=true
     $game_temp.player_new_map_id=$PokemonGlobal.pokecenterMapId
     $game_temp.player_new_x=$PokemonGlobal.pokecenterX
