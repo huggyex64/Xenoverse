@@ -2373,13 +2373,10 @@ module CableClub
           end
           msgwindow.visible = false
         when 2 #wonder trade matchmaking
-          msgwindow.visible = true
 
           connection.send do |writer|
             writer.sym(:wtStatus) #empty|fill
           end
-
-          msgwindow.visible = false
           @state = :await_wt_info
         when 3 # settings
           @ui.openSettings(msgwindow)
@@ -2498,12 +2495,16 @@ module CableClub
           @state = :enlisted
         elsif traded == "0" #not traded
           #scemo chi legge
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Your Pokémon wasn't traded yet.\\^"))
+          
+          msgwindow.visible = true
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Your Pokémon wasn't traded yet."))          
+          msgwindow.visible = false
           @state = :enlisted
         else
           #casino incredibile assurdo
         end
       when :empty
+        msgwindow.visible = true
         if $Trainer.party.length < 2
           Kernel.pbMessageDisplay(msgwindow, _INTL("Can't enter wonder trade with less than 2 Pokémon."))
         else
@@ -2513,8 +2514,7 @@ module CableClub
             while !valid
               @wtchosen = choose_pokemon
               if $Trainer.party[@wtchosen].isEgg?
-                if $Trainer.party.any? { |p| 
-                  p != $Trainer.party[@wtchosen] && p.hp > 0 && !p.isEgg?}
+                if $Trainer.party.any? { |p| p != $Trainer.party[@wtchosen] && p.hp > 0 && !p.isEgg?}
                   valid = true
                 end
               end
@@ -2532,12 +2532,14 @@ module CableClub
               pbRemovePokemonAt(@wtchosen)
               pbSave()
               Kernel.pbMessageDisplay(msgwindow,_INTL("Bye, {1}!",oldfriendwhodied),true)
+              msgwindow.visible = false
               @state = :enlisted
               return
             end
           else
           end
-        end
+        end  
+        msgwindow.visible = false
         @state = :enlisted
       else
         raise "Unknown message: #{type}"
@@ -3271,7 +3273,7 @@ module CableClub
               end
             end
           else
-            msgwindow.visible = true
+            msgwindow.visible = true if @state != :await_wt_info
           end
           @last_state = @state
           @frame = 0

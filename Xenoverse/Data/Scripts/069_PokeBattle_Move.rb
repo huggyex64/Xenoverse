@@ -740,12 +740,22 @@ class PokeBattle_Move
 			damagemult=(damagemult*1.5).round
 		end
 
+		
+
 		# PUNK ROCK
 		if attacker.hasWorkingAbility(:PUNKROCK) && isSoundBased?
 			damagemult=(damagemult*1.2).round
 		end
 		if opponent.hasWorkingAbility(:PUNKROCK) && isSoundBased?
 			damagemult=(damagemult*0.5).round
+		end
+
+		if opponent.hasWorkingAbility(:WATERSTREAM) && opponent.speed > attacker.speed
+			opp_perc = attacker.speed.to_f/opponent.speed.to_f * 100
+			finalres = (opp_perc).floor
+			finalres = 30 if finalres <= 30
+			finalres = 100 if finalres => 100
+			damagemult = (damagemult * finalres/100.0).floor
 		end
 
 		if isConst?(type,PBTypes,:FIRE)
