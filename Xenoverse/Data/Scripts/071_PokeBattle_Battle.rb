@@ -550,6 +550,8 @@ class PokeBattle_Battle
 	# Checks whether an item can be removed from a Pokémon.
 	def pbIsUnlosableItem(pkmn,item)
 		return true if pbIsMail?(item)
+		return true if pbIsImportantItem?(item)
+		return true if pbIsMegaStone?(item)
 		return false if pkmn.effects[PBEffects::Transform]
 		if isConst?(pkmn.ability,PBAbilities,:MULTITYPE) &&
 			(isConst?(item,PBItems,:FISTPLATE) ||

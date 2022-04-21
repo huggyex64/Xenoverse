@@ -986,7 +986,7 @@ MultipleForms.register(:TRISHOUT,{
 		"ability"=>proc{|pokemon|
 			next if pokemon.form==0
 			next getID(PBAbilities,:GUTS) if pokemon.form==1 	# Terrestre
-			next getID(PBAbilities,:SOLARPOWER) if pokemon.form==2 		# Xenoverse
+			next getID(PBAbilities,:HUGEPOWER) if pokemon.form==2 		# Xenoverse
 		},
 		"height"=>proc{|pokemon|
 			next if pokemon.form==0 # Altered Forme
@@ -1003,7 +1003,7 @@ MultipleForms.register(:TRISHOUT,{
 		"getBaseStats"=>proc{|pokemon|
 			next if pokemon.form==0 || pokemon.form == 4
 			next [88,105,55,78,80,44] if pokemon.form==1  # Terrestre
-			next [118,80,64,93,135,59] if pokemon.form==2  # Xenoverse
+			next [118,60,64,93,155,59] if pokemon.form==2  # Xenoverse
 			next [143,140,90,93,140,94] if pokemon.form == 3 #Astro
 		},
 		"getForm"=>proc{|pokemon|
@@ -2016,7 +2016,7 @@ MultipleForms.register(:BEEDRILL, {
 # ALAKAZAM
 MultipleForms.register(:ALAKAZAM, {
 		"getMegaForm"=>proc{|pokemon|
-			next 1 if isConst?(pokemon.item,PBItems,:ALAKAZAMITE)
+			next 1 if isConst?(pokemon.item,PBItems,:ALAKAZITE)
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
@@ -2190,7 +2190,7 @@ MultipleForms.register(:SCIZOR, {
 # HERACROSS
 MultipleForms.register(:HERACROSS, {
 		"getMegaForm"=>proc{|pokemon|
-			next 1 if isConst?(pokemon.item,PBItems,:HERACROSSITE)
+			next 1 if isConst?(pokemon.item,PBItems,:HERACRONITE)
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
@@ -2392,7 +2392,7 @@ MultipleForms.register(:SWAMPERT, {
 # SHARPEDO
 MultipleForms.register(:SHARPEDO, {
 		"getMegaForm"=>proc{|pokemon|
-			next 1 if isConst?(pokemon.item,PBItems,:SHARPEDITE)
+			next 1 if isConst?(pokemon.item,PBItems,:SHARPEDONITE)
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|

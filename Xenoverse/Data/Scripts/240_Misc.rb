@@ -1055,3 +1055,61 @@ def pbCheckFormEvolution(pokemon)
   end
   return [-1,-1]
 end
+
+def pbIsMegaStone?(item)
+  if (isConst?(item,PBItems,:VENUSAURITE) ||
+      isConst?(item,PBItems,:CHARIZARDITET) ||
+      isConst?(item,PBItems,:CHARIZARDITEX) ||
+      isConst?(item,PBItems,:BLASTOISINITE) ||
+      isConst?(item,PBItems,:ABOMASITE) ||
+      isConst?(item,PBItems,:ABSOLITE) ||
+      isConst?(item,PBItems,:LINOONITE) ||
+      isConst?(item,PBItems,:AERODACTYLITE) ||
+      isConst?(item,PBItems,:AGGRONITE) ||
+      isConst?(item,PBItems,:ALAKAZITE) ||
+      isConst?(item,PBItems,:ALTARIANITE) ||
+      isConst?(item,PBItems,:AMPHAROSITE) ||
+      isConst?(item,PBItems,:AUDINITE) ||
+      isConst?(item,PBItems,:BANETTITE) ||
+      isConst?(item,PBItems,:BEEDRILLITE) ||
+      isConst?(item,PBItems,:BLAZIKENITE) ||
+      isConst?(item,PBItems,:CAMERUPTITE) ||
+      isConst?(item,PBItems,:DIANCITE) ||
+      isConst?(item,PBItems,:GALLADITE) ||
+      isConst?(item,PBItems,:GARCHOMPITE) ||
+      isConst?(item,PBItems,:GARDEVOIRITE) ||
+      isConst?(item,PBItems,:GENGARITE) ||
+      isConst?(item,PBItems,:GLALITITE) ||
+      isConst?(item,PBItems,:GYARADOSITE) ||
+      isConst?(item,PBItems,:HERACRONITE) ||
+      isConst?(item,PBItems,:HOUNDOOMINITE) ||
+      isConst?(item,PBItems,:KANGASKHANITE) ||
+      isConst?(item,PBItems,:LATIASITE) ||
+      isConst?(item,PBItems,:LATIOSITE) ||
+      isConst?(item,PBItems,:LOPUNNITE) ||
+      isConst?(item,PBItems,:LUCARITE) ||
+      isConst?(item,PBItems,:MANECTITE) ||
+      isConst?(item,PBItems,:MAWILITE) ||
+      isConst?(item,PBItems,:MEDICHAMITE) ||
+      isConst?(item,PBItems,:METAGROSSITE) ||
+      isConst?(item,PBItems,:MEWTWONITEX) ||
+      isConst?(item,PBItems,:MEWTWONITEY) ||
+      isConst?(item,PBItems,:PIDGEOTITE) ||
+      isConst?(item,PBItems,:PINSIRITE) ||
+      isConst?(item,PBItems,:SABLENITE) ||
+      isConst?(item,PBItems,:SALAMENCITE) ||
+      isConst?(item,PBItems,:SCEPTILITE) ||
+      isConst?(item,PBItems,:SCIZORITE) ||
+      isConst?(item,PBItems,:SHARPEDONITE) ||
+      isConst?(item,PBItems,:SLOWBRONITE) ||
+      isConst?(item,PBItems,:STEELIXITE) ||
+      isConst?(item,PBItems,:SWAMPERTITE) ||
+      isConst?(item,PBItems,:TYRANITARITE) ||
+      isConst?(item,PBItems,:SHIFTRYITE) ||
+      isConst?(item,PBItems,:BELLOSSOMITE) ||
+      isConst?(item,PBItems,:LUXRAYITE) ||
+      isConst?(item,PBItems,:MIENSHAOITE))
+    return true
+  end
+  return false
+end
