@@ -2579,8 +2579,14 @@ class PokeBattle_Battler
 			PBDebug.log("[#{user.pbThis}: Protect stopped the attack]")
 			return false
 		end
+		movePriority = thismove.priority
+		movePriority+=1 if user.hasWorkingAbility(:PRANKSTER) && thismove.basedamage==0 
+		movePriority+=1 if isConst?(user.ability,PBAbilities,:GALEWINGS) && thismove.type==2
+		movePriority+=1 if user.hasWorkingAbility(:RAPTOR) && target.hp <= target.totalhp/4 
+		movePriority+=2 if user.effects[PBEffects::Cheering]
+
 		if (target.hasWorkingAbility?(:MAJESTICAURA) || target.pbPartner.hasWorkingAbility?(:MAJESTICAURA)) &&
-			!user.hasMoldBreaker()
+			!user.hasMoldBreaker() && movePriority > 0
 			auraowner = target.hasWorkingAbility?(:MAJESTICAURA) ? target : target.pbPartner
 			@battle.pbDisplay(_INTL("{1}'s Majestic Aura made {2} stop itself!",auraowner.pbThis,target.pbThis))
 			PBDebug.log("[#{user.pbThis}: #{auraowner.pbThis}'s Majestic Aura stopped the attack]")
