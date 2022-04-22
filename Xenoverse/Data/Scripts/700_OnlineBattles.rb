@@ -4078,11 +4078,11 @@ class PokeBattle_CableClub < PokeBattle_Battle
           else
             echoln "NOT READY YET!"
           end
-        when :true
-          awaiting = false
-          echoln "READY! GO ON"
-        when :false
-          echoln "NOT READY YET!"
+        #when :true
+        #  awaiting = false
+        #  echoln "READY! GO ON"
+        #when :false
+        #  echoln "NOT READY YET!"
         when :partnerDisconnected
           awaiting = false
           pbSEPlay("Battle flee")
