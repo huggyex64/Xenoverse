@@ -2345,7 +2345,7 @@ module CableClub
             @partner_uid = @ui.playerList[@ui.selectionIndex][2]
             @partner_name = @ui.playerList[@ui.selectionIndex][1]
             
-            Kernel.pbMessageDisplay(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nAsked {1} for interaction...", $Trainer.publicID($Trainer.id),@partner_name),false)
+            Kernel.pbMessageDisplay(msgwindow, _INTL("Your ID: {1}\\nAsked {2} for interaction...",_ISPRINTF("{1:05d}", $Trainer.publicID($Trainer.id)),@partner_name),false)
             @state = :await_interaction_accept
             @timeoutCounter = 0
             return
@@ -2495,6 +2495,7 @@ module CableClub
               writer.sym(:fwd)
               writer.str(uid)
               writer.sym(:cancel)
+              writer.str(@uid)
             end
           end
           msgwindow.visible = false
@@ -2647,9 +2648,9 @@ module CableClub
 
   def self.handle_await_interaction_accept(connection,msgwindow)
     #pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nAsked X for interaction",$Trainer.publicID($Trainer.id)), @frame)
-    if (@frame%180 == 0) #Requesting player list every X seconds
-      @ui.pbDisplayAvaiblePlayerList(self.getPlayerList())
-    end
+    #if (@frame%180 == 0) #Requesting player list every X seconds
+    #  @ui.pbDisplayAvaiblePlayerList(self.getPlayerList())
+    #end
     connection.updateExp([:acceptInteraction,:cancel,:partnerDisconnected],true) do |record|
       case (type = record.sym)
       when :acceptInteraction
@@ -2674,10 +2675,12 @@ module CableClub
           @state = :await_choose_activity
         end
       when :cancel
-        Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to interact.", @partner_name))
-        @ui.hideParty
-        @state = :enlisted
-        resetPartner()
+        if record.str == @partner_uid
+          Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to interact.", @partner_name))
+          @ui.hideParty
+          @state = :enlisted
+          resetPartner()
+        end
       when :partnerDisconnected
         # disconnect only if the partner who sent the disconnection is your current partner
         if @partner_uid == record.str
