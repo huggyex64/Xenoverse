@@ -1093,16 +1093,16 @@ end
 ################################################################################
 class PokeBattle_Move_304 < PokeBattle_Move
 	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
-		if attacker.pbOwnSide.effects[PBEffects::ScorchedAshes]
+		if attacker.pbOpposingSide.effects[PBEffects::ScorchedAshes]
 			@battle.pbDisplay(_INTL("But it failed!"))
 			return -1
 		end
 		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
-		attacker.pbOwnSide.effects[PBEffects::ScorchedAshes]=true
+		attacker.pbOpposingSide.effects[PBEffects::ScorchedAshes]=true
 		if !@battle.pbIsOpposing?(attacker.index)
-			@battle.pbDisplay(_INTL("Delle ceneri arse ricoprono il tuo campo!"))
-		else
 			@battle.pbDisplay(_INTL("Delle ceneri arse ricoprono il campo del tuo avversario!"))
+		else
+			@battle.pbDisplay(_INTL("Delle ceneri arse ricoprono il tuo campo!"))
 		end
 		return 0
 	end
