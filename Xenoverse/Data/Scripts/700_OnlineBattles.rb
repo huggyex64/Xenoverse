@@ -2667,7 +2667,7 @@ module CableClub
             write_party(writer)
           end
         end
-        @cancancelSelection = false
+        @cancancelSelection = true
         Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", @partner_name))
         if @client_id == 0
           @state = :choose_activity
@@ -2710,7 +2710,7 @@ module CableClub
         @partner_party = parse_party(record)
         @ui.displayParty(@partner_party)
         Kernel.pbMessageDisplay(msgwindow, _INTL("{1} connected!", @partner_name))
-        @cancancelSelection = false
+        @cancancelSelection = true
         if @client_id == 0
           @state = :choose_activity
         else
