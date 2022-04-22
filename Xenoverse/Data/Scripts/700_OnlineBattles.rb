@@ -1137,7 +1137,7 @@ class OnlinePartySelection
 
     @sprites["lowerbar"].bitmap.font.bold = true
 		pbDrawTextPositions(@sprites["lowerbar"].bitmap,[[_INTL("Confirm"),200-38,2,1,Color.new(248,248,248)],
-        [_INTL("Close"),464,2,1,Color.new(248,248,248)],
+        [_INTL("Close"),464,2,1,@cancancel ? Color.new(248,248,248) : Color.new(128,128,128)],
 				[_INTL("Select"),332,2,1,Color.new(248,248,248)]])
         
     #end -110, start 0
@@ -1207,10 +1207,12 @@ class OnlinePartySelection
     
     if @toggleEnemyparty
       @sprites["enemybox"].moveX(Graphics.width,1,:ease_out_cubic)
+      @sprites["enemyname"].fade(255,1,:ease_out_cubic)
       @sprites["playerbox"].moveX(-110,1,:ease_out_cubic)
       @sprites["enemyball"].rotate(720,1,:ease_out_cubic)
     else
       @sprites["enemybox"].moveX(Graphics.width+110,1,:ease_out_cubic)
+      @sprites["enemyname"].fade(0,1,:ease_out_cubic)
       @sprites["playerbox"].moveX(0,1,:ease_out_cubic)
       @sprites["enemyball"].rotate(0,1,:ease_out_cubic)
     end
@@ -1452,6 +1454,11 @@ class OnlinePartySelection
         @sprites["party#{i}"].bitmap.stretch_blt(Rect.new(100 + "#{party[i].level}".length*4,36,gender.width/1.5,gender.height/1.5),gender,Rect.new(0,0,gender.width,gender.height))
       end
 
+      if party[i].isShiny?
+        gender = pbBitmap("Graphics/Pictures/SummaryNew/shiny").clone
+        @sprites["party#{i}"].bitmap.stretch_blt(Rect.new(120 + "#{party[i].level}".length*4,36,gender.width/1.5,gender.height/1.5),gender,Rect.new(0,0,gender.width,gender.height))
+      end
+
       if @statuses[i] != 2
         pbSetFont(@sprites["party#{i}"].bitmap,$MKXP ? "Kimberley" : "Kimberley Bl",10)
         textpos = [["#{party[i].hp}/#{party[i].totalhp}",34,76,2,Color.new(243,243,243)]]
@@ -1551,10 +1558,12 @@ class OnlinePartySelection
       if Input.trigger?(Input::F5)
         if @toggleEnemyparty
           @sprites["enemybox"].moveX(Graphics.width,20,:ease_out_cubic)
+          @sprites["enemyname"].fade(255,20,:ease_out_cubic)
           @sprites["playerbox"].moveX(-110,20,:ease_out_cubic)
           @sprites["enemyball"].rotate(720,20,:ease_out_cubic)
         else
           @sprites["enemybox"].moveX(Graphics.width+110,20,:ease_out_cubic)
+          @sprites["enemyname"].fade(0,20,:ease_out_cubic)
           @sprites["playerbox"].moveX(0,20,:ease_out_cubic)
           @sprites["enemyball"].rotate(0,20,:ease_out_cubic)
         end
@@ -3419,7 +3428,7 @@ module CableClub
       pbSceneStandby {
         # XXX: Hope we call rand in the same order in both clients...
         begin
-          battle.pbStartBattle(true)
+          result = battle.pbStartBattle(true)
         rescue Connection::Disconnected
           scene.pbEndBattle(0)
           exc = $!
@@ -3429,6 +3438,13 @@ module CableClub
         end
       }
     }
+    if result != 0
+      connection.send do |writer|
+        writer.sym(:battleResult)
+        writer.int(result)
+      end
+    end
+
     ui.deleteBattleTimer
     $onlinebattle = false
     @state = :enlisted if battle.disconnected
