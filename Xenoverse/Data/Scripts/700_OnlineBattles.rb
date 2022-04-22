@@ -3424,6 +3424,7 @@ module CableClub
     exc = nil
     $onlinebattle = true
     ui.createBattleTimer
+    result = 0
     pbBattleAnimation(trainerbgm, partner.trainertype, partner.name) {
       pbSceneStandby {
         # XXX: Hope we call rand in the same order in both clients...
