@@ -2050,7 +2050,7 @@ class PokeBattle_Trainer
   end
 
   attr_reader :uniqueSaveID
-  def generateSaveID(connection)
+  def getSaveID(connection)
     if @uniqueSaveID == nil
       if connection.can_send?
         connection.send do |writer|
@@ -2071,7 +2071,30 @@ class PokeBattle_Trainer
           end
         end
       end
-
+    else
+      if connection.can_send?
+        connection.send do |writer|
+          writer.sym(:setSaveID)
+          writer.str($Trainer.uniqueSaveID)
+        end
+      end
+      obtained = false
+      loop do 
+        Graphics.update
+        Input.update
+        break if obtained
+        connection.updateExp([:saveID]) do |record|
+          case (type = record.sym)
+          when :saveID
+            receivedID = record.str
+            if receivedID != @uniqueSaveID
+              @uniqueSaveID = receivedID
+              pbSave()
+            end
+            obtained = true
+          end
+        end
+      end
     end
   end
 
@@ -2217,11 +2240,7 @@ module CableClub
         @ui.pbDisplayAvaiblePlayerList(getPlayerList)
       }
 
-      $Trainer.generateSaveID(connection) if $Trainer.uniqueSaveID == nil
-      connection.send do |writer|
-        writer.sym(:setSaveID)
-        writer.str($Trainer.uniqueSaveID)
-      end
+      $Trainer.getSaveID(connection)
       @state = :enlisted
     else
       pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nConnecting to online server",$Trainer.publicID($Trainer.id)), @frame)
