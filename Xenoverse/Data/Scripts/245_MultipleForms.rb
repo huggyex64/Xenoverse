@@ -1003,7 +1003,7 @@ MultipleForms.register(:TRISHOUT,{
 		"getBaseStats"=>proc{|pokemon|
 			next if pokemon.form==0 || pokemon.form == 4
 			next [88,105,55,78,80,44] if pokemon.form==1  # Terrestre
-			next [118,60,64,93,155,59] if pokemon.form==2  # Xenoverse
+			next [118,60,64,94,155,59] if pokemon.form==2  # Xenoverse
 			next [143,140,90,93,140,94] if pokemon.form == 3 #Astro
 		},
 		"getForm"=>proc{|pokemon|

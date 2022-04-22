@@ -2044,6 +2044,12 @@ module CableClub
 end
 
 class PokeBattle_Trainer
+  attr_accessor :username
+  def username
+    return @name if @username == nil
+    return @username
+  end
+
   attr_writer :online_trainer_type
   def online_trainer_type
     return @online_trainer_type || getConst(PBTrainers,CableClub.getOnlineTrainerTypeList()[$Trainer.gender])#self.trainertype
@@ -2230,7 +2236,7 @@ module CableClub
       echoln "#{@uid} #{@md5}"
       connection.send do |writer|
         writer.sym(:enlist)
-        writer.str($Trainer.name + ":#{@md5}:#{@uid}" )
+        writer.str($Trainer.username + ":#{@md5}:#{@uid}" )
         writer.int($Trainer.id)
         #writer.int($Trainer.online_trainer_type)
         write_party(writer)
@@ -2331,7 +2337,7 @@ module CableClub
               writer.str(@ui.playerList[@ui.selectionIndex][2])
               writer.sym(:askAcceptInteraction)
               writer.int($Trainer.id)
-              writer.str($Trainer.name)
+              writer.str($Trainer.username)
               writer.str(@uid)
               writer.str(sendMessage)
             end
@@ -2475,7 +2481,7 @@ module CableClub
               writer.sym(:fwd)
               writer.str(@partner_uid)
               writer.sym(:acceptInteraction)
-              writer.str($Trainer.name)
+              writer.str($Trainer.username)
               write_party(writer)
             end
           end
@@ -2609,7 +2615,7 @@ module CableClub
             writer.sym(:fwd)
             writer.sym(@partner_uid)
             writer.sym(:trainerData)
-            writer.str($Trainer.name)
+            writer.str($Trainer.username)
             write_party(writer)
           end
         end
@@ -2656,7 +2662,7 @@ module CableClub
             writer.sym(:fwd)
             writer.sym(@partner_uid)
             writer.sym(:found)
-            writer.str($Trainer.name)
+            writer.str($Trainer.username)
             write_party(writer)
           end
         end
@@ -3482,7 +3488,7 @@ module CableClub
     pbSave()
     pbFadeOutInWithMusic(99999) {
       scene = PokemonTradeScene.new
-      scene.pbStartScreen(my_pkmn, your_pkmn, $Trainer.name, you.name)
+      scene.pbStartScreen(my_pkmn, your_pkmn, $Trainer.username, you.name)
       scene.pbTrade
       scene.pbEndScreen
     }
@@ -3496,7 +3502,7 @@ module CableClub
     pbSave()
     pbFadeOutInWithMusic(99999) {
       scene = PokemonTradeScene.new
-      scene.pbStartScreen(my_pkmn, your_pkmn, $Trainer.name, you.name)
+      scene.pbStartScreen(my_pkmn, your_pkmn, $Trainer.username, you.name)
       scene.pbTrade
       scene.pbEndScreen
     }
@@ -3865,7 +3871,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
     @timer = 0
     @timerMax = 60*300
 
-    player = PokeBattle_Trainer.new($Trainer.name, $Trainer.trainertype)
+    player = PokeBattle_Trainer.new($Trainer.username, $Trainer.trainertype)
     super(scene, $Trainer.party, opponent_party, player, opponent)
     @battleAI  = PokeBattle_CableClub_AI.new(self) if defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
   end
