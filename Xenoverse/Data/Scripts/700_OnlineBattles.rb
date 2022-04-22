@@ -4066,7 +4066,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       Graphics.update
       Input.update
       frame+=1.0
-      cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
+      cw.text = _INTL("Waiting for the other player" + "." * (1 + ((frame / 8) % 3)))
       pbCheckForCE(@connection)
       @connection.updateExp([:checkProceed,:true,:false,:partnerDisconnected]) do |record|
         case (type = record.sym)
