@@ -3467,6 +3467,7 @@ module CableClub
       }
     }
     if result != 0
+      result = 2 if result == 3
       print "YOU WIN!" if result == 1
       print "YOU LOSE!" if result == 2
       connection.send do |writer|
