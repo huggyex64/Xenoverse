@@ -3458,6 +3458,8 @@ module CableClub
         rescue Connection::Disconnected
           scene.pbEndBattle(0)
           exc = $!
+        rescue BattleAbortedException
+          result = battle.decision
         ensure
           $onlinebattle = false
           $Trainer.party = $Trainer.backupParty
