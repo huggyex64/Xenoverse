@@ -1849,12 +1849,6 @@ def pbOnlineLobby
     Kernel.pbMessageDisplay(msgwindow, _INTL("Starting connection..."),false)
     pbWait(5)
     partner_trainer_id = ""
-    #loop do
-    #  partner_trainer_id = Kernel.pbFreeText(msgwindow, partner_trainer_id, false, 5)
-    #  return if partner_trainer_id.empty?
-    #  break if partner_trainer_id =~ /^[0-9]{5}$/
-    #  Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} is not a trainer ID.", partner_trainer_id))
-    #end
 
     # HINT: Startup/Cleanup required for Khaikaa's v17 for some reason.
     begin
@@ -1884,6 +1878,9 @@ def pbOnlineLobby
     when "peer disconnected"
       Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, the other trainer has disconnected."))
       return true
+    when "connection break"
+      Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, the connection with the server was interrupted."))
+      return false
     else
       Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, the Cable Club server has malfunctioned!"))
       return false
@@ -4872,6 +4869,7 @@ class Socket
     buf = "\0" * maxlen
     retval=Winsock.recv(@fd, buf, buf.size, flags)
     SocketError.check if retval == -1
+    echoln "ERROR #{Winsock.WSAGetLastError}"
     retString+=buf[0,retval]
     return retString
   end
