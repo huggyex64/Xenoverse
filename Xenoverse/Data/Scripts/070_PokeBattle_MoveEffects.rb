@@ -1929,13 +1929,13 @@ class PokeBattle_Move_049 < PokeBattle_Move
 		opponent.pbOwnSide.effects[PBEffects::Spikes]      = 0
 		opponent.pbOwnSide.effects[PBEffects::StealthRock] = false
 
-		attacker.pbOwnSide.effects[PBEffects::AcidRain] = false
+		@battle.field.effects[PBEffects::AcidRain] = false
 		attacker.pbOwnSide.effects[PBEffects::VelvetScales] = false
 		attacker.pbOwnSide.effects[PBEffects::ScorchedAshes] = false
 		attacker.pbOwnSide.effects[PBEffects::StickyWeb]   = false
 		attacker.pbOwnSide.effects[PBEffects::ToxicSpikes] = 0
 
-		opponent.pbOwnSide.effects[PBEffects::AcidRain] = false
+		@battle.field.effects[PBEffects::AcidRain] = false
 		opponent.pbOwnSide.effects[PBEffects::VelvetScales] = false
 		opponent.pbOwnSide.effects[PBEffects::ScorchedAshes] = false
 		opponent.pbOwnSide.effects[PBEffects::StickyWeb]   = false
@@ -1954,13 +1954,13 @@ class PokeBattle_Move_049 < PokeBattle_Move
 		opponent.pbOwnSide.effects[PBEffects::Spikes]      = 0
 		opponent.pbOwnSide.effects[PBEffects::StealthRock] = false
 		
-		attacker.pbOwnSide.effects[PBEffects::AcidRain] = false
+		@battle.field.effects[PBEffects::AcidRain] = false
 		attacker.pbOwnSide.effects[PBEffects::VelvetScales] = false
 		attacker.pbOwnSide.effects[PBEffects::ScorchedAshes] = false
 		attacker.pbOwnSide.effects[PBEffects::StickyWeb]   = false
 		attacker.pbOwnSide.effects[PBEffects::ToxicSpikes] = 0
 
-		opponent.pbOwnSide.effects[PBEffects::AcidRain] = false
+		@battle.field.effects[PBEffects::AcidRain] = false
 		opponent.pbOwnSide.effects[PBEffects::VelvetScales] = false
 		opponent.pbOwnSide.effects[PBEffects::ScorchedAshes] = false
 		opponent.pbOwnSide.effects[PBEffects::StickyWeb]   = false
