@@ -4068,7 +4068,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       frame+=1.0
       cw.text = _INTL("Waiting for the other player" + "." * (1 + ((frame / 8) % 3)))
       pbCheckForCE(@connection)
-      @connection.updateExp([:checkProceed,:true,:false,:partnerDisconnected]) do |record|
+      @connection.updateExp([:checkProceed,:proceeding,:true,:false,:partnerDisconnected]) do |record|
         case (type = record.sym)
         when :checkProceed
           readycheck = record.int
@@ -4077,6 +4077,13 @@ class PokeBattle_CableClub < PokeBattle_Battle
             echoln "READY! GO ON"
           else
             echoln "NOT READY YET!"
+          end
+        when :proceeding
+          #the other player is already proceeding, so there's no need to keep waiting here
+          #but first we need to make sure the other player has caught up with our readies
+          if @ready == record.int
+            awaiting = false
+            echoln "READY! GO ON"
           end
         #when :true
         #  awaiting = false
@@ -4099,6 +4106,12 @@ class PokeBattle_CableClub < PokeBattle_Battle
         sent += 1
         echoln "AWAITING READINESS #{sent}"
       end
+    end
+    @connection.send do |writer|
+      writer.sym(:fwd)
+      writer.str(@partner_uid)
+      writer.sym(:proceeding)
+      writer.int(@ready)
     end
   end
 
@@ -4386,8 +4399,6 @@ class PokeBattle_CableClub < PokeBattle_Battle
     end
     return pbEndOfBattle(canlose)
   end
-
-
 
   def pbRandom(x)
     @connection.send do |writer|
