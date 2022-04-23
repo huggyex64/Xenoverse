@@ -3460,6 +3460,7 @@ module CableClub
           exc = $!
         rescue BattleAbortedException
           result = battle.decision
+          echoln "result of the battle is #{result}"
         ensure
           $onlinebattle = false
           $Trainer.party = $Trainer.backupParty
