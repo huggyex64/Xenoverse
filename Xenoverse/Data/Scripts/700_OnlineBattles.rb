@@ -3881,6 +3881,16 @@ class PokeBattle_CableClub < PokeBattle_Battle
     @battleAI  = PokeBattle_CableClub_AI.new(self) if defined?(ESSENTIALS_VERSION) && ESSENTIALS_VERSION =~ /^18/
   end
   
+  def pbStartBattle(canlose=false)
+		PBDebug.log("******************************************")
+		begin
+			pbStartBattleCore(canlose)
+		rescue BattleAbortedException
+			@scene.pbEndBattle(@decision)
+		end
+		return @decision
+	end
+
   def pbPriority(ignorequickclaw=false)
 		if @usepriority
 			# use stored priority if round isn't over yet
