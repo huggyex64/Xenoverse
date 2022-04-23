@@ -53,8 +53,17 @@ class PokeBattle_Battle
 
           for oppo in party
             next if oppo == nil
-            ib = opponent.clone
+            ib = PokeBattle_Battler.new(self,opponent.index)#opponent.clone
             ib.pbInitialize(oppo,party.index(oppo),false,false)
+            if (opponent.pokemon == oppo)
+              ib.stages[PBStats::ATTACK]   = opponent.stages[PBStats::ATTACK]
+              ib.stages[PBStats::DEFENSE]  = opponent.stages[PBStats::DEFENSE]
+              ib.stages[PBStats::SPEED]    = opponent.stages[PBStats::SPEED]
+              ib.stages[PBStats::SPATK]    = opponent.stages[PBStats::SPATK]
+              ib.stages[PBStats::SPDEF]    = opponent.stages[PBStats::SPDEF]
+              ib.stages[PBStats::EVASION]  = opponent.stages[PBStats::EVASION]
+              ib.stages[PBStats::ACCURACY] = opponent.stages[PBStats::ACCURACY]
+            end
             if (ib.hp < 1)
               next
             end
@@ -3993,9 +4002,17 @@ class PokeBattle_Battle
           end
           
           id = party.index(i)
-          
-          ib = pbAttacker(index).clone
+          ib = PokeBattle_Battler.new(self,pbAttacker(index).index)#pbAttacker(index).clone
           ib.pbInitialize(i,id,false,false)
+          if (pbAttacker(index).pokemon == i)
+            ib.stages[PBStats::ATTACK]   = pbAttacker(index).stages[PBStats::ATTACK]
+            ib.stages[PBStats::DEFENSE]  = pbAttacker(index).stages[PBStats::DEFENSE]
+            ib.stages[PBStats::SPEED]    = pbAttacker(index).stages[PBStats::SPEED]
+            ib.stages[PBStats::SPATK]    = pbAttacker(index).stages[PBStats::SPATK]
+            ib.stages[PBStats::SPDEF]    = pbAttacker(index).stages[PBStats::SPDEF]
+            ib.stages[PBStats::EVASION]  = pbAttacker(index).stages[PBStats::EVASION]
+            ib.stages[PBStats::ACCURACY] = pbAttacker(index).stages[PBStats::ACCURACY]
+          end
           maxDmgMove = pbHighestDamageMove(ib,pbOpponent(index),skill)
           maxDmg = pbDamageTest(ib,pbOpponent(index).pokemon, maxDmgMove, skill) 
           echoln "[UltraAI] ------------------------------------------------- #{maxDmg} for #{maxDmgMove.name}"
@@ -4134,8 +4151,18 @@ class PokeBattle_Battle
         if shouldswitchwith.nil?
           if (skill >= PBTrainerAI.ultraSkill)
             id = party.index(i)
-            ib = pbAttacker(index).clone
+            #ib = Marshal.load(Marshal.dump(pbAttacker(index)))#pbAttacker(index).clone
+            ib = PokeBattle_Battler.new(self,pbAttacker(index).index)
             ib.pbInitialize(party[i],id,false,false)
+            if (pbAttacker(index).pokemon == party[i])
+              ib.stages[PBStats::ATTACK]   = pbAttacker(index).stages[PBStats::ATTACK]
+              ib.stages[PBStats::DEFENSE]  = pbAttacker(index).stages[PBStats::DEFENSE]
+              ib.stages[PBStats::SPEED]    = pbAttacker(index).stages[PBStats::SPEED]
+              ib.stages[PBStats::SPATK]    = pbAttacker(index).stages[PBStats::SPATK]
+              ib.stages[PBStats::SPDEF]    = pbAttacker(index).stages[PBStats::SPDEF]
+              ib.stages[PBStats::EVASION]  = pbAttacker(index).stages[PBStats::EVASION]
+              ib.stages[PBStats::ACCURACY] = pbAttacker(index).stages[PBStats::ACCURACY]
+            end
             incomingMove = pbHighestDamageMove(pbOpponent(index), pbAttacker(index), skill)
             PBDebug.log("[UltraAI] --------------------------------------------- " + incomingMove.name + " on " + ib.name)
             incomingDamage = pbDamageTest(pbOpponent(index), ib, incomingMove, skill) 

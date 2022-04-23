@@ -2600,41 +2600,41 @@ class PokeBattle_Battler
 			return false
 		end
 		# King's Shield (purposely after pbMoveFailed)
-    if target.effects[PBEffects::KingsShield] && !thismove.pbIsStatus? &&
-       thismove.canProtectAgainst? && !target.effects[PBEffects::ProtectNegation]
-      @battle.pbDisplay(_INTL("{1} protected itself!",target.pbThis))
-      @battle.successStates[user.index].protected=true
-      PBDebug.log("[Move failed] #{target.pbThis}'s King's Shield stopped the attack")
-      if thismove.isContactMove? && !user.hasWorkingItem(:PROTECTIVEPADS) && !user.hasWorkingAbility?(:LONGREACH)
-        user.pbReduceStat(PBStats::ATTACK,2,nil,true)
-      end
-      return false
-    end
-    # Spiky Shield
-    if target.effects[PBEffects::SpikyShield] && thismove.canProtectAgainst? &&
-       !target.effects[PBEffects::ProtectNegation]
-      @battle.pbDisplay(_INTL("{1} protected itself!",target.pbThis))
-      @battle.successStates[user.index].protected=true
-      PBDebug.log("[Move failed] #{user.pbThis}'s Spiky Shield stopped the attack")
-      if thismove.isContactMove? && !user.fainted? && !user.hasWorkingItem(:PROTECTIVEPADS) && !user.hasWorkingAbility?(:LONGREACH)
-        @battle.scene.pbDamageAnimation(user,0)
-        amt=user.pbReduceHP((user.boss ? (user.totalhp/8)/user.hpMoltiplier : user.totalhp/8).floor)
-        @battle.pbDisplay(_INTL("{1} was hurt!",user.pbThis)) if amt>0
-      end
-      return false
-    end
+		if target.effects[PBEffects::KingsShield] && !thismove.pbIsStatus? &&
+		thismove.canProtectAgainst? && !target.effects[PBEffects::ProtectNegation]
+		@battle.pbDisplay(_INTL("{1} protected itself!",target.pbThis))
+		@battle.successStates[user.index].protected=true
+		PBDebug.log("[Move failed] #{target.pbThis}'s King's Shield stopped the attack")
+		if thismove.isContactMove? && !user.hasWorkingItem(:PROTECTIVEPADS) && !user.hasWorkingAbility?(:LONGREACH)
+			user.pbReduceStat(PBStats::ATTACK,2,nil,true)
+		end
+		return false
+		end
+		# Spiky Shield
+		if target.effects[PBEffects::SpikyShield] && thismove.canProtectAgainst? &&
+		!target.effects[PBEffects::ProtectNegation]
+		@battle.pbDisplay(_INTL("{1} protected itself!",target.pbThis))
+		@battle.successStates[user.index].protected=true
+		PBDebug.log("[Move failed] #{user.pbThis}'s Spiky Shield stopped the attack")
+		if thismove.isContactMove? && !user.fainted? && !user.hasWorkingItem(:PROTECTIVEPADS) && !user.hasWorkingAbility?(:LONGREACH)
+			@battle.scene.pbDamageAnimation(user,0)
+			amt=user.pbReduceHP((user.boss ? (user.totalhp/8)/user.hpMoltiplier : user.totalhp/8).floor)
+			@battle.pbDisplay(_INTL("{1} was hurt!",user.pbThis)) if amt>0
+		end
+		return false
+		end
 		# Baneful Bunker
-    if target.effects[PBEffects::BanefulBunker] && thismove.canProtectAgainst? &&
-       !target.effects[PBEffects::ProtectNegation]
-      @battle.pbDisplay(_INTL("{1} protected itself!",target.pbThis))
-      @battle.successStates[user.index].protected=true
-      PBDebug.log("[Move failed] #{user.pbThis}'s Baneful Bunker stopped the attack!")
-      if thismove.isContactMove? && !user.isFainted? && user.pbCanPoison?(false) && !user.hasWorkingItem(:PROTECTIVEPADS) && !user.hasWorkingAbility?(:LONGREACH)
-        PBDebug.log("#{target.pbThis} poisoned by Baneful Bunker")
-        user.pbPoison(target,_INTL("{1} was poisoned!",target.pbThis))
-      end
-      return false
-    end
+		if target.effects[PBEffects::BanefulBunker] && thismove.canProtectAgainst? &&
+		!target.effects[PBEffects::ProtectNegation]
+		@battle.pbDisplay(_INTL("{1} protected itself!",target.pbThis))
+		@battle.successStates[user.index].protected=true
+		PBDebug.log("[Move failed] #{user.pbThis}'s Baneful Bunker stopped the attack!")
+		if thismove.isContactMove? && !user.isFainted? && user.pbCanPoison?(false) && !user.hasWorkingItem(:PROTECTIVEPADS) && !user.hasWorkingAbility?(:LONGREACH)
+			PBDebug.log("#{target.pbThis} poisoned by Baneful Bunker")
+			user.pbPoison(target,_INTL("{1} was poisoned!",target.pbThis))
+		end
+		return false
+		end
 		if thismove.basedamage>0 && thismove.function!=0x02 && # Struggle
 			thismove.function!=0x111 # Future Sight
 			type=thismove.pbType(thismove.type,user,target)
