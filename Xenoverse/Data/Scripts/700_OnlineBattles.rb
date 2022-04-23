@@ -3465,12 +3465,13 @@ module CableClub
       }
     }
     if result != 0
+      print "YOU WIN!" if result == 1
+      print "YOU LOSE!" if result == 2
       connection.send do |writer|
         writer.sym(:battleResult)
         writer.int(result)
       end
     end
-
     ui.deleteBattleTimer
     $onlinebattle = false
     @state = :enlisted if battle.disconnected
