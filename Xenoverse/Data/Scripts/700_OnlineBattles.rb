@@ -3455,10 +3455,10 @@ module CableClub
         # XXX: Hope we call rand in the same order in both clients...
         begin
           result = battle.pbStartBattle(true)
-        rescue Connection::Disconnected
+        rescue Connection::Disconnected => e
           scene.pbEndBattle(0)
           exc = $!
-        rescue BattleAbortedException
+        rescue BattleAbortedException => ex
           result = battle.decision
           echoln "result of the battle is #{result}"
         ensure
