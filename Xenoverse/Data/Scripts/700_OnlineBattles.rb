@@ -3430,7 +3430,7 @@ module CableClub
     $PokemonGlobal.nextBattleBGM = $Trainer.online_battle_bgm
 
     scene = pbNewBattleScene
-    battle = PokeBattle_CableClub.new(connection, @client_id, scene, partner_party_clone, partner, uids, ui)
+    battle = PokeBattle_RecordedCableClub.new(connection, @client_id, scene, partner_party_clone, partner, uids, ui)
     battle.fullparty1 = battle.fullparty2 = true
     battle.endspeech = ""
     battle.items = []
@@ -3862,9 +3862,13 @@ class PokeBattle_Battle
   attr_reader :client_id
 end
 
+class PokeBattle_RecordedCableClub < PokeBattle_CableClub
+  include PokeBattle_RecordedBattleModule
+end
+
 class PokeBattle_CableClub < PokeBattle_Battle
   
-  include PokeBattle_RecordedBattleModule
+  #include PokeBattle_RecordedBattleModule
 
   attr_reader :connection
   def initialize(connection, client_id, scene, opponent_party, opponent, uids, ui)
