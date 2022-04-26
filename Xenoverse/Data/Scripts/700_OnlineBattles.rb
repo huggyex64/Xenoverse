@@ -3862,10 +3862,6 @@ class PokeBattle_Battle
   attr_reader :client_id
 end
 
-class PokeBattle_RecordedCableClub < PokeBattle_CableClub
-  include PokeBattle_RecordedBattleModule
-end
-
 class PokeBattle_CableClub < PokeBattle_Battle
   
   #include PokeBattle_RecordedBattleModule
@@ -4882,6 +4878,10 @@ class PokeBattle_CableClub < PokeBattle_Battle
   def pbDefaultChooseNewEnemy(index, party)
     raise "Expected this to be unused."
   end
+end
+
+class PokeBattle_RecordedCableClub < PokeBattle_CableClub
+  include PokeBattle_RecordedBattleModule
 end
 
 class PokeBattle_Battler
