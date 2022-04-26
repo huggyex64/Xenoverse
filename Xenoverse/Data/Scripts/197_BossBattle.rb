@@ -144,7 +144,8 @@ def isXSpecies?(species)
 	  isConst?(species,PBSpecies,:VERSILDRAGALISK) ||
 		isConst?(species,PBSpecies,:VAKUM) ||
     isConst?(species,PBSpecies,:GRENINJAX)||
-    isConst?(species,PBSpecies,:DITTOX)
+    isConst?(species,PBSpecies,:DITTOX) ||
+    isConst?(species,PBSpecies,:AEGISLASHX)
 end
   
 SPECIEX = [
@@ -167,7 +168,9 @@ SPECIEX = [
   PBSpecies::VERSILDRAGALISK,
   PBSpecies::LUXFLON,
 	PBSpecies::VAKUM,
-  PBSpecies::GRENINJAX
+  PBSpecies::GRENINJAX,
+  PBSpecies::DITTOX,
+  PBSpecies::AEGISLASHX
 ]
 def pbCheckMakeX(pokemon)
   return -1 if pokemon.species <= 0 || pokemon.isEgg?
@@ -278,6 +281,7 @@ class PokeBattle_Battle
         pbSetSeen(wildpoke)
         @scene.pbStartBattle(self)
         @scene.sendingOut=true
+        echoln "IS BOSS? #{wildpoke.boss}"
 				###
 				if wildpoke.boss
 					pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} wants to battle!",wildpoke.name))
@@ -999,7 +1003,8 @@ class PokeBattle_Scene
                "Graphics/Transitions/X/Dragalisk/",
                "Graphics/Transitions/X/VersilDragalisk/",
 							 "Graphics/Transitions/X/Luxflon/",
-							 "Graphics/Transitions/X/Vakum/",]
+							 "Graphics/Transitions/X/Vakum/",
+               "Graphics/Transitions/X/Aegislash X/",]
 		
     @vs = {}
   
@@ -1340,7 +1345,13 @@ BOSS_LIST = [
   :RAIKOU,
   :VENUSAUR,
   :CHARIZARD,
-  :BLASTOISE
+  :BLASTOISE,
+  
+  :AEGISLASHX,
+  :TAPUFINIX,
+  :TAPULELEX,
+  :TAPUKOKOX,
+  :TAPUBULUX,
 ]
 
 NEWBOSSES = [PBSpecies::GRENINJAX,
@@ -1353,7 +1364,11 @@ NEWBOSSES = [PBSpecies::GRENINJAX,
              PBSpecies::ELEKIDX,
              PBSpecies::GALVANTULAX,
              PBSpecies::RAPIDASHXBOSS2,
-             PBSpecies::ROSERADEX]
+             PBSpecies::ROSERADEX,
+             PBSpecies::TAPUFINIX,
+             PBSpecies::TAPULELEX,
+             PBSpecies::TAPUKOKOX,
+             PBSpecies::TAPUBULUX,]
 
 def isBoss?
   ret = false
@@ -1902,6 +1917,219 @@ def pbRoseTwoBossBattle
   $game_switches[85] = false
   $dittoxbattle = false
   pbDeregisterPartner()
+  $furiousBattle = false
+  return result
+end
+
+def pbAegiBossBattle
+  #$furiousBattle = true
+
+  $game_switches[85] = true
+  $mods.set(5, nil, nil)
+  $wildSpecies = PBSpecies::AEGISLASHX
+
+  #Tapu Fini X
+  pkmn = pbGenerateWildPokemon(PBSpecies::AEGISLASHX,100)
+  pkmn.pbDeleteAllMoves
+  moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+  pkmn.totalHp=838
+  pkmn.hp=pkmn.totalhp
+  pkmn.attack=293
+  pkmn.defense=261
+  pkmn.spAtk=396
+  pkmn.spDef=254
+  pkmn.speed=512
+  pkmn.item=0
+
+  result = pbStartBossBattleMon(pkmn,nil,nil,false)
+  $game_switches[85] = false
+  #$furiousBattle = false
+  return result
+end
+
+def pbTapuFiniBossBattle
+  $furiousBattle = true
+  
+  $game_switches[85] = true
+  $mods.set(5, nil, nil)
+  $wildSpecies = PBSpecies::TAPUFINIX
+
+  #Tapu Fini X
+  if $game_switches[1212]==true #EASY
+    pkmn = pbGenerateWildPokemon(PBSpecies::TAPUFINIX,100)
+    pkmn.pbDeleteAllMoves
+    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    for m in moves
+      pkmn.pbLearnMove(m)
+    end
+    pkmn.totalHp=838
+    pkmn.hp=pkmn.totalhp
+    pkmn.attack=293
+    pkmn.defense=261
+    pkmn.spAtk=396
+    pkmn.spDef=254
+    pkmn.speed=512
+    pkmn.item=0
+  elsif $game_switches[1213]==true #HARD
+    pkmn = pbGenerateWildPokemon(PBSpecies::TAPUFINIX,100)
+    pkmn.pbDeleteAllMoves
+    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    for m in moves
+      pkmn.pbLearnMove(m)
+    end
+    pkmn.totalHp=838
+    pkmn.hp=pkmn.totalhp
+    pkmn.attack=293
+    pkmn.defense=261
+    pkmn.spAtk=396
+    pkmn.spDef=254
+    pkmn.speed=512
+    pkmn.item=0
+  end
+
+  result = pbStartBossBattleMon(pkmn,nil,nil,false)
+  $game_switches[85] = false
+  $furiousBattle = false
+  return result
+end
+
+def pbTapuLeleBossBattle
+  $furiousBattle = true
+
+  $game_switches[85] = true
+  $mods.set(5, nil, nil)
+  $wildSpecies = PBSpecies::TAPUFINIX
+
+   #Tapu Lele X
+  if $game_switches[1216]==true #EASY
+    pkmn = pbGenerateWildPokemon(PBSpecies::TAPULELEX,100)
+    pkmn.pbDeleteAllMoves
+    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    for m in moves
+      pkmn.pbLearnMove(m)
+    end
+    pkmn.totalHp=838
+    pkmn.hp=pkmn.totalhp
+    pkmn.attack=293
+    pkmn.defense=261
+    pkmn.spAtk=396
+    pkmn.spDef=254
+    pkmn.speed=512
+    pkmn.item=0
+  elsif $game_switches[1217]==true #HARD
+    pkmn = pbGenerateWildPokemon(PBSpecies::TAPULELEX,100)
+    pkmn.pbDeleteAllMoves
+    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    for m in moves
+      pkmn.pbLearnMove(m)
+    end
+    pkmn.totalHp=838
+    pkmn.hp=pkmn.totalhp
+    pkmn.attack=293
+    pkmn.defense=261
+    pkmn.spAtk=396
+    pkmn.spDef=254
+    pkmn.speed=512
+    pkmn.item=0
+  end
+
+  result = pbStartBossBattleMon(pkmn,nil,nil,false)
+  $game_switches[85] = false
+  $furiousBattle = false
+  return result
+end
+
+def pbTapuKokoBossBattle
+  $furiousBattle = true
+
+  $game_switches[85] = true
+  $mods.set(5, nil, nil)
+  $wildSpecies = PBSpecies::TAPUFINIX
+
+  #Tapu Koko X
+  if $game_switches[1218]==true #EASY
+    pkmn = pbGenerateWildPokemon(PBSpecies::TAPUKOKOX,100)
+    pkmn.pbDeleteAllMoves
+    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    for m in moves
+      pkmn.pbLearnMove(m)
+    end
+    pkmn.totalHp=838
+    pkmn.hp=pkmn.totalhp
+    pkmn.attack=293
+    pkmn.defense=261
+    pkmn.spAtk=396
+    pkmn.spDef=254
+    pkmn.speed=512
+    pkmn.item=0
+  elsif $game_switches[1219]==true #HARD
+    pkmn = pbGenerateWildPokemon(PBSpecies::TAPUKOKOX,100)
+    pkmn.pbDeleteAllMoves
+    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    for m in moves
+      pkmn.pbLearnMove(m)
+    end
+    pkmn.totalHp=838
+    pkmn.hp=pkmn.totalhp
+    pkmn.attack=293
+    pkmn.defense=261
+    pkmn.spAtk=396
+    pkmn.spDef=254
+    pkmn.speed=512
+    pkmn.item=0
+  end
+
+  result = pbStartBossBattleMon(pkmn,nil,nil,false)
+  $game_switches[85] = false
+  $furiousBattle = false
+  return result
+end
+
+def pbTapuBuluBossBattle
+  $furiousBattle = true
+
+  $game_switches[85] = true
+  $mods.set(5, nil, nil)
+  $wildSpecies = PBSpecies::TAPUFINIX
+
+  #Tapu Bulu X
+  if $game_switches[1268]==true #EASY
+    pkmn = pbGenerateWildPokemon(PBSpecies::TAPUBULUX,100)
+    pkmn.pbDeleteAllMoves
+    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    for m in moves
+      pkmn.pbLearnMove(m)
+    end
+    pkmn.totalHp=838
+    pkmn.hp=pkmn.totalhp
+    pkmn.attack=293
+    pkmn.defense=261
+    pkmn.spAtk=396
+    pkmn.spDef=254
+    pkmn.speed=512
+    pkmn.item=0
+  elsif $game_switches[1269]==true #HARD
+    pkmn = pbGenerateWildPokemon(PBSpecies::TAPUBULUX,100)
+    pkmn.pbDeleteAllMoves
+    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    for m in moves
+      pkmn.pbLearnMove(m)
+    end
+    pkmn.totalHp=838
+    pkmn.hp=pkmn.totalhp
+    pkmn.attack=293
+    pkmn.defense=261
+    pkmn.spAtk=396
+    pkmn.spDef=254
+    pkmn.speed=512
+    pkmn.item=0
+  end
+
+  result = pbStartBossBattleMon(pkmn,nil,nil,false)
+  $game_switches[85] = false
   $furiousBattle = false
   return result
 end
