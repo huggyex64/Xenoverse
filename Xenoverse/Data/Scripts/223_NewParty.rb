@@ -1061,6 +1061,22 @@ class PokemonScreen_Scene
 		end
 	end
 
+	def swapStyle(pokemon)
+		i = $Trainer.party.index(pokemon)
+		if (i<0 || !i)
+			viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
+			viewport.z = 100010
+			@sprites["pokemon#{i}"].changeForm(0)
+			time = 40
+			
+			#pbSEPlay("anello",80)
+			pbWait(20)
+			@sprites["pokemon#{i}"].restoreSlot { pbRefreshSingle(i) }
+			Input.update
+			pbDisplay(_INTL("{1} ha cambiato forma!", @party[i].name))
+		end
+	end
+
 	def makeX(pokemon)
 		i = $Trainer.party.index(pokemon)
 		if (i<0 || !i)
@@ -1979,6 +1995,24 @@ class PokemonScreen
 		return ret
 	end
 	
+	def swapStyle(pokemon)
+		i = $Trainer.party.index(pokemon)
+		echoln "pokemon index = #{i} "
+		if (!(i<0 || !i))
+			viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
+			viewport.z = 100010
+			@scene.sprites["pokemon#{i}"].changeForm(0)
+			
+			#pbSEPlay("anello",80)
+			$Trainer.party[i]=pbMakeSwap(pokemon)
+			@scene.sprites["pokemon#{i}"].pokemonNoRef=$Trainer.party[i]
+
+			@scene.sprites["pokemon#{i}"].restoreSlot { @scene.pbRefreshSingle(i) }
+			Input.update
+			@scene.pbDisplay(_INTL("{1} became swapped style!", @party[i].name))
+		end
+	end
+
 	def makeX(pokemon)
 		i = $Trainer.party.index(pokemon)
 		echoln "pokemon index = #{i} "

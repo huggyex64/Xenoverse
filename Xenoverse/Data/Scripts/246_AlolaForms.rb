@@ -28,6 +28,12 @@
 #    some way.
 #########################################################################
 ALWAYS_ANIMATED_CAN_SURF=false
+
+WONT_INHERIT_FORM=[
+  [PBSpecies::PIKACHU,1],
+  [PBSpecies::PIKACHU,2]
+]
+
 # Battlers
 
 class PokeBattle_Battler
@@ -261,7 +267,9 @@ def pbDayCareGenerateEgg
      isConst?(babyspecies,PBSpecies,:MINIOR) ||
      isConst?(babyspecies,PBSpecies,:ORICORIO) ||
      (isConst?(mother.item,PBItems,:EVERSTONE) || isConst?(father.item,PBItems,:EVERSTONE))
-    egg.form=mother.form
+     if (!WONT_INHERIT_FORM.include?([mother.species,mother.form]))
+      egg.form=mother.form
+     end
   end
   
   # Inheriting Delta-ness
@@ -1682,7 +1690,7 @@ MultipleForms.register(:DUGTRIO,{
             [getID(PBAbilities,:SANDFORCE),2]]
     end
     next [[getID(PBAbilities,:SANDVEIL),0],
-          [getID(PBAbilities,:TANGLEDHAIR),1],
+          [getID(PBAbilities,:TANGLINGHAIR),1],
           [getID(PBAbilities,:SANDFORCE),2]]
   end
   next
@@ -2339,6 +2347,13 @@ MultipleForms.register(:MAROWAK,{
 # HISUIAN GROWLITHE
 #===============================================================================
 MultipleForms.register(:GROWLITHE,{
+  "getFormOnCreation"=>proc{|pokemon|
+    if $game_map && [633,634].include?($game_map.map_id)
+      next 1 #HISUI FORM
+    else
+      next
+    end
+  },
 	"type2"=>proc{|pokemon|
 		next getID(PBTypes,:ROCK) if pokemon.form == 1
 		next
@@ -2355,6 +2370,20 @@ MultipleForms.register(:GROWLITHE,{
 		next 22.7 if pokemon.form == 1
 		next
 	},
+  "getMoveCompatibility"=>proc{|pokemon|
+    next if pokemon.form == 0
+    movelist=[# TMs
+              :ROAR,:TOXIC,:HIDDENPOWER,:SUNNYDAY,
+              :PROTECT,:SAFEGUARD,:RETURN,:DIG,
+              :DOUBLETEAM,:FLAMETHROWER,:FIREBLAST,:ROCKTOMB,:FACADE,
+              :FLAMECHARGE,:REST,:ATTRACT,:THIEF,:ROUND,
+              :OVERHEAT,:WILLOWISP,:SWAGGER,:SUBSTITUTE,:WILDCHARGE,
+              :SMACKDOWN,:STRENGTH,:ROCKSMASH,:ROCKSLIDE,:STEALTHROCK]
+    for i in 0...movelist.length
+      movelist[i]=getConst(PBMoves,movelist[i]) if getConst(PBMoves,movelist[i])!=nil
+    end
+    next movelist if pokemon.form == 1
+  },
 	"getMoveList"=>proc{|pokemon|
 		next if pokemon.form==0 # skips if standard growlithe
 		movelist = [[1,:EMBER],[1,:LEER],[4,:HOWL],[8,:BITE],[12,:FLAMEWHEEL],[16,:ROCKTHROW],[20,:HELPINGHAND],[24,:FIREFANG],[28,:ROCKTOMB],[32,:CRUNCH],
@@ -2363,5 +2392,62 @@ MultipleForms.register(:GROWLITHE,{
 			i[1]=getConst(PBMoves,i[1])
 		end
 		next movelist if pokemon.form == 1
-	}
+	},
+  "wildHoldItems"=>proc{|pokemon|
+    next if pokemon.form==0                 # Standard
+    next [0,getID(PBItems,:ANCIENTSTONE),0] # Hisui
+  }
+})
+
+MultipleForms.register(:ARCANINE,{
+  "getFormOnCreation"=>proc{|pokemon|
+    if $game_map && [633,634].include?($game_map.map_id)
+      next 1 #HISUI FORM
+    else
+      next
+    end
+  },
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:ROCK) if pokemon.form == 1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [90,115,80,90,95,80] if pokemon.form==1
+		next
+	},
+	"height"=>proc{|pokemon|
+		next 2.0 if pokemon.form == 1
+		next
+	},
+	"weight"=>proc{|pokemon|
+		next 168.0 if pokemon.form == 1
+		next
+	},
+  "getMoveCompatibility"=>proc{|pokemon|
+    next if pokemon.form == 0
+    movelist=[# TMs
+              :ROAR,:TOXIC,:HIDDENPOWER,:SUNNYDAY,:HYPERBEAM,
+              :PROTECT,:SAFEGUARD,:RETURN,:DIG,
+              :DOUBLETEAM,:FLAMETHROWER,:FIREBLAST,:ROCKTOMB,:FACADE,
+              :FLAMECHARGE,:REST,:ATTRACT,:THIEF,:ROUND,
+              :OVERHEAT,:WILLOWISP,:GIGAIMPACT,:BULLDOZE,:SWAGGER,:SUBSTITUTE,:WILDCHARGE,
+              :SMACKDOWN,:STRENGTH,:ROCKSMASH,:STONEEDGE,:ROCKSLIDE,:STEALTHROCK]
+    for i in 0...movelist.length
+      movelist[i]=getConst(PBMoves,movelist[i]) if getConst(PBMoves,movelist[i])!=nil
+    end
+    next movelist if pokemon.form == 1
+  },
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 # skips if standard growlithe
+		movelist = [[1,:TACKLE],[5,:EMBER],[9,:BITE],[15,:FIREFANG],[21,:ROCKSLIDE],[29,:HEATCRASH],
+                [33,:CRUNCH],[37,:DOUBLEEDGE],[47,:FLAREBLITZ]]
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist if pokemon.form == 1
+	},
+  "wildHoldItems"=>proc{|pokemon|
+    next if pokemon.form==0                 # Standard
+    next [0,getID(PBItems,:ANCIENTSTONE),0] # Hisui
+  }
 })

@@ -112,7 +112,8 @@ X_SPECIES = [
   :DRAGALISK,
   :VERSILDRAGALISK,
   :LUXFLON,
-	:VAKUM
+	:VAKUM,
+  :AEGISLASHX
 ]
 
 #-------------------------------------------------------------------------------
@@ -603,7 +604,8 @@ def vsXSpecies(viewport,species=nil)
                "Graphics/Transitions/X/Dragalisk/",
                "Graphics/Transitions/X/VersilDragalisk/",
 							 "Graphics/Transitions/X/Luxflon/",
-							 "Graphics/Transitions/X/Vakum/"]
+							 "Graphics/Transitions/X/Vakum/",
+               "Graphics/Transitions/X/Aegislash X/"]
   viewport.color = Color.new(0,0,0,0)
   8.times do
     viewport.color.alpha += 32

@@ -60,6 +60,7 @@ class Game_Player < Game_Character
   end
 
   def move_down(turn_enabled = true)
+    $lastPlayerMovement = "0,-1"
     if turn_enabled
       turn_down
     end
@@ -80,6 +81,7 @@ class Game_Player < Game_Character
   end
 
   def move_left(turn_enabled = true)
+    $lastPlayerMovement = "-1,0"
     if turn_enabled
       turn_left
     end
@@ -100,6 +102,7 @@ class Game_Player < Game_Character
   end
 
   def move_right(turn_enabled = true)
+    $lastPlayerMovement = "1,0"
     if turn_enabled
       turn_right
     end
@@ -120,6 +123,7 @@ class Game_Player < Game_Character
   end
 
   def move_up(turn_enabled = true)
+    $lastPlayerMovement = "0,1"
     if turn_enabled
       turn_up
     end
@@ -412,24 +416,56 @@ class Game_Player < Game_Character
       if dir==@lastdir && Graphics.frame_count-@lastdirframe>2
         case dir
         when 2
-          move_down
+          if ($game_switches[1500]==true)
+            move_up
+          else
+            move_down
+          end
         when 4
-          move_left
+          if ($game_switches[1500]==true)
+            move_right
+          else
+            move_left
+          end
         when 6
-          move_right
+          if ($game_switches[1500]==true)
+            move_left
+          else
+            move_right
+          end
         when 8
-          move_up
+          if ($game_switches[1500]==true)
+            move_down
+          else
+            move_up
+          end
         end
       elsif dir!=@lastdir
         case dir
         when 2
-          turn_down
+          if ($game_switches[1500]==true)
+            turn_up
+          else
+            turn_down
+          end
         when 4
-          turn_left
+          if ($game_switches[1500]==true)
+            turn_right
+          else
+            turn_left
+          end
         when 6
-          turn_right
+          if ($game_switches[1500]==true)
+            turn_left
+          else
+            turn_right
+          end
         when 8
-          turn_up
+          if ($game_switches[1500]==true)
+            turn_down
+          else
+            turn_up
+          end
         end
       end
     end

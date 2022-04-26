@@ -21,7 +21,9 @@
 
 LOG_LEVEL = 3
 
-AUTOSTART_CONSOLE = true
+AUTOSTART_CONSOLE = false
+
+OPEN_CONSOLE_WHEN_LOGGING = false
 
 #===============================================================================
 # => Do not touch from here
@@ -39,7 +41,7 @@ class Log
 		def writeConsole(level,type,tag,text)
 
 			if LOG_LEVEL > level && $DEBUG
-				if !$isConsoleSetted
+				if !$isConsoleSetted && OPEN_CONSOLE_WHEN_LOGGING
 					Console::setup_console
 					$isConsoleSetted = true
 				end

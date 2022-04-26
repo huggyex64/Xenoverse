@@ -1236,7 +1236,11 @@ def pbGenerateWildPokemon(species,level)
     genwildpoke.setItem(items[2])
   end
   if $treasureHook
-    genwildpoke.makeShiny if (rand(50)==1)
+    #genwildpoke.makeShiny if (rand(50)==1)
+    for i in 0...164 #=> Basically 1/50 chance
+      break if genwildpoke.isShiny?
+      genwildpoke.personalID=rand(65536)|(rand(65536)<<16)
+    end
   end  
   if hasConst?(PBItems,:SHINYCHARM) && $PokemonBag.pbQuantity(PBItems::SHINYCHARM)>0
     for i in 0...1   # 2 times as likely
@@ -1894,7 +1898,12 @@ def Kernel.pbSetPokemonCenter
   $PokemonGlobal.pokecenterDirection=$game_player.direction
 end
 
-
+def Kernel.pbSetPokemonCenterSpecific(map_id,x,y,direction)
+  $PokemonGlobal.pokecenterMapId=map_id
+  $PokemonGlobal.pokecenterX=x
+  $PokemonGlobal.pokecenterY=y
+  $PokemonGlobal.pokecenterDirection=direction
+end
 
 ################################################################################
 # Fishing
@@ -2236,6 +2245,10 @@ def Kernel.pbStartOver(gameover=false)
     end
     Kernel.pbCancelVehicles
     pbRemoveDependencies()
+    if $game_switches[1500] == true #alter switch is on
+      $game_switches[1500] = false
+      $Trainer.outfit = 51 # become normal again
+    end
     $game_switches[STARTING_OVER_SWITCH]=true
     $game_temp.player_new_map_id=$PokemonGlobal.pokecenterMapId
     $game_temp.player_new_x=$PokemonGlobal.pokecenterX

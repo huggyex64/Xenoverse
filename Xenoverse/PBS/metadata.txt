@@ -3078,7 +3078,7 @@ Bicycle=true
 TrainerBattleBGM=VS.Trainer.mp3
 MapPosition=0,16,21
 Outdoor=false
-WildBattleBGM=Wild Battle.mp3
+WildBattleBGM=VS. XBoss.mp3
 [481]
 # Buio
 BattleBack=Dragalisk
@@ -3750,30 +3750,208 @@ ShowArea=true
 [621]
 # Torneo Apollo
 Bicycle=false
+MapPosition=0,10,19
 Outdoor=false
 ShowArea=true
-MapPosition=0,10,19
 [622]
 # Torneo Apollo
 Bicycle=false
+MapPosition=0,10,19
 Outdoor=false
 ShowArea=false
-MapPosition=0,10,19
 [623]
 # Torneo Apollo
 Bicycle=false
+MapPosition=0,10,19
 Outdoor=false
 ShowArea=false
-MapPosition=0,10,19
 [624]
 # Torneo Apollo
 Bicycle=false
+MapPosition=0,10,19
 Outdoor=false
 ShowArea=false
-MapPosition=0,10,19
 [625]
 # Paradiso Sakura
 Bicycle=false
+MapPosition=0,10,19
 Outdoor=false
 ShowArea=false
-MapPosition=0,10,19
+[626]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=true
+[627]
+# Monte Zodiaco Alterato
+BattleBack=Zodiacoalterato
+Bicycle=false
+Outdoor=false
+WildBattleBGM=Wild Battle Monte Alterato.mp3
+ShowArea=false
+[628]
+# Monte Zodiaco Alterato
+BattleBack=Fini
+Bicycle=false
+Outdoor=false
+WildBattleBGM=Wild Battle Monte Alterato.mp3
+ShowArea=false
+[629]
+# Monte Zodiaco Alterato
+BattleBack=Zodiacoalterato
+Bicycle=false
+Outdoor=false
+WildBattleBGM=Wild Battle Monte Alterato.mp3
+ShowArea=false
+[630]
+# Monte Zodiaco Alterato
+BattleBack=Lele
+Weather=Snow,100
+Bicycle=false
+Outdoor=false
+WildBattleBGM=Wild Battle Monte Alterato.mp3
+ShowArea=false
+[631]
+# Monte Zodiaco Alterato
+BattleBack=Zodiacoalterato
+Bicycle=false
+Outdoor=false
+WildBattleBGM=Wild Battle Monte Alterato.mp3
+ShowArea=false
+[632]
+# Monte Zodiaco Alterato
+BattleBack=Koko
+Bicycle=false
+Outdoor=false
+WildBattleBGM=Wild Battle Monte Alterato.mp3
+ShowArea=false
+[633]
+# Monte Zodiaco Alterato
+BattleBack=Zodiacoalterato
+Bicycle=false
+TrainerBattleBGM=VS.RivaleAlt.mp3
+Outdoor=false
+WildBattleBGM=Wild Battle Monte Alterato.mp3
+ShowArea=false
+[634]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[635]
+# Monte Zodiaco Alterato
+BattleBack=Bosco
+Bicycle=false
+Outdoor=false
+WildBattleBGM=Wild Battle Monte Alterato.mp3
+ShowArea=false
+[636]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[637]
+# Monte Zodiaco Alterato
+BattleBack=Bulu
+Weather=Sunny,100
+Bicycle=false
+Outdoor=false
+WildBattleBGM=Wild Battle Monte Alterato.mp3
+ShowArea=false
+[638]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[639]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[640]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[641]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[642]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[643]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[644]
+# Monte Zodiaco Alterato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[645]
+# Orizzonte degli Eventi
+BattleBack=Vakum
+Bicycle=false
+Outdoor=false
+ShowArea=true
+[646]
+# Vetta Polare
+Bicycle=false
+Outdoor=false
+[647]
+# Borgo Gemini
+Bicycle=false
+Outdoor=false
+[648]
+# Balansopoli
+Bicycle=false
+Outdoor=false
+[649]
+# Leopoli
+Bicycle=false
+Outdoor=false
+[650]
+# Aeroporto Samuel Oak
+Bicycle=false
+Outdoor=false
+[651]
+# Sagittopoli
+Bicycle=false
+Outdoor=false
+[652]
+# Aranciopoli
+Bicycle=false
+Outdoor=false
+[653]
+# Via Vittoria
+Bicycle=false
+Outdoor=false
+[654]
+# Regno di Virgopoli
+Bicycle=false
+Outdoor=false
+[655]
+# Cansiria
+Bicycle=false
+Outdoor=false
+[656]
+# Aquariopoli
+Bicycle=false
+Outdoor=false
+[657]
+# Scorpiopoli
+Bicycle=false
+Outdoor=false
+[658]
+# Tauronordia
+Bicycle=false
+Outdoor=false
+[659]
+# Paradiso Sakura
+Bicycle=false
+Outdoor=false

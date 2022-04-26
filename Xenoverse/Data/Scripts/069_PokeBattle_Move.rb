@@ -667,7 +667,9 @@ class PokeBattle_Move
 			(attacker.hasWorkingItem(:MINDPLATE) && isConst?(type,PBTypes,:PSYCHIC)) ||
 			(attacker.hasWorkingItem(:ICICLEPLATE) && isConst?(type,PBTypes,:ICE)) ||
 			(attacker.hasWorkingItem(:DRACOPLATE) && isConst?(type,PBTypes,:DRAGON)) ||
-			(attacker.hasWorkingItem(:DREADPLATE) && isConst?(type,PBTypes,:DARK))
+			(attacker.hasWorkingItem(:DREADPLATE) && isConst?(type,PBTypes,:DARK)) ||
+			(attacker.hasWorkingItem(:PIXIEPLATE) && isConst?(type,PBTypes,:FAIRY)) ||
+			(attacker.hasWorkingItem(:SOUNDPLATE) && isConst?(type,PBTypes,:SOUND))
 			damagemult=(damagemult*1.2).round
 		end
 		if (attacker.hasWorkingItem(:NORMALGEM) && isConst?(type,PBTypes,:NORMAL)) ||

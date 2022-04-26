@@ -605,7 +605,25 @@ ItemHandlers::UseOnPokemon.copy(:FIRESTONE,
    :BOTTRAPANO,:BOTSAETTA,:BOTPRESSIONE,:BOTFORZA,:BOTPANNA,
    :BOTANTICO,:BOTTENEREZZA,:BOTERRORE,:BOTWES,:XENOLITE,
    :ICESTONE,:EVOPUPPILLON,:PEZZIDIRICAMBIO,:BOTINFERNO,
-   :BOTDRAGO,:POISONSTONE,:BOTPINZA,:ANCIENTSTONE)
+   :BOTDRAGO,:POISONSTONE,:BOTPINZA,:BOTREGALE,:ANCIENTSTONE)
+
+ItemHandlers::UseOnPokemon.add(:PINKSTONE,proc{|item,pokemon,scene|
+  if (pokemon.isShadow? rescue false)
+    scene.pbDisplay(_INTL("It won't have any effect."))
+    next false
+  end
+  canChange = pbCheckSwapStyle(pokemon)
+  if !canChange
+    scene.pbDisplay(_INTL("Non avrebbe alcun effetto."))
+    next false
+  end
+  if Kernel.pbConfirmMessage(_INTL("Do you want to use the Pink Stone on {1}?",pokemon.name))
+    scene.swapStyle(pokemon)
+    next true
+  else
+    next false
+  end
+})
 
 ItemHandlers::UseOnPokemon.add(:POTION,proc{|item,pokemon,scene|
    next pbHPItem(pokemon,20,scene)
@@ -1142,7 +1160,8 @@ ItemHandlers::UseOnPokemon.add(:GRACIDEA,proc{|item,pokemon,scene|
 ItemHandlers::UseOnPokemon.add(:REVEALGLASS,proc{|item,pokemon,scene|
    if (isConst?(pokemon.species,PBSpecies,:TORNADUS) ||
       isConst?(pokemon.species,PBSpecies,:THUNDURUS) ||
-      isConst?(pokemon.species,PBSpecies,:LANDORUS)) && pokemon.hp>=0
+      isConst?(pokemon.species,PBSpecies,:LANDORUS) ||
+      isConst?(pokemon.species,PBSpecies,:ENAMORUS)) && pokemon.hp>=0
      pokemon.form=(pokemon.form==0) ? 1 : 0
      scene.pbRefresh
      scene.pbDisplay(_INTL("{1} changed Forme!",pokemon.name))

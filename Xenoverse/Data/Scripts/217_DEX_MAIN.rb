@@ -7,7 +7,7 @@ ELDIWDEX = pbAllRegionalSpecies(0)#[1021,1022,1023,1024,1025,1026,1027,1028,1029
 ELDIWDEX.delete(0) if ELDIWDEX.include?(0)
 NATIONALDEX = []
 RETRODEX = []
-for i in 1300..1473
+for i in 1300..1483
 	next if [1462,1463,1464].include?(i)
 	RETRODEX.push(i)
 end

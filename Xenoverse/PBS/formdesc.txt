@@ -394,7 +394,7 @@ DESCRIPTION=(Stile Leggende)\n Rosicchia continuamente legno e rocce per affilar
 [399_18]
 DESCRIPTION=(Stile Leggende)\n Rosicchia continuamente legno e rocce per affilare i denti anteriori. Nidifica vicino all'acqua.
 [58_1]
-DESCRIPTION=(Forma di Hisui)\n Strenuo difensore del suo territorio, abbaia e morde per respingere gli intrusi.
+DESCRIPTION=(Forma di Hisui)\n Pattugliano il territorio in coppia. La presenza di componenti di rocce ignee nel loro vello parrebbe cagionata dall'attività vulcanica.
 TYPE1=10
 TYPE2=5
 [1_10]
@@ -432,3 +432,7 @@ TYPE1=12
 TYPE2=2
 [25_2]
 TYPE2=11
+[59_1]
+DESCRIPTION=(Forma di Hisui)\n Stringe le prede con le zanne avviluppate in rovente foco. Eccelle nelle finte nonostante la considerevole stazza.
+TYPE1=10
+TYPE2=5

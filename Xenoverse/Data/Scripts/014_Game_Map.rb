@@ -245,7 +245,7 @@ class Game_Map
             facing_tile_id=data[newx, newy, j]
             return false if facing_tile_id==nil
             if @terrain_tags[facing_tile_id]!=0
-              return false if @terrain_tags[facing_tile_id]==PBTerrain::Ledge
+              return false if @terrain_tags[facing_tile_id]==PBTerrain::Ledge && $game_switches[1203]==false
               break
             end
           end

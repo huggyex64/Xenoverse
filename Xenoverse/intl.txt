@@ -28072,8 +28072,8 @@ Chientilly
 Ditto
 Ditto
 1239
-????????
-????????
+Aegislash
+Aegislash
 1240
 ????????
 ????????
@@ -28777,35 +28777,35 @@ Parasect
 Mr. Mime
 Mr. Mime
 1474
-????????
-????????
+Slowpoke
+Slowpoke
 1475
-????????
-????????
+Slowbro
+Slowbro
 1476
-????????
-????????
+Slowking
+Slowking
 1477
-????????
-????????
+Marill
+Marill
 1478
-????????
-????????
+Azumarill
+Azumarill
 1479
-????????
-????????
+Snorlax
+Snorlax
 1480
-????????
-????????
+Aerodactyl
+Aerodactyl
 1481
-????????
-????????
+Ghift
+Ghift
 1482
-????????
-????????
+Sunnee
+Sunnee
 1483
-????????
-????????
+Puddi
+Puddi
 1484
 ????????
 ????????
@@ -30414,6 +30414,18 @@ Toxel
 2031
 Toxtricity
 Toxtricity
+2032
+Arctozolt
+Arctozolt
+2033
+Zorua
+Zorua
+2034
+Zoroark
+Zoroark
+2035
+Enamorus
+Enamorus
 [2]
 1
 Seme
@@ -30651,10 +30663,10 @@ Cavalfuoco
 Fire Horse
 79
 Ronfone
-Ronfone
+Dopey
 80
 Paguro
-Paguro
+Hermit Crab
 81
 Calamita
 Magnet
@@ -30840,10 +30852,10 @@ Crostaceo
 Crostaceo
 142
 Fossile
-Fossile
+Fossil
 143
 Sonno
-Sonno
+Sleeping
 144
 Gelo
 Gelo
@@ -30963,10 +30975,10 @@ Fiore
 Flower
 183
 Acquatopo
-Acquatopo
+Aqua Mouse
 184
 Acquaniglio
-Acquaniglio
+Aqua Rabbit
 185
 Imitazione
 Imitation
@@ -31011,7 +31023,7 @@ Oscurità
 Darkness
 199
 Reale
-Reale
+Royal
 200
 Strido
 Screech
@@ -31254,13 +31266,13 @@ Alacquatico
 Water Bird
 280
 Sensazione
-Sensazione
+Feeling
 281
 Emozione
-Emozione
+Emotion
 282
 Abbraccio
-Abbraccio
+Embrace
 283
 Sfiorapozze
 Pond Skater
@@ -31269,10 +31281,10 @@ Occhi
 Eyeball
 285
 Fungo
-Fungo
+Mushroom
 286
 Fungo
-Fungo
+Mushroom
 287
 Ozioso
 Ozioso
@@ -31308,7 +31320,7 @@ Sberletese
 Sberletese
 298
 Pois
-Pois
+Polka Dot
 299
 Bussola
 Compass
@@ -31467,7 +31479,7 @@ Tenerezza
 Tender
 351
 Meteo
-Meteo
+Weather
 352
 Mutacolore
 Color Swap
@@ -31623,13 +31635,13 @@ Grillo
 Cricket
 403
 Baleno
-Baleno
+Flash
 404
 Favilla
-Favilla
+Spark
 405
 Occhiluce
-Occhiluce
+Gleam Eyes
 406
 Germoglio
 Bud
@@ -31679,10 +31691,10 @@ Cherry
 Blossom
 Blossom
 422
-Sea Slug
+Lumacomare
 Sea Slug
 423
-Sea Slug
+Lumacomare
 Sea Slug
 424
 Lungacoda
@@ -31721,10 +31733,10 @@ Skunk
 Moffetta
 Skunk
 436
-Bronze
+Bronzo
 Bronze
 437
-Bronze Bell
+Squibronzo
 Bronze Bell
 438
 Bonsai
@@ -31742,17 +31754,17 @@ Music Note
 Proibito
 Forbidden
 443
-Land Shark
+Squaloterra
 Land Shark
 444
-Cave
+Grotta
 Cave
 445
 Mach
 Mach
 446
 Ghiottone
-Ghiottone
+Big Eater
 447
 Emanazione
 Emanation
@@ -31838,7 +31850,7 @@ Twin Tusk
 Virtuale
 Virtual
 475
-Blade
+Lama
 Blade
 476
 Bussola
@@ -32111,10 +32123,10 @@ Prototurtle
 Prototurtle
 Prototurtle
 566
-First Bird
+Paleouccello
 First Bird
 567
-First Bird
+Paleouccello
 First Bird
 568
 Spazzatura
@@ -32174,7 +32186,7 @@ Season
 Season
 Season
 587
-Sky Squirrel
+Petauro
 Sky Squirrel
 588
 Clamping
@@ -32183,10 +32195,10 @@ Clamping
 Cavalry
 Cavalry
 590
-Mushroom
+Fungo
 Mushroom
 591
-Mushroom
+Fungo
 Mushroom
 592
 Floating
@@ -32336,10 +32348,10 @@ Cavern
 Grassland
 Grassland
 641
-Cyclone
+Turbinio
 Cyclone
 642
-Bolt Strike
+Fulminante
 Bolt Strike
 643
 Vast White
@@ -32348,7 +32360,7 @@ Vast White
 Deep Black
 Deep Black
 645
-Abundance
+Fertilità
 Abundance
 646
 Boundary
@@ -32364,28 +32376,28 @@ Paleozoico
 Paleozoic
 650
 Castanriccio
-Castanriccio
+Spiny Nut
 651
 Spincorazza
-Spincorazza
+Spiny Armor
 652
 Spincorazza
-Spincorazza
+Spiny Armor
 653
 Volpe
-Volpe
+Fox
 654
 Volpe
-Volpe
+Fox
 655
 Volpe
-Volpe
+Fox
 656
 Schiumorana
-Schiumorana
+Bubble Frog
 657
 Schiumorana
-Schiumorana
+Bubble Frog
 658
 Ninja
 Ninja
@@ -33577,6 +33589,36 @@ Mushroom
 1473
 Barriera
 Barrier
+1474
+Ronfone
+Dopey
+1475
+Paguro
+Hermit Crab
+1476
+Reale
+Royal
+1477
+Acquatopo
+Aqua Mouse
+1478
+Acquaniglio
+Aqua Rabbit
+1479
+Sonno
+Sleeping
+1480
+Fossile
+Fossil
+1481
+Consegna
+Delivery
+1482
+Sole
+Sun
+1483
+Cagnolino
+Puppy
 2000
 Cavallonembo
 Nimbus Steed
@@ -33673,6 +33715,18 @@ Baby
 2031
 Punk
 Punk
+2032
+Fossile
+Fossil
+2033
+Rancorvolpe
+Spiteful Fox
+2034
+Maledivolpe
+Baneful Fox
+2035
+Amoreodio
+Love-Hate
 [3]
 1
 Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
@@ -33910,10 +33964,10 @@ Quando galoppa, la sua criniera ardente brilla, rendendo il suo aspetto ancora p
 When at an all-out gallop, its blazing mane sparkles, enhancing its beautiful appearance.
 79
 Incredibilmente lento e tonto, ci mette 5 secondi a percepire il dolore dopo l'attacco.
-Incredibilmente lento e tonto, ci mette 5 secondi a percepire il dolore dopo l'attacco.
+Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.
 80
 E' lento e pigro e vive in riva al mare. Diventa Slowpoke se gli si stacca lo Shellder dalla coda.
-E' lento e pigro e vive in riva al mare. Diventa Slowpoke se gli si stacca lo Shellder dalla coda.
+The Shellder that latches onto Slowpoke's tail is said to feed on the host's leftover scraps.
 81
 Le unità alle due estremità del corpo producono energia antigravitazionale con cui si mantiene a mezz'aria.
 The units at the sides of its body generate antigravity energy to keep it aloft in the air.
@@ -34099,10 +34153,10 @@ Ha una fisionomia da perfetto nuotatore. Taglia la preda con le sue falci e ne b
 Ha una fisionomia da perfetto nuotatore. Taglia la preda con le sue falci e ne beve il sangue.
 142
 Aerodactyl risale all'epoca dei dinosauri. E' stato rigenerato da materiale genetico estratto dall'ambra. Si suppone che in tempi antichi fosse considerato il signore dei cieli.
-Aerodactyl risale all'epoca dei dinosauri. E' stato rigenerato da materiale genetico estratto dall'ambra. Si suppone che in tempi antichi fosse considerato il signore dei cieli.
+Aerodactyl is a Pokémon from the age of dinosaurs. It was regenerated from genetic material extracted from amber. It is imagined to have been the king of the skies in ancient times.
 143
 Molto pigro, non fa che mangiare e dormire. Con l'aumento della sua mole diventa sempre piu' indolente.
-Molto pigro, non fa che mangiare e dormire. Con l'aumento della sua mole diventa sempre piu' indolente.
+Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.
 144
 Articuno e' un Pokemon uccello leggendario, perfettamente a suo agio tra i ghiacci. Quando batte le ali, l'aria circostante diventa gelida. Per questo motivo, quando nevica, si dice che sia passato di li'.
 Articuno e' un Pokemon uccello leggendario, perfettamente a suo agio tra i ghiacci. Quando batte le ali, l'aria circostante diventa gelida. Per questo motivo, quando nevica, si dice che sia passato di li'.
@@ -34222,10 +34276,10 @@ Quando finisce la stagione delle piogge, lo si vede danzare sotto i caldi raggi 
 When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.
 183
 La punta della coda, contenendo un olio piu' leggero dell'acqua, lo fa nuotare senza affogare.
-La punta della coda, contenendo un olio piu' leggero dell'acqua, lo fa nuotare senza affogare.
+The tip of its tail, which contains oil that is lighter than water, lets it swim without drowning.
 184
 Quando gioca in acqua arrotola le lunghe orecchie perche' non si bagnino all'interno.
-Quando gioca in acqua arrotola le lunghe orecchie perche' non si bagnino all'interno.
+When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet.
 185
 Si traveste da albero per evitare gli attacchi. Odiando l'acqua, scompare appena inizia a piovere.
 To avoid being attacked, it does nothing but mimic a tree. It hates water and flees from rain.
@@ -34270,7 +34324,7 @@ Va in cerca di oggetti luccicanti per il suo capo. Molti lo temono e lo detestan
 It searches for shiny things for its boss. Murkrow's presence is said to be unlucky, so many people detest it.
 199
 Quando la testa di Slowpoke fu morsa, vi penetrarono delle tossine che produssero un enorme potere.
-Quando la testa di Slowpoke fu morsa, vi penetrarono delle tossine che produssero un enorme potere.
+When its head was bitten, toxins entered Slowpoke's head and unlocked an extraordinary power.
 200
 Si diverte a fare brutti scherzi, come gridare e lamentarsi in piena notte spaventando la gente.
 It likes playing mischievous tricks such as screaming and wailing to startle people at night.
@@ -34512,14 +34566,14 @@ With its long, thin wings, it catches updrafts and flies like a glider high up i
 Si libra a pelo dell'acqua del mare pescando il suo cibo e trasportandolo via con il suo grande becco.
 Skimming the water's surface, it dips its large bill in the sea, scoops up food and water, and carries it.
 280
-Ralts ha la capacita' di percepire le emozioni delle persone. Se il suo Allenatore e' di buon umore, questo influisce positivamente sul carattere di Ralts, che crescera' cosi' allegro e gioioso.
-Ralts ha la capacita' di percepire le emozioni delle persone. Se il suo Allenatore e' di buon umore, questo influisce positivamente sul carattere di Ralts, che crescera' cosi' allegro e gioioso.
+Se con le corna avverte emozioni positive di persone o Pokémon, il suo corpo si scalda leggermente.
+Ralts has the ability to sense the emotions of people. If its trainer is in a cheerful mood, this Pokémon grows cheerful and joyous in the same way.
 281
 Quando il suo Allenatore si sente felice, trabocca di energia e inizia a ballare girando su se stesso.
-Quando il suo Allenatore si sente felice, trabocca di energia e inizia a ballare girando su se stesso.
+If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.
 282
 Gardevoir ha il potere psicocinetico di distorcere le dimensioni creando un piccolo buco nero. Questo Pokemon cerca di proteggere il proprio allenatore anche a rischio della sua stessa vita.
-Gardevoir ha il potere psicocinetico di distorcere le dimensioni creando un piccolo buco nero. Questo Pokemon cerca di proteggere il proprio allenatore anche a rischio della sua stessa vita.
+Gardevoir has the ability to read the future. If it senses impending danger to its Trainer, this Pokémon is said to unleash its psychokinetic energy at full power.
 283
 Cammina a pelo d'acqua. Dall'aculeo sulla testa emana un dolce aroma con cui attira le prede.
 It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.
@@ -34528,10 +34582,10 @@ Masquerain intimorisce i nemici con il motivo a forma d'occhio sulle antenne. Ag
 Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.
 285
 Shroomish vive nel suolo umido nel cuore della foresta buia. Spesso si nasconde sotto le foglie cadute. Si ciba dell'humus creato dal letto di foglie decomposte sul terreno.
-Shroomish vive nel suolo umido nel cuore della foresta buia. Spesso si nasconde sotto le foglie cadute. Si ciba dell'humus creato dal letto di foglie decomposte sul terreno.
+Shroomish live in damp soil in the dark depths of forests. They are often found keeping still under fallen leaves. This Pokémon feeds on compost that is made up of fallen, rotted leaves.
 286
 Tirando pugni, i suoi cortissimi arti si allungano. Usa una tecnica simile a quella dei pugili professionisti.
-Tirando pugni, i suoi cortissimi arti si allungano. Usa una tecnica simile a quella dei pugili professionisti.
+Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.
 287
 Dorme 20 ore al giorno. Una delle sue abilita' e' far venire sonnolenza a chi lo osserva.
 Dorme 20 ore al giorno. Una delle sue abilita' e' far venire sonnolenza a chi lo osserva.
@@ -34567,7 +34621,7 @@ Pesta i piedi sul terreno per accumulare energia. Con uno dei suoi schiaffi puo'
 Pesta i piedi sul terreno per accumulare energia. Con uno dei suoi schiaffi puo' far prendere il volo a un camion di 10 t.
 298
 La sua coda e' piena di sostanze nutritive essenziali per crescere. Gioca saltellando sulla coda.
-La sua coda e' piena di sostanze nutritive essenziali per crescere. Gioca saltellando sulla coda.
+Its tail, which is packed with nutrition, is very bouncy like a rubber ball. On sunny days they gather at the edge of water and splash about for fun.
 299
 Il naso magnetico di Nosepass è una bussola infallibile e questo lo rende il compagno di viaggio ideale per ogni Allenatore.
 The magnet in Nosepass's nose provides an unerring compass, making it an excellent partner for Trainers going on a journey.
@@ -34725,8 +34779,8 @@ It is a shabby and ugly Pokémon. However, it is very hardy and can survive on l
 È considerato il Pokémon più bello del mondo ed è fonte d'ispirazione per tantissimi artisti.
 Milotic has provided inspiration to many artists. It has even been referred to as the most beautiful Pokémon of all.
 351
-Il suo aspetto varia con l'umidite' e la temperatura, che influenzano la sua struttura molecolare.
-Il suo aspetto varia con l'umidite' e la temperatura, che influenzano la sua struttura molecolare.
+Il suo aspetto varia con l'umidita' e la temperatura, che influenzano la sua struttura molecolare.
+Castform's appearance changes with the weather. This Pokémon gained the ability to use the vast power of nature to protect its tiny body.
 352
 Cambia colore per mimetizzarsi e sorprendere la preda. Il disegno sulla pancia rimane sempre visibile.
 It changes its shading to match its surroundings so it can sneak up on prey. Only its belly patterns stay fixed.
@@ -34881,14 +34935,14 @@ It shakes its head back to front, causing its antennae to hit each other and sou
 Canta delle belle melodie, provocando interessanti risonanze nelle cavità del proprio corpo.
 By allowing its cry to resonate in the hollow of its belly, it produces a captivating sound.
 403
-Produce elettricite' contraendo e rilassando i muscoli. Quando si sente minacciato si illumina.
-Produce elettricite' contraendo e rilassando i muscoli. Quando si sente minacciato si illumina.
+Produce elettricita' contraendo e rilassando i muscoli. Quando si sente minacciato si illumina.
+The extension and contraction of its muscles generates electricity. Its fur glows when it's in trouble.
 404
 Comunica mediante gli impulsi elettrici ritmici emessi dagli artigli anteriori, che posa sui suoi simili.
-Comunica mediante gli impulsi elettrici ritmici emessi dagli artigli anteriori, che posa sui suoi simili.
+It rests its forelegs on others to communicate with rhythmic electric pulses from its claws.
 405
-Se i suoi occhi sono dorati, pue' individuare le prede, anche quelle che si nascondono dietro i muri.
-Se i suoi occhi sono dorati, pue' individuare le prede, anche quelle che si nascondono dietro i muri.
+Se i suoi occhi sono dorati, puo' individuare le prede, anche quelle che si nascondono dietro i muri.
+When its eyes gleam gold, it can spot hiding prey--even those taking shelter behind a wall.
 406
 La sua gemma, sensibile agli sbalzi di temperatura, si schiude quando avverte i caldi raggi del sole.
 Sensitive to changing temperature,\n the bud is said to bloom when it feels\n the sun's warm touch.
@@ -34938,11 +34992,11 @@ The small ball holds the nutrients needed for evolution. Apparently, it is very 
 It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud.
 It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud.
 422
-Its colors and shapes differ from region to region. In the Sinnoh region, two types are confirmed.
-Its colors and shapes differ from region to region. In the Sinnoh region, two types are confirmed.
+Cambia facilmente aspetto e colore secondo il luogo di provenienza.
+Its colors and shapes differ from region to region.
 423
-It has a pliable body without any bones. If any part of its body is torn off, it grows right back.
-It has a pliable body without any bones. If any part of its body is torn off, it grows right back.
+In passato portava sulla schiena un robusto carapace. Ne rimangono tracce nelle sue cellule.
+Long ago, its entire back was shielded with a sturdy shell. There are traces of it left in its cells.
 424
 È talmente abile nel maneggiare gli oggetti con le sue due code che solo raramente usa le mani.
 Split into two, the tails are so adept at handling and doing things, Ambipom rarely uses its hands.
@@ -34980,10 +35034,10 @@ It protects itself by spraying a noxious fluid from its rear. The stench lingers
 Attacca spruzzando un liquido mefitico dalla coda. Se attacca a ripetizione, l'odore si affievolisce.
 It attacks by spraying a repugnant fluid from its tail, but the stench dulls after a few squirts.
 436
-Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.
+Si trova in vecchie tombe. Si dice che nel disegno sulla sua schiena risieda una forza misteriosa.
 Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.
 437
-One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.
+Il suo ritrovamento in un cantiere dopo un sonno di 2000 anni fece a suo tempo molto scalpore.
 One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.
 438
 Sembra che pianga tutto il tempo. In realta' regola il livello dei fluidi del corpo eliminando gli eccessi.
@@ -35001,17 +35055,17 @@ Its tongue is just like a human's. As a result, it can cleverly mimic human spee
 A causa del suo comportamento molesto\n è stato imprigionato in una Roccianima\n con un incantesimo.
 Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.
 443
-It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.
-It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.
+Attacca con la sua enorme bocca. È forte, ma molto maldestro e spesso si danneggia da solo.
+It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.
 444
-There is a long-held belief that medicine made from its scales will heal even incurable illnesses.
-There is a long-held belief that medicine made from its scales will heal even incurable illnesses.
+Adora gli oggetti luccicanti. Va a caccia di tesori nelle grotte e li trasporta nel suo nido.
+It loves sparkly things. It seeks treasures in caves and hoards the loot into its nest.
 445
-When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.
-When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.
+Si dice che quando vola, le sue ali creino raffiche di vento in grado di abbattere gli alberi vicini.
+It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.
 446
 Nasconde il cibo sotto i lunghi peli del suo corpo. Tuttavia, finisce spesso per dimenticarlo.
-Nasconde il cibo sotto i lunghi peli del suo corpo. Tuttavia, finisce spesso per dimenticarlo.
+It hides food under its long body hair. However, it forgets it has hidden the food.
 447
 È in grado di percepire la natura e le emozioni di Pokémon ed essere umani sotto forma di onde.
 It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.
@@ -35097,8 +35151,8 @@ Its impressive tusks are made of ice. The population thinned when it turned warm
 Mostra un comportamento instabile, da attribuire probabilmente alla scarsa competenza di chi ha aggiornato il suo software.
 Its behavior is noticeably unstable, which is apparently due to the incompetence of the engineer who\n updated its programming.
 475
-A master of courtesy and swordsmanship, it fights using extending swords on its elbows.
-A master of courtesy and swordsmanship, it fights using extending swords on its elbows.
+Quando protegge qualcuno estende i gomiti come se fossero spade e combatte furiosamente.
+When protecting someone, it extends its elbows as if they were swords and fights savagely.
 476
 È in grado di controllare tre piccole unità dette Mininasi per catturare le sue prede senza doversi spostare.
 The main body controls three mobile units called Mini-Noses, which it maneuvers to catch prey.
@@ -35370,10 +35424,10 @@ About 100 million years ago, these Pokemon swam in oceans. It is thought they al
 Incredible jaw strength enables them to chew up steel beams and rocks along with their prey.
 Incredible jaw strength enables them to chew up steel beams and rocks along with their prey.
 566
-Revived from a fossil, this Pokemon is thought to be the ancestor of all bird Pokemon.
-Revived from a fossil, this Pokemon is thought to be the ancestor of all bird Pokemon.
+Sembra che, non essendo in grado di volare, catturasse le prede planando da alti rami.
+Not able to fly, it lived in treetops and hopped from one branch to another.
 567
-It runs better than it flies. It catches prey by running at speeds comparable to those of an automobile.
+È più versato nella corsa che nel volo. Cattura le prede correndo a una velocità pari a quella di un'automobile.
 It runs better than it flies. It catches prey by running at speeds comparable to those of an automobile.
 568
 Predilige luoghi insalubri. Esala gas dalle fauci in grado di addormentare per una settimana.
@@ -35433,7 +35487,7 @@ The turning of the seasons changes the color and scent of this Pokemon's fur. Pe
 The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.
 The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.
 587
-They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.
+Vola nei cieli come danzando mentre sprigiona elettricità. È molto grazioso, ma può creare dei fastidi.
 They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.
 588
 When they feel threatened, they spit an acidic liquid to drive attackers away. This Pokemon targets Shelmet.
@@ -35442,10 +35496,10 @@ When they feel threatened, they spit an acidic liquid to drive attackers away. T
 These Pokemon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.
 These Pokemon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.
 590
-For some reason, this Pokemon resembles a Poke Ball. They release poison spores to repel those who try to catch them.
+Per un qualche motivo assomiglia a una Poké Ball. Soffia spore velenose contro il nemico per sfuggire alla cattura.
 For some reason, this Pokemon resembles a Poke Ball. They release poison spores to repel those who try to catch them.
 591
-They show off their Poke Ball caps to lure prey, but very few Pokemon are fooled by this.
+Cerca di attirare le prede esibendo un cappello a forma di Poké Ball, ma sono pochi i Pokémon che si fanno ingannare.
 They show off their Poke Ball caps to lure prey, but very few Pokemon are fooled by this.
 592
 They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.
@@ -35595,11 +35649,11 @@ Its charge is strong enough to break through a giant castle wall in one blow. Th
 Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.
 Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.
 641
-Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.
+L'energia sprigionata dalla coda di Tornadus provoca una violenta tempesta in grado di spazzare via le case.
 Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.
 642
-The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.
-The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.
+Dove passa Thundurus, rimane una scia lunghissima di bruciature nere provocate dai fulmini che scaglia.
+Countless charred remains mar the landscape of places through which Thundurus has passed.
 643
 When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather.
 When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather.
@@ -35607,8 +35661,8 @@ When Reshiram's tail flares, the heat energy moves the atmosphere and changes th
 This Pokemon appears in legends. In its tail, it has a giant generator that creates electricity.
 This Pokemon appears in legends. In its tail, it has a giant generator that creates electricity.
 645
-The energy that comes pouring from its tail increases the nutrition in the soil, making crops grow to great size.
-The energy that comes pouring from its tail increases the nutrition in the soil, making crops grow to great size.
+Rende fertile la terra trasformando l'energia del vento e dei fulmini in nutrimento per il suolo.
+From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant.
 646
 It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.
 It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.
@@ -35623,31 +35677,31 @@ Its melodies are sung with a special vocalization method that can control\n the 
 Over 300 million years ago, it was feared as the strongest of hunters. It has been modified by Team Plasma.
 650
 Ha schiena e testa coperte da un guscio talmente resistente che non farebbe una piega nemmeno se ci passasse sopra un tir
-Ha schiena e testa coperte da un guscio talmente resistente che non farebbe una piega nemmeno se ci passasse sopra un tir
+Such a thick shell of wood covers its head and back that even a direct hit from a truck wouldn't faze it.
 651
 Respinge gli attacchi dei nemici grazie al guscio che gli ricopre tutto il corpo e contrattacca con gli aculei affilati
-Respinge gli attacchi dei nemici grazie al guscio che gli ricopre tutto il corpo e contrattacca con gli aculei affilati
+It relies on its sturdy shell to deflect predators' attacks. It counterattacks with its sharp quills.
 652
 Attaccando puo' rovesciare un carro armato da 50 t. Protegge gli alleati facendo loro scudo con il proprio corpo
-Attaccando puo' rovesciare un carro armato da 50 t. Protegge gli alleati facendo loro scudo con il proprio corpo
+Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.
 653
 Fa il pieno di energie mangiando ramoscelli ed emette aria calda dalle grandi orecchie ad una temperatura di oltre 200e'C
-Fa il pieno di energie mangiando ramoscelli ed emette aria calda dalle grandi orecchie ad una temperatura di oltre 200e'C
+Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.
 654
 Incendia il rametto che ha infilato nella coda grazie allo sfregamento del pelo per poi lanciarsi nella lotta
-Incendia il rametto che ha infilato nella coda grazie allo sfregamento del pelo per poi lanciarsi nella lotta
+It has a twig stuck in its tail. With friction from its tail fur, it sets the twig on fire and launches into battle.
 655
 Fissando la fiamma che ha in mano,aumenta al massimo la concentrazione e puo' predire il futuro
-Fissando la fiamma che ha in mano,aumenta al massimo la concentrazione e puo' predire il futuro
+It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.
 656
 Dal petto e dalla schiena secerne una schiuma che gli permette di attutire i danni causati dagli attacchi nemici
-Dal petto e dalla schiena secerne una schiuma che gli permette di attutire i danni causati dagli attacchi nemici
+It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.
 657
 Grazie alla sua straordinaria agilita', e' in grado di scalare una torre alta piu' di 600 metri in meno di un minuto
-Grazie alla sua straordinaria agilita', e' in grado di scalare una torre alta piu' di 600 metri in meno di un minuto
+Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time.
 658
 Agile e sfugente come un ninja, si fa beffe dei nemici grazie alla sua velocita' e li bersaglia dei shuriken d'acqua
-Agile e sfugente come un ninja, si fa beffe dei nemici grazie alla sua velocita' e li bersaglia dei shuriken d'acqua
+It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.
 659
 Scava tane nel terreno grazie alle grandi orecchie. Puo' andare avanti senza fermarsi per tutta la notte
 Scava tane nel terreno grazie alle grandi orecchie. Puo' andare avanti senza fermarsi per tutta la notte
@@ -36839,6 +36893,36 @@ A mushroom grown larger than the host's body controls Parasect. It scatters pois
 1473
 La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
 Its gestures and motions convince watchers that something unseeable actually exists. Once it is believed, it will exist as if it were a real thing.
+1474
+Incredibilmente lento e tonto, ci mette 5 secondi a percepire il dolore dopo l'attacco.
+Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.
+1475
+E' lento e pigro e vive in riva al mare. Diventa Slowpoke se gli si stacca lo Shellder dalla coda.
+The Shellder that latches onto Slowpoke's tail is said to feed on the host's leftover scraps.
+1476
+Quando la testa di Slowpoke fu morsa, vi penetrarono delle tossine che produssero un enorme potere.
+When its head was bitten, toxins entered Slowpoke's head and unlocked an extraordinary power.
+1477
+La punta della coda, contenendo un olio piu' leggero dell'acqua, lo fa nuotare senza affogare.
+The tip of its tail, which contains oil that is lighter than water, lets it swim without drowning.
+1478
+Quando gioca in acqua arrotola le lunghe orecchie perche' non si bagnino all'interno.
+When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet.
+1479
+Molto pigro, non fa che mangiare e dormire. Con l'aumento della sua mole diventa sempre piu' indolente.
+Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.
+1480
+Aerodactyl risale all'epoca dei dinosauri. E' stato rigenerato da materiale genetico estratto dall'ambra. Si suppone che in tempi antichi fosse considerato il signore dei cieli.
+Aerodactyl is a Pokémon from the age of dinosaurs. It was regenerated from genetic material extracted from amber. It is imagined to have been the king of the skies in ancient times.
+1481
+Trasporta cibo per tutto il giorno. Si racconta che molti dispersi si siano salvati con il suo cibo.
+It carries food all day long. There are tales about lost people who were saved by the food it had.
+1482
+Di giorno si muove freneticamente, ma quando cala il sole si ferma e interrompe ogni attivita'.
+It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still.
+1483
+I Puddi sono molto fedeli. Durante gli inverni freddi, il loro calore può riscaldare un'intera abitazione.
+The Puddis are very loyal. During cold winters, their heat can warm an entire home.
 2000
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
@@ -36932,6 +37016,18 @@ It manipulates the chemical makeup of its poison to produce electricity. The vol
 2031
 È litigioso e irascibile. Ingurgita acqua stagnante in grandi quantità per assorbire le tossine in essa contenute.
 This short-tempered and aggressive Pokémon chugs stagnant water to absorb any toxins it might contain.
+2032
+La parte superiore del suo corpo è ghiacciata e quando trema produce elettricità. Cammina con estrema difficoltà.
+The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around.
+2033
+Uno spirito defunto. Il suo sdegno si fa energia e promana dal capo, tramutandosi nell'avversario per esigere vendetta.
+A once-departed soul. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes.
+2034
+Il vello candido e scarmigliato lo fa somigliare a una divinità mortifera. Il profondo astio ne dilania le membra, portandolo ad abbattersi sull'inimico pronto a condividerne l'amara sorte.
+With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body.
+2035
+La sua venuta dai cieli al di là del mare annunzia la fine del rigido inverno. Si narra che il suo amore faccia germogliare nuova vita.
+When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life.
 [4]
 19
 Kanto,Alola
@@ -41438,6 +41534,18 @@ The user manipulates magnetic fields which raises the Def. and Sp. Def stats of 
 733
 Chi la usa attacca sempre per primo, colpendo il bersaglio con un kunai di fuoco. Brutto colpo assicurato.
 The user always goes first and hits the target with throwing fire kunais. This move always results in a critical hit.
+734
+Chi la usa si trasforma in una copia esatta di una specie X casuale.
+The user transforms into an exact copy of a casual X Species.
+735
+Chi la usa genera una pioggia acida che danneggia tutti i Pokémon non di tipo Veleno o Acqua in campo.
+The user generates an  acid rain that damages all the Pokémons except for the Water and Poison Types.
+736
+Chi la usa crea uno scudo che indebolisce per cinque turni le mosse di tipo Elettro, Fuoco, Erba e Acqua.
+The user creates a shield that weakens the moves of Electric, Fire, Grass and Water Type for five turns.
+737
+Chi la usa piazza una trappola con le sue squame che indebolisce i nemici scesi in campo.
+The user places a trap with their scales. The trap weakens opponents that switch into battle.
 [7]
 1
 Repellente
@@ -43007,7 +43115,7 @@ Cuneo DNA
 Cuneo DNA
 523
 Verispecchio
-Verispecchio
+Reveal Glass
 524
 Ovamuleto
 Oval Charm
@@ -43806,6 +43914,30 @@ Ultra Rare Candy
 830
 Cerotto Abilità
 Ability Patch
+831
+Pietrantica
+Ancient Stone
+832
+Update Regale
+Royal Update
+833
+Pietrarosa
+Pink Stone
+834
+Furia Ball
+Fury Ball
+835
+Luxrayite
+Luxrayite
+836
+Mienshaoite
+Mienshaoite
+837
+Lastraboato
+Sound Plate
+838
+Morfopalla
+Alterball
 [8]
 1
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
@@ -45375,7 +45507,7 @@ Cuneo che permette di fondere Kyurem con il Pokémon al quale era unito in origi
 Cuneo che permette di fondere Kyurem con il Pokémon al quale era unito in origine.
 523
 Specchio misterioso che, riflettendo la verità, fa riacquistare ai Pokémon la loro vera forma.
-Specchio misterioso che, riflettendo la verità, fa riacquistare ai Pokémon la loro vera forma.
+A glass that reveals the truth. It is a mysterious glass that returns a Pokémon back to its original shape.
 524
 Misterioso amuleto di forma sferica che aumenta la probabilità di trovare Uova nella Pensione Pokémon.
 An oval charm said to increase the chance of Eggs being found at the Day Care.
@@ -45405,7 +45537,7 @@ Un esemplare delle misteriose Megapietre. Data a Pinsir, gli permette di megaevo
 Un esemplare delle misteriose Megapietre. Data a Pinsir, gli permette di megaevolversi durante la lotta.
 533
 Un esemplare delle misteriose Megapietre. Data a Garchomp, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Garchomp, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Garchomp hold it, and this stone will enable it to Mega Evolve during battle.
 534
 Un esemplare delle misteriose Megapietre. Data a Blastoise, gli permette di megaevolversi durante la lotta.
 One variety of the mysterious Mega Stones. Have Blastoise hold it, and this stone will enable it to Mega Evolve during battle.
@@ -45459,7 +45591,7 @@ Un esemplare delle misteriose Megapietre. Data a Camerupt, gli permette di megae
 One variety of the mysterious Mega Stones. Have Camerupt hold it, and this stone will enable it to Mega Evolve during battle.
 551
 Un esemplare delle misteriose Megapietre. Data a Blaziken, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Blaziken, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Blaziken hold it, and this stone will enable it to Mega Evolve during battle.
 552
 Un esemplare delle misteriose Megapietre. Data a Scizor, gli permette di megaevolversi durante la lotta.
 One variety of the mysterious Mega Stones. Have Scizor hold it, and this stone will enable it to Mega Evolve during battle.
@@ -45516,7 +45648,7 @@ Un esemplare delle misteriose Megapietre. Data a Manectric, gli permette di mega
 Un esemplare delle misteriose Megapietre. Data a Manectric, gli permette di megaevolversi durante la lotta.
 570
 Un esemplare delle misteriose Megapietre. Data a Swampert, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Swampert, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Swampert hold it, and this stone will enable it to Mega Evolve during battle.
 571
 Un esemplare delle misteriose Megapietre. Data a Latias, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Latias, gli permette di megaevolversi durante la lotta.
@@ -46174,6 +46306,30 @@ A candy that is incredibly packed with energy. It raises the level of a single P
 830
 Cerotto che permette a un Pokémon dotato di un'abilità comune di cambiarla in una più rara.
 A patch that allows a Pokémon with a regular Ability to have a rare Ability.
+831
+Pietra millenaria che fa evolvere determinate specie di Pokémon. Non si sa da dove provenga.
+Millennial stone that allows specific species of Pokémon to evolve. It's unknown where it's from.
+832
+Update contenente i dati di un Pokémon di tipo Acqua. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing a Water Type Pokémon's data. It makes the Pokémon evolve via Pokémon Transfer.
+833
+Pietra di un rosa brillante che trasforma determenitate specie di Pokémon. Non si sa da dove provenga.
+Stone of a shining pink color that allows specific species of Pokémon to evolve. It's unknown where it's from.
+834
+Una speciale Ball progettata da Tarassaco. Unisce le caratteristiche principali di una Pokéball all'efficacia mistica dei sigilli Furia.
+A special Ball engineered by Taraxo. It combines the main characteristics of a Poké ball with the mystical power of Fury Seals.
+835
+Un esemplare delle misteriose Megapietre. Data a Luxray, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Luxray hold it, and this stone will enable it to Mega Evolve during battle.
+836
+Un esemplare delle misteriose Megapietre. Data a Mienshao, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Mienshao hold it, and this stone will enable it to Mega Evolve during battle.
+837
+Strumento da far tenere a un Pokémon. Lastra di pietra che potenzia le mosse di tipo Suono.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Sound-type moves.
+838
+Strumento da dare a Pikachu X. Sfera insolita che aumenta l'Attacco e l'Attacco Speciale.
+An item to be held by Pikachu X. It is a puzzling orb that raises the Attack and Sp. Atk stat.
 [9]
 1
 Tanfo
@@ -61035,6 +61191,8 @@ KEY ITEMS
 KEY ITEMS
 Order
 Move
+Sort
+Sort
 x{1:2d}
 x{1:2d}
 Complete Pokedex Real

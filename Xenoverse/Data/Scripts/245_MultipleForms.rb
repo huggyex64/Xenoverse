@@ -994,6 +994,12 @@ MultipleForms.register(:TRISHOUT,{
 			next 1.6 if pokemon.form==2 #X
 			next 3.1 if pokemon.form==3 #A
 		},
+		"height"=>proc{|pokemon|
+			next if pokemon.form==0 # Altered Forme
+			next 0.9 if pokemon.form==1 #T
+			next 1.6 if pokemon.form==2 #X
+			next 3.1 if pokemon.form==3 #A
+		},
 		"weight"=>proc{|pokemon|
 			next if pokemon.form==0 # Altered Forme
 			next 20.0 if pokemon.form==1 #T
@@ -1066,6 +1072,12 @@ MultipleForms.register(:SHYLEON,{
 			next if pokemon.form == 0
 			next getID(PBAbilities,:QUICKFEET) if pokemon.form == 1				# Terrestre
 			next getID(PBAbilities,:MAJESTICAURA) if pokemon.form==2		    # Xenoverse
+		},
+		"height"=>proc{|pokemon|
+			next if pokemon.form==0 # Altered Forme
+			next 0.8 if pokemon.form==1 #T
+			next 2.7 if pokemon.form==2 #X
+			next 2.9 if pokemon.form==3 #A
 		},
 		"height"=>proc{|pokemon|
 			next if pokemon.form==0 # Altered Forme
@@ -2793,10 +2805,10 @@ MultipleForms.register(:MASGOT,{
 				next 4 #HOUNDOOM FORM
 			elsif $game_map && ampharos_maps.include?($game_map.map_id)
 				next 5 #AMPHAROS FORM
-			elsif $game_map && tyranitar_maps.include?($game_map.map_id)
-				next 7 #BRAVIARY FORM
 			elsif $game_map && braviary_maps.include?($game_map.map_id)
-				next 9 #BRAVIARY FORM
+				next 7 #BRAVIARY FORM
+			elsif $game_map && tyranitar_maps.include?($game_map.map_id)
+				next 9 #TYRANITAR FORM
 			elsif $game_map && bouffalant_maps.include?($game_map.map_id)
 				next 10 #BOUFFALANT FORM
 			elsif $game_map && beedrill_maps.include?($game_map.map_id)

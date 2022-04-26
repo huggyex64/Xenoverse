@@ -22279,6 +22279,7 @@ RegionalNumbers=0,8,0
 Kind=Amico
 Pokedex=Rappresenta una vera e propria anomalia tra i Pokémon X. La sua indole, infatti, lo rende amichevole persino con l'uomo.
 FormNames=Pikachu X male, Pikachu X female
+WildItemUncommon=ALTERBALL
 BattlerPlayerY=4
 BattlerEnemyY=17
 [1208]
@@ -23089,6 +23090,29 @@ WildItemCommon=QUICKPOWDER
 WildItemUncommon=METALPOWDER
 BattlerPlayerY=25
 BattlerEnemyY=31
+[1239]
+Name=Aegislash
+InternalName=AEGISLASHX
+Type1=STEEL
+Type2=GHOST
+BaseStats=60,50,150,60,50,150
+GenderRate=Female50Percent
+GrowthRate=Medium
+BaseEXP=234
+EffortPoints=0,0,2,0,1,0
+Rareness=45
+Happiness=70
+Abilities=STANCECHANGE
+Moves=1,FURYCUTTER,1,PURSUIT,1,AUTOTOMIZE,1,SHADOWSNEAK,1,SLASH,1,IRONDEFENSE,1,NIGHTSLASH,1,POWERTRICK,1,IRONHEAD,1,HEADSMASH,1,SWORDSDANCE,1,AERIALACE,1,KINGSSHIELD,1,SACREDSWORD
+Compatibility=Mineral
+StepsToHatch=5120
+Height=17
+Weight=530
+Color=Brown
+Kind=Spadareale
+Pokedex=Si dice che sia in grado di riconoscere chi possiede le qualita' per diventare re e che le persone da lui indicate siano effettivamente destinate al trono.
+BattlerPlayerY=4
+BattlerEnemyY=17
 [1300]
 Name=Weedle
 InternalName=WEEDLEVINTAGE
