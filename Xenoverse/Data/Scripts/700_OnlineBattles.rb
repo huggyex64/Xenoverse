@@ -2430,7 +2430,12 @@ module CableClub
         end
       end
     end
-    
+
+    if Input.trigger?(Input::L)
+      uid = pbEnterText("Target UID",0,50)
+      do_spectate(connection,uid,@ui)
+    end
+
     ##################################################
     ## Standard handling for the remainder
     ##################################################
@@ -2621,7 +2626,7 @@ module CableClub
         @matchmaking = true
         @partner_name = record.str
         @partner_party = parse_party(record)
-        @ui.displayParty(@partner_party)
+        #@ui.displayParty(@partner_party)
         msgwindow.visible = false          
         connection.send do |writer|
           writer.sym(:resetReady)
@@ -3430,7 +3435,7 @@ module CableClub
     $PokemonGlobal.nextBattleBGM = $Trainer.online_battle_bgm
 
     scene = pbNewBattleScene
-    battle = PokeBattle_RecordedCableClub.new(connection, @client_id, scene, partner_party_clone, partner, uids, ui)
+    battle = PokeBattle_CableClub.new(connection, @client_id, scene, partner_party_clone, partner, uids, ui)
     battle.fullparty1 = battle.fullparty2 = true
     battle.endspeech = ""
     battle.items = []
@@ -3477,12 +3482,121 @@ module CableClub
       end
     end
     File.open("RecordedBattle.xvr","wb"){|f|
-      Marshal.dump(battle.pbDumpRecord,f)
+      f.write(battle.pbDumpRecord)#Marshal.dump(battle.pbDumpRecord,f)
     }
     ui.deleteBattleTimer
     $onlinebattle = false
     @state = :enlisted if battle.disconnected
     $Trainer.party = $Trainer.backupParty
+    raise exc if exc
+  end
+
+  def self.do_spectate(connection,target_uid,ui)
+    connection.send do |writer|
+      writer.sym(:getSpectateInfo)
+      writer.int(target_uid)
+    end
+
+    $spectateUID = target_uid
+
+    receivedInfo = false
+    own_name = ""
+    own_type = 0
+    own_party = nil
+
+    opp_name = ""
+    opp_type = 0
+    opp_party = nil
+
+    while (!receivedInfo)
+      Graphics.update
+      Input.update
+      connection.updateExp([:spectateInfo,:disconnect]) do |record|
+        case (type = record.sym)
+        when :spectateInfo
+          own_name = record.str
+          own_type = record.int
+          own_party = parse_party(record)
+          opp_name = record.str
+          opp_type = record.int
+          opp_party = parse_party(record)
+          receivedInfo = true
+        when :disconnect
+          # RIPPE
+        end
+      end
+    end
+
+    $Trainer.backupParty  = $Trainer.party.map {|x| x.clone}
+    bkName = $Trainer.name
+    $Trainer.name = own_name
+    $Trainer.party = own_party
+    $Trainer.party.each do |pike|
+      pike.level = 50
+      pike.calcStats
+    end
+    pbHealAll # Avoids having to transmit damaged state.
+    partner_party_clone = opp_party.map {|y| y.clone}
+    partner_party_clone.each {|pkmn| 
+      pkmn.heal
+      pkmn.level = 50
+      pkmn.calcStats
+    }
+
+    
+    partner = PokeBattle_Trainer.new(opp_name, opp_type)
+    uids = ["",""]
+
+    $PokemonGlobal.nextBattleBack = $Trainer.online_battle_bg
+    $PokemonGlobal.nextBattleBGM = $Trainer.online_battle_bgm
+
+    scene = pbNewBattleScene
+    battle = PokeBattle_SpectateCableClub.new(connection, 0, scene, partner_party_clone, partner, uids, ui)
+    battle.fullparty1 = battle.fullparty2 = true
+    battle.endspeech = ""
+    battle.items = []
+    battle.internalbattle = false
+
+    battle_type = :single
+
+    case battle_type
+    when :single
+      battle.doublebattle = false
+    when :double
+      battle.doublebattle = true
+    else
+      raise "Unknown battle type: #{battle_type}"
+    end
+    trainerbgm = pbGetTrainerBattleBGM(partner)
+    Events.onStartBattle.trigger(nil, nil)
+    pbPrepareBattle(battle)
+    exc = nil
+    $onlinebattle = true
+    ui.createBattleTimer
+    result = 0
+    pbBattleAnimation(trainerbgm, partner.trainertype, partner.name) {
+      pbSceneStandby {
+        # XXX: Hope we call rand in the same order in both clients...
+        begin
+          result = battle.pbStartBattle(true)
+        rescue Connection::Disconnected => e
+          scene.pbEndBattle(0)
+          exc = $!
+        rescue PokeBattle_Battle::BattleAbortedException => ex
+          result = battle.decision
+          echoln "result of the battle is #{result}"
+        ensure
+          $onlinebattle = false
+          $Trainer.party = $Trainer.backupParty
+          $Trainer.name = bkName
+        end
+      }
+    }
+    ui.deleteBattleTimer
+    $onlinebattle = false
+    @state = :enlisted if battle.disconnected
+    $Trainer.party = $Trainer.backupParty
+    $Trainer.name = bkName
     raise exc if exc
   end
 
@@ -4850,13 +4964,31 @@ class PokeBattle_CableClub < PokeBattle_Battle
             when :choice
               their_index = their_indices.shift
               partner_pkmn = @battlers[their_index]
-              @choices[their_index][0] = record.int
-              @choices[their_index][1] = record.int
-              move = record.nil_or(:int)
+
+              rec1 = record.int
+              rec2 = record.int
+              recmove = record.nil_or(:int)
+              rec3 = record.int
+              recmega = record.int
+
+              #case (command = rec1)
+              #when 1
+              #  pbRegisterMove(their_index,rec2,false)
+              #  pbRegisterTarget(their_index,rec3)
+              #when 2
+              #  pbRegisterSwitch(their_index,rec2)
+              #when 3
+              #  pbRegisterItem(their_index,rec2,recmove)
+              #end
+
+
+              @choices[their_index][0] = rec1
+              @choices[their_index][1] = rec2
+              move = recmove
               echoln ">>>>>>>>>>>>>>>>>>>MOVE RECEIVE INFO: #{move}  #{move==nil ? nil : partner_pkmn.moves[move]}  #{move==nil ? nil : move && partner_pkmn.moves[move]}"
               @choices[their_index][2] = move && partner_pkmn.moves[move]
-              @choices[their_index][3] = record.int
-              @megaEvolution[1][0] = record.int # mega fix?
+              @choices[their_index][3] = rec3
+              @megaEvolution[1][0] = recmega # mega fix?
               return if their_indices.empty?
             
             when :partnerDisconnected
@@ -4878,6 +5010,258 @@ class PokeBattle_CableClub < PokeBattle_Battle
 
   def pbDefaultChooseNewEnemy(index, party)
     raise "Expected this to be unused."
+  end
+end
+
+
+
+class PokeBattle_SpectateCableClub < PokeBattle_CableClub
+
+  def initialize(*args)
+    @cmdCount = 0
+    @randomList = []
+    super(*args)
+  end
+
+  def pbAwaitReadiness
+    return false
+  end
+
+  def masterize(position)
+    ret = -1
+    case position
+    when 0
+      ret = 1
+    when 1
+      ret = 0
+    when 2 
+      ret = 3
+    when 3
+      ret = 2
+    end
+    return ret
+  end
+
+  def pbRandom(x)
+    @connection.send do |writer|
+      writer.sym(:spectaterandom) #Request type
+      writer.int($spectateUID) #Max range for random
+      writer.int(@randomCounter) #Random counter
+    end
+    @randomCounter += 1
+    ret = nil
+    while (ret==nil)
+      Graphics.update
+      Input.update
+      raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
+      @connection.updateExp([:srandom,:partnerDisconnected]) do |record|
+        case (type = record.sym)
+        when :srandom
+          ret = record.int
+          
+        when :partnerDisconnected
+          pbSEPlay("Battle flee")
+          pbDisplay(_INTL("{1} disconnected!", opponent.fullname))
+          @decision = 1
+          @disconnected = true
+          pbAbort
+        else
+          print "Unknown message: #{type}"
+        end
+      end
+    end
+    echoln "Called the fucking SPECTATE random! Counter at #{@randomCounter}, Rand is #{ret}"
+    return ret
+  end
+
+  def canPlayTurn?
+    for i in 0...4
+      echoln "Can play turn? #{i} #{@choices[i][0] == 0 && @battlers[i] != nil}"
+      return false if @choices[i][0] == 0 && @battlers[i].pokemon != nil
+    end
+    return true
+  end
+
+  def pbCommandPhase
+    @scene.pbBeginCommandPhase
+		@scene.pbResetCommandIndices
+		for i in 0...4   # Reset choices if commands can be shown
+			if pbCanShowCommands?(i) || @battlers[i].isFainted?
+        echoln "Resetting choice for #{@battlers[i].species} #{i}"
+				@choices[i][0]=0
+				@choices[i][1]=0
+				@choices[i][2]=nil
+				@choices[i][3]=-1
+			else
+				battler=@battlers[i]
+				unless !@doublebattle && pbIsDoubleBattler?(i)
+					PBDebug.log("[Reusing commands for #{battler.pbThis(true)}]")
+				end
+			end
+		end
+		# Reset choices to perform Mega Evolution if it wasn't done somehow
+		for i in 0..1
+			for j in 0...@megaEvolution[i].length
+				@megaEvolution[i][j]=-1 if @megaEvolution[i][j]>=0
+			end
+		end    
+
+    cw = @scene.sprites["messagewindow"]
+    cw.letterbyletter = false
+    our_indices = @doublebattle ? [0, 2] : [0]
+    their_indices = @doublebattle ? [1, 3] : [1]
+
+    frame = 0
+
+    loop do
+      break if canPlayTurn?()
+      Graphics.update
+      Input.update
+      frame +=1
+      if (frame % 30 == 0)
+        @connection.send do |writer|
+          writer.sym(:getCommandAt)
+          writer.int($spectateUID)
+          writer.int(@cmdCount)
+        end
+      end
+
+
+      @scene.pbFrameUpdate(cw)
+      raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
+      @connection.updateExp([:spectateRecord,:forfeit,:random,:seed,:choice,:partnerDisconnected],true,
+        Proc.new {|time, max| @ui.updateTime("#{max - time}")}) do |record|
+        rec = record.sym
+        cmdId = record.int
+        isMaster = record.int == 0 
+        if cmdId == @cmdCount
+          @cmdCount += 1
+          type = record.sym
+          echoln "Received: #{type}"
+          case (type)
+          when :forfeit
+            pbSEPlay("Battle flee")
+            pbDisplay(_INTL("{1} forfeited the match!", @opponent.fullname))
+            @decision = 1
+            pbAbort
+          when :random
+            @randomList << record.int
+          when :choice
+
+            their_index = isMaster ? our_indices.shift : their_indices.shift
+            partner_pkmn = @battlers[their_index]
+
+            rec1 = record.int
+            rec2 = record.int
+            recmove = record.nil_or(:int)
+            rec3 = record.int
+            recmega = record.int
+
+            @choices[their_index][0] = rec1
+            @choices[their_index][1] = rec2
+            move = recmove
+            #echoln ">>>>>>>>>>>>>>>>>>>MOVE RECEIVE INFO: #{move}  #{move==nil ? nil : partner_pkmn.moves[move]}  #{move==nil ? nil : move && partner_pkmn.moves[move]}"
+            @choices[their_index][2] = move && partner_pkmn.moves[move]
+            @choices[their_index][3] = isMaster ? masterize(rec3) : rec3
+            @megaEvolution[1][0] = recmega # mega fix?
+            
+            echoln "RECEIVED CHOICE! #{@choices[their_index]}"
+            return if canPlayTurn?() #isMaster ? our_indices.empty? : their_indices.empty? #their_indices.empty?
+          
+          when :partnerDisconnected
+            pbSEPlay("Battle flee")
+            pbDisplay(_INTL("{1} disconnected!", opponent.fullname))
+            @decision = 1
+            @disconnected = true
+            pbAbort
+          else
+            record.flush
+          end
+        else
+          record.flush
+        end
+      end
+    end
+  end
+
+  def pbSwitchInBetween(index, lax=false, cancancel=false)
+    frame = 0
+
+    cw = @scene.sprites["messagewindow"]
+    cw.letterbyletter = false
+    our_indices = @doublebattle ? [0, 2] : [0]
+    their_indices = @doublebattle ? [1, 3] : [1]
+    loop do
+      break if canPlayTurn?()
+      Graphics.update
+      Input.update
+      frame +=1
+      if (frame % 30 == 0)
+        @connection.send do |writer|
+          writer.sym(:getCommandAt)
+          writer.int($spectateUID)
+          writer.int(@cmdCount)
+        end
+      end
+
+
+      @scene.pbFrameUpdate(cw)
+      raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
+      @connection.updateExp([:spectateRecord,:forfeit,:random,:seed,:choice,:partnerDisconnected],true,
+        Proc.new {|time, max| @ui.updateTime("#{max - time}")}) do |record|
+        rec = record.sym
+        cmdId = record.int
+        isMaster = record.int == 0 
+        if cmdId == @cmdCount
+          @cmdCount += 1
+          type = record.sym
+          echoln "Received: #{type}"
+          case (type)
+          when :forfeit
+            pbSEPlay("Battle flee")
+            pbDisplay(_INTL("{1} forfeited the match!", @opponent.fullname))
+            @decision = 1
+            pbAbort
+          when :random
+            @randomList << record.int
+          when :switch
+            return record.int
+          when :choice
+
+            their_index = isMaster ? our_indices.shift : their_indices.shift
+            partner_pkmn = @battlers[their_index]
+
+            rec1 = record.int
+            rec2 = record.int
+            recmove = record.nil_or(:int)
+            rec3 = record.int
+            recmega = record.int
+
+            @choices[their_index][0] = rec1
+            @choices[their_index][1] = rec2
+            move = recmove
+            #echoln ">>>>>>>>>>>>>>>>>>>MOVE RECEIVE INFO: #{move}  #{move==nil ? nil : partner_pkmn.moves[move]}  #{move==nil ? nil : move && partner_pkmn.moves[move]}"
+            @choices[their_index][2] = move && partner_pkmn.moves[move]
+            @choices[their_index][3] = isMaster ? masterize(rec3) : rec3
+            @megaEvolution[1][0] = recmega # mega fix?
+            
+            echoln "RECEIVED CHOICE! #{@choices[their_index]}"
+            return if canPlayTurn?() #isMaster ? our_indices.empty? : their_indices.empty? #their_indices.empty?
+          
+          when :partnerDisconnected
+            pbSEPlay("Battle flee")
+            pbDisplay(_INTL("{1} disconnected!", opponent.fullname))
+            @decision = 1
+            @disconnected = true
+            pbAbort
+          else
+            record.flush
+          end
+        else
+          record.flush
+        end
+      end
+    end
   end
 end
 
@@ -5128,6 +5512,8 @@ class RecordParser
   end
 
   def to_s; @fields.reverse.join(", ") end
+
+  def flush;while(@fields.length > 0);@fields.pop;end;end
 end
 
 class RecordWriter

@@ -172,6 +172,8 @@ module PokeBattle_BattlePlayerModule
     @battletype=battle[0]
     @properties=battle[1]
     @rounds=battle[2]
+    echoln "ROUNDS INFO"
+    echoln @rounds
     @randomnums=battle[3]
     @switches=battle[4]
     @roundindex=-1
@@ -219,7 +221,7 @@ module PokeBattle_BattlePlayerModule
     pbDisplay(str)
   end
 
-  def pbCommandPhaseCore
+  def pbCommandPhase#Core
     @roundindex+=1
     for i in 0...4
       next if @rounds[@roundindex][i].length==0

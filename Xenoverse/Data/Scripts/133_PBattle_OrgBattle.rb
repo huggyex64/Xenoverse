@@ -677,7 +677,7 @@ def pbDebugPlayBattle
   params.setCancelValue(-1)
   num=Kernel.pbMessageChooseNumber(_INTL("Choose a battle."),params)
   if num>=0
-    pbPlayBattleFromFile(sprintf("Battles/Battle%03d.dat",num))
+    pbPlayMarshalBattle(sprintf("Battles/Battle%03d.dat",num))
   end
 end
 
@@ -689,6 +689,12 @@ def pbPlayBattleFromFile(filename)
   pbRgssOpen(filename,"rb"){|f|
      pbPlayBattle(f.read)
   }
+end
+
+def pbPlayMarshalBattle(filename)
+  pbRgssOpen(filename,"rb"){|f|
+    pbPlayBattle(Marshal.load(f.read))
+ }
 end
 
 
