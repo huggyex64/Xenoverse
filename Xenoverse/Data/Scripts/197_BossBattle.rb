@@ -195,6 +195,8 @@ def pbTransformToX(pokemon)
   p.species = getConst(PBSpecies,newSp)
   p.calcStats
 
+  p.resetMoves
+
   $Trainer.seen[p.species]=true
   $Trainer.owned[p.species]=true
   pbSeenForm(p)
@@ -1952,7 +1954,7 @@ end
 
 def pbTapuFiniBossBattle
   $furiousBattle = true
-  
+
   $game_switches[85] = true
   $mods.set(5, nil, nil)
   $wildSpecies = PBSpecies::TAPUFINIX

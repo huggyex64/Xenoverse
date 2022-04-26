@@ -1,6 +1,18 @@
 Created by:
 Fabrizio Laborano (Starkey)
 
+Currently Developed by:
+- Beehive Studios -
+Fabrizio Laborano (Starkey)
+Paolo Lella (xZekro51)
+Daniele Procopio (Denilve)
+Gianmarco Bizzotto
+Giovanni Santolla (Ikisudama)
+Lorenzo Varriano
+Luca Todesca (Huggye)
+Matteo Pacchetti
+Tiziano Bellu
+
 Eventer:
 Fabrizio Laborano (Starkey)
 Pietro Fanti (Sasso)
@@ -59,6 +71,11 @@ Gianluca Barbera (Barbie)
 Massimiliano Bruni (Makly)
 Matteo Facchinelli (Fachinhell)
 Michele Schirinzi (Mike)
+Beehive Studios
+Daniele Procopio (Denilve)
+Fabrizio Laborano (Starkey)
+Gianmarco Bizzotto
+Matteo Pacchetti
 
 Concept Art:
 Gianluca Barbera (Barbie)
@@ -68,6 +85,8 @@ Michele Schirinzi (Mike)
 Francesco Badalini (Badafra)
 Giancarlo Sotelo (Daku)
 Lorenzo Allievi (Mr.Sketchees)
+Beehive Studios
+Daniele Procopio (Denilve)
 
 
 Battlebacks:
@@ -75,10 +94,14 @@ Francesco Badalini (Badafra)
 Gianluca Barbera (Barbie)
 Massimiliano Bruni (Makly)
 Lorenzo Allievi (Mr.Sketchees)
+Beehive Studios
+Gianmarco Bizzotto
 
 Item Art:
 Giancarlo Sotelo (Daku)
 Gianluca Barbera (Barbie)
+Beehive Studios
+Matteo Pacchetti
 
 Tileset:
 Fabrizio Laborano (Starkey)
@@ -94,6 +117,8 @@ Fabrizio Laborano (Starkey)
 Matteo Facchinelli (Fachinhell)
 Michele Schirinzi (Mike)
 Nicola Rana (Numb)
+Beehive Studios
+Daniele Procopio (Denilve)
 
 Animation:
 Fabrizio Laborano (Starkey)
@@ -113,7 +138,11 @@ Smogon Sprite Project
 UI Design:
 Gianluca Barbera (Barbie)
 Michele Schirinzi (Mike)
+Beehive Studios
 Paolo Lella (xZekro51)
+Gianmarco Bizzotto
+Matteo Pacchetti
+
 
 Lighting:
 Fabrizio Laborano (Starkey)
