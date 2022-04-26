@@ -916,6 +916,10 @@ class PokeBattle_Move
 			isConst?(attacker.species,PBSpecies,:PIKACHU)
 			atkmult=(atkmult*2.0).round
 		end
+		if attacker.hasWorkingItem(:ALTERBALL) &&
+			isConst?(attacker.species,PBSpecies,:PIKACHUX)
+			atkmult=(atkmult*2.0).round
+		end
 		if attacker.hasWorkingItem(:SOULDEW) &&
 			(isConst?(attacker.species,PBSpecies,:LATIAS) ||
 				isConst?(attacker.species,PBSpecies,:LATIOS)) && pbIsSpecial?(type) &&

@@ -3476,6 +3476,8 @@ module CableClub
         writer.int(result)
       end
     end
+    pbPlayBattle(battle.pbDumpRecord)
+
     ui.deleteBattleTimer
     $onlinebattle = false
     @state = :enlisted if battle.disconnected
@@ -3861,6 +3863,9 @@ class PokeBattle_Battle
 end
 
 class PokeBattle_CableClub < PokeBattle_Battle
+  
+  include PokeBattle_RecordedBattleModule
+
   attr_reader :connection
   def initialize(connection, client_id, scene, opponent_party, opponent, uids, ui)
     @connection = connection
