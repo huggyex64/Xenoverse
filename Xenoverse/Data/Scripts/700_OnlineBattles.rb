@@ -3476,8 +3476,9 @@ module CableClub
         writer.int(result)
       end
     end
-    pbPlayBattle(battle.pbDumpRecord)
-
+    File.open("RecordedBattle.xvr","wb"){|f|
+      Marshal.dump(battle.pbDumpRecord,f)
+    }
     ui.deleteBattleTimer
     $onlinebattle = false
     @state = :enlisted if battle.disconnected
@@ -4882,6 +4883,10 @@ end
 
 class PokeBattle_RecordedCableClub < PokeBattle_CableClub
   include PokeBattle_RecordedBattleModule
+end
+
+class PokeBattle_BattlePlayerOnline < PokeBattle_CableClub
+  include PokeBattle_BattlePlayerModule
 end
 
 class PokeBattle_Battler
