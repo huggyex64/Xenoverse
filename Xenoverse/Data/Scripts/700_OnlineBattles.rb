@@ -4746,6 +4746,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       @ui.updateTime("Time: #{(@timerMax-@timer)/60}")
 			break if @decision!=0
       echoln "Battler #{i}:#{pbOwnedByPlayer?(i)}:#{PBSpecies.getName(@battlers[i].species)}:#{@choices[i][0]}"
+=begin
       if i == their_indices.last && @choices[i][0]!=0
         target_order = CableClub::pokemon_target_order(@client_id)
         for our_index in our_indices
@@ -4780,7 +4781,8 @@ class PokeBattle_CableClub < PokeBattle_Battle
           end
         end
       end
-			next if @choices[i][0]!=0
+=end
+			next if @choices[i][0]!=0 && pbOwnedByPlayer?(i)
       echoln "Evaluating action for #{PBSpecies.getName(@battlers[i].species)}"
 			if !pbOwnedByPlayer?(i) || @controlPlayer
 				#if !@battlers[i].isFainted? && pbCanShowCommands?(i)
