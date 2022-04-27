@@ -5102,7 +5102,8 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
           
         when :partnerDisconnected
           pbSEPlay("Battle flee")
-          pbDisplay(_INTL("{1} disconnected!", opponent.fullname))
+          isMaster = record.int == 0 
+          pbDisplay(_INTL("{1} disconnected!", isMaster ? $Trainer.name : opponent.fullname))
           @decision = 1
           @disconnected = true
           pbAbort
@@ -5212,7 +5213,7 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
           
           when :partnerDisconnected
             pbSEPlay("Battle flee")
-            pbDisplay(_INTL("{1} disconnected!", opponent.fullname))
+            pbDisplay(_INTL("{1} disconnected!", isMaster ? $Trainer.name : opponent.fullname))
             @decision = isMaster ? 2 : 1 
             @disconnected = true
             pbAbort
@@ -5292,7 +5293,7 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
           
           when :partnerDisconnected
             pbSEPlay("Battle flee")
-            pbDisplay(_INTL("{1} disconnected!", opponent.fullname))
+            pbDisplay(_INTL("{1} disconnected!", isMaster ? $Trainer.name : opponent.fullname))
             @decision = isMaster ? 2 : 1 
             @disconnected = true
             pbAbort
