@@ -3476,8 +3476,10 @@ module CableClub
           result = 2 if result == 3
           mg = Kernel.pbCreateMessageWindow
           mg.z = 999999
-          Kernel.pbDisplayMessage(mg,_INTL("You won!")) if result == 1
-          Kernel.pbDisplayMessage(mg,_INTL("You lost!")) if result == 2
+          Kernel.pbMessageDisplay(mg,_INTL("You won!")) if result == 1
+          Kernel.pbMessageDisplay(mg,_INTL("You lost!")) if result == 2
+          Kernel.pbDisposeMessageWindow(mg)
+
         end
       }
     }
@@ -3513,6 +3515,8 @@ module CableClub
     opp_name = ""
     opp_type = 0
     opp_party = nil
+
+    battle_type = nil
 
     while (!receivedInfo)
       Graphics.update
