@@ -94,3 +94,9 @@ Parameter name: s
 [26/04/2022 21:16:16] Connessione in corso interrotta forzatamente dall'host remoto
 [26/04/2022 21:16:16]    in System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
    in ‎‎‮‏⁯‭⁭⁪‭⁪‏‫⁮‭⁭⁬‪⁮‍‌‬‮‮⁬⁯‮‫​‪‍‍‏‬‮⁮‏‍⁪‮‍‮.‌‮⁯‪‫‭‏​‍‌⁯⁫‮‌⁪⁮⁪‭⁮​‮⁭⁬‮‪‮⁫‮‏⁮⁪⁭⁭‍‪‭‫⁯‎‭‮.‎⁮⁪‏‫‬‎⁫‍‍‬​⁯⁭‌‏​⁬⁮‎‫‌‪⁭‌⁫‍‫⁭‪‬⁪‮⁬⁫‌‎‬‪‫‮()
+[27/04/2022 19:17:13] Operazione di blocco interrotta da una chiamata a WSACancelBlockingCall
+[27/04/2022 19:17:13]    in System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   in ‎‎‮‏⁯‭⁭⁪‭⁪‏‫⁮‭⁭⁬‪⁮‍‌‬‮‮⁬⁯‮‫​‪‍‍‏‬‮⁮‏‍⁪‮‍‮.‌‮⁯‪‫‭‏​‍‌⁯⁫‮‌⁪⁮⁪‭⁮​‮⁭⁬‮‪‮⁫‮‏⁮⁪⁭⁭‍‪‭‫⁯‎‭‮.‎⁮⁪‏‫‬‎⁫‍‍‬​⁯⁭‌‏​⁬⁮‎‫‌‪⁭‌⁫‍‫⁭‪‬⁪‮⁬⁫‌‎‬‪‫‮()
+[27/04/2022 19:18:04] Operazione di blocco interrotta da una chiamata a WSACancelBlockingCall
+[27/04/2022 19:18:04]    in System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   in ‎‎‮‏⁯‭⁭⁪‭⁪‏‫⁮‭⁭⁬‪⁮‍‌‬‮‮⁬⁯‮‫​‪‍‍‏‬‮⁮‏‍⁪‮‍‮.‌‮⁯‪‫‭‏​‍‌⁯⁫‮‌⁪⁮⁪‭⁮​‮⁭⁬‮‪‮⁫‮‏⁮⁪⁭⁭‍‪‭‫⁯‎‭‮.‎⁮⁪‏‫‬‎⁫‍‍‬​⁯⁭‌‏​⁬⁮‎‫‌‪⁭‌⁫‍‫⁭‪‬⁪‮⁬⁫‌‎‬‪‫‮()

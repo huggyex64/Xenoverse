@@ -4959,6 +4959,11 @@ class PokeBattle_CableClub < PokeBattle_Battle
           @scene.pbFrameUpdate(cw)
           Graphics.update
           Input.update
+          if (frame % 60*20 == 0)
+            @connection.send do |writer|
+              writer.sym(:ping)
+            end
+          end
           raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
           @connection.updateExp([:forfeit,:sneed,:seed,:choice,:partnerDisconnected],true,
             Proc.new {|time, max| @ui.updateTime("#{max - time}")}) do |record|
@@ -5100,9 +5105,9 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
     return ret
   end
 
-  def canPlayTurn?
+  def canPlayTurn?(log=false)
     for i in 0...4
-      echoln "Can play turn? #{i} #{@choices[i][0] == 0 && @battlers[i] != nil}"
+      echoln "Can play turn? #{i} #{@choices[i][0] == 0 && @battlers[i] != nil}" if log
       return false if @choices[i][0] == 0 && @battlers[i].pokemon != nil
     end
     return true
@@ -5140,10 +5145,10 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
     frame = 0
 
     loop do
-      break if canPlayTurn?()
+      break if canPlayTurn?(false)
       Graphics.update
       Input.update
-      frame +=1
+      frame += 1
       if (frame % 10 == 0)
         @connection.send do |writer|
           writer.sym(:getCommandAt)
@@ -5192,12 +5197,12 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
             @megaEvolution[1][0] = recmega # mega fix?
             
             echoln "RECEIVED CHOICE! #{@choices[their_index]}"
-            return if canPlayTurn?() #isMaster ? our_indices.empty? : their_indices.empty? #their_indices.empty?
+            return if canPlayTurn?(true) #isMaster ? our_indices.empty? : their_indices.empty? #their_indices.empty?
           
           when :partnerDisconnected
             pbSEPlay("Battle flee")
             pbDisplay(_INTL("{1} disconnected!", opponent.fullname))
-            @decision = 1
+            @decision = isMaster ? 2 : 1 
             @disconnected = true
             pbAbort
           else
@@ -5218,6 +5223,7 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
     our_indices = @doublebattle ? [0, 2] : [0]
     their_indices = @doublebattle ? [1, 3] : [1]
     loop do
+      break if @decision != 0
       break if canPlayTurn?()
       Graphics.update
       Input.update
@@ -5277,7 +5283,7 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
           when :partnerDisconnected
             pbSEPlay("Battle flee")
             pbDisplay(_INTL("{1} disconnected!", opponent.fullname))
-            @decision = 1
+            @decision = isMaster ? 2 : 1 
             @disconnected = true
             pbAbort
           else
