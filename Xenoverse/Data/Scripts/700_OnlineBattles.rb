@@ -4214,7 +4214,6 @@ class PokeBattle_CableClub < PokeBattle_Battle
     while(awaiting && !gotready)
       Graphics.update
       Input.update
-      frame+=1.0
       cw.text = _INTL("Waiting for the other player" + "." * (1 + ((frame / 8) % 3)))
       pbCheckForCE(@connection)
       @connection.updateExp([:checkProceed,:proceeding,:true,:false,:partnerDisconnected]) do |record|
@@ -4255,6 +4254,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
         sent += 1
         echoln "AWAITING READINESS #{sent}"
       end
+      frame+=1.0
     end
     @connection.send do |writer|
       writer.sym(:fwd)
