@@ -5074,21 +5074,31 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
   end
 
   def pbRandom(x)
-    @connection.send do |writer|
-      writer.sym(:spectaterandom) #Request type
-      writer.int($spectateUID) #Max range for random
-      writer.int(@randomCounter) #Random counter
-    end
-    @randomCounter += 1
+    
+    cw = @scene.sprites["messagewindow"]
+    cw.letterbyletter = false
+    frame = 0
     ret = nil
     while (ret==nil)
       Graphics.update
       Input.update
+      frame +=1
+      @scene.pbFrameUpdate(cw)
+      if frame % 60 == 0
+        if @connection.can_send?
+          @connection.send do |writer|
+            writer.sym(:spectaterandom) #Request type
+            writer.int($spectateUID) #Max range for random
+            writer.int(@randomCounter) #Random counter
+            writer.int(@cmdCount)
+          end
+        end
+      end
       raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
       @connection.updateExp([:srandom,:partnerDisconnected]) do |record|
         case (type = record.sym)
         when :srandom
-          ret = record.int
+          ret = record.nil_or(:int)
           
         when :partnerDisconnected
           pbSEPlay("Battle flee")
@@ -5101,6 +5111,7 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
         end
       end
     end
+    @randomCounter += 1
     echoln "Called the fucking SPECTATE random! Counter at #{@randomCounter}, Rand is #{ret}"
     return ret
   end
