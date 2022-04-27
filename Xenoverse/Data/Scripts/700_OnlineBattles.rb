@@ -5238,7 +5238,6 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
     their_indices = @doublebattle ? [1, 3] : [1]
     loop do
       break if @decision != 0
-      break if canPlayTurn?()
       Graphics.update
       Input.update
       if (frame % 10 == 0)
@@ -5271,28 +5270,6 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
             @randomList << record.int
           when :switch
             return record.int
-          when :choice
-
-            their_index = isMaster ? our_indices.shift : their_indices.shift
-            partner_pkmn = @battlers[their_index]
-
-            rec1 = record.int
-            rec2 = record.int
-            recmove = record.nil_or(:int)
-            rec3 = record.int
-            recmega = record.int
-
-            @choices[their_index][0] = rec1
-            @choices[their_index][1] = rec2
-            move = recmove
-            #echoln ">>>>>>>>>>>>>>>>>>>MOVE RECEIVE INFO: #{move}  #{move==nil ? nil : partner_pkmn.moves[move]}  #{move==nil ? nil : move && partner_pkmn.moves[move]}"
-            @choices[their_index][2] = move && partner_pkmn.moves[move]
-            @choices[their_index][3] = isMaster ? masterize(rec3) : rec3
-            @megaEvolution[1][0] = recmega # mega fix?
-            
-            echoln "RECEIVED CHOICE! #{@choices[their_index]}"
-            return if canPlayTurn?() #isMaster ? our_indices.empty? : their_indices.empty? #their_indices.empty?
-          
           when :partnerDisconnected
             pbSEPlay("Battle flee")
             pbDisplay(_INTL("{1} disconnected!", isMaster ? $Trainer.name : opponent.fullname))
