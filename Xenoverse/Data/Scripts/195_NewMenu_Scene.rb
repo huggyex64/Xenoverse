@@ -288,6 +288,8 @@ class NewMenu
 			save.function = lambda {
 				if $ISINTOURNAMENT
 					Kernel.pbMessage(_INTL("Non puoi mentre c'è un torneo in corso."))
+				elsif $game_switches[2000] == true
+					Kernel.pbMessage(_INTL("Non puoi salvare adesso."))
 				else
 					scene=PokemonSaveScene.new
 					screen=PokemonSave.new(scene)
