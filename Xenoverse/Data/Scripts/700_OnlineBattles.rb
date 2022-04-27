@@ -5082,7 +5082,6 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
     while (ret==nil)
       Graphics.update
       Input.update
-      frame +=1
       @scene.pbFrameUpdate(cw)
       if frame % 60 == 0
         if @connection.can_send?
@@ -5094,6 +5093,7 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
           end
         end
       end
+      frame +=1
       raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
       @connection.updateExp([:srandom,:partnerDisconnected]) do |record|
         case (type = record.sym)
@@ -5159,7 +5159,6 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
       break if canPlayTurn?(false)
       Graphics.update
       Input.update
-      frame += 1
       if (frame % 10 == 0)
         @connection.send do |writer|
           writer.sym(:getCommandAt)
@@ -5167,6 +5166,7 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
           writer.int(@cmdCount)
         end
       end
+      frame += 1
 
 
       @scene.pbFrameUpdate(cw)
@@ -5238,15 +5238,14 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
       break if canPlayTurn?()
       Graphics.update
       Input.update
-      frame +=1
       if (frame % 10 == 0)
         @connection.send do |writer|
           writer.sym(:getCommandAt)
           writer.int($spectateUID)
           writer.int(@cmdCount)
         end
-      end
-
+      end      
+      frame +=1
 
       @scene.pbFrameUpdate(cw)
       raise Connection::Disconnected.new("disconnected") if Input.trigger?(Input::B) && Kernel.pbConfirmMessageSerious("Would you like to disconnect?")
