@@ -674,7 +674,7 @@ class PokeBattle_Battler
 		@fainted=true
 		# reset choice
 		@battle.choices[@index]=[0,0,nil,-1]
-		if (!@battle.is_a?(PokeBattle_CableClub))
+		if (!@battle.is_a?(PokeBattle_CableClub) && !@battle.is_a?(PokeBattle_SpectateCableClub))
 			@battle.pbDisplayPaused(_INTL("{1} è esausto!",pbThis)) if showMessage
 		else
 			@battle.pbDisplayBrief(_INTL("{1} è esausto!",pbThis)) if showMessage

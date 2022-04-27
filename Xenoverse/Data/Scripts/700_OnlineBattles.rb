@@ -5023,6 +5023,18 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
     super(*args)
   end
 
+  
+  def pbDisplayPaused(message)
+    pbDisplayBrief(message)
+    pbBattleWait(40) {
+      yield if block_given?
+    }
+  end
+  def pbDisplayBrief(msg)
+		@scene.pbDisplayMessage(msg,true)
+    pbBattleWait(40)
+	end
+
   def pbAwaitReadiness
     return false
   end
@@ -5118,7 +5130,7 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
       Graphics.update
       Input.update
       frame +=1
-      if (frame % 30 == 0)
+      if (frame % 10 == 0)
         @connection.send do |writer|
           writer.sym(:getCommandAt)
           writer.int($spectateUID)
@@ -5196,7 +5208,7 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
       Graphics.update
       Input.update
       frame +=1
-      if (frame % 30 == 0)
+      if (frame % 10 == 0)
         @connection.send do |writer|
           writer.sym(:getCommandAt)
           writer.int($spectateUID)

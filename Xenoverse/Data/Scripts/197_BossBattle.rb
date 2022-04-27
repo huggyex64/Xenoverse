@@ -365,7 +365,7 @@ class PokeBattle_Battle
         pbDisplayBrief(_INTL("{1} sent\r out {2}! {3} sent\r out {4}!",@opponent[0].fullname,getBattlerPokemon(@battlers[1]).name,@opponent[1].fullname,getBattlerPokemon(@battlers[3]).name))
         pbSendOutInitial(@doublebattle,1,@party2[sendout1],3,@party2[sendout2])
       else
-        if (!self.is_a?(PokeBattle_CableClub))
+        if (!self.is_a?(PokeBattle_CableClub) && !self.is_a?(PokeBattle_SpectateCableClub))
           pbDisplayPaused(_INTL("{1}\r\nvuole combattere!",@opponent.fullname))
         else
           pbDisplayBrief(_INTL("{1}\r\nvuole combattere!",@opponent.fullname))
