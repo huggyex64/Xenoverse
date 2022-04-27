@@ -943,7 +943,14 @@ BATTLE_POINT_PRICES = {
   PBItems::BELLOSSOMITE => 50,
   PBItems::SHIFTRYITE => 50,
   PBItems::MAWILITE =>50,
-  PBItems::ABSOLITE =>50
+  PBItems::ABSOLITE =>50,
+
+  PBItems::ALAKAZITE => 50,
+  PBItems::HERACRONITE => 50,
+  PBItems::TYRANITARITE => 50,
+  PBItems::BLAZIKENITE => 50,
+  PBItems::SWAMPERTITE => 50,
+  PBItems::GARCHOMPITE => 50,
 }
 #Tutors:
 #Tutor 1: :DRAGONENDURANCE,:VELVETSCALES,:ACIDRAIN,:TAILWIND,:OUTRAGE,:AIRCUTTER,:HURRICANE
@@ -1287,14 +1294,22 @@ VIPLIST =[
   [PBTrainers::LANCETOURNAMENT,"Lance"],
   [PBTrainers::ERIKATOURNAMENT,"Erika"],
   [PBTrainers::DANTETOURNAMENT,"Dante"],
-  [PBTrainers::LEOTOURNAMENT,"Leo"]
+  [PBTrainers::LEOTOURNAMENT,"Leo"],
+  [PBTrainers::STELLATOURNAMENT,"Stella"],
+  [PBTrainers::SOTISTOURNAMENT,"Sotis"],
+  [PBTrainers::GRETATOURNAMENT,"Greta"],
+  [PBTrainers::IRIDIOTOURNAMENT,"Iridio"]
 ]
 
 VIPCUPSWITCH = {
   [PBTrainers::LANCETOURNAMENT,"Lance"] => 1182,
   [PBTrainers::ERIKATOURNAMENT,"Erika"] => 1181,
   [PBTrainers::DANTETOURNAMENT,"Dante"] => 1183,
-  [PBTrainers::LEOTOURNAMENT,"Leo"] => 1184
+  [PBTrainers::LEOTOURNAMENT,"Leo"] => 1184,
+  [PBTrainers::STELLATOURNAMENT,"Stella"] => 1800,
+  [PBTrainers::SOTISTOURNAMENT,"Sotis"] => 1801,
+  [PBTrainers::GRETATOURNAMENT,_INTL("Greta")] => 1802,
+  [PBTrainers::IRIDIOTOURNAMENT,_INTL("Iridio")] => 1803
 }
 
 VIPSPEECH={
@@ -1322,6 +1337,31 @@ VIPSPEECH={
     :speech => "Voglio mettermi alla prova! Sembri anche tu un |'ottimo|a concorrente, quindi facciamoci valere! Che vinca il migliore!",
     :description => ["Porta sulle spalle l'eredità di un nome importante, ma il suo sogno è far capire quanto vale!","Proprio come la madre Chiara, è anche lui un maestro del tipo Normale!","Il fiero e valoroso, Leo!"]
   },
+  [PBTrainers::STELLATOURNAMENT,"Stella"] => {
+    :mugshot => "apollo/erika",
+    :name => "Stella",
+    :speech => "Sentivo che Unima mi stava stretta, quindi sono partita per un viaggio! Mostrami ciò che sai fare!",
+    :description => ["Tanto bella quanto elettrizzante! La crème de la crème dello stile!","Ha seguito i passi di sua madre Camelia, ma è anche andata molto oltre... Fino a diventare una Superquattro di Unima!","La rapida e brillante, Stella!"]
+  },
+  [PBTrainers::SOTISTOURNAMENT,"Sotis"] => {
+    :mugshot => "apollo/dante",
+    :name => "Sotis",
+    :speech => "Sono in viaggio per prepararmi allo scontro finale con la mia nemesi, Masquerman... Aiutami a migliorare!",
+    :description => ["Alcuni lo prendono per matto, ma le sue doti attoriali non scherzano!","Sogna di portare il sorriso sui volti delle persone come un Supereroe, per questo si fa chiamare Clawman!","Il possente e tenace, Sotis!"]
+  },
+  [PBTrainers::GRETATOURNAMENT,"Greta"] => {
+    :mugshot => "apollo/erika",
+    :name => _INTL("Greta"),
+    :speech => "Sento che le arti marziali mi possano aiutare a recuperare la memoria... Forse combattendo contro di te scoprirò qualcosa?",
+    :description => ["Un giorno si è risvegliata senza sapere chi fosse...","Ha deciso di intraprendere la via delle arti marziali per affinare la sua tecnica!","La misteriosa e calma, Greta!"]
+  },
+  [PBTrainers::IRIDIOTOURNAMENT,"Iridio"] => {
+    :mugshot => "apollo/leo",
+    :name => _INTL("Iridio"),
+    :speech => "Sono venuto in questa regione per affari, ma ogni tanto è bello rievocare i vecchi tempi! Sappi che sono molto forte, diamoci dentro!",
+    :description => ["Dopo ciò che è accaduto a sua madre, ha preso le redini dell'Aether Paradise facendolo fiorire!","Il peso delle responsabilità lo ha reso un uomo imperturbabile!","L'abilissimo Iridio!"]
+  },
+
 }
 
 MUSTINCLUDE = {
@@ -1337,6 +1377,10 @@ SKILL_LEVELS={
   PBTrainers::DANTETOURNAMENT=>127,
   PBTrainers::ERIKATOURNAMENT=>127,
   PBTrainers::LEOTOURNAMENT=>127,
+  PBTrainers::STELLATOURNAMENT=>127,
+  PBTrainers::SOTISTOURNAMENT=>127,
+  PBTrainers::GRETATOURNAMENT=>127,
+  PBTrainers::IRIDIOTOURNAMENT=>127,
 
   #SPECIAL
   PBTrainers::WILLTOURNAMENT=>127,
@@ -1345,6 +1389,8 @@ SKILL_LEVELS={
   PBTrainers::TEAMDIMENSIONF=>127,
   PBTrainers::MINTOURNAMENT=>127,
   PBTrainers::GENNARO=>127,
+
+
 
 
   #NORMAL

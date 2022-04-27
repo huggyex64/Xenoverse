@@ -3481,9 +3481,9 @@ module CableClub
         writer.int(result)
       end
     end
-    File.open("RecordedBattle.xvr","wb"){|f|
-      f.write(battle.pbDumpRecord)#Marshal.dump(battle.pbDumpRecord,f)
-    }
+    #File.open("RecordedBattle.xvr","wb"){|f|
+    #  f.write(battle.pbDumpRecord)#Marshal.dump(battle.pbDumpRecord,f)
+    #}
     ui.deleteBattleTimer
     $onlinebattle = false
     @state = :enlisted if battle.disconnected

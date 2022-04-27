@@ -250,3 +250,12 @@
 253,GENNAROTOURNAMENT,(Bullo),100,Gennaro bullo ost,Trainer Victory,,Male,
 254,DOUBLEALICE,(Allenatrici),30,,Trainer Victory,,Female,100
 255,DOUBLEKAY,(Allenatori),30,,Trainer Victory,,Male,100
+256,STELLATOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Female,127
+257,SOTISTOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Male,127
+258,GRETATOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Female,127
+259,IRIDIOTOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Male,127
+260,MUNTOURNAMENT,(Birbante),,,,,Male,127
+261,SILVIATOURNAMENT,(S.P.E.T.T.R.I),,,,,Male,127
+262,SIGMATOURNAMENT,(Sergente Dimension),,VS-AB,Team Dimension Victory,,Mixed,127
+263,CRISANTETOURNAMENT,(Capopalestra),,,,,Male,127
+264,TREYTOURNAMENT,(Rivale),,,,,Male,127
