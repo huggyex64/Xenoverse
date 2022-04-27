@@ -3010,7 +3010,7 @@ module CableClub
         writer.str(@partner_uid)
         writer.sym(:party)
         writer.int($Trainer.online_trainer_type)
-        writer.int(@battle_type)
+        writer.sym(@battle_type)
         write_custom_party(@battleTeam,writer)
       end
 
@@ -3023,7 +3023,7 @@ module CableClub
         trainertype = record.int
         partner = PokeBattle_Trainer.new(@partner_name, trainertype)
         (partner.partyID=0) rescue nil # EBDX compat
-        tp = record.int
+        tp = record.sym
         opp_party = parse_party(record)
         @ui.hideParty
         do_battle(connection, @client_id, @seed, @battle_type, partner, opp_party,@battleTeam,[@uid,@partner_uid],@ui)
