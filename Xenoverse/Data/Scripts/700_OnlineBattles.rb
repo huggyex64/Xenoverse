@@ -2433,7 +2433,8 @@ module CableClub
 
     if Input.trigger?(Input::L)
       uid = pbEnterText("Target UID",0,50)
-      do_spectate(connection,uid,@ui)
+      
+      do_spectate(connection,uid,@ui) if uid != ""
     end
 
     ##################################################
@@ -3009,6 +3010,7 @@ module CableClub
         writer.str(@partner_uid)
         writer.sym(:party)
         writer.int($Trainer.online_trainer_type)
+        writer.int(@battle_type)
         write_custom_party(@battleTeam,writer)
       end
 
@@ -3469,13 +3471,16 @@ module CableClub
         ensure
           $onlinebattle = false
           $Trainer.party = $Trainer.backupParty
+          
+          result = 2 if result == 3
+          mg = Kernel.pbCreateMessageWindow
+          mg.z = 999999
+          Kernel.pbDisplayMessage(mg,_INTL("You won!")) if result == 1
+          Kernel.pbDisplayMessage(mg,_INTL("You lost!")) if result == 2
         end
       }
     }
     if result != 0
-      result = 2 if result == 3
-      print "YOU WIN!" if result == 1
-      print "YOU LOSE!" if result == 2
       connection.send do |writer|
         writer.sym(:battleResult)
         writer.int(result)
@@ -3514,6 +3519,7 @@ module CableClub
       connection.updateExp([:spectateInfo,:disconnect]) do |record|
         case (type = record.sym)
         when :spectateInfo
+          battle_type = record.sym
           own_name = record.str
           own_type = record.int
           own_party = parse_party(record)
@@ -3556,8 +3562,6 @@ module CableClub
     battle.endspeech = ""
     battle.items = []
     battle.internalbattle = false
-
-    battle_type = :single
 
     case battle_type
     when :single
@@ -3980,6 +3984,11 @@ end
 class PokeBattle_CableClub < PokeBattle_Battle
   
   #include PokeBattle_RecordedBattleModule
+
+  def pbAbort
+    yield if block_given?
+    super
+  end
 
   attr_reader :connection
   def initialize(connection, client_id, scene, opponent_party, opponent, uids, ui)
