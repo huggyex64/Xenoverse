@@ -552,27 +552,28 @@ class PokeBattle_Battle
           score+=1000000
         end
       else
-      if attacker.pbTooHigh?(PBStats::ATTACK) &&
-         attacker.pbTooHigh?(PBStats::SPATK)
-        score-=90
-      else
-        score-=attacker.stages[PBStats::ATTACK]*10
-        score-=attacker.stages[PBStats::SPATK]*10
-        if skill>=PBTrainerAI.mediumSkill
-          hasdamagingattack=false
-          for thismove in attacker.moves
-            if thismove.id!=0 && thismove.basedamage>0
-              hasdamagingattack=true; break
+        if attacker.pbTooHigh?(PBStats::ATTACK) &&
+          attacker.pbTooHigh?(PBStats::SPATK)
+          score-=90
+        else
+          score-=attacker.stages[PBStats::ATTACK]*10
+          score-=attacker.stages[PBStats::SPATK]*10
+          if skill>=PBTrainerAI.mediumSkill
+            hasdamagingattack=false
+            for thismove in attacker.moves
+              if thismove.id!=0 && thismove.basedamage>0
+                hasdamagingattack=true; break
+              end
+            end
+            if hasdamagingattack
+              score+=20
+            elsif skill>=PBTrainerAI.highSkill
+              score-=90
             end
           end
-          if hasdamagingattack
-            score+=20
-          elsif skill>=PBTrainerAI.highSkill
-            score-=90
+          if move.function==0x28 # Growth
+            score+=20 if pbWeather==PBWeather::SUNNYDAY
           end
-        end
-        if move.function==0x28 # Growth
-          score+=20 if pbWeather==PBWeather::SUNNYDAY
         end
       end
     when 0x29
