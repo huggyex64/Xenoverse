@@ -400,11 +400,11 @@ class PokeBattle_Move
 		return typemod
 	end
 =end
-	def pbTypeModMessages(type,attacker,opponent)
+	def pbTypeModMessages(type,attacker,opponent,ai=false)
 		return 8 if type<0
 		typemod=pbTypeModifier(type,attacker,opponent)
 		if typemod==0
-		@battle.pbDisplay(_INTL("It doesn't affect {1}...",opponent.pbThis(true)))
+		@battle.pbDisplay(_INTL("It doesn't affect {1}...",opponent.pbThis(true))) if !ai
 		else
 		return 0 if pbTypeImmunityByAbility(type,attacker,opponent)
 		end
@@ -542,7 +542,7 @@ class PokeBattle_Move
 		return damagemult
 	end
 	
-	def pbCalcDamage(attacker,opponent,options=0)
+	def pbCalcDamage(attacker,opponent,options=0,ai=false)
 		opponent.damagestate.critical=false
 		opponent.damagestate.typemod=0
 		opponent.damagestate.calcdamage=0
@@ -1061,7 +1061,7 @@ class PokeBattle_Move
 		end
 		# Type effectiveness
 		if (options&IGNOREPKMNTYPES)==0
-			typemod=pbTypeModMessages(type,attacker,opponent)
+			typemod=pbTypeModMessages(type,attacker,opponent,ai)
 			damage=(damage*typemod/8.0).round
 			opponent.damagestate.typemod=typemod
 			if typemod==0

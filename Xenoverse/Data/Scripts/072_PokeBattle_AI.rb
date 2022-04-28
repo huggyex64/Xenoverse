@@ -4555,7 +4555,7 @@ class PokeBattle_Battle
   end
 
   def pbUltraDamage(attacker, opponent, move)
-    return move.pbCalcDamage(attacker, opponent)
+    return move.pbCalcDamage(attacker, opponent,0,true)
   end
 
   def pbSpeedCheck(spe1, spe2, subturns = 0)
