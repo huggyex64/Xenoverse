@@ -3645,7 +3645,7 @@ class PokeBattle_Battle
     target=-1
     skill=0
     wildbattle=!@opponent && pbIsOpposing?(index)
-    if wildbattle # If wild battle
+    if wildbattle && WILDAIMONSTER.keys.include?(attacker.species) && $game_switches[WILDAIMONSTER[attacker.species]] # If wild battle
       for i in 0...4
         if pbCanChooseMove?(index,i,false)
           echoln "Can choose #{i}"

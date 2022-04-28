@@ -1931,24 +1931,25 @@ def pbAegiBossBattle
   #$furiousBattle = true
 
   $game_switches[85] = true
-  $mods.set(5, nil, nil)
+  $mods.set(3, nil, nil)
   $wildSpecies = PBSpecies::AEGISLASHX
 
   #Tapu Fini X
   pkmn = pbGenerateWildPokemon(PBSpecies::AEGISLASHX,100)
   pkmn.pbDeleteAllMoves
-  moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+  moves = [:IRONTAIL, :ROCKSLIDE, :PHANTOMFORCE, :PLAYROUGH]
   for m in moves
     pkmn.pbLearnMove(m)
   end
-  pkmn.totalHp=838
+  pkmn.setAbility(1) #NoGuard
+  pkmn.totalHp=538
   pkmn.hp=pkmn.totalhp
-  pkmn.attack=293
-  pkmn.defense=261
-  pkmn.spAtk=396
-  pkmn.spDef=254
-  pkmn.speed=512
-  pkmn.item=0
+  pkmn.attack=524
+  pkmn.defense=244
+  pkmn.spAtk=180
+  pkmn.spDef=250
+  pkmn.speed=412
+  pkmn.item=PBItems::WEAKNESSPOLICY
 
   result = pbStartBossBattleMon(pkmn,nil,nil,false)
   $game_switches[85] = false
@@ -1967,33 +1968,33 @@ def pbTapuFiniBossBattle
   if $game_switches[1212]==true #EASY
     pkmn = pbGenerateWildPokemon(PBSpecies::TAPUFINIX,100)
     pkmn.pbDeleteAllMoves
-    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    moves = [:DARKPULSE, :PSYCHIC, :SURF, :CALMMIND]
     for m in moves
       pkmn.pbLearnMove(m)
     end
-    pkmn.totalHp=838
+    pkmn.totalHp=738
     pkmn.hp=pkmn.totalhp
     pkmn.attack=293
-    pkmn.defense=261
-    pkmn.spAtk=396
-    pkmn.spDef=254
-    pkmn.speed=512
-    pkmn.item=0
+    pkmn.defense=320
+    pkmn.spAtk=426
+    pkmn.spDef=290
+    pkmn.speed=280
+    pkmn.item=PBItems::EXPERTBELT
   elsif $game_switches[1213]==true #HARD
     pkmn = pbGenerateWildPokemon(PBSpecies::TAPUFINIX,100)
     pkmn.pbDeleteAllMoves
-    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    moves = [:DARKPULSE, :PSYCHIC, :FLAMETHROWER, :CALMMIND]
     for m in moves
       pkmn.pbLearnMove(m)
     end
-    pkmn.totalHp=838
+    pkmn.totalHp=888
     pkmn.hp=pkmn.totalhp
     pkmn.attack=293
-    pkmn.defense=261
-    pkmn.spAtk=396
-    pkmn.spDef=254
-    pkmn.speed=512
-    pkmn.item=0
+    pkmn.defense=380
+    pkmn.spAtk=556
+    pkmn.spDef=350
+    pkmn.speed=350
+    pkmn.item=PBItems::EXPERTBELT
   end
 
   result = pbStartBossBattleMon(pkmn,nil,nil,false)
@@ -2333,6 +2334,14 @@ def pbBossTrainerBattle(trainer,endspeech)
   $PokemonTemp.waitingTrainer=nil
   return (decision==1)
 end
+
+WILDAIMONSTER=
+{
+  PBSpecies::TAPUFINIX => 1213,
+  PBSpecies::TAPULELEX => 1217,
+  PBSpecies::TAPUKOKOX => 1219,
+  PBSpecies::TAPUBULUX => 1269,
+}
 
 Events.onWildPokemonCreate+=proc {|sender,e|
   pokemon=e[0]
