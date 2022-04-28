@@ -1183,6 +1183,68 @@ class PokeBattle_Move_308 < PokeBattle_Move
 	end
 end
 ################################################################################
+# Damage is multiplied by Flying's effectiveness against the target. Does double
+# damage and has perfect accuracy if the target is Minimized. (Flavor Test)
+################################################################################
+class PokeBattle_Move_309 < PokeBattle_Move
+
+	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
+		ret=super(attacker,opponent,hitnum,alltargets,showanimation)
+		if opponent.damagestate.calcdamage>0
+			hpgain=(attacker.boss ? ((opponent.damagestate.hplost+1)/10) : (opponent.damagestate.hplost+1)/10).floor
+			if opponent.hasWorkingAbility(:LIQUIDOOZE)
+				attacker.pbReduceHP(hpgain,true)
+				@battle.pbDisplay(_INTL("{1} sucked up the liquid ooze!",attacker.pbThis))
+			elsif attacker.effects[PBEffects::HealBlock]==0
+				hpgain=(hpgain*1.3).floor if attacker.hasWorkingItem(:BIGROOT)
+				attacker.pbRecoverHP(hpgain,true)
+				@battle.pbDisplay(_INTL("{1} had its energy drained!",opponent.pbThis))
+			end
+		end
+		return ret
+	end
+
+	def pbModifyDamage(damagemult,attacker,opponent)
+		type=getConst(PBTypes,:ICE) || -1
+		if type>=0
+			mult=PBTypes.getCombinedEffectiveness(type,
+				opponent.type1,opponent.type2,opponent.effects[PBEffects::Type3])
+			return ((damagemult*mult)/8).round
+		end
+		return damagemult
+	end
+	
+	def pbEffectMessages(attacker,opponent,ignoretype=false)
+		if opponent.damagestate.critical
+			@battle.pbDisplay(_INTL("Un colpo critico!"))
+		end
+		if !pbIsMultiHit
+			mult = PBTypes.getCombinedEffectiveness(getConst(PBTypes,:ICE),
+				opponent.type1,opponent.type2,opponent.effects[PBEffects::Type3])
+			if opponent.damagestate.typemod>8 || mult>8#>4
+				@battle.pbDisplay(_INTL("È superefficace!"))
+			elsif (opponent.damagestate.typemod>=1 && opponent.damagestate.typemod<8) && (mult>=1 && mult<8)#<4
+				@battle.pbDisplay(_INTL("Non è molto efficace..."))
+			end
+		end
+		if opponent.damagestate.endured
+			@battle.pbDisplay(_INTL("{1} endured the hit!",opponent.pbThis))
+		elsif opponent.damagestate.sturdy
+			@battle.pbDisplay(_INTL("{1} hung on with Sturdy!",opponent.pbThis))
+		elsif opponent.damagestate.focussashused
+			@battle.pbDisplay(_INTL("{1} hung on using its Focus Sash!",opponent.pbThis))
+		elsif opponent.damagestate.focusbandused
+			@battle.pbDisplay(_INTL("{1} hung on using its Focus Band!",opponent.pbThis))
+		end
+	end
+	
+	def tramplesMinimize?(param=1)
+		return true if param==1 && USENEWBATTLEMECHANICS # Perfect accuracy
+		return true if param==2 # Double damage
+		return false
+	end
+end
+################################################################################
 # Fails if the target doesn't have an item. (Poltergeist)
 ################################################################################
 class PokeBattle_Move_320 < PokeBattle_Move#PokeBattle_UnimplementedMove

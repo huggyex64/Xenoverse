@@ -251,3 +251,4 @@
 251,RAPTOR,Rapacità,"Il Pokémon guadagna priorità se sta attaccando un Pokémon debole."
 252,WATERSTREAM,Flusso Difensivo,"Il Pokémon devia i colpi dai Pokémon più lenti di lui, subendo meno danni."
 253,MAJESTICAURA,Aura Maestosa,"L'aura maestosa del Pokémon impedisce al nemico di attaccarlo con mosse che hanno priorità alta."
+254,CREAMSHIELD,Scudo Crema,"La crema avvolge il Pokémon come uno scudo, riducendo i danni quando è in salute."

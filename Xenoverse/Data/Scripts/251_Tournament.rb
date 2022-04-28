@@ -2163,9 +2163,15 @@ class PWT
        case difficulty
        when 0
          trainerpool=TRAINERPOOL_basic
+         
+         #push trey if pass 4 is over
+
          @rounds=3
        when 1
          trainerpool=TRAINERPOOL_hard
+         
+         #push trey if pass 4 is over
+         
          @rounds=4
        when 2
          trainerpool=TRAINERPOOL_expert

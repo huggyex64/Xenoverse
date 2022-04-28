@@ -758,7 +758,16 @@ class PokeBattle_Move
 			finalres = 30 if finalres <= 30
 			finalres = 100 if finalres >= 100
 			damagemult = (damagemult * finalres/100.0).floor
-			echoln "DAMAGE MODIFIED BY #{finalres/100.0}"
+			PBDebug.log("[WATERSTREAM] DAMAGE MODIFIED BY #{finalres/100.0}")
+		end
+
+		if opponent.hasWorkingAbility(:CREAMSHIELD) && opponent.hp > 0
+			opp_perc = opponent.hp/opponent.totalhp * 100
+			finalres = (opp_perc).floor
+			reduction = 70.0/100.0 * finalres
+			reduction = (100 - reduction).floor
+			damagemult = (damagemult * reduction/100.0).floor
+			PBDebug.log("[CREAMSHIELD] DAMAGE MODIFIED BY #{reduction/100.0}")
 		end
 
 		if isConst?(type,PBTypes,:FIRE)
@@ -1026,7 +1035,11 @@ class PokeBattle_Move
 		end
 		# Critical hits
 		if opponent.damagestate.critical
-			damage=(damage*2.0).round
+			if (@battle.is_a?(PokeBattle_CableClub) || @battle.is_a?(PokeBattle_SpectateCableClub))
+				damage=(damage*1.5).round
+			else
+				damage=(damage*2.0).round
+			end
 		end
 		# Random variance
 		if (options&NOWEIGHTING)==0
