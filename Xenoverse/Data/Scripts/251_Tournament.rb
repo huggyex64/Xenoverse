@@ -1003,6 +1003,11 @@ def pbGetMegaShopList()
   list.push(:BELLOSSOMITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::ERIKATOURNAMENT,"Erika"]]]==true
   list.push(:AUDINITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::LEOTOURNAMENT,"Leo"]]]==true
   list.push(:SHIFTRYITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::DANTETOURNAMENT,"Dante"]]]==true
+  
+  list.push(:LUCARITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::GLADIONTOURNAMENT,"Iridio"]]]==true
+  list.push(:SCIZORITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::SOTISTOURNAMENT,"Sotis"]]]==true
+  list.push(:LUXRAYITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::STELLATOURNAMENT,"Stella"]]]==true
+  list.push(:MIENSHAOITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::GRETATOURNAMENT,"Greta"]]]==true
   return list
 end
 
@@ -1298,7 +1303,7 @@ VIPLIST =[
   [PBTrainers::STELLATOURNAMENT,"Stella"],
   [PBTrainers::SOTISTOURNAMENT,"Sotis"],
   [PBTrainers::GRETATOURNAMENT,"Greta"],
-  [PBTrainers::IRIDIOTOURNAMENT,"Iridio"]
+  [PBTrainers::GLADIONTOURNAMENT,"Iridio"]
 ]
 
 VIPCUPSWITCH = {
@@ -1308,8 +1313,8 @@ VIPCUPSWITCH = {
   [PBTrainers::LEOTOURNAMENT,"Leo"] => 1184,
   [PBTrainers::STELLATOURNAMENT,"Stella"] => 1800,
   [PBTrainers::SOTISTOURNAMENT,"Sotis"] => 1801,
-  [PBTrainers::GRETATOURNAMENT,_INTL("Greta")] => 1802,
-  [PBTrainers::IRIDIOTOURNAMENT,_INTL("Iridio")] => 1803
+  [PBTrainers::GRETATOURNAMENT,"Greta"] => 1802,
+  [PBTrainers::GLADIONTOURNAMENT,"Iridio"] => 1803
 }
 
 VIPSPEECH={
@@ -1353,9 +1358,9 @@ VIPSPEECH={
     :mugshot => "apollo/erika",
     :name => _INTL("Greta"),
     :speech => "Sento che le arti marziali mi possano aiutare a recuperare la memoria... Forse combattendo contro di te scoprirò qualcosa?",
-    :description => ["Un giorno si è risvegliata senza sapere chi fosse...","Ha deciso di intraprendere la via delle arti marziali per affinare la sua tecnica!","La misteriosa e calma, Greta!"]
+    :description => ["Un giorno si è risvegliata senza sapere chi fosse...","Da quel momento ha deciso di intraprendere la via delle arti marziali per affinare la sua tecnica!","La misteriosa e calma, Greta!"]
   },
-  [PBTrainers::IRIDIOTOURNAMENT,"Iridio"] => {
+  [PBTrainers::GLADIONTOURNAMENT,"Iridio"] => {
     :mugshot => "apollo/leo",
     :name => _INTL("Iridio"),
     :speech => "Sono venuto in questa regione per affari, ma ogni tanto è bello rievocare i vecchi tempi! Sappi che sono molto forte, diamoci dentro!",
@@ -1380,7 +1385,7 @@ SKILL_LEVELS={
   PBTrainers::STELLATOURNAMENT=>127,
   PBTrainers::SOTISTOURNAMENT=>127,
   PBTrainers::GRETATOURNAMENT=>127,
-  PBTrainers::IRIDIOTOURNAMENT=>127,
+  PBTrainers::GLADIONTOURNAMENT=>127,
 
   #SPECIAL
   PBTrainers::WILLTOURNAMENT=>127,
