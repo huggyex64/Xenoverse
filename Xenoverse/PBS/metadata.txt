@@ -3954,3 +3954,9 @@ Outdoor=false
 # Paradiso Sakura
 Bicycle=false
 Outdoor=false
+[660]
+# Orizzonte degli Eventi
+BattleBack=FinalVakuum
+Bicycle=false
+Outdoor=false
+ShowArea=false
