@@ -259,4 +259,4 @@
 262,SILVIATOURNAMENT,(S.P.E.T.T.R.I),,,,,Male,127
 263,SIGMATOURNAMENT,(Sergente Dimension),,VS-AB,Team Dimension Victory,,Mixed,127
 264,CRISANTETOURNAMENT,(Capopalestra),,,,,Male,127
-264,TREYTOURNAMENT,(Rivale),,,,,Male,127
+265,TREYTOURNAMENT,(Rivale),,,,,Male,127
