@@ -720,4 +720,4 @@
 742,CHEERING,Tifo,306,0,SUONO,Status,0,10,0,5,4,e,"L'utilizzatore inizia a fare il tifo per il proprio alleato, permettendo alla sua mossa di avere alta priorità."
 743,MAGICWALL,Magiscudo,307,0,FAIRY,Status,0,15,0,20,0,,"Chi la usa crea un muro che indebolisce per cinque turni le mosse di tipo Drago, Lotta, Buio e Coleottero."
 744,SOUNDBARRIER,Fonoscudo,308,0,SUONO,Status,0,15,0,20,0,,"Chi la usa crea un muro che indebolisce per cinque turni le mosse di tipo Volante, Acqua, Fata."
-745,FLAVORTEST,Assaggio,309,100,FAIRY,Physical,100,10,0,20,0,abef,"Chi la usa si fionda sull'avversario cercando di assaggiarlo come un dolce. Rigenera un po' di salute. È anche di tipo Ghiaccio."
+745,FLAVORTEST,Assaggio,309,100,FAIRY,Physical,100,10,0,00,0,abef,"Chi la usa si fionda sull'avversario cercando di assaggiarlo come un dolce. Rigenera un po' di salute. È anche di tipo Ghiaccio."
