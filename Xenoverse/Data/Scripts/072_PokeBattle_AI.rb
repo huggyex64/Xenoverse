@@ -495,32 +495,45 @@ class PokeBattle_Battle
         end
       end
     when 0x26
-      score+=40 if attacker.turncount==0 # Dragon Dance tends to be popular
-      if attacker.pbTooHigh?(PBStats::ATTACK) &&
-         attacker.pbTooHigh?(PBStats::SPEED)
-        score-=90
+      if skill == PBTrainerAI.ultraSkill && attacker.stages[PBStats::ATK] < 6
+        if !pbCanOneshot(attacker, opponent, skill)
+          attacker.stages[PBStats::ATK] += 1
+          if pbCanOneshot(attacker, opponent, skill)
+            score+=1000000
+          end
+          attacker.stages[PBStats::ATK] -= 1
+        end
+        if !pbCanTwoshot(attacker, opponent, skill)
+          score+=1000000
+        end
       else
-        score-=attacker.stages[PBStats::ATTACK]*10
-        score-=attacker.stages[PBStats::SPEED]*10
-        if skill>=PBTrainerAI.mediumSkill
-          hasphysicalattack=false
-          for thismove in attacker.moves
-            if thismove.id!=0 && thismove.basedamage>0 &&
-               thismove.pbIsPhysical?(thismove.type)
-              hasphysicalattack=true
+        score+=40 if attacker.turncount==0 # Dragon Dance tends to be popular
+        if attacker.pbTooHigh?(PBStats::ATTACK) &&
+          attacker.pbTooHigh?(PBStats::SPEED)
+          score-=90
+        else
+          score-=attacker.stages[PBStats::ATTACK]*10
+          score-=attacker.stages[PBStats::SPEED]*10
+          if skill>=PBTrainerAI.mediumSkill
+            hasphysicalattack=false
+            for thismove in attacker.moves
+              if thismove.id!=0 && thismove.basedamage>0 &&
+                thismove.pbIsPhysical?(thismove.type)
+                hasphysicalattack=true
+              end
+            end
+            if hasphysicalattack
+              score+=20
+            elsif skill>=PBTrainerAI.highSkill
+              score-=90
             end
           end
-          if hasphysicalattack
-            score+=20
-          elsif skill>=PBTrainerAI.highSkill
-            score-=90
-          end
-        end
-        if skill>=PBTrainerAI.highSkill
-          aspeed=pbRoughStat(attacker,PBStats::SPEED,skill)
-          ospeed=pbRoughStat(opponent,PBStats::SPEED,skill)
-          if aspeed<ospeed && aspeed*2>ospeed
-            score+=20
+          if skill>=PBTrainerAI.highSkill
+            aspeed=pbRoughStat(attacker,PBStats::SPEED,skill)
+            ospeed=pbRoughStat(opponent,PBStats::SPEED,skill)
+            if aspeed<ospeed && aspeed*2>ospeed
+              score+=20
+            end
           end
         end
       end
@@ -610,25 +623,40 @@ class PokeBattle_Battle
         end
       end
     when 0x2C
-      if attacker.pbTooHigh?(PBStats::SPATK) &&
-         attacker.pbTooHigh?(PBStats::SPDEF)
-        score-=90
-      else
-        score+=40 if attacker.turncount==0 # Calm Mind tends to be popular
-        score-=attacker.stages[PBStats::SPATK]*10
-        score-=attacker.stages[PBStats::SPDEF]*10
-        if skill>=PBTrainerAI.mediumSkill
-          hasspecicalattack=false
-          for thismove in attacker.moves
-            if thismove.id!=0 && thismove.basedamage>0 &&
-               thismove.pbIsSpecial?(thismove.type)
-              hasspecicalattack=true
-            end
+      if skill == PBTrainerAI.ultraSkill && attacker.stages[PBStats::SPATK] < 6
+        PBDebug.log("[AI] cantwoshot?(Calm Mind) #{pbCanTwoshot(attacker, opponent, 127)}")
+        if !pbCanOneshot(attacker, opponent, skill)
+          attacker.stages[PBStats::SPATK] += 1
+          if pbCanOneshot(attacker, opponent, skill)
+            score+=1000000
           end
-          if hasspecicalattack
-            score+=20
-          elsif skill>=PBTrainerAI.highSkill
-            score-=90
+          attacker.stages[PBStats::SPATK] -= 1
+        end
+        if !pbCanTwoshot(attacker, opponent, skill)
+          PBDebug.log("[AI] cantwoshot?(Calm Mind) XDDDDDDDDDD" )
+          score+=1000000
+        end
+      else
+        if attacker.pbTooHigh?(PBStats::SPATK) &&
+          attacker.pbTooHigh?(PBStats::SPDEF)
+          score-=90
+        else
+          score+=40 if attacker.turncount==0 # Calm Mind tends to be popular
+          score-=attacker.stages[PBStats::SPATK]*10
+          score-=attacker.stages[PBStats::SPDEF]*10
+          if skill>=PBTrainerAI.mediumSkill
+            hasspecicalattack=false
+            for thismove in attacker.moves
+              if thismove.id!=0 && thismove.basedamage>0 &&
+                thismove.pbIsSpecial?(thismove.type)
+                hasspecicalattack=true
+              end
+            end
+            if hasspecicalattack
+              score+=20
+            elsif skill>=PBTrainerAI.highSkill
+              score-=90
+            end
           end
         end
       end
@@ -2632,6 +2660,7 @@ class PokeBattle_Battle
         end
         basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
         if (skill >= PBTrainerAI.ultraSkill)
+          basedamage = pbUltraDamage(attacker, opponent, move)
           basedamage*= 0.80
         end
         PBDebug.log(sprintf("[NAI] %s: damage %d=",PBMoves.getName(move.id),basedamage))
@@ -4421,6 +4450,19 @@ class PokeBattle_Battle
 
   end
 
+  def pbCanTwoshot(attacker, opponent, skill)
+    
+    canTwoshot = false;
+
+    for move in attacker.moves
+      break if canTwoshot
+      canTwoshot = pbCanMoveTwoshot(attacker, opponent, move, skill)
+    end
+
+    return canTwoshot
+
+  end
+
   def pbCanMoveOneshot(attacker, opponent, move, skill)
     
     if opponent.hasWorkingItem(:FOCUSSASH) && opponent.hp == opponent.totalhp
@@ -4429,10 +4471,10 @@ class PokeBattle_Battle
 
     canOneshot = false;
 
-    realBaseDamage=move.basedamage
-    realBaseDamage=60 if move.basedamage==1
-    realBaseDamage=pbBetterBaseDamage(move,attacker,opponent,skill,realBaseDamage)
-    basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
+    #realBaseDamage=move.basedamage
+    #realBaseDamage=60 if move.basedamage==1
+    #realBaseDamage=pbBetterBaseDamage(move,attacker,opponent,skill,realBaseDamage)
+    basedamage=pbUltraDamage(attacker, opponent, move)#pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
     PBDebug.log("#{move.name} deals #{basedamage}/#{opponent.hp}")
     canOneshot = (opponent.hp - basedamage) <= 0
 
@@ -4440,14 +4482,30 @@ class PokeBattle_Battle
 
   end
 
+  def pbCanMoveTwoshot(attacker, opponent, move, skill)
+    
+
+    canTwoshot = false;
+
+    #realBaseDamage=move.basedamage
+    #realBaseDamage=60 if move.basedamage==1
+    #realBaseDamage=pbBetterBaseDamage(move,attacker,opponent,skill,realBaseDamage)
+    basedamage=pbUltraDamage(attacker, opponent, move)#basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)*2
+    PBDebug.log("#{move.name} deals #{basedamage}/#{opponent.hp}")
+    canTwoshot = (opponent.hp - basedamage) <= 0
+
+    return canTwoshot
+
+  end
+
   def pbHighestDamageMove(attacker, opponent, skill)
     highestDmgMove = attacker.moves[0]
     highestDamage = 0
     for move in attacker.moves
-      realBaseDamage=move.basedamage
-      realBaseDamage=60 if move.basedamage==1
-      realBaseDamage=pbBetterBaseDamage(move,attacker,opponent,skill,realBaseDamage)
-      basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
+      #realBaseDamage=move.basedamage
+      #realBaseDamage=60 if move.basedamage==1
+      #realBaseDamage=pbBetterBaseDamage(move,attacker,opponent,skill,realBaseDamage)
+      basedamage=pbUltraDamage(attacker, opponent, move)#basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
       PBDebug.log(move.name + " ########### " + basedamage.to_s)
       if basedamage > highestDamage
         highestDmgMove = move
@@ -4466,19 +4524,23 @@ class PokeBattle_Battle
   end
 
   def pbDamageTest(attacker, opponent, move, skill)
-    realBaseDamage=move.basedamage
-    realBaseDamage=60 if move.basedamage==1
+    #realBaseDamage=move.basedamage
+    #realBaseDamage=60 if move.basedamage==1
     #realBaseDamage=pbBetterBaseDamage(move,attacker,opponent,skill,realBaseDamage)
-    basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
+    basedamage=pbUltraDamage(attacker, opponent, move)#basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
     return basedamage
   end
 
   def pbDamageFix(attacker, opponent, move, skill)
-    realBaseDamage=move.basedamage
-    realBaseDamage=60 if move.basedamage==1
-    realBaseDamage=pbBetterBaseDamage(move,attacker,opponent,skill,realBaseDamage)
-    basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
+    #realBaseDamage=move.basedamage
+    #realBaseDamage=60 if move.basedamage==1
+    #realBaseDamage=pbBetterBaseDamage(move,attacker,opponent,skill,realBaseDamage)
+    basedamage=pbUltraDamage(attacker, opponent, move)#basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
     return basedamage
+  end
+
+  def pbUltraDamage(attacker, opponent, move)
+    return move.pbCalcDamage(attacker, opponent)
   end
 
   def pbSpeedCheck(spe1, spe2, subturns = 0)
