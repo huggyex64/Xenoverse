@@ -3853,7 +3853,6 @@ ShowArea=false
 [637]
 # Monte Zodiaco Alterato
 BattleBack=Bulu
-Weather=Sunny,100
 Bicycle=false
 Outdoor=false
 WildBattleBGM=Wild Battle Monte Alterato.mp3
