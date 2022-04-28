@@ -3645,7 +3645,7 @@ class PokeBattle_Battle
     target=-1
     skill=0
     wildbattle=!@opponent && pbIsOpposing?(index)
-    if wildbattle && WILDAIMONSTER.keys.include?(attacker.species) && $game_switches[WILDAIMONSTER[attacker.species]] # If wild battle
+    if wildbattle && !(WILDAIMONSTER.keys.include?(attacker.species) && $game_switches[WILDAIMONSTER[attacker.species]]) # If wild battle
       for i in 0...4
         if pbCanChooseMove?(index,i,false)
           echoln "Can choose #{i}"
@@ -3655,7 +3655,12 @@ class PokeBattle_Battle
         end
       end
     else
-      skill=pbGetOwner(attacker.index).skill || 0
+      if WILDAIMONSTER.keys.include?(attacker.species) && $game_switches[WILDAIMONSTER[attacker.species]] # If wild battle
+        skill=127
+        echoln "ACTIVATING MONSTER AI WOOHOO"
+      else
+        skill=pbGetOwner(attacker.index).skill || 0
+      end
       opponent=attacker.pbOppositeOpposing
       if @doublebattle && !opponent.isFainted? && !opponent.pbPartner.isFainted?
         # Choose a target and move.  Also care about partner.
