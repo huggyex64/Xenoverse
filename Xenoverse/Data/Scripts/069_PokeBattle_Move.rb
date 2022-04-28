@@ -762,7 +762,7 @@ class PokeBattle_Move
 		end
 
 		if opponent.hasWorkingAbility(:CREAMSHIELD) && opponent.hp > 0
-			opp_perc = opponent.hp/opponent.totalhp * 100
+			opp_perc = opponent.hp.to_f/opponent.totalhp.to_f * 100
 			finalres = (opp_perc).floor
 			reduction = 70.0/100.0 * finalres
 			reduction = (100 - reduction).floor
