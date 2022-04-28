@@ -495,13 +495,13 @@ class PokeBattle_Battle
         end
       end
     when 0x26
-      if skill == PBTrainerAI.ultraSkill && attacker.stages[PBStats::ATK] < 6
+      if skill == PBTrainerAI.ultraSkill && attacker.stages[PBStats::ATTACK] < 6
         if !pbCanOneshot(attacker, opponent, skill)
-          attacker.stages[PBStats::ATK] += 1
+          attacker.stages[PBStats::ATTACK] += 1
           if pbCanOneshot(attacker, opponent, skill)
             score+=1000000
           end
-          attacker.stages[PBStats::ATK] -= 1
+          attacker.stages[PBStats::ATTACK] -= 1
         end
         if !pbCanTwoshot(attacker, opponent, skill)
           score+=1000000
@@ -538,14 +538,14 @@ class PokeBattle_Battle
         end
       end
     when 0x27, 0x28
-      if skill == PBTrainerAI.ultraSkill && (attacker.stages[PBStats::ATK] < 6 || attacker.stages[PBStats::SPATK] < 6)
+      if skill == PBTrainerAI.ultraSkill && (attacker.stages[PBStats::ATTACK] < 6 || attacker.stages[PBStats::SPATK] < 6)
         if !pbCanOneshot(attacker, opponent, skill)
-          attacker.stages[PBStats::ATK] += 1
+          attacker.stages[PBStats::ATTACK] += 1
           attacker.stages[PBStats::SPATK] += 1
           if pbCanOneshot(attacker, opponent, skill)
             score+=1000000
           end
-          attacker.stages[PBStats::ATK] -= 1
+          attacker.stages[PBStats::ATTACK] -= 1
           attacker.stages[PBStats::SPATK] -= 1
         end
         if !pbCanTwoshot(attacker, opponent, skill)
