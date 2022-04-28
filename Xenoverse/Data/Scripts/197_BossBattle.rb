@@ -1972,14 +1972,14 @@ def pbTapuFiniBossBattle
     for m in moves
       pkmn.pbLearnMove(m)
     end
-    pkmn.totalHp=738
+    pkmn.totalHp=698
     pkmn.hp=pkmn.totalhp
     pkmn.attack=293
     pkmn.defense=320
     pkmn.spAtk=426
     pkmn.spDef=290
     pkmn.speed=280
-    pkmn.item=PBItems::EXPERTBELT
+    pkmn.item=PBItems::SITRUSBERRY
   elsif $game_switches[1213]==true #HARD
     pkmn = pbGenerateWildPokemon(PBSpecies::TAPUFINIX,100)
     pkmn.pbDeleteAllMoves
@@ -1994,7 +1994,7 @@ def pbTapuFiniBossBattle
     pkmn.spAtk=556
     pkmn.spDef=350
     pkmn.speed=350
-    pkmn.item=PBItems::EXPERTBELT
+    pkmn.item=PBItems::SITRUSBERRY
   end
 
   result = pbStartBossBattleMon(pkmn,nil,nil,false)
@@ -2008,39 +2008,39 @@ def pbTapuLeleBossBattle
 
   $game_switches[85] = true
   $mods.set(5, nil, nil)
-  $wildSpecies = PBSpecies::TAPUFINIX
+  $wildSpecies = PBSpecies::TAPULELEX
 
    #Tapu Lele X
   if $game_switches[1216]==true #EASY
     pkmn = pbGenerateWildPokemon(PBSpecies::TAPULELEX,100)
     pkmn.pbDeleteAllMoves
-    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    moves = [:NIGHTDAZE, :PSYCHIC, :ICEBEAM, :TOXIC]
     for m in moves
       pkmn.pbLearnMove(m)
     end
-    pkmn.totalHp=838
+    pkmn.totalHp=758
     pkmn.hp=pkmn.totalhp
     pkmn.attack=293
-    pkmn.defense=261
-    pkmn.spAtk=396
-    pkmn.spDef=254
-    pkmn.speed=512
-    pkmn.item=0
+    pkmn.defense=521
+    pkmn.spAtk=316
+    pkmn.spDef=494
+    pkmn.speed=312
+    pkmn.item=PBItems::LIFEORB
   elsif $game_switches[1217]==true #HARD
     pkmn = pbGenerateWildPokemon(PBSpecies::TAPULELEX,100)
     pkmn.pbDeleteAllMoves
-    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    moves = [:HAIL, :TORMENT, :ICEBEAM, :TOXIC]
     for m in moves
       pkmn.pbLearnMove(m)
     end
-    pkmn.totalHp=838
+    pkmn.totalHp=918
     pkmn.hp=pkmn.totalhp
     pkmn.attack=293
-    pkmn.defense=261
-    pkmn.spAtk=396
-    pkmn.spDef=254
-    pkmn.speed=512
-    pkmn.item=0
+    pkmn.defense=581
+    pkmn.spAtk=386
+    pkmn.spDef=524
+    pkmn.speed=382
+    pkmn.item=PBItems::LEFTOVERS
   end
 
   result = pbStartBossBattleMon(pkmn,nil,nil,false)
@@ -2054,39 +2054,39 @@ def pbTapuKokoBossBattle
 
   $game_switches[85] = true
   $mods.set(5, nil, nil)
-  $wildSpecies = PBSpecies::TAPUFINIX
+  $wildSpecies = PBSpecies::TAPUKOKOX
 
   #Tapu Koko X
   if $game_switches[1218]==true #EASY
     pkmn = pbGenerateWildPokemon(PBSpecies::TAPUKOKOX,100)
     pkmn.pbDeleteAllMoves
-    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    moves = [:SUBSTITUTE, :FLASHCANNON, :DARKPULSE, :BRAVEBIRD]
     for m in moves
       pkmn.pbLearnMove(m)
     end
-    pkmn.totalHp=838
+    pkmn.totalHp=746
     pkmn.hp=pkmn.totalhp
-    pkmn.attack=293
-    pkmn.defense=261
-    pkmn.spAtk=396
-    pkmn.spDef=254
-    pkmn.speed=512
-    pkmn.item=0
+    pkmn.attack=383
+    pkmn.defense=290
+    pkmn.spAtk=402
+    pkmn.spDef=320
+    pkmn.speed=582
+    pkmn.item=PBItems::SHARPBEAK
   elsif $game_switches[1219]==true #HARD
     pkmn = pbGenerateWildPokemon(PBSpecies::TAPUKOKOX,100)
     pkmn.pbDeleteAllMoves
-    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    moves = [:WORKUP, :FLASHCANNON, :DARKPULSE, :BRAVEBIRD]
     for m in moves
       pkmn.pbLearnMove(m)
     end
-    pkmn.totalHp=838
+    pkmn.totalHp=878
     pkmn.hp=pkmn.totalhp
-    pkmn.attack=293
-    pkmn.defense=261
-    pkmn.spAtk=396
-    pkmn.spDef=254
-    pkmn.speed=512
-    pkmn.item=0
+    pkmn.attack=413
+    pkmn.defense=340
+    pkmn.spAtk=466
+    pkmn.spDef=370
+    pkmn.speed=812
+    pkmn.item=PBItems::SHARPBEAK
   end
 
   result = pbStartBossBattleMon(pkmn,nil,nil,false)
@@ -2099,40 +2099,40 @@ def pbTapuBuluBossBattle
   $furiousBattle = true
 
   $game_switches[85] = true
-  $mods.set(5, nil, nil)
-  $wildSpecies = PBSpecies::TAPUFINIX
+  $mods.set(6, nil, nil)
+  $wildSpecies = PBSpecies::TAPUBULUX
 
   #Tapu Bulu X
   if $game_switches[1268]==true #EASY
     pkmn = pbGenerateWildPokemon(PBSpecies::TAPUBULUX,100)
     pkmn.pbDeleteAllMoves
-    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    moves = [:SUPERPOWER, :OUTRAGE, :MEGAHORN, :NIGHTSLASH]
     for m in moves
       pkmn.pbLearnMove(m)
     end
-    pkmn.totalHp=838
+    pkmn.totalHp=808
     pkmn.hp=pkmn.totalhp
-    pkmn.attack=293
-    pkmn.defense=261
-    pkmn.spAtk=396
+    pkmn.attack=513
+    pkmn.defense=381
+    pkmn.spAtk=286
     pkmn.spDef=254
-    pkmn.speed=512
-    pkmn.item=0
+    pkmn.speed=194
+    pkmn.item=PBItems::DRACOPLATE
   elsif $game_switches[1269]==true #HARD
     pkmn = pbGenerateWildPokemon(PBSpecies::TAPUBULUX,100)
     pkmn.pbDeleteAllMoves
-    moves = [:HYPERVOICE, :PSYCHIC, :SLUDGEBOMB, :ICICLECRASH]
+    moves = [:IRONHEAD, :DRAGONDANCE, :DRAGONCLAW, :NIGHTSLASH]
     for m in moves
       pkmn.pbLearnMove(m)
     end
-    pkmn.totalHp=838
+    pkmn.totalHp=988
     pkmn.hp=pkmn.totalhp
-    pkmn.attack=293
-    pkmn.defense=261
-    pkmn.spAtk=396
-    pkmn.spDef=254
-    pkmn.speed=512
-    pkmn.item=0
+    pkmn.attack=613
+    pkmn.defense=421
+    pkmn.spAtk=326
+    pkmn.spDef=294
+    pkmn.speed=234
+    pkmn.item=PBItems::EXPERTBELT
   end
 
   result = pbStartBossBattleMon(pkmn,nil,nil,false)
