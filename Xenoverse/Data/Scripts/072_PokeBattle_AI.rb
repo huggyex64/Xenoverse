@@ -449,27 +449,45 @@ class PokeBattle_Battle
         score+=30 if attacker.effects[PBEffects::FocusEnergy]<2
       end
     when 0x24
-      if attacker.pbTooHigh?(PBStats::ATTACK) &&
-         attacker.pbTooHigh?(PBStats::DEFENSE)
-        score-=90
+      if skill == PBTrainerAI.ultraSkill && attacker.stages[PBStats::ATTACK] < 6
+        if !pbCanOneshot(attacker, opponent, skill)
+          attacker.stages[PBStats::ATTACK] += 1
+          if pbCanOneshot(attacker, opponent, skill)
+            score+=1000
+          end
+          attacker.stages[PBStats::ATTACK] -= 1
+        end
+        if !pbCanTwoshot(attacker, opponent, skill)
+          score+=30
+          attacker.stages[PBStats::ATTACK] += 1
+          if pbCanTwoshot(attacker, opponent, skill)
+            score+=100
+          end
+          attacker.stages[PBStats::ATTACK] -= 1
+        end
       else
-        score-=attacker.stages[PBStats::ATTACK]*10
-        score-=attacker.stages[PBStats::DEFENSE]*10
-        if skill>=PBTrainerAI.mediumSkill
-          hasphysicalattack=false
-          for thismove in attacker.moves
-            if thismove.id!=0 && thismove.basedamage>0 &&
-               thismove.pbIsPhysical?(thismove.type)
-              hasphysicalattack=true
+        if attacker.pbTooHigh?(PBStats::ATTACK) &&
+          attacker.pbTooHigh?(PBStats::DEFENSE)
+          score-=90
+        else
+          score-=attacker.stages[PBStats::ATTACK]*10
+          score-=attacker.stages[PBStats::DEFENSE]*10
+          if skill>=PBTrainerAI.mediumSkill
+            hasphysicalattack=false
+            for thismove in attacker.moves
+              if thismove.id!=0 && thismove.basedamage>0 &&
+                thismove.pbIsPhysical?(thismove.type)
+                hasphysicalattack=true
+              end
+            end
+            if hasphysicalattack
+              score+=20
+            elsif skill>=PBTrainerAI.highSkill
+              score-=90
             end
           end
-          if hasphysicalattack
-            score+=20
-          elsif skill>=PBTrainerAI.highSkill
-            score-=90
-          end
         end
-      end
+    end
     when 0x25
       if attacker.pbTooHigh?(PBStats::ATTACK) &&
          attacker.pbTooHigh?(PBStats::DEFENSE) &&
@@ -499,12 +517,17 @@ class PokeBattle_Battle
         if !pbCanOneshot(attacker, opponent, skill)
           attacker.stages[PBStats::ATTACK] += 1
           if pbCanOneshot(attacker, opponent, skill)
-            score+=1000000
+            score+=1000
           end
           attacker.stages[PBStats::ATTACK] -= 1
         end
         if !pbCanTwoshot(attacker, opponent, skill)
-          score+=1000000
+          score+=30
+          attacker.stages[PBStats::ATTACK] += 1
+          if pbCanTwoshot(attacker, opponent, skill)
+            score+=100
+          end
+          attacker.stages[PBStats::ATTACK] -= 1
         end
       else
         score+=40 if attacker.turncount==0 # Dragon Dance tends to be popular
@@ -543,13 +566,20 @@ class PokeBattle_Battle
           attacker.stages[PBStats::ATTACK] += 1
           attacker.stages[PBStats::SPATK] += 1
           if pbCanOneshot(attacker, opponent, skill)
-            score+=1000000
+            score+=1000
           end
           attacker.stages[PBStats::ATTACK] -= 1
           attacker.stages[PBStats::SPATK] -= 1
         end
         if !pbCanTwoshot(attacker, opponent, skill)
-          score+=1000000
+          score+=30
+          attacker.stages[PBStats::ATTACK] += 1
+          attacker.stages[PBStats::SPATK] += 1
+          if pbCanTwoshot(attacker, opponent, skill)
+            score+=100
+          end
+          attacker.stages[PBStats::ATTACK] -= 1
+          attacker.stages[PBStats::SPATK] -= 1
         end
       else
         if attacker.pbTooHigh?(PBStats::ATTACK) &&
@@ -643,13 +673,17 @@ class PokeBattle_Battle
         if !pbCanOneshot(attacker, opponent, skill)
           attacker.stages[PBStats::SPATK] += 1
           if pbCanOneshot(attacker, opponent, skill)
-            score+=1000000
+            score+=1000
           end
           attacker.stages[PBStats::SPATK] -= 1
         end
         if !pbCanTwoshot(attacker, opponent, skill)
-          PBDebug.log("[AI] cantwoshot?(Calm Mind) XDDDDDDDDDD" )
-          score+=1000000
+          score+=30
+          attacker.stages[PBStats::SPATK] += 1
+          if pbCanTwoshot(attacker, opponent, skill)
+            score+=100
+          end
+          attacker.stages[PBStats::SPATK] -= 1
         end
       else
         if attacker.pbTooHigh?(PBStats::SPATK) &&
@@ -762,40 +796,58 @@ class PokeBattle_Battle
         score+=20 if attacker.stages[PBStats::SPEED]<0
       end
     when 0x32
-      if move.basedamage==0
-        if attacker.pbTooHigh?(PBStats::SPATK)
-          score-=90
+      if skill == PBTrainerAI.ultraSkill && attacker.stages[PBStats::SPATK] < 6
+        if !pbCanOneshot(attacker, opponent, skill)
+          attacker.stages[PBStats::SPATK] += 2
+          if pbCanOneshot(attacker, opponent, skill)
+            score+=1000
+          end
+          attacker.stages[PBStats::SPATK] -= 2
+        end
+        if !pbCanTwoshot(attacker, opponent, skill)
+          score+=30
+          attacker.stages[PBStats::SPATK] += 2
+          if pbCanTwoshot(attacker, opponent, skill)
+            score+=100
+          end
+          attacker.stages[PBStats::SPATK] -= 2
+        end
+      else
+        if move.basedamage==0
+          if attacker.pbTooHigh?(PBStats::SPATK)
+            score-=90
+          else
+            score+=40 if attacker.turncount==0
+            score-=attacker.stages[PBStats::SPATK]*20
+            if skill>=PBTrainerAI.mediumSkill
+              hasspecicalattack=false
+              for thismove in attacker.moves
+                if thismove.id!=0 && thismove.basedamage>0 &&
+                  thismove.pbIsSpecial?(thismove.type)
+                  hasspecicalattack=true
+                end
+              end
+              if hasspecicalattack
+                score+=20
+              elsif skill>=PBTrainerAI.highSkill
+                score-=90
+              end
+            end
+          end
         else
-          score+=40 if attacker.turncount==0
-          score-=attacker.stages[PBStats::SPATK]*20
+          score+=10 if attacker.turncount==0
+          score+=20 if attacker.stages[PBStats::SPATK]<0
           if skill>=PBTrainerAI.mediumSkill
             hasspecicalattack=false
             for thismove in attacker.moves
               if thismove.id!=0 && thismove.basedamage>0 &&
-                 thismove.pbIsSpecial?(thismove.type)
+                thismove.pbIsSpecial?(thismove.type)
                 hasspecicalattack=true
               end
             end
             if hasspecicalattack
               score+=20
-            elsif skill>=PBTrainerAI.highSkill
-              score-=90
             end
-          end
-        end
-      else
-        score+=10 if attacker.turncount==0
-        score+=20 if attacker.stages[PBStats::SPATK]<0
-        if skill>=PBTrainerAI.mediumSkill
-          hasspecicalattack=false
-          for thismove in attacker.moves
-            if thismove.id!=0 && thismove.basedamage>0 &&
-               thismove.pbIsSpecial?(thismove.type)
-              hasspecicalattack=true
-            end
-          end
-          if hasspecicalattack
-            score+=20
           end
         end
       end
@@ -3014,6 +3066,10 @@ class PokeBattle_Battle
       #TODO
     when 0x113 # Spit Up
       basedamage*=attacker.effects[PBEffects::Stockpile]
+    when 0x302 # Velvet Scales
+      if !attack.pbOpposingSide.effects[PBEffects::VelvetScales]
+        score+=10000
+      end
     end
     return basedamage
   end
