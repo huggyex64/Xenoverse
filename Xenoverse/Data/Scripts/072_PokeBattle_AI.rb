@@ -4632,13 +4632,13 @@ class PokeBattle_Battle
     receiver = PokeBattle_Battler.new(self,opponent.index)
     receiver.pbInitialize(opponent.pokemon,oppparty.index(opponent.pokemon),false,false)
 
-    receiver.stages[PBStats::ATTACK]   = oppparty.stages[PBStats::ATTACK]
-    receiver.stages[PBStats::DEFENSE]  = oppparty.stages[PBStats::DEFENSE]
-    receiver.stages[PBStats::SPEED]    = oppparty.stages[PBStats::SPEED]
-    receiver.stages[PBStats::SPATK]    = oppparty.stages[PBStats::SPATK]
-    receiver.stages[PBStats::SPDEF]    = oppparty.stages[PBStats::SPDEF]
-    receiver.stages[PBStats::EVASION]  = oppparty.stages[PBStats::EVASION]
-    receiver.stages[PBStats::ACCURACY] = oppparty.stages[PBStats::ACCURACY]
+    receiver.stages[PBStats::ATTACK]   = opponent.stages[PBStats::ATTACK]
+    receiver.stages[PBStats::DEFENSE]  = opponent.stages[PBStats::DEFENSE]
+    receiver.stages[PBStats::SPEED]    = opponent.stages[PBStats::SPEED]
+    receiver.stages[PBStats::SPATK]    = opponent.stages[PBStats::SPATK]
+    receiver.stages[PBStats::SPDEF]    = opponent.stages[PBStats::SPDEF]
+    receiver.stages[PBStats::EVASION]  = opponent.stages[PBStats::EVASION]
+    receiver.stages[PBStats::ACCURACY] = opponent.stages[PBStats::ACCURACY]
 
     receiver.effects = Marshal.load(Marshal.dump(receiver.effects))
 
