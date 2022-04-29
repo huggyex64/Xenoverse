@@ -324,12 +324,13 @@ class PokeBattle_Battle
 	attr_reader(:turncount)
 	attr_accessor :controlPlayer
 
-	attr_accessor :aiEnvironment
+	attr_accessor(:aiEnvironment)
 
 	include PokeBattle_BattleCommon
 	
 	MAXPARTYSIZE = 6
 	
+
 	class BattleAbortedException < Exception; end
 	
 	def pbAbort
