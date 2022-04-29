@@ -2200,7 +2200,7 @@ def pbTamaraBossBattle
   return result
 end
 
-def pbVakumBossBattle
+def pbVakumBossBattle(hardmode = false)
   
   trainer=PokeBattle_Trainer.new(_INTL("Vakuum"),PBTrainers::VAKUM)
   trainer.setForeignID($Trainer) if $Trainer
@@ -2209,67 +2209,78 @@ def pbVakumBossBattle
   $game_switches[85]=true
   species = [PBSpecies::EGORGEON, PBSpecies::TORNADUS, PBSpecies::THUNDURUS, PBSpecies::LANDORUS, PBSpecies::ENAMORUS]
   
-  #easy
-  partyMoves = [
-    [:THUNDER, :DRAGONPULSE, :DAZZLINGGLEAM, :AQUATAIL], #EGORGEON - DRIZZLE
-    [:HURRICANE, :ACROBATICS, :PSYCHIC, :SLUDGEBOMB], #TORNADUS - DEFIANT
-    [:THUNDER, :WILDCHARGE, :DARKPULSE, :HAMMERARM], #THUNDURUS - DEFIANT
-    [:EARTHQUAKE, :STONEEDGE, :HAMMERARM, :UTURN], #LANDORUS - SHEER FORCE
-    [:MOONBLAST, :HURRICANE, :EARTHPOWER, :SLUDGEBOMB], #ENAMORUS - COMPETITIVE
-  ]
+  if (!hardmode)
+    #easy
+    partyMoves = [
+      [:THUNDER, :DRAGONPULSE, :DAZZLINGGLEAM, :AQUATAIL], #EGORGEON - DRIZZLE
+      [:HURRICANE, :ACROBATICS, :PSYCHIC, :SLUDGEBOMB], #TORNADUS - DEFIANT
+      [:THUNDER, :WILDCHARGE, :DARKPULSE, :HAMMERARM], #THUNDURUS - DEFIANT
+      [:EARTHQUAKE, :STONEEDGE, :HAMMERARM, :UTURN], #LANDORUS - SHEER FORCE
+      [:MOONBLAST, :HURRICANE, :EARTHPOWER, :SLUDGEBOMB], #ENAMORUS - COMPETITIVE
+    ]
+  else
+    #hard
+    partyMoves = [
+      [:THUNDER, :DRAGONPULSE, :EARTHPOWER, :VELVETSCALES], #EGORGEON - DRIZZLE
+      [:HURRICANE, :CALMMIND, :THUNDERBOLT, :CANNONFLASH], #TORNADUS - COMPETITIVE
+      [:THUNDER, :ICEBEAM, :DARKPULSE, :NASTYPLOT], #THUNDURUS - COMPETITIVE
+      [:EARTHQUAKE, :STONEEDGE, :HAMMERARM, :BULKUP], #LANDORUS - INTIMIDATE
+      [:FLEURCANNON, :HURRICANE, :EARTHPOWER, :THUNDER], #ENAMORUS - CONTRARY
+    ]
+  end
 
-  #hard
-  partyMoves = [
-    [:THUNDER, :DRAGONPULSE, :EARTHPOWER, :VELVETSCALES], #EGORGEON - DRIZZLE
-    [:HURRICANE, :CALMMIND, :THUNDERBOLT, :CANNONFLASH], #TORNADUS - COMPETITIVE
-    [:THUNDER, :ICEBEAM, :DARKPULSE, :NASTYPLOT], #THUNDURUS - COMPETITIVE
-    [:EARTHQUAKE, :STONEEDGE, :HAMMERARM, :BULKUP], #LANDORUS - INTIMIDATE
-    [:FLEURCANNON, :HURRICANE, :EARTHPOWER, :THUNDER], #ENAMORUS - CONTRARY
-  ]
+  if (!hardmode)
+    #easy
+    items = [PBItems::ASSAULTVEST, PBItems::FLYINGGEM, PBItems::MAGNET, PBItems::WIDELENS, PBItems::LIFEORB]
+  else
+    #hard
+    items = [PBItems::REDCARD, PBItems::WEAKNESSPOLICY, PBItems::LIFEORB, PBItems::LAXINCENSE, PBItems::LIFEORB]
+  end
 
-  #easy
-  items = [PBItems::ASSAULTVEST, PBItems::FLYINGGEM, PBItems::MAGNET, PBItems::WIDELENS, PBItems::LIFEORB]
+  if (!hardmode)
+    #easy
+    healthbars = [2,3,3,3,3]
+  else
+    #hard
+    healthbars = [3,4,4,4,4]
+  end
 
-  #hard
-  items = [PBItems::REDCARD, PBItems::WEAKNESSPOLICY, PBItems::LIFEORB, PBItems::LAXINCENSE, PBItems::LIFEORB]
+  if (!hardmode)
+    #easy
+    abilities = [PBAbilities::DRIZZLE,PBAbilities::DEFIANT,PBAbilities::DEFIANT,PBAbilities::SANDFORCE,PBAbilities::COMPETITIVE]
+  else
+    #hard
+    abilities = [PBAbilities::DRIZZLE,PBAbilities::COMPETITIVE,PBAbilities::COMPETITIVE,PBAbilities::INTIMIDATE,PBAbilities::CONTRARY]
+  end
 
-  #easy
-  healthbars = [2,3,3,3,3]
+  if (!hardmode)
+    #easy
+    stats = [
+      #HP, atk, def, spe, spa, spd
+      [728,338,329,409,476,329], #EGORGEON - DRIZZLE
+      [724,366,309,391,453,329], #TORNADUS - DEFIANT
+      [724,366,309,391,453,329], #THUNDURUS - DEFIANT
+      [764,453,359,371,366,329], #LANDORUS - SHEER FORCE
+      [704,376,309,381,475,329], #ENAMORUS - COMPETITIVE
+    ]
+  else
+    #hard
+    stats = [
+      #HP, atk, def, spe, spa, spd
+      [928,378,369,449,516,369], #EGORGEON - DRIZZLE
+      [924,406,349,431,493,369], #TORNADUS - DEFIANT
+      [924,406,349,431,493,369], #THUNDURUS - DEFIANT
+      [964,493,359,411,406,369], #LANDORUS - SHEER FORCE
+      [904,416,349,421,515,369], #ENAMORUS - COMPETITIVE
+    ]
+  end
 
-  #hard
-  healthbars = [3,4,4,4,4]
-
-
-  #easy
-  abilities = [PBAbilities::DRIZZLE,PBAbilities::DEFIANT,PBAbilities::DEFIANT,PBAbilities::SANDFORCE,PBAbilities::COMPETITIVE]
-
-  #hard
-  abilities = [PBAbilities::DRIZZLE,PBAbilities::COMPETITIVE,PBAbilities::COMPETITIVE,PBAbilities::INTIMIDATE,PBAbilities::CONTRARY]
-
-  #easy
-  stats = [
-    #HP, atk, def, spe, spa, spd
-    [728,338,329,409,476,329], #EGORGEON - DRIZZLE
-    [724,366,309,391,453,329], #TORNADUS - DEFIANT
-    [724,366,309,391,453,329], #THUNDURUS - DEFIANT
-    [764,453,359,371,366,329], #LANDORUS - SHEER FORCE
-    [704,376,309,381,475,329], #ENAMORUS - COMPETITIVE
-  ]
-
-  #hard
-  stats = [
-    #HP, atk, def, spe, spa, spd
-    [928,378,369,449,516,369], #EGORGEON - DRIZZLE
-    [924,406,349,431,493,369], #TORNADUS - DEFIANT
-    [924,406,349,431,493,369], #THUNDURUS - DEFIANT
-    [964,493,359,411,406,369], #LANDORUS - SHEER FORCE
-    [904,416,349,421,515,369], #ENAMORUS - COMPETITIVE
-  ]
-
-  forms = [0,0,0,0,0]
-
-  forms = [0,1,1,1,1]
-
+  if (!hardmode)
+    forms = [0,0,0,0,0]
+  else
+    forms = [0,1,1,1,1]
+  end
+  
   for i in 0...species.length
     #$mods.set(healthbars[i], nil, nil)
     # Setting up the Pokemon
