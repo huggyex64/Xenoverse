@@ -1430,6 +1430,23 @@ class PokeBattle_Battler
 				@battle.pbOnActiveOne(target)
 				target.pbAbilitiesOnSwitchIn(true)
 			end
+			
+			if target.hasWorkingItem(:REDCARD) && target.pbOpposingSide.effects[PBEffects::Switch][user]==nil
+				PBDebug.log("[#{target.pbThis}'s Red Card triggered]")
+				
+				target.pokemon.itemRecycle=target.item
+				target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
+				target.item=0
+				user.pbOwnSide.effects[PBEffects::Switch][user]=target
+				@battle.pbDisplay(_INTL("{1} went back to {2}!",user.pbThis,@battle.pbGetOwner(user.index).name))
+				newpoke=0
+				newpoke=@battle.pbSwitchInBetween(user.index,true,false)
+				@battle.pbMessagesOnReplace(user.index,newpoke)
+				user.pbResetForm
+				@battle.pbReplace(user.index,newpoke,true)
+				@battle.pbOnActiveOne(user)
+				user.pbAbilitiesOnSwitchIn(true)
+			end
 			if target.hasWorkingItem(:AIRBALLOON,true)
 				target.pokemon.itemRecycle=target.item
 				target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item

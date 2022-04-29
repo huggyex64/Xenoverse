@@ -2200,7 +2200,7 @@ def pbTamaraBossBattle
   return result
 end
 
-def pbTamaraBossBattle
+def pbVakumBossBattle
   
   trainer=PokeBattle_Trainer.new(_INTL("Vakuum"),PBTrainers::VAKUM)
   trainer.setForeignID($Trainer) if $Trainer
@@ -2210,34 +2210,67 @@ def pbTamaraBossBattle
   species = [PBSpecies::EGORGEON, PBSpecies::TORNADUS, PBSpecies::THUNDURUS, PBSpecies::LANDORUS, PBSpecies::ENAMORUS]
   
   #easy
-  items = [PBItems::ASSAULTVEST, PBItems::LIFEORB, PBItems::BIGROOT, 0, PBItems::ASSAULTVEST]
+  partyMoves = [
+    [:THUNDER, :DRAGONPULSE, :DAZZLINGGLEAM, :AQUATAIL], #EGORGEON - DRIZZLE
+    [:HURRICANE, :ACROBATICS, :PSYCHIC, :SLUDGEBOMB], #TORNADUS - DEFIANT
+    [:THUNDER, :WILDCHARGE, :DARKPULSE, :HAMMERARM], #THUNDURUS - DEFIANT
+    [:EARTHQUAKE, :STONEEDGE, :HAMMERARM, :UTURN], #LANDORUS - SHEER FORCE
+    [:MOONBLAST, :HURRICANE, :EARTHPOWER, :SLUDGEBOMB], #ENAMORUS - COMPETITIVE
+  ]
 
   #hard
-  items = [PBItems::LEFTOVERS, PBItems::SHELLBELL, PBItems::BIGROOT, 0, PBItems::ASSAULTVEST]
-
-  healthbars = [3,3,2,3,3,4]
+  partyMoves = [
+    [:THUNDER, :DRAGONPULSE, :EARTHPOWER, :VELVETSCALES], #EGORGEON - DRIZZLE
+    [:HURRICANE, :CALMMIND, :THUNDERBOLT, :CANNONFLASH], #TORNADUS - COMPETITIVE
+    [:THUNDER, :ICEBEAM, :DARKPULSE, :NASTYPLOT], #THUNDURUS - COMPETITIVE
+    [:EARTHQUAKE, :STONEEDGE, :HAMMERARM, :BULKUP], #LANDORUS - INTIMIDATE
+    [:FLEURCANNON, :HURRICANE, :EARTHPOWER, :THUNDER], #ENAMORUS - CONTRARY
+  ]
 
   #easy
-  abilities = [PBAbilities::DRIZZLE,PBAbilities::DEFIANT,PBAbilities::DEFIANT]
+  items = [PBItems::ASSAULTVEST, PBItems::FLYINGGEM, PBItems::MAGNET, PBItems::WIDELENS, PBItems::LIFEORB]
 
-  partyMoves = [
-    [:ACIDRAIN, :TOXICSPIKES, :BANEFULBUNKER, :RAINDANCE], #TOXAPEX - REGENERATOR
-    [:SWORDSDANCE, :BRUTALSWING, :XSCISSOR, :IRONHEAD], #SCIZOR - TECHNICIAN
-    [:GIGADRAIN,:FAKETEARS,:BOOMBURST,:TOXIC], #WYSTEARIA - SYNTHESIZER
-    [:ACROBATICS, :DEFENDORDER, :SWAGGER, :BATONPASS], #VESPIQUEN - PRESSURE
-    [:TUONO, :ENERGYBALL, :FLAMETHROWER, :SLUDGEBOMB], #SCOVILEX - EFFECTSPORE
-    [:SUBSTITUTE, :LEECHSEED, :DRAGONPULSE, :GIGADRAIN]  #SCEPTILE MEGA - LIGHTINGROD
-  ]
+  #hard
+  items = [PBItems::REDCARD, PBItems::WEAKNESSPOLICY, PBItems::LIFEORB, PBItems::LAXINCENSE, PBItems::LIFEORB]
+
+  #easy
+  healthbars = [2,3,3,3,3]
+
+  #hard
+  healthbars = [3,4,4,4,4]
+
+
+  #easy
+  abilities = [PBAbilities::DRIZZLE,PBAbilities::DEFIANT,PBAbilities::DEFIANT,PBAbilities::SANDFORCE,PBAbilities::COMPETITIVE]
+
+  #hard
+  abilities = [PBAbilities::DRIZZLE,PBAbilities::COMPETITIVE,PBAbilities::COMPETITIVE,PBAbilities::INTIMIDATE,PBAbilities::CONTRARY]
+
+  #easy
   stats = [
     #HP, atk, def, spe, spa, spd
-    [967,370,425,243,334,417], #TOXAPEX - REGENERATOR
-    [733,544,416,326,304,347], #SCIZOR - TECHNICIAN
-    [638,293,383,192,445,444], #WYSTEARIA - SYNTHESIZER
-    [727,369,368,256,369,368], #VESPIQUEN - PRESSURE
-    [942,379,369,485,400,384], #SCOVILEX - EFFECTSPORE
-    [1052,448,388,555,555,423]  #SCEPTILE MEGA - LIGHTINGROD
+    [728,338,329,409,476,329], #EGORGEON - DRIZZLE
+    [724,366,309,391,453,329], #TORNADUS - DEFIANT
+    [724,366,309,391,453,329], #THUNDURUS - DEFIANT
+    [764,453,359,371,366,329], #LANDORUS - SHEER FORCE
+    [704,376,309,381,475,329], #ENAMORUS - COMPETITIVE
   ]
-  for i in 0...6
+
+  #hard
+  stats = [
+    #HP, atk, def, spe, spa, spd
+    [928,378,369,449,516,369], #EGORGEON - DRIZZLE
+    [924,406,349,431,493,369], #TORNADUS - DEFIANT
+    [924,406,349,431,493,369], #THUNDURUS - DEFIANT
+    [964,493,359,411,406,369], #LANDORUS - SHEER FORCE
+    [904,416,349,421,515,369], #ENAMORUS - COMPETITIVE
+  ]
+
+  forms = [0,0,0,0,0]
+
+  forms = [0,1,1,1,1]
+
+  for i in 0...species.length
     #$mods.set(healthbars[i], nil, nil)
     # Setting up the Pokemon
     pkmn = pbGenerateWildPokemon(species[i],100)
@@ -2255,11 +2288,13 @@ def pbTamaraBossBattle
     pkmn.spDef=stats[i][5]
     pkmn.speed=stats[i][3]
     pkmn.statsOverride = stats[i]
+    pkmn.forcedForm = forms[i]
+    pkmn.abilityOverride = abilities[i]
     echoln "Healthbars #{healthbars[i]}"
     pkmn.setBoss(healthbars[i])
     party.push(pkmn)
   end
-  for i in 0...6 
+  for i in 0...species.length
     echoln "MOLTIPLIER #{party[i].hpMoltiplier}"
   end
   trainer.party = party
