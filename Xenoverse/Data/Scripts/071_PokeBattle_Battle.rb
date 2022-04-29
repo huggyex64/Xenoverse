@@ -2937,7 +2937,7 @@ class PokeBattle_Battle
 		@usepriority=false  # recalculate priority
 		priority=pbPriority(true) # Ignoring Quick Claw here
 		@sides.each do |side|
-			side.effects[PBEffects::Switch]=false
+			side.effects[PBEffects::Switch]={}
 		end
 		# Weather
 		case @weather
