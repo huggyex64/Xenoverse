@@ -49,6 +49,7 @@ class PokeBattle_Pokemon
   attr_accessor(:natureflag)  # Forces a particular nature
   attr_accessor(:shinyflag)   # Forces the shininess (true/false)
   attr_accessor(:ribbons)     # Array of ribbons
+  attr_accessor(:abilityOverride)
   attr_accessor :cool,:beauty,:cute,:smart,:tough,:sheen # Contest stats
   attr_accessor :statsOverride#Alters the stats of the pokemon preventing further calcStats
 
@@ -229,6 +230,10 @@ class PokeBattle_Pokemon
 
 # Returns the ID of this Pokemon's ability.
   def ability
+    if @abilityOverride != nil
+      return @abilityOverride
+    end
+    
     abil=abilityIndex()
     
 =begin

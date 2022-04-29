@@ -861,6 +861,28 @@ MultipleForms.register(:LANDORUS,{
 		}
 	})
 
+
+
+MultipleForms.register(:ENAMORUS,{
+		"getBaseStats"=>proc{|pokemon|
+			next if pokemon.form==0    # Incarnate Forme
+			next [74,115,110,46,135,110] # Therian Forme
+		},
+		"ability"=>proc{|pokemon|
+			next if pokemon.form==0               # Incarnate Forme
+			if pokemon.abilityflag && pokemon.abilityflag!=2
+				next getID(PBAbilities,:OVERCOAT) # Therian Forme
+			end
+		},
+		"evYield"=>proc{|pokemon|
+			next if pokemon.form==0 # Incarnate Forme
+			next [0,3,0,0,0,0]      # Therian Forme
+		},
+		"onSetForm"=>proc{|pokemon,form|
+			pbSeenForm(pokemon)
+		}
+	})
+
 MultipleForms.register(:KYUREM,{
 		"getBaseStats"=>proc{|pokemon|
 			case pokemon.form
