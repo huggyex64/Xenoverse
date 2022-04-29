@@ -2578,7 +2578,8 @@ class PokeBattle_Battle
         score-=110
       end
     when 0x302 # Velvet Scales
-      if !attack.pbOpposingSide.effects[PBEffects::VelvetScales]
+      if !opponent.pbOwnSide.effects[PBEffects::VelvetScales]
+        
         score+=10000
       end
     end
@@ -3070,6 +3071,7 @@ class PokeBattle_Battle
       #TODO
     when 0x113 # Spit Up
       basedamage*=attacker.effects[PBEffects::Stockpile]
+    end
     return basedamage
   end
 
