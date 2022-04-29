@@ -39403,6 +39403,30 @@ Dragon Endurance
 737
 Squame Velliche
 Velvet Scales
+738
+Poltergeist
+Poltergeist
+739
+Biancospini
+Hawthorns
+740
+Ceneri Arse
+Scorched Ashes
+741
+Benevolenza
+Benevolence
+742
+Tifo
+Cheering
+743
+Magiscudo
+Magic Wall
+744
+Fonoscudo
+Sound Barrier
+745
+Assaggio
+Flavor Test
 [6]
 1
 Chi la usa utilizza il suo corpo per montare con grande forza il nemico.
@@ -41546,6 +41570,30 @@ The user creates a shield that weakens the moves of Electric, Fire, Grass and Wa
 737
 Chi la usa piazza una trappola con le sue squame che indebolisce i nemici scesi in campo.
 The user places a trap with their scales. The trap weakens opponents that switch into battle.
+738
+Chi la usa attacca usando lo strumento dell'avversario, ma fallisce se non ne ha.
+The user attacks by controlling the target's item. The move fails if the target doesn't have an item.
+739
+Chi la usa crea un campo di Biancospini ai propri piedi, rigenerando la propria salute e quella degli alleati ad ogni turno.
+Chi la usa crea un campo di Biancospini ai propri piedi, rigenerando la propria salute e quella degli alleati ad ogni turno.
+740
+Chi la usa incenerisce il terreno sotto ai piedi degli avversari, velocizzando e riducendo la precisione dei nemici che scendono in campo.
+Chi la usa incenerisce il terreno sotto ai piedi degli avversari, velocizzando e riducendo la precisione dei nemici che scendono in campo.
+741
+Chi la usa crea un'aura rinvigorente che potenzia per massimo 6 turni le cure degli alleati.
+Chi la usa crea un'aura rinvigorente che potenzia per massimo 6 turni le cure degli alleati.
+742
+L'utilizzatore inizia a fare il tifo per il proprio alleato, permettendo alla sua mossa di avere alta priorità.
+L'utilizzatore inizia a fare il tifo per il proprio alleato, permettendo alla sua mossa di avere alta priorità.
+743
+Chi la usa crea un muro che indebolisce per cinque turni le mosse di tipo Drago, Lotta, Buio e Coleottero.
+Chi la usa crea un muro che indebolisce per cinque turni le mosse di tipo Drago, Lotta, Buio e Coleottero.
+744
+Chi la usa crea un muro che indebolisce per cinque turni le mosse di tipo Volante, Acqua, Fata.
+Chi la usa crea un muro che indebolisce per cinque turni le mosse di tipo Volante, Acqua, Fata.
+745
+Chi la usa si fionda sul nemico cercando di assaggiarlo come un dolce. Rigenera un po' di salute. È anche di tipo Ghiaccio.
+Chi la usa si fionda sul nemico cercando di assaggiarlo come un dolce. Rigenera un po' di salute. È anche di tipo Ghiaccio.
 [7]
 1
 Repellente
@@ -47075,6 +47123,24 @@ Scalate
 248
 Pellegrido
 Equalize
+249
+Punk Rock
+Punk Rock
+250
+Distacco
+Long Reach
+251
+Rapacità
+Raptor
+252
+Flusso Difensivo
+Water Stream
+253
+Aura Maestosa
+Majestic Aura
+254
+Scudo Crema
+Cream Shield
 [10]
 1
 A volte fa tentennare i nemici.

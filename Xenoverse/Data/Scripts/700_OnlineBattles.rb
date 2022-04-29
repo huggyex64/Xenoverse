@@ -1836,6 +1836,7 @@ end
 
 def pbOnlineLobby
   lobby = OnlineLobby.new
+  #Da mettere nell'evento
   if $Trainer.party.length == 0
     Kernel.pbMessage(_INTL("I'm sorry, you must have a Pokémon to enter the Cable Club."))
     lobby.dispose
@@ -1870,10 +1871,10 @@ def pbOnlineLobby
     #$Trainer.party = oldParty
     case e.message
     when "disconnected"
-      Kernel.pbMessageDisplay(msgwindow, _INTL("Thank you for using the Cable Club. We hope to see you again soon."))
+      Kernel.pbMessageDisplay(msgwindow, _INTL("Thank you for using the Dimensional Corridor. We hope to see you again soon."))
       return true
     when "invalid party"
-      Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, your party contains Pokémon not allowed in the Cable Club."))
+      Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, your party contains a Pokémon not allowed."))
       return false
     when "peer disconnected"
       Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, the other trainer has disconnected."))
@@ -1882,15 +1883,15 @@ def pbOnlineLobby
       Kernel.pbMessageDisplay(msgwindow,_INTL("Sorry, the connection with the server was interrupted."))
       return false
     else
-      Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, the Cable Club server has malfunctioned!"))
+      Kernel.pbMessageDisplay(msgwindow, _INTL("An error has occurred! Aborting Dimensional projection..."))
       return false
     end
   rescue Errno::ECONNREFUSED
-    Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, the Cable Club server is down at the moment."))
+    Kernel.pbMessageDisplay(msgwindow, _INTL("You cannot access the Dimensional Corridor now. Try again later."))
     return false
   rescue
     pbPrintException($!)
-    Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, the Cable Club has malfunctioned!"))
+    Kernel.pbMessageDisplay(msgwindow, _INTL("An error has occurred! Aborting Dimensional projection..."))
     return false
   ensure
     Kernel.pbDisposeMessageWindow(msgwindow)
@@ -2323,9 +2324,9 @@ module CableClub
           msgwindow.visible = true
           Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to start a connection with {1}?",@ui.playerList[@ui.selectionIndex][1]))
           if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-            Kernel.pbMessageDisplay(msgwindow, _INTL("Vuoi inviare un messaggio a {1}?",@ui.playerList[@ui.selectionIndex][1]))
+            Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to send a message to {1}?",@ui.playerList[@ui.selectionIndex][1]))
             if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
-              sendMessage = pbEnterText("Messaggio da inviare?", 0, 50, _INTL("Ciao! Vuoi connetterti?"))
+              sendMessage = pbEnterText(_INTL("Message to send?"), 0, 50, _INTL("Ciao! Vuoi connetterti?"))
             else
               sendMessage = ""
             end
@@ -2361,8 +2362,6 @@ module CableClub
           if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
             # Requesting the list of available avatars
             @ui.pbAvatarSelectionScreen(msgwindow)
-          else
-            Kernel.pbMessageDisplay(msgwindow, _INTL("Skipped connection."))
           end
           msgwindow.visible = false
         when 1 #Battle matchmaking
@@ -2544,9 +2543,9 @@ module CableClub
       when :empty
         msgwindow.visible = true
         if $Trainer.party.length < 2
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Can't enter wonder trade with less than 2 Pokémon."))
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Can't enter Wonder Trade with less than 2 Pokémon."))
         else
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to start the WONDER trade?"))
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Would you like to start a Wonder Trade?"))
           if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
             valid = false
             while !valid
@@ -2841,7 +2840,7 @@ module CableClub
           print "Unknown activity: #{@activity}"
         end
       when :cancel
-        Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to #{@activity.to_s}.", @partner_name))
+        Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, {1} doesn't want to {2}.", @partner_name,@activity.to_s))
         @state = :choose_activity
       when :leaveParty
         # disconnect only if the partner who sent the disconnection is your current partner
@@ -2882,7 +2881,7 @@ module CableClub
           end
           @state = :await_choose_activity
         else
-          Kernel.pbMessageDisplay(msgwindow, _INTL("{1} wants to battle at {2}! ", @partner_name, BATTLE_TIERS_NAMES[@chosenTier]))
+          Kernel.pbMessageDisplay(msgwindow, _INTL("{1} wants to battle at {2}!\\^", @partner_name, BATTLE_TIERS_NAMES[@chosenTier]))
           if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
             msgwindow.visible = false #Kernel.pbDisposeMessageWindow(msgwindow)
             @battleTeam = nil
@@ -3368,7 +3367,7 @@ module CableClub
             end
           when :await_interaction_accept
             msgwindow.visible = true
-            Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to cancel the Interaction?"),false)
+            Kernel.pbMessageDisplay(msgwindow, _INTL("Do you want to cancel the interaction?"),false)
             if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
               connection.send do |writer|
                 writer.sym(:cancelAskInteraction)
@@ -4214,7 +4213,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
     while(awaiting && !gotready)
       Graphics.update
       Input.update
-      cw.text = _INTL("Waiting for the other player" + "." * (1 + ((frame / 8) % 3)))
+      cw.text = _INTL("Waiting for the other player") + "." * (1 + ((frame / 8) % 3))
       pbCheckForCE(@connection)
       @connection.updateExp([:checkProceed,:proceeding,:true,:false,:partnerDisconnected]) do |record|
         case (type = record.sym)
@@ -4617,7 +4616,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
         pbAwaitReadiness if !cancancel
         loop do
           frame += 1
-          cw.text = _INTL("Waiting" + "." * (1 + ((frame / 8) % 3)))
+          cw.text = _INTL("Waiting") + "." * (1 + ((frame / 8) % 3))
           @scene.pbFrameUpdate(cw)
           Graphics.update
           Input.update

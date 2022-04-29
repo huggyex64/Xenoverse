@@ -1160,7 +1160,7 @@ class PokeBattle_Move_307 < PokeBattle_Move
 			end
 		end
 		attacker.effects[PBEffects::MagicWall]=5
-		@battle.pbDisplay(_INTL("Il tuo team è rafforzato dal Dragoscudo!"))
+		@battle.pbDisplay(_INTL("Il tuo team è rafforzato dal Magiscudo!"))
 		return 0
 	end
 end
@@ -1178,7 +1178,7 @@ class PokeBattle_Move_308 < PokeBattle_Move
 			end
 		end
 		attacker.effects[PBEffects::SoundBarrier]=5
-		@battle.pbDisplay(_INTL("Il tuo team è rafforzato dal Dragoscudo!"))
+		@battle.pbDisplay(_INTL("Il tuo team è protetto dal Fonoscudo!"))
 		return 0
 	end
 end
