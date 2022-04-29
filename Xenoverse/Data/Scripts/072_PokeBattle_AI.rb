@@ -4617,7 +4617,7 @@ class PokeBattle_Battle
     party=pbParty(attacker.index)
     oppparty=pbParty(opponent.index)
     user = PokeBattle_Battler.new(self,attacker.index)
-    user.pbInitialize(attacker.pokemon,attacker.index(attacker.pokemon),false,false)
+    user.pbInitialize(attacker.pokemon,party.index(attacker.pokemon),false,false)
     
     user.stages[PBStats::ATTACK]   = attacker.stages[PBStats::ATTACK]
     user.stages[PBStats::DEFENSE]  = attacker.stages[PBStats::DEFENSE]
