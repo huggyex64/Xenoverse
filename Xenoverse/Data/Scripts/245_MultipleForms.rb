@@ -802,6 +802,10 @@ MultipleForms.register(:DEERLING,{
 MultipleForms.copy(:DEERLING,:SAWSBUCK)
 
 MultipleForms.register(:TORNADUS,{
+		"getAltitude"=>proc{|pokemon|
+			next 0 if pokemon.form == 1
+			next
+		},
 		"getBaseStats"=>proc{|pokemon|
 			next if pokemon.form==0     # Incarnate Forme
 			next [79,100,80,121,110,90] # Therian Forme
