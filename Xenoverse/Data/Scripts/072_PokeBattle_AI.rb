@@ -2577,6 +2577,10 @@ class PokeBattle_Battle
       else
         score-=110
       end
+    when 0x302 # Velvet Scales
+      if !attack.pbOpposingSide.effects[PBEffects::VelvetScales]
+        score+=10000
+      end
     end
     # A score of 0 here means it should absolutely not be used
     return score if score<=0
@@ -3066,11 +3070,6 @@ class PokeBattle_Battle
       #TODO
     when 0x113 # Spit Up
       basedamage*=attacker.effects[PBEffects::Stockpile]
-    when 0x302 # Velvet Scales
-      if !attack.pbOpposingSide.effects[PBEffects::VelvetScales]
-        score+=10000
-      end
-    end
     return basedamage
   end
 
