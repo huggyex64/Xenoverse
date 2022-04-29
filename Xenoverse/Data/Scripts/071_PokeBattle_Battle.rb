@@ -324,13 +324,17 @@ class PokeBattle_Battle
 	attr_reader(:turncount)
 	attr_accessor :controlPlayer
 
-	attr_accessor(:aiEnvironment)
-
 	include PokeBattle_BattleCommon
 	
 	MAXPARTYSIZE = 6
 	
 	def aiEnvironment
+		return @aiEnvironment
+	end
+
+	
+	def aiEnvironment=(value)
+		@aiEnvironment=value
 		return @aiEnvironment
 	end
 
