@@ -330,6 +330,9 @@ class PokeBattle_Battle
 	
 	MAXPARTYSIZE = 6
 	
+	def aiEnvironment
+		return @aiEnvironment
+	end
 
 	class BattleAbortedException < Exception; end
 	
