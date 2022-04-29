@@ -406,7 +406,7 @@ class PokeBattle_Move
 		if typemod==0
 		@battle.pbDisplay(_INTL("It doesn't affect {1}...",opponent.pbThis(true))) if !ai
 		else
-		return 0 if pbTypeImmunityByAbility(type,attacker,opponent)
+		return 0 if pbTypeImmunityByAbility(type,attacker,opponent,ai)
 		end
 		return typemod
 	end	
@@ -1345,7 +1345,7 @@ class PokeBattle_Move
 		@battle.pbAnimation(id,attacker,opponent,hitnum)
 	end
 	
-	def pbTypeImmunityByAbility(type,attacker,opponent)
+	def pbTypeImmunityByAbility(type,attacker,opponent,ai = false)
 		return false if !attacker || !opponent || attacker.fainted? || opponent.fainted?
     return false if attacker.index==opponent.index
     return false if attacker.hasMoldBreaker

@@ -323,6 +323,9 @@ class PokeBattle_Battle
 	attr_accessor(:rules)
 	attr_reader(:turncount)
 	attr_accessor :controlPlayer
+
+	attr_accessor :aiEnvironment
+
 	include PokeBattle_BattleCommon
 	
 	MAXPARTYSIZE = 6
@@ -2368,18 +2371,22 @@ class PokeBattle_Battle
 	# Messages and animations.
 	################################################################################
 	def pbDisplay(msg)
+		return if @aiEnvironment != nil && @aiEnvironment != false
 		@scene.pbDisplayMessage(msg)
 	end
 	
 	def pbDisplayPaused(msg)
+		return if @aiEnvironment != nil && @aiEnvironment != false
 		@scene.pbDisplayPausedMessage(msg)
 	end
 	
 	def pbDisplayBrief(msg)
+		return if @aiEnvironment != nil && @aiEnvironment != false
 		@scene.pbDisplayMessage(msg,true)
 	end
 	
 	def pbDisplayConfirm(msg)
+		return if @aiEnvironment != nil && @aiEnvironment != false
 		@scene.pbDisplayConfirmMessage(msg)
 	end
 	
@@ -2388,12 +2395,14 @@ class PokeBattle_Battle
 	end
 	
 	def pbAnimation(move,attacker,opponent,hitnum=0)
+		return if @aiEnvironment != nil && @aiEnvironment != false
 		if @battlescene
 			@scene.pbAnimation(move,attacker,opponent,hitnum)
 		end
 	end
 	
 	def pbCommonAnimation(name,attacker,opponent,hitnum=0)
+		return if @aiEnvironment != nil && @aiEnvironment != false
 		if @battlescene
 			@scene.pbCommonAnimation(name,attacker,opponent,hitnum)
 		end

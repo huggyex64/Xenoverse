@@ -4612,7 +4612,40 @@ class PokeBattle_Battle
   end
 
   def pbUltraDamage(attacker, opponent, move)
-    return move.pbCalcDamage(attacker, opponent,0,true)
+    #cloning the attacker and receiver
+    @battle.aiEnvironment = true
+    party=pbParty(attacker.index)
+    oppparty=pbParty(opponent.index)
+    user = PokeBattle_Battler.new(self,attacker.index)
+    user.pbInitialize(attacker.pokemon,attacker.index(attacker.pokemon),false,false)
+    
+    user.stages[PBStats::ATTACK]   = attacker.stages[PBStats::ATTACK]
+    user.stages[PBStats::DEFENSE]  = attacker.stages[PBStats::DEFENSE]
+    user.stages[PBStats::SPEED]    = attacker.stages[PBStats::SPEED]
+    user.stages[PBStats::SPATK]    = attacker.stages[PBStats::SPATK]
+    user.stages[PBStats::SPDEF]    = attacker.stages[PBStats::SPDEF]
+    user.stages[PBStats::EVASION]  = attacker.stages[PBStats::EVASION]
+    user.stages[PBStats::ACCURACY] = attacker.stages[PBStats::ACCURACY]
+
+    user.effects = Marshal.load(Marshal.dump(attacker.effects))
+
+    receiver = PokeBattle_Battler.new(self,opponent.index)
+    receiver.pbInitialize(opponent.pokemon,oppparty.index(opponent.pokemon),false,false)
+
+    receiver.stages[PBStats::ATTACK]   = oppparty.stages[PBStats::ATTACK]
+    receiver.stages[PBStats::DEFENSE]  = oppparty.stages[PBStats::DEFENSE]
+    receiver.stages[PBStats::SPEED]    = oppparty.stages[PBStats::SPEED]
+    receiver.stages[PBStats::SPATK]    = oppparty.stages[PBStats::SPATK]
+    receiver.stages[PBStats::SPDEF]    = oppparty.stages[PBStats::SPDEF]
+    receiver.stages[PBStats::EVASION]  = oppparty.stages[PBStats::EVASION]
+    receiver.stages[PBStats::ACCURACY] = oppparty.stages[PBStats::ACCURACY]
+
+    receiver.effects = Marshal.load(Marshal.dump(receiver.effects))
+
+    ret =  move.pbCalcDamage(user, receiver,0,true)
+    
+    @battle.aiEnvironment = false
+    return ret
   end
 
   def pbSpeedCheck(spe1, spe2, subturns = 0)

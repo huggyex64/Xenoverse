@@ -399,6 +399,7 @@ class PokeBattle_Battle
   end
 
   def pbDisplay(msg)
+    return if @aiEnvironment != nil && @aiEnvironment != false
     tricked=false
     if !@abilityTrick.nil?
       @scene.pbDisplayEffect(@abilityTrick)
@@ -431,6 +432,7 @@ class PokeBattle_Battle
   end
 
   def pbDisplayPaused(msg)
+    return if @aiEnvironment != nil && @aiEnvironment != false
     @scene.databoxVisible(false)
     @scene.pbDisplayPausedMessage(msg)
     @scene.clearMessageWindow if !@scene.briefmessage
@@ -438,6 +440,7 @@ class PokeBattle_Battle
   end
 
   def pbDisplayBrief(msg)
+    return if @aiEnvironment != nil && @aiEnvironment != false
     @scene.databoxVisible(false)
     @scene.pbDisplayMessage(msg,true)
     @scene.clearMessageWindow if !@scene.briefmessage
@@ -445,6 +448,7 @@ class PokeBattle_Battle
   end
 
   def pbDisplayConfirm(msg)
+    return if @aiEnvironment != nil && @aiEnvironment != false
     @scene.databoxVisible(false)
     ret = @scene.pbDisplayConfirmMessage(msg)
     @scene.clearMessageWindow if !@scene.briefmessage
@@ -636,7 +640,7 @@ class PokeBattle_Move
   if self.method_defined?(:pbTypeImmunityByAbility)
     alias pbTypeImmunityByAbility_ebs pbTypeImmunityByAbility unless self.method_defined?(:pbTypeImmunityByAbility_ebs)
     def pbTypeImmunityByAbility(*args)
-      @battle.abilityMessage = args[2]
+      @battle.abilityMessage = args[2] if args[3] != false
       ret = pbTypeImmunityByAbility_ebs(*args)
       @battle.abilityMessage = nil
       return ret
