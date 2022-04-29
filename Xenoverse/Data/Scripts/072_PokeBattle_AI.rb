@@ -4613,7 +4613,7 @@ class PokeBattle_Battle
 
   def pbUltraDamage(attacker, opponent, move)
     #cloning the attacker and receiver
-    @battle.aiEnvironment=true
+    @aiEnvironment=true
     party=pbParty(attacker.index)
     oppparty=pbParty(opponent.index)
     user = PokeBattle_Battler.new(self,attacker.index)
@@ -4644,7 +4644,7 @@ class PokeBattle_Battle
 
     ret =  move.pbCalcDamage(user, receiver,0,true)
     
-    @battle.aiEnvironment = false
+    @aiEnvironment = false
     return ret
   end
 
