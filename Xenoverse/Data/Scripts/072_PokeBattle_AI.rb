@@ -2386,6 +2386,7 @@ class PokeBattle_Battle
     when 0x111
       if opponent.effects[PBEffects::FutureSight]>0
         score-=100
+        score-= 10000 if skill == PBTrainerAI.ultraSkill
       elsif attacker.pbNonActivePokemonCount()==0
         # Future Sight tends to be wasteful if down to last Pokemon
         score-=70
