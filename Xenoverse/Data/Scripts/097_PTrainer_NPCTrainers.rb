@@ -47,7 +47,11 @@ def pbLoadTrainer(trainerid,trainername,partyid=0)
       species=poke[TPSPECIES]
       level=poke[TPLEVEL]
       pokemon=PokeBattle_Pokemon.new(species,level,opponent)
-      pokemon.form=poke[TPFORM]
+      if poke[TPFORM] == 100 && pokemon.hasDelta?
+        pokemon.makeDelta
+      else
+        pokemon.form=poke[TPFORM]
+      end
       pokemon.resetMoves
       pokemon.setItem(poke[TPITEM])
       if poke[TPMOVE1]>0 || poke[TPMOVE2]>0 || poke[TPMOVE3]>0 || poke[TPMOVE4]>0

@@ -121,6 +121,10 @@ class PokeBattle_Pokemon
     calcStats()
   end
 
+  def hasDelta?
+    return File.exists?("Graphics/Pictures/DexNew/Icon/#{getID(PBSpecies,@species)}d.png")
+  end
+
   # provides a fix for forms crashing game
   def spoofForm(val)
     @deltaflag = false

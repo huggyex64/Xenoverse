@@ -2319,40 +2319,43 @@ def pbDraga1BossBattle
   $furiousBattle = true
 
   $game_switches[85] = true
-  $mods.set(6, nil, nil)
-  $wildSpecies = PBSpecies::TAPUBULUX
+  $mods.set(4, nil, nil)
+  $wildSpecies = PBSpecies::DRAGALISK
 
-  #Tapu Bulu X
-  if $game_switches[1268]==true #EASY
-    pkmn = pbGenerateWildPokemon(PBSpecies::TAPUBULUX,100)
+  #Draga Furia 1
+  if $game_switches[1317]==true #EASY
+    pkmn = pbGenerateWildPokemon(PBSpecies::DRAGALISK,100)
+    pkmn.forcedForm = 1
     pkmn.pbDeleteAllMoves
-    moves = [:SUPERPOWER, :OUTRAGE, :MEGAHORN, :NIGHTSLASH]
+    moves = [:FROSTBREATH, :SHADOWBALL, :EARTHPOWER, :THUNDERBOLT]
     for m in moves
       pkmn.pbLearnMove(m)
     end
-    pkmn.totalHp=808
+    pkmn.totalHp=600
+    pkmn.hp=pkmn.totalhp
+    pkmn.attack=463
+    pkmn.defense=321
+    pkmn.spAtk=463
+    pkmn.spDef=321
+    pkmn.speed=494
+    pkmn.item = 0
+  elsif $game_switches[1318]==true #HARD
+    $mods.set(5, nil, nil)
+    pkmn = pbGenerateWildPokemon(PBSpecies::DRAGALISK,100)
+    pkmn.forcedForm = 1
+    pkmn.pbDeleteAllMoves
+    moves = [:TORMENT, :PROTECT, :DOUBLETEAM, :FREEZEDRY]
+    for m in moves
+      pkmn.pbLearnMove(m)
+    end
+    pkmn.totalHp=750
     pkmn.hp=pkmn.totalhp
     pkmn.attack=513
-    pkmn.defense=381
-    pkmn.spAtk=286
-    pkmn.spDef=254
-    pkmn.speed=194
-    pkmn.item=PBItems::DRACOPLATE
-  elsif $game_switches[1269]==true #HARD
-    pkmn = pbGenerateWildPokemon(PBSpecies::TAPUBULUX,100)
-    pkmn.pbDeleteAllMoves
-    moves = [:IRONHEAD, :DRAGONDANCE, :DRAGONCLAW, :NIGHTSLASH]
-    for m in moves
-      pkmn.pbLearnMove(m)
-    end
-    pkmn.totalHp=988
-    pkmn.hp=pkmn.totalhp
-    pkmn.attack=613
-    pkmn.defense=421
-    pkmn.spAtk=326
-    pkmn.spDef=294
-    pkmn.speed=234
-    pkmn.item=PBItems::EXPERTBELT
+    pkmn.defense=461
+    pkmn.spAtk=513
+    pkmn.spDef=461
+    pkmn.speed=494
+    pkmn.item = 0
   end
 
   result = pbStartBossBattleMon(pkmn,nil,nil,false)
@@ -2360,6 +2363,56 @@ def pbDraga1BossBattle
   $furiousBattle = false
   return result
 end
+
+def pbDraga2BossBattle
+  $furiousBattle = true
+
+  $game_switches[85] = true
+  $mods.set(6, nil, nil)
+  $wildSpecies = PBSpecies::DRAGALISKFURIA
+
+  #Draga Furia 1
+  if $game_switches[1317]==true #EASY
+    pkmn = pbGenerateWildPokemon(PBSpecies::DRAGALISKFURIA,100)
+    pkmn.forcedForm = 1
+    pkmn.pbDeleteAllMoves
+    moves = [:VOIDSTAR, :EARTHQUAKE, :DARKPULSE, :FREEZEDRY]
+    for m in moves
+      pkmn.pbLearnMove(m)
+    end
+    pkmn.totalHp=750
+    pkmn.hp=pkmn.totalhp
+    pkmn.attack=533
+    pkmn.defense=321
+    pkmn.spAtk=533
+    pkmn.spDef=321
+    pkmn.speed=494
+    pkmn.item = 0
+  elsif $game_switches[1318]==true #HARD
+    $mods.set(8, nil, nil)
+    pkmn = pbGenerateWildPokemon(PBSpecies::DRAGALISKFURIA,100)
+    pkmn.forcedForm = 1
+    pkmn.pbDeleteAllMoves
+    moves = [:DIVINEJUDGEMENT, :VOIDSTAR, :EARTHQUAKE, :NASTYPLOT]
+    for m in moves
+      pkmn.pbLearnMove(m)
+    end
+    pkmn.totalHp=1000
+    pkmn.hp=pkmn.totalhp
+    pkmn.attack=553
+    pkmn.defense=391
+    pkmn.spAtk=553
+    pkmn.spDef=391
+    pkmn.speed=554
+    pkmn.item = PBItems::PETAYABERRY
+  end
+
+  result = pbStartBossBattleMon(pkmn,nil,nil,false)
+  $game_switches[85] = false
+  $furiousBattle = false
+  return result
+end
+
 
 def pbBossTrainerBattle(trainer,endspeech)
   #trainer=pbLoadTrainerTournament(trainerid,trainername,trainerparty)
@@ -2502,6 +2555,7 @@ WILDAIMONSTER=
   PBSpecies::TAPULELEX => 1217,
   PBSpecies::TAPUKOKOX => 1219,
   PBSpecies::TAPUBULUX => 1269,
+  PBSpecies::DRAGALISK => 1318
 }
 
 Events.onWildPokemonCreate+=proc {|sender,e|

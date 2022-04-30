@@ -39427,6 +39427,9 @@ Sound Barrier
 745
 Assaggio
 Flavor Test
+746
+Giudizio Divino
+Divine Judgement
 [6]
 1
 Chi la usa utilizza il suo corpo per montare con grande forza il nemico.
