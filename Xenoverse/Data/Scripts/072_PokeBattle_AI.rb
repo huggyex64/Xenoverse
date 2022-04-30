@@ -1875,6 +1875,7 @@ class PokeBattle_Battle
         score+=30 if opponent.effects[PBEffects::TwoTurnAttack]!=0
         if skill>=PBTrainerAI.ultraSkill 
           if attacker.effects[PBEffects::ProtectRate] == 1
+            score+=100 if attacker.effects[PBEffects::Benevolence] && attacker.hasWorkingItem(:LEFTOVERS)
             score+=10000 if opponent.effects[PBEffects::Torment]
             score+=80 if opponent.status==PBStatuses::POISON
             score+=70 if opponent.status==PBStatuses::BURN
@@ -2584,9 +2585,13 @@ class PokeBattle_Battle
         score-=110
       end
     when 0x302 # Velvet Scales
-      if !opponent.pbOwnSide.effects[PBEffects::VelvetScales]
+      if !opponent.pbOwnSide.effects[PBEffects::VelvetScales] && skill == PBTrainerAI.ultraSkill
         
         score+=10000
+      end
+    when 0x305
+      if skill == PBTrainerAI.ultraSkill
+        score+=100 if !attacker.effects[PBEffects::Benevolence]
       end
     end
     # A score of 0 here means it should absolutely not be used
