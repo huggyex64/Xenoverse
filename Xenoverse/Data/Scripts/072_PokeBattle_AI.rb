@@ -4623,7 +4623,7 @@ class PokeBattle_Battle
     party=pbParty(attacker.index)
     oppparty=pbParty(opponent.index)
     user = PokeBattle_Battler.new(self,attacker.index)
-    user.pbInitialize(attacker.pokemon,party.index(attacker.pokemon),false,false)
+    user.pbInitialize(attacker.pokemon.clone,party.index(attacker.pokemon),false,false)
     
     user.stages[PBStats::ATTACK]   = attacker.stages[PBStats::ATTACK]
     user.stages[PBStats::DEFENSE]  = attacker.stages[PBStats::DEFENSE]
@@ -4636,7 +4636,7 @@ class PokeBattle_Battle
     user.effects = Marshal.load(Marshal.dump(attacker.effects))
 
     receiver = PokeBattle_Battler.new(self,opponent.index)
-    receiver.pbInitialize(opponent.pokemon,oppparty.index(opponent.pokemon),false,false)
+    receiver.pbInitialize(opponent.pokemon.clone,oppparty.index(opponent.pokemon),false,false)
 
     receiver.stages[PBStats::ATTACK]   = opponent.stages[PBStats::ATTACK]
     receiver.stages[PBStats::DEFENSE]  = opponent.stages[PBStats::DEFENSE]

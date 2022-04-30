@@ -379,9 +379,10 @@ class PokeBattle_Move_14B < PokeBattle_Move
 			0xAC,   # Wide Guard
 			0xE8,   # Endure
 			0x14B,  # King's Shield
-			0x14C   # Spiky Shield
+			0x14C,   # Spiky Shield
+			0x173    # Baneful Bunker
 		]
-		if !ratesharers.include?(PBMoveData.new(attacker.lastMoveUsed).function)
+		if !ratesharers.include?(PBMoveData.new(attacker.previousMove).function)
 			attacker.effects[PBEffects::ProtectRate]=1
 		end
 		unmoved=false
@@ -425,9 +426,10 @@ class PokeBattle_Move_14C < PokeBattle_Move
 			0xAC,   # Wide Guard
 			0xE8,   # Endure
 			0x14B,  # King's Shield
-			0x14C   # Spiky Shield
+			0x14C,   # Spiky Shield
+			0x173    # Baneful Bunker
 		]
-		if !ratesharers.include?(PBMoveData.new(attacker.lastMoveUsed).function)
+		if !ratesharers.include?(PBMoveData.new(attacker.previousMove).function)
 			attacker.effects[PBEffects::ProtectRate]=1
 		end
 		unmoved=false
@@ -770,7 +772,7 @@ class PokeBattle_Move_173 < PokeBattle_Move
 			0x14C,   # Spiky Shield
 			0x173    # Baneful Bunker
 		]
-		if !ratesharers.include?(PBMoveData.new(attacker.lastMoveUsed).function)
+		if !ratesharers.include?(PBMoveData.new(attacker.previousMove).function)
 			attacker.effects[PBEffects::ProtectRate]=1
 		end
 		unmoved=false

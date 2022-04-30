@@ -4046,9 +4046,13 @@ class PokeBattle_Move_0AA < PokeBattle_Move
 			0xAA,   # Detect, Protect
 			0xAB,   # Quick Guard
 			0xAC,   # Wide Guard
-			0xE8    # Endure
+			0xE8,   # Endure
+			0x14B,  # King's Shield
+			0x14C,   # Spiky Shield
+			0x173    # Baneful Bunker
 		]
-		if !ratesharers.include?(PBMoveData.new(attacker.lastMoveUsed).function)
+		echoln attacker.lastMoveUsed
+		if !ratesharers.include?(PBMoveData.new(attacker.previousMove).function)
 			attacker.effects[PBEffects::ProtectRate]=1
 		end
 		#TODO: Fails if this is the last attack in the round
@@ -5746,7 +5750,10 @@ class PokeBattle_Move_0E8 < PokeBattle_Move
 			0xAA,   # Detect, Protect
 			0xAB,   # Quick Guard
 			0xAC,   # Wide Guard
-			0xE8    # Endure
+			0xE8,   # Endure
+			0x14B,  # King's Shield
+			0x14C,   # Spiky Shield
+			0x173    # Baneful Bunker
 		]
 		if !ratesharers.include?(PBMoveData.new(attacker.lastMoveUsed).function)
 			attacker.effects[PBEffects::ProtectRate]=1

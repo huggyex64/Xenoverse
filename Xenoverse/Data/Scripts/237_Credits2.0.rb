@@ -37,7 +37,7 @@ if $DEBUG
   def exportCredits
     
     @credits = File.open("PBS/credits.txt").read.split("\n")
-    @creditsBitmap = Bitmap.new(512,(384+30*@credits.length))
+    @creditsBitmap = Bitmap.new(512,(30*@credits.length))
     pbSetSystemFont(@creditsBitmap)
     @creditsBitmap.font.size = $MKXP ? 20 : 22
     Console::setup_console

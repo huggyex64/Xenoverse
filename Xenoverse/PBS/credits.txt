@@ -14,28 +14,40 @@ Matteo Pacchetti
 Tiziano Bellu
 
 Eventer:
+- Beehive Studios -
 Fabrizio Laborano (Starkey)
+
+- Others -
 Pietro Fanti (Sasso)
 Christian Sardano (ZioCricco)
 Irene (Stygian)
 
 Scripting:
-Alvise Gorinati (Dr. Aghs)
-Federico Rapetti (Fuji)
+- Beehive Studios -
 Luca Todesca (Huggye)
 Paolo Lella (xZekro51)
 
+- Others -
+Alvise Gorinati (Dr. Aghs)
+Federico Rapetti (Fuji)
+
 Mapping:
+- Beehive Studios -
 Fabrizio Laborano (Starkey)
+
+- Others -
 Ivan Vanni (IvanFGK)
 Pietro Fanti (Sasso)
 Irene (Stygian)
 Christian Sardano (ZioCricco)
 
 Level Design:
+- Beehive Studios -
+Fabrizio Laborano (Starkey)
+
+- Others -
 Admir Hyka (Adi)
 Chrome
-Fabrizio Laborano (Starkey)
 Ivan Vanni (IvanFGK)
 Massimiliano Bruni (Makly)
 Irene (Stygian)
@@ -45,39 +57,54 @@ Admir Hyka(Adi)
 Michele Schirinzi (Mike)
 
 Competitive Design:
-Elite4
+- Beehive Studios -
+Luca Todesca (Huggye)
+Paolo Lella (xZekro51)
+
+- Elite4 -
 Gianluca Barbera (Barbie)
 Massimiliano Bruni (Makly)
 Matteo Facchinelli (Fachinhell)
 Michele Schirinzi (Mike)
-Luca Todesca (Huggye)
-Paolo Lella (xZekro51)
 
 Item Collocation:
 Admir Hyka (Adi)
 
 PBS:
+- Beehive Studios -
 Fabrizio Laborano (Starkey)
-Michele Schirinzi (Mike)
 Paolo Lella (xZekro51)
 
+- Others -
+Michele Schirinzi (Mike)
+
 Dialogues:
+- Beehive Studios -
+Fabrizio Laborano (Starkey)
+Paolo Lella (xZekro51)
+
+- Others -
 Massimilano Bruni (Makly)
 Michele Schirinzi (Mike)
 
 Art Direction:
-Elite4
-Gianluca Barbera (Barbie)
-Massimiliano Bruni (Makly)
-Matteo Facchinelli (Fachinhell)
-Michele Schirinzi (Mike)
-Beehive Studios
+- Beehive Studios -
 Daniele Procopio (Denilve)
 Fabrizio Laborano (Starkey)
 Gianmarco Bizzotto
 Matteo Pacchetti
 
+- Elite4 -
+Gianluca Barbera (Barbie)
+Massimiliano Bruni (Makly)
+Matteo Facchinelli (Fachinhell)
+Michele Schirinzi (Mike)
+
 Concept Art:
+- Beehive Studios -
+Daniele Procopio (Denilve)
+
+- Others -
 Gianluca Barbera (Barbie)
 Massimiliano Bruni (Makly)
 Matteo Facchinelli (Fachinhell)
@@ -85,26 +112,31 @@ Michele Schirinzi (Mike)
 Francesco Badalini (Badafra)
 Giancarlo Sotelo (Daku)
 Lorenzo Allievi (Mr.Sketchees)
-Beehive Studios
-Daniele Procopio (Denilve)
 
 
 Battlebacks:
+- Beehive Studios -
+Gianmarco Bizzotto
+
+- Others -
 Francesco Badalini (Badafra)
 Gianluca Barbera (Barbie)
 Massimiliano Bruni (Makly)
 Lorenzo Allievi (Mr.Sketchees)
-Beehive Studios
-Gianmarco Bizzotto
 
 Item Art:
-Giancarlo Sotelo (Daku)
-Gianluca Barbera (Barbie)
-Beehive Studios
+- Beehive Studios -
 Matteo Pacchetti
 
+- Others -
+Giancarlo Sotelo (Daku)
+Gianluca Barbera (Barbie)
+
 Tileset:
+- Beehive Studios -
 Fabrizio Laborano (Starkey)
+
+- Others -
 Ivan Vanni (IvanFGK)
 Massimiliano Bruni (Makly)
 Matteo Facchinelli (Fachinhell)
@@ -112,16 +144,21 @@ Michele Schirinzi (Mike)
 Irene (Stygian)
 
 Sprite:
-Alessandro Kondic (IlGordo)
+- Beehive Studios -
+Daniele Procopio (Denilve)
 Fabrizio Laborano (Starkey)
+
+- Others -
+Alessandro Kondic (IlGordo)
 Matteo Facchinelli (Fachinhell)
 Michele Schirinzi (Mike)
 Nicola Rana (Numb)
-Beehive Studios
-Daniele Procopio (Denilve)
 
 Animation:
+- Beehive Studios -
 Fabrizio Laborano (Starkey)
+
+- Others -
 Francesco Badalini (Badafra)
 Gianluca Barbera (Barbie)
 Nicola Cantarutti
@@ -136,50 +173,68 @@ snivy101
 Smogon Sprite Project
 
 UI Design:
-Gianluca Barbera (Barbie)
-Michele Schirinzi (Mike)
-Beehive Studios
+- Beehive Studios -
 Paolo Lella (xZekro51)
 Gianmarco Bizzotto
 Matteo Pacchetti
 
+- Others -
+Gianluca Barbera (Barbie)
+Michele Schirinzi (Mike)
+
 
 Lighting:
+- Beehive Studios -
 Fabrizio Laborano (Starkey)
+
+- Others -
 Massimiliano Bruni (Makly)
 
 3D Art:
+- Beehive Studios -
 Fabrizio Laborano (Starkey)
+
+- Others -
 Matteo Facchinelli (Fachinhell)
 
 Music:
+- Beehive Studios -
+Giovanni Santolla (Ikisudama)
+Lorenzo Varriano
+Tiziano Bellu
+
+- Others -
 Eugenio Intemerato
 Fabrizio Falco
 Federico Gemignani
 Francesco Cilurzo (Cydonia)
-Giovanni Santolla (Ikisudama)
-Lorenzo Varriano
 Mediograve
 Rebecca Tempestini
 Shino
-Tiziano Bellu
 
 Sound Effect:
+- Beehive Studios -
 Giovanni Santolla (Ikisudama)
 Lorenzo Varriano
 
 Trailer Artist:
-Fabrizio Laborano (Starkey)
-Francesco Badalini (Badafra)
-Gianluca Barbera(Barbie)
+- Beehive Studios -
 Denilve
+Fabrizio Laborano (Starkey)
 Gianmarco Bizzotto
 Matteo Pachetti
 
+- Others -
+Francesco Badalini (Badafra)
+Gianluca Barbera(Barbie)
+
 Music Trailer:
-Francesco Cilurzo (Cydonia)
+- Beehive Studios -
 Giovanni Santolla (Ikisudama)
 Lorenzo Varriano
+
+- Others -
+Francesco Cilurzo (Cydonia)
 
 Beta Tester:
 Alessandro Laborano
@@ -211,6 +266,7 @@ Margherita Barucchi
 Matteo Facchinelli (Fachinhell)
 Michele Schirinzi (Mike)
 Nicole (kuroimew)
+Paolo Lella
 Stefano Bettarini
 Stefano Blanquillo
 Stefano Manno
@@ -219,235 +275,121 @@ Mascotte:
 Donanas
 
 Twitch Supporter:
-Boostaph0
-Luke Genovese
-Il Fu Pascal
-FazNick
-Kuroeks (Gabriele Giugno)
-Zero
-Drgsly
-Giuseppe Gargano
-Cata Ita
-Max
-Luigi Patania Lucyan
-White Zekrom
-Pavolo99
-christian061106
-Samuele Vinci
-Gigio25
-UltraDen
-Andrea Conti
-Beatrice
-Drago Stea
-3lectricfr0st06
-Francesco Matrone
-Lorezoldik
-Anodachi
-John
-Vincenzo Loscalzo
-Sergio Falcone
-Ottavio Pace
-IlVecchioKamikaze
-TN
-Sandro Vegas
-Gabb ch
-Chlaunder
-Luca T Junior
-faderquidam
-Lightalababama
-Meo Dux
-Aero FOLINO
-Moggie9
-Francesco Amerigo Giambanco
-Magolor139
-Faber76
-Joti92
-BlueVera
-Nitrox91
-Raffaele Nero
-Susie
-Luca Gandolfi
-Malpercio90
-Alelley
-Arsenic Gengar
-miralore02
-Ciro Montagna
-Domenico Sironi
-Lorenzo D'Errico
-Federico Prosdocimi
-Gabriele Gibilras
-Polski2
-Garnet14
-Dragonalex02
-Ataashi
-Chakra
-Antonino Lo Coco
-Dominic22ita
-Pasquale
-frasso123
-G4Jake
-Ruben Albano
-Il Meggio
-Ada Desimone
-Romix
-Matteo Pappalardo
-hellmo
-Lufa5757
-Heroesblack
-Saibbaturi
-Alessandro Carzeri
-Elia Dapra
-Daniele Tizzi
-Hilaris Nephrite
-Pietro Maiorano
-Giuliano Talmon
-Giovanni Noe
-Armoss
-Riccardo Galliero
-Feb997
-Blacksheep
-Prompo Rh
-Samuele Spiga
-Zuno (Bruno Zollino)
-Michele Visona
-Tonito 75 Noyl
-Ina
-28fury28
-Antonio Guariglia
-XmAtX
-GaetanoTuf
-Sghery90
-AlbertoCesare Campia
-Impimatte
-Phoenix027
-Giovanni Belmonte
-Nicola Matteucci 97
-Moreno
-Palma
-Ryzko Live
-Domenico Ruggiero
-Riccardo Lozza
-Karimpinna
-Steka 96
-Andrei
-Gioele De Gaetano
-Pugleezy
-noirr
-SonDitto
-Nicole (vyndraa)
-St3RmY
-Louneigg
-Mauro 3
-Riccardo Zago
-Raffaele (Flaffo)
-Drew
-L1l T
-Luca Del Vecchio
-Paolo (Inevitable Paoletto)
-lorenzo_gasbo
-PazzoPietro
-Carlo Pisano
-Wagner Jeager
-Erik Rocha
-IronNMatt
-Simone Pedrocchi
-Manuel Marchetti
-Mattia Di Stefano
-Ferdy
-EMSlrocco
-Piramidos
-Domenico Scalici
-Morgan Berti
-Fortebrako
-Donbox98
-Marco Bottasso
-TanJem
-RodinTheMerchant
-Daniele Bag
-Edoardo (CopperHidra)
-GoodMaxy
-de_cifris
-Flareus
-Oranges4Lunch
-Luca Mason
-Francesco Alessi
-Andrea (Andreal 94)
-Ray Amyrand
-Incineroar (Zack)
-Zannaleok
-Joj
-Luke
-Sans05
-Domenico Russo
-Tamashii Wukong
-Davide Esposito
-Fed Del
-Kys
-Francesco Pio De Rosario
-Ruben
-fra dig 126
-TheGiulioCesare
-alexander previtali
-Andrea (AndreaBellinvia)
-Christian S.Torrisi
-Lorex297
-Okami
-Giuseppe Tringali
-Leandro Mattera
-Giacomo Donadel
-ILFoglia
-Samuele Bitossi
-Simone Cardin
-Gwindolyn
-Marx
-vanoclorico
-Anna Cascioli
-uselessAlbatross
-Davide Mark
-giuseppefazzo
-ImFedehh
-christian pacca
-Cmajo99
-Andrea Maruzzella
-Beretta Matteo
-Crody
-Luca Fagnoni
-LukeKrookodileWalker
-Mattia L
-Federica Celes
-SamRoYaL
-Rasho
-Ciaoma00
-Simone Rodolfi
-Sofy
-Snoopy
-Alenas
-Andrea (Andre03997)
-Lucalik
-Aderot 36
-Roblank
-fragolinobello.
-tia
-Alex (Light68)
-Trish
-Savile
-Edoardo Giuseppe Milazzo
-marcogianne
-Valerio Barone
-Angelo (FlameWOLFx31)
-Matteo (LeChuckIV)
-Francesco (ShinySoul)
+28fury28   3lectricfr0st06
+Ada Desimone   Aderot 36
+Aero FOLINO   AlbertoCesare Campia
+Alelley   Alenas
+Alessandro Carzeri   Alessio Vicario
+Alex (Light68)   Andrea (Andre03997)
+Andrea (AndreaBellinvia)   Andrea (Andreal 94)
+Andrea Conti   Andrea Maruzzella
+Andrei   Angelo (FlameWOLFx31)
+Anna Cascioli   Anodachi
+Antonino Lo Coco   Antonio Guariglia
+Armoss   Arsenic Gengar
+Ataashi   Beatrice
+Beretta Matteo   Blacksheep
+BlueVera   Boostaph0
+Carlo Pisano   Cata Ita
+Chakra   Chlaunder
+Christian S.Torrisi   Ciaoma00
+Ciro Montagna   Cmajo99
+Crody   Daniele Bag
+Daniele Tizzi   Davide Esposito
+Davide Mark   Domenico Ruggiero
+Domenico Russo   Domenico Scalici
+Domenico Sironi   Dominic22ita
+Donbox98   Drago Stea
+Dragonalex02   Drew
+Drgsly   EMSlrocco
+Edoardo (CopperHidra)   Edoardo Giuseppe Milazzo
+Elia Dapra   EnderWalker_
+Erik Rocha   Faber76
+FazNick   Feb997
+Fed Del   Federica Celes
+Federico Prosdocimi   Ferdy
+Flareus   Fortebrako
+Francesco (ShinySoul)   Francesco Alessi
+Francesco Amerigo Giambanco   Francesco Matrone
+Francesco Pio De Rosario   G4Jake
+Gabb ch   Gabriele Gibilras
+GaetanoTuf   Garnet14
+Gavril CMP   Giacomo Donadel
+Gigio25   Gioele De Gaetano
+Giovanni Belmonte   Giovanni Noe
+Giuliano Talmon   Giuseppe Gargano
+Giuseppe Tringali   GoodMaxy
+Gwindolyn   Heroesblack
+Hilaris Nephrite   ILFoglia
+Il Fu Pascal   Il Meggio
+IlVecchioKamikaze   ImFedehh
+Impimatte   Ina
+Incineroar (Zack)   IronNMatt
+John   Joj
+Joti92   Karimpinna
+Kuroeks (Gabriele Giugno)   Kys
+L1l T   Leandro Mattera
+Lightalababama   Lorenzo D'Errico
+Lorex297   Lorezoldik
+Louneigg   Luca Del Vecchio
+Luca Fagnoni   Luca Gandolfi
+Luca Mason   Luca T Junior
+Lucalik   Lufa5757
+Luigi Patania Lucyan   Luke
+Luke Genovese   LukeKrookodileWalker
+Magolor139   Malpercio90
+Manuel Marchetti   Marco Bottasso
+Marx   Matteo (LeChuckIV)
+Matteo Boddi   Matteo Pappalardo
+Mattia   Mattia Di Stefano
+Mattia L   Mauro 3
+Max   Meo Dux
+Michele Visona   Moggie9
+Moreno   Morgan Berti
+MrElectricYT   Nicola Matteucci 97
+Nicole (vyndraa)   Nitrox91
+Okami   Oranges4Lunch
+Ottavio Pace   Palma
+Paolo (Inevitable Paoletto)   Pasquale
+Pavolo99   PazzoPietro
+Phoenix027   Pietro Maiorano
+Piramidos   Polski2
+Prompo Rh   Pugleezy
+Raffaele (Flaffo)   Raffaele Nero
+Rasho   Ray Amyrand
+Riccardo Galliero   Riccardo Lozza
+Riccardo Zago   Roblank
+RodinTheMerchant   Romix
+Ruben   Ruben Albano
+Ryzko Live   Saibbaturi
+SamRoYaL   Samuele Bitossi
+Samuele Spiga   Samuele Vinci
+Sandro Vegas   Sans05
+Savile   Sergio Falcone
+Sghery90   Simone Cardin
+Simone Pedrocchi   Simone Rodolfi
+Snoopy   Sofy
+SonDitto   St3RmY
+Steka 96   Susie
+TN   Tamashii Wukong
+TanJem   TheGiulioCesare
+Tonito 75 Noyl   Trish
+UltraDen   Valerio Barone
+Vincenzo Carpignano   Vincenzo Loscalzo
+Wagner Jeager   White Zekrom
+XmAtX   Yaro
+Zannaleok   Zero
+Zippy   Zuno (Bruno Zollino)
+alexander previtali   christian pacca
+christian061106   de_cifris
+faderquidam   fra dig 126
+fragolinobello.   frasso123
+giuseppefazzo   hellmo
+lorenzo_gasbo   marcogianne
+miralore02   noirr
+pand3mia   tia
+uselessAlbatross   vanoclorico
 vivi vi
-Matteo Boddi
-MrElectricYT
-Yaro
-pand3mia
-Zippy
-Gavril CMP
-Alessio Vicario
-Mattia 
-Vincenzo Carpignano
-EnderWalker_
 
 Special Supporter:
 aDrive
@@ -541,7 +483,7 @@ Enterbrain
 Powered by mkxp-z
 
 If we forgot to mention you, please forgive us and contact us:
-weedlechannel@gmail.com
+weedlechannel@gmail.com or beehivestudioscom@gmail.com
 
 Thanks to all our supporters for the patience.
 We hope you liked the game.

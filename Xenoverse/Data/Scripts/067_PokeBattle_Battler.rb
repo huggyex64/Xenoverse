@@ -27,6 +27,7 @@ class PokeBattle_Battler
 	attr_accessor :lastHPLost
 	attr_accessor :lastMoveUsed
 	attr_accessor :lastMoveUsedSketch
+	attr_accessor :previousMove
 	attr_accessor :lastRegularMoveUsed
 	attr_accessor :lastRoundMoved
 	attr_accessor :movesUsed
@@ -256,6 +257,7 @@ class PokeBattle_Battler
 			@stages[PBStats::EVASION]  = 0
 			@stages[PBStats::ACCURACY] = 0
 			@lastMoveUsedSketch        = -1
+			@previousMove              = -1
 			@effects[PBEffects::AquaRing]    = false
 			@effects[PBEffects::Confusion]   = 0
 			@effects[PBEffects::Curse]       = false
@@ -1433,19 +1435,26 @@ class PokeBattle_Battler
 			
 			if target.hasWorkingItem(:REDCARD) && target.pbOpposingSide.effects[PBEffects::Switch][user]==nil
 				PBDebug.log("[#{target.pbThis}'s Red Card triggered]")
-				
-				target.pokemon.itemRecycle=target.item
-				target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
-				target.item=0
-				user.pbOwnSide.effects[PBEffects::Switch][user]=target
-				@battle.pbDisplay(_INTL("{1} went back to {2}!",user.pbThis,@battle.pbGetOwner(user.index).name))
-				newpoke=0
-				newpoke=@battle.pbSwitchInBetween(user.index,true,false)
-				@battle.pbMessagesOnReplace(user.index,newpoke)
-				user.pbResetForm
-				@battle.pbReplace(user.index,newpoke,true)
-				@battle.pbOnActiveOne(user)
-				user.pbAbilitiesOnSwitchIn(true)
+				choices=[]
+				party=@battle.pbParty(target.index)
+				for i in 0...party.length
+					choices[choices.length]=i if @battle.pbCanSwitchLax?(target.index,i,false)
+				end
+				if choices.length>0
+					
+					target.pokemon.itemRecycle=target.item
+					target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
+					target.item=0
+					user.pbOwnSide.effects[PBEffects::Switch][user]=target
+					@battle.pbDisplay(_INTL("{1} went back to {2}!",user.pbThis,@battle.pbGetOwner(user.index).name))
+					
+					newpoke=choices[@battle.pbRandom(choices.length)]
+					@battle.pbMessagesOnReplace(user.index,newpoke)
+					user.pbResetForm
+					@battle.pbReplace(user.index,newpoke,true)
+					@battle.pbOnActiveOne(user)
+					user.pbAbilitiesOnSwitchIn(true)
+				end
 			end
 			if target.hasWorkingItem(:AIRBALLOON,true)
 				target.pokemon.itemRecycle=target.item
@@ -3436,6 +3445,8 @@ class PokeBattle_Battler
 		for i in 0...4
 			@battle.successStates[i].updateSkill
 		end
+		#sets previously used move
+		user.previousMove = thismove.id
 		# End of move usage
 		pbEndTurn(choice)
 		@battle.pbJudge #    @battle.pbSwitch

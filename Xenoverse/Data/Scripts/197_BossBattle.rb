@@ -2257,21 +2257,21 @@ def pbVakumBossBattle(hardmode = false)
     #easy
     stats = [
       #HP, atk, def, spe, spa, spd
-      [728,338,329,409,476,329], #EGORGEON - DRIZZLE
-      [724,366,309,391,453,329], #TORNADUS - DEFIANT
-      [724,366,309,391,453,329], #THUNDURUS - DEFIANT
-      [764,453,359,371,366,329], #LANDORUS - SHEER FORCE
-      [704,376,309,381,475,329], #ENAMORUS - COMPETITIVE
+      [628,338,329,409,476,329], #EGORGEON - DRIZZLE
+      [624,366,309,391,453,329], #TORNADUS - DEFIANT
+      [624,366,309,391,453,329], #THUNDURUS - DEFIANT
+      [664,453,359,371,366,329], #LANDORUS - SHEER FORCE
+      [604,376,309,381,475,329], #ENAMORUS - COMPETITIVE
     ]
   else
     #hard
     stats = [
       #HP, atk, def, spe, spa, spd
-      [928,378,369,449,516,369], #EGORGEON - DRIZZLE
-      [924,406,349,431,493,369], #TORNADUS - DEFIANT
-      [924,406,349,431,493,369], #THUNDURUS - DEFIANT
-      [964,493,359,411,406,369], #LANDORUS - SHEER FORCE
-      [904,416,349,421,515,369], #ENAMORUS - COMPETITIVE
+      [828,378,369,449,516,369], #EGORGEON - DRIZZLE
+      [824,406,349,431,493,369], #TORNADUS - DEFIANT
+      [824,406,349,431,493,369], #THUNDURUS - DEFIANT
+      [864,493,359,411,406,369], #LANDORUS - SHEER FORCE
+      [804,416,349,421,515,369], #ENAMORUS - COMPETITIVE
     ]
   end
 
@@ -2315,6 +2315,51 @@ def pbVakumBossBattle(hardmode = false)
   return result
 end
 
+def pbDraga1BossBattle
+  $furiousBattle = true
+
+  $game_switches[85] = true
+  $mods.set(6, nil, nil)
+  $wildSpecies = PBSpecies::TAPUBULUX
+
+  #Tapu Bulu X
+  if $game_switches[1268]==true #EASY
+    pkmn = pbGenerateWildPokemon(PBSpecies::TAPUBULUX,100)
+    pkmn.pbDeleteAllMoves
+    moves = [:SUPERPOWER, :OUTRAGE, :MEGAHORN, :NIGHTSLASH]
+    for m in moves
+      pkmn.pbLearnMove(m)
+    end
+    pkmn.totalHp=808
+    pkmn.hp=pkmn.totalhp
+    pkmn.attack=513
+    pkmn.defense=381
+    pkmn.spAtk=286
+    pkmn.spDef=254
+    pkmn.speed=194
+    pkmn.item=PBItems::DRACOPLATE
+  elsif $game_switches[1269]==true #HARD
+    pkmn = pbGenerateWildPokemon(PBSpecies::TAPUBULUX,100)
+    pkmn.pbDeleteAllMoves
+    moves = [:IRONHEAD, :DRAGONDANCE, :DRAGONCLAW, :NIGHTSLASH]
+    for m in moves
+      pkmn.pbLearnMove(m)
+    end
+    pkmn.totalHp=988
+    pkmn.hp=pkmn.totalhp
+    pkmn.attack=613
+    pkmn.defense=421
+    pkmn.spAtk=326
+    pkmn.spDef=294
+    pkmn.speed=234
+    pkmn.item=PBItems::EXPERTBELT
+  end
+
+  result = pbStartBossBattleMon(pkmn,nil,nil,false)
+  $game_switches[85] = false
+  $furiousBattle = false
+  return result
+end
 
 def pbBossTrainerBattle(trainer,endspeech)
   #trainer=pbLoadTrainerTournament(trainerid,trainername,trainerparty)
