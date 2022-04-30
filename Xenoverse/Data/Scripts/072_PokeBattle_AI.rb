@@ -228,14 +228,14 @@ class PokeBattle_Battle
       end
     when 0x12
       if attacker.turncount==0
-        if skill>=PBTrainerAI.highSkill
-          score+=30 if !opponent.hasWorkingAbility(:INNERFOCUS) &&
-                       opponent.effects[PBEffects::Substitute]==0
-        end
         if skill == PBTrainerAI.ultraSkill
           score+=500 if !opponent.hasWorkingAbility(:INNERFOCUS) &&
                        opponent.effects[PBEffects::Substitute]==0
+        elsif skill>=PBTrainerAI.highSkill
+          score+=30 if !opponent.hasWorkingAbility(:INNERFOCUS) &&
+                       opponent.effects[PBEffects::Substitute]==0
         end
+        
       else
         score-=90 # Because it will fail here
         if skill>=PBTrainerAI.bestSkill
