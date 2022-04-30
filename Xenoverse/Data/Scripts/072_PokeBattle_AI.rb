@@ -232,7 +232,7 @@ class PokeBattle_Battle
           score+=30 if !opponent.hasWorkingAbility(:INNERFOCUS) &&
                        opponent.effects[PBEffects::Substitute]==0
         end
-        if skill == PBTrainerAI.highSkill
+        if skill == PBTrainerAI.ultraSkill
           score+=500 if !opponent.hasWorkingAbility(:INNERFOCUS) &&
                        opponent.effects[PBEffects::Substitute]==0
         end
