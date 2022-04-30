@@ -438,6 +438,9 @@ class PokeBattle_Battle
       else
         score+=20 if attacker.stages[PBStats::EVASION]<0
       end
+      if skill == PBTrainerAI.ultraSkill
+        score+=200 if opponent.effects[PBEffects::Torment]
+      end
     when 0x23
       if move.basedamage==0
         if attacker.effects[PBEffects::FocusEnergy]>=2
@@ -1860,6 +1863,7 @@ class PokeBattle_Battle
       end
     when 0xA9
     when 0xAA
+      
       if attacker.effects[PBEffects::ProtectRate]>1 ||
          opponent.effects[PBEffects::HyperBeam]>0
         score-=90
@@ -1871,6 +1875,7 @@ class PokeBattle_Battle
         score+=30 if opponent.effects[PBEffects::TwoTurnAttack]!=0
         if skill>=PBTrainerAI.ultraSkill 
           if attacker.effects[PBEffects::ProtectRate] == 1
+            score+=10000 if opponent.effects[PBEffects::Torment]
             score+=80 if opponent.status==PBStatuses::POISON
             score+=70 if opponent.status==PBStatuses::BURN
           end
@@ -1900,6 +1905,7 @@ class PokeBattle_Battle
     when 0xB6
     when 0xB7
       score-=90 if opponent.effects[PBEffects::Torment]
+      score+=10000 if !opponent.effects[PBEffects::Torment]
     when 0xB8
       score-=90 if attacker.effects[PBEffects::Imprison]
     when 0xB9
