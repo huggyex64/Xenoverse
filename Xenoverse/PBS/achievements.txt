@@ -413,3 +413,53 @@ title = Danzare nel buio
 description = Sconfiggi Dante nel Torneo Apollo.
 amount = 1
 image = 83_gang
+[Martello]
+title = Il martello nella roccia
+description = Sconfiggi Aegislash X.
+amount = 1
+image = 84_martello
+[Araldi]
+title = Araldi della fine
+description = Sconfiggi tutti i Tapu sul Monte Zodiaco Alterato.
+amount = 1
+image = 85_araldi
+[Corridore]
+title = Corridore di un altro mondo
+description = Scopri la dimensione di Donanas.
+amount = 1
+image = 86_corridore
+[Impera]
+title = Chaos Omnia Impera
+description = Concludi con successo il Pass 4.
+amount = 1
+image = 87_impera
+[Geni]
+title = Le forze della natura
+description = Ottieni tutti e 4 i geni sul Monte Zodiaco Alterato.
+amount = 1
+image = 88_geni
+[Sfilata]
+title = Sfilata elettrizzante
+description = Sconfiggi Stella nel Torneo Apollo.
+amount = 1
+image = 89_sfilata
+[Clawman]
+title = Clawman l'invincibile
+description = Sconfiggi Clawman nel Torneo Apollo.
+amount = 1
+image = 90_clawman
+[Exception]
+title = Null Exception
+description = Sconfiggi Iridio nel Torneo Apollo.
+amount = 1
+image = 91_exception
+[Danza]
+title = Danza della meditazione
+description = Sconfiggi Valentina nel Torneo Apollo.
+amount = 1
+image = 92_danza
+[Milioni]
+title = Fra milioni di stelle
+description = Riconquista di nuovo la vetta del Monte Zodiaco.
+amount = 1
+image = 93_milioni
