@@ -1567,7 +1567,11 @@ ItemHandlers::BattleUseOnPokemon.add(:FULLRESTORE,proc{|item,pokemon,battler,sce
      battler.hp=pokemon.hp if battler
      pokemon.status=0
      pokemon.statusCount=0
-     battler.status=0 if battler
+    if battler
+      echoln "USING FULLRESTORE ON A BATTLER HERE!"
+      battler.status=0 
+      battler.statusCount=0
+     end 
      battler.effects[PBEffects::Confusion]=0 if battler
      scene.pbRefresh
      if hpgain>0
