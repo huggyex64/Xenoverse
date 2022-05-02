@@ -109,8 +109,8 @@ class OnlineLobby
       @sprites["avatarborder"].visible = false
       @sprites["avatarborder"].ox = @sprites["avatarborder"].bitmap.width/2
       @sprites["avatarborder"].oy = @sprites["avatarborder"].bitmap.height/2
-      @sprites["avatarborder"].x = 417
-      @sprites["avatarborder"].y = 120
+      @sprites["avatarborder"].x = 414
+      @sprites["avatarborder"].y = 122
       #self.createUI
     }
   end
@@ -672,8 +672,8 @@ class OnlineLobby
   def pbAvatarSelectionScreen(msgwindow)
 
     special = {
-      :KAYAEROPORTO => "Kay",
-      :ALICEAEROPORTO => "Alice",
+      :KAY2 => "Kay",
+      :ALICE2 => "Alice",
       :DARKKAYTRISHOUT => "Alter",
       :DARKALICETRISHOUT => "Alter",
       :GENERALEVICTOR => "Victor",
@@ -818,8 +818,8 @@ class OnlineLobby
       if pbResolveBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}")
         sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}").clone #TODO: Change with actual avatar
         
-        sprites["trainerIcon#{i}"].x = 116 + 69*i
-        sprites["trainerIcon#{i}"].y = 341
+        sprites["trainerIcon#{i}"].x = 117 + 69*i
+        sprites["trainerIcon#{i}"].y = 343
       else
         sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/Lance").clone
         
@@ -916,8 +916,8 @@ class OnlineLobby
           if pbResolveBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}")
             sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}").clone #TODO: Change with actual avatar
             
-            sprites["trainerIcon#{i}"].x = 116 + 69*i
-            sprites["trainerIcon#{i}"].y = 341
+            sprites["trainerIcon#{i}"].x = 117 + 69*i
+            sprites["trainerIcon#{i}"].y = 343
           else
             sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/Lance").clone
             
@@ -937,9 +937,9 @@ class OnlineLobby
         for i in 0...5
           if pbResolveBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}")
             sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}").clone #TODO: Change with actual avatar
-            
-            sprites["trainerIcon#{i}"].x = 116 + 69*i
-            sprites["trainerIcon#{i}"].y = 341
+                
+            sprites["trainerIcon#{i}"].x = 117 + 69*i
+            sprites["trainerIcon#{i}"].y = 343
           else
             sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/Lance").clone
             
@@ -1963,7 +1963,7 @@ module CableClub
 
   
   ONLINE_TRAINER_TYPE_LIST = [
-    [:KAYAEROPORTO,:ALICEAEROPORTO],
+    [:KAY2,:ALICE2],
    # [:POKEMONTRAINER_Red,:POKEMONTRAINER_Leaf],
    # [:PSYCHIC_M,:PSYCHIC_F],
    # [:BLACKBELT,:CRUSHGIRL],
@@ -1994,8 +1994,8 @@ module CableClub
   def self.getOnlineTrainerTypeList()
     ret = []
     # Standard
-    ret.push(:KAYAEROPORTO)
-    ret.push(:ALICEAEROPORTO)
+    ret.push(:KAY2)
+    ret.push(:ALICE2)
     ret.push(:CAPOPALESTRA_ERBA)
     ret.push(:CAPOPALESTRA_FOLLETTO)
     ret.push(:ALEXANDRACAPO)
@@ -2003,8 +2003,8 @@ module CableClub
     # Alter
     ret.push(:DARKKAYTRISHOUT)
     ret.push(:DARKALICETRISHOUT) 
-    ret.push(:PROFESSORE)
-    ret.push(:PROFESSORESSA)
+    #ret.push(:PROFESSORE)
+    #ret.push(:PROFESSORESSA)
     ret.push(:GENERALEVICTOR)
     ret.push(:GOLD)
     # Cardinals

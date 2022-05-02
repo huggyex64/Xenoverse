@@ -2344,7 +2344,7 @@ def pbDraga1BossBattle
     pkmn = pbGenerateWildPokemon(PBSpecies::DRAGALISK,100)
     pkmn.forcedForm = 1
     pkmn.pbDeleteAllMoves
-    moves = [:TORMENT, :PROTECT, :DOUBLETEAM, :FREEZEDRY]
+    moves = [:TORMENT, :PROTECT, :PSYCHOSHIFT, :FREEZEDRY]
     for m in moves
       pkmn.pbLearnMove(m)
     end
