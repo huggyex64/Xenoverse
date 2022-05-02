@@ -155,7 +155,7 @@
 156,MERCANTEALOLA,(Mercante),50,,Trainer Victory,,Male,
 157,MUNHALLOWEEN,(Bullo),50,,Trainer Victory,,Male,
 158,MINHALLOWEEN,(Bullo),50,,Trainer Victory,,Male,
-159,RECLUTAROCKET,(Recluta),60,,,,Male,
+159,REWARDBETA,(Vintage),60,,,,Male,
 160,CONSIGLIERE,(Consigliere),60,,Trainer Victory,,Male,
 162,ALEXANDRACAPO,(Capopalestra),100,vs.gym-leader.mp3.mp3,victory gym,,Female,
 163,MAURICE,(S.P.E.T.T.R.I.),70,,Trainer Victory,,Male,
