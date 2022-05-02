@@ -2600,6 +2600,9 @@ class PokeBattle_Battle
         score+=100 if !attacker.effects[PBEffects::Benevolence]
       end
     end
+    if opponent.hasWorkingAbility(:MAGICBOUNCE)
+      score -= 10000000 if move.category == 2 
+    end
     # A score of 0 here means it should absolutely not be used
     return score if score<=0
 ##### Other score modifications ################################################
