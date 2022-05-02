@@ -260,3 +260,5 @@
 263,SIGMATOURNAMENT,(Sergente Dimension),,VS-AB,Team Dimension Victory,,Mixed,127
 264,CRISANTETOURNAMENT,(Capopalestra),,,,,Male,127
 265,TREYTOURNAMENT,(Rivale),,,,,Male,127
+266,ALICECHAMPION,(Sognatrice),100,VS.Champion,victory champion,,Female,255
+267,KAYCHAMPION,(Sognatore),100,VS.Champion,victory champion,,Male,255
