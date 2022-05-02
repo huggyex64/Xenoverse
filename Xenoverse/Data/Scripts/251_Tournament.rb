@@ -1179,6 +1179,14 @@ TRAINERPOOL_basic=[  #ALMENO 8 ALLENATORI
   ["reclutafside",PBTrainers::TEAMDIMENSIONF,"T3S",_INTL("Screanzato!"),1],
   ["minside",PBTrainers::MINTOURNAMENT,"Min",_INTL("Mun, ho fallito!"),2],
   ["Gennaro Bullo",PBTrainers::GENNAROTOURNAMENT,"Gennaro",_INTL("Non di nuovo!"),5],
+  #PASS 4
+  ["alisso",PBTrainers::ALISSOTOURNAMENT,"Alisso",_INTL("...!"),3],
+  ["munside",PBTrainers::MUNTOURNAMENT,"Mun",_INTL("Min, non ce l'ho fatta!"),4],
+  ["silvia",PBTrainers::SILVIATOURNAMENT,"Silvia",_INTL("Caliente come sempre!"),4],
+  ["S",PBTrainers::SIGMATOURNAMENT,"S",_INTL("Oh diamine!"),1],
+  ["crisante",PBTrainers::CRISANTETOURNAMENT,"Crisante",_INTL("Qual verso potrà mai calmare la mia frustrazione?"),2],
+  #["trey",PBTrainers::TREYTOURNAMENT,"Trey",_INTL("Hmph! La prossima volta vincerò io!"),5],
+
 
   #NORMALI
   ["Ranger femmina 1",PBTrainers::RANGERF,"Solana",_INTL("Per poco!"),0],
@@ -2165,12 +2173,14 @@ class PWT
          trainerpool=TRAINERPOOL_basic
          
          #push trey if pass 4 is over
+         trainerpool << ["trey",PBTrainers::TREYTOURNAMENT,"Trey",_INTL("Hmph! La prossima volta vincerò io!"),5] if $game_switches[1330]==true
 
          @rounds=3
        when 1
          trainerpool=TRAINERPOOL_hard
          
          #push trey if pass 4 is over
+         trainerpool << ["trey",PBTrainers::TREYTOURNAMENT,"Trey",_INTL("Hmph! La prossima volta vincerò io!"),5] if $game_switches[1330]==true
          
          @rounds=4
        when 2
