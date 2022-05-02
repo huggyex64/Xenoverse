@@ -160,10 +160,7 @@ module PokeBattle_BattleCommon
 				shakes=4
 			else
 				if !rareness
-					dexdata=pbOpenDexData
-					pbDexDataOffset(dexdata,species,16)
-					rareness=dexdata.fgetb # Get rareness from dexdata file
-					dexdata.close
+					rareness = pokemon.rareness
 				end
 				a=battler.totalhp
 				b=battler.hp

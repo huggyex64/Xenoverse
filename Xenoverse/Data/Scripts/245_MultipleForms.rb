@@ -28,6 +28,8 @@ class PokeBattle_Pokemon
 		return v if v!=nil
 		return original
 	end
+
+	
 	
 	def formNoCall=(value)
 		@form=value
@@ -111,6 +113,7 @@ class PokeBattle_Pokemon
 	alias __mf_baseExp baseExp
 	alias __mf_evYield evYield
 	alias __mf_initialize initialize
+	alias __mf_rareness rareness
 	
 	def baseStats
 		v=MultipleForms.call("getBaseStats",self)
@@ -118,6 +121,12 @@ class PokeBattle_Pokemon
 		return self.__mf_baseStats
 	end
 	
+	def rareness
+		v = MultipleForms.call("getRareness",self)
+		return v if v!=nil
+		return self.__mf_rareness
+	end
+
 	def ability
 		v=MultipleForms.call("ability",self)
 		return v if v!=nil
@@ -3364,6 +3373,18 @@ MultipleForms.register(:MIENSHAO,{
 	},
 	"ability"=>proc{|pokemon|
 		next getID(PBAbilities,:WATERSTREAM) if pokemon.form==1
+		next
+	},
+	"onSetForm"=>proc{|pokemon,form|
+		pbSeenForm(pokemon)
+	}
+})
+
+
+#MIENSHAO
+MultipleForms.register(:DONANAS,{
+	"getRareness"=>proc{|pokemon|
+		next 6 if pokemon.form == 6
 		next
 	},
 	"onSetForm"=>proc{|pokemon,form|

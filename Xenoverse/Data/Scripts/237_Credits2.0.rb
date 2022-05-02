@@ -66,7 +66,7 @@ end
 
 class Credits
   
-  def initialize
+  def initialize(strange = false)
     @random = false
     @frame = 0
     @bgframe = 0
@@ -74,6 +74,8 @@ class Credits
     @changebgtime =  @fullduration/41#600
     @fadebgtime = 40
     
+    @strange = strange
+
     @thanksforplaying = true
     
     Console::setup_console if $DEBUG
@@ -92,7 +94,14 @@ class Credits
     @sprites["blackBG"].bitmap = Bitmap.new(512,384)
     @sprites["blackBG"].bitmap.fill_rect(0,0,512,384,Color.new(0,0,0))
     
-    
+    if @strange
+      @sprites["whites"] = EAMSprite.new(@viewport)
+      @sprites["whites"].bitmap = Bitmap.new(512,384)
+      @sprites["whites"].bitmap.fill_rect(0,0,512,384,Color.new(255,255,255))
+      @sprites["whites"].opacity = 0
+      @sprites["whites"].fade(255,6000,:ease_in_cubic)
+      @sprites["whites"].z = 100
+    end
     
     for img in CreditList#CreditsBackgroundList
       id = "bg#{CreditList.index(img)}"
@@ -237,7 +246,8 @@ class Credits
       @viewport.tone = Tone.new(0,0,0,r)
       
       #update
-      
+      @sprites["whites"].update if @strange
+
       @sprites["credits"].oy+=CREDITS_SCROLLSPEED# if @sprites["credits"].y>-6700
       #if @sprites["credits"].y==-6700 && @frame >35
       #  @frame = 0

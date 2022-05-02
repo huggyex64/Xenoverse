@@ -76,7 +76,6 @@ class OnlineLobby
       @sprites["avatarbox"].x = 348
       @sprites["avatarbox"].y = 54
       @sprites["avatarbox"].visible = false
-
       id = $Trainer.online_trainer_type
       echoln id
       bmp = nil
@@ -89,16 +88,29 @@ class OnlineLobby
         bmp = pbBitmap(sprintf("Graphics/Transitions/SunMoon/%s%d",variant,id))
       end
       @sprites["avatar"] = Sprite.new(@viewport)
-      if bmp != nil
-        resbmp = Bitmap.new(bmp.width/2,bmp.height/2)
-        resbmp.stretch_blt(Rect.new(0,0,bmp.width/2,bmp.height/2),bmp,Rect.new(0,0,bmp.width,bmp.height))
-        @sprites["avatar"].bitmap = resbmp
-        @sprites["avatar"].bitmap = @sprites["avatar"].bitmap.mask!(@path+"avatarbox",0,@sprites["avatar"].bitmap.height/6)
+      echoln "check for #{@path + "Avatars/major_icon#{id}"}"
+      if pbResolveBitmap(@path + "Avatars/major_icon#{id}")
+        @sprites["avatar"].bitmap = pbBitmap(@path + "Avatars/major_icon#{id}").clone
+        @sprites["avatar"].x = 346
+      else
+        if bmp != nil
+          resbmp = Bitmap.new(bmp.width/2,bmp.height/2)
+          resbmp.stretch_blt(Rect.new(0,0,bmp.width/2,bmp.height/2),bmp,Rect.new(0,0,bmp.width,bmp.height))
+          @sprites["avatar"].bitmap = resbmp
+          @sprites["avatar"].bitmap = @sprites["avatar"].bitmap.mask!(@path+"avatarbox",0,@sprites["avatar"].bitmap.height/6)
+        end
+        @sprites["avatar"].x = 348
       end
-      @sprites["avatar"].x = 348
       @sprites["avatar"].y = 54
       @sprites["avatar"].visible = false
-
+      
+      @sprites["avatarborder"] = EAMSprite.new(@viewport)
+      @sprites["avatarborder"].bitmap = pbBitmap(@path + "Avatars/avatar_border_0")
+      @sprites["avatarborder"].visible = false
+      @sprites["avatarborder"].ox = @sprites["avatarborder"].bitmap.width/2
+      @sprites["avatarborder"].oy = @sprites["avatarborder"].bitmap.height/2
+      @sprites["avatarborder"].x = 417
+      @sprites["avatarborder"].y = 120
       #self.createUI
     }
   end
@@ -155,7 +167,7 @@ class OnlineLobby
     settsprites["background"].zoom_y*=0.6
     settsprites["background"].opacity = 0
 
-    sprites = ["refresh","list","avatarbox","avatar","selection","status","battleButton","tradeButton","settingsButton","leaveButton"]
+    sprites = ["refresh","list","avatarbox","avatar","avatarborder","selection","status","battleButton","tradeButton","settingsButton","leaveButton"]
     opacities = []
     for s in sprites
       opacities << @sprites[s].opacity
@@ -345,6 +357,7 @@ class OnlineLobby
     @sprites["list"].visible = state
     @sprites["avatarbox"].visible = state
     @sprites["avatar"].visible = state
+    @sprites["avatarborder"].visible = state
     if (state && @sprites["selection"]==nil)
       self.createUI
     end
@@ -802,11 +815,19 @@ class OnlineLobby
     for i in 0...5
       sprites["trainerIcon#{i}"] = Sprite.new(@viewport)
       sprites["trainerIcon#{i}"].z = 122
-      sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/lance").clone #TODO: Change with actual avatar
+      if pbResolveBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}")
+        sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}").clone #TODO: Change with actual avatar
+        
+        sprites["trainerIcon#{i}"].x = 116 + 69*i
+        sprites["trainerIcon#{i}"].y = 341
+      else
+        sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/Lance").clone
+        
+        sprites["trainerIcon#{i}"].x = 118 + 69*i
+        sprites["trainerIcon#{i}"].y = 344
+      end
       sprites["trainerIcon#{i}"].ox = sprites["trainerIcon#{i}"].bitmap.width/2
       sprites["trainerIcon#{i}"].oy = sprites["trainerIcon#{i}"].bitmap.height/2
-      sprites["trainerIcon#{i}"].x = 118 + 69*i
-      sprites["trainerIcon#{i}"].y = 344
       sprites["trainerIcon#{i}"].visible = false
     end
 
@@ -890,6 +911,20 @@ class OnlineLobby
         if (currentSelectedAvatar>=availableAvatars.length)
           currentSelectedAvatar=0
         end
+        
+        for i in 0...5
+          if pbResolveBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}")
+            sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}").clone #TODO: Change with actual avatar
+            
+            sprites["trainerIcon#{i}"].x = 116 + 69*i
+            sprites["trainerIcon#{i}"].y = 341
+          else
+            sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/Lance").clone
+            
+            sprites["trainerIcon#{i}"].x = 118 + 69*i
+            sprites["trainerIcon#{i}"].y = 344
+          end
+        end
       end
 
       if Input.trigger?(Input::LEFT)
@@ -897,6 +932,20 @@ class OnlineLobby
         echoln "Updated currentSelectedAvatar #{currentSelectedAvatar}"
         if (currentSelectedAvatar<0)
           currentSelectedAvatar=availableAvatars.length-1
+        end
+        
+        for i in 0...5
+          if pbResolveBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}")
+            sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}").clone #TODO: Change with actual avatar
+            
+            sprites["trainerIcon#{i}"].x = 116 + 69*i
+            sprites["trainerIcon#{i}"].y = 341
+          else
+            sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/Lance").clone
+            
+            sprites["trainerIcon#{i}"].x = 118 + 69*i
+            sprites["trainerIcon#{i}"].y = 344
+          end
         end
       end
 
@@ -936,11 +985,15 @@ class OnlineLobby
         if Kernel.pbShowCommands(msgwindow, [_INTL("Yes"), _INTL("No")], 2) == 0
           #accept, thus change the avatar
           $Trainer.online_trainer_type=id
-          if bmp != nil
-            resbmp = Bitmap.new(bmp.width/2,bmp.height/2)
-            resbmp.stretch_blt(Rect.new(0,0,bmp.width/2,bmp.height/2),bmp,Rect.new(0,0,bmp.width,bmp.height))
-            @sprites["avatar"].bitmap = resbmp
-            @sprites["avatar"].bitmap = @sprites["avatar"].bitmap.mask!(@path+"avatarbox",0,@sprites["avatar"].bitmap.height/6)
+          if pbResolveBitmap(@path + "Avatars/major_icon#{id}")
+            @sprites["avatar"].bitmap = pbBitmap(@path + "Avatars/major_icon#{id}").clone
+          else
+            if bmp != nil
+              resbmp = Bitmap.new(bmp.width/2,bmp.height/2)
+              resbmp.stretch_blt(Rect.new(0,0,bmp.width/2,bmp.height/2),bmp,Rect.new(0,0,bmp.width,bmp.height))
+              @sprites["avatar"].bitmap = resbmp
+              @sprites["avatar"].bitmap = @sprites["avatar"].bitmap.mask!(@path+"avatarbox",0,@sprites["avatar"].bitmap.height/6)
+            end
           end
           break
         end
@@ -1943,6 +1996,10 @@ module CableClub
     # Standard
     ret.push(:KAYAEROPORTO)
     ret.push(:ALICEAEROPORTO)
+    ret.push(:CAPOPALESTRA_ERBA)
+    ret.push(:CAPOPALESTRA_FOLLETTO)
+    ret.push(:ALEXANDRACAPO)
+    ret.push(:RIVALE)
     # Alter
     ret.push(:DARKKAYTRISHOUT)
     ret.push(:DARKALICETRISHOUT) 

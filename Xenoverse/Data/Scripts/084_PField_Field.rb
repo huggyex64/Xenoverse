@@ -2238,16 +2238,24 @@ def Kernel.pbStartOver(gameover=false)
   end
   pbHealAll()
   if $PokemonGlobal.pokecenterMapId && $PokemonGlobal.pokecenterMapId>=0
-    if gameover
-      Kernel.pbMessage(_INTL("\\w[]\\wm\\c[8]\\l[3]After the unfortunate defeat, {1} scurried to a Pokémon Center.",$Trainer.name))
+    if $game_switches[1295]==true && $game_switches[1327] == false
+      if gameover
+        Kernel.pbMessage(_INTL("\\w[]\\wm\\c[8]\\l[3]After the unfortunate defeat, {1} scurried to a Pokémon Center.",$Trainer.name))
+      else
+        Kernel.pbMessage(_INTL("\\w[]\\wm\\c[8]\\l[3]{1} scurried to a Pokémon Center, protecting the exhausted and fainted Pokémon from further harm.",$Trainer.name))
+      end
     else
-      Kernel.pbMessage(_INTL("\\w[]\\wm\\c[8]\\l[3]{1} scurried to a Pokémon Center, protecting the exhausted and fainted Pokémon from further harm.",$Trainer.name))
+      Kernel.pbMessage(_INTL("\\w[]\\wm\\c[8]\\l[3]After fainting out, {1} awakes in a safe place nearby.",$Trainer.name))
     end
     Kernel.pbCancelVehicles
     pbRemoveDependencies()
     if $game_switches[1500] == true #alter switch is on
       $game_switches[1500] = false
       $Trainer.outfit = 51 # become normal again
+    end
+
+    if $game_map.map_id == 635
+      $Trainer.outfit = 51 # become normal again if Donanas
     end
     $game_switches[STARTING_OVER_SWITCH]=true
     $game_temp.player_new_map_id=$PokemonGlobal.pokecenterMapId

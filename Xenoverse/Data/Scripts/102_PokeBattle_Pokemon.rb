@@ -658,6 +658,15 @@ class PokeBattle_Pokemon
     return [itemcommon,itemuncommon,itemrare]
   end
 
+  # Catch rate modifier
+  def rareness
+    dexdata=pbOpenDexData
+    pbDexDataOffset(dexdata,species,16)
+    ret=dexdata.fgetb # Get rareness from dexdata file
+    dexdata.close
+    return ret
+  end
+  
 # Returns this Pokémon's mail.
   def mail
     return nil if !@mail
