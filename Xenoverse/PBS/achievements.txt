@@ -436,7 +436,7 @@ image = 87_impera
 [Geni]
 title = Le forze della natura
 description = Ottieni tutti e 4 i geni sul Monte Zodiaco Alterato.
-amount = 1
+amount = 4
 image = 88_geni
 [Sfilata]
 title = Sfilata elettrizzante
