@@ -309,7 +309,7 @@ class PokeBattle_Battle
       end
     when 0x1B
       if attacker.status==0
-        score-=90
+        score-=900
       else
         score+=40
         score += 200 if skill == PBTrainerAI.ultraSkill
@@ -2601,7 +2601,7 @@ class PokeBattle_Battle
       end
     end
     if opponent.hasWorkingAbility(:MAGICBOUNCE)
-      score -= 10000000 if move.category == 2 
+      score -= 10000000 if move.pbIsStatus?
     end
     # A score of 0 here means it should absolutely not be used
     return score if score<=0
