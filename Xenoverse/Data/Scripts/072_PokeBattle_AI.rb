@@ -312,6 +312,7 @@ class PokeBattle_Battle
         score-=90
       else
         score+=40
+        score += 200 if skill == PBTrainerAI.ultraSkill
       end
     when 0x1C
       if move.basedamage==0
@@ -443,7 +444,7 @@ class PokeBattle_Battle
         score+=20 if attacker.stages[PBStats::EVASION]<0
       end
       if skill == PBTrainerAI.ultraSkill
-        score+=200 if opponent.effects[PBEffects::Torment]
+        score+=300 if opponent.effects[PBEffects::Torment]
       end
     when 0x23
       if move.basedamage==0
