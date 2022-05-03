@@ -252,7 +252,6 @@ class PokeBattle_Scene
         @smTrainerSequence = SunMoonBattleTransitions.new(@viewport,@msgview,self,@battle.opponent.trainertype)
       end
     end
-    pbBackdrop
     if @battle.player.is_a?(Array)
       trainerfile=pbPlayerSpriteBackFile(@battle.player[0].trainertype)
       pbAddSprite("player",0,0,trainerfile,@viewport)
@@ -367,6 +366,7 @@ class PokeBattle_Scene
         end
       end
     end
+    pbBackdrop
     #################
     # Play battle entrance
     vector = @battle.doublebattle ? VECTOR2 : ($game_switches[DRAGALISK_BATTLE_SWITCH]==true ? VECTORDRAGALISK : VECTOR1)

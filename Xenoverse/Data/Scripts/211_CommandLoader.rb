@@ -102,6 +102,8 @@ class Debugger
 		#@bg2.bitmap.fill_rect(0,0,Graphics.width,Graphics.height,Color.new(255,255,255))
 		@inputWindow = Window_TextEntry_Keyboard.new("",0,0,Graphics.width,65)
 		@inputWindow.z = 100012
+		@inputWindow.update
+		@inputWindow.text = "" #blank
 		@cursor = 0
 		@exit = false
 	end
