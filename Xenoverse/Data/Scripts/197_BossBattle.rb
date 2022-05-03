@@ -1358,6 +1358,11 @@ BOSS_LIST = [
   :TAPULELEX,
   :TAPUKOKOX,
   :TAPUBULUX,
+  :DRAGALISKFURIA,
+  :TORNADUS,
+  :THUNDURUS,
+  :LANDORUS,
+  :ENAMORUS,
 ]
 
 NEWBOSSES = [PBSpecies::GRENINJAX,
@@ -1374,7 +1379,12 @@ NEWBOSSES = [PBSpecies::GRENINJAX,
              PBSpecies::TAPUFINIX,
              PBSpecies::TAPULELEX,
              PBSpecies::TAPUKOKOX,
-             PBSpecies::TAPUBULUX,]
+             PBSpecies::TAPUBULUX,
+             PBSpecies::DRAGALISKFURIA,
+             PBSpecies::TORNADUS,
+             PBSpecies::THUNDURUS,
+             PBSpecies::LANDORUS,
+             PBSpecies::ENAMORUS]
 
 def isBoss?
   ret = false
