@@ -3590,7 +3590,7 @@ module CableClub
         ensure
           $onlinebattle = false
           $Trainer.party = $Trainer.backupParty
-          
+          pbHealAll # Avoids having to transmit damaged state.
           result = 2 if result == 3
           mg = Kernel.pbCreateMessageWindow
           mg.z = 999999
@@ -3610,6 +3610,7 @@ module CableClub
     #File.open("RecordedBattle.xvr","wb"){|f|
     #  f.write(battle.pbDumpRecord)#Marshal.dump(battle.pbDumpRecord,f)
     #}
+    pbHealAll # Avoids having to transmit damaged state.
     ui.deleteBattleTimer
     $onlinebattle = false
     @state = :enlisted if battle.disconnected
