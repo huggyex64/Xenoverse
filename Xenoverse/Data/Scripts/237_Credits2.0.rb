@@ -234,6 +234,9 @@ class Credits
     #opening here
     r = 255
 		@id = 0
+    if @strange
+      frame = 0
+    end
 		#drawRange()
     loop do
       Graphics.update
@@ -241,6 +244,12 @@ class Credits
       updateBG
 			#drawRange() if @frame%20==0
       @frame+=1
+      if @strange
+        frame +=1
+        if frame > 6050
+          break
+        end
+      end
       @bgframe+=1
       r -= 255/20
       @viewport.tone = Tone.new(0,0,0,r)

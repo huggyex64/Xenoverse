@@ -115,6 +115,10 @@ class OnlineLobby
     }
   end
 
+  def endScene
+    pbFadeOutAndHide(@sprites)
+  end
+
   def openSettings(msgwindow)
     sett = ["bgButton","bgmButton"]
 
@@ -1091,6 +1095,7 @@ class OnlineLobby
 
 
   def dispose
+    #self.endScene
     @viewport.dispose
     for sprite in @sprites.values
       sprite.dispose if sprite.is_a?(Sprite)
@@ -1895,6 +1900,12 @@ def pbOnlineLobby
     lobby.dispose
     return
   end
+
+  if $Trainer.party.any? {|pokemon| pokemon.abilityOverride != nil }    
+    Kernel.pbMessage(_INTL("I'm sorry, you have Pokémons not allowed in the Cable Club."))
+    lobby.dispose
+    return
+  end
   
   #oldParty = $Trainer.party
   msgwindow = Kernel.pbCreateMessageWindow()
@@ -2082,28 +2093,32 @@ module CableClub
     ret << "Circo" if $game_switches[529]
     ret << "CovoDimension" if $game_switches[555]
     ret << "Druddigon" if $game_switches[166]
-    ret << "Elite"
-    ret << "Entei"
-    ret << "FinalVakuum"
-    ret << "Fini"
-    ret << "Gola"
-    ret << "GoldNight"
+    ret << "Elite" if $game_switches[858]
+    ret << "Elite2" if $game_switches[859]
+    ret << "Elite3" if $game_switches[860]
+    ret << "Elite4" if $game_switches[861]
+    ret << "Entei" if $game_switches[1067]
+    ret << "FinalVakuum" if $game_switches[1330]
+    ret << "Fini" if $game_switches[1214]
+    ret << "Gola" if $game_switches[386]
+    ret << "GoldNight" if $game_switches[619]
     ret << "Grottaghiacciolo"
-    ret << "goldenstudio"
-    ret << "Koko"
-    ret << "Lele"
-    ret << "Meloetta"
-    ret << "MondoXenoverse"
+    ret << "goldenstudio" if $game_switches[861]
+    ret << "Koko" if $game_switches[1220]
+    ret << "Lele" if $game_switches[1215]
+    ret << "Meloetta" if $game_switches[782]
+    ret << "MondoXenoverse" if $game_switches[861]
     ret << "Palestradaddy"
-    ret << "palestraoasi"
-    ret << "Residence"
-    ret << "Shinobi"
-    ret << "Suicune"
-    ret << "Teatro"
-    ret << "tempioshyleon"
-    ret << "Vakum"
-    ret << "Westopoli"
-    ret << "Zodiacoalterato"
+    ret << "palestraoasi" if $game_switches[227]
+    ret << "Residence" if $game_switches[1178]
+    ret << "Saloon" if $game_switches[861]
+    ret << "Shinobi" if $game_switches[1006]
+    ret << "Suicune" if $game_switches[1084]
+    ret << "Teatro" if $game_switches[49]
+    ret << "tempioshyleon" if $game_switches[565]
+    ret << "Vakum" if $game_switches[1330]
+    ret << "Westopoli" if $game_switches[295]
+    ret << "Zodiacoalterato" if $game_switches[1296]
     return ret
   end
 
