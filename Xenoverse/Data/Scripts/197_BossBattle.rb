@@ -2413,6 +2413,122 @@ def pbDraga2BossBattle
   return result
 end
 
+def pbTornadusBossBattle
+  $furiousBattle = true
+
+  $game_switches[85] = true
+  $mods.set(5, nil, nil)
+  $wildSpecies = PBSpecies::TORNADUS
+
+  pkmn = pbGenerateWildPokemon(PBSpecies::TORNADUS,100)
+  pkmn.forcedForm = 1
+  pkmn.pbDeleteAllMoves
+  moves = [:HURRICANE, :CALMMIND, :THUNDERBOLT, :RAINDANCE]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+  pkmn.totalHp=700
+  pkmn.hp=pkmn.totalhp
+  pkmn.attack=463
+  pkmn.defense=321
+  pkmn.spAtk=503
+  pkmn.spDef=321
+  pkmn.speed=404
+  pkmn.item = 0
+
+  result = pbStartBossBattleMon(pkmn,nil,nil,false)
+  $game_switches[85] = false
+  $furiousBattle = false
+  return result
+end
+
+def pbThundurusBossBattle
+  $furiousBattle = true
+
+  $game_switches[85] = true
+  $mods.set(5, nil, nil)
+  $wildSpecies = PBSpecies::THUNDURUS
+
+  pkmn = pbGenerateWildPokemon(PBSpecies::THUNDURUS,100)
+  pkmn.forcedForm = 1
+  pkmn.pbDeleteAllMoves
+  moves = [:THUNDER, :ICEBEAM, :DARKPULSE, :NASTYPLOT]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+  pkmn.totalHp=700
+  pkmn.hp=pkmn.totalhp
+  pkmn.attack=423
+  pkmn.defense=281
+  pkmn.spAtk=563
+  pkmn.spDef=311
+  pkmn.speed=364
+  pkmn.item = 0
+
+  result = pbStartBossBattleMon(pkmn,nil,nil,false)
+  $game_switches[85] = false
+  $furiousBattle = false
+  return result
+end
+
+def pbLandorusBossBattle
+  $furiousBattle = true
+
+  $game_switches[85] = true
+  $mods.set(5, nil, nil)
+  $wildSpecies = PBSpecies::LANDORUS
+
+  pkmn = pbGenerateWildPokemon(PBSpecies::LANDORUS,100)
+  pkmn.forcedForm = 1
+  pkmn.pbDeleteAllMoves
+  moves = [:EARTHQUAKE, :STONEEDGE, :HAMMERARM, :BULKUP]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+  pkmn.totalHp=780
+  pkmn.hp=pkmn.totalhp
+  pkmn.attack=563
+  pkmn.defense=311
+  pkmn.spAtk=423
+  pkmn.spDef=281
+  pkmn.speed=264
+  pkmn.item = 0
+
+  result = pbStartBossBattleMon(pkmn,nil,nil,false)
+  $game_switches[85] = false
+  $furiousBattle = false
+  return result
+end
+
+def pbEnamorusBossBattle
+  $furiousBattle = true
+
+  $game_switches[85] = true
+  $mods.set(5, nil, nil)
+  $wildSpecies = PBSpecies::ENAMORUS
+
+  pkmn = pbGenerateWildPokemon(PBSpecies::ENAMORUS,100)
+  pkmn.forcedForm = 1
+  pkmn.pbDeleteAllMoves
+  moves = [:MOONBLAST, :FLAMETHROWER, :EARTHPOWER, :CALMMIND]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+  pkmn.totalHp=700
+  pkmn.hp=pkmn.totalhp
+  pkmn.attack=463
+  pkmn.defense=281
+  pkmn.spAtk=523
+  pkmn.spDef=311
+  pkmn.speed=378
+  pkmn.item = 0
+
+  result = pbStartBossBattleMon(pkmn,nil,nil,false)
+  $game_switches[85] = false
+  $furiousBattle = false
+  return result
+end
+
 
 def pbBossTrainerBattle(trainer,endspeech)
   #trainer=pbLoadTrainerTournament(trainerid,trainername,trainerparty)
@@ -2555,7 +2671,8 @@ WILDAIMONSTER=
   PBSpecies::TAPULELEX => 1217,
   PBSpecies::TAPUKOKOX => 1219,
   PBSpecies::TAPUBULUX => 1269,
-  PBSpecies::DRAGALISK => 1318
+  PBSpecies::DRAGALISK => 1318,
+  PBSpecies::DRAGALISKFURIA => 1318,
 }
 
 Events.onWildPokemonCreate+=proc {|sender,e|
