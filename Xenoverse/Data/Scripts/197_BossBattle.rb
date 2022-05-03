@@ -2683,6 +2683,10 @@ WILDAIMONSTER=
   PBSpecies::TAPUBULUX => 1269,
   PBSpecies::DRAGALISK => 1318,
   PBSpecies::DRAGALISKFURIA => 1318,
+  PBSpecies::TORNADUS => 1318,
+  PBSpecies::THUNDURUS => 1318,
+  PBSpecies::LANDORUS => 1318,
+  PBSpecies::ENAMORUS => 1318,
 }
 
 Events.onWildPokemonCreate+=proc {|sender,e|
