@@ -1996,32 +1996,54 @@ module CableClub
     # Standard
     ret.push(:KAY2)
     ret.push(:ALICE2)
-    ret.push(:CAPOPALESTRA_ERBA)
-    ret.push(:CAPOPALESTRA_FOLLETTO)
-    ret.push(:ALEXANDRACAPO)
-    ret.push(:RIVALE)
-    # Alter
-    ret.push(:DARKKAYTRISHOUT)
-    ret.push(:DARKALICETRISHOUT) 
-    #ret.push(:PROFESSORE)
-    #ret.push(:PROFESSORESSA)
-    ret.push(:GENERALEVICTOR)
-    ret.push(:GOLD)
-    # Cardinals
-    ret.push(:CHUA)
-    ret.push(:CASTALIA)
-    ret.push(:PEYOTE)
-    ret.push(:OLEANDRO)
-    # Champ
-    ret.push(:ASTER)
-    ret.push(:VERSIL)
-    # Tamara R34 <3
-    ret.push(:TAMARAFURIA)
-    # VIPs
-    ret.push(:LANCETOURNAMENT)
-    ret.push(:ERIKATOURNAMENT)
-    ret.push(:LEOTOURNAMENT)
-    ret.push(:DANTETOURNAMENT)
+    ret.push(:CAPOPALESTRA_ERBA) if $game_switches[27]
+    ret.push(:TEAMDIMENSION) if $game_switches[143]
+    ret.push(:MERCANTEELDIW) if $game_switches[1026]
+    ret.push(:RIVALE) if $game_switches[82]
+    ret.push(:DARKALICETRISHOUT) if $game_switches[174]
+    ret.push(:DARKKAYTRISHOUT) if $game_switches[174]
+    ret.push(:CAPOPALESTRA_FOLLETTO) if $game_switches[169]
+    ret.push(:EVANCAPO) if $game_switches[99]
+    ret.push(:GENNARO) if $game_switches[523]
+    ret.push(:MERCANTEALOLA) if $game_switches[1044]
+    ret.push(:MUNHALLOWEEN) if $game_switches[1044]
+    ret.push(:MINHALLOWEEN) if $game_switches[1044]
+    ret.push(:ALEXANDRACAPO) if $game_switches[227]
+    ret.push(:MAURICE) if $game_switches[236]
+    ret.push(:SILVIA) if $game_switches[278]
+    ret.push(:RUBENCAPO) if $game_switches[295]
+    ret.push(:SERGENTEDONNA) if $game_switches[559]
+    ret.push(:WALLACECAPO) if $game_switches[371]
+    ret.push(:TEAMDIMENSIONF) if $game_switches[361]
+    ret.push(:SERGENTI_TEAMDIMENSION2) if $game_switches[141]
+    ret.push(:SURGECAPO) if $game_switches[459]
+    ret.push(:HENNECAPO) if $game_switches[529]
+    ret.push(:GENGARCIRCO) if $game_switches[1185]
+    ret.push(:ALTERTREY) if $game_switches[545]
+    ret.push(:SERGENTESIGMA) if $game_switches[558]
+    ret.push(:GENERALEVICTOR) if $game_switches[575]
+    ret.push(:GOLD) if $game_switches[619]
+    ret.push(:RUTA2) if $game_switches[570]
+    ret.push(:FINALSAUL) if $game_switches[573]
+    ret.push(:CHUA) if $game_switches[858]
+    ret.push(:CASTALIA) if $game_switches[859]
+    ret.push(:PEYOTE) if $game_switches[860]
+    ret.push(:OLEANDRO) if $game_switches[861]
+    ret.push(:ASTER) if $game_switches[866]
+    ret.push(:VERSIL) if $game_switches[627]
+    ret.push(:TARASSACO) if $game_switches[796]
+    ret.push(:FINALMAMMA) if $game_switches[800]
+    ret.push(:TAMARAFURIA) if $game_switches[1178]
+    ret.push(:LANCETOURNAMENT) if $game_switches[1182]
+    ret.push(:ERIKATOURNAMENT) if $game_switches[1181]
+    ret.push(:LEOTOURNAMENT) if $game_switches[1184]
+    ret.push(:DANTETOURNAMENT) if $game_switches[1183]
+    ret.push(:WILLTOURNAMENT) if $game_switches[247]
+    ret.push(:VAKUM) if $game_switches[1330]
+    ret.push(:STELLATOURNAMENT) if $game_switches[1344]
+    ret.push(:CLAWMANTOURNAMENT) if $game_switches[1346]
+    ret.push(:IRIDIOTOURNAMENT) if $game_switches[1345]
+    ret.push(:VALENTINATOURNAMENT) if $game_switches[1347]
 
     specialTrainers = CableClub.getSpecialTrainers($Trainer.uniqueSaveID)
     if specialTrainers.length > 0
@@ -2048,18 +2070,18 @@ module CableClub
   def self.getOnlineBattleBackList()
     ret=[]
     ret << "Online"
-    ret << "alexandra"
-    ret << "Apollo"
-    ret << "Aster"
-    ret << "Beach"
+    ret << "alexandra" if $game_switches[227] 
+    ret << "Apollo" if $game_switches[1185]
+    ret << "Aster" if $game_switches[866]
+    ret << "Beach" 
     ret << "Bosco"
-    ret << "Bulu"
-    ret << "Campus"
-    ret << "Canyon"
-    ret << "Cavern"
-    ret << "Circo"
-    ret << "CovoDimension"
-    ret << "Druddigon"
+    ret << "Bulu" if $game_switches[1270]
+    ret << "Campus" if $game_switches[143]
+    ret << "Canyon" if $game_switches[499]
+    ret << "Cavern" 
+    ret << "Circo" if $game_switches[529]
+    ret << "CovoDimension" if $game_switches[555]
+    ret << "Druddigon" if $game_switches[166]
     ret << "Elite"
     ret << "Entei"
     ret << "FinalVakuum"

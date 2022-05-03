@@ -3049,6 +3049,7 @@ class SunMoonBattleTransitions
     
 
     if $onlinebattle
+      @evilteam=false
       @sprites["background"] = SunMoonOnlineBackground.new(@viewport,@trainerid,@evilteam)
       @oldVariant = @variant
       @variant = "ultra"

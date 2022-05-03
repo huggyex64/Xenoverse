@@ -83,7 +83,8 @@ $BallTypes={
    24=>:XENOBALL,
    25=>:TERRORBALL,
    26=>:SILVABALL,
-   27=>:GEOBALL
+   27=>:GEOBALL,
+   28=>:FURIABALL
 }
 
 BallHandlers::ModifyCatchRate.add(:GREATBALL,proc{|ball,catchRate,battle,battler|
