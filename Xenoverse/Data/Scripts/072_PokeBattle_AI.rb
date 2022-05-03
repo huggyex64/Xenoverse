@@ -4662,7 +4662,12 @@ class PokeBattle_Battle
 
     receiver.effects = Marshal.load(Marshal.dump(receiver.effects))
 
-    ret =  move.pbCalcDamage(user, receiver,0,true)
+    if move.basedamage != move.pbBaseDamage(move.basedamage,user,receiver)
+      #skip or handle by function code
+      ret = 0
+    else
+      ret = move.pbCalcDamage(user, receiver,0,true)
+    end
     
     @aiEnvironment = false
     return ret
