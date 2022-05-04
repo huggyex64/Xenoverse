@@ -440,6 +440,11 @@ class PokeBattle_Pokemon
     return false
   end
 
+# Returns whether a Pokémon is compatible with a move or not
+  def isCompatibleWithMove?(move)
+    return pbSpeciesCompatible?(self.species,move)
+  end
+
 # Returns the list of moves this Pokémon can learn by levelling up.
   def getMoveList
     movelist=[]

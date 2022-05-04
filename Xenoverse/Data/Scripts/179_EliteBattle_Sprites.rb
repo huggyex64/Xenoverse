@@ -57,11 +57,14 @@ class DynamicPokemonSprite
     @hidden=false
     @fainted=false
     @anim=false
-    
+
+    @trail = false
+    @trails = []
+
     @pulse = 8
     @k = 1
   end
-  
+
   def battleIndex; return @index; end
   def x; @sprite.x; end
   def y; @sprite.y; end
@@ -183,6 +186,9 @@ class DynamicPokemonSprite
   def setPokemonBitmap(pokemon,back=false)
     return if !pokemon || pokemon.nil?
     @pokemon = pokemon
+    if @pokemon.species == PBSpecies::DRAGALISKFURIA && $game_switches[1330]==false
+      @trail=true
+    end
     @altitude = @metrics[2][pokemon.species]
     @altitude = pokemon.is_a?(PokeBattle_Pokemon) ? pokemon.altitude(@altitude) : pokemon.pokemon.altitude(@altitude) 
     if back
@@ -288,6 +294,32 @@ class DynamicPokemonSprite
       @shadow.bitmap=@substitute.bitmap.clone
     else
       @bitmap.update
+      echoln @trail
+      if @trail
+        @trails << EAMSprite.new(@viewport)
+        @trails.last.x = @sprite.x
+        @trails.last.y = @sprite.y
+        @trails.last.ox = @sprite.ox
+        @trails.last.oy = @sprite.oy
+        @trails.last.z = @sprite.z-1
+        @trails.last.bitmap = @sprite.bitmap.clone
+        @trails.last.color = Color.new(255,255,255)
+        @trails.last.coloring(Color.new(0,0,0),20)
+        @trails.last.fade(0,50,:ease_out_cubic)
+        before = nil
+        for t in @trails
+          t.x = @sprite.x
+          t.y = @sprite.y
+          t.zoom_x = @sprite.zoom_x
+          t.zoom_y = @sprite.zoom_y
+          t.angle = @sprite.angle
+          if before != nil
+            #t.z = before.z-1
+          end
+          before = t
+          t.update
+        end
+      end
       @sprite.bitmap=@bitmap.bitmap.clone
       @shadow.bitmap=@bitmap.bitmap.clone
     end

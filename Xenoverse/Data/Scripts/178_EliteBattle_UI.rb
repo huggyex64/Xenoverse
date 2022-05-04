@@ -1037,6 +1037,10 @@ class NewFightWindow
     pos_y=[80,80,212,212]
     for i in 0...@nummoves 
       movedata=PBMoveData.new(@moves[i].id)
+      type = @moves[i].type
+      if @moves[i].id == 333
+        type = pbHiddenPower(@battler.pokemon.iv)[0]
+      end
       @button["#{i}"]=Sprite.new(@viewport)
       @button["#{i}"].bitmap=Bitmap.new(214,88)
       #pbSetSystemFont(@button["#{i}"].bitmap)
@@ -1044,9 +1048,9 @@ class NewFightWindow
       @button["#{i}"].z=120
       @button["#{i}"].x=@position[i]
       @button["#{i}"].y=DS_STYLE ? pos_y[i] : @background.y+10
-      baseColor=@buttonBitmap.get_pixel(4,32+(@moves[i].type*88))
-      shadowColor=@buttonBitmap.get_pixel(20,4+(@moves[i].type*88))
-      @button["#{i}"].bitmap.blt(0,0,@buttonBitmap,Rect.new(0,@moves[i].type*88,214,88))
+      baseColor=@buttonBitmap.get_pixel(4,32+(type*88))
+      shadowColor=@buttonBitmap.get_pixel(20,4+(type*88))
+      @button["#{i}"].bitmap.blt(0,0,@buttonBitmap,Rect.new(0,type*88,214,88))
       text=[
         ["#{@moves[i].name}",103,10,2,baseColor,shadowColor],
         ["PP: #{@moves[i].pp}/#{@moves[i].totalpp}",103-18,38,2,baseColor,shadowColor]
@@ -2963,19 +2967,24 @@ class NextGenFightWindow
     for i in 0...@nummoves 
       movedata = PBMoveData.new(@moves[i].id)
       move = @moves[i]
+      
+      type = move.type
+      if move.id == 333
+        type = pbHiddenPower(@battler.pokemon.iv)[0]
+      end
       @button["#{i}"] = Sprite.new(@viewport)
       @button["#{i}"].z = 102
       @button["#{i}"].bitmap = Bitmap.new(242,26)
-      @button["#{i}"].bitmap.blt(0,0,@buttonBitmap,Rect.new(0,move.type*25,232,25))
+      @button["#{i}"].bitmap.blt(0,0,@buttonBitmap,Rect.new(0,type*25,232,25))
       #@button["#{i}"].bitmap.blt(198,0,@buttonBitmap,Rect.new(198,move.type*78,198,78))
-      baseColor=self.darkenColor(@buttonBitmap.get_pixel(36,8+(@moves[i].type*25)))
+      baseColor=self.darkenColor(@buttonBitmap.get_pixel(36,8+(type*25)))
       baseColor2=@buttonBitmap.get_pixel(16,8+(@moves[i].type*25))
-      shadowColor=self.darkenColor(@buttonBitmap.get_pixel(18,10+(@moves[i].type*25)))
+      shadowColor=self.darkenColor(@buttonBitmap.get_pixel(18,10+(type*25)))
       pbSetFont(@button["#{i}"].bitmap,FONT_NAME,18)
       pbDrawOutlineText(@button["#{i}"].bitmap,36,0,242,24,"#{move.name}",Color.new(255,255,255),baseColor,0)
       #pbDrawOutlineText(@button["#{i}"].bitmap,6,52,186,22,@types[move.type],Color.new(255,255,255),baseColor2,0)
       #pbDrawOutlineText(@button["#{i}"].bitmap,6,52,186,22,@category[movedata.category],Color.new(255,255,255),baseColor2,2)
-      baseColor=self.darkenColor(@buttonBitmap.get_pixel(36,8+(@moves[i].type*25)),0.3)
+      baseColor=self.darkenColor(@buttonBitmap.get_pixel(36,8+(type*25)),0.3)
       text=[
         ["#{move.pp}/#{move.totalpp}",220,4,1,baseColor,nil]
       ]

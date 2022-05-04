@@ -623,7 +623,7 @@
 645,PAPERCUT,Cartaforbice,091,30,STEEL,Physical,90,20,0,00,0,abef,"Chi la usa attacca con delle affilatissime lame di carta. La potenza aumenta ogni volta che mette a segno un colpo."
 646,HOTCHILIPEPPER,Piccantiro,00A,80,GRASS,Physical,100,15,30,00,0,bef,"Chi la usa lancia addosso al nemico dei semi piccanti che possono anche scottarlo."
 647,BREMANDRHAPSODY,Concertotem,000,35,SUONO,Special,100,10,0,04,0,befk,"Chi la usa chiama a raccolta i Bremand della squadra: più ce ne sono, più la mossa è potente."
-648,CONFIDE,Confidenza,13C,0,NORMAL,Status,100,25,0,00,0,ek,"Chi la usa svela dei segreti al bersaglio, distraendolo e riducendone l'Attacco Speciale."
+648,CONFIDE,Confidenza,045,0,SUONO,Status,0,25,0,00,0,ek,"Chi la usa svela dei segreti al bersaglio, distraendolo e riducendone l'Attacco Speciale."
 649,INFESTATION,Assillo,0CF,20,BUG,Special,100,25,0,00,0,abef,"Chi la usa lancia un attacco che tormenta il bersaglio per quattro o cinque turni, durante i quali gli impedisce di fuggire."
 650,ACCELEROCK,Rocciarapida,0,40,ROCK,Physical,100,20,0,00,1,abef,"Chi la usa attacca il bersaglio colpendolo a tutta velocità. Questa mossa ha priorità alta."
 651,BEAKBLAST,Cannonbecco,CF20,100,FLYING,Physical,100,15,20,00,-3,bfg,"Chi la usa arroventa il proprio becco e poi attacca. Se un Pokémon lo colpisce con un attacco diretto mentre sta accumulando calore, resta scottato."

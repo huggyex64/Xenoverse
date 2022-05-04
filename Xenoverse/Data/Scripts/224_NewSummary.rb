@@ -181,9 +181,14 @@ class PokemonSummaryScene
 			for i in 0..3
 				@pages["move#{i}"].y-=26
 			end
+      
+      type = mtl.type
+      if i.id == 333
+        type = pbHiddenPower(@pokemon.iv)[0]
+      end
 			@pages["move4"]= EAMSprite.new(@viewport)
 			@pages["move4"].bitmap = Bitmap.new(232,25)
-			@pages["move4"].bitmap.blt(0,0,movesbmp,Rect.new(0,mtl.type*25,232,25))
+			@pages["move4"].bitmap.blt(0,0,movesbmp,Rect.new(0,type*25,232,25))
 			@pages["move4"].x = 270
 			@pages["move4"].y = 80-16 + 26*4
 			@pages["move4"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
@@ -412,9 +417,13 @@ class PokemonSummaryScene
 		movesbmp = pbBitmap("Graphics/Pictures/EBS/Xenoverse/casellemosse_rs")
 		for i in pokemon.moves
 			if i.id>0
-				@pages["move#{numMoves}"] = EAMSprite.new(@viewport)
+        type = i.type
+        if i.id == 333
+          type = pbHiddenPower(pokemon.iv)[0]
+        end
+        @pages["move#{numMoves}"] = EAMSprite.new(@viewport)
 				@pages["move#{numMoves}"].bitmap = Bitmap.new(232,25)
-				@pages["move#{numMoves}"].bitmap.blt(0,0,movesbmp,Rect.new(0,i.type*25,232,25))
+				@pages["move#{numMoves}"].bitmap.blt(0,0,movesbmp,Rect.new(0,type*25,232,25))
 				@pages["move#{numMoves}"].x = 270
 				@pages["move#{numMoves}"].y = 80 + 26*pokemon.moves.index(i)
 				@pages["move#{numMoves}"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
@@ -946,6 +955,9 @@ class PokemonSummaryScene
 		@pages["moveinfo"].bitmap.font.size = $MKXP ? 22 : 24
 		movedata=PBMoveData.new(moveid)
     basedamage=movedata.basedamage
+    if moveid == 333
+      basedamage = pbHiddenPower(pokemon.iv)[1]
+    end
     type=movedata.type
     category=movedata.category
     accuracy=movedata.accuracy

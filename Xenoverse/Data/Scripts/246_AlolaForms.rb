@@ -100,6 +100,15 @@ class PokeBattle_Pokemon
          end
        }
   end
+  
+  alias __mf_isCompatibleWithMove? isCompatibleWithMove? # Not purged from below
+  def isCompatibleWithMove?(move)
+    v=MultipleForms.call("getMoveCompatibility",self)
+    if v!=nil
+      return v.any? {|j| j==move }
+    end
+    return self.__mf_isCompatibleWithMove?(move)
+  end
 
   attr_accessor(:deltaflag)  # Forces the deltaness (true/false)
 

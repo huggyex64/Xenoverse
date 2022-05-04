@@ -275,6 +275,9 @@ Mascotte:
 Donanas
 
 Twitch Supporter:
+Annacash   Cenerio
+Code_Zero   Darkcelebi96
+Fu Pascal   UltraDen
 28fury28   3lectricfr0st06
 Ada Desimone   Aderot 36
 Aero FOLINO   AlbertoCesare Campia
@@ -284,44 +287,43 @@ Alex (Light68)   Andrea (Andre03997)
 Andrea (AndreaBellinvia)   Andrea (Andreal 94)
 Andrea Conti   Andrea Maruzzella
 Andrei   Angelo (FlameWOLFx31)
-Anna Cascioli   Anodachi
-Antonino Lo Coco   Antonio Guariglia
-Armoss   Arsenic Gengar
-Ataashi   Beatrice
-Beretta Matteo   Blacksheep
-BlueVera   Boostaph0
-Carlo Pisano   Cata Ita
-Chakra   Chlaunder
-Christian S.Torrisi   Ciaoma00
-Ciro Montagna   Cmajo99
-Crody   Daniele Bag
-Daniele Tizzi   Davide Esposito
-Davide Mark   Domenico Ruggiero
-Domenico Russo   Domenico Scalici
-Domenico Sironi   Dominic22ita
-Donbox98   Drago Stea
-Dragonalex02   Drew
-Drgsly   EMSlrocco
-Edoardo (CopperHidra)   Edoardo Giuseppe Milazzo
-Elia Dapra   EnderWalker_
-Erik Rocha   Faber76
-FazNick   Feb997
-Fed Del   Federica Celes
-Federico Prosdocimi   Ferdy
-Flareus   Fortebrako
-Francesco (ShinySoul)   Francesco Alessi
-Francesco Amerigo Giambanco   Francesco Matrone
-Francesco Pio De Rosario   G4Jake
-Gabb ch   Gabriele Gibilras
-GaetanoTuf   Garnet14
-Gavril CMP   Giacomo Donadel
-Gigio25   Gioele De Gaetano
-Giovanni Belmonte   Giovanni Noe
-Giuliano Talmon   Giuseppe Gargano
-Giuseppe Tringali   GoodMaxy
-Gwindolyn   Heroesblack
-Hilaris Nephrite   ILFoglia
-Il Fu Pascal   Il Meggio
+Anodachi   Antonino Lo Coco
+Antonio Guariglia   Armoss
+Arsenic Gengar   Ataashi
+Beatrice   Beretta Matteo
+Blacksheep   BlueVera
+Boostaph0   Carlo Pisano
+Cata Ita   Chakra
+Chlaunder   Christian S.Torrisi
+Ciaoma00   Ciro Montagna
+Cmajo99   Crody
+Daniele Bag   Daniele Tizzi
+Davide Esposito   Davide Mark
+Domenico Ruggiero   Domenico Russo
+Domenico Scalici   Domenico Sironi
+Dominic22ita   Donbox98
+Drago Stea   Dragonalex02
+Drew   Drgsly
+EMSlrocco   Edoardo (CopperHidra)
+Edoardo Giuseppe Milazzo   Elia Dapra
+EnderWalker_   Erik Rocha
+Faber76   FazNick
+Feb997   Fed Del
+Federica Celes   Federico Prosdocimi
+Ferdy   Flareus
+Fortebrako   Francesco (ShinySoul)
+Francesco Alessi   Francesco Amerigo Giambanco
+Francesco Matrone   Francesco Pio De Rosario
+G4Jake   Gabb ch
+Gabriele Gibilras   GaetanoTuf
+Garnet14   Gavril CMP
+Giacomo Donadel   Gigio25
+Gioele De Gaetano   Giovanni Belmonte
+Giovanni Noe   Giuliano Talmon
+Giuseppe Gargano   Giuseppe Tringali
+GoodMaxy   Gwindolyn
+Heroesblack   Hilaris Nephrite
+ILFoglia   Il Meggio
 IlVecchioKamikaze   ImFedehh
 Impimatte   Ina
 Incineroar (Zack)   IronNMatt
@@ -374,11 +376,10 @@ Steka 96   Susie
 TN   Tamashii Wukong
 TanJem   TheGiulioCesare
 Tonito 75 Noyl   Trish
-UltraDen   Valerio Barone
-Vincenzo Carpignano   Vincenzo Loscalzo
-Wagner Jeager   White Zekrom
-XmAtX   Yaro
-Zannaleok   Zero
+Valerio Barone   Vincenzo Carpignano
+Vincenzo Loscalzo   Wagner Jeager
+White Zekrom   XmAtX
+Yaro   Zannaleok
 Zippy   Zuno (Bruno Zollino)
 alexander previtali   christian pacca
 christian061106   de_cifris
@@ -408,7 +409,6 @@ Salvo Miranda (Frobby)
 Martina Pasqui (Kenoia)
 Mattia Vastarella
 Poketonx
-Rosa La Brocca
 Thomas Squall
 
 

@@ -488,9 +488,9 @@ end
 def pbSpeciesCompatible?(species,move)
   ret=false
   return false if species<=0
-  data=load_data("Data/tm.dat")
-  return false if !data[move]
-  return data[move].any? {|item| item==species }
+  $tmData=load_data("Data/tm.dat") if !$tmData
+  return false if !$tmData[move]
+  return $tmData[move].any? {|item| item==species }
 end
 
 def pbForgetMove(pokemon,moveToLearn)

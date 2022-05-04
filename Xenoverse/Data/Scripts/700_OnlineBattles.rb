@@ -3333,29 +3333,7 @@ module CableClub
     out = nil
     host = nil
     port = nil
-=begin
-    t = Thread.new {
-      Graphics.update
-      Input.update
-      out = %x{Antochit.exe}#`Antochit.exe`
-      return if (out == nil || out == "BANNED")
-      @md5 = out.split(",")[0]
-      @uid = out.split(",")[1]
-      hostandport = out.split(",")[2]
-      host = hostandport.split(":")[0]
-      port = hostandport.split(":")[1].to_i
-    }
-
-    frames = 0
-    while(out == nil)
-      Graphics.update
-      Input.update
-      frames+=1
-      pbMessageDisplayDots(msgwindow,_INTL("Loading, this may take a while"),frames)
-    end
-
-    return if host == nil || out == "BANNED"
-=end
+    
     @uid = nil
     @md5 = nil
     @ui = ui

@@ -1,5 +1,5 @@
 class MoveRelearnerScene
-  VISIBLEMOVES = 4
+  	VISIBLEMOVES = 4
 	
 	def fadeOut(s)
 		if s
@@ -15,100 +15,100 @@ class MoveRelearnerScene
 		end
 	end
 	
-  def pbDisplay(msg,brief=false)
-    UIHelper.pbDisplay(@sprites["msgwindow"],msg,brief) { pbUpdate }
-  end
+	def pbDisplay(msg,brief=false)
+		UIHelper.pbDisplay(@sprites["msgwindow"],msg,brief) { pbUpdate }
+	end
 
-  def pbConfirm(msg)
-    @viewport3 = Viewport.new(0,0,512,384)
-		@viewport3.z = @viewport2.z+1
-		@s={}
-		path = "Graphics/Pictures/BagNew/"
-		anchor = 496
-		
-		@s["box"] = EAMSprite.new(@viewport3)
-		@s["box"].z = 100
-		@s["box"].bitmap = pbBitmap(path + "SelectBox").clone
-		@s["box"].bitmap.font = SUMMARYITEMFONT
-		@s["box"].bitmap.font.size = $MKXP ? 22 : 24
-		
-		drawTextExH(@s["box"].bitmap,45,314,434,2,msg,Color.new(24,24,24),Color.new(24,24,24,0),22)
-		@s["box"].opacity = 0
-		b = pbBitmap(path + "scoption")
-		bmp = Bitmap.new(88,38)
-		bmp.blt(0,0,b,Rect.new(0,0,22,38))
-		bmp.blt(22,0,b,Rect.new(22,0,44,38))
-		bmp.blt(88-22,0,b,Rect.new(148-22,0,22,38))
-		bmp.font = SUMMARYITEMFONT
-		bmp.font.size = $MKXP ? 24 : 26
-		@s["yes"] = EAMSprite.new(@viewport3)
-		@s["yes"].bitmap = bmp.clone
-		@s["yes"].ox = @s["yes"].bitmap.width
-		@s["yes"].x = anchor
-		@s["yes"].y = 266-40
-		@s["yes"].z = 102
-		@s["yes"].opacity = 0
-		@s["no"] = EAMSprite.new(@viewport3)
-		@s["no"].bitmap = bmp.clone
-		@s["no"].ox = @s["no"].bitmap.width
-		@s["no"].x = anchor
-		@s["no"].y = 266
-		@s["no"].z = 102
-		@s["no"].opacity = 0
-		
-		
-		
-		pbDrawTextPositions(@s["yes"].bitmap,[[_INTL("Yes"),44,5,2,Color.new(24,24,24)]])
-		pbDrawTextPositions(@s["no"].bitmap,[[_INTL("No"),44,5,2,Color.new(24,24,24)]])
-		id = true
-		
-		@s["box"].fade(255,10)
-		@s["yes"].fade(255,10)
-		@s["no"].fade(175,10)
-		
-		loop do
-			Graphics.update
-			Input.update
-			pbUpdate
-			@s.values.each{|s| s.update}
-			@s["yes"].move(anchor,226,7,:ease_out_cubic) if @s["yes"].y<=216
-			@s["no"].move(anchor,266,7,:ease_out_cubic) if @s["no"].y<=256
-			if Input.trigger?(Input::UP) || Input.trigger?(Input::DOWN)
-				id = !id
-				if id==true
-					@s["yes"].fade(255,10)
-					@s["no"].fade(175,10)
-					@s["yes"].move(anchor,216,3,:ease_out_cubic)
-				else
-					@s["yes"].fade(175,10)
-					@s["no"].fade(255,10)
-					@s["no"].move(anchor,256,3,:ease_out_cubic)
+	def pbConfirm(msg)
+		@viewport3 = Viewport.new(0,0,512,384)
+			@viewport3.z = @viewport2.z+1
+			@s={}
+			path = "Graphics/Pictures/BagNew/"
+			anchor = 496
+			
+			@s["box"] = EAMSprite.new(@viewport3)
+			@s["box"].z = 100
+			@s["box"].bitmap = pbBitmap(path + "SelectBox").clone
+			@s["box"].bitmap.font = SUMMARYITEMFONT
+			@s["box"].bitmap.font.size = $MKXP ? 22 : 24
+			
+			drawTextExH(@s["box"].bitmap,45,314,434,2,msg,Color.new(24,24,24),Color.new(24,24,24,0),22)
+			@s["box"].opacity = 0
+			b = pbBitmap(path + "scoption")
+			bmp = Bitmap.new(88,38)
+			bmp.blt(0,0,b,Rect.new(0,0,22,38))
+			bmp.blt(22,0,b,Rect.new(22,0,44,38))
+			bmp.blt(88-22,0,b,Rect.new(148-22,0,22,38))
+			bmp.font = SUMMARYITEMFONT
+			bmp.font.size = $MKXP ? 24 : 26
+			@s["yes"] = EAMSprite.new(@viewport3)
+			@s["yes"].bitmap = bmp.clone
+			@s["yes"].ox = @s["yes"].bitmap.width
+			@s["yes"].x = anchor
+			@s["yes"].y = 266-40
+			@s["yes"].z = 102
+			@s["yes"].opacity = 0
+			@s["no"] = EAMSprite.new(@viewport3)
+			@s["no"].bitmap = bmp.clone
+			@s["no"].ox = @s["no"].bitmap.width
+			@s["no"].x = anchor
+			@s["no"].y = 266
+			@s["no"].z = 102
+			@s["no"].opacity = 0
+			
+			
+			
+			pbDrawTextPositions(@s["yes"].bitmap,[[_INTL("Yes"),44,5,2,Color.new(24,24,24)]])
+			pbDrawTextPositions(@s["no"].bitmap,[[_INTL("No"),44,5,2,Color.new(24,24,24)]])
+			id = true
+			
+			@s["box"].fade(255,10)
+			@s["yes"].fade(255,10)
+			@s["no"].fade(175,10)
+			
+			loop do
+				Graphics.update
+				Input.update
+				pbUpdate
+				@s.values.each{|s| s.update}
+				@s["yes"].move(anchor,226,7,:ease_out_cubic) if @s["yes"].y<=216
+				@s["no"].move(anchor,266,7,:ease_out_cubic) if @s["no"].y<=256
+				if Input.trigger?(Input::UP) || Input.trigger?(Input::DOWN)
+					id = !id
+					if id==true
+						@s["yes"].fade(255,10)
+						@s["no"].fade(175,10)
+						@s["yes"].move(anchor,216,3,:ease_out_cubic)
+					else
+						@s["yes"].fade(175,10)
+						@s["no"].fade(255,10)
+						@s["no"].move(anchor,256,3,:ease_out_cubic)
+					end
+				end
+				
+				if Input.trigger?(Input::C)
+					fadeOut(@s)
+					pbDisposeSpriteHash(@s)
+					return id
+				end
+				
+				if Input.trigger?(Input::B)
+					fadeOut(@s)
+					pbDisposeSpriteHash(@s)
+					return false
 				end
 			end
-			
-			if Input.trigger?(Input::C)
-				fadeOut(@s)
-				pbDisposeSpriteHash(@s)
-				return id
-			end
-			
-			if Input.trigger?(Input::B)
-				fadeOut(@s)
-				pbDisposeSpriteHash(@s)
-				return false
-			end
-		end
-  end
+	end
 
-# Update the scene here, this is called once each frame
-  def pbUpdate
-    pbUpdateSpriteHash(@sprites)
-		pbUpdateSpriteHash(@moves)
-		if @sprites["abg"]
-			@sprites["abg"].ox+=1
-			@sprites["abg"].oy-=1
-		end
-  end
+	# Update the scene here, this is called once each frame
+	def pbUpdate
+		pbUpdateSpriteHash(@sprites)
+			pbUpdateSpriteHash(@moves)
+			if @sprites["abg"]
+				@sprites["abg"].ox+=1
+				@sprites["abg"].oy-=1
+			end
+	end
 	
 	def evaluateIcon(pokemon)
 		bitmap = Bitmap.new(75,74)
@@ -128,17 +128,17 @@ class MoveRelearnerScene
 		return bitmap
 	end
 	
-  def pbStartScene(pokemon,moves)
-    @pokemon=pokemon
-    @pastmoves=moves
-    moveCommands=[]
-    moves.each{|i| moveCommands.push(PBMoves.getName(i)) }
-    # Create sprite hash
-    @viewport=Viewport.new(0,0,Graphics.width,Graphics.height)
-    @viewport.z=99999
-		@path = "Graphics/Pictures/Movelearner/"
-    @sprites={}
-    #addBackgroundPlane(@sprites,"bg","reminderbg",@viewport)
+	def pbStartScene(pokemon,moves)
+		@pokemon=pokemon
+		@pastmoves=moves
+		moveCommands=[]
+		moves.each{|i| moveCommands.push(PBMoves.getName(i)) }
+		# Create sprite hash
+		@viewport=Viewport.new(0,0,Graphics.width,Graphics.height)
+		@viewport.z=99999
+			@path = "Graphics/Pictures/Movelearner/"
+		@sprites={}
+		#addBackgroundPlane(@sprites,"bg","reminderbg",@viewport)
 		@sprites["bg"] = EAMSprite.new(@viewport)
 		@sprites["bg"].bitmap = pbBitmap(@path + "bg")
 		
@@ -150,19 +150,19 @@ class MoveRelearnerScene
 		
 		@sprites["ui"]=EAMSprite.new(@viewport)
 		@sprites["ui"].bitmap = pbBitmap(@path + "ui")
-		 
+			
 		@sprites["arrows"] = EAMSprite.new(@viewport)
 		@sprites["arrows"].bitmap = pbBitmap(@path + "arrows") 
-		
-    @sprites["pokeicon"]=EAMSprite.new(@viewport)#PokemonIconSprite.new(@pokemon,@viewport)
+			
+		@sprites["pokeicon"]=EAMSprite.new(@viewport)#PokemonIconSprite.new(@pokemon,@viewport)
 		@sprites["pokeicon"].bitmap = evaluateIcon(pokemon)
 		@sprites["pokeicon"].ox = @sprites["pokeicon"].bitmap.width/2
 		@sprites["pokeicon"].oy = @sprites["pokeicon"].bitmap.height/2
-    @sprites["pokeicon"].x=333
-    @sprites["pokeicon"].y=102
-		
-    @sprites["overlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
-    @sprites["overlay"].bitmap.font = Font.new
+		@sprites["pokeicon"].x=333
+		@sprites["pokeicon"].y=102
+			
+		@sprites["overlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
+		@sprites["overlay"].bitmap.font = Font.new
 		@sprites["overlay"].bitmap.font.name = "Barlow Condensed"
 		@sprites["overlay"].bitmap.font.size = $MKXP ? 20 : 22
 		
@@ -193,25 +193,25 @@ class MoveRelearnerScene
 		@sprites["overlay"].bitmap.font.bold = true
 		
 		pbDrawTextPositions(@sprites["overlay"].bitmap,textpos)
-    @sprites["moveoverlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
-    @sprites["moveoverlay"].bitmap.font = SUMMARYITEMFONT
+		@sprites["moveoverlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
+		@sprites["moveoverlay"].bitmap.font = SUMMARYITEMFONT
 		@sprites["moveoverlay"].bitmap.font.size = $MKXP ? 22 : 24
-    pbDrawMoveList
-		
+		pbDrawMoveList
+			
 		drawMoveInfo(0)
-    pbDeactivateWindows(@sprites)
-    # Fade in all sprites
-    pbFadeInAndShow(@sprites) { pbUpdate }
-  end
+		pbDeactivateWindows(@sprites)
+		# Fade in all sprites
+		pbFadeInAndShow(@sprites) { pbUpdate }
+	end
 	
 	def drawMoveInfo(index)
 		@sprites["moveoverlay"].bitmap.clear
 		moveid = @pastmoves[index]
 		movedata=PBMoveData.new(moveid)
-    basedamage=movedata.basedamage
-    type=movedata.type
-    category=movedata.category
-    accuracy=movedata.accuracy
+		basedamage=movedata.basedamage
+		type=movedata.type
+		category=movedata.category
+		accuracy=movedata.accuracy
 		move=moveid
 		textpos=[]
 		#values
@@ -226,26 +226,26 @@ class MoveRelearnerScene
 		drawTextExH(@sprites["moveoverlay"].bitmap,301,230,192,4,movedesc,Color.new(48,48,48),Color.new(48,48,48,0),18)
 	end
 	
-  def pbDrawMoveList
-		@viewport2=Viewport.new(24,60,238,266)
-    @viewport2.z=99999
-		bmp = pbBitmap("Graphics/Pictures/EBS/Xenoverse/casellemosse_rs")
-		@moves={}
-		
-		for i in @pastmoves
-			md = PBMoveData.new(i)
-			if md
-				@moves["m#{i}"]=EAMSprite.new(@viewport2)
-				@moves["m#{i}"].bitmap = Bitmap.new(232,25)
-				@moves["m#{i}"].bitmap.blt(0,0,bmp,Rect.new(0,md.type*25,232,25))
-				@moves["m#{i}"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
-				@moves["m#{i}"].bitmap.font.size = $MKXP ? 16 : 18
-				dark = getDarkerColor(@moves["m#{i}"].bitmap.get_pixel(50,13),0.35)
-				pbDrawTextPositions(@moves["m#{i}"].bitmap,[[PBMoves.getName(i),35,3,0,Color.new(248,248,248),dark,true]]) #outlined
-				@moves["m#{i}"].y=28*@pastmoves.index(i)
+	def pbDrawMoveList
+			@viewport2=Viewport.new(24,60,238,266)
+		@viewport2.z=99999
+			bmp = pbBitmap("Graphics/Pictures/EBS/Xenoverse/casellemosse_rs")
+			@moves={}
+			
+			for i in @pastmoves
+				md = PBMoveData.new(i)
+				if md
+					@moves["m#{i}"]=EAMSprite.new(@viewport2)
+					@moves["m#{i}"].bitmap = Bitmap.new(232,25)
+					@moves["m#{i}"].bitmap.blt(0,0,bmp,Rect.new(0,md.type*25,232,25))
+					@moves["m#{i}"].bitmap.font.name = $MKXP ? "Kimberley" : "Kimberley Bl"
+					@moves["m#{i}"].bitmap.font.size = $MKXP ? 16 : 18
+					dark = getDarkerColor(@moves["m#{i}"].bitmap.get_pixel(50,13),0.35)
+					pbDrawTextPositions(@moves["m#{i}"].bitmap,[[PBMoves.getName(i),35,3,0,Color.new(248,248,248),dark,true]]) #outlined
+					@moves["m#{i}"].y=28*@pastmoves.index(i)
+				end
 			end
-		end
-  end
+	end
 	
 	def setSelectedMove(index)
 		for m in @moves.keys
@@ -285,8 +285,8 @@ class MoveRelearnerScene
 		end
 	end
 	
-# Processes the scene
-  def pbChooseMove
+	# Processes the scene
+	def pbChooseMove
 		index=0
 		setSelectedMove(index)
 		drawMoveInfo(index)
@@ -325,34 +325,88 @@ class MoveRelearnerScene
 				return 0
 			end
 		end
-    #~ oldcmd=-1
-    #~ pbActivateWindow(@sprites,"commands"){
-       #~ loop do
-         #~ oldcmd=@sprites["commands"].index
-         #~ Graphics.update
-         #~ Input.update
-         #~ pbUpdate
-         #~ if @sprites["commands"].index!=oldcmd
-           #~ @sprites["background"].x=0
-           #~ @sprites["background"].y=78+(@sprites["commands"].index-@sprites["commands"].top_item)*64
-           #~ pbDrawMoveList
-         #~ end
-         #~ if Input.trigger?(Input::B)
-           #~ return 0
-         #~ end
-         #~ if Input.trigger?(Input::C)
-           #~ return @moves[@sprites["commands"].index]
-         #~ end
-       #~ end
-    #~ }
+	end
+
+	# End the scene here
+	def pbEndScene
+			merged = @sprites.merge(@moves)
+		pbFadeOutAndHide(merged) { pbUpdate } # Fade out all sprites
+		pbDisposeSpriteHash(merged) # Dispose all sprites
+		@viewport.dispose # Dispose the viewport
+			@viewport2.dispose # Dispose the viewport
+	end
+end
+
+# Screen class for handling game logic
+class MoveRelearnerScreen
+	def initialize(scene)
+	  @scene = scene
+	end
+  
+	def pbStartScreen(pokemon)
+	  moves=pbGetRelearnableMoves(pokemon)
+	  @scene.pbStartScene(pokemon,moves)
+	  loop do
+		move=@scene.pbChooseMove
+		if move<=0
+		  if @scene.pbConfirm(
+			_INTL("Give up trying to teach a new move to {1}?",pokemon.name))
+			@scene.pbEndScene
+			return false
+		  end
+		else
+		  if @scene.pbConfirm(_INTL("Teach {1}?",PBMoves.getName(move)))
+			if pbLearnMove(pokemon,move)
+			  @scene.pbEndScene
+			  return true
+			end
+		  end
+		end
+	  end
+	end
+	
+	def pbStartTutorScreen(pokemon)
+		moves=pbGetTutorMoves(pokemon)
+		@scene.pbStartScene(pokemon,moves)
+		loop do
+			move=@scene.pbChooseMove
+			if move<=0
+				if @scene.pbConfirm(
+					_INTL("Give up trying to teach a new move to {1}?",pokemon.name))
+					@scene.pbEndScene
+					return false
+				end
+			else
+				if @scene.pbConfirm(_INTL("Teach {1}?",PBMoves.getName(move)))
+					if pbLearnMove(pokemon,move)
+						@scene.pbEndScene
+						return true
+					end
+				end
+			end
+		end
+	end
+end
+
+def pbGetTutorMoves(pokemon)
+	return [] if !pokemon || pokemon.isEgg? || (pokemon.isShadow? rescue false)
+	moves=[]
+	for move in 0...PBMoves.maxValue
+		moves << move if pokemon.isCompatibleWithMove?(move)
+	end
+	#Added all TMs, now to add Egg Moves
+	eggmoves = pokemon.possibleEggMoves
+	moves = moves+ eggmoves
+
+	return moves|[] # remove duplicates
   end
 
-# End the scene here
-  def pbEndScene
-		merged = @sprites.merge(@moves)
-    pbFadeOutAndHide(merged) { pbUpdate } # Fade out all sprites
-    pbDisposeSpriteHash(merged) # Dispose all sprites
-    @viewport.dispose # Dispose the viewport
-		@viewport2.dispose # Dispose the viewport
-  end
+def pbTutorMoveScreen(pokemon)
+  retval=true
+  pbFadeOutIn(99999){
+     scene=MoveRelearnerScene.new
+     screen=MoveRelearnerScreen.new(scene)
+     retval=screen.pbStartTutorScreen(pokemon)
+  }
+  return retval
 end

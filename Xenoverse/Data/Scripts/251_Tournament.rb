@@ -901,6 +901,7 @@ BATTLE_POINT_PRICES = {
   PBItems::LUMINOUSMOSS => 30,
   PBItems::THROATSPRAY => 30,
   PBItems::ROOMSERVICE => 30,
+  PBItems::PINKSTONE => 60,
 
   #Pokemon modification items
   PBItems::ABILITYCAPSULE => 30,
@@ -1064,7 +1065,8 @@ def pbGetFightShopList()
     PBItems::SNOWBALL,
     PBItems::LUMINOUSMOSS,
     PBItems::THROATSPRAY,
-    PBItems::ROOMSERVICE]
+    PBItems::ROOMSERVICE,
+    PBItems::PINKSTONE]
 end
 
 def pbBottleCapChoice()
