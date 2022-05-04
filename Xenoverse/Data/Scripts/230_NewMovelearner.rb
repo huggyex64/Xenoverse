@@ -19,6 +19,23 @@ class MoveRelearnerScene
 		UIHelper.pbDisplay(@sprites["msgwindow"],msg,brief) { pbUpdate }
 	end
 
+	def drawMoney
+		@sprites["moneywindow"].visible=true
+		@sprites["moneyoverlay"].visible = true
+		@sprites["moneyoverlay"].bitmap.clear
+		textpos=[]
+		textpos.push([(@bpmode ? _INTL("Points") : _INTL("Money")),24,16,0,Color.new(48,48,48)])
+		textpos.push([(@bpmode ? $Trainer.battle_points.to_s : "$"+$Trainer.money.to_s),225,16,1,Color.new(48,48,48)])
+		pbDrawTextPositions(@sprites["moneyoverlay"].bitmap,textpos)
+	end
+
+	def hideMoney
+		@sprites["moneywindow"].visible=false
+		@sprites["moneyoverlay"].visible = false
+	end
+
+
+
 	def pbConfirm(msg)
 		@viewport3 = Viewport.new(0,0,512,384)
 			@viewport3.z = @viewport2.z+1
@@ -129,6 +146,7 @@ class MoveRelearnerScene
 	end
 	
 	def pbStartScene(pokemon,moves)
+		@bpmode = false
 		@pokemon=pokemon
 		@pastmoves=moves
 		moveCommands=[]
@@ -161,6 +179,22 @@ class MoveRelearnerScene
 		@sprites["pokeicon"].x=333
 		@sprites["pokeicon"].y=102
 			
+		
+		
+		@sprites["moneywindow"]=EAMSprite.new(@viewport)#PokemonIconSprite.new(@pokemon,@viewport)
+		@sprites["moneywindow"].bitmap = pbBitmap("Graphics/Pictures/alltutor")
+		@sprites["moneywindow"].visible = false
+		@sprites["moneywindow"].z = 1000
+
+		@sprites["moneyoverlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
+		@sprites["moneyoverlay"].bitmap.font = SUMMARYITEMFONT
+		@sprites["moneyoverlay"].bitmap.font.size = $MKXP ? 22 : 24
+		@sprites["moneyoverlay"].z = 1000
+
+		@sprites["moveoverlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
+		@sprites["moveoverlay"].bitmap.font = SUMMARYITEMFONT
+		@sprites["moveoverlay"].bitmap.font.size = $MKXP ? 22 : 24
+
 		@sprites["overlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
 		@sprites["overlay"].bitmap.font = Font.new
 		@sprites["overlay"].bitmap.font.name = "Barlow Condensed"
@@ -193,9 +227,6 @@ class MoveRelearnerScene
 		@sprites["overlay"].bitmap.font.bold = true
 		
 		pbDrawTextPositions(@sprites["overlay"].bitmap,textpos)
-		@sprites["moveoverlay"]=BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
-		@sprites["moveoverlay"].bitmap.font = SUMMARYITEMFONT
-		@sprites["moveoverlay"].bitmap.font.size = $MKXP ? 22 : 24
 		pbDrawMoveList
 			
 		drawMoveInfo(0)
@@ -366,7 +397,10 @@ class MoveRelearnerScreen
 	end
 	
 	def pbStartTutorScreen(pokemon)
-		moves=pbGetTutorMoves(pokemon)
+		mvs = pbGetTutorMoves(pokemon)
+		moves=mvs[0]
+		tmoves = mvs[1]
+		eggmoves = mvs[2]
 		@scene.pbStartScene(pokemon,moves)
 		loop do
 			move=@scene.pbChooseMove
@@ -377,12 +411,28 @@ class MoveRelearnerScreen
 					return false
 				end
 			else
-				if @scene.pbConfirm(_INTL("Teach {1}?",PBMoves.getName(move)))
-					if pbLearnMove(pokemon,move)
-						@scene.pbEndScene
-						return true
+				price = 999999999
+				if tmoves.include?(move)
+					price = 90000
+					price -= 16000*($Trainer.numbadges-3) if $Trainer.numbadges>3
+				end
+				if eggmoves.include?(move)
+					price = 150000
+					price -= 20000*($Trainer.numbadges-3) if $Trainer.numbadges>3
+				end
+				@scene.drawMoney
+				if @scene.pbConfirm(_INTL("You chose {1}, it will cost {2}$. Do you want to proceed?",PBMoves.getName(move),price))
+					if price > $Trainer.money
+						Kernel.pbMessage(_INTL("You don't have enough money."))
+					else
+						if pbLearnMove(pokemon,move)
+							$Trainer.money -= price
+							@scene.pbEndScene
+							return true
+						end
 					end
 				end
+				@scene.hideMoney
 			end
 		end
 	end
@@ -396,10 +446,10 @@ def pbGetTutorMoves(pokemon)
 	end
 	#Added all TMs, now to add Egg Moves
 	eggmoves = pokemon.possibleEggMoves
-	moves = moves+ eggmoves
-
-	return moves|[] # remove duplicates
-  end
+	allmoves = moves+ eggmoves
+	allmoves = allmoves|[]
+	return [allmoves,moves,eggmoves] # remove duplicates
+end
 
 def pbTutorMoveScreen(pokemon)
   retval=true

@@ -1707,11 +1707,40 @@ class PartyBox < EAMSprite
 	
 end
 
+def pbChooseSinglePokemon
+	chosen = -1
+    pbFadeOutIn(99999) {
+      scene = PokemonScreen_Scene.new
+      screen = PokemonScreen.new(scene, $Trainer.party)
+      screen.pbStartScene(_INTL("Choose a Pokémon."), false)
+      chosen = screen.pbChoosePokemon
+      screen.pbEndScene
+    }
+    return chosen
+end
+
 def pbPokeCenterPC
   Kernel.pbMessage(_INTL("\\se[computeropen]{1} booted up the PC.",$Trainer.name))
-  pbFadeOutIn(99999){
-    NewPokemonStorage.new
-  }
+  if $game_switches[1332] == true
+	choices = [_INTL("Use PC"),_INTL("Virtual Move Tutor")]
+	rt = pbNewChoice(Fullbox_Option.createFromArray(choices),-1)
+	if rt > -1
+		if rt == 0
+			pbFadeOutIn(99999){
+				NewPokemonStorage.new
+			}
+		else
+			pokemon = pbChooseSinglePokemon
+			if pokemon != -1
+				pbTutorMoveScreen($Trainer.party[pokemon])
+			end
+		end
+	end
+  else
+	pbFadeOutIn(99999){
+		NewPokemonStorage.new
+	}
+  end
   pbSEPlay("computerclose")
   $PokemonTemp.dependentEvents.refresh_sprite(true)
 end
