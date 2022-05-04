@@ -438,22 +438,22 @@ title = Le forze della natura
 description = Ottieni tutti e 4 i geni sul Monte Zodiaco Alterato.
 amount = 4
 image = 88_geni
-[Sfilata]
+[Stella]
 title = Sfilata elettrizzante
 description = Sconfiggi Stella nel Torneo Apollo.
 amount = 1
 image = 89_sfilata
-[Clawman]
+[Sotis]
 title = Clawman l'invincibile
 description = Sconfiggi Clawman nel Torneo Apollo.
 amount = 1
 image = 90_clawman
-[Exception]
+[Iridio]
 title = Null Exception
 description = Sconfiggi Iridio nel Torneo Apollo.
 amount = 1
 image = 91_exception
-[Danza]
+[Greta]
 title = Danza della meditazione
 description = Sconfiggi Valentina nel Torneo Apollo.
 amount = 1
