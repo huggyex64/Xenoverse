@@ -1619,7 +1619,11 @@ def pbBattleAnimation(bgm=nil,trainerid=-1,trainername="",skip = false)
     elsif !$wildSpecies.nil? && isBoss?
       if !(NEWBOSSES.include?($wildSpecies) && (isBoss?() ? (defined?($furiousBattle) && $furiousBattle) : false)) #NEWBOSSES.include?($wildSpecies)
         echoln "STARTING OLD TRANSITION"
-        vsXSpecies(viewport,$wildSpecies)
+        if isXSpecies?($wildSpecies)
+          vsXSpecies(viewport,$wildSpecies)
+        else
+          ebWildAnimationMinor(viewport,true) 
+        end
       else
         echoln "TRANSITION: playing ebWildAnimationMinor"
         ebWildAnimationMinor(viewport,true) 
