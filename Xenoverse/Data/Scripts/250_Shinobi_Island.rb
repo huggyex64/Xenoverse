@@ -277,8 +277,94 @@ class NewBossBattleTransition
       @sprites["overlay"].bitmap = Bitmap.new(@viewport.rect.width,@viewport.rect.height)
       @sprites["overlay"].opacity = 0
     end
+
+    def pokemonPreview
+      pvvp = Viewport.new(0,0,Graphics.width,Graphics.height)
+      pvvp.z = @viewport.z + 1
+
+      @sprites["pokemonpv"] = Sprite.new(pvvp)
+      @sprites["pokemonpv"].bitmap = pbBitmap(sprintf("Graphics/Transitions/SunMoon/fdg%d",$wildSpecies))
+      @sprites["pokemonpv"].opacity = 0
+      @sprites["pokemonpv"].zoom_x = 2
+      @sprites["pokemonpv"].zoom_y = 2
+      @sprites["pokemonpv"].oy = @sprites["pokemonpv"].bitmap.height
+      @sprites["pokemonpv"].ox = @sprites["pokemonpv"].bitmap.width/2
+      @sprites["pokemonpv"].y = Graphics.height
+      @sprites["pokemonpv"].x = 0
+      @sprites["pokemonpv"].tone = Tone.new(0,0,0,255)
+
+      
+      @sprites["white"] = EAMSprite.new(pvvp)
+      @sprites["white"].visible = false
+      @sprites["white"].bitmap = Bitmap.new(Graphics.width,Graphics.height)
+      @sprites["white"].bitmap.fill_rect(0,0,Graphics.width,Graphics.height,Color.new(255,255,255))
+      @sprites["blacktop"] = EAMSprite.new(pvvp)
+      @sprites["blacktop"].bitmap = Bitmap.new(Graphics.width+100,Graphics.height/2)
+      @sprites["blacktop"].bitmap.fill_rect(0,0,@sprites["blacktop"].bitmap.width,@sprites["blacktop"].bitmap.height,Color.new(0,0,0))
+      @sprites["blacktop"].x = -50
+      @sprites["blacktop"].visible = false
+      @sprites["blackbottom"] = EAMSprite.new(pvvp)
+      @sprites["blackbottom"].bitmap = Bitmap.new(Graphics.width+100,Graphics.height/2)
+      @sprites["blackbottom"].bitmap.fill_rect(0,0,@sprites["blackbottom"].bitmap.width,@sprites["blackbottom"].bitmap.height,Color.new(0,0,0))
+      @sprites["blackbottom"].visible = false
+      @sprites["blackbottom"].x = -50
+      @sprites["blackbottom"].y = Graphics.height/2
+      i = 0
+      60.times do
+        Graphics.update
+        Input.update
+        @sprites["pokemonpv"].opacity += 185/10 if i < 10
+        @sprites["pokemonpv"].x+=1
+        @sprites["pokemonpv"].opacity -= 185/10 if i >= 50
+        i+=1
+      end
+
+      @sprites["pokemonpv"].oy = @sprites["pokemonpv"].bitmap.height/3
+      @sprites["pokemonpv"].y = Graphics.height
+      @sprites["pokemonpv"].x = Graphics.width 
+      pbWait(30)
+      i=0
+      60.times do
+        Graphics.update
+        Input.update
+        @sprites["pokemonpv"].opacity += 185/10 if i < 10
+        @sprites["pokemonpv"].x-=1
+        @sprites["pokemonpv"].opacity -= 185/10 if i >= 50
+        i+=1
+      end
+      @sprites["blacktop"].visible=true
+      @sprites["blackbottom"].visible=true
+      @sprites["white"].visible = true
+
+      @sprites["blacktop"].moveY(-200,35,:ease_in_expo)
+      @sprites["blackbottom"].moveY(Graphics.height/2+200,35,:ease_in_expo)
+      60.times do
+        Graphics.update
+        Input.update
+      end
+      35.times do
+        Graphics.update
+        Input.update
+        @sprites["blacktop"].update
+        @sprites["blackbottom"].update
+      end
+
+      @sprites["white"].fade(0,20)
+      20.times do
+        Graphics.update
+        Input.update
+        @sprites["white"].update
+      end
+    end
+
     # starts the animation
     def start
+      
+      if $wildSpecies == PBSpecies::DRAGALISKFURIA
+        echoln "POGGERS"
+        self.pokemonPreview if $wildSpecies == PBSpecies::DRAGALISKFURIA
+      end
+
       return if self.disposed?
       # fades in viewport
       16.times do

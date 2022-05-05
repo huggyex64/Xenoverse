@@ -102,8 +102,10 @@ class SunMoonDefaultBackground
       str = sprintf("%s%d",bg[i],trainerid)
       evl = bg[i] + "Evil"
       skl = bg[i] + "Skull"
+      fdg =  bg[i] + "fdg"
       bg[i] = evl if pbResolveBitmap(evl) && @evilteam
       bg[i] = skl if pbResolveBitmap(skl) && @teamskull
+      bg[i] = fdg if pbResolveBitmap(fdg) && $wildSpecies == PBSpecies::DRAGALISKFURIA
       bg[i] = str if pbResolveBitmap(str)
     end
     # creates the 3 background layers
@@ -3101,7 +3103,7 @@ class SunMoonBattleTransitions
     @sprites["trainer"] = Sprite.new(@viewport)
     @sprites["trainer"].z = 350
 
-    if @variant == "fury"
+    if @variant == "fury" || @variant == "fdg"
       @sprites["trainer"].bitmap = Bitmap.new(@viewport.rect.width,@viewport.rect.height*1.5)
       
       @sprites["trainer"].ox = @sprites["trainer"].bitmap.width/2
@@ -3211,11 +3213,53 @@ class SunMoonBattleTransitions
 
   end
 
+  def pokemonPreview
+    pvvp = Viewport.new(0,0,Graphics.width,Graphics.height)
+    pvvp.z = @viewport.z + 1
+
+    @sprites["pokemonpv"] = Sprite.new(pvvp)
+    @sprites["pokemonpv"].bitmap = pbBitmap(sprintf("Graphics/Transitions/SunMoon/fdg%d",$wildSpecies))
+    @sprites["pokemonpv"].opacity = 0
+    @sprites["pokemonpv"].zoom_x = 2
+    @sprites["pokemonpv"].zoom_y = 2
+    @sprites["pokemonpv"].oy = @sprites["pokemonpv"].bitmap.height
+    @sprites["pokemonpv"].ox = @sprites["pokemonpv"].bitmap.width/2
+    @sprites["pokemonpv"].y = Graphics.height
+    @sprites["pokemonpv"].x = 0
+    @sprites["pokemonpv"].tone = Tone.new(0,0,0,255)
+    i = 0
+    60.times do
+      Graphics.update
+      Input.update
+      @sprites["pokemonpv"].opacity += 185/10 if i < 10
+      @sprites["pokemonpv"].x+=1
+      @sprites["pokemonpv"].opacity -= 185/10 if i >= 50
+      i+=1
+    end
+
+    @sprites["pokemonpv"].oy = @sprites["pokemonpv"].bitmap.height/3
+    @sprites["pokemonpv"].y = Graphics.height
+    @sprites["pokemonpv"].x = Graphics.width 
+    pbWait(30)
+    i=0
+    60.times do
+      Graphics.update
+      Input.update
+      @sprites["pokemonpv"].opacity += 185/10 if i < 10
+      @sprites["pokemonpv"].x-=1
+      @sprites["pokemonpv"].opacity -= 185/10 if i >= 50
+      i+=1
+    end
+
+
+  end
 
   # starts the animation
   def start
     self.trainerPreview if @variant == "fury"
-
+    if $wildSpecies == PBSpecies::DRAGALISKFURIA
+      self.pokemonPreview if $wildSpecies == PBSpecies::DRAGALISKFURIA
+    end
     return if self.disposed?
     # fades in viewport
     16.times do
