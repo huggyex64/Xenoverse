@@ -160,6 +160,11 @@ class DynamicPokemonSprite
     self.formatShadow
   end
   def dispose
+    if @trail
+      for t in @trails
+        t.dispose
+      end
+    end
     @sprite.dispose
     @shadow.dispose
   end
@@ -171,6 +176,14 @@ class DynamicPokemonSprite
     @sprite.tone.red+=val
     @sprite.tone.green+=val
     @sprite.tone.blue+=val
+    
+    if @trail
+      for t in @trails
+        t.tone.red+=val
+        t.tone.green+=val
+        t.tone.blue+=val
+      end
+    end
   end
   
   def setBitmap(file,shadow=false)
@@ -263,6 +276,11 @@ class DynamicPokemonSprite
   end
   
   def clear
+    if @trail
+      for t in @trails
+        t.dispose
+      end
+    end
     @sprite.bitmap.clear
     @bitmap.dispose
   end
@@ -304,8 +322,8 @@ class DynamicPokemonSprite
         @trails.last.z = @sprite.z-1
         @trails.last.bitmap = @sprite.bitmap.clone
         @trails.last.color = Color.new(255,255,255)
-        @trails.last.coloring(Color.new(0,0,0),20)
-        @trails.last.fade(0,50,:ease_out_cubic)
+        @trails.last.coloring(Color.new(0,0,0),10)
+        @trails.last.fade(0,32,:ease_out_cubic)
         before = nil
         for t in @trails
           t.x = @sprite.x
@@ -318,6 +336,10 @@ class DynamicPokemonSprite
           end
           before = t
           t.update
+          if t.opacity == 0
+            @trails.delete(t)
+            t.dispose
+          end
         end
       end
       @sprite.bitmap=@bitmap.bitmap.clone

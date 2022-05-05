@@ -1173,23 +1173,7 @@ end
 #
 #===============================================================================
 $rivalBattleID=0
-TRAINERPOOL_basic=[  #ALMENO 8 ALLENATORI
-  #SPECIALI
-  ["will",PBTrainers::WILLTOURNAMENT,"Will",_INTL("Devo allenarmi di più!"),3],
-  ["alexandra",PBTrainers::VERBENATOURNAMENT,"Verbena",_INTL("Pare che la corrente mi abbia trascinato via!"),4],
-  ["wallace",PBTrainers::WALLACETOURNAMENT,"Wallace Daddy",_INTL("Sono stato annientato dal tuo beat!"),4],
-  ["reclutafside",PBTrainers::TEAMDIMENSIONF,"T3S",_INTL("Screanzato!"),1],
-  ["minside",PBTrainers::MINTOURNAMENT,"Min",_INTL("Mun, ho fallito!"),2],
-  ["Gennaro Bullo",PBTrainers::GENNAROTOURNAMENT,"Gennaro",_INTL("Non di nuovo!"),5],
-  #PASS 4
-  ["alisso",PBTrainers::ALISSOTOURNAMENT,"Alisso",_INTL("...!"),3],
-  ["munside",PBTrainers::MUNTOURNAMENT,"Mun",_INTL("Min, non ce l'ho fatta!"),4],
-  ["silvia",PBTrainers::SILVIATOURNAMENT,"Silvia",_INTL("Caliente come sempre!"),4],
-  ["S",PBTrainers::SIGMATOURNAMENT,"S",_INTL("Oh diamine!"),1],
-  ["crisante",PBTrainers::CRISANTETOURNAMENT,"Crisante",_INTL("Qual verso potrà mai calmare la mia frustrazione?"),2],
-  #["trey",PBTrainers::TREYTOURNAMENT,"Trey",_INTL("Hmph! La prossima volta vincerò io!"),5],
-
-
+STANDARD_POOL = [
   #NORMALI
   ["Ranger femmina 1",PBTrainers::RANGERF,"Solana",_INTL("Per poco!"),0],
   ["montanaro",PBTrainers::MONTANARO,"Alfio",_INTL("Peccato! Avrei dovuto passare meno tempo a passeggiare..."),0],
@@ -1208,8 +1192,28 @@ TRAINERPOOL_basic=[  #ALMENO 8 ALLENATORI
   ["pokéfanatico",PBTrainers::POKEFAN,"Tullio",_INTL("C'ero quasi!"),0],
   ["pellerossaf",PBTrainers::INDIANA,"Awentia",_INTL("C'ero quasi!"),0],
   ["fashionbloggerm",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
-  
 ]
+
+TRAINERPOOL_basic=[  #ALMENO 8 ALLENATORI
+  #SPECIALI
+  ["will",PBTrainers::WILLTOURNAMENT,"Will",_INTL("Devo allenarmi di più!"),3],
+  ["alexandra",PBTrainers::VERBENATOURNAMENT,"Verbena",_INTL("Pare che la corrente mi abbia trascinato via!"),4],
+  ["wallace",PBTrainers::WALLACETOURNAMENT,"Wallace Daddy",_INTL("Sono stato annientato dal tuo beat!"),4],
+  ["reclutafside",PBTrainers::TEAMDIMENSIONF,"T3S",_INTL("Screanzato!"),1],
+  ["minside",PBTrainers::MINTOURNAMENT,"Min",_INTL("Mun, ho fallito!"),2],
+  ["Gennaro Bullo",PBTrainers::GENNAROTOURNAMENT,"Gennaro",_INTL("Non di nuovo!"),5],
+  #PASS 4
+  ["alisso",PBTrainers::ALISSOTOURNAMENT,"Alisso",_INTL("...!"),3],
+  ["munside",PBTrainers::MUNTOURNAMENT,"Mun",_INTL("Min, non ce l'ho fatta!"),4],
+  ["silvia",PBTrainers::SILVIATOURNAMENT,"Silvia",_INTL("Caliente come sempre!"),4],
+  ["S",PBTrainers::SIGMATOURNAMENT,"S",_INTL("Oh diamine!"),1],
+  ["crisante",PBTrainers::CRISANTETOURNAMENT,"Crisante",_INTL("Qual verso potrà mai calmare la mia frustrazione?"),2],
+  #["trey",PBTrainers::TREYTOURNAMENT,"Trey",_INTL("Hmph! La prossima volta vincerò io!"),5],
+]
+
+for i in STANDARD_POOL
+  TRAINERPOOL_basic << i if !TRAINERPOOL_basic.include?(i)
+end
 
 TRAINERPOOL_hard=[
   
@@ -1223,87 +1227,45 @@ TRAINERPOOL_expert=[]  #ALMENO 32 ALLENATORI
 
 LANCEPOOL=[
   ["lance",PBTrainers::LANCETOURNAMENT,"Lance",_INTL("Pare che il mio lungo allenamento non sia bastato..."),10],
-  ["Ranger femmina 1",PBTrainers::RANGERF,"Solana",_INTL("Per poco!"),0],
-  ["montanaro",PBTrainers::MONTANARO,"Alfio",_INTL("Peccato! Avrei dovuto passare meno tempo a passeggiare..."),0],
-  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Girolamo",_INTL("A quanto pare non ho viaggiato abbastanza!"),0],
-  ["arturo bidello",PBTrainers::BIDELLO,"Natale",_INTL("Che hai detto? Non ci sento molto!"),0],
-  ["scagnozzo evan 1",PBTrainers::SCAGNOZZO1,"Tommaso",_INTL("Che botta..."),0],
-  ["indianokid",PBTrainers::INDIANOKID,"Hakan",_INTL("Owch... Non è sono ancora abbastanza forte..."),0],
-  ["pescatore",PBTrainers::PESCATORE,"Ernesto",_INTL("C'ero quasi!"),0],
-  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Marco",_INTL("C'ero quasi!"),0],
-  ["redneckm",PBTrainers::REDNECKM,"Fulvio",_INTL("C'ero quasi!"),0],
-  ["allenatore-rugbista",PBTrainers::RUGBY,"Otto",_INTL("C'ero quasi!"),0],
-  ["mascheragym",PBTrainers::CONSIGLIERE,"Oris",_INTL("C'ero quasi!"),0],
-  ["karateka",PBTrainers::CINTURANERA,"Kenji",_INTL("C'ero quasi!"),0],
-  ["montanaro",PBTrainers::MONTANARO,"Giuseppe",_INTL("C'ero quasi!"),0],
-  ["archeologo",PBTrainers::ARCHEOLOGO,"Gustavo",_INTL("C'ero quasi!"),0],
-  ["pokéfanatico",PBTrainers::POKEFAN,"Tullio",_INTL("C'ero quasi!"),0],
-  ["pellerossaf",PBTrainers::INDIANA,"Awentia",_INTL("C'ero quasi!"),0],
-  ["fashionbloggerm",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
 ]
 
 DANTEPOOL=[
   ["Dante",PBTrainers::DANTETOURNAMENT,"Dante",_INTL("La prossima volta non andrà così!"),10],
-  ["Ranger femmina 1",PBTrainers::RANGERF,"Solana",_INTL("Per poco!"),0],
-  ["montanaro",PBTrainers::MONTANARO,"Alfio",_INTL("Peccato! Avrei dovuto passare meno tempo a passeggiare..."),0],
-  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Girolamo",_INTL("A quanto pare non ho viaggiato abbastanza!"),0],
-  ["arturo bidello",PBTrainers::BIDELLO,"Natale",_INTL("Che hai detto? Non ci sento molto!"),0],
-  ["scagnozzo evan 1",PBTrainers::SCAGNOZZO1,"Tommaso",_INTL("Che botta..."),0],
-  ["indianokid",PBTrainers::INDIANOKID,"Hakan",_INTL("Owch... Non è sono ancora abbastanza forte..."),0],
-  ["pescatore",PBTrainers::PESCATORE,"Ernesto",_INTL("C'ero quasi!"),0],
-  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Marco",_INTL("C'ero quasi!"),0],
-  ["redneckm",PBTrainers::REDNECKM,"Fulvio",_INTL("C'ero quasi!"),0],
-  ["allenatore-rugbista",PBTrainers::RUGBY,"Otto",_INTL("C'ero quasi!"),0],
-  ["mascheragym",PBTrainers::CONSIGLIERE,"Oris",_INTL("C'ero quasi!"),0],
-  ["karateka",PBTrainers::CINTURANERA,"Kenji",_INTL("C'ero quasi!"),0],
-  ["montanaro",PBTrainers::MONTANARO,"Giuseppe",_INTL("C'ero quasi!"),0],
-  ["archeologo",PBTrainers::ARCHEOLOGO,"Gustavo",_INTL("C'ero quasi!"),0],
-  ["pokéfanatico",PBTrainers::POKEFAN,"Tullio",_INTL("C'ero quasi!"),0],
-  ["pellerossaf",PBTrainers::INDIANA,"Awentia",_INTL("C'ero quasi!"),0],
-  ["fashionbloggerm",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
 ]
 
 LEOPOOL=[
   ["Leo",PBTrainers::LEOTOURNAMENT,"Leo",_INTL("Cavoli!"),10],
-  ["Ranger femmina 1",PBTrainers::RANGERF,"Solana",_INTL("Per poco!"),0],
-  ["montanaro",PBTrainers::MONTANARO,"Alfio",_INTL("Peccato! Avrei dovuto passare meno tempo a passeggiare..."),0],
-  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Girolamo",_INTL("A quanto pare non ho viaggiato abbastanza!"),0],
-  ["arturo bidello",PBTrainers::BIDELLO,"Natale",_INTL("Che hai detto? Non ci sento molto!"),0],
-  ["scagnozzo evan 1",PBTrainers::SCAGNOZZO1,"Tommaso",_INTL("Che botta..."),0],
-  ["indianokid",PBTrainers::INDIANOKID,"Hakan",_INTL("Owch... Non è sono ancora abbastanza forte..."),0],
-  ["pescatore",PBTrainers::PESCATORE,"Ernesto",_INTL("C'ero quasi!"),0],
-  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Marco",_INTL("C'ero quasi!"),0],
-  ["redneckm",PBTrainers::REDNECKM,"Fulvio",_INTL("C'ero quasi!"),0],
-  ["allenatore-rugbista",PBTrainers::RUGBY,"Otto",_INTL("C'ero quasi!"),0],
-  ["mascheragym",PBTrainers::CONSIGLIERE,"Oris",_INTL("C'ero quasi!"),0],
-  ["karateka",PBTrainers::CINTURANERA,"Kenji",_INTL("C'ero quasi!"),0],
-  ["montanaro",PBTrainers::MONTANARO,"Giuseppe",_INTL("C'ero quasi!"),0],
-  ["archeologo",PBTrainers::ARCHEOLOGO,"Gustavo",_INTL("C'ero quasi!"),0],
-  ["pokéfanatico",PBTrainers::POKEFAN,"Tullio",_INTL("C'ero quasi!"),0],
-  ["pellerossaf",PBTrainers::INDIANA,"Awentia",_INTL("C'ero quasi!"),0],
-  ["fashionbloggerm",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
 ]
 
 ERIKAPOOL=[
   ["Erika",PBTrainers::ERIKATOURNAMENT,"Erika",_INTL("Perbacco, chi l'avrebbe mai detto?"),10],
-  ["Ranger femmina 1",PBTrainers::RANGERF,"Solana",_INTL("Per poco!"),0],
-  ["montanaro",PBTrainers::MONTANARO,"Alfio",_INTL("Peccato! Avrei dovuto passare meno tempo a passeggiare..."),0],
-  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Girolamo",_INTL("A quanto pare non ho viaggiato abbastanza!"),0],
-  ["arturo bidello",PBTrainers::BIDELLO,"Natale",_INTL("Che hai detto? Non ci sento molto!"),0],
-  ["scagnozzo evan 1",PBTrainers::SCAGNOZZO1,"Tommaso",_INTL("Che botta..."),0],
-  ["indianokid",PBTrainers::INDIANOKID,"Hakan",_INTL("Owch... Non è sono ancora abbastanza forte..."),0],
-  ["pescatore",PBTrainers::PESCATORE,"Ernesto",_INTL("C'ero quasi!"),0],
-  ["allenatore-campeggiatore",PBTrainers::CAMPEGGIATORE,"Marco",_INTL("C'ero quasi!"),0],
-  ["redneckm",PBTrainers::REDNECKM,"Fulvio",_INTL("C'ero quasi!"),0],
-  ["allenatore-rugbista",PBTrainers::RUGBY,"Otto",_INTL("C'ero quasi!"),0],
-  ["mascheragym",PBTrainers::CONSIGLIERE,"Oris",_INTL("C'ero quasi!"),0],
-  ["karateka",PBTrainers::CINTURANERA,"Kenji",_INTL("C'ero quasi!"),0],
-  ["montanaro",PBTrainers::MONTANARO,"Giuseppe",_INTL("C'ero quasi!"),0],
-  ["archeologo",PBTrainers::ARCHEOLOGO,"Gustavo",_INTL("C'ero quasi!"),0],
-  ["pokéfanatico",PBTrainers::POKEFAN,"Tullio",_INTL("C'ero quasi!"),0],
-  ["pellerossaf",PBTrainers::INDIANA,"Awentia",_INTL("C'ero quasi!"),0],
-  ["fashionbloggerm",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
 ]
+
+STELLAPOOL=[
+  ["Erika",PBTrainers::STELLATOURNAMENT,"Stella",_INTL("Pare che il mio lungo allenamento non sia bastato..."),10],
+]
+
+SOTISPOOL=[
+  ["lance",PBTrainers::SOTISTOURNAMENT,"Sotis",_INTL("La prossima volta non andrà così!"),10],
+]
+
+GLADIONPOOL=[
+  ["Dante",PBTrainers::GLADIONTOURNAMENT,"Iridio",_INTL("Cavoli!"),10],
+]
+
+GRETAPOOL=[
+  ["Erika",PBTrainers::GRETATOURNAMENT,"Valentina",_INTL("Perbacco, chi l'avrebbe mai detto?"),10],
+]
+
+
+#Implementing standard trainers in VIP-specific Pools
+for i in STANDARD_POOL
+  LANCEPOOL << i if !LANCEPOOL.include?(i)
+  DANTEPOOL << i if !DANTEPOOL.include?(i)
+  LEOPOOL << i if !LEOPOOL.include?(i)
+  ERIKAPOOL << i if !ERIKAPOOL.include?(i)
+end
+
 
 VIPLIST =[
   [PBTrainers::LANCETOURNAMENT,"Lance"],
@@ -1321,10 +1283,10 @@ VIPCUPSWITCH = {
   [PBTrainers::ERIKATOURNAMENT,"Erika"] => 1181,
   [PBTrainers::DANTETOURNAMENT,"Dante"] => 1183,
   [PBTrainers::LEOTOURNAMENT,"Leo"] => 1184,
-  [PBTrainers::STELLATOURNAMENT,"Stella"] => 1800,
-  [PBTrainers::SOTISTOURNAMENT,"Sotis"] => 1801,
-  [PBTrainers::GRETATOURNAMENT,"Greta"] => 1802,
-  [PBTrainers::GLADIONTOURNAMENT,"Iridio"] => 1803
+  [PBTrainers::STELLATOURNAMENT,"Stella"] => 1344,
+  [PBTrainers::SOTISTOURNAMENT,"Sotis"] => 1346,
+  [PBTrainers::GRETATOURNAMENT,"Greta"] => 1347,
+  [PBTrainers::GLADIONTOURNAMENT,"Iridio"] => 1345
 }
 
 VIPSPEECH={
@@ -1368,7 +1330,7 @@ VIPSPEECH={
     :mugshot => "apollo/erika",
     :name => _INTL("Greta"),
     :speech => "Sento che le arti marziali mi possano aiutare a recuperare la memoria... Forse combattendo contro di te scoprirò qualcosa?",
-    :description => ["Un giorno si è risvegliata senza sapere chi fosse...","Da quel momento ha deciso di intraprendere la via delle arti marziali per affinare la sua tecnica!","La misteriosa e calma, Greta!"]
+    :description => ["Un giorno si è risvegliata senza sapere chi fosse...","Da quel momento ha deciso di intraprendere la via delle arti marziali per affinare la sua tecnica!","La misteriosa e calma, Valentina!"]
   },
   [PBTrainers::GLADIONTOURNAMENT,"Iridio"] => {
     :mugshot => "apollo/leo",
