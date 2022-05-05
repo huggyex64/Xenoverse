@@ -678,22 +678,50 @@ class OnlineLobby
     special = {
       :KAY2 => "Kay",
       :ALICE2 => "Alice",
+      :CAPOPALESTRA_ERBA => pbGetMessageFromHash(MessageTypes::TrainerNames,"Alisso"),
+      :CAPOPALESTRA_FOLLETTO => pbGetMessageFromHash(MessageTypes::TrainerNames,"Mimosa"),
+      :EVANCAPO => pbGetMessageFromHash(MessageTypes::TrainerNames,"Claudio"),
+      :ALEXANDRACAPO => pbGetMessageFromHash(MessageTypes::TrainerNames,"Verbena"),
+      :MAURICE => pbGetMessageFromHash(MessageTypes::TrainerNames,"Maurice"),
+      :SILVIA => pbGetMessageFromHash(MessageTypes::TrainerNames,"Silvia"),
+      :RUBENCAPO => pbGetMessageFromHash(MessageTypes::TrainerNames,"Crisante"),
+      :SERGENTEDONNA => pbGetMessageFromHash(MessageTypes::TrainerNames,"Tamara"),
+      :WALLACECAPO => pbGetMessageFromHash(MessageTypes::TrainerNames,"Wallace Daddy"),
+      :TEAMDIMENSIONF => pbGetMessageFromHash(MessageTypes::TrainerNames,"T3S"),
+      :SERGENTI_TEAMDIMENSION2 => pbGetMessageFromHash(MessageTypes::TrainerNames,"A & B"),
+      :SURGECAPO => pbGetMessageFromHash(MessageTypes::TrainerNames,"Surge"),
+      :HENNECAPO => pbGetMessageFromHash(MessageTypes::TrainerNames,"Henné"),
+      :GENGARCIRCO => pbGetMessageFromHash(MessageTypes::TrainerNames,"Gengar"),
+      :WILLTOURNAMENT => pbGetMessageFromHash(MessageTypes::TrainerNames,"Will"),
+      :ALTERTREY => pbGetMessageFromHash(MessageTypes::TrainerNames,"Trey"),
+      :RIVALE => pbGetMessageFromHash(MessageTypes::TrainerNames,"Trey"),
+      :RUTA2 => pbGetMessageFromHash(MessageTypes::TrainerNames,"Ruta"),
+      :FINALSAUL => pbGetMessageFromHash(MessageTypes::TrainerNames,"Saul"),
+      :MUNHALLOWEEN => "Mun",
+      :MINHALLOWEEN => "Min",
       :DARKKAYTRISHOUT => "Alter",
       :DARKALICETRISHOUT => "Alter",
       :GENERALEVICTOR => "Victor",
       :GOLD => "Gold",
-      :CHUA => "Chua",
-      :CASTALIA => "Castalia",
-      :PEYOTE => "Peyote",
-      :OLEANDRO => "Oleandro",
-      :ASTER => "Aster",
+      :CHUA => pbGetMessageFromHash(MessageTypes::TrainerNames,"Chua"),
+      :CASTALIA => pbGetMessageFromHash(MessageTypes::TrainerNames,"Castalia"),
+      :PEYOTE => pbGetMessageFromHash(MessageTypes::TrainerNames,"Peyote"),
+      :OLEANDRO => pbGetMessageFromHash(MessageTypes::TrainerNames,"Oleandro"),
+      :ASTER => pbGetMessageFromHash(MessageTypes::TrainerNames,"Aster"),
+      :TARASSACO => pbGetMessageFromHash(MessageTypes::TrainerNames,"Tarassaco"),
+      :FINALMAMMA => pbGetMessageFromHash(MessageTypes::TrainerNames,"Edera"),
+      :VAKUM => "Vakuum",
       :VERSIL => "Versil",
-      :TAMARAFURIA => "Tamara",
+      :TAMARAFURIA => pbGetMessageFromHash(MessageTypes::TrainerNames,"Tamara"),
       :LANCETOURNAMENT => "Lance",
       :LEOTOURNAMENT => "Leo",
       :ERIKATOURNAMENT => "Erika",
       :DANTETOURNAMENT => "Dante",
-      :SERGENTESIGMA => "S"
+      :SERGENTESIGMA => "S",
+      :STELLATOURNAMENT => pbGetMessageFromHash(MessageTypes::TrainerNames,"Stella"),
+      :CLAWMANTOURNAMENT => pbGetMessageFromHash(MessageTypes::TrainerNames,"Sotis"),
+      :IRIDIOTOURNAMENT => pbGetMessageFromHash(MessageTypes::TrainerNames,"Iridio"),
+      :GRETATOURNAMENT => pbGetMessageFromHash(MessageTypes::TrainerNames,"Valentina"),
     }
 
 
@@ -819,8 +847,13 @@ class OnlineLobby
     for i in 0...5
       sprites["trainerIcon#{i}"] = Sprite.new(@viewport)
       sprites["trainerIcon#{i}"].z = 122
-      if pbResolveBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}")
-        sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}").clone #TODO: Change with actual avatar
+      tid = currentSelectedAvatar+i-2
+      if tid >= availableAvatars.length
+        tid = tid-availableAvatars.length
+      end
+      if pbResolveBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[tid])}")
+        
+        sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[tid])}").clone #TODO: Change with actual avatar
         
         sprites["trainerIcon#{i}"].x = 117 + 69*i
         sprites["trainerIcon#{i}"].y = 343
@@ -917,8 +950,12 @@ class OnlineLobby
         end
         
         for i in 0...5
-          if pbResolveBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}")
-            sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}").clone #TODO: Change with actual avatar
+          tid = currentSelectedAvatar+i-2
+          if tid >= availableAvatars.length
+            tid = tid-availableAvatars.length
+          end
+          if pbResolveBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[tid])}")
+            sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[tid])}").clone #TODO: Change with actual avatar
             
             sprites["trainerIcon#{i}"].x = 117 + 69*i
             sprites["trainerIcon#{i}"].y = 343
@@ -939,8 +976,12 @@ class OnlineLobby
         end
         
         for i in 0...5
-          if pbResolveBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}")
-            sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[currentSelectedAvatar+i-2])}").clone #TODO: Change with actual avatar
+          tid = currentSelectedAvatar+i-2
+          if tid >= availableAvatars.length
+            tid = tid-availableAvatars.length
+          end
+          if pbResolveBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[tid])}")
+            sprites["trainerIcon#{i}"].bitmap = pbBitmap(@path + "Avatars/minor_icon#{getConst(PBTrainers,availableAvatars[tid])}").clone #TODO: Change with actual avatar
                 
             sprites["trainerIcon#{i}"].x = 117 + 69*i
             sprites["trainerIcon#{i}"].y = 343
@@ -2054,7 +2095,7 @@ module CableClub
     ret.push(:STELLATOURNAMENT) if $game_switches[1344]
     ret.push(:CLAWMANTOURNAMENT) if $game_switches[1346]
     ret.push(:IRIDIOTOURNAMENT) if $game_switches[1345]
-    ret.push(:VALENTINATOURNAMENT) if $game_switches[1347]
+    ret.push(:GRETATOURNAMENT) if $game_switches[1347]
 
     specialTrainers = CableClub.getSpecialTrainers($Trainer.uniqueSaveID)
     if specialTrainers.length > 0
