@@ -5306,7 +5306,12 @@ class Socket
     buf = "\0" * maxlen
     retval=Winsock.recv(@fd, buf, buf.size, flags)
     SocketError.check if retval == -1
-    echoln "ERROR #{Winsock.WSAGetLastError}"
+    lastError = Winsock.WSAGetLastError
+    echoln "ERROR #{lastError}"
+    if lastError == 10053
+      retString = "error"
+      return retString
+    end
     retString+=buf[0,retval]
     return retString
   end
@@ -5379,6 +5384,7 @@ class Connection
     if @socket.ready?
       recvd = @socket.recv_up_to(4096, 0)
       raise Disconnected.new("server disconnected") if recvd.empty?
+      raise Disconnected.new("error") if recvd == "error"
       @recv_parser.parse(recvd) {|record| @recv_records << record}
     end
     # Process at most one record so that any control flow in the block doesn't cause us to lose records.
