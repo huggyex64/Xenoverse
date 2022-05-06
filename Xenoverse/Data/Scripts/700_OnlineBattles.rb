@@ -317,7 +317,7 @@ class OnlineLobby
               break
             end
           end
-          pbBGMPlay(LOBBY_BGM)
+          pbBGMPlay(LOBBY_BGM,80)
           Kernel.pbMessageDisplay(msgwindow,settDetails[sett[selIndex]][:info],false)
         else
         end

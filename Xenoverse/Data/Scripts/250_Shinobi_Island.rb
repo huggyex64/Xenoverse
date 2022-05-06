@@ -338,10 +338,15 @@ class NewBossBattleTransition
 
       @sprites["blacktop"].moveY(-200,35,:ease_in_expo)
       @sprites["blackbottom"].moveY(Graphics.height/2+200,35,:ease_in_expo)
-      60.times do
+      30.times do
         Graphics.update
         Input.update
       end
+      30.times do
+        Graphics.update
+        Input.update
+      end
+      pbSEPlay("Unsheate",70)
       35.times do
         Graphics.update
         Input.update
