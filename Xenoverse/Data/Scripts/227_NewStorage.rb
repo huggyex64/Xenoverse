@@ -1732,8 +1732,13 @@ def pbPokeCenterPC
 		else
 			pokemon = pbChooseSinglePokemon
 			if pokemon != -1
-				pbTutorMoveScreen($Trainer.party[pokemon])
+				if RETRODEX.include?($Trainer.party[pokemon].species)
+					Kernel.pbMessage(_INTL("This Pokémon is not compatible with the Virtual Move Tutor!"))
+				else
+					pbTutorMoveScreen($Trainer.party[pokemon])
+				end
 			end
+			
 		end
 	end
   else

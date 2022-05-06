@@ -1928,6 +1928,8 @@ class PokeBattle_Move_049 < PokeBattle_Move
 		opponent.pbOwnSide.effects[PBEffects::Safeguard]   = 0
 		opponent.pbOwnSide.effects[PBEffects::Spikes]      = 0
 		opponent.pbOwnSide.effects[PBEffects::StealthRock] = false
+		attacker.pbOwnSide.effects[PBEffects::Spikes]      = 0
+		attacker.pbOwnSide.effects[PBEffects::StealthRock] = false
 
 		@battle.field.effects[PBEffects::AcidRain] = false
 		attacker.pbOwnSide.effects[PBEffects::VelvetScales] = false
