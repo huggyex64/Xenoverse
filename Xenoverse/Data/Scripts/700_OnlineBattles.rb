@@ -2034,11 +2034,11 @@ module CableClub
 
   BATTLE_TIERS_NUMBERS={
     :anythinggoes =>{
-      :single => 3,
+      :single => 6,
       :double => 4
     },
     :retroonly =>{
-      :single => 3,
+      :single => 6,
       :double => 4
     },
   }
