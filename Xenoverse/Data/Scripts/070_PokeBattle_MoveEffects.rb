@@ -55,7 +55,7 @@ class PokeBattle_Confusion < PokeBattle_Move
 		return false
 	end
 	
-	def pbCalcDamage(attacker,opponent)
+	def pbCalcDamage(attacker,opponent,options=0,ai=false)
 		return super(attacker,opponent,
 			PokeBattle_Move::NOCRITICAL|PokeBattle_Move::SELFCONFUSE|PokeBattle_Move::NOTYPE|PokeBattle_Move::NOWEIGHTING)
 	end
@@ -110,7 +110,7 @@ class PokeBattle_Struggle < PokeBattle_Move
 		return ret
 	end
 	
-	def pbCalcDamage(attacker,opponent)
+	def pbCalcDamage(attacker,opponent,options=0,ai=false)
 		return super(attacker,opponent,PokeBattle_Move::IGNOREPKMNTYPES)
 	end
 end
@@ -6787,7 +6787,7 @@ end
 # Ends the opposing side's Light Screen and Reflect.
 ################################################################################
 class PokeBattle_Move_10A < PokeBattle_Move
-	def pbCalcDamage(attacker,opponent)
+	def pbCalcDamage(attacker,opponent,options=0,ai=false)
 		return super(attacker,opponent,PokeBattle_Move::NOREFLECT)
 	end
 	
