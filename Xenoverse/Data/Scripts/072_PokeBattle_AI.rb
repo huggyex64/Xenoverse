@@ -4126,7 +4126,7 @@ class PokeBattle_Battle
       end
       if @field.effects[PBEffects::TrickRoom]>0
         curMaxDmgMove = pbHighestDamageMove(pbAttacker(index),pbOpponent(index),skill)
-        curMaxDmg = pbDamageTest(pbAttacker(index),pbOpponent(index).pokemon, curMaxDmgMove, skill) 
+        curMaxDmg = pbDamageTest(pbAttacker(index),pbOpponent(index), curMaxDmgMove, skill) 
         startMaxDmg = curMaxDmg
         party = pbParty(index)
         found = false
@@ -4622,7 +4622,12 @@ class PokeBattle_Battle
     #realBaseDamage=move.basedamage
     #realBaseDamage=60 if move.basedamage==1
     #realBaseDamage=pbBetterBaseDamage(move,attacker,opponent,skill,realBaseDamage)
-    basedamage=pbUltraDamage(attacker, opponent, move)#basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
+    if opponent.is_a?(PokeBattle_Pokemon)
+      opp = (@battlers.select {|b| b.pokemon == opponent})[0]
+    else
+      opp = opponent
+    end
+    basedamage=pbUltraDamage(attacker, opp, move)#basedamage=pbRoughDamage(move,attacker,opponent,skill,realBaseDamage)
     return basedamage
   end
 
