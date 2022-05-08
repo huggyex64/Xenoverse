@@ -573,6 +573,10 @@ Now I really have to get away.<<n>>Have fun with that little gadget!
 <<[>>old<<]>>Un Centro Porygon non funzionante... Tarassaco lo starà aggiustando...?
 <<[>>old<<]>>This Porygon Center does not work... Taraxo is probably fixing it.
 [Map10]
+Diego
+Gex
+Mi spiace ma Bellocchio è assente in questo momento. Lo puoi trovare sull'<b>Isola Pigliapesci</b>.
+I'm sorry, but Taraxo is not here currently. You should find him on <b>Proxim Island</b>!
 <<[>>old<<]>><b>Vetta Polare</b> <i>''Villaggio perennemente dipinto di bianco!''</i>
 <<[>>old<<]>><b>Polaris Town</b>\n<i>''A small village perpetually painted in white!''</i>
 Mimmo
@@ -753,6 +757,20 @@ No
 Sì
 Yes
 [Map14]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Stella
 Stella
 Hey hey! Sei \PN, ho ragione?
@@ -1055,6 +1073,20 @@ Kiloo...!
 <<[>>old<<]>>Better get it back to its rightful owner.
 [Map21]
 [Map22]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Stella
 Stella
 Hey hey! Sei \PN, ho ragione?
@@ -1623,6 +1655,20 @@ Oh, \PN...you're always ready for adventure, huh?
 <<[>>old<<]>>Cinque anni dopo...
 <<[>>old<<]>>Five years later...
 [Map30]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Stella
 Stella
 Hey hey! Sei \PN, ho ragione?
@@ -1765,6 +1811,20 @@ Yes
 No
 No
 [Map34]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Stella
 Stella
 Hey hey! Sei \PN, ho ragione?
@@ -3772,6 +3832,10 @@ Congratulations, you have proven to be better than me<<n>>in Pokémon battles. Y
 Avete dimostrato che la vostra abilità è maggiore della mia nelle lotte Pokémon.
 Congratulations, you have proven to be better than me<<n>>in Pokémon battles.
 [Map61]
+Diego
+Gex
+Mi spiace ma Bellocchio è assente in questo momento. Lo puoi trovare sull'<b>Isola Pigliapesci</b>.
+I'm sorry, but Taraxo is not here currently. You should find him on <b>Proxim Island</b>!
 <<[>>old<<]>>Casa del Giudice Onomastico
 <<[>>old<<]>>Name Rater's House
 Arturo
@@ -4054,6 +4118,13 @@ Yes
 No
 No
 [Map69]
+Bellocchio
+Looker
+Ben arrivato, \PN!
+Welcome, \PN!
+Gli altri ci stanno aspettando dentro.
+The others are waiting for us inside.
+
 Marino
 Briney
 Vuoi tornare a <b>Balansopoli</b>?
@@ -4188,6 +4259,118 @@ To my days, when this was just a fishing island,<<n>>we used that thing to catch
 Quest'autografo farà invidia a mio nipote!
 This autograph will make my grandson so jealous!
 [Map73]
+Bellocchio
+Looker
+Tu
+You
+Alice
+Alice
+Kay
+Kay
+Tarassaco
+Taraxo
+Benvenuto|a, \PN!
+Welcome, \PN!
+Come puoi vedere, c'è anche una tua vecchia conoscenza!
+As you can see, an old acquaintance of yours is here too!
+Eh eh!
+Eh eh!
+\PN, come te la passi?
+\PN, how are you doing?
+E' da un bel po' che non torno ad Eldiw, ma devo dire che tutto è come l'avevo lasciato mi fa sentire a casa!
+It's been a while since I've been in Eldiw, but I must say that seeing that everything is just as I left it sure makes me feel at home!
+\PN, devi sapere che ho personalmente incaricato Alice di aiutarci nelle indagini.
+\PN, you has to know that I personally asked Alice to help us in the investigations.
+\PN, devi sapere che ho personalmente incaricato Kay di aiutarci nelle indagini.
+\PN, you has to know that I personally asked Kay to help us in the investigations.
+Qualche mese fa, visti i suoi progressi e le sue capacità, le ho affidato un incarico con il consenso di Aster.
+Some months ago, seeing her progress and her abilities, I gave her an assignment with Aster's consent.
+Qualche mese fa, visti i suoi progressi e le sue capacità, gli ho affidato un incarico con il consenso di Aster.
+Some months ago, seeing his progress and his abilities, I gave his an assignment with Aster's consent.
+L'obiettivo era ottenere più informazioni sulla <b>sparizione di tuo nonno Giovanni</b>, avvenuta molti anni fa.
+The objective was to obtain more info about <b>the disappearance of Giovanni</b>, your grandfather, which happened many years ago.
+È così che è iniziato il mio viaggio per <b>Johto</b> e <b>Kanto</b>, e non è stato un viaggio facile!
+And like this my journey through <b>Johto</b> and <b>Kanto</b> started, and it wasn't easy!
+Ho fatto moltissime esperienze nuove e, ho incontrato allenatori formidabili.
+I made a lot of new experiences and met formidable trainers.
+In più, ho trovato anche un amichetto che mi ha dato un grande aiuto durante le indagini!
+Moreover, I also met a little friend that helped me a lot during the investigations!
+Siamo diventati veramente grandi amici, nonostante non abbiamo passato troppo tempo insieme! Tu mi capisci, vero \PN?
+We became great friends, even though we didn't spend a lot of time together! You understand me, right \PN?
+Purtroppo, nonostante l'incredibile quantità di informazioni che Alice è riuscita a ottenere, da un certo punto in poi è vuoto su Giovanni.
+Sadly, although the incredible amount of informations that Alice managed to get, from a certain point the tracks disappear completely.
+Purtroppo, nonostante l'incredibile quantità di informazioni che Kay è riuscito a ottenere, da un certo punto in poi è vuoto su Giovanni.
+Sadly, although the incredible amount of informations that Kay managed to get, from a certain point the tracks disappear completely.
+Per questo abbiamo richiamato Alice a Eldiw, in questo modo avremo più menti sul caso Furia.
+This is why we called Alice back to Eldiw, this way we'll have more brains working on the Fury case.
+Per questo abbiamo richiamato Kay a Eldiw, in questo modo avremo più menti sul caso Furia.
+This is why we called Kay back to Eldiw, this way we'll have more brains working on the Fury case.
+Detto questo... ti abbiamo chiamato qui per un altro motivo, \PN!
+Having said this... we called you here for another matter, \PN!
+Ricordi di averci detto che il tuo sigillo Furia  si è rotto nel <b>Bunker Abbandonato</b>?
+Do you remember about telling us how your Fury sigil was broken in the <b>Abandoned Bunker</b>?
+Beh, è ora di rimediare!
+It's time to fix that!
+Sono lieto di presentarti la, <b>Furia Ball</b>!
+I'm happy to present you, the <b>Fury Ball</b>!
+L'ultima perla tecnologica nata dalla mia abilità come scienziato, e un'idea di Alice!
+The latest techologic jewel borne from my skills as a scientist, and an idea by Alice!
+L'ultima perla tecnologica nata dalla mia abilità come scienziato, e un'idea di Kay!
+The latest techologic jewel borne from my skills as a scientist, and an idea by Kay!
+Veramente avevo solo parlato di come una volta ci fosse un certo <b>Franz a Johto</b>, uno degli artigiani di Pokéball più bravi al mondo!
+To be honest, I just told them about how there was a certain <b>Kurt in Johto</b>, one of the best Pokéball artisans in the world!
+Ho raccontato loro del mio incontro con sua nipote, e pare che abbia dato l'ispirazione a Tarassaco...
+I told them about my meeting with his grandchild, and it seems to have sparked Taraxo's inspiration...
+Dobbiamo ringraziare anche Rem per questo, ha saputo applicare le informazioni apprese con la Xenoball in maniera magistrale!
+We have to thank Rem for this too, he was capable of applying the informations learned with the Xenoball incredibly!
+Ehm...! Non è stato niente!
+Ehm...! It was nothing!
+\PN, stimiamo che questa Furia Ball sia decine di volte più efficace del Sigillo Furia che utilizzavi in precedenza.
+\PN, we estimate this Fury Ball to be tens of times more effective than the old Fury Seal that you were using previously.
+I processi produttivi attuali sono molto complessi, e i materiali sono difficili da trovare. Hai solo questa, usala bene!
+The productive process is really complex though, and materials for it are scarce. You only have this, use this well!
+Per ogni evenienza, abbiamo pensato anche a un piano di riserva.
+In any case, we thought of a backup plan too.
+Anche se i Cardinali sono occupati al momento, siamo riusciti a creare un altro Sigillo Furia seguendo per filo e per segno le indicazioni che i Cardinali ci hanno dato!
+Even if Cardinals are unreachable right now, we managed to make another Fury Seal by following step by step the indications they left us! 
+Abbiamo ricevuto aiuto da Aster per questo, quindi puoi ringraziare anche lui!
+We even got help from Aster for this, so you should thank him too!
+\PN, creare questa Furia Ball non è stato affatto facile. Non sprecarla!
+\PN, making that Fury Ball wasn't easy at all. Don’t waste it!
+Hmm... Se la situazione è come la descrive Verbena, allora è veramente strano.
+Hmm... if the situation is as Nuphar describes, then it's really strange. 
+È meglio andare in fondo alla questione.
+It's best to get to the end of the matter.
+\PN! Lascia che ti accompagni, sono certa di poterti dare una mano!
+\PN, let me come with you! I'm sure I can be of help!
+\PN! Lascia che ti accompagni, sono certo di poterti dare una mano!
+\PN, let me come with you! I'm sure I can be of help!
+Non credo sia successo niente di grave, ma agire in coppia è senza dubbio un'ottima idea, visto gli ultimi avvenimenti.
+I don't think anything serious happened, but acting in couples is without doubt a good idea, seeing what's happened recently.
+Tarassaco e Bellocchio mi hanno raccontato cosa è accaduto mentre ero in viaggio...
+Taraxo and Looker told me what happened while I was away...
+\PN, ne hai passate veramente tante, ma non devi abbatterti!
+\PN, you sure went through much, but you mustn't feel down!
+Ora che sono di nuovo qui, hai una spalla su cui poter contare!
+Now that I'm here, you have one more shoulder you can count on!
+Vi vedo carichi, è un buon segno!
+I see you're hyped up, it's a good sign!
+Aggiornateci su ciò che scoprite al <b>Monte Zodiaco</b>.
+Please, let us know if you learn anything on <b>Mt. Zodiac</b>.
+I Cardinali sono gli unici che possono fare luce sul caso Furia, quindi abbiamo bisogno di parlare con loro il prima possibile.
+The Cardinals are the only ones that can shed light on the Fury case, as such we need to talk with the as soon as possible.
+Vi auguro buon viaggio!
+I wish you a good trip!
+<<[>>old<<]>>Alice si è unita alla squadra.
+<<[>>old<<]>>Alice joined the team.
+<<[>>old<<]>>Kay si è unito alla squadra.
+<<[>>old<<]>>Kay joined the team.
+Le indagini sul caso Furia non stanno procedendo bene... Speriamo che i Cardinali possano illuminarci al riguardo!
+The investigations on the Fury case are not going well... Let's hope that the Cardinals know something about it!
+Sappi che la Furia Ball è ancora solo un prototipo. Assicurati di non sprecarla!
+Know that the Fury Ball is still just a prototype. Make sure to not waste it!
+Nonostante quello che ho fatto Aster mi ha comunque raccomandato per questo lavoro, che grand uomo! -sniff-
+
 <<[>>old<<]>>Il cestino contiene qualcosa.
 <<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
@@ -5411,6 +5594,20 @@ Talvolta in queste zone è possibile rinvenire una particolare roccia, denominat
 In these areas, sometimes you can find a particular stone, called the <b>Xenolith</b>.<<n>>Research reveals that some X Pokémon react to the energy surge from this stone, and evolve.<<n>>Who knows, you might get one too...
 [Map97]
 [Map98]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Stella
 Stella
 Hey hey! Sei \PN, ho ragione?
@@ -5716,6 +5913,20 @@ Scaleon
 Scaaa...!
 Scaaa...!
 [Map105]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Stella
 Stella
 Hey hey! Sei \PN, ho ragione?
@@ -7604,6 +7815,20 @@ No
 <<[>>old<<]>>Sembrerebbero delle pagine strappate da un quaderno... La calligrafia è chiara e pulita.
 <<[>>old<<]>>It looks like a bunch of pages ripped out of a notebook... The calligraphy is really clear.
 [Map160]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Stella
 Stella
 Hey hey! Sei \PN, ho ragione?
@@ -10247,6 +10472,20 @@ Heal Pokémon
 Usa Box
 Use Box
 [Map210]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Stella
 Stella
 Hey hey! Sei \PN, ho ragione?
@@ -11653,6 +11892,20 @@ Blair
 Certo che, se mettono un Pokémon-Market nell'aeroporto, mi sento quasi in dovere di fare compere!
 I sure wanna shop if there's a Poké Mart right inside<<n>>the airport!
 [Map228]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Stella
 Stella
 Hey hey! Sei \PN, ho ragione?
@@ -13287,6 +13540,62 @@ Heal Pokémon
 Usa Box
 Use Box
 [Map274]
+La regina voleva parlarti. Dovrebbe trovarsi a nord del varco di Aquariopoli.
+The Queen wanted to speak with you. You should find her north of Ishtar City’s gateway.
+\PN! Quanto tempo!
+\PN! It's been so long!
+Le tue gesta nello Xenoverse hanno fatto il giro della regione,
+Talks of your deeds in the Xenoverse spread around the whole region,
+Sembra passata un'eternità da quando scacciasti quel Gengar!
+It looks like an eternity since you drove that Gengar away!
+Ma sappiamo tutti|e e due che non siamo qui per rievocare i vecchi tempi...
+Sadly, we both know that we're not here to recall old times...
+\PN, vorrei che andassi a controllare che il <b>Rituale dei Cardinali</b> stia procedendo come previsto.
+\PN, I'd like you to go and check that The Cardinal's Ritual is proceeding as expected to.
+Come già ben saprai, mio nonno Oleandro è un Cardinale e deve quindi assolvere ai suoi compiti in quanto tale.
+As you should know already, Abraham, my grandfather, is a Cardinal and it must therefore perform its duties as such.
+Il Rituale che i Cardinali devono portare a termine è estremamente faticoso e, nonostante venga eseguito solo una volta ogni cinque anni, riesce a sottrarre loro tutte le energie.
+The Ritual that the Cardinals have to perform is extremely tiring, even though it's performed once every five years, and it manages to strip them of all their energy.
+Ciò che è strano, è che questa volta il Rituale non si è ancora concluso...
+What's strange, is that this time the Ritual has been going on for far longer than usual...
+Solitamente, dopo circa due settimane i Cardinali fanno ritorno alle loro dimore per recupare le forze, ma questa volta è passato un mese e ancora non si vede anima viva!
+Normally, after about two weeks the Cardinals would go back to their abode to recuperate, but this time a whole month has passed and we still haven't seen a soul!
+Sono sinceramente preoccupata per la salute di mio nonno, essendo già avanti negli anni, spero non sia accaduto il peggio...
+I'm honestly worried for my grandfather's health, him being already older than the others, I hope the worst didn't come to pass...
+\PN, devo chiedere un'altra volta il tuo aiuto.
+As such, \PN, I find myself to ask for your help yet again.
+Vorrei avere la sicurezza che sia tutto sotto controllo, e posso fare affidamento solo su di te...
+I'd like to have the certainty that everythings under control, and I can only rely on you...
+Tu
+You
+Hai la mia profonda gratitudine, \PN.
+You have my deepest gratitude, \PN.
+Ti prego, fammi sapere quanto prima se dovessi scoprire qualcosa al riguardo!
+Please, let me know as soon as possible were you to discover something about it.
+<<[>>old<<]>>Pr-...o?\nM-...cevi?
+<<[>>old<<]>>He-... o?\nCa-...ar me?
+<<[>>old<<]>>A-...tta,\nfam-... stare q-...
+<<[>>old<<]>>W-... it,\nle-... ove th-...  
+<<[>>old<<]>>Ecco, ora dovresti sentirmi meglio.
+<<[>>old<<]>>There, now you should hear me better.
+<<[>>old<<]>>Aspetta, attivo l'Holo-camera...
+<<[>>old<<]>>Wait, let me activate the Holo-cam...
+Tarassaco
+Taraxo
+Riesci a vedermi? Sembra che il collegamento sia più stabile del previsto!
+Can you see me? It looks like the connection is way steadier than expected!
+Onestamente avevo aggiunto questa funzione solo come rimedio estremo, ma a quanto pare è tornata utile!
+Honestly, I had added this function as a simple add-on, but apparently it was useful!
+Come? Non sai cosa sia? Aster non ti ha detto proprio niente, eh?
+Hm? You don't know what this is? Aster didn't tell you anything at all, uh?
+Gli avevo proposto di inserire questo applicativo nel PokéWES, caso mai dovesse ripetersi ciò che è accaduto nello Xenoverse!
+I asked him to add this application in the PokéWES, if something like what happened in the Xenoverse ever came to pass again!
+Queste però sono piccolezze, dobbiamo parlare di altro!
+These are just details though, we should talk about something else!
+Riusciresti a venire all'<b>Isola Pigliapesci</b>? Io e Bellocchio abbiamo avuto un'idea incredibile!
+Could you come to <b>Proxim Island</b>? Looker and I had an incredible idea!
+Ti aspettiamo qui, passo e chiudo.
+We'll be waiting here for you, over and out!
 <<[>>old<<]>>Palestra Marea\nCapopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della tempesta!''</i> Allenatori Certificati: 0
 <<[>>old<<]>>Ishtar Gym\nGym Leader: <b>Nuphar</b>\n<i>''Beautiful as sea, powerful as a storm!''</i>\nCertified Trainers: 0
 <<[>>old<<]>>Palestra Marea\nCapopalestra: <b>Verbena</b> <i>''Più bella del mare, più impetuosa della tempesta!''</i> Allenatori Certificati: \PN
@@ -14784,6 +15093,20 @@ The fire which seems extinguished often slumbers<<n>>beneath the ashes.
 Come le fiamme, anche i tuoi Pokémon rinasceranno se utilizzerai su di essi quella Ceneremagica.
 Just as the flames, your Pokémon will be born again<<n>>if you use that Sacred Ash on them.
 [Map301]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Stella
 Stella
 Hey hey! Sei \PN, ho ragione?
@@ -15175,6 +15498,20 @@ Marcel
 A seconda del tipo di Amo che si usa, i Pokémon che abboccano potrebbero essere del tutto diversi!
 You can fish completely different Pokémon...<<n>>It all depends on the version of Rod you use!
 [Map308]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Stella
 Stella
 Hey hey! Sei \PN, ho ragione?
@@ -16448,6 +16785,20 @@ Why has nobody ever thought about merging Poké Marts<<n>>and Pokémon Centers t
 Ciao! Questo è il Pokémon-Market di Aranciopoli!
 Hello! This is the Poké Mart in Vermilion City!
 [Map341]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Stella
 Stella
 Hey hey! Sei \PN, ho ragione?
@@ -19129,6 +19480,20 @@ This Victory Road is nothing more than a walk in<<n>>the park for a Hiker like m
 Sei un Montanaro anche tu, per caso?
 Are you a Hiker too, maybe?
 [Map410]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Stella
 Stella
 Hey hey! Sei \PN, ho ragione?
@@ -19313,6 +19678,20 @@ Defeat is nothing but education.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
 [Map416]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Stella
 Stella
 Hey hey! Sei \PN, ho ragione?
@@ -19515,6 +19894,20 @@ Once a year, an old longbeard comes down the mountains<<n>>with his Reindear to 
 <<[>>old<<]>>È vuota.
 <<[>>old<<]>>It's empty.
 [Map420]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Stella
 Stella
 Hey hey! Sei \PN, ho ragione?
@@ -20648,6 +21041,40 @@ Yes
 No
 No
 [Map479]
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
+<<[>>old<<]>>Non hai abbastanza soldi.
+<<[>>old<<]>>You don't have enough money.
+Sì
+Yes
+No
+No
+Cura Pokémon
+Heal Pokémon
+Usa Box
+Use Box
+Xavier
+Xavier
+Questa grotta porta al sito di uno scontro epocale! Se solo trovassimo qualche indizio in più...
+This cavern leads to the site of an epochal clash! If only we could find some more clues...
+Xena
+Xena
+Anche se sono una scienziata, sono estremamente affascinata dalle leggende! Sono certa che in fondo a ogni leggenda si celi la realtà...
+Although I’m a scientist, I’m extremely fascinated by legends! I’m sure that at the very bottom of each of them lies some reality...
+Xolot
+Xolot
+Purtroppo le nostre ricerche non hanno prodotto risultati sostanziali...
+Sadly, our research didn’t bear fruit...
+Spero che a te vada meglio!
+I hope you’re luckier!
+Oh,eccoti!
+Oh, there you are!
+Ser Armando mi ha spiegato tutto, puoi procedere.
+Ser Armando told me everything, you can proceed.
+Spiacente, ma di qui non si passa. Stiamo svolgendo delle ricerche importanti!
+Sorry, you can't get through here.<<n>>We're carrying out important research!
 [Map480]
 [Map481]
 Versil
@@ -24275,6 +24702,20 @@ Sunshine
 Siamo spiacenti, ma non è possibile accedere al piano di sopra. Ci scusiamo per il disagio.
 I'm sorry, currently the next floor is unavailable. I'm sorry for the discomfort.
 [Map625]
+Joele
+Joel
+Hey! Sei \PN, non potrei mai scordarmi di te!
+Hey! You’re \PN, I could never forget your face!
+La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
+My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
+Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
+Please, come to <b>Ishtar City</b> as soon as possible.
+La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
+The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
+Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Ti saluto!
+Bye!
 Io e il mio Charmeleon vogliamo visitare il <b>Sentiero Rosa</b>! Hanno detto che emigrano ogni mese un sacco di Pokémon mai visti.
 Me and my Charmeleon want to visit the <b>Pink Path</b>! Someone said that a lot of never seen Pokémon go there every month.
 Guarda che bello il mio Luxray!
