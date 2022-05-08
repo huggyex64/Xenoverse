@@ -60,6 +60,8 @@ class DynamicPokemonSprite
 
     @trail = false
     @trails = []
+    @trailct = 0
+    @trailbmp = nil
 
     @pulse = 8
     @k = 1
@@ -311,34 +313,46 @@ class DynamicPokemonSprite
       @sprite.bitmap=@substitute.bitmap.clone
       @shadow.bitmap=@substitute.bitmap.clone
     else
-      @bitmap.update
-      echoln @trail
-      if @trail
-        @trails << EAMSprite.new(@viewport)
-        @trails.last.x = @sprite.x
-        @trails.last.y = @sprite.y
-        @trails.last.ox = @sprite.ox
-        @trails.last.oy = @sprite.oy
-        @trails.last.z = @sprite.z-1
-        @trails.last.bitmap = @sprite.bitmap.clone
-        @trails.last.color = Color.new(255,255,255)
-        @trails.last.coloring(Color.new(0,0,0),10)
-        @trails.last.fade(0,32,:ease_out_cubic)
-        before = nil
-        for t in @trails
-          t.x = @sprite.x
-          t.y = @sprite.y
-          t.zoom_x = @sprite.zoom_x
-          t.zoom_y = @sprite.zoom_y
-          t.angle = @sprite.angle
-          if before != nil
-            #t.z = before.z-1
-          end
-          before = t
-          t.update
-          if t.opacity == 0
-            @trails.delete(t)
-            t.dispose
+      
+      #if @trailbmp == nil
+      #  @trailbmp = @bitmap.bitmapFile
+      #end
+      @bitmap.update do |bitmap,index,scale|
+        if @trail 
+
+          #if @trailct < 6
+            @trailct += 1        
+            @trails << EAMSprite.new(@viewport)
+            @trails.last.x = @sprite.x
+            @trails.last.y = @sprite.y
+            @trails.last.ox = @sprite.ox
+            @trails.last.oy = @sprite.oy
+            @trails.last.z = @sprite.z-1
+            @trails.last.bitmap = Bitmap.new(bitmap.width,bitmap.height)
+            @trails.last.bitmap.stretch_blt(Rect.new(0,0,bitmap.width,bitmap.height),@bitmap.bitmapFile,Rect.new(index*(bitmap.width/scale),0,bitmap.width/scale,bitmap.height/scale))
+            @trails.last.color = Color.new(255,255,255)
+            @trails.last.coloring(Color.new(0,0,0),12)
+            @trails.last.fade(0,32,:ease_out_cubic)
+          #end
+          before = nil
+          for t in @trails
+            t.x = @sprite.x
+            t.y = @sprite.y
+            t.zoom_x = @sprite.zoom_x
+            t.zoom_y = @sprite.zoom_y
+            t.angle = @sprite.angle
+            if before != nil
+              #t.z = before.z-1
+            end
+            before = t
+            t.update
+            if t.opacity <= 0
+              echoln "disposing t!"
+              @trailct -=1
+              t.bitmap.dispose
+              t.dispose
+              @trails.delete(t)
+            end
           end
         end
       end

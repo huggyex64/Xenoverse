@@ -438,7 +438,7 @@ title = Le forze della natura
 description = Ottieni tutti e 4 i geni sul Monte Zodiaco Alterato.
 amount = 4
 image = 88_geni
-[Stella]
+[StellaT]
 title = Sfilata elettrizzante
 description = Sconfiggi Stella nel Torneo Apollo.
 amount = 1

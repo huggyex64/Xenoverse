@@ -487,7 +487,9 @@ CUSTOMIV = {
   }
 }
 
-
+ACHIEVEMENTREDIRECT ={
+  "Stella"=>"StellaT"
+}
 
 ################################################################################
 #   PWT Trainer method
@@ -2760,7 +2762,11 @@ class PWT
           $game_switches[VIPCUPSWITCH[key]]=true
           if !$Trainer.vips.include?(key)
             $Trainer.vips.push(key) 
-            $achievements[key[1]].progress=1
+            if ACHIEVEMENTREDIRECT.keys.include?(key[1])
+              $achievements[ACHIEVEMENTREDIRECT[key[1]]].progress=1
+            else
+              $achievements[key[1]].progress=1
+            end
           end
         end
         @win=true
