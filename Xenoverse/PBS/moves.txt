@@ -721,4 +721,4 @@
 743,MAGICWALL,Magiscudo,307,0,FAIRY,Status,0,15,0,20,0,,"Chi la usa crea un muro che indebolisce per cinque turni le mosse di tipo Drago, Lotta, Buio e Coleottero."
 744,SOUNDBARRIER,Fonoscudo,308,0,SUONO,Status,0,15,0,20,0,,"Chi la usa crea un muro che indebolisce per cinque turni le mosse di tipo Volante, Acqua, Fata."
 745,FLAVORTEST,Assaggio,309,100,FAIRY,Physical,100,10,0,00,0,abef,"Chi la usa si fionda sul nemico cercando di assaggiarlo come un dolce. Rigenera un po' di salute. È anche di tipo Ghiaccio."
-746,DIVINEJUDGEMENT,Giudizio Divino,310,255,NORMAL,Special,100,10,0,00,0,,"Due turni dopo l'utilizzo di questa mossa, il bersaglio viene attaccato con energia stellare."
+746,DIVINEJUDGEMENT,Giudizio Divino,111,255,NORMAL,Special,100,10,0,00,0,,"Due turni dopo l'utilizzo di questa mossa, il bersaglio viene attaccato con energia stellare."

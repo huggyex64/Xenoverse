@@ -1767,6 +1767,7 @@ Pokedex=Le sue cellule cerebrali si moltiplicano di continuo. Perciò ricorda qu
 WildItemUncommon=TWISTEDSPOON
 BattlerPlayerY=24
 BattlerEnemyY=45
+FormNames=,Mega Alakazam
 [66]
 Name=Machop
 InternalName=MACHOP
@@ -5727,6 +5728,7 @@ Kind=Chele
 Pokedex=Dopo aver stabilito che qualcuno è suo nemico, lo colpisce con le chele dure come l’acciaio fino a ridurlo in polvere.
 BattlerPlayerY=16
 BattlerEnemyY=24
+FormNames=,Mega Scizor
 [213]
 Name=Shuckle
 InternalName=SHUCKLE
@@ -5784,6 +5786,7 @@ Kind=Monocorno
 Pokedex=Vanta un corno possente con il quale scaglia l'avversario a grande distanza, qualunque sia il suo peso.
 BattlerPlayerY=7
 BattlerEnemyY=18
+FormNames=,Mega Heracross
 [215]
 Name=Sneasel
 InternalName=SNEASEL
@@ -6697,6 +6700,7 @@ Kind=Armatura
 Pokedex=Se s'infuria, abbatte le montagne e seppellisce i fiumi. In seguito, le mappe devono essere riscritte.
 BattlerPlayerY=20
 BattlerEnemyY=31
+FormNames=,Mega Tyranitar
 [249]
 Name=Lugia
 InternalName=LUGIA
@@ -6943,6 +6947,7 @@ Kind=Vampe
 Pokedex=Blaziken si dedica alle arti marziali che usano pugni e calci. A cicli di molti anni, le sue piume bruciano, lasciando il posto a un nuovo morbido piumaggio.
 BattlerPlayerY=9
 BattlerEnemyY=24
+FormNames=,Mega Blaziken
 [258]
 Name=Mudkip
 InternalName=MUDKIP
@@ -7023,6 +7028,7 @@ Kind=Fangopesce
 Pokedex=Swampert prevede le tempeste poiche' grazie alle pinne percepisce le sottili differenze nel suono delle onde e dei venti dovuti alle maree. In caso di burrasca imminente, crea delle pile di massi per proteggere la tana.
 BattlerPlayerY=29
 BattlerEnemyY=36
+FormNames=,Mega Swampert
 [261]
 Name=Poochyena
 InternalName=POOCHYENA
@@ -10870,6 +10876,7 @@ Pokedex=Se i suoi occhi sono dorati, puo' individuare le prede, anche quelle che
 RegionalNumbers=522,0,0
 BattlerPlayerY=16
 BattlerEnemyY=30
+FormNames=,Mega Luxray
 [406]
 Name=Budew
 InternalName=BUDEW
@@ -11913,6 +11920,7 @@ RegionalNumbers=519,0,0
 WildItemUncommon=HABANBERRY
 BattlerPlayerY=25
 BattlerEnemyY=20
+FormNames=,Mega Garchomp
 [446]
 Name=Munchlax
 InternalName=MUNCHLAX
@@ -11968,7 +11976,7 @@ Pokedex=È in grado di percepire la natura e le emozioni di Pokémon ed essere u
 BattlerPlayerY=7
 BattlerEnemyY=17
 Evolutions=LUCARIO,HappinessDay,
-FormNames=,Platino
+FormNames=,Platino,Mega
 [448]
 Name=Lucario
 InternalName=LUCARIO
@@ -16388,6 +16396,7 @@ Kind=Martial Arts
 Pokedex=Usa i peli degli arti anteriori a mo' di frusta e se inizia un attacco a catena non c'è nessuno che lo possa fermare.
 BattlerPlayerY=25
 BattlerEnemyY=37
+FormNames=,Mega Mienshao
 [621]
 Name=Druddigon
 InternalName=DRUDDIGON
