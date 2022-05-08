@@ -1148,3 +1148,14 @@ def pbCheckSwapStyle(pokemon)
   end
   return false
 end
+
+def pbSaveTries(time = 0)
+  tries = $game_variables[200]
+  File.open(RTP.getSaveFileName("#{$Trainer.id}_#{time}"),"w+"){|f| f.write(tries+1)}
+end
+
+def pbLoadTries(time = 0)
+  if File.exists?(RTP.getSaveFileName("#{$Trainer.id}_#{time}"))
+    $game_variables[200] = File.read(RTP.getSaveFileName("#{$Trainer.id}_#{time}")).to_i
+  end
+end
