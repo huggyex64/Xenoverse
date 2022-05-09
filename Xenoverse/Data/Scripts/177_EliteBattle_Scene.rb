@@ -726,11 +726,13 @@ class PokeBattle_Scene
     20.times do
       poke.still
       poke.sprite.src_rect.y-=6
+      poke.spriteUpdate
       poke.opacity-=12.8
       @sprites["battlebox#{battlerindex}"].opacity-=25.5
       wait(1,true)
     end
-    poke.src_rect.set(0,0,poke.bitmap.width,poke.bitmap.height)
+    poke.src_rect.set(0,0,poke.bitmap.width,poke.bitmap.height)    
+    poke.spriteUpdate
     poke.fainted=true
   end
   #=============================================================================

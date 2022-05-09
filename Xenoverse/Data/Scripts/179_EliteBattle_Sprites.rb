@@ -101,46 +101,189 @@ class DynamicPokemonSprite
   def x=(val)
     @sprite.x=val
     @shadow.x=val
+    if @trail    
+      for t in @trails
+        t.x = @sprite.x
+        t.y = @sprite.y
+        t.ox = @sprite.ox
+        t.oy = @sprite.oy
+        t.zoom_x = @sprite.zoom_x
+        t.zoom_y = @sprite.zoom_y
+        t.angle = @sprite.angle
+            
+        t.src_rect = @sprite.src_rect
+      end
+    end
   end
   def ox=(val)
     @sprite.ox=val
     self.formatShadow
+    if @trail    
+      for t in @trails
+        t.x = @sprite.x
+        t.y = @sprite.y
+        t.ox = @sprite.ox
+        t.oy = @sprite.oy
+        t.zoom_x = @sprite.zoom_x
+        t.zoom_y = @sprite.zoom_y
+        t.angle = @sprite.angle
+            
+        t.src_rect = @sprite.src_rect
+      end
+    end
   end
   def addOx(val)
     @sprite.ox+=val
     self.formatShadow
+    if @trail    
+      for t in @trails
+        t.x = @sprite.x
+        t.y = @sprite.y
+        t.ox = @sprite.ox
+        t.oy = @sprite.oy
+        t.zoom_x = @sprite.zoom_x
+        t.zoom_y = @sprite.zoom_y
+        t.angle = @sprite.angle
+            
+        t.src_rect = @sprite.src_rect
+      end
+    end
   end
   def oy=(val)
     @sprite.oy=val
+    if @trail    
+      for t in @trails
+        t.x = @sprite.x
+        t.y = @sprite.y
+        t.ox = @sprite.ox
+        t.oy = @sprite.oy
+        t.zoom_x = @sprite.zoom_x
+        t.zoom_y = @sprite.zoom_y
+        t.angle = @sprite.angle
+            
+        t.src_rect = @sprite.src_rect
+      end
+    end
     self.formatShadow
   end
   def addOy(val)
     @sprite.oy+=val
+    if @trail    
+      for t in @trails
+        t.x = @sprite.x
+        t.y = @sprite.y
+        t.ox = @sprite.ox
+        t.oy = @sprite.oy
+        t.zoom_x = @sprite.zoom_x
+        t.zoom_y = @sprite.zoom_y
+        t.angle = @sprite.angle
+            
+        t.src_rect = @sprite.src_rect
+      end
+    end
     self.formatShadow
   end
   def y=(val)
     @sprite.y=val
     @shadow.y=val
+    if @trail    
+      for t in @trails
+        t.x = @sprite.x
+        t.y = @sprite.y
+        t.ox = @sprite.ox
+        t.oy = @sprite.oy
+        t.zoom_x = @sprite.zoom_x
+        t.zoom_y = @sprite.zoom_y
+        t.angle = @sprite.angle
+            
+        t.src_rect = @sprite.src_rect
+      end
+    end
   end
   def z=(val)
     @shadow.z=(val==32) ? 31 : 10
     @sprite.z=val
+    if @trail    
+      for t in @trails
+        t.x = @sprite.x
+        t.y = @sprite.y
+        t.ox = @sprite.ox
+        t.oy = @sprite.oy
+        t.zoom_x = @sprite.zoom_x
+        t.zoom_y = @sprite.zoom_y
+        t.angle = @sprite.angle
+            
+        t.src_rect = @sprite.src_rect
+      end
+    end
   end
   def zoom_x=(val)
     @sprite.zoom_x=val
+    if @trail    
+      for t in @trails
+        t.x = @sprite.x
+        t.y = @sprite.y
+        t.ox = @sprite.ox
+        t.oy = @sprite.oy
+        t.zoom_x = @sprite.zoom_x
+        t.zoom_y = @sprite.zoom_y
+        t.angle = @sprite.angle
+            
+        t.src_rect = @sprite.src_rect
+      end
+    end
     self.formatShadow
   end
   def zoom_y=(val)
     @sprite.zoom_y=val
+    if @trail    
+      for t in @trails
+        t.x = @sprite.x
+        t.y = @sprite.y
+        t.ox = @sprite.ox
+        t.oy = @sprite.oy
+        t.zoom_x = @sprite.zoom_x
+        t.zoom_y = @sprite.zoom_y
+        t.angle = @sprite.angle
+            
+        t.src_rect = @sprite.src_rect
+      end
+    end
     self.formatShadow
   end
   def visible=(val)
     return if @hidden
     @sprite.visible=val
+    if @trail    
+      for t in @trails
+        t.x = @sprite.x
+        t.y = @sprite.y
+        t.ox = @sprite.ox
+        t.oy = @sprite.oy
+        t.zoom_x = @sprite.zoom_x
+        t.zoom_y = @sprite.zoom_y
+        t.angle = @sprite.angle
+            
+        t.src_rect = @sprite.src_rect
+      end
+    end
     self.formatShadow
   end
   def opacity=(val)
     @sprite.opacity=val
+    if @trail    
+      for t in @trails
+        t.x = @sprite.x
+        t.y = @sprite.y
+        t.ox = @sprite.ox
+        t.oy = @sprite.oy
+        t.zoom_x = @sprite.zoom_x
+        t.zoom_y = @sprite.zoom_y
+        t.angle = @sprite.angle
+        t.opacity=val
+        t.src_rect = @sprite.src_rect
+      end
+    end
     self.formatShadow
   end
   def tone=(val)
@@ -301,6 +444,15 @@ class DynamicPokemonSprite
     @shadow.visible = false if !@showshadow
   end
   
+  def spriteUpdate
+    if @trail    
+      for t in @trails
+        t.src_rect = @sprite.src_rect
+      end
+    end
+  end
+
+
   def update(angle=74)
     if @still
       @still=false
@@ -313,34 +465,33 @@ class DynamicPokemonSprite
       @sprite.bitmap=@substitute.bitmap.clone
       @shadow.bitmap=@substitute.bitmap.clone
     else
-      
-      #if @trailbmp == nil
-      #  @trailbmp = @bitmap.bitmapFile
-      #end
       @bitmap.update do |bitmap,index,scale|
-        if @trail 
-
-          #if @trailct < 6
-            @trailct += 1        
+        if @trail
+          if !@fainted
+            @trailct += 1  
             @trails << EAMSprite.new(@viewport)
             @trails.last.x = @sprite.x
             @trails.last.y = @sprite.y
             @trails.last.ox = @sprite.ox
             @trails.last.oy = @sprite.oy
+            @trails.last.src_rect = @sprite.src_rect
             @trails.last.z = @sprite.z-1
             @trails.last.bitmap = Bitmap.new(bitmap.width,bitmap.height)
             @trails.last.bitmap.stretch_blt(Rect.new(0,0,bitmap.width,bitmap.height),@bitmap.bitmapFile,Rect.new(index*(bitmap.width/scale),0,bitmap.width/scale,bitmap.height/scale))
             @trails.last.color = Color.new(255,255,255)
             @trails.last.coloring(Color.new(0,0,0),12)
             @trails.last.fade(0,32,:ease_out_cubic)
-          #end
+          end
           before = nil
           for t in @trails
             t.x = @sprite.x
             t.y = @sprite.y
+            t.ox = @sprite.ox
+            t.oy = @sprite.oy
             t.zoom_x = @sprite.zoom_x
             t.zoom_y = @sprite.zoom_y
-            t.angle = @sprite.angle
+            t.angle = @sprite.angle            
+            t.src_rect = @sprite.src_rect
             if before != nil
               #t.z = before.z-1
             end

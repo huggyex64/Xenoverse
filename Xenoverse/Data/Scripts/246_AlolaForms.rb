@@ -1066,7 +1066,7 @@ class AnimatedBitmapWrapper
     end
     @actualBitmap.clear
     @actualBitmap.stretch_blt(Rect.new(0,0,@width,@height),@bitmap,Rect.new(@currentIndex*(@width/@scale),0,@width/@scale,@height/@scale))
-    yield @actualBitmap, @currentIndex, @scale
+    yield @actualBitmap, @currentIndex, @scale if block_given?
     # updates the actual bitmap
   end
   alias update_elite update

@@ -2820,12 +2820,19 @@ class PokeBattle_Battle
 ################################################################################
 # Get type effectiveness and approximate stats.
 ################################################################################
-  def pbTypeModifier(type,attacker,opp)
+  def pbTypeModifier(type,att,opp)
     return 4 if type<0
     opponent = opp
     if opponent.is_a?(PokeBattle_Pokemon)
       for i in 0...4
         opponent = @battlers[i] if @battlers[i].pokemon == opp
+      end
+    end
+    
+    attacker = opp
+    if attacker.is_a?(PokeBattle_Pokemon)
+      for i in 0...4
+        attacker = @battlers[i] if @battlers[i].pokemon == att
       end
     end
 

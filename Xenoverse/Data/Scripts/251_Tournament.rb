@@ -484,6 +484,60 @@ CUSTOMIV = {
         :speed => 0
       }
     }
+  },
+  [PBTrainers::STELLATOURNAMENT,"Stella"]=>{
+    :iv=>{
+      :HARROWK =>{
+        :hp => 3001,
+        :attack => 31,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      },
+      :BIRIGIRI =>{
+        :hp => 31,
+        :attack => 31,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      },
+      :LUXRAY =>{
+        :hp => 31,
+        :attack => 31,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      }
+    },
+    :ev=>{
+      :HARROWK =>{
+        :hp => 252,
+        :attack => 0,
+        :defense => 148,
+        :spatk => 0,
+        :spdef => 108,
+        :speed => 0
+      },
+      :BIRIGIRI =>{
+        :hp => 228,
+        :attack => 252,
+        :defense => 16,
+        :spatk => 0,
+        :spdef => 12,
+        :speed => 0
+      },
+      :LUXRAY =>{
+        :hp => 220,
+        :attack => 252,
+        :defense => 0,
+        :spatk => 0,
+        :spdef => 36,
+        :speed => 0
+      }
+    }
   }
 }
 
@@ -524,7 +578,11 @@ def pbLoadTrainerTournament(trainerid,trainername,partyid=0)
       species=poke[TPSPECIES]
       level=poke[TPLEVEL]
       pokemon=PokeBattle_Pokemon.new(species,level,opponent)
-      pokemon.form=poke[TPFORM]
+      if poke[TPFORM] == 100 && pokemon.hasDelta?
+        pokemon.makeDelta
+      else
+        pokemon.form=poke[TPFORM]
+      end
       pokemon.resetMoves
       pokemon.setItem(poke[TPITEM])
       if poke[TPMOVE1]>0 || poke[TPMOVE2]>0 || poke[TPMOVE3]>0 || poke[TPMOVE4]>0
@@ -1243,7 +1301,7 @@ ERIKAPOOL=[
   ["Erika",PBTrainers::ERIKATOURNAMENT,"Erika",_INTL("Perbacco, chi l'avrebbe mai detto?"),10],
 ]
 
-STELLAPOOL=[
+ERIKAPOOL=[
   ["Erika",PBTrainers::STELLATOURNAMENT,"Stella",_INTL("Pare che il mio lungo allenamento non sia bastato..."),10],
 ]
 
@@ -1346,7 +1404,7 @@ VIPSPEECH={
 MUSTINCLUDE = {
   LANCEPOOL => [PBTrainers::LANCETOURNAMENT,"Lance"],
   DANTEPOOL => [PBTrainers::DANTETOURNAMENT,"Dante"],
-  ERIKAPOOL => [PBTrainers::ERIKATOURNAMENT,"Erika"],
+  ERIKAPOOL => [PBTrainers::STELLATOURNAMENT,"Stella"],#[PBTrainers::ERIKATOURNAMENT,"Erika"],
   LEOPOOL =>   [PBTrainers::LEOTOURNAMENT,"Leo"]
 }
 
