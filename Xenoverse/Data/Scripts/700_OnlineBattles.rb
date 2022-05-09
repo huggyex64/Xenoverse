@@ -720,7 +720,7 @@ class OnlineLobby
       :SERGENTESIGMA => "S",
       :STELLATOURNAMENT => pbGetMessageFromHash(MessageTypes::TrainerNames,"Stella"),
       :CLAWMANTOURNAMENT => pbGetMessageFromHash(MessageTypes::TrainerNames,"Sotis"),
-      :IRIDIOTOURNAMENT => pbGetMessageFromHash(MessageTypes::TrainerNames,"Iridio"),
+      :GLADIONTOURNAMENT => pbGetMessageFromHash(MessageTypes::TrainerNames,"Iridio"),
       :GRETATOURNAMENT => pbGetMessageFromHash(MessageTypes::TrainerNames,"Valentina"),
     }
 
@@ -2094,7 +2094,7 @@ module CableClub
     ret.push(:VAKUM) if $game_switches[1330]
     ret.push(:STELLATOURNAMENT) if $game_switches[1344]
     ret.push(:CLAWMANTOURNAMENT) if $game_switches[1346]
-    ret.push(:IRIDIOTOURNAMENT) if $game_switches[1345]
+    ret.push(:GLADIONTOURNAMENT) if $game_switches[1345]
     ret.push(:GRETATOURNAMENT) if $game_switches[1347]
 
     specialTrainers = CableClub.getSpecialTrainers($Trainer.uniqueSaveID)

@@ -538,6 +538,168 @@ CUSTOMIV = {
         :speed => 252
       }
     }
+  },
+  [PBTrainers::SOTISTOURNAMENT,"Sotis"]=>{
+    :iv=>{
+      :LEDIAN =>{
+        :hp => 301,
+        :attack => 301,
+        :defense => 301,
+        :spatk => 301,
+        :spdef => 301,
+        :speed => 151
+      },
+      :HERCURCULES =>{
+        :hp => 151,
+        :attack => 151,
+        :defense => 71,
+        :spatk => 31,
+        :spdef => 71,
+        :speed => 31
+      },
+      :SCIZOR =>{
+        :hp => 301,
+        :attack => 151,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 111
+      }
+    },
+    :ev=>{
+      :LEDIAN =>{
+        :hp => 252,
+        :attack => 252,
+        :defense => 0,
+        :spatk => 0,
+        :spdef => 0,
+        :speed => 6
+      },
+      :HERCURCULES =>{
+        :hp => 252,
+        :attack => 252,
+        :defense => 6,
+        :spatk => 0,
+        :spdef => 0,
+        :speed => 0
+      },
+      :SCIZOR =>{
+        :hp => 252,
+        :attack => 252,
+        :defense => 0,
+        :spatk => 0,
+        :spdef => 0,
+        :speed => 0
+      }
+    }
+  },
+  [PBTrainers::GRETATOURNAMENT,"Greta"]=>{
+    :iv=>{
+      :BLAZIKEN =>{
+        :hp => 151,
+        :attack => 71,
+        :defense => 151,
+        :spatk => 71,
+        :spdef => 151,
+        :speed => 151
+      },
+      :BRELOOM =>{
+        :hp => 71,
+        :attack => 151,
+        :defense => 71,
+        :spatk => 31,
+        :spdef => 71,
+        :speed => 131
+      },
+      :MIENSHAO =>{
+        :hp => 301,
+        :attack => 71,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 301
+      }
+    },
+    :ev=>{
+      :BLAZIKEN =>{
+        :hp => 6,
+        :attack => 252,
+        :defense => 0,
+        :spatk => 0,
+        :spdef => 0,
+        :speed => 252
+      },
+      :BRELOOM =>{
+        :hp => 0,
+        :attack => 252,
+        :defense => 6,
+        :spatk => 0,
+        :spdef => 0,
+        :speed => 252
+      },
+      :MIENSHAO =>{
+        :hp => 0,
+        :attack => 252,
+        :defense => 0,
+        :spatk => 0,
+        :spdef => 0,
+        :speed => 252
+      }
+    }
+  },
+  [PBTrainers::GLADIONTOURNAMENT,"Greta"]=>{
+    :iv=>{
+      :ZOROARKHISUI =>{
+        :hp => 251,
+        :attack => 0,
+        :defense => 151,
+        :spatk => 201,
+        :spdef => 151,
+        :speed => 151
+      },
+      :LUCARIO =>{
+        :hp => 301,
+        :attack => 301,
+        :defense => 151,
+        :spatk => 151,
+        :spdef => 151,
+        :speed => 131
+      },
+      :PORYGONZ =>{
+        :hp => 301,
+        :attack => 0,
+        :defense => 31,
+        :spatk => 301,
+        :spdef => 31,
+        :speed => 301
+      }
+    },
+    :ev=>{
+      :ZOROARKHISUI =>{
+        :hp => 6,
+        :attack => 0,
+        :defense => 0,
+        :spatk => 252,
+        :spdef => 0,
+        :speed => 252
+      },
+      :LUCARIO =>{
+        :hp => 0,
+        :attack => 252,
+        :defense => 6,
+        :spatk => 0,
+        :spdef => 0,
+        :speed => 252
+      },
+      :PORYGONZ =>{
+        :hp => 252,
+        :attack => 0,
+        :defense => 0,
+        :spatk => 252,
+        :spdef => 0,
+        :speed => 6
+      }
+    }
   }
 }
 
@@ -1302,8 +1464,8 @@ ERIKAPOOL=[
   ["Erika",PBTrainers::ERIKATOURNAMENT,"Erika",_INTL("Perbacco, chi l'avrebbe mai detto?"),10],
 ]
 
-ERIKAPOOL=[
-  ["Erika",PBTrainers::STELLATOURNAMENT,"Stella",_INTL("Pare che il mio lungo allenamento non sia bastato..."),10],
+STELLAPOOL=[
+  ["Stella",PBTrainers::STELLATOURNAMENT,"Stella",_INTL("Pare che il mio lungo allenamento non sia bastato..."),10],
 ]
 
 SOTISPOOL=[
