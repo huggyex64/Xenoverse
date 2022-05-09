@@ -488,54 +488,54 @@ CUSTOMIV = {
   [PBTrainers::STELLATOURNAMENT,"Stella"]=>{
     :iv=>{
       :HARROWK =>{
-        :hp => 3001,
+        :hp => 301,
         :attack => 31,
         :defense => 31,
-        :spatk => 31,
+        :spatk => 301,
         :spdef => 31,
-        :speed => 31
+        :speed => 151
       },
       :BIRIGIRI =>{
-        :hp => 31,
-        :attack => 31,
-        :defense => 31,
+        :hp => 151,
+        :attack => 151,
+        :defense => 71,
         :spatk => 31,
-        :spdef => 31,
-        :speed => 31
+        :spdef => 71,
+        :speed => 71
       },
       :LUXRAY =>{
-        :hp => 31,
-        :attack => 31,
+        :hp => 301,
+        :attack => 151,
         :defense => 31,
         :spatk => 31,
         :spdef => 31,
-        :speed => 31
+        :speed => 181
       }
     },
     :ev=>{
       :HARROWK =>{
-        :hp => 252,
+        :hp => 6,
         :attack => 0,
-        :defense => 148,
-        :spatk => 0,
-        :spdef => 108,
-        :speed => 0
+        :defense => 0,
+        :spatk => 252,
+        :spdef => 0,
+        :speed => 252
       },
       :BIRIGIRI =>{
-        :hp => 228,
+        :hp => 0,
         :attack => 252,
-        :defense => 16,
+        :defense => 148,
         :spatk => 0,
-        :spdef => 12,
+        :spdef => 110,
         :speed => 0
       },
       :LUXRAY =>{
-        :hp => 220,
+        :hp => 0,
         :attack => 252,
         :defense => 0,
         :spatk => 0,
-        :spdef => 36,
-        :speed => 0
+        :spdef => 0,
+        :speed => 252
       }
     }
   }
@@ -1252,6 +1252,7 @@ STANDARD_POOL = [
   ["pokéfanatico",PBTrainers::POKEFAN,"Tullio",_INTL("C'ero quasi!"),0],
   ["pellerossaf",PBTrainers::INDIANA,"Awentia",_INTL("C'ero quasi!"),0],
   ["fashionbloggerm",PBTrainers::MANAGER,"Josh",_INTL("C'ero quasi!"),0],
+  ["deejay",PBTrainers::DEEJAYM,"Zago",_INTL("C'ero quasi!"),0]
 ]
 
 TRAINERPOOL_basic=[  #ALMENO 8 ALLENATORI
