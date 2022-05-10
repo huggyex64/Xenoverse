@@ -575,7 +575,7 @@ Now I really have to get away.<<n>>Have fun with that little gadget!
 [Map10]
 Diego
 Gex
-Mi spiace ma Bellocchio è assente in questo momento. Lo puoi trovare sull'<b>Isola Pigliapesci</b>.
+Mi spiace ma Tarassaco è assente in questo momento. Lo puoi trovare sull'<b>Isola Pigliapesci</b>.
 I'm sorry, but Taraxo is not here currently. You should find him on <b>Proxim Island</b>!
 <<[>>old<<]>><b>Vetta Polare</b> <i>''Villaggio perennemente dipinto di bianco!''</i>
 <<[>>old<<]>><b>Polaris Town</b>\n<i>''A small village perpetually painted in white!''</i>
@@ -4259,6 +4259,40 @@ To my days, when this was just a fishing island,<<n>>we used that thing to catch
 Quest'autografo farà invidia a mio nipote!
 This autograph will make my grandson so jealous!
 [Map73]
+Eh!? Stai delirando, \PN?
+Huh!? Are you delirious, \PN?
+Cosa vuol dire che ci troviamo in un loop?
+What do you mean we're in a loop?
+<<[>>old<<]>>Spieghi di essere entrato nel Monte Zodiaco insieme ad Alice per ben 2 volte...
+<<[>>old<<]>>You explain how you entered Mt. Zodiac with Alice twice...
+<<[>>old<<]>>Spieghi di essere entrata nel Monte Zodiaco insieme a Kay per ben 2 volte...
+<<[>>old<<]>>You explain how you entered Mt. Zodiac with Kay twice...
+Ciò che dici è veramente strano...
+What you're saying is quite strange...
+Sicuro di stare bene? Forse sei troppo affaticato dagli ultimi eventi...
+Are you sure you're feeling ok? Maybe you're just too tired due to the latest events...
+Sicura di stare bene? Forse sei troppo affaticata dagli ultimi eventi...
+Are you sure you're feeling ok? Maybe you're just too tired due to the latest events...
+Io gli credo!
+I believe him!
+Io le credo!
+I believe her!
+Tarassaco, penso che dovremmo dargli il beneficio del dubbio. È comunque \PN, dopotutto.
+Taraxo, I think we should trust him too. He's still \PN, after all. 
+Hmm...
+Ugh...
+Se ricordo bene, nel <b>Regno di Virgopoli</b> circolava una leggenda su un Pokémon in grado di controllare il paranormale.
+If I recall correctly, in <b>Milkiway City</b> there was a legend about a Pokémon capable of controlling the paranormal.
+Forse dovresti provare a dirigerti lì, \PN?
+Maybe you should try to head there, \PN?
+Sfortunatamente, non saprei che altro fare per aiutarti!
+Sadly, I wouldn't know how to help otherwise!
+\PN, verrò con te.
+\PN, I'll come with you.
+In due forse riusciremo a cavare un ragno dal buco!
+Maybe together we'll figure something out!
+Che dire, mi auguro che troviate qualcosa! Questa situazione è surreale...
+What to say, I hope you find something! This situation is surreal...
 Bellocchio
 Looker
 Tu
@@ -4288,7 +4322,7 @@ Some months ago, seeing her progress and her abilities, I gave her an assignment
 Qualche mese fa, visti i suoi progressi e le sue capacità, gli ho affidato un incarico con il consenso di Aster.
 Some months ago, seeing his progress and his abilities, I gave his an assignment with Aster's consent.
 L'obiettivo era ottenere più informazioni sulla <b>sparizione di tuo nonno Giovanni</b>, avvenuta molti anni fa.
-The objective was to obtain more info about <b>the disappearance of Giovanni</b>, your grandfather, which happened many years ago.
+The objective was to obtain more info about the disappearance of Giovanni, your grandfather, which happened many years ago.
 È così che è iniziato il mio viaggio per <b>Johto</b> e <b>Kanto</b>, e non è stato un viaggio facile!
 And like this my journey through <b>Johto</b> and <b>Kanto</b> started, and it wasn't easy!
 Ho fatto moltissime esperienze nuove e, ho incontrato allenatori formidabili.
@@ -4307,16 +4341,16 @@ Per questo abbiamo richiamato Kay a Eldiw, in questo modo avremo più menti sul 
 This is why we called Kay back to Eldiw, this way we'll have more brains working on the Fury case.
 Detto questo... ti abbiamo chiamato qui per un altro motivo, \PN!
 Having said this... we called you here for another matter, \PN!
-Ricordi di averci detto che il tuo sigillo Furia  si è rotto nel <b>Bunker Abbandonato</b>?
+Ricordi di averci detto che il tuo sigillo Furia si è rotto nel <b>Bunker Abbandonato</b>?
 Do you remember about telling us how your Fury sigil was broken in the <b>Abandoned Bunker</b>?
 Beh, è ora di rimediare!
 It's time to fix that!
 Sono lieto di presentarti la, <b>Furia Ball</b>!
 I'm happy to present you, the <b>Fury Ball</b>!
 L'ultima perla tecnologica nata dalla mia abilità come scienziato, e un'idea di Alice!
-The latest techologic jewel borne from my skills as a scientist, and an idea by Alice!
+The latest technologic jewel borne from my skills as a scientist, and an idea by Alice!
 L'ultima perla tecnologica nata dalla mia abilità come scienziato, e un'idea di Kay!
-The latest techologic jewel borne from my skills as a scientist, and an idea by Kay!
+The latest techologic jewel born from my skills as a scientist, and an idea by Kay!
 Veramente avevo solo parlato di come una volta ci fosse un certo <b>Franz a Johto</b>, uno degli artigiani di Pokéball più bravi al mondo!
 To be honest, I just told them about how there was a certain <b>Kurt in Johto</b>, one of the best Pokéball artisans in the world!
 Ho raccontato loro del mio incontro con sua nipote, e pare che abbia dato l'ispirazione a Tarassaco...
@@ -4336,7 +4370,7 @@ Even if Cardinals are unreachable right now, we managed to make another Fury Sea
 Abbiamo ricevuto aiuto da Aster per questo, quindi puoi ringraziare anche lui!
 We even got help from Aster for this, so you should thank him too!
 \PN, creare questa Furia Ball non è stato affatto facile. Non sprecarla!
-\PN, making that Fury Ball wasn't easy at all. Don’t waste it!
+\PN, making that Fury Ball wasn't easy at all. Don't waste it!
 Hmm... Se la situazione è come la descrive Verbena, allora è veramente strano.
 Hmm... if the situation is as Nuphar describes, then it's really strange. 
 È meglio andare in fondo alla questione.
@@ -4356,7 +4390,7 @@ Now that I'm here, you have one more shoulder you can count on!
 Vi vedo carichi, è un buon segno!
 I see you're hyped up, it's a good sign!
 Aggiornateci su ciò che scoprite al <b>Monte Zodiaco</b>.
-Please, let us know if you learn anything on <b>Mt. Zodiac</b>.
+Please, let us know if you learn anything on Mt. Zodiac.
 I Cardinali sono gli unici che possono fare luce sul caso Furia, quindi abbiamo bisogno di parlare con loro il prima possibile.
 The Cardinals are the only ones that can shed light on the Fury case, as such we need to talk with the as soon as possible.
 Vi auguro buon viaggio!
@@ -4370,7 +4404,7 @@ The investigations on the Fury case are not going well... Let's hope that the Ca
 Sappi che la Furia Ball è ancora solo un prototipo. Assicurati di non sprecarla!
 Know that the Fury Ball is still just a prototype. Make sure to not waste it!
 Nonostante quello che ho fatto Aster mi ha comunque raccomandato per questo lavoro, che grand uomo! -sniff-
-
+Even though I did all that, Aster still recommended me for this work, what a great man! -sniff-
 <<[>>old<<]>>Il cestino contiene qualcosa.
 <<[>>old<<]>>There's something in the trash.
 <<[>>old<<]>>Il cestino è vuoto.
@@ -5757,6 +5791,30 @@ Hikiloo
 Kiloo...!
 Kiloo...!
 [Map101]
+Alice
+Alice
+Kay
+Kay
+\PN, dovresti andare a controllare il luogo dello scontro!
+\PN, you should head where the battle took place!
+Io nel frattempo,assicurerò che la situazione all'entrata del Monte Zodiaco sia sotto controllo.
+In the meantime, I'll make sure that the situation in front of Mt. Zodiac entrance is under control.
+Non preoccuparti, non farò l'errore di entrare!
+Don't worry, I won't enter by mistake!
+Oh, benvenuti. Posso aiutarvi in qualche modo?
+Oh, welcome. Can I help you in any manner?
+Capisco.
+I see.
+Ciò che state cercando riguarda <b>La Leggenda del Primo Re</b>.
+What you're looking about is pertaining the Legend of the First King.
+Temo però di non disporre dell'autorità necessaria a illustrarvi questa storia.
+Sadly, I think I don't have the authority needed to speak about this story.
+Proverò a chiedere udienza alla principessa, per favore, attendete qui.
+I will try to ask the Princess for an hearing, please, wait here.
+La principessa ha acconsentito.
+The Princess agreed.
+Prego, da questa parte.
+Please, follow me.
 Cavaliere
 Girard
 Salve forestiero|a, se v'accingete quivi a tentar la sorte, sappiate che da tutte le Palestre questa differisce. Oltre queste porte tre ardue prove v'attendono: del Fuoco è la prima. La soglia varcata, tornar sui propri passi non si puote. Siete pronto, Allenatore?
@@ -12415,6 +12473,70 @@ Yes
 No
 No
 [Map251]
+Vostra grazia, gli ospiti sono qui.
+Your Grace, the guests are here.
+Chi si rivede, se non è \PN?
+Who do we have here, if not \PN?
+Da quel che mi ha comunicato Armando, siete qui per ricevere informazioni sulla Leggenda del Primo Re, ho ragione?
+From what Armand told us, you're here to receive informations about the First King legend, am I right?
+Bene, permettimi di iniziare dicendo che non si tratta di una leggenda.
+Well, let me begin by saying that it's not a legend at all.
+Nonostante ora non sia così, una volta il Regno di Virgopoli era molto più esteso e influente.
+Although now it's not like that anymore, long ago Milkiway City was bigger and more influential.
+Questo, con il passare del tempo, ha portato spesso a creare leggende che vedono come protagonisti i vecchi Re, anche il mio bis-nonno!
+This, with the passage of time, made it so certain legends about our old Kings were created. Some feature my great-grandpa, too!
+Armando, racconta!
+Come on, Armand, tell them!
+Certo, mia lady.
+Sure, Your Grace.
+La storia del Primo Re fu accomunata erroneamente a una leggenda, ma non era altro che la realtà dei fatti.
+The story of the First King was wrongly likened to a legend, but it's nothing more than the actual reality.
+Lasciate che vi racconti di questa storia.
+Let me tell you about this story.
+<<[>>old<<]>>Molti, moltissimi anni or sono...
+<<[>>old<<]>>Many, many years ago...
+<<[>>old<<]>>Vi era un uomo tanto buono e gentile quanto rigoroso e ligio.
+<<[>>old<<]>>There was a man so good and kind as rigorous and loyal.
+<<[>>old<<]>>Egli riuscì a creare una schiera di seguaci tanto affiatati da acclamarlo come Re.
+<<[>>old<<]>>He was able to form a host of followers so entranced by him to call him King. 
+<<[>>old<<]>>Era il <b>Primo Re</b> del Regno di Virgopoli.
+<<[>>old<<]>>He was the <b>First King</b> of Milkiway Kingdom.
+<<[>>old<<]>>Durante la sua reggenza, la prima di molteplici calamità si abbatté sulla regione di Eldiw.
+<<[>>old<<]>>During his reign, the first of multiple calamities crashed on Eldiw. 
+<<[>>old<<]>>Il Primo X, <b>Aegislash X</b>, giunse sulla Terra lasciando solo disastri sul suo cammino.
+<<[>>old<<]>>The First X, <b>Aegislash X</b>, made its way to Earth leaving only disasters in its wake.
+<<[>>old<<]>>L’avvento dell’indomabile Pokémon giunse alle orecchie del Re, e il suo senso del dovere lo portò a prodigarsi subito per difendere la sua amata regione.
+<<[>>old<<]>>The coming of the indomitable Pokémon came to the ears of the King, and his sense of duty made him do his utmost to defend his beloved region.
+<<[>>old<<]>>Il Primo Re ed il Primo X si scontrarono per giorni, quando alla fine il Primo Re prevalse su Aegislash X, riuscendo a domarlo.
+<<[>>old<<]>>The First King and the First X battled for days, until at the end the First King prevailed on Aegislash X, taming it.
+<<[>>old<<]>>Il luogo del loro scontro fu da allora chiamato, in modo da ricordare l’esito della battaglia contro quell’aspra minaccia, <b>Via Vittoria</b>.
+<<[>>old<<]>>The place where their battle happened since then was called, to make sure to remember the result of the battle against that harsh threat, <b>Victory Road</b>.
+<<[>>old<<]>>Il Primo X divenne un fidato compagno del Re, l’unico che fosse stato in grado di dominarlo. 
+<<[>>old<<]>>The First X became a trustworthy companion of the King, the only one who ever managed to tame it.
+<<[>>old<<]>>Alla sua morte, però, il Primo X non trovò nessun umano degno di controllarlo, e decise quindi di ritirarsi nel luogo del loro primo scontro, per sprofondare in un sonno profondo, in attesa di un’altra persona in grado di <b>tenergli testa</b>.
+<<[>>old<<]>>When the King came to pass, though, the First X did not find any human worthy of controlling it, and decided to retire to the place where their battle took place, to fall into a deep slumber, waiting for another person capable of standing up to it.
+Ad oggi il Primo X è ancora assopito all'interno della <b>Via Vittoria</b>.
+To date the First X is still sleeping inside the <b>Victory Road</b>.
+Un'equipe di scienziati del regno è stata incaricata di studiarlo, ma senza risultati.
+An équipe of scientists from the kingdom was dispatched and assigned to study it, but currently without results.
+Sono certa che stiano bighellonando invece di impegnarsi!
+I'm sure that they're just wasting time instead of working hard! 
+Tutti quei fondi li avremmo potuti spendere in dolci per la sottoscritta!
+All those funds could have been spent on sweets for myself!
+Come?
+Hm? 
+Vorresti il permesso di andare a controllare di persona il Primo X?
+You'd like to receive the permission to go and check out the First X in person?
+Armando!
+Armand!
+Fai in modo che i nostri ospiti venga dato il lasciapassare per controllare il luogo dello scontro!
+Make sure that our welcomed guests gain the permit to check out the location where the battle took place!
+Subito, vostra grazia.
+Sure, Your Grace.
+<i>Eh eh, se \PN dovesse riuscire nell'impresa, <i>avrei più fondi per i miei dolci!</i>.
+<i>Eh eh, if \PN really manages in that feat, I'll have more funds for my sweets!</i>
+Ti auguro buona fortuna!
+I wish you good luck!
 Armando
 Armand
 Le procedure ora impongono una lotta contro la principessa.
@@ -18936,6 +19058,56 @@ Elder
 Se sei riuscito|a ad arrivare sin qui con le tue sole forze, significa che sei un Allenatore di tutto rispetto. Ora solo un cammino ti attende: la <b>Via Vittoria</b>, il sentiero che porta alle stelle più alte nel cielo!
 If you managed to get here on your own, this means<<n>>that you're a respectable Trainer.<<n>>Now, one last walk is waiting for you--<<n>>the <b>Victory Road</b>...<<n>>...the path that leads to the highest stars in the sky!
 [Map388]
+\PN dovremmo andare al <b>Regno di Virgopoli</b> per scoprire di più sulla leggenda di cui ci ha parlato Tarassaco!
+\PN, we should head to <b>Milkiway City</b> to learn more about the legend Taraxo told us!
+\PN, ho la situazione sotto controllo. Dovresti andare a controllare il luogo dello scontro!
+\PN, I have the situation under control. You should head to where the fight took place!
+<<[>>old<<]>><b>ATTENZIONE!</b>
+<<[>>old<<]>><b>CAREFUL!</b>
+<<[>>old<<]>>Proseguendo con gli eventi non si potrà più tornare indietro fino alla fine del Pass 4.
+<<[>>old<<]>>By proceeding with the events, you won't be able to go back until the end of Pass 4.
+<<[>>old<<]>>Vuoi proseguire comunque?
+<<[>>old<<]>>Would you still like to proceed?
+Sì
+Yes
+No
+No
+Oh, \PN! Com'è andata?
+Oh, \PN! How did it go?
+Hai scoperto qualcosa riguardo ad Aegislash X?
+Did you learn anything about Aegislash X?
+Cosa!? Aegislash si è risvegliato e lo hai catturato?
+What!? Aegislash woke up and you caught it?
+Può sembrare strano, ma ne avevo il presentimento.
+Well, it might sound strange, but I had a feeling.
+Eppure non smetti mai di stupirmi, lo sai?
+Yet you never cease to amaze me, you know?
+Io invece sono rimasta a controllare il portale.
+On the other hand, I stood here and checked the entrance.
+Io invece sono rimasto a controllare il portale.
+On the other hand, I stood here and checked the entrance.
+Non ho visto cambiamenti particolari, ma devo dire che ha un aspetto veramente singolare...
+I didn't see any kind of change, but I must say that it really has a singular look...
+<<[>>old<<]>>Senti la presenza di Aegislash X intensificarsi...
+<<[>>old<<]>>You feel the presence of Aegislash X intensify...
+Alice
+Alice
+Kay
+Kay
+Hm? Che strano...
+Hm? How strange...
+Potrei giurare che l'entrata non era così l'ultima volta che sono stata qui.
+I could swear that the entrance wasn't like this the last time I was here.
+Hmmm...? Sembra come uno specchio... ma ha un colore strano...
+Hmmm...? It looks like a mirror... but it has a strange color...
+Cosa proponi di fare, \PN?
+What do you suggest, \PN?
+Tu
+You
+Quindi vuoi provare a entrare?
+So you'd like to try and enter?
+Bene, facciamoci coraggio!
+Well, let's tough it out!
 <<[>>old<<]>><b>Monte Zodiaco</b> <i>''Dove le stelle si riuniscono in un'unica costellazione!''</i>
 <<[>>old<<]>><b>Mt. Zodiac</b>\n<i>''Where stars shine in one single constellation!''</i>
 Leon
@@ -21066,16 +21238,34 @@ Although I’m a scientist, I’m extremely fascinated by legends! I’m sure th
 Xolot
 Xolot
 Purtroppo le nostre ricerche non hanno prodotto risultati sostanziali...
-Sadly, our research didn’t bear fruit...
+Sadly, our research didn't bear fruit...
 Spero che a te vada meglio!
-I hope you’re luckier!
+I hope you're luckier!
 Oh,eccoti!
 Oh, there you are!
 Ser Armando mi ha spiegato tutto, puoi procedere.
-Ser Armando told me everything, you can proceed.
+Ser Armand told me everything, you can proceed.
 Spiacente, ma di qui non si passa. Stiamo svolgendo delle ricerche importanti!
 Sorry, you can't get through here.<<n>>We're carrying out important research!
 [Map480]
+<<[>>old<<]>>Vuoi provare ad estrarre Aegislash?
+<<[>>old<<]>>Do you want to try to extract Aegislash?
+Sì
+Yes
+No
+No
+<<[>>old<<]>>Aegi...!
+<<[>>old<<]>>Aegi...!
+<<[>>old<<]>>Aegislash X non è soddisfatto dell’esito dello scontro e ricade in un sonno profondo.
+<<[>>old<<]>>Aegislash X is not content with the result of the battle and falls back into deep sleep.
+<<[>>old<<]>>Aegislash X ti fissa in un silenzio solenne.
+<<[>>old<<]>>Aegislash X stares at you in solemn silence.
+<<[>>old<<]>>Ricordandosi di un suo vecchio amico, Aegislash X decide di unirsi a te!
+<<[>>old<<]>>By remembering an old friend, Aegislash X decides to join you.
+<<[>>old<<]>>Senti la sua forte presenza vegliare su di te.
+<<[>>old<<]>>You can feel its strong presence watching over you.
+<<[>>old<<]>>È ora di dirigersi al <b>Monte Zodiaco</b>!
+<<[>>old<<]>>It's time to head to <b>Mt. Zodiac</b>!
 [Map481]
 Versil
 Versil
