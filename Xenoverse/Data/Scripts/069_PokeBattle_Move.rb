@@ -752,7 +752,7 @@ class PokeBattle_Move
 			damagemult=(damagemult*0.5).round
 		end
 
-		if opponent.hasWorkingAbility(:WATERSTREAM) && opponent.pbSpeed() > attacker.pbSpeed()
+		if opponent.hasWorkingAbility(:WATERSTREAM) && opponent.pbSpeed() > attacker.pbSpeed() && !attacker.hasMoldBreaker
 			opp_perc = attacker.pbSpeed().to_f/opponent.pbSpeed().to_f * 100
 			finalres = (opp_perc).floor
 			finalres = 30 if finalres <= 30
@@ -761,7 +761,7 @@ class PokeBattle_Move
 			PBDebug.log("[WATERSTREAM] DAMAGE MODIFIED BY #{finalres/100.0}")
 		end
 
-		if opponent.hasWorkingAbility(:CREAMSHIELD) && opponent.hp > 0
+		if opponent.hasWorkingAbility(:CREAMSHIELD) && opponent.hp > 0 && !attacker.hasMoldBreaker
 			opp_perc = opponent.hp.to_f/opponent.totalhp.to_f * 100
 			finalres = (opp_perc).floor
 			reduction = 70.0/100.0 * finalres
