@@ -244,8 +244,8 @@
 247,DANTETOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Male,127
 248,VERBENATOURNAMENT,(Capopalestra),,VS. Gym Apollo,victory gym,,Female,127
 249,ALISSOTOURNAMENT,(Capopalestra),,VS. Gym Apollo,victory gym,,Male,127
-250,MINTOURNAMENT,(Birbante),,,,,Male,127
-251,WILLTOURNAMENT,(S.P.E.T.T.R.I),,,,,Male,127
+250,MINTOURNAMENT,(Birbante),,Mimikyu Battle,,,Male,127
+251,WILLTOURNAMENT,(S.P.E.T.T.R.I),,VS. Spettri,,,Male,127
 252,WALLACETOURNAMENT,(Capopalestra),,VS. Gym Apollo,victory gym,,Male,127
 253,GENNAROTOURNAMENT,(Bullo),100,Gennaro bullo ost,Trainer Victory,,Male,
 254,DOUBLEALICE,(Allenatrici),30,,Trainer Victory,,Female,100
@@ -255,10 +255,10 @@
 258,SOTISTOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Male,127
 259,GRETATOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Female,127
 260,GLADIONTOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Male,127
-261,MUNTOURNAMENT,(Birbante),,,,,Male,127
-262,SILVIATOURNAMENT,(S.P.E.T.T.R.I),,,,,Male,127
+261,MUNTOURNAMENT,(Birbante),,Mimikyu Battle,,,Male,127
+262,SILVIATOURNAMENT,(S.P.E.T.T.R.I),,VS. Spettri,,,Female,127
 263,SIGMATOURNAMENT,(Sergente Dimension),,VS-AB,Team Dimension Victory,,Mixed,127
-264,CRISANTETOURNAMENT,(Capopalestra),,,,,Male,127
-265,TREYTOURNAMENT,(Rivale),,,,,Male,127
+264,CRISANTETOURNAMENT,(Capopalestra),,VS. Gym Apollo,victory gym,,Male,127
+265,TREYTOURNAMENT,(Rivale),,VS. Tray.,,,Male,127
 266,ALICECHAMPION,(Sognatrice),100,VS.Champion,victory champion,,Female,255
 267,KAYCHAMPION,(Sognatore),100,VS.Champion,victory champion,,Male,255
