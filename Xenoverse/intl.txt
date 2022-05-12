@@ -12505,7 +12505,7 @@ Let me tell you about this story.
 <<[>>old<<]>>During his reign, the first of multiple calamities crashed on Eldiw. 
 <<[>>old<<]>>Il Primo X, <b>Aegislash X</b>, giunse sulla Terra lasciando solo disastri sul suo cammino.
 <<[>>old<<]>>The First X, <b>Aegislash X</b>, made its way to Earth leaving only disasters in its wake.
-<<[>>old<<]>>L’avvento dell’indomabile Pokémon giunse alle orecchie del Re, e il suo senso del dovere lo portò a prodigarsi subito per difendere la sua amata regione.
+<<[>>old<<]>>L'avvento dell'indomabile Pokémon giunse alle orecchie del Re, e il suo senso del dovere lo portò a prodigarsi subito per difendere la sua amata regione.
 <<[>>old<<]>>The coming of the indomitable Pokémon came to the ears of the King, and his sense of duty made him do his utmost to defend his beloved region.
 <<[>>old<<]>>Il Primo Re ed il Primo X si scontrarono per giorni, quando alla fine il Primo Re prevalse su Aegislash X, riuscendo a domarlo.
 <<[>>old<<]>>The First King and the First X battled for days, until at the end the First King prevailed on Aegislash X, taming it.
@@ -42209,25 +42209,25 @@ Chi la usa attacca usando lo strumento dell'avversario, ma fallisce se non ne ha
 The user attacks by controlling the target's item. The move fails if the target doesn't have an item.
 739
 Chi la usa crea un campo di Biancospini ai propri piedi, rigenerando la propria salute e quella degli alleati ad ogni turno.
-Chi la usa crea un campo di Biancospini ai propri piedi, rigenerando la propria salute e quella degli alleati ad ogni turno.
+The user creates a field of Hawthorns below its feet, regenerating its own health and that of its allies for each turn.
 740
 Chi la usa incenerisce il terreno sotto ai piedi degli avversari, velocizzando e riducendo la precisione dei nemici che scendono in campo.
-Chi la usa incenerisce il terreno sotto ai piedi degli avversari, velocizzando e riducendo la precisione dei nemici che scendono in campo.
+The user incenerates the ground below its opponents, speeding and lowering the accuracy of the foes that enter the field.
 741
 Chi la usa crea un'aura rinvigorente che potenzia per massimo 6 turni le cure degli alleati.
-Chi la usa crea un'aura rinvigorente che potenzia per massimo 6 turni le cure degli alleati.
+The user generates an invigorating aura which boosts your allies' heals for a maximum of 6 turns.
 742
 L'utilizzatore inizia a fare il tifo per il proprio alleato, permettendo alla sua mossa di avere alta priorità.
-L'utilizzatore inizia a fare il tifo per il proprio alleato, permettendo alla sua mossa di avere alta priorità.
+The user starts cheering for its own ally, allowing its move to gain a higher priority.
 743
 Chi la usa crea un muro che indebolisce per cinque turni le mosse di tipo Drago, Lotta, Buio e Coleottero.
-Chi la usa crea un muro che indebolisce per cinque turni le mosse di tipo Drago, Lotta, Buio e Coleottero.
+The user generates a wall that weakens Dragon, Fighting, Dark and Bug moves for five turns.
 744
 Chi la usa crea un muro che indebolisce per cinque turni le mosse di tipo Volante, Acqua, Fata.
-Chi la usa crea un muro che indebolisce per cinque turni le mosse di tipo Volante, Acqua, Fata.
+The user generates a wall that weakens Flying, Water and Fairy moves for five turns.
 745
 Chi la usa si fionda sul nemico cercando di assaggiarlo come un dolce. Rigenera un po' di salute. È anche di tipo Ghiaccio.
-Chi la usa si fionda sul nemico cercando di assaggiarlo come un dolce. Rigenera un po' di salute. È anche di tipo Ghiaccio.
+The user dashes on its enemy trying to taste it like a sweet. Recovers some of the user's health. It's also an Ice type move.
 [7]
 1
 Repellente
@@ -48520,6 +48520,24 @@ Normal-type moves become Dragon-type moves.
 248
 Le mosse di tipo Normale diventano di tipo Suono.
 Normal-type moves become Sound-type moves.
+249
+Aumenta la potenza delle mosse basate sul suono. Ne dimezza i danni se viene colpito da tali mosse.
+Increases the strenght of sound-based moves. Halves the incoming damage of moves of that kind.
+250
+Il Pokémon è in grado di attaccare senza entrare in contatto con il bersaglio.
+The user is able to attack its target without making contact with it.
+251
+Il Pokémon guadagna priorità se sta attaccando un Pokémon debole.
+The user gains priority if it's attacking a weak opponent.
+252
+Il Pokémon devia i colpi dai Pokémon più lenti di lui, subendo meno danni.
+The user deflects the attacks coming from slower opponents, suffering less damage.
+253
+L'aura maestosa del Pokémon impedisce al nemico di attaccarlo con mosse che hanno priorità alta.
+The majestic aura of the user prevents the enemy from attacking it with high priority moves.
+254
+La crema avvolge il Pokémon come uno scudo, riducendo i danni quando è in salute.
+The cream envelops the user like a shield, reducing the incoming damage when it's healthy.
 [11]
 0
 NORMAL
@@ -62481,3 +62499,19 @@ Da quel giorno ha formato la sua gang, e ha dominato sui bassifondi di Eldiw!
 Since that day he formed his own gang, and ruled over Eldiw's underground!
 Il fortissimo e inarrestabile, Dante!
 The strong and unstoppable, Dante!
+L'Aura Maestosa di {1} impedisce a {2} di attaccare!
+{1}'s Majestic Aura made {2} stop itself!
+Delle piante di Biancospino coprono il tuo campo!
+Hawthorn plants cover your field!
+Delle piante di Biancospino coprono il campo del tuo avversario!
+Hawthorn plants cover your opponent's field!
+Il tuo team è rafforzato dal Magiscudo!
+Your team is strenghtened by Magicwall!
+Il tuo team è protetto dal Fonoscudo!
+Your team is protected by Soundbarrier!
+{1} fa il tifo per {2}!
+{1} is cheering for {2}!
+Un'aura rinvigorente rincuora i tuoi Pokémon!
+An invigorating comforts your Pokémon!
+Un'aura rinvigorente rincuora i Pokémon del tuo avversario!
+An invigorating comforts your opponent's Pokémon!
