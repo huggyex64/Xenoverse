@@ -2639,17 +2639,25 @@ module CableClub
         connection.updateExp([:found]) do |record|
           case (type = record.sym)
           when :found
+            author = record.str
             party = parse_party(record)
             
-            sscene=PokemonScreen_Scene.new
-            sscreen=PokemonScreen.new(sscene,party)
-            pbFadeOutIn(99999) { 
-              hiddenmove=sscreen.pbPokemonScreen
-              if hiddenmove && !@scene.nil?
-                @scene.pbEndScene
-              end
-            }
-            Kernel.pbMessage("RENTAL CODE: #{code} \\nYOU WON'T BE ABLE TO SEE THIS AGAIN!")
+            msgwindow.visible = true
+            Kernel.pbMessageDisplay(msgwindow,"Rental Team found!\\nMade by: #{author}\\^")
+            ch = Kernel.pbShowCommands(msgwindow,["Show Team","Use Team","Leave"],2)
+            if ch == 0
+              sscene=PokemonScreen_Scene.new
+              sscreen=PokemonScreen.new(sscene,party)
+              pbFadeOutIn(99999) { 
+                hiddenmove=sscreen.pbPokemonScreen
+                if hiddenmove && !@scene.nil?
+                  @scene.pbEndScene
+                end
+              }
+            elsif ch == 1
+              $Trainer.rentalTeamCode = code
+            end            
+            msgwindow.visible = false
           when :notFound
             Kernel.pbMessage("RENTAL TEAM NOT FOUND")
           else
