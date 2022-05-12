@@ -2915,9 +2915,9 @@ module CableClub
             writer.str($Trainer.username)
             if $Trainer.rentalTeamCode != ""
               @rentalParty = nil
-              connection.send do |writer|
-                writer.str("getRental")
-                writer.str($Trainer.rentalTeamCode)
+              connection.send do |writer2|
+                writer2.str("getRental")
+                writer2.str($Trainer.rentalTeamCode)
               end
               while (@rentalParty==nil)
                 connection.updateExp([:found]) do |record|
