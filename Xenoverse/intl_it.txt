@@ -37556,3 +37556,181 @@ Vuoi cambiaare l'abilità di {1}?
 L'abilità di {1} è cambiata nella sua Abilità speciale!
 {1}'s Ability changed to its normal Ability!
 L'abilità di {1} è cambiata nella sua Abilità normale!
+Battle Background
+Sfondo di lotta
+Pick a battle background for your battles.
+Scegli uno sfondo per le tue lotte
+Battle Music
+Musica di lotta
+Pick a battle BGM for your battles.
+Scegli una musica di sottofondo per le tue lotte
+Do you want to use this battle background?
+Vuoi usare questo sfondo di lotta?
+Pick the BGM you would like to hear in Online Battles. Press < and > to change BGM.
+Scegli la musica di sottofondo che vorresti sentire nelle lotte online. Premi < e > per cambiare traccia.
+Do you want to use this BGM?
+Vuoi usare questa musica?
+Battle
+Lotta
+Trade
+Scambia
+Name
+Nome
+Status
+Stato
+Pick your avatar
+Scegli il tuo avatar
+Would you like to look like an {1}?
+Vuoi avere l'aspetto di un {1}?
+Would you like to look like a {1}?
+Vuoi avere l'aspetto di un {1}?
+Would you like to go back?
+Vuoi tornare indietro?
+I'm sorry, you must have a Pokémon to enter the Cable Club.
+Spiacente, devi avere un Pokémon per accedere al Cable Club.
+Starting connection...
+Inizio connessione...
+Thank you for using the Dimensional Corridor. We hope to see you again soon.
+Grazie per aver utilizzato il Corridoio Dimensionale. Speriamo di rivederti presto.
+I'm sorry, your party contains a Pokémon not allowed
+Spiacente, la tua squadra contiene un Pokémon non consentito.
+I'm sorry, the other trainer has disconnected.
+Spiacente, l'altro allenatore si è disconnesso.
+Sorry, the connection with the server was interrupted.
+Spiacente, la connessione con il server è stata interrotta.
+An error has occurred! Aborting Dimensional projection...
+Si è verificato un errore! Arresto della proiezione Dimensionale...
+You cannot access the Dimensional Corridor now. Try again later.
+Non puoi accedere al Corridoio Dimenionale in questo momento. Riprova più tardi.
+An error has occurred! Aborting Dimensional projection...
+Si è verificato un errore! Arresto della proiezione Dimensionale...
+Anything Goes
+Tutto Consentito
+Retro Only
+Solo Retro
+Do you want to start a connection with {1}?
+Vuoi iniziare una connessione con {1}?
+Would you like to send a message to {1}?
+Vuoi mandare un messaggio a {1}?
+Message to send?
+Messaggio da inviare?
+Your ID: {1}\\nAsked {2} for interaction...
+Tuo ID: {1}\\nRichiesta interazione con {2}...
+Would you like to change your avatar?
+Vuoi cambiare il tuo avatar?
+Would you like to enter unranked matchmaking?
+Vuoi cercare una lotta non classificata?
+What kind of battle would you like to take part in?
+A che tipo di lotta vuoi partecipare?
+Single Battle
+Lotta Singola
+Double Battle
+Lotta in Doppio
+Matchmaking...
+Abbinamento in corso...
+Skipped connection.
+Connessione annullata.
+Abort connection?\\^
+Chiudere la connessione?\\^
+Abort search?\\^
+Annullare la ricerca?\\^
+Disconnect?\\^
+Disconnettersi?\\^
+{1} connected!
+{1} connesso!
+{1} asked for connection. Do you want to start the connection?\\^
+{1} ha richiesto di connettersi. Vuoi avviare la connessione?\\^
+Connection refused.\\^
+Connessione rifiutata.\\^
+Your Pokémon wasn't traded yet.
+Il tuo Pokémon non è ancora stato scambiato.
+Can't enter Wonder Trade with less than 2 Pokémon.
+Non puoi avviare uno Scambio Prodigioso con meno di 2 Pokémon.
+Would you like to start a Wonder Trade?
+Vuoi avviare uno Scambio Prodigioso?
+Bye, {1}!
+Arrivederci, {1}!
+Matched with {1}!
+Abbinato con {1}!
+I'm sorry, {1} doesn't want to interact.
+Spiacente, {1} non vuole interagire.
+Sorry, {1} disconnected.
+Spiacente, {1} si è disconnesso.
+The connection timed out.
+La connessione si è interrotta.
+Your ID: {1:05d}\\nSearching
+Il tuo ID: {1:05d}\\nRicerca
+{1} connected!
+{1} connesso!
+Waiting for {1} to pick an activity...
+Aspettando che {1} scelga un'attività...
+Choose an activity.\\^
+Scegli un'attività.\\^
+I'm sorry, you must have at least two Pokémon to engage in a double battle.
+Spiacente, devi avere almeno due Pokémon per partecipare una lotta in doppio.
+I'm sorry, your partner must have at least two Pokémon to engage in a double battle.
+Spiacente, il tuo partner deve avere almeno due Pokémon per partecipare ad una lotta in doppio.
+Would you like to disconnect?
+Ti vuoi disconnettere?
+Waiting for {1} to accept
+In attesa che {1} accetti
+I'm sorry, {1} doesn't want to {2}
+Spiacente, {1} non vuole partecipare a {2}
+{1} wants to battle at {2}!\\^
+{1} vuole lottare a {2}!\\^
+{1} wants to trade!\\^
+{1} vuole scambiare!\\^
+Sorry, {1} didn't want to interact after all.
+Spiacente, {1} non vuole interagire dopotutto.
+Awaiting Partner Party...
+In attesa della squadra del partner...
+Sorry, {1} canceled the selection.
+Spiacente {1} ha annullato la selezione.
+Waiting for {1} to resynchronize
+Aspettando che {1} si resincronizzi
+Waiting for {1} to confirm the trade
+Aspettando che {1} confermi lo scambio
+I'm sorry, {1} doesn't want to trade after all.
+Spiacente, {1} non vuole scambiare dopotutto.
+Waiting for {1} to pick a Pokémon
+Aspettando che {1} scelga un Pokémon
+Waiting for {1} to confirm the trade
+Aspettando che {1} confermi lo scambio
+{1} has offered {2} ({3}) for your {4} ({5}).\\^
+{1} ha offerto {2} ({3}) per il tuo {4} ({5}).\\^
+Check {1}'s offer
+Controlla l'offerta di {1}
+Check My Offer
+Controlla la tua offerta
+Accept/Deny Trade
+Accetta/Rifiuta lo scambio
+Confirm the trade of {1} ({2}) for your {3} ({4}).\\^
+Confermi lo scambio di {1} ({2}) per il tuo {3} ({4}).\\^
+The trade was unable to be completed.
+Lo scambio non è stato completato.
+Choose a partner or start matchmaking.
+Scegli un partner o avvia l'abbinamento automatico.
+Do you want to exit matchmaking?
+Vuoi uscire dall'abbinamento automatico?
+Do you want to stop the connection with your partner?
+Vuoi annullare la connessione con il tuo partner?
+Do you want to cancel the interaction?
+Vuoi annullare l'interazione?
+Choose a tier.
+Scegli una categoria.
+Sorry, looks like you can't enter this Tier with your current team.
+Spiacente, sembra che tu non possa accedere a questa categoria con la tua squadra attuale.
+Sorry, looks like your opponent can't enter this Tier with the current team.
+Spiacente, sembra che il tuo avversario non possa accedere a questa categoria con la sua squadra attuale.
+Waiting for the other player
+In attesa dell'altro giocatore
+{1} disconnected!
+{1} si è disconnesso!
+Waiting
+In attesa
+{1} forfeited the match!
+{1} si è arreso!
+Virtual Move Tutor
+Insegnamosse Virtuale
+This Pokémon is not compatible with the Virtual Move Tutor!
+Questo Pokémon non è compatibile con l'Insegnamosse Virtuale!

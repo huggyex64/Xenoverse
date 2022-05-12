@@ -1722,6 +1722,17 @@ end
 def pbPokeCenterPC
   Kernel.pbMessage(_INTL("\\se[computeropen]{1} booted up the PC.",$Trainer.name))
   if $game_switches[1332] == true
+	if $game_switches[4900] == false
+		Kernel.pbMessage(_INTL("Paolo left a message."))
+		Kernel.pbMessage(_INTL("Paolo: Hey, you! Look, we really want you to get into our new invention, so we decided to let you in on this SUPER\\wt[12]-TOP\\wt[12]-SECRET\\wt[12] invention!"))
+		Kernel.pbMessage(_INTL("Paolo: It's called <b>Virtual Move Tutor</b> and trust me, it'll come in handy!"))
+		Kernel.pbMessage(_INTL("Paolo: It analyzes the genetic data of any of your Pokémons and lets it learn any move it could be compatible with!"))
+		Kernel.pbMessage(_INTL("Paolo: But only if it's not one that needs experience! You know, it's not an almighty tool!"))
+		Kernel.pbMessage(_INTL("Paolo: By the way... It'll be a little pricey... But we can make some discounts for you if you get more famous..."))
+		Kernel.pbMessage(_INTL("Paolo: ...so get more badges and the price just might drop!"))
+		Kernel.pbMessage(_INTL("Paolo: I have to go now, there's another really important project that's waiting for me! See ya!"))
+		$game_switches[4900] = true
+	end
 	choices = [_INTL("Use PC"),_INTL("Virtual Move Tutor")]
 	rt = pbNewChoice(Fullbox_Option.createFromArray(choices),-1)
 	if rt > -1

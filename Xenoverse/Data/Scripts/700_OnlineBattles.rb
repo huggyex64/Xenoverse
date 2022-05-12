@@ -2202,6 +2202,12 @@ module CableClub
 end
 
 class PokeBattle_Trainer
+  attr_accessor :rentalTeamCode
+
+  def rentalTeamCode
+    return @rentalTeamCode || ""
+  end
+
   attr_accessor :username
   def username
     return @name if @username == nil
@@ -2468,15 +2474,15 @@ module CableClub
 
 
 
-    if Input.triggerex?(0x24)
-      connection.send do |writer|
-        writer.sym(:fwd)
-        writer.str(@ui.playerList[@ui.selectionIndex][2])
-        writer.sym(:message)
-        writer.str(pbEnterText("Daje",0,50))
-      end
-      Kernel.pbMessage("Wow")
-    end
+    #if Input.triggerex?(0x24)
+    #  connection.send do |writer|
+    #    writer.sym(:fwd)
+    #    writer.str(@ui.playerList[@ui.selectionIndex][2])
+    #    writer.sym(:message)
+    #    writer.str(pbEnterText("Daje",0,50))
+    #  end
+    #  Kernel.pbMessage("Wow")
+    #end
 
     if Input.trigger?(Input::C)
       if @navigatingPlayerList
@@ -2588,6 +2594,123 @@ module CableClub
           return
         end
       end
+    end
+
+    if Input.trigger?(Input::R)
+      code = pbEnterText("Rental Team Code",0,8)
+      connection.send do |writer|
+        writer.sym(:getRental) 
+        writer.str(code)
+      end
+      party = nil
+      while (party == nil)
+        
+        if (@frame%20==0)
+          pbCheckForCE(connection)
+        end
+        if @state != @last_state
+          if @state == :enlisted
+            @matchmaking = false
+            msgwindow.visible = false
+            @ui.updateStatus(_INTL("Choose a partner or start matchmaking."))
+            #Kernel.pbMessageDisplay(msgwindow,_INTL("Choose a partner."),false)
+            @partner_uid = nil
+
+            #Ask for new server message if there's any
+            if connection.can_send?
+              connection.send do |writer|
+                writer.sym(:getServerMessage)
+              end
+            end
+          else
+            msgwindow.visible = true if @state != :await_wt_info
+          end
+          @last_state = @state
+          @frame = 0
+        else
+          @frame += 1# if @frame < 180
+        end
+
+        Input.update
+        Graphics.update
+        @ui.canRefresh = canRefreshPlayerList?()
+        @ui.update
+
+        connection.updateExp([:found]) do |record|
+          case (type = record.sym)
+          when :found
+            party = parse_party(record)
+            
+            sscene=PokemonScreen_Scene.new
+            sscreen=PokemonScreen.new(sscene,party)
+            pbFadeOutIn(99999) { 
+              hiddenmove=sscreen.pbPokemonScreen
+              if hiddenmove && !@scene.nil?
+                @scene.pbEndScene
+              end
+            }
+            Kernel.pbMessage("RENTAL CODE: #{code} \\nYOU WON'T BE ABLE TO SEE THIS AGAIN!")
+          when :notFound
+            Kernel.pbMessage("RENTAL TEAM NOT FOUND")
+          else
+            raise "Unknown message: #{type}"
+          end
+        end
+      end
+    end
+
+    if Input.trigger?(Input::L)
+
+      Kernel.pbMessage("SAVE RENTAL TEAM")
+      connection.send do |writer|
+        writer.sym(:saveRental) #empty|fill
+      end
+      code = nil
+      while (code == nil)
+        
+        if (@frame%20==0)
+          pbCheckForCE(connection)
+        end
+        if @state != @last_state
+          if @state == :enlisted
+            @matchmaking = false
+            msgwindow.visible = false
+            @ui.updateStatus(_INTL("Choose a partner or start matchmaking."))
+            #Kernel.pbMessageDisplay(msgwindow,_INTL("Choose a partner."),false)
+            @partner_uid = nil
+
+            #Ask for new server message if there's any
+            if connection.can_send?
+              connection.send do |writer|
+                writer.sym(:getServerMessage)
+              end
+            end
+          else
+            msgwindow.visible = true if @state != :await_wt_info
+          end
+          @last_state = @state
+          @frame = 0
+        else
+          @frame += 1# if @frame < 180
+        end
+
+        Input.update
+        Graphics.update
+        @ui.canRefresh = canRefreshPlayerList?()
+        @ui.update
+
+        connection.updateExp([:rentalCode]) do |record|
+          case (type = record.sym)
+          when :rentalCode
+            code = record.str
+            Kernel.pbMessage("RENTAL CODE: #{code} \\nYOU WON'T BE ABLE TO SEE THIS AGAIN!")
+          else
+            raise "Unknown message: #{type}"
+          end
+        end
+      end
+      #@state = :await_wt_info
+
     end
 
     #if Input.trigger?(Input::L)

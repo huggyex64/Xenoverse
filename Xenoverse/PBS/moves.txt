@@ -708,7 +708,7 @@
 730,STARBURSTTRI,Ipernova,134,130,SUONO,Special,90,5,0,00,0,efkn,"Un'esplosione stellare infligge danni in base all'attacco più alto, ignorando qualsiasi Protezione."
 731,STARBURSTSHU,Ipernova,134,130,DRAGON,Special,90,5,0,00,0,efn,"Un'esplosione stellare infligge danni in base all'attacco più alto, ignorando qualsiasi Protezione."
 732,CONTROLLOPOLARE,Controllo Polare,136,0,ELECTRIC,Status,0,20,0,20,0,d,"Controllando i campi magnetici, aumentano Difesa e Difesa Speciale degli alleati con abilità Più o Meno."
-733,FIREKUNAI,Pirosquarcio,0A0,50,FIRE,Physical,95,10,0,00,1,abefgh,"Chi la usa attacca sempre per primo, colpendo il bersaglio con un kunai di fuoco. Brutto colpo assicurato."
+733,FIREKUNAI,Pirosquarcio,0A0,40,FIRE,Physical,95,10,0,00,1,abefgh,"Chi la usa attacca sempre per primo, colpendo il bersaglio con un kunai di fuoco. Brutto colpo assicurato."
 734,XTRANSFORM,Trasformazione X,205,0,NORMAL,Status,0,10,0,00,0,,"Chi la usa si trasforma in una copia esatta di una specie X casuale."
 735,ACIDRAIN,Pioggia Acida,300,0,WATER,Status,0,10,0,20,0,e,"Chi la usa genera una pioggia acida che danneggia tutti i Pokémon non di tipo Veleno o Acqua in campo."
 736,DRAGONENDURANCE,Dragoscudo,301,0,DRAGON,Status,0,15,0,20,0,,"Chi la usa crea uno scudo che indebolisce per cinque turni le mosse di tipo Elettro, Fuoco, Erba e Acqua."
