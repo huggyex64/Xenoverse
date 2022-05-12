@@ -3823,7 +3823,7 @@ module CableClub
       if connection.can_send?
         connection.send do |writer|
           writer.sym(:getRental) 
-          writer.str(code)
+          writer.str($Trainer.rentalTeamCode)
         end
         res = nil
         while (res == nil)
