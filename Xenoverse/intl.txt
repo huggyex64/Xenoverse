@@ -760,15 +760,15 @@ Yes
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Stella
@@ -1076,15 +1076,15 @@ Kiloo...!
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Stella
@@ -1658,15 +1658,15 @@ Oh, \PN...you're always ready for adventure, huh?
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Stella
@@ -1814,15 +1814,15 @@ No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Stella
@@ -5631,15 +5631,15 @@ In these areas, sometimes you can find a particular stone, called the <b>Xenolit
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Stella
@@ -5974,15 +5974,15 @@ Scaaa...!
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Stella
@@ -7876,15 +7876,15 @@ No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Stella
@@ -10533,15 +10533,15 @@ Use Box
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Stella
@@ -11953,15 +11953,15 @@ I sure wanna shop if there's a Poké Mart right inside<<n>>the airport!
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Stella
@@ -12509,11 +12509,11 @@ Let me tell you about this story.
 <<[>>old<<]>>The coming of the indomitable Pokémon came to the ears of the King, and his sense of duty made him do his utmost to defend his beloved region.
 <<[>>old<<]>>Il Primo Re ed il Primo X si scontrarono per giorni, quando alla fine il Primo Re prevalse su Aegislash X, riuscendo a domarlo.
 <<[>>old<<]>>The First King and the First X battled for days, until at the end the First King prevailed on Aegislash X, taming it.
-<<[>>old<<]>>Il luogo del loro scontro fu da allora chiamato, in modo da ricordare l’esito della battaglia contro quell’aspra minaccia, <b>Via Vittoria</b>.
+<<[>>old<<]>>Il luogo del loro scontro fu da allora chiamato, in modo da ricordare l'esito della battaglia contro quell'aspra minaccia, <b>Via Vittoria</b>.
 <<[>>old<<]>>The place where their battle happened since then was called, to make sure to remember the result of the battle against that harsh threat, <b>Victory Road</b>.
-<<[>>old<<]>>Il Primo X divenne un fidato compagno del Re, l’unico che fosse stato in grado di dominarlo. 
+<<[>>old<<]>>Il Primo X divenne un fidato compagno del Re, l'unico che fosse stato in grado di dominarlo. 
 <<[>>old<<]>>The First X became a trustworthy companion of the King, the only one who ever managed to tame it.
-<<[>>old<<]>>Alla sua morte, però, il Primo X non trovò nessun umano degno di controllarlo, e decise quindi di ritirarsi nel luogo del loro primo scontro, per sprofondare in un sonno profondo, in attesa di un’altra persona in grado di <b>tenergli testa</b>.
+<<[>>old<<]>>Alla sua morte, però, il Primo X non trovò nessun umano degno di controllarlo, e decise quindi di ritirarsi nel luogo del loro primo scontro, per sprofondare in un sonno profondo, in attesa di un'altra persona in grado di <b>tenergli testa</b>.
 <<[>>old<<]>>When the King came to pass, though, the First X did not find any human worthy of controlling it, and decided to retire to the place where their battle took place, to fall into a deep slumber, waiting for another person capable of standing up to it.
 Ad oggi il Primo X è ancora assopito all'interno della <b>Via Vittoria</b>.
 To date the First X is still sleeping inside the <b>Victory Road</b>.
@@ -13663,7 +13663,7 @@ Usa Box
 Use Box
 [Map274]
 La regina voleva parlarti. Dovrebbe trovarsi a nord del varco di Aquariopoli.
-The Queen wanted to speak with you. You should find her north of Ishtar City’s gateway.
+The Queen wanted to speak with you. You should find her north of Ishtar City's gateway.
 \PN! Quanto tempo!
 \PN! It's been so long!
 Le tue gesta nello Xenoverse hanno fatto il giro della regione,
@@ -15218,15 +15218,15 @@ Just as the flames, your Pokémon will be born again<<n>>if you use that Sacred 
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Stella
@@ -15623,15 +15623,15 @@ You can fish completely different Pokémon...<<n>>It all depends on the version 
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Stella
@@ -16910,15 +16910,15 @@ Hello! This is the Poké Mart in Vermilion City!
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Stella
@@ -19655,15 +19655,15 @@ Are you a Hiker too, maybe?
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Stella
@@ -19853,15 +19853,15 @@ Defeat is nothing but education.
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Stella
@@ -20069,15 +20069,15 @@ Once a year, an old longbeard comes down the mountains<<n>>with his Reindear to 
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Stella
@@ -21234,7 +21234,7 @@ This cavern leads to the site of an epochal clash! If only we could find some mo
 Xena
 Xena
 Anche se sono una scienziata, sono estremamente affascinata dalle leggende! Sono certa che in fondo a ogni leggenda si celi la realtà...
-Although I’m a scientist, I’m extremely fascinated by legends! I’m sure that at the very bottom of each of them lies some reality...
+Although I'm a scientist, I'm extremely fascinated by legends! I'm sure that at the very bottom of each of them lies some reality...
 Xolot
 Xolot
 Purtroppo le nostre ricerche non hanno prodotto risultati sostanziali...
@@ -21256,7 +21256,7 @@ No
 No
 <<[>>old<<]>>Aegi...!
 <<[>>old<<]>>Aegi...!
-<<[>>old<<]>>Aegislash X non è soddisfatto dell’esito dello scontro e ricade in un sonno profondo.
+<<[>>old<<]>>Aegislash X non è soddisfatto dell'esito dello scontro e ricade in un sonno profondo.
 <<[>>old<<]>>Aegislash X is not content with the result of the battle and falls back into deep sleep.
 <<[>>old<<]>>Aegislash X ti fissa in un silenzio solenne.
 <<[>>old<<]>>Aegislash X stares at you in solemn silence.
@@ -24125,7 +24125,7 @@ that after all the sins he's committed, wants to have a fresh start too!
 Cosa sei venuto a fare qui, maledetto? Sei qui per deridermi?
 What have you come here for, you wretch? <<n>>Are you here to mock me?
 Non ti è bastato ridurmi in questo stato...?
-Wasn’t it enough, leaving me in shambles...?
+Wasn't it enough, leaving me in shambles...?
 Victor, ma... cosa stai dicendo...
 Victor, but... what are you talking about...
 Sei completamente fuori di te!
@@ -24895,15 +24895,15 @@ I'm sorry, currently the next floor is unavailable. I'm sorry for the discomfort
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
-Hey! You’re \PN, I could never forget your face!
+Hey! You're \PN, I could never forget your face!
 La mia <b>Regina</b> mi ha incaricato di consegnarti questa missiva di invito, dicendomi che era una questione estremamente importante!
 My <b>Queen</b> asked me to deliver this letter to you, saying that it was an extremely important matter!
 Per favore, vieni ad <b>Aquariopoli</b> quanto prima.
 Please, come to <b>Ishtar City</b> as soon as possible.
 La Regina ha anche detto che dovresti già sapere il luogo dell'appuntamento, quindi ti attenderà lì.
-The Queen also said that you should already know where to meet her, thus she’ll wait for you there.
+The Queen also said that you should already know where to meet her, thus she'll wait for you there.
 Ora che ho consegnato il messaggio, è ora di tornare a palazzo per montare di guardia.
-Now that this message is delivered successfully, it’s time to head back to the palace and stand guard.
+Now that this message is delivered successfully, it's time to head back to the palace and stand guard.
 Ti saluto!
 Bye!
 Io e il mio Charmeleon vogliamo visitare il <b>Sentiero Rosa</b>! Hanno detto che emigrano ogni mese un sacco di Pokémon mai visti.
