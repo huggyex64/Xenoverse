@@ -25081,6 +25081,8 @@ Now that I'm here, I'll do the exact opposite of what you want to do!
 <<[>>old<<]>>E' successo qualcosa. Meglio controllare in giro...
 <<[>>old<<]>>Something happened! It's best to look around...
 [Map628]
+<<[>>old<<]>>Non è il momento di tornare indietro...!
+<<[>>old<<]>>It's not time to go back...!
 <<[>>old<<]>><b>ATTENZIONE!</b>
 <<[>>old<<]>><b>CAREFUL!</b>
 <<[>>old<<]>>Proseguendo da questa direzione, la battaglia non sarà particolarmente difficile. Vuoi proseguire? Non sarà possibile tornare indietro.
@@ -25175,6 +25177,8 @@ Quick, reach the other Cardinals! I'll try to continue the Ritual!
 <<[>>old<<]>>La forza distruttiva di Aegislash X rompe tutti gli specchi maligni.
 <<[>>old<<]>>The destructive power of Aegislash X breaks all the evil mirrors.
 [Map630]
+<<[>>old<<]>>Non è il momento di tornare indietro...!
+<<[>>old<<]>>It's not time to go back...!
 <<[>>old<<]>><b>ATTENZIONE!</b>
 <<[>>old<<]>><b>CAREFUL!</b>
 <<[>>old<<]>>Proseguendo da questa direzione, la battaglia non sarà particolarmente difficile. Vuoi proseguire? Non sarà possibile tornare indietro.
@@ -25216,7 +25220,7 @@ Niva
 Il mio <b>Tapu Lele</b> sta dando di matto...
 My <b>Tapu Lele</b> is acting strange...
 Ma non preoccupatevi! Basto io per fermarlo!
-But don't worry! I’m enough to stop it!
+But don't worry! I'm enough to stop it!
 \PN! Pare che Castalia sia bloccata in un loop!
 \PN! It looks like Niva is stuck in a loop!
 Dobbiamo aiutarla!
@@ -25242,7 +25246,7 @@ An invader has attacked Mt. Zodiac during the ritual...
 Subito dopo il suo arrivo, il mio Tapu è impazzito...
 Right after it came, my Tapu went mad...
 Sono certa che sia a causa dell'Energia Furia, potevo chiaramente sentirlo...
-I'm sure that it’s due to the Fury energy, I could clearly feel it...
+I'm sure that it's due to the Fury energy, I could clearly feel it...
 E' la stessa cosa che è accaduta al signor Chua...
 It's the same thing that happened to mister Chua...
 Se anche al vecchio Chua è accaduto lo stesso, posso solo immaginare che tutti i Tapu siano impazziti.
@@ -25268,7 +25272,353 @@ Niva passed out, she must be really tired.
 \PN, dobbiamo andare ad aiutare gli altri cardinali!
 \PN, we have to go and help the other Cardinals!
 Per ora credo che Castalia sia al sicuro qui, ma dobbiamo fare in fretta!
-For now I think that Castalia will be safe here, but we must make haste! 
+For now I think that Niva will be safe here, but we must make haste! 
+[Map631]
+<<[>>old<<]>>L'assenza è presenza, ma la presenza di uno sguardo sull'assenza ti farà dimenticare della tua presenza.
+<<[>>old<<]>>Absence is presence, but the presence of a gaze on the absence will make thou forget of your presence. 
+<<[>>old<<]>>L'aura di Aegislash X esorcizza le ombre.
+<<[>>old<<]>>Aegislash X's aura exorcizes the shadows. 
+<<[>>old<<]>>Tutto il mondo si rovescia. Lo sguardo che ti fissava ora fa della tristezza il tuo nemico.
+<<[>>old<<]>>The world reverses. The gaze that was staring upon you now makes sadness your enemy. 
+<<[>>old<<]>>La realtà si proietta in un mondo di diffida. Come una clessidra, il chiaroscuro è la tua guida.
+<<[>>old<<]>>Reality projects in a world of deception. Just like an hourglass, The light and shade is your guide. 
+[Map632]
+<<[>>old<<]>>Non è il momento di tornare indietro...!
+<<[>>old<<]>>It's not time to go back...!
+<<[>>old<<]>><b>ATTENZIONE!</b>
+<<[>>old<<]>><b>CAREFUL!</b>
+<<[>>old<<]>>Proseguendo da questa direzione, la battaglia non sarà particolarmente difficile. Vuoi proseguire? Non sarà possibile tornare indietro.
+<<[>>old<<]>>By proceeding in this direction, the next challenge's difficulty will be moderate. Would you like to proceed? It won't be possible to go back.
+Sì
+Yes
+No
+No
+<<[>>old<<]>>Proseguendo da questa direzione, la battaglia avrà una difficoltà elevata. Vuoi proseguire? Non sarà possibile tornare indietro.
+<<[>>old<<]>>By proceeding in this direction, the next challenge's difficulty will be elevated. Would you like to proceed? It won't be possible to go back.
+<<[>>old<<]>>Non puoi tornare indietro.
+<<[>>old<<]>>It won't be possible to go back.
+<<[>>old<<]>>Non puoi andare verso questa direzione.
+<<[>>old<<]>>You can't head in this direction.
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
+Cura Pokémon
+Heal Pokémon
+Usa Box
+Use Box
+<<[>>old<<]>>L'energia Terrestre in eccesso ha creato un oggetto familiare...
+<<[>>old<<]>>The overflowing Terrestrial energy generated a familiar item...
+<<[>>old<<]>>L'energia Xenoverse in eccesso ha creato un oggetto familiare...
+<<[>>old<<]>>The overflowing Xenoversal energy generated a familiar item...
+Kay
+Kay
+Alice
+Alice
+Tu
+You
+Alter
+Alter
+Peyote
+Peyote
+Questo posto mette i brividi...
+This place gives me the chills...
+Presto, \PN! Dobbiamo muoverci!
+Quick, \PN! We must go! 
+\PN! Ho bisogno del tuo aiuto!
+\PN! I need your help! 
+Io e <b>Tapu Koko</b> siamo bloccati in stallo, devi liberarmi!
+<b>Tapu Koko</b> and I are in a stalemate, you have to free me! 
+Forza, \PN, facciamo come dice!
+Come on, \PN, let's do as he says!
+<<[>>old<<]>>Koko...! 
+<<[>>old<<]>>Koko...! 
+<<[>>old<<]>>Hai attivato il Sigillo Furia!
+<<[>>old<<]>>You triggered the Fury Seal!
+<<[>>old<<]>>Il Sigillo reagisce.
+<<[>>old<<]>>The Seal is reacting.
+<<[>>old<<]>>Hai completato una Battaglia Furiosa, ottenendo il Pokémon Furia!
+<<[>>old<<]>>You completed a Furious Battle and you got the Fury Pokémon!
+<<[>>old<<]>>Non dimenticare di controllare nei Box del PC!
+<<[>>old<<]>>Go check your Pokémon Boxes!
+Grazie per avermi liberato!
+Thanks for freeing me!
+La situazione non è delle migliori...
+The situation is not the best...
+Mr. Ovvio colpisce ancora!
+Captain hindsight is on the scene!
+Nemmeno sotto se la passavano bene!
+They were having it hard below too! 
+Come!?
+What!?
+Anche il resto del Monte Zodiaco è in questo stato?
+The rest of Mt. Zodiac is in this state too?
+Diamine...
+Damn it...
+E voi cosa ci fate qui?
+What are you doing here?
+L'accesso al Monte dovrebbe essere proibito durante il Rituale!
+The access to this place should be denied during the Ritual! 
+<<[>>old<<]>>Tu ed Alice spiegate ciò che è accaduto...
+<<[>>old<<]>>You and Alice explain what happened...
+<<[>>old<<]>>Tu e Kay spiegate ciò che è accaduto...
+<<[>>old<<]>>You and Kay explain what happened...
+Capisco...
+I see...
+Se non altro, non dobbiamo preoccuparci per Oleandro.
+If nothing else, we mustn't be worried for Abraham.
+È il più forte tra di noi, quindi sarà sicuramente riuscito a contenere il suo Tapu Bulu!
+As strong as he is, he surely was able to tame his Tapu Bulu!
+Devo dire che però è strano che non si sia ancora fatto vivo...
+I must say though that it's strange that he's still not here...
+\PN! Alice! Vi chiedo di proseguire per la vetta!
+\PN! Alice! I ask you to go on to the summit!
+\PN! Kay! Vi chiedo di proseguire per la vetta!
+\PN! Kay! I ask you to go on to the summit!
+Forse voi e Oleandro, unendo le forze, potrete fare qualcosa per fermare l’invasore!
+Maybe you guys and Abraham, by joining forces, might be able to stop the invader!
+Io nel frattempo scenderò per provare a creare una via di fuga insieme a Chua.
+In the meantime, I'll descend and try to create some way to escape together with Chua.
+Se il mio presentimento è corretto, riprendere il Rituale in questo momento è totalmente inutile...
+If my hunch is correct, restarting the Ritual at this moment is totally useless...
+Faccio affidamento su di voi!
+I trust you guys! 
+F-faremo del nostro meglio!
+W-we'll do our best! 
+Mentre voi raggiungerete Oleandro, io cercherò qualche modo per abbandonare il Monte Zodiaco.
+While you're heading for Abraham's location, I'll search for some way to leave Mt. Zodiac.
+Le persone all'entrata non dovrebbero passare tutto questo!
+The people at the entrance shouldn't go through all this! 
+[Map633]
+Kay
+Kay
+Alice
+Alice
+Tu
+You
+Alter
+Alter
+\PN...
+\PN...
+Siamo sicuri che io sia la persona più adatta ad accompagnarti?
+Are we sure that I'm the most suited person to go with you?
+Forse sarebbe stato meglio se fosse venuto Peyote con te, al posto mio...
+Maybe it'd have been better if Peyote came, in my place...
+Questo posto mette i brividi, e io non credo di essere abbastanza forte da...
+This place is crazy, and I'm not sure that I'm strong enough to...
+Lasciamo stare, quel che è fatto è fatto!
+Sorry, don't think about it, what's done is done!
+Forza, \PN, proseguiamo!
+Come on, \PN, let's go!
+Quella sciocca, perchè si è messa a correre in quel modo? Ora vi siete separati!
+That twerp, why did she start running like that? Now you're separated!
+Quello sciocco, perchè si è messo a correre in quel modo? Ora vi siete separati!
+That twerp, why did he start running like that? Now you're separated!
+Comunque,\PN... Te ne sei accorto anche tu, vero?
+Anyway, \PN... You noticed too, did you not?
+Comunque,\PN... Te ne sei accorta anche tu, vero?
+Anyway, \PN... You noticed too, did you not?
+L'invasore non deve essere uno qualunque.
+This ''invader'' is not just anyone.
+Il motivo per cui sono riuscito ad emergere così facilmente è che le energie Xenoverse e Terrestre in questo luogo sono tutte completamente squilibrate.
+The reason I could come out this easily is that Xenoverse and Terrestrial Energies are all over the place here. 
+Per questa volta, ti consiglio anch'io di fare attenzione. Non mi piace questa situazione.
+Just this one time, I advise you to be careful. I don't like this situation.
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
+Cura Pokémon
+Heal Pokémon
+Usa Box
+Use Box
+Ho viaggiato per migliorarmi...
+I traveled to get better...
+...Eppure, lui non mi vede ancora.
+...and even then, he doesn't look at me.
+...Eppure, lei non mi vede ancora.
+...and even then, she doesn't look at me.
+<<[>>old<<]>>La forza di Aegislash X elimina le illusioni.
+<<[>>old<<]>>The power of Aegislash X dissipates the illusions! 
+\PN, sei tu? Che fine avevi fatto?
+\PN, is that you? Where did you go? 
+C-Cos!? Non sei \PN! Cosa stai facendo con il mio corpo?
+Wha-!? You're not \PN! What are you doing with my body? 
+Non provocarmi, ti sconfiggerò anche se sei dietro a quello schermo!
+Don't provoke me, I'll beat you even if you're behind that screen!
+<<[>>old<<]>>La tensione si allevia.
+<<[>>old<<]>>The tension is lighter.
+<<[>>old<<]>>La tensione svanisce completamente...
+<<[>>old<<]>>The tension disappears completely...
+<<[>>old<<]>>Il Sigillo emane un'aura infinita. Forse c'è un modo per spezzarlo...
+<<[>>old<<]>>The Sigil emanates an incredible aura. Maybe there's a way to break it...
+<<[>>old<<]>>Vuoi utilizzare la forza di Aegislash X per frantumare questo emblema?
+<<[>>old<<]>>Would you like to use the power of Aegislash X to break this ensign?
+Sì
+Yes
+No
+No
+<<[>>old<<]>>C'è tensione nell'aria...
+<<[>>old<<]>>The air is heavy...
+\PN, menomale! Senza di te, io...
+\PN, thank goodness! Without you, I...
+Che sia iniziato tutto quel giorno al Campus Acero?
+Maybe it all started on that day at Newtron City?
+Non so quando tutto questo sia iniziato...
+I don't know when this all started...
+Sì... Da quel momento, ho iniziato a voler migliore me stessa spasmodicamente, solo per poter stare a fianco a lui...
+Yes... From that moment, I started to want to get better spasmodically, just to be on his side...
+Sì... Da quel momento, ho iniziato a voler migliore me stesso spasmodicamente, solo per poter stare a fianco a lei...
+Yes... From that moment, I started to want to get better spasmodically, just to be on her side...
+L'acqua è di un blu intenso. Vuoi usare Surf?
+The water is dyed a deep blue. Would you like to use Surf?
+L'acqua è di un blu intenso. Vuoi usare Surf o vuoi teletrasportarti al punto di partenza?
+The water is dyed a deep blue. Would you like to use Surf or would you like to teleport to the starting point?
+Usa Surf
+Use Surf
+Punto di Partenza
+Starting Point
+Ho cambiato idea.
+I changed my mind.
+Volevo condividere i suoi pesi e le sue fatiche...
+I wanted to share his burdens and pains...
+Volevo condividere i suoi pesi e le sue fatiche...
+I wanted to share her burdens and pains...
+Ma ero inadatta...
+But I wasn't good enough…
+Ma ero inadatto...
+But I wasn't good enough…
+Eravamo parte di due mondi diversi...
+We were part of two distinct worlds...
+Ma forse proprio per questo volevo esserle più vicino...
+But maybe it was because of that that I wanted to be closer to him...
+Ma forse proprio per questo volevo essergli più vicina...
+But maybe it was because of that that I wanted to be closer to her...
+\PN! Sei arrivato! Iniziavo a crederti che ti fossi perso...
+\PN! You arrived! I was starting to believe that you got lost...
+\PN! Sei arrivata! Iniziavo a crederti che ti fossi persa...
+\PN! You arrived! I was starting to believe that you got lost...
+E questa qua continua a seguirmi da prima, facendo tutto ciò che faccio io!
+And this one keeps following me since before, repeating all that I do!
+E questo qua continua a seguirmi da prima, facendo tutto ciò che faccio io!
+And this one keeps following me since before, repeating all that I do!
+\PN! tu hai capito chi è la vera me, giusto?
+\PN, you got who's the real me, right?
+Quella a destra
+The one on the right
+Quello a destra
+The one on the right
+Quella a sinistra
+The one on the left
+Quello a sinistra
+The one on the left
+Cosa!? Come hai fatto a scambiarmi con questa qui?
+Wha-!? How could you mistake me for this one?
+Cosa!? Come hai fatto a scambiarmi con questo qui?
+Wha-!? How could you mistake me for this one?
+Forse devo ricordarti chi è la vera Alice!
+Maybe I ought to show you who's the real Alice!
+Forse devo ricordarti chi è il vero Kay!
+Maybe I ought to show you who's the real Kay!
+Falsa me, dammi una mano anche tu!
+Fake me, give me a hand!
+Falso me, dammi una mano anche tu!
+Fake me, give me a hand!
+Rrrgh-!
+Rrrgh-!
+Andiamo avanti... ma sappi che me la segno!
+Let's proceed... but know that I'm writing this down!
+Ugh, il falso mi ha spinta...
+Ugh, the fake one pushed me...
+Ugh, il falso mi ha spinto...
+Ugh, the fake one pushed me...
+\PN, sapevo che tu mi avresti riconosciuta subito!
+\PN, I knew you'd recognize me right away!
+\PN, sapevo che tu mi avresti riconosciuto subito!
+\PN, I knew you'd recognize me right away!
+Forza, dobbiamo andare avanti!
+We need to go on, let's go!
+[Map637]
+<<[>>old<<]>><b>ATTENZIONE!</b>
+<<[>>old<<]>><b>CAREFUL!</b>
+<<[>>old<<]>>Proseguendo da questa direzione, la battaglia non sarà particolarmente difficile. Vuoi proseguire? Non sarà possibile tornare indietro.
+<<[>>old<<]>>By proceeding in this direction, the next challenge's difficulty will be moderate. Would you like to proceed? It won't be possible to go back.
+Sì
+Yes
+No
+No
+<<[>>old<<]>>Proseguendo da questa direzione, la battaglia avrà una difficoltà elevata. Vuoi proseguire? Non sarà possibile tornare indietro.
+<<[>>old<<]>>By proceeding in this direction, the next challenge's difficulty will be elevated. Would you like to proceed? It won't be possible to go back.
+<<[>>old<<]>>Non puoi tornare indietro.
+<<[>>old<<]>>It won't be possible to go back.
+<<[>>old<<]>>Non puoi andare verso questa direzione.
+<<[>>old<<]>>You can't head in this direction.
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
+Cura Pokémon
+Heal Pokémon
+Usa Box
+Use Box
+<<[>>old<<]>>L'energia Terrestre in eccesso ha creato un oggetto familiare...
+<<[>>old<<]>>The overflowing Terrestrial energy generated a familiar item...
+<<[>>old<<]>>L'energia Xenoverse in eccesso ha creato un oggetto familiare...
+<<[>>old<<]>>The overflowing Xenoversal energy generated a familiar item...
+Kay
+Kay
+Alice
+Alice
+Tu
+You
+Alter
+Alter
+Oleandro
+Abraham
+Signor Oleandro!
+Mister Abraham!
+Uff... Qui l'atmosfera è veramente pesante...
+Uff... The air is really heavy here...
+Dobbiamo sbrigarci!
+We need to go!
+Oh no!
+Oh no!
+\PN, Oleandro è svenuto!
+\PN, Abraham is passed out!
+Agh! Le mie gambe n-non vogliono muoversi!
+Agh! My legs w-won't move!
+\PN... Ho p-paura...
+\PN… I'm scared...
+Tsk...!
+Tsk...!
+<<[>>old<<]>>Bulu...!
+<<[>>old<<]>>Bulu...!
+<<[>>old<<]>>Hai attivato il Sigillo Furia!
+<<[>>old<<]>>You triggered the Fury Seal!
+<<[>>old<<]>>Il Sigillo reagisce.
+<<[>>old<<]>>The Seal is reacting.
+<<[>>old<<]>>Hai completato una Battaglia Furiosa, ottenendo il Pokémon Furia!
+<<[>>old<<]>>You completed a Furious Battle and you got the Fury Pokémon!
+<<[>>old<<]>>Non dimenticare di controllare nei Box del PC!
+<<[>>old<<]>>Go check your Pokémon Boxes!
+\PN... fortuna che sei qui con noi...
+\PN... luckily you're here with us...
+Forse... dovremmo tornare indietro...?
+Maybe... we should head back...?
+Dovrebbe essere Peyote ad accompagnarti, io non riesco più a fare niente...
+Peyote should be the one to go with you, I can't go on anymore...
+\PN! Dove vai?
+\PN! Where are you going?
+Questa situazione è troppo grave per risolverla da solo!
+This situation is too serious to solve it on your own!
+Questa situazione è troppo grave per risolverla da sola!
+This situation is too serious to solve it on your own!
+Non puoi farcela!
+You can't do it!
+Ti supplico, torna indietro! Certamente Peyote potrà darci una mano!
+I beg you, come back! Peyote will surely be able to help us!
+<<[>>old<<]>>Non è il momento di tornare indietro...!
+<<[>>old<<]>>It's not time to go back...!
 [1]
 0
 ????????
