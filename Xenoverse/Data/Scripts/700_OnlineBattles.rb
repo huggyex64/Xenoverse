@@ -2638,7 +2638,7 @@ module CableClub
               when 1; :double
               else; raise "Unknown battle type"
               end
-
+              @rentalParty = nil
               @chosenTier = chooseTier(connection,msgwindow,@battle_type,nil)
 
               if (@chosenTier == nil)
@@ -2888,24 +2888,7 @@ module CableClub
             writer.sym(:trainerData)
             writer.str($Trainer.username)
             if $Trainer.useRentalTeam && $Trainer.rentalTeamCode != ""
-              @rentalParty = nil
-              connection.send do |writer2|
-                writer2.str("getRental")
-                writer2.str($Trainer.rentalTeamCode)
-              end
-              while (@rentalParty==nil)
-                connection.updateExp([:found,:notFound]) do |record|
-                  case(type = record.sym)
-                  when :found
-                    author = record.str
-                    @rentalParty = parse_party(record)
-                  else
-                    Kernel.pbMessage("The rental team you were using could not be found.")
-                    @rentalParty = -1
-                  end
-                end
-              end
-              if (@rentalParty == -1)
+              if (@rentalParty == nil)
                 write_party(writer)
               else
                 write_custom_party(@rentalParty, writer)
@@ -3040,6 +3023,7 @@ module CableClub
         when 1; :double
         else; raise "Unknown battle type"
         end
+        @rentalParty = nil
         @chosenTier = chooseTier(connection,msgwindow,@battle_type,@partner_party)
 
         if (@chosenTier == nil)
@@ -3841,6 +3825,7 @@ module CableClub
         end
         if (res != nil && res != -1)
           party = res
+          @rentalParty = res
         end
       end
     end
