@@ -2644,19 +2644,22 @@ module CableClub
             
             msgwindow.visible = true
             Kernel.pbMessageDisplay(msgwindow,"Rental Team found!\\nMade by: #{author}\\^")
-            ch = Kernel.pbShowCommands(msgwindow,["Show Team","Use Team","Leave"],2)
-            if ch == 0
-              sscene=PokemonScreen_Scene.new
-              sscreen=PokemonScreen.new(sscene,party)
-              pbFadeOutIn(99999) { 
-                hiddenmove=sscreen.pbPokemonScreen
-                if hiddenmove && !@scene.nil?
-                  @scene.pbEndScene
-                end
-              }
-            elsif ch == 1
-              $Trainer.rentalTeamCode = code
-            end            
+            ch = -1
+            while (ch != 2 && ch != 1)
+              ch = Kernel.pbShowCommands(msgwindow,["Show Team","Use Team","Leave"],2)
+              if ch == 0
+                sscene=PokemonScreen_Scene.new
+                sscreen=PokemonScreen.new(sscene,party)
+                pbFadeOutIn(99999) { 
+                  hiddenmove=sscreen.pbPokemonScreen
+                  if hiddenmove && !@scene.nil?
+                    @scene.pbEndScene
+                  end
+                }
+              elsif ch == 1
+                $Trainer.rentalTeamCode = code
+              end            
+            end
             msgwindow.visible = false
           when :notFound
             Kernel.pbMessage("RENTAL TEAM NOT FOUND")
@@ -2910,7 +2913,31 @@ module CableClub
             writer.sym(@partner_uid)
             writer.sym(:trainerData)
             writer.str($Trainer.username)
-            write_party(writer)
+            if $Trainer.rentalTeamCode != ""
+              @rentalParty = nil
+              connection.send do |writer|
+                writer.str("getRental")
+                writer.str($Trainer.rentalTeamCode)
+              end
+              while (@rentalParty==nil)
+                connection.updateExp([:found]) do |record|
+                  case(type = record.sym)
+                  when :found
+                    author = record.str
+                    @rentalParty = parse_party(record)
+                  else
+                    Kernel.pbMessage("An error has occurred.")
+                    @rentalParty = -1
+                  end
+                end
+              end
+              if (@rentalParty == -1)
+                raise "ERROR"
+              end
+              write_custom_party(@rentalParty, writer)
+            else
+              write_party(writer)
+            end
           end
         end
       when :trainerData
@@ -3272,7 +3299,11 @@ module CableClub
         #if !(ret == nil || ret == -1)
         #  @battleTeam = ret
         #end
-        ret = OnlinePartySelection.new($Trainer,$Trainer.party,@partner_name,@partner_party,BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type],@battle_type==:single ? 1 : 2,@cancancelSelection,proc{|x|
+        party = $Trainer.party
+        if $Trainer.rentalTeamCode != "" && @rentalParty != nil
+          party = @rentalParty
+        end
+        ret = OnlinePartySelection.new($Trainer,party,@partner_name,@partner_party,BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type],@battle_type==:single ? 1 : 2,@cancancelSelection,proc{|x|
           return BATTLE_TIERS[@chosenTier].call(x)
         })
         @battleTeam = ret.result
