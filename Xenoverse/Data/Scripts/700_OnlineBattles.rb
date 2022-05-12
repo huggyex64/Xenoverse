@@ -6,6 +6,7 @@ class OnlineLobby
   attr_accessor(:selectionIndex)
   attr_accessor(:buttonSelectionIndex)
   attr_accessor(:canRefresh)
+  attr_accessor(:connection)
 
 
   LIGHTBLUE = Color.new(131,218,230)
@@ -120,7 +121,7 @@ class OnlineLobby
   end
 
   def openSettings(msgwindow)
-    sett = ["bgButton","bgmButton"]
+    sett = ["bgButton","bgmButton","saveRentalButton","rentalButton","useRentalButton"]
 
     settDetails = {
       "bgButton"=>{
@@ -130,7 +131,20 @@ class OnlineLobby
       "bgmButton"=>{
         :t => _INTL("Battle Music"),
         :info => _INTL("Pick a battle BGM for your battles.")
-      }
+      },
+      "saveRentalButton"=>{
+        :t => _INTL("Save Rental Team"),
+        :info => _INTL("Creates a rental team using your current party.")
+      },
+      "rentalButton"=>{
+        :t => _INTL("Rental Team"),
+        :info => _INTL("Set the code for the Rental Team you wish to use.")
+      },
+      "useRentalButton"=>{
+        :t => _INTL("Use Rental Team"),
+        :info => _INTL("Using Rental Team: {1}", $Trainer.useRentalTeam ? _INTL("Yes") : _INTL("No"))
+      },
+
     }
 
     selIndex = 0
@@ -143,7 +157,7 @@ class OnlineLobby
       settsprites[st].bitmap = pbBitmap(@path + "SettingsButton").clone
       settsprites[st].ox = settsprites[st].bitmap.width/2
       settsprites[st].x = Graphics.width/2
-      settsprites[st].y = 90 + 90*sett.index(st)
+      settsprites[st].y = 60 + 35*sett.index(st)
       settsprites[st].opacity = 0
       pbSetFont(settsprites[st].bitmap, "Barlow Condensed", 24)
       settsprites[st].bitmap.font.color=Color.new(24,24,24)
@@ -318,6 +332,79 @@ class OnlineLobby
             end
           end
           pbBGMPlay(LOBBY_BGM,80)
+          Kernel.pbMessageDisplay(msgwindow,settDetails[sett[selIndex]][:info],false)
+        when 2
+          connection.send do |writer|
+            writer.sym(:saveRental) #empty|fill
+          end
+          code = nil
+          while (code == nil)
+
+            Input.update
+            Graphics.update
+            self.update
+
+            @connection.updateExp([:rentalCode]) do |record|
+              case (type = record.sym)
+              when :rentalCode
+                code = record.str
+                Kernel.pbMessageDisplay(msgwindow,"RENTAL CODE: #{code} \\nYOU WON'T BE ABLE TO SEE THIS AGAIN!")
+                Kernel.pbMessageDisplay(msgwindow,settDetails[sett[selIndex]][:info],false)
+              else
+                raise "Unknown message: #{type}"
+              end
+            end
+          end
+        when 3
+          code = pbEnterText("Rental Team Code",0,8)
+          if code != nil && code != ""
+            @connection.send do |writer|
+              writer.sym(:getRental) 
+              writer.str(code)
+            end
+            party = nil
+            while (party == nil)
+              Input.update
+              Graphics.update
+              self.update(false)
+
+              @connection.updateExp([:found,:notFound]) do |record|
+                case (type = record.sym)
+                when :found
+                  author = record.str
+                  party = CableClub::parse_party(record)
+                  
+                  msgwindow.visible = true
+                  Kernel.pbMessageDisplay(msgwindow,"Rental Team found!\\nMade by: #{author}\\^")
+                  ch = -1
+                  while (ch != 2 && ch != 1)
+                    ch = Kernel.pbShowCommands(msgwindow,["Show Team","Use Team","Leave"],2)
+                    if ch == 0
+                      sscene=PokemonScreen_Scene.new
+                      sscreen=PokemonScreen.new(sscene,party)
+                      pbFadeOutIn(99999) { 
+                        hiddenmove=sscreen.pbPokemonScreen
+                        if hiddenmove && !@scene.nil?
+                          @scene.pbEndScene
+                        end
+                      }
+                    elsif ch == 1
+                      $Trainer.rentalTeamCode = code
+                    end            
+                  end
+                  Kernel.pbMessageDisplay(msgwindow,settDetails[sett[selIndex]][:info],false)
+                when :notFound
+                  Kernel.pbMessage("RENTAL TEAM NOT FOUND")
+                  party = -1
+                else
+                  raise "Unknown message: #{type}"
+                end
+              end
+            end
+          end
+        when 4
+          $Trainer.useRentalTeam = !$Trainer.useRentalTeam
+          settDetails[sett[selIndex]][:info] = _INTL("Using Rental Team: {1}", $Trainer.useRentalTeam ? _INTL("Yes") : _INTL("No"))
           Kernel.pbMessageDisplay(msgwindow,settDetails[sett[selIndex]][:info],false)
         else
         end
@@ -2203,6 +2290,14 @@ end
 
 class PokeBattle_Trainer
   attr_accessor :rentalTeamCode
+  attr_accessor :useRentalTeam
+
+  def useRentalTeam
+    if @useRentalTeam == nil
+      return false
+    end
+    return @useRentalTeam
+  end
 
   def rentalTeamCode
     return @rentalTeamCode || ""
@@ -2544,7 +2639,7 @@ module CableClub
               else; raise "Unknown battle type"
               end
 
-              @chosenTier = chooseTier(msgwindow,@battle_type,nil)
+              @chosenTier = chooseTier(connection,msgwindow,@battle_type,nil)
 
               if (@chosenTier == nil)
                 msgwindow.visible = false
@@ -2596,130 +2691,9 @@ module CableClub
       end
     end
 
-    if Input.trigger?(Input::R)
-      code = pbEnterText("Rental Team Code",0,8)
-      connection.send do |writer|
-        writer.sym(:getRental) 
-        writer.str(code)
-      end
-      party = nil
-      while (party == nil)
-        
-        if (@frame%20==0)
-          pbCheckForCE(connection)
-        end
-        if @state != @last_state
-          if @state == :enlisted
-            @matchmaking = false
-            msgwindow.visible = false
-            @ui.updateStatus(_INTL("Choose a partner or start matchmaking."))
-            #Kernel.pbMessageDisplay(msgwindow,_INTL("Choose a partner."),false)
-            @partner_uid = nil
-
-            #Ask for new server message if there's any
-            if connection.can_send?
-              connection.send do |writer|
-                writer.sym(:getServerMessage)
-              end
-            end
-          else
-            msgwindow.visible = true if @state != :await_wt_info
-          end
-          @last_state = @state
-          @frame = 0
-        else
-          @frame += 1# if @frame < 180
-        end
-
-        Input.update
-        Graphics.update
-        @ui.canRefresh = canRefreshPlayerList?()
-        @ui.update
-
-        connection.updateExp([:found]) do |record|
-          case (type = record.sym)
-          when :found
-            author = record.str
-            party = parse_party(record)
-            
-            msgwindow.visible = true
-            Kernel.pbMessageDisplay(msgwindow,"Rental Team found!\\nMade by: #{author}\\^")
-            ch = -1
-            while (ch != 2 && ch != 1)
-              ch = Kernel.pbShowCommands(msgwindow,["Show Team","Use Team","Leave"],2)
-              if ch == 0
-                sscene=PokemonScreen_Scene.new
-                sscreen=PokemonScreen.new(sscene,party)
-                pbFadeOutIn(99999) { 
-                  hiddenmove=sscreen.pbPokemonScreen
-                  if hiddenmove && !@scene.nil?
-                    @scene.pbEndScene
-                  end
-                }
-              elsif ch == 1
-                $Trainer.rentalTeamCode = code
-              end            
-            end
-            msgwindow.visible = false
-          when :notFound
-            Kernel.pbMessage("RENTAL TEAM NOT FOUND")
-          else
-            raise "Unknown message: #{type}"
-          end
-        end
-      end
-    end
-
     if Input.trigger?(Input::L)
 
-      Kernel.pbMessage("SAVE RENTAL TEAM")
-      connection.send do |writer|
-        writer.sym(:saveRental) #empty|fill
-      end
-      code = nil
-      while (code == nil)
-        
-        if (@frame%20==0)
-          pbCheckForCE(connection)
-        end
-        if @state != @last_state
-          if @state == :enlisted
-            @matchmaking = false
-            msgwindow.visible = false
-            @ui.updateStatus(_INTL("Choose a partner or start matchmaking."))
-            #Kernel.pbMessageDisplay(msgwindow,_INTL("Choose a partner."),false)
-            @partner_uid = nil
-
-            #Ask for new server message if there's any
-            if connection.can_send?
-              connection.send do |writer|
-                writer.sym(:getServerMessage)
-              end
-            end
-          else
-            msgwindow.visible = true if @state != :await_wt_info
-          end
-          @last_state = @state
-          @frame = 0
-        else
-          @frame += 1# if @frame < 180
-        end
-
-        Input.update
-        Graphics.update
-        @ui.canRefresh = canRefreshPlayerList?()
-        @ui.update
-
-        connection.updateExp([:rentalCode]) do |record|
-          case (type = record.sym)
-          when :rentalCode
-            code = record.str
-            Kernel.pbMessage("RENTAL CODE: #{code} \\nYOU WON'T BE ABLE TO SEE THIS AGAIN!")
-          else
-            raise "Unknown message: #{type}"
-          end
-        end
-      end
+      
       #@state = :await_wt_info
 
     end
@@ -2913,28 +2887,29 @@ module CableClub
             writer.sym(@partner_uid)
             writer.sym(:trainerData)
             writer.str($Trainer.username)
-            if $Trainer.rentalTeamCode != ""
+            if $Trainer.useRentalTeam && $Trainer.rentalTeamCode != ""
               @rentalParty = nil
               connection.send do |writer2|
                 writer2.str("getRental")
                 writer2.str($Trainer.rentalTeamCode)
               end
               while (@rentalParty==nil)
-                connection.updateExp([:found]) do |record|
+                connection.updateExp([:found,:notFound]) do |record|
                   case(type = record.sym)
                   when :found
                     author = record.str
                     @rentalParty = parse_party(record)
                   else
-                    Kernel.pbMessage("An error has occurred.")
+                    Kernel.pbMessage("The rental team you were using could not be found.")
                     @rentalParty = -1
                   end
                 end
               end
               if (@rentalParty == -1)
-                raise "ERROR"
+                write_party(writer)
+              else
+                write_custom_party(@rentalParty, writer)
               end
-              write_custom_party(@rentalParty, writer)
             else
               write_party(writer)
             end
@@ -3065,7 +3040,7 @@ module CableClub
         when 1; :double
         else; raise "Unknown battle type"
         end
-        @chosenTier = chooseTier(msgwindow,@battle_type,@partner_party)
+        @chosenTier = chooseTier(connection,msgwindow,@battle_type,@partner_party)
 
         if (@chosenTier == nil)
           return
@@ -3572,6 +3547,7 @@ module CableClub
     #connport = port+1+rand(9)
 
     Connection.open("127.0.0.1", 11000) do |connection|#(host, connport) do |connection|
+      ui.connection = connection
       @state = :await_server
       @last_state = nil
       @client_id = 0               # 0 = SENDER, 1 = RECEIVER
@@ -3834,7 +3810,7 @@ module CableClub
     #$Trainer.party[index] = your_pkmn
   end
 
-  def self.chooseTier(msgwindow, battleType, opp_party)
+  def self.chooseTier(connection, msgwindow, battleType, opp_party)
     Kernel.pbMessageDisplay(msgwindow, _INTL("Choose a tier."))
     tiers = pbGetTiersNames()
     tierNames = []
@@ -3842,6 +3818,32 @@ module CableClub
       tierNames.push(t[0])
     end
     validCommand = false
+    party = $Trainer.party
+    if $Trainer.useRentalTeam && $Trainer.rentalTeamCode != ""
+      if connection.can_send?
+        connection.send do |writer|
+          writer.sym(:getRental) 
+          writer.str(code)
+        end
+        res = nil
+        while (res == nil)
+          Input.update
+          Graphics.update
+          connection.updateExp([:found,:notFound]) do |record|
+            case (type = record.sym)
+            when :found
+              author = record.str
+              res = parse_party(record)
+            else
+              res = -1
+            end
+          end
+        end
+        if (res != nil && res != -1)
+          party = res
+        end
+      end
+    end
     while !validCommand
       command = Kernel.pbShowCommands(msgwindow, tierNames, -1)
       if command == -1 || command == tierNames.length-1
@@ -3850,7 +3852,7 @@ module CableClub
       end
       vp = 0 #valid pokemons
       vopp = 0 #valid opp pokemons
-      for p in $Trainer.party
+      for p in party
         if (BATTLE_TIERS[tiers[command][1]].call(p))
           vp +=1
         end
