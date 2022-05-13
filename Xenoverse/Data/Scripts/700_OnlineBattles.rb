@@ -2097,10 +2097,28 @@ end
 ########################################################################
 
 def isUberValid?(poke)
-  banned = [PBSpecies::LUXFLON,PBSpecies::MEWTWOX]
+  banned = [PBSpecies::LUXFLON,PBSpecies::MEWTWOX,PBSpecies::DRAGALISK]
   if banned.include?(poke.species)
     return false
   end
+  return true
+end
+
+def isStandardValid?(poke)
+  banned = [PBSpecies::LUXFLON,PBSpecies::MEWTWOX,PBSpecies::DRAGALISK,
+            PBSpecies::TAPUBULUX,PBSpecies::DARKRAI,PBSpecies::DEOXYS]
+  if banned.include?(poke.species)
+    return false
+  end
+
+  #Astro forms
+  if [PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::SHYLEON].include?(poke.species)
+    if poke.ability == 240 || poke.ability == 241 || poke.ability == 242
+      return false
+    end
+  end
+
+
   return true
 end
 
@@ -2118,19 +2136,25 @@ module CableClub
   ]
 
   BATTLE_TIERS={
-    :anythinggoes => Proc.new {|x| !RETRODEX.include?(x.species)},
+    :anythinggoes => Proc.new {|x| true},
     :ubers => Proc.new{|x| isUberValid?(x) && !RETRODEX.include?(x.species)},
+    :standard => Proc.new{|x| isStandardValid?(x) && !RETRODEX.include?(x.species)},
     :retroonly => Proc.new {|x| RETRODEX.include?(x.species)},
   }
 
   BATTLE_TIERS_NAMES={
     :anythinggoes => _INTL("Anything Goes"),
     :ubers => _INTL("Uber"),
+    :standard => _INTL("Standard"),
     :retroonly => _INTL("Retro Only")
   }
 
   BATTLE_TIERS_NUMBERS={
     :anythinggoes =>{
+      :single => 6,
+      :double => 4
+    },
+    :standard =>{
       :single => 6,
       :double => 4
     },
