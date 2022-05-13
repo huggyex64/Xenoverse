@@ -25375,7 +25375,7 @@ I must say though that it's strange that he's still not here...
 \PN! Alice! I ask you to go on to the summit!
 \PN! Kay! Vi chiedo di proseguire per la vetta!
 \PN! Kay! I ask you to go on to the summit!
-Forse voi e Oleandro, unendo le forze, potrete fare qualcosa per fermare l’invasore!
+Forse voi e Oleandro, unendo le forze, potrete fare qualcosa per fermare l'invasore!
 Maybe you guys and Abraham, by joining forces, might be able to stop the invader!
 Io nel frattempo scenderò per provare a creare una via di fuga insieme a Chua.
 In the meantime, I'll descend and try to create some way to escape together with Chua.
@@ -25470,13 +25470,13 @@ Sì... Da quel momento, ho iniziato a voler migliore me stessa spasmodicamente, 
 Yes... From that moment, I started to want to get better spasmodically, just to be on his side...
 Sì... Da quel momento, ho iniziato a voler migliore me stesso spasmodicamente, solo per poter stare a fianco a lei...
 Yes... From that moment, I started to want to get better spasmodically, just to be on her side...
-L'acqua è di un blu intenso. Vuoi usare Surf?
-The water is dyed a deep blue. Would you like to use Surf?
-L'acqua è di un blu intenso. Vuoi usare Surf o vuoi teletrasportarti al punto di partenza?
-The water is dyed a deep blue. Would you like to use Surf or would you like to teleport to the starting point?
+<<[>>old<<]>>L'acqua è di un blu intenso. Vuoi usare Surf?
+<<[>>old<<]>>The water is dyed a deep blue. Would you like to use Surf?
+<<[>>old<<]>>L'acqua è di un blu intenso. Vuoi usare Surf o vuoi teletrasportarti al punto di partenza?
+<<[>>old<<]>>The water is dyed a deep blue. Would you like to use Surf or would you like to teleport to the starting point?
 Usa Surf
 Use Surf
-Punto di Partenza
+Punto di partenza
 Starting Point
 Ho cambiato idea.
 I changed my mind.
@@ -25538,6 +25538,13 @@ Ugh, the fake one pushed me...
 \PN, I knew you'd recognize me right away!
 Forza, dobbiamo andare avanti!
 We need to go on, let's go!
+[Map635]
+<<[>>old<<]>>L'acqua è di un blu intenso. Vuoi usare Surf?
+<<[>>old<<]>>The water is dyed a deep blue. Would you like to use Surf?
+Sì
+Yes
+No
+No
 [Map637]
 <<[>>old<<]>><b>ATTENZIONE!</b>
 <<[>>old<<]>><b>CAREFUL!</b>
@@ -25619,6 +25626,85 @@ Ti supplico, torna indietro! Certamente Peyote potrà darci una mano!
 I beg you, come back! Peyote will surely be able to help us!
 <<[>>old<<]>>Non è il momento di tornare indietro...!
 <<[>>old<<]>>It's not time to go back...!
+[Map638]
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
+Cura Pokémon
+Heal Pokémon
+Usa Box
+Use Box
+Sei arrivato|a, finalmente.
+You came, finally.
+Non è bene farsi attendere, lo sai?
+It's not good manners to make one wait, do you know?
+Ma tu sei un caso speciale, dico bene?
+But you're a special case, am I right?
+<<[>>old<<]>>Senti il peso delle esperienze fatte nel tuo viaggio travolgerti.
+<<[>>old<<]>>You can feel the weight of the experiences you made during your journey overwhelm you.
+<<[>>old<<]>>Senti il supporto di tutte le persone che hai incontrato, di tutti i legami che hai forgiato nel corso del tempo.
+<<[>>old<<]>>You can feel the support of all the people you met, of all the connections you forged all this time.
+<<[>>old<<]>>Senti che <b>l'inizio</b> e la <b>fine</b> della tua storia ti attendono oltre questo varco.
+<<[>>old<<]>>You can feel that the beginning and the end of your story are waiting for you on the other side of this opening.
+<<[>>old<<]>>Vuoi proseguire?
+<<[>>old<<]>>Do you want to go on?
+Sì
+Yes
+No
+No
+<<[>>old<<]>>Ti senti...
+<<[>>old<<]>>You feel...
+Affranto (Moderato)
+Disheartened (Moderate)
+Determinato (Difficile)
+Determined (Hard)
+Ho cambiato idea.
+I've changed my mind.
+[Map639]
+Fin quando non eri altro che un bambino, sei entrato in contatto con realtà molto più grandi della tua.
+Ever since when you were nothing more than a baby, you came to know realities much greater than your own.
+E per di più, senza una guida paterna che potesse indirizzarti.
+Furthermore, without a paternal guide that could help you.
+[Map640]
+Ti sei ritrovato|a a superare sfide su sfide... Che però erano sempre abbordabili. Non hai mai trovato un ostacolo che possa veramente definirsi insormontabile.
+You found yourself overcoming challenges upon challenges... That were always beatable. You did not find a single obstacle that could really be defined as insurmountable.
+Proprio come se... la tua vita e la tua avventura venissero guidate su una strada prefissata.
+As if... your life and your adventure were being guided on a fixed route.
+Eppure, in moltissimi casi, hai ricevuto aiuti inaspettati...
+Even then, in many cases, you received unexpected help...
+Aiuti che ti permettevano di superare sfide che, apparentemente, erano per te troppo ardue.
+Help that allowed you to overcome challenges that, apparently, were too hard for you.
+[Map641]
+Hai continuato a seguire la via che ti veniva indicata, facendo affidamento su profezie che ti rendevano ''il Prescelto'',
+You continued to follow the road that was set for you, relying on prophecies that made you the ''Chosen One'',
+nonostante non sapessi chi o cosa ti aveva reso tale.
+although you did not know who or what made you that.
+Eppure, hai sbalordito chiunque ti fosse vicino, superando qualsiasi ''sfida'' e arrivando a controllare anche l'odio più puro.
+Nevertheless, you amazed anyone who was close to you, overcoming any ''challenge'' and becoming able to control the purest hate.
+[Map642]
+Ma quando ti sei ritrovato|a faccia a faccia con l'altro te, non sei stato|a capace di ottenere l'elemento fondamentale, te stesso|a,
+But when you came to face your other self, you weren't able to control the fundamental piece, your self,
+che hai lasciato totalmente le redini alla rabbia, ignorando le conseguenze che ciò avrebbe causato.
+and let rage take the reins, ignoring whatever consequence that might have had.
+Come può una formica del genere, che non è nemmeno in grado di controllarsi, provare a compararsi a entità molto più grandi?
+How can an ant like that, that's not even capable of controlling itself, try to compare to entities much greater?
+[Map643]
+Ti sei sempre lasciato|a guidare, credendo ciecamente nel motto ''Per Aspera Ad Astra'' che hai sentito spesso nominato.
+You always let yourself be guided, blindly following the maxim ''Per Aspera Ad Astra'' that you often heard.
+Eppure non ti sei mai reso|a conto, che ogni singola volta che hai combattuto, ogni singola volta che hai superato una sfida e ogni singola volta hai minimamente fatto affidamento su una qualche probabilità...
+But you never realized that every single time you fought, every single time you overcame a challenge and every single time you remotely relied on any sort of chance...
+...In quel momento, attingevi al potere del Caos.
+...In that moment, you drew power from Chaos.
+[Map644]
+E non solo.
+And not just that.
+Sei ricorso|a al Caos più di quanto tu possa immaginare. Tutto ciò che esiste è regolato da eventi caotici e imprevedibili...
+You relied on Chaos much more than you think. Everything that exists is regulated by chaotic and unpredictable events...
+Il Caos è sempre esistito e sempre esisterà, che tu voglia o no.
+Chaos has always existed and it always will, whether you like it or not.
+E quindi, <i>Chaos Omnia Impera</i>.
+And thus, <i>Chaos Omnia Impera</i>.
 [1]
 0
 ????????
@@ -49943,6 +50029,36 @@ Evan
 253
 (Bullo)
 (Youngster)
+254
+(Allenatrici)
+(Trainers)
+255
+(Allenatori)
+(Trainers)
+256
+(Creatore)
+(Creator)
+261
+(Birbante)
+(Naughty Boy)
+262
+(S.P.E.T.T.R.I.)
+(G.E.I.S.T.)
+263
+(Sergente Dimension)
+(Dimension Sergeant)
+264
+(Capopalestra)
+(Gym Leader)
+265
+(Rivale)
+(Rival)
+266
+(Sognatrice)
+(Dream Dweller)
+267
+(Sognatore)
+(Dream Dweller)
 [13]
 Aria
 Skyler
@@ -55968,6 +56084,69 @@ Apollo Tournament
 625
 Paradiso Sakura
 Sakura Paradise
+626
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+627
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+628
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+629
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+630
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+631
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+632
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+633
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+634
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+635
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+636
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+637
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+638
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+639
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+640
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+641
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+642
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+643
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+644
+Monte Zodiaco Alterato
+Altered Mt. Zodiac
+645
+Orizzonte degli Eventi
+Event Horizon
+660
+Orizzonte degli Eventi
+Event Horizon
 [21]
 How are your Pokemon doing?\mMy \TP's really energetic. It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
 How are your Pokemon doing?\mMy \TP's really energetic.  It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.

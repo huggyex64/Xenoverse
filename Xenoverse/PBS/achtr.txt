@@ -330,3 +330,43 @@ Danzare nel buio
 Dancing in the dark
 Sconfiggi Dante nel Torneo Apollo.
 Defeat Dante in the Apollo Tournament.
+Il martello nella roccia
+The Hammer in The Stone
+Sconfiggi Aegislash X.
+Defeat Aegislash X.
+Araldi della fine
+Heralds of the end
+Sconfiggi tutti i Tapu sul Monte Zodiaco Alterato.
+Defeat all the Tapus on the Altered Mt. Zodiac.
+Corridore di un altro mondo
+Runner from another world
+Scopri la dimensione di Donanas.
+Discover Donanas' dimension.
+Chaos Omnia Impera
+Chaos Omnia Impera
+Concludi con successo il Pass 4.
+Complete successfully the Pass number 4.
+Le forze della natura
+The Forces of nature
+Ottieni tutti e 4 i geni sul Monte Zodiaco Alterato.
+Obtain all 4 genies on the Altered Mt. Zodiac.
+Sfilata elettrizzante
+Electrifying parade
+Sconfiggi Stella nel Torneo Apollo.
+Defeat Stella in the Apollo Tournament.
+Clawman l'invincibile
+Clawman the invincible
+Sconfiggi Clawman nel Torneo Apollo.
+Defeat Clawman in the Apollo Tournament.
+Null Exception
+Null Exception
+Sconfiggi Iridio nel Torneo Apollo.
+Defeat Gladion in the Apollo Tournament.
+Danza della meditazione
+Meditation dance
+Sconfiggi Valentina nel Torneo Apollo.
+Defeat Greta in the Apollo Tournament.
+Fra milioni di stelle
+Among millions of stars
+Riconquista di nuovo la vetta del Monte Zodiaco.
+Prove your worth on Mt. Zodiac summit again.
