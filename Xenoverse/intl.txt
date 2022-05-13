@@ -19365,7 +19365,7 @@ Adesso, mostrami un'ultima volta la forza di un Astro nascente!
 Now, show me one last time the power of a rising Star!
 Non devi farti fermare dalle delusioni! La sconfitta è l'illusione della disperazione!
 You mustn't fall into frustration! Defeat is the illusion of despair!
-Un’ultima battaglia ti attende sulla vetta... ma sono certo supererai anche questa sfida!
+Un'ultima battaglia ti attende sulla vetta... ma sono certo supererai anche questa sfida!
 One last battle awaits you at the summit... but I'm sure you'll overcome this challenge too!
 Oleandro
 Abraham
@@ -19483,8 +19483,10 @@ Ho fatto tanti incontri quante stelle nel cielo, e ora voglio mostrarti quanto q
 I made as many meetings as many stars are in the sky, and I now want to prove to you how strong these have made me!
 Preparati!
 Get ready!
-Mi dispiace \PN. Ma per risfidarmi, dovrai ritornare all'entrata del Monte Zodiaco... Non demordere!
-I'm sorry, \PN. If you want to challenge me again, you'll have to climb your way up again... Don't give up!
+Mi dispiace \PN. Ma per risfidarmi, dovrai ritornare all'entrata del Monte Zodiaco...
+I'm sorry, \PN. If you want to challenge me again, you'll have to climb your way up again...
+Non demordere!
+Don't give up!
 Come sempre, sei incredibile.
 As always, you're incredible.
 Ogni volta sei riuscito|a a risolvere la situazione, per quanto critica o disperata essa possa essere!
