@@ -2125,7 +2125,7 @@ module CableClub
 
   BATTLE_TIERS_NAMES={
     :anythinggoes => _INTL("Anything Goes"),
-    :ubers => _INTL("Uber")
+    :ubers => _INTL("Uber"),
     :retroonly => _INTL("Retro Only")
   }
 
