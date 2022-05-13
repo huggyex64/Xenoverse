@@ -2095,7 +2095,15 @@ end
 ########################################################################
 # Online Features are down here
 ########################################################################
-  
+
+def isUberValid?(poke)
+  banned = [PBSpecies::LUXFLON,PBSpecies::MEWTWOX]
+  if banned.include?(poke.species)
+    return false
+  end
+  return true
+end
+
 module CableClub
   HOST = "95.173.136.70" # for fun and profit
   PORT = 9999
@@ -2110,17 +2118,23 @@ module CableClub
   ]
 
   BATTLE_TIERS={
-    :anythinggoes => Proc.new {|x| eval(pbPostData("https://gitlab.com/xenorepo/tiercheck/-/raw/main/anythinggoes.txt",{}))},
+    :anythinggoes => Proc.new {|x| !RETRODEX.include?(x.species)},
+    :ubers => Proc.new{|x| isUberValid?(x) && !RETRODEX.include?(x.species)},
     :retroonly => Proc.new {|x| RETRODEX.include?(x.species)},
   }
 
   BATTLE_TIERS_NAMES={
     :anythinggoes => _INTL("Anything Goes"),
+    :ubers => _INTL("Uber")
     :retroonly => _INTL("Retro Only")
   }
 
   BATTLE_TIERS_NUMBERS={
     :anythinggoes =>{
+      :single => 6,
+      :double => 4
+    },
+    :ubers =>{
       :single => 6,
       :double => 4
     },
