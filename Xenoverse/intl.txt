@@ -35079,6 +35079,9 @@ Baneful Fox
 2035
 Amoreodio
 Love-Hate
+2036
+Furioso
+Furious
 [3]
 1
 Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
@@ -37723,6 +37726,9 @@ It secretes ice-fresh cream from its tail. If the quality doesn't match its high
 1238
 A seguito di numerosi esperimenti è diventato estremamente instabile, ma ha sviluppato la capacità di Trasformarsi anche senza vedere il bersaglio.
 Following a great number of experiments, it became extremely unstable, but it developed the ability to Transform even without seeing its target.
+1239
+Viene citato nelle leggende come compagno del Primo Re. Utilizza il suo momento per muoversi a velocità elevate.
+It's mentioned in legends as the companion of the First King. It uses its momentum to move at high speeds.
 1300
 Spesso presente nei boschi, si nutre di foglie. Ha un velenoso pungiglione sulla testa.
 Often found in forests, eating leaves. It has a sharp venomous stinger on its head.
@@ -38380,6 +38386,9 @@ With its disheveled white fur, it looks like an embodiment of death. Heedless of
 2035
 La sua venuta dai cieli al di là del mare annunzia la fine del rigido inverno. Si narra che il suo amore faccia germogliare nuova vita.
 When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life.
+2036
+Questo essere, creato per sostituire l'Oscuro Signore, è un concentrato di pura energia Furia. Nonostante le sue ridotte dimensioni rispetto al Dragalisk originale, resta comunque potentissimo e micidiale.
+This being, created to replace the Dark Lord, is a concentration of pure Fury energy. Although it's smaller compared to the original Dragalisk, it's still very powerful and lethal.
 [4]
 19
 Kanto,Alola
