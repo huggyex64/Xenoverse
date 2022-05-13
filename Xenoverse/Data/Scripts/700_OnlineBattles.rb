@@ -137,7 +137,7 @@ class OnlineLobby
         :info => _INTL("Creates a rental team using your current party.")
       },
       "rentalButton"=>{
-        :t => _INTL("Rental Team"),
+        :t => _INTL("Pick Rental Team"),
         :info => _INTL("Set the code for the Rental Team you wish to use.")
       },
       "useRentalButton"=>{
@@ -348,7 +348,7 @@ class OnlineLobby
               case (type = record.sym)
               when :rentalCode
                 code = record.str
-                Kernel.pbMessageDisplay(msgwindow,"RENTAL CODE: #{code} \\nYOU WON'T BE ABLE TO SEE THIS AGAIN!")
+                Kernel.pbMessageDisplay(msgwindow,_INTL("Your Rental code is: {1}\nCAREFUL! You won't see this again, so write it down!",code))
                 Kernel.pbMessageDisplay(msgwindow,settDetails[sett[selIndex]][:info],false)
               else
                 raise "Unknown message: #{type}"
@@ -356,7 +356,7 @@ class OnlineLobby
             end
           end
         when 3
-          code = pbEnterText("Rental Team Code",0,8)
+          code = pbEnterText(_INTL("Rental Team Code"),0,8)
           if code != nil && code != ""
             @connection.send do |writer|
               writer.sym(:getRental) 
@@ -375,10 +375,10 @@ class OnlineLobby
                   party = CableClub::parse_party(record)
                   
                   msgwindow.visible = true
-                  Kernel.pbMessageDisplay(msgwindow,"Rental Team found!\\nMade by: #{author}\\^")
+                  Kernel.pbMessageDisplay(msgwindow, _INTL("Rental Team found!\nMade by: {1}\\^",author))
                   ch = -1
                   while (ch != 2 && ch != 1)
-                    ch = Kernel.pbShowCommands(msgwindow,["Show Team","Use Team","Leave"],2)
+                    ch = Kernel.pbShowCommands(msgwindow,[_INTL("Show Team"), _INTL("Use Team"), _INTL("Leave")],2)
                     if ch == 0
                       sscene=PokemonScreen_Scene.new
                       sscreen=PokemonScreen.new(sscene,party)
@@ -394,7 +394,7 @@ class OnlineLobby
                   end
                   Kernel.pbMessageDisplay(msgwindow,settDetails[sett[selIndex]][:info],false)
                 when :notFound
-                  Kernel.pbMessage("RENTAL TEAM NOT FOUND")
+                  Kernel.pbMessage(_INTL("No Rental Team found."))
                   party = -1
                 else
                   raise "Unknown message: #{type}"
@@ -546,7 +546,7 @@ class OnlineLobby
     pbSetFont(@sprites["leaveButton"].bitmap, "Barlow Condensed", 22)
     @sprites["leaveButton"].bitmap.font.bold = true
     @sprites["leaveButton"].bitmap.font.color=Color.new(244,244,244)
-    @sprites["leaveButton"].bitmap.draw_text(0,0,@sprites["leaveButton"].bitmap.width,@sprites["leaveButton"].bitmap.height,_INTL("Leave"),1)
+    @sprites["leaveButton"].bitmap.draw_text(0, 0, @sprites["leaveButton"].bitmap.width, @sprites["leaveButton"].bitmap.height, _INTL("Leave"), 1)
 
 
     @buttons = [@sprites["avatarbox"],@sprites["battleButton"],@sprites["tradeButton"],@sprites["settingsButton"],@sprites["leaveButton"]]
@@ -2508,7 +2508,7 @@ module CableClub
       $Trainer.getSaveID(connection)
       @state = :enlisted
     else
-      pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nConnecting to online server",$Trainer.publicID($Trainer.id)), @frame)
+      pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\nConnecting to online server",$Trainer.publicID($Trainer.id)), @frame)
     end
   end
 
@@ -2604,7 +2604,7 @@ module CableClub
             @partner_uid = @ui.playerList[@ui.selectionIndex][2]
             @partner_name = @ui.playerList[@ui.selectionIndex][1]
             
-            Kernel.pbMessageDisplay(msgwindow, _INTL("Your ID: {1}\\nAsked {2} for interaction...",_ISPRINTF("{1:05d}", $Trainer.publicID($Trainer.id)),@partner_name),false)
+            Kernel.pbMessageDisplay(msgwindow, _INTL("Your ID: {1}\nAsked {2} for interaction...",_ISPRINTF("{1:05d}", $Trainer.publicID($Trainer.id)),@partner_name),false)
             @state = :await_interaction_accept
             @timeoutCounter = 0
             return
@@ -2979,7 +2979,7 @@ module CableClub
   end
 
   def self.handle_await_partner(connection,msgwindow)
-    pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\\nSearching",$Trainer.publicID($Trainer.id)), @frame)
+    pbMessageDisplayDots(msgwindow, _ISPRINTF("Your ID: {1:05d}\nSearching",$Trainer.publicID($Trainer.id)), @frame)
     connection.updateExp([:found,:partnerDisconnected],true) do |record|
       case (type = record.sym)
       when :found

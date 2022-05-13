@@ -37614,8 +37614,8 @@ Would you like to send a message to {1}?
 Vuoi mandare un messaggio a {1}?
 Message to send?
 Messaggio da inviare?
-Your ID: {1}\\nAsked {2} for interaction...
-Tuo ID: {1}\\nRichiesta interazione con {2}...
+Your ID: {1}<<n>>Asked {2} for interaction...
+Tuo ID: {1}<<n>>Richiesta interazione con {2}...
 Would you like to change your avatar?
 Vuoi cambiare il tuo avatar?
 Would you like to enter unranked matchmaking?
@@ -37630,18 +37630,18 @@ Matchmaking...
 Abbinamento in corso...
 Skipped connection.
 Connessione annullata.
-Abort connection?\\^
-Chiudere la connessione?\\^
-Abort search?\\^
-Annullare la ricerca?\\^
-Disconnect?\\^
-Disconnettersi?\\^
+Abort connection?\^
+Chiudere la connessione?\^
+Abort search?\^
+Annullare la ricerca?\^
+Disconnect?\^
+Disconnettersi?\^
 {1} connected!
 {1} connesso!
-{1} asked for connection. Do you want to start the connection?\\^
-{1} ha richiesto di connettersi. Vuoi avviare la connessione?\\^
-Connection refused.\\^
-Connessione rifiutata.\\^
+{1} asked for connection. Do you want to start the connection?\^
+{1} ha richiesto di connettersi. Vuoi avviare la connessione?\^
+Connection refused.\^
+Connessione rifiutata.\^
 Your Pokémon wasn't traded yet.
 Il tuo Pokémon non è ancora stato scambiato.
 Can't enter Wonder Trade with less than 2 Pokémon.
@@ -37658,14 +37658,14 @@ Sorry, {1} disconnected.
 Spiacente, {1} si è disconnesso.
 The connection timed out.
 La connessione si è interrotta.
-Your ID: {1:05d}\\nSearching
-Il tuo ID: {1:05d}\\nRicerca
+Your ID: {1:05d}<<n>>Searching
+Il tuo ID: {1:05d}<<n>>Ricerca
 {1} connected!
 {1} connesso!
 Waiting for {1} to pick an activity...
 Aspettando che {1} scelga un'attività...
-Choose an activity.\\^
-Scegli un'attività.\\^
+Choose an activity.\^
+Scegli un'attività.\^
 I'm sorry, you must have at least two Pokémon to engage in a double battle.
 Spiacente, devi avere almeno due Pokémon per partecipare una lotta in doppio.
 I'm sorry, your partner must have at least two Pokémon to engage in a double battle.
@@ -37676,10 +37676,10 @@ Waiting for {1} to accept
 In attesa che {1} accetti
 I'm sorry, {1} doesn't want to {2}
 Spiacente, {1} non vuole partecipare a {2}
-{1} wants to battle at {2}!\\^
-{1} vuole lottare a {2}!\\^
-{1} wants to trade!\\^
-{1} vuole scambiare!\\^
+{1} wants to battle at {2}!\^
+{1} vuole lottare a {2}!\^
+{1} wants to trade!\^
+{1} vuole scambiare!\^
 Sorry, {1} didn't want to interact after all.
 Spiacente, {1} non vuole interagire dopotutto.
 Awaiting Partner Party...
@@ -37696,16 +37696,16 @@ Waiting for {1} to pick a Pokémon
 Aspettando che {1} scelga un Pokémon
 Waiting for {1} to confirm the trade
 Aspettando che {1} confermi lo scambio
-{1} has offered {2} ({3}) for your {4} ({5}).\\^
-{1} ha offerto {2} ({3}) per il tuo {4} ({5}).\\^
+{1} has offered {2} ({3}) for your {4} ({5}).\^
+{1} ha offerto {2} ({3}) per il tuo {4} ({5}).\^
 Check {1}'s offer
 Controlla l'offerta di {1}
 Check My Offer
 Controlla la tua offerta
 Accept/Deny Trade
 Accetta/Rifiuta lo scambio
-Confirm the trade of {1} ({2}) for your {3} ({4}).\\^
-Confermi lo scambio di {1} ({2}) per il tuo {3} ({4}).\\^
+Confirm the trade of {1} ({2}) for your {3} ({4}).\^
+Confermi lo scambio di {1} ({2}) per il tuo {3} ({4}).\^
 The trade was unable to be completed.
 Lo scambio non è stato completato.
 Choose a partner or start matchmaking.
@@ -37734,3 +37734,31 @@ Virtual Move Tutor
 Insegnamosse Virtuale
 This Pokémon is not compatible with the Virtual Move Tutor!
 Questo Pokémon non è compatibile con l'Insegnamosse Virtuale!
+Save Rental Team
+Salva squadra a nolo
+Creates a rental team using your current party.
+Crea una squadra a nolo utilizzando il tuo party attuale.
+Pick Rental Team
+Scegli squadra a nolo
+Set the code for the Rental Team you wish to use.
+Imposta il codice per la squadra a nolo che hai intenzione di usare.
+Use Rental Team
+Utilizza squadra a nolo
+Using Rental Team: {1}
+Squadra a nolo in uso? {1}
+Your Rental code is: {1}<<n>>CAREFUL! You won't see this again, so write it down!
+Il tuo codice noleggio è: {1}<<n>>ATTENZIONE! Non lo vedrai più, quindi segnalo!
+Rental Team Code
+Codice della squadra a nolo
+What kind of name would you like to use?
+Che nome vuoi usare?
+Show Team
+Mostra Squadra
+Use Team
+Usa Squadra
+Leave
+Lascia
+Rental Team found!<<n>>Made by: {1}\^
+Squadra a nolo trovata!<<n>>Creata da: {1}\^
+No Rental Team found.
+Nessun Team a nolo trovato.
