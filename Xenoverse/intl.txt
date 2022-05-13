@@ -757,6 +757,24 @@ No
 Sì
 Yes
 [Map14]
+Paolo
+Paolo
+Luca
+Luca
+Sciò Sciò! Non vedi che stiamo lavorando qui? Non sei abbastanza famoso per avere l'accesso in anteprima!
+Shoo shoo! Don't you see we're working here? You're not famous enough to get the early access!
+Torna quando avrai qualche altra medaglia!
+Come back when you have some more badges!
+Ehi tu! Credo di averti già visto prima...
+Hey you! I think I've already seen you before...
+Ho una proposta da farti... Vorresti provare in anteprima una nuova tecnologia? Ti assicuro che è incredibile!
+I have a deal for you... Would you like to try out a new technology? I can guarantee that it's incredible!
+Bene, bene...seguimi dentro!
+Well well... follow me!
+Sì
+Yes
+No
+No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
@@ -1073,6 +1091,24 @@ Kiloo...!
 <<[>>old<<]>>Better get it back to its rightful owner.
 [Map21]
 [Map22]
+Paolo
+Paolo
+Luca
+Luca
+Sciò Sciò! Non vedi che stiamo lavorando qui? Non sei abbastanza famoso per avere l'accesso in anteprima!
+Shoo shoo! Don't you see we're working here? You're not famous enough to get the early access!
+Torna quando avrai qualche altra medaglia!
+Come back when you have some more badges!
+Ehi tu! Credo di averti già visto prima...
+Hey you! I think I've already seen you before...
+Ho una proposta da farti... Vorresti provare in anteprima una nuova tecnologia? Ti assicuro che è incredibile!
+I have a deal for you... Would you like to try out a new technology? I can guarantee that it's incredible!
+Bene, bene...seguimi dentro!
+Well well... follow me!
+Sì
+Yes
+No
+No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
@@ -1689,6 +1725,24 @@ Oh, \PN...you're always ready for adventure, huh?
 <<[>>old<<]>>Cinque anni dopo...
 <<[>>old<<]>>Five years later...
 [Map30]
+Paolo
+Paolo
+Luca
+Luca
+Sciò Sciò! Non vedi che stiamo lavorando qui? Non sei abbastanza famoso per avere l'accesso in anteprima!
+Shoo shoo! Don't you see we're working here? You're not famous enough to get the early access!
+Torna quando avrai qualche altra medaglia!
+Come back when you have some more badges!
+Ehi tu! Credo di averti già visto prima...
+Hey you! I think I've already seen you before...
+Ho una proposta da farti... Vorresti provare in anteprima una nuova tecnologia? Ti assicuro che è incredibile!
+I have a deal for you... Would you like to try out a new technology? I can guarantee that it's incredible!
+Bene, bene...seguimi dentro!
+Well well... follow me!
+Sì
+Yes
+No
+No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
@@ -5680,6 +5734,24 @@ Talvolta in queste zone è possibile rinvenire una particolare roccia, denominat
 In these areas, sometimes you can find a particular stone, called the <b>Xenolith</b>.<<n>>Research reveals that some X Pokémon react to the energy surge from this stone, and evolve.<<n>>Who knows, you might get one too...
 [Map97]
 [Map98]
+Paolo
+Paolo
+Luca
+Luca
+Sciò Sciò! Non vedi che stiamo lavorando qui? Non sei abbastanza famoso per avere l'accesso in anteprima!
+Shoo shoo! Don't you see we're working here? You're not famous enough to get the early access!
+Torna quando avrai qualche altra medaglia!
+Come back when you have some more badges!
+Ehi tu! Credo di averti già visto prima...
+Hey you! I think I've already seen you before...
+Ho una proposta da farti... Vorresti provare in anteprima una nuova tecnologia? Ti assicuro che è incredibile!
+I have a deal for you... Would you like to try out a new technology? I can guarantee that it's incredible!
+Bene, bene...seguimi dentro!
+Well well... follow me!
+Sì
+Yes
+No
+No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
@@ -6023,6 +6095,24 @@ Scaleon
 Scaaa...!
 Scaaa...!
 [Map105]
+Paolo
+Paolo
+Luca
+Luca
+Sciò Sciò! Non vedi che stiamo lavorando qui? Non sei abbastanza famoso per avere l'accesso in anteprima!
+Shoo shoo! Don't you see we're working here? You're not famous enough to get the early access!
+Torna quando avrai qualche altra medaglia!
+Come back when you have some more badges!
+Ehi tu! Credo di averti già visto prima...
+Hey you! I think I've already seen you before...
+Ho una proposta da farti... Vorresti provare in anteprima una nuova tecnologia? Ti assicuro che è incredibile!
+I have a deal for you... Would you like to try out a new technology? I can guarantee that it's incredible!
+Bene, bene...seguimi dentro!
+Well well... follow me!
+Sì
+Yes
+No
+No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
@@ -7925,6 +8015,24 @@ No
 <<[>>old<<]>>Sembrerebbero delle pagine strappate da un quaderno... La calligrafia è chiara e pulita.
 <<[>>old<<]>>It looks like a bunch of pages ripped out of a notebook... The calligraphy is really clear.
 [Map160]
+Paolo
+Paolo
+Luca
+Luca
+Sciò Sciò! Non vedi che stiamo lavorando qui? Non sei abbastanza famoso per avere l'accesso in anteprima!
+Shoo shoo! Don't you see we're working here? You're not famous enough to get the early access!
+Torna quando avrai qualche altra medaglia!
+Come back when you have some more badges!
+Ehi tu! Credo di averti già visto prima...
+Hey you! I think I've already seen you before...
+Ho una proposta da farti... Vorresti provare in anteprima una nuova tecnologia? Ti assicuro che è incredibile!
+I have a deal for you... Would you like to try out a new technology? I can guarantee that it's incredible!
+Bene, bene...seguimi dentro!
+Well well... follow me!
+Sì
+Yes
+No
+No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
@@ -10582,6 +10690,24 @@ Heal Pokémon
 Usa Box
 Use Box
 [Map210]
+Paolo
+Paolo
+Luca
+Luca
+Sciò Sciò! Non vedi che stiamo lavorando qui? Non sei abbastanza famoso per avere l'accesso in anteprima!
+Shoo shoo! Don't you see we're working here? You're not famous enough to get the early access!
+Torna quando avrai qualche altra medaglia!
+Come back when you have some more badges!
+Ehi tu! Credo di averti già visto prima...
+Hey you! I think I've already seen you before...
+Ho una proposta da farti... Vorresti provare in anteprima una nuova tecnologia? Ti assicuro che è incredibile!
+I have a deal for you... Would you like to try out a new technology? I can guarantee that it's incredible!
+Bene, bene...seguimi dentro!
+Well well... follow me!
+Sì
+Yes
+No
+No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
@@ -12002,6 +12128,24 @@ Blair
 Certo che, se mettono un Pokémon-Market nell'aeroporto, mi sento quasi in dovere di fare compere!
 I sure wanna shop if there's a Poké Mart right inside<<n>>the airport!
 [Map228]
+Paolo
+Paolo
+Luca
+Luca
+Sciò Sciò! Non vedi che stiamo lavorando qui? Non sei abbastanza famoso per avere l'accesso in anteprima!
+Shoo shoo! Don't you see we're working here? You're not famous enough to get the early access!
+Torna quando avrai qualche altra medaglia!
+Come back when you have some more badges!
+Ehi tu! Credo di averti già visto prima...
+Hey you! I think I've already seen you before...
+Ho una proposta da farti... Vorresti provare in anteprima una nuova tecnologia? Ti assicuro che è incredibile!
+I have a deal for you... Would you like to try out a new technology? I can guarantee that it's incredible!
+Bene, bene...seguimi dentro!
+Well well... follow me!
+Sì
+Yes
+No
+No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
@@ -15672,6 +15816,24 @@ Marcel
 A seconda del tipo di Amo che si usa, i Pokémon che abboccano potrebbero essere del tutto diversi!
 You can fish completely different Pokémon...<<n>>It all depends on the version of Rod you use!
 [Map308]
+Paolo
+Paolo
+Luca
+Luca
+Sciò Sciò! Non vedi che stiamo lavorando qui? Non sei abbastanza famoso per avere l'accesso in anteprima!
+Shoo shoo! Don't you see we're working here? You're not famous enough to get the early access!
+Torna quando avrai qualche altra medaglia!
+Come back when you have some more badges!
+Ehi tu! Credo di averti già visto prima...
+Hey you! I think I've already seen you before...
+Ho una proposta da farti... Vorresti provare in anteprima una nuova tecnologia? Ti assicuro che è incredibile!
+I have a deal for you... Would you like to try out a new technology? I can guarantee that it's incredible!
+Bene, bene...seguimi dentro!
+Well well... follow me!
+Sì
+Yes
+No
+No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
@@ -16959,6 +17121,24 @@ Why has nobody ever thought about merging Poké Marts<<n>>and Pokémon Centers t
 Ciao! Questo è il Pokémon-Market di Aranciopoli!
 Hello! This is the Poké Mart in Vermilion City!
 [Map341]
+Paolo
+Paolo
+Luca
+Luca
+Sciò Sciò! Non vedi che stiamo lavorando qui? Non sei abbastanza famoso per avere l'accesso in anteprima!
+Shoo shoo! Don't you see we're working here? You're not famous enough to get the early access!
+Torna quando avrai qualche altra medaglia!
+Come back when you have some more badges!
+Ehi tu! Credo di averti già visto prima...
+Hey you! I think I've already seen you before...
+Ho una proposta da farti... Vorresti provare in anteprima una nuova tecnologia? Ti assicuro che è incredibile!
+I have a deal for you... Would you like to try out a new technology? I can guarantee that it's incredible!
+Bene, bene...seguimi dentro!
+Well well... follow me!
+Sì
+Yes
+No
+No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
@@ -19792,6 +19972,24 @@ This Victory Road is nothing more than a walk in<<n>>the park for a Hiker like m
 Sei un Montanaro anche tu, per caso?
 Are you a Hiker too, maybe?
 [Map410]
+Paolo
+Paolo
+Luca
+Luca
+Sciò Sciò! Non vedi che stiamo lavorando qui? Non sei abbastanza famoso per avere l'accesso in anteprima!
+Shoo shoo! Don't you see we're working here? You're not famous enough to get the early access!
+Torna quando avrai qualche altra medaglia!
+Come back when you have some more badges!
+Ehi tu! Credo di averti già visto prima...
+Hey you! I think I've already seen you before...
+Ho una proposta da farti... Vorresti provare in anteprima una nuova tecnologia? Ti assicuro che è incredibile!
+I have a deal for you... Would you like to try out a new technology? I can guarantee that it's incredible!
+Bene, bene...seguimi dentro!
+Well well... follow me!
+Sì
+Yes
+No
+No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
@@ -19990,6 +20188,24 @@ Defeat is nothing but education.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
 [Map416]
+Paolo
+Paolo
+Luca
+Luca
+Sciò Sciò! Non vedi che stiamo lavorando qui? Non sei abbastanza famoso per avere l'accesso in anteprima!
+Shoo shoo! Don't you see we're working here? You're not famous enough to get the early access!
+Torna quando avrai qualche altra medaglia!
+Come back when you have some more badges!
+Ehi tu! Credo di averti già visto prima...
+Hey you! I think I've already seen you before...
+Ho una proposta da farti... Vorresti provare in anteprima una nuova tecnologia? Ti assicuro che è incredibile!
+I have a deal for you... Would you like to try out a new technology? I can guarantee that it's incredible!
+Bene, bene...seguimi dentro!
+Well well... follow me!
+Sì
+Yes
+No
+No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
@@ -20206,6 +20422,24 @@ Once a year, an old longbeard comes down the mountains<<n>>with his Reindear to 
 <<[>>old<<]>>È vuota.
 <<[>>old<<]>>It's empty.
 [Map420]
+Paolo
+Paolo
+Luca
+Luca
+Sciò Sciò! Non vedi che stiamo lavorando qui? Non sei abbastanza famoso per avere l'accesso in anteprima!
+Shoo shoo! Don't you see we're working here? You're not famous enough to get the early access!
+Torna quando avrai qualche altra medaglia!
+Come back when you have some more badges!
+Ehi tu! Credo di averti già visto prima...
+Hey you! I think I've already seen you before...
+Ho una proposta da farti... Vorresti provare in anteprima una nuova tecnologia? Ti assicuro che è incredibile!
+I have a deal for you... Would you like to try out a new technology? I can guarantee that it's incredible!
+Bene, bene...seguimi dentro!
+Well well... follow me!
+Sì
+Yes
+No
+No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
@@ -25032,6 +25266,24 @@ Sunshine
 Siamo spiacenti, ma non è possibile accedere al piano di sopra. Ci scusiamo per il disagio.
 I'm sorry, currently the next floor is unavailable. I'm sorry for the discomfort.
 [Map625]
+Paolo
+Paolo
+Luca
+Luca
+Sciò Sciò! Non vedi che stiamo lavorando qui? Non sei abbastanza famoso per avere l'accesso in anteprima!
+Shoo shoo! Don't you see we're working here? You're not famous enough to get the early access!
+Torna quando avrai qualche altra medaglia!
+Come back when you have some more badges!
+Ehi tu! Credo di averti già visto prima...
+Hey you! I think I've already seen you before...
+Ho una proposta da farti... Vorresti provare in anteprima una nuova tecnologia? Ti assicuro che è incredibile!
+I have a deal for you... Would you like to try out a new technology? I can guarantee that it's incredible!
+Bene, bene...seguimi dentro!
+Well well... follow me!
+Sì
+Yes
+No
+No
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
@@ -26014,6 +26266,860 @@ Quello che hai davanti non è altro che la mera proiezione della presenza del nu
 What you see in front of you is only the mere projection of the new guest...
 ...Che deve ancora unirsi a noi. Sai, lui era al Nadir, dopotutto.
 ...That still has to join us. You know, he was at the Nadir, after all
+[Map646]
+Luca! Abbiamo il primo tester!
+Luca! We have the first tester!
+Ottimo, ottimo! Finalmente sarà il nostro momento...!
+Good, good! Finally it'll be our time...!
+Sai, noi due gemelli siamo nel campo da anni ormai. Tutte le nostre invenzioni sono sempre passate in sordina per colpa di quel dannato Aster...
+You know, we twins have been in the field for years now. All of our inventions went unnoticed because of that damned Aster...
+Ma oggi le cose cambiano!
+But today things change!
+Questa invenzione è talmente pazzesca che tutti dovranno riconoscerne l'importanza! Kishishishi!
+This invention is so incredible that everyone will have to recognize its importance! Kishishishi!
+Esatto, dahaha! Lascia che ti illustri di cosa stiamo parlando...
+Exactly, dahahaha! Let me show you what we're talking about here...
+Sono lieto di presentarti... <b>Il Corridoio Dimensionale</b>!
+I'm glad to show you... the Dimensional Corridor!
+Entrando lì dentro, entrerai in un posto totalmente diverso da questo... E potrai interagire con altri te-stesso!
+By entering there, you'll find yourself in a place totally different from this... And you'll be able to interact with other you!
+Il Luca della dimensione SWK-15 era veramente antipatico... Spero che a te vada meglio di me con gli incontri!
+The Luca from dimension SWK-15 was really unpleasant... I hope you're luckier than me with your encounters!
+Siccome questa tecnologia si basa su proiezioni olografiche, possiamo usare tecniche per camuffare la tua identità!
+Since this technology is based on holographic projections, we can use some techniques to disguise your identity!
+Dovessi servirti, parla con Luca e lui ti spiegherà tutto!
+Should you ever need it, speak with Luca and he'll explain everything!
+Ora mettiamoci all'opera! È il momento di iniziare!
+Now let's get working! It's time to start!
+Allora, vuoi entrare nel Corridoio Dimensionale?
+Now, would you like to enter the Dimensional Corridor?
+Sì
+Yes
+No
+No
+Aspetta un secondo...
+Wait a second...
+<<[>>old<<]>>Salvataggio in corso.\wtnp[8].\wtnp[8].\wtnp[8]\^
+<<[>>old<<]>>Save the game.\wtnp[8].\wtnp[8].\wtnp[8]\^
+Fatto! Adesso puoi entrare!
+Done! Now you can enter!
+Torna da me se vuoi entrare!
+Come back if you'd like to enter!
+Cosa vuoi sapere?
+What would you like to know?
+Informazioni.
+Information.
+Cambio Nome.
+Change Name.
+Ho cambiato idea.
+I've changed my mind.
+Il Corridoio Dimensionale è un'invenzione creata utilizzando le ultimissime tecnologie disponibili!
+The Dimensional Corridor is an invention made by using the most cutting-edge technologies!
+Ti permette addirittura di <b>Lottare</b> e <b>Scambiare</b> Pokémon attraverso le dimensioni.
+It even lets you to <b>Fight</b> and <b>Trade</b> Pokémons through dimensions.
+Incredibile, vero?
+Cool, huh?
+In più, grazie alle tecniche di camuffamento che abbiamo implementato, puoi apparire in modo diverso davanti agli occhi degli altri!
+Moreover, thanks to the disguise additions that we've implemented, you can now appear differently in front of others!
+Vorresti cambiare il nome con cui gli altri ti vedranno?
+Would you like to change the name with which the others see you?
+Come vorresti farti chiamare?
+What would you like to be called?
+Tzè...!
+Tsk...!
+[Map647]
+Luca! Abbiamo il primo tester!
+Luca! We have the first tester!
+Ottimo, ottimo! Finalmente sarà il nostro momento...!
+Good, good! Finally it'll be our time...!
+Sai, noi due gemelli siamo nel campo da anni ormai. Tutte le nostre invenzioni sono sempre passate in sordina per colpa di quel dannato Aster...
+You know, we twins have been in the field for years now. All of our inventions went unnoticed because of that damned Aster...
+Ma oggi le cose cambiano!
+But today things change!
+Questa invenzione è talmente pazzesca che tutti dovranno riconoscerne l'importanza! Kishishishi!
+This invention is so incredible that everyone will have to recognize its importance! Kishishishi!
+Esatto, dahaha! Lascia che ti illustri di cosa stiamo parlando...
+Exactly, dahahaha! Let me show you what we're talking about here...
+Sono lieto di presentarti... <b>Il Corridoio Dimensionale</b>!
+I'm glad to show you... the Dimensional Corridor!
+Entrando lì dentro, entrerai in un posto totalmente diverso da questo... E potrai interagire con altri te-stesso!
+By entering there, you'll find yourself in a place totally different from this... And you'll be able to interact with other you!
+Il Luca della dimensione SWK-15 era veramente antipatico... Spero che a te vada meglio di me con gli incontri!
+The Luca from dimension SWK-15 was really unpleasant... I hope you're luckier than me with your encounters!
+Siccome questa tecnologia si basa su proiezioni olografiche, possiamo usare tecniche per camuffare la tua identità!
+Since this technology is based on holographic projections, we can use some techniques to disguise your identity!
+Dovessi servirti, parla con Luca e lui ti spiegherà tutto!
+Should you ever need it, speak with Luca and he'll explain everything!
+Ora mettiamoci all'opera! È il momento di iniziare!
+Now let's get working! It's time to start!
+Allora, vuoi entrare nel Corridoio Dimensionale?
+Now, would you like to enter the Dimensional Corridor?
+Sì
+Yes
+No
+No
+Aspetta un secondo...
+Wait a second...
+<<[>>old<<]>>Salvataggio in corso.\wtnp[8].\wtnp[8].\wtnp[8]\^
+<<[>>old<<]>>Save the game.\wtnp[8].\wtnp[8].\wtnp[8]\^
+Fatto! Adesso puoi entrare!
+Done! Now you can enter!
+Torna da me se vuoi entrare!
+Come back if you'd like to enter!
+Cosa vuoi sapere?
+What would you like to know?
+Informazioni.
+Information.
+Cambio Nome.
+Change Name.
+Ho cambiato idea.
+I've changed my mind.
+Il Corridoio Dimensionale è un'invenzione creata utilizzando le ultimissime tecnologie disponibili!
+The Dimensional Corridor is an invention made by using the most cutting-edge technologies!
+Ti permette addirittura di <b>Lottare</b> e <b>Scambiare</b> Pokémon attraverso le dimensioni.
+It even lets you to <b>Fight</b> and <b>Trade</b> Pokémons through dimensions.
+Incredibile, vero?
+Cool, huh?
+In più, grazie alle tecniche di camuffamento che abbiamo implementato, puoi apparire in modo diverso davanti agli occhi degli altri!
+Moreover, thanks to the disguise additions that we've implemented, you can now appear differently in front of others!
+Vorresti cambiare il nome con cui gli altri ti vedranno?
+Would you like to change the name with which the others see you?
+Come vorresti farti chiamare?
+What would you like to be called?
+Tzè...!
+Tsk...!
+[Map648]
+Luca! Abbiamo il primo tester!
+Luca! We have the first tester!
+Ottimo, ottimo! Finalmente sarà il nostro momento...!
+Good, good! Finally it'll be our time...!
+Sai, noi due gemelli siamo nel campo da anni ormai. Tutte le nostre invenzioni sono sempre passate in sordina per colpa di quel dannato Aster...
+You know, we twins have been in the field for years now. All of our inventions went unnoticed because of that damned Aster...
+Ma oggi le cose cambiano!
+But today things change!
+Questa invenzione è talmente pazzesca che tutti dovranno riconoscerne l'importanza! Kishishishi!
+This invention is so incredible that everyone will have to recognize its importance! Kishishishi!
+Esatto, dahaha! Lascia che ti illustri di cosa stiamo parlando...
+Exactly, dahahaha! Let me show you what we're talking about here...
+Sono lieto di presentarti... <b>Il Corridoio Dimensionale</b>!
+I'm glad to show you... the Dimensional Corridor!
+Entrando lì dentro, entrerai in un posto totalmente diverso da questo... E potrai interagire con altri te-stesso!
+By entering there, you'll find yourself in a place totally different from this... And you'll be able to interact with other you!
+Il Luca della dimensione SWK-15 era veramente antipatico... Spero che a te vada meglio di me con gli incontri!
+The Luca from dimension SWK-15 was really unpleasant... I hope you're luckier than me with your encounters!
+Siccome questa tecnologia si basa su proiezioni olografiche, possiamo usare tecniche per camuffare la tua identità!
+Since this technology is based on holographic projections, we can use some techniques to disguise your identity!
+Dovessi servirti, parla con Luca e lui ti spiegherà tutto!
+Should you ever need it, speak with Luca and he'll explain everything!
+Ora mettiamoci all'opera! È il momento di iniziare!
+Now let's get working! It's time to start!
+Allora, vuoi entrare nel Corridoio Dimensionale?
+Now, would you like to enter the Dimensional Corridor?
+Sì
+Yes
+No
+No
+Aspetta un secondo...
+Wait a second...
+<<[>>old<<]>>Salvataggio in corso.\wtnp[8].\wtnp[8].\wtnp[8]\^
+<<[>>old<<]>>Save the game.\wtnp[8].\wtnp[8].\wtnp[8]\^
+Fatto! Adesso puoi entrare!
+Done! Now you can enter!
+Torna da me se vuoi entrare!
+Come back if you'd like to enter!
+Cosa vuoi sapere?
+What would you like to know?
+Informazioni.
+Information.
+Cambio Nome.
+Change Name.
+Ho cambiato idea.
+I've changed my mind.
+Il Corridoio Dimensionale è un'invenzione creata utilizzando le ultimissime tecnologie disponibili!
+The Dimensional Corridor is an invention made by using the most cutting-edge technologies!
+Ti permette addirittura di <b>Lottare</b> e <b>Scambiare</b> Pokémon attraverso le dimensioni.
+It even lets you to <b>Fight</b> and <b>Trade</b> Pokémons through dimensions.
+Incredibile, vero?
+Cool, huh?
+In più, grazie alle tecniche di camuffamento che abbiamo implementato, puoi apparire in modo diverso davanti agli occhi degli altri!
+Moreover, thanks to the disguise additions that we've implemented, you can now appear differently in front of others!
+Vorresti cambiare il nome con cui gli altri ti vedranno?
+Would you like to change the name with which the others see you?
+Come vorresti farti chiamare?
+What would you like to be called?
+Tzè...!
+Tsk...!
+[Map649]
+Luca! Abbiamo il primo tester!
+Luca! We have the first tester!
+Ottimo, ottimo! Finalmente sarà il nostro momento...!
+Good, good! Finally it'll be our time...!
+Sai, noi due gemelli siamo nel campo da anni ormai. Tutte le nostre invenzioni sono sempre passate in sordina per colpa di quel dannato Aster...
+You know, we twins have been in the field for years now. All of our inventions went unnoticed because of that damned Aster...
+Ma oggi le cose cambiano!
+But today things change!
+Questa invenzione è talmente pazzesca che tutti dovranno riconoscerne l'importanza! Kishishishi!
+This invention is so incredible that everyone will have to recognize its importance! Kishishishi!
+Esatto, dahaha! Lascia che ti illustri di cosa stiamo parlando...
+Exactly, dahahaha! Let me show you what we're talking about here...
+Sono lieto di presentarti... <b>Il Corridoio Dimensionale</b>!
+I'm glad to show you... the Dimensional Corridor!
+Entrando lì dentro, entrerai in un posto totalmente diverso da questo... E potrai interagire con altri te-stesso!
+By entering there, you'll find yourself in a place totally different from this... And you'll be able to interact with other you!
+Il Luca della dimensione SWK-15 era veramente antipatico... Spero che a te vada meglio di me con gli incontri!
+The Luca from dimension SWK-15 was really unpleasant... I hope you're luckier than me with your encounters!
+Siccome questa tecnologia si basa su proiezioni olografiche, possiamo usare tecniche per camuffare la tua identità!
+Since this technology is based on holographic projections, we can use some techniques to disguise your identity!
+Dovessi servirti, parla con Luca e lui ti spiegherà tutto!
+Should you ever need it, speak with Luca and he'll explain everything!
+Ora mettiamoci all'opera! È il momento di iniziare!
+Now let's get working! It's time to start!
+Allora, vuoi entrare nel Corridoio Dimensionale?
+Now, would you like to enter the Dimensional Corridor?
+Sì
+Yes
+No
+No
+Aspetta un secondo...
+Wait a second...
+<<[>>old<<]>>Salvataggio in corso.\wtnp[8].\wtnp[8].\wtnp[8]\^
+<<[>>old<<]>>Save the game.\wtnp[8].\wtnp[8].\wtnp[8]\^
+Fatto! Adesso puoi entrare!
+Done! Now you can enter!
+Torna da me se vuoi entrare!
+Come back if you'd like to enter!
+Cosa vuoi sapere?
+What would you like to know?
+Informazioni.
+Information.
+Cambio Nome.
+Change Name.
+Ho cambiato idea.
+I've changed my mind.
+Il Corridoio Dimensionale è un'invenzione creata utilizzando le ultimissime tecnologie disponibili!
+The Dimensional Corridor is an invention made by using the most cutting-edge technologies!
+Ti permette addirittura di <b>Lottare</b> e <b>Scambiare</b> Pokémon attraverso le dimensioni.
+It even lets you to <b>Fight</b> and <b>Trade</b> Pokémons through dimensions.
+Incredibile, vero?
+Cool, huh?
+In più, grazie alle tecniche di camuffamento che abbiamo implementato, puoi apparire in modo diverso davanti agli occhi degli altri!
+Moreover, thanks to the disguise additions that we've implemented, you can now appear differently in front of others!
+Vorresti cambiare il nome con cui gli altri ti vedranno?
+Would you like to change the name with which the others see you?
+Come vorresti farti chiamare?
+What would you like to be called?
+Tzè...!
+Tsk...!
+[Map650]
+Luca! Abbiamo il primo tester!
+Luca! We have the first tester!
+Ottimo, ottimo! Finalmente sarà il nostro momento...!
+Good, good! Finally it'll be our time...!
+Sai, noi due gemelli siamo nel campo da anni ormai. Tutte le nostre invenzioni sono sempre passate in sordina per colpa di quel dannato Aster...
+You know, we twins have been in the field for years now. All of our inventions went unnoticed because of that damned Aster...
+Ma oggi le cose cambiano!
+But today things change!
+Questa invenzione è talmente pazzesca che tutti dovranno riconoscerne l'importanza! Kishishishi!
+This invention is so incredible that everyone will have to recognize its importance! Kishishishi!
+Esatto, dahaha! Lascia che ti illustri di cosa stiamo parlando...
+Exactly, dahahaha! Let me show you what we're talking about here...
+Sono lieto di presentarti... <b>Il Corridoio Dimensionale</b>!
+I'm glad to show you... the Dimensional Corridor!
+Entrando lì dentro, entrerai in un posto totalmente diverso da questo... E potrai interagire con altri te-stesso!
+By entering there, you'll find yourself in a place totally different from this... And you'll be able to interact with other you!
+Il Luca della dimensione SWK-15 era veramente antipatico... Spero che a te vada meglio di me con gli incontri!
+The Luca from dimension SWK-15 was really unpleasant... I hope you're luckier than me with your encounters!
+Siccome questa tecnologia si basa su proiezioni olografiche, possiamo usare tecniche per camuffare la tua identità!
+Since this technology is based on holographic projections, we can use some techniques to disguise your identity!
+Dovessi servirti, parla con Luca e lui ti spiegherà tutto!
+Should you ever need it, speak with Luca and he'll explain everything!
+Ora mettiamoci all'opera! È il momento di iniziare!
+Now let's get working! It's time to start!
+Allora, vuoi entrare nel Corridoio Dimensionale?
+Now, would you like to enter the Dimensional Corridor?
+Sì
+Yes
+No
+No
+Aspetta un secondo...
+Wait a second...
+<<[>>old<<]>>Salvataggio in corso.\wtnp[8].\wtnp[8].\wtnp[8]\^
+<<[>>old<<]>>Save the game.\wtnp[8].\wtnp[8].\wtnp[8]\^
+Fatto! Adesso puoi entrare!
+Done! Now you can enter!
+Torna da me se vuoi entrare!
+Come back if you'd like to enter!
+Cosa vuoi sapere?
+What would you like to know?
+Informazioni.
+Information.
+Cambio Nome.
+Change Name.
+Ho cambiato idea.
+I've changed my mind.
+Il Corridoio Dimensionale è un'invenzione creata utilizzando le ultimissime tecnologie disponibili!
+The Dimensional Corridor is an invention made by using the most cutting-edge technologies!
+Ti permette addirittura di <b>Lottare</b> e <b>Scambiare</b> Pokémon attraverso le dimensioni.
+It even lets you to <b>Fight</b> and <b>Trade</b> Pokémons through dimensions.
+Incredibile, vero?
+Cool, huh?
+In più, grazie alle tecniche di camuffamento che abbiamo implementato, puoi apparire in modo diverso davanti agli occhi degli altri!
+Moreover, thanks to the disguise additions that we've implemented, you can now appear differently in front of others!
+Vorresti cambiare il nome con cui gli altri ti vedranno?
+Would you like to change the name with which the others see you?
+Come vorresti farti chiamare?
+What would you like to be called?
+Tzè...!
+Tsk...!
+[Map651]
+Luca! Abbiamo il primo tester!
+Luca! We have the first tester!
+Ottimo, ottimo! Finalmente sarà il nostro momento...!
+Good, good! Finally it'll be our time...!
+Sai, noi due gemelli siamo nel campo da anni ormai. Tutte le nostre invenzioni sono sempre passate in sordina per colpa di quel dannato Aster...
+You know, we twins have been in the field for years now. All of our inventions went unnoticed because of that damned Aster...
+Ma oggi le cose cambiano!
+But today things change!
+Questa invenzione è talmente pazzesca che tutti dovranno riconoscerne l'importanza! Kishishishi!
+This invention is so incredible that everyone will have to recognize its importance! Kishishishi!
+Esatto, dahaha! Lascia che ti illustri di cosa stiamo parlando...
+Exactly, dahahaha! Let me show you what we're talking about here...
+Sono lieto di presentarti... <b>Il Corridoio Dimensionale</b>!
+I'm glad to show you... the Dimensional Corridor!
+Entrando lì dentro, entrerai in un posto totalmente diverso da questo... E potrai interagire con altri te-stesso!
+By entering there, you'll find yourself in a place totally different from this... And you'll be able to interact with other you!
+Il Luca della dimensione SWK-15 era veramente antipatico... Spero che a te vada meglio di me con gli incontri!
+The Luca from dimension SWK-15 was really unpleasant... I hope you're luckier than me with your encounters!
+Siccome questa tecnologia si basa su proiezioni olografiche, possiamo usare tecniche per camuffare la tua identità!
+Since this technology is based on holographic projections, we can use some techniques to disguise your identity!
+Dovessi servirti, parla con Luca e lui ti spiegherà tutto!
+Should you ever need it, speak with Luca and he'll explain everything!
+Ora mettiamoci all'opera! È il momento di iniziare!
+Now let's get working! It's time to start!
+Allora, vuoi entrare nel Corridoio Dimensionale?
+Now, would you like to enter the Dimensional Corridor?
+Sì
+Yes
+No
+No
+Aspetta un secondo...
+Wait a second...
+<<[>>old<<]>>Salvataggio in corso.\wtnp[8].\wtnp[8].\wtnp[8]\^
+<<[>>old<<]>>Save the game.\wtnp[8].\wtnp[8].\wtnp[8]\^
+Fatto! Adesso puoi entrare!
+Done! Now you can enter!
+Torna da me se vuoi entrare!
+Come back if you'd like to enter!
+Cosa vuoi sapere?
+What would you like to know?
+Informazioni.
+Information.
+Cambio Nome.
+Change Name.
+Ho cambiato idea.
+I've changed my mind.
+Il Corridoio Dimensionale è un'invenzione creata utilizzando le ultimissime tecnologie disponibili!
+The Dimensional Corridor is an invention made by using the most cutting-edge technologies!
+Ti permette addirittura di <b>Lottare</b> e <b>Scambiare</b> Pokémon attraverso le dimensioni.
+It even lets you to <b>Fight</b> and <b>Trade</b> Pokémons through dimensions.
+Incredibile, vero?
+Cool, huh?
+In più, grazie alle tecniche di camuffamento che abbiamo implementato, puoi apparire in modo diverso davanti agli occhi degli altri!
+Moreover, thanks to the disguise additions that we've implemented, you can now appear differently in front of others!
+Vorresti cambiare il nome con cui gli altri ti vedranno?
+Would you like to change the name with which the others see you?
+Come vorresti farti chiamare?
+What would you like to be called?
+Tzè...!
+Tsk...!
+[Map652]
+Luca! Abbiamo il primo tester!
+Luca! We have the first tester!
+Ottimo, ottimo! Finalmente sarà il nostro momento...!
+Good, good! Finally it'll be our time...!
+Sai, noi due gemelli siamo nel campo da anni ormai. Tutte le nostre invenzioni sono sempre passate in sordina per colpa di quel dannato Aster...
+You know, we twins have been in the field for years now. All of our inventions went unnoticed because of that damned Aster...
+Ma oggi le cose cambiano!
+But today things change!
+Questa invenzione è talmente pazzesca che tutti dovranno riconoscerne l'importanza! Kishishishi!
+This invention is so incredible that everyone will have to recognize its importance! Kishishishi!
+Esatto, dahaha! Lascia che ti illustri di cosa stiamo parlando...
+Exactly, dahahaha! Let me show you what we're talking about here...
+Sono lieto di presentarti... <b>Il Corridoio Dimensionale</b>!
+I'm glad to show you... the Dimensional Corridor!
+Entrando lì dentro, entrerai in un posto totalmente diverso da questo... E potrai interagire con altri te-stesso!
+By entering there, you'll find yourself in a place totally different from this... And you'll be able to interact with other you!
+Il Luca della dimensione SWK-15 era veramente antipatico... Spero che a te vada meglio di me con gli incontri!
+The Luca from dimension SWK-15 was really unpleasant... I hope you're luckier than me with your encounters!
+Siccome questa tecnologia si basa su proiezioni olografiche, possiamo usare tecniche per camuffare la tua identità!
+Since this technology is based on holographic projections, we can use some techniques to disguise your identity!
+Dovessi servirti, parla con Luca e lui ti spiegherà tutto!
+Should you ever need it, speak with Luca and he'll explain everything!
+Ora mettiamoci all'opera! È il momento di iniziare!
+Now let's get working! It's time to start!
+Allora, vuoi entrare nel Corridoio Dimensionale?
+Now, would you like to enter the Dimensional Corridor?
+Sì
+Yes
+No
+No
+Aspetta un secondo...
+Wait a second...
+<<[>>old<<]>>Salvataggio in corso.\wtnp[8].\wtnp[8].\wtnp[8]\^
+<<[>>old<<]>>Save the game.\wtnp[8].\wtnp[8].\wtnp[8]\^
+Fatto! Adesso puoi entrare!
+Done! Now you can enter!
+Torna da me se vuoi entrare!
+Come back if you'd like to enter!
+Cosa vuoi sapere?
+What would you like to know?
+Informazioni.
+Information.
+Cambio Nome.
+Change Name.
+Ho cambiato idea.
+I've changed my mind.
+Il Corridoio Dimensionale è un'invenzione creata utilizzando le ultimissime tecnologie disponibili!
+The Dimensional Corridor is an invention made by using the most cutting-edge technologies!
+Ti permette addirittura di <b>Lottare</b> e <b>Scambiare</b> Pokémon attraverso le dimensioni.
+It even lets you to <b>Fight</b> and <b>Trade</b> Pokémons through dimensions.
+Incredibile, vero?
+Cool, huh?
+In più, grazie alle tecniche di camuffamento che abbiamo implementato, puoi apparire in modo diverso davanti agli occhi degli altri!
+Moreover, thanks to the disguise additions that we've implemented, you can now appear differently in front of others!
+Vorresti cambiare il nome con cui gli altri ti vedranno?
+Would you like to change the name with which the others see you?
+Come vorresti farti chiamare?
+What would you like to be called?
+Tzè...!
+Tsk...!
+[Map653]
+Luca! Abbiamo il primo tester!
+Luca! We have the first tester!
+Ottimo, ottimo! Finalmente sarà il nostro momento...!
+Good, good! Finally it'll be our time...!
+Sai, noi due gemelli siamo nel campo da anni ormai. Tutte le nostre invenzioni sono sempre passate in sordina per colpa di quel dannato Aster...
+You know, we twins have been in the field for years now. All of our inventions went unnoticed because of that damned Aster...
+Ma oggi le cose cambiano!
+But today things change!
+Questa invenzione è talmente pazzesca che tutti dovranno riconoscerne l'importanza! Kishishishi!
+This invention is so incredible that everyone will have to recognize its importance! Kishishishi!
+Esatto, dahaha! Lascia che ti illustri di cosa stiamo parlando...
+Exactly, dahahaha! Let me show you what we're talking about here...
+Sono lieto di presentarti... <b>Il Corridoio Dimensionale</b>!
+I'm glad to show you... the Dimensional Corridor!
+Entrando lì dentro, entrerai in un posto totalmente diverso da questo... E potrai interagire con altri te-stesso!
+By entering there, you'll find yourself in a place totally different from this... And you'll be able to interact with other you!
+Il Luca della dimensione SWK-15 era veramente antipatico... Spero che a te vada meglio di me con gli incontri!
+The Luca from dimension SWK-15 was really unpleasant... I hope you're luckier than me with your encounters!
+Siccome questa tecnologia si basa su proiezioni olografiche, possiamo usare tecniche per camuffare la tua identità!
+Since this technology is based on holographic projections, we can use some techniques to disguise your identity!
+Dovessi servirti, parla con Luca e lui ti spiegherà tutto!
+Should you ever need it, speak with Luca and he'll explain everything!
+Ora mettiamoci all'opera! È il momento di iniziare!
+Now let's get working! It's time to start!
+Allora, vuoi entrare nel Corridoio Dimensionale?
+Now, would you like to enter the Dimensional Corridor?
+Sì
+Yes
+No
+No
+Aspetta un secondo...
+Wait a second...
+<<[>>old<<]>>Salvataggio in corso.\wtnp[8].\wtnp[8].\wtnp[8]\^
+<<[>>old<<]>>Save the game.\wtnp[8].\wtnp[8].\wtnp[8]\^
+Fatto! Adesso puoi entrare!
+Done! Now you can enter!
+Torna da me se vuoi entrare!
+Come back if you'd like to enter!
+Cosa vuoi sapere?
+What would you like to know?
+Informazioni.
+Information.
+Cambio Nome.
+Change Name.
+Ho cambiato idea.
+I've changed my mind.
+Il Corridoio Dimensionale è un'invenzione creata utilizzando le ultimissime tecnologie disponibili!
+The Dimensional Corridor is an invention made by using the most cutting-edge technologies!
+Ti permette addirittura di <b>Lottare</b> e <b>Scambiare</b> Pokémon attraverso le dimensioni.
+It even lets you to <b>Fight</b> and <b>Trade</b> Pokémons through dimensions.
+Incredibile, vero?
+Cool, huh?
+In più, grazie alle tecniche di camuffamento che abbiamo implementato, puoi apparire in modo diverso davanti agli occhi degli altri!
+Moreover, thanks to the disguise additions that we've implemented, you can now appear differently in front of others!
+Vorresti cambiare il nome con cui gli altri ti vedranno?
+Would you like to change the name with which the others see you?
+Come vorresti farti chiamare?
+What would you like to be called?
+Tzè...!
+Tsk...!
+[Map654]
+Luca! Abbiamo il primo tester!
+Luca! We have the first tester!
+Ottimo, ottimo! Finalmente sarà il nostro momento...!
+Good, good! Finally it'll be our time...!
+Sai, noi due gemelli siamo nel campo da anni ormai. Tutte le nostre invenzioni sono sempre passate in sordina per colpa di quel dannato Aster...
+You know, we twins have been in the field for years now. All of our inventions went unnoticed because of that damned Aster...
+Ma oggi le cose cambiano!
+But today things change!
+Questa invenzione è talmente pazzesca che tutti dovranno riconoscerne l'importanza! Kishishishi!
+This invention is so incredible that everyone will have to recognize its importance! Kishishishi!
+Esatto, dahaha! Lascia che ti illustri di cosa stiamo parlando...
+Exactly, dahahaha! Let me show you what we're talking about here...
+Sono lieto di presentarti... <b>Il Corridoio Dimensionale</b>!
+I'm glad to show you... the Dimensional Corridor!
+Entrando lì dentro, entrerai in un posto totalmente diverso da questo... E potrai interagire con altri te-stesso!
+By entering there, you'll find yourself in a place totally different from this... And you'll be able to interact with other you!
+Il Luca della dimensione SWK-15 era veramente antipatico... Spero che a te vada meglio di me con gli incontri!
+The Luca from dimension SWK-15 was really unpleasant... I hope you're luckier than me with your encounters!
+Siccome questa tecnologia si basa su proiezioni olografiche, possiamo usare tecniche per camuffare la tua identità!
+Since this technology is based on holographic projections, we can use some techniques to disguise your identity!
+Dovessi servirti, parla con Luca e lui ti spiegherà tutto!
+Should you ever need it, speak with Luca and he'll explain everything!
+Ora mettiamoci all'opera! È il momento di iniziare!
+Now let's get working! It's time to start!
+Allora, vuoi entrare nel Corridoio Dimensionale?
+Now, would you like to enter the Dimensional Corridor?
+Sì
+Yes
+No
+No
+Aspetta un secondo...
+Wait a second...
+<<[>>old<<]>>Salvataggio in corso.\wtnp[8].\wtnp[8].\wtnp[8]\^
+<<[>>old<<]>>Save the game.\wtnp[8].\wtnp[8].\wtnp[8]\^
+Fatto! Adesso puoi entrare!
+Done! Now you can enter!
+Torna da me se vuoi entrare!
+Come back if you'd like to enter!
+Cosa vuoi sapere?
+What would you like to know?
+Informazioni.
+Information.
+Cambio Nome.
+Change Name.
+Ho cambiato idea.
+I've changed my mind.
+Il Corridoio Dimensionale è un'invenzione creata utilizzando le ultimissime tecnologie disponibili!
+The Dimensional Corridor is an invention made by using the most cutting-edge technologies!
+Ti permette addirittura di <b>Lottare</b> e <b>Scambiare</b> Pokémon attraverso le dimensioni.
+It even lets you to <b>Fight</b> and <b>Trade</b> Pokémons through dimensions.
+Incredibile, vero?
+Cool, huh?
+In più, grazie alle tecniche di camuffamento che abbiamo implementato, puoi apparire in modo diverso davanti agli occhi degli altri!
+Moreover, thanks to the disguise additions that we've implemented, you can now appear differently in front of others!
+Vorresti cambiare il nome con cui gli altri ti vedranno?
+Would you like to change the name with which the others see you?
+Come vorresti farti chiamare?
+What would you like to be called?
+Tzè...!
+Tsk...!
+[Map655]
+Luca! Abbiamo il primo tester!
+Luca! We have the first tester!
+Ottimo, ottimo! Finalmente sarà il nostro momento...!
+Good, good! Finally it'll be our time...!
+Sai, noi due gemelli siamo nel campo da anni ormai. Tutte le nostre invenzioni sono sempre passate in sordina per colpa di quel dannato Aster...
+You know, we twins have been in the field for years now. All of our inventions went unnoticed because of that damned Aster...
+Ma oggi le cose cambiano!
+But today things change!
+Questa invenzione è talmente pazzesca che tutti dovranno riconoscerne l'importanza! Kishishishi!
+This invention is so incredible that everyone will have to recognize its importance! Kishishishi!
+Esatto, dahaha! Lascia che ti illustri di cosa stiamo parlando...
+Exactly, dahahaha! Let me show you what we're talking about here...
+Sono lieto di presentarti... <b>Il Corridoio Dimensionale</b>!
+I'm glad to show you... the Dimensional Corridor!
+Entrando lì dentro, entrerai in un posto totalmente diverso da questo... E potrai interagire con altri te-stesso!
+By entering there, you'll find yourself in a place totally different from this... And you'll be able to interact with other you!
+Il Luca della dimensione SWK-15 era veramente antipatico... Spero che a te vada meglio di me con gli incontri!
+The Luca from dimension SWK-15 was really unpleasant... I hope you're luckier than me with your encounters!
+Siccome questa tecnologia si basa su proiezioni olografiche, possiamo usare tecniche per camuffare la tua identità!
+Since this technology is based on holographic projections, we can use some techniques to disguise your identity!
+Dovessi servirti, parla con Luca e lui ti spiegherà tutto!
+Should you ever need it, speak with Luca and he'll explain everything!
+Ora mettiamoci all'opera! È il momento di iniziare!
+Now let's get working! It's time to start!
+Allora, vuoi entrare nel Corridoio Dimensionale?
+Now, would you like to enter the Dimensional Corridor?
+Sì
+Yes
+No
+No
+Aspetta un secondo...
+Wait a second...
+<<[>>old<<]>>Salvataggio in corso.\wtnp[8].\wtnp[8].\wtnp[8]\^
+<<[>>old<<]>>Save the game.\wtnp[8].\wtnp[8].\wtnp[8]\^
+Fatto! Adesso puoi entrare!
+Done! Now you can enter!
+Torna da me se vuoi entrare!
+Come back if you'd like to enter!
+Cosa vuoi sapere?
+What would you like to know?
+Informazioni.
+Information.
+Cambio Nome.
+Change Name.
+Ho cambiato idea.
+I've changed my mind.
+Il Corridoio Dimensionale è un'invenzione creata utilizzando le ultimissime tecnologie disponibili!
+The Dimensional Corridor is an invention made by using the most cutting-edge technologies!
+Ti permette addirittura di <b>Lottare</b> e <b>Scambiare</b> Pokémon attraverso le dimensioni.
+It even lets you to <b>Fight</b> and <b>Trade</b> Pokémons through dimensions.
+Incredibile, vero?
+Cool, huh?
+In più, grazie alle tecniche di camuffamento che abbiamo implementato, puoi apparire in modo diverso davanti agli occhi degli altri!
+Moreover, thanks to the disguise additions that we've implemented, you can now appear differently in front of others!
+Vorresti cambiare il nome con cui gli altri ti vedranno?
+Would you like to change the name with which the others see you?
+Come vorresti farti chiamare?
+What would you like to be called?
+Tzè...!
+Tsk...!
+[Map656]
+Luca! Abbiamo il primo tester!
+Luca! We have the first tester!
+Ottimo, ottimo! Finalmente sarà il nostro momento...!
+Good, good! Finally it'll be our time...!
+Sai, noi due gemelli siamo nel campo da anni ormai. Tutte le nostre invenzioni sono sempre passate in sordina per colpa di quel dannato Aster...
+You know, we twins have been in the field for years now. All of our inventions went unnoticed because of that damned Aster...
+Ma oggi le cose cambiano!
+But today things change!
+Questa invenzione è talmente pazzesca che tutti dovranno riconoscerne l'importanza! Kishishishi!
+This invention is so incredible that everyone will have to recognize its importance! Kishishishi!
+Esatto, dahaha! Lascia che ti illustri di cosa stiamo parlando...
+Exactly, dahahaha! Let me show you what we're talking about here...
+Sono lieto di presentarti... <b>Il Corridoio Dimensionale</b>!
+I'm glad to show you... the Dimensional Corridor!
+Entrando lì dentro, entrerai in un posto totalmente diverso da questo... E potrai interagire con altri te-stesso!
+By entering there, you'll find yourself in a place totally different from this... And you'll be able to interact with other you!
+Il Luca della dimensione SWK-15 era veramente antipatico... Spero che a te vada meglio di me con gli incontri!
+The Luca from dimension SWK-15 was really unpleasant... I hope you're luckier than me with your encounters!
+Siccome questa tecnologia si basa su proiezioni olografiche, possiamo usare tecniche per camuffare la tua identità!
+Since this technology is based on holographic projections, we can use some techniques to disguise your identity!
+Dovessi servirti, parla con Luca e lui ti spiegherà tutto!
+Should you ever need it, speak with Luca and he'll explain everything!
+Ora mettiamoci all'opera! È il momento di iniziare!
+Now let's get working! It's time to start!
+Allora, vuoi entrare nel Corridoio Dimensionale?
+Now, would you like to enter the Dimensional Corridor?
+Sì
+Yes
+No
+No
+Aspetta un secondo...
+Wait a second...
+<<[>>old<<]>>Salvataggio in corso.\wtnp[8].\wtnp[8].\wtnp[8]\^
+<<[>>old<<]>>Save the game.\wtnp[8].\wtnp[8].\wtnp[8]\^
+Fatto! Adesso puoi entrare!
+Done! Now you can enter!
+Torna da me se vuoi entrare!
+Come back if you'd like to enter!
+Cosa vuoi sapere?
+What would you like to know?
+Informazioni.
+Information.
+Cambio Nome.
+Change Name.
+Ho cambiato idea.
+I've changed my mind.
+Il Corridoio Dimensionale è un'invenzione creata utilizzando le ultimissime tecnologie disponibili!
+The Dimensional Corridor is an invention made by using the most cutting-edge technologies!
+Ti permette addirittura di <b>Lottare</b> e <b>Scambiare</b> Pokémon attraverso le dimensioni.
+It even lets you to <b>Fight</b> and <b>Trade</b> Pokémons through dimensions.
+Incredibile, vero?
+Cool, huh?
+In più, grazie alle tecniche di camuffamento che abbiamo implementato, puoi apparire in modo diverso davanti agli occhi degli altri!
+Moreover, thanks to the disguise additions that we've implemented, you can now appear differently in front of others!
+Vorresti cambiare il nome con cui gli altri ti vedranno?
+Would you like to change the name with which the others see you?
+Come vorresti farti chiamare?
+What would you like to be called?
+Tzè...!
+Tsk...!
+[Map657]
+Luca! Abbiamo il primo tester!
+Luca! We have the first tester!
+Ottimo, ottimo! Finalmente sarà il nostro momento...!
+Good, good! Finally it'll be our time...!
+Sai, noi due gemelli siamo nel campo da anni ormai. Tutte le nostre invenzioni sono sempre passate in sordina per colpa di quel dannato Aster...
+You know, we twins have been in the field for years now. All of our inventions went unnoticed because of that damned Aster...
+Ma oggi le cose cambiano!
+But today things change!
+Questa invenzione è talmente pazzesca che tutti dovranno riconoscerne l'importanza! Kishishishi!
+This invention is so incredible that everyone will have to recognize its importance! Kishishishi!
+Esatto, dahaha! Lascia che ti illustri di cosa stiamo parlando...
+Exactly, dahahaha! Let me show you what we're talking about here...
+Sono lieto di presentarti... <b>Il Corridoio Dimensionale</b>!
+I'm glad to show you... the Dimensional Corridor!
+Entrando lì dentro, entrerai in un posto totalmente diverso da questo... E potrai interagire con altri te-stesso!
+By entering there, you'll find yourself in a place totally different from this... And you'll be able to interact with other you!
+Il Luca della dimensione SWK-15 era veramente antipatico... Spero che a te vada meglio di me con gli incontri!
+The Luca from dimension SWK-15 was really unpleasant... I hope you're luckier than me with your encounters!
+Siccome questa tecnologia si basa su proiezioni olografiche, possiamo usare tecniche per camuffare la tua identità!
+Since this technology is based on holographic projections, we can use some techniques to disguise your identity!
+Dovessi servirti, parla con Luca e lui ti spiegherà tutto!
+Should you ever need it, speak with Luca and he'll explain everything!
+Ora mettiamoci all'opera! È il momento di iniziare!
+Now let's get working! It's time to start!
+Allora, vuoi entrare nel Corridoio Dimensionale?
+Now, would you like to enter the Dimensional Corridor?
+Sì
+Yes
+No
+No
+Aspetta un secondo...
+Wait a second...
+<<[>>old<<]>>Salvataggio in corso.\wtnp[8].\wtnp[8].\wtnp[8]\^
+<<[>>old<<]>>Save the game.\wtnp[8].\wtnp[8].\wtnp[8]\^
+Fatto! Adesso puoi entrare!
+Done! Now you can enter!
+Torna da me se vuoi entrare!
+Come back if you'd like to enter!
+Cosa vuoi sapere?
+What would you like to know?
+Informazioni.
+Information.
+Cambio Nome.
+Change Name.
+Ho cambiato idea.
+I've changed my mind.
+Il Corridoio Dimensionale è un'invenzione creata utilizzando le ultimissime tecnologie disponibili!
+The Dimensional Corridor is an invention made by using the most cutting-edge technologies!
+Ti permette addirittura di <b>Lottare</b> e <b>Scambiare</b> Pokémon attraverso le dimensioni.
+It even lets you to <b>Fight</b> and <b>Trade</b> Pokémons through dimensions.
+Incredibile, vero?
+Cool, huh?
+In più, grazie alle tecniche di camuffamento che abbiamo implementato, puoi apparire in modo diverso davanti agli occhi degli altri!
+Moreover, thanks to the disguise additions that we've implemented, you can now appear differently in front of others!
+Vorresti cambiare il nome con cui gli altri ti vedranno?
+Would you like to change the name with which the others see you?
+Come vorresti farti chiamare?
+What would you like to be called?
+Tzè...!
+Tsk...!
+[Map658]
+Luca! Abbiamo il primo tester!
+Luca! We have the first tester!
+Ottimo, ottimo! Finalmente sarà il nostro momento...!
+Good, good! Finally it'll be our time...!
+Sai, noi due gemelli siamo nel campo da anni ormai. Tutte le nostre invenzioni sono sempre passate in sordina per colpa di quel dannato Aster...
+You know, we twins have been in the field for years now. All of our inventions went unnoticed because of that damned Aster...
+Ma oggi le cose cambiano!
+But today things change!
+Questa invenzione è talmente pazzesca che tutti dovranno riconoscerne l'importanza! Kishishishi!
+This invention is so incredible that everyone will have to recognize its importance! Kishishishi!
+Esatto, dahaha! Lascia che ti illustri di cosa stiamo parlando...
+Exactly, dahahaha! Let me show you what we're talking about here...
+Sono lieto di presentarti... <b>Il Corridoio Dimensionale</b>!
+I'm glad to show you... the Dimensional Corridor!
+Entrando lì dentro, entrerai in un posto totalmente diverso da questo... E potrai interagire con altri te-stesso!
+By entering there, you'll find yourself in a place totally different from this... And you'll be able to interact with other you!
+Il Luca della dimensione SWK-15 era veramente antipatico... Spero che a te vada meglio di me con gli incontri!
+The Luca from dimension SWK-15 was really unpleasant... I hope you're luckier than me with your encounters!
+Siccome questa tecnologia si basa su proiezioni olografiche, possiamo usare tecniche per camuffare la tua identità!
+Since this technology is based on holographic projections, we can use some techniques to disguise your identity!
+Dovessi servirti, parla con Luca e lui ti spiegherà tutto!
+Should you ever need it, speak with Luca and he'll explain everything!
+Ora mettiamoci all'opera! È il momento di iniziare!
+Now let's get working! It's time to start!
+Allora, vuoi entrare nel Corridoio Dimensionale?
+Now, would you like to enter the Dimensional Corridor?
+Sì
+Yes
+No
+No
+Aspetta un secondo...
+Wait a second...
+<<[>>old<<]>>Salvataggio in corso.\wtnp[8].\wtnp[8].\wtnp[8]\^
+<<[>>old<<]>>Save the game.\wtnp[8].\wtnp[8].\wtnp[8]\^
+Fatto! Adesso puoi entrare!
+Done! Now you can enter!
+Torna da me se vuoi entrare!
+Come back if you'd like to enter!
+Cosa vuoi sapere?
+What would you like to know?
+Informazioni.
+Information.
+Cambio Nome.
+Change Name.
+Ho cambiato idea.
+I've changed my mind.
+Il Corridoio Dimensionale è un'invenzione creata utilizzando le ultimissime tecnologie disponibili!
+The Dimensional Corridor is an invention made by using the most cutting-edge technologies!
+Ti permette addirittura di <b>Lottare</b> e <b>Scambiare</b> Pokémon attraverso le dimensioni.
+It even lets you to <b>Fight</b> and <b>Trade</b> Pokémons through dimensions.
+Incredibile, vero?
+Cool, huh?
+In più, grazie alle tecniche di camuffamento che abbiamo implementato, puoi apparire in modo diverso davanti agli occhi degli altri!
+Moreover, thanks to the disguise additions that we've implemented, you can now appear differently in front of others!
+Vorresti cambiare il nome con cui gli altri ti vedranno?
+Would you like to change the name with which the others see you?
+Come vorresti farti chiamare?
+What would you like to be called?
+Tzè...!
+Tsk...!
+[Map659]
+Luca! Abbiamo il primo tester!
+Luca! We have the first tester!
+Ottimo, ottimo! Finalmente sarà il nostro momento...!
+Good, good! Finally it'll be our time...!
+Sai, noi due gemelli siamo nel campo da anni ormai. Tutte le nostre invenzioni sono sempre passate in sordina per colpa di quel dannato Aster...
+You know, we twins have been in the field for years now. All of our inventions went unnoticed because of that damned Aster...
+Ma oggi le cose cambiano!
+But today things change!
+Questa invenzione è talmente pazzesca che tutti dovranno riconoscerne l'importanza! Kishishishi!
+This invention is so incredible that everyone will have to recognize its importance! Kishishishi!
+Esatto, dahaha! Lascia che ti illustri di cosa stiamo parlando...
+Exactly, dahahaha! Let me show you what we're talking about here...
+Sono lieto di presentarti... <b>Il Corridoio Dimensionale</b>!
+I'm glad to show you... the Dimensional Corridor!
+Entrando lì dentro, entrerai in un posto totalmente diverso da questo... E potrai interagire con altri te-stesso!
+By entering there, you'll find yourself in a place totally different from this... And you'll be able to interact with other you!
+Il Luca della dimensione SWK-15 era veramente antipatico... Spero che a te vada meglio di me con gli incontri!
+The Luca from dimension SWK-15 was really unpleasant... I hope you're luckier than me with your encounters!
+Siccome questa tecnologia si basa su proiezioni olografiche, possiamo usare tecniche per camuffare la tua identità!
+Since this technology is based on holographic projections, we can use some techniques to disguise your identity!
+Dovessi servirti, parla con Luca e lui ti spiegherà tutto!
+Should you ever need it, speak with Luca and he'll explain everything!
+Ora mettiamoci all'opera! È il momento di iniziare!
+Now let's get working! It's time to start!
+Allora, vuoi entrare nel Corridoio Dimensionale?
+Now, would you like to enter the Dimensional Corridor?
+Sì
+Yes
+No
+No
+Aspetta un secondo...
+Wait a second...
+<<[>>old<<]>>Salvataggio in corso.\wtnp[8].\wtnp[8].\wtnp[8]\^
+<<[>>old<<]>>Save the game.\wtnp[8].\wtnp[8].\wtnp[8]\^
+Fatto! Adesso puoi entrare!
+Done! Now you can enter!
+Torna da me se vuoi entrare!
+Come back if you'd like to enter!
+Cosa vuoi sapere?
+What would you like to know?
+Informazioni.
+Information.
+Cambio Nome.
+Change Name.
+Ho cambiato idea.
+I've changed my mind.
+Il Corridoio Dimensionale è un'invenzione creata utilizzando le ultimissime tecnologie disponibili!
+The Dimensional Corridor is an invention made by using the most cutting-edge technologies!
+Ti permette addirittura di <b>Lottare</b> e <b>Scambiare</b> Pokémon attraverso le dimensioni.
+It even lets you to <b>Fight</b> and <b>Trade</b> Pokémons through dimensions.
+Incredibile, vero?
+Cool, huh?
+In più, grazie alle tecniche di camuffamento che abbiamo implementato, puoi apparire in modo diverso davanti agli occhi degli altri!
+Moreover, thanks to the disguise additions that we've implemented, you can now appear differently in front of others!
+Vorresti cambiare il nome con cui gli altri ti vedranno?
+Would you like to change the name with which the others see you?
+Come vorresti farti chiamare?
+What would you like to be called?
+Tzè...!
+Tsk...!
 [Map660]
 Tu
 You
