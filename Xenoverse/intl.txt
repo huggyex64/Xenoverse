@@ -43265,8 +43265,8 @@ The user attacks by controlling the target's item. The move fails if the target 
 Chi la usa crea un campo di Biancospini ai propri piedi, rigenerando la propria salute e quella degli alleati ad ogni turno.
 The user creates a field of Hawthorns below its feet, regenerating its own health and that of its allies for each turn.
 740
-Chi la usa incenerisce il terreno sotto ai piedi degli avversari, velocizzando e riducendo la precisione dei nemici che scendono in campo.
-The user incenerates the ground below its opponents, speeding and lowering the accuracy of the foes that enter the field.
+Chi la usa incenerisce il terreno sotto ai piedi degli avversari, riducendo l'attacco dei nemici che scendono in campo.
+The user incenerates the ground below its opponents, lowering the attack of the foes that enter the field.
 741
 Chi la usa crea un'aura rinvigorente che potenzia per massimo 6 turni le cure degli alleati.
 The user generates an invigorating aura which boosts your allies' heals for a maximum of 6 turns.

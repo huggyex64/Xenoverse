@@ -715,7 +715,7 @@
 737,VELVETSCALES,Squame Velliche,302,0,DRAGON,Status,0,20,0,80,0,c,"Chi la usa piazza una trappola con le sue squame che indebolisce i nemici scesi in campo."
 738,POLTERGEIST,Poltergeist,320,110,GHOST,Physical,90,5,0,00,1,bef,"Chi la usa attacca usando lo strumento dell'avversario, ma fallisce se non ne ha."
 739,HAWTHORNS,Biancospini,303,0,GRASS,Status,0,15,0,40,0,e,"Chi la usa crea un campo di Biancospini ai propri piedi, rigenerando la propria salute e quella degli alleati ad ogni turno."
-740,SCORCHEDASHES,Ceneri Arse,304,0,FIRE,Status,0,20,0,80,0,c,"Chi la usa incenerisce il terreno sotto ai piedi degli avversari, velocizzando e riducendo la precisione dei nemici che scendono in campo."
+740,SCORCHEDASHES,Ceneri Arse,304,0,FIRE,Status,0,20,0,80,0,c,"Chi la usa incenerisce il terreno sotto ai piedi degli avversari, riducendo l'attacco dei nemici che scendono in campo."
 741,BENEVOLENCE,Benevolenza,305,0,FAIRY,Status,0,15,0,40,0,e,"Chi la usa crea un'aura rinvigorente che potenzia per massimo 6 turni le cure degli alleati."
 742,CHEERING,Tifo,306,0,SUONO,Status,0,10,0,5,4,e,"L'utilizzatore inizia a fare il tifo per il proprio alleato, permettendo alla sua mossa di avere alta priorità."
 743,MAGICWALL,Magiscudo,307,0,FAIRY,Status,0,15,0,20,0,,"Chi la usa crea un muro che indebolisce per cinque turni le mosse di tipo Drago, Lotta, Buio e Coleottero."
