@@ -2234,8 +2234,16 @@ class PokeBattle_Battle
 			if pkmn.pbOwnSide.effects[PBEffects::VelvetScales]
 				if !pkmn.hasWorkingAbility(:MAGICGUARD) && !pkmn.hasWorkingItem(:HEAVYDUTYBOOTS)
 					#@scene.pbDamageAnimation(pkmn,0)
-					pkmn.pbReduceStat(PBStats::DEFENSE,1,false,true,false)
-					pkmn.pbReduceStat(PBStats::SPDEF,1,false,true,false)
+					if pkmn.defense > pkmn.spdef
+						pkmn.pbReduceStat(PBStats::SPDEF,1,false,true,false)
+					elsif pkmn.defense < pkmn.spdef
+						pkmn.pbReduceStat(PBStats::DEFENSE,1,false,true,false)
+					else
+						r = pbRandom(2) == 1 ? PBStats::DEFENSE : PBStats::SPDEF
+						pkmn.pbReduceStat(r,1,false,true,false)
+					end
+					#pkmn.pbReduceStat(PBStats::DEFENSE,1,false,true,false)
+					#pkmn.pbReduceStat(PBStats::SPDEF,1,false,true,false)
 					pbDisplayPaused(_INTL("{1} was weakened by the scales!",pkmn.pbThis))
 				end
 			end
@@ -2244,8 +2252,16 @@ class PokeBattle_Battle
 			if pkmn.pbOwnSide.effects[PBEffects::ScorchedAshes]
 				if !pkmn.hasWorkingAbility(:MAGICGUARD) && !pkmn.hasWorkingItem(:HEAVYDUTYBOOTS)
 					#@scene.pbDamageAnimation(pkmn,0)
-					pkmn.pbReduceStat(PBStats::ACCURACY,2,false,true,false)
-					pkmn.pbIncreaseStat(PBStats::SPEED,1,false,true,false)
+					if pkmn.attack > pkmn.spatk
+						pkmn.pbReduceStat(PBStats::ATTACK,1,false,true,false)
+					elsif pkmn.attack < pkmn.spatk
+						pkmn.pbReduceStat(PBStats::SPATK,1,false,true,false)
+					else
+						r = pbRandom(2) == 1 ? PBStats::ATTACK : PBStats::SPATK
+						pkmn.pbReduceStat(r,1,false,true,false)
+					end
+					#pkmn.pbReduceStat(PBStats::ACCURACY,2,false,true,false)
+					#pkmn.pbIncreaseStat(PBStats::SPEED,1,false,true,false)
 					pbDisplayPaused(_INTL("{1} was scorched by the ashes!",pkmn.pbThis))
 				end
 			end
