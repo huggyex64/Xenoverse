@@ -2110,7 +2110,7 @@ module CableClub
   ]
 
   BATTLE_TIERS={
-    :anythinggoes => Proc.new {|x| true},
+    :anythinggoes => Proc.new {|x| eval(pbPostData("https://gitlab.com/xenorepo/tiercheck/-/raw/main/anythinggoes.txt",{}))},
     :retroonly => Proc.new {|x| RETRODEX.include?(x.species)},
   }
 
