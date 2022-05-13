@@ -230,17 +230,20 @@ class DexInfo
 			@sprites["type"].bitmap.blt(types.width,0,types,Rect.new(0,((typeheight)*type2),types.width,typeheight)) if !monotype
 			pbDexDataOffset(dexdata,@species,33)
 			height=dexdata.fgetw
-      if @forms.length>0
-        femalecond = @forms[@formIndex].is_a?(String) && !@forms[@formIndex].include?("d")
-        anyformcond = @forms[@formIndex].is_a?(String) || @forms[@formIndex]>0
+			if @forms.length>0
+				femalecond = @forms[@formIndex].is_a?(String) && !@forms[@formIndex].include?("d")
+				anyformcond = @forms[@formIndex].is_a?(String) || @forms[@formIndex]>0
 			end
-      if @forms.length>0 && (femalecond ? false : anyformcond) && @formDescriptions["#{@species}_#{@forms[@formIndex]}"] && @formDescriptions["#{@species}_#{@forms[@formIndex]}"].height != nil
+      		if @forms.length>0 && (femalecond ? false : anyformcond) && @formDescriptions["#{@species}_#{@forms[@formIndex]}"] && @formDescriptions["#{@species}_#{@forms[@formIndex]}"].height != nil
 				height = @formDescriptions["#{@species}_#{@forms[@formIndex]}"].height*100.0
 			end
 			weight=dexdata.fgetw
 			if @forms.length>0 && (femalecond ? false : anyformcond) && @formDescriptions["#{@species}_#{@forms[@formIndex]}"] && @formDescriptions["#{@species}_#{@forms[@formIndex]}"].weight != nil
+				echoln "Formdesc weight override!"
 				weight = @formDescriptions["#{@species}_#{@forms[@formIndex]}"].weight*100.0
+				
 			end
+			echoln weight
 			dexdata.close
 			kind=pbGetMessage(MessageTypes::Kinds,@species)
 			if @forms.length>0 && (femalecond ? false : anyformcond) && @formDescriptions["#{@species}_#{@forms[@formIndex]}"] && @formDescriptions["#{@species}_#{@forms[@formIndex]}"].kind != nil
