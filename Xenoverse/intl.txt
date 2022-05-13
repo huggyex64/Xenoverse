@@ -1451,6 +1451,40 @@ Heal Pokémon
 Usa Box
 Use Box
 [Map28]
+Alice
+Alice
+Kay
+Kay
+Buongiorno, Tesoro!
+Good morning, Dear!
+Kay è venuto a trovarti, ma dormivi come un sasso!
+Kay came to see you, but you were sleeping so soundly!
+Alice è venuta a trovarti, ma dormivi come un sasso!
+Alice came to see you, but you were sleeping so soundly!
+Ciao, \PN! Come va?
+Hello, \PN! How are you? 
+Come, non ricordi?
+What, you don't remember?
+Sei riuscito a scacciare l'invasore dal Monte Zodiaco e hai salvato tutti!
+You managed to send away the invader from Mt. Zodiac and saved everyone!
+Sei riuscita a scacciare l'invasore dal Monte Zodiaco e hai salvato tutti!
+You managed to send away the invader from Mt. Zodiac and saved everyone!
+Sono così fiera di te, \PN! Anche tuo padre ha detto la stessa cosa.
+I'm so proud of you, \PN! Even your father said the same thing.
+Purtroppo al momento non è a casa... ma sono certa che vi rivedrete presto!
+Sadly he's not at home right now... but I'm sure you'll see each other soon enough!
+Edera mi ha detto che Tamara si è svegliata, non sei contenta?
+Clover told me that Dahlia woke up, aren't you happy?
+Edera mi ha detto che Tamara si è svegliata, non sei contento?
+Clover told me that Dahlia woke up, aren't you happy?
+Forse quei tre ora potranno essere una famiglia!
+Maybe those three can finally be a family!
+E' stata dura, ma alla fine tutto si è concluso per il meglio!
+It was hard, but in the end, everything ended for the best!
+Come faceva quel motto...
+How did that motto go...
+<<[>>old<<]>>Hai concluso il Pass numero 4 delle Battaglie Furiose. Congratulazioni!
+<<[>>old<<]>>You completed the Pass number 4 of Furious Battles. Congratulations!
 Bellocchio
 Looker
 Oh, sei sveglio|a \PN?
@@ -2516,6 +2550,24 @@ No
 Sì
 Yes
 [Map39]
+\PN, che bello vederti!
+\PN, it's good to see you!
+Hai veramente fatto un ottimo lavoro al Monte Zodiaco!
+You really did a good job at Mt. Zodiac!
+Pare proprio che la regione sia di nuovo in debito con te, eh?
+It looks like the region is indebted with you again, eh?
+Sai, svolgendo delle indagini sul luogo dell'incidente abbiamo trovato questo specchio...
+You know, by carrying out some investigations where the incident occurred we found this mirror...
+Forse in qualche modo è legato all'invasore?
+Maybe it's somehow connected to the invader?
+Vorrei che fossi tu ad indagare sul caso, \PN.
+I'd like you on the case, \PN.
+Magari riuscirai a scoprire qualcosa!
+Maybe you'll be able to learn something!
+Facendo delle analisi su quello specchio pare che emani una strana energia... Che abbia effetto su qualche Pokémon?
+By analyzing that mirror, it looks like it's emanating a strange energy... Maybe it'll have effect on some Pokémon?
+In ogni caso, aggiornami se scopri qualcosa!
+In any case, let me know if you find something!
 \PN raggiungi <b>Ofiuchia</b>. Con il potere della Megaevoluzione sarai sicuramente più pronto per affrontare i Pokémon Furia. In bocca a lupo.
 \PN, you should go to <b>Dorado Village</b> now.<<n>>With the power of Mega Evolution aiding you, you're ready to face the Fury Pokémons. Good luck.
 Con il potere della Megaevoluzione sarai sicuramente più pronto per affrontare i Pokémon Furia. In bocca a lupo.
@@ -19058,6 +19110,14 @@ Elder
 Se sei riuscito|a ad arrivare sin qui con le tue sole forze, significa che sei un Allenatore di tutto rispetto. Ora solo un cammino ti attende: la <b>Via Vittoria</b>, il sentiero che porta alle stelle più alte nel cielo!
 If you managed to get here on your own, this means<<n>>that you're a respectable Trainer.<<n>>Now, one last walk is waiting for you--<<n>>the <b>Victory Road</b>...<<n>>...the path that leads to the highest stars in the sky!
 [Map388]
+<<[>>old<<]>>C'è una cavità nel muro... che possa ospitare qualcosa?
+<<[>>old<<]>>There's a cavity in the wall... maybe it can hold something?
+<<[>>old<<]>>Sembra che la forma del Verispecchio corrisponda all'incavo sul muro. Vuoi provare ad inserirlo?
+<<[>>old<<]>>It looks like the Reveal Glass' shape fits the hole in the wall. Would you like to try to stick it in?
+<<[>>old<<]>>Il mondo muta al suo vero aspetto...!
+<<[>>old<<]>>The world transforms to its real appearance...!
+<<[>>old<<]>>Vuoi rimuovere il Verispecchio?
+<<[>>old<<]>>Would you like to remove the Reveal Glass?
 \PN dovremmo andare al <b>Regno di Virgopoli</b> per scoprire di più sulla leggenda di cui ci ha parlato Tarassaco!
 \PN, we should head to <b>Milkiway City</b> to learn more about the legend Taraxo told us!
 \PN, ho la situazione sotto controllo. Dovresti andare a controllare il luogo dello scontro!
@@ -19183,6 +19243,18 @@ No
 <<[>>old<<]>>Non puoi tornare indietro.
 <<[>>old<<]>>You cannot go back.
 [Map391]
+Grazie alla tua forza di volontà, sei riuscito|a più volte a salvare la regione.
+Thanks to your willpower, you managed to save the region over and over.
+Lo stesso Ruta mi ha detto di come hai salvato Ofiuchia dal tempestoso Raikou.
+Even Ruta told me how you saved Dorado Village from the tempestuous Raikou.
+Non posso far altro che offrirti i miei più sentiti ringraziamenti...
+I can only offer you my most heartfelt thanks...
+Prescelto! Dimostrami ancora una volta di che pasta sei fatto!
+Chosen one! Show me once more what you're made of!
+La sconfitta deve essere di insegnamento. \PN! Sono certo che tornerai più forte di prima!
+Defeat must be a learning experience. \PN! I'm sure you'll be back stronger than before!
+Gli altri Cardinali ti attendono più in alto. Dimostra anche a loro la forza del tuo animo!
+The other Cardinals are waiting for you further up. Show them the strength of your soul!
 Chua
 Chua
 Per anni ho custodito il Tempio Shyleon nella speranza di fare ritorno in questa terra santa, un giorno...
@@ -19223,6 +19295,20 @@ Welcome, chosen one.
 <<[>>old<<]>>Non puoi tornare indietro.
 <<[>>old<<]>>You cannot go back.
 [Map393]
+Hai mantenuto i nervi saldi, riuscendo a risolvere la crisi con rapidità e fermezza!
+You kept your wits, managing to settle the crisis before us with haste and firmness!
+Anche a Tauronordia hai saputo dimostrare il tuo valore, domando l'algido Suicune.
+Even in Borealis Town you proved your value, taming the cold Suicune.
+Hai la riconoscenza di tutti i Cardinali!
+You have the gratitude of all the Cardinals!
+Adesso, però, devi mostrarci nuovamente di avere le carte in regola per raggiungere la vetta!
+Now, though, you have to show us your abilities yet again to reach the top!
+Saper riconoscere i propri errori con freddezza è il primo passo per diventare più forti!
+Being able to recognize one's own shortcomings with coolness is the first step in becoming stronger!
+Torna quando avrai capito dove hai sbagliato, saremo qui per accoglierti!
+Come back when you'll have understood where you went wrong, we'll be here to welcome you!
+Non ti smentisci mai! Gli altri Cardinali resteranno estasiati!
+You're always the same! The other Cardinals will be overjoyed!
 Castalia
 Niva
 Sei arrivato|a alla fine!
@@ -19269,6 +19355,18 @@ Se non l'hai ancora fatto, ti ricordo il mio invito a Tauronordia dopo questa tu
 <<[>>old<<]>>Non puoi tornare indietro.
 <<[>>old<<]>>You cannot go back.
 [Map395]
+Prescelto, le tue gesta sul Monte Zodiaco rimarranno per sempre negli annali della storia.
+Chosen one, your deeds on Mt. Zodiac will stay forever in the annals of history.
+Come anche Henné mi ha raccontato, la tua abilità nel domare il focoso Entei è stata senza pari.
+Just as Henna told me, even your ability in taming the fiery Entei was without equal.
+Hai la riconoscenza di tutta Eldiw.
+You have the gratitude of all Eldiw.
+Adesso, mostrami un'ultima volta la forza di un Astro nascente!
+Now, show me one last time the power of a rising Star!
+Non devi farti fermare dalle delusioni! La sconfitta è l'illusione della disperazione!
+You mustn't fall into frustration! Defeat is the illusion of despair!
+Un’ultima battaglia ti attende sulla vetta... ma sono certo supererai anche questa sfida!
+One last battle awaits you at the summit... but I'm sure you'll overcome this challenge too!
 Oleandro
 Abraham
 Attendevo il tuo arrivo, o prescelto.
@@ -19315,6 +19413,16 @@ Il Campione ti sta aspettando sulla vetta del Monte Zodiaco. La battaglia finale
 <<[>>old<<]>>Non puoi tornare indietro.
 <<[>>old<<]>>You cannot go back.
 [Map397]
+Come un vento di primavera, sei arrivato|a e hai scacciato la calamità, riportando la calma sul Monte Zodiaco.
+Just like a spring wind, you came and drove away the calamity, bringing back peace on Mt. Zodiac.
+Nei tuoi confronti non posso provare altro che rispetto.
+I can only feel respect for you.
+Prima di raggiungere la vetta, combatti di nuovo con me per dimostrare la tua superiorità!
+Before reaching the top, fight again with me and show me your strength!
+Cadere alla prima folata di vento è l'errore più grande che si possa fare. Devi riuscire a stabilizzarti per tornare più in alto di prima!
+Falling to the first gust of wind is the worst error you could make. You must steady yourself to go back even higher than before!
+Incredibile come sempre! Sono certo che volerai fino alla cima, credo in te!
+Amazing as always! I'm sure you'll soar to the top, I believe in you!
 Peyote
 Peyote
 Eccovi, prescelto.
@@ -19357,6 +19465,36 @@ You
 <<[>>old<<]>>Non puoi tornare indietro.
 <<[>>old<<]>>You cannot go back.
 [Map399]
+Alice
+Alice
+Kay
+Kay
+Il cielo è bellissimo, non è vero?
+The sky is beautiful, is it not?
+Lo adoro perchè rappresenta al meglio il potenziale di noi esseri umani!
+I love it because it represents the endless potential of us humans best!
+Tu stesso lo hai dimostrato durante la nostra battaglia contro Vakuum!
+You yourself proved it during our battle against Vakuum!
+La capacità di rialzarsi, di non mollare mai e di puntare sempre alle stelle!
+The power to stand back up, to never let go and to always aim at the stars!
+Allo stesso modo, \PN, voglio chiederti di lottare ancora con me.
+In the same way, \PN, I'd like you to battle with me again.
+Ho fatto tanti incontri quante stelle nel cielo, e ora voglio mostrarti quanto questi mi hanno reso forte!
+I made as many meetings as many stars are in the sky, and I now want to prove to you how strong these have made me!
+Preparati!
+Get ready!
+Mi dispiace \PN. Ma per risfidarmi, dovrai ritornare all'entrata del Monte Zodiaco... Non demordere!
+I'm sorry, \PN. If you want to challenge me again, you'll have to climb your way up again... Don't give up!
+Come sempre, sei incredibile.
+As always, you're incredible.
+Ogni volta sei riuscito|a a risolvere la situazione, per quanto critica o disperata essa possa essere!
+You managed to save us every time, however critical or desperate the situation was!
+\PN, ogni incontro che hai fatto ti ha migliorato sempre di più. Ed è grazie a questo se ora sei la più forte di tutti.
+\PN, every meeting you've made has improved you further and further. And it's thanks to this if now you're the strongest of all.
+\PN, ogni incontro che hai fatto ti ha migliorato sempre di più. Ed è grazie a questo se ora sei il più forte di tutti.
+\PN, every meeting you've made has improved you further and further. And it's thanks to this if now you're the strongest of all.
+Ora puoi brillare tanto quanto le altre stelle nel cielo.
+Now, you can shine just as the stars in the sky.
 <<[>>old<<]>>Non puoi tornare indietro.
 <<[>>old<<]>>You cannot go back.
 L'universo... qualcosa di così immenso da non poter essere colto nella sua totalità.
@@ -25081,6 +25219,14 @@ Now that I'm here, I'll do the exact opposite of what you want to do!
 <<[>>old<<]>>E' successo qualcosa. Meglio controllare in giro...
 <<[>>old<<]>>Something happened! It's best to look around...
 [Map628]
+<<[>>old<<]>>Il Verispecchio riflette l'immagine di...
+<<[>>old<<]>>The image reflected by the Reveal Glass is...
+Un'essere imprigionato.
+A fettered being.
+Un'essere libero.
+A free being.
+Non è chiaro...
+It's not clear...
 <<[>>old<<]>>Non è il momento di tornare indietro...!
 <<[>>old<<]>>It's not time to go back...!
 <<[>>old<<]>><b>ATTENZIONE!</b>
@@ -25177,6 +25323,14 @@ Quick, reach the other Cardinals! I'll try to continue the Ritual!
 <<[>>old<<]>>La forza distruttiva di Aegislash X rompe tutti gli specchi maligni.
 <<[>>old<<]>>The destructive power of Aegislash X breaks all the evil mirrors.
 [Map630]
+<<[>>old<<]>>Il Verispecchio riflette l'immagine di...
+<<[>>old<<]>>The image reflected by the Reveal Glass is...
+Un'essere imprigionato.
+A fettered being.
+Un'essere libero.
+A free being.
+Non è chiaro...
+It's not clear...
 <<[>>old<<]>>Non è il momento di tornare indietro...!
 <<[>>old<<]>>It's not time to go back...!
 <<[>>old<<]>><b>ATTENZIONE!</b>
@@ -25283,6 +25437,14 @@ For now I think that Niva will be safe here, but we must make haste!
 <<[>>old<<]>>La realtà si proietta in un mondo di diffida. Come una clessidra, il chiaroscuro è la tua guida.
 <<[>>old<<]>>Reality projects in a world of deception. Just like an hourglass, The light and shade is your guide. 
 [Map632]
+<<[>>old<<]>>Il Verispecchio riflette l'immagine di...
+<<[>>old<<]>>The image reflected by the Reveal Glass is...
+Un'essere imprigionato.
+A fettered being.
+Un'essere libero.
+A free being.
+Non è chiaro...
+It's not clear...
 <<[>>old<<]>>Non è il momento di tornare indietro...!
 <<[>>old<<]>>It's not time to go back...!
 <<[>>old<<]>><b>ATTENZIONE!</b>
@@ -25546,6 +25708,14 @@ Yes
 No
 No
 [Map637]
+<<[>>old<<]>>Il Verispecchio riflette l'immagine di...
+<<[>>old<<]>>The image reflected by the Reveal Glass is...
+Un'essere imprigionato.
+A fettered being.
+Un'essere libero.
+A free being.
+Non è chiaro...
+It's not clear...
 <<[>>old<<]>><b>ATTENZIONE!</b>
 <<[>>old<<]>><b>CAREFUL!</b>
 <<[>>old<<]>>Proseguendo da questa direzione, la battaglia non sarà particolarmente difficile. Vuoi proseguire? Non sarà possibile tornare indietro.
@@ -25705,6 +25875,158 @@ Il Caos è sempre esistito e sempre esisterà, che tu voglia o no.
 Chaos has always existed and it always will, whether you like it or not.
 E quindi, <i>Chaos Omnia Impera</i>.
 And thus, <i>Chaos Omnia Impera</i>.
+[Map645]
+Sei arrivato|a, ti stavo aspettando.
+You came. I was waiting for you.
+Vieni, unisciti a me qui allo <b>Zenit</b>.
+Come, join me here at the <b>Zenith</b>.
+Tu
+You
+Eccoti, è passato molto tempo.
+Here you are, it's been a long time.
+Non mi riconosci?
+Do you not recognize me?
+In effetti, al nostro ultimo incontro avevo le sembianze di una donna...
+As a matter of fact, when we met last time I looked like a woman...
+Lascia che mi presenti, allora.
+Let me introduce myself, then.
+Sono un'entità che alimentava, ormai eoni fa, un circolo planetario a qualche anno luce dalla terra.
+I'm an entity that powered and nourished, now aeons ago, a planetary circle at some light year from Earth.
+Se dovessi utilizzare il nome che voi uomini mi avete dato...
+If I were to use the name that you humans gave me...
+...Mi chiamerei <b>Vakuum</b>.
+...I'd be called <b>Vakuum</b>.
+Credo che il nostro primo incontro faccia a faccia fu...
+I believe our first meeting face to face was...
+Ah sì, in quello che voi chiamate ''Xenoverse''.
+Ah yes, that one time in the place you call ''Xenoverse''.
+Ricordo di non avervi fatto una bella impressione allora, dopotutto mi avete attaccato senza esitare.
+I remember you did not quite like me then, you attacked me without hesitation after all.
+È per questo che ho deciso di assumere questa forma, per evitare ciò che accadde allora.
+It's because of that that I decided to take this form, to avoid what happened last time.
+Non preoccuparti, non porto rancore.
+Don't worry, I don't bear a grudge.
+Dopotutto, voi umani avete un innato senso di avversione per ciò che è diverso, è nella vostra natura.
+After all, you humans have an innate sense of aversion for what's different, it's in your nature.
+Cosa ne pensi di questo involucro? Soddisfa i tuoi gusti?
+What do you think of this body? Does it meet your tastes?
+Il precedente involucro non era adatto a contenere la mia essenza... e purtroppo si è rotto.
+The previous shell I used was not suited to sustain my essence... and sadly it broke.
+Questa volta, ne ho fabbricato uno da zero...
+This time, I made one anew...
+Utilizzando le informazioni che ho appreso su quel particolare minerale composto di quell'energia caotica, che voi chiamate ''Furia'', cristallizzata.
+Utilizing the information that I learned on that particular mineral made of chaotic energy, that you call ''Fury'', crystalized.
+Ho fatto in modo che tu venissi qui, in questo posto, oggi.
+I made it so you would come here, in this place, today.
+Sai dove ci troviamo? Questo è un luogo che non esiste, o meglio per dire, esiste al di fuori della realtà.
+Do you know where we are? This is a place that doesn't exist, or to better say it, exists outside of reality.
+E' un luogo carico di energia, di qualsiasi tipo essa sia...
+It's a place filled to the brim with energy of any kind...
+Voi umani, che non siete in grado di entrare in questo luogo autonomamente lo chiamate...
+You humans, that are not able to enter this place by yourself, call it...
+<b>Orizzonte degli Eventi</b>.
+<b>Event Horizon</b>.
+Questo posto, per voi inaccessibile, è per me semplicemente un posto distante...
+This place, inaccessible for you, is for me simply a distant place...
+... ma comunque facilmente accessibile.
+... but still easily reachable.
+Questo luogo, così carico di energia, permette a chi vi è all'interno di influenzare la realtà a suo piacimento.
+This place, so filled with energy, lets whoever is inside it control reality to its will.
+L'unico requisito, è che solo un essere perfettamente bilanciato può controllarlo.
+The only requirement is that only a perfectly balanced being can control it.
+Questo requisito, dovuto ai principi di causalità...
+This requirement, due to the principles of causality...
+... Mi rende inadatto.
+... Makes me not suitable
+Da moltissimi anni... Sin da quando la mia forma originaria è venuta a dividersi... sono diventato un'entità squilibrata.
+It's been an enormous amount of years... Since when my original form split apart... I became an unbalanced entity.
+Considero l'equilibrio la cosa più importanti tra tutte... questo è a causa di moltissima afflizione.
+I consider balance the most important thing of all... and this causes me so much affliction.
+Per questo, ormai anni e anni fa... Quando di me non restava altro che un'eminente volontà, feci in modo di ottenere un recipiente più opportuno per la mia essenza.
+This is why, now many years ago... When not more than a subtle will was the only thing left of me, I made it so I could get a vessel more suited for my essence.
+Perchè proprio tu? Probabilmente non ci avrai mai pensato, ma...
+Why you? You probably didn't realize that yet, but...
+Sembri essere collegato ad un piano di esistenza superiore, anche a quello di essere onnipotenti come il sottoscritto...
+It looks like you're connected to a higher plane of existence, even that of almighty beings such as myself...
+Anche in questo momento, non vedi che qualcuno ci sta guardando?
+Even right now, don't you see that someone is looking at us?
+Unisciti a me, Campione, Prescelto, Salvatore, \PN.
+Join me, Champion, Chosen One, Savior, \PN
+Una volta insieme, intendo riequilibrare questo universo, per far sì che tutto torni allo stato naturale delle cose.
+Once together, I intend to make this universe balanced, and make it so that everything is back to its rightful natural state.
+Gli esseri viventi che lo abitano hanno trovato il modo di contrastare le azioni periodiche che consentono di riequilibrare i pianeti.
+The living being that inhabit it found ways to thwart the periodical actions that allowed for planets to be balanced.
+Carestie, Pandemie, Calamità naturali... Non sono altro che il modo in cui l'universo tenta di riequlibrarsi.
+Famines, Pandemics, Natural calamities... are only the way in which the universe tries to balance itself.
+Riesci a sentirlo?
+Can you hear it?
+L'universo soffre a causa di questo estremo disequilibrio...
+The universe is suffering because of this extreme unbalance...
+È compito nostro, in quanto suoi abitanti, far sì che questa situazione cambi.
+It's our role, as it's inhabitants, make it so that this situation changes.
+Tutto ciò che hai fatto... è stato in funzione di questo momento.
+Everything you did... was just for this moment.
+Lascia che gli eventi che hanno dettato il corso della tua storia vadano finalmente a compimento.
+Let the events that decided the path you walked find finally their conclusion.
+Unisciti a me.
+Join me.
+Sì
+Yes
+No
+No
+È un peccato... ma mi aspettavo già questa risposta.
+It's a real shame... but I was already expecting this answer.
+A quanto pare, sarò costretto ad utilizzare delle maniere più forti per farti accettare.
+As it seems, I'll have to use strong manners to make you bend.
+E così sei di nuovo qui...
+So, you're back again...
+Non sei stanco|a di provare? Non sei altro che una formica.
+Aren't you tired from trying? You're nothing more than an ant.
+Questa tua ostinazione è... ottusa.
+This stubbornness of yours is... witless.
+<<[>>old<<]>>Senti tutto ciò che hai costruito venire meno...
+<<[>>old<<]>>You feel all you built fall to pieces...
+<<[>>old<<]>>Senti la tua presenza affievolirsi...
+<<[>>old<<]>>You feel your being fade...
+Credi che opporre resistenza abbia senso?
+Do you think it's right to resist?
+Mi sembrava di aver già messo in chiaro ampiamente che delle formiche non possono nulla contro un gigante.
+I think to have already widely explained that ants can't do anything against a giant.
+Ma se ne vuoi la prova...
+But if you want proof...
+Ho fatto in modo che un'altro ospite si unisca a noi...
+I made it so that one other guest joins us...
+Oh...
+Oh...
+<<[>>old<<]>>Senti tutti i legami che hai creato spezzarsi...
+<<[>>old<<]>>You feel all the bonds you created shatter...
+Davvero un bello spettacolo ma... Non ti sei accorto|a di niente?
+Truly an amazing performance, but... You didn't notice anything?
+Questo... non è Dragalisk.
+This... is not Dragalisk.
+Quel cyborg a cui tieni così tanto...
+That Cyborg you care for so much...
+È veramente riuscito a far sparire quella parte di me, in un modo o nell'altro.
+He really was able to make that part of me disappear, one way or the other.
+Quello che hai davanti non è altro che la mera proiezione della presenza del nuovo ospite...
+What you see in front of you is only the mere projection of the new guest...
+...Che deve ancora unirsi a noi. Sai, lui era al Nadir, dopotutto.
+...That still has to join us. You know, he was at the Nadir, after all
+[Map660]
+Tu
+You
+Benvenuto.
+Welcome.
+<<[>>old<<]>>Senti il peso della predestinazione schiacciarti...
+<<[>>old<<]>>You feel the weight of predestination crush you...
+<<[>>old<<]>>Senti la tua presenza affievolirsi...
+<<[>>old<<]>>You feel your being fade...
+<<[>>old<<]>>La Furia Ball si sta illuminando! È il momento di utilizzare il suo potere!
+<<[>>old<<]>>The Fury Ball is shining! It's time to use its power!
+Ancora una volta, gli esseri viventi trovano il modo per evitare le calamità...
+Once again, the living beings find a way to avoid calamity...
+Questo non era nei piani, ma non vedo alternativa...!
+This wasn't planned, but I don't see any alternative...!
 [1]
 0
 ????????
