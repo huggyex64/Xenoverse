@@ -1478,10 +1478,10 @@ class PokemonScreen
 					if cmd==-1
 						break
 						# Set ability override
-					elsif cmd>=0 && cmd<abils[0].length
-						pkmn.setAbility(abils[1][cmd])
+					elsif cmd>=0 && cmd<abils.length
+						pkmn.setAbility(abils[cmd][1])
 						# Remove override
-					elsif cmd==abils[0].length
+					elsif cmd==abils.length
 						pkmn.abilityflag=nil
 					end
 					pbRefreshSingle(pkmnid)

@@ -266,7 +266,7 @@ class PokeBattle_Battle
       raise ArgumentError.new(_INTL("Party 2 has more than {1} Pokémon.",MAXPARTYSIZE))
     end
     #$smAnim = false if ($smAnim && @doublebattle) || EBUISTYLE!=2
-    $smAnim = true if $game_switches[85] && (containsNewBosses?(@party2) ? true : !@doublebattle)
+    $smAnim = true if $game_switches[85] && (containsNewBosses?(@party2) ? true : !@doublebattle) && !isAuraDraga?()
     if !@opponent
     #========================
     # Initialize wild Pokémon
@@ -286,15 +286,15 @@ class PokeBattle_Battle
         @scene.sendingOut=true
         echoln "IS BOSS? #{wildpoke.boss}"
 				###
-				if wildpoke.boss
+				if wildpoke.boss && !isAuraDraga?()
 					pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} wants to battle!",wildpoke.name))
           # GRENINJAX END SENDOUT
           if NEWBOSSES.include?($wildSpecies) && (isBoss?() ? (defined?($furiousBattle) && $furiousBattle) : false) #NEWBOSSES.include?($wildSpecies)
             @scene.newBossSequence.finish if @scene.newBossSequence
             @scene.newBossSequence.sendout if @scene.newBossSequence
           else
-            @scene.vsBossSequence2_end
-            @scene.vsBossSequence2_sendout
+            @scene.vsBossSequence2_end #if !(wildpoke.species == PBSpecies::DRAGALISK && wildpoke.form > 0)
+            @scene.vsBossSequence2_sendout #if !(wildpoke.species == PBSpecies::DRAGALISK && wildpoke.form > 0)
           end
         else
 					pbDisplayPaused(_INTL("Wild {1} appeared!",wildpoke.name))
@@ -312,7 +312,7 @@ class PokeBattle_Battle
         pbSetSeen(@party2[1])
         @scene.pbStartBattle(self)
         wildpoke=@party2[0]
-        if wildpoke.boss
+        if wildpoke.boss && !isAuraDraga?()
           if defined?($dittoxbattle) && $dittoxbattle
             pbDisplayPaused(_INTL("Prepare your anus! The Pokémon boss {1} wants to battle!","Ditto X"))
 					else
@@ -323,8 +323,8 @@ class PokeBattle_Battle
             @scene.newBossSequence.finish if @scene.newBossSequence
             @scene.newBossSequence.sendout if @scene.newBossSequence
           else
-            @scene.vsBossSequence2_end
-            @scene.vsBossSequence2_sendout
+            @scene.vsBossSequence2_end #if !(wildpoke.species == PBSpecies::DRAGALISK && wildpoke.form > 0)
+            @scene.vsBossSequence2_sendout #if !(wildpoke.species == PBSpecies::DRAGALISK && wildpoke.form > 0)
           end
         else
           pbDisplayPaused(_INTL("Wild {1} and\r\n{2} appeared!",
@@ -1386,6 +1386,12 @@ NEWBOSSES = [PBSpecies::GRENINJAX,
              PBSpecies::THUNDURUS,
              PBSpecies::LANDORUS,
              PBSpecies::ENAMORUS]
+
+def isAuraDraga?
+  ret = false
+  ret = true if $wildSpecies == PBSpecies::DRAGALISK && ($game_switches[1317] || $game_switches[1318])
+  return ret
+end
 
 def isBoss?
   ret = false

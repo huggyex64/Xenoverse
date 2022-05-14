@@ -1618,6 +1618,8 @@ def pbBattleAnimation(bgm=nil,trainerid=-1,trainername="",skip = false)
     echoln "TRANSITION: checking which animation to play"
     if !$wildSpecies.nil? && queuedIsRegi?
       ebWildAnimationRegi(viewport)
+    elsif !$wildSpecies.nil? && isAuraDraga?
+      vsXSpecies(viewport,$wildSpecies) 
     elsif !$wildSpecies.nil? && isBoss?
       if !(NEWBOSSES.include?($wildSpecies) && (isBoss?() ? (defined?($furiousBattle) && $furiousBattle) : false)) #NEWBOSSES.include?($wildSpecies)
         echoln "STARTING OLD TRANSITION"

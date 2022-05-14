@@ -344,7 +344,7 @@ class DynamicPokemonSprite
   def setPokemonBitmap(pokemon,back=false)
     return if !pokemon || pokemon.nil?
     @pokemon = pokemon
-    if @pokemon.species == PBSpecies::DRAGALISKFURIA && $game_switches[1330]==false
+    if @pokemon.species == PBSpecies::DRAGALISKFURIA && ($game_switches[1330]==false && ($game_switches[1317] || $game_switches[1318]))
       @trail=true
     end
     @altitude = @metrics[2][pokemon.species]
