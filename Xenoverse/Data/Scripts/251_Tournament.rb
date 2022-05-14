@@ -1487,6 +1487,10 @@ for i in STANDARD_POOL
   DANTEPOOL << i if !DANTEPOOL.include?(i)
   LEOPOOL << i if !LEOPOOL.include?(i)
   ERIKAPOOL << i if !ERIKAPOOL.include?(i)
+  STELLAPOOL << i if !STELLAPOOL.include?(i)
+  SOTISPOOL << i if !SOTISPOOL.include?(i)
+  GLADIONPOOL << i if !GLADIONPOOL.include?(i)
+  GRETAPOOL << i if !GRETAPOOL.include?(i)
 end
 
 
@@ -1568,7 +1572,11 @@ MUSTINCLUDE = {
   LANCEPOOL => [PBTrainers::LANCETOURNAMENT,"Lance"],
   DANTEPOOL => [PBTrainers::DANTETOURNAMENT,"Dante"],
   ERIKAPOOL => [PBTrainers::STELLATOURNAMENT,"Stella"],#[PBTrainers::ERIKATOURNAMENT,"Erika"],
-  LEOPOOL =>   [PBTrainers::LEOTOURNAMENT,"Leo"]
+  LEOPOOL =>   [PBTrainers::LEOTOURNAMENT,"Leo"],
+  STELLAPOOL => [PBTrainers::STELLATOURNAMENT,"Stella"],
+  SOTISPOOL => [PBTrainers::SOTISTOURNAMENT,"Sotis"],
+  GRETAPOOL => [PBTrainers::GRETATOURNAMENT,"Greta"],
+  GLADIONPOOL => [PBTrainers::GLADIONTOURNAMENT,"Iridio"],
 }
 
 SKILL_LEVELS={
@@ -2393,6 +2401,7 @@ class PWT
     
     miAdded = nil
 
+    echoln "look for MUSTINCLUDE"
 
     if trainerpool != nil && MUSTINCLUDE.keys.include?(trainerpool)
       tr = MUSTINCLUDE[trainerpool]
@@ -2412,6 +2421,8 @@ class PWT
       end
     end
 
+    echoln "generating Pool"
+
     for i in 0...branches
       randTrainer = trainerpool[rand(trainerpool.length)]
       #This ensures diversity between trainers
@@ -2422,6 +2433,8 @@ class PWT
       pool.push(randTrainer)
     end
     
+    echoln "randomizing brances"
+
     m = rand(pool.length-1)    
     pool.insert(m,$Trainer)
     i = 0
@@ -2431,7 +2444,9 @@ class PWT
       i = pool.length-rand(branches/2)
     end
     
+
     if miAdded != nil
+      echoln "adding Mustinclude"
       pool.insert(i,miAdded)
     end
 
@@ -2463,8 +2478,9 @@ class PWT
     
     #Global variable for checking the exp giving if the player is in a tournament
     $ISINTOURNAMENT=true
-
+    echoln "defining chart"
     @pool = defineChart(player,difficulty,trainerpool)
+    echoln "chart defined"
     @firstPool = @pool
     pool = @pool
 

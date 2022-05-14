@@ -177,6 +177,8 @@ DESCRIPTION=(Forma Argento)\n È timidissimo e al minimo pericolo si ritrae nel 
 DESCRIPTION=(Forma Oro)\n È timidissimo e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Si copre della sua gloria e ne va fiero.
 [1078_5]
 DESCRIPTION=(Forma Super)\n Emana un'aura potentissima e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Non è nemmeno la sua forma finale.
+[1078_6]
+DESCRIPTION=(Forma Alter)\n È timidissimo e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Sono rari i casi in cui passa al contrattacco.
 [1079_1]
 DESCRIPTION=(Forma Agglomeratto)\n Le zone più inquinate delle città brulicano di Chimaooze. Quando è in pericolo, chiama a raccolta tutti i suoi simili per debellare la minaccia.
 HEIGHT=7.8
