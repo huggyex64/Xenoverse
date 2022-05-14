@@ -350,8 +350,8 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Stile Leggende)\n Rosicchia continuamente legno e rocce per affilare i denti anteriori. Nidifica vicino all'acqua.
 (Legends Style)\n It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.
-NO_KIND_SET (DO NOT REMOVE THIS LINE)
-NO_KIND_SET (DO NOT REMOVE THIS LINE)
+Esplorante
+Scout
 (Forma di Hisui)\n Pattugliano il territorio in coppia. La presenza di componenti di rocce ignee nel loro vello parrebbe cagionata dall'attività vulcanica.
 (Hisui Form)\n They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)

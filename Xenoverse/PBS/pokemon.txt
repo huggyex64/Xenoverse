@@ -1607,6 +1607,7 @@ WildItemUncommon=RAWSTBERRY
 WildItemRare=RAWSTBERRY
 BattlerPlayerY=27
 BattlerEnemyY=28
+FormNames=Hisuian
 [60]
 Name=Poliwag
 InternalName=POLIWAG

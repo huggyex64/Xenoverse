@@ -371,7 +371,7 @@ WEIGHT=625
 DESCRIPTION=(MegaEvoluzione)\n La megaevoluzione ha sprigionato la sua vera potenza a scapito dei muscoli. Grazie ai suoi poteri psichici può conoscere ogni cosa.
 HEIGHT=12
 [405_1]
-DESCRIPTION=(MegaEvoluzione)\n L'energia elettrica in eccesso sviluppata dalla megaevoluzione fuoriesce dalle zampe, permettendogli di levitare e muoversi a velocità incredibili.
+DESCRIPTION=(MegaEvoluzione)\n L'energia elettrica in eccesso sviluppata dalla megaevoluzione fuoriesce dalle zampe, permettendogli di levitare.
 HEIGHT=16
 [620_1]
 DESCRIPTION=(MegaEvoluzione)\n La megaevoluzione ha trasformato i peli degli arti in cuscinetti ripieni d'acqua. Li utilizza per deviare i colpi danzando.
@@ -426,6 +426,7 @@ DESCRIPTION=(Stile Leggende)\n Rosicchia continuamente legno e rocce per affilar
 [399_18]
 DESCRIPTION=(Stile Leggende)\n Rosicchia continuamente legno e rocce per affilare i denti anteriori. Nidifica vicino all'acqua.
 [58_1]
+KIND=Esplorante
 DESCRIPTION=(Forma di Hisui)\n Pattugliano il territorio in coppia. La presenza di componenti di rocce ignee nel loro vello parrebbe cagionata dall'attività vulcanica.
 TYPE1=10
 TYPE2=5

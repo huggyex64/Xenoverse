@@ -1501,7 +1501,7 @@ VIPLIST =[
   [PBTrainers::LEOTOURNAMENT,"Leo"],
   [PBTrainers::STELLATOURNAMENT,"Stella"],
   [PBTrainers::SOTISTOURNAMENT,"Sotis"],
-  [PBTrainers::GRETATOURNAMENT,"Greta"],
+  [PBTrainers::GRETATOURNAMENT,"Valentina"],
   [PBTrainers::GLADIONTOURNAMENT,"Iridio"]
 ]
 
@@ -1512,7 +1512,7 @@ VIPCUPSWITCH = {
   [PBTrainers::LEOTOURNAMENT,"Leo"] => 1184,
   [PBTrainers::STELLATOURNAMENT,"Stella"] => 1344,
   [PBTrainers::SOTISTOURNAMENT,"Sotis"] => 1346,
-  [PBTrainers::GRETATOURNAMENT,"Greta"] => 1347,
+  [PBTrainers::GRETATOURNAMENT,"Valentina"] => 1347,
   [PBTrainers::GLADIONTOURNAMENT,"Iridio"] => 1345
 }
 
@@ -1553,9 +1553,9 @@ VIPSPEECH={
     :speech => "Sono in viaggio per prepararmi allo scontro finale con la mia nemesi, Masquerman... Aiutami a migliorare!",
     :description => ["Alcuni lo prendono per matto, ma le sue doti attoriali non scherzano!","Sogna di portare il sorriso sui volti delle persone come un Supereroe, per questo si fa chiamare Clawman!","Il possente e tenace, Sotis!"]
   },
-  [PBTrainers::GRETATOURNAMENT,"Greta"] => {
+  [PBTrainers::GRETATOURNAMENT,"Valentina"] => {
     :mugshot => "apollo/erika",
-    :name => _INTL("Greta"),
+    :name => _INTL("Valentina"),
     :speech => "Sento che le arti marziali mi possano aiutare a recuperare la memoria... Forse combattendo contro di te scoprirò qualcosa?",
     :description => ["Un giorno si è risvegliata senza sapere chi fosse...","Da quel momento ha deciso di intraprendere la via delle arti marziali per affinare la sua tecnica!","La misteriosa e calma, Valentina!"]
   },
@@ -1575,7 +1575,7 @@ MUSTINCLUDE = {
   LEOPOOL =>   [PBTrainers::LEOTOURNAMENT,"Leo"],
   STELLAPOOL => [PBTrainers::STELLATOURNAMENT,"Stella"],
   SOTISPOOL => [PBTrainers::SOTISTOURNAMENT,"Sotis"],
-  GRETAPOOL => [PBTrainers::GRETATOURNAMENT,"Greta"],
+  GRETAPOOL => [PBTrainers::GRETATOURNAMENT,"Valentina"],
   GLADIONPOOL => [PBTrainers::GLADIONTOURNAMENT,"Iridio"],
 }
 
