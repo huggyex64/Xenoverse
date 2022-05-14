@@ -33398,10 +33398,10 @@ Suinpanze'
 Suinpanze'
 58
 Cagnolino
-Cagnolino
+Puppy
 59
 Leggenda
-Leggenda
+Legendary
 60
 Girino
 Girino
@@ -35865,6 +35865,12 @@ Beast
 1237
 Semifreddo
 Frosting
+1238
+Mutante
+Transform
+1239
+Maglioreale
+Royal Hammer
 1300
 Millepiedi
 Hairy Bug
