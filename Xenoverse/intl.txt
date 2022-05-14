@@ -25050,6 +25050,14 @@ Yes
 No
 No
 [Map621]
+Torneo Occhiluce
+Gleam Eyes Tournament
+Torneo Chele
+Pincer Tournament
+Torneo Aura
+Aura Tournament
+Torneo Marziale
+Martial Arts Tournament
 A quale torneo vuoi iscriverti?
 Which Tournament would you like to take part in?
 Ciao! Benvenuto|a in un Centro Pokémon! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
@@ -25253,6 +25261,14 @@ What a nice weather! It's the perfect time for a battle, get ready!
 Voglio mettermi alla prova! Sembri anche tu un |'ottimo|a concorrente, quindi facciamoci valere! Che vinca il migliore!
 I want to test myself! Looks like you're a great contestant too, so let's fight proudly! May the best win!
 [Map624]
+<<[>>old<<]>>Trofeo Aura\nV.I.P: <b>Iridio</b> Allenatori Certificati: \PN
+<<[>>old<<]>>Aura Trophy\nV.I.P: <b>Gladion</b> Certified Trainers: \PN
+<<[>>old<<]>>Trofeo Chele\nV.I.P: <b>Clawman</b> Allenatori Certificati: \PN
+<<[>>old<<]>>Pincer Trophy\nV.I.P: <b>Clawman</b> Certified Trainers: \PN
+<<[>>old<<]>>Trofeo Marziale\nV.I.P: <b>Valentina</b> Allenatori Certificati: \PN
+<<[>>old<<]>>Martial Arts Trophy\nV.I.P: <b>Greta</b> Certified Trainers: \PN
+<<[>>old<<]>>Trofeo Occhiluce\nV.I.P: <b>Stella</b> Allenatori Certificati: \PN
+<<[>>old<<]>>Gleam Eyes Trophy\nV.I.P: <b>Stella</b> Certified Trainers: \PN
 <<[>>old<<]>>Trofeo Fiamma\nV.I.P: <b>Lance</b> Allenatori Certificati: \PN
 <<[>>old<<]>>Flame Trophy\nV.I.P: <b>Lance</b> Certified Trainers: \PN
 <<[>>old<<]>>Trofeo Fiore\nV.I.P: <b>Erika</b> Allenatori Certificati: \PN
