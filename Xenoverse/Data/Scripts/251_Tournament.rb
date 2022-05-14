@@ -1542,25 +1542,25 @@ VIPSPEECH={
     :description => ["Porta sulle spalle l'eredità di un nome importante, ma il suo sogno è far capire quanto vale!","Proprio come la madre Chiara, è anche lui un maestro del tipo Normale!","Il fiero e valoroso, Leo!"]
   },
   [PBTrainers::STELLATOURNAMENT,"Stella"] => {
-    :mugshot => "apollo/erika",
+    :mugshot => "apollo/stella",
     :name => "Stella",
     :speech => "Sentivo che Unima mi stava stretta, quindi sono partita per un viaggio! Mostrami ciò che sai fare!",
     :description => ["Tanto bella quanto elettrizzante! La crème de la crème dello stile!","Ha seguito i passi di sua madre Camelia, ma è anche andata molto oltre... Fino a diventare una Superquattro di Unima!","La rapida e brillante, Stella!"]
   },
   [PBTrainers::SOTISTOURNAMENT,"Sotis"] => {
-    :mugshot => "apollo/dante",
+    :mugshot => "apollo/clawman",
     :name => "Sotis",
     :speech => "Sono in viaggio per prepararmi allo scontro finale con la mia nemesi, Masquerman... Aiutami a migliorare!",
     :description => ["Alcuni lo prendono per matto, ma le sue doti attoriali non scherzano!","Sogna di portare il sorriso sui volti delle persone come un Supereroe, per questo si fa chiamare Clawman!","Il possente e tenace, Sotis!"]
   },
   [PBTrainers::GRETATOURNAMENT,"Valentina"] => {
-    :mugshot => "apollo/erika",
+    :mugshot => "apollo/valentina",
     :name => _INTL("Valentina"),
     :speech => "Sento che le arti marziali mi possano aiutare a recuperare la memoria... Forse combattendo contro di te scoprirò qualcosa?",
     :description => ["Un giorno si è risvegliata senza sapere chi fosse...","Da quel momento ha deciso di intraprendere la via delle arti marziali per affinare la sua tecnica!","La misteriosa e calma, Valentina!"]
   },
   [PBTrainers::GLADIONTOURNAMENT,"Iridio"] => {
-    :mugshot => "apollo/leo",
+    :mugshot => "apollo/iridio",
     :name => _INTL("Iridio"),
     :speech => "Sono venuto in questa regione per affari, ma ogni tanto è bello rievocare i vecchi tempi! Sappi che sono molto forte, diamoci dentro!",
     :description => ["Dopo ciò che è accaduto a sua madre, ha preso le redini dell'Aether Paradise facendolo fiorire!","Il peso delle responsabilità lo ha reso un uomo imperturbabile!","L'abilissimo Iridio!"]

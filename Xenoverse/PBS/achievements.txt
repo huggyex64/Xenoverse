@@ -453,7 +453,7 @@ title = Null Exception
 description = Sconfiggi Iridio nel Torneo Apollo.
 amount = 1
 image = 91_exception
-[Greta]
+[Valentina]
 title = Danza della meditazione
 description = Sconfiggi Valentina nel Torneo Apollo.
 amount = 1
