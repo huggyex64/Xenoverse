@@ -12003,6 +12003,7 @@ Kind=Aura
 Pokedex=Riesce a leggere i pensieri e i movimenti del nemico decifrando l’aura che questo emette.
 BattlerPlayerY=7
 BattlerEnemyY=15
+FormNames=,Platino,Mega
 [449]
 Name=Hippopotas
 InternalName=HIPPOPOTAS

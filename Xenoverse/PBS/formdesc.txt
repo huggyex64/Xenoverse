@@ -353,41 +353,41 @@ TYPE2=17
 DESCRIPTION=È in grado di produrre scariche elettriche fino a 15.000 volt. Tende a sottovalutare qualunque nemico si trovi davanti.
 [303_1]
 DESCRIPTION=(MegaEvoluzione)\n Le due bocche si agitano furiosamente come se avessero volontà propria. Possono sbriciolare una roccia con un solo morso.
-HEIGHT=10
-WEIGHT=235
+HEIGHT=1.0
+WEIGHT=23.5
 [359_1]
 DESCRIPTION=(MegaEvoluzione)\n L’indole pacifica di questo Pokémon lo porta a detestare questa sua forma, che è perfetta per la lotta.
-HEIGHT=12
-WEIGHT=490
+HEIGHT=1.2
+WEIGHT=490.
 [248_1]
 DESCRIPTION=(MegaEvoluzione)\n Sulla schiena gli si è aperto uno squarcio per l’enorme energia liberata dalla megaevoluzione. Agisce spinto solo da un istinto di distruzione.
-HEIGHT=25
-WEIGHT=2550
+HEIGHT=2.5
+WEIGHT=255.0
 [214_1]
 DESCRIPTION=(MegaEvoluzione)\n La formidabile energia della megaevoluzione fa sviluppare i suoi muscoli, ma quando torna al suo stato normale è tutto indolenzito.
-HEIGHT=17
-WEIGHT=625
+HEIGHT=1.7
+WEIGHT=62.5
 [65_1]
 DESCRIPTION=(MegaEvoluzione)\n La megaevoluzione ha sprigionato la sua vera potenza a scapito dei muscoli. Grazie ai suoi poteri psichici può conoscere ogni cosa.
-HEIGHT=12
+HEIGHT=1.2
 [405_1]
 DESCRIPTION=(MegaEvoluzione)\n L'energia elettrica in eccesso sviluppata dalla megaevoluzione fuoriesce dalle zampe, permettendogli di levitare.
-HEIGHT=16
+HEIGHT=1.6
 [620_1]
 DESCRIPTION=(MegaEvoluzione)\n La megaevoluzione ha trasformato i peli degli arti in cuscinetti ripieni d'acqua. Li utilizza per deviare i colpi danzando.
 TYPE2=11
-HEIGHT=16
-WEIGHT=455
+HEIGHT=1.6
+WEIGHT=45.5
 [445_1]
 DESCRIPTION=(MegaEvoluzione)\n Con l’evoluzione, le sue ali si sono fuse con le braccia, tramutandole in falci. Pazzo d’ira, si sfoga scatenando tutta la sua furia.
 [212_1]
 DESCRIPTION=(MegaEvoluzione)\n Con la megaevoluzione accumula un’enorme quantità di energia. Se passa troppo tempo in questo stato, comincia a fondere.
-HEIGHT=20
-WEIGHT=1250
-[448_1]
+HEIGHT=2.0
+WEIGHT=125.0
+[448_2]
 DESCRIPTION=(MegaEvoluzione)\n Con la megaevoluzione, la sua aura si è espansa. Segue ciecamente il suo istinto guerriero e si getta sul nemico attaccando implacabile.
-HEIGHT=13
-WEIGHT=575
+HEIGHT=1.3
+WEIGHT=57.5
 [399_1]
 DESCRIPTION=(Stile Leggende)\n Rosicchia continuamente legno e rocce per affilare i denti anteriori. Nidifica vicino all'acqua.
 [399_2]
