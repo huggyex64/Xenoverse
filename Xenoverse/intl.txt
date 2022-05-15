@@ -4385,6 +4385,8 @@ Io le credo!
 I believe her!
 Tarassaco, penso che dovremmo dargli il beneficio del dubbio. È comunque \PN, dopotutto.
 Taraxo, I think we should trust him too. He's still \PN, after all. 
+Tarassaco, penso che dovremmo darle il beneficio del dubbio. È comunque \PN, dopotutto.
+Taraxo, I think we should trust her too. She's still \PN, after all. 
 Hmm...
 Ugh...
 Se ricordo bene, nel <b>Regno di Virgopoli</b> circolava una leggenda su un Pokémon in grado di controllare il paranormale.
@@ -4420,9 +4422,9 @@ Eh eh!
 E' da un bel po' che non torno ad Eldiw, ma devo dire che tutto è come l'avevo lasciato mi fa sentire a casa!
 It's been a while since I've been in Eldiw, but I must say that seeing that everything is just as I left it sure makes me feel at home!
 \PN, devi sapere che ho personalmente incaricato Alice di aiutarci nelle indagini.
-\PN, you has to know that I personally asked Alice to help us in the investigations.
+\PN, you have to know that I personally asked Alice to help us in the investigations.
 \PN, devi sapere che ho personalmente incaricato Kay di aiutarci nelle indagini.
-\PN, you has to know that I personally asked Kay to help us in the investigations.
+\PN, you have to know that I personally asked Kay to help us in the investigations.
 Qualche mese fa, visti i suoi progressi e le sue capacità, le ho affidato un incarico con il consenso di Aster.
 Some months ago, seeing her progress and her abilities, I gave her an assignment with Aster's consent.
 Qualche mese fa, visti i suoi progressi e le sue capacità, gli ho affidato un incarico con il consenso di Aster.
@@ -4498,7 +4500,7 @@ I see you're hyped up, it's a good sign!
 Aggiornateci su ciò che scoprite al <b>Monte Zodiaco</b>.
 Please, let us know if you learn anything on Mt. Zodiac.
 I Cardinali sono gli unici che possono fare luce sul caso Furia, quindi abbiamo bisogno di parlare con loro il prima possibile.
-The Cardinals are the only ones that can shed light on the Fury case, as such we need to talk with the as soon as possible.
+The Cardinals are the only ones that can shed light on the Fury case, as such we need to talk with them as soon as possible.
 Vi auguro buon viaggio!
 I wish you a good trip!
 <<[>>old<<]>>Alice si è unita alla squadra.
@@ -19338,6 +19340,8 @@ Hm? Che strano...
 Hm? How strange...
 Potrei giurare che l'entrata non era così l'ultima volta che sono stata qui.
 I could swear that the entrance wasn't like this the last time I was here.
+Potrei giurare che l'entrata non era così l'ultima volta che sono stato qui.
+I could swear that the entrance wasn't like this the last time I was here.
 Hmmm...? Sembra come uno specchio... ma ha un colore strano...
 Hmmm...? It looks like a mirror... but it has a strange color...
 Cosa proponi di fare, \PN?
@@ -25537,6 +25541,8 @@ Questo posto è completamente squilibrato...
 This place is totally insane...
 Mi sembra di essere entrata nella mente di un pazzoide.
 It feels like I just entered the mind of a madman.
+Mi sembra di essere entrato nella mente di un pazzoide.
+It feels like I just entered the mind of a madman.
 I Cardinali staranno bene? Dovremmo andare a controllare.
 Will the Cardinals be okay? We ought to check.
 Forza, \PN!
@@ -25934,7 +25940,9 @@ E questa qua continua a seguirmi da prima, facendo tutto ciò che faccio io!
 And this one keeps following me since before, repeating all that I do!
 E questo qua continua a seguirmi da prima, facendo tutto ciò che faccio io!
 And this one keeps following me since before, repeating all that I do!
-\PN! tu hai capito chi è la vera me, giusto?
+\PN! Tu hai capito chi è la vera me, giusto?
+\PN, you got who's the real me, right?
+\PN! Tu hai capito chi è il vero me, giusto?
 \PN, you got who's the real me, right?
 Quella a destra
 The one on the right
@@ -26103,6 +26111,8 @@ Ho cambiato idea.
 I've changed my mind.
 [Map639]
 Fin quando non eri altro che un bambino, sei entrato in contatto con realtà molto più grandi della tua.
+Ever since when you were nothing more than a baby, you came to know realities much greater than your own.
+Fin quando non eri altro che una bambina, sei entrata in contatto con realtà molto più grandi della tua.
 Ever since when you were nothing more than a baby, you came to know realities much greater than your own.
 E per di più, senza una guida paterna che potesse indirizzarti.
 Furthermore, without a paternal guide that could help you.
