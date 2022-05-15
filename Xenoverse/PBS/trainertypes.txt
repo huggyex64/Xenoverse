@@ -224,11 +224,11 @@
 227,WALLACESIGMA,(Giudici),30,VS-AB,Trainer Victory,,Male,150,
 228,TARASSACO,(Ricercatore),200,,Trainer Victory,,Mixed,,
 229,FINALMAMMA,(Mamma),200,,Trainer Victory,,Mixed,,
-230,CHUAFINAL,(Cardinale),100,VS.Cardinali,Victory Cardinale,,Male,255
-231,CASTALIAFINAL,(Cardinale),100,VS.Cardinali,Victory Cardinale,,Female,255
-232,PEYOTEFINAL,(Cardinale),100,VS.Cardinali,Victory Cardinale,,Male,255
-233,OLEANDROFINAL,(Cardinale),100,VS.Cardinali,Victory Cardinale,,Male,255
-234,VERSILCHAMPION,(Campione),100,VS.Champion,victory champion,,Male,255
+230,CHUAFINAL,(Cardinale),250,VS.Cardinali,Victory Cardinale,,Male,127
+231,CASTALIAFINAL,(Cardinale),250,VS.Cardinali,Victory Cardinale,,Female,127
+232,PEYOTEFINAL,(Cardinale),250,VS.Cardinali,Victory Cardinale,,Male,127
+233,OLEANDROFINAL,(Cardinale),250,VS.Cardinali,Victory Cardinale,,Male,127
+234,VERSILCHAMPION,(Campione),100,VS.Champion,victory champion,,Male,127
 235,RUTARAIKOU,(Selvaggio),200,,,,Male,
 236,HENNEENTEI,(Capopalestra),200,,,,Male,
 237,EVANSUICUNE,(Capopalestra),200,,,,Male,
@@ -250,7 +250,7 @@
 253,GENNAROTOURNAMENT,(Bullo),100,Gennaro bullo ost,Trainer Victory,,Male,
 254,DOUBLEALICE,(Allenatrici),30,,Trainer Victory,,Female,100
 255,DOUBLEKAY,(Allenatori),30,,Trainer Victory,,Male,100
-256,VAKUM,(Creatore),255,VS. Vakum,victory champion,,Male,
+256,VAKUM,(Creatore),600,VS. Vakum,victory champion,,Male,
 257,STELLATOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Female,127
 258,SOTISTOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Male,127
 259,GRETATOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Female,127
@@ -260,5 +260,5 @@
 263,SIGMATOURNAMENT,(Sergente Dimension),,VS-AB,Team Dimension Victory,,Mixed,127
 264,CRISANTETOURNAMENT,(Capopalestra),,VS. Gym Apollo,victory gym,,Male,127
 265,TREYTOURNAMENT,(Rivale),,VS. Tray.,,,Male,127
-266,ALICECHAMPION,(Sognatrice),100,VS.Champion,victory champion,,Female,255
-267,KAYCHAMPION,(Sognatore),100,VS.Champion,victory champion,,Male,255
+266,ALICECHAMPION,(Sognatrice),300,VS.Champion,victory champion,,Female,127
+267,KAYCHAMPION,(Sognatore),400,VS.Champion,victory champion,,Male,127

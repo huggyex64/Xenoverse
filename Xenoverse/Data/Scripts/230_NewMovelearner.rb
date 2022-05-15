@@ -316,6 +316,15 @@ class MoveRelearnerScene
 		end
 	end
 	
+	def wait(frames,index)
+		frames.times do
+			Graphics.update
+			Input.update
+			pbUpdate
+			scrollMoves(index)
+		end
+	end
+
 	# Processes the scene
 	def pbChooseMove
 		index=0
@@ -337,13 +346,14 @@ class MoveRelearnerScene
 				@sprites["arrows"].src_rect=Rect.new(0,0,512,384)  #both arrows
 				@sprites["arrows"].y = 0
 			end
-			
-			if Input.trigger?(Input::DOWN)
+
+			if Input.repeat?(Input::DOWN) || Input.trigger?(Input::DOWN)
 				index = index+1>maxIndex ? index : index+1
 				setSelectedMove(index)
 				drawMoveInfo(index)
 			end
-			if Input.trigger?(Input::UP)
+
+			if Input.repeat?(Input::UP) || Input.trigger?(Input::UP)
 				index = index-1<0 ? index : index-1
 				setSelectedMove(index)
 				drawMoveInfo(index)

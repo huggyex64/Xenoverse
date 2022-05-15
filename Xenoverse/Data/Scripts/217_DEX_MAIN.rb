@@ -243,10 +243,10 @@ class DexMain
 			Input.update
 			update
 			
-			controlSelectionIndex(@selIndex+6) if Input.trigger?(Input::DOWN)
-			controlSelectionIndex(@selIndex-6) if Input.trigger?(Input::UP)
-			controlSelectionIndex(@selIndex+1) if Input.trigger?(Input::RIGHT)
-			controlSelectionIndex(@selIndex-1) if Input.trigger?(Input::LEFT)
+			controlSelectionIndex(@selIndex+6) if Input.repeat?(Input::DOWN) || Input.trigger?(Input::DOWN)
+			controlSelectionIndex(@selIndex-6) if Input.repeat?(Input::UP) || Input.trigger?(Input::UP)
+			controlSelectionIndex(@selIndex+1) if Input.repeat?(Input::RIGHT) || Input.trigger?(Input::RIGHT)
+			controlSelectionIndex(@selIndex-1) if Input.repeat?(Input::LEFT) || Input.trigger?(Input::LEFT)
 			
 			if (Input.trigger?(Input::C) && $Trainer.seen[@dexlist[@selIndex]])
 				@info = nil

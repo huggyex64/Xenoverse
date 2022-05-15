@@ -193,16 +193,25 @@ def pbLoadFormDescTranslation
 	f = File.open("PBS/fdtr.txt")
 	l=0
 	key=nil
-	f.readlines.each do |line|
-		
-		if l%2==0
-			$fdtr[line.gsub("\n","")]=nil
-			key=line.gsub("\n","")
-		else
-			$fdtr[key]=line.gsub("\n","")
-			key=nil
-		end
-		l+=1
+  lines = []
+	f.readlines.each do |linea|
+		if linea[0,1] != "#"
+     # echoln "#{linea[0,1]} - #{linea}"
+      lines << linea
+    end
 	end
 	f.close
+
+  for line in lines
+    if l%2==0
+      $fdtr[line.gsub("\n","")]=nil
+      key=line.gsub("\n","")
+    else
+      echoln "#{key} => #{line.gsub("\n","")}"
+      $fdtr[key]=line.gsub("\n","")
+      key=nil
+    end
+    l+=1
+  end
+
 end

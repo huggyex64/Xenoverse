@@ -1336,7 +1336,7 @@ def pbCompileTrainers
         ""=>2,"Male"=>0,"M"=>0,"0"=>0,"Female"=>1,"F"=>1,"1"=>1,"Mixed"=>2,"X"=>2,"2"=>2
         },nil]
      )
-     if record[3] && (record[3]<0 || record[3]>255)
+     if record[3] && (record[3]<0 || record[3]>1255)
        raise _INTL("Bad money amount (must be from 0 through 255)\r\n{1}",FileLineData.linereport)
      end
      record[3]=30 if !record[3]

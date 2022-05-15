@@ -402,3 +402,37 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (MegaEvoluzione)\n La megaevoluzione ha trasformato i peli degli arti in cuscinetti ripieni d'acqua. Li utilizza per deviare i colpi danzando.
 (MegaEvolution)\n The megaevolution transformed the hairs on its arms in pads full of water. It uses them to deflect blows while dancing.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Forma Alter)\n È timidissimo e al minimo pericolo si ritrae nel guscio duro come l'acciaio. Sono rari i casi in cui passa al contrattacco.
+(Alter Form)\n This very shy Pokémon rarely counterattacks. When in danger, it withdraws in its shell as hard as steel.
+#TYRANITAR
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(MegaEvoluzione)\n Sulla schiena gli si è aperto uno squarcio per l’enorme energia liberata dalla megaevoluzione. Agisce spinto solo da un istinto di distruzione.
+(MegaEvolution)\n Due to the colossal power poured into it, this Pokémon's back split right open. Its destructive instincts are the only thing keeping it moving.
+#ALAKAZAM
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(MegaEvoluzione)\n La megaevoluzione ha sprigionato la sua vera potenza a scapito dei muscoli. Grazie ai suoi poteri psichici può conoscere ogni cosa.
+(MegaEvolution)\n Having traded away its muscles, Alakazam's true power has been unleashed. With its psychic powers, it can foresee all things.
+#SCIZOR
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(MegaEvoluzione)\n Con la megaevoluzione accumula un’enorme quantità di energia. Se passa troppo tempo in questo stato, comincia a fondere.
+(MegaEvolution)\n It stores the excess energy from Mega Evolution, so after a long time passes, its body starts to melt.
+#HERACROSS
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(MegaEvoluzione)\n La formidabile energia della megaevoluzione fa sviluppare i suoi muscoli, ma quando torna al suo stato normale è tutto indolenzito.
+(MegaEvolution)\n A tremendous influx of energy builds it up, but when Mega Evolution ends, Heracross is bothered by terrible soreness in its muscles.
+#GARCHOMP
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(MegaEvoluzione)\n Con l’evoluzione, le sue ali si sono fuse con le braccia, tramutandole in falci. Pazzo d’ira, si sfoga scatenando tutta la sua furia.
+(MegaEvolution)\n Its arms and wings melted into something like scythes. Mad with rage, it rampages on and on.
+#LUCARIO
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(MegaEvoluzione)\n Con la megaevoluzione, la sua aura si è espansa. Segue ciecamente il suo istinto guerriero e si getta sul nemico attaccando implacabile.
+(MegaEvolution)\n Its aura has expanded due to Mega Evolution. Governed only by its combative instincts, it strikes enemies without mercy.
