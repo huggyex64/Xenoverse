@@ -25264,6 +25264,14 @@ Che tempo splendido! È il clima perfetto per una battaglia, preparati!
 What a nice weather! It's the perfect time for a battle, get ready!
 Voglio mettermi alla prova! Sembri anche tu un |'ottimo|a concorrente, quindi facciamoci valere! Che vinca il migliore!
 I want to test myself! Looks like you're a great contestant too, so let's fight proudly! May the best win!
+Sentivo che Unima mi stava stretta, quindi sono partita per un viaggio! Mostrami ciò che sai fare!
+I felt that Unova was too small for me, so I went on a journey! Show me what you’re capable of!
+Sono in viaggio per prepararmi allo scontro finale con la mia nemesi, Masquerman... Aiutami a migliorare!
+I'm training to prepare for the final battle against my nemesis, Masquerman… Help me improve!
+Sento che le arti marziali mi possano aiutare a recuperare la memoria... Forse combattendo contro di te scoprirò qualcosa?
+I feel that martial arts can help me remember my past... Maybe by fighting with you I’ll find something out?
+Sono venuto in questa regione per affari, ma ogni tanto è bello rievocare i vecchi tempi! Sappi che sono molto forte, diamoci dentro!
+I came to this region for business, but once in a while it’s good to recall the old times! I’ll let you know that I’m very strong, let’s do this!
 [Map624]
 <<[>>old<<]>>Trofeo Aura\nV.I.P: <b>Iridio</b> Allenatori Certificati: \PN
 <<[>>old<<]>>Aura Trophy\nV.I.P: <b>Gladion</b> Certified Trainers: \PN
@@ -53787,6 +53795,10 @@ Josh
 Liam
 Tamara
 Dahlia
+Valentina
+Greta
+Iridio
+Gladion
 [14]
 I AM NEVER GOING TO LOSE !
 I AM NEVER GOING TO LOSE !
@@ -64802,3 +64814,35 @@ Un'aura rinvigorente rincuora i Pokémon del tuo avversario!
 An invigorating comforts your opponent's Pokémon!
 Usa Box
 Use Box
+Tanto bella quanto elettrizzante! La crème de la crème dello stile!
+As charming as electrifying! The crème de la crème of style!
+Ha seguito i passi di sua madre Camelia, ma è anche andata molto oltre... Fino a diventare una Superquattro di Unima!
+She followed the steps of her mother Elesa, but she even went much further… To the point of becoming one of Unova’s Elite Four!
+La rapida e brillante, Stella!
+The quick and shining, Stella!
+Incredibile! Sei abbagliante!
+Amazing! You’re dazzling!
+Alcuni lo prendono per matto, ma le sue doti attoriali non scherzano!
+Some think he's crazy, but his acting skills are no joke!
+Sogna di portare il sorriso sui volti delle persone come un Supereroe, per questo si fa chiamare Clawman!
+He dreams of taking the smile on the faces of everyone like a Superhero, and this is why he calls himself Clawman!
+Il possente e tenace, Sotis!
+The powerful and tenacious, Sotis!
+Devo impegnarmi di più se voglio sconfiggere Masquerman...!
+I have to try harder if I want to defeat Masquerman...!
+Dopo ciò che è accaduto a sua madre, ha preso le redini dell'Aether Paradise facendolo fiorire!
+After what his mother went through, he took the reins of Aether Paradise making it bloom!
+Il peso delle responsabilità lo ha reso un uomo imperturbabile!
+The weight of responsibility made him a stoic man!
+L'abilissimo Iridio!
+The skillful, Gladion!
+Forse dovrei ricominciare ad allenarmi?
+Maybe I should start training again?
+Un giorno si è risvegliata senza sapere chi fosse...
+One day she woke up without knowing who she was...
+Da quel momento ha deciso di intraprendere la via delle arti marziali per affinare la sua tecnica!
+From that moment on she decided to undertake the way of martial arts to refine her technique!
+La misteriosa e calma, Valentina!
+The calm and mysterious, Greta!
+Ancora niente...
+Still nothing...

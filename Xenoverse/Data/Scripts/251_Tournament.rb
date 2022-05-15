@@ -1470,19 +1470,19 @@ ERIKAPOOL=[
 ]
 
 STELLAPOOL=[
-  ["Stella",PBTrainers::STELLATOURNAMENT,"Stella",_INTL("Pare che il mio lungo allenamento non sia bastato..."),10],
+  ["Stella",PBTrainers::STELLATOURNAMENT,"Stella",_INTL("Incredibile! Sei abbagliante!"),10],
 ]
 
 SOTISPOOL=[
-  ["lance",PBTrainers::SOTISTOURNAMENT,"Sotis",_INTL("La prossima volta non andrà così!"),10],
+  ["lance",PBTrainers::SOTISTOURNAMENT,"Sotis",_INTL("Devo impegnarmi di più se voglio sconfiggere Masquerman...!"),10],
 ]
 
 GLADIONPOOL=[
-  ["Dante",PBTrainers::GLADIONTOURNAMENT,"Iridio",_INTL("Cavoli!"),10],
+  ["Dante",PBTrainers::GLADIONTOURNAMENT,"Iridio",_INTL("Forse dovrei ricominciare ad allenarmi?"),10],
 ]
 
 GRETAPOOL=[
-  ["Erika",PBTrainers::GRETATOURNAMENT,"Valentina",_INTL("Perbacco, chi l'avrebbe mai detto?"),10],
+  ["Erika",PBTrainers::GRETATOURNAMENT,"Valentina",_INTL("Ancora niente..."),10],
 ]
 
 
