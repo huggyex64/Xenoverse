@@ -393,7 +393,7 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Forma di Hisui)\n Stringe le prede con le zanne avviluppate in rovente foco. Eccelle nelle finte nonostante la considerevole stazza.
-(Forma di Hisui)\n Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way.
+(Hisui Form)\n Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (MegaEvoluzione)\n L'energia elettrica in eccesso sviluppata dalla megaevoluzione fuoriesce dalle zampe, permettendogli di levitare.

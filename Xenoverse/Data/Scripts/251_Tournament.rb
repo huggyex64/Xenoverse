@@ -1474,15 +1474,15 @@ STELLAPOOL=[
 ]
 
 SOTISPOOL=[
-  ["lance",PBTrainers::SOTISTOURNAMENT,"Sotis",_INTL("Devo impegnarmi di più se voglio sconfiggere Masquerman...!"),10],
+  ["clawman",PBTrainers::SOTISTOURNAMENT,"Sotis",_INTL("Devo impegnarmi di più se voglio sconfiggere Masquerman...!"),10],
 ]
 
 GLADIONPOOL=[
-  ["Dante",PBTrainers::GLADIONTOURNAMENT,"Iridio",_INTL("Forse dovrei ricominciare ad allenarmi?"),10],
+  ["Iridio",PBTrainers::GLADIONTOURNAMENT,"Iridio",_INTL("Forse dovrei ricominciare ad allenarmi?"),10],
 ]
 
 GRETAPOOL=[
-  ["Erika",PBTrainers::GRETATOURNAMENT,"Valentina",_INTL("Ancora niente..."),10],
+  ["valentina",PBTrainers::GRETATOURNAMENT,"Valentina",_INTL("Ancora niente..."),10],
 ]
 
 

@@ -375,6 +375,7 @@ DESCRIPTION=(MegaEvoluzione)\n L'energia elettrica in eccesso sviluppata dalla m
 HEIGHT=16
 [620_1]
 DESCRIPTION=(MegaEvoluzione)\n La megaevoluzione ha trasformato i peli degli arti in cuscinetti ripieni d'acqua. Li utilizza per deviare i colpi danzando.
+TYPE2=11
 HEIGHT=16
 WEIGHT=455
 [445_1]
@@ -383,8 +384,6 @@ DESCRIPTION=(MegaEvoluzione)\n Con l’evoluzione, le sue ali si sono fuse con l
 DESCRIPTION=(MegaEvoluzione)\n Con la megaevoluzione accumula un’enorme quantità di energia. Se passa troppo tempo in questo stato, comincia a fondere.
 HEIGHT=20
 WEIGHT=1250
-[257_1]
-DESCRIPTION=(MegaEvoluzione)\n Con la megaevoluzione accumula un’enorme quantità di energia. Se passa troppo tempo in questo stato, comincia a fondere.
 [448_1]
 DESCRIPTION=(MegaEvoluzione)\n Con la megaevoluzione, la sua aura si è espansa. Segue ciecamente il suo istinto guerriero e si getta sul nemico attaccando implacabile.
 HEIGHT=13
