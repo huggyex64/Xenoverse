@@ -469,3 +469,12 @@ TYPE2=11
 DESCRIPTION=(Forma di Hisui)\n Stringe le prede con le zanne avviluppate in rovente foco. Eccelle nelle finte nonostante la considerevole stazza.
 TYPE1=10
 TYPE2=5
+[351_1]
+TYPE1=10
+TYPE2=10
+[351_2]
+TYPE1=11
+TYPE2=11
+[351_3]
+TYPE1=15
+TYPE2=15

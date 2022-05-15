@@ -1733,7 +1733,7 @@ def pbPokeCenterPC
 		Kernel.pbMessage(_INTL("Paolo: I have to go now, there's another really important project that's waiting for me! See ya!"))
 		$game_switches[4900] = true
 	end
-	choices = [_INTL("Use PC"),_INTL("Virtual Move Tutor")]
+	choices = [_INTL("Usa Box"),_INTL("Virtual Move Tutor")]
 	rt = pbNewChoice(Fullbox_Option.createFromArray(choices),-1)
 	if rt > -1
 		if rt == 0

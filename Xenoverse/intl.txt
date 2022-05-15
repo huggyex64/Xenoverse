@@ -64800,3 +64800,5 @@ Un'aura rinvigorente rincuora i tuoi Pokémon!
 An invigorating comforts your Pokémon!
 Un'aura rinvigorente rincuora i Pokémon del tuo avversario!
 An invigorating comforts your opponent's Pokémon!
+Usa Box
+Use Box

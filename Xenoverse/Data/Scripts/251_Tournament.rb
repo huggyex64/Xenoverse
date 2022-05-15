@@ -593,7 +593,7 @@ CUSTOMIV = {
       }
     }
   },
-  [PBTrainers::GRETATOURNAMENT,"Greta"]=>{
+  [PBTrainers::GRETATOURNAMENT,"Valentina"]=>{
     :iv=>{
       :BLAZIKEN =>{
         :hp => 151,
@@ -647,7 +647,7 @@ CUSTOMIV = {
       }
     }
   },
-  [PBTrainers::GLADIONTOURNAMENT,"Greta"]=>{
+  [PBTrainers::GLADIONTOURNAMENT,"Iridio"]=>{
     :iv=>{
       :ZOROARKHISUI =>{
         :hp => 251,
@@ -1169,11 +1169,15 @@ BATTLE_POINT_PRICES = {
   PBItems::ABSOLITE =>50,
 
   PBItems::ALAKAZITE => 50,
+  PBItems::SCIZORITE => 50,
   PBItems::HERACRONITE => 50,
   PBItems::TYRANITARITE => 50,
   PBItems::BLAZIKENITE => 50,
   PBItems::SWAMPERTITE => 50,
   PBItems::GARCHOMPITE => 50,
+  PBItems::LUCARITE => 50,
+  PBItems::LUXRAYITE => 50,
+  PBItems::MIENSHAOITE => 50,
 }
 #Tutors:
 #Tutor 1: :DRAGONENDURANCE,:VELVETSCALES,:ACIDRAIN,:TAILWIND,:OUTRAGE,:AIRCUTTER,:HURRICANE
@@ -1221,7 +1225,8 @@ def pbMoveTutor(movepool=[],name="") #remember to use max 7
 end
 
 def pbGetMegaShopList()
-  list = [:VENUSAURITE,:BLASTOISINITE,:CHARIZARDITET,:CHARIZARDITEX,:WEAVILITE,:ABSOLITE,:MAWILITE]
+  list = [:VENUSAURITE,:BLASTOISINITE,:CHARIZARDITET,:CHARIZARDITEX,:WEAVILITE,:ABSOLITE,:MAWILITE,:ALAKAZITE,
+          :HERACRONITE,:TYRANITARITE,:BLAZIKENITE,:SWAMPERTITE,:GARCHOMPITE]
   list.push(:SCEPTILITE) if $game_switches[1176]==true
   list.push(:BELLOSSOMITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::ERIKATOURNAMENT,"Erika"]]]==true
   list.push(:AUDINITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::LEOTOURNAMENT,"Leo"]]]==true
@@ -1230,7 +1235,7 @@ def pbGetMegaShopList()
   list.push(:LUCARITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::GLADIONTOURNAMENT,"Iridio"]]]==true
   list.push(:SCIZORITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::SOTISTOURNAMENT,"Sotis"]]]==true
   list.push(:LUXRAYITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::STELLATOURNAMENT,"Stella"]]]==true
-  list.push(:MIENSHAOITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::GRETATOURNAMENT,"Greta"]]]==true
+  list.push(:MIENSHAOITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::GRETATOURNAMENT,"Valentina"]]]==true
   return list
 end
 
