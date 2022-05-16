@@ -37774,3 +37774,5 @@ Rental Team found!<<n>>Made by: {1}\^
 Squadra a nolo trovata!<<n>>Creata da: {1}\^
 No Rental Team found.
 Nessun Team a nolo trovato.
+\w[]\wm\c[8]\l[3]After fainting out, {1} awakes in a safe place nearby.
+\w[]\wm\c[8]\l[3]Dopo la sconfitta, {1} si risveglia in un luogo sicuro vicino.

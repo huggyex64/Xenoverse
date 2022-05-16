@@ -1438,10 +1438,10 @@ TRAINERPOOL_basic=[  #ALMENO 8 ALLENATORI
   ["Gennaro Bullo",PBTrainers::GENNAROTOURNAMENT,"Gennaro",_INTL("Non di nuovo!"),5],
   #PASS 4
   ["alisso",PBTrainers::ALISSOTOURNAMENT,"Alisso",_INTL("...!"),3],
-  ["munside",PBTrainers::MUNTOURNAMENT,"Mun",_INTL("Min, non ce l'ho fatta!"),4],
+  ["Munside",PBTrainers::MUNTOURNAMENT,"Mun",_INTL("Min, non ce l'ho fatta!"),4],
   ["silvia",PBTrainers::SILVIATOURNAMENT,"Silvia",_INTL("Caliente come sempre!"),4],
   ["S",PBTrainers::SIGMATOURNAMENT,"S",_INTL("Oh diamine!"),1],
-  ["crisante",PBTrainers::CRISANTETOURNAMENT,"Crisante",_INTL("Qual verso potrà mai calmare la mia frustrazione?"),2],
+  ["crisante_walk",PBTrainers::CRISANTETOURNAMENT,"Crisante",_INTL("Qual verso potrà mai calmare la mia frustrazione?"),2],
   #["trey",PBTrainers::TREYTOURNAMENT,"Trey",_INTL("Hmph! La prossima volta vincerò io!"),5],
 ]
 
