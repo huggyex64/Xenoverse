@@ -451,7 +451,7 @@ class MoveRelearnerScreen
 	end
 end
 
-def pbGetTutorMoves(pokemon)
+def pbGetTutorMoves(pokemon,recursive = true)
 	return [] if !pokemon || pokemon.isEgg? || (pokemon.isShadow? rescue false)
 	moves=[]
 	for move in 0...PBMoves.maxValue
@@ -459,7 +459,20 @@ def pbGetTutorMoves(pokemon)
 	end
 	#Added all TMs, now to add Egg Moves
 	eggmoves = pokemon.possibleEggMoves
-	allmoves = moves+ eggmoves
+	if $preEvolutionsList == []
+		pbLoadPreEvoList()
+	end
+	if recursive
+		for sp in $preEvolutionsList[pokemon.species]
+			echoln sp
+			poke = pbGenerateWildPokemon(sp,5)
+			poke.form = pokemon.form
+			poke.makeDelta if pokemon.isDelta?
+			res = pbGetTutorMoves(poke,false)
+			eggmoves = eggmoves + res[2]
+		end
+	end
+	allmoves = moves + eggmoves
 	allmoves = allmoves|[]
 	return [allmoves,moves,eggmoves] # remove duplicates
 end

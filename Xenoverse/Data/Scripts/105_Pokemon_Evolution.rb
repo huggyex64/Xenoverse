@@ -899,3 +899,22 @@ def pbCheckEvolution(pokemon,item=0)
     }
   end
 end
+
+$preEvolutionsList=[]
+
+def pbLoadPreEvoList()
+  $preEvolutionsList=[]
+  for i in 1..PBSpecies.maxValue
+    # Se I si evolve
+    # la lista evolutiva di I+1 diventa la lista evolutiva di I
+    # poi aggiungo I alla lista evolutiva di I+1
+    evo = pbGetEvolvedFormData(i)
+    $preEvolutionsList[i] = [] if $preEvolutionsList[i] == nil
+    if evo != nil && evo.length > 0 
+      for ev in evo
+        $preEvolutionsList[ev[2]] = $preEvolutionsList[i]
+        $preEvolutionsList[ev[2]] << i if !$preEvolutionsList[ev[2]].include?(i)
+      end
+    end
+  end
+end
