@@ -141,6 +141,9 @@ class MoveRelearnerScene
 				bmp+="_#{pokemon.form}"
 			end
 		end
+		if pokemon.isDelta?
+			bmp+="d"
+		end
 		bitmap = pbBitmap(bmp).clone
 		return bitmap
 	end
