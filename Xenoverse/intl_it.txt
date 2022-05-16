@@ -33126,6 +33126,18 @@ L'Attacco Speciale di {1} è aumentato.
 La Difesa Speciale di {1} è aumentata.
 {1}'s Speed increased.
 La Velocità di {1} è aumentata.
+{1}'s HP decreased.
+I PS di {1} sono diminuiti.
+{1}'s Attack decreased.
+L'Attacco di {1} è diminuito.
+{1}'s Defense decreased.
+La Difesa di {1} è diminuita.
+{1}'s Special Attack decreased.
+L'Attacco Speciale di {1} è diminuito.
+{1}'s Special Defense decreased.
+La Difesa Speciale di {1} è diminuita.
+{1}'s Speed decreased.
+La Velocità di {1} è diminuita.
 {1} adores you!<<n>>The base HP fell!
 {1} ti adora!<<n>>I PS di base calano!
 {1} turned friendly.<<n>>The base HP can't fall!

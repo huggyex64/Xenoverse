@@ -46820,6 +46820,24 @@ Sound Plate
 838
 Morfopalla
 Alterball
+839
+Erbovita
+Health Herb
+840
+Erboforza
+Strength Herb
+841
+Erboferro
+Iron Herb
+842
+Erbingegno
+Brain Herb
+843
+Erbomente
+Mind Herb
+844
+Erboazione
+Action Herb
 [8]
 1
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
@@ -49212,6 +49230,24 @@ An item to be held by a Pokémon. It is a stone tablet that boosts the power of 
 838
 Strumento da dare a Pikachu X. Sfera insolita che aumenta l'Attacco e l'Attacco Speciale.
 An item to be held by Pikachu X. It is a puzzling orb that raises the Attack and Sp. Atk stat.
+839
+Strumento da usare su un Pokémon. Ne diminuisce di poco i punti individuali dei PS.
+An item for use on a Pokémon. It slightly decreases the individual HP of a single Pokémon.
+840
+Strumento da usare su un Pokémon. Ne diminuisce di poco i punti individuali dell'Attacco.
+An item for use on a Pokémon. It slightly decreases the individual Attack strength of a single Pokémon.
+841
+Strumento da usare su un Pokémon. Ne diminuisce di poco i punti individuali della Difesa.
+An item for use on a Pokémon. It slightly decreases the individual Defense strength of a single Pokémon.
+842
+Strumento da usare su un Pokémon. Ne diminuisce di poco i punti individuali dell'Atacco Speciale.
+An item for use on a Pokémon. It slightly decreases the individual Sp. Atk strength of a single Pokémon.
+843
+Strumento da usare su un Pokémon. Ne diminuisce di poco i punti individuali della Difesa Speciale.
+An item for use on a Pokémon. It slightly decreases the individual Sp. Def strength of a single Pokémon.
+844
+Strumento da usare su un Pokémon. Ne diminuisce di poco i punti individuali della Velocità.
+An item for use on a Pokémon. It slightly decreases the individual Speed strength of a single Pokémon.
 [9]
 1
 Tanfo

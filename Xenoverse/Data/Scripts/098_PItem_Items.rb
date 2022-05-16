@@ -357,7 +357,7 @@ def pbJustRaiseEffortValues(pokemon,ev,evgain)
   return evgain
 end
 
-def pbRaiseEffortValues(pokemon,ev,evgain=10,evlimit=true)
+def pbRaiseEffortValues(pokemon,ev,evgain=10,evlimit=false)
   if pokemon.ev[ev]>=100 && evlimit
     return 0
   end
@@ -379,6 +379,19 @@ def pbRaiseEffortValues(pokemon,ev,evgain=10,evlimit=true)
     pokemon.calcStats
   end
   return evgain
+end
+
+def pbLowerIV(scene,pokemon,stat,decrease=1)
+  if pokemon.iv[stat] == 0 
+    scene.pbDisplay(_INTL("It won't have any effect."))
+    return false
+  end
+  pokemon.iv[stat] -= decrease
+  if pokemon.iv[stat] < 0
+    pokemon.iv[stat] = 0
+  end
+  pokemon.calcStats
+  return true
 end
 
 def pbRaiseHappinessAndLowerEV(pokemon,scene,ev,messages)

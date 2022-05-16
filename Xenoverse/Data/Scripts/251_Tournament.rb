@@ -1154,6 +1154,12 @@ BATTLE_POINT_PRICES = {
   PBItems::SASSYMINT => 8,
   PBItems::SERIOUSMINT => 8,
   PBItems::TIMIDMINT => 8,
+  PBItems::IVHERBHP => 4,
+  PBItems::IVHERBATK => 4,
+  PBItems::IVHERBDEF => 4,
+  PBItems::IVHERBSPA => 4,
+  PBItems::IVHERBSPD => 4,
+  PBItems::IVHERBSPE => 4,
 
   # 3 tornei 1 mega
   PBItems::VENUSAURITE => 50,

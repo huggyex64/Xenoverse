@@ -1017,6 +1017,60 @@ ItemHandlers::UseOnPokemon.add(:CARBOS,proc{|item,pokemon,scene|
    end
 })
 
+ItemHandlers::UseOnPokemon.add(:IVHERBHP,proc{|item,pokemon,scene|
+  if !pbLowerIV(scene,pokemon,PBStats::HP)
+    next false
+  else
+    scene.pbDisplay(_INTL("{1}'s HP decreased.",pokemon.name))
+    next true
+  end
+})
+
+ItemHandlers::UseOnPokemon.add(:IVHERBATK,proc{|item,pokemon,scene|
+  if !pbLowerIV(scene,pokemon,PBStats::ATTACK)
+    next false
+  else
+    scene.pbDisplay(_INTL("{1}'s Attack decreased.",pokemon.name))
+    next true
+  end
+})
+
+ItemHandlers::UseOnPokemon.add(:IVHERBDEF,proc{|item,pokemon,scene|
+  if !pbLowerIV(scene,pokemon,PBStats::DEFENSE)
+    next false
+  else
+    scene.pbDisplay(_INTL("{1}'s Defense decreased.",pokemon.name))
+    next true
+  end
+})
+
+ItemHandlers::UseOnPokemon.add(:IVHERBSPA,proc{|item,pokemon,scene|
+  if !pbLowerIV(scene,pokemon,PBStats::SPATK)
+    next false
+  else
+    scene.pbDisplay(_INTL("{1}'s Special Attack decreased.",pokemon.name))
+    next true
+  end
+})
+
+ItemHandlers::UseOnPokemon.add(:IVHERBSPD,proc{|item,pokemon,scene|
+  if !pbLowerIV(scene,pokemon,PBStats::SPDEF)
+    next false
+  else
+    scene.pbDisplay(_INTL("{1}'s Special Defense decreased.",pokemon.name))
+    next true
+  end
+})
+
+ItemHandlers::UseOnPokemon.add(:IVHERBSPE,proc{|item,pokemon,scene|
+  if !pbLowerIV(scene,pokemon,PBStats::SPEED)
+    next false
+  else
+    scene.pbDisplay(_INTL("{1}'s Speed decreased.",pokemon.name))
+    next true
+  end
+})
+
 ItemHandlers::UseOnPokemon.add(:HEALTHWING,proc{|item,pokemon,scene|
    if pbRaiseEffortValues(pokemon,0,1,false)==0
      scene.pbDisplay(_INTL("It won't have any effect."))
