@@ -1974,7 +1974,7 @@ MultipleForms.register(:BLASTOISE,{
 
 MultipleForms.register(:SCEPTILE, {
 	"getMegaForm"=>proc{|pokemon|
-		next 1 if isConst?(pokemon.item,PBItems,:SCEPTILITE)
+		next 1 if isConst?(pokemon.item,PBItems,:SCEPTILITE) && (pokemon.form == 0 || pokemon.form == 1)
 		next
 	},
 	"type2"=>proc{|pokemon|
