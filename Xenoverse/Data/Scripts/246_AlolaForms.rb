@@ -2363,7 +2363,7 @@ MultipleForms.register(:MAROWAK,{
 #===============================================================================
 MultipleForms.register(:GROWLITHE,{
   "getFormOnCreation"=>proc{|pokemon|
-    if $game_map && [633,634].include?($game_map.map_id)
+    if $game_map && [633,637].include?($game_map.map_id)
       next 1 #HISUI FORM
     else
       next

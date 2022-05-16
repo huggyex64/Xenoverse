@@ -2729,17 +2729,9 @@ module CableClub
       end
     end
 
-    if Input.trigger?(Input::L)
-
-      
-      #@state = :await_wt_info
-
-    end
-
     #if Input.trigger?(Input::L)
-      #uid = pbEnterText("Target UID",0,50)
-      
-      #do_spectate(connection,uid,@ui) if uid != ""
+    #  uid = pbEnterText("Target UID",0,50)
+    #  do_spectate(connection,uid,@ui) if uid != ""
     #end
 
     ##################################################

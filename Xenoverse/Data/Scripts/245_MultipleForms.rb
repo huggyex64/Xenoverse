@@ -2826,7 +2826,7 @@ MultipleForms.register(:MASGOT,{
 
 			blastoise_maps = [629,630]
 			braviary_maps = [631,632]
-			tyranitar_maps = [633,634]
+			tyranitar_maps = [633,637]
 
 			if $game_map && gengar_maps.include?($game_map.map_id)
 				next 1 #GENGAR FORM
