@@ -820,7 +820,7 @@ class PokeBattle_Battler
                     stat!=PBStats::SPATK && stat!=PBStats::SPDEF &&
                     stat!=PBStats::SPEED && stat!=PBStats::EVASION &&
                     stat!=PBStats::ACCURACY
-    if pbCanReduceStatStage?(stat,false,false,ignoreContrary,moldbreaker)
+    if pbCanReduceStatStage?(stat,false)
       increment=pbReduceStatBasic(stat,increment,attacker,ignoreContrary,moldbreaker)
       if increment>0
         if ignoreContrary
