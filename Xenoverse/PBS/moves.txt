@@ -74,7 +74,7 @@
 74,SPARK,Scintilla,007,65,ELECTRIC,Physical,100,20,30,00,0,abe,"Colpisce il bersaglio con una scarica elettrica e può anche paralizzarlo."
 75,THUNDERFANG,Fulmindenti,009,65,ELECTRIC,Physical,95,15,100,00,0,abef,"Chi la usa morde il bersaglio con zanne elettrificate che possono anche far tentennare o paralizzare il bersaglio."
 76,SHOCKWAVE,Ondashock,0A5,60,ELECTRIC,Special,0,20,0,00,0,bef,"Chi la usa colpisce il bersaglio con una scossa di elettricità. È impossibile eludere questa mossa."
-77,ELECTROWEB,Elettrotela,044,55,ELECTRIC,Special,95,15,0,04,0,bef,"Chi la usa cattura ed attacca i bersagli attorno con una ragnatela elettrica che, inoltre, ne riduce la Velocità."
+77,ELECTROWEB,Elettrotela,044,55,ELECTRIC,Special,95,15,100,04,0,bef,"Chi la usa cattura ed attacca i bersagli attorno con una ragnatela elettrica che, inoltre, ne riduce la Velocità."
 78,CHARGEBEAM,Raggioscossa,020,50,ELECTRIC,Special,90,10,70,00,0,bef,"Chi la usa attacca con un fascio di elettricità intensa che può anche aumentarne l'Attacco Speciale."
 79,THUNDERSHOCK,Tuonoshock,007,40,ELECTRIC,Special,100,30,10,00,0,be,"Danneggia il bersaglio con una scarica elettrica che può anche paralizzarlo."
 80,ELECTROBALL,Energisfera,099,1,ELECTRIC,Special,100,10,0,00,0,bef,"Chi la usa attacca con una sfera d'energia elettrica. Più è rapido rispetto al bersaglio, più danni arreca."
