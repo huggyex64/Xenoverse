@@ -1823,7 +1823,7 @@ MultipleForms.register(:WARTORTLE,{
 # VENUSAUR
 MultipleForms.register(:VENUSAUR,{
 		"getMegaForm"=>proc{|pokemon|
-			next 1 if isConst?(pokemon.item,PBItems,:VENUSAURITE) && pokemon.form == 0
+			next 1 if isConst?(pokemon.item,PBItems,:VENUSAURITE) && (pokemon.form == 0 || pokemon.form == 1)
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
@@ -1872,8 +1872,8 @@ MultipleForms.register(:VENUSAUR,{
 # CHARIZARD
 MultipleForms.register(:CHARIZARD,{
 		"getMegaForm"=>proc{|pokemon|
-			next 1 if isConst?(pokemon.item,PBItems,:CHARIZARDITET) && pokemon.form == 0
-			next 2 if isConst?(pokemon.item,PBItems,:CHARIZARDITEX) && pokemon.form == 0
+			next 1 if isConst?(pokemon.item,PBItems,:CHARIZARDITET) && (pokemon.form == 0 || pokemon.form == 1)
+			next 2 if isConst?(pokemon.item,PBItems,:CHARIZARDITEX) && (pokemon.form == 0 || pokemon.form == 2)
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
@@ -1926,7 +1926,7 @@ MultipleForms.register(:CHARIZARD,{
 # BLASTOISE
 MultipleForms.register(:BLASTOISE,{
 		"getMegaForm"=>proc{|pokemon|
-			next 1 if isConst?(pokemon.item,PBItems,:BLASTOISINITE) && pokemon.form == 0
+			next 1 if isConst?(pokemon.item,PBItems,:BLASTOISINITE) && (pokemon.form == 0 || pokemon.form == 1)
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
