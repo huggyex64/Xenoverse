@@ -308,9 +308,9 @@ class PokeBattle_Move_009 < PokeBattle_Move
 			hadeffect=true
 		end
 		if @battle.pbRandom(10)==0
-			if !opponent.hasWorkingAbility(:INNERFOCUS) &&
+			if !(opponent.hasWorkingAbility(:INNERFOCUS) && !attacker.hasMoldBreaker) &&
 				opponent.effects[PBEffects::Substitute]==0
-				opponent.effects[PBEffects::Flinch]=true
+				opponent.effects[PBEffects::Flinch]=true 
 				hadeffect=true
 			end
 		end
@@ -356,7 +356,7 @@ class PokeBattle_Move_00B < PokeBattle_Move
 			hadeffect=true
 		end
 		if @battle.pbRandom(10)==0
-			if !opponent.hasWorkingAbility(:INNERFOCUS) &&
+			if !(opponent.hasWorkingAbility(:INNERFOCUS) && !attacker.hasMoldBreaker)  &&
 				opponent.effects[PBEffects::Substitute]==0
 				opponent.effects[PBEffects::Flinch]=true
 				hadeffect=true
@@ -432,7 +432,7 @@ class PokeBattle_Move_00E < PokeBattle_Move
 			hadeffect=true
 		end
 		if @battle.pbRandom(10)==0
-			if !opponent.hasWorkingAbility(:INNERFOCUS) &&
+			if !(opponent.hasWorkingAbility(:INNERFOCUS) && !attacker.hasMoldBreaker)  &&
 				opponent.effects[PBEffects::Substitute]==0
 				opponent.effects[PBEffects::Flinch]=true
 				hadeffect=true
@@ -449,7 +449,7 @@ end
 ################################################################################
 class PokeBattle_Move_00F < PokeBattle_Move
 	def pbAdditionalEffect(attacker,opponent)
-		if !opponent.hasWorkingAbility(:INNERFOCUS) &&
+		if !(opponent.hasWorkingAbility(:INNERFOCUS) && !attacker.hasMoldBreaker) &&
 			opponent.effects[PBEffects::Substitute]==0
 			opponent.effects[PBEffects::Flinch]=true
 			return true
@@ -465,7 +465,7 @@ end
 ################################################################################
 class PokeBattle_Move_010 < PokeBattle_Move
 	def pbAdditionalEffect(attacker,opponent)
-		if !opponent.hasWorkingAbility(:INNERFOCUS) &&
+		if !(opponent.hasWorkingAbility(:INNERFOCUS) && !attacker.hasMoldBreaker) &&
 			opponent.effects[PBEffects::Substitute]==0
 			opponent.effects[PBEffects::Flinch]=true
 			return true
@@ -492,7 +492,7 @@ class PokeBattle_Move_011 < PokeBattle_Move
 	end
 	
 	def pbAdditionalEffect(attacker,opponent)
-		if !opponent.hasWorkingAbility(:INNERFOCUS) &&
+		if !(opponent.hasWorkingAbility(:INNERFOCUS) && !attacker.hasMoldBreaker) &&
 			opponent.effects[PBEffects::Substitute]==0
 			opponent.effects[PBEffects::Flinch]=true
 			return true
@@ -512,7 +512,7 @@ end
 ################################################################################
 class PokeBattle_Move_012 < PokeBattle_Move
 	def pbAdditionalEffect(attacker,opponent)
-		if !opponent.hasWorkingAbility(:INNERFOCUS) &&
+		if !(opponent.hasWorkingAbility(:INNERFOCUS) && !attacker.hasMoldBreaker)  &&
 			opponent.effects[PBEffects::Substitute]==0
 			opponent.effects[PBEffects::Flinch]=true
 			return true
@@ -567,7 +567,7 @@ class PokeBattle_Move_014 < PokeBattle_Move
 		if opponent.pbCanConfuse?(false)
 			if isConst?(attacker.species,PBSpecies,:CHATOT) &&
 				!attacker.effects[PBEffects::Transform] &&
-				!opponent.hasWorkingAbility(:SHIELDDUST)
+				!(opponent.hasWorkingAbility(:SHIELDDUST) && !attacker.hasMoldBreaker)
 				chance=0
 				if attacker.pokemon && attacker.pokemon.chatter
 					chance+=attacker.pokemon.chatter.intensity*10/127
@@ -1991,8 +1991,8 @@ class PokeBattle_Move_04A < PokeBattle_Move
 			@battle.pbDisplay(_INTL("{1} is protected by Mist!",opponent.pbThis))
 			return -1
 		end
-		if opponent.hasWorkingAbility(:CLEARBODY) ||
-			opponent.hasWorkingAbility(:WHITESMOKE) || opponent.hasWorkingAbility(:FULLMETALBODY)
+		if (opponent.hasWorkingAbility(:CLEARBODY) ||
+			opponent.hasWorkingAbility(:WHITESMOKE) || opponent.hasWorkingAbility(:FULLMETALBODY)) && !attacker.hasMoldBreaker
 			@battle.pbDisplay(_INTL("{1}'s {2} prevents stat loss!",opponent.pbThis,
 					PBAbilities.getName(opponent.ability)))
 			return -1
@@ -2090,7 +2090,7 @@ class PokeBattle_Move_04E < PokeBattle_Move
 			@battle.pbDisplay(_INTL("But it failed!"))
 			return -1
 		end
-		if opponent.hasWorkingAbility(:OBLIVIOUS)
+		if opponent.hasWorkingAbility(:OBLIVIOUS) && !attacker.hasMoldBreaker
 			@battle.pbDisplay(_INTL("{1}'s {2} prevents romance!",opponent.pbThis,
 					PBAbilities.getName(opponent.ability)))
 			return -1
@@ -2103,7 +2103,7 @@ class PokeBattle_Move_04E < PokeBattle_Move
 	def pbAdditionalEffect(attacker,opponent)
 		return false if attacker.gender==2 || opponent.gender==2 ||
 		attacker.gender==opponent.gender
-		return false if opponent.hasWorkingAbility(:OBLIVIOUS)
+		return false if opponent.hasWorkingAbility(:OBLIVIOUS) && !attacker.hasMoldBreaker
 		if opponent.pbCanReduceStatStage?(PBStats::SPATK,false)
 			opponent.pbReduceStat(PBStats::SPATK,2,false)
 		end
@@ -2920,7 +2920,7 @@ end
 ################################################################################
 class PokeBattle_Move_070 < PokeBattle_Move
 	def pbAccuracyCheck(attacker,opponent)
-		if opponent.hasWorkingAbility(:STURDY)
+		if opponent.hasWorkingAbility(:STURDY) && !attacker.hasMoldBreaker
 			@battle.pbDisplay(_INTL("{1} was protected by {2}!",opponent.pbThis,PBAbilities.getName(opponent.ability)))  
 			return false
 		end
@@ -3089,7 +3089,7 @@ class PokeBattle_Move_078 < PokeBattle_Move
 	end
 	
 	def pbAdditionalEffect(attacker,opponent)
-		if !opponent.hasWorkingAbility(:INNERFOCUS) &&
+		if !(opponent.hasWorkingAbility(:INNERFOCUS) && !attacker.hasMoldBreaker) &&
 			opponent.effects[PBEffects::Substitute]==0
 			opponent.effects[PBEffects::Flinch]=true
 			return true
@@ -3945,7 +3945,7 @@ class PokeBattle_Move_0A4 < PokeBattle_Move
 			return false if !opponent.pbCanReduceStatStage?(PBStats::DEFENSE,1,false)
 			opponent.pbReduceStat(PBStats::DEFENSE,1,false)
 		when PBEnvironment::Cave, PBEnvironment::Rock
-			return false if opponent.hasWorkingAbility(:INNERFOCUS) ||
+			return false if (opponent.hasWorkingAbility(:INNERFOCUS) && !attacker.hasMoldBreaker) ||
 			opponent.effects[PBEffects::Substitute]>0
 			opponent.effects[PBEffects::Flinch]=true
 		when PBEnvironment::Sand
@@ -4862,7 +4862,7 @@ class PokeBattle_Move_0C7 < PokeBattle_Move
 	end
 	
 	def pbAdditionalEffect(attacker,opponent)
-		if !opponent.hasWorkingAbility(:INNERFOCUS) &&
+		if !(opponent.hasWorkingAbility(:INNERFOCUS) && !attacker.hasMoldBreaker)  &&
 			opponent.effects[PBEffects::Substitute]==0
 			opponent.effects[PBEffects::Flinch]=true
 			return true
@@ -5543,7 +5543,7 @@ end
 class PokeBattle_Move_0E0 < PokeBattle_Move
 	def pbOnStartUse(attacker)
 		bearer=@battle.pbCheckGlobalAbility(:DAMP)
-		if bearer
+		if bearer && !attacker.hasMoldBreaker
 			@battle.pbDisplay(_INTL("{1}'s {2} prevents {3} from using {4}!",
 					bearer.pbThis,PBAbilities.getName(bearer.ability),attacker.pbThis(true),@name))
 			return false
@@ -5593,7 +5593,7 @@ class PokeBattle_Move_0E2 < PokeBattle_Move
 			prevented=true
 		end
 		if !prevented && (opponent.hasWorkingAbility(:CLEARBODY) ||
-				opponent.hasWorkingAbility(:WHITESMOKE) || opponent.hasWorkingAbility(:FULLMETALBODY)) 
+				opponent.hasWorkingAbility(:WHITESMOKE) || opponent.hasWorkingAbility(:FULLMETALBODY)) && !attacker.hasMoldBreaker
 			@battle.pbDisplay(_INTL("{1}'s {2} prevents stat loss!",opponent.pbThis,
 					PBAbilities.getName(opponent.ability)))
 			prevented=true
@@ -5816,7 +5816,7 @@ class PokeBattle_Move_0EB < PokeBattle_Move
 			@battle.pbDisplay(_INTL("The boss Pokémon didn't move an inch!"))
 			return -1
 		end
-		if opponent.hasWorkingAbility(:SUCTIONCUPS)
+		if opponent.hasWorkingAbility(:SUCTIONCUPS) && !attacker.hasMoldBreaker
 			@battle.pbDisplay(_INTL("{1} anchored itself with {2}!",opponent.pbThis,PBAbilities.getName(opponent.ability)))  
 			return -1
 		end
@@ -5865,7 +5865,7 @@ class PokeBattle_Move_0EC < PokeBattle_Move
 		ret=super(attacker,opponent,hitnum,alltargets,showanimation)
 		if !attacker.isFainted? && !opponent.isFainted? &&
 			opponent.damagestate.calcdamage>0 && !opponent.damagestate.substitute && 
-			!opponent.hasWorkingAbility(:SUCTIONCUPS) &&
+			!(opponent.hasWorkingAbility(:SUCTIONCUPS) && !attacker.hasMoldBreaker) &&
 			!opponent.effects[PBEffects::Ingrain] && !opponent.boss
 			if !@battle.opponent
 				if opponent.level<attacker.level
@@ -5939,7 +5939,7 @@ class PokeBattle_Move_0EE < PokeBattle_Move
 		
 		attacker.pbFaint if attacker.isFainted? # no return
 		if !attacker.isFainted? && @battle.pbCanChooseNonActive?(attacker.index) &&
-			!@battle.pbAllFainted?(@battle.pbParty(opponent.index)) && (self.type == PBTypes::ELECTRIC ? !opponent.hasWorkingAbility(:VOLTABSORB) : true)
+			!@battle.pbAllFainted?(@battle.pbParty(opponent.index)) && (self.type == PBTypes::ELECTRIC ? !(opponent.hasWorkingAbility(:VOLTABSORB) && !attacker.hasMoldBreaker) : true)
 			# TODO: Pursuit should go here, and negate this effect if it KO's attacker
 			@battle.pbDisplay(_INTL("{1} went back to {2}!",attacker.pbThis,@battle.pbGetOwner(attacker.index).name))
 			newpoke=0
@@ -5987,7 +5987,7 @@ class PokeBattle_Move_0F0 < PokeBattle_Move
 		ret=super(attacker,opponent,hitnum,alltargets,showanimation)
 		if !opponent.isFainted? && opponent.damagestate.calcdamage>0 &&
 			!opponent.damagestate.substitute && opponent.item!=0
-			if opponent.hasWorkingAbility(:STICKYHOLD)
+			if opponent.hasWorkingAbility(:STICKYHOLD) && !attacker.hasMoldBreaker
 				abilityname=PBAbilities.getName(opponent.ability)
 				@battle.pbDisplay(_INTL("{1}'s {2} made {3} ineffective!",opponent.pbThis,abilityname,@name))
 			elsif !@battle.pbIsUnlosableItem(opponent,opponent.item)
@@ -6012,7 +6012,7 @@ class PokeBattle_Move_0F1 < PokeBattle_Move
 		ret=super(attacker,opponent,hitnum,alltargets,showanimation)
 		if opponent.damagestate.calcdamage>0 &&
 			!opponent.damagestate.substitute && opponent.item!=0
-			if opponent.hasWorkingAbility(:STICKYHOLD)
+			if opponent.hasWorkingAbility(:STICKYHOLD) && !attacker.hasMoldBreaker
 				abilityname=PBAbilities.getName(opponent.ability)
 				@battle.pbDisplay(_INTL("{1}'s {2} made {3} ineffective!",opponent.pbThis,abilityname,@name))
 			elsif !@battle.pbIsUnlosableItem(opponent,opponent.item) &&
@@ -6059,7 +6059,7 @@ class PokeBattle_Move_0F2 < PokeBattle_Move
 			@battle.pbDisplay(_INTL("But it failed!"))
 			return -1
 		end
-		if opponent.hasWorkingAbility(:STICKYHOLD)
+		if opponent.hasWorkingAbility(:STICKYHOLD) && !attacker.hasMoldBreaker
 			abilityname=PBAbilities.getName(opponent.ability)
 			@battle.pbDisplay(_INTL("{1}'s {2} made {3} ineffective!",opponent.pbThis,abilityname,name))
 			return -1
@@ -6140,7 +6140,7 @@ class PokeBattle_Move_0F4 < PokeBattle_Move
 		ret=super(attacker,opponent,hitnum,alltargets,showanimation)
 		if !attacker.isFainted? && opponent.damagestate.calcdamage>0 &&
 			!opponent.damagestate.substitute && pbIsBerry?(opponent.item)
-			if opponent.hasWorkingAbility(:STICKYHOLD)
+			if opponent.hasWorkingAbility(:STICKYHOLD) && !attacker.hasMoldBreaker
 				abilityname=PBAbilities.getName(opponent.ability)
 				@battle.pbDisplay(_INTL("{1}'s {2} made {3} ineffective!",opponent.pbThis,abilityname,@name))
 			else
@@ -6341,7 +6341,7 @@ class PokeBattle_Move_0F7 < PokeBattle_Move
 		end
 		ret=super(attacker,opponent,hitnum,alltargets,showanimation)
 		if opponent.damagestate.calcdamage>0 && !opponent.damagestate.substitute &&
-			!opponent.hasWorkingAbility(:SHIELDDUST)
+			!(opponent.hasWorkingAbility(:SHIELDDUST) && attacker.hasMoldBreaker)
 			#      if $ItemData[@item][ITEMPOCKET]==4
 			#        pbSpecialBerryUse(opponent,attacker,false,true)
 			#      end
@@ -6352,7 +6352,7 @@ class PokeBattle_Move_0F7 < PokeBattle_Move
 				end
 			elsif attacker.hasWorkingItem(:KINGSROCK) ||
 				attacker.hasWorkingItem(:RAZORFANG)
-				if !opponent.hasWorkingAbility(:INNERFOCUS) &&
+				if !(opponent.hasWorkingAbility(:INNERFOCUS) && !attacker.hasMoldBreaker)  &&
 					opponent.effects[PBEffects::Substitute]==0
 					opponent.effects[PBEffects::Flinch]=true
 				end
@@ -7302,7 +7302,7 @@ class PokeBattle_Move_11C < PokeBattle_Move
 			opponent.effects[PBEffects::SmackDown]=true
 			showmsg=false
 			showmsg=true if opponent.pbHasType?(:FLYING) ||
-			opponent.hasWorkingAbility(:LEVITATE)
+			(opponent.hasWorkingAbility(:LEVITATE) && !attacker.hasMoldBreaker)
 			if PBMoveData.new(opponent.effects[PBEffects::TwoTurnAttack]).function==0xC9 || # Fly
 				PBMoveData.new(opponent.effects[PBEffects::TwoTurnAttack]).function==0xCC    # Bounce
 				opponent.effects[PBEffects::TwoTurnAttack]=0; showmsg=true

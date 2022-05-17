@@ -1201,7 +1201,7 @@ class PokeBattle_Battler
 					end
 				end
 				if target.hasWorkingAbility(:AFTERMATH,true) && target.fainted? && move.isContactMove? && !user.isFainted? && !user.hasWorkingAbility?(:LONGREACH)
-					if !@battle.pbCheckGlobalAbility(:DAMP)
+					if !@battle.pbCheckGlobalAbility(:DAMP) && !user.hasMoldBreaker
 						PBDebug.log("[#{user.pbThis} hurt by Aftermath]")
 						@battle.scene.pbDamageAnimation(user,0)
 						user.pbReduceHP((user.totalhp/4).floor)
@@ -1226,7 +1226,7 @@ class PokeBattle_Battler
 								PBAbilities.getName(target.ability),user.pbThis(true)))
 						PBDebug.log("[#{user.pbThis} was Cute Charmed by #{target.pbThis(true)}]")
 						if user.hasWorkingItem(:DESTINYKNOT) &&
-							!target.hasWorkingAbility(:OBLIVIOUS) &&
+							!(target.hasWorkingAbility(:OBLIVIOUS) && !user.hasMoldBreaker) &&
 							target.effects[PBEffects::Attract]<0
 							target.effects[PBEffects::Attract]=user.index
 							@battle.pbDisplay(_INTL("{1}'s {2} infatuated {3}!",user.pbThis,
@@ -2345,10 +2345,10 @@ class PokeBattle_Battler
 		target=userandtarget[1]
 		# LightningRod here, considers Hidden Power as Normal
 		if targets.length==1 && isConst?(thismove.type,PBTypes,:ELECTRIC) && 
-			!target.hasWorkingAbility(:LIGHTNINGROD)
+			!target.hasWorkingAbility(:LIGHTNINGROD) && !hasMoldBreaker()
 			for i in priority # use Pokémon earliest in priority
 				next if !pbIsOpposing?(i.index)
-				if i.hasWorkingAbility(:LIGHTNINGROD)
+				if i.hasWorkingAbility(:LIGHTNINGROD) && !hasMoldBreaker()
 					target=i # X's LightningRod took the attack!
 					changeeffect=1
 					break
@@ -2357,10 +2357,10 @@ class PokeBattle_Battler
 		end
 		# Storm Drain here, considers Hidden Power as Normal
 		if targets.length==1 && isConst?(thismove.type,PBTypes,:WATER) && 
-			!target.hasWorkingAbility(:STORMDRAIN)
+			!target.hasWorkingAbility(:STORMDRAIN) && !hasMoldBreaker()
 			for i in priority # use Pokémon earliest in priority
 				next if !pbIsOpposing?(i.index)
-				if i.hasWorkingAbility(:STORMDRAIN)
+				if i.hasWorkingAbility(:STORMDRAIN) && !hasMoldBreaker()
 					target=i # X's Storm Drain took the attack!
 					changeeffect=2
 					break
@@ -2422,7 +2422,8 @@ class PokeBattle_Battler
 		userandtarget[1]=target
 		if target.hasWorkingAbility(:SOUNDPROOF) && thismove.isSoundBased? &&
 			thismove.function!=0x19 &&   # Heal Bell handled elsewhere
-			thismove.function!=0xE5      # Perish Song handled elsewhere
+			thismove.function!=0xE5 &&     # Perish Song handled elsewhere 
+			!user.hasMoldBreaker
 			PBDebug.log("[#{target.pbThis}'s Soundproof blocked #{user.pbThis(true)}'s #{thismove.name}]")
 			@battle.pbDisplay(_INTL("{1}'s {2} blocks {3}!",target.pbThis,
 					PBAbilities.getName(target.ability),thismove.name))
@@ -2444,7 +2445,7 @@ class PokeBattle_Battler
 				pbSetPP(pressuremove,pressuremove.pp-1) if pressuremove.pp>0
 			end
 		end
-		if thismove.canMagicCoat? && target.hasWorkingAbility(:MAGICBOUNCE)
+		if thismove.canMagicCoat? && target.hasWorkingAbility(:MAGICBOUNCE) && !user.hasMoldBreaker
 			echoln "Magic Bounced move #{thismove.name}"
 			# switch user and target
 			PBDebug.log("[#{user.pbThis}'s #{thismove.name} was Magic Bounced by #{target.pbThis(true)}]")
@@ -2668,7 +2669,7 @@ class PokeBattle_Battler
 			# Airborne-based immunity to Ground moves
 			if isConst?(type,PBTypes,:GROUND) && target.isAirborne? &&
 				!target.hasWorkingItem(:RINGTARGET)
-				if target.hasWorkingAbility(:LEVITATE)
+				if target.hasWorkingAbility(:LEVITATE) && !user.hasMoldBreaker
 					@battle.pbDisplay(_INTL("{1} makes Ground moves miss with Levitate!",target.pbThis))
 					PBDebug.log("[#{user.pbThis}: Ground-type move missed because of Levitate]")
 					return false
@@ -2689,7 +2690,7 @@ class PokeBattle_Battler
 					return false
 				end
 			end
-			if target.hasWorkingAbility(:WONDERGUARD) && typemod<=4 && type>=0
+			if target.hasWorkingAbility(:WONDERGUARD) && !user.hasMoldBreaker && typemod<=4 && type>=0
 				@battle.pbDisplay(_INTL("{1} avoided damage with Wonder Guard!",target.pbThis))
 				PBDebug.log("[#{user.pbThis}: move thwarted by Wonder Guard]")
 				return false 
@@ -2995,7 +2996,7 @@ class PokeBattle_Battler
 			# Additional effect
 			if target.damagestate.calcdamage>0 &&
 				!target.hasWorkingAbility(:SHIELDDUST) &&
-				!user.hasWorkingAbility(:SHEERFORCE)
+				!user.hasWorkingAbility(:SHEERFORCE) && !user.hasMoldBreaker
 				addleffect=thismove.addlEffect
 				addleffect*=2 if user.hasWorkingAbility(:SERENEGRACE)
 				addleffect=100 if $DEBUG && Input.press?(Input::CTRL)
@@ -3052,7 +3053,7 @@ class PokeBattle_Battler
 			end
 			# Make the target flinch
 			if target.damagestate.calcdamage>0 && !target.damagestate.substitute
-				if !target.hasWorkingAbility(:SHIELDDUST)
+				if !(target.hasWorkingAbility(:SHIELDDUST) && !user.hasMoldBreaker)
 					if (user.hasWorkingItem(:KINGSROCK) || user.hasWorkingItem(:RAZORFANG)) &&
 						thismove.canKingsRock?
 						if @battle.pbRandom(10)==0

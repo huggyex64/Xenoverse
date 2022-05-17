@@ -4,6 +4,7 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanSleep?(showMessages,selfsleep=false,ignorestatus=false)
     return false if isFainted?
+    moldbreaker = @battle.battlers[@battle.lastMoveUser].hasMoldBreaker
     if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
@@ -16,7 +17,7 @@ class PokeBattle_Battler
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
     end
-    if !hasWorkingAbility(:SOUNDPROOF)
+    if !(hasWorkingAbility(:SOUNDPROOF) && !moldbreaker)
       for i in 0...4
         if @battle.battlers[i].effects[PBEffects::Uproar]>0
           @battle.pbDisplay(_INTL("But the uproar kept {1} awake!",pbThis(true))) if showMessages
@@ -27,13 +28,13 @@ class PokeBattle_Battler
     if hasWorkingAbility(:VITALSPIRIT) ||
 			hasWorkingAbility(:INSOMNIA) ||
 			hasWorkingAbility(:SWEETVEIL) ||
-       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA))
+       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA)) && !moldbreaker
       abilityname=PBAbilities.getName(self.ability)
       @battle.pbDisplay(_INTL("{1} stayed awake using its {2}!",pbThis,abilityname)) if showMessages
       return false
     end
-		if pbPartner.hasWorkingAbility(:SWEETVEIL) ||
-         (pbPartner.hasWorkingAbility(:FLOWERVEIL) && pbHasType?(:GRASS))
+		if (pbPartner.hasWorkingAbility(:SWEETVEIL) ||
+         (pbPartner.hasWorkingAbility(:FLOWERVEIL) && pbHasType?(:GRASS))) && !attacker.hasMoldBreaker
         abilityname=PBAbilities.getName(pbPartner.ability)
         @battle.pbDisplay(_INTL("{1} stayed awake using its partner's {2}!",pbThis,abilityname)) if showMessages
         return false
@@ -87,6 +88,7 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanPoison?(showMessages)
     return false if isFainted?
+    moldbreaker = @battle.battlers[@battle.lastMoveUser].hasMoldBreaker
     if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
@@ -104,7 +106,7 @@ class PokeBattle_Battler
       return false
     end   
     if hasWorkingAbility(:IMMUNITY) ||
-       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA))
+       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA)) && !moldbreaker
       @battle.pbDisplay(_INTL("{1}'s {2} prevents poisoning!",pbThis,PBAbilities.getName(self.ability))) if showMessages
       return false
     end
@@ -174,6 +176,7 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanBurn?(showMessages)
     return false if isFainted?
+    moldbreaker = @battle.battlers[@battle.lastMoveUser].hasMoldBreaker
     if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
@@ -191,7 +194,7 @@ class PokeBattle_Battler
        return false
     end
     if hasWorkingAbility(:WATERVEIL) ||
-       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA))
+       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA)) && !moldbreaker
       @battle.pbDisplay(_INTL("{1}'s {2} prevents burns!",pbThis,PBAbilities.getName(self.ability))) if showMessages
       return false
     end
@@ -203,7 +206,8 @@ class PokeBattle_Battler
   end
 
   def pbCanBurnFromFireMove?(move,showMessages) # Use for status moves only
-    return false if isFainted?
+    return false if isFainted?    
+    moldbreaker = @battle.battlers[@battle.lastMoveUser].hasMoldBreaker
     if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
@@ -220,7 +224,7 @@ class PokeBattle_Battler
       @battle.pbDisplay(_INTL("It doesn't affect {1}...",pbThis(true))) if showMessages
       return false
     end
-    if hasWorkingAbility(:FLASHFIRE) && isConst?(move.type,PBTypes,:FIRE)
+    if hasWorkingAbility(:FLASHFIRE) && isConst?(move.type,PBTypes,:FIRE) && !moldbreaker
       if !@effects[PBEffects::FlashFire]
         @effects[PBEffects::FlashFire]=true
         @battle.pbDisplay(_INTL("{1}'s {2} raised its Fire power!",pbThis,PBAbilities.getName(self.ability)))
@@ -230,7 +234,7 @@ class PokeBattle_Battler
       return false
     end
     if hasWorkingAbility(:WATERVEIL) ||
-       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA))
+       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA)) && !moldbreaker
       @battle.pbDisplay(_INTL("{1}'s {2} prevents burns!",pbThis,PBAbilities.getName(self.ability))) if showMessages
       return false
     end
@@ -280,6 +284,7 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanParalyze?(showMessages)
     return false if isFainted?
+    moldbreaker = @battle.battlers[@battle.lastMoveUser].hasMoldBreaker
     if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
@@ -293,7 +298,7 @@ class PokeBattle_Battler
       return false
     end
     if hasWorkingAbility(:LIMBER) ||
-       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA))
+       (hasWorkingAbility(:LEAFGUARD) && @battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA)) && !moldbreaker
       @battle.pbDisplay(_INTL("{1}'s {2} prevents paralysis!",pbThis,PBAbilities.getName(self.ability))) if showMessages
       return false
     end
@@ -337,12 +342,13 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanFreeze?(showMessages)
     return false if isFainted?
+    moldbreaker = @battle.battlers[@battle.lastMoveUser].hasMoldBreaker
     if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
     end
     if (@battle.pbWeather==PBWeather::SUNNYDAY && !hasWorkingItem(:UTILITYUMBRELLA)) || self.status!=0 ||
-       hasWorkingAbility(:MAGMAARMOR) ||
+       (hasWorkingAbility(:MAGMAARMOR) && !moldbreaker) ||
        pbOwnSide.effects[PBEffects::Safeguard]>0 ||
        effects[PBEffects::Substitute]>0 ||
        (pbHasType?(:ICE) && !hasWorkingItem(:RINGTARGET))
@@ -408,6 +414,7 @@ class PokeBattle_Battler
 #===============================================================================
   def pbCanConfuse?(showMessages)
     return false if isFainted?
+    moldbreaker = @battle.battlers[@battle.lastMoveUser].hasMoldBreaker
     if effects[PBEffects::Confusion]>0
       @battle.pbDisplay(_INTL("{1} is already confused!",pbThis)) if showMessages
       return false
@@ -416,7 +423,7 @@ class PokeBattle_Battler
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
     end
-    if hasWorkingAbility(:OWNTEMPO)
+    if hasWorkingAbility(:OWNTEMPO) && !moldbreaker
       @battle.pbDisplay(_INTL("{1}'s {2} prevents confusion!",pbThis,PBAbilities.getName(self.ability))) if showMessages
       return false
     end
@@ -466,6 +473,7 @@ class PokeBattle_Battler
   def pbCanAttract?(attacker,showMessages=true)
     return false if isFainted?
     return false if !attacker
+    moldbreaker = attacker.hasMoldBreaker
     if IMMUNESHINOBI.include?(species) && isBoss? && @boss==true
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
@@ -480,7 +488,7 @@ class PokeBattle_Battler
       @battle.pbDisplay(_INTL("But it failed!")) if showMessages
       return false
     end
-    if hasWorkingAbility(:OBLIVIOUS)
+    if hasWorkingAbility(:OBLIVIOUS) && !moldbreaker
       @battle.pbDisplay(_INTL("{1}'s {2} prevents romance!",pbThis,
          PBAbilities.getName(self.ability))) if showMessages
       return false
@@ -506,7 +514,7 @@ class PokeBattle_Battler
   end
 
   def pbCanIncreaseStatStage?(stat,showMessages=false,ignoreContrary=false)
-		moldbreaker=false
+    moldbreaker = @battle.battlers[@battle.lastMoveUser].hasMoldBreaker
 		if !moldbreaker
 			if hasWorkingAbility(:CONTRARY) && !ignoreContrary
 				return pbCanReduceStatStage?(stat,showMessages,true,true)
@@ -528,7 +536,8 @@ class PokeBattle_Battler
     return true
   end
 
-  def pbIncreaseStatBasic(stat,increment,attacker=nil,ignoreContrary=false, moldbreaker = false)
+  def pbIncreaseStatBasic(stat,increment,attacker=nil,ignoreContrary=false)
+    moldbreaker = @battle.battlers[@battle.lastMoveUser].hasMoldBreaker
 		if !moldbreaker
       if !attacker || attacker.index==self.index || !attacker.hasMoldBreaker
         if hasWorkingAbility(:CONTRARY) && !ignoreContrary
@@ -545,7 +554,7 @@ class PokeBattle_Battler
   end
 
   def pbIncreaseStat(stat,increment,showMessages,upanim=true,ignoreContrary=false)
-		moldbreaker=false
+		moldbreaker = @battle.battlers[@battle.lastMoveUser].hasMoldBreaker
 		if !moldbreaker
       #if !attacker || attacker.index==self.index || !attacker.hasMoldBreaker
         if hasWorkingAbility(:CONTRARY) && !ignoreContrary
@@ -612,6 +621,7 @@ class PokeBattle_Battler
   end
 	
 	def pbIncreaseStatWithCause(stat,increment,attacker,cause,showanim=true,showmessage=true,moldbreaker=false,ignoreContrary=false)
+    moldbreaker = @battle.battlers[@battle.lastMoveUser].hasMoldBreaker
     if !moldbreaker
       if !attacker || attacker.index==self.index || !attacker.hasMoldBreaker
         if hasWorkingAbility(:CONTRARY) && !ignoreContrary
@@ -657,7 +667,7 @@ class PokeBattle_Battler
   # (Reason is they lower more than 1 stat independently, and therefore could
   # show certain messages twice which is undesirable.)
   def pbCanReduceStatStage?(stat,showMessages=false,selfreduce=false,ignoreContrary=false)
-		moldbreaker=false
+		moldbreaker = @battle.battlers[@battle.lastMoveUser].hasMoldBreaker
 		if !moldbreaker
 			if hasWorkingAbility(:CONTRARY) && !ignoreContrary
 				return pbCanIncreaseStatStage?(stat,showMessages,true)
@@ -673,22 +683,22 @@ class PokeBattle_Battler
         @battle.pbDisplay(_INTL("{1} is protected by Mist!",pbThis)) if showMessages
         return false
       end
-      if hasWorkingAbility(:CLEARBODY) || hasWorkingAbility(:WHITESMOKE) || hasWorkingAbility(:FULLMETALBODY)
+      if (hasWorkingAbility(:CLEARBODY) || hasWorkingAbility(:WHITESMOKE) || hasWorkingAbility(:FULLMETALBODY)) && !moldbreaker
         abilityname=PBAbilities.getName(self.ability)
         @battle.pbDisplay(_INTL("{1}'s {2} prevents stat loss!",pbThis,abilityname)) if showMessages
         return false
       end
-      if stat==PBStats::ATTACK && hasWorkingAbility(:HYPERCUTTER)
+      if stat==PBStats::ATTACK && hasWorkingAbility(:HYPERCUTTER) && !moldbreaker
         abilityname=PBAbilities.getName(self.ability)
         @battle.pbDisplay(_INTL("{1}'s {2} prevents Attack loss!",pbThis,abilityname)) if showMessages
         return false
       end
-      if stat==PBStats::DEFENSE && hasWorkingAbility(:BIGPECKS)
+      if stat==PBStats::DEFENSE && hasWorkingAbility(:BIGPECKS) && !moldbreaker
         abilityname=PBAbilities.getName(self.ability)
         @battle.pbDisplay(_INTL("{1}'s {2} prevents Defense loss!",pbThis,abilityname)) if showMessages
         return false
       end
-      if stat==PBStats::ACCURACY && hasWorkingAbility(:KEENEYE)
+      if stat==PBStats::ACCURACY && hasWorkingAbility(:KEENEYE) && !moldbreaker
         abilityname=PBAbilities.getName(self.ability)
         @battle.pbDisplay(_INTL("{1}'s {2} prevents Accuracy loss!",pbThis,abilityname)) if showMessages
         return false
@@ -709,7 +719,8 @@ class PokeBattle_Battler
     return true
   end
 
-  def pbReduceStatBasic(stat,increment,attacker=nil,ignoreContrary=false, moldbreaker = false)
+  def pbReduceStatBasic(stat,increment,attacker=nil,ignoreContrary=false)
+    moldbreaker = @battle.battlers[@battle.lastMoveUser].hasMoldBreaker
 		if !moldbreaker
 			if hasWorkingAbility(:CONTRARY) && !ignoreContrary
 				return pbIncreaseStatBasic(stat,increment,attacker,true)
@@ -724,7 +735,7 @@ class PokeBattle_Battler
   end
 
   def pbReduceStat(stat,increment,showMessages,downanim=true,selfreduce=false,ignoreContrary=false)
-		moldbreaker=false
+		moldbreaker = @battle.battlers[@battle.lastMoveUser].hasMoldBreaker
 		if !moldbreaker
       if hasWorkingAbility(:CONTRARY) && !ignoreContrary
         echoln "TRIGGERED CONTRARY!"
@@ -757,7 +768,7 @@ class PokeBattle_Battler
     else
       return false
     end
-    if pbCanReduceStatStage?(stat,showMessages,selfreduce)
+    if pbCanReduceStatStage?(stat,showMessages,selfreduce,moldbreaker)
       pbReduceStatBasic(stat,increment,nil,ignoreContrary)
       @battle.pbCommonAnimation("StatDown",self,nil) if downanim
       if increment>=2
@@ -797,7 +808,7 @@ class PokeBattle_Battler
   end
 	
 	def pbReduceStatWithCause(stat,increment,attacker,cause,showanim=true,showmessage=true,moldbreaker=false,ignoreContrary=false)
-    moldbreaker=false
+    moldbreaker = @battle.battlers[@battle.lastMoveUser].hasMoldBreaker
 		if !moldbreaker
       if !attacker || attacker.index==self.index || !attacker.hasMoldBreaker
         if hasWorkingAbility(:CONTRARY) && !ignoreContrary
@@ -809,7 +820,7 @@ class PokeBattle_Battler
                     stat!=PBStats::SPATK && stat!=PBStats::SPDEF &&
                     stat!=PBStats::SPEED && stat!=PBStats::EVASION &&
                     stat!=PBStats::ACCURACY
-    if pbCanReduceStatStage?(stat,false)
+    if pbCanReduceStatStage?(stat,false,false,ignoreContrary,moldbreaker)
       increment=pbReduceStatBasic(stat,increment,attacker,ignoreContrary,moldbreaker)
       if increment>0
         if ignoreContrary
