@@ -886,8 +886,8 @@ class PokeBattle_Move
 			attacker.hp<=(attacker.totalhp/2).floor
 			atkmult=(atkmult*0.5).round
 		end
-		if attacker.hasWorkingAbility(:PUREPOWER) ||
-			attacker.hasWorkingAbility(:HUGEPOWER)
+		if (attacker.hasWorkingAbility(:PUREPOWER) ||
+			attacker.hasWorkingAbility(:HUGEPOWER)) && pbIsPhysical?(type)
 			atkmult=(atkmult*2.0).round
 		end
 		if attacker.hasWorkingAbility(:SOLARPOWER) &&
