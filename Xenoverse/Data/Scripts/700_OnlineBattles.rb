@@ -3755,7 +3755,7 @@ module CableClub
         rescue Connection::Disconnected => e
           scene.pbEndBattle(0)
           exc = $!
-        rescue BattleAbortedException => ex
+        rescue PokeBattle_Battle::BattleAbortedException => ex
           result = battle.decision
           echoln "result of the battle is #{result}"
         ensure
