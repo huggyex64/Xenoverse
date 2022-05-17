@@ -368,8 +368,8 @@ def pbRaiseEffortValues(pokemon,ev,evgain=10,evlimit=false)
   if totalev+evgain>510
     evgain=510-totalev
   end
-  if pokemon.ev[ev]+evgain>255
-    evgain=255-pokemon.ev[ev]
+  if pokemon.ev[ev]+evgain>252
+    evgain=252-pokemon.ev[ev]
   end
   if evlimit && pokemon.ev[ev]+evgain>100
     evgain=100-pokemon.ev[ev]
