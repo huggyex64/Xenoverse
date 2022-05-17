@@ -768,7 +768,7 @@ class PokeBattle_Battler
     else
       return false
     end
-    if pbCanReduceStatStage?(stat,showMessages,selfreduce,moldbreaker)
+    if pbCanReduceStatStage?(stat,showMessages,selfreduce)
       pbReduceStatBasic(stat,increment,nil,ignoreContrary)
       @battle.pbCommonAnimation("StatDown",self,nil) if downanim
       if increment>=2
@@ -821,7 +821,7 @@ class PokeBattle_Battler
                     stat!=PBStats::SPEED && stat!=PBStats::EVASION &&
                     stat!=PBStats::ACCURACY
     if pbCanReduceStatStage?(stat,false)
-      increment=pbReduceStatBasic(stat,increment,attacker,ignoreContrary,moldbreaker)
+      increment=pbReduceStatBasic(stat,increment,attacker,ignoreContrary)
       if increment>0
         if ignoreContrary
           @battle.pbDisplay(_INTL("{1}'s {2} activated!",pbThis,PBAbilities.getName(self.ability))) if showmessage
