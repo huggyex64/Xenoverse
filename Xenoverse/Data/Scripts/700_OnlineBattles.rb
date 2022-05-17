@@ -5419,7 +5419,7 @@ class PokeBattle_SpectateCableClub < PokeBattle_CableClub
             #echoln ">>>>>>>>>>>>>>>>>>>MOVE RECEIVE INFO: #{move}  #{move==nil ? nil : partner_pkmn.moves[move]}  #{move==nil ? nil : move && partner_pkmn.moves[move]}"
             @choices[their_index][2] = move && partner_pkmn.moves[move]
             @choices[their_index][3] = isMaster ? masterize(rec3) : rec3
-            @megaEvolution[1][0] = recmega # mega fix?
+            @megaEvolution[isMaster ? 0 : 1][0] = isMaster ? recmega ^ 1 : recmega # mega fix?
             
             echoln "RECEIVED CHOICE! #{@choices[their_index]}"
             return if canPlayTurn?(true) #isMaster ? our_indices.empty? : their_indices.empty? #their_indices.empty?

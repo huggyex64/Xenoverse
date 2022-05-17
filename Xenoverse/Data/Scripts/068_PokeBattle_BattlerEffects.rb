@@ -634,7 +634,7 @@ class PokeBattle_Battler
                     stat!=PBStats::SPEED && stat!=PBStats::EVASION &&
                     stat!=PBStats::ACCURACY
     if pbCanIncreaseStatStage?(stat,false)
-      increment=pbIncreaseStatBasic(stat,increment,attacker,ignoreContrary,moldbreaker)#,attacker,moldbreaker,ignoreContrary)
+      increment=pbIncreaseStatBasic(stat,increment,attacker,ignoreContrary)#,attacker,moldbreaker,ignoreContrary)
       if increment>0
         if ignoreContrary
           @battle.pbDisplay(_INTL("{1}'s {2} activated!",pbThis,PBAbilities.getName(self.ability))) if showmessage
