@@ -3068,7 +3068,15 @@ module CableClub
           return
         end
         @battleTeam = nil
+        
+        # QUESTI VANNO AL SERVER
+        connection.send do |writer|
+          writer.sym(:clearRandom)
+          writer.str(@client_id == 0 ? @uid + @partner_uid : @partner_uid + @uid)
+        end
+
         #Send battle request data
+        
         connection.send do |writer|
           writer.sym(:fwd)
           writer.str(@partner_uid)
