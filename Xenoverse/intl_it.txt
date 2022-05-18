@@ -37592,6 +37592,8 @@ Status
 Stato
 Pick your avatar
 Scegli il tuo avatar
+Would you like to look like {1}?
+Vuoi avere l'aspetto di {1}?
 Would you like to look like an {1}?
 Vuoi avere l'aspetto di un {1}?
 Would you like to look like a {1}?
@@ -37776,3 +37778,19 @@ No Rental Team found.
 Nessun Team a nolo trovato.
 \w[]\wm\c[8]\l[3]After fainting out, {1} awakes in a safe place nearby.
 \w[]\wm\c[8]\l[3]Dopo la sconfitta, {1} si risveglia in un luogo sicuro vicino.
+Paolo left a message.
+Paolo ha lasciato un messaggio.
+Paolo: Hey, you! Look, we really want you to get into our new invention, so we decided to let you in on this SUPER\wt[12]-TOP\wt[12]-SECRET\wt[12] invention!
+Paolo: Hey, tu! Vedi, siamo veramente intenzionati a farti appassionare alla nostra nuova invenzione, quindi abbiamo deciso di farti provare questa nuova funzione SUPER\wt[12]-TOP\wt[12]-SECRET\wt[12]!
+Paolo: It's called <b>Virtual Move Tutor</b> and trust me, it'll come in handy!
+Paolo: Si chiama <b>Insegnamosse Virtuale</b> e fidati di me, ti tornerà utile!
+Paolo: It analyzes the genetic data of any of your Pokémons and lets it learn any move it could be compatible with!
+Paolo: Analizza i dati genetici di qualsiasi dei tuoi Pokémon e consente loro di imparare qualsiasi mossa con cui sarebbero compatibili!
+Paolo: But only if it's not one that needs experience! You know, it's not an almighty tool!
+Paolo: Ma solo se non è una che richiede dell'esperienza! Sai, non è uno strumento onnipotente!
+Paolo: By the way... It'll be a little pricey... But we can make some discounts for you if you get more famous...
+Paolo: In ogni caso... Sarà un po' costoso... Ma possiamo ragionare su qualche sconticino se diventerai più famoso...
+Paolo: ...so get more badges and the price just might drop!
+Paolo: ...perciò vinci più medaglie e il prezzo potrebbe calare!
+Paolo: I have to go now, there's another really important project that's waiting for me! See ya!
+Paolo: Ora devo andare, c'è un altro progetto veramente importante che mi aspetta! Ci vediamo!
