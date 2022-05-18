@@ -2571,7 +2571,7 @@ module CableClub
 
     #echoln "Handling enlist! Can refresh player list? #{canRefreshPlayerList?()}"
     if Input.trigger?(Input::F5) && canRefreshPlayerList?()
-      Kernel.pbMessage("Refreshing player list...")
+      Kernel.pbMessage(_INTL("Refreshing player list..."))
       @ui.pbDisplayAvaiblePlayerList(getPlayerList())
       @frame = 0
     end
