@@ -37794,3 +37794,7 @@ Paolo: ...so get more badges and the price just might drop!
 Paolo: ...perciò vinci più medaglie e il prezzo potrebbe calare!
 Paolo: I have to go now, there's another really important project that's waiting for me! See ya!
 Paolo: Ora devo andare, c'è un altro progetto veramente importante che mi aspetta! Ci vediamo!
+You can't trade this Pokémon.
+Non puoi scambiare questo Pokémon.
+I'm sorry, your party contains a Pokémon not allowed.
+Spiacente, la tua squadra contiene Pokémon non consentiti.

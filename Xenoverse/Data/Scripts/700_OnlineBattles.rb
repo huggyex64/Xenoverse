@@ -2853,10 +2853,18 @@ module CableClub
                   valid = true
                 end
               end
-              if $Trainer.party[@wtchosen].hp > 0 && ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@wtchosen].species)
+              if $Trainer.party[@wtchosen].hp > 0 &&
+                ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@wtchosen].species) && 
+                [PBItems::ANELLOT,PBItems::ANELLOX].include?($Trainer.party[@wtchosen].item)
                 valid = true
               end
               break if @wtchosen < 0
+              
+              if !valid
+                msgwindow.visible = true
+                Kernel.pbMessageDisplay(msgwindow, _INTL("You can't trade this Pokémon."))
+                msgwindow.visible = false
+              end
             end
             if @wtchosen >= 0
               connection.send do |writer|
@@ -3134,10 +3142,18 @@ module CableClub
                 valid = true
               end
             end
-            if $Trainer.party[@chosen].hp > 0 && ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@chosen].species)
+            if $Trainer.party[@wtchosen].hp > 0 &&
+              ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@wtchosen].species) && 
+              [PBItems::ANELLOT,PBItems::ANELLOX].include?($Trainer.party[@wtchosen].item)
               valid = true
             end
             break if @chosen < 0
+              
+            if !valid
+              msgwindow.visible = true
+              Kernel.pbMessageDisplay(msgwindow, _INTL("You can't trade this Pokémon."))
+              msgwindow.visible = false
+            end
           end
           if @chosen >= 0
             connection.send do |writer|
@@ -3251,10 +3267,18 @@ module CableClub
                 valid = true
               end
             end
-            if $Trainer.party[@chosen].hp > 0 && ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@chosen].species)
+            if $Trainer.party[@wtchosen].hp > 0 &&
+              ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@wtchosen].species) && 
+              [PBItems::ANELLOT,PBItems::ANELLOX].include?($Trainer.party[@wtchosen].item)
               valid = true
             end
             break if @chosen < 0
+              
+            if !valid
+              msgwindow.visible = true
+              Kernel.pbMessageDisplay(msgwindow, _INTL("You can't trade this Pokémon."))
+              msgwindow.visible = false
+            end
           end
           if @chosen >= 0
             connection.send do |writer|
