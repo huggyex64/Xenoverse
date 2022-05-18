@@ -2853,7 +2853,7 @@ module CableClub
                   valid = true
                 end
               end
-              if $Trainer.party[@wtchosen].hp > 0 && ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI].include?($Trainer.party[@wtchosen].species)
+              if $Trainer.party[@wtchosen].hp > 0 && ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@wtchosen].species)
                 valid = true
               end
               break if @wtchosen < 0
