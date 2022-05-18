@@ -3125,7 +3125,20 @@ module CableClub
       when :acceptTrade #TRADE ONLY
         case @activity
         when :trade
-          @chosen = choose_pokemon
+          #@chosen = choose_pokemon          
+          valid = false
+          while !valid
+            @chosen = choose_pokemon
+            if $Trainer.party[@chosen].isEgg?
+              if $Trainer.party.any? { |p| p != $Trainer.party[@chosen] && p.hp > 0 && !p.isEgg?}
+                valid = true
+              end
+            end
+            if $Trainer.party[@chosen].hp > 0 && ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@chosen].species)
+              valid = true
+            end
+            break if @chosen < 0
+          end
           if @chosen >= 0
             connection.send do |writer|
               writer.sym(:fwd)
@@ -3229,7 +3242,20 @@ module CableClub
             writer.str(@partner_uid)
             writer.sym(:acceptTrade)
           end
-          @chosen = choose_pokemon
+          #@chosen = choose_pokemon
+          valid = false
+          while !valid
+            @chosen = choose_pokemon
+            if $Trainer.party[@chosen].isEgg?
+              if $Trainer.party.any? { |p| p != $Trainer.party[@chosen] && p.hp > 0 && !p.isEgg?}
+                valid = true
+              end
+            end
+            if $Trainer.party[@chosen].hp > 0 && ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@chosen].species)
+              valid = true
+            end
+            break if @chosen < 0
+          end
           if @chosen >= 0
             connection.send do |writer|
               writer.sym(:fwd)
