@@ -2855,7 +2855,7 @@ module CableClub
               end
               if $Trainer.party[@wtchosen].hp > 0 &&
                 ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@wtchosen].species) && 
-                ![PBItems::ANELLOT,PBItems::ANELLOX].include?($Trainer.party[@wtchosen].item)
+                ($Trainer.party[@wtchosen].item != nil ? ![PBItems::ANELLOT,PBItems::ANELLOX].include?($Trainer.party[@wtchosen].item) : true)
                 valid = true
               end
               break if @wtchosen < 0
@@ -3142,9 +3142,9 @@ module CableClub
                 valid = true
               end
             end
-            if $Trainer.party[@wtchosen].hp > 0 &&
-              ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@wtchosen].species) && 
-              ![PBItems::ANELLOT,PBItems::ANELLOX].include?($Trainer.party[@wtchosen].item)
+            if $Trainer.party[@chosen].hp > 0 &&
+              ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@chosen].species) && 
+              ($Trainer.party[@chosen].item != nil ? ![PBItems::ANELLOT,PBItems::ANELLOX].include?($Trainer.party[@chosen].item) : true)
               valid = true
             end
             break if @chosen < 0
@@ -3267,9 +3267,9 @@ module CableClub
                 valid = true
               end
             end
-            if $Trainer.party[@wtchosen].hp > 0 &&
-              ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@wtchosen].species) && 
-              ![PBItems::ANELLOT,PBItems::ANELLOX].include?($Trainer.party[@wtchosen].item)
+            if $Trainer.party[@chosen].hp > 0 &&
+              ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@chosen].species) && 
+              ($Trainer.party[@chosen].item != nil ? ![PBItems::ANELLOT,PBItems::ANELLOX].include?($Trainer.party[@chosen].item) : true)
               valid = true
             end
             break if @chosen < 0
