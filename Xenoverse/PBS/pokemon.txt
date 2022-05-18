@@ -25219,7 +25219,7 @@ RegionalNumbers=0,0,121
 Kind=Orsetto
 Pokedex=Se trova del miele la sua mezzaluna diventa più luminosa. Si lecca le zampe intrise di miele.
 BattlerPlayerY=7
-BattlerEnemyY=8
+BattlerEnemyY=20
 Evolutions=URSARINGVINTAGE,Level,30
 [1378]
 Name=Ursaring
