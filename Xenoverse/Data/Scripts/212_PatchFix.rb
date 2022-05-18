@@ -128,7 +128,7 @@ PATCHFIXES = {
 			end
 		},
 		"1.3.18" => proc{
-			#apply 1.3.11 patchfix
+			#apply 1.3.18 patchfix
 			Log.i("Patch Fix","Applying patch fixes for version 1.3.18")
 			   for p in $Trainer.party
 				   if (p != nil)
@@ -146,6 +146,22 @@ PATCHFIXES = {
 								poke.forcedForm = nil
 								poke.form = 1
 							end
+					   end
+				   end
+			   end
+		   },	
+		"1.4.0" => proc{
+			#apply 1.4.0 patchfix
+			Log.i("Patch Fix","Applying patch fixes for version 1.4.0")
+			   for p in $Trainer.party
+				   if (p != nil)
+					   p.calcStats
+				   end
+			   end
+			   for b in $PokemonStorage.boxes
+				   for poke in b.pokemon
+					   if poke != nil
+						poke.calcStats
 					   end
 				   end
 			   end
