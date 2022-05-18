@@ -2855,7 +2855,7 @@ module CableClub
               end
               if $Trainer.party[@wtchosen].hp > 0 &&
                 ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@wtchosen].species) && 
-                [PBItems::ANELLOT,PBItems::ANELLOX].include?($Trainer.party[@wtchosen].item)
+                ![PBItems::ANELLOT,PBItems::ANELLOX].include?($Trainer.party[@wtchosen].item)
                 valid = true
               end
               break if @wtchosen < 0
@@ -3144,7 +3144,7 @@ module CableClub
             end
             if $Trainer.party[@wtchosen].hp > 0 &&
               ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@wtchosen].species) && 
-              [PBItems::ANELLOT,PBItems::ANELLOX].include?($Trainer.party[@wtchosen].item)
+              ![PBItems::ANELLOT,PBItems::ANELLOX].include?($Trainer.party[@wtchosen].item)
               valid = true
             end
             break if @chosen < 0
@@ -3269,7 +3269,7 @@ module CableClub
             end
             if $Trainer.party[@wtchosen].hp > 0 &&
               ![PBSpecies::SHYLEON,PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::DIELEBI,PBSpecies::SABOLT,PBSpecies::LUXFLON,PBSpecies::DRAGALISKFURIA].include?($Trainer.party[@wtchosen].species) && 
-              [PBItems::ANELLOT,PBItems::ANELLOX].include?($Trainer.party[@wtchosen].item)
+              ![PBItems::ANELLOT,PBItems::ANELLOX].include?($Trainer.party[@wtchosen].item)
               valid = true
             end
             break if @chosen < 0
