@@ -4579,7 +4579,7 @@ class PokeBattle_Battle
 
   def pbCanMoveOneshot(attacker, opponent, move, skill)
     
-    if move.function = 0x111 && opponent.effects[PBEffects::FutureSight]>0
+    if move.function == 0x111 && opponent.effects[PBEffects::FutureSight]>0
       return false
     end
     if opponent.hasWorkingItem(:FOCUSSASH) && opponent.hp == opponent.totalhp
