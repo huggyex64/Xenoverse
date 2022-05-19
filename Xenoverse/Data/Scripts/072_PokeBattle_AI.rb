@@ -134,6 +134,13 @@ class PokeBattle_Battle
     when 0x05, 0x06, 0xBE
       if opponent.pbCanPoison?(false)
         score+=30
+        if skill == PBTrainerAI.ultraSkill
+          if !opponent.hasWorkingAbility(:POISONHEAL)
+            score+=1500
+          else
+            score-=1500
+          end
+        end
         if skill>=PBTrainerAI.mediumSkill
           score+=30 if opponent.hp<=opponent.totalhp/4
           score+=50 if opponent.hp<=opponent.totalhp/8
@@ -2301,6 +2308,11 @@ class PokeBattle_Battle
         score-=90
       elsif pbWeather==PBWeather::HAIL
         score-=90
+      end
+      if skill==PBTrainerAI.ultraSkill
+        if pbWeather!=PBWeather::HAIL
+          score+=1000
+        end
       end
     when 0x103
       if attacker.pbOpposingSide.effects[PBEffects::Spikes]>=3
