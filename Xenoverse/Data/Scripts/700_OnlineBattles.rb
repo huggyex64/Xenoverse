@@ -2519,6 +2519,7 @@ module CableClub
     @partner_id = -1
     @partner_name = nil
     @partner_party = nil
+    @partner_battle_party = nil
   end
 
   def self.handle_await_server(connection,msgwindow)
@@ -3086,6 +3087,7 @@ module CableClub
           writer.sym(@battle_type)
           writer.int($Trainer.online_trainer_type)
           writer.sym(@chosenTier)
+          write_custom_party(@rentalParty == nil ? $Trainer.party : @rentalParty)
         end
         @activity = :battle
         @state = :await_accept_activity
@@ -3217,6 +3219,7 @@ module CableClub
         @battle_type = record.sym
         trainertype = record.int
         @chosenTier = record.sym
+        @partner_battle_party = parse_party(record)
         partner = PokeBattle_Trainer.new(@partner_name, trainertype)
         (partner.partyID=0) rescue nil # EBDX compat
         #rental team check for validity
@@ -3392,7 +3395,7 @@ module CableClub
         if $Trainer.rentalTeamCode != "" && @rentalParty != nil
           party = @rentalParty
         end
-        ret = OnlinePartySelection.new($Trainer,party,@partner_name,@partner_party,BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type],@battle_type==:single ? 1 : 2,@cancancelSelection,proc{|x|
+        ret = OnlinePartySelection.new($Trainer,party,@partner_name,@partner_battle_party,BATTLE_TIERS_NUMBERS[@chosenTier][@battle_type],@battle_type==:single ? 1 : 2,@cancancelSelection,proc{|x|
           return BATTLE_TIERS[@chosenTier].call(x)
         })
         @battleTeam = ret.result
@@ -3669,6 +3672,7 @@ module CableClub
       @partner_id = -1
       @partner_name = nil
       @partner_party = nil
+      @partner_battle_party = nil
       @battleTeam = nil
       @frame = 0
       @activity = nil
