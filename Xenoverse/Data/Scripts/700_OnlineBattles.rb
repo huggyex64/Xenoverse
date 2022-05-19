@@ -3128,7 +3128,7 @@ module CableClub
         case @activity
         when :battle
           msgwindow.visible = false
-          
+          @partner_battle_party = parse_party(record)
           connection.send do |writer|
             writer.sym(:resetReady)
             writer.str(@partner_uid)
@@ -3278,6 +3278,7 @@ module CableClub
               writer.sym(:fwd)
               writer.str(@partner_uid)
               writer.sym(:ok)
+              write_custom_party(partyToCheck)
             end
             # QUESTI VANNO AL SERVER
             connection.send do |writer|
