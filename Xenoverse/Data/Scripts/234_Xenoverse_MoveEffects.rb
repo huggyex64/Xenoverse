@@ -394,7 +394,7 @@ class PokeBattle_Move_14B < PokeBattle_Move
 			end
 		end
 		if !unmoved ||
-			(!USENEWBATTLEMECHANICS &&
+			(USENEWBATTLEMECHANICS &&
 				@battle.pbRandom(65536)>=(65536/attacker.effects[PBEffects::ProtectRate]).floor)
 			attacker.effects[PBEffects::ProtectRate]=1
 			@battle.pbDisplay(_INTL("But it failed!"))

@@ -2226,6 +2226,10 @@ def pbVakumBossBattle(hardmode = false)
   $game_switches[85]=true
   species = [PBSpecies::EGORGEON, PBSpecies::TORNADUS, PBSpecies::THUNDURUS, PBSpecies::LANDORUS, PBSpecies::ENAMORUS]
   
+  if $game_switches[1318]==true #HARD
+    hardmode = true
+  end
+
   if (!hardmode)
     #easy
     partyMoves = [

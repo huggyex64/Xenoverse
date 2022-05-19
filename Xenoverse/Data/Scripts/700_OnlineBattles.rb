@@ -3119,7 +3119,7 @@ module CableClub
   def self.handle_await_accept_activity(connection,msgwindow)
     echoln "#{@state}: awaiting leader to choose activity"
     pbMessageDisplayDots(msgwindow, _INTL("Waiting for {1} to accept", @partner_name), @frame)
-    connection.updateExp([:ok,:acceptTrade,:cancel,:leaveParty,:partnerDisconnected]) do |record|
+    connection.updateExp([:ok,:invalidParty,:acceptTrade,:cancel,:leaveParty,:partnerDisconnected]) do |record|
       case (type = record.sym)
       when :ok #BATTLE ONLY
           #Kernel.pbDisposeMessageWindow(msgwindow)
@@ -3138,6 +3138,9 @@ module CableClub
         else
           print "Unknown activity: #{@activity}"
         end
+      when :invalidParty
+        Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like your opponent can't enter this Tier with the current team."))
+        @state = :choose_activity
       when :acceptTrade #TRADE ONLY
         case @activity
         when :trade
@@ -3216,8 +3219,47 @@ module CableClub
         @chosenTier = record.sym
         partner = PokeBattle_Trainer.new(@partner_name, trainertype)
         (partner.partyID=0) rescue nil # EBDX compat
+        #rental team check for validity
+        valid = true
+        @rentalParty = nil
+        partyToCheck = $Trainer.party
+        #Retrieving Rental party info
+        if $Trainer.useRentalTeam && $Trainer.rentalTeamCode != ""
+          if connection.can_send?
+            connection.send do |writer|
+              writer.sym(:getRental) 
+              writer.str($Trainer.rentalTeamCode)
+            end
+            res = nil
+            while (res == nil)
+              Input.update
+              Graphics.update
+              connection.updateExp([:found,:notFound]) do |record|
+                case (type = record.sym)
+                when :found
+                  author = record.str
+                  res = parse_party(record)
+                else
+                  res = -1
+                end
+              end
+            end
+            if (res != nil && res != -1)
+              partyToCheck = res
+              @rentalParty = res
+            end
+          end
+        end
+        valid = checkValidity(msgwindow,false,@battle_type,@chosenTier,partyToCheck,nil)
         # Auto-reject double battles that we cannot participate in.
-        if @battle_type == :double && $Trainer.party.length < 2
+        if !valid
+          connection.send do |writer|
+            writer.sym(:fwd)
+            writer.str(@partner_uid)
+            writer.sym(:invalidParty)
+          end
+          @state = :await_choose_activity
+        elsif @battle_type == :double && partyToCheck.length < 2
           connection.send do |writer|
             writer.sym(:fwd)
             writer.str(@partner_uid)
@@ -3882,6 +3924,49 @@ module CableClub
     #$Trainer.party[index] = your_pkmn
   end
 
+  def self.checkValidity(msgwindow, showmsg, battleType, tier, party, opp_party)
+    vp = 0 #valid pokemons
+    vopp = 0 #valid opp pokemons
+    for p in party
+      if (BATTLE_TIERS[tier].call(p))
+        vp +=1
+      end
+    end
+
+    if battleType == :single
+      if vp < 1
+        Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like you can't enter this Tier with your current team.")) if showmsg
+        next
+      end
+    elsif battleType == :double 
+      if vp < 2
+        Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like you can't enter this Tier with your current team.")) if showmsg
+        next
+      end
+    end
+
+    if opp_party != nil
+      for p in opp_party
+        if (BATTLE_TIERS[tier].call(p))
+          vopp +=1
+        end
+      end
+      
+      if battleType == :single
+        if vopp < 1
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like your opponent can't enter this Tier with the current team.")) if showmsg
+          next
+        end
+      elsif battleType == :double 
+        if vopp < 2
+          Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like your opponent can't enter this Tier with the current team.")) if showmsg
+          next
+        end
+      end
+    end
+    validCommand = true
+  end
+
   def self.chooseTier(connection, msgwindow, battleType, opp_party)
     Kernel.pbMessageDisplay(msgwindow, _INTL("Choose a tier."))
     tiers = pbGetTiersNames()
@@ -3891,6 +3976,7 @@ module CableClub
     end
     validCommand = false
     party = $Trainer.party
+    # opp_party = nil means we're in matchmaking
     if $Trainer.useRentalTeam && $Trainer.rentalTeamCode != ""
       if connection.can_send?
         connection.send do |writer|
@@ -3923,46 +4009,7 @@ module CableClub
         command = -1
         break
       end
-      vp = 0 #valid pokemons
-      vopp = 0 #valid opp pokemons
-      for p in party
-        if (BATTLE_TIERS[tiers[command][1]].call(p))
-          vp +=1
-        end
-      end
-
-      if battleType == :single
-        if vp < 1
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like you can't enter this Tier with your current team."))
-          next
-        end
-      elsif battleType == :double 
-        if vp < 2
-          Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like you can't enter this Tier with your current team."))
-          next
-        end
-      end
-
-      if opp_party != nil
-        for p in opp_party
-          if (BATTLE_TIERS[tiers[command][1]].call(p))
-            vopp +=1
-          end
-        end
-        
-        if battleType == :single
-          if vopp < 1
-            Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like your opponent can't enter this Tier with the current team."))
-            next
-          end
-        elsif battleType == :double 
-          if vopp < 2
-            Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like your opponent can't enter this Tier with the current team."))
-            next
-          end
-        end
-      end
-      validCommand = true
+      validCommand = checkValidity(msgwindow, true, battleType, tiers[command][1], party, opp_party)
     end
     #command ora mi punta al simbolo che identifica il tier, POG
     if command != -1

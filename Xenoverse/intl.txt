@@ -64853,7 +64853,7 @@ Use Box
 Tanto bella quanto elettrizzante! La crème de la crème dello stile!
 As charming as electrifying! The crème de la crème of style!
 Ha seguito i passi di sua madre Camelia, ma è anche andata molto oltre... Fino a diventare una Superquattro di Unima!
-She followed the steps of her mother Elesa, but she even went much further… To the point of becoming one of Unova’s Elite Four!
+She followed the steps of her mother Elesa, but she even went much further... To the point of becoming one of Unova’s Elite Four!
 La rapida e brillante, Stella!
 The quick and shining, Stella!
 Incredibile! Sei abbagliante!
@@ -64882,3 +64882,5 @@ La misteriosa e calma, Valentina!
 The calm and mysterious, Greta!
 Ancora niente...
 Still nothing...
+Hmph! La prossima volta vincerò io!
+Hmph! The next time I will win!
