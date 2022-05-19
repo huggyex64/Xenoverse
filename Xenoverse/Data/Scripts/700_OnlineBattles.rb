@@ -3052,46 +3052,41 @@ module CableClub
     command = Kernel.pbShowCommands(msgwindow, [_INTL("Single Battle"), _INTL("Double Battle"), _INTL("Trade")], -1)
     case command
     when 0..1 # Battle
-      if command == 1 && $Trainer.party.length < 2
-        Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, you must have at least two Pokémon to engage in a double battle."))
-      elsif command == 1 && @partner_party.length < 2
-        Kernel.pbMessageDisplay(msgwindow, _INTL("I'm sorry, your partner must have at least two Pokémon to engage in a double battle."))
-      else
-        @battle_type = case command
-        when 0; :single
-        when 1; :double
-        else; raise "Unknown battle type"
-        end
-        @rentalParty = nil
-        @chosenTier = chooseTier(connection,msgwindow,@battle_type,@partner_party)
-
-        if (@chosenTier == nil)
-          return
-        end
-        @battleTeam = nil
-        
-        # QUESTI VANNO AL SERVER
-        connection.send do |writer|
-          writer.sym(:clearRandom)
-          writer.str(@client_id == 0 ? @uid + @partner_uid : @partner_uid + @uid)
-        end
-
-        #Send battle request data
-        
-        connection.send do |writer|
-          writer.sym(:fwd)
-          writer.str(@partner_uid)
-          writer.sym(:battle)
-          @seed = rand(2**31)
-          writer.int(@seed)
-          writer.sym(@battle_type)
-          writer.int($Trainer.online_trainer_type)
-          writer.sym(@chosenTier)
-          write_custom_party(@rentalParty == nil ? $Trainer.party : @rentalParty,writer)
-        end
-        @activity = :battle
-        @state = :await_accept_activity
+      
+      @battle_type = case command
+      when 0; :single
+      when 1; :double
+      else; raise "Unknown battle type"
       end
+      @rentalParty = nil
+      @chosenTier = chooseTier(connection,msgwindow,@battle_type,@partner_party)
+
+      if (@chosenTier == nil)
+        return
+      end
+      @battleTeam = nil
+      
+      # QUESTI VANNO AL SERVER
+      connection.send do |writer|
+        writer.sym(:clearRandom)
+        writer.str(@client_id == 0 ? @uid + @partner_uid : @partner_uid + @uid)
+      end
+
+      #Send battle request data
+      
+      connection.send do |writer|
+        writer.sym(:fwd)
+        writer.str(@partner_uid)
+        writer.sym(:battle)
+        @seed = rand(2**31)
+        writer.int(@seed)
+        writer.sym(@battle_type)
+        writer.int($Trainer.online_trainer_type)
+        writer.sym(@chosenTier)
+        write_custom_party(@rentalParty == nil ? $Trainer.party : @rentalParty,writer)
+      end
+      @activity = :battle
+      @state = :await_accept_activity
 
       when 2 # Trade
         connection.send do |writer|
