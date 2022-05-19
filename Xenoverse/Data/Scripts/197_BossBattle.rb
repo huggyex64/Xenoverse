@@ -2391,7 +2391,6 @@ def pbDraga2BossBattle
   #Draga Furia 1
   if $game_switches[1317]==true #EASY
     pkmn = pbGenerateWildPokemon(PBSpecies::DRAGALISKFURIA,100)
-    pkmn.forcedForm = 1
     pkmn.pbDeleteAllMoves
     moves = [:VOIDSTAR, :EARTHQUAKE, :DARKPULSE, :FREEZEDRY]
     for m in moves
@@ -2408,7 +2407,6 @@ def pbDraga2BossBattle
   elsif $game_switches[1318]==true #HARD
     $mods.set(8, nil, nil)
     pkmn = pbGenerateWildPokemon(PBSpecies::DRAGALISKFURIA,100)
-    pkmn.forcedForm = 1
     pkmn.pbDeleteAllMoves
     moves = [:DIVINEJUDGEMENT, :VOIDSTAR, :EARTHQUAKE, :NASTYPLOT]
     for m in moves

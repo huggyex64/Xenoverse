@@ -160,12 +160,29 @@ PATCHFIXES = {
 			   end
 			   for b in $PokemonStorage.boxes
 				   for poke in b.pokemon
-					   if poke != nil
+					   if poke != nil && poke.is_a?(PokeBattle_Pokemon)
 						poke.calcStats
 					   end
 				   end
 			   end
 		   },	
+		"1.4.1" => proc{
+			#apply 1.4.1 patchfix
+			Log.i("Patch Fix","Applying patch fixes for version 1.4.1")
+				for p in $Trainer.party
+					if (p != nil)
+						p.calcStats
+					end
+				end
+				for b in $PokemonStorage.boxes
+					for poke in b.pokemon
+						if poke != nil && poke.is_a?(PokeBattle_Pokemon)
+							poke.forcedForm = nil if poke.species == PBSpecies::DRAGALISKFURIA
+							poke.calcStats
+						end
+					end
+				end
+			},
 }
 
 
