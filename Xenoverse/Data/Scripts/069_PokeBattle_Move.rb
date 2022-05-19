@@ -220,6 +220,10 @@ class PokeBattle_Move
 	def isPulseMove?
 		return (@flags&0x1000)!=0 # flag m: Is pulse move
 	end
+
+	def isBombMove?
+		return false
+	end
 	
 	def tramplesMinimize?(param=1) # Causes perfect accuracy and double damage
     return false if !USENEWBATTLEMECHANICS
