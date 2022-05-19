@@ -3087,7 +3087,7 @@ module CableClub
           writer.sym(@battle_type)
           writer.int($Trainer.online_trainer_type)
           writer.sym(@chosenTier)
-          write_custom_party(@rentalParty == nil ? $Trainer.party : @rentalParty)
+          write_custom_party(@rentalParty == nil ? $Trainer.party : @rentalParty,writer)
         end
         @activity = :battle
         @state = :await_accept_activity
@@ -3278,7 +3278,7 @@ module CableClub
               writer.sym(:fwd)
               writer.str(@partner_uid)
               writer.sym(:ok)
-              write_custom_party(partyToCheck)
+              write_custom_party(partyToCheck,writer)
             end
             # QUESTI VANNO AL SERVER
             connection.send do |writer|
