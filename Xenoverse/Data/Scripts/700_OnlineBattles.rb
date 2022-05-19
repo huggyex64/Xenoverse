@@ -2941,6 +2941,7 @@ module CableClub
         @matchmaking = true
         @partner_name = record.str
         @partner_party = parse_party(record)
+        @partner_battle_party = @partner_party
         #@ui.displayParty(@partner_party)
         msgwindow.visible = false          
         connection.send do |writer|
