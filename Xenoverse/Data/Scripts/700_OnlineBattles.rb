@@ -3941,12 +3941,12 @@ module CableClub
     if battleType == :single
       if vp < 1
         Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like you can't enter this Tier with your current team.")) if showmsg
-        next
+        return
       end
     elsif battleType == :double 
       if vp < 2
         Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like you can't enter this Tier with your current team.")) if showmsg
-        next
+        return
       end
     end
 
@@ -3960,12 +3960,12 @@ module CableClub
       if battleType == :single
         if vopp < 1
           Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like your opponent can't enter this Tier with the current team.")) if showmsg
-          next
+          return
         end
       elsif battleType == :double 
         if vopp < 2
           Kernel.pbMessageDisplay(msgwindow, _INTL("Sorry, looks like your opponent can't enter this Tier with the current team.")) if showmsg
-          next
+          return
         end
       end
     end
