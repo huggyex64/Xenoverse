@@ -2343,7 +2343,7 @@ class PokeBattle_Trainer
 
   attr_accessor :username
   def username
-    return @name if @username == nil
+    return @name if @username == nil || @username.length < 1
     return @username
   end
 
