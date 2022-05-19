@@ -95,6 +95,7 @@ class Credits
     @sprites["blackBG"].bitmap.fill_rect(0,0,512,384,Color.new(0,0,0))
     
     if @strange
+      Kernel.pbSetPokemonCenterSpecific(389,25,16,2)
       @sprites["whites"] = EAMSprite.new(@viewport)
       @sprites["whites"].bitmap = Bitmap.new(512,384)
       @sprites["whites"].bitmap.fill_rect(0,0,512,384,Color.new(255,255,255))
