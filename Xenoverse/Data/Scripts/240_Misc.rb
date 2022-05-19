@@ -26,7 +26,8 @@ end
 
 SAVESHINYFLAG=[PBSpecies::GRENINJAX, PBSpecies::RAIKOU, PBSpecies::ENTEI, PBSpecies::SUICUNE,
                PBSpecies::AEGISLASHX, 
-               PBSpecies::TAPUFINIX, PBSpecies::TAPULELEX, PBSpecies::TAPUKOKOX, PBSpecies::TAPUBULUX]
+               PBSpecies::TAPUFINIX, PBSpecies::TAPULELEX, PBSpecies::TAPUKOKOX, PBSpecies::TAPUBULUX,
+               PBSpecies::DRAGALISKFURIA]
 
 #===============================================================================
 # Start a single wild Pokemon battle

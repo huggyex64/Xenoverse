@@ -37800,3 +37800,9 @@ I'm sorry, your party contains a Pokémon not allowed.
 Spiacente, la tua squadra contiene Pokémon non consentiti.
 Refreshing player list...
 Aggiorno lista giocatori...
+You chose {1}, it will cost {2}$. Do you want to proceed?
+Hai scelto {1}, costerà {2}$. Vuoi procedere?
+Are you sure?
+Vuoi confermare?
+Pick your Pokémons.
+Scegli i tuoi Pokémon.

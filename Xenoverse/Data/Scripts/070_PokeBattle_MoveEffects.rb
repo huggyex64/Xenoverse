@@ -4650,9 +4650,18 @@ class PokeBattle_Move_0C1 < PokeBattle_Move
 	
 	def pbBaseDamage(basedmg,attacker,opponent)
 		party=@battle.pbParty(attacker.index)
-		atk=party[@participants[0]].baseStats[1]
-		@participants[0]=nil; @participants.compact!
-		return 5+(atk/10)
+		@participants=[]
+		for i in 0...party.length
+			@participants.push(i) if party[i] && !party[i].isEgg? &&
+			party[i].hp>0 && party[i].status==0
+		end
+		if @participants.length > 0
+			atk=party[@participants[0]].baseStats[1]
+			@participants[0]=nil; @participants.compact!
+			return 5+(atk/10)
+		else
+			return 0
+		end
 	end
 end
 
