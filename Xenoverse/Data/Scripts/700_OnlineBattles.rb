@@ -404,6 +404,7 @@ class OnlineLobby
           end
         when 4
           $Trainer.useRentalTeam = !$Trainer.useRentalTeam
+          pbSave()
           settDetails[sett[selIndex]][:info] = _INTL("Using Rental Team: {1}", $Trainer.useRentalTeam ? _INTL("Yes") : _INTL("No"))
           Kernel.pbMessageDisplay(msgwindow,settDetails[sett[selIndex]][:info],false)
         else
