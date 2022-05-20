@@ -125,6 +125,10 @@ class PokeBattle_Battler
 	def item=(value)
 		@item=value
 		@pokemon.setItem(value) if @pokemon
+		
+		self.effects[PBEffects::Unburden]=true if value == 0
+		self.effects[PBEffects::Unburden]=false if value != 0
+
 	end
 	
 	def weight
@@ -1930,7 +1934,9 @@ class PokeBattle_Battler
 			end
 		end
 	end
-	
+
+
+
 	def pbBerryCureCheck(hpcure=false)
 		return if fainted?
 		unnerver=(pbOpposing1.hasWorkingAbility(:UNNERVE) ||
