@@ -6003,6 +6003,9 @@ class PokeBattle_Move_0F0 < PokeBattle_Move
 				itemname=PBItems.getName(opponent.item)
 				opponent.item=0
 				opponent.effects[PBEffects::ChoiceBand]=-1
+				if opponent.hasWorkingAbility?(:UNBURDEN)
+					opponent.effects[PBEffects::Unburden] = true
+				end
 				@battle.pbDisplay(_INTL("{1} knocked off {2}'s {3}!",attacker.pbThis,opponent.pbThis(true),itemname))
 			end
 		end
@@ -6030,7 +6033,13 @@ class PokeBattle_Move_0F1 < PokeBattle_Move
 				(@battle.opponent || !@battle.pbIsOpposing?(attacker.index))
 				itemname=PBItems.getName(opponent.item)
 				attacker.item=opponent.item
+				if attacker.effects[PBEffects::Unburden] 
+					attacker.effects[PBEffects::Unburden] = false
+				end
 				opponent.item=0
+				if opponent.hasWorkingAbility?(:UNBURDEN)
+					opponent.effects[PBEffects::Unburden] = true
+				end
 				opponent.effects[PBEffects::ChoiceBand]=-1
 				if !@battle.opponent && # In a wild battle
 					attacker.pokemon.itemInitial==0 &&
@@ -6081,6 +6090,18 @@ class PokeBattle_Move_0F2 < PokeBattle_Move
 		tmpitem=attacker.item
 		attacker.item=opponent.item
 		opponent.item=tmpitem
+		
+		if attacker.hasWorkingAbility?(:UNBURDEN) && attacker.item == 0
+			attacker.effects[PBEffects::Unburden] = true
+		elsif attacker.effects[PBEffects::Unburden] && attacker.item != 0
+			attacker.effects[PBEffects::Unburden] = false
+		end
+		if opponent.hasWorkingAbility?(:UNBURDEN) && opponent.item == 0
+			opponent.effects[PBEffects::Unburden] = true
+		elsif opponent.effects[PBEffects::Unburden] && opponent.item != 0
+			opponent.effects[PBEffects::Unburden] = false
+		end
+
 		if !@battle.opponent && # In a wild battle
 			attacker.pokemon.itemInitial==oldattitem &&
 			opponent.pokemon.itemInitial==oldoppitem
@@ -6125,7 +6146,10 @@ class PokeBattle_Move_0F3 < PokeBattle_Move
 		end
 		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
 		itemname=PBItems.getName(attacker.item)
-		opponent.item=attacker.item
+		opponent.item=attacker.item		
+		if opponent.effects[PBEffects::Unburden] 
+			opponent.effects[PBEffects::Unburden] = false
+		end
 		attacker.item=0
 		attacker.effects[PBEffects::ChoiceBand]=-1
 		if !@battle.opponent && # In a wild battle
@@ -6155,7 +6179,10 @@ class PokeBattle_Move_0F4 < PokeBattle_Move
 			else
 				item=opponent.item
 				itemname=PBItems.getName(item)
-				opponent.item=0
+				opponent.item=0				
+				if opponent.hasWorkingAbility?(:UNBURDEN)
+					opponent.effects[PBEffects::Unburden] = true
+				end
 				opponent.pokemon.itemInitial=0 if opponent.pokemon.itemInitial==item
 				olditem = attacker.item
 				attacker.item = item
@@ -6207,7 +6234,10 @@ class PokeBattle_Move_0F5 < PokeBattle_Move
 			!opponent.damagestate.substitute && pbIsBerry?(opponent.item)
 			item=opponent.item
 			itemname=PBItems.getName(item)
-			opponent.item=0
+			opponent.item=0			
+			if opponent.hasWorkingAbility?(:UNBURDEN)
+				opponent.effects[PBEffects::Unburden] = true
+			end
 			opponent.pokemon.itemInitial=0 if opponent.pokemon.itemInitial==item
 			@battle.pbDisplay(_INTL("{1}'s {2} was incinerated!",opponent.pbThis,itemname))
 		end
@@ -6229,7 +6259,10 @@ class PokeBattle_Move_0F6 < PokeBattle_Move
 		pbShowAnimation(@id,attacker,nil,hitnum,alltargets,showanimation)
 		item=attacker.pokemon.itemRecycle
 		itemname=PBItems.getName(item)
-		attacker.item=item
+		attacker.item=item		
+		if attacker.effects[PBEffects::Unburden] 
+			attacker.effects[PBEffects::Unburden] = false
+		end
 		attacker.pokemon.itemInitial=item if attacker.pokemon.itemInitial==0
 		attacker.pokemon.itemRecycle=0
 		@battle.pbDisplay(_INTL("{1} found one {2}!",attacker.pbThis,itemname))

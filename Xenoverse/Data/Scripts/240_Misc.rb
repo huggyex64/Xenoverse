@@ -27,7 +27,8 @@ end
 SAVESHINYFLAG=[PBSpecies::GRENINJAX, PBSpecies::RAIKOU, PBSpecies::ENTEI, PBSpecies::SUICUNE,
                PBSpecies::AEGISLASHX, 
                PBSpecies::TAPUFINIX, PBSpecies::TAPULELEX, PBSpecies::TAPUKOKOX, PBSpecies::TAPUBULUX,
-               PBSpecies::DRAGALISKFURIA]
+               PBSpecies::DRAGALISKFURIA,
+               PBSpecies::TORNADUS, PBSpecies::THUNDURUS, PBSpecies::LANDORUS, PBSpecies::ENAMORUS]
 
 #===============================================================================
 # Start a single wild Pokemon battle
@@ -1135,6 +1136,10 @@ SWAPSTYLES = {
   PBSpecies::SQUIRTLE => [proc {|x| x.form == 0},proc {|x| x.form = 10}],
   PBSpecies::WARTORTLE => [proc {|x| x.form == 0},proc {|x| x.form = 10}],
   PBSpecies::BLASTOISE => [proc {|x| x.form == 0},proc {|x| x.form = 10}],
+  
+  PBSpecies::TREECKO => [proc {|x| x.form == 0},proc {|x| x.form = 2}],
+  PBSpecies::GROVYLE => [proc {|x| x.form == 0},proc {|x| x.form = 2}],
+  PBSpecies::SCEPTILE => [proc {|x| x.form == 0},proc {|x| x.form = 2}],
 }
 
 def pbMakeSwap(pokemon)

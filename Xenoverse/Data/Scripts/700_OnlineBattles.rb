@@ -2730,10 +2730,7 @@ module CableClub
       end
     end
 
-    #if Input.trigger?(Input::L)
-    #  uid = pbEnterText("Target UID",0,50)
-    #  do_spectate(connection,uid,@ui) if uid != ""
-    #end
+    handle_spectate(connection,@ui)
 
     ##################################################
     ## Standard handling for the remainder
@@ -2809,6 +2806,9 @@ module CableClub
         raise "Unknown message: #{type}"
       end
     end
+  end
+
+  def self.handle_spectate(connection,ui)
   end
 
   def self.handle_await_wt_info(connection,msgwindow)

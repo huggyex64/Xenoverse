@@ -824,6 +824,7 @@ MultipleForms.register(:TORNADUS,{
 			if pokemon.abilityflag && pokemon.abilityflag!=2
 				next getID(PBAbilities,:REGENERATOR) # Therian Forme
 			end
+			next getID(PBAbilities,:REGENERATOR) # Therian Forme
 		},
 		"evYield"=>proc{|pokemon|
 			next if pokemon.form==0 # Incarnate Forme
@@ -844,6 +845,7 @@ MultipleForms.register(:THUNDURUS,{
 			if pokemon.abilityflag && pokemon.abilityflag!=2
 				next getID(PBAbilities,:VOLTABSORB) # Therian Forme
 			end
+			next getID(PBAbilities,:VOLTABSORB) # Therian Forme
 		},
 		"evYield"=>proc{|pokemon|
 			next if pokemon.form==0 # Incarnate Forme
@@ -864,6 +866,7 @@ MultipleForms.register(:LANDORUS,{
 			if pokemon.abilityflag && pokemon.abilityflag!=2
 				next getID(PBAbilities,:INTIMIDATE) # Therian Forme
 			end
+			next getID(PBAbilities,:INTIMIDATE) # Therian Forme
 		},
 		"evYield"=>proc{|pokemon|
 			next if pokemon.form==0 # Incarnate Forme
@@ -886,6 +889,7 @@ MultipleForms.register(:ENAMORUS,{
 			if pokemon.abilityflag && pokemon.abilityflag!=2
 				next getID(PBAbilities,:OVERCOAT) # Therian Forme
 			end
+			next getID(PBAbilities,:OVERCOAT) # Therian Forme
 		},
 		"evYield"=>proc{|pokemon|
 			next if pokemon.form==0 # Incarnate Forme

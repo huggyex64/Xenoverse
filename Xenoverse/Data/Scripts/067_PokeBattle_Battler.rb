@@ -402,6 +402,7 @@ class PokeBattle_Battler
 	  @effects[PBEffects::DragonEndurance]    = 0
 	  @effects[PBEffects::MagicWall]    	  = 0
 	  @effects[PBEffects::SoundBarrier]    	  = 0
+	  @effects[PBEffects::Unburden]  		  = false
 	end
 	
 	def pbUpdate(fullchange=false)
@@ -1314,6 +1315,15 @@ class PokeBattle_Battler
 							target.pokemon.itemInitial=target.item
 							user.pokemon.itemInitial=0
 						end
+						
+						if user.hasWorkingAbility?(:UNBURDEN) && user.item == 0
+							user.effects[PBEffects::Unburden] = true
+						end
+
+						if target.effects[PBEffects::Unburden] && target.item != 0
+							target.effects[PBEffects::Unburden] = false
+						end
+
 						@battle.pbDisplay(_INTL("{1} pickpocketed {2}'s {3}!",target.pbThis,
 								user.pbThis(true),PBItems.getName(target.item)))
 						PBDebug.log("[#{target.pbThis} Pickpocketed #{PBItems.getName(target.item)}) from #{user.pbThis(true)}]")
@@ -1893,30 +1903,30 @@ class PokeBattle_Battler
   alias isFainted? fainted?
 	
 	def pbConsumeItem(recycle=true,pickup=true)
-    itemname=PBItems.getName(self.item)
-    @pokemon.itemRecycle=self.item if recycle
-    @pokemon.itemInitial=0 if @pokemon.itemInitial==self.item
-    #if pickup
-    #  @effects[PBEffects::PickupItem]=self.item
-    #  @effects[PBEffects::PickupUse]=@battle.nextPickupUse
-    #end
-    self.item=0
-    #self.effects[PBEffects::Unburden]=true
-    # Symbiosis
-    if pbPartner && pbPartner.hasWorkingAbility(:SYMBIOSIS) && recycle
-      if pbPartner.item>0 &&
-         !@battle.pbIsUnlosableItem(pbPartner,pbPartner.item) &&
-         !@battle.pbIsUnlosableItem(self,pbPartner.item)
-        @battle.pbDisplay(_INTL("{1}'s {2} let it share its {3} with {4}!",
-           pbPartner.pbThis,PBAbilities.getName(pbPartner.ability),
-           PBItems.getName(pbPartner.item),pbThis(true)))
-        self.item=pbPartner.item
-        pbPartner.item=0
-        #pbPartner.effects[PBEffects::Unburden]=true
-        pbBerryCureCheck
-      end
-    end
-  end
+		itemname=PBItems.getName(self.item)
+		@pokemon.itemRecycle=self.item if recycle
+		@pokemon.itemInitial=0 if @pokemon.itemInitial==self.item
+		#if pickup
+		#  @effects[PBEffects::PickupItem]=self.item
+		#  @effects[PBEffects::PickupUse]=@battle.nextPickupUse
+		#end
+		self.item=0
+		self.effects[PBEffects::Unburden]=true
+		# Symbiosis
+		if pbPartner && pbPartner.hasWorkingAbility(:SYMBIOSIS) && recycle
+			if pbPartner.item>0 &&
+				!@battle.pbIsUnlosableItem(pbPartner,pbPartner.item) &&
+				!@battle.pbIsUnlosableItem(self,pbPartner.item)
+				@battle.pbDisplay(_INTL("{1}'s {2} let it share its {3} with {4}!",
+				pbPartner.pbThis,PBAbilities.getName(pbPartner.ability),
+				PBItems.getName(pbPartner.item),pbThis(true)))
+				self.item=pbPartner.item
+				pbPartner.item=0
+				#pbPartner.effects[PBEffects::Unburden]=true
+				pbBerryCureCheck
+			end
+		end
+	end
 	
 	def pbBerryCureCheck(hpcure=false)
 		return if fainted?

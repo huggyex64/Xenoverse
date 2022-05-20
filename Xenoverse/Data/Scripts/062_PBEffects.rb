@@ -107,6 +107,7 @@ begin
     DragonEndurance   = 200
     MagicWall         = 201
     SoundBarrier      = 202
+    Unburden          = 300
     # These effects apply to a side
     LightScreen = 0
     LuckyChant  = 1
