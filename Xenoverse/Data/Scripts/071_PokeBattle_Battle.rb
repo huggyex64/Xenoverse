@@ -2916,11 +2916,18 @@ class PokeBattle_Battle
         		pbDisplay(_INTL("{1} set up a Shell-Trap!",i.pbThis))
 			end
 		end
-
+		unburdenStatus = []
 		processed = []
 		loop do 
 			recalculate = false
+			breakUnburden = false
 			for i in priority
+				#setting up unburdenStatus
+				for b in @battlers
+					if b != nil
+						unburdenStatus[b.index] = b.effects[PBEffects::Unburden]
+					end
+				end
 				next if processed.include?(i)
 				# Skips current turn processing and restarts it eliminating any one who has
 				# already processed it's own turn
@@ -2929,6 +2936,21 @@ class PokeBattle_Battle
 				if i != nil && i.pokemon != nil
 					echoln "#{i.pokemon.name} activated Tailwind? #{pbChoseMoveFunctionCode?(i.index,0x05B) && i.pbOwnSide().effects[PBEffects::Tailwind]==4}"
 				end
+				for b in @battlers
+					if b != nil
+						if b.effects[PBEffects::Unburden] != unburdenStatus[b.index]
+							breakUnburden = true
+						end
+					end
+				end
+				
+				if breakUnburden
+					recalculate = true
+					@usepriority = false
+					priority = pbPriority
+					break
+			    end				
+
 				if pbChoseMoveFunctionCode?(i.index,0x05B) && i.pbOwnSide().effects[PBEffects::Tailwind]==4
 					recalculate = true
 					@usepriority = false
