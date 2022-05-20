@@ -615,6 +615,9 @@ class PokeBattle_Battler
 		if @battle.internalbattle && @battle.pbOwnedByPlayer?(@index)
 			speed=(speed*1.1).floor if @battle.pbPlayer.numbadges>=BADGESBOOSTSPEED
 		end
+		if self.effects[PBEffects::Unburden]
+			speed *= 2
+		end
 		return speed
 	end
 	
