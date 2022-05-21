@@ -1,6 +1,7 @@
 #####################################################################
 # ONLINE BATTLES
 #####################################################################
+
 class OnlineLobby
   attr_accessor(:playerList)
   attr_accessor(:selectionIndex)

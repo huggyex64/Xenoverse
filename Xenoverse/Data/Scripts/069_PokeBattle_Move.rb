@@ -1351,41 +1351,44 @@ class PokeBattle_Move
 	
 	def pbTypeImmunityByAbility(type,attacker,opponent,ai = false)
 		return false if !attacker || !opponent || attacker.fainted? || opponent.fainted?
-    return false if attacker.index==opponent.index
-    return false if attacker.hasMoldBreaker
-    if opponent.hasWorkingAbility(:SAPSIPPER) && isConst?(type,PBTypes,:GRASS) && !attacker.hasMoldBreaker
-      PBDebug.log("[Ability triggered] #{opponent.pbThis}'s Sap Sipper (made #{@name} ineffective)")
-      if opponent.pbCanIncreaseStatStage?(PBStats::ATTACK,opponent)
-        opponent.pbIncreaseStatWithCause(PBStats::ATTACK,1,opponent,PBAbilities.getName(opponent.ability))
-      else
-        @battle.pbDisplay(_INTL("{1}'s {2} made {3} ineffective!",
-           opponent.pbThis,PBAbilities.getName(opponent.ability),self.name))
-      end
-      return true
-    end
-    if (opponent.hasWorkingAbility(:STORMDRAIN) && isConst?(type,PBTypes,:WATER)) ||
-       (opponent.hasWorkingAbility(:LIGHTNINGROD) && isConst?(type,PBTypes,:ELECTRIC)) && !attacker.hasMoldBreaker
-      PBDebug.log("[Ability triggered] #{opponent.pbThis}'s #{PBAbilities.getName(opponent.ability)} (made #{@name} ineffective)")
-      if opponent.pbCanIncreaseStatStage?(PBStats::SPATK,opponent)
-        opponent.pbIncreaseStatWithCause(PBStats::SPATK,1,opponent,PBAbilities.getName(opponent.ability))
-      else
-        @battle.pbDisplay(_INTL("{1}'s {2} made {3} ineffective!",
-           opponent.pbThis,PBAbilities.getName(opponent.ability),self.name))
-      end
-      return true
-    end
-    if opponent.hasWorkingAbility(:MOTORDRIVE) && isConst?(type,PBTypes,:ELECTRIC) && !attacker.hasMoldBreaker
-      PBDebug.log("[Ability triggered] #{opponent.pbThis}'s Motor Drive (made #{@name} ineffective)")
-      if opponent.pbCanIncreaseStatStage?(PBStats::SPEED,opponent)
-        opponent.pbIncreaseStatWithCause(PBStats::SPEED,1,opponent,PBAbilities.getName(opponent.ability))
-      else
-        @battle.pbDisplay(_INTL("{1}'s {2} made {3} ineffective!",
-           opponent.pbThis,PBAbilities.getName(opponent.ability),self.name))
-      end
-      return true
-    end
+		return false if attacker.index==opponent.index
+		return false if attacker.hasMoldBreaker
+		if opponent.hasWorkingAbility(:SAPSIPPER) && isConst?(type,PBTypes,:GRASS) && !attacker.hasMoldBreaker
+			PBDebug.log("[Ability triggered] #{opponent.pbThis}'s Sap Sipper (made #{@name} ineffective)")
+			return true if ai
+			if opponent.pbCanIncreaseStatStage?(PBStats::ATTACK,opponent)
+				opponent.pbIncreaseStatWithCause(PBStats::ATTACK,1,opponent,PBAbilities.getName(opponent.ability))
+			else
+				@battle.pbDisplay(_INTL("{1}'s {2} made {3} ineffective!",
+				opponent.pbThis,PBAbilities.getName(opponent.ability),self.name))
+			end
+			return true
+		end
+		if (opponent.hasWorkingAbility(:STORMDRAIN) && isConst?(type,PBTypes,:WATER)) ||
+			(opponent.hasWorkingAbility(:LIGHTNINGROD) && isConst?(type,PBTypes,:ELECTRIC)) && !attacker.hasMoldBreaker
+			PBDebug.log("[Ability triggered] #{opponent.pbThis}'s #{PBAbilities.getName(opponent.ability)} (made #{@name} ineffective)")
+			return true if ai
+			if opponent.pbCanIncreaseStatStage?(PBStats::SPATK,opponent)
+				opponent.pbIncreaseStatWithCause(PBStats::SPATK,1,opponent,PBAbilities.getName(opponent.ability))
+			else
+				@battle.pbDisplay(_INTL("{1}'s {2} made {3} ineffective!",
+				opponent.pbThis,PBAbilities.getName(opponent.ability),self.name))
+			end
+			return true
+		end
+		if opponent.hasWorkingAbility(:MOTORDRIVE) && isConst?(type,PBTypes,:ELECTRIC) && !attacker.hasMoldBreaker
+			PBDebug.log("[Ability triggered] #{opponent.pbThis}'s Motor Drive (made #{@name} ineffective)")
+			return true if ai
+			if opponent.pbCanIncreaseStatStage?(PBStats::SPEED,opponent)
+				opponent.pbIncreaseStatWithCause(PBStats::SPEED,1,opponent,PBAbilities.getName(opponent.ability))
+			else
+				@battle.pbDisplay(_INTL("{1}'s {2} made {3} ineffective!",
+				opponent.pbThis,PBAbilities.getName(opponent.ability),self.name))
+			end
+			return true
+		end
 		if (opponent.hasWorkingAbility(:WATERCOMPACTION) && isConst?(type,PBTypes,:WATER)) && !attacker.hasMoldBreaker
-			
+			return true if ai
 			return opponent.pbIncreaseStatWithCause(PBStats::DEFENSE,1,opponent,PBAbilities.getName(opponent.ability))
 			#if opponent.pbCanIncreaseStatStage?(PBStats::DEFENSE)
 			#	opponent.pbIncreaseStatBasic(PBStats::DEFENSE,1)
@@ -1406,6 +1409,7 @@ class PokeBattle_Move
 				(opponent.hasWorkingAbility(:SYNTHESIZER) && isConst?(type,PBTypes,:SUONO))) && !attacker.hasMoldBreaker
       PBDebug.log("[Ability triggered] #{opponent.pbThis}'s #{PBAbilities.getName(opponent.ability)} (made #{@name} ineffective)")
       healed=false
+	  return true if ai
       if opponent.effects[PBEffects::HealBlock]==0
         if opponent.pbRecoverHP((opponent.totalhp/4).floor,true)>0
           @battle.pbDisplay(_INTL("{1}'s {2} restored its HP!",
@@ -1420,6 +1424,7 @@ class PokeBattle_Move
     end
     if opponent.hasWorkingAbility(:FLASHFIRE) && isConst?(type,PBTypes,:FIRE) && !attacker.hasMoldBreaker
       PBDebug.log("[Ability triggered] #{opponent.pbThis}'s Flash Fire (made #{@name} ineffective)")
+	  return true if ai
       if !opponent.effects[PBEffects::FlashFire]
         opponent.effects[PBEffects::FlashFire]=true
         @battle.pbDisplay(_INTL("{1}'s {2} raised its Fire power!",
@@ -1432,11 +1437,13 @@ class PokeBattle_Move
     end
     if opponent.hasWorkingAbility(:TELEPATHY) && pbIsDamaging? &&
        !opponent.pbIsOpposing?(attacker.index) && !attacker.hasMoldBreaker
+	  return true if ai
       PBDebug.log("[Ability triggered] #{opponent.pbThis}'s Telepathy (made #{@name} ineffective)")
       @battle.pbDisplay(_INTL("{1} avoids attacks by its ally Pokémon!",opponent.pbThis))
       return true
     end
     if opponent.hasWorkingAbility(:BULLETPROOF) && isBombMove? && !attacker.hasMoldBreaker
+	  return true if ai
       PBDebug.log("[Ability triggered] #{opponent.pbThis}'s Bulletproof (made #{@name} ineffective)")
       @battle.pbDisplay(_INTL("{1}'s {2} made {3} ineffective!",
          opponent.pbThis,PBAbilities.getName(opponent.ability),self.name))

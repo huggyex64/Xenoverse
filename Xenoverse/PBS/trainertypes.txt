@@ -259,6 +259,6 @@
 262,SILVIATOURNAMENT,(S.P.E.T.T.R.I),,VS. Spettri,,,Female,127
 263,SIGMATOURNAMENT,(Sergente Dimension),,VS-AB,Team Dimension Victory,,Mixed,127
 264,CRISANTETOURNAMENT,(Capopalestra),,VS. Gym Apollo,victory gym,,Male,127
-265,TREYTOURNAMENT,(Rivale),,VS. Tray.,,,Male,127
+265,TREYTOURNAMENT,(Rivale),,VS. Tray.,Team Dimension Victory,,Male,127
 266,ALICECHAMPION,(Sognatrice),300,VS.Champion,victory champion,,Female,127
 267,KAYCHAMPION,(Sognatore),400,VS.Champion,victory champion,,Male,127

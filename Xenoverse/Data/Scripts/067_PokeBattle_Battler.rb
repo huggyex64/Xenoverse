@@ -1453,9 +1453,9 @@ class PokeBattle_Battler
 			if target.hasWorkingItem(:REDCARD) && target.pbOpposingSide.effects[PBEffects::Switch][user]==nil
 				PBDebug.log("[#{target.pbThis}'s Red Card triggered]")
 				choices=[]
-				party=@battle.pbParty(target.index)
+				party=@battle.pbParty(user.index)
 				for i in 0...party.length
-					choices[choices.length]=i if @battle.pbCanSwitchLax?(target.index,i,false)
+					choices[choices.length]=i if @battle.pbCanSwitchLax?(user.index,i,false)
 				end
 				if choices.length>0
 					

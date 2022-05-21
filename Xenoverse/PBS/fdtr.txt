@@ -328,7 +328,7 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Platinum Style)\n By catching the Aura emanating from others, it can read their thoughts and movements.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
-(MegaEvoluzione)\n Danza in continuazione davanti ad allenatori ammaliati dalla sua bravura, mentre cerca di far diminuire il dolore.
+(MegaEvoluzione)\n Danza in continuazione davanti ad allenatori ammaliati dalla sua bravura, mentre cerca di far diminuire il dolore delle fiamme.
 (MegaEvolution)\n It dances continously in front of trainers bewitched by it's skill, while it tries to decrease the pain from the flames.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)

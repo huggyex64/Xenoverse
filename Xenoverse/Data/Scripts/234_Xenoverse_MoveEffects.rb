@@ -978,10 +978,6 @@ class PokeBattle_Move_205 < PokeBattle_Move
 		pool.delete(PBSpecies::RAICHUX)
 		pool.delete(PBSpecies::TYRANITARX)
 		pool.delete(PBSpecies::SCOVILEX)
-		pool.delete(PBSpecies::TAPULELEX)
-		pool.delete(PBSpecies::TAPUFINIX)
-		pool.delete(PBSpecies::TAPUKOKOX)
-		pool.delete(PBSpecies::TAPUBULUX)
 
 		#remove self
 		pool.delete(PBSpecies::DITTOX)

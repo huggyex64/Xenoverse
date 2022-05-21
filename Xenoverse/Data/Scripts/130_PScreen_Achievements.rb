@@ -147,13 +147,13 @@ class AchievementsScreen
   end
   
   def processInput
-    if Input.trigger?(Input::DOWN) && @index < @amount - 1
+    if (Input.trigger?(Input::DOWN) || Input.repeat?(Input::DOWN)) && @index < @amount - 1
       pbSEPlay("Choose")
       @index += 1
 			self.inputAction
 			pbUpdateSpriteHash(@sprites)
     end
-    if Input.trigger?(Input::UP) && @index > 0
+    if (Input.trigger?(Input::UP) || Input.repeat?(Input::UP)) && @index > 0
       pbSEPlay("Choose")
       @index -= 1
 			self.inputAction
