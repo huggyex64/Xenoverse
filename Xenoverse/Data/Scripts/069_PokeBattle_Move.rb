@@ -953,6 +953,9 @@ class PokeBattle_Move
 		applysandstorm=false
 		if type>=0 && pbIsSpecial?(type) && @function!=0x122 # Psyshock
 			defense=opponent.spdef
+			if opponent.hasWorkingItem(:ASSAULTVEST)
+				defense=(defense * 1.5).floor
+			end
 			defstage=opponent.stages[PBStats::SPDEF]+6
 			applysandstorm=true
 		end

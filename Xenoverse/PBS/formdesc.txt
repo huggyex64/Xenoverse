@@ -325,6 +325,12 @@ WEIGHT=210
 DESCRIPTION=(MegaEvoluzione)\n Questo Pokémon dal cuore tenero è in grado di percepire le condizioni fisiche e mentali di chi tocca con le antenne.
 Height=15
 Weight=320
+[252_2]
+DESCRIPTION=(Stile Lampecko)\n Treecko e' dotato di piccoli uncini sulla pianta delle zampe, che gli consentono di camminare su pareti verticali.
+[253_2]
+DESCRIPTION=(Stile Lampecko)\n Le foglie che crescono sul corpo di Grovyle sono utili per mimetizzarsi contro i nemici nella foresta.
+[254_2]
+DESCRIPTION=(Stile Lampecko)\n Sulla schiena di Sceptile crescono alcuni semi che si dice siano ricchi di nutrienti per gli alberi.
 [254_1]
 DESCRIPTION=(MegaEvoluzione)\n Le foglie che crescono sulle sue braccia tagliano anche grandi alberi. Nel suo habitat, è imbattibile.
 TYPE1=12

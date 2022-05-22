@@ -909,6 +909,15 @@ class PokeBattle_Battle
 			end
 			return false
 		end
+		if thispkmn.hasWorkingItem(:ASSAULTVEST)
+			if (thismove.pbIsStatus?)
+				if showMessages
+					pbDisplayPaused(_INTL("{1} prevents you from using status moves!",
+							PBItems.getName(thispkmn.item)))
+				end
+				return false
+			end
+		end
 		if thispkmn.effects[PBEffects::ChoiceBand]>=0 &&
 			(thispkmn.hasWorkingItem(:CHOICEBAND) ||
 				thispkmn.hasWorkingItem(:CHOICESPECS) ||
