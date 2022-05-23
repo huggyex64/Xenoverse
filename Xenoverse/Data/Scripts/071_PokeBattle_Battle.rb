@@ -2894,7 +2894,7 @@ class PokeBattle_Battle
 				end
 				if !i.isFainted?
 					newpokename=index
-					if isConst?(@party1[index].ability,PBAbilities,:ILLUSION)
+					if isConst?(pbParty(index)[index].ability,PBAbilities,:ILLUSION)
 						newpokename=pbGetLastPokeInTeam(i.index)
 					end
 					if !pbRecallAndReplace(i.index,index,newpokename)
