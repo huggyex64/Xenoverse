@@ -462,7 +462,7 @@ class Version < Array
    end
 end
 
-GAME_VERSION = Version.new("1.4.6")
+GAME_VERSION = Version.new("1.4.7")
 
 
 def pbTestVersions

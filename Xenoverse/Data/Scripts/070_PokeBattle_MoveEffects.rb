@@ -5951,7 +5951,7 @@ class PokeBattle_Move_0ED < PokeBattle_Move
 		pbShowAnimation(@id,attacker,nil,hitnum,alltargets,showanimation)
 		newpoke=@battle.pbSwitchInBetween(attacker.index,true,false)				
 		newpokename=newpoke
-		if isConst?(pbParty(attacker.index)[newpoke].ability,PBAbilities,:ILLUSION)
+		if isConst?(@battle.pbParty(attacker.index)[newpoke].ability,PBAbilities,:ILLUSION)
 		  newpokename=pbGetLastPokeInTeam(attacker.index)
 		end
 		@battle.pbMessagesOnReplace(attacker.index,newpoke,newpokename)
@@ -5993,7 +5993,7 @@ class PokeBattle_Move_0EE < PokeBattle_Move
 			newpoke=0
 			newpoke=@battle.pbSwitchInBetween(attacker.index,true,false)				
 			newpokename=newpoke
-			if isConst?(pbParty(attacker.index)[newpoke].ability,PBAbilities,:ILLUSION)
+			if isConst?(@battle.pbParty(attacker.index)[newpoke].ability,PBAbilities,:ILLUSION)
 			  newpokename=pbGetLastPokeInTeam(attacker.index)
 			end
 			@battle.pbMessagesOnReplace(attacker.index,newpoke,newpokename)

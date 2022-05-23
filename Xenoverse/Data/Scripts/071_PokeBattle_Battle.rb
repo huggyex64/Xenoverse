@@ -3827,6 +3827,17 @@ class PokeBattle_Battle
 				next
 			end
 			# Harvest - should go here
+			if i.hasWorkingAbility(:HARVEST) && i.item<=0 && i.pokemon.itemRecycle>0
+				if pbIsBerry?(i.pokemon.itemRecycle) &&
+				(pbWeather==PBWeather::SUNNYDAY || 
+				(PBWeather.const_defined?(:HARSHSUN) && pbWeather==PBWeather::HARSHSUN) || pbRandom(10)<5)
+					i.item=i.pokemon.itemRecycle
+					i.pokemon.itemRecycle=0
+					i.pokemon.itemInitial=i.item if i.pokemon.itemInitial==0
+					pbDisplay(_INTL("{1} harvested one {2}!",i.pbThis,PBItems.getName(i.item)))
+					i.pbBerryCureCheck(true)
+				end
+			end
 			# Moody
 			if i.hasWorkingAbility(:MOODY)
 				PBDebug.log("[#{i.pbThis}'s Moody triggered]")
