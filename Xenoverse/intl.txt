@@ -15413,6 +15413,10 @@ The fire which seems extinguished often slumbers<<n>>beneath the ashes.
 Come le fiamme, anche i tuoi Pokémon rinasceranno se utilizzerai su di essi quella Ceneremagica.
 Just as the flames, your Pokémon will be born again<<n>>if you use that Sacred Ash on them.
 [Map301]
+<<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
+<<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
+<<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
+<<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 Joele
 Joel
 Hey! Sei \PN, non potrei mai scordarmi di te!
