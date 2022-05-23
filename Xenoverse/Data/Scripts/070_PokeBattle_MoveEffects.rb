@@ -5949,8 +5949,12 @@ class PokeBattle_Move_0ED < PokeBattle_Move
 		end
 		newpoke=0
 		pbShowAnimation(@id,attacker,nil,hitnum,alltargets,showanimation)
-		newpoke=@battle.pbSwitchInBetween(attacker.index,true,false)
-		@battle.pbMessagesOnReplace(attacker.index,newpoke)
+		newpoke=@battle.pbSwitchInBetween(attacker.index,true,false)				
+		newpokename=newpoke
+		if isConst?(pbParty(attacker.index)[newpoke].ability,PBAbilities,:ILLUSION)
+		  newpokename=pbGetLastPokeInTeam(attacker.index)
+		end
+		@battle.pbMessagesOnReplace(attacker.index,newpoke,newpokename)
 		attacker.pbResetForm
 		@battle.pbReplace(attacker.index,newpoke,true)
 		@battle.pbOnActiveOne(attacker)
@@ -5987,8 +5991,12 @@ class PokeBattle_Move_0EE < PokeBattle_Move
 			# TODO: Pursuit should go here, and negate this effect if it KO's attacker
 			@battle.pbDisplay(_INTL("{1} went back to {2}!",attacker.pbThis,@battle.pbGetOwner(attacker.index).name))
 			newpoke=0
-			newpoke=@battle.pbSwitchInBetween(attacker.index,true,false)
-			@battle.pbMessagesOnReplace(attacker.index,newpoke)
+			newpoke=@battle.pbSwitchInBetween(attacker.index,true,false)				
+			newpokename=newpoke
+			if isConst?(pbParty(attacker.index)[newpoke].ability,PBAbilities,:ILLUSION)
+			  newpokename=pbGetLastPokeInTeam(attacker.index)
+			end
+			@battle.pbMessagesOnReplace(attacker.index,newpoke,newpokename)
 			attacker.pbResetForm
 			@battle.pbReplace(attacker.index,newpoke,false)
 			PBDebug.log("[INFO] Setting #{attacker.pbThis} UTurn turneffects to true")

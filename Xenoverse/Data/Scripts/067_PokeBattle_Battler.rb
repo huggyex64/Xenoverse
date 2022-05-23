@@ -1474,36 +1474,16 @@ class PokeBattle_Battler
 				target.pbOwnSide.effects[PBEffects::Switch][user]=target
 				@battle.pbDisplay(_INTL("{1} went back to {2}!",target.pbThis,@battle.pbGetOwner(@index).name))
 				newpoke=0
-				newpoke=@battle.pbSwitchInBetween(@index,true,false)
-				@battle.pbMessagesOnReplace(@index,newpoke)
+				newpoke=@battle.pbSwitchInBetween(@index,true,false)				
+				newpokename=newpoke
+				if isConst?(pbParty(user.index)[newpoke].ability,PBAbilities,:ILLUSION)
+				  newpokename=pbGetLastPokeInTeam(user.index)
+				end
+				@battle.pbMessagesOnReplace(@index,newpoke,newpokename)
 				target.pbResetForm
 				@battle.pbReplace(@index,newpoke,true)
 				@battle.pbOnActiveOne(target)
 				target.pbAbilitiesOnSwitchIn(true)
-			end
-			
-			if target.hasWorkingItem(:REDCARD) && target.pbOpposingSide.effects[PBEffects::Switch][user]==nil
-				PBDebug.log("[#{target.pbThis}'s Red Card triggered]")
-				choices=[]
-				party=@battle.pbParty(user.index)
-				for i in 0...party.length
-					choices[choices.length]=i if @battle.pbCanSwitchLax?(user.index,i,false)
-				end
-				if choices.length>0
-					
-					target.pokemon.itemRecycle=target.item
-					target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
-					target.item=0
-					user.pbOwnSide.effects[PBEffects::Switch][user]=target
-					@battle.pbDisplay(_INTL("{1} went back to {2}!",user.pbThis,@battle.pbGetOwner(user.index).name))
-					
-					newpoke=choices[@battle.pbRandom(choices.length)]
-					@battle.pbMessagesOnReplace(user.index,newpoke)
-					user.pbResetForm
-					@battle.pbReplace(user.index,newpoke,true)
-					@battle.pbOnActiveOne(user)
-					user.pbAbilitiesOnSwitchIn(true)
-				end
 			end
 			if target.hasWorkingItem(:AIRBALLOON,true)
 				target.pokemon.itemRecycle=target.item
@@ -3214,6 +3194,35 @@ class PokeBattle_Battler
 			@battle.pbDisplay(_INTL("{1}'s {2} made it the {3} type!",target.pbThis,
 					PBAbilities.getName(target.ability),PBTypes.getName(movetype)))
 			PBDebug.log("[#{target.pbThis}'s Color Change made it #{PBTypes.getName(movetype)}-type]")
+		end
+			
+		if target.hasWorkingItem(:REDCARD) && target.pbOpposingSide.effects[PBEffects::Switch][user]==nil
+			PBDebug.log("[#{target.pbThis}'s Red Card triggered]")
+			choices=[]
+			party=@battle.pbParty(user.index)
+			for i in 0...party.length
+				choices[choices.length]=i if @battle.pbCanSwitchLax?(user.index,i,false)
+			end
+			if choices.length>0
+				@battle.pbDisplay(_INTL("{1} held up its {2} against the {3}!",
+				   target.pbThis,PBItems.getName(target.item),user.pbThis(true)))				
+				target.pokemon.itemRecycle=target.item
+				target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
+				target.item=0
+				user.pbOwnSide.effects[PBEffects::Switch][user]=target
+				@battle.pbDisplay(_INTL("{1} went back to {2}!",user.pbThis,@battle.pbGetOwner(user.index).name))
+				
+				newpoke=choices[@battle.pbRandom(choices.length)]				
+				newpokename=newpoke
+				if isConst?(pbParty(user.index)[newpoke].ability,PBAbilities,:ILLUSION)
+				  newpokename=pbGetLastPokeInTeam(index)
+				end
+				@battle.pbMessagesOnReplace(user.index,newpoke,newpokename)
+				user.pbResetForm
+				@battle.pbReplace(user.index,newpoke,true)
+				@battle.pbOnActiveOne(user)
+				user.pbAbilitiesOnSwitchIn(true)
+			end
 		end
 		# Berry check
 		for j in 0...4

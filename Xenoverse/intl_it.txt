@@ -37806,3 +37806,5 @@ Are you sure?
 Vuoi confermare?
 Pick your Pokémons.
 Scegli i tuoi Pokémon.
+{1} held up its {2} against the {3}!
+{1} dà un {2} a {3}!
