@@ -5010,6 +5010,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
         if isConst?(@party1[newpoke].ability,PBAbilities,:ILLUSION)
           newpokename=pbGetLastPokeInTeam(index)
         end
+        echoln "SWITCHING newpoke: #{newpoke} and newpokename:#{newpokename}"
         pbRecallAndReplace(index,newpoke,newpokename)
         switched.push(index)
       end

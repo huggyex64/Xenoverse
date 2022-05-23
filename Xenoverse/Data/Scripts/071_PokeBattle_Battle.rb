@@ -2893,7 +2893,11 @@ class PokeBattle_Battle
 					break if i.isFainted?
 				end
 				if !i.isFainted?
-					if !pbRecallAndReplace(i.index,index)
+					newpokename=index
+					if isConst?(@party1[index].ability,PBAbilities,:ILLUSION)
+						newpokename=pbGetLastPokeInTeam(i.index)
+					end
+					if !pbRecallAndReplace(i.index,index,newpokename)
 						# If a forced switch somehow occurs here in single battles
 						# the attack phase now ends
 						if !@doublebattle
