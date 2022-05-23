@@ -2644,9 +2644,16 @@ class PokeBattle_Move_063 < PokeBattle_Move
 			return -1
 		end
 		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+		oldabil=opponent.ability
 		opponent.ability=getConst(PBAbilities,:SIMPLE) || 0
 		abilityname=PBAbilities.getName(getConst(PBAbilities,:SIMPLE))
 		@battle.pbDisplay(_INTL("{1} acquired {2}!",opponent.pbThis,abilityname))
+		if opponent.effects[PBEffects::Illusion] && isConst?(oldabil,PBAbilities,:ILLUSION)
+			PBDebug.log("[Ability triggered] #{opponent.pbThis}'s Illusion ended")    
+			opponent.effects[PBEffects::Illusion]=nil
+			@battle.scene.pbChangePokemon(opponent,opponent.pokemon)
+			@battle.pbDisplay(_INTL("{1}'s {2} wore off!",opponent.pbThis,PBAbilities.getName(oldabil)))
+		end
 		return 0
 	end
 end
@@ -2669,9 +2676,16 @@ class PokeBattle_Move_064 < PokeBattle_Move
 			return -1
 		end
 		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+		oldabil=opponent.ability
 		opponent.ability=getConst(PBAbilities,:INSOMNIA) || 0
 		abilityname=PBAbilities.getName(getConst(PBAbilities,:INSOMNIA))
 		@battle.pbDisplay(_INTL("{1} acquired {2}!",opponent.pbThis,abilityname))
+		if opponent.effects[PBEffects::Illusion] && isConst?(oldabil,PBAbilities,:ILLUSION)
+			PBDebug.log("[Ability triggered] #{opponent.pbThis}'s Illusion ended")    
+			opponent.effects[PBEffects::Illusion]=nil
+			@battle.scene.pbChangePokemon(opponent,opponent.pokemon)
+			@battle.pbDisplay(_INTL("{1}'s {2} wore off!",opponent.pbThis,PBAbilities.getName(oldabil)))
+		end
 		return 0
 	end
 end
@@ -2698,9 +2712,16 @@ class PokeBattle_Move_065 < PokeBattle_Move
 			return -1
 		end
 		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+		oldabil=attacker.ability
 		attacker.ability=opponent.ability
 		abilityname=PBAbilities.getName(opponent.ability)
 		@battle.pbDisplay(_INTL("{1} copied {2}'s {3}!",attacker.pbThis,opponent.pbThis(true),abilityname))
+		if attacker.effects[PBEffects::Illusion] && isConst?(oldabil,PBAbilities,:ILLUSION)
+			PBDebug.log("[Ability triggered] #{attacker.pbThis}'s Illusion ended")    
+			attacker.effects[PBEffects::Illusion]=nil
+			@battle.scene.pbChangePokemon(attacker,attacker.pokemon)
+			@battle.pbDisplay(_INTL("{1}'s {2} wore off!",attacker.pbThis,PBAbilities.getName(oldabil)))
+		end
 		return 0
 	end
 end
@@ -2731,9 +2752,16 @@ class PokeBattle_Move_066 < PokeBattle_Move
 			return -1
 		end
 		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+		oldabil=opponent.ability
 		opponent.ability=attacker.ability
 		abilityname=PBAbilities.getName(attacker.ability)
 		@battle.pbDisplay(_INTL("{1} acquired {2}!",opponent.pbThis,abilityname))
+		if opponent.effects[PBEffects::Illusion] && isConst?(oldabil,PBAbilities,:ILLUSION)
+			PBDebug.log("[Ability triggered] #{opponent.pbThis}'s Illusion ended")    
+			opponent.effects[PBEffects::Illusion]=nil
+			@battle.scene.pbChangePokemon(opponent,opponent.pokemon)
+			@battle.pbDisplay(_INTL("{1}'s {2} wore off!",opponent.pbThis,PBAbilities.getName(oldabil)))
+		end
 		return 0
 	end
 end
@@ -2785,9 +2813,16 @@ class PokeBattle_Move_068 < PokeBattle_Move
 			return -1
 		end
 		pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
+		oldabil=opponent.ability
 		opponent.effects[PBEffects::GastroAcid]=true
 		opponent.effects[PBEffects::Truant]=false
 		@battle.pbDisplay(_INTL("{1}'s ability was suppressed!",opponent.pbThis)) 
+		if opponent.effects[PBEffects::Illusion] && isConst?(oldabil,PBAbilities,:ILLUSION)
+			PBDebug.log("[Ability triggered] #{opponent.pbThis}'s Illusion ended")    
+			opponent.effects[PBEffects::Illusion]=nil
+			@battle.scene.pbChangePokemon(opponent,opponent.pokemon)
+			@battle.pbDisplay(_INTL("{1}'s {2} wore off!",opponent.pbThis,PBAbilities.getName(oldabil)))
+		end
 		return 0
 	end
 end

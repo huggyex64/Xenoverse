@@ -887,9 +887,13 @@ class PokeballSendOutAnimation
   SPRITESTEPS=10
   STARTZOOM=0.125
 
-  def initialize(sprite,spritehash,pkmn,doublebattle)
+  def initialize(sprite,spritehash,pkmn,illusionpoke,doublebattle)
+    @illusionpoke=illusionpoke
     @disposed=false
-    @ballused=pkmn.pokemon ? pkmn.pokemon.ballused : 0
+    @ballused=pkmn.pokemon ? pkmn.pokemon.ballused : 0    
+    if @illusionpoke
+      @ballused=@illusionpoke.ballused || 0
+    end
     @PokemonBattlerSprite=sprite
     @PokemonBattlerSprite.visible=false
     @PokemonBattlerSprite.tone=Tone.new(248,248,248,248)
@@ -902,7 +906,11 @@ class PokeballSendOutAnimation
       @spritex=PokeBattle_SceneConstants::FOEBATTLER_X
     end
     @spritey=0
-    @endspritey=adjustBattleSpriteY(sprite,pkmn.species,pkmn.index)
+    if @illusionpoke
+      @endspritey=adjustBattleSpriteY(sprite,@illusionpoke.species,pkmn.index)
+    else
+      @endspritey=adjustBattleSpriteY(sprite,pkmn.species,pkmn.index)
+    end
     if doublebattle
       @spritey=PokeBattle_SceneConstants::FOEBATTLERD1_Y if pkmn.index==1
       @spritey=PokeBattle_SceneConstants::FOEBATTLERD2_Y if pkmn.index==3
@@ -923,7 +931,10 @@ class PokeballSendOutAnimation
       @shadowX-=@spritehash["shadow#{@pkmn.index}"].bitmap.width/2
       @shadowY-=@spritehash["shadow#{@pkmn.index}"].bitmap.height/2
     end
-    @shadowVisible=showShadow?(pkmn.species)
+    @shadowVisible=showShadow?(pkmn.species)    
+    if @illusionpoke
+      @shadowVisible=showShadow?(@illusionpoke.species)
+    end
     @stepspritey=(@spritey-@endspritey)
     @zoomstep=(1.0-STARTZOOM)/SPRITESTEPS
     @animdone=false
@@ -956,7 +967,11 @@ class PokeballSendOutAnimation
       @PokemonBattlerSprite.zoom_x=STARTZOOM
       @PokemonBattlerSprite.zoom_y=STARTZOOM
       pbSpriteSetCenter(@PokemonBattlerSprite,@spritex,@spritey)
-      pbPlayCry(@pkmn.pokemon ? @pkmn.pokemon : @pkmn.species)
+      if @illusionpoke
+        pbPlayCry(@illusionpoke)
+      else
+        pbPlayCry(@pkmn.pokemon ? @pkmn.pokemon : @pkmn.species)
+      end
       @pokeballsprite.setBitmap(sprintf("Graphics/Pictures/ball%02d_open",@ballused))
     end
     if @frame==8
@@ -1014,7 +1029,8 @@ class PokeballPlayerSendOutAnimation
   SPRITESTEPS=10
   STARTZOOM=0.125
 
-  def initialize(sprite,spritehash,pkmn,doublebattle)
+  def initialize(sprite,spritehash,pkmn,illusionpoke,doublebattle)
+    @illusionpoke=illusionpoke
     @disposed=false
     @PokemonBattlerSprite=sprite
     @pkmn=pkmn
@@ -1028,7 +1044,11 @@ class PokeballPlayerSendOutAnimation
       @spritex=PokeBattle_SceneConstants::PLAYERBATTLER_X
     end
     @spritey=0
-    @endspritey=adjustBattleSpriteY(sprite,pkmn.species,pkmn.index)
+    if @illusionpoke
+      @endspritey=adjustBattleSpriteY(sprite,@illusionpoke.species,pkmn.index)
+    else
+      @endspritey=adjustBattleSpriteY(sprite,pkmn.species,pkmn.index)
+    end
     if doublebattle
       @spritey+=PokeBattle_SceneConstants::PLAYERBATTLERD1_Y if pkmn.index==0
       @spritey+=PokeBattle_SceneConstants::PLAYERBATTLERD2_Y if pkmn.index==2
@@ -1064,7 +1084,11 @@ class PokeballPlayerSendOutAnimation
       @PokemonBattlerSprite.zoom_y=STARTZOOM
       pbSEPlay("recall")
       pbSpriteSetCenter(@PokemonBattlerSprite,@spritex,@spritey)
-      pbPlayCry(@pkmn.pokemon ? @pkmn.pokemon : @pkmn.species)
+      if @illusionpoke
+        pbPlayCry(@illusionpoke)
+      else
+        pbPlayCry(@pkmn.pokemon ? @pkmn.pokemon : @pkmn.species)
+      end
     end
     if @frame>8 && @frame<=16
       color=Color.new(248,248,248,256-(16-@frame)*32)
@@ -2180,6 +2204,7 @@ class PokeBattle_Scene
   end
 
   def pbTrainerSendOut(battlerindex,pkmn)
+    illusionpoke=@battle.battlers[battlerindex].effects[PBEffects::Illusion]
     @briefmessage=false
     fadeanim=nil
     while inPartyAnimation?; end
@@ -2188,6 +2213,9 @@ class PokeBattle_Scene
     end
     frame=0
     @sprites["pokemon#{battlerindex}"].setPokemonBitmap(pkmn,false)
+    if illusionpoke
+      @sprites["pokemon#{battlerindex}"].setPokemonBitmap(illusionpoke,false)
+    end
     sendout=PokeballSendOutAnimation.new(@sprites["pokemon#{battlerindex}"],
        @sprites,@battle.battlers[battlerindex],@battle.doublebattle)
     loop do
@@ -2222,7 +2250,9 @@ class PokeBattle_Scene
 
   def pbSendOut(battlerindex,pkmn) # Player sending out Pokémon
     while inPartyAnimation?; end
+    illusionpoke=@battle.battlers[battlerindex].effects[PBEffects::Illusion]
     balltype=pkmn.ballused
+    balltype=illusionpoke.ballused if illusionpoke
     ballbitmap=sprintf("Graphics/Pictures/ball%02d",balltype)
     pictureBall=PictureEx.new(32)
     delay=1
@@ -2258,8 +2288,12 @@ class PokeBattle_Scene
     end
     frame=0
     @sprites["pokemon#{battlerindex}"].setPokemonBitmap(pkmn,true)
+    
+    if illusionpoke
+      @sprites["pokemon#{battlerindex}"].setPokemonBitmap(illusionpoke,true)
+    end
     sendout=PokeballPlayerSendOutAnimation.new(@sprites["pokemon#{battlerindex}"],
-       @sprites,@battle.battlers[battlerindex],@battle.doublebattle)
+       @sprites,@battle.battlers[battlerindex],illusionpoke,@battle.doublebattle)
     loop do
       fadeanim.update if fadeanim
       frame+=1

@@ -387,6 +387,10 @@ class PokeBattle_Battle
 		@opponent        = opponent              # PokeBattle_Trainer object
 		@party1          = p1
 		@party2          = p2
+		@party1order     = []
+		for i in 0...12; @party1order.push(i); end
+		@party2order     = []
+		for i in 0...12; @party2order.push(i); end
 		@partyorder      = []
 		for i in 0...6; @partyorder.push(i); end
 		@fullparty1      = false
@@ -1339,7 +1343,29 @@ class PokeBattle_Battle
 		end
 		return false
 	end
-	
+
+	def pbPartyLength(battlerIndex)
+		if pbIsOpposing?(battlerIndex)
+		  return (@opponent.is_a?(Array)) ? pbSecondPartyBegin(battlerIndex) : MAXPARTYSIZE
+		else
+		  return @player.is_a?(Array) ? pbSecondPartyBegin(battlerIndex) : MAXPARTYSIZE
+		end
+	end
+
+	def pbGetLastPokeInTeam(index)
+		party=pbParty(index)
+		partyorder=(!pbIsOpposing?(index)) ? @party1order : @party2order
+		plength=pbPartyLength(index)
+		pstart=pbGetOwnerIndex(index)*plength
+		lastpoke=-1
+		for i in pstart...pstart+plength
+		  p=party[partyorder[i]]
+		  next if !p || p.egg? || p.hp<=0
+		  lastpoke=partyorder[i]
+		end
+		return lastpoke
+	  end
+
 	def pbSwitch(favorDraws=false)
 		if !favorDraws
 			return if @decision>0
@@ -1359,11 +1385,15 @@ class PokeBattle_Battle
 			if !pbOwnedByPlayer?(index)
 				if !pbIsOpposing?(index) || (@opponent && pbIsOpposing?(index))
 					newenemy=pbSwitchInBetween(index,false,false)
+					newenemyname=newenemy
+					if newenemy>=0 && isConst?(pbParty(index)[newenemy].ability,PBAbilities,:ILLUSION)
+					  newenemyname=pbGetLastPokeInTeam(index)
+					end
 					opponent=pbGetOwner(index)
 					if !@doublebattle && firstbattlerhp>0 && @shiftStyle && @opponent &&
 						@internalbattle && pbCanChooseNonActive?(0) && pbIsOpposing?(index) &&
 						@battlers[0].effects[PBEffects::Outrage]==0 && !$ISTOURNAMENT
-						pbDisplayPaused(_INTL("{1} is about to send in {2}.",opponent.fullname,@party2[newenemy].name))
+						pbDisplayPaused(_INTL("{1} is about to send in {2}.",opponent.fullname,@party2[newenemyname].name))
 						if pbDisplayConfirm(_INTL("Will {1} change Pokémon?",self.pbPlayer.name))
 							newpoke=pbSwitchPlayer(0,true,true)
 							if newpoke>=0
@@ -1378,7 +1408,11 @@ class PokeBattle_Battle
 				end
 			elsif @opponent
 				newpoke=pbSwitchInBetween(index,true,false)
-				pbRecallAndReplace(index,newpoke)
+				newpokename=newpoke
+				if isConst?(@party1[newpoke].ability,PBAbilities,:ILLUSION)
+				  newpokename=pbGetLastPokeInTeam(index)
+				end
+				pbRecallAndReplace(index,newpoke,newpokename)
 				switched.push(index)
 			else
 				switch=false
@@ -1438,19 +1472,20 @@ class PokeBattle_Battle
 		end
 	end
 	
-	def pbRecallAndReplace(index,newpoke,batonpass=false)
+	def pbRecallAndReplace(index,newpoke,newpokename=-1,batonpass=false)
 		PBDebug.log("[#{@battlers[index].pbThis} is fainted? #{@battlers[index].isFainted?}]")
 		@battlers[index].pbResetForm
 		PBDebug.log("[#{@battlers[index].pbThis} is fainted? #{@battlers[index].isFainted?}]")
 		if !@battlers[index].isFainted?
 			@scene.pbRecall(index)
 		end
-		pbMessagesOnReplace(index,newpoke)
+		pbMessagesOnReplace(index,newpoke,newpokename)
 		pbReplace(index,newpoke,batonpass)
 		return pbOnActiveOne(@battlers[index])
 	end
 	
-	def pbMessagesOnReplace(index,newpoke)
+	def pbMessagesOnReplace(index,newpoke,newpokename = -1)
+		newpokename=newpoke if newpokename<0
 		party=pbParty(index)
 		if pbOwnedByPlayer?(index)
 			#     if !party[newpoke]
@@ -1463,15 +1498,15 @@ class PokeBattle_Battle
 			#     end
 			opposing=@battlers[index].pbOppositeOpposing
 			if opposing.isFainted? || opposing.hp==opposing.totalhp
-				pbDisplayBrief(_INTL("Vai! {1}!",party[newpoke].name))
+				pbDisplayBrief(_INTL("Vai! {1}!",party[newpokename].name))
 			elsif opposing.hp>=(opposing.totalhp/2)
-				pbDisplayBrief(_INTL("Do it! {1}!",party[newpoke].name))
+				pbDisplayBrief(_INTL("Do it! {1}!",party[newpokename].name))
 			elsif opposing.hp>=(opposing.totalhp/4)
-				pbDisplayBrief(_INTL("Go for it, {1}!",party[newpoke].name))
+				pbDisplayBrief(_INTL("Go for it, {1}!",party[newpokename].name))
 			else
-				pbDisplayBrief(_INTL("Your foe's weak!\nGet 'em, {1}!",party[newpoke].name))
+				pbDisplayBrief(_INTL("Your foe's weak!\nGet 'em, {1}!",party[newpokename].name))
 			end
-			PBDebug.log("[Player sent out #{party[newpoke].name}]")
+			PBDebug.log("[Player sent out #{party[newpokename].name}]")
 		else
 			#     if !party[newpoke]
 			#       p [index,newpoke,party[newpoke],pbAllFainted?(party)]
@@ -1482,8 +1517,8 @@ class PokeBattle_Battle
 			#       raise BattleAbortedException.new
 			#     end
 			owner=pbGetOwner(index)
-			pbDisplayBrief(_INTL("{1} manda in\r\ncampo {2}!",owner.fullname,party[newpoke].name))
-			PBDebug.log("[Opponent sent out #{party[newpoke].name}]")
+			pbDisplayBrief(_INTL("{1} manda in\r\ncampo {2}!",owner.fullname,party[newpokename].name))
+			PBDebug.log("[Opponent sent out #{party[newpokename].name}]")
 		end
 	end
 	

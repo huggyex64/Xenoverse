@@ -42,6 +42,30 @@ class PokeBattle_Battler
 	################################################################################
 	# Complex accessors
 	################################################################################
+	def name
+		if @effects[PBEffects::Illusion]
+		  return @effects[PBEffects::Illusion].name
+		end
+		return @name
+	end
+
+	def displayGender
+		if @effects[PBEffects::Illusion]
+		  return @effects[PBEffects::Illusion].gender
+		end
+		return self.gender
+	end
+
+	
+
+	def isShiny?
+		if @effects[PBEffects::Illusion]
+		  return @effects[PBEffects::Illusion].isShiny?
+		end
+		return @pokemon.isShiny? if @pokemon
+		return false
+	end
+
 	def nature
 		return (@pokemon) ? @pokemon.nature : 0
 	end
@@ -339,6 +363,13 @@ class PokeBattle_Battler
 		@effects[PBEffects::HelpingHand]      = false
 		@effects[PBEffects::Cheering]         = false
 		@effects[PBEffects::HyperBeam]        = 0
+		@effects[PBEffects::Illusion]         = nil
+		if self.hasWorkingAbility(:ILLUSION)
+		  lastpoke=@battle.pbGetLastPokeInTeam(@index)
+		  if lastpoke!=@pokemonIndex
+			@effects[PBEffects::Illusion]     = @battle.pbParty(@index)[lastpoke]
+		  end
+		end
 		@effects[PBEffects::Imprison]         = false
 		@effects[PBEffects::MagicCoat]        = false
 		@effects[PBEffects::MeanLook]         = -1
@@ -1137,6 +1168,7 @@ class PokeBattle_Battler
 				0xCE     # Sky Drop
 			]
 			if choice.effects[PBEffects::Substitute]>0 ||
+				choice.effects[PBEffects::Illusion] ||
 				choice.effects[PBEffects::Transform] ||
 				choice.effects[PBEffects::SkyDrop] ||
 				blacklist.include?(PBMoveData.new(choice.effects[PBEffects::TwoTurnAttack]).function)
@@ -3007,6 +3039,16 @@ class PokeBattle_Battler
 			# Damage calculation and/or main effect
 			damage=thismove.pbEffect(user,target,i,alltargets,showanimation) # Recoil/drain, etc. are applied here
 			totaldamage+=damage if damage>0
+			
+     		 # Illusion
+			if target.effects[PBEffects::Illusion] && target.hasWorkingAbility(:ILLUSION) &&
+				damage>0 && !target.damagestate.substitute
+				PBDebug.log("[Ability triggered] #{target.pbThis}'s Illusion ended")    
+				target.effects[PBEffects::Illusion]=nil
+				@battle.scene.pbChangePokemon(target,target.pokemon)
+				@battle.pbDisplay(_INTL("{1}'s {2} wore off!",target.pbThis,
+				PBAbilities.getName(target.ability)))
+			end
 			if user.isFainted?
 				user.pbFaint # no return
 			end

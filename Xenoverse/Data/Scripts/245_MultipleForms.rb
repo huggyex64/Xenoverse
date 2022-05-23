@@ -585,12 +585,14 @@ MultipleForms.register(:WORMADAM,{
 
 MultipleForms.register(:SHELLOS,{
 		"getFormOnCreation"=>proc{|pokemon|
-			maps=[2,5,39,41,44,69,629,630]   # Map IDs for second form
+			maps=[629,630]   # Map IDs for second form
+			pinkmaps=[631,632]
 			if $game_map && maps.include?($game_map.map_id)
 				next 1
-			else
+			elsif $game_map && pinkmaps.include?($game_map.map_id)
 				next 0
 			end
+			next
 		}
 	})
 

@@ -5001,7 +5001,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
             newenemyname=pbGetLastPokeInTeam(index)
           end
           opponent=pbGetOwner(index)
-          pbRecallAndReplace(index,newenemy)
+          pbRecallAndReplace(index,newenemy,newenemyname)
           switched.push(index)
         end
       else

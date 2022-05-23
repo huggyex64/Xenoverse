@@ -108,6 +108,7 @@ begin
     MagicWall         = 201
     SoundBarrier      = 202
     Unburden          = 300
+    Illusion          = 301
     # These effects apply to a side
     LightScreen = 0
     LuckyChant  = 1
