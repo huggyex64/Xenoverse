@@ -8017,6 +8017,7 @@ BattlerEnemyY=35
 Name=Azurill
 InternalName=AZURILL
 Type1=NORMAL
+Type2=FAIRY
 BaseStats=50,20,40,20,20,40
 GenderRate=Female75Percent
 GrowthRate=Fast
