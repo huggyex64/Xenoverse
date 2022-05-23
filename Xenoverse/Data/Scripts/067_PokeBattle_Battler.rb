@@ -1476,7 +1476,7 @@ class PokeBattle_Battler
 				newpoke=0
 				newpoke=@battle.pbSwitchInBetween(@index,true,false)				
 				newpokename=newpoke
-				if isConst?(pbParty(user.index)[newpoke].ability,PBAbilities,:ILLUSION)
+				if isConst?(@battle.pbParty(user.index)[newpoke].ability,PBAbilities,:ILLUSION)
 				  newpokename=pbGetLastPokeInTeam(user.index)
 				end
 				@battle.pbMessagesOnReplace(@index,newpoke,newpokename)
@@ -3214,7 +3214,7 @@ class PokeBattle_Battler
 				
 				newpoke=choices[@battle.pbRandom(choices.length)]				
 				newpokename=newpoke
-				if isConst?(pbParty(user.index)[newpoke].ability,PBAbilities,:ILLUSION)
+				if isConst?(@battle.pbParty(user.index)[newpoke].ability,PBAbilities,:ILLUSION)
 				  newpokename=pbGetLastPokeInTeam(index)
 				end
 				@battle.pbMessagesOnReplace(user.index,newpoke,newpokename)
