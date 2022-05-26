@@ -3662,7 +3662,7 @@ module CableClub
 
     #connport = port+1+rand(9)
 
-    Connection.open("127.0.0.1", 11000) do |connection|#(host, connport) do |connection|
+    Connection.open("127.0.0.1", 42169) do |connection|#(host, connport) do |connection|
       ui.connection = connection
       @state = :await_server
       @last_state = nil
