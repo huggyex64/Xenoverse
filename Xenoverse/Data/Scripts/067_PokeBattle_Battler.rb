@@ -150,8 +150,10 @@ class PokeBattle_Battler
 		@item=value
 		@pokemon.setItem(value) if @pokemon
 		
-		self.effects[PBEffects::Unburden]=true if value == 0
-		self.effects[PBEffects::Unburden]=false if value != 0
+		if (self.hasWorkingAbility(:UNBURDEN))
+			self.effects[PBEffects::Unburden]=true if value == 0
+			self.effects[PBEffects::Unburden]=false if value != 0
+		end
 
 	end
 	
