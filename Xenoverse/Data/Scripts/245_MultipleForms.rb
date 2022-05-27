@@ -2691,7 +2691,7 @@ MultipleForms.register(:LUCARIO,{
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
-			next 0 if pokemon.form == 1
+			next 0 if pokemon.form == 2
 		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Lucario") if pokemon.form==2
