@@ -3057,8 +3057,9 @@ class PWT
       qt = 12 + @firstPool.length/16*3      
       if !@player.winstreak
         @player.winstreak = true
-        @player.winstreak_count +=1 if @player.winstreak <= 4
       end
+      
+      @player.winstreak_count +=1 if @player.winstreak && @player.winstreak_count <= 4
       qt *= @player.winstreak_count
       @player.battle_points+=qt #12 base points for winning + 2 for each bigger stage
       reward = REWARDPOOL[rand(REWARDPOOL.length)]

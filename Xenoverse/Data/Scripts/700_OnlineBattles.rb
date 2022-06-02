@@ -3880,6 +3880,7 @@ module CableClub
               rewardname = getID(PBItems,reward)
               Kernel.pbMessage(_INTL("Inoltre..."))
               Kernel.pbMessage(_INTL("...{1} riceve {2}!",$Trainer.name,PBItems.getName(rewardname)))
+              pbSave()
             end
           end
           if result == 2
@@ -3888,6 +3889,7 @@ module CableClub
               qt = 4
               Kernel.pbMessage(_INTL("{1} ha ottenuto {2} Punti Lotta!",$Trainer.name,qt))
               $Trainer.battle_points += qt
+              pbSave()
             end
           end
           Kernel.pbDisposeMessageWindow(mg)
