@@ -3872,22 +3872,22 @@ module CableClub
           mg.z = 999999
           if result == 1
             Kernel.pbMessageDisplay(mg,_INTL("You won!"))
-            if @matchmaking && battle.turncount > 4
+            if @matchmaking && battle.turncount > 2
               qt = 8
-              Kernel.pbMessage(_INTL("{1} ha ottenuto {2} Punti Lotta!",@player.name,qt))
+              Kernel.pbMessage(_INTL("{1} ha ottenuto {2} Punti Lotta!",$Trainer.name,qt))
               $Trainer.battle_points += qt
-              Kernel.pbMessage(_INTL("Inoltre..."))
-              Kernel.pbMessage(_INTL("Per aver mostrato una performance incredibile..."))
-              Kernel.pbMessage(_INTL("...{1} riceve {2}!",@player.name,PBItems.getName(rewardname)))
               reward = WINREWARD[rand(WINREWARD.length)]
               rewardname = getID(PBItems,reward)
+              Kernel.pbMessage(_INTL("Inoltre..."))
+              Kernel.pbMessage(_INTL("Per aver mostrato una performance incredibile..."))
+              Kernel.pbMessage(_INTL("...{1} riceve {2}!",$Trainer.name,PBItems.getName(rewardname)))
             end
           end
           if result == 2
             Kernel.pbMessageDisplay(mg,_INTL("You lost!")) 
-            if @matchmaking && battle.turncount > 4
+            if @matchmaking && battle.turncount > 2
               qt = 4
-              Kernel.pbMessage(_INTL("{1} ha ottenuto {2} Punti Lotta!",@player.name,qt))
+              Kernel.pbMessage(_INTL("{1} ha ottenuto {2} Punti Lotta!",$Trainer.name,qt))
               $Trainer.battle_points += qt
             end
           end
