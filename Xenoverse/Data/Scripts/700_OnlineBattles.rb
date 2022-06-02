@@ -3879,7 +3879,6 @@ module CableClub
               reward = WINREWARD[rand(WINREWARD.length)]
               rewardname = getID(PBItems,reward)
               Kernel.pbMessage(_INTL("Inoltre..."))
-              Kernel.pbMessage(_INTL("Per aver mostrato una performance incredibile..."))
               Kernel.pbMessage(_INTL("...{1} riceve {2}!",$Trainer.name,PBItems.getName(rewardname)))
             end
           end
