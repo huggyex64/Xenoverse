@@ -808,7 +808,7 @@ class OnlineLobby
       :DANTETOURNAMENT => "Dante",
       :SERGENTESIGMA => "S",
       :STELLATOURNAMENT => pbGetMessageFromHash(MessageTypes::TrainerNames,"Stella"),
-      :CLAWMANTOURNAMENT => pbGetMessageFromHash(MessageTypes::TrainerNames,"Sotis"),
+      :SOTISTOURNAMENT => pbGetMessageFromHash(MessageTypes::TrainerNames,"Sotis"),
       :GLADIONTOURNAMENT => pbGetMessageFromHash(MessageTypes::TrainerNames,"Iridio"),
       :GRETATOURNAMENT => pbGetMessageFromHash(MessageTypes::TrainerNames,"Valentina"),
     }
@@ -2220,7 +2220,7 @@ module CableClub
     ret.push(:WILLTOURNAMENT) if $game_switches[247]
     ret.push(:VAKUM) if $game_switches[1330]
     ret.push(:STELLATOURNAMENT) if $game_switches[1344]
-    ret.push(:CLAWMANTOURNAMENT) if $game_switches[1346]
+    ret.push(:SOTISTOURNAMENT) if $game_switches[1346]
     ret.push(:GLADIONTOURNAMENT) if $game_switches[1345]
     ret.push(:GRETATOURNAMENT) if $game_switches[1347]
 
@@ -2485,6 +2485,8 @@ end
 module CableClub
   attr_accessor :timeoutCounter
   attr_reader   :maxTimeOut
+
+  WINREWARD = [:BOTTLECAP,:GOLDBOTTLECAP,:ULTRARARECANDY,:HPUP,:PROTEIN,:IRON,:CALCIUM,:ZINC,:CARBOS,:PPMAX]
 
   def self.timeoutCounter
     @timeoutCounter = 0 if @timeoutCounter == nil
@@ -3868,8 +3870,27 @@ module CableClub
           result = 2 if result == 3
           mg = Kernel.pbCreateMessageWindow
           mg.z = 999999
-          Kernel.pbMessageDisplay(mg,_INTL("You won!")) if result == 1
-          Kernel.pbMessageDisplay(mg,_INTL("You lost!")) if result == 2
+          if result == 1
+            Kernel.pbMessageDisplay(mg,_INTL("You won!"))
+            if @matchmaking && battle.turncount > 4
+              qt = 8
+              Kernel.pbMessage(_INTL("{1} ha ottenuto {2} Punti Lotta!",@player.name,qt))
+              $Trainer.battle_points += qt
+              Kernel.pbMessage(_INTL("Inoltre..."))
+              Kernel.pbMessage(_INTL("Per aver mostrato una performance incredibile..."))
+              Kernel.pbMessage(_INTL("...{1} riceve {2}!",@player.name,PBItems.getName(rewardname)))
+              reward = WINREWARD[rand(WINREWARD.length)]
+              rewardname = getID(PBItems,reward)
+            end
+          end
+          if result == 2
+            Kernel.pbMessageDisplay(mg,_INTL("You lost!")) 
+            if @matchmaking && battle.turncount > 4
+              qt = 4
+              Kernel.pbMessage(_INTL("{1} ha ottenuto {2} Punti Lotta!",@player.name,qt))
+              $Trainer.battle_points += qt
+            end
+          end
           Kernel.pbDisposeMessageWindow(mg)
 
         end
@@ -4431,8 +4452,14 @@ class PokeBattle_CableClub < PokeBattle_Battle
 				pri+=2 if battlers[i].hasWorkingAbility(:PRANKSTER) && choices[i][2].basedamage==0 # Is status move
 				pri+=1 if isConst?(battlers[i].ability,PBAbilities,:GALEWINGS) && choices[i][2].type==2
         # I need to use my own client perspective for this
-        echoln "RAPTOR? #{battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[choices[i][3]].hp <= @battlers[choices[i][3]].totalhp/4}"
-        pri+=1 if battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[choices[i][3]].hp <= @battlers[choices[i][3]].totalhp/4 #I need to use my ow
+        singleTargetMove = choices[i][2].target == PBTargets::SingleNonUser || choices[i][2].target == PBTargets::RandomOpposing || choices[i][2].target == PBTargets::SingleOpposing 
+				target = choices[i][3]==-1 ? @battlers[i].pbOpposing1().index : choices[i][3]
+				echoln "RAPTOR ON #{target} HP: #{@battlers[target].hp}  TOTALHP: #{@battlers[target].totalhp/4} WITH #{singleTargetMove}"
+				echoln "RAPTOR? #{battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[target].hp <= @battlers[target].totalhp/4}"
+				
+				pri+=1 if battlers[i].hasWorkingAbility(:RAPTOR) &&
+				 singleTargetMove &&
+				 @battlers[target].hp <= @battlers[target].totalhp/4 #I need to use my ow
         pri+=2 if battlers[i].effects[PBEffects::Cheering]
       end
 			priorities[i]=pri

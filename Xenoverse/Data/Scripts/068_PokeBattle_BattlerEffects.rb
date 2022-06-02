@@ -504,6 +504,11 @@ class PokeBattle_Battler
 
   def pbContinueAttract
     @battle.pbDisplay(_INTL("{1} is immobilized by love!",pbThis)) 
+  end  
+
+  def pbCureAttract
+    @effects[PBEffects::Attract]=-1
+    PBDebug.log("[End of effect] #{pbThis} was cured of infatuation")
   end
 
 #===============================================================================

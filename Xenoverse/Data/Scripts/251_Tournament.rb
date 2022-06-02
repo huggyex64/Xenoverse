@@ -1944,6 +1944,8 @@ class PWT
     
     player.tournament_wins=0 if player.tournament_wins.nil?
     player.battle_points = 0 if player.battle_points.nil?
+    player.winstreak_count=0 if player.winstreak_count.nil?
+    player.winstreak = false if player.winstreak.nil?
     @player = player
     # Backing up Party
     self.backupParty
@@ -3052,7 +3054,12 @@ class PWT
       end
       
       Kernel.pbMessage(_INTL("Ecco la ricompensa per la tua vittoria."))
-      qt = 12 + @firstPool.length/16*3
+      qt = 12 + @firstPool.length/16*3      
+      if !@player.winstreak
+        @player.winstreak = true
+        @player.winstreak_count +=1 if @player.winstreak <= 4
+      end
+      qt *= @player.winstreak_count
       @player.battle_points+=qt #12 base points for winning + 2 for each bigger stage
       reward = REWARDPOOL[rand(REWARDPOOL.length)]
       rewardname = getID(PBItems,reward)
@@ -3065,7 +3072,10 @@ class PWT
      # pbCallBubStart(3)
       Kernel.pbMessage(_INTL("Ci vediamo!"))
     else #what to do if player lose
-      
+      if @player.winstreak
+        @player.winstreak = false
+        @player.winstreak_count = 0
+      end
      # pbTransferWithTransition(4,6,15,:DIRECTED,8)
      # pbCallBubStart(3)
       Kernel.pbMessage(_INTL("Mi dispiace per la tua sconfitta! Ma hai combattuto bene, sono certa che vincerai la prossima volta!"))
@@ -3186,6 +3196,8 @@ end
 #Modification to Pokebattle_trainer module to add won tournaments counter
 class PokeBattle_Trainer
   attr_accessor :tournament_wins
+  attr_accessor :winstreak_count
+  attr_accessor :winstreak
 end
 
 #TOURNAMENT BATTLE METHOD

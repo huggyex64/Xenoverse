@@ -424,6 +424,7 @@ class PokeBattle_Battle
 			@megaEvolution[1]=[-1]
 		end
 		@amuletcoin      = false
+		@piggybank       = false
 		@extramoney      = 0
 		@endspeech       = ""
 		@endspeech2      = ""
@@ -1147,8 +1148,14 @@ class PokeBattle_Battle
 				pri+=2 if battlers[i].hasWorkingAbility(:PRANKSTER) && choices[i][2].basedamage==0 # Is status move
 				pri+=1 if isConst?(battlers[i].ability,PBAbilities,:GALEWINGS) && choices[i][2].type==2
 				# I need to use my own client perspective for this
-				echoln "RAPTOR? #{battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[choices[i][3]].hp <= @battlers[choices[i][3]].totalhp/4}"
-				pri+=1 if battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[choices[i][3]].hp <= @battlers[choices[i][3]].totalhp/4 #I need to use my ow
+				singleTargetMove = choices[i][2].target == PBTargets::SingleNonUser || choices[i][2].target == PBTargets::RandomOpposing || choices[i][2].target == PBTargets::SingleOpposing 
+				target = choices[i][3]==-1 ? @battlers[i].pbOpposing1().index : choices[i][3]
+				echoln "RAPTOR ON #{target} HP: #{@battlers[target].hp}  TOTALHP: #{@battlers[target].totalhp/4} WITH #{singleTargetMove}"
+				echoln "RAPTOR? #{battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[target].hp <= @battlers[target].totalhp/4}"
+				
+				pri+=1 if battlers[i].hasWorkingAbility(:RAPTOR) &&
+				 singleTargetMove &&
+				 @battlers[target].hp <= @battlers[target].totalhp/4 #I need to use my ow
 				pri+=2 if battlers[i].effects[PBEffects::Cheering]
 			end
 			priorities[i]=pri
@@ -2189,8 +2196,8 @@ class PokeBattle_Battle
 			@battlers[i].pbUpdateParticipants if pbIsOpposing?(i)
 			@amuletcoin=true if !pbIsOpposing?(i) &&
 			(isConst?(@battlers[i].item,PBItems,:AMULETCOIN) ||
-				isConst?(@battlers[i].item,PBItems,:LUCKINCENSE) ||
-        (@battlers[i]!= nil && @battlers[i].hasWorkingAbility(:PIGGYBANK)))
+				isConst?(@battlers[i].item,PBItems,:LUCKINCENSE)
+        	@piggybank = true if (@battlers[i]!= nil && @battlers[i].hasWorkingAbility(:PIGGYBANK)))
 		end
 		for i in 0...4
 			if !@battlers[i].isFainted?
@@ -2220,8 +2227,8 @@ class PokeBattle_Battle
 				@battlers[i].pbUpdateParticipants if pbIsOpposing?(i)
 				@amuletcoin=true if !pbIsOpposing?(i) &&
 				(isConst?(@battlers[i].item,PBItems,:AMULETCOIN) ||
-					isConst?(@battlers[i].item,PBItems,:LUCKINCENSE)||
-          (@battlers[i]!= nil && @battlers[i].hasWorkingAbility(:PIGGYBANK)))
+					isConst?(@battlers[i].item,PBItems,:LUCKINCENSE)
+				@piggybank = true if (@battlers[i]!= nil && @battlers[i].hasWorkingAbility(:PIGGYBANK)))
 			end
 			if pkmn.isShadow? && pbIsOpposing?(pkmn.index)
 				pbCommonAnimation("Shadow",pkmn,nil)
@@ -4027,6 +4034,7 @@ class PokeBattle_Battle
 					end
 					# If Amulet Coin/Luck Incense's effect applies, double money earned
 					tmoney*=2 if @amuletcoin
+					tmoney*=2 if @piggybank
 					oldmoney=self.pbPlayer.money
 					self.pbPlayer.money+=tmoney
 					moneygained=self.pbPlayer.money-oldmoney
@@ -4037,6 +4045,7 @@ class PokeBattle_Battle
 			end
 			if @internalbattle && @extramoney>0
 				@extramoney*=2 if @amuletcoin
+				@extramoney*=2 if @piggybank
 				oldmoney=self.pbPlayer.money
 				self.pbPlayer.money+=@extramoney
 				moneygained=self.pbPlayer.money-oldmoney

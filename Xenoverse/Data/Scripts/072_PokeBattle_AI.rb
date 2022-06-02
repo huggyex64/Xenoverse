@@ -52,7 +52,7 @@ class PokeBattle_Battle
           expectedswitch = opponent
 
           for oppo in party
-            next if oppo == nil
+            next if oppo == nil || oppo.isEgg?
             ib = PokeBattle_Battler.new(self,opponent.index)#opponent.clone
             ib.pbInitialize(oppo,party.index(oppo),false,false)
             if (opponent.pokemon == oppo)
