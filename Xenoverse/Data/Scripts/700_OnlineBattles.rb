@@ -3880,6 +3880,7 @@ module CableClub
               rewardname = getID(PBItems,reward)
               Kernel.pbMessage(_INTL("Inoltre..."))
               Kernel.pbMessage(_INTL("...{1} riceve {2}!",$Trainer.name,PBItems.getName(rewardname)))
+              Kernel.pbReceiveItem(reward)
               pbSave()
             end
           end
@@ -4454,13 +4455,11 @@ class PokeBattle_CableClub < PokeBattle_Battle
 				pri+=1 if isConst?(battlers[i].ability,PBAbilities,:GALEWINGS) && choices[i][2].type==2
         # I need to use my own client perspective for this
         singleTargetMove = choices[i][2].target == PBTargets::SingleNonUser || choices[i][2].target == PBTargets::RandomOpposing || choices[i][2].target == PBTargets::SingleOpposing 
-				target = choices[i][3]==-1 ? @battlers[i].pbOpposing1().index : choices[i][3]
-				echoln "RAPTOR ON #{target} HP: #{@battlers[target].hp}  TOTALHP: #{@battlers[target].totalhp/4} WITH #{singleTargetMove}"
-				echoln "RAPTOR? #{battlers[i].hasWorkingAbility(:RAPTOR) && @battlers[target].hp <= @battlers[target].totalhp/4}"
+				target = choices[i][3]==-1 ? battlers[i].pbOpposing1().index : choices[i][3]
+				echoln "RAPTOR ON #{target} HP: #{battlers[target].hp}  TOTALHP: #{battlers[target].totalhp/4} WITH #{singleTargetMove}"
+				echoln "RAPTOR? #{battlers[i].hasWorkingAbility(:RAPTOR) && battlers[target].hp <= battlers[target].totalhp/4}"
 				
-				pri+=1 if battlers[i].hasWorkingAbility(:RAPTOR) &&
-				 singleTargetMove &&
-				 @battlers[target].hp <= @battlers[target].totalhp/4 #I need to use my ow
+				pri+=1 if battlers[i].hasWorkingAbility(:RAPTOR) && singleTargetMove && battlers[target].hp <= battlers[target].totalhp/4 #I need to use my ow
         pri+=2 if battlers[i].effects[PBEffects::Cheering]
       end
 			priorities[i]=pri
@@ -4472,7 +4471,10 @@ class PokeBattle_CableClub < PokeBattle_Battle
 				minpri=pri if minpri>pri
 			end
 		end
-		
+    echo "SPEEDS =>"
+    echoln speeds
+    echo "PRIORITIES =>"
+    echoln priorities
 		# Find and order all moves with the same priority
 		curpri=maxpri
 		loop do
@@ -4482,6 +4484,8 @@ class PokeBattle_CableClub < PokeBattle_Battle
 					temp[temp.length]=j
 				end
 			end
+      echo "TEMP =>"
+      echoln temp
 			# Sort by speed
 			if temp.length==1
 				@priority[@priority.length]=battlers[temp[0]]
@@ -4491,12 +4495,17 @@ class PokeBattle_CableClub < PokeBattle_Battle
 					for i in 1..n-1
 						if quickclaw[temp[i]]
 							cmp=(quickclaw[temp[i-1]]) ? 0 : -1 #Rank higher if without Quick Claw, or equal if with it
+              echoln "i has quickclaw, cmp=#{cmp}"
 						elsif quickclaw[temp[i-1]]
 							cmp=1 # Rank lower
 						elsif speeds[temp[i]]!=speeds[temp[i-1]]
+              echoln "#{temp[i]} #{temp[i-1]}"
+              echoln "different speeds brother, cmp=#{cmp} e #{speeds[temp[i]]} #{speeds[temp[i-1]]}"
 							cmp=(speeds[temp[i]]>speeds[temp[i-1]]) ? -1 : 1 #Rank higher to higher-speed battler
 						else
 							cmp=0
+              echoln "#{temp[i]} #{temp[i-1]}"
+              echoln "equal speeds brother, cmp=#{cmp} e #{speeds[temp[i]]} #{speeds[temp[i-1]]}"
 						end
 						if cmp<0
 							# put higher-speed Pokémon first

@@ -652,7 +652,7 @@ class PokeBattle_Battler
 		if @battle.internalbattle && @battle.pbOwnedByPlayer?(@index)
 			speed=(speed*1.1).floor if @battle.pbPlayer.numbadges>=BADGESBOOSTSPEED
 		end
-		if self.effects[PBEffects::Unburden]
+		if self.effects[PBEffects::Unburden] && hasWorkingAbility?(:UNBURDEN)
 			speed *= 2
 		end
 		return speed
@@ -1932,7 +1932,6 @@ class PokeBattle_Battler
 		#  @effects[PBEffects::PickupUse]=@battle.nextPickupUse
 		#end
 		self.item=0
-		self.effects[PBEffects::Unburden]=true
 		# Symbiosis
 		if pbPartner && pbPartner.hasWorkingAbility(:SYMBIOSIS) && recycle
 			if pbPartner.item>0 &&
