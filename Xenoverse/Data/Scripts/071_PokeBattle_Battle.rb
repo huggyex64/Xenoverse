@@ -2196,8 +2196,8 @@ class PokeBattle_Battle
 			@battlers[i].pbUpdateParticipants if pbIsOpposing?(i)
 			@amuletcoin=true if !pbIsOpposing?(i) &&
 			(isConst?(@battlers[i].item,PBItems,:AMULETCOIN) ||
-				isConst?(@battlers[i].item,PBItems,:LUCKINCENSE)
-        	@piggybank = true if (@battlers[i]!= nil && @battlers[i].hasWorkingAbility(:PIGGYBANK)))
+				isConst?(@battlers[i].item,PBItems,:LUCKINCENSE))
+        	@piggybank = true if (@battlers[i]!= nil && @battlers[i].hasWorkingAbility(:PIGGYBANK))
 		end
 		for i in 0...4
 			if !@battlers[i].isFainted?
@@ -2227,8 +2227,8 @@ class PokeBattle_Battle
 				@battlers[i].pbUpdateParticipants if pbIsOpposing?(i)
 				@amuletcoin=true if !pbIsOpposing?(i) &&
 				(isConst?(@battlers[i].item,PBItems,:AMULETCOIN) ||
-					isConst?(@battlers[i].item,PBItems,:LUCKINCENSE)
-				@piggybank = true if (@battlers[i]!= nil && @battlers[i].hasWorkingAbility(:PIGGYBANK)))
+					isConst?(@battlers[i].item,PBItems,:LUCKINCENSE))
+				@piggybank = true if (@battlers[i]!= nil && @battlers[i].hasWorkingAbility(:PIGGYBANK))
 			end
 			if pkmn.isShadow? && pbIsOpposing?(pkmn.index)
 				pbCommonAnimation("Shadow",pkmn,nil)

@@ -1123,7 +1123,7 @@ BATTLE_POINT_PRICES = {
   PBItems::LUMINOUSMOSS => 30,
   PBItems::THROATSPRAY => 30,
   PBItems::ROOMSERVICE => 30,
-  PBItems::PINKSTONE => 60,
+  PBItems::PINKSTONE => 180,
 
   #Pokemon modification items
   PBItems::ABILITYCAPSULE => 30,
