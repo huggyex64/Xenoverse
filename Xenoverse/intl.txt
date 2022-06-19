@@ -31627,20 +31627,20 @@ Sunnee
 Puddi
 Puddi
 1484
-????????
-????????
+Venonat
+Venonat
 1485
-????????
-????????
+Venomoth
+Venomoth
 1486
-????????
-????????
+Hoppip
+Hoppip
 1487
-????????
-????????
+Skiploom
+Skiploom
 1488
-????????
-????????
+Jumpluff
+Jumpluff
 1489
 ????????
 ????????
@@ -36445,6 +36445,21 @@ Sun
 1483
 Cagnolino
 Puppy
+1484
+Insetto
+Insect
+1485
+Velentarma
+Poison Moth
+1486
+Gramigna
+Cottonweed
+1487
+Gramigna
+Cottonweed
+1488
+Gramigna
+Cottonweed
 2000
 Cavallonembo
 Nimbus Steed
@@ -39755,6 +39770,21 @@ It converts sunlight into energy. In the darkness after sunset, it closes its pe
 1483
 I Puddi sono molto fedeli. Durante gli inverni freddi, il loro calore può riscaldare un'intera abitazione.
 The Puddis are very loyal. During cold winters, their heat can warm an entire home.
+1484
+Gli occhi enormi fungono da radar. Alla luce si puo' notare che sono formati da molti occhi minori.
+Its large eyes act as radars. In a bright place, you can see that they are clusters of many tiny eyes.
+1485
+Le sue ali sono coperte di squame polverose. Se toccate liberano un veleno letale.
+The powdery scales on its wings are hard to remove. They also contain poison that leaks out on contact.
+1486
+Ha un corpo cosi' leggero che deve aggrapparsi saldamente al suolo per non volare via.
+Its body is so light, it must grip the ground firmly with its feet to keep from being blown away.
+1487
+Spalanca i petali per assorbire la luce solare. Fluttua nell'aria per essere piu' vicino al sole.
+It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun.
+1488
+Sospinto dai venti stagionali, gira intorno al globo sparpagliando i suoi semi simili al cotone.
+Drifts on seasonal winds and spreads its cotton-like spores all over the world to make more offspring.
 2000
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.

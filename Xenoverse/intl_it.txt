@@ -5073,20 +5073,20 @@ Sunnee
 Puddi
 Puddi
 1484
-????????
-????????
+Venonat
+Venonat
 1485
-????????
-????????
+Venomoth
+Venomoth
 1486
-????????
-????????
+Hoppip
+Hoppip
 1487
-????????
-????????
+Skiploom
+Skiploom
 1488
-????????
-????????
+Jumpluff
+Jumpluff
 1489
 ????????
 ????????
@@ -9885,6 +9885,21 @@ Sole
 1483
 Cagnolino
 Cagnolino
+1484
+Insetto
+Insetto
+1485
+Velentarma
+Velentarma
+1486
+Gramigna
+Gramigna
+1487
+Gramigna
+Gramigna
+1488
+Gramigna
+Gramigna
 2000
 Cavallonembo
 Cavallonembo
@@ -13186,6 +13201,21 @@ Di giorno si muove freneticamente, ma quando cala il sole si ferma e interrompe 
 1483
 I Puddi sono molto fedeli. Durante gli inverni freddi, il loro calore può riscaldare un'intera abitazione.
 I Puddi sono molto fedeli. Durante gli inverni freddi, il loro calore può riscaldare un'intera abitazione.
+1484
+Gli occhi enormi fungono da radar. Alla luce si puo' notare che sono formati da molti occhi minori.
+Gli occhi enormi fungono da radar. Alla luce si puo' notare che sono formati da molti occhi minori.
+1485
+Le sue ali sono coperte di squame polverose. Se toccate liberano un veleno letale.
+Le sue ali sono coperte di squame polverose. Se toccate liberano un veleno letale.
+1486
+Ha un corpo cosi' leggero che deve aggrapparsi saldamente al suolo per non volare via.
+Ha un corpo cosi' leggero che deve aggrapparsi saldamente al suolo per non volare via.
+1487
+Spalanca i petali per assorbire la luce solare. Fluttua nell'aria per essere piu' vicino al sole.
+Spalanca i petali per assorbire la luce solare. Fluttua nell'aria per essere piu' vicino al sole.
+1488
+Sospinto dai venti stagionali, gira intorno al globo sparpagliando i suoi semi simili al cotone.
+Sospinto dai venti stagionali, gira intorno al globo sparpagliando i suoi semi simili al cotone.
 2000
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
