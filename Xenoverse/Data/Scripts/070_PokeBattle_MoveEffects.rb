@@ -5952,7 +5952,7 @@ class PokeBattle_Move_0ED < PokeBattle_Move
 		newpoke=@battle.pbSwitchInBetween(attacker.index,true,false)				
 		newpokename=newpoke
 		if isConst?(@battle.pbParty(attacker.index)[newpoke].ability,PBAbilities,:ILLUSION)
-		  newpokename=pbGetLastPokeInTeam(attacker.index)
+		  newpokename=@battle.pbGetLastPokeInTeam(attacker.index)
 		end
 		@battle.pbMessagesOnReplace(attacker.index,newpoke,newpokename)
 		attacker.pbResetForm
@@ -5994,7 +5994,7 @@ class PokeBattle_Move_0EE < PokeBattle_Move
 			newpoke=@battle.pbSwitchInBetween(attacker.index,true,false)				
 			newpokename=newpoke
 			if isConst?(@battle.pbParty(attacker.index)[newpoke].ability,PBAbilities,:ILLUSION)
-			  newpokename=pbGetLastPokeInTeam(attacker.index)
+			  newpokename=@battle.pbGetLastPokeInTeam(attacker.index)
 			end
 			@battle.pbMessagesOnReplace(attacker.index,newpoke,newpokename)
 			attacker.pbResetForm

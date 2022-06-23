@@ -483,3 +483,15 @@ TYPE2=11
 [351_3]
 TYPE1=15
 TYPE2=15
+[1051_1]
+DESCRIPTION=(Stile Smoliv)\n Se dissotterrato mentre dorme, emette urla così strazianti da stordire anche un Pokémon di grossa taglia.
+[1052_1]
+DESCRIPTION=(Stile Smoliv)\n Chiacchiera ininterrottamente all'ombra delle sue foglie. Chi, per errore, capta le onde sonore dei suoi fiori-antenna, è costretto a sorbirsi ore di ciance.
+[1043_1]
+DESCRIPTION=(Stile Lechonk)\n Più si muove, più è l'oro che produce dall'ombelico. Dopo una lotta intensa, con gran gioia del suo Allenatore, l'intero campo è pieno di Pepite.
+[1050_1]
+DESCRIPTION=(Stile Pawmi)\n Resiste alle basse temperature grazie alla folta pelliccia. Questa, se strofinata, si carica di elettricità statica e può dare la scossa.
+[1070_1]
+DESCRIPTION=(Stile Koraidon)\n Le gang rivali si contendono il territorio in gare di velocità così rumorose da far allontanare chiunque sia nei paraggi.
+[1070_2]
+DESCRIPTION=(Stile Miraidon)\n Le gang rivali si contendono il territorio in gare di velocità così rumorose da far allontanare chiunque sia nei paraggi.

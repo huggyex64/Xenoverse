@@ -1467,23 +1467,23 @@ class PokeBattle_Battler
 					#end
 				end
 			end
-			if target.hasWorkingItem(:EJECTBUTTON) && target.pbOwnSide.effects[PBEffects::Switch][user]==nil
+			if target.hasWorkingItem(:EJECTBUTTON) && target.pbOwnSide.effects[PBEffects::Switch][user]==nil && @battle.pbCanChooseNonActive?(target.index)
 				PBDebug.log("[#{target.pbThis}'s Eject Button triggered]")
 				
 				target.pokemon.itemRecycle=target.item
 				target.pokemon.itemInitial=0 if target.pokemon.itemInitial==target.item
 				target.item=0
 				target.pbOwnSide.effects[PBEffects::Switch][user]=target
-				@battle.pbDisplay(_INTL("{1} went back to {2}!",target.pbThis,@battle.pbGetOwner(@index).name))
+				@battle.pbDisplay(_INTL("{1} went back to {2}!",target.pbThis,@battle.pbGetOwner(target.index).name))
 				newpoke=0
-				newpoke=@battle.pbSwitchInBetween(@index,true,false)				
+				newpoke=@battle.pbSwitchInBetween(target.index,true,false)				
 				newpokename=newpoke
-				if isConst?(@battle.pbParty(user.index)[newpoke].ability,PBAbilities,:ILLUSION)
-				  newpokename=pbGetLastPokeInTeam(user.index)
+				if isConst?(@battle.pbParty(target.index)[newpoke].ability,PBAbilities,:ILLUSION)
+				  newpokename=pbGetLastPokeInTeam(target.index)
 				end
-				@battle.pbMessagesOnReplace(@index,newpoke,newpokename)
+				@battle.pbMessagesOnReplace(target.index,newpoke,newpokename)
 				target.pbResetForm
-				@battle.pbReplace(@index,newpoke,true)
+				@battle.pbReplace(target.index,newpoke,true)
 				@battle.pbOnActiveOne(target)
 				target.pbAbilitiesOnSwitchIn(true)
 			end

@@ -436,3 +436,33 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (MegaEvoluzione)\n Con la megaevoluzione, la sua aura si è espansa. Segue ciecamente il suo istinto guerriero e si getta sul nemico attaccando implacabile.
 (MegaEvolution)\n Its aura has expanded due to Mega Evolution. Governed only by its combative instincts, it strikes enemies without mercy.
+#HYSTEARIC
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Smoliv)\n Se dissotterrato mentre dorme, emette urla così strazianti da stordire anche un Pokémon di grossa taglia.
+(Smoliv Style)\n If someone tries to yank them out of the ground while they're sleeping, these Pokémon will shriek out loud making even large size Pokémon dizzy.
+#WYSTEARIA
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Smoliv)\n Chiacchiera ininterrottamente all'ombra delle sue foglie. Chi, per errore, capta le onde sonore dei suoi fiori-antenna, è costretto a sorbirsi ore di ciance.
+(Smoliv Style)\n It chatters non-stop in the shade of its foliage. Whoever accidentally catches the sound waves from its floreal antennas will have to swallow its endless babble.
+#KOINKOIN
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Lechonk)\n Più si muove, più è l'oro che produce dall'ombelico. Dopo una lotta intensa, con gran gioia del suo Allenatore, l'intero campo è pieno di Pepite.
+(Lechonk Style)\n The more it moves, the more is the gold it drops from its navel. After an intense struggle, its Trainer will make plenty of Nuggets.
+#GACHIGACHOO
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Pawmi)\n Resiste alle basse temperature grazie alla folta pelliccia. Questa, se strofinata, si carica di elettricità statica e può dare la scossa.
+(Pawmi Style)\n It withstands low temperatures thanks to its thick fur coat. If you rub that, it will charge with static electricity and electrocute.
+#SKRAVROOM K
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Koraidon)\n Le gang rivali si contendono il territorio in gare di velocità così rumorose da far allontanare chiunque sia nei paraggi.
+(Koraidon Style)\n Rival gangs compete for territories in really noisy speed races that make anyone around run away.
+#SKRAVROOM M
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Miraidon)\n Le gang rivali si contendono il territorio in gare di velocità così rumorose da far allontanare chiunque sia nei paraggi.
+(Miraidon Style)\n Rival gangs compete for territories in really noisy speed races that make anyone around run away.

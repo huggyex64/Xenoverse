@@ -2220,6 +2220,14 @@ class PokeBattle_Battle
 		end
 	end
 	
+	def pbCanChooseNonActive?(index)
+		party=pbParty(index)
+		for i in 0...party.length
+		  return true if pbCanSwitchLax?(index,i,false)
+		end
+		return false
+	end
+	
 	def pbOnActiveOne(pkmn,onlyabilities=false)
 		return false if pkmn.isFainted?
 		if !onlyabilities

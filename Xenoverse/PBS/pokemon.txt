@@ -20637,6 +20637,7 @@ WildItemUncommon=BIGPEARL
 WildItemRare=PEARLSTRING
 BattlerPlayerY=2
 BattlerEnemyY=5
+FormNames=,Lechonk
 [1044]
 Name=Beefle
 InternalName=BEEFLE
@@ -20821,6 +20822,7 @@ Pokedex=Resiste alle basse temperature grazie alla folta pelliccia. Questa, se s
 WildItemCommon=ORANBERRY
 BattlerPlayerY=10
 BattlerEnemyY=18
+FormNames=,Pawmi
 [1051]
 Name=Hystearic
 InternalName=HYSTEARIC
@@ -20849,6 +20851,7 @@ WildItemRare=LEAFSTONE
 BattlerPlayerY=9
 BattlerEnemyY=14
 Evolutions=WYSTEARIA,Item,LEAFSTONE
+FormNames=,Smoliv
 [1052]
 Name=Wystearia
 InternalName=WYSTEARIA
@@ -20875,6 +20878,7 @@ Pokedex=Chiacchiera ininterrottamente all'ombra delle sue foglie. Chi, per error
 BattlerPlayerY=29
 BattlerEnemyY=46
 BattlerAltitude=10
+FormNames=,Smoliv
 [1053]
 Name=Pepequeno
 InternalName=PEPEQUENO
@@ -21366,6 +21370,7 @@ Kind=Blattistrada
 Pokedex=Le gang rivali si contendono il territorio in gare di velocità così rumorose da far allontanare chiunque sia nei paraggi.
 BattlerPlayerY=22
 BattlerEnemyY=36
+FormNames=,Koraidon,Miraidon
 [1071]
 Name=Chikaboo
 InternalName=CHIKABOO
@@ -22232,7 +22237,7 @@ EffortPoints=0,2,0,0,0,0
 Rareness=150
 Happiness=40
 Abilities=CURSEDBODY,INFILTRATOR
-Moves=1,HEADSMASH,1,CLAMP,1,AQUAJET,1,LEER,1,ASTONISH,1,TOPSYTURVY,1,SCARYFACE,1,HEX,16,SHADOWCLAW,20,ICEFANG,25,SCREECH,30,SWAGGER,35,PHANTOMFORCE,40,AGILITY,46,LIQUIDATION,52,TAKEDOWN,58,HEADSMASH,62,POLTERGEIST
+Moves=1,CONFUSERAY,1,HEADSMASH,1,CLAMP,1,AQUAJET,1,LEER,1,ASTONISH,1,TOPSYTURVY,1,SCARYFACE,1,HEX,16,SHADOWCLAW,20,ICEFANG,25,SCREECH,30,SWAGGER,35,PHANTOMFORCE,40,AGILITY,46,LIQUIDATION,52,TAKEDOWN,58,HEADSMASH,62,POLTERGEIST
 Compatibility=29
 StepsToHatch=5355
 Height=18
