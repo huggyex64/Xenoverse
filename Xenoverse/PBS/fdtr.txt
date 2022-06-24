@@ -445,7 +445,7 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Stile Smoliv)\n Chiacchiera ininterrottamente all'ombra delle sue foglie. Chi, per errore, capta le onde sonore dei suoi fiori-antenna, è costretto a sorbirsi ore di ciance.
-(Smoliv Style)\n It chatters non-stop in the shade of its foliage. Whoever accidentally catches the sound waves from its floreal antennas will have to swallow its endless babble.
+(Smoliv Style)\n It chatters non-stop in the shade of its foliage. It keeps doing that even if no one is listening.
 #KOINKOIN
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
