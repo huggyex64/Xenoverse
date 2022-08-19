@@ -495,3 +495,7 @@ DESCRIPTION=(Stile Pawmi)\n Resiste alle basse temperature grazie alla folta pel
 DESCRIPTION=(Stile Koraidon)\n Le gang rivali si contendono il territorio in gare di velocità così rumorose da far allontanare chiunque sia nei paraggi.
 [1070_2]
 DESCRIPTION=(Stile Miraidon)\n Le gang rivali si contendono il territorio in gare di velocità così rumorose da far allontanare chiunque sia nei paraggi.
+[553_1]
+DESCRIPTION=(Stile Ash)\n Vede le cose in lontananza come se avesse dei binocoli. Ha delle mandibole in grado di fare a pezzi un'automobile.
+[658_1]
+DESCRIPTION=(Stile Ash)\n Crea lame d'acqua affilatissime da tirare. Con l'agilità di un ninja, appare e scompare per attaccare nell'ombra.

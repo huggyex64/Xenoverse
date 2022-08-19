@@ -7,7 +7,7 @@ ELDIWDEX = pbAllRegionalSpecies(0)#[1021,1022,1023,1024,1025,1026,1027,1028,1029
 ELDIWDEX.delete(0) if ELDIWDEX.include?(0)
 NATIONALDEX = []
 RETRODEX = []
-for i in 1300..1488
+for i in 1300..1492
 	next if [1462,1463,1464].include?(i)
 	RETRODEX.push(i)
 end
@@ -17,7 +17,6 @@ RETRODEX.insert(152,1464) #BEEDRILBETA (KUSANGY)
 
 XENODEX = pbAllRegionalSpecies(1) #[]
 XENODEX.delete(0) if XENODEX.include?(0)
-
 
 
 class DexMain

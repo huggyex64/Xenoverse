@@ -14681,6 +14681,7 @@ Kind=Minaccia
 Pokedex=Una volta che l'ha presa, non si lascia più sfuggire la preda. Ha delle mandibole in grado di fare a pezzi un'automobile.
 BattlerPlayerY=19
 BattlerEnemyY=37
+FormNames=,
 [554]
 Name=Darumaka
 InternalName=DARUMAKA
@@ -17365,6 +17366,7 @@ Pokedex=Agile e sfugente come un ninja, si fa beffe dei nemici grazie alla sua v
 RegionalNumbers=532,0,0
 BattlerPlayerY=4
 BattlerEnemyY=17
+FormNames=,
 [659]
 Name=Bunnelby
 InternalName=BUNNELBY

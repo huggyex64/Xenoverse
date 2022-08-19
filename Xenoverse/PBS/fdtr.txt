@@ -466,3 +466,13 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Stile Miraidon)\n Le gang rivali si contendono il territorio in gare di velocità così rumorose da far allontanare chiunque sia nei paraggi.
 (Miraidon Style)\n Rival gangs compete for territories in really noisy speed races that make anyone around run away.
+#KROOKODILE ASH
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Ash)\n Vede le cose in lontananza come se avesse dei binocoli. Ha delle mandibole in grado di fare a pezzi un'automobile.
+(Ash Style)\n Krookodile can see faraway objects as if through binoculars. Its jaws are strong enough to crush a car.
+#GRENINJA ASH
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Ash)\n Crea lame d'acqua affilatissime da tirare. Con l'agilità di un ninja, appare e scompare per attaccare nell'ombra.
+(Ash Style)\n It compresses water into sharp-edged throwing stars. With the grace of a ninja, it slips in and out of sight to attack from the shadows.

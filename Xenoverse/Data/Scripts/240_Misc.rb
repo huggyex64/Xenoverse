@@ -1140,6 +1140,14 @@ SWAPSTYLES = {
   PBSpecies::TREECKO => [proc {|x| x.form == 0},proc {|x| x.form = 2}],
   PBSpecies::GROVYLE => [proc {|x| x.form == 0},proc {|x| x.form = 2}],
   PBSpecies::SCEPTILE => [proc {|x| x.form == 0},proc {|x| x.form = 2}],
+
+  
+  PBSpecies::SKRAVROOM => [proc {|x| x.form == 0 && [615,616].include?($game_map.map_id)},
+                         proc {|x| x.form = 1 + [615,616].index($game_map.map_id)}],
+  PBSpecies::HYSTEARIC => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::WYSTEARIA => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::KOINKOIN => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::GACHIGACHOO => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
 }
 
 def pbMakeSwap(pokemon)
