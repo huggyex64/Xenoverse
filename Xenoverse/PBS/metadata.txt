@@ -3718,7 +3718,7 @@ Outdoor=true
 ShowArea=true
 [615]
 # Sentiero Rosa
-BattleBack=Beach
+BattleBack=Johto
 Bicycle=true
 Outdoor=true
 WildBattleBGM=Wild Battle Japan.mp3
