@@ -476,3 +476,40 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Stile Ash)\n Crea lame d'acqua affilatissime da tirare. Con l'agilità di un ninja, appare e scompare per attaccare nell'ombra.
 (Ash Style)\n It compresses water into sharp-edged throwing stars. With the grace of a ninja, it slips in and out of sight to attack from the shadows.
+#SWAP_FORMS_JOHTO
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n Usa la foglia sulla sua testa per misurare la temperatura e l'umidità. Ama crogiolarsi al sole.
+(Swap Style)\n It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n Le foglie attorno al suo collo emanano un aroma speziato dall'effetto energizzante.
+(Swap Style)\n The buds that ring its neck give off a spicy aroma that perks people up.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n Il suo respiro ha lo straordinario potere di far tornare rigogliosi piante secche e fiori avvizziti.
+(Swap Style)\n Its breath has the fantastic ability to revive dead plants and flowers.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n Spesso se ne sta appallottolato giacché timido. Se è attaccato, si difende infuocando il dorso.
+(Swap Style)\n It is timid, and always curls itself up in a ball. If attacked, it flares up its back for protection.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n Intimorisce i nemici con il calore delle sue fiamme. Se è pronto a lottare, le vampate sono più ardenti.
+(Swap Style)\n It intimidates foes with the heat of its flames. The fire burns more strongly when it readies to fight.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n Attacca usando fiamme esplosive. Si cela in una scintillante nube di calore creata dalle fiamme roventi.
+(Swap Style)\n It attacks using blasts of fire. It creates heat shimmers with intense fire to hide itself.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n Ha l'abitudine di mordere ogni cosa con le potenti mandibole. Neppure il suo Allenatore è al sicuro!
+(Swap Style)\n It has the habit of biting anything with its developed jaws. Even its Trainer needs to be careful.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n Quando azzanna il nemico, non molla la presa finché non gli cadono le zanne, che però ricrescono subito.
+(Swap Style)\n Once it bites down, it won't let go until it loses its fangs. New fangs quickly grow into place.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Swap)\n Mordendo con le grandi e potenti mandibole, agita il capo riducendo la vittima in brandelli.
+(Swap Style)\n When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.

@@ -3399,6 +3399,266 @@ MultipleForms.register(:DONANAS,{
 	}
 })
 
+# CHIKORITA
+MultipleForms.register(:CHIKORITA,{
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:WATER) if pokemon.form==1
+		next			
+	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:WATER) if pokemon.form==1
+		next			
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 
+		#movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
+		#[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[18,:PROTECT],
+		#[21,:RAINDANCE],[24,:AQUATAIL],[27,:SHELLSMASH],
+		#[30,:IRONDEFENSE],[33,:HYDROPUMP],[36,:SKULLBASH]]	if pokemon.form == 1
+
+		movelist = [[1,:LEER],[1,:SCRATCH],[6,:WATERGUN],[8,:RAGE],[13,:BITE],[15,:SCARYFACE],
+		[20,:ICEFANG],[22,:FLAIL],[27,:CRUNCH],[29,:CHIPAWAY],[34,:SLASH],
+		[36,:SCREECH],[41,:THRASH],[43,:AQUATAIL],[48,:SUPERPOWER],[50,:HYDROPUMP]] if pokemon.form == 1
+
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	},
+})
+
+# BAYLEEF
+MultipleForms.register(:BAYLEEF,{
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:WATER) if pokemon.form==1
+		next			
+	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:WATER) if pokemon.form==1
+		next			
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 
+		#movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
+		#[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[20,:PROTECT],
+		#[25,:RAINDANCE],[30,:AQUATAIL],[35,:SHELLSMASH],[40,:IRONDEFENSE],
+		#[45,:HYDROPUMP],[50,:SKULLBASH]] if pokemon.form == 1
+
+		movelist = [[1,:LEER],[1,:SCRATCH],[1,:WATERGUN],[6,:WATERGUN],
+		[8,:RAGE],[13,:BITE],[15,:SCARYFACE],[21,:ICEFANG],
+		[24,:FLAIL],[30,:CRUNCH],[33,:CHIPAWAY],[39,:SLASH],
+		[42,:SCREECH],[48,:THRASH],[51,:AQUATAIL],[57,:SUPERPOWER],[60,:HYDROPUMP]] if pokemon.form == 1
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	},
+})
+
+# MEGANIUM
+MultipleForms.register(:MEGANIUM,{
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:WATER) if pokemon.form==1
+		next			
+	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:WATER) if pokemon.form==1
+		next			
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 
+		#movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
+		#[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[20,:PROTECT],
+		#[25,:RAINDANCE],[30,:AQUATAIL],[35,:SHELLSMASH],[40,:IRONDEFENSE],
+		#[45,:HYDROPUMP],[50,:SKULLBASH]] if pokemon.form == 1
+
+		movelist = [[1,:LEER],[1,:SCRATCH],[1,:WATERGUN],[6,:WATERGUN],
+		[8,:RAGE],[13,:BITE],[15,:SCARYFACE],[21,:ICEFANG],
+		[24,:FLAIL],[30,:CRUNCH],[33,:CHIPAWAY],[39,:SLASH],
+		[42,:SCREECH],[48,:THRASH],[51,:AQUATAIL],[57,:SUPERPOWER],[60,:HYDROPUMP]] if pokemon.form == 1
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	},
+})
+
+# CYNDAQUIL
+MultipleForms.register(:CYNDAQUIL,{
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:GRASS) if pokemon.form==1
+		next			
+	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:GRASS) if pokemon.form==1
+		next			
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 
+		#movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
+		#[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[18,:PROTECT],
+		#[21,:RAINDANCE],[24,:AQUATAIL],[27,:SHELLSMASH],
+		#[30,:IRONDEFENSE],[33,:HYDROPUMP],[36,:SKULLBASH]]	if pokemon.form == 1
+
+		movelist = [[1,:TACKLE],[1,:GROWL],[6,:RAZORLEAF],[9,:POISONPOWDER],[12,:SYNTHESIS],
+		[17,:REFLECT],[20,:MAGICALLEAF],[23,:NATURALGIFT],[28,:SWEETSCENT],
+		[31,:LIGHTSCREEN],[34,:BODYSLAM],[39,:SAFEGUARD],
+		[42,:AROMATHERAPY],[45,:SOLARBEAM]] if pokemon.form == 1
+
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	},
+})
+
+# QUILAVA
+MultipleForms.register(:QUILAVA,{
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:GRASS) if pokemon.form==1
+		next			
+	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:GRASS) if pokemon.form==1
+		next			
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 
+		#movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
+		#[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[20,:PROTECT],
+		#[25,:RAINDANCE],[30,:AQUATAIL],[35,:SHELLSMASH],[40,:IRONDEFENSE],
+		#[45,:HYDROPUMP],[50,:SKULLBASH]] if pokemon.form == 1
+
+		movelist = [[1,:TACKLE],[1,:GROWL],[1,:RAZORLEAF],[1,:POISONPOWDER],
+		[6,:RAZORLEAF],[9,:POISONPOWDER],[12,:SYNTHESIS],[18,:REFLECT],
+		[22,:MAGICALLEAF],[26,:NATURALGIFT],[32,:SWEETSCENT],[36,:LIGHTSCREEN],
+		[40,:BODYSLAM],[46,:SAFEGUARD],[50,:AROMATHERAPY],[54,:SOLARBEAM]] if pokemon.form == 1
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	},
+})
+
+# TYPHLOSION
+MultipleForms.register(:TYPHLOSION,{
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:GRASS) if pokemon.form==1
+		next			
+	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:GRASS) if pokemon.form==1
+		next			
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 
+		#movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
+		#[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[20,:PROTECT],
+		#[25,:RAINDANCE],[30,:AQUATAIL],[35,:SHELLSMASH],[40,:IRONDEFENSE],
+		#[45,:HYDROPUMP],[50,:SKULLBASH]] if pokemon.form == 1
+
+		movelist = [[1,:PETALBLIZZARD],[1,:PETALDANCE],[1,:TACKLE],[1,:GROWL],
+		[1,:RAZORLEAF],[1,:POISONPOWDER],[6,:RAZORLEAF],[9,:POISONPOWDER],
+		[12,:SYNTHESIS],[18,:REFLECT],[22,:MAGICALLEAF],[26,:NATURALGIFT],
+		[32,:PETALDANCE],[34,:SWEETSCENT],[40,:LIGHTSCREEN],[46,:BODYSLAM],
+		[54,:SAFEGUARD],[60,:AROMATHERAPY],[66,:SOLARBEAM],[70,:PETALBLIZZARD]] if pokemon.form == 1
+
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	},
+})
+
+# TOTODILE
+MultipleForms.register(:TOTODILE,{
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:FIRE) if pokemon.form==1
+		next			
+	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:FIRE) if pokemon.form==1
+		next			
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 
+		#movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
+		#[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[18,:PROTECT],
+		#[21,:RAINDANCE],[24,:AQUATAIL],[27,:SHELLSMASH],
+		#[30,:IRONDEFENSE],[33,:HYDROPUMP],[36,:SKULLBASH]]	if pokemon.form == 1
+
+		movelist = [[1,:TACKLE],[1,:LEER],[6,:SMOKESCREEN],[10,:EMBER],
+		[13,:QUICKATTACK],[19,:FLAMEWHEEL],[22,:DEFENSECURL],[28,:FLAMECHARGE],
+		[31,:SWIFT],[37,:LAVAPLUME],[40,:FLAMETHROWER],[46,:INFERNO],[49,:ROLLOUT],
+		[55,:DOUBLEEDGE],[58,:BURNUP],[64,:ERUPTION]] if pokemon.form == 1
+
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	},
+})
+
+# CROCONAW
+MultipleForms.register(:CROCONAW,{
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:FIRE) if pokemon.form==1
+		next			
+	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:FIRE) if pokemon.form==1
+		next			
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 
+		#movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
+		#[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[20,:PROTECT],
+		#[25,:RAINDANCE],[30,:AQUATAIL],[35,:SHELLSMASH],[40,:IRONDEFENSE],
+		#[45,:HYDROPUMP],[50,:SKULLBASH]] if pokemon.form == 1
+
+		movelist = [[1,:TACKLE],[1,:LEER],[1,:SMOKESCREEN],[6,:SMOKESCREEN],
+		[10,:EMBER],[13,:QUICKATTACK],[20,:FLAMEWHEEL],[24,:DEFENSECURL],
+		[31,:FLAMECHARGE],[35,:SWIFT],[42,:LAVAPLUME],[46,:FLAMETHROWER],
+		[53,:INFERNO],[57,:ROLLOUT],[64,:DOUBLEEDGE],[68,:BURNUP],[75,:ERUPTION]] if pokemon.form == 1
+		
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	},
+})
+
+# FERALIGATR
+MultipleForms.register(:FERALIGATR,{
+	"type1"=>proc{|pokemon|
+		next getID(PBTypes,:FIRE) if pokemon.form==1
+		next			
+	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:FIRE) if pokemon.form==1
+		next			
+	},
+	"getMoveList"=>proc{|pokemon|
+		next if pokemon.form==0 
+		#movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
+		#[9,:RAPIDSPIN],[12,:BITE],[15,:WATERPULSE],[20,:PROTECT],
+		#[25,:RAINDANCE],[30,:AQUATAIL],[35,:SHELLSMASH],[40,:IRONDEFENSE],
+		#[45,:HYDROPUMP],[50,:SKULLBASH]] if pokemon.form == 1
+
+		movelist = [[1,:ERUPTION],[1,:DOUBLEEDGE],[1,:EMBER],[1,:GYROBALL],
+		[1,:TACKLE],[1,:LEER],[1,:SMOKESCREEN],[6,:SMOKESCREEN],[10,:EMBER],
+		[13,:QUICKATTACK],[20,:FLAMEWHEEL],[24,:DEFENSECURL],[31,:FLAMECHARGE],
+		[35,:SWIFT],[43,:LAVAPLUME],[48,:FLAMETHROWER],[56,:INFERNO],[61,:ROLLOUT],
+		[69,:DOUBLEEDGE],[74,:BURNUP],[82,:ERUPTION]] if pokemon.form == 1
+		
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist
+	},
+})
+
+
 def pbExtractFormsData
 	code = File.open("formExtractor.rb", "r") { |file| file.read }
     begin

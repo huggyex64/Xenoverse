@@ -1148,6 +1148,9 @@ SWAPSTYLES = {
   PBSpecies::WYSTEARIA => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
   PBSpecies::KOINKOIN => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
   PBSpecies::GACHIGACHOO => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::KROOKODILE => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::GRENINJA => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+
 }
 
 def pbMakeSwap(pokemon)

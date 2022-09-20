@@ -499,3 +499,30 @@ DESCRIPTION=(Stile Miraidon)\n Le gang rivali si contendono il territorio in gar
 DESCRIPTION=(Stile Ash)\n Vede le cose in lontananza come se avesse dei binocoli. Ha delle mandibole in grado di fare a pezzi un'automobile.
 [658_1]
 DESCRIPTION=(Stile Ash)\n Crea lame d'acqua affilatissime da tirare. Con l'agilità di un ninja, appare e scompare per attaccare nell'ombra.
+[152_1]
+TYPE1=11
+DESCRIPTION=(Stile Swap)\n Usa la foglia sulla sua testa per misurare la temperatura e l'umidità. Ama crogiolarsi al sole.
+[153_1]
+TYPE1=11
+DESCRIPTION=(Stile Swap)\n Le foglie attorno al suo collo emanano un aroma speziato dall'effetto energizzante.
+[154_1]
+TYPE1=11
+DESCRIPTION=(Stile Swap)\n Il suo respiro ha lo straordinario potere di far tornare rigogliosi piante secche e fiori avvizziti.
+[155_1]
+TYPE1=12
+DESCRIPTION=(Stile Swap)\n Spesso se ne sta appallottolato giacché timido. Se è attaccato, si difende infuocando il dorso.
+[156_1]
+TYPE1=12
+DESCRIPTION=(Stile Swap)\n Intimorisce i nemici con il calore delle sue fiamme. Se è pronto a lottare, le vampate sono più ardenti.
+[157_1]
+TYPE1=12
+DESCRIPTION=(Stile Swap)\n Attacca usando fiamme esplosive. Si cela in una scintillante nube di calore creata dalle fiamme roventi.
+[158_1]
+TYPE1=10
+DESCRIPTION=(Stile Swap)\n Ha l'abitudine di mordere ogni cosa con le potenti mandibole. Neppure il suo Allenatore è al sicuro!
+[159_1]
+TYPE1=10
+DESCRIPTION=(Stile Swap)\n Quando azzanna il nemico, non molla la presa finché non gli cadono le zanne, che però ricrescono subito.
+[160_1]
+TYPE1=10
+DESCRIPTION=(Stile Swap)\n Mordendo con le grandi e potenti mandibole, agita il capo riducendo la vittima in brandelli.
