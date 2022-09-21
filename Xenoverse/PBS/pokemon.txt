@@ -4126,6 +4126,7 @@ Pokedex=Usa la foglia sulla sua testa per misurare la temperatura e l'umidità. 
 BattlerPlayerY=10
 BattlerEnemyY=14
 Evolutions=BAYLEEF,Level,16
+FormNames=,Swap
 [153]
 Name=Bayleef
 InternalName=BAYLEEF
@@ -4152,6 +4153,7 @@ Pokedex=Le foglie attorno al suo collo emanano un aroma speziato dall'effetto en
 BattlerPlayerY=11
 BattlerEnemyY=12
 Evolutions=MEGANIUM,Level,32
+FormNames=,Swap
 [154]
 Name=Meganium
 InternalName=MEGANIUM
@@ -4177,6 +4179,7 @@ Kind=Erbe
 Pokedex=Il suo respiro ha lo straordinario potere di far tornare rigogliosi piante secche e fiori avvizziti.
 BattlerPlayerY=10
 BattlerEnemyY=20
+FormNames=,Swap
 [155]
 Name=Cyndaquil
 InternalName=CYNDAQUIL
@@ -4204,6 +4207,7 @@ Pokedex=Spesso se ne sta appallottolato giacché timido. Se è attaccato, si dif
 BattlerPlayerY=15
 BattlerEnemyY=21
 Evolutions=QUILAVA,Level,14
+FormNames=,Swap
 [156]
 Name=Quilava
 InternalName=QUILAVA
@@ -4230,6 +4234,7 @@ Pokedex=Intimorisce i nemici con il calore delle sue fiamme. Se è pronto a lott
 BattlerPlayerY=16
 BattlerEnemyY=27
 Evolutions=TYPHLOSION,Level,36
+FormNames=,Swap
 [157]
 Name=Typhlosion
 InternalName=TYPHLOSION
@@ -4255,6 +4260,7 @@ Kind=Vulcano
 Pokedex=Attacca usando fiamme esplosive. Si cela in una scintillante nube di calore creata dalle fiamme roventi.
 BattlerPlayerY=9
 BattlerEnemyY=15
+FormNames=,Swap
 [158]
 Name=Totodile
 InternalName=TOTODILE
@@ -4282,6 +4288,7 @@ Pokedex=Ha l'abitudine di mordere ogni cosa con le potenti mandibole. Neppure il
 BattlerPlayerY=8
 BattlerEnemyY=13
 Evolutions=CROCONAW,Level,18
+FormNames=,Swap
 [159]
 Name=Croconaw
 InternalName=CROCONAW
@@ -4308,6 +4315,7 @@ Pokedex=Quando azzanna il nemico, non molla la presa finché non gli cadono le z
 BattlerPlayerY=6
 BattlerEnemyY=13
 Evolutions=FERALIGATR,Level,30
+FormNames=,Swap
 [160]
 Name=Feraligatr
 InternalName=FERALIGATR
@@ -4333,6 +4341,7 @@ Kind=Mascellone
 Pokedex=Mordendo con le grandi e potenti mandibole, agita il capo riducendo la vittima in brandelli.
 BattlerPlayerY=18
 BattlerEnemyY=25
+FormNames=,Swap
 [161]
 Name=Sentret
 InternalName=SENTRET
