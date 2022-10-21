@@ -3718,10 +3718,11 @@ Outdoor=true
 ShowArea=true
 [615]
 # Sentiero Rosa
-BattleBack=Johto
+BattleBack=Boscofilante1
+Weather=Rain,100
 Bicycle=true
 Outdoor=true
-WildBattleBGM=Wild Battle Japan.mp3
+WildBattleBGM=Mimikyu Battle.mp3
 ShowArea=true
 [616]
 # Paradiso Sakura
