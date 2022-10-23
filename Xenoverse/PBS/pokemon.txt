@@ -2572,6 +2572,7 @@ Kind=Ombra
 Pokedex=Si nasconde nell'ombra. Pare che nei luoghi in cui Gengar si cela, la temperatura si abbassi di 5°C.
 BattlerPlayerY=19
 BattlerEnemyY=30
+FormNames=,mega,hal
 [95]
 Name=Onix
 InternalName=ONIX
@@ -3329,6 +3330,7 @@ Pokedex=Pokedex=La sua gestualita' e i suoi movimenti convincono l'osservatore d
 WildItemUncommon=LEPPABERRY
 BattlerPlayerY=11
 BattlerEnemyY=14
+FormNames=,
 [123]
 Name=Scyther
 InternalName=SCYTHER
@@ -3597,6 +3599,7 @@ WildItemCommon=QUICKPOWDER
 WildItemUncommon=METALPOWDER
 BattlerPlayerY=25
 BattlerEnemyY=31
+FormNames=,hal
 [133]
 Name=Eevee
 InternalName=EEVEE

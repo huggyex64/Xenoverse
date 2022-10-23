@@ -526,3 +526,9 @@ DESCRIPTION=(Stile Swap)\n Quando azzanna il nemico, non molla la presa finché 
 [160_1]
 TYPE1=10
 DESCRIPTION=(Stile Swap)\n Mordendo con le grandi e potenti mandibole, agita il capo riducendo la vittima in brandelli.
+[132_1]
+DESCRIPTION=(Stile Halloween)\n Cambia la sua struttura molecolare per assumere le sembianze del nemico. Il grado di riuscita varia a seconda del Pokémon.
+[122_1]
+DESCRIPTION=(Stile Halloween)\n La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
+[94_2]
+DESCRIPTION=(Stile Halloween)\n Si nasconde nell'ombra. Pare che nei luoghi in cui Gengar si cela, la temperatura si abbassi di 5°C.

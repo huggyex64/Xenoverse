@@ -2107,7 +2107,7 @@ MultipleForms.register(:GENGAR, {
 			next
 		},
 		"getUnmegaForm"=>proc{|pokemon|
-			next 0
+			next 0 if pokemon.form == 1
 		},
 		"getMegaName"=>proc{|pokemon|
 			next _INTL("Mega Gengar") if pokemon.form == 1

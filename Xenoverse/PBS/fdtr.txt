@@ -513,3 +513,15 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Stile Swap)\n Mordendo con le grandi e potenti mandibole, agita il capo riducendo la vittima in brandelli.
 (Swap Style)\n When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Halloween)\n Cambia la sua struttura molecolare per assumere le sembianze del nemico. Il grado di riuscita varia a seconda del Pokémon.
+(Halloween Style)\n It can reorganize its cells to make itself into a duplicate of anything it sees. The quality of the duplicate depends on the individual.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Halloween)\n La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
+(Halloween Style)\n Its gestures and motions convince watchers that something unseeable actually exists. Once it is believed, it will exist as if it were a real thing.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Halloween)\n Si nasconde nell'ombra. Pare che nei luoghi in cui Gengar si cela, la temperatura si abbassi di 5°C.
+(Halloween Style)\n It hides in shadows. It is said that in rooms where Gengar is hiding, the temperature drops by nearly 10 degrees Fahrenheit.
