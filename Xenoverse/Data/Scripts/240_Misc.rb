@@ -1151,6 +1151,19 @@ SWAPSTYLES = {
   PBSpecies::KROOKODILE => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
   PBSpecies::GRENINJA => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
 
+  
+  PBSpecies::CYNDAQUIL => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::QUILAVA => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::TYPHLOSION => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  
+  PBSpecies::CHIKORITA => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::BAYLEEF => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::MEGANIUM => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  
+  PBSpecies::TOTODILE => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::CROCONAW => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::FERALIGATR => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+
 }
 
 def pbMakeSwap(pokemon)
