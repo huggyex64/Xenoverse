@@ -1164,6 +1164,11 @@ SWAPSTYLES = {
   PBSpecies::CROCONAW => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
   PBSpecies::FERALIGATR => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
 
+  
+  PBSpecies::DITTO => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::MRMIME => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::GENGAR => [proc {|x| x.form == 0},proc {|x| x.form = 2}],
+
 }
 
 def pbMakeSwap(pokemon)
