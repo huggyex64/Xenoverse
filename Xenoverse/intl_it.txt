@@ -5112,8 +5112,8 @@ Animon
 Unown
 Unown
 1497
-????????
-????????
+Stantler
+Stantler
 1498
 ????????
 ????????
@@ -9924,6 +9924,9 @@ Mutante
 1496
 Simbolo
 Simbolo
+1497
+Grancorno
+Grancorno
 2000
 Cavallonembo
 Cavallonembo
@@ -13264,6 +13267,9 @@ Può copiare il codice genetico del suo nemico e trasformarsi nella sua copia pe
 1496
 Il corpo piatto e sottile sta sempre attaccato ai muri. Pare che la forma abbia un preciso significato.
 Il corpo piatto e sottile sta sempre attaccato ai muri. Pare che la forma abbia un preciso significato.
+1497
+Le corna ricurve modificano le correnti d'aria, creando una strana zona di distorsione della realtà.
+Le corna ricurve modificano le correnti d'aria, creando una strana zona di distorsione della realtà.
 2000
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.

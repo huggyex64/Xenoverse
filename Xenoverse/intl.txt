@@ -31666,8 +31666,8 @@ Animon
 Unown
 Unown
 1497
-????????
-????????
+Stantler
+Stantler
 1498
 ????????
 ????????
@@ -36484,6 +36484,9 @@ Transform
 1496
 Simbolo
 Symbol
+1497
+Grancorno
+Big Horn
 2000
 Cavallonembo
 Nimbus Steed
@@ -39833,6 +39836,9 @@ Capable of copying an enemy's genetic code to instantly transform itself into a 
 1496
 Il corpo piatto e sottile sta sempre attaccato ai muri. Pare che la forma abbia un preciso significato.
 Its flat, thin body is always stuck on walls. Its shape appears to have some meaning.
+1497
+Le corna ricurve modificano le correnti d'aria, creando una strana zona di distorsione della realtà.
+The curved antlers subtly change the flow of air to create a strange space where reality is distorted.
 2000
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
