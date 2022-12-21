@@ -525,3 +525,23 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (Stile Halloween)\n Si nasconde nell'ombra. Pare che nei luoghi in cui Gengar si cela, la temperatura si abbassi di 5°C.
 (Halloween Style)\n It hides in shadows. It is said that in rooms where Gengar is hiding, the temperature drops by nearly 10 degrees Fahrenheit.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Last Christmas)\n Scambia informazioni con i suoi simili facendo lampeggiare i motivi sul suo corpo in sequenze complesse.
+(Last Christmas Style)\n Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Last Christmas)\n Quando corre in rettilineo può raggiungere i 100 km/h, ma le curve non sono il suo forte.
+(Last Christmas Style)\n When running in a straight line, it can easily top 60 miles an hour. It has a tough time with curved roads.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Last Christmas)\n Quando si mette a sputare fuoco, il sonaglio infuocato che tiene al collo emette un forte tintinnio.
+(Last Christmas Style)\n At its throat, it bears a bell of fire. The bell rings brightly whenever this Pokémon spits fire.
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Last Christmas)\n Con la fiamma della coda brucia i fluidi corporei generati dalle sue sacche di veleno, producendo un gas velenoso.
+(Last Christmas Style)\n Its venom sacs produce a fluid that this Pokémon then heats up with the flame in its tail. 
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+NO_KIND_SET (DO NOT REMOVE THIS LINE)
+(Stile Last Christmas)\n Pokémon enigmatico che vede il passato e prevede il futuro osservando il sole tutto il giorno.
+(Last Christmas Style)\n This odd Pokémon can see both the past and the future. It eyes the sun's movements all day.

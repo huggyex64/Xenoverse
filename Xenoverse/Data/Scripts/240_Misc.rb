@@ -1050,6 +1050,9 @@ EXPLICIT_FORM_EVOLUTIONS={
   [PBSpecies::GROWLITHE,1]=>[PBEvolution::Item,PBItems::ANCIENTSTONE,PBSpecies::ARCANINE],
   [PBSpecies::PIKACHU,1]=>[nil,nil,nil],
   [PBSpecies::PIKACHU,2]=>[nil,nil,nil],
+  [PBSpecies::SALANDIT,1]=>[nil,nil,nil],
+  [PBSpecies::INKAY,1]=>[nil,nil,nil],
+  [PBSpecies::TORRACAT,1]=>[nil,nil,nil],
 }
 
 def pbCheckFormEvolution(pokemon)

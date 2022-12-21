@@ -532,3 +532,13 @@ DESCRIPTION=(Stile Halloween)\n Cambia la sua struttura molecolare per assumere 
 DESCRIPTION=(Stile Halloween)\n La sua gestualita' e i suoi movimenti convincono l'osservatore dell'esistenza di oggetti invisibili, che saranno percepiti come concreti e reali.
 [94_2]
 DESCRIPTION=(Stile Halloween)\n Si nasconde nell'ombra. Pare che nei luoghi in cui Gengar si cela, la temperatura si abbassi di 5°C.
+[686_1]
+DESCRIPTION=(Stile Last Christmas)\n Scambia informazioni con i suoi simili facendo lampeggiare i motivi sul suo corpo in sequenze complesse.
+[264_1]
+DESCRIPTION=(Stile Last Christmas)\n Quando corre in rettilineo può raggiungere i 100 km/h, ma le curve non sono il suo forte.
+[1004_1]
+DESCRIPTION=(Stile Last Christmas)\n Quando si mette a sputare fuoco, il sonaglio infuocato che tiene al collo emette un forte tintinnio.
+[2028_1]
+DESCRIPTION=(Stile Last Christmas)\n Con la fiamma della coda brucia i fluidi corporei generati dalle sue sacche di veleno, producendo un gas velenoso.
+[178_1]
+DESCRIPTION=(Stile Last Christmas)\n Pokémon enigmatico che vede il passato e prevede il futuro osservando il sole tutto il giorno.

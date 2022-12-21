@@ -4832,6 +4832,7 @@ Kind=Magico
 Pokedex=Pokémon enigmatico che vede il passato e prevede il futuro osservando il sole tutto il giorno.
 BattlerPlayerY=14
 BattlerEnemyY=15
+FormNames=,LUMENTALE
 [179]
 Name=Mareep
 InternalName=MAREEP
@@ -7151,6 +7152,7 @@ WildItemCommon=ORANBERRY
 WildItemUncommon=SITRUSBERRY
 BattlerPlayerY=55
 BattlerEnemyY=58
+FormNames=,LUMENTALE
 [265]
 Name=Wurmple
 InternalName=WURMPLE
@@ -18075,6 +18077,7 @@ Pokedex=Scambia informazioni con i suoi simili facendo lampeggiare i motivi sul 
 BattlerPlayerY=4
 BattlerEnemyY=17
 Evolutions=MALAMAR,Level,30
+FormNames=,LUMENTALE
 [687]
 Name=Malamar
 InternalName=MALAMAR
@@ -19600,6 +19603,7 @@ Pokedex=Quando si mette a sputare fuoco, il sonaglio infuocato che tiene al coll
 BattlerPlayerY=5
 BattlerEnemyY=17
 Evolutions=INCINEROAR,Level,34
+FormNames=,LUMENTALE
 [1005]
 Name=Incineroar
 InternalName=INCINEROAR
@@ -28891,6 +28895,7 @@ Pokedex=Con la fiamma della coda brucia i fluidi corporei generati dalle sue sac
 BattlerPlayerY=21
 BattlerEnemyY=24
 Evolutions=SALAZZLE,LevelFemale,33
+FormNames=,LUMENTALE
 [2029]
 Name=Salazzle
 InternalName=SALAZZLE
