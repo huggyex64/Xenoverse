@@ -31669,32 +31669,32 @@ Unown
 Stantler
 Stantler
 1498
-????????
-????????
+Caterpie
+Caterpie
 1499
-????????
-????????
+Metapod
+Metapod
 1500
-????????
-????????
+Butterfree
+Butterfree
 1501
-????????
-????????
+Tyrogue
+Tyrogue
 1502
-????????
-????????
+Hitmonlee
+Hitmonlee
 1503
-????????
-????????
+Hitmonchan
+Hitmonchan
 1504
-????????
-????????
+Hitmontop
+Hitmontop
 1505
-????????
-????????
+Slugma
+Slugma
 1506
-????????
-????????
+Magcargo
+Magcargo
 1507
 ????????
 ????????
@@ -33246,6 +33246,57 @@ Zoroark
 2035
 Enamorus
 Enamorus
+2036
+Dragalisk
+Dragalisk
+2037
+Charcadet
+Charcadet
+2038
+Armarouge
+Armarouge
+2039
+Ceruledge
+Ceruledge
+2040
+Binacle
+Binacle
+2041
+Barbaracle
+Barbaracle
+2042
+Tatsugiri
+Tatsugiri
+2043
+Kingambit
+Kingambit
+2044
+Sprigatito
+Sprigatito
+2045
+Floragato
+Floragato
+2046
+Meowscarada
+Meowscarada
+2047
+Sobble
+Sobble
+2048
+Drizzile
+Drizzile
+2049
+Inteleon
+Inteleon
+2050
+Regieleki
+Regieleki
+2051
+Regidrago
+Regidrago
+2052
+Reginalous
+Reginalous
 [2]
 1
 Seme
@@ -33276,13 +33327,13 @@ Crostaceo
 Shellfish
 10
 Baco
-Baco
+Worm
 11
 Bozzolo
-Bozzolo
+Cocoon
 12
 Farfalla
-Farfalla
+Butterfly
 13
 Millepiedi
 Hairy Bug
@@ -33564,10 +33615,10 @@ Guardaossi
 Bone Keeper
 106
 Tiracalci
-Tiracalci
+Kicking
 107
 Tirapugni
-Tirapugni
+Punching
 108
 Linguaccia
 Linguaccia
@@ -33954,10 +34005,10 @@ Pittore
 Painter
 236
 Baruffa
-Baruffa
+Scuffle
 237
 Verticale
-Verticale
+Handstand
 238
 Bacio
 Bacio
@@ -34245,10 +34296,10 @@ Spavento
 Scarecrow
 333
 Alidicotone
-Alidicotone
+Cotton Bird
 334
 Canterino
-Canterino
+Humming
 335
 Furogatto
 Furogatto
@@ -34377,13 +34428,13 @@ Ferrarto
 Iron Leg
 377
 Picco
-Picco
+Rock Peak
 378
 Iceberg
 Iceberg
 379
 Ferro
-Ferro
+Iron
 380
 Eone
 Eone
@@ -34469,16 +34520,16 @@ Bud
 Floreale
 Bouquet
 408
-Head Butt
+Cranioso
 Head Butt
 409
-Head Butt
+Cranioso
 Head Butt
 410
-Shield
+Schermo
 Shield
 411
-Shield
+Schermo
 Shield
 412
 Bagworm
@@ -34598,11 +34649,11 @@ Hippo
 Grandepeso
 Heavyweight
 451
-Scorpion
+Scorpione
 Scorpion
 452
-Ogre Scorp
-Ogre Scorp
+Scorpiaccio
+Ogre Scorpion
 453
 Inveieleno
 Toxic Mouth
@@ -34703,7 +34754,7 @@ Spatial
 Cratere
 Lava Dome
 486
-Colossal
+Colossale
 Colossal
 487
 Renegade
@@ -34877,7 +34928,7 @@ Nurturing
 Centipede
 Centipede
 544
-Curlipede
+Rotopede
 Curlipede
 545
 Megapede
@@ -35009,10 +35060,10 @@ Season
 Petauro
 Sky Squirrel
 588
-Clamping
+Addentatore
 Clamping
 589
-Cavalry
+Cavaliere
 Cavalry
 590
 Fungo
@@ -35093,10 +35144,10 @@ Freezing
 Cristallo
 Crystallizing
 616
-Snail
+Lumachina
 Snail
 617
-Shell Out
+Sgusciato
 Shell Out
 618
 Trap
@@ -36487,6 +36538,33 @@ Symbol
 1497
 Grancorno
 Big Horn
+1498
+Baco
+Worm
+1499
+Bozzolo
+Cocoon
+1500
+Farfalla
+Butterfly
+1501
+Baruffa
+Scuffle
+1502
+Tiracalci
+Kicking
+1503
+Tirapugni
+Punching
+1504
+Verticale
+Handstand
+1505
+Lava
+Lava
+1506
+Lava
+Lava
 2000
 Cavallonembo
 Nimbus Steed
@@ -36598,6 +36676,54 @@ Love-Hate
 2036
 Furioso
 Furious
+2037
+Infantigneo
+Fire Child
+2038
+Guerrigneo
+Fire Warrior
+2039
+Spadaccigneo
+Fire Blades
+2040
+Bimano
+Two-Handed
+2041
+Aggregato
+Collective
+2042
+Mimetico
+Mimicry
+2043
+Granspada
+Big Blade
+2044
+Erbagatto
+Grass Cat
+2045
+Erbagatto
+Grass Cat
+2046
+Illusionista
+Magician
+2047
+Acquacertola
+Water Lizard
+2048
+Acquacertola
+Water Lizard
+2049
+Agente
+Secret Agent
+2050
+Elettrone
+Electron
+2051
+Dracosfera
+Dragon Orb
+2052
+Anomalo
+Anomalous
 [3]
 1
 Alla nascita gli è stato piantato sulla schiena un seme raro. La pianta sboccia e cresce con lui.
@@ -36628,13 +36754,13 @@ I getti d'acqua lanciati dai cannoni sul suo guscio riescono a perforare persino
 The jets of water it spouts from the rocket cannons on its shell can punch through thick steel.
 10
 Se gli si tocca il sensore che ha sulla testa, si difende emettendo un odore insopportabile.
-Se gli si tocca il sensore che ha sulla testa, si difende emettendo un odore insopportabile.
+It releases a stench from its red antenna to repel enemies. It grows by molting repeatedly.
 11
 Per difendersi indurisce la corazza, ma un colpo violento puo' scaraventarlo fuori dal guscio.
-Per difendersi indurisce la corazza, ma un colpo violento puo' scaraventarlo fuori dal guscio.
+A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.
 12
 Possiede ali idrorepellenti ricoperte da una polvere velenosa. Puo' volare anche quando piove.
-Possiede ali idrorepellenti ricoperte da una polvere velenosa. Puo' volare anche quando piove.
+It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.
 13
 Divora ogni giorno una quantità di foglie pari al suo peso. Respinge i nemici con l'aculeo sulla testa.
 It eats its weight in leaves every day. It fends off attackers with the needle on its head.
@@ -36916,10 +37042,10 @@ L'osso che impugna è la sua arma. Lo scaglia come un boomerang per mettere \nKO
 The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.
 106
 Le zampe gli si accorciano e allungano a piacere. Con le gambe allungate, con un calcio puo' colpire anche nemici distanti.
-Le zampe gli si accorciano e allungano a piacere. Con le gambe allungate, con un calcio puo' colpire anche nemici distanti.
+When in a hurry, its legs lengthen progressively. It runs smoothly with extra-long, loping strides.
 107
 Fende l'aria con i suoi pugni. Tuttavia, deve sempre fare una pausa dopo tre minuti di lotta.
-Fende l'aria con i suoi pugni. Tuttavia, deve sempre fare una pausa dopo tre minuti di lotta.
+The spirit of a pro boxer has infused this Pokémon. It throws punches that are faster than a bullet train.
 108
 Quando Lickitung si trova di fronte a qualcosa di nuovo, istintivamente lo assaggia con una leccata. E' dotato infatti di una memoria legata al gusto e alla consistenza degli oggetti.
 Quando Lickitung si trova di fronte a qualcosa di nuovo, istintivamente lo assaggia con una leccata. E' dotato infatti di una memoria legata al gusto e alla consistenza degli oggetti.
@@ -37252,10 +37378,10 @@ Nel suo territorio, lascia graffi sugli alberi che hanno bacche o frutti delizio
 In its territory, it leaves scratches on trees that bear delicious berries or fruits.
 218
 Nel suo corpo scorre magma. Se non si muove continuamente, il suo corpo si raffredda e s'indurisce.
-Nel suo corpo scorre magma. Se non si muove continuamente, il suo corpo si raffredda e s'indurisce.
+A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.
 219
-La corazza di Magcargo e' formata dalla sua pelle induritasi per effetto del raffreddamento. la corazza e' fragile e friabile: cade a pezzi al minimo contatto. Riacquista le sue dimensioni normali immergendosi nel magma.
-La corazza di Magcargo e' formata dalla sua pelle induritasi per effetto del raffreddamento. la corazza e' fragile e friabile: cade a pezzi al minimo contatto. Riacquista le sue dimensioni normali immergendosi nel magma.
+La corazza di Magcargo e' formata dalla sua pelle induritasi per effetto del raffreddamento.
+The shell on its back is just skin that has cooled and hardened. It breaks easily with a slight touch.
 220
 Grazie al suo olfatto sviluppato trova funghi, bacche e persino sorgenti termali sotto al ghiaccio.
 It has a very sensitive nose. It can locate mushrooms, berries, and even hot springs buried under ice.
@@ -37306,10 +37432,10 @@ Delimita i confini del suo territorio dipingendo segni particolari con il fluido
 A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.
 236
 Tyrogue ha bisogno di allenarsi ogni giorno per scaricare la sua energia. Gli allenatori che lo allevano devono stabilire e praticare diverse metodologie di allenamento.
-Tyrogue ha bisogno di allenarsi ogni giorno per scaricare la sua energia. Gli allenatori che lo allevano devono stabilire e praticare diverse metodologie di allenamento.
+It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.
 237
 Combatte mentre gira come una trottola. La forza centrifuga decuplica il suo potere distruttivo.
-Combatte mentre gira come una trottola. La forza centrifuga decuplica il suo potere distruttivo.
+If you become enchanted by its smooth, elegant, dance-like kicks, you may get drilled hard.
 238
 Le labbra sono la parte piu' sensibile del corpo, il primo organo con cui analizza nuovi oggetti.
 Le labbra sono la parte piu' sensibile del corpo, il primo organo con cui analizza nuovi oggetti.
@@ -37597,10 +37723,10 @@ Diventa attivo di notte, quando va a caccia di prede stremate dalla calura del d
 It becomes active at night, seeking prey that is exhausted from the day's desert heat.
 333
 Le sue ali sono come batuffoli. Se si appoggia sulla testa di qualcuno, sembra un cappello di cotone.
-Le sue ali sono come batuffoli. Se si appoggia sulla testa di qualcuno, sembra un cappello di cotone.
+Its wings are like cotton tufts. If it perches on someone's head, it looks like a cotton hat.
 334
 Se lega con una persona, la avvolge nelle sue soffici ali e poi inizia a canticchiare.
-Se lega con una persona, la avvolge nelle sue soffici ali e poi inizia a canticchiare.
+It looks like a fluffy cloud when it is in flight. It hums with its soprano voice.
 335
 Se sente anche solo l'odore di Seviper, gli si rizza la pelliccia. Lacera il nemico con artigli affilati.
 Se sente anche solo l'odore di Seviper, gli si rizza la pelliccia. Lacera il nemico con artigli affilati.
@@ -37609,10 +37735,10 @@ Affila la coda simile a una spada nella dura roccia. Si nasconde nell'erba colpe
 Affila la coda simile a una spada nella dura roccia. Si nasconde nell'erba colpendo le prede con i denti velenosi.
 337
 Diventa attivo nelle notti di luna piena, pertanto si dice che abbia qualche legame con le fasi lunari.
-Diventa attivo nelle notti di luna piena, pertanto si dice che abbia qualche legame con le fasi lunari.
+Because it turns active on nights of the full moon, it is said to have some link to the lunar phases.
 338
 L'energia solare e' la fonte della sua potenza, per cui e' pie' forte di giorno. Emana luce quando ruota su se stesso.
-L'energia solare e' la fonte della sua potenza, per cui e' pie' forte di giorno. Emana luce quando ruota su se stesso.
+Solar energy is the source of this Pokémon's power. On sunny days, groups of Solrock line up facing the sun and absorb its light.
 339
 Il suo viscido corpo e' difficile da afferrare. In una regione si dice che sia nato da fango indurito.
 Il suo viscido corpo e' difficile da afferrare. In una regione si dice che sia nato da fango indurito.
@@ -37729,13 +37855,13 @@ Blocca la preda al suolo con le quattro zampe artigliate e il corpo massiccio, p
 It firmly pins its prey using its four claws and large body. Then the teeth in the mouth on its stomach chew the prey to bits.
 377
 E' formato interamente da rocce, senza tracce di funzioni cerebrali o cardiovascolari. La sua natura e' un mistero.
-E' formato interamente da rocce, senza tracce di funzioni cerebrali o cardiovascolari. La sua natura e' un mistero.
+It is entirely composed of rocks with no sign of a brain or heart. It is a mystery even to modern scientists.
 378
 Si dice che sia rimasto a dormire nei ghiacci per alcuni millenni. Nemmeno il magma riuscirebbe a scioglierlo.
-Si dice che sia rimasto a dormire nei ghiacci per alcuni millenni. Nemmeno il magma riuscirebbe a scioglierlo.
+Its entire body is made of Antarctic ice. After extensive studies, researchers believe the ice was formed during an ice age.
 379
 Registeel e' stato imprigionato dagli esseri umani nell'antichita'. Pare che il metallo di cui e' composto provenga dallo spazio.
-Registeel e' stato imprigionato dagli esseri umani nell'antichita'. Pare che il metallo di cui e' composto provenga dallo spazio.
+Its body is harder than any other kind of metal. The body metal is composed of a mysterious substance. Not only is it hard, it shrinks and stretches flexibly.
 380
 Sa comunicare telepaticamente. Le piume sul suo corpo riflettono la luce e lo rendono invisibile.
 Sa comunicare telepaticamente. Le piume sul suo corpo riflettono la luce e lo rendono invisibile.
@@ -37821,16 +37947,16 @@ Sensitive to changing temperature,\n the bud is said to bloom when it feels\n th
 Attira la preda con un dolce aroma, poi l'abbatte con le fruste spinose celate fra i bouquet delle braccia.
 It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms.
 408
-It lived in jungles around 100 million years ago. Its skull is as hard as iron.
+Viveva nella giungla circa 100 milioni di anni fa. Il suo cranio è duro come il ferro.
 It lived in jungles around 100 million years ago. Its skull is as hard as iron.
 409
-Its powerful head butt has enough power to shatter even the most durable things upon impact.
+Tira testate talmente potenti da frantumare anche oggetti durissimi.
 Its powerful head butt has enough power to shatter even the most durable things upon impact.
 410
-A Pokemon that lived in jungles around 100 million years ago. Its facial hide is extremely hard.
+Si pulisce il muso strofinandolo contro i tronchi degli alberi. È debole agli attacchi alle spalle.
 A Pokemon that lived in jungles around 100 million years ago. Its facial hide is extremely hard.
 411
-Any frontal attack is repulsed. It is a docile Pokemon that feeds on grass and berries.
+Se più esemplari vengono attaccati, formano un muro protettivo con i loro musi per proteggere i cuccioli.
 Any frontal attack is repulsed. It is a docile Pokemon that feeds on grass and berries.
 412
 To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.
@@ -37950,10 +38076,10 @@ It lives in arid places. Instead of perspiration, it expels grainy sand from its
 Mostra la propria forza spalancando le fauci. Attacca sollevando immani quantità di sabbia.
 It brandishes its gaping mouth in a display of fearsome strength. It raises vast quantities of sand while attacking.
 451
-It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.
+Rilascia veleno dagli artigli sulla coda. Può resistere senza cibo per un anno.
 It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.
 452
-It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.
+Dotato di una costituzione robusta, va orgoglioso della sua forza e abbatte i nemici senza usare tossine.
 It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.
 453
 Le sacche delle guance contengono veleno. Infilza i nemici con le sue unghie avvelenate.
@@ -38055,7 +38181,7 @@ It has the ability to distort space. It is described as a deity in Sinnoh-region
 Nel suo corpo scorre sangue che ribolle come magma. Vive in antri all'interno di vulcani.
 Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves.
 486
-There is an enduring legend that states this Pokemon towed continents with ropes.
+Una leggenda narra che abbia trainato i continenti con delle funi.
 There is an enduring legend that states this Pokemon towed continents with ropes.
 487
 A Pokemon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.
@@ -38226,13 +38352,13 @@ Preferring dark, damp places, it spends the entire day eating fallen leaves that
 Sfrutta il calore dell'humus per covare le sue uova e fabbrica coperte di foglie per avvolgere Sewaddle.
 It keeps its eggs warm with heat from fermenting leaves. It also uses leaves to make warm wrappings for Sewaddle.
 543
-It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggresive.
+Sonda l'ambiente circostante con le antenne del capo e della coda. Ha un carattere estremamente collerico.
 It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggresive.
 544
-It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent.
+Di solito non si muove, ma se viene attaccato, comincia a turbinare su se stesso e si scaglia contro il nemico.
 It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent.
 545
-Highly aggressive, it uses the claws near its neck to dig into its opponents and poison them.
+Avvelena il nemico conficcandogli nel corpo gli aculei che ha sul collo. Ha un carattere molto aggressivo.
 Highly aggressive, it uses the claws near its neck to dig into its opponents and poison them.
 546
 Si sposta sospinto dal vento. Nei giorni di pioggia si appesantisce e trova riparo ai piedi di grossi alberi.
@@ -38361,10 +38487,10 @@ The plants growing on its horns change according to the season. The leaders of t
 Vola nei cieli come danzando mentre sprigiona elettricità. È molto grazioso, ma può creare dei fastidi.
 They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.
 588
-When they feel threatened, they spit an acidic liquid to drive attackers away. This Pokemon targets Shelmet.
+Pokémon misterioso che si evolve ricevendo uno stimolo elettrico, se si trova in presenza di Shelmet.
 When they feel threatened, they spit an acidic liquid to drive attackers away. This Pokemon targets Shelmet.
 589
-These Pokemon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.
+Protegge il corpo con la conchiglia che ha rubato a Shelmet mentre spunzona il nemico con due lance.
 These Pokemon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.
 590
 Per un qualche motivo assomiglia a una Poké Ball. Soffia spore velenose contro il nemico per sfuggire alla cattura.
@@ -38445,10 +38571,10 @@ It freezes its breath to create fangs and claws of ice to fight with. Cold north
 They are born in snow clouds. They use chains made of ice crystals to capture prey.
 They are born in snow clouds. They use chains made of ice crystals to capture prey.
 616
-It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.
+Se viene attaccato, si richiude nella conchiglia per difendersi e spruzza un veleno viscoso dalla fessura.
 It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.
 617
-Having removed its heavy shell, it becomes very light and can fight with ninja-like movements.
+Liberatosi della pesante conchiglia, è diventato leggero. Lotta con le movenze proprie di un ninja.
 Having removed its heavy shell, it becomes very light and can fight with ninja-like movements.
 618
 It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of energy.
@@ -39839,6 +39965,33 @@ Its flat, thin body is always stuck on walls. Its shape appears to have some mea
 1497
 Le corna ricurve modificano le correnti d'aria, creando una strana zona di distorsione della realtà.
 The curved antlers subtly change the flow of air to create a strange space where reality is distorted.
+1498
+Se gli si tocca il sensore che ha sulla testa, si difende emettendo un odore insopportabile.
+Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.
+1499
+Per difendersi indurisce la corazza, ma un colpo violento puo' scaraventarlo fuori dal guscio.
+This Pokémon is vulnerable to attack while its shell is soft, exposing its weak and tender body.
+1500
+Possiede ali idrorepellenti ricoperte da una polvere velenosa. Puo' volare anche quando piove.
+In battle, it flaps its wings at high speed to release highly toxic dust into the air.
+1501
+Tyrogue ha bisogno di allenarsi ogni giorno per scaricare la sua energia. Gli allenatori che lo allevano devono stabilire e praticare diverse metodologie di allenamento.
+It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.
+1502
+Le zampe gli si accorciano e allungano a piacere. Con le gambe allungate, con un calcio puo' colpire anche nemici distanti.
+When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides.
+1503
+Fende l'aria con i suoi pugni. Tuttavia, deve sempre fare una pausa dopo tre minuti di lotta.
+While apparently doing nothing, it fires punches in lightning fast volleys that are impossible to see.
+1504
+Se ci si fa incantare dall'elegante danza dei suoi calci, si rischia di ricevere una bella lezione.
+It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.
+1505
+Nel suo corpo scorre magma. Se non si muove continuamente, il suo corpo si raffredda e s'indurisce.
+It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden.
+1506
+La corazza di Magcargo e' formata dalla sua pelle induritasi per effetto del raffreddamento.
+The shell on its back is just skin that has cooled and hardened. It breaks easily with a slight touch.
 2000
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
 Pokémon X di indole pacifica. Tuttavia, se s'infuria, si avvolge in nubi temporalesche e scatena violente piogge di fulmini.
@@ -39947,6 +40100,54 @@ When it flies to this land from across the sea, the bitter winter comes to an en
 2036
 Questo essere, creato per sostituire l'Oscuro Signore, è un concentrato di pura energia Furia. Nonostante le sue ridotte dimensioni rispetto al Dragalisk originale, resta comunque potentissimo e micidiale.
 This being, created to replace the Dark Lord, is a concentration of pure Fury energy. Although it's smaller compared to the original Dragalisk, it's still very powerful and lethal.
+2037
+Del carbone bruciato ha preso vita, divenendo un Pokémon. Sfida anche i nemici più temibili, mosso da un rovente spirito combattivo.
+Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.
+2038
+Si è evoluto in questa forma grazie all'armatura di un guerriero distintosi sul campo di battaglia. È noto per la sua estrema fedeltà.
+Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.
+2039
+Taglia a pezzi i nemici senza pietà alcuna. Un'antica armatura impregnata di astio e rancore ha causato l'evoluzione di questo Pokémon.
+An old set of armor steeped in grudges caused this Pokémon's evolution. Ceruledge cuts its enemies to pieces without mercy.
+2040
+I Binacle vivono su una roccia. Quando litigano, uno dei due finisce per spostarsi su una pietra diversa.
+Two Binacle live together on one rock. When they fight, one of them will move to a different rock.
+2041
+I Binacle delle gambe e delle braccia hanno cervelli indipendenti, ma generalmente seguono le direttive di quello della testa.
+Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.
+2042
+Questo Tatsugiri si deprime a causa del suo aspetto, emanando un odore particolarmente forte che attrae i nemici.
+Questo Tatsugiri si deprime a causa del suo aspetto, emanando un odore particolarmente forte che attrae i nemici.
+2043
+Lotta al comando di un grande battaglione, ma non è bravo a escogitare strategie sofisticate, perciò si limita a usare la forza bruta.
+Though it commands a massive army in battle, it's not skilled at devising complex strategies. It just uses brute strength to keep pushing.
+2044
+Il suo pelo vellutato ha una composizione simile a quella delle piante. Si lava il muso di frequente per evitare che si disidrati.
+Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.
+2045
+Muove con agilità la liana nascosta sotto il lungo pelo e sferza il nemico con il duro bocciolo sulla punta.
+Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.
+2046
+I riflessi del pelo all'interno del mantello camuffano lo stelo del suo fiore, che così sembra fluttuare nell'aria.
+This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.
+2047
+Quando si bagna, la pelle cambia colore e lo rende invisibile, come se si fosse mimetizzato.
+When it gets wet, its skin changes color, and this Pokémon becomes invisible as if it were camouflaged.
+2048
+E' intelligente ma svogliato. Dissemina di trappole il suo territorio per tenere alla larga i nemici.
+Highly intelligent but also very lazy, it keeps enemies out of its territory by laying traps everywhere.
+2049
+La sua abilità di tiratore è ineguagliabile. Centra in pieno una bacca a 15 km di distanza come se nulla fosse.
+It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air.
+2050
+E' un agglomerato di energia elettrica. Si dice che rimuovere gli anelli che ha attorno al corpo liberi la sua potenza latente.
+This Pokémon is a cluster of electrical energy. It's said that removing the rings on Regieleki's body will unleash the Pokémon's latent power.
+2051
+Il suo corpo è formato da energia Drago cristallizzata. Pare che possieda i poteri di tutti i Pokémon di tipo Drago.
+Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon.
+2052
+Il suo corpo è formato da energia Anomala proveniente da varie dimensioni. Crea dei forti venti di color rosa splendente che modifica le alterazioni di ogni dimensione.
+Il suo corpo è formato da energia Anomala proveniente da varie dimensioni. Crea dei forti venti di color rosa splendente che modifica le alterazioni di ogni dimensione.
 [4]
 19
 Kanto,Alola
@@ -46926,6 +47127,42 @@ Mind Herb
 844
 Erboazione
 Action Herb
+845
+Armatura Infausta
+Malicious Armor
+846
+Armatura Fausta
+Auspicious Armor
+847
+Update Sgusciato
+Shell Update
+848
+Update Cavaliere
+Cavalry Update
+849
+Rampardite
+Rampardite
+850
+Arcanite
+Arcanite
+851
+Piccostele
+Rock Stele
+852
+Icebergstele
+Iceberg Stele
+853
+Ferrostele
+Iron Stele
+854
+Colosstele
+Colossal Stele
+855
+Elettrostele
+Electron Stele
+856
+Dracostele
+Dragon Stele
 [8]
 1
 Strumento che evita l'incontro con i Pokémon selvatici deboli per 100 passi dopo l'utilizzo.
@@ -48543,7 +48780,7 @@ Un esemplare delle misteriose Megapietre. Data a Gengar, gli permette di megaevo
 One variety of the mysterious Mega Stones. Have Gengar hold it, and this stone will enable it to Mega Evolve during battle.
 539
 Un esemplare delle misteriose Megapietre. Data a Gardevoir, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Gardevoir, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Gardevoir hold it, and this stone will enable it to Mega Evolve during battle.
 540
 Un esemplare delle misteriose Megapietre. Data a Sharpedo, gli permette di megaevolversi durante la lotta.
 One variety of the mysterious Mega Stones. Have Sharpedo hold it, and this stone will enable it to Mega Evolve during battle.
@@ -48564,7 +48801,7 @@ Un esemplare delle misteriose Megapietre. Data a Medicham, gli permette di megae
 Un esemplare delle misteriose Megapietre. Data a Medicham, gli permette di megaevolversi durante la lotta.
 546
 Un esemplare delle misteriose Megapietre. Data ad Altaria, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data ad Altaria, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Altaria hold it, and this stone will enable it to Mega Evolve during battle.
 547
 Un esemplare delle misteriose Megapietre. Data a Diancie, gli permette di megaevolversi durante la lotta.
 Un esemplare delle misteriose Megapietre. Data a Diancie, gli permette di megaevolversi durante la lotta.
@@ -48615,10 +48852,10 @@ Un esemplare delle misteriose Megapietre. Data a Lopunny, gli permette di megaev
 One variety of the mysterious Mega Stones. Have Lopunny hold it, and this stone will enable it to Mega Evolve during battle.
 563
 Un esemplare delle misteriose Megapietre. Data a Mewtwo, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Mewtwo, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve during battle.
 564
 Un esemplare delle misteriose Megapietre. Data a Mewtwo, gli permette di megaevolversi durante la lotta.
-Un esemplare delle misteriose Megapietre. Data a Mewtwo, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve during battle.
 565
 Un esemplare delle misteriose Megapietre. Data a Metagross, gli permette di megaevolversi durante la lotta.
 One variety of the mysterious Mega Stones. Have Metagross hold it, and this stone will enable it to Mega Evolve during battle.
@@ -49336,6 +49573,42 @@ An item for use on a Pokémon. It slightly decreases the individual Sp. Def stre
 844
 Strumento da usare su un Pokémon. Ne diminuisce di poco i punti individuali della Velocità.
 An item for use on a Pokémon. It slightly decreases the individual Speed strength of a single Pokémon.
+845
+Armatura particolare che fa evolvere determinate specie di Pokémon. Alberga dentro di sé sentimenti infausti.
+A peculiar set of armor that can make a certain species of Pokémon evolve. Malicious will lurks within it.
+846
+Armatura particolare che fa evolvere determinate specie di Pokémon. Alberga dentro di sé sentimenti fausti.
+A peculiar set of armor that can make a certain species of Pokémon evolve. Auspicious wishes live within it.
+847
+Update contenente i dati di un Pokémon di tipo Coleottero. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing a Bug Type Pokémon's data. It makes the Pokémon evolve via Pokémon Transfer.
+848
+Update contenente i dati di un Pokémon di tipo Coleottero. Permette al Pokémon di evolversi tramite Trasferitore.
+An update containing a Bug Type Pokémon's data. It makes the Pokémon evolve via Pokémon Transfer.
+849
+Un esemplare delle misteriose Megapietre. Data a Rampardos, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Rampardos hold it, and this stone will enable it to Mega Evolve during battle.
+850
+Un esemplare delle misteriose Megapietre. Data ad Arcanine, gli permette di megaevolversi durante la lotta.
+One variety of the mysterious Mega Stones. Have Arcanine hold it, and this stone will enable it to Mega Evolve during battle.
+851
+Una stele che emana una misteriosa energia. Sembra profondamente connessa al Pokémon Regirock.
+A stele that radiates a mysterious energy. It looks deeply connected to Regirock.
+852
+Una stele che emana una misteriosa energia. Sembra profondamente connessa al Pokémon Regice.
+A stele that radiates a mysterious energy. It looks deeply connected to Regice.
+853
+Una stele che emana una misteriosa energia. Sembra profondamente connessa al Pokémon Registeel.
+A stele that radiates a mysterious energy. It looks deeply connected to Registeel.
+854
+Una stele che emana una misteriosa energia. Sembra profondamente connessa al Pokémon Regigigas.
+A stele that radiates a mysterious energy. It looks deeply connected to Regigigas.
+851
+Una stele che emana una misteriosa energia. Sembra profondamente connessa al Pokémon Regieleki.
+A stele that radiates a mysterious energy. It looks deeply connected to Regieleki.
+852
+Una stele che emana una misteriosa energia. Sembra profondamente connessa al Pokémon Regidrago.
+A stele that radiates a mysterious energy. It looks deeply connected to Regidrago.
 [9]
 1
 Tanfo
