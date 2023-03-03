@@ -49603,10 +49603,10 @@ A stele that radiates a mysterious energy. It looks deeply connected to Registee
 854
 Una stele che emana una misteriosa energia. Sembra profondamente connessa al Pokémon Regigigas.
 A stele that radiates a mysterious energy. It looks deeply connected to Regigigas.
-851
+855
 Una stele che emana una misteriosa energia. Sembra profondamente connessa al Pokémon Regieleki.
 A stele that radiates a mysterious energy. It looks deeply connected to Regieleki.
-852
+856
 Una stele che emana una misteriosa energia. Sembra profondamente connessa al Pokémon Regidrago.
 A stele that radiates a mysterious energy. It looks deeply connected to Regidrago.
 [9]
