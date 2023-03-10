@@ -3961,3 +3961,121 @@ BattleBack=FinalVakuum
 Bicycle=false
 Outdoor=false
 ShowArea=false
+[661]
+# Xenoverse
+BattleBack=MondoXenoverse
+Bicycle=false
+Outdoor=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
+ShowArea=false
+[662]
+# Xenoverse
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[663]
+# Xenoverse
+BattleBack=MondoXenoverse
+Bicycle=false
+Outdoor=false
+BicycleAlways=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
+ShowArea=true
+[664]
+# Xenoverse
+BattleBack=Xenoalisso
+Bicycle=false
+Outdoor=false
+BicycleAlways=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
+ShowArea=false
+[665]
+# Xenoverse
+BattleBack=MondoXenoverse
+Bicycle=false
+Outdoor=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
+ShowArea=false
+[666]
+# Xenoverse
+BattleBack=xenosharpedo
+Bicycle=false
+Outdoor=false
+BicycleAlways=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
+ShowArea=false
+[667]
+# Xenoverse
+BattleBack=xenosharpedo
+Bicycle=false
+Outdoor=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
+ShowArea=false
+[668]
+# Xenoverse
+BattleBack=xenosharpedo
+Bicycle=false
+Outdoor=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
+ShowArea=false
+[669]
+# Xenoverse
+BattleBack=xenosharpedo
+Bicycle=false
+Outdoor=false
+WildBattleBGM=VS. XBoss.mp3
+ShowArea=false
+[670]
+# Xenoverse
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[671]
+# Xenoverse
+BattleBack=xenocampus
+Bicycle=false
+Outdoor=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
+ShowArea=false
+[672]
+# Xenoverse
+BattleBack=xenobiblioteca
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[673]
+# Xenoverse
+BattleBack=xenoasi
+Bicycle=false
+Outdoor=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
+ShowArea=false
+[674]
+# Xenoverse
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[675]
+# Xenoverse
+BattleBack=xenoasi
+Bicycle=false
+Outdoor=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
+ShowArea=false
+[676]
+# Xenoverse
+BattleBack=MondoXenoverse
+Bicycle=false
+TrainerBattleBGM=VS. Versil Dragalisk.mp3
+Outdoor=false
+ShowArea=false
+[677]
+# Orizzonte degli Eventi
+Bicycle=false
+Outdoor=false
+ShowArea=true
+[678]
+# Limbo
+BattleBack=limbo
+Bicycle=false
+Outdoor=false
