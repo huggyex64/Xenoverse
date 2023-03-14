@@ -3719,7 +3719,6 @@ ShowArea=true
 [615]
 # Sentiero Rosa
 BattleBack=Neve
-Weather=Snow,100
 Bicycle=true
 Outdoor=true
 WildBattleBGM=Wild Battle Japan.mp3
@@ -4079,3 +4078,89 @@ ShowArea=true
 BattleBack=limbo
 Bicycle=false
 Outdoor=false
+[680]
+# Tomba Picco
+BattleBack=palestraoasi
+Bicycle=true
+Outdoor=false
+WildBattleBGM=VS.Regi.mp3
+ShowArea=true
+[681]
+# Tomba Picco
+BattleBack=palestraoasi
+Bicycle=true
+Outdoor=false
+WildBattleBGM=VS.Regi.mp3
+ShowArea=false
+[682]
+# Tomba Iceberg
+Bicycle=true
+Outdoor=false
+ShowArea=true
+[683]
+# Tomba Iceberg
+BattleBack=GrottaGhiacciolo
+Bicycle=true
+Outdoor=false
+WildBattleBGM=VS.Regi.mp3
+ShowArea=false
+[684]
+# Tomba Ferro
+Bicycle=true
+Outdoor=false
+ShowArea=true
+[685]
+# Tomba Ferro
+BattleBack=Gola
+Bicycle=true
+Outdoor=false
+WildBattleBGM=VS.Regi.mp3
+ShowArea=false
+[686]
+# Tomba Elettrone
+Bicycle=true
+Outdoor=false
+ShowArea=true
+[687]
+# Tomba Elettrone
+BattleBack=Regieleki
+Bicycle=true
+Outdoor=false
+WildBattleBGM=VS.Regi.mp3
+ShowArea=false
+[688]
+# Tomba Dracosfera
+Bicycle=true
+Outdoor=false
+ShowArea=true
+[689]
+# Tomba Dracosfera
+BattleBack=VulcanoDecibel
+Bicycle=true
+Outdoor=false
+WildBattleBGM=VS.Regi.mp3
+ShowArea=false
+[690]
+# Tomba Rosa
+BattleBack=Reginalous
+Bicycle=false
+Outdoor=false
+WildBattleBGM=VS. Reginalous.mp3
+ShowArea=false
+[691]
+# Tomba Rosa
+Bicycle=true
+Outdoor=false
+ShowArea=true
+[692]
+# Bunker Abbandonato
+Bicycle=false
+Outdoor=false
+ShowArea=false
+[693]
+# Bunker Abbandonato
+BattleBack=Old
+Bicycle=false
+Outdoor=false
+WildBattleBGM=VS.Mewtwo.mp3
+ShowArea=false

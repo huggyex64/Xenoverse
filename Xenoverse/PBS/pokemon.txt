@@ -29758,9 +29758,9 @@ RegionalNumbers=581,0,0
 BattlerPlayerY=30
 BattlerEnemyY=32
 [2052]
-Name=Reginomalous
-InternalName=REGINOMALOUS
-Type1=FAIRY
+Name=Reginalous
+InternalName=REGINALOUS
+Type1=PSYCHIC
 BaseStats=110,160,110,100,80,110
 GenderRate=Genderless
 GrowthRate=Slow
