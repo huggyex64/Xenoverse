@@ -2549,7 +2549,7 @@ def pbEnamorusBossBattle
 end
 
 
-def pbBossTrainerBattle(trainer,endspeech)
+def pbBossTrainerBattle(trainer,endspeech,internalbattle = true)
   #trainer=pbLoadTrainerTournament(trainerid,trainername,trainerparty)
   #def pbTrainerBattle(trainerid,trainername,endspeech,
   #  doublebattle=false,trainerparty=0,canlose=false,variable=nil)
@@ -2641,7 +2641,7 @@ def pbBossTrainerBattle(trainer,endspeech)
     return true
   end
   Events.onStartBattle.trigger(nil,nil)
-  battle.internalbattle=true
+  battle.internalbattle=internalbattle
   pbPrepareBattle(battle)
   restorebgm=true
   decision=0

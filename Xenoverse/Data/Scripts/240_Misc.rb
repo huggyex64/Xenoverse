@@ -1197,3 +1197,83 @@ def pbLoadTries(time = 0)
     $game_variables[200] = File.read(RTP.getSaveFileName("#{$Trainer.id}_#{time}")).to_i
   end
 end
+
+def pbDisplayBrailleText(text = "")
+
+  @sprites = {}    
+  @sprites["itemtextwindow"]=Window_UnformattedTextPokemon.new("")
+  @sprites["itemtextwindow"].x=36
+  @sprites["itemtextwindow"].y=72
+  @sprites["itemtextwindow"].width=Graphics.width-72
+  @sprites["itemtextwindow"].height=196
+  @sprites["itemtextwindow"].baseColor=Color.new(42,42,42)
+  @sprites["itemtextwindow"].shadowColor=Color.new(0,0,0,0)
+  @sprites["itemtextwindow"].visible=true
+  #@sprites["itemtextwindow"].viewport=@viewport
+  #@sprites["itemtextwindow"].windowskin=nil
+  pbSetFont(@sprites["itemtextwindow"].contents, "Braille Normal",36)
+  @sprites["itemtextwindow"].text = "Mannaggia la madonna\nChe ti aspettavi?\nGirati a destra"
+
+end
+
+def pbTestMirrorBattle
+  trainer=PokeBattle_Trainer.new(_INTL("Tamara"),PBTrainers::TAMARAFURIA)
+  trainer.setForeignID($Trainer) if $Trainer
+  party = []
+  $trainerbossbattle = true
+  #$game_switches[85]=true
+  species = [PBSpecies::TOXAPEX, PBSpecies::SCIZOR, PBSpecies::WYSTEARIA, PBSpecies::VESPIQUEN, PBSpecies::SCOVILEX, PBSpecies::SCEPTILE]
+  items = [PBItems::LEFTOVERS, PBItems::SHELLBELL, PBItems::BIGROOT, 0, PBItems::ASSAULTVEST, PBItems::SCEPTILITE]
+  healthbars = [3,3,2,3,3,4]
+  partyMoves = [
+    [:ACIDRAIN, :TOXICSPIKES, :BANEFULBUNKER, :RAINDANCE], #TOXAPEX - REGENERATOR
+    [:SWORDSDANCE, :BRUTALSWING, :XSCISSOR, :IRONHEAD], #SCIZOR - TECHNICIAN
+    [:GIGADRAIN,:FAKETEARS,:BOOMBURST,:TOXIC], #WYSTEARIA - SYNTHESIZER
+    [:ACROBATICS, :DEFENDORDER, :SWAGGER, :BATONPASS], #VESPIQUEN - PRESSURE
+    [:TUONO, :ENERGYBALL, :FLAMETHROWER, :SLUDGEBOMB], #SCOVILEX - EFFECTSPORE
+    [:SUBSTITUTE, :LEECHSEED, :DRAGONPULSE, :GIGADRAIN]  #SCEPTILE MEGA - LIGHTINGROD
+  ]
+  stats = [
+    #HP, atk, def, spe, spa, spd
+    [967,370,425,243,334,417], #TOXAPEX - REGENERATOR
+    [733,544,416,326,304,347], #SCIZOR - TECHNICIAN
+    [638,293,383,192,445,444], #WYSTEARIA - SYNTHESIZER
+    [727,369,368,256,369,368], #VESPIQUEN - PRESSURE
+    [942,379,369,485,400,384], #SCOVILEX - EFFECTSPORE
+    [1052,448,388,555,555,423]  #SCEPTILE MEGA - LIGHTINGROD
+  ]
+  for i in 0...$Trainer.party.length
+    #$mods.set(healthbars[i], nil, nil)
+    # Setting up the Pokemon
+    #pkmn = pbGenerateWildPokemon(species[i],100)
+    pkmn = $Trainer.party[i].clone
+    pkmn.level=pkmn.level
+=begin
+    pkmn.item = items[i]
+    pkmn.pbDeleteAllMoves
+    moves = partyMoves[i]
+    for m in moves
+      pkmn.pbLearnMove(m)
+    end
+    pkmn.totalHp=stats[i][0]
+    pkmn.hp=pkmn.totalhp
+    pkmn.attack=stats[i][1]
+    pkmn.defense=stats[i][2]
+    pkmn.spAtk=stats[i][4]
+    pkmn.spDef=stats[i][5]
+    pkmn.speed=stats[i][3]
+    pkmn.statsOverride = stats[i]
+    echoln "Healthbars #{healthbars[i]}"
+    pkmn.setBoss(healthbars[i])
+=end
+    party.push(pkmn)
+  end
+  #for i in 0...6 
+  #  echoln "MOLTIPLIER #{party[i].hpMoltiplier}"
+  #end
+  trainer.party = party
+  result = pbBossTrainerBattle([trainer,[],trainer.party],_INTL("..."),false)
+  #$game_switches[85]=false
+  $trainerbossbattle = false
+  return result
+end

@@ -4294,7 +4294,7 @@ class PokeBattle_Move_0B4 < PokeBattle_Move
 		end
 		pbShowAnimation(@id,attacker,nil,hitnum,alltargets,showanimation)
 		choice=choices[@battle.pbRandom(choices.length)]
-		attacker.pbUseMoveSimple(attacker.moves[choice].id,choice,attacker.pbOppositeOpposing)
+		attacker.pbUseMoveSimple(attacker.moves[choice].id,choice,attacker.pbOppositeOpposing,true)
 		return 0
 	end
 end
@@ -5436,7 +5436,7 @@ end
 ################################################################################
 class PokeBattle_Move_0D9 < PokeBattle_Move
 	def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
-		if !attacker.pbCanSleep?(true,true,true)
+		if !attacker.pbCanSleep?(true,true,true) && attacker.status != PBStatuses::SLEEP
 			return -1
 		end
 		if attacker.hp==attacker.totalhp

@@ -2808,7 +2808,7 @@ class PokeBattle_Battler
 		return true
 	end
 	
-	def pbTryUseMove(choice,thismove,turneffects)
+	def pbTryUseMove(choice,thismove,turneffects,skipSleep = false)
 		return true if @turneffects[PBEffects::PassedTrying]
 		# TODO: Return true if attack has been Mirror Coated once already
 		return false if !pbObedienceCheck?(choice)
@@ -2875,7 +2875,7 @@ class PokeBattle_Battler
 			PBDebug.log("[#{pbThis} must recharge after using #{PokeBattle_Move.pbFromPBMove(@battle,PBMove.new(@currentMove)).name}]")
 			return false
 		end
-		if self.status==PBStatuses::SLEEP
+		if self.status==PBStatuses::SLEEP && !skipSleep
 			self.statusCount-=1
 			self.statusCount-=1 if self.hasWorkingAbility(:EARLYBIRD)
 			if self.statusCount<=0
@@ -3233,7 +3233,7 @@ class PokeBattle_Battler
 		user.effects[PBEffects::LastMoveFailed]=true
 	end
 	
-	def pbUseMoveSimple(moveid,index=-1,target=-1)
+	def pbUseMoveSimple(moveid,index=-1,target=-1,skipSleep=false)
 		choice=[]
 		choice[0]=1       # "Use move"
 		choice[1]=index   # Index of move to be used in user's moveset
@@ -3245,12 +3245,12 @@ class PokeBattle_Battler
 		end
 		PBDebug.log("[#{pbThis}: used simple move choice[2].name]")
 		@usingsubmove=true
-		pbUseMove(choice,true)
+		pbUseMove(choice,true,skipSleep)
 		@usingsubmove=false
 		return
 	end
 
-	def pbUseMove(choice,specialusage=false)
+	def pbUseMove(choice,specialusage=false,skipSleep=false)
 		# TODO: lastMoveUsed is not to be updated on nested calls
 		@turneffects=[]
 		@turneffects[PBEffects::SpecialUsage]=specialusage
@@ -3291,7 +3291,7 @@ class PokeBattle_Battler
 		# TODO: Record that self has moved this round (for Payback, etc.)
 		# Stance Change goes here
 		# Try to use the move
-		if !pbTryUseMove(choice,thismove,@turneffects)
+		if !pbTryUseMove(choice,thismove,@turneffects,skipSleep)
 			self.lastMoveUsed=-1
 			if !@turneffects[PBEffects::SpecialUsage]
 				self.lastMoveUsedSketch=-1 if self.effects[PBEffects::TwoTurnAttack]==0

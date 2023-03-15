@@ -604,7 +604,8 @@ module FontInstaller
 		'concielianjetcond.ttf',
 		'Exo2-SemiBold.otf',
 		'kimberley bl.ttf',
-		'm42.ttf'
+		'm42.ttf',
+    'BRAILLE.ttf'
   ]    
   # names (not filenames) of fonts to be installed
   Names = [
@@ -621,7 +622,8 @@ module FontInstaller
 		'Concielian Jet',
 		'Exo 2',
 		'Kimberley',
-		'M42_FLIGHT 721'
+		'M42_FLIGHT 721',
+    'Braille Normal'
   ]
   # whether to notify player (via pop-up message) that fonts were installed
   Notify = true
