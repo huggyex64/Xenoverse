@@ -813,3 +813,4 @@
 854,COLOSSTELE,Colosstele,8,0,"Una stele che emana una misteriosa energia. Sembra profondamente connessa al Pokémon Regigigas.",1,0,6,
 855,ELETTROSTELE,Elettrostele,8,0,"Una stele che emana una misteriosa energia. Sembra profondamente connessa al Pokémon Regieleki.",1,0,6,
 856,DRACOSTELE,Dracostele,8,0,"Una stele che emana una misteriosa energia. Sembra profondamente connessa al Pokémon Regidrago.",1,0,6,
+857,VIPGENGAR,Invito Speciale,8,0,"Un invito da parte di Gengar per partecipare ad un torneo speciale al Torneo Apollo.",1,0,6,
