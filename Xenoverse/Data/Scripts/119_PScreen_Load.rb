@@ -668,6 +668,7 @@ module FontInstaller
   end
 
   def self.install
+    Console::setup_console if $DEBUG
     success = []
     # Check if all fonts already exist
     filesExist=true
@@ -731,6 +732,7 @@ module FontInstaller
           end
           if succeeded
             success.push(Names[i])
+            echoln "success " +Names[i]
           else
             echoln "failed " +Names[i]
             #Kernel.pbMessage("Failed \"#{Names[i]}\"...")

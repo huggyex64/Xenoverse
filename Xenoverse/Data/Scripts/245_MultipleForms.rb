@@ -3308,22 +3308,22 @@ MultipleForms.register(:MAWILE,{
 # MEGA LINOONE
 MultipleForms.register(:LINOONE,{
 	"getMegaForm"=>proc{|pokemon|
-		next 1 if isConst?(pokemon.item,PBItems,:LINOONITE)
+		next 2 if isConst?(pokemon.item,PBItems,:LINOONITE)
 		next
 	},
 	"getUnmegaForm"=>proc{|pokemon|
 		next 0
 	},
 	"getMegaName"=>proc{|pokemon|
-		next _INTL("Mega Linoone") if pokemon.form==1
+		next _INTL("Mega Linoone") if pokemon.form==2
 		next
 	},
 	"getBaseStats"=>proc{|pokemon|
-		next [50,195,125,50,55,105] if pokemon.form==1
+		next [50,195,125,50,55,105] if pokemon.form==2
 		next
 	},
 	"ability"=>proc{|pokemon|
-		next getID(PBAbilities,:HUGEPOWER) if pokemon.form==1
+		next getID(PBAbilities,:HUGEPOWER) if pokemon.form==2
 		next
 	},
 	"onSetForm"=>proc{|pokemon,form|
