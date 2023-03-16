@@ -3991,6 +3991,7 @@ ShowArea=false
 [665]
 # Xenoverse
 BattleBack=MondoXenoverse
+Weather=Rain,100
 Bicycle=false
 Outdoor=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
