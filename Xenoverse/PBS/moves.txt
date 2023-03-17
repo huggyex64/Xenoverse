@@ -584,7 +584,7 @@
 606,TOPSYTURVY,Sottosopra,141,0,DARK,Status,100,20,0,00,0,bce,"Inverte tutte le modifiche alle statistiche del Pokémon bersaglio."
 607,TRICKORTREAT,Halloween,142,0,GHOST,Status,100,20,0,00,0,bd,"Il bersaglio viene invitato a festeggiare Halloween e aggiunge così al proprio tipo anche il tipo Spettro."
 608,VENOMDRENCH,Velenotrappola,140,0,POISON,Status,100,20,0,00,0,bc,"Emette un liquido particolare che riduce l'Attacco, l'Attacco Speciale e la Velocità dei nemici avvelenati intorno a chi la usa."
-609,WATERSHURIKEN,Acqualame,0C0,15,WATER,Physical,100,20,0,00,1,bef,"Chi la usa attacca sempre per primo, colpendo il bersaglio con uno shuriken di muco da due a cinque volte di fila."
+609,WATERSHURIKENPLACEH,Acqualame,0C0,15,WATER,Physical,100,20,0,00,1,bef,"Chi la usa attacca sempre per primo, colpendo il bersaglio con uno shuriken di muco da due a cinque volte di fila."
 610,DIAMONDSTORM,Diamantempesta,01D,100,ROCK,Physical,95,5,50,00,0,be,"Colpisce i nemici che ha intorno con una tempesta di diamanti. Può anche aumentare la Difesa di chi la usa."
 611,HYPERSPACEHOLE,Forodimensionale,0AD,80,PSYCHIC,Special,0,5,0,00,0,ef,"Chi la usa, sfrutta un passaggio interdimensionale per comparire affianco al bersaglio e colpirlo, eludendo mosse come Protezione e Individua."
 612,STEAMERUPTION,Vaporscoppio,00A,110,WATER,Special,95,5,30,00,0,bef,"Travolge il bersaglio con un'ondata di vapore rovente che può anche scottarlo."

@@ -19,6 +19,8 @@ class PokeBattle_Trainer
   attr_accessor(:expmoderna)
   attr_accessor(:safariZone)
   attr_accessor(:lastGameVersion)
+  attr_accessor(:alterparty)
+  attr_accessor(:backupBag)
   
   def trainerTypeName   # Name of this trainer type (localized)
     return PBTrainers.getName(@trainertype) rescue _INTL("PkMn Trainer")
@@ -122,36 +124,43 @@ class PokeBattle_Trainer
   def isFemale?; return self.gender==1; end
 
   def pokemonParty
-    return @party.find_all {|item| item && !item.isEgg? }
+    return party().find_all {|item| item && !item.isEgg? }
   end
 
   def ablePokemonParty
-    return @party.find_all {|item| item && !item.isEgg? && item.hp>0 }
+    return party().find_all {|item| item && !item.isEgg? && item.hp>0 }
   end
 
   def partyCount
-    return @party.length
+    return party().length
+  end
+
+  def party
+    @alterparty = [] if @alterparty==nil
+    return @party if $game_switches == nil
+    return @party if ![61,52,9].include?(@outfit) && !$game_switches[1351]
+    return @alterparty
   end
 
   def pokemonCount
     ret=0
-    for i in 0...@party.length
-      ret+=1 if @party[i] && !@party[i].isEgg?
+    for i in 0...party().length
+      ret+=1 if party()[i] && !party()[i].isEgg?
     end
     return ret
   end
 
   def ablePokemonCount
     ret=0
-    for i in 0...@party.length
-      ret+=1 if @party[i] && !@party[i].isEgg? && @party[i].hp>0
+    for i in 0...party().length
+      ret+=1 if party()[i] && !party()[i].isEgg? && party()[i].hp>0
     end
     return ret
   end
 
   def firstParty
-    return nil if @party.length==0
-    return @party[0]
+    return nil if party().length==0
+    return party()[0]
   end
 
   def firstPokemon
@@ -167,8 +176,8 @@ class PokeBattle_Trainer
   end
 
   def lastParty
-    return nil if @party.length==0
-    return @party[@party.length-1]
+    return nil if party().length==0
+    return party()[party().length-1]
   end
 
   def lastPokemon
@@ -329,5 +338,7 @@ class PokeBattle_Trainer
     end
     @money=INITIALMONEY
     @party=[]
+    @alterparty=[]
+    @backupBag = nil
   end
 end

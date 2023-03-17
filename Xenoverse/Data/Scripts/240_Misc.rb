@@ -431,6 +431,39 @@ def pbRestoreOldTrainer
   $PokemonBag = $oldBag
 end
 
+def pbBackupBag
+  $Trainer.backupBag = $PokemonBag.clone
+end
+
+def pbRestoreBagFromBackup
+  return if $Trainer.backupBag == nil
+  $PokemonBag = $Trainer.backupBag 
+  $Trainer.backupBag = nil
+end
+
+def pbChangeBagWithItems(items,backup = false)
+  pbBackupBag() if (backup)
+  $PokemonBag = PokemonBag.new
+
+  for i in items
+    item = i[0]
+    if (i.length>1)
+      quantity = i[1]
+    else
+      quantity = 1
+    end
+    $PokemonBag.pbStoreItem(item,quantity)
+  end
+end
+
+def pbTestBagBackup()
+  pbChangeBagWithItems([
+    [:POTION,50],
+    [:MASTERBALL,50]
+  ],true)
+end
+
+
 class PokemonScreen
   def pbChooseMultiplePokemon(number,validProc,minlength = 3,cancancel = true)
     annot=[]
@@ -1221,27 +1254,6 @@ def pbTestMirrorBattle
   trainer.setForeignID($Trainer) if $Trainer
   party = []
   $trainerbossbattle = true
-  #$game_switches[85]=true
-  species = [PBSpecies::TOXAPEX, PBSpecies::SCIZOR, PBSpecies::WYSTEARIA, PBSpecies::VESPIQUEN, PBSpecies::SCOVILEX, PBSpecies::SCEPTILE]
-  items = [PBItems::LEFTOVERS, PBItems::SHELLBELL, PBItems::BIGROOT, 0, PBItems::ASSAULTVEST, PBItems::SCEPTILITE]
-  healthbars = [3,3,2,3,3,4]
-  partyMoves = [
-    [:ACIDRAIN, :TOXICSPIKES, :BANEFULBUNKER, :RAINDANCE], #TOXAPEX - REGENERATOR
-    [:SWORDSDANCE, :BRUTALSWING, :XSCISSOR, :IRONHEAD], #SCIZOR - TECHNICIAN
-    [:GIGADRAIN,:FAKETEARS,:BOOMBURST,:TOXIC], #WYSTEARIA - SYNTHESIZER
-    [:ACROBATICS, :DEFENDORDER, :SWAGGER, :BATONPASS], #VESPIQUEN - PRESSURE
-    [:TUONO, :ENERGYBALL, :FLAMETHROWER, :SLUDGEBOMB], #SCOVILEX - EFFECTSPORE
-    [:SUBSTITUTE, :LEECHSEED, :DRAGONPULSE, :GIGADRAIN]  #SCEPTILE MEGA - LIGHTINGROD
-  ]
-  stats = [
-    #HP, atk, def, spe, spa, spd
-    [967,370,425,243,334,417], #TOXAPEX - REGENERATOR
-    [733,544,416,326,304,347], #SCIZOR - TECHNICIAN
-    [638,293,383,192,445,444], #WYSTEARIA - SYNTHESIZER
-    [727,369,368,256,369,368], #VESPIQUEN - PRESSURE
-    [942,379,369,485,400,384], #SCOVILEX - EFFECTSPORE
-    [1052,448,388,555,555,423]  #SCEPTILE MEGA - LIGHTINGROD
-  ]
   for i in 0...$Trainer.party.length
     #$mods.set(healthbars[i], nil, nil)
     # Setting up the Pokemon

@@ -183,7 +183,33 @@ PATCHFIXES = {
 					end
 				end
 			},
-}
+		"1.5.0"=> proc{
+			Log.i("Patch Fix","Applying patch fixes for version 1.5.0")
+				for p in $Trainer.party
+					if (p != nil) && p.is_a?(PokeBattle_Pokemon)
+						moveID = p.getMove(:WATERSHURIKENPLACEH)
+						if (moveID > -1)
+							p.pbDeleteMoveAtIndex(moveID)
+							p.pbLearnMove(:WATERSHURIKEN)
+						end
+						p.calcStats
+					end
+				end
+				for b in $PokemonStorage.boxes
+					for poke in b.pokemon
+						if poke != nil && poke.is_a?(PokeBattle_Pokemon)
+							moveID = poke.getMove(:WATERSHURIKENPLACEH)
+							if (moveID > -1)
+								poke.pbDeleteMoveAtIndex(moveID)
+								poke.pbLearnMove(:WATERSHURIKEN)
+							end
+							poke.calcStats
+						end
+					end
+				end
+			
+		}
+	}
 
 
 class Patcher 

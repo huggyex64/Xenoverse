@@ -1459,6 +1459,16 @@ end
 
 TRAINERPOOL_expert=[]  #ALMENO 32 ALLENATORI
 
+TRAINERPOOL_DREAM=[
+  ["Looker",PBTrainers::WILLTOURNAMENT,"Bellocchio",_INTL("Devo allenarmi di più!"),3],
+  ["Padre",PBTrainers::VERSIL,"Versil",_INTL("Devo allenarmi di più!"),4],
+  ["Victor",PBTrainers::WILLTOURNAMENT,"Will",_INTL("Devo allenarmi di più!"),3],
+  ["trey",PBTrainers::TREYTOURNAMENT,"Trey",_INTL("Hmph! La prossima volta vincerò io!"),5],
+  ["Chua",PBTrainers::WILLTOURNAMENT,"Will",_INTL("Devo allenarmi di più!"),3],
+  ["Aster",PBTrainers::WILLTOURNAMENT,"Will",_INTL("Devo allenarmi di più!"),4],
+  ["Oleandro",PBTrainers::WILLTOURNAMENT,"Will",_INTL("Devo allenarmi di più!"),3],
+]
+
 LANCEPOOL=[
   ["lance",PBTrainers::LANCETOURNAMENT,"Lance",_INTL("Pare che il mio lungo allenamento non sia bastato..."),10],
 ]
@@ -2440,27 +2450,39 @@ class PWT
 
     echoln "generating Pool"
 
-    for i in 0...branches
-      randTrainer = trainerpool[rand(trainerpool.length)]
-      #This ensures diversity between trainers
-      while (added.include?(randTrainer))
+    if (trainerpool != TRAINERPOOL_DREAM)
+      for i in 0...branches
         randTrainer = trainerpool[rand(trainerpool.length)]
+        #This ensures diversity between trainers
+        while (added.include?(randTrainer))
+          randTrainer = trainerpool[rand(trainerpool.length)]
+        end
+        added.push(randTrainer)
+        pool.push(randTrainer)
       end
-      added.push(randTrainer)
-      pool.push(randTrainer)
+    else
+      for i in 0...branches        
+        pool.push(trainerpool[i])
+      end
     end
     
     echoln "randomizing brances"
 
-    m = rand(pool.length-1)    
-    pool.insert(m,$Trainer)
-    i = 0
-    if m > branches/2
-      i = rand(branches/2+1)
+    if trainerpool != TRAINERPOOL_DREAM
+      m = rand(pool.length-1)    
+      pool.insert(m,$Trainer)
+      i = 0
+      if m > branches/2
+        i = rand(branches/2+1)
+      else
+        i = pool.length-rand(branches/2)
+      end
     else
-      i = pool.length-rand(branches/2)
+      pool.insert(0,$Trainer)
+      i = 0
     end
-    
+
+    echoln "quando rileggerai questa parte dirai kek"
 
     if miAdded != nil
       echoln "adding Mustinclude"
@@ -3039,10 +3061,15 @@ class PWT
     restoreParty
     $game_system.message_position = 2
     $ISINTOURNAMENT=false
+    if $game_switches[1350] && win
+      echoln "Win in event"
+      return
+    end
     pbTransferWithTransition(621,17,22,:DIRECTED,8) {
       pbFadeOutAndHide(@transition) if @transition
       pbDisposeSpriteHash(@transition) if @transition
     }
+    
     if win==true
       @player.tournament_wins+=1
       #pbTransferWithTransition(4,6,15,:DIRECTED,8)

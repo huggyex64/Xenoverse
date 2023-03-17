@@ -440,6 +440,17 @@ class PokeBattle_Pokemon
     return false
   end
 
+  def getMove(move)
+    if move.is_a?(String) || move.is_a?(Symbol)
+      move=getID(PBMoves,move)
+    end
+    return false if !move || move<=0
+    for i in 0...4
+      return i if @moves[i].id==move
+    end
+    return -1
+  end
+
 # Returns whether a Pokémon is compatible with a move or not
   def isCompatibleWithMove?(move)
     return pbSpeciesCompatible?(self.species,move)
