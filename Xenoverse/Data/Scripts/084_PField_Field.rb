@@ -2394,6 +2394,11 @@ end
 # Partner trainer
 ################################################################################
 def pbRegisterPartner(trainerid,trainername,partyid=0)
+  playername = false
+  if trainername.include?("|PN")
+    trainername = trainername.gsub("|PN","")
+    playername = true
+  end
   Kernel.pbCancelVehicles
   trainer=pbLoadTrainer(trainerid,trainername,partyid)
   Events.onTrainerPartyLoad.trigger(nil,trainer)
@@ -2403,6 +2408,9 @@ def pbRegisterPartner(trainerid,trainername,partyid=0)
     i.trainerID=trainerobject.id
     i.ot=trainerobject.name
     i.calcStats
+  end
+  if playername
+    trainerobject.name = $Trainer.name
   end
   $PokemonGlobal.partner=[trainerid,trainerobject.name,trainerobject.id,trainer[2]]
 end

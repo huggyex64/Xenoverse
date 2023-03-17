@@ -138,8 +138,9 @@ class PokeBattle_Trainer
   def party
     @alterparty = [] if @alterparty==nil
     return @party if $game_switches == nil
-    return @party if ![61,52,9].include?(@outfit) && !$game_switches[1351]
-    return @alterparty
+    return @party if ![61,52,9].include?(@outfit)
+    return @alterparty if $game_switches[1351]
+    return @party
   end
 
   def pokemonCount
