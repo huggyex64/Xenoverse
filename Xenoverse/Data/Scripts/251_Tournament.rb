@@ -1655,6 +1655,8 @@ REWARDLOSINGPOOL=[:FULLHEAL,:FULLRESTORE,:POMEGBERRY,:KELPSYBERRY,:QUALOTBERRY,:
 
 TOURNAMENT_OPPONENT_EVENT_ID = 54
 TOURNAMENT_EVENT_ID = 56
+TOURNAMENT_DREAM_PRE = 57
+TOURNAMENT_DREAM_POST = 58
 
 TOURNAMENT_LOCKER_MAP_ID = 622
 TOURNAMENT_STADIUM_MAP_ID = 623
@@ -1930,6 +1932,10 @@ class PWT
     @player = player
     @trainerpool = trainerpool
 
+    if $game_switches[1350] && trainerpool != TRAINERPOOL_DREAM
+      $game_switches[1350] = false
+    end
+
     if testpool
       @pool = defineChart(player, difficulty, trainerpool)
       @firstPool = @pool
@@ -2071,7 +2077,12 @@ class PWT
       fbEnable(false)
       fbDispose()
     end
-
+    
+    if $game_switches[1350]
+      echoln "running pre dream event"
+      $game_map.events[TOURNAMENT_DREAM_PRE].interpreter=Interpreter.new
+      $game_map.events[TOURNAMENT_DREAM_PRE].simpleRun
+    end
 
     opponentIntro(@opponent)
     #Starting the battle
@@ -2510,6 +2521,11 @@ class PWT
       
   end
   
+  def nextOpponent
+    echoln "#{@pool[@oppIndex][0]}-#{@pool[@oppIndex][1]}-#{@pool[@oppIndex][2]}"
+    return @pool[@oppIndex]
+  end
+
   def startTournament(player,difficulty,trainerpool=nil) #Starts the tournament
         
     @trainerIndex=nil
@@ -3028,20 +3044,30 @@ class PWT
     else
       $PokemonGlobal.nextBattleBack = "ApolloFinal"
       if pbTournamentBattle(pool[@oppIndex][1],pool[@oppIndex][2],pool[@oppIndex][3],false,0,true)
-        pbFadeOutAndHide(@transition)
-        Kernel.pbMessage(_INTL("Congratulazione a {1} per la vittoria! Veramente una performance eccezionale, Gengah ah ah!", $Trainer.name))
-        Kernel.pbMessage(_INTL("Ricorda di passare alla reception per riscattare i tuoi premi!"))
-        @playerwon=true
-        key = [pool[@oppIndex][1],pool[@oppIndex][2]]
-        if VIPLIST.include?(key)
-          pbSEPlay("Victory VIP")
-          $game_switches[VIPCUPSWITCH[key]]=true
-          if !$Trainer.vips.include?(key)
-            $Trainer.vips.push(key) 
-            if ACHIEVEMENTREDIRECT.keys.include?(key[1])
-              $achievements[ACHIEVEMENTREDIRECT[key[1]]].progress=1
-            else
-              $achievements[key[1]].progress=1
+        if $game_switches[1350]
+          #Dream tournament
+          
+          pbFadeOutAndHide(@transition)
+          pbDisposeSpriteHash(@transition)
+          $game_map.events[TOURNAMENT_DREAM_POST].interpreter=Interpreter.new
+          $game_map.events[TOURNAMENT_DREAM_POST].simpleRun
+          @playerwon=true
+        else        
+          pbFadeOutAndHide(@transition)
+          Kernel.pbMessage(_INTL("Congratulazione a {1} per la vittoria! Veramente una performance eccezionale, Gengah ah ah!", $Trainer.name))
+          Kernel.pbMessage(_INTL("Ricorda di passare alla reception per riscattare i tuoi premi!"))
+          @playerwon=true
+          key = [pool[@oppIndex][1],pool[@oppIndex][2]]
+          if VIPLIST.include?(key)
+            pbSEPlay("Victory VIP")
+            $game_switches[VIPCUPSWITCH[key]]=true
+            if !$Trainer.vips.include?(key)
+              $Trainer.vips.push(key) 
+              if ACHIEVEMENTREDIRECT.keys.include?(key[1])
+                $achievements[ACHIEVEMENTREDIRECT[key[1]]].progress=1
+              else
+                $achievements[key[1]].progress=1
+              end
             end
           end
         end

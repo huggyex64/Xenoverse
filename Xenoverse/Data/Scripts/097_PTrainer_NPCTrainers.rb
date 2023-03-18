@@ -255,8 +255,16 @@ def pbTrainerBattle(trainerid,trainername,endspeech,
       end
     end
   end
+  playername = false
+  if trainername.include?("|PN")
+    trainername = trainername.gsub("|PN","")
+    playername = true
+  end
   trainer=pbLoadTrainer(trainerid,trainername,trainerparty)
   Events.onTrainerPartyLoad.trigger(nil,trainer)
+  if playername
+    trainer[0].name = $Trainer.name
+  end
   if !trainer
     pbMissingTrainer(trainerid,trainername,trainerparty)
     return false

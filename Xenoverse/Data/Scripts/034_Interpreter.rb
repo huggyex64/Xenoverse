@@ -5,6 +5,8 @@
 #  Game_System class and the Game_Event class.
 #===============================================================================
 class Interpreter
+  attr_accessor(:index)
+
   #-----------------------------------------------------------------------------
   # * Object Initialization
   #     depth : nest depth

@@ -43,6 +43,7 @@ class Game_Event < Game_Character
 
   def start
     if @list.size > 1
+      echoln "Event Starting! #{@event.name}"
       @starting = true
     end
   end
@@ -63,6 +64,14 @@ class Game_Event < Game_Character
 
   def id
    return @event.id
+  end
+
+  def interpreter
+    return @interpreter
+  end
+  
+  def interpreter=(value)
+    @interpreter = value
   end
 
   def pbCheckEventTriggerAfterTurning
@@ -263,6 +272,21 @@ class Game_Event < Game_Character
         @interpreter.setup(@list, @event.id, @map_id)
       end
       @interpreter.update
+    end
+  end
+
+  def simpleRun
+    if @interpreter != nil
+      unless @interpreter.running?
+        @interpreter.setup(@list, @event.id, @map_id)
+      end
+    
+      while @interpreter.running?
+        Input.update
+        Graphics.update
+        @interpreter.execute_command
+        @interpreter.index+=1
+      end
     end
   end
 end

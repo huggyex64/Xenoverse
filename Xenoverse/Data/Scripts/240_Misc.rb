@@ -441,6 +441,12 @@ def pbRestoreBagFromBackup
   $Trainer.backupBag = nil
 end
 
+def pbSetPokemonLevel(poke,level)
+    poke.level = level
+    poke.calcStats
+    poke.heal
+end
+
 def pbChangeBagWithItems(items,backup = false)
   pbBackupBag() if (backup)
   $PokemonBag = PokemonBag.new
