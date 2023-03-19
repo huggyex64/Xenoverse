@@ -1255,43 +1255,37 @@ def pbDisplayBrailleText(text = "")
 
 end
 
-def pbTestMirrorBattle
-  trainer=PokeBattle_Trainer.new(_INTL("Tamara"),PBTrainers::TAMARAFURIA)
-  trainer.setForeignID($Trainer) if $Trainer
-  party = []
+def pbMirrorBattle(playerside = true)
   $trainerbossbattle = true
-  for i in 0...$Trainer.party.length
-    #$mods.set(healthbars[i], nil, nil)
-    # Setting up the Pokemon
-    #pkmn = pbGenerateWildPokemon(species[i],100)
-    pkmn = $Trainer.party[i].clone
-    pkmn.level=pkmn.level
-=begin
-    pkmn.item = items[i]
-    pkmn.pbDeleteAllMoves
-    moves = partyMoves[i]
-    for m in moves
-      pkmn.pbLearnMove(m)
+  if (playerside)
+    trainer=PokeBattle_Trainer.new(_INTL("Vakum"),PBTrainers::TAMARAFURIA)
+    trainer.setForeignID($Trainer) if $Trainer
+    party = []
+    for i in 0...$Trainer.party.length
+      # Setting up the Pokemon
+      pkmn = $Trainer.party[i].clone
+      pkmn.level=pkmn.level
+      party.push(pkmn)
     end
-    pkmn.totalHp=stats[i][0]
-    pkmn.hp=pkmn.totalhp
-    pkmn.attack=stats[i][1]
-    pkmn.defense=stats[i][2]
-    pkmn.spAtk=stats[i][4]
-    pkmn.spDef=stats[i][5]
-    pkmn.speed=stats[i][3]
-    pkmn.statsOverride = stats[i]
-    echoln "Healthbars #{healthbars[i]}"
-    pkmn.setBoss(healthbars[i])
-=end
-    party.push(pkmn)
+    trainer.party = party
+    result = pbBossTrainerBattle([trainer,[],trainer.party],_INTL("..."),true)
+  else
+    tempTrainer = $Trainer.clone
+    $Trainer=PokeBattle_Trainer.new(_INTL("Vakum"),PBTrainers::TAMARAFURIA)
+    $Trainer.setForeignID($Trainer) if $Trainer
+    party = []
+    for i in 0...tempTrainer.party.length
+      # Setting up the Pokemon
+      pkmn = tempTrainer.party[i].clone
+      pkmn.level=pkmn.level
+      party.push(pkmn)
+    end
+    $Trainer.party = party
+    result = pbBossTrainerBattle([tempTrainer,[],tempTrainer.party],_INTL("..."),true)
+    
+    $Trainer = tempTrainer
+  
   end
-  #for i in 0...6 
-  #  echoln "MOLTIPLIER #{party[i].hpMoltiplier}"
-  #end
-  trainer.party = party
-  result = pbBossTrainerBattle([trainer,[],trainer.party],_INTL("..."),false)
-  #$game_switches[85]=false
   $trainerbossbattle = false
   return result
 end

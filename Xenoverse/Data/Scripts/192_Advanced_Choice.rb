@@ -63,6 +63,8 @@ class Fullbox_Option
 			#return comm
 			Log.d(FBC_TAG,"Text: #{text}")
 		end
+
+		text.gsub!(/\\PN/,$Trainer.name)
 		return Fullbox_Option.new(text,color,callback)
 	end
 
