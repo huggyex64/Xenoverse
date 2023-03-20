@@ -262,3 +262,5 @@
 265,TREYTOURNAMENT,(Rivale),,VS. Tray.,Team Dimension Victory,,Male,127
 266,ALICECHAMPION,(Sognatrice),300,VS.Champion,victory champion,,Female,127
 267,KAYCHAMPION,(Sognatore),400,VS.Champion,victory champion,,Male,127
+268,VAKUMFINALM,(Creatore),600,VS. Vakum,victory champion,,Male,
+269,VAKUMFINALF,(Creatore),600,VS. Vakum,victory champion,,Male,

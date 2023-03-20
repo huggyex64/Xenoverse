@@ -1258,7 +1258,7 @@ end
 def pbMirrorBattle(playerside = true)
   $trainerbossbattle = true
   if (playerside)
-    trainer=PokeBattle_Trainer.new(_INTL("Vakum"),PBTrainers::TAMARAFURIA)
+    trainer=PokeBattle_Trainer.new(_INTL("Vakum"),$Trainer.gender == 0 ? PBTrainers::VAKUMFINALM : PBTrainers::VAKUMFINALF)
     trainer.setForeignID($Trainer) if $Trainer
     party = []
     for i in 0...$Trainer.party.length
@@ -1271,7 +1271,7 @@ def pbMirrorBattle(playerside = true)
     result = pbBossTrainerBattle([trainer,[],trainer.party],_INTL("..."),true)
   else
     tempTrainer = $Trainer.clone
-    $Trainer=PokeBattle_Trainer.new(_INTL("Vakum"),PBTrainers::TAMARAFURIA)
+    $Trainer=PokeBattle_Trainer.new(_INTL("Vakum"),tempTrainer.gender == 0 ? PBTrainers::VAKUMFINALM : PBTrainers::VAKUMFINALF)
     $Trainer.setForeignID($Trainer) if $Trainer
     party = []
     for i in 0...tempTrainer.party.length
