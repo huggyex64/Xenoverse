@@ -4078,6 +4078,7 @@ ShowArea=true
 # Limbo
 BattleBack=limbo
 Bicycle=false
+TrainerBattleBGM=The Song of Memory.mp3
 Outdoor=false
 [680]
 # Tomba Picco
