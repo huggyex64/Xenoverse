@@ -4166,3 +4166,18 @@ Bicycle=false
 Outdoor=false
 WildBattleBGM=VS.Mewtwo.mp3
 ShowArea=false
+[694]
+# Caverna Boreale
+BattleBack=Grottaghiacciolo
+Bicycle=false
+MapPosition=0,10,1
+Outdoor=false
+WildBattleBGM=VS. Luxflon.mp3
+ShowArea=true
+[695]
+# Xenoverse
+BattleBack=MondoXenoverse
+Bicycle=false
+Outdoor=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
+ShowArea=true
