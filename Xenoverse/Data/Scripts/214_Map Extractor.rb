@@ -383,7 +383,7 @@ def pbSaveMapGraphic(realmap,saveEvents=false, savePlayer=false)
 			for z in 0..2
 				id=map.data[x,y,z]
 				id=0 if !id
-				helper.bltTile(bitmap,x*32,y*32,id) if priorities[id]>0
+				helper.bltTile(bitmap,x*32,y*32,id) if priorities[id] != nil && priorities[id]>0
 			end
 		end
 	end
