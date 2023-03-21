@@ -3991,7 +3991,6 @@ ShowArea=false
 [665]
 # Xenoverse
 BattleBack=MondoXenoverse
-Weather=Rain,100
 Bicycle=false
 Outdoor=false
 WildBattleBGM=VS. Versil Dragalisk.mp3
@@ -4042,6 +4041,7 @@ ShowArea=false
 BattleBack=xenobiblioteca
 Bicycle=false
 Outdoor=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
 ShowArea=false
 [673]
 # Xenoverse
@@ -4068,6 +4068,7 @@ BattleBack=MondoXenoverse
 Bicycle=false
 TrainerBattleBGM=VS. Versil Dragalisk.mp3
 Outdoor=false
+WildBattleBGM=VS. Versil Dragalisk.mp3
 ShowArea=false
 [677]
 # Orizzonte degli Eventi

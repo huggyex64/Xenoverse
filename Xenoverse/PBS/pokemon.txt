@@ -28960,7 +28960,8 @@ Height=6
 Weight=50
 Color=Green
 Kind=Maschera
-Pokedex=Pokémon timidissimo che cela perennemente il suo volto con una maschera. Pare che i suoi poteri derivino proprio da questa. 
+Pokedex=Pokémon timidissimo che cela perennemente il suo volto con una maschera. Pare che i suoi poteri derivino proprio da questa.
+RegionalNumbers=0,43,0 
 BattlerPlayerY=4
 BattlerEnemyY=20
 [2010]
@@ -28984,6 +28985,7 @@ Weight=65
 Color=Red
 Kind=Urlocertola
 Pokedex=A dispetto della stazza minuta, è in grado di lanciare potenti urla. Se esagera, però, rimane afono e sbuffa fumo nero.
+RegionalNumbers=0,44,0 
 BattlerPlayerY=4
 BattlerEnemyY=17
 [2011]
@@ -29007,6 +29009,7 @@ Weight=70
 Color=Blue
 Kind=Dragoblu
 Pokedex=La pelle che lo riveste è tanto elastica da fargli rimbalzare gli attacchi addosso. Tuttavia, è particolarmente sensibile al freddo.
+RegionalNumbers=0,45,0 
 BattlerPlayerY=4
 BattlerEnemyY=21
 [2012]
