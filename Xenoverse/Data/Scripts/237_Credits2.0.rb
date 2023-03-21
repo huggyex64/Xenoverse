@@ -66,7 +66,7 @@ end
 
 class Credits
   
-  def initialize(strange = false)
+  def initialize(strange = false, alternative = false)
     @random = false
     @frame = 0
     @bgframe = 0
@@ -103,11 +103,17 @@ class Credits
       @sprites["whites"].fade(255,6000,:ease_in_cubic)
       @sprites["whites"].z = 100
     end
+
+    pathAddition = ""
+
+    if alternative
+      pathAddition = "Credits DLC/"
+    end
     
     for img in CreditList#CreditsBackgroundList
       id = "bg#{CreditList.index(img)}"
       @sprites[id] = Sprite.new(@viewport)
-      @sprites[id].bitmap = pbBitmap("Graphics/Titles/"+img)
+      @sprites[id].bitmap = pbBitmap("Graphics/Titles/"+pathAddition+img)
       @sprites[id].opacity = 0
     end
     
