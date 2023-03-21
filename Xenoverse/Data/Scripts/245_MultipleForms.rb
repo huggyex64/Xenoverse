@@ -3548,8 +3548,17 @@ MultipleForms.register(:TYPHLOSION,{
 	},
 	"type2"=>proc{|pokemon|
 		next getID(PBTypes,:GRASS) if pokemon.form==1
+		next getID(PBTypes,:GHOST) if pokemon.form==2
 		next			
 	},
+	"getAbilityList"=>proc{|pokemon|
+		if pokemon.form==2
+		  next [[getID(PBAbilities,:BLAZE),0],
+				[getID(PBAbilities,:BLAZE),1],
+				[getID(PBAbilities,:FRISK),2]]
+		end
+		next
+	  },
 	"getMoveList"=>proc{|pokemon|
 		next if pokemon.form==0 
 		#movelist = [[1,:TACKLE],[1,:TAILWHIP],[1,:WATERGUN],[1,:WITHDRAW],
@@ -3566,8 +3575,38 @@ MultipleForms.register(:TYPHLOSION,{
 		for i in movelist
 			i[1]=getConst(PBMoves,i[1])
 		end
-		next movelist
+		next movelist if pokemon.form == 1
+
+		movelist = [[1,:TACKLE],[1,:EMBER],[1,:ERUPTION],[1,:LEER],
+		[1,:SMOKESCREEN],[1,:DOUBLEEDGE],[1,:GYROBALL],[1,:SHADOWBALL],
+		[13,:QUICKATTACK],[20,:FLAMEWHEEL],[24,:DEFENSECURL],[31,:SWIFT],
+		[35,:FLAMECHARGE],[43,:LAVAPLUME],[48,:FLAMETHROWER],[56,:INFERNO],
+		[61,:ROLLOUT],[74,:OVERHEAT]] if pokemon.form == 2
+
+		for i in movelist
+			i[1]=getConst(PBMoves,i[1])
+		end
+		next movelist if pokemon.form == 2
+		next
 	},
+	"getMoveCompatibility"=>proc{|pokemon|
+		next if pokemon.form != 2
+		movelist=[# TMs
+				  :TAKEDOWN,:FIREFANG,:HIDDENPOWER,:SUNNYDAY,:LOWKICK,:PROTECT,
+				  :CONFUSERAY,:FIRESPIN,:FACADE,:AERIALACE,:BULLDOZE,
+				  :SHADOWBALL,:HEX,:SWIFT,:FLAMECHARGE,:NIGHTSHADE,
+				  :ENDURE,:SUNNYDAY,:DIG,:BRICKBREAK,:ZENHEADBUTT,:SHADOWCLAW,
+				  :BODYSLAM,:FIREPUNCH,:THUNDERPUNCH,:SLEEPTALK,:STOMPINGTANTRUM,
+				  :REST,:ROCKSLIDE,:IRONHEAD,:SUBSTITUTE,:WILLOWISP,
+				  :SHADOWBALL,:HEATWAVE,:FLAMETHROWER,:PLAYROUGH,:CALMMIND,
+				  :REVERSAL,:FIREBLAST,:FIREPLEDGE,:WILDCHARGE,:EARTHQUAKE,
+				  :GIGAIMPACT,:BLASTBURN,:OVERHEAT,:FOCUSBLAST,:HYPERBEAM,
+				  :FLAREBLITZ,:SOLARBEAM]
+		for i in 0...movelist.length
+		  movelist[i]=getConst(PBMoves,movelist[i]) if getConst(PBMoves,movelist[i])!=nil
+		end
+		next movelist
+	 },
 })
 
 # TOTODILE
@@ -3658,6 +3697,150 @@ MultipleForms.register(:FERALIGATR,{
 	},
 })
 
+MultipleForms.register(:ALTARIA,{
+	"getMegaForm"=>proc{|pokemon|
+		next 1 if isConst?(pokemon.item,PBItems,:ALTARIANITE)
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 0 if pokemon.form == 1
+	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:FAIRY) if pokemon.form == 1
+		next			
+	},
+	"getMegaName"=>proc{|pokemon|
+		next _INTL("Mega Altaria") if pokemon.form == 1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [75, 110, 110, 80, 110, 105] if pokemon.form == 1
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities, :PIXILATE) if pokemon.form == 1
+		next
+	},
+	"height"=>proc{|pokemon|
+		next 1.5 if pokemon.form == 1
+		next
+	},
+	"weight"=>proc{|pokemon|
+		next 20.6 if pokemon.form == 1
+		next
+	},
+	"onSetForm"=>proc{|pokemon, form|
+		pbSeenForm(pokemon)
+	}
+})
+
+MultipleForms.register(:MEWTWO,{
+	"getMegaForm"=>proc{|pokemon|
+		next 2 if isConst?(pokemon.item,PBItems,:MEWTWONITEX) && pokemon.form == 0
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 0 if pokemon.form == 2
+	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:FIGHTING) if pokemon.form == 2
+		next			
+	},
+	"getMegaName"=>proc{|pokemon|
+		next _INTL("MegaMewtwo X") if pokemon.form == 2
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [106, 190, 100, 130, 154, 130] if pokemon.form == 2
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities, :STEADFAST) if pokemon.form == 2
+		next
+	},
+	"height"=>proc{|pokemon|
+		next 2.3 if pokemon.form == 2
+		next
+	},
+	"weight"=>proc{|pokemon|
+		next 127.0 if pokemon.form == 2
+		next
+	},
+	"onSetForm"=>proc{|pokemon, form|
+		pbSeenForm(pokemon)
+	}
+})
+
+MultipleForms.register(:RAMPARDOS,{
+	"getMegaForm"=>proc{|pokemon|
+		next 1 if isConst?(pokemon.item,PBItems,:RAMPARDITE)
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 0 if pokemon.form == 1
+	},
+	"type2"=>proc{|pokemon|
+		next getID(PBTypes,:GROUND) if pokemon.form == 1
+		next			
+	},
+	"getMegaName"=>proc{|pokemon|
+		next _INTL("Mega Rampardos") if pokemon.form == 1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [118, 205, 100, 48, 55, 70] if pokemon.form == 1 #fix
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities, :SOLIDROCK) if pokemon.form == 1 #fix
+		next
+	},
+	"height"=>proc{|pokemon|
+		next 2.1 if pokemon.form == 1 #fix
+		next
+	},
+	"weight"=>proc{|pokemon|
+		next 240.6 if pokemon.form == 1 #fix
+		next
+	},
+	"onSetForm"=>proc{|pokemon, form|
+		pbSeenForm(pokemon)
+	}
+})
+
+# GARDEVOIR
+MultipleForms.register(:GARDEVOIR, {
+	"getMegaForm"=>proc{|pokemon|
+		next 1 if isConst?(pokemon.item,PBItems,:GARDEVOIRITE)
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 0 if pokemon.form == 1
+	},
+	"getMegaName"=>proc{|pokemon|
+		next _INTL("Mega Gardevoir") if pokemon.form == 1
+		next
+	},
+	"getBaseStats"=>proc{|pokemon|
+		next [68, 85, 65, 100, 165, 135] if pokemon.form == 1
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities, :PIXILATE) if pokemon.form == 1
+		next
+	},
+	"height"=>proc{|pokemon|
+		next 1.6 if pokemon.form == 1
+		next
+	},
+	"weight"=>proc{|pokemon|
+		next 48.4 if pokemon.form == 1
+		next
+	},
+	"onSetForm"=>proc{|pokemon, form|
+		pbSeenForm(pokemon)
+	}
+})
 
 def pbExtractFormsData
 	code = File.open("formExtractor.rb", "r") { |file| file.read }

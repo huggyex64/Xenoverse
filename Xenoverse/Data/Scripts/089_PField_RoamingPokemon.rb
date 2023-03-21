@@ -125,11 +125,13 @@ Events.onWildBattleOverride+= proc { |sender,e|
 
 def pbRoamingPokemonBattle(species,level)
   index=$PokemonTemp.roamerIndex
+  echoln "ENCOUNTERED ROAMER!!!"
+  echoln RoamingSpecies[index][0]
   if $PokemonGlobal.roamPokemon[index] && 
      $PokemonGlobal.roamPokemon[index].is_a?(PokeBattle_Pokemon)
     genwildpoke=$PokemonGlobal.roamPokemon[index]
   else
-    genwildpoke=pbGenerateWildPokemon(species,level)
+    genwildpoke=pbGenerateWildPokemon(species, level, RoamingSpecies[index].length>6 ? RoamingSpecies[index][6] : nil)
   end
   Events.onStartBattle.trigger(nil,genwildpoke)
   scene=pbNewBattleScene

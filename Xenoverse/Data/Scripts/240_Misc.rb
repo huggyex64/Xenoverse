@@ -114,6 +114,19 @@ def pbWildPokemonBattle(pkmn,variable=nil,canescape=true,canlose=false,skipanim=
   $wildSpecies = nil
   return (decision!=2)
 end
+
+if !defined?($MKXP) || !$MKXP
+  class Array
+    def count
+      res = 0
+      for i in self
+        res +=1 if yield i
+      end
+      return res
+    end
+  end
+end
+
 #===============================================================================
 # Start a double wild Pokemon battle
 #===============================================================================
@@ -1154,7 +1167,9 @@ def pbIsMegaStone?(item)
       isConst?(item,PBItems,:SHIFTRYITE) ||
       isConst?(item,PBItems,:BELLOSSOMITE) ||
       isConst?(item,PBItems,:LUXRAYITE) ||
-      isConst?(item,PBItems,:MIENSHAOITE))
+      isConst?(item,PBItems,:MIENSHAOITE) ||
+      isConst?(item,PBItems,:RAMPARDITE) ||
+      isConst?(item,PBItems,:ARCANITE))
     return true
   end
   return false
@@ -1258,7 +1273,7 @@ end
 def pbMirrorBattle(playerside = true)
   $trainerbossbattle = true
   if (playerside)
-    trainer=PokeBattle_Trainer.new(_INTL("Vakum"),$Trainer.gender == 0 ? PBTrainers::VAKUMFINALM : PBTrainers::VAKUMFINALF)
+    trainer=PokeBattle_Trainer.new(_INTL("Vakuum"),$Trainer.gender == 0 ? PBTrainers::VAKUMFINALM : PBTrainers::VAKUMFINALF)
     trainer.setForeignID($Trainer) if $Trainer
     party = []
     for i in 0...$Trainer.party.length
@@ -1271,7 +1286,7 @@ def pbMirrorBattle(playerside = true)
     result = pbBossTrainerBattle([trainer,[],trainer.party],_INTL("..."),true)
   else
     tempTrainer = $Trainer.clone
-    $Trainer=PokeBattle_Trainer.new(_INTL("Vakum"),tempTrainer.gender == 0 ? PBTrainers::VAKUMFINALM : PBTrainers::VAKUMFINALF)
+    $Trainer=PokeBattle_Trainer.new(_INTL("Vakuum"),tempTrainer.gender == 0 ? PBTrainers::VAKUMFINALM : PBTrainers::VAKUMFINALF)
     $Trainer.setForeignID($Trainer) if $Trainer
     party = []
     for i in 0...tempTrainer.party.length

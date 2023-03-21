@@ -125,6 +125,7 @@ begin
     ScorchedAshes= 22
     Benevolence  = 50
     Switch      = 90
+    SupremeOverlord = 69
     # These effects apply to the battle (i.e. both sides)
     Gravity    = 0
     MagicRoom  = 1

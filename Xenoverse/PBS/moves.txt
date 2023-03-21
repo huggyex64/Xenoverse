@@ -722,3 +722,7 @@
 744,SOUNDBARRIER,Fonoscudo,308,0,SUONO,Status,0,15,0,20,0,,"Chi la usa crea un muro che indebolisce per cinque turni le mosse di tipo Volante, Acqua, Fata."
 745,FLAVORTEST,Assaggio,309,100,FAIRY,Physical,100,10,0,00,0,abef,"Chi la usa si fionda sul nemico cercando di assaggiarlo come un dolce. Rigenera un po' di salute. È anche di tipo Ghiaccio."
 746,DIVINEJUDGEMENT,Giudizio Divino,111,255,NORMAL,Special,100,10,0,00,0,,"Due turni dopo l'utilizzo di questa mossa, il bersaglio viene attaccato con energia stellare."
+747,DRAGONENERGY,Dragoenergia,08B,150,DRAGON,Special,100,5,0,04,0,bef,"Il Pokémon attacca i nemici convertendo la propria forza vitale in energia. La potenza della mossa cala man mano che i PS diminuiscono."
+748,THUNDERCAGE,Elettrogabbia,0D0,80,ELECTRIC,Special,90,15,0,00,0,bef,"Il Pokémon attacca il bersaglio imprigionandolo in una gabbia di elettricità, che sprigiona corrente per quattro o cinque turni."
+749,BITTERBLADE,Lama del Rimorso,0DD,90,FIRE,Physical,100,10,0,00,0,be,"Il Pokémon concentra nelle lame tutti i rimorsi accumulati nel mondo dei vivi e assale il bersaglio, recuperando una quantità di PS pari a metà del danno inflitto."
+750,ARMORCANNON,Corazza Cannone,03C,120,FIRE,Special,100,5,0,00,0,abef,"Il Pokémon si libera della sua corazza, scagliandola sul bersaglio come una raffica di proiettili incandescenti. La sua Difesa e la sua Difesa Speciale diminuiscono."

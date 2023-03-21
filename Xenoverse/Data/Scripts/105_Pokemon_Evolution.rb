@@ -30,7 +30,7 @@ module PBEvolution
   LevelDarkInParty  = 28
   LevelRain         = 29
   HappinessMoveType = 30
-  Custom1           = 31
+  Kingambit           = 31
   Custom2           = 32
   Custom3           = 33
   Custom4           = 34
@@ -53,7 +53,7 @@ module PBEvolution
      "ItemMale","ItemFemale","DayHoldItem","NightHoldItem","HasMove",
      "HasInParty","LevelMale","LevelFemale","Location","TradeSpecies",
      "LevelDay","LevelNight","LevelDarkInParty","LevelRain","HappinessMoveType",
-     "Custom1","Custom2","Custom3","Custom4","Custom5","Custom6","Custom7"
+     "Kingambit","Custom2","Custom3","Custom4","Custom5","Custom6","Custom7"
   ]
 
   # 0 = no parameter
@@ -69,7 +69,7 @@ module PBEvolution
      2,2,2,2,3,   # ItemMale, ItemFemale, DayHoldItem, NightHoldItem, HasMove
      4,1,1,1,4,   # HasInParty, LevelMale, LevelFemale, Location, TradeSpecies
      1,1,1,1,5,   # LevelDay, LevelNight, LevelDarkInParty, LevelRain, HappinessMoveType
-     1,1,1,1,1,1,1    # Custom 1-5
+     0,1,1,1,1,1,1    # Custom 1-5
   ]
 end
 
@@ -842,6 +842,11 @@ def pbMiniCheckEvolution(pokemon,evonib,level,poke)
     return -1
   when PBEvolution::XENO
     return poke if $game_map.map_id=96 && pokemon.level>=level
+  when PBEvolution::Kingambit
+    # Add code for custom evolution type 1
+    return poke if $game_map.map_id=564 && pokemon.level>=level && 
+                   $Trainer.party.any? {|p| p.species == PBSpecies::BISHARPX} &&
+                   $Trainer.party.count {|p| p.species == PBSpecies::PAWNIARD} == 4
   when PBEvolution::Custom2
     # Add code for custom evolution type 2
   when PBEvolution::Custom3

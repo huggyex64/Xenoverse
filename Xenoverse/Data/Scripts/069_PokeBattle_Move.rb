@@ -637,6 +637,9 @@ class PokeBattle_Move
 			(pbIsPhysical?(type) || @function==0x122) # Psyshock
 			damagemult=(damagemult*0.5).round
 		end
+		if opponent.hasWorkingAbility(:SOLARPROMINENCE) && !attacker.hasMoldBreaker
+			damagemult=(damagemult*0.7).round
+		end
 		if (attacker.hasWorkingItem(:SILKSCARF) && isConst?(type,PBTypes,:NORMAL)) ||
 			(attacker.hasWorkingItem(:BLACKBELT) && isConst?(type,PBTypes,:FIGHTING)) ||
 			(attacker.hasWorkingItem(:SHARPBEAK) && isConst?(type,PBTypes,:FLYING)) ||
@@ -811,6 +814,9 @@ class PokeBattle_Move
 					damagemult=(damagemult*0.5).round
 					break
 				end
+			end
+			if (opponent.hasWorkingAbility?(:MYSTICWIND))
+				damagemult = (damagemult*0.5).round
 			end
 		end
 		

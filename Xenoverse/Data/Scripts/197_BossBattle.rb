@@ -1364,6 +1364,8 @@ BOSS_LIST = [
   :THUNDURUS,
   :LANDORUS,
   :ENAMORUS,
+
+  :MEWTWO
 ]
 
 NEWBOSSES = [PBSpecies::GRENINJAX,
@@ -1385,7 +1387,8 @@ NEWBOSSES = [PBSpecies::GRENINJAX,
              PBSpecies::TORNADUS,
              PBSpecies::THUNDURUS,
              PBSpecies::LANDORUS,
-             PBSpecies::ENAMORUS]
+             PBSpecies::ENAMORUS,
+             PBSpecies::MEWTWO]
 
 def isAuraDraga?
   ret = false
@@ -2548,6 +2551,26 @@ def pbEnamorusBossBattle
   return result
 end
 
+def pbSecretBossBattle
+  $furiousBattle = true
+  $game_switches[85] = true
+  $mods.set(8, nil, nil)
+  $wildSpecies = PBSpecies::MEWTWO
+
+  pkmn = pbGenerateWildPokemon(PBSpecies::MEWTWO,100)
+  pkmn.form=1
+  pkmn.pbDeleteAllMoves
+  moves = [:REST, :PSYSTRIKE, :NASTYPLOT, :MIRACLEEYE]
+  for m in moves
+    pkmn.pbLearnMove(m)
+  end
+
+  result = pbStartBossBattleMon(pkmn,nil,nil,false)
+  $game_switches[85] = false
+  $furiousBattle = false
+  return result
+end
+
 
 def pbBossTrainerBattle(trainer,endspeech,internalbattle = true)
   #trainer=pbLoadTrainerTournament(trainerid,trainername,trainerparty)
@@ -2697,6 +2720,12 @@ WILDAIMONSTER=
   PBSpecies::LANDORUS => 1318,
   PBSpecies::ENAMORUS => 1318,
 }
+
+ALWAYSWILDAIMONSTER = 
+{  
+  PBSpecies::MEWTWO => true
+}
+
 
 Events.onWildPokemonCreate+=proc {|sender,e|
   pokemon=e[0]

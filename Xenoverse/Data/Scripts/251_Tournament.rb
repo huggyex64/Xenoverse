@@ -2406,14 +2406,14 @@ class PWT
          trainerpool=TRAINERPOOL_basic
          
          #push trey if pass 4 is over
-         trainerpool << ["trey",PBTrainers::TREYTOURNAMENT,"Trey",_INTL("Hmph! La prossima volta vincerò io!"),5] if $game_switches[1330]==true
+         trainerpool << ["trey",PBTrainers::TREYTOURNAMENT,"Trey",_INTL("Hmph! La prossima volta vincerò io!"),5] if $game_switches[1330]==true && $game_switches[1394]==false
 
          @rounds=3
        when 1
          trainerpool=TRAINERPOOL_hard
          
          #push trey if pass 4 is over
-         trainerpool << ["trey",PBTrainers::TREYTOURNAMENT,"Trey",_INTL("Hmph! La prossima volta vincerò io!"),5] if $game_switches[1330]==true
+         trainerpool << ["trey",PBTrainers::TREYTOURNAMENT,"Trey",_INTL("Hmph! La prossima volta vincerò io!"),5] if $game_switches[1330]==true && $game_switches[1394]==false
          
          @rounds=4
        when 2

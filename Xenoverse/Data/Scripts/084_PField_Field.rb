@@ -1217,9 +1217,13 @@ def pbGetEnvironment
   end
 end
 
-def pbGenerateWildPokemon(species,level)
+def pbGenerateWildPokemon(species,level,item=nil)
   genwildpoke=PokeBattle_Pokemon.new(species,level,$Trainer)
-  items=genwildpoke.wildHoldItems
+  if item == nil
+    items=genwildpoke.wildHoldItems
+  else
+    items = [nil,nil,nil]
+  end
 	#Hidden ability chance
 	if rand(100)<=3 && ![PBSpecies::TRISHOUT,PBSpecies::SHULONG,PBSpecies::SHYLEON].include?(species)
 		genwildpoke.setAbility(2)
@@ -1235,6 +1239,14 @@ def pbGenerateWildPokemon(species,level)
   elsif itemrnd<(chances[0]+chances[1]+chances[2])
     genwildpoke.setItem(items[2])
   end
+
+  if item != nil    
+    if item.is_a?(String) || item.is_a?(Symbol)
+      item=getID(PBItems,item)
+    end
+    genwildpoke.setItem(item)
+  end
+
   if $treasureHook
     #genwildpoke.makeShiny if (rand(50)==1)
     for i in 0...164 #=> Basically 1/50 chance

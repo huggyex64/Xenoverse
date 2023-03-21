@@ -19,6 +19,7 @@ begin
       @effects[PBEffects::Hawthorns] = false
       @effects[PBEffects::ScorchedAshes] = false
       @effects[PBEffects::Benevolence] = 0
+      @effects[PBEffects::SupremeOverlord] = 0
     end
   end
 

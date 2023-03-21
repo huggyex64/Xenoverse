@@ -2415,6 +2415,13 @@ MultipleForms.register(:GROWLITHE,{
 })
 
 MultipleForms.register(:ARCANINE,{
+  "getMegaForm"=>proc{|pokemon|
+		next 2 if isConst?(pokemon.item,PBItems,:ARCANITE) && pokemon.form == 0
+		next
+	},
+	"getUnmegaForm"=>proc{|pokemon|
+		next 0 if pokemon.form == 2
+	},
   "getFormOnCreation"=>proc{|pokemon|
     if $game_map && [633,634].include?($game_map.map_id)
       next 1 #HISUI FORM
@@ -2424,18 +2431,31 @@ MultipleForms.register(:ARCANINE,{
   },
 	"type2"=>proc{|pokemon|
 		next getID(PBTypes,:ROCK) if pokemon.form == 1
+		next getID(PBTypes,:FAIRY) if pokemon.form == 2
+		next
+	},
+  "getMegaName"=>proc{|pokemon|
+		next _INTL("Mega Arcanine") if pokemon.form == 2
 		next
 	},
 	"getBaseStats"=>proc{|pokemon|
 		next [90,115,80,90,95,80] if pokemon.form==1
+		#     +10  0    0   +60  +30  0
+		next [100, 110, 80, 155, 130, 80] if pokemon.form == 2
+		next
+	},
+	"ability"=>proc{|pokemon|
+		next getID(PBAbilities, :SOLARPROMINENCE) if pokemon.form == 2 #fix
 		next
 	},
 	"height"=>proc{|pokemon|
 		next 2.0 if pokemon.form == 1
+		next 2.3 if pokemon.form == 2
 		next
 	},
 	"weight"=>proc{|pokemon|
 		next 168.0 if pokemon.form == 1
+		next 145.0 if pokemon.form == 2
 		next
 	},
   "getMoveCompatibility"=>proc{|pokemon|
@@ -2464,5 +2484,8 @@ MultipleForms.register(:ARCANINE,{
   "wildHoldItems"=>proc{|pokemon|
     next if pokemon.form==0                 # Standard
     next [0,getID(PBItems,:ANCIENTSTONE),0] # Hisui
-  }
+  },
+	"onSetForm"=>proc{|pokemon, form|
+		pbSeenForm(pokemon)
+	}
 })

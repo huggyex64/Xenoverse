@@ -694,6 +694,20 @@ class PokeBattle_Battler
 		return amt
 	end
 	
+	def attack
+		if hasWorkingAbility?(:SUPREMEOVERLORD)
+			return @attack + (@attack * 0.1 * pbOwnSide().effects[PBEffects::SupremeOverlord]).round
+		end
+		return @attack
+	end
+
+	def spatk
+		if hasWorkingAbility?(:SUPREMEOVERLORD)
+			return @spatk + (@spatk * 0.1 * pbOwnSide().effects[PBEffects::SupremeOverlord]).round
+		end
+		return @spatk
+	end
+
 	def pbFaint(showMessage=true)
 		PBDebug.log("#{pbThis} HAS FAINTED! IS IT FOR REAL?")
 		if !self.isFainted?
@@ -712,6 +726,8 @@ class PokeBattle_Battler
 		if @pokemon && @battle.internalbattle
 			@pokemon.changeHappiness("faint")
 		end
+		# add counter to Supreme Overlord
+		pbOwnSide().effects[PBEffects::SupremeOverlord]+=1
 		# reset mega
 		@pokemon.makeUnmega
 		@fainted=true

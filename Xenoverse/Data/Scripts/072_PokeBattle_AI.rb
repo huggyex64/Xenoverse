@@ -1872,7 +1872,7 @@ class PokeBattle_Battle
       if opponent.effects[PBEffects::MiracleEye]
         score-=90
       elsif opponent.pbHasType?(:DARK)
-        score+=70
+        score+=7000
       elsif opponent.stages[PBStats::EVASION]<=0
         score-=60
       end
@@ -3788,7 +3788,9 @@ class PokeBattle_Battle
     target=-1
     skill=0
     wildbattle=!@opponent && pbIsOpposing?(index)
-    if wildbattle && !(WILDAIMONSTER.keys.include?(attacker.species) && $game_switches[WILDAIMONSTER[attacker.species]]) # If wild battle
+    if wildbattle &&
+       !(ALWAYSWILDAIMONSTER.keys.include?(attacker.species) && ALWAYSWILDAIMONSTER[attacker.species]) &&
+       !(WILDAIMONSTER.keys.include?(attacker.species) && $game_switches[WILDAIMONSTER[attacker.species]]) # If wild battle
       for i in 0...4
         if pbCanChooseMove?(index,i,false)
           echoln "Can choose #{i}"
@@ -3801,6 +3803,8 @@ class PokeBattle_Battle
       if WILDAIMONSTER.keys.include?(attacker.species) && $game_switches[WILDAIMONSTER[attacker.species]] # If wild battle
         skill=127
         echoln "ACTIVATING MONSTER AI WOOHOO"
+      elsif ALWAYSWILDAIMONSTER.keys.include?(attacker.species) && ALWAYSWILDAIMONSTER[attacker.species]
+        skill=127
       else
         skill=pbGetOwner(attacker.index).skill || 0
       end
