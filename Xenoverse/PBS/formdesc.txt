@@ -542,3 +542,17 @@ DESCRIPTION=(Stile Ozelash)\n Quando si mette a sputare fuoco, il sonaglio infuo
 DESCRIPTION=(Stile Salabel)\n Con la fiamma della coda brucia i fluidi corporei generati dalle sue sacche di veleno, producendo un gas velenoso.
 [178_1]
 DESCRIPTION=(Stile Queccha)\n Pokémon enigmatico che vede il passato e prevede il futuro osservando il sole tutto il giorno.
+[94_1]
+DESCRIPTION=(MegaEvoluzione)\n Si è risvegliato grazie alla megaevoluzione. Si nasconde in una dimensione parallela aspettando il momento giusto per attaccare.
+[334_1]
+DESCRIPTION=(MegaEvoluzione)\n Quando si affeziona a una persona, la avvolge nelle sue soffici ali e inizia a canticchiare.
+[150_2]
+DESCRIPTION=(MegaEvoluzione)\n I suoi muscoli sono potenziati dai poteri psichici e può percorrere 100 m in due secondi. La sua stretta esercita una pressione di una tonnellata.
+[409_1]
+DESCRIPTION=(MegaEvoluzione)\n Le masse rocciose nel suo corpo si sono espanse al punto da schiacciare gli organi interni, e per questo motivo è impazzito.
+[59_2]
+DESCRIPTION=(MegaEvoluzione)\n L'energia della MegaEvoluzione ha reso il suo corpo un tizzone ardente che lo rende potentissimo, ma finirà per diventare cenere.
+[282_1]
+DESCRIPTION=(MegaEvoluzione)\n Per proteggere l’Allenatrice o l’Allenatore dal pericolo, utilizza tutti i poteri psichici di cui dispone per creare un piccolo buco nero.
+[157_2]
+DESCRIPTION=(Forma di Hisui)\n Reputo l'atmosfera del monte sacro che si erge nel cuore di Hisui causa del suo mutato aspetto. Si dice mondi le anime smarrite con le proprie vampe per condurle verso l'aldilà.

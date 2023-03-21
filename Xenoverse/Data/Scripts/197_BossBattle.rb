@@ -146,7 +146,10 @@ def isXSpecies?(species)
     isConst?(species,PBSpecies,:GRENINJAX)||
     isConst?(species,PBSpecies,:DITTOX) ||
     isConst?(species,PBSpecies,:AEGISLASHX)||
-    isConst?(species,PBSpecies,:DRAGALISKFURIA)
+    isConst?(species,PBSpecies,:DRAGALISKFURIA)||
+    isConst?(species,PBSpecies,:SHYLEONP)||
+    isConst?(species,PBSpecies,:TRISHOUTP)||
+    isConst?(species,PBSpecies,:SHULONGP)
 end
   
 SPECIEX = [
