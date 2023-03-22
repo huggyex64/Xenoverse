@@ -1184,6 +1184,13 @@ BATTLE_POINT_PRICES = {
   PBItems::LUCARITE => 50,
   PBItems::LUXRAYITE => 50,
   PBItems::MIENSHAOITE => 50,
+  
+  PBItems::RAMPARDITE => 50,
+  PBItems::ARCANITE => 50,
+  PBItems::GENGARITE => 50,
+  PBItems::GARDEVOIRITE => 50,
+  PBItems::ALTARIANITE => 50,
+  PBItems::MEWTWONITEX => 50,
 }
 #Tutors:
 #Tutor 1: :DRAGONENDURANCE,:VELVETSCALES,:ACIDRAIN,:TAILWIND,:OUTRAGE,:AIRCUTTER,:HURRICANE
@@ -1232,7 +1239,8 @@ end
 
 def pbGetMegaShopList()
   list = [:VENUSAURITE,:BLASTOISINITE,:CHARIZARDITET,:CHARIZARDITEX,:WEAVILITE,:ABSOLITE,:MAWILITE,:ALAKAZITE,
-          :HERACRONITE,:TYRANITARITE,:BLAZIKENITE,:SWAMPERTITE,:GARCHOMPITE]
+          :HERACRONITE,:TYRANITARITE,:BLAZIKENITE,:SWAMPERTITE,:GARCHOMPITE,
+          :ALTARIANITE,:GARDEVOIRITE]
   list.push(:SCEPTILITE) if $game_switches[1176]==true
   list.push(:BELLOSSOMITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::ERIKATOURNAMENT,"Erika"]]]==true
   list.push(:AUDINITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::LEOTOURNAMENT,"Leo"]]]==true
@@ -1242,6 +1250,11 @@ def pbGetMegaShopList()
   list.push(:SCIZORITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::SOTISTOURNAMENT,"Sotis"]]]==true
   list.push(:LUXRAYITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::STELLATOURNAMENT,"Stella"]]]==true
   list.push(:MIENSHAOITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::GRETATOURNAMENT,"Valentina"]]]==true
+  
+  list.push(:ARCANITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::SOLETOURNAMENT,"Sole"]]] == true
+  list.push(:RAMPARDITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::LINNEATOURNAMENT,"Lin & Nea"]]] == true
+  list.push(:GENGARITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::VELIATOURNAMENT,"Velia"]]] == true
+  list.push(:MEWTWONITEX) if $game_switches[1800]
   return list
 end
 
@@ -1501,6 +1514,26 @@ GRETAPOOL=[
   ["valentina",PBTrainers::GRETATOURNAMENT,"Valentina",_INTL("Ancora niente..."),10],
 ]
 
+VELIAPOOL=[
+  ["velia",PBTrainers::VELIATOURNAMENT,"Velia",_INTL("Che assolo fantastico!"),10],
+]
+
+LINNEAPOOL=[
+  ["lin&nea",PBTrainers::LINNEATOURNAMENT,"Lin & Nea",_INTL("Lin: Che diamine fai, Nea!\nNea: Hah, come se fosse colpa mia!"),10],
+]
+
+SOLEPOOL=[
+  ["lance",PBTrainers::LANCETOURNAMENT,"Lance",_INTL("Pare che il mio lungo allenamento non sia bastato..."),10],
+  ["Dante",PBTrainers::DANTETOURNAMENT,"Dante",_INTL("La prossima volta non andrà così!"),10],
+  ["Leo",PBTrainers::LEOTOURNAMENT,"Leo",_INTL("Cavoli!"),10],
+  ["Erika",PBTrainers::ERIKATOURNAMENT,"Erika",_INTL("Perbacco, chi l'avrebbe mai detto?"),10],
+  ["Stella",PBTrainers::STELLATOURNAMENT,"Stella",_INTL("Incredibile! Sei abbagliante!"),10],
+  ["clawman",PBTrainers::SOTISTOURNAMENT,"Sotis",_INTL("Devo impegnarmi di più se voglio sconfiggere Masquerman...!"),10],
+  ["Iridio",PBTrainers::GLADIONTOURNAMENT,"Iridio",_INTL("Forse dovrei ricominciare ad allenarmi?"),10],
+  ["valentina",PBTrainers::GRETATOURNAMENT,"Valentina",_INTL("Ancora niente..."),10],
+  ["sole",PBTrainers::SOLETOURNAMENT,"Sole",_INTL("...!"),11],
+]
+
 
 #Implementing standard trainers in VIP-specific Pools
 for i in STANDARD_POOL
@@ -1512,6 +1545,8 @@ for i in STANDARD_POOL
   SOTISPOOL << i if !SOTISPOOL.include?(i)
   GLADIONPOOL << i if !GLADIONPOOL.include?(i)
   GRETAPOOL << i if !GRETAPOOL.include?(i)
+  VELIAPOOL << i if !VELIAPOOL.include?(i)
+  LINNEAPOOL << i if !LINNEAPOOL.include?(i)
 end
 
 
@@ -1523,7 +1558,10 @@ VIPLIST =[
   [PBTrainers::STELLATOURNAMENT,"Stella"],
   [PBTrainers::SOTISTOURNAMENT,"Sotis"],
   [PBTrainers::GRETATOURNAMENT,"Valentina"],
-  [PBTrainers::GLADIONTOURNAMENT,"Iridio"]
+  [PBTrainers::GLADIONTOURNAMENT,"Iridio"],
+  [PBTrainers::SOLETOURNAMENT,"Sole"],
+  [PBTrainers::VELIATOURNAMENT,"Velia"],
+  [PBTrainers::LINNEATOURNAMENT,"Lin & Nea"]
 ]
 
 VIPCUPSWITCH = {
@@ -1534,7 +1572,10 @@ VIPCUPSWITCH = {
   [PBTrainers::STELLATOURNAMENT,"Stella"] => 1344,
   [PBTrainers::SOTISTOURNAMENT,"Sotis"] => 1346,
   [PBTrainers::GRETATOURNAMENT,"Valentina"] => 1347,
-  [PBTrainers::GLADIONTOURNAMENT,"Iridio"] => 1345
+  [PBTrainers::GLADIONTOURNAMENT,"Iridio"] => 1345,
+  [PBTrainers::SOLETOURNAMENT,"Sole"] => 1650,
+  [PBTrainers::VELIATOURNAMENT,"Velia"] => 1651,
+  [PBTrainers::LINNEATOURNAMENT,"Lin & Nea"] => 1652
 }
 
 VIPSPEECH={
@@ -1586,7 +1627,24 @@ VIPSPEECH={
     :speech => "Sono venuto in questa regione per affari, ma ogni tanto è bello rievocare i vecchi tempi! Sappi che sono molto forte, diamoci dentro!",
     :description => ["Dopo ciò che è accaduto a sua madre, ha preso le redini dell'Aether Paradise facendolo fiorire!","Il peso delle responsabilità lo ha reso un uomo imperturbabile!","L'abilissimo Iridio!"]
   },
-
+  [PBTrainers::VELIATOURNAMENT,"Velia"] => {
+    :mugshot => "apollo/velia",
+    :name => _INTL("Velia"),
+    :speech => "Preferirei suonare la mia chitarra piuttosto di perdere tempo a lottare... ma per accedere a palchi del genere, non posso tirarmi indietro!",
+    :description => ["Nonostante una volta fosse più molto più accesa e vivace, il suo carattere ha cambiato genere musicale!","Preferisce rilassarsi e suonare la chitarra, ma con le sue strategie velenose attera ogni nemico!","L'ingegnosa e astuta, Velia!"]
+  },
+  [PBTrainers::LINNEATOURNAMENT,"Lin & Nea"] => {
+    :mugshot => "apollo/linnea",
+    :name => _INTL("Lin & Nea"),
+    :speech => "Ehi tu! Non credere di poterci fermare! Se c'è una cosa che accomuna noi due, è la perseveranza!",
+    :description => ["Dalla lontana Sinnoh, i due incredibili archeologhi che scavarono il Tunnel Rovine in pochissimo tempo!","Questi due gemelli sono in continua competizione, e nonostante ciò si guardano le spalle l'un l'altro!","La coppia che scoppia, Lin e Nea!"]
+  },
+  [PBTrainers::SOLETOURNAMENT,"Sole"] => {
+    :mugshot => "apollo/sole",
+    :name => _INTL("Sole"),
+    :speech => "Se c'è una regione che non conosco, devo assolutamente esplorarla! Dopo tutto, devo acchiapparli tutti! Mi sbaglio?",
+    :description => ["Le sue gesta hanno fatto il giro del mondo! Alla sua età ha già sconfitto svariati ","Il peso delle responsabilità lo ha reso un uomo imperturbabile!","L'abilissimo Iridio!"]
+  }
 }
 
 MUSTINCLUDE = {
@@ -1598,6 +1656,9 @@ MUSTINCLUDE = {
   SOTISPOOL => [PBTrainers::SOTISTOURNAMENT,"Sotis"],
   GRETAPOOL => [PBTrainers::GRETATOURNAMENT,"Valentina"],
   GLADIONPOOL => [PBTrainers::GLADIONTOURNAMENT,"Iridio"],
+  VELIAPOOL => [PBTrainers::VELIATOURNAMENT,"Velia"],
+  LINNEAPOOL => [PBTrainers::LINNEATOURNAMENT,"Lin & Nea"],
+  SOLEPOOL => [PBTrainers::SOLETOURNAMENT,"Sole"],
 }
 
 SKILL_LEVELS={
@@ -1610,6 +1671,9 @@ SKILL_LEVELS={
   PBTrainers::SOTISTOURNAMENT=>127,
   PBTrainers::GRETATOURNAMENT=>127,
   PBTrainers::GLADIONTOURNAMENT=>127,
+  PBTrainers::VELIATOURNAMENT=>127,
+  PBTrainers::LINNEATOURNAMENT=>127,
+  PBTrainers::SOLETOURNAMENT=>127,
 
   #SPECIAL
   PBTrainers::WILLTOURNAMENT=>127,

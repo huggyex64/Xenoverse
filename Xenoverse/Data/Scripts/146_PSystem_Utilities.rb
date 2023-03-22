@@ -860,6 +860,7 @@ module ItemStorageHelper
 					items.sort! if POCKETAUTOSORT[$ItemData[item][ITEMPOCKET]]
 				end
 				pbCheckBallsInBag
+				pbCheckAllMegaStones
 				return true if qty==0
 			elsif itemslot[0]==item && itemslot[1]<maxPerSlot
 				newamt=itemslot[1]
@@ -867,6 +868,7 @@ module ItemStorageHelper
 				qty-=(newamt-itemslot[1])
 				itemslot[1]=newamt
 				pbCheckBallsInBag
+				pbCheckAllMegaStones
 				return true if qty==0
 			end
 		end

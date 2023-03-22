@@ -169,7 +169,7 @@ class Credits
 =end
 		#@creditsBitmap.export("Credits")
     echoln @sprites["credits"].bitmap.height
-    pbBGMPlay(CreditsMusic)
+    pbBGMPlay(alternative ? "creditsdlc" : CreditsMusic)
     self.showCredits
   end
   

@@ -751,6 +751,20 @@ def pbCheckBallsInBag
 	$achievements["Ball"].progress=1
 end
 
+def pbCheckAllMegaStones
+  return if !$PokemonBag || $achievements["Mega"].completed
+	ballList = [:ABSOLITE,:ALAKAZITE,:AUDINITE,:BELLOSSOMITE,:BLASTOISINITE,:BLAZIKENITE,
+  :CHARIZARDITET,:CHARIZARDITEX,:ENTEITE,:GARCHOMPITE,:HERACRONITE,:LUCARITE,:LUXRAYITE,
+  :MAWILITE,:MIENSHAOITE,:RAIKOUITE,:SCEPTILITE,:SCIZORITE,:SHIFTRYITE,:SUICUNITE,:SWAMPERTITE,
+  :TYRANITARITE,:VENUSAURITE,:WEAVILITE,:RAMPARDITE,:ARCANITE,:GENGARITE,:GARDEVOIRITE,
+  :ALTARIANITE,:MEWTWONITEX]
+	for i in ballList
+		return if $PokemonBag.pbQuantity(getConst(PBItems,i))<=0
+	end
+	#if i'm here it means i have all the balls
+	$achievements["Mega"].progress=1
+end
+
 def pbCheckBremandForms
 	return if !$Trainer || $achievements["Orchestra"].completed
 	ret = [false,false,false,false]
