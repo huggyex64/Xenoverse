@@ -463,3 +463,43 @@ title = Fra milioni di stelle
 description = Riconquista di nuovo la vetta del Monte Zodiaco.
 amount = 1
 image = 93_milioni
+[Valter]
+title = The Song of Memory
+description = Sconfiggi Vakuum definitivamente.
+amount = 1
+image = 94_valter
+[Furiose]
+title = Battaglie Furiose
+description = Concludi con successo il Pass 5.
+amount = 1
+image = 95_furiose
+[Segreto]
+title = Boss Segreto
+description = Scopri il segreto del Bunker ed ottieni Mewtwo.
+amount = 1
+image = 96_segreto
+[Claudiolumen]
+title = Il passaggio della staffetta
+description = Riconquista per l'ultima volta la vetta del Monte Zodiaco.
+amount = 1
+image = 97_claudiolumen
+[Anomalia]
+title = Il segreto del Sentiero Rosa
+description = Ottieni il Pokémon Reginalous.
+amount = 1
+image = 98_anomalia
+[Velia]
+title = Raggiungere il Nirvana
+description = Sconfiggi Velia nel Torneo Apollo.
+amount = 1
+image = 99_velia
+[Linnea]
+title = Gemelli Diversi
+description = Sconfiggi Lin & Nea nel Torneo Apollo.
+amount = 1
+image = 100_linnea
+[LeggendaSole]
+title = Il più forte di tutti
+description = Sconfiggi Sole nel Torneo Apollo.
+amount = 1
+image = 101_sole
