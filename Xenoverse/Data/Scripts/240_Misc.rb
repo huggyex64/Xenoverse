@@ -1304,13 +1304,15 @@ class Window_BrailleBox < Window_UnformattedTextPokemon
 end
 
 def pbDisplayBrailleText(text = "",height = -1)
+  linesCount = ((text.length/17) -4 > 0 )? ((text.length/17)-4) : 0
+  echoln "Count #{(text.length/17)-4}-#{linesCount}-#{text.length/17}-#{text.length}"
 
   @sprites = {}    
   @sprites["itemtextwindow"]=Window_BrailleBox.new("")
   @sprites["itemtextwindow"].x=36
-  @sprites["itemtextwindow"].y=72
+  @sprites["itemtextwindow"].y=72 - linesCount*25
   @sprites["itemtextwindow"].width=Graphics.width-72
-  @sprites["itemtextwindow"].height=228
+  @sprites["itemtextwindow"].height=228 + linesCount * 50
   @sprites["itemtextwindow"].baseColor=Color.new(42,42,42)
   @sprites["itemtextwindow"].shadowColor=Color.new(0,0,0,0)
   @sprites["itemtextwindow"].visible=true
@@ -1337,6 +1339,7 @@ def pbDisplayBrailleText(text = "",height = -1)
     Graphics.update
   }
   pbDisposeSpriteHash(@sprites)
+  pbWait(5)
 end
 
 REGICE_SWITCH = 1421
