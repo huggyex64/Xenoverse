@@ -974,22 +974,53 @@ def Kernel.pbCanUseHiddenMove?(pkmn,move)
       return HiddenMoveHandlers.triggerCanUseMove(move,pkmn)
     end
 =end
+	when PBMoves::STRENGTH
+		if $game_map.map_id == 684 && $game_player.x == 20 && $game_player.y == 15 && !$game_switches[1420]
+			Kernel.pbMessage(_INTL("You can hear a crumbling sound."))
+			pbSEPlay("Explosion1")
+			$game_switches[1420] = true
+			$game_map.refresh
+			return false
+		end
 	when PBMoves::ROCKSMASH
 		terrain=Kernel.pbFacingTerrainTag
 		facingEvent=$game_player.pbFacingEvent
+		echoln "MAP INFO #{$game_map.map_id} - X:#{$game_player.x} Y:#{$game_player.y}"
+		if $game_map.map_id == 680 && $game_player.x == 20 && $game_player.y == 21 && !$game_switches[1419]
+			Kernel.pbMessage(_INTL("You can hear a crumbling sound."))
+			pbSEPlay("Explosion1")
+			$game_switches[1419] = true
+			$game_map.refresh
+			return false
+		end
 		if !facingEvent || facingEvent.name!="Rock"
 			Kernel.pbMessage(_INTL("Can't use that here."))
 			return false
 		end
 		return true
-	when PBMoves::CUT
-      facingEvent=$game_player.pbFacingEvent
-      if !facingEvent || facingEvent.name!="Tree"
-        Kernel.pbMessage(_INTL("Can't use that here."))
-        return false
-      end
+	when PBMoves::CUT		
+	  	if pbHasSpecies?(:BANDEON) && $game_map.map_id == 686 &&
+			$game_player.x == 20 && $game_player.y == 15 && !$game_switches[1421]
+			Kernel.pbMessage(_INTL("You can hear a crumbling sound."))
+			pbSEPlay("Explosion1")
+			$game_switches[1420] = true
+			$game_map.refresh
+			return false
+		end
+		facingEvent=$game_player.pbFacingEvent
+		if !facingEvent || facingEvent.name!="Tree"
+			Kernel.pbMessage(_INTL("Can't use that here."))
+			return false
+		end
 		return true
 	when PBMoves::SURF
+		if $game_map.map_id == 684 && $game_player.x == 20 && $game_player.y == 15 && !$game_switches[1421]
+			Kernel.pbMessage(_INTL("You can hear a crumbling sound."))
+			pbSEPlay("Explosion1")
+			$game_switches[1420] = true
+			$game_map.refresh
+			return false
+		end
 		terrain=Kernel.pbFacingTerrainTag
 		if !$DEBUG && !$Trainer.badges[BADGEFORSURF]
 			Kernel.pbMessage(_INTL("Sorry, a new Badge is required."))

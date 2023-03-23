@@ -1221,6 +1221,11 @@ def pbHeracliumN
 end
 
 def pbPerseumN
+	if $game_map.id == 680 && $game_player.x == 20 && $game_player.y == 21
+		Kernel.pbMessage(_INTL("Senti un rumore da qualche parte.[dispose]"))
+		$game_switches[1419] = true
+		return false
+	end
 	if $DEBUG || $game_switches[190]==true
 		movefinder=PokeBattle_Pokemon.new(328,5)
 		if $DEBUG || movefinder
