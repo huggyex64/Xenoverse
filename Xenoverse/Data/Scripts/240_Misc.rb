@@ -1331,11 +1331,10 @@ def pbDisplayBrailleText(text = "",height = -1)
   end
 
   #pbFadeOutAndHide(@sprites)
-  @sprites.each {|x|
-    for i in 0..15
-      x.opacity-=255/15
-    end
+  @sprites.values.each {|x|
+    x.opacity=0
     x.dispose
+    Graphics.update
   }
   pbDisposeSpriteHash(@sprites)
 end
