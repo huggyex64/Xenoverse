@@ -813,7 +813,8 @@ class MNScene
 				@index=4
 				@sprites["cursor"].x=431
 			end
-			if Input.trigger?(Input::C)
+			if Input.trigger?(Input::C)				
+				regi = false
 				if @index==0
 					if $game_switches[186]==true
 						#func cut
@@ -821,17 +822,29 @@ class MNScene
 						movefinder=PokeBattle_Pokemon.new(123,5)
 						if !Kernel.pbCanUseHiddenMove?(movefinder,:CUT)
 						else
-							if @scene
+							if @scene						
+								regi = handleRegi(REGISTEEL_SWITCH){	
+									r = 0
+									26.times do
+										r += 255/25
+										Graphics.update
+										@viewport.color = Color.new(0,0,0,r)
+									end									
+									Kernel.pbUseHiddenMove(movefinder,:STRENGTH)
+								}
 								fendscene
 							else
 								r = 0
-								25.times do
+								26.times do
 									r += 255/25
 									Graphics.update
 									@viewport.color = Color.new(0,0,0,r)
 								end
+								regi = handleRegi(REGISTEEL_SWITCH){										
+									Kernel.pbUseHiddenMove(movefinder,:STRENGTH)
+								}
 							end
-							Kernel.pbUseHiddenMove(movefinder,:CUT)
+							Kernel.pbUseHiddenMove(movefinder,:CUT) if !regi
 							break if !@scene
 						end
 					else
@@ -839,37 +852,66 @@ class MNScene
 					end
 				elsif @index==1
 					if $game_switches[187]==true
-						if !([335,564,565,566,614,615,616,617,618].include?($game_map.map_id)) && $game_switches[990]==false
-							if !val
-								Kernel.pbMessage(_INTL("Non puoi usare volo in ambienti chiusi!"))
-							else
-								#func fly
+						movefinder=PokeBattle_Pokemon.new(PBSpecies::SCALEON,5)
+						if Kernel.pbCanUseHiddenMove?(movefinder,:FLY)
+							if defined?($regiSpecial) && $regiSpecial
 								pbPlayDecisionSE()
 								movefinder=PokeBattle_Pokemon.new(2005,5)
 								if @scene
+									regi = handleRegi(REGIDRAGO_SWITCH){	
+										r = 0
+										26.times do
+											r += 255/25
+											Graphics.update
+											@viewport.color = Color.new(0,0,0,r)
+										end									
+										pbHiddenMoveAnimation(movefinder)
+									}
 									fendscene
 								else
 									r = 0
-									25.times do
+									26.times do
 										r += 255/25
 										Graphics.update
 										@viewport.color = Color.new(0,0,0,r)
 									end
-								end
-								scene=PokemonRegionMapScene.new(-1,false)
-								screen=PokemonRegionMap.new(scene)
-								ret=screen.pbStartFlyScreen
-								if ret
-									$PokemonTemp.flydata=ret
-									Kernel.pbUseHiddenMove(movefinder,:FLY)
-									break
+									regi = handleRegi(REGIDRAGO_SWITCH){										
+										pbHiddenMoveAnimation(movefinder)
+									}
+								end								
+								break if !@scene
+							elsif !([335,564,565,566,614,615,616,617,618].include?($game_map.map_id)) && $game_switches[990]==false
+								if !val
+									Kernel.pbMessage(_INTL("Non puoi usare volo in ambienti chiusi!"))
 								else
-									if @viewport!=nil && !@scene
-										r=255
+									#func fly
+									pbPlayDecisionSE()
+									movefinder=PokeBattle_Pokemon.new(2005,5)
+									if @scene
+										fendscene
+									else
+										r = 0
 										25.times do
-											r -= 255/25
+											r += 255/25
 											Graphics.update
 											@viewport.color = Color.new(0,0,0,r)
+										end
+									end
+									scene=PokemonRegionMapScene.new(-1,false)
+									screen=PokemonRegionMap.new(scene)
+									ret=screen.pbStartFlyScreen
+									if ret
+										$PokemonTemp.flydata=ret
+										Kernel.pbUseHiddenMove(movefinder,:FLY)
+										break
+									else
+										if @viewport!=nil && !@scene
+											r=255
+											25.times do
+												r -= 255/25
+												Graphics.update
+												@viewport.color = Color.new(0,0,0,r)
+											end
 										end
 									end
 								end
@@ -884,21 +926,29 @@ class MNScene
 					if $game_switches[188]==true
 						#func surf
 						pbPlayDecisionSE()
-						movefinder=PokeBattle_Pokemon.new(131,5)
+						movefinder=PokeBattle_Pokemon.new(PBSpecies::LAPRAS,5)
 						if Kernel.pbCanUseHiddenMove?(movefinder,:SURF)
 							if @scene
+								regi = handleRegi(REGICE_SWITCH){	
+									r = 0
+									26.times do
+										r += 255/25
+										Graphics.update
+										@viewport.color = Color.new(0,0,0,r)
+									end											
+									pbHiddenMoveAnimation(movefinder)
+								}
 								fendscene
-							else
-								r = 0
-								26.times do
-									r += 255/25
-									Graphics.update
-									@viewport.color = Color.new(0,0,0,r)
-								end
+							else								
+								regi = handleRegi(REGICE_SWITCH){									
+									pbHiddenMoveAnimation(movefinder)
+								}
 							end
 							echoln Kernel.pbCanUseHiddenMove?(movefinder,:SURF)
 							#Fix for surf from shortcut
-							@scenemap.surfProc = Proc.new { Kernel.pbUseHiddenMove(movefinder,:SURF) if Kernel.pbCanUseHiddenMove?(movefinder,:SURF)} if @scenemap
+							if !regi
+								@scenemap.surfProc = Proc.new { Kernel.pbUseHiddenMove(movefinder,:SURF) if Kernel.pbCanUseHiddenMove?(movefinder,:SURF)} if @scenemap
+							end							
 							break if !@scene
 						end
 					else
@@ -912,16 +962,24 @@ class MNScene
 						if !Kernel.pbCanUseHiddenMove?(movefinder,:STRENGTH)
 						else
 							if @scene
+								regi = handleRegi(REGISTEEL_SWITCH){
+									r = 0
+									26.times do
+										r += 255/25
+										Graphics.update
+										@viewport.color = Color.new(0,0,0,r)
+									end									
+									Kernel.pbUseHiddenMove(movefinder,:STRENGTH)
+								}
 								fendscene
 							else
-								r = 0
-								25.times do
-									r += 255/25
-									Graphics.update
-									@viewport.color = Color.new(0,0,0,r)
-								end
+								
+								regi = handleRegi(REGISTEEL_SWITCH){									
+									Kernel.pbUseHiddenMove(movefinder,:STRENGTH)
+								}
+
 							end
-							Kernel.pbUseHiddenMove(movefinder,:STRENGTH)
+							Kernel.pbUseHiddenMove(movefinder,:STRENGTH) if !regi
 							break if !@scene
 						end
 					else
@@ -935,16 +993,29 @@ class MNScene
 						if !Kernel.pbCanUseHiddenMove?(movefinder,:ROCKSMASH)
 						else
 							if @scene
+								regi = handleRegi(REGIROCK_SWITCH){
+									r = 0
+									26.times do
+										r += 255/25
+										Graphics.update
+										@viewport.color = Color.new(0,0,0,r)
+									end					
+									Kernel.pbUseHiddenMove(movefinder,:ROCKSMASH)
+								}
 								fendscene
 							else
 								r = 0
-								25.times do
+								26.times do
 									r += 255/25
 									Graphics.update
 									@viewport.color = Color.new(0,0,0,r)
 								end
+								regi = handleRegi(REGIROCK_SWITCH){									
+									Kernel.pbUseHiddenMove(movefinder,:ROCKSMASH)
+								}
 							end
-							Kernel.pbUseHiddenMove(movefinder,:ROCKSMASH)
+							Kernel.pbUseHiddenMove(movefinder,:ROCKSMASH) if !regi
+							
 							break if !@scene
 						end
 					else
@@ -960,6 +1031,19 @@ class MNScene
 		self.endscene
 	end
 	
+	def handleRegi(var)
+		if defined?($regiSpecial) && $regiSpecial
+			yield
+			pbSEPlay("Explosion1")
+			Kernel.pbMessage(_INTL("You can hear a crumbling sound."))
+			$game_switches[var] = true
+			$game_map.refresh
+			$regiSpecial=false
+			return true
+		end
+		return false
+	end
+
 	def update
 		@frames+=1
 		@sprites["scaleon"].update

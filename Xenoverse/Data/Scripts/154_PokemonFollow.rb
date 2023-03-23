@@ -975,23 +975,23 @@ def Kernel.pbCanUseHiddenMove?(pkmn,move)
     end
 =end
 	when PBMoves::STRENGTH
-		if $game_map.map_id == 684 && $game_player.x == 20 && $game_player.y == 15 && !$game_switches[1420]
-			Kernel.pbMessage(_INTL("You can hear a crumbling sound."))
-			pbSEPlay("Explosion1")
-			$game_switches[1420] = true
-			$game_map.refresh
-			return false
+		if $game_map.map_id == 684 && $game_player.x == 20 && $game_player.y == 15 && !$game_switches[REGISTEEL_SWITCH]
+			$regiSpecial=true
+			return true
+		end
+	when PBMoves::FLY
+		if pbHasSpecies?(:SCALEON) && $game_map.map_id == 688 &&
+			 $game_player.x == 25 && $game_player.y == 26 && !$game_switches[REGIDRAGO_SWITCH]
+			$regiSpecial=true
+			return true
 		end
 	when PBMoves::ROCKSMASH
 		terrain=Kernel.pbFacingTerrainTag
 		facingEvent=$game_player.pbFacingEvent
 		echoln "MAP INFO #{$game_map.map_id} - X:#{$game_player.x} Y:#{$game_player.y}"
-		if $game_map.map_id == 680 && $game_player.x == 20 && $game_player.y == 21 && !$game_switches[1419]
-			Kernel.pbMessage(_INTL("You can hear a crumbling sound."))
-			pbSEPlay("Explosion1")
-			$game_switches[1419] = true
-			$game_map.refresh
-			return false
+		if $game_map.map_id == 680 && $game_player.x == 20 && $game_player.y == 21 && !$game_switches[REGIROCK_SWITCH]
+			$regiSpecial=true
+			return true
 		end
 		if !facingEvent || facingEvent.name!="Rock"
 			Kernel.pbMessage(_INTL("Can't use that here."))
@@ -1000,12 +1000,9 @@ def Kernel.pbCanUseHiddenMove?(pkmn,move)
 		return true
 	when PBMoves::CUT		
 	  	if pbHasSpecies?(:BANDEON) && $game_map.map_id == 686 &&
-			$game_player.x == 20 && $game_player.y == 15 && !$game_switches[1421]
-			Kernel.pbMessage(_INTL("You can hear a crumbling sound."))
-			pbSEPlay("Explosion1")
-			$game_switches[1420] = true
-			$game_map.refresh
-			return false
+			$game_player.x == 18 && $game_player.y == 26 && !$game_switches[REGIELEKI_SWITCH]
+			$regiSpecial=true
+			return true
 		end
 		facingEvent=$game_player.pbFacingEvent
 		if !facingEvent || facingEvent.name!="Tree"
@@ -1014,12 +1011,9 @@ def Kernel.pbCanUseHiddenMove?(pkmn,move)
 		end
 		return true
 	when PBMoves::SURF
-		if $game_map.map_id == 684 && $game_player.x == 20 && $game_player.y == 15 && !$game_switches[1421]
-			Kernel.pbMessage(_INTL("You can hear a crumbling sound."))
-			pbSEPlay("Explosion1")
-			$game_switches[1420] = true
-			$game_map.refresh
-			return false
+		if $game_map.map_id == 682 && $game_player.x == 15 && $game_player.y == 15 && !$game_switches[REGICE_SWITCH]
+			$regiSpecial=true
+			return true
 		end
 		terrain=Kernel.pbFacingTerrainTag
 		if !$DEBUG && !$Trainer.badges[BADGEFORSURF]

@@ -1339,6 +1339,12 @@ def pbDisplayBrailleText(text = "",height = -1)
   pbDisposeSpriteHash(@sprites)
 end
 
+REGICE_SWITCH = 1421
+REGIROCK_SWITCH = 1419
+REGISTEEL_SWITCH = 1420
+REGIELEKI_SWITCH = 1422
+REGIDRAGO_SWITCH = 1423
+
 def pbMirrorBattle(playerside = true)
   $trainerbossbattle = true
   if (playerside)
