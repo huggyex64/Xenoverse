@@ -939,12 +939,18 @@ class MNScene
 									pbHiddenMoveAnimation(movefinder)
 								}
 								fendscene
-							else								
+							else
+								r = 0
+								26.times do
+									r += 255/25
+									Graphics.update
+									@viewport.color = Color.new(0,0,0,r)
+								end							
 								regi = handleRegi(REGICE_SWITCH){									
 									pbHiddenMoveAnimation(movefinder)
 								}
 							end
-							echoln Kernel.pbCanUseHiddenMove?(movefinder,:SURF)
+							#echoln Kernel.pbCanUseHiddenMove?(movefinder,:SURF)
 							#Fix for surf from shortcut
 							if !regi
 								@scenemap.surfProc = Proc.new { Kernel.pbUseHiddenMove(movefinder,:SURF) if Kernel.pbCanUseHiddenMove?(movefinder,:SURF)} if @scenemap
@@ -973,7 +979,12 @@ class MNScene
 								}
 								fendscene
 							else
-								
+								r = 0
+								26.times do
+									r += 255/25
+									Graphics.update
+									@viewport.color = Color.new(0,0,0,r)
+								end
 								regi = handleRegi(REGISTEEL_SWITCH){									
 									Kernel.pbUseHiddenMove(movefinder,:STRENGTH)
 								}
