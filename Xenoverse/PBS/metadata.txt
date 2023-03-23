@@ -4138,7 +4138,7 @@ Outdoor=false
 ShowArea=true
 [689]
 # Tomba Dracosfera
-BattleBack=VulcanoDecibel
+BattleBack=VulcanoDecibell
 Bicycle=true
 Outdoor=false
 WildBattleBGM=VS.Regi.mp3
