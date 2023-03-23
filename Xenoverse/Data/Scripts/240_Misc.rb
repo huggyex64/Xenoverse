@@ -751,6 +751,11 @@ def pbCheckBallsInBag
 	$achievements["Ball"].progress=1
 end
 
+def pbHasItem?(item)
+  return if $Trainer == nil || !$Trainer
+  return $PokemonBag.pbQuantity(getConst(PBItems,item))>0
+end
+
 def pbCheckAllMegaStones
   return if !$PokemonBag || $achievements["Mega"].completed
 	ballList = [:ABSOLITE,:ALAKAZITE,:AUDINITE,:BELLOSSOMITE,:BLASTOISINITE,:BLAZIKENITE,
@@ -1342,9 +1347,9 @@ def pbDisplayBrailleText(text = "",height = -1)
   pbWait(5)
 end
 
-REGICE_SWITCH = 1421
+REGICE_SWITCH = 1420
 REGIROCK_SWITCH = 1419
-REGISTEEL_SWITCH = 1420
+REGISTEEL_SWITCH = 1421
 REGIELEKI_SWITCH = 1422
 REGIDRAGO_SWITCH = 1423
 

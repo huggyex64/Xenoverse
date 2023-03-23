@@ -823,14 +823,14 @@ class MNScene
 						if !Kernel.pbCanUseHiddenMove?(movefinder,:CUT)
 						else
 							if @scene						
-								regi = handleRegi(REGISTEEL_SWITCH){	
+								regi = handleRegi(REGIELEKI_SWITCH){	
 									r = 0
 									26.times do
 										r += 255/25
 										Graphics.update
 										@viewport.color = Color.new(0,0,0,r)
 									end									
-									Kernel.pbUseHiddenMove(movefinder,:STRENGTH)
+									Kernel.pbUseHiddenMove(movefinder,:CUT)
 								}
 								fendscene
 							else
@@ -840,8 +840,8 @@ class MNScene
 									Graphics.update
 									@viewport.color = Color.new(0,0,0,r)
 								end
-								regi = handleRegi(REGISTEEL_SWITCH){										
-									Kernel.pbUseHiddenMove(movefinder,:STRENGTH)
+								regi = handleRegi(REGIELEKI_SWITCH){										
+									Kernel.pbUseHiddenMove(movefinder,:CUT)
 								}
 							end
 							Kernel.pbUseHiddenMove(movefinder,:CUT) if !regi
