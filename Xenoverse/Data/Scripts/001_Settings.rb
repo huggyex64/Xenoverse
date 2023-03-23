@@ -450,7 +450,8 @@ CF_LEGENDARIES = [:MEW,
                   :DARKRAI,
                   :ENTEI,
                   :SUICUNE,
-                  :RAIKOU] #TODO to be updated
+                  :RAIKOU,
+                  :MEWTWO] #TODO to be updated
 
 
 class Version < Array

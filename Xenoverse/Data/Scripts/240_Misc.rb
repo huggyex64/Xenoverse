@@ -1266,22 +1266,78 @@ def pbLoadTries(time = 0)
   end
 end
 
-def pbDisplayBrailleText(text = "")
+# Represents a window with no formatting capabilities.  Its text color can be set,
+# though, and line breaks are supported, but the text is generally unformatted.
+class Window_BrailleBox < Window_UnformattedTextPokemon
+  attr_reader :text
+  attr_reader :baseColor
+  attr_reader :shadowColor
+  # Letter-by-letter mode.  This mode is not supported in this class.
+  attr_accessor :letterbyletter
+  attr_accessor :textHeight
+
+  def text=(value)
+    @text=value
+    refresh
+  end
+
+  def baseColor=(value)
+    @baseColor=value
+    refresh
+  end
+
+  def shadowColor=(value)
+    @shadowColor=value
+    refresh
+  end
+
+  def refresh
+    self.contents=pbDoEnsureBitmap(self.contents,self.width-self.borderX,
+       self.height-self.borderY)
+    self.contents.clear
+    drawTextExH(self.contents,0,0,self.contents.width,0,
+      @text.gsub(/[^ \n]/,"é"),Color.new(@baseColor.red,@baseColor.green,@baseColor.blue,@baseColor.alpha/5),Color.new(0,0,0,0),@textHeight)
+    drawTextExH(self.contents,0,0,self.contents.width,0,
+       @text.gsub(/\r/,""),@baseColor,@shadowColor,@textHeight)
+  end
+
+end
+
+def pbDisplayBrailleText(text = "",height = -1)
 
   @sprites = {}    
-  @sprites["itemtextwindow"]=Window_UnformattedTextPokemon.new("")
+  @sprites["itemtextwindow"]=Window_BrailleBox.new("")
   @sprites["itemtextwindow"].x=36
   @sprites["itemtextwindow"].y=72
   @sprites["itemtextwindow"].width=Graphics.width-72
-  @sprites["itemtextwindow"].height=196
+  @sprites["itemtextwindow"].height=228
   @sprites["itemtextwindow"].baseColor=Color.new(42,42,42)
   @sprites["itemtextwindow"].shadowColor=Color.new(0,0,0,0)
   @sprites["itemtextwindow"].visible=true
   #@sprites["itemtextwindow"].viewport=@viewport
   #@sprites["itemtextwindow"].windowskin=nil
   pbSetFont(@sprites["itemtextwindow"].contents, "Braille Normal",36)
-  @sprites["itemtextwindow"].text = "Mannaggia la madonna\nChe ti aspettavi?\nGirati a destra"
+  @sprites["itemtextwindow"].textHeight = height == -1 ? 50 : height
+  @sprites["itemtextwindow"].text = text
 
+  loop do
+    Graphics.update
+    Input.update
+
+    if (Input.trigger?(Input::C)||Input.trigger?(Input::B))
+      break
+    end
+
+  end
+
+  #pbFadeOutAndHide(@sprites)
+  @sprites.each {|x|
+    for i in 0..15
+      x.opacity-=255/15
+    end
+    x.dispose
+  }
+  pbDisposeSpriteHash(@sprites)
 end
 
 def pbMirrorBattle(playerside = true)

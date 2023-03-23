@@ -1643,7 +1643,7 @@ VIPSPEECH={
     :mugshot => "apollo/sole",
     :name => _INTL("Sole"),
     :speech => "Se c'è una regione che non conosco, devo assolutamente esplorarla! Dopo tutto, devo acchiapparli tutti! Mi sbaglio?",
-    :description => ["Le sue gesta hanno fatto il giro del mondo! Alla sua età ha già sconfitto svariati ","Il peso delle responsabilità lo ha reso un uomo imperturbabile!","L'abilissimo Iridio!"]
+    :description => ["Le sue gesta hanno fatto il giro del mondo! Ha vinto innumerevoli sfide delle palestre e sgominato bande criminali!","Nonostante la sua giovane età, è già un'allenatrice di Rango Campione!","La mitica e leggendaria, Sole!"]
   }
 }
 
@@ -1990,11 +1990,13 @@ end
 class PWT
   
   
-  def initialize(player,difficulty,trainerpool=nil,testpool=false)
+  def initialize(player,difficulty,trainerpool=nil,doublebattle=false,testpool=false)
     
     @difficulty = difficulty
     @player = player
     @trainerpool = trainerpool
+
+    @doublebattle = doublebattle
 
     if $game_switches[1350] && trainerpool != TRAINERPOOL_DREAM
       $game_switches[1350] = false
@@ -3090,7 +3092,7 @@ class PWT
     if pool.length>3
       $PokemonGlobal.nextBattleBack = "Apollo"
       #Kernel.pbMessage(_INTL("You were matched against trainer n°{1}",@oppIndex))
-      if pbTournamentBattle(pool[@oppIndex][1],pool[@oppIndex][2],pool[@oppIndex][3],false,0,true)
+      if pbTournamentBattle(pool[@oppIndex][1],pool[@oppIndex][2],pool[@oppIndex][3],@doublebattle,0,true)
         key = [pool[@oppIndex][1],pool[@oppIndex][2]]
         if VIPLIST.include?(key)
           $game_switches[VIPCUPSWITCH[key]]=true
@@ -3107,7 +3109,7 @@ class PWT
       healParty
     else
       $PokemonGlobal.nextBattleBack = "ApolloFinal"
-      if pbTournamentBattle(pool[@oppIndex][1],pool[@oppIndex][2],pool[@oppIndex][3],false,0,true)
+      if pbTournamentBattle(pool[@oppIndex][1],pool[@oppIndex][2],pool[@oppIndex][3],@doublebattle,0,true)
         if $game_switches[1350]
           #Dream tournament
           
@@ -3353,7 +3355,12 @@ def pbTournamentBattle(trainerid,trainername,endspeech,
   if !trainer
     pbMissingTrainer(trainerid,trainername,trainerparty)
     return false
+  else
+    if !doublebattle && trainer.party.length>3
+      trainer.party=trainer.party[0..2]
+    end
   end
+  
   if $PokemonGlobal.partner && ($PokemonTemp.waitingTrainer || doublebattle)
     othertrainer=PokeBattle_Trainer.new(
        $PokemonGlobal.partner[1],$PokemonGlobal.partner[0])
@@ -3477,7 +3484,7 @@ def pbTournamentBattle(trainerid,trainername,endspeech,
 end
 
 def pbTT
-    $pwt = PWT.new($Trainer,0,LANCEPOOL,true)
+    $pwt = PWT.new($Trainer,0,LANCEPOOL,false,true)
 end
 
 def pbt
