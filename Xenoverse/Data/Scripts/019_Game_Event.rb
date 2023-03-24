@@ -275,18 +275,20 @@ class Game_Event < Game_Character
     end
   end
 
-  def simpleRun
+  def simpleRun(autonomous = true)
     if @interpreter != nil
       unless @interpreter.running?
         @interpreter.setup(@list, @event.id, @map_id)
       end
-    
-      while @interpreter.running?
-        Input.update
-        Graphics.update
-        @interpreter.execute_command
-        @interpreter.index+=1
+      
+      if (!autonomous)
+        start
+      else
+        while @interpreter.running?
+          @interpreter.update
+        end
       end
     end
   end
+
 end

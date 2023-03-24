@@ -3115,8 +3115,8 @@ class PWT
           
           pbFadeOutAndHide(@transition)
           pbDisposeSpriteHash(@transition)
-          $game_map.events[TOURNAMENT_DREAM_POST].interpreter=Interpreter.new
-          $game_map.events[TOURNAMENT_DREAM_POST].simpleRun
+          $game_map.events[TOURNAMENT_DREAM_POST].interpreter=$game_system.map_interpreter#Interpreter.new(0,true)
+          $game_map.events[TOURNAMENT_DREAM_POST].simpleRun(false)
           @playerwon=true
         else        
           pbFadeOutAndHide(@transition)
@@ -3501,6 +3501,12 @@ def pbt
     newPool.push(tempPool[j][rand(2)])
   end
   echoln newPool
+end
+
+def pbTestTreyEvent
+  $pwt = 1 
+  $game_map.events[TOURNAMENT_DREAM_POST].interpreter=$game_system.map_interpreter#Interpreter.new(1,false)
+  $game_map.events[TOURNAMENT_DREAM_POST].simpleRun(false)
 end
 
 def pbLeo
