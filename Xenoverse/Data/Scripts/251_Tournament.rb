@@ -3356,8 +3356,8 @@ def pbTournamentBattle(trainerid,trainername,endspeech,
     pbMissingTrainer(trainerid,trainername,trainerparty)
     return false
   else
-    if !doublebattle && trainer.party.length>3
-      trainer.party=trainer.party[0..2]
+    if !doublebattle && trainer[2].length>3
+      trainer[2]=trainer[2][0..2]
     end
   end
   
