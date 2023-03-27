@@ -4083,6 +4083,7 @@ Pokedex=Un Pokemon creato usando i geni di Mew. Si dice che fra i Pokemon sia qu
 RegionalNumbers=583,0,0
 BattlerPlayerY=34
 BattlerEnemyY=37
+FormNames=,Retro,Mega
 [151]
 Name=Mew
 InternalName=MEW

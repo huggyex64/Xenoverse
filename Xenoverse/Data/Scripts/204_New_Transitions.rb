@@ -1873,7 +1873,7 @@ def ebWildAnimationRegi(viewport)
   end
   k = -2
   for i in 0...72
-    if index ! 3
+    if index != 3
       k += 2 if i%8==0
     else
       k += (k==3 ? 2 : 1) if i%4==0

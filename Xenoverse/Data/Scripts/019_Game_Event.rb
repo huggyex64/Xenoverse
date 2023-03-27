@@ -43,7 +43,6 @@ class Game_Event < Game_Character
 
   def start
     if @list.size > 1
-      echoln "Event Starting! #{@event.name}"
       @starting = true
     end
   end

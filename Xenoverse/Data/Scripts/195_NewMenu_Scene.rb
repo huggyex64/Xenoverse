@@ -226,6 +226,7 @@ class NewMenu
     #nopoke = NewMenu_Item.new("nowes","")
     
 		# POKÉWES
+	
 		pokewes = NewMenu_Item.new("pokewes", _INTL("PokéWES"))
 		pokewes.function = lambda {
 			#pbFadeOutIn(99999) {
@@ -325,8 +326,8 @@ class NewMenu
       #@items.push(nopoke)
       @items.push(nil)
     end
-    @items.push(trainer)
-    if $Trainer.pokewes
+    @items.push(trainer) if !$game_switches[1351]
+    if $Trainer.pokewes && !$game_switches[1351]
       @items.push(pokewes) 
     else
       #@items.push(nowes)

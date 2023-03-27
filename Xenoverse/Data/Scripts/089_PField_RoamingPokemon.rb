@@ -73,16 +73,24 @@ def pbRoamPokemon(ignoretrail=false)
       for area in newAreas
         inhistory=$PokemonGlobal.roamHistory.include?(area)
         inhistory=false if ignoretrail
-        choices.push(area) if !inhistory
+        choices.push(area) if !inhistory && !$PokemonGlobal.roamPosition.values.any?{|x| pbGetMetadata(x,MetadataMapPosition) == pbGetMetadata(area,MetadataMapPosition)}
       end
       if rand(32)==0 && keys.length>0
         area=keys[rand(keys.length)]
         inhistory=$PokemonGlobal.roamHistory.include?(area)
         inhistory=false if ignoretrail
-        choices.push(area) if !inhistory
+        choices.push(area) if !inhistory && !$PokemonGlobal.roamPosition.values.any?{|x| pbGetMetadata(x,MetadataMapPosition) == pbGetMetadata(area,MetadataMapPosition)}
       end
       if choices.length>0 
         area=choices[rand(choices.length)]
+        count = 0
+        while $PokemonGlobal.roamPosition.values.any?{|x| pbGetMetadata(x,MetadataMapPosition) == pbGetMetadata(area,MetadataMapPosition)}
+          area=choices[rand(choices.length)]
+          count+=1
+          if count>10
+            echoln "COULDNT FIX ROAM"
+          end
+        end
         $PokemonGlobal.roamPosition[i]=area
       end
     end
@@ -138,7 +146,7 @@ def pbRoamingPokemonBattle(species,level)
   battle=PokeBattle_Battle.new(scene,$Trainer.party,[genwildpoke],$Trainer,nil)
   battle.internalbattle=true
   battle.cantescape=false
-  battle.rules["alwaysflee"]=true
+  battle.rules["alwaysflee"]=true if species != PBSpecies::REGIGIGAS
   pbPrepareBattle(battle)
   decision=0
   pbBattleAnimation(pbGetWildBattleBGM(species)) { 
@@ -197,7 +205,7 @@ EncounterModifier.register(proc {|encounter|
       mapinfos=$RPGVX ? load_data("Data/MapInfos.rvdata") : load_data("Data/MapInfos.rxdata")
       for j in 1...mapinfos.length
         jmeta=pbGetMetadata(j,MetadataMapPosition)
-        echoln "MAPNAME CHECKS #{pbGetMessage(MessageTypes::MapNames,j)} #{$game_map.name} #{$game_map.map_id == j}"
+        #echoln "MAPNAME CHECKS #{pbGetMessage(MessageTypes::MapNames,j)} #{$game_map.name} #{$game_map.map_id == j}"
         if mapinfos[j] && pbGetMessage(MessageTypes::MapNames,j)==$game_map.name &&
            roamermeta && jmeta && roamermeta[0]==jmeta[0] && $game_map.map_id == j
           possiblemaps.push(j)   # Any map with same name as roamer's current map

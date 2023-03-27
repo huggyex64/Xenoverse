@@ -110,9 +110,22 @@ class PokemonRegionMapScene
 		@frame+=1
 		@sprites["cursor"].z=2
 		
-		if @frame!=nil && @sprites.keys.include?("roaming1097")
-			@sprites["roaming1097"].z = @sprites["roaming1097"].z==0 ? 1 : 0 if (@frame/40).to_f == @frame.to_f/40
-		end
+    for roamer in $PokemonGlobal.roamPosition
+      roamingData = RoamingSpecies[roamer[0]]
+      active = $game_switches[roamingData[2]] && (
+        $PokemonGlobal.roamPokemon.size <= roamer[0] || 
+        $PokemonGlobal.roamPokemon[roamer[0]]!=true
+      )
+      next if !active
+      species=getID(PBSpecies,roamingData[0])
+      next if !species || species<=0
+      pokepos = $game_map ? pbGetMetadata(roamer[1],MetadataMapPosition) : nil
+      if @frame!=nil && @sprites.keys.include?("roaming#{species}")
+        if (@frame/40).to_f == @frame.to_f/40
+          @sprites["roaming#{species}"].z = @sprites["roaming#{species}"].z==0 ? 1 : 0
+        end
+      end
+    end
 			
 		__pbUpdate
 	end

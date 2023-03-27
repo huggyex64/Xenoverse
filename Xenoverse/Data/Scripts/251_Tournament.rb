@@ -1239,8 +1239,9 @@ end
 
 def pbGetMegaShopList()
   list = [:VENUSAURITE,:BLASTOISINITE,:CHARIZARDITET,:CHARIZARDITEX,:WEAVILITE,:ABSOLITE,:MAWILITE,:ALAKAZITE,
-          :HERACRONITE,:TYRANITARITE,:BLAZIKENITE,:SWAMPERTITE,:GARCHOMPITE,
-          :ALTARIANITE,:GARDEVOIRITE]
+          :HERACRONITE,:TYRANITARITE,:BLAZIKENITE,:SWAMPERTITE,:GARCHOMPITE]
+  list.push(:ALTARIANITE) if $game_switches[1448]==true
+  list.push(:GARDEVOIRITE) if $game_switches[1449]==true
   list.push(:SCEPTILITE) if $game_switches[1176]==true
   list.push(:BELLOSSOMITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::ERIKATOURNAMENT,"Erika"]]]==true
   list.push(:AUDINITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::LEOTOURNAMENT,"Leo"]]]==true
@@ -1254,7 +1255,7 @@ def pbGetMegaShopList()
   list.push(:ARCANITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::SOLETOURNAMENT,"Sole"]]] == true
   list.push(:RAMPARDITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::LINNEATOURNAMENT,"Lin & Nea"]]] == true
   list.push(:GENGARITE) if $game_switches[VIPCUPSWITCH[[PBTrainers::VELIATOURNAMENT,"Velia"]]] == true
-  list.push(:MEWTWONITEX) if $game_switches[1800]
+  list.push(:MEWTWONITEX) if $game_switches[1450]
   return list
 end
 
@@ -1515,11 +1516,11 @@ GRETAPOOL=[
 ]
 
 VELIAPOOL=[
-  ["velia",PBTrainers::VELIATOURNAMENT,"Velia",_INTL("Che assolo fantastico!"),10],
+  ["Roxie",PBTrainers::VELIATOURNAMENT,"Velia",_INTL("Che assolo fantastico!"),10],
 ]
 
 LINNEAPOOL=[
-  ["lin&nea",PBTrainers::LINNEATOURNAMENT,"Lin & Nea",_INTL("Lin: Che diamine fai, Nea!\nNea: Hah, come se fosse colpa mia!"),10],
+  ["linnea",PBTrainers::LINNEATOURNAMENT,"Lin & Nea",_INTL("Lin: Che diamine fai, Nea!\nNea: Hah, come se fosse colpa mia!"),10],
 ]
 
 SOLEPOOL=[
@@ -1531,7 +1532,7 @@ SOLEPOOL=[
   ["clawman",PBTrainers::SOTISTOURNAMENT,"Sotis",_INTL("Devo impegnarmi di più se voglio sconfiggere Masquerman...!"),10],
   ["Iridio",PBTrainers::GLADIONTOURNAMENT,"Iridio",_INTL("Forse dovrei ricominciare ad allenarmi?"),10],
   ["valentina",PBTrainers::GRETATOURNAMENT,"Valentina",_INTL("Ancora niente..."),10],
-  ["sole",PBTrainers::SOLETOURNAMENT,"Sole",_INTL("...!"),11],
+  ["Sun",PBTrainers::SOLETOURNAMENT,"Sole",_INTL("...!"),11],
 ]
 
 
@@ -1573,9 +1574,9 @@ VIPCUPSWITCH = {
   [PBTrainers::SOTISTOURNAMENT,"Sotis"] => 1346,
   [PBTrainers::GRETATOURNAMENT,"Valentina"] => 1347,
   [PBTrainers::GLADIONTOURNAMENT,"Iridio"] => 1345,
-  [PBTrainers::SOLETOURNAMENT,"Sole"] => 1650,
-  [PBTrainers::VELIATOURNAMENT,"Velia"] => 1651,
-  [PBTrainers::LINNEATOURNAMENT,"Lin & Nea"] => 1652
+  [PBTrainers::SOLETOURNAMENT,"Sole"] => 1445,
+  [PBTrainers::VELIATOURNAMENT,"Velia"] => 1446,
+  [PBTrainers::LINNEATOURNAMENT,"Lin & Nea"] => 1447
 }
 
 VIPSPEECH={
@@ -1628,7 +1629,7 @@ VIPSPEECH={
     :description => ["Dopo ciò che è accaduto a sua madre, ha preso le redini dell'Aether Paradise facendolo fiorire!","Il peso delle responsabilità lo ha reso un uomo imperturbabile!","L'abilissimo Iridio!"]
   },
   [PBTrainers::VELIATOURNAMENT,"Velia"] => {
-    :mugshot => "apollo/velia",
+    :mugshot => "apollo/roxie",
     :name => _INTL("Velia"),
     :speech => "Preferirei suonare la mia chitarra piuttosto di perdere tempo a lottare... ma per accedere a palchi del genere, non posso tirarmi indietro!",
     :description => ["Nonostante una volta fosse molto più accesa e vivace, il suo carattere ha cambiato genere musicale!","Preferisce rilassarsi e suonare la chitarra, ma con le sue strategie velenose atterra ogni nemico!","L'ingegnosa e astuta, Velia!"]
