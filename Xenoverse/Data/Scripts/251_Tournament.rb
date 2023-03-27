@@ -1474,7 +1474,7 @@ end
 TRAINERPOOL_expert=[]  #ALMENO 32 ALLENATORI
 
 TRAINERPOOL_DREAM=[
-  ["Looker",PBTrainers::WILLTOURNAMENT,"Bellocchio",_INTL("Devo allenarmi di più!"),3],
+  ["Looker",PBTrainers::BELLOCCHIOTOURNAMENT,"Bellocchio",_INTL("Devo allenarmi di più!"),3],
   ["Padre",PBTrainers::VERSIL,"Versil",_INTL("Devo allenarmi di più!"),4],
   ["Victor",PBTrainers::WILLTOURNAMENT,"Will",_INTL("Devo allenarmi di più!"),3],
   ["trey",PBTrainers::TREYTOURNAMENT,"Trey",_INTL("Hmph! La prossima volta vincerò io!"),5],
