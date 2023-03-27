@@ -1306,27 +1306,35 @@ class Window_BrailleBox < Window_UnformattedTextPokemon
        @text.gsub(/\r/,""),@baseColor,@shadowColor,@textHeight)
   end
 
+  def getLines(text,width,height = nil)
+    return getLinesByTextAndValues(self.contents,text.gsub(/\r/,""),width-TEXTPADDING*2,nil,true, height == nil ? @textHeight : height)
+  end
+
 end
 
 def pbDisplayBrailleText(text = "",height = -1)
-  linesCount = ((text.length/17) -4 > 0 )? ((text.length/17)-4) : 0
-  echoln "Count #{(text.length/17)-4}-#{linesCount}-#{text.length/17}-#{text.length}"
-
   @sprites = {}    
   @sprites["itemtextwindow"]=Window_BrailleBox.new("")
   @sprites["itemtextwindow"].x=36
-  @sprites["itemtextwindow"].y=72 - linesCount*25
   @sprites["itemtextwindow"].width=Graphics.width-72
-  @sprites["itemtextwindow"].height=228 + linesCount * 50
+  @sprites["itemtextwindow"].textHeight = height == -1 ? 50 : height
+  @sprites["itemtextwindow"].height=228
+  pbSetFont(@sprites["itemtextwindow"].contents, "Braille Normal", 36)
+  #linesCount = @sprites["itemtextwindow"].getLines(text)
+  #linesCount = 4;
+  linesCount = @sprites["itemtextwindow"].getLines(text,@sprites["itemtextwindow"].width,36)
+
+  echoln "#{text} - linesCount:#{linesCount}"
+  @sprites["itemtextwindow"].y=172 - linesCount * 25
+  @sprites["itemtextwindow"].height=28 + linesCount * 50
   @sprites["itemtextwindow"].baseColor=Color.new(42,42,42)
   @sprites["itemtextwindow"].shadowColor=Color.new(0,0,0,0)
   @sprites["itemtextwindow"].visible=true
   #@sprites["itemtextwindow"].viewport=@viewport
   #@sprites["itemtextwindow"].windowskin=nil
-  pbSetFont(@sprites["itemtextwindow"].contents, "Braille Normal",36)
-  @sprites["itemtextwindow"].textHeight = height == -1 ? 50 : height
   @sprites["itemtextwindow"].text = text
-
+  
+  #linecount = @sprites["itemtextwindow"].getLines(text,36)
   loop do
     Graphics.update
     Input.update

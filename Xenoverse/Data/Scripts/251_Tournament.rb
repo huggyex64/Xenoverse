@@ -1631,7 +1631,7 @@ VIPSPEECH={
     :mugshot => "apollo/velia",
     :name => _INTL("Velia"),
     :speech => "Preferirei suonare la mia chitarra piuttosto di perdere tempo a lottare... ma per accedere a palchi del genere, non posso tirarmi indietro!",
-    :description => ["Nonostante una volta fosse più molto più accesa e vivace, il suo carattere ha cambiato genere musicale!","Preferisce rilassarsi e suonare la chitarra, ma con le sue strategie velenose attera ogni nemico!","L'ingegnosa e astuta, Velia!"]
+    :description => ["Nonostante una volta fosse molto più accesa e vivace, il suo carattere ha cambiato genere musicale!","Preferisce rilassarsi e suonare la chitarra, ma con le sue strategie velenose atterra ogni nemico!","L'ingegnosa e astuta, Velia!"]
   },
   [PBTrainers::LINNEATOURNAMENT,"Lin & Nea"] => {
     :mugshot => "apollo/linnea",

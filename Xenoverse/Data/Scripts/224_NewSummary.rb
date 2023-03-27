@@ -1036,6 +1036,7 @@ def getLineBrokenChunksH(bitmap,value,width,dims,plain=false,th=32)
       x=0
       y+=(textheight==0) ? bitmap.text_size("X").height : textheight
       #textheight=0
+      lines+=1
       next
     end
     if ccheck[/</] && !plain
@@ -1055,6 +1056,7 @@ def getLineBrokenChunksH(bitmap,value,width,dims,plain=false,th=32)
           x=0
           y+=(textheight==0) ? 32 : textheight#32 # (textheight==0) ? bitmap.text_size("X").height : textheight
           #textheight=0
+          lines+=1
         end
         textheight=32 if textheight==0# [textheight,textSize.height].max
         ret.push([word,x,y,textwidth,textheight,color])
@@ -1068,4 +1070,67 @@ def getLineBrokenChunksH(bitmap,value,width,dims,plain=false,th=32)
   end
   dims[1]=y+textheight if dims
   return ret
+end
+
+def getLinesByTextAndValues(bitmap,value,width,dims,plain=false,th=32)
+  x=0
+  y=0
+  textheight=th
+  ret=[]
+  if dims
+    dims[0]=0
+    dims[1]=0
+  end
+  re=/<c=([^>]+)>/
+  reNoMatch=/<c=[^>]+>/
+  return ret if !bitmap || bitmap.disposed? || width<=0
+  textmsg=value.clone
+  lines=0
+  color=Font.default_color
+  while (c = textmsg.slice!(/\n|\S*\-+|(\S*([ \r\t\f]?))/)) != nil
+    break if c==""
+    ccheck=c
+    if ccheck=="\n"
+      x=0
+      y+=(textheight==0) ? bitmap.text_size("X").height : textheight
+      #lines+=1
+      #textheight=0
+      lines+=1
+      echoln "a capo detected! n type"
+      next
+    end
+    if ccheck[/</] && !plain
+      textcols=[]
+      ccheck.scan(re){ textcols.push(rgbToColor($1)) }
+      words=ccheck.split(reNoMatch) # must have no matches because split can include match
+    else
+      textcols=[]
+      words=[ccheck]
+    end
+    for i in 0...words.length
+      word=words[i]
+      if word && word!=""
+        textSize=bitmap.text_size(word)
+        textwidth=textSize.width
+        echoln "textwidth! #{textwidth} - #{width} - #{x>0 && x+textwidth>=width-2}"
+        if x>0 && x+textwidth>=width-2
+          x=0
+          y+=(textheight==0) ? 32 : textheight#32 # (textheight==0) ? bitmap.text_size("X").height : textheight
+          lines+=1
+          echoln "a capo detected! #{word}"
+          #textheight=0
+        end
+        textheight=32 if textheight==0# [textheight,textSize.height].max
+        ret.push([word,x,y,textwidth,textheight,color])
+        x+=textwidth
+        dims[0]=x if dims && dims[0]<x
+      end
+      if textcols[i]
+        color=textcols[i]
+      end
+    end
+  end
+  echoln "by lines linesCount! #{lines} - #{lines == 0 ? (value != "" ? 1 : 0) : lines}"
+  dims[1]=y+textheight if dims
+  return lines == 0 ? (value != "" ? 1 : 0) : lines
 end
