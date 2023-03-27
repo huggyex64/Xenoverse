@@ -1813,7 +1813,7 @@ end
 #-------------------------------------------------------------------------------
 def queuedIsRegi?
   ret = false
-  for poke in [:REGIROCK,:REGISTEEL,:REGICE,:REGIGIGAS]
+  for poke in [:REGIROCK,:REGISTEEL,:REGICE,:REGIGIGAS,:REGINALOUS,:REGIELEKI,:REGIDRAGO]
     num = getConst(PBSpecies,poke)
     next if num.nil? || ret
     if $wildSpecies == num
@@ -1825,28 +1825,36 @@ end
 
 def ebWildAnimationRegi(viewport)
   fp = {}
-  index = [PBSpecies::REGIROCK,PBSpecies::REGISTEEL,PBSpecies::REGICE,PBSpecies::REGIGIGAS].index($wildSpecies)
+  index = [PBSpecies::REGIROCK,PBSpecies::REGISTEEL,PBSpecies::REGICE,PBSpecies::REGIGIGAS,PBSpecies::REGINALOUS,PBSpecies::REGIELEKI,PBSpecies::REGIDRAGO].index($wildSpecies)
   width = viewport.rect.width
   height = viewport.rect.height
   viewport.color = Color.new(0,0,0,0)
   fp["back"] = Sprite.new(viewport)
   fp["back"].bitmap = Graphics.snap_to_bitmap
   fp["back"].blur_sprite
-  c = index < 3 ? 0 : 255
-  fp["back"].color = Color.new(c,c,c,128*(index < 3 ? 1 : 2))
+  c = index != 3 ? 0 : 255
+  fp["back"].color = Color.new(c,c,c,128*(index != 3 ? 1 : 2))
   fp["back"].z = 99999
   fp["back"].opacity = 0
   x = [
   [width*0.5,width*0.25,width*0.75,width*0.25,width*0.75,width*0.25,width*0.75],
   [width*0.5,width*0.3,width*0.7,width*0.15,width*0.85,width*0.3,width*0.7],
   [width*0.5,width*0.325,width*0.675,width*0.5,width*0.5,width*0.15,width*0.85],
-  [width*0.5,width*0.5,width*0.5,width*0.5,width*0.35,width*0.65,width*0.5]
+  [width*0.5,width*0.5,width*0.5,width*0.5,width*0.35,width*0.65,width*0.5], #regigigas
+  [width*0.3,width*0.7,width*0.5,width*0.5,width*0.7,width*0.3,width*0.5], #regina
+  [width*0.5,width*0.325,width*0.675,width*0.175,width*0.825,width*0.175,width*0.825], #regieleki
+  [width*0.5,width*0.30,width*0.70,width*0.35,width*0.65,width*0.5,width*0.5] #regidrago
   ]
   y = [
   [height*0.5,height*0.5,height*0.5,height*0.25,height*0.75,height*0.75,height*0.25],
   [height*0.5,height*0.25,height*0.75,height*0.5,height*0.5,height*0.75,height*0.25],
   [height*0.5,height*0.5,height*0.5,height*0.25,height*0.75,height*0.5,height*0.5],
-  [height*0.9,height*0.74,height*0.58,height*0.4,height*0.25,height*0.25,height*0.1]
+  [height*0.9,height*0.74,height*0.58,height*0.4,height*0.25,height*0.25,height*0.1], #regigigas
+  [height*0.75,height*0.5,height*0.87,height*0.38,height*0.75,height*0.5,height*0.15], #regina
+  [height*0.5,height*0.5,height*0.5,height*0.4,height*0.6,height*0.6,height*0.4], #regieleki
+  [height*0.30,height*0.2,height*0.2,height*0.42,height*0.42,height*0.55,height*0.8] #regidrago
+
+  
   ]
   for j in 0...14
     fp["#{j}"] = Sprite.new(viewport)
@@ -1865,7 +1873,7 @@ def ebWildAnimationRegi(viewport)
   end
   k = -2
   for i in 0...72
-    if index < 3
+    if index ! 3
       k += 2 if i%8==0
     else
       k += (k==3 ? 2 : 1) if i%4==0
