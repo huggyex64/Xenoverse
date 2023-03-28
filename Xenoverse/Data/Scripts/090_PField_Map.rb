@@ -433,7 +433,9 @@ end
 
 def pbGetMetadata(mapid,metadataType)
   meta=pbLoadMetadata
-  return meta[mapid][metadataType] if meta[mapid]
+  if (meta!=false)
+    return meta[mapid][metadataType] if meta[mapid]
+  end
   return nil
 end
 

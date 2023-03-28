@@ -844,9 +844,9 @@ def pbMiniCheckEvolution(pokemon,evonib,level,poke)
     return poke if $game_map.map_id=96 && pokemon.level>=level
   when PBEvolution::Kingambit
     # Add code for custom evolution type 1
-    return poke if $game_map.map_id=564 && pokemon.level>=level && 
+    return poke if $game_map.map_id==564 && pokemon.level>=level && 
                    $Trainer.party.any? {|p| p.species == PBSpecies::BISHARPX} &&
-                   $Trainer.party.count {|p| p.species == PBSpecies::PAWNIARD} == 4
+                   $Trainer.party.count {|p| p.species == PBSpecies::PAWNIARD} == 3
   when PBEvolution::Custom2
     # Add code for custom evolution type 2
   when PBEvolution::Custom3

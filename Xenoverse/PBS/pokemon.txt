@@ -7647,6 +7647,7 @@ Pokedex=Gardevoir ha il potere psicocinetico di distorcere le dimensioni creando
 RegionalNumbers=498,0,0
 BattlerPlayerY=20
 BattlerEnemyY=25
+FormNames=,Mega
 [283]
 Name=Surskit
 InternalName=SURSKIT
@@ -9038,6 +9039,7 @@ RegionalNumbers=538,0,0
 BattlerPlayerY=31
 BattlerEnemyY=30
 BattlerAltitude=28
+FormNames=,Mega
 [335]
 Name=Zangoose
 InternalName=ZANGOOSE
@@ -11018,6 +11020,7 @@ Pokedex=Tira testate talmente potenti da frantumare anche oggetti durissimi.
 RegionalNumbers=545,0,0
 BattlerPlayerY=9
 BattlerEnemyY=16
+FormNames=,Mega
 [410]
 Name=Shieldon
 InternalName=SHIELDON

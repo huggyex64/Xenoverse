@@ -700,6 +700,184 @@ CUSTOMIV = {
         :speed => 6
       }
     }
+  },
+  [PBTrainers::VELIATOURNAMENT,"Velia"]=>{
+    :iv=>{
+      :GENGAR =>{
+        :hp => 31,
+        :attack => 0,
+        :defense => 31,
+        :spatk => 181,
+        :spdef => 31,
+        :speed => 121
+      },
+      :MUK =>{
+        :hp => 151,
+        :attack => 151,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      },
+      :SCOLIPEDE =>{
+        :hp => 31,
+        :attack => 301,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      }
+    },
+    :ev=>{
+      :GENGAR =>{
+        :hp => 6,
+        :attack => 0,
+        :defense => 0,
+        :spatk => 252,
+        :spdef => 0,
+        :speed => 252
+      },
+      :MUK =>{
+        :hp => 252,
+        :attack => 252,
+        :defense => 6,
+        :spatk => 0,
+        :spdef => 0,
+        :speed => 0
+      },
+      :SCOLIPEDE =>{
+        :hp => 6,
+        :attack => 252,
+        :defense => 0,
+        :spatk => 0,
+        :spdef => 0,
+        :speed => 252
+      }
+    }
+  },
+  [PBTrainers::LINNEATOURNAMENT,"Lin & Nea"]=>{
+    :iv=>{
+      :RAMPARDOS =>{
+        :hp => 31,
+        :attack => 31,
+        :defense => 151,
+        :spatk => 31,
+        :spdef => 151,
+        :speed => 31
+      },
+      :GASTRODON =>{
+        :hp => 151,
+        :attack => 31,
+        :defense => 31,
+        :spatk => 151,
+        :spdef => 31,
+        :speed => 31
+      },
+      :ARCHEOPS =>{
+        :hp => 31,
+        :attack => 301,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      },
+      :PALOSSAND =>{
+        :hp => 31,
+        :attack => 31,
+        :defense => 151,
+        :spatk => 151,
+        :spdef => 151,
+        :speed => 31
+      }
+    },
+    :ev=>{
+      :RAMPARDOS =>{
+        :hp => 6,
+        :attack => 252,
+        :defense => 0,
+        :spatk => 0,
+        :spdef => 0,
+        :speed => 252
+      },
+      :GASTRODON =>{
+        :hp => 252,
+        :attack => 0,
+        :defense => 152,
+        :spatk => 0,
+        :spdef => 104,
+        :speed => 0
+      },
+      :ARCHEOPS =>{
+        :hp => 6,
+        :attack => 252,
+        :defense => 0,
+        :spatk => 0,
+        :spdef => 0,
+        :speed => 252
+      },
+      :PALOSSAND =>{
+        :hp => 252,
+        :attack => 0,
+        :defense => 6,
+        :spatk => 252,
+        :spdef => 0,
+        :speed => 0
+      }
+    }
+  },
+  [PBTrainers::SOLETOURNAMENT,"Sole"]=>{
+    :iv=>{
+      :ARCANINE =>{
+        :hp => 31,
+        :attack => 0,
+        :defense => 31,
+        :spatk => 181,
+        :spdef => 31,
+        :speed => 121
+      },
+      :RAICHU =>{
+        :hp => 31,
+        :attack => 31,
+        :defense => 31,
+        :spatk => 151,
+        :spdef => 31,
+        :speed => 151
+      },
+      :HERCURCULES =>{
+        :hp => 151,
+        :attack => 151,
+        :defense => 31,
+        :spatk => 31,
+        :spdef => 31,
+        :speed => 31
+      }
+    },
+    :ev=>{
+      :ARCANINE =>{
+        :hp => 6,
+        :attack => 0,
+        :defense => 0,
+        :spatk => 252,
+        :spdef => 0,
+        :speed => 252
+      },
+      :RAICHU =>{
+        :hp => 6,
+        :attack => 0,
+        :defense => 0,
+        :spatk => 252,
+        :spdef => 0,
+        :speed => 252
+      },
+      :HERCURCULES =>{
+        :hp => 252,
+        :attack => 252,
+        :defense => 0,
+        :spatk => 0,
+        :spdef => 6,
+        :speed => 0
+      }
+    }
   }
 }
 
@@ -3241,7 +3419,7 @@ class PWT
         screen = PokemonScreen.new(scene,$Trainer.party)
       end
       #ret = screen.pbPokemonMultipleEntryScreenEx(ruleset)
-      ret=screen.pbChooseMultiplePokemon(3,proc{|p|
+      ret=screen.pbChooseMultiplePokemon(@doublebattle ? 4 : 3,proc{|p|
           return ruleset.isPokemonValid?(p)
       })
     }

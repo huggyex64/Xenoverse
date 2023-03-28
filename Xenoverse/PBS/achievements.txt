@@ -493,12 +493,12 @@ title = Raggiungere il Nirvana
 description = Sconfiggi Velia nel Torneo Apollo.
 amount = 1
 image = 99_velia
-[Linnea]
+[Lin & Nea]
 title = Gemelli Diversi
 description = Sconfiggi Lin & Nea nel Torneo Apollo.
 amount = 1
 image = 100_linnea
-[LeggendaSole]
+[Sole]
 title = Il più forte di tutti
 description = Sconfiggi Sole nel Torneo Apollo.
 amount = 1

@@ -3736,7 +3736,7 @@ MultipleForms.register(:ALTARIA,{
 
 MultipleForms.register(:MEWTWO,{
 	"getMegaForm"=>proc{|pokemon|
-		next 2 if isConst?(pokemon.item,PBItems,:MEWTWONITEX) && pokemon.form == 0
+		next 2 if isConst?(pokemon.item,PBItems,:MEWTWONITEX) && (pokemon.form == 0 || pokemon.form == 2)
 		next
 	},
 	"getUnmegaForm"=>proc{|pokemon|

@@ -1306,7 +1306,7 @@ MultipleForms.register(:RAICHU,{
 "getAbilityList"=>proc{|pokemon|
   if pokemon.isDelta?
     next [[getID(PBAbilities,:SURGESURFER),0],
-                [getID(PBAbilities,:SURGESURFER),2]]
+          [getID(PBAbilities,:SURGESURFER),2]]
   end
   next
 },
@@ -2416,7 +2416,7 @@ MultipleForms.register(:GROWLITHE,{
 
 MultipleForms.register(:ARCANINE,{
   "getMegaForm"=>proc{|pokemon|
-		next 2 if isConst?(pokemon.item,PBItems,:ARCANITE) && pokemon.form == 0
+		next 2 if isConst?(pokemon.item,PBItems,:ARCANITE) && (pokemon.form == 0 || pokemon.form==2)
 		next
 	},
 	"getUnmegaForm"=>proc{|pokemon|
