@@ -560,7 +560,7 @@
 560,SALAMENCITE,Salamencite,1,1000,"Un esemplare delle misteriose Megapietre. Data a Salamence, gli permette di megaevolversi durante la lotta.",0,0,0,
 561,AGGRONITE,Aggronite,1,1000,"Un esemplare delle misteriose Megapietre. Data ad Aggron, gli permette di megaevolversi durante la lotta.",0,0,0,
 562,LOPUNNITE,Lopunnite,1,1000,"Un esemplare delle misteriose Megapietre. Data a Lopunny, gli permette di megaevolversi durante la lotta.",0,0,0,
-563,MEWTWONITEX,Mewtwoite X,1,1000,"Un esemplare delle misteriose Megapietre. Data a Mewtwo, gli permette di megaevolversi durante la lotta.",0,0,0,
+563,MEWTWONITEX,Mewtwoite,1,1000,"Un esemplare delle misteriose Megapietre. Data a Mewtwo, gli permette di megaevolversi durante la lotta.",0,0,0,
 564,MEWTWONITE,Mewtwoite,1,1000,"Un esemplare delle misteriose Megapietre. Data a Mewtwo, gli permette di megaevolversi durante la lotta.",0,0,0,
 565,METAGROSSITE,Metagrossite,1,1000,"Un esemplare delle misteriose Megapietre. Data a Metagross, gli permette di megaevolversi durante la lotta.",0,0,0,
 566,SLOWBRONITE,Slowbroite,1,1000,"Un esemplare delle misteriose Megapietre. Data a Slowbro, gli permette di megaevolversi durante la lotta.",0,0,0,

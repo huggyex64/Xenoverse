@@ -19758,11 +19758,11 @@ Aggronite
 Lopunnite
 Lopunnite
 563
-Mewtwoite X
-Mewtwoite X
+Mewtwoite
+Mewtwoite
 564
-Mewtwoite Y
-Mewtwoite Y
+Mewtwoite
+Mewtwoite
 565
 Metagrossite
 Metagrossite

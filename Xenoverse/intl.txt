@@ -46408,8 +46408,8 @@ Lopunnite
 Mewtwoite X
 Mewtwonite X
 564
-Mewtwoite Y
-Mewtwonite Y
+Mewtwoite X
+Mewtwonite X
 565
 Metagrossite
 Metagrossite
@@ -49609,6 +49609,9 @@ A stele that radiates a mysterious energy. It looks deeply connected to Regielek
 856
 Una stele che emana una misteriosa energia. Sembra profondamente connessa al Pokémon Regidrago.
 A stele that radiates a mysterious energy. It looks deeply connected to Regidrago.
+857
+Un invito da parte di Gengar per partecipare ad un torneo molto speciale al Torneo Apollo.
+A special invitation from Gengar to take part in a special tournament at the Apollo Tournament.
 [9]
 1
 Tanfo
