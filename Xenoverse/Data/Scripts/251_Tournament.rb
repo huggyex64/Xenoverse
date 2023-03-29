@@ -3274,7 +3274,7 @@ class PWT
       if pbTournamentBattle(pool[@oppIndex][1],pool[@oppIndex][2],pool[@oppIndex][3],@doublebattle,0,true)
         key = [pool[@oppIndex][1],pool[@oppIndex][2]]
         if VIPLIST.include?(key)
-          $game_switches[VIPCUPSWITCH[key]]=true
+          $game_switches[VIPCUPSWITCH[key]]=true if final?()
           if !$Trainer.vips.include?(key)
             $Trainer.vips.push(key)
             $achievements[key[1]].progress=1
@@ -3290,8 +3290,7 @@ class PWT
       $PokemonGlobal.nextBattleBack = "ApolloFinal"
       if pbTournamentBattle(pool[@oppIndex][1],pool[@oppIndex][2],pool[@oppIndex][3],@doublebattle,0,true)
         if $game_switches[1350]
-          #Dream tournament
-          
+          #Dream tournament          
           pbFadeOutAndHide(@transition)
           pbDisposeSpriteHash(@transition)
           $game_map.events[TOURNAMENT_DREAM_POST].interpreter=$game_system.map_interpreter#Interpreter.new(0,true)
@@ -3305,7 +3304,7 @@ class PWT
           key = [pool[@oppIndex][1],pool[@oppIndex][2]]
           if VIPLIST.include?(key)
             pbSEPlay("Victory VIP")
-            $game_switches[VIPCUPSWITCH[key]]=true
+            $game_switches[VIPCUPSWITCH[key]]=true if final?()
             if !$Trainer.vips.include?(key)
               $Trainer.vips.push(key) 
               if ACHIEVEMENTREDIRECT.keys.include?(key[1])
