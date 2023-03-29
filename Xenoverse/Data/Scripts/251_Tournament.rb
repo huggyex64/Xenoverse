@@ -2199,7 +2199,7 @@ class PWT
     @ended = false
     @levels = []
     @party_bak = []
-    @battle_type = 0
+    @battle_type = @doublebattle ? 1 : 0
     #$rivalBattleID=pbRivalStarter
     #player.pw = 0 if !player.pw
     
@@ -3410,6 +3410,7 @@ class PWT
     ruleset = PokemonRuleSet.new
     ruleset.addPokemonRule(RestrictSpecies.new(banlist))
     ruleset.setNumberRange(length,length)
+    echoln "MAX LENGTH: #{@battle_type}-#{length}"
     pbFadeOutIn(99999){
       if defined?(PokemonParty_Scene)
         scene = PokemonParty_Scene.new
