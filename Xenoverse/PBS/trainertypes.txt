@@ -1,6 +1,6 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
-0,PkMnTRAINER_Male,PkMn Trainer,100,,,,Male,
-1,PkMnTRAINER_Female,PkMn Trainer,100,,,,Female,
+0,PkMnTRAINER_Male,PkMn Trainer,100,,victory champion,,Male,127
+1,PkMnTRAINER_Female,PkMn Trainer,100,,victory champion,,Female,127
 2,LASS,Lass,24,,,,Female,
 3,YOUNGSTER,Youngster,24,,,,Male,
 4,HIKER,Hiker,50,,,,Male,

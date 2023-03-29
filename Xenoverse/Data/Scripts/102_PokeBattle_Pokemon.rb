@@ -269,8 +269,6 @@ class PokeBattle_Pokemon
 
 =end
     abilities = getAbilityList()
-    echoln "COMME' ABILITIES di #{@name}?"
-    echoln abilities
     ret = hasHiddenAbility?() ? abilities[-1][0] : abilities[0][0] #has standard ability unless an override is found
     for i in abilities
       ret = i[0] if abil == i[1]
