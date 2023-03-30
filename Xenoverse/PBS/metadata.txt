@@ -4152,7 +4152,7 @@ WildBattleBGM=VS. Reginalous.mp3
 ShowArea=false
 [691]
 # Tomba Rosa
-Bicycle=true
+Bicycle=false
 Outdoor=false
 ShowArea=true
 [692]
