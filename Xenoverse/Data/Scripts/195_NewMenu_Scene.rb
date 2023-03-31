@@ -76,14 +76,14 @@ class NewMenu_Selector < Sprite
   end
   
   # Metodi
-  def moveLeft
-    @index = (@index - 1) % @menu.noItems
+  def moveLeft(index)
+    index = (index - 1) % @menu.noItems
     self.fade(0, 4)
     @updating = true
   end
   
-  def moveRight
-    @index = (@index + 1) % @menu.noItems
+  def moveRight(index)
+    index = (index + 1) % @menu.noItems
     self.fade(0, 4)
     @updating = true
   end
@@ -360,14 +360,24 @@ class NewMenu
 	def handleInput
 		Input.update
 		if Input.trigger?(Input::LEFT)
-			@index = (@index - (@items[@index - 1] == nil ? 2 : 1)) % @noItems
+			return if @items.length == 0
+			@index = (@index - 1) % @items.length
+			if @items[@index] == nil
+				while @items[index] == nil
+					@index = (@index - 1) % @items.length
+				end	
+			end
 			@sprites["selector"].animate
 			@sprites["text"].updateText(@items[@index].displayedName)
 			pbSEPlay("Select")
 		elsif Input.trigger?(Input::RIGHT)
-			@index += 1
-			@index = 0 if @index == @items.length
-			@index += 1 if @items[@index] == nil
+			return if @items.length == 0
+			@index = (@index + 1) % @items.length
+			if @items[@index] == nil
+				while @items[index] == nil
+					@index = (@index + 1) % @items.length
+				end	
+			end
 			@sprites["selector"].animate
 			@sprites["text"].updateText(@items[@index].displayedName)# if @items[@index] != nil
 			pbSEPlay("Select")

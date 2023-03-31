@@ -1018,6 +1018,7 @@ def getLineBrokenChunksH(bitmap,value,width,dims,plain=false,th=32)
   x=0
   y=0
   textheight=th
+  echoln "BROKEN CHUNKS OUTPUT"
   ret=[]
   if dims
     dims[0]=0
@@ -1027,7 +1028,7 @@ def getLineBrokenChunksH(bitmap,value,width,dims,plain=false,th=32)
   reNoMatch=/<c=[^>]+>/
   return ret if !bitmap || bitmap.disposed? || width<=0
   textmsg=value.clone
-  lines=0
+  lines=1
   color=Font.default_color
   while (c = textmsg.slice!(/\n|\S*\-+|(\S*([ \r\t\f]?))/)) != nil
     break if c==""
@@ -1037,6 +1038,7 @@ def getLineBrokenChunksH(bitmap,value,width,dims,plain=false,th=32)
       y+=(textheight==0) ? bitmap.text_size("X").height : textheight
       #textheight=0
       lines+=1
+      #echoln "a capo detected! n type"
       next
     end
     if ccheck[/</] && !plain
@@ -1052,11 +1054,13 @@ def getLineBrokenChunksH(bitmap,value,width,dims,plain=false,th=32)
       if word && word!=""
         textSize=bitmap.text_size(word)
         textwidth=textSize.width
+        #echoln "textwidth! #{textwidth} - #{width} - #{x>0 && x+textwidth>=width-2}"
         if x>0 && x+textwidth>=width-2
           x=0
           y+=(textheight==0) ? 32 : textheight#32 # (textheight==0) ? bitmap.text_size("X").height : textheight
           #textheight=0
           lines+=1
+          #echoln "a capo detected! #{word}"
         end
         textheight=32 if textheight==0# [textheight,textSize.height].max
         ret.push([word,x,y,textwidth,textheight,color])
@@ -1069,6 +1073,7 @@ def getLineBrokenChunksH(bitmap,value,width,dims,plain=false,th=32)
     end
   end
   dims[1]=y+textheight if dims
+  echoln "LINEE BASE: #{lines}"
   return ret
 end
 
@@ -1076,6 +1081,7 @@ def getLinesByTextAndValues(bitmap,value,width,dims,plain=false,th=32)
   x=0
   y=0
   textheight=th
+  echoln "GET LINES OUTPUT"
   ret=[]
   if dims
     dims[0]=0
@@ -1085,7 +1091,7 @@ def getLinesByTextAndValues(bitmap,value,width,dims,plain=false,th=32)
   reNoMatch=/<c=[^>]+>/
   return ret if !bitmap || bitmap.disposed? || width<=0
   textmsg=value.clone
-  lines=0
+  lines=1
   color=Font.default_color
   while (c = textmsg.slice!(/\n|\S*\-+|(\S*([ \r\t\f]?))/)) != nil
     break if c==""
@@ -1096,7 +1102,7 @@ def getLinesByTextAndValues(bitmap,value,width,dims,plain=false,th=32)
       #lines+=1
       #textheight=0
       lines+=1
-      echoln "a capo detected! n type"
+      #echoln "a capo detected! n type"
       next
     end
     if ccheck[/</] && !plain
@@ -1112,12 +1118,12 @@ def getLinesByTextAndValues(bitmap,value,width,dims,plain=false,th=32)
       if word && word!=""
         textSize=bitmap.text_size(word)
         textwidth=textSize.width
-        echoln "textwidth! #{textwidth} - #{width} - #{x>0 && x+textwidth>=width-2}"
+        #echoln "textwidth! #{textwidth} - #{width} - #{x>0 && x+textwidth>=width-2}"
         if x>0 && x+textwidth>=width-2
           x=0
           y+=(textheight==0) ? 32 : textheight#32 # (textheight==0) ? bitmap.text_size("X").height : textheight
           lines+=1
-          echoln "a capo detected! #{word}"
+          #echoln "a capo detected! #{word}"
           #textheight=0
         end
         textheight=32 if textheight==0# [textheight,textSize.height].max
@@ -1132,5 +1138,5 @@ def getLinesByTextAndValues(bitmap,value,width,dims,plain=false,th=32)
   end
   echoln "by lines linesCount! #{lines} - #{lines == 0 ? (value != "" ? 1 : 0) : lines}"
   dims[1]=y+textheight if dims
-  return lines == 0 ? (value != "" ? 1 : 0) : lines
+  return lines == 1 ? (value != "" ? 1 : 0) : (lines)
 end
