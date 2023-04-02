@@ -257,4 +257,3 @@
 257,DRAGONSMAW,Dragomascelle,"Potenzia le mosse di tipo Drago."
 258,TRANSISTOR,Transistor,"Potenzia le mosse di tipo Elettro."
 259,SUPREMEOVERLORD,Generale Supremo,"Quando entra in campo aumenta i suoi attacchi per ciascuno dei suoi compagni andati KO."
-260,MYSTICWIND,Vento Mistico,"Il Pokémon ottiene le resistenze del tipo Folletto."
