@@ -184,6 +184,8 @@ Sì
 [Map124]
 [Map125]
 [Map126]
+Parte dell'essere saggi è essere coscenti delle proprie capacità.
+Parte dell'essere saggi è essere coscienti delle proprie capacità.
 [Map127]
 [Map128]
 [Map129]
@@ -620,6 +622,9 @@ Sì
 [Map561]
 [Map562]
 [Map563]
+[Map692]
+<<[>>old<<]>>Lo studio dell peculiare cristallo rinvenuto durante gli scavi sta procendendo come pianificato.
+<<[>>old<<]>>Lo studio del peculiare cristallo rinvenuto durante gli scavi sta procendendo come pianificato.
 [1]
 0
 ????????

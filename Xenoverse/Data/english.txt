@@ -26928,6 +26928,12 @@ Non trovi nulla di strano?
 You don’t find anything strange?
 Io non dovrei essere qui, ricordi?
 I’m not supposed to be here, remember?
+Preferirei suonare la mia chitarra piuttosto di perdere tempo a lottare... ma per accedere a palchi del genere, non posso tirarmi indietro!
+I’d rather play my guitar than waste my time fighting... but to access such stages, I can’t back out!
+Ehi tu! Non credere di poterci fermare! Se c'è una cosa che accomuna noi due, è la perseveranza!
+Hey, you! Don’t go thinking you can stop us! If there’s one thing we have in common, it’s perseverance!
+Se c'è una regione che non conosco, devo assolutamente esplorarla! Dopo tutto, devo acchiapparli tutti! Mi sbaglio?
+If there is a region I don’t know, I must explore it! After all, I have to catch them all! Am I wrong?
 [Map624]
 <<[>>old<<]>>Trofeo Aura\nV.I.P: <b>Iridio</b> Allenatori Certificati: \PN
 <<[>>old<<]>>Aura Trophy\nV.I.P: <b>Gladion</b> Certified Trainers: \PN
@@ -29093,13 +29099,21 @@ See you soon, \PN!
 <<[>>old<<]>>Il tempo non scorre. Non senti una parola da giorni e giorni, ma sei costretto a vagare in quella landa senza un vero obbiettivo.
 <<[>>old<<]>>Time does not pass. You have not heard a word for days and days, but you are forced to wander in that wasteland without a real goal.
 <<[>>old<<]>>Come se fossi costretto a guardare un film in sala da solo, ma la pellicola è solo una strada infinita.
-<<[>>old<<]>>It’s like I’m forced to watch a movie alone, but the film is just an endless road.
+<<[>>old<<]>>It’s like you're forced to watch a movie alone, but the film is just an endless road.
 <<[>>old<<]>>Fino a che, all'improvviso ti senti colmo di rabbia e rancore. 
 <<[>>old<<]>>Until all of a sudden, you feel angry and resentful.
 <<[>>old<<]>>In quel momento comprendi finalmente cos'è che stai guardando...
 <<[>>old<<]>>In that moment you finally understand what you’re looking at...
 <<[>>old<<]>>Non puoi tornare indietro.
 <<[>>old<<]>>You can't go back.
+<<[>>old<<]>>Fino a che, all'improvviso ti senti colma di rabbia e rancore. 
+<<[>>old<<]>>Until all of a sudden, you feel angry and resentful.
+<<[>>old<<]>>Quel paesaggio triste e desolato che più di una volta ti sei ritrovata ad osservare...
+<<[>>old<<]>>That sad and desolate landscape that more than once you found yourself observing...
+<<[>>old<<]>>Il tempo non scorre. Non senti una parola da giorni e giorni, ma sei costretta a vagare in quella landa senza un vero obbiettivo.
+<<[>>old<<]>>Time does not pass. You have not heard a word for days and days, but you are forced to wander in that wasteland without a real goal.
+<<[>>old<<]>>Come se fossi costretto a guardare un film in sala da sola, ma la pellicola è solo una strada infinita.
+<<[>>old<<]>>It’s like you're forced to watch a movie alone, but the film is just an endless road.
 [Map663]
 Versil
 Versil
