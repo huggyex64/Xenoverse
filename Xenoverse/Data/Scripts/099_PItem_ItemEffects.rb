@@ -605,8 +605,30 @@ ItemHandlers::UseOnPokemon.copy(:FIRESTONE,
    :BOTTRAPANO,:BOTSAETTA,:BOTPRESSIONE,:BOTFORZA,:BOTPANNA,
    :BOTANTICO,:BOTTENEREZZA,:BOTERRORE,:BOTWES,:XENOLITE,
    :ICESTONE,:EVOPUPPILLON,:PEZZIDIRICAMBIO,:BOTINFERNO,
-   :BOTDRAGO,:POISONSTONE,:BOTPINZA,:BOTREGALE,:ANCIENTSTONE,
+   :BOTDRAGO,:POISONSTONE,:BOTPINZA,:BOTREGALE,
    :ARMFAUSTA,:ARMINFAUSTA,:BOTSGUSCIATO,:BOTCAVALIERE)
+
+ItemHandlers::UseOnPokemon.add(:ANCIENTSTONE,proc{|item,pokemon,scene|
+    if (pokemon.isShadow? rescue false)
+      scene.pbDisplay(_INTL("It won't have any effect."))
+      next false
+    end
+    newspecies=pbCheckEvolution(pokemon,item)
+    if newspecies<=0
+      scene.pbDisplay(_INTL("It won't have any effect."))
+      next false
+    else
+      pbFadeOutInWithMusic(99999){
+         evo=PokemonEvolutionScene.new
+         evo.pbStartScreen(pokemon,newspecies,PBItems::ANCIENTSTONE)
+         evo.pbEvolution(false,PBItems::ANCIENTSTONE)
+         evo.pbEndScreen
+         scene.pbRefreshAnnotations(proc{|p| pbCheckEvolution(p,item)>0 })
+         scene.pbRefresh
+      }
+      next true
+    end
+ })
 
 ItemHandlers::UseOnPokemon.add(:PINKSTONE,proc{|item,pokemon,scene|
   if (pokemon.isShadow? rescue false)
@@ -625,6 +647,8 @@ ItemHandlers::UseOnPokemon.add(:PINKSTONE,proc{|item,pokemon,scene|
     next false
   end
 })
+
+
 
 ItemHandlers::UseOnPokemon.add(:POTION,proc{|item,pokemon,scene|
    next pbHPItem(pokemon,20,scene)

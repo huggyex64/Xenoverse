@@ -188,11 +188,6 @@ title = Fantasmi, non vi temo!
 description = Aiuta la S.P.E.T.T.R.I. alle prese con lo spirito del saloon.
 amount = 1
 image = 38_spettri
-[Ohana]
-title = Ohana
-description = Sfida e sconfiggi tuo padre Versil.
-amount = 1
-image = 39_ohana
 [Mamma]
 title = La mamma è sempre la mamma
 description = Sfida e sconfiggi tua madre Edera.
@@ -233,11 +228,6 @@ title = Ombre del passato
 description = Completa l'evento di Marshadow nel saloon.
 amount = 1
 image = 47_ombre
-[Fuga]
-title = L'esperimento in fuga
-description = Sconfiggi o cattura il boss Lucario X.
-amount = 1
-image = 48_fuga
 [Talent]
 title = Talent Scout
 description = Completa l'evento di Meloetta.

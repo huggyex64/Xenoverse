@@ -67,7 +67,7 @@ class PokemonEvolutionScene
 	# Starts the evolution screen with the given Pokemon and new Pokemon species.
 	public
 	
-	def pbStartScreen(pokemon,newspecies)
+	def pbStartScreen(pokemon,newspecies,item=0)
 		@sprites={}
 		@viewport=Viewport.new(0,0,Graphics.width,Graphics.height)
 		@viewport.z=99999
@@ -103,7 +103,7 @@ class PokemonEvolutionScene
 		pk.setNature(@pokemon.nature)
 		pk.makeShiny if @pokemon.isShiny?
 		pk.makeDelta if @pokemon.isDelta?
-		pk.checkEvolutionForm
+		pk.checkEvolutionForm(item)
 		
 		@sprites["pokemon1"]=PokemonSpriteBW.new(@viewport)
 		@sprites["pokemon1"].setPokemonBitmap(@pokemon,false)
@@ -476,7 +476,7 @@ class PokemonEvolutionScene
 		
 	end
 	# Opens the evolution screen
-	def pbEvolution(cancancel=true)
+	def pbEvolution(cancancel=true,item=0)
 		metaplayer1=SpriteMetafilePlayer.new(@metafile1,@sprites["rsprite1"])
 		metaplayer2=SpriteMetafilePlayer.new(@metafile2,@sprites["rsprite2"])
 		metaplayer1.play
@@ -533,7 +533,7 @@ class PokemonEvolutionScene
 				}
 				@pokemon.setItem(0) if removeItem
 				@pokemon.species=@newspecies
-				@pokemon.checkEvolutionForm
+				@pokemon.checkEvolutionForm(item)
 				puts "I CHECKED THE CORRECT FORM"
 				$Trainer.seen[@newspecies]=true
 				$Trainer.owned[@newspecies]=true

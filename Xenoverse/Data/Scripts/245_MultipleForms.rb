@@ -187,8 +187,8 @@ class PokeBattle_Pokemon
 		return self.__mf_evYield
 	end
 
-	def checkEvolutionForm
-		f=MultipleForms.call("getFormOnEvolution",self)
+	def checkEvolutionForm(item=0)
+		f=MultipleForms.call("getFormOnEvolution",self,item)
 		if f != nil
 			self.form=f
 		end
@@ -3606,7 +3606,11 @@ MultipleForms.register(:TYPHLOSION,{
 		  movelist[i]=getConst(PBMoves,movelist[i]) if getConst(PBMoves,movelist[i])!=nil
 		end
 		next movelist
-	 },
+	 },	 
+	"getFormOnEvolution"=>proc{|pokemon,item|
+		next 2 if pokemon.form==0 && item == PBItems::ANCIENTSTONE
+		next			
+	},
 })
 
 # TOTODILE

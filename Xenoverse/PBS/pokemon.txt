@@ -4244,8 +4244,8 @@ Kind=Vulcano
 Pokedex=Intimorisce i nemici con il calore delle sue fiamme. Se è pronto a lottare, le vampate sono più ardenti.
 BattlerPlayerY=16
 BattlerEnemyY=27
-Evolutions=TYPHLOSION,Level,36
-FormNames=,Swap
+Evolutions=TYPHLOSION,Level,36,TYPHLOSION,Item,ANCIENTSTONE
+FormNames=,Swap,Hisuian
 [157]
 Name=Typhlosion
 InternalName=TYPHLOSION

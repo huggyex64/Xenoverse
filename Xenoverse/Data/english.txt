@@ -20662,7 +20662,7 @@ Il Campione ti sta aspettando sulla vetta del Monte Zodiaco. La battaglia finale
 ... io, Oleandro, l'ultimo dei Cardinali, ti sottoporrò alla ferocia dei Pokémon Drago! 
 ... io, Oleandro, l'ultimo dei Cardinali, ti sottoporrò alla ferocia dei Pokémon Drago! 
 Henné
-Henné
+Henna
 \PN! Che bello vederti qui.
 \PN! It's nice to see you here.
 Sorpreso|a? Oleandro mi ha nominato suo successore, e ora sono diventato un Cardinale!
@@ -20850,8 +20850,8 @@ Have you ever wondered, looking at the night sky, the age of the stars?
 A quanto pare, la maggior parte delle stelle ha più di un miliardo di anni.
 As it seems, most of them have more than a billion years.
 Claudio
-Claudio
- In confronto, le nostre vite sono veramente insignificanti.
+Ginger
+In confronto, le nostre vite sono veramente insignificanti.
 Compared to them, our lives are really insignificant.
 È per questo che dobbiamo impegnarci per brillare accanto a loro!
 This is why we must give our all to shine among them!
@@ -29801,7 +29801,7 @@ Shuuurooon!!
 <<[>>old<<]>>Vuoi entrare nello Xenoverse?
 <<[>>old<<]>>Would you like to enter the Xenoverse?
 Sì
-Sì
+Yes
 No
 No
 [Map695]
@@ -57049,6 +57049,10 @@ AliceP,2
 AliceP,2
 Bellocchio
 Looker
+Velia
+Roxie
+Sole
+Sun
 [14]
 I AM NEVER GOING TO LOSE !
 I AM NEVER GOING TO LOSE !
@@ -68421,3 +68425,15 @@ Mi hai spezzato come un fuscello...
 You broke me like a twig...
 E-Errore.
 E-Error.
+Velia
+Roxie
+Sole
+Sun
+Hehe, che battaglia!
+Hehe, what a fight!
+Il tuo sangue freddo ti fa onore...!
+Your cold blood does you honor...!
+Sei proprio come una corrente ascensionale...!
+You are just like a rising current...!
+Eh eh… Sono rimasto scottato...!
+He he… I was burned...!
