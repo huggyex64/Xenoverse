@@ -38104,3 +38104,5 @@ Scegli i tuoi Pokémon.
 {1} dà un {2} a {3}!
 Do you want to use the Pink Stone on {1}?
 Vuoi usare la Pietra Rosa su {1}?
+You can hear a crumbling sound.
+Puoi sentire una parete franare.
