@@ -1245,6 +1245,13 @@ SWAPSTYLES = {
   PBSpecies::MRMIME => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
   PBSpecies::GENGAR => [proc {|x| x.form == 0},proc {|x| x.form = 2}],
 
+  
+  PBSpecies::LINOONE => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::INKAY => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::TORRACAT => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::SALANDIT => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+  PBSpecies::XATU => [proc {|x| x.form == 0},proc {|x| x.form = 1}],
+
 }
 
 def pbMakeSwap(pokemon)
