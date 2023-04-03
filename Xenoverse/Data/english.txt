@@ -26286,13 +26286,13 @@ Boostaph
 <<[>>old<<]>>Artist:scribblez_on_a_page.
 <<[>>old<<]>>Artist:scribblez_on_a_page.
 Un tempo ero un cacciatore di pokémon cromatici, finchè non mi sono beccato un arrowkuda nel ginocchio.
-Un tempo ero un cacciatore di pokémon cromatici, finchè non mi sono beccato un arrowkuda nel ginocchio.
+Long ago I was a Shiny Pokémon Hunter, until I got hit with an Arrowkuda in my knee.
 C'è una persona che non sopporto. Solo al pensiero mi disgusta!
-C'è una persona che non sopporto. Solo al pensiero mi disgusta!
+There's only one person I can't stand. Just thinking about them disgusts me!
 Pastaio
 Pastaio
 Questo spettacolo è stupendo. (Ma Bidoof di più).
-Questo spettacolo è stupendo. (Ma Bidoof di più).
+This show is breathtaking. (Bidoof is more though).
 Sì
 Yes
 No
@@ -29638,7 +29638,7 @@ Reginalous
 ...!
 [Map691]
 Bellocchio
-Looker!
+Looker
 Attenzione! Attenzione! L'accesso è limitato al personale...
 Careful! Careful! Access is restricted to authorized personnel...
 Ah, ma sei tu, \PN!
