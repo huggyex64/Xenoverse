@@ -29615,7 +29615,6 @@ In quell'inferno, eri l'unico a tenermi compagnia...
 In that hell, you were the only one to keep me company...
 Ma quello stramaledetto pezzo di terra mi infastidiva ancora di più!
 But that damned piece of rock bothered me even more!
-
 Non pensarci troppo su.
 Don’t think too hard about it.
 È il momento di tornare con te, eh? Alla fine non è poi così male, sai...
@@ -29630,9 +29629,8 @@ In quell'inferno, eri l'unica a tenermi compagnia...
 In that hell, you were the only one to keep me company...
 Combatti contro Vakuum
 Fight against Vakuum
-Combatti contro Vakuum
-Fight against \PN
 Combatti contro \PN
+Fight against \PN
 [Map690]
 Reginalous
 Reginalous
