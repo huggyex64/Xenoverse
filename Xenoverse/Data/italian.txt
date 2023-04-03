@@ -10869,7 +10869,8 @@ Le corna ramificate modificano le correnti d'aria, creando una strana zona di di
 Delimita i confini del suo territorio dipingendo segni particolari con il fluido corporeo che secerne dalla punta della coda.
 Delimita i confini del suo territorio dipingendo segni particolari con il fluido corporeo che secerne dalla punta della coda.
 236
-Tyrogue ha bisogno di allenarsi ogni giorno per scaricare la sua energia. Gli allenatori che lo allevano devono stabilire e praticare diveTgni giorno per scaricare la sua energia. Gli allenatori che lo allevano devono stabilire e praticare diverse metodologie di allenamento.
+Tyrogue ha bisogno di allenarsi ogni giorno per scaricare la sua energia. Gli allenatori che lo allevano devono stabilire e praticare diverse metodologie di allenamento.
+Tyrogue ha bisogno di allenarsi ogni giorno per scaricare la sua energia. Gli allenatori che lo allevano devono stabilire e praticare diverse metodologie di allenamento.
 237
 Combatte mentre gira come una trottola. La forza centrifuga decuplica il suo potere distruttivo.
 Combatte mentre gira come una trottola. La forza centrifuga decuplica il suo potere distruttivo.
@@ -13579,7 +13580,6 @@ Il suo corpo è formato da energia Drago cristallizzata. Pare che possieda i pot
 2052
 Il suo corpo è formato da energia Anomala proveniente da varie dimensioni. Crea dei forti venti di color rosa splendente che modifica le alterazioni di ogni dimensione.
 Il suo corpo è formato da energia Anomala proveniente da varie dimensioni. Crea dei forti venti di color rosa splendente che modifica le alterazioni di ogni dimensione.
-
 [4]
 19
 Kanto,Alola
