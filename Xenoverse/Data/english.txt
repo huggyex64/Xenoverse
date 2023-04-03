@@ -20162,13 +20162,13 @@ C'mon, let's go!!
 <<[>>old<<]>>Dove vuoi andare?
 <<[>>old<<]>>Where do you want to go?
 Zona Strofa
-Zona Strofa
+Strofa Zone
 Zona Ritornello
-Zona Ritornello
+Ritornello Zone
 Zona Ponte
-Zona Ponte
+Ponte Zone
 Zona Interludio
-Zona Interludio
+Interludio Zone
 [Map384]
 [Map385]
 Aster
@@ -29806,9 +29806,9 @@ No
 No
 [Map695]
 <<[>>old<<]>>Vuoi tornare indietro?
-<<[>>old<<]>>Vuoi tornare indietro?
+<<[>>old<<]>>Would you like to go back?
 Sì
-Sì
+Yes
 No
 No
 [1]
