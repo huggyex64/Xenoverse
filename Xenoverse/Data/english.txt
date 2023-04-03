@@ -52966,11 +52966,11 @@ Shields Down
 Spalaneve
 Slush Rush
 228
-Cuoreanima
-Soul-Heart
+Transistor
+Transistor
 229
-Sorveglianza
-Stakeout
+Generale Supremo
+Supreme Overlord
 230
 Sopportazione
 Stamina
@@ -52984,11 +52984,11 @@ Surge Surfer
 Boccolidoro
 Tangling Hair
 234
-Primacura
-Triage
+Vento Mistico
+Mystic Wind
 235
-Bolladacqua
-Water Bubble
+Dragomascelle
+Dragon's Maw
 236
 Idrorinforzo
 Water Compaction
@@ -53061,6 +53061,9 @@ Transistor
 259
 Generale Supremo
 Supreme Overlord
+260
+Vento Mistico
+Mystic Wind
 [10]
 1
 A volte fa tentennare i nemici.
@@ -53744,11 +53747,11 @@ Se i PS scendono a metà o meno, il guscio si rompe e il Pokémon si prepara all
 Raddoppia la Velocità sotto la grandine, non subendone i danni.
 Boosts the Pokémon's Speed stat in a hailstorm.
 228
-Aumenta l'Attacco Speciale ogni volta che un Pokémon va KO.
-Aumenta l'Attacco Speciale ogni volta che un Pokémon va KO.
+Potenzia le mosse di tipo Elettro.
+Powers up Electric-type moves.
 229
-Raddoppia i danni inflitti a un bersaglio che è appena entrato in campo per sostituire un altro Pokémon.
-Raddoppia i danni inflitti a un bersaglio che è appena entrato in campo per sostituire un altro Pokémon.
+Quando entra in campo aumenta i suoi attacchi per ciascuno dei suoi compagni andati KO.
+When the Pokémon enters a battle, its attacks are boosted for each of the allies that have gone KO.
 230
 Se il Pokémon subisce un attacco, la sua Difesa aumenta.
 Boosts the Defense stat when hit by an attack.
@@ -53762,11 +53765,11 @@ Doubles the Pokémon's Speed stat on Electric Terrain.
 Se il Pokémon viene colpito da un attacco diretto, la Velocità di chi l'ha colpito diminuisce.
 Contact with the Pokémon lowers the attacker's Speed stat.
 234
-Le mosse che ripristinano direttamente i PS del Pokémon acquistano priorità alta.
-Le mosse che ripristinano direttamente i PS del Pokémon acquistano priorità alta.
+Il Pokémon ottiene le resistenze del tipo Folletto.
+The Pokémon obtains the resistances of the Fairy type.
 235
-Riduce la potenza delle mosse di tipo Fuoco subite e rende immuni alle scottature.
-Lowers the power of Fire-type moves and prevents it from getting a burn.
+Potenzia le mosse di tipo Drago.
+Powers up Dragon-type moves.
 236
 Se il Pokémon subisce mosse di tipo Acqua, la sua Difesa aumenta di molto.
 Boosts the Pokémon's Defense stat sharply when hit by a Water-type move.
@@ -53839,6 +53842,9 @@ Powers up Electric-type moves.
 259
 Quando entra in campo aumenta i suoi attacchi per ciascuno dei suoi compagni andati KO.
 When the Pokémon enters a battle, its attacks are boosted for each of the allies that have gone KO.
+260
+Il Pokémon ottiene le resistenze del tipo Folletto.
+The Pokémon obtains the resistances of the Fairy type.
 [11]
 0
 NORMAL

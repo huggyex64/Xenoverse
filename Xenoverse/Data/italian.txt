@@ -10854,10 +10854,7 @@ Per circondare la preda, gli Houndour si comunicano la posizione reciproca con u
 Mette KO il nemico sputando fiamme che contengono una tossina. Divide\n equamente le prede con il resto del branco.
 Mette KO il nemico sputando fiamme che contengono una tossina. Divide\n equamente le prede con il resto del branco.
 230
-Dorme sul fondo delle'oceano per ricaricarsi di energia. Si dice che causi uragani quando si sveglia.
-Dorme sul fondo dell'oceano per ricaricarsi di energia. Si dice che causi uragani quando si sveglia.
-231
-Agita la proboscide per gioco, ma e' cosi' forte che puo' essere pericoloso.
+Dorme sul fondo delle'oceano per ricaricar roboscide per gioco, ma e' cosi' forte che puo' essere pericoloso.
 Agita la proboscide per gioco, ma e' cosi' forte che puo' essere pericoloso.
 232
 Donphan adora attaccare arrotolandosi in forma sferica e puntando sul nemico ad elevata velocita'. Una volta partito, questo Pokemon e' molto difficile da fermare.
@@ -10872,8 +10869,7 @@ Le corna ramificate modificano le correnti d'aria, creando una strana zona di di
 Delimita i confini del suo territorio dipingendo segni particolari con il fluido corporeo che secerne dalla punta della coda.
 Delimita i confini del suo territorio dipingendo segni particolari con il fluido corporeo che secerne dalla punta della coda.
 236
-Tyrogue ha bisogno di allenarsi ogni giorno per scaricare la sua energia. Gli allenatori che lo allevano devono stabilire e praticare diverse metodologie di allenamento.
-Tyrogue ha bisogno di allenarsi ogni giorno per scaricare la sua energia. Gli allenatori che lo allevano devono stabilire e praticare diverse metodologie di allenamento.
+Tyrogue ha bisogno di allenarsi ogni giorno per scaricare la sua energia. Gli allenatori che lo allevano devono stabilire e praticare diveTgni giorno per scaricare la sua energia. Gli allenatori che lo allevano devono stabilire e praticare diverse metodologie di allenamento.
 237
 Combatte mentre gira come una trottola. La forza centrifuga decuplica il suo potere distruttivo.
 Combatte mentre gira come una trottola. La forza centrifuga decuplica il suo potere distruttivo.
@@ -13583,6 +13579,7 @@ Il suo corpo è formato da energia Drago cristallizzata. Pare che possieda i pot
 2052
 Il suo corpo è formato da energia Anomala proveniente da varie dimensioni. Crea dei forti venti di color rosa splendente che modifica le alterazioni di ogni dimensione.
 Il suo corpo è formato da energia Anomala proveniente da varie dimensioni. Crea dei forti venti di color rosa splendente che modifica le alterazioni di ogni dimensione.
+
 [4]
 19
 Kanto,Alola
@@ -13735,8 +13732,8 @@ Ordinary Form,Resolute Form
 Aria Forme,Pirouette Forme
 Aria Forme,Pirouette Forme
 666
-Archipelago Pattern, Continental Pattern, Elegant Pattern, Garden Pattern, High Plains Pattern, Icy Snow Pattern, Jungle Pattern, Marine Pattern, Meadow Pattern, Modern Pattern, Monsoon Pattern, Ocean Pattern, Polar Pattern, River Pattern, Sandstorm Pattern, Savanna Pattern, Sun Pattern, Tundra Pattern, Pok� Ball Pattern, Fancy Pattern
-Archipelago Pattern, Continental Pattern, Elegant Pattern, Garden Pattern, High Plains Pattern, Icy Snow Pattern, Jungle Pattern, Marine Pattern, Meadow Pattern, Modern Pattern, Monsoon Pattern, Ocean Pattern, Polar Pattern, River Pattern, Sandstorm Pattern, Savanna Pattern, Sun Pattern, Tundra Pattern, Pok� Ball Pattern, Fancy Pattern
+Archipelago Pattern, Continental Pattern, Elegant Pattern, Garden Pattern, High Plains Pattern, Icy Snow Pattern, Jungle Pattern, Marine Pattern, Meadow Pattern, Modern Pattern, Monsoon Pattern, Ocean Pattern, Polar Pattern, River Pattern, Sandstorm Pattern, Savanna Pattern, Sun Pattern, Tundra Pattern, Pok  Ball Pattern, Fancy Pattern
+Archipelago Pattern, Continental Pattern, Elegant Pattern, Garden Pattern, High Plains Pattern, Icy Snow Pattern, Jungle Pattern, Marine Pattern, Meadow Pattern, Modern Pattern, Monsoon Pattern, Ocean Pattern, Polar Pattern, River Pattern, Sandstorm Pattern, Savanna Pattern, Sun Pattern, Tundra Pattern, Pok  Ball Pattern, Fancy Pattern
 668
 Pyroar male, Pyroar female
 Pyroar male, Pyroar female
@@ -23538,11 +23535,11 @@ Scudosoglia
 Spalaneve
 Spalaneve
 228
-Cuoreanima
-Cuoreanima
+Transistor
+Transistor
 229
-Sorveglianza
-Sorveglianza
+Generale Supremo
+Generale Supremo
 230
 Sopportazione
 Sopportazione
@@ -23556,11 +23553,11 @@ Codasurf
 Boccolidoro
 Boccolidoro
 234
-Primacura
-Primacura
+Vento Mistico
+Vento Mistico
 235
-Bolladacqua
-Bolladacqua
+Dragomascelle
+Dragomascelle
 236
 Idrorinforzo
 Idrorinforzo
@@ -24283,11 +24280,11 @@ Se i PS scendono a metà o meno, il guscio si rompe e il Pokémon si prepara all
 Raddoppia la Velocità sotto la grandine, non subendone i danni.
 Raddoppia la Velocità sotto la grandine, non subendone i danni.
 228
-Aumenta l'Attacco Speciale ogni volta che un Pokémon va KO.
-Aumenta l'Attacco Speciale ogni volta che un Pokémon va KO.
+Potenzia le mosse di tipo Elettro.
+Potenzia le mosse di tipo Elettro.
 229
-Raddoppia i danni inflitti a un bersaglio che è appena entrato in campo per sostituire un altro Pokémon.
-Raddoppia i danni inflitti a un bersaglio che è appena entrato in campo per sostituire un altro Pokémon.
+Quando entra in campo aumenta i suoi attacchi per ciascuno dei suoi compagni andati KO.
+Quando entra in campo aumenta i suoi attacchi per ciascuno dei suoi compagni andati KO.
 230
 Se il Pokémon subisce un attacco, la sua Difesa aumenta.
 Se il Pokémon subisce un attacco, la sua Difesa aumenta.
@@ -24301,11 +24298,11 @@ In presenza di un Campo Elettrico, la Velocità raddoppia.
 Se il Pokémon viene colpito da un attacco diretto, la Velocità di chi l'ha colpito diminuisce.
 Se il Pokémon viene colpito da un attacco diretto, la Velocità di chi l'ha colpito diminuisce.
 234
-Le mosse che ripristinano direttamente i PS del Pokémon acquistano priorità alta.
-Le mosse che ripristinano direttamente i PS del Pokémon acquistano priorità alta.
+Il Pokémon ottiene le resistenze del tipo Folletto.
+Il Pokémon ottiene le resistenze del tipo Folletto.
 235
-Riduce la potenza delle mosse di tipo Fuoco subite e rende immuni alle scottature.
-Riduce la potenza delle mosse di tipo Fuoco subite e rende immuni alle scottature.
+Potenzia le mosse di tipo Drago.
+Potenzia le mosse di tipo Drago.
 236
 Se il Pokémon subisce mosse di tipo Acqua, la sua Difesa aumenta di molto.
 Se il Pokémon subisce mosse di tipo Acqua, la sua Difesa aumenta di molto.
