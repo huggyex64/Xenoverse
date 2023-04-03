@@ -571,5 +571,5 @@ NO_KIND_SET (DO NOT REMOVE THIS LINE)
 (MegaEvolution)\n To protect its Trainer, it will expend all its psychic power to create a small black hole.
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
 NO_KIND_SET (DO NOT REMOVE THIS LINE)
-(Forma di Hisui)\n Reputo l'atmosfera del monte sacro che si erge nel cuore di Hisui causa del suo mutato aspetto. Si dice mondi le anime smarrite con le proprie vampe per condurle verso l'aldilà.
-(Hisuian Form)\n Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui's center.
+(Forma di Hisui)\n Si dice mondi le anime smarrite con le proprie vampe per condurle verso l'aldilà.
+(Hisuian Form)\n Said to purify lost, forsaken souls with its flames and guide them to the afterlife.

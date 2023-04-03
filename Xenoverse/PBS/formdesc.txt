@@ -555,4 +555,5 @@ DESCRIPTION=(MegaEvoluzione)\n L'energia della MegaEvoluzione ha reso il suo cor
 [282_1]
 DESCRIPTION=(MegaEvoluzione)\n Per proteggere l’Allenatrice o l’Allenatore dal pericolo, utilizza tutti i poteri psichici di cui dispone per creare un piccolo buco nero.
 [157_2]
-DESCRIPTION=(Forma di Hisui)\n Reputo l'atmosfera del monte sacro che si erge nel cuore di Hisui causa del suo mutato aspetto. Si dice mondi le anime smarrite con le proprie vampe per condurle verso l'aldilà.
+TYPE2=7
+DESCRIPTION=(Forma di Hisui)\n Si dice mondi le anime smarrite con le proprie vampe per condurle verso l'aldilà.
