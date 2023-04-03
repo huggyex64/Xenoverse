@@ -946,7 +946,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -1288,7 +1288,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -1960,7 +1960,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -2282,7 +2282,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -6276,7 +6276,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -6657,7 +6657,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -8840,7 +8840,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -11636,7 +11636,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -13064,7 +13064,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -16431,7 +16431,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -16924,7 +16924,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -18237,7 +18237,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -21242,7 +21242,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -21570,7 +21570,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -21782,7 +21782,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -26811,7 +26811,7 @@ Gengar
 Forza, forza! Deve essere tutto perfetto!
 Come on! Everything has to be perfect!
 Oh, \PN! Finalmente sei arrivato|a!
-Oh,  PN! You're finally here!
+Oh, \PN! You're finally here!
 Parteciperai al Torneo? Il pubblico andrà in visibilio quando ti vedrà entrare!
 Will you participate in the Tournament? The audience will be thrilled as they see you enter!
 Sai, personalmente spero che questo Torneo riesca a radunare molte persone.
@@ -26845,15 +26845,15 @@ Season 1
 Season 2
 Season 2
 Torneo Memoria
-Torneo Memoria
+Memory Tournament
 Season 3
 Season 3
 Torneo Ombra
-Torneo Ombra
+Shadow Tournament
 Torneo Cranioso
-Torneo Cranioso
+Skull Tournament
 Torneo Leggenda
-Torneo Leggenda
+Legend Tournament
 [Map622]
 Sì
 Yes
@@ -26897,7 +26897,7 @@ I feel that martial arts can help me remember my past... Maybe by fighting with 
 Sono venuto in questa regione per affari, ma ogni tanto è bello rievocare i vecchi tempi! Sappi che sono molto forte, diamoci dentro!
 I came to this region for business, but once in a while it’s good to recall the old times! I’ll let you know that I’m very strong, let’s do this!
 Bellocchio
-Bellocchio
+Looker
 Ah ah, guarda chi c'è! Sarai anche una leggenda ad Eldiw, ma ti assicuro che so il fatto mio!
 Ah ah, look who’s here! You may be a legend in Eldiw, but I know my stuff too!
 \PN, preparati!
@@ -27070,7 +27070,7 @@ Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente c
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
 Nefi
- Ehi, ma tu sei \PN, dico bene?
+Ehi, ma tu sei \PN, dico bene?
 Hey, you're \PN, am I right?
 Devo assolutamente farti avere questo!
 I absolutely have to give you this!
@@ -29007,13 +29007,13 @@ Tsk...
 <<[>>old<<]>>Vuoi curare i tuoi Pokémon o usufruire del Sistema di Memoria?
 <<[>>old<<]>>Would you like to heal your Pokémon or use the Storage System?
 Sì
-Sì
+Yes
 No
 No
 Cura Pokémon
-Cura Pokémon
+Heal Pokémon
 Usa Box
-Usa Box
+Use Box
 [Map612]
 ???
 ???
@@ -29163,7 +29163,7 @@ Not yet, I need to train more...
 Il mio livello è ancora troppo basso...!
 My level is still too low...!
 Alisso
-Alisso
+Basil
 ...
 ...
 E tu chi saresti? ... ... ... Un Allenatore, forse? Io sono <b>Alisso</b>, Capopalestra di Balansopoli. Come una quercia secolare, sono solito mantenere la calma in qualsiasi situazione... Una, però, mi manda su tutte le furie: essere interrotto nel pieno della meditazione! Consiglio sempre di non sfidarmi quando accade, ma ormai quel che è fatto, è fatto! Fatti avanti, Allenatore!
@@ -29409,11 +29409,11 @@ Niente da fare... Devo assolutamente correre a cercare aiuto!
 No way... I absolutely must run for help!
 E tu chi sei? Non ti ho mai visto|a da queste parti...
 And who are you? I've never seen you around here before...
- Questi tizi non se la passano così male... Perchè fare così tanto il melodrammatico?
+Questi tizi non se la passano così male... Perchè fare così tanto il melodrammatico?
 These guys aren't doing too bad... Why all the drama?
 Sicuramente questo idiota proverà a mettersi in mezzo… E ancora una volta verrà elogiato e acclamato da tutti...
 This idiot here will surely get in the way yet again... And again he will be praised and hailed by all...
- Questi tizi non se la passano così male... Perchè fare così tanto la melodrammatica?
+Questi tizi non se la passano così male... Perchè fare così tanto la melodrammatica?
 These guys aren't doing too bad... Why all the drama?
 Sicuramente questa idiota proverà a mettersi in mezzo… E ancora una volta verrà elogiata e acclamata da tutti...
 This idiot here will surely get in the way yet again... And again she will be praised and hailed by all...
@@ -29630,9 +29630,9 @@ In quell'inferno, eri l'unica a tenermi compagnia...
 In that hell, you were the only one to keep me company...
 Combatti contro Vakuum
 Fight against Vakuum
-Combatti contro \PN
+Combatti contro Vakuum
 Fight against \PN
-
+Combatti contro \PN
 [Map690]
 Reginalous
 Reginalous
@@ -39817,7 +39817,7 @@ Its crystalline orbs appear to give this Pokémon the power to freely control\n 
 It is said that this kindhearted Pokémon constantly flies over the immense seas and rescues drowning people.
 150
 Un Pokemon creato usando i geni di Mew. Si dice che fra i Pokemon sia quello con l'animo piu' crudele.
-Un Pokemon creato usando i geni di Mew. Si dice che fra i Pokemon sia quello con l'animo piu' crudele.
+A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.
 151
 Pare che il suo DNA contenga i codici genetici di tutti i Pokémon; per questo può usare qualsiasi tecnica.
 Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques.
@@ -54643,28 +54643,28 @@ Evan
 (Dream Dweller)
 235
 (Selvaggio)
-(Selvaggio)
+(Wild Boy)
 236
 (Capopalestra)
-(Capopalestra)
+(Gym Leader)
 237
 (Capopalestra)
-(Capopalestra)
+(Gym Leader)
 239
 (S.P.E.T.T.R.I.)
-(S.P.E.T.T.R.I.)
+(G.E.I.S.T.)
 240
 (Allenatrice)
-(Allenatrice)
+(Trainer)
 241
 (S.P.E.T.T.R.I.)
-(S.P.E.T.T.R.I.)
+(G.E.I.S.T.)
 242
 (Capopalestra)
-(Capopalestra)
+(Gym Leader)
 243
 (Ex Comandante Dimension)
-(Ex Comandante Dimension)
+(Ex Dimension Commander)
 244
 (VIP)
 (VIP)
@@ -54691,37 +54691,37 @@ Evan
 (VIP)
 268
 (Creatore)
-(Creatore)
+(Creator)
 269
 (Creatore)
-(Creatore)
+(Creator)
 270
 (VIP)
 (VIP)
 271
 (Gemelli VIP)
-(Gemelli VIP)
+(VIP Twins)
 272
 (VIP)
 (VIP)
 273
 (Cardinale)
-(Cardinale)
+(Cardinal)
 274
 (Cardinale)
-(Cardinale)
+(Cardinal)
 275
 (Cardinale)
-(Cardinale)
+(Cardinal)
 276
 (Cardinale)
-(Cardinale)
+(Cardinal)
 277
 (Lumen)
 (Lumen)
 278
 (Investigatore)
-(Investigatore)
+(Detective)
 [13]
 Aria
 Skyler
@@ -57049,6 +57049,8 @@ AliceP,1
 AliceP,1
 AliceP,2
 AliceP,2
+Bellocchio
+Looker
 [14]
 I AM NEVER GOING TO LOSE !
 I AM NEVER GOING TO LOSE !
@@ -60882,124 +60884,124 @@ Orizzonte degli Eventi
 Event Horizon
 246
 Covo Dimension
-Covo Dimension
+Dimension Hideout
 567
 Cansiria
-Cansiria
+Fortbelt Town
 568
 Cansiria
-Cansiria
+Fortbelt Town
 569
 Cansiria
-Cansiria
+Fortbelt Town
 570
 Cansiria
-Cansiria
+Fortbelt Town
 571
 Cansiria
-Cansiria
+Fortbelt Town
 572
 Cansiria
-Cansiria
+Fortbelt Town
 573
 Cansiria
-Cansiria
+Fortbelt Town
 574
 Ofiuchia
-Ofiuchia
+Dorado Village
 575
 Ofiuchia
-Ofiuchia
+Dorado Village
 576
 Ofiuchia
-Ofiuchia
+Dorado Village
 577
 Ofiuchia
-Ofiuchia
+Dorado Village
 578
 Ofiuchia
-Ofiuchia
+Dorado Village
 579
 Ofiuchia
-Ofiuchia
+Dorado Village
 580
 Ofiuchia
-Ofiuchia
+Dorado Village
 581
 Ofiuchia
-Ofiuchia
+Dorado Village
 582
 Ofiuchia
-Ofiuchia
+Dorado Village
 583
 Tauronordia
-Tauronordia
+Borealis Town
 584
 Tauronordia
-Tauronordia
+Borealis Town
 585
 Tauronordia
-Tauronordia
+Borealis Town
 586
 Tauronordia
-Tauronordia
+Borealis Town
 587
 Tauronordia
-Tauronordia
+Borealis Town
 588
 Tauronordia
-Tauronordia
+Borealis Town
 589
 Circo Sirio
-Circo Sirio
+Sunshine Circus
 590
 Cansiria
-Cansiria
+Fortbelt Town
 591
 Tauronordia
-Tauronordia
+Borealis Town
 646
 Vetta Polare
-Vetta Polare
+Polaris Town
 647
 Borgo Gemini
-Borgo Gemini
+Stellato Town
 648
 Balansopoli
-Balansopoli
+Hadwarf City
 649
 Leopoli
-Leopoli
+Hypelion City
 650
 Aeroporto Samuel Oak
-Aeroporto Samuel Oak
+Samuel Oak Airport
 651
 Sagittopoli
-Sagittopoli
+Vega City
 652
 Aranciopoli
-Aranciopoli
+Vermilion City
 653
 Via Vittoria
-Via Vittoria
+Victory Road
 654
 Regno di Virgopoli
-Regno di Virgopoli
+Milkiway City
 655
 Cansiria
-Cansiria
+Fortbelt Town
 656
 Aquariopoli
-Aquariopoli
+Ishtar City
 657
 Scorpiopoli
-Scorpiopoli
+Westar City
 658
 Tauronordia
-Tauronordia
+Borealis Town
 659
 Paradiso Sakura
-Paradiso Sakura
+Sakura Paradise
 661
 Xenoverse
 Xenoverse
@@ -61050,7 +61052,7 @@ Xenoverse
 Xenoverse
 677
 Orizzonte degli Eventi
-Orizzonte degli Eventi
+Event Horizon
 678
 Limbo
 Limbo
@@ -61059,49 +61061,49 @@ Regi
 Regi
 680
 Tomba Picco
-Tomba Picco
+Peak Tomb
 681
 Tomba Picco
-Tomba Picco
+Peak Tomb
 682
 Tomba Iceberg
-Tomba Iceberg
+Iceberg Tomb
 683
 Tomba Iceberg
-Tomba Iceberg
+Iceberg Tomb
 684
 Tomba Ferro
-Tomba Ferro
+Iron Tomb
 685
 Tomba Ferro
-Tomba Ferro
+Iron Tomb
 686
 Tomba Elettrone
-Tomba Elettrone
+Electron Tomb
 687
 Tomba Elettrone
-Tomba Elettrone
+Electron Tomb
 688
 Tomba Dracosfera
-Tomba Dracosfera
+Dracosphere Tomb
 689
 Tomba Dracosfera
-Tomba Dracosfera
+Dracosphere Tomb
 690
 Tomba Rosa
-Tomba Rosa
+Pink Tomb
 691
 Tomba Rosa
-Tomba Rosa
+Pink Tomb
 692
 Bunker Abbandonato
-Bunker Abbandonato
+Abandoned Bunker
 693
 Bunker Abbandonato
-Bunker Abbandonato
+Abandoned Bunker
 694
 Caverna Boreale
-Caverna Boreale
+Boreal Cave
 695
 Xenoverse
 Xenoverse
@@ -68417,3 +68419,7 @@ Lin: Che diamine fai, Nea!<<n>>Nea: Hah, come se fosse colpa mia!
 Lin: What the hell, Nea!<<n>>Nea: Hah, like it’s my fault!
 Ehi! Ehi! Sto solo dando un'occhiata...
 Hey! Hey! I'm just taking a peek...
+Mi hai spezzato come un fuscello...
+You broke me like a twig...
+E-Errore.
+E-Error.
