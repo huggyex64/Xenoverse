@@ -413,6 +413,20 @@ class PokeBattle_Pokemon
     ret=dexdata.fgetb
     dexdata.close
 		Log.d("MOVE_TYPE",ret.to_s)
+    if ability == PBAbilities::TITAN
+      types = {
+        :DAMPROCK => :WATER,
+        :HEATROCK => :FIRE,
+        :SMOOTHROCK => :ELECTRIC,
+        :ICYROCK => :ICE,
+        :KINGSROCK => :ROCK
+      }
+      for v in types.keys
+        if getConst(PBItems,v)==self.item
+          return getConst(PBTypes,types[v])
+        end
+      end
+    end
     return ret
   end
 

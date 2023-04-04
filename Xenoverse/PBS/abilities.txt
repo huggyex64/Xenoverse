@@ -208,7 +208,7 @@
 208,FLUFFY,Morbidone,"Dimezza il danno causato dagli attacchi diretti del nemico, ma raddoppia quelli subiti dalle mosse di tipo Fuoco."
 209,FULLMETALBODY,Metalprotezione,"Rende immuni alla diminuzione delle statistiche causata da abilità o mosse di altri Pokémon."
 210,GALVANIZE,Pellelettro,"Le mosse di tipo Normale diventano di tipo Elettro."
-211,GRASSYSURGE,Erbogenesi,"Quando il Pokémon entra in campo, lo trasforma in un Campo Erboso."
+211,TITAN,Titano,"Il tipo secondario varia a seconda della roccia tenuta."
 212,INNARDSOUT,Espellinterno,"Se il Pokémon viene mandato KO da un attacco, infligge a chi lo ho sferrato tanti danni quanti erano i suoi PS prima di ricevere il colpo."
 213,LIQUIDVOICE,Idrovoce,"Le mosse basate sul suono del Pokémon diventano di tipo Acqua."
 214,LONGREACH,Distacco,"Il Pokémon è in grado di usare tutte le sue mosse senza entrare in contatto diretto con il bersaglio."

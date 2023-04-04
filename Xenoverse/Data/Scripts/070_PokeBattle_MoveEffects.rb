@@ -3876,6 +3876,12 @@ class PokeBattle_Move_09F < PokeBattle_Move
 			return getConst(PBTypes,:FIRE)     if attacker.hasWorkingItem(:BURNDRIVE)
 			return getConst(PBTypes,:ICE)      if attacker.hasWorkingItem(:CHILLDRIVE)
 			return getConst(PBTypes,:WATER)    if attacker.hasWorkingItem(:DOUSEDRIVE)
+		elsif isConst?(@id,PBMoves,:ELEPUNCH)
+			return getConst(PBTypes,:ELECTRIC) if attacker.hasWorkingItem(:SMOOTHROCK)
+			return getConst(PBTypes,:FIRE)     if attacker.hasWorkingItem(:HEATROCK)
+			return getConst(PBTypes,:ICE)      if attacker.hasWorkingItem(:ICYROCK)
+			return getConst(PBTypes,:WATER)    if attacker.hasWorkingItem(:DAMPRCOK)
+			return getConst(PBTypes,:ROCK)    if attacker.hasWorkingItem(:KINGSROCK)
 		end
 		return getConst(PBTypes,:NORMAL)
 	end

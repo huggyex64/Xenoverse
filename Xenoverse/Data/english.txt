@@ -45217,6 +45217,9 @@ Bitter Blade
 750
 Corazza Cannone
 Armor Cannon
+751
+Elepugno
+Elepunch
 [6]
 1
 Chi la usa utilizza il suo corpo per montare con grande forza il nemico.
@@ -47399,6 +47402,9 @@ The user focuses its bitter feelings toward the world of the living into a slash
 750
 Il Pokémon si libera della sua corazza, scagliandola sul bersaglio come una raffica di proiettili incandescenti. La sua Difesa e la sua Difesa Speciale diminuiscono.
 The user shoots its own armor out as blazing projectiles. This also lowers the user’s Defense and Sp. Def stats.
+751
+Il Pokémon concentra la sua energia elementale in un pugno devastante. Il tipo varia a seconda della roccia tenuta.
+The user focuses all its elemental energy in a single devastating punch. The type varies based on the held rock.
 [7]
 1
 Repellente
@@ -52929,8 +52935,8 @@ Full Metal Body
 Pellelettro
 Galvanize
 211
-Erbogenesi
-Grassy Surge
+Titano
+Titan
 212
 Espellinterno
 Innards Out
@@ -53710,8 +53716,8 @@ Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.
 Le mosse di tipo Normale diventano di tipo Elettro.
 Normal-type moves become Electric-type moves.
 211
-Quando il Pokémon entra in campo, lo trasforma in un Campo Erboso.
-Quando il Pokémon entra in campo, lo trasforma in un Campo Erboso.
+Il tipo secondario varia a seconda della roccia tenuta.
+The secondary type changes based on the held rock.
 212
 Se il Pokémon viene mandato KO da un attacco, infligge a chi lo ho sferrato tanti danni quanti erano i suoi PS prima di ricevere il colpo.
 Damages the attacker landing the finishing hit by the amount equal to its last HP.
@@ -68416,7 +68422,7 @@ Although she was once much more chaotic and lively, her character has changed mu
 Preferisce rilassarsi e suonare la chitarra, ma con le sue strategie velenose atterra ogni nemico!
 She prefers to relax and play her guitar, but with her poisonous strategies she slams every foe!
 L'ingegnosa e astuta, Velia!
-The clever and cunning, Velia!
+The clever and cunning, Roxie!
 Preferirei suonare la mia chitarra piuttosto di perdere tempo a lottare... ma per accedere a palchi del genere, non posso tirarmi indietro!
 I’d rather play my guitar than waste my time fighting... but to access such stages, I can’t back out!
 Dalla lontana Sinnoh, i due incredibili archeologhi che scavarono il Tunnel Rovine in pochissimo tempo!
