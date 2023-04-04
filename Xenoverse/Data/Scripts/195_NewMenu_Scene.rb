@@ -196,6 +196,8 @@ class NewMenu
       @bg.opacity+=15.5
     end
     
+	@index = (@index) % @items.length
+
     @sprites.each do |k, s|
 		s.fade(255, 10)
 	end
@@ -381,7 +383,7 @@ class NewMenu
 			@sprites["selector"].animate
 			@sprites["text"].updateText(@items[@index].displayedName)# if @items[@index] != nil
 			pbSEPlay("Select")
-		elsif Input.trigger?(Input::C)
+		elsif Input.trigger?(Input::C) && @items[@index] != nil
 			@items[@index].select
 			pbSEPlay("Select")
 		elsif Input.trigger?(Input::Y) && !(pbInSafari? || pbInBugContest?) && $Trainer.party.length>0 && $game_switches[UNLOCKMGSWITCH]
