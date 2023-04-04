@@ -1450,8 +1450,8 @@ def pbStartBossBattle(species, level, lives, bgs=nil, item = nil,canescape = tru
   return result
 end
 
-def pbStartBossBattleMon(pokemon, bgs = nil, item = nil, canescape = true)
-	result = pbWildPokemonBattle(pokemon, nil, canescape, true)
+def pbStartBossBattleMon(pokemon, bgs = nil, item = nil, canescape = true,variable = nil)
+	result = pbWildPokemonBattle(pokemon, variable, canescape, true)
   return result
 end
 
@@ -2568,7 +2568,7 @@ def pbSecretBossBattle
     pkmn.pbLearnMove(m)
   end
 
-  result = pbStartBossBattleMon(pkmn,nil,nil,false)
+  result = pbStartBossBattleMon(pkmn,nil,nil,false,27)
   $game_switches[85] = false
   $furiousBattle = false
   return result
