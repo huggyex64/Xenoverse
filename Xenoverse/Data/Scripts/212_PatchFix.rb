@@ -208,6 +208,26 @@ PATCHFIXES = {
 					end
 				end
 			
+		},
+		"1.5.3"=> proc{
+			Log.i("Patch Fix","Applying patch fixes for version 1.5.3")
+				for p in $Trainer.party
+					if (p != nil) && p.is_a?(PokeBattle_Pokemon) && p.boss
+						p.denyBoss
+						p.calcStats
+						p.hp = p.hp % p.totalhp
+					end
+				end
+				for b in $PokemonStorage.boxes
+					for poke in b.pokemon
+						if poke != nil && poke.is_a?(PokeBattle_Pokemon) && poke.boss
+							poke.denyBoss
+							poke.calcStats
+							poke.hp = poke.hp % poke.totalhp
+						end
+					end
+				end
+			
 		}
 	}
 

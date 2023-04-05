@@ -59,7 +59,8 @@ class PokeBattle_Pokemon
   end
   
   def canBeCaptured?
-    return self.hp <= @normalhp/@hpMoltiplier if @boss
+    return self.hp <= @normalhp if @boss
+    return true
   end
 end
 
@@ -2568,7 +2569,7 @@ def pbSecretBossBattle
     pkmn.pbLearnMove(m)
   end
 
-  result = pbStartBossBattleMon(pkmn,nil,nil,false,27)
+  result = pbStartBossBattleMon(pkmn,nil,nil,false,160)
   $game_switches[85] = false
   $furiousBattle = false
   return result
