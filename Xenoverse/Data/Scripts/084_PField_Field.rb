@@ -2122,9 +2122,13 @@ Events.onMapChanging+=proc {|sender,e|
   mapinfos=$RPGVX ? load_data("Data/MapInfos.rvdata") : load_data("Data/MapInfos.rxdata")
   if newmapID>0
     oldweather=pbGetMetadata($game_map.map_id,MetadataWeather)
-    if $game_map.name!=mapinfos[newmapID].name
-      $game_screen.weather(0,0,0) if oldweather
+    echoln "=================== WEATHER"
+    echoln "OLDWEATHER #{oldweather}"
+    echoln "NAME IS DIFFERENT? #{$game_map.name != mapinfos[newmapID].name}"
+    if $game_map.name != mapinfos[newmapID].name
+      $game_screen.weather(0,0,0) #if oldweather
     else
+      echoln "MAPNAME IS NOT DIFFERENT --->"
       newweather=pbGetMetadata(newmapID,MetadataWeather)
       $game_screen.weather(0,0,0) if oldweather && !newweather
     end

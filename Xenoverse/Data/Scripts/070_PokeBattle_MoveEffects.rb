@@ -4300,7 +4300,7 @@ class PokeBattle_Move_0B4 < PokeBattle_Move
 		end
 		pbShowAnimation(@id,attacker,nil,hitnum,alltargets,showanimation)
 		choice=choices[@battle.pbRandom(choices.length)]
-		attacker.pbUseMoveSimple(attacker.moves[choice].id,choice,attacker.pbOppositeOpposing,true)
+		attacker.pbUseMoveSimple(attacker.moves[choice].id,choice,attacker.pbOppositeOpposing().index,true)
 		return 0
 	end
 end

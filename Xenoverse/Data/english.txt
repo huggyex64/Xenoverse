@@ -969,7 +969,7 @@ Oi, \PN!
 Eh, già... Il mio impegno non è che una ricerca su alcuni Pokémon della grotta... Piuttosto, hai aiutato quel bambino? 
 Ah, yeah... My job is nothing but research on<<n>>the Pokémon in this cave...<<n>>And you? Have you helped that kid yet?
 Eh, già... Il mio impegno non è che una ricerca su alcuni Pokémon della grotta... Piuttosto, hai aiutato quel bambino?
-Eh, già... Il mio impegno non è che una ricerca su alcuni Pokémon della grotta... Piuttosto, hai aiutato quel bambino?
+Ah, yeah... My job is nothing but research on<<n>>the Pokémon in this cave...<<n>>And you? Have you helped that kid yet?
 [Map17]
 [Map18]
 Funesto
@@ -4419,7 +4419,6 @@ Ben arrivato, \PN!
 Welcome, \PN!
 Gli altri ci stanno aspettando dentro.
 The others are waiting for us inside.
-
 Marino
 Briney
 Vuoi tornare a <b>Balansopoli</b>?
@@ -4508,87 +4507,6 @@ Sì
 Yes
 No
 No
-
-Marino
-Marino
-Vuoi tornare a <b>Balansopoli</b>?
-Vuoi tornare a <b>Balansopoli</b>?
-A bordo, si parte! Su, Pelipper!
-A bordo, si parte! Su, Pelipper!
-Eccoci qui. Torna pure da me quando vorrai ripartire.
-Eccoci qui. Torna pure da me quando vorrai ripartire.
-Michelangelo
-Michelangelo
-Sei tu a rubarmi tutte le esche, non è vero?!
-Sei tu a rubarmi tutte le esche, non è vero?!
-Devo aver preso un granchio...
-Devo aver preso un granchio...
-Glauco
-Glauco
-Mai pesca fu più fruttuosa! Non a caso si chiama Isola Pigliapesci!
-Mai pesca fu più fruttuosa! Non a caso si chiama Isola Pigliapesci!
-Rita
-Rita
-Il castello di sabbia... l'ho visto muoversi!!
-Il castello di sabbia... l'ho visto muoversi!!
-Sofiro
-Sofiro
-Benvenuto|a sull'isola in cui regna il relax!
-Benvenuto|a sull'isola in cui regna il relax!
-Enza
-Enza
-Il lavoro da ricercatore è gratificante, ma con tutto quello studio si finisce per impazzire!
-Il lavoro da ricercatore è gratificante, ma con tutto quello studio si finisce per impazzire!
-Enrico
-Enrico
-Sciò! Non vedi che ci stiamo baciando?!
-Sciò! Non vedi che ci stiamo baciando?!
-Quando bacio il mio ragazzo penso a quel gran fusto di <b>Daddy</b>... tu non dirglielo però!
-Quando bacio il mio ragazzo penso a quel gran fusto di <b>Daddy</b>... tu non dirglielo però!
-Gianmaria
-Gianmaria
-Ecco, ora lo faccio! Mi tuffo...! ... Niente, non sono ancora pronto.
-Ecco, ora lo faccio! Mi tuffo...! ... Niente, non sono ancora pronto.
-Anna
-Anna
-Ultimamente sull'isola c'è un tale viavai di ricercatori di Balansopoli... Cosa vorranno mai da questo paradiso?
-Ultimamente sull'isola c'è un tale viavai di ricercatori di Balansopoli... Cosa vorranno mai da questo paradiso?
-Pippo
-Pippo
-Analizzando questa roccia ho trovato qualcosa di molto interessante. Prendi!
-Analizzando questa roccia ho trovato qualcosa di molto interessante. Prendi!
-Chissà, magari arriva dallo spazio...
-Chissà, magari arriva dallo spazio...
-Antonio
-Antonio
-Neanche una vecchia ciabatta!
-Neanche una vecchia ciabatta!
-È solo una ciabatta... Che amarezza!
-È solo una ciabatta... Che amarezza!
-Bruto
-Bruto
-Vuoi tornare a Balansopoli?
-Vuoi tornare a Balansopoli?
-Si salpa allora!
-Si salpa allora!
-Se cambi idea, sai dove trovarmi.
-Se cambi idea, sai dove trovarmi.
-Germano
-Germano
-So bene che non dovrei prendermela comoda, ma un buon allenamento richiede anche il giusto riposo.
-So bene che non dovrei prendermela comoda, ma un buon allenamento richiede anche il giusto riposo.
-<<[>>new,Marino,ludopoli/marino,default,left,true<<]>>
-<<[>>new,Marino,ludopoli/marino,default,left,true<<]>>
-<<[>>old<<]>>Casa di Rem
-<<[>>old<<]>>Casa di Rem
-<<[>>old<<]>><b>Isola Pigliapesci</b> <i>''Pesca ricca e pace dei sensi.''</i>
-<<[>>old<<]>><b>Isola Pigliapesci</b> <i>''Pesca ricca e pace dei sensi.''</i>
-<<[>>old<<]>>Quando un Pokémon si sta evolvendo, puoi bloccare il processo premendo X. Rimanendo allo stadio base, infatti, imparerà mosse più in fretta.
-<<[>>old<<]>>Quando un Pokémon si sta evolvendo, puoi bloccare il processo premendo X. Rimanendo allo stadio base, infatti, imparerà mosse più in fretta.
-<<[>>old<<]>>Star...\n... key!
-<<[>>old<<]>>Star...\n... key!
-Sì
-Sì
 [Map70]
 Niccolò
 Nicholas
@@ -8114,7 +8032,6 @@ Yes
 No
 No
 [Map150]
-
 ...Eppure sono certo che queste onde non possono venire da un'altura!
 ...Yet I'm quite sure that these waves can't be coming from a high location!
 Ragazzo, ti ripeto che è l'unica opzione possibile! Il Canyon Asteroide è totalmente inospitale per-
@@ -8367,219 +8284,6 @@ Matias
 Matias
 La cittadina è stata edificata attorno a questo antico cimitero. È per questo che qui a Scorpiopoli si pratica il culto dei morti.
 Westar City was built around this ancient graveyard.<<n>>That's why we pratice a cult of the dead here.
-
-Bernardo
-Bernardo
-Questo posto mette i brividi! Per non parlare del Capopalestra...
-Questo posto mette i brividi! Per non parlare del Capopalestra...
-Cosa ti porta qui a Scorpiopoli, gringo|a? Questa non è una città adatta ai turisti...
-Cosa ti porta qui a Scorpiopoli, gringo|a? Questa non è una città adatta ai turisti...
-Maura
-Maura
-Sto facendo il bucato con l'acqua del pozzo... Che te ne serve un po'? To', prendi!
-Sto facendo il bucato con l'acqua del pozzo... Che te ne serve un po'? To', prendi!
-Alla tua età già fai il bucato da solo|a?
-Alla tua età già fai il bucato da solo|a?
-Chiara
-Chiara
-Come accidenti hai fatto a perdere la tua <b>Campana Mumu</b>? E ora io dove la trova un'altra?
-Come accidenti hai fatto a perdere la tua <b>Campana Mumu</b>? E ora io dove la trova un'altra?
-Eh? Ce l'hai tu? Da' un po' qua, tanto non te ne fai molto, cittadino|a.
-Eh? Ce l'hai tu? Da' un po' qua, tanto non te ne fai molto, cittadino|a.
-Forse tu sai che fartene di 'sta robaccia, però.
-Forse tu sai che fartene di 'sta robaccia, però.
-Se avessi studiato, forse ci avrei potuto capire di più di tutte quelle scritte.
-Se avessi studiato, forse ci avrei potuto capire di più di tutte quelle scritte.
-Miltank, vedi di non perdere anche questa!
-Miltank, vedi di non perdere anche questa!
-Mauro
-Mauro
-Talvolta ho come l'impressione che delle ombre mi stiano alle calcagna... succede anche a te? Devono essere dei Pokémon Spettro che si divertono a tormentarci!
-Talvolta ho come l'impressione che delle ombre mi stiano alle calcagna... succede anche a te? Devono essere dei Pokémon Spettro che si divertono a tormentarci!
-Brando
-Brando
-I pericolosi criminali segregati in questa prigione vi rimarranno finché non avranno espiato le loro colpe.
-I pericolosi criminali segregati in questa prigione vi rimarranno finché non avranno espiato le loro colpe.
-Non è mica facile badare ad un'intera mandria di Miltank!
-Non è mica facile badare ad un'intera mandria di Miltank!
-Ho camminato fin qui in cerca di riposo... Ho le gambe a pezzi!
-Ho camminato fin qui in cerca di riposo... Ho le gambe a pezzi!
-Osvaldo
-Osvaldo
-Il destino spesso lo si incontra proprio sulla strada presa per evitarlo.
-Il destino spesso lo si incontra proprio sulla strada presa per evitarlo.
-Tina
-Tina
-E vattene!! ... Ah, pensavo fossi quel maledetto fantasma che mi tormenta. Prendi qua e scusami, eh!
-E vattene!! ... Ah, pensavo fossi quel maledetto fantasma che mi tormenta. Prendi qua e scusami, eh!
-E ora vattene per davvero, però.
-E ora vattene per davvero, però.
-Norberto
-Norberto
-Il lavoro nei campi è tosto... ma cosa ne vuole sapere un cittadino come te?!
-Il lavoro nei campi è tosto... ma cosa ne vuole sapere un cittadino come te?!
-Stanislao
-Stanislao
-Non vorrei mai finire in quella catorbia laggiù... Mi mette i brividi!
-Non vorrei mai finire in quella catorbia laggiù... Mi mette i brividi!
-Favel
-Favel
-Quel campagnolo mi ha offerto riparo presso la sua stalla. Diceva che nessuno si è mai lamentato, ma ho i miei dubbi...
-Quel campagnolo mi ha offerto riparo presso la sua stalla. Diceva che nessuno si è mai lamentato, ma ho i miei dubbi...
-Si dice che i Pokémon defunti ancora vincolati al mondo dei vivi, vi facciano ritorno sotto forma di spettri.
-Si dice che i Pokémon defunti ancora vincolati al mondo dei vivi, vi facciano ritorno sotto forma di spettri.
-Il mio Raticate è venuto a mancare anni fa...
-Il mio Raticate è venuto a mancare anni fa...
-Ogni giorno vengo qui a spruzzare l'Iperpozione sulla tomba del mio Meowth, ma ancora non si risveglia...
-Ogni giorno vengo qui a spruzzare l'Iperpozione sulla tomba del mio Meowth, ma ancora non si risveglia...
-Prendila tu, tanto ormai a me non serve...
-Prendila tu, tanto ormai a me non serve...
-Meowth, perché non ti svegli...?
-Meowth, perché non ti svegli...?
-La cittadina è stata edificata attorno a questo antico cimitero. È per questo che qui a Scorpiopoli si pratica il culto dei morti.
-La cittadina è stata edificata attorno a questo antico cimitero. È per questo che qui a Scorpiopoli si pratica il culto dei morti.
-Silverio
-Silverio
-La mia casa ha preso fuoco all'improvviso, ma ci ha pensato la <b>S.P.E.T.T.R.I.</b> a domare l'incendio! Guarda, laggiù c'è la loro caserma!
-La mia casa ha preso fuoco all'improvviso, ma ci ha pensato la <b>S.P.E.T.T.R.I.</b> a domare l'incendio! Guarda, laggiù c'è la loro caserma!
-Muuu...!
-Muuu...!
-Da qui non si passa! <i>Bzz!</i>
-Da qui non si passa! <i>Bzz!</i>
-Ciao, Allenatore in erba! Dei criminali fuggiti di prigione non si vede neanche più l'ombra, eh? Ottimo lavoro!
-Ciao, Allenatore in erba! Dei criminali fuggiti di prigione non si vede neanche più l'ombra, eh? Ottimo lavoro!
-Ora che più nessun ostacolo si interpone tra te e il Capopalestra, sei pronto|a per la sfida finale... Ma, se vuoi un consiglio, fa sì che i tuoi Pokémon siano nel pieno delle forze, lo Sceriffo è un tipo tosto! Io ti aspetto dentro e, come al solito, faccio il tifo per te!
-Ora che più nessun ostacolo si interpone tra te e il Capopalestra, sei pronto|a per la sfida finale... Ma, se vuoi un consiglio, fa sì che i tuoi Pokémon siano nel pieno delle forze, lo Sceriffo è un tipo tosto! Io ti aspetto dentro e, come al solito, faccio il tifo per te!
-Hey \PN, come va? Sono spiacente, ma se cerchi il capopalestra Crisante non è presente adesso.
-Hey \PN, come va? Sono spiacente, ma se cerchi il capopalestra Crisante non è presente adesso.
-Puoi trovarlo nei dintorni della Caserma S.P.E.T.T.R.I.
-Puoi trovarlo nei dintorni della Caserma S.P.E.T.T.R.I.
-Ernesto
-Ernesto
-Scorpiopoli sembra una landa desolata, ma non è così. La città è popolata dai vivi... e dai morti! Uah ah ah!
-Scorpiopoli sembra una landa desolata, ma non è così. La città è popolata dai vivi... e dai morti! Uah ah ah!
-Maurice
-Maurice
-...
-...
-Argh! Come hai fatto a smascherarci?! E va bene, ora te la vedrai con le sorelle Maria e Serafina!
-Argh! Come hai fatto a smascherarci?! E va bene, ora te la vedrai con le sorelle Maria e Serafina!
-Ah ah ah! Come speri di metterci alle strette con un solo misero Pokémon? Torna quando avrai imparato che per una Lotta in Doppio ne servono almeno due!
-Ah ah ah! Come speri di metterci alle strette con un solo misero Pokémon? Torna quando avrai imparato che per una Lotta in Doppio ne servono almeno due!
-Che tu sia dannato|a!!
-Che tu sia dannato|a!!
-Serafina
-Serafina
-Ci hai beccati, maledetto|a! Ma ciò non vuol dire che la nostra latitanza sia finita, anzi! Approfitteremo dell'occasione per toglierci dai piedi un fastidio come te!
-Ci hai beccati, maledetto|a! Ma ciò non vuol dire che la nostra latitanza sia finita, anzi! Approfitteremo dell'occasione per toglierci dai piedi un fastidio come te!
-Mi prendi in giro?!
-Mi prendi in giro?!
-Dovrebbero saperlo anche i mocciosi come te che per una Lotta in Doppio non basta un solo Pokémon! Se proprio ci tieni a metterci i bastoni tra le ruote, almeno fallo per bene...!
-Dovrebbero saperlo anche i mocciosi come te che per una Lotta in Doppio non basta un solo Pokémon! Se proprio ci tieni a metterci i bastoni tra le ruote, almeno fallo per bene...!
-Odio il buonismo dilagante dei racconti moderni. Il bene deve sempre trionfare e tutta quella roba lì! Un giorno tutto questo cambierà, puoi giurarci!!
-Odio il buonismo dilagante dei racconti moderni. Il bene deve sempre trionfare e tutta quella roba lì! Un giorno tutto questo cambierà, puoi giurarci!!
-...Eppure sono certo che queste onde non possono venire da un'altura!
-...Eppure sono certo che queste onde non possono venire da un'altura!
-Crisante
-Crisante
-Ragazzo, ti ripeto che è l'unica opzione possibile! Il Canyon Asteroide è totalmente inospitale per-
-Ragazzo, ti ripeto che è l'unica opzione possibile! Il Canyon Asteroide è totalmente inospitale per-
-Adesso siamo quasi al completo. Sceriffo, vuole spiegare lei la situazione?
-Adesso siamo quasi al completo. Sceriffo, vuole spiegare lei la situazione?
-Urf... Lascio a te l'onore, ragazzo.
-Urf... Lascio a te l'onore, ragazzo.
-Affermativo. \PN, fino a poco fa stavamo discutendo delle onde che ho captato.
-Affermativo. \PN, fino a poco fa stavamo discutendo delle onde che ho captato.
-Usando l'angolo di incidenza dell'onda, l'indice di rifrazione del territorio e altri fattori
-Usando l'angolo di incidenza dell'onda, l'indice di rifrazione del territorio e altri fattori
-sono riuscito a tracciarne l'origine. Sembra proprio che queste onde provegano dal sottosuolo.
-sono riuscito a tracciarne l'origine. Sembra proprio che queste onde provegano dal sottosuolo.
-Lo sceriffo però sostiene che questo non sia possibile.
-Lo sceriffo però sostiene che questo non sia possibile.
-Mi trovo ancora una volta costretto a dissentire.
-Mi trovo ancora una volta costretto a dissentire.
-Il Canyon Asteroide è interamente costituito di roccia!
-Il Canyon Asteroide è interamente costituito di roccia!
-Durante la mia ronda di ricognizione avvenuta ier l'altro, neppure un granello di polvere mi è parso di trovare fuor di loco.
-Durante la mia ronda di ricognizione avvenuta ier l'altro, neppure un granello di polvere mi è parso di trovare fuor di loco.
-L'unica circostanza che potrebbe essere fuggita al mio vigile sguardo, è qualore fosse stato allestito una qualche sorta di accampamento negli antri,tra le alture e al di fuori della mia portata.
-L'unica circostanza che potrebbe essere fuggita al mio vigile sguardo, è qualore fosse stato allestito una qualche sorta di accampamento negli antri,tra le alture e al di fuori della mia portata.
-Non so cosa sia questo angolo degli incidenti o cosa,
-Non so cosa sia questo angolo degli incidenti o cosa,
-ma è impossibile che le onde di cui parli vengano dal sottoterra!
-ma è impossibile che le onde di cui parli vengano dal sottoterra!
-Negativo!
-Negativo!
-I dati sono corretti e le macchine che ho usato per raccoglierli non hanno mostrato
-I dati sono corretti e le macchine che ho usato per raccoglierli non hanno mostrato
-alcun tipo di malfunzionamento. Io dico che-
-alcun tipo di malfunzionamento. Io dico che-
-Va bene va bene, smettiamola. Ho già chiamato qualcuno che può risolvere questo dilemma per noi.
-Va bene va bene, smettiamola. Ho già chiamato qualcuno che può risolvere questo dilemma per noi.
-Dovrebbe arrivare a momenti...
-Dovrebbe arrivare a momenti...
-Oh, \PN! Anche tu qui?
-Oh, \PN! Anche tu qui?
-Le onde captate erano anomale poiché venivano rilevate solo da Revolver, e non da altri dispositivi. Per questo abbiamo pensato che c'entrasse una tua vecchia conoscenza...
-Le onde captate erano anomale poiché venivano rilevate solo da Revolver, e non da altri dispositivi. Per questo abbiamo pensato che c'entrasse una tua vecchia conoscenza...
-Ho convocato io Versil. Ha militato nel Team Dimension più di chiunque altro, potremo chiedere lume a lui per far luce sulla situazione.
-Ho convocato io Versil. Ha militato nel Team Dimension più di chiunque altro, potremo chiedere lume a lui per far luce sulla situazione.
-Capisco perfettamente. Di cosa avete bisogno?
-Capisco perfettamente. Di cosa avete bisogno?
-Mi segua in Caserma...
-Mi segua in Caserma...
-Sarò sincero con te, \PN. Non mi fido ancora completamente di tuo padre.
-Sarò sincero con te, \PN. Non mi fido ancora completamente di tuo padre.
-Può dire di aver cambiato vita, ma ciò che ha fatto non può essere depennato così facilmente. Lo ho chiamato qui principalmente per tenerlo d'occhio.
-Può dire di aver cambiato vita, ma ciò che ha fatto non può essere depennato così facilmente. Lo ho chiamato qui principalmente per tenerlo d'occhio.
-Capisco, quindi avete un dubbio sulla provenienza di queste onde... Beh, sono quasi sicuro che vengano da sotto terra, come sostiene Maurice.
-Capisco, quindi avete un dubbio sulla provenienza di queste onde... Beh, sono quasi sicuro che vengano da sotto terra, come sostiene Maurice.
-Il Team Dimension era versato in moltissimi tipi di tecnologie, e quella di occultamento era una di esse.
-Il Team Dimension era versato in moltissimi tipi di tecnologie, e quella di occultamento era una di esse.
-La regione è disseminata di centri di ricerca nascosti grazie a queste tecnologie.
-La regione è disseminata di centri di ricerca nascosti grazie a queste tecnologie.
-Sfortunatamente, non conosco la posizione di ognuno di essi,
-Sfortunatamente, non conosco la posizione di ognuno di essi,
-ma credo di poter essere d'aiuto.
-ma credo di poter essere d'aiuto.
-Se questo è il caso, dobbiamo immediatamente iniziare le operazioni di ricerca.
-Se questo è il caso, dobbiamo immediatamente iniziare le operazioni di ricerca.
-Dirigiamoci al <b>Canyon Asteroide</b>!
-Dirigiamoci al <b>Canyon Asteroide</b>!
-<<[>>old<<]>>El Purgatorio, Palestra di Scorpiopoli Capopalestra: <b>Crisante</b> <i>''Alle calcagna del crimine come un'ombra!''</i> Allenatori Certificati: 0
-<<[>>old<<]>>El Purgatorio, Palestra di Scorpiopoli Capopalestra: <b>Crisante</b> <i>''Alle calcagna del crimine come un'ombra!''</i> Allenatori Certificati: 0
-<<[>>old<<]>>El Purgatorio, Palestra di Scorpiopoli Capopalestra: <b>Crisante</b> <i>''Alle calcagna del crimine come un'ombra!''</i> Allenatori Certificati: \PN
-<<[>>old<<]>>El Purgatorio, Palestra di Scorpiopoli Capopalestra: <b>Crisante</b> <i>''Alle calcagna del crimine come un'ombra!''</i> Allenatori Certificati: \PN
-<<[>>old<<]>> Lavori in corso. Tornate presto! -Kupa.
-<<[>>old<<]>> Lavori in corso. Tornate presto! -Kupa.
-<<[>>old<<]>><b>Scorpiopoli</b> <i>''Tra nuvole di sabbia e di polvere...''</i>
-<<[>>old<<]>><b>Scorpiopoli</b> <i>''Tra nuvole di sabbia e di polvere...''</i>
-<<[>>old<<]>>Casa di Crisante
-<<[>>old<<]>>Casa di Crisante
-<<[>>old<<]>>Saloon Torobrado ad est
-<<[>>old<<]>>Saloon Torobrado ad est
-<<[>>old<<]>>Cimitero di Scorpiopoli ''Luogo di eterno riposo per i Pokémon.''
-<<[>>old<<]>>Cimitero di Scorpiopoli ''Luogo di eterno riposo per i Pokémon.''
-<<[>>old<<]>>Caserma S.P.E.T.T.R.I. ''Squadra Paranormale Emergenza e Tutela Territori per Roghi e Infestazioni.''
-<<[>>old<<]>>Caserma S.P.E.T.T.R.I. ''Squadra Paranormale Emergenza e Tutela Territori per Roghi e Infestazioni.''
-<<[>>old<<]>>Gola Steelix a nord
-<<[>>old<<]>>Gola Steelix a nord
-<<[>>old<<]>>El Purgatorio ''Prigione di massima sicurezza e Palestra del misterioso Crisante.''
-<<[>>old<<]>>El Purgatorio ''Prigione di massima sicurezza e Palestra del misterioso Crisante.''
-<<[>>old<<]>>Le detenute Maria e Serafina sono ritornate alle loro rispettive celle.
-<<[>>old<<]>>Le detenute Maria e Serafina sono ritornate alle loro rispettive celle.
-<<[>>old<<]>>I detenuti Ochoa e Jose sono ritornati alle loro rispettive celle.
-<<[>>old<<]>>I detenuti Ochoa e Jose sono ritornati alle loro rispettive celle.
-<<[>>old<<]>>Lavori in corso. -Kupa
-<<[>>old<<]>>Lavori in corso. -Kupa
-<<[>>old<<]>>Sartoria di Kupa
-<<[>>old<<]>>Sartoria di Kupa
-<<[>>old<<]>>Sartoria di Kupa...
-<<[>>old<<]>>Sartoria di Kupa...
-<<[>>old<<]>>... e dolcetti da Min & Mun!
-<<[>>old<<]>>... e dolcetti da Min & Mun!
-<<[>>old<<]>>Perdonate il ritardo...!
-<<[>>old<<]>>Perdonate il ritardo...!
 [Map151]
 ???
 ???
@@ -9586,7 +9290,6 @@ Credo di aver proprio fatto centro con questa ragazza... Ha un'intelligenza para
 I think I may have hit the jackpot with this girl...<<n>>She's smart like the tubbo, capable like the blondie<<n>>and, finally, she's full of spirit like that twerp.
 Fine dei giochi, cowboy. Hangead, il sovrano di questo saloon, te la farà pagare cara!
 End of the line, cowboy. Hangead, the king of this saloon, is going to make you pay dearly!
-
 ...!
 ...!
 Non è possibile che io abbia perso pur manipolando due corpi!! Dannato moccioso, mi impadronirò definitivamente di te!
@@ -9675,85 +9378,6 @@ Beh, allora cosa aspettiamo a farla fuo...
 Well, then let's get rid of it right awa-
 Ora che abbiamo prosciugato Whisteract di quasi tutte le sue forze, non rappresenta più un pericolo.
 We've drained Whisteract of almost all its energies,<<n>>so it's no longer a threat.
-
-Non è possibile che io abbia perso pur manipolando due corpi!! Dannato moccioso, mi impadronirò definitivamente di te!
-Non è possibile che io abbia perso pur manipolando due corpi!! Dannato moccioso, mi impadronirò definitivamente di te!
-Saul
-Saul
-Non credo proprio, amigo!
-Non credo proprio, amigo!
-Puoi dirlo forte, Saul!
-Puoi dirlo forte, Saul!
-Maurice
-Maurice
-Dovrai prima vedertela con noi... non ti lasceremo \PN tanto facilmente!
-Dovrai prima vedertela con noi... non ti lasceremo \PN tanto facilmente!
-Cosa credete di fare? Vi ho già messi a tacere una volta e potrei rifarlo in ogni momento.
-Cosa credete di fare? Vi ho già messi a tacere una volta e potrei rifarlo in ogni momento.
-Hai ragione, Hangead. Ci hai già sconfitti, ma quella volta eravamo soli... Ma stavolta è diverso... Noi...
-Hai ragione, Hangead. Ci hai già sconfitti, ma quella volta eravamo soli... Ma stavolta è diverso... Noi...
-... ti affronteremo...
-... ti affronteremo...
-... tutti insieme!!
-... tutti insieme!!
-La mia energia sta svanendo?!!
-La mia energia sta svanendo?!!
-Forza, ragazzi! Mettiamocela tutta per la sorellona e Buster!
-Forza, ragazzi! Mettiamocela tutta per la sorellona e Buster!
-M-Maledetti... esseri umani!!
-M-Maledetti... esseri umani!!
-Sorellona, come ti senti?
-Sorellona, come ti senti?
-Silvia
-Silvia
-Oh, chicos... Siete sani e salvi... Ma cos'è successo?
-Oh, chicos... Siete sani e salvi... Ma cos'è successo?
-Hai lasciato che quell'Hangead prendesse possesso del tuo corpo, come un'idiota. Per tua fortuna, io, Maurice, Will e \PN abbiamo conciato per le feste quel buffone!
-Hai lasciato che quell'Hangead prendesse possesso del tuo corpo, come un'idiota. Per tua fortuna, io, Maurice, Will e \PN abbiamo conciato per le feste quel buffone!
-Come mi hai chiamata, Saul?! Ripetilo se ne hai il coraggio!!
-Come mi hai chiamata, Saul?! Ripetilo se ne hai il coraggio!!
-Anche se hai ragione... Quel Pokémon non ci ha messo nulla a impadronirsi di me! Ah ah ah!
-Anche se hai ragione... Quel Pokémon non ci ha messo nulla a impadronirsi di me! Ah ah ah!
-È la prima volta che ridi ad una mia battuta, Silvia... Non ti starai mica innamorando di me?
-È la prima volta che ridi ad una mia battuta, Silvia... Non ti starai mica innamorando di me?
-Ma taci, sbruffone!
-Ma taci, sbruffone!
-Eddai, quanto la fai difficile...
-Eddai, quanto la fai difficile...
-\PN, grazie davvero dell'aiuto.
-\PN, grazie davvero dell'aiuto.
-Squadra... Quello dovrebbe essere il reale aspetto di Hangead.
-Squadra... Quello dovrebbe essere il reale aspetto di Hangead.
-Beh, allora cosa aspettiamo a farlo fuo...
-Beh, allora cosa aspettiamo a farlo fuo...
-Espera, Saul! Ho un'idea!
-Espera, Saul! Ho un'idea!
-Ora che abbiamo prosciugato Hangead di quasi tutte le sue forze, non rappresenta più un pericolo.
-Ora che abbiamo prosciugato Hangead di quasi tutte le sue forze, non rappresenta più un pericolo.
-\PN, in quanto Allenatore, spetta a te decidere se sconfiggere o catturare questo Pokémon.
-\PN, in quanto Allenatore, spetta a te decidere se sconfiggere o catturare questo Pokémon.
-Tsk. Mi sembra giusto.
-Tsk. Mi sembra giusto.
-Allora noi andiamo, \PN! Ricorda di passare dalla Caserma, quando avrai finito qui. Una promessa è una promessa e noi non dimenticheremo ciò che hai fatto per noi oggi! Hasta fuego!
-Allora noi andiamo, \PN! Ricorda di passare dalla Caserma, quando avrai finito qui. Una promessa è una promessa e noi non dimenticheremo ciò che hai fatto per noi oggi! Hasta fuego!
-Finora sei riuscita a umiliarmi, ma ora... è il momento della mia vendetta!
-Finora sei riuscita a umiliarmi, ma ora... è il momento della mia vendetta!
-Blast...! Sorpresa?
-Blast...! Sorpresa?
-Fine dei giochi, cowgirl. Whisteract, la sovrana di questo saloon, te la farà pagare cara!
-Fine dei giochi, cowgirl. Whisteract, la sovrana di questo saloon, te la farà pagare cara!
-Non credo proprio, amiga!
-Non credo proprio, amiga!
-Hai ragione, Whisteract. Ci hai già sconfitti, ma quella volta eravamo soli... Ma stavolta è diverso... Noi...
-Hai ragione, Whisteract. Ci hai già sconfitti, ma quella volta eravamo soli... Ma stavolta è diverso... Noi...
-Hai lasciato che quel Whisteract prendesse possesso del tuo corpo, come un'idiota. Per tua fortuna, io, Maurice, Will e \PN abbiamo conciato per le feste quel buffone!
-Hai lasciato che quel Whisteract prendesse possesso del tuo corpo, come un'idiota. Per tua fortuna, io, Maurice, Will e \PN abbiamo conciato per le feste quel buffone!
-Squadra... Quello dovrebbe essere il reale aspetto di Whisteract.
-Squadra... Quello dovrebbe essere il reale aspetto di Whisteract.
-Beh, allora cosa aspettiamo a farla fuo...
-Beh, allora cosa aspettiamo a farla fuo...
-Ora che abbiamo prosciugato Whisteract di quasi tutte le sue forze, non rappresenta più un pericolo.
-Ora che abbiamo prosciugato Whisteract di quasi tutte le sue forze, non rappresenta più un pericolo.
 [Map173]
 Fabian
 Fabian
@@ -15921,7 +15545,7 @@ The \PN I know wouldn't have backed out! Hee hee!
 Ho perso anche stavolta, ma mi sono davvero divertito a lottare con te.
 I lost again, but I really enjoyed fighting you.
 Grazie, \PN! Lavorerò sodo per diventare, un giorno, un Cardinale degno di mio padre!
-Thank you,  PN! I will work hard to become, one day, a Cardinal worthy of my father!
+Thank you, \PN! I will work hard to become, one day, a Cardinal worthy of my father!
 Oh, a proposito!
 Oh, by the way!
 Mentre m'azzuffavo con gli altri Pokémon qui nella Giungla, nel parapiglia, ho raccolto questo seme. Credo porti fortuna o qualcosa del genere...

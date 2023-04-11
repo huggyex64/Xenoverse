@@ -267,9 +267,9 @@
 270,SOLETOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Female,127
 271,LINNEATOURNAMENT,(Gemelli VIP),,VS. VIP,Victory VIP,,Mixed,127
 272,VELIATOURNAMENT,(VIP),,VS. VIP,Victory VIP,,Female,127
-273,RUTAPASS5,(Cardinale),,VS.Cardinali,Victory Cardinale,,Male,127
-274,CASTALIAPASS5,(Cardinale),,VS.Cardinali,Victory Cardinale,,Female,127
-275,PEYOTEPASS5,(Cardinale),,VS.Cardinali,Victory Cardinale,,Male,127
-276,HENNEPASS5,(Cardinale),,VS.Cardinali,Victory Cardinale,,Male,127
-277,CLAUDIOPASS5,(Lumen),,VS.Champion,victory champion,,Male,127
+273,RUTAPASS5,(Cardinale),250,VS.Cardinali,Victory Cardinale,,Male,127
+274,CASTALIAPASS5,(Cardinale),250,VS.Cardinali,Victory Cardinale,,Female,127
+275,PEYOTEPASS5,(Cardinale),250,VS.Cardinali,Victory Cardinale,,Male,127
+276,HENNEPASS5,(Cardinale),250,VS.Cardinali,Victory Cardinale,,Male,127
+277,CLAUDIOPASS5,(Lumen),500,VS.Champion,victory champion,,Male,127
 278,BELLOCCHIOTOURNAMENT,(Investigatore),,VS.Trainer,Trainer Victory,,Male,127

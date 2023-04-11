@@ -3021,7 +3021,7 @@ MultipleForms.register(:TOXTRICITY,{
 				   PBNatures::BASHFUL, PBNatures::CALM, PBNatures::GENTLE, PBNatures::CAREFUL].include?(pokemon.nature)
 		next 0
 	},
-	"getFormOnEvolution"=>proc{|pokemon|
+	"getFormOnEvolution"=>proc{|pokemon,item|
 		#Schiva, Sicura, Placida, Timida, Seria, Modesta, Mite, Quieta, Ritrosa, Calma, Gentile o Cauta = BASSO
 		echoln "TOXTRICITY NATURE IS #{pokemon.nature}"
 		next 1 if [PBNatures::LONELY, PBNatures::BOLD, PBNatures::RELAXED, PBNatures::TIMID, PBNatures::SERIOUS, PBNatures::MODEST, PBNatures::MILD, PBNatures::QUIET,
@@ -3755,7 +3755,7 @@ MultipleForms.register(:MEWTWO,{
 		next
 	},
 	"getBaseStats"=>proc{|pokemon|
-		next [106, 190, 100, 130, 154, 130] if pokemon.form == 2
+		next [106, 190, 100, 130, 154, 100] if pokemon.form == 2
 		next
 	},
 	"ability"=>proc{|pokemon|
