@@ -583,10 +583,6 @@ Now I really have to get away.<<n>>Have fun with that little gadget!
 <<[>>old<<]>>The trash is empty.
 <<[>>old<<]>>Un Centro Porygon non funzionante... Tarassaco lo starà aggiustando...?
 <<[>>old<<]>>This Porygon Center does not work... Taraxo is probably fixing it.
-Non sarai da solo|a questa volta. Maurice sa già tutto,
-Non sarai da solo|a questa volta. Maurice sa già tutto,
- inoltre abbiamo informato anche il <b>Capopalestra Crisante</b>.
- inoltre abbiamo informato anche il <b>Capopalestra Crisante</b>.
 [Map10]
 Diego
 Gex
@@ -728,12 +724,6 @@ Sì
 Yes
 No
 No
-Amico, non permetterò più a nessuno di portarti via da me, te lo prometto! 
-Amico, non permetterò più a nessuno di portarti via da me, te lo prometto! 
-<<[>>old<<]>>ATTENZIONE!\nPavimento ghiacciato 
-<<[>>old<<]>>ATTENZIONE!\nPavimento ghiacciato 
-<<[>>old<<]>> La porta sembra essere chiusa a chiave... Tarassaco e Bellocchio ti stanno aspettando sull'Isola Shinobi!
-<<[>>old<<]>> La porta sembra essere chiusa a chiave... Tarassaco e Bellocchio ti stanno aspettando sull'Isola Shinobi!
 [Map11]
 [Map12]
 [Map13]
@@ -938,10 +928,6 @@ No
 No
 Sì
 Yes
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
 Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico! 
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
@@ -967,8 +953,6 @@ Taraxo
 Ehilà, \PN!
 Oi, \PN!
 Eh, già... Il mio impegno non è che una ricerca su alcuni Pokémon della grotta... Piuttosto, hai aiutato quel bambino? 
-Ah, yeah... My job is nothing but research on<<n>>the Pokémon in this cave...<<n>>And you? Have you helped that kid yet?
-Eh, già... Il mio impegno non è che una ricerca su alcuni Pokémon della grotta... Piuttosto, hai aiutato quel bambino?
 Ah, yeah... My job is nothing but research on<<n>>the Pokémon in this cave...<<n>>And you? Have you helped that kid yet?
 [Map17]
 [Map18]
@@ -1278,12 +1262,6 @@ No
 No
 Sì
 Yes
-Cristopher
-Cristopher
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
 Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico! 
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
@@ -1382,8 +1360,6 @@ Come with me.[dispose]
 <<[>>act,left<<]>>@pl|? It sounds fantastic! I knew that you<<n>>wouldn't let me down- cough...cough...
 <<[>>act,right<<]>><<[>>mug,right,ranch/versil,spaventato<<]>> Edera, non sforzarti troppo! Ora pensa solo a riposare...<<[>>dispose<<]>>
 <<[>>act,right<<]>><<[>>mug,right,ranch/versil,spaventato<<]>>Clover, don't overdo it! You should rest now...<<[>>dispose<<]>>
-Venga con me.<<[>>dispose<<]>>
-Venga con me.<<[>>dispose<<]>>
 [Map25]
 <<[>>new,Versil,ranch/versil,spaventato,left,true<<]>> Non ce la faccio più ad aspettare...!<<[>>dispose<<]>>
 <<[>>new,Versil,ranch/versil,spaventato,left,true<<]>>I can't wait any longer...!<<[>>dispose<<]>>
@@ -1952,10 +1928,6 @@ No
 No
 Si
 Yes
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
 Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico! 
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
@@ -2294,12 +2266,6 @@ Tieni, prendi questo biglietto speciale!
 Look, take this special ticket!
 Sono certa che Gengar sarà entusiasta di vederti!
 I'm sure that Gengar will be ecstatic to see you!
-Vedi, ero venuta fin qui per visitare l'immensa biblioteca che ospita il <b>Campus Ariepoli</b>, ma sembra che il <b>Team Dimension</b> lo abbia assediato da capo a piedi. Numerosi studenti del campus sono tenuti prigionieri da quei tali... 
-Vedi, ero venuta fin qui per visitare l'immensa biblioteca che ospita il <b>Campus Ariepoli</b>, ma sembra che il <b>Team Dimension</b> lo abbia assediato da capo a piedi. Numerosi studenti del campus sono tenuti prigionieri da quei tali... 
-Vedi, ero venuto fin qui per visitare l'immensa biblioteca che ospita il <b>Campus Ariepoli</b>, ma sembra che il <b>Team Dimension</b> lo abbia assediato da capo a piedi. Numerosi studenti del campus sono tenuti prigionieri da quei tali... 
-Vedi, ero venuto fin qui per visitare l'immensa biblioteca che ospita il <b>Campus Ariepoli</b>, ma sembra che il <b>Team Dimension</b> lo abbia assediato da capo a piedi. Numerosi studenti del campus sono tenuti prigionieri da quei tali... 
-Melany
-Melany
 [Map35]
 Troy
 Troy
@@ -3381,14 +3347,6 @@ Cura Pokémon
 Heal Pokémon
 Usa Box
 Use Box
-Ma questa... è una semplice Xeno Ball! 
-Ma questa... è una semplice Xeno Ball! 
-Grazie a quell'<b>Ovamuleto</b> avrai più probabilità di trovare Uova nella Pensione! Alcuni mostriciattoli si possono ottenere solo schiudendoli dalle Uova, lo sai?
-Grazie a quell'<b>Ovamuleto</b> avrai più probabilità di trovare Uova nella Pensione! Alcuni mostriciattoli si possono ottenere solo schiudendoli dalle Uova, lo sai?
-Coraggio, io credo in te!
-Coraggio, io credo in te!
-\PN, Aster e Gold mi hanno raccontato tutto ciò che è successo...
-\PN, Aster e Gold mi hanno raccontato tutto ciò che è successo...
 [Map42]
 <<[>>old<<]>>Cerca sempre di non focalizzare l'allenamento su un solo Pokémon della squadra. Meglio avere più compagni su cui poter fare affidamento, non credi?
 <<[>>old<<]>>Try not to focus your attention on one single Pokémon of your party. You better have more fellows you can rely on, don't you think?
@@ -4007,8 +3965,6 @@ Nadia
 Natalie
 In questa biblioteca c'è veramente di tutto!
 You can find every book you need here!
-<<[>>old<<]>>Lastra Terrestre: '''Lastra dal colore purpureo che si dice rappresenti il cuore del Pokémon protettore della Terra.''
-<<[>>old<<]>>Lastra Terrestre: '''Lastra dal colore purpureo che si dice rappresenti il cuore del Pokémon protettore della Terra.''
 [Map56]
 <<[>>old<<]>>Sgabuzzino
 <<[>>old<<]>>Janitor's closet
@@ -4320,10 +4276,6 @@ Sì
 Yes
 No
 No
-\\v<<[>>3<<]>>? Ma che soprannome sublime! Mi raccomando, prenditi cura di \\v<<[>>3<<]>>.
-\\v<<[>>3<<]>>? Ma che soprannome sublime! Mi raccomando, prenditi cura di \\v<<[>>3<<]>>.
-\\v<<[>>3<<]>>? È un bel nome, ma sono sicuro si possa trovare di meglio. Non credi anche tu?
-\\v<<[>>3<<]>>? È un bel nome, ma sono sicuro si possa trovare di meglio. Non credi anche tu?
 [Map67]
 <<[>>old<<]>>Lista dei Pokémon riclassificati al tipo Suono: Ekans e Arbok\n Igglybuff, Jigglypuff e Wigglytuff\n Drowzee e Hypno\n Whismur, Loudred ed Exploud\n Kricketot e Kricketune Chatot\n Audino\n Litleo e Pyroar\n Noibat e Noivern
 <<[>>old<<]>>List of Pokémon reclassified as Sound-type:\n Ekans and Arbok\n Igglybuff, Jigglypuff and Wigglytuff\n Drowzee and Hypno\n Whismur, Loudred and Exploud\n Kricketot and Kricketune\n Chatot\n Audino\n Litleo and Pyroar\n Noibat and Noivern
@@ -4723,8 +4675,6 @@ Pensavo che Aster sarebbe venuto a darmi una strigliata e invece non s'è più f
 I thought Aster would have come to tell me off, but I haven't seen hi-
 Oh...
 Aw...
-\PN, non dovresti andare a Scorpiopoli? Gli altri ti stanno aspettando!
-\PN, non dovresti andare a Scorpiopoli? Gli altri ti stanno aspettando!
 [Map74]
 Sig.Marino
 Sig.Marino
@@ -4940,8 +4890,6 @@ Se le lasciassimo in giro, dovremmo farci strada in un mare di Poké Ball.
 If we leave them lying around, we'll need to make our way<<n>>in a sea of Poké Balls.
 <<[>>old<<]>>Perfino i Montanari esperti rischiano di perdersi all'interno del <b>Cunicolo Gravità</b>. Assicurati di avere tutto il necessario prima di addentrartici!
 <<[>>old<<]>>Event the most experienced Hikers can get lost inside of <b>Gravity Tunnel</b>. Make sure you have everything you need before trying to venture through. 
-<<[>>old<<]>>Perfino i Montanari esperti rischiano di perdersi all'interno del <b>Cunicolo Gravità</b>. Assicurati di avere tutto il necessario prima di addentrartici! 
-<<[>>old<<]>>Perfino i Montanari esperti rischiano di perdersi all'interno del <b>Cunicolo Gravità</b>. Assicurati di avere tutto il necessario prima di addentrartici! 
 [Map79]
 <<[>>old<<]>>Giardini Reali, di proprietà della principessa Mimosa.
 <<[>>old<<]>>Royal Gardens, property of her majesty Princess Vanilla
@@ -6023,10 +5971,6 @@ Sì
 Yes
 No
 No
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
 [Map96]
 Aster
 Aster
@@ -6186,10 +6130,6 @@ No
 No
 Sì
 Yes
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
 Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico! 
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
@@ -6567,10 +6507,6 @@ Si
 Yes
 Evolir
 Evolir
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
 Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico! 
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
@@ -6581,22 +6517,12 @@ Devo assolutamente farti avere questo!
 I absolutely have to give you this!
 Il Torneo Apollo a Sagittopoli sta preparando una nuova Competizione piena di pezzi grossi...
 The Apollo Tournament in Vega City is preparing a new Competition full of big players...
-
 E tu non puoi mancare!
 And you can't miss it!
 Tieni, prendi questo biglietto speciale!
 Look, take this special ticket!
 Sono certa che Gengar sarà entusiasta di vederti!
 I'm sure that Gengar will be ecstatic to see you!
-Shaggy
-Shaggy
-
-E tu non puoi mancare!
-E tu non puoi mancare!
-Tieni, prendi questo biglietto speciale!
-Tieni, prendi questo biglietto speciale!
-Sono certa che Gengar sarà entusiasta di vederti!
-Sono certa che Gengar sarà entusiasta di vederti!
 [Map106]
 Draco
 Draco
@@ -7324,8 +7250,6 @@ TRIII...!
 TRIII...!
 Cosa?! Dov'è finito Trishout?!
 Cosa?! Dov'è finito Trishout?!
-La situazione è critica, \PN. Il tuo Pokémon è scappato, ma non dev'essere andato lontano... sarà sicuramente ancora in giro per il vulcano! Io andrò sulla vetta, non c'è tempo da perdere!
-La situazione è critica, \PN. Il tuo Pokémon è scappato, ma non dev'essere andato lontano... sarà sicuramente ancora in giro per il vulcano! Io andrò sulla vetta, non c'è tempo da perdere!
 [Map129]
 [Map130]
 <<[>>old<<]>>Qui non c'è niente...
@@ -8536,10 +8460,6 @@ No
 No
 Sì
 Yes
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
 Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico! 
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
@@ -8735,8 +8655,6 @@ Affermativo!
 Affirmative!
 Negativo!
 Negative!
-Mmh... Quella sigla sul collo... <b>R3V0</b>? Che ne dite di <b>Revolver</b>, ragazzi? Suena bien... non credi, \PN? 
-Mmh... Quella sigla sul collo... <b>R3V0</b>? Che ne dite di <b>Revolver</b>, ragazzi? Suena bien... non credi, \PN? 
 [Map162]
 Will
 Will
@@ -10789,10 +10707,6 @@ Sarah
 Sarah
 Ci credi che Daddy un tempo era povero? Sul serio, rubava nei Pokémon-Market per mantenersi!
 Can you believe that Daddy was poor once? I mean,<<n>>he used to steal from Poké Marts for a livin'!
-Lo streetwear esposto in vetrina è davvero figo, peccato solo che costi uno sfacelo... 
-Lo streetwear esposto in vetrina è davvero figo, peccato solo che costi uno sfacelo... 
-<<[>>old<<]>>La porta sembrerebbe chiusa a chiave... 
-<<[>>old<<]>>La porta sembrerebbe chiusa a chiave... 
 [Map198]
 <<[>>old<<]>>Vuoi riposarti?
 <<[>>old<<]>>Would you like to rest?
@@ -11252,10 +11166,6 @@ No
 No
 Si
 Yes
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
 Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico! 
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
@@ -12185,8 +12095,6 @@ Benissimo!
 Very well!
 Ehm, ecco...
 Ahem, actually...
-Bah, questi abiti non fanno proprio per me. Servirebbe qualcosa di più vintage... 
-Bah, questi abiti non fanno proprio per me. Servirebbe qualcosa di più vintage... 
 [Map222]
 Sean
 Sean
@@ -12335,8 +12243,6 @@ Ashkii
 Ashkii
 Quello che portate è davvero un curioso copricapo, sapete?
 Thy headgear is surely odd indeed, thou know?
-Prima di diventare Cardinale, Peyote ha girato il mondo, traendo il meglio da qualsiasi cultura incontrasse. Nessuno dovrebbe mai degnarsi di scavalcare le altre! 
-Prima di diventare Cardinale, Peyote ha girato il mondo, traendo il meglio da qualsiasi cultura incontrasse. Nessuno dovrebbe mai degnarsi di scavalcare le altre! 
 [Map224]
 Paradiso Sakura
 Sakura Paradise
@@ -12565,8 +12471,6 @@ Claudia
 Blair
 Certo che, se mettono un Pokémon-Market nell'aeroporto, mi sento quasi in dovere di fare compere!
 I sure wanna shop if there's a Poké Mart right inside<<n>>the airport!
-Sto solo dando un'occhiata, penso che poi ordinerò dal web quello che mi serve. 
-Sto solo dando un'occhiata, penso che poi ordinerò dal web quello che mi serve. 
 [Map228]
 Paolo
 Paolo
@@ -12713,10 +12617,6 @@ Elmer
 Cody
 Allora, vediamo un po'... Una mossa che possa lasciare di sasso tutti i miei amici...?
 Hmm, let's see... What move could leave all my friends<<n>>to stone...?
-Roy
-Roy
-Yo! Questo è il Pokémon-Market dell'Aeroporto Samuel Oak adibito alla vendita di Macchine Tecniche!
-Yo! Questo è il Pokémon-Market dell'Aeroporto Samuel Oak adibito alla vendita di Macchine Tecniche!
 [Map230]
 Giuseppe
 Branson
@@ -12794,10 +12694,6 @@ In fondo stavi solo dando un'occhiata... ma non provarci più! Prendi qui, dai!
 You were only having a look, after all...<<n>>but don't ever try that again!<<n>>Grab this, c'mon!
 <<[>>old<<]>>Meglio non rischiare...
 <<[>>old<<]>>It's too risky...
-Sì
-Sì
-No
-No
 [Map233]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
@@ -12936,8 +12832,6 @@ Sì
 Yes
 No
 No
-<<[>>old<<]>>Mimikyu vuole dimostrarti la sua riconoscenza con una lotta! 
-<<[>>old<<]>>Mimikyu vuole dimostrarti la sua riconoscenza con una lotta! 
 [Map241]
 Miranda
 Cassidy
@@ -13261,14 +13155,6 @@ Si
 Yes
 No
 No
-Prima di poter affrontare la principessa, è tuttavia prevista una lotta col sottoscritto. Or dunque procediamo con quanto appena menzionato.
-Prima di poter affrontare la principessa, è tuttavia prevista una lotta col sottoscritto. Or dunque procediamo con quanto appena menzionato.
-Smeargle
-Smeargle
-Hmpf!!
-Hmpf!!
-Sì
-Sì
 [Map252]
 [Map253]
 [Map254]
@@ -13923,12 +13809,6 @@ Sì
 Yes
 No
 No
-???
-???
-...
-...
-<<[>>old La pioggia è troppo forte. Meglio non usare Volo ad Ofiuchia.
-<<[>>old La pioggia è troppo forte. Meglio non usare Volo ad Ofiuchia.
 [Map266]
 Versil
 Versil
@@ -13966,8 +13846,6 @@ Il vigore di certo non manca neanche a te.
 You really are strong too!
 Un canyon nasce quando un corso d'acqua, erodendo lentamente il terreno sottostante, si scava una valle.
 Canyons form when rivers carve into the land with their rushing waters, wearing away the land.
-<<[>>old<<]>>Dev'essersi attivato qualcosa. Meglio dare un'occhiata nei dintorni. 
-<<[>>old<<]>>Dev'essersi attivato qualcosa. Meglio dare un'occhiata nei dintorni. 
 [Map267]
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 <<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
@@ -14248,14 +14126,6 @@ Come funziona?
 How does it work?
 Modalità di gioco
 Game modes
-Ananas
-Ananas
-Ciao Allenatore! E benvenuto nel Cammino dell'Eroe! Come posso aiutarti?
-Ciao Allenatore! E benvenuto nel Cammino dell'Eroe! Come posso aiutarti?
-Il Cammino dell'Eroe, è una delle attrazioni principali della Giungla Nebulosa. Fin dai tempi antichi, gli abitanti di Ofiuschia, utilizzavano dei Donanas, Pokémon molto veloci, per sopravvivere e cattuare altre specie di Pokémon! Abbiamo deciso di ritornare alle origini, creando questo parco a tema per onorare i nostri antenati. E' possibile utilizzare solo i nostri Donanas durante questa avventura, e un massimo di 30 OldBall. Quando il tuo Donanas viene sconfitto, il gioco finisce! Oppure puoi tranquillamente ritirarti uscendo dall'area. 
-Il Cammino dell'Eroe, è una delle attrazioni principali della Giungla Nebulosa. Fin dai tempi antichi, gli abitanti di Ofiuschia, utilizzavano dei Donanas, Pokémon molto veloci, per sopravvivere e cattuare altre specie di Pokémon! Abbiamo deciso di ritornare alle origini, creando questo parco a tema per onorare i nostri antenati. E' possibile utilizzare solo i nostri Donanas durante questa avventura, e un massimo di 30 OldBall. Quando il tuo Donanas viene sconfitto, il gioco finisce! Oppure puoi tranquillamente ritirarti uscendo dall'area. 
-Se hai bisogno di informazioni, chiedi pure!
-Se hai bisogno di informazioni, chiedi pure!
 [Map273]
 <<[>>old<<]>>L'oasi di Aquariopoli è nota per le acque miracolose del suo fiume. Queste vengono commerciate in tutta la regione col nome di ''Acqua Fresca''.
 <<[>>old<<]>>The oasis of Ishtar City is renowned for its miraculous springs. Their water is traded all over the region with the name of ''Fresh Water''.
@@ -15146,8 +15016,6 @@ Sì
 Yes
 No
 No
-<<[>>old<<]>>Rivolgiti al Ricordamosse <b>Mnemonio</b> per insegnare ai tuoi Pokémon mosse che hanno dimenticato col tempo. Chissà, potrebbe sorprenderti! 
-<<[>>old<<]>>Rivolgiti al Ricordamosse <b>Mnemonio</b> per insegnare ai tuoi Pokémon mosse che hanno dimenticato col tempo. Chissà, potrebbe sorprenderti! 
 [Map281]
 Marano
 Shiro
@@ -15319,10 +15187,6 @@ Sì
 Yes
 No
 No
-Ti immaginavi già con un nuovo strumento tra le mani, eh? E invece beccati una lotta! 
-Ti immaginavi già con un nuovo strumento tra le mani, eh? E invece beccati una lotta! 
-Tattica ninja numero tre... ''falsa sconfitta''! 
-Tattica ninja numero tre... ''falsa sconfitta''! 
 [Map282]
 Carminio
 Lavy
@@ -15868,8 +15732,6 @@ Io volevo presentartela come una ladra, per fare una bella figura ai tuoi occhi!
 I was going to bring her as a thief, so I could've been praised by you!<<n>>But when things went too bad, I had no choice but to ask help from the same person I was gonna blame<<n>>for something I did!
 Scherzi a parte, sei stata davvero abile a spezzare il sortilegio di quel Roserade.
 Seriously, you've been great at breaking the curse<<n>>casted by that Roserade.
-Anch'io ho una fame... 
-Anch'io ho una fame... 
 [Map297]
 Chua
 Chua
@@ -16274,10 +16136,6 @@ Sì
 Yes
 No
 No
-<<[>>old<<]>>È spento... Dev'esserci un modo per riattivarlo! 
-<<[>>old<<]>>È spento... Dev'esserci un modo per riattivarlo! 
-<<[>>old<<]>>Dev'essersi attivato qualcosa. Meglio dare un'occhiata nei dintorni. 
-<<[>>old<<]>>Dev'essersi attivato qualcosa. Meglio dare un'occhiata nei dintorni. 
 [Map305]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
 <<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
@@ -16560,10 +16418,6 @@ Tieni, prendi questo biglietto speciale!
 Look, take this special ticket!
 Sono certa che Gengar sarà entusiasta di vederti!
 I'm sure that Gengar will be ecstatic to see you!
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
 [Map309]
 <<[>>old<<]>>Il cestino è vuoto.
 <<[>>old<<]>>The trash is empty.
@@ -17449,8 +17303,6 @@ Holly
 Holly
 Evvai, ho preso un Joltik col retino!
 Yayyy! I caught a Joltik with my golden net!
-Un tempo la città ospitava una Palestra, ma sono anni che il suo Capopalestra non si fa più vivo ormai... 
-Un tempo la città ospitava una Palestra, ma sono anni che il suo Capopalestra non si fa più vivo ormai... 
 [Map334]
 Manuel
 Isaac
@@ -17873,10 +17725,6 @@ Tieni, prendi questo biglietto speciale!
 Look, take this special ticket!
 Sono certa che Gengar sarà entusiasta di vederti!
 I'm sure that Gengar will be ecstatic to see you!
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
 [Map342]
 Meg
 Meg
@@ -18332,8 +18180,6 @@ Sì
 Yes
 No
 No
-A chi importa se non possiamo fermare le onde, cavalcarle è un tale spasso! 
-A chi importa se non possiamo fermare le onde, cavalcarle è un tale spasso! 
 [Map351]
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
@@ -18845,8 +18691,6 @@ Cura Pokémon
 Heal Pokémon
 Usa Box
 Use Box
- E sia, Trey, ma vedi di non fare passi falsi!
- E sia, Trey, ma vedi di non fare passi falsi!
 [Map366]
 <<[>>old<<]>>Sembra sia stato colpito da un potente getto d'acqua...
 <<[>>old<<]>>It looks like it got hit by a powerful Hydro Pump...
@@ -18967,8 +18811,6 @@ Se riuscissi a sfruttarlo a nostro favore, non avremmo più seccature contro que
 If I can get my hands on it, we won't have any more hassles with those Grunts!<<n>>There must be a way and I'm gonna find it!
 Intanto, da' qua i tuoi Pokémon. In questo posto non c'è da prenderla alla leggera!
 But first, gimme your Pokémon. We can't take it easy<<n>>in such a place!
- \PN! Uh uh uh!
- \PN! Uh uh uh!
 [Map368]
 33DW
 33DW
@@ -19219,8 +19061,6 @@ Sì
 Yes
 No
 No
-<<[>>old<<]>>Assicurati di avere il tuo Pokémon iniziale in squadra per proseguire. 
-<<[>>old<<]>>Assicurati di avere il tuo Pokémon iniziale in squadra per proseguire. 
 [Map372]
 OL8N
 OL8N
@@ -19278,8 +19118,6 @@ Paris
 I'm going crazy and this is all because of the Moon!
 Ognuno di noi ha un lato oscuro che non mostra mai a nessuno.
 Everyone has a dark side they never show to anyone, just like Moon.
-Con questa tuta indosso, sento un'irrefrenabile voglia di lottare! 
-Con questa tuta indosso, sento un'irrefrenabile voglia di lottare! 
 [Map375]
 [Map376]
 Nanda
@@ -19750,8 +19588,6 @@ Sì
 Yes
 No
 No
-Uno dei suoi Pokémon, però, riuscì a sopravvivere e, con le sue ultime forze, fare ritorno sulla Terra... Quel Pokémon era proprio questo Mewtwo!
-Uno dei suoi Pokémon, però, riuscì a sopravvivere e, con le sue ultime forze, fare ritorno sulla Terra... Quel Pokémon era proprio questo Mewtwo!
 [Map381]
 [Map382]
 Alice
@@ -20065,10 +19901,6 @@ Sì
 Yes
 No
 No
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
 Alterio
 Alterio
 La cerimonia dei Cardinali è terminata con successo, nonostante il disastro che era accaduto sul Monte Zodiaco!
@@ -20463,10 +20295,6 @@ Complimenti, sei tu nuovamente il Campione della regione di Eldiw.
 Complimenti, sei tu nuovamente il Campione della regione di Eldiw.
 Per Aspera Ad Astra!
 Per Aspera Ad Astra!
-Tutto ciò che hai vissuto, nel bene e nel male, ti ha reso ciò che sei ora... La stella che splende più radiosa nell'intero firmamento! 
-Tutto ciò che hai vissuto, nel bene e nel male, ti ha reso ciò che sei ora... La stella che splende più radiosa nell'intero firmamento! 
-???
-???
 \PN, sei finalmente qui.
 \PN, you're finally here.
 Ti sei mai chiesto|a, guardando il cielo, l'età delle stelle?
@@ -20613,10 +20441,6 @@ No
 No
 Si
 Yes
-È tutta farina del sacco di <b>Gold</b>... che poi sarei io! Eh eh! 
-È tutta farina del sacco di <b>Gold</b>... che poi sarei io! Eh eh! 
-Un'amica di vecchia data mi aveva convocato qui per cercare un compagno scomparso, ma a quanto pare ci ha già pensato qualcun altro a ritrovarlo... 
-Un'amica di vecchia data mi aveva convocato qui per cercare un compagno scomparso, ma a quanto pare ci ha già pensato qualcun altro a ritrovarlo... 
 [Map408]
 Gina
 Janet
@@ -20878,10 +20702,6 @@ Tieni, prendi questo biglietto speciale!
 Look, take this special ticket!
 Sono certa che Gengar sarà entusiasta di vederti!
 I'm sure that Gengar will be ecstatic to see you!
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
 [Map411]
 Stefano
 Malcolm
@@ -20916,10 +20736,6 @@ There you go! Now, your Pokémon will be able unleash<<n>>its full Water-type po
 <<[>>old<<]>>It's empty.
 <<[>>old<<]>>C'è qualcosa all'interno.
 <<[>>old<<]>>There's something inside.
-Sì
-Sì
-No
-No
 [Map413]
 Liu
 Liu
@@ -21001,8 +20817,6 @@ La sconfitta non è nient'altro che educazione.
 Defeat is nothing but education.
 <<[>>old<<]>>Un'antica illustrazione che ritrae un Pokémon di Fuoco.
 <<[>>old<<]>>An ancient illustration representing a Fire-type Pokémon.
-Se riuscirai a vincere con la tua forza mio fratello Tyro, metterò in vendita anche a te i miei preziosi strumenti. 
-Se riuscirai a vincere con la tua forza mio fratello Tyro, metterò in vendita anche a te i miei preziosi strumenti. 
 [Map416]
 Paolo
 Paolo
@@ -21206,10 +21020,6 @@ Tieni, prendi questo biglietto speciale!
 Look, take this special ticket!
 Sono certa che Gengar sarà entusiasta di vederti!
 I'm sure that Gengar will be ecstatic to see you!
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
 Ma da quando Claudio ha terminato gli studi con voti eccellenti, ho deciso di prenderlo sotto la mia ala. E mi sembra di aver fatto la scelta giusta!
 But ever since Ginger finished his studies with excellent grades, I decided to take him under my wing. And I seem to have made the right choice!
 [Map417]
@@ -21398,10 +21208,6 @@ No
 No
 Sì
 Yes
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
 Ho visto la pubblicità in televisione poco tempo fa, quel Gengar è veramente carismatico! 
 I saw the commercials on television a short time ago, that Gengar is really charismatic!
 Nefi
@@ -21662,11 +21468,11 @@ Dielebi
 Lebi...!
 Lebi...!
 <<[>>old<<]>>Santuario Nido Tempovia - È dedicato al protettore della foresta.
-<<[>>old<<]>>Santuario Nido Tempovia - È dedicato al protettore della foresta.
+<<[>>old<<]>>Timetravel Den Shrine - In honor of the protector of the forest.
 <<[>>old<<]>>...?
 <<[>>old<<]>>...?
 <<[>>old<<]>>C'è un foro perfettamente circolare. Vuoi inserire la GS Ball?
-<<[>>old<<]>>C'è un foro perfettamente circolare. Vuoi inserire la GS Ball?
+<<[>>old<<]>>There is a perfectly circular hole. Would you like to insert the GS Ball?
 Sì
 Yes
 No
@@ -21771,10 +21577,6 @@ Dueye...!
 Dueye...!
 <<[>>old<<]>>Rai...!
 <<[>>old<<]>>Rai...!
-Sì
-Sì
-No
-No
 [Map448]
 <<[>>old<<]>><b>ATTENZIONE!</b>
 <<[>>old<<]>><b>WARNING!</b>
@@ -21872,10 +21674,6 @@ GO-GO Granbulls!
 GO-GO Granbulls!
 <<[>>old<<]>>Claudio si è unito alla squadra.
 <<[>>old<<]>>Ginger joined the team.
-Tsk...
-Tsk...
-Gold e soprattutto \PN mi hanno dato una mano a ritrovarti.
-Gold e soprattutto \PN mi hanno dato una mano a ritrovarti.
 [Map457]
 <<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
 <<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi's power.
@@ -21942,14 +21740,6 @@ Claudio
 Ginger
 Tu
 You
-Suicune
-Suicune
-Sui...!
-Sui...!
-Eccolo. Tanto maestoso, quanto pericoloso... di nuovo faccia a faccia!
-Eccolo. Tanto maestoso, quanto pericoloso... di nuovo faccia a faccia!
-<<[>>old<<]>>Sui...!
-<<[>>old<<]>>Sui...!
 [Map461]
 Sì
 Yes
@@ -22128,8 +21918,6 @@ Stia calmo, milord. Sono certo che anche Luxflon stia bene, ovunque egli sia.
 Calm down, milord. I'm sure Luxflon is alright,<<n>>wherever it is.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
 <<[>>old<<]>>È una roccia molto dura, ma dev'esserci un modo per romperla.
- A-Aspetta... hai detto <b>noi</b> Cardinali?!
- A-Aspetta... hai detto <b>noi</b> Cardinali?!
 [Map465]
 Minerva
 Athena
@@ -22387,8 +22175,6 @@ La vita è un viaggio che merita di essere fatto al meglio delle proprie possibi
 Life is a journey that deserves to be done to the best of one's abilities.
 Xavier
 Xavier
-Devo ringraziare il Pokéboard per avermi insegnato ad avere tecnica, tenacia e concentrazione! 
-Devo ringraziare il Pokéboard per avermi insegnato ad avere tecnica, tenacia e concentrazione! 
 [Map476]
 Barrio
 Barney
@@ -22745,8 +22531,6 @@ Sì
 Yes
 No
 No
-<<[>>old<<]>>Oh, no! Abra si è accorto della tua presenza!
-<<[>>old<<]>>Oh, no! Abra si è accorto della tua presenza!
 [Map496]
 Druddigon
 Druddigon
@@ -23490,8 +23274,6 @@ Well, anyway, I want you to know that you're welcome<<n>>whenever you want to en
 <<[>>old<<]>><b>Gold Coin</b> ''A special coin issued by Vega City's casino.''
 <<[>>old<<]>><b>Idolo d'Acqua</b> ''Statuetta raffigurante un Pokémon venerato a Tauronordia.''
 <<[>>old<<]>><b>Idol of Water</b> ''A statue that represents the Pokémon revered in Borealis Town.''
-Mi raccomando, non utilizzare la <b>Master Ball<b> su quei Pokémon invasori... sarebbe del tutto inutile!
-Mi raccomando, non utilizzare la <b>Master Ball<b> su quei Pokémon invasori... sarebbe del tutto inutile!
 [Map539]
 Alice
 Alice
@@ -23994,10 +23776,6 @@ Sala Rock
 Rock Room
 Golden Studio
 Golden Studio
-Anche il terzo talento deve purtroppo lasciare il palco, ma per correttezza sentiamo anche il parere di \PN. 
-Anche il terzo talento deve purtroppo lasciare il palco, ma per correttezza sentiamo anche il parere di \PN. 
-Ma ora arriva il difficile... Perché sarò io il tuo sfidante! Solo se vincerai, il Pass per il Golden Studio sarà tuo! Forza!
-Ma ora arriva il difficile... Perché sarò io il tuo sfidante! Solo se vincerai, il Pass per il Golden Studio sarà tuo! Forza!
 [Map543]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Ti costerà 500$.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It'll cost you $500.
@@ -24192,36 +23970,6 @@ Lottavo per un uomo per cui nutrivo un'enorme stima, <b>Giovanni</b>... It was a
 I was fighting for a man whom I held in very high esteem, <b>Giovanni</b>... It was a dream, until...<<n>>A brat about your age screwed everything up!
 Il boss fu costretto a sciogliere l'organizzazione che aveva creato e io mi trovai nuovamente solo, come al tempo della guerra, quando tutti i miei compagni erano finiti ammazzati...
 The boss had to dissolve the organization he set up<<n>>and I found myself alone again,<<n>>as during war, when all my comrades got killed...
-I know exactly il motivo per cui sei qui... Vuoi la mia Medaglia, don't you?
-I know exactly il motivo per cui sei qui... Vuoi la mia Medaglia, don't you?
-L'ho ribattezzata ''Medaglia Onore'' per il valore che quei ricordi hanno per me...
-L'ho ribattezzata ''Medaglia Onore'' per il valore che quei ricordi hanno per me...
-Il boss fu costretto a sciogliere l'organizzazione che aveva creato e io mi trovai nuovamente solo, come al tempo della guerra, quando tutti i miei compagni erano stati ammazzati...
-Il boss fu costretto a sciogliere l'organizzazione che aveva creato e io mi trovai nuovamente solo, come al tempo della guerra, quando tutti i miei compagni erano stati ammazzati...
-Doveva essere una guerra lampo, invece si protrasse nel tempo più di quanto, chi l'aveva causata, si aspettasse...
-Doveva essere una guerra lampo, invece si protrasse nel tempo più di quanto, chi l'aveva causata, si aspettasse...
-But war never changes, è proprio vero...
-But war never changes, è proprio vero...
-Io me la cavai perdendo solo il braccio destro, ma il mio compagno d'arme, Raichu... era unrecognizable!
-Io me la cavai perdendo solo il braccio destro, ma il mio compagno d'arme, Raichu... era unrecognizable!
-Risvegliatomi dopo svariati giorni di coma, andai su tutte le furie...
-Risvegliatomi dopo svariati giorni di coma, andai su tutte le furie...
-Mi propose un ruolo di spicco all'interno dell'organizzazione che aveva recently messo in piedi, definendola ''la Fenice rinata dalle ceneri del Team Rocket''...
-Mi propose un ruolo di spicco all'interno dell'organizzazione che aveva recently messo in piedi, definendola ''la Fenice rinata dalle ceneri del Team Rocket''...
-Parlavano di ''Specie Artificiale'', bah.
-Parlavano di ''Specie Artificiale'', bah.
-Dopo tutto ciò che era accaduto, non avevo più nulla a questo mondo... Solo questa Palestra, ormai divorata dal tempo...
-Dopo tutto ciò che era accaduto, non avevo più nulla a questo mondo... Solo questa Palestra, ormai divorata dal tempo...
-...
-...
-Contiene ''Sprizzalampo'', una mossa che, ai tempi della guerra, utilizzavo spesso per folgorare i miei enemies.
-Contiene ''Sprizzalampo'', una mossa che, ai tempi della guerra, utilizzavo spesso per folgorare i miei enemies.
-Il destino talvolta gioca dei brutti scherzi, you see...
-Il destino talvolta gioca dei brutti scherzi, you see...
-Beh... Devi essere really stupid se pensi di poter fare irruzione nell'avamposto nemico... oppure hai fegato da vendere, giovane.
-Beh... Devi essere really stupid se pensi di poter fare irruzione nell'avamposto nemico... oppure hai fegato da vendere, giovane.
-La verità potrebbe essere un boccone più amaro di quel che immagini...
-La verità potrebbe essere un boccone più amaro di quel che immagini...
 [Map545]
 Tuttavia, lo spirito del guerriero divampava ancora in me...
 However, the spirit of the warrior was still burning<<n>>within me...
@@ -24276,8 +24024,6 @@ Decisi di tornarci e, da allora, questa vecchia stamberga è praticamente my hom
 I decided to come back here and since then this old shack<<n>>has basically been my home...
 Mi rievoca emozioni ormai appartenti al passato e cui non posso fare a meno di pensare...
 It brings me back the memory of a glorious past I could never forget...
-... What a sad story, huh?
-... What a sad story, huh?
 [Map551]
 <<[>>old<<]>>È uno dei tempietti di Dielebi... Vuoi attivarlo?
 <<[>>old<<]>>It's one of Dielebi's shrines... Will you trigger it?
@@ -24501,8 +24247,6 @@ No
 [Map557]
 <<[>>old<<]>>La porta è chiusa a chiave.
 <<[>>old<<]>>The door is locked.
-<<[>>old<<]>> La porta sembra essere chiusa a chiave... Tarassaco e Bellocchio ti stanno aspettando sull'Isola Shinobi!
-<<[>>old<<]>> La porta sembra essere chiusa a chiave... Tarassaco e Bellocchio ti stanno aspettando sull'Isola Shinobi!
 [Map558]
 <<[>>old<<]>>Cos'è stato?
 <<[>>old<<]>>What was that?
@@ -24538,8 +24282,6 @@ Sì
 Yes
 No
 No
-<<[>>old<<]>>Ecco a voi, ora il vostro Pokémon ha cambiato aspetto! 
-<<[>>old<<]>>Ecco a voi, ora il vostro Pokémon ha cambiato aspetto! 
 [Map559]
 Alisio
 Zeke
@@ -24704,10 +24446,6 @@ Sì
 Yes
 No
 No
-A seguito degli avvenimenti dello Xenoverse, accaduti qualche mese fa, schedati nel cosiddetto \"caso Eclissi\", sul pianeta sembrerebbe essersi riversata energia in grandi, anzi, grandissime quantità...
-A seguito degli avvenimenti dello Xenoverse, accaduti qualche mese fa, schedati nel cosiddetto \"caso Eclissi\", sul pianeta sembrerebbe essersi riversata energia in grandi, anzi, grandissime quantità...
-Quello è un <b>Sigillo Furia</b>, un antico artefatto che in un passato remoto veniva utilizzato per esorcizzare i cosiddetti \"demoni\" e contenerne i poteri, dopo averli privati delle loro energie.
-Quello è un <b>Sigillo Furia</b>, un antico artefatto che in un passato remoto veniva utilizzato per esorcizzare i cosiddetti \"demoni\" e contenerne i poteri, dopo averli privati delle loro energie.
 [Map567]
 Anf...Anf...\PN.
 Anf...Anf...\PN.
@@ -24749,14 +24487,6 @@ This should be the last room of the Palace.
 <<[>>old<<]>>Would you like to go back?
 Henné
 Henna
-Entei
-Entei
-...!
-...!
-Sì
-Sì
-No
-No
 [Map568]
 <<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
 <<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi's power.
@@ -24833,8 +24563,6 @@ Cura Pokémon
 Heal Pokémon
 Usa Box
 Use Box
-Sì
-Sì
 [Map582]
 <<[>>old<<]>>Probabilmente questa campanella può essere attivata grazie al potere di Dielebi...
 <<[>>old<<]>>Probably this bell can be triggered thanks to Dielebi's power.
@@ -24868,8 +24596,6 @@ Cura Pokémon
 Heal Pokémon
 Usa Box
 Use Box
-Sì
-Sì
 [Map589]
 <<[>>old<<]>>Aiutateci, vi prego!
 <<[>>old<<]>>I beg you, help us!
@@ -24971,8 +24697,6 @@ No
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
 <<[>>old<<]>>Sala Acciaio.
 <<[>>old<<]>>Steel Room.
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
 [Map595]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
@@ -25046,12 +24770,6 @@ Roger!
 <<[>>old<<]>>The group advances, leaving Revolver to control the situation.
 Modalità TB-404 attivata.
 Mode TB-404 activated.
-<<[>>old<<]>>Ditt...!
-<<[>>old<<]>>Ditt...!
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
-Sì
-Sì
 [Map596]
 <<[>>old<<]>>Sala Fuoco.
 <<[>>old<<]>>Fire Room.
@@ -25069,8 +24787,6 @@ Sì
 Yes
 No
 No
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
 [Map597]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
@@ -25114,12 +24830,6 @@ Let's proceed!
 <<[>>old<<]>>The group advances, leaving Chrysler to control the situation.
 Non preoccupatevi. Posso gestire la situazione anche da solo!
 Don't worry, I can keep the situation under control by myself!
-Sì
-Sì
-Cura Pokémon
-Cura Pokémon
-Usa Box
-Usa Box
 [Map599]
 <<[>>old<<]>>Sala Erba.
 <<[>>old<<]>>Grass Room.
@@ -25129,10 +24839,6 @@ Usa Box
 <<[>>old<<]>>You add the page to the Old Diary.
 <<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
-<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
-<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
 [Map601]
 <<[>>old<<]>>Vuoi attivare il Centro Porygon? Questo servizio è gratuito.
 <<[>>old<<]>>Would you like to turn on the Porygon Center? It's a free service!
@@ -25187,15 +24893,7 @@ Keep an eye on your father in my stead. I trust your judgement.
 <<[>>old<<]>>Il gruppo avanza, lasciando Crisante a controllare la situazione.
 <<[>>old<<]>>The group advances, leaving Caspar to control the situation.
 \PN, resterò qui di vedetta per salvaguardare il successo delle indagini. Orsù, è il momento di congedarvi.
-\PN, I'll stay here as a lookout to ensure the success of the investigation. Come on, it's time for you to go.
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
-Sì
-Sì
-Cura Pokémon
-Cura Pokémon
-Usa Box
-Usa Box
+\PN, I'll stay here as a lookout to ensure the success of the investigation. Come on, it's time for you to go
 [Map602]
 <<[>>old<<]>>Sala Suono.
 <<[>>old<<]>>Sound Room.
@@ -25218,8 +24916,6 @@ Are you sure?
 <<[>>old<<]>>You add the page to the Old Diary.
 <<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
 [Map604]
 Versil
 Versil
@@ -25255,12 +24951,6 @@ Non può mancare ancora molto, dobbiamo continuare a scendere.
 It can't be much further ahead, we need to keep going.
 Coraggio, figliolo|a!
 All right, let's go!
-Sì
-Sì
-Cura Pokémon
-Cura Pokémon
-Usa Box
-Usa Box
 [Map605]
 Versil
 Versil
@@ -25296,16 +24986,6 @@ Ritorna alla battaglia finale.
 Return to the final battle.
 Non sono pronto.
 I'm not ready yet.
-<<[>>old<<]>> Cosa vuoi fare?
-<<[>>old<<]>> Cosa vuoi fare?
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
-Sì
-Sì
-Cura Pokémon
-Cura Pokémon
-Usa Box
-Usa Box
 [Map606]
 Sì
 Yes
@@ -25337,8 +25017,6 @@ No
 <<[>>old<<]>>You add the page to the Old Diary.
 <<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
 [Map607]
 Sì
 Yes
@@ -25401,10 +25079,6 @@ No
 <<[>>old<<]>>You add the page to the Old Diary.
 <<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
-<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
-<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
 [Map609]
 <<[>>old<<]>>Alcune parti del testo sono offuscate, vuoi provare a leggere?
 <<[>>old<<]>>Some parts of the text are blurred, want to try and read them?
@@ -25436,8 +25110,6 @@ No
 <<[>>old<<]>>You add the page to the Old Diary.
 <<[>>old<<]>>È una vecchia pagina strappata... Forse potrebbe appartenere ad un diario?
 <<[>>old<<]>>It's an old torn page... maybe it's part of a diary?
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
 [Map610]
 <<[>>old<<]>>SCAPPA.
 <<[>>old<<]>>RUN.
@@ -25668,10 +25340,6 @@ Sì
 Yes
 No
 No
-???
-???
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
-<<[>>old<<]>>Hai trovato una pagina di diario! \wtnp<<[>>30<<]>>
 [Map614]
 Sono uno degli autori di questi quadri!
 I'm one of the authors of these paintings!
@@ -26803,18 +26471,6 @@ La mente di un vero maestro di arti marziali deve restare calma in ogni momento.
 The mind of a true martial arts master must be calm at all times... I'll keep giving you my services just like before!
 <<[>>old<<]>>Non puoi tornare indietro.
 <<[>>old<<]>>You cannot go back.
-Ciao! Benvenuto|a nel Centro Pokémon del Monte Zodiaco! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
-Ciao! Benvenuto|a nel Centro Pokémon del Monte Zodiaco! In questa struttura ci prendiamo cura dei Pokémon stanchi o affaticati. Vuoi far riposare la tua squadra?
-Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
-Perdona l'attesa. Ora i tuoi Pokémon sono in perfetta forma!
-Torna pure quando vuoi.
-Torna pure quando vuoi.
-Questo è il Pokémon-Market del Monte Zodiaco!
-Questo è il Pokémon-Market del Monte Zodiaco!
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Uhm... Non vedo mosse che \\v<<[>>3<<]>> possa ricordare...
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
-Quale mossa vuoi far ricordare a \\v<<[>>3<<]>>?
 [Map627]
 Alice
 Alice
@@ -26840,10 +26496,6 @@ Now that I'm here, I'll do the exact opposite of what you want to do!
 <<[>>old<<]>>Would you like to use the power of Aegislash X to shatter this ensign?
 <<[>>old<<]>>E' successo qualcosa. Meglio controllare in giro...
 <<[>>old<<]>>Something happened! It's best to look around...
-Sì
-Sì
-No
-No
 [Map628]
 <<[>>old<<]>>Il Verispecchio riflette l'immagine di...
 <<[>>old<<]>>The image reflected by the Reveal Glass is...
@@ -26947,12 +26599,6 @@ Tsk...!
 Tsk...!
 Presto, raggiungete gli altri Cardinali! Io proverò a riprendere il Rituale!
 Quick, reach the other Cardinals! I'll try to continue the Ritual!
-Se il mio presentimento è giusto, anche gli altri Cardinali potrebbero aver bisogno del vostro aiuto.
-Se il mio presentimento è giusto, anche gli altri Cardinali potrebbero aver bisogno del vostro aiuto.
-...!
-...!
-<<[>>old<<]>>Krrrrkrrrkrrak!
-<<[>>old<<]>>Krrrrkrrrkrrak!
 [Map629]
 <<[>>old<<]>>La forza distruttiva di Aegislash X rompe tutti gli specchi maligni.
 <<[>>old<<]>>The destructive power of Aegislash X breaks all the evil mirrors.
@@ -27061,10 +26707,6 @@ Niva passed out, she must be really tired.
 \PN, we have to go and help the other Cardinals!
 Per ora credo che Castalia sia al sicuro qui, ma dobbiamo fare in fretta!
 For now I think that Niva will be safe here, but we must make haste! 
-...
-...
-<<[>>old<<]>>Amooooor!
-<<[>>old<<]>>Amooooor!
 [Map631]
 <<[>>old<<]>>L'assenza è presenza, ma la presenza di uno sguardo sull'assenza ti farà dimenticare della tua presenza.
 <<[>>old<<]>>Absence is presence, but the presence of a gaze on the absence will make thou forget of your presence. 
@@ -27074,8 +26716,6 @@ For now I think that Niva will be safe here, but we must make haste!
 <<[>>old<<]>>The world reverses. The gaze that was staring upon you now makes sadness your enemy. 
 <<[>>old<<]>>La realtà si proietta in un mondo di diffida. Come una clessidra, il chiaroscuro è la tua guida.
 <<[>>old<<]>>Reality projects in a world of deception. Just like an hourglass, The light and shade is your guide. 
-<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
-<<[>>old<<]>>Probabilmente, con l'apposita Gemma N del PokéWES, potresti tagliare questo alberello.
 [Map632]
 <<[>>old<<]>>Il Verispecchio riflette l'immagine di...
 <<[>>old<<]>>The image reflected by the Reveal Glass is...
@@ -27346,12 +26986,6 @@ Ugh, the fake one pushed me...
 \PN, I knew you'd recognize me right away!
 Forza, dobbiamo andare avanti!
 We need to go on, let's go!
-...!
-...!
-Il motivo per cui sono riuscita ad emergere così facilmente è che le energie Xenoverse e Terrestre in questo luogo sono tutte completamente squilibrate.
-Il motivo per cui sono riuscita ad emergere così facilmente è che le energie Xenoverse e Terrestre in questo luogo sono tutte completamente squilibrate.
-<<[>>old<<]>>...
-<<[>>old<<]>>...
 [Map635]
 <<[>>old<<]>>L'acqua è di un blu intenso. Vuoi usare Surf?
 <<[>>old<<]>>The water is dyed a deep blue. Would you like to use Surf?
@@ -46836,7 +46470,7 @@ Chi la usa ruba gli aumenti delle statistiche del bersaglio, poi si nasconde nel
 The user hides in the target's shadow, steals the target's stat boosts, and then attacks.
 687
 Chi la usa scambia la propria Velocità con quella del bersaglio.
-Chi la usa scambia la propria Velocità con quella del bersaglio.
+The user exchanges Speed stats with the target.
 688
 Chi la usa attacca il bersaglio e fissa la sua ombra a terra impedendogli di fuggire.
 The user attacks while stitching the target's shadow to the ground to prevent it from escaping.

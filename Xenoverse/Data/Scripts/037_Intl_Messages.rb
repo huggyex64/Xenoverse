@@ -772,7 +772,17 @@ def _I(str)
 end
 
 def _MAPINTL(mapid,*arg)
-  string=MessageTypes.getFromMapHash(mapid,arg[0])
+  echoln arg[0]
+  echoln "MAPID #{mapid}"
+  echoln MessageTypes.getFromMapHash(mapid,arg[0])
+  
+  mx = arg[0].gsub(/’/,"'")
+	#echoln Messages.denormalizeValue(Messages.normalizeValue(arg[0]))
+	#echoln Messages.stringToKey(arg[0])
+	#for c in Messages.stringToKey(arg[0])
+	#	echo c.to_s
+	#end
+  string=MessageTypes.getFromMapHash(mapid,mx)
   string=string.clone
   for i in 1...arg.length
     string.gsub!(/\{#{i}\}/,"#{arg[i]}")
