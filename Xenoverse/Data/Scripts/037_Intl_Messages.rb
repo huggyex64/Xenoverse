@@ -772,9 +772,9 @@ def _I(str)
 end
 
 def _MAPINTL(mapid,*arg)
-  echoln arg[0]
-  echoln "MAPID #{mapid}"
-  echoln MessageTypes.getFromMapHash(mapid,arg[0])
+  #echoln arg[0]
+  #echoln "MAPID #{mapid}"
+  #echoln MessageTypes.getFromMapHash(mapid,arg[0])
   
   mx = arg[0].gsub(/’/,"'")
 	#echoln Messages.denormalizeValue(Messages.normalizeValue(arg[0]))
